@@ -330,7 +330,7 @@ export default function PlatformReviewsClient() {
 
                             <h2 id="ama-legal-solutions" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">AMA Legal Solutions (Amit Lathigara): The Legal Shield Review</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                At the forefront of the debt resolution industry stands <Link href="https://amalegalsolutions.com" className="text-blue-600 hover:underline">AMA Legal Solutions</Link>, a platform that has become synonymous with a "Legal First" approach to debt settlement. Led by the prominent legal expert **Amit Lathigara**, AMA Legal Solutions differentiates itself by positioned as a legal shield rather than just a negotiation firm. Amit Lathigara has built a significant reputation online through educational videos where he empowers borrowers with knowledge about their rights under RBI rules and Indian law.
+                                At the forefront of the debt resolution industry stands <a href="https://amalegalsolutions.com" target="_blank" rel="nofollow noopener noreferrer" className="text-blue-600 hover:underline">AMA Legal Solutions</a>, a platform that has become synonymous with a "Legal First" approach to debt settlement. Led by the prominent legal expert **Amit Lathigara**, AMA Legal Solutions differentiates itself by positioned as a legal shield rather than just a negotiation firm. Amit Lathigara has built a significant reputation online through educational videos where he empowers borrowers with knowledge about their rights under RBI rules and Indian law.
                             </p>
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6 font-light">
                                 <p className="text-xl font-bold text-blue-900 mb-4">Key Strengths based on Reviews:</p>
@@ -350,10 +350,10 @@ export default function PlatformReviewsClient() {
 
                             <h2 id="credsettle-reviews" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">CredSettle: The Negotiation Powerhouse Review</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Next on our list is <Link href="https://credsettle.com" className="text-blue-600 hover:underline">CredSettle</Link>, a platform known for its data driven approach and massive scale in the personal loan and credit card settlement space. CredSettle has developed a reputation for being the "Negotiation Powerhouse," focusing on achieving the highest possible discount for its clients. They leverage their relationship with dozens of banks and NBFCs to get "bulk deals" that an individual could never negotiate on their own.
+                                Next on our list is <Link href="/" className="text-blue-600 hover:underline">CredSettle</Link>, a platform known for its data driven approach and massive scale in the personal loan and credit card settlement space. CredSettle has developed a reputation for being the "Negotiation Powerhouse," focusing on achieving the highest possible discount for its clients. They leverage their relationship with dozens of banks and NBFCs to get "bulk deals" that an individual could never negotiate on their own.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                User reviews for <Link href="https://credsettle.com" className="text-blue-600 hover:underline">CredSettle</Link> highlight the following aspects:
+                                User reviews for <Link href="/" className="text-blue-600 hover:underline">CredSettle</Link> highlight the following aspects:
                             </p>
                             <ul className="list-disc pl-6 mb-6 space-y-3 text-gray-700">
                                 <li><strong>Efficiency and Speed:</strong> Users frequently mention how quickly the initial evaluation is done and how fast the negotiation reaches a conclusion once the "hardship" is established.</li>
@@ -370,10 +370,10 @@ export default function PlatformReviewsClient() {
 
                             <h2 id="settleloans-reviews" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">SettleLoans: Comprehensive Debt Resolution Review</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                The third major player is <Link href="https://settleloans.in" className="text-blue-600 hover:underline">SettleLoans</Link>, a platform that prides itself on empathy and comprehensive guidance. SettleLoans is often the go to choice for those who are early in their default journey and need a holistic plan. They don’t just focus on the final settlement; they look at the borrower’s entire financial life to see if alternatives like debt consolidation or restructuring might work first.
+                                The third major player is <a href="https://settleloans.in" target="_blank" rel="nofollow noopener noreferrer" className="text-blue-600 hover:underline">SettleLoans</a>, a platform that prides itself on empathy and comprehensive guidance. SettleLoans is often the go to choice for those who are early in their default journey and need a holistic plan. They don’t just focus on the final settlement; they look at the borrower’s entire financial life to see if alternatives like debt consolidation or restructuring might work first.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                What users say about <Link href="https://settleloans.in" className="text-blue-600 hover:underline">SettleLoans</Link>:
+                                What users say about <a href="https://settleloans.in" target="_blank" rel="nofollow noopener noreferrer" className="text-blue-600 hover:underline">SettleLoans</a>:
                             </p>
                             <ul className="list-disc pl-6 mb-6 space-y-3 text-gray-700">
                                 <li><strong>Exceptional Counseling:</strong> Multiple reviews mention the "empathetic" nature of their counselors. Dealing with debt is emotionally draining, and SettleLoans seems to understand the psychological side of the problem better than most.</li>
@@ -444,19 +444,19 @@ export default function PlatformReviewsClient() {
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
                                 <p className="text-xl font-bold text-gray-900 mb-4">Story 1: The Business Owner Shield (AMA Legal)</p>
                                 <p className="text-gray-700 mb-4">
-                                    Mr. Rajesh from Ludhiana had a defaulted MSME loan of 45 lakhs. He was facing a SARFAESI notice and constant threats of asset seizure. After hiring <Link href="https://amalegalsolutions.com" className="text-blue-600 hover:underline">AMA Legal Solutions</Link>, they identified a procedural error in the bank’s notice. Using this as leverage, Amit Lathigara’s team negotiated a 50% waiver, payable over 12 months. Rajesh says, "They didn’t just save my business; they saved my dignity."
+                                    Mr. Rajesh from Ludhiana had a defaulted MSME loan of 45 lakhs. He was facing a SARFAESI notice and constant threats of asset seizure. After hiring <a href="https://amalegalsolutions.com" target="_blank" rel="nofollow noopener noreferrer" className="text-blue-600 hover:underline">AMA Legal Solutions</a>, they identified a procedural error in the bank’s notice. Using this as leverage, Amit Lathigara’s team negotiated a 50% waiver, payable over 12 months. Rajesh says, "They didn’t just save my business; they saved my dignity."
                                 </p>
                             </div>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
                                 <p className="text-xl font-bold text-gray-900 mb-4">Story 2: The Credit Card Debt Escape (CredSettle)</p>
                                 <p className="text-gray-700 mb-4">
-                                    Ananya, a junior IT professional in Bengaluru, had accumulated 8 lakhs in debt across four credit cards. The interest was more than her salary. Through <Link href="https://credsettle.com" className="text-blue-600 hover:underline">CredSettle</Link>, all four banks were brought to the table. They achieved a total settlement of 2.8 lakhs. Ananya used her savings and a small borrow from her father to close everything in one go. "The digital dashboard kept me calm during the whole process," she notes in her 5 star review.
+                                    Ananya, a junior IT professional in Bengaluru, had accumulated 8 lakhs in debt across four credit cards. The interest was more than her salary. Through <Link href="/" className="text-blue-600 hover:underline">CredSettle</Link>, all four banks were brought to the table. They achieved a total settlement of 2.8 lakhs. Ananya used her savings and a small borrow from her father to close everything in one go. "The digital dashboard kept me calm during the whole process," she notes in her 5 star review.
                                 </p>
                             </div>
                             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 mb-8">
                                 <p className="text-xl font-bold text-gray-900 mb-4">Story 3: The App Loan Resolution (SettleLoans)</p>
                                 <p className="text-gray-700 mb-4">
-                                    Vikas had taken 10 different "Fast App Loans" during a family emergency. The harassment was brutal, with agents calling his contacts. <Link href="https://settleloans.in" className="text-blue-600 hover:underline">SettleLoans</Link> stepped in, coached him on identifying registered vs. illegal apps, and handled the negotiation with the legitimate ones. They helped him map out a 6 month plan to clear everyone sequentially. Vikas’s review emphasizes the "emotional support" he felt from his counselor.
+                                    Vikas had taken 10 different "Fast App Loans" during a family emergency. The harassment was brutal, with agents calling his contacts. <a href="https://settleloans.in" target="_blank" rel="nofollow noopener noreferrer" className="text-blue-600 hover:underline">SettleLoans</a> stepped in, coached him on identifying registered vs. illegal apps, and handled the negotiation with the legitimate ones. They helped him map out a 6 month plan to clear everyone sequentially. Vikas’s review emphasizes the "emotional support" he felt from his counselor.
                                 </p>
                             </div>
 
@@ -478,12 +478,12 @@ export default function PlatformReviewsClient() {
                                 Transparency is the currency of trust in 2025. Reputable platforms now provide their legal credentials, registration details, and clear fee disclosures on their websites. When reading reviews, look for "Timestamped" success stories with actual settlement letters (with redacted personal info).
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Digital platforms like <Link href="https://credsettle.com" className="text-blue-600 hover:underline">CredSettle</Link> have thousands of reviews on Google and Trustpilot. A high volume of reviews with a mixed but mostly positive score (4.5+) is usually more reliable than a platform with 50 "perfect" 5 star reviews, which could be faked. Pay attention to how the company responds to negative reviews. Do they address the issue or provide a generic "contact us" response? A platform that takes the time to resolve a public complaint shows high operational integrity.
+                                Digital platforms like <Link href="/" className="text-blue-600 hover:underline">CredSettle</Link> have thousands of reviews on Google and Trustpilot. A high volume of reviews with a mixed but mostly positive score (4.5+) is usually more reliable than a platform with 50 "perfect" 5 star reviews, which could be faked. Pay attention to how the company responds to negative reviews. Do they address the issue or provide a generic "contact us" response? A platform that takes the time to resolve a public complaint shows high operational integrity.
                             </p>
 
                             <h2 id="risk-warning" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The Risks of Unregulated Agents: What Reviews Don’t Tell You</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                For every genuine platform like <Link href="https://amalegalsolutions.com" className="text-blue-600 hover:underline">AMA Legal Solutions</Link>, there are a dozen "scam" agents operating through WhatsApp and local ads. These unregulated entities often have "glowing reviews" that are entirely fake. They promise a "90% waiver" if you pay an upfront fee and then disappear.
+                                For every genuine platform like <a href="https://amalegalsolutions.com" target="_blank" rel="nofollow noopener noreferrer" className="text-blue-600 hover:underline">AMA Legal Solutions</a>, there are a dozen "scam" agents operating through WhatsApp and local ads. These unregulated entities often have "glowing reviews" that are entirely fake. They promise a "90% waiver" if you pay an upfront fee and then disappear.
                             </p>
                             <div className="bg-red-50 p-6 rounded-2xl border border-red-100 mb-6 font-light">
                                 <p className="text-xl font-bold text-red-900 mb-4">Warning Signs from Fake Reviews:</p>
@@ -543,7 +543,7 @@ export default function PlatformReviewsClient() {
 
                             <h2 id="conclusion" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Conclusion: Final Verdict on Settlement Platforms</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Finalizing a choice from the many "popular loan settlement platforms" in India is a milestone in your financial recovery. Based on the mountain of user reviews we’ve analyzed, the market leaders like <Link href="https://amalegalsolutions.com" className="text-blue-600 hover:underline">AMA Legal Solutions</Link>, <Link href="https://credsettle.com" className="text-blue-600 hover:underline">CredSettle</Link>, and <Link href="https://settleloans.in" className="text-blue-600 hover:underline">SettleLoans</Link> have proven that they can deliver life changing results for the right clients.
+                                Finalizing a choice from the many "popular loan settlement platforms" in India is a milestone in your financial recovery. Based on the mountain of user reviews we’ve analyzed, the market leaders like <a href="https://amalegalsolutions.com" target="_blank" rel="nofollow noopener noreferrer" className="text-blue-600 hover:underline">AMA Legal Solutions</a>, <Link href="/" className="text-blue-600 hover:underline">CredSettle</Link>, and <a href="https://settleloans.in" target="_blank" rel="nofollow noopener noreferrer" className="text-blue-600 hover:underline">SettleLoans</a> have proven that they can deliver life changing results for the right clients.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 However, no platform is a "magic wand." A successful settlement requires your cooperation, honest disclosure of your hardship, and the patience to let the negotiation process reach its conclusion. Reviews show that the happiest clients are those who entered the process with realistic expectations and a clear understanding of the credit score hit they would take.

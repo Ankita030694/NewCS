@@ -5,6 +5,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXTwitter, faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faShieldHalved, faFileLines, faPhoneVolume, faHandshake, faCircleCheck, faHeadset } from '@fortawesome/free-solid-svg-icons';
 
 export default function ThankYouPage() {
   // Timer state - starting with 3 minutes (180 seconds)
@@ -208,6 +209,8 @@ export default function ThankYouPage() {
                     <div>
                       <a
                         href="https://u.payu.in/VrqKjNFWqiOB"
+                        target="_blank"
+                        rel="nofollow noopener noreferrer"
                         style={{
                           width: '135px',
                           backgroundColor: '#1065B7',
@@ -294,7 +297,7 @@ export default function ThankYouPage() {
               <a
                 href="https://x.com/Credsettle"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
                 className="text-[#0C2756] hover:opacity-70 transition-opacity"
               >
                 <FontAwesomeIcon icon={faXTwitter} className="w-4 h-4 md:w-5 md:h-5" />
@@ -302,7 +305,7 @@ export default function ThankYouPage() {
               <a
                 href="https://www.instagram.com/credsettle/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
                 className="text-[#0C2756] hover:opacity-70 transition-opacity"
               >
                 <FontAwesomeIcon icon={faInstagram} className="w-4 h-4 md:w-5 md:h-5" />
@@ -310,7 +313,7 @@ export default function ThankYouPage() {
               <a
                 href="https://www.facebook.com/share/12DnnQSV4iP/?mibextid=wwXIfr"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
                 className="text-[#0C2756] hover:opacity-70 transition-opacity"
               >
                 <FontAwesomeIcon icon={faFacebook} className="w-4 h-4 md:w-5 md:h-5" />
@@ -318,11 +321,94 @@ export default function ThankYouPage() {
               <a
                 href="https://www.linkedin.com/company/credsettle"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
                 className="text-[#0C2756] hover:opacity-70 transition-opacity"
               >
                 <FontAwesomeIcon icon={faLinkedin} className="w-4 h-4 md:w-5 md:h-5" />
               </a>
+            </div>
+
+            {/* Next Steps Roadmap & Guidance */}
+            <div className="w-full max-w-5xl mx-auto my-8 px-4">
+              <div className="text-center mb-8">
+                <span className="inline-block px-3.5 py-1 rounded-full text-xs font-semibold bg-[#E8F3FF] text-[#1065B7] uppercase tracking-wider mb-2">
+                  Roadmap to Debt Freedom
+                </span>
+                <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-[#0C2756]">
+                  What Happens Next in Your Debt Relief Process?
+                </h2>
+                <p className="text-sm md:text-base text-[#0C2756]/70 mt-2 max-w-2xl mx-auto">
+                  Our certified debt settlement advocates will guide you at every stage to achieve financial peace of mind.
+                </p>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5 mb-8">
+                <div className="bg-[#F8FAFC] border border-[#E2E8F0] rounded-2xl p-5 text-center flex flex-col items-center hover:shadow-md transition-shadow">
+                  <div className="w-12 h-12 rounded-xl bg-[#1065B7]/10 text-[#1065B7] flex items-center justify-center mb-3">
+                    <FontAwesomeIcon icon={faFileLines} className="w-5 h-5" />
+                  </div>
+                  <span className="text-xs font-bold text-[#1065B7] mb-1">STEP 1</span>
+                  <h3 className="text-base font-bold text-[#0C2756] mb-1.5">Case Assessment</h3>
+                  <p className="text-xs text-[#0C2756]/70 leading-relaxed">
+                    Our legal team reviews your loan accounts, default duration, and outstanding balances.
+                  </p>
+                </div>
+
+                <div className="bg-[#F8FAFC] border border-[#E2E8F0] rounded-2xl p-5 text-center flex flex-col items-center hover:shadow-md transition-shadow">
+                  <div className="w-12 h-12 rounded-xl bg-[#1065B7]/10 text-[#1065B7] flex items-center justify-center mb-3">
+                    <FontAwesomeIcon icon={faPhoneVolume} className="w-5 h-5" />
+                  </div>
+                  <span className="text-xs font-bold text-[#1065B7] mb-1">STEP 2</span>
+                  <h3 className="text-base font-bold text-[#0C2756] mb-1.5">Free Consultation</h3>
+                  <p className="text-xs text-[#0C2756]/70 leading-relaxed">
+                    An advocate connects with you to explain legal rights, waiver estimates, and settlement options.
+                  </p>
+                </div>
+
+                <div className="bg-[#F8FAFC] border border-[#E2E8F0] rounded-2xl p-5 text-center flex flex-col items-center hover:shadow-md transition-shadow">
+                  <div className="w-12 h-12 rounded-xl bg-[#1065B7]/10 text-[#1065B7] flex items-center justify-center mb-3">
+                    <FontAwesomeIcon icon={faShieldHalved} className="w-5 h-5" />
+                  </div>
+                  <span className="text-xs font-bold text-[#1065B7] mb-1">STEP 3</span>
+                  <h3 className="text-base font-bold text-[#0C2756] mb-1.5">Anti-Harassment Shield</h3>
+                  <p className="text-xs text-[#0C2756]/70 leading-relaxed">
+                    Immediate legal representation to shield you from aggressive collection calls under RBI rules.
+                  </p>
+                </div>
+
+                <div className="bg-[#F8FAFC] border border-[#E2E8F0] rounded-2xl p-5 text-center flex flex-col items-center hover:shadow-md transition-shadow">
+                  <div className="w-12 h-12 rounded-xl bg-[#1065B7]/10 text-[#1065B7] flex items-center justify-center mb-3">
+                    <FontAwesomeIcon icon={faHandshake} className="w-5 h-5" />
+                  </div>
+                  <span className="text-xs font-bold text-[#1065B7] mb-1">STEP 4</span>
+                  <h3 className="text-base font-bold text-[#0C2756] mb-1.5">Official OTS Closure</h3>
+                  <p className="text-xs text-[#0C2756]/70 leading-relaxed">
+                    We negotiate maximum principal discounts and secure bank-issued No Dues Certificates (NDC).
+                  </p>
+                </div>
+              </div>
+
+              {/* Tips Box */}
+              <div className="bg-[#FFFBEB] border border-[#FDE68A] rounded-2xl p-5 text-left md:flex items-center justify-between gap-4">
+                <div className="flex items-start gap-3">
+                  <span className="text-xl">💡</span>
+                  <div>
+                    <h4 className="text-sm font-bold text-[#92400E]">Important Tip for Borrowers</h4>
+                    <p className="text-xs text-[#78350F] mt-0.5 leading-relaxed">
+                      Please keep your loan statements and legal notices ready. Never pay any cash directly to recovery agents without an official written One-Time Settlement (OTS) letter from your bank.
+                    </p>
+                  </div>
+                </div>
+                <div className="mt-3 md:mt-0 flex-shrink-0">
+                  <a
+                    href="tel:8800226635"
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-[#1065B7] text-white text-xs font-semibold hover:bg-[#0C4E8F] transition-colors"
+                  >
+                    <FontAwesomeIcon icon={faHeadset} className="w-3.5 h-3.5" />
+                    Help Desk: 8800226635
+                  </a>
+                </div>
+              </div>
             </div>
 
             {/* Guidelines and Media Coverage Section */}
@@ -343,32 +429,32 @@ export default function ThankYouPage() {
                   </p>
                   <div className="marquee-container">
                     <div className="marquee-content">
-                      <a href="https://msme.gov.in/" target="_blank" rel="noopener noreferrer" className="marquee-item">
+                      <a href="https://msme.gov.in/" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item">
                         <img src="/guideline1.svg" alt="MSME" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
-                      <a href="https://nhrc.nic.in/" target="_blank" rel="noopener noreferrer" className="marquee-item">
+                      <a href="https://nhrc.nic.in/" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item">
                         <img src="/guideline2.svg" alt="NHRC" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
-                      <a href="https://www.barcouncilofindia.org/home" target="_blank" rel="noopener noreferrer" className="marquee-item">
+                      <a href="https://www.barcouncilofindia.org/home" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item">
                         <img src="/guideline3.svg" alt="Bar Council" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
-                      <a href="http://www.trai.gov.in/" target="_blank" rel="noopener noreferrer" className="marquee-item">
+                      <a href="http://www.trai.gov.in/" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item">
                         <img src="/guideline4.svg" alt="TRAI" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
-                      <a href="https://www.iba.org.in/index.html" target="_blank" rel="noopener noreferrer" className="marquee-item">
+                      <a href="https://www.iba.org.in/index.html" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item">
                         <img src="/guideline5.svg" alt="IBA" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
-                      <a href="https://lawmin.gov.in/" target="_blank" rel="noopener noreferrer" className="marquee-item">
+                      <a href="https://lawmin.gov.in/" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item">
                         <img src="/guideline6.svg" alt="Law Ministry" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
                       {/* Duplicate for seamless loop */}
-                      <a href="https://msme.gov.in/" target="_blank" rel="noopener noreferrer" className="marquee-item">
+                      <a href="https://msme.gov.in/" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item">
                         <img src="/guideline1.svg" alt="MSME" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
-                      <a href="https://nhrc.nic.in/" target="_blank" rel="noopener noreferrer" className="marquee-item">
+                      <a href="https://nhrc.nic.in/" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item">
                         <img src="/guideline2.svg" alt="NHRC" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
-                      <a href="https://www.barcouncilofindia.org/home" target="_blank" rel="noopener noreferrer" className="marquee-item">
+                      <a href="https://www.barcouncilofindia.org/home" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item">
                         <img src="/guideline3.svg" alt="Bar Council" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
                     </div>
@@ -390,29 +476,29 @@ export default function ThankYouPage() {
                   </p>
                   <div className="marquee-container">
                     <div className="marquee-content marquee-reverse">
-                      <a href="https://yourstory.com/companies/credsettle" target="_blank" rel="noopener noreferrer" className="marquee-item" aria-label="CredSettle on YourStory">
+                      <a href="https://yourstory.com/companies/credsettle" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item" aria-label="CredSettle on YourStory">
                         <img src="/media/media1.svg" alt="CredSettle on YourStory" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
-                      <a href="https://medium.com/@credsettle/" target="_blank" rel="noopener noreferrer" className="marquee-item" aria-label="CredSettle on Medium">
+                      <a href="https://medium.com/@credsettle/" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item" aria-label="CredSettle on Medium">
                         <img src="/media/media2.svg" alt="CredSettle on Medium" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
-                      <a href="https://yourstory.com/companies/credsettle" target="_blank" rel="noopener noreferrer" className="marquee-item" aria-label="CredSettle on YourStory">
+                      <a href="https://yourstory.com/companies/credsettle" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item" aria-label="CredSettle on YourStory">
                         <img src="/media/media3.svg" alt="CredSettle on YourStory" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
-                      <a href="https://medium.com/@credsettle/" target="_blank" rel="noopener noreferrer" className="marquee-item" aria-label="CredSettle on Medium">
+                      <a href="https://medium.com/@credsettle/" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item" aria-label="CredSettle on Medium">
                         <img src="/media/media4.svg" alt="CredSettle on Medium" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
                       {/* Duplicate for seamless loop */}
-                      <a href="https://yourstory.com/companies/credsettle" target="_blank" rel="noopener noreferrer" className="marquee-item" aria-label="CredSettle on YourStory">
+                      <a href="https://yourstory.com/companies/credsettle" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item" aria-label="CredSettle on YourStory">
                         <img src="/media/media1.svg" alt="CredSettle on YourStory" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
-                      <a href="https://medium.com/@credsettle/" target="_blank" rel="noopener noreferrer" className="marquee-item" aria-label="CredSettle on Medium">
+                      <a href="https://medium.com/@credsettle/" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item" aria-label="CredSettle on Medium">
                         <img src="/media/media2.svg" alt="CredSettle on Medium" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
-                      <a href="https://yourstory.com/companies/credsettle" target="_blank" rel="noopener noreferrer" className="marquee-item" aria-label="CredSettle on YourStory">
+                      <a href="https://yourstory.com/companies/credsettle" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item" aria-label="CredSettle on YourStory">
                         <img src="/media/media3.svg" alt="CredSettle on YourStory" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
-                      <a href="https://medium.com/@credsettle/" target="_blank" rel="noopener noreferrer" className="marquee-item" aria-label="CredSettle on Medium">
+                      <a href="https://medium.com/@credsettle/" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item" aria-label="CredSettle on Medium">
                         <img src="/media/media4.svg" alt="CredSettle on Medium" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
                     </div>

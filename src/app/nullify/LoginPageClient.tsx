@@ -89,7 +89,9 @@ export default function LoginPageClient() {
               <div className="relative rounded-[26px] bg-white shadow-[0_30px_80px_rgba(0,0,0,0.35)] border border-[rgba(17,17,17,0.08)] p-6 sm:p-8 space-y-6">
                 <header className="space-y-2">
                   <h1 className="text-2xl font-semibold text-[#0d2a1e]">Welcome back</h1>
-                 
+                  <h2 className="text-sm font-normal text-[#0d2a1e]/70">
+                    Sign in to your CredSettle portal account
+                  </h2>
                 </header>
 
                 <form className="space-y-5" onSubmit={handleSubmit}>
