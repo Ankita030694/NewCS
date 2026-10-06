@@ -1,5 +1,5 @@
 // Import comprehensive bank content generator for credit card settlement
-import { generateBankContent, generateBankSlug } from './bank-content-generator';
+import { generateBankContent, generateBankSlug, getBankMetaTitle } from './bank-content-generator';
 
 export interface BankContent {
   bankName: string;
@@ -181,7 +181,7 @@ export function getBankContentWithFallback(bankSlug: string): BankContent {
     bankName,
     slug,
     title: `${bankName} Credit Card Settlement - How to Settle Your Credit Card Dues with ${bankName} Legally in India (2025 Guide)`,
-    metaTitle: generatedContent?.metaTitle || `${bankName} Credit Card Settlement | Legal Help to Settle Credit Card Dues | CredSettle`,
+    metaTitle: generatedContent?.metaTitle || getBankMetaTitle(bankName),
     metaDescription: `Struggling with ${bankName} credit card dues? CredSettle helps you legally settle credit card debt under RBI guidelines. Get 50% settlement support today!`,
     heroTitle: `${bankName} Credit Card Settlement`,
     heroDescription: `Expert legal assistance to settle your ${bankName} credit card dues through RBI-compliant One-Time Settlement (OTS). Stop harassment and achieve debt freedom with CredSettle’s lawyer panel.`,

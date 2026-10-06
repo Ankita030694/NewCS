@@ -9,16 +9,22 @@ export interface LocationData {
 }
 
 export function getCityMetaTitle(name: string): string {
-  const full = `Loan Settlement in ${name} | CredSettle`;
-  if (full.length <= 60) return full;
+  const cleanName = name
+    .replace('Dadra and Nagar Haveli and Daman and Diu', 'DNH & Daman Diu')
+    .replace('Dadra and Nagar Haveli', 'Dadra & Nagar Haveli')
+    .replace('Andaman and Nicobar Islands', 'Andaman & Nicobar')
+    .replace('Jammu and Kashmir', 'Jammu & Kashmir');
 
-  const compact = `Loan Settlement ${name} | CredSettle`;
-  if (compact.length <= 60) return compact;
+  const full = `Loan Settlement in ${cleanName} | CredSettle`;
+  if (full.length <= 58) return full;
 
-  const noBrand = `Loan Settlement in ${name}`;
-  if (noBrand.length <= 60) return noBrand;
+  const compact = `Loan Settlement ${cleanName} | CredSettle`;
+  if (compact.length <= 58) return compact;
 
-  return `Loan Settlement - ${name}`.slice(0, 60);
+  const noBrand = `Loan Settlement in ${cleanName}`;
+  if (noBrand.length <= 58) return noBrand;
+
+  return `Loan Settlement - ${cleanName}`.slice(0, 58);
 }
 
 export function getCityMetaDescription(name: string): string {

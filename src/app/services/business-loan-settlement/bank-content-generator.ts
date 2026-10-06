@@ -485,6 +485,36 @@ export function generateBankSlug(bankName: string): string {
     .replace(/^-+|-+$/g, '');
 }
 
+export function getBankMetaTitle(bankName: string): string {
+  const b = bankName.trim();
+  const candidates = [
+    `${b} Business Loan Settlement | CredSettle`,
+    `Settle ${b} Business Loan Legally | CredSettle`,
+  ];
+  for (const cand of candidates) {
+    if (cand.length >= 30 && cand.length <= 58) return cand;
+  }
+  const shortB = b
+    .replace('Private Limited', 'Pvt Ltd')
+    .replace('Technologies India Pvt Ltd', 'Tech')
+    .replace('Technologies', 'Tech')
+    .replace('Limited', 'Ltd')
+    .replace('Financial Services', 'Fin')
+    .replace('Finance', 'Fin')
+    .replace('Small Finance Bank', 'SFB')
+    .replace('Standard Chartered Bank', 'Standard Chartered');
+
+  const shortCandidates = [
+    `${shortB} Business Loan Settlement | CredSettle`,
+    `Settle ${shortB} Business Loan | CredSettle`,
+    `${shortB} Business Settlement | CredSettle`
+  ];
+  for (const cand of shortCandidates) {
+    if (cand.length >= 30 && cand.length <= 58) return cand;
+  }
+  return `${shortB.slice(0, 20).trim()} Business Loan Settlement | CredSettle`;
+}
+
 // Generate comprehensive content for a bank (business loan settlement specific)
 export function generateBankContent(bankSlug: string): Partial<BankContent> | {} {
   const bankInfo = bankInfoMap[bankSlug];
@@ -504,7 +534,7 @@ export function generateBankContent(bankSlug: string): Partial<BankContent> | {}
   const stepsVariant = (hash + 4) % 3;
 
   return {
-    metaTitle: `${name} Business Loan Settlement | Legal Help to Settle Business Loans | CredSettle`,
+    metaTitle: getBankMetaTitle(name),
 
     // H2: Why People Choose Business Loan Settlement with [Bank Name]
     whyChooseSettlement: [

@@ -485,6 +485,36 @@ export function generateBankSlug(bankName: string): string {
     .replace(/^-+|-+$/g, '');
 }
 
+export function getBankMetaTitle(bankName: string): string {
+  const b = bankName.trim();
+  const candidates = [
+    `${b} Credit Card Settlement | CredSettle`,
+    `Settle ${b} Credit Card Legally | CredSettle`,
+  ];
+  for (const cand of candidates) {
+    if (cand.length >= 30 && cand.length <= 58) return cand;
+  }
+  const shortB = b
+    .replace('Private Limited', 'Pvt Ltd')
+    .replace('Technologies India Pvt Ltd', 'Tech')
+    .replace('Technologies', 'Tech')
+    .replace('Limited', 'Ltd')
+    .replace('Financial Services', 'Fin')
+    .replace('Finance', 'Fin')
+    .replace('Small Finance Bank', 'SFB')
+    .replace('Standard Chartered Bank', 'Standard Chartered');
+
+  const shortCandidates = [
+    `${shortB} Credit Card Settlement | CredSettle`,
+    `Settle ${shortB} Credit Card | CredSettle`,
+    `${shortB} Card Settlement | CredSettle`
+  ];
+  for (const cand of shortCandidates) {
+    if (cand.length >= 30 && cand.length <= 58) return cand;
+  }
+  return `${shortB.slice(0, 22).trim()} Card Settlement | CredSettle`;
+}
+
 // Generate comprehensive content for a bank (credit card settlement specific)
 export function generateBankContent(bankSlug: string): Partial<BankContent> | {} {
   const bankInfo = bankInfoMap[bankSlug];
@@ -504,7 +534,7 @@ export function generateBankContent(bankSlug: string): Partial<BankContent> | {}
   const stepsVariant = (hash + 4) % 3;
 
   return {
-    metaTitle: `${name} Credit Card Settlement | Legal Help to Settle Credit Card Dues | CredSettle`,
+    metaTitle: getBankMetaTitle(name),
 
     // H2: Why People Choose Credit Card Settlement with [Bank Name]
     whyChooseSettlement: [

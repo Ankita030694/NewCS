@@ -1,5 +1,5 @@
 // Import comprehensive bank content generator for business loan settlement
-import { generateBankContent, generateBankSlug } from './bank-content-generator';
+import { generateBankContent, generateBankSlug, getBankMetaTitle } from './bank-content-generator';
 
 export interface BankContent {
   bankName: string;
@@ -182,7 +182,7 @@ export function getBankContentWithFallback(bankSlug: string): BankContent {
     bankName,
     slug,
     title: `${bankName} Business Loan Settlement - How to Settle Your Business Loan with ${bankName} Legally in India (2025 Guide)`,
-    metaTitle: generatedContent?.metaTitle || `${bankName} Business Loan Settlement | Legal Help to Settle Business Loans | CredSettle`,
+    metaTitle: generatedContent?.metaTitle || getBankMetaTitle(bankName),
     metaDescription: `Struggling with ${bankName} business loan dues? CredSettle helps you legally settle business loans under RBI guidelines. Get 50% settlement support and protect your assets today!`,
     heroTitle: `${bankName} Business Loan Settlement`,
     heroDescription: `Expert legal assistance to settle your ${bankName} business loans through RBI-compliant One-Time Settlement (OTS). Protect assets, restore cash flow, and achieve debt freedom with CredSettle’s lawyer panel.`,

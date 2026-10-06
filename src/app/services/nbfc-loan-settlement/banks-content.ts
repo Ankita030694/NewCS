@@ -1,5 +1,5 @@
 // Import comprehensive bank content generator for NBFC loan settlement
-import { generateBankContent, generateBankSlug } from './bank-content-generator';
+import { generateBankContent, generateBankSlug, getBankMetaTitle } from './bank-content-generator';
 
 export interface BankContent {
   bankName: string;
@@ -168,7 +168,7 @@ export function getBankContentWithFallback(bankSlug: string): BankContent {
     bankName,
     slug,
     title: `${bankName} NBFC Loan Settlement - How to Settle Your NBFC Loan Dues with ${bankName} Legally in India (2025 Guide)`,
-    metaTitle: generatedContent?.metaTitle || `${bankName} NBFC Loan Settlement | Legal Help to Settle NBFC Loan Dues | CredSettle`,
+    metaTitle: generatedContent?.metaTitle || getBankMetaTitle(bankName),
     metaDescription: `Struggling with ${bankName} NBFC loan dues? CredSettle helps you legally settle NBFC loan debt under RBI guidelines. Navigate NBFC policies and achieve debt freedom with expert legal assistance.`,
     heroTitle: `${bankName} NBFC Loan Settlement`,
     heroDescription: `Expert legal assistance to settle your ${bankName} NBFC loan dues through RBI-compliant One-Time Settlement (OTS). Navigate NBFC-specific policies, stop harassment, and achieve debt freedom with CredSettle’s lawyer panel.`,

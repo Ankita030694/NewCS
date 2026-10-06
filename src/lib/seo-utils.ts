@@ -15,15 +15,44 @@ export function sanitizeMetaTitle(rawTitle?: string, brand = 'CredSettle'): stri
     .trim();
 
   const withBrand = `${clean} | ${brand}`;
-  if (withBrand.length >= 30 && withBrand.length <= 60) return withBrand;
+  if (withBrand.length >= 30 && withBrand.length <= 58) return withBrand;
   if (withBrand.length < 30) {
     const extended = `${withBrand} Legal Help`;
-    if (extended.length <= 60) return extended;
+    if (extended.length <= 58) return extended;
     return withBrand;
   }
-  if (clean.length >= 30 && clean.length <= 60) return clean;
-  if (clean.length < 30) return withBrand;
-  return clean.slice(0, 57).trim() + '...';
+
+  // Shorten common corporate suffixes and long territory names if too long
+  let s = clean
+    .replace(/Dadra and Nagar Haveli and Daman and Diu/gi, 'DNH & Daman Diu')
+    .replace(/Dadra and Nagar Haveli/gi, 'Dadra & Nagar Haveli')
+    .replace(/Andaman and Nicobar Islands/gi, 'Andaman & Nicobar')
+    .replace(/Andaman and Nicobar/gi, 'Andaman & Nicobar')
+    .replace(/Jammu and Kashmir/gi, 'Jammu & Kashmir')
+    .replace(/Private Limited/gi, 'Pvt Ltd')
+    .replace(/Technologies India Pvt Ltd/gi, 'Tech')
+    .replace(/Technologies/gi, 'Tech')
+    .replace(/Limited/gi, 'Ltd')
+    .replace(/Financial Services/gi, 'Fin')
+    .replace(/Finance/gi, 'Fin')
+    .replace(/Small Finance Bank/gi, 'SFB')
+    .replace(/Standard Chartered Bank/gi, 'Standard Chartered');
+
+  const withBrandShort = `${s} | ${brand}`;
+  if (withBrandShort.length >= 30 && withBrandShort.length <= 58) return withBrandShort;
+  if (s.length >= 30 && s.length <= 58 && s !== clean) return `${s} | ${brand}`;
+
+  // Smart word-boundary truncation (target <= 45 chars to allow brand to fit safely)
+  const maxContentLen = 58 - 3 - brand.length;
+  const sub = s.slice(0, maxContentLen);
+  const lastSpace = sub.lastIndexOf(' ');
+  if (lastSpace >= 15) {
+    const truncated = sub.slice(0, lastSpace).replace(/[,;:\-–—|&]+$/, '').trim();
+    const cand = `${truncated} | ${brand}`;
+    if (cand.length >= 30 && cand.length <= 58) return cand;
+  }
+
+  return `${s.slice(0, maxContentLen).trim()} | ${brand}`;
 }
 
 export function sanitizeMetaDescription(rawDesc?: string): string {

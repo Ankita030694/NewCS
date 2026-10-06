@@ -1,5 +1,5 @@
 // Import comprehensive bank content generator
-import { generateBankContent, generateBankSlug } from './bank-content-generator';
+import { generateBankContent, generateBankSlug, getBankMetaTitle } from './bank-content-generator';
 
 export interface BankContent {
   bankName: string;
@@ -181,7 +181,7 @@ export function getBankContentWithFallback(bankSlug: string): BankContent {
     bankName,
     slug,
     title: `${bankName} Loan Settlement - How to Settle Your Loan with ${bankName} Legally in India (2025 Guide)`,
-    metaTitle: generatedContent?.metaTitle || `${bankName} Loan Settlement | Legal Help to Settle Loans | CredSettle`,
+    metaTitle: generatedContent?.metaTitle || getBankMetaTitle(bankName),
     metaDescription: `Struggling with ${bankName} loan dues? CredSettle helps you legally settle personal, business, or credit card loans under RBI guidelines. Get 50% settlement support today!`,
     heroTitle: `${bankName} Loan Settlement`,
     heroDescription: `Expert legal assistance to settle your ${bankName} loans through RBI-compliant One-Time Settlement (OTS). Stop harassment and achieve debt freedom with CredSettle’s lawyer panel.`,

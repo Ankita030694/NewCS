@@ -485,6 +485,40 @@ export function generateBankSlug(bankName: string): string {
     .replace(/^-+|-+$/g, '');
 }
 
+export function getBankMetaTitle(bankName: string): string {
+  const b = bankName.trim();
+  const candidates = [
+    `${b} Personal Loan Settlement | CredSettle`,
+    `Settle ${b} Personal Loan | CredSettle`,
+    `${b} Loan Settlement | CredSettle`,
+    `Settle ${b} Loan Legally | CredSettle`,
+  ];
+  for (const cand of candidates) {
+    if (cand.length >= 30 && cand.length <= 58) return cand;
+  }
+  const shortB = b
+    .replace('Private Limited', 'Pvt Ltd')
+    .replace('Technologies India Pvt Ltd', 'Tech')
+    .replace('Technologies', 'Tech')
+    .replace('Limited', 'Ltd')
+    .replace('Financial Services', 'Fin')
+    .replace('Finance', 'Fin')
+    .replace('Small Finance Bank', 'SFB')
+    .replace('Standard Chartered Bank', 'Standard Chartered');
+
+  const shortCandidates = [
+    `${shortB} Personal Loan Settlement | CredSettle`,
+    `Settle ${shortB} Personal Loan | CredSettle`,
+    `${shortB} Loan Settlement | CredSettle`,
+    `Settle ${shortB} Loan | CredSettle`,
+    `${shortB} Settlement | CredSettle`
+  ];
+  for (const cand of shortCandidates) {
+    if (cand.length >= 30 && cand.length <= 58) return cand;
+  }
+  return `${shortB.slice(0, 20).trim()} Personal Loan Settlement | CredSettle`;
+}
+
 // Generate comprehensive content for a bank
 export function generateBankContent(bankSlug: string): Partial<BankContent> | {} {
   const bankInfo = bankInfoMap[bankSlug];
@@ -504,7 +538,7 @@ export function generateBankContent(bankSlug: string): Partial<BankContent> | {}
   const stepsVariant = (hash + 4) % 3;
 
   return {
-    metaTitle: `${name} Loan Settlement | Legal Help to Settle Loans | CredSettle`,
+    metaTitle: getBankMetaTitle(name),
 
     // H2: Why People Choose Loan Settlement with [Bank Name]
     whyChooseSettlement: [

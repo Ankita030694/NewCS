@@ -1,5 +1,5 @@
 // Import comprehensive bank content generator for car loan settlement
-import { generateBankContent, generateBankSlug } from './bank-content-generator';
+import { generateBankContent, generateBankSlug, getBankMetaTitle } from './bank-content-generator';
 
 export interface BankContent {
   bankName: string;
@@ -183,7 +183,7 @@ export function getBankContentWithFallback(bankSlug: string): BankContent {
     bankName,
     slug,
     title: `${bankName} Car Loan Settlement - How to Settle Your Car Loan Dues with ${bankName} Legally in India (2025 Guide)`,
-    metaTitle: generatedContent?.metaTitle || `${bankName} Car Loan Settlement | Legal Help to Settle Car Loan Dues | CredSettle`,
+    metaTitle: generatedContent?.metaTitle || getBankMetaTitle(bankName),
     metaDescription: `Struggling with ${bankName} car loan dues? CredSettle helps you legally settle car loan debt under RBI guidelines. Protect your vehicle and achieve debt freedom with expert legal assistance.`,
     heroTitle: `${bankName} Car Loan Settlement`,
     heroDescription: `Expert legal assistance to settle your ${bankName} car loan dues through RBI-compliant One-Time Settlement (OTS). Stop harassment, prevent vehicle repossession, and achieve debt freedom with CredSettle’s lawyer panel.`,

@@ -1,5 +1,5 @@
 // Import comprehensive bank content generator for app loan settlement
-import { generateBankContent, generateBankSlug } from './bank-content-generator';
+import { generateBankContent, generateBankSlug, getBankMetaTitle } from './bank-content-generator';
 
 export interface BankContent {
   bankName: string;
@@ -154,7 +154,7 @@ export function getBankContentWithFallback(bankSlug: string): BankContent {
     bankName,
     slug,
     title: `${bankName} App Loan Settlement: How to Settle Your App Loan Dues with ${bankName} Legally in India (2025 Guide)`,
-    metaTitle: generatedContent?.metaTitle || `${bankName} App Loan Settlement | Legal Help to Settle App Loan Dues | CredSettle`,
+    metaTitle: generatedContent?.metaTitle || getBankMetaTitle(bankName),
     metaDescription: `Struggling with ${bankName} app loan dues and harassment? CredSettle helps you legally settle app loan debt under RBI guidelines. Stop harassment, navigate app loan policies, and achieve debt freedom with expert legal assistance.`,
     heroTitle: `${bankName} App Loan Settlement`,
     heroDescription: `Expert legal assistance to settle your ${bankName} app loan dues through RBI-compliant One-Time Settlement (OTS). Stop harassment, protect your data privacy, navigate app loan-specific policies, and achieve debt freedom with CredSettle’s lawyer panel.`,

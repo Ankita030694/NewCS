@@ -359,7 +359,7 @@ export function generateComprehensiveContent(stateSlug: string): Partial<StateCo
   ][stateIntroHash % 6];
 
   return {
-    metaTitle: `Loan Settlement in ${name} | CredSettle`,
+    metaTitle: `Personal Loan Settlement in ${name} | CredSettle`,
 
     // Unique state-specific introduction
     stateIntroduction: stateStats,
