@@ -378,12 +378,12 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                   <div className="flex flex-col items-center gap-[35px] w-full max-w-[644px]">
                     {/* Text Content */}
                     <div className="flex flex-col items-center gap-[28px] w-full">
-                      <h2
+                      <h3
                         className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full"
                         style={{ color: '#0C2756' }}
                       >
                         Ready to Settle Your {content.bankName} Loan Legally?
-                      </h2>
+                      </h3>
                       <p
                         className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full"
                         style={{ color: 'rgba(12, 39, 86, 0.70)' }}

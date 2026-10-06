@@ -120,7 +120,7 @@ export default function Tier1Template({ bankName, slug }: { bankName: string, sl
   const tocSections = [
     { id: "why-settle", text: `Why Consider a ${bankName} Settlement?`, level: 2 },
     { id: "credsettle-process", text: `The CredSettle Approach for ${bankName}`, level: 2 },
-    { id: "rbi-rights", text: `Your Rights Under RBI 2026 Guidelines for ${bankName}`, level: 2 },
+    { id: "rbi-rights", text: `Your RBI Rights for ${bankName}`, level: 2 },
     { id: "state-jurisdictions", text: `State-Specific Resolutions for ${bankName}`, level: 2 },
   ];
 
@@ -172,7 +172,7 @@ export default function Tier1Template({ bankName, slug }: { bankName: string, sl
               </p>
             </div>
 
-            <h2 id="rbi-rights" className="scroll-mt-24 text-3xl font-bold mb-4">Your Rights Under RBI 2026 Guidelines for {bankName}</h2>
+            <h2 id="rbi-rights" className="scroll-mt-24 text-3xl font-bold mb-4">Your RBI Rights for {bankName}</h2>
             <ul className="list-disc pl-6 text-gray-700 mb-8 space-y-2">
               <li><strong>Zero Tolerance for Abuse:</strong> {bankName} agents cannot use threatening language or intimidate you.</li>
               <li><strong>Privacy Protection:</strong> Calling your workplace, HR department, or relatives is strictly prohibited.</li>

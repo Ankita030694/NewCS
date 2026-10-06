@@ -2089,9 +2089,12 @@ export default function SitemapPage() {
             <Navbar />
             <div className="relative z-10 pt-32 pb-20 px-4 md:px-8 bg-[#FAFAFA]">
                 <div className="max-w-7xl mx-auto">
-                    <h1 className="text-4xl md:text-5xl font-extrabold text-[#3a3532] mb-12" style={{ fontFamily: 'sans-serif' }}>
+                    <h1 className="text-4xl md:text-5xl font-extrabold text-[#3a3532] mb-4" style={{ fontFamily: 'sans-serif' }}>
                         Sitemap
                     </h1>
+                    <h2 className="text-lg md:text-xl font-medium text-gray-600 mb-10">
+                        Explore All Debt Settlement Guides &amp; Legal Services
+                    </h2>
                     
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                         {sitemapLinks.map((link, index) => (
