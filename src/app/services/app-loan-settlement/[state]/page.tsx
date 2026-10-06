@@ -89,7 +89,7 @@ function generateHeadings(content: any) {
   if (content.whyAppLoanSettlement) {
     headings.push({
       id: 'why-app-loan-settlement',
-      text: `Why App Loan Settlement Is Essential for ${content.stateName} Borrowers`,
+      text: `App Loan Settlement in ${content.stateName}`,
       level: 2
     });
   }
@@ -97,7 +97,7 @@ function generateHeadings(content: any) {
   if (content.commonAppLoanProblems) {
     headings.push({
       id: 'common-app-loan-problems',
-      text: `Common App Loan Problems Faced in ${content.stateName}`,
+      text: `Common App Loan Problems in ${content.stateName}`,
       level: 2
     });
   }
@@ -137,7 +137,7 @@ function generateHeadings(content: any) {
   if (content.benefits) {
     headings.push({
       id: 'benefits',
-      text: `Benefits of Choosing CredSettle for App Loan Settlement in ${content.stateName}`,
+      text: `Why Choose CredSettle in ${content.stateName}`,
       level: 2
     });
   }
@@ -161,7 +161,7 @@ function generateHeadings(content: any) {
   if (content.caseStudy) {
     headings.push({
       id: 'case-study',
-      text: `Real Case Study: App Loan Crisis Resolution in ${content.stateName}`,
+      text: `App Loan Case Study in ${content.stateName}`,
       level: 2
     });
   }

@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import UnderstandingCCInterestClient from './UnderstandingCCInterestClient';
 
 export const metadata: Metadata = {
-    title: "Understanding the Impact of High Credit Card Interest Rates",
-    description: "Consumers carry forward credit card balances paying the Minimum Due, blind to the 36-42% APR compounding daily. Learn credit card interest rate.",
+    title: "High Credit Card Interest Rates: Hidden Cost & Debt Relief",
+    description: "Learn how high credit card interest rates (36-42% APR) compound debt daily and discover practical strategies to escape credit card debt traps.",
     keywords: [
         "credit card interest rate calculation",
         "credit card APR explained",
@@ -16,6 +16,19 @@ export const metadata: Metadata = {
         "balance transfer strategies",
         "personal loan for credit card debt"
     ],
+    openGraph: {
+        title: "High Credit Card Interest Rates: Hidden Cost & Debt Relief",
+        description: "Learn how high credit card interest rates (36-42% APR) compound debt daily and discover practical strategies to escape credit card debt traps.",
+        type: "article",
+        locale: "en_IN",
+        siteName: "CredSettle",
+        url: "https://www.credsettle.com/understanding-the-impact-of-high-credit-card-interest-rates-what-you-need-to-know"
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "High Credit Card Interest Rates: Hidden Cost & Debt Relief",
+        description: "Learn how high credit card interest rates (36-42% APR) compound debt daily and discover practical strategies to escape credit card debt traps."
+    },
     alternates: {
         canonical: 'https://www.credsettle.com/understanding-the-impact-of-high-credit-card-interest-rates-what-you-need-to-know',
     },

@@ -89,7 +89,7 @@ function generateHeadings(content: any) {
   if (content.whyNBFCLoanSettlement) {
     headings.push({
       id: 'why-nbfc-loan-settlement',
-      text: `Why NBFC Loan Settlement Is Essential for ${content.stateName} Borrowers`,
+      text: `NBFC Loan Settlement in ${content.stateName}`,
       level: 2
     });
   }
@@ -97,7 +97,7 @@ function generateHeadings(content: any) {
   if (content.commonNBFCLoanProblems) {
     headings.push({
       id: 'common-nbfc-loan-problems',
-      text: `Common NBFC Loan Problems Faced in ${content.stateName}`,
+      text: `Common NBFC Loan Problems in ${content.stateName}`,
       level: 2
     });
   }
@@ -137,7 +137,7 @@ function generateHeadings(content: any) {
   if (content.benefits) {
     headings.push({
       id: 'benefits',
-      text: `Benefits of Choosing CredSettle for NBFC Loan Settlement in ${content.stateName}`,
+      text: `Why Choose CredSettle in ${content.stateName}`,
       level: 2
     });
   }
@@ -161,7 +161,7 @@ function generateHeadings(content: any) {
   if (content.caseStudy) {
     headings.push({
       id: 'case-study',
-      text: `Real Case Study: NBFC Loan Settlement Success in ${content.stateName}`,
+      text: `NBFC Settlement Case Study in ${content.stateName}`,
       level: 2
     });
   }

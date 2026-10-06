@@ -230,7 +230,7 @@ export default function DebtConsolidationBadCreditClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Navigating Debt Consolidation with Bad Credit in India: A Comprehensive Guide</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Debt Consolidation with Bad Credit in India</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   Finding yourself in a cycle of multiple monthly payments, varying interest rates, and constant calls from collection departments can be incredibly overwhelming. If you also have a less than perfect credit score, the challenge of managing your finances feels even more daunting. This is where <strong>debt consolidation loans for bad credit in India</strong> come into play. Many individuals believe that a low CIBIL score is a dead end for financial assistance, but the reality is that the Indian financial landscape has evolved significantly to accommodate diverse borrower profiles.

@@ -309,7 +309,7 @@ Enclosures:
                 <span>Credit Reporting Fundamentals</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                1. Understanding &quot;Settled&quot; Status vs. &quot;Closed&quot; vs. &quot;Written Off&quot; in CIBIL
+                1. Settled vs Closed vs Written Off in CIBIL
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 When borrowers experience severe financial hardship, such as medical emergencies, job loss, or business failure, they frequently negotiate a <strong>One-Time Settlement (OTS)</strong> with their lending bank or NBFC. While an OTS legally terminates recovery proceedings and stops persistent phone calls from recovery agents, it produces an enduring, damaging byproduct on their credit history: the <strong>&quot;Settled&quot;</strong> account status.
@@ -364,7 +364,7 @@ Enclosures:
                 <span>Underwriting Algorithms &amp; Scoring Penalties</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Why &quot;Settled&quot; Status Severely Damages Your CIBIL Score for 7 Years
+                2. Why &quot;Settled&quot; Status Damages Your CIBIL Score
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Many borrowers celebrate after completing an OTS payment, believing their financial slate is clean. However, the subsequent reality strikes when they apply for a credit card, car loan, or home loan 18 months later and face immediate rejection.
@@ -413,7 +413,7 @@ Enclosures:
                 <span>Truth vs. Misinformation</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                3. Can &quot;Settled&quot; Status Be Removed from CIBIL? (Debunking Illegal Credit Repair Scams)
+                3. Can &quot;Settled&quot; Status Be Removed from CIBIL?
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 The internet is rife with fraudulent &quot;Credit Repair Agencies&quot; making deceptive promises such as: <em>&quot;We will completely delete your Settled mark from CIBIL database in 7 days without paying your bank!&quot;</em>
@@ -517,7 +517,7 @@ Enclosures:
                 <span>Actionable Step-by-Step Guide</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                5. The 6-Step Lawful Protocol to Remove &quot;Settled&quot; Status and Upgrade to &quot;Closed&quot;
+                5. 6-Step Protocol to Upgrade Settled to Closed
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Follow this battle-tested, banking-law compliant roadmap to upgrade your credit profile from &quot;Settled&quot; to &quot;Closed&quot;:
@@ -857,7 +857,7 @@ Enclosures:
                 <span>Specialized Edge Cases</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                10. Special Scenarios: Credit Cards, ARCs, App Loans &amp; Co-borrowers
+                10. Scenarios: Credit Cards, ARCs &amp; Co-borrowers
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Navigating status removal across different debt instruments requires tailored legal approaches:

@@ -166,7 +166,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Why Credit Card Settlement Is Essential
+                    Why Credit Card Settlement Is Essential in {content.stateName}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -222,7 +222,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    CredSettle - India’s Trusted Credit Card Settlement Company
+                    CredSettle - Trusted Credit Card Settlement in {content.stateName}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -247,7 +247,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                             marginBottom: '16px'
                           }}
                         >
-                          Our RBI-Compliant Credit Card Settlement Process
+                          Our RBI-Compliant Credit Card Settlement Process in {content.stateName}
                         </h3>
                         <p style={{ marginBottom: '16px' }}>{content.rbiCompliantProcess}</p>
                       </div>
@@ -266,7 +266,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                             marginBottom: '16px'
                           }}
                         >
-                          How CredSettle Negotiates with Card Issuers
+                          How CredSettle Negotiates with Card Issuers in {content.stateName}
                         </h3>
                         <p style={{ marginBottom: '16px' }}>{content.negotiationHelp}</p>
                       </div>
@@ -288,7 +288,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Legal Support through Our Lawyer Panel
+                    Legal Support in {content.stateName} through Our Lawyer Panel
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -344,7 +344,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    RBI Guidelines & Cardholder Rights
+                    RBI Guidelines & Cardholder Rights in {content.stateName}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -372,7 +372,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Step-by-Step Guide to Credit Card Settlement
+                    Step-by-Step Guide to Credit Card Settlement in {content.stateName}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -428,7 +428,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Final Thoughts - Break Free from Credit Card Debt
+                    Final Thoughts - Break Free from Debt in {content.stateName}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"

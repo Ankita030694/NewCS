@@ -207,7 +207,7 @@ export default function DebtConsolidationClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Navigating the World of Debt Consolidation Loans in India: Your Path to Financial Freedom</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Debt Consolidation Loans in India: Complete Guide</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   In the rapidly evolving financial landscape of India, managing multiple credit cards, personal loans, and short term debts can quickly become a logistical and financial nightmare. As the cost of living rises and the ease of obtaining credit through digital apps increases, many hard working Indians find themselves juggling various EMIs with different interest rates and due dates. This constant cycle of payments can lead to immense stress, late fees, and a deteriorating credit score. This is where the concept of <strong>debt consolidation loans in India</strong> becomes a vital lifeline for those looking to regain control of their economic life.
@@ -247,7 +247,7 @@ export default function DebtConsolidationClient() {
                 </p>
               </div>
 
-              <h2 id="top-banks" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Which Banks Offer Debt Consolidation Loans in India? A Comparative Look</h2>
+              <h2 id="top-banks" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Which Banks Offer Debt Consolidation Loans in India?</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-6">
                 <p>
                   Most major financial institutions in India provide products that can be used for consolidation. While public sector banks often offer the lowest interest rates, private sector banks are known for their speed and digital convenience. Let us take a detailed look at the top contenders.

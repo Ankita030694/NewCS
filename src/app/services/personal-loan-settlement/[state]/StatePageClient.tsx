@@ -185,7 +185,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Why Loan Settlement Is a Smart Financial Step
+                        Why Loan Settlement Is a Smart Financial Step in {content.stateName}
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -241,7 +241,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        CredSettle - India’s Trusted Loan Settlement Company
+                        CredSettle - Trusted Loan Settlement in {content.stateName}
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -251,48 +251,48 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       lineHeight: '28px'
                     }}
                   >
-                        <p style={{ marginBottom: '16px' }}>{content.credsettleOverview}</p>
-                        
-                        {/* H3: Our RBI-Compliant Loan Settlement Process */}
-                        {content.rbiCompliantProcess && (
-                          <div id="rbi-compliant-process" style={{ marginTop: '32px', scrollMarginTop: '100px' }}>
-                        <h3
-                          className="text-lg md:text-xl lg:text-[24px] leading-tight"
-                          style={{
-                            color: '#0C2756',
-                            fontFamily: 'Poppins',
-                            fontWeight: 600,
-                            lineHeight: '32px',
-                            marginBottom: '16px'
-                          }}
-                        >
-                              Our RBI-Compliant Loan Settlement Process
-                            </h3>
-                            <p style={{ marginBottom: '16px' }}>{content.rbiCompliantProcess}</p>
-                          </div>
-                        )}
-
-                        {/* H3: How CredSettle Helps You Negotiate with Banks & NBFCs */}
-                        {content.negotiationHelp && (
-                          <div id="negotiation-help" style={{ marginTop: '32px', scrollMarginTop: '100px' }}>
-                        <h3
-                          className="text-lg md:text-xl lg:text-[24px] leading-tight"
-                          style={{
-                            color: '#0C2756',
-                            fontFamily: 'Poppins',
-                            fontWeight: 600,
-                            lineHeight: '32px',
-                            marginBottom: '16px'
-                          }}
-                        >
-                              How CredSettle Helps You Negotiate with Banks & NBFCs
-                            </h3>
-                            <p style={{ marginBottom: '16px' }}>{content.negotiationHelp}</p>
-                          </div>
-                        )}
+                    <p style={{ marginBottom: '16px' }}>{content.credsettleOverview}</p>
+                    
+                    {/* H3: Our RBI-Compliant Loan Settlement Process */}
+                    {content.rbiCompliantProcess && (
+                      <div id="rbi-compliant-process" style={{ marginTop: '32px', scrollMarginTop: '100px' }}>
+                    <h3
+                      className="text-lg md:text-xl lg:text-[24px] leading-tight"
+                      style={{
+                        color: '#0C2756',
+                        fontFamily: 'Poppins',
+                        fontWeight: 600,
+                        lineHeight: '32px',
+                        marginBottom: '16px'
+                      }}
+                    >
+                          Our RBI-Compliant Loan Settlement Process in {content.stateName}
+                        </h3>
+                        <p style={{ marginBottom: '16px' }}>{content.rbiCompliantProcess}</p>
                       </div>
-                    </section>
-                  )}
+                    )}
+
+                    {/* H3: How CredSettle Helps You Negotiate with Banks & NBFCs */}
+                    {content.negotiationHelp && (
+                      <div id="negotiation-help" style={{ marginTop: '32px', scrollMarginTop: '100px' }}>
+                    <h3
+                      className="text-lg md:text-xl lg:text-[24px] leading-tight"
+                      style={{
+                        color: '#0C2756',
+                        fontFamily: 'Poppins',
+                        fontWeight: 600,
+                        lineHeight: '32px',
+                        marginBottom: '16px'
+                      }}
+                    >
+                          How CredSettle Helps You Negotiate with Banks in {content.stateName}
+                        </h3>
+                        <p style={{ marginBottom: '16px' }}>{content.negotiationHelp}</p>
+                      </div>
+                    )}
+                  </div>
+                </section>
+              )}
 
                   {/* H2: Legal Support through Our Lawyer Panel */}
                   {content.legalSupport && (
@@ -307,7 +307,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Legal Support through Our Lawyer Panel
+                        Legal Support in {content.stateName} through Our Lawyer Panel
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -450,7 +450,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        RBI Guidelines & Legal Rights of Borrowers
+                        RBI Guidelines & Legal Rights of Borrowers in {content.stateName}
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -478,7 +478,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Step-by-Step Guide to Start Loan Settlement with CredSettle
+                        Step-by-Step Guide to Start Loan Settlement in {content.stateName}
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -534,7 +534,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Final Thoughts - Take the First Step Toward a Debt-Free Life
+                        Final Thoughts - Debt-Free Life in {content.stateName}
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -564,7 +564,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Introduction
+                        Introduction to Loan Settlement in {content.stateName}
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -591,7 +591,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Overview
+                        Loan Settlement Overview in {content.stateName}
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -618,7 +618,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Benefits
+                        Benefits of Loan Settlement in {content.stateName}
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -645,7 +645,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Settlement Process
+                        Settlement Process in {content.stateName}
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -672,7 +672,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Legal Aspects
+                        Legal Aspects in {content.stateName}
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"

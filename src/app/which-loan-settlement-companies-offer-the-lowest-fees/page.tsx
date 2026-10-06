@@ -7,7 +7,7 @@ import LowestFeesClient from './LowestFeesClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Which Loan Settlement Company Offers Lowest Fees?',
+  title: 'Lowest Fee Loan Settlement Companies in India: Cost Guide',
   description: 'Discover which loan settlement companies offer the lowest fees in India. Compare success rates, avoid upfront fee scams.',
   keywords: [
     'loan settlement companies lowest fees',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'credsettle fees'
   ],
   openGraph: {
-    title: 'Which Loan Settlement Company Offers Lowest Fees?',
+    title: 'Lowest Fee Loan Settlement Companies in India: Cost Guide',
     description: 'Discover which loan settlement companies offer the lowest fees in India. Compare success rates, avoid upfront fee scams, and find transparent flat-rate services.',
     type: 'article',
     locale: 'en_IN',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Which Loan Settlement Company Offers Lowest Fees?',
+    title: 'Lowest Fee Loan Settlement Companies in India: Cost Guide',
     description: 'Discover which loan settlement companies offer the lowest fees in India.'
   },
   alternates: {

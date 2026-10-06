@@ -222,7 +222,7 @@ export default function LoanSettlementStepsClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Mastering the Steps to Apply for a Loan Settlement: A Professional Roadmap</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Steps to Apply for Loan Settlement with an Expert</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   In the modern financial landscape of India, managing debt can often feel like navigating a complex maze without a map. Whether you are dealing with personal loans, credit card debts, or business liabilities, the weight of financial stress can be overwhelming. For many individuals and businesses, reaching a point where repayment becomes impossible is not a choice but a result of unforeseen circumstances. This is where the concept of a loan settlement comes into play, serving as a vital lifeline for those trapped in a cycle of debt.

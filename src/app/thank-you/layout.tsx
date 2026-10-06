@@ -4,7 +4,6 @@ export const metadata: Metadata = {
   title: 'Thank You for Submitting | CredSettle',
   description:
     'Thank you for contacting CredSettle. Our debt settlement legal experts will review your details and connect with you within 24 hours.',
-  alternates: { canonical: 'https://www.credsettle.com/thank-you' },
   openGraph: {
     title: 'Thank You for Submitting | CredSettle',
     description:
@@ -21,15 +20,10 @@ export const metadata: Metadata = {
   },
   robots: {
     index: false,
-    follow: false,
-    nocache: true,
+    follow: true,
     googleBot: {
       index: false,
-      follow: false,
-      noimageindex: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'none',
-      'max-snippet': -1,
+      follow: true,
     },
   },
 };

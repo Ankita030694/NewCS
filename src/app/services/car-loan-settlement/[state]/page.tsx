@@ -89,7 +89,7 @@ function generateHeadings(content: any) {
   if (content.whyCarLoanSettlement) {
     headings.push({
       id: 'why-car-loan-settlement',
-      text: `Why Car Loan Settlement Is Essential for ${content.stateName} Vehicle Owners`,
+      text: `Car Loan Settlement in ${content.stateName}`,
       level: 2
     });
   }
@@ -97,7 +97,7 @@ function generateHeadings(content: any) {
   if (content.commonCarLoanProblems) {
     headings.push({
       id: 'common-car-loan-problems',
-      text: `Common Car Loan Problems Faced in ${content.stateName}`,
+      text: `Common Car Loan Problems in ${content.stateName}`,
       level: 2
     });
   }
@@ -137,7 +137,7 @@ function generateHeadings(content: any) {
   if (content.benefits) {
     headings.push({
       id: 'benefits',
-      text: `Benefits of Choosing CredSettle for Car Loan Settlement in ${content.stateName}`,
+      text: `Why Choose CredSettle in ${content.stateName}`,
       level: 2
     });
   }
@@ -161,7 +161,7 @@ function generateHeadings(content: any) {
   if (content.caseStudy) {
     headings.push({
       id: 'case-study',
-      text: `Real Case Study: Car Loan Settlement Success in ${content.stateName}`,
+      text: `Settlement Case Study in ${content.stateName}`,
       level: 2
     });
   }

@@ -182,10 +182,10 @@ export default async function BankStateSettlementPage({ params }: { params: Prom
   };
 
   const tocSections = [
-    { id: "local-harassment", text: `Combating Harassment in ${state.name}`, level: 2 },
-    { id: "legal-recourse", text: `Legal Recourse via ${state.policeAuthority}`, level: 2 },
-    { id: "settlement-process", text: `The Settlement Process in ${state.name}`, level: 2 },
-    { id: "drt-jurisdiction", text: `Understanding DRT Limits`, level: 2 },
+    { id: "local-harassment", text: `Combating ${bank.name} Harassment in ${state.name}`, level: 2 },
+    { id: "legal-recourse", text: `Legal Recourse for ${bank.name} via ${state.policeAuthority}`, level: 2 },
+    { id: "settlement-process", text: `The ${bank.name} Settlement Process in ${state.name}`, level: 2 },
+    { id: "drt-jurisdiction", text: `DRT Limits for ${bank.name} Credit Cards`, level: 2 },
   ];
 
   const breadcrumbItems = [
@@ -219,12 +219,12 @@ export default async function BankStateSettlementPage({ params }: { params: Prom
         <div className="flex flex-col lg:flex-row gap-12 mt-12">
           {/* Main Content */}
           <article className="lg:w-2/3 prose prose-lg max-w-none bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
-            <h2 id="local-harassment" className="scroll-mt-24 text-3xl font-bold mb-4">Combating Harassment in {state.name}</h2>
+            <h2 id="local-harassment" className="scroll-mt-24 text-3xl font-bold mb-4">Combating {bank.name} Harassment in {state.name}</h2>
             <p className="text-gray-700 leading-relaxed mb-6">
               When residents of {state.name} fall behind on their {bank.name} credit card payments, they are frequently targeted by aggressive third-party collection agencies. These agencies often operate under the false assumption that borrowers are unaware of their regional legal rights. CredSettle acts as your impenetrable legal shield, stepping in to absorb and permanently stop the calls while we negotiate.
             </p>
 
-            <h2 id="legal-recourse" className="scroll-mt-24 text-3xl font-bold mb-4">Legal Recourse via the {state.policeAuthority}</h2>
+            <h2 id="legal-recourse" className="scroll-mt-24 text-3xl font-bold mb-4">Legal Recourse for {bank.name} via the {state.policeAuthority}</h2>
             <p className="text-gray-700 leading-relaxed mb-6">
               If recovery agents resort to using abusive language, threatening physical harm, or contacting your relatives/employer, they are committing criminal offenses. In {state.name}, we heavily utilize the {state.policeAuthority} to lodge formal complaints. We also send direct legal notices to {bank.name}'s nodal officers, explicitly citing recent {state.highCourt} judgments regarding consumer privacy, effectively ending the harassment overnight.
             </p>
@@ -236,12 +236,12 @@ export default async function BankStateSettlementPage({ params }: { params: Prom
               </p>
             </div>
 
-            <h2 id="settlement-process" className="scroll-mt-24 text-3xl font-bold mb-4">The Settlement Process in {state.name}</h2>
+            <h2 id="settlement-process" className="scroll-mt-24 text-3xl font-bold mb-4">The {bank.name} Settlement Process in {state.name}</h2>
             <p className="text-gray-700 leading-relaxed mb-6">
               CredSettle's negotiation strategy revolves around forcing {bank.name} to acknowledge your severe financial distress. Because unsecured credit card debt carries no collateral, {bank.name} faces extreme difficulty recovering the funds legally if you genuinely cannot pay. We navigate the banking hierarchy to secure a One-Time Settlement (OTS), regularly achieving waivers exceeding 50% of the inflated balance.
             </p>
 
-            <h2 id="drt-jurisdiction" className="scroll-mt-24 text-3xl font-bold mb-4">Understanding DRT Limits</h2>
+            <h2 id="drt-jurisdiction" className="scroll-mt-24 text-3xl font-bold mb-4">Understanding DRT Limits for {bank.name} Credit Cards</h2>
             <p className="text-gray-700 leading-relaxed mb-6">
               Collection agents often threaten borrowers with immediate action at the Debt Recovery Tribunal in {state.drtLocations}. However, this is largely an empty threat for credit card defaulters. DRTs generally only entertain cases exceeding ₹20 Lakhs. For standard credit card debts, {bank.name} is practically forced to settle out of court. CredSettle uses this leverage to finalize your settlement and obtain your official No Objection Certificate (NOC).
             </p>

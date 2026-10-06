@@ -7,7 +7,7 @@ import WhatIsUnsecuredPersonalLoansClient from './WhatIsUnsecuredPersonalLoansCl
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'What is Unsecured Personal Loans?',
+  title: 'Unsecured Personal Loans in India: Meaning, Risks & Rules',
   description: 'Understand the legal vulnerabilities and exact default timeline for unsecured personal loans in India. Know your rights against recovery harassment.',
   keywords: [
     'what is unsecured personal loans',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'personal loan settlement India'
   ],
   openGraph: {
-    title: 'What is Unsecured Personal Loans?',
+    title: 'Unsecured Personal Loans in India: Meaning, Risks & Rules',
     description: 'Understand the legal vulnerabilities and exact default timeline for unsecured personal loans in India. Know your rights against recovery harassment.',
     type: 'article',
     locale: 'en_IN',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'What is Unsecured Personal Loans?',
+    title: 'Unsecured Personal Loans in India: Meaning, Risks & Rules',
     description: 'Understand the legal vulnerabilities and exact default timeline for unsecured personal loans in India.'
   },
   alternates: {

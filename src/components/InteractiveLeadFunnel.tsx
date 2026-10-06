@@ -565,9 +565,9 @@ export default function InteractiveLeadFunnel({
         <div className="bg-white rounded-2xl border border-gray-200 p-5 sm:p-7 md:p-8 shadow-sm">
           {/* Header */}
           <div className="mb-6">
-            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-1">
+            <p className="text-xl sm:text-2xl font-bold text-gray-900 mb-1">
               {nuance.title}
-            </h2>
+            </p>
             <p className="text-xs sm:text-sm text-gray-600">
               {nuance.subtitle}
             </p>

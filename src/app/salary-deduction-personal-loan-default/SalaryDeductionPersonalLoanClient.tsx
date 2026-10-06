@@ -320,7 +320,7 @@ export default function SalaryDeductionPersonalLoanClient() {
                 <span>Banking Jurisprudence</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. The Banker&apos;s &quot;Right of Set-Off&quot; under Section 171 of the Indian Contract Act
+                2. The Banker&apos;s Right of Set-Off Under Section 171
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 When a borrower defaults on an unsecured debt, banks frequently cite their &quot;Banker&apos;s Lien&quot; and &quot;Right of Set-Off&quot; to sweep 100% of the funds resting in the debtor&apos;s savings or salary account. Understanding the statutory boundaries of this right is vital to defending your income.
@@ -449,7 +449,7 @@ export default function SalaryDeductionPersonalLoanClient() {
                 <span>Comparative Legal Matrix</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                4. Legal Status &amp; Recovery Comparison Grid: Salary Deduction Scenarios
+                4. Legal Comparison: Salary Deduction Scenarios
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Compare how different recovery methods operate, their statutory legality, power to attach income, and exact borrower defense routes:
@@ -605,7 +605,7 @@ export default function SalaryDeductionPersonalLoanClient() {
                 <span>Visual Defense Roadmap</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                Visual Defense Blueprint: 6-Step Salary Protection &amp; Debt Resolution
+                Visual Blueprint: Salary Defense &amp; Debt Resolution
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Refer to this visual blueprint outlining the 6-stage procedural sequence to protect your monthly salary from unauthorized bank sweeps, invoke statutory exemptions, and achieve an amicable debt settlement:

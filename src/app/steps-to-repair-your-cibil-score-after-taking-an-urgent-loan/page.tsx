@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import StepsToRepairCibilClient from './StepsToRepairCibilClient';
 
 export const metadata: Metadata = {
-    title: "Steps to Repair Your CIBIL Score After Taking an Urgent Loan",
+    title: "Repair CIBIL Score After Instant Loans: Step-by-Step Guide",
     description: "Urgent loans damage your CIBIL score. Learn how to fix your CIBIL score fast and repair credit after taking instant personal loans with our step-by-step.",
     keywords: [
         "how to improve CIBIL after taking instant loan",
@@ -15,6 +15,19 @@ export const metadata: Metadata = {
         "urgent loan CIBIL damage",
         "credit builder loan strategies"
     ],
+    openGraph: {
+        title: "Repair CIBIL Score After Instant Loans: Step-by-Step Guide",
+        description: "Urgent loans damage your CIBIL score. Learn how to fix your CIBIL score fast and repair credit after taking instant personal loans with our step-by-step.",
+        type: "article",
+        locale: "en_IN",
+        siteName: "CredSettle",
+        url: "https://www.credsettle.com/steps-to-repair-your-cibil-score-after-taking-an-urgent-loan"
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Repair CIBIL Score After Instant Loans: Step-by-Step Guide",
+        description: "Urgent loans damage your CIBIL score. Learn how to fix your CIBIL score fast and repair credit after taking instant personal loans with our step-by-step."
+    },
     alternates: {
         canonical: 'https://www.credsettle.com/steps-to-repair-your-cibil-score-after-taking-an-urgent-loan',
     },

@@ -7,7 +7,7 @@ import PersonalLoanCibilClient from './PersonalLoanCibilClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Which Bank Provide Personal Loan for CIBIL Defaulters?',
+  title: 'Personal Loans for CIBIL Defaulters: Top Bank Options',
   description: 'Looking for a personal loan with a low CIBIL score? Discover which banks and NBFCs provide personal loans for CIBIL defaulters in 2026 and apply today.',
   keywords: [
     'which bank provide personal loan for cibil defaulters',
@@ -22,12 +22,17 @@ export const metadata: Metadata = {
     'urgent loan for cibil defaulters in india'
   ],
   openGraph: {
-    title: 'Which Bank Provide Personal Loan for CIBIL Defaulters? | Complete Approval Guide',
+    title: 'Personal Loans for CIBIL Defaulters: Top Bank Options',
     description: 'Stop getting rejected! Learn exactly which financial institutions offer personal loans to individuals with poor credit history and how you can apply today.',
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
     url: 'https://www.credsettle.com/which-bank-provide-personal-loan-for-cibil-defaulters'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Personal Loans for CIBIL Defaulters: Top Bank Options',
+    description: 'Looking for a personal loan with a low CIBIL score? Discover which banks and NBFCs provide personal loans for CIBIL defaulters in 2026.'
   },
   alternates: {
     canonical: 'https://www.credsettle.com/which-bank-provide-personal-loan-for-cibil-defaulters'

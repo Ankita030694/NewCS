@@ -5,9 +5,22 @@ import Footer from '@/components/Footer';
 import TaxImplicationsClient from './TaxImplicationsClient';
 
 export const metadata: Metadata = {
-  title: 'Income Tax Implications of Settled Debt: 2025 Guide',
+  title: 'Tax Implications of Loan Settlement in India: Full Guide',
   description: 'Expert analysis on Section 28(iv), 41(1), and 56(2)(x) for personal and business loan settlements in India. Learn about taxability of loan waivers.',
   keywords: 'income tax on loan settlement, Section 28(iv) loan waiver, Section 41(1) tax, debt settlement tax India, Finance Act 2023 loan settlement, is loan waiver taxable, tax on credit card settlement',
+  openGraph: {
+    title: 'Tax Implications of Loan Settlement in India: Full Guide',
+    description: 'Expert analysis on Section 28(iv), 41(1), and 56(2)(x) for personal and business loan settlements in India. Learn about taxability of loan waivers.',
+    type: 'article',
+    locale: 'en_IN',
+    siteName: 'CredSettle',
+    url: 'https://www.credsettle.com/what-are-the-income-tax-implications-of-a-settled-debt-amount'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Tax Implications of Loan Settlement in India: Full Guide',
+    description: 'Expert analysis on Section 28(iv), 41(1), and 56(2)(x) for personal and business loan settlements in India.'
+  },
   alternates: {
     canonical: 'https://www.credsettle.com/what-are-the-income-tax-implications-of-a-settled-debt-amount',
   },

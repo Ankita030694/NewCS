@@ -4,7 +4,6 @@ export const metadata: Metadata = {
   title: 'Payment Received Successfully | CredSettle',
   description:
     'Thank you for your payment. Your transaction has been successfully processed by CredSettle. Our legal team will prioritize your case.',
-  alternates: { canonical: 'https://www.credsettle.com/success' },
   openGraph: {
     title: 'Payment Received Successfully | CredSettle',
     description:
@@ -21,15 +20,10 @@ export const metadata: Metadata = {
   },
   robots: {
     index: false,
-    follow: false,
-    nocache: true,
+    follow: true,
     googleBot: {
       index: false,
-      follow: false,
-      noimageindex: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'none',
-      'max-snippet': -1,
+      follow: true,
     },
   },
 };

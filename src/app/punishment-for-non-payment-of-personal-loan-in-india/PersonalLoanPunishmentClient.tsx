@@ -230,7 +230,7 @@ export default function PersonalLoanPunishmentClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Punishment for Non Payment of Personal Loan in India: A Complete Legal Overview</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Personal Loan Default Punishment & Legal Overview</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   In today's fast paced financial world, personal loans have become a common tool for fulfilling immediate needs, whether it is for a wedding, medical emergency, or home renovation. However, life is unpredictable, and financial setbacks can lead to a situation where a borrower is unable to meet their repayment obligations. When this happens, the first question that haunts every borrower is: What is the <strong>punishment for non payment of personal loan in India</strong>? The fear of jail time, court cases, and social stigma can be overwhelming, but it is essential to understand the actual legal landscape to navigate this crisis effectively.

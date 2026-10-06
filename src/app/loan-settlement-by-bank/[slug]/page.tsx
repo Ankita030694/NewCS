@@ -364,7 +364,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
             <article className="bg-white rounded-3xl shadow-sm border border-gray-100 p-8 md:p-12 prose prose-lg prose-blue max-w-none text-gray-700 leading-loose">
               
               <div className="mb-12">
-                <h2 className="text-4xl font-extrabold text-gray-900 mb-6 tracking-tight leading-tight">The Ultimate Masterclass on Settling {bankName} Debt</h2>
+                <h2 className="text-4xl font-extrabold text-gray-900 mb-6 tracking-tight leading-tight">Settling {bankName} Debt Guide</h2>
                 <p className="text-xl text-gray-600 font-light mb-6">
                   Falling into a debt trap is a deeply distressing experience. When that debt is held by a major financial institution like <strong>{bankName}</strong>, the pressure can feel insurmountable. Constant phone calls, intimidating SMS alerts, unannounced home visits, and the looming threat of legal action can take a severe toll on your mental health, family life, and professional focus. 
                 </p>
@@ -378,7 +378,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
 
               <hr className="my-12 border-gray-200" />
 
-              <h2 id="understanding-debt" className="text-3xl font-bold text-gray-900 mb-6">1. Decoding the {bankName} Debt Cycle: From Delinquency to NPA</h2>
+              <h2 id="understanding-debt" className="text-3xl font-bold text-gray-900 mb-6">1. {bankName} Debt Cycle &amp; NPA Rules</h2>
               <p>
                 To successfully negotiate with <strong>{bankName}</strong>, you must first understand how they classify your account. Banks operate on strictly regulated frameworks mandated by the Reserve Bank of India (RBI). They do not assess your situation emotionally; they assess it categorically. 
               </p>
@@ -442,7 +442,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
 
               <hr className="my-12 border-gray-200" />
 
-              <h2 id="legal-rights" className="text-3xl font-bold text-gray-900 mb-6">3. Your Absolute Legal Rights Against {bankName} Recovery Agents</h2>
+              <h2 id="legal-rights" className="text-3xl font-bold text-gray-900 mb-6">3. Your Rights Against Recovery Agents</h2>
               <p>
                 The most traumatic aspect of defaulting on a <strong>{bankName}</strong> loan is dealing with third-party recovery agents. Banks outsource collection to external agencies who work on commission. The more money they extract from you, the higher their cut. This commission structure frequently drives agents to employ aggressive, unethical, and sometimes outright illegal tactics.
               </p>
@@ -487,7 +487,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
 
               <hr className="my-12 border-gray-200" />
 
-              <h2 id="step-by-step-process" className="text-3xl font-bold text-gray-900 mb-6">4. The Comprehensive Step-by-Step {bankName} Settlement Process</h2>
+              <h2 id="step-by-step-process" className="text-3xl font-bold text-gray-900 mb-6">4. Step-by-Step Settlement Process</h2>
               <p>
                 Entering into a settlement is a formal, documented process. It cannot be done over a casual phone call with a telecaller. A verbal promise of "pay ₹50,000 today and we will close the account" is the most common trap borrowers fall into. If you pay without the right paperwork, the bank will simply adjust that ₹50,000 against your penal interest, and you will still owe the principal.
               </p>
@@ -540,13 +540,13 @@ export default async function BankSettlementSlugPage({ params }: Props) {
 
               <hr className="my-12 border-gray-200" />
 
-              <h2 id="negotiation-tactics" className="text-3xl font-bold text-gray-900 mb-6">5. Insider Negotiation Tactics: How to Maximize Your {bankName} Waiver</h2>
+              <h2 id="negotiation-tactics" className="text-3xl font-bold text-gray-900 mb-6">5. Tactics to Maximize Your Loan Waiver</h2>
               <p>
                 Negotiating with a massive financial entity is intimidating. However, banks operate on distinct quarterly cycles and internal metrics that you can use to your advantage. 
               </p>
               
               <ul className="space-y-4">
-                <li><strong>Timing is Everything (Month-End & Quarter-End):</strong> Bank officials have aggressive recovery targets. The final weeks of March (financial year-end), June, September, and December are the best times to push for a deep discount. <strong>{bankName}</strong> collection managers are under immense pressure to show recoveries and are far more likely to approve a 50% waiver on the 28th of March than on the 5th of April.</li>
+                <li><strong>Timing is Everything (Month-End &amp; Quarter-End):</strong> Bank officials have aggressive recovery targets. The final weeks of March (financial year-end), June, September, and December are the best times to push for a deep discount. <strong>{bankName}</strong> collection managers are under immense pressure to show recoveries and are far more likely to approve a 50% waiver on the 28th of March than on the 5th of April.</li>
                 <li><strong>Principal vs. Interest Separation:</strong> A ₹10 Lakh debt might be composed of ₹6 Lakhs principal and ₹4 Lakhs in late fees, penal interest, and regular interest. We always demand a 100% waiver of all penal charges and negotiate entirely based on the core principal amount.</li>
                 <li><strong>The "Lump Sum" Advantage:</strong> If you can arrange to pay the settlement amount in a single shot (One-Time Payment) rather than over 3 EMIs, <strong>{bankName}</strong> will usually grant an extra 10% to 15% discount. They prefer immediate liquidity.</li>
                 <li><strong>Holding Your Ground:</strong> Silence is a powerful tool. When the bank counters your offer, sometimes the best response is simply stating, "That is outside my client's financial capacity," and waiting. The bank's system automatically degrades the value of aging debt, prompting them to come back with a better offer a few weeks later.</li>
@@ -554,7 +554,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
 
               <hr className="my-12 border-gray-200" />
 
-              <h2 id="credit-card-vs-loan" className="text-3xl font-bold text-gray-900 mb-6">6. Credit Card Defaults vs. Personal Loan Defaults with {bankName}</h2>
+              <h2 id="credit-card-vs-loan" className="text-3xl font-bold text-gray-900 mb-6">6. Credit Cards vs. Personal Loan Settlements</h2>
               <p>
                 While the broader concepts of settlement apply to all unsecured debts, there are distinct nuances in how <strong>{bankName}</strong> handles credit cards versus term personal loans.
               </p>
@@ -583,7 +583,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
 
               <hr className="my-12 border-gray-200" />
 
-              <h2 id="cibil-impact" className="text-3xl font-bold text-gray-900 mb-6">7. The Reality of the CIBIL Impact and Post-Settlement Recovery</h2>
+              <h2 id="cibil-impact" className="text-3xl font-bold text-gray-900 mb-6">7. CIBIL Impact and Credit Score Recovery</h2>
               <p>
                 We believe in absolute transparency. A debt settlement is a financial rescue operation, not a magic trick. It has consequences, specifically regarding your credit report.
               </p>
@@ -621,7 +621,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
 
               <hr className="my-12 border-gray-200" />
 
-              <h2 id="legal-notices" className="text-3xl font-bold text-gray-900 mb-6">8. How to Handle Legal Notices from {bankName}</h2>
+              <h2 id="legal-notices" className="text-3xl font-bold text-gray-900 mb-6">8. How to Handle Bank Legal Notices</h2>
               <p>
                 As your default ages, the bank's automated systems will generate various legal notices. It is vital not to panic, but it is equally vital not to ignore them. Here is what they mean and how we handle them:
               </p>

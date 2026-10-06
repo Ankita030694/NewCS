@@ -7,7 +7,7 @@ import DebtConsolidationClient from './DebtConsolidationClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Which Banks Offer Debt Consolidation Loans in India?',
+  title: 'Top Banks Offering Debt Consolidation Loans in India',
   description: 'Looking for debt consolidation loans in India? Discover which banks offer the best options, eligibility criteria, interest rates.',
   keywords: [
     'which banks offer debt consolidation loans in india',
@@ -22,12 +22,17 @@ export const metadata: Metadata = {
     'debt relief options india'
   ],
   openGraph: {
-    title: 'Top Banks Offering Debt Consolidation Loans in India | Comprehensive Guide',
+    title: 'Top Banks Offering Debt Consolidation Loans in India',
     description: 'Simplify your finances by consolidating multiple high-interest loans into one. Explore top banking options in India for 2026.',
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
     url: 'https://www.credsettle.com/which-banks-offer-debt-consolidation-loans-in-india'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Top Banks Offering Debt Consolidation Loans in India',
+    description: 'Looking for debt consolidation loans in India? Discover which banks offer the best options, eligibility criteria, interest rates.'
   },
   alternates: {
     canonical: 'https://www.credsettle.com/which-banks-offer-debt-consolidation-loans-in-india'

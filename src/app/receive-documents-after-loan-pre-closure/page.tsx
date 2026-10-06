@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import ReceiveDocumentsClient from './ReceiveDocumentsClient';
 
 export const metadata: Metadata = {
-    title: "Receiving Original Documents After Loan Pre-Closure",
-    description: "Learn the RBI rules regarding the return of original property documents after loan closure. Find out about the 30-day mandate and the Rs.",
+    title: "Get Original Documents After Loan Pre-Closure: RBI Rules",
+    description: "Learn RBI rules on the return of original property documents after loan closure. Find out about the 30-day mandate and delay compensation penalties.",
     keywords: [
         "original property documents return time",
         "receive documents after loan pre-closure",
@@ -17,6 +17,19 @@ export const metadata: Metadata = {
         "bank lost original property documents",
         "RBI guidelines on return of original property documents"
     ],
+    openGraph: {
+        title: "Get Original Documents After Loan Pre-Closure: RBI Rules",
+        description: "Learn RBI rules on the return of original property documents after loan closure. Find out about the 30-day mandate and delay compensation penalties.",
+        type: "article",
+        locale: "en_IN",
+        siteName: "CredSettle",
+        url: "https://www.credsettle.com/receive-documents-after-loan-pre-closure"
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Get Original Documents After Loan Pre-Closure: RBI Rules",
+        description: "Learn RBI rules on the return of original property documents after loan closure. Find out about the 30-day mandate and delay compensation penalties."
+    },
     alternates: {
         canonical: 'https://www.credsettle.com/receive-documents-after-loan-pre-closure',
     },

@@ -7,7 +7,7 @@ import TimelyRepaymentClient from './TimelyRepaymentClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Timely Repayment of Loan Result',
+  title: 'Benefits of Timely Loan Repayment: CIBIL & Financial Guide',
   description: 'Understand the long-term financial outcomes, CIBIL impact, and immense monetary benefits of timely loan repayment compared to debt settlement.',
   keywords: [
     'timely repayment of loan result',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'loan repayment consequences'
   ],
   openGraph: {
-    title: 'Timely Repayment of Loan Result',
+    title: 'Benefits of Timely Loan Repayment: CIBIL & Financial Guide',
     description: 'Understand the long-term financial outcomes, CIBIL impact, and immense monetary benefits of timely loan repayment compared to debt settlement.',
     type: 'article',
     locale: 'en_IN',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Timely Repayment of Loan Result',
+    title: 'Benefits of Timely Loan Repayment: CIBIL & Financial Guide',
     description: 'Understand the long-term financial outcomes, CIBIL impact, and immense monetary benefits of timely loan repayment compared to debt settlement.'
   },
   alternates: {

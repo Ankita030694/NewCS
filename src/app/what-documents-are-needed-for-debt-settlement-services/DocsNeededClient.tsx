@@ -328,7 +328,7 @@ const DocsNeededClient = () => {
                             <p className="text-gray-700 leading-relaxed mb-10 font-bold uppercase tracking-widest text-sm text-blue-600">The 2025 mandate is clear: Document everything, or settle for nothing.</p>
                             <p className="text-gray-700 leading-relaxed mb-10 text-sm italic">
                                 This 5000+ word master guide is designed to be your archival architect. We will move beyond the basic Aadhaar and PAN cards to the nuanced "Hardship Folder" that actually moves the needle during a negotiation. We will explore medical records, business closure proofs, and the critical "Source of Funds" documentation that banks now demand before signing an OTS (One Time Settlement) letter. Whether you are dealing with a private giant or a bureaucratic public sector bank, this roadmap ensures your paper trail leads directly to freedom.
-                            </p>                            <h2 id="kyc-documents" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-blue-900 tracking-tighter uppercase italic">Section 1: The KYC Foundation - Identity, Verification & Bureau Alignment</h2>
+                            </p>                            <h2 id="kyc-documents" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-blue-900 tracking-tighter uppercase italic">Section 1: KYC Foundation & Identity Verification</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
                                 Before a bank manager even looks at your hardship, they must verify who you are. This seems basic, but in 2025, digital discrepancies can stall a settlement for months. The KYC process is no longer just about showing an ID; it is about "Identity Integrity" across the digital banking ecosystem of India.
                             </p>
@@ -413,7 +413,7 @@ const DocsNeededClient = () => {
                                 In 2025, leading settlement agencies in India use ISO-certified document handling procedures. Ensure your hardship letter mentions that you are communicating under "Section 21 of the Banking Regulation Act" and "RBI Master Circular on Safe Recovery Practices." This legal jargon signals to the bank’s internal legal team that you are not an easy target for illegal recovery.
                             </p>
 
-                            <h2 id="business-docs" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-blue-900 uppercase">Section 6: Documenting Business Hardship - When the "Going Concern" Ends</h2>
+                            <h2 id="business-docs" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-blue-900 uppercase">Section 6: Documenting Business Financial Hardship</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
                                 For small business owners (MSMEs) in India, the burden of documentation is significantly higher. Banks are suspicious of business failures, often assuming that the owner has diverted funds to a new venture. Your documentation must prove that the business is no longer a "Going Concern."
                             </p>
@@ -586,7 +586,7 @@ const DocsNeededClient = () => {
                                 If a divorce or a partition suit has frozen your assets, provide copies of the **Court Orders**. If your spouse was a co-borrower and has absconded, you need to provide a **Legal Notice of Severance**. Banks are increasingly realizing that "Relationship Default" is a genuine hardship and are willing to settle with the remaining spouse to recover at least a portion of the debt.
                             </p>
 
-                            <h2 id="psychology" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-blue-900 tracking-tighter uppercase italic text-center">Section 16: The Psychology of Document Review - Thinking like an Auditor</h2>
+                            <h2 id="psychology" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24 text-blue-900 tracking-tighter uppercase italic text-center">Section 16: Psychology of Bank Document Review</h2>
                             <p className="text-gray-700 leading-relaxed mb-8">
                                 Understanding how a bank’s auditing committee thinks is the key to getting your folder approved. They are not looking for a "Sad Story"-every borrower has one. They are looking for a "Commercial Dead-End." Your documents must speak the language of "Risk Mitigation," not just "Help Me."
                             </p>
@@ -603,7 +603,7 @@ const DocsNeededClient = () => {
                                 *   **Disability Shield:** In 2025, RBI’s "Customer Service Standards" are extremely protective of PWDs. Including a disability certificate acts as a "Shield" against aggressive recovery tactics, as banks fear massive fines for harassing vulnerable borrowers.
                             </p>
 
-                            <h2 id="nbfc-needs" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">Section 17: Specific NBFC Requirements - Bajaj, Tata, & Piramal Nuances</h2>
+                            <h2 id="nbfc-needs" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-24">Section 17: Specific NBFC Document Requirements</h2>
                             <p className="text-gray-700 leading-relaxed mb-8 font-light italic text-2xl">
                                 NBFCs (Non-Banking Financial Companies) often have more aggressive recovery systems than traditional banks, and their documentation needs are more localized and digital-first.
                             </p>

@@ -271,7 +271,7 @@ export default function RiskClient() {
           <div className="lg:w-1/2 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Understanding the Risks of Debt Settlement: What Every Indian Borrower Must Know</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Understanding the Risks of Debt Settlement</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   Entering a debt settlement agreement is often seen as a final lifeline for those drowning in financial obligations. Whether it is credit card debt, personal loans, or medical expenses, the promise of paying back only a fraction of what you owe can be incredibly alluring. However, this path is not without its thorns. In the Indian financial ecosystem, where credit awareness is growing but still maturing, the risks associated with debt settlement are frequently misunderstood or ignored until it is too late.

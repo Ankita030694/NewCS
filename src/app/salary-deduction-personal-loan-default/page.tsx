@@ -5,9 +5,9 @@ import Footer from '@/components/Footer';
 import SalaryDeductionPersonalLoanClient from './SalaryDeductionPersonalLoanClient';
 
 export const metadata: Metadata = {
-  title: 'Can a Bank Legally Deduct EMI from Your Salary Account?',
+  title: 'Bank EMI Deduction from Salary Account: Rules & Rights',
   description:
-    'Is the bank emptying your salary account using the "Right of Set-Off" to recover a defaulted loan? Learn how to legally stop auto-debits and protect.',
+    'Learn if banks can deduct EMI from your salary account using the Right of Set-Off. Discover legal ways to stop auto-debits and protect your income.',
   keywords: [
     'can bank deduct money directly from my salary account',
     'stop bank from deducting emi from salary',
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
     'personal loan default salary recovery rights'
   ],
   openGraph: {
-    title: 'Can a Bank Legally Deduct EMI from Your Salary Account? | CredSettle',
+    title: 'Bank EMI Deduction from Salary Account: Rules & Rights',
     description:
-      'Is the bank emptying your salary account using the "Right of Set-Off" to recover a defaulted loan? Learn how to legally stop auto-debits and protect your income.',
+      'Learn if banks can deduct EMI from your salary account using the Right of Set-Off. Discover legal ways to stop auto-debits and protect your income.',
     type: 'article',
     locale: 'en_IN',
     siteName: 'CredSettle',
@@ -39,9 +39,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Can a Bank Legally Deduct EMI from Your Salary Account?',
+    title: 'Bank EMI Deduction from Salary Account: Rules & Rights',
     description:
-      'Is the bank emptying your salary account using the "Right of Set-Off" to recover a defaulted loan? Learn how to legally stop auto-debits and protect your income.',
+      'Learn if banks can deduct EMI from your salary account using the Right of Set-Off. Discover legal ways to stop auto-debits and protect your income.',
     images: ['https://www.credsettle.com/images/infographics/salary-deduction-personal-loan-default.jpg']
   },
   alternates: {

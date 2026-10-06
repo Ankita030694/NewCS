@@ -5,7 +5,6 @@ export const metadata: Metadata = {
   title: 'Client & Partner Portal Login | CredSettle',
   description:
     'Securely access your CredSettle account to manage your loan settlement journey, track progress, and connect with our legal experts.',
-  alternates: { canonical: 'https://www.credsettle.com/nullify' },
   openGraph: {
     title: 'Client & Partner Portal Login | CredSettle',
     description:
@@ -22,15 +21,10 @@ export const metadata: Metadata = {
   },
   robots: {
     index: false,
-    follow: false,
-    nocache: true,
+    follow: true,
     googleBot: {
       index: false,
-      follow: false,
-      noimageindex: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'none',
-      'max-snippet': -1,
+      follow: true,
     },
   },
 };

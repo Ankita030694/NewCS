@@ -81,9 +81,9 @@ export default function Tier3Template({ bankName, slug }: { bankName: string, sl
 
   const tocSections = [
     { id: "understanding-default", text: `Understanding a ${bankName} Default`, level: 2 },
-    { id: "credsettle-strategy", text: `The CredSettle Settlement Strategy`, level: 2 },
-    { id: "protecting-rights", text: `Protecting Your Legal Rights`, level: 2 },
-    { id: "regional-impact", text: `Regional Recovery Tactics`, level: 2 },
+    { id: "credsettle-strategy", text: `The CredSettle ${bankName} Settlement Strategy`, level: 2 },
+    { id: "protecting-rights", text: `Protecting Your Legal Rights with ${bankName}`, level: 2 },
+    { id: "regional-impact", text: `Regional Recovery Tactics for ${bankName}`, level: 2 },
   ];
 
   const breadcrumbItems = [
@@ -121,17 +121,17 @@ export default function Tier3Template({ bankName, slug }: { bankName: string, sl
               When you default on an unsecured credit card from institutions like {bankName}, the account quickly transitions through internal collections before being assigned to external recovery agencies. These agencies rely heavily on intimidation and the lack of consumer legal awareness to force payments. A structured settlement is a recognized financial mechanism to resolve these non-performing assets amicably.
             </p>
 
-            <h2 id="credsettle-strategy" className="scroll-mt-24 text-3xl font-bold mb-4">The CredSettle Settlement Strategy</h2>
+            <h2 id="credsettle-strategy" className="scroll-mt-24 text-3xl font-bold mb-4">The CredSettle {bankName} Settlement Strategy</h2>
             <p className="text-gray-700 leading-relaxed mb-6">
               CredSettle's approach is designed to protect your dignity while securing the best possible financial outcome. We legally represent you in all interactions with {bankName}. By presenting a solid case of financial inability to pay the inflated balance, we compel the bank's resolution officers to agree to a discounted One-Time Settlement, ensuring you only pay a fraction of what is demanded.
             </p>
 
-            <h2 id="protecting-rights" className="scroll-mt-24 text-3xl font-bold mb-4">Protecting Your Legal Rights</h2>
+            <h2 id="protecting-rights" className="scroll-mt-24 text-3xl font-bold mb-4">Protecting Your Legal Rights with {bankName}</h2>
             <p className="text-gray-700 leading-relaxed mb-6">
               It is crucial to understand that defaulting on a credit card is a civil breach of contract, not a criminal offense. {bankName} cannot legally threaten you with police action or arrest. CredSettle strictly enforces the RBI's fair practice codes, promptly escalating any instances of agency harassment to the banking ombudsman and relevant cyber crime cells.
             </p>
 
-            <h2 id="regional-impact" className="scroll-mt-24 text-3xl font-bold mb-4">Regional Recovery Tactics</h2>
+            <h2 id="regional-impact" className="scroll-mt-24 text-3xl font-bold mb-4">Regional Recovery Tactics for {bankName}</h2>
             <p className="text-gray-700 leading-relaxed mb-6">
               The enforcement of consumer protection laws varies significantly by state. Local law enforcement responses to unauthorized recovery agent behavior dictate our specific legal maneuvers. Choose your state below to review the specific guidelines and legal precedence we utilize when settling your {bankName} account in your jurisdiction.
             </p>

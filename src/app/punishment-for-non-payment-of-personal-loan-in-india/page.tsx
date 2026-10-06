@@ -7,7 +7,7 @@ import PunishmentForNonPaymentClient from './PunishmentForNonPaymentClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Punishment for Non-Payment of Personal Loan in India',
+  title: 'Personal Loan Default: Legal Action & Punishment in India',
   description: 'Understand the legal and financial consequences of defaulting on a personal loan in India. Learn about CIBIL impact, RBI rules, and your legal rights.',
   keywords: [
     'punishment for non payment of personal loan',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     'can I go to jail for loan default'
   ],
   openGraph: {
-    title: 'Punishment for Non-Payment of Personal Loan in India',
+    title: 'Personal Loan Default: Legal Action & Punishment in India',
     description: 'Understand the legal and financial consequences of defaulting on a personal loan in India. Learn about CIBIL impact, RBI rules, and your legal rights.',
     type: 'article',
     locale: 'en_IN',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Punishment for Non-Payment of Personal Loan in India',
+    title: 'Personal Loan Default: Legal Action & Punishment in India',
     description: 'Understand the legal and financial consequences of defaulting on a personal loan in India. Learn about CIBIL impact, RBI rules, and your legal rights.'
   },
   alternates: {

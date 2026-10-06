@@ -164,7 +164,7 @@ export default function ConsultantQuestionsClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">What Questions Should I Ask a Debt Settlement Consultant? A Comprehensive Guide</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Key Questions to Ask a Debt Settlement Consultant</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   Entering a debt settlement program is one of the most significant financial decisions you will ever make. It is a path that can lead to immense relief, but it is also one fraught with potential pitfalls if you do not choose your consultant wisely. In the Indian financial landscape, the rise of unsecured debt has led to a corresponding increase in debt settlement services. While many are legitimate and provide a lifeline to struggling borrowers, others may prioritize their own fees over your financial recovery.

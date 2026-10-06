@@ -7,7 +7,7 @@ import SalaryAccountFrozenClient from './SalaryAccountFrozenClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Salary Account Frozen by Bank? Legal Steps to Unfreeze It',
+  title: 'How to Unfreeze a Frozen Salary Bank Account: Legal Guide',
   description: 'Learn how to unfreeze your salary bank account blocked due to loan defaults, cybercrime liens, or unauthorized holds. Expert legal guide for professionals.',
   keywords: [
     'salary account frozen by bank',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     'stop salary deductions loan'
   ],
   openGraph: {
-    title: 'Salary Account Frozen by Bank? Legal Steps to Unfreeze It',
+    title: 'How to Unfreeze a Frozen Salary Bank Account: Legal Guide',
     description: 'Expert legal guide on unfreezing your salary account blocked due to loan defaults or cybercrime liens. Protect your primary income today.',
     type: 'article',
     locale: 'en_IN',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Salary Account Frozen by Bank? Unfreeze It | CredSettle',
+    title: 'How to Unfreeze a Frozen Salary Bank Account: Legal Guide',
     description: 'Professional guide to resolving frozen salary accounts and unauthorized bank liens.'
   },
   alternates: {

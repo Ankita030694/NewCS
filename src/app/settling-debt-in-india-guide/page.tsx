@@ -7,7 +7,7 @@ import SettlingDebtInIndiaClient from './SettlingDebtInIndiaClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Guide to Settling Debt in India: Legal Steps',
+  title: 'How to Settle Debt in India: Step-by-Step Legal Process',
   description: 'Learn the exact legal process of settling debt in India. Discover cost breakdowns, RBI guidelines, and how to protect yourself from harassment.',
   keywords: [
     'settling debt in India',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     'stop recovery agents India'
   ],
   openGraph: {
-    title: 'Guide to Settling Debt in India: Legal Steps',
+    title: 'How to Settle Debt in India: Step-by-Step Legal Process',
     description: 'Learn the exact legal process of settling debt in India. Discover cost breakdowns, RBI guidelines, and how to protect yourself from harassment.',
     type: 'article',
     locale: 'en_IN',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Guide to Settling Debt in India: Legal Steps',
+    title: 'How to Settle Debt in India: Step-by-Step Legal Process',
     description: 'Learn the exact legal process of settling debt in India. Discover cost breakdowns, RBI guidelines, and how to protect yourself from harassment.'
   },
   alternates: {

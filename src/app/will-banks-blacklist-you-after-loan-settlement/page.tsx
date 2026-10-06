@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import WillBanksBlacklistYouClient from './WillBanksBlacklistYouClient';
 
 export const metadata: Metadata = {
-    title: "Will Banks Blacklist You After Loan Settlement?",
+    title: "Do Banks Blacklist You After Loan Settlement? CIBIL Truth",
     description: "Find out if banks blacklist you after a loan settlement in India. Understand the 'Settled' status on CIBIL, long-term impact on future loans.",
     keywords: [
         "will banks blacklist you after loan settlement",
@@ -18,6 +18,19 @@ export const metadata: Metadata = {
         "getting a home loan after settlement",
         "rebuilding credit after settlement"
     ],
+    openGraph: {
+        title: "Do Banks Blacklist You After Loan Settlement? CIBIL Truth",
+        description: "Find out if banks blacklist you after a loan settlement in India. Understand the 'Settled' status on CIBIL, long-term impact on future loans.",
+        type: "article",
+        locale: "en_IN",
+        siteName: "CredSettle",
+        url: "https://www.credsettle.com/will-banks-blacklist-you-after-loan-settlement"
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Do Banks Blacklist You After Loan Settlement? CIBIL Truth",
+        description: "Find out if banks blacklist you after a loan settlement in India. Understand the 'Settled' status on CIBIL, long-term impact on future loans."
+    },
     alternates: {
         canonical: 'https://www.credsettle.com/will-banks-blacklist-you-after-loan-settlement',
     },

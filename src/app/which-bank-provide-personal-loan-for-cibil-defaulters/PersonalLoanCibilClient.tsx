@@ -227,7 +227,7 @@ export default function PersonalLoanCibilClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Which Bank Provide Personal Loan for CIBIL Defaulters: Navigating the Indian Lending Maze</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Personal Loans for CIBIL Defaulters in India</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   Finding yourself in a situation where you need urgent funds but your credit history is working against you can be incredibly stressful. In India, the term "CIBIL defaulter" is often thrown around as if it is a permanent mark of financial exile. However, the reality is much more nuanced. If you are asking <strong>which bank provide personal loan for cibil defaulters</strong>, you are not alone. Thousands of individuals face rejection from major banks like HDFC, ICICI, or SBI every day due to past financial hiccups, yet many of them successfully secure the capital they need through alternative channels.

@@ -259,7 +259,7 @@ export default function VerifyLoanSettlementLetterClient() {
                 <span>Statutory &amp; Banking Fundamentals</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                1. The Legal Anatomy of an Authentic Bank One-Time Settlement (OTS) Letter
+                1. Legal Anatomy of an Authentic Bank OTS Letter
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 In Indian banking jurisprudence, a One-Time Settlement (OTS) sanction letter is not a casual correspondence; it is a formal novation of contract governed by <strong>Section 63 of the Indian Contract Act, 1872</strong>. Under this statute, a creditor may dispense with or remit, wholly or in part, the performance of the promise made to them, or accept instead of it any satisfaction which they think fit.
@@ -315,7 +315,7 @@ export default function VerifyLoanSettlementLetterClient() {
                 <span>Document Verification Matrix</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                2. Authentic OTS Sanction Letter vs. Fake Recovery Agent Drafts: Comprehensive Matrix
+                2. Authentic OTS Letter vs Fake Drafts Matrix
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Thousands of Indian borrowers fall victim every month to fraudulent recovery agents who issue fabricated &quot;settlement letters&quot; on Photoshop or unofficial letterheads to extract money before month-end targets. Examine this 4-sided comparison matrix before remitting any funds:
@@ -436,7 +436,7 @@ export default function VerifyLoanSettlementLetterClient() {
                 <span>Financial &amp; Tax Accounting</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                3. Technical Settlement Math, Ledger Accounting &amp; Section 194R Tax Implications
+                3. Settlement Math, Accounting &amp; Section 194R Tax
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Understanding the technical mathematics behind your bank&apos;s settlement calculation is essential to ensure that you are not paying inflated penal interest or triggering unforeseen tax liabilities under Indian income tax law.
@@ -550,7 +550,7 @@ export default function VerifyLoanSettlementLetterClient() {
                 <span>Standard Operating Procedure</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                4. 6-Stage Standard Operating Procedure (SOP) to Verify a Bank Settlement Letter
+                4. 6-Stage SOP to Verify a Bank Settlement Letter
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 Follow this sequential 6-stage verification protocol before initiating any RTGS, NEFT, or Demand Draft remittance to your lender:
@@ -656,7 +656,7 @@ export default function VerifyLoanSettlementLetterClient() {
                 <span>Ready-to-Use Legal Draft</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                5. Formal Legal Notice Draft: Letter Verification &amp; Irrevocability Undertaking
+                5. Legal Notice Draft for Letter Verification
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 If a collection executive provides an ambiguous or unofficial settlement draft, do not pay. Send this formal legal requisition to the bank&apos;s Principal Nodal Officer and Retail Asset Operations division to compel issuance of a verified CBS-backed OTS letter:
@@ -855,7 +855,7 @@ Place: [City, State]`}
                 <span>Complex Institutional Scenarios</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                8. Specialized Scenarios: Credit Cards, ARCs, and Digital Fintech Loan Apps
+                8. Scenarios: Credit Cards, ARCs &amp; Fintech Apps
               </h2>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

@@ -252,7 +252,7 @@ export default function ReviewsClient() {
           <div className="lg:w-3/5 w-full">
             <article className="prose prose-blue max-w-none bg-white p-8 md:p-14 rounded-[40px] shadow-sm border border-gray-100">
               
-              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Navigating Debt Relief: Reviews of Popular Debt Settlement Services in India</h2>
+              <h2 id="introduction" className="text-4xl font-extrabold text-gray-900 mb-8 scroll-mt-28">Reviews of Popular Debt Settlement Services in India</h2>
               <div className="text-gray-700 leading-relaxed text-lg mb-10 space-y-6">
                 <p>
                   In recent years, the Indian financial landscape has seen a significant shift in how consumers manage debt. With the rise of easy credit through personal loans and credit cards, many individuals find themselves in a precarious financial position. This has led to the emergence of specialized agencies designed to help. In this guide, we provide in-depth <strong>reviews of popular debt settlement services available to Indian consumers</strong>, helping you distinguish between high-quality support and mediocre offerings.

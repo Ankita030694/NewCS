@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import ShouldISettleClient from './ShouldISettleClient';
 
 export const metadata: Metadata = {
-    title: "Should I Settle or Restructure My Personal Loan?",
-    description: "Confused between loan settlement and EMI restructuring? Learn the difference, the impact on your CIBIL score, and which option provides better financial.",
+    title: "Settle vs Restructure Personal Loan: Differences & CIBIL",
+    description: "Confused between loan settlement and EMI restructuring? Learn the differences, impact on CIBIL score, and which option offers better debt relief.",
     keywords: [
         "Should I settle or restructure my personal loan",
         "Personal loan settlement vs EMI restructuring",
@@ -16,6 +16,19 @@ export const metadata: Metadata = {
         "loan restructuring India",
         "loan settlement process"
     ],
+    openGraph: {
+        title: "Settle vs Restructure Personal Loan: Differences & CIBIL",
+        description: "Confused between loan settlement and EMI restructuring? Learn the differences, impact on CIBIL score, and which option offers better debt relief.",
+        type: "article",
+        locale: "en_IN",
+        siteName: "CredSettle",
+        url: "https://www.credsettle.com/should-i-settle-or-restructure-personal-loan"
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Settle vs Restructure Personal Loan: Differences & CIBIL",
+        description: "Confused between loan settlement and EMI restructuring? Learn the differences, impact on CIBIL score, and which option offers better debt relief."
+    },
     alternates: {
         canonical: 'https://www.credsettle.com/should-i-settle-or-restructure-personal-loan',
     },

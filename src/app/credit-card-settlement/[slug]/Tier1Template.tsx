@@ -120,8 +120,8 @@ export default function Tier1Template({ bankName, slug }: { bankName: string, sl
   const tocSections = [
     { id: "why-settle", text: `Why Consider a ${bankName} Settlement?`, level: 2 },
     { id: "credsettle-process", text: `The CredSettle Approach for ${bankName}`, level: 2 },
-    { id: "rbi-rights", text: `Your Rights Under RBI 2026 Guidelines`, level: 2 },
-    { id: "state-jurisdictions", text: `State-Specific Resolutions`, level: 2 },
+    { id: "rbi-rights", text: `Your Rights Under RBI 2026 Guidelines for ${bankName}`, level: 2 },
+    { id: "state-jurisdictions", text: `State-Specific Resolutions for ${bankName}`, level: 2 },
   ];
 
   const breadcrumbItems = [
@@ -172,14 +172,14 @@ export default function Tier1Template({ bankName, slug }: { bankName: string, sl
               </p>
             </div>
 
-            <h2 id="rbi-rights" className="scroll-mt-24 text-3xl font-bold mb-4">Your Rights Under RBI 2026 Guidelines</h2>
+            <h2 id="rbi-rights" className="scroll-mt-24 text-3xl font-bold mb-4">Your Rights Under RBI 2026 Guidelines for {bankName}</h2>
             <ul className="list-disc pl-6 text-gray-700 mb-8 space-y-2">
               <li><strong>Zero Tolerance for Abuse:</strong> {bankName} agents cannot use threatening language or intimidate you.</li>
               <li><strong>Privacy Protection:</strong> Calling your workplace, HR department, or relatives is strictly prohibited.</li>
               <li><strong>Fair Resolution:</strong> You have the absolute right to seek a negotiated settlement if genuine distress is proven.</li>
             </ul>
 
-            <h2 id="state-jurisdictions" className="scroll-mt-24 text-3xl font-bold mb-4">State-Specific Resolutions</h2>
+            <h2 id="state-jurisdictions" className="scroll-mt-24 text-3xl font-bold mb-4">State-Specific Resolutions for {bankName}</h2>
             <p className="text-gray-700 leading-relaxed mb-6">
               Legal jurisdictions heavily influence how {bankName} approaches civil recovery. If you face a potential legal notice, the response strategy differs based on your local High Court and Police Cyber Cell protocols. Select your state below to understand exactly how CredSettle handles {bankName} debt resolution in your region.
             </p>

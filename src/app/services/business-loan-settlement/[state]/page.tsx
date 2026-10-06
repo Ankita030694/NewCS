@@ -89,7 +89,7 @@ function generateHeadings(content: any) {
   if (content.whyBusinessLoanSettlement) {
     headings.push({
       id: 'why-business-loan-settlement',
-      text: `Why Business Loan Settlement Is Critical for ${content.stateName} Businesses`,
+      text: `Business Loan Settlement in ${content.stateName}`,
       level: 2
     });
   }
@@ -97,7 +97,7 @@ function generateHeadings(content: any) {
   if (content.commonBusinessLoanProblems) {
     headings.push({
       id: 'common-business-loan-problems',
-      text: `Common Business Loan Problems Faced in ${content.stateName}`,
+      text: `Common Business Loan Problems in ${content.stateName}`,
       level: 2
     });
   }
@@ -137,7 +137,7 @@ function generateHeadings(content: any) {
   if (content.benefits) {
     headings.push({
       id: 'benefits',
-      text: `Benefits of Choosing CredSettle for Business Loan Settlement in ${content.stateName}`,
+      text: `Why Choose CredSettle in ${content.stateName}`,
       level: 2
     });
   }
@@ -153,7 +153,7 @@ function generateHeadings(content: any) {
   if (content.stepByStepGuide) {
     headings.push({
       id: 'step-by-step-guide',
-      text: 'Step-by-Step Guide to Start Business Loan Settlement with CredSettle',
+      text: 'Guide to Business Loan Settlement with CredSettle',
       level: 2
     });
   }
@@ -161,7 +161,7 @@ function generateHeadings(content: any) {
   if (content.caseStudy) {
     headings.push({
       id: 'case-study',
-      text: `Real Case Study: Business Loan Settlement Success in ${content.stateName}`,
+      text: `Business Settlement Case Study in ${content.stateName}`,
       level: 2
     });
   }

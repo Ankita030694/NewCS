@@ -7,8 +7,8 @@ import ConsultantQuestionsClient from './ConsultantQuestionsClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'What Questions Should I Ask a Debt Settlement Consultant?',
-  description: 'Thinking of hiring a debt settlement consultant? Here are the top questions you must ask to ensure you choose a legitimate service and protect.',
+  title: 'Questions to Ask a Debt Settlement Consultant in India',
+  description: 'Thinking of hiring a debt settlement consultant? Here are key questions to ask so you choose a legitimate service and avoid upfront fee scams.',
   keywords: [
     'what questions should i ask a debt settlement consultant',
     'debt settlement consultant questions',
@@ -23,12 +23,17 @@ export const metadata: Metadata = {
     'settleloans debt settlement'
   ],
   openGraph: {
-    title: 'Essential Questions for Your Debt Settlement Consultant',
+    title: 'Questions to Ask a Debt Settlement Consultant in India',
     description: 'Learn the critical questions to ask before signing with a debt settlement company in India. Avoid scams and find the best path to debt freedom.',
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
     url: 'https://www.credsettle.com/what-questions-should-i-ask-a-debt-settlement-consultant'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Questions to Ask a Debt Settlement Consultant in India',
+    description: 'Thinking of hiring a debt settlement consultant? Here are key questions to ask so you choose a legitimate service and avoid upfront fee scams.'
   },
   alternates: {
     canonical: 'https://www.credsettle.com/what-questions-should-i-ask-a-debt-settlement-consultant'

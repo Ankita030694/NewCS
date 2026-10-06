@@ -7,7 +7,7 @@ import Link from 'next/link';
 import LoansNotSettledClient from './LoansNotSettledClient';
 
 export const metadata: Metadata = {
-  title: 'What Kind of Loans Can Not Be Settled?',
+  title: 'Loans That Cannot Be Settled in India: RBI Rules & Facts',
   description: 'Not all loans can be settled. Learn why secured loans like home and car loans are difficult to settle, understand RBI guidelines.',
   keywords: [
     'what kind of loans can not be settled',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     'loan settlement process India'
   ],
   openGraph: {
-    title: 'What Kind of Loans Can Not Be Settled? | CredSettle',
+    title: 'Loans That Cannot Be Settled in India: RBI Rules & Facts',
     description: 'Detailed guide on loan settlement eligibility in India. Know the difference between secured and unsecured loan settlement opportunities.',
     type: 'article',
     locale: 'en_IN',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Which Loans Cannot Be Settled? | CredSettle',
+    title: 'Loans That Cannot Be Settled in India: RBI Rules & Facts',
     description: 'Expert insights on secured vs unsecured loan settlement in India.',
   },
   alternates: {

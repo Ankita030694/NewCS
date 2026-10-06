@@ -462,7 +462,7 @@ export default function LegalRisksClient() {
                                 When navigating these complex legal waters, it is essential to have expert guidance. Organizations like <Link href="/" className="text-blue-600 hover:underline">CredSettle</Link>, along with specialized legal consultants at AmaLegalSolutions and the negotiation experts at SettleLoans, provide the necessary support to help borrowers reach a fair and legal resolution.
                             </p>
 
-                            <h2 id="section-138" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 138 of the Negotiable Instruments Act: The Cheque Bounce Nightmare</h2>
+                            <h2 id="section-138" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 138 NI Act: Cheque Bounce Risks</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 One of the most common and feared legal actions in the world of loan default is a case under Section 138 of the Negotiable Instruments Act, 1881. When you take a loan, lenders typically ask for post dated cheques as security. If you default on an EMI and the bank deposits one of these cheques, it will likely bounce due to "insufficient funds." This act of a cheque bouncing is not just a banking error; it is a criminal offense in the eyes of Indian law.
                             </p>
@@ -489,7 +489,7 @@ export default function LegalRisksClient() {
                                 A critical nuance is that the cheque must have been issued for a "legally enforceable debt." If the lender cannot prove the existence of the loan or if the loan was illegal (like some unregulated apps), the case may fail. However, for a mainstream bank loan, proving the debt is trivial. The burden then shifts entirely to the borrower to prove they had a valid reason for the non payment, which is a very high bar to meet in criminal court.
                             </p>
 
-                            <h2 id="section-25" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 25 of the Payment and Settlement Systems Act: Digital Default Consequences</h2>
+                            <h2 id="section-25" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 25 PSS Act: Digital NACH Default Risks</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 As India has moved toward a "Digital First" economy, physical cheques are being replaced by Electronic Clearing Services (ECS) and National Automated Clearing House (NACH) mandates. Many borrowers believe that since they didn’t sign a cheque, they are safe from criminal action. This is a myth. Section 25 of the Payment and Settlement Systems Act, 2007, was specifically created to give digital mandates the same legal standing as physical cheques.
                             </p>
@@ -592,7 +592,7 @@ export default function LegalRisksClient() {
                                 Using these rights doesn’t cancel your debt, but it forces the bank to behave professionally. Often, when a borrower files a successful complaint about harassment, the bank becomes much more willing to negotiate a favorable settlement to avoid penalties from the RBI. Knowing your rights transforms you from a victim into a stakeholder in the negotiation. In 2025, the Ombudsman has the power to award compensation to borrowers who have been victims of illegal recovery tactics.
                             </p>
 
-                            <h2 id="wilful-defaulters" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Wilful Defaulters and Criminal Liability: When Default Becomes a Crime</h2>
+                            <h2 id="wilful-defaulters" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Wilful Defaulters and Criminal Liability Risks</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 There is a massive legal difference between someone who *cannot* pay and someone who *will not* pay. If the bank can prove that you had the funds but intentionally diverted them or hid them, you can be classified as a **"Wilful Defaulter."** This classification is a death sentence for your financial career.
                             </p>

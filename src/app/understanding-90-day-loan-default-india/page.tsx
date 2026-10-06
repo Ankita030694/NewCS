@@ -7,7 +7,7 @@ import DefaultIndiaClient from './DefaultIndiaClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Understanding 90 Day Loan Default in India',
+  title: '90 Days Loan Default in India: NPA Classification & Rights',
   description: 'Everything you need to know about 90 day loan default in India. Learn about NPA classification, RBI guidelines, SARFAESI Act.',
   keywords: [
     'understanding 90 day loan default india',
@@ -22,12 +22,17 @@ export const metadata: Metadata = {
     '+91-8800226635'
   ],
   openGraph: {
-    title: 'Understanding 90 Day Loan Default in India | RBI Rules',
+    title: '90 Days Loan Default in India: NPA Classification & Rights',
     description: 'A comprehensive guide to loan defaults in India, NPA classification, and legal remedies for borrowers by CredSettle.',
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
     url: 'https://www.credsettle.com/understanding-90-day-loan-default-india'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '90 Days Loan Default in India: NPA Classification & Rights',
+    description: 'Everything you need to know about 90 day loan default in India. Learn about NPA classification, RBI guidelines, SARFAESI Act.'
   },
   alternates: {
     canonical: 'https://www.credsettle.com/understanding-90-day-loan-default-india'

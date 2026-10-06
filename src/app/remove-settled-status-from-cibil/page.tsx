@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import RemoveSettledStatusClient from './RemoveSettledStatusClient';
 
 export const metadata: Metadata = {
-  title: 'How to Remove "Settled" Status from CIBIL in 2026',
+  title: 'Remove Settled Status from CIBIL Report: Step-by-Step',
   description: 'Having a "Settled" status on your CIBIL report lowers your credit score. Learn the legal steps to remove or upgrade this status to "Closed."',
   keywords: [
     'how to remove settled status from cibil',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     'loan settlement impact on cibil score'
   ],
   openGraph: {
-    title: 'How to Remove "Settled" Status from CIBIL in 2026 | CredSettle',
+    title: 'Remove Settled Status from CIBIL Report: Step-by-Step',
     description: 'Having a "Settled" status on your CIBIL report lowers your credit score. Learn the legal steps to remove or upgrade this status to "Closed."',
     type: 'article',
     locale: 'en_IN',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How to Remove "Settled" Status from CIBIL in 2026',
+    title: 'Remove Settled Status from CIBIL Report: Step-by-Step',
     description: 'Having a "Settled" status on your CIBIL report lowers your credit score. Learn the legal steps to remove or upgrade this status to "Closed."',
     images: ['https://www.credsettle.com/credsettle-logo-black.png']
   },

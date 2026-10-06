@@ -82,8 +82,8 @@ export default function Tier2Template({ bankName, slug }: { bankName: string, sl
   const tocSections = [
     { id: "debt-spiral", text: `The ${bankName} Debt Spiral`, level: 2 },
     { id: "ots-negotiation", text: `Negotiating OTS with ${bankName}`, level: 2 },
-    { id: "stopping-harassment", text: `Stopping Agency Harassment`, level: 2 },
-    { id: "state-guidelines", text: `State Legal Guidelines`, level: 2 },
+    { id: "stopping-harassment", text: `Stopping ${bankName} Agency Harassment`, level: 2 },
+    { id: "state-guidelines", text: `State Legal Guidelines for ${bankName}`, level: 2 },
   ];
 
   const breadcrumbItems = [
@@ -126,12 +126,12 @@ export default function Tier2Template({ bankName, slug }: { bankName: string, sl
               CredSettle's expert negotiators bypass the outsourced collection agencies and communicate directly with {bankName}'s core resolution desk. We present documented proof of your financial distress to secure a One-Time Settlement (OTS). By utilizing our services, borrowers frequently achieve substantial principal waivers, allowing them to close the account for a fraction of the inflated demanded amount.
             </p>
 
-            <h2 id="stopping-harassment" className="scroll-mt-24 text-3xl font-bold mb-4">Stopping Agency Harassment</h2>
+            <h2 id="stopping-harassment" className="scroll-mt-24 text-3xl font-bold mb-4">Stopping {bankName} Agency Harassment</h2>
             <p className="text-gray-700 leading-relaxed mb-6">
               The moment you onboard with CredSettle, we issue cease-and-desist communications to {bankName}, invoking your rights under the latest RBI circulars. The central bank has made it abundantly clear that financial institutions are accountable for the behavior of their recovery agents. We ensure your privacy is respected and that you are not subjected to verbal abuse or unauthorized calls to your workplace.
             </p>
 
-            <h2 id="state-guidelines" className="scroll-mt-24 text-3xl font-bold mb-4">State Legal Guidelines</h2>
+            <h2 id="state-guidelines" className="scroll-mt-24 text-3xl font-bold mb-4">State Legal Guidelines for {bankName}</h2>
             <p className="text-gray-700 leading-relaxed mb-6">
               The legal framework surrounding civil debt recovery varies across the country. Whether it's filing a grievance with local cyber cells or understanding the jurisdiction of regional Debt Recovery Tribunals, knowing your local laws is critical. Select your state below to see how we manage {bankName} settlements in your specific area.
             </p>

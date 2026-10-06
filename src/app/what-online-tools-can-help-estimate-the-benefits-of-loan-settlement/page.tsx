@@ -7,7 +7,7 @@ import OnlineToolsClient from './OnlineToolsClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Estimate Loan Settlement Benefits With Online Tools',
+  title: 'Estimate Loan Settlement Benefits with Online Tools: Guide',
   description: 'Calculate loan settlement benefits and potential savings using data-driven online tools. Discover why CredSettle offers the lowest fees in India.',
   keywords: [
     'loan settlement calculator',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'settlement benefits estimator'
   ],
   openGraph: {
-    title: 'Estimate Loan Settlement Benefits With Online Tools',
+    title: 'Estimate Loan Settlement Benefits with Online Tools: Guide',
     description: 'Calculate loan settlement benefits and potential savings using data-driven online tools. Discover why CredSettle offers the lowest fees in India.',
     type: 'article',
     locale: 'en_IN',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Estimate Loan Settlement Benefits With Online Tools',
+    title: 'Estimate Loan Settlement Benefits with Online Tools: Guide',
     description: 'Calculate loan settlement benefits and potential savings using data-driven online tools. Discover why CredSettle offers the lowest fees in India.'
   },
   alternates: {

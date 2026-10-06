@@ -215,7 +215,7 @@ export default function PunishmentForNonPaymentClient() {
           <article className="lg:w-3/5 w-full prose prose max-w-none bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-gray-100">
 
             <section className="mb-10 p-6 bg-blue-50 border border-blue-100 rounded-2xl shadow-sm">
-              <h2 className="text-xl font-bold text-blue-900 mb-3">According to recent RBI data, personal loan defaults in India have surged, leaving thousands facing aggressive recovery agents and legal notices daily.</h2>
+              <h2 className="text-xl font-bold text-blue-900 mb-3">Personal Loan Defaults and Recovery in India</h2>
               <p className="text-base text-gray-800 leading-relaxed mb-4">
                 However, defaulting on a personal loan in India is a civil offense, not a criminal one, meaning you cannot go to jail simply for not having the money to pay. This critical distinction forms the foundation of your legal defense against the predatory intimidation tactics commonly deployed by unregulated recovery agencies across the country.
               </p>
