@@ -27,25 +27,42 @@ export function sanitizeMetaTitle(rawTitle?: string, brand = 'CredSettle'): stri
 }
 
 export function sanitizeMetaDescription(rawDesc?: string): string {
-  const defaultDesc = 'Get expert legal loan settlement and debt relief services in India with CredSettle. Stop bank harassment & resolve debt legally. Free consultation.';
+  const defaultDesc = 'Get expert loan settlement and debt relief in India with CredSettle. Stop bank harassment and resolve debt under RBI rules.';
   if (!rawDesc) return defaultDesc;
-  const clean = rawDesc.trim();
+  const clean = rawDesc.trim().replace(/\s+/g, ' ');
   
-  if (clean.length >= 120 && clean.length <= 155) return clean;
+  // Ideal range for Google snippet pixel width: 110 to 135 characters (well below 985 pixels, above 70 chars)
+  if (clean.length >= 110 && clean.length <= 135) return clean;
 
-  if (clean.length < 120) {
+  if (clean.length < 110) {
     const punctuated = clean.endsWith('.') ? clean : `${clean}.`;
-    const standardSuffix = ' Settle your debt legally with CredSettle and stop bank harassment.';
-    const combined = (punctuated + standardSuffix).trim();
-    if (combined.length >= 120 && combined.length <= 155) return combined;
+    const standardSuffix = ' Settle debt legally with CredSettle and stop bank harassment.';
+    const combined = `${punctuated}${standardSuffix}`.trim();
+    if (combined.length >= 110 && combined.length <= 135) return combined;
 
-    const fullSuffix = ' CredSettle provides legal debt resolution to stop recovery harassment and settle bank loans with waivers.';
-    const combinedFull = (punctuated + fullSuffix).trim();
-    if (combinedFull.length >= 120 && combinedFull.length <= 155) return combinedFull;
+    const shortSuffix = ' Settle legally under RBI rules with CredSettle.';
+    const combinedShort = `${punctuated}${shortSuffix}`.trim();
+    if (combinedShort.length >= 110 && combinedShort.length <= 135) return combinedShort;
 
-    if (combinedFull.length > 155) return combinedFull.slice(0, 152).trim() + '...';
+    if (clean.length >= 70 && clean.length <= 135) return clean;
     return defaultDesc;
   }
 
-  return clean.slice(0, 152).trim() + '...';
+  // If clean.length > 135, smartly truncate without cutting mid-word or breaking sentence
+  const sub = clean.slice(0, 135);
+  const lastPeriod = sub.lastIndexOf('.');
+  if (lastPeriod >= 95) {
+    return sub.slice(0, lastPeriod + 1);
+  }
+  const lastSpace = sub.lastIndexOf(' ');
+  if (lastSpace >= 95) {
+    let truncated = sub.slice(0, lastSpace).trim();
+    if (truncated.endsWith(',') || truncated.endsWith(';') || truncated.endsWith(':') || truncated.endsWith('&')) {
+      truncated = truncated.slice(0, -1).trim();
+    }
+    if (!truncated.endsWith('.')) truncated += '.';
+    return truncated;
+  }
+
+  return clean.slice(0, 130).trim() + '...';
 }

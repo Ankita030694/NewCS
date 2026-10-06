@@ -7,8 +7,8 @@ import LoanSettlementRecommendationsClient from './LoanSettlementRecommendations
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Top Loan Settlement Services for Lower Interest Rates in',
-  description: 'Looking for the best loan settlement services that negotiate lower interest rates in India? Compare CredSettle, Ama Legal Solutions.',
+  title: 'Top Loan Settlement Services for Lower Interest Rates',
+  description: 'Looking for loan settlement services to negotiate lower interest rates in India? Compare top debt relief solutions and reduce EMIs with CredSettle.',
   keywords: [
     'loan settlement services india',
     'negotiate lower interest rates india',
@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',
-    url: 'https://www.credsettle.com/recommendations-for-loan-settlement-services-that-negotiate-lower-interest-rates-in-india'
+    url: 'https://www.credsettle.com/loan-settlement-services-lower-interest-rates-india'
   },
   alternates: {
-    canonical: 'https://www.credsettle.com/recommendations-for-loan-settlement-services-that-negotiate-lower-interest-rates-in-india'
+    canonical: 'https://www.credsettle.com/loan-settlement-services-lower-interest-rates-india'
   }
 };
 
@@ -38,7 +38,7 @@ export default function LoanSettlementRecommendationsPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
-    '@id': 'https://www.credsettle.com/recommendations-for-loan-settlement-services-that-negotiate-lower-interest-rates-in-india',
+    '@id': 'https://www.credsettle.com/loan-settlement-services-lower-interest-rates-india',
     name: 'CredSettle Debt Resolution Services',
     url: 'https://www.credsettle.com',
     logo: 'https://www.credsettle.com/credsettle-logo.svg',
@@ -73,7 +73,7 @@ export default function LoanSettlementRecommendationsPage() {
         '@type': 'ListItem',
         'position': 2,
         'name': 'Loan Settlement Recommendations',
-        'item': 'https://www.credsettle.com/recommendations-for-loan-settlement-services-that-negotiate-lower-interest-rates-in-india'
+        'item': 'https://www.credsettle.com/loan-settlement-services-lower-interest-rates-india'
       }
     ]
   };
@@ -91,7 +91,7 @@ export default function LoanSettlementRecommendationsPage() {
     'dateModified': '2026-05-11',
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': 'https://www.credsettle.com/recommendations-for-loan-settlement-services-that-negotiate-lower-interest-rates-in-india'
+      '@id': 'https://www.credsettle.com/loan-settlement-services-lower-interest-rates-india'
     }
   };
 

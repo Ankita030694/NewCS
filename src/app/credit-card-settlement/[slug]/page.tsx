@@ -49,7 +49,6 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       googleBot: {
         index: true,
         follow: true,
-        noimageindex: false,
         'max-video-preview': -1,
         'max-image-preview': 'large',
         'max-snippet': -1,

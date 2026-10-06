@@ -1383,7 +1383,7 @@ export const sitemapLinks: SitemapLink[] = [
   },
   {
     title: "Top Loan Settlement Services for Lower Interest Rates in India",
-    href: "/recommendations-for-loan-settlement-services-that-negotiate-lower-interest-rates-in-india",
+    href: "/loan-settlement-services-lower-interest-rates-india",
     date: "11-05-2026",
   },
   {

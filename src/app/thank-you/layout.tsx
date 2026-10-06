@@ -1,16 +1,33 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Thank You | CredSettle',
-  description: 'Thank you for contacting CredSettle. Our debt settlement legal experts will reach out to you shortly.',
+  title: 'Thank You for Submitting | CredSettle',
+  description:
+    'Thank you for contacting CredSettle. Our debt settlement legal experts will review your details and connect with you within 24 hours.',
   alternates: { canonical: 'https://www.credsettle.com/thank-you' },
+  openGraph: {
+    title: 'Thank You for Submitting | CredSettle',
+    description:
+      'Thank you for contacting CredSettle. Our debt settlement legal experts will review your details and connect with you within 24 hours.',
+    url: 'https://www.credsettle.com/thank-you',
+    siteName: 'CredSettle',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Thank You for Submitting | CredSettle',
+    description:
+      'Thank you for contacting CredSettle. Our debt settlement legal experts will review your details and connect with you within 24 hours.',
+  },
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
     googleBot: {
-      index: false,
-      follow: false,
-      noimageindex: true,
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
     },
   },
 };

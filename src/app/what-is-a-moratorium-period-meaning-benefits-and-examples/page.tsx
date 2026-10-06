@@ -7,7 +7,7 @@ import WhatIsAMoratoriumPeriodMeaningBenefitsAndExamplesClient from './WhatIsAMo
 
 export const metadata: Metadata = {
     title: "What is a Moratorium Period? Meaning & Benefits",
-    description: "Understand the moratorium period meaning, how loan moratorium works, and the impact of education loan moratorium interest. Don't fall for the hidden costs.",
+    description: "Understand the moratorium period meaning, how it works, and interest impact. Learn how to avoid hidden loan moratorium costs.",
     keywords: [
         "moratorium period meaning",
         "how does loan moratorium work",

@@ -75,20 +75,24 @@ function getBankMetaTitle(company: string): string {
 function getBankMetaDescription(company: string): string {
   const c = company.trim();
   const candidates = [
-    `Settle your ${c} loan legally with CredSettle. Stop recovery harassment, protect legal rights, and reduce debt under RBI rules.`,
-    `Settle ${c} loan legally with CredSettle. Stop recovery agent harassment, protect legal rights, and reduce debt under RBI rules.`,
-    `Settle ${c} loan legally. Stop recovery harassment, protect your legal rights, and resolve debt under official RBI guidelines.`,
-    `Settle your ${c} debt legally. Stop recovery agent harassment, protect your rights, and resolve loans under RBI rules today.`,
-    `Settle ${c} debt legally with CredSettle. Stop recovery harassment and negotiate OTS loan waiver under RBI guidelines.`
+    `Settle your ${c} loan legally with CredSettle. Stop harassment, protect legal rights, and reduce debt under RBI rules.`,
+    `Settle ${c} loan legally with CredSettle. Stop harassment, protect your rights, and reduce debt under RBI rules.`,
+    `Settle your ${c} loan legally. Stop recovery harassment, protect legal rights, and resolve debt under RBI rules.`,
+    `Settle ${c} loan legally. Stop recovery harassment, protect rights, and resolve debt under official RBI guidelines.`,
+    `Settle ${c} debt legally with CredSettle. Stop recovery harassment and negotiate OTS waiver under RBI guidelines.`
   ];
   for (const cand of candidates) {
-    if (cand.length >= 115 && cand.length <= 150) return cand;
+    if (cand.length >= 105 && cand.length <= 135) return cand;
   }
-  let base = `Settle your ${c} loan legally. Stop recovery harassment, protect legal rights, and resolve debt under RBI rules.`;
-  if (base.length > 150) {
+  let base = `Settle ${c} loan legally. Stop recovery harassment and resolve debt under RBI rules with CredSettle.`;
+  if (base.length > 135) {
     base = `Settle ${c} loan legally. Stop harassment and resolve debt under RBI guidelines.`;
   }
-  return base.slice(0, 150);
+  if (base.length > 135) {
+    let shortName = c.replace('Private Limited', 'Pvt Ltd').replace('Limited', 'Ltd').replace('Technologies', 'Tech');
+    base = `Settle ${shortName} loan legally under RBI rules with CredSettle.`;
+  }
+  return base.slice(0, 135);
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

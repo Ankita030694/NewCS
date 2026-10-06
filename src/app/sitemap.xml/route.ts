@@ -2103,7 +2103,7 @@ async function generateSitemap(): Promise<string> {
   });
 
   urls.push({
-    loc: `${baseUrl}/recommendations-for-loan-settlement-services-that-negotiate-lower-interest-rates-in-india`,
+    loc: `${baseUrl}/loan-settlement-services-lower-interest-rates-india`,
     priority: 0.95,
     changefreq: 'weekly',
     lastmod: today

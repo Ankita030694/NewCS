@@ -192,7 +192,7 @@ export default function ThankYouPage() {
 
                   {/* Price */}
                   <div className="text-center mb-3 md:mb-4">
-                    <h1
+                    <p
                       className="text-3xl md:text-4xl lg:text-[42px] font-bold leading-none"
                       style={{
                         color: '#2D2D2D',
@@ -200,7 +200,7 @@ export default function ThankYouPage() {
                       }}
                     >
                       Just ₹11
-                    </h1>
+                    </p>
                   </div>
 
                   {/* Pay Now Button */}

@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Reviews of Popular Debt Settlement Services in India (2026)',
-  description: 'Read comprehensive 2026 reviews of popular debt settlement services in India. Compare fees, legal protection, success rates, and RBI compliance for relief.',
+  description: 'Read comprehensive reviews of popular debt settlement services in India. Compare fees, legal protection, and RBI compliance.',
   keywords: [
     'reviews of popular debt settlement services available to indian consumers',
     'best debt settlement companies in india reviews',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Comprehensive Reviews of Popular Debt Settlement Services in India (2026)',
-    description: 'Read comprehensive 2026 reviews of popular debt settlement services in India. Compare fees, legal protection, success rates, and RBI compliance for relief.',
+    description: 'Read comprehensive reviews of popular debt settlement services in India. Compare fees, legal protection, and RBI compliance.',
     type: 'website',
     locale: 'en_IN',
     siteName: 'CredSettle',

@@ -7,7 +7,7 @@ import ClientPage from './ClientPage';
 
 export const metadata: Metadata = {
     title: "How to Settle Multiple Personal Loans & Credit Cards at Once",
-    description: "Overwhelmed by multiple personal loans and credit cards? Discover how CredSettle consolidates negotiations to settle multiple debts with one streamlined.",
+    description: "Overwhelmed by multiple loans? Learn how CredSettle negotiates and settles multiple personal debts with one streamlined legal process.",
     alternates: {
         canonical: 'https://www.credsettle.com/settle-multiple-personal-loans',
     },

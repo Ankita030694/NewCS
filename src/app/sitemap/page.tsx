@@ -1750,8 +1750,8 @@ const sitemapLinks = [
     "href": "/how-to-check-if-a-debt-settlement-company-is-legit-and-trustworthy"
   },
   {
-    "title": "Recommendations For Loan Settlement Services That Negotiate Lower Interest Rates In India",
-    "href": "/recommendations-for-loan-settlement-services-that-negotiate-lower-interest-rates-in-india"
+    "title": "Loan Settlement Services For Lower Interest Rates In India",
+    "href": "/loan-settlement-services-lower-interest-rates-india"
   },
   {
     "title": "What Customer Support Options Do Loan Settlement Companies Provide",
