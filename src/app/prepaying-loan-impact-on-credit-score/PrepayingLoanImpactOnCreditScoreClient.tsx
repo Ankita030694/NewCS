@@ -147,9 +147,11 @@ export default function PrepayingLoanImpactOnCreditScoreClient() {
                 }}
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
+                    <p className="text-blue-300 font-semibold text-lg md:text-xl uppercase tracking-wider mb-3">
+                        The Pre-closure Paradox
+                    </p>
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Does Prepaying a Loan Improve or Hurt Your Credit Score?<br />
-                        <span className="text-blue-300">The Pre-closure Paradox</span>
+                        Does Prepaying a Loan Improve or Hurt Credit Score?
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Borrowers assume paying off a loan early instantly boosts their CIBIL score. Discover the nuanced algorithm behind loan pre-closure and learn how to manage temporary score drops effectively.

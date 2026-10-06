@@ -194,9 +194,11 @@ export default function NegotiationStepsClient() {
                 }}
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
+                    <p className="text-blue-300 font-semibold text-lg md:text-xl uppercase tracking-wider mb-3">
+                        Preparation Blueprint
+                    </p>
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight uppercase">
-                        Master the Art of Loan Settlement Negotiation<br />
-                        <span className="text-blue-300">A 2025 Preparation Blueprint</span>
+                        Master Loan Settlement Negotiation
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Don’t walk into a bank unprepared. Learn the technical, legal, and psychological steps to take before you negotiate your way to debt freedom.

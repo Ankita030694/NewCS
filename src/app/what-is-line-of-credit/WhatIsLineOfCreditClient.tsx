@@ -95,9 +95,11 @@ export default function WhatIsLineOfCreditClient({ faqs, reviews }: WhatIsLineOf
                 }}
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
+                    <p className="text-blue-300 font-semibold text-lg md:text-xl uppercase tracking-wider mb-3">
+                        Decoding the Credit Puzzle
+                    </p>
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        What is a Line of Credit vs a Traditional Loan?<br />
-                        <span className="text-blue-300">Decoding the Credit Puzzle</span>
+                        What is a Line of Credit vs a Traditional Loan?
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Borrowers frequently confuse personal loans with a line of credit, resulting in paying interest on funds they have not used. Understand the revolving nature of LOCs and borrow smartly.

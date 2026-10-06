@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import HowToRegulariseClient from './HowToRegulariseClient';
 
 export const metadata: Metadata = {
-    title: "How to Regularise an Overdue Loan Account (NPA to Standard)",
+    title: "How to Regularise an Overdue Loan Account (NPA Guide)",
     description: "Learn how to regularise an overdue loan account and upgrade from NPA to Standard. Clear overdue arrears and restore credit health under RBI rules.",
     keywords: [
         "regularise loan account",

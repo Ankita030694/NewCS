@@ -210,9 +210,11 @@ export default function AdvantagesDisadvantagesClient() {
                 }}
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
+                    <p className="text-blue-300 font-semibold text-lg md:text-xl uppercase tracking-wider mb-3">
+                        Comprehensive Analysis
+                    </p>
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        What are the Advantages and Disadvantages of Loan Settlement?<br />
-                        <span className="text-blue-300">The 2025 Comprehensive Analysis</span>
+                        Advantages and Disadvantages of Loan Settlement
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Expert insights into the benefits of debt relief vs. the long-term impact on your CIBIL score. Navigate the RBI 2025 guidelines with confidence.

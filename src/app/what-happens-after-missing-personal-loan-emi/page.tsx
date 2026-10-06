@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import WhatHappensMissingEmiClient from './WhatHappensMissingEmiClient';
 
 export const metadata: Metadata = {
-    title: "What Happens After Missing a Personal Loan EMI? (2026 Guide)",
+    title: "What Happens After Missing Personal Loan EMI (2026)",
     description: "Missed a personal loan EMI? Understand the consequences, from penal interest to recovery calls, and learn how to legally resolve a loan default in India.",
     keywords: [
         "What happens after missing personal loan EMI?",
@@ -25,7 +25,7 @@ export default function WhatHappensMissingEmiPage() {
     const jsonLd = {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "What Happens After Missing a Personal Loan EMI? (2026 Guide)",
+        "headline": "What Happens After Missing Personal Loan EMI (2026)",
         "description": "Missed a personal loan EMI? Understand the consequences, from penal interest to recovery calls, and learn how to legally resolve a loan default in India.",
         "image": "https://www.credsettle.com/credsettle-logo.svg",
         "author": {

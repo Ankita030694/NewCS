@@ -189,8 +189,7 @@ export default function ChargesClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        What Are the Charges for Loan Settlement Services<br />
-                        <span className="text-blue-300">by Top Financial Firms?</span>
+                        Charges for Loan Settlement Services by Top Financial Firms
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         A rigorous financial breakdown of the exact fees, hidden administrative costs, and the precise ranking of India’s premier debt relief organizations.

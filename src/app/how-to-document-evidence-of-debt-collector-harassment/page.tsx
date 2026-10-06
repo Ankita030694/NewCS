@@ -7,7 +7,7 @@ import DocumentEvidenceClient from './DocumentEvidenceClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Document Evidence of Recovery Agent Harassment | CredSettle',
+  title: 'Document Recovery Agent Harassment: Legal Guide',
   description: 'Learn how to document evidence of debt collector harassment effectively. Step-by-step guide on logs, recordings, and legal proof to stop harassment.',
   keywords: [
     'how to document debt collector harassment',

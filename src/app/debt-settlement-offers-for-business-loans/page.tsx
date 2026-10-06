@@ -4,7 +4,7 @@ import Footer from '@/components/Footer';
 import BusinessLoanSettlementClient from './BusinessLoanSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'Business Loan Settlement Offers | MSME Debt Resolution 2025',
+  title: 'Business Loan Settlement Offers (2026 MSME Guide)',
   description: 'Explore strategic debt settlement offers for business loans in India. Learn about MSME OTS schemes, RBI compromise frameworks 2023-25.',
   keywords: 'business loan settlement offers, msme debt resolution, rbi compromise settlement framework, ots scheme for business loans, business debt relief india',
   alternates: {

@@ -94,7 +94,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                   marginBottom: '12px'
                 }}
               >
-                {content.heroTitle || `Car Loan Settlement in ${content.stateName} - Drive Toward Financial Freedom with CredSettle`}
+                {content.heroTitle || `Car Loan Settlement in ${content.stateName} - Settle Legally`}
               </h1>
               <p
                 className="text-xs md:text-sm lg:text-[14px] leading-relaxed"

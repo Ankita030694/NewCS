@@ -98,9 +98,11 @@ export default function EMIConsequencesPage() {
         }}
       >
         <div className="max-w-6xl mx-auto text-center z-10">
+          <p className="text-blue-300 font-semibold text-lg md:text-xl uppercase tracking-wider mb-3">
+            The Definitive Guide for 2026
+          </p>
           <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight leading-tight">
-            What are the Consequences of Not Paying EMI?<br />
-            <span className="text-blue-300">The Definitive Guide for 2026</span>
+            What are the Consequences of Not Paying EMI?
           </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-4xl mx-auto font-light leading-relaxed">
             Missing an Equated Monthly Installment (EMI) is more than just a financial slip. From cascading interest and credit score damage to complex legal battles under the SARFAESI Act, understand every ripple effect of loan default in India.

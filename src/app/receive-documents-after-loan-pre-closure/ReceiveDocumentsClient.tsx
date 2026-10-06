@@ -147,9 +147,11 @@ export default function ReceiveDocumentsClient() {
                 }}
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
+                    <p className="text-blue-300 font-semibold text-lg md:text-xl uppercase tracking-wider mb-3">
+                        RBI Guidelines and Your Rights
+                    </p>
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Receiving Original Documents <br />After Loan Pre-Closure<br />
-                        <span className="text-blue-300">RBI Guidelines and Your Rights</span>
+                        Receiving Original Documents After Loan Pre-Closure
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Banks are notorious for misplacing original property deeds. Learn the Reserve Bank of India mandate requiring documents to be returned within 30 days and the massive penalties banks must pay for delays.

@@ -204,8 +204,7 @@ export default function InterestSavingsClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        What are the Interest Savings by Settling<br />
-                        <span className="text-blue-300">Loans Early through Digital Services?</span>
+                        Interest Savings by Settling Loans Early via Digital Services
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
                         Master the math of early closure and discover how digital platforms and expert negotiators can save you lakhs in interest costs.

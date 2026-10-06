@@ -162,9 +162,11 @@ export default function CreditScoreDropClient() {
                 }}
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
+                    <p className="text-blue-300 font-semibold text-lg md:text-xl uppercase tracking-wider mb-3">
+                        The Hidden Truths Revealed
+                    </p>
                     <h1 className="text-3xl md:text-5xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Why Does My Credit Score Drop Even Though I Pay on Time?<br />
-                        <span className="text-blue-300">The 2026 Hidden Truths Revealed</span>
+                        Why Does My Credit Score Drop Even Though I Pay on Time?
                     </h1>
                     <p className="text-lg md:text-xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
                         Frustrated by falling CIBIL numbers? Discover the secret factors beyond timely payments that dictate your financial freedom.

@@ -13,49 +13,82 @@ interface Props {
   params: Promise<{ slug: string }>;
 }
 
+const getBankCanonicalSlug = (company: string) => {
+  return company.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+};
+
 const getBankBySlug = (slug: string) => {
+  const normalized = slug.toLowerCase().trim();
+  if (normalized === 'landt-finance' || normalized === 'lt-finance' || normalized === 'landt') {
+    return banksData.find((b) => b.company === 'L&T Finance');
+  }
   return banksData.find(
-    (b) => b.company.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') === slug
+    (b) => getBankCanonicalSlug(b.company) === normalized
   );
 };
 
+function toProperCase(str: string): string {
+  if (str === str.toUpperCase() && str.length > 4) {
+    return str.split(' ').map(word => {
+      if (word.length <= 3 && /^[A-Z0-9]+$/.test(word)) return word;
+      return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+    }).join(' ');
+  }
+  return str;
+}
+
 function getBankMetaTitle(company: string): string {
-  const c = company.trim();
+  const c = toProperCase(company.trim());
   const candidates = [
-    `${c} Loan Settlement Process 2026: Settle Dues Legally`,
-    `${c} Loan Settlement 2026: Settle Dues Legally`,
-    `${c} Loan Settlement Process 2026 | CredSettle Guide`,
-    `${c} Loan Settlement Guide 2026: Resolve Debt`,
-    `${c} Loan Settlement: 2026 Legal Defense Guide`,
-    `How to Settle ${c} Loan Legally in 2026`,
-    `${c} Loan Settlement 2026: Stop Harassment & Settle`,
-    `${c} Loan Settlement 2026: Process, Rules & Legal Defense`
+    `${c} Loan Settlement Process (2026)`,
+    `${c} Loan Settlement 2026: Settle`,
+    `${c} Loan Settlement: 2026 Process`,
+    `How to Settle ${c} Loan (2026)`,
+    `${c} Loan Settlement Guide 2026`,
+    `${c} Loan Settlement Process 2026`,
+    `${c} Loan Settlement (2026 Guide)`,
+    `${c} Loan Settlement: Legal Guide`,
+    `${c} Loan Settlement 2026`,
+    `${c} Loan Settlement Process`,
+    `${c} Loan Settlement`
   ];
   for (const cand of candidates) {
-    if (cand.length >= 50 && cand.length <= 65) return cand;
+    if (cand.length >= 30 && cand.length <= 58) return cand;
   }
-  const fallback = `${c} Loan Settlement 2026: Settle Dues Legally`;
-  return fallback.length > 65 ? fallback.slice(0, 65) : fallback.padEnd(50, ' ');
+  let shortName = c;
+  if (c.includes('Private Limited')) shortName = c.replace('Private Limited', 'Pvt Ltd');
+  if (c.includes('Limited')) shortName = c.replace('Limited', 'Ltd');
+  if (c.includes('Technologies')) shortName = c.replace('Technologies', 'Tech');
+
+  const shortCandidates = [
+    `${shortName} Loan Settlement (2026)`,
+    `${shortName} Loan Settlement Guide`,
+    `${shortName} Loan Settlement 2026`,
+    `${shortName} Loan Settlement`
+  ];
+  for (const cand of shortCandidates) {
+    if (cand.length <= 58) return cand;
+  }
+  return `${shortName} Loan Settlement`.slice(0, 55);
 }
 
 function getBankMetaDescription(company: string): string {
   const c = company.trim();
   const candidates = [
-    `Settle your ${c} loan legally with CredSettle. Stop recovery agent harassment, protect your legal rights, and reduce debt under RBI guidelines today.`,
-    `Settle your ${c} debt legally. Stop recovery agent harassment, protect your legal rights, and resolve loans under official RBI guidelines today.`,
-    `Facing ${c} loan default? Settle legally with CredSettle. Stop recovery harassment, protect your rights, and negotiate waivers under RBI rules.`,
-    `Settle ${c} loans legally. Stop recovery harassment, defend your borrower rights, and settle outstanding dues with expert legal assistance today.`,
-    `Settle ${c} loan legally in 2026. Stop recovery agent harassment, negotiate maximum OTS waiver under RBI rules, and rebuild your CIBIL score.`,
-    `Settle ${c} loan legally in 2026. Stop recovery harassment, negotiate maximum OTS waiver under RBI rules, and rebuild your CIBIL score.`
+    `Settle your ${c} loan legally with CredSettle. Stop recovery harassment, protect legal rights, and reduce debt under RBI rules.`,
+    `Settle ${c} loan legally with CredSettle. Stop recovery agent harassment, protect legal rights, and reduce debt under RBI rules.`,
+    `Settle ${c} loan legally. Stop recovery harassment, protect your legal rights, and resolve debt under official RBI guidelines.`,
+    `Settle your ${c} debt legally. Stop recovery agent harassment, protect your rights, and resolve loans under RBI rules today.`,
+    `Settle ${c} debt legally with CredSettle. Stop recovery harassment and negotiate OTS loan waiver under RBI guidelines.`
   ];
   for (const cand of candidates) {
-    if (cand.length >= 140 && cand.length <= 158) return cand;
+    if (cand.length >= 115 && cand.length <= 150) return cand;
   }
-  let base = `Settle your ${c} loan legally with CredSettle. Stop recovery agent harassment, protect your legal rights, and reduce debt under RBI rules today.`;
-  if (base.length < 140) {
-    base = `Settle your ${c} personal and credit card loans legally. Stop recovery harassment, protect your legal rights, and reduce debt under RBI guidelines.`;
+  let base = `Settle your ${c} loan legally. Stop recovery harassment, protect legal rights, and resolve debt under RBI rules.`;
+  if (base.length > 150) {
+    base = `Settle ${c} loan legally. Stop harassment and resolve debt under RBI guidelines.`;
   }
-  return base.slice(0, 158);
+  return base.slice(0, 150);
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -63,6 +96,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const bank = getBankBySlug(slug);
   if (!bank) return { title: 'Bank Not Found | CredSettle' };
 
+  const canonicalSlug = getBankCanonicalSlug(bank.company);
   const metaTitle = getBankMetaTitle(bank.company);
   const metaDescription = getBankMetaDescription(bank.company);
 
@@ -70,11 +104,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: metaTitle,
     description: metaDescription,
     keywords: `${bank.company} loan settlement, ${bank.company} credit card settlement, ${bank.company} debt relief, stop ${bank.company} recovery agents, ${bank.company} NPA settlement, legal debt settlement India`,
-    alternates: { canonical: `https://www.credsettle.com/loan-settlement-by-bank/${slug}` },
+    alternates: { canonical: `https://www.credsettle.com/loan-settlement-by-bank/${canonicalSlug}` },
     openGraph: {
       title: metaTitle,
       description: metaDescription,
-      url: `https://www.credsettle.com/loan-settlement-by-bank/${slug}`,
+      url: `https://www.credsettle.com/loan-settlement-by-bank/${canonicalSlug}`,
       type: 'article',
     },
     twitter: {
@@ -91,6 +125,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
 
   if (!bank) notFound();
 
+  const canonicalSlug = getBankCanonicalSlug(bank.company);
   const bankName = bank.company;
   const bankEmails = bank.emails;
   const metaTitle = getBankMetaTitle(bankName);
@@ -103,7 +138,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
     'itemListElement': [
       { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': 'https://www.credsettle.com' },
       { '@type': 'ListItem', 'position': 2, 'name': 'Bank Settlements', 'item': 'https://www.credsettle.com/loan-settlement-by-bank' },
-      { '@type': 'ListItem', 'position': 3, 'name': `${bankName} Settlement Guide`, 'item': `https://www.credsettle.com/loan-settlement-by-bank/${slug}` }
+      { '@type': 'ListItem', 'position': 3, 'name': `${bankName} Settlement Guide`, 'item': `https://www.credsettle.com/loan-settlement-by-bank/${canonicalSlug}` }
     ]
   };
 
@@ -185,7 +220,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
     'dateModified': new Date().toISOString(),
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': `https://www.credsettle.com/loan-settlement-by-bank/${slug}`
+      '@id': `https://www.credsettle.com/loan-settlement-by-bank/${canonicalSlug}`
     }
   };
 

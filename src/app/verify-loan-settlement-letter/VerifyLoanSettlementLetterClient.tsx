@@ -130,10 +130,11 @@ export default function VerifyLoanSettlementLetterClient() {
       >
         <div className="absolute inset-0 bg-black/5 z-0 pointer-events-none" />
         <div className="max-w-5xl mx-auto text-center z-10 relative">
-          {/* Title / H1 */}
+          <p className="text-blue-100 font-semibold text-sm sm:text-base md:text-lg uppercase tracking-wider mb-2">
+            Comprehensive Legal Checklist
+          </p>
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-3 md:mb-4 tracking-tight leading-tight drop-shadow-xs">
-            How to Verify a Bank&apos;s Loan Settlement Letter <br />
-            <span className="text-blue-100">(Comprehensive Legal Checklist)</span>
+            How to Verify a Bank&apos;s Loan Settlement Letter
           </h1>
 
           {/* Subtitle */}

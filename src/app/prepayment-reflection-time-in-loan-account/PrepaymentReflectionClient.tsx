@@ -149,9 +149,11 @@ export default function PrepaymentReflectionClient() {
                 }}
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
+                    <p className="text-blue-300 font-semibold text-lg md:text-xl uppercase tracking-wider mb-3">
+                        Understanding Bank Ledger Updates
+                    </p>
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        How Long Does Prepayment Reflection Take?<br />
-                        <span className="text-blue-300">Understanding Bank Ledger Updates</span>
+                        How Long Does Prepayment Reflection Take?
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Did you transfer funds but your loan app still shows the old balance? Learn about NEFT clearing cycles, the suspense account holding period, and exactly when your balance will drop.

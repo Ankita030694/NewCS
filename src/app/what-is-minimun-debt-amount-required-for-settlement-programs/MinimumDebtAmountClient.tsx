@@ -199,9 +199,11 @@ export default function MinimumDebtAmountClient() {
                 }}
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
+                    <p className="text-blue-200 font-semibold text-lg md:text-xl uppercase tracking-wider mb-3">
+                        Eligibility Criteria in India
+                    </p>
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight">
-                        What is the Minimum Debt Amount Required for Settlement Programs?<br />
-                        <span className="text-blue-200">Eligibility Criteria in India (2025)</span>
+                        Minimum Debt Amount Required for Settlement Programs
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-4xl mx-auto font-light leading-relaxed">
                         Wondering if your debt is "big enough" to qualify for a settlement? Discover the monetary thresholds, lender policies, and the latest RBI 2025 guidelines for debt resolution modules.

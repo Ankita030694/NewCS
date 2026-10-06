@@ -7,13 +7,13 @@ import SBILoanSettlementClient from '@/app/loan-settlement/sbi/SBILoanSettlement
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'SBI Loan Settlement Process 2026: OTS Scheme & Legal Guide',
+  title: 'SBI Loan Settlement Process 2026: OTS & Legal Guide',
   description: "Settle SBI personal loans and credit cards under OTS schemes. Stop recovery agent harassment and negotiate debt waivers with CredSettle experts.",
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/sbi',
   },
   openGraph: {
-    title: 'SBI Loan Settlement Process 2026: OTS Scheme & Legal Guide',
+    title: 'SBI Loan Settlement Process 2026: OTS & Legal Guide',
     description: 'Struggling with SBI debt? Our expert legal team helps you settle SBI loans and credit cards. Stop harassment and arbitration today.',
     url: 'https://www.credsettle.com/loan-settlement/sbi',
     type: 'article',

@@ -726,6 +726,21 @@ const nextConfig: NextConfig = {
         destination: "/how-can-i-negotiate-a-personal-loan-settlement-with-lenders",
         permanent: true,
       },
+      {
+        source: "/loan-settlement-by-bank/landt-finance",
+        destination: "/loan-settlement-by-bank/l-t-finance",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/lt-finance",
+        destination: "/loan-settlement-by-bank/l-t-finance",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/landt",
+        destination: "/loan-settlement-by-bank/l-t-finance",
+        permanent: true,
+      },
     ];
   },
   async headers() {

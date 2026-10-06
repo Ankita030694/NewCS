@@ -7,7 +7,7 @@ import RightsClient from './RightsClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'What Are My Rights When Dealing With Loan Recovery Agents?',
+  title: 'Rights Against Loan Recovery Agents: 2026 Guide',
   description: 'Know your legal rights when dealing with loan recovery agents in India. Learn about RBI guidelines, harassment protection.',
   keywords: [
     'rights against recovery agents',

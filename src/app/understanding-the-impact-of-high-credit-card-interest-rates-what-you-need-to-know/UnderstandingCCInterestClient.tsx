@@ -124,9 +124,11 @@ export default function UnderstandingCCInterestClient() {
                 }}
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
+                    <p className="text-blue-300 font-semibold text-lg md:text-xl uppercase tracking-wider mb-3">
+                        What You Need to Know
+                    </p>
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Understanding the Impact of High Credit Card Interest Rates<br />
-                        <span className="text-blue-300">What You Need to Know</span>
+                        Understanding the Impact of High Credit Card Interest Rates
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-normal">
                         Consumers carry forward balances paying the Minimum Due, completely blind to the 36 to 42 percent APR secretly compounding daily. Break down the brutal math and escape the debt trap.

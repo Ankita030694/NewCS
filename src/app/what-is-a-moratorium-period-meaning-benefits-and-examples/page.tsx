@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import WhatIsAMoratoriumPeriodMeaningBenefitsAndExamplesClient from './WhatIsAMoratoriumPeriodMeaningBenefitsAndExamplesClient';
 
 export const metadata: Metadata = {
-    title: "What is a Moratorium Period? Meaning, Benefits, and Examples",
+    title: "What is a Moratorium Period? Meaning & Benefits",
     description: "Understand the moratorium period meaning, how loan moratorium works, and the impact of education loan moratorium interest. Don't fall for the hidden costs.",
     keywords: [
         "moratorium period meaning",

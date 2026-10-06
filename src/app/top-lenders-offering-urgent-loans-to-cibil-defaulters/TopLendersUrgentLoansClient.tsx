@@ -153,9 +153,11 @@ export default function TopLendersUrgentLoansClient() {
                 }}
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
+                    <p className="text-blue-300 font-semibold text-lg md:text-xl uppercase tracking-wider mb-3">
+                        Regain Your Financial Footing
+                    </p>
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Top Lenders Offering Urgent Loans to CIBIL Defaulters<br />
-                        <span className="text-blue-300">Regain Your Financial Footing</span>
+                        Top Lenders Offering Urgent Loans to CIBIL Defaulters
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         A low credit score is not a financial death sentence. Discover regulated NBFCs and digital platforms providing emergency funds through advanced alternate credit scoring methods. Avoid the loan shark trap.

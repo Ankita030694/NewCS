@@ -7,7 +7,7 @@ import DebtSettlementEraseDebtClient from './DebtSettlementEraseDebtClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Does Settlement Erase the Debt Completely? Legal Facts 2026',
+  title: 'Does Settlement Erase Debt Completely? 2026 Facts',
   description: 'Does debt settlement erase your debt completely? Learn the legal reality of One-Time Settlement (OTS), the 7-year CIBIL impact.',
   keywords: [
     'does settlement erase the debt completely',

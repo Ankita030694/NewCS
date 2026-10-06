@@ -95,7 +95,7 @@ export const statesContent: Record<string, StateContent> = {
     slug: 'uttar-pradesh',
     title: 'NBFC Loan Settlement in Uttar Pradesh | CredSettle',
     metaDescription: 'Expert NBFC loan settlement in Uttar Pradesh. Get RBI-compliant relief, stop recovery harassment, and reduce debt legally across Lucknow, Noida & Kanpur.',
-    heroTitle: 'NBFC Loan Settlement in Uttar Pradesh - Settle Legally, Protect Cash Flow',
+    heroTitle: 'NBFC Loan Settlement in Uttar Pradesh - Settle Legally',
     heroDescription: 'Professional NBFC loan settlement services for Uttar Pradesh borrowers. Stop coercive recovery, secure 40-70% waivers, and rebuild credit with RBI-compliant strategy.',
     ...generateNBFCLoanContent('uttar-pradesh') as any,
     faqs: [
@@ -127,7 +127,7 @@ export const statesContent: Record<string, StateContent> = {
     slug: 'west-bengal',
     title: 'NBFC Loan Settlement in West Bengal | CredSettle',
     metaDescription: 'Expert NBFC loan settlement in West Bengal. Get RBI-compliant relief, stop harassment, and reduce debt legally across Kolkata, Howrah & Siliguri.',
-    heroTitle: 'NBFC Loan Settlement in West Bengal - Settle Responsibly, Safeguard Business',
+    heroTitle: 'NBFC Loan Settlement in West Bengal - Settle Legally',
     heroDescription: 'Professional NBFC loan settlement services for West Bengal borrowers. Halt coercive recovery, achieve 40-70% waivers, and rebuild credit with localized legal support.',
     ...generateNBFCLoanContent('west-bengal') as any,
     faqs: [
@@ -223,7 +223,7 @@ export const statesContent: Record<string, StateContent> = {
     slug: 'telangana',
     title: 'NBFC Loan Settlement in Telangana | CredSettle',
     metaDescription: 'Expert NBFC loan settlement in Telangana. Get RBI-compliant debt relief, stop harassment, and settle legally across Hyderabad, Warangal & Nizamabad.',
-    heroTitle: 'NBFC Loan Settlement in Telangana - Settle Strategically, Protect Cash Flow',
+    heroTitle: 'NBFC Loan Settlement in Telangana - Settle Legally',
     heroDescription: 'Professional NBFC loan settlement services for Telangana borrowers. Halt coercive recovery, secure 40-70% waivers, and rebuild credit with HITEC City and rural expertise.',
     ...generateNBFCLoanContent('telangana') as any,
     faqs: [
@@ -274,7 +274,7 @@ export function generateDefaultContent(stateName: string, slug: string): StateCo
     title: `NBFC Loan Settlement in ${stateName} | CredSettle`,
     metaTitle: `NBFC Loan Settlement in ${stateName} | CredSettle`,
     metaDescription: `Expert NBFC loan settlement in ${stateName}. RBI-compliant debt relief, stop harassment, and reduce debt legally with CredSettle.`,
-    heroTitle: `NBFC Loan Settlement in ${stateName} - Settle Legally, Reduce Debt with CredSettle`,
+    heroTitle: `NBFC Loan Settlement in ${stateName} - Settle Legally`,
     heroDescription: `Professional NBFC loan settlement services for borrowers in ${stateName}. Stop harassment, reduce debt significantly, and restore financial stability.`,
     whyNBFCLoanSettlement: comprehensiveContent.whyNBFCLoanSettlement || `For NBFC loan borrowers in ${stateName} struggling with high-interest EMIs and aggressive recovery tactics, settlement offers strategic escape. CredSettle’s RBI-compliant process typically reduces debt by 40-70% while stopping harassment and ensuring complete legal closure.`,
     commonNBFCLoanProblems: comprehensiveContent.commonNBFCLoanProblems || `NBFC loan borrowers in ${stateName} face unique challenges: higher interest rates (18-36%) than banks, more aggressive recovery tactics, complex legal agreements, and harassment targeting family and workplace. CredSettle addresses all these systematically.`,

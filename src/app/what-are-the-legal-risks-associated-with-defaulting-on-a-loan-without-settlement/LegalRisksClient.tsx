@@ -337,8 +337,7 @@ export default function LegalRisksClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        What are the Legal Risks Associated with<br />
-                        <span className="text-blue-300">Defaulting on a Loan Without Settlement?</span>
+                        Legal Risks of Defaulting on a Loan Without Settlement
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         A detailed 2025 analysis of civil suits, criminal implications, and RBI rules for borrowers in India.

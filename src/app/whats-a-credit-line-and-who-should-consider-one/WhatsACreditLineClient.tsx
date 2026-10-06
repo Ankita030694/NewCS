@@ -175,9 +175,11 @@ export default function WhatsACreditLineClient() {
                 }}
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
+                    <p className="text-blue-300 font-semibold text-lg md:text-xl uppercase tracking-wider mb-3">
+                        The Smart Alternative to Personal Loans
+                    </p>
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        What is a Credit Line and Who Should Consider One?<br />
-                        <span className="text-blue-300">The Smart Alternative to Personal Loans</span>
+                        What is a Credit Line and Who Should Consider One?
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Stop paying interest on money you do not immediately need. Discover how a revolving credit line empowers salaried professionals and small business owners to manage unpredictable cash crunches efficiently.

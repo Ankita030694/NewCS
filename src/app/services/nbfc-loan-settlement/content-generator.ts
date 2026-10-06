@@ -452,7 +452,7 @@ export function generateNBFCLoanContent(stateSlug: string): Partial<StateContent
     title: `NBFC Loan Settlement in ${name} - Settle Legally | CredSettle`,
     metaTitle: `NBFC Loan Settlement in ${name} | CredSettle`,
     metaDescription: `Expert NBFC loan settlement services in ${name}. Reduce debt by 40-70% with RBI-compliant settlements. Stop harassment from Bajaj Finance, Tata Capital & more. Free consultation.`,
-    heroTitle: `NBFC Loan Settlement in ${name} - Settle Legally, Reduce Debt by 40-70%`,
+    heroTitle: `NBFC Loan Settlement in ${name} - Settle Legally`,
     heroDescription: `Professional NBFC loan settlement services for ${name} borrowers. Stop harassment from ${nbfcList}, reduce debt significantly, and achieve financial freedom with RBI-compliant settlements.`,
     keywords: [
       `NBFC loan settlement in ${name}`,

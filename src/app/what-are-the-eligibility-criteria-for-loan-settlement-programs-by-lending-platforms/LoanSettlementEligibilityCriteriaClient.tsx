@@ -220,9 +220,11 @@ export default function LoanSettlementEligibilityCriteriaClient() {
                 }}
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
+                    <p className="text-blue-300 font-semibold text-lg md:text-xl uppercase tracking-wider mb-3">
+                        Authority Guide
+                    </p>
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        What are the Eligibility Criteria for Loan Settlement Programs?<br />
-                        <span className="text-blue-300 italic uppercase">The 2025 Authority Guide</span>
+                        Eligibility Criteria for Loan Settlement Programs
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Do you qualify for a debt haircut? Explore the rigorous standards set by Indian banks, Fintech platforms, and the RBI for a fresh financial start.

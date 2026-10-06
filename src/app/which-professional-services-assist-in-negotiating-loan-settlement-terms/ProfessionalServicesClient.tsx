@@ -203,8 +203,7 @@ export default function ProfessionalServicesClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Which Professional Services Assist in<br />
-                        <span className="text-blue-300">Negotiating Loan Settlement Terms?</span>
+                        Professional Services for Loan Settlement Negotiation
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
                         A detailed 2025 guide on navigating the complexities of debt with expert legal and strategic representation in India.
