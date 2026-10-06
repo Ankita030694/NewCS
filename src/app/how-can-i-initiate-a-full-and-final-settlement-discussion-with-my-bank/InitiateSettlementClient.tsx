@@ -161,7 +161,7 @@ export default function InitiateSettlementClient() {
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
                         How Can I Initiate a Full and Final<br />
-                        <span className="text-blue-300">Settlement Discussion with My Bank?</span>
+                        <span className="text-blue-300">Settlement with My Bank?</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Master the 2025 RBI framework for compromise settlements. A 5000+ word strategy guide to negotiating debt relief and regaining financial dignity.

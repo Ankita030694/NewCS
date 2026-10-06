@@ -274,7 +274,7 @@ export function generateDefaultContent(stateName: string, slug: string): StateCo
     title: `NBFC Loan Settlement in ${stateName} | CredSettle`,
     metaTitle: `NBFC Loan Settlement in ${stateName} | CredSettle`,
     metaDescription: `Expert NBFC loan settlement in ${stateName}. RBI-compliant debt relief, stop harassment, and reduce debt legally with CredSettle.`,
-    heroTitle: `NBFC Loan Settlement in ${stateName} - Settle Legally`,
+    heroTitle: `NBFC Loan Settlement in ${stateName}`,
     heroDescription: `Professional NBFC loan settlement services for borrowers in ${stateName}. Stop harassment, reduce debt significantly, and restore financial stability.`,
     whyNBFCLoanSettlement: comprehensiveContent.whyNBFCLoanSettlement || `For NBFC loan borrowers in ${stateName} struggling with high-interest EMIs and aggressive recovery tactics, settlement offers strategic escape. CredSettle’s RBI-compliant process typically reduces debt by 40-70% while stopping harassment and ensuring complete legal closure.`,
     commonNBFCLoanProblems: comprehensiveContent.commonNBFCLoanProblems || `NBFC loan borrowers in ${stateName} face unique challenges: higher interest rates (18-36%) than banks, more aggressive recovery tactics, complex legal agreements, and harassment targeting family and workplace. CredSettle addresses all these systematically.`,

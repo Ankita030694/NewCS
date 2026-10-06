@@ -106,7 +106,7 @@ export default function Tier3Template({ bankName, slug }: { bankName: string, sl
         
         <div className="text-center max-w-4xl mx-auto my-12">
           <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 tracking-tight">
-            Comprehensive <span className="text-blue-600">{bankName}</span> Settlement Service
+            <span className="text-blue-600">{bankName}</span> Settlement Service
           </h1>
           <p className="text-xl text-gray-600 mb-8">
             Navigate the complexities of credit card default safely. CredSettle offers a protected, legally sound pathway to settle your {bankName} debt and regain financial stability.

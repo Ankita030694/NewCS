@@ -94,7 +94,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                   marginBottom: '12px'
                 }}
               >
-                {content.heroTitle || `App Loan Settlement in ${content.stateName} - Stop Harassment`}
+                {content.heroTitle || `App Loan Settlement in ${content.stateName}`}
               </h1>
               <p
                 className="text-xs md:text-sm lg:text-[14px] leading-relaxed"

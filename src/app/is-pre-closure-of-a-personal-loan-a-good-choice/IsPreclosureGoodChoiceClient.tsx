@@ -149,7 +149,7 @@ export default function IsPreclosureGoodChoiceClient() {
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
                         Is Pre-Closure of a Personal Loan a Good Choice?<br />
-                        <span className="text-blue-300">Financial Pros &amp; Cons</span>
+                        <span className="text-blue-300">Pros &amp; Cons</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         It sounds smart to close debt early, but factoring in foreclosure fees and the loss of liquidity, it is not always mathematically sound. Here is how to decide.

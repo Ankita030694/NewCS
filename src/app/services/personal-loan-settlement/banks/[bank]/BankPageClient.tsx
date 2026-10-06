@@ -153,7 +153,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
           }}
         >
           <div style={{ minHeight: '100vh' }}>
-              {/* H2: Why People Choose Loan Settlement with [Bank Name] */}
+              {/* H2: Why Choose [Bank Name] Settlement */}
               {content.whyChooseSettlement && (
                 <section id="why-choose-settlement" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
                   <h2
@@ -166,7 +166,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    Why People Choose Loan Settlement with {content.bankName}
+                    Why Choose {content.bankName} Settlement
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -181,7 +181,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                 </section>
               )}
 
-              {/* H2: Understanding [Bank Name] Loan Settlement Process */}
+              {/* H2: [Bank Name] Settlement Process */}
               {content.understandingSettlement && (
                 <section id="understanding-settlement" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
                   <h2
@@ -194,7 +194,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    Understanding {content.bankName} Loan Settlement Process
+                    {content.bankName} Settlement Process
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -209,7 +209,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                 </section>
               )}
 
-              {/* H2: How CredSettle Helps You Settle [Bank Name] Loans Legally */}
+              {/* H2: How CredSettle Settles [Bank Name] Debt */}
               {content.howCredSettleHelps && (
                 <section id="how-credsettle-helps" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
                   <h2
@@ -222,7 +222,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    How CredSettle Helps You Settle {content.bankName} Loans Legally
+                    How CredSettle Settles {content.bankName} Debt
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -265,7 +265,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                 </section>
               )}
 
-              {/* H2: Why Choose CredSettle for [Bank Name] Loan Settlement */}
+              {/* H2: Why Choose CredSettle for [Bank Name] */}
               {content.whyChooseCredSettle && (
                 <section id="why-choose-credsettle" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
                   <h2
@@ -278,7 +278,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    Why Choose CredSettle for {content.bankName} Loan Settlement
+                    Why Choose CredSettle for {content.bankName}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -293,7 +293,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                 </section>
               )}
 
-              {/* H2: Step-by-Step Process to Start Your [Bank Name] Loan Settlement */}
+              {/* H2: Steps to Settle [Bank Name] Debt */}
               {content.stepByStepProcess && (
                 <section id="step-by-step-process" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
                   <h2
@@ -306,7 +306,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    Step-by-Step Process to Start Your {content.bankName} Loan Settlement
+                    Steps to Settle {content.bankName} Debt
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -321,7 +321,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                 </section>
               )}
 
-              {/* H2: Documents Required for [Bank Name] Loan Settlement */}
+              {/* H2: Documents for [Bank Name] Settlement */}
               {content.documentsRequired && (
                 <section id="documents-required" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
                   <h2
@@ -334,7 +334,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    Documents Required for {content.bankName} Loan Settlement
+                    Documents for {content.bankName} Settlement
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -361,7 +361,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                 <div className="w-full">
                   <FAQWithSchema 
                     faqs={content.faqs} 
-                    title={`${content.bankName} Loan Settlement`}
+                    title={`${content.bankName} Settlement`}
                   />
                 </div>
 

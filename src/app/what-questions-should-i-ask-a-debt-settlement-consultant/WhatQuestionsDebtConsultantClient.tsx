@@ -200,8 +200,8 @@ export default function WhatQuestionsDebtConsultantClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        What Questions Should I Ask a Debt Settlement Consultant?<br />
-                        <span className="text-blue-300">The 2025 Comprehensive Vetting Guide</span>
+                        Key Questions to Ask a Debt Settlement<br />
+                        <span className="text-blue-300">Consultant Before Hiring</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-4xl mx-auto font-light leading-relaxed">
                         Don’t let a "Debt Relief" company put you deeper in debt. Learn the 20+ critical questions to verify legitimacy, avoid scams, and secure the best settlement terms in India.

@@ -52,15 +52,15 @@ export default async function BankPage({ params }: PageProps) {
 
   // Generate headings for Table of Contents
   const headings = [
-    { id: 'why-choose-settlement', text: `Why People Choose Car Loan Settlement with ${content.bankName}`, level: 2 },
-    { id: 'understanding-settlement', text: `Understanding ${content.bankName} Car Loan Settlement Process`, level: 2 },
-    { id: 'how-credsettle-helps', text: `How CredSettle Helps You Settle ${content.bankName} Car Loan Dues Legally`, level: 2 },
+    { id: 'why-choose-settlement', text: `Why Choose ${content.bankName} Settlement`, level: 2 },
+    { id: 'understanding-settlement', text: `${content.bankName} Settlement Process`, level: 2 },
+    { id: 'how-credsettle-helps', text: `How CredSettle Settles ${content.bankName} Debt`, level: 2 },
     { id: 'cibil-impact', text: 'Impact of Car Loan Settlement on Your CIBIL Score', level: 2 },
-    { id: 'why-choose-credsettle', text: `Why Choose CredSettle for ${content.bankName} Car Loan Settlement`, level: 2 },
-    { id: 'step-by-step-process', text: `Step-by-Step Process to Start Your ${content.bankName} Car Loan Settlement`, level: 2 },
-    { id: 'documents-required', text: `Documents Required for ${content.bankName} Car Loan Settlement`, level: 2 },
-    { id: 'faqs', text: `FAQs on ${content.bankName} Car Loan Settlement`, level: 2 },
-    { id: 'get-legal-help', text: `Get Legal Help Today - Start Your Settlement with ${content.bankName}`, level: 2 }
+    { id: 'why-choose-credsettle', text: `Why Choose CredSettle for ${content.bankName}`, level: 2 },
+    { id: 'step-by-step-process', text: `Steps to Settle ${content.bankName} Debt`, level: 2 },
+    { id: 'documents-required', text: `Documents for ${content.bankName} Settlement`, level: 2 },
+    { id: 'faqs', text: `${content.bankName} Settlement FAQs`, level: 2 },
+    { id: 'get-legal-help', text: `Get Legal Help for ${content.bankName}`, level: 2 }
   ];
 
   // Generate structured data for the page

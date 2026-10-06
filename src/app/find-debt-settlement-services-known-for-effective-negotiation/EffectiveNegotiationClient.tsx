@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
 import Navbar from '@/components/Navbar';
@@ -148,7 +148,7 @@ export default function EffectiveNegotiationClient() {
       >
         <div className="max-w-6xl mx-auto text-center z-10">
           <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-            Find the Best Debt Settlement Services <br className="hidden md:block" />
+            Best Debt Settlement Services <br className="hidden md:block" />
             <span className="text-blue-300">for Effective Negotiation (2025)</span>
           </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-4xl mx-auto font-light leading-relaxed">

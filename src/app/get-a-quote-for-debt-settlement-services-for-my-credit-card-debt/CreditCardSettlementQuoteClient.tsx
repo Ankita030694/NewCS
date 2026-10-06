@@ -206,8 +206,8 @@ export default function CreditCardSettlementQuoteClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        Get Your Credit Card Debt Settlement Quote Today<br />
-                        <span className="text-blue-300 italic">40% to 70% Waivers Possible in 2025</span>
+                        Get Your Credit Card Settlement Quote<br />
+                        <span className="text-blue-300 italic">40% to 70% Waivers Possible</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Don't let interest rates trap you forever. Get a personalized quote for professional debt resolution and start your journey to financial freedom.

@@ -114,7 +114,7 @@ export function generateDefaultContent(stateName: string, slug: string): StateCo
     title: `Car Loan Settlement in ${stateName} - Settle Vehicle Loans Legally | CredSettle`,
     metaTitle: `Car Loan Settlement in ${stateName} | CredSettle`,
     metaDescription: `Expert car loan settlement services in ${stateName}. Get RBI-compliant vehicle loan settlements, protect your car, and achieve financial freedom with CredSettle.`,
-    heroTitle: `Car Loan Settlement in ${stateName} - Settle Legally`,
+    heroTitle: `Car Loan Settlement in ${stateName}`,
     heroDescription: `Professional car loan settlement services for vehicle owners in ${stateName}. Reduce debt, prevent repossession, and restore financial stability.`,
     whyCarLoanSettlement: comprehensiveContent.whyCarLoanSettlement || `For vehicle owners in ${stateName} facing unmanageable car loan EMIs, settlement isn’t just about reducing debt-it’s about preventing repossession and preserving your vehicle ownership. CredSettle offers a strategic, RBI-compliant path to One-Time Settlement (OTS) that typically reduces outstanding vehicle loan debt by 40-65%.`,
     commonCarLoanProblems: comprehensiveContent.commonCarLoanProblems || `Car loan borrowers in ${stateName} face unique challenges including income volatility affecting EMI payments, rapid vehicle depreciation creating negative equity, recovery agent harassment, and the risk of vehicle repossession. CredSettle addresses all these issues systematically.`,

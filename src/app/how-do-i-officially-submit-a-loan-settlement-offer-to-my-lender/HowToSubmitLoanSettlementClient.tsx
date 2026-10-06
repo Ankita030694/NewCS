@@ -242,8 +242,8 @@ export default function HowToSubmitLoanSettlementClient() {
             >
                 <div className="max-w-6xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
-                        How to Officially Submit a Loan Settlement Offer to My Lender?<br />
-                        <span className="text-blue-300">The 2025 Legal Protocol</span>
+                        How to Officially Submit a Loan<br />
+                        <span className="text-blue-300">Settlement Offer to Your Lender</span>
                     </h1>
                     <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
                         Master the formal communication strategy to resolve your debt. A 5000+ word deep dive into hardship letters, nodal officer targeting, and RBI-mandated settlement rights.
