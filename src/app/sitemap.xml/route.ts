@@ -50,6 +50,8 @@ import { getAllBankSlugs as getCarBankSlugs } from '@/app/services/car-loan-sett
 import { getAllBankSlugs as getCreditCardBankSlugs } from '@/app/services/credit-card-settlement/banks-content';
 import { getAllBankSlugs as getAppBankSlugs } from '@/app/services/app-loan-settlement/banks-content';
 import { getAllBankSlugs as getNbfcBankSlugs } from '@/app/services/nbfc-loan-settlement/banks-content';
+import { creditCardBanks } from '@/data/creditCardBanks';
+import { statesData } from '@/data/statesData';
 import { db } from '@/lib/firebase';
 import { collection, getDocs } from 'firebase/firestore';
 
@@ -4410,6 +4412,28 @@ async function generateSitemap(): Promise<string> {
       urls.push({
         loc: `${baseUrl}/services/${serviceType}/banks/${bank}`,
         priority: 0.8, // Medium priority - important for bank-specific searches
+        changefreq: 'weekly',
+        lastmod: today
+      });
+    }
+  }
+
+  // ========================================================================
+  // SECTION 3.4: CREDIT CARD SETTLEMENT (BANK & BANK-STATE DIRECT ROUTES)
+  // ========================================================================
+  // These routes are /credit-card-settlement/${bank} and /credit-card-settlement/${bank}/${state}
+  for (const bank of creditCardBanks) {
+    urls.push({
+      loc: `${baseUrl}/credit-card-settlement/${bank.slug}`,
+      priority: 0.85,
+      changefreq: 'weekly',
+      lastmod: today
+    });
+
+    for (const state of statesData) {
+      urls.push({
+        loc: `${baseUrl}/credit-card-settlement/${bank.slug}/${state.slug}`,
+        priority: 0.8,
         changefreq: 'weekly',
         lastmod: today
       });

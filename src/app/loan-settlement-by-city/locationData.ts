@@ -28,26 +28,28 @@ export function getCityMetaTitle(name: string): string {
 }
 
 export function getCityMetaDescription(name: string): string {
-  let desc = `Settle your loans in ${name} legally. Stop recovery harassment & resolve credit card or personal debt with CredSettle. Free consultation.`;
-  if (desc.length <= 155 && desc.length >= 130) return desc;
+  const cleanName = name
+    .replace('Dadra and Nagar Haveli and Daman and Diu', 'DNH & Daman Diu')
+    .replace('Dadra and Nagar Haveli', 'Dadra & Nagar Haveli')
+    .replace('Andaman and Nicobar Islands', 'Andaman & Nicobar')
+    .replace('Jammu and Kashmir', 'Jammu & Kashmir');
 
-  if (desc.length > 155) {
-    desc = `Settle your loans in ${name} legally. Stop recovery harassment and resolve credit card & personal debt with CredSettle.`;
+  // Standard concise description (115-140 chars, ~700-830px, well below Screaming Frog 985px limit)
+  let desc = `Settle loans in ${cleanName} legally. Stop recovery harassment & resolve credit card or personal debt with CredSettle.`;
+  if (desc.length >= 115 && desc.length <= 140) return desc;
+
+  // If location name is very short (e.g. Puri, Diu, Leh), append consultation CTA
+  if (desc.length < 115) {
+    const withConsult = `Settle loans in ${cleanName} legally. Stop recovery harassment & resolve debt with CredSettle. Free consultation.`;
+    if (withConsult.length <= 140) return withConsult;
+    return desc;
   }
 
-  if (desc.length > 155) {
-    desc = `Settle loans in ${name} legally. Stop bank harassment & resolve debt with CredSettle. Free consultation.`;
-  }
+  // If location name is long, use compact form
+  desc = `Settle loans in ${cleanName} legally. Stop recovery harassment and resolve debt with CredSettle.`;
+  if (desc.length <= 140) return desc;
 
-  if (desc.length > 155) {
-    desc = `Legal loan settlement in ${name}. Stop harassment and settle debt with CredSettle.`;
-  }
-
-  if (desc.length < 130) {
-    desc = `Get expert legal loan settlement in ${name} with CredSettle. Stop recovery harassment and resolve personal & card debts. Free consultation.`;
-  }
-
-  return desc;
+  return `Legal loan settlement in ${cleanName}. Stop harassment & settle debt with CredSettle.`.slice(0, 138);
 }
 
 interface RawLocation {

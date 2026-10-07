@@ -17,24 +17,46 @@ export async function generateStaticParams() {
   return params;
 }
 
+function getShortStateName(stateName: string): string {
+  if (stateName === 'Dadra and Nagar Haveli and Daman and Diu') return 'DNH & DD';
+  if (stateName === 'Andaman and Nicobar Islands') return 'Andaman & Nicobar';
+  return stateName;
+}
+
 function getCCStateMetaTitle(bankName: string, stateName: string): string {
-  const full = `${bankName} Settlement in ${stateName} | CredSettle`;
-  if (full.length <= 60) return full;
-  const short = `${bankName} Card Settlement in ${stateName}`;
-  if (short.length <= 60) return short;
-  return `${bankName} Settlement - ${stateName}`.slice(0, 60);
+  const shortState = getShortStateName(stateName);
+  const p1 = `${bankName} Settlement in ${stateName} | CredSettle`;
+  if (p1.length <= 60) return p1;
+  const p2 = `${bankName} Settlement in ${shortState} | CredSettle`;
+  if (p2.length <= 60) return p2;
+  const p3 = `${bankName} Card Settlement in ${shortState}`;
+  if (p3.length <= 60) return p3;
+  const p4 = `${bankName} Settlement - ${shortState}`;
+  if (p4.length <= 60) return p4;
+  return p4.slice(0, 60);
 }
 
 function getCCStateMetaDescription(bankName: string, stateName: string): string {
-  let desc = `Facing ${bankName} credit card harassment in ${stateName}? CredSettle provides legal debt resolution & protection. Free consultation.`;
-  if (desc.length <= 155 && desc.length >= 130) return desc;
-  if (desc.length > 155) {
-    desc = `Facing ${bankName} harassment in ${stateName}? CredSettle negotiates credit card settlements legally. Free consultation.`;
+  const shortState = getShortStateName(stateName);
+  const options = [
+    `Facing ${bankName} credit card harassment in ${stateName}? CredSettle provides legal debt resolution & protection. Free consultation.`,
+    `Facing ${bankName} credit card harassment in ${shortState}? CredSettle provides legal debt resolution & protection. Free consultation.`,
+    `Facing ${bankName} harassment in ${stateName}? CredSettle negotiates credit card debt settlements legally. Free consultation.`,
+    `Facing ${bankName} harassment in ${shortState}? CredSettle negotiates credit card debt settlements legally. Free consultation.`,
+    `Facing ${bankName} credit card debt in ${stateName}? CredSettle negotiates legal settlements and stops recovery harassment. Free consultation.`,
+    `Facing ${bankName} credit card debt in ${shortState}? CredSettle negotiates legal settlements and stops recovery harassment. Free consultation.`,
+    `Facing ${bankName} credit card debt harassment in ${stateName}? CredSettle negotiates settlements legally and protects rights. Free consultation.`,
+    `Facing ${bankName} credit card debt harassment in ${shortState}? CredSettle negotiates settlements legally and protects rights. Free consultation.`,
+    `Facing ${bankName} credit card harassment in ${shortState}? CredSettle negotiates legal settlements & stops agent calls. Free consultation.`,
+    `Facing ${bankName} credit card debt harassment in ${stateName}? CredSettle provides expert legal debt settlement services. Free consultation.`,
+    `Facing ${bankName} credit card debt in ${stateName}? CredSettle provides expert legal settlement services and harassment relief. Free consultation.`
+  ];
+
+  for (const opt of options) {
+    if (opt.length >= 130 && opt.length <= 155) return opt;
   }
-  if (desc.length < 130) {
-    desc = `Facing ${bankName} credit card debt harassment in ${stateName}? CredSettle negotiates settlements legally and protects your rights. Free consultation.`;
-  }
-  return desc;
+
+  return options[0];
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string; "state-slug": string }> }) {
