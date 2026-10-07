@@ -232,66 +232,66 @@ export function generateBankContent(bankSlug: string): Partial<BankContent> | {}
     
     // H2: Why People Choose App Loan Settlement with [Bank Name]
     whyChooseSettlement: [
-      `App loan debt can quickly become unmanageable. Many digital apps charge high interest rates between 24% and 48%. If you miss payments on your ${name} loan, late fees and penalties add up fast. Recovery agents often call frequently and pressure your contacts. A legal One-Time Settlement (OTS) under RBI rules offers a safe way out. CredSettle helps you negotiate with ${name} to reduce your debt by 30% to 70%. We stop harassment calls and close your loan account permanently.`,
+      `App loan debt can grow fast with high daily interest rates. If you miss payments on your ${name} loan, late fees add up quickly. Collection agents often call many times a day. A legal One-Time Settlement (OTS) under RBI rules gives you a safe way out. CredSettle helps you negotiate with ${name} to cut your debt by 30% to 70%. We stop harassment calls right away and close your loan account for good.`,
       
-      `Defaulting on a ${name} app loan causes serious stress. Extra interest charges of ₹5,000 to ₹15,000 get added to your balance each month. Collection agents may call repeatedly and contact family members. These aggressive actions violate RBI rules. Many people face sudden job loss or medical bills that make full repayment impossible. Settle your ${name} app loan with CredSettle to get immediate relief. We cut your total debt by 30% to 70% and secure a formal No Dues Certificate.`,
+      `Defaulting on a ${name} app loan causes serious stress. Extra interest charges get added to your balance each month. Collection agents may call repeatedly and pressure your family. These actions violate RBI rules. Many people face job loss or medical bills that make full payment hard. Settle your ${name} app loan with CredSettle to get quick relief. We cut your total debt by 30% to 70% and get you a formal No Dues Certificate.`,
       
-      `Settling your ${name} loan brings immediate peace of mind. Our legal team steps in to stop recovery calls within 48 hours. We protect your personal privacy and prevent illegal collection tactics. All new interest stops piling up once negotiations begin. You pay a single affordable settlement amount in one payment or easy installments. Once paid, ${name} issues official loan closure papers to clear your name.`
+      `Settling your ${name} loan brings immediate peace of mind. Our legal team steps in to stop recovery calls within 48 hours. We protect your privacy and prevent illegal collection tactics. All new interest stops piling up once talks begin. You pay a single affordable settlement sum in one go or easy parts. Once paid, ${name} issues official loan closure papers to clear your name.`
     ][whyVariant],
 
     // H2: Understanding [Bank Name] App Loan Settlement Process
     understandingSettlement: [
-      `Settling an app loan with ${name} follows the RBI One-Time Settlement (OTS) guidelines. This process allows borrowers in genuine financial distress to clear their loan with a single reduced payment. CredSettle lawyers submit a formal hardship file directly to ${name}. We present proof of your income loss or medical expenses. The lender reviews your case and offers a fair debt reduction between 25% and 70%.`,
+      `Settling an app loan with ${name} follows RBI One-Time Settlement (OTS) rules. This process allows borrowers with real money troubles to clear their loan with a single reduced payment. CredSettle lawyers submit a formal hardship file directly to ${name}. We present proof of your income loss or medical bills. The lender reviews your case and offers a fair debt waiver between 30% and 70%.`,
       
-      `An OTS agreement with ${name} is a formal legal contract. It permanently closes your app loan account. You agree to pay a reduced sum of 30% to 60% of total dues. You can pay as a lump sum or in 3 to 12 monthly installments. Once you complete the payment, ${name} updates your loan record to Settled. The lender issues a No Dues Certificate and stops all recovery action.`,
+      `An OTS deal with ${name} is a formal legal contract. It permanently closes your app loan account. You agree to pay a reduced sum of 30% to 60% of total dues. You can pay as a lump sum or in easy monthly parts. Once you complete the payment, ${name} updates your loan record to Settled. The lender issues a No Dues Certificate and stops all collection calls.`,
       
-      `CredSettle understands the digital settlement process for ${name}. We prepare your paperwork in the exact digital format the lender requires. Our legal team handles all communications with ${name} managers. This prevents automatic rejections and gets your settlement approved quickly. We protect your legal rights throughout the process.`
+      `CredSettle understands the digital settlement process for ${name}. We prepare your papers in the exact format the lender requires. Our legal team handles all talks with ${name} managers. This prevents rejections and gets your settlement approved fast. We protect your legal rights throughout the process.`
     ][processVariant],
 
     // H2: How CredSettle Helps You Settle [Bank Name] App Loan Dues Legally
-    howCredSettleHelps: `CredSettle provides complete legal support to resolve your ${name} app loan. Our lawyers review your loan statements, total dues, and current repayment capacity. We build a strong hardship case using your income slips and emergency bills. Our team submits an official OTS proposal to ${name} and negotiates a 40% to 60% debt waiver. We step in immediately to stop aggressive recovery calls and protect your data privacy. Once approved, we ensure ${name} issues a valid No Dues Certificate. CredSettle helps you settle your app loan for about 50% of total dues, including our fees. You save money and become debt free legally.`,
+    howCredSettleHelps: `CredSettle gives you full legal support to settle your ${name} app loan. Our lawyers review your loan statements and current budget. We build a strong hardship case using your income slips and emergency bills. Our team submits an official OTS proposal to ${name} and negotiates a 40% to 60% debt waiver. We step in right away to stop recovery calls and protect your privacy. Once approved, we ensure ${name} issues a valid No Dues Certificate. You settle your debt at a fraction of the cost and become debt free.`,
 
     // H2: Impact of App Loan Settlement on Your CIBIL Score
     cibilImpact: [
-      `Settling your ${name} app loan will cause a minor drop in your credit score. The lender marks your account as Settled rather than Closed on CIBIL. This can lower your score by 50 to 150 points initially. However, this impact is only temporary. Once you clear the debt, you can start rebuilding your credit score within 12 to 24 months.`,
+      `Settling your ${name} app loan will cause a small drop in your credit score. The lender marks your account as Settled rather than Closed on CIBIL. This can lower your score by 50 to 100 points initially. However, this impact is only temporary. Once you clear the debt, you can start rebuilding your score within 12 to 24 months.`,
       
-      `An ongoing default on your ${name} loan causes much worse damage. Continuous missed payments keep your score below 400 and block all future loans. A formal settlement stops the score drop right away. CredSettle provides a clear guide on rebuilding credit using secured cards and on-time payments. Most clients improve their score to 650-700 within 2 to 3 years.`,
+      `An ongoing default on your ${name} loan causes much worse damage. Continuous missed payments keep your score very low and block all future loans. A formal settlement stops the score drop right away. CredSettle provides a clear guide on rebuilding credit using secured cards and on-time payments. Most clients improve their score to 700+ within 2 years.`,
       
-      `After you complete your settlement with ${name}, you receive official closure letters and No Dues Certificates. Future banks review these papers to confirm that you resolved your debt responsibly. This documentation helps you obtain fresh credit when you need it.`
+      `After you complete your settlement with ${name}, you receive official closure letters and No Dues Certificates. Future lenders review these papers to confirm that you resolved your debt legally. This documentation helps you obtain fresh credit when you need it.`
     ][impactVariant],
 
     // H2: Why Choose CredSettle for [Bank Name] App Loan Settlement
     whyChooseCredSettle: [
-      `CredSettle is India's most trusted partner for ${name} app loan settlements. Our panel of banking lawyers understands RBI lending rules and borrower rights. We ensure every settlement is completely legal and safe. We provide clear fee details with zero hidden charges or false claims.`,
+      `CredSettle is a trusted partner for ${name} app loan settlements. Our panel of banking lawyers understands RBI lending rules and borrower rights. We ensure every settlement is completely legal and safe. We provide clear fee details with zero hidden charges.`,
       
       `We have resolved hundreds of ${name} app loans with average waivers of 40% to 55%. We know the digital settlement portals and policies used by ${name}. Our legal team takes over all collection calls so you do not face harassment. We manage the entire process until you get your final closure letter.`,
       
-      `CredSettle guarantees strict compliance with RBI rules for every settlement. We protect your privacy and ensure lenders follow ethical collection practices. We provide end-to-end help, from initial consultation to credit score rebuilding.`
+      `CredSettle guarantees strict compliance with RBI rules for every settlement. We protect your privacy and ensure lenders follow ethical collection rules. We provide full help, from initial review to credit score rebuilding.`
     ][whyChooseVariant],
 
     // H2: Step-by-Step Process to Start Your [Bank Name] App Loan Settlement
     stepByStepProcess: [
-      `Step 1: Free Consultation. Contact CredSettle online or by phone. Our advisors review your ${name} loan balance, default period, and collection issues. We explain your settlement options and fee terms clearly.`,
+      `Step 1: Free Review. Contact CredSettle online or by phone. Our team reviews your ${name} loan and explains your options clearly.`,
       
-      `Step 2: Case Review and Protection. We assign a dedicated banking lawyer to your case. The lawyer reviews your loan statements and evidence of harassment. We immediately take over all communications to stop recovery agent calls.`,
+      `Step 2: Case Review. We assign a dedicated legal expert to your case. We review your loan statements and immediately take over recovery calls to stop agent pressure.`,
       
-      `Step 3: OTS Proposal Submission. Your lawyer prepares a formal One-Time Settlement proposal for ${name}. We include hardship proofs and offer a 40% to 60% reduced payment. The proposal is submitted through official lender channels.`,
+      `Step 3: OTS Proposal. Your lawyer prepares a formal One-Time Settlement proposal for ${name}. We include hardship proofs and offer a 40% to 60% reduced payment.`,
       
-      `Step 4: Negotiation and Approval. Our legal team manages all talks with ${name} settlement officers. We present your hardship facts and secure the best possible waiver. Once approved, ${name} issues an official OTS sanction letter.`,
+      `Step 4: Negotiation. Our legal team manages all talks with ${name} settlement officers. We present your hardship facts and secure the best possible waiver.`,
       
-      `Step 5: Payment and Loan Closure. You pay the agreed settlement amount directly to ${name} through digital banking. The lender updates your loan status and issues a final No Dues Certificate.`,
+      `Step 5: Payment and Loan Closure. You pay the agreed settlement amount directly to ${name}. The lender updates your loan status and issues a final No Dues Certificate.`,
       
-      `Step 6: Credit Score Rebuilding. CredSettle gives you step-by-step guidance to rebuild your CIBIL score. We help you adopt good credit habits to raise your score back to 700+ over time.`
+      `Step 6: Credit Score Rebuilding. CredSettle gives you step-by-step guidance to rebuild your CIBIL score. We help you raise your score back to 700+ over time.`
     ][stepsVariant],
 
     // H2: Documents Required for [Bank Name] App Loan Settlement
-    documentsRequired: `To settle your ${name} app loan, you need key basic documents. These include your original loan agreement copy and latest loan statement showing total dues. Provide identity proof such as PAN card or Aadhaar card, and address proof. Add income records like salary slips or bank statements. Include screenshots of recovery messages or default notices, and hardship proofs like medical bills. CredSettle formats all records properly for fast digital approval.`,
+    documentsRequired: `To settle your ${name} app loan, you only need basic documents. These include your PAN card, Aadhaar card, and latest loan statement showing total dues. You can also share income slips, default notices, or screenshots of agent messages. CredSettle formats all records properly for fast digital approval.`,
 
     // Generate FAQs
     faqs: [
       {
         question: `What is the minimum settlement percentage for ${name} app loans?`,
-        answer: `${name} usually approves app loan settlements between 30% and 60% of total dues. The exact waiver depends on default age and borrower hardship. CredSettle negotiates directly with the lender to get the lowest possible amount.`
+        answer: `${name} usually approves app loan settlements between 30% and 60% of total dues. The exact waiver depends on your hardship. CredSettle negotiates directly with the lender to get the lowest possible amount.`
       },
       {
         question: `Can I settle my app loan dues legally with ${name}?`,
@@ -299,11 +299,11 @@ export function generateBankContent(bankSlug: string): Partial<BankContent> | {}
       },
       {
         question: `How long does the app loan settlement process take with ${name}?`,
-        answer: `Settling an app loan with ${name} takes about 45 to 90 days. The timeline depends on document verification and lender approval speed. Our legal team speeds up the process with well-prepared proposals.`
+        answer: `Settling an app loan with ${name} takes about 30 to 60 days. The timeline depends on document checks and lender approval speed. Our legal team speeds up the process with well-prepared files.`
       },
       {
         question: `Will my CIBIL score recover after settling my ${name} app loan?`,
-        answer: `Yes, your CIBIL score will recover after settling your ${name} app loan. The score drops initially because the account shows as Settled. With responsible credit habits, most clients reach 650-700 within 2 years.`
+        answer: `Yes, your CIBIL score will recover after settling your ${name} app loan. The score drops slightly at first because the account shows as Settled. With responsible credit habits, most clients reach 700+ within 1 to 2 years.`
       },
       {
         question: `How can I stop harassment from ${name}?`,

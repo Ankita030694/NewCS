@@ -185,7 +185,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
               {/* H2: [Bank Name] Settlement Process */}
               {content.understandingSettlement && (
                 <section id="understanding-settlement" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                  <h2
+                  <h3
                     className="text-xl md:text-2xl lg:text-[32px] leading-tight"
                     style={{
                       color: '#0C2756',
@@ -196,7 +196,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                     }}
                   >
                     {content.bankName} App Loan Settlement Process
-                  </h2>
+                  </h3>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
                     style={{
@@ -213,7 +213,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
               {/* H2: How CredSettle Settles [Bank Name] Debt */}
               {content.howCredSettleHelps && (
                 <section id="how-credsettle-helps" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                  <h2
+                  <h3
                     className="text-xl md:text-2xl lg:text-[32px] leading-tight"
                     style={{
                       color: '#0C2756',
@@ -224,7 +224,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                     }}
                   >
                     How CredSettle Settles {content.bankName} App Loan Debt
-                  </h2>
+                  </h3>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
                     style={{
@@ -241,7 +241,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
               {/* H2: Impact of App Loan Settlement on Your CIBIL Score */}
               {content.cibilImpact && (
                 <section id="cibil-impact" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                  <h2
+                  <h3
                     className="text-xl md:text-2xl lg:text-[32px] leading-tight"
                     style={{
                       color: '#0C2756',
@@ -252,7 +252,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                     }}
                   >
                     Impact of {content.bankName} App Loan Settlement on Your CIBIL Score
-                  </h2>
+                  </h3>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
                     style={{
@@ -269,7 +269,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
               {/* H2: Why Choose CredSettle for [Bank Name] */}
               {content.whyChooseCredSettle && (
                 <section id="why-choose-credsettle" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                  <h2
+                  <h3
                     className="text-xl md:text-2xl lg:text-[32px] leading-tight"
                     style={{
                       color: '#0C2756',
@@ -280,7 +280,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                     }}
                   >
                     Why Choose CredSettle for {content.bankName} App Loan Settlement
-                  </h2>
+                  </h3>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
                     style={{
@@ -297,7 +297,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
               {/* H2: Steps to Settle [Bank Name] Debt */}
               {content.stepByStepProcess && (
                 <section id="step-by-step-process" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                  <h2
+                  <h3
                     className="text-xl md:text-2xl lg:text-[32px] leading-tight"
                     style={{
                       color: '#0C2756',
@@ -308,7 +308,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                     }}
                   >
                     Steps to Settle {content.bankName} App Loan Debt
-                  </h2>
+                  </h3>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
                     style={{
@@ -325,7 +325,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
               {/* H2: Documents for [Bank Name] Settlement */}
               {content.documentsRequired && (
                 <section id="documents-required" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                  <h2
+                  <h3
                     className="text-xl md:text-2xl lg:text-[32px] leading-tight"
                     style={{
                       color: '#0C2756',
@@ -336,7 +336,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                     }}
                   >
                     Documents for {content.bankName} App Loan Settlement
-                  </h2>
+                  </h3>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
                     style={{
@@ -361,7 +361,8 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                 {/* FAQ Section */}
                 <div className="w-full">
                   <FAQWithSchema 
-                    faqs={content.faqs} 
+                    faqs={content.faqs}
+                    headingTag="h3" 
                     title={`${content.bankName} App Loan Settlement`}
                   />
                 </div>
@@ -392,7 +393,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                         className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full"
                         style={{ color: 'rgba(12, 39, 86, 0.70)' }}
                       >
-                        Get professional legal assistance from CredSettle’s lawyer panel. Stop harassment, navigate app loan policies, secure an RBI-compliant One-Time Settlement, and protect your data privacy-start your path to freedom today.
+                        Get expert legal help from CredSettle. Stop recovery harassment, settle your {content.bankName} app loan under RBI rules, and protect your privacy. Start your journey to debt freedom today.
                       </p>
                     </div>
 

@@ -13,9 +13,10 @@ interface FAQWithSchemaProps {
   faqs: FAQItem[];
   title?: string;
   subtitle?: string;
+  headingTag?: 'h2' | 'h3' | 'h4';
 }
 
-export default function FAQWithSchema({ faqs, title, subtitle }: FAQWithSchemaProps) {
+export default function FAQWithSchema({ faqs, title, subtitle, headingTag = 'h2' }: FAQWithSchemaProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const [schemaMarkup, setSchemaMarkup] = useState<string>('');
   const faqsToRender = useMemo(() => faqs.slice(0, 5), [faqs]);
@@ -41,6 +42,8 @@ export default function FAQWithSchema({ faqs, title, subtitle }: FAQWithSchemaPr
     setOpenIndex(openIndex === index ? null : index);
   };
 
+  const HeadingTag = headingTag;
+
   return (
     <>
       {/* Schema Markup */}
@@ -55,14 +58,14 @@ export default function FAQWithSchema({ faqs, title, subtitle }: FAQWithSchemaPr
       <div className="flex flex-col lg:flex-row items-start gap-6 lg:gap-[76px] w-full">
         {/* Left: Header Section */}
         <div className="flex flex-col items-start gap-[21px] w-full lg:w-[365px]">
-          <h2 className="text-[24px] md:text-[32px] leading-[24px] md:leading-[32px] font-bold">
+          <HeadingTag className="text-[24px] md:text-[32px] leading-[24px] md:leading-[32px] font-bold">
             <span style={{ color: '#0C2756' }}>
               {title || 'Personal Loan Settlement'}
               {`\n`}
               <br /> FAQs -{' '}
             </span>
             <span style={{ color: '#007AFF' }}>Answered.</span>
-          </h2>
+          </HeadingTag>
           <p className="text-[13px] md:text-[15px] leading-[13px] md:leading-[15px] font-normal">
             <span style={{ color: '#0C2756' }}>Need more details? </span>
             <Link href="/contact" className="underline" style={{ color: '#007AFF' }}>

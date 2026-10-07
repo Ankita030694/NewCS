@@ -51,14 +51,19 @@ function getCCStateH2(bankName: string, stateName: string): string {
 function getCCStateMetaTitle(bankName: string, stateName: string): string {
   const shortState = getShortStateName(stateName);
   const p1 = `${bankName} Settlement in ${stateName} | CredSettle`;
-  if (p1.length <= 60) return p1;
+  if (p1.length <= 58) return p1;
   const p2 = `${bankName} Settlement in ${shortState} | CredSettle`;
-  if (p2.length <= 60) return p2;
+  if (p2.length <= 58) return p2;
   const p3 = `${bankName} Card Settlement in ${shortState}`;
-  if (p3.length <= 60) return p3;
+  if (p3.length <= 58) return p3;
   const p4 = `${bankName} Settlement - ${shortState}`;
-  if (p4.length <= 60) return p4;
-  return p4.slice(0, 60);
+  if (p4.length <= 58) return p4;
+  const shortBank = bankName.replace('Small Finance Bank', 'SFB').replace('Bank', '').trim();
+  const p5 = `${shortBank} Settlement in ${shortState} | CredSettle`;
+  if (p5.length <= 58) return p5;
+  const p6 = `${shortBank} Settlement in ${shortState}`;
+  if (p6.length <= 58) return p6;
+  return `${shortBank} Settlement - ${shortState}`.slice(0, 58);
 }
 
 function getCCStateMetaDescription(bankName: string, stateName: string): string {
@@ -209,7 +214,7 @@ export default async function BankStateSettlementPage({ params }: { params: Prom
         "name": `Can I file a police complaint against ${bank.name} recovery agents in ${state.name}?`,
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": `Yes. If ${bank.name} agents use abusive language or threats, CredSettle assists you in drafting a formal complaint to the ${state.policeAuthority} for criminal intimidation and extortion.`
+          "text": `Yes. If ${bank.name} agents use threats or abuse, CredSettle helps you file a formal complaint with the ${state.policeAuthority}. The law strictly protects your right to live with dignity.`
         }
       },
       {
@@ -217,7 +222,7 @@ export default async function BankStateSettlementPage({ params }: { params: Prom
         "name": `What if ${bank.name} sends me a legal notice from a lawyer in ${state.name}?`,
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": `Most legal notices are automated intimidation tactics. However, they should not be ignored. CredSettle's legal team immediately responds to these notices, citing ${state.highCourt} precedents to force the bank to the negotiation table for a One-Time Settlement (OTS).`
+          "text": `Do not panic if you get a legal notice from ${bank.name}. CredSettle legal experts reply to ${bank.name} right away. We cite ${state.highCourt} rules and push the bank to agree to a One-Time Settlement (OTS).`
         }
       },
       {
@@ -225,7 +230,7 @@ export default async function BankStateSettlementPage({ params }: { params: Prom
         "name": `Will my case be transferred to the Debt Recovery Tribunal in ${state.drtLocations}?`,
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": `Unsecured credit card debts almost never reach the threshold required for DRT intervention (₹20 Lakhs). Instead of lengthy litigation in ${state.drtLocations}, ${bank.name} prefers settling out of court—which is exactly what CredSettle negotiates.`
+          "text": `Unsecured card dues rarely go to DRT courts in ${state.drtLocations}. DRTs only handle debts above ₹20 Lakhs. For smaller amounts, ${bank.name} settles out of court. CredSettle works directly with the bank to close your card account.`
         }
       }
     ]
@@ -267,7 +272,7 @@ export default async function BankStateSettlementPage({ params }: { params: Prom
             Stop <span className="text-blue-600">{bank.name}</span> Recovery Agents in {displayState}
           </h1>
           <p className="text-xl text-gray-600 mb-8">
-            Leverage local consumer protection laws. CredSettle provides the legal intervention needed to halt harassment and secure a massively discounted settlement for your unsecured debt in {state.name}.
+            Know your legal rights in {state.name}. CredSettle helps you stop recovery calls today. We talk to {bank.name} to cut your credit card dues. Settle your debt safely and get a fresh start.
           </p>
         </div>
 
@@ -278,29 +283,29 @@ export default async function BankStateSettlementPage({ params }: { params: Prom
 
             <h3 id="local-harassment" className="scroll-mt-24 text-2xl font-bold mb-4 text-gray-900">Combating {bank.name} Harassment in {displayState}</h3>
             <p className="text-gray-700 leading-relaxed mb-6">
-              When residents of {state.name} fall behind on their {bank.name} credit card payments, they are frequently targeted by aggressive third-party collection agencies. These agencies often operate under the false assumption that borrowers are unaware of their regional legal rights. CredSettle acts as your impenetrable legal shield, stepping in to absorb and permanently stop the calls while we negotiate.
+              Do you face {bank.name} credit card debt in {state.name}? You do not have to face recovery agents alone. Many agents use high pressure on card users. They think borrowers do not know the rules. CredSettle steps in to help you right away. We take over all recovery calls so you get instant relief. Our team handles all talks while we work on your settlement.
             </p>
 
             <h3 id="legal-recourse" className="scroll-mt-24 text-2xl font-bold mb-4 text-gray-900">Legal Recourse for {bank.name} in {state.name}</h3>
             <p className="text-gray-700 leading-relaxed mb-6">
-              If recovery agents resort to using abusive language, threatening physical harm, or contacting your relatives/employer, they are committing criminal offenses. In {state.name}, we heavily utilize the {state.policeAuthority} to lodge formal complaints. We also send direct legal notices to {bank.name}'s nodal officers, explicitly citing recent {state.highCourt} judgments regarding consumer privacy, effectively ending the harassment overnight.
+              Recovery agents must follow strict rules in {state.name}. They cannot use bad words. They cannot threaten you. They cannot call your family or office. Doing so is illegal. If agents cross the line, we file formal complaints with the {state.policeAuthority}. We also send legal notices to top {bank.name} officers. We cite clear rulings from the {state.highCourt} to protect your privacy and peace of mind.
             </p>
 
             <div className="bg-blue-50 border border-blue-100 p-6 rounded-xl mb-8">
               <h4 className="font-semibold text-blue-900 mb-2">Did You Know?</h4>
               <p className="text-blue-800 text-sm">
-                The {state.highCourt} has repeatedly ruled that banks cannot act as "muscle men" to recover unsecured loans. The relationship between {bank.name} and you is strictly civil.
+                The {state.highCourt} holds that banks must follow legal paths to recover money. Agents cannot use force or threats. Your card debt with {bank.name} is a civil matter.
               </p>
             </div>
 
             <h3 id="settlement-process" className="scroll-mt-24 text-2xl font-bold mb-4 text-gray-900">The {bank.name} Settlement Process in {displayState}</h3>
             <p className="text-gray-700 leading-relaxed mb-6">
-              CredSettle's negotiation strategy revolves around forcing {bank.name} to acknowledge your severe financial distress. Because unsecured credit card debt carries no collateral, {bank.name} faces extreme difficulty recovering the funds legally if you genuinely cannot pay. We navigate the banking hierarchy to secure a One-Time Settlement (OTS), regularly achieving waivers exceeding 50% of the inflated balance.
+              A One-Time Settlement (OTS) is a safe way to clear your credit card debt. If you face real financial hardship, {bank.name} will agree to a reduced payment. Unsecured card dues have no asset attached. Our team presents your case directly to senior bank managers. We negotiate to waive up to 50% or more of your total card dues. You pay the reduced sum and close the account for good.
             </p>
 
             <h3 id="drt-jurisdiction" className="scroll-mt-24 text-2xl font-bold mb-4 text-gray-900">DRT Limits for {bank.name} Credit Cards in {displayState}</h3>
             <p className="text-gray-700 leading-relaxed mb-6">
-              Collection agents often threaten borrowers with immediate action at the Debt Recovery Tribunal in {state.drtLocations}. However, this is largely an empty threat for credit card defaulters. DRTs generally only entertain cases exceeding ₹20 Lakhs. For standard credit card debts, {bank.name} is practically forced to settle out of court. CredSettle uses this leverage to finalize your settlement and obtain your official No Objection Certificate (NOC).
+              Agents may threaten to take you to the Debt Recovery Tribunal in {state.drtLocations}. But DRT courts only take cases above ₹20 Lakhs. Most card dues fall well below this mark. Thus, {bank.name} prefers to settle out of court. CredSettle uses this rule to secure a fast settlement deal. Once you pay, the bank gives you an official No Dues Certificate (NOC).
             </p>
           </article>
 
@@ -318,7 +323,7 @@ export default async function BankStateSettlementPage({ params }: { params: Prom
                 <p className="font-bold text-gray-900 text-lg">Rahul Verma</p>
                 <p className="text-blue-600 text-sm font-semibold mb-4">Lead Consumer Advocate</p>
                 <p className="text-gray-600 text-sm mb-6 leading-relaxed">
-                    Rahul oversees complex settlement cases in {state.name}, ensuring that {bank.name} recovery agents adhere strictly to regional laws and RBI guidelines while securing the best possible financial outcome.
+                    Rahul guides card settlement cases across {state.name}. He ensures that {bank.name} follows all RBI rules. His goal is to stop harassment and help you clear dues at the lowest cost.
                 </p>
                 <Link 
                     href="/contact" 

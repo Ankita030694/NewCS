@@ -1008,5 +1008,182 @@
     "emails": [
       "escalation@kissht.com"
     ]
+  },
+  {
+    "company": "Bank of India",
+    "emails": [
+      "customercare@bankofindia.co.in",
+      "support@bankofindia.co.in",
+      "cgro@bankofindia.co.in"
+    ]
+  },
+  {
+    "company": "Bank of Maharashtra",
+    "emails": [
+      "customercare@mahabank.co.in",
+      "cmcredit@mahabank.co.in"
+    ]
+  },
+  {
+    "company": "Canara Bank",
+    "emails": [
+      "canarabank@canarabank.com",
+      "customercare@canarabank.com",
+      "hoinsov@canarabank.com"
+    ]
+  },
+  {
+    "company": "Capital Small Finance Bank",
+    "emails": [
+      "customercare@capitalbank.co.in",
+      "support@capitalbank.co.in"
+    ]
+  },
+  {
+    "company": "Central Bank of India",
+    "emails": [
+      "customercare@centralbank.co.in",
+      "nodalofficer@centralbank.co.in"
+    ]
+  },
+  {
+    "company": "City Union Bank",
+    "emails": [
+      "customercare@cityunionbank.com",
+      "nodalofficer@cityunionbank.com"
+    ]
+  },
+  {
+    "company": "DCB Bank",
+    "emails": [
+      "customercare@dcbbank.com",
+      "nodal.officer@dcbbank.com"
+    ]
+  },
+  {
+    "company": "Dhanlaxmi Bank",
+    "emails": [
+      "customercare@dhanbank.co.in",
+      "nodalofficer@dhanbank.co.in"
+    ]
+  },
+  {
+    "company": "ESAF Small Finance Bank",
+    "emails": [
+      "customercare@esafbank.com",
+      "grievance@esafbank.com"
+    ]
+  },
+  {
+    "company": "Finova Capital",
+    "emails": [
+      "info@finovacapital.in",
+      "customercare@finovacapital.in"
+    ]
+  },
+  {
+    "company": "Equitas Small Finance Bank",
+    "emails": [
+      "customerservice@equitasbank.com",
+      "nodalofficer@equitasbank.com"
+    ]
+  },
+  {
+    "company": "Indian Overseas Bank",
+    "emails": [
+      "customercare@iob.in",
+      "nodalofficer@iob.in"
+    ]
+  },
+  {
+    "company": "Jammu & Kashmir Bank",
+    "emails": [
+      "jkbcustomerservice@jkbmail.com",
+      "grievance@jkbmail.com"
+    ]
+  },
+  {
+    "company": "Jana Small Finance Bank",
+    "emails": [
+      "customercare@janabank.com",
+      "nodalofficer@janabank.com"
+    ]
+  },
+  {
+    "company": "Karnataka Bank",
+    "emails": [
+      "info@ktkbank.com",
+      "complaints@ktkbank.com"
+    ]
+  },
+  {
+    "company": "Karur Vysya Bank",
+    "emails": [
+      "customersupport@kvbmail.com",
+      "nodalofficer@kvbmail.com"
+    ]
+  },
+  {
+    "company": "Nainital Bank",
+    "emails": [
+      "customercare@nainitalbank.co.in",
+      "nodalofficer@nainitalbank.co.in"
+    ]
+  },
+  {
+    "company": "North East Small Finance Bank",
+    "emails": [
+      "customercare@nesfb.com",
+      "grievance@nesfb.com"
+    ]
+  },
+  {
+    "company": "Punjab & Sind Bank",
+    "emails": [
+      "customercare@psb.co.in",
+      "cgro@psb.co.in"
+    ]
+  },
+  {
+    "company": "Shivalik Small Finance Bank",
+    "emails": [
+      "customercare@shivalikbank.com",
+      "nodalofficer@shivalikbank.com"
+    ]
+  },
+  {
+    "company": "Suryoday Small Finance Bank",
+    "emails": [
+      "customercare@suryodaybank.com",
+      "nodalofficer@suryodaybank.com"
+    ]
+  },
+  {
+    "company": "Tamilnad Mercantile Bank",
+    "emails": [
+      "customercare@tmbank.in",
+      "customersupport@tmbank.in"
+    ]
+  },
+  {
+    "company": "UCO Bank",
+    "emails": [
+      "customercare@ucobank.co.in",
+      "cgro@ucobank.co.in"
+    ]
+  },
+  {
+    "company": "Ujjivan Small Finance Bank",
+    "emails": [
+      "customercare@ujjivan.com",
+      "grievance.redressal@ujjivan.com"
+    ]
+  },
+  {
+    "company": "Utkarsh Small Finance Bank",
+    "emails": [
+      "customercare@utkarsh.bank",
+      "communications@utkarsh.bank"
+    ]
   }
 ]

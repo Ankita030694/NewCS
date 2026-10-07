@@ -19,8 +19,30 @@ const getBankCanonicalSlug = (company: string) => {
 
 const getBankBySlug = (slug: string) => {
   const normalized = slug.toLowerCase().trim();
-  if (normalized === 'landt-finance' || normalized === 'lt-finance' || normalized === 'landt') {
+  if (
+    normalized === 'landt-finance' ||
+    normalized === 'lt-finance' ||
+    normalized === 'landt' ||
+    normalized === 'l-and-t-finance' ||
+    normalized === 'l-and-t' ||
+    normalized === 'lt'
+  ) {
     return banksData.find((b) => b.company === 'L&T Finance');
+  }
+  if (normalized === 'indus-ind' || normalized === 'indusind') {
+    return banksData.find((b) => b.company.toLowerCase() === 'indusind');
+  }
+  if (normalized === 'chimnay-finlease-ltd' || normalized === 'chimnay-finlease-ltd-lenditt' || normalized === 'lenditt') {
+    return banksData.find((b) => b.company.toLowerCase().includes('chimnay'));
+  }
+  if (normalized === 'krzaybee' || normalized === 'krazybee') {
+    return banksData.find((b) => b.company.toLowerCase() === 'krazybee');
+  }
+  if (normalized === 'mpocket' || normalized === 'mpokket') {
+    return banksData.find((b) => b.company.toLowerCase() === 'mpokket');
+  }
+  if (normalized === 'north-east-small-finance-bank' || normalized === 'north-east-small-finance') {
+    return banksData.find((b) => b.company.toLowerCase().includes('north east small finance'));
   }
   return banksData.find(
     (b) => getBankCanonicalSlug(b.company) === normalized
@@ -797,7 +819,24 @@ export default async function BankSettlementSlugPage({ params }: Props) {
 }
 
 export async function generateStaticParams() {
-  return banksData.map((bank) => ({
-    slug: bank.company.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, ''),
-  }));
+  const slugs = new Set<string>();
+  banksData.forEach((bank) => {
+    slugs.add(getBankCanonicalSlug(bank.company));
+  });
+  const aliases = [
+    'landt-finance',
+    'lt-finance',
+    'landt',
+    'l-and-t-finance',
+    'l-and-t',
+    'lt',
+    'indus-ind',
+    'chimnay-finlease-ltd',
+    'krzaybee',
+    'mpocket',
+    'north-east-small-finance-bank'
+  ];
+  aliases.forEach((a) => slugs.add(a));
+
+  return Array.from(slugs).map((slug) => ({ slug }));
 }

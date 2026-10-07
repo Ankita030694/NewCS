@@ -53,14 +53,14 @@ export default async function BankPage({ params }: PageProps) {
   // Generate headings for Table of Contents
   const headings = [
     { id: 'why-choose-settlement', text: `Why Choose ${content.bankName} Credit Card Settlement`, level: 2 },
-    { id: 'understanding-settlement', text: `${content.bankName} Credit Card Settlement Process`, level: 2 },
-    { id: 'how-credsettle-helps', text: `How CredSettle Settles ${content.bankName} Credit Card Debt`, level: 2 },
-    { id: 'cibil-impact', text: `Impact of ${content.bankName} Credit Card Settlement on Your CIBIL Score`, level: 2 },
-    { id: 'why-choose-credsettle', text: `Why Choose CredSettle for ${content.bankName} Credit Card Settlement`, level: 2 },
-    { id: 'step-by-step-process', text: `Steps to Settle ${content.bankName} Credit Card Debt`, level: 2 },
-    { id: 'documents-required', text: `Documents for ${content.bankName} Credit Card Settlement`, level: 2 },
-    { id: 'faqs', text: `${content.bankName} Credit Card Settlement FAQs`, level: 2 },
-    { id: 'get-legal-help', text: `Get Legal Help for ${content.bankName} Credit Card`, level: 2 }
+    { id: 'understanding-settlement', text: `${content.bankName} Credit Card Settlement Process`, level: 3 },
+    { id: 'how-credsettle-helps', text: `How CredSettle Settles ${content.bankName} Credit Card Debt`, level: 3 },
+    { id: 'cibil-impact', text: `Impact of ${content.bankName} Credit Card Settlement on Your CIBIL Score`, level: 3 },
+    { id: 'why-choose-credsettle', text: `Why Choose CredSettle for ${content.bankName} Credit Card Settlement`, level: 3 },
+    { id: 'step-by-step-process', text: `Steps to Settle ${content.bankName} Credit Card Debt`, level: 3 },
+    { id: 'documents-required', text: `Documents for ${content.bankName} Credit Card Settlement`, level: 3 },
+    { id: 'faqs', text: `${content.bankName} Credit Card Settlement FAQs`, level: 3 },
+    { id: 'get-legal-help', text: `Get Legal Help for ${content.bankName} Credit Card`, level: 3 }
   ];
 
   // Generate structured data for the page

@@ -727,21 +727,6 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: "/loan-settlement-by-bank/landt-finance",
-        destination: "/loan-settlement-by-bank/l-t-finance",
-        permanent: true,
-      },
-      {
-        source: "/loan-settlement-by-bank/lt-finance",
-        destination: "/loan-settlement-by-bank/l-t-finance",
-        permanent: true,
-      },
-      {
-        source: "/loan-settlement-by-bank/landt",
-        destination: "/loan-settlement-by-bank/l-t-finance",
-        permanent: true,
-      },
-      {
         source: "/recommendations-for-loan-settlement-services-that-negotiate-lower-interest-rates-in-india",
         destination: "/loan-settlement-services-lower-interest-rates-india",
         permanent: true,

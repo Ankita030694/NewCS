@@ -11,6 +11,34 @@ export async function generateStaticParams() {
   }));
 }
 
+function getCCBankMetaTitle(bankName: string): string {
+  const candidate1 = `${bankName} Credit Card Settlement | CredSettle`;
+  if (candidate1.length <= 58) return candidate1;
+
+  const candidate2 = `${bankName} Credit Card Settlement`;
+  if (candidate2.length <= 58) return candidate2;
+
+  const shortName = bankName.replace('Small Finance Bank', 'SFB').replace('Bank', '').trim();
+  const candidate3 = `${shortName} Card Settlement | CredSettle`;
+  if (candidate3.length <= 58) return candidate3;
+
+  const candidate4 = `${shortName} Card Settlement`;
+  if (candidate4.length <= 58) return candidate4;
+
+  return `${shortName} Card Settlement`.slice(0, 58);
+}
+
+function getCCBankMetaDescription(bankName: string): string {
+  let desc = `Settle ${bankName} credit card dues legally with CredSettle. Stop recovery harassment & reduce debt under RBI rules.`;
+  if (desc.length <= 150) return desc;
+
+  const shortName = bankName.replace('Small Finance Bank', 'SFB');
+  desc = `Settle ${shortName} credit card dues legally with CredSettle. Stop recovery harassment & reduce debt under RBI rules.`;
+  if (desc.length <= 150) return desc;
+
+  return `Settle ${shortName} card dues legally with CredSettle. Stop harassment & reduce debt.`.slice(0, 150);
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const bank = creditCardBanks.find((b) => b.slug === slug);
@@ -22,8 +50,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     };
   }
 
-  const metaTitle = `${bank.name} Credit Card Settlement | CredSettle`;
-  const metaDescription = `Settle ${bank.name} credit card dues legally with CredSettle. Stop recovery agent harassment, reduce debt & get NOC closure. Free consultation.`;
+  const metaTitle = getCCBankMetaTitle(bank.name);
+  const metaDescription = getCCBankMetaDescription(bank.name);
 
   return {
     title: metaTitle,
