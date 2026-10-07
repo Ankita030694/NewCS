@@ -746,6 +746,26 @@ const nextConfig: NextConfig = {
         destination: "/loan-settlement-services-lower-interest-rates-india",
         permanent: true,
       },
+      {
+        source: "/loanA-settlement-by-city/:path*",
+        destination: "/loan-settlement-by-city/:path*",
+        permanent: true,
+      },
+      {
+        source: "/loanA-settlement-by-city",
+        destination: "/loan-settlement-by-city",
+        permanent: true,
+      },
+      {
+        source: "/loana-settlement-by-city/:path*",
+        destination: "/loan-settlement-by-city/:path*",
+        permanent: true,
+      },
+      {
+        source: "/loana-settlement-by-city",
+        destination: "/loan-settlement-by-city",
+        permanent: true,
+      },
     ];
   },
   async headers() {
