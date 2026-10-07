@@ -5,6 +5,7 @@ import Tier2Template from "./Tier2Template";
 import Tier3Template from "./Tier3Template";
 import { Metadata } from "next";
 import banksData from "@/app/loan-settlement-by-bank/banks.json";
+import { getMetaTitlePixelWidth } from "@/lib/seo-utils";
 
 const ccAliasMap: Record<string, string> = {
   "hdfc-bank-credit-card": "/credit-card-settlement/hdfc",
@@ -52,7 +53,7 @@ export async function generateStaticParams() {
 
 function getCCBankMetaTitle(bankName: string): string {
   const b = bankName.trim();
-  const shortName = b
+  const shortName = b === 'Jammu & Kashmir Bank' ? 'J&K Bank' : b
     .replace('Small Finance Bank', 'SFB')
     .replace('Bank', '')
     .trim();
@@ -69,12 +70,12 @@ function getCCBankMetaTitle(bankName: string): string {
   ];
 
   for (const cand of candidates) {
-    if (cand.length >= 45 && cand.length <= 58) return cand;
+    if (cand.length >= 45 && cand.length <= 58 && getMetaTitlePixelWidth(cand) <= 550) return cand;
   }
   for (const cand of candidates) {
-    if (cand.length >= 30 && cand.length <= 60) return cand;
+    if (cand.length >= 30 && cand.length <= 60 && getMetaTitlePixelWidth(cand) <= 550) return cand;
   }
-  return `${b} Credit Card Settlement`.slice(0, 58);
+  return `${b} Credit Card Settlement`.slice(0, 50);
 }
 
 function getCCBankMetaDescription(bankName: string): string {

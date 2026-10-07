@@ -1,9 +1,24 @@
 import type { ReactNode } from 'react';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRightFromBracket, faChartSimple, faNewspaper, faUserGroup } from '@fortawesome/free-solid-svg-icons';
 
 import LogoutButton from '@/components/LogoutButton';
+
+export const metadata: Metadata = {
+  title: 'CredSettle Internal Authority Dashboard',
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+      noimageindex: true,
+    },
+  },
+};
 
 const NAV_ITEMS = [
   {

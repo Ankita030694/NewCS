@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import { creditCardBanks } from "@/data/creditCardBanks";
 import { statesData } from "@/data/statesData";
 import { notFound } from "next/navigation";
+import { getMetaTitlePixelWidth } from "@/lib/seo-utils";
 
 export async function generateStaticParams() {
   const params: { slug: string; "state-slug": string }[] = [];
@@ -22,6 +23,11 @@ function getShortStateName(stateName: string): string {
   if (stateName === 'Andaman and Nicobar Islands') return 'Andaman & Nicobar';
   if (stateName === 'Jammu and Kashmir') return 'Jammu & Kashmir';
   return stateName;
+}
+
+function getShortBankName(bankName: string): string {
+  if (bankName === 'Jammu & Kashmir Bank') return 'J&K Bank';
+  return bankName.replace(/Small Finance Bank/gi, 'SFB').replace(/\s+Bank$/i, '').trim();
 }
 
 function getCCStateH1(bankName: string, stateName: string): string {
@@ -50,20 +56,28 @@ function getCCStateH2(bankName: string, stateName: string): string {
 
 function getCCStateMetaTitle(bankName: string, stateName: string): string {
   const shortState = getShortStateName(stateName);
-  const p1 = `${bankName} Settlement in ${stateName} | CredSettle`;
-  if (p1.length <= 58) return p1;
-  const p2 = `${bankName} Settlement in ${shortState} | CredSettle`;
-  if (p2.length <= 58) return p2;
-  const p3 = `${bankName} Card Settlement in ${shortState}`;
-  if (p3.length <= 58) return p3;
-  const p4 = `${bankName} Settlement - ${shortState}`;
-  if (p4.length <= 58) return p4;
-  const shortBank = bankName.replace('Small Finance Bank', 'SFB').replace('Bank', '').trim();
-  const p5 = `${shortBank} Settlement in ${shortState} | CredSettle`;
-  if (p5.length <= 58) return p5;
-  const p6 = `${shortBank} Settlement in ${shortState}`;
-  if (p6.length <= 58) return p6;
-  return `${shortBank} Settlement - ${shortState}`.slice(0, 58);
+  const shortBank = getShortBankName(bankName);
+  const brand = 'CredSettle';
+
+  const candidates = [
+    `${bankName} Settlement in ${stateName} | ${brand}`,
+    `${bankName} Settlement in ${shortState} | ${brand}`,
+    `${shortBank} Card Settlement in ${stateName} | ${brand}`,
+    `${shortBank} Settlement in ${stateName} | ${brand}`,
+    `${shortBank} Card Settlement in ${shortState} | ${brand}`,
+    `${shortBank} Settlement in ${shortState} | ${brand}`,
+    `${bankName} Settlement in ${shortState}`,
+    `${shortBank} Card Settlement in ${shortState}`,
+    `${shortBank} Settlement - ${shortState}`
+  ];
+
+  for (const cand of candidates) {
+    if (cand.length <= 58 && getMetaTitlePixelWidth(cand) <= 550) {
+      return cand;
+    }
+  }
+
+  return `${shortBank} Settlement - ${shortState}`.slice(0, 48);
 }
 
 function getCCStateMetaDescription(bankName: string, stateName: string): string {

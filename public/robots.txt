@@ -6,6 +6,7 @@ Allow: /
 Disallow: /social/
 Disallow: /whatsapp
 Disallow: /authority/
+Disallow: /authority
 Disallow: /api/
 
 # Sitemap location
