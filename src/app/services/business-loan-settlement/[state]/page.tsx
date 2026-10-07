@@ -97,7 +97,7 @@ function generateHeadings(content: any) {
   if (content.commonBusinessLoanProblems) {
     headings.push({
       id: 'common-business-loan-problems',
-      text: `Common Business Loan Problems in ${content.stateName}`,
+      text: `Business Loan Problems in ${content.stateName}`,
       level: 2
     });
   }
@@ -161,7 +161,7 @@ function generateHeadings(content: any) {
   if (content.caseStudy) {
     headings.push({
       id: 'case-study',
-      text: `Business Settlement Case Study in ${content.stateName}`,
+      text: `Settlement Case Study in ${content.stateName}`,
       level: 2
     });
   }

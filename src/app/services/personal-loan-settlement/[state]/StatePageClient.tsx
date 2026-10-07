@@ -185,7 +185,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Why Loan Settlement Is a Smart Financial Step in {content.stateName}
+                        Personal Loan Settlement in {content.stateName}
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -213,7 +213,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Common Loan Problems Faced in {content.stateName}
+                        Common Loan Problems in {content.stateName}
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -241,7 +241,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        CredSettle - Trusted Loan Settlement in {content.stateName}
+                        CredSettle - India&apos;s Trusted Loan Settlement Company
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -307,7 +307,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Legal Support in {content.stateName} through Our Lawyer Panel
+                        Legal Support through Our Lawyer Panel
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -335,7 +335,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Types of Loans We Help Settle in {content.stateName}
+                        Types of Loans We Settle in {content.stateName}
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -422,7 +422,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Benefits of Choosing CredSettle for Loan Settlement in {content.stateName}
+                        Why Choose CredSettle in {content.stateName}
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -450,7 +450,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        RBI Guidelines & Legal Rights of Borrowers in {content.stateName}
+                        RBI Guidelines &amp; Legal Rights of Borrowers
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -478,7 +478,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Step-by-Step Guide to Start Loan Settlement in {content.stateName}
+                        Guide to Loan Settlement with CredSettle
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -506,7 +506,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Real Case Study: Loan Settlement Success in {content.stateName}
+                        Settlement Case Study in {content.stateName}
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -534,7 +534,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Final Thoughts - Debt-Free Life in {content.stateName}
+                        Final Thoughts - Path to a Debt-Free Life
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -564,7 +564,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Introduction to Loan Settlement in {content.stateName}
+                        About Loan Settlement in {content.stateName}
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -591,7 +591,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Loan Settlement Overview in {content.stateName}
+                        Loan Settlement Overview
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -618,7 +618,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Benefits of Loan Settlement in {content.stateName}
+                        Benefits of Loan Settlement
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -645,7 +645,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Settlement Process in {content.stateName}
+                        The Settlement Process
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -672,7 +672,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Legal Aspects in {content.stateName}
+                        Legal Rights &amp; Protections
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"

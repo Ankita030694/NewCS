@@ -97,7 +97,7 @@ function generateHeadings(content: any) {
   if (content.commonCarLoanProblems) {
     headings.push({
       id: 'common-car-loan-problems',
-      text: `Common Car Loan Problems in ${content.stateName}`,
+      text: `Car Loan Problems in ${content.stateName}`,
       level: 2
     });
   }

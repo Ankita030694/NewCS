@@ -97,7 +97,7 @@ function generateHeadings(content: any) {
   if (content.commonAppLoanProblems) {
     headings.push({
       id: 'common-app-loan-problems',
-      text: `Common App Loan Problems in ${content.stateName}`,
+      text: `App Loan Problems in ${content.stateName}`,
       level: 2
     });
   }
@@ -153,7 +153,7 @@ function generateHeadings(content: any) {
   if (content.stepByStepGuide) {
     headings.push({
       id: 'step-by-step-guide',
-      text: 'Step-by-Step Guide to App Loan Settlement with CredSettle',
+      text: 'Guide to App Loan Settlement with CredSettle',
       level: 2
     });
   }
@@ -169,7 +169,7 @@ function generateHeadings(content: any) {
   if (content.finalThoughts) {
     headings.push({
       id: 'final-thoughts',
-      text: 'Final Thoughts - Take the First Step Toward Freedom From Harassment',
+      text: 'Final Thoughts - Freedom From App Loan Harassment',
       level: 2
     });
   }

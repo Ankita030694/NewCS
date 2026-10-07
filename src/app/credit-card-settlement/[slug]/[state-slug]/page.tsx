@@ -182,9 +182,9 @@ export default async function BankStateSettlementPage({ params }: { params: Prom
   };
 
   const tocSections = [
-    { id: "local-harassment", text: `Combating ${bank.name} Harassment in ${state.name}`, level: 2 },
+    { id: "local-harassment", text: `Combating ${bank.name} Harassment`, level: 2 },
     { id: "legal-recourse", text: `Legal Recourse for ${bank.name} in ${state.name}`, level: 3 },
-    { id: "settlement-process", text: `The ${bank.name} Settlement Process in ${state.name}`, level: 2 },
+    { id: "settlement-process", text: `The ${bank.name} Settlement Process`, level: 2 },
     { id: "drt-jurisdiction", text: `DRT Limits for ${bank.name} Credit Cards`, level: 3 },
   ];
 
@@ -219,7 +219,7 @@ export default async function BankStateSettlementPage({ params }: { params: Prom
         <div className="flex flex-col lg:flex-row gap-12 mt-12">
           {/* Main Content */}
           <article className="lg:w-2/3 prose prose-lg max-w-none bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
-            <h2 id="local-harassment" className="scroll-mt-24 text-3xl font-bold mb-4">Combating {bank.name} Harassment in {state.name}</h2>
+            <h2 id="local-harassment" className="scroll-mt-24 text-3xl font-bold mb-4">Combating {bank.name} Harassment</h2>
             <p className="text-gray-700 leading-relaxed mb-6">
               When residents of {state.name} fall behind on their {bank.name} credit card payments, they are frequently targeted by aggressive third-party collection agencies. These agencies often operate under the false assumption that borrowers are unaware of their regional legal rights. CredSettle acts as your impenetrable legal shield, stepping in to absorb and permanently stop the calls while we negotiate.
             </p>
@@ -236,7 +236,7 @@ export default async function BankStateSettlementPage({ params }: { params: Prom
               </p>
             </div>
 
-            <h2 id="settlement-process" className="scroll-mt-24 text-3xl font-bold mb-4">The {bank.name} Settlement Process in {state.name}</h2>
+            <h2 id="settlement-process" className="scroll-mt-24 text-3xl font-bold mb-4">The {bank.name} Settlement Process</h2>
             <p className="text-gray-700 leading-relaxed mb-6">
               CredSettle's negotiation strategy revolves around forcing {bank.name} to acknowledge your severe financial distress. Because unsecured credit card debt carries no collateral, {bank.name} faces extreme difficulty recovering the funds legally if you genuinely cannot pay. We navigate the banking hierarchy to secure a One-Time Settlement (OTS), regularly achieving waivers exceeding 50% of the inflated balance.
             </p>

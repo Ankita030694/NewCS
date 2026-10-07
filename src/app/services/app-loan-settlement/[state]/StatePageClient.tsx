@@ -194,7 +194,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Common App Loan Problems in {content.stateName}
+                    App Loan Problems in {content.stateName}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -372,7 +372,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Step-by-Step Guide to App Loan Settlement with CredSettle
+                    Guide to App Loan Settlement with CredSettle
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -428,7 +428,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Final Thoughts - Take the First Step Toward Freedom From Harassment
+                    Final Thoughts - Freedom From App Loan Harassment
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"

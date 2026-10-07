@@ -99,26 +99,26 @@ export default async function StatePage({ params }: PageProps) {
   // Extract headings for Table of Contents - dynamic based on content format
   const headings = content.whyLoanSettlement
     ? [
-        { id: 'why-loan-settlement', text: `Why Loan Settlement Is a Smart Financial Step in ${content.stateName}`, level: 2 },
-        { id: 'common-loan-problems', text: `Common Loan Problems Faced in ${content.stateName}`, level: 2 },
-        { id: 'credsettle-overview', text: `CredSettle - Trusted Loan Settlement in ${content.stateName}`, level: 2 },
+        { id: 'why-loan-settlement', text: `Personal Loan Settlement in ${content.stateName}`, level: 2 },
+        { id: 'common-loan-problems', text: `Common Loan Problems in ${content.stateName}`, level: 2 },
+        { id: 'credsettle-overview', text: 'CredSettle - India’s Trusted Loan Settlement Company', level: 2 },
         { id: 'rbi-compliant-process', text: `Our RBI-Compliant Loan Settlement Process in ${content.stateName}`, level: 3 },
         { id: 'negotiation-help', text: `How CredSettle Helps You Negotiate with Banks in ${content.stateName}`, level: 3 },
-        { id: 'legal-support', text: `Legal Support in ${content.stateName} through Our Lawyer Panel`, level: 2 },
-        { id: 'types-of-loans', text: `Types of Loans We Help Settle in ${content.stateName}`, level: 2 },
-        { id: 'benefits', text: `Benefits of Choosing CredSettle for Loan Settlement in ${content.stateName}`, level: 2 },
-        { id: 'rbi-guidelines', text: `RBI Guidelines & Legal Rights of Borrowers in ${content.stateName}`, level: 2 },
-        { id: 'step-by-step-guide', text: `Step-by-Step Guide to Start Loan Settlement in ${content.stateName}`, level: 2 },
-        { id: 'case-study', text: `Real Case Study: Loan Settlement Success in ${content.stateName}`, level: 2 },
-        { id: 'final-thoughts', text: `Final Thoughts - Debt-Free Life in ${content.stateName}`, level: 2 },
+        { id: 'legal-support', text: 'Legal Support through Our Lawyer Panel', level: 2 },
+        { id: 'types-of-loans', text: `Types of Loans We Settle in ${content.stateName}`, level: 2 },
+        { id: 'benefits', text: `Why Choose CredSettle in ${content.stateName}`, level: 2 },
+        { id: 'rbi-guidelines', text: 'RBI Guidelines & Legal Rights of Borrowers', level: 2 },
+        { id: 'step-by-step-guide', text: 'Guide to Loan Settlement with CredSettle', level: 2 },
+        { id: 'case-study', text: `Settlement Case Study in ${content.stateName}`, level: 2 },
+        { id: 'final-thoughts', text: 'Final Thoughts - Path to a Debt-Free Life', level: 2 },
         { id: 'faqs', text: 'Frequently Asked Questions', level: 2 }
       ]
     : [
-        { id: 'introduction', text: `Introduction to Loan Settlement in ${content.stateName}`, level: 2 },
-        { id: 'overview', text: `Loan Settlement Overview in ${content.stateName}`, level: 2 },
-        { id: 'benefits', text: `Benefits of Loan Settlement in ${content.stateName}`, level: 2 },
-        { id: 'process', text: `Settlement Process in ${content.stateName}`, level: 2 },
-        { id: 'legal-aspects', text: `Legal Aspects in ${content.stateName}`, level: 2 },
+        { id: 'introduction', text: `About Loan Settlement in ${content.stateName}`, level: 2 },
+        { id: 'overview', text: 'Loan Settlement Overview', level: 2 },
+        { id: 'benefits', text: 'Benefits of Loan Settlement', level: 2 },
+        { id: 'process', text: 'The Settlement Process', level: 2 },
+        { id: 'legal-aspects', text: 'Legal Rights & Protections', level: 2 },
         { id: 'faqs', text: 'Frequently Asked Questions', level: 2 }
       ];
 

@@ -561,7 +561,7 @@ export default async function LawyerBySlugPage({ params }: { params: Promise<{ s
                 </section>
 
                 <section id="faqs" className="scroll-mt-32">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-8">Frequently Asked Questions on Loan Settlement in {locationName}</h2>
+                  <h2 className="text-2xl font-bold text-gray-900 mb-8">Loan Settlement FAQs in {locationName}</h2>
                   <div className="space-y-6">
                     {faqs.map((faq, index) => (
                       <div key={index} className="border-b border-gray-100 pb-6 last:border-0 hover:bg-gray-50 p-4 rounded-xl transition-colors">
