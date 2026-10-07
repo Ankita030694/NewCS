@@ -473,6 +473,33 @@ const bankInfoMap: Record<string, BankInfo> = {
     headquarters: 'Gurgaon',
     notableFeatures: ['Buy now pay later', 'E-commerce integration', 'Digital'],
     settlementReputation: 'Flexible BNPL settlements'
+  },
+  'credila-financial-services': {
+    name: 'Credila Financial Services',
+    slug: 'credila-financial-services',
+    type: 'NBFC',
+    established: '2006',
+    headquarters: 'Mumbai',
+    notableFeatures: ['Education and personal loan finance', 'Leading NBFC brand', 'Specialized loan products'],
+    settlementReputation: 'Open to structured OTS settlements with proper hardship proof'
+  },
+  'credila': {
+    name: 'Credila',
+    slug: 'credila',
+    type: 'NBFC',
+    established: '2006',
+    headquarters: 'Mumbai',
+    notableFeatures: ['Education and personal loan finance', 'Leading NBFC brand', 'Specialized loan products'],
+    settlementReputation: 'Open to structured OTS settlements with proper hardship proof'
+  },
+  'hdfc-credila': {
+    name: 'HDFC Credila',
+    slug: 'hdfc-credila',
+    type: 'NBFC',
+    established: '2006',
+    headquarters: 'Mumbai',
+    notableFeatures: ['Retail and education finance leader', 'Extensive borrower network', 'Digital operations'],
+    settlementReputation: 'Cooperative with formal legal settlement proposals'
   }
 };
 
@@ -485,38 +512,64 @@ export function generateBankSlug(bankName: string): string {
     .replace(/^-+|-+$/g, '');
 }
 
+export function getShortBankName(name: string): string {
+  const s = name
+    .replace('Technologies India Pvt Ltd', 'Tech')
+    .replace('Private Limited', 'Pvt Ltd')
+    .replace('Financial Services', '')
+    .replace('Finance Limited', 'Fin')
+    .replace('Finance', '')
+    .trim();
+  return s.length >= 3 ? s : name;
+}
+
 export function getBankMetaTitle(bankName: string): string {
   const b = bankName.trim();
+  const shortB = getShortBankName(b);
   const candidates = [
     `${b} Personal Loan Settlement | CredSettle`,
-    `Settle ${b} Personal Loan | CredSettle`,
-    `${b} Loan Settlement | CredSettle`,
-    `Settle ${b} Loan Legally | CredSettle`,
-  ];
-  for (const cand of candidates) {
-    if (cand.length >= 30 && cand.length <= 58) return cand;
-  }
-  const shortB = b
-    .replace('Private Limited', 'Pvt Ltd')
-    .replace('Technologies India Pvt Ltd', 'Tech')
-    .replace('Technologies', 'Tech')
-    .replace('Limited', 'Ltd')
-    .replace('Financial Services', 'Fin')
-    .replace('Finance', 'Fin')
-    .replace('Small Finance Bank', 'SFB')
-    .replace('Standard Chartered Bank', 'Standard Chartered');
-
-  const shortCandidates = [
     `${shortB} Personal Loan Settlement | CredSettle`,
-    `Settle ${shortB} Personal Loan | CredSettle`,
+    `${b} Loan Settlement | CredSettle`,
     `${shortB} Loan Settlement | CredSettle`,
-    `Settle ${shortB} Loan | CredSettle`,
-    `${shortB} Settlement | CredSettle`
+    `Settle ${b} Personal Loan | CredSettle`,
+    `Settle ${shortB} Personal Loan | CredSettle`,
+    `Settle ${b} Personal Loan Legally | CredSettle`,
+    `Settle ${shortB} Personal Loan Legally | CredSettle`,
+    `${b} Personal Loan Settlement Guide | CredSettle`,
+    `${shortB} Personal Loan Settlement Guide | CredSettle`,
+    `Settle ${b} Personal Loan Dues in India | CredSettle`,
+    `Settle ${shortB} Personal Loan Dues in India | CredSettle`,
+    `${b} Personal Loan Settlement - CredSettle Guide`,
+    `${shortB} Personal Loan Settlement - CredSettle Guide`
   ];
-  for (const cand of shortCandidates) {
-    if (cand.length >= 30 && cand.length <= 58) return cand;
+  for (const c of candidates) {
+    if (c.length >= 50 && c.length <= 60) return c;
   }
-  return `${shortB.slice(0, 20).trim()} Personal Loan Settlement | CredSettle`;
+  const cand = `Settle ${shortB} Personal Loan Dues | CredSettle`;
+  if (cand.length > 60) {
+    return `${shortB.slice(0, 20).trim()} Personal Loan Settlement | CredSettle`;
+  }
+  return cand.slice(0, 60);
+}
+
+export function getBankMetaDescription(bankName: string): string {
+  const b = bankName.trim();
+  const shortB = getShortBankName(b);
+  const candidates = [
+    `Settle your ${b} personal loan dues legally under RBI rules. Cut debt by up to 50%, stop recovery calls, and regain peace of mind with CredSettle.`,
+    `Settle your ${shortB} personal loan dues legally under RBI rules. Cut debt by up to 50%, stop recovery calls, and regain peace of mind with CredSettle.`,
+    `Struggling with dues? Settle your ${b} personal loan legally under RBI rules. Cut debt by up to 50%, stop recovery calls, and get debt free with CredSettle.`,
+    `Struggling with dues? Settle your ${shortB} personal loan legally under RBI rules. Cut debt by up to 50%, stop recovery calls, and get debt free with CredSettle.`,
+    `Settle ${b} personal loan dues legally under RBI rules. Cut debt by up to 50%, stop recovery calls, and achieve debt freedom with CredSettle legal help.`,
+    `Settle ${shortB} personal loan dues legally under RBI rules. Cut debt by up to 50%, stop recovery calls, and achieve debt freedom with CredSettle legal help.`,
+    `Settle your ${b} loan legally under RBI rules. Cut debt by up to 50%, stop recovery calls, and achieve debt freedom with expert help from CredSettle.`,
+    `Settle your ${shortB} loan legally under RBI rules. Cut debt by up to 50%, stop recovery calls, and achieve debt freedom with expert help from CredSettle.`
+  ];
+  for (const c of candidates) {
+    if (c.length >= 140 && c.length <= 155) return c;
+  }
+  const c = `Settle your ${shortB} personal loan dues legally under RBI rules. Cut debt by up to 50%, stop recovery calls, and regain peace of mind with CredSettle.`;
+  return c.slice(0, 155);
 }
 
 // Generate comprehensive content for a bank
@@ -526,8 +579,8 @@ export function generateBankContent(bankSlug: string): Partial<BankContent> | {}
     return {};
   }
 
-  const { name, type, settlementReputation } = bankInfo;
-  const bankTypeLower = type.toLowerCase();
+  const { name } = bankInfo;
+  const shortName = getShortBankName(name);
 
   // Generate variant numbers for uniqueness
   const hash = bankSlug.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
@@ -539,110 +592,104 @@ export function generateBankContent(bankSlug: string): Partial<BankContent> | {}
 
   return {
     metaTitle: getBankMetaTitle(name),
+    metaDescription: getBankMetaDescription(name),
 
     // H2: Why People Choose Loan Settlement with [Bank Name]
     whyChooseSettlement: [
-      `Loan debt can happen to anyone. Job loss, medical costs, or business slowdowns make EMI payments difficult. When ${name} loans become too hard to pay, legal debt settlement helps. It provides an RBI-compliant way to clear your debt. You can save money and regain financial peace.`,
+      `Loan debt can build up fast after job loss, pay cuts, or medical costs. When ${name} EMIs get hard to pay, legal debt settlement helps you exit safely. Under RBI OTS rules, you can cut total dues by 30% to 60%. This clears your debt for good and stops collection calls.`,
 
-      `Unpaid ${name} loans quickly add heavy interest and late fees. Debt collection calls can cause high daily stress. If you cannot afford full EMIs, a one-time settlement (OTS) is the right answer. CredSettle negotiates directly with ${name}. We help reduce your total outstanding dues by 30% to 70%.`,
+      `Unpaid ${name} loans add heavy late fees and interest fast. Collection calls can cause daily stress. If you cannot afford full monthly EMIs, an RBI One-Time Settlement is the right answer. CredSettle negotiates directly with ${name}. We help reduce your total loan dues by 30% to 60%.`,
 
-      `Settling your loan with ${name} offers fast and lasting relief. Collection calls stop quickly once our legal team steps in. You get a clear, structured payment plan and official closure papers. This lets you resolve your debt safely and start fresh.`,
+      `Settling your loan with ${name} gives fast and lasting relief. Collection calls stop quickly once our legal team contacts the bank. You get a clear, fair payment plan and official closure papers. This lets you resolve your debt safely and make a fresh start.`
     ][whyVariant],
 
     // H2: Understanding [Bank Name] Loan Settlement Process
     understandingSettlement: [
-      `${name} follows the RBI framework for one-time settlements (OTS). This allows borrowers to close unpaid loans with a reduced one-time payment. CredSettle presents your financial hardship to ${name}. We review your income proof, medical bills, or job loss records to secure the best waiver.`,
+      `Settling a personal loan with ${name} follows RBI OTS rules. It lets you close your unpaid loan with a single reduced payment. CredSettle lawyers review your money hardship and present your facts to ${name}. Once agreed and paid, the bank issues an official No Dues Certificate.`,
 
-      `Loan settlement is a formal and legal process. It gives you an official agreement and a clear payment plan. For personal loans and credit cards, ${name} often waives 30% to 70% of total dues. Once you pay the agreed sum, you get a full no dues certificate.`,
+      `Loan settlement is a formal and legal process. It gives you an official agreement and a clear payment plan. For personal loans and cards, ${name} often waives 30% to 60% of total dues. Once you pay the agreed sum, you get a full No Dues Certificate.`,
 
-      `Our team knows the internal settlement policies at ${name}. We prepare your file to meet their exact guidelines. This ensures your settlement request is approved without unnecessary delays. We handle all lender talks and protect your rights from start to finish.`,
+      `Our team knows the settlement rules at ${name}. We prepare your hardship file to meet their exact guidelines. This ensures your settlement request is approved without long delays. We handle all talks and protect your rights from start to finish.`
     ][processVariant],
 
     // H2: How CredSettle Helps You Settle [Bank Name] Loans Legally
-    howCredSettleHelps: `CredSettle provides complete legal support for ${name} loan settlements. First, our legal team analyzes your loan statements and repayment capacity. Next, we prepare a strong hardship proposal for ${name}. We negotiate directly with bank officers to cut your debt by 40% to 60%. We guide your payments and secure your official No Dues Certificate. Our fees are linked to your success, with zero advance burden.`,
+    howCredSettleHelps: `CredSettle provides full legal help for ${name} loan settlements. Our lawyers check your loan records and build a strong hardship file. We talk directly with bank officers to cut your dues by 40% to 60%. We also send legal notices to stop recovery agent calls right away.`,
 
     // H2: Impact of Loan Settlement on Your CIBIL Score
     cibilImpact: [
-      `Settling a loan with ${name} changes your credit report status to "Settled". This is far better than leaving an account in default. Your credit score may drop temporarily by 50 to 100 points. However, you can rebuild your score over the next 12 to 24 months.`,
+      `Settling a loan with ${name} marks your credit status as Settled. This causes a small score drop of 50 to 100 points at first. But it is much better than ongoing default. With simple credit habits and secured cards, your score can climb back to 700+ within 12 to 24 months.`,
 
-      `A continuous loan default keeps your credit score very low for years. Settlement stops further score damage immediately. It gives you a clean legal slate. With our step-by-step credit guidance, most clients lift their scores back above 700 within two years.`,
+      `A continuous loan default keeps your credit score very low for years. Settlement stops further score damage right away. It gives you a clean legal slate. With our step-by-step credit guidance, most clients lift their scores back above 700 within two years.`,
 
-      `After settling your ${name} loan, you receive formal closure letters and a No Objection Certificate. These documents prove that your debt is fully resolved. Future lenders can see that you settled your account legally and responsibly.`,
+      `After settling your ${name} loan, you receive formal closure letters and a No Objection Certificate. These documents prove that your debt is fully resolved. Future lenders see that you settled your account legally and responsibly.`
     ][impactVariant],
 
     // H2: Why Choose CredSettle for [Bank Name] Loan Settlement
     whyChooseCredSettle: [
-      `CredSettle is India’s leading loan settlement service. Our team of experienced lawyers specializes in banking laws and debt resolution. We handle negotiations with ${name} directly so you do not have to face aggressive collection calls.`,
+      `CredSettle is India's top debt relief team. Our panel of lawyers knows bank laws and debt relief rules well. We manage all talks with ${name} directly so you do not face rude collection agents. We offer clear fees and full legal safety.`,
 
       `We have settled hundreds of loan cases with ${name}. Our deep understanding of bank policies helps us secure maximum waivers for our clients. We offer transparent pricing, regular case updates, and complete legal protection at every step.`,
 
-      `All settlements through CredSettle follow strict RBI rules. We ensure complete legal closure and protect you from any future claims. We help you eliminate debt with dignity and rebuild your financial future.`,
+      `All settlements through CredSettle follow strict RBI rules. We ensure complete legal closure and protect you from any future claims. We help you eliminate debt with dignity and rebuild your financial future.`
     ][whyChooseVariant],
 
     // H2: Step-by-Step Process to Start Your [Bank Name] Loan Settlement
     stepByStepProcess: [
-      `Step 1: Free Case Review. You share your ${name} loan details with our team for a free consultation.
-Step 2: Legal File Setup. Our lawyers review your hardship records and build your settlement file.
-Step 3: Harassment Cessation. We send formal legal notices to ${name} to stop abusive collection calls.
-Step 4: Direct Negotiation. We negotiate a one-time settlement with ${name} for 30% to 70% debt relief.
-Step 5: Official Sanction. ${name} issues a formal OTS sanction letter with approved payment terms.
-Step 6: Payment & Closure. You make the payment directly to ${name} and receive your full No Dues Certificate.`,
+      `Step 1: Free Review. Share your ${shortName} loan details with our team for a free review.
+Step 2: Legal Notice. Our lawyers notify ${name} to stop collection agent calls.
+Step 3: Hardship File. We prepare a formal settlement offer backed by your income proof.
+Step 4: Bank Talks. We talk directly with ${name} for the best debt waiver.
+Step 5: Sanction Letter. ${name} issues an official written OTS approval letter.
+Step 6: Payment & NOC. You pay the agreed amount directly to ${name} and receive your No Dues Certificate.`,
 
-      `Step 1: Free Consultation. Contact us to discuss your ${name} loan dues and repayment capacity.
-Step 2: Legal Representation. Our advocates take over all communications with ${name} and recovery agents.
-Step 3: Hardship Submission. We submit your financial documents to the bank's settlement committee.
-Step 4: Settlement Terms. We negotiate the lowest possible lump sum or installment plan.
+      `Step 1: Free Consultation. Contact us to discuss your ${shortName} loan dues and budget.
+Step 2: Legal Help. Our advocates take over all talks with ${name} and recovery agents.
+Step 3: Hardship Proof. We submit your financial documents to the bank settlement team.
+Step 4: Best Terms. We negotiate the lowest possible lump sum or installment plan.
 Step 5: Formal Approval. You receive an official written settlement letter from ${name}.
 Step 6: Debt Freedom. You complete payment and receive your final account closure documents.`,
 
-      `Step 1: Initial Assessment. We evaluate your ${name} loan dues, interest charges, and default timeline.
+      `Step 1: Initial Assessment. We evaluate your ${shortName} loan dues, interest, and delay timeline.
 Step 2: Legal Notice. Our team notifies ${name} to halt agent visits and direct calls to our lawyers.
 Step 3: Proposal Submission. We submit a structured OTS proposal matching your budget.
-Step 4: Bank Approval. We secure maximum discounts on principal and interest charges.
+Step 4: Bank Approval. We secure top discounts on principal and interest charges.
 Step 5: Direct Payment. You pay the agreed amount directly into your ${name} loan account.
-Step 6: Final NOC. We obtain your official No Objection Certificate confirming zero balance.`,
+Step 6: Final NOC. We obtain your official No Objection Certificate confirming zero balance.`
     ][stepsVariant],
 
     // H2: Documents Required for [Bank Name] Loan Settlement
-    documentsRequired: `To settle your ${name} loan, you will need: 1. Loan account statements. 2. Copy of your PAN card and Aadhaar card. 3. Income proof such as salary slips or bank statements. 4. Hardship proof such as medical records or job loss letters. 5. Bank default notices or letters. Our legal team helps you organize all documents properly.`,
+    documentsRequired: `To settle your ${name} personal loan, you need basic papers: 1. Loan account statements. 2. PAN card and Aadhaar copies. 3. Income proof such as bank statements or salary slips. 4. Hardship proof such as medical bills or job loss letters. 5. Bank default notices. Our legal team helps you organize everything.`,
 
     // Generate FAQs
     faqs: [
       {
-        question: `What is the minimum settlement percentage for ${name}?`,
-        answer: `${name} usually accepts settlements between 30% and 60% of total dues. The exact discount depends on your default duration and hardship proof. CredSettle fights for the highest possible waiver on your behalf.`
+        question: `What is the average settlement waiver for ${shortName} loans?`,
+        answer: `${name} usually accepts settlements with a 30% to 60% waiver on total dues. The exact discount depends on your payment delay and hardship proof.`
       },
       {
-        question: `Can I settle my credit card dues legally with ${name}?`,
-        answer: `Yes. Credit card dues with ${name} can be settled under RBI guidelines. CredSettle negotiates one-time settlements that typically cut your total card balance by 40% to 60%.`
+        question: `Can I settle my personal loan legally with ${shortName}?`,
+        answer: `Yes. Personal loans with ${name} can be settled legally under RBI One-Time Settlement rules. The bank issues a formal sanction letter and closes your account upon payment.`
       },
       {
-        question: `How long does the settlement process take with ${name}?`,
-        answer: `Most settlements with ${name} take 45 to 90 days. Harassment stops quickly once our legal team contacts the bank.`
+        question: `How long does the settlement process take with ${shortName}?`,
+        answer: `Most personal loan settlements with ${name} take 45 to 90 days. Recovery calls stop fast once our legal team sends formal notice to the bank.`
       },
       {
-        question: `Will my CIBIL score recover after settling with ${name}?`,
-        answer: `Yes. Your score will show the account as settled. With good financial habits, your credit score can improve to 700+ within 12 to 24 months.`
+        question: `Will my CIBIL score recover after settling with ${shortName}?`,
+        answer: `Yes. Your score will show the account as settled. With on-time payments and good habits, your credit score can recover to 700+ within 12 to 24 months.`
       },
       {
-        question: `How can CredSettle help me get a better deal with ${name}?`,
-        answer: `Our legal team understands ${name} settlement rules. We submit strong hardship files and negotiate directly with bank officers to get you the lowest settlement amount.`
+        question: `How does CredSettle help me get a better deal with ${shortName}?`,
+        answer: `Our legal team talks directly with bank managers to secure top waivers on interest and penalty fees with full legal safety.`
       },
       {
-        question: `What happens if ${name} rejects my settlement proposal?`,
-        answer: `If a proposal is rejected, our lawyers revise your hardship records and escalate the case to senior bank authorities. We keep negotiating until we reach a workable agreement.`
+        question: `What happens if ${shortName} rejects my settlement proposal?`,
+        answer: `If a proposal is rejected, our lawyers revise your hardship records and escalate the case to senior bank authorities until a workable agreement is reached.`
       },
       {
-        question: `Is settlement with ${name} legally binding?`,
+        question: `Is settlement with ${shortName} legally binding?`,
         answer: `Yes. A settlement backed by an official OTS letter from ${name} is legally binding. Once paid, the bank cannot ask for any remaining balance.`
       }
     ]
   };
 }
-
-
-
-
-
-
-

@@ -4,7 +4,7 @@ import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
-import { notFound, permanentRedirect } from 'next/navigation';
+import { notFound } from 'next/navigation';
 import AuthorBioBox from '@/components/AuthorBioBox';
 import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import banksData from '../banks.json';
@@ -17,15 +17,51 @@ const getBankCanonicalSlug = (company: string) => {
   return company.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 };
 
+const bankAliasMap: Record<string, string> = {
+  'gichf': 'GIC Housing Finance',
+  'branch-international': 'BRANCH',
+  'faircent': 'Faircent Technologies India Pvt Ltd',
+  'fibe-early-salary': 'Fibe',
+  'freo-save': 'FREOPAY',
+  'hdfc-bank-credit-card': 'HDFC',
+  'icici-bank-credit-card': 'ICICI',
+  'iifl-home-finance': 'IIFL',
+  'incred-financial-services': 'InCred',
+  'jupiter-edge': 'JUPITER MONEY',
+  'lazypay': 'LAZY PAY',
+  'loantap-financial': 'LoanTap',
+  'muthoot-fincorp': 'Muthoot Finance',
+  'onecard-metal': 'Onecard',
+  'paytm-postpaid': 'Paytm',
+  'pnb-housing-finance': 'Punjab National Bank',
+  'poonawalla-fincorp-limited': 'Poonawala Fin',
+  'ring-app': 'SI Creva',
+  'rupeeredee': 'Rupee redee',
+  'sbi-card': 'SBI',
+  'sbicap-securities': 'SBI',
+  'slice-card': 'Slice',
+  'stashfin-credit': 'Stashfin',
+  'tata-motor-finance': 'Tata Capital',
+  'ugro-capital-ltd': 'UGRO Capital',
+  'uni-cards': 'Uni Card',
+  'vivriti-capital': 'VIVRITI',
+  'zestmoney': 'Zest Money',
+};
+
 const getBankBySlug = (slug: string) => {
   const normalized = slug.toLowerCase().trim();
+  if (bankAliasMap[normalized]) {
+    const target = bankAliasMap[normalized].toLowerCase();
+    return banksData.find((b) => b.company.toLowerCase() === target);
+  }
   if (
     normalized === 'landt-finance' ||
     normalized === 'lt-finance' ||
     normalized === 'landt' ||
     normalized === 'l-and-t-finance' ||
     normalized === 'l-and-t' ||
-    normalized === 'lt'
+    normalized === 'lt' ||
+    normalized === 'l-t-finance'
   ) {
     return banksData.find((b) => b.company === 'L&T Finance');
   }
@@ -62,10 +98,22 @@ function toProperCase(str: string): string {
 function getBankMetaTitle(company: string): string {
   const c = toProperCase(company.trim());
   const candidates = [
+    `How to Settle ${c} Loan Legally in India | CredSettle`,
+    `${c} Loan Settlement Process Guide (2026) | CredSettle`,
+    `${c} Loan Settlement Process (2026 Guide) | CredSettle`,
+    `${c} Loan Settlement: 2026 Legal Guide | CredSettle`,
+    `${c} Loan Settlement Guide (2026) | CredSettle`,
+    `${c} Loan Settlement Process 2026 | CredSettle`,
+    `${c} Loan Settlement Legal Guide | CredSettle`,
+    `${c} Loan Settlement 2026 Guide | CredSettle`,
+    `${c} Loan Settlement Process 2026: Settle`,
+    `${c} Loan Settlement: 2026 Legal Process`,
+    `${c} Loan Settlement Process (2026 Guide)`,
+    `How to Settle ${c} Loan Legally (2026)`,
+    `${c} Loan Settlement Guide 2026: Settle`,
+    `${c} Loan Settlement 2026: Legal Guide`,
     `${c} Loan Settlement Process (2026)`,
-    `${c} Loan Settlement 2026: Settle`,
     `${c} Loan Settlement: 2026 Process`,
-    `How to Settle ${c} Loan (2026)`,
     `${c} Loan Settlement Guide 2026`,
     `${c} Loan Settlement Process 2026`,
     `${c} Loan Settlement (2026 Guide)`,
@@ -75,7 +123,10 @@ function getBankMetaTitle(company: string): string {
     `${c} Loan Settlement`
   ];
   for (const cand of candidates) {
-    if (cand.length >= 30 && cand.length <= 58) return cand;
+    if (cand.length >= 50 && cand.length <= 60) return cand;
+  }
+  for (const cand of candidates) {
+    if (cand.length >= 35 && cand.length <= 60) return cand;
   }
   let shortName = c;
   if (c.includes('Private Limited')) shortName = c.replace('Private Limited', 'Pvt Ltd');
@@ -83,38 +134,55 @@ function getBankMetaTitle(company: string): string {
   if (c.includes('Technologies')) shortName = c.replace('Technologies', 'Tech');
 
   const shortCandidates = [
-    `${shortName} Loan Settlement (2026)`,
-    `${shortName} Loan Settlement Guide`,
+    `${shortName} Loan Settlement Process (2026) | CredSettle`,
+    `${shortName} Loan Settlement Guide (2026) | CredSettle`,
+    `${shortName} Loan Settlement Process 2026 | CredSettle`,
+    `${shortName} Loan Settlement Legal Guide | CredSettle`,
+    `${shortName} Loan Settlement (2026 Guide)`,
+    `${shortName} Loan Settlement: Legal Guide`,
     `${shortName} Loan Settlement 2026`,
     `${shortName} Loan Settlement`
   ];
   for (const cand of shortCandidates) {
-    if (cand.length <= 58) return cand;
+    if (cand.length >= 50 && cand.length <= 60) return cand;
   }
-  return `${shortName} Loan Settlement`.slice(0, 55);
+  for (const cand of shortCandidates) {
+    if (cand.length <= 60 && cand.length >= 30) return cand;
+  }
+  return `${shortName} Loan Settlement Guide | CredSettle`.slice(0, 58);
 }
 
 function getBankMetaDescription(company: string): string {
   const c = company.trim();
+  const shortName = c
+    .replace('Private Limited', 'Pvt Ltd')
+    .replace('Limited', 'Ltd')
+    .replace('Technologies', 'Tech')
+    .replace('Financial Services', 'Finance')
+    .trim();
+
   const candidates = [
-    `Settle your ${c} loan legally with CredSettle. Stop harassment, protect legal rights, and reduce debt under RBI rules.`,
-    `Settle ${c} loan legally with CredSettle. Stop harassment, protect your rights, and reduce debt under RBI rules.`,
-    `Settle your ${c} loan legally. Stop recovery harassment, protect legal rights, and resolve debt under RBI rules.`,
-    `Settle ${c} loan legally. Stop recovery harassment, protect rights, and resolve debt under official RBI guidelines.`,
-    `Settle ${c} debt legally with CredSettle. Stop recovery harassment and negotiate OTS waiver under RBI guidelines.`
+    `Settle your ${c} loan legally with CredSettle. Stop recovery agent harassment, protect your legal rights, and reduce debt under official RBI guidelines.`,
+    `Settle your ${c} loan legally with CredSettle. Stop recovery harassment, protect legal rights, and reduce debt under RBI One-Time Settlement rules.`,
+    `Settle ${c} loan legally with CredSettle. Stop recovery harassment, protect your rights, and reduce debt under official RBI One-Time Settlement rules.`,
+    `Settle ${c} debt legally with CredSettle. Stop recovery harassment and negotiate one-time settlement waiver under official RBI prudential guidelines.`,
+    `Settle your ${c} loan legally under RBI guidelines with CredSettle. Stop recovery harassment, protect rights, and resolve outstanding dues safely.`,
+    `Settle your ${c} loan legally with CredSettle. Stop recovery agent harassment, protect your legal rights, and resolve debt under RBI guidelines.`,
+    `Settle your ${shortName} loan legally with CredSettle. Stop recovery harassment, protect legal rights, and reduce debt under RBI settlement rules.`,
+    `Settle your ${shortName} debt legally with CredSettle. Stop harassment, protect legal rights, and negotiate an OTS waiver under RBI guidelines.`,
+    `Settle ${shortName} loan legally under RBI guidelines. Stop recovery agent harassment, protect your rights, and resolve your debt with CredSettle.`
   ];
+
   for (const cand of candidates) {
-    if (cand.length >= 105 && cand.length <= 135) return cand;
+    if (cand.length >= 140 && cand.length <= 155) return cand;
   }
-  let base = `Settle ${c} loan legally. Stop recovery harassment and resolve debt under RBI rules with CredSettle.`;
-  if (base.length > 135) {
-    base = `Settle ${c} loan legally. Stop harassment and resolve debt under RBI guidelines.`;
+  for (const cand of candidates) {
+    if (cand.length >= 120 && cand.length <= 155) return cand;
   }
-  if (base.length > 135) {
-    let shortName = c.replace('Private Limited', 'Pvt Ltd').replace('Limited', 'Ltd').replace('Technologies', 'Tech');
-    base = `Settle ${shortName} loan legally under RBI rules with CredSettle.`;
+  for (const cand of candidates) {
+    if (cand.length <= 155) return cand;
   }
-  return base.slice(0, 135);
+  return `Settle ${shortName} loan legally under RBI rules with CredSettle. Stop recovery harassment and reduce your total debt burden safely.`;
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -152,10 +220,6 @@ export default async function BankSettlementSlugPage({ params }: Props) {
   if (!bank) notFound();
 
   const canonicalSlug = getBankCanonicalSlug(bank.company);
-  if (slug !== canonicalSlug) {
-    permanentRedirect(`/loan-settlement-by-bank/${canonicalSlug}`);
-  }
-
   const bankName = bank.company;
   const bankEmails = bank.emails;
   const metaTitle = getBankMetaTitle(bankName);
@@ -827,5 +891,23 @@ export async function generateStaticParams() {
   banksData.forEach((bank) => {
     slugs.add(getBankCanonicalSlug(bank.company));
   });
+
+  // Pre-render common alias slugs as static 200 OK pages with canonical tags
+  const aliases = [
+    'chimnay-finlease-ltd',
+    'lenditt',
+    'indus-ind',
+    'krzaybee',
+    'landt',
+    'landt-finance',
+    'lt-finance',
+    'l-and-t-finance',
+    'l-and-t',
+    'lt',
+    'mpocket',
+    'north-east-small-finance-bank'
+  ];
+  aliases.forEach((alias) => slugs.add(alias));
+
   return Array.from(slugs).map((slug) => ({ slug }));
 }

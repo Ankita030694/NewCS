@@ -1,5 +1,5 @@
 // Import comprehensive bank content generator for car loan settlement
-import { generateBankContent, generateBankSlug, getBankMetaTitle } from './bank-content-generator';
+import { generateBankContent, generateBankSlug, getBankMetaTitle, getBankMetaDescription, getShortBankName } from './bank-content-generator';
 
 export interface BankContent {
   bankName: string;
@@ -57,6 +57,8 @@ const allBankNames = [
   'Piramal',
   'InCred',
   'IIFL',
+  'Credila Financial Services',
+  'Credila',
   'Paytm',
   'PayU',
   'Cred',
@@ -176,44 +178,50 @@ export function getBankContentWithFallback(bankSlug: string): BankContent {
   );
 
   const bankName = bankEntry || bankSlug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+  const shortName = getShortBankName(bankName);
   const slug = bankSlug;
 
   // Default/fallback content structure
   const defaultContent: BankContent = {
     bankName,
     slug,
-    title: `${bankName} Car Loan Settlement - How to Settle Your Car Loan Dues with ${bankName} Legally in India (2025 Guide)`,
+    title: `${shortName} Car Loan Settlement Guide | CredSettle`,
     metaTitle: generatedContent?.metaTitle || getBankMetaTitle(bankName),
-    metaDescription: `Struggling with ${bankName} car loan dues? CredSettle helps you legally settle car loan debt under RBI guidelines. Protect your vehicle and achieve debt freedom with expert legal assistance.`,
-    heroTitle: `${bankName} Car Loan Settlement`,
-    heroDescription: `Expert legal help to settle your ${bankName} car loan dues through RBI One-Time Settlement (OTS). Stop harassment, prevent car repossession, and get debt free with CredSettle.`,
-    whyChooseSettlement: generatedContent?.whyChooseSettlement || `Car loan EMIs can become hard to manage over time. When ${bankName} car loan dues grow, a legal settlement offers a clean way out. CredSettle helps borrowers negotiate RBI-compliant settlements with ${bankName}. We typically reduce outstanding dues by 30% to 70% while keeping your car safe from repossession.`,
-    understandingSettlement: generatedContent?.understandingSettlement || `Settling a car loan with ${bankName} follows RBI One-Time Settlement rules. Borrowers negotiate a reduced one-time payment to close the loan permanently. CredSettle starts formal talks with ${bankName} with full hardship proof. Once settled, ${bankName} issues a No Dues Certificate and removes the vehicle hypothecation.`,
-    howCredSettleHelps: generatedContent?.howCredSettleHelps || `CredSettle provides complete legal help for ${bankName} car loan settlements. Our lawyers analyze your loan account and build a strong hardship case. We negotiate directly with ${bankName} to get a 40% to 60% debt waiver. We also stop recovery agent calls and prevent vehicle seizure. You settle your loan safely for around 50% of total dues, including our fees.`,
-    cibilImpact: generatedContent?.cibilImpact || `Settling with ${bankName} will show as Settled on your CIBIL report. Your score may drop by 50 to 150 points at first. However, this is temporary and much better than ongoing default or vehicle seizure. With CredSettle credit rebuilding steps, scores usually recover to 650-700 within 2 years.`,
-    whyChooseCredSettle: generatedContent?.whyChooseCredSettle || `CredSettle offers trusted legal help for ${bankName} car loan settlements. Our banking lawyers know RBI rules and vehicle finance laws. We have settled hundreds of ${bankName} car loans with average waivers of 40% to 55%. We handle all bank talks and protect your car ownership.`,
-    stepByStepProcess: generatedContent?.stepByStepProcess || `Step 1: Free Consultation. Contact CredSettle for a free initial review. Step 2: Lawyer Assignment. Our banking lawyer examines your ${bankName} car loan details. Step 3: OTS Proposal. We send a formal settlement proposal to ${bankName}. Step 4: Negotiation. Our lawyers negotiate the maximum debt waiver. Step 5: Payment and Closure. You pay the agreed amount and receive a No Dues Certificate. Step 6: Credit Rebuilding. We guide you on restoring your CIBIL score.`,
-    documentsRequired: generatedContent?.documentsRequired || `Required documents include: car loan agreement copy, latest loan statement, vehicle RC copy, ID proof, address proof, income slips, default notices, and hardship proofs like medical bills. CredSettle formats all records properly for quick ${bankName} approval.`,
+    metaDescription: generatedContent?.metaDescription || getBankMetaDescription(bankName),
+    heroTitle: `${shortName} Car Loan Settlement`,
+    heroDescription: `Get legal help to settle your ${shortName} car loan dues under RBI One-Time Settlement rules. Stop calls, save money, and keep your car safe.`,
+    whyChooseSettlement: generatedContent?.whyChooseSettlement || `Car loan EMIs can get hard to pay when cash is tight. If you miss EMIs on your ${bankName} loan, late fees add up fast. Recovery calls can also cause daily stress. An RBI One-Time Settlement gives you a clean way out. You can cut total dues by 30% to 60%. This helps you clear the debt for good. It stops calls from agents and keeps your car safe.`,
+    understandingSettlement: generatedContent?.understandingSettlement || `A car loan settlement with ${bankName} follows RBI OTS rules. It is a legal way to close your loan with a single reduced payment. CredSettle lawyers review your case. We share proof of your money hardship with the bank. Our team talks to ${bankName} to agree on a fair sum. Once paid, the bank gives you a No Dues Certificate. They also remove the bank claim from your car RC.`,
+    howCredSettleHelps: generatedContent?.howCredSettleHelps || `CredSettle gives you full legal help from start to end. Our banking lawyers check your loan details and build a strong hardship file. We deal directly with ${bankName} officials to get the best waiver for you. We also send legal notices to stop recovery agent calls. With CredSettle, you settle your loan safely for a fraction of your total dues.`,
+    cibilImpact: generatedContent?.cibilImpact || `When you settle a loan with ${bankName}, your credit report will show the status as Settled. Your CIBIL score may drop by 50 to 100 points at first. But this is far better than an ongoing default or losing your car. With simple credit habits and secured cards, most borrowers raise their score to 700+ within 12 to 24 months.`,
+    whyChooseCredSettle: generatedContent?.whyChooseCredSettle || `CredSettle is India's trusted debt relief partner. Our panel of banking lawyers knows RBI rules and auto finance laws well. We have resolved hundreds of car loan cases with big savings for our clients. We offer clear fees, full privacy, and strong legal safety at every step.`,
+    stepByStepProcess: generatedContent?.stepByStepProcess || `Step 1: Free Review. Contact CredSettle to review your ${shortName} car loan balance and hardship.
+Step 2: Legal Notice. Our lawyers notify ${bankName} to stop collection agent visits.
+Step 3: OTS Proposal. We draft a formal settlement offer backed by your financial proof.
+Step 4: Bank Talks. We negotiate directly with ${bankName} for the lowest lump sum.
+Step 5: Official Letter. ${bankName} issues an official OTS sanction letter.
+Step 6: Payment and NOC. You pay the agreed sum to ${bankName} and get your No Dues Certificate.`,
+    documentsRequired: generatedContent?.documentsRequired || `To start your car loan settlement with ${bankName}, you only need basic records. These include your loan account statement, vehicle RC copy, PAN card, Aadhaar card, income proof, and hardship proof such as medical bills or job loss letters. Our legal team helps you organize everything properly.`,
     faqs: generatedContent?.faqs || [
       {
-        question: `What is the minimum settlement percentage for ${bankName} car loans?`,
-        answer: `${bankName} usually approves car loan settlements between 30% and 60% of total dues. CredSettle negotiates based on your financial hardship to secure the best possible waiver.`
+        question: `What is the average settlement waiver for ${shortName} car loans?`,
+        answer: `${bankName} usually approves car loan settlements with a 30% to 60% waiver. The exact discount depends on your hardship and delay. Our lawyers work to get you the highest possible relief.`
       },
       {
-        question: `Can I settle my car loan dues legally with ${bankName}?`,
-        answer: `Yes, you can settle ${bankName} car loans legally under RBI One-Time Settlement rules. CredSettle helps you get a 30% to 60% waiver with full legal protection.`
+        question: `Can I settle my car loan legally with ${shortName}?`,
+        answer: `Yes. You can settle your ${bankName} car loan legally under RBI One-Time Settlement rules. The bank gives you a formal sanction letter and closes your account upon payment.`
       },
       {
-        question: `How long does the car loan settlement process take with ${bankName}?`,
-        answer: `Settling a car loan with ${bankName} takes about 45 to 90 days. Our legal team speeds up bank approvals with complete paperwork.`
+        question: `How long does the settlement take with ${shortName}?`,
+        answer: `The car loan settlement process with ${bankName} usually takes 45 to 90 days. Recovery calls stop much sooner once our lawyers send formal notice to the bank.`
       },
       {
-        question: `Will my CIBIL score recover after settling my ${bankName} car loan?`,
-        answer: `Yes, your CIBIL score will recover after settlement. With good credit habits, scores usually climb to 650-700 within 2 to 3 years.`
+        question: `Will my CIBIL score recover after settling my ${shortName} car loan?`,
+        answer: `Yes. Your score will show the account as settled. With on-time payments and good habits, your credit score can recover to 700+ within 12 to 24 months.`
       },
       {
-        question: `Can settlement prevent vehicle repossession with ${bankName}?`,
-        answer: `Yes, starting formal settlement stops repossession action in most cases. You keep your vehicle while settling the loan.`
+        question: `Can settlement prevent my car from being seized by ${shortName}?`,
+        answer: `Yes. Starting formal legal settlement talks with ${bankName} halts repossession actions in most cases. You get to keep your car while resolving your debt.`
       }
     ],
     keywords: generateKeywords(bankName)

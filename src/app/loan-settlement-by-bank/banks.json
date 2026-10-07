@@ -1180,5 +1180,243 @@
       "customercare@utkarsh.bank",
       "communications@utkarsh.bank"
     ]
+  },
+  {
+    "company": "Aadhar Housing Finance",
+    "emails": [
+      "customercare@aadharhousing.com",
+      "grievance@aadharhousing.com"
+    ]
+  },
+  {
+    "company": "Aviom India Housing",
+    "emails": [
+      "customercare@aviom.in",
+      "grievance@aviom.in"
+    ]
+  },
+  {
+    "company": "BharatPe",
+    "emails": [
+      "nodal@bharatpe.com",
+      "grievance@bharatpe.com"
+    ]
+  },
+  {
+    "company": "Avanse Financial Services",
+    "emails": [
+      "response@avanse.com",
+      "grievances@avanse.com"
+    ]
+  },
+  {
+    "company": "Auxilo Finserve",
+    "emails": [
+      "customercare@auxilo.com",
+      "grievances@auxilo.com"
+    ]
+  },
+  {
+    "company": "Can Fin Homes",
+    "emails": [
+      "customercare@canfinhomes.com",
+      "grievance@canfinhomes.com"
+    ]
+  },
+  {
+    "company": "Credila Financial Services",
+    "emails": [
+      "loan@hdfccredila.com",
+      "grievance@hdfccredila.com"
+    ]
+  },
+  {
+    "company": "FatakPay",
+    "emails": [
+      "help@fatakpay.com",
+      "grievance@fatakpay.com"
+    ]
+  },
+  {
+    "company": "Fedbank Financial Services",
+    "emails": [
+      "customercare@fedfina.com",
+      "grievance@fedfina.com"
+    ]
+  },
+  {
+    "company": "Fi Money",
+    "emails": [
+      "help@fi.money",
+      "nodalofficer@fi.money"
+    ]
+  },
+  {
+    "company": "FlexiLoans",
+    "emails": [
+      "myaccount@flexiloans.in",
+      "grievance@flexiloans.in"
+    ]
+  },
+  {
+    "company": "GIC Housing Finance",
+    "emails": [
+      "gichf@gichf.com",
+      "grievance@gichf.com"
+    ]
+  },
+  {
+    "company": "HomeFirst Finance",
+    "emails": [
+      "loanfirst@homefirstindia.com",
+      "nodalofficer@homefirstindia.com"
+    ]
+  },
+  {
+    "company": "i2iFunding",
+    "emails": [
+      "support@i2ifunding.com",
+      "grievance@i2ifunding.com"
+    ]
+  },
+  {
+    "company": "India Shelter Finance",
+    "emails": [
+      "customer.care@indiashelter.in",
+      "grievance@indiashelter.in"
+    ]
+  },
+  {
+    "company": "IndoStar Capital",
+    "emails": [
+      "contact@indostarcapital.com",
+      "grievance@indostarcapital.com"
+    ]
+  },
+  {
+    "company": "Kreditzy",
+    "emails": [
+      "help@kreditzy.com",
+      "grievance@kreditzy.com"
+    ]
+  },
+  {
+    "company": "LIC Housing Finance",
+    "emails": [
+      "lichfl@lichousing.com",
+      "grievance@lichousing.com"
+    ]
+  },
+  {
+    "company": "Mahindra Finance",
+    "emails": [
+      "mfin@mahindra.com",
+      "grievanceredressal@mahindra.com"
+    ]
+  },
+  {
+    "company": "Magma Fincorp",
+    "emails": [
+      "customercare@poonawallafincorp.com",
+      "grievance@poonawallafincorp.com"
+    ]
+  },
+  {
+    "company": "Manappuram Finance",
+    "emails": [
+      "mail@manappuram.com",
+      "grievance@manappuram.com"
+    ]
+  },
+  {
+    "company": "MCapital",
+    "emails": [
+      "support@mcapital.in",
+      "grievance@mcapital.in"
+    ]
+  },
+  {
+    "company": "Mswipe",
+    "emails": [
+      "helpdesk@mswipe.com",
+      "grievance@mswipe.com"
+    ]
+  },
+  {
+    "company": "Pine Labs",
+    "emails": [
+      "plutus.support@pinelabs.com",
+      "grievance@pinelabs.com"
+    ]
+  },
+  {
+    "company": "Pocketly",
+    "emails": [
+      "help@pocketly.in",
+      "grievance@pocketly.in"
+    ]
+  },
+  {
+    "company": "Privo",
+    "emails": [
+      "support@privo.in",
+      "grievance@privo.in"
+    ]
+  },
+  {
+    "company": "Rapid Rupee",
+    "emails": [
+      "care@rapidrupee.in",
+      "grievance@rapidrupee.in"
+    ]
+  },
+  {
+    "company": "RedCarpet",
+    "emails": [
+      "help@redcarpetup.com",
+      "grievance@redcarpetup.com"
+    ]
+  },
+  {
+    "company": "Repco Home Finance",
+    "emails": [
+      "cs@repcohome.com",
+      "grievance@repcohome.com"
+    ]
+  },
+  {
+    "company": "RupeeCircle",
+    "emails": [
+      "support@rupeecircle.com",
+      "grievance@rupeecircle.com"
+    ]
+  },
+  {
+    "company": "Shubham Housing Development",
+    "emails": [
+      "customercare@shubham.co",
+      "grievance@shubham.co"
+    ]
+  },
+  {
+    "company": "Sundaram Finance",
+    "emails": [
+      "customercare@sundaramfinance.in",
+      "grievance@sundaramfinance.in"
+    ]
+  },
+  {
+    "company": "Tala Loan",
+    "emails": [
+      "support@tala.co.in",
+      "grievance@tala.co.in"
+    ]
+  },
+  {
+    "company": "Vastu Housing Finance",
+    "emails": [
+      "customercare@vastuhfc.com",
+      "grievance@vastuhfc.com"
+    ]
   }
 ]

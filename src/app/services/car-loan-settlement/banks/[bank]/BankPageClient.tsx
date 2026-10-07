@@ -8,6 +8,7 @@ import TableOfContents from '@/components/TableOfContents';
 import CTAButton from '@/components/CTAButton';
 import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import { BankContent } from '../../banks-content';
+import { getShortBankName } from '../../bank-content-generator';
 
 interface BankPageClientProps {
   content: BankContent;
@@ -16,6 +17,7 @@ interface BankPageClientProps {
 
 export default function BankPageClient({ content, headings }: BankPageClientProps) {
   const [isFirefox, setIsFirefox] = useState(false);
+  const shortName = getShortBankName(content.bankName);
 
   useEffect(() => {
     const userAgent = navigator.userAgent.toLowerCase();
@@ -166,7 +168,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    Why Choose {content.bankName} Car Loan Settlement
+                    Why Choose {shortName} Car Loan Settlement
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -194,7 +196,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    {content.bankName} Car Loan Settlement Process
+                    {shortName} Car Loan Settlement Process
                   </h3>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -222,7 +224,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    How CredSettle Settles {content.bankName} Car Loan Debt
+                    How CredSettle Settles {shortName} Car Loan Debt
                   </h3>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -250,7 +252,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    Impact of {content.bankName} Car Loan Settlement on Your CIBIL Score
+                    Impact of Car Loan Settlement on Your CIBIL Score
                   </h3>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -278,7 +280,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    Why Choose CredSettle for {content.bankName} Car Loan Settlement
+                    Why Choose CredSettle for {shortName} Car Loan Relief
                   </h3>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -306,7 +308,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    Steps to Settle {content.bankName} Car Loan Debt
+                    Steps to Settle {shortName} Car Loan Debt Legally
                   </h3>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -334,7 +336,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    Documents for {content.bankName} Car Loan Settlement
+                    Documents for {shortName} Car Loan Settlement
                   </h3>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -362,7 +364,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                   <FAQWithSchema 
                     faqs={content.faqs}
                     headingTag="h3" 
-                    title={`${content.bankName} Car Loan Settlement`}
+                    title={`${shortName} Car Loan Settlement`}
                   />
                 </div>
 
@@ -383,13 +385,13 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                         className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full"
                         style={{ color: '#0C2756' }}
                       >
-                        Ready to Settle Your {content.bankName} Car Loan Dues Legally?
+                        Ready to Settle Your {shortName} Car Loan Dues Legally?
                       </h3>
                       <p
                         className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full"
                         style={{ color: 'rgba(12, 39, 86, 0.70)' }}
                       >
-                        Get professional legal assistance from CredSettle’s lawyer panel. Secure an RBI-compliant One-Time Settlement, prevent vehicle repossession, and end harassment-start your path to freedom today.
+                        Get professional legal assistance from CredSettle’s lawyer panel. Secure an RBI-compliant One-Time Settlement, prevent vehicle repossession, and end collection calls - start your path to freedom today.
                       </p>
                     </div>
 
