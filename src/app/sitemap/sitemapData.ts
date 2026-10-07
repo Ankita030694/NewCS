@@ -7,6 +7,11 @@ export interface SitemapLink {
 // Auto-generated hardcoded query-based pages sorted in descending order of git creation date (latest first)
 export const sitemapLinks: SitemapLink[] = [
   {
+    title: "Loan Settlement in India: RBI Rules, Process & CIBIL Guide",
+    href: "/loan-settlement",
+    date: "07-10-2026",
+  },
+  {
     title: "Loan Default by Govt Employee: Service Rules & Defense",
     href: "/loan-default-by-government-employee",
     date: "07-09-2026",
@@ -2475,10 +2480,5 @@ export const sitemapLinks: SitemapLink[] = [
     title: "How to Get Freed from Debt",
     href: "/how-to-get-freed-from-debt",
     date: "09-01-2026",
-  },
-  {
-    title: "Loan Settlement Services",
-    href: "/loan-settlement",
-    date: "09-12-2025",
   },
 ];

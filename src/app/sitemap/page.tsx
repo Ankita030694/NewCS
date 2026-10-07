@@ -14,6 +14,10 @@ export const metadata: Metadata = {
 
 const sitemapLinks = [
   {
+    "title": "Loan Settlement in India: RBI Rules, Process & CIBIL Guide",
+    "href": "/loan-settlement"
+  },
+  {
     "title": "Loan Default by Govt Employee: Service Rules & Defense",
     "href": "/loan-default-by-government-employee"
   },
@@ -1764,10 +1768,6 @@ const sitemapLinks = [
   {
     "title": "Best Project Finance Builder Loan Recovery Matter Lawyer",
     "href": "/best-project-finance-builder-loan-recovery-matter-lawyer"
-  },
-  {
-    "title": "Loan Settlement",
-    "href": "/loan-settlement"
   },
   {
     "title": "What Is A Moratorium Period Meaning Benefits And Examples",
