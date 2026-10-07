@@ -52,8 +52,13 @@ import { getAllBankSlugs as getAppBankSlugs } from '@/app/services/app-loan-sett
 import { getAllBankSlugs as getNbfcBankSlugs } from '@/app/services/nbfc-loan-settlement/banks-content';
 import { creditCardBanks } from '@/data/creditCardBanks';
 import { statesData } from '@/data/statesData';
+import banksData from '@/app/loan-settlement-by-bank/banks.json';
 import { db } from '@/lib/firebase';
 import { collection, getDocs } from 'firebase/firestore';
+
+function getBankCanonicalSlug(company: string): string {
+  return company.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+}
 
 // ============================================================================
 // CONFIGURATION
@@ -4438,6 +4443,20 @@ async function generateSitemap(): Promise<string> {
         lastmod: today
       });
     }
+  }
+
+  // ========================================================================
+  // SECTION 3.5: LOAN SETTLEMENT BY BANK DIRECT ROUTES
+  // ========================================================================
+  // These routes are /loan-settlement-by-bank/${bank}
+  for (const bank of banksData) {
+    const canonicalSlug = getBankCanonicalSlug(bank.company);
+    urls.push({
+      loc: `${baseUrl}/loan-settlement-by-bank/${canonicalSlug}`,
+      priority: 0.85,
+      changefreq: 'weekly',
+      lastmod: today
+    });
   }
 
   // ========================================================================

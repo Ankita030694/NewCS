@@ -1080,6 +1080,207 @@ const nextConfig: NextConfig = {
       destination: "/loan-settlement-by-bank/zype",
       permanent: true,
       },
+      // Bank Loan Settlement Alias 301 Redirects (Fix Screaming Frog Canonicalised Issue)
+      {
+        source: "/loan-settlement-by-bank/chimnay-finlease-ltd",
+        destination: "/loan-settlement-by-bank/chimnay-finlease-ltd-lenditt",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/lenditt",
+        destination: "/loan-settlement-by-bank/chimnay-finlease-ltd-lenditt",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/indus-ind",
+        destination: "/loan-settlement-by-bank/indusind",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/landt",
+        destination: "/loan-settlement-by-bank/l-t-finance",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/krzaybee",
+        destination: "/loan-settlement-by-bank/krazybee",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/landt-finance",
+        destination: "/loan-settlement-by-bank/l-t-finance",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/lt-finance",
+        destination: "/loan-settlement-by-bank/l-t-finance",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/l-and-t-finance",
+        destination: "/loan-settlement-by-bank/l-t-finance",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/l-and-t",
+        destination: "/loan-settlement-by-bank/l-t-finance",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/lt",
+        destination: "/loan-settlement-by-bank/l-t-finance",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/mpocket",
+        destination: "/loan-settlement-by-bank/mpokket",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/north-east-small-finance-bank",
+        destination: "/loan-settlement-by-bank/north-east-small-finance",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/branch-international",
+        destination: "/loan-settlement-by-bank/branch",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/faircent",
+        destination: "/loan-settlement-by-bank/faircent-technologies-india-pvt-ltd",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/fibe-early-salary",
+        destination: "/loan-settlement-by-bank/fibe",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/freo-save",
+        destination: "/loan-settlement-by-bank/freopay",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/gichf",
+        destination: "/loan-settlement-by-bank/gic-housing-finance",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/hdfc-bank-credit-card",
+        destination: "/loan-settlement-by-bank/hdfc",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/iifl-home-finance",
+        destination: "/loan-settlement-by-bank/iifl",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/icici-bank-credit-card",
+        destination: "/loan-settlement-by-bank/icici",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/incred-financial-services",
+        destination: "/loan-settlement-by-bank/incred",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/lazypay",
+        destination: "/loan-settlement-by-bank/lazy-pay",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/jupiter-edge",
+        destination: "/loan-settlement-by-bank/jupiter-money",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/loantap-financial",
+        destination: "/loan-settlement-by-bank/loantap",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/muthoot-fincorp",
+        destination: "/loan-settlement-by-bank/muthoot-finance",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/onecard-metal",
+        destination: "/loan-settlement-by-bank/onecard",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/paytm-postpaid",
+        destination: "/loan-settlement-by-bank/paytm",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/pnb-housing-finance",
+        destination: "/loan-settlement-by-bank/punjab-national-bank",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/poonawalla-fincorp-limited",
+        destination: "/loan-settlement-by-bank/poonawala-fin",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/ring-app",
+        destination: "/loan-settlement-by-bank/si-creva",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/rupeeredee",
+        destination: "/loan-settlement-by-bank/rupee-redee",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/sbi-card",
+        destination: "/loan-settlement-by-bank/sbi",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/sbicap-securities",
+        destination: "/loan-settlement-by-bank/sbi",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/stashfin-credit",
+        destination: "/loan-settlement-by-bank/stashfin",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/slice-card",
+        destination: "/loan-settlement-by-bank/slice",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/ugro-capital-ltd",
+        destination: "/loan-settlement-by-bank/ugro-capital",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/uni-cards",
+        destination: "/loan-settlement-by-bank/uni-card",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/vivriti-capital",
+        destination: "/loan-settlement-by-bank/vivriti",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/zestmoney",
+        destination: "/loan-settlement-by-bank/zest-money",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/tata-motor-finance",
+        destination: "/loan-settlement-by-bank/tata-capital",
+        permanent: true,
+      },
     ];
   },
   async headers() {
