@@ -351,8 +351,10 @@
     "company": "North East Small Finance",
     "emails": [
       "customergrievance@nesfb.com",
-      "customergrievance@sliceit.com",
+      "customercare@nesfb.com",
+      "grievance@nesfb.com",
       "principal.nodalofficer@nesfb.com",
+      "customergrievance@sliceit.com",
       "nodalofficer@sliceit.com"
     ]
   },
@@ -1128,13 +1130,6 @@
     "emails": [
       "customercare@nainitalbank.co.in",
       "nodalofficer@nainitalbank.co.in"
-    ]
-  },
-  {
-    "company": "North East Small Finance Bank",
-    "emails": [
-      "customercare@nesfb.com",
-      "grievance@nesfb.com"
     ]
   },
   {

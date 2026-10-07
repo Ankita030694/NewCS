@@ -12,31 +12,46 @@ export async function generateStaticParams() {
 }
 
 function getCCBankMetaTitle(bankName: string): string {
-  const candidate1 = `${bankName} Credit Card Settlement | CredSettle`;
-  if (candidate1.length <= 58) return candidate1;
+  const b = bankName.trim();
+  const shortName = b
+    .replace('Small Finance Bank', 'SFB')
+    .replace('Bank', '')
+    .trim();
 
-  const candidate2 = `${bankName} Credit Card Settlement`;
-  if (candidate2.length <= 58) return candidate2;
+  const candidates = [
+    `${b} Credit Card Settlement Guide | CredSettle`,
+    `${b} Credit Card Debt Settlement | CredSettle`,
+    `${b} Credit Card Settlement Process (2026)`,
+    `${b} Credit Card Settlement (2026 Guide)`,
+    `${shortName} Credit Card Settlement Guide | CredSettle`,
+    `${shortName} Card Debt Settlement | CredSettle`,
+    `${shortName} Card Settlement Process (2026)`,
+    `${b} Credit Card Settlement | CredSettle`
+  ];
 
-  const shortName = bankName.replace('Small Finance Bank', 'SFB').replace('Bank', '').trim();
-  const candidate3 = `${shortName} Card Settlement | CredSettle`;
-  if (candidate3.length <= 58) return candidate3;
-
-  const candidate4 = `${shortName} Card Settlement`;
-  if (candidate4.length <= 58) return candidate4;
-
-  return `${shortName} Card Settlement`.slice(0, 58);
+  for (const cand of candidates) {
+    if (cand.length >= 45 && cand.length <= 58) return cand;
+  }
+  for (const cand of candidates) {
+    if (cand.length >= 30 && cand.length <= 60) return cand;
+  }
+  return `${b} Credit Card Settlement`.slice(0, 58);
 }
 
 function getCCBankMetaDescription(bankName: string): string {
-  let desc = `Settle ${bankName} credit card dues legally with CredSettle. Stop recovery harassment & reduce debt under RBI rules.`;
-  if (desc.length <= 150) return desc;
-
-  const shortName = bankName.replace('Small Finance Bank', 'SFB');
-  desc = `Settle ${shortName} credit card dues legally with CredSettle. Stop recovery harassment & reduce debt under RBI rules.`;
-  if (desc.length <= 150) return desc;
-
-  return `Settle ${shortName} card dues legally with CredSettle. Stop harassment & reduce debt.`.slice(0, 150);
+  const b = bankName.trim();
+  const candidates = [
+    `Comprehensive guide to settle ${b} credit card dues legally in India. Stop recovery harassment, reduce debt under RBI rules, and get an NOC.`,
+    `Settle ${b} credit card dues legally with CredSettle. Stop recovery harassment, reduce principal debt, and secure NOC under RBI guidelines.`,
+    `Settle ${b} credit card dues legally with CredSettle. Stop recovery harassment & reduce debt under RBI rules. Get a free consultation today.`
+  ];
+  for (const c of candidates) {
+    if (c.length >= 140 && c.length <= 155) return c;
+  }
+  for (const c of candidates) {
+    if (c.length >= 100 && c.length <= 155) return c;
+  }
+  return candidates[0].slice(0, 155);
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {

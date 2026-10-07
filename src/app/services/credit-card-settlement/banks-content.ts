@@ -180,9 +180,9 @@ export function getBankContentWithFallback(bankSlug: string): BankContent {
   const defaultContent: BankContent = {
     bankName,
     slug,
-    title: `${bankName} Credit Card Settlement - Settle Dues Legally`,
+    title: `Settle ${bankName} Credit Card Legally - CredSettle`,
     metaTitle: generatedContent?.metaTitle || getBankMetaTitle(bankName),
-    metaDescription: `Struggling with ${bankName} credit card dues? CredSettle helps you settle card debt legally under RBI rules. Settle up to 50% today.`,
+    metaDescription: `Struggling with ${bankName} credit card dues? CredSettle helps you settle card debt legally under RBI rules. Settle up to 50% today with full legal help.`,
     heroTitle: `${bankName} Credit Card Settlement`,
     heroDescription: `Get legal help to settle your ${bankName} credit card dues. We use RBI One-Time Settlement rules. Stop collection calls and become debt-free today.`,
     whyChooseSettlement: generatedContent?.whyChooseSettlement || `Credit card debt can grow very fast. High interest rates make it hard to pay off. When ${bankName} card bills pile up, settlement offers a clean exit. CredSettle helps cardholders across India negotiate with ${bankName}. We help cut your total dues by 30% to 70%. You get full legal safety at every step.`,

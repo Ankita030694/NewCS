@@ -4,7 +4,7 @@ import { statesData } from '@/data/statesData';
 
 export default function StateGrid({ bankSlug }: { bankSlug: string }) {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-8">
+    <nav aria-label="Regional credit card settlement guides by state" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-8">
       {statesData.map((state) => (
         <Link 
           key={state.slug} 
@@ -19,6 +19,6 @@ export default function StateGrid({ bankSlug }: { bankSlug: string }) {
           </svg>
         </Link>
       ))}
-    </div>
+    </nav>
   );
 }

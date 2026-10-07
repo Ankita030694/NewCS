@@ -4,7 +4,7 @@ import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
-import { notFound } from 'next/navigation';
+import { notFound, permanentRedirect } from 'next/navigation';
 import AuthorBioBox from '@/components/AuthorBioBox';
 import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import banksData from '../banks.json';
@@ -152,6 +152,10 @@ export default async function BankSettlementSlugPage({ params }: Props) {
   if (!bank) notFound();
 
   const canonicalSlug = getBankCanonicalSlug(bank.company);
+  if (slug !== canonicalSlug) {
+    permanentRedirect(`/loan-settlement-by-bank/${canonicalSlug}`);
+  }
+
   const bankName = bank.company;
   const bankEmails = bank.emails;
   const metaTitle = getBankMetaTitle(bankName);
@@ -386,7 +390,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
             <article className="bg-white rounded-3xl shadow-sm border border-gray-100 p-8 md:p-12 prose prose-lg prose-blue max-w-none text-gray-700 leading-loose">
               
               <div className="mb-12">
-                <h2 className="text-4xl font-extrabold text-gray-900 mb-6 tracking-tight leading-tight">Settling {bankName} Debt Guide</h2>
+                <h2 id="settling-debt-guide" className="text-4xl font-extrabold text-gray-900 mb-6 tracking-tight leading-tight">Settling {bankName} Debt Guide</h2>
                 <p className="text-xl text-gray-600 font-light mb-6">
                   Falling into a debt trap is a deeply distressing experience. When that debt is held by a major financial institution like <strong>{bankName}</strong>, the pressure can feel insurmountable. Constant phone calls, intimidating SMS alerts, unannounced home visits, and the looming threat of legal action can take a severe toll on your mental health, family life, and professional focus. 
                 </p>
@@ -400,7 +404,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
 
               <hr className="my-12 border-gray-200" />
 
-              <h2 id="understanding-debt" className="text-3xl font-bold text-gray-900 mb-6">1. {bankName} Debt Cycle &amp; NPA Rules</h2>
+              <h3 id="understanding-debt" className="text-3xl font-bold text-gray-900 mb-6">1. {bankName} Debt Cycle &amp; NPA Rules</h3>
               <p>
                 To successfully negotiate with <strong>{bankName}</strong>, you must first understand how they classify your account. Banks operate on strictly regulated frameworks mandated by the Reserve Bank of India (RBI). They do not assess your situation emotionally; they assess it categorically. 
               </p>
@@ -408,7 +412,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
                 When you miss your very first Equated Monthly Installment (EMI) or your minimum credit card payment, a countdown begins. Here is the exact timeline of how <strong>{bankName}</strong> views your financial default:
               </p>
 
-              <h3 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">The Special Mention Account (SMA) Classification</h3>
+              <h4 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">The Special Mention Account (SMA) Classification</h4>
               <ul className="space-y-6 list-none pl-0">
                 <li className="bg-gray-50 p-6 rounded-xl border border-gray-100">
                   <strong className="text-blue-700 text-lg block mb-2">SMA-0 (1 to 30 Days Past Due):</strong> 
@@ -430,10 +434,10 @@ export default async function BankSettlementSlugPage({ params }: Props) {
 
               <div className="my-10 p-8 bg-blue-900 text-white rounded-2xl shadow-lg relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-white opacity-5 rounded-full -mr-10 -mt-10"></div>
-                <h3 className="text-xl font-bold mb-3 flex items-center gap-2">
+                <h4 className="text-xl font-bold mb-3 flex items-center gap-2">
                   <svg className="w-6 h-6 text-yellow-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                   Crucial Insight for Borrowers
-                </h3>
+                </h4>
                 <p className="text-blue-100 mb-0">
                   <strong>{bankName}</strong> will almost never offer you a true, deep-discount settlement while your account is in the SMA-0 or SMA-1 phase. If you ask for a settlement too early, they will simply offer to restructure the loan (increase the tenure, reduce the EMI, but charge you more interest over time). True settlement waivers (principal reduction) only unlock after the 90-180 day mark when the debt becomes heavily aged.
                 </p>
@@ -441,12 +445,12 @@ export default async function BankSettlementSlugPage({ params }: Props) {
 
               <hr className="my-12 border-gray-200" />
 
-              <h2 id="what-is-settlement" className="text-3xl font-bold text-gray-900 mb-6">2. What Exactly is a One-Time Settlement (OTS)?</h2>
+              <h3 id="what-is-settlement" className="text-3xl font-bold text-gray-900 mb-6">2. What Exactly is a One-Time Settlement (OTS)?</h3>
               <p>
                 A One-Time Settlement (OTS) is a formal, legally binding agreement between you and <strong>{bankName}</strong>. Through this agreement, the bank consents to accept a single lump-sum payment (or occasionally, 3 to 6 short-term installments) that is significantly lower than your total outstanding balance. In exchange for this payment, the bank agrees to close the account permanently and waive the remaining balance.
               </p>
               
-              <h3 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">Why Would {bankName} Agree to Lose Money?</h3>
+              <h4 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">Why Would {bankName} Agree to Lose Money?</h4>
               <p>
                 Many borrowers ask: <em>"Why would a massive institution like {bankName} let me walk away paying only 40% or 50% of what I owe?"</em> 
               </p>
@@ -464,7 +468,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
 
               <hr className="my-12 border-gray-200" />
 
-              <h2 id="legal-rights" className="text-3xl font-bold text-gray-900 mb-6">3. Your Rights Against Recovery Agents</h2>
+              <h3 id="legal-rights" className="text-3xl font-bold text-gray-900 mb-6">3. Your Rights Against Recovery Agents</h3>
               <p>
                 The most traumatic aspect of defaulting on a <strong>{bankName}</strong> loan is dealing with third-party recovery agents. Banks outsource collection to external agencies who work on commission. The more money they extract from you, the higher their cut. This commission structure frequently drives agents to employ aggressive, unethical, and sometimes outright illegal tactics.
               </p>
@@ -472,7 +476,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
                 However, as a citizen of India, you are heavily protected by the Reserve Bank of India (RBI) guidelines and rulings from the Supreme Court. Defaulting on a civil debt is <strong>not a criminal offense</strong> in India. You cannot be jailed merely for being unable to pay an unsecured personal loan or credit card bill due to financial inability.
               </p>
 
-              <h3 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">The RBI Fair Practices Code (FPC)</h3>
+              <h4 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">The RBI Fair Practices Code (FPC)</h4>
               <p>
                 <strong>{bankName}</strong> and any agency operating on its behalf are legally bound by the RBI's Fair Practices Code. If agents violate these rules, the bank can face severe penalties, and the agents can face criminal charges. Here are your immutable rights:
               </p>
@@ -495,7 +499,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
                 </li>
               </ul>
 
-              <h3 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">How CredSettle Protects You Legally</h3>
+              <h4 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">How CredSettle Protects You Legally</h4>
               <p>
                 When you enroll in a debt settlement program with CredSettle, the first step our legal team takes is constructing an impenetrable shield around you.
               </p>
@@ -509,7 +513,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
 
               <hr className="my-12 border-gray-200" />
 
-              <h2 id="step-by-step-process" className="text-3xl font-bold text-gray-900 mb-6">4. Step-by-Step Settlement Process</h2>
+              <h3 id="step-by-step-process" className="text-3xl font-bold text-gray-900 mb-6">4. Step-by-Step Settlement Process</h3>
               <p>
                 Entering into a settlement is a formal, documented process. It cannot be done over a casual phone call with a telecaller. A verbal promise of "pay ₹50,000 today and we will close the account" is the most common trap borrowers fall into. If you pay without the right paperwork, the bank will simply adjust that ₹50,000 against your penal interest, and you will still owe the principal.
               </p>
@@ -519,28 +523,28 @@ export default async function BankSettlementSlugPage({ params }: Props) {
 
               <div className="space-y-8 mt-8">
                 <div className="bg-white border-l-4 border-blue-600 p-6 shadow-sm">
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Phase 1: Financial Hardship Documentation</h3>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">Phase 1: Financial Hardship Documentation</h4>
                   <p className="text-gray-600">
                     To convince the credit risk department at <strong>{bankName}</strong> to waive 50% of your debt, you must prove that you genuinely cannot pay it. We help you compile a robust "Hardship Dossier." This includes termination letters, medical bills, bank statements showing depleted savings, or business closure documents. The goal is to prove to the bank that accepting a settlement is their best-case scenario.
                   </p>
                 </div>
 
                 <div className="bg-white border-l-4 border-blue-600 p-6 shadow-sm">
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Phase 2: The Initial Proposal via Official Channels</h3>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">Phase 2: The Initial Proposal via Official Channels</h4>
                   <p className="text-gray-600">
                     We bypass the low-level recovery agents. They do not have the authority to approve deep waivers. Instead, we initiate formal correspondence via email and registered post to the official channels: <strong>{bankEmails[0] || 'grievance.redressal@bank.com'}</strong> and the specific regional Nodal Officer for <strong>{bankName}</strong>. Our proposal outlines your financial situation and makes a formal, legally structured offer for an OTS.
                   </p>
                 </div>
 
                 <div className="bg-white border-l-4 border-blue-600 p-6 shadow-sm">
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Phase 3: The Attrition and Negotiation Stage</h3>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">Phase 3: The Attrition and Negotiation Stage</h4>
                   <p className="text-gray-600">
                     <strong>{bankName}</strong> will naturally reject the first offer. They will counter-offer with a much higher amount (e.g., asking for 80% of the total due). This phase requires immense patience. It is a game of financial attrition. Our negotiators, drawing from years of banking experience, push back, citing RBI guidelines and your proven inability to pay. This back-and-forth can take anywhere from 30 to 90 days.
                   </p>
                 </div>
 
                 <div className="bg-white border-l-4 border-green-500 p-6 shadow-sm">
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Phase 4: Securing the Official Settlement Letter</h3>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">Phase 4: Securing the Official Settlement Letter</h4>
                   <p className="text-gray-600">
                     Once an agreement is reached (e.g., settling a ₹5,000,000 debt for ₹2,000,000), <strong>{bankName}</strong> must issue a formal <strong>Settlement Letter</strong> on their official letterhead. We meticulously review this document to ensure there are no hidden clauses. The letter MUST clearly state:
                   </p>
@@ -553,7 +557,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
                 </div>
 
                 <div className="bg-white border-l-4 border-green-600 p-6 shadow-sm">
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Phase 5: Payment and Receipt of NOC</h3>
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">Phase 5: Payment and Receipt of NOC</h4>
                   <p className="text-gray-600">
                     You make the payment directly to your <strong>{bankName}</strong> loan account (never to an agent's personal account). Within 30 to 45 days of the final payment, the bank issues a <strong>No Dues Certificate (NDC)</strong> or No Objection Certificate (NOC). This piece of paper is your ultimate proof of freedom. Keep it safe forever.
                   </p>
@@ -562,7 +566,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
 
               <hr className="my-12 border-gray-200" />
 
-              <h2 id="negotiation-tactics" className="text-3xl font-bold text-gray-900 mb-6">5. Tactics to Maximize Your Loan Waiver</h2>
+              <h3 id="negotiation-tactics" className="text-3xl font-bold text-gray-900 mb-6">5. Tactics to Maximize Your Loan Waiver</h3>
               <p>
                 Negotiating with a massive financial entity is intimidating. However, banks operate on distinct quarterly cycles and internal metrics that you can use to your advantage. 
               </p>
@@ -576,14 +580,14 @@ export default async function BankSettlementSlugPage({ params }: Props) {
 
               <hr className="my-12 border-gray-200" />
 
-              <h2 id="credit-card-vs-loan" className="text-3xl font-bold text-gray-900 mb-6">6. Credit Cards vs. Personal Loan Settlements</h2>
+              <h3 id="credit-card-vs-loan" className="text-3xl font-bold text-gray-900 mb-6">6. Credit Cards vs. Personal Loan Settlements</h3>
               <p>
                 While the broader concepts of settlement apply to all unsecured debts, there are distinct nuances in how <strong>{bankName}</strong> handles credit cards versus term personal loans.
               </p>
 
               <div className="grid md:grid-cols-2 gap-8 mt-8">
                 <div className="bg-gray-50 p-6 rounded-2xl border border-gray-200">
-                  <h3 className="text-xl font-bold text-blue-900 mb-3">{bankName} Credit Cards</h3>
+                  <h4 className="text-xl font-bold text-blue-900 mb-3">{bankName} Credit Cards</h4>
                   <p className="text-gray-700 mb-4">
                     Credit card debt compounds incredibly fast. With interest rates hovering between 36% to 42% annually, plus GST, late fees, and over-limit charges, a small default can quadruple in two years.
                   </p>
@@ -593,7 +597,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
                 </div>
                 
                 <div className="bg-gray-50 p-6 rounded-2xl border border-gray-200">
-                  <h3 className="text-xl font-bold text-blue-900 mb-3">{bankName} Personal Loans</h3>
+                  <h4 className="text-xl font-bold text-blue-900 mb-3">{bankName} Personal Loans</h4>
                   <p className="text-gray-700 mb-4">
                     Personal loans have a fixed term, a set interest rate (usually 11% to 18%), and a clear amortization schedule. The bank has already given you the hard cash upfront.
                   </p>
@@ -605,12 +609,12 @@ export default async function BankSettlementSlugPage({ params }: Props) {
 
               <hr className="my-12 border-gray-200" />
 
-              <h2 id="cibil-impact" className="text-3xl font-bold text-gray-900 mb-6">7. CIBIL Impact and Credit Score Recovery</h2>
+              <h3 id="cibil-impact" className="text-3xl font-bold text-gray-900 mb-6">7. CIBIL Impact and Credit Score Recovery</h3>
               <p>
                 We believe in absolute transparency. A debt settlement is a financial rescue operation, not a magic trick. It has consequences, specifically regarding your credit report.
               </p>
 
-              <h3 className="text-2xl font-semibold text-gray-800 mt-6 mb-4">The "Settled" Status</h3>
+              <h4 className="text-2xl font-semibold text-gray-800 mt-6 mb-4">The "Settled" Status</h4>
               <p>
                 When you pay your loan in full according to the original schedule, <strong>{bankName}</strong> reports the account to CIBIL, Experian, and Equifax as <strong>"Closed."</strong>
               </p>
@@ -621,7 +625,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
                 A "Settled" remark indicates to future lenders that you faced financial difficulty and the bank had to take a loss on your account. This remark will drop your CIBIL score (often below 650) and will remain on your credit report for seven years. Immediately following a settlement, you will likely be denied new unsecured credit cards or personal loans from major banks.
               </p>
 
-              <h3 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">Why Settlement is Still the Better Choice</h3>
+              <h4 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">Why Settlement is Still the Better Choice</h4>
               <p>
                 If the CIBIL impact is negative, why settle? Because the alternative is infinitely worse.
               </p>
@@ -635,7 +639,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
               </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border border-blue-200 mt-8">
-                <h3 className="text-lg font-bold text-blue-900 mb-2">The CredSettle Credit Rebuilding Roadmap</h3>
+                <h4 className="text-lg font-bold text-blue-900 mb-2">The CredSettle Credit Rebuilding Roadmap</h4>
                 <p className="text-sm text-blue-800">
                   Your financial life does not end with a settlement. Once you receive your NOC from <strong>{bankName}</strong>, we guide you on how to rebuild. The most effective strategy is taking a Fixed Deposit (FD) backed credit card. By using this secured card for daily expenses and paying the bill in full exactly on time every month, you can rebuild your CIBIL score back to the 750+ range within 18 to 24 months, making you eligible for prime loans once again.
                 </p>
@@ -643,7 +647,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
 
               <hr className="my-12 border-gray-200" />
 
-              <h2 id="legal-notices" className="text-3xl font-bold text-gray-900 mb-6">8. How to Handle Bank Legal Notices</h2>
+              <h3 id="legal-notices" className="text-3xl font-bold text-gray-900 mb-6">8. How to Handle Bank Legal Notices</h3>
               <p>
                 As your default ages, the bank's automated systems will generate various legal notices. It is vital not to panic, but it is equally vital not to ignore them. Here is what they mean and how we handle them:
               </p>
@@ -669,39 +673,39 @@ export default async function BankSettlementSlugPage({ params }: Props) {
 
               <hr className="my-12 border-gray-200" />
 
-              <h2 id="faqs" className="text-3xl font-bold text-gray-900 mb-8">9. Frequently Asked Questions (FAQs)</h2>
+              <h3 id="faqs" className="text-3xl font-bold text-gray-900 mb-8">9. Frequently Asked Questions (FAQs)</h3>
               
               <div className="space-y-6">
                 <div className="border border-gray-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">Q: Can {bankName} deduct money directly from my salary account?</h3>
+                  <h4 className="text-xl font-bold text-gray-900 mb-3">Q: Can {bankName} deduct money directly from my salary account?</h4>
                   <p className="text-gray-600">
                     If your salary account and your loan/credit card are with the same institution (i.e., you have a <strong>{bankName}</strong> salary account and a <strong>{bankName}</strong> loan), the bank holds the "Right of Set-Off." They can legally deduct your outstanding dues directly from your incoming salary without prior permission. If you are facing default, we strongly advise immediately shifting your salary to a different bank to protect your livelihood during negotiations.
                   </p>
                 </div>
 
                 <div className="border border-gray-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">Q: Will {bankName} send police to my house for unpaid loans?</h3>
+                  <h4 className="text-xl font-bold text-gray-900 mb-3">Q: Will {bankName} send police to my house for unpaid loans?</h4>
                   <p className="text-gray-600">
                     Absolutely not. This is the most common scare tactic used by rogue collection agents. Non-payment of a civil debt is not a criminal offense in India. The police have no jurisdiction over bank recovery matters. The only exception is if a court has issued a Non-Bailable Warrant (NBW) because you repeatedly ignored court summons for a cheque bounce case. Even then, it is the court issuing the warrant, not the bank sending the police.
                   </p>
                 </div>
 
                 <div className="border border-gray-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">Q: What happens if I accept a settlement offer but fail to pay the final installment?</h3>
+                  <h4 className="text-xl font-bold text-gray-900 mb-3">Q: What happens if I accept a settlement offer but fail to pay the final installment?</h4>
                   <p className="text-gray-600">
                     If you enter into an OTS agreement with <strong>{bankName}</strong> and default on any agreed-upon installment, the entire settlement is instantly revoked. The bank will re-apply all waived interest and penalties to your account, and you will be back at square one. Never agree to a settlement amount unless you are 100% certain you can arrange the funds by the deadline.
                   </p>
                 </div>
 
                 <div className="border border-gray-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">Q: How long does the entire settlement process take?</h3>
+                  <h4 className="text-xl font-bold text-gray-900 mb-3">Q: How long does the entire settlement process take?</h4>
                   <p className="text-gray-600">
                     The timeline varies based on how old the debt is. If the debt is relatively fresh (just hit 90 days past due), negotiations can take 2 to 3 months to reach an acceptable waiver percentage. If the debt is much older (1 to 2 years), the bank is usually more desperate to close the account, and a settlement can often be finalized within 30 to 45 days.
                   </p>
                 </div>
 
                 <div className="border border-gray-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">Q: Is the forgiven debt considered taxable income?</h3>
+                  <h4 className="text-xl font-bold text-gray-900 mb-3">Q: Is the forgiven debt considered taxable income?</h4>
                   <p className="text-gray-600">
                     In some jurisdictions, forgiven debt is considered a "benefit" and may have tax implications under the Income Tax Act. However, for retail individual loans in India, practical enforcement of tax on waived principal is rare. It is always advisable to consult with a Chartered Accountant regarding the specific tax implications of your settled amount.
                   </p>
@@ -823,20 +827,5 @@ export async function generateStaticParams() {
   banksData.forEach((bank) => {
     slugs.add(getBankCanonicalSlug(bank.company));
   });
-  const aliases = [
-    'landt-finance',
-    'lt-finance',
-    'landt',
-    'l-and-t-finance',
-    'l-and-t',
-    'lt',
-    'indus-ind',
-    'chimnay-finlease-ltd',
-    'krzaybee',
-    'mpocket',
-    'north-east-small-finance-bank'
-  ];
-  aliases.forEach((a) => slugs.add(a));
-
   return Array.from(slugs).map((slug) => ({ slug }));
 }

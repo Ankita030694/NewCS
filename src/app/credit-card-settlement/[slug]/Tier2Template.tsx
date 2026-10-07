@@ -6,8 +6,7 @@ import StateGrid from "@/components/StateGrid";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-export default function Tier2Template({ bankName, slug }: { bankName: string, slug: string }) {
-  
+export default function Tier2Template({ bankName, slug }: { bankName: string; slug: string }) {
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -27,7 +26,7 @@ export default function Tier2Template({ bankName, slug }: { bankName: string, sl
       {
         "@type": "ListItem",
         "position": 3,
-        "name": `${bankName} Settlement Resolution`,
+        "name": `${bankName} Settlement`,
         "item": `https://www.credsettle.com/credit-card-settlement/${slug}`
       }
     ]
@@ -36,8 +35,8 @@ export default function Tier2Template({ bankName, slug }: { bankName: string, sl
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": `Resolve ${bankName} Credit Card Defaults with CredSettle`,
-    "description": `Falling behind on ${bankName} credit card payments? CredSettle negotiates massive discounts on your behalf, stops collection agents, and finalizes your settlement legally.`,
+    "headline": `Settle Your ${bankName} Credit Card Dues Legally`,
+    "description": `Falling behind on ${bankName} credit card payments? CredSettle negotiates significant waivers, stops collection agents, and finalizes your settlement legally.`,
     "image": "https://www.credsettle.com/credsettle-logo.svg",
     "author": {
       "@type": "Person",
@@ -61,29 +60,40 @@ export default function Tier2Template({ bankName, slug }: { bankName: string, sl
     "@type": "FAQPage",
     "mainEntity": [
       {
-      "@type": "Question",
-      "name": `Can I secure a settlement with ${bankName} if my account is not yet an NPA?`,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": `Typically, private sector banks like ${bankName} demand that an account be completely delinquent for 3 to 6 months before their risk management team approves a formal One-Time Settlement (OTS). Until then, they will only offer temporary restructuring.`
+        "@type": "Question",
+        "name": `Can I settle my ${bankName} credit card dues if my account is not yet an NPA?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": `Banks like ${bankName} usually consider a formal One-Time Settlement once the account has been unpaid for 90 to 120 days. Before that stage, the bank may only suggest loan restructuring. However, CredSettle can start hardship talks early to prevent extra penalty charges.`
+        }
+      },
+      {
+        "@type": "Question",
+        "name": `Are ${bankName} recovery agents allowed to visit my workplace?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": `No. Under RBI guidelines, recovery agents cannot visit your workplace or contact your employer. They are also barred from calling you before 8 AM or after 7 PM. If agents cross the line, CredSettle takes immediate legal action.`
+        }
+      },
+      {
+        "@type": "Question",
+        "name": `How much discount can I get on a ${bankName} credit card settlement?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": `Depending on your financial hardship and the age of the debt, borrowers often secure waivers between 50% and 75% on total dues, covering late charges, penal interest, and a portion of the principal balance.`
+        }
       }
-    },
-    {
-      "@type": "Question",
-      "name": `Are ${bankName} recovery agents allowed to visit my office?`,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": `No. Under stringent RBI consumer protection laws updated in 2026, unannounced workplace visits intended to humiliate borrowers are illegal. CredSettle intervenes legally to permanently block these visits.`
-      }
-    }
     ]
   };
 
   const tocSections = [
-    { id: "debt-spiral", text: `The ${bankName} Debt Spiral`, level: 2 },
-    { id: "ots-negotiation", text: `Negotiating OTS with ${bankName}`, level: 2 },
-    { id: "stopping-harassment", text: `Stopping ${bankName} Agency Harassment`, level: 2 },
-    { id: "state-guidelines", text: `State Legal Guidelines for ${bankName}`, level: 2 },
+    { id: "why-settle", text: `Why ${bankName} Card Debt Piles Up`, level: 2 },
+    { id: "how-settlement-works", text: `How a One-Time Settlement (OTS) Works`, level: 3 },
+    { id: "stopping-harassment", text: `Stopping Recovery Agent Harassment`, level: 3 },
+    { id: "settlement-steps", text: `Four Simple Steps to Settle Dues`, level: 3 },
+    { id: "credit-score-impact", text: `Impact on Your CIBIL Score`, level: 3 },
+    { id: "frequently-asked-questions", text: `Frequently Asked Questions`, level: 3 },
+    { id: "state-guidelines", text: `State Legal Rules for ${bankName}`, level: 3 },
   ];
 
   const breadcrumbItems = [
@@ -95,80 +105,160 @@ export default function Tier2Template({ bankName, slug }: { bankName: string, sl
   return (
     <div className="bg-white min-h-screen">
       <Navbar />
-      
-      {/* Schemas */}
+
+      {/* Structured Data Schemas */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <Breadcrumbs items={breadcrumbItems} />
-        
+
         <div className="text-center max-w-4xl mx-auto my-12">
           <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 tracking-tight">
-            Clear Your <span className="text-blue-600">{bankName}</span> Credit Card Arrears
+            Settle Your <span className="text-blue-600">{bankName}</span> Credit Card Dues
           </h1>
-          <p className="text-xl text-gray-600 mb-8">
-            Take control of your financial future. CredSettle acts as your legal shield, negotiating heavily discounted settlements directly with {bankName} while putting an immediate end to recovery agent harassment.
+          <p className="text-xl text-gray-600 mb-8 leading-relaxed">
+            Take control of your financial life. CredSettle acts as your legal shield, negotiating deep waivers directly with {bankName} while putting an immediate stop to recovery agent harassment.
           </p>
         </div>
 
         <div className="flex flex-col lg:flex-row gap-12 mt-12">
-          {/* Main Content */}
+          {/* Main Content Article */}
           <article className="lg:w-2/3 prose prose-lg max-w-none bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
-            <h2 id="debt-spiral" className="scroll-mt-24 text-3xl font-bold mb-4">The {bankName} Debt Spiral</h2>
+            <h2 id="why-settle" className="scroll-mt-24 text-3xl font-bold mb-4 text-gray-900">
+              Why {bankName} Card Debt Piles Up
+            </h2>
             <p className="text-gray-700 leading-relaxed mb-6">
-              Missing payments on a {bankName} credit card triggers a cascade of late fees and penal interest rates that can exceed 40% annually. For borrowers facing genuine financial hardship, catching up becomes mathematically impossible. Rather than suffering in silence or borrowing from unreliable sources, a formal settlement is the most pragmatic approach to closing the account permanently.
+              Credit card interest in India is very high. If you miss a card payment with {bankName}, the bank adds finance charges and late fines. In a few months, your debt can grow out of control. Paying only the minimum due barely cuts your loan balance. Most of your cash goes straight to interest charges. If you lost your job, fell ill, or had business losses, you do not have to stress alone. A legal debt settlement offers a clean break and a fresh financial start.
             </p>
 
-            <h2 id="ots-negotiation" className="scroll-mt-24 text-3xl font-bold mb-4">Negotiating OTS with {bankName}</h2>
+            <h3 id="how-settlement-works" className="scroll-mt-24 text-2xl font-bold mb-4 text-gray-900">
+              How a One-Time Settlement (OTS) Works with {bankName}
+            </h3>
             <p className="text-gray-700 leading-relaxed mb-6">
-              CredSettle's expert negotiators bypass the outsourced collection agencies and communicate directly with {bankName}'s core resolution desk. We present documented proof of your financial distress to secure a One-Time Settlement (OTS). By utilizing our services, borrowers frequently achieve substantial principal waivers, allowing them to close the account for a fraction of the inflated demanded amount.
+              A One-Time Settlement is a legal deal between you and {bankName}. Under an OTS, the bank accepts a lower one-time payment to close your card account for good. The rest of the balance is wiped out.
+            </p>
+            <p className="text-gray-700 leading-relaxed mb-6">
+              Our team steps in to talk with the bank for you. We do not deal with rude call agents. Instead, our legal team talks directly to senior managers at {bankName}. We show clear proof of your financial hardship, like loss of pay or hospital bills. With this proof, we get deep waivers on late fees, interest, and principal dues. Borrowers often save 50% to 70% of their total balance.
             </p>
 
-            <h2 id="stopping-harassment" className="scroll-mt-24 text-3xl font-bold mb-4">Stopping {bankName} Agency Harassment</h2>
+            <h3 id="stopping-harassment" className="scroll-mt-24 text-2xl font-bold mb-4 text-gray-900">
+              Stopping Harassment from {bankName} Recovery Agents
+            </h3>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              Many borrowers face nonstop calls and home visits from collection agents. Under Reserve Bank of India (RBI) rules, abusive recovery tactics are against the law:
+            </p>
+            <ul className="list-disc pl-6 text-gray-700 mb-6 space-y-2">
+              <li><strong>Strict Call Hours:</strong> Agents cannot call you before 8:00 AM or after 7:00 PM.</li>
+              <li><strong>Workplace Privacy:</strong> Agents cannot visit your office or threaten your employment.</li>
+              <li><strong>Zero Third-Party Contact:</strong> Agents cannot tell your family, friends, or neighbors about your debt.</li>
+              <li><strong>Strict Dignity Standards:</strong> Agents cannot use abusive language or make false threats of police action.</li>
+            </ul>
             <p className="text-gray-700 leading-relaxed mb-6">
-              The moment you onboard with CredSettle, we issue cease-and-desist communications to {bankName}, invoking your rights under the latest RBI circulars. The central bank has made it abundantly clear that financial institutions are accountable for the behavior of their recovery agents. We ensure your privacy is respected and that you are not subjected to verbal abuse or unauthorized calls to your workplace.
+              When you join CredSettle, we send an official legal notice to {bankName}. This tells the bank that all talks must go through our legal team. If any agent breaks RBI rules, we report them to the bank grievance desk and the RBI ombudsman.
             </p>
 
-            <h2 id="state-guidelines" className="scroll-mt-24 text-3xl font-bold mb-4">State Legal Guidelines for {bankName}</h2>
+            <h3 id="settlement-steps" className="scroll-mt-24 text-2xl font-bold mb-4 text-gray-900">
+              Four Simple Steps to Settle Your Dues
+            </h3>
+            <div className="space-y-4 mb-6">
+              <div className="p-4 bg-gray-50 rounded-xl border border-gray-100">
+                <h4 className="font-semibold text-gray-900 mb-1">Step 1: Free Case Review</h4>
+                <p className="text-gray-700 text-base">Share your current {bankName} card bills and payment history with our debt resolution team.</p>
+              </div>
+              <div className="p-4 bg-gray-50 rounded-xl border border-gray-100">
+                <h4 className="font-semibold text-gray-900 mb-1">Step 2: Hardship File Setup</h4>
+                <p className="text-gray-700 text-base">We gather proof of your financial distress to build a solid, credible case for the bank.</p>
+              </div>
+              <div className="p-4 bg-gray-50 rounded-xl border border-gray-100">
+                <h4 className="font-semibold text-gray-900 mb-1">Step 3: Direct Negotiation</h4>
+                <p className="text-gray-700 text-base">Our legal experts negotiate directly with {bankName} officers to get you the lowest settlement amount.</p>
+              </div>
+              <div className="p-4 bg-gray-50 rounded-xl border border-gray-100">
+                <h4 className="font-semibold text-gray-900 mb-1">Step 4: Official Closure and NOC</h4>
+                <p className="text-gray-700 text-base">You pay the agreed settlement sum directly to {bankName}. The bank then gives you an official No Objection Certificate.</p>
+              </div>
+            </div>
+
+            <h3 id="credit-score-impact" className="scroll-mt-24 text-2xl font-bold mb-4 text-gray-900">
+              Impact on Your CIBIL Score
+            </h3>
             <p className="text-gray-700 leading-relaxed mb-6">
-              The legal framework surrounding civil debt recovery varies across the country. Whether it's filing a grievance with local cyber cells or understanding the jurisdiction of regional Debt Recovery Tribunals, knowing your local laws is critical. Select your state below to see how we manage {bankName} settlements in your specific area.
+              A credit card settlement will show as &quot;Settled&quot; on your credit report. This does cause a temporary dip in your CIBIL score. However, this is much better than staying in default for years with soaring debt and legal notices. After your settlement is complete, you can rebuild your credit score step by step. By making timely payments on small credit lines, most clients see their score bounce back within 12 to 24 months.
             </p>
 
-            {/* State Grid Component Integration */}
+            <h3 id="frequently-asked-questions" className="scroll-mt-24 text-2xl font-bold mb-4 text-gray-900">
+              Frequently Asked Questions About {bankName} Settlement
+            </h3>
+            <div className="space-y-4 mb-8">
+              <div className="border border-gray-200 rounded-xl p-5 bg-white shadow-sm">
+                <h4 className="text-lg font-semibold text-gray-900 mb-2">
+                  Can I settle my {bankName} credit card dues if my account is not yet an NPA?
+                </h4>
+                <p className="text-gray-700 text-base leading-relaxed">
+                  Banks like {bankName} usually consider a formal One-Time Settlement once the account has been unpaid for 90 to 120 days. Before that stage, the bank may only suggest loan restructuring. However, CredSettle can start hardship talks early to prevent extra penalty charges.
+                </p>
+              </div>
+              <div className="border border-gray-200 rounded-xl p-5 bg-white shadow-sm">
+                <h4 className="text-lg font-semibold text-gray-900 mb-2">
+                  Are {bankName} recovery agents allowed to visit my workplace?
+                </h4>
+                <p className="text-gray-700 text-base leading-relaxed">
+                  No. Under RBI guidelines, recovery agents cannot visit your workplace or contact your employer. They are also barred from calling you before 8 AM or after 7 PM. If agents cross the line, CredSettle takes immediate legal action.
+                </p>
+              </div>
+              <div className="border border-gray-200 rounded-xl p-5 bg-white shadow-sm">
+                <h4 className="text-lg font-semibold text-gray-900 mb-2">
+                  How much discount can I get on a {bankName} credit card settlement?
+                </h4>
+                <p className="text-gray-700 text-base leading-relaxed">
+                  Depending on your financial hardship and the age of the debt, borrowers often secure waivers between 50% and 75% on total dues, covering late charges, penal interest, and a portion of the principal balance.
+                </p>
+              </div>
+            </div>
+
+            <h3 id="state-guidelines" className="scroll-mt-24 text-2xl font-bold mb-4 text-gray-900">
+              State Legal Rules for {bankName} Card Recovery
+            </h3>
+            <p className="text-gray-700 leading-relaxed mb-6">
+              Debt recovery laws and dispute procedures follow specific local court rules across India. CredSettle works with legal panels across every state and union territory to safeguard your rights. Select your state below to read our regional legal guide for {bankName} card settlements.
+            </p>
+
+            {/* State Grid Navigation */}
             <StateGrid bankSlug={slug} />
-
           </article>
 
           {/* Sidebar */}
           <aside className="lg:w-1/3">
             <div className="sticky top-24 space-y-8">
               <TableOfContents headings={tocSections} />
-              
+
               <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm text-center">
-                <img 
-                    src="/default-user.svg" 
-                    alt="Rahul Verma - Legal Expert" 
-                    className="w-24 h-24 rounded-full mx-auto mb-4 border-2 border-white shadow-sm object-cover"
+                <Image
+                  src="/default-user.svg"
+                  alt="Rahul Verma - Consumer Debt Specialist"
+                  width={96}
+                  height={96}
+                  className="rounded-full mx-auto mb-4 border-2 border-white shadow-sm object-cover"
                 />
                 <p className="font-bold text-gray-900 text-lg">Rahul Verma</p>
                 <p className="text-blue-600 text-sm font-semibold mb-4">Consumer Debt Specialist</p>
                 <p className="text-gray-600 text-sm mb-6 leading-relaxed">
-                    Rahul specializes in consumer debt protection and financial dispute resolution. He helps borrowers secure legally binding settlements and defend against recovery harassment from major institutions.
+                  Rahul Verma helps borrowers resolve credit card debt legally. He stops recovery harassment and negotiates fair settlements with banks across India.
                 </p>
-                <Link 
-                    href="/contact" 
-                    className="inline-block w-full py-3 px-4 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors font-medium"
+                <Link
+                  href="/contact"
+                  className="inline-block w-full py-3 px-4 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors font-medium"
                 >
-                    Get Free Consultation
+                  Get Free Consultation
                 </Link>
               </div>
             </div>
           </aside>
         </div>
       </main>
-      
+
       <Footer />
     </div>
   );

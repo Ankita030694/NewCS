@@ -751,6 +751,66 @@ const nextConfig: NextConfig = {
         destination: "/loan-settlement-by-city",
         permanent: true,
       },
+      {
+        source: "/loan-settlement-by-bank/chimnay-finlease-ltd",
+        destination: "/loan-settlement-by-bank/chimnay-finlease-ltd-lenditt",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/indus-ind",
+        destination: "/loan-settlement-by-bank/indusind",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/landt",
+        destination: "/loan-settlement-by-bank/l-t-finance",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/landt-finance",
+        destination: "/loan-settlement-by-bank/l-t-finance",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/lt-finance",
+        destination: "/loan-settlement-by-bank/l-t-finance",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/l-and-t-finance",
+        destination: "/loan-settlement-by-bank/l-t-finance",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/l-and-t",
+        destination: "/loan-settlement-by-bank/l-t-finance",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/lt",
+        destination: "/loan-settlement-by-bank/l-t-finance",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/krzaybee",
+        destination: "/loan-settlement-by-bank/krazybee",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/mpocket",
+        destination: "/loan-settlement-by-bank/mpokket",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/lenditt",
+        destination: "/loan-settlement-by-bank/chimnay-finlease-ltd-lenditt",
+        permanent: true,
+      },
+      {
+        source: "/loan-settlement-by-bank/north-east-small-finance-bank",
+        destination: "/loan-settlement-by-bank/north-east-small-finance",
+        permanent: true,
+      },
     ];
   },
   async headers() {
