@@ -103,13 +103,13 @@ export default async function StatePage({ params }: PageProps) {
     { id: 'credsettle-overview', text: 'CredSettle - India’s Trusted Card Settlement Company', level: 2 },
     { id: 'rbi-compliant-process', text: `Our RBI-Compliant Credit Card Settlement Process in ${content.stateName}`, level: 3 },
     { id: 'negotiation-help', text: `How CredSettle Negotiates with Card Issuers in ${content.stateName}`, level: 3 },
-    { id: 'legal-support', text: 'Legal Support through Our Lawyer Panel', level: 2 },
-    { id: 'settlement-benefits', text: `Why Choose CredSettle in ${content.stateName}`, level: 2 },
-    { id: 'rbi-guidelines', text: 'RBI Guidelines & Cardholder Rights', level: 2 },
+    { id: 'legal-support', text: `Legal Support for Credit Card Settlement in ${content.stateName}`, level: 2 },
+    { id: 'settlement-benefits', text: `Why Choose CredSettle for Credit Card Settlement in ${content.stateName}`, level: 2 },
+    { id: 'rbi-guidelines', text: `RBI Guidelines & Cardholder Rights in ${content.stateName}`, level: 2 },
     { id: 'step-by-step-guide', text: 'Guide to Credit Card Settlement with CredSettle', level: 2 },
-    { id: 'case-study', text: `Settlement Case Study in ${content.stateName}`, level: 2 },
-    { id: 'final-thoughts', text: 'Final Thoughts - Break Free from Debt', level: 2 },
-    { id: 'faqs', text: 'Frequently Asked Questions', level: 2 }
+    { id: 'case-study', text: `Credit Card Settlement Case Study in ${content.stateName}`, level: 2 },
+    { id: 'final-thoughts', text: `Final Thoughts on Credit Card Settlement in ${content.stateName}`, level: 2 },
+    { id: 'faqs', text: `Credit Card Settlement FAQs in ${content.stateName}`, level: 2 }
   ];
 
   // Generate structured data for the page

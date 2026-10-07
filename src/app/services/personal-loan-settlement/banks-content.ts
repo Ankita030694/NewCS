@@ -185,33 +185,33 @@ export function getBankContentWithFallback(bankSlug: string): BankContent {
     metaDescription: `Struggling with ${bankName} loan dues? CredSettle helps you legally settle personal, business, or credit card loans under RBI guidelines. Get 50% settlement support today!`,
     heroTitle: `${bankName} Loan Settlement`,
     heroDescription: `Expert legal assistance to settle your ${bankName} loans through RBI-compliant One-Time Settlement (OTS). Stop harassment and achieve debt freedom with CredSettle’s lawyer panel.`,
-    whyChooseSettlement: generatedContent?.whyChooseSettlement || `Financial distress affects millions of Indians struggling with ${bankName} loan debt. When EMIs become unmanageable due to job loss, medical emergencies, business failures, or economic downturns, settlement offers a legal, dignified path to debt freedom. CredSettle helps borrowers across India negotiate RBI-compliant settlements with ${bankName}, typically reducing outstanding debt by 30-70% while ensuring complete legal protection.`,
-    understandingSettlement: generatedContent?.understandingSettlement || `${bankName} loan settlement follows RBI’s One-Time Settlement (OTS) framework, allowing borrowers to negotiate reduced lump-sum payments to permanently close loan accounts. CredSettle’s legal team initiates formal settlement discussions with ${bankName}, presenting financial hardship cases supported by documentation. Settlement differs from closure - it involves formal negotiation, legal documentation, structured payment schedules, and issuance of final closure letters confirming zero balance.`,
-    howCredSettleHelps: generatedContent?.howCredSettleHelps || `CredSettle provides end-to-end legal support for ${bankName} loan settlements through our experienced lawyer panel. We analyze your financial situation, prepare structured OTS proposals, handle all negotiations, and guide you through payment execution and documentation. Importantly, CredSettle assists you to settle your loan for up to 50% of your outstanding amount - including our fees. This means genuine debt relief with complete legal protection.`,
-    cibilImpact: generatedContent?.cibilImpact || `Settlement with ${bankName} will impact your CIBIL score - CredSettle provides transparent information upfront. The account status changes to "Settled," typically reducing scores by 50-150 points temporarily. However, this impact is manageable: with CredSettle’s credit rehabilitation guidance, scores typically recover to 650-700+ within 2-3 years. The alternative - continuing default - keeps scores below 400-500 indefinitely, making recovery impossible.`,
-    whyChooseCredSettle: generatedContent?.whyChooseCredSettle || `CredSettle stands apart through legal expertise, RBI compliance, and client-focused service. Our lawyer panel includes experienced attorneys specializing in banking law and debt resolution. We’ve successfully negotiated hundreds of ${bankName} settlements, achieving average principal reductions of 40-55% while ensuring complete legal closure. Our end-to-end assistance means you don’t deal with recovery agents or complex documentation alone.`,
-    stepByStepProcess: generatedContent?.stepByStepProcess || `Step 1: Initial Inquiry & Consultation - Contact CredSettle for free preliminary consultation. Step 2: Lawyer Panel Assignment & Case Analysis - Comprehensive review of your ${bankName} loan details. Step 3: OTS Proposal Preparation & Submission - Structured proposal to ${bankName}. Step 4: Negotiation & OTS Approval - Professional negotiation handling. Step 5: Payment Execution & Settlement Completion - Guided payment and documentation. Step 6: Post-Settlement Support & Credit Rehabilitation - Credit rebuilding guidance.`,
-    documentsRequired: generatedContent?.documentsRequired || `Essential documents include: original loan agreement, latest outstanding statement, identity proof, address proof, income proof, default notices, hardship documentation, bank statements, employment proof, and any previous settlement proposals. CredSettle’s legal team reviews all documents and prepares them in formats preferred by ${bankName}.`,
+    whyChooseSettlement: generatedContent?.whyChooseSettlement || `Loan debt can be tough to handle when unexpected life events happen. If you cannot pay your ${bankName} EMIs on time, loan settlement offers a legal exit. CredSettle helps you negotiate an RBI-compliant settlement. We reduce your debt by 30% to 70% and stop recovery harassment.`,
+    understandingSettlement: generatedContent?.understandingSettlement || `${bankName} follows RBI rules for one-time settlements (OTS). This allows you to close your loan with a single reduced payment. Our lawyers submit your hardship records to the bank. Once paid, the bank issues a final No Dues Certificate.`,
+    howCredSettleHelps: generatedContent?.howCredSettleHelps || `CredSettle provides end-to-end legal support for ${bankName} loan settlements. We review your loan details and build a strong hardship file. Our team negotiates directly with bank officers to cut your total dues by up to 50%.`,
+    cibilImpact: generatedContent?.cibilImpact || `Settling your ${bankName} loan marks the account as settled. This is much better than ongoing default. We also guide you on simple steps to rebuild your credit score above 700 over the next 12 to 24 months.`,
+    whyChooseCredSettle: generatedContent?.whyChooseCredSettle || `CredSettle is India’s top debt settlement service. Our expert lawyers understand bank settlement rules. We handle all lender talks, stop agent calls, and ensure complete legal protection.`,
+    stepByStepProcess: generatedContent?.stepByStepProcess || `Step 1: Free consultation and case review. Step 2: Legal notice to halt agent harassment. Step 3: Hardship file submission to ${bankName}. Step 4: One-time settlement negotiation. Step 5: Official sanction letter from the bank. Step 6: Payment and final closure certificate.`,
+    documentsRequired: generatedContent?.documentsRequired || `Key documents include: loan account statements, PAN card, Aadhaar card, income proof, and hardship evidence like medical bills or job loss letters.`,
     faqs: generatedContent?.faqs || [
       {
         question: `What is the minimum settlement percentage for ${bankName}?`,
-        answer: `${bankName} typically offers settlements between 25% and 70% of total outstanding, depending on loan type and default duration. CredSettle negotiates based on your specific case, typically achieving 40-60% reductions.`
+        answer: `${bankName} usually accepts settlements between 30% and 60% of total dues. The exact discount depends on your financial hardship.`
       },
       {
         question: `Can I settle my credit card dues legally with ${bankName}?`,
-        answer: `Yes, ${bankName} offers legal credit card settlement through RBI-compliant OTS programs. CredSettle helps negotiate structured settlements typically reducing dues by 30-60%, with complete legal protection.`
+        answer: `Yes. Credit card dues with ${bankName} can be settled legally under RBI rules. Most clients get 40% to 60% debt reduction.`
       },
       {
         question: `How long does the settlement process take with ${bankName}?`,
-        answer: `${bankName} settlement timelines typically range from 45-120 days. CredSettle’s experienced legal team expedites timelines through proper documentation and strategic negotiation, typically completing settlements within 60-90 days.`
+        answer: `Settlement typically takes 45 to 90 days. Recovery calls usually stop within 48 hours of our legal notice.`
       },
       {
         question: `Will my CIBIL score recover after settling with ${bankName}?`,
-        answer: `Yes, CIBIL scores recover after ${bankName} settlement with time and responsible credit behavior. With CredSettle’s credit rehabilitation guidance, scores typically recover to 650-700+ within 2-3 years.`
+        answer: `Yes. With disciplined financial habits, your score can recover to 700+ within 12 to 24 months.`
       },
       {
         question: `How can CredSettle help me get a better deal with ${bankName}?`,
-        answer: `CredSettle’s expertise with ${bankName} settlements means better outcomes through professional proposal preparation, strategic negotiation, proper documentation, RBI compliance, and end-to-end support. We assist you to settle for up to 50% of outstanding (including our fees).`
+        answer: `Our experienced legal team negotiates directly with bank managers to secure maximum discounts on principal and interest charges.`
       }
     ],
     keywords: generateKeywords(bankName)

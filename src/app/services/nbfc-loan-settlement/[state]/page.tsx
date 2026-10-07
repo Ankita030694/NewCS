@@ -129,7 +129,7 @@ function generateHeadings(content: any) {
   if (content.legalSupport) {
     headings.push({
       id: 'legal-support',
-      text: 'Legal Protection and Support',
+      text: 'Legal Protection and Support for NBFC Loans',
       level: 2
     });
   }
@@ -137,7 +137,7 @@ function generateHeadings(content: any) {
   if (content.benefits) {
     headings.push({
       id: 'benefits',
-      text: `Why Choose CredSettle in ${content.stateName}`,
+      text: `Why Choose CredSettle for NBFC Loan Settlement in ${content.stateName}`,
       level: 2
     });
   }
@@ -145,7 +145,7 @@ function generateHeadings(content: any) {
   if (content.rbiGuidelines) {
     headings.push({
       id: 'rbi-guidelines',
-      text: 'RBI Guidelines & Borrower Rights',
+      text: 'RBI Guidelines for NBFC Loan Settlement',
       level: 2
     });
   }
@@ -161,7 +161,7 @@ function generateHeadings(content: any) {
   if (content.caseStudy) {
     headings.push({
       id: 'case-study',
-      text: `Settlement Case Study in ${content.stateName}`,
+      text: `NBFC Loan Settlement Case Study in ${content.stateName}`,
       level: 2
     });
   }
@@ -169,7 +169,7 @@ function generateHeadings(content: any) {
   if (content.finalThoughts) {
     headings.push({
       id: 'final-thoughts',
-      text: 'Final Thoughts - Take the First Step Toward Financial Freedom',
+      text: `Final Thoughts on NBFC Loan Settlement in ${content.stateName}`,
       level: 2
     });
   }

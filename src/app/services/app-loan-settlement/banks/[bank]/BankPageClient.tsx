@@ -167,7 +167,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    Why Choose {content.bankName} Settlement
+                    Why Choose {content.bankName} App Loan Settlement
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -195,7 +195,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    {content.bankName} Settlement Process
+                    {content.bankName} App Loan Settlement Process
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -223,7 +223,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    How CredSettle Settles {content.bankName} Debt
+                    How CredSettle Settles {content.bankName} App Loan Debt
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -251,7 +251,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    Impact of App Loan Settlement on Your CIBIL Score
+                    Impact of {content.bankName} App Loan Settlement on Your CIBIL Score
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -279,7 +279,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    Why Choose CredSettle for {content.bankName}
+                    Why Choose CredSettle for {content.bankName} App Loan Settlement
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -307,7 +307,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    Steps to Settle {content.bankName} Debt
+                    Steps to Settle {content.bankName} App Loan Debt
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -335,7 +335,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    Documents for {content.bankName} Settlement
+                    Documents for {content.bankName} App Loan Settlement
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -362,7 +362,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                 <div className="w-full">
                   <FAQWithSchema 
                     faqs={content.faqs} 
-                    title={`${content.bankName} Settlement`}
+                    title={`${content.bankName} App Loan Settlement`}
                   />
                 </div>
 

@@ -316,7 +316,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Why Choose CredSettle in {content.stateName}
+                    Why Choose CredSettle for App Loan Settlement in {content.stateName}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -344,7 +344,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    RBI Guidelines & Your Legal Rights
+                    RBI Guidelines for App Loan Settlement in {content.stateName}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -428,7 +428,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Final Thoughts - Freedom From App Loan Harassment
+                    Final Thoughts on App Loan Settlement in {content.stateName}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"

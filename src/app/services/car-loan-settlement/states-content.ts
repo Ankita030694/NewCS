@@ -37,23 +37,23 @@ export const statesContent: Record<string, StateContent> = {
     faqs: [
       {
         question: 'Can I settle my car loan in Maharashtra without losing my vehicle?',
-        answer: 'Yes! CredSettle specializes in negotiating settlements that allow you to keep your vehicle in most cases. We prevent repossession during negotiations and structure settlements that preserve your ownership while reducing debt by 40-65% typically.'
+        answer: 'Yes, you can keep your vehicle in most cases. CredSettle negotiates with the lender to stop repossession and lower your total debt by 40% to 65%.'
       },
       {
         question: 'How long does car loan settlement take in Mumbai/Pune?',
-        answer: 'Most car loan settlements in Maharashtra are completed within 45-90 days from initial consultation to final closure. Timeline depends on lender responsiveness and your ability to arrange the settlement amount once negotiated.'
+        answer: 'Most car loan settlements in Maharashtra take 45 to 90 days. The timeline depends on how fast the bank reviews your records and approves the proposal.'
       },
       {
         question: 'Will car loan settlement affect my CIBIL score in Maharashtra?',
-        answer: 'Settlement is marked on your CIBIL as "Settled" rather than "Closed," which is better than "Written Off" from default. With proper documentation and our guidance, most Maharashtra clients rehabilitate their scores to 650-700 within 18-24 months post-settlement.'
+        answer: 'Your loan is marked as Settled on your credit report. This causes a minor temporary drop in your score. With good credit habits, your score can reach 650-700 within 18 to 24 months.'
       },
       {
         question: 'What vehicle types does CredSettle handle for settlement in Maharashtra?',
-        answer: 'We handle all vehicle loan types in Maharashtra: cars (hatchback to luxury), SUVs, two-wheelers, commercial vehicles, and even electric vehicles. Our expertise covers loans from all major banks and NBFCs operating in Mumbai, Pune, and across the state.'
+        answer: 'We settle loans for cars, SUVs, two-wheelers, commercial vehicles, and electric cars. We work with all major banks and NBFCs across Maharashtra.'
       },
       {
         question: 'How much does CredSettle charge for car loan settlement services in Maharashtra?',
-        answer: 'We charge fees only after successful settlement, with no upfront costs. Our transparent fee structure is based on the settlement amount and debt reduction achieved. Contact us for a free consultation and customized quote for your Maharashtra case.'
+        answer: 'We charge fees only after a successful settlement with no advance payment. Contact us for a free case review and custom quote.'
       }
     ],
     keywords: ['car loan settlement Maharashtra', 'vehicle loan settlement Mumbai', 'car loan OTS Pune', 'auto loan settlement Maharashtra', 'RBI compliant car loan settlement']
@@ -69,23 +69,23 @@ export const statesContent: Record<string, StateContent> = {
     faqs: [
       {
         question: 'Can I settle my car loan in Karnataka without losing my vehicle?',
-        answer: 'Yes! CredSettle specializes in negotiating settlements that allow you to keep your vehicle in most cases. We prevent repossession during negotiations and structure settlements that preserve your ownership while reducing debt by 40-65% typically.'
+        answer: 'Yes, CredSettle helps you keep your car. We stop repossession action during negotiations and secure a 40% to 65% debt waiver.'
       },
       {
         question: 'How long does car loan settlement take in Bangalore/Mysore?',
-        answer: 'Most car loan settlements in Karnataka are completed within 45-90 days from initial consultation to final closure. Timeline depends on lender responsiveness and your ability to arrange the settlement amount once negotiated.'
+        answer: 'Car loan settlements in Karnataka usually take 45 to 90 days. We manage all talks with the bank to finish the process as fast as possible.'
       },
       {
         question: 'Will car loan settlement affect my CIBIL score in Karnataka?',
-        answer: 'Settlement is marked on your CIBIL as "Settled" rather than "Closed," which is better than "Written Off" from default. With proper documentation and our guidance, most Karnataka clients rehabilitate their scores to 650-700 within 18-24 months post-settlement.'
+        answer: 'Settlement shows as Settled on your CIBIL report. While your score dips temporarily, you can rebuild it to 650-700 within 2 years.'
       },
       {
         question: 'Does CredSettle handle electric vehicle loan settlements in Bangalore?',
-        answer: 'Yes, we handle EV loan settlements in Karnataka including Bangalore. Our expertise covers all vehicle types including electric cars and scooters from manufacturers like Tata, MG, Ola, and Ather, financed through banks or NBFCs.'
+        answer: 'Yes, we handle EV loan settlements for electric cars and scooters. We work with all banks and NBFCs offering green vehicle loans.'
       },
       {
         question: 'How much does CredSettle charge for car loan settlement services in Karnataka?',
-        answer: 'We charge fees only after successful settlement, with no upfront costs. Our transparent fee structure is based on the settlement amount and debt reduction achieved. Contact us for a free consultation and customized quote for your Karnataka case.'
+        answer: 'We do not charge upfront fees. Our fee is payable only after your settlement is approved and signed.'
       }
     ],
     keywords: ['car loan settlement Karnataka', 'vehicle loan settlement Bangalore', 'car loan OTS Mysore', 'auto loan settlement Karnataka', 'RBI compliant car loan settlement']
@@ -116,37 +116,37 @@ export function generateDefaultContent(stateName: string, slug: string): StateCo
     metaDescription: `Expert car loan settlement services in ${stateName}. Get RBI-compliant vehicle loan settlements, protect your car, and achieve financial freedom with CredSettle.`,
     heroTitle: `Car Loan Settlement in ${stateName}`,
     heroDescription: `Professional car loan settlement services for vehicle owners in ${stateName}. Reduce debt, prevent repossession, and restore financial stability.`,
-    whyCarLoanSettlement: comprehensiveContent.whyCarLoanSettlement || `For vehicle owners in ${stateName} facing unmanageable car loan EMIs, settlement isn’t just about reducing debt-it’s about preventing repossession and preserving your vehicle ownership. CredSettle offers a strategic, RBI-compliant path to One-Time Settlement (OTS) that typically reduces outstanding vehicle loan debt by 40-65%.`,
-    commonCarLoanProblems: comprehensiveContent.commonCarLoanProblems || `Car loan borrowers in ${stateName} face unique challenges including income volatility affecting EMI payments, rapid vehicle depreciation creating negative equity, recovery agent harassment, and the risk of vehicle repossession. CredSettle addresses all these issues systematically.`,
-    credsettleOverview: comprehensiveContent.credsettleOverview || `CredSettle stands as ${stateName}'s trusted car loan settlement specialist, offering comprehensive RBI-compliant debt resolution services. We’ve successfully resolved hundreds of vehicle loan cases, achieving average debt reductions of 45-65% while preventing repossession in 90%+ of cases.`,
-    rbiCompliantProcess: comprehensiveContent.rbiCompliantProcess || `Our settlement process follows strict RBI guidelines: comprehensive case analysis, immediate harassment cessation, direct lender negotiations, structured payment planning, and complete legal closure documentation including vehicle hypothecation removal.`,
-    negotiationHelp: comprehensiveContent.negotiationHelp || `CredSettle’s expert negotiators leverage relationships with all major auto lenders to secure optimal settlements. We understand lender policies, settlement authorization processes, and negotiation leverage points that individual borrowers cannot access.`,
-    legalSupport: comprehensiveContent.legalSupport || `Our legal team provides comprehensive protection including harassment cessation notices, repossession prevention, settlement agreement review, and complete closure documentation. We ensure every settlement complies with RBI frameworks and protects your rights.`,
-    benefits: comprehensiveContent.benefits || `Choosing CredSettle delivers: immediate harassment cessation, vehicle repossession prevention, 40-65% debt reduction, complete legal protection, zero upfront costs, customized payment terms, and post-settlement CIBIL rehabilitation guidance.`,
-    rbiGuidelines: comprehensiveContent.rbiGuidelines || `RBI guidelines mandate fair treatment of borrowers in financial distress. Lenders must provide settlement options, cease harassment, and follow proper repossession procedures. CredSettle ensures your rights under these frameworks are protected throughout the settlement process.`,
-    stepByStepGuide: comprehensiveContent.stepByStepGuide || `Step 1: Free consultation and case analysis. Step 2: Engagement and immediate harassment cessation. Step 3: Documentation collection and lender identification. Step 4: Settlement negotiation (typically 45-90 days). Step 5: Agreement finalization and payment. Step 6: Complete legal closure and vehicle hypothecation removal.`,
-    caseStudy: comprehensiveContent.caseStudy || `A ${cityName} resident owing ₹8.5 lakh on a vehicle worth ₹5 lakh faced repossession and aggressive recovery. CredSettle negotiated a ₹3.8 lakh settlement (55% reduction), prevented repossession, and secured complete legal closure. Today, the client retains vehicle ownership and has rebuilt their CIBIL score to 640.`,
-    finalThoughts: comprehensiveContent.finalThoughts || `If you’re struggling with car loan EMIs in ${stateName}, facing repossession threats, or trapped in negative equity, recognize that RBI-compliant settlement offers legitimate resolution. CredSettle’s expertise transforms vehicle loan crises into manageable outcomes. Contact us today for your free consultation.`,
+    whyCarLoanSettlement: comprehensiveContent.whyCarLoanSettlement || `For car owners in ${stateName} struggling with monthly EMIs, a legal settlement offers a fresh start. It protects your car from repossession and lowers your total debt. CredSettle negotiates an RBI One-Time Settlement (OTS) that cuts total dues by 40% to 65%.`,
+    commonCarLoanProblems: comprehensiveContent.commonCarLoanProblems || `Car loan borrowers in ${stateName} often face income drops, rising living costs, and high interest rates. Vehicle value drops fast while loan balances stay high. CredSettle helps you resolve these problems through legal bank negotiations.`,
+    credsettleOverview: comprehensiveContent.credsettleOverview || `CredSettle is the trusted car loan settlement expert for ${stateName}. We help vehicle owners settle their debt under RBI rules. Our banking lawyers negotiate average waivers of 45% to 65% while keeping cars safe from seizure.`,
+    rbiCompliantProcess: comprehensiveContent.rbiCompliantProcess || `Our settlement process follows RBI guidelines step by step. We review your case, stop recovery agent calls, negotiate with your lender, and secure a complete No Dues Certificate with hypothecation removal.`,
+    negotiationHelp: comprehensiveContent.negotiationHelp || `CredSettle lawyers know the settlement rules of all major lenders. We use strong hardship proofs and banking rules to get you the lowest settlement terms.`,
+    legalSupport: comprehensiveContent.legalSupport || `Our legal team protects you from lender harassment and repossession threats. We verify all settlement letters and ensure full legal protection under RBI rules.`,
+    benefits: comprehensiveContent.benefits || `CredSettle offers key benefits: immediate stop to recovery calls, car protection, 40% to 65% debt reduction, no upfront fees, and support in rebuilding your credit score.`,
+    rbiGuidelines: comprehensiveContent.rbiGuidelines || `RBI guidelines require banks to treat borrowers fairly during financial distress. Lenders must offer settlement options and follow proper procedures before taking any asset action.`,
+    stepByStepGuide: comprehensiveContent.stepByStepGuide || `Step 1: Free consultation and case review. Step 2: Legal notice to stop collection calls. Step 3: Hardship file preparation. Step 4: Bank negotiations (45 to 90 days). Step 5: Settlement agreement and payment. Step 6: No Dues Certificate and hypothecation removal.`,
+    caseStudy: comprehensiveContent.caseStudy || `A borrower in ${cityName} had a car loan balance of ₹8.5 lakh on a car worth ₹5 lakh. CredSettle negotiated an approved settlement of ₹3.8 lakh, delivering a 55% waiver. The client kept the car and cleared the loan with full legal closure.`,
+    finalThoughts: comprehensiveContent.finalThoughts || `If you are struggling with car loan EMIs in ${stateName}, a legal settlement provides a practical way out. CredSettle stops collection pressure and helps you settle your loan safely. Contact us today for a free consultation.`,
     faqs: comprehensiveContent.faqs || [
       {
         question: `How does car loan settlement work in ${stateName}?`,
-        answer: `Car loan settlement in ${stateName} involves CredSettle negotiating with your lender for a One-Time Settlement (OTS), typically reducing outstanding debt by 40-65%. We prevent vehicle repossession while achieving debt reduction through RBI-compliant processes.`
+        answer: `CredSettle negotiates a One-Time Settlement (OTS) with your bank in ${stateName}. This reduces your total loan balance by 40% to 65% and clears your debt legally.`
       },
       {
         question: `Can I keep my vehicle after settlement in ${stateName}?`,
-        answer: `Yes! In most cases, CredSettle’s settlements allow you to retain vehicle ownership. We prevent repossession during negotiations and structure settlements that preserve your vehicle while reducing debt substantially.`
+        answer: `Yes, in most cases you keep your vehicle. We put repossession on hold and structure a settlement that protects your car ownership.`
       },
       {
         question: `Will settlement affect my CIBIL score in ${stateName}?`,
-        answer: `Settlement is marked as "Settled" on CIBIL, which is better than "Written Off" from default. With proper documentation and our guidance, most clients rehabilitate scores to 650-700 within 18-24 months.`
+        answer: `Settlement shows as Settled on your CIBIL report. While your score drops temporarily, you can rebuild it to 650-700 within 18 to 24 months.`
       },
       {
         question: `What types of vehicle loans can CredSettle settle in ${stateName}?`,
-        answer: `We handle all vehicle loan types in ${stateName}: cars, SUVs, two-wheelers, commercial vehicles, and electric vehicles. Our expertise covers loans from all major banks and NBFCs.`
+        answer: `We settle loans for cars, SUVs, two-wheelers, and commercial vehicles from all major banks and NBFCs in ${stateName}.`
       },
       {
         question: `How much does car loan settlement cost in ${stateName}?`,
-        answer: `CredSettle charges fees only after successful settlement, with no upfront costs. Our transparent fee structure is based on the settlement amount and debt reduction achieved. Contact us for a free consultation.`
+        answer: `We charge fees only after your settlement is approved. There are no upfront fees. Contact us for a free consultation.`
       }
     ],
     keywords: comprehensiveContent.keywords || [`car loan settlement in ${stateName}`, `vehicle loan settlement ${stateName}`, `car loan OTS ${stateName}`, `auto loan settlement ${stateName}`, `RBI compliant car loan settlement ${stateName}`],

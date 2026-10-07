@@ -288,7 +288,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Legal Support and Vehicle Protection
+                    Legal Support for Car Loan Settlement in {content.stateName}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -316,7 +316,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Why Choose CredSettle in {content.stateName}
+                    Why Choose CredSettle for Car Loan Settlement in {content.stateName}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -344,7 +344,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    RBI Guidelines & Borrower Rights
+                    RBI Guidelines for Car Loan Settlement in {content.stateName}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -400,7 +400,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Settlement Case Study in {content.stateName}
+                    Car Loan Settlement Case Study in {content.stateName}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -428,7 +428,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Final Thoughts - Take the First Step Toward Financial Freedom
+                    Final Thoughts on Car Loan Settlement in {content.stateName}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"

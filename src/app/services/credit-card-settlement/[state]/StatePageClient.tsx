@@ -288,7 +288,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Legal Support through Our Lawyer Panel
+                    Legal Support for Credit Card Settlement in {content.stateName}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -316,7 +316,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Why Choose CredSettle in {content.stateName}
+                    Why Choose CredSettle for Credit Card Settlement in {content.stateName}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -344,7 +344,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    RBI Guidelines &amp; Cardholder Rights
+                    RBI Guidelines &amp; Cardholder Rights in {content.stateName}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -400,7 +400,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Settlement Case Study in {content.stateName}
+                    Credit Card Settlement Case Study in {content.stateName}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -428,7 +428,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Final Thoughts - Break Free from Debt
+                    Final Thoughts on Credit Card Settlement in {content.stateName}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"

@@ -137,7 +137,7 @@ function generateHeadings(content: any) {
   if (content.benefits) {
     headings.push({
       id: 'benefits',
-      text: `Why Choose CredSettle in ${content.stateName}`,
+      text: `Why Choose CredSettle for App Loan Settlement in ${content.stateName}`,
       level: 2
     });
   }
@@ -145,7 +145,7 @@ function generateHeadings(content: any) {
   if (content.rbiGuidelines) {
     headings.push({
       id: 'rbi-guidelines',
-      text: 'RBI Guidelines & Your Legal Rights',
+      text: `RBI Guidelines for App Loan Settlement in ${content.stateName}`,
       level: 2
     });
   }
@@ -169,7 +169,7 @@ function generateHeadings(content: any) {
   if (content.finalThoughts) {
     headings.push({
       id: 'final-thoughts',
-      text: 'Final Thoughts - Freedom From App Loan Harassment',
+      text: `Final Thoughts on App Loan Settlement in ${content.stateName}`,
       level: 2
     });
   }

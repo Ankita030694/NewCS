@@ -37,23 +37,23 @@ export const statesContent: Record<string, StateContent> = {
     faqs: [
       {
         question: 'How does NBFC loan settlement work in Maharashtra?',
-        answer: 'NBFC loan settlement in Maharashtra involves CredSettle negotiating with your NBFC lender for a One-Time Settlement (OTS), typically reducing debt by 40-70%. We handle all NBFCs from Bajaj Finance to Mahindra Finance operating in Mumbai and Pune.'
+        answer: 'CredSettle talks with your NBFC lender. We aim for a one-time settlement (OTS). Most clients get 40% to 70% debt relief. We handle lenders across Mumbai and Pune.'
       },
       {
         question: 'Is NBFC loan settlement legal in Maharashtra?',
-        answer: 'Yes! NBFC loan settlement through RBI-compliant processes is completely legal. CredSettle ensures all settlements follow RBI guidelines and provide complete legal closure protecting you from future claims.'
+        answer: 'Yes. NBFC loan settlement follows RBI rules. It is 100% legal. CredSettle ensures full legal closure so lenders cannot claim more money later.'
       },
       {
-        question: 'How much can I save through NBFC loan settlement in Mumbai/Pune?',
-        answer: 'Most Maharashtra clients achieve 40-70% debt reductions. If you owe ₹5 lakh to NBFCs, settlement typically resolves for ₹1.5-3 lakh, saving you ₹2-3.5 lakh plus years of high interest.'
+        question: 'How much can I save on NBFC loan settlement in Mumbai or Pune?',
+        answer: 'Most clients save 40% to 70%. If you owe ₹5 lakh, you might pay only ₹1.5 to ₹3 lakh. This saves you ₹2 to ₹3.5 lakh and stops high interest charges.'
       },
       {
         question: 'Will NBFC settlement affect my CIBIL score?',
-        answer: 'Settlement is marked as "Settled" on CIBIL, which is better than "Written Off" from default. We provide credit rehabilitation guidance to help rebuild scores to 650-700 within 18-24 months post-settlement.'
+        answer: 'Your credit report will mark the account as settled. This is much better than a write-off. We also guide you on how to rebuild your credit score step by step.'
       },
       {
         question: 'How much does NBFC loan settlement cost in Maharashtra?',
-        answer: 'We charge success-based fees only after settlement is achieved - no upfront costs. Our transparent fee structure is based on debt reduction achieved. Contact us for a free consultation specific to your Maharashtra case.'
+        answer: 'We charge fees only after we settle your debt. There are no upfront fees. Our charges are linked to how much money you save.'
       }
     ],
     keywords: ['NBFC loan settlement Maharashtra', 'NBFC debt settlement Mumbai', 'settle NBFC loan Pune', 'Bajaj Finance settlement Maharashtra', 'RBI compliant NBFC settlement']
@@ -69,23 +69,23 @@ export const statesContent: Record<string, StateContent> = {
     faqs: [
       {
         question: 'How does NBFC loan settlement work in Karnataka?',
-        answer: 'NBFC loan settlement in Karnataka involves CredSettle negotiating with your NBFC lender for a One-Time Settlement (OTS), typically reducing debt by 40-70%. We handle all NBFCs operating in Bangalore and across Karnataka.'
+        answer: 'CredSettle talks with your NBFC lender. We aim for a one-time settlement (OTS). Most clients get 40% to 70% debt relief. We handle lenders across Bangalore and Mysore.'
       },
       {
         question: 'Can I settle loans from multiple NBFCs in Bangalore?',
-        answer: 'Yes! We specialize in multi-NBFC settlements. If you have loans from Bajaj Finance, Tata Capital, and Mahindra Finance, we negotiate with all simultaneously for coordinated settlements.'
+        answer: 'Yes. We handle multi-lender settlements. If you owe money to several NBFCs, we talk to all of them at the same time.'
       },
       {
         question: 'How long does NBFC settlement take in Karnataka?',
-        answer: 'Most Karnataka NBFC settlements complete in 45-90 days from initial consultation to final closure. Harassment typically stops within 48 hours of our legal intervention.'
+        answer: 'Most settlements take 45 to 90 days. Recovery calls usually stop within 48 hours after our legal team steps in.'
       },
       {
         question: 'Will NBFC settlement affect my CIBIL score?',
-        answer: 'Settlement is marked as "Settled" on CIBIL. With proper documentation and our guidance, most Karnataka clients rehabilitate scores to 650-700 within 18-24 months post-settlement.'
+        answer: 'Your credit report will mark the loan as settled. We help you fix errors and guide you on rebuilding your score back above 700.'
       },
       {
         question: 'How much does NBFC loan settlement cost in Karnataka?',
-        answer: 'We charge success-based fees only after settlement is achieved - no upfront costs. Contact us for a free consultation specific to your Karnataka NBFC loan situation.'
+        answer: 'We charge fees only after we settle your debt. There are zero upfront fees. Book a free call to review your case.'
       }
     ],
     keywords: ['NBFC loan settlement Karnataka', 'NBFC debt settlement Bangalore', 'settle NBFC loan Mysore', 'Bajaj Finance settlement Karnataka', 'RBI compliant NBFC settlement']
@@ -101,23 +101,23 @@ export const statesContent: Record<string, StateContent> = {
     faqs: [
       {
         question: 'How does NBFC loan settlement work in Uttar Pradesh?',
-        answer: 'NBFC loan settlement in Uttar Pradesh involves CredSettle negotiating a One-Time Settlement (OTS) with your NBFC lender, often delivering 40-70% reductions while ensuring RBI compliance. We cover Lucknow, Kanpur, Noida, Ghaziabad, Meerut, Varanasi, Gorakhpur, and all districts.'
+        answer: 'CredSettle helps you negotiate a one-time settlement with your NBFC. Borrowers across Lucknow, Kanpur, and Noida often save 40% to 70% on total debt.'
       },
       {
         question: 'Can CredSettle stop NBFC harassment in Uttar Pradesh?',
-        answer: 'Yes. We issue legal notices, escalate to the NBFC grievance team, and coordinate with Uttar Pradesh cyber crime cells or Lok Adalat benches when needed so that harassment pauses while negotiation proceeds.'
+        answer: 'Yes. We send formal legal notices to the lender. We also escalate issues to NBFC grievance cells and Lok Adalat benches to stop agent harassment.'
       },
       {
         question: 'How long do NBFC settlements take in Uttar Pradesh?',
-        answer: 'Most Uttar Pradesh cases conclude within 45-90 days from engagement to final settlement letter. Harassment typically subsides within 48 hours of our legal intervention.'
+        answer: 'Most cases finish in 45 to 90 days. Harassment stops quickly once our legal team contacts your lenders.'
       },
       {
         question: 'Will settlement hurt my CIBIL score in Uttar Pradesh?',
-        answer: 'Settled accounts are preferable to write-offs. We help clients update credit bureaus, dispute errors, and rebuild scores using secured credit lines from cooperative banks and regional rural banks.'
+        answer: 'The loan is marked as settled. This is safer than default. We also guide you on how to raise your credit score over the next 12 to 18 months.'
       },
       {
         question: 'What are CredSettle’s fees for Uttar Pradesh NBFC cases?',
-        answer: 'We work on success-based fees payable only after the NBFC issues its settlement sanction and funds are released as per the negotiated plan. There are no upfront charges.'
+        answer: 'We charge fees only after you receive your official settlement letter from the lender. There are no upfront charges.'
       }
     ],
     keywords: ['NBFC loan settlement Uttar Pradesh', 'NBFC debt settlement Lucknow', 'settle NBFC loan Noida', 'CredSettle Uttar Pradesh', 'RBI compliant NBFC settlement UP']
@@ -133,23 +133,23 @@ export const statesContent: Record<string, StateContent> = {
     faqs: [
       {
         question: 'How does NBFC loan settlement work in West Bengal?',
-        answer: 'CredSettle negotiates One-Time Settlement (OTS) terms with your NBFC, often securing 40-70% reductions by presenting industry specific hardship proof for Kolkata, Howrah, Durgapur, Siliguri, and coastal borrowers.'
+        answer: 'CredSettle negotiates a one-time settlement with your NBFC. We submit genuine hardship proof to secure 40% to 70% debt waivers across Kolkata, Howrah, and Siliguri.'
       },
       {
         question: 'Can CredSettle stop NBFC harassment in West Bengal?',
-        answer: 'Yes. We issue legal notices, escalate to the NBFC grievance cell, engage Kolkata and Siliguri cyber crime units, and leverage West Bengal Lok Adalat forums so recovery pressure is paused while negotiations conclude.'
+        answer: 'Yes. We send legal notices to lenders and use RBI grievance channels. This stops abusive recovery calls while talks continue.'
       },
       {
         question: 'How long do settlements take in West Bengal?',
-        answer: 'Most West Bengal mandates close in 45-90 days, with harassment usually stopping within 48 hours once CredSettle begins legal escalation and compliance monitoring.'
+        answer: 'Most cases close in 45 to 90 days. Collection pressure drops sharply within 48 hours of our legal intervention.'
       },
       {
         question: 'Will settlement impact my CIBIL score in West Bengal?',
-        answer: 'Settlement results in a settled remark rather than a write-off. We help clients secure closure letters, file bureau disputes, and rebuild credit using cooperative bank lines or SIDBI backed products.'
+        answer: 'The bank marks the account as settled. We help you obtain no dues certificates and guide you on rebuilding your credit profile.'
       },
       {
         question: 'What are CredSettle fees for West Bengal cases?',
-        answer: 'We operate on a success based fee structure payable only after the NBFC issues the settlement sanction and payments are executed as per schedule. There are no upfront fees.'
+        answer: 'You pay our fees only after your loan is settled. We do not ask for any advance or upfront payment.'
       }
     ],
     keywords: ['NBFC loan settlement West Bengal', 'NBFC debt settlement Kolkata', 'settle NBFC loan Siliguri', 'CredSettle West Bengal', 'RBI compliant NBFC settlement Bengal']
@@ -165,23 +165,23 @@ export const statesContent: Record<string, StateContent> = {
     faqs: [
       {
         question: 'How does NBFC loan settlement work in Gujarat?',
-        answer: 'CredSettle negotiates One-Time Settlement (OTS) or structured instalment terms with your NBFC, typically delivering 40-70% reductions by presenting cluster-specific hardship from Ahmedabad, Surat, Vadodara, Rajkot, or Kutch.'
+        answer: 'CredSettle negotiates directly with your NBFC. We prove financial hardship and reduce outstanding debt by 40% to 70% across Ahmedabad, Surat, and Vadodara.'
       },
       {
         question: 'Can CredSettle stop NBFC harassment in Gujarat?',
-        answer: 'Yes. We issue legal notices, escalate to NBFC grievance officers and the Ahmedabad RBI Ombudsman, engage Gujarat Lok Adalat when beneficial, and coordinate with state cyber cells to pause coercive tactics.'
+        answer: 'Yes. We issue legal notices and contact NBFC grievance cells. This protects you and your business from unlawful recovery tactics.'
       },
       {
         question: 'How long do settlements take in Gujarat?',
-        answer: 'Most Gujarat cases close in 45-90 days, with recovery pressure usually easing within 48 hours once CredSettle begins legal escalation and compliance logging.'
+        answer: 'The settlement process typically takes 45 to 90 days. Recovery calls stop within 48 hours of our legal action.'
       },
       {
         question: 'Will settlement affect my CIBIL score in Gujarat?',
-        answer: 'Settlements show as settled rather than written off. We secure closure letters, raise bureau disputes, and map secured trade credit so clients rebuild their scores within twelve to eighteen months.'
+        answer: 'The loan status shows as settled. We ensure you get proper legal closure documents and guide you on restoring your credit score.'
       },
       {
         question: 'What fees does CredSettle charge for Gujarat NBFC cases?',
-        answer: 'Fees are success linked and payable only after the NBFC issues its settlement sanction and payments are executed. There are no upfront charges.'
+        answer: 'Our fee is purely success-based. You pay only after your NBFC issues the final settlement approval letter.'
       }
     ],
     keywords: ['NBFC loan settlement Gujarat', 'NBFC debt settlement Ahmedabad', 'settle NBFC loan Surat', 'CredSettle Gujarat', 'RBI compliant NBFC settlement Gujarat']
@@ -197,23 +197,23 @@ export const statesContent: Record<string, StateContent> = {
     faqs: [
       {
         question: 'How does NBFC loan settlement work in Haryana?',
-        answer: 'CredSettle negotiates One-Time Settlement (OTS) or structured repayment terms with your NBFC, often securing 40-70% reductions by presenting industry-specific hardship across Gurugram, Faridabad, Panipat, and rural Haryana.'
+        answer: 'CredSettle negotiates a one-time settlement with your lenders. We secure 40% to 70% debt waivers for borrowers in Gurugram, Faridabad, and Panipat.'
       },
       {
         question: 'Can CredSettle stop NBFC harassment in Haryana?',
-        answer: 'Yes. We issue legal notices, escalate to the NBFC grievance team, engage Gurugram and Faridabad cyber crime cells when harassment occurs, and reference Haryana Lok Adalat options so borrowers receive immediate relief while talks continue.'
+        answer: 'Yes. We send formal legal notices and take action against rogue agents under RBI fair practice codes.'
       },
       {
         question: 'How long does the settlement process take in Haryana?',
-        answer: 'Most Haryana settlements conclude within 45-90 days. Recovery pressure generally subsides within 48 hours once CredSettle begins compliance logging and legal escalation.'
+        answer: 'Settlement takes about 45 to 90 days. Agent visits and calls cease soon after we file legal notices.'
       },
       {
         question: 'Will settlement affect my CIBIL score in Haryana?',
-        answer: 'Settlements show as settled rather than written off. We help clients secure closure letters, file bureau disputes, and rebuild credit with cooperative bank products or SIDBI-backed lines so scores recover within 12-18 months.'
+        answer: 'The record is updated as settled. We help you collect full clearance paperwork and improve your score over time.'
       },
       {
         question: 'What are CredSettle’s fees for Haryana NBFC cases?',
-        answer: 'We charge success-based fees payable only after the NBFC issues its settlement sanction and funds are released as per the negotiated plan. There are no upfront charges.'
+        answer: 'We do not charge upfront fees. You only pay our service fee after your settlement is successfully approved.'
       }
     ],
     keywords: ['NBFC loan settlement Haryana', 'NBFC debt settlement Gurugram', 'settle NBFC loan Panipat', 'CredSettle Haryana', 'RBI compliant NBFC settlement Haryana']
@@ -229,23 +229,23 @@ export const statesContent: Record<string, StateContent> = {
     faqs: [
       {
         question: 'How does NBFC loan settlement work in Telangana?',
-        answer: 'CredSettle negotiates One-Time Settlement (OTS) or structured instalment plans with your NBFC, often delivering 40-70% reductions by presenting evidence from Telangana IT, pharma, logistics, or agri sectors.'
+        answer: 'CredSettle helps borrowers in Hyderabad and Warangal negotiate one-time settlements. We cut total loan dues by 40% to 70% under RBI guidelines.'
       },
       {
         question: 'Can CredSettle stop NBFC harassment in Telangana?',
-        answer: 'Yes. We escalate to NBFC grievance teams, the RBI ombudsman, and Telangana cyber crime cells when digital harassment occurs, while filing Lok Adalat references to push lenders toward compliance.'
+        answer: 'Yes. We send legal notices to lenders and use RBI grievance channels to protect you from abusive recovery agents.'
       },
       {
         question: 'How long do settlements take in Telangana?',
-        answer: 'Most Telangana mandates close within 45-90 days. Harassment usually subsides within 48 hours after CredSettle begins legal escalation and compliance documentation.'
+        answer: 'Most cases finish in 45 to 90 days. Harassment stops quickly after our legal team notifies your lender.'
       },
       {
         question: 'Will settlement affect my CIBIL score in Telangana?',
-        answer: 'Settlements are marked as settled. We obtain closure letters, raise bureau disputes, and guide borrowers on secured credit so scores can recover above 650 within 12-18 months.'
+        answer: 'Your account is marked as settled. We guide you on credit rebuilding steps to get your score back over 650 to 700.'
       },
       {
         question: 'What are CredSettle’s fees for Telangana cases?',
-        answer: 'Fees are success based and payable only after the NBFC issues its settlement sanction and funds are remitted as per the plan. There are no upfront charges.'
+        answer: 'Our fee is 100% success-based. You pay only after receiving the official settlement letter from your NBFC.'
       }
     ],
     keywords: ['NBFC loan settlement Telangana', 'NBFC debt settlement Hyderabad', 'settle NBFC loan Warangal', 'CredSettle Telangana', 'RBI compliant NBFC settlement Telangana']
@@ -276,37 +276,37 @@ export function generateDefaultContent(stateName: string, slug: string): StateCo
     metaDescription: `Expert NBFC loan settlement in ${stateName}. RBI-compliant debt relief, stop harassment, and reduce debt legally with CredSettle.`,
     heroTitle: `NBFC Loan Settlement in ${stateName}`,
     heroDescription: `Professional NBFC loan settlement services for borrowers in ${stateName}. Stop harassment, reduce debt significantly, and restore financial stability.`,
-    whyNBFCLoanSettlement: comprehensiveContent.whyNBFCLoanSettlement || `For NBFC loan borrowers in ${stateName} struggling with high-interest EMIs and aggressive recovery tactics, settlement offers strategic escape. CredSettle’s RBI-compliant process typically reduces debt by 40-70% while stopping harassment and ensuring complete legal closure.`,
-    commonNBFCLoanProblems: comprehensiveContent.commonNBFCLoanProblems || `NBFC loan borrowers in ${stateName} face unique challenges: higher interest rates (18-36%) than banks, more aggressive recovery tactics, complex legal agreements, and harassment targeting family and workplace. CredSettle addresses all these systematically.`,
-    credsettleOverview: comprehensiveContent.credsettleOverview || `CredSettle provides specialized NBFC loan settlement services in ${stateName}, handling all major NBFCs from Bajaj Finance to Tata Capital. Our RBI-compliant approach achieves 45-65% debt reductions while ensuring complete legal protection.`,
-    rbiCompliantProcess: comprehensiveContent.rbiCompliantProcess || `Our settlement process follows strict RBI guidelines: comprehensive case analysis, immediate harassment cessation, direct NBFC negotiations leveraging settlement frameworks, structured payment planning, and complete legal closure documentation.`,
-    negotiationHelp: comprehensiveContent.negotiationHelp || `CredSettle’s expert negotiators leverage relationships with all major NBFCs and deep knowledge of RBI settlement frameworks to secure optimal outcomes. We understand NBFC-specific policies and recovery processes.`,
-    legalSupport: comprehensiveContent.legalSupport || `Our legal team provides comprehensive protection: harassment cessation notices, settlement agreement review, RBI compliance verification, and complete closure documentation preventing future claims.`,
-    benefits: comprehensiveContent.benefits || `Choosing CredSettle delivers: immediate harassment cessation, 40-70% debt reduction, complete legal protection, multi-NBFC coordination, zero upfront costs, and post-settlement credit rehabilitation guidance.`,
-    rbiGuidelines: comprehensiveContent.rbiGuidelines || `RBI guidelines mandate fair treatment of borrowers in financial distress. NBFCs must provide settlement options, follow proper recovery procedures, and respect borrower rights. CredSettle ensures your rights are protected throughout the process.`,
-    stepByStepGuide: comprehensiveContent.stepByStepGuide || `Step 1: Free consultation and case analysis. Step 2: Engagement and immediate harassment cessation. Step 3: Documentation and NBFC identification. Step 4: Settlement negotiation (45-90 days). Step 5: Agreement finalization and payment. Step 6: Complete legal closure.`,
-    caseStudy: comprehensiveContent.caseStudy || `A ${cityName} resident owing ₹7 lakh to two NBFCs faced aggressive recovery and legal threats. CredSettle stopped harassment within 48 hours, negotiated ₹2.8 lakh settlement (60% reduction), and secured complete legal closure. Today, the client is financially stable.`,
-    finalThoughts: comprehensiveContent.finalThoughts || `If you’re struggling with NBFC loan debt in ${stateName}, facing harassment, or trapped in high-interest cycles, recognize that RBI-compliant settlement offers legitimate resolution. CredSettle’s expertise transforms crises into manageable outcomes. Contact us today for your free consultation.`,
+    whyNBFCLoanSettlement: comprehensiveContent.whyNBFCLoanSettlement || `Are you struggling with NBFC loan EMIs in ${stateName}? High interest rates make repayment hard. Loan settlement offers a fresh start. CredSettle works under RBI rules. We help reduce your debt by 40% to 70%. We also stop agent harassment and protect your rights.`,
+    commonNBFCLoanProblems: comprehensiveContent.commonNBFCLoanProblems || `Borrowers in ${stateName} face heavy interest rates of 18% to 36%. Hidden fees and strict recovery calls add stress. When income drops, paying EMIs becomes tough. CredSettle gives you legal backing and helps resolve these issues step by step.`,
+    credsettleOverview: comprehensiveContent.credsettleOverview || `CredSettle provides expert loan settlement across ${stateName}. We handle major NBFC lenders. Our team cuts your outstanding dues by 40% to 70%. We ensure full legal protection and zero harassment.`,
+    rbiCompliantProcess: comprehensiveContent.rbiCompliantProcess || `We follow clear RBI rules. First, we review your debt. Next, we stop recovery calls. Then, we negotiate lower terms with your lender. Finally, you get a full no dues certificate.`,
+    negotiationHelp: comprehensiveContent.negotiationHelp || `Our experienced team negotiates directly with NBFCs. We know their settlement policies. We secure the best possible waiver on interest and principal for you.`,
+    legalSupport: comprehensiveContent.legalSupport || `Our legal experts protect you at every step. We issue formal legal replies to recovery notices. We verify settlement terms and secure valid closure letters.`,
+    benefits: comprehensiveContent.benefits || `Key benefits include: fast stop to agent harassment, 40% to 70% debt reduction, full legal safety, no advance charges, and guidance to rebuild your credit score.`,
+    rbiGuidelines: comprehensiveContent.rbiGuidelines || `RBI rules require fair treatment for all borrowers in distress. Lenders must offer genuine settlement options and follow ethical conduct. CredSettle defends your rights under these rules.`,
+    stepByStepGuide: comprehensiveContent.stepByStepGuide || `Step 1: Free review of your loan details. Step 2: Legal notice to halt agent harassment. Step 3: Financial hardship assessment. Step 4: Direct settlement talks with the lender. Step 5: Official settlement sanction letter. Step 6: Payment and final no dues certificate.`,
+    caseStudy: comprehensiveContent.caseStudy || `A borrower in ${cityName} owed ₹7 lakh across two NBFCs. Aggressive recovery calls caused immense stress. CredSettle stepped in and stopped all calls in 48 hours. We negotiated a final settlement of ₹2.8 lakh, cutting debt by 60%. The client is now debt-free.`,
+    finalThoughts: comprehensiveContent.finalThoughts || `If you face mounting NBFC debt in ${stateName}, take action today. Settle your debt legally through RBI rules and regain peace of mind. Call CredSettle now for a free consultation.`,
     faqs: comprehensiveContent.faqs || [
       {
         question: `How does NBFC loan settlement work in ${stateName}?`,
-        answer: `NBFC loan settlement in ${stateName} involves CredSettle negotiating with your NBFC lender for a One-Time Settlement (OTS), typically reducing outstanding debt by 40-70% through RBI-compliant processes.`
+        answer: `CredSettle negotiates a one-time settlement with your NBFC lender. This typically reduces your total debt by 40% to 70% under RBI guidelines.`
       },
       {
         question: `Is NBFC loan settlement legal in ${stateName}?`,
-        answer: `Yes! NBFC loan settlement through RBI-compliant processes is completely legal. CredSettle ensures all settlements follow regulatory guidelines and provide complete legal closure.`
+        answer: `Yes. NBFC loan settlement follows RBI guidelines. It is completely legal and gives you full formal closure.`
       },
       {
         question: `How much can I save through NBFC settlement in ${stateName}?`,
-        answer: `Most ${stateName} clients achieve 40-70% debt reductions. If you owe ₹5 lakh, settlement typically resolves for ₹1.5-3 lakh, saving you ₹2-3.5 lakh plus years of interest.`
+        answer: `Most clients save between 40% and 70%. For example, an outstanding debt of ₹5 lakh can often be settled for ₹1.5 to ₹3 lakh.`
       },
       {
         question: `Will NBFC settlement affect my CIBIL score in ${stateName}?`,
-        answer: `Settlement is marked as "Settled" on CIBIL, which is better than "Written Off" from default. We provide guidance to help rebuild scores to 650-700 within 18-24 months.`
+        answer: `The loan shows as settled on your credit report. This is better than a default. We also guide you on how to rebuild your score step by step.`
       },
       {
         question: `How much does NBFC settlement cost in ${stateName}?`,
-        answer: `We charge success-based fees only after settlement is achieved-no upfront costs. Contact us for a free consultation specific to your ${stateName} NBFC loan situation.`
+        answer: `We charge success-based fees only after your settlement is complete. There are no upfront fees. Contact us for a free case assessment.`
       }
     ],
     keywords: comprehensiveContent.keywords || [`NBFC loan settlement in ${stateName}`, `NBFC debt settlement ${stateName}`, `settle NBFC loan ${stateName}`, `RBI compliant NBFC settlement ${stateName}`],

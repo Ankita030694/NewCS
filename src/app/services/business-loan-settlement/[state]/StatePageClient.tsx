@@ -288,7 +288,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Legal Support through Our Lawyer Panel
+                    Legal Support for Business Loan Settlement in {content.stateName}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -316,7 +316,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Why Choose CredSettle in {content.stateName}
+                    Why Choose CredSettle for Business Loan Settlement in {content.stateName}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -344,7 +344,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    RBI Guidelines & Legal Rights of Business Borrowers
+                    RBI Guidelines for Business Loan Settlement in {content.stateName}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -400,7 +400,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Settlement Case Study in {content.stateName}
+                    Business Loan Settlement Case Study in {content.stateName}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -428,7 +428,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Final Thoughts - Take the First Step Toward a Debt-Free Business
+                    Final Thoughts on Business Loan Settlement in {content.stateName}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"

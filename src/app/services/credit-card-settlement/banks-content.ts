@@ -180,38 +180,38 @@ export function getBankContentWithFallback(bankSlug: string): BankContent {
   const defaultContent: BankContent = {
     bankName,
     slug,
-    title: `${bankName} Credit Card Settlement - How to Settle Your Credit Card Dues with ${bankName} Legally in India (2025 Guide)`,
+    title: `${bankName} Credit Card Settlement - Settle Dues Legally`,
     metaTitle: generatedContent?.metaTitle || getBankMetaTitle(bankName),
-    metaDescription: `Struggling with ${bankName} credit card dues? CredSettle helps you legally settle credit card debt under RBI guidelines. Get 50% settlement support today!`,
+    metaDescription: `Struggling with ${bankName} credit card dues? CredSettle helps you settle card debt legally under RBI rules. Settle up to 50% today.`,
     heroTitle: `${bankName} Credit Card Settlement`,
-    heroDescription: `Expert legal assistance to settle your ${bankName} credit card dues through RBI-compliant One-Time Settlement (OTS). Stop harassment and achieve debt freedom with CredSettle’s lawyer panel.`,
-    whyChooseSettlement: generatedContent?.whyChooseSettlement || `Credit card debt can spiral out of control with compounding interest. When ${bankName} credit card dues accumulate, settlement offers a legal, dignified path to debt freedom. CredSettle helps cardholders across India negotiate RBI-compliant settlements with ${bankName}, typically reducing outstanding dues by 30-70% while ensuring complete legal protection.`,
-    understandingSettlement: generatedContent?.understandingSettlement || `${bankName} credit card settlement follows RBI’s One-Time Settlement (OTS) framework, allowing cardholders to negotiate reduced lump-sum payments to permanently close credit card accounts. CredSettle’s legal team initiates formal settlement discussions with ${bankName}, presenting financial hardship cases supported by documentation. Settlement involves formal negotiation, legal documentation, structured payment schedules, and issuance of final closure letters confirming zero balance.`,
-    howCredSettleHelps: generatedContent?.howCredSettleHelps || `CredSettle provides end-to-end legal support for ${bankName} credit card settlements through our experienced lawyer panel. We analyze your financial situation, prepare structured OTS proposals, handle all negotiations, and guide you through payment execution and documentation. Importantly, CredSettle assists you to settle your credit card dues for up to 50% of your outstanding amount-including our fees. This means genuine debt relief with complete legal protection.`,
-    cibilImpact: generatedContent?.cibilImpact || `Settlement with ${bankName} will impact your CIBIL score-CredSettle provides transparent information upfront. The account status changes to "Settled," typically reducing scores by 50-150 points temporarily. However, this impact is manageable: with CredSettle’s credit rehabilitation guidance, scores typically recover to 650-700+ within 2-3 years. The alternative-continuing minimum payments-keeps scores below 400-500 indefinitely, making recovery impossible.`,
-    whyChooseCredSettle: generatedContent?.whyChooseCredSettle || `CredSettle stands apart through legal expertise, RBI compliance, and client-focused service. Our lawyer panel includes experienced attorneys specializing in banking law and debt resolution. We’ve successfully negotiated hundreds of ${bankName} credit card settlements, achieving average principal reductions of 40-55% while ensuring complete legal closure. Our end-to-end assistance means you don’t deal with recovery agents or complex documentation alone.`,
-    stepByStepProcess: generatedContent?.stepByStepProcess || `Step 1: Initial Inquiry & Consultation - Contact CredSettle for free preliminary consultation. Step 2: Lawyer Panel Assignment & Case Analysis - Comprehensive review of your ${bankName} credit card details. Step 3: OTS Proposal Preparation & Submission - Structured proposal to ${bankName}. Step 4: Negotiation & OTS Approval - Professional negotiation handling. Step 5: Payment Execution & Settlement Completion - Guided payment and documentation. Step 6: Post-Settlement Support & Credit Rehabilitation - Credit rebuilding guidance.`,
-    documentsRequired: generatedContent?.documentsRequired || `Essential documents include: original credit card application form, latest credit card statement, identity proof, address proof, income proof, default notices, hardship documentation, bank statements, employment proof, and any previous settlement proposals. CredSettle’s legal team reviews all documents and prepares them in formats preferred by ${bankName}.`,
+    heroDescription: `Get legal help to settle your ${bankName} credit card dues. We use RBI One-Time Settlement rules. Stop collection calls and become debt-free today.`,
+    whyChooseSettlement: generatedContent?.whyChooseSettlement || `Credit card debt can grow very fast. High interest rates make it hard to pay off. When ${bankName} card bills pile up, settlement offers a clean exit. CredSettle helps cardholders across India negotiate with ${bankName}. We help cut your total dues by 30% to 70%. You get full legal safety at every step.`,
+    understandingSettlement: generatedContent?.understandingSettlement || `${bankName} credit card settlement follows RBI rules for debt relief. You pay a reduced lump sum to close your card account permanently. CredSettle starts formal talks with ${bankName}. We present your financial hardship with clear proof. Once approved, you pay the agreed sum. ${bankName} then gives you a no dues certificate.`,
+    howCredSettleHelps: generatedContent?.howCredSettleHelps || `CredSettle gives you full legal support for ${bankName} credit card settlement. Our expert lawyer panel reviews your debts. We write and send a strong settlement plan. Our team handles all calls from recovery agents. We help you settle ${bankName} dues for up to 50% of the total amount. You get genuine debt relief and peace of mind.`,
+    cibilImpact: generatedContent?.cibilImpact || `Settling card debt with ${bankName} will affect your CIBIL score. Your credit report will show the account as settled. Your score may drop by 50 to 100 points for a short time. However, this is much better than missing payments forever. CredSettle gives you a clear plan to rebuild your credit score. Most clients get back to a 700+ score within 18 to 24 months.`,
+    whyChooseCredSettle: generatedContent?.whyChooseCredSettle || `CredSettle is India's trusted debt resolution service. Our lawyers have settled hundreds of ${bankName} credit card cases. We know bank rules and settlement limits well. We protect you from unfair collection tactics. We negotiate the best possible waiver on interest and charges. We handle all paperwork so you can relax.`,
+    stepByStepProcess: generatedContent?.stepByStepProcess || `Step 1. Free Consultation. Call CredSettle to discuss your ${bankName} card debt. Step 2. Document Review. Send your card statements and hardship proof. Step 3. Harassment Protection. Our legal team sends notices to stop collection calls. Step 4. Bank Negotiation. We talk directly to ${bankName} for the best waiver. Step 5. Payment and Closure. You pay the settlement amount and get your NOC.`,
+    documentsRequired: generatedContent?.documentsRequired || `You need a few basic documents for ${bankName} card settlement. 1. Recent credit card statements. 2. PAN card and Aadhaar card. 3. Proof of income or bank statements. 4. Proof of financial hardship, like medical bills or job loss letters. 5. Any notices sent by ${bankName}. Our team helps you organize all documents quickly.`,
     faqs: generatedContent?.faqs || [
       {
-        question: `What is the minimum settlement percentage for ${bankName} credit cards?`,
-        answer: `${bankName} typically offers credit card settlements between 25% and 70% of total outstanding, depending on account vintage and default duration. CredSettle negotiates based on your specific case, typically achieving 40-60% reductions.`
+        question: `What is the minimum settlement amount for ${bankName} credit cards?`,
+        answer: `${bankName} credit card settlements usually range from 30% to 60% of total dues. The exact discount depends on how long the account has been overdue. CredSettle works to get you the highest possible discount.`
       },
       {
         question: `Can I settle my credit card dues legally with ${bankName}?`,
-        answer: `Yes, ${bankName} offers legal credit card settlement through RBI-compliant OTS programs. CredSettle helps negotiate structured settlements typically reducing dues by 30-60%, with complete legal protection.`
+        answer: `Yes. Settling credit card dues is completely legal under RBI rules. CredSettle negotiates a formal One-Time Settlement with ${bankName} for you.`
       },
       {
         question: `How long does the credit card settlement process take with ${bankName}?`,
-        answer: `${bankName} credit card settlement timelines typically range from 45-120 days. CredSettle’s experienced legal team expedites timelines through proper documentation and strategic negotiation, typically completing settlements within 60-90 days.`
+        answer: `Most ${bankName} card settlements take 30 to 60 days. Our legal team speeds up the process by submitting complete paperwork early.`
       },
       {
         question: `Will my CIBIL score recover after settling my ${bankName} credit card?`,
-        answer: `Yes, CIBIL scores recover after ${bankName} credit card settlement with time and responsible credit behavior. With CredSettle’s credit rehabilitation guidance, scores typically recover to 650-700+ within 2-3 years.`
+        answer: `Yes. Your score will drop initially, but it recovers over time. By following CredSettle’s credit rebuilding tips, you can reach 700+ within two years.`
       },
       {
         question: `How can CredSettle help me get a better deal with ${bankName}?`,
-        answer: `CredSettle’s expertise with ${bankName} credit card settlements means better outcomes through professional proposal preparation, strategic negotiation, proper documentation, RBI compliance, and end-to-end support. We assist you to settle for up to 50% of outstanding (including our fees).`
+        answer: `CredSettle knows ${bankName} settlement policies inside out. We use legal notices and strong hardship evidence to secure maximum interest waivers for you.`
       }
     ],
     keywords: generateKeywords(bankName)

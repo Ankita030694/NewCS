@@ -129,7 +129,7 @@ function generateHeadings(content: any) {
   if (content.legalSupport) {
     headings.push({
       id: 'legal-support',
-      text: 'Legal Support through Our Lawyer Panel',
+      text: `Legal Support for Business Loan Settlement in ${content.stateName}`,
       level: 2
     });
   }
@@ -137,7 +137,7 @@ function generateHeadings(content: any) {
   if (content.benefits) {
     headings.push({
       id: 'benefits',
-      text: `Why Choose CredSettle in ${content.stateName}`,
+      text: `Why Choose CredSettle for Business Loan Settlement in ${content.stateName}`,
       level: 2
     });
   }
@@ -145,7 +145,7 @@ function generateHeadings(content: any) {
   if (content.rbiGuidelines) {
     headings.push({
       id: 'rbi-guidelines',
-      text: 'RBI Guidelines & Legal Rights of Business Borrowers',
+      text: `RBI Guidelines for Business Loan Settlement in ${content.stateName}`,
       level: 2
     });
   }
@@ -161,7 +161,7 @@ function generateHeadings(content: any) {
   if (content.caseStudy) {
     headings.push({
       id: 'case-study',
-      text: `Settlement Case Study in ${content.stateName}`,
+      text: `Business Loan Settlement Case Study in ${content.stateName}`,
       level: 2
     });
   }
@@ -169,7 +169,7 @@ function generateHeadings(content: any) {
   if (content.finalThoughts) {
     headings.push({
       id: 'final-thoughts',
-      text: 'Final Thoughts - Take the First Step Toward a Debt-Free Business',
+      text: `Final Thoughts on Business Loan Settlement in ${content.stateName}`,
       level: 2
     });
   }
@@ -177,7 +177,7 @@ function generateHeadings(content: any) {
   // Always add FAQs
   headings.push({
     id: 'faqs',
-    text: 'Frequently Asked Questions',
+    text: `Business Loan Settlement FAQs in ${content.stateName}`,
     level: 2
   });
 

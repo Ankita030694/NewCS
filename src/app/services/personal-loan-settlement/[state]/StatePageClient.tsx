@@ -213,7 +213,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Common Loan Problems in {content.stateName}
+                        Common Personal Loan Problems in {content.stateName}
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -241,7 +241,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        CredSettle - India&apos;s Trusted Loan Settlement Company
+                        CredSettle - India&apos;s Trusted Personal Loan Settlement Company
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -266,7 +266,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                         marginBottom: '16px'
                       }}
                     >
-                          Our RBI-Compliant Loan Settlement Process in {content.stateName}
+                          Our RBI-Compliant Personal Loan Settlement Process in {content.stateName}
                         </h3>
                         <p style={{ marginBottom: '16px' }}>{content.rbiCompliantProcess}</p>
                       </div>
@@ -307,7 +307,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Legal Support through Our Lawyer Panel
+                        Legal Support for Personal Loans in {content.stateName}
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -335,7 +335,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Types of Loans We Settle in {content.stateName}
+                        Types of Personal Loans We Settle in {content.stateName}
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -422,7 +422,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Why Choose CredSettle in {content.stateName}
+                        Why Choose CredSettle for Personal Loan Settlement in {content.stateName}
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -450,7 +450,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        RBI Guidelines &amp; Legal Rights of Borrowers
+                        RBI Guidelines for Personal Loan Settlement in {content.stateName}
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -478,7 +478,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Guide to Loan Settlement with CredSettle
+                        Guide to Personal Loan Settlement with CredSettle
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -506,7 +506,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Settlement Case Study in {content.stateName}
+                        Personal Loan Settlement Case Study in {content.stateName}
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -534,7 +534,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Final Thoughts - Path to a Debt-Free Life
+                        Final Thoughts on Personal Loan Settlement in {content.stateName}
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
