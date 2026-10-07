@@ -20,7 +20,32 @@ export async function generateStaticParams() {
 function getShortStateName(stateName: string): string {
   if (stateName === 'Dadra and Nagar Haveli and Daman and Diu') return 'DNH & DD';
   if (stateName === 'Andaman and Nicobar Islands') return 'Andaman & Nicobar';
+  if (stateName === 'Jammu and Kashmir') return 'Jammu & Kashmir';
   return stateName;
+}
+
+function getCCStateH1(bankName: string, stateName: string): string {
+  const shortState = getShortStateName(stateName);
+  const displayState = stateName.length > 20 ? shortState : stateName;
+  const p1 = `Stop ${bankName} Recovery Agents in ${displayState}`;
+  if (p1.length <= 65) return p1;
+  const p2 = `Stop ${bankName} Recovery in ${displayState}`;
+  if (p2.length <= 65) return p2;
+  const p3 = `${bankName} Settlement in ${displayState}`;
+  if (p3.length <= 65) return p3;
+  return p3.slice(0, 65);
+}
+
+function getCCStateH2(bankName: string, stateName: string): string {
+  const shortState = getShortStateName(stateName);
+  const displayState = stateName.length > 20 ? shortState : stateName;
+  const p1 = `Legal Guide to ${bankName} Settlement in ${displayState}`;
+  if (p1.length <= 65) return p1;
+  const p2 = `${bankName} Settlement Guide in ${displayState}`;
+  if (p2.length <= 65) return p2;
+  const p3 = `Settle ${bankName} Card Dues in ${displayState}`;
+  if (p3.length <= 65) return p3;
+  return p3.slice(0, 65);
 }
 
 function getCCStateMetaTitle(bankName: string, stateName: string): string {
@@ -38,25 +63,28 @@ function getCCStateMetaTitle(bankName: string, stateName: string): string {
 
 function getCCStateMetaDescription(bankName: string, stateName: string): string {
   const shortState = getShortStateName(stateName);
-  const options = [
-    `Facing ${bankName} credit card harassment in ${stateName}? CredSettle provides legal debt resolution & protection. Free consultation.`,
-    `Facing ${bankName} credit card harassment in ${shortState}? CredSettle provides legal debt resolution & protection. Free consultation.`,
-    `Facing ${bankName} harassment in ${stateName}? CredSettle negotiates credit card debt settlements legally. Free consultation.`,
-    `Facing ${bankName} harassment in ${shortState}? CredSettle negotiates credit card debt settlements legally. Free consultation.`,
-    `Facing ${bankName} credit card debt in ${stateName}? CredSettle negotiates legal settlements and stops recovery harassment. Free consultation.`,
-    `Facing ${bankName} credit card debt in ${shortState}? CredSettle negotiates legal settlements and stops recovery harassment. Free consultation.`,
-    `Facing ${bankName} credit card debt harassment in ${stateName}? CredSettle negotiates settlements legally and protects rights. Free consultation.`,
-    `Facing ${bankName} credit card debt harassment in ${shortState}? CredSettle negotiates settlements legally and protects rights. Free consultation.`,
-    `Facing ${bankName} credit card harassment in ${shortState}? CredSettle negotiates legal settlements & stops agent calls. Free consultation.`,
-    `Facing ${bankName} credit card debt harassment in ${stateName}? CredSettle provides expert legal debt settlement services. Free consultation.`,
-    `Facing ${bankName} credit card debt in ${stateName}? CredSettle provides expert legal settlement services and harassment relief. Free consultation.`
+  const displayState = stateName.length > 20 ? shortState : stateName;
+
+  const candidates = [
+    `Facing ${bankName} credit card harassment in ${displayState}? CredSettle provides legal debt resolution & relief. Free consultation.`,
+    `Facing ${bankName} credit card debt in ${displayState}? Settle legally under RBI rules with CredSettle. Free consultation.`,
+    `Facing ${bankName} credit card harassment in ${shortState}? CredSettle provides legal debt resolution & relief. Free consultation.`,
+    `Facing ${bankName} credit card debt in ${shortState}? Settle legally under RBI rules with CredSettle. Free consultation.`,
+    `Facing ${bankName} harassment in ${displayState}? Settle credit card debt legally with CredSettle. Free consultation.`,
+    `Facing ${bankName} harassment in ${shortState}? Settle credit card debt legally with CredSettle. Free consultation.`,
+    `Settle ${bankName} credit card dues in ${displayState} legally with CredSettle. Stop harassment. Free consultation.`,
+    `Settle ${bankName} credit card dues in ${shortState} legally with CredSettle. Stop harassment. Free consultation.`
   ];
 
-  for (const opt of options) {
-    if (opt.length >= 130 && opt.length <= 155) return opt;
+  for (const c of candidates) {
+    if (c.length >= 115 && c.length <= 136) return c;
   }
 
-  return options[0];
+  for (const c of candidates) {
+    if (c.length <= 138) return c;
+  }
+
+  return candidates[0].slice(0, 135);
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string; "state-slug": string }> }) {
@@ -203,11 +231,16 @@ export default async function BankStateSettlementPage({ params }: { params: Prom
     ]
   };
 
+  const shortState = getShortStateName(state.name);
+  const displayState = state.name.length > 20 ? shortState : state.name;
+  const h2Text = getCCStateH2(bank.name, state.name);
+
   const tocSections = [
-    { id: "local-harassment", text: `Combating ${bank.name} Harassment`, level: 2 },
-    { id: "legal-recourse", text: `Legal Recourse for ${bank.name} in ${state.name}`, level: 3 },
-    { id: "settlement-process", text: `The ${bank.name} Settlement Process`, level: 2 },
-    { id: "drt-jurisdiction", text: `DRT Limits for ${bank.name} Credit Cards`, level: 3 },
+    { id: "overview", text: h2Text, level: 2 },
+    { id: "local-harassment", text: `Combating ${bank.name} Harassment`, level: 3 },
+    { id: "legal-recourse", text: `Legal Recourse in ${displayState}`, level: 3 },
+    { id: "settlement-process", text: `${bank.name} Settlement Process`, level: 3 },
+    { id: "drt-jurisdiction", text: `DRT Limits & Jurisdiction`, level: 3 },
   ];
 
   const breadcrumbItems = [
@@ -231,7 +264,7 @@ export default async function BankStateSettlementPage({ params }: { params: Prom
         
         <div className="text-center max-w-4xl mx-auto my-12">
           <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 tracking-tight">
-            Stop <span className="text-blue-600">{bank.name}</span> Recovery Agents in {state.name}
+            Stop <span className="text-blue-600">{bank.name}</span> Recovery Agents in {displayState}
           </h1>
           <p className="text-xl text-gray-600 mb-8">
             Leverage local consumer protection laws. CredSettle provides the legal intervention needed to halt harassment and secure a massively discounted settlement for your unsecured debt in {state.name}.
@@ -241,12 +274,14 @@ export default async function BankStateSettlementPage({ params }: { params: Prom
         <div className="flex flex-col lg:flex-row gap-12 mt-12">
           {/* Main Content */}
           <article className="lg:w-2/3 prose prose-lg max-w-none bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
-            <h2 id="local-harassment" className="scroll-mt-24 text-3xl font-bold mb-4">Combating {bank.name} Harassment</h2>
+            <h2 id="overview" className="scroll-mt-24 text-3xl font-bold mb-6 text-gray-900 border-b border-gray-100 pb-4">{h2Text}</h2>
+
+            <h3 id="local-harassment" className="scroll-mt-24 text-2xl font-bold mb-4 text-gray-900">Combating {bank.name} Harassment in {displayState}</h3>
             <p className="text-gray-700 leading-relaxed mb-6">
               When residents of {state.name} fall behind on their {bank.name} credit card payments, they are frequently targeted by aggressive third-party collection agencies. These agencies often operate under the false assumption that borrowers are unaware of their regional legal rights. CredSettle acts as your impenetrable legal shield, stepping in to absorb and permanently stop the calls while we negotiate.
             </p>
 
-            <h3 id="legal-recourse" className="scroll-mt-24 text-2xl font-bold mb-4">Legal Recourse for {bank.name} in {state.name}</h3>
+            <h3 id="legal-recourse" className="scroll-mt-24 text-2xl font-bold mb-4 text-gray-900">Legal Recourse for {bank.name} in {state.name}</h3>
             <p className="text-gray-700 leading-relaxed mb-6">
               If recovery agents resort to using abusive language, threatening physical harm, or contacting your relatives/employer, they are committing criminal offenses. In {state.name}, we heavily utilize the {state.policeAuthority} to lodge formal complaints. We also send direct legal notices to {bank.name}'s nodal officers, explicitly citing recent {state.highCourt} judgments regarding consumer privacy, effectively ending the harassment overnight.
             </p>
@@ -258,12 +293,12 @@ export default async function BankStateSettlementPage({ params }: { params: Prom
               </p>
             </div>
 
-            <h2 id="settlement-process" className="scroll-mt-24 text-3xl font-bold mb-4">The {bank.name} Settlement Process</h2>
+            <h3 id="settlement-process" className="scroll-mt-24 text-2xl font-bold mb-4 text-gray-900">The {bank.name} Settlement Process in {displayState}</h3>
             <p className="text-gray-700 leading-relaxed mb-6">
               CredSettle's negotiation strategy revolves around forcing {bank.name} to acknowledge your severe financial distress. Because unsecured credit card debt carries no collateral, {bank.name} faces extreme difficulty recovering the funds legally if you genuinely cannot pay. We navigate the banking hierarchy to secure a One-Time Settlement (OTS), regularly achieving waivers exceeding 50% of the inflated balance.
             </p>
 
-            <h3 id="drt-jurisdiction" className="scroll-mt-24 text-2xl font-bold mb-4">DRT Limits for {bank.name} Credit Cards</h3>
+            <h3 id="drt-jurisdiction" className="scroll-mt-24 text-2xl font-bold mb-4 text-gray-900">DRT Limits for {bank.name} Credit Cards in {displayState}</h3>
             <p className="text-gray-700 leading-relaxed mb-6">
               Collection agents often threaten borrowers with immediate action at the Debt Recovery Tribunal in {state.drtLocations}. However, this is largely an empty threat for credit card defaulters. DRTs generally only entertain cases exceeding ₹20 Lakhs. For standard credit card debts, {bank.name} is practically forced to settle out of court. CredSettle uses this leverage to finalize your settlement and obtain your official No Objection Certificate (NOC).
             </p>
