@@ -1,714 +1,167 @@
-'use client';
+import type { Metadata } from 'next';
+import CarLoanSettlementPageClient from './CarLoanSettlementPageClient';
 
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-import BanksGrid from '@/components/BanksGrid';
-import FAQWithSchema from '@/components/FAQWithSchema';
-import CTAButton from '@/components/CTAButton';
-import { useEffect, useState } from 'react';
+export const metadata: Metadata = {
+  title: 'Car Loan Settlement in India (2026 Master Guide) | Auto Loan OTS & Repossession Defense | CredSettle',
+  description:
+    'Complete master legal guide to Car Loan Settlement in India. Learn vehicle repossession defense, Supreme Court rulings, RBI OTS guidelines, Form 35 hypothecation removal, auction shortfall settlement, and CIBIL repair.',
+  keywords: [
+    'car loan settlement',
+    'vehicle loan settlement',
+    'auto loan OTS scheme',
+    'car repossession rules India',
+    'stop car recovery agent harassment',
+    'Form 35 RTO hypothecation removal',
+    'settle car loan after repossession',
+    'car loan auction deficiency balance',
+    'Section 138 car loan cheque bounce',
+    'CredSettle auto loan settlement'
+  ],
+  alternates: {
+    canonical: 'https://www.credsettle.com/services/car-loan-settlement',
+  },
+  openGraph: {
+    title: 'Car Loan Settlement in India — Complete Legal & Repossession Defense Guide | CredSettle',
+    description:
+      'Legally resolve distressed car loans, halt illegal vehicle repossession by recovery musclemen, settle post-auction deficiency balances, and obtain RTO Form 35 hypothecation removal under RBI compromise guidelines.',
+    url: 'https://www.credsettle.com/services/car-loan-settlement',
+    type: 'article',
+    images: [
+      {
+        url: 'https://www.credsettle.com/car_hero.png',
+        width: 1200,
+        height: 630,
+        alt: 'Car Loan Settlement Guide - CredSettle'
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Car Loan Settlement in India — Complete Master Guide | CredSettle',
+    description:
+      'Step-by-step legal procedure for settling auto loans, defending against vehicle seizure, negotiating discounted OTS waivers, and clearing RTO hypothecation.',
+    images: ['https://www.credsettle.com/car_hero.png'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    'max-snippet': -1,
+    'max-image-preview': 'large',
+    'max-video-preview': -1,
+  },
+};
 
 export default function CarLoanSettlementPage() {
-  const [isFirefox, setIsFirefox] = useState(false);
-  useEffect(() => {
-    const userAgent = navigator.userAgent.toLowerCase();
-    setIsFirefox(userAgent.includes('firefox'));
-  }, []);
-
-  const carLoanFaqs = [
-    {
-      question: 'What is the typical car loan settlement percentage in India?',
-      answer:
-        'Car loan settlement percentages typically range between 40% and 55% of the total outstanding balance, depending on the age of the NPA, accumulated penal interest, and vehicle market depreciation. For older defaults where the vehicle market value is substantially lower than the loan principal, waivers can reach up to 60-70% through structured One-Time Settlements (OTS).'
-    },
-    {
-      question: 'Why hire a professional car loan settlement agency instead of negotiating alone?',
-      answer:
-        'Unlike unsecured personal loans, car loans involve hypothecated movable property. Banks and NBFCs employ aggressive third-party recovery teams and threaten vehicle seizure. A dedicated car loan settlement agency like CredSettle provides legal representation, stops recovery harassment under RBI fair practice codes, prevents unlawful vehicle repossession, and executes legally binding OTS agreements with full Form 35 NOC clearance.'
-    },
-    {
-      question: 'Car loan settlement kaise kare (How to settle a car loan in India)?',
-      answer:
-        'Car loan settlement requires four legal steps: (1) Conduct a secured loan audit to compute the principal vs depreciated vehicle value (LTV deficit); (2) Issue a formal representation to the lender’s NPA recovery division citing genuine financial hardship; (3) Negotiate a formal One-Time Settlement (OTS) letter with full interest waiver; and (4) Pay the agreed settlement amount directly to the bank account and obtain an official No Dues Certificate along with RTO Form 35.'
-    },
-    {
-      question: 'Can a secured car loan be settled without losing the vehicle?',
-      answer:
-        'Yes. When the settlement amount negotiated is comparable to or higher than what the lender would realize after paying towing, yard storage, auctioneer commissions, and legal fees, banks readily accept a cash settlement while allowing the borrower to retain possession of the car.'
-    },
-    {
-      question: 'Will a bank settle on a car loan if the vehicle is hypothecated?',
-      answer:
-        'Yes. Hypothecation merely creates a financial charge in favor of the lender. Upon payment of the agreed settlement sum, the lender is legally obligated under RBI guidelines to release the hypothecation charge, return all original documents, and issue RTO Form 35 within 30 days.'
-    },
-    {
-      question: 'Can recovery agents seize my vehicle without court notice or police presence?',
-      answer:
-        'No. The Supreme Court of India in ICICI Bank v. Shanti Devi Sharma held that lenders and recovery agents cannot use muscle power, intimidation, or street seizure to take possession of hypothecated vehicles. Lenders must issue a mandatory 60-day demand notice under SARFAESI rules and follow due judicial process. Any forceful repossession without notice is illegal.'
-    },
-    {
-      question: 'How quickly can harassment from field agents be stopped?',
-      answer:
-        'Immediately after engagement. We route communication through our legal team, log violations, and escalate to bank compliance officers and the RBI Ombudsman so coercive visits cease.'
-    },
-    {
-      question: 'Do I still owe interest or penalties after settlement?',
-      answer:
-        'No. Once the OTS amount is paid within the agreed timeline, waived interest and penalties cannot be revived. We verify the account reflects zero balance with an official No Dues Certificate.'
-    },
-    {
-      question: 'Will car loan settlement affect my CIBIL score?',
-      answer:
-        'The loan status will be marked as "Settled" on your credit bureau report. While this temporarily impacts your credit score, it is far less damaging than having a vehicle repossessed, auctioned at distress value, or facing criminal litigation. CredSettle also provides a step-by-step credit rebuilding blueprint.'
-    }
-  ];
-
   return (
-    <div className="relative min-h-screen bg-white mt-6">
-      {!isFirefox && (
-        <div className="absolute top-0 left-0" style={{ width: '757px', height: '757px', borderRadius: '757px', background: '#007AFF', filter: 'blur(400px)', WebkitFilter: 'blur(400px)', transform: 'translate(-50%, -50%)', zIndex: 0, opacity: 0.3 }} />
-      )}
-      {isFirefox && (
-        <div className="absolute top-0 left-0" style={{ width: '757px', height: '757px', borderRadius: '757px', background: 'radial-gradient(circle, rgba(0, 122, 255, 0.4) 0%, rgba(0, 122, 255, 0.2) 30%, rgba(0, 122, 255, 0.1) 60%, transparent 100%)', transform: 'translate(-50%, -50%)', zIndex: 0, opacity: 0.9 }} />
-      )}
-
-      <Navbar />
-
-      <div className="relative z-10" style={{ paddingTop: '84px' }}>
-        <section className="w-full mx-auto px-4 md:px-6 lg:px-4" style={{ maxWidth: '1280px' }}>
-          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between" style={{ gap: '24px' }}>
-            {/* Right visual - comes first on mobile */}
-            <div className="flex-1 flex items-center justify-center w-full lg:w-auto order-1 lg:order-2" style={{ minWidth: '0', position: 'relative' }}>
-              <img src="/car_hero.png" alt="" aria-hidden className="hidden lg:block" style={{ position: 'absolute', width: '100%', maxWidth: '520px', height: 'auto', transform: 'rotate(335deg)', transformOrigin: 'center', filter: 'blur(6px)', opacity: 0.9, WebkitMaskImage: 'linear-gradient(to right, black 0%, black 10%, transparent 35%, transparent 65%, black 90%, black 100%)', maskImage: 'linear-gradient(to right, black 0%, black 10%, transparent 35%, transparent 65%, black 90%, black 100%)' }} />
-              <img src="/car_hero.png" alt="Car Loan Settlement" className="w-full max-w-[280px] md:max-w-[400px] lg:max-w-[520px]" style={{ height: 'auto', transform: 'rotate(335deg)', transformOrigin: 'center' }} />
-            </div>
-            {/* Left copy - comes second on mobile */}
-            <div className="flex-1 w-full lg:w-auto order-2 lg:order-1" style={{ maxWidth: '640px' }}>
-              <div className="inline-flex items-center gap-2 px-3 py-1 mb-3 rounded-full text-xs font-medium text-blue-700 bg-blue-50 border border-blue-200">
-                <span className="w-2 h-2 rounded-full bg-blue-600 animate-pulse"></span>
-                India’s Trusted Car Loan Settlement Agency
-              </div>
-              <h1 className="text-2xl md:text-3xl lg:text-[40px] leading-tight lg:leading-[58px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontStyle: 'normal', fontWeight: '600', marginBottom: '14px' }}>
-                Car Loan Settlement: Settle Auto Loans & Protect Your Vehicle
-              </h1>
-              <p className="text-xs md:text-sm lg:text-[14px] leading-relaxed" style={{ color: 'rgba(12, 39, 86, 0.80)', fontFamily: 'Poppins', lineHeight: '26px', marginBottom: '12px' }}>
-                Facing missed car loan EMIs or aggressive recovery agents? As India’s premier car loan settlement agency, CredSettle negotiates directly with major banks and NBFCs to secure <strong>40% to 55% settlement waivers</strong> through legally sanctioned One-Time Settlements (OTS).
-              </p>
-              <p className="text-xs md:text-sm lg:text-[14px] leading-relaxed" style={{ color: 'rgba(12, 39, 86, 0.80)', fontFamily: 'Poppins', lineHeight: '26px', marginBottom: '16px' }}>
-                We protect your vehicle from unlawful seizure, halt recovery harassment under RBI guidelines, and ensure end-to-end legal closure with Form 35 hypothecation release from your RTO registration.
-              </p>
-              
-              <a href="/contact" className='cursor-pointer' style={{ textDecoration: 'none', cursor: 'pointer' }}>    
-              <button className="text-white text-sm md:text-base lg:text-[18.58px] px-6 md:px-8 lg:px-[39.44px] py-2 md:py-3 lg:py-[13.48px] cursor-pointer" style={{ borderRadius: '32.4px', background: '#007AFF', boxShadow: '0 0.9px 6.12px 0 rgba(0, 0, 0, 0.35), 0 -3.6px 3.6px 0 rgba(255, 255, 255, 0.25) inset, 0 3.6px 3.6px 0 rgba(255, 255, 255, 0.25) inset' }}>
-                Get Started Today
-              </button>
-              </a>
-            </div>
-          </div>
-          
-          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between" style={{ gap: '28px' }}
-          >
-            {/* Reviews column (similar to HeroSection small cards) */}
-            <div className="flex w-full lg:w-auto lg:justify-start items-start gap-3 lg:gap-0" style={{ maxWidth: '100%' }}>
-              {/* Divider on left for mobile */}
-              <div
-                className="lg:hidden flex-shrink-0"
-                style={{
-                  width: '8px',
-                  height: '120%',
-                  minHeight: '100px',
-                  borderRadius: '30px',
-                  background: 'linear-gradient(180deg, #007AFF 0%, #007AFF 50%, #E7E7E7 50%, #E7E7E7 100%)',
-                  marginTop: '14px',
-                }}
-              />
-              <div className="flex flex-col lg:flex-col gap-4 lg:gap-3 flex-1">
-                <div className="flex w-full lg:w-auto lg:flex-initial" style={{ borderRadius: '36px', padding: '12.96px', gap: '9.72px' }}>
-                  <div className="w-1/2 flex justify-center items-center">
-                    <img src="/ggle.png" alt="Google Reviews - CredSettle" className="h-6 lg:h-[29.16px]" />
-                  </div>
-                  <div className="w-1/2 flex flex-col" style={{ gap: '6.48px' }}>
-                    <div className="flex justify-center items-center" style={{ gap: '6.48px' }}>
-                      <img src="/stars.png" alt="5 Star Rating - CredSettle" className="h-3 lg:h-[12.96px]" />
-                      <span className="font-medium text-gray-900 text-xs lg:text-[9.72px]">4.6/5</span>
-                    </div>
-                    <div className="text-center">
-                      <div className="text-gray-600 text-[8px] lg:text-[8.72px]" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '4px', flexWrap: 'wrap' }}><b className="text-[9px] lg:text-[10.72px]">Excellent</b> <span className="text-[8px] lg:text-[9.72px]">|</span> <span className="text-[9px] lg:text-[10px]">2000+ reviews</span></div>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex w-full lg:w-auto lg:flex-initial" style={{ borderRadius: '36px', padding: '12.96px', gap: '9.72px' }}>
-                  <div className="w-1/2 flex justify-center items-center">
-                    <img src="/trustpilot.svg" alt="Trustpilot Reviews - CredSettle" className="h-6 lg:h-[29.16px]" />
-                  </div>
-                  <div className="w-1/2 flex flex-col" style={{ gap: '6.48px' }}>
-                    <div className="flex justify-center items-center" style={{ gap: '6.48px' }}>
-                      <img src="/stars.png" alt="5 Star Rating - CredSettle" className="h-3 lg:h-[12.96px]" />
-                      <span className="font-medium text-gray-900 text-xs lg:text-[9.72px]">4.6/5</span>
-                    </div>
-                    <div className="text-center">
-                      <div className="text-gray-600 text-[8px] lg:text-[8.72px]" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '4px', flexWrap: 'wrap' }}><b className="text-[9px] lg:text-[10.72px]">Excellent</b> <span className="text-[8px] lg:text-[9.72px]">|</span> <span className="text-[9px] lg:text-[10px]">2000+ reviews</span></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Divider - Vertical for desktop only */}
-            <div
-              className="hidden lg:block"
-              style={{
-                width: '8px',
-                height: '228px',
-                flexShrink: 0,
-                borderRadius: '30px',
-                background: 'linear-gradient(180deg, #007AFF 0%, #007AFF 50%, #E7E7E7 50%, #E7E7E7 100%)'
-              }}
-            />
-
-            {/* Compliance With Asset Security */}
-            <div className="flex-1 w-full lg:w-auto flex items-start gap-3 lg:gap-0" style={{ maxWidth: '420px' }}>
-              {/* Divider on left for mobile */}
-              <div
-                className="lg:hidden flex-shrink-0"
-                style={{
-                  width: '8px',
-                  height: '120%',
-                  minHeight: '100px',
-                  borderRadius: '30px',
-                  background: 'linear-gradient(180deg, #007AFF 0%, #007AFF 50%, #E7E7E7 50%, #E7E7E7 100%)'
-                }}
-              />
-              <div className="flex-1">
-                <p className="text-lg lg:text-[20px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 600, lineHeight: '28px', marginBottom: '8px' }}>Compliance With Asset Security</p>
-                <p className="text-sm lg:text-[14px]" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '20px' }}>We negotiate within RBI norms to limit risk of repossession and ensure dignity.</p>
-              </div>
-            </div>
-
-            {/* Divider - Vertical for desktop only */}
-            <div
-              className="hidden lg:block"
-              style={{
-                width: '8px',
-                height: '228px',
-                flexShrink: 0,
-                borderRadius: '30px',
-                background: 'linear-gradient(180deg, #007AFF 0%, #007AFF 50%, #E7E7E7 50%, #E7E7E7 100%)'
-              }}
-            />
-
-            {/* Reduced Liability Outcomes */}
-            <div className="flex-1 w-full lg:w-auto flex items-start gap-3 lg:gap-0" style={{ maxWidth: '420px' }}>
-              {/* Divider on left for mobile */}
-              <div
-                className="lg:hidden flex-shrink-0"
-                style={{
-                  width: '8px',
-                  height: '120%',
-                  minHeight: '100px',
-                  borderRadius: '30px',
-                  background: 'linear-gradient(180deg, #007AFF 0%, #007AFF 50%, #E7E7E7 50%, #E7E7E7 100%)'
-                }}
-              />
-              <div className="flex-1">
-                <p className="text-lg lg:text-[20px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 600, lineHeight: '28px', marginBottom: '8px' }}>Reduced Liability Outcomes</p>
-                <p className="text-sm lg:text-[14px]" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '20px' }}>Target significant reductions and final legal closure for true peace of mind.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-  {/* Comprehensive Content Section */}
-  <section
-          className="w-full mx-auto px-4 md:px-6 lg:px-4"
-          style={{ maxWidth: '1280px', marginTop: '48px', marginBottom: '36px' }}
-        >
-          <div className="bg-gradient-to-br from-blue-50/30 via-white to-blue-50/20 rounded-3xl p-6 md:p-8 lg:p-12" style={{ boxShadow: '0 4px 20px rgba(0, 122, 255, 0.08)', border: '1px solid rgba(0, 122, 255, 0.1)' }}>
-            <h2
-              style={{
-                color: '#0C2756',
-                fontFamily: 'Poppins',
-                fontSize: 'clamp(24px, 5vw, 32px)',
-                fontWeight: 700,
-                lineHeight: '1.3',
-                marginBottom: '32px',
-                textAlign: 'center'
-              }}
-            >
-              Understanding Car Loan Settlement in India
-            </h2>
-            
-            {/* What is Car Loan Settlement */}
-            <div style={{ marginBottom: '32px' }}>
-              <h3
-                style={{
-                  color: '#0C2756',
-                  fontFamily: 'Poppins',
-                  fontSize: '22px',
-                  fontWeight: 600,
-                  lineHeight: '32px',
-                  marginBottom: '16px'
-                }}
-              >
-                What is Car Loan Settlement?
-              </h3>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.80)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                Car loan settlement is a legally recognized debt resolution mechanism in India that enables vehicle owners to negotiate with their lender-whether a bank or NBFC-to pay a <strong>reduced lump sum amount</strong> instead of the full outstanding loan balance. What makes car loans fundamentally different from personal loans or credit cards is their <strong>secured nature</strong>: your vehicle serves as collateral through a hypothecation agreement, giving the lender legal rights to repossess the asset if payments default.
-              </p>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.80)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                This secured status means car loan settlements require understanding of <strong>vehicle depreciation dynamics</strong> and the Loan-to-Value (LTV) ratio. When you financed your vehicle, the lender approved the loan based on the car’s on-road price. However, vehicles depreciate rapidly-typically 15-20% in the first year, and 10-15% annually thereafter. By the time you’re seeking settlement, the vehicle’s current market value (often assessed through platforms like CarDekho or OLX resale values) may be significantly lower than your outstanding loan principal, especially if you’re in the early years of the loan tenure.
-              </p>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.80)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '0'
-                }}
-              >
-                At CredSettle, our car loan settlement specialists understand these technical nuances. We leverage the depreciated vehicle value, your financial hardship documentation, and the lender’s provisioning requirements (cost of repossession, storage, auction, and potential loss) to negotiate settlements that typically reduce your payoff obligation by 30-70%. Our legal team ensures all settlements comply with RBI guidelines and properly address the <strong>hypothecation release process</strong>, ensuring you receive a clear Registration Certificate (RC) with the lender’s charge mark removed.
-              </p>
-            </div>
-
-            {/* Car Loan Settlement Percentage & Calculation Matrix */}
-            <div style={{ marginBottom: '36px' }}>
-              <h3
-                style={{
-                  color: '#0C2756',
-                  fontFamily: 'Poppins',
-                  fontSize: '22px',
-                  fontWeight: 600,
-                  lineHeight: '32px',
-                  marginBottom: '16px'
-                }}
-              >
-                Car Loan Settlement Percentage & Calculation: How Much Can You Save?
-              </h3>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.80)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '18px'
-                }}
-              >
-                A common question from distressed vehicle owners is: <em>"What percentage do banks accept in car loan settlement?"</em> Unlike unsecured personal loans, car loan settlement percentages are directly dictated by <strong>vehicle market depreciation</strong>, <strong>auction recovery costs</strong>, and the <strong>NPA duration</strong>. Lenders realize that towing a vehicle, paying daily yard holding fees, hiring auctioneers, and selling at forced distress value often results in a 40%–50% loss. CredSettle uses this exact financial reality to negotiate steep settlement waivers:
-              </p>
-
-              <div className="overflow-x-auto my-6 rounded-2xl border border-blue-100 shadow-sm">
-                <table className="w-full text-left border-collapse" style={{ fontFamily: 'Poppins' }}>
-                  <thead>
-                    <tr className="bg-blue-600 text-white text-xs md:text-sm">
-                      <th className="p-3 md:p-4 font-semibold">Overdue Duration</th>
-                      <th className="p-3 md:p-4 font-semibold">NPA Classification</th>
-                      <th className="p-3 md:p-4 font-semibold">Typical Settlement Waiver</th>
-                      <th className="p-3 md:p-4 font-semibold">Primary Negotiation Leverage</th>
-                    </tr>
-                  </thead>
-                  <tbody className="text-xs md:text-sm text-gray-700 divide-y divide-gray-100">
-                    <tr className="bg-white hover:bg-blue-50/40 transition-colors">
-                      <td className="p-3 md:p-4 font-medium text-[#0C2756]">90 – 180 Days</td>
-                      <td className="p-3 md:p-4">Sub-Standard Asset</td>
-                      <td className="p-3 md:p-4 font-semibold text-emerald-600">30% – 45% Waiver</td>
-                      <td className="p-3 md:p-4">Complete waiver of penal interest, bounce charges, and late fees.</td>
-                    </tr>
-                    <tr className="bg-gray-50/50 hover:bg-blue-50/40 transition-colors">
-                      <td className="p-3 md:p-4 font-medium text-[#0C2756]">180 – 360 Days</td>
-                      <td className="p-3 md:p-4">Doubtful Asset (D1)</td>
-                      <td className="p-3 md:p-4 font-semibold text-emerald-600">45% – 55% Waiver</td>
-                      <td className="p-3 md:p-4">Lender provisions 25%-40% loss; negative equity (loan &gt; car value).</td>
-                    </tr>
-                    <tr className="bg-white hover:bg-blue-50/40 transition-colors">
-                      <td className="p-3 md:p-4 font-medium text-[#0C2756]">1 Year+ (360+ Days)</td>
-                      <td className="p-3 md:p-4">Doubtful (D2 / Loss)</td>
-                      <td className="p-3 md:p-4 font-semibold text-emerald-600">55% – 70% Waiver</td>
-                      <td className="p-3 md:p-4">Heavy vehicle depreciation, yard auction unviability, 100% loss write-off risk.</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-
-              {/* Two-Wheeler / Bike Loan Callout Box */}
-              <div className="mt-5 p-4 md:p-5 rounded-2xl bg-gradient-to-r from-blue-50 to-indigo-50/60 border border-blue-200/80 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-                <div>
-                  <h4 className="text-sm md:text-base font-semibold text-[#0C2756] mb-1">
-                    Defaulting on a Motorcycle, Scooter, or 2-Wheeler Loan?
-                  </h4>
-                  <p className="text-xs md:text-sm text-gray-600">
-                    Two-wheeler loan recovery involves aggressive street repossession and distinct RBI guidelines. Explore our specialized bike loan resolution service.
-                  </p>
-                </div>
-                <a
-                  href="/two-wheeler-bike-loan-settlement"
-                  className="inline-flex items-center text-xs md:text-sm font-semibold text-white bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-xl transition-all shadow-sm flex-shrink-0"
-                >
-                  Bike Loan Settlement Guide →
-                </a>
-              </div>
-            </div>
-
-            {/* How Car Loan Settlement Process Works */}
-            <div style={{ marginBottom: '32px' }}>
-              <h3
-                style={{
-                  color: '#0C2756',
-                  fontFamily: 'Poppins',
-                  fontSize: '22px',
-                  fontWeight: 600,
-                  lineHeight: '32px',
-                  marginBottom: '16px'
-                }}
-              >
-                How the Car Loan Settlement Process Works
-              </h3>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.80)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                The settlement journey begins with a <strong>comprehensive secured loan audit</strong>. We analyze your loan agreement to identify the principal borrowed, the interest rate structure (flat rate vs. reducing balance method-most car loans use reducing balance), any processing fees or charges, accumulated interest, and penalty charges. Importantly, we calculate your current <strong>outstanding principal-to-vehicle-value ratio</strong>. If your outstanding amount exceeds the vehicle’s current market value (creating a "negative equity" situation), this significantly strengthens our negotiation position.
-              </p>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.80)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                Once CredSettle assumes responsibility for your case, we <strong>initiate strategic communication</strong> with your lender’s vehicle loan recovery or NPA (Non-Performing Asset) division. Here’s where technical knowledge becomes crucial: when your EMIs are overdue for 90 days or more, your account is classified as an NPA. At this stage, lenders face increased provisioning requirements-they must set aside capital against potential loss. A settlement offer becomes attractive because repossession involves significant costs: hiring recovery agents, transporting and storing the vehicle, auctioning it (often at 20-40% below market value), and accounting for legal costs if the borrower contests seizure.
-              </p>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.80)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                Our negotiation strategy addresses the <strong>hypothecation agreement</strong> head-on. Under the Motor Vehicles Act, 1988, and the Central Motor Vehicles Rules, 1989, your vehicle’s Registration Certificate (Form 23) includes the lender’s name as the hypothecation holder. This legal charge prevents you from selling or transferring the vehicle without the lender’s No Objection Certificate (NOC). We negotiate settlements that include explicit hypothecation removal-ensuring the lender provides a NOC and submits Form 35 (Notice of Removal/Satisfaction of Hypothecation) to the Regional Transport Office (RTO) within the RBI-mandated 30-day period after settlement payment.
-              </p>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.80)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '0'
-                }}
-              >
-                Crucially, CredSettle also protects you from repossession attempts during negotiations. Under Section 13 of the SARFAESI Act (Securitization and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002), lenders have the right to take possession of secured assets without court intervention-but only after issuing a 60-day demand notice. Our legal team ensures proper notice periods are followed, and we challenge any illegal seizure attempts. If recovery agents threaten immediate repossession without proper notice, we file formal complaints with the RBI Ombudsman and local law enforcement, as such actions violate both SARFAESI procedures and RBI’s Fair Practices Code.
-              </p>
-            </div>
-
-            {/* Benefits of Car Loan Settlement */}
-            <div style={{ marginBottom: '32px' }}>
-              <h3
-                style={{
-                  color: '#0C2756',
-                  fontFamily: 'Poppins',
-                  fontSize: '22px',
-                  fontWeight: 600,
-                  lineHeight: '32px',
-                  marginBottom: '16px'
-                }}
-              >
-                Benefits of Settling Your Car Loan with CredSettle
-              </h3>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.80)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                The primary advantage of professional car loan settlement is <strong>asset protection combined with debt reduction</strong>. In many cases, we successfully negotiate settlements that allow you to retain vehicle ownership. This is particularly feasible when the settlement amount we secure is less than the vehicle’s current market value-the lender realizes more value by accepting the settlement payment than by repossessing, auctioning, and potentially selling the vehicle at a steep discount while bearing all associated costs.
-              </p>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.80)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                Beyond financial savings, CredSettle provides <strong>immediate protection from repossession threats and harassment</strong>. The moment we take over your case, we legally intervene to stop all direct contact between the lender and you. Recovery agents are notorious for aggressive tactics: showing up at your workplace, contacting family members, threatening immediate vehicle seizure, or using tracker devices installed in vehicles to locate and repossess them. Our legal team files formal complaints against any violations of the RBI’s Fair Practices Code or SARFAESI procedural requirements, creating a documented record that strengthens your position and often halts illegal recovery actions immediately.
-              </p>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.80)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '0'
-                }}
-              >
-                Additionally, CredSettle ensures you receive <strong>complete documentation for hypothecation removal</strong>. Many borrowers who settle independently receive the settlement letter but struggle for months to get the lender to file Form 35 with the RTO, leaving the hypothecation active on the RC book. Our team tracks this process end-to-end, ensuring compliance with the RBI’s September 2023 mandate requiring lenders to release all security documents and remove registered charges within 30 days of settlement payment-or face penalties of ₹5,000 per day of delay. This ensures you receive a clean, unencumbered RC, allowing you to sell, transfer, or refinance the vehicle in the future without restrictions.
-              </p>
-            </div>
-
-            {/* RBI Guidelines Specific to Car Loan Settlement */}
-            <div style={{ marginBottom: '0' }}>
-              <h3
-                style={{
-                  color: '#0C2756',
-                  fontFamily: 'Poppins',
-                  fontSize: '22px',
-                  fontWeight: 600,
-                  lineHeight: '32px',
-                  marginBottom: '16px'
-                }}
-              >
-                RBI Guidelines Governing Car Loan Settlement
-              </h3>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.80)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                The Reserve Bank of India has established comprehensive frameworks specifically protecting secured loan borrowers. The most critical recent development is the <strong>30-day document release mandate</strong> (effective December 1, 2023), which requires lenders to release all original security documents-including the RC book original (if held) and submit the hypothecation removal form (Form 35) to the RTO-within 30 days of receiving the settlement payment. Non-compliance triggers automatic penalties of ₹5,000 per day attributable to the lender, providing strong enforcement leverage for borrowers.
-              </p>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.80)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '16px'
-                }}
-              >
-                Another significant protection is the <strong>abolition of penal interest on overdue EMIs</strong> (effective June 15, 2025). Previously, lenders could charge penalty interest rates as high as 24-36% annually on overdue amounts, compounding your debt burden exponentially. Under the new RBI directive, lenders can only charge a one-time <strong>penal charge</strong> (flat fee, not compounding interest) on the overdue principal. This reform significantly reduces the outstanding amount accumulating while you negotiate settlement, making settlements more affordable and fair.
-              </p>
-              <p
-                style={{
-                  color: 'rgba(12, 39, 86, 0.80)',
-                  fontFamily: 'Poppins',
-                  fontSize: '16px',
-                  lineHeight: '28px',
-                  marginBottom: '0'
-                }}
-              >
-                Finally, the RBI’s <strong>Fair Practices Code for Lenders</strong> and <strong>Guidelines on Managing Risks and Code of Conduct in Outsourcing of Financial Services</strong> establish strict conduct requirements for recovery agents. Lenders are fully responsible for agent behavior and cannot disclaim liability. Prohibited practices include: visiting borrowers without prior notice, contacting third parties (employers, neighbors, family not co-signed on the loan), using abusive language or threats, repossessing vehicles without issuing the mandatory 60-day SARFAESI notice, and using physical force or intimidation. At CredSettle, we meticulously document any violations and file complaints with the RBI Ombudsman, Banking Ombudsman, and local law enforcement, often resulting in immediate cessation of harassment and strengthening our settlement negotiation position significantly.
-              </p>
-            </div>
-          </div>
-        </section>
-        {/* Why section */}
-        <section className="w-full mx-auto px-4 md:px-6 lg:px-5" style={{ maxWidth: '1280px', marginTop: '48px', marginBottom: '28.8px' }}>
-          <div className="w-full flex flex-col items-center text-center" style={{ gap: '9.6px', marginBottom: '19.2px' }}>
-            <h2 className="text-2xl md:text-3xl lg:text-[32px] leading-tight" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 700, lineHeight: '36px' }}>Why Choose CredSettle for Car Loan Settlement</h2>
-            <p className="text-xs md:text-sm lg:text-[14px]" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '20px' }}>Six core benefits that ensure a protected, successful, and final settlement.</p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10" style={{ gap: '19.2px' }}>
-            {['Specialized Expertise','End-to-End Protection','Client-Focused Dignity','Proven Track Record','Strategic Negotiation','Swift & Final Resolution'].map((t, i) => (
-              <div key={i} className="p-6 md:p-8 lg:p-[48.8px]" style={{ borderRadius: '40px', background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)', boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10), 4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)', backdropFilter: 'blur(12.35px)' }}>
-                <h3 className="mb-2 text-base md:text-lg lg:text-[18px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 700 }}>{t}</h3>
-                <p className="text-xs md:text-sm lg:text-[14px]" style={{ color: '#0C2756', opacity: 0.8, fontFamily: 'Poppins', lineHeight: '20px' }}>We negotiate legally and strategically to protect your vehicle and finances.</p>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* Stats + Partner + image */}
-        <section className="w-full mx-auto px-4 md:px-6 lg:px-5" style={{ maxWidth: '1280px', marginTop: '36px', marginBottom: '24px' }}>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-stretch">
-            <div className="relative">
-            <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight text-center" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 700, lineHeight: '36px' }}>Our Track Record in Car Loan Settlement</h2>
-            <p className="text-xs md:text-sm lg:text-[14px] text-center" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '20px' }}>Six benefits that ensure protection and final settlement.</p>
-              <div aria-hidden className="w-[180px] h-[180px] lg:w-[260px] lg:h-[260px]" style={{ position: 'absolute', left: '50%', top: '62%', transform: 'translate(-50%, -50%)', borderRadius: '9999px', background: 'radial-gradient(closest-side, rgba(0,122,255,0.30), rgba(0,122,255,0.16) 55%, rgba(0,122,255,0.0) 80%)', filter: 'blur(4px)', pointerEvents: 'none', zIndex: 0 }} />
-              <div className="grid grid-cols-2 gap-4 relative z-10">
-                {['4,800+','4.9/5','₹ 280 Cr+','100%'].map((stat, idx) => (
-                  <div key={idx} className="px-4 md:px-5 lg:px-[22px] py-6 md:py-8 lg:py-12" style={{ borderRadius: '40px', background: 'rgba(239, 247, 255, 0.30)', boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)' }}>
-                    <h3 className="text-lg md:text-xl lg:text-[30px]" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 500, lineHeight: '28px' }}>{stat}</h3>
-                    <p className="text-xs md:text-sm lg:text-[14px] mt-8 md:mt-12 lg:mt-[58.4px]" style={{ color: '#0C2756', opacity: 0.8, fontFamily: 'Poppins', lineHeight: '20px' }}>
-                      {idx===0 && 'Successful Car Loan Settlements with minimized asset risk.'}
-                      {idx===1 && 'Client Satisfaction Rating based on service outcomes.'}
-                      {idx===2 && 'Debt Principal Reduced through strategic negotiations.'}
-                      {idx===3 && 'RBI Compliance Guaranteed at every step.'}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </div>
-            
-          </div>
-        </section>
-
-        {/* Banks Grid Section */}
-        <BanksGrid serviceType="Car loan" servicePath="car-loan-settlement" />
-
-        {/* States & Union Territories Grid Section */}
-        <section
-          className="w-full mx-auto px-4 md:px-6 lg:px-5"
-          style={{
-            maxWidth: '1280px',
-            marginTop: '36px',
-            marginBottom: '36px'
-          }}
-        >
-          {/* Centered Heading */}
-          <div className="w-full flex flex-col items-center text-center" style={{ gap: '6px', marginBottom: '20px' }}>
-            <h2
-              className="text-xl md:text-2xl lg:text-[28px] leading-tight"
-              style={{
-                color: '#0C2756',
-                fontFamily: 'Poppins',
-                fontWeight: 700,
-                lineHeight: '32px'
-              }}
-            >
-              We Serve Across India
-            </h2>
-            <p
-              className="text-xs md:text-sm lg:text-[13px]"
-              style={{
-                color: 'rgba(12, 39, 86, 0.70)',
-                fontFamily: 'Poppins',
-                lineHeight: '18px'
-              }}
-            >
-              Car loan settlement services in all states and union territories
-            </p>
-          </div>
-
-          {/* States & UT Grid */}
-          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-2 md:gap-3" style={{ gap: '12px' }}>
-            {[
-              'Andaman and Nicobar Islands',
-              'Andhra Pradesh',
-              'Arunachal Pradesh',
-              'Assam',
-              'Bihar',
-              'Chandigarh',
-              'Chhattisgarh',
-              'Dadra and Nagar Haveli and Daman and Diu',
-              'Delhi',
-              'Goa',
-              'Gujarat',
-              'Haryana',
-              'Himachal Pradesh',
-              'Jammu and Kashmir',
-              'Jharkhand',
-              'Karnataka',
-              'Kerala',
-              'Ladakh',
-              'Lakshadweep',
-              'Madhya Pradesh',
-              'Maharashtra',
-              'Manipur',
-              'Meghalaya',
-              'Mizoram',
-              'Nagaland',
-              'Odisha',
-              'Puducherry',
-              'Punjab',
-              'Rajasthan',
-              'Sikkim',
-              'Tamil Nadu',
-              'Telangana',
-              'Tripura',
-              'Uttar Pradesh',
-              'Uttarakhand',
-              'West Bengal'
-            ].map((state, index) => {
-              const slug = state.toLowerCase().replace(/\s+/g, '-');
-              const metroCities = ['Maharashtra', 'Andhra Pradesh', 'Telangana', 'Karnataka', 'Uttar Pradesh', 'Delhi', 'West Bengal', 'Gujarat', 'Haryana', 'Tamil Nadu', 'Rajasthan'];
-              const isMetroCity = metroCities.includes(state);
-              return (
-                <a
-                  key={index}
-                  href={`/services/car-loan-settlement/${slug}`}
-                  className="cursor-pointer transition-all duration-200 hover:opacity-80"
-                  style={{
-                    borderRadius: '24px',
-                    background: isMetroCity 
-                      ? 'linear-gradient(168deg, #007AFF 0%, #0C2756 100%)'
-                      : 'rgba(239, 247, 255, 0.30)',
-                    boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
-                    padding: '12px 10px',
-                    minHeight: '60px',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    textAlign: 'center',
-                    textDecoration: 'none'
-                  }}
-                >
-                  <p
-                    className="text-[10px] md:text-xs lg:text-[12px]"
-                    style={{
-                      color: isMetroCity ? '#FFFFFF' : '#0C2756',
-                      fontFamily: 'Poppins',
-                      fontWeight: 500,
-                      lineHeight: '16px',
-                      margin: 0
-                    }}
-                  >
-                    {state}
-                  </p>
-                </a>
-              );
-            })}
-          </div>
-        </section>
-
-        {/* FAQ + CTA */}
-        <section className="w-full py-12" id="faqs" style={{ scrollMarginTop: '100px' }}>
-          <div className="w-full max-w-7xl mx-auto px-4">
-            <div className="flex flex-col items-center gap-8 md:gap-14">
-              <FAQWithSchema faqs={carLoanFaqs} title="Car Loan Settlement" />
-              <div className="flex justify-center items-center w-full rounded-xl px-3 py-8 md:py-[63px]" style={{ background: 'linear-gradient(180deg, rgba(191, 238, 255, 0.50) 27.61%, #007AFF 100%)', boxShadow: '0 5px 16px 0 rgba(0, 0, 0, 0.15)' }}>
-                <div className="flex flex-col items-center gap-[35px] w-full max-w-[644px]">
-                  <div className="flex flex-col items-center gap-[28px] w-full">
-                    <h3 className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full" style={{ color: '#0C2756' }}>Ready to Resolve Your Car Loan Legally?</h3>
-                    <p className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full" style={{ color: 'rgba(12, 39, 86, 0.70)' }}>Pursue an RBI-compliant OTS and reduce your liability with confidence.</p>
-                  </div>
-                  <CTAButton>
-                    Get Your Free Consultation
-                  </CTAButton>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-      
-      </div>
-
-      <div style={{ marginTop: '100px' }}>
-        <Footer />
-      </div>
-    </div>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@graph': [
+              {
+                '@type': 'WebPage',
+                '@id': 'https://www.credsettle.com/services/car-loan-settlement#webpage',
+                url: 'https://www.credsettle.com/services/car-loan-settlement',
+                name: 'Car Loan Settlement in India — Master Guide, Repossession Defense & Form 35 | CredSettle',
+                description:
+                  'Comprehensive 84-section authority guide on car loan settlement, vehicle repossession laws, Supreme Court rulings, OTS compromise negotiations, RTO Form 35 hypothecation removal, and recovery agent defense in India.',
+                breadcrumb: {
+                  '@type': 'BreadcrumbList',
+                  itemListElement: [
+                    {
+                      '@type': 'ListItem',
+                      position: 1,
+                      name: 'Home',
+                      item: 'https://www.credsettle.com',
+                    },
+                    {
+                      '@type': 'ListItem',
+                      position: 2,
+                      name: 'Services',
+                      item: 'https://www.credsettle.com/services',
+                    },
+                    {
+                      '@type': 'ListItem',
+                      position: 3,
+                      name: 'Car Loan Settlement',
+                      item: 'https://www.credsettle.com/services/car-loan-settlement',
+                    },
+                  ],
+                },
+              },
+              {
+                '@type': 'LegalService',
+                '@id': 'https://www.credsettle.com/#legalservice',
+                name: 'CredSettle Debt Resolution & Legal Services',
+                url: 'https://www.credsettle.com',
+                logo: 'https://www.credsettle.com/logo.png',
+                image: 'https://www.credsettle.com/car_hero.png',
+                description:
+                  'Specialized motor vehicle loan settlement, illegal repossession stay defense, Section 138 NI Act representation, and RTO Form 35 hypothecation clearance across India.',
+                address: {
+                  '@type': 'PostalAddress',
+                  addressCountry: 'IN',
+                },
+                priceRange: '₹₹',
+                telephone: '+91-8800226444',
+                areaServed: {
+                  '@type': 'Country',
+                  name: 'India',
+                },
+              },
+              {
+                '@type': 'FAQPage',
+                '@id': 'https://www.credsettle.com/services/car-loan-settlement#faq',
+                mainEntity: [
+                  {
+                    '@type': 'Question',
+                    name: 'Can recovery agents forcibly seize my car on the road or from my home?',
+                    acceptedAnswer: {
+                      '@type': 'Answer',
+                      text: 'No. The Supreme Court of India in ICICI Bank v. Prakash Kaur held that banks cannot employ goons or musclemen to take forcible possession of vehicles. Any repossession without mandatory prior written notice and following due process of law constitutes criminal wrongful restraint and intimidation under the Bharatiya Nyaya Sanhita.',
+                    },
+                  },
+                  {
+                    '@type': 'Question',
+                    name: 'Can I keep my car after settling the loan with the bank?',
+                    acceptedAnswer: {
+                      '@type': 'Answer',
+                      text: 'Yes. In a retain-vehicle One-Time Settlement (OTS), the borrower negotiates a lump-sum compromise based on the vehicle\'s current distress market valuation. Once paid, the lender issues a No Dues Certificate (NDC) and RTO Form 35 to remove hypothecation from the RC book, allowing the borrower to keep the vehicle completely unencumbered.',
+                    },
+                  },
+                  {
+                    '@type': 'Question',
+                    name: 'What happens if the bank sells my repossessed car and a loan balance remains?',
+                    acceptedAnswer: {
+                      '@type': 'Answer',
+                      text: 'When an auctioned vehicle fails to cover the total outstanding loan balance, the remaining shortfall is termed an auction deficiency balance. This shortfall becomes an unsecured claim, which CredSettle can negotiate down by 60% to 80% through an OTS compromise, extinguishing all further civil and criminal liability.',
+                    },
+                  },
+                  {
+                    '@type': 'Question',
+                    name: 'How do I remove bank hypothecation from my RC after loan settlement?',
+                    acceptedAnswer: {
+                      '@type': 'Answer',
+                      text: 'Upon clearance of the agreed settlement sum, the lender is legally required under RBI directives to issue a stamped No Dues Certificate (NDC) and two original copies of RTO Form 35 signed by an authorized officer. You submit these along with your original RC and insurance to your local RTO or via the Parivahan portal to cancel the hypothecation endorsement under Section 51 of the Motor Vehicles Act.',
+                    },
+                  },
+                  {
+                    '@type': 'Question',
+                    name: 'How does car loan settlement affect my CIBIL score?',
+                    acceptedAnswer: {
+                      '@type': 'Answer',
+                      text: 'The loan account is marked as "Settled" on your credit bureau reports. While this temporarily impacts your credit score, it halts compounding DPD default marks and legal proceedings. With disciplined credit rebuilding steps—such as secured credit cards and prompt utility payments—credit scores typically recover to 750+ within 18 to 24 months.',
+                    },
+                  },
+                ],
+              },
+            ],
+          }),
+        }}
+      />
+      <CarLoanSettlementPageClient />
+    </>
   );
 }
-
-
