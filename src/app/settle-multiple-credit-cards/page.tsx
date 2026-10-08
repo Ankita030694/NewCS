@@ -1,7 +1,5 @@
 import React from 'react';
 import type { Metadata } from 'next';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
 import SettleMultipleCreditCardsClient from './SettleMultipleCreditCardsClient';
 
 export const metadata: Metadata = {
@@ -347,14 +345,12 @@ export default function SettleMultipleCreditCardsPage() {
   };
 
   return (
-    <div className="relative min-h-screen bg-white">
-      <Navbar />
+    <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(unifiedSchema) }}
       />
       <SettleMultipleCreditCardsClient />
-      <Footer />
-    </div>
+    </>
   );
 }
