@@ -84,6 +84,7 @@ export async function generateMetadata({
 
 // Helper function to generate headings from content
 function generateHeadings(content: any) {
+  const shortState = getShortStateName(content.stateName);
   const headings: Array<{ id: string; text: string; level: number }> = [];
 
   if (content.whyCarLoanSettlement) {
