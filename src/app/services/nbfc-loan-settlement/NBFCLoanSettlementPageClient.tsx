@@ -6,9 +6,6 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
-import BanksGrid from '@/components/BanksGrid';
-import CompanySection from '@/components/CompanySection';
-import StatsStrip from '@/components/StatsStrip';
 import AuthorBioBox from '@/components/AuthorBioBox';
 import {
   Calculator,
@@ -2987,10 +2984,7 @@ export default function NBFCLoanSettlementPageClient() {
       )}
 
       {/* Bottom Features */}
-      <div className="max-w-[1600px] xl:max-w-[1720px] 2xl:max-w-[1800px] mx-auto px-2 sm:px-4 md:px-6 my-10 space-y-12">
-        <BanksGrid serviceType="nbfc-loan-settlement" servicePath="/services/nbfc-loan-settlement" />
-        <CompanySection />
-        <StatsStrip />
+      <div className="max-w-[1600px] xl:max-w-[1720px] 2xl:max-w-[1800px] mx-auto px-2 sm:px-4 md:px-6 my-10">
         <AuthorBioBox />
       </div>
 
