@@ -384,7 +384,7 @@ export default function CreditCardSettlementPageClient() {
       {/* ========================================================================= */}
       {/* MAIN 3-COLUMN EDITORIAL CONTENT LAYOUT (15% - 70% - 15%)                  */}
       {/* ========================================================================= */}
-      <div className="max-w-8xl mx-auto px-3 sm:px-4 py-4 sm:py-8">
+      <div className="w-full max-w-[1600px] xl:max-w-[1720px] 2xl:max-w-[1800px] mx-auto px-2 sm:px-4 md:px-6 py-4 sm:py-8">
 
         {/* Mobile Sticky Chapter Indicator & Dropdown Action Bar */}
         <div className="lg:hidden sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-gray-200 shadow-xs -mx-3 sm:-mx-4 px-3 sm:px-4 py-2 mb-4 sm:mb-6">
@@ -417,7 +417,7 @@ export default function CreditCardSettlementPageClient() {
               className={`px-2.5 py-0.5 rounded-full whitespace-nowrap font-medium transition-colors ${
                 selectedModule === null
                   ? 'bg-blue-600 text-white font-bold'
-                  : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                  : 'bg-gray-100 text-black hover:bg-gray-200'
               }`}
             >
               All 48
@@ -429,7 +429,7 @@ export default function CreditCardSettlementPageClient() {
                 className={`px-2 py-0.5 rounded-full whitespace-nowrap font-medium transition-colors ${
                   selectedModule === mIdx
                     ? 'bg-blue-600 text-white font-bold'
-                    : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                    : 'bg-gray-100 text-black hover:bg-gray-200'
                 }`}
               >
                 M{mIdx + 1}
@@ -482,7 +482,7 @@ export default function CreditCardSettlementPageClient() {
                     if (filteredInModule.length === 0) return null;
                     return (
                       <div key={mIdx} className="space-y-1">
-                        <p className="text-[10px] font-extrabold uppercase tracking-wider text-gray-400 px-2">
+                        <p className="text-[10px] font-extrabold uppercase tracking-wider text-black px-2">
                           {module.moduleTitle}
                         </p>
                         <div className="space-y-0.5">
@@ -493,7 +493,7 @@ export default function CreditCardSettlementPageClient() {
                               className={`w-full text-left text-xs px-2.5 py-1.5 rounded-lg transition-colors leading-tight ${
                                 activeId === link.id
                                   ? 'bg-blue-600 text-white font-bold'
-                                  : 'text-gray-700 hover:bg-blue-50'
+                                  : 'text-black hover:bg-blue-50'
                               }`}
                             >
                               {link.label}
@@ -518,21 +518,20 @@ export default function CreditCardSettlementPageClient() {
           </div>
         )}
 
-        <div className="flex flex-col lg:flex-row gap-4 xl:gap-6">
+        <div className="flex flex-col lg:flex-row gap-4 xl:gap-6 items-start">
 
           {/* Left Column: Categorized Table of Contents (15% Desktop Sticky) */}
-          <div className="lg:w-[15%] flex-shrink-0 hidden lg:block">
-            <div className="sticky top-20 max-h-[calc(100vh-5.5rem)] flex flex-col space-y-2.5">
+          <aside className="lg:w-[15%] flex-shrink-0 hidden lg:block sticky top-20 max-h-[calc(100vh-5.5rem)] flex flex-col space-y-2.5">
               <div className="bg-white p-3 rounded-2xl shadow-sm border border-gray-200 flex-1 min-h-0 overflow-y-auto custom-scrollbar">
                 <div className="flex items-center justify-between border-b pb-2 mb-2">
-                  <h3 className="font-bold text-gray-900 text-xs">Table of Contents</h3>
+                  <h3 className="font-bold text-black text-xs">Table of Contents</h3>
                   <span className="text-[10px] bg-blue-100 text-blue-700 font-bold px-1.5 py-0.5 rounded-full">48</span>
                 </div>
 
                 <div className="space-y-2.5">
                   {navModules.map((module, mIdx) => (
                     <div key={mIdx} className="space-y-0.5">
-                      <p className="text-[10px] font-extrabold uppercase tracking-wider text-gray-400 px-1 py-0.5">
+                      <p className="text-[10px] font-extrabold uppercase tracking-wider text-black px-1 py-0.5">
                         {module.moduleTitle.replace('Module ', 'M')}
                       </p>
                       <nav className="space-y-0.5">
@@ -545,7 +544,7 @@ export default function CreditCardSettlementPageClient() {
                               className={`block text-[11px] transition-all duration-150 px-2 py-1 rounded-md leading-tight ${
                                 isActive
                                   ? 'bg-blue-600 text-white font-semibold shadow-xs'
-                                  : 'text-gray-600 hover:text-blue-700 hover:bg-blue-50'
+                                  : 'text-black hover:text-blue-700 hover:bg-blue-50'
                               }`}
                               onClick={(e) => {
                                 e.preventDefault();
@@ -578,12 +577,11 @@ export default function CreditCardSettlementPageClient() {
                   Consult Advocate
                 </Link>
               </div>
-            </div>
-          </div>
+          </aside>
 
           {/* Middle Column: Master 48-Section Editorial Guide (70% Width) */}
-          <div className="lg:w-[70%] w-full min-w-0">
-            <article className="prose prose-slate max-w-none bg-white p-3.5 sm:p-6 md:p-10 rounded-2xl sm:rounded-3xl shadow-xs sm:shadow-sm border border-gray-200/80 space-y-8 sm:space-y-12 overflow-hidden">
+          <div className="lg:w-[70%] flex-1 min-w-0">
+            <article className="bg-white p-4 sm:p-6 md:p-8 rounded-2xl sm:rounded-3xl shadow-xs sm:shadow-sm border border-gray-200/90 space-y-8 sm:space-y-12 overflow-hidden text-black">
               {/* ------------------------------------------------------------- */}
               {/* 1. Introduction to Credit Card Settlement                     */}
               {/* ------------------------------------------------------------- */}
@@ -591,10 +589,10 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 1
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   1. Introduction to Credit Card Settlement
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Over the last decade, India has witnessed an explosive growth in retail revolving credit. Millions of salaried professionals, independent entrepreneurs, and small business operators rely on credit cards to navigate modern transactional life. However, unlike traditional fixed-tenure amortized loans, a credit card is a <strong>revolving credit facility</strong> governed by some of the most punitive financial terms in the Indian banking system.
                   </p>
@@ -625,10 +623,10 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 2
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   2. What Is Credit Card Settlement?
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     <strong>Credit card settlement</strong>—formally designated in Indian banking operations as a <strong>One-Time Settlement (OTS)</strong> or compromise settlement—is a legally binding bilateral agreement entered into between a credit cardholder and the card-issuing bank or Non-Banking Financial Company (NBFC). Under this bilateral accord, the issuer agrees to accept a mutually negotiated, discounted lump sum or short-term phased payment that is substantially lower than the total accumulated ledger balance demanded in current monthly statements.
                   </p>
@@ -636,8 +634,8 @@ export default function CreditCardSettlementPageClient() {
                     Once the agreed settlement sum is remitted into the credit card account according to the terms of a formal, written <strong>Settlement Sanction Letter</strong>, the bank permanently writes off the remaining balance (the &quot;haircut&quot;), ceases all ongoing legal or recovery procedures, terminates the card facility, and issues a comprehensive <strong>No Dues Certificate (NDC)</strong> or No Objection Certificate (NOC).
                   </p>
                   <div className="overflow-x-auto my-3">
-                    <table className="w-full text-xs text-left text-gray-700 border border-gray-200 rounded-xl">
-                      <thead className="bg-gray-100 text-gray-900 font-bold">
+                    <table className="w-full text-xs text-left text-black border border-gray-200 rounded-xl">
+                      <thead className="bg-gray-100 text-black font-bold">
                         <tr>
                           <th className="p-3">Core Element</th>
                           <th className="p-3">Legal Framework</th>
@@ -673,17 +671,17 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 3
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   3. Easy Meaning of Credit Card Settlement
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     In simple everyday language, credit card settlement means reaching a practical, discounted financial compromise with your bank when paying your total card bill in full has become completely impossible due to genuine financial hardship.
                   </p>
                   <p>
                     Consider how a credit card functions compared to other forms of borrowing in India:
                   </p>
-                  <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-gray-700">
+                  <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-black">
                     <li>
                       <strong>Zero Collateral Security:</strong> A home loan is secured by your apartment, and a car loan is secured by your vehicle. If you default on a secured loan, the lender can initiate physical asset seizure under the SARFAESI Act, 2002. A credit card, on the other hand, is <em>100% unsecured</em>. The bank holds no mortgage, no gold pledge, and no property lien.
                     </li>
@@ -707,10 +705,10 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 4
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   4. How Does Credit Card Settlement Work?
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Understanding how a credit card settlement works requires dissecting the internal operational and financial mechanics of Indian credit card issuers (such as HDFC Bank, SBI Card, ICICI Bank, Axis Bank, RBL Bank, Kotak Mahindra Bank, and American Express).
                   </p>
@@ -720,19 +718,19 @@ export default function CreditCardSettlementPageClient() {
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-3 my-4">
                     <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1.5">
                       <span className="font-bold text-xs text-blue-900 block">Phase 1: Special Mention (SMA)</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         Days 1 to 90. Handled by telecalling recovery call centers. Lenders push aggressively for Minimum Amount Due (MAD) or EMI conversion. Settlements are strictly resisted at this stage.
                       </p>
                     </div>
                     <div className="p-3.5 bg-amber-50/60 border border-amber-200 rounded-xl space-y-1.5">
                       <span className="font-bold text-xs text-amber-900 block">Phase 2: NPA Classification</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         Days 91 to 180. Account classified as Sub-Standard Non-Performing Asset under RBI prudential norms. Bank must mandate 15% capital provisioning on its balance sheet.
                       </p>
                     </div>
                     <div className="p-3.5 bg-emerald-50/60 border border-emerald-200 rounded-xl space-y-1.5">
                       <span className="font-bold text-xs text-emerald-900 block">Phase 3: Charge-Off &amp; Write-Off</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         Days 180+. Card is hotlisted, credit line permanently cancelled, and debt transferred to Card Stressed Asset Recovery Management Vertical (SARB). 100% loss provisioning applied. Prime window for deep OTS waivers!
                       </p>
                     </div>
@@ -750,17 +748,17 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 5
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   5. How to Do Credit Card Settlement?
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Executing a credit card settlement is not a casual verbal negotiation with outsourced collection telecallers. Approaching settlement incorrectly often leads to devastating financial traps—such as making partial payments that the bank absorbs as interest while keeping the default active.
                   </p>
                   <p>
                     To execute a lawful, binding credit card settlement that permanently extinguishes your debt, follow this proven institutional protocol:
                   </p>
-                  <ol className="list-decimal pl-5 space-y-2 text-xs sm:text-sm text-gray-700">
+                  <ol className="list-decimal pl-5 space-y-2 text-xs sm:text-sm text-black">
                     <li>
                       <strong>Stop Verbal Discussions with Collection Telecallers:</strong> Third-party collection agents have zero authority to sanction an official OTS. Demands made over telephone calls or WhatsApp are completely unverified. Shift all communications to written, verifiable channels.
                     </li>
@@ -796,10 +794,10 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 6
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   6. Credit Card Settlement Process – Step by Step
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     The complete institutional lifecycle of an advocate-led credit card settlement spans 30 to 50 days across six structured operational phases:
                   </p>
@@ -807,8 +805,8 @@ export default function CreditCardSettlementPageClient() {
                     <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-xl">
                       <div className="w-7 h-7 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center text-xs flex-shrink-0">1</div>
                       <div>
-                        <h4 className="font-bold text-xs text-gray-900">Step 1: Portfolio Diagnostic &amp; Legal Shield (Days 1–5)</h4>
-                        <p className="text-[11px] text-gray-600 mt-0.5">
+                        <h4 className="font-bold text-xs text-black">Step 1: Portfolio Diagnostic &amp; Legal Shield (Days 1–5)</h4>
+                        <p className="text-[11px] text-black mt-0.5">
                           Forensic review of card ledgers, separation of core purchase principal from finance charges, and issuance of an advocate-led Representation Notice under Advocates Act provisions, mandating immediate cessation of phone calls.
                         </p>
                       </div>
@@ -816,8 +814,8 @@ export default function CreditCardSettlementPageClient() {
                     <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-xl">
                       <div className="w-7 h-7 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center text-xs flex-shrink-0">2</div>
                       <div>
-                        <h4 className="font-bold text-xs text-gray-900">Step 2: Hardship Substantiation Dossier (Days 6–12)</h4>
-                        <p className="text-[11px] text-gray-600 mt-0.5">
+                        <h4 className="font-bold text-xs text-black">Step 2: Hardship Substantiation Dossier (Days 6–12)</h4>
+                        <p className="text-[11px] text-black mt-0.5">
                           Assembling income proofs, 6–12 months bank statements confirming negligible disposable cash flow, medical records, or layoff letters to satisfy bank internal audit requirements under RBI guidelines.
                         </p>
                       </div>
@@ -825,8 +823,8 @@ export default function CreditCardSettlementPageClient() {
                     <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-xl">
                       <div className="w-7 h-7 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center text-xs flex-shrink-0">3</div>
                       <div>
-                        <h4 className="font-bold text-xs text-gray-900">Step 3: Formal OTS Petition Submission (Days 13–20)</h4>
-                        <p className="text-[11px] text-gray-600 mt-0.5">
+                        <h4 className="font-bold text-xs text-black">Step 3: Formal OTS Petition Submission (Days 13–20)</h4>
+                        <p className="text-[11px] text-black mt-0.5">
                           Drafting and serving a detailed settlement memo directly to the bank&apos;s Specialized Card Recovery Committee and Zonal Credit Head, citing RBI circulars and requesting a complete waiver of interest and penalties.
                         </p>
                       </div>
@@ -834,8 +832,8 @@ export default function CreditCardSettlementPageClient() {
                     <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-xl">
                       <div className="w-7 h-7 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center text-xs flex-shrink-0">4</div>
                       <div>
-                        <h4 className="font-bold text-xs text-gray-900">Step 4: Credit Committee Bilateral Negotiations (Days 21–32)</h4>
-                        <p className="text-[11px] text-gray-600 mt-0.5">
+                        <h4 className="font-bold text-xs text-black">Step 4: Credit Committee Bilateral Negotiations (Days 21–32)</h4>
+                        <p className="text-[11px] text-black mt-0.5">
                           Advocate-led negotiation rounds with the bank&apos;s Settlement Committee, pushing back against initial inflated counter-proposals to lock in the lowest possible settlement amount (typically 50% to 75% gross savings).
                         </p>
                       </div>
@@ -843,8 +841,8 @@ export default function CreditCardSettlementPageClient() {
                     <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-xl">
                       <div className="w-7 h-7 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center text-xs flex-shrink-0">5</div>
                       <div>
-                        <h4 className="font-bold text-xs text-gray-900">Step 5: Sanction Letter Verification &amp; Payment (Days 33–40)</h4>
-                        <p className="text-[11px] text-gray-600 mt-0.5">
+                        <h4 className="font-bold text-xs text-black">Step 5: Sanction Letter Verification &amp; Payment (Days 33–40)</h4>
+                        <p className="text-[11px] text-black mt-0.5">
                           Legal vetting of the official written Settlement Sanction Letter to ensure no hidden liability clauses exist, followed by direct electronic payment into the card account before the stipulated deadline.
                         </p>
                       </div>
@@ -852,8 +850,8 @@ export default function CreditCardSettlementPageClient() {
                     <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-xl">
                       <div className="w-7 h-7 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center text-xs flex-shrink-0">6</div>
                       <div>
-                        <h4 className="font-bold text-xs text-gray-900">Step 6: No Dues Certificate &amp; Bureau Verification (Days 41–55)</h4>
-                        <p className="text-[11px] text-gray-600 mt-0.5">
+                        <h4 className="font-bold text-xs text-black">Step 6: No Dues Certificate &amp; Bureau Verification (Days 41–55)</h4>
+                        <p className="text-[11px] text-black mt-0.5">
                           Securing an authenticated physical debt release certificate from the bank confirming nil balance and verifying zero-rupee updates across credit bureaus.
                         </p>
                       </div>
@@ -869,17 +867,17 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 7
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   7. When Should You Consider Credit Card Settlement?
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Credit card settlement is an extraordinary debt resolution remedy. It should not be treated as a casual discount mechanism for borrowers with ample liquid funds, but rather as an essential financial life-raft when repayment has become mathematically unviable.
                   </p>
                   <p>
                     You should urgently consider initiating a formal credit card settlement under the following specific diagnostic circumstances:
                   </p>
-                  <div className="space-y-2.5 my-3 text-xs sm:text-sm text-gray-700">
+                  <div className="space-y-2.5 my-3 text-xs sm:text-sm text-black">
                     <div className="p-3 bg-slate-50 rounded-xl border border-slate-200">
                       <strong>1. The Minimum Amount Due (MAD) Trap:</strong> You have been paying the Minimum Amount Due every month for 6 to 12 months, yet your principal balance has not decreased by even 5%. You realize that you are simply throwing money into a furnace of compounding 42% interest and 18% GST.
                     </div>
@@ -906,10 +904,10 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 8
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   8. Who Is Eligible for Credit Card Settlement?
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Under Reserve Bank of India compromise settlement guidelines and internal credit committee policies of commercial banks, eligibility for a credit card OTS is predicated upon proving <strong>genuine, non-wilful financial distress</strong>. Banks will not approve a settlement for a borrower who has substantial liquid funds in savings accounts or investments.
                   </p>
@@ -919,25 +917,25 @@ export default function CreditCardSettlementPageClient() {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3 my-3">
                     <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                       <span className="font-bold text-xs text-blue-900">1. Account Delinquency Vintage</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         The credit card must ideally have crossed <strong>three to six consecutive defaulted billing cycles</strong>, placing it in the NPA or Written-Off classification. Banks rarely sanction principal haircuts while an account is regular or in early SMA-0 stage.
                       </p>
                     </div>
                     <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                       <span className="font-bold text-xs text-blue-900">2. Verifiable Hardship Ground</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         The inability to pay must be supported by verifiable documentation—such as job termination letters, salary reduction slips, hospital surgical summaries, or business GST cancellation records.
                       </p>
                     </div>
                     <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                       <span className="font-bold text-xs text-blue-900">3. Non-Wilful Defaulter Classification</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         The borrower must not have committed financial fraud, forgery, or fund siphoning. The default must be an honest consequence of economic misfortune rather than deliberate refusal to honor debts.
                       </p>
                     </div>
                     <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                       <span className="font-bold text-xs text-blue-900">4. Absence of Seizable Liquid Assets</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         The borrower&apos;s bank statements must demonstrate that their net in-hand income is barely sufficient to cover basic family subsistence (food, shelter, medical, school fees), leaving zero surplus for hyper-inflated card bills.
                       </p>
                     </div>
@@ -952,10 +950,10 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 9
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   9. How Much Can a Credit Card Be Settled For?
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     A central question for every cardholder is: <em>&quot;What percentage of my credit card bill can actually be waived?&quot;</em>
                   </p>
@@ -963,8 +961,8 @@ export default function CreditCardSettlementPageClient() {
                     Because credit card balances consist of exorbitant interest and fees, <strong>credit cards typically achieve significantly higher settlement discounts than any other loan category in India</strong>. In a professionally negotiated compromise settlement, the breakdown of waivers typically follows this realistic distribution:
                   </p>
                   <div className="overflow-x-auto my-3">
-                    <table className="w-full text-xs text-left text-gray-700 border border-gray-200 rounded-xl">
-                      <thead className="bg-gray-100 text-gray-900 font-bold">
+                    <table className="w-full text-xs text-left text-black border border-gray-200 rounded-xl">
+                      <thead className="bg-gray-100 text-black font-bold">
                         <tr>
                           <th className="p-3">Component of Card Balance</th>
                           <th className="p-3">Standard Realistic Waiver Range</th>
@@ -992,7 +990,7 @@ export default function CreditCardSettlementPageClient() {
                           <td className="p-3 font-bold text-blue-700">30% to 60% Haircut</td>
                           <td className="p-3">Determined by default age, severity of hardship, and advocate negotiation.</td>
                         </tr>
-                        <tr className="bg-blue-50/50 font-bold text-gray-900">
+                        <tr className="bg-blue-50/50 font-bold text-black">
                           <td className="p-3">Total Gross Ledger Savings</td>
                           <td className="p-3 text-emerald-800">50% to 75% Overall Reduction</td>
                           <td className="p-3">Cardholders typically pay only 25% to 45% of the total inflated statement demand!</td>
@@ -1010,21 +1008,21 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 10
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   10. Credit Card Settlement Amount – Calculation and Examples
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     To understand how dramatic the savings can be, examine this authentic case illustration from CredSettle&apos;s debt resolution files:
                   </p>
                   <div className="p-4 sm:p-5 bg-slate-50 rounded-2xl border border-slate-200 space-y-3 text-xs sm:text-sm">
-                    <div className="font-bold text-gray-900 text-sm sm:text-base border-b border-slate-200 pb-2">
+                    <div className="font-bold text-black text-sm sm:text-base border-b border-slate-200 pb-2">
                       Case Study: Vivek&apos;s ₹5,20,000 Credit Card Debt Resolution Across 2 Banks
                     </div>
                     <p>
                       <strong>Initial Scenario:</strong> Vivek, a sales marketing manager in Gurugram, held two credit cards (Card A: ₹3,10,000 limit; Card B: ₹2,10,000 limit). Following sudden company downsizing in early 2025, his monthly income ceased. Over 10 months of non-payment, the balances escalated:
                     </p>
-                    <ul className="list-disc pl-5 space-y-1 text-gray-700">
+                    <ul className="list-disc pl-5 space-y-1 text-black">
                       <li><strong>Actual Principal Purchases (Merchant Spends):</strong> ₹2,35,000</li>
                       <li><strong>Compounding Monthly Finance Charges (3.75%/mo):</strong> ₹1,85,000</li>
                       <li><strong>Late Payment Penalties, Overlimit Fees &amp; 18% GST:</strong> ₹1,00,000</li>
@@ -1036,7 +1034,7 @@ export default function CreditCardSettlementPageClient() {
                     <p>
                       <strong>Sanctioned Settlement Outcome:</strong>
                     </p>
-                    <ul className="list-disc pl-5 space-y-1 text-gray-700">
+                    <ul className="list-disc pl-5 space-y-1 text-black">
                       <li>100% waiver of penalties and GST (₹1,00,000 eliminated).</li>
                       <li>100% waiver of accrued finance charges (₹1,85,000 eliminated).</li>
                       <li>45% principal haircut on the core purchase balance (₹1,05,750 waived).</li>
@@ -1056,10 +1054,10 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   CALCULATOR TOOL
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   Credit Card Settlement (OTS) Savings Calculator
                 </h2>
-                <p className="text-xs sm:text-sm text-gray-600 mb-4 sm:mb-6">
+                <p className="text-xs sm:text-sm text-black mb-4 sm:mb-6">
                   Estimate your approximate credit card settlement payable range and potential interest/principal waiver based on default duration and ledger balance:
                 </p>
 
@@ -1177,16 +1175,16 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 11
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   11. Credit Card Settlement vs Full Repayment
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     When confronting mounting credit card arrears, cardholders must evaluate whether to pursue full repayment or opt for a compromise settlement. While full repayment is the ideal choice for individuals whose financial difficulties are temporary and minor, compromise settlement is the indispensable legal remedy when debts exceed total net worth.
                   </p>
                   <div className="overflow-x-auto my-3">
-                    <table className="w-full text-xs text-left text-gray-700 border border-gray-200 rounded-xl">
-                      <thead className="bg-gray-100 text-gray-900 font-bold">
+                    <table className="w-full text-xs text-left text-black border border-gray-200 rounded-xl">
+                      <thead className="bg-gray-100 text-black font-bold">
                         <tr>
                           <th className="p-3">Comparison Metric</th>
                           <th className="p-3">Full Repayment</th>
@@ -1232,14 +1230,14 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 12
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   12. Credit Card Settlement vs Credit Card Restructuring
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Card issuers frequently propose &quot;Credit Card Restructuring&quot; or &quot;EMI Conversion&quot; to borrowers who fall behind on payments. It is crucial to understand the vast structural difference between restructuring and compromise settlement:
                   </p>
-                  <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-gray-700">
+                  <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-black">
                     <li>
                       <strong>What is Credit Card Restructuring?</strong> The bank converts your total outstanding card balance (including past late fees and GST) into a fixed-tenure term loan repayable over 12 to 48 months. However, the bank continues to charge an interest rate of <strong>16% to 24% per annum</strong> on this converted loan. If your income has collapsed, you will simply default on the restructured EMIs after 2 or 3 months, worsening your legal liability!
                     </li>
@@ -1260,14 +1258,14 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 13
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   13. Credit Card Settlement vs Credit Card Closure
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     While both actions terminate your credit card facility, their procedural requirements, costs, and regulatory documentation differ significantly:
                   </p>
-                  <div className="space-y-2 text-xs sm:text-sm text-gray-700">
+                  <div className="space-y-2 text-xs sm:text-sm text-black">
                     <p>
                       <strong>Standard Credit Card Closure:</strong> Occurs when the cardholder voluntarily requests card cancellation after paying 100% of all billed and unbilled transactions, interest, and annual fees down to zero rupees. The bank generates a standard account closure confirmation letter. The credit bureau records the account as <strong>&quot;Closed&quot;</strong>, reflecting positively on your financial management history.
                     </p>
@@ -1285,35 +1283,35 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 14
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   14. Advantages of Credit Card Settlement
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     For a borrower drowning in unmanageable revolving card debt, a legally sanctioned compromise settlement delivers life-changing benefits:
                   </p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3 my-3">
                     <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                       <span className="font-bold text-xs text-blue-900">1. Eradication of Hyper-Compounding Interest</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         Permanently terminates the 42%–52.86% APR finance charges and recurring 18% GST that make credit card debts grow exponentially each month.
                       </p>
                     </div>
                     <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                       <span className="font-bold text-xs text-blue-900">2. Cessation of Recovery Harassment</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         Ends abusive collection phone calls, workplace intrusions, and doorstep visits by third-party recovery agencies, restoring personal peace and family dignity.
                       </p>
                     </div>
                     <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                       <span className="font-bold text-xs text-blue-900">3. Immunity from Civil Suits &amp; Legal Notices</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         Discharges all statutory claims under Section 25 PSSA (e-mandate bounce) and prevents civil summary recovery suits under Order 37 CPC.
                       </p>
                     </div>
                     <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                       <span className="font-bold text-xs text-blue-900">4. Immediate Liquidity Recovery</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         Saves 50% to 75% of your total demanded balance, allowing you to reallocate monthly cash flow toward essential family survival, rent, and savings.
                       </p>
                     </div>
@@ -1328,14 +1326,14 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 15
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   15. Disadvantages and Risks of Credit Card Settlement
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     CredSettle operates with uncompromising transparency. While credit card settlement resolves acute financial crises, cardholders must be fully cognizant of its operational and credit implications:
                   </p>
-                  <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-gray-700">
+                  <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-black">
                     <li>
                       <strong>CIBIL Bureau Remark:</strong> The card issuer reports the account status as <strong>&quot;Settled&quot;</strong> rather than &quot;Closed&quot;. This remark signals to future underwriting algorithms that the lender took a financial loss.
                     </li>
@@ -1362,10 +1360,10 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 16
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   16. Impact of Credit Card Settlement on CIBIL Score
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     A widespread myth in India is that &quot;settling a credit card destroys your CIBIL score forever.&quot; This is categorically false.
                   </p>
@@ -1373,7 +1371,7 @@ export default function CreditCardSettlementPageClient() {
                     Let us examine credit reporting mechanics across the four major bureaus (TransUnion, Experian, Equifax, and CRIF):
                   </p>
                   <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200 space-y-2 text-xs sm:text-sm">
-                    <span className="font-bold text-gray-900 block">The Mathematics of Ongoing Default vs. Settlement:</span>
+                    <span className="font-bold text-black block">The Mathematics of Ongoing Default vs. Settlement:</span>
                     <p>
                       <strong>Scenario A (Unresolved Default):</strong> If you do not settle, every month the bank reports <em>Days Past Due (DPD)</em> advancing from 30 to 60, 90, 180, and 360+. Each monthly default entry inflicts compounding damage on your score, dragging it down to 500–550, while the overdue amount grows indefinitely. No bank will touch your profile as long as active overdue balances remain unaddressed.
                     </p>
@@ -1391,16 +1389,16 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 17
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   17. Credit Card Settlement and Credit Bureau Reporting
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Following the completion of an OTS, the card issuer submits monthly regulatory data to all licensed credit information registries under CICRA directives. Here is exactly how the settled credit card appears on your credit report:
                   </p>
                   <div className="overflow-x-auto my-3">
-                    <table className="w-full text-xs text-left text-gray-700 border border-gray-200 rounded-xl">
-                      <thead className="bg-gray-100 text-gray-900 font-bold">
+                    <table className="w-full text-xs text-left text-black border border-gray-200 rounded-xl">
+                      <thead className="bg-gray-100 text-black font-bold">
                         <tr>
                           <th className="p-3">Report Field</th>
                           <th className="p-3">Value Recorded Post-Settlement</th>
@@ -1441,10 +1439,10 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 18
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   18. How Long Does Credit Card Settlement Affect CIBIL?
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Under regulatory standards governing Indian credit bureaus, the &quot;Settled&quot; remark remains visible in your account history for up to <strong>7 years</strong> from the date of settlement execution.
                   </p>
@@ -1464,14 +1462,14 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 19
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   19. How to Improve CIBIL Score After Credit Card Settlement
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Rebuilding your CIBIL score to 750+ after settling a credit card requires a disciplined, step-by-step rehabilitation strategy:
                   </p>
-                  <ol className="list-decimal pl-5 space-y-2 text-xs sm:text-sm text-gray-700">
+                  <ol className="list-decimal pl-5 space-y-2 text-xs sm:text-sm text-black">
                     <li>
                       <strong>Verify Bureau Balance Updates (Day 45):</strong> Pull your official credit reports from CIBIL, Experian, and CRIF High Mark 45 to 60 days after settlement. Confirm that the card status is &quot;Settled&quot; and the current balance is exactly ₹0. If an overdue balance still shows, raise an immediate dispute.
                     </li>
@@ -1498,14 +1496,14 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 20
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   20. RBI Guidelines for Credit Card Settlement
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Credit card debt settlement in India is strictly governed by statutory frameworks established by the <strong>Reserve Bank of India (RBI)</strong>. The primary governing regulations include:
                   </p>
-                  <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-gray-700">
+                  <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-black">
                     <li>
                       <strong>RBI Master Direction – Credit Card and Debit Card – Issuance and Conduct Directions, 2022 (updated):</strong> Mandates absolute transparency in credit card billing, sets rules governing the computation of finance charges, and penalizes lenders that levy undisclosed fees or fail to provide comprehensive billing dispute mechanisms.
                     </li>
@@ -1526,35 +1524,35 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 21
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   21. RBI Guidelines for Credit Card Recovery Agents
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     The Reserve Bank of India has issued stringent directives to curb the menace of collection agent misconduct under the <strong>Master Circular on Recovery Agents in Banks (August 12, 2022)</strong>. If a collection agent violates these rules, the lending institution faces heavy regulatory sanctions:
                   </p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3 my-3">
                     <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                       <span className="font-bold text-xs text-blue-900">Calling Hours Restriction</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         Recovery agents are strictly permitted to contact borrowers only between <strong>8:00 AM and 7:00 PM</strong>. Calling before 8 AM or after 7 PM is an explicit regulatory offense.
                       </p>
                     </div>
                     <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                       <span className="font-bold text-xs text-blue-900">Strict Privacy Protection</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         Agents are strictly forbidden from contacting your relatives, friends, neighbors, or workplace colleagues. Debt details cannot be disclosed to any third party.
                       </p>
                     </div>
                     <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                       <span className="font-bold text-xs text-blue-900">Mandatory IIBF Certification</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         Recovery agents must hold Debt Recovery Agent (DRA) credentials issued through the Indian Banking & Finance Institute. Uncertified recovery agents are illegal.
                       </p>
                     </div>
                     <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                       <span className="font-bold text-xs text-blue-900">Zero Tolerance for Intimidation</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         Use of threatening language, physical intimidation, abusive slang, or impersonation of police officers or court bailiffs attracts direct criminal liability.
                       </p>
                     </div>
@@ -1569,14 +1567,14 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 22
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   22. Credit Card Default – What Happens If You Stop Paying?
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     If an acute financial crisis compels you to halt credit card payments, the default progresses through a standardized chronological lifecycle:
                   </p>
-                  <div className="space-y-2 text-xs sm:text-sm text-gray-700">
+                  <div className="space-y-2 text-xs sm:text-sm text-black">
                     <p>
                       <strong>Month 1 (Days 1–30):</strong> The payment due date is missed. Automated SMS alerts and email reminders are generated. The bank levies a late payment fee (typically ₹500 to ₹1,300 depending on balance) and finance charges begin compounding daily.
                     </p>
@@ -1603,15 +1601,15 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 23
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   23. Legal Consequences of Credit Card Default
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     The single greatest weapon recovery agencies use against cardholders is fear of criminal prosecution and imprisonment. It is vital to understand the true constitutional and legal reality in India:
                   </p>
                   <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200 space-y-2 text-xs sm:text-sm">
-                    <span className="font-bold text-gray-900 block">The Landmark Supreme Court Precedent:</span>
+                    <span className="font-bold text-black block">The Landmark Supreme Court Precedent:</span>
                     <p>
                       Under the landmark constitutional authority <strong>Jolly George Varghese (AIR 1980 SC 470)</strong>, the Supreme Court ruled that an honest debtor lacking financial capacity cannot be incarcerated under Article 21. The Apex Court held that depriving a person of liberty merely because they have suffered economic misfortune violates fundamental human rights.
                     </p>
@@ -1629,14 +1627,14 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 24
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   24. Can a Bank Take Legal Action for Credit Card Debt?
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     While credit card defaults are not criminal, card-issuing banks do possess legal remedies under civil law. In practice, however, banks face massive economic hurdles when pursuing court litigation for unsecured card debt:
                   </p>
-                  <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-gray-700">
+                  <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-black">
                     <li>
                       <strong>Summary Suits (Order 37 of Civil Procedure Code):</strong> Banks can theoretically file a summary suit in a City Civil Court to recover unpaid amounts. However, because court litigation in India takes 3 to 7 years, requires substantial court fees, and demands heavy advocate retainers, banks rarely pursue summary suits for amounts under ₹15–20 Lakhs.
                     </li>
@@ -1663,14 +1661,14 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 25
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   25. Credit Card Settlement After Receiving a Legal Notice
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Receiving a formal advocate legal notice under Section 25 of the PSSA or a lawyer&apos;s demand notice should never cause panic. In fact, receiving a legal notice frequently marks the <strong>best possible turning point</strong> for achieving a favorable settlement:
                   </p>
-                  <ol className="list-decimal pl-5 space-y-2 text-xs sm:text-sm text-gray-700">
+                  <ol className="list-decimal pl-5 space-y-2 text-xs sm:text-sm text-black">
                     <li>
                       <strong>The 15-Day Statutory Window:</strong> Under statutory notice requirements, the borrower has prescribed two-week statutory timeframe to file a formal rejoinder. Never leave a legal notice unaddressed.
                     </li>
@@ -1691,14 +1689,14 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 26
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   26. Credit Card Settlement During Arbitration or Legal Proceedings
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Many credit card issuers attempt to refer delinquent accounts to private arbitration. However, the legal enforceability of these arbitrations is severely compromised under current Indian law:
                   </p>
-                  <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-gray-700">
+                  <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-black">
                     <li>
                       <strong>Unilateral Arbitrator Invalidation:</strong> In landmark rulings such as <em>Perkins Eastman Architects DPC v. HSCC (India) Ltd (2019)</em> and <em>TRF Ltd v. Energo Engineering Projects Ltd (2017)</em>, the Supreme Court of India held that unilateral appointment of sole arbitrators by interested lenders is legally invalid and void ab initio. CredSettle advocates file formal jurisdictional objections before invalid arbitral tribunals.
                     </li>
@@ -1716,14 +1714,14 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 27
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   27. Credit Card Recovery Agent Harassment
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Outsourced debt recovery agencies frequently deploy aggressive, unlawful tactics to intimidate distressed cardholders. Recognizing these illicit practices is the first step in neutralizing them:
                   </p>
-                  <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-gray-700">
+                  <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-black">
                     <li><strong>Continuous Spam Calling:</strong> Subjecting cardholders to 30 to 60 calls a day from automated VOIP numbers and untraceable SIM cards.</li>
                     <li><strong>Calling Relatives and Workplace HR:</strong> Harassing family members or contacting employers to induce acute social humiliation.</li>
                     <li><strong>Impersonation of Police and Judicial Officers:</strong> Sending forged &quot;Arrest Warrants&quot; or fake &quot;Court Summons&quot; via WhatsApp to generate panic.</li>
@@ -1742,35 +1740,35 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 28
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   28. Rights of Credit Card Customers Against Recovery Harassment
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     As an Indian citizen and bank customer, you are armed with powerful statutory rights to defend your peace and dignity:
                   </p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3 my-3">
                     <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                       <span className="font-bold text-xs text-blue-900">Right to Legal Representation</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         The Advocates Act, 1961 legally affirms every citizen's right to engage certified advocates for banking representation. Once our advocates serve a representation notice, the bank must direct all debt communications exclusively to our legal team.
                       </p>
                     </div>
                     <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                       <span className="font-bold text-xs text-blue-900">Right to Identity Verification</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         You have the right to demand official bank authorization letters, employee ID cards, and IIBF certificates before engaging with any field recovery personnel.
                       </p>
                     </div>
                     <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                       <span className="font-bold text-xs text-blue-900">Right to Privacy</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         Protected under Article 21 of the Constitution. Lenders cannot disclose your financial defaults to third parties, neighbors, or workplace associates.
                       </p>
                     </div>
                     <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                       <span className="font-bold text-xs text-blue-900">Right to File Police Complaints</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         If an agent uses abusive language or threats, you can file a criminal complaint under Sections 503, 506 (Criminal Intimidation), and 384 (Extortion) of the IPC.
                       </p>
                     </div>
@@ -1785,14 +1783,14 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 29
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   29. How to Negotiate Credit Card Settlement With a Bank
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Negotiating a credit card settlement with commercial banks requires disciplined strategic execution. Follow these core negotiation principles:
                   </p>
-                  <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-gray-700">
+                  <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-black">
                     <li>
                       <strong>Anchor on Core Principal Spend:</strong> Never base negotiations on the bank&apos;s inflated statement ledger balance. Segregate the actual purchase spend from compounding finance charges, and establish your opening settlement offer at 25% to 35% of the core principal.
                     </li>
@@ -1816,16 +1814,16 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 30
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   30. Documents Required for Credit Card Settlement
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     To submit a formal One-Time Settlement petition that withstands internal bank audit and compliance scrutiny, prepare the following document portfolio:
                   </p>
                   <div className="overflow-x-auto my-3">
-                    <table className="w-full text-xs text-left text-gray-700 border border-gray-200 rounded-xl">
-                      <thead className="bg-gray-100 text-gray-900 font-bold">
+                    <table className="w-full text-xs text-left text-black border border-gray-200 rounded-xl">
+                      <thead className="bg-gray-100 text-black font-bold">
                         <tr>
                           <th className="p-3">Document Category</th>
                           <th className="p-3">Required Records</th>
@@ -1866,23 +1864,23 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 31
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   31. Credit Card Settlement Without a Settlement Company
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Can a cardholder negotiate and execute a credit card settlement directly on their own without professional assistance? Yes, it is legally permissible. However, an unrepresented borrower faces severe operational and psychological challenges:
                   </p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3 my-3">
                     <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                       <span className="font-bold text-xs text-blue-900">The DIY Advantage</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         You avoid paying professional legal advisory fees to a debt settlement firm.
                       </p>
                     </div>
                     <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                       <span className="font-bold text-xs text-red-900">The Serious DIY Pitfalls</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         You remain completely exposed to daily collection harassment; collection agencies routinely mislead unrepresented cardholders into paying partial sums that fail to close the account; and banks offer much smaller waivers (only 20%–30% vs 50%–75% with advocates).
                       </p>
                     </div>
@@ -1897,14 +1895,14 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 32
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   32. How to Choose a Credit Card Settlement Company
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     With numerous unregulated entities advertising online, cardholders must exercise extreme diligence when selecting a debt resolution service. Ensure your chosen firm satisfies these five strict criteria:
                   </p>
-                  <ol className="list-decimal pl-5 space-y-2 text-xs sm:text-sm text-gray-700">
+                  <ol className="list-decimal pl-5 space-y-2 text-xs sm:text-sm text-black">
                     <li><strong>Advocate-Led Legal Representation:</strong> The firm must have licensed, experienced banking litigation advocates enrolled with the Bar Council of India who can issue formal legal representation notices and defend court proceedings.</li>
                     <li><strong>Direct-to-Bank Payment Policy:</strong> Legitimate firms NEVER ask you to deposit settlement funds into their private bank accounts. All settlement remittances must be paid directly into the card issuer&apos;s official bank account.</li>
                     <li><strong>Transparent Service Agreement:</strong> A written contract outlining scope of work, fee terms, and deliverables without ambiguous hidden charges.</li>
@@ -1921,16 +1919,16 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 33
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   33. Credit Card Settlement Company vs Direct Bank Negotiation
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Comparing what happens when an individual borrower negotiates alone versus engaging professional advocate-led debt resolution:
                   </p>
                   <div className="overflow-x-auto my-3">
-                    <table className="w-full text-xs text-left text-gray-700 border border-gray-200 rounded-xl">
-                      <thead className="bg-gray-100 text-gray-900 font-bold">
+                    <table className="w-full text-xs text-left text-black border border-gray-200 rounded-xl">
+                      <thead className="bg-gray-100 text-black font-bold">
                         <tr>
                           <th className="p-3">Feature</th>
                           <th className="p-3">Direct Negotiation (Alone)</th>
@@ -1971,14 +1969,14 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 34
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   34. Credit Card Settlement Fees and Charges
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Understanding professional fee models in the debt settlement domain ensures you are protected from exploitative billing:
                   </p>
-                  <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-gray-700">
+                  <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-black">
                     <li>
                       <strong>Legal Advisory Retainer:</strong> A transparent, modest fee covering legal representation notices, case documentation, hardship filing, and advocate correspondence with credit committees.
                     </li>
@@ -1999,14 +1997,14 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 35
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   35. What Happens After Credit Card Settlement?
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Once your sanctioned settlement payment is remitted and verified by the bank&apos;s Stressed Asset Resolution department, a standardized chronological sequence of events occurs:
                   </p>
-                  <ol className="list-decimal pl-5 space-y-2 text-xs sm:text-sm text-gray-700">
+                  <ol className="list-decimal pl-5 space-y-2 text-xs sm:text-sm text-black">
                     <li><strong>Immediate Cessation of Collection Activities (24–48 Hours):</strong> The bank de-allocates your account from outsourced recovery agencies. Phone calls, automated voice blasts, and field visits cease completely.</li>
                     <li><strong>Permanent Card Deactivation (Day 3–7):</strong> The credit card facility is hotlisted and permanently destroyed in the bank&apos;s core banking system (CBS). The unamortized balance is technically written off.</li>
                     <li><strong>Issuance of the No Dues Certificate (Days 15–30):</strong> The bank generates and dispatches an official stamped No Dues Certificate (NDC) or No Objection Certificate (NOC) confirming zero outstanding liability.</li>
@@ -2022,23 +2020,23 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 36
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   36. Settlement Letter, No-Dues Certificate and Other Documents
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Documentary integrity is the cornerstone of a secure credit card settlement. You must ensure you obtain and permanently archive two crucial legal instruments:
                   </p>
                   <div className="space-y-3 my-3">
                     <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-1.5">
                       <span className="font-bold text-xs text-blue-900 block">1. The Formal Settlement Sanction Letter (Pre-Payment)</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         Must be issued on official bank letterhead with an authentic internal reference number, signed by an authorized signatory (Manager / Chief Manager). It must state the 16-digit card number, the exact sanctioned settlement amount, the strict payment deadline, and explicit confirmation that payment of this sum constitutes full and final satisfaction of all bank claims.
                       </p>
                     </div>
                     <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-1.5">
                       <span className="font-bold text-xs text-blue-900 block">2. The No Dues Certificate / NDC (Post-Payment)</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         Issued within 3 to 4 weeks after payment realization. This document serves as your permanent legal shield against future recovery attempts by debt collection agencies or asset reconstruction companies (ARCs). Always preserve digital and physical copies indefinitely.
                       </p>
                     </div>
@@ -2053,20 +2051,20 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 37
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   37. How to Check Credit Card Settlement Status on Your Credit Report
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Approximately 45 to 60 days following your final settlement payment, verify your credit report across all four authorized credit bureaus:
                   </p>
-                  <ol className="list-decimal pl-5 space-y-2 text-xs sm:text-sm text-gray-700">
+                  <ol className="list-decimal pl-5 space-y-2 text-xs sm:text-sm text-black">
                     <li>Log in to the official bureau portals: <strong>TransUnion CIBIL</strong> (cibil.com), <strong>Experian India</strong> (experian.in), or <strong>CRIF High Mark</strong>.</li>
                     <li>Download your updated CIR (Credit Information Report) and navigate to the <strong>&quot;Accounts Information&quot;</strong> section.</li>
                     <li>Locate the specific credit card issuer and account number.</li>
                     <li>
                       Verify that:
-                      <ul className="list-disc pl-5 mt-1 space-y-0.5 text-xs text-gray-600">
+                      <ul className="list-disc pl-5 mt-1 space-y-0.5 text-xs text-black">
                         <li><strong>Current Balance:</strong> Must read <strong>₹0</strong> (or NIL).</li>
                         <li><strong>Amount Overdue:</strong> Must read <strong>₹0</strong> (or NIL).</li>
                         <li><strong>Account Status:</strong> Shows as <strong>&quot;Settled&quot;</strong> or &quot;Post-Write-Off Settled&quot;.</li>
@@ -2084,14 +2082,14 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 38
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   38. How to Correct Incorrect Credit Bureau Reporting After Settlement
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     In approximately 10% to 15% of cases, card issuers fail to update bureau records correctly due to internal reporting lapses, leaving the account showing as an &quot;Active Default&quot; with mounting arrears. If this occurs, execute this correction protocol:
                   </p>
-                  <ol className="list-decimal pl-5 space-y-2 text-xs sm:text-sm text-gray-700">
+                  <ol className="list-decimal pl-5 space-y-2 text-xs sm:text-sm text-black">
                     <li><strong>Raise an Online Bureau Dispute:</strong> Submit a formal dispute on the CIBIL Dispute Resolution portal, specifying &quot;Incorrect Balance / Status&quot; and providing your 9-digit Control Number (ECN).</li>
                     <li><strong>Attach Documentary Proof:</strong> Upload high-resolution PDF copies of your signed Settlement Sanction Letter, payment transaction receipt/UTR, and stamped No Dues Certificate.</li>
                     <li><strong>Serve Notice to the Bank Nodal Officer:</strong> Email the bank&apos;s Principal Nodal Officer citing Section 21 of the Credit Information Companies (Regulation) Act, 2005 (CICRA), which mandates lenders to rectify inaccurate bureau data within 30 days.</li>
@@ -2107,14 +2105,14 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 39
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   39. Common Mistakes to Avoid During Credit Card Settlement
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Cardholders navigating settlement without experienced legal counsel routinely fall into devastating traps:
                   </p>
-                  <div className="space-y-2 text-xs sm:text-sm text-gray-700">
+                  <div className="space-y-2 text-xs sm:text-sm text-black">
                     <div className="p-3 bg-red-50/80 rounded-xl border border-red-200">
                       <strong>Mistake 1: Paying on Verbal Assurances:</strong> Never pay money based on telephone promises made by collection agents claiming &quot;Pay ₹30,000 today and your card is settled.&quot; Without a written sanction letter, the bank allocates the payment to penal interest and continues recovery!
                     </div>
@@ -2138,14 +2136,14 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 40
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   40. Credit Card Settlement Scams and Fraud – How to Stay Safe
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     The vulnerability of distressed cardholders makes them prime targets for fraudulent syndicates. Protect yourself against these widespread scams:
                   </p>
-                  <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-gray-700">
+                  <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-black">
                     <li>
                       <strong>The Counterfeit WhatsApp Settlement Letter:</strong> Fraudulent recovery agents send fake settlement letters crafted with copied bank logos, spelling errors, and unverified personal contact numbers. Always verify the authenticity of a settlement letter directly with the bank&apos;s official credit card branch or Nodal Officer before paying.
                     </li>
@@ -2166,23 +2164,23 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 41
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   41. Can You Get a Loan After Credit Card Settlement?
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Yes, you can qualify for loans after settling a credit card, but the trajectory depends on loan type and elapsed time:
                   </p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3 my-3">
                     <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                       <span className="font-bold text-xs text-blue-900">Immediate Phase (0 to 12 Months)</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         Unsecured personal loans and fresh credit cards will be rejected due to the mandatory RBI 12-month cooling-off period. However, <strong>secured credit facilities</strong> (Gold Loans, Fixed Deposit-backed loans, Loan Against Property) are readily available because the lender holds liquid collateral.
                       </p>
                     </div>
                     <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                       <span className="font-bold text-xs text-blue-900">Rehabilitation Phase (18 to 36 Months)</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         Once you establish 18 to 24 months of spotless payment history on a secured credit line and your score crosses 720+, major banks and NBFCs will approve <strong>Auto Loans, Commercial Vehicle Loans, and Home Loans</strong> at competitive market rates.
                       </p>
                     </div>
@@ -2197,14 +2195,14 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 42
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   42. Can You Get a Credit Card After Settlement?
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Obtaining a fresh credit card post-settlement is entirely achievable through the proven <strong>Secured Credit Card Mechanism</strong>:
                   </p>
-                  <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-gray-700">
+                  <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-black">
                     <li>
                       <strong>Fixed Deposit-Backed Credit Cards:</strong> Establish a dedicated fixed term deposit (₹20,000 to ₹80,000) with a participating financial institution. The issuer provides a collateralized card bearing an 80% to 90% spend ceiling linked directly to the fixed reserve.
                     </li>
@@ -2225,35 +2223,35 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 43
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   43. How to Rebuild Your Financial Profile After Settlement
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Credit card settlement liberates you from debt slavery. To transform this relief into enduring financial prosperity, execute this 4-step rebuilding roadmap:
                   </p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3 my-3">
                     <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                       <span className="font-bold text-xs text-blue-900">Pillar 1: Emergency Cash Liquidity</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         Redirect the funds previously wasted on minimum card payments into building a liquid emergency fund covering 3 to 6 months of basic household expenses.
                       </p>
                     </div>
                     <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                       <span className="font-bold text-xs text-blue-900">Pillar 2: Disciplined Re-Credit Building</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         Operate one single secured credit card for minor daily transactions, setting auto-debit for 100% full payment on the statement due date.
                       </p>
                     </div>
                     <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                       <span className="font-bold text-xs text-blue-900">Pillar 3: Quarterly Credit Auditing</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         Review your free annual credit report from CIBIL and Experian every quarter to verify that no ghost accounts or fraudulent inquiries appear.
                       </p>
                     </div>
                     <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                       <span className="font-bold text-xs text-blue-900">Pillar 4: Optional Status Upgradation</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         When substantial savings accumulate in 3 to 5 years, consider paying the settled card&apos;s haircut differential to upgrade bureau status from &quot;Settled&quot; to &quot;Closed&quot;.
                       </p>
                     </div>
@@ -2268,10 +2266,10 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 44
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   44. Frequently Asked Questions About Credit Card Settlement
                 </h2>
-                <p className="text-xs sm:text-sm text-gray-600 mb-4 sm:mb-6">
+                <p className="text-xs sm:text-sm text-black mb-4 sm:mb-6">
                   Authoritative legal analysis, operational insights, and economic breakdown addressing credit card compromise resolution in India:
                 </p>
 
@@ -2282,7 +2280,7 @@ export default function CreditCardSettlementPageClient() {
                       <div key={index} className="border border-gray-200 rounded-xl sm:rounded-2xl overflow-hidden transition-all bg-white">
                         <button
                           onClick={() => setExpandedFaq(isOpen ? null : index)}
-                          className="w-full flex justify-between items-center text-left p-3.5 sm:p-4 md:p-5 font-bold text-xs sm:text-sm md:text-base text-gray-900 hover:text-blue-700 hover:bg-slate-50 transition-colors"
+                          className="w-full flex justify-between items-center text-left p-3.5 sm:p-4 md:p-5 font-bold text-xs sm:text-sm md:text-base text-black hover:text-blue-700 hover:bg-slate-50 transition-colors"
                         >
                           <span className="pr-2">{index + 1}. {faq.question}</span>
                           <span className={`ml-2 text-blue-600 transition-transform duration-200 flex-shrink-0 text-xs ${isOpen ? 'rotate-180' : ''}`}>
@@ -2290,7 +2288,7 @@ export default function CreditCardSettlementPageClient() {
                           </span>
                         </button>
                         {isOpen && (
-                          <div className="px-3.5 pb-4 sm:px-4 sm:pb-5 md:px-5 text-xs sm:text-sm text-gray-700 leading-relaxed border-t border-gray-100 pt-2.5 sm:pt-3 bg-slate-50/50">
+                          <div className="px-3.5 pb-4 sm:px-4 sm:pb-5 md:px-5 text-xs sm:text-sm text-black leading-relaxed border-t border-gray-100 pt-2.5 sm:pt-3 bg-slate-50/50">
                             {faq.answer}
                           </div>
                         )}
@@ -2307,10 +2305,10 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 45
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   45. Professional Credit Card Settlement Assistance
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Navigating aggressive collection agency tactics, complex banking calculations, and intimidating legal notices requires experienced institutional firepower.
                   </p>
@@ -2327,35 +2325,35 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 46
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   46. Why Choose a Professional Credit Card Settlement Service?
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Cardholders choose CredSettle because we combine uncompromising legal protection with superior financial savings:
                   </p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3 my-3">
                     <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                       <span className="font-bold text-xs text-blue-900">Direct Senior-Level Access</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         We negotiate directly with Bank Zonal Heads, SARC Committees, and Principal Nodal Officers—completely bypassing frontline third-party telecallers.
                       </p>
                     </div>
                     <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                       <span className="font-bold text-xs text-blue-900">Maximized Financial Savings</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         Our forensic ledger audits and advocate-led negotiation consistently secure 50% to 75% gross reductions, far deeper than unrepresented borrowers can negotiate.
                       </p>
                     </div>
                     <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                       <span className="font-bold text-xs text-blue-900">Absolute Peace of Mind</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         Our anti-harassment shield halts recovery agent calls and visits, protecting your mental well-being and personal dignity throughout the process.
                       </p>
                     </div>
                     <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl space-y-1">
                       <span className="font-bold text-xs text-blue-900">Guaranteed Document Integrity</span>
-                      <p className="text-[11px] text-gray-600">
+                      <p className="text-[11px] text-black">
                         Every settlement is verified for authenticity, and we guarantee the delivery of stamped, official No Dues Certificates with complete debt extinguishment.
                       </p>
                     </div>
@@ -2370,16 +2368,16 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 47
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   47. Credit Card Settlement – Complete Step-by-Step Guide
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     A quick reference summary matrix of the complete credit card debt settlement roadmap:
                   </p>
                   <div className="overflow-x-auto my-3">
-                    <table className="w-full text-xs text-left text-gray-700 border border-gray-200 rounded-xl">
-                      <thead className="bg-gray-100 text-gray-900 font-bold">
+                    <table className="w-full text-xs text-left text-black border border-gray-200 rounded-xl">
+                      <thead className="bg-gray-100 text-black font-bold">
                         <tr>
                           <th className="p-3">Timeline</th>
                           <th className="p-3">Key Action Items</th>
@@ -2410,7 +2408,7 @@ export default function CreditCardSettlementPageClient() {
                         <tr>
                           <td className="p-3 font-semibold">Days 46–60</td>
                           <td className="p-3">Receipt of stamped No Dues Certificate &amp; CIBIL verification</td>
-                          <td className="p-3 font-bold text-gray-900">Total permanent debt freedom!</td>
+                          <td className="p-3 font-bold text-black">Total permanent debt freedom!</td>
                         </tr>
                       </tbody>
                     </table>
@@ -2425,10 +2423,10 @@ export default function CreditCardSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 48
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   48. Conclusion
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Revolving credit card debt should never define your life, steal your sleep, or compromise your family&apos;s dignity. The crushing burden of 42%–52% compounding finance charges, predatory recovery harassment, and mounting penalty fees is not an inescapable life sentence.
                   </p>
@@ -2463,15 +2461,14 @@ export default function CreditCardSettlementPageClient() {
           </div>
 
           {/* Right Column: Sticky Conversion & Emergency Defense Card (15% Width) */}
-          <div className="lg:w-[15%] flex-shrink-0 hidden lg:block">
-            <div className="sticky top-20 space-y-4">
+          <aside className="lg:w-[15%] flex-shrink-0 hidden lg:block sticky top-20 space-y-4">
 
               <div className="bg-white p-3.5 rounded-2xl shadow-sm border border-blue-200 text-center">
                 <span className="w-8 h-8 rounded-full bg-blue-100 text-blue-600 inline-flex items-center justify-center text-sm mb-2">
                   🛡️
                 </span>
-                <h4 className="font-bold text-xs text-gray-900 mb-1">Stop Card Harassment</h4>
-                <p className="text-[10px] text-gray-600 mb-3 leading-tight">
+                <h4 className="font-bold text-xs text-black mb-1">Stop Card Harassment</h4>
+                <p className="text-[10px] text-black mb-3 leading-tight">
                   Legal notices stop illegal recovery calls within 24–48 hrs.
                 </p>
                 <Link
@@ -2480,7 +2477,7 @@ export default function CreditCardSettlementPageClient() {
                 >
                   Request Legal Callback
                 </Link>
-                <div className="mt-3 pt-2.5 border-t border-gray-100 text-[10px] text-gray-500 space-y-1 text-left">
+                <div className="mt-3 pt-2.5 border-t border-gray-100 text-[10px] text-black space-y-1 text-left">
                   <p className="flex items-center gap-1"><span className="text-emerald-500 font-bold">✓</span> 100% Confidential</p>
                   <p className="flex items-center gap-1"><span className="text-emerald-500 font-bold">✓</span> RBI Fair Code</p>
                   <p className="flex items-center gap-1"><span className="text-emerald-500 font-bold">✓</span> Bank Sanction Letters</p>
@@ -2488,14 +2485,12 @@ export default function CreditCardSettlementPageClient() {
               </div>
 
               {/* OTS Calculator Quick Jump Badge */}
-              <div className="p-3 bg-slate-50 border border-slate-200 rounded-xl text-xs space-y-1 text-slate-700">
-                <span className="font-bold text-slate-900 block text-[11px]">Card OTS Calculator</span>
-                <p className="text-[10px] text-slate-500 leading-tight">Estimate your card settlement waiver under RBI compromise rules.</p>
+              <div className="p-3 bg-slate-50 border border-slate-200 rounded-xl text-xs space-y-1 text-black">
+                <span className="font-bold text-black block text-[11px]">Card OTS Calculator</span>
+                <p className="text-[10px] text-black leading-tight">Estimate your card settlement waiver under RBI compromise rules.</p>
                 <a href="#credit-card-calculator" className="text-[10px] text-blue-600 font-semibold block pt-1 hover:underline">Calculate Savings ↓</a>
               </div>
-
-            </div>
-          </div>
+          </aside>
 
         </div>
       </div>
@@ -2525,7 +2520,7 @@ export default function CreditCardSettlementPageClient() {
 
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          className="bg-white hover:bg-gray-100 text-gray-700 border border-gray-200 text-xs font-bold p-2.5 rounded-full shadow-md active:scale-95 transition-transform flex items-center justify-center w-10 h-10"
+          className="bg-white hover:bg-gray-100 text-black border border-gray-200 text-xs font-bold p-2.5 rounded-full shadow-md active:scale-95 transition-transform flex items-center justify-center w-10 h-10"
           aria-label="Scroll to top"
         >
           ↑

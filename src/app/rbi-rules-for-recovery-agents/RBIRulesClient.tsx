@@ -178,6 +178,7 @@ export default function RBIRulesClient() {
       links: [
         { id: "what-recovery-agents-cannot-do", label: "25. What Agents Cannot Do" },
         { id: "what-recovery-agents-can-legally-do", label: "26. What Agents Can Legally Do" },
+        { id: "harassment-violation-checker", label: "⚡ Diagnostic Violation Tool" },
         { id: "can-agents-visit-home-workplace", label: "27. Home & Workplace Visits" },
         { id: "can-agents-call-family-members", label: "28. Calling Family Members" },
         { id: "can-agents-contact-employer", label: "29. Contacting Your Employer" },
@@ -190,7 +191,6 @@ export default function RBIRulesClient() {
     {
       moduleTitle: "Module 6: Borrower Defense & Action Plan",
       links: [
-        { id: "harassment-violation-checker", label: "⚡ Diagnostic Violation Tool" },
         { id: "rights-of-borrowers", label: "34. Borrower Statutory Rights" },
         { id: "what-to-do-if-agent-harasses", label: "35. Immediate Steps When Harassed" },
         { id: "how-to-respond-to-agent-calls", label: "36. Handling Tele-Calling Calls" },
@@ -405,7 +405,7 @@ export default function RBIRulesClient() {
       {/* ========================================================================= */}
       {/* MAIN 3-COLUMN EDITORIAL CONTENT LAYOUT (15% - 70% - 15%)                  */}
       {/* ========================================================================= */}
-      <div className="max-w-8xl mx-auto px-3 sm:px-4 py-4 sm:py-8">
+      <div className="w-full max-w-[1600px] xl:max-w-[1720px] 2xl:max-w-[1800px] mx-auto px-2 sm:px-4 md:px-6 py-4 sm:py-8">
 
         {/* Mobile Sticky Chapter Indicator & Dropdown Action Bar */}
         <div className="lg:hidden sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-gray-200 shadow-xs -mx-3 sm:-mx-4 px-3 sm:px-4 py-2 mb-4 sm:mb-6">
@@ -438,7 +438,7 @@ export default function RBIRulesClient() {
               className={`px-2.5 py-0.5 rounded-full whitespace-nowrap font-medium transition-colors ${
                 selectedModule === null
                   ? 'bg-blue-600 text-white font-bold'
-                  : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                  : 'bg-gray-100 text-black hover:bg-gray-200'
               }`}
             >
               All 52
@@ -450,7 +450,7 @@ export default function RBIRulesClient() {
                 className={`px-2 py-0.5 rounded-full whitespace-nowrap font-medium transition-colors ${
                   selectedModule === mIdx
                     ? 'bg-blue-600 text-white font-bold'
-                    : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                    : 'bg-gray-100 text-black hover:bg-gray-200'
                 }`}
               >
                 M{mIdx + 1}
@@ -503,7 +503,7 @@ export default function RBIRulesClient() {
                     if (filteredInModule.length === 0) return null;
                     return (
                       <div key={mIdx} className="space-y-1">
-                        <p className="text-[10px] font-extrabold uppercase tracking-wider text-gray-400 px-2">
+                        <p className="text-[10px] font-extrabold uppercase tracking-wider text-black px-2">
                           {module.moduleTitle}
                         </p>
                         <div className="space-y-0.5">
@@ -517,7 +517,7 @@ export default function RBIRulesClient() {
                               className={`w-full text-left px-2.5 py-1.5 rounded-lg text-xs transition-colors flex items-center justify-between ${
                                 activeId === link.id
                                   ? 'bg-blue-600 text-white font-bold'
-                                  : 'text-gray-700 hover:bg-gray-100'
+                                  : 'text-black hover:bg-gray-100'
                               }`}
                             >
                               <span className="truncate">{link.label}</span>
@@ -543,72 +543,70 @@ export default function RBIRulesClient() {
           </div>
         )}
 
-        <div className="flex flex-col lg:flex-row gap-4 xl:gap-6">
+        <div className="flex flex-col lg:flex-row gap-4 xl:gap-6 items-start relative">
 
           {/* Left Column: Categorized Table of Contents (15% Desktop Sticky) */}
-          <div className="lg:w-[15%] flex-shrink-0 hidden lg:block">
-            <div className="sticky top-20 max-h-[calc(100vh-5.5rem)] flex flex-col space-y-2.5">
-              <div className="bg-white p-3 rounded-2xl shadow-sm border border-gray-200 flex-1 min-h-0 overflow-y-auto custom-scrollbar">
-                <div className="flex items-center justify-between border-b pb-2 mb-2">
-                  <h3 className="font-bold text-gray-900 text-xs">Table of Contents</h3>
-                  <span className="text-[10px] bg-blue-100 text-blue-700 font-bold px-1.5 py-0.5 rounded-full">52</span>
-                </div>
-
-                <div className="space-y-2.5">
-                  {navModules.map((module, mIdx) => (
-                    <div key={mIdx} className="space-y-0.5">
-                      <p className="text-[10px] font-extrabold uppercase tracking-wider text-gray-400 px-1 py-0.5">
-                        {module.moduleTitle.replace('Module ', 'M')}
-                      </p>
-                      <nav className="space-y-0.5">
-                        {module.links.map((link) => {
-                          const isActive = activeId === link.id;
-                          return (
-                            <a
-                              key={link.id}
-                              href={`#${link.id}`}
-                              className={`block text-[11px] transition-all duration-150 px-2 py-1 rounded-md leading-tight ${
-                                isActive
-                                  ? 'bg-blue-600 text-white font-semibold shadow-xs'
-                                  : 'text-gray-600 hover:text-blue-700 hover:bg-blue-50'
-                              }`}
-                              onClick={(e) => {
-                                e.preventDefault();
-                                handleLinkClick(link.id);
-                              }}
-                            >
-                              {link.label}
-                            </a>
-                          );
-                        })}
-                      </nav>
-                    </div>
-                  ))}
-                </div>
+          <aside className="lg:w-[15%] flex-shrink-0 hidden lg:block sticky top-24 h-[calc(100vh-7rem)] max-h-[calc(100vh-7rem)] flex flex-col space-y-2.5 overflow-hidden z-10">
+            <div className="bg-white p-3 rounded-2xl shadow-sm border border-gray-200 flex-1 min-h-0 flex flex-col overflow-hidden max-h-full">
+              <div className="flex items-center justify-between border-b pb-2 mb-2 flex-shrink-0">
+                <h3 className="font-bold text-black text-xs">Table of Contents</h3>
+                <span className="text-[10px] bg-blue-100 text-blue-700 font-bold px-1.5 py-0.5 rounded-full">52</span>
               </div>
 
-              {/* Quick Legal Help Banner in Sidebar - Always 100% visible, never cut in half */}
-              <div className="bg-gradient-to-br from-blue-900 to-indigo-950 p-2.5 sm:p-3 rounded-xl text-white shadow-sm text-center flex-shrink-0">
-                <div className="flex items-center justify-center gap-1.5 mb-1 text-blue-300 text-xs">
-                  <span>⚖️</span>
-                  <h4 className="font-bold text-xs text-white">Harassment Help</h4>
-                </div>
-                <p className="text-[10px] text-blue-200 mb-2 leading-snug">
-                  Immediate legal defense against calls, doorstep visits, and notices.
-                </p>
-                <Link
-                  href="/contact"
-                  className="block text-center bg-blue-500 hover:bg-blue-400 text-white font-bold text-[11px] py-1.5 px-2 rounded-lg transition-colors shadow"
-                >
-                  Consult Advocate
-                </Link>
+              <div className="space-y-2.5 flex-1 min-h-0 overflow-y-auto pr-1 custom-scrollbar max-h-full">
+                {navModules.map((module, mIdx) => (
+                  <div key={mIdx} className="space-y-0.5">
+                    <p className="text-[10px] font-extrabold uppercase tracking-wider text-black px-1 py-0.5">
+                      {module.moduleTitle.replace('Module ', 'M')}
+                    </p>
+                    <nav className="space-y-0.5">
+                      {module.links.map((link) => {
+                        const isActive = activeId === link.id;
+                        return (
+                          <a
+                            key={link.id}
+                            href={`#${link.id}`}
+                            className={`block text-[11px] transition-all duration-150 px-2 py-1 rounded-md leading-tight ${
+                              isActive
+                                ? 'bg-blue-600 text-white font-semibold shadow-xs'
+                                : 'text-black hover:text-blue-700 hover:bg-blue-50'
+                            }`}
+                            onClick={(e) => {
+                              e.preventDefault();
+                              handleLinkClick(link.id);
+                            }}
+                          >
+                            {link.label}
+                          </a>
+                        );
+                      })}
+                    </nav>
+                  </div>
+                ))}
               </div>
             </div>
-          </div>
+
+            {/* Quick Legal Help Banner in Sidebar - Always 100% visible, never cut in half */}
+            <div className="bg-gradient-to-br from-blue-900 to-indigo-950 p-2.5 sm:p-3 rounded-xl text-white shadow-sm text-center flex-shrink-0">
+              <div className="flex items-center justify-center gap-1.5 mb-1 text-blue-300 text-xs">
+                <span>⚖️</span>
+                <h4 className="font-bold text-xs text-white">Harassment Help</h4>
+              </div>
+              <p className="text-[10px] text-blue-200 mb-2 leading-snug">
+                Immediate legal defense against calls, doorstep visits, and notices.
+              </p>
+              <Link
+                href="/contact"
+                className="block text-center bg-blue-500 hover:bg-blue-400 text-white font-bold text-[11px] py-1.5 px-2 rounded-lg transition-colors shadow"
+              >
+                Consult Advocate
+              </Link>
+            </div>
+          </aside>
 
           {/* Middle Column: Master 52-Section Editorial Guide (70% Width) */}
-          <div className="lg:w-[70%] w-full min-w-0">
-            <article className="prose prose-slate max-w-none bg-white p-3.5 sm:p-6 md:p-10 rounded-2xl sm:rounded-3xl shadow-xs sm:shadow-sm border border-gray-200/80 space-y-8 sm:space-y-12 overflow-hidden">
+          <div className="lg:w-[70%] flex-1 min-w-0">
+            <article className="bg-white p-4 sm:p-6 md:p-8 rounded-2xl sm:rounded-3xl shadow-xs sm:shadow-sm border border-gray-200/90 space-y-8 sm:space-y-12 overflow-hidden text-black">
 
               {/* ------------------------------------------------------------- */}
               {/* 1. Introduction to RBI Rules for Recovery Agents              */}
@@ -617,10 +615,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 1
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   1. Introduction to RBI Rules for Recovery Agents: Statutory Shield for Indian Borrowers
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Over the past decade, retail credit in India has experienced an unprecedented expansion. Millions of salaried professionals, small enterprise owners, gig workers, and middle-class households depend on credit cards, personal loans, vehicle financing, and digital consumer lines to manage emergencies and fund enterprise initiatives. However, when economic turbulence strikes—such as sudden job retrenchment, catastrophic medical hospitalization, or business insolvency—borrowers frequently experience temporary or acute debt delinquency.
                   </p>
@@ -657,10 +655,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 2
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   2. What Are Recovery Agents? Structure, Function, and Industry Architecture
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     In the contemporary Indian financial architecture, <strong>recovery agents</strong> (also termed debt recovery agencies, loan recovery service providers, or collection business correspondents) are specialized external corporate entities, partnership firms, or third-party call centers contracted by regulated financial institutions to follow up on overdue retail credit facilities and assist in the recovery of delinquent balances.
                   </p>
@@ -669,8 +667,8 @@ export default function RBIRulesClient() {
                   </p>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 my-3">
                     <div className="p-3 bg-slate-50 border border-slate-200 rounded-xl">
-                      <strong className="text-slate-900 block text-xs sm:text-sm font-bold">SMA-0 (1 to 30 Days Overdue)</strong>
-                      <p className="text-xs text-slate-600 mt-1">Handled via automated SMS reminders, email statements, and internal soft-touch telecalling desks.</p>
+                      <strong className="text-black block text-xs sm:text-sm font-bold">SMA-0 (1 to 30 Days Overdue)</strong>
+                      <p className="text-xs text-black mt-1">Handled via automated SMS reminders, email statements, and internal soft-touch telecalling desks.</p>
                     </div>
                     <div className="p-3 bg-blue-50 border border-blue-200 rounded-xl">
                       <strong className="text-blue-950 block text-xs sm:text-sm font-bold">SMA-1 (31 to 60 Days Overdue)</strong>
@@ -700,17 +698,17 @@ export default function RBIRulesClient() {
                       </thead>
                       <tbody className="divide-y divide-gray-200 bg-white">
                         <tr>
-                          <td className="p-3 font-semibold text-gray-900">Telecalling Contact Centers</td>
+                          <td className="p-3 font-semibold text-black">Telecalling Contact Centers</td>
                           <td className="p-3">Outbound digital phone calls, automated IVR reminders, SMS, and WhatsApp notices for early delinquent accounts (1–60 DPD).</td>
                           <td className="p-3">TRAI UCC registration, strict 8 AM to 7 PM calling window, mandatory voice recording, and daily frequency caps.</td>
                         </tr>
                         <tr>
-                          <td className="p-3 font-semibold text-gray-900">Field Investigation Teams</td>
+                          <td className="p-3 font-semibold text-black">Field Investigation Teams</td>
                           <td className="p-3">In-person residential and commercial visits to verify borrower domicile, assess financial distress, and deliver formal bank dockets.</td>
                           <td className="p-3">Mandatory IIBF DRA certification, police antecedent clearance, official bank Letter of Authority, and daytime visit rules.</td>
                         </tr>
                         <tr>
-                          <td className="p-3 font-semibold text-gray-900">Legal Conciliation Verticals</td>
+                          <td className="p-3 font-semibold text-black">Legal Conciliation Verticals</td>
                           <td className="p-3">Coordinating formal dispute resolution, pre-litigation settlement conferences, and Lok Adalat compromise applications.</td>
                           <td className="p-3">Sections 19–21 of Legal Services Authorities Act, 1987, and RBI Master Direction on Compromise Settlements.</td>
                         </tr>
@@ -727,10 +725,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 3
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   3. Who Is a Recovery Agent? Statutory Qualifications &amp; Mandatory Credentials
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Under RBI prudential guidelines, an individual cannot simply print visiting cards and claim to be a bank recovery representative. The central monetary authority mandates that any person deployed for debt collection must satisfy four mandatory statutory criteria before contacting any borrower:
                   </p>
@@ -764,10 +762,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 4
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   4. Role and Responsibilities of Recovery Agents: Statutory Scope and Boundaries
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     The lawful mandate of a recovery agent in India is strictly administrative and facilitative. Recovery agents are <strong>not</strong> law enforcement officers, judicial bailiffs, or authorized court liquidators. They are purely commercial communicators tasked with bridging the dialogue between the lender and the borrower.
                   </p>
@@ -809,41 +807,41 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 5
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   5. RBI Guidelines for Recovery Agents in India: Comprehensive Regulatory Evolution
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     The regulatory architecture governing debt collection in India has evolved through progressive statutory notifications, Supreme Court judgments, and policy revisions designed to protect consumer rights against institutional overreach:
                   </p>
                   <div className="space-y-3 text-xs sm:text-sm">
                     <div className="p-3.5 bg-gray-50 rounded-2xl border border-gray-200 space-y-1">
-                      <strong className="text-gray-900 font-bold block">1. 2007–2008: Supreme Court Intervention &amp; First Master Circular</strong>
-                      <p className="text-gray-700">
+                      <strong className="text-black font-bold block">1. 2007–2008: Supreme Court Intervention &amp; First Master Circular</strong>
+                      <p className="text-black">
                         Following landmark judicial censure in <em>Manager, ICICI Bank v. Prakash Kaur</em> (2007) and <em>ICICI Bank v. Shanti Devi Sharma</em> (2008), the RBI issued circular DBOD.No.Leg.BC.24/09.07.005/2008-09. This circular made IIBF training compulsory, mandated police verification, prohibited musclemen, and instituted vicarious liability on bank directors.
                       </p>
                     </div>
                     <div className="p-3.5 bg-gray-50 rounded-2xl border border-gray-200 space-y-1">
-                      <strong className="text-gray-900 font-bold block">2. 2017–2021: Master Directions on Outsourcing of Financial Services</strong>
-                      <p className="text-gray-700">
+                      <strong className="text-black font-bold block">2. 2017–2021: Master Directions on Outsourcing of Financial Services</strong>
+                      <p className="text-black">
                         Codified that banks cannot outsource core credit risk decisions. Mandated that outsourcing agreements must empower the RBI and bank internal audit teams to inspect recovery vendor facilities and audit all collection call recordings at any time.
                       </p>
                     </div>
                     <div className="p-3.5 bg-gray-50 rounded-2xl border border-gray-200 space-y-1">
-                      <strong className="text-gray-900 font-bold block">3. August 12, 2022: Recovery Agents – Additional Due Diligence Circular</strong>
-                      <p className="text-gray-700">
+                      <strong className="text-black font-bold block">3. August 12, 2022: Recovery Agents – Additional Due Diligence Circular</strong>
+                      <p className="text-black">
                         Circular DOR.ORG.REC.65/21.04.158/2022-23 established the rigid 08:00 AM to 07:00 PM calling window, explicitly banned contacting borrowers&apos; friends, family, or referees, prohibited threatening messages on social media, and made lenders liable to severe operational sanctions for vendor misconduct.
                       </p>
                     </div>
                     <div className="p-3.5 bg-gray-50 rounded-2xl border border-gray-200 space-y-1">
-                      <strong className="text-gray-900 font-bold block">4. September 2022: RBI Guidelines on Digital Lending</strong>
-                      <p className="text-gray-700">
+                      <strong className="text-black font-bold block">4. September 2022: RBI Guidelines on Digital Lending</strong>
+                      <p className="text-black">
                         Formally banned digital lending apps (DLAs) and Lending Service Providers (LSPs) from accessing borrower mobile device data, including contacts, photos, media files, call logs, and precise GPS locations. Made it illegal to weaponize private data for loan recovery.
                       </p>
                     </div>
                     <div className="p-3.5 bg-gray-50 rounded-2xl border border-gray-200 space-y-1">
-                      <strong className="text-gray-900 font-bold block">5. 2023–2026: Digital Personal Data Protection Act &amp; Integrated Ombudsman Consolidation</strong>
-                      <p className="text-gray-700">
+                      <strong className="text-black font-bold block">5. 2023–2026: Digital Personal Data Protection Act &amp; Integrated Ombudsman Consolidation</strong>
+                      <p className="text-black">
                         The enactment of the Digital Personal Data Protection Act, 2023 (DPDP Act) and the consolidation of the RBI Integrated Ombudsman Scheme (RB-IOS) have introduced heavy financial penalties (up to ₹250 Crores under DPDP) for lenders sharing borrower data with unauthorized recovery telecallers.
                       </p>
                     </div>
@@ -858,10 +856,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 6
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   6. RBI Rules on Recovery Agent Conduct &amp; Professional Demeanor
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Under Section 2 of the RBI Master Circular on Recovery Agents, every interaction between a collection representative and a borrower must adhere to professional behavioral standards. The central bank has outlined non-negotiable conduct rules:
                   </p>
@@ -869,8 +867,8 @@ export default function RBIRulesClient() {
                     <div className="flex items-start gap-3 p-3.5 bg-white border border-gray-200 rounded-2xl shadow-xs">
                       <span className="text-blue-600 font-bold text-base">✓</span>
                       <div>
-                        <strong className="text-gray-900 block text-xs sm:text-sm font-bold">Mandatory Self-Identification:</strong>
-                        <span className="text-xs text-gray-600 leading-relaxed">
+                        <strong className="text-black block text-xs sm:text-sm font-bold">Mandatory Self-Identification:</strong>
+                        <span className="text-xs text-black leading-relaxed">
                           The agent must immediately disclose their full legal name, the name of the recovery agency, the creditor bank they represent, and provide their agency ID card upon demand. Concealing identity or impersonating bank officials is strictly prohibited.
                         </span>
                       </div>
@@ -878,8 +876,8 @@ export default function RBIRulesClient() {
                     <div className="flex items-start gap-3 p-3.5 bg-white border border-gray-200 rounded-2xl shadow-xs">
                       <span className="text-blue-600 font-bold text-base">✓</span>
                       <div>
-                        <strong className="text-gray-900 block text-xs sm:text-sm font-bold">Respect for Customer Privacy and Domicile:</strong>
-                        <span className="text-xs text-gray-600 leading-relaxed">
+                        <strong className="text-black block text-xs sm:text-sm font-bold">Respect for Customer Privacy and Domicile:</strong>
+                        <span className="text-xs text-black leading-relaxed">
                           Discussions regarding debt must be conducted in private. Agents cannot create public scenes, shout across residential corridors, or discuss account details in front of society guards, domestic staff, or neighbors.
                         </span>
                       </div>
@@ -887,8 +885,8 @@ export default function RBIRulesClient() {
                     <div className="flex items-start gap-3 p-3.5 bg-white border border-gray-200 rounded-2xl shadow-xs">
                       <span className="text-blue-600 font-bold text-base">✓</span>
                       <div>
-                        <strong className="text-gray-900 block text-xs sm:text-sm font-bold">Mandatory Sensitivity to Domestic Distress:</strong>
-                        <span className="text-xs text-gray-600 leading-relaxed">
+                        <strong className="text-black block text-xs sm:text-sm font-bold">Mandatory Sensitivity to Domestic Distress:</strong>
+                        <span className="text-xs text-black leading-relaxed">
                           If a borrower&apos;s family is experiencing bereavement, acute hospitalization, or a major medical emergency, agents are strictly mandated to withdraw immediately, refrain from demanding money, and reschedule communications with appropriate sensitivity.
                         </span>
                       </div>
@@ -896,8 +894,8 @@ export default function RBIRulesClient() {
                     <div className="flex items-start gap-3 p-3.5 bg-white border border-gray-200 rounded-2xl shadow-xs">
                       <span className="text-blue-600 font-bold text-base">✓</span>
                       <div>
-                        <strong className="text-gray-900 block text-xs sm:text-sm font-bold">Maintenance of Physical Restraint:</strong>
-                        <span className="text-xs text-gray-600 leading-relaxed">
+                        <strong className="text-black block text-xs sm:text-sm font-bold">Maintenance of Physical Restraint:</strong>
+                        <span className="text-xs text-black leading-relaxed">
                           Agents must maintain at least one meter of physical distance, never block doors or exits, never touch the borrower, and immediately exit the home when explicitly requested by the homeowner or tenant.
                         </span>
                       </div>
@@ -913,10 +911,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 7
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   7. RBI Guidelines on Recovery Agent Calls: Frequency &amp; Verification Norms
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Telephonic communication is the single most abused channel in consumer debt recovery. To curb relentless phone harassment, the Reserve Bank of India, in coordination with the Telecom Regulatory Authority of India (TRAI), has established binding calling protocols:
                   </p>
@@ -934,7 +932,7 @@ export default function RBIRulesClient() {
                       <strong>Prohibition of Robocall Bombing:</strong> Deploying automated interactive voice response (IVR) auto-dialers that flood a borrower&apos;s phone with continuous missed calls or automated threats violates both TRAI UCC regulations and RBI Fair Practice Directives.
                     </li>
                   </ul>
-                  <p className="text-xs text-gray-600">
+                  <p className="text-xs text-black">
                     <em>Borrower Right:</em> If a collection center calls you persistently throughout the day, note down each timestamp. A call log showing repeated calls from the same entity serves as conclusive documentary evidence for Ombudsman complaints.
                   </p>
                 </div>
@@ -947,10 +945,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 8
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   8. Permitted and Prohibited Calling Hours (The Strict 08:00 to 19:00 Rule)
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Under Paragraph 2.4(a) of the RBI Master Direction DOR.ORG.REC.65/21.04.158/2022-23, the Reserve Bank of India has established a clear, non-negotiable statutory window for all recovery communications:
                   </p>
@@ -975,7 +973,7 @@ export default function RBIRulesClient() {
                   <p>
                     The rationale behind this rule is the preservation of domestic tranquility and family privacy. Calls placed after 7:00 PM are presumed to be coercive acts designed to disturb sleep, cause panic, and distress household members.
                   </p>
-                  <p className="text-xs text-gray-600">
+                  <p className="text-xs text-black">
                     <em>Statutory Action:</em> If an agent dials you at 08:30 PM or 06:45 AM, immediately capture a high-resolution screenshot of your incoming call log displaying the caller&apos;s number and exact time. Under the RBI Integrated Ombudsman Scheme, a single verified odd-hours call establishes a prima facie breach of regulatory conduct.
                   </p>
                 </div>
@@ -988,35 +986,35 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 9
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   9. RBI Rules on Recovery Agent Visits: Residential &amp; Workplace Protocols
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     In-person physical doorstep visits represent the most sensitive and potentially confrontational facet of debt collection. To prevent home invasions and breaches of the peace, the Reserve Bank of India mandates strict operational protocols:
                   </p>
                   <div className="space-y-3 text-xs sm:text-sm">
                     <div className="p-3.5 bg-gray-50 rounded-2xl border border-gray-200">
-                      <strong className="text-gray-900 font-bold block mb-1">1. Customer-Designated Location:</strong>
-                      <p className="text-gray-700">
+                      <strong className="text-black font-bold block mb-1">1. Customer-Designated Location:</strong>
+                      <p className="text-black">
                         Field visits must occur primarily at the address designated by the borrower (typically the registered residential address). If the borrower explicitly indicates that they prefer to meet at an alternative mutually agreed location—such as the bank branch or a nearby office—the recovery agent must respect that preference.
                       </p>
                     </div>
                     <div className="p-3.5 bg-gray-50 rounded-2xl border border-gray-200">
-                      <strong className="text-gray-900 font-bold block mb-1">2. Strict Ban on Mob Intimidation:</strong>
-                      <p className="text-gray-700">
+                      <strong className="text-black font-bold block mb-1">2. Strict Ban on Mob Intimidation:</strong>
+                      <p className="text-black">
                         Financial institutions cannot deploy large groups of recovery agents to create an intimidating atmosphere. Under RBI operating standards, no more than two authorized representatives may visit a borrower&apos;s premises simultaneously. Sending three, four, or more individuals constitutes unlawful assembly under Section 189 BNS.
                       </p>
                     </div>
                     <div className="p-3.5 bg-gray-50 rounded-2xl border border-gray-200">
-                      <strong className="text-gray-900 font-bold block mb-1">3. Non-Intrusion into Private Living Quarters:</strong>
-                      <p className="text-gray-700">
+                      <strong className="text-black font-bold block mb-1">3. Non-Intrusion into Private Living Quarters:</strong>
+                      <p className="text-black">
                         Visiting agents must remain in the public reception room, drawing room, or designated visitor area. They possess zero legal authority to step into bedrooms, kitchens, or private domestic quarters. Refusing to leave upon the host&apos;s request constitutes criminal trespass under Section 329 BNS.
                       </p>
                     </div>
                     <div className="p-3.5 bg-gray-50 rounded-2xl border border-gray-200">
-                      <strong className="text-gray-900 font-bold block mb-1">4. Severe Restrictions on Workplace Visits:</strong>
-                      <p className="text-gray-700">
+                      <strong className="text-black font-bold block mb-1">4. Severe Restrictions on Workplace Visits:</strong>
+                      <p className="text-black">
                         Visiting a borrower&apos;s employer or workplace is strictly prohibited unless the lender establishes that the borrower has abandoned their registered residence and remains completely unreachable telephonically. Even then, agents cannot disclose debt details to HR or colleagues.
                       </p>
                     </div>
@@ -1031,29 +1029,29 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 10
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   10. RBI Rules on Recovery Agent Communication: Written Disclosures vs Verbal Representations
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Statutory transparency in debt communication is mandatory under banking consumer protection regulations. All recovery notices, electronic messages, and verbal discussions must adhere to verified standards:
                   </p>
                   <div className="space-y-2.5 text-xs sm:text-sm">
                     <div className="p-3.5 bg-white border border-gray-200 rounded-2xl shadow-xs">
-                      <strong className="text-gray-900 block font-bold mb-1">1. Mandatory Written Debt Itemization:</strong>
-                      <p className="text-gray-600">
+                      <strong className="text-black block font-bold mb-1">1. Mandatory Written Debt Itemization:</strong>
+                      <p className="text-black">
                         Before initiating aggressive recovery demands, the creditor bank must supply a clear written statement detailing: (a) Original Principal Disbursed, (b) Total Repaid, (c) Accrued Normal Interest, (d) Penal Charges and Late Fees, and (e) Total Net Claim. Lenders cannot demand arbitrary round sums without written itemization.
                       </p>
                     </div>
                     <div className="p-3.5 bg-white border border-gray-200 rounded-2xl shadow-xs">
-                      <strong className="text-gray-900 block font-bold mb-1">2. Criminal Ban on Fake Legal Notices:</strong>
-                      <p className="text-gray-600">
+                      <strong className="text-black block font-bold mb-1">2. Criminal Ban on Fake Legal Notices:</strong>
+                      <p className="text-black">
                         Rogue recovery agencies frequently send forged notices titled &quot;Final Police Arrest Docket&quot;, &quot;Court Warrant of Attachment&quot;, or &quot;Non-Bailable Seizure Notice&quot; complete with fake national emblems or forged judicial seals. Creating or delivering simulated court documents constitutes criminal forgery and extortion under Sections 336, 338, and 308 of the Bharatiya Nyaya Sanhita (BNS).
                       </p>
                     </div>
                     <div className="p-3.5 bg-white border border-gray-200 rounded-2xl shadow-xs">
-                      <strong className="text-gray-900 block font-bold mb-1">3. Digital Messaging Norms (SMS &amp; WhatsApp):</strong>
-                      <p className="text-gray-600">
+                      <strong className="text-black block font-bold mb-1">3. Digital Messaging Norms (SMS &amp; WhatsApp):</strong>
+                      <p className="text-black">
                         All SMS, WhatsApp, and email communications must clearly display the registered institutional name of the lender, the specific loan reference number, and official bank customer care contacts. Threatening language, offensive emojis, or countdown timers threatening criminal action are strictly barred.
                       </p>
                     </div>
@@ -1068,10 +1066,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 11
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   11. RBI Rules Against Harassment, Coercion, and Intimidation
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     The Reserve Bank of India maintains an unyielding, zero-tolerance doctrine regarding borrower harassment in debt collection. Under Paragraph 2.4 of the Master Circular on Recovery Agents in Banks and Master Direction DOR.ORG.REC.65/21.04.158/2022-23, harassment is broadly defined and strictly penalized:
                   </p>
@@ -1102,10 +1100,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 12
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   12. RBI Rules on Threatening, Profane, or Abusive Language
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Verbal abuse, profanity, character assassination, and menacing threats over the phone or in person are outright criminal offenses under Indian penal law. The RBI Master Circular explicitly mandates that collection personnel must maintain complete behavioral restraint, civil decorum, and courtesy at all times.
                   </p>
@@ -1114,20 +1112,20 @@ export default function RBIRulesClient() {
                   </p>
                   <div className="space-y-3 text-xs sm:text-sm">
                     <div className="p-3.5 bg-gray-50 rounded-2xl border border-gray-200">
-                      <strong className="text-gray-900 font-bold block mb-1">1. Derogatory, Abusive &amp; Obscene Language (Section 352 BNS):</strong>
-                      <p className="text-gray-700">
+                      <strong className="text-black font-bold block mb-1">1. Derogatory, Abusive &amp; Obscene Language (Section 352 BNS):</strong>
+                      <p className="text-black">
                         Using foul language, slurs against family members, or sexually suggestive remarks constitutes an offense under Section 352 BNS (intentional insult with intent to provoke breach of the peace) and Section 79 BNS (acts intended to outrage the modesty of women), punishable with rigorous imprisonment.
                       </p>
                     </div>
                     <div className="p-3.5 bg-gray-50 rounded-2xl border border-gray-200">
-                      <strong className="text-gray-900 font-bold block mb-1">2. Criminal Intimidation &amp; Threats of Harm (Section 351 BNS):</strong>
-                      <p className="text-gray-700">
+                      <strong className="text-black font-bold block mb-1">2. Criminal Intimidation &amp; Threats of Harm (Section 351 BNS):</strong>
+                      <p className="text-black">
                         Threatening injury to the borrower&apos;s person, reputation, or property—such as threatening to break limbs, ruin business standing, or cause public disgrace—attracts imprisonment up to two years under Section 351(2) BNS, or up to seven years if the threat involves death or grievous hurt.
                       </p>
                     </div>
                     <div className="p-3.5 bg-gray-50 rounded-2xl border border-gray-200">
-                      <strong className="text-gray-900 font-bold block mb-1">3. Admissibility of Electronic Evidence (Section 63 BSA 2023):</strong>
-                      <p className="text-gray-700">
+                      <strong className="text-black font-bold block mb-1">3. Admissibility of Electronic Evidence (Section 63 BSA 2023):</strong>
+                      <p className="text-black">
                         Under Section 63 of the <strong>Bharatiya Sakshya Adhiniyam, 2023 (BSA)</strong>, audio recordings of abusive calls stored on your smartphone are fully admissible in court and before the Banking Ombudsman. When presented with authenticated call recordings, the Ombudsman routinely penalizes the lender with compensation orders up to ₹1,00,000 for mental agony.
                       </p>
                     </div>
@@ -1142,10 +1140,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 13
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   13. RBI Rules on Contacting Family Members, Friends and References
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     One of the most widespread and damaging recovery abuses is contacting parents, spouses, siblings, children, or emergency references to demand payment for an overdue debt. The Reserve Bank of India has enacted explicit, zero-ambiguity prohibitions against this practice:
                   </p>
@@ -1154,14 +1152,14 @@ export default function RBIRulesClient() {
                   </p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5 my-3">
                     <div className="p-4 bg-white border border-gray-200 rounded-2xl shadow-xs space-y-1.5">
-                      <strong className="text-gray-900 block text-xs sm:text-sm font-bold">Strict Credit Confidentiality (CICRA Sec 29)</strong>
-                      <p className="text-xs text-gray-600 leading-relaxed">
+                      <strong className="text-black block text-xs sm:text-sm font-bold">Strict Credit Confidentiality (CICRA Sec 29)</strong>
+                      <p className="text-xs text-black leading-relaxed">
                         Under Section 29 of the Credit Information Companies (Regulation) Act, 2005, disclosing borrower financial details, loan balances, or default status to non-guarantor third parties is an explicit statutory crime.
                       </p>
                     </div>
                     <div className="p-4 bg-white border border-gray-200 rounded-2xl shadow-xs space-y-1.5">
-                      <strong className="text-gray-900 block text-xs sm:text-sm font-bold">Misuse of Application Form References</strong>
-                      <p className="text-xs text-gray-600 leading-relaxed">
+                      <strong className="text-black block text-xs sm:text-sm font-bold">Misuse of Application Form References</strong>
+                      <p className="text-xs text-black leading-relaxed">
                         Reference contacts provided during loan onboarding are solely for initial address verification. Calling references to demand debt settlement or induce social embarrassment is strictly banned under Paragraph 2.4 of the RBI Master Direction.
                       </p>
                     </div>
@@ -1179,10 +1177,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 14
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   14. RBI Rules on Contacting Employers and Workplace Colleagues
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Recovery agencies frequently threaten: <em>&quot;We will call your HR director, inform your Managing Director, and get you terminated from your job.&quot;</em> This is a coercive, unlawful threat designed to weaponize livelihood anxiety. Under Indian law and RBI directives, contacting a borrower&apos;s employer is strictly prohibited:
                   </p>
@@ -1210,29 +1208,29 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 15
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   15. RBI Rules on Privacy, Customer Dignity, and Data Protection
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Following the Supreme Court of India&apos;s historic nine-judge constitutional bench ruling in <em>Justice K.S. Puttaswamy (Retd.) v. Union of India (2017 10 SCC 1)</em>, the <strong>Right to Privacy</strong> is recognized as a fundamental right guaranteed under Article 21 of the Constitution. In the banking realm, customer privacy is protected by both constitutional jurisprudence and statutory enactments:
                   </p>
                   <div className="space-y-3 text-xs sm:text-sm">
                     <div className="p-3.5 bg-white border border-gray-200 rounded-2xl shadow-xs">
-                      <strong className="text-gray-900 font-bold block mb-1">1. Common Law Duty of Secrecy (The Tournier Principle):</strong>
-                      <p className="text-gray-600">
+                      <strong className="text-black font-bold block mb-1">1. Common Law Duty of Secrecy (The Tournier Principle):</strong>
+                      <p className="text-black">
                         Under the foundational banking law doctrine established in <em>Tournier v. National Provincial and Union Bank of England</em>, commercial lenders owe an implied contractual duty of absolute secrecy regarding a customer&apos;s account transactions, balances, and credit standings. Breaching this duty exposes the bank to substantial civil damages.
                       </p>
                     </div>
                     <div className="p-3.5 bg-white border border-gray-200 rounded-2xl shadow-xs">
-                      <strong className="text-gray-900 font-bold block mb-1">2. Digital Personal Data Protection Act, 2023 (DPDP Act):</strong>
-                      <p className="text-gray-600">
+                      <strong className="text-black font-bold block mb-1">2. Digital Personal Data Protection Act, 2023 (DPDP Act):</strong>
+                      <p className="text-black">
                         Under Sections 6 and 8 of the DPDP Act, 2023, financial institutions act as Data Fiduciaries. Sharing borrower personal data, contact lists, or financial distress records with unauthorized collection telecallers without explicit lawful consent constitutes an actionable breach carrying statutory penalties up to <strong>₹250 Crores</strong> imposed by the Data Protection Board of India.
                       </p>
                     </div>
                     <div className="p-3.5 bg-white border border-gray-200 rounded-2xl shadow-xs">
-                      <strong className="text-gray-900 font-bold block mb-1">3. Absolute Prohibition of Public Shaming Posters:</strong>
-                      <p className="text-gray-600">
+                      <strong className="text-black font-bold block mb-1">3. Absolute Prohibition of Public Shaming Posters:</strong>
+                      <p className="text-black">
                         Affixing &quot;Defaulter&quot; posters on housing society noticeboards, publishing photos of retail borrowers in local newspapers, or circulating shaming flyers in residential colonies is an unlawful breach of privacy prohibited by High Court rulings across India.
                       </p>
                     </div>
@@ -1247,10 +1245,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 16
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   16. RBI Guidelines on Recovery Agent Identification Protocols
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Whenever a recovery representative initiates contact—whether in person or via telephone—statutory identification verification must take place before any substantive loan discussion. Borrowers must never entertain unidentified callers or visitors:
                   </p>
@@ -1265,29 +1263,29 @@ export default function RBIRulesClient() {
                       </thead>
                       <tbody className="divide-y divide-gray-200 bg-white">
                         <tr>
-                          <td className="p-3 font-semibold text-gray-900">Official Bank Letter of Authority</td>
+                          <td className="p-3 font-semibold text-black">Official Bank Letter of Authority</td>
                           <td className="p-3">Must name the agent, agency, borrower account number, and date of issue on bank letterhead signed by AGM/DGM.</td>
                           <td className="p-3 text-red-600 font-semibold">Refuse interaction &amp; report trespass under Sec 329 BNS.</td>
                         </tr>
                         <tr>
-                          <td className="p-3 font-semibold text-gray-900">Institutional Photo ID Card</td>
+                          <td className="p-3 font-semibold text-black">Institutional Photo ID Card</td>
                           <td className="p-3">Laminated badge displaying agency logo, agent photograph, employee code, and issuing bank division.</td>
                           <td className="p-3 text-red-600 font-semibold">Photograph badge &amp; verify via bank customer care helpline.</td>
                         </tr>
                         <tr>
-                          <td className="p-3 font-semibold text-gray-900">IIBF Debt Recovery Certificate (DRA)</td>
+                          <td className="p-3 font-semibold text-black">IIBF Debt Recovery Certificate (DRA)</td>
                           <td className="p-3">Valid DRA certificate number confirming completion of mandatory 50/100-hour professional banking training.</td>
                           <td className="p-3 text-red-600 font-semibold">Challenge agent competence before RBI Banking Ombudsman.</td>
                         </tr>
                         <tr>
-                          <td className="p-3 font-semibold text-gray-900">Government Photo ID (Aadhaar / Voter ID)</td>
+                          <td className="p-3 font-semibold text-black">Government Photo ID (Aadhaar / Voter ID)</td>
                           <td className="p-3">Official government identity document matching the name on the agency badge and Letter of Authority.</td>
                           <td className="p-3 text-red-600 font-semibold">Refuse entry; report imposter to local police via 112.</td>
                         </tr>
                       </tbody>
                     </table>
                   </div>
-                  <p className="text-xs text-gray-600">
+                  <p className="text-xs text-black">
                     <em>Mandatory Protocol:</em> You are legally entitled to photograph these credentials using your smartphone before engaging in any dialogue. If the agent hesitates or refuses to present credentials, close the door immediately.
                   </p>
                 </div>
@@ -1300,10 +1298,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 17
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   17. Bank&apos;s Legal Responsibility for Recovery Agents: Principle of Vicarious Liability
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     A foundational legal principle established by the Reserve Bank of India and Indian courts is the doctrine of <strong>vicarious liability</strong> (<em>Respondeat Superior</em>). Financial institutions cannot escape accountability for abusive debt collection by claiming that third-party collection agencies are &quot;independent contractors&quot;.
                   </p>
@@ -1328,10 +1326,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 18
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   18. Can Banks Be Held Responsible for Recovery Agent Misconduct? Landmark Judicial Precedents
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     The Supreme Court of India and High Courts have consistently held commercial lenders strictly accountable for strong-arm recovery tactics, delivering landmark rulings that form the bedrock of consumer defense:
                   </p>
@@ -1367,10 +1365,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 19
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   19. RBI Rules for Recovery of Credit Card Dues (Master Direction 2022)
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Under the <em>RBI Master Direction – Credit Card and Debit Card – Issuance and Conduct Directions, 2022 (Updated 2024)</em>, specialized consumer safeguards govern revolving credit card collections:
                   </p>
@@ -1398,29 +1396,29 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 20
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   20. RBI Rules for Personal Loan Recovery Agents: Unsecured Debt Protections
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Unsecured personal term loans carry fixed monthly Equated Monthly Installments (EMIs). When non-payment occurs due to salary reduction, layoff, or enterprise cash-flow distress, recovery agents frequently attempt unauthorized pressure tactics:
                   </p>
                   <div className="space-y-3 text-xs sm:text-sm">
                     <div className="p-3.5 bg-gray-50 rounded-2xl border border-gray-200">
-                      <strong className="text-gray-900 font-bold block mb-1">Civil Nature of Personal Loan Defaults:</strong>
-                      <p className="text-gray-700">
+                      <strong className="text-black font-bold block mb-1">Civil Nature of Personal Loan Defaults:</strong>
+                      <p className="text-black">
                         Defaulting on an unsecured personal loan is strictly a breach of contract under the Indian Contract Act, 1872. The lender&apos;s lawful recourse is filing a civil summary suit under Order 37 of the Code of Civil Procedure (CPC) or petitioning before Lok Adalat. Police officers have no jurisdiction over civil personal loan defaults.
                       </p>
                     </div>
                     <div className="p-3.5 bg-gray-50 rounded-2xl border border-gray-200">
-                      <strong className="text-gray-900 font-bold block mb-1">Prohibition of Forced Instrument Execution:</strong>
-                      <p className="text-gray-700">
+                      <strong className="text-black font-bold block mb-1">Prohibition of Forced Instrument Execution:</strong>
+                      <p className="text-black">
                         Recovery agents are strictly barred from coercing a borrower into executing fresh blank cheques, signing promissory notes under duress, or surrendering property title deeds during doorstep visits.
                       </p>
                     </div>
                     <div className="p-3.5 bg-gray-50 rounded-2xl border border-gray-200">
-                      <strong className="text-gray-900 font-bold block mb-1">Distinction from NACH / Cheque Bounce (Sec 25 PSSA &amp; Sec 138 NI Act):</strong>
-                      <p className="text-gray-700">
+                      <strong className="text-black font-bold block mb-1">Distinction from NACH / Cheque Bounce (Sec 25 PSSA &amp; Sec 138 NI Act):</strong>
+                      <p className="text-black">
                         While dishonor of an electronic NACH mandate or cheque can trigger statutory legal notices under Section 25 of the Payment and Settlement Systems Act (PSSA) or Section 138 of the Negotiable Instruments Act (NI Act), this is a judicial process adjudicated exclusively by a Judicial Magistrate. Recovery agents cannot issue warrants, conduct arrests, or act as court bailiffs.
                       </p>
                     </div>
@@ -1435,10 +1433,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 21
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   21. RBI Rules for Digital Loan Recovery Agents &amp; FinTech Apps
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     In September 2022, the Reserve Bank issued landmark <strong>Guidelines on Digital Lending</strong> (DOR.CRE.REC.66/21.07.001/2022-23) to eliminate predatory digital lending applications and cyber harassment:
                   </p>
@@ -1463,23 +1461,23 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 22
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   22. RBI Rules for Third-Party Recovery Agencies: Onboarding &amp; Auditing
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Under central bank governance norms, regulated lending institutions must enforce strict supervisory oversight and due diligence over third-party recovery vendors:
                   </p>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 my-3 text-xs sm:text-sm">
                     <div className="p-4 bg-gray-50 rounded-2xl border border-gray-200">
-                      <strong className="text-gray-900 block font-bold mb-1">Public Agency Roster:</strong>
-                      <p className="text-gray-600">
+                      <strong className="text-black block font-bold mb-1">Public Agency Roster:</strong>
+                      <p className="text-black">
                         Every bank and NBFC must publish an up-to-date directory of all empaneled recovery agencies on their official website, detailing agency legal names, registered addresses, and regional jurisdictions.
                       </p>
                     </div>
                     <div className="p-4 bg-gray-50 rounded-2xl border border-gray-200">
-                      <strong className="text-gray-900 block font-bold mb-1">Quarterly Compliance Audits:</strong>
-                      <p className="text-gray-600">
+                      <strong className="text-black block font-bold mb-1">Quarterly Compliance Audits:</strong>
+                      <p className="text-black">
                         Lenders must conduct quarterly compliance audits of agency call centers, reviewing recorded phone calls, training logs, customer grievance tickets, and police verification dockets.
                       </p>
                     </div>
@@ -1497,10 +1495,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 23
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   23. RBI Rules on Recovery Agent Training, IIBF Certification &amp; Ethics
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     The Reserve Bank mandates that every individual deployed for debt recovery must undergo structured professional training and clear the <strong>Debt Recovery Agent (DRA) certificate course</strong> administered by the Indian Institute of Banking &amp; Finance (IIBF).
                   </p>
@@ -1526,10 +1524,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 24
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   24. The Indian Banks&apos; Association (IBA) Recovery Agent Code of Conduct
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     In addition to binding Reserve Bank circulars, all public and private commercial banks subscribe to the <strong>Model Code of Conduct for Recovery Agents</strong> formulated by the Indian Banks&apos; Association (IBA).
                   </p>
@@ -1556,10 +1554,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 25
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   25. What Recovery Agents Cannot Do: Complete Prohibited Actions Checklist
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     For quick reference and legal enforcement, here is the exhaustive, authoritative catalog of actions that recovery representatives are <strong>strictly barred</strong> from performing under Indian law, the Banking Regulation Act, 1949, and binding Reserve Bank of India directives:
                   </p>
@@ -1600,10 +1598,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 26
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   26. What Recovery Agents Can Legally Do: Legitimate Collection Rights
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Borrowers frequently inquire: <em>&quot;What rights DOES the creditor bank actually have under Indian law?&quot;</em> Regulated financial institutions are entitled to pursue legitimate recovery of delinquent funds through civilized, transparent, and legally authorized channels:
                   </p>
@@ -1623,197 +1621,6 @@ export default function RBIRulesClient() {
                     <li>
                       <strong>Reporting to Credit Bureaus:</strong> Accurately transmitting repayment delinquency data (SMA-0, SMA-1, SMA-2, NPA, Written-Off) to RBI-licensed credit information companies (CIBIL, Experian, CRIF High Mark, Equifax) in accordance with the Credit Information Companies (Regulation) Act, 2005.
                     </li>
-                  </ul>
-                </div>
-              </section>
-
-              {/* ------------------------------------------------------------- */}
-              {/* 27. Can Recovery Agents Visit Your Home or Workplace?          */}
-              {/* ------------------------------------------------------------- */}
-              <section id="can-agents-visit-home-workplace" className="scroll-section scroll-mt-28">
-                <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
-                  SECTION 27
-                </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
-                  27. Can Recovery Agents Visit Your Home or Workplace?
-                </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <p>
-                    <strong>Residential Home Visits:</strong> Permitted ONLY during daylight hours (strictly between 08:00 AM and 07:00 PM), provided the visiting representatives carry their institutional photo identity cards and the official bank Letter of Authority. Agents cannot force entry, must remain in the living room or reception area, and must leave immediately if the borrower requests a postponement due to an emergency, family illness, or distress.
-                  </p>
-                  <p>
-                    <strong>Workplace &amp; Office Visits:</strong> Under Paragraph 2.4 of the RBI Master Direction, visiting a borrower&apos;s office, commercial establishment, or workplace is strictly discouraged. It is permissible <strong>only</strong> under exceptional circumstances where the borrower has completely absconded from their residential address or consistently refuses all telephonic contact.
-                  </p>
-                  <p>
-                    Even in that rare scenario, visiting an office to publicly humiliate an employee, create a scene in front of colleagues, or disclose debt figures to Human Resources violates both the borrower&apos;s constitutional right to livelihood under Article 21 and constitutes criminal defamation under Section 356 BNS.
-                  </p>
-                </div>
-              </section>
-
-              {/* ------------------------------------------------------------- */}
-              {/* 28. Can Recovery Agents Call Your Family Members?             */}
-              {/* ------------------------------------------------------------- */}
-              <section id="can-agents-call-family-members" className="scroll-section scroll-mt-28">
-                <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
-                  SECTION 28
-                </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
-                  28. Can Recovery Agents Call Your Family Members?
-                </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <p>
-                    <strong>ABSOLUTELY NOT.</strong> The debt agreement is a private, confidential bilateral contract solely between the primary borrower, co-borrower, and formally signed legal guarantors.
-                  </p>
-                  <p>
-                    Spouses, aging parents, children, and siblings are <strong>third parties</strong> in the eyes of the law. Contacting family members to demand money, discuss loan balances, or apply emotional pressure is a direct violation of Paragraph 2.4 of the RBI Master Direction and constitutes:
-                  </p>
-                  <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm">
-                    <li><strong>Breach of Statutory Credit Secrecy:</strong> Punishable under Section 29 of the Credit Information Companies (Regulation) Act, 2005.</li>
-                    <li><strong>Criminal Intimidation:</strong> Punishable under Section 351 BNS for causing psychological trauma to uninvolved individuals.</li>
-                    <li><strong>Attempted Extortion:</strong> Punishable under Section 308 BNS when demanding that parents or spouses liquidate their savings for another person&apos;s loan.</li>
-                  </ul>
-                  <p>
-                    Family members facing such calls should state firmly: <em>&quot;I am not a party to this loan contract. Do not call this number again, or I will register an FIR for criminal intimidation.&quot;</em>
-                  </p>
-                </div>
-              </section>
-
-              {/* ------------------------------------------------------------- */}
-              {/* 29. Can Recovery Agents Contact Your Employer?                */}
-              {/* ------------------------------------------------------------- */}
-              <section id="can-agents-contact-employer" className="scroll-section scroll-mt-28">
-                <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
-                  SECTION 29
-                </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
-                  29. Can Recovery Agents Contact Your Employer?
-                </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <p>
-                    <strong>NO.</strong> A lender or collection agency cannot contact your reporting manager, Human Resources (HR) department, or company directors to demand EMI payments or complain about your financial status.
-                  </p>
-                  <p>
-                    Unless an employee explicitly executed a voluntary tripartite salary deduction agreement (such as an employer-sponsored corporate loan program), the employer has zero role or liability in an employee&apos;s personal debts. Attempting to disrupt an employee&apos;s job security entitles the borrower to:
-                  </p>
-                  <div className="space-y-2 text-xs sm:text-sm">
-                    <p>
-                      <strong>1. Criminal Defamation Action:</strong> File an immediate criminal complaint under Section 356 BNS against the collection agency and bank nodal officers for maligning your professional reputation.
-                    </p>
-                    <p>
-                      <strong>2. Cease-and-Desist Legal Notice:</strong> Have CredSettle&apos;s banking advocates serve a formal notice to the bank&apos;s corporate headquarters, holding them vicariously liable for tortious interference with employment.
-                    </p>
-                    <p>
-                      <strong>3. Banking Ombudsman Escalation:</strong> Seek punitive compensation up to ₹1,00,000 for mental harassment and threat to livelihood under the RBI Integrated Ombudsman Scheme.
-                    </p>
-                  </div>
-                </div>
-              </section>
-
-              {/* ------------------------------------------------------------- */}
-              {/* 30. Can Recovery Agents Threaten or Abuse Borrowers?          */}
-              {/* ------------------------------------------------------------- */}
-              <section id="can-agents-threaten-abuse-borrowers" className="scroll-section scroll-mt-28">
-                <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
-                  SECTION 30
-                </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
-                  30. Can Recovery Agents Threaten or Abuse Borrowers?
-                </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <p>
-                    <strong>STRICTLY ILLEGAL.</strong> Threatening bodily injury, using foul profanity, shouting abusive slurs, or making insinuations regarding a borrower&apos;s moral character are criminal acts under Indian penal law.
-                  </p>
-                  <p>
-                    Under the <strong>Bharatiya Nyaya Sanhita, 2023 (BNS)</strong>, recovery personnel indulging in verbal abuse or threats face severe statutory consequences:
-                  </p>
-                  <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm">
-                    <li><strong>Section 351 BNS (Criminal Intimidation):</strong> Punishable with imprisonment up to two years, or up to seven years if the threat involves death or grievous harm.</li>
-                    <li><strong>Section 352 BNS (Intentional Insult to Provoke Breach of Peace):</strong> Punishable with imprisonment up to two years with fine.</li>
-                    <li><strong>Section 79 BNS (Insult to Modesty of a Woman):</strong> Using sexually suggestive language, vulgar gestures, or calling female borrowers at late hours is a <strong>cognizable, non-bailable offense</strong> carrying rigorous imprisonment up to three years.</li>
-                  </ul>
-                  <p>
-                    If an agent uses abusive language, do not engage in shouting matches. Ensure your call recorder is active, note the timestamp, and initiate formal legal complaints.
-                  </p>
-                </div>
-              </section>
-
-              {/* ------------------------------------------------------------- */}
-              {/* 31. Can Recovery Agents Use Police or Legal Threats?          */}
-              {/* ------------------------------------------------------------- */}
-              <section id="can-agents-use-police-legal-threats" className="scroll-section scroll-mt-28">
-                <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
-                  SECTION 31
-                </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
-                  31. Can Recovery Agents Use Police or Legal Threats?
-                </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <p>
-                    Collection callers routinely intimidate borrowers by claiming: <em>&quot;The local police station has registered an FIR against you, and officers will arrive at your home with an arrest warrant within two hours.&quot;</em>
-                  </p>
-                  <div className="p-4 bg-rose-50 border border-rose-200 rounded-2xl text-rose-950 text-xs sm:text-sm space-y-2">
-                    <strong className="block font-bold text-sm">Authoritative Legal Reality in India:</strong>
-                    <ul className="list-disc pl-4 space-y-1.5">
-                      <li><strong>Zero Police Jurisdiction in Civil Defaults:</strong> Police officers have zero statutory authority to act as debt collection agents or intervene in unsecured credit card or personal loan disputes.</li>
-                      <li><strong>Impersonation of Public Servant (Section 204 BNS):</strong> Any recovery agent who falsely claims to be a police sub-inspector, crime branch detective, or court bailiff commits a serious offense punishable with imprisonment under Section 204 BNS (Section 170 IPC).</li>
-                      <li><strong>Judicial Process Exclusivity:</strong> Arrest warrants can ONLY be issued by judicial magistrates following formal trial proceedings under specific statutory enactments (such as Section 138 NI Act), never by a telecaller over the phone.</li>
-                    </ul>
-                  </div>
-                  <p className="text-xs text-gray-600">
-                    <em>Defense Strategy:</em> Whenever an agent threatens police arrest, ask them for their Police Station jurisdiction, GD (General Diary) entry number, and officer rank. They will almost immediately hang up.
-                  </p>
-                </div>
-              </section>
-
-              {/* ------------------------------------------------------------- */}
-              {/* 32. Can Recovery Agents Seize Your Property?                  */}
-              {/* ------------------------------------------------------------- */}
-              <section id="can-agents-seize-property" className="scroll-section scroll-mt-28">
-                <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
-                  SECTION 32
-                </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
-                  32. Can Recovery Agents Seize Your Property?
-                </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <p>
-                    <strong>Unsecured Loans &amp; Credit Cards:</strong> Recovery agents have <strong>ZERO legal authority</strong> to touch, confiscate, or repossess your television, air conditioner, jewelry, electronics, furniture, or private two-wheeler/four-wheeler for unsecured debts.
-                  </p>
-                  <p>
-                    Unsecured credit facilities carry no mortgage, hypothecation, or asset pledge. Forcibly confiscating personal items without a formal judicial court decree amounts to criminal robbery, extortion, and criminal trespass under Sections 308, 309, and 329 of the Bharatiya Nyaya Sanhita (BNS).
-                  </p>
-                  <p>
-                    <strong>Secured Collateral Facilities (Home &amp; Auto Loans):</strong> Even for secured collateral, repossession must adhere strictly to the <strong>SARFAESI Act, 2002</strong> or judicial repossession guidelines:
-                  </p>
-                  <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm">
-                    <li>Lenders must issue a formal 60-day demand notice under Section 13(2) of the SARFAESI Act, followed by a 30-day possession notice under Section 13(4).</li>
-                    <li>In <em>Manager, ICICI Bank v. Prakash Kaur (2007)</em>, the Supreme Court ruled that banks cannot use musclemen to intercept vehicles on highways or tow cars without prior inventory panchnamas.</li>
-                  </ul>
-                </div>
-              </section>
-
-              {/* ------------------------------------------------------------- */}
-              {/* 33. Can Recovery Agents Force You to Pay Immediately?         */}
-              {/* ------------------------------------------------------------- */}
-              <section id="can-agents-force-immediate-payment" className="scroll-section scroll-mt-28">
-                <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
-                  SECTION 33
-                </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
-                  33. Can Recovery Agents Force You to Pay Immediately?
-                </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <p>
-                    Collection personnel cannot stand menacingly over you, block your doorway, or demand that you borrow from relatives, sell household belongings, or transfer funds via personal UPI handles on the spot.
-                  </p>
-                  <p>
-                    Under Indian contract law, debt repayment must be voluntary and orderly. Borrowers possess the legally protected right to:
-                  </p>
-                  <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm">
-                    <li>Demand an accurate, up-to-date written statement of account itemizing principal and charges.</li>
-                    <li>Consult banking litigation advocates or financial counselors before executing any compromise settlement.</li>
-                    <li>Remit all funds exclusively into registered bank loan account numbers through official banking gateways, never into personal accounts.</li>
-                    <li>Refuse cash handovers unless an instantaneous, computer-generated counterfoil receipt with bank branding is provided.</li>
                   </ul>
                 </div>
               </section>
@@ -1932,41 +1739,233 @@ export default function RBIRulesClient() {
               </section>
 
               {/* ------------------------------------------------------------- */}
+              {/* 27. Can Recovery Agents Visit Your Home or Workplace?          */}
+              {/* ------------------------------------------------------------- */}
+              <section id="can-agents-visit-home-workplace" className="scroll-section scroll-mt-28">
+                <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
+                  SECTION 27
+                </div>
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
+                  27. Can Recovery Agents Visit Your Home or Workplace?
+                </h2>
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                  <p>
+                    <strong>Residential Home Visits:</strong> Permitted ONLY during daylight hours (strictly between 08:00 AM and 07:00 PM), provided the visiting representatives carry their institutional photo identity cards and the official bank Letter of Authority. Agents cannot force entry, must remain in the living room or reception area, and must leave immediately if the borrower requests a postponement due to an emergency, family illness, or distress.
+                  </p>
+                  <p>
+                    <strong>Workplace &amp; Office Visits:</strong> Under Paragraph 2.4 of the RBI Master Direction, visiting a borrower&apos;s office, commercial establishment, or workplace is strictly discouraged. It is permissible <strong>only</strong> under exceptional circumstances where the borrower has completely absconded from their residential address or consistently refuses all telephonic contact.
+                  </p>
+                  <p>
+                    Even in that rare scenario, visiting an office to publicly humiliate an employee, create a scene in front of colleagues, or disclose debt figures to Human Resources violates both the borrower&apos;s constitutional right to livelihood under Article 21 and constitutes criminal defamation under Section 356 BNS.
+                  </p>
+                </div>
+              </section>
+
+              {/* ------------------------------------------------------------- */}
+              {/* 28. Can Recovery Agents Call Your Family Members?             */}
+              {/* ------------------------------------------------------------- */}
+              <section id="can-agents-call-family-members" className="scroll-section scroll-mt-28">
+                <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
+                  SECTION 28
+                </div>
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
+                  28. Can Recovery Agents Call Your Family Members?
+                </h2>
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                  <p>
+                    <strong>ABSOLUTELY NOT.</strong> The debt agreement is a private, confidential bilateral contract solely between the primary borrower, co-borrower, and formally signed legal guarantors.
+                  </p>
+                  <p>
+                    Spouses, aging parents, children, and siblings are <strong>third parties</strong> in the eyes of the law. Contacting family members to demand money, discuss loan balances, or apply emotional pressure is a direct violation of Paragraph 2.4 of the RBI Master Direction and constitutes:
+                  </p>
+                  <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm">
+                    <li><strong>Breach of Statutory Credit Secrecy:</strong> Punishable under Section 29 of the Credit Information Companies (Regulation) Act, 2005.</li>
+                    <li><strong>Criminal Intimidation:</strong> Punishable under Section 351 BNS for causing psychological trauma to uninvolved individuals.</li>
+                    <li><strong>Attempted Extortion:</strong> Punishable under Section 308 BNS when demanding that parents or spouses liquidate their savings for another person&apos;s loan.</li>
+                  </ul>
+                  <p>
+                    Family members facing such calls should state firmly: <em>&quot;I am not a party to this loan contract. Do not call this number again, or I will register an FIR for criminal intimidation.&quot;</em>
+                  </p>
+                </div>
+              </section>
+
+              {/* ------------------------------------------------------------- */}
+              {/* 29. Can Recovery Agents Contact Your Employer?                */}
+              {/* ------------------------------------------------------------- */}
+              <section id="can-agents-contact-employer" className="scroll-section scroll-mt-28">
+                <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
+                  SECTION 29
+                </div>
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
+                  29. Can Recovery Agents Contact Your Employer?
+                </h2>
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                  <p>
+                    <strong>NO.</strong> A lender or collection agency cannot contact your reporting manager, Human Resources (HR) department, or company directors to demand EMI payments or complain about your financial status.
+                  </p>
+                  <p>
+                    Unless an employee explicitly executed a voluntary tripartite salary deduction agreement (such as an employer-sponsored corporate loan program), the employer has zero role or liability in an employee&apos;s personal debts. Attempting to disrupt an employee&apos;s job security entitles the borrower to:
+                  </p>
+                  <div className="space-y-2 text-xs sm:text-sm">
+                    <p>
+                      <strong>1. Criminal Defamation Action:</strong> File an immediate criminal complaint under Section 356 BNS against the collection agency and bank nodal officers for maligning your professional reputation.
+                    </p>
+                    <p>
+                      <strong>2. Cease-and-Desist Legal Notice:</strong> Have CredSettle&apos;s banking advocates serve a formal notice to the bank&apos;s corporate headquarters, holding them vicariously liable for tortious interference with employment.
+                    </p>
+                    <p>
+                      <strong>3. Banking Ombudsman Escalation:</strong> Seek punitive compensation up to ₹1,00,000 for mental harassment and threat to livelihood under the RBI Integrated Ombudsman Scheme.
+                    </p>
+                  </div>
+                </div>
+              </section>
+
+              {/* ------------------------------------------------------------- */}
+              {/* 30. Can Recovery Agents Threaten or Abuse Borrowers?          */}
+              {/* ------------------------------------------------------------- */}
+              <section id="can-agents-threaten-abuse-borrowers" className="scroll-section scroll-mt-28">
+                <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
+                  SECTION 30
+                </div>
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
+                  30. Can Recovery Agents Threaten or Abuse Borrowers?
+                </h2>
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                  <p>
+                    <strong>STRICTLY ILLEGAL.</strong> Threatening bodily injury, using foul profanity, shouting abusive slurs, or making insinuations regarding a borrower&apos;s moral character are criminal acts under Indian penal law.
+                  </p>
+                  <p>
+                    Under the <strong>Bharatiya Nyaya Sanhita, 2023 (BNS)</strong>, recovery personnel indulging in verbal abuse or threats face severe statutory consequences:
+                  </p>
+                  <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm">
+                    <li><strong>Section 351 BNS (Criminal Intimidation):</strong> Punishable with imprisonment up to two years, or up to seven years if the threat involves death or grievous harm.</li>
+                    <li><strong>Section 352 BNS (Intentional Insult to Provoke Breach of Peace):</strong> Punishable with imprisonment up to two years with fine.</li>
+                    <li><strong>Section 79 BNS (Insult to Modesty of a Woman):</strong> Using sexually suggestive language, vulgar gestures, or calling female borrowers at late hours is a <strong>cognizable, non-bailable offense</strong> carrying rigorous imprisonment up to three years.</li>
+                  </ul>
+                  <p>
+                    If an agent uses abusive language, do not engage in shouting matches. Ensure your call recorder is active, note the timestamp, and initiate formal legal complaints.
+                  </p>
+                </div>
+              </section>
+
+              {/* ------------------------------------------------------------- */}
+              {/* 31. Can Recovery Agents Use Police or Legal Threats?          */}
+              {/* ------------------------------------------------------------- */}
+              <section id="can-agents-use-police-legal-threats" className="scroll-section scroll-mt-28">
+                <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
+                  SECTION 31
+                </div>
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
+                  31. Can Recovery Agents Use Police or Legal Threats?
+                </h2>
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                  <p>
+                    Collection callers routinely intimidate borrowers by claiming: <em>&quot;The local police station has registered an FIR against you, and officers will arrive at your home with an arrest warrant within two hours.&quot;</em>
+                  </p>
+                  <div className="p-4 bg-rose-50 border border-rose-200 rounded-2xl text-rose-950 text-xs sm:text-sm space-y-2">
+                    <strong className="block font-bold text-sm">Authoritative Legal Reality in India:</strong>
+                    <ul className="list-disc pl-4 space-y-1.5">
+                      <li><strong>Zero Police Jurisdiction in Civil Defaults:</strong> Police officers have zero statutory authority to act as debt collection agents or intervene in unsecured credit card or personal loan disputes.</li>
+                      <li><strong>Impersonation of Public Servant (Section 204 BNS):</strong> Any recovery agent who falsely claims to be a police sub-inspector, crime branch detective, or court bailiff commits a serious offense punishable with imprisonment under Section 204 BNS (Section 170 IPC).</li>
+                      <li><strong>Judicial Process Exclusivity:</strong> Arrest warrants can ONLY be issued by judicial magistrates following formal trial proceedings under specific statutory enactments (such as Section 138 NI Act), never by a telecaller over the phone.</li>
+                    </ul>
+                  </div>
+                  <p className="text-xs text-black">
+                    <em>Defense Strategy:</em> Whenever an agent threatens police arrest, ask them for their Police Station jurisdiction, GD (General Diary) entry number, and officer rank. They will almost immediately hang up.
+                  </p>
+                </div>
+              </section>
+
+              {/* ------------------------------------------------------------- */}
+              {/* 32. Can Recovery Agents Seize Your Property?                  */}
+              {/* ------------------------------------------------------------- */}
+              <section id="can-agents-seize-property" className="scroll-section scroll-mt-28">
+                <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
+                  SECTION 32
+                </div>
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
+                  32. Can Recovery Agents Seize Your Property?
+                </h2>
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                  <p>
+                    <strong>Unsecured Loans &amp; Credit Cards:</strong> Recovery agents have <strong>ZERO legal authority</strong> to touch, confiscate, or repossess your television, air conditioner, jewelry, electronics, furniture, or private two-wheeler/four-wheeler for unsecured debts.
+                  </p>
+                  <p>
+                    Unsecured credit facilities carry no mortgage, hypothecation, or asset pledge. Forcibly confiscating personal items without a formal judicial court decree amounts to criminal robbery, extortion, and criminal trespass under Sections 308, 309, and 329 of the Bharatiya Nyaya Sanhita (BNS).
+                  </p>
+                  <p>
+                    <strong>Secured Collateral Facilities (Home &amp; Auto Loans):</strong> Even for secured collateral, repossession must adhere strictly to the <strong>SARFAESI Act, 2002</strong> or judicial repossession guidelines:
+                  </p>
+                  <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm">
+                    <li>Lenders must issue a formal 60-day demand notice under Section 13(2) of the SARFAESI Act, followed by a 30-day possession notice under Section 13(4).</li>
+                    <li>In <em>Manager, ICICI Bank v. Prakash Kaur (2007)</em>, the Supreme Court ruled that banks cannot use musclemen to intercept vehicles on highways or tow cars without prior inventory panchnamas.</li>
+                  </ul>
+                </div>
+              </section>
+
+              {/* ------------------------------------------------------------- */}
+              {/* 33. Can Recovery Agents Force You to Pay Immediately?         */}
+              {/* ------------------------------------------------------------- */}
+              <section id="can-agents-force-immediate-payment" className="scroll-section scroll-mt-28">
+                <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
+                  SECTION 33
+                </div>
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
+                  33. Can Recovery Agents Force You to Pay Immediately?
+                </h2>
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                  <p>
+                    Collection personnel cannot stand menacingly over you, block your doorway, or demand that you borrow from relatives, sell household belongings, or transfer funds via personal UPI handles on the spot.
+                  </p>
+                  <p>
+                    Under Indian contract law, debt repayment must be voluntary and orderly. Borrowers possess the legally protected right to:
+                  </p>
+                  <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm">
+                    <li>Demand an accurate, up-to-date written statement of account itemizing principal and charges.</li>
+                    <li>Consult banking litigation advocates or financial counselors before executing any compromise settlement.</li>
+                    <li>Remit all funds exclusively into registered bank loan account numbers through official banking gateways, never into personal accounts.</li>
+                    <li>Refuse cash handovers unless an instantaneous, computer-generated counterfoil receipt with bank branding is provided.</li>
+                  </ul>
+                </div>
+              </section>
+
+
+              {/* ------------------------------------------------------------- */}
               {/* 34. Rights of Borrowers Against Recovery Agent Harassment     */}
               {/* ------------------------------------------------------------- */}
               <section id="rights-of-borrowers" className="scroll-section scroll-mt-28">
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 34
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   34. Rights of Borrowers Against Recovery Agent Harassment: The Citizen&apos;s Shield
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Every citizen in India holds enforceable fundamental, consumer, and regulatory rights that no financial institution or collection agency can override:
                   </p>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 my-3 text-xs sm:text-sm">
                     <div className="p-4 bg-white border border-gray-200 rounded-2xl shadow-xs space-y-1.5">
-                      <strong className="text-gray-900 block font-bold text-sm">1. Right to Human Dignity (Article 21)</strong>
-                      <p className="text-gray-600 leading-relaxed">
+                      <strong className="text-black block font-bold text-sm">1. Right to Human Dignity (Article 21)</strong>
+                      <p className="text-black leading-relaxed">
                         Article 21 guarantees life with human dignity. Civil financial inability cannot be used to humiliate, insult, or browbeat an individual before family, neighbors, or peers.
                       </p>
                     </div>
                     <div className="p-4 bg-white border border-gray-200 rounded-2xl shadow-xs space-y-1.5">
-                      <strong className="text-gray-900 block font-bold text-sm">2. Right to Financial Privacy</strong>
-                      <p className="text-gray-600 leading-relaxed">
+                      <strong className="text-black block font-bold text-sm">2. Right to Financial Privacy</strong>
+                      <p className="text-black leading-relaxed">
                         Your debt history is private confidential data. It cannot be broadcast to relatives, employers, or society guards without violating statutory secrecy laws.
                       </p>
                     </div>
                     <div className="p-4 bg-white border border-gray-200 rounded-2xl shadow-xs space-y-1.5">
-                      <strong className="text-gray-900 block font-bold text-sm">3. Right to Legal Representation</strong>
-                      <p className="text-gray-600 leading-relaxed">
+                      <strong className="text-black block font-bold text-sm">3. Right to Legal Representation</strong>
+                      <p className="text-black leading-relaxed">
                         Under Section 30 of the Advocates Act, 1961, you have the right to instruct an advocate to handle all creditor communications on your behalf.
                       </p>
                     </div>
                     <div className="p-4 bg-white border border-gray-200 rounded-2xl shadow-xs space-y-1.5">
-                      <strong className="text-gray-900 block font-bold text-sm">4. Right to Fair Dispute Redressal</strong>
-                      <p className="text-gray-600 leading-relaxed">
+                      <strong className="text-black block font-bold text-sm">4. Right to Fair Dispute Redressal</strong>
+                      <p className="text-black leading-relaxed">
                         Access to bank grievance cells, Principal Nodal Officers, and the RBI Integrated Ombudsman without paying court filing fees or legal stamp duties.
                       </p>
                     </div>
@@ -1984,10 +1983,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 35
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   35. What to Do If a Recovery Agent Harasses You: Emergency Action Protocol
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     When an agent crosses legal boundaries, do not panic, plead, or hide. Execute this systematic 4-step emergency defense protocol:
                   </p>
@@ -2018,10 +2017,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 36
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   36. How to Respond to Recovery Agent Calls: Verbatim Scripts for Borrowers
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Use these battle-tested legal scripts when receiving high-pressure collection phone calls across different harassment scenarios:
                   </p>
@@ -2053,10 +2052,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 37
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   37. How to Handle Recovery Agent Visits to Your Home
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     If recovery agents arrive at your doorstep, observe these defensive legal guidelines:
                   </p>
@@ -2074,7 +2073,7 @@ export default function RBIRulesClient() {
                       <strong>Emergency Police Dispatch (112):</strong> If agents raise their voices, stage a commotion, or refuse to vacate your premises after being instructed to leave, dial <strong>112</strong> immediately and report criminal trespass and breach of the peace.
                     </li>
                   </ul>
-                  <p className="text-xs text-gray-600">
+                  <p className="text-xs text-black">
                     <em>Remember:</em> Your home is your constitutional sanctuary. An uninvited visitor who refuses to leave when commanded by the legal resident is committing criminal trespass under Section 329 of the Bharatiya Nyaya Sanhita (BNS).
                   </p>
                 </div>
@@ -2087,29 +2086,29 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 38
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   38. Critical Evidence to Collect Against Recovery Agent Harassment
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Regulatory authorities like the RBI Banking Ombudsman and Consumer Protection Commissions adjudicate cases based on <strong>contemporaneous electronic and documentary evidence</strong>. Assembling a rock-solid evidence dossier is essential:
                   </p>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 my-3 text-xs sm:text-sm">
                     <div className="p-4 bg-gray-50 rounded-2xl border border-gray-200 space-y-1">
-                      <strong className="text-gray-900 block font-bold">1. Digital Call Audio Recordings:</strong>
-                      <p className="text-gray-600">Preserve unmodified audio files showing exact dates, call durations, caller statements, and background call-center chatter.</p>
+                      <strong className="text-black block font-bold">1. Digital Call Audio Recordings:</strong>
+                      <p className="text-black">Preserve unmodified audio files showing exact dates, call durations, caller statements, and background call-center chatter.</p>
                     </div>
                     <div className="p-4 bg-gray-50 rounded-2xl border border-gray-200 space-y-1">
-                      <strong className="text-gray-900 block font-bold">2. Telecom Call Detail Records (CDR):</strong>
-                      <p className="text-gray-600">Screenshots of your incoming mobile call logs proving repeated calls in a single day or calls outside the 8 AM–7 PM window.</p>
+                      <strong className="text-black block font-bold">2. Telecom Call Detail Records (CDR):</strong>
+                      <p className="text-black">Screenshots of your incoming mobile call logs proving repeated calls in a single day or calls outside the 8 AM–7 PM window.</p>
                     </div>
                     <div className="p-4 bg-gray-50 rounded-2xl border border-gray-200 space-y-1">
-                      <strong className="text-gray-900 block font-bold">3. Electronic Messaging Screenshots:</strong>
-                      <p className="text-gray-600">High-resolution screenshots of WhatsApp texts, SMS messages, fake arrest notices, or communications sent to family members.</p>
+                      <strong className="text-black block font-bold">3. Electronic Messaging Screenshots:</strong>
+                      <p className="text-black">High-resolution screenshots of WhatsApp texts, SMS messages, fake arrest notices, or communications sent to family members.</p>
                     </div>
                     <div className="p-4 bg-gray-50 rounded-2xl border border-gray-200 space-y-1">
-                      <strong className="text-gray-900 block font-bold">4. CCTV &amp; Doorbell Video Footage:</strong>
-                      <p className="text-gray-600">Video footage from society entry gates, building corridors, or video doorbells showing the agents&apos; arrival, number of personnel, and aggressive conduct.</p>
+                      <strong className="text-black block font-bold">4. CCTV &amp; Doorbell Video Footage:</strong>
+                      <p className="text-black">Video footage from society entry gates, building corridors, or video doorbells showing the agents&apos; arrival, number of personnel, and aggressive conduct.</p>
                     </div>
                   </div>
                 </div>
@@ -2122,10 +2121,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 39
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   39. How to Record and Document Recovery Agent Misconduct Legally
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     <strong>Is call recording legal in India?</strong> Yes, 100% legal. Under Indian evidence law, recording a conversation in which you are an active participant is fully permissible and admissible as electronic evidence under Section 63 of the <strong>Bharatiya Sakshya Adhiniyam, 2023 (BSA)</strong> (formerly Section 65B of the Indian Evidence Act).
                   </p>
@@ -2138,7 +2137,7 @@ export default function RBIRulesClient() {
                     <li>Specific words spoken, threats made, or demands for immediate cash payment.</li>
                     <li>The corresponding raw audio file stored in a dedicated secure cloud folder.</li>
                   </ul>
-                  <p className="text-xs text-gray-600">
+                  <p className="text-xs text-black">
                     <em>Pro Tip:</em> Do not edit, trim, or filter audio recordings. Preserving the raw, unedited file with original file metadata ensures maximum evidentiary admissibility under Section 63 BSA.
                   </p>
                 </div>
@@ -2151,10 +2150,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 40
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   40. How to Complain Against a Recovery Agent: Three-Tier Escalation Hierarchy
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     When a debt recovery agent transgresses statutory boundaries—by calling during prohibited nocturnal hours, hurling verbal profanities, trespassing upon private premises, or contacting non-guarantor third parties—the borrower holds powerful legal recourse. However, navigating grievance redressal requires strict adherence to the <strong>Reserve Bank of India&apos;s Three-Tier Escalation Hierarchy</strong>.
                   </p>
@@ -2224,14 +2223,14 @@ export default function RBIRulesClient() {
                   <div className="overflow-x-auto my-4">
                     <table className="w-full text-left border-collapse text-xs sm:text-sm">
                       <thead>
-                        <tr className="bg-gray-100 text-gray-900 border-b border-gray-300">
+                        <tr className="bg-gray-100 text-black border-b border-gray-300">
                           <th className="p-3 font-bold">Escalation Tier</th>
                           <th className="p-3 font-bold">Appropriate Forum</th>
                           <th className="p-3 font-bold">Response Window</th>
                           <th className="p-3 font-bold">Key Remedy Available</th>
                         </tr>
                       </thead>
-                      <tbody className="divide-y divide-gray-200 text-gray-700">
+                      <tbody className="divide-y divide-gray-200 text-black">
                         <tr className="hover:bg-gray-50">
                           <td className="p-3 font-semibold text-blue-900">Tier 1: Branch / GRO</td>
                           <td className="p-3">Home Branch Manager &amp; Regional Grievance Officer</td>
@@ -2269,10 +2268,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 41
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   41. How to Complain to the Bank or NBFC: Formal Complaint Template &amp; Statutory Procedure
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     When submitting a grievance to a bank, informal phone conversations with customer care executives are largely futile. Call center representatives often close complaints as &quot;clarification provided&quot; without initiating substantive inquiry. To establish an unassailable legal paper trail, your grievance must be served through <strong>Registered Post with Acknowledgment Due (RPAD)</strong> and parallelly transmitted via the bank&apos;s verified Principal Nodal Officer email address.
                   </p>
@@ -2336,10 +2335,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 42
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   42. RBI Complaint Process Against Recovery Agents: Step-by-Step CMS Guide
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     The Reserve Bank of India operates the centralized <strong>Complaint Management System (CMS)</strong> at <strong>cms.rbi.org.in</strong>. This digital platform bypasses regional bureaucracy, providing Indian borrowers with a direct electronic conduit to hold commercial banks, NBFCs, and primary urban co-operative banks legally accountable.
                   </p>
@@ -2351,9 +2350,9 @@ export default function RBIRulesClient() {
                     <div className="p-4 bg-white border border-gray-200 rounded-2xl shadow-2xs space-y-1.5">
                       <div className="flex items-center gap-2">
                         <span className="w-6 h-6 rounded-full bg-blue-600 text-white font-bold text-xs flex items-center justify-center">1</span>
-                        <h4 className="font-bold text-gray-900 text-sm sm:text-base">Navigate to the Official Portal &amp; Verify Identity</h4>
+                        <h4 className="font-bold text-black text-sm sm:text-base">Navigate to the Official Portal &amp; Verify Identity</h4>
                       </div>
-                      <p className="text-xs sm:text-sm text-gray-600 pl-8">
+                      <p className="text-xs sm:text-sm text-black pl-8">
                         Visit <strong>https://cms.rbi.org.in</strong> and select <em>&quot;File a Complaint&quot;</em>. Enter your registered mobile number to receive an Aadhaar/mobile OTP verification. Never use third-party intermediary websites or unofficial grievance portals.
                       </p>
                     </div>
@@ -2361,9 +2360,9 @@ export default function RBIRulesClient() {
                     <div className="p-4 bg-white border border-gray-200 rounded-2xl shadow-2xs space-y-1.5">
                       <div className="flex items-center gap-2">
                         <span className="w-6 h-6 rounded-full bg-blue-600 text-white font-bold text-xs flex items-center justify-center">2</span>
-                        <h4 className="font-bold text-gray-900 text-sm sm:text-base">Select the Regulated Entity (Lender Classification)</h4>
+                        <h4 className="font-bold text-black text-sm sm:text-base">Select the Regulated Entity (Lender Classification)</h4>
                       </div>
-                      <p className="text-xs sm:text-sm text-gray-600 pl-8">
+                      <p className="text-xs sm:text-sm text-black pl-8">
                         Select the correct institutional tier: <em>Scheduled Commercial Bank (Public or Private)</em>, <em>Non-Banking Financial Company (NBFC)</em>, <em>Small Finance Bank</em>, or <em>Asset Reconstruction Company (ARC)</em>. Enter the specific branch name and your loan or credit card account number.
                       </p>
                     </div>
@@ -2371,9 +2370,9 @@ export default function RBIRulesClient() {
                     <div className="p-4 bg-white border border-gray-200 rounded-2xl shadow-2xs space-y-1.5">
                       <div className="flex items-center gap-2">
                         <span className="w-6 h-6 rounded-full bg-blue-600 text-white font-bold text-xs flex items-center justify-center">3</span>
-                        <h4 className="font-bold text-gray-900 text-sm sm:text-base">Accurately Classify the Grievance Category</h4>
+                        <h4 className="font-bold text-black text-sm sm:text-base">Accurately Classify the Grievance Category</h4>
                       </div>
-                      <p className="text-xs sm:text-sm text-gray-600 pl-8">
+                      <p className="text-xs sm:text-sm text-black pl-8">
                         Under the primary category drop-down, select <strong>&quot;Loans and Advances&quot;</strong>. In the sub-category drop-down, specifically choose <strong>&quot;Recovery Agent Conduct / Harassment / Unfair Recovery Practices&quot;</strong>. Selecting generic customer service categories will route your complaint to standard dispute queues instead of the specialized ombudsman recovery cell.
                       </p>
                     </div>
@@ -2381,9 +2380,9 @@ export default function RBIRulesClient() {
                     <div className="p-4 bg-white border border-gray-200 rounded-2xl shadow-2xs space-y-1.5">
                       <div className="flex items-center gap-2">
                         <span className="w-6 h-6 rounded-full bg-blue-600 text-white font-bold text-xs flex items-center justify-center">4</span>
-                        <h4 className="font-bold text-gray-900 text-sm sm:text-base">Upload the Fortified Evidence Dossier (PDF &amp; Audio)</h4>
+                        <h4 className="font-bold text-black text-sm sm:text-base">Upload the Fortified Evidence Dossier (PDF &amp; Audio)</h4>
                       </div>
-                      <p className="text-xs sm:text-sm text-gray-600 pl-8">
+                      <p className="text-xs sm:text-sm text-black pl-8">
                         Attach a single comprehensive PDF dossier containing: (a) Your Tier 1 complaint copy with India Post RPAD delivery proof or bank email acknowledgment ticket, (b) Bank&apos;s unsatisfactory reply or proof that 30 days have elapsed, (c) Telecom CDR call logs, and (d) Transcript of abusive call recordings. Audio files can be uploaded or provided via an authenticated cloud hyperlink.
                       </p>
                     </div>
@@ -2391,9 +2390,9 @@ export default function RBIRulesClient() {
                     <div className="p-4 bg-white border border-gray-200 rounded-2xl shadow-2xs space-y-1.5">
                       <div className="flex items-center gap-2">
                         <span className="w-6 h-6 rounded-full bg-blue-600 text-white font-bold text-xs flex items-center justify-center">5</span>
-                        <h4 className="font-bold text-gray-900 text-sm sm:text-base">Obtain CMS Tracking Number &amp; Monitor Conciliation</h4>
+                        <h4 className="font-bold text-black text-sm sm:text-base">Obtain CMS Tracking Number &amp; Monitor Conciliation</h4>
                       </div>
-                      <p className="text-xs sm:text-sm text-gray-600 pl-8">
+                      <p className="text-xs sm:text-sm text-black pl-8">
                         Upon submission, you receive an official CMS Complaint Reference Number (e.g., <em>CMS/2026/XXXXXX</em>). The Ombudsman office serves notice upon the bank&apos;s Principal Nodal Officer with a strict 14-day statutory deadline to furnish its defense, telecaller records, and internal voice audit files.
                       </p>
                     </div>
@@ -2408,10 +2407,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 43
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   43. The RBI Integrated Ombudsman Scheme (RB-IOS): Powers &amp; Compensation
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Notified on November 12, 2021, the <strong>Reserve Bank - Integrated Ombudsman Scheme (RB-IOS, 2021)</strong> amalgamated three erstwhile ombudsman schemes (Banking Ombudsman Scheme 2006, Ombudsman Scheme for NBFCs 2018, and Ombudsman Scheme for Digital Transactions 2019) into a unified, borderless regulatory tribunal operating under the doctrine of <em>&quot;One Nation One Ombudsman&quot;</em>.
                   </p>
@@ -2446,8 +2445,8 @@ export default function RBIRulesClient() {
                   </div>
 
                   <div className="p-4 bg-gray-50 border border-gray-200 rounded-2xl space-y-2 text-xs sm:text-sm">
-                    <strong className="text-gray-900 block font-bold">Binding Nature of Ombudsman Awards &amp; Appellate Mechanism:</strong>
-                    <p className="text-gray-600">
+                    <strong className="text-black block font-bold">Binding Nature of Ombudsman Awards &amp; Appellate Mechanism:</strong>
+                    <p className="text-black">
                       An Award passed by the Banking Ombudsman is <strong>strictly binding upon the lending institution</strong>. The bank has no option to ignore it and must comply within 30 days of the complainant issuing their acceptance. If the bank seeks to challenge the award, it can only file an appeal before the <strong>Executive Director of the Reserve Bank of India</strong> (the designated Appellate Authority) within 30 days, but only after satisfying strict conditions. If the complainant is dissatisfied with the compensation awarded, they retain complete freedom to reject the award and pursue full damages before the Consumer Commission or Civil Court.
                     </p>
                   </div>
@@ -2461,10 +2460,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 44
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   44. When to Approach the Police: Criminal Violations vs Civil Disputes
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     One of the most dangerous misconceptions held by debt-stressed citizens is that the police can be called by banks to arrest them for unpaid loans. Under Indian jurisprudence, <strong>defaulting on an unsecured personal loan or credit card is strictly a civil breach of contract</strong> governed by the <em>Indian Contract Act, 1872</em>. It is not an offense under the penal code, and police officers possess zero statutory jurisdiction to summon borrowers or mediate debt repayments.
                   </p>
@@ -2520,8 +2519,8 @@ export default function RBIRulesClient() {
                   </div>
 
                   <div className="p-4 bg-gray-50 border border-gray-300 rounded-2xl space-y-2 text-xs sm:text-sm">
-                    <strong className="text-gray-900 block font-bold">Procedural Rights Under Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS):</strong>
-                    <ul className="list-disc pl-5 space-y-1 text-gray-700 text-xs">
+                    <strong className="text-black block font-bold">Procedural Rights Under Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS):</strong>
+                    <ul className="list-disc pl-5 space-y-1 text-black text-xs">
                       <li>
                         <strong>Mandatory FIR Registration (Section 173 BNSS):</strong> When information discloses the commission of a cognizable offense (assault, extortion, trespass), the Station House Officer (SHO) has no legal discretion and is mandated to register a formal First Information Report (FIR).
                       </li>
@@ -2543,10 +2542,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 45
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   45. Judicial Legal Remedies: Injunctions, Damages &amp; Quashing
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     When commercial lenders cross statutory lines, the Indian judicial system equips borrowers with powerful civil and constitutional remedies to halt harassment permanently and seek compensatory damages:
                   </p>
@@ -2557,10 +2556,10 @@ export default function RBIRulesClient() {
                       <span className="px-2.5 py-1 bg-blue-100 text-blue-800 text-[11px] font-bold rounded-md uppercase">
                         Civil Court Injunction
                       </span>
-                      <h4 className="text-sm sm:text-base font-bold text-gray-900">
+                      <h4 className="text-sm sm:text-base font-bold text-black">
                         Permanent &amp; Temporary Injunction Under Order 39 Rules 1 &amp; 2 CPC
                       </h4>
-                      <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                      <p className="text-xs sm:text-sm text-black leading-relaxed">
                         Borrowers facing persistent doorstep intimidation can file a Civil Suit before the City Civil Court or Senior Civil Judge seeking a <strong>Permanent Injunction</strong> restraining the bank, its directors, branch managers, collection agencies, and freelance telecallers from visiting the borrower&apos;s residence, office, or contacting family members. Courts routinely grant ad-interim ex-parte injunctions prohibiting lenders from deploying field agents within a 500-meter radius of the borrower&apos;s home.
                       </p>
                     </div>
@@ -2570,10 +2569,10 @@ export default function RBIRulesClient() {
                       <span className="px-2.5 py-1 bg-indigo-100 text-indigo-800 text-[11px] font-bold rounded-md uppercase">
                         Tortious Damages Suit
                       </span>
-                      <h4 className="text-sm sm:text-base font-bold text-gray-900">
+                      <h4 className="text-sm sm:text-base font-bold text-black">
                         Civil Suit for Damages for Defamation &amp; Intentional Infliction of Distress
                       </h4>
-                      <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                      <p className="text-xs sm:text-sm text-black leading-relaxed">
                         Under Indian tort law, a lender that damages a citizen&apos;s social reputation by shouting in residential societies, informing office employers, or circulating WhatsApp messages can be sued for <strong>Substantial Tortious Damages</strong>. Indian courts have awarded damages ranging from ₹5 Lakhs to ₹50 Lakhs for mental anguish, loss of livelihood, and loss of dignity resulting from unlawful recovery.
                       </p>
                     </div>
@@ -2583,10 +2582,10 @@ export default function RBIRulesClient() {
                       <span className="px-2.5 py-1 bg-purple-100 text-purple-800 text-[11px] font-bold rounded-md uppercase">
                         Advocates Act Representation
                       </span>
-                      <h4 className="text-sm sm:text-base font-bold text-gray-900">
+                      <h4 className="text-sm sm:text-base font-bold text-black">
                         Formal Legal Representation Notice Under Advocates Act, 1961
                       </h4>
-                      <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                      <p className="text-xs sm:text-sm text-black leading-relaxed">
                         Under Section 30 of the <em>Advocates Act, 1961</em>, an enrolled advocate has the statutory right to represent clients across all forums. When CredSettle’s banking litigation advocates serve a formal <strong>Legal Representation &amp; Cease-and-Desist Notice</strong> upon the bank, the lender is legally mandated to direct all future correspondence solely to the advocate’s chamber. Any subsequent recovery agent visit or harassing call directly to the borrower constitutes contempt and actionable harassment.
                       </p>
                     </div>
@@ -2596,10 +2595,10 @@ export default function RBIRulesClient() {
                       <span className="px-2.5 py-1 bg-rose-100 text-rose-800 text-[11px] font-bold rounded-md uppercase">
                         High Court Constitutional Remedy
                       </span>
-                      <h4 className="text-sm sm:text-base font-bold text-gray-900">
+                      <h4 className="text-sm sm:text-base font-bold text-black">
                         Writ Petition Under Article 226 of the Constitution of India
                       </h4>
-                      <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                      <p className="text-xs sm:text-sm text-black leading-relaxed">
                         Where public sector banks or major private lenders violate fundamental human rights through organized musclemen, borrowers can petition their state High Court under Article 226 for a <strong>Writ of Mandamus</strong> directing the Reserve Bank of India to enforce its Master Circulars and hold the bank&apos;s managing director personally liable for contempt of constitutional liberty.
                       </p>
                     </div>
@@ -2614,10 +2613,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 46
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   46. Recovery Harassment and the Consumer Protection Act, 2019
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     The enactment of the <strong>Consumer Protection Act, 2019 (CPA 2019)</strong> transformed debt recovery litigation in India. Under Section 2(7) of the Act, any person who avails banking, credit card, or financial loan services is a statutory <strong>&quot;Consumer&quot;</strong>, and banking institutions are classified as service providers under Section 2(42).
                   </p>
@@ -2645,13 +2644,13 @@ export default function RBIRulesClient() {
                   <div className="overflow-x-auto my-4">
                     <table className="w-full text-left border-collapse text-xs sm:text-sm">
                       <thead>
-                        <tr className="bg-gray-100 text-gray-900 border-b border-gray-300">
+                        <tr className="bg-gray-100 text-black border-b border-gray-300">
                           <th className="p-3 font-bold">Consumer Commission Tier</th>
                           <th className="p-3 font-bold">Pecuniary Jurisdiction</th>
                           <th className="p-3 font-bold">Standard Resolution Timeline</th>
                         </tr>
                       </thead>
-                      <tbody className="divide-y divide-gray-200 text-gray-700">
+                      <tbody className="divide-y divide-gray-200 text-black">
                         <tr className="hover:bg-gray-50">
                           <td className="p-3 font-semibold text-blue-900">District Consumer Disputes Redressal Commission (DCDRC)</td>
                           <td className="p-3">Claims up to ₹50 Lakhs</td>
@@ -2680,10 +2679,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 47
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   47. Recovery Agent Harassment and Fundamental Privacy Rights
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     In the landmark 9-judge constitutional bench ruling in <em>Justice K.S. Puttaswamy (Retd.) v. Union of India (2017)</em>, the Supreme Court of India declared that the <strong>Right to Privacy is an inalienable Fundamental Right</strong> guaranteed under Article 21 of the Constitution of India. This constitutional doctrine directly governs financial debt collection.
                   </p>
@@ -2693,19 +2692,19 @@ export default function RBIRulesClient() {
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
                     <div className="p-4 sm:p-5 bg-white border border-gray-200 rounded-2xl shadow-2xs space-y-2">
-                      <strong className="text-gray-900 font-bold block text-sm sm:text-base">
+                      <strong className="text-black font-bold block text-sm sm:text-base">
                         1. Fiduciary Data Breach Liability
                       </strong>
-                      <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                      <p className="text-xs sm:text-sm text-black leading-relaxed">
                         Under the DPDP Act, 2023, lending institutions are classified as <strong>&quot;Data Fiduciaries&quot;</strong> and recovery agencies as <strong>&quot;Data Processors&quot;</strong>. Banks that disclose unencrypted customer contact lists, PAN numbers, Aadhaar details, or financial balances to unvetted recovery freelancers commit catastrophic regulatory data breaches subject to fines up to <strong>₹250 Crores</strong> imposed by the Data Protection Board of India.
                       </p>
                     </div>
 
                     <div className="p-4 sm:p-5 bg-white border border-gray-200 rounded-2xl shadow-2xs space-y-2">
-                      <strong className="text-gray-900 font-bold block text-sm sm:text-base">
+                      <strong className="text-black font-bold block text-sm sm:text-base">
                         2. Prohibition on Third-Party Data Scraping
                       </strong>
-                      <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                      <p className="text-xs sm:text-sm text-black leading-relaxed">
                         Lending entities and recovery agencies are strictly barred from accessing, scraping, or utilizing phone contact books, social media profiles (LinkedIn, Instagram, Facebook), or employer internal directories to track delinquent borrowers. Any attempt to contact a borrower&apos;s professional contacts constitutes actionable cyberstalking and tortious interference.
                       </p>
                     </div>
@@ -2727,47 +2726,47 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 48
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   48. Legal Consequences for Errant Banks &amp; Misconducting Agents
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     When recovery misconduct is formally substantiated before regulatory or judicial authorities, the punitive consequences inflicted upon banks and collection agencies are severe and multifaceted:
                   </p>
 
                   <div className="space-y-3 sm:space-y-4 my-4">
                     <div className="p-4 bg-gray-50 border border-gray-200 rounded-2xl space-y-1.5">
-                      <strong className="text-gray-900 font-bold block text-sm sm:text-base">
+                      <strong className="text-black font-bold block text-sm sm:text-base">
                         1. RBI Regional Ban on Outsourced Debt Recovery (Paragraph 2.6):
                       </strong>
-                      <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                      <p className="text-xs sm:text-sm text-black leading-relaxed">
                         Under Paragraph 2.6 of the Master Circular on Recovery Agents in Banks, if the Reserve Bank observes persistent complaints of harassment or coercive recovery against a particular bank or NBFC, the central bank holds the statutory power to <strong>impose an outright ban prohibiting the bank from engaging recovery agents</strong> in that specific city, district, or state for a specified period (typically 6 months to 1 year). During this ban, the lender cannot deploy a single field recovery agent.
                       </p>
                     </div>
 
                     <div className="p-4 bg-gray-50 border border-gray-200 rounded-2xl space-y-1.5">
-                      <strong className="text-gray-900 font-bold block text-sm sm:text-base">
+                      <strong className="text-black font-bold block text-sm sm:text-base">
                         2. Permanent Blacklisting on the IBA Central Database:
                       </strong>
-                      <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                      <p className="text-xs sm:text-sm text-black leading-relaxed">
                         Any collection agency whose personnel are found guilty of physical intimidation, abusive profanity, or police impersonation faces immediate termination of contract and permanent entry into the <strong>Indian Banks&apos; Association (IBA) Centralized Blacklist</strong>. Once blacklisted, the agency is permanently barred from securing recovery contracts with any public or private sector bank across India.
                       </p>
                     </div>
 
                     <div className="p-4 bg-gray-50 border border-gray-200 rounded-2xl space-y-1.5">
-                      <strong className="text-gray-900 font-bold block text-sm sm:text-base">
+                      <strong className="text-black font-bold block text-sm sm:text-base">
                         3. Multi-Crore RBI Compounding Penalties:
                       </strong>
-                      <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                      <p className="text-xs sm:text-sm text-black leading-relaxed">
                         Under Section 47A(1)(b) of the Banking Regulation Act, 1949, the Reserve Bank routinely imposes multi-crore monetary penalties on major commercial banks for non-compliance with the Outsourcing Guidelines and Fair Practices Code. In recent regulatory enforcement orders, major private and public banks have been slapped with penalties ranging from ₹1 Crore to ₹10+ Crores for unfair recovery practices.
                       </p>
                     </div>
 
                     <div className="p-4 bg-gray-50 border border-gray-200 rounded-2xl space-y-1.5">
-                      <strong className="text-gray-900 font-bold block text-sm sm:text-base">
+                      <strong className="text-black font-bold block text-sm sm:text-base">
                         4. Personal Criminal Culpability of Bank Executives:
                       </strong>
-                      <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                      <p className="text-xs sm:text-sm text-black leading-relaxed">
                         Under the doctrine of criminal conspiracy and abetment (Sections 45 &amp; 61 BNS), senior bank collection heads and regional managers cannot hide behind corporate veils. Where a bank knowingly deploys uncertified bouncers who commit criminal extortion or physical violence, the bank managers are named as co-accused in criminal FIRs alongside the physical recovery agents.
                       </p>
                     </div>
@@ -2782,10 +2781,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 49
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   49. Common Recovery Agent Harassment Scenarios &amp; Proven Defense Tactics
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Third-party recovery agencies frequently deploy calculated psychological intimidation playbooks designed to exploit a borrower&apos;s unfamiliarity with Indian banking law. Understanding the legal truth behind these predatory tactics strips the caller of power and provides you with immediate, scripted counter-measures:
                   </p>
@@ -2802,7 +2801,7 @@ export default function RBIRulesClient() {
                       <div className="p-3 bg-red-50/60 rounded-xl border border-red-100 text-xs sm:text-sm text-red-950">
                         <strong>The Agent&apos;s Threat:</strong> &quot;A non-bailable arrest warrant has been signed by the Magistrate. Our recovery team is arriving with the local Crime Branch police within 2 hours to detain you!&quot;
                       </div>
-                      <div className="text-xs sm:text-sm text-gray-700 space-y-1.5">
+                      <div className="text-xs sm:text-sm text-black space-y-1.5">
                         <p>
                           <strong>The Statutory Reality:</strong> Pure legal fraud. Purely civil debt defaults cannot trigger arrest warrants. Police officers cannot execute civil arrests without a formal decree issued by a competent Civil Court under Order 21 CPC after a full civil trial. Threatening arrest violates Section 351 BNS (Criminal Intimidation) and Section 204 BNS (Personating a Public Servant).
                         </p>
@@ -2823,7 +2822,7 @@ export default function RBIRulesClient() {
                       <div className="p-3 bg-amber-50/60 rounded-xl border border-amber-100 text-xs sm:text-sm text-amber-950">
                         <strong>The Agent&apos;s Threat:</strong> &quot;We are arriving with a recovery truck right now to seize your furniture, electronics, and vehicle, and we will lock your apartment!&quot;
                       </div>
-                      <div className="text-xs sm:text-sm text-gray-700 space-y-1.5">
+                      <div className="text-xs sm:text-sm text-black space-y-1.5">
                         <p>
                           <strong>The Statutory Reality:</strong> Unsecured loans and credit cards have no mortgage lien. Recovery agents have zero authority under SARFAESI or the Transfer of Property Act to attach, seize, or lock any personal property. Attempting to enter private property or seize items constitutes Criminal Trespass (Section 329 BNS) and Extortion / Robbery (Sections 308 &amp; 383 BNS).
                         </p>
@@ -2844,7 +2843,7 @@ export default function RBIRulesClient() {
                       <div className="p-3 bg-indigo-50/60 rounded-xl border border-indigo-100 text-xs sm:text-sm text-indigo-950">
                         <strong>The Agent&apos;s Threat:</strong> &quot;We are calling your HR director and company managing director to inform them of your fraud, freeze your salary, and get you terminated!&quot;
                       </div>
-                      <div className="text-xs sm:text-sm text-gray-700 space-y-1.5">
+                      <div className="text-xs sm:text-sm text-black space-y-1.5">
                         <p>
                           <strong>The Statutory Reality:</strong> Paragraph 2.4 of the RBI Master Circular strictly forbids contacting a borrower&apos;s employer or colleagues. Defaming an employee at their workplace constitutes Criminal Defamation under Section 356 BNS and actionable Tortious Interference with an Employment Contract, for which the bank can be sued for massive commercial damages.
                         </p>
@@ -2865,7 +2864,7 @@ export default function RBIRulesClient() {
                       <div className="p-3 bg-purple-50/60 rounded-xl border border-purple-100 text-xs sm:text-sm text-purple-950">
                         <strong>The Agent&apos;s Threat:</strong> &quot;We have your parents&apos; phone numbers. We will call them every 10 minutes and visit their home with society elders to shame your family!&quot;
                       </div>
-                      <div className="text-xs sm:text-sm text-gray-700 space-y-1.5">
+                      <div className="text-xs sm:text-sm text-black space-y-1.5">
                         <p>
                           <strong>The Statutory Reality:</strong> Non-guarantor family members have zero legal obligation for another adult&apos;s debts under the Indian Contract Act. Reaching out to relatives violates statutory confidentiality under Section 29 CICRA and triggers heavy penalties under the Maintenance and Welfare of Parents and Senior Citizens Act, 2007 if elderly relatives are harassed.
                         </p>
@@ -2886,7 +2885,7 @@ export default function RBIRulesClient() {
                       <div className="p-3 bg-emerald-50/60 rounded-xl border border-emerald-100 text-xs sm:text-sm text-emerald-950">
                         <strong>The Agent&apos;s Threat:</strong> &quot;I have special approval to close your ₹4 Lakh card balance for just ₹30,000 today. Send it right now to this UPI QR code and I will mark your loan closed in the system!&quot;
                       </div>
-                      <div className="text-xs sm:text-sm text-gray-700 space-y-1.5">
+                      <div className="text-xs sm:text-sm text-black space-y-1.5">
                         <p>
                           <strong>The Statutory Reality:</strong> A classic collection agent scam. Money transferred to a personal UPI ID, phone number, or unverified QR code goes straight into the agent&apos;s personal pocket. The bank never receives the funds, your loan remains delinquent, penal interest continues compounding, and your credit score continues plummeting.
                         </p>
@@ -2906,10 +2905,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 50
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   50. Frequently Asked Questions About RBI Recovery Agent Rules
                 </h2>
-                <p className="text-xs sm:text-sm text-gray-600 mb-4 leading-relaxed">
+                <p className="text-xs sm:text-sm text-black mb-4 leading-relaxed">
                   Below are detailed, authoritative legal answers to the 18 most critical questions asked by Indian borrowers regarding debt recovery agent rules, regulatory rights, statutory time windows, and legal defense strategies:
                 </p>
 
@@ -2939,7 +2938,7 @@ export default function RBIRulesClient() {
                           onClick={() => setExpandedFaq(isOpen ? null : idx)}
                           className="w-full text-left p-3.5 sm:p-4 flex items-center justify-between gap-3 hover:bg-gray-50/80 transition-colors"
                         >
-                          <span className="font-bold text-gray-900 text-xs sm:text-sm md:text-base leading-snug">
+                          <span className="font-bold text-black text-xs sm:text-sm md:text-base leading-snug">
                             {faq.question}
                           </span>
                           <span className="text-blue-600 font-bold text-lg sm:text-xl flex-shrink-0">
@@ -2947,7 +2946,7 @@ export default function RBIRulesClient() {
                           </span>
                         </button>
                         {isOpen && (
-                          <div className="p-3.5 sm:p-4 pt-0 text-xs sm:text-sm text-gray-700 leading-relaxed border-t border-gray-100 bg-gray-50/40">
+                          <div className="p-3.5 sm:p-4 pt-0 text-xs sm:text-sm text-black leading-relaxed border-t border-gray-100 bg-gray-50/40">
                             <p>{faq.answer}</p>
                           </div>
                         )}
@@ -2964,10 +2963,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 51
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   51. Latest RBI Rules and Policy Updates for Recovery Agents (2026 Edition)
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     As consumer lending digitizes across India, the Reserve Bank of India, in coordination with the Telecom Regulatory Authority of India (TRAI) and the Ministry of Electronics &amp; Information Technology (MeitY), has enacted unprecedented regulatory safeguards:
                   </p>
@@ -2977,9 +2976,9 @@ export default function RBIRulesClient() {
                     <div className="p-4 sm:p-5 bg-white border border-gray-200 rounded-2xl shadow-2xs space-y-1.5">
                       <div className="flex items-center gap-2">
                         <span className="px-2 py-0.5 bg-blue-600 text-white font-bold text-[10px] rounded uppercase">TRAI Mandate</span>
-                        <h4 className="font-bold text-gray-900 text-sm sm:text-base">TRAI &amp; DoT 160-Series Dedicated Telecalling Mandate</h4>
+                        <h4 className="font-bold text-black text-sm sm:text-base">TRAI &amp; DoT 160-Series Dedicated Telecalling Mandate</h4>
                       </div>
-                      <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                      <p className="text-xs sm:text-sm text-black leading-relaxed">
                         Under joint directives from TRAI and the Department of Telecommunications, all legitimate commercial banking and collection calls must originate strictly from the dedicated <strong>&apos;160&apos; series number block</strong> (e.g., <em>1600XXXXXX</em>). Financial institutions and outsourced agencies are strictly prohibited from making debt collection calls from standard 10-digit personal mobile numbers (e.g., 98XXXXXXXX, 99XXXXXXXX) or unregistered VoIP virtual numbers. Any recovery call originating from a non-160 series number can be immediately reported as unlawful telemarketing and cyber harassment.
                       </p>
                     </div>
@@ -2988,9 +2987,9 @@ export default function RBIRulesClient() {
                     <div className="p-4 sm:p-5 bg-white border border-gray-200 rounded-2xl shadow-2xs space-y-1.5">
                       <div className="flex items-center gap-2">
                         <span className="px-2 py-0.5 bg-indigo-600 text-white font-bold text-[10px] rounded uppercase">AI Surveillance</span>
-                        <h4 className="font-bold text-gray-900 text-sm sm:text-base">Mandatory AI-Powered Speech Analytics &amp; Voice Auditing</h4>
+                        <h4 className="font-bold text-black text-sm sm:text-base">Mandatory AI-Powered Speech Analytics &amp; Voice Auditing</h4>
                       </div>
-                      <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                      <p className="text-xs sm:text-sm text-black leading-relaxed">
                         The RBI mandates all Scheduled Commercial Banks and large NBFCs to deploy automated speech recognition and natural language processing (NLP) algorithms on 100% of outbound collection calls. These AI compliance engines automatically flag and log aggressive decibel levels, shouting, profanity, abusive vocabulary, and calls initiated outside the permitted 08:00 AM to 07:00 PM window, generating auditable compliance logs that must be submitted to RBI inspection teams.
                       </p>
                     </div>
@@ -2999,9 +2998,9 @@ export default function RBIRulesClient() {
                     <div className="p-4 sm:p-5 bg-white border border-gray-200 rounded-2xl shadow-2xs space-y-1.5">
                       <div className="flex items-center gap-2">
                         <span className="px-2 py-0.5 bg-purple-600 text-white font-bold text-[10px] rounded uppercase">Privacy Law</span>
-                        <h4 className="font-bold text-gray-900 text-sm sm:text-base">DPDP Act 2023 Enforcement: Penalties up to ₹250 Crores</h4>
+                        <h4 className="font-bold text-black text-sm sm:text-base">DPDP Act 2023 Enforcement: Penalties up to ₹250 Crores</h4>
                       </div>
-                      <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                      <p className="text-xs sm:text-sm text-black leading-relaxed">
                         With full operationalization of the <em>Digital Personal Data Protection Act, 2023</em>, lending institutions face statutory penalties of up to <strong>₹250 Crores</strong> for sharing customer phone records, loan arrears, or addresses with unverified collection vendors without valid consent. Borrowers can file complaints directly with the Data Protection Board of India for unauthorized data processing.
                       </p>
                     </div>
@@ -3010,9 +3009,9 @@ export default function RBIRulesClient() {
                     <div className="p-4 sm:p-5 bg-white border border-gray-200 rounded-2xl shadow-2xs space-y-1.5">
                       <div className="flex items-center gap-2">
                         <span className="px-2 py-0.5 bg-emerald-600 text-white font-bold text-[10px] rounded uppercase">Consumer Access</span>
-                        <h4 className="font-bold text-gray-900 text-sm sm:text-base">Mandatory Principal Nodal Officer Links on All Digital Notices</h4>
+                        <h4 className="font-bold text-black text-sm sm:text-base">Mandatory Principal Nodal Officer Links on All Digital Notices</h4>
                       </div>
-                      <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                      <p className="text-xs sm:text-sm text-black leading-relaxed">
                         Every automated repayment reminder, SMS notice, or WhatsApp alert dispatched by banks or collection agencies must incorporate a direct, clickable hyperlink routing the customer to the bank&apos;s Principal Nodal Officer complaint desk and the official RBI CMS portal (<em>cms.rbi.org.in</em>). Omitting this grievance link renders the digital notice legally defective under RBI customer service directives.
                       </p>
                     </div>
@@ -3021,9 +3020,9 @@ export default function RBIRulesClient() {
                     <div className="p-4 sm:p-5 bg-white border border-gray-200 rounded-2xl shadow-2xs space-y-1.5">
                       <div className="flex items-center gap-2">
                         <span className="px-2 py-0.5 bg-rose-600 text-white font-bold text-[10px] rounded uppercase">Cyber Crime</span>
-                        <h4 className="font-bold text-gray-900 text-sm sm:text-base">Criminalization of Digital Contact Scraping &amp; Morphing</h4>
+                        <h4 className="font-bold text-black text-sm sm:text-base">Criminalization of Digital Contact Scraping &amp; Morphing</h4>
                       </div>
-                      <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                      <p className="text-xs sm:text-sm text-black leading-relaxed">
                         The central bank&apos;s Digital Lending Guidelines strictly prohibit lending applications from requesting access to a user&apos;s contact book, photo gallery, or device storage. Attempting to message contacts or circulate morphed photos is classified as non-bailable cyber extortion punishable under Sections 66E, 67, and 67A of the Information Technology Act and Bharatiya Nyaya Sanhita, holding both app developers and lending executives criminally liable.
                       </p>
                     </div>
@@ -3038,10 +3037,10 @@ export default function RBIRulesClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   SECTION 52
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   52. Conclusion: Standing Tall Against Debt Harassment With CredSettle
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Navigating severe financial distress is an emotionally grueling trial, but <strong>experiencing financial hardship does not strip you of your constitutional liberty, personal dignity, or fundamental human rights</strong>. Defaulting on an unsecured personal loan or credit card is purely a civil disagreement between a citizen and a commercial enterprise—it is not a crime, and you are never at the mercy of predatory collection bouncers.
                   </p>
@@ -3112,60 +3111,56 @@ export default function RBIRulesClient() {
           </div>
 
           {/* Right Column: Sticky Conversion & Emergency Defense Card (15% Width) */}
-          <div className="lg:w-[15%] flex-shrink-0 hidden lg:block">
-            <div className="sticky top-20 space-y-4">
-
-              <div className="bg-white p-3.5 rounded-2xl shadow-sm border border-blue-200 text-center">
-                <span className="w-8 h-8 rounded-full bg-blue-100 text-blue-600 inline-flex items-center justify-center text-sm mb-2">
-                  🛡️
-                </span>
-                <h4 className="font-bold text-xs text-gray-900 mb-1">Stop Harassment Now</h4>
-                <p className="text-[10px] text-gray-600 mb-3 leading-tight">
-                  Cease-and-desist notices issued by advocates halt unlawful collection calls within 24–48 hours.
-                </p>
-                <Link
-                  href="/contact"
-                  className="block w-full bg-blue-600 text-white font-bold py-2 px-2 rounded-lg hover:bg-blue-700 transition-colors shadow-xs text-[11px]"
-                >
-                  Request Legal Callback
-                </Link>
-                <div className="mt-3 pt-2.5 border-t border-gray-100 text-[10px] text-gray-500 space-y-1 text-left">
-                  <p className="flex items-center gap-1"><span className="text-emerald-500 font-bold">✓</span> 100% Confidential</p>
-                  <p className="flex items-center gap-1"><span className="text-emerald-500 font-bold">✓</span> RBI Fair Code</p>
-                  <p className="flex items-center gap-1"><span className="text-emerald-500 font-bold">✓</span> High-Court Advocates</p>
-                </div>
+          <aside className="lg:w-[15%] flex-shrink-0 hidden lg:block sticky top-20 space-y-4">
+            <div className="bg-white p-3.5 rounded-2xl shadow-sm border border-blue-200 text-center">
+              <span className="w-8 h-8 rounded-full bg-blue-100 text-blue-600 inline-flex items-center justify-center text-sm mb-2">
+                🛡️
+              </span>
+              <h4 className="font-bold text-xs text-black mb-1">Stop Harassment Now</h4>
+              <p className="text-[10px] text-black mb-3 leading-tight">
+                Cease-and-desist notices issued by advocates halt unlawful collection calls within 24–48 hours.
+              </p>
+              <Link
+                href="/contact"
+                className="block w-full bg-blue-600 text-white font-bold py-2 px-2 rounded-lg hover:bg-blue-700 transition-colors shadow-xs text-[11px]"
+              >
+                Request Legal Callback
+              </Link>
+              <div className="mt-3 pt-2.5 border-t border-gray-100 text-[10px] text-black space-y-1 text-left">
+                <p className="flex items-center gap-1"><span className="text-emerald-500 font-bold">✓</span> 100% Confidential</p>
+                <p className="flex items-center gap-1"><span className="text-emerald-500 font-bold">✓</span> RBI Fair Code</p>
+                <p className="flex items-center gap-1"><span className="text-emerald-500 font-bold">✓</span> High-Court Advocates</p>
               </div>
-
-              {/* Diagnostic Quick Jump Badge */}
-              <div className="p-3 bg-slate-50 border border-slate-200 rounded-xl text-xs space-y-1 text-slate-700">
-                <span className="font-bold text-slate-900 block text-[11px]">Violation Checker</span>
-                <p className="text-[10px] text-slate-500 leading-tight">Check if your lender breached RBI calling hours or privacy rules.</p>
-                <a href="#harassment-violation-checker" className="text-[10px] text-blue-600 font-semibold block pt-1 hover:underline">Check Violations ↓</a>
-              </div>
-
-              {/* Official Regulatory Links */}
-              <div className="bg-blue-50/70 p-3 rounded-xl border border-blue-200 text-blue-950 text-xs space-y-1.5">
-                <strong className="block text-[11px] font-bold text-blue-900">Official Complaint Links</strong>
-                <a
-                  href="https://cms.rbi.org.in"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block text-[11px] text-blue-700 hover:underline"
-                >
-                  🔗 RBI CMS Portal (cms.rbi.org.in)
-                </a>
-                <a
-                  href="https://consumerhelpline.gov.in"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block text-[11px] text-blue-700 hover:underline"
-                >
-                  🔗 National Consumer Helpline
-                </a>
-              </div>
-
             </div>
-          </div>
+
+            {/* Diagnostic Quick Jump Badge */}
+            <div className="p-3 bg-slate-50 border border-slate-200 rounded-xl text-xs space-y-1 text-black">
+              <span className="font-bold text-black block text-[11px]">Violation Checker</span>
+              <p className="text-[10px] text-black leading-tight">Check if your lender breached RBI calling hours or privacy rules.</p>
+              <a href="#harassment-violation-checker" className="text-[10px] text-blue-600 font-semibold block pt-1 hover:underline">Check Violations ↓</a>
+            </div>
+
+            {/* Official Regulatory Links */}
+            <div className="bg-blue-50/70 p-3 rounded-xl border border-blue-200 text-blue-950 text-xs space-y-1.5">
+              <strong className="block text-[11px] font-bold text-blue-900">Official Complaint Links</strong>
+              <a
+                href="https://cms.rbi.org.in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-[11px] text-blue-700 hover:underline"
+              >
+                🔗 RBI CMS Portal (cms.rbi.org.in)
+              </a>
+              <a
+                href="https://consumerhelpline.gov.in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-[11px] text-blue-700 hover:underline"
+              >
+                🔗 National Consumer Helpline
+              </a>
+            </div>
+          </aside>
 
         </div>
       </div>
@@ -3194,14 +3189,17 @@ export default function RBIRulesClient() {
 
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          className="bg-white/90 hover:bg-white text-slate-800 border border-slate-200 text-xs font-bold p-2.5 rounded-full shadow-md active:scale-95 transition-transform flex items-center justify-center w-10 h-10"
+          className="bg-white/90 hover:bg-white text-black border border-slate-200 text-xs font-bold p-2.5 rounded-full shadow-md active:scale-95 transition-transform flex items-center justify-center w-10 h-10"
           aria-label="Scroll to Top"
         >
           <span>↑</span>
         </button>
       </div>
 
-      <Footer />
+      {/* Footer */}
+      <div className="relative z-20 mt-12 sm:mt-16 bg-white">
+        <Footer hideFunnel />
+      </div>
     </div>
   );
 }

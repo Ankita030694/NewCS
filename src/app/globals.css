@@ -122,3 +122,22 @@ div[style*="position: fixed"] {
   display: none; /* Chrome, Safari, Opera */
 }
 
+/* Custom sleek scrollbar for TOC and sticky sidebars */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(156, 163, 175, 0.5) transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(156, 163, 175, 0.5);
+  border-radius: 9999px;
+}
+

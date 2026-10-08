@@ -317,7 +317,7 @@ export default function LoanSettlementPageClient() {
       </div>
 
       {/* Main Content Layout */}
-      <div className="max-w-[1440px] mx-auto px-3 sm:px-4 py-4 sm:py-8">
+      <div className="w-full max-w-[1600px] xl:max-w-[1720px] 2xl:max-w-[1800px] mx-auto px-2 sm:px-4 md:px-6 py-4 sm:py-8">
         
         {/* Mobile Sticky Chapter Indicator & Dropdown Action Bar */}
         <div className="lg:hidden sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-gray-200 shadow-xs -mx-3 sm:-mx-4 px-3 sm:px-4 py-2 mb-4 sm:mb-6">
@@ -360,7 +360,7 @@ export default function LoanSettlementPageClient() {
                   className={`text-[10px] px-2.5 py-1 rounded-full whitespace-nowrap font-medium transition-all ${
                     hasActiveLink
                       ? 'bg-blue-600 text-white font-bold shadow-xs'
-                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                      : 'bg-gray-100 text-black hover:bg-gray-200'
                   }`}
                 >
                   M{idx + 1}: {m.moduleTitle.split(':')[1]?.trim() || m.moduleTitle}
@@ -386,11 +386,11 @@ export default function LoanSettlementPageClient() {
               <div className="p-4 border-b border-gray-100 flex items-center justify-between">
                 <div>
                   <span className="text-[10px] uppercase font-bold text-blue-600 tracking-wider">Quick Navigation</span>
-                  <h3 className="text-base font-bold text-gray-900">Table of Contents (25 Chapters)</h3>
+                  <h3 className="text-base font-bold text-black">Table of Contents (25 Chapters)</h3>
                 </div>
                 <button
                   onClick={() => setIsMobileTocOpen(false)}
-                  className="p-2 text-gray-400 hover:text-gray-700 hover:bg-gray-100 rounded-full transition-colors"
+                  className="p-2 text-gray-400 hover:text-black hover:bg-gray-100 rounded-full transition-colors"
                   aria-label="Close chapter menu"
                 >
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -419,7 +419,7 @@ export default function LoanSettlementPageClient() {
                   <button
                     onClick={() => setSelectedModule(null)}
                     className={`text-[11px] px-2.5 py-1 rounded-full whitespace-nowrap font-medium transition-colors ${
-                      selectedModule === null ? 'bg-blue-600 text-white font-bold' : 'bg-white text-gray-600 border border-gray-200'
+                      selectedModule === null ? 'bg-blue-600 text-white font-bold' : 'bg-white text-black border border-gray-200'
                     }`}
                   >
                     All (25)
@@ -429,7 +429,7 @@ export default function LoanSettlementPageClient() {
                       key={idx}
                       onClick={() => setSelectedModule(idx)}
                       className={`text-[11px] px-2.5 py-1 rounded-full whitespace-nowrap font-medium transition-colors ${
-                        selectedModule === idx ? 'bg-blue-600 text-white font-bold' : 'bg-white text-gray-600 border border-gray-200'
+                        selectedModule === idx ? 'bg-blue-600 text-white font-bold' : 'bg-white text-black border border-gray-200'
                       }`}
                     >
                       M{idx + 1}: {m.moduleTitle.split(':')[1]?.trim() || m.moduleTitle}
@@ -449,7 +449,7 @@ export default function LoanSettlementPageClient() {
                       className={`w-full text-left p-2.5 rounded-xl transition-all flex items-center justify-between text-xs ${
                         isActive
                           ? 'bg-blue-50 text-blue-700 font-bold border border-blue-200'
-                          : 'text-gray-700 hover:bg-gray-50 active:bg-gray-100'
+                          : 'text-black hover:bg-gray-50 active:bg-gray-100'
                       }`}
                     >
                       <span className="leading-snug pr-2">{link.label}</span>
@@ -463,21 +463,20 @@ export default function LoanSettlementPageClient() {
           </div>
         )}
 
-        <div className="flex flex-col lg:flex-row gap-4 xl:gap-6">
+        <div className="flex flex-col lg:flex-row gap-4 xl:gap-6 items-start">
           
           {/* Left Column: Categorized Table of Contents (15% Desktop Sticky) */}
-          <div className="lg:w-[15%] flex-shrink-0 hidden lg:block">
-            <div className="sticky top-20 max-h-[88vh] overflow-y-auto pr-1 space-y-3 custom-scrollbar">
+          <aside className="lg:w-[15%] flex-shrink-0 hidden lg:block sticky top-20 max-h-[calc(100vh-5.5rem)] flex flex-col space-y-2.5">
               <div className="bg-white p-3.5 rounded-2xl shadow-sm border border-gray-200">
                 <div className="flex items-center justify-between border-b pb-2.5 mb-2.5">
-                  <h3 className="font-bold text-gray-900 text-xs">Table of Contents</h3>
+                  <h3 className="font-bold text-black text-xs">Table of Contents</h3>
                   <span className="text-[10px] bg-blue-100 text-blue-700 font-bold px-1.5 py-0.5 rounded-full">25</span>
                 </div>
 
                 <div className="space-y-3">
                   {navModules.map((module, mIdx) => (
                     <div key={mIdx} className="space-y-1">
-                      <p className="text-[10px] font-extrabold uppercase tracking-wider text-gray-400 px-1 py-0.5">
+                      <p className="text-[10px] font-extrabold uppercase tracking-wider text-black px-1 py-0.5">
                         {module.moduleTitle.replace('Module ', 'M')}
                       </p>
                       <nav className="space-y-0.5">
@@ -490,7 +489,7 @@ export default function LoanSettlementPageClient() {
                               className={`block text-[11px] transition-all duration-150 px-2 py-1 rounded-md leading-tight ${
                                 isActive
                                   ? 'bg-blue-600 text-white font-semibold shadow-xs'
-                                  : 'text-gray-600 hover:text-blue-700 hover:bg-blue-50'
+                                  : 'text-black hover:text-blue-700 hover:bg-blue-50'
                               }`}
                               onClick={(e) => {
                                 e.preventDefault();
@@ -523,22 +522,21 @@ export default function LoanSettlementPageClient() {
                   Consult Advocate
                 </Link>
               </div>
-            </div>
-          </div>
+          </aside>
 
           {/* Middle Column: Master 25-Section Editorial Guide (70% Width) */}
-          <div className="lg:w-[70%] w-full min-w-0">
-            <article className="prose prose-slate max-w-none bg-white p-3.5 sm:p-6 md:p-10 rounded-2xl sm:rounded-3xl shadow-xs sm:shadow-sm border border-gray-200/80 space-y-8 sm:space-y-12 overflow-hidden">
+          <div className="lg:w-[70%] flex-1 min-w-0">
+            <article className="bg-white p-4 sm:p-6 md:p-8 rounded-2xl sm:rounded-3xl shadow-xs sm:shadow-sm border border-gray-200/90 space-y-8 sm:space-y-12 overflow-hidden text-black">
 
               {/* 1. Introduction to Loan Settlement */}
               <section id="introduction" className="scroll-section scroll-mt-28">
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   CHAPTER 1
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   1. Introduction to Loan Settlement in India
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     <strong>Loan settlement</strong>—commonly referred to in Indian banking as a <strong>One-Time Settlement (OTS)</strong> or compromise settlement—is a legally recognized process where a borrower unable to service their debt negotiates with a lender (bank or NBFC) to pay an agreed lump-sum amount lower than the total ledger balance. Upon realization of this agreed amount, the lender forgives the residual balance and considers the obligation fully discharged.
                   </p>
@@ -547,8 +545,8 @@ export default function LoanSettlementPageClient() {
                   </p>
 
                   <div className="bg-slate-50 border-l-4 border-blue-600 p-3 sm:p-4 rounded-r-xl my-4 text-xs sm:text-sm space-y-2">
-                    <p className="font-semibold text-gray-900">Critical Terminological Distinctions:</p>
-                    <ul className="list-disc pl-5 space-y-1.5 text-gray-600">
+                    <p className="font-semibold text-black">Critical Terminological Distinctions:</p>
+                    <ul className="list-disc pl-5 space-y-1.5 text-black">
                       <li><strong>Loan Settlement vs Loan Repayment:</strong> In standard repayment, the borrower pays 100% of the principal and accrued interest as per the loan schedule. In settlement, the bank waives a portion of principal and penal interest, closing the account with a partial payment.</li>
                       <li><strong>Loan Settlement vs Loan Waiver:</strong> A loan waiver is typically a government-subsidized scheme (such as agricultural debt relief) where the government reimburses banks. In a loan settlement, the private lender voluntarily takes a commercial loss (haircut) based on its own recovery calculations.</li>
                       <li><strong>Loan Settlement vs Loan Restructuring:</strong> Restructuring adjusts loan tenures, lowers interest rates, or adds a moratorium without forgiving principal dues. Settlement permanently extinguishes the loan account with a one-time discounted payment.</li>
@@ -567,10 +565,10 @@ export default function LoanSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   CHAPTER 2
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   2. How Loan Settlement Works: Step-by-Step Procedure
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     A standard compromise settlement does not occur overnight. It progresses through a structured regulatory sequence governed by the lender&apos;s internal Recovery Policy and RBI circulars:
                   </p>
@@ -578,38 +576,38 @@ export default function LoanSettlementPageClient() {
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 my-4 sm:my-6">
                     <div className="p-3.5 sm:p-4 bg-gray-50 rounded-xl border border-gray-200">
                       <span className="w-7 h-7 rounded-full bg-blue-600 text-white font-bold inline-flex items-center justify-center text-xs mb-2">1</span>
-                      <h3 className="font-bold text-gray-900 text-xs sm:text-sm mb-1">Dues &amp; Hardship Assessment</h3>
-                      <p className="text-xs text-gray-600">Comprehensive audit of actual principal, normal interest, penal charges, and assembly of incontrovertible medical, employment, or revenue loss records.</p>
+                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Dues &amp; Hardship Assessment</h3>
+                      <p className="text-xs text-black">Comprehensive audit of actual principal, normal interest, penal charges, and assembly of incontrovertible medical, employment, or revenue loss records.</p>
                     </div>
 
                     <div className="p-3.5 sm:p-4 bg-gray-50 rounded-xl border border-gray-200">
                       <span className="w-7 h-7 rounded-full bg-blue-600 text-white font-bold inline-flex items-center justify-center text-xs mb-2">2</span>
-                      <h3 className="font-bold text-gray-900 text-xs sm:text-sm mb-1">Formal Representation</h3>
-                      <p className="text-xs text-gray-600">Submitting a formal hardship letter and compromise proposal to the bank branch or Stressed Asset Recovery Branch (SARB) offering a realistic lump-sum.</p>
+                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Formal Representation</h3>
+                      <p className="text-xs text-black">Submitting a formal hardship letter and compromise proposal to the bank branch or Stressed Asset Recovery Branch (SARB) offering a realistic lump-sum.</p>
                     </div>
 
                     <div className="p-3.5 sm:p-4 bg-gray-50 rounded-xl border border-gray-200">
                       <span className="w-7 h-7 rounded-full bg-blue-600 text-white font-bold inline-flex items-center justify-center text-xs mb-2">3</span>
-                      <h3 className="font-bold text-gray-900 text-xs sm:text-sm mb-1">Committee Negotiation</h3>
-                      <p className="text-xs text-gray-600">Bank&apos;s internal Settlement Advisory Committee evaluates liquidation value vs legal recovery costs and issues terms.</p>
+                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Committee Negotiation</h3>
+                      <p className="text-xs text-black">Bank&apos;s internal Settlement Advisory Committee evaluates liquidation value vs legal recovery costs and issues terms.</p>
                     </div>
 
                     <div className="p-3.5 sm:p-4 bg-gray-50 rounded-xl border border-gray-200">
                       <span className="w-7 h-7 rounded-full bg-blue-600 text-white font-bold inline-flex items-center justify-center text-xs mb-2">4</span>
-                      <h3 className="font-bold text-gray-900 text-xs sm:text-sm mb-1">Written Settlement Sanction</h3>
-                      <p className="text-xs text-gray-600">Lender issues a formal written approval letter specifying the agreed sum, due dates, and closure clauses.</p>
+                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Written Settlement Sanction</h3>
+                      <p className="text-xs text-black">Lender issues a formal written approval letter specifying the agreed sum, due dates, and closure clauses.</p>
                     </div>
 
                     <div className="p-3.5 sm:p-4 bg-gray-50 rounded-xl border border-gray-200">
                       <span className="w-7 h-7 rounded-full bg-blue-600 text-white font-bold inline-flex items-center justify-center text-xs mb-2">5</span>
-                      <h3 className="font-bold text-gray-900 text-xs sm:text-sm mb-1">Payment Execution</h3>
-                      <p className="text-xs text-gray-600">Remittance executed strictly via authorized banking channels (NEFT/RTGS/Official payment gateway) credited directly to the loan account.</p>
+                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Payment Execution</h3>
+                      <p className="text-xs text-black">Remittance executed strictly via authorized banking channels (NEFT/RTGS/Official payment gateway) credited directly to the loan account.</p>
                     </div>
 
                     <div className="p-3.5 sm:p-4 bg-gray-50 rounded-xl border border-gray-200">
                       <span className="w-7 h-7 rounded-full bg-blue-600 text-white font-bold inline-flex items-center justify-center text-xs mb-2">6</span>
-                      <h3 className="font-bold text-gray-900 text-xs sm:text-sm mb-1">NOC &amp; Bureau Update</h3>
-                      <p className="text-xs text-gray-600">Lender issues a No Dues Certificate (NOC) and reports the account as &apos;Settled&apos; to CIBIL, Equifax, Experian, and CRIF High Mark.</p>
+                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">NOC &amp; Bureau Update</h3>
+                      <p className="text-xs text-black">Lender issues a No Dues Certificate (NOC) and reports the account as &apos;Settled&apos; to CIBIL, Equifax, Experian, and CRIF High Mark.</p>
                     </div>
                   </div>
 
@@ -618,7 +616,7 @@ export default function LoanSettlementPageClient() {
                     <div className="flex flex-wrap items-center justify-between gap-2 mb-2 sm:mb-3">
                       <div>
                         <span className="text-[10px] sm:text-[11px] font-bold text-blue-600 uppercase tracking-wider block">Visual Roadmap</span>
-                        <h3 className="text-sm sm:text-base font-bold text-gray-900">5-Step Loan Settlement Process in India</h3>
+                        <h3 className="text-sm sm:text-base font-bold text-black">5-Step Loan Settlement Process in India</h3>
                       </div>
                       <span className="text-[10px] bg-blue-100 text-blue-800 font-semibold px-2 py-0.5 rounded-full">
                         RBI Compliant
@@ -646,15 +644,15 @@ export default function LoanSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   CHAPTER 3
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   3. Who Can Opt for Loan Settlement? Eligibility Realities
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Banks and NBFCs in India do not grant compromise settlements simply upon request. Lenders conduct diligence to distinguish between a <strong>genuine distressed borrower</strong> and a <strong>willful defaulter</strong>.
                   </p>
                   <p>Lenders actively consider settlement applications under the following circumstances:</p>
-                  <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-gray-700">
+                  <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-black">
                     <li><strong>Loss of Employment or Primary Income:</strong> Involuntary layoff, downsizing, or company shutdown supported by termination letters and non-salary bank statements.</li>
                     <li><strong>Catastrophic Medical Emergencies:</strong> Life-threatening illnesses, major surgeries, or prolonged treatments of the borrower or direct dependents that consumed family savings.</li>
                     <li><strong>Business Failure &amp; Commercial Distress:</strong> Micro, small, or medium enterprise (MSME) closure, loss of key contracts, or insolvency.</li>
@@ -672,10 +670,10 @@ export default function LoanSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   CHAPTER 4
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   4. Types of Loans That Can Be Settled in India
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     The viability of a loan settlement depends heavily on whether the underlying loan is <strong>unsecured</strong> or <strong>secured</strong>.
                   </p>
@@ -694,39 +692,39 @@ export default function LoanSettlementPageClient() {
                           <th className="p-2.5 sm:p-3 border-b">Typical Haircut / Waiver</th>
                         </tr>
                       </thead>
-                      <tbody className="divide-y divide-gray-200 text-gray-700">
+                      <tbody className="divide-y divide-gray-200 text-black">
                         <tr>
-                          <td className="p-2.5 sm:p-3 font-semibold text-gray-900">Credit Card Dues</td>
+                          <td className="p-2.5 sm:p-3 font-semibold text-black">Credit Card Dues</td>
                           <td className="p-2.5 sm:p-3">Unsecured</td>
                           <td className="p-2.5 sm:p-3 text-emerald-700 font-semibold">Very High</td>
                           <td className="p-2.5 sm:p-3">40% – 70% of total balance (waiver of penal charges + interest)</td>
                         </tr>
                         <tr>
-                          <td className="p-2.5 sm:p-3 font-semibold text-gray-900">Personal Loans</td>
+                          <td className="p-2.5 sm:p-3 font-semibold text-black">Personal Loans</td>
                           <td className="p-2.5 sm:p-3">Unsecured</td>
                           <td className="p-2.5 sm:p-3 text-emerald-700 font-semibold">High</td>
                           <td className="p-2.5 sm:p-3">30% – 60% of total ledger balance</td>
                         </tr>
                         <tr>
-                          <td className="p-2.5 sm:p-3 font-semibold text-gray-900">NBFC / Instant App Loans</td>
+                          <td className="p-2.5 sm:p-3 font-semibold text-black">NBFC / Instant App Loans</td>
                           <td className="p-2.5 sm:p-3">Unsecured</td>
                           <td className="p-2.5 sm:p-3 text-emerald-700 font-semibold">High</td>
                           <td className="p-2.5 sm:p-3">40% – 65% depending on platform and vintage</td>
                         </tr>
                         <tr>
-                          <td className="p-2.5 sm:p-3 font-semibold text-gray-900">Unsecured Business Loans</td>
+                          <td className="p-2.5 sm:p-3 font-semibold text-black">Unsecured Business Loans</td>
                           <td className="p-2.5 sm:p-3">Unsecured / Personal Guarantee</td>
                           <td className="p-2.5 sm:p-3 text-blue-700 font-semibold">Moderate to High</td>
                           <td className="p-2.5 sm:p-3">25% – 50% subject to financial audit</td>
                         </tr>
                         <tr>
-                          <td className="p-2.5 sm:p-3 font-semibold text-gray-900">Vehicle / Auto Loans</td>
+                          <td className="p-2.5 sm:p-3 font-semibold text-black">Vehicle / Auto Loans</td>
                           <td className="p-2.5 sm:p-3">Secured (Hypothecated Vehicle)</td>
                           <td className="p-2.5 sm:p-3 text-amber-700 font-semibold">Conditional</td>
                           <td className="p-2.5 sm:p-3">Settlement generally limited to deficiency balance post-repossession</td>
                         </tr>
                         <tr>
-                          <td className="p-2.5 sm:p-3 font-semibold text-gray-900">Home Loans / Mortgages</td>
+                          <td className="p-2.5 sm:p-3 font-semibold text-black">Home Loans / Mortgages</td>
                           <td className="p-2.5 sm:p-3">Secured (Immovable Property)</td>
                           <td className="p-2.5 sm:p-3 text-rose-700 font-semibold">Very Low</td>
                           <td className="p-2.5 sm:p-3">Lenders invoke SARFAESI Act to auction property rather than give large haircuts</td>
@@ -742,10 +740,10 @@ export default function LoanSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   CHAPTER 5
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   5. Loan Settlement vs Loan Restructuring
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Borrowers in distress must evaluate whether to seek a loan restructuring or a compromise settlement. Both address default risk, but their financial mechanics and bureau repercussions are fundamentally different.
                   </p>
@@ -800,13 +798,13 @@ export default function LoanSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   CHAPTER 6
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   6. RBI Guidelines on Compromise Settlements &amp; Technical Write-offs
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     On <strong>June 8, 2023</strong>, the Reserve Bank of India issued its landmark circular 
-                    <span className="font-semibold text-gray-900"> DOR.STR.REC.20/21.04.048/2023-24</span> entitled 
+                    <span className="font-semibold text-black"> DOR.STR.REC.20/21.04.048/2023-24</span> entitled 
                     <em> &quot;Framework for Compromise Settlements and Technical Write-offs&quot;</em>, reinforcing uniform standards across all Regulated Entities (REs):
                   </p>
 
@@ -847,10 +845,10 @@ export default function LoanSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   CHAPTER 7
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   7. RBI Guidelines for Loan Recovery Agents: Calling Hours &amp; Conduct Rules
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Under RBI Master Directions (including Circular <strong>RBI/2022-23/108</strong> and unified Fair Practices Codes), the Reserve Bank strictly regulates debt collection. Banks and NBFCs remain <strong>vicariously liable</strong> for unlawful actions taken by their outsourced recovery agencies.
                   </p>
@@ -891,14 +889,14 @@ export default function LoanSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   CHAPTER 8
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   8. How Much Can a Loan Be Settled For? The Mathematics of OTS
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     One of the most persistent myths in Indian debt resolution is that there is a standard &quot;flat 50% discount&quot; or guaranteed waiver rate. <strong>There is no statutory flat percentage.</strong> Every compromise settlement amount is calculated on a risk-recovery matrix governed by the following factors:
                   </p>
-                  <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-gray-700">
+                  <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-black">
                     <li><strong>Principal vs Penal Charges Composition:</strong> Banks are far more willing to waive 100% of accumulated penal interest and late fees than their core disbursed principal.</li>
                     <li><strong>Age of Default (NPA Vintage):</strong> 
                       <br />• <em>SMA-0 to SMA-2 (0-90 days):</em> Banks rarely consider settlements; they push for full recovery or restructuring.
@@ -916,33 +914,33 @@ export default function LoanSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   CHAPTER 9
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   9. How to Negotiate the Best Loan Settlement Amount
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Negotiating with a banking institution requires a disciplined, evidence-based approach. Shouting at recovery agents or ignoring calls weakens your position. Follow this battle-tested negotiation playbook:
                   </p>
                   
                   <div className="space-y-3 sm:space-y-4 my-4">
                     <div className="p-3.5 sm:p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                      <h3 className="font-bold text-gray-900 text-xs sm:text-sm mb-1">Step 1: Obtain Complete Statement of Accounts (SOA)</h3>
-                      <p className="text-xs text-gray-600">Demand an itemized breakdown of pure principal outstanding, normal contractual interest, penal interest, and processing charges. Never negotiate on a vague &apos;total demand figure&apos; stated verbally over the phone.</p>
+                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Step 1: Obtain Complete Statement of Accounts (SOA)</h3>
+                      <p className="text-xs text-black">Demand an itemized breakdown of pure principal outstanding, normal contractual interest, penal interest, and processing charges. Never negotiate on a vague &apos;total demand figure&apos; stated verbally over the phone.</p>
                     </div>
 
                     <div className="p-3.5 sm:p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                      <h3 className="font-bold text-gray-900 text-xs sm:text-sm mb-1">Step 2: Establish the Anchoring Offer</h3>
-                      <p className="text-xs text-gray-600">Start negotiations by proposing waiver of 100% of penal charges and 60% of principal. This anchors the discussion around principal recovery rather than accumulated interest penalties.</p>
+                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Step 2: Establish the Anchoring Offer</h3>
+                      <p className="text-xs text-black">Start negotiations by proposing waiver of 100% of penal charges and 60% of principal. This anchors the discussion around principal recovery rather than accumulated interest penalties.</p>
                     </div>
 
                     <div className="p-3.5 sm:p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                      <h3 className="font-bold text-gray-900 text-xs sm:text-sm mb-1">Step 3: Document Hardship in Writing</h3>
-                      <p className="text-xs text-gray-600">Submit a comprehensive representation letter citing RBI Compromise Framework guidelines, detailing health reports or termination slips, demonstrating that your offer is the maximum realizable value.</p>
+                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Step 3: Document Hardship in Writing</h3>
+                      <p className="text-xs text-black">Submit a comprehensive representation letter citing RBI Compromise Framework guidelines, detailing health reports or termination slips, demonstrating that your offer is the maximum realizable value.</p>
                     </div>
 
                     <div className="p-3.5 sm:p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                      <h3 className="font-bold text-gray-900 text-xs sm:text-sm mb-1">Step 4: Golden Rule — Never Pay Without Written Sanction</h3>
-                      <p className="text-xs text-gray-600">No matter how urgent the recovery agent claims their monthly target is, <strong>never transfer a single rupee</strong> based on a WhatsApp message or verbal call. Insist on a formal Settlement Letter generated from the bank&apos;s centralized system with an official dispatch number.</p>
+                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Step 4: Golden Rule — Never Pay Without Written Sanction</h3>
+                      <p className="text-xs text-black">No matter how urgent the recovery agent claims their monthly target is, <strong>never transfer a single rupee</strong> based on a WhatsApp message or verbal call. Insist on a formal Settlement Letter generated from the bank&apos;s centralized system with an official dispatch number.</p>
                     </div>
                   </div>
                 </div>
@@ -953,33 +951,33 @@ export default function LoanSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   CHAPTER 10
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   10. Legal Rights of Borrowers During Loan Recovery in India
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Defaulting on a debt is a civil contractual breach—<strong>it is not a criminal offense under Indian law</strong>. The Supreme Court of India and the Reserve Bank have repeatedly upheld fundamental constitutional rights safeguarding borrowers:
                   </p>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 my-4">
                     <div className="p-3.5 sm:p-4 bg-white border border-gray-200 rounded-xl shadow-xs">
-                      <h3 className="font-bold text-gray-900 text-xs sm:text-sm mb-1">Right to Privacy (Article 21)</h3>
-                      <p className="text-xs text-gray-600">Lenders cannot disclose your debt status to your employer, colleagues, neighbours, or extended family members. Doing so constitutes civil defamation and an actionable breach of privacy.</p>
+                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Right to Privacy (Article 21)</h3>
+                      <p className="text-xs text-black">Lenders cannot disclose your debt status to your employer, colleagues, neighbours, or extended family members. Doing so constitutes civil defamation and an actionable breach of privacy.</p>
                     </div>
 
                     <div className="p-3.5 sm:p-4 bg-white border border-gray-200 rounded-xl shadow-xs">
-                      <h3 className="font-bold text-gray-900 text-xs sm:text-sm mb-1">Right Against Harassment</h3>
-                      <p className="text-xs text-gray-600">Repeated calling, threatening criminal incarceration, shouting at doorsteps, or physical stalking is actionable under the Bharatiya Nyaya Sanhita (BNS) / IPC Sections 351, 352, and 503.</p>
+                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Right Against Harassment</h3>
+                      <p className="text-xs text-black">Repeated calling, threatening criminal incarceration, shouting at doorsteps, or physical stalking is actionable under the Bharatiya Nyaya Sanhita (BNS) / IPC Sections 351, 352, and 503.</p>
                     </div>
 
                     <div className="p-3.5 sm:p-4 bg-white border border-gray-200 rounded-xl shadow-xs">
-                      <h3 className="font-bold text-gray-900 text-xs sm:text-sm mb-1">Right to Due Process &amp; Notice</h3>
-                      <p className="text-xs text-gray-600">Borrowers are legally entitled to receive prior written demand notices before any legal invocation (Arbitration, Sec 138 NI Act, or SARFAESI repossession).</p>
+                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Right to Due Process &amp; Notice</h3>
+                      <p className="text-xs text-black">Borrowers are legally entitled to receive prior written demand notices before any legal invocation (Arbitration, Sec 138 NI Act, or SARFAESI repossession).</p>
                     </div>
 
                     <div className="p-3.5 sm:p-4 bg-white border border-gray-200 rounded-xl shadow-xs">
-                      <h3 className="font-bold text-gray-900 text-xs sm:text-sm mb-1">Right to Grievance Redressal</h3>
-                      <p className="text-xs text-gray-600">Access to the bank&apos;s Principal Nodal Officer (PNO) and subsequent escalation to the RBI Integrated Ombudsman Scheme (CMS Portal) with mandatory 30-day resolution windows.</p>
+                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Right to Grievance Redressal</h3>
+                      <p className="text-xs text-black">Access to the bank&apos;s Principal Nodal Officer (PNO) and subsequent escalation to the RBI Integrated Ombudsman Scheme (CMS Portal) with mandatory 30-day resolution windows.</p>
                     </div>
                   </div>
                 </div>
@@ -990,15 +988,15 @@ export default function LoanSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   CHAPTER 11
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   11. What Legal Action Can a Bank or NBFC Take Against Defaulters?
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Understanding the distinction between an empty recovery agent threat, a formal lawyer&apos;s legal notice, and an actual court summons is vital:
                   </p>
 
-                  <div className="space-y-2.5 sm:space-y-3 text-xs text-gray-700">
+                  <div className="space-y-2.5 sm:space-y-3 text-xs text-black">
                     <div className="p-3 bg-gray-50 rounded-lg border border-gray-200">
                       <strong>1. Section 138, Negotiable Instruments Act (Cheque Bounce):</strong> If a physical cheque submitted for EMI repayment bounces due to insufficient funds, the lender can issue a statutory 15-day demand notice. Failure to pay within 15 days allows the lender to file a criminal complaint before a Magistrate.
                     </div>
@@ -1023,14 +1021,14 @@ export default function LoanSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   CHAPTER 12
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   12. Legal Complications: Defaulting on a Settlement Agreement
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Entering into a compromise settlement creates a new substituted contract under Section 62 and Section 63 of the Indian Contract Act, 1872. Borrowers must be aware of the severe legal pitfalls if they fail to uphold the terms:
                   </p>
-                  <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-gray-700">
+                  <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-black">
                     <li><strong>Revocation of Waiver:</strong> Every standard Settlement Sanction Letter contains a default clause: <em>&quot;In the event of delay or default in payment of any installment, the settlement shall stand cancelled automatically, and the bank shall be entitled to recover the entire original dues with retrospective interest.&quot;</em></li>
                     <li><strong>Loss of Partial Payments:</strong> If you agree to settle for ₹3 Lakhs in 3 installments of ₹1 Lakh each, and you pay ₹2 Lakhs but default on the 3rd, the bank typically treats the ₹2 Lakhs as normal partial payment against your original ledger dues and restarts recovery for the balance!</li>
                     <li><strong>Pending Litigation Re-activation:</strong> If Section 138 or arbitration was stayed conditional upon settlement payments, the bank can immediately resume criminal or execution proceedings before the court.</li>
@@ -1043,10 +1041,10 @@ export default function LoanSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   CHAPTER 13
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   13. Impact of Loan Settlement on CIBIL &amp; Credit Score
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Borrowers must enter settlement with complete clarity on how Indian credit information companies (TransUnion CIBIL, Equifax, Experian, CRIF High Mark) record the transaction:
                   </p>
@@ -1079,14 +1077,14 @@ export default function LoanSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   CHAPTER 14
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   14. What Happens After Loan Settlement? Post-Closure Checklist
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Once your settlement remittance clears the bank&apos;s account, ensure you complete these four mandatory closing procedures:
                   </p>
-                  <ol className="list-decimal pl-5 space-y-1.5 text-xs sm:text-sm text-gray-700">
+                  <ol className="list-decimal pl-5 space-y-1.5 text-xs sm:text-sm text-black">
                     <li><strong>Demand the Official No Dues Certificate (NDC):</strong> The bank is mandated under RBI customer service directives to issue a stamped No Dues Certificate / Account Closure Letter within 15–30 days confirming that no further claims survive.</li>
                     <li><strong>Verify Withdrawal of Court Cases:</strong> If Section 138 or arbitration notices were filed, ensure the bank&apos;s advocate files a joint memo of compromise or application for withdrawal before the relevant Magistrate or Arbitrator.</li>
                     <li><strong>Retrieve Post-Dated Cheques &amp; Security Documents:</strong> Ensure the lender cancels NACH e-mandates and returns or destroys any physical security cheques deposited at the time of loan disbursal.</li>
@@ -1100,27 +1098,27 @@ export default function LoanSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   CHAPTER 15
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   15. Can You Get a Loan After Settlement? Rebuilding Creditworthiness
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     While prime banks will reject unsecured loan applications immediately following a settlement, you can systematically rebuild your credit score using this proven 3-phase pathway:
                   </p>
 
-                  <div className="space-y-2.5 sm:space-y-3 text-xs text-gray-700 my-4">
+                  <div className="space-y-2.5 sm:space-y-3 text-xs text-black my-4">
                     <div className="p-3 bg-slate-50 border border-slate-200 rounded-xl">
-                      <span className="font-bold text-gray-900 block mb-0.5">Phase 1 (Months 1–12): The Secured Credit Foundation</span>
+                      <span className="font-bold text-black block mb-0.5">Phase 1 (Months 1–12): The Secured Credit Foundation</span>
                       <p>Open a fixed deposit (FD) of ₹25,000 to ₹50,000 with a bank (e.g. IDFC First WOW, Kotak 811 Dream Different, or SBI Unnati) and obtain a <strong>secured credit card</strong> backed 100% by the FD. Use no more than 20% of the limit and repay the bill in full 5 days before the due date.</p>
                     </div>
 
                     <div className="p-3 bg-slate-50 border border-slate-200 rounded-xl">
-                      <span className="font-bold text-gray-900 block mb-0.5">Phase 2 (Months 13–24): Establishing Positive Bureau History</span>
+                      <span className="font-bold text-black block mb-0.5">Phase 2 (Months 13–24): Establishing Positive Bureau History</span>
                       <p>Consistent, on-time payments on your secured card generate consecutive &apos;000&apos; (paid on time) monthly records on CIBIL. Your score typically climbs from the low 600s back into the 700–740 range.</p>
                     </div>
 
                     <div className="p-3 bg-slate-50 border border-slate-200 rounded-xl">
-                      <span className="font-bold text-gray-900 block mb-0.5">Phase 3 (Months 25+): Secured Loans &amp; Secondary Lenders</span>
+                      <span className="font-bold text-black block mb-0.5">Phase 3 (Months 25+): Secured Loans &amp; Secondary Lenders</span>
                       <p>Apply for entry-level consumer durable loans or gold loans. Once 36 months pass with zero fresh delinquencies, secondary NBFCs and fintech lenders will readily approve fresh personal credit.</p>
                     </div>
                   </div>
@@ -1132,14 +1130,14 @@ export default function LoanSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   CHAPTER 16
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   16. Recovery Agent Harassment: How to Legally Defend Yourself
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Recovery agent harassment is the most painful ordeal for defaulting borrowers. If collection agents are crossing legal boundaries, execute these immediate defensive countermeasures:
                   </p>
-                  <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-gray-700">
+                  <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-black">
                     <li><strong>Enable Call Recording:</strong> Maintain an automatic audio recorder on your phone. Inform calling agents: <em>&quot;This call is being recorded for evidence under RBI circular DOR.ORG.REC.65/21.04.158/2022-23.&quot;</em> This statement alone discourages 80% of aggressive threats.</li>
                     <li><strong>Send a Formal Cease &amp; Desist Letter:</strong> Issue a registered legal notice to the bank&apos;s managing director and collections head demanding that third-party agents immediately cease calling unauthorized numbers or visiting your workplace.</li>
                     <li><strong>Lodge a Complaint with the Principal Nodal Officer (PNO):</strong> Every bank has a designated PNO. Send the call audio, agent phone numbers, and WhatsApp screenshots. Under RBI regulations, the bank must acknowledge within 24 hours.</li>
@@ -1153,17 +1151,17 @@ export default function LoanSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   CHAPTER 17
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   17. Comprehensive Document Checklist for Loan Settlement
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Having an organized dossier of hardship documentation speeds up the bank&apos;s settlement committee approval:
                   </p>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 text-xs">
                     <div className="p-3.5 sm:p-4 bg-gray-50 border border-gray-200 rounded-xl space-y-1.5">
-                      <p className="font-bold text-gray-900 text-xs sm:text-sm mb-1">KYC &amp; Loan Records</p>
+                      <p className="font-bold text-black text-xs sm:text-sm mb-1">KYC &amp; Loan Records</p>
                       <p>✓ PAN Card &amp; Aadhaar Card</p>
                       <p>✓ Latest Loan Account Statement (showing dues)</p>
                       <p>✓ Loan Sanction Letter / Credit Card Agreement</p>
@@ -1171,7 +1169,7 @@ export default function LoanSettlementPageClient() {
                     </div>
 
                     <div className="p-3.5 sm:p-4 bg-gray-50 border border-gray-200 rounded-xl space-y-1.5">
-                      <p className="font-bold text-gray-900 text-xs sm:text-sm mb-1">Financial Inability Proof</p>
+                      <p className="font-bold text-black text-xs sm:text-sm mb-1">Financial Inability Proof</p>
                       <p>✓ Last 6 to 12 months Bank Statements (all active accounts)</p>
                       <p>✓ Job Termination Letter / Resignation / Salary Slips</p>
                       <p>✓ Business Closure Certificate / GST Surrender (for MSMEs)</p>
@@ -1186,15 +1184,15 @@ export default function LoanSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   CHAPTER 18
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   18. How to Verify a Genuine Settlement Offer &amp; Avoid Scams
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Thousands of Indian borrowers are defrauded each month by rogue recovery telecallers and scammers sending forged settlement letters on PDF templates. Use this 4-step checklist to verify authenticity:
                   </p>
 
-                  <div className="space-y-2.5 sm:space-y-3 text-xs text-gray-700 my-4">
+                  <div className="space-y-2.5 sm:space-y-3 text-xs text-black my-4">
                     <div className="p-3 bg-rose-50 border border-rose-200 rounded-xl">
                       <strong>Check 1: Official Corporate Domain Verification:</strong> If receiving the offer by email, ensure the sender address ends with the bank&apos;s official domain (e.g. <code>@hdfcbank.com</code>, <code>@icicibank.com</code>, <code>@sbi.co.in</code>). Never accept letters from Gmail, Yahoo, or generic Outlook addresses.
                     </div>
@@ -1216,11 +1214,11 @@ export default function LoanSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   CHAPTER 19
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   19. Common Loan Settlement Mistakes That Cost Borrowers Lakhs
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-gray-700">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                  <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-black">
                     <li><strong>Relying on Verbal Promises of Recovery Agents:</strong> Agents under target pressure frequently say: <em>&quot;Just pay ₹50,000 today and the bank will close the card.&quot;</em> If you pay without a settlement letter, the bank treats it as partial interest recovery and demands the rest next week!</li>
                     <li><strong>Ignoring Court Summons &amp; Legal Notices:</strong> Thinking that avoiding notices makes them disappear. Failing to appear in Section 138 or arbitration proceedings results in bailable/non-bailable warrants or ex-parte awards that freeze your bank accounts.</li>
                     <li><strong>Borrowing from Informal Loan Sharks to Settle:</strong> Taking a high-interest private loan (5%–10% monthly interest) to settle a 14% bank loan creates a fatal debt vortex.</li>
@@ -1234,10 +1232,10 @@ export default function LoanSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   CHAPTER 20
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   20. Practical Settlement Case Studies &amp; Financial Breakdowns
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Examine these real-world examples demonstrating how compromise settlements are negotiated across different loan portfolios:
                   </p>
@@ -1269,14 +1267,14 @@ export default function LoanSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   CHAPTER 21
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   21. Loan Settlement Costs and Professional Legal Assistance
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     When evaluating professional debt settlement and legal representation services in India, transparency in fee structures is paramount:
                   </p>
-                  <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-gray-700">
+                  <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-black">
                     <li><strong>Direct Settlement Amount (Paid to Bank):</strong> The negotiated compromise sum paid directly to the lending bank or NBFC.</li>
                     <li><strong>Professional Legal &amp; Representation Fees:</strong> Reputable legal advisory firms operate either on a transparent milestone retainer or a success-fee percentage based on the verified money saved for the borrower.</li>
                     <li><strong>No Upfront Hidden Charges:</strong> Legitimate firms never demand full upfront contingency fees before negotiating with the bank. Ensure you receive a formal service contract specifying exact deliverables, legal notice drafting, and anti-harassment coverage.</li>
@@ -1289,10 +1287,10 @@ export default function LoanSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   CHAPTER 22
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   22. Interactive Loan Settlement Calculator / Estimator
                 </h2>
-                <p className="text-xs sm:text-sm text-gray-600 mb-4 sm:mb-6">
+                <p className="text-xs sm:text-sm text-black mb-4 sm:mb-6">
                   Estimate a realistic One-Time Settlement (OTS) compromise band based on your principal, accumulated charges, and default duration under standard Indian banking recovery parameters:
                 </p>
 
@@ -1410,14 +1408,14 @@ export default function LoanSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   CHAPTER 23
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   23. Legal Remedies &amp; When to Seek Advocate Representation
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     While simple default negotiations can sometimes be initiated directly by borrowers, legal representation becomes crucial in the following circumstances:
                   </p>
-                  <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-gray-700">
+                  <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-black">
                     <li><strong>Receipt of Section 138 NI Act or Section 25 PSSA Notice:</strong> A formal legal reply drafted by a practicing advocate must be served within the statutory period to set up your defense and prevent summary conviction.</li>
                     <li><strong>Notice of Arbitration:</strong> Objecting to unilaterally appointed sole arbitrators and filing applications under Section 11, 12, or 16 of the Arbitration and Conciliation Act 1996.</li>
                     <li><strong>Unlawful Harassment &amp; Blackmail:</strong> Issuing formal Cease &amp; Desist notices, criminal complaints under BNS/IPC, and initiating injunction proceedings before Civil Courts against illegal workplace visits.</li>
@@ -1431,10 +1429,10 @@ export default function LoanSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   CHAPTER 24
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   24. Comprehensive Loan Settlement FAQs (20 Essential Q&amp;As)
                 </h2>
-                <p className="text-xs sm:text-sm text-gray-600 mb-4 sm:mb-6">
+                <p className="text-xs sm:text-sm text-black mb-4 sm:mb-6">
                   Answers to the most critical legal, operational, and financial questions regarding loan settlement in India:
                 </p>
 
@@ -1445,7 +1443,7 @@ export default function LoanSettlementPageClient() {
                       <div key={index} className="border border-gray-200 rounded-xl sm:rounded-2xl overflow-hidden transition-all bg-white">
                         <button
                           onClick={() => setExpandedFaq(isOpen ? null : index)}
-                          className="w-full flex justify-between items-center text-left p-3.5 sm:p-4 md:p-5 font-bold text-xs sm:text-sm md:text-base text-gray-900 hover:text-blue-700 hover:bg-slate-50 transition-colors"
+                          className="w-full flex justify-between items-center text-left p-3.5 sm:p-4 md:p-5 font-bold text-xs sm:text-sm md:text-base text-black hover:text-blue-700 hover:bg-slate-50 transition-colors"
                         >
                           <span className="pr-2">{index + 1}. {faq.question}</span>
                           <span className={`ml-2 text-blue-600 transition-transform duration-200 flex-shrink-0 text-xs ${isOpen ? 'rotate-180' : ''}`}>
@@ -1453,7 +1451,7 @@ export default function LoanSettlementPageClient() {
                           </span>
                         </button>
                         {isOpen && (
-                          <div className="px-3.5 pb-4 sm:px-4 sm:pb-5 md:px-5 text-xs sm:text-sm text-gray-700 leading-relaxed border-t border-gray-100 pt-2.5 sm:pt-3 bg-slate-50/50">
+                          <div className="px-3.5 pb-4 sm:px-4 sm:pb-5 md:px-5 text-xs sm:text-sm text-black leading-relaxed border-t border-gray-100 pt-2.5 sm:pt-3 bg-slate-50/50">
                             {faq.answer}
                           </div>
                         )}
@@ -1468,10 +1466,10 @@ export default function LoanSettlementPageClient() {
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
                   CHAPTER 25
                 </div>
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3 sm:mb-4 tracking-tight break-words">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   25. Conclusion: Your Action Plan for Financial Freedom
                 </h2>
-                <div className="text-gray-700 leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
+                <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
                     Loan settlement is a viable, legally protected exit route for honest borrowers overwhelmed by uncontrollable economic distress. It shields your mental sanity, halts aggressive recovery intimidation, and formally liquidates crushing liabilities.
                   </p>
@@ -1494,7 +1492,7 @@ export default function LoanSettlementPageClient() {
                     </div>
                   </div>
 
-                  <div className="p-3.5 sm:p-4 bg-gray-100 rounded-xl text-[11px] sm:text-xs text-gray-500 space-y-1">
+                  <div className="p-3.5 sm:p-4 bg-gray-100 rounded-xl text-[11px] sm:text-xs text-black space-y-1">
                     <p><strong>Regulatory &amp; Legal Attribution:</strong> Content authored and maintained in compliance with Reserve Bank of India (Compromise Settlements and Technical Write-offs Framework 2023, Circular DOR.STR.REC.20/21.04.048/2023-24) and Banking Regulation Act, 1949.</p>
                     <p><em>Disclaimer: The contents of this master guide are published for informational purposes and do not constitute formal attorney-client advice until a legal representation agreement is formally executed.</em></p>
                   </div>
@@ -1505,15 +1503,14 @@ export default function LoanSettlementPageClient() {
           </div>
 
           {/* Right Column: Sticky Conversion & Emergency Defense Card (15% Width) */}
-          <div className="lg:w-[15%] flex-shrink-0 hidden lg:block">
-            <div className="sticky top-20 space-y-4">
+          <aside className="lg:w-[15%] flex-shrink-0 hidden lg:block sticky top-20 space-y-4">
               
               <div className="bg-white p-3.5 rounded-2xl shadow-sm border border-blue-200 text-center">
                 <span className="w-8 h-8 rounded-full bg-blue-100 text-blue-600 inline-flex items-center justify-center text-sm mb-2">
                   🛡️
                 </span>
-                <h4 className="font-bold text-xs text-gray-900 mb-1">Halt Multi-Loan Calls</h4>
-                <p className="text-[10px] text-gray-600 mb-3 leading-tight">
+                <h4 className="font-bold text-xs text-black mb-1">Halt Multi-Loan Calls</h4>
+                <p className="text-[10px] text-black mb-3 leading-tight">
                   Official advocate notices shield your family from cross-lender recovery pressure within 24 hrs.
                 </p>
                 <Link 
@@ -1522,7 +1519,7 @@ export default function LoanSettlementPageClient() {
                 >
                   Request Call Back
                 </Link>
-                <div className="mt-3 pt-2.5 border-t border-gray-100 text-[10px] text-gray-500 space-y-1 text-left">
+                <div className="mt-3 pt-2.5 border-t border-gray-100 text-[10px] text-black space-y-1 text-left">
                   <p className="flex items-center gap-1"><span className="text-emerald-500 font-bold">✓</span> 100% Confidential</p>
                   <p className="flex items-center gap-1"><span className="text-emerald-500 font-bold">✓</span> RBI Fair Code</p>
                   <p className="flex items-center gap-1"><span className="text-emerald-500 font-bold">✓</span> Bank Sanctions</p>
@@ -1530,14 +1527,12 @@ export default function LoanSettlementPageClient() {
               </div>
 
               {/* OTS Calculator Quick Jump Badge */}
-              <div className="p-3 bg-slate-50 border border-slate-200 rounded-xl text-xs space-y-1 text-slate-700">
-                <span className="font-bold text-slate-900 block text-[11px]">Composite Debt Calculator</span>
-                <p className="text-[10px] text-slate-500 leading-tight">Simulate potential compromise waivers across all your active loans and bank cards.</p>
+              <div className="p-3 bg-slate-50 border border-slate-200 rounded-xl text-xs space-y-1 text-black">
+                <span className="font-bold text-black block text-[11px]">Composite Debt Calculator</span>
+                <p className="text-[10px] text-black leading-tight">Simulate potential compromise waivers across all your active loans and bank cards.</p>
                 <a href="#settlement-calculator" className="text-[10px] text-blue-600 font-semibold block pt-1 hover:underline">Estimate Combined Relief ↓</a>
               </div>
-
-            </div>
-          </div>
+          </aside>
 
         </div>
       </div>
@@ -1567,7 +1562,7 @@ export default function LoanSettlementPageClient() {
 
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          className="bg-white hover:bg-gray-100 text-gray-700 border border-gray-200 text-xs font-bold p-2.5 rounded-full shadow-md active:scale-95 transition-transform flex items-center justify-center w-10 h-10"
+          className="bg-white hover:bg-gray-100 text-black border border-gray-200 text-xs font-bold p-2.5 rounded-full shadow-md active:scale-95 transition-transform flex items-center justify-center w-10 h-10"
           aria-label="Scroll to top"
         >
           ↑
