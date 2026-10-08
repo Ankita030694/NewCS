@@ -392,7 +392,7 @@ export default function RBIRulesClient() {
         <div className="max-w-[1440px] mx-auto flex flex-col sm:flex-row justify-between items-start sm:items-center gap-1.5 sm:gap-2">
           <div className="flex flex-wrap items-center gap-2">
             <span className="bg-blue-600 text-white font-semibold px-2 py-0.5 rounded text-[10px] sm:text-xs">LEGAL ADVISORY</span>
-            <span className="leading-tight">Reviewed by Senior Banking Law Advocates &amp; Debt Resolution Counsel</span>
+            <span className="leading-tight">Reviewed by High Court Banking Litigation Advocates &amp; RBI Compliance Specialists</span>
           </div>
           <div className="flex flex-wrap items-center gap-2 sm:gap-3 text-slate-400 text-[10px] sm:text-xs">
             <span>Last Updated: October 2026</span>
@@ -3121,7 +3121,7 @@ export default function RBIRulesClient() {
                 </span>
                 <h4 className="font-bold text-xs text-gray-900 mb-1">Stop Harassment Now</h4>
                 <p className="text-[10px] text-gray-600 mb-3 leading-tight">
-                  Legal notices stop illegal recovery calls within 24–48 hrs.
+                  Cease-and-desist notices issued by advocates halt unlawful collection calls within 24–48 hours.
                 </p>
                 <Link
                   href="/contact"
