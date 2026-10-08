@@ -6,8 +6,8 @@ import Script from "next/script";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Ashish Jhangra - Legal & Debt Resolution Expert | CredSettle",
-  description: "Ashish Jhangra is a legal and debt resolution professional at CredSettle, specializing in RBI loan settlements, anti-harassment defense, and debt relief.",
+  title: "Ashish Jhangra - Debt Resolution Expert | CredSettle",
+  description: "Ashish Jhangra is a legal debt resolution expert at CredSettle, helping borrowers settle unpaid loans, stop recovery calls, and rebuild their credit score.",
   alternates: { canonical: "https://www.credsettle.com/author/ashish-jhangra" },
 };
 
@@ -18,8 +18,8 @@ export default function AshishJhangraAuthorPage() {
     "mainEntity": {
       "@type": "Person",
       "name": "Ashish Jhangra",
-      "jobTitle": "Legal & Debt Resolution Professional",
-      "description": "Legal and debt resolution professional at CredSettle, specializing in RBI compromise settlement frameworks, borrower rights, and consumer protection.",
+      "jobTitle": "Legal & Debt Resolution Expert",
+      "description": "Legal and debt resolution expert at CredSettle, specializing in RBI loan settlements, borrower rights defense, and credit score rebuilding.",
       "url": "https://www.credsettle.com/author/ashish-jhangra",
       "image": "https://www.credsettle.com/ashishjhangra.png",
       "sameAs": [
@@ -56,7 +56,7 @@ export default function AshishJhangraAuthorPage() {
               </div>
               <div className="text-center md:text-left flex flex-col justify-center pt-2 md:pt-4">
                 <h1 className="text-4xl md:text-5xl font-bold mb-4">Ashish Jhangra</h1>
-                <p className="text-xl md:text-2xl text-[#BFE0FF] mb-6">Legal &amp; Debt Resolution Professional</p>
+                <p className="text-xl md:text-2xl text-[#BFE0FF] mb-6">Legal &amp; Debt Resolution Expert</p>
                 <div className="flex gap-4 justify-center md:justify-start">
                   <a 
                     href="https://www.linkedin.com/in/ashish-jhangra-ab1a54127/" 
@@ -77,66 +77,63 @@ export default function AshishJhangraAuthorPage() {
         <div className="w-full max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
           <div className="bg-white rounded-3xl shadow-sm p-8 md:p-12 border border-gray-100 space-y-10">
             <div>
-              <h2 className="text-3xl font-bold text-[#004479] mb-8">About Me</h2>
+              <h2 className="text-3xl font-bold text-[#004479] mb-8">About Ashish Jhangra</h2>
               <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
                 <p>
-                  Hi, I&apos;m Ashish, a legal and debt resolution professional at <strong className="text-[#004479]">CredSettle</strong>.
+                  Hi, I&apos;m Ashish. I work as a legal and debt resolution expert at <strong className="text-[#004479]">CredSettle</strong>.
                 </p>
                 <p>
-                  I am passionate about helping individuals and businesses overcome financial challenges through legal guidance, debt resolution, and financial recovery solutions.
+                  I help individuals and small businesses resolve debt stress. My work focuses on lawful debt relief, bank negotiations, and loan settlements.
                 </p>
                 <p>
-                  At CredSettle, I work closely with clients who are facing financial stress due to personal loans, credit cards, business loans, and recovery-related issues. My role is to understand each client&apos;s situation, provide practical legal support, and help them explore lawful debt resolution options while protecting their rights.
+                  Many borrowers face tough times due to personal loans and credit cards. I guide each client through clear, legal steps to settle unpaid dues. I also protect their legal rights from recovery agent pressure.
+                </p>
+                <p>
+                  Anyone can face money problems. With the right legal help, you can settle your debts, stop harassment, and build a secure financial future.
+                </p>
+                <p>
+                  My goal is to provide honest, clear, and professional legal support to every borrower throughout their settlement journey.
                 </p>
                 
-                <h3 className="text-2xl font-bold text-[#004479] mt-12 mb-6">My Areas of Expertise</h3>
+                <h2 className="text-2xl font-bold text-[#004479] mt-12 mb-6">Core Legal &amp; Debt Settlement Expertise</h2>
                 <ul className="grid grid-cols-1 md:grid-cols-2 gap-y-4 gap-x-8 pl-0 list-none">
                   <li className="flex items-start gap-3">
                     <i className="fas fa-check-circle text-[#007AFF] mt-1.5 shrink-0"></i>
-                    <span>Personal Loan &amp; Credit Card Debt Resolution</span>
+                    <span>Personal loan and credit card debt settlement.</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <i className="fas fa-check-circle text-[#007AFF] mt-1.5 shrink-0"></i>
-                    <span>Loan Settlement Assistance</span>
+                    <span>Bank loan settlement and waiver negotiation.</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <i className="fas fa-check-circle text-[#007AFF] mt-1.5 shrink-0"></i>
-                    <span>Legal Consultation for Debt-Related Matters</span>
+                    <span>Legal guidance for debt and recovery issues.</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <i className="fas fa-check-circle text-[#007AFF] mt-1.5 shrink-0"></i>
-                    <span>RBI Guidelines &amp; Consumer Rights Awareness</span>
+                    <span>RBI rules and borrower rights protection.</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <i className="fas fa-check-circle text-[#007AFF] mt-1.5 shrink-0"></i>
-                    <span>Recovery Agent Harassment Support</span>
+                    <span>Legal defense against recovery agent harassment.</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <i className="fas fa-check-circle text-[#007AFF] mt-1.5 shrink-0"></i>
-                    <span>Financial Dispute Resolution</span>
+                    <span>Resolution of bank notices and legal disputes.</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <i className="fas fa-check-circle text-[#007AFF] mt-1.5 shrink-0"></i>
-                    <span>Client Relationship Management</span>
+                    <span>Client support and credit score guidance.</span>
                   </li>
                 </ul>
-
-                <div className="mt-12 pt-8 border-t border-gray-100 space-y-6">
-                  <p>
-                    I believe that financial difficulties can happen to anyone, and with the right legal guidance and a structured approach, individuals can work toward financial stability and peace of mind.
-                  </p>
-                  <p>
-                    My goal is to educate, support, and empower clients by providing ethical, transparent, and professional legal assistance throughout their debt resolution journey.
-                  </p>
-                </div>
               </div>
             </div>
 
             {/* Featured Articles Authored by Ashish */}
             <div className="pt-8 border-t border-gray-100">
-              <h3 className="text-2xl font-bold text-[#004479] mb-6">
+              <h2 className="text-2xl font-bold text-[#004479] mb-6">
                 Featured Guides &amp; Publications
-              </h3>
+              </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <Link
                   href="/improve-cibil-after-loan-settlement"
@@ -144,13 +141,13 @@ export default function AshishJhangraAuthorPage() {
                 >
                   <div>
                     <span className="text-xs font-bold text-[#007AFF] uppercase tracking-wider block mb-1">
-                      CIBIL Rebuilding
+                      CIBIL Score Rebuilding
                     </span>
                     <h3 className="text-base font-bold text-gray-900 group-hover:text-[#007AFF] transition-colors leading-snug">
                       How to Rebuild &amp; Improve CIBIL After a Loan Settlement
                     </h3>
                     <p className="text-xs text-gray-600 mt-2 line-clamp-2 leading-relaxed">
-                      A comprehensive step-by-step blueprint to recover credit scores to 750+ after executing an OTS.
+                      Learn how to raise your credit score back to 750 or higher after a debt settlement.
                     </p>
                   </div>
                   <div className="mt-4 text-xs font-bold text-[#007AFF] flex items-center gap-1">
@@ -165,13 +162,13 @@ export default function AshishJhangraAuthorPage() {
                 >
                   <div>
                     <span className="text-xs font-bold text-[#007AFF] uppercase tracking-wider block mb-1">
-                      Credit Repair &amp; Closure
+                      Credit Repair &amp; Loan Closure
                     </span>
                     <h3 className="text-base font-bold text-gray-900 group-hover:text-[#007AFF] transition-colors leading-snug">
                       Convert a Settled Loan to &quot;Closed&quot; Status (Step-by-Step)
                     </h3>
                     <p className="text-xs text-gray-600 mt-2 line-clamp-2 leading-relaxed">
-                      How paying the remaining waiver balance upgrades your loan status from Settled to Closed.
+                      Learn how paying the waiver balance turns a settled loan into a closed loan.
                     </p>
                   </div>
                   <div className="mt-4 text-xs font-bold text-[#007AFF] flex items-center gap-1">
@@ -186,13 +183,13 @@ export default function AshishJhangraAuthorPage() {
                 >
                   <div>
                     <span className="text-xs font-bold text-[#007AFF] uppercase tracking-wider block mb-1">
-                      Bureau Compliance
+                      Bureau Record Correction
                     </span>
                     <h3 className="text-base font-bold text-gray-900 group-hover:text-[#007AFF] transition-colors leading-snug">
                       How to Remove Settled Status from CIBIL
                     </h3>
                     <p className="text-xs text-gray-600 mt-2 line-clamp-2 leading-relaxed">
-                      The official banking and legal mechanisms to dispute and update bureau records under CICRA 2005.
+                      Learn the official legal steps to dispute and update credit records under CICRA 2005.
                     </p>
                   </div>
                   <div className="mt-4 text-xs font-bold text-[#007AFF] flex items-center gap-1">
@@ -207,13 +204,13 @@ export default function AshishJhangraAuthorPage() {
                 >
                   <div>
                     <span className="text-xs font-bold text-[#007AFF] uppercase tracking-wider block mb-1">
-                      Post-Settlement Borrowing
+                      Post-Settlement Loans
                     </span>
                     <h3 className="text-base font-bold text-gray-900 group-hover:text-[#007AFF] transition-colors leading-snug">
                       How to Get a Loan After Settlement (Approval Guide 2026)
                     </h3>
                     <p className="text-xs text-gray-600 mt-2 line-clamp-2 leading-relaxed">
-                      Detailed eligibility criteria, cooling-off periods, and lender approval strategies for fresh credit.
+                      Learn how to qualify for fresh loans and credit cards after settling past debts.
                     </p>
                   </div>
                   <div className="mt-4 text-xs font-bold text-[#007AFF] flex items-center gap-1">
@@ -234,7 +231,7 @@ export default function AshishJhangraAuthorPage() {
                       Explore All Legal &amp; Debt Resolution Resources
                     </h3>
                     <p className="text-xs text-gray-600 mt-2 line-clamp-2 leading-relaxed">
-                      Access our entire library of borrower rights guides, RBI rules, and settlement strategies.
+                      Read our guides on borrower rights, RBI rules, and simple loan settlement tips.
                     </p>
                   </div>
                   <div className="mt-4 text-xs font-bold text-[#007AFF] flex items-center gap-1">
@@ -246,9 +243,14 @@ export default function AshishJhangraAuthorPage() {
             </div>
             
             <div className="bg-[#F0F7FF] rounded-2xl p-6 md:p-8 mt-10 border border-[#BFE0FF] text-center md:text-left flex flex-col md:flex-row items-center justify-between gap-6">
-              <p className="text-lg font-bold text-[#004479] m-0">
-                Let&apos;s connect and build a future based on trust, compliance, and financial awareness.
-              </p>
+              <div>
+                <h2 className="text-lg font-bold text-[#004479] m-0 mb-1">
+                  Connect for Legal Debt Guidance
+                </h2>
+                <p className="text-sm text-gray-600 m-0">
+                  Let us connect to protect your rights, stop harassment, and build financial peace.
+                </p>
+              </div>
               <a 
                 href="https://www.linkedin.com/in/ashish-jhangra-ab1a54127/" 
                 target="_blank" 

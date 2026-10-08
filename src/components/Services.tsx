@@ -31,17 +31,17 @@ export default function Services() {
 
           {/* Right: Heading and Description */}
           <div className="flex-1 ml-8">
-            <h2 
+            <h3 
               className="font-bold text-right text-3xl mb-3" 
               style={{ color: '#0C2756' }}
             >
-              Our Comprehensive Debt <br /> Settlement Services
-            </h2>
+              Our Debt Settlement &amp; Relief Services
+            </h3>
             <p 
               className="text-right text-base" 
               style={{ color: '#0C2756', opacity: 0.7 }}
             >
-              Professional assistance to legally reduce <br /> harassment, handle recovery agents, and <br /> settle your outstanding debts.
+              Professional legal help to stop recovery calls, <br /> defend your rights, and settle your debts for less.
             </p>
           </div>
         </div>
@@ -66,13 +66,13 @@ export default function Services() {
               className="font-bold text-right text-3xl mb-3" 
               style={{ color: '#0C2756' }}
             >
-              Our Comprehensive Debt Settlement Services
+              Our Debt Settlement &amp; Relief Services
             </h3>
             <p 
               className="text-right text-base" 
               style={{ color: '#0C2756', opacity: 0.7 }}
             >
-              Professional assistance to legally reduce harassment, handle recovery agents, and settle your outstanding debts.
+              Professional legal help to stop recovery calls, defend your rights, and settle your debts for less.
             </p>
           </div>
         </div>
@@ -80,54 +80,53 @@ export default function Services() {
         {/* Desktop Version - Middle Section: Anti-Harassment (Left) + 3 Services (Right) */}
         <div className="hidden md:flex relative items-center mb-8" style={{ minHeight: '420px', gap: '80px' }}>
           {/* Left: Main Anti-Harassment Container */}
-          {/* Left: Main Anti-Harassment Container */}
           <div 
-                  className="p-6 flex flex-col"
-                  style={{
-                    width: '52%',
-                    height: '300px',
-                    borderRadius: '40px',
-                    background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
-                    boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
-                    position: 'relative',
-                    zIndex: 1
-                  }}
-                >
-                  <div className="flex-1">
-                    <h3 
-                      className="font-bold text-left text-2xl mb-4" 
-                      style={{ color: '#0C2756' }}
-                    >
-                      Stop Loan Recovery Agent Harassment - Protect Your Rights with CredSettle
-                    </h3>
-                    <p 
-                      className="text-left text-sm mb-4" 
-                      style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.6' }}
-                    >
-                      Are you facing constant calls, threats, or home visits from loan recovery agents? At CredSettle, we provide India's leading Anti-Harassment Services designed to legally stop recovery agent harassment and protect your peace of mind.
-                    </p>
-                    <p 
-                      className="text-left text-sm" 
-                      style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.6' }}
-                    >
-                      Our legal experts ensure that lenders and agents follow RBI recovery guidelines while helping you settle your loan safely and ethically.
-                    </p>
-                  </div>
-                  
-                  {/* View More Button - Bottom Right */}
-                  <div className="flex justify-end mt-1">
-                    <a 
-                      href="/services/anti-harassment"
-                      className="px-5 py-2.5 rounded-md text-sm font-medium text-white transition-colors duration-200 hover:opacity-90 flex items-center gap-2"
-                      style={{ background: '#007AFF' }}
-                    >
-                      View More
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
+            className="p-6 flex flex-col"
+            style={{
+              width: '52%',
+              height: '300px',
+              borderRadius: '40px',
+              background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
+              boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
+              position: 'relative',
+              zIndex: 1
+            }}
+          >
+            <div className="flex-1">
+              <h3 
+                className="font-bold text-left text-2xl mb-4" 
+                style={{ color: '#0C2756' }}
+              >
+                Stop Recovery Agent Harassment: Protect Your Rights
+              </h3>
+              <p 
+                className="text-left text-sm mb-4" 
+                style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.6' }}
+              >
+                Are you facing non-stop calls, threats, or home visits? CredSettle gives you fast legal protection under RBI rules. We stop illegal pressure and help you settle your loans safely.
+              </p>
+              <p 
+                className="text-left text-sm" 
+                style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.6' }}
+              >
+                Our legal advocates ensure lenders follow code of conduct rules while securing debt relief for you.
+              </p>
+            </div>
+            
+            {/* View More Button - Bottom Right */}
+            <div className="flex justify-end mt-1">
+              <a 
+                href="/services/anti-harassment"
+                className="px-5 py-2.5 rounded-md text-sm font-medium text-white transition-colors duration-200 hover:opacity-90 flex items-center gap-2"
+                style={{ background: '#007AFF' }}
+              >
+                View More
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </a>
+            </div>
+          </div>
 
           {/* Right: 3 Service Containers in Column */}
           <div className="flex flex-col gap-2.5" style={{ flex: 1, height: '300px', position: 'relative', zIndex: 1 }}>
@@ -145,13 +144,13 @@ export default function Services() {
                 className="font-bold text-left mb-1" 
                 style={{ color: '#0C2756', fontSize: '14px' }}
               >
-                Call Forwarding Services
+                Call Forwarding Service
               </h4>
               <p 
                 className="text-left" 
                 style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.3', fontSize: '12px' }}
               >
-                Divert all recovery calls directly to our legal helpline.
+                Send all recovery calls directly to our legal helpline.
               </p>
             </div>
 
@@ -169,13 +168,13 @@ export default function Services() {
                 className="font-bold text-left mb-1" 
                 style={{ color: '#0C2756', fontSize: '14px' }}
               >
-                Complaint Filing
+                Formal Complaint Filing
               </h4>
               <p 
                 className="text-left" 
                 style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.3', fontSize: '12px' }}
               >
-                We file formal complaints with RBI, NCH, and Cyber Police against harassment.
+                We file complaints with RBI and police against illegal threats.
               </p>
             </div>
 
@@ -193,13 +192,13 @@ export default function Services() {
                 className="font-bold text-left mb-1" 
                 style={{ color: '#0C2756', fontSize: '14px' }}
               >
-                Cease & Desist Notices
+                Cease &amp; Desist Notices
               </h4>
               <p 
                 className="text-left" 
                 style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.3', fontSize: '12px' }}
               >
-                Our legal team issues notices to stop illegal recovery activities immediately.
+                Our legal advocates issue notices to halt agent visits right away.
               </p>
             </div>
           </div>
@@ -218,7 +217,6 @@ export default function Services() {
             preserveAspectRatio="none"
           >
             <defs>
-              {/* Animated gradient - traveling blue wave from left to right */}
               <linearGradient id="flowGradient" gradientUnits="userSpaceOnUse">
                 <stop offset="0%" stopColor="#E6E6E6"/>
                 <stop offset="0%" stopColor="#E6E6E6">
@@ -234,7 +232,6 @@ export default function Services() {
               </linearGradient>
             </defs>
             
-            {/* Path to top container - curves upward to middle of top container */}
             <path
               d="M 0 200 H 50.6 C 66.6 200 79.6 187 79.6 171 V 120 C 79.6 110 92.6 100 108.6 100 H 149"
               stroke="url(#flowGradient)"
@@ -242,7 +239,6 @@ export default function Services() {
               fill="none"
             />
             
-            {/* Path to bottom container - curves downward to middle of bottom container */}
             <path
               d="M 0 200 H 50.6 C 66.6 200 79.6 213 79.6 229 V 280 C 79.6 290 92.6 300 108.6 300 H 149"
               stroke="url(#flowGradient)"
@@ -250,7 +246,6 @@ export default function Services() {
               fill="none"
             />
             
-            {/* Path to middle container - straight to middle of middle container */}
             <path
               d="M 0 200 H 149"
               stroke="url(#flowGradient)"
@@ -290,7 +285,7 @@ export default function Services() {
                     letterSpacing: '0.18px'
                   }}
                 >
-                  Stop Loan Recovery Agent Harassment - Protect Your Rights with CredSettle
+                  Stop Recovery Agent Harassment: Protect Your Rights
                 </h3>
                 <p
                   className="w-full"
@@ -303,9 +298,9 @@ export default function Services() {
                     letterSpacing: '0.16px'
                   }}
                 >
-                  Are you facing constant calls, threats, or home visits from loan recovery agents? At CredSettle, we provide India's leading Anti-Harassment Services designed to legally stop recovery agent harassment and protect your peace of mind.
+                  Are you facing non-stop calls, threats, or home visits? CredSettle gives you fast legal protection under RBI rules. We stop illegal pressure and help you settle your loans safely.
                   <br /><br />
-                  Our legal experts ensure that lenders and agents follow RBI recovery guidelines while helping you settle your loan safely and ethically.
+                  Our legal advocates ensure lenders follow code of conduct rules while securing debt relief for you.
                 </p>
               </div>
 
@@ -351,8 +346,6 @@ export default function Services() {
                 minHeight: '331px'
               }}
             >
-             
-
               {/* Service Cards */}
               <div
                 className="flex justify-center items-center w-full mb-4"
@@ -374,9 +367,9 @@ export default function Services() {
                     lineHeight: '20px'
                   }}
                 >
-                  <span style={{ fontSize: '16px', color: 'rgba(0, 0, 0, 1)' }}>Call Forwarding Services -</span>
+                  <span style={{ fontSize: '16px', color: 'rgba(0, 0, 0, 1)' }}>Call Forwarding Service -</span>
                   {' '}
-                  <span style={{ color: 'rgba(0, 0, 0, 0.70)' }}>Divert all recovery calls directly to our legal helpline.</span>
+                  <span style={{ color: 'rgba(0, 0, 0, 0.70)' }}>Send all recovery calls directly to our legal helpline.</span>
                 </p>
               </div>
 
@@ -400,9 +393,9 @@ export default function Services() {
                     lineHeight: '20px'
                   }}
                 >
-                  <span style={{ fontSize: '16px', color: 'rgba(0, 0, 0, 1)' }}>Complaint Filing -</span>
+                  <span style={{ fontSize: '16px', color: 'rgba(0, 0, 0, 1)' }}>Formal Complaint Filing -</span>
                   {' '}
-                  <span style={{ color: 'rgba(12, 39, 86, 0.70)' }}>We file formal complaints with RBI, NCH, and Cyber Police against harassment.</span>
+                  <span style={{ color: 'rgba(0, 0, 0, 0.70)' }}>We file complaints with RBI and police against illegal threats.</span>
                 </p>
               </div>
 
@@ -426,10 +419,9 @@ export default function Services() {
                     lineHeight: '20px'
                   }}
                 >
-                  <span style={{ fontSize: '16px', color: 'rgba(12, 39, 86, 1)' }}>Cease & Desist Notices</span>
-                  <span style={{ fontSize: '16px', color: 'rgba(0, 0, 0, 1)' }}> -</span>
+                  <span style={{ fontSize: '16px', color: 'rgba(12, 39, 86, 1)' }}>Cease &amp; Desist Notices -</span>
                   {' '}
-                  <span style={{ color: 'rgba(12, 39, 86, 0.70)' }}>Our legal team issues notices to stop illegal recovery activities immediately.</span>
+                  <span style={{ color: 'rgba(12, 39, 86, 0.70)' }}>Our legal advocates issue notices to halt agent visits right away.</span>
                 </p>
               </div>
             </div>
@@ -439,7 +431,7 @@ export default function Services() {
         {/* Desktop Version - Bottom Section: 2x3 Grid of Loan Settlement Services */}
         <div className="hidden md:grid grid-cols-3 gap-4 mb-8 -mt-15">
           {/* Personal Loan Settlement */}
-          <Link href = "/services/personal-loan-settlement"> 
+          <Link href="/services/personal-loan-settlement"> 
           <div 
             className="p-6 relative"
             style={{
@@ -468,7 +460,7 @@ export default function Services() {
               className="text-left text-sm flex-1" 
               style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.6' }}
             >
-              We recognize that life's financial challenges can be unpredictable. Our experts negotiate with lenders to secure manageable settlement plans for your unsecured personal loans.
+              Settle unpaid personal loans through legal negotiation. Get up to 50% to 75% waiver on total dues and close your loan with a bank NOC.
             </p>
             <div className="flex justify-end mt-4">
               <div 
@@ -484,7 +476,7 @@ export default function Services() {
           </Link>
 
           {/* Credit Card Settlement */}
-          <Link href = "/services/credit-card-settlement"> 
+          <Link href="/services/credit-card-settlement"> 
           <div 
             className="p-6 relative"
             style={{
@@ -513,7 +505,7 @@ export default function Services() {
               className="text-left text-sm flex-1" 
               style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.6' }}
             >
-              Credit card debt can be overwhelming due to high interest rates. We secure an affordable One-Time Settlement (OTS), helping you save money and improve your financial outlook.
+              High card interest can trap your income. We negotiate a one-time settlement (OTS) to cut interest and clear your card balance.
             </p>
             <div className="flex justify-end mt-4">
               <div 
@@ -527,8 +519,9 @@ export default function Services() {
             </div>
           </div>
           </Link>
+
           {/* Business Loan Settlement */}
-          <Link href = "/services/business-loan-settlement"> 
+          <Link href="/services/business-loan-settlement"> 
           <div 
             className="p-6 relative"
             style={{
@@ -557,7 +550,7 @@ export default function Services() {
               className="text-left text-sm flex-1" 
               style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.6' }}
             >
-              Credit card debt can be overwhelming due to high interest rates. We secure an affordable One-Time Settlement (OTS), helping you save money and improve your financial outlook.
+              Facing cash flow issues or business loss? We negotiate with banks to settle your unsecured commercial loans legally.
             </p>
             <div className="flex justify-end mt-4">
               <div 
@@ -571,8 +564,9 @@ export default function Services() {
             </div>
           </div>
           </Link>
+
           {/* Car Loan Settlement */}
-          <Link href = "/services/car-loan-settlement"> 
+          <Link href="/services/car-loan-settlement"> 
           <div 
             className="p-6 relative"
             style={{
@@ -601,7 +595,7 @@ export default function Services() {
               className="text-left text-sm flex-1" 
               style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.6' }}
             >
-              Since car loans are secured, a default risks asset loss. We negotiate reduced balances and manageable payments, easing the fear of losing your vehicle while restoring stability.
+              Struggling with car loan EMIs? We negotiate lower payoff amounts and protect your vehicle from illegal seizure.
             </p>
             <div className="flex justify-end mt-4">
               <div 
@@ -615,8 +609,9 @@ export default function Services() {
             </div>
           </div>
           </Link>
+
           {/* App Loan Settlement */}
-          <Link href = "/services/app-loan-settlement"> 
+          <Link href="/services/app-loan-settlement"> 
           <div 
             className="p-6 relative"
             style={{
@@ -645,7 +640,7 @@ export default function Services() {
               className="text-left text-sm flex-1" 
               style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.6' }}
             >
-              Stop aggressive, illegal harassment from digital lending apps immediately. We provide legal representation to secure a final, RBI-compliant One-Time Settlement (OTS).
+              Stop threats and harassment from instant loan apps. We provide legal defense and secure official loan closures.
             </p>
             <div className="flex justify-end mt-4">
               <div 
@@ -659,8 +654,9 @@ export default function Services() {
             </div>
           </div>
           </Link>
+
           {/* NBFC Loan Settlement */}
-          <Link href = "/services/nbfc-loan-settlement"> 
+          <Link href="/services/nbfc-loan-settlement"> 
           <div 
             className="p-6 relative"
             style={{
@@ -689,7 +685,7 @@ export default function Services() {
               className="text-left text-sm flex-1" 
               style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.6' }}
             >
-              Credit card debt can be overwhelming due to high interest rates. We secure an affordable One-Time Settlement (OTS), helping you save money and improve your financial outlook.
+              Settle unpaid loans from NBFC lenders. Our advocates negotiate big principal discounts and full legal closure.
             </p>
             <div className="flex justify-end mt-4">
               <div 
@@ -708,7 +704,7 @@ export default function Services() {
         {/* Mobile Version - Bottom Section: Single Column of Loan Settlement Services */}
         <div className="block md:hidden flex flex-col gap-4 mb-8 px-4">
           {/* Personal Loan Settlement */}
-          <Link href = "/services/personal-loan-settlement"> 
+          <Link href="/services/personal-loan-settlement"> 
           <div 
             className="p-5 relative"
             style={{
@@ -738,7 +734,7 @@ export default function Services() {
                 className="text-left text-sm" 
                 style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.5' }}
               >
-                We recognize that life's financial challenges can be unpredictable. Our experts negotiate with lenders to secure manageable settlement plans for your unsecured personal loans.
+                Settle unpaid personal loans through legal negotiation. Get up to 50% to 75% waiver on total dues and close your loan with a bank NOC.
               </p>
             </div>
             <div className="flex justify-end mt-2">
@@ -755,7 +751,7 @@ export default function Services() {
           </Link>
 
           {/* Credit Card Settlement */}
-          <Link href = "/services/credit-card-settlement"> 
+          <Link href="/services/credit-card-settlement"> 
           <div 
             className="p-5 relative"
             style={{
@@ -785,7 +781,7 @@ export default function Services() {
                 className="text-left text-sm" 
                 style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.5' }}
               >
-                Credit card debt can be overwhelming due to high interest rates. We secure an affordable One-Time Settlement (OTS), helping you save money and improve your financial outlook.
+                High card interest can trap your income. We negotiate a one-time settlement (OTS) to cut interest and clear your card balance.
               </p>
             </div>
             <div className="flex justify-end mt-2">
@@ -802,7 +798,7 @@ export default function Services() {
           </Link>
 
           {/* Business Loan Settlement */}
-          <Link href = "/services/business-loan-settlement"> 
+          <Link href="/services/business-loan-settlement"> 
           <div 
             className="p-5 relative"
             style={{
@@ -832,7 +828,7 @@ export default function Services() {
                 className="text-left text-sm" 
                 style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.5' }}
               >
-                Credit card debt can be overwhelming due to high interest rates. We secure an affordable One-Time Settlement (OTS), helping you save money and improve your financial outlook.
+                Facing cash flow issues or business loss? We negotiate with banks to settle your unsecured commercial loans legally.
               </p>
             </div>
             <div className="flex justify-end mt-2">
@@ -849,7 +845,7 @@ export default function Services() {
           </Link>
 
           {/* Car Loan Settlement */}
-          <Link href = "/services/car-loan-settlement"> 
+          <Link href="/services/car-loan-settlement"> 
           <div 
             className="p-5 relative"
             style={{
@@ -879,7 +875,7 @@ export default function Services() {
                 className="text-left text-sm" 
                 style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.5' }}
               >
-                Since car loans are secured, a default risks asset loss. We negotiate reduced balances and manageable payments, easing the fear of losing your vehicle while restoring stability.
+                Struggling with car loan EMIs? We negotiate lower payoff amounts and protect your vehicle from illegal seizure.
               </p>
             </div>
             <div className="flex justify-end mt-2">
@@ -896,7 +892,7 @@ export default function Services() {
           </Link>
 
           {/* App Loan Settlement */}
-          <Link href = "/services/app-loan-settlement"> 
+          <Link href="/services/app-loan-settlement"> 
           <div 
             className="p-5 relative"
             style={{
@@ -926,7 +922,7 @@ export default function Services() {
                 className="text-left text-sm" 
                 style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.5' }}
               >
-                Stop aggressive, illegal harassment from digital lending apps immediately. We provide legal representation to secure a final, RBI-compliant One-Time Settlement (OTS).
+                Stop threats and harassment from instant loan apps. We provide legal defense and secure official loan closures.
               </p>
             </div>
             <div className="flex justify-end mt-2">
@@ -943,7 +939,7 @@ export default function Services() {
           </Link>
 
           {/* NBFC Loan Settlement */}
-          <Link href = "/services/nbfc-loan-settlement"> 
+          <Link href="/services/nbfc-loan-settlement"> 
           <div 
             className="p-5 relative"
             style={{
@@ -973,12 +969,12 @@ export default function Services() {
                 className="text-left text-sm" 
                 style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.5' }}
               >
-                Credit card debt can be overwhelming due to high interest rates. We secure an affordable One-Time Settlement (OTS), helping you save money and improve your financial outlook.
+                Settle unpaid loans from NBFC lenders. Our advocates negotiate big principal discounts and full legal closure.
               </p>
             </div>
             <div className="flex justify-end mt-2">
               <div 
-                  className="w-8 h-8 rounded-md flex items-center justify-center"
+                className="w-8 h-8 rounded-md flex items-center justify-center"
                 style={{ background: '#007AFF' }}
               >
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -992,12 +988,12 @@ export default function Services() {
 
         {/* Section Heading */}
         <div className="mb-6">
-          <h2 
+          <h3 
             className="font-bold text-center text-3xl py-4 md:py-8" 
             style={{ color: '#0C2756', fontWeight: 500 }}
           >
             Improve your Credit Score
-          </h2>
+          </h3>
         </div>
 
         {/* Desktop Version - Credit Score Container */}
@@ -1076,7 +1072,6 @@ export default function Services() {
             <img 
               src="/creditscore.png" 
               alt="Credit Score" 
-              // Reduced image size by 20%: max-w-[240px] (was 300px), sm:max-w-[48px] (was 60px)
               style={{ maxWidth: '100%', height: 'auto', objectFit: 'contain', flexShrink: 0 }}
               className="max-w-[240px] sm:max-w-[48px]"
             />

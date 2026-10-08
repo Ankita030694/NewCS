@@ -5,12 +5,12 @@ export default function AboutUsSection() {
     <section className="w-full overflow-x-hidden">
       <div className="w-full max-w-8xl mx-auto px-4 sm:px-6 md:px-8 lg:px-24 py-6 sm:py-8 md:py-12 overflow-x-hidden">
         {/* About Us Heading */}
-        <h2 
+        <h3 
           className="font-bold text-center text-3xl mb-2 sm:mb-3 md:mb-4" 
           style={{color: '#0C2756'}}
         >
           About Us
-        </h2>
+        </h3>
           {/* Bottom Heading */}
           <p
             style={{
@@ -160,13 +160,13 @@ export default function AboutUsSection() {
                 className="font-bold text-gray-900 text-xl sm:text-2xl md:text-2xl mb-4 sm:mb-5 transition-colors duration-300 group-hover:text-[#0C2756]" 
                 style={{ lineHeight: '1.3' }}
               >
-                Facing Overwhelming Debt?<br />
-                <span className="text-[#0C2756]">You're Not Alone</span>
+                Facing Heavy Debt?<br />
+                <span className="text-[#0C2756]">You Are Not Alone</span>
               </h3>
               <p 
                 className="text-gray-700 text-sm sm:text-base md:text-base leading-relaxed mb-4 transition-all duration-300 group-hover:text-gray-800" 
               >
-                At CredSettle, we specialize in providing professional, legal loan settlement solutions that directly address your financial stress. Our mission is to help you significantly reduce your outstanding credit card debt and personal loan dues through expert negotiation and RBI-compliant processes.
+                At CredSettle, we provide legal debt relief to ease your stress. We negotiate with lenders to lower your credit card dues and personal loans through safe, RBI-compliant steps.
               </p>
             </div>
             
@@ -174,7 +174,7 @@ export default function AboutUsSection() {
             <img 
               src="/about1.png" 
               alt="Debt Settlement Services" 
-              className="absolute bottom-0 right-0 w-36 sm:w-44 md:w-56 h-auto transition-all duration-500 group-hover:scale-110 group-hover:translate-x-2 group-hover:-translate-y-2"
+              className="absolute bottom-0 right-0 w-36 sm:w-44 md:w-56 h-auto transition-all duration-500 group-hover:scale-110 group-hover:translate-x-2 group-hover:-translate-y-2" 
               style={{ filter: 'drop-shadow(0 10px 20px rgba(0, 0, 0, 0.15))' }}
             />
           </div>
@@ -225,7 +225,7 @@ export default function AboutUsSection() {
               <p 
                 className="text-gray-700 text-sm sm:text-base md:text-base leading-relaxed mb-4 transition-all duration-300 group-hover:text-gray-800" 
               >
-                As India's most trusted loan settlement company, we negotiate directly with banks, NBFCs, and financial institutions on your behalf. Our entire framework strictly adheres to all RBI guidelines and regulatory compliance standards, ensuring every settlement is legally sound and ethically managed.
+                We negotiate directly with banks and NBFCs on your behalf. Every settlement follows strict RBI rules, ensuring legal safety, fair terms, and full debt relief.
               </p>
             </div>
             
@@ -274,17 +274,17 @@ export default function AboutUsSection() {
             />
 
             <div className="relative z-10 pb-24 sm:pb-28 md:pb-32">
-              <h3 
+              <h4 
                 className="font-bold text-gray-900 text-xl sm:text-2xl md:text-2xl mb-4 sm:mb-5 transition-colors duration-300 group-hover:text-[#0C2756]" 
                 style={{ lineHeight: '1.3' }}
               >
                 Your Fast Track to<br />
                 <span className="text-[#0C2756]">Debt Freedom</span>
-              </h3>
+              </h4>
               <p 
                 className="text-gray-700 text-sm sm:text-base md:text-base leading-relaxed mb-4 transition-all duration-300 group-hover:text-gray-800" 
               >
-                Our expert team of debt settlement specialists is dedicated to helping you close your loans peacefully and rebuild your financial life. We fast-track your debt resolution with proven strategies that have helped thousands achieve financial freedom and eliminate stress.
+                Our experienced team helps you settle loans easily and rebuild your financial life. We use proven legal steps to help thousands of borrowers live free of debt and stress.
               </p>
             </div>
             
@@ -372,12 +372,12 @@ export default function AboutUsSection() {
           />
 
           <div className="relative z-10">
-            <h3 
+            <h4 
               className="font-bold text-center text-gray-900 mb-6 sm:mb-7 md:mb-8 text-xl sm:text-2xl md:text-2xl transition-colors duration-300 group-hover:text-[#0C2756]" 
               style={{ fontWeight: 600 }}
             >
               We work with the guidelines of
-            </h3>
+            </h4>
             <div className="grid grid-cols-3 grid-rows-2 md:grid-cols-6 md:grid-rows-1 gap-6 sm:gap-7 md:gap-8 place-items-center">
               {[
                 { src: '/guideline1.svg', alt: 'Bar Council of India' },

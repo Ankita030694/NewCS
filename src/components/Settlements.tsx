@@ -65,7 +65,7 @@ export default function Settlements() {
       {/* Desktop Version */}
       <section className="w-full py-14 hidden md:block">
         <div className="w-full max-w-7xl mx-auto flex flex-col items-center gap-14">
-          <h2 
+          <h3 
             className="text-center font-semibold text-3xl leading-[34px]"
             style={{ color: '#0C2756', fontWeight: 500 }}
           >
@@ -74,7 +74,7 @@ export default function Settlements() {
             <span style={{ color: '#007AFF', marginTop: '0.02em', display: 'inline-block', lineHeight: '44px' }}>
               Real Results, Real Proof
             </span>
-          </h2>
+          </h3>
 
         <div className="relative w-full max-w-[1146px] h-[426px]" style={{ transform: 'scale(1.1)' }}>
           {/* Animated SVG paths */}
@@ -542,12 +542,12 @@ export default function Settlements() {
       {/* Mobile Version */}
       <section className="w-full py-8 px-5 md:hidden overflow-x-hidden">
         <div className="w-full mx-auto flex flex-col items-center gap-8 overflow-x-hidden">
-          <h2
+          <h3
             className="text-center font-semibold leading-tight text-3xl"
             style={{ color: '#0C2756', lineHeight: '25px' }}
           >
             Settled & Debt-Free: Client Proof
-          </h2>
+          </h3>
 
           <div
             className="relative w-full max-w-[400px] mx-auto overflow-x-hidden"

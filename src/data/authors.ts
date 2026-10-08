@@ -12,16 +12,16 @@ export const authors: Record<string, Author> = {
   ashish: {
     id: "ashish",
     name: "Ashish Jhangra",
-    role: "Legal and Debt Resolution Professional at CredSettle",
-    bio: "Hi, I'm Ashish, a legal and debt resolution professional at CredSettle. I am passionate about helping individuals and businesses overcome financial challenges through legal guidance, debt resolution, and financial recovery solutions. At CredSettle, I work closely with clients who are facing financial stress due to personal loans, credit cards, business loans, and recovery-related issues. My role is to understand each client's situation, provide practical legal support, and help them explore lawful debt resolution options while protecting their rights. I believe that financial difficulties can happen to anyone, and with the right legal guidance and a structured approach, individuals can work toward financial stability and peace of mind. My goal is to educate, support, and empower clients by providing ethical, transparent, and professional legal assistance throughout their debt resolution journey. Let's connect and build a future based on trust, compliance, and financial awareness.",
+    role: "Legal & Debt Resolution Expert at CredSettle",
+    bio: "Hi, I am Ashish. I work as a legal and debt resolution expert at CredSettle. I help people and small businesses resolve debt stress. My focus is on lawful debt relief and bank loan settlements. Many borrowers face tough times from personal loans and credit cards. I guide each client through clear, legal steps to settle unpaid dues. I also protect their legal rights from recovery agent pressure. With the right legal help, you can settle your debts, stop harassment, and build a secure financial future. My goal is to give honest, clear, and professional legal help to every borrower.",
     expertise: [
-      "Personal Loan & Credit Card Debt Resolution",
-      "Loan Settlement Assistance",
-      "Legal Consultation for Debt-Related Matters",
-      "RBI Guidelines & Consumer Rights Awareness",
-      "Recovery Agent Harassment Support",
-      "Financial Dispute Resolution",
-      "Client Relationship Management"
+      "Personal loan and credit card debt settlement",
+      "Bank loan settlement and waiver negotiation",
+      "Legal guidance for debt and recovery issues",
+      "RBI rules and borrower rights protection",
+      "Legal defense against recovery agent harassment",
+      "Resolution of bank notices and legal disputes",
+      "Client support and credit score guidance"
     ],
     linkedin: "https://www.linkedin.com/in/ashish-jhangra-ab1a54127/",
     image: "/ashishjhangra.png"

@@ -2,33 +2,32 @@ export default function WhyCredSettle() {
   return (
     <section className="w-full overflow-x-hidden">
       <div className="w-full max-w-7xl mx-auto py-7 px-4 md:px-0 overflow-x-hidden">
+        {/* Main Heading */} 
+        <h2 
+          className="font-bold text-left text-3xl mb-2" 
+          style={{color: '#0C2756'}}
+        >
+          Why CredSettle is India's Most<br className="hidden md:inline" /> Trusted Loan Settlement Company
+        </h2>
+        
+        {/* Subheading */}
+        <h3 
+          className="font-semibold text-left mb-2 text-base" 
+          style={{color: '#0C2756'}}
+        >
+          Save 50% or More on Your Outstanding Debts <br className="hidden md:inline" /> and Achieve Legal Protection.
+        </h3>
+        
+        {/* Description */}
+        <p 
+          className="text-left mb-5 text-sm" 
+          style={{color: '#0C2756', opacity: 0.7}}
+        >
+          Settle your loans safely under RBI rules. Our legal team handles recovery calls and negotiates big savings for you.
+        </p>
+
         {/* Desktop Version */}
         <div className="hidden md:block">
-          {/* Main Heading */} 
-          <h2 
-            className="font-bold text-left text-3xl mb-2" 
-            style={{color: '#0C2756'}}
-          >
-            Why CredSettle is India's Most<br />
-            Trusted Loan Settlement Company
-          </h2>
-          
-          {/* Subheading */}
-          <h3 
-            className="font-semibold text-left mb-2 text-base" 
-            style={{color: '#0C2756'}}
-          >
-            Save 50% or More on Your Outstanding Debts <br /> and Achieve Legal Protection.
-          </h3>
-          
-          {/* Description */}
-          <p 
-            className="text-left mb-5 text-sm" 
-            style={{color: '#0C2756', opacity: 0.7}}
-          >
-            Settle your loans stress-free and RBI-compliant with our dedicated legal professionals, <br /> who handle the entire recovery call process for you.
-          </p>
-
           {/* Three Column Layout */}
           <div className="flex gap-3" style={{ height: '468px' }}>
             {/* Column 1 - 50% width, 2 rows */}
@@ -54,7 +53,7 @@ export default function WhyCredSettle() {
                     className="text-left" 
                     style={{ fontSize: '14px', color: '#0C2756', opacity: 0.7, lineHeight: '1.6' }}
                   >
-                    We exclusively follow Reserve Bank of India guidelines for legal loan settlements, ensuring every step is compliant, secure, and protects your consumer rights and wallet. We provide you with complete transparency and adherence to all regulatory requirements.
+                    We follow Reserve Bank of India rules for debt settlement. Every step is safe, lawful, and clear.
                   </p>
                 </div>
                   <img 
@@ -89,7 +88,7 @@ export default function WhyCredSettle() {
                     className="text-left" 
                     style={{ fontSize: '14px', color: '#0C2756', opacity: 0.7, lineHeight: '1.6' }}
                   >
-                    Our experienced legal team negotiates directly with banks and financial institutions to reduce your debt burden by up to 70%, securing the best possible settlement terms. We provide you with the best possible settlement terms and conditions.
+                    Our legal team negotiates with banks to cut your debt by up to 70%. We get you the lowest one-time payment.
                   </p>
                 </div>
                 <img 
@@ -137,7 +136,7 @@ export default function WhyCredSettle() {
                     className="text-left" 
                     style={{ fontSize: '14px', color: '#0C2756', opacity: 0.7, lineHeight: '1.6' }}
                   >
-                    Negotiations are managed by our Expert Legal Team and financial professionals (not agents). This guarantees superior results for your Loan Settlement.
+                    Your case is run by qualified advocates and debt experts. This ensures big savings and total legal safety.
                   </p>
                 </div>
               </div>
@@ -181,7 +180,7 @@ export default function WhyCredSettle() {
                   className="text-right p-4" 
                   style={{ fontSize: '14px', color: '#0C2756', opacity: 0.7, lineHeight: '1.6'}}
                 >
-                  Once CredSettle takes over, we legally step in to stop all recovery agent harassment, restoring your peace of mind immediately.
+                  We step in legally to stop rude recovery calls and home visits. Your peace of mind comes first.
                 </p>
               </div>
 
@@ -221,7 +220,7 @@ export default function WhyCredSettle() {
                   className="text-right p-4" 
                   style={{ fontSize: '14px', color: '#0C2756', opacity: 0.7, lineHeight: '1.6'}}
                 >
-                  Focus on rebuilding your financial future while we handle all legal formalities and negotiations with lenders on your behalf.
+                  Rebuild your credit with clear terms and no hidden fees. We do all the legal paperwork for you.
                 </p>
               </div>
             </div>
@@ -230,30 +229,6 @@ export default function WhyCredSettle() {
 
         {/* Mobile Version */}
         <div className="block md:hidden">
-          {/* Main Heading - Left Aligned */}
-          <h2 
-            className="font-bold text-left text-3xl mb-2" 
-            style={{color: '#0C2756'}}
-          >
-            Why CredSettle is India's Most Trusted Loan Settlement Company
-          </h2>
-          
-          {/* Subheading */}
-          <h3 
-            className="font-semibold text-left mb-2 text-base" 
-            style={{color: '#0C2756'}}
-          >
-            Save 50% or More on Your Outstanding Debts and Achieve Legal Protection.
-          </h3>
-          
-          {/* Description */}
-          <p 
-            className="text-left mb-5 text-sm" 
-            style={{color: '#0C2756', opacity: 0.7}}
-          >
-            Settle your loans stress-free and RBI-compliant with our dedicated legal professionals, who handle the entire recovery call process for you.
-          </p>
-
           {/* Single Column Layout */}
           <div className="flex flex-col gap-4">
             {/* Service 1 - RBI-Compliant Process */}
@@ -278,7 +253,7 @@ export default function WhyCredSettle() {
                   className="text-left" 
                   style={{ fontSize: '13px', color: '#0C2756', opacity: 0.7, lineHeight: '1.6' }}
                 >
-                  We exclusively follow Reserve Bank of India guidelines for legal loan settlements, ensuring every step is compliant, secure, and protects your consumer rights and wallet. We provide you with complete transparency and adherence to all regulatory requirements.
+                  We follow Reserve Bank of India rules for debt settlement. Every step is safe, lawful, and clear.
                 </p>
               </div>
               <img 
@@ -315,7 +290,7 @@ export default function WhyCredSettle() {
                   className="text-left" 
                   style={{ fontSize: '13px', color: '#0C2756', opacity: 0.7, lineHeight: '1.6' }}
                 >
-                  Our experienced legal team negotiates directly with banks and financial institutions to reduce your debt burden by up to 70%, securing the best possible settlement terms. We provide you with the best possible settlement terms and conditions.
+                  Our legal team negotiates with banks to cut your debt by up to 70%. We get you the lowest one-time payment.
                 </p>
               </div>
               <img 
@@ -352,7 +327,7 @@ export default function WhyCredSettle() {
                   className="text-left" 
                   style={{ fontSize: '13px', color: '#0C2756', opacity: 0.7, lineHeight: '1.6' }}
                 >
-                  Negotiations are managed by our Expert Legal Team and financial professionals (not agents). This guarantees superior results for your Loan Settlement.
+                  Your case is run by qualified advocates and debt experts. This ensures big savings and total legal safety.
                 </p>
               </div>
               <img 
@@ -389,7 +364,7 @@ export default function WhyCredSettle() {
                   className="text-left" 
                   style={{ fontSize: '13px', color: '#0C2756', opacity: 0.7, lineHeight: '1.6' }}
                 >
-                  Once CredSettle takes over, we legally step in to stop all recovery agent harassment, restoring your peace of mind immediately.
+                  We step in legally to stop rude recovery calls and home visits. Your peace of mind comes first.
                 </p>
               </div>
               <img 
@@ -426,7 +401,7 @@ export default function WhyCredSettle() {
                   className="text-left" 
                   style={{ fontSize: '13px', color: '#0C2756', opacity: 0.7, lineHeight: '1.6' }}
                 >
-                  Focus on rebuilding your financial future while we handle all legal formalities and negotiations with lenders on your behalf.
+                  Rebuild your credit with clear terms and no hidden fees. We do all the legal paperwork for you.
                 </p>
               </div>
               <img 
@@ -446,4 +421,3 @@ export default function WhyCredSettle() {
     </section>
   );
 }
-

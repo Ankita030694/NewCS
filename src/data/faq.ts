@@ -5,29 +5,29 @@ export type FAQItem = {
 
 export const homeFaqItems: FAQItem[] = [
   {
-    question: "What is RBI-compliant loan settlement?",
+    question: "What is an RBI-compliant loan settlement?",
     answer:
-      "RBI-compliant settlement follows Reserve Bank of India guidelines so your overdue accounts are closed with formal documentation that protects you from future disputes."
+      "An RBI-compliant settlement follows Reserve Bank of India guidelines. It lets you clear unpaid loans with a formal bank letter that protects you from future claims."
   },
   {
     question: "How does CredSettle negotiate with banks and NBFCs?",
     answer:
-      "Our legal team audits your case, prepares financial hardship evidence, and negotiates directly with your creditor to secure the maximum waiver allowed under RBI norms."
+      "Our legal team reviews your debt, proves financial hardship, and negotiates directly with your lender to get the highest waiver allowed by bank rules."
   },
   {
     question: "Can I settle multiple loans or credit cards together?",
     answer:
-      "Yes. We design a unified roadmap that prioritises high-risk accounts, times each negotiation strategically, and helps you close different credit lines under one coordinated plan."
+      "Yes. We create one single plan for all your debts. We handle high-risk accounts first and negotiate each loan to save you the most money."
   },
   {
-    question: "Will a negotiated settlement hurt my credit score?",
+    question: "Will a loan settlement affect my credit score?",
     answer:
-      "A settlement may cause a temporary dip, but it prevents legal escalation and lets you rebuild your score faster once outstanding liabilities are cleared."
+      "A settlement may lower your score for a short time. However, it stops legal action and lets you rebuild your CIBIL score once your debt is settled."
   },
   {
-    question: "How long does the CredSettle process usually take?",
+    question: "How long does the loan settlement process take?",
     answer:
-      "Most clients receive their first offer within 30-45 days, depending on creditor responsiveness and how quickly we receive the required documentation."
+      "Most borrowers get their first settlement offer within 30 to 45 days, depending on bank response times and document sharing."
   }
 ];
 
