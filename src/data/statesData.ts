@@ -58,7 +58,7 @@ export const statesData: StateData[] = [
   },
   {
     name: 'Dadra and Nagar Haveli and Daman and Diu',
-    slug: 'dadra-and-nagar-haveli-and-daman-and-diu',
+    slug: 'dadra-nagar-haveli-daman-diu',
     highCourt: 'Bombay High Court',
     policeAuthority: 'DNH & DD Police Cyber Crime Cell',
     drtLocations: 'Mumbai and Ahmedabad'

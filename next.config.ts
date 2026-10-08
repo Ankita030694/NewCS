@@ -1281,6 +1281,47 @@ const nextConfig: NextConfig = {
         destination: "/loan-settlement-by-bank/tata-capital",
         permanent: true,
       },
+      // Credit Card Settlement Dadra State Slug 301 Permanent Redirects (Fix Screaming Frog URL >115 chars)
+      {
+        source: "/credit-card-settlement/:bank/dadra-and-nagar-haveli-and-daman-and-diu",
+        destination: "/credit-card-settlement/:bank/dadra-nagar-haveli-daman-diu",
+        permanent: true,
+      },
+      {
+        source: "/credit-card-settlement/capital-small-finance-bank/dadra-and-nagar-haveli-and-daman-and-diu",
+        destination: "/credit-card-settlement/capital-small-finance-bank/dadra-nagar-haveli-daman-diu",
+        permanent: true,
+      },
+      {
+        source: "/credit-card-settlement/equitas-small-finance-bank/dadra-and-nagar-haveli-and-daman-and-diu",
+        destination: "/credit-card-settlement/equitas-small-finance-bank/dadra-nagar-haveli-daman-diu",
+        permanent: true,
+      },
+      {
+        source: "/credit-card-settlement/north-east-small-finance-bank/dadra-and-nagar-haveli-and-daman-and-diu",
+        destination: "/credit-card-settlement/north-east-small-finance-bank/dadra-nagar-haveli-daman-diu",
+        permanent: true,
+      },
+      {
+        source: "/credit-card-settlement/shivalik-small-finance-bank/dadra-and-nagar-haveli-and-daman-and-diu",
+        destination: "/credit-card-settlement/shivalik-small-finance-bank/dadra-nagar-haveli-daman-diu",
+        permanent: true,
+      },
+      {
+        source: "/credit-card-settlement/utkarsh-small-finance-bank/dadra-and-nagar-haveli-and-daman-and-diu",
+        destination: "/credit-card-settlement/utkarsh-small-finance-bank/dadra-nagar-haveli-daman-diu",
+        permanent: true,
+      },
+      {
+        source: "/credit-card-settlement/ujjivan-small-finance-bank/dadra-and-nagar-haveli-and-daman-and-diu",
+        destination: "/credit-card-settlement/ujjivan-small-finance-bank/dadra-nagar-haveli-daman-diu",
+        permanent: true,
+      },
+      {
+        source: "/credit-card-settlement/suryoday-small-finance-bank/dadra-and-nagar-haveli-and-daman-and-diu",
+        destination: "/credit-card-settlement/suryoday-small-finance-bank/dadra-nagar-haveli-daman-diu",
+        permanent: true,
+      },
     ];
   },
   async headers() {

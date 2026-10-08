@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { creditCardBanks } from "@/data/creditCardBanks";
 import { statesData } from "@/data/statesData";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { getMetaTitlePixelWidth } from "@/lib/seo-utils";
 
 export async function generateStaticParams() {
@@ -32,7 +32,7 @@ function getShortBankName(bankName: string): string {
 
 function getCCStateH1(bankName: string, stateName: string): string {
   const shortState = getShortStateName(stateName);
-  const displayState = stateName.length > 20 ? shortState : stateName;
+  const displayState = stateName.length > 15 || shortState !== stateName ? shortState : stateName;
   const p1 = `Stop ${bankName} Recovery Agents in ${displayState}`;
   if (p1.length <= 65) return p1;
   const p2 = `Stop ${bankName} Recovery in ${displayState}`;
@@ -44,7 +44,7 @@ function getCCStateH1(bankName: string, stateName: string): string {
 
 function getCCStateH2(bankName: string, stateName: string): string {
   const shortState = getShortStateName(stateName);
-  const displayState = stateName.length > 20 ? shortState : stateName;
+  const displayState = stateName.length > 15 || shortState !== stateName ? shortState : stateName;
   const p1 = `Legal Guide to ${bankName} Settlement in ${displayState}`;
   if (p1.length <= 65) return p1;
   const p2 = `${bankName} Settlement Guide in ${displayState}`;
@@ -108,8 +108,11 @@ function getCCStateMetaDescription(bankName: string, stateName: string): string 
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string; "state-slug": string }> }) {
   const { slug, "state-slug": stateSlug } = await params;
+  const canonicalStateSlug = stateSlug === 'dadra-and-nagar-haveli-and-daman-and-diu'
+    ? 'dadra-nagar-haveli-daman-diu'
+    : stateSlug;
   const bank = creditCardBanks.find((b) => b.slug === slug);
-  const state = statesData.find((s) => s.slug === stateSlug);
+  const state = statesData.find((s) => s.slug === canonicalStateSlug);
 
   if (!bank || !state) return {};
 
@@ -158,6 +161,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function BankStateSettlementPage({ params }: { params: Promise<{ slug: string; "state-slug": string }> }) {
   const { slug, "state-slug": stateSlug } = await params;
+
+  if (stateSlug === 'dadra-and-nagar-haveli-and-daman-and-diu') {
+    const bank = creditCardBanks.find((b) => b.slug === slug);
+    permanentRedirect(`/credit-card-settlement/${bank ? bank.slug : slug}/dadra-nagar-haveli-daman-diu`);
+  }
+
   const bank = creditCardBanks.find((b) => b.slug === slug);
   const state = statesData.find((s) => s.slug === stateSlug);
 
@@ -251,7 +260,8 @@ export default async function BankStateSettlementPage({ params }: { params: Prom
   };
 
   const shortState = getShortStateName(state.name);
-  const displayState = state.name.length > 20 ? shortState : state.name;
+  const displayState = state.name.length > 20 || state.name === 'Jammu and Kashmir' ? shortState : state.name;
+  const h1Text = getCCStateH1(bank.name, state.name);
   const h2Text = getCCStateH2(bank.name, state.name);
 
   const tocSections = [
@@ -283,7 +293,7 @@ export default async function BankStateSettlementPage({ params }: { params: Prom
         
         <div className="text-center max-w-4xl mx-auto my-12">
           <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 tracking-tight">
-            Stop <span className="text-blue-600">{bank.name}</span> Recovery Agents in {displayState}
+            {h1Text}
           </h1>
           <p className="text-xl text-gray-600 mb-8">
             Know your legal rights in {state.name}. CredSettle helps you stop recovery calls today. We talk to {bank.name} to cut your credit card dues. Settle your debt safely and get a fresh start.

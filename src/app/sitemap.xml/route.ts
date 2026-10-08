@@ -102,7 +102,7 @@ const STATE_SLUG_FALLBACKS = [
   'bihar',
   'chandigarh',
   'chhattisgarh',
-  'dadra-and-nagar-haveli-and-daman-and-diu',
+  'dadra-nagar-haveli-daman-diu',
   'delhi',
   'goa',
   'gujarat',
