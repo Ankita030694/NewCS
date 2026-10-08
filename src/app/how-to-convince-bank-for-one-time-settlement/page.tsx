@@ -1,7 +1,5 @@
 import React from 'react';
 import type { Metadata } from 'next';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
 import HowToConvinceBankForOneTimeSettlementClient from './HowToConvinceBankForOneTimeSettlementClient';
 
 export const metadata: Metadata = {
@@ -351,14 +349,12 @@ export default function HowToConvinceBankForOneTimeSettlementPage() {
   };
 
   return (
-    <div className="relative min-h-screen bg-white">
-      <Navbar />
+    <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(unifiedSchema) }}
       />
       <HowToConvinceBankForOneTimeSettlementClient />
-      <Footer />
-    </div>
+    </>
   );
 }
