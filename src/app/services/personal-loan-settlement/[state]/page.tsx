@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import FAQWithSchema from '@/components/FAQWithSchema';
 import TableOfContents from '@/components/TableOfContents';
 import { getStateContentWithFallback, generateSlug } from '../states-content';
-import { sanitizeMetaTitle, sanitizeMetaDescription } from '@/lib/seo-utils';
+import { sanitizeMetaDescription, sanitizeMetaTitle, getShortStateName } from '@/lib/seo-utils';
 import StatePageClient from './StatePageClient';
 
 // List of all valid state slugs
@@ -65,6 +65,7 @@ export const dynamicParams = true; // Allow dynamic params not in generateStatic
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { state } = await params;
   const content = getStateContentWithFallback(state);
+  const shortState = getShortStateName(content.stateName);
   const metaTitle = sanitizeMetaTitle(content.metaTitle || content.title);
   const metaDescription = sanitizeMetaDescription(content.metaDescription);
 
@@ -95,6 +96,7 @@ export default async function StatePage({ params }: PageProps) {
   }
 
   const content = getStateContentWithFallback(state);
+  const shortState = getShortStateName(content.stateName);
 
   // Extract headings for Table of Contents - dynamic based on content format
   const headings = content.whyLoanSettlement
@@ -106,11 +108,11 @@ export default async function StatePage({ params }: PageProps) {
         { id: 'negotiation-help', text: `How CredSettle Helps You Negotiate with Banks in ${content.stateName}`, level: 3 },
         { id: 'legal-support', text: `Legal Support for Personal Loans in ${content.stateName}`, level: 2 },
         { id: 'types-of-loans', text: `Types of Personal Loans We Settle in ${content.stateName}`, level: 2 },
-        { id: 'benefits', text: `Why Choose CredSettle for Personal Loan Settlement in ${content.stateName}`, level: 2 },
-        { id: 'rbi-guidelines', text: `RBI Guidelines for Personal Loan Settlement in ${content.stateName}`, level: 2 },
+        { id: 'benefits', text: `Why Choose CredSettle in ${shortState}`, level: 2 },
+        { id: 'rbi-guidelines', text: `RBI Loan Settlement Guidelines in ${shortState}`, level: 2 },
         { id: 'step-by-step-guide', text: 'Guide to Personal Loan Settlement with CredSettle', level: 2 },
-        { id: 'case-study', text: `Personal Loan Settlement Case Study in ${content.stateName}`, level: 2 },
-        { id: 'final-thoughts', text: `Final Thoughts on Personal Loan Settlement in ${content.stateName}`, level: 2 },
+        { id: 'case-study', text: `Settlement Case Study in ${shortState}`, level: 2 },
+        { id: 'final-thoughts', text: `Final Thoughts on Settlement in ${shortState}`, level: 2 },
         { id: 'faqs', text: `Personal Loan Settlement FAQs in ${content.stateName}`, level: 2 }
       ]
     : [

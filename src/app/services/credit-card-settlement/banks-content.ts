@@ -1,5 +1,8 @@
+import { getShortBankName, getBankH2Title } from '@/lib/seo-utils';
 // Import comprehensive bank content generator for credit card settlement
 import { generateBankContent, generateBankSlug, getBankMetaTitle } from './bank-content-generator';
+
+export { getShortBankName, getBankH2Title };
 
 export interface BankContent {
   bankName: string;

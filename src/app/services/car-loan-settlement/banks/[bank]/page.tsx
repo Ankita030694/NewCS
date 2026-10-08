@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { getBankContentWithFallback, getAllBankSlugs } from '../../banks-content';
+import { getBankContentWithFallback, getBankH2Title, getAllBankSlugs, getShortBankName } from '../../banks-content';
 import { getShortBankName } from '../../bank-content-generator';
 import { sanitizeMetaTitle, sanitizeMetaDescription } from '@/lib/seo-utils';
 import BankPageClient from './BankPageClient';
@@ -53,13 +53,13 @@ export default async function BankPage({ params }: PageProps) {
   const shortName = getShortBankName(content.bankName);
 
   // Generate headings for Table of Contents (strictly <= 70 chars)
-  const headings = [
-    { id: 'why-choose-settlement', text: `Why Choose ${shortName} Car Loan Settlement`, level: 2 },
+    const headings = [
+    { id: 'why-choose-settlement', text: getBankH2Title(content.bankName, 'Car Loan Settlement'), level: 2 },
     { id: 'understanding-settlement', text: `${shortName} Car Loan Settlement Process`, level: 3 },
     { id: 'how-credsettle-helps', text: `How CredSettle Settles ${shortName} Car Loan Debt`, level: 3 },
-    { id: 'cibil-impact', text: `Impact of Car Loan Settlement on Your CIBIL Score`, level: 3 },
+    { id: 'cibil-impact', text: `Impact of ${shortName} Car Loan Settlement on Your CIBIL Score`, level: 3 },
     { id: 'why-choose-credsettle', text: `Why Choose CredSettle for ${shortName} Car Loan Relief`, level: 3 },
-    { id: 'step-by-step-process', text: `Steps to Settle ${shortName} Car Loan Debt Legally`, level: 3 },
+    { id: 'step-by-step-process', text: `Steps to Settle ${shortName} Car Loan Debt`, level: 3 },
     { id: 'documents-required', text: `Documents for ${shortName} Car Loan Settlement`, level: 3 },
     { id: 'faqs', text: `${shortName} Car Loan Settlement FAQs`, level: 3 },
     { id: 'get-legal-help', text: `Get Legal Help for ${shortName} Car Loan`, level: 3 }

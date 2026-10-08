@@ -1,3 +1,4 @@
+import { getShortStateName } from '@/lib/seo-utils';
 'use client';
 
 import { useEffect, useState } from 'react';
@@ -15,6 +16,7 @@ interface StatePageClientProps {
 }
 
 export default function StatePageClient({ content, headings }: StatePageClientProps) {
+  const shortState = getShortStateName(content.stateName);
   const [isFirefox, setIsFirefox] = useState(false);
 
   useEffect(() => {
@@ -316,7 +318,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Why Choose CredSettle for Credit Card Settlement in {content.stateName}
+                    Why Choose CredSettle in {shortState}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -344,7 +346,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    RBI Guidelines &amp; Cardholder Rights in {content.stateName}
+                    RBI Cardholder Rights in {shortState}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -400,7 +402,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Credit Card Settlement Case Study in {content.stateName}
+                    Settlement Case Study in {shortState}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -428,7 +430,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Final Thoughts on Credit Card Settlement in {content.stateName}
+                    Final Thoughts on Settlement in {shortState}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"

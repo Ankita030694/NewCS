@@ -8,6 +8,7 @@ import TableOfContents from '@/components/TableOfContents';
 import CTAButton from '@/components/CTAButton';
 import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import { BankContent } from '../../banks-content';
+import { getShortBankName, getBankH2Title } from '@/lib/seo-utils';
 import { getShortBankName } from '../../bank-content-generator';
 
 interface BankPageClientProps {
@@ -168,7 +169,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    Why Choose {shortName} Car Loan Settlement
+                    {getBankH2Title(content.bankName, 'Car Loan Settlement')}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"

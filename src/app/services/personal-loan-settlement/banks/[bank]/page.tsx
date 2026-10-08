@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getBankContentWithFallback, getAllBankSlugs, generateBankSlug } from '../../banks-content';
+import { getBankContentWithFallback, getBankH2Title, generateBankSlug, getShortBankName, getAllBankSlugs } from '../../banks-content';
 import { getShortBankName } from '../../bank-content-generator';
 import { sanitizeMetaTitle, sanitizeMetaDescription } from '@/lib/seo-utils';
 import BankPageClient from './BankPageClient';
@@ -54,13 +54,13 @@ export default async function BankPage({ params }: PageProps) {
   const shortName = getShortBankName(content.bankName);
 
   // Generate headings for Table of Contents (strictly <= 70 chars)
-  const headings = [
-    { id: 'why-choose-settlement', text: `Why Choose ${shortName} Personal Loan Settlement`, level: 2 },
+    const headings = [
+    { id: 'why-choose-settlement', text: getBankH2Title(content.bankName, 'Personal Loan Settlement'), level: 2 },
     { id: 'understanding-settlement', text: `${shortName} Personal Loan Settlement Process`, level: 3 },
     { id: 'how-credsettle-helps', text: `How CredSettle Settles ${shortName} Personal Loan Debt`, level: 3 },
-    { id: 'cibil-impact', text: `Impact of Personal Loan Settlement on Your CIBIL Score`, level: 3 },
-    { id: 'why-choose-credsettle', text: `Why Choose CredSettle for ${shortName} Loan Relief`, level: 3 },
-    { id: 'step-by-step-process', text: `Steps to Settle ${shortName} Loan Debt Legally`, level: 3 },
+    { id: 'cibil-impact', text: `Impact of ${shortName} Personal Loan Settlement on Your CIBIL Score`, level: 3 },
+    { id: 'why-choose-credsettle', text: `Why Choose CredSettle for ${shortName} Personal Loan Relief`, level: 3 },
+    { id: 'step-by-step-process', text: `Steps to Settle ${shortName} Personal Loan Debt`, level: 3 },
     { id: 'documents-required', text: `Documents for ${shortName} Personal Loan Settlement`, level: 3 },
     { id: 'faqs', text: `${shortName} Personal Loan Settlement FAQs`, level: 3 },
     { id: 'get-legal-help', text: `Get Legal Help for ${shortName} Personal Loan`, level: 3 }

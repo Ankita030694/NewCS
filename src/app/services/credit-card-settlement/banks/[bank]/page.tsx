@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { getBankContentWithFallback, getAllBankSlugs } from '../../banks-content';
+import { getBankContentWithFallback, getBankH2Title, getAllBankSlugs, getShortBankName } from '../../banks-content';
 import { sanitizeMetaTitle, sanitizeMetaDescription } from '@/lib/seo-utils';
 import BankPageClient from './BankPageClient';
 
@@ -21,6 +21,7 @@ export const dynamicParams = true; // Allow dynamic params not in generateStatic
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { bank } = await params;
   const content = getBankContentWithFallback(bank);
+  const shortName = getShortBankName(content.bankName);
   const metaTitle = sanitizeMetaTitle(content.metaTitle || content.title);
   const metaDescription = sanitizeMetaDescription(content.metaDescription);
 
@@ -49,18 +50,19 @@ export default async function BankPage({ params }: PageProps) {
   const { bank } = await params;
 
   const content = getBankContentWithFallback(bank);
+  const shortName = getShortBankName(content.bankName);
 
   // Generate headings for Table of Contents
-  const headings = [
-    { id: 'why-choose-settlement', text: `Why Choose ${content.bankName} Credit Card Settlement`, level: 2 },
-    { id: 'understanding-settlement', text: `${content.bankName} Credit Card Settlement Process`, level: 3 },
-    { id: 'how-credsettle-helps', text: `How CredSettle Settles ${content.bankName} Credit Card Debt`, level: 3 },
-    { id: 'cibil-impact', text: `Impact of ${content.bankName} Credit Card Settlement on Your CIBIL Score`, level: 3 },
-    { id: 'why-choose-credsettle', text: `Why Choose CredSettle for ${content.bankName} Credit Card Settlement`, level: 3 },
-    { id: 'step-by-step-process', text: `Steps to Settle ${content.bankName} Credit Card Debt`, level: 3 },
-    { id: 'documents-required', text: `Documents for ${content.bankName} Credit Card Settlement`, level: 3 },
-    { id: 'faqs', text: `${content.bankName} Credit Card Settlement FAQs`, level: 3 },
-    { id: 'get-legal-help', text: `Get Legal Help for ${content.bankName} Credit Card`, level: 3 }
+    const headings = [
+    { id: 'why-choose-settlement', text: getBankH2Title(content.bankName, 'Credit Card Settlement'), level: 2 },
+    { id: 'understanding-settlement', text: `${shortName} Credit Card Settlement Process`, level: 3 },
+    { id: 'how-credsettle-helps', text: `How CredSettle Settles ${shortName} Credit Card Debt`, level: 3 },
+    { id: 'cibil-impact', text: `Impact of ${shortName} Credit Card Settlement on Your CIBIL Score`, level: 3 },
+    { id: 'why-choose-credsettle', text: `Why Choose CredSettle for ${shortName} Credit Card Relief`, level: 3 },
+    { id: 'step-by-step-process', text: `Steps to Settle ${shortName} Credit Card Debt`, level: 3 },
+    { id: 'documents-required', text: `Documents for ${shortName} Credit Card Settlement`, level: 3 },
+    { id: 'faqs', text: `${shortName} Credit Card Settlement FAQs`, level: 3 },
+    { id: 'get-legal-help', text: `Get Legal Help for ${shortName} Credit Card`, level: 3 }
   ];
 
   // Generate structured data for the page

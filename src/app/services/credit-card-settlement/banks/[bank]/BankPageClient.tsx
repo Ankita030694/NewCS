@@ -9,6 +9,7 @@ import CTAButton from '@/components/CTAButton';
 import AuthorBioBox from '@/components/AuthorBioBox';
 import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import { BankContent } from '../../banks-content';
+import { getShortBankName, getBankH2Title } from '@/lib/seo-utils';
 
 interface BankPageClientProps {
   content: BankContent;
@@ -16,6 +17,7 @@ interface BankPageClientProps {
 }
 
 export default function BankPageClient({ content, headings }: BankPageClientProps) {
+  const shortName = getShortBankName(content.bankName);
   const [isFirefox, setIsFirefox] = useState(false);
 
   useEffect(() => {
@@ -167,7 +169,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    Why Choose {content.bankName} Credit Card Settlement
+                    {getBankH2Title(content.bankName, 'Credit Card Settlement')}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -195,7 +197,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    {content.bankName} Credit Card Settlement Process
+                    {shortName} Credit Card Settlement Process
                   </h3>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -223,7 +225,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    How CredSettle Settles {content.bankName} Credit Card Debt
+                    How CredSettle Settles {shortName} Credit Card Debt
                   </h3>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -251,7 +253,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    Impact of {content.bankName} Credit Card Settlement on Your CIBIL Score
+                    Impact of {shortName} Credit Card Settlement on Your CIBIL Score
                   </h3>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -279,8 +281,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    Why Choose CredSettle for {content.bankName} Credit Card Settlement
-                  </h3>
+                    Why Choose CredSettle for {shortName} Credit Card Relief</h3>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
                     style={{
@@ -307,7 +308,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    Steps to Settle {content.bankName} Credit Card Debt
+                    Steps to Settle {shortName} Credit Card Debt
                   </h3>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -335,7 +336,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    Documents for {content.bankName} Credit Card Settlement
+                    Documents for {shortName} Credit Card Settlement
                   </h3>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -387,7 +388,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                         className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full"
                         style={{ color: '#0C2756' }}
                       >
-                        Ready to Settle Your {content.bankName} Credit Card Dues Legally?
+                        Ready to Settle Your {shortName} Credit Card Dues Legally?
                       </h3>
                       <p
                         className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full"

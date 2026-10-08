@@ -1,5 +1,8 @@
+import { getShortBankName, getBankH2Title } from '@/lib/seo-utils';
 // Import comprehensive bank content generator
 import { generateBankContent, generateBankSlug, getBankMetaTitle, getBankMetaDescription, getShortBankName } from './bank-content-generator';
+
+export { getShortBankName, getBankH2Title };
 
 export interface BankContent {
   bankName: string;

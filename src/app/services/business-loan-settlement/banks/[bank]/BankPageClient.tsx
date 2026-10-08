@@ -8,6 +8,7 @@ import TableOfContents from '@/components/TableOfContents';
 import CTAButton from '@/components/CTAButton';
 import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import { BankContent } from '../../banks-content';
+import { getShortBankName, getBankH2Title } from '@/lib/seo-utils';
 
 interface BankPageClientProps {
   content: BankContent;
@@ -15,6 +16,7 @@ interface BankPageClientProps {
 }
 
 export default function BankPageClient({ content, headings }: BankPageClientProps) {
+  const shortName = getShortBankName(content.bankName);
   const [isFirefox, setIsFirefox] = useState(false);
 
   useEffect(() => {
@@ -166,7 +168,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    Why Choose {content.bankName} Business Loan Settlement
+                    {getBankH2Title(content.bankName, 'Business Loan Settlement')}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -194,7 +196,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    {content.bankName} Business Loan Settlement Process
+                    {shortName} Business Loan Settlement Process
                   </h3>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -222,7 +224,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    How CredSettle Settles {content.bankName} Business Loan Debt
+                    How CredSettle Settles {shortName} Business Loan Debt
                   </h3>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -250,7 +252,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    Impact of {content.bankName} Business Loan Settlement on Your Credit Rating
+                    Impact of {shortName} Business Loan Settlement on Your Credit Rating
                   </h3>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -278,8 +280,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    Why Choose CredSettle for {content.bankName} Business Loan Settlement
-                  </h3>
+                    Why Choose CredSettle for {shortName} Business Loan Relief</h3>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
                     style={{
@@ -306,7 +307,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    Steps to Settle {content.bankName} Business Loan Debt
+                    Steps to Settle {shortName} Business Loan Debt
                   </h3>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -334,7 +335,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                       marginBottom: '20px'
                     }}
                   >
-                    Documents for {content.bankName} Business Loan Settlement
+                    Documents for {shortName} Business Loan Settlement
                   </h3>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -383,13 +384,13 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                         className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full"
                         style={{ color: '#0C2756' }}
                       >
-                        Ready to Settle Your {content.bankName} Business Loan Legally?
+                        Ready to Settle Your {shortName} Business Loan Legally?
                       </h3>
                       <p
                         className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full"
                         style={{ color: 'rgba(12, 39, 86, 0.70)' }}
                       >
-                        Get professional legal assistance from CredSettle’s lawyer panel. Secure an RBI-compliant One-Time Settlement, protect your assets, and restore cash flow-start your path to business recovery today.
+                        Get expert legal help from CredSettle’s lawyer team. Settle under RBI rules, protect your assets, and save your cash flow. Start your debt relief path today.
                       </p>
                     </div>
 

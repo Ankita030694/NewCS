@@ -473,6 +473,15 @@ const bankInfoMap: Record<string, BankInfo> = {
     headquarters: 'Gurgaon',
     notableFeatures: ['Buy now pay later', 'E-commerce integration', 'Digital'],
     settlementReputation: 'Flexible BNPL settlements'
+  },
+  'ahmedabad-mercantile-co-operative-bank': {
+    name: 'Ahmedabad Mercantile Co-operative Bank',
+    slug: 'ahmedabad-mercantile-co-operative-bank',
+    type: 'Private Bank',
+    established: '1966',
+    headquarters: 'Ahmedabad',
+    notableFeatures: ['Leading Urban Co-operative Bank in Gujarat', 'Comprehensive commercial lending', 'RBI scheduled bank'],
+    settlementReputation: 'Follows RBI OTS guidelines for business debt'
   }
 };
 
@@ -538,84 +547,108 @@ export function generateBankContent(bankSlug: string): Partial<BankContent> | {}
 
     // H2: Why People Choose Business Loan Settlement with [Bank Name]
     whyChooseSettlement: [
-      `Business loan debt can hurt even the strongest firms. If your ${name} loan EMIs are too high, you do not have to close down. Market slowdowns and delayed client payments happen. When debt takes up most of your cash flow, you need a safe way out. A One-Time Settlement (OTS) with ${name} gives you a fresh start. Under RBI rules, you can settle your unpaid loan for a lower lump sum. Most settlements reduce the total dues by 30% to 70%. This stops recovery calls right away. It also keeps your business assets safe. You can protect your firm and get back on track with peace of mind.`,
+      `Business loan debt can hurt even the strongest firms. If your ${name} loan EMIs are too high, you do not have to close down your business. Cash flow drops and late client payments are common. When loan dues take up your cash flow, you need a safe way out. A One-Time Settlement (OTS) with ${name} gives you a fresh start. Under RBI rules, you can settle your unpaid loan for a lower lump sum. Most settlements cut the total dues by 30% to 70%. This stops recovery calls right away. It also keeps your business assets safe. You can protect your firm and get back on track in peace.`,
 
-      `Falling behind on ${name} business loan payments causes huge stress. High interest and late fees add up fast each month. Daily calls from recovery agents hurt your focus and your team. You may also worry about legal notices or losing business assets. A legal loan settlement with ${name} solves this problem. CredSettle negotiates directly with ${name} under official RBI guidelines. We help reduce your outstanding loan balance by 30% to 70%. This frees up working capital for your daily operations. You can save your company, protect your staff, and clear your debt for good.`,
+      `Falling behind on ${name} loan dues brings high stress. Late fees and high interest grow fast each month. Daily calls from agents hurt your work and peace of mind. You may also worry about legal notices or losing business tools. A legal loan settlement with ${name} solves this issue. CredSettle talks with the bank under RBI rules. We help cut your loan dues by 30% to 70%. This frees up cash for your daily business needs. You can save your firm, protect your staff, and clear your debt for good.`,
 
-      `A business loan settlement with ${name} is a smart financial move when revenue drops. Instead of risking asset seizure or court cases, you reach a legal agreement. You pay an agreed reduced amount to close the loan account permanently. CredSettle works with ${name} to secure the best terms for your business. We protect your company equipment, property, and cash flow. Our legal team handles all talks so you never face harassment. This clear path lets you run your business without the weight of heavy debt.`
+      `A loan settlement with ${name} is a smart step when business income drops. Instead of risking asset loss or court cases, you reach a legal deal. You pay a lower agreed sum to close the loan account for good. CredSettle works with ${name} to get the best terms for your business. We protect your company tools, shop, and cash flow. Our legal team handles all talks so you never face harassment. This clear path lets you run your business without heavy debt.`
     ][whyVariant],
 
     // H2: Understanding [Bank Name] Business Loan Settlement Process
     understandingSettlement: [
-      `A business loan settlement with ${name} follows the RBI One-Time Settlement (OTS) framework. This process lets a business close an overdue loan by paying a reduced sum. Our legal team submits a formal proposal to ${name}. We present clear proof of your financial hardship. This includes cash flow drops, market changes, or client payment delays. The bank reviews your case and agrees to waive a large portion of interest and principal. Once approved, you receive a formal settlement letter. After you pay the agreed sum, ${name} issues a No Dues Certificate (NOC) and closes the loan for good.`,
+      `A business loan settlement with ${name} follows RBI One-Time Settlement rules. This path lets a business close an old loan by paying a lower sum. Our legal team sends a formal proposal to ${name}. We share clear proof of your business hardship. This includes lower sales or client payment delays. The bank reviews your file and agrees to waive a big part of your dues. Once approved, you get a formal settlement letter. After you pay the agreed sum, the bank gives you a No Dues Certificate and closes the loan for good.`,
 
-      `Settling a business loan with ${name} is different from a normal loan closure. It is a formal legal agreement between your business and the bank. ${name} reviews your loan age, default status, and current income capacity. The bank then agrees to accept a lower one-time payment or structured installments. Most settlements range from 30% to 65% of the total dues. Once you make the final payment, the bank drops all legal claims. You receive full account closure papers that protect you from future disputes.`,
+      `Settling a business loan with ${name} is a formal legal agreement between your firm and the bank. ${name} checks your loan age, missed payments, and current income. The bank then agrees to accept a lower one-time payment or easy parts. Most settlements range from 30% to 65% of total dues. Once you make the final payment, the bank drops all legal steps. You get full account closure papers that protect you from future claims.`,
 
-      `CredSettle knows the exact settlement rules and policies of ${name}. We know how their recovery team evaluates corporate and SME hardship files. We draft a solid legal proposal with your business records. We show ${name} why a settlement is the best outcome for both sides. We negotiate firmly to get the highest possible waiver on your debt. We also ensure that all collateral and personal guarantees are fully released upon closure.`
+      `Our team knows how ${name} handles business debt cases. We know what the bank looks for in a hardship file. We draft a clear legal plan using your business records. We show the bank why an OTS deal is the best choice for both sides. Our lawyers work hard to get you the lowest payout. We also make sure the bank frees all pledged assets and personal bonds.`
     ][processVariant],
 
     // H2: How CredSettle Helps You Settle [Bank Name] Business Loans Legally
-    howCredSettleHelps: `CredSettle gives you full legal support to settle your ${name} business loan. Our team of experienced banking lawyers manages the entire process for you. First, we review your loan papers, account statements, and business cash flow. Next, we prepare a strong hardship proposal under RBI rules. We submit this directly to ${name} and lead all negotiations. We work hard to reduce your total dues by up to 50% or more, including our fees. This means if you owe ₹50 lakhs, we aim to settle the full amount for about ₹25 lakhs or less. We also stop recovery agent calls within 48 hours. When the settlement is complete, we secure your official No Dues Certificate (NOC) and release your collateral.`,
+    howCredSettleHelps: `CredSettle gives you full legal aid to settle your ${name} business loan. Our panel of experienced banking lawyers manages the whole process for you. First, we review your loan papers, bank statements, and cash flow. Next, we prepare a strong hardship plan under RBI rules. We submit this directly to ${name} and lead all talks. We work hard to cut your total dues by up to 50% or more, including our fees. If you owe ₹50 lakhs, we aim to settle the full amount for ₹25 lakhs or less. We also stop recovery agent calls within 48 hours. When the settlement is complete, we secure your official No Dues Certificate (NOC) and release your collateral.`,
 
     // H2: Impact of Business Loan Settlement on Your Credit Rating
     cibilImpact: [
-      `Settling a business loan with ${name} will affect your credit score in the short term. The bank marks the loan status as "Settled" on credit bureau reports. This can lower credit scores by 50 to 100 points initially. However, this dip is only temporary. A settled loan is far better than an active default, which ruins your credit for years. CredSettle helps you rebuild your credit systematically. By following our step-by-step credit repair guide, most business owners see their score rise back to 700+ within 12 to 24 months.`,
+      `Settling a business loan with ${name} will affect your credit score in the short term. The bank marks the loan status as "Settled" on credit bureau reports. This can lower credit scores by 50 to 100 points initially. But this dip is only temporary. A settled loan is far better than an open default, which ruins your credit for years. CredSettle helps you rebuild your credit systematically. By following our simple credit plan, most business owners see their score rise back to 700+ within 12 to 24 months.`,
 
-      `When you complete an OTS with ${name}, your credit report reflects the settled status. Future lenders will see that you resolved your past debt through a legal process. An ongoing default damages your reputation and stops all future credit. In contrast, a settlement puts an end to growing debt and legal risks. CredSettle guides you on how to use secured credit cards and short-term lines to boost your score quickly. Within two years, your business can qualify for fresh credit again.`,
+      `When you finish an OTS with ${name}, your credit report shows the loan as settled. Future lenders see that you resolved your past debt through a legal process. An open default hurts your name and stops all new loans. In contrast, a settlement ends growing debt and legal risk. CredSettle guides you on how to use secured cards to boost your score fast. Within two years, your business can qualify for new credit again.`,
 
-      `Transparency is our priority at CredSettle. We explain the credit impact of settling with ${name} before you begin. The word "Settled" will appear on your bureau report. But you also receive official closure letters and NOC certificates. These documents prove that you cleared all dues under a formal agreement. With our credit rebuilding support, you can restore your financial standing and grow your business with confidence.`
+      `Honesty is our priority at CredSettle. We explain the credit score impact of settling with ${name} before you begin. The word "Settled" will show on your bureau report. But you also get official closure letters and NOC papers from the bank. These papers prove that you cleared all dues legally. With our credit repair advice, you can boost your score and grow your business in peace.`
     ][impactVariant],
 
     // H2: Why Choose CredSettle for [Bank Name] Business Loan Settlement
     whyChooseCredSettle: [
-      `CredSettle is India's most trusted debt settlement firm for ${name} business loans. Our team has deep legal knowledge and years of banking experience. We follow strict RBI guidelines to ensure your settlement is safe, valid, and permanent. Unlike unverified agents who make false promises, we offer honest advice and clear fees. We have settled hundreds of business loans with ${name} across India. We stop recovery harassment immediately, protect your company assets, and secure maximum debt relief.`,
+      `CredSettle is India's trusted firm for ${name} business loan settlements. Our team has deep legal skill and years of banking experience. We follow RBI rules so your settlement is safe, valid, and permanent. We offer honest advice and clear fees with no hidden costs. We have settled hundreds of bank loans across India. We stop harassment fast, protect your assets, and win maximum debt relief.`,
 
-      `Choosing CredSettle gives your business the legal shield it needs. Our seasoned advocates deal directly with ${name}'s senior settlement managers. We understand their approval process and documentation standards. This expertise helps us win high debt waivers of 40% to 65% for our clients. We handle all paperwork, legal notices, and lender calls. You can stay focused on running your business while we handle your debt.`,
+      `Choosing CredSettle gives your business the legal shield it needs. Our seasoned advocates deal directly with ${name}'s senior settlement managers. We understand their approval rules and file standards. This skill helps us win high debt waivers of 40% to 65% for our clients. We handle all paperwork, legal notices, and lender calls. You can stay focused on running your business while we handle your debt.`,
 
-      `CredSettle protects what matters most to you: your business, your assets, and your peace of mind. We act quickly to halt aggressive recovery tactics and legal threats from ${name}. Our lawyers draft ironclad settlement terms that release personal guarantees and business liens. We guide you from the first free call until you hold the final No Dues Certificate. Thousands of entrepreneurs trust CredSettle for dignified, legal debt resolution.`
+      `CredSettle protects what matters most: your business, your assets, and your peace of mind. We act fast to stop harsh recovery calls and legal notices from the bank. Our lawyers draft clear settlement terms that release personal bonds and business liens. We guide you until you hold the final No Dues Certificate. Thousands of business owners trust CredSettle for safe, legal debt relief.`
     ][whyChooseVariant],
 
     // H2: Step-by-Step Process to Start Your [Bank Name] Business Loan Settlement
     stepByStepProcess: [
-      `Step 1: Free Consultation. Contact us for a free review of your ${name} loan. We assess your dues and explain your settlement options. Step 2: Case Review. Our legal team reviews your loan papers, tax returns, and bank statements to build a strong hardship case. Step 3: Proposal Submission. We draft a formal OTS proposal and send it to ${name} under RBI guidelines. Step 4: Legal Negotiation. Our lawyers negotiate directly with ${name} to secure the maximum debt waiver. Step 5: Settlement Approval. ${name} issues a formal written settlement letter with the agreed amount. Step 6: Final Closure. You pay the reduced sum. ${name} gives you a No Dues Certificate and releases your assets.`,
+      `Step 1: Free Call. Contact us for a free review of your ${name} loan. We check your dues and explain your settlement options.
+Step 2: Case Review. Our legal team checks your loan papers and bank records to build a strong hardship case.
+Step 3: OTS Filing. We draft a formal OTS proposal and send it to ${name} under RBI rules.
+Step 4: Legal Talks. Our lawyers negotiate directly with the bank to get the lowest payout.
+Step 5: Written Deal. ${name} issues a formal written settlement letter with the agreed amount.
+Step 6: Account Closed. You pay the agreed sum. The bank gives you a No Dues Certificate and frees your assets.`,
 
-      `Step 1: Initial Assessment. We analyze your ${name} business loan balance, EMI history, and current cash flow. Step 2: Lawyer Assignment. A specialized banking advocate is assigned to manage your case. Step 3: Harassment Protection. We send formal notices to stop recovery calls and agent visits right away. Step 4: OTS Filing. We submit a detailed hardship dossier to ${name}'s settlement committee. Step 5: Terms Finalization. We negotiate the lowest payment amount and safe installment terms. Step 6: Full Debt Relief. You pay the settlement amount, receive your NOC, and clear your legal liabilities.`,
+      `Step 1: Initial Check. We analyze your ${name} loan balance, payment history, and current cash flow.
+Step 2: Lawyer Assigned. A dedicated banking advocate is assigned to manage your file.
+Step 3: Stop Harassment. We send formal notices to stop recovery calls and agent visits right away.
+Step 4: Hardship Filing. We submit a detailed hardship file to ${name}'s settlement team.
+Step 5: Terms Finalized. We negotiate the lowest payment amount and safe installment terms.
+Step 6: Full Debt Relief. You pay the settlement sum, get your NOC, and clear all legal liabilities.`,
 
-      `Step 1: Contact CredSettle. Reach out to our legal team via our website or phone for a private consultation. Step 2: Document Audit. We examine your loan contracts, collateral records, and financial statements. Step 3: Strategy & Proposal. We prepare an RBI-compliant settlement offer tailored to your budget. Step 4: Bank Negotiations. Our team negotiates with ${name} decision-makers to waive penalties and interest. Step 5: Official Agreement. We verify the bank's written OTS letter before any payment is made. Step 6: Account Closure. You complete the payment and get official proof of loan closure.`
+      `Step 1: Contact Us. Reach out to our legal team via our website or phone for a private consultation.
+Step 2: Document Audit. We review your ${name} loan contracts, asset records, and bank sheets.
+Step 3: Strategy & Plan. We prepare an RBI-compliant settlement offer tailored to your budget.
+Step 4: Bank Talks. Our team negotiates with bank officers to waive penalties and extra interest.
+Step 5: Official Agreement. We check the bank's written OTS letter before any payment is made.
+Step 6: Account Closed. You pay the agreed amount and get official proof of loan closure.`
     ][stepsVariant],
 
     // H2: Documents Required for [Bank Name] Business Loan Settlement
-    documentsRequired: `To settle your ${name} business loan, you need basic business and loan records. These include: (1) Your original loan agreement with ${name}. (2) Latest loan account statement showing total dues. (3) Business registration proof like GST certificate or incorporation papers. (4) PAN cards and Aadhaar cards of business owners or directors. (5) Bank statements for the last 6 to 12 months. (6) Profit and loss statements or income tax returns. (7) Any demand letters or legal notices received from ${name}. (8) Proof of financial hardship such as reduced revenue or loss of contracts. CredSettle reviews and organizes all documents to ensure fast approval from ${name}.`,
+    documentsRequired: `To settle your ${name} business loan, you need basic records:
+1. Original loan agreement with ${name}.
+2. Latest loan account statement showing total dues.
+3. Business registration proof like GST or shop act license.
+4. PAN and Aadhaar cards of business owners or partners.
+5. Bank statements for the last 6 to 12 months.
+6. Recent income tax returns or profit and loss sheets.
+7. Any demand letters or legal notices from the bank.
+8. Proof of business loss or lower cash flow.
+CredSettle checks and files all papers for quick bank approval.`,
 
     // Generate FAQs
     faqs: [
       {
-        question: `What is the minimum settlement percentage for ${name} business loans?`,
-        answer: `${name} typically settles business loans for 30% to 60% of total dues. The exact waiver depends on how old the loan is, whether it has collateral, and your verified cash flow. CredSettle works to get you the highest possible discount under RBI rules.`
+        question: `How much discount can I get on a ${name} business loan settlement?`,
+        answer: `Most firms settle with ${name} for 30% to 60% of total dues. The exact discount depends on loan age and proof of loss. CredSettle works to get you the lowest legal amount.`
       },
       {
-        question: `Can I settle my secured business loan with ${name} while protecting assets?`,
-        answer: `Yes, you can settle secured business loans with ${name}. Our legal team negotiates terms that protect your machinery, property, and inventory. Once you pay the agreed settlement amount, the bank releases all collateral liens.`
+        question: `Can I settle a secured business loan with ${name} and keep my assets?`,
+        answer: `Yes. You can settle secured loans. Our legal team protects your tools and property. Once you pay the settlement sum, the bank removes all liens on your assets.`
       },
       {
-        question: `How long does the business loan settlement process take with ${name}?`,
-        answer: `Settling a business loan with ${name} usually takes 60 to 120 days. Simple unsecured loans close faster, while complex loans with collateral may take a little longer. CredSettle tracks every step to speed up your case.`
+        question: `How long does the loan settlement take with ${name}?`,
+        answer: `Settling a business loan with ${name} takes about 60 to 90 days. Unsecured loans close faster. Cases with property take a bit longer. We track each step to save time.`
       },
       {
         question: `Will my business credit rating recover after settling with ${name}?`,
-        answer: `Yes, your credit score will recover. The settlement is marked as "Settled" on bureau records, which causes a short dip. With CredSettle's credit repair advice, most owners rebuild their score back above 700 within 12 to 24 months.`
+        answer: `Yes, your credit score will recover. The bureau marks the loan as "Settled". With CredSettle's step-by-step credit rebuild guide, most owners reach a 700+ score in 12 to 24 months.`
       },
       {
         question: `How can CredSettle help me get a better deal with ${name}?`,
-        answer: `Our banking lawyers know ${name}'s exact settlement policies and limits. We build a solid hardship case and handle all talks. On average, we help clients settle for up to 50% of outstanding debt, including our fees.`
+        answer: `Our banking lawyers know ${name}'s exact settlement rules. We build a solid hardship case and handle all talks. On average, we help clients save up to 50% or more on outstanding debt, including our fees.`
       },
       {
-        question: `What happens if ${name} rejects my business loan settlement proposal?`,
-        answer: `If ${name} asks for changes, our legal team updates the hardship proof and revises the payment plan. We negotiate until we find an amount that fits your budget and satisfies the bank's committee.`
+        question: `What if ${name} rejects my initial loan settlement offer?`,
+        answer: `If the bank asks for changes, our legal team updates the hardship file. We adjust the payment plan. We negotiate until we find a sum that fits your budget and satisfies the bank.`
       },
       {
-        question: `Is business loan settlement with ${name} legally binding?`,
-        answer: `Yes, an RBI-compliant One-Time Settlement is a legal contract. Once you pay the agreed amount, ${name} issues a formal No Dues Certificate. This permanently ends all claims and legal actions against your business.`
+        question: `Is business loan settlement with ${name} legal and binding?`,
+        answer: `Yes. An RBI-approved loan settlement is a valid legal contract. Once you pay the agreed sum, the bank gives you a No Dues Certificate. This closes all claims and court steps against your business for good.`
       }
     ]
   };

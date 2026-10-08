@@ -1,5 +1,8 @@
 // Import comprehensive bank content generator for app loan settlement
 import { generateBankContent, generateBankSlug, getBankMetaTitle } from './bank-content-generator';
+import { getShortBankName, getBankH2Title } from '@/lib/seo-utils';
+
+export { getShortBankName, getBankH2Title };
 
 export interface BankContent {
   bankName: string;
@@ -147,17 +150,18 @@ export function getBankContentWithFallback(bankSlug: string): BankContent {
   );
   
   const bankName = bankEntry || bankSlug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+  const shortName = getShortBankName(bankName);
   const slug = bankSlug;
   
   // Default/fallback content structure
   const defaultContent: BankContent = {
     bankName,
     slug,
-    title: `${bankName} App Loan Settlement: How to Settle Your App Loan Dues with ${bankName} Legally in India (2025 Guide)`,
+    title: `${shortName} App Loan Settlement Guide | CredSettle`,
     metaTitle: generatedContent?.metaTitle || getBankMetaTitle(bankName),
-    metaDescription: `Struggling with ${bankName} app loan dues and harassment? CredSettle helps you legally settle app loan debt under RBI guidelines. Stop harassment, navigate app loan policies, and achieve debt freedom with expert legal assistance.`,
-    heroTitle: `${bankName} App Loan Settlement`,
-    heroDescription: `Get expert legal help to clear your ${bankName} app loan dues. Settle debt under RBI rules. Stop agent calls, protect your privacy, and live debt free with CredSettle.`,
+    metaDescription: `Struggling with ${shortName} app loan dues? CredSettle helps you legally settle app loan debt under RBI guidelines and stop recovery harassment.`,
+    heroTitle: `${shortName} App Loan Settlement`,
+    heroDescription: `Get expert legal help to clear your ${shortName} app loan dues. Settle debt under RBI rules. Stop agent calls, protect your privacy, and live debt free with CredSettle.`,
     whyChooseSettlement: generatedContent?.whyChooseSettlement || `App loan debt can grow fast due to high daily interest rates. If you fall behind on your ${bankName} loan, extra fees add up quickly. Collection agents often call many times a day. An RBI One-Time Settlement (OTS) gives you a legal way out. CredSettle steps in to talk with ${bankName}. We help reduce your total dues by 30% to 70%. We stop harassment calls right away and close your account for good.`,
     understandingSettlement: generatedContent?.understandingSettlement || `Settling an app loan with ${bankName} is fully legal under RBI rules. You pay a lower one-time amount to clear your dues for good. CredSettle lawyers submit your case directly to ${bankName}. We present clear proof of your financial hardship. The lender reviews the file and approves a large waiver on the total balance. Once you pay, ${bankName} gives you an official No Dues Certificate.`,
     howCredSettleHelps: generatedContent?.howCredSettleHelps || `CredSettle gives you full legal support to settle your ${bankName} app loan. Our team reviews your loan papers and current budget. We build a strong hardship case to show why you cannot pay in full. We negotiate directly with ${bankName} to cut 40% to 60% off your dues. We also take over all recovery calls to give you instant peace of mind. You settle your debt at a fraction of the cost and become debt free.`,

@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import { getStateContentWithFallback, getAllStateSlugs } from '../states-content';
-import { sanitizeMetaTitle, sanitizeMetaDescription } from '@/lib/seo-utils';
+import { sanitizeMetaDescription, sanitizeMetaTitle, getShortStateName } from '@/lib/seo-utils';
 import StatePageClient from './StatePageClient';
 
 // List of all Indian states and UTs
@@ -137,7 +137,7 @@ function generateHeadings(content: any) {
   if (content.benefits) {
     headings.push({
       id: 'benefits',
-      text: `Why Choose CredSettle for NBFC Loan Settlement in ${content.stateName}`,
+      text: `Why Choose CredSettle in ${shortState}`,
       level: 2
     });
   }
@@ -161,7 +161,7 @@ function generateHeadings(content: any) {
   if (content.caseStudy) {
     headings.push({
       id: 'case-study',
-      text: `NBFC Loan Settlement Case Study in ${content.stateName}`,
+      text: `Settlement Case Study in ${shortState}`,
       level: 2
     });
   }
@@ -169,7 +169,7 @@ function generateHeadings(content: any) {
   if (content.finalThoughts) {
     headings.push({
       id: 'final-thoughts',
-      text: `Final Thoughts on NBFC Loan Settlement in ${content.stateName}`,
+      text: `Final Thoughts on Settlement in ${shortState}`,
       level: 2
     });
   }

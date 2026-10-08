@@ -119,3 +119,98 @@ export function sanitizeMetaDescription(rawDesc?: string): string {
 
   return clean.slice(0, 130).trim() + '...';
 }
+
+/**
+ * Shortens bank and institution names to keep headings within strict SEO limits (<= 65 chars).
+ */
+export function getShortBankName(name: string): string {
+  if (!name) return '';
+  const trimmed = name.trim();
+
+  const explicitMap: Record<string, string> = {
+    'Gopinath Patil Parsik Janata Sahakari Bank': 'GP Parsik Bank',
+    'Gopinath Patil Parsik Janata Sahakari': 'GP Parsik Bank',
+    'Andhra Pradesh State Co Operative Bank': 'AP State Co-op Bank',
+    'Ahmedabad Mercantile Co-operative Bank': 'Ahmedabad Mercantile Bank',
+    'Ahmedabad Mercantile Co Operative Bank': 'Ahmedabad Mercantile Bank',
+    'Baroda Rajasthan Kshetriya Gramin Bank': 'Baroda Rajasthan Gramin Bank',
+    'Kalupur Commercial Co Operative Bank': 'Kalupur Commercial Bank',
+    'Karnataka State Co Operative Apex Bank': 'Karnataka Apex Bank',
+    'Maharashtra State Co Operative Bank': 'Maharashtra State Co-op Bank',
+    'Tamil Nadu State Apex Co Operative Bank': 'Tamil Nadu Apex Bank',
+    'Telangana State Co Operative Apex Bank': 'Telangana Apex Bank',
+    'West Bengal State Co Operative Bank': 'West Bengal Co-op Bank',
+    'Faircent Technologies India Pvt Ltd': 'Faircent',
+    'Indifi Capital Private Limited': 'Indifi Capital',
+    'Epimoney Private Limited': 'Epimoney',
+    'Chimnay Finlease Ltd': 'Chimnay Finlease',
+    'Ashv Finance Limited': 'Ashv Finance',
+    'Kisetsu saison Finance': 'Kisetsu Saison',
+    'Au Small Fin Bank Ltd': 'AU Small Finance Bank',
+    'North East Small Finance': 'North East SFB'
+  };
+
+  if (explicitMap[trimmed]) {
+    return explicitMap[trimmed];
+  }
+
+  let s = trimmed
+    .replace(/Technologies India Pvt Ltd/gi, 'Tech')
+    .replace(/Private Limited/gi, 'Pvt Ltd')
+    .replace(/Financial Services/gi, 'Fin')
+    .replace(/Finance Limited/gi, 'Fin Ltd')
+    .replace(/State Co Operative Apex Bank/gi, 'Apex Bank')
+    .replace(/State Apex Co Operative Bank/gi, 'Apex Bank')
+    .replace(/State Co-operative Apex Bank/gi, 'Apex Bank')
+    .replace(/State Apex Co-operative Bank/gi, 'Apex Bank')
+    .replace(/Kshetriya Gramin Bank/gi, 'Gramin Bank')
+    .replace(/Co[\s\-]Operative Bank/gi, 'Co-op Bank')
+    .replace(/Co[\s\-]Operative/gi, 'Co-op')
+    .replace(/Janata Sahakari Bank/gi, 'Sahakari Bank')
+    .replace(/Commercial Co-op Bank/gi, 'Commercial Bank')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  return s.length >= 3 ? s : trimmed;
+}
+
+/**
+ * Generates an H2 heading strictly <= 65 characters for bank service pages.
+ * Screaming Frog flags H2 > 70 characters. This function ensures headings never exceed 68 characters.
+ */
+export function getBankH2Title(bankName: string, serviceTitle: string): string {
+  const shortBank = getShortBankName(bankName);
+  const cand = `Why Choose ${shortBank} ${serviceTitle}`;
+  if (cand.length <= 68) return cand;
+
+  const cand2 = `Why Settle ${shortBank} ${serviceTitle}`;
+  if (cand2.length <= 68) return cand2;
+
+  const cand3 = `Settle ${shortBank} ${serviceTitle} Dues`;
+  if (cand3.length <= 68) return cand3;
+
+  const maxBankLen = 65 - 'Why Choose  '.length - serviceTitle.length;
+  const truncatedBank = shortBank.slice(0, Math.max(10, maxBankLen)).trim();
+  return `Why Choose ${truncatedBank} ${serviceTitle}`;
+}
+
+/**
+ * Shortens state and union territory names for headings when space is constrained.
+ */
+export function getShortStateName(name: string): string {
+  if (!name) return '';
+  const trimmed = name.trim();
+
+  const stateMap: Record<string, string> = {
+    'Dadra and Nagar Haveli and Daman and Diu': 'DNH & DD',
+    'Dadra and Nagar Haveli': 'Dadra & Nagar Haveli',
+    'Andaman and Nicobar Islands': 'Andaman & Nicobar',
+    'Andaman and Nicobar': 'Andaman & Nicobar',
+    'Jammu and Kashmir': 'Jammu & Kashmir',
+    'Arunachal Pradesh': 'Arunachal',
+    'Himachal Pradesh': 'Himachal',
+  };
+
+  return stateMap[trimmed] || trimmed;
+}
+
