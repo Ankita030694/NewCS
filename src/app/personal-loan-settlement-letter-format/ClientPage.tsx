@@ -1,12 +1,9 @@
 'use client';
-
 import React, { useState } from 'react';
 import Link from 'next/link';
-
 export default function ClientPage() {
-  const [copied, setCopied] = useState(false);
-
-  const letterTemplate = `To,
+    const [copied, setCopied] = useState(false);
+    const letterTemplate = `To,
 The Branch Manager / Delinquent Asset Recovery Division,
 [Name of Bank / NBFC],
 [Branch Address / Regional Office Address],
@@ -43,22 +40,19 @@ Yours sincerely,
 [Complete Postal Address]
 [Mobile Number]
 [Email Address]`;
-
-  const copyToClipboard = () => {
-    navigator.clipboard.writeText(letterTemplate);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 3000);
-  };
-
-  return (
-    <main className="w-full">
+    const copyToClipboard = () => {
+        navigator.clipboard.writeText(letterTemplate);
+        setCopied(true);
+        setTimeout(() => setCopied(false), 3000);
+    };
+    return (<main className="w-full">
       <section className="relative text-white pt-32 pb-20 px-4 md:px-8 overflow-hidden" style={{ backgroundColor: '#0C2756' }}>
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 left-0 w-full h-full bg-[url('/pattern-bg.svg')] bg-repeat opacity-20"></div>
         </div>
         <div className="max-w-4xl mx-auto relative z-10 text-center">
           <span className="inline-block py-1.5 px-4 rounded-full bg-blue-500/20 text-blue-200 text-xs font-bold mb-4 tracking-widest uppercase border border-blue-400/30">
-            Free Legal Template & Guide
+            Free Legal Template & Guide.
           </span>
           <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">Personal Loan Settlement Letter Format</h1>
           <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
@@ -69,7 +63,7 @@ Yours sincerely,
               Get Expert Negotiation Help
             </Link>
             <a href="tel:+918800226635" className="bg-white text-[#0C2756] hover:bg-gray-100 font-bold py-4 px-8 rounded-full transition-all shadow-lg text-lg flex items-center justify-center">
-              Call +91 8800226635
+              Call +91 8800226635.
             </a>
           </div>
         </div>
@@ -84,12 +78,9 @@ Yours sincerely,
                 <h2 className="text-2xl font-bold text-[#0C2756]">Official OTS Proposal Letter Template</h2>
                 <p className="text-sm text-gray-500 mt-1">Copy and customize the text in brackets [ ] before submitting to your bank.</p>
               </div>
-              <button
-                onClick={copyToClipboard}
-                className="px-5 py-2.5 bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold rounded-lg shadow transition-all flex items-center gap-2 flex-shrink-0"
-              >
+              <button onClick={copyToClipboard} className="px-5 py-2.5 bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold rounded-lg shadow transition-all flex items-center gap-2 flex-shrink-0">
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"/>
                 </svg>
                 {copied ? 'Copied to Clipboard!' : 'Copy Template'}
               </button>
@@ -107,11 +98,11 @@ Yours sincerely,
             </h2>
             <div className="prose max-w-none text-gray-700 space-y-4 leading-relaxed">
               <p>
-                Drafting a settlement proposal letter is a legally binding step in negotiating with financial institutions. In India, under the framework of the Reserve Bank of India (RBI) circular on compromise settlements, banks have clear authority to approve haircuts, but their credit committees require robust documentation.
+                Drafting a settlement proposal letter is a legally binding step in negotiating with financial institutions. In India, under the framework of the Reserve Bank of India (RBI) circular on compromise settlements, banks have clear authority to approve haircuts. Their credit committees require robust paperwork.
               </p>
               <h3 className="text-xl font-semibold text-[#0C2756] mt-6 mb-3">Key Elements Bank Officers Look For:</h3>
               <ul className="list-disc pl-6 space-y-2">
-                <li><strong>Clear Proof of Genuine Hardship:</strong> Banks will reject frivolous requests from borrowers with visible repayment capacity. Attach salary slips demonstrating a pay cut, termination letters, medical diagnosis records, or GST filings showing business closure.</li>
+                <li><strong>Clear Proof of Genuine Hardship:</strong> Banks will reject frivolous requests from borrowers with visible repayment capacity. Attach salary slips showing a pay cut, termination letters, medical diagnosis records, or GST filings showing business closure.</li>
                 <li><strong>Realistic Settlement Offer:</strong> Offering 10% on a recently defaulted unsecured loan will be summarily rejected. A realistic initial proposal usually falls between 35% and 50% of the principal outstanding.</li>
                 <li><strong>Explicit Request for No Dues Certificate:</strong> Ensure your letter demands written confirmation that the bank will issue an NDC and refrain from selling the residual debt to asset reconstruction companies (ARCs).</li>
                 <li><strong>Submission Channel:</strong> Always submit this letter via Registered Post with Acknowledgement Due (RPAD) or send it to the bank&apos;s official nodal grievance email address so you hold an indisputable audit trail.</li>
@@ -129,6 +120,5 @@ Yours sincerely,
           </div>
         </div>
       </section>
-    </main>
-  );
+    </main>);
 }

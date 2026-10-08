@@ -4,103 +4,84 @@ import Navbar from '@/components/Navbar';
 import CTAButton from '@/components/CTAButton';
 import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import { useEffect, useState } from 'react';
-
 export default function ServicesPageClient() {
-  const [isFirefox, setIsFirefox] = useState(false);
-  const [openIndex, setOpenIndex] = useState<number | null>(null);
-
-  useEffect(() => {
-    // Detect Firefox browser
-    const userAgent = navigator.userAgent.toLowerCase();
-    setIsFirefox(userAgent.includes('firefox'));
-  }, []);
-
-  const faqs = [
-    {
-      question: "How long does the debt settlement process take?",
-      answer: "The debt settlement process typically takes 12-48 months, depending on your debt amount and lender cooperation. We work efficiently to negotiate the best possible settlement terms for you."
-    },
-    {
-      question: "Will debt settlement affect my credit score?",
-      answer: "Yes, debt settlement may initially impact your credit score. However, our credit repair services help improve your score over time, and settling debts is better than defaulting."
-    },
-    {
-      question: "What types of debts can be settled?",
-      answer: "We can settle credit card debts, personal loans, business loans, car loans, app loans, and NBFC loans. Secured loans like home loans require different approaches."
-    },
-    {
-      question: "How much can I save through debt settlement?",
-      answer: "Savings vary by case, but clients typically save 30-60% of their total debt amount. We negotiate aggressively to maximize your savings while ensuring legal compliance."
-    },
-    {
-      question: "Is debt settlement legal in India?",
-      answer: "Yes, debt settlement is completely legal in India. We follow RBI guidelines and ensure all settlements are compliant with Indian banking regulations."
-    },
-    {
-      question: "What if recovery agents continue harassment?",
-      answer: "Our anti-harassment services include call forwarding, complaint filing with RBI/NCH, and cease & desist notices. We provide immediate legal protection against illegal harassment."
-    }
-  ];
-
-  const toggleFAQ = (index: number) => {
-    setOpenIndex(openIndex === index ? null : index);
-  };
-
-  return (
-    <div className="relative min-h-screen bg-white mt-6">
+    const [isFirefox, setIsFirefox] = useState(false);
+    const [openIndex, setOpenIndex] = useState<number | null>(null);
+    useEffect(() => {
+        // Detect Firefox browser
+        const userAgent = navigator.userAgent.toLowerCase();
+        setIsFirefox(userAgent.includes('firefox'));
+    }, []);
+    const faqs = [
+        {
+            question: "How long does the debt settlement process take?",
+            answer: "The debt settlement process typically takes 12-48 months, depending on your debt amount and lender cooperation. We work efficiently to negotiate the best possible settlement terms for you."
+        },
+        {
+            question: "Will debt settlement affect my credit score?",
+            answer: "Yes, debt settlement may initially impact your credit score. However, our credit repair services help improve your score over time, and settling debts is better than defaulting."
+        },
+        {
+            question: "What types of debts can be settled?",
+            answer: "We can settle credit card debts, personal loans, business loans, car loans, app loans, and NBFC loans. Secured loans like home loans require different approaches."
+        },
+        {
+            question: "How much can I save through debt settlement?",
+            answer: "Savings vary by case, but clients typically save 30-60% of their total debt amount. We negotiate aggressively to maximize your savings while ensuring legal compliance."
+        },
+        {
+            question: "Is debt settlement legal in India?",
+            answer: "Yes, debt settlement is completely legal in India. We follow RBI guidelines and ensure all settlements are compliant with Indian banking regulations."
+        },
+        {
+            question: "What if recovery agents continue harassment?",
+            answer: "Our anti-harassment services include call forwarding, complaint filing with RBI/NCH, and cease & desist notices. We provide immediate legal protection against illegal harassment."
+        }
+    ];
+    const toggleFAQ = (index: number) => {
+        setOpenIndex(openIndex === index ? null : index);
+    };
+    return (<div className="relative min-h-screen bg-white mt-6">
       {/* Background Circle Effect - Chrome/Safari */}
-      {!isFirefox && (
-        <div 
-          className="absolute top-0 left-0"
-          style={{
-            width: '757px',
-            height: '757px',
-            borderRadius: '757px',
-            background: '#007AFF',
-            filter: 'blur(400px)',
-            WebkitFilter: 'blur(400px)', // Safari/Chrome compatibility
-            transform: 'translate(-50%, -50%)',
-            zIndex: 0,
-            opacity: 0.3,
-            willChange: 'filter', // Optimize for animations
-            backfaceVisibility: 'hidden' // Force hardware acceleration
-          }}
-        />
-      )}
+      {!isFirefox && (<div className="absolute top-0 left-0" style={{
+                width: '757px',
+                height: '757px',
+                borderRadius: '757px',
+                background: '#007AFF',
+                filter: 'blur(400px)',
+                WebkitFilter: 'blur(400px)', // Safari/Chrome compatibility
+                transform: 'translate(-50%, -50%)',
+                zIndex: 0,
+                opacity: 0.3,
+                willChange: 'filter', // Optimize for animations
+                backfaceVisibility: 'hidden' // Force hardware acceleration
+            }}/>)}
       
       {/* Firefox-specific blur effect */}
-      {isFirefox && (
-        <div 
-          className="absolute top-0 left-0"
-          style={{
-            width: '757px',
-            height: '757px',
-            borderRadius: '757px',
-            background: 'radial-gradient(circle, rgba(0, 122, 255, 0.4) 0%, rgba(0, 122, 255, 0.2) 30%, rgba(0, 122, 255, 0.1) 60%, transparent 100%)',
-            transform: 'translate(-50%, -50%)',
-            zIndex: 0,
-            opacity: 0.9
-          }}
-        />
-      )}
+      {isFirefox && (<div className="absolute top-0 left-0" style={{
+                width: '757px',
+                height: '757px',
+                borderRadius: '757px',
+                background: 'radial-gradient(circle, rgba(0, 122, 255, 0.4) 0%, rgba(0, 122, 255, 0.2) 30%, rgba(0, 122, 255, 0.1) 60%, transparent 100%)',
+                transform: 'translate(-50%, -50%)',
+                zIndex: 0,
+                opacity: 0.9
+            }}/>)}
       
       {/* Navbar */}
       <Navbar />
 
       {/* Main Content */}
-      <div className="relative z-10" style={{paddingTop: '100px', paddingLeft: '16.2px', paddingRight: '16.2px'}}>
+      <div className="relative z-10" style={{ paddingTop: '100px', paddingLeft: '16.2px', paddingRight: '16.2px' }}>
         <div className="w-full max-w-8xl px-2">
           {/* Page Heading */}
           <div className="text-center mb-6 md:mb-12 px-4 md:px-0">
-            <h1 
-              className="font-medium text-[26px] md:text-5xl mb-4"
-              style={{ 
-                color: '#0C2756',
-                fontFamily: 'Poppins',
-                fontWeight: '500',
-                lineHeight: '1.2'
-              }}
-            >
+            <h1 className="font-medium text-[26px] md:text-5xl mb-4" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: '500',
+            lineHeight: '1.2'
+        }}>
               Our High-Impact Services
             </h1>
           </div>
@@ -117,46 +98,30 @@ export default function ServicesPageClient() {
               {/* Desktop Version - Middle Section: Anti-Harassment (Left) + 3 Services (Right) */}
               <div className="hidden md:flex relative items-center mb-6" style={{ minHeight: '300px', gap: '60px' }}>
                 {/* Left: Main Anti-Harassment Container */}
-                <div 
-                  className="p-6 flex flex-col"
-                  style={{
-                    width: '52%',
-                    height: '300px',
-                    borderRadius: '40px',
-                    background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
-                    boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
-                    position: 'relative',
-                    zIndex: 1
-                  }}
-                >
+                <div className="p-6 flex flex-col" style={{
+            width: '52%',
+            height: '300px',
+            borderRadius: '40px',
+            background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
+            boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
+            position: 'relative',
+            zIndex: 1
+        }}>
                   <div className="flex-1">
-                    <p 
-                      className="font-medium text-left text-2xl mb-4" 
-                      style={{ color: '#0C2756' }}
-                    >
-                      Stop Loan Recovery Agent Harassment - Protect Your Rights with CredSettle
+                    <p className="font-medium text-left text-2xl mb-4" style={{ color: '#0C2756' }}>
+                      Stop Loan Recovery Agent Harassment - Protect Your Rights with CredSettle.
                     </p>
-                    <p 
-                      className="text-left text-sm mb-4" 
-                      style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.6' }}
-                    >
+                    <p className="text-left text-sm mb-4" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.6' }}>
                       Are you facing constant calls, threats, or home visits from loan recovery agents? At CredSettle, we provide India’s leading Anti-Harassment Services designed to legally stop recovery agent harassment and protect your peace of mind.
                     </p>
-                    <p 
-                      className="text-left text-sm" 
-                      style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.6' }}
-                    >
+                    <p className="text-left text-sm" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.6' }}>
                       Our legal experts ensure that lenders and agents follow RBI recovery guidelines while helping you settle your loan safely and ethically.
                     </p>
                   </div>
                   
                   {/* View More Button - Bottom Right */}
                   <div className="flex justify-end mt-1">
-                    <a 
-                      href="/services/anti-harassment"
-                      className="px-5 py-2.5 rounded-md text-sm font-medium text-white transition-colors duration-200 hover:opacity-90 flex items-center gap-2"
-                      style={{ background: '#007AFF' }}
-                    >
+                    <a href="/services/anti-harassment" className="px-5 py-2.5 rounded-md text-sm font-medium text-white transition-colors duration-200 hover:opacity-90 flex items-center gap-2" style={{ background: '#007AFF' }}>
                       View More
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -168,91 +133,59 @@ export default function ServicesPageClient() {
                 {/* Right: 3 Service Containers in Column */}
                 <div className="flex flex-col gap-2" style={{ flex: 1, height: '200px', position: 'relative', zIndex: 10 }}>
                   {/* Service 1 */}
-                  <div 
-                    className="flex-1"
-                    style={{
-                      borderRadius: '30px',
-                      background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.20) 49.48%, rgba(239, 247, 255, 0.80) 94.92%)',
-                      boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
-                      padding: '12px'
-                    }}
-                  >
-                    <p 
-                      className="font-medium text-left mb-1" 
-                      style={{ color: '#0C2756', fontSize: '14px' }}
-                    >
-                      Call Forwarding Services
+                  <div className="flex-1" style={{
+            borderRadius: '30px',
+            background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.20) 49.48%, rgba(239, 247, 255, 0.80) 94.92%)',
+            boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
+            padding: '12px'
+        }}>
+                    <p className="font-medium text-left mb-1" style={{ color: '#0C2756', fontSize: '14px' }}>
+                      Call Forwarding Services.
                     </p>
-                    <p 
-                      className="text-left" 
-                      style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.3', fontSize: '12px' }}
-                    >
+                    <p className="text-left" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.3', fontSize: '12px' }}>
                       Divert all recovery calls directly to our legal helpline.
                     </p>
                   </div>
 
                   {/* Service 2 */}
-                  <div 
-                    className="flex-1"
-                    style={{
-                      borderRadius: '30px',
-                      background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.20) 49.48%, rgba(239, 247, 255, 0.80) 94.92%)',
-                      boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
-                      padding: '12px'
-                    }}
-                  >
-                    <p 
-                      className="font-medium text-left mb-1" 
-                      style={{ color: '#0C2756', fontSize: '14px' }}
-                    >
-                      Complaint Filing
+                  <div className="flex-1" style={{
+            borderRadius: '30px',
+            background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.20) 49.48%, rgba(239, 247, 255, 0.80) 94.92%)',
+            boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
+            padding: '12px'
+        }}>
+                    <p className="font-medium text-left mb-1" style={{ color: '#0C2756', fontSize: '14px' }}>
+                      Complaint Filing.
                     </p>
-                    <p 
-                      className="text-left" 
-                      style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.3', fontSize: '12px' }}
-                    >
+                    <p className="text-left" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.3', fontSize: '12px' }}>
                       We file formal complaints with RBI, NCH, and Cyber Police against harassment.
                     </p>
                   </div>
 
                   {/* Service 3 */}
-                  <div 
-                    className="flex-1"
-                    style={{
-                      borderRadius: '30px',
-                      background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.20) 49.48%, rgba(239, 247, 255, 0.80) 94.92%)',
-                      boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
-                      padding: '12px'
-                    }}
-                  >
-                    <p 
-                      className="font-medium text-left mb-1" 
-                      style={{ color: '#0C2756', fontSize: '14px' }}
-                    >
-                      Cease & Desist Notices
+                  <div className="flex-1" style={{
+            borderRadius: '30px',
+            background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.20) 49.48%, rgba(239, 247, 255, 0.80) 94.92%)',
+            boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
+            padding: '12px'
+        }}>
+                    <p className="font-medium text-left mb-1" style={{ color: '#0C2756', fontSize: '14px' }}>
+                      Cease & Desist Notices.
                     </p>
-                    <p 
-                      className="text-left" 
-                      style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.3', fontSize: '12px' }}
-                    >
+                    <p className="text-left" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.3', fontSize: '12px' }}>
                       Our legal team issues notices to stop illegal recovery activities immediately.
                     </p>
                   </div>
                 </div>
 
                 {/* Animated Connection Lines SVG */}
-                <svg 
-                  className="absolute pointer-events-none" 
-                  style={{ 
-                    width: '80px', 
-                    height: '100%', 
-                    top: 0,
-                    left: '52%',
-                    zIndex: 5 
-                  }}
-                  viewBox="0 0 149 400"
-                  preserveAspectRatio="none"
-                >
+                <svg className="absolute pointer-events-none" style={{
+            width: '80px',
+            height: '100%',
+            top: 0,
+            left: '52%',
+            zIndex: 5
+        }} viewBox="0 0 149 400" preserveAspectRatio="none">
                   <defs>
                     {/* Animated gradient - traveling blue wave from left to right */}
                     <linearGradient id="flowGradient" gradientUnits="userSpaceOnUse">
@@ -271,28 +204,13 @@ export default function ServicesPageClient() {
                   </defs>
                   
                   {/* Path to top container - curves upward to middle of top container */}
-                  <path
-                    d="M 0 200 H 50.6 C 66.6 200 79.6 187 79.6 171 V 120 C 79.6 110 92.6 100 108.6 100 H 149"
-                    stroke="url(#flowGradient)"
-                    strokeWidth="4"
-                    fill="none"
-                  />
+                  <path d="M 0 200 H 50.6 C 66.6 200 79.6 187 79.6 171 V 120 C 79.6 110 92.6 100 108.6 100 H 149" stroke="url(#flowGradient)" strokeWidth="4" fill="none"/>
                   
                   {/* Path to bottom container - curves downward to middle of bottom container */}
-                  <path
-                    d="M 0 200 H 50.6 C 66.6 200 79.6 213 79.6 229 V 280 C 79.6 290 92.6 300 108.6 300 H 149"
-                    stroke="url(#flowGradient)"
-                    strokeWidth="4"
-                    fill="none"
-                  />
+                  <path d="M 0 200 H 50.6 C 66.6 200 79.6 213 79.6 229 V 280 C 79.6 290 92.6 300 108.6 300 H 149" stroke="url(#flowGradient)" strokeWidth="4" fill="none"/>
                   
                   {/* Path to middle container - straight to middle of middle container */}
-                  <path
-                    d="M 0 200 H 149"
-                    stroke="url(#flowGradient)"
-                    strokeWidth="4"
-                    fill="none"
-                  />
+                  <path d="M 0 200 H 149" stroke="url(#flowGradient)" strokeWidth="4" fill="none"/>
                 </svg>
               </div>
 
@@ -300,45 +218,33 @@ export default function ServicesPageClient() {
               <div className="block md:hidden mb-8 px-4 overflow-hidden">
                 <div className="relative w-full max-w-full mx-auto">
                   {/* Main Anti-Harassment Container */}
-                  <div
-                    className="relative flex flex-col p-5 w-full"
-                    style={{
-                      minHeight: '364px',
-                      borderRadius: '40px',
-                      background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
-                      boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)'
-                    }}
-                  >
-                    <div
-                      className="flex flex-col gap-[15px] w-full"
-                      style={{
-                        minHeight: '279px'
-                      }}
-                    >
-                      <p
-                        className="font-medium w-full"
-                        style={{
-                          color: '#0C2756',
-                          fontFamily: 'Poppins',
-                          fontSize: '18px',
-                          fontWeight: 500,
-                          lineHeight: '22px',
-                          letterSpacing: '0.18px'
-                        }}
-                      >
-                        Stop Loan Recovery Agent Harassment - Protect Your Rights with CredSettle
+                  <div className="relative flex flex-col p-5 w-full" style={{
+            minHeight: '364px',
+            borderRadius: '40px',
+            background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
+            boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)'
+        }}>
+                    <div className="flex flex-col gap-[15px] w-full" style={{
+            minHeight: '279px'
+        }}>
+                      <p className="font-medium w-full" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontSize: '18px',
+            fontWeight: 500,
+            lineHeight: '22px',
+            letterSpacing: '0.18px'
+        }}>
+                        Stop Loan Recovery Agent Harassment - Protect Your Rights with CredSettle.
                       </p>
-                      <p
-                        className="w-full"
-                        style={{
-                          color: 'rgba(12, 39, 86, 0.70)',
-                          fontFamily: 'Poppins',
-                          fontSize: '16px',
-                          fontWeight: 400,
-                          lineHeight: '20px',
-                          letterSpacing: '0.16px'
-                        }}
-                      >
+                      <p className="w-full" style={{
+            color: 'rgba(12, 39, 86, 0.70)',
+            fontFamily: 'Poppins',
+            fontSize: '16px',
+            fontWeight: 400,
+            lineHeight: '20px',
+            letterSpacing: '0.16px'
+        }}>
                         Are you facing constant calls, threats, or home visits from loan recovery agents? At CredSettle, we provide India’s leading Anti-Harassment Services designed to legally stop recovery agent harassment and protect your peace of mind.
                         <br /><br />
                         Our legal experts ensure that lenders and agents follow RBI recovery guidelines while helping you settle your loan safely and ethically.
@@ -346,30 +252,25 @@ export default function ServicesPageClient() {
                     </div>
 
                     <a href="/services/anti-harassment" className="self-end mt-4">
-                      <div
-                        className="flex flex-col items-start"
-                        style={{
-                          padding: '7px 14px',
-                          gap: '10px',
-                          borderRadius: '10px',
-                          background: '#007AFF',
-                          boxShadow: '0 1px 6.8px 0 rgba(0, 0, 0, 0.35), 0 -4px 4px 0 rgba(255, 255, 255, 0.10) inset, 0 4px 4px 0 rgba(255, 255, 255, 0.10) inset',
-                          minWidth: '146px',
-                          height: '35px'
-                        }}
-                      >
+                      <div className="flex flex-col items-start" style={{
+            padding: '7px 14px',
+            gap: '10px',
+            borderRadius: '10px',
+            background: '#007AFF',
+            boxShadow: '0 1px 6.8px 0 rgba(0, 0, 0, 0.35), 0 -4px 4px 0 rgba(255, 255, 255, 0.10) inset, 0 4px 4px 0 rgba(255, 255, 255, 0.10) inset',
+            minWidth: '146px',
+            height: '35px'
+        }}>
                         <div className="flex items-center gap-2 ml-3">
-                          <span
-                            style={{
-                              color: '#FFF',
-                              fontFamily: 'Poppins',
-                              fontSize: '15px',
-                              fontWeight: 400,
-                              lineHeight: '20px',
-                              letterSpacing: '0.15px',
-                              textAlign: 'center'
-                            }}
-                          >
+                          <span style={{
+            color: '#FFF',
+            fontFamily: 'Poppins',
+            fontSize: '15px',
+            fontWeight: 400,
+            lineHeight: '20px',
+            letterSpacing: '0.15px',
+            textAlign: 'center'
+        }}>
                             View More
                           </span>
                           <svg width="14" height="16" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -381,89 +282,68 @@ export default function ServicesPageClient() {
                   </div>
 
                   {/* Services Container with SVG Lines */}
-                  <div
-                    className="relative w-full mt-4"
-                    style={{
-                      minHeight: '331px'
-                    }}
-                  >
+                  <div className="relative w-full mt-4" style={{
+            minHeight: '331px'
+        }}>
                     {/* Connecting Lines SVG */}
                 
 
                     {/* Service Cards */}
-                    <div
-                      className="flex justify-center items-center w-full mb-4"
-                      style={{
-                        padding: '15px',
-                        borderRadius: '40px',
-                        background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
-                        boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
-                        minHeight: '93px'
-                      }}
-                    >
-                      <p
-                        className="w-full"
-                        style={{
-                          color: 'rgba(0, 0, 0, 0.70)',
-                          fontFamily: 'Poppins',
-                          fontSize: '14px',
-                          fontWeight: 400,
-                          lineHeight: '20px'
-                        }}
-                      >
-                        <span style={{ fontSize: '16px', color: 'rgba(0, 0, 0, 1)' }}>Call Forwarding Services -</span>
+                    <div className="flex justify-center items-center w-full mb-4" style={{
+            padding: '15px',
+            borderRadius: '40px',
+            background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
+            boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
+            minHeight: '93px'
+        }}>
+                      <p className="w-full" style={{
+            color: 'rgba(0, 0, 0, 0.70)',
+            fontFamily: 'Poppins',
+            fontSize: '14px',
+            fontWeight: 400,
+            lineHeight: '20px'
+        }}>
+                        <span style={{ fontSize: '16px', color: 'rgba(0, 0, 0, 1)' }}>Call Forwarding Services -.</span>
                         {' '}
                         <span style={{ color: 'rgba(0, 0, 0, 0.70)' }}>Divert all recovery calls directly to our legal helpline.</span>
                       </p>
                     </div>
 
-                    <div
-                      className="flex justify-center items-center w-full mb-4"
-                      style={{
-                        padding: '15px',
-                        borderRadius: '40px',
-                        background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
-                        boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
-                        minHeight: '93px'
-                      }}
-                    >
-                      <p
-                        className="w-full"
-                        style={{
-                          color: 'rgba(12, 39, 86, 0.70)',
-                          fontFamily: 'Poppins',
-                          fontSize: '14px',
-                          fontWeight: 400,
-                          lineHeight: '20px'
-                        }}
-                      >
-                        <span style={{ fontSize: '16px', color: 'rgba(0, 0, 0, 1)' }}>Complaint Filing -</span>
+                    <div className="flex justify-center items-center w-full mb-4" style={{
+            padding: '15px',
+            borderRadius: '40px',
+            background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
+            boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
+            minHeight: '93px'
+        }}>
+                      <p className="w-full" style={{
+            color: 'rgba(12, 39, 86, 0.70)',
+            fontFamily: 'Poppins',
+            fontSize: '14px',
+            fontWeight: 400,
+            lineHeight: '20px'
+        }}>
+                        <span style={{ fontSize: '16px', color: 'rgba(0, 0, 0, 1)' }}>Complaint Filing -.</span>
                         {' '}
                         <span style={{ color: 'rgba(12, 39, 86, 0.70)' }}>We file formal complaints with RBI, NCH, and Cyber Police against harassment.</span>
                       </p>
                     </div>
 
-                    <div
-                      className="flex justify-center items-center w-full mb-4"
-                      style={{
-                        padding: '15px',
-                        borderRadius: '40px',
-                        background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
-                        boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
-                        minHeight: '94px'
-                      }}
-                    >
-                      <p
-                        className="w-full"
-                        style={{
-                          color: 'rgba(12, 39, 86, 0.70)',
-                          fontFamily: 'Poppins',
-                          fontSize: '14px',
-                          fontWeight: 400,
-                          lineHeight: '20px'
-                        }}
-                      >
-                        <span style={{ fontSize: '16px', color: 'rgba(12, 39, 86, 1)' }}>Cease & Desist Notices</span>
+                    <div className="flex justify-center items-center w-full mb-4" style={{
+            padding: '15px',
+            borderRadius: '40px',
+            background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
+            boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
+            minHeight: '94px'
+        }}>
+                      <p className="w-full" style={{
+            color: 'rgba(12, 39, 86, 0.70)',
+            fontFamily: 'Poppins',
+            fontSize: '14px',
+            fontWeight: 400,
+            lineHeight: '20px'
+        }}>
+                        <span style={{ fontSize: '16px', color: 'rgba(12, 39, 86, 1)' }}>Cease & Desist Notices.</span>
                         <span style={{ fontSize: '16px', color: 'rgba(0, 0, 0, 1)' }}> -</span>
                         {' '}
                         <span style={{ color: 'rgba(12, 39, 86, 0.70)' }}>Our legal team issues notices to stop illegal recovery activities immediately.</span>
@@ -477,60 +357,47 @@ export default function ServicesPageClient() {
               <div className="hidden md:grid grid-cols-3 gap-3 mb-6">
                 {/* Personal Loan Settlement */}
                 <a href="/services/personal-loan-settlement" className="block no-underline" style={{ color: 'inherit' }}>
-                <div 
-                  className="p-6 relative"
-                  style={{
-                    borderRadius: '40px',
-                    background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
-                    boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
-                    backdropFilter: 'blur(9.050000190734863px)',
-                    minHeight: '200px',
-                    display: 'flex',
-                    flexDirection: 'column'
-                  }}
-                >
+                <div className="p-6 relative" style={{
+            borderRadius: '40px',
+            background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
+            boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
+            backdropFilter: 'blur(9.050000190734863px)',
+            minHeight: '200px',
+            display: 'flex',
+            flexDirection: 'column'
+        }}>
                   {/* Icon in top left */}
                   <div className="mb-3 -ml-12 -mt-12">
-                    <img 
-                      src="/service1.png" 
-                      alt="Personal Loan Settlement" 
-                      style={{ width: '200px', height: '200px' }}
-                    />
+                    <img src="/service1.png" alt="Personal Loan Settlement" style={{ width: '200px', height: '200px' }}/>
                   </div>
                   
                   {/* Left aligned heading */}
-                  <h2 
-                    className="font-medium text-left mb-2" 
-                    style={{ color: '#0C2756', fontSize: '24px' }}
-                  >
+                  <h2 className="font-medium text-left mb-2" style={{ color: '#0C2756', fontSize: '24px' }}>
                     Personal Loan Settlement
                   </h2>
                   
                   {/* Left aligned description */}
-                  <p 
-                    className="text-left mb-3" 
-                    style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}
-                  >
+                  <p className="text-left mb-3" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}>
                     We recognize that life’s financial challenges can be unpredictable. Our experts negotiate with lenders to secure manageable settlement plans for your unsecured personal loans.
                   </p>
                   
                   {/* Left aligned pointers */}
                   <div className="space-y-2">
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Expert negotiation with lenders</span>
+                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Expert negotiation with lenders.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Manageable settlement plans</span>
+                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Manageable settlement plans.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Legal protection throughout</span>
+                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Legal protection throughout.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Reduced financial burden</span>
+                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Reduced financial burden.</span>
                     </div>
                   </div>
                 </div>
@@ -538,60 +405,47 @@ export default function ServicesPageClient() {
 
                 {/* Credit Card Settlement */}
                 <a href="/services/credit-card-settlement" className="block no-underline" style={{ color: 'inherit' }}>
-                <div 
-                  className="p-6 relative"
-                  style={{
-                    borderRadius: '40px',
-                    background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
-                    boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
-                    backdropFilter: 'blur(9.050000190734863px)',
-                    minHeight: '200px',
-                    display: 'flex',
-                    flexDirection: 'column'
-                  }}
-                >
+                <div className="p-6 relative" style={{
+            borderRadius: '40px',
+            background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
+            boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
+            backdropFilter: 'blur(9.050000190734863px)',
+            minHeight: '200px',
+            display: 'flex',
+            flexDirection: 'column'
+        }}>
                   {/* Icon in top left */}
                   <div className="mb-3 -ml-12 -mt-12">
-                    <img 
-                      src="/service2.png" 
-                      alt="Credit Card Settlement" 
-                      style={{ width: '200px', height: '200px' }}
-                    />
+                    <img src="/service2.png" alt="Credit Card Settlement" style={{ width: '200px', height: '200px' }}/>
                   </div>
                   
                   {/* Left aligned heading */}
-                  <h2 
-                    className="font-medium text-left mb-2" 
-                    style={{ color: '#0C2756', fontSize: '24px' }}
-                  >
+                  <h2 className="font-medium text-left mb-2" style={{ color: '#0C2756', fontSize: '24px' }}>
                     Credit Card Settlement
                   </h2>
                   
                   {/* Left aligned description */}
-                  <p 
-                    className="text-left mb-3" 
-                    style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}
-                  >
+                  <p className="text-left mb-3" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}>
                     Credit card debt can be overwhelming due to high interest rates. We secure an affordable One-Time Settlement (OTS), helping you save money and improve your financial outlook.
                   </p>
                   
                   {/* Left aligned pointers */}
                   <div className="space-y-2">
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>One-Time Settlement (OTS)</span>
+                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>One-Time Settlement (OTS).</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Reduced interest rates</span>
+                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Reduced interest rates.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Significant savings</span>
+                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>major savings.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Improved credit score</span>
+                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Improved credit score.</span>
                     </div>
                   </div>
                 </div>
@@ -599,60 +453,47 @@ export default function ServicesPageClient() {
 
                 {/* Business Loan Settlement */}
                 <a href="/services/business-loan-settlement" className="block no-underline" style={{ color: 'inherit' }}>
-                <div 
-                  className="p-6 relative"
-                  style={{
-                    borderRadius: '40px',
-                    background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
-                    boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
-                    backdropFilter: 'blur(9.050000190734863px)',
-                    minHeight: '200px',
-                    display: 'flex',
-                    flexDirection: 'column'
-                  }}
-                >
+                <div className="p-6 relative" style={{
+            borderRadius: '40px',
+            background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
+            boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
+            backdropFilter: 'blur(9.050000190734863px)',
+            minHeight: '200px',
+            display: 'flex',
+            flexDirection: 'column'
+        }}>
                   {/* Icon in top left */}
                   <div className="mb-3 -ml-12 -mt-12">
-                    <img 
-                      src="/service3.png" 
-                      alt="Business Loan Settlement" 
-                      style={{ width: '200px', height: '200px' }}
-                    />
+                    <img src="/service3.png" alt="Business Loan Settlement" style={{ width: '200px', height: '200px' }}/>
                   </div>
                   
                   {/* Left aligned heading */}
-                  <h2 
-                    className="font-medium text-left mb-2" 
-                    style={{ color: '#0C2756', fontSize: '24px' }}
-                  >
+                  <h2 className="font-medium text-left mb-2" style={{ color: '#0C2756', fontSize: '24px' }}>
                     Business Loan Settlement
                   </h2>
                   
                   {/* Left aligned description */}
-                  <p 
-                    className="text-left mb-3" 
-                    style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}
-                  >
+                  <p className="text-left mb-3" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}>
                     Business loan defaults can threaten your company’s future. We negotiate flexible repayment terms and settlement options to help your business recover and thrive.
                   </p>
                   
                   {/* Left aligned pointers */}
                   <div className="space-y-2">
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Flexible repayment terms</span>
+                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Flexible repayment terms.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Business recovery support</span>
+                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Business recovery support.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Asset protection</span>
+                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Asset protection.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Legal compliance</span>
+                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Legal compliance.</span>
                     </div>
                   </div>
                 </div>
@@ -660,60 +501,47 @@ export default function ServicesPageClient() {
 
                 {/* Car Loan Settlement */}
                 <a href="/services/car-loan-settlement" className="block no-underline" style={{ color: 'inherit' }}>
-                <div 
-                  className="p-6 relative"
-                  style={{
-                    borderRadius: '40px',
-                    background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
-                    boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
-                    backdropFilter: 'blur(9.050000190734863px)',
-                    minHeight: '200px',
-                    display: 'flex',
-                    flexDirection: 'column'
-                  }}
-                >
+                <div className="p-6 relative" style={{
+            borderRadius: '40px',
+            background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
+            boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
+            backdropFilter: 'blur(9.050000190734863px)',
+            minHeight: '200px',
+            display: 'flex',
+            flexDirection: 'column'
+        }}>
                   {/* Icon in top left */}
                   <div className="mb-3 -ml-10 -mt-5">
-                    <img 
-                      src="/service4.png" 
-                      alt="Car Loan Settlement" 
-                      style={{ width: '150px', height: '150px' }}
-                    />
+                    <img src="/service4.png" alt="Car Loan Settlement" style={{ width: '150px', height: '150px' }}/>
                   </div>
                   
                   {/* Left aligned heading */}
-                  <h2 
-                    className="font-medium text-left mb-2" 
-                    style={{ color: '#0C2756', fontSize: '24px' }}
-                  >
+                  <h2 className="font-medium text-left mb-2" style={{ color: '#0C2756', fontSize: '24px' }}>
                     Car Loan Settlement
                   </h2>
                   
                   {/* Left aligned description */}
-                  <p 
-                    className="text-left mb-5" 
-                    style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}
-                  >
+                  <p className="text-left mb-5" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}>
                     Since car loans are secured, a default risks asset loss. We negotiate reduced balances and manageable payments, easing the fear of losing your vehicle while restoring stability.
                   </p>
                   
                   {/* Left aligned pointers */}
                   <div className="space-y-2">
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Reduced loan balance</span>
+                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Reduced loan balance.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Vehicle protection</span>
+                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Vehicle protection.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Manageable payments</span>
+                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Manageable payments.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Financial stability</span>
+                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Financial stability.</span>
                     </div>
                   </div>
                 </div>
@@ -721,60 +549,47 @@ export default function ServicesPageClient() {
 
                 {/* App Loan Settlement */}
                 <a href="/services/app-loan-settlement" className="block no-underline" style={{ color: 'inherit' }}>
-                <div 
-                  className="p-6 relative"
-                  style={{
-                    borderRadius: '40px',
-                    background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
-                    boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
-                    backdropFilter: 'blur(9.050000190734863px)',
-                    minHeight: '200px',
-                    display: 'flex',
-                    flexDirection: 'column'
-                  }}
-                >
+                <div className="p-6 relative" style={{
+            borderRadius: '40px',
+            background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
+            boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
+            backdropFilter: 'blur(9.050000190734863px)',
+            minHeight: '200px',
+            display: 'flex',
+            flexDirection: 'column'
+        }}>
                   {/* Icon in top left */}
                   <div className="mb-3 -ml-10 -mt-5">
-                    <img 
-                      src="/service5.png" 
-                      alt="App Loan Settlement" 
-                      style={{ width: '150px', height: '150px' }}
-                    />
+                    <img src="/service5.png" alt="App Loan Settlement" style={{ width: '150px', height: '150px' }}/>
                   </div>
                   
                   {/* Left aligned heading */}
-                  <h2 
-                    className="font-medium text-left mb-2" 
-                    style={{ color: '#0C2756', fontSize: '24px' }}
-                  >
+                  <h2 className="font-medium text-left mb-2" style={{ color: '#0C2756', fontSize: '24px' }}>
                     App Loan Settlement
                   </h2>
                   
                   {/* Left aligned description */}
-                  <p 
-                    className="text-left mb-5" 
-                    style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}
-                  >
+                  <p className="text-left mb-5" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}>
                     Stop aggressive, illegal harassment from digital lending apps immediately. We provide legal representation to secure a final, RBI-compliant One-Time Settlement (OTS).
                   </p>
                   
                   {/* Left aligned pointers */}
                   <div className="space-y-2">
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Stop harassment immediately</span>
+                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Stop harassment immediately.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>RBI-compliant settlement</span>
+                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>RBI-compliant settlement.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Legal representation</span>
+                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Legal representation.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Digital loan protection</span>
+                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Digital loan protection.</span>
                     </div>
                   </div>
                 </div>
@@ -782,60 +597,47 @@ export default function ServicesPageClient() {
 
                 {/* NBFC Loan Settlement */}
                 <a href="/services/nbfc-loan-settlement" className="block no-underline" style={{ color: 'inherit' }}>
-                <div 
-                  className="p-6 relative"
-                  style={{
-                    borderRadius: '40px',
-                    background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
-                    boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
-                    backdropFilter: 'blur(9.050000190734863px)',
-                    minHeight: '200px',
-                    display: 'flex',
-                    flexDirection: 'column'
-                  }}
-                >
+                <div className="p-6 relative" style={{
+            borderRadius: '40px',
+            background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
+            boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
+            backdropFilter: 'blur(9.050000190734863px)',
+            minHeight: '200px',
+            display: 'flex',
+            flexDirection: 'column'
+        }}>
                   {/* Icon in top left */}
                   <div className="mb-3 -ml-10 -mt-5">
-                    <img 
-                      src="/service6.png" 
-                      alt="NBFC Loan Settlement" 
-                      style={{ width: '150px', height: '150px' }}
-                    />
+                    <img src="/service6.png" alt="NBFC Loan Settlement" style={{ width: '150px', height: '150px' }}/>
                   </div>
                   
                   {/* Left aligned heading */}
-                  <h2 
-                    className="font-medium text-left mb-2" 
-                    style={{ color: '#0C2756', fontSize: '24px' }}
-                  >
+                  <h2 className="font-medium text-left mb-2" style={{ color: '#0C2756', fontSize: '24px' }}>
                     NBFC Loan Settlement
                   </h2>
                   
                   {/* Left aligned description */}
-                  <p 
-                    className="text-left mb-5" 
-                    style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}
-                  >
+                  <p className="text-left mb-5" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}>
                     Non-Banking Financial Companies often have different settlement policies. We navigate these complexities to secure favorable terms and protect your financial interests.
                   </p>
                   
                   {/* Left aligned pointers */}
                   <div className="space-y-2">
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Specialized NBFC expertise</span>
+                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Specialized NBFC expertise.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Favorable settlement terms</span>
+                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Favorable settlement terms.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Policy navigation</span>
+                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Policy navigation.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Financial interest protection</span>
+                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Financial interest protection.</span>
                     </div>
                   </div>
                 </div>
@@ -846,69 +648,53 @@ export default function ServicesPageClient() {
               <div className="block md:hidden flex flex-col gap-4 mb-8 px-4">
                 {/* Personal Loan Settlement */}
                 <a href="/services/personal-loan-settlement" className="block no-underline" style={{ color: 'inherit' }}>
-                  <div 
-                    className="p-6 relative"
-                    style={{
-                      borderRadius: '40px',
-                      background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
-                      boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
-                      backdropFilter: 'blur(9.050000190734863px)',
-                      minHeight: '200px',
-                      display: 'flex',
-                      flexDirection: 'column'
-                    }}
-                  >
+                  <div className="p-6 relative" style={{
+            borderRadius: '40px',
+            background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
+            boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
+            backdropFilter: 'blur(9.050000190734863px)',
+            minHeight: '200px',
+            display: 'flex',
+            flexDirection: 'column'
+        }}>
                     {/* Icon in top right */}
                     <div className="mb-3 flex justify-end -mr-6 -mt-6">
-                      <img 
-                        src="/service1.png" 
-                        alt="Personal Loan Settlement" 
-                        style={{ width: '120px', height: '120px' }}
-                      />
+                      <img src="/service1.png" alt="Personal Loan Settlement" style={{ width: '120px', height: '120px' }}/>
                     </div>
                     
                     {/* Heading */}
-                    <p
-                      className="font-medium text-left mb-2"
-                      style={{ color: '#0C2756', fontSize: '20px' }}
-                    >
-                      Personal Loan Settlement
+                    <p className="font-medium text-left mb-2" style={{ color: '#0C2756', fontSize: '20px' }}>
+                      Personal Loan Settlement.
                     </p>
                     
                     {/* Description */}
-                    <p 
-                      className="text-left mb-5" 
-                      style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}
-                    >
+                    <p className="text-left mb-5" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}>
                       We recognize that life’s financial challenges can be unpredictable. Our experts negotiate with lenders to secure manageable settlement plans for your unsecured personal loans.
                     </p>
                     
                     {/* Pointers */}
                     <div className="space-y-2 mb-4">
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Expert negotiation with lenders</span>
+                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Expert negotiation with lenders.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Manageable settlement plans</span>
+                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Manageable settlement plans.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Legal protection throughout</span>
+                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Legal protection throughout.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Reduced financial burden</span>
+                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Reduced financial burden.</span>
                       </div>
                     </div>
 
                     {/* Icon in bottom right */}
                     <div className="flex justify-end mt-auto">
-                      <div 
-                        className="w-8 h-8 rounded-md flex items-center justify-center"
-                        style={{ background: '#007AFF' }}
-                      >
+                      <div className="w-8 h-8 rounded-md flex items-center justify-center" style={{ background: '#007AFF' }}>
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                         </svg>
@@ -919,69 +705,53 @@ export default function ServicesPageClient() {
 
                 {/* Credit Card Settlement */}
                 <a href="/services/credit-card-settlement" className="block no-underline" style={{ color: 'inherit' }}>
-                  <div 
-                    className="p-6 relative"
-                    style={{
-                      borderRadius: '40px',
-                      background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
-                      boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
-                      backdropFilter: 'blur(9.050000190734863px)',
-                      minHeight: '200px',
-                      display: 'flex',
-                      flexDirection: 'column'
-                    }}
-                  >
+                  <div className="p-6 relative" style={{
+            borderRadius: '40px',
+            background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
+            boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
+            backdropFilter: 'blur(9.050000190734863px)',
+            minHeight: '200px',
+            display: 'flex',
+            flexDirection: 'column'
+        }}>
                     {/* Icon in top right */}
                     <div className="mb-3 flex justify-end -mr-6 -mt-6">
-                      <img 
-                        src="/service2.png" 
-                        alt="Credit Card Settlement" 
-                        style={{ width: '120px', height: '120px' }}
-                      />
+                      <img src="/service2.png" alt="Credit Card Settlement" style={{ width: '120px', height: '120px' }}/>
                     </div>
                     
                     {/* Heading */}
-                    <p
-                      className="font-medium text-left mb-2"
-                      style={{ color: '#0C2756', fontSize: '20px' }}
-                    >
-                      Credit Card Settlement
+                    <p className="font-medium text-left mb-2" style={{ color: '#0C2756', fontSize: '20px' }}>
+                      Credit Card Settlement.
                     </p>
                     
                     {/* Description */}
-                    <p 
-                      className="text-left mb-3" 
-                      style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}
-                    >
+                    <p className="text-left mb-3" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}>
                       Credit card debt can be overwhelming due to high interest rates. We secure an affordable One-Time Settlement (OTS), helping you save money and improve your financial outlook.
                     </p>
                     
                     {/* Pointers */}
                     <div className="space-y-2 mb-4">
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>One-Time Settlement (OTS)</span>
+                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>One-Time Settlement (OTS).</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Reduced interest rates</span>
+                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Reduced interest rates.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Significant savings</span>
+                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>major savings.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Improved credit score</span>
+                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Improved credit score.</span>
                       </div>
                     </div>
 
                     {/* Icon in bottom right */}
                     <div className="flex justify-end mt-auto">
-                      <div 
-                        className="w-8 h-8 rounded-md flex items-center justify-center"
-                        style={{ background: '#007AFF' }}
-                      >
+                      <div className="w-8 h-8 rounded-md flex items-center justify-center" style={{ background: '#007AFF' }}>
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                         </svg>
@@ -992,69 +762,53 @@ export default function ServicesPageClient() {
 
                 {/* Business Loan Settlement */}
                 <a href="/services/business-loan-settlement" className="block no-underline" style={{ color: 'inherit' }}>
-                  <div 
-                    className="p-6 relative"
-                    style={{
-                      borderRadius: '40px',
-                      background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
-                      boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
-                      backdropFilter: 'blur(9.050000190734863px)',
-                      minHeight: '200px',
-                      display: 'flex',
-                      flexDirection: 'column'
-                    }}
-                  >
+                  <div className="p-6 relative" style={{
+            borderRadius: '40px',
+            background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
+            boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
+            backdropFilter: 'blur(9.050000190734863px)',
+            minHeight: '200px',
+            display: 'flex',
+            flexDirection: 'column'
+        }}>
                     {/* Icon in top right */}
                     <div className="mb-3 flex justify-end -mr-6 -mt-6">
-                      <img 
-                        src="/service3.png" 
-                        alt="Business Loan Settlement" 
-                        style={{ width: '120px', height: '120px' }}
-                      />
+                      <img src="/service3.png" alt="Business Loan Settlement" style={{ width: '120px', height: '120px' }}/>
                     </div>
                     
                     {/* Heading */}
-                    <p
-                      className="font-medium text-left mb-2"
-                      style={{ color: '#0C2756', fontSize: '20px' }}
-                    >
-                      Business Loan Settlement
+                    <p className="font-medium text-left mb-2" style={{ color: '#0C2756', fontSize: '20px' }}>
+                      Business Loan Settlement.
                     </p>
                     
                     {/* Description */}
-                    <p 
-                      className="text-left mb-5" 
-                      style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}
-                    >
+                    <p className="text-left mb-5" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}>
                       Business loan defaults can threaten your company’s future. We negotiate flexible repayment terms and settlement options to help your business recover and thrive.
                     </p>
                     
                     {/* Pointers */}
                     <div className="space-y-2 mb-4">
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Flexible repayment terms</span>
+                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Flexible repayment terms.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Business recovery support</span>
+                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Business recovery support.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Asset protection</span>
+                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Asset protection.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Legal compliance</span>
+                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Legal compliance.</span>
                       </div>
                     </div>
 
                     {/* Icon in bottom right */}
                     <div className="flex justify-end mt-auto">
-                      <div 
-                        className="w-8 h-8 rounded-md flex items-center justify-center"
-                        style={{ background: '#007AFF' }}
-                      >
+                      <div className="w-8 h-8 rounded-md flex items-center justify-center" style={{ background: '#007AFF' }}>
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                         </svg>
@@ -1065,69 +819,53 @@ export default function ServicesPageClient() {
 
                 {/* Car Loan Settlement */}
                 <a href="/services/car-loan-settlement" className="block no-underline" style={{ color: 'inherit' }}>
-                  <div 
-                    className="p-6 relative"
-                    style={{
-                      borderRadius: '40px',
-                      background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
-                      boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
-                      backdropFilter: 'blur(9.050000190734863px)',
-                      minHeight: '200px',
-                      display: 'flex',
-                      flexDirection: 'column'
-                    }}
-                  >
+                  <div className="p-6 relative" style={{
+            borderRadius: '40px',
+            background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
+            boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
+            backdropFilter: 'blur(9.050000190734863px)',
+            minHeight: '200px',
+            display: 'flex',
+            flexDirection: 'column'
+        }}>
                     {/* Icon in top right */}
                     <div className="mb-3 flex justify-end -mr-6 -mt-6">
-                      <img 
-                        src="/service4.png" 
-                        alt="Car Loan Settlement" 
-                        style={{ width: '120px', height: '120px' }}
-                      />
+                      <img src="/service4.png" alt="Car Loan Settlement" style={{ width: '120px', height: '120px' }}/>
                     </div>
                     
                     {/* Heading */}
-                    <p
-                      className="font-medium text-left mb-2"
-                      style={{ color: '#0C2756', fontSize: '20px' }}
-                    >
-                      Car Loan Settlement
+                    <p className="font-medium text-left mb-2" style={{ color: '#0C2756', fontSize: '20px' }}>
+                      Car Loan Settlement.
                     </p>
                     
                     {/* Description */}
-                    <p 
-                      className="text-left mb-5" 
-                      style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}
-                    >
+                    <p className="text-left mb-5" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}>
                       Since car loans are secured, a default risks asset loss. We negotiate reduced balances and manageable payments, easing the fear of losing your vehicle while restoring stability.
                     </p>
                     
                     {/* Pointers */}
                     <div className="space-y-2 mb-4">
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Reduced loan balance</span>
+                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Reduced loan balance.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Vehicle protection</span>
+                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Vehicle protection.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Manageable payments</span>
+                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Manageable payments.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Financial stability</span>
+                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Financial stability.</span>
                       </div>
                     </div>
 
                     {/* Icon in bottom right */}
                     <div className="flex justify-end mt-auto">
-                      <div 
-                        className="w-8 h-8 rounded-md flex items-center justify-center"
-                        style={{ background: '#007AFF' }}
-                      >
+                      <div className="w-8 h-8 rounded-md flex items-center justify-center" style={{ background: '#007AFF' }}>
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                         </svg>
@@ -1138,69 +876,53 @@ export default function ServicesPageClient() {
 
                 {/* App Loan Settlement */}
                 <a href="/services/app-loan-settlement" className="block no-underline" style={{ color: 'inherit' }}>
-                  <div 
-                    className="p-6 relative"
-                    style={{
-                      borderRadius: '40px',
-                      background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
-                      boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
-                      backdropFilter: 'blur(9.050000190734863px)',
-                      minHeight: '200px',
-                      display: 'flex',
-                      flexDirection: 'column'
-                    }}
-                  >
+                  <div className="p-6 relative" style={{
+            borderRadius: '40px',
+            background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
+            boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
+            backdropFilter: 'blur(9.050000190734863px)',
+            minHeight: '200px',
+            display: 'flex',
+            flexDirection: 'column'
+        }}>
                     {/* Icon in top right */}
                     <div className="mb-3 flex justify-end -mr-6 -mt-6">
-                      <img 
-                        src="/service5.png" 
-                        alt="App Loan Settlement" 
-                        style={{ width: '120px', height: '120px' }}
-                      />
+                      <img src="/service5.png" alt="App Loan Settlement" style={{ width: '120px', height: '120px' }}/>
                     </div>
                     
                     {/* Heading */}
-                    <p
-                      className="font-medium text-left mb-2"
-                      style={{ color: '#0C2756', fontSize: '20px' }}
-                    >
-                      App Loan Settlement
+                    <p className="font-medium text-left mb-2" style={{ color: '#0C2756', fontSize: '20px' }}>
+                      App Loan Settlement.
                     </p>
                     
                     {/* Description */}
-                    <p 
-                      className="text-left mb-5" 
-                      style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}
-                    >
+                    <p className="text-left mb-5" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}>
                       Stop aggressive, illegal harassment from digital lending apps immediately. We provide legal representation to secure a final, RBI-compliant One-Time Settlement (OTS).
                     </p>
                     
                     {/* Pointers */}
                     <div className="space-y-2 mb-4">
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Stop harassment immediately</span>
+                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Stop harassment immediately.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>RBI-compliant settlement</span>
+                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>RBI-compliant settlement.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Legal representation</span>
+                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Legal representation.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Digital loan protection</span>
+                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Digital loan protection.</span>
                       </div>
                     </div>
 
                     {/* Icon in bottom right */}
                     <div className="flex justify-end mt-auto">
-                      <div 
-                        className="w-8 h-8 rounded-md flex items-center justify-center"
-                        style={{ background: '#007AFF' }}
-                      >
+                      <div className="w-8 h-8 rounded-md flex items-center justify-center" style={{ background: '#007AFF' }}>
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                         </svg>
@@ -1211,69 +933,53 @@ export default function ServicesPageClient() {
 
                 {/* NBFC Loan Settlement */}
                 <a href="/services/nbfc-loan-settlement" className="block no-underline" style={{ color: 'inherit' }}>
-                  <div 
-                    className="p-6 relative"
-                    style={{
-                      borderRadius: '40px',
-                      background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
-                      boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
-                      backdropFilter: 'blur(9.050000190734863px)',
-                      minHeight: '200px',
-                      display: 'flex',
-                      flexDirection: 'column'
-                    }}
-                  >
+                  <div className="p-6 relative" style={{
+            borderRadius: '40px',
+            background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
+            boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
+            backdropFilter: 'blur(9.050000190734863px)',
+            minHeight: '200px',
+            display: 'flex',
+            flexDirection: 'column'
+        }}>
                     {/* Icon in top right */}
                     <div className="mb-3 flex justify-end -mr-6 -mt-6">
-                      <img 
-                        src="/service6.png" 
-                        alt="NBFC Loan Settlement" 
-                        style={{ width: '120px', height: '120px' }}
-                      />
+                      <img src="/service6.png" alt="NBFC Loan Settlement" style={{ width: '120px', height: '120px' }}/>
                     </div>
                     
                     {/* Heading */}
-                    <p
-                      className="font-medium text-left mb-2"
-                      style={{ color: '#0C2756', fontSize: '20px' }}
-                    >
-                      NBFC Loan Settlement
+                    <p className="font-medium text-left mb-2" style={{ color: '#0C2756', fontSize: '20px' }}>
+                      NBFC Loan Settlement.
                     </p>
                     
                     {/* Description */}
-                    <p 
-                      className="text-left mb-5" 
-                      style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}
-                    >
+                    <p className="text-left mb-5" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}>
                       Non-Banking Financial Companies often have different settlement policies. We navigate these complexities to secure favorable terms and protect your financial interests.
                     </p>
                     
                     {/* Pointers */}
                     <div className="space-y-2 mb-4">
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Specialized NBFC expertise</span>
+                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Specialized NBFC expertise.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Favorable settlement terms</span>
+                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Favorable settlement terms.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Policy navigation</span>
+                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Policy navigation.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }} />
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Financial interest protection</span>
+                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Financial interest protection.</span>
                       </div>
                     </div>
 
                     {/* Icon in bottom right */}
                     <div className="flex justify-end mt-auto">
-                      <div 
-                        className="w-8 h-8 rounded-md flex items-center justify-center"
-                        style={{ background: '#007AFF' }}
-                      >
+                      <div className="w-8 h-8 rounded-md flex items-center justify-center" style={{ background: '#007AFF' }}>
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                         </svg>
@@ -1285,54 +991,35 @@ export default function ServicesPageClient() {
 
               {/* Section Heading */}
               <div className="mb-4 md:mb-6">
-                <h2 
-                  className="font-medium text-center text-2xl md:text-3xl py-4" 
-                  style={{ color: '#0C2756', fontWeight: 500 }}
-                >
+                <h2 className="font-medium text-center text-2xl md:text-3xl py-4" style={{ color: '#0C2756', fontWeight: 500 }}>
                   Rebuild & Boost Your Credit Score
                 </h2>
               </div>
 
               {/* Desktop Credit Score Container */}
-              <div 
-                className="hidden md:flex p-6 items-center gap-6 relative"
-                style={{
-                  borderRadius: '30px',
-                  background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
-                  boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)'
-                }}
-              >
+              <div className="hidden md:flex p-6 items-center gap-6 relative" style={{
+            borderRadius: '30px',
+            background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
+            boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)'
+        }}>
                 {/* Left: Credit Score Image */}
-                <img 
-                  src="/creditscore.png" 
-                  alt="Credit Score" 
-                  style={{ width: '250px', height: 'auto' }}
-                />
+                <img src="/creditscore.png" alt="Credit Score" style={{ width: '250px', height: 'auto' }}/>
 
                 {/* Right: Content */}
                 <div className="flex-1 flex flex-col h-full">
                   <div className="flex-1">
-                    <h3 
-                      className="font-medium text-left text-2xl mb-4" 
-                      style={{ color: '#0C2756' }}
-                    >
+                    <h3 className="font-medium text-left text-2xl mb-4" style={{ color: '#0C2756' }}>
                       Boost Your Credit Score Now
                     </h3>
-                    <p 
-                      className="text-left text-base" 
-                      style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.6' }}
-                    >
-                      Ready for real improvement? Our service gives you the advantage. We quickly analyze your report, fix errors with targeted disputes, and teach you the best ways to keep your score high. Start your journey to a better financial future today.
+                    <p className="text-left text-base" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.6' }}>
+                      Ready for real improvement? Our service gives you the advantage. We quickly analyze your report, fix errors with targeted disputes. Teach you the best ways to keep your score high. Start your journey to a better financial future today.
                     </p>
                   </div>
                   
                   {/* View More Button - Bottom Right */}
                   <div className="flex justify-end mt-6">
                     <a href="/services/credit-score-builder" className="block no-underline" style={{ color: 'inherit' }}>
-                    <button 
-                      className="px-5 py-2.5 rounded-md text-sm font-medium text-white transition-colors duration-200 hover:opacity-90 flex items-center gap-2"
-                      style={{ background: '#007AFF' }}
-                    >
+                    <button className="px-5 py-2.5 rounded-md text-sm font-medium text-white transition-colors duration-200 hover:opacity-90 flex items-center gap-2" style={{ background: '#007AFF' }}>
                       View More
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -1344,45 +1031,28 @@ export default function ServicesPageClient() {
               </div>
 
               {/* Mobile Credit Score Container (visible only on mobile) */}
-              <div 
-                className="flex flex-col md:hidden p-5 relative w-full overflow-hidden px-4"
-                style={{
-                  borderRadius: '40px',
-                  background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
-                  boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
-                  minHeight: '200px'
-                }}
-              >
+              <div className="flex flex-col md:hidden p-5 relative w-full overflow-hidden px-4" style={{
+            borderRadius: '40px',
+            background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)',
+            boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)',
+            minHeight: '200px'
+        }}>
                 <div className="flex items-start justify-between mb-3 gap-3 flex-wrap">
                   <div className="flex-1 min-w-0">
-                    <h3 
-                      className="font-medium text-left text-lg mb-2" 
-                      style={{ color: '#0C2756', textAlign: 'center' }}
-                    >
+                    <h3 className="font-medium text-left text-lg mb-2" style={{ color: '#0C2756', textAlign: 'center' }}>
                       Boost Your Credit Score Now
                     </h3>
                   </div>
-                  <img 
-                    src="/creditscore.png" 
-                    alt="Credit Score" 
-                    style={{ maxWidth: '100%', height: 'auto', objectFit: 'contain', flexShrink: 0 }}
-                    className="max-w-[240px] sm:max-w-[48px]"
-                  />
+                  <img src="/creditscore.png" alt="Credit Score" style={{ maxWidth: '100%', height: 'auto', objectFit: 'contain', flexShrink: 0 }} className="max-w-[240px] sm:max-w-[48px]"/>
                 </div>
                 <div className="flex-1 mb-3">
-                  <p 
-                    className="text-left text-sm" 
-                    style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.5' }}
-                  >
-                    Ready for real improvement? Our service gives you the advantage. We quickly analyze your report, fix errors with targeted disputes, and teach you the best ways to keep your score high.
+                  <p className="text-left text-sm" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.5' }}>
+                    Ready for real improvement? Our service gives you the advantage. We quickly analyze your report, fix errors with targeted disputes. Teach you the best ways to keep your score high.
                   </p>
                 </div>
                 <div className="flex justify-end mt-2">
                   <a href="/services/credit-score-builder" className="block no-underline" style={{ color: 'inherit' }}>
-                    <button 
-                      className="px-6 py-3 rounded-md text-sm font-medium text-white transition-colors duration-200 hover:opacity-90 flex items-center gap-2"
-                      style={{ background: '#007AFF' }}
-                    >
+                    <button className="px-6 py-3 rounded-md text-sm font-medium text-white transition-colors duration-200 hover:opacity-90 flex items-center gap-2" style={{ background: '#007AFF' }}>
                       View More
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7 17L17 7M17 7H7M17 7V17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -1419,52 +1089,30 @@ export default function ServicesPageClient() {
                   {/* Right: FAQ Items - Aligned to right end */}
                   <div className="w-full lg:w-[800px] lg:ml-auto p-3 md:p-4 rounded-xl" style={{ background: '#EFF7FF' }}>
                     <div className="flex flex-col gap-3 md:gap-4">
-                      {faqs.map((faq, index) => (
-                        <div
-                          key={index}
-                          className="bg-white rounded-lg transition-all duration-500 ease-in-out cursor-pointer overflow-hidden"
-                          onClick={() => toggleFAQ(index)}
-                          >
+                      {faqs.map((faq, index) => (<div key={index} className="bg-white rounded-lg transition-all duration-500 ease-in-out cursor-pointer overflow-hidden" onClick={() => toggleFAQ(index)}>
                           <div className="flex justify-between items-start gap-3 md:gap-[49px] p-3 md:p-[21px_28px]">
                             <p className="text-[12px] md:text-[14px] leading-[14px] md:leading-[14px] font-normal flex-1" style={{ color: '#0C2756' }}>
                               {faq.question}
                             </p>
                             <div className="flex-shrink-0 w-[16px] h-[16px] relative">
-                              <svg
-                                width="16"
-                                height="16"
-                                viewBox="0 0 23 23"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                                className="transition-all duration-500 ease-in-out"
-                                style={{
-                                  transform: openIndex === index ? 'rotate(45deg)' : 'rotate(0deg)'
-                                }}
-                              >
-                                <path
-                                  d="M11.5 0C12.3284 0 13 0.671573 13 1.5V10H21.5C22.3284 10 23 10.6716 23 11.5C23 12.3284 22.3284 13 21.5 13H13V21.5C13 22.3284 12.3284 23 11.5 23C10.6716 23 10 22.3284 10 21.5V13H1.5C0.671573 13 0 12.3284 0 11.5C0 10.6716 0.671573 10 1.5 10H10V1.5C10 0.671573 10.6716 0 11.5 0Z"
-                                  fill="black"
-                                />
+                              <svg width="16" height="16" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg" className="transition-all duration-500 ease-in-out" style={{
+                transform: openIndex === index ? 'rotate(45deg)' : 'rotate(0deg)'
+            }}>
+                                <path d="M11.5 0C12.3284 0 13 0.671573 13 1.5V10H21.5C22.3284 10 23 10.6716 23 11.5C23 12.3284 22.3284 13 21.5 13H13V21.5C13 22.3284 12.3284 23 11.5 23C10.6716 23 10 22.3284 10 21.5V13H1.5C0.671573 13 0 12.3284 0 11.5C0 10.6716 0.671573 10 1.5 10H10V1.5C10 0.671573 10.6716 0 11.5 0Z" fill="black"/>
                               </svg>
                             </div>
                           </div>
-                          <div 
-                            className={`transition-all duration-500 ease-in-out overflow-hidden px-3 md:px-7 ${
-                              openIndex === index ? 'pt-2 pb-3 md:pt-3 md:pb-[21px]' : 'pt-0 pb-0'
-                            }`}
-                            style={{
-                              maxHeight: openIndex === index ? '200px' : '0px',
-                              opacity: openIndex === index ? 1 : 0
-                            }}
-                          >
+                          <div className={`transition-all duration-500 ease-in-out overflow-hidden px-3 md:px-7 ${openIndex === index ? 'pt-2 pb-3 md:pt-3 md:pb-[21px]' : 'pt-0 pb-0'}`} style={{
+                maxHeight: openIndex === index ? '200px' : '0px',
+                opacity: openIndex === index ? 1 : 0
+            }}>
                             <div className="border-t border-gray-200 pt-2 md:pt-3">
                               <p className="text-[10px] md:text-[13px] leading-[13px] md:leading-[15px] font-normal" style={{ color: 'rgba(12, 39, 86, 0.7)' }}>
                                 {faq.answer}
                               </p>
                             </div>
                           </div>
-                        </div>
-                      ))}
+                        </div>))}
                     </div>
                   </div>
                 </div>
@@ -1476,33 +1124,24 @@ export default function ServicesPageClient() {
           <section className="w-full py-12">
             <div className="w-full max-w-7xl mx-auto px-4">
               <div className="flex flex-col items-center gap-8 md:gap-14">
-                <div
-                  className="flex justify-center items-center w-full rounded-xl px-3 py-8 md:py-[63px]"
-                  style={{
-                    background: 'linear-gradient(180deg, rgba(191, 238, 255, 0.50) 27.61%, #007AFF 100%)',
-                    boxShadow: '0 5px 16px 0 rgba(0, 0, 0, 0.15)'
-                  }}
-                >
+                <div className="flex justify-center items-center w-full rounded-xl px-3 py-8 md:py-[63px]" style={{
+            background: 'linear-gradient(180deg, rgba(191, 238, 255, 0.50) 27.61%, #007AFF 100%)',
+            boxShadow: '0 5px 16px 0 rgba(0, 0, 0, 0.15)'
+        }}>
                   <div className="flex flex-col items-center gap-[35px] w-full max-w-[644px]">
                     {/* Text Content */}
                     <div className="flex flex-col items-center gap-[28px] w-full">
-                      <h3
-                        className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full"
-                        style={{ color: '#0C2756' }}
-                      >
+                      <h3 className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full" style={{ color: '#0C2756' }}>
                         Ready to Take Control of Your Debt?
                       </h3>
-                      <p
-                        className="text-center text-[12px] md:text-[14px] leading-[14px] md:leading-[18px] font-normal w-full"
-                        style={{ color: 'rgba(12, 39, 86, 0.70)' }}
-                      >
+                      <p className="text-center text-[12px] md:text-[14px] leading-[14px] md:leading-[18px] font-normal w-full" style={{ color: 'rgba(12, 39, 86, 0.70)' }}>
                         Don’t let debt control your life. Our expert team is ready to help you settle your debts, stop harassment, and rebuild your financial future. Get started today with a free consultation.
                       </p>
                     </div>
 
                     {/* CTA Button */}
                     <CTAButton className="w-full max-w-[280px] md:max-w-[300px]">
-                      Get Your Free Consultation
+                      Get Your Free Consultation.
                     </CTAButton>
                   </div>
                 </div>
@@ -1516,7 +1155,7 @@ export default function ServicesPageClient() {
               <div className="bg-slate-50 border border-slate-200/80 rounded-3xl p-8 md:p-10">
                 <div className="text-center max-w-3xl mx-auto mb-8">
                   <span className="text-xs font-bold text-[#007AFF] uppercase tracking-wider bg-blue-50 px-3 py-1 rounded-full border border-blue-200">
-                    2026 Resolution Hubs
+                    2026 Resolution Hubs.
                   </span>
                   <h3 className="text-2xl md:text-3xl font-bold text-[#0C2756] mt-3 mb-2">
                     Popular Bank &amp; NBFC Loan Settlement Portals
@@ -1531,7 +1170,7 @@ export default function ServicesPageClient() {
                     SBI Settlement
                   </a>
                   <a href="/loan-settlement/axis-bank" className="p-3 bg-white rounded-xl border border-gray-200 hover:border-[#007AFF] hover:shadow-sm transition-all text-xs font-semibold text-gray-800 hover:text-[#007AFF]">
-                    Axis Bank Settlement
+                    Axis Bank Settlement.
                   </a>
                   <a href="/loan-settlement/union-bank" className="p-3 bg-white rounded-xl border border-gray-200 hover:border-[#007AFF] hover:shadow-sm transition-all text-xs font-semibold text-gray-800 hover:text-[#007AFF]">
                     Union Bank OTS
@@ -1543,7 +1182,7 @@ export default function ServicesPageClient() {
                     mPokket Relief
                   </a>
                   <a href="/loan-settlement-by-bank/snapmint" className="p-3 bg-white rounded-xl border border-gray-200 hover:border-[#007AFF] hover:shadow-sm transition-all text-xs font-semibold text-gray-800 hover:text-[#007AFF]">
-                    Snapmint Settlement
+                    Snapmint Settlement.
                   </a>
                   <a href="/loan-settlement-by-bank/true-balance" className="p-3 bg-white rounded-xl border border-gray-200 hover:border-[#007AFF] hover:shadow-sm transition-all text-xs font-semibold text-gray-800 hover:text-[#007AFF]">
                     True Balance
@@ -1561,25 +1200,25 @@ export default function ServicesPageClient() {
                     Rupee112 Relief
                   </a>
                   <a href="/loan-settlement-by-bank/incred" className="p-3 bg-white rounded-xl border border-gray-200 hover:border-[#007AFF] hover:shadow-sm transition-all text-xs font-semibold text-gray-800 hover:text-[#007AFF]">
-                    InCred Settlement
+                    InCred Settlement.
                   </a>
                 </div>
 
                 <div className="pt-6 border-t border-gray-200 flex flex-wrap justify-center gap-4 text-xs font-medium text-gray-600">
                   <a href="/which-bank-provide-personal-loan-for-cibil-defaulters" className="text-[#007AFF] hover:underline flex items-center gap-1">
-                    <span>Loans for CIBIL Defaulters</span> &rarr;
+                    <span>Loans for CIBIL Defaulters.</span> &rarr;
                   </a>
                   <span className="text-gray-300">•</span>
                   <a href="/rbi-july-2026-recovery-guidelines" className="text-[#007AFF] hover:underline flex items-center gap-1">
-                    <span>RBI July 2026 Recovery Guidelines</span> &rarr;
+                    <span>RBI July 2026 Recovery Guidelines.</span> &rarr;
                   </a>
                   <span className="text-gray-300">•</span>
                   <a href="/mudra-loan-settlement-legal-help" className="text-[#007AFF] hover:underline flex items-center gap-1">
-                    <span>Mudra Loan Settlement Legal Help</span> &rarr;
+                    <span>Mudra Loan Settlement Legal Help.</span> &rarr;
                   </a>
                   <span className="text-gray-300">•</span>
                   <a href="/nri-loan-default-india-settlement-from-abroad" className="text-[#007AFF] hover:underline flex items-center gap-1">
-                    <span>NRI Loan Default Settlement</span> &rarr;
+                    <span>NRI Loan Default Settlement.</span> &rarr;
                   </a>
                 </div>
               </div>
@@ -1588,9 +1227,8 @@ export default function ServicesPageClient() {
         </div>
       </div>
       
-      <div style={{marginTop: '100px'}}>
-        <Footer hideFunnel />
+      <div style={{ marginTop: '100px' }}>
+        <Footer hideFunnel/>
       </div>
-    </div>
-  );
+    </div>);
 }

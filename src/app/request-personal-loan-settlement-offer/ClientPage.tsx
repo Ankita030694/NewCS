@@ -1,31 +1,28 @@
 'use client';
-
 import React from 'react';
 import Link from 'next/link';
-
 export default function ClientPage() {
-  return (
-    <main className="w-full">
+    return (<main className="w-full">
       <section className="relative text-white pt-32 pb-20 px-4 md:px-8 overflow-hidden" style={{ backgroundColor: '#0C2756' }}>
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 left-0 w-full h-full bg-[url('/pattern-bg.svg')] bg-repeat opacity-20"></div>
         </div>
         <div className="max-w-4xl mx-auto relative z-10 text-center">
           <span className="inline-block py-1.5 px-4 rounded-full bg-blue-500/20 text-blue-200 text-xs font-bold mb-4 tracking-widest uppercase border border-blue-400/30">
-            Official Settlement Initiation
+            Official Settlement Initiation.
           </span>
           <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
             How to Request a Personal Loan Settlement Offer from Banks
           </h1>
           <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
-            A practical guide to initiating an official One-Time Settlement offer, presenting your case to the credit committee, and securing a formal sanction.
+            A practical guide to initiating an official One-Time Settlement offer, presenting your case to the credit committee. Securing a formal sanction.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="bg-[#007AFF] hover:bg-blue-600 text-white font-bold py-4 px-8 rounded-full transition-all shadow-lg text-lg">
               Request a Settlement Offer
             </Link>
             <a href="tel:+918800226635" className="bg-white text-[#0C2756] hover:bg-gray-100 font-bold py-4 px-8 rounded-full transition-all shadow-lg text-lg flex items-center justify-center">
-              Call +91 8800226635
+              Call +91 8800226635.
             </a>
           </div>
         </div>
@@ -49,19 +46,19 @@ export default function ClientPage() {
                 <div className="p-4 bg-gray-50 rounded-lg border border-gray-200">
                   <h3 className="font-semibold text-[#0C2756]">1. Assess Your Capital Availability</h3>
                   <p className="text-sm text-gray-600 mt-1">
-                    Before requesting an offer, ascertain exactly how much lump sum capital you can arrange from personal savings, friends, or family. An offer without payment capacity weakens your negotiating leverage.
+                    Before requesting an offer, ascertain exactly how much lump sum capital you can arrange from personal savings, friends. Family. An offer without payment capacity weakens your negotiating leverage.
                   </p>
                 </div>
                 <div className="p-4 bg-gray-50 rounded-lg border border-gray-200">
                   <h3 className="font-semibold text-[#0C2756]">2. Draft a Formal Hardship Application</h3>
                   <p className="text-sm text-gray-600 mt-1">
-                    Submit a comprehensive letter to the Bank&apos;s Delinquent Asset Department stating your loan account number, financial hardship reasons, and a concrete proposed settlement amount.
+                    Submit a comprehensive letter to the Bank&apos;s overdue Asset Department stating your loan account number, financial hardship reasons. A concrete proposed settlement amount.
                   </p>
                 </div>
                 <div className="p-4 bg-gray-50 rounded-lg border border-gray-200">
                   <h3 className="font-semibold text-[#0C2756]">3. Demand an Official Letterhead Sanction</h3>
                   <p className="text-sm text-gray-600 mt-1">
-                    Ensure the bank provides an authorized OTS sanction letter detailing the waived amount, payment date, and specific waiver clauses before any deposit is made.
+                    Ensure the bank provides an authorized OTS sanction letter detailing the waived amount, payment date. Specific waiver clauses before any deposit is made.
                   </p>
                 </div>
               </div>
@@ -85,7 +82,7 @@ export default function ClientPage() {
                   Can a bank reject my settlement request?
                 </h3>
                 <p className="text-gray-600 leading-relaxed text-sm">
-                  Yes, banks may initially reject an offer if the proposed amount is too low or if hardship documentation is inadequate. Experienced legal counsel counter-negotiates with revised proofs to gain committee approval.
+                  Yes, banks may initially reject an offer if the proposed amount is too low or if hardship paperwork is inadequate. Experienced legal counsel counter-negotiates with revised proofs to gain committee approval.
                 </p>
               </div>
               <div className="border-t pt-6">
@@ -108,6 +105,5 @@ export default function ClientPage() {
           </div>
         </div>
       </section>
-    </main>
-  );
+    </main>);
 }

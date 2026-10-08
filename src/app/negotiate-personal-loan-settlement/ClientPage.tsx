@@ -1,31 +1,28 @@
 'use client';
-
 import React from 'react';
 import Link from 'next/link';
-
 export default function ClientPage() {
-  return (
-    <main className="w-full">
+    return (<main className="w-full">
       <section className="relative text-white pt-32 pb-20 px-4 md:px-8 overflow-hidden" style={{ backgroundColor: '#0C2756' }}>
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 left-0 w-full h-full bg-[url('/pattern-bg.svg')] bg-repeat opacity-20"></div>
         </div>
         <div className="max-w-4xl mx-auto relative z-10 text-center">
           <span className="inline-block py-1.5 px-4 rounded-full bg-blue-500/20 text-blue-200 text-xs font-bold mb-4 tracking-widest uppercase border border-blue-400/30">
-            Professional Negotiation Strategy
+            Professional Negotiation Strategy.
           </span>
           <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
             How to Negotiate a Personal Loan Settlement with Banks
           </h1>
           <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
-            Learn the exact negotiation tactics, documentation rules, and psychological levers required to secure up to a 60% waiver on unsecured personal loans.
+            Learn the exact negotiation tactics, paperwork rules. Psychological levers required to secure up to a 60% waiver on unsecured personal loans.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="bg-[#007AFF] hover:bg-blue-600 text-white font-bold py-4 px-8 rounded-full transition-all shadow-lg text-lg">
               Get Professional Negotiation Help
             </Link>
             <a href="tel:+918800226635" className="bg-white text-[#0C2756] hover:bg-gray-100 font-bold py-4 px-8 rounded-full transition-all shadow-lg text-lg flex items-center justify-center">
-              Call +91 8800226635
+              Call +91 8800226635.
             </a>
           </div>
         </div>
@@ -39,7 +36,7 @@ export default function ClientPage() {
             </h2>
             <div className="prose max-w-none text-gray-700 space-y-4 leading-relaxed">
               <p>
-                Negotiating an unsecured personal loan settlement in India is a formal financial and legal procedure, not an emotional dispute. Commercial banks write off billions in Non-Performing Assets (NPAs) annually, but obtaining an optimal waiver requires navigating internal bank hierarchy and credit risk provisioning cycles.
+                Negotiating an unsecured personal loan settlement in India is a formal financial and legal procedure, not an emotional dispute. Commercial banks write off billions in Non-Performing Assets (NPAs) annually. Obtaining an optimal waiver requires navigating internal bank hierarchy and credit risk provisioning cycles.
               </p>
 
               <h3 className="text-xl font-bold text-[#0C2756] mt-8 mb-4">
@@ -53,14 +50,14 @@ export default function ClientPage() {
                 2. Bypassing Third-Party Recovery Agencies
               </h3>
               <p>
-                Third-party collection agents operate on commissions and will use aggressive pressure tactics to collect partial payments. Never negotiate final settlement figures with external collection tele-callers. Always insist on dealing with the bank&apos;s internal Delinquent Asset Division (DAD) or circle credit manager.
+                Third-party collection agents operate on commissions and will use aggressive pressure tactics to collect partial payments. Never negotiate final settlement figures with external collection tele-callers. Always insist on dealing with the bank&apos;s internal overdue Asset Division (DAD) or circle credit manager.
               </p>
 
               <h3 className="text-xl font-bold text-[#0C2756] mt-8 mb-4">
                 3. Establishing Genuine Insolvency
               </h3>
               <p>
-                Under Reserve Bank of India (RBI) prudential guidelines, banks can only approve compromise settlements if the borrower demonstrates verifiable inability to pay. Provide concrete evidence:
+                Under Reserve Bank of India (RBI) prudential guidelines, banks can only approve compromise settlements if the borrower shows verifiable inability to pay. Provide concrete evidence:
               </p>
               <ul className="list-disc pl-6 space-y-2">
                 <li>Salary reduction slips or termination letters from your employer.</li>
@@ -95,7 +92,7 @@ export default function ClientPage() {
                   Can an advocate negotiate on my behalf?
                 </h3>
                 <p className="text-gray-600 leading-relaxed text-sm">
-                  Yes. Appointing a legal representative stops abusive collection agent calls under RBI guidelines and allows experienced advocates to represent your case before the bank&apos;s compromise committee.
+                  Yes. Appointing a legal agent stops abusive collection agent calls under RBI guidelines and allows experienced advocates to represent your case before the bank&apos;s compromise committee.
                 </p>
               </div>
             </div>
@@ -110,6 +107,5 @@ export default function ClientPage() {
           </div>
         </div>
       </section>
-    </main>
-  );
+    </main>);
 }

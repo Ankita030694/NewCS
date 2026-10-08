@@ -1,18 +1,15 @@
 'use client';
-
 import React from 'react';
 import Link from 'next/link';
-
 export default function ClientPage() {
-  return (
-    <main className="w-full">
+    return (<main className="w-full">
       <section className="relative text-white pt-32 pb-20 px-4 md:px-8 overflow-hidden" style={{ backgroundColor: '#0C2756' }}>
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 left-0 w-full h-full bg-[url('/pattern-bg.svg')] bg-repeat opacity-20"></div>
         </div>
         <div className="max-w-4xl mx-auto relative z-10 text-center">
           <span className="inline-block py-1.5 px-4 rounded-full bg-blue-500/20 text-blue-200 text-xs font-bold mb-4 tracking-widest uppercase border border-blue-400/30">
-            Borrower Protection Guide
+            Borrower Protection Guide.
           </span>
           <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
             How to Respond to Bank Legal Notices & Stop Harassment
@@ -25,7 +22,7 @@ export default function ClientPage() {
               Get an Advocate to Reply
             </Link>
             <a href="tel:+918800226635" className="bg-white text-[#0C2756] hover:bg-gray-100 font-bold py-4 px-8 rounded-full transition-all shadow-lg text-lg flex items-center justify-center">
-              Call +91 8800226635
+              Call +91 8800226635.
             </a>
           </div>
         </div>
@@ -71,7 +68,7 @@ export default function ClientPage() {
               </p>
               <ul className="list-disc pl-6 space-y-2">
                 <li>Submit a formal, registered legal reply denying false allegations of willful default or fraud.</li>
-                <li>Detail verifiable financial hardships (medical conditions, job loss, insolvency) to demonstrate absence of <em>mens rea</em> (criminal intent).</li>
+                <li>Detail verifiable financial hardships (medical conditions, job loss, insolvency) to show absence of. <em>mens rea</em> (criminal intent).</li>
                 <li>Highlight violations of the RBI Fair Practices Code committed by recovery agents (calling at odd hours, abusive language, contacting friends/family).</li>
                 <li>Propose an amicable One-Time Settlement (OTS) to resolve the matter outside of protracted litigation.</li>
               </ul>
@@ -80,7 +77,7 @@ export default function ClientPage() {
             <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-xl mt-8">
               <h3 className="font-bold text-red-900 mb-2">Beware of Fake Recovery Agent Notices</h3>
               <p className="text-sm text-red-800 leading-relaxed">
-                Collection agencies frequently circulate fraudulent letters titled &apos;Court Warrant&apos;, &apos;Police Arrest Notice&apos;, or &apos;Immediate Seizure Order&apos; via WhatsApp or unverified email. Police cannot arrest you for personal loan or credit card default without a direct warrant from a competent judicial magistrate.
+                Collection agencies frequently circulate fraudulent letters titled &apos;Court Warrant&apos;, &apos;Police Arrest Notice&apos;, or &apos;Immediate Seizure Order&apos. Via WhatsApp or unverified email. Police cannot arrest you for personal loan or credit card default without a direct warrant from a competent judicial magistrate.
               </p>
             </div>
           </div>
@@ -112,7 +109,7 @@ export default function ClientPage() {
                   Where can I lodge a complaint against recovery agent harassment?
                 </h3>
                 <p className="text-gray-600 leading-relaxed text-sm">
-                  You can file a formal complaint with the Bank&apos;s Principal Nodal Officer, escalate to the RBI Integrated Ombudsman (cms.rbi.org.in), and lodge an FIR under IPC Section 503/506 for criminal intimidation.
+                  You can file a formal complaint with the Bank&apos;s Principal Nodal Officer, escalate to the RBI Integrated Ombudsman (cms.rbi.org.in). Lodge an FIR under IPC Section 503/506 for criminal intimidation.
                 </p>
               </div>
             </div>
@@ -127,6 +124,5 @@ export default function ClientPage() {
           </div>
         </div>
       </section>
-    </main>
-  );
+    </main>);
 }

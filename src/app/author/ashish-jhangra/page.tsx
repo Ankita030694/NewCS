@@ -95,7 +95,7 @@ export default function AshishJhangraAuthorPage() {
                   My goal is to provide honest, clear, and professional legal support to every borrower throughout their settlement journey.
                 </p>
                 
-                <h2 className="text-2xl font-bold text-[#004479] mt-12 mb-6">Core Legal &amp; Debt Settlement Expertise</h2>
+                <h3 className="text-2xl font-bold text-[#004479] mt-12 mb-6">Core Legal &amp; Debt Settlement Expertise</h3>
                 <ul className="grid grid-cols-1 md:grid-cols-2 gap-y-4 gap-x-8 pl-0 list-none">
                   <li className="flex items-start gap-3">
                     <i className="fas fa-check-circle text-[#007AFF] mt-1.5 shrink-0"></i>
@@ -131,9 +131,9 @@ export default function AshishJhangraAuthorPage() {
 
             {/* Featured Articles Authored by Ashish */}
             <div className="pt-8 border-t border-gray-100">
-              <h2 className="text-2xl font-bold text-[#004479] mb-6">
+              <h3 className="text-2xl font-bold text-[#004479] mb-6">
                 Featured Guides &amp; Publications
-              </h2>
+              </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <Link
                   href="/improve-cibil-after-loan-settlement"
@@ -143,9 +143,9 @@ export default function AshishJhangraAuthorPage() {
                     <span className="text-xs font-bold text-[#007AFF] uppercase tracking-wider block mb-1">
                       CIBIL Score Rebuilding
                     </span>
-                    <h3 className="text-base font-bold text-gray-900 group-hover:text-[#007AFF] transition-colors leading-snug">
+                    <h4 className="text-base font-bold text-gray-900 group-hover:text-[#007AFF] transition-colors leading-snug">
                       How to Rebuild &amp; Improve CIBIL After a Loan Settlement
-                    </h3>
+                    </h4>
                     <p className="text-xs text-gray-600 mt-2 line-clamp-2 leading-relaxed">
                       Learn how to raise your credit score back to 750 or higher after a debt settlement.
                     </p>
@@ -164,9 +164,9 @@ export default function AshishJhangraAuthorPage() {
                     <span className="text-xs font-bold text-[#007AFF] uppercase tracking-wider block mb-1">
                       Credit Repair &amp; Loan Closure
                     </span>
-                    <h3 className="text-base font-bold text-gray-900 group-hover:text-[#007AFF] transition-colors leading-snug">
+                    <h4 className="text-base font-bold text-gray-900 group-hover:text-[#007AFF] transition-colors leading-snug">
                       Convert a Settled Loan to &quot;Closed&quot; Status (Step-by-Step)
-                    </h3>
+                    </h4>
                     <p className="text-xs text-gray-600 mt-2 line-clamp-2 leading-relaxed">
                       Learn how paying the waiver balance turns a settled loan into a closed loan.
                     </p>
@@ -185,9 +185,9 @@ export default function AshishJhangraAuthorPage() {
                     <span className="text-xs font-bold text-[#007AFF] uppercase tracking-wider block mb-1">
                       Bureau Record Correction
                     </span>
-                    <h3 className="text-base font-bold text-gray-900 group-hover:text-[#007AFF] transition-colors leading-snug">
+                    <h4 className="text-base font-bold text-gray-900 group-hover:text-[#007AFF] transition-colors leading-snug">
                       How to Remove Settled Status from CIBIL
-                    </h3>
+                    </h4>
                     <p className="text-xs text-gray-600 mt-2 line-clamp-2 leading-relaxed">
                       Learn the official legal steps to dispute and update credit records under CICRA 2005.
                     </p>
@@ -206,9 +206,9 @@ export default function AshishJhangraAuthorPage() {
                     <span className="text-xs font-bold text-[#007AFF] uppercase tracking-wider block mb-1">
                       Post-Settlement Loans
                     </span>
-                    <h3 className="text-base font-bold text-gray-900 group-hover:text-[#007AFF] transition-colors leading-snug">
+                    <h4 className="text-base font-bold text-gray-900 group-hover:text-[#007AFF] transition-colors leading-snug">
                       How to Get a Loan After Settlement (Approval Guide 2026)
-                    </h3>
+                    </h4>
                     <p className="text-xs text-gray-600 mt-2 line-clamp-2 leading-relaxed">
                       Learn how to qualify for fresh loans and credit cards after settling past debts.
                     </p>
@@ -227,9 +227,9 @@ export default function AshishJhangraAuthorPage() {
                     <span className="text-xs font-bold text-[#007AFF] uppercase tracking-wider block mb-1">
                       CredSettle Knowledge Base
                     </span>
-                    <h3 className="text-base font-bold text-gray-900 group-hover:text-[#007AFF] transition-colors leading-snug">
+                    <h4 className="text-base font-bold text-gray-900 group-hover:text-[#007AFF] transition-colors leading-snug">
                       Explore All Legal &amp; Debt Resolution Resources
-                    </h3>
+                    </h4>
                     <p className="text-xs text-gray-600 mt-2 line-clamp-2 leading-relaxed">
                       Read our guides on borrower rights, RBI rules, and simple loan settlement tips.
                     </p>
@@ -244,9 +244,9 @@ export default function AshishJhangraAuthorPage() {
             
             <div className="bg-[#F0F7FF] rounded-2xl p-6 md:p-8 mt-10 border border-[#BFE0FF] text-center md:text-left flex flex-col md:flex-row items-center justify-between gap-6">
               <div>
-                <h2 className="text-lg font-bold text-[#004479] m-0 mb-1">
+                <p className="text-lg font-bold text-[#004479] m-0 mb-1">
                   Connect for Legal Debt Guidance
-                </h2>
+                </p>
                 <p className="text-sm text-gray-600 m-0">
                   Let us connect to protect your rights, stop harassment, and build financial peace.
                 </p>

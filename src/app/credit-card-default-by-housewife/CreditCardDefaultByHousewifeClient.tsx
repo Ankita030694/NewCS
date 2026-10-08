@@ -1,144 +1,99 @@
 'use client';
-
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import StatsStrip from '@/components/StatsStrip';
 import CompanySection from '@/components/CompanySection';
-import {
-  ChevronDown,
-  Scale,
-  ExternalLink,
-  ShieldCheck,
-  CheckCircle2,
-  AlertTriangle,
-  FileText,
-  HelpCircle,
-  TrendingUp,
-  Award,
-  BookOpen,
-  Building2,
-  DollarSign,
-  Check,
-  Lock,
-  Phone,
-  AlertCircle,
-  CreditCard,
-  Briefcase,
-  Bookmark,
-  ArrowRight,
-  Clock,
-  UserCheck,
-  Sparkles,
-  Gavel,
-  BadgeAlert,
-  Landmark,
-  ShieldAlert
-} from 'lucide-react';
-
+import { ChevronDown, Scale, ExternalLink, ShieldCheck, CheckCircle2, AlertTriangle, FileText, HelpCircle, TrendingUp, Award, BookOpen, Building2, DollarSign, Check, Lock, Phone, AlertCircle, CreditCard, Briefcase, Bookmark, ArrowRight, Clock, UserCheck, Sparkles, Gavel, BadgeAlert, Landmark, ShieldAlert } from 'lucide-react';
 export default function CreditCardDefaultByHousewifeClient() {
-  const [activeId, setActiveId] = useState<string>('quick-crux');
-  const [openFaq, setOpenFaq] = useState<number | null>(null);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setActiveId(entry.target.id);
-          }
+    const [activeId, setActiveId] = useState<string>('quick-crux');
+    const [openFaq, setOpenFaq] = useState<number | null>(null);
+    useEffect(() => {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    setActiveId(entry.target.id);
+                }
+            });
+        }, {
+            rootMargin: '-100px 0px -40% 0px',
+            threshold: 0.05
         });
-      },
-      {
-        rootMargin: '-100px 0px -40% 0px',
-        threshold: 0.05
-      }
-    );
-
-    const headings = document.querySelectorAll('section[id], div[id].scroll-target');
-    headings.forEach((heading) => observer.observe(heading));
-
-    return () => {
-      headings.forEach((heading) => observer.unobserve(heading));
+        const headings = document.querySelectorAll('section[id], div[id].scroll-target');
+        headings.forEach((heading) => observer.observe(heading));
+        return () => {
+            headings.forEach((heading) => observer.unobserve(heading));
+        };
+    }, []);
+    const toggleFaq = (index: number) => {
+        setOpenFaq(openFaq === index ? null : index);
     };
-  }, []);
-
-  const toggleFaq = (index: number) => {
-    setOpenFaq(openFaq === index ? null : index);
-  };
-
-  const navLinks = [
-    { id: 'quick-crux', label: 'Executive Brief & Crux' },
-    { id: 'spousal-liability-indian-law', label: '1. Spousal Liability & Contract Law' },
-    { id: 'legal-framework-separate-personality', label: '2. Separate Legal Personality' },
-    { id: 'debt-resolution-comparison-matrix', label: '3. Debt Resolution Comparison' },
-    { id: 'credit-score-impact-cibil-pan', label: '4. CIBIL PAN & Credit Score Impact' },
-    { id: 'infographic-housewife-debt-blueprint', label: '5. Visual Defense Blueprint' },
-    { id: 'step-by-step-defense-sop', label: '6. 6-Stage Defense Protocol' },
-    { id: 'statutory-defenses-harassment-protection', label: '7. Statutory Defenses & Rights' },
-    { id: 'three-tier-grievance-escalation', label: '8. 3-Tier Grievance Redressal' },
-    { id: 'chronological-default-timeline', label: '9. Procedural Default Milestones' },
-    { id: 'complex-scenarios-joint-liabilities', label: '10. Add-On Cards & Joint Scenarios' },
-    { id: 'company-profile', label: 'About CredSettle' },
-    { id: 'frequently-asked-questions', label: 'Frequently Asked Questions' },
-    { id: 'regulatory-sources', label: 'Statutory Citations & Authorities' }
-  ];
-
-  const faqs = [
-    {
-      q: 'Is a husband legally liable for credit card debt incurred by his wife in India?',
-      a: 'No. Under the Indian Contract Act, 1872 and the doctrine of privity of contract, an unsecured credit card contract is strictly between the cardholder and the issuing bank. A husband is not legally liable for his wife\'s debts unless he signed as a co-applicant or explicit financial guarantor.'
-    },
-    {
-      q: 'Can banks or recovery agents deduct money from a husband\'s bank account for his wife\'s debt?',
-      a: 'No. Banks cannot exercise a banker\'s right of lien or set-off against a husband\'s individual bank account, fixed deposits, or salary for his wife\'s delinquent credit cards. Such unilateral deductions are illegal without a specific court decree or joint account mandate.'
-    },
-    {
-      q: 'Can bank recovery agents visit the husband\'s workplace or call his phone?',
-      a: 'No. Under the RBI Master Direction on Fair Practices Code, recovery agents are strictly prohibited from contacting or harassing spouses, family members, or employers of the borrower. Calling or visiting a husband for his wife\'s debt is a severe regulatory violation punishable by the RBI Ombudsman.'
-    },
-    {
-      q: 'Does a wife\'s credit card default affect her husband\'s CIBIL score?',
-      a: 'No. Under the Credit Information Companies (Regulation) Act, 2005 (CICRA), credit bureau records are mapped strictly to individual Permanent Account Numbers (PAN). A housewife\'s loan default impacts only her own CIBIL score and does not reflect on her husband\'s credit report unless he is a joint borrower.'
-    },
-    {
-      q: 'What happens if the housewife defaulted on an Add-On (supplementary) credit card?',
-      a: 'If the housewife held an Add-On card issued against her husband\'s primary credit card account, the husband remains 100% legally liable for all outstanding balances. The primary cardholder contractually assumes full financial responsibility for all supplementary cards under Indian banking agreements.'
-    },
-    {
-      q: 'Can recovery agents seize household assets or Stridhan for credit card dues?',
-      a: 'No. Unsecured credit card defaults do not give lenders collateral repossession rights. Furthermore, under Section 14 of the Hindu Succession Act, 1956 and the Married Women\'s Property Act, 1874, a woman\'s Stridhan (personal jewelry, gifts, separate property) is legally protected from attachment by unsecured creditors.'
-    },
-    {
-      q: 'Can a bank initiate criminal proceedings under Section 138 or Section 25 PSSA against a housewife?',
-      a: 'A bank can file complaints under Section 138 of the Negotiable Instruments Act or Section 25 of the Payments and Settlement Systems Act only if an ECS/NACH mandate or cheque issued from the wife\'s bank account bounced. However, the husband cannot be prosecuted under these provisions, and the matter remains bailable and easily settleable.'
-    },
-    {
-      q: 'How does a One-Time Settlement (OTS) work for a housewife with no income?',
-      a: 'When a cardholder has zero independent income or assets, banks classify the exposure as an unrecoverable non-performing asset (NPA). Through CredSettle, borrowers negotiate an affordable compromise One-Time Settlement (OTS), securing a 50% to 75% waiver on accumulated penal interest and closing the account with a formal No Dues Certificate.'
-    },
-    {
-      q: 'What should a family do if recovery agents use abusive language or issue threats?',
-      a: 'Immediately document and record all communications, noting agent caller IDs and timestamps. Issue a formal cease-and-desist legal notice citing RBI Master Circulars, file a police complaint under the Bharatiya Nyaya Sanhita (BNS) for criminal intimidation, and escalate to the bank\'s Principal Nodal Officer and the RBI Ombudsman.'
-    },
-    {
-      q: 'Can a housewife rebuild her CIBIL score after settling her credit card debt?',
-      a: 'Yes. Once the debt is resolved and an official No Dues Certificate (NDC) is issued, the housewife can rebuild her credit profile by opening a small fixed deposit backed credit card (secured card), maintaining utilization below 30%, and ensuring timely repayments over a 12 to 18 month period.'
-    }
-  ];
-
-  return (
-    <main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
+    const navLinks = [
+        { id: 'quick-crux', label: 'Executive Brief & Crux' },
+        { id: 'spousal-liability-indian-law', label: '1. Spousal Liability & Contract Law' },
+        { id: 'legal-framework-separate-personality', label: '2. Separate Legal Personality' },
+        { id: 'debt-resolution-comparison-matrix', label: '3. Debt Resolution Comparison' },
+        { id: 'credit-score-impact-cibil-pan', label: '4. CIBIL PAN & Credit Score Impact' },
+        { id: 'infographic-housewife-debt-blueprint', label: '5. Visual Defense Blueprint' },
+        { id: 'step-by-step-defense-sop', label: '6. 6-Stage Defense Protocol' },
+        { id: 'statutory-defenses-harassment-protection', label: '7. Statutory Defenses & Rights' },
+        { id: 'three-tier-grievance-escalation', label: '8. 3-Tier Grievance Redressal' },
+        { id: 'chronological-default-timeline', label: '9. Procedural Default Milestones' },
+        { id: 'complex-scenarios-joint-liabilities', label: '10. Add-On Cards & Joint Scenarios' },
+        { id: 'company-profile', label: 'About CredSettle' },
+        { id: 'frequently-asked-questions', label: 'Frequently Asked Questions' },
+        { id: 'regulatory-sources', label: 'Statutory Citations & Authorities' }
+    ];
+    const faqs = [
+        {
+            q: 'Is a husband legally liable for credit card debt incurred by his wife in India?',
+            a: 'No. Under the Indian Contract Act, 1872 and the doctrine of privity of contract, an unsecured credit card contract is strictly between the cardholder and the issuing bank. A husband is not legally liable for his wife\'s debts unless he signed as a co-applicant or explicit financial guarantor.'
+        },
+        {
+            q: 'Can banks or recovery agents deduct money from a husband\'s bank account for his wife\'s debt?',
+            a: "No. Banks cannot exercise a banker's right of lien or set-off against a husband's individual bank account, fixed deposits. Salary for his wife's overdue credit cards. Such unilateral deductions are illegal without a specific court decree or joint account mandate."
+        },
+        {
+            q: 'Can bank recovery agents visit the husband\'s workplace or call his phone?',
+            a: "No. Under the RBI Master Direction on Fair Practices Code, recovery agents are strictly prohibited from contacting or harassing spouses, family members. Employers of the borrower. Calling or visiting a husband for his wife's debt is a severe regulatory violation punishable by the RBI Ombudsman."
+        },
+        {
+            q: 'Does a wife\'s credit card default affect her husband\'s CIBIL score?',
+            a: 'No. Under the Credit Information Companies (Regulation) Act, 2005 (CICRA), credit bureau records are mapped strictly to individual Permanent Account Numbers (PAN). A housewife\'s loan default impacts only her own CIBIL score and does not reflect on her husband\'s credit report unless he is a joint borrower.'
+        },
+        {
+            q: 'What happens if the housewife defaulted on an Add-On (supplementary) credit card?',
+            a: 'If the housewife held an Add-On card issued against her husband\'s primary credit card account, the husband remains 100% legally liable for all outstanding balances. The primary cardholder contractually assumes full financial responsibility for all supplementary cards under Indian banking agreements.'
+        },
+        {
+            q: 'Can recovery agents seize household assets or Stridhan for credit card dues?',
+            a: "No. Unsecured credit card defaults do not give lenders collateral repossession rights. also, under Section 14 of the Hindu Succession Act, 1956 and the Married Women's Property Act, 1874, a woman's Stridhan (personal jewelry, gifts, separate property) is legally protected from attachment by unsecured creditors."
+        },
+        {
+            q: 'Can a bank initiate criminal proceedings under Section 138 or Section 25 PSSA against a housewife?',
+            a: 'A bank can file complaints under Section 138 of the Negotiable Instruments Act or Section 25 of the Payments and Settlement Systems Act only if an ECS/NACH mandate or cheque issued from the wife\'s bank account bounced. However, the husband cannot be prosecuted under these provisions, and the matter remains bailable and easily settleable.'
+        },
+        {
+            q: 'How does a One-Time Settlement (OTS) work for a housewife with no income?',
+            a: 'When a cardholder has zero independent income or assets, banks classify the exposure as an unrecoverable non-performing asset (NPA). Through CredSettle, borrowers negotiate an affordable compromise One-Time Settlement (OTS), securing a 50% to 75% waiver on accumulated penal interest and closing the account with a formal No Dues Certificate.'
+        },
+        {
+            q: 'What should a family do if recovery agents use abusive language or issue threats?',
+            a: "Immediately document and record all communications, noting agent caller IDs and timestamps. Issue a formal cease-and-desist legal notice citing RBI Master Circulars, file a police complaint under the Bharatiya Nyaya Sanhita (BNS) for criminal intimidation. Escalate to the bank's Principal Nodal Officer and the RBI Ombudsman."
+        },
+        {
+            q: 'Can a housewife rebuild her CIBIL score after settling her credit card debt?',
+            a: "Yes. Once the debt is resolved and an official No Dues Certificate (NDC) is issued, the housewife can rebuild her credit profile by opening a small fixed deposit backed credit card (secured card), maintaining use below 30%. Ensuring timely repayments over a 12 to 18 month period."
+        }
+    ];
+    return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
       {/* 1. HERO SECTION (#2452ae Background) */}
-      <section
-        className="relative text-white pt-14 pb-10 md:pt-18 md:pb-12 px-4 md:px-8 overflow-hidden flex items-center justify-center text-center"
-        style={{ backgroundColor: '#2452ae' }}
-      >
-        <div className="absolute inset-0 bg-black/5 z-0 pointer-events-none" />
+      <section className="relative text-white pt-14 pb-10 md:pt-18 md:pb-12 px-4 md:px-8 overflow-hidden flex items-center justify-center text-center" style={{ backgroundColor: '#2452ae' }}>
+        <div className="absolute inset-0 bg-black/5 z-0 pointer-events-none"/>
         <div className="max-w-5xl mx-auto text-center z-10 relative">
           <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold mb-4 border border-white/15">
-            <Scale className="w-4 h-4 text-blue-200" />
-            <span>Spousal Debt Liability &amp; Banking Regulations Guide</span>
+            <Scale className="w-4 h-4 text-blue-200"/>
+            <span>Spousal Debt Liability &amp; Banking Regulations Guide.</span>
           </div>
 
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-3 md:mb-4 tracking-tight leading-tight drop-shadow-xs">
@@ -146,16 +101,13 @@ export default function CreditCardDefaultByHousewifeClient() {
           </h1>
 
           <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed">
-            Understand your statutory protections under the Indian Contract Act, Married Women&apos;s Property Act, and RBI Fair Practices Code. Discover why spousal liability is legally separate and how to settle delinquent cards with complete legal protection.
+            Understand your statutory protections under the Indian Contract Act, Married Women&apos;s Property Act, and RBI Fair Practices Code. Discover why spousal liability is legally separate and how to settle overdue cards with complete legal protection.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="/contact"
-              className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2"
-            >
-              <span>Get Legal Advice for Spousal Debt</span>
-              <ArrowRight className="w-4 h-4" />
+            <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
+              <span>Get Legal Advice for Spousal Debt.</span>
+              <ArrowRight className="w-4 h-4"/>
             </Link>
           </div>
         </div>
@@ -172,34 +124,26 @@ export default function CreditCardDefaultByHousewifeClient() {
           <aside className="sticky top-6 hidden lg:block">
             <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-4 overflow-hidden">
               <div className="flex items-center gap-2 pb-3 mb-3 border-b border-slate-100">
-                <BookOpen className="w-4 h-4 text-[#1886ff]" />
+                <BookOpen className="w-4 h-4 text-[#1886ff]"/>
                 <span className="text-xs font-black uppercase tracking-wider text-slate-800">
-                  Table of Contents
+                  Table of Contents.
                 </span>
               </div>
               <nav className="space-y-1 max-h-[calc(100vh-140px)] overflow-y-auto pr-1 text-xs">
                 {navLinks.map((link) => {
-                  const isActive = activeId === link.id;
-                  return (
-                    <a
-                      key={link.id}
-                      href={`#${link.id}`}
-                      className={`block py-1.5 px-2.5 rounded-lg transition-all duration-150 leading-snug ${
-                        isActive
-                          ? 'bg-blue-50 text-[#1886ff] font-bold border-l-3 border-[#1886ff] pl-2'
-                          : 'text-slate-600 hover:text-slate-900 hover:bg-slate-50 font-medium'
-                      }`}
-                    >
+            const isActive = activeId === link.id;
+            return (<a key={link.id} href={`#${link.id}`} className={`block py-1.5 px-2.5 rounded-lg transition-all duration-150 leading-snug ${isActive
+                    ? 'bg-blue-50 text-[#1886ff] font-bold border-l-3 border-[#1886ff] pl-2'
+                    : 'text-slate-600 hover:text-slate-900 hover:bg-slate-50 font-medium'}`}>
                       {link.label}
-                    </a>
-                  );
-                })}
+                    </a>);
+        })}
               </nav>
 
               <div className="mt-4 pt-3 border-t border-slate-100 bg-blue-50/50 -mx-4 -mb-4 p-3 rounded-b-2xl">
                 <div className="flex items-center gap-2 text-[11px] font-bold text-slate-800">
-                  <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0" />
-                  <span>Statutory Legal Defense</span>
+                  <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
+                  <span>Statutory Legal Defense.</span>
                 </div>
                 <p className="text-[10px] text-slate-500 mt-1 leading-tight">
                   Governed by Indian Contract Act 1872 &amp; RBI Fair Practices Directives.
@@ -212,48 +156,45 @@ export default function CreditCardDefaultByHousewifeClient() {
           <div className="space-y-8 md:space-y-10 min-w-0">
             
             {/* Executive Brief Box */}
-            <div
-              id="quick-crux"
-              className="scroll-target rounded-2xl bg-[#F4F8FE] border border-blue-100/90 border-l-[5px] border-l-[#1886ff] p-5 sm:p-6 md:p-7 shadow-xs space-y-4 text-slate-800"
-            >
+            <div id="quick-crux" className="scroll-target rounded-2xl bg-[#F4F8FE] border border-blue-100/90 border-l-[5px] border-l-[#1886ff] p-5 sm:p-6 md:p-7 shadow-xs space-y-4 text-slate-800">
               <div className="flex items-center gap-2 text-xs md:text-sm font-black uppercase tracking-wider text-[#1886ff]">
-                <Bookmark className="w-4 h-4 text-[#1886ff]" />
-                <span>EXECUTIVE BRIEF: SPOUSAL DEBT LIABILITY IN INDIA</span>
+                <Bookmark className="w-4 h-4 text-[#1886ff]"/>
+                <span>EXECUTIVE BRIEF: SPOUSAL DEBT LIABILITY IN INDIA.</span>
               </div>
 
               <ul className="space-y-2.5 text-xs sm:text-sm text-slate-700 leading-relaxed">
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
                   <div>
                     <strong className="text-slate-900 font-bold">Zero Husband Liability:</strong> Under the Indian Contract Act, credit card contracts are personal to the cardholder. A husband is not legally liable for his wife&apos;s individual debt.
                   </div>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
                   <div>
                     <strong className="text-slate-900 font-bold">Husband&apos;s CIBIL Is Unaffected:</strong> Credit scores are tracked strictly by individual PAN. A housewife&apos;s default does not impact her husband&apos;s credit profile.
                   </div>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
                   <div>
                     <strong className="text-slate-900 font-bold">Strict RBI Ban on Harassment:</strong> RBI prohibits recovery agents from contacting, calling, or visiting spouses, relatives, or workplaces.
                   </div>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
                   <div>
                     <strong className="text-slate-900 font-bold">Asset &amp; Stridhan Protection:</strong> Creditors cannot attach the husband&apos;s salary, savings, or property. A woman&apos;s Stridhan is legally protected.
                   </div>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
                   <div>
-                    <strong className="text-slate-900 font-bold">50% to 75% OTS Settlement:</strong> Non-earning homemakers qualify for significant One-Time Settlement waivers, finalized with an official No Dues Certificate.
+                    <strong className="text-slate-900 font-bold">50% to 75% OTS Settlement:</strong> Non-earning homemakers qualify for major One-Time Settlement waivers, finalized with an official No Dues Certificate.
                   </div>
                 </li>
               </ul>
@@ -262,142 +203,142 @@ export default function CreditCardDefaultByHousewifeClient() {
             {/* SECTION 1: Spousal Liability & Contract Law */}
             <section id="spousal-liability-indian-law" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
-                <Scale className="w-4 h-4" />
-                <span>Foundational Legal Jurisprudence</span>
+                <Scale className="w-4 h-4"/>
+                <span>Foundational Legal Jurisprudence.</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-bold text-slate-900">
                 1. Spousal Liability: Is Husband Liable for Wife Debt?
               </h2>
 
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                In Indian commercial jurisprudence, marriage does not create a joint financial entity. When a married woman applies for and is granted a credit card or personal loan in her individual name, the legal relationship is governed strictly by the Indian Contract Act, 1872. Under the bedrock doctrine of privity of contract, rights and obligations arising from an agreement exist solely between the contracting parties: the issuing bank and the primary cardholder.
+                In Indian commercial jurisprudence, marriage does not create a joint financial entity. When a married woman applies for and is granted a credit card or personal loan in her individual name, the legal relationship is governed strictly by the Indian Contract Act, 1872. Under the bedrock doctrine of privity of contract, rights and dues arising from an agreement exist solely between the contracting parties: the issuing bank and the primary cardholder.
               </p>
 
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                A common misconception exploited by aggressive recovery agencies is that marriage implies automatic financial co-guarantee. Indian law rejects this premise entirely. Unless the husband has explicitly signed the loan agreement as a co-applicant, primary cardholder, or provided a formal deed of guarantee, he remains a complete stranger to the contract. The lender holds no legal standing to demand payment from the husband, deduct funds from his bank accounts, or initiate recovery proceedings against his personal assets.
+                A common misconception exploited by aggressive recovery agencies is that marriage implies automatic financial co-guarantee. Indian law rejects this premise entirely. Unless the husband has explicitly signed the loan agreement as a co-applicant, primary cardholder. Provided a formal deed of guarantee, he remains a complete stranger to the contract. The lender holds no legal standing to demand payment from the husband, deduct funds from his bank accounts. Initiate recovery proceedings against his personal assets.
               </p>
 
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                Furthermore, ancient concepts such as the doctrine of pious obligation under classical Hindu law apply strictly to the moral obligation of sons to repay their father&apos;s untainted debts; there is zero statutory or customary pious obligation requiring a husband to settle his wife&apos;s commercial credit debts, nor does any reciprocal obligation exist on the wife. Consequently, credit card arrears contracted by a housewife represent solely her individual civil obligation.
+                also, ancient concepts such as the doctrine of pious debt under classical Hindu law apply strictly to the moral debt of sons to repay their father&apos;s untainted debts. There is zero statutory or customary pious debt requiring a husband to settle his wife&apos;s commercial credit debts, nor does any reciprocal debt exist on the wife. as a result, credit card arrears contracted by a housewife represent solely her individual civil debt.
               </p>
             </section>
 
             {/* SECTION 2: Separate Legal Personality & Property Rights */}
             <section id="legal-framework-separate-personality" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
-                <Landmark className="w-4 h-4" />
-                <span>Statutory Property Protections</span>
+                <Landmark className="w-4 h-4"/>
+                <span>Statutory Property Protections.</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-bold text-slate-900">
                 2. Indian Legal Framework: Separate Legal Personality
               </h2>
 
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                The financial independence and separate legal identity of married women are codified under multiple Indian statutes, most notably the Married Women&apos;s Property Act, 1874 (MWPA) and Section 14 of the Hindu Succession Act, 1956. These statutory provisions establish that all property acquired by a woman, whether through inheritance, gifts, personal savings, or Stridhan received during marriage, constitutes her absolute and exclusive estate.
+                The financial independence and separate legal identity of married women are codified under multiple Indian statutes, most notably the Married Women&apos;s Property Act, 1874 (MWPA) and Section 14 of the Hindu Succession Act, 1956. These statutory provisions establish that all property acquired by a woman, whether through inheritance, gifts, personal savings. Stridhan received during marriage, constitutes her absolute and exclusive estate.
               </p>
 
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                Because a woman&apos;s estate is legally segregated from her husband&apos;s estate, creditors pursuing money claims cannot pierce the marital veil. A bank obtaining an award or civil decree against a defaulted housewife can seek execution solely against assets owned exclusively in her name. The husband&apos;s salary, professional earnings, independently purchased residential properties, vehicles, and investment portfolios are immune from attachment under Order XXI of the Code of Civil Procedure, 1908.
+                Because a woman&apos;s estate is legally segregated from her husband&apos;s estate, creditors pursuing money claims cannot pierce the marital veil. A bank obtaining an award or civil decree against a defaulted housewife can seek execution solely against assets owned only in her name. The husband&apos;s salary, professional earnings, independently purchased residential properties, vehicles. Investment portfolios are immune from attachment under Order XXI of the Code of Civil Procedure, 1908.
               </p>
 
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                The sole narrow exception recognized in common law is the agency of necessity doctrine, where a wife purchasing basic life-sustaining necessities such as food or emergency medical supplies without adequate spousal maintenance may pledge her husband&apos;s credit. However, high-interest revolving credit cards, personal loans, retail purchases, and consumer durables do not qualify as agency of necessity. Financial institutions are fully cognizant of this legal boundary, which is why recovery agents frequently resort to psychological intimidation rather than legitimate court litigation.
+                The sole narrow exception recognized in common law is the agency of necessity doctrine, where a wife purchasing basic life-sustaining necessities such as food or emergency medical supplies without adequate spousal maintenance may pledge her husband&apos;s credit. However, high-interest revolving credit cards, personal loans, retail purchases. Consumer durables do not qualify as agency of necessity. Financial institutions are fully cognizant of this legal boundary, which is why recovery agents frequently resort to psychological intimidation rather than legitimate court litigation.
               </p>
             </section>
 
             {/* SECTION 3: Debt Resolution Matrix */}
             <section id="debt-resolution-comparison-matrix" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
-                <Briefcase className="w-4 h-4" />
-                <span>Resolution Pathways Matrix</span>
+                <Briefcase className="w-4 h-4"/>
+                <span>Resolution Pathways Matrix.</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-bold text-slate-900">
                 3. Debt Resolution Matrix: Legal Relief Mechanisms
               </h2>
 
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                When a housewife defaults on credit card obligations, families face several strategic choices. Evaluating these options based on financial viability, spousal insulation, and credit record impact is essential for long-term resolution.
+                When a housewife defaults on credit card dues, families face several strategic choices. Evaluating these options based on financial viability, spousal insulation, and credit record impact is essential for long-term resolution.
               </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
                 <table className="w-full text-xs sm:text-sm text-left border-collapse">
                   <thead>
                     <tr className="bg-slate-100 text-slate-900 font-bold border-b border-slate-200">
-                      <th className="p-3 sm:p-4 border-r border-slate-200">Resolution Pathway</th>
-                      <th className="p-3 sm:p-4 border-r border-slate-200">Financial Relief Target</th>
-                      <th className="p-3 sm:p-4 border-r border-slate-200">Husband Liability Status</th>
+                      <th className="p-3 sm:p-4 border-r border-slate-200">Resolution Pathway.</th>
+                      <th className="p-3 sm:p-4 border-r border-slate-200">Financial Relief Target.</th>
+                      <th className="p-3 sm:p-4 border-r border-slate-200">Husband Liability Status.</th>
                       <th className="p-3 sm:p-4">Best Suited For</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-700">
                     <tr className="hover:bg-slate-50 transition-colors">
                       <td className="p-3 sm:p-4 font-bold text-slate-900 border-r border-slate-200">
-                        One-Time Settlement (OTS)
+                        One-Time Settlement (OTS).
                       </td>
                       <td className="p-3 sm:p-4 text-emerald-700 font-bold border-r border-slate-200">
-                        50% to 75% Principal &amp; Interest Waiver
+                        50% to 75% Principal &amp; Interest Waiver.
                       </td>
                       <td className="p-3 sm:p-4 text-slate-600 border-r border-slate-200">
-                        Zero liability; completely insulated
+                        Zero liability; completely insulated.
                       </td>
                       <td className="p-3 sm:p-4 text-slate-600">
-                        Unmanageable dues with zero independent income
+                        Unmanageable dues with zero independent income.
                       </td>
                     </tr>
                     <tr className="hover:bg-slate-50 transition-colors">
                       <td className="p-3 sm:p-4 font-bold text-slate-900 border-r border-slate-200">
-                        Debt Restructuring / Moratorium
+                        Debt Restructuring / Moratorium.
                       </td>
                       <td className="p-3 sm:p-4 text-slate-600 border-r border-slate-200">
-                        Tenure extension; zero principal waiver
+                        Tenure extension; zero principal waiver.
                       </td>
                       <td className="p-3 sm:p-4 text-slate-600 border-r border-slate-200">
-                        Zero liability unless added as co-signer
+                        Zero liability unless added as co-signer.
                       </td>
                       <td className="p-3 sm:p-4 text-slate-600">
-                        Temporary cash crunch with foreseeable income
+                        Temporary cash crunch with foreseeable income.
                       </td>
                     </tr>
                     <tr className="hover:bg-slate-50 transition-colors">
                       <td className="p-3 sm:p-4 font-bold text-slate-900 border-r border-slate-200">
-                        Balance Transfer / Top-Up Loan
+                        Balance Transfer / Top-Up Loan.
                       </td>
                       <td className="p-3 sm:p-4 text-slate-600 border-r border-slate-200">
-                        Lower APR; shifts debt to new lender
+                        Lower APR; shifts debt to new lender.
                       </td>
                       <td className="p-3 sm:p-4 text-amber-700 font-bold border-r border-slate-200">
-                        High risk if husband takes personal loan
+                        High risk if husband takes personal loan.
                       </td>
                       <td className="p-3 sm:p-4 text-slate-600">
-                        Husband voluntarily absorbing the debt
+                        Husband voluntarily absorbing the debt.
                       </td>
                     </tr>
                     <tr className="hover:bg-slate-50 transition-colors">
                       <td className="p-3 sm:p-4 font-bold text-slate-900 border-r border-slate-200">
-                        Lok Adalat Conciliation
+                        Lok Adalat Conciliation.
                       </td>
                       <td className="p-3 sm:p-4 text-emerald-700 font-semibold border-r border-slate-200">
-                        35% to 55% waiver via judicial mediation
+                        35% to 55% waiver via judicial mediation.
                       </td>
                       <td className="p-3 sm:p-4 text-slate-600 border-r border-slate-200">
-                        Zero liability; formal court decree
+                        Zero liability; formal court decree.
                       </td>
                       <td className="p-3 sm:p-4 text-slate-600">
-                        Disputed interest calculations pending in court
+                        Disputed interest calculations pending in court.
                       </td>
                     </tr>
                     <tr className="hover:bg-slate-50 transition-colors">
                       <td className="p-3 sm:p-4 font-bold text-slate-900 border-r border-slate-200">
-                        Inaction / Continued Default
+                        Inaction / Continued Default.
                       </td>
                       <td className="p-3 sm:p-4 text-red-600 font-semibold border-r border-slate-200">
-                        Zero relief; 42% APR compounding penalties
+                        Zero relief; 42% APR compounding penalties.
                       </td>
                       <td className="p-3 sm:p-4 text-red-600 font-semibold border-r border-slate-200">
-                        Third-party harassment risks
+                        Third-party harassment risks.
                       </td>
                       <td className="p-3 sm:p-4 text-slate-600">
-                        Not recommended; worsens credit bureau record
+                        Not recommended; worsens credit bureau record.
                       </td>
                     </tr>
                   </tbody>
@@ -408,15 +349,15 @@ export default function CreditCardDefaultByHousewifeClient() {
             {/* SECTION 4: Technical CIBIL Algorithm & Scoring Math */}
             <section id="credit-score-impact-cibil-pan" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
-                <TrendingUp className="w-4 h-4" />
-                <span>Credit Bureau Architecture</span>
+                <TrendingUp className="w-4 h-4"/>
+                <span>Credit Bureau Architecture.</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-bold text-slate-900">
                 4. Credit Score Impact: Wife PAN vs Husband CIBIL
               </h2>
 
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                Credit scoring in India operates under the Credit Information Companies (Regulation) Act, 2005 (CICRA). The four licensed credit bureaus: TransUnion CIBIL, Experian, CRIF High Mark, and Equifax, track credit facilities strictly through the borrower&apos;s Permanent Account Number (PAN). There is no algorithmic mechanism linking marital status, household addresses, or spousal names into a single consolidated credit profile.
+                Credit scoring in India operates under the Credit Information Companies (Regulation) Act, 2005 (CICRA). The four licensed credit bureaus: TransUnion CIBIL, Experian, CRIF High Mark. Equifax, track credit facilities strictly through the borrower&apos;s Permanent Account Number (PAN). There is no algorithmic mechanism linking marital status, household addresses. Spousal names into a single consolidated credit profile.
               </p>
 
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -424,15 +365,15 @@ export default function CreditCardDefaultByHousewifeClient() {
               </p>
 
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                Following a successful One-Time Settlement, the card status will be reported to CIBIL as &quot;Settled&quot;. While this prevents active legal claims, it reflects that the balance was resolved for less than the full contract amount. The housewife can systematically restore her credit standing within 12 to 18 months by securing a fixed deposit backed credit card, maintaining low credit utilization below 30%, and ensuring flawless repayment cycles.
+                Following a successful One-Time Settlement, the card status will be reported to CIBIL as &quot;Settled&quot;. While this prevents active legal claims, it reflects that the balance was resolved for less than the full contract amount. The housewife can systematically restore her credit standing within 12 to 18 months by securing a fixed deposit backed credit card, maintaining low credit use below 30%. Ensuring flawless repayment cycles.
               </p>
             </section>
 
             {/* SECTION 5: Visual Infographic Asset Card */}
             <section id="infographic-housewife-debt-blueprint" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
-                <Sparkles className="w-4 h-4" />
-                <span>Visual Legal Architecture</span>
+                <Sparkles className="w-4 h-4"/>
+                <span>Visual Legal Architecture.</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-bold text-slate-900">
                 5. Visual Blueprint: Housewife Debt Defense Guide
@@ -444,25 +385,13 @@ export default function CreditCardDefaultByHousewifeClient() {
 
               <div className="rounded-2xl border border-slate-200/80 bg-white p-3 sm:p-4 shadow-xs overflow-hidden">
                 <div className="relative aspect-video w-full rounded-xl overflow-hidden bg-slate-100">
-                  <Image
-                    src="/images/infographics/credit-card-default-by-housewife.jpg"
-                    alt="Housewife Credit Card Default Spousal Liability and Legal Defense Framework"
-                    fill
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 75vw, 900px"
-                    className="object-cover"
-                    priority
-                  />
+                  <Image src="/images/infographics/credit-card-default-by-housewife.jpg" alt="Housewife Credit Card Default Spousal Liability and Legal Defense Framework" fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 75vw, 900px" className="object-cover" priority/>
                 </div>
                 <div className="mt-3 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 text-[11px] text-slate-500">
                   <span>Figure 1.1: Comprehensive CredSettle Legal &amp; Spousal Protection Blueprint.</span>
-                  <a
-                    href="/images/infographics/credit-card-default-by-housewife.jpg"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#1886ff] hover:underline font-semibold inline-flex items-center gap-1"
-                  >
-                    <span>View High-Res Infographic</span>
-                    <ExternalLink className="w-3 h-3" />
+                  <a href="/images/infographics/credit-card-default-by-housewife.jpg" target="_blank" rel="noopener noreferrer" className="text-[#1886ff] hover:underline font-semibold inline-flex items-center gap-1">
+                    <span>View High-Res Infographic.</span>
+                    <ExternalLink className="w-3 h-3"/>
                   </a>
                 </div>
               </div>
@@ -471,15 +400,15 @@ export default function CreditCardDefaultByHousewifeClient() {
             {/* SECTION 6: 6-Stage Defense Protocol */}
             <section id="step-by-step-defense-sop" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
-                <FileText className="w-4 h-4" />
-                <span>Standard Operating Procedure</span>
+                <FileText className="w-4 h-4"/>
+                <span>Standard Operating Procedure.</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-bold text-slate-900">
                 6. 6-Stage Defense Protocol: Settle Housewife Debt
               </h2>
 
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                Navigating a credit card default requires a disciplined legal and financial strategy. CredSettle implements a structured six-stage protocol designed to eliminate third-party harassment, audit unconscionable fees, and secure permanent financial closure.
+                Navigating a credit card default requires a disciplined legal and financial strategy. CredSettle implements a structured six-stage protocol designed to eliminate third-party harassment, audit unconscionable fees. Secure permanent financial closure.
               </p>
 
               <div className="space-y-4 text-xs sm:text-sm text-slate-700 leading-relaxed">
@@ -489,7 +418,7 @@ export default function CreditCardDefaultByHousewifeClient() {
                     Stage 1: Forensic Portfolio &amp; Interest Audit
                   </h3>
                   <p className="text-slate-600">
-                    Our legal desk performs an itemized audit of the card account history, stripping away exorbitant compounding late charges, over-limit penalties, and arbitrary GST components to determine the genuine base principal.
+                    Our legal desk performs an itemized audit of the card account history, stripping away excessive compounding late charges, over-limit penalties. Arbitrary GST components to determine the genuine base principal.
                   </p>
                 </div>
 
@@ -499,7 +428,7 @@ export default function CreditCardDefaultByHousewifeClient() {
                     Stage 2: Comprehensive Hardship Dossier Compilation
                   </h3>
                   <p className="text-slate-600">
-                    We assemble documented evidence demonstrating the homemaker&apos;s lack of independent earning capacity, medical records, or genuine domestic distress, establishing that aggressive civil litigation would yield zero recovery.
+                    We assemble documented evidence showing the homemaker&apos;s lack of independent earning capacity, medical records. Genuine domestic distress, establishing that aggressive civil litigation would yield zero recovery.
                   </p>
                 </div>
 
@@ -509,7 +438,7 @@ export default function CreditCardDefaultByHousewifeClient() {
                     Stage 3: Anti-Harassment Notice &amp; Legal Shielding
                   </h3>
                   <p className="text-slate-600">
-                    We serve formal statutory representations to the lender&apos;s legal cell, directing all communications to CredSettle and prohibiting calls or visits to the husband, workplace, or family members under RBI Fair Practices rules.
+                    We serve formal statutory representations to the lender&apos;s legal cell, directing all communications to CredSettle and prohibiting calls or visits to the husband, workplace. Family members under RBI Fair Practices rules.
                   </p>
                 </div>
 
@@ -529,7 +458,7 @@ export default function CreditCardDefaultByHousewifeClient() {
                     Stage 5: Settlement Letter Authentication &amp; Legal Vetting
                   </h3>
                   <p className="text-slate-600">
-                    Before any payment is executed, our attorneys rigorously verify the settlement letter on official bank letterhead, validating authorized signatory credentials, account details, and full debt waiver clauses.
+                    Before any payment is executed, our attorneys rigorously verify the settlement letter on official bank letterhead, validating authorized signatory credentials, account details. Full debt waiver clauses.
                   </p>
                 </div>
 
@@ -548,8 +477,8 @@ export default function CreditCardDefaultByHousewifeClient() {
             {/* SECTION 7: Statutory Notice Defense & Legal Rights */}
             <section id="statutory-defenses-harassment-protection" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
-                <Gavel className="w-4 h-4" />
-                <span>Statutory Defenses &amp; Legal Framework</span>
+                <Gavel className="w-4 h-4"/>
+                <span>Statutory Defenses &amp; Legal Framework.</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-bold text-slate-900">
                 7. Statutory Defenses: Stop Bank &amp; Agent Harassment
@@ -562,7 +491,7 @@ export default function CreditCardDefaultByHousewifeClient() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm">
                 <div className="p-4 rounded-xl border border-slate-200/80 bg-white space-y-2">
                   <h3 className="font-bold text-slate-900 text-sm flex items-center gap-2">
-                    <ShieldAlert className="w-4 h-4 text-amber-600" />
+                    <ShieldAlert className="w-4 h-4 text-amber-600"/>
                     Section 25 PSSA &amp; Section 138 NI Act
                   </h3>
                   <p className="text-slate-600 leading-relaxed">
@@ -572,17 +501,17 @@ export default function CreditCardDefaultByHousewifeClient() {
 
                 <div className="p-4 rounded-xl border border-slate-200/80 bg-white space-y-2">
                   <h3 className="font-bold text-slate-900 text-sm flex items-center gap-2">
-                    <Scale className="w-4 h-4 text-[#1886ff]" />
+                    <Scale className="w-4 h-4 text-[#1886ff]"/>
                     Unilateral Arbitration (Section 21)
                   </h3>
                   <p className="text-slate-600 leading-relaxed">
-                    Under Supreme Court precedents in <em>Perkins Eastman</em> and <em>TRF Ltd.</em>, banks cannot unilaterally appoint a sole arbitrator to pass ex-parte awards. Any such appointment without mutual consent is legally invalid and challengeable under Section 12(5).
+                    Under Supreme Court precedents in. <em>Perkins Eastman</em> and <em>TRF Ltd.</em>, banks cannot unilaterally appoint a sole arbitrator to pass ex-parte awards. Any such appointment without mutual consent is legally invalid and challengeable under Section 12(5).
                   </p>
                 </div>
 
                 <div className="p-4 rounded-xl border border-slate-200/80 bg-white space-y-2">
                   <h3 className="font-bold text-slate-900 text-sm flex items-center gap-2">
-                    <Building2 className="w-4 h-4 text-emerald-600" />
+                    <Building2 className="w-4 h-4 text-emerald-600"/>
                     DRT &amp; Civil Recovery Suits
                   </h3>
                   <p className="text-slate-600 leading-relaxed">
@@ -592,11 +521,11 @@ export default function CreditCardDefaultByHousewifeClient() {
 
                 <div className="p-4 rounded-xl border border-slate-200/80 bg-white space-y-2">
                   <h3 className="font-bold text-slate-900 text-sm flex items-center gap-2">
-                    <BadgeAlert className="w-4 h-4 text-purple-600" />
+                    <BadgeAlert className="w-4 h-4 text-purple-600"/>
                     RBI Fair Practices Code Protections
                   </h3>
                   <p className="text-slate-600 leading-relaxed">
-                    Under RBI Master Directions, agents are prohibited from calling before 8:00 AM or after 7:00 PM, using abusive language, visiting workplaces, or contacting relatives. Violations constitute grounds for regulatory complaints and damages.
+                    Under RBI Master Directions, agents are prohibited from calling before 8:00 AM or after 7:00 PM, using abusive language, visiting workplaces. Contacting relatives. Violations constitute grounds for regulatory complaints and damages.
                   </p>
                 </div>
               </div>
@@ -605,8 +534,8 @@ export default function CreditCardDefaultByHousewifeClient() {
             {/* SECTION 8: 3-Tier Grievance Matrix */}
             <section id="three-tier-grievance-escalation" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
-                <Building2 className="w-4 h-4" />
-                <span>Institutional Redressal Mechanism</span>
+                <Building2 className="w-4 h-4"/>
+                <span>Institutional Redressal Mechanism.</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-bold text-slate-900">
                 8. 3-Tier Grievance Matrix: RBI Ombudsman Escalation
@@ -619,7 +548,7 @@ export default function CreditCardDefaultByHousewifeClient() {
               <div className="space-y-3 text-xs sm:text-sm">
                 <div className="p-3.5 rounded-xl border border-slate-200/80 bg-white flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
                   <div>
-                    <strong className="text-slate-900 block font-bold">Level 1: Grievance Redressal Officer (GRO)</strong>
+                    <strong className="text-slate-900 block font-bold">Level 1: Grievance Redressal Officer (GRO).</strong>
                     <span className="text-slate-600 text-xs">Submit formal written complaint detailing agent harassment and demanding immediate cessation within 7 to 10 working days.</span>
                   </div>
                   <span className="text-[11px] font-bold text-[#1886ff] bg-blue-50 px-2.5 py-1 rounded-md whitespace-nowrap">TAT: 7-10 Days</span>
@@ -627,7 +556,7 @@ export default function CreditCardDefaultByHousewifeClient() {
 
                 <div className="p-3.5 rounded-xl border border-slate-200/80 bg-white flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
                   <div>
-                    <strong className="text-slate-900 block font-bold">Level 2: Principal Nodal Officer (PNO)</strong>
+                    <strong className="text-slate-900 block font-bold">Level 2: Principal Nodal Officer (PNO).</strong>
                     <span className="text-slate-600 text-xs">Escalate unresolved grievances to the bank&apos;s executive compliance desk, citing specific RBI Master Directions violations.</span>
                   </div>
                   <span className="text-[11px] font-bold text-[#1886ff] bg-blue-50 px-2.5 py-1 rounded-md whitespace-nowrap">TAT: 14-21 Days</span>
@@ -635,10 +564,10 @@ export default function CreditCardDefaultByHousewifeClient() {
 
                 <div className="p-3.5 rounded-xl border border-slate-200/80 bg-white flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
                   <div>
-                    <strong className="text-slate-900 block font-bold">Level 3: RBI Integrated Ombudsman Scheme</strong>
+                    <strong className="text-slate-900 block font-bold">Level 3: RBI Integrated Ombudsman Scheme.</strong>
                     <span className="text-slate-600 text-xs">File a statutory complaint via cms.rbi.org.in for unfair debt recovery practices and seek compensatory relief up to ₹20 Lakhs.</span>
                   </div>
-                  <span className="text-[11px] font-bold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md whitespace-nowrap">Statutory Redressal</span>
+                  <span className="text-[11px] font-bold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md whitespace-nowrap">Statutory Redressal.</span>
                 </div>
               </div>
             </section>
@@ -646,15 +575,15 @@ export default function CreditCardDefaultByHousewifeClient() {
             {/* SECTION 9: Chronological Timeline Table */}
             <section id="chronological-default-timeline" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
-                <Clock className="w-4 h-4" />
-                <span>Default Trajectory</span>
+                <Clock className="w-4 h-4"/>
+                <span>Default Trajectory.</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-bold text-slate-900">
                 9. Default Timeline: SMA Classification to Resolution
               </h2>
 
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                Understanding the regulatory milestones from initial payment delinquency to full settlement helps families time their negotiations for optimal financial waivers.
+                Understanding the regulatory milestones from initial payment default to full settlement helps families time their negotiations for optimal financial waivers.
               </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
@@ -662,41 +591,41 @@ export default function CreditCardDefaultByHousewifeClient() {
                   <thead>
                     <tr className="bg-slate-100 text-slate-900 font-bold border-b border-slate-200">
                       <th className="p-3 sm:p-4 border-r border-slate-200">Timeline Phase</th>
-                      <th className="p-3 sm:p-4 border-r border-slate-200">Banking Asset Status</th>
-                      <th className="p-3 sm:p-4 border-r border-slate-200">Bank Recovery Action</th>
-                      <th className="p-3 sm:p-4">Recommended Legal Strategy</th>
+                      <th className="p-3 sm:p-4 border-r border-slate-200">Banking Asset Status.</th>
+                      <th className="p-3 sm:p-4 border-r border-slate-200">Bank Recovery Action.</th>
+                      <th className="p-3 sm:p-4">Recommended Legal Strategy.</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-700">
                     <tr className="hover:bg-slate-50 transition-colors">
                       <td className="p-3 sm:p-4 font-bold text-slate-900 border-r border-slate-200">Day 1 to 30</td>
-                      <td className="p-3 sm:p-4 text-slate-600 border-r border-slate-200">SMA-0 (Standard Stressed)</td>
-                      <td className="p-3 sm:p-4 text-slate-600 border-r border-slate-200">Automated SMS, emails, mild follow-ups</td>
-                      <td className="p-3 sm:p-4 text-slate-600">Review finances; assess if temporary or structural</td>
+                      <td className="p-3 sm:p-4 text-slate-600 border-r border-slate-200">SMA-0 (Standard Stressed).</td>
+                      <td className="p-3 sm:p-4 text-slate-600 border-r border-slate-200">Automated SMS, emails, mild follow-ups.</td>
+                      <td className="p-3 sm:p-4 text-slate-600">Review finances; assess if temporary or structural.</td>
                     </tr>
                     <tr className="hover:bg-slate-50 transition-colors">
                       <td className="p-3 sm:p-4 font-bold text-slate-900 border-r border-slate-200">Day 31 to 60</td>
-                      <td className="p-3 sm:p-4 text-slate-600 border-r border-slate-200">SMA-1 (Moderate Delinquency)</td>
-                      <td className="p-3 sm:p-4 text-slate-600 border-r border-slate-200">In-house collection calls; late fee additions</td>
-                      <td className="p-3 sm:p-4 text-slate-600">Document communications; prevent third-party disclosures</td>
+                      <td className="p-3 sm:p-4 text-slate-600 border-r border-slate-200">SMA-1 (Moderate default).</td>
+                      <td className="p-3 sm:p-4 text-slate-600 border-r border-slate-200">In-house collection calls; late fee additions.</td>
+                      <td className="p-3 sm:p-4 text-slate-600">Document communications; prevent third-party disclosures.</td>
                     </tr>
                     <tr className="hover:bg-slate-50 transition-colors">
                       <td className="p-3 sm:p-4 font-bold text-slate-900 border-r border-slate-200">Day 61 to 90</td>
-                      <td className="p-3 sm:p-4 text-slate-600 border-r border-slate-200">SMA-2 (Severe Delinquency)</td>
-                      <td className="p-3 sm:p-4 text-slate-600 border-r border-slate-200">External agency allocation; legal notices</td>
-                      <td className="p-3 sm:p-4 text-slate-600">Issue anti-harassment shield; begin hardship dossier</td>
+                      <td className="p-3 sm:p-4 text-slate-600 border-r border-slate-200">SMA-2 (Severe default).</td>
+                      <td className="p-3 sm:p-4 text-slate-600 border-r border-slate-200">External agency allocation; legal notices.</td>
+                      <td className="p-3 sm:p-4 text-slate-600">Issue anti-harassment shield; begin hardship dossier.</td>
                     </tr>
                     <tr className="hover:bg-slate-50 transition-colors">
                       <td className="p-3 sm:p-4 font-bold text-slate-900 border-r border-slate-200">Day 90+</td>
-                      <td className="p-3 sm:p-4 text-red-600 font-bold border-r border-slate-200">NPA (Non-Performing Asset)</td>
-                      <td className="p-3 sm:p-4 text-slate-600 border-r border-slate-200">100% loss provisioning by bank</td>
-                      <td className="p-3 sm:p-4 text-emerald-700 font-bold">Prime OTS negotiation window; maximum waivers</td>
+                      <td className="p-3 sm:p-4 text-red-600 font-bold border-r border-slate-200">NPA (Non-Performing Asset).</td>
+                      <td className="p-3 sm:p-4 text-slate-600 border-r border-slate-200">100% loss provisioning by bank.</td>
+                      <td className="p-3 sm:p-4 text-emerald-700 font-bold">Prime OTS negotiation window; maximum waivers.</td>
                     </tr>
                     <tr className="hover:bg-slate-50 transition-colors">
                       <td className="p-3 sm:p-4 font-bold text-slate-900 border-r border-slate-200">Day 120 to 180</td>
-                      <td className="p-3 sm:p-4 text-slate-600 border-r border-slate-200">Compromise Settlement Phase</td>
-                      <td className="p-3 sm:p-4 text-slate-600 border-r border-slate-200">Credit committee reviews OTS proposals</td>
-                      <td className="p-3 sm:p-4 text-slate-600">Vet settlement letter, remit funds, secure official NDC</td>
+                      <td className="p-3 sm:p-4 text-slate-600 border-r border-slate-200">Compromise Settlement Phase.</td>
+                      <td className="p-3 sm:p-4 text-slate-600 border-r border-slate-200">Credit committee reviews OTS proposals.</td>
+                      <td className="p-3 sm:p-4 text-slate-600">Vet settlement letter, pay funds, secure official NDC.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -706,8 +635,8 @@ export default function CreditCardDefaultByHousewifeClient() {
             {/* SECTION 10: Specialized Real-World Scenarios */}
             <section id="complex-scenarios-joint-liabilities" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
-                <UserCheck className="w-4 h-4" />
-                <span>Complex Spousal Case Studies</span>
+                <UserCheck className="w-4 h-4"/>
+                <span>Complex Spousal Case Studies.</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-bold text-slate-900">
                 10. Complex Scenarios: Add-On Cards &amp; Joint Liabilities
@@ -756,8 +685,8 @@ export default function CreditCardDefaultByHousewifeClient() {
             {/* SECTION 12: Frequently Asked Questions */}
             <section id="frequently-asked-questions" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
-                <HelpCircle className="w-4 h-4" />
-                <span>Expert Q&amp;A Architecture</span>
+                <HelpCircle className="w-4 h-4"/>
+                <span>Expert Q&amp;A Architecture.</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-bold text-slate-900">
                 Frequently Asked Questions: Housewife Credit Card Debt
@@ -765,40 +694,25 @@ export default function CreditCardDefaultByHousewifeClient() {
 
               <div className="space-y-3">
                 {faqs.map((faq, idx) => {
-                  const isOpen = openFaq === idx;
-                  return (
-                    <div
-                      key={idx}
-                      className="border border-slate-200/80 rounded-2xl bg-white overflow-hidden transition-all shadow-2xs"
-                    >
-                      <button
-                        onClick={() => toggleFaq(idx)}
-                        className="w-full p-4 sm:p-5 text-left font-bold text-slate-900 hover:text-[#1886ff] transition-colors flex items-center justify-between gap-4 text-xs sm:text-sm"
-                        aria-expanded={isOpen}
-                      >
+            const isOpen = openFaq === idx;
+            return (<div key={idx} className="border border-slate-200/80 rounded-2xl bg-white overflow-hidden transition-all shadow-2xs">
+                      <button onClick={() => toggleFaq(idx)} className="w-full p-4 sm:p-5 text-left font-bold text-slate-900 hover:text-[#1886ff] transition-colors flex items-center justify-between gap-4 text-xs sm:text-sm" aria-expanded={isOpen}>
                         <span>{faq.q}</span>
-                        <ChevronDown
-                          className={`w-4 h-4 sm:w-5 sm:h-5 text-slate-400 flex-shrink-0 transition-transform duration-200 ${
-                            isOpen ? 'rotate-180 text-[#1886ff]' : ''
-                          }`}
-                        />
+                        <ChevronDown className={`w-4 h-4 sm:w-5 sm:h-5 text-slate-400 flex-shrink-0 transition-transform duration-200 ${isOpen ? 'rotate-180 text-[#1886ff]' : ''}`}/>
                       </button>
-                      {isOpen && (
-                        <div className="px-4 pb-4 sm:px-5 sm:pb-5 pt-0 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100">
+                      {isOpen && (<div className="px-4 pb-4 sm:px-5 sm:pb-5 pt-0 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100">
                           <p className="pt-3">{faq.a}</p>
-                        </div>
-                      )}
-                    </div>
-                  );
-                })}
+                        </div>)}
+                    </div>);
+        })}
               </div>
             </section>
 
             {/* SECTION 13: Citations & Outbound Authority Grid */}
             <section id="regulatory-sources" className="scroll-target space-y-4 pt-4 border-t border-slate-200">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-slate-500">
-                <BookOpen className="w-4 h-4" />
-                <span>Statutory Citations &amp; Legal Authorities</span>
+                <BookOpen className="w-4 h-4"/>
+                <span>Statutory Citations &amp; Legal Authorities.</span>
               </div>
               <h2 className="text-base sm:text-lg font-bold text-slate-900">
                 Official Regulatory Citations &amp; Statutory References
@@ -815,13 +729,13 @@ export default function CreditCardDefaultByHousewifeClient() {
                   <strong>Hindu Succession Act, 1956:</strong> Section 14 (Property of a Female Hindu to be Her Absolute Property / Stridhan Inviolability).
                 </li>
                 <li>
-                  <strong>Reserve Bank of India Master Directions:</strong> Master Direction on Fair Practices Code for Lenders, Recovery Agents Code of Conduct, and Grievance Redressal Mechanisms (Updated 2026).
+                  <strong>Reserve Bank of India Master Directions:</strong> Master Direction on Fair Practices Code for Lenders, Recovery Agents Code of Conduct. Grievance Redressal Mechanisms (Updated 2026).
                 </li>
                 <li>
                   <strong>Credit Information Companies (Regulation) Act, 2005 (CICRA):</strong> Sections 14, 19, 21 (Individual PAN-Based Credit Reporting Regulations).
                 </li>
                 <li>
-                  <strong>Supreme Court of India:</strong> <em>Perkins Eastman Architects DPC v. HSCC (India) Ltd. (2020)</em> and <em>TRF Ltd. v. Energo Engineering Projects Ltd. (2017)</em> (Disqualification of Unilateral Arbitrators).
+                  <strong>Supreme Court of India:</strong> <em>Perkins Eastman Architects DPC v. HSCC (India) Ltd. (2020).</em> and <em>TRF Ltd. v. Energo Engineering Projects Ltd. (2017).</em> (Disqualification of Unilateral Arbitrators).
                 </li>
               </ul>
 
@@ -829,59 +743,29 @@ export default function CreditCardDefaultByHousewifeClient() {
               <div className="pt-3 border-t border-slate-100">
                 <span className="text-xs font-bold text-slate-700 block mb-2">Authoritative Government &amp; Regulatory Portals:</span>
                 <div className="flex flex-wrap gap-2">
-                  <a
-                    href="https://www.rbi.org.in"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[11px] px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200 inline-flex items-center gap-1"
-                  >
-                    <span>Reserve Bank of India</span>
-                    <ExternalLink className="w-2.5 h-2.5" />
+                  <a href="https://www.rbi.org.in" target="_blank" rel="noopener noreferrer" className="text-[11px] px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200 inline-flex items-center gap-1">
+                    <span>Reserve Bank of India.</span>
+                    <ExternalLink className="w-2.5 h-2.5"/>
                   </a>
-                  <a
-                    href="https://cms.rbi.org.in"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[11px] px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200 inline-flex items-center gap-1"
-                  >
+                  <a href="https://cms.rbi.org.in" target="_blank" rel="noopener noreferrer" className="text-[11px] px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200 inline-flex items-center gap-1">
                     <span>RBI CMS Portal</span>
-                    <ExternalLink className="w-2.5 h-2.5" />
+                    <ExternalLink className="w-2.5 h-2.5"/>
                   </a>
-                  <a
-                    href="https://www.cibil.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[11px] px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200 inline-flex items-center gap-1"
-                  >
-                    <span>TransUnion CIBIL</span>
-                    <ExternalLink className="w-2.5 h-2.5" />
+                  <a href="https://www.cibil.com" target="_blank" rel="noopener noreferrer" className="text-[11px] px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200 inline-flex items-center gap-1">
+                    <span>TransUnion CIBIL.</span>
+                    <ExternalLink className="w-2.5 h-2.5"/>
                   </a>
-                  <a
-                    href="https://www.indiacode.nic.in"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[11px] px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200 inline-flex items-center gap-1"
-                  >
-                    <span>India Code Legislative Database</span>
-                    <ExternalLink className="w-2.5 h-2.5" />
+                  <a href="https://www.indiacode.nic.in" target="_blank" rel="noopener noreferrer" className="text-[11px] px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200 inline-flex items-center gap-1">
+                    <span>India Code Legislative Database.</span>
+                    <ExternalLink className="w-2.5 h-2.5"/>
                   </a>
-                  <a
-                    href="https://nalsa.gov.in"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[11px] px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200 inline-flex items-center gap-1"
-                  >
-                    <span>NALSA Legal Services</span>
-                    <ExternalLink className="w-2.5 h-2.5" />
+                  <a href="https://nalsa.gov.in" target="_blank" rel="noopener noreferrer" className="text-[11px] px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200 inline-flex items-center gap-1">
+                    <span>NALSA Legal Services.</span>
+                    <ExternalLink className="w-2.5 h-2.5"/>
                   </a>
-                  <a
-                    href="https://cybercrime.gov.in"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[11px] px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200 inline-flex items-center gap-1"
-                  >
-                    <span>National Cyber Crime Portal</span>
-                    <ExternalLink className="w-2.5 h-2.5" />
+                  <a href="https://cybercrime.gov.in" target="_blank" rel="noopener noreferrer" className="text-[11px] px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200 inline-flex items-center gap-1">
+                    <span>National Cyber Crime Portal.</span>
+                    <ExternalLink className="w-2.5 h-2.5"/>
                   </a>
                 </div>
               </div>
@@ -932,96 +816,80 @@ export default function CreditCardDefaultByHousewifeClient() {
             {/* Card 1: Author Bio Card */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3">
               <div className="flex items-center gap-3">
-                <Link
-                  href="/author/ashish-jhangra"
-                  className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 font-extrabold text-sm hover:bg-blue-200 transition-colors flex-shrink-0"
-                  title="View Ashish Jhangra Profile"
-                >
+                <Link href="/author/ashish-jhangra" className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 font-extrabold text-sm hover:bg-blue-200 transition-colors flex-shrink-0" title="View Ashish Jhangra Profile">
                   AJ
                 </Link>
                 <div>
-                  <Link
-                    href="/author/ashish-jhangra"
-                    className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block"
-                  >
+                  <Link href="/author/ashish-jhangra" className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
                   <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional
+                    Legal &amp; Debt Resolution Professional.
                   </p>
                 </div>
               </div>
               <p className="text-xs text-slate-600 leading-relaxed">
-                Specialized in banking compliance, spousal debt protections, credit dispute resolution, and NPA settlement negotiations with deep expertise navigating RBI Fair Practices regulations across Indian banking institutions.
+                Specialized in banking compliance, spousal debt protections, credit dispute resolution. NPA settlement negotiations with deep expertise navigating RBI Fair Practices regulations across Indian banking institutions.
               </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
-                <Link
-                  href="/author/ashish-jhangra"
-                  className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1"
-                >
-                  <span>View Author Profile</span>
-                  <ArrowRight className="w-3 h-3" />
+                <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
+                  <span>View Author Profile.</span>
+                  <ArrowRight className="w-3 h-3"/>
                 </Link>
                 <span className="text-emerald-600 font-bold flex items-center gap-1">
-                  <ShieldCheck className="w-3 h-3" /> CredSettle Panel
+                  <ShieldCheck className="w-3 h-3"/> CredSettle Panel.
                 </span>
               </div>
             </div>
 
             {/* Card 2: Emergency CTA Card */}
-            <div
-              className="rounded-3xl p-6 text-white text-center space-y-4 shadow-md relative overflow-hidden"
-              style={{ backgroundColor: '#2452ae' }}
-            >
+            <div className="rounded-3xl p-6 text-white text-center space-y-4 shadow-md relative overflow-hidden" style={{ backgroundColor: '#2452ae' }}>
               <div className="space-y-1 text-center">
                 <span className="text-xs font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
-                  100% CONFIDENTIAL LEGAL DEFENSE
+                  100% CONFIDENTIAL LEGAL DEFENSE.
                 </span>
                 <p className="text-lg md:text-xl font-bold text-white leading-snug">
                   Facing Spousal Debt Harassment?
                 </p>
                 <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
-                  Our legal experts stop aggressive recovery calls to spouses, assert your statutory protections under RBI rules, and negotiate a 50% to 75% loan waiver.
+                  Our legal experts stop aggressive recovery calls to spouses, assert your statutory protections under RBI rules. Negotiate a 50% to 75% loan waiver.
                 </p>
               </div>
-              <Link
-                href="/contact"
-                className="block w-full bg-white text-blue-900 hover:text-[#1886ff] py-3 px-4 rounded-full font-bold text-sm hover:bg-slate-50 transition-all shadow-md"
-              >
+              <Link href="/contact" className="block w-full bg-white text-blue-900 hover:text-[#1886ff] py-3 px-4 rounded-full font-bold text-sm hover:bg-slate-50 transition-all shadow-md">
                 Get Legal Advice for Spousal Debt
               </Link>
               <div className="pt-2 flex flex-col items-center justify-center gap-1 text-[11px] text-blue-200">
                 <div className="flex items-center gap-1">
-                  <Phone className="w-3 h-3 text-blue-200" />
+                  <Phone className="w-3 h-3 text-blue-200"/>
                   <a href="tel:+918800226635" className="hover:underline font-bold text-white">
-                    Call: +91-8800226635
+                    Call: +91-8800226635.
                   </a>
                 </div>
                 <div className="flex items-center gap-1 text-[10px] text-blue-300">
-                  <Lock className="w-3 h-3" />
-                  <span>Direct Bank Settlement • RBI Compliant</span>
+                  <Lock className="w-3 h-3"/>
+                  <span>Direct Bank Settlement • RBI Compliant.</span>
                 </div>
               </div>
             </div>
 
             {/* Card 3: CredSettle Trust Badges */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
-              <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage</p>
+              <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage.</p>
               <ul className="space-y-2 text-slate-600">
                 <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
+                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
                   <span><strong>Zero Upfront Risk:</strong> Success-linked settlement fees.</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
+                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
                   <span><strong>Direct Bank Remittance:</strong> Zero middleman fund holding.</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
+                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
                   <span><strong>RBI &amp; CICRA Compliance:</strong> 100% lawful dispute handling.</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
+                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
                   <span><strong>Pan-India Representation:</strong> Dedicated debt resolution specialists.</span>
                 </li>
               </ul>
@@ -1029,36 +897,27 @@ export default function CreditCardDefaultByHousewifeClient() {
 
             {/* Card 4: Related Guides */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
-              <p className="font-bold text-slate-900 text-sm">Related Legal Guides</p>
+              <p className="font-bold text-slate-900 text-sm">Related Legal Guides.</p>
               <div className="space-y-2.5">
-                <Link
-                  href="/can-bank-call-relatives-for-loan-recovery"
-                  className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
-                >
+                <Link href="/can-bank-call-relatives-for-loan-recovery" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
                   <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
                     Can Bank Call Relatives for Loan Recovery?
                   </p>
-                  <span className="text-[10px] text-slate-400 mt-1 block">Third-party contact rules &rarr;</span>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Third-party contact rules &rarr;.</span>
                 </Link>
 
-                <Link
-                  href="/can-bank-deduct-money-from-another-account"
-                  className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
-                >
+                <Link href="/can-bank-deduct-money-from-another-account" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
                   <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
                     Can Bank Deduct Money from Another Account?
                   </p>
-                  <span className="text-[10px] text-slate-400 mt-1 block">Banker lien &amp; set-off rights &rarr;</span>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Banker lien &amp; set-off rights &rarr;.</span>
                 </Link>
 
-                <Link
-                  href="/services/credit-card-settlement"
-                  className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
-                >
+                <Link href="/services/credit-card-settlement" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
                   <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Credit Card Debt Settlement Process
+                    Credit Card Debt Settlement Process.
                   </p>
-                  <span className="text-[10px] text-slate-400 mt-1 block">Waiver negotiation guide &rarr;</span>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Waiver negotiation guide &rarr;.</span>
                 </Link>
               </div>
             </div>
@@ -1066,6 +925,5 @@ export default function CreditCardDefaultByHousewifeClient() {
           </aside>
         </div>
       </div>
-    </main>
-  );
+    </main>);
 }

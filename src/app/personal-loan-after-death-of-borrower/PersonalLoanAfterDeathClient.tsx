@@ -1,143 +1,96 @@
 'use client';
-
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import StatsStrip from '@/components/StatsStrip';
 import CompanySection from '@/components/CompanySection';
-import {
-  ChevronDown,
-  Scale,
-  ExternalLink,
-  ShieldCheck,
-  CheckCircle2,
-  AlertTriangle,
-  FileText,
-  HelpCircle,
-  TrendingUp,
-  Award,
-  BookOpen,
-  Building2,
-  DollarSign,
-  Check,
-  Lock,
-  Phone,
-  Bookmark,
-  ArrowRight,
-  Clock,
-  UserCheck,
-  Sparkles,
-  Gavel,
-  BadgeAlert,
-  Landmark,
-  Home,
-  ShieldAlert,
-  FileCheck,
-  Shield,
-  HeartHandshake,
-  UserX
-} from 'lucide-react';
-
+import { ChevronDown, Scale, ExternalLink, ShieldCheck, CheckCircle2, AlertTriangle, FileText, HelpCircle, TrendingUp, Award, BookOpen, Building2, DollarSign, Check, Lock, Phone, Bookmark, ArrowRight, Clock, UserCheck, Sparkles, Gavel, BadgeAlert, Landmark, Home, ShieldAlert, FileCheck, Shield, HeartHandshake, UserX } from 'lucide-react';
 export default function PersonalLoanAfterDeathClient() {
-  const [activeId, setActiveId] = useState<string>('quick-crux');
-  const [openFaq, setOpenFaq] = useState<number | null>(null);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setActiveId(entry.target.id);
-          }
+    const [activeId, setActiveId] = useState<string>('quick-crux');
+    const [openFaq, setOpenFaq] = useState<number | null>(null);
+    useEffect(() => {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    setActiveId(entry.target.id);
+                }
+            });
+        }, {
+            rootMargin: '-100px 0px -40% 0px',
+            threshold: 0.05
         });
-      },
-      {
-        rootMargin: '-100px 0px -40% 0px',
-        threshold: 0.05
-      }
-    );
-
-    const headings = document.querySelectorAll('section[id], div[id].scroll-target');
-    headings.forEach((heading) => observer.observe(heading));
-
-    return () => {
-      headings.forEach((heading) => observer.unobserve(heading));
+        const headings = document.querySelectorAll('section[id], div[id].scroll-target');
+        headings.forEach((heading) => observer.observe(heading));
+        return () => {
+            headings.forEach((heading) => observer.unobserve(heading));
+        };
+    }, []);
+    const toggleFaq = (index: number) => {
+        setOpenFaq(openFaq === index ? null : index);
     };
-  }, []);
-
-  const toggleFaq = (index: number) => {
-    setOpenFaq(openFaq === index ? null : index);
-  };
-
-  const navLinks = [
-    { id: 'quick-crux', label: 'Executive Brief & Crux' },
-    { id: 'core-legal-framework', label: '1. Unsecured Debt & Death Realities' },
-    { id: 'section-50-cpc-shield', label: '2. Section 50 CPC Estate Shield' },
-    { id: 'co-borrower-guarantor-distinction', label: '3. Co-Borrowers vs. Legal Heirs' },
-    { id: 'debt-category-comparison-grid', label: '4. Debt Liability Comparison Grid' },
-    { id: 'estate-nav-math-analytics', label: '5. Estate NAV & Liability Analytics' },
-    { id: 'infographic-overview', label: 'Visual 6-Step Defense Blueprint' },
-    { id: 'bereaved-family-sop', label: '6. 6-Stage SOP for Legal Heirs' },
-    { id: 'formal-legal-notice-draft', label: '7. Cease & Desist Legal Terminal' },
-    { id: 'three-tier-escalation-matrix', label: '8. 3-Tier Redressal Hierarchy' },
-    { id: 'chronological-resolution-milestones', label: '9. Chronological Resolution Timelines' },
-    { id: 'specialized-loan-scenarios', label: '10. Insurance, Fintech Apps & Nominees' },
-    { id: 'company-profile', label: 'About CredSettle' },
-    { id: 'frequently-asked-questions', label: 'Frequently Asked Questions' },
-    { id: 'regulatory-sources', label: 'Statutory Citations & Authorities' }
-  ];
-
-  const faqs = [
-    {
-      q: "Does a family or legal heir have to repay an unsecured personal loan after the borrower's death?",
-      a: "No, family members and legal heirs are not personally liable to repay an unsecured personal loan out of their own income or personal assets. Under Section 37 of the Indian Contract Act, 1872 and Sections 50 and 52 of the Code of Civil Procedure (CPC), 1908, a legal heir's liability is strictly limited to the value of the inherited estate received from the deceased borrower. If no assets are inherited, the liability of the legal heirs is zero."
-    },
-    {
-      q: "What happens if the deceased borrower had personal loan insurance or credit shield?",
-      a: "If the personal loan was covered by a Credit Shield, Loan Protection Insurance, or Group Term Life Insurance policy bundled at the time of disbursement, the outstanding loan balance is settled directly by the insurance company upon submitting the borrower's Death Certificate and claim documents. The bank cannot demand repayment from the family while an insurance claim is active and must issue an unconditional No Dues Certificate (NDC) once settled."
-    },
-    {
-      q: "Can a bank or recovery agent seize personal assets of legal heirs for an unpaid personal loan?",
-      a: "No. A bank or recovery agent cannot seize, attach, or touch the personal property, salary, bank accounts, or gold belonging independently to the legal heirs. Under Section 50(2) of the CPC, court execution is restricted exclusively to property that belonged to the deceased borrower and came into the hands of the legal representatives. Any recovery agent threatening the family's personal assets commits extortion (Section 308 BNS / Section 383 IPC) and criminal intimidation (Section 351 BNS / Section 506 IPC)."
-    },
-    {
-      q: "Is a co-borrower or guarantor liable if the primary borrower passes away?",
-      a: "Yes. If a family member signed the loan agreement as a joint co-borrower or a co-guarantor, their liability is joint and several under Section 128 of the Indian Contract Act, 1872. Unlike non-signatory legal heirs, a co-borrower or guarantor remains directly contractually obligated to repay the debt regardless of whether they inherited any assets from the deceased borrower."
-    },
-    {
-      q: "What should the family do immediately after a borrower passes away with an active personal loan?",
-      a: "The family should follow three immediate steps: (1) Intimate the lending bank in writing with a certified copy of the Death Certificate and formal letter requesting freeze on interest and penalty accrual, (2) Verify the loan agreement and bank statement for loan protection insurance / credit shield deductions, and (3) Demand that the bank immediately halt automated ECS / NACH debits from the deceased's bank account to avoid unnecessary bounce charges."
-    },
-    {
-      q: "Can banks initiate Section 138 cheque bounce or Section 25 NACH bounce cases against legal heirs?",
-      a: "No. Criminal proceedings under Section 138 of the Negotiable Instruments Act, 1881 and Section 25 of the Payment and Settlement Systems Act, 2007 are strictly personal criminal liabilities against the drawer of the instrument. In landmark rulings, the Supreme Court has clarified that criminal liability abates upon the death of the accused and cannot be transferred to or initiated against surviving legal heirs."
-    },
-    {
-      q: "What is the extent of legal heir liability under Section 50 and Section 52 of the CPC?",
-      a: "Under Section 50(1) of the Code of Civil Procedure, 1908, a decree-holder may execute against the legal representative of the deceased debtor. However, Section 50(2) and Section 52(1) explicitly cap that liability solely to the extent of the property of the deceased which has come into the hands of the legal representative and has not been duly disposed of. If the deceased left an estate of ₹2 Lakhs and a debt of ₹5 Lakhs, the heirs cannot be forced to pay more than ₹2 Lakhs."
-    },
-    {
-      q: "How to deal with aggressive recovery agents harassing the family of a deceased borrower?",
-      a: "If recovery agents harass the bereaved family, immediately send a formal written notice enclosing the death certificate, citing Section 50 CPC, and quoting the RBI Master Directions on Recovery Agents which strictly prohibit abusive conduct, harassment of grieving family members, and visits outside 8 AM to 7 PM. If harassment continues, lodge a police complaint for criminal intimidation and file an escalation with the bank's Principal Nodal Officer (PNO) and the RBI Integrated Ombudsman (cms.rbi.org.in)."
-    },
-    {
-      q: "Does the deceased borrower's unpaid personal loan affect the CIBIL score of legal heirs?",
-      a: "No. An individual's CIBIL score and credit report are mapped strictly to their own PAN (Permanent Account Number). The default or demise of a deceased borrower is updated solely on the deceased individual's credit profile (marked as Deceased / Written Off / Settled). It has zero impact on the credit score, CIBIL history, or loan eligibility of surviving family members, provided they were not co-borrowers or guarantors."
-    },
-    {
-      q: "Can legal heirs negotiate a One-Time Settlement (OTS) if the deceased left limited estate assets?",
-      a: "Yes. If the deceased left partial assets or if legal heirs wish to clear the loan record without prolonged litigation, they can approach the bank's settlement committee for a One-Time Settlement (OTS). Banks typically offer significant waivers (50% to 80% on accumulated interest and penal charges) in deceased borrower accounts, after which they issue an unconditional No Dues Certificate (NDC) to permanently close the account."
-    }
-  ];
-
-  return (
-    <main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
+    const navLinks = [
+        { id: 'quick-crux', label: 'Executive Brief & Crux' },
+        { id: 'core-legal-framework', label: '1. Unsecured Debt & Death Realities' },
+        { id: 'section-50-cpc-shield', label: '2. Section 50 CPC Estate Shield' },
+        { id: 'co-borrower-guarantor-distinction', label: '3. Co-Borrowers vs. Legal Heirs' },
+        { id: 'debt-category-comparison-grid', label: '4. Debt Liability Comparison Grid' },
+        { id: 'estate-nav-math-analytics', label: '5. Estate NAV & Liability Analytics' },
+        { id: 'infographic-overview', label: 'Visual 6-Step Defense Blueprint' },
+        { id: 'bereaved-family-sop', label: '6. 6-Stage SOP for Legal Heirs' },
+        { id: 'formal-legal-notice-draft', label: '7. Cease & Desist Legal Terminal' },
+        { id: 'three-tier-escalation-matrix', label: '8. 3-Tier Redressal Hierarchy' },
+        { id: 'chronological-resolution-milestones', label: '9. Chronological Resolution Timelines' },
+        { id: 'specialized-loan-scenarios', label: '10. Insurance, Fintech Apps & Nominees' },
+        { id: 'company-profile', label: 'About CredSettle' },
+        { id: 'frequently-asked-questions', label: 'Frequently Asked Questions' },
+        { id: 'regulatory-sources', label: 'Statutory Citations & Authorities' }
+    ];
+    const faqs = [
+        {
+            q: "Does a family or legal heir have to repay an unsecured personal loan after the borrower's death?",
+            a: "No, family members and legal heirs are not personally liable to repay an unsecured personal loan out of their own income or personal assets. Under Section 37 of the Indian Contract Act, 1872 and Sections 50 and 52 of the Code of Civil Procedure (CPC), 1908, a legal heir's liability is strictly limited to the value of the inherited estate received from the deceased borrower. If no assets are inherited, the liability of the legal heirs is zero."
+        },
+        {
+            q: "What happens if the deceased borrower had personal loan insurance or credit shield?",
+            a: "If the personal loan was covered by a Credit Shield, Loan Protection Insurance. Group Term Life Insurance policy bundled at the time of disbursement, the outstanding loan balance is settled directly by the insurance company upon submitting the borrower's Death Certificate and claim documents. The bank cannot demand repayment from the family while an insurance claim is active and must issue an unconditional No Dues Certificate (NDC) once settled."
+        },
+        {
+            q: "Can a bank or recovery agent seize personal assets of legal heirs for an unpaid personal loan?",
+            a: "No. A bank or recovery agent cannot seize, attach. Touch the personal property, salary, bank accounts, or gold belonging independently to the legal heirs. Under Section 50(2) of the CPC, court execution is restricted only to property that belonged to the deceased borrower and came into the hands of the legal agents. Any recovery agent threatening the family's personal assets commits extortion (Section 308 BNS / Section 383 IPC) and criminal intimidation (Section 351 BNS / Section 506 IPC)."
+        },
+        {
+            q: "Is a co-borrower or guarantor liable if the primary borrower passes away?",
+            a: "Yes. If a family member signed the loan agreement as a joint co-borrower or a co-guarantor, their liability is joint and several under Section 128 of the Indian Contract Act, 1872. Unlike non-signatory legal heirs, a co-borrower or guarantor remains directly contractually obligated to repay the debt regardless of whether they inherited any assets from the deceased borrower."
+        },
+        {
+            q: "What should the family do immediately after a borrower passes away with an active personal loan?",
+            a: "The family should follow three immediate steps: (1) Intimate the lending bank in writing with a certified copy of the Death Certificate and formal letter requesting freeze on interest and penalty accrual, (2) Verify the loan agreement and bank statement for loan protection insurance / credit shield deductions. (3) Demand that the bank immediately halt automated ECS / NACH debits from the deceased's bank account to avoid unnecessary bounce charges."
+        },
+        {
+            q: "Can banks initiate Section 138 cheque bounce or Section 25 NACH bounce cases against legal heirs?",
+            a: "No. Criminal proceedings under Section 138 of the Negotiable Instruments Act, 1881 and Section 25 of the Payment and Settlement Systems Act, 2007 are strictly personal criminal liabilities against the drawer of the instrument. In landmark rulings, the Supreme Court has clarified that criminal liability abates upon the death of the accused and cannot be transferred to or initiated against surviving legal heirs."
+        },
+        {
+            q: "What is the extent of legal heir liability under Section 50 and Section 52 of the CPC?",
+            a: "Under Section 50(1) of the Code of Civil Procedure, 1908, a decree-holder may execute against the legal agent of the deceased debtor. However, Section 50(2) and Section 52(1) explicitly cap that liability solely to the extent of the property of the deceased which has come into the hands of the legal agent and has not been duly disposed of. If the deceased left an estate of \u20B92 Lakhs and a debt of \u20B95 Lakhs, the heirs cannot be forced to pay more than \u20B92 Lakhs."
+        },
+        {
+            q: "How to deal with aggressive recovery agents harassing the family of a deceased borrower?",
+            a: "If recovery agents harass the bereaved family, immediately send a formal written notice enclosing the death certificate, citing Section 50 CPC. Quoting the RBI Master Directions on Recovery Agents which strictly prohibit abusive conduct, harassment of grieving family members. Visits outside 8 AM to 7 PM. If harassment continues, lodge a police complaint for criminal intimidation and file an escalation with the bank's Principal Nodal Officer (PNO) and the RBI Integrated Ombudsman (cms.rbi.org.in)."
+        },
+        {
+            q: "Does the deceased borrower's unpaid personal loan affect the CIBIL score of legal heirs?",
+            a: "No. An individual's CIBIL score and credit report are mapped strictly to their own PAN (Permanent Account Number). The default or demise of a deceased borrower is updated solely on the deceased individual's credit profile (marked as Deceased / Written Off / Settled). It has zero impact on the credit score, CIBIL history. Loan eligibility of surviving family members, provided they were not co-borrowers or guarantors."
+        },
+        {
+            q: "Can legal heirs negotiate a One-Time Settlement (OTS) if the deceased left limited estate assets?",
+            a: "Yes. If the deceased left partial assets or if legal heirs wish to clear the loan record without prolonged litigation, they can approach the bank's settlement committee for a One-Time Settlement (OTS). Banks typically offer major waivers (50% to 80% on accumulated interest and penalty charges) in deceased borrower accounts, after which they issue an unconditional No Dues Certificate (NDC) to permanently close the account."
+        }
+    ];
+    return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
       {/* 1. COMPACT HERO SECTION (#2452ae Background) */}
-      <section
-        className="relative text-white pt-14 pb-10 md:pt-18 md:pb-12 px-4 md:px-8 overflow-hidden flex items-center justify-center text-center"
-        style={{ backgroundColor: '#2452ae' }}
-      >
-        <div className="absolute inset-0 bg-black/5 z-0 pointer-events-none" />
+      <section className="relative text-white pt-14 pb-10 md:pt-18 md:pb-12 px-4 md:px-8 overflow-hidden flex items-center justify-center text-center" style={{ backgroundColor: '#2452ae' }}>
+        <div className="absolute inset-0 bg-black/5 z-0 pointer-events-none"/>
         <div className="max-w-5xl mx-auto text-center z-10 relative">
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-3 md:mb-4 tracking-tight leading-tight drop-shadow-xs">
             Does Family Have to Repay a Personal Loan After Death?
@@ -148,12 +101,9 @@ export default function PersonalLoanAfterDeathClient() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="/contact"
-              className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2"
-            >
+            <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
               <span>Bank Harassing Family? Get Legal Protection</span>
-              <ArrowRight className="w-4 h-4" />
+              <ArrowRight className="w-4 h-4"/>
             </Link>
           </div>
         </div>
@@ -170,33 +120,25 @@ export default function PersonalLoanAfterDeathClient() {
           <aside className="sticky top-6 hidden lg:block">
             <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-4 overflow-hidden">
               <div className="flex items-center gap-2 pb-3 mb-3 border-b border-slate-100">
-                <BookOpen className="w-4 h-4 text-[#1886ff]" />
+                <BookOpen className="w-4 h-4 text-[#1886ff]"/>
                 <span className="text-xs font-black uppercase tracking-wider text-slate-800">
                   Table of Contents
                 </span>
               </div>
               <nav className="space-y-1 max-h-[calc(100vh-140px)] overflow-y-auto pr-1 text-xs">
                 {navLinks.map((link) => {
-                  const isActive = activeId === link.id;
-                  return (
-                    <a
-                      key={link.id}
-                      href={'#' + link.id}
-                      className={
-                        isActive
-                          ? 'block py-1.5 px-2.5 rounded-lg transition-all duration-150 leading-snug bg-blue-50 text-[#1886ff] font-bold border-l-3 border-[#1886ff] pl-2'
-                          : 'block py-1.5 px-2.5 rounded-lg transition-all duration-150 leading-snug text-slate-600 hover:text-slate-900 hover:bg-slate-50 font-medium'
-                      }
-                    >
+            const isActive = activeId === link.id;
+            return (<a key={link.id} href={'#' + link.id} className={isActive
+                    ? 'block py-1.5 px-2.5 rounded-lg transition-all duration-150 leading-snug bg-blue-50 text-[#1886ff] font-bold border-l-3 border-[#1886ff] pl-2'
+                    : 'block py-1.5 px-2.5 rounded-lg transition-all duration-150 leading-snug text-slate-600 hover:text-slate-900 hover:bg-slate-50 font-medium'}>
                       {link.label}
-                    </a>
-                  );
-                })}
+                    </a>);
+        })}
               </nav>
 
               <div className="mt-4 pt-3 border-t border-slate-100 bg-blue-50/50 -mx-4 -mb-4 p-3 rounded-b-2xl">
                 <div className="flex items-center gap-2 text-[11px] font-bold text-slate-800">
-                  <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0" />
+                  <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>Legal Heir Protection Shield</span>
                 </div>
                 <p className="text-[10px] text-slate-500 mt-1 leading-tight">
@@ -210,46 +152,43 @@ export default function PersonalLoanAfterDeathClient() {
           <div className="space-y-8 md:space-y-10 min-w-0">
             
             {/* Executive Brief Box */}
-            <div
-              id="quick-crux"
-              className="scroll-target rounded-2xl bg-[#F4F8FE] border border-blue-100/90 border-l-[5px] border-l-[#1886ff] p-5 sm:p-6 md:p-7 shadow-xs space-y-4 text-slate-800"
-            >
+            <div id="quick-crux" className="scroll-target rounded-2xl bg-[#F4F8FE] border border-blue-100/90 border-l-[5px] border-l-[#1886ff] p-5 sm:p-6 md:p-7 shadow-xs space-y-4 text-slate-800">
               <div className="flex items-center gap-2 text-xs md:text-sm font-black uppercase tracking-wider text-[#1886ff]">
-                <Bookmark className="w-4 h-4 text-[#1886ff]" />
+                <Bookmark className="w-4 h-4 text-[#1886ff]"/>
                 <span>EXECUTIVE BRIEF: PERSONAL LOAN LIABILITY AFTER BORROWER DEATH</span>
               </div>
 
               <ul className="space-y-3.5 text-xs sm:text-sm text-slate-700 leading-relaxed">
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
                   <div>
                     <strong className="text-slate-900 font-bold">Zero Personal Liability for Family:</strong> Surviving family members, spouses, children, and parents are NOT personally liable to pay an unsecured personal loan or credit card debt out of their personal salary, independent savings, or self-acquired assets.
                   </div>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
                   <div>
                     <strong className="text-slate-900 font-bold">Section 50 &amp; 52 CPC Estate Limitation:</strong> Under Sections 50 and 52 of the Code of Civil Procedure (CPC), 1908, a lender&apos;s recovery claim against legal heirs is strictly capped to the net asset value of the inherited estate. If the deceased left zero tangible assets, the legal heir liability is strictly ₹0.
                   </div>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
                   <div>
                     <strong className="text-slate-900 font-bold">Loan Protection Insurance Priority:</strong> Many personal loans have embedded credit life or loan protection insurance. Upon submission of the Death Certificate, the insurer must settle the outstanding debt directly with the bank, fully protecting the estate and family.
                   </div>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
                   <div>
                     <strong className="text-slate-900 font-bold">Criminal Proceedings Abate Upon Death:</strong> Any pending or threatened proceedings under Section 138 of the Negotiable Instruments Act (Cheque Bounce) or Section 25 of the Payment and Settlement Systems Act (NACH / ECS Bounce) legally extinguish upon the borrower&apos;s death and cannot be initiated against family members.
                   </div>
                 </li>
 
                 <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
                   <div>
                     <strong className="text-slate-900 font-bold">Absolute Protection from Harassment:</strong> Third-party recovery agents have zero right to visit, call, or intimidate grieving family members. Threatening family members violates the RBI Fair Practices Code and attracts criminal penalties for extortion and intimidation under Bharatiya Nyaya Sanhita (BNS) and IPC.
                   </div>
@@ -260,7 +199,7 @@ export default function PersonalLoanAfterDeathClient() {
             {/* SECTION 1: Unsecured Debt & Death Realities */}
             <section id="core-legal-framework" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
-                <Scale className="w-4 h-4 text-[#1886ff]" />
+                <Scale className="w-4 h-4 text-[#1886ff]"/>
                 <span>Statutory Foundations</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
@@ -276,7 +215,7 @@ export default function PersonalLoanAfterDeathClient() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-blue-200/80 shadow-xs space-y-2">
                   <div className="flex items-center gap-2 text-[#1886ff] font-bold text-sm">
-                    <UserX className="w-4 h-4" />
+                    <UserX className="w-4 h-4"/>
                     <span>Privity of Contract</span>
                   </div>
                   <p className="text-xs text-slate-600 leading-relaxed">
@@ -286,7 +225,7 @@ export default function PersonalLoanAfterDeathClient() {
 
                 <div className="bg-white p-5 rounded-2xl border border-emerald-200/80 shadow-xs space-y-2">
                   <div className="flex items-center gap-2 text-emerald-700 font-bold text-sm">
-                    <ShieldCheck className="w-4 h-4" />
+                    <ShieldCheck className="w-4 h-4"/>
                     <span>Non-Inheritance of Debt</span>
                   </div>
                   <p className="text-xs text-slate-600 leading-relaxed">
@@ -296,7 +235,7 @@ export default function PersonalLoanAfterDeathClient() {
 
                 <div className="bg-white p-5 rounded-2xl border border-purple-200/80 shadow-xs space-y-2">
                   <div className="flex items-center gap-2 text-purple-700 font-bold text-sm">
-                    <Gavel className="w-4 h-4" />
+                    <Gavel className="w-4 h-4"/>
                     <span>Pure Civil Claim</span>
                   </div>
                   <p className="text-xs text-slate-600 leading-relaxed">
@@ -307,7 +246,7 @@ export default function PersonalLoanAfterDeathClient() {
 
               <div className="bg-blue-50/70 border border-blue-200/80 p-5 rounded-2xl space-y-3">
                 <div className="flex items-center gap-2 text-blue-900 font-bold text-sm sm:text-base">
-                  <BookOpen className="w-5 h-5 text-[#1886ff] flex-shrink-0" />
+                  <BookOpen className="w-5 h-5 text-[#1886ff] flex-shrink-0"/>
                   <span>Section 37 of the Indian Contract Act, 1872: The Statutory Covenant</span>
                 </div>
                 <p className="text-xs md:text-sm text-slate-700 leading-relaxed">
@@ -319,7 +258,7 @@ export default function PersonalLoanAfterDeathClient() {
             {/* SECTION 2: Section 50 & 52 CPC Statutory Estate Shield */}
             <section id="section-50-cpc-shield" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
-                <Shield className="w-4 h-4 text-[#1886ff]" />
+                <Shield className="w-4 h-4 text-[#1886ff]"/>
                 <span>Statutory Civil Shield</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
@@ -363,7 +302,7 @@ export default function PersonalLoanAfterDeathClient() {
 
               <div className="bg-emerald-50 border border-emerald-200 p-4 rounded-xl text-xs md:text-sm text-slate-700 leading-relaxed">
                 <div className="flex items-center gap-2 text-emerald-900 font-bold mb-1">
-                  <Gavel className="w-4 h-4 text-emerald-600" />
+                  <Gavel className="w-4 h-4 text-emerald-600"/>
                   <span>High Court Precedent: Doctrine of Limited Representative Liability</span>
                 </div>
                 <p className="text-emerald-950">
@@ -375,7 +314,7 @@ export default function PersonalLoanAfterDeathClient() {
             {/* SECTION 3: Co-Borrowers, Guarantors vs Non-Signatory Legal Heirs */}
             <section id="co-borrower-guarantor-distinction" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
-                <HeartHandshake className="w-4 h-4 text-[#1886ff]" />
+                <HeartHandshake className="w-4 h-4 text-[#1886ff]"/>
                 <span>Signatory Legal Nuances</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
@@ -391,7 +330,7 @@ export default function PersonalLoanAfterDeathClient() {
                     <span className="text-xs font-black uppercase text-red-700 bg-red-50 px-2 py-0.5 rounded">
                       Joint Co-Borrower
                     </span>
-                    <BadgeAlert className="w-4 h-4 text-red-600" />
+                    <BadgeAlert className="w-4 h-4 text-red-600"/>
                   </div>
                   <h3 className="text-sm font-bold text-slate-900">100% Contractual Liability</h3>
                   <p className="text-xs text-slate-600 leading-relaxed">
@@ -404,7 +343,7 @@ export default function PersonalLoanAfterDeathClient() {
                     <span className="text-xs font-black uppercase text-amber-700 bg-amber-50 px-2 py-0.5 rounded">
                       Personal Guarantor
                     </span>
-                    <Scale className="w-4 h-4 text-amber-600" />
+                    <Scale className="w-4 h-4 text-amber-600"/>
                   </div>
                   <h3 className="text-sm font-bold text-slate-900">Section 128 Contract Act</h3>
                   <p className="text-xs text-slate-600 leading-relaxed">
@@ -417,7 +356,7 @@ export default function PersonalLoanAfterDeathClient() {
                     <span className="text-xs font-black uppercase text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded">
                       Non-Signatory Heir
                     </span>
-                    <ShieldCheck className="w-4 h-4 text-emerald-600" />
+                    <ShieldCheck className="w-4 h-4 text-emerald-600"/>
                   </div>
                   <h3 className="text-sm font-bold text-slate-900">Zero Personal Liability</h3>
                   <p className="text-xs text-slate-600 leading-relaxed">
@@ -436,7 +375,7 @@ export default function PersonalLoanAfterDeathClient() {
             {/* SECTION 4: 4-Sided Bordered Grid Comparison Table */}
             <section id="debt-category-comparison-grid" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
-                <FileText className="w-4 h-4 text-[#1886ff]" />
+                <FileText className="w-4 h-4 text-[#1886ff]"/>
                 <span>Comparative Legal Matrix</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
@@ -516,7 +455,7 @@ export default function PersonalLoanAfterDeathClient() {
             {/* SECTION 5: Estate Liability Mathematical Analytics Card */}
             <section id="estate-nav-math-analytics" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
-                <TrendingUp className="w-4 h-4 text-[#1886ff]" />
+                <TrendingUp className="w-4 h-4 text-[#1886ff]"/>
                 <span>Financial &amp; Estate Mathematics</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
@@ -529,12 +468,13 @@ export default function PersonalLoanAfterDeathClient() {
               {/* Technical Math Card */}
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 md:p-6 space-y-4">
                 <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2">
-                  <DollarSign className="w-4 h-4 text-[#1886ff]" />
+                  <DollarSign className="w-4 h-4 text-[#1886ff]"/>
                   <span>The Statutory Estate Liability Formula</span>
                 </h3>
 
                 <div className="bg-slate-900 text-white p-4 rounded-xl font-mono text-xs md:text-sm overflow-x-auto leading-relaxed">
-                  <div className="text-emerald-400 font-bold mb-1">// Mathematical Upper Bound of Legal Heir Exposure:</div>
+                  <div className="text-emerald-400 font-bold mb-1"> // Mathematical Upper Bound of Legal Heir Exposure:</div>
+    // Mathematical Upper Bound of Legal Heir Exposure:</div>
                   <div className="text-slate-100">
                     Net Legal Heir Liability = Min ( Outstanding Bank Debt, Inherited Estate NAV )
                   </div>
@@ -619,7 +559,7 @@ export default function PersonalLoanAfterDeathClient() {
             {/* SECTION 6: Embedded 16:9 Infographic Banner */}
             <section id="infographic-overview" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
-                <Sparkles className="w-4 h-4 text-[#1886ff]" />
+                <Sparkles className="w-4 h-4 text-[#1886ff]"/>
                 <span>Visual Defense Roadmap</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
@@ -631,25 +571,13 @@ export default function PersonalLoanAfterDeathClient() {
 
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-sm p-3 md:p-4 overflow-hidden">
                 <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-slate-100">
-                  <Image
-                    src="/images/infographics/personal-loan-after-death-of-borrower.jpg"
-                    alt="Personal Loan After Death of Borrower Legal Rights and Estate Liability Roadmap"
-                    fill
-                    className="object-contain"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 75vw, 60vw"
-                    priority
-                  />
+                  <Image src="/images/infographics/personal-loan-after-death-of-borrower.jpg" alt="Personal Loan After Death of Borrower Legal Rights and Estate Liability Roadmap" fill className="object-contain" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 75vw, 60vw" priority/>
                 </div>
                 <div className="mt-3 px-2 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-2">
                   <span>CredSettle Legal Heir Protection Blueprint • Section 50 CPC &amp; RBI Fair Practices Code</span>
-                  <a
-                    href="/images/infographics/personal-loan-after-death-of-borrower.jpg"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-[#1886ff] hover:underline font-bold flex items-center gap-1"
-                  >
+                  <a href="/images/infographics/personal-loan-after-death-of-borrower.jpg" target="_blank" rel="noopener noreferrer" className="text-[#1886ff] hover:underline font-bold flex items-center gap-1">
                     <span>View High-Resolution Blueprint</span>
-                    <ExternalLink className="w-3.5 h-3.5" />
+                    <ExternalLink className="w-3.5 h-3.5"/>
                   </a>
                 </div>
               </div>
@@ -658,7 +586,7 @@ export default function PersonalLoanAfterDeathClient() {
             {/* SECTION 7: 6-Stage Standard Operating Procedure (SOP) */}
             <section id="bereaved-family-sop" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
-                <FileCheck className="w-4 h-4 text-[#1886ff]" />
+                <FileCheck className="w-4 h-4 text-[#1886ff]"/>
                 <span>Actionable Procedure</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
@@ -764,7 +692,7 @@ export default function PersonalLoanAfterDeathClient() {
             {/* SECTION 8: Formal Legal Notice Monospace Terminal Draft */}
             <section id="formal-legal-notice-draft" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
-                <FileText className="w-4 h-4 text-[#1886ff]" />
+                <FileText className="w-4 h-4 text-[#1886ff]"/>
                 <span>Statutory Rebuttal Framework</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
@@ -813,7 +741,7 @@ export default function PersonalLoanAfterDeathClient() {
             {/* SECTION 9: 3-Tier Escalation Matrix */}
             <section id="three-tier-escalation-matrix" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
-                <Building2 className="w-4 h-4 text-[#1886ff]" />
+                <Building2 className="w-4 h-4 text-[#1886ff]"/>
                 <span>Institutional Hierarchy</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
@@ -892,7 +820,7 @@ export default function PersonalLoanAfterDeathClient() {
             {/* SECTION 10: Chronological Milestone Resolution Table */}
             <section id="chronological-resolution-milestones" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
-                <Clock className="w-4 h-4 text-[#1886ff]" />
+                <Clock className="w-4 h-4 text-[#1886ff]"/>
                 <span>Resolution Timeline</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
@@ -958,7 +886,7 @@ export default function PersonalLoanAfterDeathClient() {
             {/* SECTION 11: Specialized Real-World Scenarios */}
             <section id="specialized-loan-scenarios" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
-                <BadgeAlert className="w-4 h-4 text-[#1886ff]" />
+                <BadgeAlert className="w-4 h-4 text-[#1886ff]"/>
                 <span>Practical Edge Cases</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
@@ -1027,7 +955,7 @@ export default function PersonalLoanAfterDeathClient() {
             {/* SECTION 13: Collapsible Interactive FAQ Accordion */}
             <section id="frequently-asked-questions" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
-                <HelpCircle className="w-4 h-4 text-[#1886ff]" />
+                <HelpCircle className="w-4 h-4 text-[#1886ff]"/>
                 <span>Frequently Asked Questions</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
@@ -1039,45 +967,31 @@ export default function PersonalLoanAfterDeathClient() {
 
               <div className="space-y-3 pt-2">
                 {faqs.map((faq, idx) => {
-                  const isOpen = openFaq === idx;
-                  return (
-                    <div
-                      key={idx}
-                      className="rounded-2xl border border-slate-200/80 bg-white overflow-hidden shadow-2xs transition-all"
-                    >
-                      <button
-                        onClick={() => toggleFaq(idx)}
-                        className="w-full flex items-center justify-between p-4 sm:p-5 text-left font-bold text-sm sm:text-base text-slate-900 hover:text-[#1886ff] transition-colors gap-3"
-                      >
+            const isOpen = openFaq === idx;
+            return (<div key={idx} className="rounded-2xl border border-slate-200/80 bg-white overflow-hidden shadow-2xs transition-all">
+                      <button onClick={() => toggleFaq(idx)} className="w-full flex items-center justify-between p-4 sm:p-5 text-left font-bold text-sm sm:text-base text-slate-900 hover:text-[#1886ff] transition-colors gap-3">
                         <span className="flex items-center gap-2.5">
                           <span className="text-[#1886ff] font-extrabold text-xs bg-blue-50 px-2 py-0.5 rounded">
                             Q{idx + 1}
                           </span>
                           {faq.q}
                         </span>
-                        <ChevronDown
-                          className={
-                            'w-4 h-4 sm:w-5 sm:h-5 text-slate-400 flex-shrink-0 transition-transform duration-200 ' +
-                            (isOpen ? 'transform rotate-180 text-[#1886ff]' : '')
-                          }
-                        />
+                        <ChevronDown className={'w-4 h-4 sm:w-5 sm:h-5 text-slate-400 flex-shrink-0 transition-transform duration-200 ' +
+                    (isOpen ? 'transform rotate-180 text-[#1886ff]' : '')}/>
                       </button>
 
-                      {isOpen && (
-                        <div className="px-4 pb-4 sm:px-5 sm:pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3 bg-slate-50/50">
+                      {isOpen && (<div className="px-4 pb-4 sm:px-5 sm:pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3 bg-slate-50/50">
                           {faq.a}
-                        </div>
-                      )}
-                    </div>
-                  );
-                })}
+                        </div>)}
+                    </div>);
+        })}
               </div>
             </section>
 
             {/* SECTION 14: Regulatory Citations & Outbound Authority Links */}
             <section id="regulatory-sources" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
-                <Award className="w-4 h-4 text-[#1886ff]" />
+                <Award className="w-4 h-4 text-[#1886ff]"/>
                 <span>Statutory Citations &amp; Authorities</span>
               </div>
               <h2 className="text-lg sm:text-xl font-bold text-slate-900">
@@ -1088,82 +1002,52 @@ export default function PersonalLoanAfterDeathClient() {
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 pt-1">
-                <a
-                  href="https://www.rbi.org.in"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-3 bg-white rounded-xl border border-slate-200 hover:border-[#1886ff] shadow-2xs hover:shadow-xs transition-all flex items-center justify-between text-xs font-semibold text-slate-700 hover:text-[#1886ff]"
-                >
+                <a href="https://www.rbi.org.in" target="_blank" rel="noopener noreferrer" className="p-3 bg-white rounded-xl border border-slate-200 hover:border-[#1886ff] shadow-2xs hover:shadow-xs transition-all flex items-center justify-between text-xs font-semibold text-slate-700 hover:text-[#1886ff]">
                   <div className="flex items-center gap-2">
-                    <Landmark className="w-4 h-4 text-[#1886ff]" />
+                    <Landmark className="w-4 h-4 text-[#1886ff]"/>
                     <span>RBI Fair Practices Code (Recovery Agents)</span>
                   </div>
-                  <ExternalLink className="w-3.5 h-3.5 text-slate-400" />
+                  <ExternalLink className="w-3.5 h-3.5 text-slate-400"/>
                 </a>
 
-                <a
-                  href="https://www.indiacode.nic.in"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-3 bg-white rounded-xl border border-slate-200 hover:border-[#1886ff] shadow-2xs hover:shadow-xs transition-all flex items-center justify-between text-xs font-semibold text-slate-700 hover:text-[#1886ff]"
-                >
+                <a href="https://www.indiacode.nic.in" target="_blank" rel="noopener noreferrer" className="p-3 bg-white rounded-xl border border-slate-200 hover:border-[#1886ff] shadow-2xs hover:shadow-xs transition-all flex items-center justify-between text-xs font-semibold text-slate-700 hover:text-[#1886ff]">
                   <div className="flex items-center gap-2">
-                    <Scale className="w-4 h-4 text-[#1886ff]" />
+                    <Scale className="w-4 h-4 text-[#1886ff]"/>
                     <span>Section 50 CPC 1908 (India Code)</span>
                   </div>
-                  <ExternalLink className="w-3.5 h-3.5 text-slate-400" />
+                  <ExternalLink className="w-3.5 h-3.5 text-slate-400"/>
                 </a>
 
-                <a
-                  href="https://www.indiacode.nic.in"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-3 bg-white rounded-xl border border-slate-200 hover:border-[#1886ff] shadow-2xs hover:shadow-xs transition-all flex items-center justify-between text-xs font-semibold text-slate-700 hover:text-[#1886ff]"
-                >
+                <a href="https://www.indiacode.nic.in" target="_blank" rel="noopener noreferrer" className="p-3 bg-white rounded-xl border border-slate-200 hover:border-[#1886ff] shadow-2xs hover:shadow-xs transition-all flex items-center justify-between text-xs font-semibold text-slate-700 hover:text-[#1886ff]">
                   <div className="flex items-center gap-2">
-                    <BookOpen className="w-4 h-4 text-[#1886ff]" />
+                    <BookOpen className="w-4 h-4 text-[#1886ff]"/>
                     <span>Indian Succession Act, 1925 (Sec 320)</span>
                   </div>
-                  <ExternalLink className="w-3.5 h-3.5 text-slate-400" />
+                  <ExternalLink className="w-3.5 h-3.5 text-slate-400"/>
                 </a>
 
-                <a
-                  href="https://cms.rbi.org.in"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-3 bg-white rounded-xl border border-slate-200 hover:border-[#1886ff] shadow-2xs hover:shadow-xs transition-all flex items-center justify-between text-xs font-semibold text-slate-700 hover:text-[#1886ff]"
-                >
+                <a href="https://cms.rbi.org.in" target="_blank" rel="noopener noreferrer" className="p-3 bg-white rounded-xl border border-slate-200 hover:border-[#1886ff] shadow-2xs hover:shadow-xs transition-all flex items-center justify-between text-xs font-semibold text-slate-700 hover:text-[#1886ff]">
                   <div className="flex items-center gap-2">
-                    <ShieldCheck className="w-4 h-4 text-emerald-600" />
+                    <ShieldCheck className="w-4 h-4 text-emerald-600"/>
                     <span>RBI Integrated Ombudsman (CMS Portal)</span>
                   </div>
-                  <ExternalLink className="w-3.5 h-3.5 text-slate-400" />
+                  <ExternalLink className="w-3.5 h-3.5 text-slate-400"/>
                 </a>
 
-                <a
-                  href="https://cybercrime.gov.in"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-3 bg-white rounded-xl border border-slate-200 hover:border-[#1886ff] shadow-2xs hover:shadow-xs transition-all flex items-center justify-between text-xs font-semibold text-slate-700 hover:text-[#1886ff]"
-                >
+                <a href="https://cybercrime.gov.in" target="_blank" rel="noopener noreferrer" className="p-3 bg-white rounded-xl border border-slate-200 hover:border-[#1886ff] shadow-2xs hover:shadow-xs transition-all flex items-center justify-between text-xs font-semibold text-slate-700 hover:text-[#1886ff]">
                   <div className="flex items-center gap-2">
-                    <AlertTriangle className="w-4 h-4 text-amber-600" />
+                    <AlertTriangle className="w-4 h-4 text-amber-600"/>
                     <span>National Cyber Crime Reporting Portal</span>
                   </div>
-                  <ExternalLink className="w-3.5 h-3.5 text-slate-400" />
+                  <ExternalLink className="w-3.5 h-3.5 text-slate-400"/>
                 </a>
 
-                <a
-                  href="https://www.cibil.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-3 bg-white rounded-xl border border-slate-200 hover:border-[#1886ff] shadow-2xs hover:shadow-xs transition-all flex items-center justify-between text-xs font-semibold text-slate-700 hover:text-[#1886ff]"
-                >
+                <a href="https://www.cibil.com" target="_blank" rel="noopener noreferrer" className="p-3 bg-white rounded-xl border border-slate-200 hover:border-[#1886ff] shadow-2xs hover:shadow-xs transition-all flex items-center justify-between text-xs font-semibold text-slate-700 hover:text-[#1886ff]">
                   <div className="flex items-center gap-2">
-                    <FileCheck className="w-4 h-4 text-[#1886ff]" />
+                    <FileCheck className="w-4 h-4 text-[#1886ff]"/>
                     <span>TransUnion CIBIL Demise Reporting</span>
                   </div>
-                  <ExternalLink className="w-3.5 h-3.5 text-slate-400" />
+                  <ExternalLink className="w-3.5 h-3.5 text-slate-400"/>
                 </a>
               </div>
             </section>
@@ -1174,64 +1058,34 @@ export default function PersonalLoanAfterDeathClient() {
                 Related Legal Debt Defense Guides:
               </span>
               <div className="flex flex-wrap gap-2">
-                <Link
-                  href="/can-recovery-agents-seize-property"
-                  className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-700 hover:border-[#1886ff] hover:text-[#1886ff] transition-all shadow-2xs"
-                >
+                <Link href="/can-recovery-agents-seize-property" className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-700 hover:border-[#1886ff] hover:text-[#1886ff] transition-all shadow-2xs">
                   Can Recovery Agents Seize Property?
                 </Link>
-                <Link
-                  href="/arbitration-notice-personal-loan-default"
-                  className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-700 hover:border-[#1886ff] hover:text-[#1886ff] transition-all shadow-2xs"
-                >
+                <Link href="/arbitration-notice-personal-loan-default" className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-700 hover:border-[#1886ff] hover:text-[#1886ff] transition-all shadow-2xs">
                   Arbitration Notice for Personal Loan
                 </Link>
-                <Link
-                  href="/section-138-cheque-bounce-personal-loan"
-                  className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-700 hover:border-[#1886ff] hover:text-[#1886ff] transition-all shadow-2xs"
-                >
+                <Link href="/section-138-cheque-bounce-personal-loan" className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-700 hover:border-[#1886ff] hover:text-[#1886ff] transition-all shadow-2xs">
                   Section 138 Cheque Bounce Defense
                 </Link>
-                <Link
-                  href="/ecs-nach-bounce-legal-notice-section-25"
-                  className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-700 hover:border-[#1886ff] hover:text-[#1886ff] transition-all shadow-2xs"
-                >
+                <Link href="/ecs-nach-bounce-legal-notice-section-25" className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-700 hover:border-[#1886ff] hover:text-[#1886ff] transition-all shadow-2xs">
                   NACH / ECS Bounce Section 25
                 </Link>
-                <Link
-                  href="/lok-adalat-personal-loan-settlement"
-                  className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-700 hover:border-[#1886ff] hover:text-[#1886ff] transition-all shadow-2xs"
-                >
+                <Link href="/lok-adalat-personal-loan-settlement" className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-700 hover:border-[#1886ff] hover:text-[#1886ff] transition-all shadow-2xs">
                   Lok Adalat Loan Settlement
                 </Link>
-                <Link
-                  href="/convert-settled-status-to-closed"
-                  className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-700 hover:border-[#1886ff] hover:text-[#1886ff] transition-all shadow-2xs"
-                >
+                <Link href="/convert-settled-status-to-closed" className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-700 hover:border-[#1886ff] hover:text-[#1886ff] transition-all shadow-2xs">
                   Convert Settled Status to Closed
                 </Link>
-                <Link
-                  href="/dispute-wrong-settled-status-cibil"
-                  className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-700 hover:border-[#1886ff] hover:text-[#1886ff] transition-all shadow-2xs"
-                >
+                <Link href="/dispute-wrong-settled-status-cibil" className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-700 hover:border-[#1886ff] hover:text-[#1886ff] transition-all shadow-2xs">
                   Dispute Wrong Settled Status in CIBIL
                 </Link>
-                <Link
-                  href="/fake-loan-app-harassment-cyber-crime"
-                  className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-700 hover:border-[#1886ff] hover:text-[#1886ff] transition-all shadow-2xs"
-                >
+                <Link href="/fake-loan-app-harassment-cyber-crime" className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-700 hover:border-[#1886ff] hover:text-[#1886ff] transition-all shadow-2xs">
                   Fake Loan App Cyber Complaint
                 </Link>
-                <Link
-                  href="/get-noc-after-loan-settlement"
-                  className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-700 hover:border-[#1886ff] hover:text-[#1886ff] transition-all shadow-2xs"
-                >
+                <Link href="/get-noc-after-loan-settlement" className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-700 hover:border-[#1886ff] hover:text-[#1886ff] transition-all shadow-2xs">
                   Get NOC After Loan Settlement
                 </Link>
-                <Link
-                  href="/documents-needed-for-loan-settlement"
-                  className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-700 hover:border-[#1886ff] hover:text-[#1886ff] transition-all shadow-2xs"
-                >
+                <Link href="/documents-needed-for-loan-settlement" className="text-xs font-medium px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-700 hover:border-[#1886ff] hover:text-[#1886ff] transition-all shadow-2xs">
                   Documents Needed for Settlement
                 </Link>
               </div>
@@ -1245,18 +1099,11 @@ export default function PersonalLoanAfterDeathClient() {
             {/* 1. Author Bio Card */}
             <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 space-y-3">
               <div className="flex items-center gap-3">
-                <Link
-                  href="/author/ashish-jhangra"
-                  className="w-12 h-12 rounded-full bg-blue-100 text-[#1886ff] font-extrabold text-base flex items-center justify-center flex-shrink-0 hover:bg-blue-200 transition-colors shadow-2xs"
-                  title="View Ashish Jhangra Profile"
-                >
+                <Link href="/author/ashish-jhangra" className="w-12 h-12 rounded-full bg-blue-100 text-[#1886ff] font-extrabold text-base flex items-center justify-center flex-shrink-0 hover:bg-blue-200 transition-colors shadow-2xs" title="View Ashish Jhangra Profile">
                   AJ
                 </Link>
                 <div>
-                  <Link
-                    href="/author/ashish-jhangra"
-                    className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block"
-                  >
+                  <Link href="/author/ashish-jhangra" className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
                   <p className="text-[11px] font-semibold text-[#1886ff]">
@@ -1268,15 +1115,12 @@ export default function PersonalLoanAfterDeathClient() {
                 Specialist in civil debt dispute resolution, Section 50 CPC legal heir protection, and RBI regulatory enforcement with over a decade of experience safeguarding Indian families.
               </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
-                <Link
-                  href="/author/ashish-jhangra"
-                  className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1"
-                >
+                <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
                   <span>View Author Profile</span>
-                  <ArrowRight className="w-3 h-3" />
+                  <ArrowRight className="w-3 h-3"/>
                 </Link>
                 <span className="text-emerald-600 font-bold flex items-center gap-1">
-                  <ShieldCheck className="w-3.5 h-3.5" />
+                  <ShieldCheck className="w-3.5 h-3.5"/>
                   <span>CredSettle Panel</span>
                 </span>
               </div>
@@ -1285,7 +1129,7 @@ export default function PersonalLoanAfterDeathClient() {
             {/* 2. Emergency CTA Card */}
             <div className="rounded-2xl bg-gradient-to-br from-blue-600 to-blue-800 text-white p-5 shadow-md space-y-4">
               <div className="inline-flex items-center gap-1.5 bg-white/20 backdrop-blur-xs px-2.5 py-1 rounded-full text-[10px] font-black uppercase tracking-wider text-white">
-                <Lock className="w-3 h-3" />
+                <Lock className="w-3 h-3"/>
                 <span>100% CONFIDENTIAL</span>
               </div>
 
@@ -1299,18 +1143,12 @@ export default function PersonalLoanAfterDeathClient() {
               </div>
 
               <div className="space-y-2 pt-1">
-                <Link
-                  href="/contact"
-                  className="w-full py-2.5 px-4 rounded-xl bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-xs sm:text-sm text-center block transition-all shadow-sm hover:bg-slate-50"
-                >
+                <Link href="/contact" className="w-full py-2.5 px-4 rounded-xl bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-xs sm:text-sm text-center block transition-all shadow-sm hover:bg-slate-50">
                   Bank Harassing Family? Get Legal Protection
                 </Link>
                 
-                <a
-                  href="tel:+918800226635"
-                  className="w-full py-2 px-3 rounded-xl bg-blue-700/60 hover:bg-blue-700 text-white font-bold text-xs text-center flex items-center justify-center gap-2 transition-all border border-blue-500/30"
-                >
-                  <Phone className="w-3.5 h-3.5" />
+                <a href="tel:+918800226635" className="w-full py-2 px-3 rounded-xl bg-blue-700/60 hover:bg-blue-700 text-white font-bold text-xs text-center flex items-center justify-center gap-2 transition-all border border-blue-500/30">
+                  <Phone className="w-3.5 h-3.5"/>
                   <span>Call: +91-8800226635</span>
                 </a>
               </div>
@@ -1319,25 +1157,25 @@ export default function PersonalLoanAfterDeathClient() {
             {/* 3. CredSettle Trust Commitments Card */}
             <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 space-y-3">
               <p className="text-xs font-black uppercase tracking-wider text-slate-800 flex items-center gap-1.5">
-                <ShieldCheck className="w-4 h-4 text-emerald-600" />
+                <ShieldCheck className="w-4 h-4 text-emerald-600"/>
                 <span>CredSettle Trust Commitments</span>
               </p>
 
               <ul className="space-y-2.5 text-xs text-slate-600">
                 <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
+                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
                   <span><strong>Zero Upfront Risk:</strong> Performance &amp; success-fee aligned engagement.</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
+                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
                   <span><strong>Direct Bank Remittance:</strong> 100% of settlement funds paid directly to bank.</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
+                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
                   <span><strong>RBI &amp; CICRA Compliance:</strong> Strict adherence to statutory fair recovery rules.</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
+                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
                   <span><strong>Pan-India Representation:</strong> Protecting families across all 28 states &amp; UTs.</span>
                 </li>
               </ul>
@@ -1347,6 +1185,5 @@ export default function PersonalLoanAfterDeathClient() {
 
         </div>
       </div>
-    </main>
-  );
+    </main>);
 }

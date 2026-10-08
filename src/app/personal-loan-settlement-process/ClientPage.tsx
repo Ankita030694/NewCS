@@ -1,18 +1,15 @@
 'use client';
-
 import React from 'react';
 import Link from 'next/link';
-
 export default function ClientPage() {
-  return (
-    <main className="w-full">
+    return (<main className="w-full">
       <section className="relative text-white pt-32 pb-20 px-4 md:px-8 overflow-hidden" style={{ backgroundColor: '#0C2756' }}>
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 left-0 w-full h-full bg-[url('/pattern-bg.svg')] bg-repeat opacity-20"></div>
         </div>
         <div className="max-w-4xl mx-auto relative z-10 text-center">
           <span className="inline-block py-1.5 px-4 rounded-full bg-blue-500/20 text-blue-200 text-xs font-bold mb-4 tracking-widest uppercase border border-blue-400/30">
-            End-to-End Legal Process
+            End-to-End Legal Process.
           </span>
           <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
             Personal Loan Settlement Process in India (Step-by-Step)
@@ -25,7 +22,7 @@ export default function ClientPage() {
               Begin Settlement Process
             </Link>
             <a href="tel:+918800226635" className="bg-white text-[#0C2756] hover:bg-gray-100 font-bold py-4 px-8 rounded-full transition-all shadow-lg text-lg flex items-center justify-center">
-              Call +91 8800226635
+              Call +91 8800226635.
             </a>
           </div>
         </div>
@@ -60,14 +57,14 @@ export default function ClientPage() {
                 <div className="p-5 bg-gray-50 rounded-xl border border-gray-200">
                   <h3 className="text-base font-bold text-[#0C2756] mb-1">Stage 3: Bilateral Committee Negotiation</h3>
                   <p className="text-sm text-gray-600">
-                    Legal representatives negotiate with the bank&apos;s internal compromise settlement committee. Discussion centers on principal haircut percentage, waiver of penal interest, and payment timeframe.
+                    Legal agents negotiate with the bank&apos;s internal compromise settlement committee. Discussion centers on principal haircut percentage, waiver of penal interest, and payment timeframe.
                   </p>
                 </div>
 
                 <div className="p-5 bg-gray-50 rounded-xl border border-gray-200">
                   <h3 className="text-base font-bold text-[#0C2756] mb-1">Stage 4: Issuance of Formal Settlement Sanction Letter</h3>
                   <p className="text-sm text-gray-600">
-                    The bank generates a legally binding OTS letter on letterhead specifying: the agreed settlement sum, installment schedule (if staggered), and commitment to discharge all claims.
+                    The bank generates a legally binding OTS letter on letterhead specifying: the agreed settlement sum, installment schedule (if staggered). Commitment to discharge all claims.
                   </p>
                 </div>
 
@@ -121,6 +118,5 @@ export default function ClientPage() {
           </div>
         </div>
       </section>
-    </main>
-  );
+    </main>);
 }

@@ -1,18 +1,15 @@
 'use client';
-
 import React from 'react';
 import Link from 'next/link';
-
 export default function ClientPage() {
-  return (
-    <main className="w-full">
+    return (<main className="w-full">
       <section className="relative text-white pt-32 pb-20 px-4 md:px-8 overflow-hidden" style={{ backgroundColor: '#0C2756' }}>
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 left-0 w-full h-full bg-[url('/pattern-bg.svg')] bg-repeat opacity-20"></div>
         </div>
         <div className="max-w-4xl mx-auto relative z-10 text-center">
           <span className="inline-block py-1.5 px-4 rounded-full bg-blue-500/20 text-blue-200 text-xs font-bold mb-4 tracking-widest uppercase border border-blue-400/30">
-            Multi-Creditor Debt Relief Strategy
+            Multi-Creditor Debt Relief Strategy.
           </span>
           <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
             How to Settle Multiple Personal Loans & Credit Cards
@@ -25,7 +22,7 @@ export default function ClientPage() {
               Start Multi-Debt Settlement
             </Link>
             <a href="tel:+918800226635" className="bg-white text-[#0C2756] hover:bg-gray-100 font-bold py-4 px-8 rounded-full transition-all shadow-lg text-lg flex items-center justify-center">
-              Call +91 8800226635
+              Call +91 8800226635.
             </a>
           </div>
         </div>
@@ -39,7 +36,7 @@ export default function ClientPage() {
             </h2>
             <div className="prose max-w-none text-gray-700 space-y-4 leading-relaxed">
               <p>
-                When a borrower is servicing personal loans, credit card balances, and instant app loans simultaneously across multiple financial institutions, a loss of income triggers a dangerous domino effect. Attempting to pay partial EMIs to everyone exhausts your emergency capital without reducing principal liability.
+                When a borrower is servicing personal loans, credit card balances. Instant app loans simultaneously across multiple financial institutions, a loss of income triggers a dangerous domino effect. Attempting to pay partial EMIs to everyone exhausts your emergency capital without reducing principal liability.
               </p>
               <p>
                 A structured multi-creditor settlement plan replaces chaos with a unified, legally backed roadmap.
@@ -111,7 +108,7 @@ export default function ClientPage() {
                   How long does it take to settle 3 to 5 personal loans?
                 </h3>
                 <p className="text-gray-600 leading-relaxed text-sm">
-                  Depending on the age of defaults and available settlement capital, resolving multiple accounts typically takes between 3 to 9 months, allowing you to settle debts sequentially as funds become available.
+                  Depending on the age of defaults and available settlement capital, resolving multiple accounts typically takes between 3 to 9 months. This allows you to settle debts sequentially as funds become available.
                 </p>
               </div>
             </div>
@@ -126,6 +123,5 @@ export default function ClientPage() {
           </div>
         </div>
       </section>
-    </main>
-  );
+    </main>);
 }

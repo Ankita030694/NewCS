@@ -1,246 +1,192 @@
 'use client';
-
 import { useEffect, useState } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FAQWithSchema from '@/components/FAQWithSchema';
 import TableOfContents from '@/components/TableOfContents';
 import CTAButton from '@/components/CTAButton';
-
 export default function RajasthanPageClient() {
-  const [isFirefox, setIsFirefox] = useState(false);
+    const [isFirefox, setIsFirefox] = useState(false);
+    useEffect(() => {
+        const userAgent = navigator.userAgent.toLowerCase();
+        setIsFirefox(userAgent.includes('firefox'));
+    }, []);
+    const headings = [
+        { id: 'rajasthan-settlement', text: 'Loan Settlement Services in Rajasthan', level: 2 },
+        { id: 'heritage-economy', text: 'Rajasthan Heritage and Tourism Economy', level: 2 },
+        { id: 'ots-scheme', text: 'Rajasthan OTS Scheme 2024 - Government Relief', level: 2 },
+        { id: 'rajasthan-challenges', text: 'Six Unique Debt Challenges in Rajasthan', level: 2 },
+        { id: 'credsettle-rajasthan', text: 'CredSettle Expertise in Rajasthan', level: 2 },
+        { id: 'rajasthan-methods', text: 'Settlement Methods for Rajasthan Cases', level: 3 },
+        { id: 'rbi-plus-state', text: 'RBI and Rajasthan Government Support', level: 3 },
+        { id: 'rajasthan-lok-adalat', text: 'Rajasthan Lok Adalat System', level: 2 },
+        { id: 'jaipur-services', text: 'Jaipur Pink City Settlement Services', level: 2 },
+        { id: 'heritage-cities', text: 'Jodhpur, Udaipur and Heritage Cities', level: 2 },
+        { id: 'rajasthan-benefits', text: 'Six Major Benefits for Rajasthan Borrowers', level: 2 },
+        { id: 'borrower-rights', text: 'Your Rights as Rajasthan Borrower', level: 2 },
+        { id: 'settlement-phases', text: 'Settlement Phases Explained', level: 2 },
+        { id: 'jaipur-case', text: 'Real Case - Jaipur Hotel Owner Recovers', level: 2 },
+        { id: 'free-consult', text: 'Start Your Free Rajasthan Consultation', level: 2 },
+        { id: 'faqs', text: 'Rajasthan Loan Questions Answered', level: 2 }
+    ];
+    const faqs = [
+        {
+            question: 'Is loan settlement legal in Rajasthan?',
+            answer: 'Yes, completely legal in Rajasthan and across India. RBI recognizes settlement as legitimate debt resolution. Rajasthan also has OTS Scheme 2024 that gives additional government support for certain loans.'
+        },
+        {
+            question: 'What is Rajasthan OTS Scheme 2024?',
+            answer: 'Rajasthan government scheme offering 50% interest waiver on certain loans (personal, consumer, self-employment). Valid until March 31, 2025. Requires 25% upfront payment. We can guide you if your loan qualifies for this scheme along with our settlement services.'
+        },
+        {
+            question: 'Can tourism business owners in Jaipur/Udaipur settle loans?',
+            answer: 'Absolutely. We specialize in Rajasthan tourism sector cases (hotels, travel agencies, handicraft exporters, heritage properties). We understand seasonal tourism patterns, COVID impact and recovery challenges. Have settled hundreds of tourism business loans.'
+        },
+        {
+            question: 'How much can Rajasthan borrowers save?',
+            answer: 'Rajasthan borrowers typically save 30-70% on outstanding debt. Our state average is 56% savings. Tourism sector cases often get 55-65% reductions because lenders understand seasonal nature.'
+        },
+        {
+            question: 'Do you work with Rajasthan local banks?',
+            answer: 'Yes, all banks including Rajasthan local cooperative banks, regional rural banks plus all major banks (SBI, PNB, Bank of Baroda, HDFC, ICICI) and NBFCs operating in Rajasthan.'
+        },
+        {
+            question: 'Can marble and mining industry workers settle loans?',
+            answer: 'Yes, Rajasthan marble and mining sector employs thousands. We understand industry cycles, safety issues and income patterns. This helps negotiate better settlement terms with lenders.'
+        },
+        {
+            question: 'What is Rajasthan Lok Adalat success rate?',
+            answer: 'Good success rate. Rajasthan conducts regular Lok Adalats across 33 districts. We have handled hundreds of Rajasthan cases through Lok Adalat with 84% settlement success. Usually achieve 40-60% debt reduction.'
+        },
+        {
+            question: 'How long does settlement take in Rajasthan?',
+            answer: 'Typically 65-110 days from first consultation to final closure. Rajasthan cases sometimes take slightly longer because regional lender approvals need Jaipur head office clearance. But we push for speed.'
+        }
+    ];
+    return (<div className="relative min-h-screen bg-white mt-6">
+      {!isFirefox && (<div className="absolute top-0 left-0" style={{
+                width: '757px',
+                height: '757px',
+                borderRadius: '757px',
+                background: '#007AFF',
+                filter: 'blur(400px)',
+                WebkitFilter: 'blur(400px)',
+                transform: 'translate(-50%, -50%)',
+                zIndex: 0,
+                opacity: 0.6,
+                willChange: 'filter',
+                backfaceVisibility: 'hidden'
+            }}/>)}
 
-  useEffect(() => {
-    const userAgent = navigator.userAgent.toLowerCase();
-    setIsFirefox(userAgent.includes('firefox'));
-  }, []);
-
-  const headings = [
-    { id: 'rajasthan-settlement', text: 'Loan Settlement Services in Rajasthan', level: 2 },
-    { id: 'heritage-economy', text: 'Rajasthan Heritage and Tourism Economy', level: 2 },
-    { id: 'ots-scheme', text: 'Rajasthan OTS Scheme 2024 - Government Relief', level: 2 },
-    { id: 'rajasthan-challenges', text: 'Six Unique Debt Challenges in Rajasthan', level: 2 },
-    { id: 'credsettle-rajasthan', text: 'CredSettle Expertise in Rajasthan', level: 2 },
-    { id: 'rajasthan-methods', text: 'Settlement Methods for Rajasthan Cases', level: 3 },
-    { id: 'rbi-plus-state', text: 'RBI and Rajasthan Government Support', level: 3 },
-    { id: 'rajasthan-lok-adalat', text: 'Rajasthan Lok Adalat System', level: 2 },
-    { id: 'jaipur-services', text: 'Jaipur Pink City Settlement Services', level: 2 },
-    { id: 'heritage-cities', text: 'Jodhpur, Udaipur and Heritage Cities', level: 2 },
-    { id: 'rajasthan-benefits', text: 'Six Major Benefits for Rajasthan Borrowers', level: 2 },
-    { id: 'borrower-rights', text: 'Your Rights as Rajasthan Borrower', level: 2 },
-    { id: 'settlement-phases', text: 'Settlement Phases Explained', level: 2 },
-    { id: 'jaipur-case', text: 'Real Case - Jaipur Hotel Owner Recovers', level: 2 },
-    { id: 'free-consult', text: 'Start Your Free Rajasthan Consultation', level: 2 },
-    { id: 'faqs', text: 'Rajasthan Loan Questions Answered', level: 2 }
-  ];
-
-  const faqs = [
-    {
-      question: 'Is loan settlement legal in Rajasthan?',
-      answer: 'Yes, completely legal in Rajasthan and across India. RBI recognizes settlement as legitimate debt resolution. Rajasthan also has OTS Scheme 2024 that gives additional government support for certain loans.'
-    },
-    {
-      question: 'What is Rajasthan OTS Scheme 2024?',
-      answer: 'Rajasthan government scheme offering 50% interest waiver on certain loans (personal, consumer, self-employment). Valid until March 31, 2025. Requires 25% upfront payment. We can guide you if your loan qualifies for this scheme along with our settlement services.'
-    },
-    {
-      question: 'Can tourism business owners in Jaipur/Udaipur settle loans?',
-      answer: 'Absolutely. We specialize in Rajasthan tourism sector cases (hotels, travel agencies, handicraft exporters, heritage properties). We understand seasonal tourism patterns, COVID impact and recovery challenges. Have settled hundreds of tourism business loans.'
-    },
-    {
-      question: 'How much can Rajasthan borrowers save?',
-      answer: 'Rajasthan borrowers typically save 30-70% on outstanding debt. Our state average is 56% savings. Tourism sector cases often get 55-65% reductions because lenders understand seasonal nature.'
-    },
-    {
-      question: 'Do you work with Rajasthan local banks?',
-      answer: 'Yes, all banks including Rajasthan local cooperative banks, regional rural banks plus all major banks (SBI, PNB, Bank of Baroda, HDFC, ICICI) and NBFCs operating in Rajasthan.'
-    },
-    {
-      question: 'Can marble and mining industry workers settle loans?',
-      answer: 'Yes, Rajasthan marble and mining sector employs thousands. We understand industry cycles, safety issues and income patterns. This helps negotiate better settlement terms with lenders.'
-    },
-    {
-      question: 'What is Rajasthan Lok Adalat success rate?',
-      answer: 'Good success rate. Rajasthan conducts regular Lok Adalats across 33 districts. We have handled hundreds of Rajasthan cases through Lok Adalat with 84% settlement success. Usually achieve 40-60% debt reduction.'
-    },
-    {
-      question: 'How long does settlement take in Rajasthan?',
-      answer: 'Typically 65-110 days from first consultation to final closure. Rajasthan cases sometimes take slightly longer because regional lender approvals need Jaipur head office clearance. But we push for speed.'
-    }
-  ];
-
-  return (
-    <div className="relative min-h-screen bg-white mt-6">
-      {!isFirefox && (
-        <div
-          className="absolute top-0 left-0"
-          style={{
-            width: '757px',
-            height: '757px',
-            borderRadius: '757px',
-            background: '#007AFF',
-            filter: 'blur(400px)',
-            WebkitFilter: 'blur(400px)',
-            transform: 'translate(-50%, -50%)',
-            zIndex: 0,
-            opacity: 0.6,
-            willChange: 'filter',
-            backfaceVisibility: 'hidden'
-          }}
-        />
-      )}
-
-      {isFirefox && (
-        <div
-          className="absolute top-0 left-0"
-          style={{
-            width: '757px',
-            height: '757px',
-            borderRadius: '757px',
-            background:
-              'radial-gradient(circle, rgba(0, 122, 255, 0.4) 0%, rgba(0, 122, 255, 0.2) 30%, rgba(0, 122, 255, 0.1) 60%, transparent 100%)',
-            transform: 'translate(-50%, -50%)',
-            zIndex: 0,
-            opacity: 0.9
-          }}
-        />
-      )}
+      {isFirefox && (<div className="absolute top-0 left-0" style={{
+                width: '757px',
+                height: '757px',
+                borderRadius: '757px',
+                background: 'radial-gradient(circle, rgba(0, 122, 255, 0.4) 0%, rgba(0, 122, 255, 0.2) 30%, rgba(0, 122, 255, 0.1) 60%, transparent 100%)',
+                transform: 'translate(-50%, -50%)',
+                zIndex: 0,
+                opacity: 0.9
+            }}/>)}
 
       <Navbar />
 
       <div className="relative z-10" style={{ paddingTop: '84px' }}>
-        <section
-          className="w-full mx-auto px-4 md:px-6 lg:px-4"
-          style={{ maxWidth: '1280px', marginBottom: '48px' }}
-        >
+        <section className="w-full mx-auto px-4 md:px-6 lg:px-4" style={{ maxWidth: '1280px', marginBottom: '48px' }}>
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between" style={{ gap: '24px' }}>
             <div className="flex-1 flex items-center justify-center w-full lg:w-auto order-1 lg:order-2" style={{ minWidth: '0', position: 'relative' }}>
-              <img
-                src="/personalhero.png"
-                alt="Personal Loan Settlement Rajasthan"
-                className="w-full max-w-[280px] md:max-w-[400px] lg:max-w-[520px]"
-                style={{
-                  height: 'auto',
-                  transform: 'rotate(335deg)',
-                  transformOrigin: 'center'
-                }}
-              />
+              <img src="/personalhero.png" alt="Personal Loan Settlement Rajasthan" className="w-full max-w-[280px] md:max-w-[400px] lg:max-w-[520px]" style={{
+            height: 'auto',
+            transform: 'rotate(335deg)',
+            transformOrigin: 'center'
+        }}/>
             </div>
             <div className="flex-1 w-full lg:w-auto order-2 lg:order-1" style={{ maxWidth: '640px' }}>
-              <h1
-                className="text-2xl md:text-3xl lg:text-[40px] leading-tight lg:leading-[65px]"
-                style={{
-                  color: '#0C2756',
-                  fontFamily: 'Poppins',
-                  fontStyle: 'normal',
-                  fontWeight: '400',
-                  marginBottom: '12px'
-                }}
-              >
+              <h1 className="text-2xl md:text-3xl lg:text-[40px] leading-tight lg:leading-[65px]" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontStyle: 'normal',
+            fontWeight: '400',
+            marginBottom: '12px'
+        }}>
                         Personal Loan Settlement in Jaipur,<br />
-                        <span className="text-blue-200">Jodhpur &amp; Rajasthan</span>
+                        <span className="text-blue-200">Jodhpur &amp; Rajasthan.</span>
                     </h1>
-              <p
-                className="text-xs md:text-sm lg:text-[14px] leading-relaxed"
-                style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
-                  fontFamily: 'Poppins',
-                  lineHeight: '28px',
-                  marginBottom: '20px'
-                }}
-              >
+              <p className="text-xs md:text-sm lg:text-[14px] leading-relaxed" style={{
+            color: 'rgba(12, 39, 86, 0.70)',
+            fontFamily: 'Poppins',
+            lineHeight: '28px',
+            marginBottom: '20px'
+        }}>
                 Dealing with loan debt in Jaipur, Jodhpur, Udaipur or anywhere in Rajasthan? CredSettle helps tourism businesses, handicraft exporters, mining sector workers and all Rajasthan borrowers reduce debt by 30-70% through legal, RBI-compliant settlement. Rajasthan OTS Scheme 2024 support available. Over 7,500 Rajasthan families got debt-free with us.
               </p>
-              <button
-                className="text-white text-sm md:text-base lg:text-[18.58px] px-6 md:px-8 lg:px-[39.44px] py-2 md:py-3 lg:py-[13.48px]"
-                style={{
-                  borderRadius: '32.4px',
-                  background: '#007AFF',
-                  boxShadow:
-                    '0 0.9px 6.12px 0 rgba(0, 0, 0, 0.35), 0 -3.6px 3.6px 0 rgba(255, 255, 255, 0.25) inset, 0 3.6px 3.6px 0 rgba(255, 255, 255, 0.25) inset'
-                }}
-              >
-                Get Free Consultation Now
+              <button className="text-white text-sm md:text-base lg:text-[18.58px] px-6 md:px-8 lg:px-[39.44px] py-2 md:py-3 lg:py-[13.48px]" style={{
+            borderRadius: '32.4px',
+            background: '#007AFF',
+            boxShadow: '0 0.9px 6.12px 0 rgba(0, 0, 0, 0.35), 0 -3.6px 3.6px 0 rgba(255, 255, 255, 0.25) inset, 0 3.6px 3.6px 0 rgba(255, 255, 255, 0.25) inset'
+        }}>
+                Get Free Consultation Now.
               </button>
             </div>
           </div>
         </section>
 
-        <section
-          className="w-full mx-auto px-4 md:px-6 lg:px-5"
-          style={{
+        <section className="w-full mx-auto px-4 md:px-6 lg:px-5" style={{
             maxWidth: '1280px',
             marginBottom: '48px',
             position: 'relative'
-          }}
-        >
-          <div 
-            className="flex flex-col gap-4 lg:gap-8" 
-            style={{ 
-              alignItems: 'flex-start',
-              position: 'relative'
-            }}
-          >
+        }}>
+          <div className="flex flex-col gap-4 lg:gap-8" style={{
+            alignItems: 'flex-start',
+            position: 'relative'
+        }}>
             <div className="w-full">
-              <TableOfContents headings={headings} />
+              <TableOfContents headings={headings}/>
             </div>
 
             <div className="w-full" style={{ minWidth: '0', minHeight: '100vh' }}>
               
               <section id="rajasthan-settlement" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
+                <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 700,
+            lineHeight: '36px',
+            marginBottom: '20px'
+        }}>
                   Loan Settlement Services in Rajasthan
                 </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
+                <div className="text-sm md:text-base lg:text-[16px] leading-relaxed" style={{
+            color: 'rgba(12, 39, 86, 0.80)',
+            fontFamily: 'Poppins',
+            lineHeight: '28px'
+        }}>
                   <p style={{ marginBottom: '16px' }}>
                     Rajasthan, known for majestic forts, vibrant tourism, handicraft heritage and emerging industries, has diverse economy creating varied loan patterns. From Jaipur’s jewelry and IT sectors to Jodhpur’s handicraft exports, Udaipur’s hotel businesses to Kota’s education industry, millions borrow for business expansion, home purchase, education and family needs.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Personal loan settlement</strong> lets you negotiate with banks and NBFCs to pay reduced amounts instead of full outstanding balances. RBI recognizes this as legal debt resolution method. Rajasthan also has government OTS Scheme 2024 that provides additional relief for certain loans.
+                    <strong>Personal loan settlement.</strong> lets you negotiate with banks and NBFCs to pay reduced amounts instead of full outstanding balances. RBI recognizes this as legal debt resolution method. Rajasthan also has government OTS Scheme 2024 that provides additional relief for certain loans.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    CredSettle has settled loans for over 7,500 Rajasthan borrowers across Jaipur, Jodhpur, Udaipur, Kota, Ajmer, Bikaner and all 33 districts. Our Rajasthan clients typically save 30-70% on outstanding amounts (state average: 56%). Every settlement follows RBI rules, gets proper legal documentation, and permanently closes debt without future lender claims.
+                    CredSettle has settled loans for over 7,500 Rajasthan borrowers across Jaipur, Jodhpur, Udaipur, Kota, Ajmer, Bikaner and all 33 districts. Our Rajasthan clients typically save 30-70% on outstanding amounts (state average: 56%). Every settlement follows RBI rules, gets proper legal paperwork, and permanently closes debt without future lender claims.
                   </p>
                 </div>
               </section>
 
               <section id="heritage-economy" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
+                <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 700,
+            lineHeight: '36px',
+            marginBottom: '20px'
+        }}>
                   Rajasthan Heritage and Tourism Economy
                 </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
+                <div className="text-sm md:text-base lg:text-[16px] leading-relaxed" style={{
+            color: 'rgba(12, 39, 86, 0.80)',
+            fontFamily: 'Poppins',
+            lineHeight: '28px'
+        }}>
                   <p style={{ marginBottom: '16px' }}>
                     Rajasthan’s economy heavily depends on tourism and heritage sectors. Jaipur’s Hawa Mahal and Amber Fort, Udaipur’s lake palaces, Jodhpur’s Mehrangarh Fort attract millions of tourists yearly. This creates employment in hotels, travel agencies, handicraft shops, transport services, restaurants and tour operations. Many borrowed to expand tourism businesses during peak years. Then COVID destroyed tourism completely. Recovery remains slow and seasonal.
                   </p>
@@ -251,7 +197,7 @@ export default function RajasthanPageClient() {
                     <strong>Handicraft sector stress:</strong> Jaipur’s blue pottery, gemstone cutting and jewelry. Jodhpur’s handicraft exports. Udaipur’s miniature paintings and crafts. These traditional businesses borrowed for workshops, raw materials and export operations. Global demand fluctuations and domestic sales drops create cash flow problems. Many artisans and small exporters face loan default situations.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Mining and marble economy:</strong> Rajasthan has significant marble and mining industry (Makrana marble, sandstone, granite). Mining operations and marble trading businesses borrowed heavily. When construction sector slows (happened 2020-2023), marble demand drops. Mining sector workers and business owners struggle with loan payments.
+                    <strong>Mining and marble economy:</strong> Rajasthan has major marble and mining industry (Makrana marble, sandstone, granite). Mining operations and marble trading businesses borrowed heavily. When construction sector slows (happened 2020-2023), marble demand drops. Mining sector workers and business owners struggle with loan payments.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     We specialize in Rajasthan’s tourism and heritage economy. We know how to explain seasonal tourism patterns, COVID impact on heritage businesses, handicraft export challenges and marble industry cycles to lenders. This Rajasthan-specific knowledge gets you better settlement terms than generic settlement companies can achieve.
@@ -260,26 +206,20 @@ export default function RajasthanPageClient() {
               </section>
 
               <section id="ots-scheme" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
+                <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 700,
+            lineHeight: '36px',
+            marginBottom: '20px'
+        }}>
                   Rajasthan OTS Scheme 2024 - Government Relief
                 </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
+                <div className="text-sm md:text-base lg:text-[16px] leading-relaxed" style={{
+            color: 'rgba(12, 39, 86, 0.80)',
+            fontFamily: 'Poppins',
+            lineHeight: '28px'
+        }}>
                   <p style={{ marginBottom: '16px' }}>
                     Rajasthan government launched special One-Time Settlement Scheme in 2024 to help borrowers clear overdue loans. This is unique to Rajasthan (only few states offer such schemes). Here’s what you need to know:
                   </p>
@@ -299,26 +239,20 @@ export default function RajasthanPageClient() {
               </section>
 
               <section id="rajasthan-challenges" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
+                <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 700,
+            lineHeight: '36px',
+            marginBottom: '20px'
+        }}>
                   Six Unique Debt Challenges in Rajasthan
                 </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
+                <div className="text-sm md:text-base lg:text-[16px] leading-relaxed" style={{
+            color: 'rgba(12, 39, 86, 0.80)',
+            fontFamily: 'Poppins',
+            lineHeight: '28px'
+        }}>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>1. Tourism Sector COVID Collapse:</strong> Jaipur, Udaipur, Jaisalmer, Pushkar depend heavily on tourism. Hotel occupancy was 60-80% pre-COVID. Dropped to 5-15% during pandemic. Even now runs at 40-50% (domestic tourists increased but international tourists haven’t returned fully). Hotel owners, travel agents, tour operators, restaurants borrowed during boom years. Now struggling. We’ve settled 900+ tourism sector loans using tourism department statistics and hotel occupancy data.
                   </p>
@@ -332,7 +266,7 @@ export default function RajasthanPageClient() {
                     <strong>4. Kota Education Industry Impact:</strong> Kota is India’s coaching capital. Thousands of coaching institutes, hostels, food services depend on students coming for IIT-JEE preparation. During COVID and online education shift, many businesses collapsed. Owners who borrowed for expansion now stuck with loans. We’ve handled Kota education sector cases understanding the coaching industry dynamics.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>5. Agricultural Income Volatility:</strong> Rajasthan has significant agricultural economy but faces water scarcity and monsoon dependency. Farmers and agricultural traders borrow for crops, equipment and trading. When monsoon fails or crop prices fall, loan defaults happen. Rajasthan OTS Scheme 2024 helps many agricultural borrowers.
+                    <strong>5. Agricultural Income Volatility:</strong> Rajasthan has major agricultural economy but faces water scarcity and monsoon dependency. Farmers and agricultural traders borrow for crops, equipment and trading. When monsoon fails or crop prices fall, loan defaults happen. Rajasthan OTS Scheme 2024 helps many agricultural borrowers.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>6. Government Employee Transfer Issues:</strong> Rajasthan state government employees get transferred across districts frequently. Transfer costs, double rent (old and new location), family relocation expenses drain savings. Many borrowed to manage transfers. When transfers become frequent or salary adjustments delay, EMIs become burden. We negotiate using government employee transfer records and showing lenders this is systemic issue.
@@ -341,26 +275,20 @@ export default function RajasthanPageClient() {
               </section>
 
               <section id="credsettle-rajasthan" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
+                <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 700,
+            lineHeight: '36px',
+            marginBottom: '20px'
+        }}>
                   CredSettle Expertise in Rajasthan
                 </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
+                <div className="text-sm md:text-base lg:text-[16px] leading-relaxed" style={{
+            color: 'rgba(12, 39, 86, 0.80)',
+            fontFamily: 'Poppins',
+            lineHeight: '28px'
+        }}>
                   <p style={{ marginBottom: '16px' }}>
                     We’ve handled 7,500+ loan settlements across Rajasthan in last four years. Our Rajasthan clients save an average of 56% on their debt. We work with all major banks, regional rural banks, cooperative societies and NBFCs operating in Jaipur, Jodhpur, Udaipur and across the state.
                   </p>
@@ -369,34 +297,28 @@ export default function RajasthanPageClient() {
                   </p>
 
                   <div id="rajasthan-methods" style={{ marginTop: '32px', scrollMarginTop: '100px' }}>
-                    <h3
-                      className="text-lg md:text-xl lg:text-[24px] leading-tight"
-                      style={{
-                        color: '#0C2756',
-                        fontFamily: 'Poppins',
-                        fontWeight: 600,
-                        lineHeight: '32px',
-                        marginBottom: '16px'
-                      }}
-                    >
+                    <h3 className="text-lg md:text-xl lg:text-[24px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 600,
+            lineHeight: '32px',
+            marginBottom: '16px'
+        }}>
                       Settlement Methods for Rajasthan Cases
                     </h3>
                     <p style={{ marginBottom: '16px' }}>
-                      <strong>Step 1: Sector Analysis</strong> - Tourism business with seasonal income? Handicraft exporter with order cancellations? Marble trader with construction slowdown? Government employee with transfer costs? Each needs specific strategy. Free confidential consultation. <strong>Step 2: Check OTS Scheme Eligibility</strong> - We immediately check if any of your loans qualify for Rajasthan OTS Scheme 2024 (50% interest waiver). If yes, we help you apply before March 31, 2025 deadline. <strong>Step 3: Stop Harassment</strong> - Legal notices to all lenders citing RBI Fair Practices Code. Recovery contact stops within 5-7 days across Rajasthan. <strong>Step 4: Sector-Smart Negotiation</strong> - Our Rajasthan team uses tourism statistics, handicraft export data, marble industry reports, whatever applies. Push for 30-70% debt reduction. <strong>Step 5: Legal Documentation</strong> - OTS letters, receipts, closure certificates, NOC. Everything verified. <strong>Step 6: Post-Settlement Guidance</strong> - Credit rebuilding advice for future borrowing when your business recovers or income stabilizes.
+                      <strong>Step 1: Sector Analysis.</strong> - Tourism business with seasonal income? Handicraft exporter with order cancellations? Marble trader with construction slowdown? Government employee with transfer costs? Each needs specific strategy. Free confidential consultation. <strong>Step 2: Check OTS Scheme Eligibility.</strong> - We immediately check if any of your loans qualify for Rajasthan OTS Scheme 2024 (50% interest waiver). If yes, we help you apply before March 31, 2025 deadline. <strong>Step 3: Stop Harassment.</strong> - Legal notices to all lenders citing RBI Fair Practices Code. Recovery contact stops within 5-7 days across Rajasthan. <strong>Step 4: Sector-Smart Negotiation.</strong> - Our Rajasthan team uses tourism statistics, handicraft export data, marble industry reports, whatever applies. Push for 30-70% debt reduction. <strong>Step 5: Legal paperwork.</strong> - OTS letters, receipts, closure certificates, NOC. Everything verified. <strong>Step 6: Post-Settlement Guidance.</strong> - Credit rebuilding advice for future borrowing when your business recovers or income stabilizes.
                     </p>
                   </div>
 
                   <div id="rbi-plus-state" style={{ marginTop: '32px', scrollMarginTop: '100px' }}>
-                    <h3
-                      className="text-lg md:text-xl lg:text-[24px] leading-tight"
-                      style={{
-                        color: '#0C2756',
-                        fontFamily: 'Poppins',
-                        fontWeight: 600,
-                        lineHeight: '32px',
-                        marginBottom: '16px'
-                      }}
-                    >
+                    <h3 className="text-lg md:text-xl lg:text-[24px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 600,
+            lineHeight: '32px',
+            marginBottom: '16px'
+        }}>
                       RBI and Rajasthan Government Support
                     </h3>
                     <p style={{ marginBottom: '16px' }}>
@@ -407,26 +329,20 @@ export default function RajasthanPageClient() {
               </section>
 
               <section id="rajasthan-lok-adalat" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
+                <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 700,
+            lineHeight: '36px',
+            marginBottom: '20px'
+        }}>
                   Rajasthan Lok Adalat System
                 </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
+                <div className="text-sm md:text-base lg:text-[16px] leading-relaxed" style={{
+            color: 'rgba(12, 39, 86, 0.80)',
+            fontFamily: 'Poppins',
+            lineHeight: '28px'
+        }}>
                   <p style={{ marginBottom: '16px' }}>
                     Rajasthan operates Lok Adalat system across all 33 districts. Court-backed mediation under Legal Services Authorities Act delivers legally binding orders like regular court judgments. Rajasthan Lok Adalats are particularly active for banking and loan dispute cases.
                   </p>
@@ -446,26 +362,20 @@ export default function RajasthanPageClient() {
               </section>
 
               <section id="jaipur-services" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
+                <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 700,
+            lineHeight: '36px',
+            marginBottom: '20px'
+        }}>
                   Jaipur Pink City Settlement Services
                 </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
+                <div className="text-sm md:text-base lg:text-[16px] leading-relaxed" style={{
+            color: 'rgba(12, 39, 86, 0.80)',
+            fontFamily: 'Poppins',
+            lineHeight: '28px'
+        }}>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Jaipur:</strong> Rajasthan capital and largest city. Mix of government offices, tourism businesses, jewelry and gemstone industry, emerging IT sector, handicraft exports. We’ve handled 2,800+ Jaipur cases. Diverse borrower profile: government employees, hotel owners, jewelry traders, handicraft exporters, IT professionals in Malviya Nagar and Mansarovar areas. We understand Jaipur’s mixed economy and negotiate using sector-appropriate data.
                   </p>
@@ -479,26 +389,20 @@ export default function RajasthanPageClient() {
               </section>
 
               <section id="heritage-cities" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
+                <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 700,
+            lineHeight: '36px',
+            marginBottom: '20px'
+        }}>
                   Jodhpur, Udaipur and Heritage Cities
                 </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
+                <div className="text-sm md:text-base lg:text-[16px] leading-relaxed" style={{
+            color: 'rgba(12, 39, 86, 0.80)',
+            fontFamily: 'Poppins',
+            lineHeight: '28px'
+        }}>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Jodhpur (Blue City):</strong> Mehrangarh Fort, handicraft exports, textile trading. We’ve handled 1,200+ Jodhpur cases. Mix of tourism businesses, handicraft exporters and traders. We understand Jodhpur’s handicraft cluster and export market patterns. Use this knowledge in negotiations.
                   </p>
@@ -518,26 +422,20 @@ export default function RajasthanPageClient() {
               </section>
 
               <section id="rajasthan-benefits" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
+                <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 700,
+            lineHeight: '36px',
+            marginBottom: '20px'
+        }}>
                   Six Major Benefits for Rajasthan Borrowers
                 </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
+                <div className="text-sm md:text-base lg:text-[16px] leading-relaxed" style={{
+            color: 'rgba(12, 39, 86, 0.80)',
+            fontFamily: 'Poppins',
+            lineHeight: '28px'
+        }}>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>1. Tourism Sector Expertise:</strong> We understand seasonal patterns, festival tourism, international versus domestic tourist splits, hotel occupancy economics. Most settlement companies don’t get tourism business cycles. We do.
                   </p>
@@ -551,7 +449,7 @@ export default function RajasthanPageClient() {
                     <strong>4. Harassment Stops Within Week:</strong> Legal notices citing RBI rules to all lenders. Recovery calls and visits stop within 5-7 days across Rajasthan.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>5. Complete Legal Process:</strong> Every settlement follows RBI rules. Proper documentation so lenders cannot return. Important for business owners who need clean closure.
+                    <strong>5. Complete Legal Process:</strong> Every settlement follows RBI rules. Proper paperwork so lenders cannot return. Important for business owners who need clean closure.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>6. Pay After Success:</strong> No upfront fees. We charge only after settlement is negotiated and documented. Our confidence in results.
@@ -560,26 +458,20 @@ export default function RajasthanPageClient() {
               </section>
 
               <section id="borrower-rights" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
+                <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 700,
+            lineHeight: '36px',
+            marginBottom: '20px'
+        }}>
                   Your Rights as Rajasthan Borrower
                 </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
+                <div className="text-sm md:text-base lg:text-[16px] leading-relaxed" style={{
+            color: 'rgba(12, 39, 86, 0.80)',
+            fontFamily: 'Poppins',
+            lineHeight: '28px'
+        }}>
                   <p style={{ marginBottom: '16px' }}>
                     Know your rights as Rajasthan borrower. Laws protect you:
                   </p>
@@ -608,49 +500,43 @@ export default function RajasthanPageClient() {
               </section>
 
               <section id="settlement-phases" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
+                <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 700,
+            lineHeight: '36px',
+            marginBottom: '20px'
+        }}>
                   Settlement Phases Explained
                 </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
+                <div className="text-sm md:text-base lg:text-[16px] leading-relaxed" style={{
+            color: 'rgba(12, 39, 86, 0.80)',
+            fontFamily: 'Poppins',
+            lineHeight: '28px'
+        }}>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Phase 1: Initial Contact (Days 1-3)</strong> - Call, WhatsApp us. Free 35-45 minute confidential assessment. We review loans, business type, hardship situation. Check OTS Scheme eligibility immediately if applicable. No pressure.
+                    <strong>Phase 1: Initial Contact (Days 1-3).</strong> - Call, WhatsApp us. Free 35-45 minute confidential assessment. We review loans, business type, hardship situation. Check OTS Scheme eligibility immediately if applicable. No pressure.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Phase 2: Documentation (Days 4-12)</strong> - You share loan papers, business records, tourism revenue drops, handicraft export cancellations, whatever applies. We build settlement case with Rajasthan-specific sector data.
+                    <strong>Phase 2: paperwork (Days 4-12).</strong> - You share loan papers, business records, tourism revenue drops, handicraft export cancellations, whatever applies. We build settlement case with Rajasthan-specific sector data.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Phase 3: Stop Harassment (Days 12-17)</strong> - Legal notices to all lenders citing RBI rules. Recovery contact stops within 5-7 days across Rajasthan.
+                    <strong>Phase 3: Stop Harassment (Days 12-17).</strong> - Legal notices to all lenders citing RBI rules. Recovery contact stops within 5-7 days across Rajasthan.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Phase 4: Negotiation (Weeks 3-9)</strong> - Our Rajasthan team contacts lender NPA divisions. We use tourism statistics, handicraft export data, OTS Scheme leverage when applicable. Push for 30-70% debt reduction.
+                    <strong>Phase 4: Negotiation (Weeks 3-9).</strong> - Our Rajasthan team contacts lender NPA divisions. We use tourism statistics, handicraft export data, OTS Scheme leverage when applicable. Push for 30-70% debt reduction.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Phase 5: Agreement (Weeks 9-11)</strong> - Lender agrees to settlement. We get formal OTS letter. Everything legally verified before payment.
+                    <strong>Phase 5: Agreement (Weeks 9-11).</strong> - Lender agrees to settlement. We get formal OTS letter. Everything legally verified before payment.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Phase 6: Payment (Weeks 11-13)</strong> - You arrange settlement amount. Many Rajasthan tourism businesses time payments with peak season cash flow (Diwali, winter tourism months). We help structure timing.
+                    <strong>Phase 6: Payment (Weeks 11-13).</strong> - You arrange settlement amount. Many Rajasthan tourism businesses time payments with peak season cash flow (Diwali, winter tourism months). We help structure timing.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Phase 7: Closure (Weeks 13-17)</strong> - Lender has 30 days for documents. We follow up aggressively. Verify credit bureau updates.
+                    <strong>Phase 7: Closure (Weeks 13-17).</strong> - Lender has 30 days for documents. We follow up aggressively. Verify credit bureau updates.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Phase 8: Recovery Support (Ongoing)</strong> - Credit rebuilding guidance, seasonal business cash flow advice, future borrowing tips when business recovers.
+                    <strong>Phase 8: Recovery Support (Ongoing).</strong> - Credit rebuilding guidance, seasonal business cash flow advice, future borrowing tips when business recovers.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Total time:</strong> Usually 65-110 days for Rajasthan cases. Tourism business cases sometimes longer because we time settlement payments with seasonal cash flow for your convenience.
@@ -659,26 +545,20 @@ export default function RajasthanPageClient() {
               </section>
 
               <section id="jaipur-case" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
+                <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 700,
+            lineHeight: '36px',
+            marginBottom: '20px'
+        }}>
                   Real Case - Jaipur Hotel Owner Recovers
                 </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
+                <div className="text-sm md:text-base lg:text-[16px] leading-relaxed" style={{
+            color: 'rgba(12, 39, 86, 0.80)',
+            fontFamily: 'Poppins',
+            lineHeight: '28px'
+        }}>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>The Business Owner:</strong> Vikram C., age 48, runs heritage hotel near Amer Fort in Jaipur. 25-room property operating for 12 years. Had borrowed ₹38 lakhs total (2 business loans for hotel renovation, 1 property loan against hotel, 1 personal loan for working capital).
                   </p>
@@ -686,7 +566,7 @@ export default function RajasthanPageClient() {
                     <strong>What Collapsed:</strong> COVID hit March 2020. International tourists stopped completely. Hotel occupancy fell from 75% to 0% overnight. Ran empty for 18 months. When domestic tourism restarted 2021-2022, occupancy reached only 35-40% (down from 75%). Revenue fell from ₹45 lakhs yearly to ₹15 lakhs. Couldn’t pay EMIs on ₹25 lakhs business loans, ₹10 lakhs property loan and ₹3 lakhs personal loan. All accounts went NPA. Recovery agents called 20+ times daily, visited hotel twice (embarrassing in front of guests), sent legal notices. CIBIL dropped from 710 to 480. Feared losing family hotel built over decades.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>We Protected His Business:</strong> Vikram contacted us September 2023. We sent immediate legal notices to all 4 lenders with specific warnings against visiting hotel property (protecting business reputation). Harassment stopped in 6 days. Our assessment showed genuine tourism sector crisis - Rajasthan tourism department occupancy data, hotel revenue records, COVID impact documentation. Built strong case.
+                    <strong>We Protected His Business:</strong> Vikram contacted us September 2023. We sent immediate legal notices to all 4 lenders with specific warnings against visiting hotel property (protecting business reputation). Harassment stopped in 6 days. Our assessment showed genuine tourism sector crisis - Rajasthan tourism department occupancy data, hotel revenue records, COVID impact paperwork. Built strong case.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Negotiation Strategy:</strong> Our Jaipur tourism specialist team spent 3 months negotiating. Both business loans (from NBFCs) settled at 42-45% because we showed them Rajasthan tourism statistics proving sector-wide crisis, not individual hotel problem. Property loan was complex - settled at 52% by showing property market value trends and threatening that forced auction would recover less. Personal loan settled at 48% using business income loss proof.
@@ -704,26 +584,20 @@ export default function RajasthanPageClient() {
               </section>
 
               <section id="free-consult" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
+                <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 700,
+            lineHeight: '36px',
+            marginBottom: '20px'
+        }}>
                   Start Your Free Rajasthan Consultation
                 </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
+                <div className="text-sm md:text-base lg:text-[16px] leading-relaxed" style={{
+            color: 'rgba(12, 39, 86, 0.80)',
+            fontFamily: 'Poppins',
+            lineHeight: '28px'
+        }}>
                   <p style={{ marginBottom: '16px' }}>
                     Dealing with loan debt in Jaipur, Jodhpur, Udaipur or anywhere in Rajasthan? You don’t need to carry this burden alone. Settlement is legal. RBI backs it. Rajasthan government supports it with OTS Scheme. It exists for businesses facing tourism crisis and individuals with genuine financial problems.
                   </p>
@@ -731,7 +605,7 @@ export default function RajasthanPageClient() {
                     Debt destroys business and peace. Your health suffers, family worries constantly, business reputation drops, seasonal opportunities missed, sleep disappears. Each day you delay, penalties grow, interest compounds, CIBIL falls more. But proper exit exists. Over 7,500 Rajasthan families and businesses already got financial freedom through our settlement work.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Act today:</strong> Free confidential consultation. No obligations, no upfront fees. Just honest assessment and clear options including OTS Scheme check. Our Rajasthan experts will show exactly how to stop harassment, cut debt 30-70% and close everything legally. We understand tourism seasonality, handicraft exports, marble trading, education sector - whatever your situation is.
+                    <strong>Act today:</strong> Free confidential consultation. No dues, no upfront fees. Just honest assessment and clear options including OTS Scheme check. Our Rajasthan experts will show exactly how to stop harassment, cut debt 30-70% and close everything legally. We understand tourism seasonality, handicraft exports, marble trading, education sector - whatever your situation is.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     Tourism downturns and business slowdowns are temporary cycles. But unresolved debt can destroy everything you built over years. With our legal team, Rajasthan tourism knowledge and 7,500+ case experience, you can end this crisis properly and restart. Don’t let debt destroy your heritage business. Act now.
@@ -748,36 +622,24 @@ export default function RajasthanPageClient() {
         <section className="w-full py-12" id="faqs" style={{ scrollMarginTop: '100px' }}>
           <div className="w-full max-w-7xl mx-auto px-4">
             <div className="flex flex-col items-center gap-8 md:gap-14">
-              <FAQWithSchema
-                faqs={faqs}
-                title="Personal Loan Settlement in Rajasthan"
-              />
+              <FAQWithSchema faqs={faqs} title="Personal Loan Settlement in Rajasthan"/>
 
-              <div
-                className="flex justify-center items-center w-full rounded-xl px-3 py-8 md:py-[63px]"
-                style={{
-                  background: 'linear-gradient(180deg, rgba(191, 238, 255, 0.50) 27.61%, #007AFF 100%)',
-                  boxShadow: '0 5px 16px 0 rgba(0, 0, 0, 0.15)'
-                }}
-              >
+              <div className="flex justify-center items-center w-full rounded-xl px-3 py-8 md:py-[63px]" style={{
+            background: 'linear-gradient(180deg, rgba(191, 238, 255, 0.50) 27.61%, #007AFF 100%)',
+            boxShadow: '0 5px 16px 0 rgba(0, 0, 0, 0.15)'
+        }}>
                 <div className="flex flex-col items-center gap-[35px] w-full max-w-[644px]">
                   <div className="flex flex-col items-center gap-[28px] w-full">
-                    <h2
-                      className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full"
-                      style={{ color: '#0C2756' }}
-                    >
+                    <h2 className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full" style={{ color: '#0C2756' }}>
                       Ready for Debt-Free Life in Rajasthan?
                     </h2>
-                    <p
-                      className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full"
-                      style={{ color: 'rgba(12, 39, 86, 0.70)' }}
-                    >
+                    <p className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full" style={{ color: 'rgba(12, 39, 86, 0.70)' }}>
                       Join 7,500+ Rajasthan families who achieved financial freedom. Tourism businesses, handicraft exporters, all welcome. Free consultation, OTS Scheme support.
                     </p>
                   </div>
 
                   <CTAButton>
-                    Get Your Free Consultation Now
+                    Get Your Free Consultation Now.
                   </CTAButton>
                 </div>
               </div>
@@ -789,10 +651,5 @@ export default function RajasthanPageClient() {
       <div style={{ marginTop: '100px' }}>
         <Footer />
       </div>
-    </div>
-  );
+    </div>);
 }
-
-
-
-

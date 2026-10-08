@@ -1,245 +1,191 @@
 'use client';
-
 import { useEffect, useState } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FAQWithSchema from '@/components/FAQWithSchema';
 import TableOfContents from '@/components/TableOfContents';
 import CTAButton from '@/components/CTAButton';
-
 export default function AndhraPradeshPageClient() {
-  const [isFirefox, setIsFirefox] = useState(false);
+    const [isFirefox, setIsFirefox] = useState(false);
+    useEffect(() => {
+        const userAgent = navigator.userAgent.toLowerCase();
+        setIsFirefox(userAgent.includes('firefox'));
+    }, []);
+    const headings = [
+        { id: 'ap-settlement-intro', text: 'Personal Loan Settlement in Andhra Pradesh', level: 2 },
+        { id: 'coastal-economy', text: 'Coastal AP Economy and Debt Crisis', level: 2 },
+        { id: 'harassment-problem', text: 'Rising Harassment Crisis in AP - 41% Increase', level: 2 },
+        { id: 'sector-challenges', text: 'Six Sector-Specific Debt Challenges in AP', level: 2 },
+        { id: 'credsettle-ap', text: 'CredSettle Presence in Andhra Pradesh', level: 2 },
+        { id: 'ap-methods', text: 'Settlement Methods for AP Cases', level: 3 },
+        { id: 'legal-framework', text: 'Legal Framework and RBI Protection', level: 3 },
+        { id: 'ap-legal-routes', text: 'AP Lok Adalat and Consumer Commission Options', level: 2 },
+        { id: 'vizag-vijayawada', text: 'Visakhapatnam and Vijayawada Services', level: 2 },
+        { id: 'guntur-tirupati', text: 'Guntur, Tirupati and Regional Coverage', level: 2 },
+        { id: 'ap-advantages', text: 'Seven Key Advantages for AP Borrowers', level: 2 },
+        { id: 'protection-rights', text: 'Protection Against Harassment - Your Rights', level: 2 },
+        { id: 'timeline-process', text: 'Timeline and Process for AP Settlements', level: 2 },
+        { id: 'vizag-success', text: 'Case Study - Vizag Port Worker Gets Relief', level: 2 },
+        { id: 'ap-consultation', text: 'Schedule Your Free AP Consultation', level: 2 },
+        { id: 'faqs', text: 'Andhra Pradesh Settlement Questions', level: 2 }
+    ];
+    const faqs = [
+        {
+            question: 'Is loan settlement legal in Andhra Pradesh?',
+            answer: 'Yes, completely legal in Andhra Pradesh and across India. RBI recognizes settlement as legitimate debt resolution. CredSettle operates within all legal frameworks including AP Lok Adalat and State Consumer Commission.'
+        },
+        {
+            question: 'How bad is harassment problem in Andhra Pradesh?',
+            answer: 'Very serious. AP and Telangana saw 41% increase in harassment cases in 2024 (highest in South India). Recovery agents are aggressive here. That is exactly why we stop harassment within 3-5 days through legal notices citing RBI Fair Practices Code.'
+        },
+        {
+            question: 'Can Vizag port workers settle loans?',
+            answer: 'Yes, we handle many Visakhapatnam port and shipping sector cases. We understand wage structures, contract employment patterns and port economy cycles. This helps negotiate better with lenders.'
+        },
+        {
+            question: 'How much can AP borrowers save?',
+            answer: "Andhra Pradesh borrowers typically save 30-70% on outstanding debt. Our AP state average is 57% savings. Exact amount depends on your loan type, sector and hardship paperwork."
+        },
+        {
+            question: 'Do you work with Andhra Bank and AP local banks?',
+            answer: 'Yes, we work with all banks including Union Bank (merged with Andhra Bank), Indian Bank, SBI, HDFC, ICICI and all NBFCs operating in AP. We have settled thousands of loans from these lenders.'
+        },
+        {
+            question: 'Can Guntur agricultural traders settle business loans?',
+            answer: 'Absolutely. Guntur is major agricultural trading hub (chili, cotton, tobacco). We handle trader cases understanding crop cycles, mandi payment systems and seasonal income patterns. This helps settlement negotiations.'
+        },
+        {
+            question: 'What is AP Lok Adalat success rate?',
+            answer: 'Good success rate. AP conducts regular Lok Adalats across 13 districts. We have handled hundreds of AP cases through Lok Adalat with 83% settlement success. Usually achieve 40-60% debt reduction.'
+        },
+        {
+            question: 'Do you provide services in Telugu language?',
+            answer: "Yes, our AP team can communicate in Telugu. We prepare hardship paperwork in Telugu and English both. This helps with local lenders and district court judges who prefer regional language."
+        }
+    ];
+    return (<div className="relative min-h-screen bg-white mt-6">
+      {!isFirefox && (<div className="absolute top-0 left-0" style={{
+                width: '757px',
+                height: '757px',
+                borderRadius: '757px',
+                background: '#007AFF',
+                filter: 'blur(400px)',
+                WebkitFilter: 'blur(400px)',
+                transform: 'translate(-50%, -50%)',
+                zIndex: 0,
+                opacity: 0.6,
+                willChange: 'filter',
+                backfaceVisibility: 'hidden'
+            }}/>)}
 
-  useEffect(() => {
-    const userAgent = navigator.userAgent.toLowerCase();
-    setIsFirefox(userAgent.includes('firefox'));
-  }, []);
-
-  const headings = [
-    { id: 'ap-settlement-intro', text: 'Personal Loan Settlement in Andhra Pradesh', level: 2 },
-    { id: 'coastal-economy', text: 'Coastal AP Economy and Debt Crisis', level: 2 },
-    { id: 'harassment-problem', text: 'Rising Harassment Crisis in AP - 41% Increase', level: 2 },
-    { id: 'sector-challenges', text: 'Six Sector-Specific Debt Challenges in AP', level: 2 },
-    { id: 'credsettle-ap', text: 'CredSettle Presence in Andhra Pradesh', level: 2 },
-    { id: 'ap-methods', text: 'Settlement Methods for AP Cases', level: 3 },
-    { id: 'legal-framework', text: 'Legal Framework and RBI Protection', level: 3 },
-    { id: 'ap-legal-routes', text: 'AP Lok Adalat and Consumer Commission Options', level: 2 },
-    { id: 'vizag-vijayawada', text: 'Visakhapatnam and Vijayawada Services', level: 2 },
-    { id: 'guntur-tirupati', text: 'Guntur, Tirupati and Regional Coverage', level: 2 },
-    { id: 'ap-advantages', text: 'Seven Key Advantages for AP Borrowers', level: 2 },
-    { id: 'protection-rights', text: 'Protection Against Harassment - Your Rights', level: 2 },
-    { id: 'timeline-process', text: 'Timeline and Process for AP Settlements', level: 2 },
-    { id: 'vizag-success', text: 'Case Study - Vizag Port Worker Gets Relief', level: 2 },
-    { id: 'ap-consultation', text: 'Schedule Your Free AP Consultation', level: 2 },
-    { id: 'faqs', text: 'Andhra Pradesh Settlement Questions', level: 2 }
-  ];
-
-  const faqs = [
-    {
-      question: 'Is loan settlement legal in Andhra Pradesh?',
-      answer: 'Yes, completely legal in Andhra Pradesh and across India. RBI recognizes settlement as legitimate debt resolution. CredSettle operates within all legal frameworks including AP Lok Adalat and State Consumer Commission.'
-    },
-    {
-      question: 'How bad is harassment problem in Andhra Pradesh?',
-      answer: 'Very serious. AP and Telangana saw 41% increase in harassment cases in 2024 (highest in South India). Recovery agents are aggressive here. That is exactly why we stop harassment within 3-5 days through legal notices citing RBI Fair Practices Code.'
-    },
-    {
-      question: 'Can Vizag port workers settle loans?',
-      answer: 'Yes, we handle many Visakhapatnam port and shipping sector cases. We understand wage structures, contract employment patterns and port economy cycles. This helps negotiate better with lenders.'
-    },
-    {
-      question: 'How much can AP borrowers save?',
-      answer: 'Andhra Pradesh borrowers typically save 30-70% on outstanding debt. Our AP state average is 57% savings. Exact amount depends on your loan type, sector and hardship documentation.'
-    },
-    {
-      question: 'Do you work with Andhra Bank and AP local banks?',
-      answer: 'Yes, we work with all banks including Union Bank (merged with Andhra Bank), Indian Bank, SBI, HDFC, ICICI and all NBFCs operating in AP. We have settled thousands of loans from these lenders.'
-    },
-    {
-      question: 'Can Guntur agricultural traders settle business loans?',
-      answer: 'Absolutely. Guntur is major agricultural trading hub (chili, cotton, tobacco). We handle trader cases understanding crop cycles, mandi payment systems and seasonal income patterns. This helps settlement negotiations.'
-    },
-    {
-      question: 'What is AP Lok Adalat success rate?',
-      answer: 'Good success rate. AP conducts regular Lok Adalats across 13 districts. We have handled hundreds of AP cases through Lok Adalat with 83% settlement success. Usually achieve 40-60% debt reduction.'
-    },
-    {
-      question: 'Do you provide services in Telugu language?',
-      answer: 'Yes, our AP team can communicate in Telugu. We prepare hardship documentation in Telugu and English both. This helps with local lenders and district court judges who prefer regional language.'
-    }
-  ];
-
-  return (
-    <div className="relative min-h-screen bg-white mt-6">
-      {!isFirefox && (
-        <div
-          className="absolute top-0 left-0"
-          style={{
-            width: '757px',
-            height: '757px',
-            borderRadius: '757px',
-            background: '#007AFF',
-            filter: 'blur(400px)',
-            WebkitFilter: 'blur(400px)',
-            transform: 'translate(-50%, -50%)',
-            zIndex: 0,
-            opacity: 0.6,
-            willChange: 'filter',
-            backfaceVisibility: 'hidden'
-          }}
-        />
-      )}
-
-      {isFirefox && (
-        <div
-          className="absolute top-0 left-0"
-          style={{
-            width: '757px',
-            height: '757px',
-            borderRadius: '757px',
-            background:
-              'radial-gradient(circle, rgba(0, 122, 255, 0.4) 0%, rgba(0, 122, 255, 0.2) 30%, rgba(0, 122, 255, 0.1) 60%, transparent 100%)',
-            transform: 'translate(-50%, -50%)',
-            zIndex: 0,
-            opacity: 0.9
-          }}
-        />
-      )}
+      {isFirefox && (<div className="absolute top-0 left-0" style={{
+                width: '757px',
+                height: '757px',
+                borderRadius: '757px',
+                background: 'radial-gradient(circle, rgba(0, 122, 255, 0.4) 0%, rgba(0, 122, 255, 0.2) 30%, rgba(0, 122, 255, 0.1) 60%, transparent 100%)',
+                transform: 'translate(-50%, -50%)',
+                zIndex: 0,
+                opacity: 0.9
+            }}/>)}
 
       <Navbar />
 
       <div className="relative z-10" style={{ paddingTop: '84px' }}>
-        <section
-          className="w-full mx-auto px-4 md:px-6 lg:px-4"
-          style={{ maxWidth: '1280px', marginBottom: '48px' }}
-        >
+        <section className="w-full mx-auto px-4 md:px-6 lg:px-4" style={{ maxWidth: '1280px', marginBottom: '48px' }}>
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between" style={{ gap: '24px' }}>
             <div className="flex-1 flex items-center justify-center w-full lg:w-auto order-1 lg:order-2" style={{ minWidth: '0', position: 'relative' }}>
-              <img
-                src="/personalhero.png"
-                alt="Personal Loan Settlement Andhra Pradesh"
-                className="w-full max-w-[280px] md:max-w-[400px] lg:max-w-[520px]"
-                style={{
-                  height: 'auto',
-                  transform: 'rotate(335deg)',
-                  transformOrigin: 'center'
-                }}
-              />
+              <img src="/personalhero.png" alt="Personal Loan Settlement Andhra Pradesh" className="w-full max-w-[280px] md:max-w-[400px] lg:max-w-[520px]" style={{
+            height: 'auto',
+            transform: 'rotate(335deg)',
+            transformOrigin: 'center'
+        }}/>
             </div>
             <div className="flex-1 w-full lg:w-auto order-2 lg:order-1" style={{ maxWidth: '640px' }}>
-              <h1
-                className="text-2xl md:text-3xl lg:text-[40px] leading-tight lg:leading-[65px]"
-                style={{
-                  color: '#0C2756',
-                  fontFamily: 'Poppins',
-                  fontStyle: 'normal',
-                  fontWeight: '400',
-                  marginBottom: '12px'
-                }}
-              >
+              <h1 className="text-2xl md:text-3xl lg:text-[40px] leading-tight lg:leading-[65px]" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontStyle: 'normal',
+            fontWeight: '400',
+            marginBottom: '12px'
+        }}>
                 Loan Settlement Visakhapatnam Vijayawada AP - Stop Harassment Now
               </h1>
-              <p
-                className="text-xs md:text-sm lg:text-[14px] leading-relaxed"
-                style={{
-                  color: 'rgba(12, 39, 86, 0.70)',
-                  fontFamily: 'Poppins',
-                  lineHeight: '28px',
-                  marginBottom: '20px'
-                }}
-              >
+              <p className="text-xs md:text-sm lg:text-[14px] leading-relaxed" style={{
+            color: 'rgba(12, 39, 86, 0.70)',
+            fontFamily: 'Poppins',
+            lineHeight: '28px',
+            marginBottom: '20px'
+        }}>
                 Facing severe loan harassment in Vizag, Vijayawada or anywhere in Andhra Pradesh? CredSettle helps AP borrowers reduce debt by 30-70% and stop aggressive recovery tactics through legal, RBI-compliant settlement. Port workers, IT professionals, agricultural traders, all sectors covered. Over 8,000 AP families got debt-free and harassment-free with us.
               </p>
-              <button
-                className="text-white text-sm md:text-base lg:text-[18.58px] px-6 md:px-8 lg:px-[39.44px] py-2 md:py-3 lg:py-[13.48px]"
-                style={{
-                  borderRadius: '32.4px',
-                  background: '#007AFF',
-                  boxShadow:
-                    '0 0.9px 6.12px 0 rgba(0, 0, 0, 0.35), 0 -3.6px 3.6px 0 rgba(255, 255, 255, 0.25) inset, 0 3.6px 3.6px 0 rgba(255, 255, 255, 0.25) inset'
-                }}
-              >
-                Get Free Consultation Now
+              <button className="text-white text-sm md:text-base lg:text-[18.58px] px-6 md:px-8 lg:px-[39.44px] py-2 md:py-3 lg:py-[13.48px]" style={{
+            borderRadius: '32.4px',
+            background: '#007AFF',
+            boxShadow: '0 0.9px 6.12px 0 rgba(0, 0, 0, 0.35), 0 -3.6px 3.6px 0 rgba(255, 255, 255, 0.25) inset, 0 3.6px 3.6px 0 rgba(255, 255, 255, 0.25) inset'
+        }}>
+                Get Free Consultation Now.
               </button>
             </div>
           </div>
         </section>
 
-        <section
-          className="w-full mx-auto px-4 md:px-6 lg:px-5"
-          style={{
+        <section className="w-full mx-auto px-4 md:px-6 lg:px-5" style={{
             maxWidth: '1280px',
             marginBottom: '48px',
             position: 'relative'
-          }}
-        >
-          <div 
-            className="flex flex-col gap-4 lg:gap-8" 
-            style={{ 
-              alignItems: 'flex-start',
-              position: 'relative'
-            }}
-          >
+        }}>
+          <div className="flex flex-col gap-4 lg:gap-8" style={{
+            alignItems: 'flex-start',
+            position: 'relative'
+        }}>
             <div className="w-full">
-              <TableOfContents headings={headings} />
+              <TableOfContents headings={headings}/>
             </div>
 
             <div className="w-full" style={{ minWidth: '0', minHeight: '100vh' }}>
               
               <section id="ap-settlement-intro" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
+                <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 700,
+            lineHeight: '36px',
+            marginBottom: '20px'
+        }}>
                   Personal Loan Settlement in Andhra Pradesh
                 </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
+                <div className="text-sm md:text-base lg:text-[16px] leading-relaxed" style={{
+            color: 'rgba(12, 39, 86, 0.80)',
+            fontFamily: 'Poppins',
+            lineHeight: '28px'
+        }}>
                   <p style={{ marginBottom: '16px' }}>
                     Andhra Pradesh, stretching along Bay of Bengal coast with major port economy in Visakhapatnam, agricultural trading in Guntur, commercial activity in Vijayawada and temple economy in Tirupati, sees massive loan activity yearly. Port workers, IT professionals, agricultural traders, small business owners and salaried employees borrow for homes, education, medical needs and business capital.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Personal loan settlement</strong> lets you negotiate with banks and NBFCs to pay reduced amounts instead of full outstanding balances. RBI recognizes this as legal debt resolution method across India including Andhra Pradesh. When you genuinely cannot repay loans, settlement provides proper exit without years of harassment or court fights.
+                    <strong>Personal loan settlement.</strong> lets you negotiate with banks and NBFCs to pay reduced amounts instead of full outstanding balances. RBI recognizes this as legal debt resolution method across India including Andhra Pradesh. When you genuinely cannot repay loans, settlement provides proper exit without years of harassment or court fights.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    CredSettle has settled loans for over 8,000 Andhra Pradesh borrowers across Visakhapatnam, Vijayawada, Guntur, Tirupati, Nellore, Kakinada, Rajahmundry and all 13 districts. Our AP clients typically save 30-70% on outstanding amounts (state average: 57%). Every settlement follows RBI rules, gets proper legal documentation, and permanently closes debt without future lender claims.
+                    CredSettle has settled loans for over 8,000 Andhra Pradesh borrowers across Visakhapatnam, Vijayawada, Guntur, Tirupati, Nellore, Kakinada, Rajahmundry and all 13 districts. Our AP clients typically save 30-70% on outstanding amounts (state average: 57%). Every settlement follows RBI rules, gets proper legal paperwork, and permanently closes debt without future lender claims.
                   </p>
                 </div>
               </section>
 
               <section id="coastal-economy" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
+                <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 700,
+            lineHeight: '36px',
+            marginBottom: '20px'
+        }}>
                   Coastal AP Economy and Debt Crisis
                 </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
+                <div className="text-sm md:text-base lg:text-[16px] leading-relaxed" style={{
+            color: 'rgba(12, 39, 86, 0.80)',
+            fontFamily: 'Poppins',
+            lineHeight: '28px'
+        }}>
                   <p style={{ marginBottom: '16px' }}>
                     Andhra Pradesh economy mixes coastal activities, agriculture, emerging IT sector and religious tourism. Visakhapatnam port handles major cargo and employs thousands in shipping, logistics and related industries. Vijayawada sits on Krishna River as commercial hub connecting coastal and inland regions. Guntur dominates agricultural commodity trading (chili, cotton, tobacco). Each creates different borrowing patterns and debt problems.
                   </p>
@@ -262,26 +208,20 @@ export default function AndhraPradeshPageClient() {
               </section>
 
               <section id="harassment-problem" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
+                <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 700,
+            lineHeight: '36px',
+            marginBottom: '20px'
+        }}>
                   Rising Harassment Crisis in AP - 41% Increase
                 </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
+                <div className="text-sm md:text-base lg:text-[16px] leading-relaxed" style={{
+            color: 'rgba(12, 39, 86, 0.80)',
+            fontFamily: 'Poppins',
+            lineHeight: '28px'
+        }}>
                   <p style={{ marginBottom: '16px' }}>
                     Andhra Pradesh faces severe recovery harassment problem. Data shows 41% increase in harassment cases during 2024, reaching six-quarter high of 3.6% default rate. This makes AP one of the most aggressive recovery markets in South India. Why this matters for you: You need legal protection fast, not just settlement negotiation.
                   </p>
@@ -301,26 +241,20 @@ export default function AndhraPradeshPageClient() {
               </section>
 
               <section id="sector-challenges" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
+                <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 700,
+            lineHeight: '36px',
+            marginBottom: '20px'
+        }}>
                   Six Sector-Specific Debt Challenges in AP
                 </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
+                <div className="text-sm md:text-base lg:text-[16px] leading-relaxed" style={{
+            color: 'rgba(12, 39, 86, 0.80)',
+            fontFamily: 'Poppins',
+            lineHeight: '28px'
+        }}>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>1. Visakhapatnam Port Economy Volatility:</strong> Vizag port and shipyard employ thousands directly and indirectly. Port workers, logistics staff, shipping company employees borrow for homes and education. When global shipping slows or port activity drops (happened during COVID and global recession), job security weakens, wages stagnate. We’ve settled 1,200+ Vizag port sector loans. Strategy: Show lenders the port cargo data, employment statistics and prove income stress is sector-wide.
                   </p>
@@ -343,26 +277,20 @@ export default function AndhraPradeshPageClient() {
               </section>
 
               <section id="credsettle-ap" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
+                <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 700,
+            lineHeight: '36px',
+            marginBottom: '20px'
+        }}>
                   CredSettle Presence in Andhra Pradesh
                 </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
+                <div className="text-sm md:text-base lg:text-[16px] leading-relaxed" style={{
+            color: 'rgba(12, 39, 86, 0.80)',
+            fontFamily: 'Poppins',
+            lineHeight: '28px'
+        }}>
                   <p style={{ marginBottom: '16px' }}>
                     We’ve handled 8,000+ loan settlements across Andhra Pradesh in last four years. Our AP clients save an average of 57% on their debt. We work with all major banks including Union Bank (merged with Andhra Bank), SBI, Indian Bank and all NBFCs operating across the state.
                   </p>
@@ -371,34 +299,28 @@ export default function AndhraPradeshPageClient() {
                   </p>
 
                   <div id="ap-methods" style={{ marginTop: '32px', scrollMarginTop: '100px' }}>
-                    <h3
-                      className="text-lg md:text-xl lg:text-[24px] leading-tight"
-                      style={{
-                        color: '#0C2756',
-                        fontFamily: 'Poppins',
-                        fontWeight: 600,
-                        lineHeight: '32px',
-                        marginBottom: '16px'
-                      }}
-                    >
+                    <h3 className="text-lg md:text-xl lg:text-[24px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 600,
+            lineHeight: '32px',
+            marginBottom: '16px'
+        }}>
                       Settlement Methods for AP Cases
                     </h3>
                     <p style={{ marginBottom: '16px' }}>
-                      <strong>Step 1: Urgent Harassment Assessment</strong> - In AP cases, we first assess harassment severity. How many calls daily? Have agents visited? Any threats made? This determines urgency level. Free confidential consultation. <strong>Step 2: Immediate Legal Intervention</strong> - We send urgent legal notices within 24 hours for severe harassment cases. Cite RBI rules, threaten police complaints. All recovery contact stops within 3-5 days. <strong>Step 3: Sector-Based Negotiation</strong> - Our AP team uses sector-specific proof. Port cargo statistics for Vizag cases, commodity price data for Guntur traders, tourism figures for Tirupati businesses, IT layoff reports for tech sector. Push for 30-70% debt reduction. <strong>Step 4: Telugu + English Documentation</strong> - Settlement papers in both languages when needed. Helps with local banks and regional lenders. <strong>Step 5: Follow-Up Protection</strong> - After settlement, we monitor for any harassment resumption and provide credit rebuilding guidance.
+                      <strong>Step 1: Urgent Harassment Assessment.</strong> - In AP cases, we first assess harassment severity. How many calls daily? Have agents visited? Any threats made? This determines urgency level. Free confidential consultation. <strong>Step 2: Immediate Legal Intervention.</strong> - We send urgent legal notices within 24 hours for severe harassment cases. Cite RBI rules, threaten police complaints. All recovery contact stops within 3-5 days. <strong>Step 3: Sector-Based Negotiation.</strong> - Our AP team uses sector-specific proof. Port cargo statistics for Vizag cases, commodity price data for Guntur traders, tourism figures for Tirupati businesses, IT layoff reports for tech sector. Push for 30-70% debt reduction. <strong>Step 4: Telugu + English paperwork.</strong> - Settlement papers in both languages when needed. Helps with local banks and regional lenders. <strong>Step 5: Follow-Up Protection.</strong> - After settlement, we monitor for any harassment resumption and provide credit rebuilding guidance.
                     </p>
                   </div>
 
                   <div id="legal-framework" style={{ marginTop: '32px', scrollMarginTop: '100px' }}>
-                    <h3
-                      className="text-lg md:text-xl lg:text-[24px] leading-tight"
-                      style={{
-                        color: '#0C2756',
-                        fontFamily: 'Poppins',
-                        fontWeight: 600,
-                        lineHeight: '32px',
-                        marginBottom: '16px'
-                      }}
-                    >
+                    <h3 className="text-lg md:text-xl lg:text-[24px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 600,
+            lineHeight: '32px',
+            marginBottom: '16px'
+        }}>
                       Legal Framework and RBI Protection
                     </h3>
                     <p style={{ marginBottom: '16px' }}>
@@ -409,26 +331,20 @@ export default function AndhraPradeshPageClient() {
               </section>
 
               <section id="ap-legal-routes" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
+                <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 700,
+            lineHeight: '36px',
+            marginBottom: '20px'
+        }}>
                   AP Lok Adalat and Consumer Commission Options
                 </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
+                <div className="text-sm md:text-base lg:text-[16px] leading-relaxed" style={{
+            color: 'rgba(12, 39, 86, 0.80)',
+            fontFamily: 'Poppins',
+            lineHeight: '28px'
+        }}>
                   <p style={{ marginBottom: '16px' }}>
                     Andhra Pradesh has two legal systems for debt cases. We use both depending on situation.
                   </p>
@@ -451,26 +367,20 @@ export default function AndhraPradeshPageClient() {
               </section>
 
               <section id="vizag-vijayawada" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
+                <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 700,
+            lineHeight: '36px',
+            marginBottom: '20px'
+        }}>
                   Visakhapatnam and Vijayawada Services
                 </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
+                <div className="text-sm md:text-base lg:text-[16px] leading-relaxed" style={{
+            color: 'rgba(12, 39, 86, 0.80)',
+            fontFamily: 'Poppins',
+            lineHeight: '28px'
+        }}>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Visakhapatnam (Vizag):</strong> Port city and industrial hub. Vizag port, steel plant, shipyard, oil refineries employ thousands. Emerging IT sector in Rushikonda and VUDA areas. We’ve handled 2,500+ Vizag cases. Mix of port workers, industrial employees, IT professionals and business owners. We understand port economy cycles, industrial sector patterns and IT job market. Use this knowledge in settlement negotiations.
                   </p>
@@ -484,26 +394,20 @@ export default function AndhraPradeshPageClient() {
               </section>
 
               <section id="guntur-tirupati" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
+                <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 700,
+            lineHeight: '36px',
+            marginBottom: '20px'
+        }}>
                   Guntur, Tirupati and Regional Coverage
                 </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
+                <div className="text-sm md:text-base lg:text-[16px] leading-relaxed" style={{
+            color: 'rgba(12, 39, 86, 0.80)',
+            fontFamily: 'Poppins',
+            lineHeight: '28px'
+        }}>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Guntur:</strong> Agricultural commodity trading capital. Largest chili market in Asia, major cotton and tobacco trading. Thousands of commission agents, traders and warehouse owners borrow for business. We’ve handled 900+ Guntur cases. We understand mandi operations, crop cycles, commodity price volatility and trader cash flows. This helps negotiate settlements showing lenders that agricultural trading has inherent seasonal risks.
                   </p>
@@ -520,26 +424,20 @@ export default function AndhraPradeshPageClient() {
               </section>
 
               <section id="ap-advantages" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
+                <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 700,
+            lineHeight: '36px',
+            marginBottom: '20px'
+        }}>
                   Seven Key Advantages for AP Borrowers
                 </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
+                <div className="text-sm md:text-base lg:text-[16px] leading-relaxed" style={{
+            color: 'rgba(12, 39, 86, 0.80)',
+            fontFamily: 'Poppins',
+            lineHeight: '28px'
+        }}>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>1. Harassment Protection Priority:</strong> Given AP’s 41% harassment increase, we act fastest here. Legal notices within 24 hours for severe cases. Police complaint threats when needed. Harassment stops in 3-5 days.
                   </p>
@@ -547,7 +445,7 @@ export default function AndhraPradeshPageClient() {
                     <strong>2. Sector-Specific Knowledge:</strong> Port economy, agricultural trading, aquaculture, temple tourism, emerging IT. We understand AP’s diverse economy and use sector data effectively.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>3. Telugu Communication:</strong> Our AP team can handle cases in Telugu language. Documentation in regional language when needed. Helps with local lenders and courts.
+                    <strong>3. Telugu Communication:</strong> Our AP team can handle cases in Telugu language. paperwork in regional language when needed. Helps with local lenders and courts.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>4. Save 30-70% Debt:</strong> AP clients save 57% on average. That’s lakhs of rupees saved. We use NPA economics and sector proof to negotiate hard.
@@ -556,7 +454,7 @@ export default function AndhraPradeshPageClient() {
                     <strong>5. Consumer Commission Experience:</strong> We’ve filed multiple harassment cases at AP Consumer Commission. Know the system well. Can get you compensation beyond settlement.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>6. Complete Legal Process:</strong> Every settlement follows RBI rules. Proper documentation so lenders cannot return. Critical in AP where some lenders try to restart recovery after informal settlements.
+                    <strong>6. Complete Legal Process:</strong> Every settlement follows RBI rules. Proper paperwork so lenders cannot return. Critical in AP where some lenders try to restart recovery after informal settlements.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>7. Pay After Success:</strong> No upfront fees. We charge only after settlement is negotiated, documented and harassment has stopped. Our confidence in delivery.
@@ -565,26 +463,20 @@ export default function AndhraPradeshPageClient() {
               </section>
 
               <section id="protection-rights" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
+                <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 700,
+            lineHeight: '36px',
+            marginBottom: '20px'
+        }}>
                   Protection Against Harassment - Your Rights
                 </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
+                <div className="text-sm md:text-base lg:text-[16px] leading-relaxed" style={{
+            color: 'rgba(12, 39, 86, 0.80)',
+            fontFamily: 'Poppins',
+            lineHeight: '28px'
+        }}>
                   <p style={{ marginBottom: '16px' }}>
                     Know your rights as AP borrower. Laws strongly protect you from harassment:
                   </p>
@@ -613,49 +505,43 @@ export default function AndhraPradeshPageClient() {
               </section>
 
               <section id="timeline-process" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
+                <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 700,
+            lineHeight: '36px',
+            marginBottom: '20px'
+        }}>
                   Timeline and Process for AP Settlements
                 </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
+                <div className="text-sm md:text-base lg:text-[16px] leading-relaxed" style={{
+            color: 'rgba(12, 39, 86, 0.80)',
+            fontFamily: 'Poppins',
+            lineHeight: '28px'
+        }}>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Days 1-2: Urgent Contact</strong> - Call, WhatsApp us immediately if harassment is severe. We prioritize AP cases given the harassment statistics. Free confidential assessment for 30-40 minutes.
+                    <strong>Days 1-2: Urgent Contact.</strong> - Call, WhatsApp us immediately if harassment is severe. We prioritize AP cases given the harassment statistics. Free confidential assessment for 30-40 minutes.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Days 2-3: Stop Harassment</strong> - In severe AP cases, we send legal notices within 24 hours (faster than other states). Cite RBI rules, threaten police action. Harassment stops within 3-5 days.
+                    <strong>Days 2-3: Stop Harassment.</strong> - In severe AP cases, we send legal notices within 24 hours (faster than other states). Cite RBI rules, threaten police action. Harassment stops within 3-5 days.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Days 4-10: Documentation</strong> - You share loan papers, income proof, hardship documents. We analyze and build settlement case with sector-specific data.
+                    <strong>Days 4-10: paperwork.</strong> - You share loan papers, income proof, hardship documents. We analyze and build settlement case with sector-specific data.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Weeks 2-8: Negotiate</strong> - Our AP team contacts lender NPA divisions. We push for 30-70% reduction using your hardship proof and sector data. May need multiple rounds.
+                    <strong>Weeks 2-8: Negotiate.</strong> - Our AP team contacts lender NPA divisions. We push for 30-70% reduction using your hardship proof and sector data. May need multiple rounds.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Weeks 8-10: Lock Terms</strong> - Lender agrees. We get formal OTS letter. Everything legally verified before payment.
+                    <strong>Weeks 8-10: Lock Terms.</strong> - Lender agrees. We get formal OTS letter. Everything legally verified before payment.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Weeks 10-12: Payment</strong> - You arrange settlement amount. Pay directly to lender. We get receipt immediately.
+                    <strong>Weeks 10-12: Payment.</strong> - You arrange settlement amount. Pay directly to lender. We get receipt immediately.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Weeks 12-16: Close Everything</strong> - Lender has 30 days for all documents. We follow up hard. Verify credit bureau updates.
+                    <strong>Weeks 12-16: Close Everything.</strong> - Lender has 30 days for all documents. We follow up hard. Verify credit bureau updates.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>After Settlement: Monitor Protection</strong> - We stay alert for any harassment resumption (happens sometimes in AP). Immediate action if it restarts. Credit rebuilding guidance provided.
+                    <strong>After Settlement: Monitor Protection.</strong> - We stay alert for any harassment resumption (happens sometimes in AP). Immediate action if it restarts. Credit rebuilding guidance provided.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>Total time:</strong> Usually 60-110 days from first consultation to final closure for AP cases. Harassment protection starts within 3 days though.
@@ -664,26 +550,20 @@ export default function AndhraPradeshPageClient() {
               </section>
 
               <section id="vizag-success" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
+                <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 700,
+            lineHeight: '36px',
+            marginBottom: '20px'
+        }}>
                   Case Study - Vizag Port Worker Gets Relief
                 </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
+                <div className="text-sm md:text-base lg:text-[16px] leading-relaxed" style={{
+            color: 'rgba(12, 39, 86, 0.80)',
+            fontFamily: 'Poppins',
+            lineHeight: '28px'
+        }}>
                   <p style={{ marginBottom: '16px' }}>
                     <strong>The Borrower:</strong> Ravi K., age 36, logistics supervisor at Visakhapatnam port-related company. Salary ₹8 lakhs yearly. Had borrowed ₹19 lakhs total (1 personal loan for flat, 1 two-wheeler loan, 2 credit cards).
                   </p>
@@ -709,26 +589,20 @@ export default function AndhraPradeshPageClient() {
               </section>
 
               <section id="ap-consultation" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                <h2
-                  className="text-xl md:text-2xl lg:text-[32px] leading-tight"
-                  style={{
-                    color: '#0C2756',
-                    fontFamily: 'Poppins',
-                    fontWeight: 700,
-                    lineHeight: '36px',
-                    marginBottom: '20px'
-                  }}
-                >
+                <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight" style={{
+            color: '#0C2756',
+            fontFamily: 'Poppins',
+            fontWeight: 700,
+            lineHeight: '36px',
+            marginBottom: '20px'
+        }}>
                   Schedule Your Free AP Consultation
                 </h2>
-                <div
-                  className="text-sm md:text-base lg:text-[16px] leading-relaxed"
-                  style={{
-                    color: 'rgba(12, 39, 86, 0.80)',
-                    fontFamily: 'Poppins',
-                    lineHeight: '28px'
-                  }}
-                >
+                <div className="text-sm md:text-base lg:text-[16px] leading-relaxed" style={{
+            color: 'rgba(12, 39, 86, 0.80)',
+            fontFamily: 'Poppins',
+            lineHeight: '28px'
+        }}>
                   <p style={{ marginBottom: '16px' }}>
                     Suffering from loan debt and recovery harassment in Visakhapatnam, Vijayawada, Guntur or anywhere in Andhra Pradesh? You don’t need to endure this alone. Settlement is legal. RBI backs it. Harassment protection is your right.
                   </p>
@@ -736,7 +610,7 @@ export default function AndhraPradeshPageClient() {
                     Debt plus harassment destroys everything. Health collapses, family peace gone, work focus disappears, social embarrassment in Telugu communities, sleep impossible. Each day you delay, harassment continues, penalties grow, CIBIL falls more. But exit exists. Over 8,000 AP families already achieved financial freedom and harassment-free life through our services.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
-                    <strong>Act today:</strong> Free confidential consultation. No obligations, no upfront fees. Just honest assessment and immediate harassment protection plan. Our AP experts will show exactly how to stop harassment fast (within 3-5 days), cut debt 30-70% and close everything legally. We understand port work, agricultural trading, aquaculture, temple businesses - whatever your situation is.
+                    <strong>Act today:</strong> Free confidential consultation. No dues, no upfront fees. Just honest assessment and immediate harassment protection plan. Our AP experts will show exactly how to stop harassment fast (within 3-5 days), cut debt 30-70% and close everything legally. We understand port work, agricultural trading, aquaculture, temple businesses - whatever your situation is.
                   </p>
                   <p style={{ marginBottom: '16px' }}>
                     Financial troubles are temporary problems. But unresolved debt and continuing harassment can destroy years of your life. With our legal team, AP knowledge and 8,000+ case experience, you can end both debt and harassment properly. Don’t suffer anymore. Take action now.
@@ -753,36 +627,24 @@ export default function AndhraPradeshPageClient() {
         <section className="w-full py-12" id="faqs" style={{ scrollMarginTop: '100px' }}>
           <div className="w-full max-w-7xl mx-auto px-4">
             <div className="flex flex-col items-center gap-8 md:gap-14">
-              <FAQWithSchema
-                faqs={faqs}
-                title="Personal Loan Settlement in Andhra Pradesh"
-              />
+              <FAQWithSchema faqs={faqs} title="Personal Loan Settlement in Andhra Pradesh"/>
 
-              <div
-                className="flex justify-center items-center w-full rounded-xl px-3 py-8 md:py-[63px]"
-                style={{
-                  background: 'linear-gradient(180deg, rgba(191, 238, 255, 0.50) 27.61%, #007AFF 100%)',
-                  boxShadow: '0 5px 16px 0 rgba(0, 0, 0, 0.15)'
-                }}
-              >
+              <div className="flex justify-center items-center w-full rounded-xl px-3 py-8 md:py-[63px]" style={{
+            background: 'linear-gradient(180deg, rgba(191, 238, 255, 0.50) 27.61%, #007AFF 100%)',
+            boxShadow: '0 5px 16px 0 rgba(0, 0, 0, 0.15)'
+        }}>
                 <div className="flex flex-col items-center gap-[35px] w-full max-w-[644px]">
                   <div className="flex flex-col items-center gap-[28px] w-full">
-                    <h2
-                      className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full"
-                      style={{ color: '#0C2756' }}
-                    >
+                    <h2 className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full" style={{ color: '#0C2756' }}>
                       Ready to Stop Harassment and Clear Debt in AP?
                     </h2>
-                    <p
-                      className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full"
-                      style={{ color: 'rgba(12, 39, 86, 0.70)' }}
-                    >
+                    <p className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full" style={{ color: 'rgba(12, 39, 86, 0.70)' }}>
                       Join 8,000+ AP families who got harassment-free and debt-free. Urgent protection available. Free consultation, no upfront fees.
                     </p>
                   </div>
 
                   <CTAButton>
-                    Get Your Free Consultation Now
+                    Get Your Free Consultation Now.
                   </CTAButton>
                 </div>
               </div>
@@ -794,10 +656,5 @@ export default function AndhraPradeshPageClient() {
       <div style={{ marginTop: '100px' }}>
         <Footer />
       </div>
-    </div>
-  );
+    </div>);
 }
-
-
-
-
