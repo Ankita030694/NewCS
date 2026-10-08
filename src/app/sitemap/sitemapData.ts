@@ -7,6 +7,11 @@ export interface SitemapLink {
 // Auto-generated hardcoded query-based pages sorted in descending order of git creation date (latest first)
 export const sitemapLinks: SitemapLink[] = [
   {
+    title: "Personal Loan Settlement in India: 2026 Master Guide & Legal Protection",
+    href: "/services/personal-loan-settlement",
+    date: "08-10-2026",
+  },
+  {
     title: "Loan Settlement in India: RBI Rules, Process & CIBIL Guide",
     href: "/loan-settlement",
     date: "07-10-2026",

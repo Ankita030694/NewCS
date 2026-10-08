@@ -512,9 +512,9 @@ export default function LoanSettlementPageClient() {
                 <div className="w-7 h-7 rounded-lg bg-blue-500/20 flex items-center justify-center mx-auto mb-2 text-blue-300 text-sm">
                   ⚖️
                 </div>
-                <h4 className="font-bold text-xs mb-1">Harassment Help</h4>
+                <h4 className="font-bold text-xs mb-1">Multi-Debt Shield</h4>
                 <p className="text-[10px] text-blue-200 mb-3 leading-snug">
-                  Immediate legal defense against calls and notices.
+                  Direct advocate intervention freezing recovery action across all lenders.
                 </p>
                 <Link
                   href="/contact"
@@ -875,8 +875,8 @@ export default function LoanSettlementPageClient() {
                         Strictly Prohibited Illegal Conduct
                       </h3>
                       <ul className="space-y-1.5 text-rose-800 list-disc pl-4">
-                        <li>Calling before 8:00 AM or after 7:00 PM.</li>
-                        <li>Using abusive, threatening, or vulgar language.</li>
+                        <li>Initiating recovery communications outside the permissible 8:00 AM to 7:00 PM statutory window.</li>
+                        <li>Resorting to defamatory, abusive, or emotionally intimidating remarks during calls.</li>
                         <li>Contacting friends, relatives, neighbours, or workplace employers.</li>
                         <li>Visiting residence/workplace without prior notice or creating public scenes.</li>
                         <li>Falsely claiming to be police officers, court bailiffs, or CBI officials.</li>
@@ -1512,9 +1512,9 @@ export default function LoanSettlementPageClient() {
                 <span className="w-8 h-8 rounded-full bg-blue-100 text-blue-600 inline-flex items-center justify-center text-sm mb-2">
                   🛡️
                 </span>
-                <h4 className="font-bold text-xs text-gray-900 mb-1">Stop Harassment</h4>
+                <h4 className="font-bold text-xs text-gray-900 mb-1">Halt Multi-Loan Calls</h4>
                 <p className="text-[10px] text-gray-600 mb-3 leading-tight">
-                  Legal notices stop illegal calls within 24–48 hrs.
+                  Official advocate notices shield your family from cross-lender recovery pressure within 24 hrs.
                 </p>
                 <Link 
                   href="/contact"
@@ -1531,9 +1531,9 @@ export default function LoanSettlementPageClient() {
 
               {/* OTS Calculator Quick Jump Badge */}
               <div className="p-3 bg-slate-50 border border-slate-200 rounded-xl text-xs space-y-1 text-slate-700">
-                <span className="font-bold text-slate-900 block text-[11px]">OTS Calculator</span>
-                <p className="text-[10px] text-slate-500 leading-tight">Estimate your settlement amount under RBI compromise rules.</p>
-                <a href="#settlement-calculator" className="text-[10px] text-blue-600 font-semibold block pt-1 hover:underline">Calculate Savings ↓</a>
+                <span className="font-bold text-slate-900 block text-[11px]">Composite Debt Calculator</span>
+                <p className="text-[10px] text-slate-500 leading-tight">Simulate potential compromise waivers across all your active loans and bank cards.</p>
+                <a href="#settlement-calculator" className="text-[10px] text-blue-600 font-semibold block pt-1 hover:underline">Estimate Combined Relief ↓</a>
               </div>
 
             </div>

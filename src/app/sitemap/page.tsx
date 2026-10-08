@@ -14,6 +14,10 @@ export const metadata: Metadata = {
 
 const sitemapLinks = [
   {
+    "title": "Personal Loan Settlement in India: 2026 Master Guide & Legal Protection",
+    "href": "/services/personal-loan-settlement"
+  },
+  {
     "title": "Loan Settlement in India: RBI Rules, Process & CIBIL Guide",
     "href": "/loan-settlement"
   },
