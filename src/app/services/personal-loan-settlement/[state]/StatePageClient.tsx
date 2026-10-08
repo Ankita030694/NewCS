@@ -1,7 +1,7 @@
-import { getShortStateName } from '@/lib/seo-utils';
 'use client';
 
 import { useEffect, useState } from 'react';
+import { getShortStateName } from '@/lib/seo-utils';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FAQWithSchema from '@/components/FAQWithSchema';

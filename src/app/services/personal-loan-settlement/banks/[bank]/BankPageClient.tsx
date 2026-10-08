@@ -9,7 +9,6 @@ import CTAButton from '@/components/CTAButton';
 import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import { BankContent } from '../../banks-content';
 import { getShortBankName, getBankH2Title } from '@/lib/seo-utils';
-import { getShortBankName } from '../../bank-content-generator';
 
 interface BankPageClientProps {
   content: BankContent;

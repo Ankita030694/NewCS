@@ -1,7 +1,6 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getBankContentWithFallback, getBankH2Title, generateBankSlug, getShortBankName, getAllBankSlugs } from '../../banks-content';
-import { getShortBankName } from '../../bank-content-generator';
 import { sanitizeMetaTitle, sanitizeMetaDescription } from '@/lib/seo-utils';
 import BankPageClient from './BankPageClient';
 
