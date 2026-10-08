@@ -474,7 +474,6 @@ export default function PersonalLoanAfterDeathClient() {
 
                 <div className="bg-slate-900 text-white p-4 rounded-xl font-mono text-xs md:text-sm overflow-x-auto leading-relaxed">
                   <div className="text-emerald-400 font-bold mb-1"> // Mathematical Upper Bound of Legal Heir Exposure:</div>
-    // Mathematical Upper Bound of Legal Heir Exposure:</div>
                   <div className="text-slate-100">
                     Net Legal Heir Liability = Min ( Outstanding Bank Debt, Inherited Estate NAV )
                   </div>
