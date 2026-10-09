@@ -34,11 +34,40 @@ const OPTIMIZED_TITLES: Record<string, string> = {
   "how-to-settle-your-bank-loan-in-india": "How to Settle Bank Loan in India | Legal Guide",
   "icici-bank-credit-card-settlement-a-complete-guide-to-resolving-your-debt": "ICICI Credit Card Settlement Guide",
   "indusind-bank-credit-card-settlement-the-smart-way-to-reduce-your-debt": "IndusInd Bank Credit Card Settlement Guide",
-  "loan-settlement-in-24-hours": "Loan Settlement in 24 Hours | Fast & Legal",
+  "loan-settlement-in-24-hours": "Loan Settlement in 24 Hours: Fast Legal Relief Guide",
   "one-card-credit-card-repayment-smart-ways-to-clear-your-debt-faster": "One Card Repayment: Clear Debt Faster",
   "recovery-agents-gone-rogue-unveiling-the-limits-they-break-and-your-rbi-backed-defences": "Recovery Agents Rogue: Your RBI Defences",
   "sbi-credit-card-debt-relief-smart-strategies-to-reduce-your-financial-burden": "SBI Credit Card Debt Relief Strategies",
-  "the-ultimate-guide-to-loan-settlement-how-to-settle-credit-card-and-personal-loan-debt": "Ultimate Guide to Loan Settlement"
+  "the-ultimate-guide-to-loan-settlement-how-to-settle-credit-card-and-personal-loan-debt": "Ultimate Guide to Loan Settlement",
+  "understanding-ots-full-form-financial-impact": "Understanding OTS Full Form: Financial Impact & Relief",
+  "loan-settlement-in-march-closing-guide": "Loan Settlement in March: Bank Closing & Relief Guide",
+  "debt-settlement-vs-paying-minimum-dues-long-term-impact": "Debt Settlement vs Minimum Dues: Long-Term Impact Guide",
+  "2026-debt-settlement-masterclass": "2026 Debt Settlement Masterclass: Complete Legal Guide",
+  "why-hiring-a-loan-settlement-lawyer-can-save-you-time-and-money": "Why Hiring a Loan Settlement Lawyer Saves Time & Money",
+  "file-rbi-ombudsman-complaint-bank-harassment-2026": "File RBI Ombudsman Complaint for Bank Harassment 2026",
+  "clear-loans-solutions-expert-settlement-advice-from-a-trusted-loan-repayment-company": "Clear Loans Solutions: Trusted Loan Settlement Guide"
+};
+
+const OPTIMIZED_H1S: Record<string, string> = {
+  "loan-settlement-in-24-hours": "Loan Settlement in 24 Hours: Fast & Legal Resolution",
+  "understanding-ots-full-form-financial-impact": "Understanding OTS Full Form and Its Financial Impact",
+  "loan-settlement-in-march-closing-guide": "Closing Your Loan Settlement in March: Essential Guide",
+  "debt-settlement-vs-paying-minimum-dues-long-term-impact": "Debt Settlement vs Paying Minimum Dues: Long-Term Impact",
+  "2026-debt-settlement-masterclass": "The 2026 Debt Settlement Masterclass: Strategic Guide",
+  "why-hiring-a-loan-settlement-lawyer-can-save-you-time-and-money": "Why Hiring a Loan Settlement Lawyer Can Save You Time and Money",
+  "file-rbi-ombudsman-complaint-bank-harassment-2026": "How to File an RBI Ombudsman Complaint for Bank Harassment",
+  "clear-loans-solutions-expert-settlement-advice-from-a-trusted-loan-repayment-company": "Clear Loans Solutions: Expert Debt Settlement Advice"
+};
+
+const OPTIMIZED_DESCRIPTIONS: Record<string, string> = {
+  "understanding-ots-full-form-financial-impact": "Understand OTS full form, RBI settlement guidelines, and financial impacts. Learn how to settle debt legally with CredSettle and stop bank harassment.",
+  "loan-settlement-in-march-closing-guide": "Learn how March financial year-end impacts bank loan settlement waivers. Settle outstanding debts legally with CredSettle and secure formal closure.",
+  "loan-settlement-in-24-hours": "Can you get loan settlement in 24 hours? Learn legal debt relief timelines, RBI settlement steps, and how CredSettle stops recovery harassment fast.",
+  "debt-settlement-vs-paying-minimum-dues-long-term-impact": "Compare debt settlement vs paying minimum dues on credit cards. Understand interest traps, credit score impacts, and legal relief options with CredSettle.",
+  "2026-debt-settlement-masterclass": "Master debt settlement in India with our 2026 comprehensive guide. Learn negotiation strategies, RBI protections, and legal waivers with CredSettle.",
+  "why-hiring-a-loan-settlement-lawyer-can-save-you-time-and-money": "Hire a loan settlement lawyer to save time, reduce bank debt, and stop harassment. Explore legal debt resolution and creditor negotiation with CredSettle.",
+  "file-rbi-ombudsman-complaint-bank-harassment-2026": "File an RBI Ombudsman complaint against bank harassment in 2026. Learn legal complaint steps, borrower rights, and debt settlement solutions with CredSettle.",
+  "clear-loans-solutions-expert-settlement-advice-from-a-trusted-loan-repayment-company": "Explore clear loan settlement solutions with CredSettle. Settle debt legally, reduce burden, stop recovery agent calls, and book a free advisor call today."
 };
 
 const getValidDescription = (blog: { metaDescription?: string; subtitle?: string; description: string; title: string }) => {
@@ -118,10 +147,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   const canonicalSlug = canonicaliseSlug(blog.slug || generateSlugFromTitle(blog.title) || slug);
   const canonicalUrl = `https://www.credsettle.com/resources/${canonicalSlug}`;
-  const descriptionFallback = getValidDescription(blog);
+  const descriptionFallback = OPTIMIZED_DESCRIPTIONS[canonicalSlug] || OPTIMIZED_DESCRIPTIONS[slug] || getValidDescription(blog);
 
   const DEFAULT_META_TITLE = 'CredSettle Blog | Expert Debt Relief Insights';
   const optimizedTitle = OPTIMIZED_TITLES[canonicalSlug] || OPTIMIZED_TITLES[slug];
+  const optimizedH1 = OPTIMIZED_H1S[canonicalSlug] || OPTIMIZED_H1S[slug];
+  const h1Text = (optimizedH1 || blog.title).replace(/[—–]/g, '-').trim();
 
   const rawTitle =
     optimizedTitle ||
@@ -129,10 +160,18 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       ? blog.metaTitle
       : blog.title);
 
-  let effectiveTitle = rawTitle.trim();
-  if (effectiveTitle.length < 30) {
+  let effectiveTitle = rawTitle.replace(/[—–]/g, '-').trim();
+
+  // Ensure title is strictly distinct from H1 (Mistake 4)
+  if (effectiveTitle.toLowerCase() === h1Text.toLowerCase()) {
+    if (effectiveTitle.length <= 48) {
+      effectiveTitle = `${effectiveTitle} | Relief`;
+    }
+  }
+
+  if (effectiveTitle.length < 50) {
     const withBrand = `${effectiveTitle} | CredSettle`;
-    if (withBrand.length <= 60) {
+    if (withBrand.length <= 60 && withBrand.length >= 30) {
       effectiveTitle = withBrand;
     }
   }
@@ -184,10 +223,14 @@ export default async function BlogPostPage({ params }: PageProps) {
   const relatedBlogs = await getRelatedBlogs(canonicalSlug, 3);
   const reviews = await getBlogReviews(blog.id);
 
+  const optimizedH1 = OPTIMIZED_H1S[canonicalSlug] || OPTIMIZED_H1S[slug];
+  const effectiveH1 = (optimizedH1 || blog.title).replace(/[—–]/g, '-').trim();
+
   const clientBlog = {
     id: blog.id,
-    title: blog.title,
-    subtitle: blog.subtitle,
+    title: effectiveH1,
+    rawTitle: blog.title,
+    subtitle: blog.subtitle ? blog.subtitle.replace(/[—–]/g, '-') : blog.subtitle,
     date: blog.date,
     image: blog.image,
     infographic: blog.infographic,

@@ -27,6 +27,7 @@ type BlogPost = {
   slug: string;
   keyTakeaways?: string[];
   popularSearches?: string[];
+  rawTitle?: string;
 };
 
 type RelatedBlog = {
@@ -206,9 +207,114 @@ type ProcessedDescriptionResult = {
   headings: Heading[];
 };
 
-const processDescription = (html: string): ProcessedDescriptionResult => {
+const normalizeForComparison = (str?: string): string => {
+  if (!str) return '';
+  return str
+    .replace(/<[^>]*>/g, '')
+    .replace(/[\s\u200B-\u200D\uFEFF]+/g, ' ')
+    .replace(/[—–:-]/g, '')
+    .trim()
+    .toLowerCase();
+};
+
+const processDescription = (
+  html: string,
+  blogTitle: string = '',
+  rawTitle: string = ''
+): ProcessedDescriptionResult => {
+  const normTitle = normalizeForComparison(blogTitle);
+  const normRawTitle = normalizeForComparison(rawTitle);
+
+  // 1. Strictly enforce single H1 on page:
+  // If an <h1> in html duplicates the blog title, remove it.
+  // Otherwise, demote it to <h2>.
+  let cleanedHtml = html.replace(/<h1(\s[^>]*)?>([\s\S]*?)<\/h1>/gi, (match, attrs = '', content) => {
+    const text = content.replace(/<[^>]*>/g, '').replace(/[\s\u200B-\u200D\uFEFF]+/g, ' ').trim();
+    const normText = normalizeForComparison(text);
+
+    if (
+      (normTitle && normText === normTitle) ||
+      (normRawTitle && normText === normRawTitle) ||
+      (normTitle && normText.length > 10 && normTitle.includes(normText)) ||
+      (normText.length > 10 && normTitle && normText.includes(normTitle))
+    ) {
+      return '';
+    }
+    return `<h2${attrs}>${content}</h2>`;
+  });
+
+  // 2. Remove forbidden em-dashes (—) and en-dashes (–) from headings (Mistake 2)
+  cleanedHtml = cleanedHtml.replace(/(<h[2-6][^>]*>)([\s\S]*?)(<\/h[2-6]>)/gi, (m, openTag, inner, closeTag) => {
+    const cleanInner = inner.replace(/[—–]/g, '-').replace(/&mdash;|&ndash;/g, '-');
+    return `${openTag}${cleanInner}${closeTag}`;
+  });
+
+  // 3. Fix non-descriptive anchor text in internal outlinks (e.g., 'click here', 'learn more')
+  const NON_DESCRIPTIVE_ANCHOR_REGEX =
+    /^(click\s*here|click\s*this|click|here|read\s*more|learn\s*more|more|link|this\s*link|view\s*more|check\s*here|read\s*here|find\s*out\s*more|details|info|continue\s*reading|continue|website|page|source|url|go\s*here|go)$/i;
+
+  const getDescriptiveAnchorText = (href: string): string => {
+    const cleanHref = href.toLowerCase().trim();
+    if (
+      cleanHref === '/' ||
+      cleanHref === 'https://www.credsettle.com' ||
+      cleanHref === 'https://www.credsettle.com/' ||
+      cleanHref === 'http://www.credsettle.com' ||
+      cleanHref === 'http://www.credsettle.com/'
+    ) {
+      return 'Explore CredSettle loan settlement solutions';
+    }
+    if (cleanHref.includes('/contact') || cleanHref.includes('/form')) {
+      return 'Schedule a free consultation with CredSettle advisors';
+    }
+    if (cleanHref.includes('/services/personal-loan-settlement')) {
+      return 'Explore personal loan settlement services';
+    }
+    if (cleanHref.includes('/services/credit-card-settlement')) {
+      return 'Explore credit card settlement services';
+    }
+    if (cleanHref.includes('/services/business-loan-settlement')) {
+      return 'Explore business loan settlement services';
+    }
+    if (cleanHref.includes('/services/car-loan-settlement')) {
+      return 'Explore car loan settlement services';
+    }
+    if (cleanHref.includes('/services/anti-harassment')) {
+      return 'Get legal protection against recovery harassment';
+    }
+    if (cleanHref.includes('/services/credit-score-builder')) {
+      return 'Improve credit score with CredSettle';
+    }
+    if (cleanHref.includes('/services')) {
+      return 'Explore CredSettle debt relief services';
+    }
+    if (cleanHref.includes('/resources')) {
+      return 'Read comprehensive loan settlement resources';
+    }
+    if (cleanHref.includes('/about')) {
+      return 'Learn more about CredSettle legal advisory';
+    }
+    return 'Explore CredSettle debt resolution solutions';
+  };
+
+  cleanedHtml = cleanedHtml.replace(/<a(\s[^>]*)?>([\s\S]*?)<\/a>/gi, (match, attrs = '', content) => {
+    const rawText = content.replace(/<[^>]*>/g, '').replace(/[\s\u200B-\u200D\uFEFF]+/g, ' ').trim();
+    const hrefMatch = attrs.match(/href=["']([^"']*)["']/i);
+    const href = hrefMatch ? hrefMatch[1] : '';
+    const isInternal =
+      href.startsWith('/') ||
+      href.startsWith('#') ||
+      href.includes('credsettle.com');
+
+    if (isInternal && NON_DESCRIPTIVE_ANCHOR_REGEX.test(rawText.replace(/[^a-zA-Z0-9\s]/g, '').trim())) {
+      const descriptiveText = getDescriptiveAnchorText(href);
+      return `<a${attrs}>${descriptiveText}</a>`;
+    }
+    return match;
+  });
+
   const headingsList: Heading[] = [];
-  const headingRegex = /<h([2-6])([^>]*)>(.*?)<\/h[2-6]>/gi;
+  const headingRegex = /<h([2-6])([^>]*)>([\s\S]*?)<\/h[2-6]>/gi;
   const matches: Array<{
     match: RegExpExecArray;
     level: number;
@@ -220,11 +326,12 @@ const processDescription = (html: string): ProcessedDescriptionResult => {
 
   let execMatch: RegExpExecArray | null = null;
 
-  while ((execMatch = headingRegex.exec(html)) !== null) {
+  while ((execMatch = headingRegex.exec(cleanedHtml)) !== null) {
     const level = parseInt(execMatch[1], 10);
     const attrs = execMatch[2] || '';
     const content = execMatch[3];
-    const text = content.replace(/<[^>]*>/g, '').trim();
+    let text = content.replace(/<[^>]*>/g, '').replace(/[\s\u200B-\u200D\uFEFF]+/g, ' ').trim();
+    text = text.replace(/[—–]/g, '-').replace(/&mdash;|&ndash;/g, '-');
 
     if (text) {
       matches.push({ match: execMatch, level, attrs, content, text });
@@ -248,16 +355,23 @@ const processDescription = (html: string): ProcessedDescriptionResult => {
       counter += 1;
     }
 
-    headingsList.push({ id: uniqueId, text: item.text, level: item.level });
+    // Ensure H2 display text does not exceed 70 characters (Mistake 1)
+    let displayText = item.text;
+    if (item.level === 2 && displayText.length > 70) {
+      const truncated = displayText.slice(0, 67);
+      const lastSpace = truncated.lastIndexOf(' ');
+      displayText = (lastSpace > 40 ? truncated.slice(0, lastSpace) : truncated).trim() + '...';
+    }
+
+    headingsList.push({ id: uniqueId, text: displayText, level: item.level });
     item.id = uniqueId;
   });
 
-  let processedHtml = html;
+  let processedHtml = cleanedHtml;
 
   for (let i = matches.length - 1; i >= 0; i -= 1) {
     const item = matches[i];
     const originalMatch = item.match[0];
-    // RegExpExecArray in V8 includes index property; guard for TypeScript.
     const matchIndex = (item.match as RegExpExecArray & { index: number }).index;
 
     if (matchIndex === undefined || !item.id) continue;
@@ -282,8 +396,6 @@ const processDescription = (html: string): ProcessedDescriptionResult => {
 const PLACEHOLDER_BLUR_DATA_URL =
   'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwMCIgaGVpZ2h0PSI2NzAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjcwIiBmaWxsPSIjZWZmN2ZmIi8+PC9zdmc+';
 
-
-
 const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initialReviews }: BlogPostPageClientProps) => {
   const [reviews, setReviews] = useState<Review[]>(initialReviews);
   const [isPending, startTransition] = useTransition();
@@ -295,8 +407,8 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
     if (!blog.description) {
       return { processedHtml: '', headings: [] };
     }
-    return processDescription(blog.description);
-  }, [blog.description]);
+    return processDescription(blog.description, blog.title, blog.rawTitle);
+  }, [blog.description, blog.title, blog.rawTitle]);
 
   const { processedHtml, headings } = processedContent;
 
@@ -560,7 +672,7 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                 
                 <div className="flex flex-col items-start gap-3.5 pt-2 md:flex-row md:items-center md:gap-5 md:pt-3">
                   <div className="flex min-w-0 items-center gap-3">
-                    <Link href={author.href} className="flex aspect-square h-11 w-11 flex-none items-center justify-center rounded-full bg-[#004479] text-[16px] font-bold text-white overflow-hidden transition-transform hover:scale-105 shadow-sm">
+                    <Link href={author.href} aria-label="Ashish Jhangra - Author Profile" className="flex aspect-square h-11 w-11 flex-none items-center justify-center rounded-full bg-[#004479] text-[16px] font-bold text-white overflow-hidden transition-transform hover:scale-105 shadow-sm">
                       AJ
                     </Link>
                     <div className="min-w-0">
