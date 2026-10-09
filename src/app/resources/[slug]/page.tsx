@@ -39,16 +39,34 @@ const OPTIMIZED_TITLES: Record<string, string> = {
   "indusind-bank-credit-card-settlement-the-smart-way-to-reduce-your-debt": "IndusInd Bank Credit Card Settlement Guide",
   "loan-settlement-in-24-hours": "Loan Settlement in 24 Hours: Fast Legal Relief Guide",
   "one-card-credit-card-repayment-smart-ways-to-clear-your-debt-faster": "One Card Repayment: Clear Debt Faster",
+  // Old long slugs (>115 chars) — kept for safety; pages now redirect to shorter slugs below
   "recovery-agents-gone-rogue-unveiling-the-limits-they-break-and-your-rbi-backed-defences": "Recovery Agents Rogue: Your RBI Defences",
+  "the-ultimate-guide-to-loan-settlement-how-to-settle-credit-card-and-personal-loan-debt": "Complete Loan Settlement Guide: Credit Card and Loan Debt",
+  "personal-loan-credit-card-debt-settlement-how-credsettle-rescued-a-client-from-harassment": "CredSettle Debt Settlement Case Study",
+  "how-loan-settlement-and-anti-harassment-services-transformed-a-clients-life-a-real-life-success-story": "Loan Settlement Anti-Harassment Success Story",
+  // New short slug entries (URL ≤ 115 chars)
+  "loan-settlement-guide-credit-card-personal-loan-debt": "Complete Loan Settlement Guide: Credit Card and Loan Debt",
+  "recovery-agents-rogue-rbi-backed-defences": "Recovery Agents Rogue: Your RBI Defences",
+  "personal-loan-credit-card-settlement-credsettle-case-study": "CredSettle Debt Settlement Case Study",
+  "loan-settlement-anti-harassment-success-story": "Loan Settlement Anti-Harassment Success Story",
+  "clear-loans-solutions-trusted-loan-repayment-guide": "Clear Loans Solutions: Trusted Loan Settlement Guide",
   "sbi-credit-card-debt-relief-smart-strategies-to-reduce-your-financial-burden": "SBI Credit Card Debt Relief Strategies",
-  "the-ultimate-guide-to-loan-settlement-how-to-settle-credit-card-and-personal-loan-debt": "Ultimate Guide to Loan Settlement",
   "understanding-ots-full-form-financial-impact": "Understanding OTS Full Form: Financial Impact & Relief",
   "loan-settlement-in-march-closing-guide": "Loan Settlement in March: Bank Closing & Relief Guide",
   "debt-settlement-vs-paying-minimum-dues-long-term-impact": "Debt Settlement vs Minimum Dues: Long-Term Impact Guide",
   "2026-debt-settlement-masterclass": "2026 Debt Settlement Masterclass: Complete Legal Guide",
   "why-hiring-a-loan-settlement-lawyer-can-save-you-time-and-money": "Why Hiring a Loan Settlement Lawyer Saves Time & Money",
   "file-rbi-ombudsman-complaint-bank-harassment-2026": "File RBI Ombudsman Complaint for Bank Harassment 2026",
-  "clear-loans-solutions-expert-settlement-advice-from-a-trusted-loan-repayment-company": "Clear Loans Solutions: Trusted Loan Settlement Guide"
+  "clear-loans-solutions-expert-settlement-advice-from-a-trusted-loan-repayment-company": "Clear Loans Solutions: Trusted Loan Settlement Guide",
+  // Fix: Page Titles Same as H1 — 8 slugs flagged by Screaming Frog (Oct 2026)
+  "the-smart-way-to-settle-your-credit-card-dues-legally": "Legally Settle Credit Card Dues: Smart Legal Guide",
+  "stop-loan-recovery-agent-harassment-whatsapp": "Stop Recovery Agent Harassment on WhatsApp 2026",
+  "need-help-paying-credit-card": "Need Help Paying Credit Cards? Loan Settlement India",
+  "loan-settlement-vs-loan-closure-what-is-the-difference": "Loan Settlement vs Closure: Know the Key Difference",
+  "latest-developments-in-debt-settlement-regulations-in-india": "New Debt Settlement Regulations in India 2026 Guide",
+  "key-legal-strategies-for-loan-settlement-in-india": "Key Legal Loan Settlement Strategies in India 2026",
+  "how-to-legally-settle-your-loan-in-india-without-harassment": "Legally Settle Loans in India: Stop Bank Harassment",
+  "cibil-score-after-loan-settlement-how-to-improve-it": "Boost CIBIL Score After Loan Settlement: Tips India",
 };
 
 const OPTIMIZED_H1S: Record<string, string> = {
@@ -65,7 +83,27 @@ const OPTIMIZED_H1S: Record<string, string> = {
   "2026-debt-settlement-masterclass": "The 2026 Debt Settlement Masterclass: Strategic Guide",
   "why-hiring-a-loan-settlement-lawyer-can-save-you-time-and-money": "Why Hiring a Loan Settlement Lawyer Can Save You Time and Money",
   "file-rbi-ombudsman-complaint-bank-harassment-2026": "How to File an RBI Ombudsman Complaint for Bank Harassment",
-  "clear-loans-solutions-expert-settlement-advice-from-a-trusted-loan-repayment-company": "Clear Loans Solutions: Expert Debt Settlement Advice"
+  "clear-loans-solutions-expert-settlement-advice-from-a-trusted-loan-repayment-company": "Clear Loans Solutions: Expert Debt Settlement Advice",
+  // Old long slugs (>115 chars) — redirected to new short slugs
+  "the-ultimate-guide-to-loan-settlement-how-to-settle-credit-card-and-personal-loan-debt": "Ultimate Guide to Settling Credit Card and Loan Debt",
+  "recovery-agents-gone-rogue-unveiling-the-limits-they-break-and-your-rbi-backed-defences": "Recovery Agents Gone Rogue: Know Your RBI Defences",
+  "personal-loan-credit-card-debt-settlement-how-credsettle-rescued-a-client-from-harassment": "CredSettle Case Study: Debt Settlement and Anti-Harassment",
+  "how-loan-settlement-and-anti-harassment-services-transformed-a-clients-life-a-real-life-success-story": "How Loan Settlement Transformed a Client Life",
+  // New short slug H1 entries (URL ≤ 115 chars)
+  "loan-settlement-guide-credit-card-personal-loan-debt": "Ultimate Guide to Settling Credit Card and Loan Debt",
+  "recovery-agents-rogue-rbi-backed-defences": "Recovery Agents Gone Rogue: Know Your RBI Defences",
+  "personal-loan-credit-card-settlement-credsettle-case-study": "CredSettle Case Study: Debt Settlement and Anti-Harassment",
+  "loan-settlement-anti-harassment-success-story": "How Loan Settlement Transformed a Client Life",
+  "clear-loans-solutions-trusted-loan-repayment-guide": "Clear Loans Solutions: Expert Debt Settlement Advice",
+  // Fix: Page Titles Same as H1 — distinct H1s for 8 slugs (Oct 2026)
+  "the-smart-way-to-settle-your-credit-card-dues-legally": "The Smart Way to Settle Your Credit Card Dues Legally",
+  "stop-loan-recovery-agent-harassment-whatsapp": "Stop Loan Recovery Agent Harassment on WhatsApp 2026",
+  "need-help-paying-credit-card": "Loan Settlement in India - Need Help Paying Credit Cards",
+  "loan-settlement-vs-loan-closure-what-is-the-difference": "Loan Settlement vs Loan Closure: What Is the Difference",
+  "latest-developments-in-debt-settlement-regulations-in-india": "Latest Developments in Debt Settlement Regulations in India",
+  "key-legal-strategies-for-loan-settlement-in-india": "Key Legal Strategies for Loan Settlement in India",
+  "how-to-legally-settle-your-loan-in-india-without-harassment": "How to Legally Settle Your Loan in India Without Harassment",
+  "cibil-score-after-loan-settlement-how-to-improve-it": "CIBIL Score After Loan Settlement: How to Improve It",
 };
 
 const OPTIMIZED_DESCRIPTIONS: Record<string, string> = {
@@ -83,7 +121,18 @@ const OPTIMIZED_DESCRIPTIONS: Record<string, string> = {
   "2026-debt-settlement-masterclass": "Master debt settlement in India with our 2026 comprehensive guide. Learn negotiation strategies, RBI protections, and legal waivers with CredSettle.",
   "why-hiring-a-loan-settlement-lawyer-can-save-you-time-and-money": "Hire a loan settlement lawyer to save time, reduce bank debt, and stop harassment. Explore legal debt resolution and relief with CredSettle.",
   "clear-loans-solutions-expert-settlement-advice-from-a-trusted-loan-repayment-company": "Explore clear loan settlement solutions with CredSettle. Settle debt legally, reduce burden, stop recovery calls, and book a free advisor call today.",
-  "a-complete-guide-to-loan-settlement-in-india-how-to-become-debt-free": "Facing financial hardship? Learn how the legal loan settlement process in India helps reduce debt, stop bank harassment, and become debt-free easily."
+  "a-complete-guide-to-loan-settlement-in-india-how-to-become-debt-free": "Facing financial hardship? Learn how the legal loan settlement process in India helps reduce debt, stop bank harassment, and become debt-free easily.",
+  // Old long slugs (>115 chars) — kept for safety during redirect transition
+  "the-ultimate-guide-to-loan-settlement-how-to-settle-credit-card-and-personal-loan-debt": "Settle credit card and personal loan debt legally in India. Learn the loan settlement process, RBI rights, and relief options with CredSettle.",
+  "recovery-agents-gone-rogue-unveiling-the-limits-they-break-and-your-rbi-backed-defences": "Know your RBI-backed rights when recovery agents cross the line. Learn legal limits, complaint steps, and harassment defences with CredSettle.",
+  "personal-loan-credit-card-debt-settlement-how-credsettle-rescued-a-client-from-harassment": "See how CredSettle rescued a client from loan harassment. Learn how debt settlement stops recovery agents and resolves outstanding dues legally.",
+  "how-loan-settlement-and-anti-harassment-services-transformed-a-clients-life-a-real-life-success-story": "Read how CredSettle transformed a client life using loan settlement and anti-harassment services. Real results, legal protection, and debt relief.",
+  // New short slug descriptions (URL ≤ 115 chars)
+  "loan-settlement-guide-credit-card-personal-loan-debt": "Settle credit card and personal loan debt legally in India. Learn the loan settlement process, RBI rights, and relief options with CredSettle.",
+  "recovery-agents-rogue-rbi-backed-defences": "Know your RBI-backed rights when recovery agents cross the line. Learn legal limits, complaint steps, and harassment defences with CredSettle.",
+  "personal-loan-credit-card-settlement-credsettle-case-study": "See how CredSettle rescued a client from loan harassment. Learn how debt settlement stops recovery agents and resolves outstanding dues legally.",
+  "loan-settlement-anti-harassment-success-story": "Read how CredSettle transformed a client life using loan settlement and anti-harassment services. Real results, legal protection, and debt relief.",
+  "clear-loans-solutions-trusted-loan-repayment-guide": "Explore clear loan solutions with CredSettle. Settle debt legally, reduce burden, stop recovery calls, and book a free advisor call today online.",
 };
 
 const getValidDescription = (blog: { metaDescription?: string; subtitle?: string; description: string; title: string }) => {
