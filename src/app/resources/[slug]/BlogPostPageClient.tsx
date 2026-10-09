@@ -217,6 +217,47 @@ const normalizeForComparison = (str?: string): string => {
     .toLowerCase();
 };
 
+const formatH2Text = (rawText: string, maxLength: number = 65): string => {
+  let cleaned = rawText
+    .replace(/<[^>]*>/g, '')
+    .replace(/[\s\u200B-\u200D\uFEFF]+/g, ' ')
+    .replace(/[—–]/g, '-')
+    .replace(/&mdash;|&ndash;/g, '-')
+    .trim();
+
+  if (cleaned.length <= maxLength) {
+    return cleaned;
+  }
+
+  // If heading contains a colon, check if the first part is informative (30 to maxLength chars)
+  if (cleaned.includes(':')) {
+    const [prefix] = cleaned.split(':');
+    const trimmedPrefix = prefix.trim();
+    if (trimmedPrefix.length >= 30 && trimmedPrefix.length <= maxLength) {
+      return trimmedPrefix;
+    }
+  }
+
+  // If heading contains a dash separator, check if first part works
+  if (cleaned.includes(' - ')) {
+    const [prefix] = cleaned.split(' - ');
+    const trimmedPrefix = prefix.trim();
+    if (trimmedPrefix.length >= 30 && trimmedPrefix.length <= maxLength) {
+      return trimmedPrefix;
+    }
+  }
+
+  // Truncate cleanly at word boundary
+  const slice = cleaned.slice(0, maxLength);
+  const lastSpace = slice.lastIndexOf(' ');
+  let result = (lastSpace > 35 ? slice.slice(0, lastSpace) : slice).trim();
+
+  // Strip trailing punctuation like comma, colon, dash, semicolon
+  result = result.replace(/[,;:\-\s]+$/, '');
+
+  return result;
+};
+
 const processDescription = (
   html: string,
   blogTitle: string = '',
@@ -225,22 +266,35 @@ const processDescription = (
   const normTitle = normalizeForComparison(blogTitle);
   const normRawTitle = normalizeForComparison(rawTitle);
 
-  // 1. Strictly enforce single H1 on page:
+  const isDuplicateOfTitle = (text: string) => {
+    const normText = normalizeForComparison(text);
+    if (!normText) return false;
+    return Boolean(
+      (normTitle && normText === normTitle) ||
+      (normRawTitle && normText === normRawTitle) ||
+      (normTitle && normText.length > 10 && (normTitle.includes(normText) || normText.includes(normTitle))) ||
+      (normRawTitle && normText.length > 10 && (normRawTitle.includes(normText) || normText.includes(normRawTitle)))
+    );
+  };
+
+  // 1. Strictly enforce single H1 on page & remove duplicate titles:
   // If an <h1> in html duplicates the blog title, remove it.
   // Otherwise, demote it to <h2>.
   let cleanedHtml = html.replace(/<h1(\s[^>]*)?>([\s\S]*?)<\/h1>/gi, (match, attrs = '', content) => {
     const text = content.replace(/<[^>]*>/g, '').replace(/[\s\u200B-\u200D\uFEFF]+/g, ' ').trim();
-    const normText = normalizeForComparison(text);
-
-    if (
-      (normTitle && normText === normTitle) ||
-      (normRawTitle && normText === normRawTitle) ||
-      (normTitle && normText.length > 10 && normTitle.includes(normText)) ||
-      (normText.length > 10 && normTitle && normText.includes(normTitle))
-    ) {
+    if (isDuplicateOfTitle(text)) {
       return '';
     }
     return `<h2${attrs}>${content}</h2>`;
+  });
+
+  // Also remove any <h2> in html that duplicates the post title (Mistake 4 & Mistake 1)
+  cleanedHtml = cleanedHtml.replace(/<h2(\s[^>]*)?>([\s\S]*?)<\/h2>/gi, (match, attrs = '', content) => {
+    const text = content.replace(/<[^>]*>/g, '').replace(/[\s\u200B-\u200D\uFEFF]+/g, ' ').trim();
+    if (isDuplicateOfTitle(text)) {
+      return '';
+    }
+    return match;
   });
 
   // 2. Remove forbidden em-dashes (—) and en-dashes (–) from headings (Mistake 2)
@@ -322,6 +376,7 @@ const processDescription = (
     content: string;
     text: string;
     id?: string;
+    displayText?: string;
   }> = [];
 
   let execMatch: RegExpExecArray | null = null;
@@ -337,6 +392,8 @@ const processDescription = (
       matches.push({ match: execMatch, level, attrs, content, text });
     }
   }
+
+  const seenH2Texts = new Set<string>();
 
   matches.forEach((item, index) => {
     let id = item.text
@@ -355,16 +412,27 @@ const processDescription = (
       counter += 1;
     }
 
-    // Ensure H2 display text does not exceed 70 characters (Mistake 1)
+    // Ensure H2 display text does not exceed 70 characters (target 45-65 chars) & is 100% unique (Mistake 1 & 3)
     let displayText = item.text;
-    if (item.level === 2 && displayText.length > 70) {
-      const truncated = displayText.slice(0, 67);
-      const lastSpace = truncated.lastIndexOf(' ');
-      displayText = (lastSpace > 40 ? truncated.slice(0, lastSpace) : truncated).trim() + '...';
+    if (item.level === 2) {
+      if (displayText.length > 70) {
+        displayText = formatH2Text(displayText, 65);
+      }
+      let uniqueText = displayText;
+      let dupCounter = 1;
+      while (seenH2Texts.has(uniqueText.toLowerCase())) {
+        dupCounter += 1;
+        const suffix = ` (${dupCounter})`;
+        const base = formatH2Text(displayText, 65 - suffix.length);
+        uniqueText = `${base}${suffix}`;
+      }
+      seenH2Texts.add(uniqueText.toLowerCase());
+      displayText = uniqueText;
     }
 
     headingsList.push({ id: uniqueId, text: displayText, level: item.level });
     item.id = uniqueId;
+    item.displayText = displayText;
   });
 
   let processedHtml = cleanedHtml;
@@ -376,10 +444,13 @@ const processDescription = (
 
     if (matchIndex === undefined || !item.id) continue;
 
-    const hasIdAttr = item.attrs.includes('id=');
-    const replacement = hasIdAttr
-      ? originalMatch
-      : `<h${item.level} id="${item.id}"${item.attrs}>${item.content}</h${item.level}>`;
+    const attrsWithoutId = item.attrs.replace(/\sid=["'][^"']*["']/gi, '').trim();
+    const attrsStr = attrsWithoutId ? ` ${attrsWithoutId}` : '';
+    const finalContent = item.level === 2
+      ? (item.displayText || formatH2Text(item.text, 65))
+      : item.content.replace(/[—–]/g, '-').replace(/&mdash;|&ndash;/g, '-');
+
+    const replacement = `<h${item.level} id="${item.id}"${attrsStr}>${finalContent}</h${item.level}>`;
 
     processedHtml =
       processedHtml.substring(0, matchIndex) +

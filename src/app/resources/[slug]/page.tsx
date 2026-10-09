@@ -24,7 +24,10 @@ const IGNORED_DESCRIPTIONS = [
 const OPTIMIZED_TITLES: Record<string, string> = {
   "a-complete-guide-to-loan-settlement-in-india-how-to-become-debt-free": "Complete Guide to Loan Settlement in India",
   "best-loan-settlement-debt-relief-solutions-how-to-settle-your-debt-easily": "Best Loan Settlement & Debt Relief Solutions",
-  "dealing-with-recovery-agents-know-your-rights-and-how-to-handle-them": "Dealing with Recovery Agents: Rights & Tips",
+  "dealing-with-recovery-agents-know-your-rights-and-how-to-handle-them": "Dealing with Recovery Agents: Know Your Rights in India",
+  "debt-settlement-vs-debt-consolidation": "Debt Settlement vs Debt Consolidation: Key Differences",
+  "car-loan-settlement-process-a-comprehensive-guide": "Car Loan Settlement Process: Complete Legal Guide",
+  "bank-loan-settlement-rules-a-complete-guide-for-borrowers": "Bank Loan Settlement Rules: Complete Guide for Borrowers",
   "escape-debt-stress-the-best-debt-settlement-and-relief-programs-in-2025": "Best Debt Settlement Programs in 2025",
   "hdfc-credit-card-settlement-procedure-and-recourse-against-recovery-agents": "HDFC Credit Card Settlement Procedure & Tips",
   "how-lawyer-and-expert-panels-efficiently-handle-multi-bank-loan-settlements": "Expert Panels for Multi-Bank Loan Settlements",
@@ -32,7 +35,7 @@ const OPTIMIZED_TITLES: Record<string, string> = {
   "how-to-negotiate-a-credit-card-settlement-in-india-a-step-by-step-guide": "Negotiate Credit Card Settlement in India",
   "how-to-negotiate-a-loan-settlement-without-affecting-your-cibil-score": "Loan Settlement Without Affecting CIBIL Score",
   "how-to-settle-your-bank-loan-in-india": "How to Settle Bank Loan in India | Legal Guide",
-  "icici-bank-credit-card-settlement-a-complete-guide-to-resolving-your-debt": "ICICI Credit Card Settlement Guide",
+  "icici-bank-credit-card-settlement-a-complete-guide-to-resolving-your-debt": "ICICI Bank Credit Card Settlement Guide",
   "indusind-bank-credit-card-settlement-the-smart-way-to-reduce-your-debt": "IndusInd Bank Credit Card Settlement Guide",
   "loan-settlement-in-24-hours": "Loan Settlement in 24 Hours: Fast Legal Relief Guide",
   "one-card-credit-card-repayment-smart-ways-to-clear-your-debt-faster": "One Card Repayment: Clear Debt Faster",
@@ -49,6 +52,12 @@ const OPTIMIZED_TITLES: Record<string, string> = {
 };
 
 const OPTIMIZED_H1S: Record<string, string> = {
+  "dealing-with-recovery-agents-know-your-rights-and-how-to-handle-them": "How to Handle Bank Recovery Agents: Legal Rights in India",
+  "debt-settlement-vs-debt-consolidation": "Debt Settlement vs Debt Consolidation: Complete Guide",
+  "car-loan-settlement-process-a-comprehensive-guide": "Car Loan Settlement Process: A Step-by-Step Guide",
+  "bank-loan-settlement-rules-a-complete-guide-for-borrowers": "Bank Loan Settlement Rules: Key Rights and Guidelines",
+  "sbi-credit-card-debt-relief-smart-strategies-to-reduce-your-financial-burden": "SBI Credit Card Debt Relief: Smart Strategies to Reduce Debt",
+  "icici-bank-credit-card-settlement-a-complete-guide-to-resolving-your-debt": "ICICI Bank Credit Card Settlement: Complete Resolution Guide",
   "loan-settlement-in-24-hours": "Loan Settlement in 24 Hours: Fast & Legal Resolution",
   "understanding-ots-full-form-financial-impact": "Understanding OTS Full Form and Its Financial Impact",
   "loan-settlement-in-march-closing-guide": "Closing Your Loan Settlement in March: Essential Guide",
@@ -60,14 +69,21 @@ const OPTIMIZED_H1S: Record<string, string> = {
 };
 
 const OPTIMIZED_DESCRIPTIONS: Record<string, string> = {
+  "file-rbi-ombudsman-complaint-bank-harassment-2026": "File an RBI Ombudsman complaint against bank harassment in 2026. Learn legal steps, borrower rights, and debt relief solutions with CredSettle.",
+  "debt-settlement-vs-debt-consolidation": "Compare debt settlement vs debt consolidation in India. Learn key differences, legal benefits, and debt relief solutions with CredSettle today.",
+  "dealing-with-recovery-agents-know-your-rights-and-how-to-handle-them": "Know your rights against bank recovery agents in India. Learn RBI harassment rules, legal protections, and debt relief solutions with CredSettle.",
+  "car-loan-settlement-process-a-comprehensive-guide": "Settle your car loan by negotiating with lenders for a reduced lump sum. Learn the legal auto loan settlement process and relief with CredSettle.",
+  "bank-loan-settlement-rules-a-complete-guide-for-borrowers": "Understand bank loan settlement rules in India. Learn RBI guidelines, legal negotiation steps, waiver options, and debt relief with CredSettle.",
+  "sbi-credit-card-debt-relief-smart-strategies-to-reduce-your-financial-burden": "Settle SBI credit card debt legally with CredSettle. Stop bank harassment, negotiate waivers, and clear outstanding dues with legal debt relief.",
+  "icici-bank-credit-card-settlement-a-complete-guide-to-resolving-your-debt": "Settle ICICI Bank credit card debt with CredSettle. Stop recovery harassment, negotiate waivers, and clear outstanding dues with legal debt relief.",
   "understanding-ots-full-form-financial-impact": "Understand OTS full form, RBI settlement guidelines, and financial impacts. Learn how to settle debt legally with CredSettle and stop bank harassment.",
   "loan-settlement-in-march-closing-guide": "Learn how March financial year-end impacts bank loan settlement waivers. Settle outstanding debts legally with CredSettle and secure formal closure.",
   "loan-settlement-in-24-hours": "Can you get loan settlement in 24 hours? Learn legal debt relief timelines, RBI settlement steps, and how CredSettle stops recovery harassment fast.",
-  "debt-settlement-vs-paying-minimum-dues-long-term-impact": "Compare debt settlement vs paying minimum dues on credit cards. Understand interest traps, credit score impacts, and legal relief options with CredSettle.",
+  "debt-settlement-vs-paying-minimum-dues-long-term-impact": "Compare debt settlement vs paying minimum dues on cards. Understand interest traps, credit score impacts, and legal relief with CredSettle.",
   "2026-debt-settlement-masterclass": "Master debt settlement in India with our 2026 comprehensive guide. Learn negotiation strategies, RBI protections, and legal waivers with CredSettle.",
-  "why-hiring-a-loan-settlement-lawyer-can-save-you-time-and-money": "Hire a loan settlement lawyer to save time, reduce bank debt, and stop harassment. Explore legal debt resolution and creditor negotiation with CredSettle.",
-  "file-rbi-ombudsman-complaint-bank-harassment-2026": "File an RBI Ombudsman complaint against bank harassment in 2026. Learn legal complaint steps, borrower rights, and debt settlement solutions with CredSettle.",
-  "clear-loans-solutions-expert-settlement-advice-from-a-trusted-loan-repayment-company": "Explore clear loan settlement solutions with CredSettle. Settle debt legally, reduce burden, stop recovery agent calls, and book a free advisor call today."
+  "why-hiring-a-loan-settlement-lawyer-can-save-you-time-and-money": "Hire a loan settlement lawyer to save time, reduce bank debt, and stop harassment. Explore legal debt resolution and relief with CredSettle.",
+  "clear-loans-solutions-expert-settlement-advice-from-a-trusted-loan-repayment-company": "Explore clear loan settlement solutions with CredSettle. Settle debt legally, reduce burden, stop recovery calls, and book a free advisor call today.",
+  "a-complete-guide-to-loan-settlement-in-india-how-to-become-debt-free": "Facing financial hardship? Learn how the legal loan settlement process in India helps reduce debt, stop bank harassment, and become debt-free easily."
 };
 
 const getValidDescription = (blog: { metaDescription?: string; subtitle?: string; description: string; title: string }) => {
@@ -83,9 +99,14 @@ const getValidDescription = (blog: { metaDescription?: string; subtitle?: string
     baseDesc = blog.subtitle!.trim();
   }
 
-  // If baseDesc is present and already within optimal range (120-155 characters)
-  if (baseDesc && baseDesc.length >= 120 && baseDesc.length <= 155) {
-    return baseDesc;
+  // If baseDesc is present and already within optimal range (140-146 characters)
+  if (baseDesc && baseDesc.length >= 140 && baseDesc.length <= 146) {
+    return baseDesc.replace(/[—–]/g, '-').trim();
+  }
+
+  // If baseDesc is between 120 and 139 characters
+  if (baseDesc && baseDesc.length >= 120 && baseDesc.length < 140) {
+    return baseDesc.replace(/[—–]/g, '-').trim();
   }
 
   // If baseDesc is under 120 characters, enrich it intelligently
@@ -93,41 +114,54 @@ const getValidDescription = (blog: { metaDescription?: string; subtitle?: string
     const punctuated = baseDesc.endsWith('.') ? baseDesc : `${baseDesc}.`;
     const legalSuffix = ' Settle your debt legally with CredSettle and stop bank harassment today.';
     const combined = (punctuated + legalSuffix).trim();
-    if (combined.length <= 155 && combined.length >= 120) {
-      return combined;
+    if (combined.length <= 146 && combined.length >= 120) {
+      return combined.replace(/[—–]/g, '-');
     }
     const fullSuffix = ' CredSettle provides legal debt resolution to stop recovery harassment and settle bank loans with waivers.';
     const combinedFull = (punctuated + fullSuffix).trim();
-    if (combinedFull.length <= 155 && combinedFull.length >= 120) {
-      return combinedFull;
+    if (combinedFull.length <= 146 && combinedFull.length >= 120) {
+      return combinedFull.replace(/[—–]/g, '-');
     }
     const shorterSuffix = ' Settle debt legally with CredSettle.';
     const combinedShort = (punctuated + shorterSuffix).trim();
-    if (combinedShort.length <= 155 && combinedShort.length >= 120) {
-      return combinedShort;
+    if (combinedShort.length <= 146 && combinedShort.length >= 120) {
+      return combinedShort.replace(/[—–]/g, '-');
     }
+  }
+
+  // If baseDesc is over 146 characters, safely truncate at sentence or word boundary
+  if (baseDesc && baseDesc.length > 146) {
+    const sentenceEnd = baseDesc.indexOf('.', 120);
+    if (sentenceEnd !== -1 && sentenceEnd <= 145) {
+      return baseDesc.slice(0, sentenceEnd + 1).replace(/[—–]/g, '-').trim();
+    }
+    const candidate = baseDesc.slice(0, 142);
+    const lastSpace = candidate.lastIndexOf(' ');
+    if (lastSpace > 120) {
+      return candidate.slice(0, lastSpace).replace(/[—–]/g, '-').trim() + '...';
+    }
+    return candidate.replace(/[—–]/g, '-').trim() + '...';
   }
 
   // Fallback to body content if available
   const content = stripHtml(blog.description);
   if (content && content.length >= 120) {
     const sentenceEnd = content.indexOf('.', 120);
-    if (sentenceEnd !== -1 && sentenceEnd <= 155) {
-      return content.slice(0, sentenceEnd + 1).trim();
+    if (sentenceEnd !== -1 && sentenceEnd <= 145) {
+      const res = content.slice(0, sentenceEnd + 1).trim();
+      if (res.length >= 120 && res.length <= 146) {
+        return res.replace(/[—–]/g, '-');
+      }
     }
-    const candidate = content.slice(0, 150);
+    const candidate = content.slice(0, 142);
     const lastSpace = candidate.lastIndexOf(' ');
     if (lastSpace > 120) {
-      return candidate.slice(0, lastSpace).trim() + '...';
+      return candidate.slice(0, lastSpace).replace(/[—–]/g, '-').trim() + '...';
     }
-    return candidate.trim() + '...';
+    return candidate.replace(/[—–]/g, '-').trim() + '...';
   }
 
-  if (baseDesc && baseDesc.length > 155) {
-    return baseDesc.slice(0, 152).trim() + '...';
-  }
-
-  return baseDesc || 'Get expert legal loan settlement and debt relief services in India with CredSettle. Stop bank harassment and resolve outstanding debt legally.';
+  return 'Get expert legal loan settlement and debt relief services in India with CredSettle. Stop bank harassment and resolve outstanding debt legally.';
 };
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -147,7 +181,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   const canonicalSlug = canonicaliseSlug(blog.slug || generateSlugFromTitle(blog.title) || slug);
   const canonicalUrl = `https://www.credsettle.com/resources/${canonicalSlug}`;
-  const descriptionFallback = OPTIMIZED_DESCRIPTIONS[canonicalSlug] || OPTIMIZED_DESCRIPTIONS[slug] || getValidDescription(blog);
+  const rawDescription = OPTIMIZED_DESCRIPTIONS[canonicalSlug] || OPTIMIZED_DESCRIPTIONS[slug] || getValidDescription(blog);
+  let effectiveDescription = rawDescription.replace(/[—–]/g, '-').trim();
+  if (effectiveDescription.length > 146) {
+    const candidate = effectiveDescription.slice(0, 142);
+    const lastSpace = candidate.lastIndexOf(' ');
+    effectiveDescription = (lastSpace > 120 ? candidate.slice(0, lastSpace) : candidate).trim() + '...';
+  }
 
   const DEFAULT_META_TITLE = 'CredSettle Blog | Expert Debt Relief Insights';
   const optimizedTitle = OPTIMIZED_TITLES[canonicalSlug] || OPTIMIZED_TITLES[slug];
@@ -181,13 +221,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   return {
     title: effectiveTitle,
-    description: descriptionFallback,
+    description: effectiveDescription,
     alternates: {
       canonical: canonicalUrl
     },
     openGraph: {
       title: effectiveTitle,
-      description: descriptionFallback,
+      description: effectiveDescription,
       type: 'article',
       url: canonicalUrl,
       images: blog.image ? [{ url: blog.image }] : undefined
@@ -195,7 +235,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     twitter: {
       card: 'summary_large_image',
       title: effectiveTitle,
-      description: descriptionFallback,
+      description: effectiveDescription,
       images: blog.image ? [blog.image] : undefined
     }
   };
@@ -280,11 +320,19 @@ export default async function BlogPostPage({ params }: PageProps) {
 
   const effectiveReviews = reviews && reviews.length > 0 ? reviews : defaultBlogReviews;
 
+  const rawDescription = OPTIMIZED_DESCRIPTIONS[canonicalSlug] || OPTIMIZED_DESCRIPTIONS[slug] || getValidDescription(blog);
+  let effectiveDescription = rawDescription.replace(/[—–]/g, '-').trim();
+  if (effectiveDescription.length > 146) {
+    const candidate = effectiveDescription.slice(0, 142);
+    const lastSpace = candidate.lastIndexOf(' ');
+    effectiveDescription = (lastSpace > 120 ? candidate.slice(0, lastSpace) : candidate).trim() + '...';
+  }
+
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: blog.title,
-    description: getValidDescription(blog),
+    description: effectiveDescription,
     image: blog.image ? [blog.image] : ['https://www.credsettle.com/sample.png'],
     datePublished: isoPublishedDate,
     dateModified: isoModifiedDate,
