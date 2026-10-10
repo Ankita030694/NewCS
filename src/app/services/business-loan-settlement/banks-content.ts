@@ -168,6 +168,24 @@ function generateKeywords(bankName: string): string[] {
   return baseKeywords;
 }
 
+// Generate compliant meta description (140-146 chars, <= 960px)
+function getBusinessBankMetaDesc(shortName: string, bankName: string): string {
+  const candidates = [
+    `Settle ${shortName} business loan dues under RBI rules with CredSettle. Cut debt up to 50%, protect assets & clear dues safely.`,
+    `Settle ${shortName} business loan dues legally under RBI rules. Cut debt up to 50%, protect assets & resolve debt with CredSettle.`,
+    `Resolve ${shortName} business loan debt legally under RBI rules. Stop harassment, save up to 50% & get your NOC with CredSettle.`,
+    `Struggling with ${shortName} business loan dues? Settle legally under RBI rules. Cut debt by up to 50%, protect assets & settle with CredSettle.`,
+    `Struggling with ${bankName} business loan dues? Settle legally under RBI rules. Cut debt by up to 50%, protect assets, and become debt-free with CredSettle.`
+  ];
+  for (const c of candidates) {
+    if (c.length >= 140 && c.length <= 146) return c;
+  }
+  for (const c of candidates) {
+    if (c.length >= 140 && c.length <= 150) return c;
+  }
+  return candidates[0];
+}
+
 // Generate content for a bank (with fallback)
 export function getBankContentWithFallback(bankSlug: string): BankContent {
   const safeSlug = typeof bankSlug === 'string' && bankSlug.length > 0 ? bankSlug : 'bank';
@@ -188,7 +206,7 @@ export function getBankContentWithFallback(bankSlug: string): BankContent {
     slug,
     title: `${shortName} Business Loan Settlement Guide | CredSettle`,
     metaTitle: generatedContent?.metaTitle || getBankMetaTitle(bankName),
-    metaDescription: `Struggling with ${shortName} business loan dues? Settle legally under RBI rules. Cut debt by up to 50%, protect assets, and become debt-free with CredSettle.`,
+    metaDescription: generatedContent?.metaDescription || getBusinessBankMetaDesc(shortName, bankName),
     heroTitle: getBankH1Title(bankName, 'Business Loan Settlement'),
     heroDescription: `Get legal help to settle your ${shortName} business loan under RBI rules. Protect your business assets, save money, and clear debt fast.`,
     whyChooseSettlement: generatedContent?.whyChooseSettlement || `Business loan debt can hurt even the strongest firms. If your ${bankName} loan EMIs are too high, you do not have to close down your business. Cash flow drops and late client payments are common. When loan dues take up your cash flow, you need a safe way out. A One-Time Settlement (OTS) with ${bankName} gives you a fresh start. Under RBI rules, you can settle your unpaid loan for a lower lump sum. Most settlements cut the total dues by 30% to 70%. This stops recovery calls right away. It also keeps your business assets safe. You can protect your firm and get back on track in peace.`,

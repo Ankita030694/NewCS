@@ -1,7 +1,18 @@
 import { Metadata } from 'next';
+import { permanentRedirect } from 'next/navigation';
 import { getBankContentWithFallback, getBankH2Title, getAllBankSlugs, getShortBankName } from '../../banks-content';
 import { sanitizeMetaTitle, sanitizeMetaDescription } from '@/lib/seo-utils';
 import BankPageClient from './BankPageClient';
+
+const BANK_SLUG_REDIRECTS: Record<string, string> = {
+  'dakshina-kannada-district-central-co-operative-bank': 'dakshina-kannada-district-co-op-bank',
+  'chikkaballapura-district-central-co-operative-bank': 'chikkaballapura-district-co-op-bank',
+  'chamarajanagar-district-central-co-operative-bank': 'chamarajanagar-district-co-op-bank',
+  'uttara-kannada-district-central-co-operative-bank': 'uttara-kannada-district-co-op-bank',
+  'tiruchirappalli-district-central-co-operative-bank': 'tiruchirappalli-district-co-op-bank',
+  'ramanathapuram-district-central-co-operative-bank': 'ramanathapuram-district-co-op-bank',
+  'tiruvannamalai-district-central-co-operative-bank': 'tiruvannamalai-district-co-op-bank',
+};
 
 interface PageProps {
   params: Promise<{
@@ -20,6 +31,9 @@ export const dynamicParams = true; // Allow dynamic params not in generateStatic
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { bank } = await params;
+  if (BANK_SLUG_REDIRECTS[bank]) {
+    permanentRedirect(`/services/credit-card-settlement/banks/${BANK_SLUG_REDIRECTS[bank]}`);
+  }
   const content = getBankContentWithFallback(bank);
   const shortName = getShortBankName(content.bankName);
   const metaTitle = sanitizeMetaTitle(content.metaTitle || content.title);
@@ -48,6 +62,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function BankPage({ params }: PageProps) {
   const { bank } = await params;
+  if (BANK_SLUG_REDIRECTS[bank]) {
+    permanentRedirect(`/services/credit-card-settlement/banks/${BANK_SLUG_REDIRECTS[bank]}`);
+  }
 
   const content = getBankContentWithFallback(bank);
   const shortName = getShortBankName(content.bankName);

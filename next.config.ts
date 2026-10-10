@@ -710,6 +710,82 @@ const nextConfig: NextConfig = {
       destination: "/loan-settlement-vs-debt-consolidation",
       permanent: true,
       },
+      // District Central Co-operative Banks URL length >115 characters fixes -> 301 permanent redirects
+      {
+        source: "/services/business-loan-settlement/banks/chamarajanagar-district-central-co-operative-bank",
+        destination: "/services/business-loan-settlement/banks/chamarajanagar-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/business-loan-settlement/banks/chikkaballapura-district-central-co-operative-bank",
+        destination: "/services/business-loan-settlement/banks/chikkaballapura-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/business-loan-settlement/banks/dakshina-kannada-district-central-co-operative-bank",
+        destination: "/services/business-loan-settlement/banks/dakshina-kannada-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/business-loan-settlement/banks/ramanathapuram-district-central-co-operative-bank",
+        destination: "/services/business-loan-settlement/banks/ramanathapuram-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/business-loan-settlement/banks/tiruchirappalli-district-central-co-operative-bank",
+        destination: "/services/business-loan-settlement/banks/tiruchirappalli-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/business-loan-settlement/banks/tiruvannamalai-district-central-co-operative-bank",
+        destination: "/services/business-loan-settlement/banks/tiruvannamalai-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/business-loan-settlement/banks/uttara-kannada-district-central-co-operative-bank",
+        destination: "/services/business-loan-settlement/banks/uttara-kannada-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/credit-card-settlement/banks/dakshina-kannada-district-central-co-operative-bank",
+        destination: "/services/credit-card-settlement/banks/dakshina-kannada-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/personal-loan-settlement/banks/uttara-kannada-district-central-co-operative-bank",
+        destination: "/services/personal-loan-settlement/banks/uttara-kannada-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/personal-loan-settlement/banks/tiruvannamalai-district-central-co-operative-bank",
+        destination: "/services/personal-loan-settlement/banks/tiruvannamalai-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/personal-loan-settlement/banks/tiruchirappalli-district-central-co-operative-bank",
+        destination: "/services/personal-loan-settlement/banks/tiruchirappalli-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/personal-loan-settlement/banks/ramanathapuram-district-central-co-operative-bank",
+        destination: "/services/personal-loan-settlement/banks/ramanathapuram-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/personal-loan-settlement/banks/dakshina-kannada-district-central-co-operative-bank",
+        destination: "/services/personal-loan-settlement/banks/dakshina-kannada-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/personal-loan-settlement/banks/chikkaballapura-district-central-co-operative-bank",
+        destination: "/services/personal-loan-settlement/banks/chikkaballapura-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/personal-loan-settlement/banks/chamarajanagar-district-central-co-operative-bank",
+        destination: "/services/personal-loan-settlement/banks/chamarajanagar-district-co-op-bank",
+        permanent: true,
+      },
       {
       source: "/SME-loan-dispute-resolution",
       destination: "/sme-loan-dispute-resolution",

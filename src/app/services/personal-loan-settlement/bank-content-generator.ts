@@ -556,6 +556,9 @@ export function getBankMetaDescription(bankName: string): string {
   const b = bankName.trim();
   const shortB = getShortBankName(b);
   const candidates = [
+    `Settle ${shortB} personal loan dues under RBI rules with CredSettle. Cut debt up to 50%, stop harassment & clear dues safely.`,
+    `Resolve ${shortB} personal loan debt legally under RBI rules. Stop harassment, save up to 50% & get your NOC with CredSettle.`,
+    `Settle ${shortB} personal loan dues legally under RBI rules with CredSettle. Stop recovery harassment & clear debt with official NOC.`,
     `Settle your ${b} personal loan dues legally under RBI rules. Cut debt by up to 50%, stop recovery calls, and regain peace of mind with CredSettle.`,
     `Settle your ${shortB} personal loan dues legally under RBI rules. Cut debt by up to 50%, stop recovery calls, and regain peace of mind with CredSettle.`,
     `Struggling with dues? Settle your ${b} personal loan legally under RBI rules. Cut debt by up to 50%, stop recovery calls, and get debt free with CredSettle.`,
@@ -566,10 +569,16 @@ export function getBankMetaDescription(bankName: string): string {
     `Settle your ${shortB} loan legally under RBI rules. Cut debt by up to 50%, stop recovery calls, and achieve debt freedom with expert help from CredSettle.`
   ];
   for (const c of candidates) {
+    if (c.length >= 140 && c.length <= 146) return c;
+  }
+  for (const c of candidates) {
+    if (c.length >= 140 && c.length <= 150) return c;
+  }
+  for (const c of candidates) {
     if (c.length >= 140 && c.length <= 155) return c;
   }
   const c = `Settle your ${shortB} personal loan dues legally under RBI rules. Cut debt by up to 50%, stop recovery calls, and regain peace of mind with CredSettle.`;
-  return c.slice(0, 155);
+  return c.slice(0, 146);
 }
 
 // Generate comprehensive content for a bank

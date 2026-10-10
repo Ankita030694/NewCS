@@ -88,44 +88,69 @@ export function sanitizeMetaTitle(rawTitle?: string, brand = 'CredSettle'): stri
 }
 
 export function sanitizeMetaDescription(rawDesc?: string): string {
-  const defaultDesc = 'Get expert loan settlement and debt relief in India with CredSettle. Stop bank harassment and resolve debt under RBI rules.';
+  const defaultDesc = 'Get expert legal loan settlement and debt relief in India with CredSettle. Stop harassment, reduce dues up to 50%, and settle debt under RBI guidelines.';
   if (!rawDesc) return defaultDesc;
   const clean = rawDesc.trim().replace(/\s+/g, ' ');
   
-  // Ideal range for Google snippet pixel width: 110 to 135 characters (well below 985 pixels, above 70 chars)
-  if (clean.length >= 110 && clean.length <= 135) return clean;
+  // Level 1: Strict sweet spot (140-146 chars, <= 960px)
+  if (clean.length >= 140 && clean.length <= 146 && getMetaDescPixelWidth(clean) <= 960) return clean;
 
-  if (clean.length < 110) {
-    const punctuated = clean.endsWith('.') ? clean : `${clean}.`;
-    const standardSuffix = ' Settle debt legally with CredSettle and stop bank harassment.';
-    const combined = `${punctuated}${standardSuffix}`.trim();
-    if (combined.length >= 110 && combined.length <= 135) return combined;
+  // Level 2: Safe SEO compliance (140-150 chars, <= 965px)
+  if (clean.length >= 140 && clean.length <= 150 && getMetaDescPixelWidth(clean) <= 965) return clean;
 
-    const shortSuffix = ' Settle legally under RBI rules with CredSettle.';
-    const combinedShort = `${punctuated}${shortSuffix}`.trim();
-    if (combinedShort.length >= 110 && combinedShort.length <= 135) return combinedShort;
+  // Level 3: Max threshold (140-154 chars, <= 980px)
+  if (clean.length >= 140 && clean.length <= 154 && getMetaDescPixelWidth(clean) <= 980) return clean;
 
-    if (clean.length >= 70 && clean.length <= 135) return clean;
-    return defaultDesc;
-  }
-
-  // If clean.length > 135, smartly truncate without cutting mid-word or breaking sentence
-  const sub = clean.slice(0, 135);
-  const lastPeriod = sub.lastIndexOf('.');
-  if (lastPeriod >= 95) {
-    return sub.slice(0, lastPeriod + 1);
-  }
-  const lastSpace = sub.lastIndexOf(' ');
-  if (lastSpace >= 95) {
-    let truncated = sub.slice(0, lastSpace).trim();
-    if (truncated.endsWith(',') || truncated.endsWith(';') || truncated.endsWith(':') || truncated.endsWith('&')) {
-      truncated = truncated.slice(0, -1).trim();
+  // If clean.length > 146 or pixel width > 965, smartly truncate to 140-146 characters
+  if (clean.length > 146 || getMetaDescPixelWidth(clean) > 965) {
+    const sub = clean.slice(0, 145);
+    const lastPeriod = sub.lastIndexOf('.');
+    if (lastPeriod >= 135 && lastPeriod <= 145) {
+      return sub.slice(0, lastPeriod + 1);
     }
-    if (!truncated.endsWith('.')) truncated += '.';
-    return truncated;
+    const lastSpace = sub.lastIndexOf(' ');
+    if (lastSpace >= 120) {
+      let truncated = sub.slice(0, lastSpace).replace(/[,;:\-–—|&]+$/, '').trim();
+      // Avoid ending with hanging words like 'and', 'or', 'with', 'to'
+      truncated = truncated.replace(/\b(and|or|with|to|for|of|in|by)\s*$/i, '').trim();
+      if (!truncated.endsWith('.')) truncated += '.';
+      if (truncated.length >= 140 && truncated.length <= 146 && getMetaDescPixelWidth(truncated) <= 960) {
+        return truncated;
+      }
+      if (truncated.length >= 130 && truncated.length < 140) {
+        const withSafeSuffix = `${truncated.slice(0, -1)} with legal ease.`;
+        if (withSafeSuffix.length >= 140 && withSafeSuffix.length <= 146) {
+          return withSafeSuffix;
+        }
+      }
+    }
   }
 
-  return clean.slice(0, 130).trim() + '...';
+  // If clean.length < 140, pad to 140-146 characters (strictly never < 100)
+  if (clean.length < 140) {
+    const p = clean.endsWith('.') ? clean : `${clean}.`;
+    const suffixes = [
+      ' Settle legally under RBI guidelines with CredSettle.',
+      ' Stop harassment & settle legally under RBI rules.',
+      ' Settle debt legally with CredSettle.',
+      ' Resolve dues legally under RBI rules.',
+      ' Settle with CredSettle.'
+    ];
+    for (const s of suffixes) {
+      const cand = `${p.slice(0, -1)}${s}`;
+      if (cand.length >= 140 && cand.length <= 146 && getMetaDescPixelWidth(cand) <= 960) {
+        return cand;
+      }
+    }
+    for (const s of suffixes) {
+      const cand = `${p.slice(0, -1)}${s}`;
+      if (cand.length >= 140 && cand.length <= 150 && getMetaDescPixelWidth(cand) <= 965) {
+        return cand;
+      }
+    }
+  }
+
+  return defaultDesc;
 }
 
 /**
@@ -185,6 +210,42 @@ export function getShortBankName(name: string): string {
     'Bankbazaar Loan Settlement': 'BankBazaar',
     'Finzy P2P Invest Borrow': 'Finzy P2P',
     'Mymoneymantra Loan Help': 'MyMoneyMantra',
+    // District Central Co-operative Banks (Karnataka & Tamil Nadu)
+    'Dakshina Kannada District Central Co-operative Bank': 'Dakshina Kannada District Co-op',
+    'Dakshina Kannada District Central Co-Operative Bank': 'Dakshina Kannada District Co-op',
+    'Dakshina Kannada District Central Co Operative Bank': 'Dakshina Kannada District Co-op',
+    'Dakshina Kannada District Co-op Bank': 'Dakshina Kannada District Co-op',
+    'Dakshina Kannada District Co Op Bank': 'Dakshina Kannada District Co-op',
+    'Chikkaballapura District Central Co-operative Bank': 'Chikkaballapura District Co-op',
+    'Chikkaballapura District Central Co-Operative Bank': 'Chikkaballapura District Co-op',
+    'Chikkaballapura District Central Co Operative Bank': 'Chikkaballapura District Co-op',
+    'Chikkaballapura District Co-op Bank': 'Chikkaballapura District Co-op',
+    'Chikkaballapura District Co Op Bank': 'Chikkaballapura District Co-op',
+    'Chamarajanagar District Central Co-operative Bank': 'Chamarajanagar District Co-op',
+    'Chamarajanagar District Central Co-Operative Bank': 'Chamarajanagar District Co-op',
+    'Chamarajanagar District Central Co Operative Bank': 'Chamarajanagar District Co-op',
+    'Chamarajanagar District Co-op Bank': 'Chamarajanagar District Co-op',
+    'Chamarajanagar District Co Op Bank': 'Chamarajanagar District Co-op',
+    'Uttara Kannada District Central Co-operative Bank': 'Uttara Kannada District Co-op',
+    'Uttara Kannada District Central Co-Operative Bank': 'Uttara Kannada District Co-op',
+    'Uttara Kannada District Central Co Operative Bank': 'Uttara Kannada District Co-op',
+    'Uttara Kannada District Co-op Bank': 'Uttara Kannada District Co-op',
+    'Uttara Kannada District Co Op Bank': 'Uttara Kannada District Co-op',
+    'Tiruchirappalli District Central Co-operative Bank': 'Tiruchirappalli District Co-op',
+    'Tiruchirappalli District Central Co-Operative Bank': 'Tiruchirappalli District Co-op',
+    'Tiruchirappalli District Central Co Operative Bank': 'Tiruchirappalli District Co-op',
+    'Tiruchirappalli District Co-op Bank': 'Tiruchirappalli District Co-op',
+    'Tiruchirappalli District Co Op Bank': 'Tiruchirappalli District Co-op',
+    'Ramanathapuram District Central Co-operative Bank': 'Ramanathapuram District Co-op',
+    'Ramanathapuram District Central Co-Operative Bank': 'Ramanathapuram District Co-op',
+    'Ramanathapuram District Central Co Operative Bank': 'Ramanathapuram District Co-op',
+    'Ramanathapuram District Co-op Bank': 'Ramanathapuram District Co-op',
+    'Ramanathapuram District Co Op Bank': 'Ramanathapuram District Co-op',
+    'Tiruvannamalai District Central Co-operative Bank': 'Tiruvannamalai District Co-op',
+    'Tiruvannamalai District Central Co-Operative Bank': 'Tiruvannamalai District Co-op',
+    'Tiruvannamalai District Central Co Operative Bank': 'Tiruvannamalai District Co-op',
+    'Tiruvannamalai District Co-op Bank': 'Tiruvannamalai District Co-op',
+    'Tiruvannamalai District Co Op Bank': 'Tiruvannamalai District Co-op',
   };
 
   if (explicitMap[trimmed]) {
@@ -209,9 +270,12 @@ export function getShortBankName(name: string): string {
     .replace(/State Co-operative Apex Bank/gi, 'Apex Bank')
     .replace(/State Apex Co-operative Bank/gi, 'Apex Bank')
     .replace(/Kshetriya Gramin Bank/gi, 'Gramin Bank')
-    .replace(/District Central Co[\s\-]Operative Bank/gi, 'District Co-op Bank')
+    .replace(/District Central Co[\s\-]Operative Bank/gi, 'District Co-op')
     .replace(/District Central Co[\s\-]Operative/gi, 'District Co-op')
-    .replace(/District Co[\s\-]Operative Bank/gi, 'District Co-op Bank')
+    .replace(/District Co[\s\-]Operative Bank/gi, 'District Co-op')
+    .replace(/District Co[\s\-]Operative/gi, 'District Co-op')
+    .replace(/District Co[\s\-]Op Bank/gi, 'District Co-op')
+    .replace(/District Co[\s\-]Op/gi, 'District Co-op')
     .replace(/Co[\s\-]operative Urban Bank/gi, 'Urban Co-op Bank')
     .replace(/Urban Co[\s\-]operative Bank/gi, 'Urban Co-op Bank')
     .replace(/Co[\s\-]Operative Bank/gi, 'Co-op Bank')
@@ -242,7 +306,7 @@ export function getBankH1Title(bankName: string, serviceTitle: string): string {
     if (maxBankLen >= 10) {
       const sub = shortBank.slice(0, maxBankLen);
       const lastSpace = sub.lastIndexOf(' ');
-      const truncatedBank = (lastSpace >= 8 ? sub.slice(0, lastSpace) : sub).trim();
+      const truncatedBank = (lastSpace >= 8 ? sub.slice(0, lastSpace) : sub).replace(/[-–—,&]+$/, '').trim();
       const candTruncated = `${truncatedBank} ${serviceTitle}`;
       if (candTruncated.length <= 65) return candTruncated;
     }
@@ -260,18 +324,28 @@ export function getBankH1Title(bankName: string, serviceTitle: string): string {
  */
 export function getBankH2Title(bankName: string, serviceTitle: string): string {
   const shortBank = getShortBankName(bankName);
-  const cand = `Why Choose ${shortBank} ${serviceTitle}`;
-  if (cand.length <= 65) return cand;
-
-  const cand2 = `Why Settle ${shortBank} ${serviceTitle}`;
-  if (cand2.length <= 65) return cand2;
-
-  const cand3 = `Settle ${shortBank} ${serviceTitle} Dues`;
-  if (cand3.length <= 65) return cand3;
+  const candidates = [
+    `Why Choose ${shortBank} ${serviceTitle}`,
+    `Why Settle ${shortBank} ${serviceTitle}`,
+    `Why Settle Debt with ${shortBank}`,
+    `Settle ${shortBank} ${serviceTitle} Dues`,
+    `Settling Your ${shortBank} ${serviceTitle}`,
+    `Why Settle Your ${shortBank} Loan Dues`,
+  ];
+  for (const cand of candidates) {
+    if (cand.length >= 30 && cand.length <= 65) return cand;
+  }
+  for (const cand of candidates) {
+    if (cand.length >= 30 && cand.length <= 70) return cand;
+  }
 
   const maxBankLen = 65 - 'Why Choose  '.length - serviceTitle.length;
-  const truncatedBank = shortBank.slice(0, Math.max(10, maxBankLen)).trim();
-  return `Why Choose ${truncatedBank} ${serviceTitle}`;
+  const sub = shortBank.slice(0, Math.max(10, maxBankLen));
+  const lastSpace = sub.lastIndexOf(' ');
+  const cleanBank = (lastSpace >= 8 ? sub.slice(0, lastSpace) : sub).replace(/[-–—,&]+$/, '').trim();
+  const fallback = `Why Choose ${cleanBank} ${serviceTitle}`;
+  if (fallback.length <= 70) return fallback;
+  return `Why Choose Settlement for ${cleanBank}`;
 }
 
 /**

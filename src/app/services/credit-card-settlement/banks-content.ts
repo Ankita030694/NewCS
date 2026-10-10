@@ -167,6 +167,25 @@ function generateKeywords(bankName: string): string[] {
   return baseKeywords;
 }
 
+// Generate compliant meta description (140-146 chars, <= 960px)
+function getCreditCardBankMetaDesc(shortName: string, bankName: string): string {
+  const candidates = [
+    `Settle ${shortName} credit card dues legally under RBI rules with CredSettle. Stop harassment, reduce debt & get your bank NOC.`,
+    `Settle ${shortName} credit card dues under RBI rules with CredSettle. Stop collection harassment, reduce debt & get your bank NOC.`,
+    `Resolve ${shortName} credit card debt legally with CredSettle under RBI rules. Stop agent harassment & cut total card dues up to 50%.`,
+    `Settle ${shortName} card dues legally under RBI rules with CredSettle. Stop recovery harassment, negotiate waivers & clear your dues safely.`,
+    `Struggling with ${shortName} credit card dues? CredSettle helps you settle card debt legally under RBI rules. Stop calls & settle up to 50%.`,
+    `Struggling with ${bankName} credit card dues? Settle legally under RBI rules with CredSettle. Stop harassment & cut card debt up to 50%.`
+  ];
+  for (const c of candidates) {
+    if (c.length >= 140 && c.length <= 146) return c;
+  }
+  for (const c of candidates) {
+    if (c.length >= 140 && c.length <= 150) return c;
+  }
+  return candidates[0];
+}
+
 // Generate content for a bank (with fallback)
 export function getBankContentWithFallback(bankSlug: string): BankContent {
   const generatedContent = generateBankContent(bankSlug) as Partial<BankContent>;
@@ -186,7 +205,7 @@ export function getBankContentWithFallback(bankSlug: string): BankContent {
     slug,
     title: `${shortName} Credit Card Settlement Guide | CredSettle`,
     metaTitle: generatedContent?.metaTitle || getBankMetaTitle(bankName),
-    metaDescription: `Struggling with ${shortName} credit card dues? CredSettle helps you settle card debt legally under RBI rules. Settle up to 50% today with full legal help.`,
+    metaDescription: generatedContent?.metaDescription || getCreditCardBankMetaDesc(shortName, bankName),
     heroTitle: getBankH1Title(bankName, 'Credit Card Settlement'),
     heroDescription: `Get legal help to settle your ${shortName} credit card dues. We use RBI One-Time Settlement rules. Stop collection calls and become debt-free today.`,
     whyChooseSettlement: generatedContent?.whyChooseSettlement || `Credit card debt can grow very fast. High interest rates make it hard to pay off. When ${bankName} card bills pile up, settlement offers a clean exit. CredSettle helps cardholders across India negotiate with ${bankName}. We help cut your total dues by 30% to 70%. You get full legal safety at every step.`,
