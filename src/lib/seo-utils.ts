@@ -28,6 +28,14 @@ export function getMetaTitlePixelWidth(str: string): number {
   return Math.round(width);
 }
 
+export function getMetaDescPixelWidth(str: string): number {
+  let width = 0;
+  for (const char of str) {
+    width += (ARIAL_CHAR_WIDTHS[char] || 11.11) * 0.71;
+  }
+  return Math.round(width);
+}
+
 export function sanitizeMetaTitle(rawTitle?: string, brand = 'CredSettle'): string {
   if (!rawTitle) return `Loan Settlement Services in India | ${brand}`;
   
@@ -147,7 +155,36 @@ export function getShortBankName(name: string): string {
     'Ashv Finance Limited': 'Ashv Finance',
     'Kisetsu saison Finance': 'Kisetsu Saison',
     'Au Small Fin Bank Ltd': 'AU Small Finance Bank',
-    'North East Small Finance': 'North East SFB'
+    'North East Small Finance': 'North East SFB',
+    'North East Small Finance Bank': 'North East SFB',
+    'Bank of Baroda': 'Bank of Baroda',
+    'Bank of India': 'Bank of India',
+    'Bank of Maharashtra': 'Bank of Maharashtra',
+    'Central Bank of India': 'Central Bank of India',
+    'Industrial and Commercial Bank of China': 'ICBC',
+    'Australia and New Zealand Banking Group': 'ANZ Bank',
+    'Australia And New Zealand Banking Group': 'ANZ Bank',
+    'Standard Chartered': 'Standard Chartered',
+    'Kotak Mahindra Bank': 'Kotak Bank',
+    'IDFC First Bank': 'IDFC First Bank',
+    'Punjab National Bank': 'PNB',
+    'American Express': 'American Express',
+    'Citi Bank': 'Citi Bank',
+    'HSBC': 'HSBC Bank',
+    'Mumbai Railway Employees Co-operative Bank': 'Mumbai Railway Co-op Bank',
+    'Kallappanna Awade Ichalkaranji Janata Sahakari Bank': 'Kallappanna Awade Bank',
+    'Moneyview Whizdm Innovations Pvt Ltd': 'Moneyview',
+    'Mpokket Maybright Ventures Pvt Ltd': 'Mpokket',
+    'Piramal Capital And Housing Finance': 'Piramal Finance',
+    'Religare Housing Development Finance': 'Religare Finance',
+    'Secunderabad Mercantile Co-operative Urban Bank': 'Secunderabad Urban Bank',
+    'Shree Bharat Co-operative Bank Vadodara': 'Shree Bharat Co-op Bank',
+    'Shree Panchaganga Nagari Sahakari Bank': 'Panchaganga Sahakari Bank',
+    'Shri Chhatrapati Rajarshi Shahu Urban Co-operative Bank': 'Chhatrapati Shahu Bank',
+    'Spandana Sphoorty Financial Limited': 'Spandana Sphoorty',
+    'Bankbazaar Loan Settlement': 'BankBazaar',
+    'Finzy P2P Invest Borrow': 'Finzy P2P',
+    'Mymoneymantra Loan Help': 'MyMoneyMantra',
   };
 
   if (explicitMap[trimmed]) {
@@ -155,10 +192,18 @@ export function getShortBankName(name: string): string {
   }
 
   let s = trimmed
+    .replace(/\bBankbazaar\b/gi, 'BankBazaar')
+    .replace(/\bMymoneymantra\b/gi, 'MyMoneyMantra')
     .replace(/Technologies India Pvt Ltd/gi, 'Tech')
+    .replace(/Whizdm Innovations Pvt Ltd/gi, '')
+    .replace(/Maybright Ventures Pvt Ltd/gi, '')
     .replace(/Private Limited/gi, 'Pvt Ltd')
     .replace(/Financial Services/gi, 'Fin')
     .replace(/Finance Limited/gi, 'Fin Ltd')
+    .replace(/Financial Holdings/gi, 'Fin Holdings')
+    .replace(/Capital And Housing Finance/gi, 'Finance')
+    .replace(/Housing Development Finance/gi, 'Finance')
+    .replace(/Investment And Finance/gi, 'Inv & Fin')
     .replace(/State Co Operative Apex Bank/gi, 'Apex Bank')
     .replace(/State Apex Co Operative Bank/gi, 'Apex Bank')
     .replace(/State Co-operative Apex Bank/gi, 'Apex Bank')
@@ -167,12 +212,19 @@ export function getShortBankName(name: string): string {
     .replace(/District Central Co[\s\-]Operative Bank/gi, 'District Co-op Bank')
     .replace(/District Central Co[\s\-]Operative/gi, 'District Co-op')
     .replace(/District Co[\s\-]Operative Bank/gi, 'District Co-op Bank')
+    .replace(/Co[\s\-]operative Urban Bank/gi, 'Urban Co-op Bank')
+    .replace(/Urban Co[\s\-]operative Bank/gi, 'Urban Co-op Bank')
     .replace(/Co[\s\-]Operative Bank/gi, 'Co-op Bank')
     .replace(/Co[\s\-]Operative/gi, 'Co-op')
     .replace(/Janata Sahakari Bank/gi, 'Sahakari Bank')
     .replace(/Commercial Co-op Bank/gi, 'Commercial Bank')
+    .replace(/\s+(Loan Settlement|Debt Relief|Loan Help|Invest Borrow|Digital Loans|Short Term Loan)$/gi, '')
     .replace(/\s+/g, ' ')
     .trim();
+
+  if (!/^Bank of\b/i.test(s) && s.endsWith(' Bank')) {
+    s = s.slice(0, -5).trim();
+  }
 
   return s.length >= 3 ? s : trimmed;
 }
