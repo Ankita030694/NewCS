@@ -246,7 +246,12 @@ export async function getBlogBySlug(slug: string): Promise<BlogDocument | null> 
   const slugMapping: Record<string, string> = {
     'settle-loan-india-without-hurting-credit-score': 'best-ways-to-settle-your-loan-in-india-without-hurting-your-credit-score',
     'settle-loans-major-banks-icici-hdfc-axis-sbi': 'how-to-settle-your-loans-with-major-banks-like-icici-hdfc-axis-sbi',
-    'loan-settlement-company-india': 'loan-settlement-in-india-how-to-settle-loans-smartly-with-the-right-loan-settlement-company'
+    'loan-settlement-company-india': 'loan-settlement-in-india-how-to-settle-loans-smartly-with-the-right-loan-settlement-company',
+    'loan-settlement-guide-credit-card-personal-loan-debt': 'the-ultimate-guide-to-loan-settlement-how-to-settle-credit-card-and-personal-loan-debt',
+    'recovery-agents-rogue-rbi-backed-defences': 'recovery-agents-gone-rogue-unveiling-the-limits-they-break-and-your-rbi-backed-defences',
+    'personal-loan-credit-card-settlement-credsettle-case-study': 'personal-loan-credit-card-debt-settlement-how-credsettle-rescued-a-client-from-harassment',
+    'loan-settlement-anti-harassment-success-story': 'how-loan-settlement-and-anti-harassment-services-transformed-a-clients-life-a-real-life-success-story',
+    'clear-loans-solutions-trusted-loan-repayment-guide': 'clear-loans-solutions-expert-settlement-advice-from-a-trusted-loan-repayment-company',
   };
 
   const lookupSlug = slugMapping[slug] || slug;

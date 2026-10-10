@@ -303,9 +303,66 @@ const processDescription = (
     return `${openTag}${cleanInner}${closeTag}`;
   });
 
-  // 3. Fix non-descriptive anchor text in internal outlinks (e.g., 'click here', 'learn more')
+  // 3. Fix internal outlinks: strip forbidden nofollow, lowercase URLs, resolve 301s, and fix non-descriptive anchor text
   const NON_DESCRIPTIVE_ANCHOR_REGEX =
     /^(click\s*here|click\s*this|click|here|read\s*more|learn\s*more|more|link|this\s*link|view\s*more|check\s*here|read\s*here|find\s*out\s*more|details|info|continue\s*reading|continue|website|page|source|url|go\s*here|go)$/i;
+
+  const isInternalUrl = (href: string): boolean => {
+    if (!href) return false;
+    const clean = href.trim().toLowerCase();
+    if (clean.startsWith('/') || clean.startsWith('#')) return true;
+    if (/^https?:\/\/(www\.)?credsettle\.com(\/|$)/i.test(clean)) return true;
+    if (/^\/\/(www\.)?credsettle\.com(\/|$)/i.test(clean)) return true;
+    if (
+      clean.includes('://') ||
+      clean.startsWith('//') ||
+      clean.startsWith('mailto:') ||
+      clean.startsWith('tel:') ||
+      clean.startsWith('javascript:') ||
+      clean.startsWith('data:') ||
+      clean.startsWith('whatsapp:') ||
+      clean.startsWith('www.')
+    ) {
+      return false;
+    }
+    return true;
+  };
+
+  const sanitizeInternalLinkAttrs = (attrs: string): string => {
+    // Remove 'nofollow' token from rel attribute on internal outlinks (Fix Screaming Frog: Links: Internal Nofollow Outlinks)
+    let updated = attrs.replace(/\s*rel=(?:["']([^"']*)["']|([^\s>]+))/gi, (_match, quotedVal, unquotedVal) => {
+      const rawVal = quotedVal !== undefined ? quotedVal : unquotedVal;
+      const tokens = rawVal
+        .split(/[\s,]+/)
+        .filter((t: string) => t.trim().toLowerCase() !== 'nofollow' && t.trim() !== '');
+
+      if (tokens.length > 0) {
+        return ` rel="${tokens.join(' ')}"`;
+      }
+      if (/target=["']?_blank["']?/i.test(attrs)) {
+        return ' rel="noopener noreferrer"';
+      }
+      return '';
+    });
+
+    // Ensure internal hrefs are lowercase (Mistake 5)
+    updated = updated.replace(/href=(["'])(.*?)\1/gi, (_match, quote, rawHref) => {
+      return `href=${quote}${rawHref.toLowerCase()}${quote}`;
+    });
+
+    // Resolve legacy internal paths that issue 301/308 redirects to canonical services
+    updated = updated.replace(/href=(["'])(https?:\/\/(?:www\.)?credsettle\.com)?\/(?:credit-card-settlement|nbfc-loan-settlement|personal-loan-settlement|credit-score-repair)(["'])/gi, (m, q1, domain, q2) => {
+      const prefix = domain || '';
+      const lower = m.toLowerCase();
+      if (lower.includes('credit-card-settlement')) return `href=${q1}${prefix}/services/credit-card-settlement${q2}`;
+      if (lower.includes('nbfc-loan-settlement')) return `href=${q1}${prefix}/services/nbfc-loan-settlement${q2}`;
+      if (lower.includes('personal-loan-settlement')) return `href=${q1}${prefix}/services/personal-loan-settlement${q2}`;
+      if (lower.includes('credit-score-repair')) return `href=${q1}${prefix}/services/credit-score-builder${q2}`;
+      return m;
+    });
+
+    return updated;
+  };
 
   const getDescriptiveAnchorText = (href: string): string => {
     const cleanHref = href.toLowerCase().trim();
@@ -355,14 +412,28 @@ const processDescription = (
     const rawText = content.replace(/<[^>]*>/g, '').replace(/[\s\u200B-\u200D\uFEFF]+/g, ' ').trim();
     const hrefMatch = attrs.match(/href=["']([^"']*)["']/i);
     const href = hrefMatch ? hrefMatch[1] : '';
-    const isInternal =
-      href.startsWith('/') ||
-      href.startsWith('#') ||
-      href.includes('credsettle.com');
+    const isInternal = isInternalUrl(href);
 
-    if (isInternal && NON_DESCRIPTIVE_ANCHOR_REGEX.test(rawText.replace(/[^a-zA-Z0-9\s]/g, '').trim())) {
-      const descriptiveText = getDescriptiveAnchorText(href);
-      return `<a${attrs}>${descriptiveText}</a>`;
+    let finalAttrs = attrs;
+    let finalContent = content;
+
+    if (isInternal) {
+      finalAttrs = sanitizeInternalLinkAttrs(attrs);
+      if (NON_DESCRIPTIVE_ANCHOR_REGEX.test(rawText.replace(/[^a-zA-Z0-9\s]/g, '').trim())) {
+        finalContent = getDescriptiveAnchorText(href);
+      }
+    }
+
+    return `<a${finalAttrs}>${finalContent}</a>`;
+  });
+
+  // Fallback pass: ensure no internal <a> tag anywhere retains rel="nofollow"
+  cleanedHtml = cleanedHtml.replace(/<a(\s[^>]*)>/gi, (match, attrs = '') => {
+    const hrefMatch = attrs.match(/href=["']([^"']*)["']/i);
+    const href = hrefMatch ? hrefMatch[1] : '';
+    if (isInternalUrl(href) && /rel=.*?\bnofollow\b/i.test(attrs)) {
+      const sanitizedAttrs = sanitizeInternalLinkAttrs(attrs);
+      return `<a${sanitizedAttrs}>`;
     }
     return match;
   });
@@ -1008,7 +1079,7 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                 <div
                   className="blog-content"
                   dangerouslySetInnerHTML={{
-                    __html: part1 || blog.description || ''
+                    __html: part1 || processedHtml || ''
                   }}
                 />
 
