@@ -164,6 +164,9 @@ export function getShortBankName(name: string): string {
     .replace(/State Co-operative Apex Bank/gi, 'Apex Bank')
     .replace(/State Apex Co-operative Bank/gi, 'Apex Bank')
     .replace(/Kshetriya Gramin Bank/gi, 'Gramin Bank')
+    .replace(/District Central Co[\s\-]Operative Bank/gi, 'District Co-op Bank')
+    .replace(/District Central Co[\s\-]Operative/gi, 'District Co-op')
+    .replace(/District Co[\s\-]Operative Bank/gi, 'District Co-op Bank')
     .replace(/Co[\s\-]Operative Bank/gi, 'Co-op Bank')
     .replace(/Co[\s\-]Operative/gi, 'Co-op')
     .replace(/Janata Sahakari Bank/gi, 'Sahakari Bank')
@@ -175,19 +178,44 @@ export function getShortBankName(name: string): string {
 }
 
 /**
+ * Generates an H1 heading strictly between 30 and 65 characters (never > 65, never > 70).
+ */
+export function getBankH1Title(bankName: string, serviceTitle: string): string {
+  const shortBank = getShortBankName(bankName);
+  const cand = `${shortBank} ${serviceTitle}`;
+  if (cand.length >= 30 && cand.length <= 65) return cand;
+
+  if (cand.length > 65) {
+    const maxBankLen = 65 - serviceTitle.length - 1;
+    if (maxBankLen >= 10) {
+      const sub = shortBank.slice(0, maxBankLen);
+      const lastSpace = sub.lastIndexOf(' ');
+      const truncatedBank = (lastSpace >= 8 ? sub.slice(0, lastSpace) : sub).trim();
+      const candTruncated = `${truncatedBank} ${serviceTitle}`;
+      if (candTruncated.length <= 65) return candTruncated;
+    }
+    return cand.slice(0, 65).trim();
+  }
+
+  const extended = `${cand} Help`;
+  if (extended.length >= 30 && extended.length <= 65) return extended;
+  return cand;
+}
+
+/**
  * Generates an H2 heading strictly <= 65 characters for bank service pages.
- * Screaming Frog flags H2 > 70 characters. This function ensures headings never exceed 68 characters.
+ * Screaming Frog flags H2 > 70 characters. This function ensures headings never exceed 65 characters.
  */
 export function getBankH2Title(bankName: string, serviceTitle: string): string {
   const shortBank = getShortBankName(bankName);
   const cand = `Why Choose ${shortBank} ${serviceTitle}`;
-  if (cand.length <= 68) return cand;
+  if (cand.length <= 65) return cand;
 
   const cand2 = `Why Settle ${shortBank} ${serviceTitle}`;
-  if (cand2.length <= 68) return cand2;
+  if (cand2.length <= 65) return cand2;
 
   const cand3 = `Settle ${shortBank} ${serviceTitle} Dues`;
-  if (cand3.length <= 68) return cand3;
+  if (cand3.length <= 65) return cand3;
 
   const maxBankLen = 65 - 'Why Choose  '.length - serviceTitle.length;
   const truncatedBank = shortBank.slice(0, Math.max(10, maxBankLen)).trim();

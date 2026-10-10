@@ -1,8 +1,8 @@
-import { getShortBankName, getBankH2Title } from '@/lib/seo-utils';
+import { getShortBankName, getBankH2Title, getBankH1Title } from '@/lib/seo-utils';
 // Import comprehensive bank content generator for credit card settlement
 import { generateBankContent, generateBankSlug, getBankMetaTitle } from './bank-content-generator';
 
-export { getShortBankName, getBankH2Title };
+export { getShortBankName, getBankH2Title, getBankH1Title };
 
 export interface BankContent {
   bankName: string;
@@ -177,17 +177,18 @@ export function getBankContentWithFallback(bankSlug: string): BankContent {
   );
 
   const bankName = bankEntry || bankSlug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+  const shortName = getShortBankName(bankName);
   const slug = bankSlug;
 
   // Default/fallback content structure
   const defaultContent: BankContent = {
     bankName,
     slug,
-    title: `Settle ${bankName} Credit Card Legally - CredSettle`,
+    title: `${shortName} Credit Card Settlement Guide | CredSettle`,
     metaTitle: generatedContent?.metaTitle || getBankMetaTitle(bankName),
-    metaDescription: `Struggling with ${bankName} credit card dues? CredSettle helps you settle card debt legally under RBI rules. Settle up to 50% today with full legal help.`,
-    heroTitle: `${bankName} Credit Card Settlement`,
-    heroDescription: `Get legal help to settle your ${bankName} credit card dues. We use RBI One-Time Settlement rules. Stop collection calls and become debt-free today.`,
+    metaDescription: `Struggling with ${shortName} credit card dues? CredSettle helps you settle card debt legally under RBI rules. Settle up to 50% today with full legal help.`,
+    heroTitle: getBankH1Title(bankName, 'Credit Card Settlement'),
+    heroDescription: `Get legal help to settle your ${shortName} credit card dues. We use RBI One-Time Settlement rules. Stop collection calls and become debt-free today.`,
     whyChooseSettlement: generatedContent?.whyChooseSettlement || `Credit card debt can grow very fast. High interest rates make it hard to pay off. When ${bankName} card bills pile up, settlement offers a clean exit. CredSettle helps cardholders across India negotiate with ${bankName}. We help cut your total dues by 30% to 70%. You get full legal safety at every step.`,
     understandingSettlement: generatedContent?.understandingSettlement || `${bankName} credit card settlement follows RBI rules for debt relief. You pay a reduced lump sum to close your card account permanently. CredSettle starts formal talks with ${bankName}. We present your financial hardship with clear proof. Once approved, you pay the agreed sum. ${bankName} then gives you a no dues certificate.`,
     howCredSettleHelps: generatedContent?.howCredSettleHelps || `CredSettle gives you full legal support for ${bankName} credit card settlement. Our expert lawyer panel reviews your debts. We write and send a strong settlement plan. Our team handles all calls from recovery agents. We help you settle ${bankName} dues for up to 50% of the total amount. You get genuine debt relief and peace of mind.`,

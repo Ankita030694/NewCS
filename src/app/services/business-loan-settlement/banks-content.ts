@@ -1,8 +1,8 @@
-import { getShortBankName, getBankH2Title } from '@/lib/seo-utils';
+import { getShortBankName, getBankH2Title, getBankH1Title } from '@/lib/seo-utils';
 // Import comprehensive bank content generator for business loan settlement
 import { generateBankContent, generateBankSlug, getBankMetaTitle } from './bank-content-generator';
 
-export { getShortBankName, getBankH2Title };
+export { getShortBankName, getBankH2Title, getBankH1Title };
 
 export interface BankContent {
   bankName: string;
@@ -179,17 +179,18 @@ export function getBankContentWithFallback(bankSlug: string): BankContent {
   );
 
   const bankName = bankEntry || safeSlug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+  const shortName = getShortBankName(bankName);
   const slug = safeSlug;
 
   // Default/fallback content structure with high readability
   const defaultContent: BankContent = {
     bankName,
     slug,
-    title: `${bankName} Business Loan Settlement - How to Settle Your Business Loan with ${bankName} Legally in India (2025 Guide)`,
+    title: `${shortName} Business Loan Settlement Guide | CredSettle`,
     metaTitle: generatedContent?.metaTitle || getBankMetaTitle(bankName),
-    metaDescription: `Struggling with ${bankName} business loan dues? Settle legally under RBI rules. Cut debt by up to 50%, protect assets, and become debt-free with CredSettle.`,
-    heroTitle: `${bankName} Business Loan Settlement`,
-    heroDescription: `Get legal help to settle your ${bankName} business loan under RBI rules. Protect your business assets, save money, and clear debt fast.`,
+    metaDescription: `Struggling with ${shortName} business loan dues? Settle legally under RBI rules. Cut debt by up to 50%, protect assets, and become debt-free with CredSettle.`,
+    heroTitle: getBankH1Title(bankName, 'Business Loan Settlement'),
+    heroDescription: `Get legal help to settle your ${shortName} business loan under RBI rules. Protect your business assets, save money, and clear debt fast.`,
     whyChooseSettlement: generatedContent?.whyChooseSettlement || `Business loan debt can hurt even the strongest firms. If your ${bankName} loan EMIs are too high, you do not have to close down your business. Cash flow drops and late client payments are common. When loan dues take up your cash flow, you need a safe way out. A One-Time Settlement (OTS) with ${bankName} gives you a fresh start. Under RBI rules, you can settle your unpaid loan for a lower lump sum. Most settlements cut the total dues by 30% to 70%. This stops recovery calls right away. It also keeps your business assets safe. You can protect your firm and get back on track in peace.`,
     understandingSettlement: generatedContent?.understandingSettlement || `A business loan settlement with ${bankName} follows RBI One-Time Settlement rules. This path lets a business close an old loan by paying a lower sum. Our legal team sends a formal proposal to ${bankName}. We share clear proof of your business hardship. This includes lower sales or client payment delays. The bank reviews your file and agrees to waive a big part of your dues. Once approved, you get a formal settlement letter. After you pay the agreed sum, the bank gives you a No Dues Certificate and closes the loan for good.`,
     howCredSettleHelps: generatedContent?.howCredSettleHelps || `CredSettle gives you full legal aid to settle your ${bankName} business loan. Our panel of experienced banking lawyers manages the whole process for you. First, we review your loan papers, bank statements, and cash flow. Next, we prepare a strong hardship plan under RBI rules. We submit this directly to ${bankName} and lead all talks. We work hard to cut your total dues by up to 50% or more, including our fees. If you owe ₹50 lakhs, we aim to settle the full amount for ₹25 lakhs or less. We also stop recovery agent calls within 48 hours. When the settlement is complete, we secure your official No Dues Certificate (NOC) and release your collateral.`,

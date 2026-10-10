@@ -1,8 +1,8 @@
-import { getShortBankName, getBankH2Title } from '@/lib/seo-utils';
+import { getShortBankName, getBankH2Title, getBankH1Title } from '@/lib/seo-utils';
 // Import comprehensive bank content generator for NBFC loan settlement
 import { generateBankContent, generateBankSlug, getBankMetaTitle } from './bank-content-generator';
 
-export { getShortBankName, getBankH2Title };
+export { getShortBankName, getBankH2Title, getBankH1Title };
 
 export interface BankContent {
   bankName: string;
@@ -164,17 +164,18 @@ export function getBankContentWithFallback(bankSlug: string): BankContent {
   );
 
   const bankName = bankEntry || bankSlug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+  const shortName = getShortBankName(bankName);
   const slug = bankSlug;
 
   // Default/fallback content structure
   const defaultContent: BankContent = {
     bankName,
     slug,
-    title: `${bankName} NBFC Loan Settlement - Settle Dues Legally`,
+    title: `${shortName} NBFC Loan Settlement Guide | CredSettle`,
     metaTitle: generatedContent?.metaTitle || getBankMetaTitle(bankName),
-    metaDescription: `Struggling with ${bankName} NBFC loan dues? CredSettle helps you settle loan debt legally under RBI rules. Settle up to 50% today.`,
-    heroTitle: `${bankName} NBFC Loan Settlement`,
-    heroDescription: `Get legal help to settle your ${bankName} NBFC loan dues. We use RBI One-Time Settlement rules. Stop recovery calls and become debt-free today.`,
+    metaDescription: `Struggling with ${shortName} NBFC loan dues? CredSettle helps you settle loan debt legally under RBI rules. Settle up to 50% today.`,
+    heroTitle: getBankH1Title(bankName, 'NBFC Loan Settlement'),
+    heroDescription: `Get legal help to settle your ${shortName} NBFC loan dues. We use RBI One-Time Settlement rules. Stop recovery calls and become debt-free today.`,
     whyChooseSettlement: generatedContent?.whyChooseSettlement || `NBFC loan debt can become hard to manage when EMIs get too high. When ${bankName} loan dues pile up, settlement offers a clean exit. CredSettle helps borrowers across India negotiate with ${bankName}. We help reduce your total dues by 30% to 70%. You get full legal safety at every step.`,
     understandingSettlement: generatedContent?.understandingSettlement || `${bankName} loan settlement follows RBI One-Time Settlement rules. You pay a reduced lump sum to close your loan account permanently. CredSettle starts formal talks with ${bankName}. We present your financial hardship with clear proof. Once approved, you pay the agreed sum. ${bankName} then gives you a no dues certificate.`,
     howCredSettleHelps: generatedContent?.howCredSettleHelps || `CredSettle gives you full legal support for ${bankName} loan settlement. Our expert lawyer panel reviews your debts. We write and send a strong settlement plan. Our team handles all calls from recovery agents. We help you settle ${bankName} dues for up to 50% of the total amount. You get genuine debt relief and peace of mind.`,

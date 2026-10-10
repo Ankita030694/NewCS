@@ -45,11 +45,12 @@
   * *Why it happens:* Rich-text or Markdown content in blog articles containing `<h1>` tags (either repeating the post title at the top of the body or using `<h1>` for subheadings).
   * *Prevention:* In `BlogPostPageClient.tsx` (`processDescription`), automatically strip any `<h1>` that duplicates the post title, and demote any remaining `<h1>` subheadings to `<h2>`. Never allow `<h1>` tags inside the rendered body content.
 * **Mistake 14: H1 Heading Over 70 Characters (`H1: Over 70 Characters`)**
-  * *Why it happens:* Long article titles in Firestore/CMS (e.g., 71–91 chars) falling back directly to `blog.title` in `resources/[slug]/page.tsx` when a slug is not mapped in `OPTIMIZED_H1S`.
+  * *Why it happens:* Long article titles in Firestore/CMS (e.g., 71–91 chars) falling back directly to `blog.title` in `resources/[slug]/page.tsx` when a slug is not mapped in `OPTIMIZED_H1S`, OR long bank names (e.g. `Banaskantha District Central Co Operative Bank Business Loan Settlement` at 71 chars) in bank service templates when not shortened.
   * *Prevention:*
     1. Explicitly list resource slugs in `OPTIMIZED_H1S` (strictly 30–65 characters, target 45–55 chars, 0 em-dashes).
     2. Maintain corresponding entries in `OPTIMIZED_TITLES` (50–60 chars) and `OPTIMIZED_DESCRIPTIONS` (140–146 chars) ensuring Title and H1 are strictly distinct to prevent `Page Titles: Same as H1`.
     3. Programmatically clamp dynamic fallbacks with `formatH1Text(rawText, 65)` so unexpected CMS content is cleanly truncated at word/punctuation boundaries without ever exceeding 65 chars.
+    4. For bank service pages (`services/*/banks-content.ts`), always use `getBankH1Title(bankName, serviceTitle)` and `getShortBankName(bankName)` so long cooperative and district bank names (e.g. `Banaskantha District Co-op Bank Business Loan Settlement` = 56 chars) never exceed 65 characters.
 
 ---
 

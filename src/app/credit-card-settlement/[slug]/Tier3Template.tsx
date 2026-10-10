@@ -5,8 +5,11 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import StateGrid from "@/components/StateGrid";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { getShortBankName } from "@/lib/seo-utils";
 
 export default function Tier3Template({ bankName, slug }: { bankName: string; slug: string }) {
+  const shortBankName = getShortBankName(bankName);
+
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -26,7 +29,7 @@ export default function Tier3Template({ bankName, slug }: { bankName: string; sl
       {
         "@type": "ListItem",
         "position": 3,
-        "name": `${bankName} Settlement`,
+        "name": `${shortBankName} Settlement`,
         "item": `https://www.credsettle.com/credit-card-settlement/${slug}`
       }
     ]
@@ -35,8 +38,8 @@ export default function Tier3Template({ bankName, slug }: { bankName: string; sl
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": `Legal ${bankName} Credit Card Settlement Service`,
-    "description": `Experiencing financial hardship? Learn how to settle your ${bankName} credit card debt legally with CredSettle, avoid agent harassment, and obtain an NOC.`,
+    "headline": `Legal ${shortBankName} Credit Card Settlement Service`,
+    "description": `Experiencing financial hardship? Learn how to settle your ${shortBankName} credit card debt legally with CredSettle, avoid agent harassment, and obtain an NOC.`,
     "image": "https://www.credsettle.com/credsettle-logo.svg",
     "author": {
       "@type": "Person",
@@ -61,23 +64,23 @@ export default function Tier3Template({ bankName, slug }: { bankName: string; sl
     "mainEntity": [
       {
         "@type": "Question",
-        "name": `How long does a credit card settlement with ${bankName} take?`,
+        "name": `How long does a credit card settlement with ${shortBankName} take?`,
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": `Most settlements with ${bankName} take 3 to 6 weeks. The exact timeline depends on how fast the bank verifies your financial hardship documents and approves the settlement terms.`
+          "text": `Most settlements with ${shortBankName} take 3 to 6 weeks. The exact timeline depends on how fast the bank verifies your financial hardship documents and approves the settlement terms.`
         }
       },
       {
         "@type": "Question",
-        "name": `Will I receive an official No Objection Certificate (NOC) from ${bankName}?`,
+        "name": `Will I receive an official No Objection Certificate (NOC) from ${shortBankName}?`,
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": `Yes. Once the agreed settlement amount is paid directly into your ${bankName} credit card account, the bank is legally required to issue an official NOC confirming that the account is permanently closed with no pending dues.`
+          "text": `Yes. Once the agreed settlement amount is paid directly into your ${shortBankName} credit card account, the bank is legally required to issue an official NOC confirming that the account is permanently closed with no pending dues.`
         }
       },
       {
         "@type": "Question",
-        "name": `Can ${bankName} file police charges against me for missed credit card payments?`,
+        "name": `Can ${shortBankName} file police charges against me for missed credit card payments?`,
         "acceptedAnswer": {
           "@type": "Answer",
           "text": `No. Credit card default is strictly a civil matter under Indian law. Banks cannot file criminal charges or get you arrested for unpaid credit card debt. CredSettle protects your legal rights if agents make false threats.`
@@ -87,19 +90,19 @@ export default function Tier3Template({ bankName, slug }: { bankName: string; sl
   };
 
   const tocSections = [
-    { id: "why-bills-pile-up", text: `Why ${bankName} Card Bills Pile Up Fast`, level: 2 },
-    { id: "legal-settlement-path", text: `Our Legal Path to Settle with ${bankName}`, level: 3 },
+    { id: "why-bills-pile-up", text: `Why ${shortBankName} Card Bills Pile Up Fast`, level: 2 },
+    { id: "legal-settlement-path", text: `Our Legal Path to Settle with ${shortBankName}`, level: 3 },
     { id: "rbi-borrower-rights", text: `Your Rights Under RBI Rules`, level: 3 },
     { id: "settlement-steps", text: `Four Clear Steps to Settle Dues`, level: 3 },
     { id: "credit-health", text: `Rebuilding Your Credit Score`, level: 3 },
     { id: "frequently-asked-questions", text: `Frequently Asked Questions`, level: 3 },
-    { id: "state-guidelines", text: `State Legal Support for ${bankName}`, level: 3 },
+    { id: "state-guidelines", text: `State Legal Support for ${shortBankName}`, level: 3 },
   ];
 
   const breadcrumbItems = [
     { name: "Home", url: "/" },
     { name: "Credit Card Settlement", url: "/credit-card-settlement" },
-    { name: `${bankName} Settlement`, url: `/credit-card-settlement/${slug}` }
+    { name: `${shortBankName} Settlement`, url: `/credit-card-settlement/${slug}` }
   ];
 
   return (
@@ -116,10 +119,10 @@ export default function Tier3Template({ bankName, slug }: { bankName: string; sl
 
         <div className="text-center max-w-4xl mx-auto my-12">
           <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 tracking-tight">
-            Settle Your <span className="text-blue-600">{bankName}</span> Credit Card Dues
+            Settle Your <span className="text-blue-600">{shortBankName}</span> Credit Card Dues
           </h1>
           <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-            Navigate credit card default safely. CredSettle offers a protected, legally sound pathway to settle your {bankName} debt and regain financial peace of mind.
+            Navigate credit card default safely. CredSettle offers a protected, legally sound pathway to settle your {shortBankName} debt and regain financial peace of mind.
           </p>
         </div>
 
@@ -127,17 +130,17 @@ export default function Tier3Template({ bankName, slug }: { bankName: string; sl
           {/* Main Content Article */}
           <article className="lg:w-2/3 prose prose-lg max-w-none bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
             <h2 id="why-bills-pile-up" className="scroll-mt-24 text-3xl font-bold mb-4 text-gray-900">
-              Why {bankName} Card Bills Pile Up Fast
+              Why {shortBankName} Card Bills Pile Up Fast
             </h2>
             <p className="text-gray-700 leading-relaxed mb-6">
-              Credit cards carry the highest interest rates in India. When you miss even one payment on your {bankName} card, the bank adds late fees and finance charges. In just a few months, your unpaid total can double. Paying the minimum due each month does not clear the card. Almost all of that cash goes to extra fees rather than the base loan. If you have lost a job, faced illness, or had a dip in pay, full payment may feel out of reach. A debt settlement is a legal and practical way to end this debt for good.
+              Credit cards carry the highest interest rates in India. When you miss even one payment on your {shortBankName} card, the bank adds late fees and finance charges. In just a few months, your unpaid total can double. Paying the minimum due each month does not clear the card. Almost all of that cash goes to extra fees rather than the base loan. If you have lost a job, faced illness, or had a dip in pay, full payment may feel out of reach. A debt settlement is a legal and practical way to end this debt for good.
             </p>
 
             <h3 id="legal-settlement-path" className="scroll-mt-24 text-2xl font-bold mb-4 text-gray-900">
-              Our Legal Path to Settle with {bankName}
+              Our Legal Path to Settle with {shortBankName}
             </h3>
             <p className="text-gray-700 leading-relaxed mb-6">
-              CredSettle takes charge of your case from day one. We take over all talks with {bankName} so you do not have to face collection calls alone.
+              CredSettle takes charge of your case from day one. We take over all talks with {shortBankName} so you do not have to face collection calls alone.
             </p>
             <p className="text-gray-700 leading-relaxed mb-6">
               Our legal team talks directly to the senior debt resolution desk at {bankName}. We present clear proof of your financial hardship, such as salary cuts or medical bills. We ask the bank to drop late fines, remove interest, and give a big discount on the principal dues. This lets you settle the card with one fair payment that you can afford.
@@ -189,28 +192,28 @@ export default function Tier3Template({ bankName, slug }: { bankName: string; sl
             </p>
 
             <h3 id="frequently-asked-questions" className="scroll-mt-24 text-2xl font-bold mb-4 text-gray-900">
-              Frequently Asked Questions About {bankName} Settlement
+              Frequently Asked Questions About {shortBankName} Settlement
             </h3>
             <div className="space-y-4 mb-8">
               <div className="border border-gray-200 rounded-xl p-5 bg-white shadow-sm">
                 <h4 className="text-lg font-semibold text-gray-900 mb-2">
-                  How long does a credit card settlement with {bankName} take?
+                  How long does a credit card settlement with {shortBankName} take?
                 </h4>
                 <p className="text-gray-700 text-base leading-relaxed">
-                  Most settlements with {bankName} take 3 to 6 weeks. The exact timeline depends on how fast the bank verifies your financial hardship documents and approves the settlement terms.
+                  Most settlements with {shortBankName} take 3 to 6 weeks. The exact timeline depends on how fast the bank verifies your financial hardship documents and approves the settlement terms.
                 </p>
               </div>
               <div className="border border-gray-200 rounded-xl p-5 bg-white shadow-sm">
                 <h4 className="text-lg font-semibold text-gray-900 mb-2">
-                  Will I receive an official No Objection Certificate (NOC) from {bankName}?
+                  Will I receive an official No Objection Certificate (NOC) from {shortBankName}?
                 </h4>
                 <p className="text-gray-700 text-base leading-relaxed">
-                  Yes. Once the agreed settlement amount is paid directly into your {bankName} credit card account, the bank is legally required to issue an official NOC confirming that the account is permanently closed with no pending dues.
+                  Yes. Once the agreed settlement amount is paid directly into your {shortBankName} credit card account, the bank is legally required to issue an official NOC confirming that the account is permanently closed with no pending dues.
                 </p>
               </div>
               <div className="border border-gray-200 rounded-xl p-5 bg-white shadow-sm">
                 <h4 className="text-lg font-semibold text-gray-900 mb-2">
-                  Can {bankName} file police charges against me for missed credit card payments?
+                  Can {shortBankName} file police charges against me for missed credit card payments?
                 </h4>
                 <p className="text-gray-700 text-base leading-relaxed">
                   No. Credit card default is strictly a civil matter under Indian law. Banks cannot file criminal charges or get you arrested for unpaid credit card debt. CredSettle protects your legal rights if agents make false threats.
@@ -219,7 +222,7 @@ export default function Tier3Template({ bankName, slug }: { bankName: string; sl
             </div>
 
             <h3 id="state-guidelines" className="scroll-mt-24 text-2xl font-bold mb-4 text-gray-900">
-              State Legal Support for {bankName}
+              State Legal Support for {shortBankName}
             </h3>
             <p className="text-gray-700 leading-relaxed mb-6">
               Debt rules and police actions can vary across states. CredSettle has legal partners in every state to safeguard your rights. Select your state below to see how we handle {bankName} card settlements in your area.
