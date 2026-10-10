@@ -78,13 +78,14 @@ const OPTIMIZED_TITLES: Record<string, string> = {
   "the-ultimate-guide-to-loan-settlement-how-to-settle-credit-card-and-personal-loan-debt": "Complete Loan Settlement Guide: Credit Card and Loan Debt",
   "personal-loan-credit-card-debt-settlement-how-credsettle-rescued-a-client-from-harassment": "Personal Loan & Card Debt Settlement: Client Case Study",
   "loan-settlement-in-india-how-to-settle-loans-smartly-with-the-right-loan-settlement-company": "Loan Settlement Company in India: Settle Loans Smartly",
-  "how-loan-settlement-and-anti-harassment-services-transformed-a-clients-life-a-real-life-success-story": "Loan Settlement Anti-Harassment Success Story | CredSettle",
+  "how-loan-settlement-and-anti-harassment-services-transformed-a-client-s-life-a-real-life-success-story": "Loan Settlement Anti-Harassment Story | CredSettle",
+  "how-loan-settlement-and-anti-harassment-services-transformed-a-clients-life-a-real-life-success-story": "Loan Settlement Anti-Harassment Story | CredSettle",
   // New short slug entries (URL ≤ 115 chars)
   "loan-settlement-guide-credit-card-personal-loan-debt": "Complete Loan Settlement Guide: Credit Card and Loan Debt",
   "recovery-agents-rogue-rbi-backed-defences": "Recovery Agents Rogue: Your RBI Defences | CredSettle",
   "personal-loan-credit-card-settlement-credsettle-case-study": "Personal Loan & Card Debt Settlement: Client Case Study",
   "loan-settlement-company-india": "Loan Settlement Company in India: Settle Loans Smartly",
-  "loan-settlement-anti-harassment-success-story": "Loan Settlement Anti-Harassment Success Story | CredSettle",
+  "loan-settlement-anti-harassment-success-story": "Loan Settlement Anti-Harassment Story | CredSettle",
   "clear-loans-solutions-trusted-loan-repayment-guide": "Clear Loans Solutions: Trusted Loan Settlement Guide",
   "sbi-credit-card-debt-relief-smart-strategies-to-reduce-your-financial-burden": "SBI Credit Card Debt Relief Strategies",
   "understanding-ots-full-form-financial-impact": "Understanding OTS Full Form: Financial Impact & Relief",
@@ -146,6 +147,7 @@ const OPTIMIZED_H1S: Record<string, string> = {
   "recovery-agents-gone-rogue-unveiling-the-limits-they-break-and-your-rbi-backed-defences": "Recovery Agents Gone Rogue: Know Your RBI Defences",
   "personal-loan-credit-card-debt-settlement-how-credsettle-rescued-a-client-from-harassment": "CredSettle Case Study: Debt Settlement and Anti-Harassment",
   "loan-settlement-in-india-how-to-settle-loans-smartly-with-the-right-loan-settlement-company": "Settle Loans Smartly with a Trusted Settlement Company",
+  "how-loan-settlement-and-anti-harassment-services-transformed-a-client-s-life-a-real-life-success-story": "How Loan Settlement Transformed a Client Life",
   "how-loan-settlement-and-anti-harassment-services-transformed-a-clients-life-a-real-life-success-story": "How Loan Settlement Transformed a Client Life",
   // New short slug H1 entries (URL ≤ 115 chars)
   "loan-settlement-guide-credit-card-personal-loan-debt": "Ultimate Guide to Settling Credit Card and Loan Debt",
@@ -225,6 +227,7 @@ const OPTIMIZED_DESCRIPTIONS: Record<string, string> = {
   "recovery-agents-gone-rogue-unveiling-the-limits-they-break-and-your-rbi-backed-defences": "Know your RBI-backed rights when recovery agents cross the line. Learn legal limits, complaint steps, and harassment defences with CredSettle.",
   "personal-loan-credit-card-debt-settlement-how-credsettle-rescued-a-client-from-harassment": "See how CredSettle rescued a client from loan harassment. Learn how debt settlement stops recovery agents and resolves outstanding dues legally.",
   "loan-settlement-in-india-how-to-settle-loans-smartly-with-the-right-loan-settlement-company": "Looking for a loan settlement company in India? Learn how to settle personal loans and credit cards smartly, stop harassment, and reduce debt.",
+  "how-loan-settlement-and-anti-harassment-services-transformed-a-client-s-life-a-real-life-success-story": "Read how CredSettle transformed a client life using loan settlement and anti-harassment services. Real results, legal protection, and debt relief.",
   "how-loan-settlement-and-anti-harassment-services-transformed-a-clients-life-a-real-life-success-story": "Read how CredSettle transformed a client life using loan settlement and anti-harassment services. Real results, legal protection, and debt relief.",
   // New short slug descriptions (URL ≤ 115 chars)
   "loan-settlement-guide-credit-card-personal-loan-debt": "Settle credit card and personal loan debt legally in India. Learn the loan settlement process, RBI rights, and relief options with CredSettle.",

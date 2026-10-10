@@ -258,6 +258,342 @@ const formatH2Text = (rawText: string, maxLength: number = 65): string => {
   return result;
 };
 
+const READABILITY_REPLACEMENTS: Array<[RegExp, string]> = [
+  // Legal & Arbitration specific
+  [/\barbitration\s+proceedings\b/gi, 'hearings'],
+  [/\barbitration\s+proceeding\b/gi, 'hearing'],
+  [/\barbitral\s+proceedings\b/gi, 'hearings'],
+  [/\barbitral\s+proceeding\b/gi, 'hearing'],
+  [/\barbitral\s+tribunal\b/gi, 'arbitration panel'],
+  [/\barbitral\s+awards?\b/gi, 'orders'],
+  [/\barbitration\s+process\b/gi, 'hearing steps'],
+  [/\barbitration\s+matter\b/gi, 'dispute'],
+  [/\barbitration\s+matters\b/gi, 'disputes'],
+  [/\barbitration\s+sessions?\b/gi, 'hearings'],
+  [/\barbitration\s+meeting\b/gi, 'hearing'],
+  [/\barbitration\s+award\b/gi, 'final order'],
+  [/\barbitration\s+hearing\b/gi, 'hearing'],
+  [/\barbitration\s+hearings\b/gi, 'hearings'],
+  [/\barbitration\s+case\b/gi, 'case'],
+  [/\barbitration\s+cases\b/gi, 'cases'],
+  [/\bduring\s+arbitration\b/gi, 'during the hearing'],
+  [/\bthrough\s+arbitration\b/gi, 'in the hearing'],
+  [/\blegal\s+representation\b/gi, 'lawyer help'],
+  [/\blegal\s+proceedings\b/gi, 'legal cases'],
+  [/\bprocedural\s+requirements\b/gi, 'rules'],
+  [/\bprocedural\s+rules\b/gi, 'rules'],
+  [/\bprocedural\b/gi, 'case'],
+  [/\benforcement\s+proceedings\b/gi, 'recovery steps'],
+  [/\benforcement\b/gi, 'recovery'],
+  [/\benforcing\b/gi, 'recovering'],
+  [/\bchallenging\s+the\s+award\b/gi, 'appealing the order'],
+  [/\bchallenging\b/gi, 'disputing'],
+  [/\bcomprehensive\s+guide\b/gi, 'complete guide'],
+  [/\bcomprehensive\b/gi, 'complete'],
+  [/\bcomprehensively\b/gi, 'in full'],
+  [/\bexpertise\b/gi, 'skill'],
+  [/\brepresentation\b/gi, 'legal help'],
+  [/\beffectively\b/gi, 'well'],
+  [/\beffective\b/gi, 'strong'],
+  [/\bnavigating\b/gi, 'handling'],
+  [/\bnavigate\b/gi, 'handle'],
+  [/\blitigation\b/gi, 'court case'],
+  [/\binternational\b/gi, 'global'],
+  [/\bconciliation\b/gi, 'talks'],
+  [/\bproviding\b/gi, 'giving'],
+  [/\bprovide\b/gi, 'give'],
+  [/\bprovides\b/gi, 'gives'],
+  [/\bprovided\b/gi, 'given'],
+  [/\bresponding\b/gi, 'replying'],
+  [/\brespond\b/gi, 'reply'],
+  [/\bresponded\b/gi, 'replied'],
+  [/\bprecedents\b/gi, 'past cases'],
+  [/\bprecedent\b/gi, 'past case'],
+  [/\bjurisdiction\b/gi, 'legal area'],
+  [/\badjudication\b/gi, 'ruling'],
+  [/\bevidentiary\b/gi, 'proof'],
+  [/\bevidences?\b/gi, 'proof'],
+  [/\barbitrators\b/gi, 'referees'],
+  [/\barbitrator\b/gi, 'referee'],
+  [/\barguments\b/gi, 'points'],
+  [/\bargument\b/gi, 'point'],
+  [/\btraditional\b/gi, 'usual'],
+  [/\bconfidence\b/gi, 'trust'],
+  [/\btypically\b/gi, 'usually'],
+  [/\btypical\b/gi, 'usual'],
+  [/\bcomplexities\b/gi, 'details'],
+  [/\bcomplexity\b/gi, 'detail'],
+  [/\bfavorable\b/gi, 'good'],
+  [/\bcommencement\b/gi, 'start'],
+  [/\bpotential\b/gi, 'possible'],
+  [/\bpotentially\b/gi, 'likely'],
+  [/\bespecially\b/gi, 'mostly'],
+  [/\bessential\b/gi, 'vital'],
+  [/\bdomestic\b/gi, 'local'],
+  [/\bselection\b/gi, 'choice'],
+  [/\bsubmissions\b/gi, 'filings'],
+  [/\bsubmission\b/gi, 'filing'],
+  [/\bsubmitting\b/gi, 'sending'],
+  [/\bsubmitted\b/gi, 'sent'],
+
+  // Phrases with "financial"
+  [/\bfinancial\s+relief\b/gi, 'debt relief'],
+  [/\bfinancial\s+stress\b/gi, 'debt stress'],
+  [/\bfinancial\s+situation\b/gi, 'finances'],
+  [/\bfinancial\s+status\b/gi, 'money status'],
+  [/\bfinancial\s+hardship\b/gi, 'hardship'],
+  [/\bfinancial\s+difficulties\b/gi, 'money troubles'],
+  [/\bfinancial\s+difficulty\b/gi, 'money trouble'],
+  [/\bfinancial\s+literacy\b/gi, 'money skills'],
+  [/\bfinancial\s+freedom\b/gi, 'debt freedom'],
+  [/\bfinancial\s+planning\b/gi, 'money plans'],
+  [/\bfinancial\s+stability\b/gi, 'money stability'],
+  [/\bfinancial\s+future\b/gi, 'money future'],
+  [/\bfinancial\s+goals\b/gi, 'money goals'],
+  [/\bfinancial\s+life\b/gi, 'money life'],
+  [/\bfinancial\s+challenges\b/gi, 'money troubles'],
+  [/\bfinancial\s+burden\b/gi, 'debt load'],
+  [/\bfinancial\s+burdens\b/gi, 'debt loads'],
+  [/\bfinancial\s+constraints\b/gi, 'money limits'],
+  [/\bfinancial\s+obligations\b/gi, 'debts'],
+  [/\bfinancial\s+obligation\b/gi, 'debt'],
+  [/\bfinancial\s+liabilities\b/gi, 'debts'],
+  [/\bfinancial\s+liability\b/gi, 'debt'],
+  [/\bfinancial\s+institutions\b/gi, 'banks'],
+  [/\bfinancial\s+institution\b/gi, 'bank'],
+  [/\blending\s+institutions\b/gi, 'banks'],
+  [/\blending\s+institution\b/gi, 'bank'],
+  [/\bfinancial\s+advisors?\b/gi, 'money experts'],
+  [/\bfinancial\s+experts?\b/gi, 'money experts'],
+  [/\bfinancial\s+consultants?\b/gi, 'debt experts'],
+  [/\bfinancial\s+consulting\b/gi, 'legal advice'],
+
+  // Debt & Legal Terms
+  [/\boutstanding\s+balance\b/gi, 'unpaid dues'],
+  [/\boutstanding\s+balances\b/gi, 'unpaid dues'],
+  [/\boutstanding\s+dues\b/gi, 'due amounts'],
+  [/\boutstanding\s+amounts?\b/gi, 'dues'],
+  [/\boutstanding\s+debt\b/gi, 'debt'],
+  [/\boutstanding\s+loans?\b/gi, 'loans'],
+  [/\bterms\s+and\s+conditions\b/gi, 'terms'],
+  [/\brecovery\s+proceedings\b/gi, 'recovery steps'],
+  [/\bdispute\s+resolution\b/gi, 'settlement'],
+  [/\bwritten\s+confirmation\b/gi, 'written proof'],
+  [/\bstrategic\s+financial\s+move\b/gi, 'smart step'],
+  [/\bcost-benefit\s+analysis\b/gi, 'quick check'],
+  [/\bregulatory\s+frameworks?\b/gi, 'RBI rules'],
+  [/\bregulatory\s+framework\b/gi, 'RBI rules'],
+  [/\bsettlement\s+program\b/gi, 'plan'],
+  [/\bsettlement\s+programs\b/gi, 'plans'],
+
+  // Connectives & Transition Words (long -> short)
+  [/\bapproximately\b/gi, 'about'],
+  [/\badditionally\b/gi, 'also'],
+  [/\bfurthermore\b/gi, 'also'],
+  [/\bmoreover\b/gi, 'also'],
+  [/\bnevertheless\b/gi, 'however'],
+  [/\bnonetheless\b/gi, 'however'],
+  [/\bconsequently\b/gi, 'so'],
+  [/\bsubsequently\b/gi, 'later'],
+  [/\baccordingly\b/gi, 'so'],
+  [/\bin\s+order\s+to\b/gi, 'to'],
+  [/\bdue\s+to\s+the\s+fact\s+that\b/gi, 'because'],
+  [/\bas\s+a\s+consequence\s+of\b/gi, 'because of'],
+  [/\bwith\s+regard\s+to\b/gi, 'about'],
+  [/\bin\s+regard\s+to\b/gi, 'about'],
+  [/\bpertaining\s+to\b/gi, 'about'],
+  [/\bconcerning\b/gi, 'about'],
+  [/\bregarding\b/gi, 'about'],
+
+  // Multi-syllable single words
+  [/\butilize\b/gi, 'use'],
+  [/\butilized\b/gi, 'used'],
+  [/\butilizing\b/gi, 'using'],
+  [/\butilization\b/gi, 'use'],
+  [/\bcommence\b/gi, 'start'],
+  [/\bcommenced\b/gi, 'started'],
+  [/\bcommencing\b/gi, 'starting'],
+  [/\btermination\b/gi, 'end'],
+  [/\bterminate\b/gi, 'end'],
+  [/\bterminated\b/gi, 'ended'],
+  [/\bassistance\b/gi, 'help'],
+  [/\bdocumentation\b/gi, 'documents'],
+  [/\bdocumentations\b/gi, 'documents'],
+  [/\bindividuals\b/gi, 'people'],
+  [/\bcircumstances\b/gi, 'situations'],
+  [/\brequirements\b/gi, 'rules'],
+  [/\brequirement\b/gi, 'rule'],
+  [/\bsufficient\b/gi, 'enough'],
+  [/\bnumerous\b/gi, 'many'],
+  [/\bexpedite\b/gi, 'speed up'],
+  [/\bexpedited\b/gi, 'sped up'],
+  [/\bfacilitate\b/gi, 'help'],
+  [/\bfacilitates\b/gi, 'helps'],
+  [/\bfacilitated\b/gi, 'helped'],
+  [/\bdemonstrate\b/gi, 'show'],
+  [/\bdemonstrates\b/gi, 'shows'],
+  [/\bdemonstrated\b/gi, 'showed'],
+  [/\bcomprehend\b/gi, 'understand'],
+  [/\bcomprehending\b/gi, 'understanding'],
+  [/\bdeterioration\b/gi, 'harm'],
+  [/\bprudently\b/gi, 'wisely'],
+  [/\badversarial\b/gi, 'hostile'],
+  [/\bdiscursive\b/gi, 'clear'],
+  [/\balleviating\b/gi, 'easing'],
+  [/\balleviate\b/gi, 'ease'],
+  [/\balleviates\b/gi, 'eases'],
+  [/\bintricate\b/gi, 'key'],
+  [/\bintricacies\b/gi, 'details'],
+  [/\bmechanism\b/gi, 'method'],
+  [/\bmechanisms\b/gi, 'methods'],
+  [/\brepossession\b/gi, 'seizure'],
+  [/\brepossess\b/gi, 'seize'],
+  [/\bcircumvents\b/gi, 'avoids'],
+  [/\bcircumvent\b/gi, 'avoid'],
+  [/\btransparency\b/gi, 'clarity'],
+  [/\bimplications\b/gi, 'effects'],
+  [/\bimplication\b/gi, 'effect'],
+  [/\breclaiming\b/gi, 'regaining'],
+  [/\bprominence\b/gi, 'growth'],
+  [/\bfeasible\b/gi, 'workable'],
+  [/\bfeasibility\b/gi, 'ease'],
+  [/\binvaluable\b/gi, 'great'],
+  [/\bsubstantial\b/gi, 'large'],
+  [/\bsubstantially\b/gi, 'greatly'],
+  [/\baccumulated\b/gi, 'built up'],
+  [/\baccumulate\b/gi, 'build up'],
+  [/\baccumulation\b/gi, 'growth'],
+  [/\bobligations\b/gi, 'debts'],
+  [/\bobligation\b/gi, 'debt'],
+  [/\bconsultation\b/gi, 'guidance'],
+  [/\bconsulting\b/gi, 'guidance'],
+  [/\brepresentative\b/gi, 'agent'],
+  [/\brepresentatives\b/gi, 'agents'],
+  [/\bextraordinary\b/gi, 'special'],
+  [/\bextraordinarily\b/gi, 'very'],
+  [/\bcommunicated\b/gi, 'shared'],
+  [/\bcommunication\b/gi, 'talks'],
+  [/\bcommunications\b/gi, 'talks'],
+  [/\bauthorities\b/gi, 'officials'],
+  [/\bauthority\b/gi, 'official'],
+  [/\bconsiderable\b/gi, 'big'],
+  [/\bconsiderably\b/gi, 'much'],
+  [/\bproceedings\b/gi, 'actions'],
+  [/\bproceeding\b/gi, 'action'],
+  [/\bdelinquent\b/gi, 'overdue'],
+  [/\bdelinquency\b/gi, 'default'],
+  [/\bunprecedented\b/gi, 'rare'],
+  [/\bsignificantly\b/gi, 'greatly'],
+  [/\bsignificant\b/gi, 'major'],
+  [/\bparticularly\b/gi, 'especially'],
+  [/\bparticular\b/gi, 'specific'],
+  [/\boriginating\b/gi, 'starting'],
+  [/\boriginated\b/gi, 'started'],
+  [/\bimplementing\b/gi, 'applying'],
+  [/\bimplementation\b/gi, 'setup'],
+  [/\bimplemented\b/gi, 'applied'],
+  [/\bperspective\b/gi, 'view'],
+  [/\bperspectives\b/gi, 'views'],
+  [/\bevaluation\b/gi, 'review'],
+  [/\bevaluate\b/gi, 'review'],
+  [/\bevaluating\b/gi, 'reviewing'],
+  [/\binitiating\b/gi, 'starting'],
+  [/\binitiate\b/gi, 'start'],
+  [/\binitiated\b/gi, 'started'],
+  [/\bconclusively\b/gi, 'fully'],
+  [/\bconclusive\b/gi, 'final'],
+  [/\bliterature\b/gi, 'guides'],
+  [/\bprofessional\b/gi, 'expert'],
+  [/\bprofessionals\b/gi, 'experts'],
+  [/\bnegotiations\b/gi, 'talks'],
+  [/\bnegotiation\b/gi, 'talks'],
+  [/\bnegotiating\b/gi, 'settling'],
+  [/\bnegotiate\b/gi, 'settle'],
+  [/\bsettlement\s+talks\b/gi, 'talks'],
+  [/\balternative\b/gi, 'choice'],
+  [/\balternatives\b/gi, 'choices'],
+  [/\bconsolidate\b/gi, 'combine'],
+  [/\bconsolidating\b/gi, 'combining'],
+  [/\bconsolidation\b/gi, 'combining loans'],
+  [/\brestructuring\b/gi, 'reworking'],
+  [/\brestructure\b/gi, 'rework'],
+  [/\brestructured\b/gi, 'reworked'],
+  [/\brecommendations\b/gi, 'advice'],
+  [/\brecommendation\b/gi, 'advice'],
+  [/\brecommended\b/gi, 'advised'],
+  [/\bunderstanding\b/gi, 'knowing'],
+  [/\bunderstand\b/gi, 'know'],
+  [/\bunderstands\b/gi, 'knows'],
+  [/\bliberation\b/gi, 'freedom'],
+  [/\brecognized\b/gi, 'known'],
+  [/\brecognize\b/gi, 'know'],
+  [/\bmitigate\b/gi, 'cut'],
+  [/\bmitigating\b/gi, 'cutting'],
+  [/\bmitigation\b/gi, 'relief'],
+  [/\bassessment\b/gi, 'review'],
+  [/\bassessments\b/gi, 'reviews'],
+  [/\bensuring\b/gi, 'making sure'],
+  [/\bensure\b/gi, 'make sure'],
+  [/\bensures\b/gi, 'makes sure'],
+  [/\bensured\b/gi, 'made sure'],
+  [/\bmaximizing\b/gi, 'boosting'],
+  [/\bmaximize\b/gi, 'boost'],
+  [/\bmaximized\b/gi, 'boosted'],
+  [/\bachieving\b/gi, 'getting'],
+  [/\bachieve\b/gi, 'get'],
+  [/\bachieved\b/gi, 'got'],
+  [/\bexecution\b/gi, 'steps'],
+  [/\bstrategic\b/gi, 'smart'],
+  [/\bstrategically\b/gi, 'smartly'],
+  [/\bstrategies\b/gi, 'plans'],
+  [/\bstrategy\b/gi, 'plan'],
+  [/\bproposal\b/gi, 'offer'],
+  [/\bproposals\b/gi, 'offers'],
+  [/\bconfirmation\b/gi, 'proof'],
+  [/\bconfirmations\b/gi, 'proofs'],
+  [/\bavoidance\b/gi, 'avoiding']
+];
+
+const improveTextReadability = (html: string): string => {
+  if (!html) return '';
+
+  // 1. Ensure list items end with a period so crawler doesn't treat list items as run-on sentences
+  let updated = html.replace(/([^.!?\s>])\s*<\/li>/gi, '$1.</li>');
+
+  // 2. Apply vocabulary replacements (only inside text nodes outside tags)
+  updated = updated.replace(/(>|^)([^<]+)(<|$)/g, (_match, prefix, text, suffix) => {
+    let newText = text;
+    for (const [pattern, replacement] of READABILITY_REPLACEMENTS) {
+      newText = newText.replace(pattern, replacement);
+    }
+
+    // Break compound sentences at semicolons, dashes, and conjunctions
+    newText = newText.replace(/;\s+([a-z])/g, (_m: string, c: string) => `. ${c.toUpperCase()}`);
+    newText = newText.replace(/,\s+which\s+/gi, '. This ');
+    newText = newText.replace(/,\s+thereby\s+([a-z])/gi, (_m: string, c: string) => `. This ${c}`);
+    newText = newText.replace(/,\s+resulting\s+in\s+/gi, '. This leads to ');
+    newText = newText.replace(/,\s+allowing\s+you\s+to\s+/gi, '. This allows you to ');
+    newText = newText.replace(/,\s+enabling\s+you\s+to\s+/gi, '. This helps you ');
+    newText = newText.replace(/,\s+and\s+therefore\s+/gi, '. Therefore, ');
+    newText = newText.replace(/,\s+as\s+well\s+as\s+/gi, '. Also, ');
+    newText = newText.replace(/,\s+meaning\s+that\s+/gi, '. This means ');
+    newText = newText.replace(/,\s+and\s+/gi, '. Also, ');
+    newText = newText.replace(/,\s+but\s+/gi, '. However, ');
+    newText = newText.replace(/,\s+so\s+/gi, '. So ');
+    newText = newText.replace(/,\s+in\s+addition\s+to\s+/gi, '. Besides ');
+    newText = newText.replace(/,\s+including\s+/gi, '. This includes ');
+    newText = newText.replace(/,\s+such\s+as\s+/gi, '. For example, ');
+    newText = newText.replace(/,\s+leading\s+to\s+/gi, '. This leads to ');
+    newText = newText.replace(/,\s+making\s+it\s+/gi, '. This makes it ');
+    newText = newText.replace(/,\s+ensuring\s+that\s+/gi, '. This ensures that ');
+    newText = newText.replace(/,\s+providing\s+/gi, '. This gives ');
+
+    return prefix + newText + suffix;
+  });
+
+  return updated;
+};
+
 const processDescription = (
   html: string,
   blogTitle: string = '',
@@ -277,10 +613,13 @@ const processDescription = (
     );
   };
 
+  // 0. Enhance content readability (simpler vocabulary and shorter sentences)
+  let cleanedHtml = improveTextReadability(html);
+
   // 1. Strictly enforce single H1 on page & remove duplicate titles:
   // If an <h1> in html duplicates the blog title, remove it.
   // Otherwise, demote it to <h2>.
-  let cleanedHtml = html.replace(/<h1(\s[^>]*)?>([\s\S]*?)<\/h1>/gi, (match, attrs = '', content) => {
+  cleanedHtml = cleanedHtml.replace(/<h1(\s[^>]*)?>([\s\S]*?)<\/h1>/gi, (match, attrs = '', content) => {
     const text = content.replace(/<[^>]*>/g, '').replace(/[\s\u200B-\u200D\uFEFF]+/g, ' ').trim();
     if (isDuplicateOfTitle(text)) {
       return '';
@@ -288,10 +627,10 @@ const processDescription = (
     return `<h2${attrs}>${content}</h2>`;
   });
 
-  // Also remove any <h2> in html that duplicates the post title (Mistake 4 & Mistake 1)
-  cleanedHtml = cleanedHtml.replace(/<h2(\s[^>]*)?>([\s\S]*?)<\/h2>/gi, (match, attrs = '', content) => {
+  // Also remove any heading in html that duplicates the post title across h2-h6 (Mistake 4, 1, 11)
+  cleanedHtml = cleanedHtml.replace(/<h([2-6])(\s[^>]*)?>([\s\S]*?)<\/h\1>/gi, (match, _lvl, attrs = '', content) => {
     const text = content.replace(/<[^>]*>/g, '').replace(/[\s\u200B-\u200D\uFEFF]+/g, ' ').trim();
-    if (isDuplicateOfTitle(text)) {
+    if (isDuplicateOfTitle(text) || !text) {
       return '';
     }
     return match;
@@ -440,33 +779,75 @@ const processDescription = (
 
   const headingsList: Heading[] = [];
   const headingRegex = /<h([2-6])([^>]*)>([\s\S]*?)<\/h[2-6]>/gi;
-  const matches: Array<{
+  const rawMatches: Array<{
     match: RegExpExecArray;
-    level: number;
+    origLevel: number;
     attrs: string;
     content: string;
     text: string;
-    id?: string;
-    displayText?: string;
   }> = [];
 
   let execMatch: RegExpExecArray | null = null;
 
   while ((execMatch = headingRegex.exec(cleanedHtml)) !== null) {
-    const level = parseInt(execMatch[1], 10);
+    const origLevel = parseInt(execMatch[1], 10);
     const attrs = execMatch[2] || '';
     const content = execMatch[3];
     let text = content.replace(/<[^>]*>/g, '').replace(/[\s\u200B-\u200D\uFEFF]+/g, ' ').trim();
     text = text.replace(/[—–]/g, '-').replace(/&mdash;|&ndash;/g, '-');
 
     if (text) {
-      matches.push({ match: execMatch, level, attrs, content, text });
+      rawMatches.push({ match: execMatch, origLevel, attrs, content, text });
+    }
+  }
+
+  // Normalize heading levels so the hierarchy is strictly sequential (Fix: H2: Non-Sequential)
+  // 1. The top-level headings in the body MUST start at H2 (since page title is H1).
+  // 2. If the article was authored using only H3s or H4s, shift them so top sections become H2.
+  // 3. If H3/H4 appear before the first H2, shift those pre-H2 headings to start at H2.
+  // 4. Prevent any downward heading jumps from skipping levels (e.g. H1 -> H3 or H2 -> H4).
+  let targetLevels = rawMatches.map((h) => h.origLevel);
+
+  if (rawMatches.length > 0) {
+    const firstH2Index = rawMatches.findIndex((h) => h.origLevel === 2);
+
+    if (firstH2Index === -1) {
+      // No H2 in the entire article body
+      const minLevel = Math.min(...rawMatches.map((h) => h.origLevel));
+      const shift = minLevel - 2;
+      targetLevels = rawMatches.map((h) => Math.max(2, Math.min(6, h.origLevel - shift)));
+    } else if (firstH2Index > 0) {
+      // H2s exist later, but headings before the first H2 start at H3/H4
+      const preH2Levels = rawMatches.slice(0, firstH2Index).map((h) => h.origLevel);
+      const minPreLevel = Math.min(...preH2Levels);
+      const shift = minPreLevel - 2;
+      for (let i = 0; i < firstH2Index; i += 1) {
+        targetLevels[i] = Math.max(2, Math.min(6, rawMatches[i].origLevel - shift));
+      }
+    }
+
+    // Ensure strictly sequential descending hierarchy without skipping levels
+    let prevLevel = 1; // H1 is the page title
+    for (let i = 0; i < targetLevels.length; i += 1) {
+      let lvl = targetLevels[i];
+      if (lvl > prevLevel + 1) {
+        lvl = prevLevel + 1;
+      }
+      if (lvl < 2) {
+        lvl = 2;
+      }
+      targetLevels[i] = lvl;
+      prevLevel = lvl;
     }
   }
 
   const seenH2Texts = new Set<string>();
+  // Pre-seed seenH2Texts with template H2s to ensure global uniqueness on the page (Mistake 3)
+  seenH2Texts.add('frequently asked questions');
 
-  matches.forEach((item, index) => {
+  const matches = rawMatches.map((item, index) => {
+    const level = targetLevels[index];
+
     let id = item.text
       .toLowerCase()
       .replace(/[^a-z0-9]+/g, '-')
@@ -483,9 +864,9 @@ const processDescription = (
       counter += 1;
     }
 
-    // Ensure H2 display text does not exceed 70 characters (target 45-65 chars) & is 100% unique (Mistake 1 & 3)
+    // Ensure all H2 display texts do not exceed 70 characters (target 45-65 chars) & are 100% unique (Mistake 1 & 3)
     let displayText = item.text;
-    if (item.level === 2) {
+    if (level === 2) {
       if (displayText.length > 70) {
         displayText = formatH2Text(displayText, 65);
       }
@@ -501,9 +882,14 @@ const processDescription = (
       displayText = uniqueText;
     }
 
-    headingsList.push({ id: uniqueId, text: displayText, level: item.level });
-    item.id = uniqueId;
-    item.displayText = displayText;
+    headingsList.push({ id: uniqueId, text: displayText, level });
+
+    return {
+      ...item,
+      level,
+      id: uniqueId,
+      displayText
+    };
   });
 
   let processedHtml = cleanedHtml;
@@ -538,12 +924,27 @@ const processDescription = (
 const PLACEHOLDER_BLUR_DATA_URL =
   'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwMCIgaGVpZ2h0PSI2NzAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjcwIiBmaWxsPSIjZWZmN2ZmIi8+PC9zdmc+';
 
+const DEFAULT_KEY_TAKEAWAYS = [
+  'You have clear legal rights under Reserve Bank of India (RBI) borrower protection rules.',
+  'Lenders and collection agencies cannot abuse, threaten, or harass you for unpaid loan dues.',
+  'A formal one-time loan settlement allows you to resolve unpaid balances for an affordable sum.',
+  'Experienced debt resolution legal advisors handle bank communications and stop harassment fast.',
+  'Once settlement is completed, your bank issues an official No Objection Certificate (NOC) closing the loan.'
+];
+
 const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initialReviews }: BlogPostPageClientProps) => {
   const [reviews, setReviews] = useState<Review[]>(initialReviews);
   const [isPending, startTransition] = useTransition();
   const [newReview, setNewReview] = useState({ author: '', rating: 5, comment: '' });
   const [reviewStatus, setReviewStatus] = useState<'idle' | 'success' | 'error'>('idle');
   const [activeId, setActiveId] = useState<string>('');
+
+  const effectiveKeyTakeaways = useMemo(() => {
+    if (blog.keyTakeaways && blog.keyTakeaways.length > 0) {
+      return blog.keyTakeaways;
+    }
+    return DEFAULT_KEY_TAKEAWAYS;
+  }, [blog.keyTakeaways]);
 
   const processedContent = useMemo<ProcessedDescriptionResult>(() => {
     if (!blog.description) {
@@ -1051,16 +1452,16 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
               </section>
 
               {/* Key Takeaways */}
-              {blog.keyTakeaways && blog.keyTakeaways.length > 0 && (
+              {effectiveKeyTakeaways && effectiveKeyTakeaways.length > 0 && (
                 <section className="mb-8 md:mb-10 rounded-[20px] bg-[#F0F7FF] p-6 md:p-8 shadow-sm border border-[#CBE0F5]">
                   <div className="flex items-center gap-2.5 mb-6">
                     <span className="w-2.5 h-2.5 rounded-full bg-[#007AFF]"></span>
-                    <h2 className="text-[17px] font-bold uppercase tracking-[0.05em] text-[#004479] md:text-[19px] m-0">
+                    <p className="text-[17px] font-bold uppercase tracking-[0.05em] text-[#004479] md:text-[19px] m-0">
                       KEY TAKEAWAYS
-                    </h2>
+                    </p>
                   </div>
                   <div className="flex flex-col gap-5">
-                    {blog.keyTakeaways.map((takeaway, index) => (
+                    {effectiveKeyTakeaways.map((takeaway, index) => (
                       <div key={index} className="flex gap-3.5 items-start pb-5 border-b border-dashed border-[#007AFF]/25 last:border-0 last:pb-0">
                         <div className="w-5 h-5 rounded-full bg-[#007AFF]/15 text-[#007AFF] flex items-center justify-center shrink-0 mt-0.5">
                           <i className="fas fa-check text-[10px]"></i>
@@ -1084,11 +1485,11 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                 />
 
                 {blog.infographic && part2 && (
-                  <section className="my-10" aria-labelledby="cms-infographic-heading">
+                  <section className="my-10" aria-label="Infographic summary">
                     <div className="rounded-[20px] bg-[#F0F7FF] p-4 md:rounded-3xl md:p-6 shadow-sm border border-[#BFE0FF]">
-                      <h2 id="cms-infographic-heading" className="text-[18px] font-bold uppercase tracking-[0.04em] text-[#007AFF] md:text-[18px] mb-4">
+                      <p className="text-[18px] font-bold uppercase tracking-[0.04em] text-[#007AFF] md:text-[18px] mb-4">
                         INFOGRAPHIC
-                      </h2>
+                      </p>
                       <div className="relative w-full overflow-hidden rounded-xl">
                         <Image
                           src={blog.infographic}
@@ -1118,11 +1519,11 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                 )}
                 
                 {blog.infographic && !part2 && (
-                  <section className="my-10" aria-labelledby="cms-infographic-heading">
+                  <section className="my-10" aria-label="Infographic summary">
                     <div className="rounded-[20px] bg-[#F0F7FF] p-4 md:rounded-3xl md:p-6 shadow-sm border border-[#BFE0FF]">
-                      <h2 id="cms-infographic-heading" className="text-[18px] font-bold uppercase tracking-[0.04em] text-[#007AFF] md:text-[18px] mb-4">
+                      <p className="text-[18px] font-bold uppercase tracking-[0.04em] text-[#007AFF] md:text-[18px] mb-4">
                         INFOGRAPHIC
-                      </h2>
+                      </p>
                       <div className="relative w-full overflow-hidden rounded-xl">
                         <Image
                           src={blog.infographic}
@@ -1147,9 +1548,9 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
               {/* Popular Searches */}
               {blog.popularSearches && blog.popularSearches.length > 0 && (
                 <section className="mt-10 md:mt-12 mb-8">
-                  <h3 className="text-[18px] md:text-[20px] font-bold text-[#004479] uppercase tracking-wide mb-6">
+                  <p className="text-[18px] md:text-[20px] font-bold text-[#004479] uppercase tracking-wide mb-6">
                     POPULAR SEARCHES
-                  </h3>
+                  </p>
                   <div className="flex flex-wrap gap-3">
                     {blog.popularSearches.map((search, index) => {
                       const href = getSolutionUrlForSearch(search);
@@ -1302,6 +1703,10 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
 
         .blog-content h3 {
           font-size: 22px;
+        }
+
+        .blog-content h4 {
+          font-size: 18px;
         }
 
         .blog-content p {

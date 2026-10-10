@@ -311,7 +311,22 @@ const nextConfig: NextConfig = {
       permanent: true,
       },
       {
+      source: "/resources/how-loan-settlement-and-anti-harassment-services-transformed-a-client-s-life-a-real-life-success-story",
+      destination: "/resources/loan-settlement-anti-harassment-success-story",
+      permanent: true,
+      },
+      {
       source: "/resources/how-loan-settlement-and-anti-harassment-services-transformed-a-clients-life-a-real-life-success-story",
+      destination: "/resources/loan-settlement-anti-harassment-success-story",
+      permanent: true,
+      },
+      {
+      source: "/blogs/how-loan-settlement-and-anti-harassment-services-transformed-a-client-s-life-a-real-life-success-story",
+      destination: "/resources/loan-settlement-anti-harassment-success-story",
+      permanent: true,
+      },
+      {
+      source: "/blogs/how-loan-settlement-and-anti-harassment-services-transformed-a-clients-life-a-real-life-success-story",
       destination: "/resources/loan-settlement-anti-harassment-success-story",
       permanent: true,
       },

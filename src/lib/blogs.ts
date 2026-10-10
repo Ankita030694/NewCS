@@ -98,6 +98,7 @@ function mapDocToBlogDocument(
     'the-ultimate-guide-to-loan-settlement-how-to-settle-credit-card-and-personal-loan-debt': 'loan-settlement-guide-credit-card-personal-loan-debt',
     'recovery-agents-gone-rogue-unveiling-the-limits-they-break-and-your-rbi-backed-defences': 'recovery-agents-rogue-rbi-backed-defences',
     'personal-loan-credit-card-debt-settlement-how-credsettle-rescued-a-client-from-harassment': 'personal-loan-credit-card-settlement-credsettle-case-study',
+    'how-loan-settlement-and-anti-harassment-services-transformed-a-client-s-life-a-real-life-success-story': 'loan-settlement-anti-harassment-success-story',
     'how-loan-settlement-and-anti-harassment-services-transformed-a-clients-life-a-real-life-success-story': 'loan-settlement-anti-harassment-success-story',
     'clear-loans-solutions-expert-settlement-advice-from-a-trusted-loan-repayment-company': 'clear-loans-solutions-trusted-loan-repayment-guide',
   };
@@ -250,7 +251,7 @@ export async function getBlogBySlug(slug: string): Promise<BlogDocument | null> 
     'loan-settlement-guide-credit-card-personal-loan-debt': 'the-ultimate-guide-to-loan-settlement-how-to-settle-credit-card-and-personal-loan-debt',
     'recovery-agents-rogue-rbi-backed-defences': 'recovery-agents-gone-rogue-unveiling-the-limits-they-break-and-your-rbi-backed-defences',
     'personal-loan-credit-card-settlement-credsettle-case-study': 'personal-loan-credit-card-debt-settlement-how-credsettle-rescued-a-client-from-harassment',
-    'loan-settlement-anti-harassment-success-story': 'how-loan-settlement-and-anti-harassment-services-transformed-a-clients-life-a-real-life-success-story',
+    'loan-settlement-anti-harassment-success-story': 'how-loan-settlement-and-anti-harassment-services-transformed-a-client-s-life-a-real-life-success-story',
     'clear-loans-solutions-trusted-loan-repayment-guide': 'clear-loans-solutions-expert-settlement-advice-from-a-trusted-loan-repayment-company',
   };
 
@@ -267,8 +268,11 @@ export async function getBlogBySlug(slug: string): Promise<BlogDocument | null> 
   const findBlog = (list: BlogDocument[]) => {
     return (
       list.find((blog) => canonicaliseSlug(blog.slug) === canonical) ??
+      list.find((blog) => canonicaliseSlug(blog.slug) === canonicaliseSlug(slug)) ??
       list.find((blog) => canonicaliseSlug(generateSlugFromTitle(blog.title)) === canonical) ??
-      list.find((blog) => canonicaliseSlug(blog.id) === canonical)
+      list.find((blog) => canonicaliseSlug(generateSlugFromTitle(blog.title)) === canonicaliseSlug(slug)) ??
+      list.find((blog) => canonicaliseSlug(blog.id) === canonical) ??
+      list.find((blog) => canonicaliseSlug(blog.id) === canonicaliseSlug(slug))
     );
   };
 
