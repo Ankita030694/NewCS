@@ -46,7 +46,20 @@ export function sanitizeMetaTitle(rawTitle?: string, brand = 'CredSettle'): stri
     .trim();
 
   const withBrand = `${clean} | ${brand}`;
-  if (withBrand.length >= 30 && withBrand.length <= 58 && getMetaTitlePixelWidth(withBrand) <= 550) return withBrand;
+  if (withBrand.length >= 50 && withBrand.length <= 58 && getMetaTitlePixelWidth(withBrand) <= 550) return withBrand;
+  if (withBrand.length >= 30 && withBrand.length < 50 && getMetaTitlePixelWidth(withBrand) <= 550) {
+    const extensions = [
+      `${clean} Legal Help | ${brand}`,
+      `${clean} Expert Help | ${brand}`,
+      `${clean} Guide | ${brand}`,
+      `${clean} Relief | ${brand}`,
+      `${clean} Help | ${brand}`
+    ];
+    for (const ext of extensions) {
+      if (ext.length >= 50 && ext.length <= 58 && getMetaTitlePixelWidth(ext) <= 550) return ext;
+    }
+    return withBrand;
+  }
   if (withBrand.length < 30) {
     const extended = `${withBrand} Legal Help`;
     if (extended.length <= 58 && getMetaTitlePixelWidth(extended) <= 550) return extended;
@@ -68,23 +81,59 @@ export function sanitizeMetaTitle(rawTitle?: string, brand = 'CredSettle'): stri
     .replace(/Financial Services/gi, 'Fin')
     .replace(/Finance/gi, 'Fin')
     .replace(/Small Finance Bank/gi, 'SFB')
+    .replace(/District Central Co[\s\-]Operative Bank/gi, 'District Co-op')
+    .replace(/District Central Co[\s\-]Operative/gi, 'District Co-op')
+    .replace(/District Co[\s\-]Operative Bank/gi, 'District Co-op')
+    .replace(/District Co[\s\-]Operative/gi, 'District Co-op')
+    .replace(/District Co[\s\-]Op Bank/gi, 'District Co-op')
+    .replace(/District Co[\s\-]Op/gi, 'District Co-op')
     .replace(/Standard Chartered Bank/gi, 'Standard Chartered');
 
   const withBrandShort = `${s} | ${brand}`;
-  if (withBrandShort.length >= 30 && withBrandShort.length <= 58 && getMetaTitlePixelWidth(withBrandShort) <= 550) return withBrandShort;
-  if (s.length >= 30 && s.length <= 58 && getMetaTitlePixelWidth(`${s} | ${brand}`) <= 550) return `${s} | ${brand}`;
+  if (withBrandShort.length >= 50 && withBrandShort.length <= 58 && getMetaTitlePixelWidth(withBrandShort) <= 550) return withBrandShort;
+  if (withBrandShort.length >= 30 && withBrandShort.length < 50 && getMetaTitlePixelWidth(withBrandShort) <= 550) {
+    const extensions = [
+      `${s} Legal Help | ${brand}`,
+      `${s} Expert Help | ${brand}`,
+      `${s} Guide | ${brand}`,
+      `${s} Relief | ${brand}`,
+      `${s} Help | ${brand}`
+    ];
+    for (const ext of extensions) {
+      if (ext.length >= 50 && ext.length <= 58 && getMetaTitlePixelWidth(ext) <= 550) return ext;
+    }
+  }
 
   // Smart word-boundary truncation (target <= 45 chars to allow brand to fit safely)
   const maxContentLen = 58 - 3 - brand.length;
-  const sub = s.slice(0, maxContentLen);
-  const lastSpace = sub.lastIndexOf(' ');
-  if (lastSpace >= 15) {
-    const truncated = sub.slice(0, lastSpace).replace(/[,;:\-–—|&]+$/, '').trim();
-    const cand = `${truncated} | ${brand}`;
-    if (cand.length >= 30 && cand.length <= 58 && getMetaTitlePixelWidth(cand) <= 550) return cand;
+  for (let len = maxContentLen; len >= 15; len--) {
+    if (s[len] === ' ' || len === maxContentLen) {
+      const sub = s.slice(0, len);
+      const lastSpace = sub.lastIndexOf(' ');
+      if (lastSpace >= 15) {
+        const truncated = sub.slice(0, lastSpace).replace(/[,;:\-–—|&]+$/, '').trim();
+        const cand = `${truncated} | ${brand}`;
+        if (cand.length >= 50 && cand.length <= 58 && getMetaTitlePixelWidth(cand) <= 550) return cand;
+        if (cand.length >= 30 && cand.length < 50) {
+          const extensions = [
+            `${truncated} Legal Help | ${brand}`,
+            `${truncated} Expert Help | ${brand}`,
+            `${truncated} Guide | ${brand}`,
+            `${truncated} Relief | ${brand}`,
+            `${truncated} Help | ${brand}`
+          ];
+          for (const ext of extensions) {
+            if (ext.length >= 50 && ext.length <= 58 && getMetaTitlePixelWidth(ext) <= 550) return ext;
+          }
+          if (cand.length >= 30 && cand.length <= 58 && getMetaTitlePixelWidth(cand) <= 550) return cand;
+        }
+      }
+    }
   }
 
-  return `${s.slice(0, maxContentLen).trim()} | ${brand}`;
+  const lastSpace = s.slice(0, maxContentLen).lastIndexOf(' ');
+  const safeBase = lastSpace >= 10 ? s.slice(0, lastSpace).trim() : s.slice(0, maxContentLen).trim();
+  return `${safeBase} | ${brand}`;
 }
 
 export function sanitizeMetaDescription(rawDesc?: string, bankName?: string, serviceName?: string): string {
@@ -211,6 +260,8 @@ export function getShortBankName(name: string): string {
     'HSBC': 'HSBC Bank',
     'Mumbai Railway Employees Co-operative Bank': 'Mumbai Railway Co-op Bank',
     'Kallappanna Awade Ichalkaranji Janata Sahakari Bank': 'Kallappanna Awade Bank',
+    'Kallappanna Awade Ichalkaranji Janata Sahakari Bank Ltd': 'Kallappanna Awade Bank',
+    'Kallappanna Awade Bank': 'Kallappanna Awade Bank',
     'Moneyview Whizdm Innovations Pvt Ltd': 'Moneyview',
     'Mpokket Maybright Ventures Pvt Ltd': 'Mpokket',
     'Piramal Capital And Housing Finance': 'Piramal Finance',
@@ -219,11 +270,24 @@ export function getShortBankName(name: string): string {
     'Shree Bharat Co-operative Bank Vadodara': 'Shree Bharat Co-op Bank',
     'Shree Panchaganga Nagari Sahakari Bank': 'Panchaganga Sahakari Bank',
     'Shri Chhatrapati Rajarshi Shahu Urban Co-operative Bank': 'Chhatrapati Shahu Bank',
+    'Shri Chhatrapati Rajarshi Shahu Urban Co-Operative Bank': 'Chhatrapati Shahu Bank',
+    'Shri Chhatrapati Rajarshi Shahu Urban Co Operative Bank': 'Chhatrapati Shahu Bank',
+    'Chhatrapati Shahu Urban Co-op Bank': 'Chhatrapati Shahu Bank',
+    'Chhatrapati Shahu Urban Co Op Bank': 'Chhatrapati Shahu Bank',
+    'Chhatrapati Shahu Co-op Bank': 'Chhatrapati Shahu Bank',
+    'Chhatrapati Shahu Co Op Bank': 'Chhatrapati Shahu Bank',
+    'Chhatrapati Shahu Bank': 'Chhatrapati Shahu Bank',
     'Spandana Sphoorty Financial Limited': 'Spandana Sphoorty',
     'Bankbazaar Loan Settlement': 'BankBazaar',
     'Finzy P2P Invest Borrow': 'Finzy P2P',
     'Mymoneymantra Loan Help': 'MyMoneyMantra',
-    // District Central Co-operative Banks (Karnataka & Tamil Nadu)
+    // District Central Co-operative Banks (Karnataka, Tamil Nadu & Rajasthan)
+    'Sawai Madhopur District Central Co-operative Bank': 'Sawai Madhopur District Co-op',
+    'Sawai Madhopur District Central Co-Operative Bank': 'Sawai Madhopur District Co-op',
+    'Sawai Madhopur District Central Co Operative Bank': 'Sawai Madhopur District Co-op',
+    'Sawai Madhopur District Co-op Bank': 'Sawai Madhopur District Co-op',
+    'Sawai Madhopur District Co Op Bank': 'Sawai Madhopur District Co-op',
+    'Sawai Madhopur District Co-op': 'Sawai Madhopur District Co-op',
     'Dakshina Kannada District Central Co-operative Bank': 'Dakshina Kannada District Co-op',
     'Dakshina Kannada District Central Co-Operative Bank': 'Dakshina Kannada District Co-op',
     'Dakshina Kannada District Central Co Operative Bank': 'Dakshina Kannada District Co-op',

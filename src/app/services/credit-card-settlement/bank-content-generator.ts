@@ -2,6 +2,7 @@
 // This generates full 2500+ word articles for each bank
 
 import { BankContent } from './banks-content';
+import { getShortBankName, getMetaTitlePixelWidth } from '@/lib/seo-utils';
 
 interface BankInfo {
   name: string;
@@ -487,33 +488,26 @@ export function generateBankSlug(bankName: string): string {
 
 export function getBankMetaTitle(bankName: string): string {
   const b = bankName.trim();
-  const shortB = b
-    .replace('Private Limited', 'Pvt Ltd')
-    .replace('Technologies India Pvt Ltd', 'Tech')
-    .replace('Technologies', 'Tech')
-    .replace('Limited', 'Ltd')
-    .replace('Financial Services', 'Fin')
-    .replace('Finance', 'Fin')
-    .replace('Small Finance Bank', 'SFB')
-    .trim();
+  const shortB = getShortBankName(b);
 
   const candidates = [
     `Settle ${b} Credit Card Legally | CredSettle`,
-    `Settle ${b} Card Legally | CredSettle`,
     `Settle ${shortB} Credit Card Legally | CredSettle`,
     `${b} Card Settlement Services | CredSettle`,
     `${shortB} Card Settlement Services | CredSettle`,
     `Settle ${shortB} Card Legally | CredSettle`,
-    `${shortB} Credit Card Legal Help | CredSettle`
+    `${shortB} Credit Card Legal Help | CredSettle`,
+    `${shortB} Credit Card Settlement | CredSettle`,
+    `${shortB} Card Settlement | CredSettle`
   ];
 
   for (const cand of candidates) {
-    if (cand.length >= 40 && cand.length <= 58) return cand;
+    if (cand.length >= 50 && cand.length <= 58 && getMetaTitlePixelWidth(cand) <= 550) return cand;
   }
   for (const cand of candidates) {
-    if (cand.length >= 30 && cand.length <= 60) return cand;
+    if (cand.length >= 30 && cand.length <= 58 && getMetaTitlePixelWidth(cand) <= 550) return cand;
   }
-  return `Settle ${shortB.slice(0, 20).trim()} Card | CredSettle`;
+  return `${shortB} Card Settlement | CredSettle`;
 }
 
 // Generate comprehensive content for a bank (credit card settlement specific)

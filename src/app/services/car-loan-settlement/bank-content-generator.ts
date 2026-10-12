@@ -2,7 +2,7 @@
 // This generates full 2500+ word articles for each bank
 
 import { BankContent } from './banks-content';
-import { getShortBankName, getMetaDescPixelWidth } from '@/lib/seo-utils';
+import { getShortBankName, getMetaDescPixelWidth, getMetaTitlePixelWidth } from '@/lib/seo-utils';
 
 interface BankInfo {
   name: string;
@@ -521,23 +521,21 @@ export function getBankMetaTitle(bankName: string): string {
     `${shortB} Car Loan Settlement | CredSettle`,
     `Settle ${b} Car Loan Legally | CredSettle`,
     `Settle ${shortB} Car Loan Legally | CredSettle`,
-    `${b} Car Loan Settlement Guide | CredSettle`,
     `${shortB} Car Loan Settlement Guide | CredSettle`,
-    `Settle ${b} Car Loan Dues Legally in India | CredSettle`,
-    `Settle ${shortB} Car Loan Dues Legally in India | CredSettle`,
+    `Settle ${shortB} Car Loan | CredSettle`,
+    `${shortB} Car Loan Settlement | CredSettle`,
+    `${shortB} Loan Settlement | CredSettle`,
+    `${shortB} Car Settlement | CredSettle`,
     `Settle ${b} Car Loan Dues in India | CredSettle`,
-    `Settle ${shortB} Car Loan Dues in India | CredSettle`,
-    `${b} Car Loan Settlement - CredSettle Guide`,
-    `${shortB} Car Loan Settlement - CredSettle Guide`
+    `Settle ${shortB} Car Loan Dues in India | CredSettle`
   ];
   for (const c of candidates) {
-    if (c.length >= 50 && c.length <= 60) return c;
+    if (c.length >= 50 && c.length <= 58 && getMetaTitlePixelWidth(c) <= 550) return c;
   }
-  const cand = `Settle ${shortB} Car Loan Dues in India | CredSettle`;
-  if (cand.length > 60) {
-    return `${shortB.slice(0, 20).trim()} Car Loan Settlement | CredSettle`;
+  for (const c of candidates) {
+    if (c.length >= 30 && c.length <= 58 && getMetaTitlePixelWidth(c) <= 550) return c;
   }
-  return cand.slice(0, 60);
+  return `${shortB} Car Loan | CredSettle`;
 }
 
 export function getBankMetaDescription(bankName: string): string {

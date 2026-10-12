@@ -2,6 +2,7 @@
 // This generates full 2500+ word articles for each bank
 
 import { BankContent } from './banks-content';
+import { getShortBankName, getMetaTitlePixelWidth } from '@/lib/seo-utils';
 
 interface BankInfo {
   name: string;
@@ -487,30 +488,24 @@ export function generateBankSlug(bankName: string): string {
 
 export function getBankMetaTitle(bankName: string): string {
   const b = bankName.trim();
+  const shortB = getShortBankName(b);
   const candidates = [
     `${b} NBFC Loan Settlement | CredSettle`,
+    `${shortB} NBFC Loan Settlement | CredSettle`,
     `Settle ${b} NBFC Loan Legally | CredSettle`,
+    `Settle ${shortB} NBFC Loan Legally | CredSettle`,
+    `${shortB} NBFC Loan Settlement Guide | CredSettle`,
+    `Settle ${shortB} NBFC Loan | CredSettle`,
+    `${shortB} NBFC Settlement | CredSettle`,
+    `${shortB} Loan Settlement | CredSettle`
   ];
   for (const cand of candidates) {
-    if (cand.length >= 30 && cand.length <= 58) return cand;
+    if (cand.length >= 50 && cand.length <= 58 && getMetaTitlePixelWidth(cand) <= 550) return cand;
   }
-  const shortB = b
-    .replace('Private Limited', 'Pvt Ltd')
-    .replace('Technologies India Pvt Ltd', 'Tech')
-    .replace('Technologies', 'Tech')
-    .replace('Limited', 'Ltd')
-    .replace('Financial Services', 'Fin')
-    .replace('Finance', 'Fin');
-
-  const shortCandidates = [
-    `${shortB} NBFC Loan Settlement | CredSettle`,
-    `Settle ${shortB} NBFC Loan | CredSettle`,
-    `${shortB} NBFC Settlement | CredSettle`
-  ];
-  for (const cand of shortCandidates) {
-    if (cand.length >= 30 && cand.length <= 58) return cand;
+  for (const cand of candidates) {
+    if (cand.length >= 30 && cand.length <= 58 && getMetaTitlePixelWidth(cand) <= 550) return cand;
   }
-  return `${shortB.slice(0, 25).trim()} NBFC Settlement | CredSettle`;
+  return `${shortB} NBFC Loan | CredSettle`;
 }
 
 // Generate comprehensive content for a bank (NBFC loan settlement specific)

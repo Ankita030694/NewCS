@@ -12,6 +12,9 @@ const BANK_SLUG_REDIRECTS: Record<string, string> = {
   'tiruchirappalli-district-central-co-operative-bank': 'tiruchirappalli-district-co-op-bank',
   'ramanathapuram-district-central-co-operative-bank': 'ramanathapuram-district-co-op-bank',
   'tiruvannamalai-district-central-co-operative-bank': 'tiruvannamalai-district-co-op-bank',
+  'sawai-madhopur-district-central-co-operative-bank': 'sawai-madhopur-district-co-op-bank',
+  'kallappanna-awade-ichalkaranji-janata-sahakari-bank': 'kallappanna-awade-bank',
+  'shri-chhatrapati-rajarshi-shahu-urban-co-operative-bank': 'chhatrapati-shahu-co-op-bank',
 };
 
 interface PageProps {

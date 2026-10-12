@@ -747,8 +747,38 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: "/services/business-loan-settlement/banks/sawai-madhopur-district-central-co-operative-bank",
+        destination: "/services/business-loan-settlement/banks/sawai-madhopur-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/business-loan-settlement/banks/kallappanna-awade-ichalkaranji-janata-sahakari-bank",
+        destination: "/services/business-loan-settlement/banks/kallappanna-awade-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/business-loan-settlement/banks/shri-chhatrapati-rajarshi-shahu-urban-co-operative-bank",
+        destination: "/services/business-loan-settlement/banks/chhatrapati-shahu-co-op-bank",
+        permanent: true,
+      },
+      {
         source: "/services/credit-card-settlement/banks/dakshina-kannada-district-central-co-operative-bank",
         destination: "/services/credit-card-settlement/banks/dakshina-kannada-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/credit-card-settlement/banks/sawai-madhopur-district-central-co-operative-bank",
+        destination: "/services/credit-card-settlement/banks/sawai-madhopur-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/credit-card-settlement/banks/kallappanna-awade-ichalkaranji-janata-sahakari-bank",
+        destination: "/services/credit-card-settlement/banks/kallappanna-awade-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/credit-card-settlement/banks/shri-chhatrapati-rajarshi-shahu-urban-co-operative-bank",
+        destination: "/services/credit-card-settlement/banks/chhatrapati-shahu-co-op-bank",
         permanent: true,
       },
       {
@@ -784,6 +814,36 @@ const nextConfig: NextConfig = {
       {
         source: "/services/personal-loan-settlement/banks/chamarajanagar-district-central-co-operative-bank",
         destination: "/services/personal-loan-settlement/banks/chamarajanagar-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/personal-loan-settlement/banks/sawai-madhopur-district-central-co-operative-bank",
+        destination: "/services/personal-loan-settlement/banks/sawai-madhopur-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/personal-loan-settlement/banks/kallappanna-awade-ichalkaranji-janata-sahakari-bank",
+        destination: "/services/personal-loan-settlement/banks/kallappanna-awade-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/personal-loan-settlement/banks/shri-chhatrapati-rajarshi-shahu-urban-co-operative-bank",
+        destination: "/services/personal-loan-settlement/banks/chhatrapati-shahu-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/car-loan-settlement/banks/shri-chhatrapati-rajarshi-shahu-urban-co-operative-bank",
+        destination: "/services/car-loan-settlement/banks/chhatrapati-shahu-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/app-loan-settlement/banks/shri-chhatrapati-rajarshi-shahu-urban-co-operative-bank",
+        destination: "/services/app-loan-settlement/banks/chhatrapati-shahu-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/nbfc-loan-settlement/banks/shri-chhatrapati-rajarshi-shahu-urban-co-operative-bank",
+        destination: "/services/nbfc-loan-settlement/banks/chhatrapati-shahu-co-op-bank",
         permanent: true,
       },
       {
