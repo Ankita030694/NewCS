@@ -47,10 +47,13 @@ function getBankCanonicalSlug(company: string) {
 
 function formatSlugToBankName(slug: string): string {
   return slug
+    .replace(/-co-op-/gi, "-co-operative-")
+    .replace(/-co-op$/gi, "-co-operative")
     .split("-")
     .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
     .join(" ")
     .replace(/\bCo Operative\b/gi, "Co-operative")
+    .replace(/\bCo Op\b/gi, "Co-op")
     .replace(/\bP2p\b/gi, "P2P")
     .replace(/\bEmi\b/gi, "EMI")
     .replace(/\bFsc\b/gi, "FSC")
@@ -101,7 +104,9 @@ function getCCBankMetaTitle(bankName: string): string {
 
   const brand = 'CredSettle';
   const maxBankLen = 58 - ' Settle  Card Dues | '.length - brand.length;
-  const truncatedBank = shortName.slice(0, Math.max(10, maxBankLen)).trim();
+  const sub = shortName.slice(0, Math.max(10, maxBankLen));
+  const lastSpace = sub.lastIndexOf(' ');
+  const truncatedBank = (lastSpace >= 8 ? sub.slice(0, lastSpace) : sub).replace(/[-–—,&]+$/, '').trim();
   const cand = `Settle ${truncatedBank} Card Dues | ${brand}`;
   if (cand.length >= 50 && cand.length <= 60 && getMetaTitlePixelWidth(cand) <= 560) {
     return cand;
@@ -120,7 +125,12 @@ function getCCBankMetaDescription(bankName: string): string {
     `Clear your ${shortName} credit card debt legally under RBI rules with CredSettle. Stop agent calls, reduce dues & get official NOC.`,
     `Facing ${shortName} card debt? Settle legally under RBI rules with CredSettle. Stop recovery harassment, cut dues & get official NOC.`,
     `Legal debt resolution for ${shortName} credit card dues with CredSettle. Stop collection calls & settle up to 50% under RBI rules.`,
-    `Struggling with ${shortName} card debt? Settle legally under RBI rules with CredSettle. Stop agent calls & reduce debt up to 50%.`
+    `Struggling with ${shortName} card debt? Settle legally under RBI rules with CredSettle. Stop agent calls & reduce debt up to 50%.`,
+    `Settle ${shortName} card dues legally under RBI rules with CredSettle. Stop recovery harassment, negotiate waivers & clear debt safely.`,
+    `Settle ${shortName} credit card dues legally under RBI rules with CredSettle. Stop recovery harassment & cut debt up to 50% today.`,
+    `Settle ${shortName} card debt legally under RBI rules with CredSettle. Stop recovery calls, reduce total dues & get an official NOC.`,
+    `Resolve ${shortName} card dues legally under RBI rules with CredSettle. Stop agent calls, reduce debt up to 50% & get your bank NOC.`,
+    `Facing ${shortName} card debt? Settle legally under RBI rules with CredSettle. Stop collection calls & reduce total dues up to 50%.`
   ];
 
   // Level 1: Strict sweet spot (140-146 chars, <= 960px)
@@ -140,7 +150,24 @@ function getCCBankMetaDescription(bankName: string): string {
     if (c.length >= 140 && c.length <= 155 && getMetaDescPixelWidth(c) <= 980) return c;
   }
 
-  return candidates[0];
+  // Fallback with compact bank name if shortName is too long
+  const compactName = shortName.length > 20 ? shortName.slice(0, 18).trim() : shortName;
+  const compactCandidates = [
+    `Facing ${compactName} credit card dues? Settle legally under RBI rules with CredSettle. Stop recovery calls & reduce debt up to 50%.`,
+    `Settle ${compactName} card dues legally under RBI rules with CredSettle. Stop recovery harassment, negotiate waivers & clear debt safely.`,
+    `Get expert legal relief for ${compactName} card debt under RBI rules with CredSettle. Stop recovery harassment & clear dues with NOC.`,
+    `Facing ${compactName} card debt? Settle legally under RBI rules with CredSettle. Stop recovery harassment, cut dues & get official NOC.`
+  ];
+  for (const c of compactCandidates) {
+    if (c.length >= 140 && c.length <= 146 && getMetaDescPixelWidth(c) <= 960) return c;
+    if (c.length >= 140 && c.length <= 150 && getMetaDescPixelWidth(c) <= 960) return c;
+  }
+
+  const guaranteed = `Facing credit card dues from ${compactName}? Settle legally under RBI rules with CredSettle. Stop recovery calls & reduce debt up to 50%.`;
+  if (guaranteed.length >= 140 && guaranteed.length <= 155 && getMetaDescPixelWidth(guaranteed) <= 960) {
+    return guaranteed;
+  }
+  return guaranteed.slice(0, 146);
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {

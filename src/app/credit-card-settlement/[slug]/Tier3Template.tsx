@@ -105,6 +105,23 @@ export default function Tier3Template({ bankName, slug }: { bankName: string; sl
     { name: `${shortBankName} Settlement`, url: `/credit-card-settlement/${slug}` }
   ];
 
+  const h1Title = (() => {
+    const cand = `Settle Your ${shortBankName} Credit Card Dues`;
+    if (cand.length >= 30 && cand.length <= 65) return cand;
+    if (cand.length > 65) {
+      const cand2 = `Settle ${shortBankName} Card Dues Legally`;
+      if (cand2.length >= 30 && cand2.length <= 65) return cand2;
+      const cand3 = `Settle ${shortBankName} Card Dues`;
+      if (cand3.length >= 30 && cand3.length <= 65) return cand3;
+      const maxBankLen = 65 - 'Settle  Card Dues'.length;
+      const sub = shortBankName.slice(0, maxBankLen);
+      const lastSpace = sub.lastIndexOf(' ');
+      const truncated = (lastSpace >= 6 ? sub.slice(0, lastSpace) : sub).replace(/[-–—,&]+$/, '').trim();
+      return `Settle ${truncated} Card Dues`;
+    }
+    return `Settle Your ${shortBankName} Credit Card Dues Online`;
+  })();
+
   return (
     <div className="bg-white min-h-screen">
       <Navbar />
@@ -119,7 +136,15 @@ export default function Tier3Template({ bankName, slug }: { bankName: string; sl
 
         <div className="text-center max-w-4xl mx-auto my-12">
           <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 tracking-tight">
-            Settle Your <span className="text-blue-600">{shortBankName}</span> Credit Card Dues
+            {h1Title.includes(shortBankName) ? (
+              <>
+                {h1Title.split(shortBankName)[0]}
+                <span className="text-blue-600">{shortBankName}</span>
+                {h1Title.split(shortBankName)[1]}
+              </>
+            ) : (
+              h1Title
+            )}
           </h1>
           <p className="text-xl text-gray-600 mb-8 leading-relaxed">
             Navigate credit card default safely. CredSettle offers a protected, legally sound pathway to settle your {shortBankName} debt and regain financial peace of mind.

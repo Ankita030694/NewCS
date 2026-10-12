@@ -81,12 +81,14 @@ export function sanitizeMetaTitle(rawTitle?: string, brand = 'CredSettle'): stri
     .replace(/Financial Services/gi, 'Fin')
     .replace(/Finance/gi, 'Fin')
     .replace(/Small Finance Bank/gi, 'SFB')
-    .replace(/District Central Co[\s\-]Operative Bank/gi, 'District Co-op')
-    .replace(/District Central Co[\s\-]Operative/gi, 'District Co-op')
-    .replace(/District Co[\s\-]Operative Bank/gi, 'District Co-op')
-    .replace(/District Co[\s\-]Operative/gi, 'District Co-op')
-    .replace(/District Co[\s\-]Op Bank/gi, 'District Co-op')
-    .replace(/District Co[\s\-]Op/gi, 'District Co-op')
+    .replace(/District Central Co[\s\-]?(Operative|Op) Bank/gi, 'District Co-op')
+    .replace(/District Central Co[\s\-]?(Operative|Op)/gi, 'District Co-op')
+    .replace(/District Co[\s\-]?(Operative|Op) Bank/gi, 'District Co-op')
+    .replace(/District Co[\s\-]?(Operative|Op)/gi, 'District Co-op')
+    .replace(/Ichalkaranji Janata (Sahakari )?Bank/gi, 'Bank')
+    .replace(/Ichalkaranji Janata/gi, '')
+    .replace(/Dhule and Nandurbar/gi, 'Dhule & Nandurbar')
+    .replace(/Dhule And Nandurbar/gi, 'Dhule & Nandurbar')
     .replace(/Standard Chartered Bank/gi, 'Standard Chartered');
 
   const withBrandShort = `${s} | ${brand}`;
@@ -105,6 +107,9 @@ export function sanitizeMetaTitle(rawTitle?: string, brand = 'CredSettle'): stri
   }
 
   // Smart word-boundary truncation (target <= 45 chars to allow brand to fit safely)
+  const serviceRegex = /\b(Personal Loan|Business Loan|Car Loan|NBFC Loan|App Loan|Credit Card|Card Settlement|Loan Settlement|Personal|Business|Car|NBFC|App|Card)\b/i;
+  const hasService = serviceRegex.test(s);
+
   const maxContentLen = 58 - 3 - brand.length;
   for (let len = maxContentLen; len >= 15; len--) {
     if (s[len] === ' ' || len === maxContentLen) {
@@ -112,6 +117,10 @@ export function sanitizeMetaTitle(rawTitle?: string, brand = 'CredSettle'): stri
       const lastSpace = sub.lastIndexOf(' ');
       if (lastSpace >= 15) {
         const truncated = sub.slice(0, lastSpace).replace(/[,;:\-–—|&]+$/, '').trim();
+        // Prevent stripping the service keyword and leaving bare bank name (which causes cross-service collisions)
+        if (hasService && !serviceRegex.test(truncated)) {
+          continue;
+        }
         const cand = `${truncated} | ${brand}`;
         if (cand.length >= 50 && cand.length <= 58 && getMetaTitlePixelWidth(cand) <= 550) return cand;
         if (cand.length >= 30 && cand.length < 50) {
@@ -261,6 +270,9 @@ export function getShortBankName(name: string): string {
     'Mumbai Railway Employees Co-operative Bank': 'Mumbai Railway Co-op Bank',
     'Kallappanna Awade Ichalkaranji Janata Sahakari Bank': 'Kallappanna Awade Bank',
     'Kallappanna Awade Ichalkaranji Janata Sahakari Bank Ltd': 'Kallappanna Awade Bank',
+    'Kallappanna Awade Ichalkaranji Janata Bank': 'Kallappanna Awade Bank',
+    'Kallappanna Awade Ichalkaranji Janata Bank Ltd': 'Kallappanna Awade Bank',
+    'Kallappanna Awade Ichalkaranji Janata': 'Kallappanna Awade Bank',
     'Kallappanna Awade Bank': 'Kallappanna Awade Bank',
     'Moneyview Whizdm Innovations Pvt Ltd': 'Moneyview',
     'Mpokket Maybright Ventures Pvt Ltd': 'Mpokket',
@@ -323,6 +335,44 @@ export function getShortBankName(name: string): string {
     'Tiruvannamalai District Central Co Operative Bank': 'Tiruvannamalai District Co-op',
     'Tiruvannamalai District Co-op Bank': 'Tiruvannamalai District Co-op',
     'Tiruvannamalai District Co Op Bank': 'Tiruvannamalai District Co-op',
+    // Dhule & Nandurbar District Central Co-operative Bank
+    'Dhule And Nandurbar District Central Co-operative Bank': 'Dhule & Nandurbar Co-op',
+    'Dhule and Nandurbar District Central Co-operative Bank': 'Dhule & Nandurbar Co-op',
+    'Dhule And Nandurbar District Central Co-Operative Bank': 'Dhule & Nandurbar Co-op',
+    'Dhule and Nandurbar District Central Co-Operative Bank': 'Dhule & Nandurbar Co-op',
+    'Dhule And Nandurbar District Central Co Operative Bank': 'Dhule & Nandurbar Co-op',
+    'Dhule and Nandurbar District Central Co Operative Bank': 'Dhule & Nandurbar Co-op',
+    'Dhule And Nandurbar District Central Co Op Bank': 'Dhule & Nandurbar Co-op',
+    'Dhule and Nandurbar District Central Co Op Bank': 'Dhule & Nandurbar Co-op',
+    'Dhule And Nandurbar District Central Co-op Bank': 'Dhule & Nandurbar Co-op',
+    'Dhule and Nandurbar District Central Co-op Bank': 'Dhule & Nandurbar Co-op',
+    'Dhule And Nandurbar District Central Co-op': 'Dhule & Nandurbar Co-op',
+    'Dhule and Nandurbar District Central Co-op': 'Dhule & Nandurbar Co-op',
+    'Dhule And Nandurbar District Central Co Op': 'Dhule & Nandurbar Co-op',
+    'Dhule and Nandurbar District Central Co Op': 'Dhule & Nandurbar Co-op',
+    'Dhule And Nandurbar District Co-operative Bank': 'Dhule & Nandurbar Co-op',
+    'Dhule and Nandurbar District Co-operative Bank': 'Dhule & Nandurbar Co-op',
+    'Dhule And Nandurbar District Co-Operative Bank': 'Dhule & Nandurbar Co-op',
+    'Dhule and Nandurbar District Co-Operative Bank': 'Dhule & Nandurbar Co-op',
+    'Dhule And Nandurbar District Co Operative Bank': 'Dhule & Nandurbar Co-op',
+    'Dhule and Nandurbar District Co Operative Bank': 'Dhule & Nandurbar Co-op',
+    'Dhule And Nandurbar District Co-op Bank': 'Dhule & Nandurbar Co-op',
+    'Dhule and Nandurbar District Co-op Bank': 'Dhule & Nandurbar Co-op',
+    'Dhule And Nandurbar District Co Op Bank': 'Dhule & Nandurbar Co-op',
+    'Dhule and Nandurbar District Co Op Bank': 'Dhule & Nandurbar Co-op',
+    'Dhule And Nandurbar District Co-op': 'Dhule & Nandurbar Co-op',
+    'Dhule and Nandurbar District Co-op': 'Dhule & Nandurbar Co-op',
+    'Dhule And Nandurbar District Co Op': 'Dhule & Nandurbar Co-op',
+    'Dhule and Nandurbar District Co Op': 'Dhule & Nandurbar Co-op',
+    'Dhule District Central Co-operative Bank': 'Dhule District Co-op',
+    'Dhule District Central Co-Operative Bank': 'Dhule District Co-op',
+    'Dhule District Central Co Operative Bank': 'Dhule District Co-op',
+    'Dhule District Central Co-op Bank': 'Dhule District Co-op',
+    'Dhule District Central Co Op Bank': 'Dhule District Co-op',
+    'Dhule District Co-op Bank': 'Dhule District Co-op',
+    'Dhule District Co Op Bank': 'Dhule District Co-op',
+    'Dhule District Co-op': 'Dhule District Co-op',
+    'Dhule District Co Op': 'Dhule District Co-op',
   };
 
   if (explicitMap[trimmed]) {
@@ -347,12 +397,12 @@ export function getShortBankName(name: string): string {
     .replace(/State Co-operative Apex Bank/gi, 'Apex Bank')
     .replace(/State Apex Co-operative Bank/gi, 'Apex Bank')
     .replace(/Kshetriya Gramin Bank/gi, 'Gramin Bank')
-    .replace(/District Central Co[\s\-]Operative Bank/gi, 'District Co-op')
-    .replace(/District Central Co[\s\-]Operative/gi, 'District Co-op')
-    .replace(/District Co[\s\-]Operative Bank/gi, 'District Co-op')
-    .replace(/District Co[\s\-]Operative/gi, 'District Co-op')
-    .replace(/District Co[\s\-]Op Bank/gi, 'District Co-op')
-    .replace(/District Co[\s\-]Op/gi, 'District Co-op')
+    .replace(/District Central Co[\s\-]?(Operative|Op) Bank/gi, 'District Co-op')
+    .replace(/District Central Co[\s\-]?(Operative|Op)/gi, 'District Co-op')
+    .replace(/District Co[\s\-]?(Operative|Op) Bank/gi, 'District Co-op')
+    .replace(/District Co[\s\-]?(Operative|Op)/gi, 'District Co-op')
+    .replace(/Ichalkaranji Janata (Sahakari )?Bank/gi, 'Bank')
+    .replace(/Ichalkaranji Janata/gi, '')
     .replace(/Co[\s\-]operative Urban Bank/gi, 'Urban Co-op Bank')
     .replace(/Urban Co[\s\-]operative Bank/gi, 'Urban Co-op Bank')
     .replace(/Co[\s\-]Operative Bank/gi, 'Co-op Bank')
