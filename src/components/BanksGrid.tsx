@@ -71,7 +71,7 @@ export default function BanksGrid({ serviceType, servicePath }: { serviceType: s
     'Au Small Fin Bank Ltd',
     'CSB Bank',
     'Northern Arc Bank',
-    'North East Small Finance'
+    'North East Small Finance Bank'
   ];
 
   // NBFCs list (Non-Banking Financial Companies)

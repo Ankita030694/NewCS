@@ -15,6 +15,8 @@ const BANK_SLUG_REDIRECTS: Record<string, string> = {
   'sawai-madhopur-district-central-co-operative-bank': 'sawai-madhopur-district-co-op-bank',
   'kallappanna-awade-ichalkaranji-janata-sahakari-bank': 'kallappanna-awade-bank',
   'shri-chhatrapati-rajarshi-shahu-urban-co-operative-bank': 'chhatrapati-shahu-co-op-bank',
+  'north-east-small-finance': 'north-east-small-finance-bank',
+  'north-east-small-finance-bank-ltd': 'north-east-small-finance-bank',
 };
 
 interface PageProps {

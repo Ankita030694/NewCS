@@ -1513,6 +1513,66 @@ const nextConfig: NextConfig = {
         destination: "/credit-card-settlement/suryoday-small-finance-bank/dadra-nagar-haveli-daman-diu",
         permanent: true,
       },
+      {
+        source: "/services/personal-loan-settlement/banks/north-east-small-finance",
+        destination: "/services/personal-loan-settlement/banks/north-east-small-finance-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/business-loan-settlement/banks/north-east-small-finance",
+        destination: "/services/business-loan-settlement/banks/north-east-small-finance-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/car-loan-settlement/banks/north-east-small-finance",
+        destination: "/services/car-loan-settlement/banks/north-east-small-finance-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/credit-card-settlement/banks/north-east-small-finance",
+        destination: "/services/credit-card-settlement/banks/north-east-small-finance-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/app-loan-settlement/banks/north-east-small-finance",
+        destination: "/services/app-loan-settlement/banks/north-east-small-finance-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/nbfc-loan-settlement/banks/north-east-small-finance",
+        destination: "/services/nbfc-loan-settlement/banks/north-east-small-finance-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/personal-loan-settlement/banks/north-east-small-finance-bank-ltd",
+        destination: "/services/personal-loan-settlement/banks/north-east-small-finance-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/business-loan-settlement/banks/north-east-small-finance-bank-ltd",
+        destination: "/services/business-loan-settlement/banks/north-east-small-finance-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/car-loan-settlement/banks/north-east-small-finance-bank-ltd",
+        destination: "/services/car-loan-settlement/banks/north-east-small-finance-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/credit-card-settlement/banks/north-east-small-finance-bank-ltd",
+        destination: "/services/credit-card-settlement/banks/north-east-small-finance-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/app-loan-settlement/banks/north-east-small-finance-bank-ltd",
+        destination: "/services/app-loan-settlement/banks/north-east-small-finance-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/nbfc-loan-settlement/banks/north-east-small-finance-bank-ltd",
+        destination: "/services/nbfc-loan-settlement/banks/north-east-small-finance-bank",
+        permanent: true,
+      },
     ];
   },
   async headers() {
