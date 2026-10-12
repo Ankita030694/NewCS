@@ -100,11 +100,18 @@ function getPixelWidth(text: string): number {
   return width;
 }
 
+import { getMetaDescPixelWidth } from '@/lib/seo-utils';
+
 function getBankMetaTitle(company: string): string {
   const c = toProperCase(company.trim());
   const maxPx = 548; // Max safe width (strict Screaming Frog threshold is 561px)
   
   const candidates = [
+    `Settle Your ${c} Loan Legally in 2026 | CredSettle`,
+    `How to Settle Your ${c} Loan Debt | CredSettle`,
+    `${c} Loan Debt Settlement Guide (2026) | CredSettle`,
+    `${c} Loan Settlement Process Guide (2026) | CredSettle`,
+    `Settle Your ${c} Loan Dues Legally | CredSettle`,
     `${c} Loan Settlement Guide (2026) | CredSettle`,
     `${c} Loan Settlement 2026 Guide | CredSettle`,
     `${c} Loan Settlement Legal Guide | CredSettle`,
@@ -127,14 +134,6 @@ function getBankMetaTitle(company: string): string {
   for (const cand of candidates) {
     if (cand.length >= 50 && cand.length <= 60 && getPixelWidth(cand) <= maxPx) return cand;
   }
-  // Try 40-60 chars & <= maxPx
-  for (const cand of candidates) {
-    if (cand.length >= 40 && cand.length <= 60 && getPixelWidth(cand) <= maxPx) return cand;
-  }
-  // Try 30-60 chars & <= maxPx
-  for (const cand of candidates) {
-    if (cand.length >= 30 && cand.length <= 60 && getPixelWidth(cand) <= maxPx) return cand;
-  }
 
   let shortName = c;
   if (c.includes('Private Limited')) shortName = c.replace('Private Limited', 'Pvt Ltd');
@@ -142,6 +141,7 @@ function getBankMetaTitle(company: string): string {
   if (c.includes('Technologies')) shortName = c.replace('Technologies', 'Tech');
 
   const shortCandidates = [
+    `Settle Your ${shortName} Loan Legally | CredSettle`,
     `${shortName} Loan Settlement Guide (2026) | CredSettle`,
     `${shortName} Loan Settlement 2026 Guide | CredSettle`,
     `${shortName} Loan Settlement Legal Guide | CredSettle`,
@@ -155,7 +155,7 @@ function getBankMetaTitle(company: string): string {
   for (const cand of shortCandidates) {
     if (cand.length >= 50 && cand.length <= 60 && getPixelWidth(cand) <= maxPx) return cand;
   }
-  for (const cand of shortCandidates) {
+  for (const cand of candidates) {
     if (cand.length >= 30 && cand.length <= 60 && getPixelWidth(cand) <= maxPx) return cand;
   }
 
@@ -165,6 +165,7 @@ function getBankMetaTitle(company: string): string {
 function getBankMetaDescription(company: string): string {
   const c = company.trim();
   const shortName = c
+    .replace(/\s*\(Lenditt\)/i, '')
     .replace('Private Limited', 'Pvt Ltd')
     .replace('Limited', 'Ltd')
     .replace('Technologies', 'Tech')
@@ -172,26 +173,55 @@ function getBankMetaDescription(company: string): string {
     .trim();
 
   const candidates = [
-    `Settle your ${c} loan legally under RBI guidelines with CredSettle. Stop recovery harassment and resolve outstanding dues safely.`,
-    `Settle your ${c} loan legally with CredSettle. Stop recovery agent harassment, protect your rights, and resolve debt under RBI rules.`,
-    `Settle ${c} loan legally under RBI rules with CredSettle. Stop recovery harassment, protect legal rights, and reduce debt safely.`,
-    `Settle your ${shortName} loan legally under RBI guidelines with CredSettle. Stop harassment and resolve outstanding dues safely.`,
-    `Settle ${shortName} loan legally with CredSettle. Stop recovery harassment, protect your rights, and reduce debt under RBI rules.`,
-    `Settle ${shortName} debt legally with CredSettle. Stop harassment, protect legal rights, and negotiate an OTS waiver under RBI rules.`,
+    // For short bank names (3 - 15 chars)
+    `Facing ${c} loan debt? Settle legally under RBI rules with CredSettle. Stop recovery agent harassment, reduce dues up to 50% & get your NOC.`,
+    `Settle your ${c} loan legally under RBI guidelines with CredSettle. Stop recovery agent harassment, reduce total dues & clear debt safely.`,
+    `Struggling with ${c} loan debt? CredSettle helps you negotiate legal debt relief under RBI rules. Stop harassment and resolve dues up to 50%.`,
+    `Facing ${shortName} loan debt? Settle legally under RBI rules with CredSettle. Stop recovery agent harassment, reduce dues up to 50% & get NOC.`,
+    `Settle your ${shortName} loan legally under RBI rules with CredSettle. Stop recovery agent harassment, reduce total dues & clear debt safely.`,
+
+    // For medium bank names (15 - 25 chars)
+    `Settle your ${c} loan legally under RBI guidelines with CredSettle. Stop recovery harassment, protect your rights & reduce dues up to 50%.`,
+    `Settle your ${shortName} loan legally under RBI guidelines with CredSettle. Stop recovery harassment, protect rights & resolve debt up to 50%.`,
+    `Facing ${c} loan debt? Settle legally under RBI rules with CredSettle. Stop recovery agent harassment and reduce total dues up to 50%.`,
+    `Facing ${shortName} loan debt? Settle legally under RBI rules with CredSettle. Stop recovery agent harassment and reduce total dues up to 50%.`,
+    `Settle your ${c} loan legally under RBI guidelines with CredSettle. Stop recovery agent harassment and resolve outstanding debt safely.`,
     `Settle your ${shortName} loan legally under RBI guidelines with CredSettle. Stop recovery agent harassment and resolve your debt safely.`,
+    `Settle ${c} loan legally with CredSettle. Stop recovery agent harassment, protect your rights, and resolve debt safely under RBI rules.`,
+    `Settle ${shortName} loan legally with CredSettle. Stop recovery agent harassment, protect your rights, and resolve debt safely under RBI rules.`,
+    `Settle ${c} debt legally with CredSettle. Stop harassment, protect legal rights, and negotiate an OTS waiver safely under RBI rules.`,
+    `Settle ${shortName} debt legally with CredSettle. Stop harassment, protect legal rights, and negotiate an OTS waiver safely under RBI rules.`,
+
+    // For longer names (25 - 35 chars)
+    `Settle your ${c} loan legally under RBI guidelines with CredSettle. Stop recovery harassment and resolve outstanding dues safely.`,
+    `Settle your ${shortName} loan legally under RBI guidelines with CredSettle. Stop recovery harassment and resolve outstanding dues safely.`,
+    `Settle ${c} loan legally under RBI rules with CredSettle. Stop recovery harassment, protect legal rights, and reduce debt safely.`,
+    `Settle ${shortName} loan legally under RBI rules with CredSettle. Stop recovery harassment, protect legal rights, and reduce debt safely.`,
+    `Settle your ${shortName} loan legally under RBI guidelines with CredSettle. Stop recovery harassment & resolve outstanding dues safely.`,
     `Settle ${shortName} loan legally under RBI rules with CredSettle. Stop recovery harassment and reduce your total debt burden safely.`
   ];
 
+  // Pass 1: Strict target sweet spot (140-146 chars, <= 960px)
   for (const cand of candidates) {
-    if (cand.length >= 120 && cand.length <= 145) return cand;
+    if (cand.length >= 140 && cand.length <= 146 && getMetaDescPixelWidth(cand) <= 960) return cand;
   }
+
+  // Pass 2: Safe target (140-150 chars, <= 960px)
   for (const cand of candidates) {
-    if (cand.length >= 100 && cand.length <= 145) return cand;
+    if (cand.length >= 140 && cand.length <= 150 && getMetaDescPixelWidth(cand) <= 960) return cand;
   }
+
+  // Pass 3: Broader bounds (140-155 chars, <= 980px)
   for (const cand of candidates) {
-    if (cand.length <= 145) return cand;
+    if (cand.length >= 140 && cand.length <= 155 && getMetaDescPixelWidth(cand) <= 980) return cand;
   }
-  return `Settle ${shortName} loan legally under RBI rules with CredSettle. Stop recovery harassment and reduce your debt safely.`;
+
+  // Fallback clamped safely
+  const base = `Facing ${shortName} loan debt? Settle legally with CredSettle under RBI rules. Stop recovery agent harassment & reduce dues up to 50%.`;
+  if (base.length > 146) {
+    return base.slice(0, 142).replace(/[\s,;.-]+$/, '') + '.';
+  }
+  return base;
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
