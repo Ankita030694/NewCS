@@ -4,12 +4,12 @@ import LoginPageClient from './LoginPageClient';
 export const metadata: Metadata = {
   title: 'Client & Partner Portal Login | CredSettle Official',
   description:
-    'Securely access your CredSettle account to manage your loan settlement journey, track case status, and connect directly with our expert legal advocates.',
+    'Securely access your CredSettle account to track loan settlement progress, view notices, and connect directly with our expert legal advocates.',
   alternates: { canonical: 'https://www.credsettle.com/nullify' },
   openGraph: {
     title: 'Client & Partner Portal Login | CredSettle Official',
     description:
-      'Securely access your CredSettle account to manage your loan settlement journey, track case status, and connect directly with our expert legal advocates.',
+      'Securely access your CredSettle account to track loan settlement progress, view notices, and connect directly with our expert legal advocates.',
     url: 'https://www.credsettle.com/nullify',
     siteName: 'CredSettle',
     type: 'website',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Client & Partner Portal Login | CredSettle Official',
     description:
-      'Securely access your CredSettle account to manage your loan settlement journey, track case status, and connect directly with our expert legal advocates.',
+      'Securely access your CredSettle account to track loan settlement progress, view notices, and connect directly with our expert legal advocates.',
   },
   robots: {
     index: true,

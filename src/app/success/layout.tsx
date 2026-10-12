@@ -1,23 +1,23 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Payment Received Successfully | CredSettle Portal',
+  title: 'Payment Received Successfully | CredSettle Official',
   description:
-    'Thank you for your payment. Your transaction has been successfully processed by CredSettle. Our senior legal team will prioritize your case resolution.',
+    'Your payment has been successfully processed by CredSettle. Our senior legal team has prioritized your case file for immediate debt resolution.',
   alternates: { canonical: 'https://www.credsettle.com/success' },
   openGraph: {
-    title: 'Payment Received Successfully | CredSettle Portal',
+    title: 'Payment Received Successfully | CredSettle Official',
     description:
-      'Thank you for your payment. Your transaction has been successfully processed by CredSettle. Our senior legal team will prioritize your case resolution.',
+      'Your payment has been successfully processed by CredSettle. Our senior legal team has prioritized your case file for immediate debt resolution.',
     url: 'https://www.credsettle.com/success',
     siteName: 'CredSettle',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Payment Received Successfully | CredSettle Portal',
+    title: 'Payment Received Successfully | CredSettle Official',
     description:
-      'Thank you for your payment. Your transaction has been successfully processed by CredSettle. Our senior legal team will prioritize your case resolution.',
+      'Your payment has been successfully processed by CredSettle. Our senior legal team has prioritized your case file for immediate debt resolution.',
   },
   robots: {
     index: true,
