@@ -491,15 +491,16 @@ export function getShortStateName(name: string): string {
   const trimmed = name.trim();
 
   const stateMap: Record<string, string> = {
-    'Dadra and Nagar Haveli and Daman and Diu': 'DNH & DD',
-    'Dadra and Nagar Haveli': 'Dadra & Nagar Haveli',
-    'Andaman and Nicobar Islands': 'Andaman & Nicobar',
-    'Andaman and Nicobar': 'Andaman & Nicobar',
-    'Jammu and Kashmir': 'Jammu & Kashmir',
-    'Arunachal Pradesh': 'Arunachal',
-    'Himachal Pradesh': 'Himachal',
+    'dadra and nagar haveli and daman and diu': 'DNH & DD',
+    'dadra and nagar haveli': 'Dadra & Nagar Haveli',
+    'andaman and nicobar islands': 'Andaman & Nicobar',
+    'andaman and nicobar': 'Andaman & Nicobar',
+    'jammu and kashmir': 'Jammu & Kashmir',
+    'arunachal pradesh': 'Arunachal',
+    'himachal pradesh': 'Himachal',
   };
 
-  return stateMap[trimmed] || trimmed;
+  const lower = trimmed.toLowerCase();
+  return stateMap[lower] || stateMap[trimmed] || trimmed;
 }
 

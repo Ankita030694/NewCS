@@ -90,7 +90,7 @@ function generateHeadings(content: any) {
   if (content.whyBusinessLoanSettlement) {
     headings.push({
       id: 'why-business-loan-settlement',
-      text: `Business Loan Settlement in ${content.stateName}`,
+      text: `Business Loan Settlement in ${shortState}`,
       level: 2
     });
   }
@@ -98,7 +98,7 @@ function generateHeadings(content: any) {
   if (content.commonBusinessLoanProblems) {
     headings.push({
       id: 'common-business-loan-problems',
-      text: `Business Loan Problems in ${content.stateName}`,
+      text: `Business Loan Problems in ${shortState}`,
       level: 2
     });
   }
@@ -130,7 +130,7 @@ function generateHeadings(content: any) {
   if (content.legalSupport) {
     headings.push({
       id: 'legal-support',
-      text: `Legal Support for Business Loan Settlement in ${content.stateName}`,
+      text: `Legal Support for Business Loan Settlement in ${shortState}`,
       level: 2
     });
   }
@@ -178,7 +178,7 @@ function generateHeadings(content: any) {
   // Always add FAQs
   headings.push({
     id: 'faqs',
-    text: `Business Loan Settlement FAQs in ${content.stateName}`,
+    text: `Business Loan Settlement FAQs in ${shortState}`,
     level: 2
   });
 

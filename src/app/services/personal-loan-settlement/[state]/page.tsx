@@ -101,22 +101,22 @@ export default async function StatePage({ params }: PageProps) {
   // Extract headings for Table of Contents - dynamic based on content format
   const headings = content.whyLoanSettlement
     ? [
-        { id: 'why-loan-settlement', text: `Personal Loan Settlement in ${content.stateName}`, level: 2 },
-        { id: 'common-loan-problems', text: `Common Personal Loan Problems in ${content.stateName}`, level: 2 },
-        { id: 'credsettle-overview', text: 'CredSettle - India’s Trusted Personal Loan Settlement Company', level: 2 },
-        { id: 'rbi-compliant-process', text: `Our RBI-Compliant Personal Loan Settlement Process in ${content.stateName}`, level: 3 },
-        { id: 'negotiation-help', text: `How CredSettle Helps You Negotiate with Banks in ${content.stateName}`, level: 3 },
-        { id: 'legal-support', text: `Legal Support for Personal Loans in ${content.stateName}`, level: 2 },
-        { id: 'types-of-loans', text: `Types of Personal Loans We Settle in ${content.stateName}`, level: 2 },
+        { id: 'why-loan-settlement', text: `Personal Loan Settlement in ${shortState}`, level: 2 },
+        { id: 'common-loan-problems', text: `Common Personal Loan Problems in ${shortState}`, level: 2 },
+        { id: 'credsettle-overview', text: "CredSettle - India's Trusted Personal Loan Settlement Company", level: 2 },
+        { id: 'rbi-compliant-process', text: `Our RBI-Compliant Personal Loan Settlement Process in ${shortState}`, level: 3 },
+        { id: 'negotiation-help', text: `How CredSettle Helps You Negotiate with Banks in ${shortState}`, level: 3 },
+        { id: 'legal-support', text: `Legal Support for Personal Loans in ${shortState}`, level: 2 },
+        { id: 'types-of-loans', text: `Types of Personal Loans We Settle in ${shortState}`, level: 2 },
         { id: 'benefits', text: `Why Choose CredSettle in ${shortState}`, level: 2 },
         { id: 'rbi-guidelines', text: `RBI Loan Settlement Guidelines in ${shortState}`, level: 2 },
         { id: 'step-by-step-guide', text: 'Guide to Personal Loan Settlement with CredSettle', level: 2 },
         { id: 'case-study', text: `Settlement Case Study in ${shortState}`, level: 2 },
         { id: 'final-thoughts', text: `Final Thoughts on Settlement in ${shortState}`, level: 2 },
-        { id: 'faqs', text: `Personal Loan Settlement FAQs in ${content.stateName}`, level: 2 }
+        { id: 'faqs', text: `Personal Loan Settlement FAQs in ${shortState}`, level: 2 }
       ]
     : [
-        { id: 'introduction', text: `About Loan Settlement in ${content.stateName}`, level: 2 },
+        { id: 'introduction', text: `About Loan Settlement in ${shortState}`, level: 2 },
         { id: 'overview', text: 'Loan Settlement Overview', level: 2 },
         { id: 'benefits', text: 'Benefits of Loan Settlement', level: 2 },
         { id: 'process', text: 'The Settlement Process', level: 2 },

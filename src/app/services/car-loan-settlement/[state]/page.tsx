@@ -90,7 +90,7 @@ function generateHeadings(content: any) {
   if (content.whyCarLoanSettlement) {
     headings.push({
       id: 'why-car-loan-settlement',
-      text: `Car Loan Settlement in ${content.stateName}`,
+      text: `Car Loan Settlement in ${shortState}`,
       level: 2
     });
   }
@@ -98,7 +98,7 @@ function generateHeadings(content: any) {
   if (content.commonCarLoanProblems) {
     headings.push({
       id: 'common-car-loan-problems',
-      text: `Car Loan Problems in ${content.stateName}`,
+      text: `Car Loan Problems in ${shortState}`,
       level: 2
     });
   }
@@ -130,7 +130,7 @@ function generateHeadings(content: any) {
   if (content.legalSupport) {
     headings.push({
       id: 'legal-support',
-      text: `Legal Support for Car Loan Settlement in ${content.stateName}`,
+      text: `Legal Support for Car Loan Settlement in ${shortState}`,
       level: 2
     });
   }
@@ -178,7 +178,7 @@ function generateHeadings(content: any) {
   // Always add FAQs
   headings.push({
     id: 'faqs',
-    text: `Car Loan Settlement FAQs in ${content.stateName}`,
+    text: `Car Loan Settlement FAQs in ${shortState}`,
     level: 2
   });
 

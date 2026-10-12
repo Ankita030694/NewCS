@@ -168,7 +168,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Credit Card Settlement in {content.stateName}
+                    Credit Card Settlement in {shortState}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -196,7 +196,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Credit Card Problems in {content.stateName}
+                    Credit Card Problems in {shortState}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -249,7 +249,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                             marginBottom: '16px'
                           }}
                         >
-                          Our RBI-Compliant Credit Card Settlement Process in {content.stateName}
+                          Our RBI-Compliant Credit Card Settlement Process in {shortState}
                         </h3>
                         <p style={{ marginBottom: '16px' }}>{content.rbiCompliantProcess}</p>
                       </div>
@@ -268,7 +268,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                             marginBottom: '16px'
                           }}
                         >
-                          How CredSettle Negotiates with Card Issuers in {content.stateName}
+                          How CredSettle Negotiates with Card Issuers in {shortState}
                         </h3>
                         <p style={{ marginBottom: '16px' }}>{content.negotiationHelp}</p>
                       </div>
@@ -290,7 +290,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Legal Support for Credit Card Settlement in {content.stateName}
+                    Legal Support for Credit Card Settlement in {shortState}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -455,7 +455,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
               {/* FAQ */}
               <FAQWithSchema
                 faqs={content.faqs}
-                title={`Credit Card Settlement in ${content.stateName}`}
+                title={`Credit Card Settlement in ${shortState}`}
               />
 
               {/* CTA Section */}

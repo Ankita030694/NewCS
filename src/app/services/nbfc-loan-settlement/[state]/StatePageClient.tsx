@@ -168,7 +168,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    NBFC Loan Settlement in {content.stateName}
+                    NBFC Loan Settlement in {shortState}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -196,7 +196,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    NBFC Loan Problems in {content.stateName}
+                    NBFC Loan Problems in {shortState}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -455,7 +455,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
               {/* FAQ */}
               <FAQWithSchema
                 faqs={content.faqs}
-                title={`NBFC Loan Settlement in ${content.stateName}`}
+                title={`NBFC Loan Settlement in ${shortState}`}
               />
 
               {/* CTA Section */}

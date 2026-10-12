@@ -168,7 +168,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Car Loan Settlement in {content.stateName}
+                    Car Loan Settlement in {shortState}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -196,7 +196,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Car Loan Problems in {content.stateName}
+                    Car Loan Problems in {shortState}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -290,7 +290,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                    Legal Support for Car Loan Settlement in {content.stateName}
+                    Legal Support for Car Loan Settlement in {shortState}
                   </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -455,7 +455,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
               {/* FAQ */}
               <FAQWithSchema
                 faqs={content.faqs}
-                title={`Car Loan Settlement in ${content.stateName}`}
+                title={`Car Loan Settlement in ${shortState}`}
               />
 
               {/* CTA Section */}

@@ -187,7 +187,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Personal Loan Settlement in {content.stateName}
+                        Personal Loan Settlement in {shortState}
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -215,7 +215,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Common Personal Loan Problems in {content.stateName}
+                        Common Personal Loan Problems in {shortState}
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -268,7 +268,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                         marginBottom: '16px'
                       }}
                     >
-                          Our RBI-Compliant Personal Loan Settlement Process in {content.stateName}
+                          Our RBI-Compliant Personal Loan Settlement Process in {shortState}
                         </h3>
                         <p style={{ marginBottom: '16px' }}>{content.rbiCompliantProcess}</p>
                       </div>
@@ -287,7 +287,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                         marginBottom: '16px'
                       }}
                     >
-                          How CredSettle Helps You Negotiate with Banks in {content.stateName}
+                          How CredSettle Helps You Negotiate with Banks in {shortState}
                         </h3>
                         <p style={{ marginBottom: '16px' }}>{content.negotiationHelp}</p>
                       </div>
@@ -309,7 +309,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Legal Support for Personal Loans in {content.stateName}
+                        Legal Support for Personal Loans in {shortState}
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -337,7 +337,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        Types of Personal Loans We Settle in {content.stateName}
+                        Types of Personal Loans We Settle in {shortState}
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -566,7 +566,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
                       marginBottom: '20px'
                     }}
                   >
-                        About Loan Settlement in {content.stateName}
+                        About Loan Settlement in {shortState}
                       </h2>
                   <div
                     className="text-sm md:text-base lg:text-[16px] leading-relaxed"
@@ -701,7 +701,7 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
               {/* FAQ */}
               <FAQWithSchema
                 faqs={content.faqs}
-                title={`Personal Loan Settlement in ${content.stateName}`}
+                title={`Personal Loan Settlement in ${shortState}`}
               />
 
               {/* CTA Section */}
