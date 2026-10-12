@@ -1,4 +1,4 @@
-import { getShortBankName, getBankH2Title, getBankH1Title } from '@/lib/seo-utils';
+import { getShortBankName, getBankH2Title, getBankH1Title, getMetaDescPixelWidth } from '@/lib/seo-utils';
 // Import comprehensive bank content generator for NBFC loan settlement
 import { generateBankContent, generateBankSlug, getBankMetaTitle } from './bank-content-generator';
 
@@ -154,6 +154,27 @@ function generateKeywords(bankName: string): string[] {
   return baseKeywords;
 }
 
+// Generate compliant meta description (140-146 chars, <= 960px)
+function getNbfcBankMetaDesc(shortName: string, bankName: string): string {
+  const candidates = [
+    `Settle ${shortName} NBFC loan dues legally under RBI rules with CredSettle. Stop harassment, reduce debt & clear dues safely.`,
+    `Settle ${shortName} NBFC loan dues under RBI rules with CredSettle. Stop recovery calls, reduce debt up to 50% & clear your dues.`,
+    `Resolve ${shortName} NBFC loan debt legally under RBI rules with CredSettle. Stop agent harassment & settle your dues safely.`,
+    `Struggling with ${shortName} NBFC loan dues? Settle legally under RBI rules with CredSettle. Stop harassment & reduce debt up to 50%.`,
+    `Settle ${shortName} NBFC loan dues legally under RBI rules. Cut debt up to 50%, stop recovery harassment & settle with CredSettle.`,
+    `Struggling with ${shortName} NBFC loan dues? CredSettle helps you settle loan debt legally under RBI rules. Stop calls & settle up to 50%.`,
+    `Resolve ${shortName} loan dues legally under RBI rules. Stop recovery agent harassment, cut debt up to 50% & settle with CredSettle.`,
+    `Settle ${shortName} NBFC loan dues under RBI rules with CredSettle. Stop collection calls & settle outstanding debt up to 50% legally.`
+  ];
+  for (const c of candidates) {
+    if (c.length >= 140 && c.length <= 146 && getMetaDescPixelWidth(c) <= 960) return c;
+  }
+  for (const c of candidates) {
+    if (c.length >= 140 && c.length <= 150 && getMetaDescPixelWidth(c) <= 965) return c;
+  }
+  return candidates[0];
+}
+
 // Generate content for a bank (with fallback)
 export function getBankContentWithFallback(bankSlug: string): BankContent {
   const generatedContent = generateBankContent(bankSlug) as Partial<BankContent>;
@@ -173,7 +194,7 @@ export function getBankContentWithFallback(bankSlug: string): BankContent {
     slug,
     title: `${shortName} NBFC Loan Settlement Guide | CredSettle`,
     metaTitle: generatedContent?.metaTitle || getBankMetaTitle(bankName),
-    metaDescription: `Struggling with ${shortName} NBFC loan dues? CredSettle helps you settle loan debt legally under RBI rules. Settle up to 50% today.`,
+    metaDescription: generatedContent?.metaDescription || getNbfcBankMetaDesc(shortName, bankName),
     heroTitle: getBankH1Title(bankName, 'NBFC Loan Settlement'),
     heroDescription: `Get legal help to settle your ${shortName} NBFC loan dues. We use RBI One-Time Settlement rules. Stop recovery calls and become debt-free today.`,
     whyChooseSettlement: generatedContent?.whyChooseSettlement || `NBFC loan debt can become hard to manage when EMIs get too high. When ${bankName} loan dues pile up, settlement offers a clean exit. CredSettle helps borrowers across India negotiate with ${bankName}. We help reduce your total dues by 30% to 70%. You get full legal safety at every step.`,

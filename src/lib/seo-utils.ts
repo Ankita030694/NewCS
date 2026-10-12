@@ -87,10 +87,31 @@ export function sanitizeMetaTitle(rawTitle?: string, brand = 'CredSettle'): stri
   return `${s.slice(0, maxContentLen).trim()} | ${brand}`;
 }
 
-export function sanitizeMetaDescription(rawDesc?: string): string {
-  const defaultDesc = 'Get expert legal loan settlement and debt relief in India with CredSettle. Stop harassment, reduce dues up to 50%, and settle debt under RBI guidelines.';
-  if (!rawDesc) return defaultDesc;
-  const clean = rawDesc.trim().replace(/\s+/g, ' ');
+export function sanitizeMetaDescription(rawDesc?: string, bankName?: string, serviceName?: string): string {
+  const shortB = bankName ? getShortBankName(bankName) : '';
+  const sName = serviceName || 'Loan Settlement';
+
+  if (!rawDesc || rawDesc.trim().length < 20) {
+    if (shortB) {
+      const fallbackCandidates = [
+        `Settle ${shortB} ${sName.toLowerCase()} dues legally under RBI rules with CredSettle. Stop recovery harassment, reduce debt & clear dues safely.`,
+        `Settle ${shortB} ${sName.toLowerCase()} dues under RBI rules with CredSettle. Stop recovery calls, reduce debt up to 50% & clear your dues.`,
+        `Resolve ${shortB} ${sName.toLowerCase()} debt legally under RBI rules with CredSettle. Stop agent harassment & settle your dues safely.`,
+        `Struggling with ${shortB} ${sName.toLowerCase()} dues? Settle legally under RBI rules with CredSettle. Stop harassment & reduce debt up to 50%.`
+      ];
+      for (const c of fallbackCandidates) {
+        if (c.length >= 140 && c.length <= 146 && getMetaDescPixelWidth(c) <= 960) return c;
+      }
+      for (const c of fallbackCandidates) {
+        if (c.length >= 140 && c.length <= 150 && getMetaDescPixelWidth(c) <= 965) return c;
+      }
+    }
+  }
+
+  const clean = (rawDesc || '').trim().replace(/\s+/g, ' ');
+  if (!clean) {
+    return 'Get expert legal loan settlement and debt relief in India with CredSettle. Stop harassment, reduce dues up to 50%, and settle debt under RBI guidelines.';
+  }
   
   // Level 1: Strict sweet spot (140-146 chars, <= 960px)
   if (clean.length >= 140 && clean.length <= 146 && getMetaDescPixelWidth(clean) <= 960) return clean;
@@ -98,59 +119,51 @@ export function sanitizeMetaDescription(rawDesc?: string): string {
   // Level 2: Safe SEO compliance (140-150 chars, <= 965px)
   if (clean.length >= 140 && clean.length <= 150 && getMetaDescPixelWidth(clean) <= 965) return clean;
 
-  // Level 3: Max threshold (140-154 chars, <= 980px)
-  if (clean.length >= 140 && clean.length <= 154 && getMetaDescPixelWidth(clean) <= 980) return clean;
+  // Level 3: Max threshold (140-154 chars, <= 975px)
+  if (clean.length >= 140 && clean.length <= 154 && getMetaDescPixelWidth(clean) <= 975) return clean;
 
-  // If clean.length > 146 or pixel width > 965, smartly truncate to 140-146 characters
-  if (clean.length > 146 || getMetaDescPixelWidth(clean) > 965) {
-    const sub = clean.slice(0, 145);
-    const lastPeriod = sub.lastIndexOf('.');
-    if (lastPeriod >= 135 && lastPeriod <= 145) {
-      return sub.slice(0, lastPeriod + 1);
-    }
-    const lastSpace = sub.lastIndexOf(' ');
-    if (lastSpace >= 120) {
-      let truncated = sub.slice(0, lastSpace).replace(/[,;:\-–—|&]+$/, '').trim();
-      // Avoid ending with hanging words like 'and', 'or', 'with', 'to'
-      truncated = truncated.replace(/\b(and|or|with|to|for|of|in|by)\s*$/i, '').trim();
-      if (!truncated.endsWith('.')) truncated += '.';
-      if (truncated.length >= 140 && truncated.length <= 146 && getMetaDescPixelWidth(truncated) <= 960) {
-        return truncated;
-      }
-      if (truncated.length >= 130 && truncated.length < 140) {
-        const withSafeSuffix = `${truncated.slice(0, -1)} with legal ease.`;
-        if (withSafeSuffix.length >= 140 && withSafeSuffix.length <= 146) {
-          return withSafeSuffix;
+  // If clean.length > 146 or pixel width > 960, smartly truncate at word boundary and pad
+  if (clean.length > 146 || getMetaDescPixelWidth(clean) > 960) {
+    const endings = ['.', ' safely.', ' today.', ' legally.', ' with ease.', ' with CredSettle.', ' under RBI rules.'];
+    for (let end = 145; end >= 80; end--) {
+      if (clean[end] === ' ') {
+        let base = clean.slice(0, end).replace(/[,;:\-–—|&]+$/, '').trim();
+        base = base.replace(/\b(and|or|with|to|for|of|in|by)\s*$/i, '').trim();
+
+        for (const ending of endings) {
+          const cand = `${base.replace(/\.+$/, '')}${ending}`;
+          if (cand.length >= 140 && cand.length <= 146 && getMetaDescPixelWidth(cand) <= 960) return cand;
+        }
+        for (const ending of endings) {
+          const cand = `${base.replace(/\.+$/, '')}${ending}`;
+          if (cand.length >= 140 && cand.length <= 150 && getMetaDescPixelWidth(cand) <= 965) return cand;
         }
       }
     }
   }
 
-  // If clean.length < 140, pad to 140-146 characters (strictly never < 100)
+  // If clean.length < 140, pad to 140-146 characters using a granular suffix ladder
   if (clean.length < 140) {
-    const p = clean.endsWith('.') ? clean : `${clean}.`;
+    const base = clean.replace(/[,;:\-–—|&.\s]+$/, '').trim();
     const suffixes = [
-      ' Settle legally under RBI guidelines with CredSettle.',
-      ' Stop harassment & settle legally under RBI rules.',
-      ' Settle debt legally with CredSettle.',
-      ' Resolve dues legally under RBI rules.',
-      ' Settle with CredSettle.'
+      ' legally.', ' safely.', ' today.', ' with care.', ' with ease.', ' with legal ease.',
+      ' with CredSettle.', ' under RBI rules.', ' under RBI guidelines.',
+      ' with CredSettle legal help.', ' with legal help from CredSettle.',
+      ' under legal RBI guidelines today.', ' Settle debt legally with CredSettle.',
+      ' Settle debt safely under RBI rules.', ' Settle legally under RBI rules with CredSettle.'
     ];
+
     for (const s of suffixes) {
-      const cand = `${p.slice(0, -1)}${s}`;
-      if (cand.length >= 140 && cand.length <= 146 && getMetaDescPixelWidth(cand) <= 960) {
-        return cand;
-      }
+      const cand = `${base}${s}`;
+      if (cand.length >= 140 && cand.length <= 146 && getMetaDescPixelWidth(cand) <= 960) return cand;
     }
     for (const s of suffixes) {
-      const cand = `${p.slice(0, -1)}${s}`;
-      if (cand.length >= 140 && cand.length <= 150 && getMetaDescPixelWidth(cand) <= 965) {
-        return cand;
-      }
+      const cand = `${base}${s}`;
+      if (cand.length >= 140 && cand.length <= 150 && getMetaDescPixelWidth(cand) <= 965) return cand;
     }
   }
 
-  return defaultDesc;
+  return clean;
 }
 
 /**

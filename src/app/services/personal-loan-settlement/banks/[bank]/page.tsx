@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
   const content = getBankContentWithFallback(bank);
   const metaTitle = sanitizeMetaTitle(content.metaTitle || content.title);
-  const metaDescription = sanitizeMetaDescription(content.metaDescription);
+  const metaDescription = sanitizeMetaDescription(content.metaDescription, content.bankName, 'Personal Loan Settlement');
 
   return {
     title: metaTitle,

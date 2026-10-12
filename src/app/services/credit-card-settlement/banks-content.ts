@@ -1,4 +1,4 @@
-import { getShortBankName, getBankH2Title, getBankH1Title } from '@/lib/seo-utils';
+import { getShortBankName, getBankH2Title, getBankH1Title, getMetaDescPixelWidth } from '@/lib/seo-utils';
 // Import comprehensive bank content generator for credit card settlement
 import { generateBankContent, generateBankSlug, getBankMetaTitle } from './bank-content-generator';
 
@@ -175,7 +175,7 @@ function getCreditCardBankMetaDesc(shortName: string, bankName: string): string 
     `Resolve ${shortName} credit card debt legally with CredSettle under RBI rules. Stop agent harassment & cut total card dues up to 50%.`,
     `Settle ${shortName} card dues legally under RBI rules with CredSettle. Stop recovery harassment, negotiate waivers & clear your dues safely.`,
     `Struggling with ${shortName} credit card dues? CredSettle helps you settle card debt legally under RBI rules. Stop calls & settle up to 50%.`,
-    `Struggling with ${bankName} credit card dues? Settle legally under RBI rules with CredSettle. Stop harassment & cut card debt up to 50%.`
+    `Struggling with ${shortName} credit card dues? Settle legally under RBI rules with CredSettle. Stop harassment & cut card debt up to 50%.`
   ];
   for (const c of candidates) {
     if (c.length >= 140 && c.length <= 146) return c;

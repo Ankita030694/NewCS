@@ -1,4 +1,4 @@
-import { getShortBankName, getBankH2Title, getBankH1Title } from '@/lib/seo-utils';
+import { getShortBankName, getBankH2Title, getBankH1Title, getMetaDescPixelWidth } from '@/lib/seo-utils';
 // Import comprehensive bank content generator for business loan settlement
 import { generateBankContent, generateBankSlug, getBankMetaTitle } from './bank-content-generator';
 
@@ -171,17 +171,20 @@ function generateKeywords(bankName: string): string[] {
 // Generate compliant meta description (140-146 chars, <= 960px)
 function getBusinessBankMetaDesc(shortName: string, bankName: string): string {
   const candidates = [
-    `Settle ${shortName} business loan dues under RBI rules with CredSettle. Cut debt up to 50%, protect assets & clear dues safely.`,
+    `Settle ${shortName} business loan dues legally under RBI rules with CredSettle. Stop harassment, reduce debt & clear dues safely.`,
+    `Settle ${shortName} business loan dues under RBI rules with CredSettle. Stop recovery calls, reduce debt up to 50% & clear your dues.`,
+    `Resolve ${shortName} business loan debt legally under RBI rules with CredSettle. Stop agent harassment & settle your business dues safely.`,
+    `Struggling with ${shortName} business loan dues? Settle legally under RBI rules with CredSettle. Stop harassment & cut debt up to 50%.`,
     `Settle ${shortName} business loan dues legally under RBI rules. Cut debt up to 50%, protect assets & resolve debt with CredSettle.`,
     `Resolve ${shortName} business loan debt legally under RBI rules. Stop harassment, save up to 50% & get your NOC with CredSettle.`,
-    `Struggling with ${shortName} business loan dues? Settle legally under RBI rules. Cut debt by up to 50%, protect assets & settle with CredSettle.`,
-    `Struggling with ${bankName} business loan dues? Settle legally under RBI rules. Cut debt by up to 50%, protect assets, and become debt-free with CredSettle.`
+    `Struggling with ${shortName} business loan dues? Settle legally under RBI rules. Stop harassment, protect assets & settle with CredSettle.`,
+    `Settle ${shortName} business loan dues under RBI rules with CredSettle. Protect your assets, stop recovery calls & clear debt safely.`
   ];
   for (const c of candidates) {
-    if (c.length >= 140 && c.length <= 146) return c;
+    if (c.length >= 140 && c.length <= 146 && getMetaDescPixelWidth(c) <= 960) return c;
   }
   for (const c of candidates) {
-    if (c.length >= 140 && c.length <= 150) return c;
+    if (c.length >= 140 && c.length <= 150 && getMetaDescPixelWidth(c) <= 965) return c;
   }
   return candidates[0];
 }

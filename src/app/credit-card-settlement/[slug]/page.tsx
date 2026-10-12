@@ -106,21 +106,13 @@ function getCCBankMetaDescription(bankName: string): string {
   const shortName = getShortBankName(b);
 
   const candidates = [
-    `Settle ${shortName} card dues legally under RBI rules with CredSettle. Stop recovery harassment, reduce debt & get your bank NOC.`,
-    `Settle ${b} card dues legally under RBI rules with CredSettle. Stop recovery harassment, reduce debt & get your bank NOC.`,
-    `Settle ${shortName} credit card dues legally under RBI rules with CredSettle. Stop harassment, reduce debt and obtain an official NOC.`,
-    `Settle ${b} credit card dues legally under RBI rules with CredSettle. Stop harassment, reduce debt and obtain an official NOC.`,
-    `Resolve ${shortName} credit card dues legally with CredSettle under RBI rules. Stop recovery agent harassment & reduce your total debt safely.`,
-    `Resolve ${b} credit card dues legally with CredSettle under RBI rules. Stop recovery agent harassment & reduce your total debt safely.`,
-    `Settle ${shortName} credit card dues legally under RBI rules with CredSettle. Stop recovery harassment, reduce debt and obtain an official bank NOC.`,
-    `Settle ${b} credit card dues legally under RBI rules with CredSettle. Stop recovery harassment, reduce debt and obtain an official bank NOC.`,
-    `Expert legal help to settle ${shortName} credit card dues under RBI rules with CredSettle. Stop harassment, reduce debt & get your bank NOC.`,
-    `Expert legal help to settle ${b} credit card dues under RBI rules with CredSettle. Stop harassment, reduce debt & get your bank NOC.`,
-    `Struggling with ${shortName} credit card dues? CredSettle settles debt legally under RBI guidelines. Stop collection harassment & clear debt.`,
-    `Struggling with ${b} credit card dues? CredSettle settles debt legally under RBI guidelines. Stop collection harassment & clear debt.`,
-    `Settle ${shortName} card dues legally under RBI rules with CredSettle. Stop recovery harassment, reduce dues & get official NOC.`,
-    `Resolve ${shortName} card debt legally under RBI rules. CredSettle stops recovery harassment, reduces debt & gets official bank NOC.`,
-    `Settle ${shortName} card debt legally with CredSettle under RBI rules. Stop agent harassment, negotiate waivers & clear your dues safely.`
+    `Facing ${shortName} credit card dues? Settle legally under RBI rules with CredSettle. Stop recovery calls & reduce debt up to 50%.`,
+    `Get expert legal relief for ${shortName} card debt under RBI rules with CredSettle. Stop recovery harassment & clear dues with NOC.`,
+    `Resolve outstanding ${shortName} credit card debt legally with CredSettle. Stop harassment & settle dues up to 50% under RBI rules.`,
+    `Clear your ${shortName} credit card debt legally under RBI rules with CredSettle. Stop agent calls, reduce dues & get official NOC.`,
+    `Facing ${shortName} card debt? Settle legally under RBI rules with CredSettle. Stop recovery harassment, cut dues & get official NOC.`,
+    `Legal debt resolution for ${shortName} credit card dues with CredSettle. Stop collection calls & settle up to 50% under RBI rules.`,
+    `Struggling with ${shortName} card debt? Settle legally under RBI rules with CredSettle. Stop agent calls & reduce debt up to 50%.`
   ];
 
   // Level 1: Strict sweet spot (140-146 chars, <= 960px)
@@ -140,11 +132,7 @@ function getCCBankMetaDescription(bankName: string): string {
     if (c.length >= 140 && c.length <= 155 && getMetaDescPixelWidth(c) <= 980) return c;
   }
 
-  const base = `Settle ${shortName} credit card dues legally under RBI rules with CredSettle. Stop harassment, reduce debt & get your official bank NOC.`;
-  if (base.length > 146) {
-    return `Settle ${shortName} card dues legally under RBI rules with CredSettle. Stop recovery harassment, reduce debt & get your bank NOC.`.slice(0, 146);
-  }
-  return base.slice(0, 146);
+  return candidates[0];
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {

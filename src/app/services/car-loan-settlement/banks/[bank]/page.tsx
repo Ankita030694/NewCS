@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { bank } = await params;
   const content = getBankContentWithFallback(bank);
   const metaTitle = sanitizeMetaTitle(content.metaTitle || content.title);
-  const metaDescription = sanitizeMetaDescription(content.metaDescription);
+  const metaDescription = sanitizeMetaDescription(content.metaDescription, content.bankName, 'Car Loan Settlement');
 
   return {
     title: metaTitle,

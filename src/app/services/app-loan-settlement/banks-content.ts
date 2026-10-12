@@ -1,6 +1,6 @@
 // Import comprehensive bank content generator for app loan settlement
 import { generateBankContent, generateBankSlug, getBankMetaTitle } from './bank-content-generator';
-import { getShortBankName, getBankH2Title } from '@/lib/seo-utils';
+import { getShortBankName, getBankH2Title, getMetaDescPixelWidth } from '@/lib/seo-utils';
 
 export { getShortBankName, getBankH2Title };
 
@@ -140,6 +140,27 @@ function generateKeywords(bankName: string): string[] {
   return baseKeywords;
 }
 
+// Generate compliant meta description (140-146 chars, <= 960px)
+function getAppLoanBankMetaDesc(shortName: string, bankName: string): string {
+  const candidates = [
+    `Settle ${shortName} app loan dues legally under RBI rules with CredSettle. Stop recovery harassment, reduce debt & clear dues safely.`,
+    `Settle ${shortName} app loan dues under RBI rules with CredSettle. Stop recovery calls, reduce debt up to 50% & clear your dues.`,
+    `Resolve ${shortName} app loan debt legally under RBI rules with CredSettle. Stop agent harassment & settle your outstanding dues safely.`,
+    `Struggling with ${shortName} app loan dues? Settle legally under RBI rules with CredSettle. Stop harassment & reduce debt up to 50%.`,
+    `Settle ${shortName} app loan dues legally under RBI rules. Cut debt up to 50%, stop recovery calls & get your bank NOC with CredSettle.`,
+    `Struggling with ${shortName} app loan dues? Settle legally under RBI rules. Stop harassment, save up to 50% & settle with CredSettle.`,
+    `Resolve ${shortName} app loan debt legally under RBI guidelines. Stop collection harassment, reduce dues up to 50% & settle safely.`,
+    `Settle ${shortName} app loan dues under RBI rules with CredSettle. Stop recovery agent calls & settle debt up to 50% with official NOC.`
+  ];
+  for (const c of candidates) {
+    if (c.length >= 140 && c.length <= 146 && getMetaDescPixelWidth(c) <= 960) return c;
+  }
+  for (const c of candidates) {
+    if (c.length >= 140 && c.length <= 150 && getMetaDescPixelWidth(c) <= 965) return c;
+  }
+  return candidates[0];
+}
+
 // Generate content for a bank (with fallback)
 export function getBankContentWithFallback(bankSlug: string): BankContent {
   const generatedContent = generateBankContent(bankSlug) as Partial<BankContent>;
@@ -159,7 +180,7 @@ export function getBankContentWithFallback(bankSlug: string): BankContent {
     slug,
     title: `${shortName} App Loan Settlement Guide | CredSettle`,
     metaTitle: generatedContent?.metaTitle || getBankMetaTitle(bankName),
-    metaDescription: `Struggling with ${shortName} app loan dues? CredSettle helps you legally settle app loan debt under RBI guidelines and stop recovery harassment.`,
+    metaDescription: generatedContent?.metaDescription || getAppLoanBankMetaDesc(shortName, bankName),
     heroTitle: `${shortName} App Loan Settlement`,
     heroDescription: `Get expert legal help to clear your ${shortName} app loan dues. Settle debt under RBI rules. Stop agent calls, protect your privacy, and live debt free with CredSettle.`,
     whyChooseSettlement: generatedContent?.whyChooseSettlement || `App loan debt can grow fast due to high daily interest rates. If you fall behind on your ${bankName} loan, extra fees add up quickly. Collection agents often call many times a day. An RBI One-Time Settlement (OTS) gives you a legal way out. CredSettle steps in to talk with ${bankName}. We help reduce your total dues by 30% to 70%. We stop harassment calls right away and close your account for good.`,

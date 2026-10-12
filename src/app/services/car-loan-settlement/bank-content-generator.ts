@@ -2,6 +2,7 @@
 // This generates full 2500+ word articles for each bank
 
 import { BankContent } from './banks-content';
+import { getShortBankName, getMetaDescPixelWidth } from '@/lib/seo-utils';
 
 interface BankInfo {
   name: string;
@@ -512,17 +513,6 @@ export function generateBankSlug(bankName: string): string {
     .replace(/^-+|-+$/g, '');
 }
 
-export function getShortBankName(name: string): string {
-  const s = name
-    .replace('Technologies India Pvt Ltd', 'Tech')
-    .replace('Private Limited', 'Pvt Ltd')
-    .replace('Financial Services', '')
-    .replace('Finance Limited', 'Fin')
-    .replace('Finance', '')
-    .trim();
-  return s.length >= 3 ? s : name;
-}
-
 export function getBankMetaTitle(bankName: string): string {
   const b = bankName.trim();
   const shortB = getShortBankName(b);
@@ -554,20 +544,22 @@ export function getBankMetaDescription(bankName: string): string {
   const b = bankName.trim();
   const shortB = getShortBankName(b);
   const candidates = [
-    `Settle your ${b} car loan dues legally under RBI rules. Cut debt by up to 50%, stop recovery calls, and keep your car safe with CredSettle.`,
-    `Settle your ${shortB} car loan dues legally under RBI rules. Cut debt by up to 50%, stop recovery calls, and keep your car safe with CredSettle.`,
-    `Struggling with dues? Settle your ${b} car loan legally under RBI rules. Cut debt by up to 50%, stop recovery calls, and protect your car with CredSettle.`,
-    `Struggling with dues? Settle your ${shortB} car loan legally under RBI rules. Cut debt by up to 50%, stop recovery calls, and protect your car with CredSettle.`,
-    `Settle ${b} car loan dues legally under RBI rules. Cut dues by up to 50%, stop recovery calls, and keep your vehicle safe with CredSettle legal help.`,
-    `Settle ${shortB} car loan dues legally under RBI rules. Cut dues by up to 50%, stop recovery calls, and keep your vehicle safe with CredSettle legal help.`,
-    `Settle your ${b} car loan legally under RBI rules. Cut debt by 50%, stop recovery calls, and protect your car with expert help from CredSettle.`,
-    `Settle your ${shortB} car loan legally under RBI rules. Cut debt by 50%, stop recovery calls, and protect your car with expert help from CredSettle.`
+    `Settle ${shortB} car loan dues legally under RBI rules with CredSettle. Stop harassment, cut debt up to 50% & keep your car safe.`,
+    `Settle ${shortB} car loan dues under RBI rules with CredSettle. Stop recovery calls, reduce debt up to 50% & protect your vehicle.`,
+    `Resolve ${shortB} car loan debt legally under RBI rules with CredSettle. Stop agent calls, keep your vehicle & clear dues safely.`,
+    `Struggling with ${shortB} car loan dues? Settle legally under RBI rules with CredSettle. Stop harassment & reduce debt up to 50%.`,
+    `Settle ${shortB} car loan dues legally under RBI rules. Cut dues up to 50%, stop recovery calls & keep your car safe with CredSettle.`,
+    `Settle your ${shortB} car loan legally under RBI rules. Cut debt by 50%, stop recovery calls & protect your car with CredSettle.`,
+    `Resolve your ${shortB} car loan dues legally under RBI rules. Stop agent harassment, keep your vehicle & clear dues with CredSettle.`,
+    `Settle ${shortB} car loan dues under RBI rules with CredSettle. Protect your vehicle from seizure & settle debt up to 50% safely.`
   ];
   for (const c of candidates) {
-    if (c.length >= 140 && c.length <= 155) return c;
+    if (c.length >= 140 && c.length <= 146 && getMetaDescPixelWidth(c) <= 960) return c;
   }
-  const c = `Settle your ${shortB} car loan dues legally under RBI rules. Cut debt by up to 50%, stop recovery calls, and keep your car safe with CredSettle.`;
-  return c.slice(0, 155);
+  for (const c of candidates) {
+    if (c.length >= 140 && c.length <= 150 && getMetaDescPixelWidth(c) <= 965) return c;
+  }
+  return candidates[0];
 }
 
 // Generate comprehensive content for a bank (car loan settlement specific)

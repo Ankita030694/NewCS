@@ -2,6 +2,7 @@
 // This generates full 2500+ word articles for each bank
 
 import { BankContent } from './banks-content';
+import { getShortBankName, getMetaDescPixelWidth } from '@/lib/seo-utils';
 
 interface BankInfo {
   name: string;
@@ -512,17 +513,6 @@ export function generateBankSlug(bankName: string): string {
     .replace(/^-+|-+$/g, '');
 }
 
-export function getShortBankName(name: string): string {
-  const s = name
-    .replace('Technologies India Pvt Ltd', 'Tech')
-    .replace('Private Limited', 'Pvt Ltd')
-    .replace('Financial Services', '')
-    .replace('Finance Limited', 'Fin')
-    .replace('Finance', '')
-    .trim();
-  return s.length >= 3 ? s : name;
-}
-
 export function getBankMetaTitle(bankName: string): string {
   const b = bankName.trim();
   const shortB = getShortBankName(b);
@@ -556,29 +546,21 @@ export function getBankMetaDescription(bankName: string): string {
   const b = bankName.trim();
   const shortB = getShortBankName(b);
   const candidates = [
-    `Settle ${shortB} personal loan dues under RBI rules with CredSettle. Cut debt up to 50%, stop harassment & clear dues safely.`,
-    `Resolve ${shortB} personal loan debt legally under RBI rules. Stop harassment, save up to 50% & get your NOC with CredSettle.`,
+    `Settle ${shortB} personal loan dues legally under RBI rules with CredSettle. Stop harassment, reduce debt & clear dues safely.`,
+    `Settle ${shortB} personal loan dues under RBI rules with CredSettle. Stop recovery calls, reduce debt up to 50% & clear your dues.`,
+    `Resolve ${shortB} personal loan debt legally under RBI rules with CredSettle. Stop agent harassment & settle your dues safely.`,
+    `Struggling with ${shortB} personal loan dues? Settle legally under RBI rules with CredSettle. Stop harassment & cut debt up to 50%.`,
+    `Settle ${shortB} personal loan dues legally under RBI rules. Cut debt up to 50%, stop recovery calls & get your bank NOC with CredSettle.`,
     `Settle ${shortB} personal loan dues legally under RBI rules with CredSettle. Stop recovery harassment & clear debt with official NOC.`,
-    `Settle your ${b} personal loan dues legally under RBI rules. Cut debt by up to 50%, stop recovery calls, and regain peace of mind with CredSettle.`,
-    `Settle your ${shortB} personal loan dues legally under RBI rules. Cut debt by up to 50%, stop recovery calls, and regain peace of mind with CredSettle.`,
-    `Struggling with dues? Settle your ${b} personal loan legally under RBI rules. Cut debt by up to 50%, stop recovery calls, and get debt free with CredSettle.`,
-    `Struggling with dues? Settle your ${shortB} personal loan legally under RBI rules. Cut debt by up to 50%, stop recovery calls, and get debt free with CredSettle.`,
-    `Settle ${b} personal loan dues legally under RBI rules. Cut debt by up to 50%, stop recovery calls, and achieve debt freedom with CredSettle legal help.`,
-    `Settle ${shortB} personal loan dues legally under RBI rules. Cut debt by up to 50%, stop recovery calls, and achieve debt freedom with CredSettle legal help.`,
-    `Settle your ${b} loan legally under RBI rules. Cut debt by up to 50%, stop recovery calls, and achieve debt freedom with expert help from CredSettle.`,
-    `Settle your ${shortB} loan legally under RBI rules. Cut debt by up to 50%, stop recovery calls, and achieve debt freedom with expert help from CredSettle.`
+    `Struggling with ${shortB} personal loan dues? Settle legally under RBI rules. Stop harassment, save up to 50% & settle with CredSettle.`
   ];
   for (const c of candidates) {
-    if (c.length >= 140 && c.length <= 146) return c;
+    if (c.length >= 140 && c.length <= 146 && getMetaDescPixelWidth(c) <= 960) return c;
   }
   for (const c of candidates) {
-    if (c.length >= 140 && c.length <= 150) return c;
+    if (c.length >= 140 && c.length <= 150 && getMetaDescPixelWidth(c) <= 965) return c;
   }
-  for (const c of candidates) {
-    if (c.length >= 140 && c.length <= 155) return c;
-  }
-  const c = `Settle your ${shortB} personal loan dues legally under RBI rules. Cut debt by up to 50%, stop recovery calls, and regain peace of mind with CredSettle.`;
-  return c.slice(0, 146);
+  return candidates[0];
 }
 
 // Generate comprehensive content for a bank
