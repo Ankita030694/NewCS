@@ -422,7 +422,7 @@ export default function HowToConvinceBankForOneTimeSettlementClient() {
           <div className="relative w-full max-w-xs sm:max-w-sm bg-white h-full shadow-2xl flex flex-col z-10">
             <div className="p-4 bg-slate-900 text-white flex items-center justify-between">
               <div>
-                <h3 className="font-extrabold text-sm">Table of Contents</h3>
+                <div className="font-extrabold text-sm">Table of Contents</div>
                 <p className="text-[11px] text-slate-300">60 Chapters • Complete OTS Guide</p>
               </div>
               <button
@@ -456,9 +456,9 @@ export default function HowToConvinceBankForOneTimeSettlementClient() {
 
                 return (
                   <div key={mIdx}>
-                    <h4 className="text-[11px] font-black uppercase tracking-wider text-slate-400 mb-1.5 px-2">
+                    <div className="text-[11px] font-black uppercase tracking-wider text-slate-400 mb-1.5 px-2">
                       {m.moduleTitle}
-                    </h4>
+                    </div>
                     <div className="space-y-1">
                       {visibleInMod.map((link) => {
                         const isActive = activeId === link.id;
@@ -2449,9 +2449,9 @@ export default function HowToConvinceBankForOneTimeSettlementClient() {
               <span className="text-[10px] font-black tracking-wider uppercase bg-blue-500/30 text-blue-200 px-2.5 py-0.5 rounded-full inline-block mb-2">
                 FREE EVALUATION
               </span>
-              <h4 className="font-black text-sm mb-2 leading-snug">
+              <div className="font-black text-sm mb-2 leading-snug">
                 Need Bank OTS Negotiation?
-              </h4>
+              </div>
               <p className="text-[11px] text-blue-100/90 mb-3 leading-relaxed">
                 Stop agent harassment and secure maximum haircuts with institutional legal defense.
               </p>
@@ -2490,10 +2490,10 @@ export default function HowToConvinceBankForOneTimeSettlementClient() {
 
             {/* Regulatory Trust Badge */}
             <div className="bg-white border border-slate-200 rounded-xl p-3.5 shadow-xs">
-              <h5 className="text-[11px] font-bold text-black uppercase tracking-wider mb-2 flex items-center gap-1.5">
+              <div className="text-[11px] font-bold text-black uppercase tracking-wider mb-2 flex items-center gap-1.5">
                 <ShieldCheck className="w-4 h-4 text-blue-600" />
                 <span>CredSettle Legal Shield</span>
-              </h5>
+              </div>
               <p className="text-[10px] text-slate-700 leading-relaxed mb-2.5">
                 All negotiations are conducted under the supervision of enrolled Advocates in strict compliance with the Advocates Act, 1961 and RBI Master Directions.
               </p>

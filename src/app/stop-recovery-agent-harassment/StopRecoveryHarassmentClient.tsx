@@ -324,12 +324,12 @@ export default function StopRecoveryHarassmentClient() {
             <span className="w-1.5 h-1.5 rounded-full bg-red-400 animate-pulse"></span>
             Stop Recovery Harassment • Legal Defense 2026
           </div>
-          <h1 className="text-xl sm:text-2xl md:text-4xl font-extrabold mb-2 tracking-tight leading-snug break-words">
-            How to Stop Recovery Agent Harassment<br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-sky-200 to-indigo-200">
-              Complete Legal Protection &amp; Borrower Defense Guide
-            </span>
+          <h1 className="text-xl sm:text-2xl md:text-4xl font-extrabold tracking-tight leading-snug break-words">
+            How to Stop Recovery Agent Harassment
           </h1>
+          <p className="text-xl sm:text-2xl md:text-4xl font-extrabold mb-2 tracking-tight leading-snug break-words text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-sky-200 to-indigo-200">
+            Complete Legal Protection &amp; Borrower Defense Guide
+          </p>
           <p className="text-xs sm:text-sm text-slate-100 mb-4 sm:mb-5 max-w-2xl mx-auto font-normal leading-relaxed px-1">
             Are recovery agents threatening your family, visiting your workplace, or calling at odd hours? Learn how to legally halt coercive tactics, assert your constitutional rights under RBI guidelines and Bharatiya Nyaya Sanhita, preserve unassailable evidence, and secure professional legal protection.
           </p>
@@ -430,7 +430,7 @@ export default function StopRecoveryHarassmentClient() {
           <aside className="lg:w-[15%] flex-shrink-0 hidden lg:block sticky top-24 h-[calc(100vh-7rem)] max-h-[calc(100vh-7rem)] flex flex-col space-y-2.5 overflow-hidden z-10">
             <div className="bg-white p-3 rounded-2xl shadow-sm border border-gray-200 flex-1 min-h-0 flex flex-col overflow-hidden max-h-full">
               <div className="flex items-center justify-between border-b pb-2 mb-2 flex-shrink-0">
-                <h3 className="font-bold text-black text-xs">Table of Contents</h3>
+                <div className="font-bold text-black text-xs">Table of Contents</div>
                 <span className="text-[10px] bg-blue-100 text-blue-700 font-bold px-1.5 py-0.5 rounded-full">64</span>
               </div>
 
@@ -494,7 +494,7 @@ export default function StopRecoveryHarassmentClient() {
             <div className="bg-gradient-to-br from-red-600 to-rose-700 p-2.5 sm:p-3 rounded-xl text-white shadow-sm text-center flex-shrink-0">
               <div className="flex items-center justify-center gap-1.5 mb-1 text-red-100 text-xs">
                 <span>🛡️</span>
-                <h4 className="font-bold text-xs text-white">Stop Harassment</h4>
+                <div className="font-bold text-xs text-white">Stop Harassment</div>
               </div>
               <p className="text-[10px] text-red-100 mb-2 leading-snug">
                 High Court advocate representation within 24 hours.
@@ -2179,7 +2179,7 @@ export default function StopRecoveryHarassmentClient() {
               <div className="bg-white border-2 border-red-300 rounded-2xl p-3.5 shadow-xs space-y-2 text-center">
                 <div className="flex items-center justify-center gap-1.5">
                   <span className="w-2 h-2 rounded-full bg-red-600 animate-pulse"></span>
-                  <h3 className="font-bold text-black text-xs">Active Harassment?</h3>
+                  <div className="font-bold text-black text-xs">Active Harassment?</div>
                 </div>
                 <p className="text-[10px] text-black leading-tight font-normal">
                   Advocates issue cease-and-desist notices to stop collection calls within 24 hours.
@@ -2197,9 +2197,9 @@ export default function StopRecoveryHarassmentClient() {
 
               {/* Quick Legal Facts Box */}
               <div className="bg-slate-900 text-white rounded-2xl p-3.5 shadow-xs space-y-2 border border-slate-800">
-                <h4 className="text-[10px] font-bold uppercase tracking-wider text-red-400">
+                <div className="text-[10px] font-bold uppercase tracking-wider text-red-400">
                   Key Safeguards
-                </h4>
+                </div>
                 <ul className="text-[10px] space-y-1.5 text-slate-200 font-medium">
                   <li className="flex items-start gap-1">
                     <span className="text-emerald-400 font-bold">✓</span>
@@ -2222,9 +2222,9 @@ export default function StopRecoveryHarassmentClient() {
 
               {/* Direct Escalation Contacts */}
               <div className="bg-blue-50 border border-blue-200 rounded-2xl p-3 text-[10px] text-black space-y-1.5">
-                <h4 className="font-bold text-[10px] text-blue-900 uppercase tracking-wider">
+                <div className="font-bold text-[10px] text-blue-900 uppercase tracking-wider">
                   Redressal Portals
-                </h4>
+                </div>
                 <div className="space-y-1">
                   <div>
                     <span className="text-black block text-[9px] font-semibold">RBI Ombudsman:</span>
@@ -2258,7 +2258,7 @@ export default function StopRecoveryHarassmentClient() {
             <div className="flex items-center justify-between pb-3 border-b border-gray-200 mb-3">
               <div className="flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-red-600"></span>
-                <h3 className="font-bold text-black text-sm">Table of Contents (64 Chapters)</h3>
+                <div className="font-bold text-black text-sm">Table of Contents (64 Chapters)</div>
               </div>
               <button
                 onClick={() => setIsMobileTocOpen(false)}

@@ -320,12 +320,12 @@ export default function LoanSettlementPage() {
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
             RBI Compromise Framework &amp; Legal Defense 2026
           </div>
-          <h1 className="text-xl sm:text-2xl md:text-4xl font-extrabold mb-2 tracking-tight leading-snug break-words">
-            Loan Settlement in India<br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-sky-200 to-indigo-200">
-              The Complete Legal &amp; Financial Master Guide
-            </span>
+          <h1 className="text-xl sm:text-2xl md:text-4xl font-extrabold tracking-tight leading-snug break-words">
+            Loan Settlement Process in India
           </h1>
+          <p className="text-xl sm:text-2xl md:text-4xl font-extrabold mb-2 tracking-tight leading-snug break-words text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-sky-200 to-indigo-200">
+            The Complete Legal &amp; Financial Master Guide
+          </p>
           <p className="text-xs sm:text-sm text-slate-200 mb-4 sm:mb-5 max-w-2xl mx-auto font-normal leading-relaxed px-1">
             Understand the RBI compromise settlement policy, stop recovery agent harassment, defend legal notices, calculate realistic OTS ranges, and protect your dignity.
           </p>

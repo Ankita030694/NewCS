@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import StopRecoveryHarassmentClient from './StopRecoveryHarassmentClient';
 
 export const metadata: Metadata = {
-  title: 'How to Stop Recovery Agent Harassment (2026 Guide) | Legal Rights & RBI Rules | CredSettle',
+  title: 'Stop Recovery Agent Harassment Legally | CredSettle',
   description:
-    'Are recovery agents harassing you or calling family members? Learn how to legally stop collection calls, assert your rights under RBI rules and Bharatiya Nyaya Sanhita, file Ombudsman complaints, and protect your dignity.',
+    'Stop loan recovery agent harassment legally in India. Know RBI rules, halt abusive calls to family, file Ombudsman complaints & protect rights.',
   keywords: [
     'How to stop recovery agent harassment',
     'how to stop personal loan recovery calls',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.credsettle.com/stop-recovery-agent-harassment',
   },
   openGraph: {
-    title: 'How to Stop Recovery Agent Harassment (2026 Legal Guide) | CredSettle',
+    title: 'Stop Recovery Agent Harassment Legally | CredSettle',
     description:
       'Know your legal rights against recovery agent harassment. Understand permitted calling hours (8 AM - 7 PM), third-party contact bans, police jurisdiction limits, and step-by-step procedures to file RBI complaints.',
     url: 'https://www.credsettle.com/stop-recovery-agent-harassment',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How to Stop Recovery Agent Harassment in India — Legal Rights | CredSettle',
+    title: 'Stop Recovery Agent Harassment Legally | CredSettle',
     description:
       'Learn how to halt debt collector harassment legally under RBI Master Directives, BNS criminal provisions, and professional legal representation.',
     images: ['https://www.credsettle.com/credsettle-logo.svg'],

@@ -5,12 +5,12 @@ export default function AboutUsSection() {
     <section className="w-full overflow-x-hidden">
       <div className="w-full max-w-8xl mx-auto px-4 sm:px-6 md:px-8 lg:px-24 py-6 sm:py-8 md:py-12 overflow-x-hidden">
         {/* About Us Heading */}
-        <h3 
+        <h2 
           className="font-bold text-center text-3xl mb-2 sm:mb-3 md:mb-4" 
           style={{color: '#0C2756'}}
         >
           About Us
-        </h3>
+        </h2>
           {/* Bottom Heading */}
           <p
             style={{
@@ -274,13 +274,13 @@ export default function AboutUsSection() {
             />
 
             <div className="relative z-10 pb-24 sm:pb-28 md:pb-32">
-              <h4 
+              <h3 
                 className="font-bold text-gray-900 text-xl sm:text-2xl md:text-2xl mb-4 sm:mb-5 transition-colors duration-300 group-hover:text-[#0C2756]" 
                 style={{ lineHeight: '1.3' }}
               >
                 Your Fast Track to<br />
                 <span className="text-[#0C2756]">Debt Freedom</span>
-              </h4>
+              </h3>
               <p 
                 className="text-gray-700 text-sm sm:text-base md:text-base leading-relaxed mb-4 transition-all duration-300 group-hover:text-gray-800" 
               >
@@ -372,12 +372,12 @@ export default function AboutUsSection() {
           />
 
           <div className="relative z-10">
-            <h4 
+            <h3 
               className="font-bold text-center text-gray-900 mb-6 sm:mb-7 md:mb-8 text-xl sm:text-2xl md:text-2xl transition-colors duration-300 group-hover:text-[#0C2756]" 
               style={{ fontWeight: 600 }}
             >
               We work with the guidelines of
-            </h4>
+            </h3>
             <div className="grid grid-cols-3 grid-rows-2 md:grid-cols-6 md:grid-rows-1 gap-6 sm:gap-7 md:gap-8 place-items-center">
               {[
                 { src: '/guideline1.svg', alt: 'Bar Council of India' },

@@ -386,7 +386,7 @@ export default function LoanSettlementPageClient() {
               <div className="p-4 border-b border-gray-100 flex items-center justify-between">
                 <div>
                   <span className="text-[10px] uppercase font-bold text-blue-600 tracking-wider">Quick Navigation</span>
-                  <h3 className="text-base font-bold text-black">Table of Contents (25 Chapters)</h3>
+                  <div className="text-base font-bold text-black">Table of Contents (25 Chapters)</div>
                 </div>
                 <button
                   onClick={() => setIsMobileTocOpen(false)}
@@ -469,7 +469,7 @@ export default function LoanSettlementPageClient() {
           <aside className="lg:w-[15%] flex-shrink-0 hidden lg:block sticky top-20 max-h-[calc(100vh-5.5rem)] flex flex-col space-y-2.5">
               <div className="bg-white p-3.5 rounded-2xl shadow-sm border border-gray-200">
                 <div className="flex items-center justify-between border-b pb-2.5 mb-2.5">
-                  <h3 className="font-bold text-black text-xs">Table of Contents</h3>
+                  <div className="font-bold text-black text-xs">Table of Contents</div>
                   <span className="text-[10px] bg-blue-100 text-blue-700 font-bold px-1.5 py-0.5 rounded-full">25</span>
                 </div>
 
@@ -511,7 +511,7 @@ export default function LoanSettlementPageClient() {
                 <div className="w-7 h-7 rounded-lg bg-blue-500/20 flex items-center justify-center mx-auto mb-2 text-blue-300 text-sm">
                   ⚖️
                 </div>
-                <h4 className="font-bold text-xs mb-1">Multi-Debt Shield</h4>
+                <div className="font-bold text-xs mb-1">Multi-Debt Shield</div>
                 <p className="text-[10px] text-blue-200 mb-3 leading-snug">
                   Direct advocate intervention freezing recovery action across all lenders.
                 </p>
@@ -1509,7 +1509,7 @@ export default function LoanSettlementPageClient() {
                 <span className="w-8 h-8 rounded-full bg-blue-100 text-blue-600 inline-flex items-center justify-center text-sm mb-2">
                   🛡️
                 </span>
-                <h4 className="font-bold text-xs text-black mb-1">Halt Multi-Loan Calls</h4>
+                <div className="font-bold text-xs text-black mb-1">Halt Multi-Loan Calls</div>
                 <p className="text-[10px] text-black mb-3 leading-tight">
                   Official advocate notices shield your family from cross-lender recovery pressure within 24 hrs.
                 </p>

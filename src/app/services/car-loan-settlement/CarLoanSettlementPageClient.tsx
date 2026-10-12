@@ -287,12 +287,12 @@ export default function CarLoanSettlementPageClient() {
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
             RBI Compromise Framework &amp; Auto Loan Legal Defense 2026
           </div>
-          <h1 className="text-xl sm:text-2xl md:text-4xl font-extrabold mb-2 tracking-tight leading-snug break-words">
-            Car Loan Settlement in India<br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-sky-200 to-indigo-200">
-              The Complete Legal, Repossession &amp; OTS Master Guide
-            </span>
+          <h1 className="text-xl sm:text-2xl md:text-4xl font-extrabold tracking-tight leading-snug break-words">
+            Car Loan Settlement Process in India
           </h1>
+          <p className="text-xl sm:text-2xl md:text-4xl font-extrabold mb-2 tracking-tight leading-snug break-words text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-sky-200 to-indigo-200">
+            The Complete Legal, Repossession &amp; OTS Master Guide
+          </p>
           <p className="text-xs sm:text-sm text-slate-200 mb-4 sm:mb-5 max-w-2xl mx-auto font-normal leading-relaxed px-1">
             Resolve vehicle defaults, stop aggressive repossession agents, settle auction deficiency balances, remove RTO hypothecation, and protect your vehicle under Supreme Court directives.
           </p>
@@ -430,7 +430,7 @@ export default function CarLoanSettlementPageClient() {
               <div className="w-screen max-w-sm bg-white shadow-2xl flex flex-col">
                 <div className="p-4 bg-slate-900 text-white flex items-center justify-between">
                   <div>
-                    <h3 className="font-bold text-sm">Table of Contents</h3>
+                    <div className="font-bold text-sm">Table of Contents</div>
                     <p className="text-[10px] text-slate-300">84 Master Sections • Car Loan Settlement</p>
                   </div>
                   <button
@@ -509,7 +509,7 @@ export default function CarLoanSettlementPageClient() {
           <aside className="lg:w-[15%] flex-shrink-0 hidden lg:block sticky top-24 h-[calc(100vh-7rem)] max-h-[calc(100vh-7rem)] flex flex-col space-y-2.5 overflow-hidden z-10">
             <div className="bg-white p-3 rounded-2xl shadow-sm border border-gray-200 flex-1 min-h-0 flex flex-col overflow-hidden max-h-full">
               <div className="flex items-center justify-between border-b pb-2 mb-2 flex-shrink-0">
-                <h3 className="font-bold text-black text-xs">Table of Contents</h3>
+                <div className="font-bold text-black text-xs">Table of Contents</div>
                 <span className="text-[10px] bg-blue-100 text-blue-700 font-bold px-1.5 py-0.5 rounded-full">84</span>
               </div>
 
@@ -584,7 +584,7 @@ export default function CarLoanSettlementPageClient() {
             <div className="bg-gradient-to-br from-blue-900 to-indigo-950 p-2.5 sm:p-3 rounded-xl text-white shadow-sm text-center flex-shrink-0">
               <div className="flex items-center justify-center gap-1.5 mb-1 text-blue-300 text-xs">
                 <span>🚗</span>
-                <h4 className="font-bold text-xs text-white">Car Seizure Threat?</h4>
+                <div className="font-bold text-xs text-white">Car Seizure Threat?</div>
               </div>
               <p className="text-[10px] text-blue-200 mb-2 leading-snug">
                 Immediate legal injunction against unauthorized recovery agents &amp; illegal street repossession.
@@ -2770,7 +2770,7 @@ export default function CarLoanSettlementPageClient() {
               <span className="w-8 h-8 rounded-full bg-blue-100 text-blue-600 inline-flex items-center justify-center text-sm mb-2">
                 🛡️
               </span>
-              <h4 className="font-bold text-xs text-black mb-1">Stop Car Seizure</h4>
+              <div className="font-bold text-xs text-black mb-1">Stop Car Seizure</div>
               <p className="text-[10px] text-black mb-3 leading-tight">
                 Supreme Court rulings prohibit forcible vehicle towing without a civil court warrant.
               </p>

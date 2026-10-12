@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import RBIRulesClient from './RBIRulesClient';
 
 export const metadata: Metadata = {
-  title: 'RBI Rules for Recovery Agents in India (2026 Guide) | Borrower Legal Rights & Protection | CredSettle',
+  title: 'RBI Rules for Recovery Agents & Legal Rights | CredSettle',
   description:
-    'Comprehensive legal guide on RBI rules for loan recovery agents in India. Learn permitted calling hours (8 AM - 7 PM), restrictions on home visits, illegal threats, police jurisdiction, and how to file RBI Ombudsman complaints.',
+    'Know RBI rules for recovery agents in India. Learn legal calling hours, home visit limits, police protection & RBI Ombudsman complaint steps.',
   keywords: [
     'RBI rules for recovery agents',
     'recovery agent harassment RBI guidelines',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.credsettle.com/rbi-rules-for-recovery-agents',
   },
   openGraph: {
-    title: 'RBI Rules for Recovery Agents in India (2026) — Complete Legal Rights Guide | CredSettle',
+    title: 'RBI Rules for Recovery Agents & Legal Rights | CredSettle',
     description:
       'Know your legal rights under RBI Master Directives against recovery agent harassment. Understand permitted calling hours, restrictions on family contact, bank vicarious liability, and police remedies.',
     url: 'https://www.credsettle.com/rbi-rules-for-recovery-agents',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'RBI Rules for Recovery Agents in India — Legal Rights & Protections | CredSettle',
+    title: 'RBI Rules for Recovery Agents & Legal Rights | CredSettle',
     description:
       'Learn how to halt debt collector harassment legally under RBI Master Directives, BNS penal provisions, and the RBI Integrated Ombudsman Scheme.',
     images: ['https://www.credsettle.com/credsettle-logo.svg'],

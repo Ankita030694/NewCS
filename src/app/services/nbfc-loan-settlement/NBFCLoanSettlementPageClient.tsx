@@ -317,12 +317,12 @@ export default function NBFCLoanSettlementPageClient() {
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
             RBI Prudential Framework &amp; NBFC Compromise Norms 2026
           </div>
-          <h1 className="text-xl sm:text-2xl md:text-4xl font-extrabold mb-2 tracking-tight leading-snug break-words">
-            NBFC Loan Settlement in India<br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-sky-200 to-indigo-200">
-              The Definitive Legal, OTS &amp; Recovery Defense Guide
-            </span>
+          <h1 className="text-xl sm:text-2xl md:text-4xl font-extrabold tracking-tight leading-snug break-words">
+            NBFC Loan Settlement Process in India
           </h1>
+          <p className="text-xl sm:text-2xl md:text-4xl font-extrabold mb-2 tracking-tight leading-snug break-words text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-sky-200 to-indigo-200">
+            The Definitive Legal, OTS &amp; Recovery Defense Guide
+          </p>
           <p className="text-xs sm:text-sm text-slate-200 mb-4 sm:mb-5 max-w-2xl mx-auto font-normal leading-relaxed px-1">
             Resolve unmanageable NBFC personal loans, business lines, consumer durables, and fintech app debt under RBI guidelines. Stop recovery agent harassment, defend legal notices, and secure 40% to 70% OTS waivers with verified senior advocates.
           </p>

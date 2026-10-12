@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import BusinessLoanSettlementPageClient from './BusinessLoanSettlementPageClient';
 
 export const metadata: Metadata = {
-  title: 'Business Loan Settlement in India (2026 Master Guide) | MSME & SME OTS | CredSettle',
+  title: 'Business Loan Settlement Services in India | CredSettle',
   description:
-    'Complete master legal guide to Business Loan Settlement in India. Learn RBI OTS compromise frameworks, MSME debt relief, SARFAESI & DRT defense, personal guarantee protection, CIBIL repair, and step-by-step negotiation.',
+    'Settle business loan dues legally in India with CredSettle. Resolve MSME debt, defend against SARFAESI & DRT, protect assets and rebuild credit.',
   keywords: [
     'business loan settlement',
     'business loan settlement process',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.credsettle.com/services/business-loan-settlement',
   },
   openGraph: {
-    title: 'Business Loan Settlement in India — Complete Legal & Financial Guide | CredSettle',
+    title: 'Business Loan Settlement Services in India | CredSettle',
     description:
       'Legally resolve distressed business debt, MSME loans, working capital facilities, and overdrafts through RBI compromise settlements. Shield assets and directors from coercive litigation.',
     url: 'https://www.credsettle.com/services/business-loan-settlement',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Business Loan Settlement in India — Complete Master Guide | CredSettle',
+    title: 'Business Loan Settlement Services in India | CredSettle',
     description:
       'Step-by-step legal procedure for settling commercial, MSME, and unsecured business loans under RBI compromise rules. Protect promoters, collateral, and company cash flow.',
     images: ['https://www.credsettle.com/business_hero.png'],
@@ -66,7 +66,7 @@ export default function BusinessLoanSettlementPage() {
                 '@type': 'WebPage',
                 '@id': 'https://www.credsettle.com/services/business-loan-settlement#webpage',
                 url: 'https://www.credsettle.com/services/business-loan-settlement',
-                name: 'Business Loan Settlement in India — Master Guide & Legal Relief | CredSettle',
+                name: 'Business Loan Settlement in India: Master Guide & Legal Relief | CredSettle',
                 description:
                   'Comprehensive 84-section authority guide on business loan settlement, MSME debt resolution, OTS negotiations, personal guarantee protections, and recovery defense in India.',
                 breadcrumb: {

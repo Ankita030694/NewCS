@@ -287,12 +287,12 @@ export default function PersonalLoanSettlementPageClient() {
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
             RBI Compromise Framework &amp; Legal Defense 2026
           </div>
-          <h1 className="text-xl sm:text-2xl md:text-4xl font-extrabold mb-2 tracking-tight leading-snug break-words">
-            Personal Loan Settlement in India<br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-sky-200 to-indigo-200">
-              The Complete Legal &amp; Financial Master Guide
-            </span>
+          <h1 className="text-xl sm:text-2xl md:text-4xl font-extrabold tracking-tight leading-snug break-words">
+            Personal Loan Settlement in India
           </h1>
+          <p className="text-xl sm:text-2xl md:text-4xl font-extrabold mb-2 tracking-tight leading-snug break-words text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-sky-200 to-indigo-200">
+            The Complete Legal &amp; Financial Master Guide
+          </p>
           <p className="text-xs sm:text-sm text-slate-200 mb-4 sm:mb-5 max-w-2xl mx-auto font-normal leading-relaxed px-1">
             Understand the RBI compromise settlement policy for unsecured personal loans, stop recovery agent harassment, defend legal notices under Order 37 &amp; Sec 25, calculate realistic OTS ranges, and protect your dignity.
           </p>
@@ -417,7 +417,7 @@ export default function PersonalLoanSettlementPageClient() {
               <div className="w-screen max-w-sm bg-white shadow-2xl flex flex-col">
                 <div className="p-4 bg-slate-900 text-white flex items-center justify-between">
                   <div>
-                    <h3 className="font-bold text-sm">Table of Contents</h3>
+                    <div className="font-bold text-sm">Table of Contents</div>
                     <p className="text-[10px] text-slate-300">18 Master Chapters • Personal Loan Settlement</p>
                   </div>
                   <button
@@ -492,7 +492,7 @@ export default function PersonalLoanSettlementPageClient() {
           <aside className="lg:w-[15%] flex-shrink-0 hidden lg:block sticky top-20 max-h-[calc(100vh-5.5rem)] flex flex-col space-y-2.5">
               <div className="bg-white p-3 rounded-2xl shadow-sm border border-gray-200 flex-1 min-h-0 overflow-y-auto custom-scrollbar">
                 <div className="flex items-center justify-between border-b pb-2 mb-2">
-                  <h3 className="font-bold text-black text-xs">Table of Contents</h3>
+                  <div className="font-bold text-black text-xs">Table of Contents</div>
                   <span className="text-[10px] bg-blue-100 text-blue-700 font-bold px-1.5 py-0.5 rounded-full">18</span>
                 </div>
 
@@ -532,7 +532,7 @@ export default function PersonalLoanSettlementPageClient() {
               <div className="bg-gradient-to-br from-blue-900 to-indigo-950 p-2.5 sm:p-3 rounded-xl text-white shadow-sm text-center flex-shrink-0">
                 <div className="flex items-center justify-center gap-1.5 mb-1 text-blue-300 text-xs">
                   <span>⚖️</span>
-                  <h4 className="font-bold text-xs text-white">Salary &amp; EMI Shield</h4>
+                  <div className="font-bold text-xs text-white">Salary &amp; EMI Shield</div>
                 </div>
                 <p className="text-[10px] text-blue-200 mb-2 leading-snug">
                   Defense against employer HR calls, salary account liens, and agent visits.
@@ -2150,7 +2150,7 @@ export default function PersonalLoanSettlementPageClient() {
                 <span className="w-8 h-8 rounded-full bg-blue-100 text-blue-600 inline-flex items-center justify-center text-sm mb-2">
                   🛡️
                 </span>
-                <h4 className="font-bold text-xs text-black mb-1">Stop EMI Harassment</h4>
+                <div className="font-bold text-xs text-black mb-1">Stop EMI Harassment</div>
                 <p className="text-[10px] text-black mb-3 leading-tight">
                   Statutory legal defense halts workplace calls and recovery home visits within 24–48 hours.
                 </p>

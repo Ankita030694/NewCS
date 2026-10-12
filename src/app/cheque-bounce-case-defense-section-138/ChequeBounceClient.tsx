@@ -281,12 +281,12 @@ export default function ChequeBounceClient() {
             <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse"></span>
             Negotiable Instruments Act 1881 • Criminal Defense &amp; Compounding Shield
           </div>
-          <h1 className="text-xl sm:text-2xl md:text-4xl font-extrabold mb-2 tracking-tight leading-snug break-words">
-            Cheque Bounce Case Defense Under Section 138<br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-sky-200 to-indigo-200">
-              The Complete Legal, Precedents &amp; Acquittal Master Guide
-            </span>
+          <h1 className="text-xl sm:text-2xl md:text-4xl font-extrabold tracking-tight leading-snug break-words">
+            Cheque Bounce Case Defense Under Section 138
           </h1>
+          <p className="text-xl sm:text-2xl md:text-4xl font-extrabold mb-2 tracking-tight leading-snug break-words text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-sky-200 to-indigo-200">
+            The Complete Legal, Precedents &amp; Acquittal Master Guide
+          </p>
           <p className="text-xs sm:text-sm text-slate-200 mb-4 sm:mb-5 max-w-2xl mx-auto font-normal leading-relaxed px-1">
             Defend against statutory legal notices, court summons, and bailable warrants. Rebut Section 139 debt presumptions, expose security cheque misuse, secure instant court bail, and execute Section 147 compounding with senior criminal defense advocates.
           </p>
@@ -424,7 +424,7 @@ export default function ChequeBounceClient() {
               <div className="w-screen max-w-sm bg-white shadow-2xl flex flex-col">
                 <div className="p-4 bg-slate-900 text-white flex items-center justify-between">
                   <div>
-                    <h3 className="font-bold text-sm">Table of Contents</h3>
+                    <div className="font-bold text-sm">Table of Contents</div>
                     <p className="text-[10px] text-slate-300">78 Master Sections • Cheque Bounce Defense</p>
                   </div>
                   <button
@@ -503,7 +503,7 @@ export default function ChequeBounceClient() {
           <aside className="lg:w-[15%] flex-shrink-0 hidden lg:block sticky top-24 h-[calc(100vh-7rem)] max-h-[calc(100vh-7rem)] flex flex-col space-y-2.5 overflow-hidden z-10">
             <div className="bg-white p-3 rounded-2xl shadow-sm border border-gray-200 flex-1 min-h-0 flex flex-col overflow-hidden max-h-full">
               <div className="flex items-center justify-between border-b pb-2 mb-2 flex-shrink-0">
-                <h3 className="font-bold text-black text-xs">Table of Contents</h3>
+                <div className="font-bold text-black text-xs">Table of Contents</div>
                 <span className="text-[10px] bg-blue-100 text-blue-700 font-bold px-1.5 py-0.5 rounded-full">78</span>
               </div>
 
@@ -578,7 +578,7 @@ export default function ChequeBounceClient() {
             <div className="bg-gradient-to-br from-blue-900 to-indigo-950 p-2.5 sm:p-3 rounded-xl text-white shadow-sm text-center flex-shrink-0">
               <div className="flex items-center justify-center gap-1.5 mb-1 text-blue-300 text-xs">
                 <span>⚖️</span>
-                <h4 className="font-bold text-xs text-white">Court Summons?</h4>
+                <div className="font-bold text-xs text-white">Court Summons?</div>
               </div>
               <p className="text-[10px] text-blue-200 mb-2 leading-snug">
                 Urgent bail, warrant recall, and legal defense representation across all Magistrate Courts.
@@ -2568,7 +2568,7 @@ export default function ChequeBounceClient() {
               <span className="w-8 h-8 rounded-full bg-blue-100 text-blue-600 inline-flex items-center justify-center text-sm mb-2">
                 ⚖️
               </span>
-              <h4 className="font-bold text-xs text-black mb-1">Notice / Summons?</h4>
+              <div className="font-bold text-xs text-black mb-1">Notice / Summons?</div>
               <p className="text-[10px] text-black mb-3 leading-tight">
                 Immediate legal reply within 15 days prevents non-bailable warrants and arrest risks.
               </p>

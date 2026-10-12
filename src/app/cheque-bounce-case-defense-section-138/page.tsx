@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import ChequeBounceClient from './ChequeBounceClient';
 
 export const metadata: Metadata = {
-  title: 'Cheque Bounce Case Defense Under Section 138 (2026 Master Guide) | NI Act Legal Relief | CredSettle',
+  title: 'Section 138 Cheque Bounce Defense Guide | CredSettle',
   description:
-    'Complete master legal guide to Cheque Bounce Case Defense under Section 138 NI Act in India. Learn statutory notice replies, 15-day grace period, court bail, security cheque defense, Basalingappa doctrine, and Section 147 compounding.',
+    'Defend Section 138 cheque bounce cases in India. Learn statutory notice replies, court bail, security cheque defenses & legal debt compounding.',
   keywords: [
     'cheque bounce case section 138',
     'defend cheque bounce case India',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.credsettle.com/cheque-bounce-case-defense-section-138',
   },
   openGraph: {
-    title: 'Cheque Bounce Case Defense Under Section 138 — Complete Master Guide | CredSettle',
+    title: 'Section 138 Cheque Bounce Defense Guide | CredSettle',
     description:
       'Defend against statutory legal notices, court summons, and bailable warrants under Section 138 NI Act. Rebut debt presumptions, secure instant bail, and compound disputes legally.',
     url: 'https://www.credsettle.com/cheque-bounce-case-defense-section-138',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Cheque Bounce Case Defense Under Section 138 — Complete Legal Guide | CredSettle',
+    title: 'Section 138 Cheque Bounce Defense Guide | CredSettle',
     description:
       'Step-by-step legal procedure for replying to 15-day statutory notices, securing court bail, cross-examining lenders, and executing Section 147 compounding.',
     images: ['https://www.credsettle.com/cheque_bounce_hero.png'],
@@ -63,7 +63,7 @@ export default function ChequeBouncePage() {
                 '@type': 'WebPage',
                 '@id': 'https://www.credsettle.com/cheque-bounce-case-defense-section-138#webpage',
                 url: 'https://www.credsettle.com/cheque-bounce-case-defense-section-138',
-                name: 'Cheque Bounce Case Defense Under Section 138 NI Act — Master Legal Guide | CredSettle',
+                name: 'Cheque Bounce Case Defense Under Section 138 NI Act: Master Legal Guide | CredSettle',
                 description:
                   'Comprehensive 78-section authority guide on defending cheque bounce cases under Section 138 Negotiable Instruments Act, statutory notice replies, Supreme Court precedents, and Lok Adalat compounding in India.',
                 breadcrumb: {

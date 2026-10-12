@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import CarLoanSettlementPageClient from './CarLoanSettlementPageClient';
 
 export const metadata: Metadata = {
-  title: 'Car Loan Settlement in India (2026 Master Guide) | Auto Loan OTS & Repossession Defense | CredSettle',
+  title: 'Car Loan Settlement & Repossession Defense | CredSettle',
   description:
-    'Complete master legal guide to Car Loan Settlement in India. Learn vehicle repossession defense, Supreme Court rulings, RBI OTS guidelines, Form 35 hypothecation removal, auction shortfall settlement, and CIBIL repair.',
+    'Settle car loan dues legally in India with CredSettle. Stop illegal vehicle repossession, settle auction shortfall & clear RTO hypothecation.',
   keywords: [
     'car loan settlement',
     'vehicle loan settlement',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.credsettle.com/services/car-loan-settlement',
   },
   openGraph: {
-    title: 'Car Loan Settlement in India — Complete Legal & Repossession Defense Guide | CredSettle',
+    title: 'Car Loan Settlement & Repossession Defense | CredSettle',
     description:
       'Legally resolve distressed car loans, halt illegal vehicle repossession by recovery musclemen, settle post-auction deficiency balances, and obtain RTO Form 35 hypothecation removal under RBI compromise guidelines.',
     url: 'https://www.credsettle.com/services/car-loan-settlement',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Car Loan Settlement in India — Complete Master Guide | CredSettle',
+    title: 'Car Loan Settlement & Repossession Defense | CredSettle',
     description:
       'Step-by-step legal procedure for settling auto loans, defending against vehicle seizure, negotiating discounted OTS waivers, and clearing RTO hypothecation.',
     images: ['https://www.credsettle.com/car_hero.png'],
@@ -64,7 +64,7 @@ export default function CarLoanSettlementPage() {
                 '@type': 'WebPage',
                 '@id': 'https://www.credsettle.com/services/car-loan-settlement#webpage',
                 url: 'https://www.credsettle.com/services/car-loan-settlement',
-                name: 'Car Loan Settlement in India — Master Guide, Repossession Defense & Form 35 | CredSettle',
+                name: 'Car Loan Settlement in India: Master Guide, Repossession Defense & Form 35 | CredSettle',
                 description:
                   'Comprehensive 84-section authority guide on car loan settlement, vehicle repossession laws, Supreme Court rulings, OTS compromise negotiations, RTO Form 35 hypothecation removal, and recovery agent defense in India.',
                 breadcrumb: {

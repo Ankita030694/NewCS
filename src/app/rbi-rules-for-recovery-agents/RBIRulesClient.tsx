@@ -144,7 +144,7 @@ export default function RBIRulesClient() {
         { id: "rbi-guidelines-india", label: "5. RBI Guidelines in India" },
         { id: "rules-on-agent-conduct", label: "6. Rules on Agent Conduct" },
         { id: "guidelines-on-agent-calls", label: "7. Guidelines on Calls" },
-        { id: "permitted-prohibited-calling-hours", label: "8. Calling Hours (08:00–19:00)" },
+        { id: "permitted-prohibited-calling-hours", label: "8. Calling Hours (08:00-19:00)" },
         { id: "rules-on-agent-visits", label: "9. Rules on Agent Visits" },
         { id: "rules-on-agent-communication", label: "10. Rules on Communication" },
       ]
@@ -342,12 +342,12 @@ export default function RBIRulesClient() {
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
             Master RBI Directives &amp; Legal Rights 2026
           </div>
-          <h1 className="text-xl sm:text-2xl md:text-4xl font-extrabold mb-2 tracking-tight leading-snug break-words">
-            RBI Rules for Recovery Agents in India<br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-sky-200 to-indigo-200">
-              The Master Legal &amp; Statutory Rights Guide
-            </span>
+          <h1 className="text-xl sm:text-2xl md:text-4xl font-extrabold tracking-tight leading-snug break-words">
+            RBI Rules for Recovery Agents in India
           </h1>
+          <p className="text-xl sm:text-2xl md:text-4xl font-extrabold mb-2 tracking-tight leading-snug break-words text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-sky-200 to-indigo-200">
+            The Master Legal &amp; Statutory Rights Guide
+          </p>
           <p className="text-xs sm:text-sm text-slate-200 mb-4 sm:mb-5 max-w-2xl mx-auto font-normal leading-relaxed px-1">
             Know your constitutional and statutory rights against recovery agent harassment. Understand permitted calling hours (08:00 AM to 07:00 PM), strict bans on third-party harassment, police jurisdiction limits, and step-by-step procedures to file complaints with the RBI Integrated Ombudsman.
           </p>
@@ -473,7 +473,7 @@ export default function RBIRulesClient() {
               <div className="w-screen max-w-sm bg-white shadow-2xl flex flex-col">
                 <div className="p-4 bg-slate-900 text-white flex items-center justify-between">
                   <div>
-                    <h3 className="font-bold text-sm">Table of Contents</h3>
+                    <div className="font-bold text-sm">Table of Contents</div>
                     <p className="text-[10px] text-slate-300">52 Master Sections • RBI Recovery Rules</p>
                   </div>
                   <button
@@ -549,7 +549,7 @@ export default function RBIRulesClient() {
           <aside className="lg:w-[15%] flex-shrink-0 hidden lg:block sticky top-24 h-[calc(100vh-7rem)] max-h-[calc(100vh-7rem)] flex flex-col space-y-2.5 overflow-hidden z-10">
             <div className="bg-white p-3 rounded-2xl shadow-sm border border-gray-200 flex-1 min-h-0 flex flex-col overflow-hidden max-h-full">
               <div className="flex items-center justify-between border-b pb-2 mb-2 flex-shrink-0">
-                <h3 className="font-bold text-black text-xs">Table of Contents</h3>
+                <div className="font-bold text-black text-xs">Table of Contents</div>
                 <span className="text-[10px] bg-blue-100 text-blue-700 font-bold px-1.5 py-0.5 rounded-full">52</span>
               </div>
 
@@ -590,7 +590,7 @@ export default function RBIRulesClient() {
             <div className="bg-gradient-to-br from-blue-900 to-indigo-950 p-2.5 sm:p-3 rounded-xl text-white shadow-sm text-center flex-shrink-0">
               <div className="flex items-center justify-center gap-1.5 mb-1 text-blue-300 text-xs">
                 <span>⚖️</span>
-                <h4 className="font-bold text-xs text-white">Harassment Help</h4>
+                <div className="font-bold text-xs text-white">Harassment Help</div>
               </div>
               <p className="text-[10px] text-blue-200 mb-2 leading-snug">
                 Immediate legal defense against calls, doorstep visits, and notices.
@@ -616,7 +616,7 @@ export default function RBIRulesClient() {
                   SECTION 1
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  1. Introduction to RBI Rules for Recovery Agents: Statutory Shield for Indian Borrowers
+                  1. Introduction to RBI Rules for Recovery Agents
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -656,7 +656,7 @@ export default function RBIRulesClient() {
                   SECTION 2
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  2. What Are Recovery Agents? Structure, Function, and Industry Architecture
+                  2. What Are Recovery Agents? Role and Structure
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -726,7 +726,7 @@ export default function RBIRulesClient() {
                   SECTION 3
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  3. Who Is a Recovery Agent? Statutory Qualifications &amp; Mandatory Credentials
+                  3. Who Is a Recovery Agent? Mandatory Qualifications
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -763,7 +763,7 @@ export default function RBIRulesClient() {
                   SECTION 4
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  4. Role and Responsibilities of Recovery Agents: Statutory Scope and Boundaries
+                  4. Role and Statutory Responsibilities of Agents
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -808,7 +808,7 @@ export default function RBIRulesClient() {
                   SECTION 5
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  5. RBI Guidelines for Recovery Agents in India: Comprehensive Regulatory Evolution
+                  5. RBI Guidelines for Recovery Agents in India
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -857,7 +857,7 @@ export default function RBIRulesClient() {
                   SECTION 6
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  6. RBI Rules on Recovery Agent Conduct &amp; Professional Demeanor
+                  6. RBI Rules on Recovery Agent Conduct &amp; Ethics
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -912,7 +912,7 @@ export default function RBIRulesClient() {
                   SECTION 7
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  7. RBI Guidelines on Recovery Agent Calls: Frequency &amp; Verification Norms
+                  7. RBI Guidelines on Recovery Calls &amp; Verification
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -946,7 +946,7 @@ export default function RBIRulesClient() {
                   SECTION 8
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  8. Permitted and Prohibited Calling Hours (The Strict 08:00 to 19:00 Rule)
+                  8. Permitted and Prohibited Calling Hours (08:00-19:00)
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -987,7 +987,7 @@ export default function RBIRulesClient() {
                   SECTION 9
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  9. RBI Rules on Recovery Agent Visits: Residential &amp; Workplace Protocols
+                  9. RBI Rules on Home and Workplace Recovery Visits
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -1030,7 +1030,7 @@ export default function RBIRulesClient() {
                   SECTION 10
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  10. RBI Rules on Recovery Agent Communication: Written Disclosures vs Verbal Representations
+                  10. RBI Rules on Written &amp; Verbal Communication
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -1141,7 +1141,7 @@ export default function RBIRulesClient() {
                   SECTION 13
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  13. RBI Rules on Contacting Family Members, Friends and References
+                  13. RBI Rules on Contacting Family, Friends &amp; References
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -1299,7 +1299,7 @@ export default function RBIRulesClient() {
                   SECTION 17
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  17. Bank&apos;s Legal Responsibility for Recovery Agents: Principle of Vicarious Liability
+                  17. Bank&apos;s Legal &amp; Vicarious Liability for Agents
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -1327,7 +1327,7 @@ export default function RBIRulesClient() {
                   SECTION 18
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  18. Can Banks Be Held Responsible for Recovery Agent Misconduct? Landmark Judicial Precedents
+                  18. Can Banks Be Held Liable for Agent Misconduct?
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -1366,7 +1366,7 @@ export default function RBIRulesClient() {
                   SECTION 19
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  19. RBI Rules for Recovery of Credit Card Dues (Master Direction 2022)
+                  19. RBI Rules for Credit Card Dues Recovery (2022)
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -1397,7 +1397,7 @@ export default function RBIRulesClient() {
                   SECTION 20
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  20. RBI Rules for Personal Loan Recovery Agents: Unsecured Debt Protections
+                  20. RBI Rules for Personal Loan Recovery Agents
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -1462,7 +1462,7 @@ export default function RBIRulesClient() {
                   SECTION 22
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  22. RBI Rules for Third-Party Recovery Agencies: Onboarding &amp; Auditing
+                  22. RBI Rules for Third-Party Recovery Agencies
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -1496,7 +1496,7 @@ export default function RBIRulesClient() {
                   SECTION 23
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  23. RBI Rules on Recovery Agent Training, IIBF Certification &amp; Ethics
+                  23. RBI Rules on Agent Training &amp; Certification
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -1525,7 +1525,7 @@ export default function RBIRulesClient() {
                   SECTION 24
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  24. The Indian Banks&apos; Association (IBA) Recovery Agent Code of Conduct
+                  24. IBA Code of Conduct for Debt Recovery Agents
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -1555,7 +1555,7 @@ export default function RBIRulesClient() {
                   SECTION 25
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  25. What Recovery Agents Cannot Do: Complete Prohibited Actions Checklist
+                  25. What Recovery Agents Cannot Do: Prohibited Actions
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -1599,7 +1599,7 @@ export default function RBIRulesClient() {
                   SECTION 26
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  26. What Recovery Agents Can Legally Do: Legitimate Collection Rights
+                  26. What Recovery Agents Can Legally Do: Permitted Acts
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -1877,7 +1877,7 @@ export default function RBIRulesClient() {
               </section>
 
               {/* ------------------------------------------------------------- */}
-              {/* 32. Can Recovery Agents Seize Your Property?                  */}
+              {/* 32. Can Recovery Agents Legally Seize Your Property?                  */}
               {/* ------------------------------------------------------------- */}
               <section id="can-agents-seize-property" className="scroll-section scroll-mt-28">
                 <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">
@@ -1938,7 +1938,7 @@ export default function RBIRulesClient() {
                   SECTION 34
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  34. Rights of Borrowers Against Recovery Agent Harassment: The Citizen&apos;s Shield
+                  34. Borrower Rights Against Recovery Agent Harassment
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -1984,7 +1984,7 @@ export default function RBIRulesClient() {
                   SECTION 35
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  35. What to Do If a Recovery Agent Harasses You: Emergency Action Protocol
+                  35. What to Do If a Recovery Agent Harasses You
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -2018,7 +2018,7 @@ export default function RBIRulesClient() {
                   SECTION 36
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  36. How to Respond to Recovery Agent Calls: Verbatim Scripts for Borrowers
+                  36. How to Respond to Recovery Agent Calls: Key Scripts
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -2087,7 +2087,7 @@ export default function RBIRulesClient() {
                   SECTION 38
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  38. Critical Evidence to Collect Against Recovery Agent Harassment
+                  38. Evidence to Collect Against Recovery Harassment
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -2151,7 +2151,7 @@ export default function RBIRulesClient() {
                   SECTION 40
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  40. How to Complain Against a Recovery Agent: Three-Tier Escalation Hierarchy
+                  40. How to Complain Against a Recovery Agent: 3 Steps
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -2269,7 +2269,7 @@ export default function RBIRulesClient() {
                   SECTION 41
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  41. How to Complain to the Bank or NBFC: Formal Complaint Template &amp; Statutory Procedure
+                  41. How to File a Formal Complaint With Bank or NBFC
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -2336,7 +2336,7 @@ export default function RBIRulesClient() {
                   SECTION 42
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  42. RBI Complaint Process Against Recovery Agents: Step-by-Step CMS Guide
+                  42. RBI Complaint Process: Step-by-Step CMS Portal Guide
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -2408,7 +2408,7 @@ export default function RBIRulesClient() {
                   SECTION 43
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  43. The RBI Integrated Ombudsman Scheme (RB-IOS): Powers &amp; Compensation
+                  43. RBI Ombudsman Scheme (RB-IOS): Powers &amp; Relief
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -2461,7 +2461,7 @@ export default function RBIRulesClient() {
                   SECTION 44
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  44. When to Approach the Police: Criminal Violations vs Civil Disputes
+                  44. When to Approach Police: Criminal vs Civil Disputes
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -2782,7 +2782,7 @@ export default function RBIRulesClient() {
                   SECTION 49
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  49. Common Recovery Agent Harassment Scenarios &amp; Proven Defense Tactics
+                  49. Common Recovery Harassment Scenarios &amp; Defense Tactics
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -2964,7 +2964,7 @@ export default function RBIRulesClient() {
                   SECTION 51
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  51. Latest RBI Rules and Policy Updates for Recovery Agents (2026 Edition)
+                  51. Latest RBI Rules &amp; Policy Updates for Agents (2026)
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -3038,7 +3038,7 @@ export default function RBIRulesClient() {
                   SECTION 52
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  52. Conclusion: Standing Tall Against Debt Harassment With CredSettle
+                  52. Conclusion: Stop Debt Harassment With CredSettle
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
@@ -3116,7 +3116,7 @@ export default function RBIRulesClient() {
               <span className="w-8 h-8 rounded-full bg-blue-100 text-blue-600 inline-flex items-center justify-center text-sm mb-2">
                 🛡️
               </span>
-              <h4 className="font-bold text-xs text-black mb-1">Stop Harassment Now</h4>
+              <div className="font-bold text-xs text-black mb-1">Stop Harassment Now</div>
               <p className="text-[10px] text-black mb-3 leading-tight">
                 Cease-and-desist notices issued by advocates halt unlawful collection calls within 24–48 hours.
               </p>

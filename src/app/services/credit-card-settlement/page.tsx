@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import CreditCardSettlementPageClient from './CreditCardSettlementPageClient';
 
 export const metadata: Metadata = {
-  title: 'Credit Card Settlement in India (2026 Guide) | Settle Card Dues Legally | CredSettle',
+  title: 'Credit Card Settlement Services in India | CredSettle',
   description:
-    'Master legal and financial guide to credit card settlement in India. Learn how to stop 42%–52% compounding finance charges, defend against recovery harassment under RBI directives, negotiate 50%–75% waivers, and rebuild CIBIL score.',
+    'Settle credit card dues legally in India with CredSettle. Stop 42% interest, halt recovery agent harassment, get OTS waivers & rebuild CIBIL score.',
   keywords: [
     'credit card settlement',
     'settle credit card debt India',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.credsettle.com/services/credit-card-settlement',
   },
   openGraph: {
-    title: 'Credit Card Settlement in India — Definitive Legal & Financial Guide | CredSettle',
+    title: 'Credit Card Settlement Services in India | CredSettle',
     description:
       'Learn how to legally settle credit card debt with Indian banks, eliminate compounding 42% interest, halt recovery agent harassment under RBI rules, and obtain official No Dues Certificates.',
     url: 'https://www.credsettle.com/services/credit-card-settlement',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Credit Card Settlement in India — Complete Legal Guide | CredSettle',
+    title: 'Credit Card Settlement Services in India | CredSettle',
     description:
       'Step-by-step credit card settlement procedure, RBI guidelines, legal rights against collection harassment, and CIBIL score rehabilitation.',
     images: ['https://www.credsettle.com/credit_card_hero.png'],
@@ -64,7 +64,7 @@ export default function CreditCardSettlementPage() {
                 '@type': 'WebPage',
                 '@id': 'https://www.credsettle.com/services/credit-card-settlement#webpage',
                 url: 'https://www.credsettle.com/services/credit-card-settlement',
-                name: 'Credit Card Settlement in India — Master Guide & Legal Debt Relief | CredSettle',
+                name: 'Credit Card Settlement in India: Master Guide & Legal Debt Relief | CredSettle',
                 description:
                   'Definitive guide to credit card One-Time Settlement (OTS) with major Indian banks under RBI guidelines, stopping recovery harassment, and rebuilding CIBIL score.',
                 breadcrumb: {

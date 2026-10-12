@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import PersonalLoanSettlementPageClient from './PersonalLoanSettlementPageClient';
 
 export const metadata: Metadata = {
-  title: 'Personal Loan Settlement in India (2026 Guide) | Settle Dues Legally | CredSettle',
+  title: 'Personal Loan Settlement Services in India | CredSettle',
   description:
-    'Comprehensive master guide to personal loan settlement in India. Learn RBI compromise settlement rules, 50% waiver realities, recovery agent defense, CIBIL repair, and legal process with banks & NBFCs.',
+    'Settle personal loans legally in India with CredSettle. Stop recovery agent harassment, get up to 50% debt waiver & rebuild your CIBIL score.',
   keywords: [
     'personal loan settlement',
     'settle personal loan India',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.credsettle.com/services/personal-loan-settlement',
   },
   openGraph: {
-    title: 'Personal Loan Settlement in India — Complete Legal & Financial Guide | CredSettle',
+    title: 'Personal Loan Settlement Services in India | CredSettle',
     description:
       'Learn how to legally settle personal loans with Indian banks and NBFCs, stop recovery harassment under RBI rules, calculate your OTS waiver, and rebuild credit.',
     url: 'https://www.credsettle.com/services/personal-loan-settlement',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Personal Loan Settlement in India — Complete Legal Guide | CredSettle',
+    title: 'Personal Loan Settlement Services in India | CredSettle',
     description:
       'Step-by-step personal loan settlement procedure, RBI guidelines, legal rights against recovery agents, and CIBIL score rehabilitation.',
     images: ['https://www.credsettle.com/personalhero.png'],
@@ -64,7 +64,7 @@ export default function PersonalLoanSettlementPage() {
                 '@type': 'WebPage',
                 '@id': 'https://www.credsettle.com/services/personal-loan-settlement#webpage',
                 url: 'https://www.credsettle.com/services/personal-loan-settlement',
-                name: 'Personal Loan Settlement in India — Master Guide & Legal Relief | CredSettle',
+                name: 'Personal Loan Settlement in India: Master Guide & Legal Relief | CredSettle',
                 description:
                   'Complete guide to personal loan compromise settlement with banks & NBFCs under RBI guidelines, stopping recovery harassment, and rebuilding credit.',
                 breadcrumb: {
