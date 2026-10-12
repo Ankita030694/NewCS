@@ -1,10 +1,9 @@
-import { notFound, permanentRedirect } from "next/navigation";
+import { permanentRedirect } from "next/navigation";
 import { creditCardBanks } from "@/data/creditCardBanks";
 import Tier1Template from "./Tier1Template";
 import Tier2Template from "./Tier2Template";
 import Tier3Template from "./Tier3Template";
 import type { Metadata } from "next";
-import banksData from "@/app/loan-settlement-by-bank/banks.json";
 import { getMetaTitlePixelWidth, getMetaDescPixelWidth, getShortBankName } from "@/lib/seo-utils";
 
 const ccAliasMap: Record<string, string> = {
@@ -40,10 +39,6 @@ const loanAliasMap: Record<string, string> = {
   "vivriti-capital": "/loan-settlement-by-bank/vivriti",
   "zestmoney": "/loan-settlement-by-bank/zest-money",
 };
-
-function getBankCanonicalSlug(company: string) {
-  return company.toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
-}
 
 function formatSlugToBankName(slug: string): string {
   return slug
@@ -119,18 +114,28 @@ function getCCBankMetaDescription(bankName: string): string {
   const shortName = getShortBankName(b);
 
   const candidates = [
+    // Tailored for short bank names (3-12 chars: HDFC, SBI, ICICI, Amex, HSBC, IndusInd, Yes Bank)
+    `Facing ${shortName} credit card debt? Settle legally under RBI guidelines with CredSettle. Stop recovery harassment, reduce dues & get an official NOC.`,
+    `Clear your ${shortName} credit card debt legally under RBI guidelines with CredSettle. Stop recovery agent calls, cut dues & get an official bank NOC.`,
+    `Struggling with ${shortName} credit card dues? Settle legally under RBI rules with CredSettle. Stop recovery harassment & reduce your debt up to 50%.`,
+    `Resolve your outstanding ${shortName} credit card dues legally with CredSettle. Stop recovery calls, reduce debt up to 50% and secure your bank NOC.`,
+    `Settle your ${shortName} credit card dues legally under RBI rules with CredSettle. Stop recovery harassment, cut debt up to 50% & get your bank NOC.`,
+    `Get expert legal relief for ${shortName} credit card dues under RBI rules with CredSettle. Stop recovery harassment, reduce debt & get your bank NOC.`,
+    `Resolve ${shortName} credit card dues legally under RBI rules with CredSettle. Stop recovery agent harassment, cut debt & receive an official NOC.`,
+    `Settle ${shortName} credit card dues legally under RBI rules with CredSettle. Stop collection harassment, reduce debt up to 50% & secure your NOC.`,
+    `Settle your ${shortName} card dues legally under RBI guidelines with CredSettle. Stop recovery harassment, negotiate waivers & clear debt safely.`,
+
+    // Tailored for medium/longer bank names (13-25 chars)
     `Facing ${shortName} credit card dues? Settle legally under RBI rules with CredSettle. Stop recovery calls & reduce debt up to 50%.`,
     `Get expert legal relief for ${shortName} card debt under RBI rules with CredSettle. Stop recovery harassment & clear dues with NOC.`,
     `Resolve outstanding ${shortName} credit card debt legally with CredSettle. Stop harassment & settle dues up to 50% under RBI rules.`,
     `Clear your ${shortName} credit card debt legally under RBI rules with CredSettle. Stop agent calls, reduce dues & get official NOC.`,
     `Facing ${shortName} card debt? Settle legally under RBI rules with CredSettle. Stop recovery harassment, cut dues & get official NOC.`,
     `Legal debt resolution for ${shortName} credit card dues with CredSettle. Stop collection calls & settle up to 50% under RBI rules.`,
-    `Struggling with ${shortName} card debt? Settle legally under RBI rules with CredSettle. Stop agent calls & reduce debt up to 50%.`,
     `Settle ${shortName} card dues legally under RBI rules with CredSettle. Stop recovery harassment, negotiate waivers & clear debt safely.`,
     `Settle ${shortName} credit card dues legally under RBI rules with CredSettle. Stop recovery harassment & cut debt up to 50% today.`,
     `Settle ${shortName} card debt legally under RBI rules with CredSettle. Stop recovery calls, reduce total dues & get an official NOC.`,
-    `Resolve ${shortName} card dues legally under RBI rules with CredSettle. Stop agent calls, reduce debt up to 50% & get your bank NOC.`,
-    `Facing ${shortName} card debt? Settle legally under RBI rules with CredSettle. Stop collection calls & reduce total dues up to 50%.`
+    `Resolve ${shortName} card dues legally under RBI rules with CredSettle. Stop agent calls, reduce debt up to 50% & get your bank NOC.`
   ];
 
   // Level 1: Strict sweet spot (140-146 chars, <= 960px)
@@ -215,21 +220,13 @@ export default async function BankCreditCardSettlementPage({ params }: { params:
   const { slug } = await params;
   const normalized = slug.toLowerCase().trim();
 
+  // 1. Alias redirects (for known non-canonical CC slugs)
   if (ccAliasMap[normalized]) {
     permanentRedirect(ccAliasMap[normalized]);
   }
-  if (loanAliasMap[normalized]) {
-    permanentRedirect(loanAliasMap[normalized]);
-  }
-  const matchingLoanBank = banksData.find(
-    (b: { company: string }) => getBankCanonicalSlug(b.company) === normalized
-  );
-  if (matchingLoanBank) {
-    permanentRedirect(`/loan-settlement-by-bank/${getBankCanonicalSlug(matchingLoanBank.company)}`);
-  }
 
+  // 2. Exact match in creditCardBanks - render dedicated template directly (HTTP 200 OK)
   const bank = creditCardBanks.find((b) => b.slug === normalized);
-
   if (bank) {
     if (bank.tier === 1) {
       return <Tier1Template bankName={bank.name} slug={bank.slug} />;
@@ -240,7 +237,12 @@ export default async function BankCreditCardSettlementPage({ params }: { params:
     }
   }
 
-  // Fallback for valid bank/fintech/cooperative slugs: serve Tier3Template directly (HTTP 200 OK)
+  // 3. Known loan aliases for non-card fintech/companies
+  if (loanAliasMap[normalized]) {
+    permanentRedirect(loanAliasMap[normalized]);
+  }
+
+  // 4. Fallback for valid bank/fintech/cooperative slugs: serve Tier3Template directly (HTTP 200 OK)
   const dynamicBankName = formatSlugToBankName(slug);
   return <Tier3Template bankName={dynamicBankName} slug={normalized} />;
 }
