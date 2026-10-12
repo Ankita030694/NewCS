@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 import { creditCardBanks } from "@/data/creditCardBanks";
 import { statesData } from "@/data/statesData";
 import { notFound, permanentRedirect } from "next/navigation";
-import { getMetaTitlePixelWidth } from "@/lib/seo-utils";
+import { getMetaTitlePixelWidth, getMetaDescPixelWidth } from "@/lib/seo-utils";
 
 export async function generateStaticParams() {
   const params: { slug: string; "state-slug": string }[] = [];
@@ -27,6 +27,7 @@ function getShortStateName(stateName: string): string {
 
 function getShortBankName(bankName: string): string {
   if (bankName === 'Jammu & Kashmir Bank') return 'J&K Bank';
+  if (bankName === 'Standard Chartered') return 'StanChart';
   return bankName.replace(/Small Finance Bank/gi, 'SFB').replace(/\s+Bank$/i, '').trim();
 }
 
@@ -60,50 +61,112 @@ function getCCStateMetaTitle(bankName: string, stateName: string): string {
   const brand = 'CredSettle';
 
   const candidates = [
-    `${bankName} Settlement in ${stateName} | ${brand}`,
-    `${bankName} Settlement in ${shortState} | ${brand}`,
-    `${shortBank} Card Settlement in ${stateName} | ${brand}`,
-    `${shortBank} Settlement in ${stateName} | ${brand}`,
+    // Standard and compact branded candidates
+    `${bankName} Credit Card Settlement in ${shortState} | ${brand}`,
+    `${shortBank} Credit Card Settlement in ${shortState} | ${brand}`,
+    `${bankName} Credit Card Debt Settlement in ${shortState} | ${brand}`,
+    `${shortBank} Credit Card Debt Settlement in ${shortState} | ${brand}`,
+    `Settle Your ${shortBank} Credit Card Dues in ${shortState} | ${brand}`,
+    `Settle Your ${bankName} Credit Card Dues in ${shortState} | ${brand}`,
+    `Settle ${shortBank} Credit Card Dues in ${shortState} | ${brand}`,
+    `Settle ${bankName} Credit Card Dues in ${shortState} | ${brand}`,
+    `${bankName} Card Settlement in ${shortState} | ${brand}`,
     `${shortBank} Card Settlement in ${shortState} | ${brand}`,
+    `${bankName} Settlement Services in ${shortState} | ${brand}`,
+    `${shortBank} Settlement Services in ${shortState} | ${brand}`,
+    `${bankName} Settlement in ${stateName} | ${brand}`,
+    `${shortBank} Settlement in ${stateName} | ${brand}`,
+    `${bankName} Settlement in ${shortState} | ${brand}`,
     `${shortBank} Settlement in ${shortState} | ${brand}`,
+    `Settle ${shortBank} Credit Card in ${shortState} | ${brand}`,
+    `Settle ${bankName} Dues in ${shortState} | ${brand}`,
+    `${shortBank} Card Settlement - ${shortState} | ${brand}`,
+
+    // Unbranded candidates for very long combinations
     `${bankName} Settlement in ${shortState}`,
+    `${shortBank} Settlement in ${shortState}`,
+    `${bankName} Card Settlement in ${shortState}`,
     `${shortBank} Card Settlement in ${shortState}`,
-    `${shortBank} Settlement - ${shortState}`
+    `${bankName} Settlement in ${stateName}`,
+    `${shortBank} Settlement in ${stateName}`,
   ];
 
+  // Pass 1: Strict target (50-58 chars, <= 545px)
   for (const cand of candidates) {
-    if (cand.length <= 58 && getMetaTitlePixelWidth(cand) <= 550) {
+    if (cand.length >= 50 && cand.length <= 58 && getMetaTitlePixelWidth(cand) <= 545) {
       return cand;
     }
   }
 
-  return `${shortBank} Settlement - ${shortState}`.slice(0, 48);
+  // Pass 2: Strict limit (50-60 chars, <= 561px)
+  for (const cand of candidates) {
+    if (cand.length >= 50 && cand.length <= 60 && getMetaTitlePixelWidth(cand) <= 561) {
+      return cand;
+    }
+  }
+
+  // Pass 3: Fallback (45-60 chars, <= 561px)
+  for (const cand of candidates) {
+    if (cand.length >= 45 && cand.length <= 60 && getMetaTitlePixelWidth(cand) <= 561) {
+      return cand;
+    }
+  }
+
+  return `${shortBank} Settlement in ${shortState} | ${brand}`.slice(0, 60);
 }
 
 function getCCStateMetaDescription(bankName: string, stateName: string): string {
   const shortState = getShortStateName(stateName);
+  const shortBank = getShortBankName(bankName);
   const displayState = stateName.length > 20 ? shortState : stateName;
 
   const candidates = [
-    `Facing ${bankName} credit card harassment in ${displayState}? CredSettle provides legal debt resolution & relief. Free consultation.`,
-    `Facing ${bankName} credit card debt in ${displayState}? Settle legally under RBI rules with CredSettle. Free consultation.`,
-    `Facing ${bankName} credit card harassment in ${shortState}? CredSettle provides legal debt resolution & relief. Free consultation.`,
-    `Facing ${bankName} credit card debt in ${shortState}? Settle legally under RBI rules with CredSettle. Free consultation.`,
-    `Facing ${bankName} harassment in ${displayState}? Settle credit card debt legally with CredSettle. Free consultation.`,
-    `Facing ${bankName} harassment in ${shortState}? Settle credit card debt legally with CredSettle. Free consultation.`,
-    `Settle ${bankName} credit card dues in ${displayState} legally with CredSettle. Stop harassment. Free consultation.`,
-    `Settle ${bankName} credit card dues in ${shortState} legally with CredSettle. Stop harassment. Free consultation.`
+    // Standard ladders
+    `Facing ${bankName} credit card debt in ${displayState}? Settle legally under RBI rules with CredSettle. Stop harassment & reduce total dues up to 50%.`,
+    `Facing ${shortBank} credit card debt in ${displayState}? Settle legally under RBI rules with CredSettle. Stop harassment & reduce total dues up to 50%.`,
+    `Facing ${bankName} credit card debt in ${shortState}? Settle legally under RBI rules with CredSettle. Stop harassment & reduce your total dues up to 50%.`,
+    `Facing ${shortBank} credit card debt in ${shortState}? Settle legally under RBI rules with CredSettle. Stop harassment & reduce your total dues up to 50%.`,
+    `Struggling with ${bankName} credit card dues in ${displayState}? Settle legally with CredSettle under RBI rules. Stop harassment & cut dues up to 50%.`,
+    `Struggling with ${shortBank} credit card dues in ${displayState}? Settle legally with CredSettle under RBI rules. Stop harassment & cut dues up to 50%.`,
+    `Facing ${bankName} credit card harassment in ${displayState}? CredSettle provides legal debt resolution & relief under RBI rules. Free consultation.`,
+    `Facing ${shortBank} credit card harassment in ${displayState}? CredSettle provides legal debt resolution & relief under RBI rules. Free consultation.`,
+    `Settle ${bankName} credit card dues legally in ${displayState} under RBI rules with CredSettle. Stop recovery harassment & reduce dues up to 50%.`,
+    `Settle ${shortBank} credit card dues legally in ${displayState} under RBI rules with CredSettle. Stop recovery harassment & reduce dues up to 50%.`,
+    `Facing ${bankName} card debt in ${displayState}? Settle legally under RBI rules with CredSettle. Stop harassment calls & reduce total dues up to 50%.`,
+    `Facing ${shortBank} card debt in ${displayState}? Settle legally under RBI rules with CredSettle. Stop harassment calls & reduce total dues up to 50%.`,
+    `Resolve your ${shortBank} card debt in ${displayState} legally with CredSettle under RBI rules. Stop recovery agent calls & cut dues up to 50%.`,
+    `Clear your ${shortBank} credit card dues in ${displayState} legally with CredSettle under RBI rules. Stop agent calls & cut debt up to 50%.`,
+
+    // Extended variations for short names
+    `Facing ${bankName} credit card dues in ${displayState}? Settle legally under RBI guidelines with CredSettle. Stop recovery harassment & reduce your debt up to 50%.`,
+    `Facing ${shortBank} credit card dues in ${displayState}? Settle legally under RBI guidelines with CredSettle. Stop recovery harassment & reduce your debt up to 50%.`,
+    `Facing ${bankName} credit card debt in ${displayState}? Settle legally under RBI guidelines with CredSettle. Stop recovery harassment & reduce your dues up to 50%.`,
+    `Facing ${shortBank} credit card debt in ${displayState}? Settle legally under RBI guidelines with CredSettle. Stop recovery harassment & reduce your dues up to 50%.`,
+    `Struggling with ${bankName} credit card debt in ${displayState}? Settle legally under RBI guidelines with CredSettle. Stop harassment & clear debt safely.`,
+    `Struggling with ${shortBank} credit card debt in ${displayState}? Settle legally under RBI guidelines with CredSettle. Stop harassment & clear debt safely.`
   ];
 
+  // Level 1: Strict target sweet spot (140-146 chars, <= 960px)
   for (const c of candidates) {
-    if (c.length >= 115 && c.length <= 136) return c;
+    if (c.length >= 140 && c.length <= 146 && getMetaDescPixelWidth(c) <= 960) return c;
   }
 
+  // Level 2: Safe target (140-150 chars, <= 960px)
   for (const c of candidates) {
-    if (c.length <= 138) return c;
+    if (c.length >= 140 && c.length <= 150 && getMetaDescPixelWidth(c) <= 960) return c;
   }
 
-  return candidates[0].slice(0, 135);
+  // Level 3: Broader bounds (140-155 chars, <= 980px)
+  for (const c of candidates) {
+    if (c.length >= 140 && c.length <= 155 && getMetaDescPixelWidth(c) <= 980) return c;
+  }
+
+  // Fallback clamped safely
+  const base = `Facing ${shortBank} credit card debt in ${displayState}? Settle legally with CredSettle under RBI rules. Stop recovery agent harassment & cut dues up to 50%.`;
+  if (base.length > 146) {
+    return base.slice(0, 142).replace(/[\s,;.-]+$/, '') + '.';
+  }
+  return base;
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string; "state-slug": string }> }) {
