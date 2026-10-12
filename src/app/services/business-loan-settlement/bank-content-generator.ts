@@ -499,20 +499,34 @@ export function getBankMetaTitle(bankName: string): string {
   const b = bankName.trim();
   const shortB = getShortBankName(b);
   const candidates = [
+    `${shortB} Business Loan Settlement Services | CredSettle`,
+    `Settle ${shortB} Business Loan Legally | CredSettle`,
+    `Settle Your ${shortB} Business Loan Dues | CredSettle`,
+    `Settle Your ${shortB} Business Loan Online | CredSettle`,
+    `Settle Your ${shortB} Business Loan | CredSettle`,
+    `${shortB} Business Loan Settlement Guide | CredSettle`,
+    `${shortB} Business Loan Debt Relief Services | CredSettle`,
+    `${shortB} Business Loan Debt Relief | CredSettle`,
+    `${shortB} Business Loan Debt Settlement | CredSettle`,
     `${b} Business Loan Settlement | CredSettle`,
     `${shortB} Business Loan Settlement | CredSettle`,
     `Settle ${b} Business Loan Legally | CredSettle`,
-    `Settle ${shortB} Business Loan Legally | CredSettle`,
-    `${shortB} Business Loan Settlement Guide | CredSettle`,
+    `Settle ${shortB} Business Loan Dues | CredSettle`,
     `Settle ${shortB} Business Loan | CredSettle`,
+    `${shortB} Business Loan Settlement Help | CredSettle`,
+    `${shortB} Business Loan Relief | CredSettle`,
+    `${shortB} Business Loan Guide | CredSettle`,
+    `${shortB} Business Loan Help | CredSettle`,
+    `${shortB} Business Loan Dues | CredSettle`,
+    `${shortB} Business Loan OTS | CredSettle`,
     `${shortB} Business Settlement | CredSettle`,
-    `${shortB} Loan Settlement | CredSettle`
+    `${shortB} Business Loan | CredSettle`
   ];
   for (const cand of candidates) {
     if (cand.length >= 50 && cand.length <= 58 && getMetaTitlePixelWidth(cand) <= 550) return cand;
   }
   for (const cand of candidates) {
-    if (cand.length >= 30 && cand.length <= 58 && getMetaTitlePixelWidth(cand) <= 550) return cand;
+    if (cand.length >= 50 && cand.length <= 60 && getMetaTitlePixelWidth(cand) <= 560) return cand;
   }
   return `${shortB} Business Loan | CredSettle`;
 }

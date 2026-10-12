@@ -847,6 +847,21 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: "/services/car-loan-settlement/banks/sawai-madhopur-district-central-co-operative-bank",
+        destination: "/services/car-loan-settlement/banks/sawai-madhopur-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/app-loan-settlement/banks/sawai-madhopur-district-central-co-operative-bank",
+        destination: "/services/app-loan-settlement/banks/sawai-madhopur-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/nbfc-loan-settlement/banks/sawai-madhopur-district-central-co-operative-bank",
+        destination: "/services/nbfc-loan-settlement/banks/sawai-madhopur-district-co-op-bank",
+        permanent: true,
+      },
+      {
       source: "/SME-loan-dispute-resolution",
       destination: "/sme-loan-dispute-resolution",
       permanent: true,

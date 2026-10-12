@@ -490,20 +490,35 @@ export function getBankMetaTitle(bankName: string): string {
   const b = bankName.trim();
   const shortB = getShortBankName(b);
   const candidates = [
+    `${shortB} NBFC Loan Debt Settlement Services | CredSettle`,
+    `${shortB} NBFC Loan Settlement Services | CredSettle`,
+    `Settle ${shortB} NBFC Loan Dues Legally | CredSettle`,
+    `Settle Your ${shortB} NBFC Loan Dues | CredSettle`,
+    `Settle Your ${shortB} NBFC Loan Online | CredSettle`,
+    `${shortB} NBFC Loan Settlement Guide | CredSettle`,
+    `${shortB} NBFC Loan Debt Relief Services | CredSettle`,
+    `${shortB} NBFC Loan Debt Settlement | CredSettle`,
     `${b} NBFC Loan Settlement | CredSettle`,
     `${shortB} NBFC Loan Settlement | CredSettle`,
     `Settle ${b} NBFC Loan Legally | CredSettle`,
     `Settle ${shortB} NBFC Loan Legally | CredSettle`,
-    `${shortB} NBFC Loan Settlement Guide | CredSettle`,
+    `Settle Your ${shortB} NBFC Loan | CredSettle`,
+    `Settle ${shortB} NBFC Loan Dues | CredSettle`,
     `Settle ${shortB} NBFC Loan | CredSettle`,
+    `${shortB} NBFC Loan Settlement Help | CredSettle`,
+    `${shortB} NBFC Loan Relief | CredSettle`,
+    `${shortB} NBFC Loan Guide | CredSettle`,
+    `${shortB} NBFC Loan Help | CredSettle`,
+    `${shortB} NBFC Loan Dues | CredSettle`,
+    `${shortB} NBFC Loan OTS | CredSettle`,
     `${shortB} NBFC Settlement | CredSettle`,
-    `${shortB} Loan Settlement | CredSettle`
+    `${shortB} NBFC Loan | CredSettle`
   ];
   for (const cand of candidates) {
     if (cand.length >= 50 && cand.length <= 58 && getMetaTitlePixelWidth(cand) <= 550) return cand;
   }
   for (const cand of candidates) {
-    if (cand.length >= 30 && cand.length <= 58 && getMetaTitlePixelWidth(cand) <= 550) return cand;
+    if (cand.length >= 50 && cand.length <= 60 && getMetaTitlePixelWidth(cand) <= 560) return cand;
   }
   return `${shortB} NBFC Loan | CredSettle`;
 }

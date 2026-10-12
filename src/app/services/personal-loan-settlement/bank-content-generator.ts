@@ -2,7 +2,7 @@
 // This generates full 2500+ word articles for each bank
 
 import { BankContent } from './banks-content';
-import { getShortBankName, getMetaDescPixelWidth } from '@/lib/seo-utils';
+import { getShortBankName, getMetaTitlePixelWidth, getMetaDescPixelWidth } from '@/lib/seo-utils';
 
 interface BankInfo {
   name: string;
@@ -517,29 +517,36 @@ export function getBankMetaTitle(bankName: string): string {
   const b = bankName.trim();
   const shortB = getShortBankName(b);
   const candidates = [
+    `${shortB} Personal Loan Settlement Services | CredSettle`,
+    `Settle ${shortB} Personal Loan Legally | CredSettle`,
+    `Settle Your ${shortB} Personal Loan Dues | CredSettle`,
+    `Settle Your ${shortB} Personal Loan Online | CredSettle`,
+    `Settle Your ${shortB} Personal Loan | CredSettle`,
+    `${shortB} Personal Loan Settlement Guide | CredSettle`,
+    `${shortB} Personal Loan Debt Relief Services | CredSettle`,
+    `${shortB} Personal Loan Debt Relief | CredSettle`,
+    `${shortB} Personal Loan Debt Settlement | CredSettle`,
     `${b} Personal Loan Settlement | CredSettle`,
     `${shortB} Personal Loan Settlement | CredSettle`,
-    `${b} Loan Settlement | CredSettle`,
-    `${shortB} Loan Settlement | CredSettle`,
-    `Settle ${b} Personal Loan | CredSettle`,
-    `Settle ${shortB} Personal Loan | CredSettle`,
     `Settle ${b} Personal Loan Legally | CredSettle`,
-    `Settle ${shortB} Personal Loan Legally | CredSettle`,
-    `${b} Personal Loan Settlement Guide | CredSettle`,
-    `${shortB} Personal Loan Settlement Guide | CredSettle`,
-    `Settle ${b} Personal Loan Dues in India | CredSettle`,
-    `Settle ${shortB} Personal Loan Dues in India | CredSettle`,
-    `${b} Personal Loan Settlement - CredSettle Guide`,
-    `${shortB} Personal Loan Settlement - CredSettle Guide`
+    `Settle ${shortB} Personal Loan Dues | CredSettle`,
+    `Settle ${shortB} Personal Loan | CredSettle`,
+    `${shortB} Personal Loan Settlement Help | CredSettle`,
+    `${shortB} Personal Loan Relief | CredSettle`,
+    `${shortB} Personal Loan Guide | CredSettle`,
+    `${shortB} Personal Loan Help | CredSettle`,
+    `${shortB} Personal Loan Dues | CredSettle`,
+    `${shortB} Personal Loan OTS | CredSettle`,
+    `${shortB} Personal Settlement | CredSettle`,
+    `${shortB} Personal Loan | CredSettle`
   ];
-  for (const c of candidates) {
-    if (c.length >= 50 && c.length <= 60) return c;
+  for (const cand of candidates) {
+    if (cand.length >= 50 && cand.length <= 58 && getMetaTitlePixelWidth(cand) <= 550) return cand;
   }
-  const cand = `Settle ${shortB} Personal Loan Dues | CredSettle`;
-  if (cand.length > 60) {
-    return `${shortB.slice(0, 20).trim()} Personal Loan Settlement | CredSettle`;
+  for (const cand of candidates) {
+    if (cand.length >= 50 && cand.length <= 60 && getMetaTitlePixelWidth(cand) <= 560) return cand;
   }
-  return cand.slice(0, 60);
+  return `${shortB} Personal Loan | CredSettle`;
 }
 
 export function getBankMetaDescription(bankName: string): string {

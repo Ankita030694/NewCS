@@ -517,23 +517,35 @@ export function getBankMetaTitle(bankName: string): string {
   const b = bankName.trim();
   const shortB = getShortBankName(b);
   const candidates = [
+    `${shortB} Car Loan Debt Settlement Services | CredSettle`,
+    `${shortB} Car Loan Settlement Services | CredSettle`,
+    `Settle ${shortB} Car Loan Dues Legally | CredSettle`,
+    `Settle Your ${shortB} Car Loan Dues | CredSettle`,
+    `Settle Your ${shortB} Car Loan Online | CredSettle`,
+    `${shortB} Car Loan Settlement Guide | CredSettle`,
+    `${shortB} Car Loan Debt Relief Services | CredSettle`,
+    `${shortB} Car Loan Debt Settlement | CredSettle`,
     `${b} Car Loan Settlement | CredSettle`,
     `${shortB} Car Loan Settlement | CredSettle`,
     `Settle ${b} Car Loan Legally | CredSettle`,
     `Settle ${shortB} Car Loan Legally | CredSettle`,
-    `${shortB} Car Loan Settlement Guide | CredSettle`,
+    `Settle Your ${shortB} Car Loan | CredSettle`,
+    `Settle ${shortB} Car Loan Dues | CredSettle`,
     `Settle ${shortB} Car Loan | CredSettle`,
-    `${shortB} Car Loan Settlement | CredSettle`,
-    `${shortB} Loan Settlement | CredSettle`,
+    `${shortB} Car Loan Settlement Help | CredSettle`,
+    `${shortB} Car Loan Relief | CredSettle`,
+    `${shortB} Car Loan Guide | CredSettle`,
+    `${shortB} Car Loan Help | CredSettle`,
+    `${shortB} Car Loan Dues | CredSettle`,
+    `${shortB} Car Loan OTS | CredSettle`,
     `${shortB} Car Settlement | CredSettle`,
-    `Settle ${b} Car Loan Dues in India | CredSettle`,
-    `Settle ${shortB} Car Loan Dues in India | CredSettle`
+    `${shortB} Car Loan | CredSettle`
   ];
-  for (const c of candidates) {
-    if (c.length >= 50 && c.length <= 58 && getMetaTitlePixelWidth(c) <= 550) return c;
+  for (const cand of candidates) {
+    if (cand.length >= 50 && cand.length <= 58 && getMetaTitlePixelWidth(cand) <= 550) return cand;
   }
-  for (const c of candidates) {
-    if (c.length >= 30 && c.length <= 58 && getMetaTitlePixelWidth(c) <= 550) return c;
+  for (const cand of candidates) {
+    if (cand.length >= 50 && cand.length <= 60 && getMetaTitlePixelWidth(cand) <= 560) return cand;
   }
   return `${shortB} Car Loan | CredSettle`;
 }

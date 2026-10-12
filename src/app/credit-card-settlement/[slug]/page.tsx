@@ -69,33 +69,41 @@ function getCCBankMetaTitle(bankName: string): string {
   const shortName = getShortBankName(b);
 
   const candidates = [
+    `Settle Your ${shortName} Credit Card Dues Online | CredSettle`,
+    `Settle Your ${shortName} Credit Card Dues Legally | CredSettle`,
+    `How to Settle Your ${shortName} Credit Card Dues | CredSettle`,
+    `${shortName} Bank Credit Card Settlement Guide | CredSettle`,
+    `${shortName} Credit Card Debt Settlement Guide | CredSettle`,
+    `${shortName} Credit Card Settlement Process Guide | CredSettle`,
+    `How to Settle ${shortName} Credit Card Dues | CredSettle`,
     `${shortName} Credit Card Settlement Guide | CredSettle`,
     `${shortName} Credit Card Debt Settlement | CredSettle`,
-    `${shortName} Bank Credit Card Settlement Guide | CredSettle`,
     `${b} Credit Card Settlement Guide | CredSettle`,
-    `How to Settle ${shortName} Credit Card Dues | CredSettle`,
-    `Settle ${shortName} Credit Card Dues Legally | CredSettle`,
     `Settle Your ${shortName} Credit Card Dues | CredSettle`,
+    `Settle ${shortName} Credit Card Dues | CredSettle`,
     `${shortName} Card Settlement Process | CredSettle`,
     `${shortName} Card Settlement Guide | CredSettle`,
-    `${shortName} Card Settlement | CredSettle`,
+    `Settle Your ${shortName} Card Dues Legally | CredSettle`,
+    `Settle Your ${shortName} Card Dues | CredSettle`,
     `Settle ${shortName} Card Dues | CredSettle`,
-    `Settle ${shortName} Credit Card Dues | CredSettle`,
-    `${shortName} Credit Card Settlement | CredSettle`
+    `Settle ${shortName} Card Debt | CredSettle`,
+    `How to Settle ${shortName} Card | CredSettle`,
+    `${shortName} Card Dues Relief | CredSettle`,
+    `Settle ${shortName} Card | CredSettle`
   ];
 
   for (const cand of candidates) {
-    if (cand.length >= 50 && cand.length <= 60 && getMetaTitlePixelWidth(cand) <= 550) return cand;
+    if (cand.length >= 50 && cand.length <= 58 && getMetaTitlePixelWidth(cand) <= 550) return cand;
   }
   for (const cand of candidates) {
-    if (cand.length >= 50 && cand.length <= 60 && getMetaTitlePixelWidth(cand) <= 561) return cand;
+    if (cand.length >= 50 && cand.length <= 60 && getMetaTitlePixelWidth(cand) <= 560) return cand;
   }
 
   const brand = 'CredSettle';
-  const maxBankLen = 58 - ' Card Settlement | '.length - brand.length;
+  const maxBankLen = 58 - ' Settle  Card Dues | '.length - brand.length;
   const truncatedBank = shortName.slice(0, Math.max(10, maxBankLen)).trim();
-  const cand = `${truncatedBank} Card Settlement | ${brand}`;
-  if (cand.length >= 50 && cand.length <= 60 && getMetaTitlePixelWidth(cand) <= 561) {
+  const cand = `Settle ${truncatedBank} Card Dues | ${brand}`;
+  if (cand.length >= 50 && cand.length <= 60 && getMetaTitlePixelWidth(cand) <= 560) {
     return cand;
   }
   return cand.slice(0, 60);

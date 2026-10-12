@@ -184,20 +184,35 @@ export function getBankMetaTitle(bankName: string): string {
   const b = bankName.trim();
   const shortB = getShortBankName(b);
   const candidates = [
+    `${shortB} App Loan Debt Settlement Services | CredSettle`,
+    `${shortB} App Loan Settlement Services | CredSettle`,
+    `Settle ${shortB} App Loan Dues Legally | CredSettle`,
+    `Settle Your ${shortB} App Loan Dues | CredSettle`,
+    `Settle Your ${shortB} App Loan Online | CredSettle`,
+    `${shortB} App Loan Settlement Guide | CredSettle`,
+    `${shortB} App Loan Debt Relief Services | CredSettle`,
+    `${shortB} App Loan Debt Settlement | CredSettle`,
     `${b} App Loan Settlement | CredSettle`,
     `${shortB} App Loan Settlement | CredSettle`,
     `Settle ${b} App Loan Legally | CredSettle`,
     `Settle ${shortB} App Loan Legally | CredSettle`,
-    `${shortB} App Loan Settlement Guide | CredSettle`,
+    `Settle Your ${shortB} App Loan | CredSettle`,
+    `Settle ${shortB} App Loan Dues | CredSettle`,
     `Settle ${shortB} App Loan | CredSettle`,
+    `${shortB} App Loan Settlement Help | CredSettle`,
+    `${shortB} App Loan Relief | CredSettle`,
+    `${shortB} App Loan Guide | CredSettle`,
+    `${shortB} App Loan Help | CredSettle`,
+    `${shortB} App Loan Dues | CredSettle`,
+    `${shortB} App Loan OTS | CredSettle`,
     `${shortB} App Settlement | CredSettle`,
-    `${shortB} Loan Settlement | CredSettle`
+    `${shortB} App Loan | CredSettle`
   ];
   for (const cand of candidates) {
     if (cand.length >= 50 && cand.length <= 58 && getMetaTitlePixelWidth(cand) <= 550) return cand;
   }
   for (const cand of candidates) {
-    if (cand.length >= 30 && cand.length <= 58 && getMetaTitlePixelWidth(cand) <= 550) return cand;
+    if (cand.length >= 50 && cand.length <= 60 && getMetaTitlePixelWidth(cand) <= 560) return cand;
   }
   return `${shortB} App Loan | CredSettle`;
 }

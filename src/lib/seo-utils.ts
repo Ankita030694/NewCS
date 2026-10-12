@@ -390,8 +390,16 @@ export function getBankH1Title(bankName: string, serviceTitle: string): string {
     return cand.slice(0, 65).trim();
   }
 
-  const extended = `${cand} Help`;
-  if (extended.length >= 30 && extended.length <= 65) return extended;
+  const extensions = [
+    `${cand} Services`,
+    `${cand} Legal Help`,
+    `${cand} Process`,
+    `${cand} Guide`,
+    `${cand} Help`
+  ];
+  for (const ext of extensions) {
+    if (ext.length >= 30 && ext.length <= 65) return ext;
+  }
   return cand;
 }
 
