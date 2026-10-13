@@ -441,6 +441,16 @@
     2. **Clean Props at Call Sites:** Always pass clean route slugs without leading slashes or redundant parent segments (e.g., `servicePath="car-loan-settlement"`).
     3. **Zero Consecutive Slashes:** Ensure all internal link templates produce clean, canonical URLs with exactly single `/` path separators.
 
+* **Mistake 46: Missing Security Headers on Next.js Image Optimization Route (`Security: Missing X-Content-Type-Options Header`, `Security: Missing X-Frame-Options Header`, `Security: Missing Secure Referrer-Policy Header`)**
+  * *Why it happens:*
+    1. Global security headers in `next.config.ts` (`async headers()`) configured under `source: "/:path*"` only match regular application routes. Next.js internal endpoints—specifically the image optimization service (`/_next/image`) and static assets—are excluded by Next.js from `/:path*`.
+    2. `middleware.ts` typically has matchers that explicitly exclude `_next/image`, and generic `/(.*)` blocks in `vercel.json` may not override the edge image optimizer defaults.
+    3. When Screaming Frog crawls internal images generated via Next.js `<Image>` components (`https://www.credsettle.com/_next/image?url=...&w=...&q=...`), it checks response headers on every crawled asset and flags the URLs for missing `X-Content-Type-Options: nosniff`, `X-Frame-Options: SAMEORIGIN`, and `Referrer-Policy: strict-origin-when-cross-origin`.
+  * *Prevention:*
+    1. **Explicit Next.js Header Matchers in `next.config.ts`:** Add dedicated header matchers for `source: "/_next/image"` and `source: "/_next/:path*"` inside `async headers()` in `next.config.ts`, ensuring `X-Content-Type-Options: nosniff`, `X-Frame-Options: SAMEORIGIN`, and `Referrer-Policy: strict-origin-when-cross-origin` are attached.
+    2. **Vercel Edge Rules in `vercel.json`:** Define explicit header rules for `"/_next/image(.*)"` and `"/_next/(.*)"` in `vercel.json` so edge responses from Vercel's Image Optimization pipeline also serve all required security headers.
+    3. **Next.js Middleware Reinforcement in `middleware.ts`:** Include `/_next/image` in the `config.matcher` array in `middleware.ts` and set `response.headers.set('X-Content-Type-Options', 'nosniff')`, `response.headers.set('X-Frame-Options', 'SAMEORIGIN')`, and `response.headers.set('Referrer-Policy', 'strict-origin-when-cross-origin')` on all passed requests.
+
 ---
 
 ## 🛠️ Step-by-Step Protocol When Resolving Screaming Frog Issues
