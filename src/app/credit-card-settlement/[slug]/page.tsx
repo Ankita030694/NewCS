@@ -37,6 +37,7 @@ const loanAliasMap: Record<string, string> = {
   "stashfin-credit": "/loan-settlement-by-bank/stashfin",
   "tata-motor-finance": "/loan-settlement-by-bank/tata-capital",
   "ugro-capital-ltd": "/loan-settlement-by-bank/ugro-capital",
+  "fedbank-financial-services": "/loan-settlement-by-bank/fedbank-financial-services",
   "uni-cards": "/loan-settlement-by-bank/uni-card",
   "vivriti-capital": "/loan-settlement-by-bank/vivriti",
   "zestmoney": "/loan-settlement-by-bank/zest-money",

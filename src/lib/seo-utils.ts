@@ -271,7 +271,33 @@ export function getShortBankName(name: string): string {
     'Chimnay Finlease Ltd': 'Chimnay Finlease',
     'Ashv Finance Limited': 'Ashv Finance',
     'Kisetsu saison Finance': 'Kisetsu Saison',
-    'Au Small Fin Bank Ltd': 'AU Small Finance Bank',
+    'Au Small Fin Bank Ltd': 'AU SFB',
+    'Au Small Finance Bank Ltd': 'AU SFB',
+    'Au Small Finance Bank Limited': 'AU SFB',
+    'Au Small Finance Bank': 'AU SFB',
+    'AU Small Finance Bank Ltd': 'AU SFB',
+    'AU Small Finance Bank Limited': 'AU SFB',
+    'AU Small Finance Bank': 'AU SFB',
+    'Equitas Small Finance Bank Ltd': 'Equitas SFB',
+    'Equitas Small Finance Bank Limited': 'Equitas SFB',
+    'Equitas Small Finance Bank': 'Equitas SFB',
+    'Equitas Small Finance': 'Equitas SFB',
+    'Jana Small Finance Bank Ltd': 'Jana SFB',
+    'Jana Small Finance Bank Limited': 'Jana SFB',
+    'Jana Small Finance Bank': 'Jana SFB',
+    'Jana Small Finance': 'Jana SFB',
+    'ESAF Small Finance Bank Ltd': 'ESAF SFB',
+    'ESAF Small Finance Bank Limited': 'ESAF SFB',
+    'ESAF Small Finance Bank': 'ESAF SFB',
+    'ESAF Small Finance': 'ESAF SFB',
+    'Unity Small Finance Bank Ltd': 'Unity SFB',
+    'Unity Small Finance Bank Limited': 'Unity SFB',
+    'Unity Small Finance Bank': 'Unity SFB',
+    'Unity Small Finance': 'Unity SFB',
+    'Fincare Small Finance Bank Ltd': 'Fincare SFB',
+    'Fincare Small Finance Bank Limited': 'Fincare SFB',
+    'Fincare Small Finance Bank': 'Fincare SFB',
+    'Fincare Small Finance': 'Fincare SFB',
     'North East Small Finance': 'North East SFB',
     'North East Small Finance Bank': 'North East SFB',
     'North East Small Finance Bank Ltd': 'North East SFB',
@@ -280,7 +306,9 @@ export function getShortBankName(name: string): string {
     'Branch International Financial Services': 'Branch International',
     'Branch International Financial Services Pvt Ltd': 'Branch International',
     'Capital Small Finance Bank Ltd': 'Capital SFB',
+    'Capital Small Finance Bank Limited': 'Capital SFB',
     'Capital Small Finance Bank': 'Capital SFB',
+    'Capital Small Finance': 'Capital SFB',
     'Edelweiss Customised Liquidity': 'Edelweiss Liquidity',
     'Icici Securities Primary Dealership': 'ICICI Securities',
     'ICICI Securities Primary Dealership': 'ICICI Securities',
@@ -294,13 +322,21 @@ export function getShortBankName(name: string): string {
     'Loantap Financial Technologies': 'LoanTap',
     'Loantap Financial Technologies Pvt Ltd': 'LoanTap',
     'Shivalik Small Finance Bank Ltd': 'Shivalik SFB',
+    'Shivalik Small Finance Bank Limited': 'Shivalik SFB',
     'Shivalik Small Finance Bank': 'Shivalik SFB',
+    'Shivalik Small Finance': 'Shivalik SFB',
     'Suryoday Small Finance Bank Ltd': 'Suryoday SFB',
+    'Suryoday Small Finance Bank Limited': 'Suryoday SFB',
     'Suryoday Small Finance Bank': 'Suryoday SFB',
+    'Suryoday Small Finance': 'Suryoday SFB',
     'Ujjivan Small Finance Bank Ltd': 'Ujjivan SFB',
+    'Ujjivan Small Finance Bank Limited': 'Ujjivan SFB',
     'Ujjivan Small Finance Bank': 'Ujjivan SFB',
+    'Ujjivan Small Finance': 'Ujjivan SFB',
     'Utkarsh Small Finance Bank Ltd': 'Utkarsh SFB',
+    'Utkarsh Small Finance Bank Limited': 'Utkarsh SFB',
     'Utkarsh Small Finance Bank': 'Utkarsh SFB',
+    'Utkarsh Small Finance': 'Utkarsh SFB',
     'Bank of Baroda': 'Bank of Baroda',
     'Bank of India': 'Bank of India',
     'Bank of Maharashtra': 'Bank of Maharashtra',
@@ -464,7 +500,8 @@ export function getShortBankName(name: string): string {
     .replace(/Banking Corporation/gi, 'Bank')
     .replace(/Technologies India Pvt Ltd/gi, 'Tech')
     .replace(/Technologies India/gi, 'Tech')
-    .replace(/Small Finance Bank(\s+Ltd)?/gi, 'SFB')
+    .replace(/Small Finance Bank(\s+(Ltd|Limited))?/gi, 'SFB')
+    .replace(/Small Finance(\s+(Ltd|Limited))?/gi, 'SFB')
     .replace(/Securities Primary Dealership/gi, 'Securities')
     .replace(/Financial Technologies/gi, 'Tech')
     .replace(/Customised Liquidity/gi, 'Liquidity')
@@ -497,6 +534,7 @@ export function getShortBankName(name: string): string {
     .replace(/Janata Sahakari Bank/gi, 'Sahakari Bank')
     .replace(/Commercial Co-op Bank/gi, 'Commercial Bank')
     .replace(/\s+(Loan Settlement|Debt Relief|Loan Help|Invest Borrow|Digital Loans|Short Term Loan)$/gi, '')
+    .replace(/\s+(Bank\s+)?(Ltd|Limited)\.?$/gi, '')
     .replace(/\s+/g, ' ')
     .trim();
 

@@ -767,6 +767,36 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: "/services/credit-card-settlement/banks/chamarajanagar-district-central-co-operative-bank",
+        destination: "/services/credit-card-settlement/banks/chamarajanagar-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/credit-card-settlement/banks/chikkaballapura-district-central-co-operative-bank",
+        destination: "/services/credit-card-settlement/banks/chikkaballapura-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/credit-card-settlement/banks/ramanathapuram-district-central-co-operative-bank",
+        destination: "/services/credit-card-settlement/banks/ramanathapuram-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/credit-card-settlement/banks/tiruchirappalli-district-central-co-operative-bank",
+        destination: "/services/credit-card-settlement/banks/tiruchirappalli-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/credit-card-settlement/banks/tiruvannamalai-district-central-co-operative-bank",
+        destination: "/services/credit-card-settlement/banks/tiruvannamalai-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/credit-card-settlement/banks/uttara-kannada-district-central-co-operative-bank",
+        destination: "/services/credit-card-settlement/banks/uttara-kannada-district-co-op-bank",
+        permanent: true,
+      },
+      {
         source: "/services/credit-card-settlement/banks/sawai-madhopur-district-central-co-operative-bank",
         destination: "/services/credit-card-settlement/banks/sawai-madhopur-district-co-op-bank",
         permanent: true,
@@ -859,6 +889,111 @@ const nextConfig: NextConfig = {
       {
         source: "/services/nbfc-loan-settlement/banks/sawai-madhopur-district-central-co-operative-bank",
         destination: "/services/nbfc-loan-settlement/banks/sawai-madhopur-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/car-loan-settlement/banks/chamarajanagar-district-central-co-operative-bank",
+        destination: "/services/car-loan-settlement/banks/chamarajanagar-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/app-loan-settlement/banks/chamarajanagar-district-central-co-operative-bank",
+        destination: "/services/app-loan-settlement/banks/chamarajanagar-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/nbfc-loan-settlement/banks/chamarajanagar-district-central-co-operative-bank",
+        destination: "/services/nbfc-loan-settlement/banks/chamarajanagar-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/car-loan-settlement/banks/chikkaballapura-district-central-co-operative-bank",
+        destination: "/services/car-loan-settlement/banks/chikkaballapura-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/app-loan-settlement/banks/chikkaballapura-district-central-co-operative-bank",
+        destination: "/services/app-loan-settlement/banks/chikkaballapura-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/nbfc-loan-settlement/banks/chikkaballapura-district-central-co-operative-bank",
+        destination: "/services/nbfc-loan-settlement/banks/chikkaballapura-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/car-loan-settlement/banks/dakshina-kannada-district-central-co-operative-bank",
+        destination: "/services/car-loan-settlement/banks/dakshina-kannada-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/app-loan-settlement/banks/dakshina-kannada-district-central-co-operative-bank",
+        destination: "/services/app-loan-settlement/banks/dakshina-kannada-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/nbfc-loan-settlement/banks/dakshina-kannada-district-central-co-operative-bank",
+        destination: "/services/nbfc-loan-settlement/banks/dakshina-kannada-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/car-loan-settlement/banks/ramanathapuram-district-central-co-operative-bank",
+        destination: "/services/car-loan-settlement/banks/ramanathapuram-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/app-loan-settlement/banks/ramanathapuram-district-central-co-operative-bank",
+        destination: "/services/app-loan-settlement/banks/ramanathapuram-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/nbfc-loan-settlement/banks/ramanathapuram-district-central-co-operative-bank",
+        destination: "/services/nbfc-loan-settlement/banks/ramanathapuram-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/car-loan-settlement/banks/tiruchirappalli-district-central-co-operative-bank",
+        destination: "/services/car-loan-settlement/banks/tiruchirappalli-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/app-loan-settlement/banks/tiruchirappalli-district-central-co-operative-bank",
+        destination: "/services/app-loan-settlement/banks/tiruchirappalli-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/nbfc-loan-settlement/banks/tiruchirappalli-district-central-co-operative-bank",
+        destination: "/services/nbfc-loan-settlement/banks/tiruchirappalli-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/car-loan-settlement/banks/tiruvannamalai-district-central-co-operative-bank",
+        destination: "/services/car-loan-settlement/banks/tiruvannamalai-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/app-loan-settlement/banks/tiruvannamalai-district-central-co-operative-bank",
+        destination: "/services/app-loan-settlement/banks/tiruvannamalai-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/nbfc-loan-settlement/banks/tiruvannamalai-district-central-co-operative-bank",
+        destination: "/services/nbfc-loan-settlement/banks/tiruvannamalai-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/car-loan-settlement/banks/uttara-kannada-district-central-co-operative-bank",
+        destination: "/services/car-loan-settlement/banks/uttara-kannada-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/app-loan-settlement/banks/uttara-kannada-district-central-co-operative-bank",
+        destination: "/services/app-loan-settlement/banks/uttara-kannada-district-co-op-bank",
+        permanent: true,
+      },
+      {
+        source: "/services/nbfc-loan-settlement/banks/uttara-kannada-district-central-co-operative-bank",
+        destination: "/services/nbfc-loan-settlement/banks/uttara-kannada-district-co-op-bank",
         permanent: true,
       },
       {
