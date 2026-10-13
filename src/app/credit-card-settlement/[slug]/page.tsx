@@ -12,6 +12,8 @@ const ccAliasMap: Record<string, string> = {
   "sbi-card": "/credit-card-settlement/sbi",
   "sbicap-securities": "/credit-card-settlement/sbi",
   "pnb-housing-finance": "/credit-card-settlement/pnb",
+  "north-east-small-finance": "/credit-card-settlement/north-east-small-finance-bank",
+  "north-east-small-finance-bank-ltd": "/credit-card-settlement/north-east-small-finance-bank",
 };
 
 const loanAliasMap: Record<string, string> = {
@@ -178,6 +180,12 @@ function getCCBankMetaDescription(bankName: string): string {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const normalized = slug.toLowerCase().trim();
+  if (ccAliasMap[normalized]) {
+    permanentRedirect(ccAliasMap[normalized]);
+  }
+  if (loanAliasMap[normalized]) {
+    permanentRedirect(loanAliasMap[normalized]);
+  }
   const bank = creditCardBanks.find((b) => b.slug === normalized);
   const bankName = bank ? bank.name : formatSlugToBankName(slug);
 

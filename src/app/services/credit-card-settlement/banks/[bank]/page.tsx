@@ -79,7 +79,7 @@ export default async function BankPage({ params }: PageProps) {
     { id: 'why-choose-settlement', text: getBankH2Title(content.bankName, 'Credit Card Settlement'), level: 2 },
     { id: 'understanding-settlement', text: `${shortName} Credit Card Settlement Process`, level: 3 },
     { id: 'how-credsettle-helps', text: `How CredSettle Settles ${shortName} Credit Card Debt`, level: 3 },
-    { id: 'cibil-impact', text: `Impact of ${shortName} Credit Card Settlement on Your CIBIL Score`, level: 3 },
+    { id: 'cibil-impact', text: `Impact of ${shortName} Card Settlement on CIBIL Score`, level: 3 },
     { id: 'why-choose-credsettle', text: `Why Choose CredSettle for ${shortName} Credit Card Relief`, level: 3 },
     { id: 'step-by-step-process', text: `Steps to Settle ${shortName} Credit Card Debt`, level: 3 },
     { id: 'documents-required', text: `Documents for ${shortName} Credit Card Settlement`, level: 3 },

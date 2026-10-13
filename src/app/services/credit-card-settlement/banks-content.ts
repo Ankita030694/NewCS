@@ -199,7 +199,7 @@ export function getBankContentWithFallback(bankSlug: string): BankContent {
   const shortName = getShortBankName(bankName);
   const slug = bankSlug;
 
-  // Default/fallback content structure
+  // Default/fallback content structure with high readability
   const defaultContent: BankContent = {
     bankName,
     slug,
@@ -208,33 +208,37 @@ export function getBankContentWithFallback(bankSlug: string): BankContent {
     metaDescription: generatedContent?.metaDescription || getCreditCardBankMetaDesc(shortName, bankName),
     heroTitle: getBankH1Title(bankName, 'Credit Card Settlement'),
     heroDescription: `Get legal help to settle your ${shortName} credit card dues. We use RBI One-Time Settlement rules. Stop collection calls and become debt-free today.`,
-    whyChooseSettlement: generatedContent?.whyChooseSettlement || `Credit card debt can grow very fast. High interest rates make it hard to pay off. When ${bankName} card bills pile up, settlement offers a clean exit. CredSettle helps cardholders across India negotiate with ${bankName}. We help cut your total dues by 30% to 70%. You get full legal safety at every step.`,
-    understandingSettlement: generatedContent?.understandingSettlement || `${bankName} credit card settlement follows RBI rules for debt relief. You pay a reduced lump sum to close your card account permanently. CredSettle starts formal talks with ${bankName}. We present your financial hardship with clear proof. Once approved, you pay the agreed sum. ${bankName} then gives you a no dues certificate.`,
-    howCredSettleHelps: generatedContent?.howCredSettleHelps || `CredSettle gives you full legal support for ${bankName} credit card settlement. Our expert lawyer panel reviews your debts. We write and send a strong settlement plan. Our team handles all calls from recovery agents. We help you settle ${bankName} dues for up to 50% of the total amount. You get genuine debt relief and peace of mind.`,
-    cibilImpact: generatedContent?.cibilImpact || `Settling card debt with ${bankName} will affect your CIBIL score. Your credit report will show the account as settled. Your score may drop by 50 to 100 points for a short time. However, this is much better than missing payments forever. CredSettle gives you a clear plan to rebuild your credit score. Most clients get back to a 700+ score within 18 to 24 months.`,
-    whyChooseCredSettle: generatedContent?.whyChooseCredSettle || `CredSettle is India's trusted debt resolution service. Our lawyers have settled hundreds of ${bankName} credit card cases. We know bank rules and settlement limits well. We protect you from unfair collection tactics. We negotiate the best possible waiver on interest and charges. We handle all paperwork so you can relax.`,
-    stepByStepProcess: generatedContent?.stepByStepProcess || `Step 1. Free Consultation. Call CredSettle to discuss your ${bankName} card debt. Step 2. Document Review. Send your card statements and hardship proof. Step 3. Harassment Protection. Our legal team sends notices to stop collection calls. Step 4. Bank Negotiation. We talk directly to ${bankName} for the best waiver. Step 5. Payment and Closure. You pay the settlement amount and get your NOC.`,
-    documentsRequired: generatedContent?.documentsRequired || `You need a few basic documents for ${bankName} card settlement. 1. Recent credit card statements. 2. PAN card and Aadhaar card. 3. Proof of income or bank statements. 4. Proof of financial hardship, like medical bills or job loss letters. 5. Any notices sent by ${bankName}. Our team helps you organize all documents quickly.`,
+    whyChooseSettlement: generatedContent?.whyChooseSettlement || `Credit card debt can grow very fast. High interest rates make it hard to pay off. When ${shortName} card bills pile up, debt settlement offers a clean way out. CredSettle helps cardholders across India work with ${shortName}. We help cut your total dues by 30% to 70%. You get full legal safety at every step.`,
+    understandingSettlement: generatedContent?.understandingSettlement || `${shortName} credit card settlement follows RBI rules for debt relief. You pay a lower lump sum to close your card account for good. CredSettle starts formal talks with ${shortName}. We show your financial hardship with clear proof. Once approved, you pay the agreed sum. ${shortName} then gives you a No Dues Certificate.`,
+    howCredSettleHelps: generatedContent?.howCredSettleHelps || `CredSettle gives you full legal support for ${shortName} credit card settlement. Our expert lawyer panel reviews your debts. We write and send a strong settlement plan. Our team handles all calls from recovery agents. We help you settle ${shortName} dues for up to 50% of the total amount. You get real debt relief and peace of mind.`,
+    cibilImpact: generatedContent?.cibilImpact || `Settling card debt with ${shortName} will affect your CIBIL score for a short time. Your credit report will show the account as settled. Your score may drop by 50 to 100 points at first. But this is much better than missing payments forever. CredSettle gives you a clear plan to rebuild your credit score. Most clients get back to a 700+ score within 18 to 24 months.`,
+    whyChooseCredSettle: generatedContent?.whyChooseCredSettle || `CredSettle is India's trusted debt resolution service. Our lawyers have settled hundreds of ${shortName} credit card cases. We know bank rules and settlement limits well. We protect you from unfair collection calls. We negotiate the best possible waiver on interest and charges. We handle all paperwork so you can relax.`,
+    stepByStepProcess: generatedContent?.stepByStepProcess || `Step 1: Free Call. Call CredSettle to discuss your ${shortName} card debt.
+Step 2: Paper Review. Send your card bills and hardship proof.
+Step 3: Call Shield. Our legal team sends notices to stop collection calls.
+Step 4: Bank Talks. We talk directly to ${shortName} for the best waiver.
+Step 5: Payment and NOC. You pay the settlement amount and get your NOC.`,
+    documentsRequired: generatedContent?.documentsRequired || `You need a few basic documents for ${shortName} card settlement: 1. Recent credit card statements. 2. PAN card and Aadhaar card. 3. Proof of income or bank statements. 4. Proof of financial hardship, like medical bills or job loss letters. 5. Any notices sent by ${shortName}. Our team helps you organize all documents quickly.`,
     faqs: generatedContent?.faqs || [
       {
-        question: `What is the minimum settlement amount for ${bankName} credit cards?`,
-        answer: `${bankName} credit card settlements usually range from 30% to 60% of total dues. The exact discount depends on how long the account has been overdue. CredSettle works to get you the highest possible discount.`
+        question: `What is the minimum settlement amount for ${shortName} credit cards?`,
+        answer: `${shortName} credit card settlements usually range from 30% to 60% of total dues. The exact discount depends on how long the account has been overdue. CredSettle works to get you the highest possible discount.`
       },
       {
-        question: `Can I settle my credit card dues legally with ${bankName}?`,
-        answer: `Yes. Settling credit card dues is completely legal under RBI rules. CredSettle negotiates a formal One-Time Settlement with ${bankName} for you.`
+        question: `Can I settle my credit card dues legally with ${shortName}?`,
+        answer: `Yes. Settling credit card dues is completely legal under RBI rules. CredSettle negotiates a formal One-Time Settlement with ${shortName} for you.`
       },
       {
-        question: `How long does the credit card settlement process take with ${bankName}?`,
-        answer: `Most ${bankName} card settlements take 30 to 60 days. Our legal team speeds up the process by submitting complete paperwork early.`
+        question: `How long does the credit card settlement process take with ${shortName}?`,
+        answer: `Most ${shortName} card settlements take 30 to 60 days. Our legal team speeds up the process by submitting complete paperwork early.`
       },
       {
-        question: `Will my CIBIL score recover after settling my ${bankName} credit card?`,
+        question: `Will my CIBIL score recover after settling my ${shortName} credit card?`,
         answer: `Yes. Your score will drop initially, but it recovers over time. By following CredSettle’s credit rebuilding tips, you can reach 700+ within two years.`
       },
       {
-        question: `How can CredSettle help me get a better deal with ${bankName}?`,
-        answer: `CredSettle knows ${bankName} settlement policies inside out. We use legal notices and strong hardship evidence to secure maximum interest waivers for you.`
+        question: `How can CredSettle help me get a better deal with ${shortName}?`,
+        answer: `CredSettle knows ${shortName} settlement policies inside out. We use legal notices and strong hardship evidence to secure maximum interest waivers for you.`
       }
     ],
     keywords: generateKeywords(bankName)

@@ -1573,6 +1573,16 @@ const nextConfig: NextConfig = {
         destination: "/services/nbfc-loan-settlement/banks/north-east-small-finance-bank",
         permanent: true,
       },
+      {
+        source: "/credit-card-settlement/north-east-small-finance-bank-ltd",
+        destination: "/credit-card-settlement/north-east-small-finance-bank",
+        permanent: true,
+      },
+      {
+        source: "/credit-card-settlement/north-east-small-finance",
+        destination: "/credit-card-settlement/north-east-small-finance-bank",
+        permanent: true,
+      },
     ];
   },
   async headers() {

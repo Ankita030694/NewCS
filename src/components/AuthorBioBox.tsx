@@ -34,7 +34,7 @@ export default function AuthorBioBox({ className = "" }: AuthorBioBoxProps) {
           Legal &amp; Debt Resolution Professional | CredSettle
         </p>
         <p className="text-gray-700 text-xs md:text-sm leading-relaxed">
-          Ashish Jhangra is an experienced legal and debt resolution professional specializing in RBI compromise settlement frameworks, banking dispute resolution, and borrower protection. He advises clients navigating complex NPA negotiations, recovery harassment defense, and statutory dispute mechanisms under Indian financial regulations.
+          Ashish Jhangra is an experienced legal and debt resolution expert. He focuses on RBI loan settlement rules, bank disputes, and borrower rights. He guides borrowers through bank talks, stops recovery agent calls, and protects legal rights under Indian law.
         </p>
         <div className="flex flex-wrap gap-4 pt-1 text-xs font-bold">
           <a

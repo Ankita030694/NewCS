@@ -188,7 +188,7 @@ export function getBankContentWithFallback(bankSlug: string): BankContent {
   const shortName = getShortBankName(bankName);
   const slug = bankSlug;
 
-  // Default/fallback content structure
+  // Default/fallback content structure with high readability
   const defaultContent: BankContent = {
     bankName,
     slug,
@@ -197,33 +197,37 @@ export function getBankContentWithFallback(bankSlug: string): BankContent {
     metaDescription: generatedContent?.metaDescription || getNbfcBankMetaDesc(shortName, bankName),
     heroTitle: getBankH1Title(bankName, 'NBFC Loan Settlement'),
     heroDescription: `Get legal help to settle your ${shortName} NBFC loan dues. We use RBI One-Time Settlement rules. Stop recovery calls and become debt-free today.`,
-    whyChooseSettlement: generatedContent?.whyChooseSettlement || `NBFC loan debt can become hard to manage when EMIs get too high. When ${bankName} loan dues pile up, settlement offers a clean exit. CredSettle helps borrowers across India negotiate with ${bankName}. We help reduce your total dues by 30% to 70%. You get full legal safety at every step.`,
-    understandingSettlement: generatedContent?.understandingSettlement || `${bankName} loan settlement follows RBI One-Time Settlement rules. You pay a reduced lump sum to close your loan account permanently. CredSettle starts formal talks with ${bankName}. We present your financial hardship with clear proof. Once approved, you pay the agreed sum. ${bankName} then gives you a no dues certificate.`,
-    howCredSettleHelps: generatedContent?.howCredSettleHelps || `CredSettle gives you full legal support for ${bankName} loan settlement. Our expert lawyer panel reviews your debts. We write and send a strong settlement plan. Our team handles all calls from recovery agents. We help you settle ${bankName} dues for up to 50% of the total amount. You get genuine debt relief and peace of mind.`,
-    cibilImpact: generatedContent?.cibilImpact || `Settling a loan with ${bankName} will affect your CIBIL score. Your credit report will show the account as settled. Your score may drop by 50 to 100 points for a short time. However, this is much better than missing payments forever. CredSettle gives you a clear plan to rebuild your credit score. Most clients get back to a 700+ score within 18 to 24 months.`,
-    whyChooseCredSettle: generatedContent?.whyChooseCredSettle || `CredSettle is India's trusted debt resolution service. Our lawyers have settled hundreds of ${bankName} loan cases. We know lender rules and settlement limits well. We protect you from unfair collection tactics. We negotiate the best possible waiver on interest and charges. We handle all paperwork so you can relax.`,
-    stepByStepProcess: generatedContent?.stepByStepProcess || `Step 1. Free Consultation. Call CredSettle to discuss your ${bankName} loan debt. Step 2. Document Review. Send your loan statements and hardship proof. Step 3. Harassment Protection. Our legal team sends notices to stop collection calls. Step 4. Bank Negotiation. We talk directly to ${bankName} for the best waiver. Step 5. Payment and Closure. You pay the settlement amount and get your NOC.`,
-    documentsRequired: generatedContent?.documentsRequired || `You need a few basic documents for ${bankName} loan settlement. 1. Recent loan statements. 2. PAN card and Aadhaar card. 3. Proof of income or bank statements. 4. Proof of financial hardship, like medical bills or job loss letters. 5. Any notices sent by ${bankName}. Our team helps you organize all documents quickly.`,
+    whyChooseSettlement: generatedContent?.whyChooseSettlement || `NBFC loan debt can become hard to manage when EMIs get too high. When ${shortName} loan dues pile up, debt settlement offers a clean way out. CredSettle helps borrowers across India work with ${shortName}. We help reduce your total dues by 30% to 70%. You get full legal safety at every step.`,
+    understandingSettlement: generatedContent?.understandingSettlement || `${shortName} loan settlement follows RBI One-Time Settlement rules. You pay a lower lump sum to close your loan account for good. CredSettle starts formal talks with ${shortName}. We show your financial hardship with clear proof. Once approved, you pay the agreed sum. ${shortName} then gives you a No Dues Certificate.`,
+    howCredSettleHelps: generatedContent?.howCredSettleHelps || `CredSettle gives you full legal support for ${shortName} loan settlement. Our expert lawyer panel reviews your debts. We write and send a strong settlement plan. Our team handles all calls from recovery agents. We help you settle ${shortName} dues for up to 50% of the total amount. You get real debt relief and peace of mind.`,
+    cibilImpact: generatedContent?.cibilImpact || `Settling a loan with ${shortName} will affect your CIBIL score for a short time. Your credit report will show the account as settled. Your score may drop by 50 to 100 points at first. But this is much better than missing payments forever. CredSettle gives you a clear plan to rebuild your credit score. Most clients get back to a 700+ score within 18 to 24 months.`,
+    whyChooseCredSettle: generatedContent?.whyChooseCredSettle || `CredSettle is India's trusted debt resolution service. Our lawyers have settled hundreds of ${shortName} loan cases. We know lender rules and settlement limits well. We protect you from unfair collection calls. We negotiate the best possible waiver on interest and charges. We handle all paperwork so you can relax.`,
+    stepByStepProcess: generatedContent?.stepByStepProcess || `Step 1: Free Call. Call CredSettle to discuss your ${shortName} loan debt.
+Step 2: Paper Review. Send your loan statements and hardship proof.
+Step 3: Call Shield. Our legal team sends notices to stop collection calls.
+Step 4: Bank Talks. We talk directly to ${shortName} for the best waiver.
+Step 5: Payment and NOC. You pay the settlement amount and get your NOC.`,
+    documentsRequired: generatedContent?.documentsRequired || `You need a few basic documents for ${shortName} loan settlement: 1. Recent loan statements. 2. PAN card and Aadhaar card. 3. Proof of income or bank statements. 4. Proof of financial hardship, like medical bills or job loss letters. 5. Any notices sent by ${shortName}. Our team helps you organize all documents quickly.`,
     faqs: generatedContent?.faqs || [
       {
-        question: `What is the minimum settlement amount for ${bankName} NBFC loans?`,
-        answer: `${bankName} loan settlements usually range from 30% to 60% of total dues. The exact discount depends on how long the account has been overdue. CredSettle works to get you the highest possible discount.`
+        question: `What is the minimum settlement amount for ${shortName} NBFC loans?`,
+        answer: `${shortName} loan settlements usually range from 30% to 60% of total dues. The exact discount depends on how long the account has been overdue. CredSettle works to get you the highest possible discount.`
       },
       {
-        question: `Can I settle my NBFC loan dues legally with ${bankName}?`,
-        answer: `Yes. Settling loan dues is completely legal under RBI rules. CredSettle negotiates a formal One-Time Settlement with ${bankName} for you.`
+        question: `Can I settle my NBFC loan dues legally with ${shortName}?`,
+        answer: `Yes. Settling loan dues is completely legal under RBI rules. CredSettle negotiates a formal One-Time Settlement with ${shortName} for you.`
       },
       {
-        question: `How long does the NBFC loan settlement process take with ${bankName}?`,
-        answer: `Most ${bankName} loan settlements take 30 to 60 days. Our legal team speeds up the process by submitting complete paperwork early.`
+        question: `How long does the NBFC loan settlement process take with ${shortName}?`,
+        answer: `Most ${shortName} loan settlements take 30 to 60 days. Our legal team speeds up the process by submitting complete paperwork early.`
       },
       {
-        question: `Will my CIBIL score recover after settling my ${bankName} loan?`,
+        question: `Will my CIBIL score recover after settling my ${shortName} loan?`,
         answer: `Yes. Your score will drop initially, but it recovers over time. By following CredSettle’s credit rebuilding tips, you can reach 700+ within two years.`
       },
       {
         question: `Do NBFCs settle differently than banks?`,
-        answer: `NBFCs have their own internal policies and approval levels. CredSettle understands how ${bankName} works and negotiates the best terms for you.`
+        answer: `NBFCs have their own internal policies and approval levels. CredSettle understands how ${shortName} works and negotiates the best terms for you.`
       }
     ],
     keywords: generateKeywords(bankName)

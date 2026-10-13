@@ -1,8 +1,8 @@
-import { getShortBankName, getBankH2Title } from '@/lib/seo-utils';
+import { getShortBankName, getBankH2Title, getBankH1Title } from '@/lib/seo-utils';
 // Import comprehensive bank content generator for car loan settlement
 import { generateBankContent, generateBankSlug, getBankMetaTitle, getBankMetaDescription } from './bank-content-generator';
 
-export { getShortBankName, getBankH2Title };
+export { getShortBankName, getBankH2Title, getBankH1Title };
 
 export interface BankContent {
   bankName: string;
@@ -191,7 +191,7 @@ export function getBankContentWithFallback(bankSlug: string): BankContent {
     title: `${shortName} Car Loan Settlement Guide | CredSettle`,
     metaTitle: generatedContent?.metaTitle || getBankMetaTitle(bankName),
     metaDescription: generatedContent?.metaDescription || getBankMetaDescription(bankName),
-    heroTitle: `${shortName} Car Loan Settlement`,
+    heroTitle: getBankH1Title(bankName, 'Car Loan Settlement'),
     heroDescription: `Get legal help to settle your ${shortName} car loan dues under RBI One-Time Settlement rules. Stop calls, save money, and keep your car safe.`,
     whyChooseSettlement: generatedContent?.whyChooseSettlement || `Car loan EMIs can get hard to pay when cash is tight. If you miss EMIs on your ${bankName} loan, late fees add up fast. Recovery calls can also cause daily stress. An RBI One-Time Settlement gives you a clean way out. You can cut total dues by 30% to 60%. This helps you clear the debt for good. It stops calls from agents and keeps your car safe.`,
     understandingSettlement: generatedContent?.understandingSettlement || `A car loan settlement with ${bankName} follows RBI OTS rules. It is a legal way to close your loan with a single reduced payment. CredSettle lawyers review your case. We share proof of your money hardship with the bank. Our team talks to ${bankName} to agree on a fair sum. Once paid, the bank gives you a No Dues Certificate. They also remove the bank claim from your car RC.`,

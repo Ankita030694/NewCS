@@ -142,6 +142,27 @@ export function sanitizeMetaTitle(rawTitle?: string, brand = 'CredSettle'): stri
 
   const lastSpace = s.slice(0, maxContentLen).lastIndexOf(' ');
   const safeBase = lastSpace >= 10 ? s.slice(0, lastSpace).trim() : s.slice(0, maxContentLen).trim();
+
+  // If a service was specified, never strip it completely and leave a bare bank name (which triggers cross-service duplicate titles)
+  if (hasService && !serviceRegex.test(safeBase)) {
+    const serviceMatch = s.match(serviceRegex);
+    const serviceKeyword = serviceMatch ? serviceMatch[0] : 'Loan';
+    const availableForBank = maxContentLen - serviceKeyword.length - 1;
+    if (availableForBank >= 4) {
+      const bankSub = safeBase.slice(0, availableForBank);
+      const bSpace = bankSub.lastIndexOf(' ');
+      const shortBank = (bSpace >= 3 ? bankSub.slice(0, bSpace) : bankSub).replace(/[,;:\-–—|&]+$/, '').trim();
+      const combined = `${shortBank} ${serviceKeyword} | ${brand}`;
+      if (combined.length >= 30 && combined.length <= 58 && getMetaTitlePixelWidth(combined) <= 550) {
+        return combined;
+      }
+      if (combined.length < 30) {
+        const ext = `${shortBank} ${serviceKeyword} Legal Help | ${brand}`;
+        if (ext.length >= 50 && ext.length <= 58 && getMetaTitlePixelWidth(ext) <= 550) return ext;
+      }
+    }
+  }
+
   return `${safeBase} | ${brand}`;
 }
 
@@ -253,11 +274,59 @@ export function getShortBankName(name: string): string {
     'Au Small Fin Bank Ltd': 'AU Small Finance Bank',
     'North East Small Finance': 'North East SFB',
     'North East Small Finance Bank': 'North East SFB',
+    'North East Small Finance Bank Ltd': 'North East SFB',
+    'North East Small Finance Bank Limited': 'North East SFB',
+    'Branch International Financial': 'Branch International',
+    'Branch International Financial Services': 'Branch International',
+    'Branch International Financial Services Pvt Ltd': 'Branch International',
+    'Capital Small Finance Bank Ltd': 'Capital SFB',
+    'Capital Small Finance Bank': 'Capital SFB',
+    'Edelweiss Customised Liquidity': 'Edelweiss Liquidity',
+    'Icici Securities Primary Dealership': 'ICICI Securities',
+    'ICICI Securities Primary Dealership': 'ICICI Securities',
+    'ICICI Securities Primary Dealership Limited': 'ICICI Securities',
+    'ICICI Securities Primary Dealership Ltd': 'ICICI Securities',
+    'Hiranandani Financial Services': 'Hiranandani Fin',
+    'Hiranandani Financial Services Private Limited': 'Hiranandani Fin',
+    'Hiranandani Financial Services Pvt Ltd': 'Hiranandani Fin',
+    'Lendingkart Technologies India': 'Lendingkart',
+    'Lendingkart Technologies India Pvt Ltd': 'Lendingkart',
+    'Loantap Financial Technologies': 'LoanTap',
+    'Loantap Financial Technologies Pvt Ltd': 'LoanTap',
+    'Shivalik Small Finance Bank Ltd': 'Shivalik SFB',
+    'Shivalik Small Finance Bank': 'Shivalik SFB',
+    'Suryoday Small Finance Bank Ltd': 'Suryoday SFB',
+    'Suryoday Small Finance Bank': 'Suryoday SFB',
+    'Ujjivan Small Finance Bank Ltd': 'Ujjivan SFB',
+    'Ujjivan Small Finance Bank': 'Ujjivan SFB',
+    'Utkarsh Small Finance Bank Ltd': 'Utkarsh SFB',
+    'Utkarsh Small Finance Bank': 'Utkarsh SFB',
     'Bank of Baroda': 'Bank of Baroda',
     'Bank of India': 'Bank of India',
     'Bank of Maharashtra': 'Bank of Maharashtra',
     'Central Bank of India': 'Central Bank of India',
-    'Industrial and Commercial Bank of China': 'ICBC',
+    // Corporate & Foreign Banks
+    'Credit Agricole Corporate And Investment Bank': 'Credit Agricole',
+    'Credit Agricole Corporate and Investment Bank': 'Credit Agricole',
+    'Credit Agricole Corporate And Investment': 'Credit Agricole',
+    'Credit Agricole Corporate and Investment': 'Credit Agricole',
+    'Credit Agricole CIB': 'Credit Agricole',
+    'Credit Agricole Bank': 'Credit Agricole',
+    'Credit Agricole': 'Credit Agricole',
+    'Industrial and Commercial Bank of China': 'ICBC Bank',
+    'Industrial And Commercial Bank Of China': 'ICBC Bank',
+    'Industrial & Commercial Bank of China': 'ICBC Bank',
+    'Industrial & Commercial Bank Of China': 'ICBC Bank',
+    'Industrial and Commercial Bank': 'ICBC Bank',
+    'Industrial And Commercial Bank': 'ICBC Bank',
+    'ICBC Bank': 'ICBC Bank',
+    'ICBC': 'ICBC Bank',
+    'Sumitomo Mitsui Banking Corporation': 'SMBC Bank',
+    'Cooperatieve Rabobank U.A.': 'Rabobank',
+    'Cooperatieve Rabobank Ua': 'Rabobank',
+    'Cooperatieve Rabobank': 'Rabobank',
+    'PT Bank Maybank Indonesia': 'Maybank',
+    'American Express Banking Corp': 'American Express',
     'Australia and New Zealand Banking Group': 'ANZ Bank',
     'Australia And New Zealand Banking Group': 'ANZ Bank',
     'Standard Chartered': 'Standard Chartered',
@@ -379,10 +448,28 @@ export function getShortBankName(name: string): string {
     return explicitMap[trimmed];
   }
 
+  // Case-insensitive lookup in explicitMap
+  const lowerTrimmed = trimmed.toLowerCase();
+  for (const [k, v] of Object.entries(explicitMap)) {
+    if (k.toLowerCase() === lowerTrimmed) {
+      return v;
+    }
+  }
+
   let s = trimmed
     .replace(/\bBankbazaar\b/gi, 'BankBazaar')
     .replace(/\bMymoneymantra\b/gi, 'MyMoneyMantra')
+    .replace(/Corporate (And|&) Investment Bank/gi, '')
+    .replace(/Corporate (And|&) Investment/gi, '')
+    .replace(/Banking Corporation/gi, 'Bank')
     .replace(/Technologies India Pvt Ltd/gi, 'Tech')
+    .replace(/Technologies India/gi, 'Tech')
+    .replace(/Small Finance Bank(\s+Ltd)?/gi, 'SFB')
+    .replace(/Securities Primary Dealership/gi, 'Securities')
+    .replace(/Financial Technologies/gi, 'Tech')
+    .replace(/Customised Liquidity/gi, 'Liquidity')
+    .replace(/Primary Dealership/gi, '')
+    .replace(/International Financial(\s+Services)?/gi, 'International')
     .replace(/Whizdm Innovations Pvt Ltd/gi, '')
     .replace(/Maybright Ventures Pvt Ltd/gi, '')
     .replace(/Private Limited/gi, 'Pvt Ltd')
@@ -454,19 +541,61 @@ export function getBankH1Title(bankName: string, serviceTitle: string): string {
 }
 
 /**
- * Generates an H2 heading strictly <= 65 characters for bank service pages.
- * Screaming Frog flags H2 > 70 characters. This function ensures headings never exceed 65 characters.
+ * Helper to extract service keyword variations to ensure H2 headings are service-specific
+ * and never create cross-service duplicates for the same bank entity.
+ */
+function getServiceH2Keywords(serviceTitle: string): { full: string; short: string; debt: string } {
+  const s = (serviceTitle || '').trim();
+  if (/business/i.test(s)) {
+    return { full: 'Business Loan Settlement', short: 'Business Loan', debt: 'Business Debt' };
+  }
+  if (/personal/i.test(s)) {
+    return { full: 'Personal Loan Settlement', short: 'Personal Loan', debt: 'Personal Debt' };
+  }
+  if (/credit\s*card|card/i.test(s)) {
+    return { full: 'Credit Card Settlement', short: 'Credit Card', debt: 'Card Debt' };
+  }
+  if (/app\s*loan/i.test(s)) {
+    return { full: 'App Loan Settlement', short: 'App Loan', debt: 'App Debt' };
+  }
+  if (/car\s*loan/i.test(s)) {
+    return { full: 'Car Loan Settlement', short: 'Car Loan', debt: 'Car Debt' };
+  }
+  if (/nbfc/i.test(s)) {
+    return { full: 'NBFC Loan Settlement', short: 'NBFC Loan', debt: 'NBFC Debt' };
+  }
+  const clean = s.replace(/\s+Settlement$/i, '').trim() || 'Loan';
+  return {
+    full: s || 'Loan Settlement',
+    short: clean,
+    debt: `${clean} Debt`
+  };
+}
+
+/**
+ * Generates an H2 heading strictly between 30 and 65 characters (never > 65, never > 70) for bank service pages.
+ * Screaming Frog flags H2 > 70 characters and duplicate H2 tags.
+ * This function preserves the specific service keyword across all rungs and fallbacks,
+ * strictly preventing cross-service duplicate H2 collisions on pages sharing the same bank name.
  */
 export function getBankH2Title(bankName: string, serviceTitle: string): string {
   const shortBank = getShortBankName(bankName);
+  const svc = getServiceH2Keywords(serviceTitle);
+
   const candidates = [
-    `Why Choose ${shortBank} ${serviceTitle}`,
-    `Why Settle ${shortBank} ${serviceTitle}`,
-    `Why Settle Debt with ${shortBank}`,
-    `Settle ${shortBank} ${serviceTitle} Dues`,
-    `Settling Your ${shortBank} ${serviceTitle}`,
-    `Why Settle Your ${shortBank} Loan Dues`,
+    `Why Choose ${shortBank} ${svc.full}`,
+    `Why Settle ${shortBank} ${svc.full}`,
+    `Why Settle ${shortBank} ${svc.short} Dues`,
+    `Why Settle ${shortBank} ${svc.debt}`,
+    `Why Choose ${shortBank} ${svc.short} Relief`,
+    `Settle ${shortBank} ${svc.short} Dues Legally`,
+    `Why Settle Your ${shortBank} ${svc.short}`,
+    `Settling Your ${shortBank} ${svc.short} Dues`,
+    `Why Choose Settlement for ${shortBank} ${svc.short}`,
+    `Settle ${shortBank} ${svc.short} Dues`,
+    `Why Settle ${shortBank} ${svc.short}`,
   ];
+
   for (const cand of candidates) {
     if (cand.length >= 30 && cand.length <= 65) return cand;
   }
@@ -474,13 +603,26 @@ export function getBankH2Title(bankName: string, serviceTitle: string): string {
     if (cand.length >= 30 && cand.length <= 70) return cand;
   }
 
-  const maxBankLen = 65 - 'Why Choose  '.length - serviceTitle.length;
-  const sub = shortBank.slice(0, Math.max(10, maxBankLen));
+  // Fallback for extremely long bank names: truncate bank name at word boundary to fit with svc.short
+  const maxBankLen = 65 - 'Why Settle  '.length - svc.short.length;
+  const sub = shortBank.slice(0, Math.max(8, maxBankLen));
   const lastSpace = sub.lastIndexOf(' ');
-  const cleanBank = (lastSpace >= 8 ? sub.slice(0, lastSpace) : sub).replace(/[-–—,&]+$/, '').trim();
-  const fallback = `Why Choose ${cleanBank} ${serviceTitle}`;
-  if (fallback.length <= 70) return fallback;
-  return `Why Choose Settlement for ${cleanBank}`;
+  const cleanBank = (lastSpace >= 5 ? sub.slice(0, lastSpace) : sub).replace(/[-–—,&]+$/, '').trim();
+
+  const fallbacks = [
+    `Why Settle ${cleanBank} ${svc.short} Dues`,
+    `Why Settle ${cleanBank} ${svc.short}`,
+    `Settle ${cleanBank} ${svc.short} Dues`,
+    `Why Settle ${cleanBank} ${svc.debt}`,
+    `${cleanBank} ${svc.short} Settlement`
+  ];
+  for (const fb of fallbacks) {
+    if (fb.length >= 30 && fb.length <= 65) return fb;
+  }
+  for (const fb of fallbacks) {
+    if (fb.length >= 25 && fb.length <= 70) return fb;
+  }
+  return `Why Settle ${cleanBank} ${svc.short}`;
 }
 
 /**

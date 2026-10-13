@@ -1,8 +1,8 @@
 // Import comprehensive bank content generator for app loan settlement
 import { generateBankContent, generateBankSlug, getBankMetaTitle } from './bank-content-generator';
-import { getShortBankName, getBankH2Title, getMetaDescPixelWidth } from '@/lib/seo-utils';
+import { getShortBankName, getBankH2Title, getBankH1Title, getMetaDescPixelWidth } from '@/lib/seo-utils';
 
-export { getShortBankName, getBankH2Title };
+export { getShortBankName, getBankH2Title, getBankH1Title };
 
 export interface BankContent {
   bankName: string;
@@ -181,7 +181,7 @@ export function getBankContentWithFallback(bankSlug: string): BankContent {
     title: `${shortName} App Loan Settlement Guide | CredSettle`,
     metaTitle: generatedContent?.metaTitle || getBankMetaTitle(bankName),
     metaDescription: generatedContent?.metaDescription || getAppLoanBankMetaDesc(shortName, bankName),
-    heroTitle: `${shortName} App Loan Settlement`,
+    heroTitle: getBankH1Title(bankName, 'App Loan Settlement'),
     heroDescription: `Get expert legal help to clear your ${shortName} app loan dues. Settle debt under RBI rules. Stop agent calls, protect your privacy, and live debt free with CredSettle.`,
     whyChooseSettlement: generatedContent?.whyChooseSettlement || `App loan debt can grow fast due to high daily interest rates. If you fall behind on your ${bankName} loan, extra fees add up quickly. Collection agents often call many times a day. An RBI One-Time Settlement (OTS) gives you a legal way out. CredSettle steps in to talk with ${bankName}. We help reduce your total dues by 30% to 70%. We stop harassment calls right away and close your account for good.`,
     understandingSettlement: generatedContent?.understandingSettlement || `Settling an app loan with ${bankName} is fully legal under RBI rules. You pay a lower one-time amount to clear your dues for good. CredSettle lawyers submit your case directly to ${bankName}. We present clear proof of your financial hardship. The lender reviews the file and approves a large waiver on the total balance. Once you pay, ${bankName} gives you an official No Dues Certificate.`,
