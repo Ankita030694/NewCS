@@ -18,7 +18,7 @@ export default function AppLoanSettlementPage() {
         },
         {
             question: 'Is a legal One-Time Settlement possible with app lenders?',
-            answer: 'Yes. Many digital lenders operate under NBFC licenses. We negotiate documented settlements aligned with their policies and ensure you receive formal closure.'
+            answer: 'Yes. Many digital lenders operate under NBFC licenses. We negotiate documented settlements aligned with their policies and make sure you receive formal closure.'
         },
         {
             question: 'Will my contacts and personal data stay protected?',
@@ -26,7 +26,7 @@ export default function AppLoanSettlementPage() {
         },
         {
             question: 'What paperwork will I receive after settlement?',
-            answer: 'You get the settlement confirmation, payment acknowledgments, and a no-dues certificate. We verify credit bureau updates so the account reflects as settled.'
+            answer: 'You get the settlement proof, payment acknowledgments, and a no-dues certificate. We verify credit bureau updates so the account reflects as settled.'
         },
         {
             question: 'Does settling an app loan hurt my credit for years?',
@@ -56,7 +56,7 @@ export default function AppLoanSettlementPage() {
                 We intervene immediately against illegal recovery tactics and secure an RBI-compliant settlement. App loan settlement is a legitimate debt resolution process in India that helps borrowers resolve outstanding app-based loan debt through legal settlement solutions.
               </p>
               <p className="text-xs md:text-sm lg:text-[14px] leading-relaxed" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '28px', marginBottom: '12px' }}>
-                At CredSettle, our expert legal team specializes in app loan settlement services, working directly with app-based lenders and NBFCs to negotiate reduced payoff amounts for app loans. Our debt settlement company ensures all app loan settlements follow RBI guidelines and Indian banking regulations, providing complete legal protection.
+                At CredSettle, our expert legal team specializes in app loan settlement services, working directly with app-based lenders and NBFCs to negotiate reduced payoff amounts for app loans. Our debt settlement company makes sure all app loan settlements follow RBI guidelines and Indian banking regulations, providing complete legal protection.
               </p>
               <a href="/contact" className='cursor-pointer' style={{ textDecoration: 'none', cursor: 'pointer' }}>    
               <button className="text-white text-sm md:text-base lg:text-[18.58px] px-6 md:px-8 lg:px-[39.44px] py-2 md:py-3 lg:py-[13.48px] cursor-pointer" style={{ borderRadius: '32.4px', background: '#007AFF', boxShadow: '0 0.9px 6.12px 0 rgba(0, 0, 0, 0.35), 0 -3.6px 3.6px 0 rgba(255, 255, 255, 0.25) inset, 0 3.6px 3.6px 0 rgba(255, 255, 255, 0.25) inset' }}>
@@ -196,7 +196,7 @@ export default function AppLoanSettlementPage() {
             lineHeight: '28px',
             marginBottom: '16px'
         }}>
-                App loan settlement is a legally recognized debt resolution mechanism specifically designed for loans obtained through. <strong>digital lending platforms.</strong> and instant loan applications. Unlike traditional bank loans that involve physical paperwork and branch visits, app-based loans are released entirely through mobile applications-often within minutes of application. This digital-first nature creates unique challenges that make app loan settlement fundamentally different from settling bank personal loans or credit cards.
+                App loan settlement is a legally recognized debt resolution method specifically designed for loans obtained through. <strong>digital lending platforms.</strong> and instant loan applications. Unlike traditional bank loans that involve physical paperwork and branch visits, app-based loans are released entirely through mobile applications-often within minutes of application. This digital-first nature creates unique challenges that make app loan settlement fundamentally different from settling bank personal loans or credit cards.
               </p>
               <p style={{
             color: 'rgba(12, 39, 86, 0.80)',
@@ -214,7 +214,7 @@ export default function AppLoanSettlementPage() {
             lineHeight: '28px',
             marginBottom: '0'
         }}>
-                At CredSettle, we specialize in app loan settlement cases where borrowers face. <strong>privacy violations, harassment through contact lists, and abusive recovery practices.</strong>. Our legal team ensures all settlements comply with the RBI’s Digital Lending Guidelines (issued September 2022), which mandate transparency in interest rates, prohibit unregulated third-party data access. Protect borrowers from predatory lending practices.
+                At CredSettle, we specialize in app loan settlement cases where borrowers face. <strong>privacy violations, harassment through contact lists, and abusive recovery practices.</strong>. Our legal team makes sure all settlements comply with the RBI’s Digital Lending Guidelines (issued September 2022), which mandate clarity in interest rates, prohibit unregulated third-party data access. Protect borrowers from predatory lending practices.
               </p>
             </div>
 
@@ -246,7 +246,7 @@ export default function AppLoanSettlementPage() {
             lineHeight: '28px',
             marginBottom: '16px'
         }}>
-                For regulated app lenders, CredSettle initiates. <strong>strategic paperwork review.</strong>. We analyze your loan agreement for compliance with the Key Fact Statement (KFS) mandate-a requirement under RBI digital lending norms. The KFS must disclose: all-in-cost (Annual Percentage Rate including processing fees, GST, insurance), exact repayment schedule, cooling-off period details. Grievance redressal mechanism. If your lender failed to provide a compliant KFS before disbursement, it strengthens our negotiation leverage greatly.
+                For regulated app lenders, CredSettle initiates. <strong>strategic paperwork review.</strong>. We analyze your loan agreement for compliance with the Key Fact Statement (KFS) mandate-a requirement under RBI digital lending norms. The KFS must disclose: all-in-cost (Annual Percentage Rate including processing fees, GST, insurance), exact repayment schedule, cooling-off period details. Grievance redressal method. If your lender failed to provide a compliant KFS before disbursement, it strengthens our negotiation leverage greatly.
               </p>
               <p style={{
             color: 'rgba(12, 39, 86, 0.80)',
@@ -255,7 +255,7 @@ export default function AppLoanSettlementPage() {
             lineHeight: '28px',
             marginBottom: '16px'
         }}>
-                Our legal experts then engage with the lender’s designated settlement desk or collections department. We present a comprehensive settlement proposal backed by your financial hardship paperwork-bank statements showing income disruption, medical bills. Unemployment proof. Because app lenders prioritize quick portfolio turnarounds and have higher operational costs for prolonged recovery, they’re often more amenable to settlements ranging from. <strong>30-70% of the outstanding principal.</strong>.
+                Our legal experts then engage with the lender’s designated settlement desk or collections department. We present a complete settlement offer backed by your hardship paperwork-bank statements showing income disruption, medical bills. Unemployment proof. Because app lenders prioritize quick portfolio turnarounds and have higher operational costs for prolonged recovery, they’re often more amenable to settlements ranging from. <strong>30-70% of the outstanding principal.</strong>.
               </p>
               <p style={{
             color: 'rgba(12, 39, 86, 0.80)',
@@ -264,7 +264,7 @@ export default function AppLoanSettlementPage() {
             lineHeight: '28px',
             marginBottom: '0'
         }}>
-                Once settlement terms are agreed, we ensure you receive a formal settlement letter on the lender’s letterhead with authorized digital signature or physical stamp. This letter must explicitly state: the original outstanding amount, the agreed settlement amount, payment deadline, confirmation that all dues will be considered "settled" upon payment. Commitment to issue a No Objection Certificate (NOC). Payment is always routed through official channels-NEFT/RTGS to the lender’s registered business account-never to personal accounts or third-party recovery agents.
+                Once settlement terms are agreed, we make sure you receive a formal settlement letter on the lender’s letterhead with authorized digital signature or physical stamp. This letter must explicitly state: the original outstanding amount, the agreed settlement amount, payment deadline, proof that all dues will be considered "settled" upon payment. Commitment to issue a No Objection Certificate (NOC). Payment is always routed through official channels-NEFT/RTGS to the lender’s registered business account-never to personal accounts or third-party recovery agents.
               </p>
             </div>
 
@@ -309,7 +309,7 @@ export default function AppLoanSettlementPage() {
             lineHeight: '26px',
             marginBottom: '0'
         }}>
-                <strong>CredSettle’s intervention:</strong> We immediately issue legal notices citing violations of RBI/2022-23/111 DOR.STR.REC.51/21.04.048/2022-23 (Digital Lending Guidelines) and file formal complaints with the Digital Lending Working Group. For illegal apps, we coordinate with the Cyber Crime Cell for app deactivation and pursue criminal proceedings under IT Act 2000 for data misuse.
+                <strong>CredSettle’s intervention:</strong> We immediately issue legal notices citing violations of RBI/2022-23/111 DOR.STR.REC.51/21.04.048/2022-23 (Digital Lending Guidelines) and file formal complaints with the Digital Lending Working Group. For illegal apps, we coordinate with the Cyber Crime Cell for app deactivation and pursue criminal actions under IT Act 2000 for data misuse.
               </p>
             </div>
 
@@ -332,7 +332,7 @@ export default function AppLoanSettlementPage() {
             lineHeight: '28px',
             marginBottom: '16px'
         }}>
-                The Reserve Bank of India issued comprehensive digital lending regulations in September 2022 to protect borrowers from predatory app-based lending practices. Understanding these guidelines is critical for app loan settlement because they define what lenders can and cannot do during recovery processes.
+                The Reserve Bank of India issued complete digital lending regulations in September 2022 to protect borrowers from predatory app-based lending practices. Understanding these guidelines is critical for app loan settlement because they define what lenders can and cannot do during recovery processes.
               </p>
               <p style={{
             color: 'rgba(12, 39, 86, 0.80)',
@@ -409,7 +409,7 @@ export default function AppLoanSettlementPage() {
             lineHeight: '28px',
             marginBottom: '16px'
         }}>
-                <strong>Data Privacy Protection and Deletion:</strong> Beyond settlement, CredSettle ensures your personal data is permanently deleted from the lender’s systems. Under the Digital Personal Data Protection Act 2023 (DPDP Act), you have the "Right to Erasure"-meaning lenders must delete your contact list, photos, SMS history. Location data once the loan relationship ends. We obtain written confirmation of data deletion and server-level erasure certificates, preventing future misuse.
+                <strong>Data Privacy Protection and Deletion:</strong> Beyond settlement, CredSettle makes sure your personal data is permanently deleted from the lender’s systems. Under the Digital Personal Data Protection Act 2023 (DPDP Act), you have the "Right to Erasure"-meaning lenders must delete your contact list, photos, SMS history. Location data once the loan relationship ends. We obtain written proof of data deletion and server-level erasure certificates, preventing future misuse.
               </p>
               <p style={{
             color: 'rgba(12, 39, 86, 0.80)',
@@ -428,7 +428,7 @@ export default function AppLoanSettlementPage() {
         <section className="w-full mx-auto px-4 md:px-6 lg:px-5" style={{ maxWidth: '1280px', marginTop: '48px', marginBottom: '28.8px' }}>
           <div className="w-full flex flex-col items-center text-center" style={{ gap: '9.6px', marginBottom: '19.2px' }}>
             <h2 className="text-2xl md:text-3xl lg:text-[32px] leading-tight" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 700, lineHeight: '36px' }}>Why Choose CredSettle for App Loan Settlement</h2>
-            <p className="text-xs md:text-sm lg:text-[14px]" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '20px' }}>Six core benefits that ensure a protected, successful, and final settlement.</p>
+            <p className="text-xs md:text-sm lg:text-[14px]" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '20px' }}>Six core benefits that make sure a protected, successful, and final settlement.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10" style={{ gap: '19.2px' }}>
             {['Specialized Expertise', 'End-to-End Protection', 'Client-Focused Dignity', 'Proven Track Record', 'Strategic Negotiation', 'Swift & Final Resolution'].map((t, i) => (<div key={i} className="p-6 md:p-8 lg:p-[48.8px]" style={{ borderRadius: '40px', background: 'linear-gradient(228deg, rgba(12, 39, 86, 0.00) 4.05%, rgba(0, 178, 241, 0.12) 49.48%, rgba(239, 247, 255, 0.49) 94.92%)', boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10), 4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)', backdropFilter: 'blur(12.35px)' }}>
@@ -443,7 +443,7 @@ export default function AppLoanSettlementPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-stretch">
             <div className="relative">
             <h2 className="text-xl md:text-2xl lg:text-[32px] leading-tight text-center" style={{ color: '#0C2756', fontFamily: 'Poppins', fontWeight: 700, lineHeight: '36px' }}>Our Track Record in App Loan Settlement</h2>
-            <p className="text-xs md:text-sm lg:text-[14px] text-center" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '20px' }}>Six benefits that ensure protection and final settlement.</p>
+            <p className="text-xs md:text-sm lg:text-[14px] text-center" style={{ color: 'rgba(12, 39, 86, 0.70)', fontFamily: 'Poppins', lineHeight: '20px' }}>Six benefits that make sure protection and final settlement.</p>
               <div aria-hidden className="w-[180px] h-[180px] lg:w-[260px] lg:h-[260px]" style={{ position: 'absolute', left: '50%', top: '62%', transform: 'translate(-50%, -50%)', borderRadius: '9999px', background: 'radial-gradient(closest-side, rgba(0,122,255,0.30), rgba(0,122,255,0.16) 55%, rgba(0,122,255,0.0) 80%)', filter: 'blur(4px)', pointerEvents: 'none', zIndex: 0 }}/>
               <div className="grid grid-cols-2 gap-4 relative z-10">
                 {['5,500+', '4.8/5', '₹ 195 Crores+', '100%'].map((stat, idx) => (<div key={idx} className="px-4 md:px-5 lg:px-[22px] py-6 md:py-8 lg:py-12" style={{ borderRadius: '40px', background: 'rgba(239, 247, 255, 0.30)', boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)' }}>

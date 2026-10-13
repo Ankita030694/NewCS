@@ -27,11 +27,11 @@ export default function ServicesPageClient() {
         },
         {
             question: "How much can I save through debt settlement?",
-            answer: "Savings vary by case, but clients typically save 30-60% of their total debt amount. We negotiate aggressively to maximize your savings while ensuring legal compliance."
+            answer: "Savings vary by case, but clients typically save 30-60% of their total debt amount. We negotiate aggressively to boost your savings while making sure legal compliance."
         },
         {
             question: "Is debt settlement legal in India?",
-            answer: "Yes, debt settlement is completely legal in India. We follow RBI guidelines and ensure all settlements are compliant with Indian banking regulations."
+            answer: "Yes, debt settlement is completely legal in India. We follow RBI guidelines and make sure all settlements are compliant with Indian banking regulations."
         },
         {
             question: "What if recovery agents continue harassment?",
@@ -115,7 +115,7 @@ export default function ServicesPageClient() {
                       Are you facing constant calls, threats, or home visits from loan recovery agents? At CredSettle, we provide India’s leading Anti-Harassment Services designed to legally stop recovery agent harassment and protect your peace of mind.
                     </p>
                     <p className="text-left text-sm" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.6' }}>
-                      Our legal experts ensure that lenders and agents follow RBI recovery guidelines while helping you settle your loan safely and ethically.
+                      Our legal experts make sure that lenders and agents follow RBI recovery guidelines while helping you settle your loan safely and ethically.
                     </p>
                   </div>
                   
@@ -247,7 +247,7 @@ export default function ServicesPageClient() {
         }}>
                         Are you facing constant calls, threats, or home visits from loan recovery agents? At CredSettle, we provide India’s leading Anti-Harassment Services designed to legally stop recovery agent harassment and protect your peace of mind.
                         <br /><br />
-                        Our legal experts ensure that lenders and agents follow RBI recovery guidelines while helping you settle your loan safely and ethically.
+                        Our legal experts make sure that lenders and agents follow RBI recovery guidelines while helping you settle your loan safely and ethically.
                       </p>
                     </div>
 

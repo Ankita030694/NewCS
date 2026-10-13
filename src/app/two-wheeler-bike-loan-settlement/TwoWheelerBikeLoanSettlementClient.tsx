@@ -101,7 +101,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
           </h1>
 
           <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed">
-            Facing motorcycle loan default, aggressive field agent visits, or illegal street repossession? Learn your statutory rights under Supreme Court rulings, RBI recovery guidelines. How to negotiate a 40% to 55% One-Time Settlement with an authentic No Dues Certificate.
+            Facing motorcycle loan default, aggressive field agent visits, or illegal street seizure? Learn your legal rights under Supreme Court rulings, RBI recovery guidelines. How to negotiate a 40% to 55% One-Time Settlement with an authentic No Dues Certificate.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -166,7 +166,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
                   <div>
-                    <strong className="text-slate-900 font-bold">Supreme Court Precedent:</strong> Supreme Court strictly banned musclemen repossession on public roads in. <em>ICICI Bank v. Prakash Kaur.</em>.
+                    <strong className="text-slate-900 font-bold">Supreme Court Precedent:</strong> Supreme Court strictly banned musclemen seizure on public roads in. <em>ICICI Bank v. Prakash Kaur.</em>.
                   </div>
                 </li>
 
@@ -180,7 +180,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
                   <div>
-                    <strong className="text-slate-900 font-bold">Mandatory Cure Notice:</strong> Lenders must serve a 15 to 30 day demand cure notice before initiating recovery action.
+                    <strong className="text-slate-900 font-bold">Mandatory Cure Notice:</strong> Lenders must serve a 15 to 30 day demand cure notice before starting recovery action.
                   </div>
                 </li>
 
@@ -194,14 +194,14 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
                   <div>
-                    <strong className="text-slate-900 font-bold">Penal Fee Waivers:</strong> Compounding late fees and bounce penalties are completely eliminated during compromise negotiations.
+                    <strong className="text-slate-900 font-bold">Penal Fee Waivers:</strong> Compounding late fees and bounce penalties are completely eliminated during settlement negotiations.
                   </div>
                 </li>
 
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
                   <div>
-                    <strong className="text-slate-900 font-bold">Valuation Safeguards:</strong> Financiers cannot auction vehicles without serving a pre-sale notice and certified valuation.
+                    <strong className="text-slate-900 font-bold">Valuation Safeguards:</strong> lenders cannot auction vehicles without serving a pre-sale notice and certified valuation.
                   </div>
                 </li>
 
@@ -232,11 +232,11 @@ export default function TwoWheelerBikeLoanSettlementClient() {
               </h2>
               
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Two-wheeler loans constitute one of India&apos;s largest retail credit segments, financed by non-banking financial companies (NBFCs) and private banks for salaried commuters and gig delivery riders. These loans operate under hypothecation agreements executed under the Indian Contract Act, 1872 and registered on Registration Certificates under Section 51 of the Motor Vehicles Act, 1988. While the financier maintains a hypothecation charge, legal ownership resides entirely with the borrower. Motorcycles and scooters are rapidly depreciating assets whose real-world resale value deteriorates swiftly every quarter.
+                Two-wheeler loans constitute one of India&apos;s largest retail credit segments, financed by non-banking financial companies (NBFCs) and private banks for salaried commuters and gig delivery riders. These loans operate under loan lien agreements executed under the Indian Contract Act, 1872 and registered on Registration Certificates under Section 51 of the Motor Vehicles Act, 1988. While the lender maintains a loan lien charge, legal ownership resides entirely with the borrower. Motorcycles and scooters are rapidly depreciating assets whose real-world resale value deteriorates swiftly every quarter.
               </p>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When installments default due to genuine hardship, accounts transition through Special Mention Account stages: SMA-0 (1 to 30 days), SMA-1 (31 to 60 days). SMA-2 (61 to 90 days). Beyond 90 days, the loan becomes a Non-Performing Asset (NPA). Under RBI prudential norms, lenders must set aside heavy capital provisioning against NPAs. Because physical repossession involves steep towing fees, yard storage costs. Distress auction haircuts yielding barely thirty percent of loan value, lenders have powerful commercial incentives to execute One-Time Settlements (OTS) to recover core principal funds.
+                When installments default due to genuine hardship, accounts transition through Special Mention Account stages: SMA-0 (1 to 30 days), SMA-1 (31 to 60 days). SMA-2 (61 to 90 days). Beyond 90 days, the loan becomes a Non-Performing Asset (NPA). Under RBI prudential norms, lenders must set aside heavy capital provisioning against NPAs. Because physical seizure involves steep towing fees, yard storage costs. Distress auction haircuts yielding barely thirty percent of loan value, lenders have powerful commercial incentives to execute One-Time Settlements (OTS) to recover core principal funds.
               </p>
             </section>
 
@@ -323,7 +323,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                 </div>
 
                 <p className="text-[11px] text-slate-600 leading-relaxed">
-                  Upon electronic payment of the agreed ₹42,450 directly to the loan account, the lender issues a Settlement Sanction Letter, No Dues Certificate. RTO Form 35 to release hypothecation.
+                  Upon electronic payment of the agreed ₹42,450 directly to the loan account, the lender issues a Settlement Sanction Letter, No Dues Certificate. RTO Form 35 to release loan lien.
                 </p>
               </div>
             </section>
@@ -412,11 +412,11 @@ export default function TwoWheelerBikeLoanSettlementClient() {
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Credit bureaus such as TransUnion CIBIL, Experian, Equifax. CRIF High Mark evaluate scores across five core parameters: Repayment History (35%), Credit use (30%), Credit History Length (15%), Credit Mix (10%). Recent Credit Inquiries (10%). Because two-wheeler loans represent monthly installment dues, defaults severely damage the thirty-five percent repayment history weight, causing consecutive 30 to 120+ DPD notations and depressing scores by 70 to 130 points.
+                Credit bureaus such as TransUnion CIBIL, Experian, Equifax. CRIF High Mark review scores across five core parameters: Repayment History (35%), Credit use (30%), Credit History Length (15%), Credit Mix (10%). Recent Credit Inquiries (10%). Because two-wheeler loans represent monthly installment dues, defaults severely damage the thirty-five percent repayment history weight, causing consecutive 30 to 120+ DPD notations and depressing scores by 70 to 130 points.
               </p>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Executing an official One-Time Settlement halts ongoing monthly default reporting. Upon receiving settlement remittance, the lender updates bureau records to &quot;Settled&quot; with zero balance. While reflecting a compromise, it terminates negative reporting cycles. Borrowers can then rebuild their score above 750 within twelve to eighteen months using secured credit cards, disciplined low use. Timely payments under Section 21 CICRA 2005 rights.
+                Executing an official One-Time Settlement halts ongoing monthly default reporting. Upon receiving settlement payment, the lender updates bureau records to &quot;Settled&quot; with zero balance. While reflecting a settlement, it terminates negative reporting cycles. Borrowers can then rebuild their score above 750 within twelve to eighteen months using secured credit cards, disciplined low use. Timely payments under Section 21 CICRA 2005 rights.
               </p>
             </section>
 
@@ -431,7 +431,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Review our visual roadmap outlining statutory borrower protections against unlawful vehicle repossession and institutional compromise settlement workflows:
+                Review our visual roadmap outlining legal borrower protections against unlawful vehicle seizure and institutional one-time settlement workflows:
               </p>
 
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-sm p-3 md:p-4 overflow-hidden">
@@ -469,7 +469,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                     Stage 1 (Days 1-5): Forensic Loan Audit.
                   </span>
                   <p className="text-xs text-slate-600 leading-relaxed">
-                    Auditing loan statements to isolate illegal penal fees and verify if mandatory statutory notices were served.
+                    Auditing loan statements to isolate illegal penal fees and verify if mandatory legal notices were served.
                   </p>
                 </div>
 
@@ -499,7 +499,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                     Stage 4 (Days 21-32): OTS Negotiations.
                   </span>
                   <p className="text-xs text-slate-600 leading-relaxed">
-                    Negotiating directly with recovery authorities to waive penalty charges and secure a 40% to 55% settlement.
+                    Negotiating directly with recovery officials to waive penalty charges and secure a 40% to 55% settlement.
                   </p>
                 </div>
 
@@ -509,7 +509,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                     Stage 5 (Days 33-38): Sanction Verification.
                   </span>
                   <p className="text-xs text-slate-600 leading-relaxed">
-                    Vetting the official Settlement Sanction Letter to ensure binding clauses for hypothecation release.
+                    Vetting the official Settlement Sanction Letter to make sure binding clauses for loan lien release.
                   </p>
                 </div>
 
@@ -536,7 +536,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When two-wheeler loan accounts fall into default, lenders and NBFCs issue statutory notices to exert pressure. Understanding these legal provisions enables an effective defense:
+                When two-wheeler loan accounts fall into default, lenders and NBFCs issue legal notices to exert pressure. Understanding these legal provisions enables an effective defense:
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-1">
@@ -593,7 +593,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                If lenders or collection agencies violate RBI recovery directives through harassment or repossession threats, borrowers can escalate through three regulatory tiers:
+                If lenders or collection agencies violate RBI recovery directives through harassment or seizure threats, borrowers can escalate through three regulatory tiers:
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-3 pt-1">
@@ -617,7 +617,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                   <span className="text-[10px] font-bold text-emerald-700 uppercase">Tier 3 (30 Days).</span>
                   <h3 className="font-bold text-slate-900 text-xs">RBI Integrated Ombudsman</h3>
                   <p className="text-[11px] text-slate-600 leading-relaxed">
-                    Lodge an online complaint on cms.rbi.org.in for binding statutory dispute resolution and reprimand.
+                    Lodge an online complaint on cms.rbi.org.in for binding legal dispute resolution and reprimand.
                   </p>
                 </div>
               </div>
@@ -634,7 +634,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Two-wheeler debt resolution follows a predictable procedural sequence from initial default to final settlement execution and hypothecation release:
+                Two-wheeler debt resolution follows a predictable procedural sequence from initial default to final settlement execution and loan lien release:
               </p>
 
               {/* 4-SIDED BORDERED TABLE */}
@@ -705,7 +705,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                     Gig Workers &amp; Delivery Partners
                   </h3>
                   <p className="text-xs text-slate-600 leading-relaxed">
-                    Delivery riders face severe livelihood disruption when agents threaten bike repossession. CredSettle intervenes with instant cease-and-desist notices while negotiating micro-settlements.
+                    Delivery riders face severe livelihood disruption when agents threaten bike seizure. CredSettle intervenes with instant cease-and-desist notices while negotiating micro-settlements.
                   </p>
                 </div>
 
@@ -725,7 +725,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                     EV Scooter Warranty Disputes
                   </h3>
                   <p className="text-xs text-slate-600 leading-relaxed">
-                    Borrowers facing EV battery failures while financiers demand EMIs receive legal advocacy to coordinate tripartite dispute settlement and stop billing.
+                    Borrowers facing EV battery failures while lenders demand EMIs receive legal advocacy to coordinate tripartite dispute settlement and stop billing.
                   </p>
                 </div>
 
@@ -757,7 +757,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Clear, authoritative answers to the most crucial legal, procedural. Financial questions regarding two-wheeler loan default, recovery agent regulations, repossession safeguards, and debt settlement in India:
+                Clear, authoritative answers to the most crucial legal, procedural. Financial questions regarding two-wheeler loan default, recovery agent regulations, seizure safeguards, and debt settlement in India:
               </p>
 
               <div className="space-y-2.5 pt-1">
@@ -787,7 +787,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
               </h2>
 
               <p className="text-sm text-slate-700 leading-relaxed">
-                CredSettle legal strategies and dispute resolution methodologies are grounded in Indian statutory frameworks, judicial precedents, and regulatory codes:
+                CredSettle legal strategies and dispute resolution methodologies are grounded in Indian legal frameworks, judicial precedents, and regulatory codes:
               </p>
 
               <div className="bg-white p-3 rounded-xl border border-slate-200 shadow-xs space-y-1">
@@ -796,7 +796,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                 </h3>
                 <ul className="text-xs text-slate-600 space-y-1 list-disc list-inside leading-relaxed">
                   <li><strong>Supreme Court:</strong> <em>ICICI Bank Ltd. v. Prakash Kaur (2007) 2 SCC 711.</em> (Ban on musclemen).</li>
-                  <li><strong>Motor Vehicles Act, 1988:</strong> Section 51 (Vehicle hypothecation provisions).</li>
+                  <li><strong>Motor Vehicles Act, 1988:</strong> Section 51 (Vehicle loan lien provisions).</li>
                   <li><strong>Reserve Bank of India:</strong> Master Direction on Fair Practices and Debt Recovery.</li>
                   <li><strong>Bharatiya Nyaya Sanhita, 2023:</strong> Sections 308 (Extortion), 329 (Trespass), 351 (Intimidation).</li>
                   <li><strong>CICRA, 2005:</strong> Section 21 (Dispute resolution and credit report rectification).</li>
@@ -896,7 +896,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                 </div>
               </div>
               <p className="text-xs text-slate-600 leading-relaxed">
-                Specialist in Indian banking jurisprudence, retail auto hypothecation disputes, and compromise settlements at CredSettle.
+                Specialist in Indian banking jurisprudence, retail auto loan lien disputes, and one-time settlements at CredSettle.
               </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
                 <span>Verified Legal Author.</span>
@@ -913,7 +913,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                 <Phone className="w-6 h-6 text-white"/>
               </div>
               <p className="text-lg font-extrabold leading-snug">
-                Facing Illegal Bike Repossession?
+                Facing Illegal Bike seizure?
               </p>
               <p className="text-xs text-white/90 leading-relaxed">
                 Our legal team intervenes swiftly to halt unauthorized recovery visits, issue cease-and-desist notices, and protect your vehicle.

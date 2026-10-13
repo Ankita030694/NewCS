@@ -538,19 +538,19 @@ export default function NBFCLoanSettlementPageClient() {
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p>
-              Non-Banking Financial Companies (NBFCs) form the bedrock of retail credit expansion in modern India. From organized corporate conglomerates like Bajaj Finance, Tata Capital, Aditya Birla Finance, and Shriram Finance to fast-growing digital lending apps and microfinance institutions, NBFCs cater to millions of salaried employees, self-employed individuals, and MSME business owners underserved by traditional public sector banks.
+              Non-Banking Financial Companies (NBFCs) form the bedrock of retail credit expansion in modern India. From organized corporate conglomerates like Bajaj Finance, Tata Capital, Aditya Birla Finance, and Shriram Finance to fast-growing digital lending apps and microfinance institutions, NBFCs cater to millions of salaried employees, self-employed people, and MSME business owners underserved by traditional public sector banks.
             </p>
             <p>
               However, because NBFCs raise capital from wholesale commercial markets rather than low-cost public CASA deposits, their lending margins are sensitive, and their collection operations are notoriously aggressive. When unexpected life crises—such as involuntary job retrenchment, catastrophic health emergencies, commercial contract defaults, or sudden family losses—derail a borrower&apos;s repayment capacity, NBFC accounts rapidly accumulate compounded penal charges, high bounce fees, and relentless telecaller pressure.
             </p>
             <p>
-              When equated monthly installments (EMIs) become permanently unsustainable, Indian commercial banking jurisprudence and the Reserve Bank of India’s regulatory frameworks provide a structured, legitimate exit route: <strong>NBFC Loan Settlement</strong>. Through a legally executed compromise settlement, a distressed borrower can settle their outstanding debt for a discounted lump sum, eliminate secondary penalties, stop third-party harassment, and obtain an unconditional No-Dues Certificate (NDC).
+              When equated monthly installments (EMIs) become permanently unsustainable, Indian commercial banking jurisprudence and the Reserve Bank of India’s regulatory frameworks provide a structured, legitimate exit route: <strong>NBFC Loan Settlement</strong>. Through a legally executed one-time settlement, a distressed borrower can settle their outstanding debt for a discounted lump sum, eliminate secondary penalties, stop third-party harassment, and obtain an unconditional No-Dues Certificate (NDC).
             </p>
 
             <div className="p-4 sm:p-5 bg-blue-50/70 border-l-4 border-blue-600 rounded-r-xl">
               <h4 className="font-bold text-black text-sm sm:text-base mb-1">Key Regulatory Protection</h4>
               <p className="text-black text-xs sm:text-sm">
-                Under the Reserve Bank of India’s landmark <em>Prudential Framework for Resolution of Stressed Assets (June 8, 2023)</em> and the <em>Master Direction – Reserve Bank of India (Non-Banking Financial Company – Scale Based Regulation) Directions, 2023</em>, all NBFCs are legally mandated to maintain board-approved compromise settlement policies. A borrower who empirically proves financial hardship is entitled to negotiate a transparent, discounted settlement.
+                Under the Reserve Bank of India’s landmark <em>Prudential Framework for Resolution of Stressed Assets (June 8, 2023)</em> and the <em>Master Direction – Reserve Bank of India (Non-Banking Financial Company – Scale Based Regulation) Directions, 2023</em>, all NBFCs are legally mandated to maintain board-approved one-time settlement policies. A borrower who empirically proves hardship is entitled to negotiate a clear, discounted settlement.
               </p>
             </div>
           </div>
@@ -574,10 +574,10 @@ export default function NBFCLoanSettlementPageClient() {
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p>
-              An <strong>NBFC Loan Settlement</strong> (also referred to as a Compromise Settlement or One-Time Settlement - OTS) is a formal, legally binding bilateral contract executed between a registered Non-Banking Financial Company and a defaulting borrower. Under this agreement, the NBFC voluntarily agrees to accept a discounted sum—which is substantially lower than the total ledger balance—as full, final, and absolute satisfaction of the loan facility.
+              An <strong>NBFC Loan Settlement</strong> (also referred to as a one-time settlement or One-Time Settlement - OTS) is a formal, legally binding bilateral contract executed between a registered Non-Banking Financial Company and a defaulting borrower. Under this agreement, the NBFC voluntarily agrees to accept a discounted sum—which is greatly lower than the total ledger balance—as full, final, and absolute satisfaction of the loan facility.
             </p>
             <p>
-              The ledger balance typically includes the unpaid principal capital, contractual interest accrued up to the date of default, compounding penal interest, NACH/cheque dishonour charges, legal expenses, and agency collection commissions. Upon receipt of the agreed settlement sum within the stipulated deadline, the NBFC issues a formal <strong>No-Dues Certificate (NDC)</strong>, revokes all ongoing legal notices or arbitration proceedings, cancels registered NACH mandates, and updates the loan status as &quot;Settled&quot; across all credit bureaus.
+              The ledger balance typically includes the unpaid principal capital, contractual interest accrued up to the date of default, compounding penal interest, NACH/cheque dishonour charges, legal expenses, and agency collection commissions. Upon receipt of the agreed settlement sum within the stipulated deadline, the NBFC issues a formal <strong>No-Dues Certificate (NDC)</strong>, revokes all ongoing legal notices or arbitration actions, cancels registered NACH mandates, and updates the loan status as &quot;Settled&quot; across all credit bureaus.
             </p>
           </div>
         </section>
@@ -599,10 +599,10 @@ export default function NBFCLoanSettlementPageClient() {
               <li>Original Unsecured Personal Loan Availed: <strong>₹6,00,000</strong></li>
               <li>Amount Repaid Through Past EMIs: <strong>₹2,20,000</strong></li>
               <li>Unpaid Principal Balance Remaining: <strong>₹3,80,000</strong></li>
-              <li>After 10 Months Default, NBFC Demands: <strong>₹5,90,000</strong> (Principal ₹3.8L + Penal Fees ₹2.1L)</li>
+              <li>After 10 Months Default, NBFC Demands: <strong>₹5,90,000</strong> (Principal ₹3.8L + Penal Fees ₹2.1L).</li>
             </ul>
             <p>
-              Through formal compromise negotiations supported by medical or income loss documents, the NBFC agrees to:
+              Through formal settlement negotiations supported by medical or income loss documents, the NBFC agrees to:
             </p>
             <ol className="list-decimal pl-5 space-y-1.5 font-medium">
               <li>Completely wipe off the ₹2,10,000 in secondary penal charges and bounce fees.</li>
@@ -623,7 +623,7 @@ export default function NBFCLoanSettlementPageClient() {
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p>
-              NBFC loan settlement operates through a defined institutional mechanism governed by asset classification timelines and risk provisioning:
+              NBFC loan settlement operates through a defined institutional method governed by asset classification timelines and risk provisioning:
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
@@ -643,7 +643,7 @@ export default function NBFCLoanSettlementPageClient() {
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
                 <h4 className="font-bold text-black text-sm sm:text-base mb-1">Stage 3: Net Realization Modeling</h4>
                 <p className="text-xs sm:text-sm text-slate-800">
-                  The NBFC&apos;s Credit Committee compares the immediate cash settlement offer against the anticipated recovery from prolonged arbitration or civil litigation over 3 to 5 years minus advocate retainers.
+                  The NBFC&apos;s Credit Committee compares the immediate cash settlement offer against the anticipated recovery from prolonged arbitration or civil court cases over 3 to 5 years minus advocate retainers.
                 </p>
               </div>
 
@@ -668,10 +668,10 @@ export default function NBFCLoanSettlementPageClient() {
               Settling an NBFC loan requires transitioning from reactive defense to proactive institutional engagement:
             </p>
             <ul className="list-disc pl-5 space-y-2">
-              <li><strong>Cease Unofficial Telephonic Discussions:</strong> Stop debating with outsourced telecallers who have zero sanctioning authority. Everything must be put in writing.</li>
+              <li><strong>Cease Unofficial Telephonic Discussions:</strong> Stop debating with outsourced telecallers who have zero sanctioning official. Everything must be put in writing.</li>
               <li><strong>Isolate Unpaid Principal:</strong> Secure an authenticated Statement of Account (SOA) and calculate the pure unpaid principal capital minus late fees.</li>
-              <li><strong>Compile Empirical Hardship Proof:</strong> Prepare a formal hardship dossier documenting involuntary unemployment, medical crises, or business insolvency.</li>
-              <li><strong>Table a Formal Written Proposal:</strong> Deliver an OTS proposal letter to the NBFC&apos;s Nodal Officer and Stressed Assets Head offering 30% to 40% of the principal capital.</li>
+              <li><strong>Compile Empirical Hardship Proof:</strong> Prepare a formal hardship dossier documenting involuntary unemployment, medical crises, or business bankruptcy.</li>
+              <li><strong>Table a Formal Written Proposal:</strong> Deliver an OTS offer letter to the NBFC&apos;s Nodal Officer and Stressed Assets Head offering 30% to 40% of the principal capital.</li>
             </ul>
           </div>
         </section>
@@ -715,7 +715,7 @@ export default function NBFCLoanSettlementPageClient() {
                 <span className="flex-shrink-0 w-7 h-7 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xs">4</span>
                 <div>
                   <h4 className="font-bold text-black text-sm">Step 4: Formal OTS Submission</h4>
-                  <p className="text-slate-800 text-xs sm:text-sm">Submit a structured OTS proposal letter to the NBFC Stressed Assets Committee citing RBI compromise frameworks and verifiable hardship exhibits.</p>
+                  <p className="text-slate-800 text-xs sm:text-sm">Submit a structured OTS offer letter to the NBFC Stressed Assets Committee citing RBI settlement frameworks and verifiable hardship exhibits.</p>
                 </div>
               </div>
 
@@ -758,7 +758,7 @@ export default function NBFCLoanSettlementPageClient() {
             </p>
             <ul className="list-disc pl-5 space-y-2">
               <li><strong>Debt Service Exceeds Net Income:</strong> When total monthly EMIs across NBFCs exceed 60% of your earnings, leaving insufficient surplus for food, rent, or utilities.</li>
-              <li><strong>Persistent Delinquency (90+ Days):</strong> When the loan has crossed 90 days of continuous default and the NBFC has initiated collection agency action.</li>
+              <li><strong>Persistent Delinquency (90+ Days):</strong> When the loan has crossed 90 days of continuous default and the NBFC has started collection agency action.</li>
               <li><strong>Unserviceable Penal Compounding:</strong> When late payment penalties and bounce charges exceed the monthly principal component of the loan.</li>
               <li><strong>Structural Income Loss:</strong> Involuntary job loss, permanent closure of business, or catastrophic family health crises with no prospect of income restoration in the foreseeable future.</li>
             </ul>
@@ -776,8 +776,8 @@ export default function NBFCLoanSettlementPageClient() {
               Under RBI Scale Based Regulation (SBR) guidelines, eligibility for an NBFC settlement is strictly reserved for <strong>genuine distressed borrowers</strong>:
             </p>
             <ul className="list-disc pl-5 space-y-2">
-              <li><strong>Eligible:</strong> Salaried employees facing retrenchment; small enterprise promoters facing commercial insolvency; individuals with verified medical catastrophes (cancer, cardiac, organ failure); surviving legal heirs of deceased primary borrowers.</li>
-              <li><strong>Ineligible / Disqualified:</strong> Willful defaulters who hold adequate financial capacity but intentionally refuse payment; individuals implicated in siphoning or diversion of loan funds; borrowers with unencumbered liquid assets discoverable through PAN-linked financial tracking.</li>
+              <li><strong>Eligible:</strong> Salaried employees facing retrenchment; small enterprise promoters facing commercial bankruptcy; people with verified medical catastrophes (cancer, cardiac, organ failure); surviving legal heirs of deceased primary borrowers.</li>
+              <li><strong>Ineligible / Disqualified:</strong> Willful defaulters who hold adequate financial capacity but intentionally refuse payment; people implicated in siphoning or diversion of loan funds; borrowers with unencumbered liquid assets discoverable through PAN-linked financial tracking.</li>
             </ul>
           </div>
         </section>
@@ -790,7 +790,7 @@ export default function NBFCLoanSettlementPageClient() {
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p>
-              Virtually all categories of retail and commercial debt disbursed by Non-Banking Financial Companies can be resolved through compromise settlement, provided the account has defaulted and entered non-performing asset (NPA) status:
+              Virtually all categories of retail and business debt disbursed by Non-Banking Financial Companies can be resolved through one-time settlement, provided the account has defaulted and entered non-performing asset (NPA) status:
             </p>
             <ul className="list-disc pl-5 space-y-2">
               <li><strong>Unsecured Consumer Credit:</strong> Clean personal loans, instant app loans, consumer durable loans, and revolving credit lines.</li>
@@ -809,14 +809,14 @@ export default function NBFCLoanSettlementPageClient() {
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p>
-              Unsecured personal loans represent over 60% of all NBFC settlements in India. Because personal loans have no underlying hypothecation or mortgage, the lender holds zero collateral to repossess or auction upon default.
+              Unsecured personal loans represent over 60% of all NBFC settlements in India. Because personal loans have no underlying loan lien or mortgage, the lender holds zero collateral to seize or auction upon default.
             </p>
             <p>
               Key characteristics of NBFC personal loan settlement:
             </p>
             <ul className="list-disc pl-5 space-y-1.5 font-medium">
               <li>Haircuts typically range between <strong>40% and 60% of the unpaid principal balance</strong>.</li>
-              <li>100% of accumulated penal fees, late payment charges, and bounce fines are completely wiped clean.</li>
+              <li>100% of built up penal fees, late payment charges, and bounce fines are completely wiped clean.</li>
               <li>NBFCs routinely threaten legal notices under Section 25 PSSA (bounced NACH). Serving an assertive legal reply establishing genuine illiquidity rapidly compels their legal desk to approve an OTS.</li>
             </ul>
           </div>
@@ -838,7 +838,7 @@ export default function NBFCLoanSettlementPageClient() {
             <ul className="list-disc pl-5 space-y-2">
               <li><strong>Prove Genuine Commercial Downfall:</strong> Submit GST turnover drop reports, cancelled vendor purchase orders, or debtor default records proving that cash flow collapsed due to external market conditions.</li>
               <li><strong>Discharge Personal Guarantees:</strong> Ensure that the final settlement sanction letter expressly discharges not only the borrowing corporate entity but also all individual promoter guarantors from surviving liabilities under Section 128 of the Indian Contract Act.</li>
-              <li><strong>Haircuts of 45% to 65%:</strong> Because uncollateralized MSME business loans are categorized as high-risk, NBFCs prefer upfront settlements over lengthy civil litigation.</li>
+              <li><strong>Haircuts of 45% to 65%:</strong> Because uncollateralized MSME business loans are categorized as high-risk, NBFCs prefer upfront settlements over lengthy civil court cases.</li>
             </ul>
           </div>
         </section>
@@ -854,7 +854,7 @@ export default function NBFCLoanSettlementPageClient() {
               Several major NBFCs issue co-branded credit cards or digital credit lines (such as Bajaj Finserv RBL SuperCard, SBI Card subsidiary operations, and fintech revolving lines).
             </p>
             <p>
-              Revolving credit lines compound at <strong>42% to 54% annualized interest</strong>. When an account defaults for over 180 days, over 60% of the statement balance represents pure compounded finance fees. In compromise settlements, NBFCs routinely settle revolving credit lines for <strong>25% to 40% of the gross statement value</strong>, effectively recovering their base spend while forgiving the inflated fee layer.
+              Revolving credit lines compound at <strong>42% to 54% annualized interest</strong>. When an account defaults for over 180 days, over 60% of the statement balance represents pure compounded finance fees. In one-time settlements, NBFCs routinely settle revolving credit lines for <strong>25% to 40% of the gross statement value</strong>, effectively recovering their base spend while forgiving the inflated fee layer.
             </p>
           </div>
         </section>
@@ -876,7 +876,7 @@ export default function NBFCLoanSettlementPageClient() {
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
                 <h4 className="font-bold text-black text-sm mb-1">Pre-Repossession Settlement</h4>
                 <p className="text-xs sm:text-sm text-slate-800 leading-relaxed">
-                  The borrower retains the vehicle. The settlement figure is benchmarked against the current depreciated market value of the car or truck. Upon payment, the NBFC must issue RTO Form 35 to cancel hypothecation from the Registration Certificate.
+                  The borrower retains the vehicle. The settlement figure is benchmarked against the current depreciated market value of the car or truck. Upon payment, the NBFC must issue RTO Form 35 to cancel loan lien from the Registration Certificate.
                 </p>
               </div>
 
@@ -947,7 +947,7 @@ export default function NBFCLoanSettlementPageClient() {
               In unsecured retail and MSME lending, NBFCs operate under competitive collection dynamics. Unlike public sector banks bound by rigid vigilance audits, NBFCs are private, commercially oriented lenders focused on cash flow velocity and capital recycling.
             </p>
             <p>
-              Under verified financial insolvency, an unsecured NBFC loan can typically be settled for:
+              Under verified financial bankruptcy, an unsecured NBFC loan can typically be settled for:
             </p>
             <ul className="list-disc pl-5 space-y-1.5 font-medium">
               <li><strong>Against Gross Ledger Claim:</strong> <strong>30% to 50%</strong> of the gross demanded sum (representing a <strong>50% to 70% total debt reduction</strong>).</li>
@@ -1031,7 +1031,7 @@ export default function NBFCLoanSettlementPageClient() {
             </p>
             <ul className="list-disc pl-5 space-y-2">
               <li><strong>Asset Vintage &amp; Provisioning Coverage:</strong> Accounts defaulted for over 180 days have higher capital provisions set aside. NBFCs grant much deeper haircuts on 1-year-old NPAs than on fresh 95-day defaults.</li>
-              <li><strong>Remittance Speed (Bullet vs Tranches):</strong> A borrower offering immediate settlement payment within 15 days secures a 10% to 15% deeper discount than one requesting 3 monthly tranches.</li>
+              <li><strong>payment Speed (Bullet vs Tranches):</strong> A borrower offering immediate settlement payment within 15 days secures a 10% to 15% deeper discount than one requesting 3 monthly tranches.</li>
               <li><strong>Borrower Realizable Assets:</strong> If the borrower has no traceable real estate, salary credits, or investments linked to their PAN, the NBFC knows court execution yields zero return.</li>
               <li><strong>Fiscal Quarter-End Urgency:</strong> In March, June, September, and December, NBFCs face pressure to clean balance sheet NPA ratios, resulting in higher willingness to grant discounts.</li>
             </ul>
@@ -1046,7 +1046,7 @@ export default function NBFCLoanSettlementPageClient() {
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p>
-              Understanding the fundamental divergence between full repayment and compromise settlement:
+              Understanding the fundamental divergence between full repayment and one-time settlement:
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
@@ -1059,7 +1059,7 @@ export default function NBFCLoanSettlementPageClient() {
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
                 <h4 className="font-bold text-black text-sm mb-1">NBFC Loan Settlement</h4>
                 <p className="text-xs sm:text-sm text-slate-800 leading-relaxed">
-                  Permanently extinguishes the debt at a 40% to 65% discount. The account reflects &quot;Settled&quot; status on credit bureaus, temporarily lowering credit scores, but instantly stops legal threats, collection calls, and financial despair.
+                  Permanently clears the debt at a 40% to 65% discount. The account reflects &quot;Settled&quot; status on credit bureaus, temporarily lowering credit scores, but instantly stops legal threats, collection calls, and financial despair.
                 </p>
               </div>
             </div>
@@ -1077,7 +1077,7 @@ export default function NBFCLoanSettlementPageClient() {
               In <strong>Loan Restructuring</strong>, the NBFC reschedules the existing loan by extending the repayment tenure (e.g., from 36 months to 60 months) or granting a short moratorium.
             </p>
             <p>
-              However, restructuring offers <strong>zero haircut on principal</strong>. In fact, extending tenure actually increases the total lifetime interest paid to the NBFC. Restructuring is only suitable for borrowers facing temporary cash flow mismatches who expect full income recovery within months. For permanent financial distress, settlement is vastly superior because it permanently writes off a huge portion of the debt.
+              However, restructuring offers <strong>zero haircut on principal</strong>. In fact, extending tenure actually increases the total lifetime interest paid to the NBFC. Restructuring is only suitable for borrowers facing temporary cash flow mismatches who expect full income recovery within months. For permanent money stress, settlement is vastly superior because it permanently writes off a huge portion of the debt.
             </p>
           </div>
         </section>
@@ -1093,7 +1093,7 @@ export default function NBFCLoanSettlementPageClient() {
               A <strong>Loan Waiver</strong> implies 100% cancellation of a loan without any repayment by the borrower, typically seen in government-subsidized agricultural farm waivers. Private commercial NBFCs never grant 100% unilateral loan waivers to retail borrowers.
             </p>
             <p>
-              An <strong>NBFC Settlement</strong> is a commercial compromise: the borrower pays a negotiated discounted portion of the principal (40% to 60%), and the NBFC writes off the remaining balance. It requires bilateral payment execution.
+              An <strong>NBFC Settlement</strong> is a commercial settlement: the borrower pays a negotiated discounted portion of the principal (40% to 60%), and the NBFC writes off the remaining balance. It requires bilateral payment execution.
             </p>
           </div>
         </section>
@@ -1109,7 +1109,7 @@ export default function NBFCLoanSettlementPageClient() {
               <strong>Loan Foreclosure</strong> occurs when a solvent borrower pays off 100% of the remaining principal balance before the scheduled tenure ends, sometimes paying a foreclosure fee (though RBI bans foreclosure charges on floating-rate individual loans). The account is marked &quot;Closed&quot;.
             </p>
             <p>
-              <strong>Loan Settlement</strong> occurs when a defaulted borrower cannot pay the balance and the lender agrees to accept a discounted payoff with substantial haircuts. The account is marked &quot;Settled&quot;.
+              <strong>Loan Settlement</strong> occurs when a defaulted borrower cannot pay the balance and the lender agrees to accept a discounted payoff with large haircuts. The account is marked &quot;Settled&quot;.
             </p>
           </div>
         </section>
@@ -1127,7 +1127,7 @@ export default function NBFCLoanSettlementPageClient() {
             <ul className="list-disc pl-5 space-y-2">
               <li><strong>Substantial Debt Elimination:</strong> Secures 40% to 65% principal haircuts and 100% penal fee waivers, saving lakhs of rupees.</li>
               <li><strong>Instant Cessation of Harassment:</strong> Under RBI mandates, all recovery calls, agency visits, and automated collection reminders stop permanently once an OTS is sanctioned and paid.</li>
-              <li><strong>Withdrawal of Legal Claims:</strong> Section 25 PSSA, Section 138 NI Act, or arbitration proceedings are formally withdrawn by the NBFC.</li>
+              <li><strong>Withdrawal of Legal Claims:</strong> Section 25 PSSA, Section 138 NI Act, or arbitration actions are formally withdrawn by the NBFC.</li>
               <li><strong>Restoration of Peace of Mind:</strong> Frees your household from chronic financial anxiety and lets you redirect earnings toward family survival.</li>
             </ul>
           </div>
@@ -1144,7 +1144,7 @@ export default function NBFCLoanSettlementPageClient() {
               To make an informed financial decision, consider the trade-offs:
             </p>
             <ul className="list-disc pl-5 space-y-2">
-              <li><strong>&quot;Settled&quot; Remark on Credit Bureaus:</strong> CIBIL will reflect &quot;Settled&quot; status for the loan, indicating a past debt compromise.</li>
+              <li><strong>&quot;Settled&quot; Remark on Credit Bureaus:</strong> CIBIL will reflect &quot;Settled&quot; status for the loan, indicating a past debt settlement.</li>
               <li><strong>Temporary Cooling-Off Period:</strong> Unsecured credit card and personal loan approvals will be restricted across major banks for 12 to 24 months.</li>
               <li><strong>Risk of Invalid Oral Promises:</strong> Depositing money on informal verbal promises by recovery agents without a verified written sanction letter leads to total loss of funds.</li>
             </ul>
@@ -1161,7 +1161,7 @@ export default function NBFCLoanSettlementPageClient() {
             Interactive NBFC Loan Settlement &amp; Haircut Calculator
           </h3>
           <p className="text-xs sm:text-sm text-slate-300 mb-6 leading-relaxed">
-            Estimate your realistic One-Time Settlement (OTS) amount under RBI&apos;s June 8, 2023 Prudential Compromise Framework. Calculate 100% penal interest waivers and pure principal haircuts.
+            Estimate your realistic One-Time Settlement (OTS) amount under RBI&apos;s June 8, 2023 Prudential settlement Framework. Calculate 100% penal interest waivers and pure principal haircuts.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-white/5 p-4 sm:p-6 rounded-2xl border border-white/10 backdrop-blur-sm">
@@ -1287,10 +1287,10 @@ export default function NBFCLoanSettlementPageClient() {
               A major concern for borrowers is how an NBFC settlement impacts their CIBIL score. It is vital to understand the difference between active default and completed settlement:
             </p>
             <p>
-              An unresolved default continues to report increasing <strong>Days Past Due (90, 120, 180+ DPD)</strong> every single month. This active delinquency causes your credit score to drop continuously, bleeding 10 to 20 points month after month down into the 500s.
+              An unresolved default continues to report increasing <strong>Days Past Due (90, 120, 180+ DPD)</strong> every single month. This active default causes your credit score to drop continuously, bleeding 10 to 20 points month after month down into the 500s.
             </p>
             <p>
-              When you execute a settlement, the NBFC reports the account as <strong>&quot;Settled&quot;</strong> and updates the outstanding balance to <strong>₹0</strong>. The bleeding stops immediately. While your score will reflect a temporary dip of approximately 50 to 80 points, it establishes a solid foundation from which you can actively rebuild your credit profile.
+              When you execute a settlement, the NBFC reports the account as <strong>&quot;Settled&quot;</strong> and updates the outstanding balance to <strong>₹0</strong>. The bleeding stops immediately. While your score will reflect a temporary dip of about 50 to 80 points, it establishes a solid foundation from which you can actively rebuild your credit profile.
             </p>
           </div>
         </section>
@@ -1374,7 +1374,7 @@ export default function NBFCLoanSettlementPageClient() {
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p>
-              Compromise settlements in the NBFC sector are strictly governed by the Reserve Bank of India’s landmark regulatory circular: <strong>Prudential Framework for Resolution of Stressed Assets – Compromise Settlements and Technical Write-offs (DOR.STR.REC.20/21.04.048/2023-24) issued on June 8, 2023</strong>.
+              one-time settlements in the NBFC sector are strictly governed by the Reserve Bank of India’s landmark regulatory circular: <strong>Prudential Framework for Resolution of Stressed Assets – one-time settlements and Technical Write-offs (DOR.STR.REC.20/21.04.048/2023-24) issued on June 8, 2023</strong>.
             </p>
             <p>
               Key regulatory rights established for NBFC borrowers:
@@ -1382,7 +1382,7 @@ export default function NBFCLoanSettlementPageClient() {
             <div className="p-4 sm:p-5 bg-blue-50/70 border-l-4 border-blue-600 rounded-r-xl my-4 space-y-2">
               <h4 className="font-bold text-black text-sm sm:text-base">Core Provisions of the RBI June 2023 Circular:</h4>
               <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-black">
-                <li><strong>Universal Mandate for Board Policies:</strong> Every registered NBFC (across Base, Middle, and Upper Layers) must maintain a transparent, non-discriminatory compromise policy approved by its board of directors.</li>
+                <li><strong>Universal Mandate for Board Policies:</strong> Every registered NBFC (across Base, Middle, and Upper Layers) must maintain a clear, non-discriminatory settlement policy approved by its board of directors.</li>
                 <li><strong>Clear Delegation of Financial Powers:</strong> Haircut decisions cannot be made arbitrarily; they must follow a designated hierarchy of Credit Committees.</li>
                 <li><strong>Defined Cooling-off Period:</strong> Settled borrowers face a standardized 12-month cooling period rather than permanent blacklisting across the banking system.</li>
                 <li><strong>Reporting Transparency:</strong> NBFCs must report settlement data uniformly to credit bureaus as &quot;Settled&quot; with full disclosure of write-off figures.</li>
@@ -1422,7 +1422,7 @@ export default function NBFCLoanSettlementPageClient() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
                 <h4 className="font-bold text-black text-sm mb-1">Direct Liability of NBFCs</h4>
-                <p className="text-xs text-slate-800">NBFCs cannot evade responsibility by blaming third-party recovery agencies. The NBFC is directly and strictly liable for any illegal act, harassment, or verbal abuse committed by its agents.</p>
+                <p className="text-xs text-slate-800">NBFCs cannot evade duty by blaming third-party recovery agencies. The NBFC is directly and strictly liable for any illegal act, harassment, or verbal abuse committed by its agents.</p>
               </div>
 
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
@@ -1437,7 +1437,7 @@ export default function NBFCLoanSettlementPageClient() {
 
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
                 <h4 className="font-bold text-black text-sm mb-1">Fair Penal Charges Rules (2024)</h4>
-                <p className="text-xs text-slate-800">NBFCs are prohibited from compounding penal interest. Overdue charges must be levied as simple, transparent penal charges without capital capitalization.</p>
+                <p className="text-xs text-slate-800">NBFCs are prohibited from compounding penal interest. Overdue charges must be levied as simple, clear penal charges without capital capitalization.</p>
               </div>
             </div>
           </div>
@@ -1500,7 +1500,7 @@ export default function NBFCLoanSettlementPageClient() {
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p>
-              Yes, NBFCs possess legal avenues to pursue delinquent debt, but each avenue has commercial limitations:
+              Yes, NBFCs possess legal avenues to pursue overdue debt, but each avenue has commercial limitations:
             </p>
             <ul className="list-disc pl-5 space-y-2">
               <li><strong>Section 25 Payment and Settlement Systems Act (PSSA):</strong> Filed in magistrate courts for bounced electronic auto-debits. Highly common for NBFCs.</li>
@@ -1526,8 +1526,8 @@ export default function NBFCLoanSettlementPageClient() {
             </p>
             <ol className="list-decimal pl-5 space-y-1.5 font-medium">
               <li>Never ignore it; failing to respond allows the NBFC to claim you admitted the liability.</li>
-              <li>Have an experienced debt defense counsel serve an assertive, factual legal reply within the 15-day statutory window.</li>
-              <li>Establish your verifiable hardship and formally offer an amicable compromise under RBI guidelines.</li>
+              <li>Have an experienced debt defense counsel serve an assertive, factual legal reply within the 15-day legal window.</li>
+              <li>Establish your verifiable hardship and formally offer an amicable settlement under RBI guidelines.</li>
               <li>This shifts the matter from aggressive recovery agencies to the NBFC&apos;s legal desk, which is authorized to grant 45% to 60% haircuts to avoid spending money on advocate retainers in court.</li>
             </ol>
           </div>
@@ -1541,11 +1541,11 @@ export default function NBFCLoanSettlementPageClient() {
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p>
-              Even if an NBFC has already initiated arbitration hearings or filed a court complaint, compromise settlement remains fully valid at any stage prior to final decree execution:
+              Even if an NBFC has already started arbitration hearings or filed a court complaint, one-time settlement remains fully valid at any stage prior to final decree execution:
             </p>
             <ul className="list-disc pl-5 space-y-2">
               <li><strong>Section 147 NI Act / Section 25 PSSA Compounding:</strong> Both offenses are compoundable. Upon realization of the agreed settlement sum, the NBFC is legally bound to withdraw the criminal case in court.</li>
-              <li><strong>Consent Arbitral Award (Section 30):</strong> The parties can jointly petition the arbitrator to record the compromise terms as a Consent Award, terminating all legal claims.</li>
+              <li><strong>Consent Arbitral Award (Section 30):</strong> The parties can jointly petition the arbitrator to record the settlement terms as a Consent Award, terminating all legal claims.</li>
               <li><strong>National Lok Adalat Settlement:</strong> Under the Legal Services Authorities Act, matters settled in Lok Adalats result in an unappealable judicial decree with 100% refund of court fees to the NBFC.</li>
             </ul>
           </div>
@@ -1606,7 +1606,7 @@ export default function NBFCLoanSettlementPageClient() {
             <ul className="list-disc pl-5 space-y-2">
               <li><strong>Bypass Call Centers:</strong> Telecallers receive incentives to recover 100% of the statement amount. Request meetings with the <strong>Area Recovery Manager (ARM)</strong> or <strong>Zonal Settlement Officer</strong>.</li>
               <li><strong>Anchor to Pure Principal:</strong> When the NBFC demands ₹8 Lakhs on a ₹4.5 Lakh principal, immediately strip the ₹3.5 Lakh penal fee layer under RBI fair practice norms.</li>
-              <li><strong>The &quot;Borrower Insolvency&quot; Card:</strong> Demonstrate that you hold zero attachable assets. An NBFC credit committee will only sanction a 50% haircut if their credit appraisal note can prove that litigation would yield less.</li>
+              <li><strong>The &quot;Borrower bankruptcy&quot; Card:</strong> Demonstrate that you hold zero attachable assets. An NBFC credit committee will only sanction a 50% haircut if their credit appraisal note can prove that court cases would yield less.</li>
             </ul>
           </div>
         </section>
@@ -1619,30 +1619,30 @@ export default function NBFCLoanSettlementPageClient() {
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p>
-              Your formal OTS proposal letter must be structured as an institutional memorandum. Below is an authoritative sample template:
+              Your formal OTS offer letter must be structured as an institutional memorandum. Below is an authoritative sample template:
             </p>
 
             <div className="p-4 sm:p-6 bg-slate-900 text-slate-100 rounded-xl font-mono text-xs sm:text-sm leading-relaxed overflow-x-auto my-4 space-y-3">
               <p>To,</p>
               <p>The Head – Stressed Assets Resolution Division,<br />[Name of NBFC],<br />[Registered Office Address / Zonal Office Address]</p>
               
-              <p><strong>SUBJECT: Formal Proposal for One-Time Settlement (OTS) under RBI Compromise Framework in respect of Loan Account No. [Insert Loan Account Number]</strong></p>
+              <p><strong>SUBJECT: Formal Proposal for One-Time Settlement (OTS) under RBI settlement Framework in respect of Loan Account No. [Insert Loan Account Number]</strong></p>
               
               <p>Respected Sir/Madam,</p>
               
               <p>1. I had availed a [Personal / Business / Vehicle] facility bearing Loan Account No. [XXXXXXXX] from your esteemed company on [Disbursal Date] with a sanctioned amount of ₹[XXXXXXXX].</p>
               
-              <p>2. I maintained regular EMI payments until [Month, Year]. Unfortunately, due to unforeseen and catastrophic circumstances—specifically [Detail: corporate retrenchment / severe medical emergency / business liquidation]—my income has ceased completely.</p>
+              <p>2. I maintained regular EMI payments until [Month, Year]. Unfortunately, due to unforeseen and catastrophic cases—specifically [Detail: corporate retrenchment / severe medical emergency / business liquidation]—my income has ceased completely.</p>
               
               <p>3. While your statement claims an outstanding balance of ₹[Total Claim], the pure unpaid principal capital stands at ₹[Principal Balance]. The remainder comprises compounded penal interest and overdue charges.</p>
               
-              <p>4. In line with the Reserve Bank of India’s June 8, 2023 Prudential Compromise Framework, I am formally requesting a One-Time Settlement. Having exhausted all personal savings, I have mobilized financial assistance from close family members.</p>
+              <p>4. In line with the Reserve Bank of India’s June 8, 2023 Prudential settlement Framework, I am formally requesting a One-Time Settlement. Having exhausted all personal savings, I have mobilized financial help from close family members.</p>
               
-              <p>5. I hereby offer <strong>₹[Offer Amount in Figures] (Rupees [Offer Amount in Words] Only)</strong>, representing approximately [35% / 45%] of the unpaid principal, as full, final, and absolute settlement of all claims.</p>
+              <p>5. I hereby offer <strong>₹[Offer Amount in Figures] (Rupees [Offer Amount in Words] Only)</strong>, representing about [35% / 45%] of the unpaid principal, as full, final, and absolute settlement of all claims.</p>
               
               <p>6. Upon receipt of your formal written OTS Sanction Letter, I undertake to deposit the entire sum within [15 / 30] business days directly into my loan account, subject to issuance of an unconditional No-Dues Certificate and withdrawal of any pending notices.</p>
               
-              <p>7. Enclosed please find documentary exhibits substantiating my medical/financial hardship and bank statements (Annexures A to D).</p>
+              <p>7. Enclosed please find documentary exhibits substantiating my medical/hardship and bank statements (Annexures A to D).</p>
               
               <p>Yours faithfully,<br />[Your Signature]<br />[Your Full Name]<br />[Contact Address, Phone, Email]</p>
             </div>
@@ -1661,7 +1661,7 @@ export default function NBFCLoanSettlementPageClient() {
             </p>
             <ul className="list-disc pl-5 space-y-2">
               <li><strong>Loan Identification:</strong> Sanction letter copy, authenticated Statement of Account (SOA), loan account number.</li>
-              <li><strong>Income Collapse Records:</strong> Corporate termination letter, retrenchment notice, salary reduction slips, or business closure certificates.</li>
+              <li><strong>Income Collapse Records:</strong> Corporate end letter, retrenchment notice, salary reduction slips, or business closure certificates.</li>
               <li><strong>Medical Emergency Proof (If Applicable):</strong> Hospital discharge summaries, surgical invoices, cancer or chronic illness diagnostic records.</li>
               <li><strong>Bank Statements (Past 12 Months):</strong> Statements of all active savings and current accounts across all banks proving zero surplus cash reserves.</li>
               <li><strong>Affidavit of Assets:</strong> A notarized legal affidavit confirming you own no unencumbered marketable real estate, shares, or liquid mutual funds.</li>
@@ -1677,7 +1677,7 @@ export default function NBFCLoanSettlementPageClient() {
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p>
-              Financial hardship is the foundational legal justification for any compromise haircut. Under RBI audit guidelines, an NBFC credit committee cannot approve debt forgiveness out of personal sympathy; their files must contain verifiable evidence proving that full recovery is an economic impossibility.
+              Hardship is the foundational legal justification for any settlement haircut. Under RBI audit guidelines, an NBFC credit committee cannot approve debt forgiveness out of personal sympathy; their files must contain verifiable evidence proving that full recovery is an economic impossibility.
             </p>
             <p>
               When framing your hardship:
@@ -1706,7 +1706,7 @@ export default function NBFCLoanSettlementPageClient() {
             <ul className="list-disc pl-5 space-y-2">
               <li>Submit the official Relieving Letter or Retrenchment Notice from your previous employer.</li>
               <li>Provide bank statements showing the complete cessation of monthly salary credits.</li>
-              <li>If you have secured a new job at a substantially lower pay scale (e.g., 40%–50% pay cut), submit the new employment agreement to prove that your current income cannot support legacy high-EMI commitments.</li>
+              <li>If you have secured a new job at a greatly lower pay scale (e.g., 40%–50% pay cut), submit the new employment agreement to prove that your current income cannot support legacy high-EMI commitments.</li>
             </ul>
           </div>
         </section>
@@ -1743,7 +1743,7 @@ export default function NBFCLoanSettlementPageClient() {
               Catastrophic medical diagnoses (such as cancer treatments, major cardiac bypass surgeries, organ transplants, or permanent physical disability) consume life savings and eliminate earning capacity.
             </p>
             <p>
-              NBFC credit committees treat medical insolvency with the highest degree of latitude:
+              NBFC credit committees treat medical bankruptcy with the highest degree of latitude:
             </p>
             <ul className="list-disc pl-5 space-y-2">
               <li>Committees routinely approve <strong>haircuts exceeding 65%</strong> on unsecured facilities when catastrophic medical hardship is proven.</li>
@@ -1761,7 +1761,7 @@ export default function NBFCLoanSettlementPageClient() {
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p>
-              An <strong>NBFC One-Time Settlement (OTS)</strong> is an institutional compromise wherein the lender accepts an agreed discounted sum in a single payment (or up to 3 short tranches) to permanently extinguish the loan.
+              An <strong>NBFC One-Time Settlement (OTS)</strong> is an institutional settlement wherein the lender accepts an agreed discounted sum in a single payment (or up to 3 short tranches) to permanently clear the loan.
             </p>
             <p>
               The hallmark of an OTS is finality: upon realization of the settlement amount, the borrower is granted complete legal discharge from all surviving claims, the loan account is closed in CBS systems, and all registered NACH auto-debits and cheques are nullified.
@@ -1777,7 +1777,7 @@ export default function NBFCLoanSettlementPageClient() {
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p>
-              To convince an NBFC credit committee to approve a major principal discount, frame your proposal around commercial realism rather than emotional pleading:
+              To convince an NBFC credit committee to approve a major principal discount, frame your offer around commercial realism rather than emotional pleading:
             </p>
             <div className="space-y-3 my-4">
               <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-lg">
@@ -1792,7 +1792,7 @@ export default function NBFCLoanSettlementPageClient() {
 
               <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-lg">
                 <span className="font-bold text-black text-sm block mb-1">Pillar 3: The Reality of Litigation Overhead</span>
-                <p className="text-xs sm:text-sm text-slate-800">Subtly remind the recovery manager that civil litigation or arbitration incurs heavy advocate fees and years of delay without guaranteeing cash recovery.</p>
+                <p className="text-xs sm:text-sm text-slate-800">Subtly remind the recovery manager that civil court cases or arbitration incurs heavy advocate fees and years of delay without guaranteeing cash recovery.</p>
               </div>
             </div>
           </div>
@@ -1809,14 +1809,14 @@ export default function NBFCLoanSettlementPageClient() {
               When a borrower is indebted to multiple lending institutions simultaneously—such as two commercial banks, three retail NBFCs, and four instant digital lending apps—navigating settlements requires cross-institutional coordination and strict priority sequencing. Attempting to negotiate haphazardly across five different institutions creates severe liquidity exhaustion, where partial token deposits deplete settlement reserves without extinguishing any single liability.
             </p>
             <p>
-              Unlike corporate debt restructuring governed by the Insolvency and Bankruptcy Code (IBC) or RBI&apos;s Inter-Creditor Agreements (ICA) where lenders vote collectively, retail multiple-lender settlements operate as bilateral negotiations. Each institution acts in isolation to maximize its individual recovery before the borrower&apos;s remaining capital pool is entirely extinguished.
+              Unlike corporate debt restructuring governed by the bankruptcy and Bankruptcy Code (IBC) or RBI&apos;s Inter-Creditor Agreements (ICA) where lenders vote collectively, retail multiple-lender settlements operate as bilateral negotiations. Each institution acts in isolation to boost its individual recovery before the borrower&apos;s remaining capital pool is entirely extinguished.
             </p>
             <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 sm:p-5 my-4">
               <h4 className="font-bold text-slate-900 mb-2 text-sm sm:text-base">Key Strategic Principles for Multi-Lender Settlement:</h4>
               <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm">
                 <li><strong>Enforce an Information Firewall:</strong> Never disclose to NBFC &apos;A&apos; that you have successfully concluded an OTS with Bank &apos;B&apos; for ₹3 Lakhs. NBFC &apos;A&apos; will immediately extrapolate that you possess hidden liquidity and will stiffen their demand, rejecting any concessionary haircut.</li>
-                <li><strong>Triage Legal Exposure Over Balance Size:</strong> Prioritize settlement funds for institutions that have actively issued legal notices under Section 138 of the Negotiable Instruments Act or initiated arbitration hearings. An unserviced ₹1 Lakh unsecured loan backed by an active criminal summons poses an immediate threat to your personal liberty, whereas a passive ₹5 Lakh loan with no ongoing litigation can await round two of negotiations.</li>
-                <li><strong>Consolidated Pool Allocation:</strong> Calculate your total liquid liquidation reserve (e.g., ₹6 Lakhs total available from provident fund withdrawal or family assistance) against your total outstanding across all lenders (e.g., ₹18 Lakhs). Apportion this reserve systematically, offering targeted 30% to 40% lump-sum settlements sequentially rather than distributing ineffective EMI tokens across all files.</li>
+                <li><strong>Triage Legal Exposure Over Balance Size:</strong> Prioritize settlement funds for institutions that have actively issued legal notices under Section 138 of the Negotiable Instruments Act or started arbitration hearings. An unserviced ₹1 Lakh unsecured loan backed by an active criminal summons poses an immediate threat to your personal liberty, whereas a passive ₹5 Lakh loan with no ongoing court cases can await round two of negotiations.</li>
+                <li><strong>Consolidated Pool Allocation:</strong> Calculate your total liquid liquidation reserve (e.g., ₹6 Lakhs total available from provident fund withdrawal or family help) against your total outstanding across all lenders (e.g., ₹18 Lakhs). Apportion this reserve systematically, offering targeted 30% to 40% lump-sum settlements sequentially rather than distributing ineffective EMI tokens across all files.</li>
               </ul>
             </div>
           </div>
@@ -1830,10 +1830,10 @@ export default function NBFCLoanSettlementPageClient() {
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p>
-              Settling multiple loans exclusively held by NBFCs involves distinct operational mechanics compared to bank portfolios. NBFCs share real-time delinquency information across high-frequency credit bureau updates (CIBIL, Experian, CRIF High Mark, Equifax), meaning an aggressive default on one NBFC portfolio will immediately freeze secondary credit lines across all other participating institutions.
+              Settling multiple loans exclusively held by NBFCs involves distinct operational mechanics compared to bank portfolios. NBFCs share real-time default information across high-frequency credit bureau updates (CIBIL, Experian, CRIF High Mark, Equifax), meaning an aggressive default on one NBFC portfolio will immediately freeze secondary credit lines across all other joining institutions.
             </p>
             <p>
-              To execute a structured multi-NBFC debt clearance program without triggering premature litigation:
+              To execute a structured multi-NBFC debt clearance program without triggering premature court cases:
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
               <div className="border border-slate-200 rounded-xl p-4 bg-white shadow-sm">
@@ -1851,7 +1851,7 @@ export default function NBFCLoanSettlementPageClient() {
               <div className="border border-slate-200 rounded-xl p-4 bg-white shadow-sm">
                 <div className="font-bold text-blue-900 text-sm sm:text-base mb-1">Phase 3: Synchronized Counter-Proposals</div>
                 <p className="text-xs sm:text-sm text-slate-700">
-                  Issue formal, written compromise proposals to the authorized grievance redressal and recovery divisions of each NBFC within the same calendar quarter, preventing aggressive third-party collection agencies from competing via predatory harassment.
+                  Issue formal, written settlement offers to the authorized grievance redressal and recovery divisions of each NBFC within the same calendar quarter, preventing aggressive third-party collection agencies from competing via predatory harassment.
                 </p>
               </div>
               <div className="border border-slate-200 rounded-xl p-4 bg-white shadow-sm">
@@ -1880,10 +1880,10 @@ export default function NBFCLoanSettlementPageClient() {
             <div className="bg-blue-50/60 border border-blue-100 rounded-xl p-4 sm:p-5 my-4">
               <h4 className="font-bold text-blue-950 mb-2 text-sm sm:text-base">Strategic Steps for Salaried Borrowers Seeking Settlement:</h4>
               <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm">
-                <li><strong>Document Involuntary Career Disruption:</strong> Submit the formal corporate relieving letter, termination notice, severance computation sheet, or statutory proof of salary reduction. This directly establishes unviability of original EMI terms under RBI&apos;s Prudential Compromise Norms.</li>
+                <li><strong>Document Involuntary Career Disruption:</strong> Submit the formal corporate relieving letter, end notice, severance computation sheet, or legal proof of salary reduction. This directly establishes unviability of original EMI terms under RBI&apos;s Prudential settlement Norms.</li>
                 <li><strong>Protect the Workplace Environment:</strong> If recovery agents unlawfully call office landlines, contact corporate HR desks, or show up at company premises, issue an immediate written cease-and-desist letter citing RBI&apos;s Master Direction on Recovery Agents (which strictly prohibits visiting workplaces or contacting colleagues).</li>
                 <li><strong>Salary Account Defense:</strong> Ensure your operational salary account is held with a neutral scheduled commercial bank that has no lending relationship or lien authorization with the defaulted NBFC, preventing unauthorized ECS/NACH debit sweeps.</li>
-                <li><strong>Terminal Benefit Utilization:</strong> If utilizing gratuity, provident fund payouts, or severance compensation for OTS, present the capital as a strictly one-time &quot;third-party family benevolence pool&quot; rather than personal wealth, anchoring negotiations to a clean 40% to 50% principal payoff.</li>
+                <li><strong>Terminal Benefit Utilization:</strong> If using gratuity, provident fund payouts, or severance compensation for OTS, present the capital as a strictly one-time &quot;third-party family benevolence pool&quot; rather than personal wealth, anchoring negotiations to a clean 40% to 50% principal payoff.</li>
               </ul>
             </div>
           </div>
@@ -1897,10 +1897,10 @@ export default function NBFCLoanSettlementPageClient() {
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p>
-              Self-employed individuals, including independent consultants, retail traders, freelance practitioners, and service contractors, encounter distinct challenges during debt distress. Unlike salaried workers with predictable monthly slips, self-employed income is cyclical and subject to macroeconomic volatility, client contract terminations, and working capital blockages.
+              Self-employed people, including independent consultants, retail traders, freelance practitioners, and service contractors, encounter distinct challenges during debt distress. Unlike salaried workers with predictable monthly slips, self-employed income is cyclical and subject to macroeconomic volatility, client contract terminations, and working capital blockages.
             </p>
             <p>
-              NBFC underwriting for self-employed professionals frequently relies on banking turnover surrogates and GST return multiples. When turnover collapses, the NBFC&apos;s algorithms still record historic high revenues, leading settlement committees to doubt financial hardship claims unless substantiated with concrete accounting evidence.
+              NBFC underwriting for self-employed professionals frequently relies on banking turnover surrogates and GST return multiples. When turnover collapses, the NBFC&apos;s algorithms still record historic high revenues, leading settlement committees to doubt hardship claims unless substantiated with concrete accounting evidence.
             </p>
             <div className="space-y-3 my-4">
               <div className="p-4 rounded-xl border border-slate-200 bg-white">
@@ -1918,7 +1918,7 @@ export default function NBFCLoanSettlementPageClient() {
               <div className="p-4 rounded-xl border border-slate-200 bg-white">
                 <h5 className="font-bold text-slate-900 text-sm sm:text-base mb-1">Separation of Personal and Commercial Liabilities:</h5>
                 <p className="text-xs sm:text-sm text-slate-700">
-                  Clarify whether the loan was extended in personal capacity or tied to proprietary commercial trade names, ensuring cross-collateralization clauses do not threaten essential tools of trade or professional equipment protected under Section 60 of the CPC.
+                  Clarify whether the loan was extended in personal capacity or tied to proprietary commercial trade names, making sure cross-collateralization clauses do not threaten essential tools of trade or professional equipment protected under Section 60 of the CPC.
                 </p>
               </div>
             </div>
@@ -1933,17 +1933,17 @@ export default function NBFCLoanSettlementPageClient() {
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p>
-              Enterprise borrowers, including proprietors, partnership partners, and directors of private limited MSMEs, frequently utilize unsecured NBFC business installment loans (BIL), machinery credit lines, or merchant cash advances. Because commercial credit limits can range from ₹10 Lakhs to several Crores, NBFCs employ specialized enterprise recovery teams backed by corporate legal wings.
+              Enterprise borrowers, including proprietors, partnership partners, and directors of private limited MSMEs, frequently use unsecured NBFC business installment loans (BIL), machinery credit lines, or merchant cash advances. Because commercial credit limits can range from ₹10 Lakhs to several Crores, NBFCs employ specialized enterprise recovery teams backed by corporate legal wings.
             </p>
             <p>
-              When an enterprise enters financial distress due to supply chain breakdown, regulatory disruptions, or customer insolvencies, negotiating a structured business loan settlement demands a comprehensive corporate financial defense:
+              When an enterprise enters money stress due to supply chain breakdown, regulatory disruptions, or customer insolvencies, negotiating a structured business loan settlement demands a complete corporate financial defense:
             </p>
             <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 sm:p-5 my-4">
               <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm">
-                <li><strong>MSME Samadhaan &amp; Udyam Registration:</strong> Utilize your Udyam registration status to invoke RBI&apos;s MSME restructuring and settlement framework. NBFCs are encouraged under central guidelines to explore viable compromise paths for genuine stressed MSMEs before declaring non-cooperative status.</li>
+                <li><strong>MSME Samadhaan &amp; Udyam Registration:</strong> Utilize your Udyam registration status to invoke RBI&apos;s MSME restructuring and settlement framework. NBFCs are encouraged under central guidelines to explore viable settlement paths for genuine stressed MSMEs before declaring non-cooperative status.</li>
                 <li><strong>Audited Balance Sheet Deficits:</strong> Present audited financial statements displaying depleted net worth, negative EBITDA, and operational liabilities that exceed enterprise realizable assets. Demonstrating that liquidation would generate near-zero recovery creates compelling justification for a 50% to 70% OTS approval.</li>
                 <li><strong>Director/Partner Guarantee Mitigation:</strong> Unsecured business loans almost universally mandate personal guarantees from directors or promoters. An effective OTS must explicitly include full discharge of personal guarantee liability alongside corporate debt extinguishment to insulate personal residences and assets.</li>
-                <li><strong>Preventing Preemptive Insolvency Filings:</strong> For corporate entities where debt exceeds ₹1 Crore, NBFCs may threaten proceedings under Section 7 of the IBC before the NCLT. Timely structured settlement negotiations avoid costly insolvency proceedings and preserve operational continuity.</li>
+                <li><strong>Preventing Preemptive bankruptcy Filings:</strong> For corporate entities where debt exceeds ₹1 Crore, NBFCs may threaten actions under Section 7 of the IBC before the NCLT. Timely structured settlement negotiations avoid costly bankruptcy actions and preserve operational continuity.</li>
               </ul>
             </div>
           </div>
@@ -2015,9 +2015,9 @@ export default function NBFCLoanSettlementPageClient() {
               <h4 className="font-bold text-amber-950 mb-2 text-sm sm:text-base">Essential Safeguards for Fintech &amp; App-Based Settlements:</h4>
               <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-amber-900">
                 <li><strong>Identify the Real Regulated Entity (RE):</strong> The mobile application displayed on your smartphone is usually merely a technology vendor (LSP). Check your loan sanction letter to identify the actual RBI-registered NBFC backing the capital. All formal settlement correspondence and payments must be directed to the NBFC, never to an unauthorized third-party fintech account.</li>
-                <li><strong>Enforce the RBI Digital Lending Guidelines (2022):</strong> The RBI Digital Lending Directive strictly prohibits unauthorized contact access, photo scraping, or harassment of phone contacts. Any violation should be countered with formal complaints to the NBFC&apos;s Principal Nodal Officer and the RBI Sachet portal, creating substantial leverage for a favorable settlement.</li>
-                <li><strong>Reject In-App UPI Payment Links for Settlement:</strong> App recovery agents frequently send WhatsApp UPI payment links promising &quot;instant closure.&quot; These links often route funds into general recovery pools without closing the loan record. Demand a signed, official settlement sanction letter on NBFC letterhead before initiating any transfer.</li>
-                <li><strong>Mandate Credit Bureau Update Commitments:</strong> Fintech lenders report delinquencies rapidly to credit bureaus via automated APIs. Ensure the settlement letter explicitly states that the NBFC will report the account as &apos;Settled&apos; or &apos;Closed&apos; to CIBIL, Experian, CRIF, and Equifax within the mandatory 30-day statutory window.</li>
+                <li><strong>Enforce the RBI Digital Lending Guidelines (2022):</strong> The RBI Digital Lending Directive strictly prohibits unauthorized contact access, photo scraping, or harassment of phone contacts. Any violation should be countered with formal complaints to the NBFC&apos;s Principal Nodal Officer and the RBI Sachet portal, creating large leverage for a favorable settlement.</li>
+                <li><strong>Reject In-App UPI Payment Links for Settlement:</strong> App recovery agents frequently send WhatsApp UPI payment links promising &quot;instant closure.&quot; These links often route funds into general recovery pools without closing the loan record. Demand a signed, official settlement sanction letter on NBFC letterhead before starting any transfer.</li>
+                <li><strong>Mandate Credit Bureau Update Commitments:</strong> Fintech lenders report delinquencies rapidly to credit bureaus via automated APIs. Ensure the settlement letter explicitly states that the NBFC will report the account as &apos;Settled&apos; or &apos;Closed&apos; to CIBIL, Experian, CRIF, and Equifax within the mandatory 30-day legal window.</li>
               </ul>
             </div>
           </div>
@@ -2031,17 +2031,17 @@ export default function NBFCLoanSettlementPageClient() {
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p>
-              Navigating debt distress and hostile recovery practices can be overwhelming for individual borrowers. Engaging a professional debt settlement and legal advisory firm can provide critical institutional insulation, legal defense, and structured negotiation leverage. However, the market also contains unregulated operators and fraudulent intermediaries making unrealistic claims.
+              Navigating debt distress and hostile recovery practices can be overwhelming for individual borrowers. Engaging a professional debt settlement and legal advisory firm can provide critical institutional insulation, legal defense, and structured negotiation leverage. However, the market also contains unregulated operators and fraudulent agents making unrealistic claims.
             </p>
             <p>
-              When evaluating an NBFC debt settlement firm, verify the following core institutional criteria:
+              When reviewing an NBFC debt settlement firm, verify the following core institutional criteria:
             </p>
             <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 sm:p-5 my-4">
               <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm">
                 <li><strong>In-House Legal Infrastructure:</strong> Ensure the firm employs qualified advocates admitted to State Bar Councils who can actively draft legal replies to Section 138 notices, defend against Section 25 PSSA complaints, and enter appearances before arbitration tribunals. Pure telemarketing agencies cannot represent your legal interests.</li>
-                <li><strong>Transparent Fee Structure:</strong> Reputable advisory firms operate on documented retainers and performance-based success fees pegged strictly to actual savings achieved. Avoid any entity demanding large upfront percentages of your total outstanding without clear contractual milestones.</li>
-                <li><strong>Direct Settlement Directives:</strong> Legitimate firms never instruct you to deposit settlement principal funds into their corporate accounts. All compromise payments must be remitted directly to the NBFC&apos;s verified institutional loan account.</li>
-                <li><strong>Absence of False Credit Promises:</strong> Reputable legal advisors are transparent regarding credit bureau implications. Any company promising to &quot;erase your default from CIBIL within 48 hours&quot; or guarantee a 800+ score immediately following an OTS is engaging in unlawful misrepresentation.</li>
+                <li><strong>Transparent Fee Structure:</strong> Reputable advisory firms operate on documented retainers and performance-based success fees pegged strictly to actual savings got. Avoid any entity demanding large upfront percentages of your total outstanding without clear contractual milestones.</li>
+                <li><strong>Direct Settlement Directives:</strong> Legitimate firms never instruct you to deposit settlement principal funds into their corporate accounts. All settlement payments must be remitted directly to the NBFC&apos;s verified institutional loan account.</li>
+                <li><strong>Absence of False Credit Promises:</strong> Reputable legal advisors are clear regarding credit bureau implications. Any company promising to &quot;erase your default from CIBIL within 48 hours&quot; or guarantee a 800+ score immediately following an OTS is engaging in unlawful misrepresentation.</li>
               </ul>
             </div>
           </div>
@@ -2101,13 +2101,13 @@ export default function NBFCLoanSettlementPageClient() {
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p>
-              A transparent understanding of the economic costs associated with loan settlement helps borrowers plan their finances effectively. There are two primary categories of fees involved:
+              A clear understanding of the economic costs associated with loan settlement helps borrowers plan their finances effectively. There are two primary categories of fees involved:
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
               <div className="border border-slate-200 rounded-xl p-4 bg-white shadow-sm">
                 <div className="font-bold text-slate-900 text-sm sm:text-base mb-1">1. Settlement Amounts Paid to the NBFC</div>
                 <p className="text-xs sm:text-sm text-slate-700 mb-2">
-                  This is the negotiated compromise capital paid directly into your loan account. Under RBI rules, an authentic OTS letter waives 100% of accumulated penal charges, late fees, and overdue interest margins, leaving only the mutually agreed principal settlement figure.
+                  This is the negotiated settlement capital paid directly into your loan account. Under RBI rules, an authentic OTS letter waives 100% of built up penal charges, late fees, and overdue interest margins, leaving only the mutually agreed principal settlement figure.
                 </p>
                 <div className="text-[11px] text-emerald-800 font-semibold bg-emerald-50 p-2 rounded">
                   Rule: Never pay cash to collection agents; always obtain a receipt directly in the loan account statement.
@@ -2146,7 +2146,7 @@ export default function NBFCLoanSettlementPageClient() {
               <div className="p-4 rounded-xl border border-slate-200 bg-white">
                 <div className="font-bold text-slate-900 text-sm sm:text-base mb-1">Withdrawal of Active Legal Proceedings</div>
                 <p className="text-xs sm:text-sm text-slate-700">
-                  The NBFC&apos;s legal department must file formal withdrawal or compromise applications before the relevant judicial forums—withdrawing Section 138 complaints from the Magistrate Court and terminating ongoing arbitration proceedings.
+                  The NBFC&apos;s legal department must file formal withdrawal or settlement applications before the relevant judicial forums—withdrawing Section 138 complaints from the Magistrate Court and terminating ongoing arbitration actions.
                 </p>
               </div>
               <div className="p-4 rounded-xl border border-slate-200 bg-white">
@@ -2182,11 +2182,11 @@ export default function NBFCLoanSettlementPageClient() {
                   This document establishes the terms of the settlement agreement. It must specify:
                 </p>
                 <ul className="list-disc pl-5 space-y-1 text-xs text-slate-700">
-                  <li>Exact Loan Account Number and primary borrower name</li>
-                  <li>Original contractual outstanding vs agreed settlement amount</li>
-                  <li>Payment deadlines and approved institutional bank account details</li>
-                  <li>Clause confirming that upon receipt of payment, the loan will be fully extinguished with no residual claim</li>
-                  <li>Signature and designation of an authorized officer of the NBFC</li>
+                  <li>Exact Loan Account Number and primary borrower name.</li>
+                  <li>Original contractual outstanding vs agreed settlement amount.</li>
+                  <li>Payment deadlines and approved institutional bank account details.</li>
+                  <li>Clause confirming that upon receipt of payment, the loan will be fully extinguished with no residual claim.</li>
+                  <li>Signature and designation of an authorized officer of the NBFC.</li>
                 </ul>
               </div>
               <div className="border border-emerald-200 rounded-xl p-4 bg-emerald-50/40">
@@ -2195,11 +2195,11 @@ export default function NBFCLoanSettlementPageClient() {
                   Issued after settlement funds have cleared. It certifies that:
                 </p>
                 <ul className="list-disc pl-5 space-y-1 text-xs text-slate-700">
-                  <li>The borrower has paid the agreed settlement consideration in full</li>
-                  <li>The NBFC retains zero outstanding claims or liens against the borrower</li>
-                  <li>All pledged securities or collateral (if any) are released</li>
-                  <li>The account has been closed in the institution&apos;s core banking system (CBS)</li>
-                  <li>Updated status will be transmitted to all four credit bureaus</li>
+                  <li>The borrower has paid the agreed settlement consideration in full.</li>
+                  <li>The NBFC retains zero outstanding claims or liens against the borrower.</li>
+                  <li>All pledged securities or collateral (if any) are released.</li>
+                  <li>The account has been closed in the institution&apos;s core banking system (CBS).</li>
+                  <li>Updated status will be transmitted to all four credit bureaus.</li>
                 </ul>
               </div>
             </div>
@@ -2224,7 +2224,7 @@ export default function NBFCLoanSettlementPageClient() {
               <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm">
                 <li><strong>Current Balance / Amount Overdue:</strong> The &apos;Current Balance&apos; and &apos;Amount Overdue&apos; fields must show exactly <strong>₹0</strong>. If any balance appears, the NBFC has improperly recorded the payment as a partial recovery rather than an agreed settlement.</li>
                 <li><strong>Account Status:</strong> The status must reflect <strong>&apos;Settled&apos;</strong> (or &apos;Post-Write-Off Settled&apos;). It should NOT display &apos;Written Off&apos;, &apos;Willful Default&apos;, or &apos;Active Default&apos;.</li>
-                <li><strong>Date of Last Payment &amp; Closed Date:</strong> Ensure the &apos;Date Closed&apos; field matches your final settlement payment date, terminating the delinquency timeline and halting further DPD counter progression.</li>
+                <li><strong>Date of Last Payment &amp; Closed Date:</strong> Ensure the &apos;Date Closed&apos; field matches your final settlement payment date, terminating the default timeline and halting further DPD counter progression.</li>
               </ul>
             </div>
           </div>
@@ -2238,7 +2238,7 @@ export default function NBFCLoanSettlementPageClient() {
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p>
-              It is common for NBFC operational teams to misreport settled accounts—either failing to update the balance to zero or leaving the account flagged as an active default. Borrowers have statutory rights under the Credit Information Companies (Regulation) Act, 2005 (CICRA) to enforce prompt data rectification:
+              It is common for NBFC operational teams to misreport settled accounts—either failing to update the balance to zero or leaving the account flagged as an active default. Borrowers have legal rights under the Credit Information Companies (Regulation) Act, 2005 (CICRA) to enforce prompt data rectification:
             </p>
             <div className="space-y-3 my-4">
               <div className="p-4 rounded-xl border border-slate-200 bg-white">
@@ -2256,7 +2256,7 @@ export default function NBFCLoanSettlementPageClient() {
               <div className="p-4 rounded-xl border border-slate-200 bg-white">
                 <div className="font-bold text-slate-900 text-sm sm:text-base mb-1">Step 3: RBI Ombudsman Complaint Under Section 11 of CICRA</div>
                 <p className="text-xs sm:text-sm text-slate-700">
-                  Under RBI directives, credit institutions must resolve bureau reporting errors within 30 days. If the NBFC fails to correct the data within this statutory timeframe, lodge a formal complaint on the RBI CMS portal (cms.rbi.org.in). The RBI Ombudsman can award compensation of ₹100 per day of delay for unjustified bureau reporting failures.
+                  Under RBI directives, credit institutions must resolve bureau reporting errors within 30 days. If the NBFC fails to correct the data within this legal timeframe, lodge a formal complaint on the RBI CMS portal (cms.rbi.org.in). The RBI Ombudsman can award compensation of ₹100 per day of delay for unjustified bureau reporting failures.
                 </p>
               </div>
             </div>
@@ -2279,8 +2279,8 @@ export default function NBFCLoanSettlementPageClient() {
             <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 sm:p-5 my-4">
               <h4 className="font-bold text-slate-900 mb-2 text-sm sm:text-base">Mandatory Guarantor Safeguards in Settlement Documentation:</h4>
               <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm">
-                <li><strong>Tripartite Settlement Sanction:</strong> The OTS approval letter must explicitly name both the principal borrower and all personal guarantors, affirming that payment of the compromise amount discharges all parties simultaneously.</li>
-                <li><strong>Invocation of Section 135 (Indian Contract Act):</strong> Under Section 135, any contract between the creditor and the principal debtor to compound or grant time discharges the surety, unless the surety assents. Incorporating this provision ensures the guarantee deed is rendered void and unenforceable upon settlement execution.</li>
+                <li><strong>Tripartite Settlement Sanction:</strong> The OTS approval letter must explicitly name both the principal borrower and all personal guarantors, affirming that payment of the settlement amount discharges all parties simultaneously.</li>
+                <li><strong>Invocation of Section 135 (Indian Contract Act):</strong> Under Section 135, any contract between the creditor and the principal debtor to compound or grant time discharges the surety, unless the surety assents. Incorporating this provision makes sure the guarantee deed is rendered void and unenforceable upon settlement execution.</li>
                 <li><strong>Physical Return of Guarantee Instruments:</strong> Demand the return or formal written cancellation of all original guarantee deeds, undated cheques, and promissory notes executed by the guarantor at the time of loan underwriting.</li>
               </ul>
             </div>
@@ -2295,7 +2295,7 @@ export default function NBFCLoanSettlementPageClient() {
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p>
-              A co-borrower is a joint signatory who bears equal, primary liability for the entire debt. Unlike a guarantor, whose obligation arises upon default, a co-borrower is jointly and severally liable from loan inception. Consequently, any default, restructuring, or settlement reflects simultaneously on the credit bureau files of both the primary applicant and the co-applicant.
+              A co-borrower is a joint signatory who bears equal, primary liability for the entire debt. Unlike a guarantor, whose obligation arises upon default, a co-borrower is jointly and severally liable from loan inception. So, any default, restructuring, or settlement reflects simultaneously on the credit bureau files of both the primary applicant and the co-applicant.
             </p>
             <p>
               When navigating an NBFC loan settlement involving a spouse, parent, or business partner as co-borrower:
@@ -2304,13 +2304,13 @@ export default function NBFCLoanSettlementPageClient() {
               <div className="border border-slate-200 rounded-xl p-4 bg-white shadow-sm">
                 <div className="font-bold text-blue-900 text-sm sm:text-base mb-1">Dual Credit Bureau Impact</div>
                 <p className="text-xs sm:text-sm text-slate-700">
-                  The &apos;Settled&apos; account status will appear on both individuals&apos; credit profiles. Both parties will experience an equivalent score drop and credit cooling period, which must be factored into household financial planning.
+                  The &apos;Settled&apos; account status will appear on both people&apos; credit profiles. Both parties will experience an equivalent score drop and credit cooling period, which must be factored into household financial planning.
                 </p>
               </div>
               <div className="border border-slate-200 rounded-xl p-4 bg-white shadow-sm">
                 <div className="font-bold text-blue-900 text-sm sm:text-base mb-1">Mandatory Joint Execution</div>
                 <p className="text-xs sm:text-sm text-slate-700">
-                  The settlement proposal letter and final acceptance must be signed by all co-borrowers. An agreement signed by only one party leaves the non-signing co-borrower exposed to potential collection claims for the remaining balance.
+                  The settlement offer letter and final acceptance must be signed by all co-borrowers. An agreement signed by only one party leaves the non-signing co-borrower exposed to potential collection claims for the remaining balance.
                 </p>
               </div>
             </div>
@@ -2325,13 +2325,13 @@ export default function NBFCLoanSettlementPageClient() {
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p>
-              For secured NBFC credit facilities—such as loans against property (LAP), gold loans, or secured business working capital—the lender holds a registered mortgage, pledge, or hypothecation charge over tangible physical assets. Negotiating a settlement on secured debt involves distinct considerations compared to unsecured loans:
+              For secured NBFC credit facilities—such as loans against property (LAP), gold loans, or secured business working capital—the lender holds a registered mortgage, pledge, or loan lien charge over tangible physical assets. Negotiating a settlement on secured debt involves distinct considerations compared to unsecured loans:
             </p>
             <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 sm:p-5 my-4">
               <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm">
-                <li><strong>Haircut Constraints:</strong> Because the NBFC can enforce its security interest through SARFAESI proceedings (for qualifying registered NBFCs with loan limits above statutory thresholds), haircuts are typically narrower (10% to 25% on accumulated interest and penalties) unless the property has defective title, valuation challenges, or legal disputes.</li>
+                <li><strong>Haircut Constraints:</strong> Because the NBFC can enforce its security interest through SARFAESI actions (for qualifying registered NBFCs with loan limits above legal thresholds), haircuts are typically narrower (10% to 25% on built up interest and penalties) unless the property has defective title, valuation challenges, or legal disputes.</li>
                 <li><strong>Formal Release of Charge with CERSAI:</strong> Following settlement payment, the NBFC must satisfy its registered charge on the Central Registry of Securitisation Asset Reconstruction and Security Interest of India (CERSAI) portal within 30 days, as mandated by RBI regulations.</li>
-                <li><strong>Return of Original Title Deeds:</strong> Under RBI&apos;s September 2023 Master Direction on Release of Movable/Immovable Property Documents, the NBFC must return all original property title deeds within 30 days of full settlement payment. Failure to do so incurs mandatory statutory compensation of ₹5,000 per day of delay payable to the borrower.</li>
+                <li><strong>Return of Original Title Deeds:</strong> Under RBI&apos;s September 2023 Master Direction on Release of Movable/Immovable Property Documents, the NBFC must return all original property title deeds within 30 days of full settlement payment. Failure to do so incurs mandatory legal compensation of ₹5,000 per day of delay payable to the borrower.</li>
               </ul>
             </div>
           </div>
@@ -2345,13 +2345,13 @@ export default function NBFCLoanSettlementPageClient() {
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p>
-              In auto, commercial vehicle, and two-wheeler loans, the vehicle remains hypothecated to the NBFC until the loan is fully satisfied. In the event of default, recovery divisions often attempt direct vehicle repossession. However, the Supreme Court of India in <em>ICICI Bank v. Shanti Devi Sharma</em> and subsequent precedents has established that lenders cannot use force, hire musclemen, or intercept vehicles on public highways to execute repossessions.
+              In auto, commercial vehicle, and two-wheeler loans, the vehicle remains hypothecated to the NBFC until the loan is fully satisfied. In the event of default, recovery divisions often attempt direct vehicle seizure. However, the Supreme Court of India in <em>ICICI Bank v. Shanti Devi Sharma</em> and subsequent precedents has established that lenders cannot use force, hire musclemen, or intercept vehicles on public highways to execute repossessions.
             </p>
             <div className="space-y-3 my-4">
               <div className="p-4 rounded-xl border border-slate-200 bg-white">
                 <div className="font-bold text-slate-900 text-sm sm:text-base mb-1">Mandatory Repossession Notice Protocol:</div>
                 <p className="text-xs sm:text-sm text-slate-700">
-                  The NBFC must issue a pre-repossession notice granting a minimum statutory cure window (typically 7 to 14 days), followed by an inventory sheet signed at the time of surrender, and a post-repossession notice providing a final pre-sale redemption window.
+                  The NBFC must issue a pre-seizure notice granting a minimum legal cure window (typically 7 to 14 days), followed by an inventory sheet signed at the time of surrender, and a post-seizure notice providing a final pre-sale redemption window.
                 </p>
               </div>
               <div className="p-4 rounded-xl border border-slate-200 bg-white">
@@ -2363,7 +2363,7 @@ export default function NBFCLoanSettlementPageClient() {
               <div className="p-4 rounded-xl border border-slate-200 bg-white">
                 <div className="font-bold text-slate-900 text-sm sm:text-base mb-1">Form 35 and RTO Hypothecation Removal:</div>
                 <p className="text-xs sm:text-sm text-slate-700">
-                  Upon settlement execution, ensure the NBFC issues duplicate original copies of <strong>Form 35</strong> along with a clean NOC addressed to the relevant Regional Transport Office (RTO), enabling removal of the hypothecation endorsement from your vehicle Registration Certificate (RC).
+                  Upon settlement execution, make sure the NBFC issues duplicate original copies of <strong>Form 35</strong> along with a clean NOC addressed to the relevant Regional Transport Office (RTO), enabling removal of the loan lien endorsement from your vehicle Registration Certificate (RC).
                 </p>
               </div>
             </div>
@@ -2378,16 +2378,16 @@ export default function NBFCLoanSettlementPageClient() {
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p>
-              Many NBFCs require borrowers to provide post-dated cheques (PDCs) or security cheques at the time of loan onboarding. If an EMI defaults, the NBFC may deposit one of these cheques. When returned dishonored with memos such as &apos;Funds Insufficient&apos; or &apos;Account Closed&apos;, the NBFC initiates criminal proceedings under Section 138 of the Negotiable Instruments Act, 1881.
+              Many NBFCs require borrowers to provide post-dated cheques (PDCs) or security cheques at the time of loan onboarding. If an EMI defaults, the NBFC may deposit one of these cheques. When returned dishonored with memos such as &apos;Funds Insufficient&apos; or &apos;Account Closed&apos;, the NBFC initiates criminal actions under Section 138 of the Negotiable Instruments Act, 1881.
             </p>
             <p>
-              It is critical to recognize that a Section 138 proceeding is a quasi-criminal complaint carrying potential imprisonment of up to two years, a fine of up to double the cheque amount, or both. However, because Section 138 offenses are compoundable under Section 147 of the NI Act, loan settlement serves as a direct legal mechanism to compound the offense and quash the criminal case.
+              It is critical to recognize that a Section 138 proceeding is a quasi-criminal complaint carrying potential imprisonment of up to two years, a fine of up to double the cheque amount, or both. However, because Section 138 offenses are compoundable under Section 147 of the NI Act, loan settlement serves as a direct legal method to compound the offense and quash the criminal case.
             </p>
             <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 sm:p-5 my-4">
               <h4 className="font-bold text-amber-950 mb-2 text-sm sm:text-base">Cheque Bounce Case Compounding Protocol:</h4>
               <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-amber-900">
-                <li>Never pay settlement funds under an informal verbal assurance that &apos;the cheque case will be dropped.&apos;</li>
-                <li>Demand that the NBFC advocate sign a joint compromise petition or withdrawal memo to be filed before the Metropolitan Magistrate or Judicial Magistrate First Class (JMFC) simultaneously with settlement fund clearance.</li>
+                <li>Never pay settlement funds under an informal verbal assurance that &apos;the cheque case will be dropped.&apos;.</li>
+                <li>Demand that the NBFC advocate sign a joint settlement petition or withdrawal memo to be filed before the Metropolitan Magistrate or Judicial Magistrate First Class (JMFC) simultaneously with settlement fund clearance.</li>
                 <li>Ensure the compounding order is recorded in the official court order sheet, formally acquitting or discharging the accused borrower.</li>
               </ul>
             </div>
@@ -2402,7 +2402,7 @@ export default function NBFCLoanSettlementPageClient() {
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p>
-              To maintain an effective legal defense during Section 138 proceedings while negotiating an NBFC settlement, borrowers must understand the strict statutory timeline governing cheque dishonor complaints:
+              To maintain an effective legal defense during Section 138 actions while negotiating an NBFC settlement, borrowers must understand the strict legal timeline governing cheque dishonor complaints:
             </p>
             <div className="overflow-x-auto my-4">
               <table className="w-full text-left border-collapse border border-slate-200 text-xs sm:text-sm">
@@ -2433,7 +2433,7 @@ export default function NBFCLoanSettlementPageClient() {
               </table>
             </div>
             <p>
-              Resolving Section 138 matters through National Lok Adalats is highly advantageous: under Supreme Court directives in <em>Damodar S. Prabhu v. Sayed Babalal H.</em>, compounding at early stages avoids heavy statutory graded costs.
+              Resolving Section 138 matters through National Lok Adalats is highly helpful: under Supreme Court directives in <em>Damodar S. Prabhu v. Sayed Babalal H.</em>, compounding at early stages avoids heavy legal graded costs.
             </p>
           </div>
         </section>
@@ -2446,7 +2446,7 @@ export default function NBFCLoanSettlementPageClient() {
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p>
-              When an NBFC writes off a portion of your outstanding loan as a settlement haircut, the tax treatment of the forgiven debt depends significantly on whether the loan was taken in an individual personal capacity or for commercial enterprise purposes:
+              When an NBFC writes off a portion of your outstanding loan as a settlement haircut, the tax treatment of the forgiven debt depends greatly on whether the loan was taken in an individual personal capacity or for commercial enterprise purposes:
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
               <div className="border border-slate-200 rounded-xl p-4 bg-white shadow-sm">
@@ -2458,12 +2458,12 @@ export default function NBFCLoanSettlementPageClient() {
               <div className="border border-slate-200 rounded-xl p-4 bg-white shadow-sm">
                 <div className="font-bold text-slate-900 text-sm sm:text-base mb-1">Commercial &amp; Business Loans (Enterprises)</div>
                 <p className="text-xs sm:text-sm text-slate-700">
-                  For businesses and proprietary entities, the tax treatment depends on how the borrowed funds were used. If the loan funded working capital and interest was claimed as a tax deduction in prior years, the waiver may be treated as remission of trading liability under Section 41(1) and taxed as business profits. Conversely, waiver of loans utilized exclusively for capital asset acquisition is generally treated as a capital receipt.
+                  For businesses and proprietary entities, the tax treatment depends on how the borrowed funds were used. If the loan funded working capital and interest was claimed as a tax deduction in prior years, the waiver may be treated as remission of trading liability under Section 41(1) and taxed as business profits. Conversely, waiver of loans used exclusively for capital asset acquisition is generally treated as a capital receipt.
                 </p>
               </div>
             </div>
             <p>
-              Business owners should consult their Chartered Accountant to ensure appropriate accounting disclosures in their balance sheets following an NBFC debt settlement.
+              Business owners should consult their Chartered Accountant to make sure appropriate accounting disclosures in their balance sheets following an NBFC debt settlement.
             </p>
           </div>
         </section>
@@ -2476,7 +2476,7 @@ export default function NBFCLoanSettlementPageClient() {
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p>
-              Navigating debt settlement without experienced guidance often leads borrowers into costly traps that compromise both their finances and legal standing:
+              Navigating debt settlement without experienced guidance often leads borrowers into costly traps that settlement both their finances and legal standing:
             </p>
             <div className="space-y-3 my-4">
               <div className="p-4 rounded-xl border border-red-200 bg-red-50/30">
@@ -2500,7 +2500,7 @@ export default function NBFCLoanSettlementPageClient() {
               <div className="p-4 rounded-xl border border-red-200 bg-red-50/30">
                 <div className="font-bold text-red-950 text-sm sm:text-base mb-1">Mistake 4: Ignoring Formal Legal Notices and Court Summons</div>
                 <p className="text-xs sm:text-sm text-slate-700">
-                  Ignoring legal notices under Section 138 of the NI Act or arbitration proceedings can lead to non-bailable warrants or ex-parte awards. Always respond through qualified legal counsel while pursuing settlement discussions in parallel.
+                  Ignoring legal notices under Section 138 of the NI Act or arbitration actions can lead to non-bailable warrants or ex-parte awards. Always respond through qualified legal counsel while pursuing settlement discussions in parallel.
                 </p>
               </div>
             </div>
@@ -2549,9 +2549,9 @@ export default function NBFCLoanSettlementPageClient() {
             </p>
             <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 sm:p-5 my-4">
               <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm">
-                <li><strong>Months 1 to 12 (Cooling Period):</strong> Unsecured credit lines remain inaccessible. Focus on opening a secured credit card backed by a Fixed Deposit (FD) and maintaining 100% on-time payments to initiate score rehabilitation.</li>
+                <li><strong>Months 1 to 12 (Cooling Period):</strong> Unsecured credit lines remain inaccessible. Focus on opening a secured credit card backed by a Fixed Deposit (FD) and maintaining 100% on-time payments to start score rehabilitation.</li>
                 <li><strong>Months 13 to 24 (Initial Recovery):</strong> With consistent on-time payment history on secured credit, your score can rise toward 700. Tier-2 NBFCs and fintech lenders become open to micro-credit or consumer durable financing.</li>
-                <li><strong>Months 25 to 36 (Full Rehabilitation):</strong> As the settlement event ages and healthy credit habits are demonstrated, mainstream lenders will consider auto loans, secured business credit, and home loan applications (provided loan-to-value ratios and income metrics are strong).</li>
+                <li><strong>Months 25 to 36 (Full Rehabilitation):</strong> As the settlement event ages and healthy credit habits are showed, mainstream lenders will consider auto loans, secured business credit, and home loan applications (provided loan-to-value ratios and income metrics are strong).</li>
               </ul>
             </div>
           </div>
@@ -2565,7 +2565,7 @@ export default function NBFCLoanSettlementPageClient() {
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p>
-              Borrowers are often surprised to learn that securing subsequent credit from a <em>different</em> NBFC is often achievable sooner than from a traditional public sector bank. NBFCs utilize risk-based pricing algorithms that evaluate holistic factors—such as bank statement cash flows, GST filings, and employment stability—rather than relying solely on CIBIL scores.
+              Borrowers are often surprised to learn that securing subsequent credit from a <em>different</em> NBFC is often achievable sooner than from a traditional public sector bank. NBFCs use risk-based pricing algorithms that review holistic factors—such as bank statement cash flows, GST filings, and employment stability—rather than relying solely on CIBIL scores.
             </p>
             <div className="bg-blue-50/60 border border-blue-100 rounded-xl p-4 sm:p-5 my-4">
               <h4 className="font-bold text-blue-950 mb-2 text-sm sm:text-base">Rules for Securing Future NBFC Financing:</h4>
@@ -2598,7 +2598,7 @@ export default function NBFCLoanSettlementPageClient() {
               <div className="border border-slate-200 rounded-xl p-4 bg-white shadow-sm">
                 <div className="font-bold text-slate-900 text-sm sm:text-base mb-1">Pillar 2: Maintain a Secured Credit Line</div>
                 <p className="text-xs sm:text-sm text-slate-700">
-                  Open an FD-backed credit card with a deposit of ₹25,000 to ₹50,000. Keep your credit utilization ratio strictly below 30% and ensure the bill is paid in full every month before the due date.
+                  Open an FD-backed credit card with a deposit of ₹25,000 to ₹50,000. Keep your credit use ratio strictly below 30% and make sure the bill is paid in full every month before the due date.
                 </p>
               </div>
               <div className="border border-slate-200 rounded-xl p-4 bg-white shadow-sm">
@@ -2631,13 +2631,13 @@ export default function NBFCLoanSettlementPageClient() {
               <div className="p-4 rounded-xl border border-slate-200 bg-white">
                 <div className="font-bold text-blue-900 text-sm sm:text-base mb-1">Scenario A: The NBFC Assigned the Loan to an Asset Reconstruction Company (ARC)</div>
                 <p className="text-xs sm:text-sm text-slate-700">
-                  <strong>Solution:</strong> ARCs acquire distressed debt portfolios at substantial discounts (often 20 to 30 paise on the rupee). When dealing with an ARC, leverage their low acquisition cost to negotiate favorable settlements—typically 30% to 45% of the principal—while ensuring the ARC delivers a valid No Dues Certificate.
+                  <strong>Solution:</strong> ARCs acquire distressed debt portfolios at large discounts (often 20 to 30 paise on the rupee). When dealing with an ARC, leverage their low acquisition cost to negotiate favorable settlements—typically 30% to 45% of the principal—while making sure the ARC delivers a valid No Dues Certificate.
                 </p>
               </div>
               <div className="p-4 rounded-xl border border-slate-200 bg-white">
                 <div className="font-bold text-blue-900 text-sm sm:text-base mb-1">Scenario B: You Received a Section 138 Notice While Inactive for 6 Months</div>
                 <p className="text-xs sm:text-sm text-slate-700">
-                  <strong>Solution:</strong> Do not panic or ignore the notice. Have legal counsel issue a formal reply within 15 days, explaining that the default was involuntary due to financial distress and proposing a structured one-time settlement. This documentation protects against ex-parte proceedings and sets the stage for a court-approved compromise.
+                  <strong>Solution:</strong> Do not panic or ignore the notice. Have legal counsel issue a formal reply within 15 days, explaining that the default was involuntary due to money stress and proposing a structured one-time settlement. This documents protects against ex-parte actions and sets the stage for a court-approved settlement.
                 </p>
               </div>
               <div className="p-4 rounded-xl border border-slate-200 bg-white">
@@ -2665,7 +2665,7 @@ export default function NBFCLoanSettlementPageClient() {
                   <li>Verify that the settlement sanction letter contains the exact loan number, agreed amount, and authorized signatory.</li>
                   <li>Deposit all settlement funds directly into your designated institutional NBFC loan account.</li>
                   <li>Obtain a formal No Dues Certificate and verify that credit bureau records reflect ₹0 balance within 60 days.</li>
-                  <li>Respond promptly through legal counsel to any statutory court notices or summons.</li>
+                  <li>Respond promptly through legal counsel to any legal court notices or summons.</li>
                 </ul>
               </div>
               <div className="border border-red-200 bg-red-50/30 rounded-xl p-4">
@@ -2674,7 +2674,7 @@ export default function NBFCLoanSettlementPageClient() {
                   <li>Never pay cash or transfer money to personal UPI IDs of collection agents.</li>
                   <li>Never accept verbal settlement assurances over phone calls without a written sanction letter.</li>
                   <li>Never ignore Section 138 NI Act notices or arbitration hearing summons.</li>
-                  <li>Never deplete statutory retirement funds (EPF, PPF) to pay inflated penal charges.</li>
+                  <li>Never deplete legal retirement funds (EPF, PPF) to pay inflated penal charges.</li>
                   <li>Never fall for &apos;CIBIL repair&apos; agencies promising instant score erasure for upfront fees.</li>
                 </ul>
               </div>
@@ -2751,7 +2751,7 @@ export default function NBFCLoanSettlementPageClient() {
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p>
-              Navigating aggressive collection tactics while trying to negotiate complex financial terms with institutional credit committees requires professional expertise. CredSettle delivers comprehensive legal and financial advisory services tailored specifically to borrowers in distress:
+              Navigating aggressive collection tactics while trying to negotiate complex financial terms with institutional credit committees requires professional expertise. CredSettle delivers complete legal and financial advisory services tailored specifically to borrowers in distress:
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-4">
               <div className="border border-slate-200 rounded-xl p-4 bg-white shadow-sm">
@@ -2788,10 +2788,10 @@ export default function NBFCLoanSettlementPageClient() {
             </p>
             <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 sm:p-5 my-4">
               <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm">
-                <li><strong>Statutory Policy Knowledge:</strong> Our legal strategists leverage RBI&apos;s Scale Based Regulations, the June 8, 2023 Compromise Framework, and established judicial precedents to anchor negotiations to pure principal figures.</li>
+                <li><strong>Statutory Policy Knowledge:</strong> Our legal strategists leverage RBI&apos;s Scale Based Regulations, the June 8, 2023 settlement Framework, and established judicial precedents to anchor negotiations to pure principal figures.</li>
                 <li><strong>Complete Peace of Mind:</strong> We handle incoming communications from recovery agencies, allowing you to focus on your professional and personal life without constant disruption.</li>
-                <li><strong>Documented Legal Safety:</strong> Every settlement is verified, from the initial sanction letter to the final No Dues Certificate, ensuring permanent legal debt extinguishment without residual liabilities.</li>
-                <li><strong>Maximized Financial Savings:</strong> Our structured negotiation approach consistently secures substantial waivers on penal interest and principal, yielding savings that far exceed advisory fees.</li>
+                <li><strong>Documented Legal Safety:</strong> Every settlement is verified, from the initial sanction letter to the final No Dues Certificate, making sure permanent legal debt extinguishment without residual liabilities.</li>
+                <li><strong>Maximized Financial Savings:</strong> Our structured negotiation approach consistently secures large waivers on penal interest and principal, yielding savings that far exceed advisory fees.</li>
               </ul>
             </div>
           </div>
@@ -2826,14 +2826,14 @@ export default function NBFCLoanSettlementPageClient() {
                 <span className="flex-shrink-0 w-7 h-7 rounded-full bg-blue-100 text-blue-700 font-bold flex items-center justify-center text-xs">3</span>
                 <div>
                   <div className="font-bold text-slate-900 text-xs sm:text-sm">Prepare Financial Hardship Dossier</div>
-                  <p className="text-xs text-slate-600">Compile documented proof of genuine financial distress (medical records, termination letters, GST filings) demonstrating permanent repayment impairment.</p>
+                  <p className="text-xs text-slate-600">Compile documented proof of genuine money stress (medical records, end letters, GST filings) demonstrating permanent repayment impairment.</p>
                 </div>
               </div>
               <div className="flex gap-3 items-start p-3 bg-white border border-slate-200 rounded-xl">
                 <span className="flex-shrink-0 w-7 h-7 rounded-full bg-blue-100 text-blue-700 font-bold flex items-center justify-center text-xs">4</span>
                 <div>
                   <div className="font-bold text-slate-900 text-xs sm:text-sm">Formal Proposal Submission &amp; Escalation</div>
-                  <p className="text-xs text-slate-600">Submit a formal written settlement proposal to the NBFC&apos;s Zonal Credit Committee, anchoring the opening offer at 30% to 40% of the base principal.</p>
+                  <p className="text-xs text-slate-600">Submit a formal written settlement offer to the NBFC&apos;s Zonal Credit Committee, anchoring the opening offer at 30% to 40% of the base principal.</p>
                 </div>
               </div>
               <div className="flex gap-3 items-start p-3 bg-white border border-slate-200 rounded-xl">
@@ -2847,7 +2847,7 @@ export default function NBFCLoanSettlementPageClient() {
                 <span className="flex-shrink-0 w-7 h-7 rounded-full bg-blue-100 text-blue-700 font-bold flex items-center justify-center text-xs">6</span>
                 <div>
                   <div className="font-bold text-slate-900 text-xs sm:text-sm">Closure, NDC &amp; Credit Bureau Rectification</div>
-                  <p className="text-xs text-slate-600">Obtain the physical No Dues Certificate, confirm withdrawal of all legal proceedings, and verify ₹0 balance across all four credit bureaus.</p>
+                  <p className="text-xs text-slate-600">Obtain the physical No Dues Certificate, confirm withdrawal of all legal actions, and verify ₹0 balance across all four credit bureaus.</p>
                 </div>
               </div>
             </div>
@@ -2862,10 +2862,10 @@ export default function NBFCLoanSettlementPageClient() {
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p>
-              Defaulting on an NBFC loan is not a criminal failing—it is an economic consequence of unforeseen life events, medical emergencies, or commercial volatility. Under Indian law and the Reserve Bank of India&apos;s regulatory architecture, every borrower is entitled to dignity, fair recovery practices, and the legal mechanism of a compromise settlement to resolve unsustainable liabilities.
+              Defaulting on an NBFC loan is not a criminal failing—it is an economic result of unforeseen life events, medical emergencies, or commercial volatility. Under Indian law and the Reserve Bank of India&apos;s regulatory architecture, every borrower is entitled to dignity, fair recovery practices, and the legal method of a one-time settlement to resolve unsustainable liabilities.
             </p>
             <p>
-              A structured one-time settlement (OTS) offers an honorable, pragmatic exit path from debt distress. By understanding your statutory rights, insisting on verified written documentation, and executing negotiations strategically, you can eliminate debt burdens, extinguish legal exposure, and rebuild your financial future on stable ground.
+              A structured one-time settlement (OTS) offers an honorable, pragmatic exit path from debt distress. By understanding your legal rights, insisting on verified written documents, and executing negotiations strategically, you can eliminate debt burdens, clear legal exposure, and rebuild your financial future on stable ground.
             </p>
 
             {/* GRAND CONCLUSION CALLOUT CARD */}

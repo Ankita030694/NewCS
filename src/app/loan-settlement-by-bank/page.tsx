@@ -108,10 +108,10 @@ export default function LoanSettlementPage() {
           </h2>
           <div className="prose max-w-none text-gray-700 leading-relaxed space-y-4">
             <p>
-              When unforeseen financial hardships—such as job loss, critical medical emergencies. Severe business downturns—prevent a borrower from servicing their monthly EMIs, an official. <strong>One-Time Settlement (OTS).</strong> provides a legal mechanism to close outstanding unsecured debts. Under Reserve Bank of India (RBI) prudential guidelines, commercial banks and Non-Banking Financial Companies (NBFCs) possess structured policies to negotiate reduced lump-sum or staggered settlements.
+              When unforeseen hardships—such as job loss, critical medical emergencies. Severe business downturns—prevent a borrower from servicing their monthly EMIs, an official. <strong>One-Time Settlement (OTS).</strong> provides a legal method to close outstanding unsecured debts. Under Reserve Bank of India (RBI) prudential guidelines, banks and Non-Banking Financial Companies (NBFCs) possess structured policies to negotiate reduced lump-sum or staggered settlements.
             </p>
             <p>
-              The settlement parameters differ greatly based on the lender category. <strong>Public Sector Banks (such as SBI, PNB, and Bank of Baroda).</strong> primarily operate under strict board-approved compromise settlement schemes or statutory Lok Adalats, often requiring concrete proof of insolvency or genuine distress. Conversely,. <strong>Private Banks (such as HDFC, ICICI, and Axis Bank).</strong> and digital NBFCs frequently empower internal overdue asset divisions to approve customized waiver percentages on accrued interest and penalty charges, typically concluding negotiations within 30 to 60 days.
+              Settlement rules differ based on the lender type. <strong>Public Sector Banks (such as SBI, PNB, and Bank of Baroda)</strong> mostly work under board-approved schemes or Lok Adalats. They require clear proof of hardship. In contrast, <strong>Private Banks (such as HDFC, ICICI, and Axis Bank)</strong> and digital NBFCs allow internal teams to approve waivers on interest and penalty fees. They often close settlements within 30 to 60 days.
             </p>
           </div>
 
@@ -148,7 +148,7 @@ export default function LoanSettlementPage() {
           <div className="space-y-6">
             <div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                Can banks initiate criminal proceedings for personal loan default?
+                Can banks start criminal actions for personal loan default?
               </h3>
               <p className="text-gray-600 leading-relaxed">
                 No. In India, defaulting on an unsecured personal loan or credit card is fundamentally a civil dispute, not a criminal offence. Banks cannot file police complaints for non-payment unless there is substantiated evidence of fraud, forgery. Willful absconding with hypothecated assets.

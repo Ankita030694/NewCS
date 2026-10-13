@@ -43,8 +43,11 @@ function isPopularBank(bankName: string): boolean {
 }
 
 export default function BanksGrid({ serviceType, servicePath }: { serviceType: string; servicePath?: string }) {
-  // Default to personal-loan-settlement if servicePath not provided
-  const defaultServicePath = servicePath || 'personal-loan-settlement';
+  // Normalize service path to strip leading/trailing slashes and any redundant 'services/' prefix
+  const cleanServicePath = (servicePath || 'personal-loan-settlement')
+    .replace(/^\/+/, '')
+    .replace(/^services\//, '')
+    .replace(/\/+$/, '');
   
   // Banks list (traditional banks)
   const banks = [
@@ -179,7 +182,7 @@ export default function BanksGrid({ serviceType, servicePath }: { serviceType: s
   ];
 
   // Use NBFCs list if servicePath is nbfc-loan-settlement, otherwise use combined list
-  const institutions = servicePath === 'nbfc-loan-settlement' ? nbfcs : [...banks, ...nbfcs];
+  const institutions = cleanServicePath === 'nbfc-loan-settlement' ? nbfcs : [...banks, ...nbfcs];
 
   // Search state and debounced query
   const [query, setQuery] = useState('');
@@ -257,7 +260,7 @@ export default function BanksGrid({ serviceType, servicePath }: { serviceType: s
             lineHeight: '18px'
           }}
         >
-          {servicePath === 'nbfc-loan-settlement' 
+          {cleanServicePath === 'nbfc-loan-settlement' 
             ? `${serviceType} settlement services with leading NBFCs across India`
             : `${serviceType} settlement services with leading banks and NBFCs across India`}
         </p>
@@ -305,7 +308,7 @@ export default function BanksGrid({ serviceType, servicePath }: { serviceType: s
               return (
                 <SplideSlide key={`search-${index}`}>
                   <Link
-                    href={`/services/${defaultServicePath}/banks/${institutionSlug}`}
+                    href={`/services/${cleanServicePath}/banks/${institutionSlug}`}
                     className="cursor-pointer transition-all duration-200 hover:opacity-80"
                     style={{
                       borderRadius: '24px',
@@ -362,7 +365,7 @@ export default function BanksGrid({ serviceType, servicePath }: { serviceType: s
               return (
                 <SplideSlide key={`${rowIdx}-${index}`}>
                   <Link
-                    href={`/services/${defaultServicePath}/banks/${institutionSlug}`}
+                    href={`/services/${cleanServicePath}/banks/${institutionSlug}`}
                     className="cursor-pointer transition-all duration-200 hover:opacity-80"
                     style={{
                       borderRadius: '24px',

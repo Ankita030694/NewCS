@@ -2738,7 +2738,7 @@ export default function CarLoanSettlementPageClient() {
 
               {/* Bank Partners Grid */}
               <div className="my-8 pt-6 border-t border-gray-200">
-                <BanksGrid serviceType="car-loan-settlement" servicePath="/services/car-loan-settlement" />
+                <BanksGrid serviceType="car-loan-settlement" servicePath="car-loan-settlement" />
               </div>
 
               {/* Conclusion Callout Box Matching loan-settlement */}

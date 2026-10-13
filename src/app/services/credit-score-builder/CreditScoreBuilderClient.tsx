@@ -61,7 +61,7 @@ export default function CreditScoreBuilderClient() {
         },
         {
             question: 'Can I check my CIBIL score for free?',
-            answer: 'Yes, you can check your CIBIL credit score for free once a year from the CIBIL website. Additionally, many banks and financial institutions offer free credit score checks to their customers. Regular monitoring of your credit score is important for credit score building, as it helps you track your progress and identify any issues that need to be addressed.'
+            answer: 'Yes, you can check your CIBIL credit score for free once a year from the CIBIL website. Also, many banks and banks offer free credit score checks to their customers. Regular monitoring of your credit score is important for credit score building, as it helps you track your progress and identify any issues that need to be addressed.'
         },
         {
             question: 'What factors affect my CIBIL credit score negatively?',
@@ -902,7 +902,7 @@ export default function CreditScoreBuilderClient() {
                         Ready to Improve Your CIBIL Credit Score?
                       </h2>
                       <p className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full" style={{ color: 'rgba(12, 39, 86, 0.70)' }}>
-                        Get professional credit score building assistance from CredSettle’s expert team. Improve your CIBIL credit score through proven strategies and personalized guidance-start your path to better credit today.
+                        Get professional credit score building help from CredSettle’s expert team. Improve your CIBIL credit score through proven strategies and personalized guidance-start your path to better credit today.
                       </p>
                     </div>
 

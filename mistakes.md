@@ -411,6 +411,38 @@
 
 
 
+* **Mistake 42: Malformed External Google Share URL (`Response Codes: External No Response` / DNS Lookup Failed)**
+  * *Why it happens:*
+    1. In `NewCS/src/app/about/page.tsx`, the mobile Google review card link had `https://share.google.com/UGjkJ5UCd6UiyJ7A6` instead of the canonical Google TLD `https://share.google/UGjkJ5UCd6UiyJ7A6`.
+    2. The domain `share.google.com` does not exist in DNS (Google uses `.google` TLD). Crawlers and users attempting to resolve `share.google.com` encounter a DNS resolution failure (curl error 6 / status code 0), causing Screaming Frog to flag it under `Response Codes: External No Response`.
+  * *Prevention:*
+    1. **Strict Google Share TLD Usage:** Google share URLs use `https://share.google/[id]` (top-level domain `.google`). Never append `.com` to `share.google`.
+    2. **Verify URL Resolution:** Always test external URLs with `curl.exe -I` to verify they return valid HTTP responses (200 or 302 redirect) before committing.
+
+* **Mistake 43: Images Missing Size Attributes (`Images: Missing Size Attributes`)**
+  * *Why it happens:*
+    1. Standard HTML `<img>` elements were created without explicit HTML `width` and `height` attributes (relying solely on inline CSS styles or Tailwind utility classes like `className="w-24 h-24"` or `style={{ height: 'auto' }}`).
+    2. Next.js `<Image fill />` components render HTML `<img>` tags with absolute positioning and inline styles, but omit HTML `width="..."` and `height="..."` attributes in the server-rendered DOM.
+    3. Screaming Frog audits the raw HTML markup. When `width` and `height` attributes are missing on image elements, it flags them under `Images: Missing Size Attributes` because browsers cannot allocate aspect-ratio space before downloading image assets, contributing to Cumulative Layout Shift (CLS).
+  * *Prevention:*
+    1. **Always Provide Explicit HTML Dimensions:** Every `<img>` tag and Next.js `<Image>` component must have explicit numeric `width` and `height` attributes matching native or target display dimensions (e.g. `width={500} height={500}`).
+    2. **Avoid `<Image fill />` for In-Content or Card Thumbnails:** In blog cards and resource grids, replace `fill` with explicit dimensions (e.g., `width={400} height={240}` or `width={600} height={360}`) combined with `className="w-full h-full object-cover"`.
+    3. **Responsive Sizing via CSS:** Pair HTML `width` and `height` attributes with CSS classes (e.g. `className="w-full h-auto max-w-[500px]"`) so that browsers reserve the proper aspect-ratio space to eliminate layout shifts while preserving fluid responsive layouts across mobile and desktop.
+
+* **Mistake 44: Redundant Route Prefixes in Internal Link Generators (`URL: Multiple Slashes`, `URL: Repetitive Path`, `Response Codes: Internal Redirection (3xx)`)**
+  * *Why it happens:*
+    1. Shared components like `BanksGrid.tsx` construct link URLs using template strings: `href={`/services/${cleanServicePath}/banks/${institutionSlug}`}`.
+    2. Parent pages (e.g. `CarLoanSettlementPageClient.tsx` and `BusinessLoanSettlementPageClient.tsx`) passed props like `servicePath="/services/car-loan-settlement"`.
+    3. The interpolation produced URLs with double slashes and repetitive paths: `/services//services/car-loan-settlement/banks/citibank`.
+    4. Next.js server handles double slashes (`//`) by issuing an HTTP 308 Permanent Redirect to normalize consecutive slashes.
+    5. Screaming Frog flagged all 93 generated bank inlinks under `URL: Multiple Slashes`, `URL: Repetitive Path`, and `Response Codes: Internal Redirection (3xx)`.
+  * *Prevention:*
+    1. **Defensive Path Sanitization in Shared Components:** Shared link or navigation components must sanitize prop paths using `.replace(/^\/+/, '').replace(/^services\//, '').replace(/\/+$/, '')` before interpolating into URL strings.
+    2. **Clean Props at Call Sites:** Always pass clean route slugs without leading slashes or redundant parent segments (e.g., `servicePath="car-loan-settlement"`).
+    3. **Zero Consecutive Slashes:** Ensure all internal link templates produce clean, canonical URLs with exactly single `/` path separators.
+
+---
+
 ## 🛠️ Step-by-Step Protocol When Resolving Screaming Frog Issues
 
 1. **Check `mistakes.md` First:** Review the rules above before writing or modifying any code.

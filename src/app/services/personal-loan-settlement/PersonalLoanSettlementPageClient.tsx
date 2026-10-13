@@ -186,7 +186,7 @@ export default function PersonalLoanSettlementPageClient() {
   const faqs = [
     {
       question: 'What is personal loan settlement and how does it legally work in India?',
-      answer: 'Personal loan compromise—structured in retail banking practice as a One-Time Settlement (OTS)—is a recognized bipartite legal agreement between a borrower experiencing genuine, verifiable financial distress and a lending bank or NBFC. Under this binding compromise, the creditor agrees to accept a mutually negotiated settlement payment (typically 35% to 60% of total claimed ledger balance) as complete and permanent discharge of the debt obligation. Following account crediting of the sanctioned settlement remittance, the financial institution terminates the credit file, quashes recovery measures, and releases an official closure deed.'
+      answer: 'Personal loan settlement—structured in retail banking practice as a One-Time Settlement (OTS)—is a recognized bipartite legal agreement between a borrower experiencing genuine, verifiable money stress and a lending bank or NBFC. Under this binding settlement, the creditor agrees to accept a mutually negotiated settlement payment (typically 35% to 60% of total claimed ledger balance) as complete and permanent discharge of the debt obligation. Following account crediting of the sanctioned settlement payment, the bank terminates the credit file, quashes recovery measures, and releases an official closure deed.'
     },
     {
       question: 'Is personal loan settlement officially recognized and legal under RBI circulars?',
@@ -194,31 +194,31 @@ export default function PersonalLoanSettlementPageClient() {
     },
     {
       question: 'How much haircut or waiver can I realistically expect on my personal loan?',
-      answer: 'In personal loan compromise settlements, lenders routinely waive 100% of accumulated penal interest, late payment fees, and cheque/e-NACH bounce charges. On the core unamortized principal balance, negotiated haircuts typically range from 30% to 60%, depending on the default vintage (e.g. 90 days vs 18 months), severity of verified hardship, whether the account has been classified as a doubtful/loss asset, and the quality of advocate-led representation.'
+      answer: 'In personal loan one-time settlements, lenders routinely waive 100% of built up penal interest, late payment fees, and cheque/e-NACH bounce charges. On the core unamortized principal balance, negotiated haircuts typically range from 30% to 60%, depending on the default vintage (e.g. 90 days vs 18 months), severity of verified hardship, whether the account has been classified as a doubtful/loss asset, and the quality of advocate-led representation.'
     },
     {
       question: 'Is a 50% waiver on an unsecured personal loan achievable?',
-      answer: 'Yes. Achieving a 45% to 55% reduction on total outstanding dues is very common for unsecured personal loans that have crossed 90 to 180 days of delinquency (NPA stage). Because personal loans lack collateral, the bank recognizes that recovering 50% in cash today is commercially superior to spending years in civil courts with zero recovery guarantee.'
+      answer: 'Yes. Achieving a 45% to 55% reduction on total outstanding dues is very common for unsecured personal loans that have crossed 90 to 180 days of default (NPA stage). Because personal loans lack collateral, the bank recognizes that recovering 50% in cash today is commercially superior to spending years in civil courts with zero recovery guarantee.'
     },
     {
       question: 'Does the RBI mandate or guarantee a specific waiver percentage?',
-      answer: 'No. The RBI mandates that all lenders have structured settlement frameworks and transparent delegation of financial powers, but it leaves the exact waiver haircut to the commercial judgment and board-approved compromise policy of each respective bank or NBFC based on the borrower\'s verifiable net worth and liquidation value.'
+      answer: 'No. The RBI mandates that all lenders have structured settlement frameworks and clear delegation of financial powers, but it leaves the exact waiver haircut to the commercial judgment and board-approved settlement policy of each respective bank or NBFC based on the borrower\'s verifiable net worth and liquidation value.'
     },
     {
       question: 'When is the strategically optimal time to initiate a personal loan settlement?',
-      answer: 'The optimal window is typically between 90 days and 180 days past due (when the account transitions from SMA-2 into a Sub-Standard NPA), or during quarterly National Lok Adalat cycles organized by NALSA. At this juncture, the bank has already absorbed mandatory 15% capital provisioning hits on its balance sheet, making its Stressed Asset Management Branch highly receptive to compromise offers.'
+      answer: 'The optimal window is typically between 90 days and 180 days past due (when the account transitions from SMA-2 into a Sub-Standard NPA), or during quarterly National Lok Adalat cycles organized by NALSA. At this juncture, the bank has already absorbed mandatory 15% capital provisioning hits on its balance sheet, making its Stressed Asset Management Branch highly receptive to settlement offers.'
     },
     {
       question: 'Can I settle a personal loan before it becomes an NPA (within 90 days of default)?',
-      answer: 'Banks rarely agree to compromise principal haircuts while the loan is in regular standard status (SMA-0 or SMA-1). Prior to NPA classification, lenders prefer tenure extensions, EMI restructuring, or moratoriums. Substantial OTS waivers typically unlock only after the account reaches NPA classification under RBI prudential norms.'
+      answer: 'Banks rarely agree to settlement principal haircuts while the loan is in regular standard status (SMA-0 or SMA-1). Prior to NPA classification, lenders prefer tenure extensions, EMI restructuring, or moratoriums. Substantial OTS waivers typically unlock only after the account reaches NPA classification under RBI prudential norms.'
     },
     {
       question: 'How should I respond if served with a Section 138 or Section 25 court notice?',
-      answer: 'Never ignore a statutory legal demand notice. Under Section 138 of Negotiable Instruments Act or Section 25 of Payment and Settlement Systems Act, you have a statutory window of 15 days from receipt to respond. CredSettle advocates file a robust legal reply highlighting genuine economic hardship and proposing a compromise settlement. Once settled, these offenses are fully compoundable under Section 147 of the NI Act and Section 320 of the CrPC, resulting in complete withdrawal of court proceedings.'
+      answer: 'Never ignore a legal legal demand notice. Under Section 138 of Negotiable Instruments Act or Section 25 of Payment and Settlement Systems Act, you have a legal window of 15 days from receipt to respond. CredSettle advocates file a robust legal reply highlighting genuine economic hardship and proposing a one-time settlement. Once settled, these offenses are fully compoundable under Section 147 of the NI Act and Section 320 of the CrPC, resulting in complete withdrawal of court actions.'
     },
     {
       question: 'Can I be arrested, jailed, or face police detention for defaulting on a personal loan?',
-      answer: 'No criminal liability attaches to loan defaults caused by economic hardship. In its authoritative verdict in Jolly George Varghese (1980), the Supreme Court ruled that an honest borrower lacking present means to clear civil dues cannot be detained under Article 21 rights, the Supreme Court of India held that simple poverty or inability to pay a civil debt cannot lead to imprisonment under Article 21 of the Constitution. Police have no jurisdiction or statutory power to arrest or summon borrowers for unsecured loan defaults.'
+      answer: 'No criminal liability attaches to loan defaults caused by economic hardship. In its authoritative verdict in Jolly George Varghese (1980), the Supreme Court ruled that an honest borrower lacking present means to clear civil dues cannot be detained under Article 21 rights, the Supreme Court of India held that simple poverty or inability to pay a civil debt cannot lead to imprisonment under Article 21 of the Constitution. Police have no jurisdiction or legal power to arrest or summon borrowers for unsecured loan defaults.'
     },
     {
       question: 'Do collection representatives have the right to visit my residence or workplace?',
@@ -226,7 +226,7 @@ export default function PersonalLoanSettlementPageClient() {
     },
     {
       question: 'How does personal loan settlement impact my CIBIL score and bureau report?',
-      answer: 'The financial institution relays updated repayment records to the four licensed credit information bureaus (CIBIL, Experian, Equifax, and CRIF) marking the loan as \'Settled\' (or \'Post-Write-Off Settled\') instead of \'Closed\'. This triggers a score drop of 75 to 120 points. However, settlement stops the continuous compounding of negative Days Past Due (DPD 90+, 180+) and clears the overdue amount to zero, enabling credit recovery to 750+ within 12 to 24 months.'
+      answer: 'The bank relays updated repayment records to the four licensed credit information bureaus (CIBIL, Experian, Equifax, and CRIF) marking the loan as \'Settled\' (or \'Post-Write-Off Settled\') instead of \'Closed\'. This triggers a score drop of 75 to 120 points. However, settlement stops the continuous compounding of negative Days Past Due (DPD 90+, 180+) and clears the overdue amount to zero, enabling credit recovery to 750+ within 12 to 24 months.'
     },
     {
       question: 'Can the \'Settled\' remark on my credit report be updated to \'Closed\' in the future?',
@@ -242,15 +242,15 @@ export default function PersonalLoanSettlementPageClient() {
     },
     {
       question: 'What is the mandatory RBI cooling-off period before I can apply for new loans?',
-      answer: 'Under the RBI Compromise Settlement Framework circular of June 8, 2023, regulated entities are required to observe a mandatory cooling-off period of at least 12 months before sanctioning fresh credit facilities to borrowers who have executed a compromise settlement.'
+      answer: 'Under the RBI one-time settlement Framework circular of June 8, 2023, regulated entities are required to observe a mandatory cooling-off period of at least 12 months before sanctioning fresh credit facilities to borrowers who have executed a one-time settlement.'
     },
     {
       question: 'What documents are legally mandatory to substantiate financial hardship for an OTS?',
-      answer: 'To satisfy bank audit and RBI compliance, you must provide KYC records (PAN, Aadhaar), comprehensive loan account statements, last 6 to 12 months bank statements of all active accounts, Form 16 / ITR, and verifiable hardship proof such as official termination/layoff letters, hospital discharge summaries, medical diagnosis reports, or business closure GST cancellation certificates.'
+      answer: 'To satisfy bank audit and RBI compliance, you must provide KYC records (PAN, Aadhaar), complete loan account statements, last 6 to 12 months bank statements of all active accounts, Form 16 / ITR, and verifiable hardship proof such as official end/layoff letters, hospital discharge summaries, medical diagnosis reports, or business closure GST cancellation certificates.'
     },
     {
       question: 'What is the difference between a provisional settlement receipt and a No Dues Certificate (NDC)?',
-      answer: 'A payment receipt or UTR slip only proves that money was transferred. It does NOT legally extinguish debt. An official No Dues Certificate (NDC) or release deed is an authenticated legal instrument issued under bank seal confirming that the loan facility is permanently closed with zero outstanding balance and that the bank waives all future recovery claims.'
+      answer: 'A payment receipt or UTR slip only proves that money was transferred. It does NOT legally clear debt. An official No Dues Certificate (NDC) or release deed is an authenticated legal instrument issued under bank seal confirming that the loan facility is permanently closed with zero outstanding balance and that the bank waives all future recovery claims.'
     },
     {
       question: 'Why is engaging legal counsel or an advocate-led settlement firm superior to negotiating alone?',
@@ -294,7 +294,7 @@ export default function PersonalLoanSettlementPageClient() {
             The Complete Legal &amp; Financial Master Guide
           </p>
           <p className="text-xs sm:text-sm text-slate-200 mb-4 sm:mb-5 max-w-2xl mx-auto font-normal leading-relaxed px-1">
-            Understand the RBI compromise settlement policy for unsecured personal loans, stop recovery agent harassment, defend legal notices under Order 37 &amp; Sec 25, calculate realistic OTS ranges, and protect your dignity.
+            Understand the RBI one-time settlement policy for unsecured personal loans, stop recovery agent harassment, defend legal notices under Order 37 &amp; Sec 25, calculate realistic OTS ranges, and protect your dignity.
           </p>
           <div className="flex flex-col sm:flex-row gap-2.5 sm:gap-3 justify-center items-stretch sm:items-center max-w-md sm:max-w-none mx-auto">
             <Link
@@ -562,17 +562,17 @@ export default function PersonalLoanSettlementPageClient() {
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
-                    <strong>Personal loan settlement</strong>—recognized under retail banking regulations as an authorized bipartite compromise accord—enables an overburdened borrower to reach a permanent legal closure with the lending institution.</p>
+                    <strong>Personal loan settlement</strong>—recognized under retail banking regulations as an authorized bipartite settlement accord—enables an overburdened borrower to reach a permanent legal closure with the lending institution.</p>
 
                   <h3 className="text-base sm:text-lg font-bold text-black mt-5 mb-2">Easy Meaning of Personal Loan Settlement</h3>
                   <p>
                     In simple everyday terms, a personal loan in India is an <em>unsecured credit facility</em>. There is no underlying collateral—such as a residential apartment, commercial shop, physical gold, or motor vehicle—that the bank can seize, seal, or auction under the SARFAESI Act, 2002. The loan is disbursed purely against the borrower&apos;s past credit history and prospective earning capacity.
                   </p>
                   <p>
-                    When an individual experiences an acute, unforeseen financial catastrophe—such as corporate retrenchment, involuntary salary reduction, catastrophic medical hospitalization of a family member, sudden commercial business insolvency, or demise of the sole earning member—servicing contractual monthly EMIs becomes mathematically impossible.
+                    When an individual experiences an acute, unforeseen financial catastrophe—such as corporate retrenchment, involuntary salary reduction, catastrophic medical hospitalization of a family member, sudden commercial business bankruptcy, or demise of the sole earning member—servicing contractual monthly EMIs becomes mathematically impossible.
                   </p>
                   <p>
-                    Once EMIs stop, lenders initiate automated penalty mechanisms. Compounding late payment charges, penal interest (routinely 24% to 36% APR), and recurring NACH/cheque bounce fees cause the nominal ledger claim to mushroom far beyond the initial principal borrowed. Recognizing that a financially insolvent individual cannot service this hyper-inflated ledger, the bank&apos;s authorized Settlement Committee exercises its commercial judgment under Reserve Bank of India (RBI) guidelines to accept a realistic lump-sum or phased compromise payment (haircut), extinguishing the remaining principal and 100% of accumulated penal charges.
+                    Once EMIs stop, lenders start automated penalty methods. Compounding late payment charges, penal interest (routinely 24% to 36% APR), and recurring NACH/cheque bounce fees cause the nominal ledger claim to mushroom far beyond the initial principal borrowed. Recognizing that a financially insolvent individual cannot service this hyper-inflated ledger, the bank&apos;s authorized Settlement Committee exercises its commercial judgment under Reserve Bank of India (RBI) guidelines to accept a realistic lump-sum or phased settlement payment (haircut), extinguishing the remaining principal and 100% of built up penal charges.
                   </p>
 
                   <h3 className="text-base sm:text-lg font-bold text-black mt-5 mb-2">Personal Loan Settlement Explained With an Example</h3>
@@ -590,7 +590,7 @@ export default function PersonalLoanSettlementPageClient() {
                       <strong>Bank&apos;s Inflated Demand Notice:</strong> Core Principal (₹5,40,000) + Normal Accrued Contractual Interest (₹1,35,000) + Punitive Late Penalties &amp; Recurring NACH Dishonor Fees (₹95,000) = <strong>₹7,70,000 Total Demanded Balance</strong>.
                     </p>
                     <p>
-                      <strong>Advocate-Led Strategic Intervention:</strong> CredSettle&apos;s senior banking advocates assembled an irrefutable hardship dossier containing hospital surgical discharge summaries, the company retrenchment letter, and zero-balance savings statements. We submitted a formal OTS petition to the bank&apos;s Stressed Asset Resolution Branch (SARB) and Principal Nodal Officer, citing the RBI June 8, 2023 Compromise Framework.
+                      <strong>Advocate-Led Strategic Intervention:</strong> CredSettle&apos;s senior banking advocates assembled an irrefutable hardship dossier containing hospital surgical discharge summaries, the company retrenchment letter, and zero-balance savings statements. We submitted a formal OTS petition to the bank&apos;s Stressed Asset Resolution Branch (SARB) and Principal Nodal Officer, citing the RBI June 8, 2023 settlement Framework.
                     </p>
                     <p>
                       <strong>Sanctioned Settlement Terms:</strong> Following structured multi-round negotiations, the bank&apos;s Settlement Committee sanctioned an official One-Time Settlement:
@@ -608,7 +608,7 @@ export default function PersonalLoanSettlementPageClient() {
 
                   <h3 className="text-base sm:text-lg font-bold text-black mt-5 mb-2">Personal Loan Settlement vs Loan Closure</h3>
                   <p>
-                    Borrowers frequently confuse regular loan closure with compromise settlement. While both result in account termination, their financial requirements, legal documentation, and credit bureau consequences differ fundamentally:
+                    Borrowers frequently confuse regular loan closure with one-time settlement. While both result in account end, their financial requirements, legal documents, and credit bureau results differ fundamentally:
                   </p>
                   <div className="overflow-x-auto my-3">
                     <table className="w-full text-xs text-left text-black border border-gray-200 rounded-xl">
@@ -683,34 +683,34 @@ export default function PersonalLoanSettlementPageClient() {
 
                   <h3 className="text-base sm:text-lg font-bold text-black mt-5 mb-2">Eligibility for Personal Loan Settlement</h3>
                   <p>
-                    Lending institutions routinely reject compromise proposals from solvent borrowers who possess liquid reserves or steady disposable cash flow. To be approved for a genuine One-Time Settlement, the following criteria must be established:
+                    Lending institutions routinely reject settlement offers from solvent borrowers who possess liquid reserves or steady disposable cash flow. To be approved for a genuine One-Time Settlement, the following criteria must be established:
                   </p>
                   <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-black">
                     <li>
-                      <strong>NPA Delinquency Threshold:</strong> The loan account must have crossed <strong>90 days of continuous non-payment</strong>, classifying it as a Non-Performing Asset (NPA) under RBI Prudential Norms. While in rare circumstances pre-NPA settlements are approved, significant principal haircuts are almost universally restricted to NPA accounts.
+                      <strong>NPA Delinquency Threshold:</strong> The loan account must have crossed <strong>90 days of continuous non-payment</strong>, classifying it as a Non-Performing Asset (NPA) under RBI Prudential Norms. While in rare cases pre-NPA settlements are approved, major principal haircuts are almost universally restricted to NPA accounts.
                     </li>
                     <li>
-                      <strong>Demonstrable Involuntary Hardship:</strong> The inability to pay must arise from legitimate, unavoidable economic shocks—such as involuntary job termination, prolonged medical treatment or hospitalization, commercial business collapse, divorce, or permanent physical disability.
+                      <strong>Demonstrable Involuntary Hardship:</strong> The inability to pay must arise from legitimate, unavoidable economic shocks—such as involuntary job end, prolonged medical treatment or hospitalization, commercial business collapse, divorce, or permanent physical disability.
                     </li>
                     <li>
                       <strong>Absence of Liquid Surplus &amp; At-Risk Assets:</strong> The borrower&apos;s bank statements must confirm negligible disposable cash flow after meeting essential family living expenditures (food, housing, medical, education).
                     </li>
                     <li>
-                      <strong>Non-Wilful Defaulter Classification:</strong> The borrower must not be classified as a &quot;Wilful Defaulter&quot; under RBI Master Circular DBR.No.CID.BC.22/20.16.003/2015-16. There must be no evidence of fund diversion, fraudulent documentation at the time of loan application, or siphoning of borrowed capital into speculative luxury investments.
+                      <strong>Non-Wilful Defaulter Classification:</strong> The borrower must not be classified as a &quot;Wilful Defaulter&quot; under RBI Master Circular DBR.No.CID.BC.22/20.16.003/2015-16. There must be no evidence of fund diversion, fraudulent documents at the time of loan application, or siphoning of borrowed capital into speculative luxury investments.
                     </li>
                   </ul>
 
                   <h3 className="text-base sm:text-lg font-bold text-black mt-5 mb-2">Documents Required to Initiate Settlement</h3>
                   <p>
-                    Before initiating contact with the bank, you must construct an airtight hardship dossier. Banks are subject to statutory audits by the RBI and statutory auditors; every rupee of debt waived must be backed by documentary justification in the bank&apos;s credit file:
+                    Before starting contact with the bank, you must construct an airtight hardship dossier. Banks are subject to legal audits by the RBI and legal auditors; every rupee of debt waived must be backed by documentary justification in the bank&apos;s credit file:
                   </p>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs my-3">
                     <div className="p-3.5 bg-gray-50 rounded-xl border border-gray-200">
                       <strong className="text-black block mb-1 text-xs sm:text-sm">1. Verifiable Hardship Dossier</strong>
                       <ul className="text-black space-y-1 list-disc list-inside">
-                        <li>Official termination / layoff letter from employer.</li>
+                        <li>Official end / layoff letter from employer.</li>
                         <li>Hospital discharge summaries, medical diagnosis, surgery bills.</li>
-                        <li>Audited P&amp;L showing business insolvency or GST cancellation notice.</li>
+                        <li>Audited P&amp;L showing business bankruptcy or GST cancellation notice.</li>
                         <li>Death certificate of family primary breadwinner (if applicable).</li>
                       </ul>
                     </div>
@@ -745,7 +745,7 @@ export default function PersonalLoanSettlementPageClient() {
 
                   <h3 className="text-base sm:text-lg font-bold text-black mt-5 mb-2">How to Approach the Bank or NBFC</h3>
                   <p>
-                    A critical blunder made by defaulting borrowers is attempting to negotiate settlement terms with third-party recovery agents or call-center executives. These agents work on commission quotas and have <em>zero institutional authority</em> to sanction principal waivers or issue No Dues Certificates. To approach the lender properly:
+                    A critical blunder made by defaulting borrowers is attempting to negotiate settlement terms with third-party recovery agents or call-center executives. These agents work on commission quotas and have <em>zero institutional official</em> to sanction principal waivers or issue No Dues Certificates. To approach the lender properly:
                   </p>
                   <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-black">
                     <li>
@@ -755,7 +755,7 @@ export default function PersonalLoanSettlementPageClient() {
                       <strong>Use Formal Written Channels:</strong> Submit formal representations via <strong>Registered Post with Acknowledgment Due (RPAD)</strong> and through official institutional email channels addressed to the bank&apos;s Principal Nodal Officer (PNO) and Chief Grievance Officer.
                     </li>
                     <li>
-                      <strong>Seek Lok Adalat Referral:</strong> Explicitly request that the dispute be referred to the upcoming <strong>National Lok Adalat</strong> organized under the aegis of the National Legal Services Authority (NALSA), where compromise settlements are sanctioned with judicial finality under Section 21 of the Legal Services Authorities Act, 1987.
+                      <strong>Seek Lok Adalat Referral:</strong> Explicitly request that the dispute be referred to the upcoming <strong>National Lok Adalat</strong> organized under the aegis of the National Legal Services Authority (NALSA), where one-time settlements are sanctioned with judicial finality under Section 21 of the Legal Services Authorities Act, 1987.
                     </li>
                   </ul>
 
@@ -768,7 +768,7 @@ export default function PersonalLoanSettlementPageClient() {
                       <strong>First Step: 100% Extinguishment of Penal Dues:</strong> Establish firmly that zero penal interest, late payment penalties, or recurring NACH dishonor charges will be entertained. In virtually all genuine OTS cases, banks concede to 100% waiver of non-principal charges.
                     </li>
                     <li>
-                      <strong>Anchor on Unamortized Core Principal:</strong> Base all calculations strictly on the core unamortized principal balance at the time of default, discounting all post-delinquency compound interest.
+                      <strong>Anchor on Unamortized Core Principal:</strong> Base all calculations strictly on the core unamortized principal balance at the time of default, discounting all post-default compound interest.
                     </li>
                     <li>
                       <strong>Initial Proposal (25% to 35%):</strong> Propose an opening settlement figure representing 25% to 35% of the principal balance, backed by demonstrable proof of available savings from relatives or emergency funds.
@@ -777,7 +777,7 @@ export default function PersonalLoanSettlementPageClient() {
                       <strong>Consensus Band (40% to 55%):</strong> Through professional advocate representation demonstrating lack of attachable assets, most unsecured personal loans stabilize within an agreed settlement band of <strong>40% to 55% of the unamortized principal balance</strong>.
                     </li>
                     <li>
-                      <strong>Lump-Sum vs Structured Tranches:</strong> Offering an immediate single-bullet payment within 15 days yields significantly higher haircuts than requesting 3 to 6 monthly installments.
+                      <strong>Lump-Sum vs Structured Tranches:</strong> Offering an immediate single-bullet payment within 15 days yields greatly higher haircuts than requesting 3 to 6 monthly installments.
                     </li>
                   </ul>
 
@@ -795,7 +795,7 @@ export default function PersonalLoanSettlementPageClient() {
                       <li>Sanctioned settlement figure matching agreed negotiation terms precisely.</li>
                       <li>Strict payment due dates (single bullet date or installment schedule).</li>
                       <li>Unambiguous &quot;Full and Final Discharge&quot; clause confirming no further financial claims.</li>
-                      <li>Formal undertaking by the lender to terminate ongoing recovery proceedings and deliver an authenticated, physical Certificate of Debt Extinguishment within thirty days of funds realization.</li>
+                      <li>Formal undertaking by the lender to end ongoing recovery actions and deliver an authenticated, physical Certificate of Debt Extinguishment within thirty days of funds realization.</li>
                     </ol>
                   </div>
 
@@ -808,7 +808,7 @@ export default function PersonalLoanSettlementPageClient() {
                       <strong>Approved Channels:</strong> Remit via <strong>RTGS, NEFT, or Account Payee Demand Draft</strong> made out directly in the name of the lending bank marked with your exact loan account number.
                     </li>
                     <li>
-                      <strong>Zero Cash Transfers:</strong> Never hand over physical cash, bearer cheques, or personal UPI transfers to any recovery agent, lawyer, or third-party intermediary.
+                      <strong>Zero Cash Transfers:</strong> Never hand over physical cash, bearer cheques, or personal UPI transfers to any recovery agent, lawyer, or third-party agent.
                     </li>
                     <li>
                       <strong>Adhere to Expiry Deadlines:</strong> Settlement letters carry an explicit validity date (usually 15 to 30 days). Even a 24-hour delay in funds credit can automatically revoke the sanction letter, forfeiting the haircut and reviving the full ledger claim.
@@ -820,7 +820,7 @@ export default function PersonalLoanSettlementPageClient() {
 
                   <h3 className="text-base sm:text-lg font-bold text-black mt-5 mb-2">Obtaining the Settlement/Closure Documents</h3>
                   <p>
-                    Following funds realization, follow up systematically to procure the final discharge documentation:
+                    Following funds realization, follow up systematically to procure the final discharge documents:
                   </p>
                   <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-black">
                     <li>
@@ -848,7 +848,7 @@ export default function PersonalLoanSettlementPageClient() {
                 </h2>
                 <div className="text-black leading-relaxed space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
-                    Navigating a compromise settlement requires systematic execution across 9 discrete phases. Missing a single procedural step can derail negotiations or leave you exposed to renewed collection litigation:
+                    Navigating a one-time settlement requires systematic execution across 9 discrete phases. Missing a single procedural step can derail negotiations or leave you exposed to renewed collection court cases:
                   </p>
 
                   <div className="space-y-4 my-4">
@@ -860,7 +860,7 @@ export default function PersonalLoanSettlementPageClient() {
                         <h3 className="font-bold text-black text-sm sm:text-base">Step 1: Assess Your Outstanding Loan Ledger</h3>
                       </div>
                       <p className="text-xs sm:text-sm text-black leading-relaxed pl-9">
-                        Download your comprehensive loan account statement from your net banking portal or branch. Deconstruct the total claimed balance into three distinct heads: (a) Unamortized Core Principal, (b) Contracted Regular Interest, and (c) Compounded Penal Charges, Overdue Interest &amp; NACH Dishonor Fees. Knowing the exact principal component establishes your true negotiation baseline, as non-principal charges are universally eligible for 100% waiver.
+                        Download your complete loan account statement from your net banking portal or branch. Deconstruct the total claimed balance into three distinct heads: (a) Unamortized Core Principal, (b) Contracted Regular Interest, and (c) Compounded Penal Charges, Overdue Interest &amp; NACH Dishonor Fees. Knowing the exact principal component establishes your true negotiation baseline, as non-principal charges are universally eligible for 100% waiver.
                       </p>
                     </div>
 
@@ -872,7 +872,7 @@ export default function PersonalLoanSettlementPageClient() {
                         <h3 className="font-bold text-black text-sm sm:text-base">Step 2: Establish Legitimate Financial Hardship</h3>
                       </div>
                       <p className="text-xs sm:text-sm text-black leading-relaxed pl-9">
-                        Compile concrete, incontrovertible evidence establishing why contractual EMI servicing is impossible. Gather employer termination notices, medical discharge summaries, hospitalization bills, diagnosis reports, or audited P&amp;L records showing business collapse. Prepare a transparent household budget reflecting survival expenditures versus net household income.
+                        Compile concrete, incontrovertible evidence establishing why contractual EMI servicing is impossible. Gather employer end notices, medical discharge summaries, hospitalization bills, diagnosis reports, or audited P&amp;L records showing business collapse. Prepare a clear household budget reflecting survival expenditures versus net household income.
                       </p>
                     </div>
 
@@ -884,7 +884,7 @@ export default function PersonalLoanSettlementPageClient() {
                         <h3 className="font-bold text-black text-sm sm:text-base">Step 3: Stop Accumulating Further Debt</h3>
                       </div>
                       <p className="text-xs sm:text-sm text-black leading-relaxed pl-9">
-                        Break the dangerous &quot;debt spiral&quot; trap. Desperate borrowers frequently borrow from high-interest instant fintech apps or credit cards at 36%–48% APR to service past bank EMIs. This escalates insolvency. Cease taking fresh loans immediately. If auto-debit (NACH) mandates continue to bounce, notify the bank in writing of your inability to service EMIs to avoid recurring bounce charges.
+                        Break the dangerous &quot;debt spiral&quot; trap. Desperate borrowers frequently borrow from high-interest instant fintech apps or credit cards at 36%–48% APR to service past bank EMIs. This escalates bankruptcy. Cease taking fresh loans immediately. If auto-debit (NACH) mandates continue to bounce, notify the bank in writing of your inability to service EMIs to avoid recurring bounce charges.
                       </p>
                     </div>
 
@@ -908,7 +908,7 @@ export default function PersonalLoanSettlementPageClient() {
                         <h3 className="font-bold text-black text-sm sm:text-base">Step 5: Submit a Formal OTS Proposal</h3>
                       </div>
                       <p className="text-xs sm:text-sm text-black leading-relaxed pl-9">
-                        Draft and submit a structured One-Time Settlement (OTS) petition to the bank&apos;s Stressed Asset Management Branch and Principal Nodal Officer. The petition details your repayment track record, recounts the involuntary hardship timeline, encloses the verified hardship dossier, and tenders a realistic opening lump-sum offer (typically 25%–35% of core principal) supported by third-party financial assistance.
+                        Draft and submit a structured One-Time Settlement (OTS) petition to the bank&apos;s Stressed Asset Management Branch and Principal Nodal Officer. The petition details your repayment track record, recounts the involuntary hardship timeline, encloses the verified hardship dossier, and tenders a realistic opening lump-sum offer (typically 25%–35% of core principal) supported by third-party financial help.
                       </p>
                     </div>
 
@@ -920,7 +920,7 @@ export default function PersonalLoanSettlementPageClient() {
                         <h3 className="font-bold text-black text-sm sm:text-base">Step 6: Multi-Round Institutional Negotiation</h3>
                       </div>
                       <p className="text-xs sm:text-sm text-black leading-relaxed pl-9">
-                        Banks almost universally reject initial settlement offers or counter with nominal 10%–20% fee waivers. CredSettle advocates represent you before the bank&apos;s Settlement Advisory Committee or Regional Remedial Head. By demonstrating zero attachable assets, citing RBI compromise directions, and highlighting the prohibitive cost of 3-year civil recovery litigation, we drive the final figure into the optimal 40%–55% principal band.
+                        Banks almost universally reject initial settlement offers or counter with nominal 10%–20% fee waivers. CredSettle advocates represent you before the bank&apos;s Settlement Advisory Committee or Regional Remedial Head. By demonstrating zero attachable assets, citing RBI settlement directions, and highlighting the prohibitive cost of 3-year civil recovery court cases, we drive the final figure into the optimal 40%–55% principal band.
                       </p>
                     </div>
 
@@ -956,7 +956,7 @@ export default function PersonalLoanSettlementPageClient() {
                         <h3 className="font-bold text-black text-sm sm:text-base">Step 9: Post-Settlement Formalities &amp; Credit Report Update</h3>
                       </div>
                       <p className="text-xs sm:text-sm text-black leading-relaxed pl-9">
-                        Within 15 to 30 days, ensure the bank issues your stamped No Dues Certificate (NDC). Between 45 and 60 days post-settlement, pull your updated credit bureau reports (CIBIL, Experian, CRIF, Equifax) to verify that the loan status has transitioned from delinquent/overdue to &quot;Settled&quot; with a remaining balance of ₹0.00. If discrepancies persist, file a formal dispute attaching your NDC.
+                        Within 15 to 30 days, make sure the bank issues your stamped No Dues Certificate (NDC). Between 45 and 60 days post-settlement, pull your updated credit bureau reports (CIBIL, Experian, CRIF, Equifax) to verify that the loan status has transitioned from overdue/overdue to &quot;Settled&quot; with a remaining balance of ₹0.00. If discrepancies persist, file a formal dispute attaching your NDC.
                       </p>
                     </div>
                   </div>
@@ -975,7 +975,7 @@ export default function PersonalLoanSettlementPageClient() {
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
-                    Borrowers do not enter compromise settlements as an investment choice; it is an emergency financial and legal rescue mechanism chosen when continuing full repayments becomes impossible. Understanding the core drivers and trade-offs is essential:
+                    Borrowers do not enter one-time settlements as an investment choice; it is an emergency financial and legal rescue method chosen when continuing full repayments becomes impossible. Understanding the core drivers and trade-offs is essential:
                   </p>
 
                   <h3 className="text-base sm:text-lg font-bold text-black mt-5 mb-2">Involuntary and Unavoidable Financial Hardship</h3>
@@ -984,13 +984,13 @@ export default function PersonalLoanSettlementPageClient() {
                   </p>
                   <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-black">
                     <li>
-                      <strong>Corporate Layoffs &amp; Sudden Loss of Employment:</strong> In an evolving economy with startup consolidation, automation, and corporate downsizings, a sudden job loss deprives a professional of disposable monthly cash flow. Finding comparable employment often takes 6 to 12 months, during which unpaid EMIs compound rapidly.
+                      <strong>Corporate Layoffs &amp; Sudden Loss of Employment:</strong> In an evolving economy with startup combining, automation, and corporate downsizings, a sudden job loss deprives a professional of disposable monthly cash flow. Finding comparable employment often takes 6 to 12 months, during which unpaid EMIs compound rapidly.
                     </li>
                     <li>
                       <strong>Severe Medical Emergencies &amp; Critical Illness:</strong> Serious health crises—cancer therapies, organ transplants, cardiovascular surgeries, or extensive post-accident trauma—frequently exhaust health insurance limits and wipe out lifetime savings, diverting all income toward survival.
                     </li>
                     <li>
-                      <strong>Commercial Business Failure &amp; Cash-Flow Crises:</strong> Self-employed individuals, traders, and MSME entrepreneurs frequently face client defaults, supply chain collapses, or regulatory disruptions that turn profitable businesses insolvent overnight.
+                      <strong>Commercial Business Failure &amp; Cash-Flow Crises:</strong> Self-employed people, traders, and MSME entrepreneurs frequently face client defaults, supply chain collapses, or regulatory disruptions that turn profitable businesses insolvent overnight.
                     </li>
                     <li>
                       <strong>Multi-Lender Debt Cascading:</strong> Borrowers often hold 3 to 5 simultaneous credit facilities across multiple banks and instant digital loan apps. Attempting to service interest across all lenders leads to a total collapse, making coordinated settlement the only path out of chronic debt.
@@ -1004,7 +1004,7 @@ export default function PersonalLoanSettlementPageClient() {
                       <li><strong>Significant Debt Haircut (40% to 65%):</strong> Permanently eliminates a major portion of total claimed dues, bringing repayment within your actual financial capability.</li>
                       <li><strong>100% Extinguishment of Penalties &amp; Bounce Fees:</strong> Completely cancels astronomical compound late payment charges and recurring NACH dishonor penalties.</li>
                       <li><strong>Instant Cessation of Harassment:</strong> Completely halts aggressive recovery agent phone calls, workplace intrusions, and residential visits upon formal sanction.</li>
-                      <li><strong>Permanent Legal Protection:</strong> Shields you from civil summary suits (Order 37 CPC), arbitration awards, and criminal proceedings under Section 138 of the NI Act or Section 25 of the PSSA.</li>
+                      <li><strong>Permanent Legal Protection:</strong> Shields you from civil summary suits (Order 37 CPC), arbitration awards, and criminal actions under Section 138 of the NI Act or Section 25 of the PSSA.</li>
                       <li><strong>Definitive Legal Closure:</strong> Yields a stamped No Dues Certificate, confirming that the lender has zero residual claim against your future income or inherited assets.</li>
                     </ul>
                   </div>
@@ -1013,9 +1013,9 @@ export default function PersonalLoanSettlementPageClient() {
                   <div className="p-4 bg-amber-50 rounded-2xl border border-amber-200 text-xs sm:text-sm text-amber-950 space-y-2">
                     <strong className="text-sm sm:text-base text-amber-900 block">Trade-Offs and Long-Term Implications:</strong>
                     <ul className="list-disc pl-5 space-y-1.5 text-amber-900">
-                      <li><strong>Bureau Account Tagging:</strong> Credit information bureaus annotate the loan account remark with &quot;Settled under Compromise&quot; rather than &quot;Regular Closure&quot;.</li>
+                      <li><strong>Bureau Account Tagging:</strong> Credit information bureaus annotate the loan account remark with &quot;Settled under settlement&quot; rather than &quot;Regular Closure&quot;.</li>
                       <li><strong>Credit Score Reduction:</strong> Triggers an immediate dip of 75 to 120 points, reflecting the commercial loss absorbed by the lending institution.</li>
-                      <li><strong>7-Year Bureau Retention:</strong> Under Section 20 of the Credit Information Companies (Regulation) Act, settlement tags remain visible on your credit history for up to 7 years (though impact diminishes significantly after 24 months).</li>
+                      <li><strong>7-Year Bureau Retention:</strong> Under Section 20 of the Credit Information Companies (Regulation) Act, settlement tags remain visible on your credit history for up to 7 years (though impact diminishes greatly after 24 months).</li>
                       <li><strong>Mandatory 12-Month RBI Cooling-Off Period:</strong> Under the RBI June 8, 2023 Circular, regulated entities cannot extend fresh credit facilities to settled borrowers for at least 12 months.</li>
                       <li><strong>Need for Ready Liquid Funds:</strong> Requires the borrower to arrange an agreed lump-sum amount (or 2–3 short installments) to execute the settlement.</li>
                     </ul>
@@ -1040,7 +1040,7 @@ export default function PersonalLoanSettlementPageClient() {
 
                   <h3 className="text-base sm:text-lg font-bold text-black mt-5 mb-2">Days Past Due (DPD) and NPA Classification</h3>
                   <p>
-                    Credit bureaus and bank internal risk models track delinquency through <strong>Days Past Due (DPD)</strong> counters. As unpaid days accumulate, loan accounts progress through statutory regulatory stages:
+                    Credit bureaus and bank internal risk models track default through <strong>Days Past Due (DPD)</strong> counters. As unpaid days accumulate, loan accounts progress through legal regulatory stages:
                   </p>
                   <div className="overflow-x-auto my-3">
                     <table className="w-full text-xs text-left text-black border border-gray-200 rounded-xl">
@@ -1105,7 +1105,7 @@ export default function PersonalLoanSettlementPageClient() {
                     <div className="p-4 bg-amber-50 rounded-xl border border-amber-200">
                       <strong className="text-amber-900 block mb-1 text-sm font-bold">⚠️ The Danger of Waiting Too Late (Post-Court Decrees):</strong>
                       <p className="text-amber-800 leading-relaxed">
-                        Conversely, delaying settlement until the bank has filed civil suits under Order 37 CPC, obtained an ex-parte arbitration award, or secured a Section 138 summons with non-bailable warrants places you at a severe disadvantage. The bank has already incurred legal expenses and possesses judicial enforcement leverage, making them far less willing to grant substantial haircuts.
+                        Conversely, delaying settlement until the bank has filed civil suits under Order 37 CPC, obtained an ex-parte arbitration award, or secured a Section 138 summons with non-bailable warrants places you at a severe disadvantage. The bank has already incurred legal expenses and possesses judicial enforcement leverage, making them far less willing to grant large haircuts.
                       </p>
                     </div>
                   </div>
@@ -1113,7 +1113,7 @@ export default function PersonalLoanSettlementPageClient() {
                   <div className="p-4 bg-blue-50 border-l-4 border-blue-600 rounded-r-xl text-xs sm:text-sm text-blue-950 space-y-1.5 my-2">
                     <strong>🎯 The Strategic Sweet Spot: 90 to 180 Days Delinquency &amp; National Lok Adalat</strong>
                     <p>
-                      The ideal window to initiate compromise settlement is between <strong>90 and 180 days past due</strong>. The bank has officially classified the asset as an NPA and been forced to allocate 15% capital provisioning, directly impacting its quarterly profitability. Additionally, participating in <strong>National Lok Adalat</strong> cycles (held once every quarter across all Indian states) provides a state-sanctioned forum where banks are under institutional pressure to clear stressed asset backlogs with maximum waiver flexibility.
+                      The ideal window to start one-time settlement is between <strong>90 and 180 days past due</strong>. The bank has officially classified the asset as an NPA and been forced to allocate 15% capital provisioning, directly impacting its quarterly profitability. Also, joining in <strong>National Lok Adalat</strong> cycles (held once every quarter across all Indian states) provides a state-sanctioned forum where banks are under institutional pressure to clear stressed asset backlogs with maximum waiver flexibility.
                     </p>
                   </div>
 
@@ -1141,7 +1141,7 @@ export default function PersonalLoanSettlementPageClient() {
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
-                    Defaulting borrowers are routinely subjected to aggressive intimidation by collection agencies, including threats of immediate police arrest, home seizure, and criminal FIRs. Understanding the statutory legal framework under Indian jurisprudence dispels these myths:
+                    Defaulting borrowers are routinely subjected to aggressive intimidation by collection agencies, including threats of immediate police arrest, home seizure, and criminal FIRs. Understanding the legal legal framework under Indian jurisprudence dispels these myths:
                   </p>
 
                   <h3 className="text-base sm:text-lg font-bold text-black mt-5 mb-2">Can You Be Arrested for Not Paying a Personal Loan?</h3>
@@ -1151,7 +1151,7 @@ export default function PersonalLoanSettlementPageClient() {
                       Inability to repay an unsecured personal loan due to poverty, unemployment, or commercial distress is strictly a <strong>CIVIL DISPUTE</strong> governed by the Indian Contract Act, 1872. It does NOT constitute a cognizable criminal offense.
                     </p>
                     <p>
-                      Under the constitutional doctrine articulated in <strong>Jolly George Varghese (1980 AIR 470)</strong>, Justice Krishna Iyer ruled that personal liberty under Article 21 shields an impoverished borrower from penal incarceration for bona fide civil contract defaults.<strong>zero statutory authority</strong> to file a criminal complaint, issue station notices, or interrogate a borrower over unpaid personal loan installments.
+                      Under the constitutional doctrine articulated in <strong>Jolly George Varghese (1980 AIR 470)</strong>, Justice Krishna Iyer ruled that personal liberty under Article 21 shields an impoverished borrower from penal incarceration for bona fide civil contract defaults.<strong>zero legal official</strong> to file a criminal complaint, issue station notices, or interrogate a borrower over unpaid personal loan installments.
                     </p>
                   </div>
 
@@ -1164,7 +1164,7 @@ export default function PersonalLoanSettlementPageClient() {
                     <div className="p-3.5 sm:p-4 bg-gray-50 rounded-xl border border-gray-200">
                       <strong className="text-black block mb-1 font-bold">1. Civil Summary Suit under Order 37 of Code of Civil Procedure (CPC), 1908</strong>
                       <p className="text-black leading-relaxed">
-                        Lenders file summary suits in Civil Courts for fast-track recovery based on written debt contracts. The borrower has 10 days to enter appearance and file an application for &quot;Leave to Defend&quot; on grounds of exorbitant interest calculations or unconscionable penalties. Executing a compromise settlement results in mutual disposal under Order 23 Rule 3 of the CPC.
+                        Lenders file summary suits in Civil Courts for fast-track recovery based on written debt contracts. The borrower has 10 days to enter appearance and file an application for &quot;Leave to Defend&quot; on grounds of exorbitant interest calculations or unconscionable penalties. Executing a one-time settlement results in mutual disposal under Order 23 Rule 3 of the CPC.
                       </p>
                     </div>
 
@@ -1178,14 +1178,14 @@ export default function PersonalLoanSettlementPageClient() {
                     <div className="p-3.5 sm:p-4 bg-gray-50 rounded-xl border border-gray-200">
                       <strong className="text-black block mb-1 font-bold">3. Section 25 of Payment &amp; Settlement Systems Act (PSSA), 2007</strong>
                       <p className="text-black leading-relaxed">
-                        When an electronic auto-debit (e-NACH / ECS mandate) bounces due to insufficient funds, lenders issue a 30-day statutory demand notice followed by a criminal complaint before a Metropolitan Magistrate. This is a bailable offense. Filing a legal reply and executing an OTS quashes the complaint, as offenses under Section 25 are completely compoundable.
+                        When an electronic auto-debit (e-NACH / ECS mandate) bounces due to insufficient funds, lenders issue a 30-day legal demand notice followed by a criminal complaint before a Metropolitan Magistrate. This is a bailable offense. Filing a legal reply and executing an OTS quashes the complaint, as offenses under Section 25 are completely compoundable.
                       </p>
                     </div>
 
                     <div className="p-3.5 sm:p-4 bg-gray-50 rounded-xl border border-gray-200">
                       <strong className="text-black block mb-1 font-bold">4. Section 138 of Negotiable Instruments Act, 1881 (Cheque Bounce)</strong>
                       <p className="text-black leading-relaxed">
-                        If a physical post-dated cheque dishonors, the lender serves a 15-day statutory demand notice and files a complaint before a Judicial Magistrate. Section 138 is a quasi-criminal bailable offense. Under Section 147 of the Negotiable Instruments Act and Section 320 of the CrPC, any complaint under Section 138 is 100% compoundable upon mutual compromise, resulting in complete acquittal and case dismissal.
+                        If a physical post-dated cheque dishonors, the lender serves a 15-day legal demand notice and files a complaint before a Judicial Magistrate. Section 138 is a quasi-criminal bailable offense. Under Section 147 of the Negotiable Instruments Act and Section 320 of the CrPC, any complaint under Section 138 is 100% compoundable upon mutual settlement, resulting in complete acquittal and case dismissal.
                       </p>
                     </div>
                   </div>
@@ -1202,11 +1202,11 @@ export default function PersonalLoanSettlementPageClient() {
                     </div>
                     <div className="p-3 bg-blue-50/60 rounded-xl border border-blue-100">
                       <strong className="text-blue-900 block mb-1">Right to Fair Transparent Accounting</strong>
-                      <p className="text-black">Borrowers have the statutory right to receive full ledger statements breaking down principal, interest, and penalties.</p>
+                      <p className="text-black">Borrowers have the legal right to receive full ledger statements breaking down principal, interest, and penalties.</p>
                     </div>
                     <div className="p-3 bg-blue-50/60 rounded-xl border border-blue-100">
                       <strong className="text-blue-900 block mb-1">Right to Legal Representation</strong>
-                      <p className="text-black">Pursuant to the Advocates Act of 1961, borrowers retain the statutory entitlement to be represented by an advocate to handle all dispute communications.</p>
+                      <p className="text-black">Pursuant to the Advocates Act of 1961, borrowers retain the legal entitlement to be represented by an advocate to handle all dispute communications.</p>
                     </div>
                   </div>
                 </div>
@@ -1224,7 +1224,7 @@ export default function PersonalLoanSettlementPageClient() {
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
-                    When a personal loan becomes delinquent, banks and NBFCs assign accounts to internal collection teams and third-party recovery agencies (Direct Recovery Agents - DRAs). Understanding the precise legal boundaries governing collection activities empowers you to defend yourself effectively:
+                    When a personal loan becomes overdue, banks and NBFCs assign accounts to internal collection teams and third-party recovery agencies (Direct Recovery Agents - DRAs). Understanding the precise legal boundaries governing collection activities empowers you to defend yourself effectively:
                   </p>
 
                   <h3 className="text-base sm:text-lg font-bold text-black mt-5 mb-2">Tactics Used by Recovery Agents</h3>
@@ -1273,7 +1273,7 @@ export default function PersonalLoanSettlementPageClient() {
 
                   <h3 className="text-base sm:text-lg font-bold text-black mt-5 mb-2">How to File a Formal Complaint Against Recovery Harassment</h3>
                   <p>
-                    Follow this statutory 4-tier complaint escalation matrix:
+                    Follow this legal 4-tier complaint escalation matrix:
                   </p>
                   <div className="space-y-2.5 my-3 text-xs sm:text-sm">
                     <div className="p-3 bg-gray-50 rounded-xl border border-gray-200">
@@ -1312,7 +1312,7 @@ export default function PersonalLoanSettlementPageClient() {
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
-                    A settlement waiver (commonly referred to in banking circles as the &quot;haircut&quot;) is the percentage of total claimed dues that the lender permanently forgives. To understand how waivers are determined, examine the anatomical structure of delinquent debt:
+                    A settlement waiver (commonly referred to in banking circles as the &quot;haircut&quot;) is the percentage of total claimed dues that the lender permanently forgives. To understand how waivers are determined, examine the anatomical structure of overdue debt:
                   </p>
 
                   <h3 className="text-base sm:text-lg font-bold text-black mt-5 mb-2">Principal, Interest, Penalties and Other Charges</h3>
@@ -1320,7 +1320,7 @@ export default function PersonalLoanSettlementPageClient() {
                     <div className="p-3.5 bg-gray-50 rounded-xl border border-gray-200">
                       <strong className="text-black block mb-1 font-bold">1. Penalties &amp; Bounce Fees</strong>
                       <span className="text-emerald-700 font-extrabold text-sm block mb-1">100% Waived</span>
-                      <p className="text-black">All late fees, cheque/e-NACH bounce charges, and compounding penal interest are waived upfront in genuine OTS proposals.</p>
+                      <p className="text-black">All late fees, cheque/e-NACH bounce charges, and compounding penal interest are waived upfront in genuine OTS offers.</p>
                     </div>
                     <div className="p-3.5 bg-gray-50 rounded-xl border border-gray-200">
                       <strong className="text-black block mb-1 font-bold">2. Accrued Regular Interest</strong>
@@ -1336,19 +1336,19 @@ export default function PersonalLoanSettlementPageClient() {
 
                   <h3 className="text-base sm:text-lg font-bold text-black mt-5 mb-2">Factors That Determine the Settlement Percentage</h3>
                   <p>
-                    Bank settlement committees do not pick discount percentages arbitrarily. They evaluate six mathematical and institutional variables:
+                    Bank settlement committees do not pick discount percentages arbitrarily. They review six mathematical and institutional variables:
                   </p>
                   <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-black">
-                    <li><strong>NPA Delinquency Vintage:</strong> Loans delinquent for 12 to 24+ months (Doubtful/Loss assets) attract significantly higher haircuts than 90-day defaults, as the bank has already fully provisioned for the loss.</li>
-                    <li><strong>Unsecured Nature of Credit:</strong> Because personal loans lack collateral, the bank cannot auction property under SARFAESI, forcing them to accept compromise cash.</li>
+                    <li><strong>NPA Delinquency Vintage:</strong> Loans overdue for 12 to 24+ months (Doubtful/Loss assets) attract greatly higher haircuts than 90-day defaults, as the bank has already fully provisioned for the loss.</li>
+                    <li><strong>Unsecured Nature of Credit:</strong> Because personal loans lack collateral, the bank cannot auction property under SARFAESI, forcing them to accept settlement cash.</li>
                     <li><strong>Verifiable Inability to Pay:</strong> Low average bank balances, zero liquid investments, and joblessness compel the bank to accept achievable settlement sums.</li>
-                    <li><strong>Lender Category &amp; Risk Appetite:</strong> Fintech NBFCs settle quickly with moderate haircuts; private banks follow strict committee formulas; PSU banks offer deep discounts during annual compromise drives.</li>
+                    <li><strong>Lender Category &amp; Risk Appetite:</strong> Fintech NBFCs settle quickly with moderate haircuts; private banks follow strict committee formulas; PSU banks offer deep discounts during annual settlement drives.</li>
                     <li><strong>Fiscal Calendar Timing:</strong> Quarter-end and fiscal year-end (especially March 15 to March 31) create aggressive pressure on banks to reduce gross NPAs, unlocking peak waiver approvals.</li>
                   </ul>
 
                   <h3 className="text-base sm:text-lg font-bold text-black mt-5 mb-2">Is a 50% Settlement Realistic?</h3>
                   <p>
-                    <strong>Yes.</strong> For unsecured personal loans that have crossed 90 to 180 days of non-payment, an overall waiver of <strong>45% to 60% on total ledger dues</strong> is standard industry practice in Indian banking. Recovering 45%–50% in cash today is commercially superior for a bank compared to spending 3–5 years in civil litigation where recovery is uncertain. Beware of agencies promising unrealistic 85%–90% waivers on recent defaults, which are deceptive marketing traps.
+                    <strong>Yes.</strong> For unsecured personal loans that have crossed 90 to 180 days of non-payment, an overall waiver of <strong>45% to 60% on total ledger dues</strong> is standard industry practice in Indian banking. Recovering 45%–50% in cash today is commercially superior for a bank compared to spending 3–5 years in civil court cases where recovery is uncertain. Beware of agencies promising unrealistic 85%–90% waivers on recent defaults, which are deceptive marketing traps.
                   </p>
 
                   <h3 className="text-base sm:text-lg font-bold text-black mt-5 mb-2">Personal Loan Settlement Calculation Scenarios</h3>
@@ -1420,7 +1420,7 @@ export default function PersonalLoanSettlementPageClient() {
                     </div>
                     <div className="p-3.5 bg-gray-50 rounded-xl border border-gray-200">
                       <strong className="text-black block mb-1">Phase 2: Negotiation &amp; Committee Review (Days 8–21)</strong>
-                      <p className="text-black">Direct negotiations with the bank&apos;s Remedial Desk, counter-proposals exchange, and presentation to Settlement Advisory Committee.</p>
+                      <p className="text-black">Direct negotiations with the bank&apos;s Remedial Desk, counter-offers exchange, and presentation to Settlement Advisory Committee.</p>
                     </div>
                     <div className="p-3.5 bg-gray-50 rounded-xl border border-gray-200">
                       <strong className="text-black block mb-1">Phase 3: Sanction Letter Issuance (Days 22–35)</strong>
@@ -1428,7 +1428,7 @@ export default function PersonalLoanSettlementPageClient() {
                     </div>
                     <div className="p-3.5 bg-gray-50 rounded-xl border border-gray-200">
                       <strong className="text-black block mb-1">Phase 4: Payment &amp; NDC Delivery (Days 36–50)</strong>
-                      <p className="text-black">Funds remittance via RTGS/NEFT into loan account, payment realization, and delivery of stamped No Dues Certificate (NDC).</p>
+                      <p className="text-black">Funds payment via RTGS/NEFT into loan account, payment realization, and delivery of stamped No Dues Certificate (NDC).</p>
                     </div>
                   </div>
 
@@ -1464,9 +1464,9 @@ export default function PersonalLoanSettlementPageClient() {
 
                   <h3 className="text-base sm:text-lg font-bold text-black mt-5 mb-2">Factors That Can Delay the Process</h3>
                   <ul className="list-disc pl-5 space-y-1 text-xs sm:text-sm text-black">
-                    <li>Incomplete or unverified hardship documentation submitted by the borrower.</li>
+                    <li>Incomplete or unverified hardship documents submitted by the borrower.</li>
                     <li>Discrepancies between bank system ledger records and borrower payment history.</li>
-                    <li>Accounts tied up in active court proceedings requiring formal legal disposal.</li>
+                    <li>Accounts tied up in active court actions requiring formal legal disposal.</li>
                   </ul>
                 </div>
               </section>
@@ -1514,7 +1514,7 @@ export default function PersonalLoanSettlementPageClient() {
 
                     <div className="p-3.5 bg-red-50 border border-red-200 rounded-xl">
                       <strong className="text-red-900 block mb-1 font-bold text-xs sm:text-sm">6. Borrowing More to Settle Existing Debt</strong>
-                      <p className="text-red-800">Taking high-interest loans from payday apps to settle bank loans accelerates insolvency. Settle strictly within your genuine savings or family aid.</p>
+                      <p className="text-red-800">Taking high-interest loans from payday apps to settle bank loans accelerates bankruptcy. Settle strictly within your genuine savings or family aid.</p>
                     </div>
 
                     <div className="p-3.5 bg-red-50 border border-red-200 rounded-xl">
@@ -1552,7 +1552,7 @@ export default function PersonalLoanSettlementPageClient() {
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
-                    Credit bureau transparency is critical. Under the Credit Information Companies (Regulation) Act (CICRA), 2005, lenders must report the exact repayment performance to all four authorized credit bureaus: TransUnion, Experian, Equifax, and CRIF:
+                    Credit bureau clarity is critical. Under the Credit Information Companies (Regulation) Act (CICRA), 2005, lenders must report the exact repayment performance to all four authorized credit bureaus: TransUnion, Experian, Equifax, and CRIF:
                   </p>
 
                   <h3 className="text-base sm:text-lg font-bold text-black mt-5 mb-2">How Settlement is Reported: &quot;Settled&quot; vs &quot;Written Off&quot; vs &quot;Closed&quot;</h3>
@@ -1573,7 +1573,7 @@ export default function PersonalLoanSettlementPageClient() {
 
                   <h3 className="text-base sm:text-lg font-bold text-black mt-5 mb-2">How Long Does the &quot;Settled&quot; Status Stay on Your Credit Report?</h3>
                   <p>
-                    Under CICRA regulations, credit bureaus retain negative payment records and settlement remarks for <strong>up to 7 years</strong>. However, the score impact is not static. Its weight diminishes sharply after 12 to 24 months if new credit lines are managed with 100% on-time discipline. Furthermore, if your financial condition improves, you can approach the settling bank in the future, pay the previously waived differential amount, and obtain an updated <strong>&quot;CLOSED&quot;</strong> status.
+                    Under CICRA regulations, credit bureaus retain negative payment records and settlement remarks for <strong>up to 7 years</strong>. However, the score impact is not static. Its weight diminishes sharply after 12 to 24 months if new credit lines are managed with 100% on-time discipline. Also, if your financial condition improves, you can approach the settling bank in the future, pay the previously waived differential amount, and obtain an updated <strong>&quot;CLOSED&quot;</strong> status.
                   </p>
 
                   <h3 className="text-base sm:text-lg font-bold text-black mt-5 mb-2">How to Rebuild Your CIBIL Score After Settlement (CredSettle 4-Step Plan)</h3>
@@ -1588,7 +1588,7 @@ export default function PersonalLoanSettlementPageClient() {
                     </div>
                     <div className="p-3.5 bg-blue-50/60 rounded-xl border border-blue-100">
                       <strong className="text-blue-900 block mb-1 text-xs sm:text-sm">Step 3: Maintain Utilization &lt; 20% (Month 6–12)</strong>
-                      <p className="text-black">Use the card for modest grocery and utility expenses, keeping utilization below 20%. Always pay the total bill 5 days before due date.</p>
+                      <p className="text-black">Use the card for modest grocery and utility expenses, keeping use below 20%. Always pay the total bill 5 days before due date.</p>
                     </div>
                     <div className="p-3.5 bg-blue-50/60 rounded-xl border border-blue-100">
                       <strong className="text-blue-900 block mb-1 text-xs sm:text-sm">Step 4: Restore 750+ CIBIL Rating (Month 12–24)</strong>
@@ -1610,7 +1610,7 @@ export default function PersonalLoanSettlementPageClient() {
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
-                    Before committing to a compromise settlement, evaluate all debt resolution alternatives to ensure you select the optimal strategy for your financial profile:
+                    Before committing to a one-time settlement, review all debt resolution alternatives to make sure you select the optimal strategy for your financial profile:
                   </p>
 
                   <div className="space-y-3 my-3 text-xs sm:text-sm">
@@ -1631,7 +1631,7 @@ export default function PersonalLoanSettlementPageClient() {
                     <div className="p-3.5 bg-gray-50 rounded-xl border border-gray-200">
                       <strong className="text-black block mb-1 font-bold">3. Personal Loan Balance Transfer</strong>
                       <p className="text-black">
-                        Transferring an existing high-cost personal loan (16%–22% APR) to a competitive lender offering lower interest rates (10.5%–12.5%). This reduces interest outgo, but is exclusively available to non-delinquent borrowers with unblemished credit records.
+                        Transferring an existing high-cost personal loan (16%–22% APR) to a competitive lender offering lower interest rates (10.5%–12.5%). This reduces interest outgo, but is exclusively available to non-overdue borrowers with unblemished credit records.
                       </p>
                     </div>
 
@@ -1645,7 +1645,7 @@ export default function PersonalLoanSettlementPageClient() {
                     <div className="p-3.5 bg-gray-50 rounded-xl border border-gray-200">
                       <strong className="text-black block mb-1 font-bold">5. Technical Write-Off vs Compromise Settlement</strong>
                       <p className="text-black">
-                        A critical distinction: A <em>Technical Write-Off</em> is an internal accounting maneuver by a bank to remove bad debts from its balance sheet for tax efficiency; the borrower remains 100% legally liable and recovery actions continue. In contrast, a <em>Compromise Settlement (OTS)</em> permanently extinguishes the borrower&apos;s legal obligation.
+                        A critical distinction: A <em>Technical Write-Off</em> is an internal accounting maneuver by a bank to remove bad debts from its balance sheet for tax efficiency; the borrower remains 100% legally liable and recovery actions continue. In contrast, a <em>one-time settlement (OTS)</em> permanently clears the borrower&apos;s legal obligation.
                       </p>
                     </div>
                   </div>
@@ -1725,13 +1725,13 @@ export default function PersonalLoanSettlementPageClient() {
                       <strong>Statutory Protection Under the Advocates Act, 1961:</strong> When an advocate serves a formal notice of appearance, lenders and recovery agencies are legally required to communicate through legal counsel, immediately halting harassment of the borrower.
                     </li>
                     <li>
-                      <strong>Leveling the Institutional Playing Field:</strong> Banks employ specialized legal and recovery teams. Having senior advocates representing you ensures that RBI circulars, insolvency jurisprudence, and consumer court precedents are leveraged to maximize waivers.
+                      <strong>Leveling the Institutional Playing Field:</strong> Banks employ specialized legal and recovery teams. Having senior advocates representing you makes sure that RBI circulars, bankruptcy jurisprudence, and consumer court precedents are leveraged to boost waivers.
                     </li>
                     <li>
-                      <strong>Defense Against Section 138 &amp; Section 25 Notices:</strong> Legal counsel drafts professional, timely statutory replies to cheque bounce and e-NACH bounce notices, protecting you from ex-parte criminal summons.
+                      <strong>Defense Against Section 138 &amp; Section 25 Notices:</strong> Legal counsel drafts professional, timely legal replies to cheque bounce and e-NACH bounce notices, protecting you from ex-parte criminal summons.
                     </li>
                     <li>
-                      <strong>Challenging Unilateral Arbitration:</strong> Advocates challenge illegally appointed sole arbitrators under Section 11 and Section 12(5) of the Arbitration Act, converting proceedings into consensual Lok Adalat awards.
+                      <strong>Challenging Unilateral Arbitration:</strong> Advocates challenge illegally appointed sole arbitrators under Section 11 and Section 12(5) of the Arbitration Act, converting actions into consensual Lok Adalat awards.
                     </li>
                   </ul>
 
@@ -1747,7 +1747,7 @@ export default function PersonalLoanSettlementPageClient() {
                     </div>
                     <div className="p-3.5 bg-gray-50 rounded-xl border border-gray-200">
                       <strong className="text-black block mb-1">Legal Sanction Letter Vetting</strong>
-                      <p className="text-black">Scrutinizes the bank&apos;s settlement letter to ensure it contains full-and-final discharge clauses with zero conditional loopholes.</p>
+                      <p className="text-black">Scrutinizes the bank&apos;s settlement letter to make sure it contains full-and-final discharge clauses with zero conditional loopholes.</p>
                     </div>
                     <div className="p-3.5 bg-gray-50 rounded-xl border border-gray-200">
                       <strong className="text-black block mb-1">Guaranteed NDC Delivery &amp; CIBIL Audit</strong>
@@ -1801,21 +1801,21 @@ export default function PersonalLoanSettlementPageClient() {
                     <div className="p-4 bg-slate-50 rounded-xl border border-slate-200">
                       <strong className="text-blue-900 block mb-1 text-sm font-bold">3. End-to-End Negotiation with Banks and NBFCs</strong>
                       <p className="text-black">
-                        We bypass frontline telecallers and negotiate directly with Chief Remedial Managers, Stressed Asset Resolution Branches (SARB), and National Lok Adalat benches to achieve maximum legal haircuts (40% to 65%).
+                        We bypass frontline telecallers and negotiate directly with Chief Remedial Managers, Stressed Asset Resolution Branches (SARB), and National Lok Adalat benches to get maximum legal haircuts (40% to 65%).
                       </p>
                     </div>
 
                     <div className="p-4 bg-slate-50 rounded-xl border border-slate-200">
                       <strong className="text-blue-900 block mb-1 text-sm font-bold">4. Written Settlement Letter Verification</strong>
                       <p className="text-black">
-                        Our legal team reviews the bank&apos;s official OTS Sanction Letter line by line, ensuring strict compliance with RBI directives, proper authorization, and ironclad full-and-final discharge clauses before you disburse a single rupee.
+                        Our legal team reviews the bank&apos;s official OTS Sanction Letter line by line, making sure strict compliance with RBI directives, proper authorization, and ironclad full-and-final discharge clauses before you disburse a single rupee.
                       </p>
                     </div>
 
                     <div className="p-4 bg-slate-50 rounded-xl border border-slate-200">
                       <strong className="text-blue-900 block mb-1 text-sm font-bold">5. Post-Settlement Support and Credit Guidance</strong>
                       <p className="text-black">
-                        We ensure prompt delivery of your stamped No Dues Certificate (NDC), verify that credit bureaus record ₹0.00 outstanding dues, and provide a personalized 4-step credit rehabilitation roadmap to rebuild a 750+ CIBIL score.
+                        We make sure prompt delivery of your stamped No Dues Certificate (NDC), verify that credit bureaus record ₹0.00 outstanding dues, and provide a personalized 4-step credit rehabilitation roadmap to rebuild a 750+ CIBIL score.
                       </p>
                     </div>
                   </div>
@@ -1834,33 +1834,33 @@ export default function PersonalLoanSettlementPageClient() {
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
-                    Under the central bank's June 2023 notification on retail compromise frameworks (Circular DOR.STR.REC.20/21.04.048/2023-24), scheduled lending institutions and non-banking finance firms are bound by uniform governance rules for resolving distressed term loan accounts.</p>
+                    Under the central bank's June 2023 notification on retail settlement frameworks (Circular DOR.STR.REC.20/21.04.048/2023-24), scheduled lending institutions and non-banking finance firms are bound by uniform governance rules for resolving distressed term loan accounts.</p>
 
                   <h3 className="text-base sm:text-lg font-bold text-black mt-5 mb-2">Key Provisions of the June 2023 Circular</h3>
                   <div className="space-y-3 my-3 text-xs sm:text-sm">
                     <div className="p-3.5 bg-gray-50 rounded-xl border border-gray-200">
                       <strong className="text-black block mb-1 font-bold">1. Mandatory Board-Approved Compromise Policy</strong>
-                      <p className="text-black">Every regulated lender must maintain a comprehensive, board-approved compromise policy establishing objective criteria for evaluating hardship, minimum haircut thresholds, and standardized procedures.</p>
+                      <p className="text-black">Every regulated lender must maintain a complete, board-approved settlement policy establishing objective criteria for reviewing hardship, minimum haircut thresholds, and standardized procedures.</p>
                     </div>
 
                     <div className="p-3.5 bg-gray-50 rounded-xl border border-gray-200">
                       <strong className="text-black block mb-1 font-bold">2. Delegation of Financial Powers</strong>
-                      <p className="text-black">To prevent arbitrary favoritism, the authority sanctioning a compromise settlement must be at least one administrative tier higher than the authority that sanctioned the initial loan facility.</p>
+                      <p className="text-black">To prevent arbitrary favoritism, the official sanctioning a one-time settlement must be at least one administrative tier higher than the official that sanctioned the initial loan facility.</p>
                     </div>
 
                     <div className="p-3.5 bg-gray-50 rounded-xl border border-gray-200">
                       <strong className="text-black block mb-1 font-bold">3. Objective Valuation of Net Realizable Assets</strong>
-                      <p className="text-black">Settlements must be based on a realistic assessment of the borrower&apos;s current financial capacity and net realizable asset value rather than coercive recovery tactics.</p>
+                      <p className="text-black">Settlements must be based on a realistic review of the borrower&apos;s current financial capacity and net realizable asset value rather than coercive recovery tactics.</p>
                     </div>
 
                     <div className="p-3.5 bg-gray-50 rounded-xl border border-gray-200">
                       <strong className="text-black block mb-1 font-bold">4. Mandatory Cooling-Off Period for Fresh Borrowing</strong>
-                      <p className="text-black">The circular prescribes a mandatory minimum cooling-off period of <strong>at least 12 months</strong> before a regulated lender can sanction fresh credit facilities to borrowers who have executed compromise settlements.</p>
+                      <p className="text-black">The circular prescribes a mandatory minimum cooling-off period of <strong>at least 12 months</strong> before a regulated lender can sanction fresh credit facilities to borrowers who have executed one-time settlements.</p>
                     </div>
 
                     <div className="p-3.5 bg-gray-50 rounded-xl border border-gray-200">
                       <strong className="text-black block mb-1 font-bold">5. Treatment of Wilful Defaulters and Fraud Accounts</strong>
-                      <p className="text-black">The framework clarifies that regulated entities can enter into compromise settlements with accounts classified as fraud or wilful default subject to Board approval and <em>strictly without prejudice to ongoing criminal proceedings</em>, ensuring public transparency.</p>
+                      <p className="text-black">The framework clarifies that regulated entities can enter into one-time settlements with accounts classified as fraud or wilful default subject to Board approval and <em>strictly without prejudice to ongoing criminal actions</em>, making sure public clarity.</p>
                     </div>
                   </div>
                 </div>
@@ -1878,7 +1878,7 @@ export default function PersonalLoanSettlementPageClient() {
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p>
-                    Assemble this complete four-part documentation dossier before initiating settlement proceedings to ensure swift approval:
+                    Assemble this complete four-part documents dossier before starting settlement actions to make sure swift approval:
                   </p>
 
                   <div className="overflow-x-auto my-3">
@@ -1950,7 +1950,7 @@ export default function PersonalLoanSettlementPageClient() {
                     <div className="p-4 bg-blue-50 rounded-xl border border-blue-200 text-blue-950">
                       <strong className="block mb-1 text-sm font-bold text-blue-900">Long-Term Outlook (1 to 3 Years):</strong>
                       <p>
-                        Initiate credit score rehabilitation by opening an FD-backed secured credit card. Maintain strict payment discipline and credit utilization below 20%. Within 18 to 24 months, your credit score will recover into the 750+ prime band, unlocking fresh loans at standard market interest rates.
+                        Initiate credit score rehabilitation by opening an FD-backed secured credit card. Maintain strict payment discipline and credit use below 20%. Within 18 to 24 months, your credit score will recover into the 750+ prime band, unlocking fresh loans at standard market interest rates.
                       </p>
                     </div>
                   </div>
@@ -2078,7 +2078,7 @@ export default function PersonalLoanSettlementPageClient() {
                   </div>
 
                   <p className="text-[11px] sm:text-xs text-slate-400 leading-relaxed italic">
-                    *Disclaimer: Estimations based on RBI compromise guidelines and standard banking write-off trends. Actual terms depend on bank settlement committee approvals.
+                    *Disclaimer: Estimations based on RBI settlement guidelines and standard banking write-off trends. Actual terms depend on bank settlement committee approvals.
                   </p>
                 </div>
               </section>

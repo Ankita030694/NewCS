@@ -551,7 +551,7 @@ const READABILITY_REPLACEMENTS: Array<[RegExp, string]> = [
   [/\bproposals\b/gi, 'offers'],
   [/\bconfirmation\b/gi, 'proof'],
   [/\bconfirmations\b/gi, 'proofs'],
-  [/\bavoidance\b/gi, 'avoiding']
+  [/\bavoidance\b/gi, 'avoiding'],
 ];
 
 const improveTextReadability = (html: string): string => {
