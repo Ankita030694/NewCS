@@ -629,7 +629,7 @@ export default function LoanSettlementPageClient() {
                         className="w-full h-auto object-cover rounded-xl"
                         loading="lazy"
                         width={1200}
-                        height={675}
+                        height={670}
                       />
                     </div>
                     <p className="text-[10px] sm:text-[11px] text-gray-500 mt-2 italic text-center">

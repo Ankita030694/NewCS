@@ -108,17 +108,17 @@ function mapDocToBlogDocument(
     slug = reverseMapping[canonicalSlug];
   }
 
+  const rawImage = typeof data.image === 'string' && data.image.trim() !== '' ? data.image : '/sample.png';
+  const rawInfographic = typeof data.infographic === 'string' && data.infographic.trim() !== '' ? data.infographic : undefined;
+
   return {
     id: doc.id,
     created: parseCreatedField(data.created),
     date: typeof data.date === 'string' ? data.date : '',
     description: typeof data.description === 'string' ? data.description : '',
     faqs: Array.isArray(data.faqs) ? (data.faqs as BlogFaq[]) : [],
-    image:
-      typeof data.image === 'string' && data.image.trim() !== ''
-        ? data.image
-        : '/sample.png',
-    infographic: typeof data.infographic === 'string' ? data.infographic : undefined,
+    image: getOptimizedImageUrl(rawImage),
+    infographic: rawInfographic ? getOptimizedImageUrl(rawInfographic) : undefined,
     metaDescription: typeof data.metaDescription === 'string' ? data.metaDescription : '',
     metaTitle: typeof data.metaTitle === 'string' ? data.metaTitle : '',
     slug,
@@ -127,6 +127,25 @@ function mapDocToBlogDocument(
     keyTakeaways: Array.isArray(data.keyTakeaways) ? (data.keyTakeaways as string[]) : [],
     popularSearches: Array.isArray(data.popularSearches) ? (data.popularSearches as string[]) : [],
   };
+}
+
+export const OPTIMIZED_IMAGE_MAP: Record<string, string> = {
+  'ai_generated_1787035160503': '/images/blog/ai_generated_1787035160503.webp',
+  'ai_generated_1787029675842': '/images/blog/ai_generated_1787029675842.webp',
+  'ai_infographic_1787029742246': '/images/blog/ai_infographic_1787029742246.webp',
+  'ai_infographic_1787035145827': '/images/blog/ai_infographic_1787035145827.webp',
+};
+
+export function getOptimizedImageUrl(url?: string | null): string {
+  if (!url || typeof url !== 'string' || !url.trim()) {
+    return '/sample.png';
+  }
+  for (const [key, localPath] of Object.entries(OPTIMIZED_IMAGE_MAP)) {
+    if (url.includes(key)) {
+      return localPath;
+    }
+  }
+  return url;
 }
 
 function sortBlogsByDateDesc(blogs: BlogDocument[]): BlogDocument[] {

@@ -26,8 +26,8 @@ const Testimonials = () => {
       name: "Venugopal K.",
       type: "Car Loan Settlement",
       imageHeight: "482px",
-      width: 1320,
-      height: 1338
+      width: 500,
+      height: 507
     }
   ];
 

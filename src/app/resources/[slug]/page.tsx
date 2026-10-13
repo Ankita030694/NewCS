@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound, permanentRedirect } from 'next/navigation';
-import BlogPostPageClient from './BlogPostPageClient';
+import BlogPostPageClient, { improveTextReadability } from './BlogPostPageClient';
 import { canonicaliseSlug, generateSlugFromTitle } from '@/lib/slug';
 import { getBlogBySlug, getRelatedBlogs, getBlogReviews, type Review } from '@/lib/blogs';
 import { defaultBlogFaqs, type BlogFaq } from '@/data/blogDefaults';
@@ -445,7 +445,7 @@ export default async function BlogPostPage({ params }: PageProps) {
     date: blog.date,
     image: blog.image,
     infographic: blog.infographic,
-    description: blog.description,
+    description: improveTextReadability(blog.description),
     faqs: blog.faqs,
     slug: canonicalSlug,
     keyTakeaways: blog.keyTakeaways,

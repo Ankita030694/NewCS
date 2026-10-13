@@ -15,11 +15,11 @@ export default function ServicesPageClient() {
     const faqs = [
         {
             question: "How long does the debt settlement process take?",
-            answer: "The debt settlement process typically takes 12-48 months, depending on your debt amount and lender cooperation. We work efficiently to negotiate the best possible settlement terms for you."
+            answer: "The debt settlement process typically takes 12-48 months, depending on your debt amount and lender response. We work fast to secure the best settlement terms for you."
         },
         {
             question: "Will debt settlement affect my credit score?",
-            answer: "Yes, debt settlement may initially impact your credit score. However, our credit repair services help improve your score over time, and settling debts is better than defaulting."
+            answer: "Yes, debt settlement may at first impact your credit score. However, our credit repair services help improve your score over time, and settling debts is better than defaulting."
         },
         {
             question: "What types of debts can be settled?",
@@ -27,15 +27,15 @@ export default function ServicesPageClient() {
         },
         {
             question: "How much can I save through debt settlement?",
-            answer: "Savings vary by case, but clients typically save 30-60% of their total debt amount. We negotiate aggressively to boost your savings while making sure legal compliance."
+            answer: "Savings vary by case, but clients typically save 30-60% of their total debt amount. We work hard to boost your savings while making sure legal rules."
         },
         {
             question: "Is debt settlement legal in India?",
-            answer: "Yes, debt settlement is completely legal in India. We follow RBI guidelines and make sure all settlements are compliant with Indian banking regulations."
+            answer: "Yes, debt settlement is completely legal in India. We follow RBI guidelines and make sure all settlements are compliant with Indian banking rules."
         },
         {
             question: "What if recovery agents continue harassment?",
-            answer: "Our anti-harassment services include call forwarding, complaint filing with RBI/NCH, and cease & desist notices. We provide immediate legal protection against illegal harassment."
+            answer: "Our anti-harassment services include call forwarding, complaint filing with RBI/NCH, and cease & desist notices. We provide immediate legal safety against illegal harassment."
         }
     ];
     const toggleFAQ = (index: number) => {
@@ -173,7 +173,7 @@ export default function ServicesPageClient() {
                       Cease & Desist Notices.
                     </p>
                     <p className="text-left" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.3', fontSize: '12px' }}>
-                      Our legal team issues notices to stop illegal recovery activities immediately.
+                      Our legal team issues notices to stop illegal recovery activities fast.
                     </p>
                   </div>
                 </div>
@@ -346,7 +346,7 @@ export default function ServicesPageClient() {
                         <span style={{ fontSize: '16px', color: 'rgba(12, 39, 86, 1)' }}>Cease & Desist Notices.</span>
                         <span style={{ fontSize: '16px', color: 'rgba(0, 0, 0, 1)' }}> -</span>
                         {' '}
-                        <span style={{ color: 'rgba(12, 39, 86, 0.70)' }}>Our legal team issues notices to stop illegal recovery activities immediately.</span>
+                        <span style={{ color: 'rgba(12, 39, 86, 0.70)' }}>Our legal team issues notices to stop illegal recovery activities fast.</span>
                       </p>
                     </div>
                   </div>
@@ -378,7 +378,7 @@ export default function ServicesPageClient() {
                   
                   {/* Left aligned description */}
                   <p className="text-left mb-3" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}>
-                    We recognize that life’s financial challenges can be unpredictable. Our experts negotiate with lenders to secure manageable settlement plans for your unsecured personal loans.
+                    We recognize that life’s money challenges can be unpredictable. Our experts agree on with lenders to secure easy settlement plans for your unsecured personal loans.
                   </p>
                   
                   {/* Left aligned pointers */}
@@ -389,15 +389,15 @@ export default function ServicesPageClient() {
                     </div>
                     <div className="flex items-center gap-3">
                       <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Manageable settlement plans.</span>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>easy settlement plans.</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Legal protection throughout.</span>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Legal safety throughout.</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Reduced financial burden.</span>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Reduced money burden.</span>
                     </div>
                   </div>
                 </div>
@@ -426,7 +426,7 @@ export default function ServicesPageClient() {
                   
                   {/* Left aligned description */}
                   <p className="text-left mb-3" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}>
-                    Credit card debt can be overwhelming due to high interest rates. We secure an affordable One-Time Settlement (OTS), helping you save money and improve your financial outlook.
+                    Credit card debt can be overwhelming due to high interest rates. We secure an affordable One-Time Settlement (OTS), helping you save money and improve your money outlook.
                   </p>
                   
                   {/* Left aligned pointers */}
@@ -474,7 +474,7 @@ export default function ServicesPageClient() {
                   
                   {/* Left aligned description */}
                   <p className="text-left mb-3" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}>
-                    Business loan defaults can threaten your company’s future. We negotiate flexible repayment terms and settlement options to help your business recover and thrive.
+                    Business loan defaults can threaten your company’s future. We agree on flexible repayment terms and settlement options to help your business recover and thrive.
                   </p>
                   
                   {/* Left aligned pointers */}
@@ -489,11 +489,11 @@ export default function ServicesPageClient() {
                     </div>
                     <div className="flex items-center gap-3">
                       <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Asset protection.</span>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Asset safety.</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Legal compliance.</span>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Legal rules.</span>
                     </div>
                   </div>
                 </div>
@@ -522,7 +522,7 @@ export default function ServicesPageClient() {
                   
                   {/* Left aligned description */}
                   <p className="text-left mb-5" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}>
-                    Since car loans are secured, a default risks asset loss. We negotiate reduced balances and manageable payments, easing the fear of losing your vehicle while restoring stability.
+                    Since car loans are secured, a default risks asset loss. We agree on reduced balances and easy payments, easing the fear of losing your vehicle while restoring stability.
                   </p>
                   
                   {/* Left aligned pointers */}
@@ -533,15 +533,15 @@ export default function ServicesPageClient() {
                     </div>
                     <div className="flex items-center gap-3">
                       <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Vehicle protection.</span>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Vehicle safety.</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Manageable payments.</span>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>easy payments.</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Financial stability.</span>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>peace of mind.</span>
                     </div>
                   </div>
                 </div>
@@ -570,14 +570,14 @@ export default function ServicesPageClient() {
                   
                   {/* Left aligned description */}
                   <p className="text-left mb-5" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}>
-                    Stop aggressive, illegal harassment from digital lending apps immediately. We provide legal representation to secure a final, RBI-compliant One-Time Settlement (OTS).
+                    Stop aggressive, illegal harassment from digital lending apps fast. We provide legal support to secure a final, RBI-compliant One-Time Settlement (OTS).
                   </p>
                   
                   {/* Left aligned pointers */}
                   <div className="space-y-2">
                     <div className="flex items-center gap-3">
                       <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Stop harassment immediately.</span>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Stop harassment fast.</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
@@ -585,11 +585,11 @@ export default function ServicesPageClient() {
                     </div>
                     <div className="flex items-center gap-3">
                       <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Legal representation.</span>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Legal support.</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Digital loan protection.</span>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Digital loan safety.</span>
                     </div>
                   </div>
                 </div>
@@ -618,7 +618,7 @@ export default function ServicesPageClient() {
                   
                   {/* Left aligned description */}
                   <p className="text-left mb-5" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}>
-                    Non-Banking Financial Companies often have different settlement policies. We navigate these complexities to secure favorable terms and protect your financial interests.
+                    Non-Banking money Companies often have different settlement policies. We navigate these complexities to secure good terms and protect your money interests.
                   </p>
                   
                   {/* Left aligned pointers */}
@@ -629,7 +629,7 @@ export default function ServicesPageClient() {
                     </div>
                     <div className="flex items-center gap-3">
                       <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Favorable settlement terms.</span>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>good settlement terms.</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
@@ -637,7 +637,7 @@ export default function ServicesPageClient() {
                     </div>
                     <div className="flex items-center gap-3">
                       <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
-                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Financial interest protection.</span>
+                      <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>money interest safety.</span>
                     </div>
                   </div>
                 </div>
@@ -669,7 +669,7 @@ export default function ServicesPageClient() {
                     
                     {/* Description */}
                     <p className="text-left mb-5" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}>
-                      We recognize that life’s financial challenges can be unpredictable. Our experts negotiate with lenders to secure manageable settlement plans for your unsecured personal loans.
+                      We recognize that life’s money challenges can be unpredictable. Our experts agree on with lenders to secure easy settlement plans for your unsecured personal loans.
                     </p>
                     
                     {/* Pointers */}
@@ -680,15 +680,15 @@ export default function ServicesPageClient() {
                       </div>
                       <div className="flex items-center gap-3">
                         <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Manageable settlement plans.</span>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>easy settlement plans.</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Legal protection throughout.</span>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Legal safety throughout.</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Reduced financial burden.</span>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Reduced money burden.</span>
                       </div>
                     </div>
 
@@ -726,7 +726,7 @@ export default function ServicesPageClient() {
                     
                     {/* Description */}
                     <p className="text-left mb-3" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}>
-                      Credit card debt can be overwhelming due to high interest rates. We secure an affordable One-Time Settlement (OTS), helping you save money and improve your financial outlook.
+                      Credit card debt can be overwhelming due to high interest rates. We secure an affordable One-Time Settlement (OTS), helping you save money and improve your money outlook.
                     </p>
                     
                     {/* Pointers */}
@@ -783,7 +783,7 @@ export default function ServicesPageClient() {
                     
                     {/* Description */}
                     <p className="text-left mb-5" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}>
-                      Business loan defaults can threaten your company’s future. We negotiate flexible repayment terms and settlement options to help your business recover and thrive.
+                      Business loan defaults can threaten your company’s future. We agree on flexible repayment terms and settlement options to help your business recover and thrive.
                     </p>
                     
                     {/* Pointers */}
@@ -798,11 +798,11 @@ export default function ServicesPageClient() {
                       </div>
                       <div className="flex items-center gap-3">
                         <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Asset protection.</span>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Asset safety.</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Legal compliance.</span>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Legal rules.</span>
                       </div>
                     </div>
 
@@ -840,7 +840,7 @@ export default function ServicesPageClient() {
                     
                     {/* Description */}
                     <p className="text-left mb-5" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}>
-                      Since car loans are secured, a default risks asset loss. We negotiate reduced balances and manageable payments, easing the fear of losing your vehicle while restoring stability.
+                      Since car loans are secured, a default risks asset loss. We agree on reduced balances and easy payments, easing the fear of losing your vehicle while restoring stability.
                     </p>
                     
                     {/* Pointers */}
@@ -851,15 +851,15 @@ export default function ServicesPageClient() {
                       </div>
                       <div className="flex items-center gap-3">
                         <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Vehicle protection.</span>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Vehicle safety.</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Manageable payments.</span>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>easy payments.</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Financial stability.</span>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>peace of mind.</span>
                       </div>
                     </div>
 
@@ -897,14 +897,14 @@ export default function ServicesPageClient() {
                     
                     {/* Description */}
                     <p className="text-left mb-5" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}>
-                      Stop aggressive, illegal harassment from digital lending apps immediately. We provide legal representation to secure a final, RBI-compliant One-Time Settlement (OTS).
+                      Stop aggressive, illegal harassment from digital lending apps fast. We provide legal support to secure a final, RBI-compliant One-Time Settlement (OTS).
                     </p>
                     
                     {/* Pointers */}
                     <div className="space-y-2 mb-4">
                       <div className="flex items-center gap-3">
                         <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Stop harassment immediately.</span>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Stop harassment fast.</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
@@ -912,11 +912,11 @@ export default function ServicesPageClient() {
                       </div>
                       <div className="flex items-center gap-3">
                         <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Legal representation.</span>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Legal support.</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Digital loan protection.</span>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Digital loan safety.</span>
                       </div>
                     </div>
 
@@ -954,7 +954,7 @@ export default function ServicesPageClient() {
                     
                     {/* Description */}
                     <p className="text-left mb-5" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.4', fontSize: '13.6px' }}>
-                      Non-Banking Financial Companies often have different settlement policies. We navigate these complexities to secure favorable terms and protect your financial interests.
+                      Non-Banking money Companies often have different settlement policies. We navigate these complexities to secure good terms and protect your money interests.
                     </p>
                     
                     {/* Pointers */}
@@ -965,7 +965,7 @@ export default function ServicesPageClient() {
                       </div>
                       <div className="flex items-center gap-3">
                         <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Favorable settlement terms.</span>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>good settlement terms.</span>
                       </div>
                       <div className="flex items-center gap-3">
                         <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
@@ -973,7 +973,7 @@ export default function ServicesPageClient() {
                       </div>
                       <div className="flex items-center gap-3">
                         <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
-                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Financial interest protection.</span>
+                        <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>money interest safety.</span>
                       </div>
                     </div>
 
@@ -1012,7 +1012,7 @@ export default function ServicesPageClient() {
                       Boost Your Credit Score Now
                     </h3>
                     <p className="text-left text-base" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.6' }}>
-                      Ready for real improvement? Our service gives you the advantage. We quickly analyze your report, fix errors with targeted disputes. Teach you the best ways to keep your score high. Start your journey to a better financial future today.
+                      Ready for real improvement? Our service gives you the advantage. We quickly analyze your report, fix errors with targeted disputes. Teach you the best ways to keep your score high. Start your journey to a better money future today.
                     </p>
                   </div>
                   
@@ -1135,7 +1135,7 @@ export default function ServicesPageClient() {
                         Ready to Take Control of Your Debt?
                       </h3>
                       <p className="text-center text-[12px] md:text-[14px] leading-[14px] md:leading-[18px] font-normal w-full" style={{ color: 'rgba(12, 39, 86, 0.70)' }}>
-                        Don’t let debt control your life. Our expert team is ready to help you settle your debts, stop harassment, and rebuild your financial future. Get started today with a free consultation.
+                        Don’t let debt control your life. Our expert team is ready to help you settle your debts, stop harassment, and rebuild your money future. Get started today with a free consultation.
                       </p>
                     </div>
 
@@ -1161,7 +1161,7 @@ export default function ServicesPageClient() {
                     Popular Bank &amp; NBFC Loan Settlement Portals
                   </h3>
                   <p className="text-sm text-gray-600">
-                    Direct legal representation and RBI-compliant one-time settlement (OTS) procedures across major Indian lenders.
+                    Direct legal support and RBI-compliant one-time settlement (OTS) procedures across major Indian lenders.
                   </p>
                 </div>
 

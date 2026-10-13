@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { unstable_cache } from 'next/cache';
 import { collection, getDocs, limit as limitDocs, orderBy, query } from 'firebase/firestore';
 import { db } from '@/lib/firebase';
+import { getOptimizedImageUrl } from '@/lib/blogs';
 
 interface BlogPost {
   id: string;
@@ -47,10 +48,12 @@ const fetchRecentBlogs = unstable_cache(
           slug = id;
         }
 
+        const rawImage = typeof data.image === 'string' && data.image.trim() !== '' ? data.image : '/sample.png';
+
         return {
           id,
           slug,
-          image: typeof data.image === 'string' && data.image.trim() !== '' ? data.image : '/sample.png',
+          image: getOptimizedImageUrl(rawImage),
           title,
           date: typeof data.date === 'string' ? data.date : '',
         };
@@ -117,7 +120,6 @@ export default async function Blogs() {
                         className="w-full h-full object-cover rounded-xl"
                         sizes="(max-width: 768px) 280px"
                         priority
-                        unoptimized
                       />
                   </div>
                   <div className="flex flex-col gap-2">
@@ -148,7 +150,6 @@ export default async function Blogs() {
                     height={240}
                     className="w-full h-full object-cover rounded-xl"
                     sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
-                    unoptimized
                   />
                 </div>
                 <div className="flex flex-col gap-2">

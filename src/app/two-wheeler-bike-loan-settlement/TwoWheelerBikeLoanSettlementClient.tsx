@@ -173,7 +173,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
                   <div>
-                    <strong className="text-slate-900 font-bold">Ownership Rights:</strong> Section 51 Motor Vehicles Act creates a financial charge, but legal ownership stays with the borrower.
+                    <strong className="text-slate-900 font-bold">Ownership Rights:</strong> Section 51 Motor Vehicles Act creates a money charge, but legal ownership stays with the borrower.
                   </div>
                 </li>
 
@@ -194,7 +194,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
                   <div>
-                    <strong className="text-slate-900 font-bold">Penal Fee Waivers:</strong> Compounding late fees and bounce penalties are completely eliminated during settlement negotiations.
+                    <strong className="text-slate-900 font-bold">Penal Fee Waivers:</strong> Compounding late fees and bounce penalties are completely eliminated during settlement talks.
                   </div>
                 </li>
 
@@ -232,11 +232,11 @@ export default function TwoWheelerBikeLoanSettlementClient() {
               </h2>
               
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Two-wheeler loans constitute one of India&apos;s largest retail credit segments, financed by non-banking financial companies (NBFCs) and private banks for salaried commuters and gig delivery riders. These loans operate under loan lien agreements executed under the Indian Contract Act, 1872 and registered on Registration Certificates under Section 51 of the Motor Vehicles Act, 1988. While the lender maintains a loan lien charge, legal ownership resides entirely with the borrower. Motorcycles and scooters are rapidly depreciating assets whose real-world resale value deteriorates swiftly every quarter.
+                Two-wheeler loans constitute one of India&apos;s largest retail credit segments, financed by non-banking money companies (NBFCs) and private banks for salaried commuters and gig delivery riders. These loans operate under loan lien agreements executed under the Indian Contract Act, 1872 and registered on Registration Certificates under Section 51 of the Motor Vehicles Act, 1988. While the lender maintains a loan lien charge, legal ownership resides entirely with the borrower. Motorcycles and scooters are rapidly depreciating assets whose real-world resale value deteriorates swiftly every quarter.
               </p>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When installments default due to genuine hardship, accounts transition through Special Mention Account stages: SMA-0 (1 to 30 days), SMA-1 (31 to 60 days). SMA-2 (61 to 90 days). Beyond 90 days, the loan becomes a Non-Performing Asset (NPA). Under RBI prudential norms, lenders must set aside heavy capital provisioning against NPAs. Because physical seizure involves steep towing fees, yard storage costs. Distress auction haircuts yielding barely thirty percent of loan value, lenders have powerful commercial incentives to execute One-Time Settlements (OTS) to recover core principal funds.
+                When installments default due to genuine hardship, accounts transition through Special Mention Account stages: SMA-0 (1 to 30 days), SMA-1 (31 to 60 days). SMA-2 (61 to 90 days). Beyond 90 days, the loan becomes a Non-Performing Asset (NPA). Under RBI prudential norms, lenders must set aside heavy capital provisioning against NPAs. Because physical seizure involves steep towing fees, yard storage costs. Distress auction haircuts yielding barely thirty percent of loan value, lenders have powerful business incentives to execute One-Time Settlements (OTS) to recover core principal funds.
               </p>
             </section>
 
@@ -251,7 +251,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When a two-wheeler loan enters default, gross claims swell from compounding interest, NACH bounce penalties of ₹450 to ₹900, penalty charges. Collection agency fees. A ₹45,000 principal default frequently inflates to ₹85,000 within six months. Forensic auditing isolates legitimate principal from artificial markups, enabling deep waivers during institutional negotiations:
+                When a two-wheeler loan enters default, gross claims swell from compounding interest, NACH bounce penalties of ₹450 to ₹900, penalty charges. Collection agency fees. A ₹45,000 principal default frequently inflates to ₹85,000 within six months. Forensic auditing isolates legitimate principal from artificial markups, enabling deep waivers during institutional talks:
               </p>
 
               {/* REPRESENTATIVE SETTLEMENT MATH CARD */}
@@ -339,7 +339,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Evaluating available two-wheeler debt resolution options is vital to avoid distress vehicle loss. This comparative matrix contrasts five primary avenues under Indian banking law:
+                review available two-wheeler debt resolution options is vital to avoid distress vehicle loss. This comparative matrix contrasts five primary avenues under Indian banking law:
               </p>
 
               {/* 4-SIDED BORDERED TABLE WITH VERTICAL AND HORIZONTAL DIVIDERS */}
@@ -757,7 +757,7 @@ export default function TwoWheelerBikeLoanSettlementClient() {
               </h2>
 
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Clear, authoritative answers to the most crucial legal, procedural. Financial questions regarding two-wheeler loan default, recovery agent regulations, seizure safeguards, and debt settlement in India:
+                Clear, authoritative answers to the most crucial legal, procedural. money questions regarding two-wheeler loan default, recovery agent regulations, seizure safeguards, and debt settlement in India:
               </p>
 
               <div className="space-y-2.5 pt-1">

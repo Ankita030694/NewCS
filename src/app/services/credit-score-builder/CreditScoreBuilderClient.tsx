@@ -45,23 +45,23 @@ export default function CreditScoreBuilderClient() {
     const faqs = [
         {
             question: 'What is a CIBIL credit score and how is it calculated?',
-            answer: "CIBIL credit score is a three-digit number ranging from 300 to 900 that represents your creditworthiness in India. It is calculated by CIBIL (Credit Information Bureau India Limited) based on your credit history, payment behavior, credit use, credit mix. Length of credit history. A score above 750 is considered excellent, while scores below 600 may make it difficult to get loans approved. The CIBIL credit score builder focuses on improving all these factors to boost your score."
+            answer: "CIBIL credit score is a three-digit number ranging from 300 to 900 that represents your creditworthiness in India. It is calculated by CIBIL (Credit Information Bureau India Limited) based on your credit record, payment habits, credit use, credit mix. Length of credit record. A score above 750 is considered excellent, while scores below 600 may make it difficult to get loans approved. The CIBIL credit score builder focuses on improving all these factors to boost your score."
         },
         {
             question: 'How can I improve my CIBIL credit score quickly?',
-            answer: "To improve your CIBIL credit score quickly, pay all bills on time, reduce credit card use below 30%, avoid multiple loan applications, maintain a good credit mix. Check your credit report regularly for errors. A credit score builder service can help identify specific issues in your credit report and provide a personalized strategy to improve your score. Typically, following these practices consistently can improve your score within 6-12 months."
+            answer: "To improve your CIBIL credit score quickly, pay all bills on time, reduce credit card use below 30%, avoid multiple loan applications, maintain a good credit mix. Check your credit report regularly for errors. A credit score builder service can help identify specific issues in your credit report and provide a custom plan to improve your score. Typically, following these practices consistently can improve your score within 6-12 months."
         },
         {
             question: 'What is a credit score builder and how does it work?',
-            answer: "A credit score builder is a service that helps you improve your credit score through strategic financial planning, credit report analysis. Personalized improvement strategies. It works by analyzing your credit report, identifying negative factors affecting your score, creating a customized action plan. Providing ongoing guidance to help you build credit responsibly. CredSettle\u2019s credit score builder service includes credit report analysis, dispute resolution, and credit improvement strategies."
+            answer: "A credit score builder is a service that helps you improve your credit score through strategic money planning, credit report review. custom growth plans. It works by analyzing your credit report, identifying negative factors affecting your score, creating a customized action plan. Providing ongoing guidance to help you build credit wisely. CredSettle\u2019s credit score builder service includes credit report review, dispute resolution, and credit growth plans."
         },
         {
             question: 'How long does it take to build a good credit score from scratch?',
-            answer: "Building a good credit score from scratch typically takes 6-12 months of consistent responsible credit behavior. This includes making timely payments, maintaining low credit use, and establishing a positive credit history. With a credit score builder service, you can potentially see improvements faster by addressing specific issues and following proven strategies. The key is consistency and patience in building credit."
+            answer: "Building a good credit score from scratch typically takes 6-12 months of steady wise credit habits. This includes making timely payments, maintaining low credit use, and establishing a good credit record. With a credit score builder service, you can potentially see improvements faster by addressing specific issues and following proven plans. The key is consistency and patience in building credit."
         },
         {
             question: 'Can I check my CIBIL score for free?',
-            answer: 'Yes, you can check your CIBIL credit score for free once a year from the CIBIL website. Also, many banks and banks offer free credit score checks to their customers. Regular monitoring of your credit score is important for credit score building, as it helps you track your progress and identify any issues that need to be addressed.'
+            answer: 'Yes, you can check your CIBIL credit score for free once a year from the CIBIL website. Also, many banks and banks offer free credit score checks to their customers. Regular tracking of your credit score is important for credit score building, as it helps you track your progress and identify any issues that need to be addressed.'
         },
         {
             question: 'What factors affect my CIBIL credit score negatively?',
@@ -69,11 +69,11 @@ export default function CreditScoreBuilderClient() {
         },
         {
             question: 'How does credit card usage affect my credit score?',
-            answer: "Credit card usage greatly affects your credit score. Maintaining credit use below 30% of your credit limit helps build a good credit score. High use, missing payments, or maxing out credit cards can negatively impact your score. Using credit cards responsibly and paying bills on time is essential for credit score building. A credit score builder can help you optimize your credit card usage strategy."
+            answer: "Credit card usage greatly affects your credit score. Maintaining credit use below 30% of your credit limit helps build a good credit score. High use, missing payments, or maxing out credit cards can negatively impact your score. Using credit cards wisely and paying bills on time is essential for credit score building. A credit score builder can help you optimize your credit card usage plan."
         },
         {
             question: 'Can I improve my credit score after loan settlement?',
-            answer: "Yes, you can improve your credit score after loan settlement. While settlement initially impacts your credit score, you can rebuild it through credit score building strategies such as making timely payments on other accounts, maintaining low credit use, diversifying your credit mix. Monitoring your credit report regularly. A credit score builder service can provide a personalized plan to help you recover and improve your credit score post-settlement."
+            answer: "Yes, you can improve your credit score after loan settlement. While settlement initially impacts your credit score, you can rebuild it through credit score building plans such as making timely payments on other accounts, maintaining low credit use, diversifying your credit mix. tracking your credit report regularly. A credit score builder service can provide a custom plan to help you recover and improve your credit score post-settlement."
         }
     ];
     const bodyTextStyle: CSSProperties = {
@@ -701,7 +701,7 @@ export default function CreditScoreBuilderClient() {
             fontSize: 'clamp(16px, 4.5vw, 18px)',
             lineHeight: 'clamp(24px, 6vw, 28px)'
         }}>
-                    Expert insights on credit score improvement, CIBIL score building, credit report analysis. Proven strategies to boost your creditworthiness in India.
+                    Expert insights on credit score growth, CIBIL score building, credit report review. Proven plans to boost your creditworthiness in India.
                   </p>
                 </div>
 
@@ -754,7 +754,7 @@ export default function CreditScoreBuilderClient() {
                           CredSettle Credit Score Builder Advantage
                         </h3>
                         <p className="mt-2 text-sm md:text-base" style={cardTextStyle}>
-                          We combine legal muscle, data-driven analytics. Disciplined coaching to deliver compounding credit score gains that hold up with every bureau and lender in India.
+                          We combine legal muscle, data-driven analytics. steady coaching to deliver compounding credit score gains that hold up with every bureau and lender in India.
                         </p>
                         <ul className="mt-4 space-y-2">
                           {highlightPoints.map((point) => (<li key={point} className="flex items-start gap-3">
@@ -902,7 +902,7 @@ export default function CreditScoreBuilderClient() {
                         Ready to Improve Your CIBIL Credit Score?
                       </h2>
                       <p className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full" style={{ color: 'rgba(12, 39, 86, 0.70)' }}>
-                        Get professional credit score building help from CredSettle’s expert team. Improve your CIBIL credit score through proven strategies and personalized guidance-start your path to better credit today.
+                        Get professional credit score building help from CredSettle’s expert team. Improve your CIBIL credit score through proven plans and custom guidance-start your path to better credit today.
                       </p>
                     </div>
 

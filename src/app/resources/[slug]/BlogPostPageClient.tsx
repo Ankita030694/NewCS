@@ -554,7 +554,7 @@ const READABILITY_REPLACEMENTS: Array<[RegExp, string]> = [
   [/\bavoidance\b/gi, 'avoiding'],
 ];
 
-const improveTextReadability = (html: string): string => {
+export const improveTextReadability = (html: string): string => {
   if (!html) return '';
 
   // 1. Ensure list items end with a period so crawler doesn't treat list items as run-on sentences
@@ -1255,7 +1255,6 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                       priority
                       placeholder="blur"
                       blurDataURL={PLACEHOLDER_BLUR_DATA_URL}
-                      unoptimized
                     />
                   </div>
                 </div>
@@ -1497,7 +1496,6 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                           width={800}
                           height={600}
                           className="w-full h-auto object-contain bg-white/50"
-                          unoptimized
                         />
                       </div>
                     </div>
@@ -1531,7 +1529,6 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                           width={800}
                           height={600}
                           className="w-full h-auto object-contain bg-white/50"
-                          unoptimized
                         />
                       </div>
                     </div>
@@ -1627,7 +1624,7 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                   </div>
                   <p className="text-[15px] font-bold mb-1.5 leading-tight">Talk to a CredSettle Expert Free!</p>
                   <p className="text-[12px] text-blue-50/90 mb-3.5 leading-relaxed font-medium">
-                    Get a personal debt assessment.<br/>
+                    Get a personal debt review.<br/>
                     One call. No pressure.<br/>
                     Clear answers.
                   </p>

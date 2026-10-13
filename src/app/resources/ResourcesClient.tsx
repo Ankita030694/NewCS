@@ -10,6 +10,7 @@ import type { SyntheticEvent } from 'react';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { canonicaliseSlug, ensureBlogSlug } from '@/lib/slug';
 import type { BlogDocument, PaginatedBlogs } from '@/lib/blogs';
+import { getOptimizedImageUrl } from '@/lib/blogs';
 import { resourcesFaqItems } from '@/data/faq';
 
 const PAGE_SIZE = 9;
@@ -44,7 +45,7 @@ function normaliseBlog(blog: BlogDocument): BlogPost {
     title: blog.title || '',
     date: blog.date || '',
     slug,
-    image: blog.image || '/sample.png',
+    image: getOptimizedImageUrl(blog.image),
     subtitle: blog.subtitle || '',
     created: blog.created,
   };
@@ -490,7 +491,6 @@ export default function ResourcesClient({
                           priority={pagination.page === 1 && idx < 3}
                           placeholder="blur"
                           blurDataURL={PLACEHOLDER_BLUR_DATA_URL}
-                          unoptimized
                           onError={(event: SyntheticEvent<HTMLImageElement>) => {
                             const target = event.currentTarget;
                             if (target.dataset?.fallbackApplied) {
@@ -503,7 +503,6 @@ export default function ResourcesClient({
                           }}
                           loading={pagination.page === 1 && idx < 3 ? 'eager' : 'lazy'}
                           referrerPolicy="no-referrer"
-                          unoptimized
                         />
                       </div>
                       <div className="flex flex-col gap-2">
