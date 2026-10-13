@@ -225,13 +225,30 @@ export function sanitizeMetaDescription(rawDesc?: string, bankName?: string, ser
   if (clean.length < 140) {
     const base = clean.replace(/[,;:\-–—|&.\s]+$/, '').trim();
     const suffixes = [
-      ' legally.', ' safely.', ' today.', ' with care.', ' with ease.', ' with legal ease.',
+      ' today.', ' with ease.', ' with care.', ' legally.', ' safely.', ' with legal ease.',
       ' with CredSettle.', ' under RBI rules.', ' under RBI guidelines.',
       ' with CredSettle legal help.', ' with legal help from CredSettle.',
       ' under legal RBI guidelines today.', ' Settle debt legally with CredSettle.',
       ' Settle debt safely under RBI rules.', ' Settle legally under RBI rules with CredSettle.'
     ];
 
+    for (const s of suffixes) {
+      if (s.includes('legally') && /\blegally\b/i.test(base)) continue;
+      if (s.includes('safely') && /\bsafely\b/i.test(base)) continue;
+      if (s.includes('CredSettle') && /\bCredSettle\b/i.test(base)) continue;
+      if (s.includes('RBI') && /\bRBI\b/i.test(base)) continue;
+      const cand = `${base}${s}`;
+      if (cand.length >= 140 && cand.length <= 146 && getMetaDescPixelWidth(cand) <= 960) return cand;
+    }
+    for (const s of suffixes) {
+      if (s.includes('legally') && /\blegally\b/i.test(base)) continue;
+      if (s.includes('safely') && /\bsafely\b/i.test(base)) continue;
+      if (s.includes('CredSettle') && /\bCredSettle\b/i.test(base)) continue;
+      if (s.includes('RBI') && /\bRBI\b/i.test(base)) continue;
+      const cand = `${base}${s}`;
+      if (cand.length >= 140 && cand.length <= 150 && getMetaDescPixelWidth(cand) <= 965) return cand;
+    }
+    // Fallback if no non-repeating suffix fits within bounds
     for (const s of suffixes) {
       const cand = `${base}${s}`;
       if (cand.length >= 140 && cand.length <= 146 && getMetaDescPixelWidth(cand) <= 960) return cand;
@@ -395,6 +412,12 @@ export function getShortBankName(name: string): string {
     'Chhatrapati Shahu Co Op Bank': 'Chhatrapati Shahu Bank',
     'Chhatrapati Shahu Bank': 'Chhatrapati Shahu Bank',
     'Spandana Sphoorty Financial Limited': 'Spandana Sphoorty',
+    'Mas Financial Services Limited': 'MAS Financial',
+    'MAS Financial Services Limited': 'MAS Financial',
+    'Mas Financial Services Ltd': 'Mas Fin',
+    'MAS Financial Services Ltd': 'Mas Fin',
+    'Mas Financial Services': 'Mas Fin',
+    'MAS Financial Services': 'Mas Fin',
     'Bankbazaar Loan Settlement': 'BankBazaar',
     'Finzy P2P Invest Borrow': 'Finzy P2P',
     'Mymoneymantra Loan Help': 'MyMoneyMantra',
