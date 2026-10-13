@@ -404,7 +404,7 @@ export default async function BankSettlementSlugPage({ params }: Props) {
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 tracking-tight leading-tight">
                 Legally Settle Your <br/>
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-indigo-300">
-                  {bankName} Debt
+                  {bankName.trim().length <= 5 ? `${bankName} Loan Debt` : `${bankName} Debt`}
                 </span>
               </h1>
               <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl leading-relaxed font-light">
