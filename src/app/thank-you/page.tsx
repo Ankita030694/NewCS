@@ -257,7 +257,9 @@ export default function ThankYouPage() {
                       <img
                         src="/upi.svg"
                         alt="UPI"
-                        className="h-4 md:h-5 opacity-70"
+                        width={200}
+                        height={60}
+                        className="h-4 md:h-5 w-auto opacity-70"
                         onError={(e) => {
                           (e.target as HTMLImageElement).style.display = 'none';
                         }}
@@ -267,21 +269,27 @@ export default function ThankYouPage() {
                       <img
                         src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg"
                         alt="Mastercard"
-                        className="h-3 md:h-4 opacity-70"
+                        width={100}
+                        height={60}
+                        className="h-3 md:h-4 w-auto opacity-70"
                       />
 
                       {/* Paytm Logo */}
                       <img
                         src="https://logos-world.net/wp-content/uploads/2020/11/Paytm-Logo.png"
                         alt="Paytm"
-                        className="h-4 md:h-5 opacity-70"
+                        width={120}
+                        height={40}
+                        className="h-4 md:h-5 w-auto opacity-70"
                       />
 
                       {/* Google Pay Logo */}
                       <img
                         src="/gpay.svg"
                         alt="Google Pay"
-                        className="h-4 md:h-5 opacity-70"
+                        width={150}
+                        height={48}
+                        className="h-4 md:h-5 w-auto opacity-70"
                         onError={(e) => {
                           (e.target as HTMLImageElement).style.display = 'none';
                         }}
@@ -430,32 +438,32 @@ export default function ThankYouPage() {
                   <div className="marquee-container">
                     <div className="marquee-content">
                       <a href="https://msme.gov.in/" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item">
-                        <img src="/guideline1.svg" alt="MSME" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
+                        <img src="/guideline1.svg" alt="MSME" width={60} height={60} className="h-9 md:h-12 w-auto opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
                       <a href="https://nhrc.nic.in/" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item">
-                        <img src="/guideline2.svg" alt="NHRC" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
+                        <img src="/guideline2.svg" alt="NHRC" width={87} height={60} className="h-9 md:h-12 w-auto opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
                       <a href="https://www.barcouncilofindia.org/home" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item">
-                        <img src="/guideline3.svg" alt="Bar Council" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
+                        <img src="/guideline3.svg" alt="Bar Council" width={196} height={60} className="h-9 md:h-12 w-auto opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
                       <a href="http://www.trai.gov.in/" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item">
-                        <img src="/guideline4.svg" alt="TRAI" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
+                        <img src="/guideline4.svg" alt="TRAI" width={109} height={60} className="h-9 md:h-12 w-auto opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
                       <a href="https://www.iba.org.in/index.html" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item">
-                        <img src="/guideline5.svg" alt="IBA" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
+                        <img src="/guideline5.svg" alt="IBA" width={65} height={60} className="h-9 md:h-12 w-auto opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
                       <a href="https://lawmin.gov.in/" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item">
-                        <img src="/guideline6.svg" alt="Law Ministry" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
+                        <img src="/guideline6.svg" alt="Law Ministry" width={60} height={60} className="h-9 md:h-12 w-auto opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
                       {/* Duplicate for seamless loop */}
                       <a href="https://msme.gov.in/" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item">
-                        <img src="/guideline1.svg" alt="MSME" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
+                        <img src="/guideline1.svg" alt="MSME" width={60} height={60} className="h-9 md:h-12 w-auto opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
                       <a href="https://nhrc.nic.in/" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item">
-                        <img src="/guideline2.svg" alt="NHRC" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
+                        <img src="/guideline2.svg" alt="NHRC" width={87} height={60} className="h-9 md:h-12 w-auto opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
                       <a href="https://www.barcouncilofindia.org/home" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item">
-                        <img src="/guideline3.svg" alt="Bar Council" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
+                        <img src="/guideline3.svg" alt="Bar Council" width={196} height={60} className="h-9 md:h-12 w-auto opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
                     </div>
                   </div>
@@ -476,31 +484,31 @@ export default function ThankYouPage() {
                   </p>
                   <div className="marquee-container">
                     <div className="marquee-content marquee-reverse">
+                      <div className="marquee-item" aria-label="CredSettle on Mint">
+                        <img src="/media/media1.svg" alt="CredSettle on Mint" width={100} height={58} className="h-9 md:h-12 w-auto opacity-80 hover:opacity-100 transition-opacity" />
+                      </div>
                       <a href="https://yourstory.com/companies/credsettle" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item" aria-label="CredSettle on YourStory">
-                        <img src="/media/media1.svg" alt="CredSettle on YourStory" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
+                        <img src="/media/media2.svg" alt="CredSettle on YourStory" width={100} height={39} className="h-9 md:h-12 w-auto opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
-                      <a href="https://medium.com/@credsettle/" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item" aria-label="CredSettle on Medium">
-                        <img src="/media/media2.svg" alt="CredSettle on Medium" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
-                      </a>
-                      <a href="https://yourstory.com/companies/credsettle" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item" aria-label="CredSettle on YourStory">
-                        <img src="/media/media3.svg" alt="CredSettle on YourStory" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
-                      </a>
-                      <a href="https://medium.com/@credsettle/" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item" aria-label="CredSettle on Medium">
-                        <img src="/media/media4.svg" alt="CredSettle on Medium" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
-                      </a>
+                      <div className="marquee-item" aria-label="CredSettle on Medium">
+                        <img src="/media/media3.svg" alt="CredSettle on Medium" width={100} height={32} className="h-9 md:h-12 w-auto opacity-80 hover:opacity-100 transition-opacity" />
+                      </div>
+                      <div className="marquee-item" aria-label="CredSettle on Mid-Day">
+                        <img src="/media/media4.svg" alt="CredSettle on Mid-Day" width={100} height={32} className="h-9 md:h-12 w-auto opacity-80 hover:opacity-100 transition-opacity" />
+                      </div>
                       {/* Duplicate for seamless loop */}
+                      <div className="marquee-item" aria-label="CredSettle on Mint">
+                        <img src="/media/media1.svg" alt="CredSettle on Mint" width={100} height={58} className="h-9 md:h-12 w-auto opacity-80 hover:opacity-100 transition-opacity" />
+                      </div>
                       <a href="https://yourstory.com/companies/credsettle" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item" aria-label="CredSettle on YourStory">
-                        <img src="/media/media1.svg" alt="CredSettle on YourStory" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
+                        <img src="/media/media2.svg" alt="CredSettle on YourStory" width={100} height={39} className="h-9 md:h-12 w-auto opacity-80 hover:opacity-100 transition-opacity" />
                       </a>
-                      <a href="https://medium.com/@credsettle/" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item" aria-label="CredSettle on Medium">
-                        <img src="/media/media2.svg" alt="CredSettle on Medium" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
-                      </a>
-                      <a href="https://yourstory.com/companies/credsettle" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item" aria-label="CredSettle on YourStory">
-                        <img src="/media/media3.svg" alt="CredSettle on YourStory" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
-                      </a>
-                      <a href="https://medium.com/@credsettle/" target="_blank" rel="nofollow noopener noreferrer" className="marquee-item" aria-label="CredSettle on Medium">
-                        <img src="/media/media4.svg" alt="CredSettle on Medium" className="h-9 md:h-12 opacity-80 hover:opacity-100 transition-opacity" />
-                      </a>
+                      <div className="marquee-item" aria-label="CredSettle on Medium">
+                        <img src="/media/media3.svg" alt="CredSettle on Medium" width={100} height={32} className="h-9 md:h-12 w-auto opacity-80 hover:opacity-100 transition-opacity" />
+                      </div>
+                      <div className="marquee-item" aria-label="CredSettle on Mid-Day">
+                        <img src="/media/media4.svg" alt="CredSettle on Mid-Day" width={100} height={32} className="h-9 md:h-12 w-auto opacity-80 hover:opacity-100 transition-opacity" />
+                      </div>
                     </div>
                   </div>
                 </div>

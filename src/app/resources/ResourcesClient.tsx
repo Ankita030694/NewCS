@@ -483,12 +483,14 @@ export default function ResourcesClient({
                         <Image
                           src={post.image}
                           alt={post.title}
-                          fill
+                          width={600}
+                          height={360}
                           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                          className="object-cover"
+                          className="w-full h-full object-cover"
                           priority={pagination.page === 1 && idx < 3}
                           placeholder="blur"
                           blurDataURL={PLACEHOLDER_BLUR_DATA_URL}
+                          unoptimized
                           onError={(event: SyntheticEvent<HTMLImageElement>) => {
                             const target = event.currentTarget;
                             if (target.dataset?.fallbackApplied) {

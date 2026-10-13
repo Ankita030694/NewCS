@@ -521,7 +521,7 @@ export default function LoanRecoveryAfterDeathClient() {
             <div className="sticky top-24">
               <div className="bg-white p-6 rounded-3xl shadow-sm border border-gray-100 flex flex-col items-center text-center">
                 <div className="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden border-4 border-white shadow-lg">
-                  <img src="/default-user.svg" alt="Vikram Desai" className="w-full h-full object-cover" />
+                  <img src="/default-user.svg" alt="Vikram Desai" className="w-full h-full object-cover"  width={96} height={96} />
                 </div>
                 <p className="font-bold text-xl text-black mb-1">Vikram Desai</p>
                 <p className="text-blue-600 font-semibold text-sm mb-4">Senior Legal Advocate</p>

@@ -264,7 +264,7 @@ export default function HighValueSettlementClient() {
                 <p>
                   Handling large liabilities requires specialized knowledge of commercial credit practices, asset classification systems. The legal framework governing recovery procedures. When a default exceeds several lakhs, standard automated recovery tactics escalate into formal bank notices, restructuring offers. Debt mediation panels. Appointing the right agent is crucial to ensure that negotiations result in legally valid waiver sanctions rather than long-term credit disputes.
                 </p>
-                <img src="/debt-comparison-banner.png" alt="Vetting the best loan settlement services in India for resolving high-value debt defaults" className="rounded-3xl shadow-md my-8 w-full h-auto"/>
+                <img src="/debt-comparison-banner.png" alt="Vetting the best loan settlement services in India for resolving high-value debt defaults" className="rounded-3xl shadow-md my-8 w-full h-auto" width={1024} height={1024} />
               </div>
 
               {/* H2 Section 1 */}

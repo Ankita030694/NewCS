@@ -22,6 +22,8 @@ export default function CompanySection() {
             <img
               src="/credsettle-logo-black.svg"
               alt="CredSettle"
+              width={131}
+              height={40}
               className="h-6 sm:h-7 w-auto object-contain"
             />
           </Link>

@@ -44,8 +44,8 @@ export default function AppLoanSettlementPage() {
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between" style={{ gap: '24px' }}>
             {/* Right visual - comes first on mobile */}
             <div className="flex-1 flex items-center justify-center w-full lg:w-auto order-1 lg:order-2" style={{ minWidth: '0', position: 'relative' }}>
-              <img src="/app_hero.png" alt="" aria-hidden className="hidden lg:block" style={{ position: 'absolute', width: '100%', maxWidth: '520px', height: 'auto', transform: 'rotate(335deg)', transformOrigin: 'center', filter: 'blur(6px)', opacity: 0.9, WebkitMaskImage: 'linear-gradient(to right, black 0%, black 10%, transparent 35%, transparent 65%, black 90%, black 100%)', maskImage: 'linear-gradient(to right, black 0%, black 10%, transparent 35%, transparent 65%, black 90%, black 100%)' }}/>
-              <img src="/app_hero.png" alt="App Loan Settlement" className="w-full max-w-[280px] md:max-w-[400px] lg:max-w-[520px]" style={{ height: 'auto', transform: 'rotate(335deg)', transformOrigin: 'center' }}/>
+              <img src="/app_hero.png" alt="App Loan Settlement" aria-hidden width={500} height={500} className="hidden lg:block" style={{ position: 'absolute', width: '100%', maxWidth: '520px', height: 'auto', transform: 'rotate(335deg)', transformOrigin: 'center', filter: 'blur(6px)', opacity: 0.9, WebkitMaskImage: 'linear-gradient(to right, black 0%, black 10%, transparent 35%, transparent 65%, black 90%, black 100%)', maskImage: 'linear-gradient(to right, black 0%, black 10%, transparent 35%, transparent 65%, black 90%, black 100%)' }}/>
+              <img src="/app_hero.png" alt="App Loan Settlement" width={500} height={500} className="w-full max-w-[280px] md:max-w-[400px] lg:max-w-[520px]" style={{ height: 'auto', transform: 'rotate(335deg)', transformOrigin: 'center' }}/>
             </div>
             {/* Left copy - comes second on mobile */}
             <div className="flex-1 w-full lg:w-auto order-2 lg:order-1" style={{ maxWidth: '640px' }}>
@@ -81,11 +81,11 @@ export default function AppLoanSettlementPage() {
               <div className="flex flex-col lg:flex-col gap-4 lg:gap-3 flex-1">
                 <div className="flex w-full lg:w-auto lg:flex-initial" style={{ borderRadius: '36px', padding: '12.96px', gap: '9.72px' }}>
                   <div className="w-1/2 flex justify-center items-center">
-                    <img src="/ggle.png" alt="Google Reviews - CredSettle" className="h-6 lg:h-[29.16px]"/>
+                    <img src="/ggle.png" alt="Google Reviews - CredSettle" width={386} height={130} className="h-6 lg:h-[29.16px] w-auto"/>
                   </div>
                   <div className="w-1/2 flex flex-col" style={{ gap: '6.48px' }}>
                     <div className="flex justify-center items-center" style={{ gap: '6.48px' }}>
-                      <img src="/stars.png" alt="5 Star Rating - CredSettle" className="h-3 lg:h-[12.96px]"/>
+                      <img src="/stars.png" alt="5 Star Rating - CredSettle" width={127} height={20} className="h-3 lg:h-[12.96px] w-auto"/>
                       <span className="font-medium text-gray-900 text-xs lg:text-[9.72px]">4.6/5</span>
                     </div>
                     <div className="text-center">
@@ -95,11 +95,11 @@ export default function AppLoanSettlementPage() {
                 </div>
                 <div className="flex w-full lg:w-auto lg:flex-initial" style={{ borderRadius: '36px', padding: '12.96px', gap: '9.72px' }}>
                   <div className="w-1/2 flex justify-center items-center">
-                    <img src="/trustpilot.svg" alt="Trustpilot Reviews - CredSettle" className="h-6 lg:h-[29.16px]"/>
+                    <img src="/trustpilot.svg" alt="Trustpilot Reviews - CredSettle" width={119} height={29} className="h-6 lg:h-[29.16px] w-auto"/>
                   </div>
                   <div className="w-1/2 flex flex-col" style={{ gap: '6.48px' }}>
                     <div className="flex justify-center items-center" style={{ gap: '6.48px' }}>
-                      <img src="/stars.png" alt="5 Star Rating - CredSettle" className="h-3 lg:h-[12.96px]"/>
+                      <img src="/stars.png" alt="5 Star Rating - CredSettle" width={127} height={20} className="h-3 lg:h-[12.96px] w-auto"/>
                       <span className="font-medium text-gray-900 text-xs lg:text-[9.72px]">4.6/5</span>
                     </div>
                     <div className="text-center">

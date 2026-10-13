@@ -364,6 +364,53 @@
 
 
 
+* **Mistake 38: Internal Link Pointing to Disallowed Route (`Response Codes: Internal Blocked by Robots.txt`)**
+  * *Why it happens:*
+    1. In `public/robots.txt`, route `/whatsapp` was disallowed (`Disallow: /whatsapp`).
+    2. However, the global `WhatsAppWidget.tsx` component mounted across every page in `layout.tsx` used `<Link href="/whatsapp">` instead of pointing directly to the external WhatsApp API URL (`WHATSAPP_URL` / `https://wa.me/918800226635?...`).
+    3. Screaming Frog crawling the site discovered the internal link `https://www.credsettle.com/whatsapp` on 377+ pages. When checking against `robots.txt`, it flagged the URL under High Priority warning: `Response Codes: Internal Blocked by Robots.txt` (Status code: 0, Blocked by robots.txt, 377 inlinks).
+  * *Prevention:*
+    1. **Direct External Linking in Floating Widgets & Social Components:** Always link external messaging/social buttons directly to their external destinations (`https://wa.me/...`, `https://facebook.com/...`, etc.) using standard `<a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">`.
+    2. **Never Create Internal Links to Disallowed Robots.txt Routes:** If a route is listed under `Disallow` in `robots.txt` (e.g. `/whatsapp`, `/social/`, `/authority/`, `/api/`), ensure no public facing component renders an internal link (`<Link href="...">` or `<a href="...">`) pointing to that path.
+
+---
+
+* **Mistake 39: External Links Returning 403 Forbidden / Client Errors (`Response Codes: External Client Error (4xx)`)**
+  * *Why it happens:*
+    1. Media coverage badges and press mentions in `HeroSection.tsx`, `about/page.tsx`, and `thank-you/page.tsx` contained anchor links (`<a>`) pointing to `https://medium.com/@credsettle` and `https://medium.com/@credsettle/`.
+    2. Medium employs anti-scraping / Cloudflare bot protections that actively reject automated crawlers like Screaming Frog with HTTP 403 Forbidden responses. In addition, CredSettle did not maintain an official active Medium account, making the link a non-existent/unverified profile.
+    3. Screaming Frog flagged both `https://medium.com/@credsettle` and `https://medium.com/@credsettle/` under `Response Codes: External Client Error (4xx)`.
+  * *Prevention:*
+    1. **Non-Link Display for Media Badges Without Dedicated Profiles:** For media logos representing press mentions or articles (e.g. Mint, Mid-day, Medium), wrap the logo in a styled `<div>` instead of an `<a>` tag, matching the design of sibling logos.
+    2. **Verify External Links Before Adding:** Always test external links with crawlers/curl to ensure they return HTTP 200 OK and do not block crawlers with 403 Forbidden or 404 Not Found.
+    3. **Aria-Label & Alt Text Accuracy:** Ensure `aria-label` and `alt` attributes on external links and media images accurately describe the respective publication rather than copy-pasted placeholders from other platforms.
+
+* **Mistake 40: Image Alt Text Over 100 Characters (`Images: Alt Text Over 100 Characters`)**
+  * *Why it happens:*
+    1. Developers or content writers write detailed explanatory paragraphs or keyword-stuffed sentences inside the `alt` attribute of infographic images (e.g. `src/app/loan-settlement/LoanSettlementPageClient.tsx` had an alt text of 265 characters listing all 5 steps, legal clauses, and CIBIL updates for `loan-settlement-process-infographic.jpg`).
+    2. Screaming Frog flags any image where `alt` text exceeds 100 characters under the `Images: Alt Text Over 100 Characters` audit filter, recommending concise, descriptive alt text that is helpful for users and search engines without keyword stuffing.
+  * *Prevention:*
+    1. **Strict 100-Character Ceiling:** Keep all image `alt` texts strictly ≤ 100 characters (ideal target 40–80 characters).
+    2. **Concise & Descriptive:** Summarize what the image or infographic represents in a single clear, focused phrase (e.g. `"5-step loan settlement process roadmap in India"` = 47 characters).
+    3. **Zero Keyword Stuffing:** Do not dump long lists of keywords, process step descriptions, or legal notices into image `alt` tags. Use accompanying captions (`<p>` or `<figcaption>`) for lengthy contextual explanations.
+    4. **Zero Em-Dashes:** Never use em-dashes (`—`) in image alt text; use hyphens, colons, or commas if punctuation is needed.
+
+---
+
+* **Mistake 41: Missing Alt Text on Duplicate / Blurred Background Glow Images (`Images: Missing Alt Text`)**
+  * *Why it happens:*
+    1. Hero sections often render duplicate `<img>` tags layered behind the primary visual to create CSS blur, shadow, or gradient mask effects (e.g. `NewCS/src/app/services/app-loan-settlement/page.tsx` rendering `<img src="/app_hero.png" alt="" aria-hidden className="hidden lg:block" .../>` behind `<img src="/app_hero.png" alt="App Loan Settlement" .../>`).
+    2. Even though empty alt attributes (`alt=""`) with `aria-hidden` are standard W3C pattern for decorative graphics, Screaming Frog checks all image instances across the website. If even a single instance of an internal image URL is rendered with an empty `alt=""` or missing `alt` attribute, Screaming Frog flags that image URL under the `Images: Missing Alt Text` issue.
+  * *Prevention:*
+    1. **Descriptive Alt Text for All Layered Visuals:** Ensure every `<img>` element rendering an internal image has descriptive, concise alt text matching its primary subject (e.g., `alt="App Loan Settlement"`), strictly ≤ 100 characters.
+    2. **Avoid Empty `alt=""` on `<img>` Tags:** When creating decorative background blur effects, either use CSS `background-image` / pseudo-elements, or provide the duplicate `<img>` with the same concise descriptive `alt` text as the foreground image.
+    3. **Dynamic State & Bank Pages Safety:** In dynamic state and bank templates (e.g. `StatePageClient.tsx`), ensure the `alt` attribute always resolves to a valid, descriptive string (e.g., `alt={content?.stateName ? `${content.stateName} App Loan Settlement` : 'App Loan Settlement'}`) so it never falls back to an empty string.
+
+---
+
+
+
+
 ## 🛠️ Step-by-Step Protocol When Resolving Screaming Frog Issues
 
 1. **Check `mistakes.md` First:** Review the rules above before writing or modifying any code.

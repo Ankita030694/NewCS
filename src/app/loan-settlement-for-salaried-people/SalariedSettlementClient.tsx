@@ -606,7 +606,7 @@ export default function SalariedSettlementClient() {
 
                             {/* Primary CTA */}
                             <div className="bg-white p-8 rounded-3xl shadow-[0_20px_50px_rgba(8,112,184,0.07)] border border-blue-50 text-center transform transition-all hover:scale-[1.02]">
-                                <img src="/credsettle-logo-black.svg" alt="CredSettle" className="w-32 mx-auto mb-6 opacity-30" />
+                                <img src="/credsettle-logo-black.svg" alt="CredSettle" className="w-32 mx-auto mb-6 opacity-30"  width={131} height={40} />
                                 <p className="font-extrabold text-2xl text-gray-900 mb-4">Reclaim Your Paycheck</p>
                                 <p className="text-sm text-gray-600 mb-8 leading-relaxed">Stop letting EMIs consume 70% of your income. Get a strategic settlement plan now.</p>
                                 <Link

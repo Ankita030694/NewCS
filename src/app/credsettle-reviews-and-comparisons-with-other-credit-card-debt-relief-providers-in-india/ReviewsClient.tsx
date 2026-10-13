@@ -263,7 +263,7 @@ export default function ReviewsClient() {
                 <p>
                   The Indian retail debt landscape has evolved greatly with the introduction of RBI's fair practices code and automated credit underwriting. When unsecured card defaults persist, banks escalate recovery through collection desks, which can lead to intensive contact pressure on families. Partnering with a professional agent ensures all communication is routed legally, giving you the security needed to negotiate waivers and receive official compromise sanctions.
                 </p>
-                <img src="/debt-comparison-banner.png" alt="Vetting CredSettle reviews and comparisons with other credit card debt relief providers in India" className="rounded-3xl shadow-md my-8 w-full h-auto"/>
+                <img src="/debt-comparison-banner.png" alt="Vetting CredSettle reviews and comparisons with other credit card debt relief providers in India" className="rounded-3xl shadow-md my-8 w-full h-auto" width={1024} height={1024} />
               </div>
 
               {/* H2 Section 1 */}

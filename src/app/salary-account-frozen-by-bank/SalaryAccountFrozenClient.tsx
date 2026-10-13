@@ -499,7 +499,7 @@ export default function SalaryAccountFrozenClient() {
                     src="/default-user.svg" 
                     alt="Vikram Desai Author" 
                     className="w-full h-full object-cover"
-                  />
+                   width={96} height={96} />
                 </div>
                 <p className="font-bold text-xl text-black mb-2">Vikram Desai</p>
                 <p className="text-blue-600 text-sm font-semibold uppercase tracking-widest mb-4">Senior Legal Counsel</p>

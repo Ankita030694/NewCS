@@ -140,7 +140,7 @@ export default function ContactPage() {
                   }}
                 >
                   <div className="absolute right-2 bottom-0 opacity-40 md:opacity-60">
-                    <img src="/contact1.png" alt="Email CredSettle for Loan Settlement Consultation" className="w-16 h-16 md:w-20 md:h-20" />
+                    <img src="/contact1.png" alt="Email CredSettle for Loan Settlement Consultation" width={500} height={500} className="w-16 h-16 md:w-20 md:h-20" />
                   </div>
                   <a href="mailto:info@credsettle.com" target="_blank" rel="noopener noreferrer">
                   <div className="flex flex-col relative z-10">
@@ -160,7 +160,7 @@ export default function ContactPage() {
                   }}
                 >
                   <div className="absolute right-2 bottom-0 opacity-40 md:opacity-60">
-                    <img src="/contact2.png" alt="Call CredSettle for Loan Settlement Support" className="w-16 h-16 md:w-20 md:h-20 rotate-90" />
+                    <img src="/contact2.png" alt="Call CredSettle for Loan Settlement Support" width={500} height={500} className="w-16 h-16 md:w-20 md:h-20 rotate-90" />
                   </div>
                   <a href="tel:+918800226635" target="_blank" rel="noopener noreferrer">
                   <div className="flex flex-col relative z-10">
@@ -180,7 +180,7 @@ export default function ContactPage() {
                   }}
                 >
                   <div className="absolute right-2 bottom-0 opacity-40 md:opacity-60">
-                    <img src="/contact3.png" alt="CredSettle Office Address in Gurugram" className="w-16 h-16 md:w-20 md:h-20" />
+                    <img src="/contact3.png" alt="CredSettle Office Address in Gurugram" width={500} height={500} className="w-16 h-16 md:w-20 md:h-20" />
                   </div>
                   <a href="https://maps.app.goo.gl/JCgKrU6LZSb2BDpS8" target="_blank" rel="noopener noreferrer">
                   <div className="flex flex-col relative z-10 max-w-[288px]">

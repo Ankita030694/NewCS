@@ -711,7 +711,7 @@ export default function CreditScoreBuilderClient() {
             width: '100%',
             maxWidth: '400px',
             height: 'auto'
-        }}/>
+        }} width={585} height={427} />
                 </div>
               </div>
             </section>

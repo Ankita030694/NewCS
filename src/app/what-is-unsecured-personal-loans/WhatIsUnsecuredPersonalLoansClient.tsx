@@ -425,7 +425,7 @@ export default function WhatIsUnsecuredPersonalLoansClient() {
           <aside className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
-                <img src="/default-user.svg" alt="Rajesh Kumar" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50 object-cover" />
+                <img src="/default-user.svg" alt="Rajesh Kumar" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50 object-cover"  width={96} height={96} />
                 <p className="font-bold text-gray-900">Rajesh Kumar</p>
                 <p className="text-sm text-gray-500 mb-4">Senior Legal Consultant</p>
                 <p className="text-xs text-gray-400">Expert in debt management and providing strategic legal resolution for retail borrowers in India.</p>

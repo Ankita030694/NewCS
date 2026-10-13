@@ -625,7 +625,7 @@ export default function LoanSettlementPageClient() {
                     <div className="relative overflow-hidden rounded-xl bg-white border border-gray-200 shadow-xs">
                       <img
                         src="/images/loan-settlement-process-infographic.jpg"
-                        alt="5-Step Loan Settlement Process in India Infographic - Detailed visual roadmap illustrating financial hardship assessment, legal notice representation, RBI compromise negotiation, official settlement sanction letter, and No Dues Certificate NOC CIBIL update"
+                        alt="5-step loan settlement process roadmap in India"
                         className="w-full h-auto object-cover rounded-xl"
                         loading="lazy"
                         width={1200}

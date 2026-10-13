@@ -312,7 +312,7 @@ export default function RestructuringClient() {
                   src="/debt-comparison-banner.png"
                   alt="Comprehensive comparison of debt settlement vs loan restructuring for credit card debt relief in India"
                   className="rounded-3xl shadow-md my-8 w-full h-auto"
-                />
+                 width={1024} height={1024} />
               </div>
 
               {/* SECTION 1 */}

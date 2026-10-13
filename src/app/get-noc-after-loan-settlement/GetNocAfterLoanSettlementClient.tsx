@@ -586,7 +586,7 @@ export default function GetNocAfterLoanSettlementClient() {
                     alt="How to Get Your NOC and No Dues Certificate After Loan Settlement Infographic"
                     className="w-full h-auto object-contain max-h-[440px] mx-auto hover:scale-[1.01] transition-transform duration-300"
                     loading="lazy"
-                  />
+                   width={1376} height={768} />
                 </div>
               </div>
 

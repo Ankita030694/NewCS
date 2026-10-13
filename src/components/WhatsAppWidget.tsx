@@ -1,6 +1,5 @@
 'use client';
 
-import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
@@ -21,8 +20,8 @@ export default function WhatsAppWidget() {
       <div className="rounded-full bg-white/90 px-4 py-2 text-xs font-medium text-[#0C2756] shadow-[0_12px_25px_rgba(0,0,0,0.12)] backdrop-blur-md">
         Chat with us on WhatsApp
       </div>
-      <Link
-        href="/whatsapp"
+      <a
+        href={WHATSAPP_URL}
         aria-label="Chat with CredSettle on WhatsApp"
         target="_blank"
         rel="noopener noreferrer"
@@ -31,7 +30,7 @@ export default function WhatsAppWidget() {
       >
         <span className="sr-only">Chat with CredSettle on WhatsApp</span>
         <FontAwesomeIcon icon={faWhatsapp} className="h-7 w-7" />
-      </Link>
+      </a>
     </div>
   );
 }

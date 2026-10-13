@@ -55,6 +55,8 @@ export default function AboutUsSection() {
             <img 
               src="/about1.png" 
               alt="Debt Settlement Services" 
+              width={500}
+              height={500}
               className="absolute bottom-0 right-0 w-32 sm:w-40 md:w-52 h-auto"
             />
           </div>
@@ -84,6 +86,8 @@ export default function AboutUsSection() {
             <img 
               src="/about2.png" 
               alt="RBI Compliant Loan Settlement" 
+              width={500}
+              height={500}
               className="absolute bottom-0 right-0 w-32 sm:w-40 md:w-52 h-auto"
             />
           </div>
@@ -113,6 +117,8 @@ export default function AboutUsSection() {
             <img 
               src="/about3.png" 
               alt="Fast Debt Relief Solutions" 
+              width={500}
+              height={500}
               className="absolute bottom-0 right-0 w-32 sm:w-40 md:w-52 h-auto"
             />
           </div>
@@ -174,6 +180,8 @@ export default function AboutUsSection() {
             <img 
               src="/about1.png" 
               alt="Debt Settlement Services" 
+              width={500}
+              height={500}
               className="absolute bottom-0 right-0 w-36 sm:w-44 md:w-56 h-auto transition-all duration-500 group-hover:scale-110 group-hover:translate-x-2 group-hover:-translate-y-2" 
               style={{ filter: 'drop-shadow(0 10px 20px rgba(0, 0, 0, 0.15))' }}
             />
@@ -233,6 +241,8 @@ export default function AboutUsSection() {
             <img 
               src="/about2.png" 
               alt="RBI Compliant Loan Settlement" 
+              width={500}
+              height={500}
               className="absolute bottom-0 right-0 w-36 sm:w-44 md:w-56 h-auto transition-all duration-500 group-hover:scale-110 group-hover:translate-x-2 group-hover:-translate-y-2"
               style={{ filter: 'drop-shadow(0 10px 20px rgba(0, 0, 0, 0.15))' }}
             />
@@ -292,6 +302,8 @@ export default function AboutUsSection() {
             <img 
               src="/about3.png" 
               alt="Fast Debt Relief Solutions" 
+              width={500}
+              height={500}
               className="absolute bottom-0 right-0 w-36 sm:w-44 md:w-56 h-auto transition-all duration-500 group-hover:scale-110 group-hover:translate-x-2 group-hover:-translate-y-2"
               style={{ filter: 'drop-shadow(0 10px 20px rgba(0, 0, 0, 0.15))' }}
             />
@@ -316,31 +328,43 @@ export default function AboutUsSection() {
             <img 
               src="/guideline1.svg" 
               alt="RBI Guidelines Compliance" 
+              width={60}
+              height={60}
               className="w-full max-w-[70px] sm:max-w-[120px] md:max-w-[140px] lg:max-w-[160px] h-auto"
             />
             <img 
               src="/guideline2.svg" 
               alt="Financial Regulations Compliance" 
+              width={87}
+              height={60}
               className="w-full max-w-[70px] sm:max-w-[120px] md:max-w-[140px] lg:max-w-[160px] h-auto"
             />
             <img 
               src="/guideline3.svg" 
               alt="Legal Compliance Standards" 
+              width={196}
+              height={60}
               className="w-full max-w-[70px] sm:max-w-[120px] md:max-w-[140px] lg:max-w-[160px] h-auto"
             />
             <img 
               src="/guideline4.svg" 
               alt="Banking Regulations Compliance" 
+              width={109}
+              height={60}
               className="w-full max-w-[70px] sm:max-w-[120px] md:max-w-[140px] lg:max-w-[160px] h-auto"
             />
             <img 
               src="/guideline5.svg" 
               alt="Consumer Protection Guidelines" 
+              width={65}
+              height={60}
               className="w-full max-w-[70px] sm:max-w-[120px] md:max-w-[140px] lg:max-w-[160px] h-auto"
             />
             <img 
               src="/guideline6.svg" 
               alt="Debt Settlement Regulations" 
+              width={60}
+              height={60}
               className="w-full max-w-[70px] sm:max-w-[120px] md:max-w-[140px] lg:max-w-[160px] h-auto"
             />
           </div>
@@ -380,12 +404,12 @@ export default function AboutUsSection() {
             </h3>
             <div className="grid grid-cols-3 grid-rows-2 md:grid-cols-6 md:grid-rows-1 gap-6 sm:gap-7 md:gap-8 place-items-center">
               {[
-                { src: '/guideline1.svg', alt: 'Bar Council of India' },
-                { src: '/guideline2.svg', alt: 'Banking Codes and Standards Board of India' },
-                { src: '/guideline3.svg', alt: 'Ministry of Law and Justice' },
-                { src: '/guideline4.svg', alt: 'Ministry of Micro, Small and Medium Enterprises' },
-                { src: '/guideline5.svg', alt: 'National Human Rights Commission' },
-                { src: '/guideline6.svg', alt: 'Telecom Regulatory Authority of India' },
+                { src: '/guideline1.svg', alt: 'Bar Council of India', width: 60, height: 60 },
+                { src: '/guideline2.svg', alt: 'Banking Codes and Standards Board of India', width: 87, height: 60 },
+                { src: '/guideline3.svg', alt: 'Ministry of Law and Justice', width: 196, height: 60 },
+                { src: '/guideline4.svg', alt: 'Ministry of Micro, Small and Medium Enterprises', width: 109, height: 60 },
+                { src: '/guideline5.svg', alt: 'National Human Rights Commission', width: 65, height: 60 },
+                { src: '/guideline6.svg', alt: 'Telecom Regulatory Authority of India', width: 60, height: 60 },
               ].map((item, index) => (
                 <div 
                   key={index}
@@ -395,6 +419,8 @@ export default function AboutUsSection() {
                   <img 
                     src={item.src} 
                     alt={item.alt} 
+                    width={item.width}
+                    height={item.height}
                     className="w-full max-w-[70px] sm:max-w-[120px] md:max-w-[140px] lg:max-w-[160px] h-auto transition-all duration-300"
                   />
                 </div>

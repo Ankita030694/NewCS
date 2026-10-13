@@ -75,14 +75,14 @@ export default function StatePageClient({ content, headings }: StatePageClientPr
             <div className="flex-1 flex items-center justify-center w-full lg:w-auto order-1 lg:order-2" style={{ minWidth: '0', position: 'relative' }}>
               <img
                 src="/app_hero.png"
-                alt={content.stateName}
+                alt={content?.stateName ? `${content.stateName} App Loan Settlement` : 'App Loan Settlement'}
                 className="w-full max-w-[280px] md:max-w-[400px] lg:max-w-[520px]"
                 style={{
                   height: 'auto',
                   transform: 'rotate(335deg)',
                   transformOrigin: 'center'
                 }}
-              />
+               width={500} height={500} />
             </div>
             {/* Left copy - comes second on mobile */}
             <div className="flex-1 w-full lg:w-auto order-2 lg:order-1" style={{ maxWidth: '640px' }}>

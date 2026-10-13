@@ -487,7 +487,7 @@ export default function OnlineToolsClient() {
           <aside className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
-                <img src="/default-user.svg" alt="Arun Sharma Author" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50 object-cover bg-gray-200"/>
+                <img src="/default-user.svg" alt="Arun Sharma Author" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50 object-cover bg-gray-200" width={96} height={96} />
                 <p className="font-bold text-gray-900">Arun Sharma</p>
                 <p className="text-sm text-gray-500 mb-4">Lead Fintech Analyst.</p>
                 <p className="text-xs text-gray-400">Specializes in algorithmic debt modeling, financial risk assessment. Leveraging data for consumer protection in the debt settlement sector.</p>

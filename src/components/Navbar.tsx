@@ -68,7 +68,7 @@ export default function ContactNavbar() {
               <div className="flex-shrink-0">
                 <a href="/" onClick={closeMenu} aria-label="CredSettle Home">
                   <span className="sr-only">CredSettle Home</span>
-                  <img src="/credsettle-logo-black.svg" alt="CredSettle Logo" className="h-8 md:h-[38.88px]" />
+                  <img src="/credsettle-logo-black.svg" alt="CredSettle Logo" width={131} height={40} className="h-8 md:h-[38.88px] w-auto" />
                 </a>
               </div>
               
@@ -126,7 +126,7 @@ export default function ContactNavbar() {
           }`}>
             <a href="/" onClick={closeMenu} aria-label="CredSettle Home">
               <span className="sr-only">CredSettle Home</span>
-              <img src="/credsettle-logo-black.svg" alt="CredSettle Logo" className="h-8 brightness-0 invert" />
+              <img src="/credsettle-logo-black.svg" alt="CredSettle Logo" width={131} height={40} className="h-8 w-auto brightness-0 invert" />
             </a>
             <button
               onClick={toggleMenu}

@@ -429,7 +429,7 @@ export default function RecoveryAgentOfficeClient() {
                                     src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" 
                                     alt="Vikram Sharma Legal Expert in Debt Settlement and Financial Rights" 
                                     className="w-full h-full object-cover"
-                                />
+                                 width={96} height={96} />
                             </div>
                             <p className="font-bold text-xl text-gray-900 mb-1">Vikram Sharma</p>
                             <p className="text-sm font-semibold text-blue-600 mb-3">Senior Legal Strategist</p>

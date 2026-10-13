@@ -53,7 +53,7 @@ export default function AuthorityLayout({ children }: AuthorityLayoutProps) {
           <Link href="/" className="flex items-center gap-3 text-white transition hover:opacity-90">
            
             <div>
-                <img src="/credsettle-logo-black.svg" alt="CredSettle Logo" className="h-8 brightness-0 invert text-center" />
+                <img src="/credsettle-logo-black.svg" alt="CredSettle Logo" width={131} height={40} className="h-8 w-auto brightness-0 invert text-center" />
             </div>
           </Link>
 

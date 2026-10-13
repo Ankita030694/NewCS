@@ -356,7 +356,7 @@ export default function Settle5LakhClient() {
                                     src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg"
                                     alt="Vikram Sharma - Legal Expert"
                                     className="w-24 h-24 rounded-full border-4 border-blue-50 mb-4 object-cover"
-                                />
+                                 width={96} height={96} />
                                 <p className="text-xl font-bold text-gray-900 mb-1">Vikram Sharma</p>
                                 <p className="text-sm text-blue-600 font-medium mb-4">Legal Resolution Expert</p>
                                 <p className="text-gray-600 text-sm leading-relaxed mb-6 font-light">

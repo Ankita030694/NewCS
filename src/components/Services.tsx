@@ -453,6 +453,8 @@ export default function Services() {
               <img 
                 src="/service1.png" 
                 alt="Personal Loan Settlement" 
+                width={500}
+                height={500}
                 style={{ width: '80px', height: '80px' }}
               />
             </div>
@@ -498,6 +500,8 @@ export default function Services() {
               <img 
                 src="/service2.png" 
                 alt="Credit Card Settlement" 
+                width={500}
+                height={500}
                 style={{ width: '80px', height: '80px' }}
               />
             </div>
@@ -543,6 +547,8 @@ export default function Services() {
               <img 
                 src="/service3.png" 
                 alt="Business Loan Settlement" 
+                width={500}
+                height={500}
                 style={{ width: '80px', height: '80px' }}
               />
             </div>
@@ -588,6 +594,8 @@ export default function Services() {
               <img 
                 src="/service4.png" 
                 alt="Car Loan Settlement" 
+                width={500}
+                height={500}
                 style={{ width: '80px', height: '80px' }}
               />
             </div>
@@ -633,6 +641,8 @@ export default function Services() {
               <img 
                 src="/service5.png" 
                 alt="App Loan Settlement" 
+                width={500}
+                height={500}
                 style={{ width: '80px', height: '80px' }}
               />
             </div>
@@ -678,6 +688,8 @@ export default function Services() {
               <img 
                 src="/service6.png" 
                 alt="NBFC Loan Settlement" 
+                width={500}
+                height={500}
                 style={{ width: '80px', height: '80px' }}
               />
             </div>
@@ -726,6 +738,8 @@ export default function Services() {
               <img 
                 src="/service1.png" 
                 alt="Personal Loan Settlement" 
+                width={500}
+                height={500}
                 style={{ width: '60px', height: '60px' }}
               />
             </div>
@@ -773,6 +787,8 @@ export default function Services() {
               <img 
                 src="/service2.png" 
                 alt="Credit Card Settlement" 
+                width={500}
+                height={500}
                 style={{ width: '60px', height: '60px' }}
               />
             </div>
@@ -820,6 +836,8 @@ export default function Services() {
               <img 
                 src="/service3.png" 
                 alt="Business Loan Settlement" 
+                width={500}
+                height={500}
                 style={{ width: '60px', height: '60px' }}
               />
             </div>
@@ -867,6 +885,8 @@ export default function Services() {
               <img 
                 src="/service4.png" 
                 alt="Car Loan Settlement" 
+                width={500}
+                height={500}
                 style={{ width: '60px', height: '60px' }}
               />
             </div>
@@ -914,6 +934,8 @@ export default function Services() {
               <img 
                 src="/service5.png" 
                 alt="App Loan Settlement" 
+                width={500}
+                height={500}
                 style={{ width: '60px', height: '60px' }}
               />
             </div>
@@ -961,6 +983,8 @@ export default function Services() {
               <img 
                 src="/service6.png" 
                 alt="NBFC Loan Settlement" 
+                width={500}
+                height={500}
                 style={{ width: '60px', height: '60px' }}
               />
             </div>
@@ -1010,6 +1034,8 @@ export default function Services() {
           <img 
             src="/creditscore.png" 
             alt="Credit Score" 
+            width={677}
+            height={369}
             style={{ width: '300px', height: 'auto' }}
           />
 
@@ -1072,6 +1098,8 @@ export default function Services() {
             <img 
               src="/creditscore.png" 
               alt="Credit Score" 
+              width={677}
+              height={369}
               style={{ maxWidth: '100%', height: 'auto', objectFit: 'contain', flexShrink: 0 }}
               className="max-w-[240px] sm:max-w-[48px]"
             />

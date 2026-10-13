@@ -368,7 +368,7 @@ export default function ServicesPageClient() {
         }}>
                   {/* Icon in top left */}
                   <div className="mb-3 -ml-12 -mt-12">
-                    <img src="/service1.png" alt="Personal Loan Settlement" style={{ width: '200px', height: '200px' }}/>
+                    <img src="/service1.png" alt="Personal Loan Settlement" width={500} height={500} style={{ width: '200px', height: '200px' }}/>
                   </div>
                   
                   {/* Left aligned heading */}
@@ -384,19 +384,19 @@ export default function ServicesPageClient() {
                   {/* Left aligned pointers */}
                   <div className="space-y-2">
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                       <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Expert negotiation with lenders.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                       <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Manageable settlement plans.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                       <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Legal protection throughout.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                       <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Reduced financial burden.</span>
                     </div>
                   </div>
@@ -416,7 +416,7 @@ export default function ServicesPageClient() {
         }}>
                   {/* Icon in top left */}
                   <div className="mb-3 -ml-12 -mt-12">
-                    <img src="/service2.png" alt="Credit Card Settlement" style={{ width: '200px', height: '200px' }}/>
+                    <img src="/service2.png" alt="Credit Card Settlement" width={500} height={500} style={{ width: '200px', height: '200px' }}/>
                   </div>
                   
                   {/* Left aligned heading */}
@@ -432,19 +432,19 @@ export default function ServicesPageClient() {
                   {/* Left aligned pointers */}
                   <div className="space-y-2">
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                       <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>One-Time Settlement (OTS).</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                       <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Reduced interest rates.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                       <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>major savings.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                       <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Improved credit score.</span>
                     </div>
                   </div>
@@ -464,7 +464,7 @@ export default function ServicesPageClient() {
         }}>
                   {/* Icon in top left */}
                   <div className="mb-3 -ml-12 -mt-12">
-                    <img src="/service3.png" alt="Business Loan Settlement" style={{ width: '200px', height: '200px' }}/>
+                    <img src="/service3.png" alt="Business Loan Settlement" width={500} height={500} style={{ width: '200px', height: '200px' }}/>
                   </div>
                   
                   {/* Left aligned heading */}
@@ -480,19 +480,19 @@ export default function ServicesPageClient() {
                   {/* Left aligned pointers */}
                   <div className="space-y-2">
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                       <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Flexible repayment terms.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                       <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Business recovery support.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                       <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Asset protection.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                       <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Legal compliance.</span>
                     </div>
                   </div>
@@ -512,7 +512,7 @@ export default function ServicesPageClient() {
         }}>
                   {/* Icon in top left */}
                   <div className="mb-3 -ml-10 -mt-5">
-                    <img src="/service4.png" alt="Car Loan Settlement" style={{ width: '150px', height: '150px' }}/>
+                    <img src="/service4.png" alt="Car Loan Settlement" width={500} height={500} style={{ width: '150px', height: '150px' }}/>
                   </div>
                   
                   {/* Left aligned heading */}
@@ -528,19 +528,19 @@ export default function ServicesPageClient() {
                   {/* Left aligned pointers */}
                   <div className="space-y-2">
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                       <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Reduced loan balance.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                       <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Vehicle protection.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                       <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Manageable payments.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                       <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Financial stability.</span>
                     </div>
                   </div>
@@ -560,7 +560,7 @@ export default function ServicesPageClient() {
         }}>
                   {/* Icon in top left */}
                   <div className="mb-3 -ml-10 -mt-5">
-                    <img src="/service5.png" alt="App Loan Settlement" style={{ width: '150px', height: '150px' }}/>
+                    <img src="/service5.png" alt="App Loan Settlement" width={500} height={500} style={{ width: '150px', height: '150px' }}/>
                   </div>
                   
                   {/* Left aligned heading */}
@@ -576,19 +576,19 @@ export default function ServicesPageClient() {
                   {/* Left aligned pointers */}
                   <div className="space-y-2">
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                       <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Stop harassment immediately.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                       <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>RBI-compliant settlement.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                       <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Legal representation.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                       <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Digital loan protection.</span>
                     </div>
                   </div>
@@ -608,7 +608,7 @@ export default function ServicesPageClient() {
         }}>
                   {/* Icon in top left */}
                   <div className="mb-3 -ml-10 -mt-5">
-                    <img src="/service6.png" alt="NBFC Loan Settlement" style={{ width: '150px', height: '150px' }}/>
+                    <img src="/service6.png" alt="NBFC Loan Settlement" width={500} height={500} style={{ width: '150px', height: '150px' }}/>
                   </div>
                   
                   {/* Left aligned heading */}
@@ -624,19 +624,19 @@ export default function ServicesPageClient() {
                   {/* Left aligned pointers */}
                   <div className="space-y-2">
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                       <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Specialized NBFC expertise.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                       <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Favorable settlement terms.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                       <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Policy navigation.</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                      <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                       <span className="text-base" style={{ color: '#0C2756', opacity: 0.8 }}>Financial interest protection.</span>
                     </div>
                   </div>
@@ -659,7 +659,7 @@ export default function ServicesPageClient() {
         }}>
                     {/* Icon in top right */}
                     <div className="mb-3 flex justify-end -mr-6 -mt-6">
-                      <img src="/service1.png" alt="Personal Loan Settlement" style={{ width: '120px', height: '120px' }}/>
+                      <img src="/service1.png" alt="Personal Loan Settlement" width={500} height={500} style={{ width: '120px', height: '120px' }}/>
                     </div>
                     
                     {/* Heading */}
@@ -675,19 +675,19 @@ export default function ServicesPageClient() {
                     {/* Pointers */}
                     <div className="space-y-2 mb-4">
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                         <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Expert negotiation with lenders.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                         <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Manageable settlement plans.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                         <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Legal protection throughout.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                         <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Reduced financial burden.</span>
                       </div>
                     </div>
@@ -716,7 +716,7 @@ export default function ServicesPageClient() {
         }}>
                     {/* Icon in top right */}
                     <div className="mb-3 flex justify-end -mr-6 -mt-6">
-                      <img src="/service2.png" alt="Credit Card Settlement" style={{ width: '120px', height: '120px' }}/>
+                      <img src="/service2.png" alt="Credit Card Settlement" width={500} height={500} style={{ width: '120px', height: '120px' }}/>
                     </div>
                     
                     {/* Heading */}
@@ -732,19 +732,19 @@ export default function ServicesPageClient() {
                     {/* Pointers */}
                     <div className="space-y-2 mb-4">
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                         <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>One-Time Settlement (OTS).</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                         <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Reduced interest rates.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                         <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>major savings.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                         <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Improved credit score.</span>
                       </div>
                     </div>
@@ -773,7 +773,7 @@ export default function ServicesPageClient() {
         }}>
                     {/* Icon in top right */}
                     <div className="mb-3 flex justify-end -mr-6 -mt-6">
-                      <img src="/service3.png" alt="Business Loan Settlement" style={{ width: '120px', height: '120px' }}/>
+                      <img src="/service3.png" alt="Business Loan Settlement" width={500} height={500} style={{ width: '120px', height: '120px' }}/>
                     </div>
                     
                     {/* Heading */}
@@ -789,19 +789,19 @@ export default function ServicesPageClient() {
                     {/* Pointers */}
                     <div className="space-y-2 mb-4">
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                         <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Flexible repayment terms.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                         <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Business recovery support.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                         <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Asset protection.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                         <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Legal compliance.</span>
                       </div>
                     </div>
@@ -830,7 +830,7 @@ export default function ServicesPageClient() {
         }}>
                     {/* Icon in top right */}
                     <div className="mb-3 flex justify-end -mr-6 -mt-6">
-                      <img src="/service4.png" alt="Car Loan Settlement" style={{ width: '120px', height: '120px' }}/>
+                      <img src="/service4.png" alt="Car Loan Settlement" width={500} height={500} style={{ width: '120px', height: '120px' }}/>
                     </div>
                     
                     {/* Heading */}
@@ -846,19 +846,19 @@ export default function ServicesPageClient() {
                     {/* Pointers */}
                     <div className="space-y-2 mb-4">
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                         <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Reduced loan balance.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                         <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Vehicle protection.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                         <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Manageable payments.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                         <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Financial stability.</span>
                       </div>
                     </div>
@@ -887,7 +887,7 @@ export default function ServicesPageClient() {
         }}>
                     {/* Icon in top right */}
                     <div className="mb-3 flex justify-end -mr-6 -mt-6">
-                      <img src="/service5.png" alt="App Loan Settlement" style={{ width: '120px', height: '120px' }}/>
+                      <img src="/service5.png" alt="App Loan Settlement" width={500} height={500} style={{ width: '120px', height: '120px' }}/>
                     </div>
                     
                     {/* Heading */}
@@ -903,19 +903,19 @@ export default function ServicesPageClient() {
                     {/* Pointers */}
                     <div className="space-y-2 mb-4">
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                         <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Stop harassment immediately.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                         <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>RBI-compliant settlement.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                         <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Legal representation.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                         <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Digital loan protection.</span>
                       </div>
                     </div>
@@ -944,7 +944,7 @@ export default function ServicesPageClient() {
         }}>
                     {/* Icon in top right */}
                     <div className="mb-3 flex justify-end -mr-6 -mt-6">
-                      <img src="/service6.png" alt="NBFC Loan Settlement" style={{ width: '120px', height: '120px' }}/>
+                      <img src="/service6.png" alt="NBFC Loan Settlement" width={500} height={500} style={{ width: '120px', height: '120px' }}/>
                     </div>
                     
                     {/* Heading */}
@@ -960,19 +960,19 @@ export default function ServicesPageClient() {
                     {/* Pointers */}
                     <div className="space-y-2 mb-4">
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                         <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Specialized NBFC expertise.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                         <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Favorable settlement terms.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                         <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Policy navigation.</span>
                       </div>
                       <div className="flex items-center gap-3">
-                        <img src="/pointer.svg" alt="Service feature indicator" style={{ width: '20px', height: '20px' }}/>
+                        <img src="/pointer.svg" alt="Service feature indicator" width={20} height={20} style={{ width: '20px', height: '20px' }}/>
                         <span className="text-sm" style={{ color: '#0C2756', opacity: 0.8 }}>Financial interest protection.</span>
                       </div>
                     </div>
@@ -1003,7 +1003,7 @@ export default function ServicesPageClient() {
             boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)'
         }}>
                 {/* Left: Credit Score Image */}
-                <img src="/creditscore.png" alt="Credit Score" style={{ width: '250px', height: 'auto' }}/>
+                <img src="/creditscore.png" alt="Credit Score" width={677} height={369} style={{ width: '250px', height: 'auto' }}/>
 
                 {/* Right: Content */}
                 <div className="flex-1 flex flex-col h-full">
@@ -1043,7 +1043,7 @@ export default function ServicesPageClient() {
                       Boost Your Credit Score Now
                     </h3>
                   </div>
-                  <img src="/creditscore.png" alt="Credit Score" style={{ maxWidth: '100%', height: 'auto', objectFit: 'contain', flexShrink: 0 }} className="max-w-[240px] sm:max-w-[48px]"/>
+                  <img src="/creditscore.png" alt="Credit Score" width={677} height={369} style={{ maxWidth: '100%', height: 'auto', objectFit: 'contain', flexShrink: 0 }} className="max-w-[240px] sm:max-w-[48px]"/>
                 </div>
                 <div className="flex-1 mb-3">
                   <p className="text-left text-sm" style={{ color: '#0C2756', opacity: 0.8, lineHeight: '1.5' }}>

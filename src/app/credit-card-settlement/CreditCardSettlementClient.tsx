@@ -461,7 +461,7 @@ export default function CreditCardSettlementClient() {
                                 src="/default-user.svg" 
                                 alt="Rahul Verma - Legal Expert" 
                                 className="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white shadow-md object-cover"
-                            />
+                             width={128} height={128} />
                             <p className="font-bold text-gray-900 text-lg">Rahul Verma</p>
                             <p className="text-blue-600 text-sm font-semibold mb-4">Consumer Debt Specialist</p>
                             <p className="text-gray-600 text-sm mb-6 leading-relaxed">

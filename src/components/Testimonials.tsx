@@ -7,21 +7,27 @@ const Testimonials = () => {
       text: "CredSettle stopped the constant harassment immediately. They negotiated a Personal Loan settlement for far less than I owed, restoring my peace of mind and dignity.",
       name: "Ram Badhoriya",
       type: "Personal Loan Settlement",
-      imageHeight: "390px"
+      imageHeight: "390px",
+      width: 300,
+      height: 200
     },
     {
       image: "/man2.jpg",
       text: "After months of stress from credit card debt, CredSettle helped me settle my outstanding balance at 40% of the original amount. The process was smooth and professional.",
       name: "Prabhdeep Singh.",
       type: "Credit Card Settlement",
-      imageHeight: "390px"
+      imageHeight: "390px",
+      width: 866,
+      height: 1390
     },
     {
       image: "/man3.png",
       text: "I was struggling with my car loan payments. CredSettle negotiated a settlement that saved me thousands and helped me get back on track financially. Highly recommended!",
       name: "Venugopal K.",
       type: "Car Loan Settlement",
-      imageHeight: "482px"
+      imageHeight: "482px",
+      width: 1320,
+      height: 1338
     }
   ];
 
@@ -70,6 +76,8 @@ const Testimonials = () => {
               <img
                 src={testimonial.image}
                 alt={`${testimonial.name} testimonial`}
+                width={testimonial.width}
+                height={testimonial.height}
                 className="w-full h-full object-cover" 
                 style={{ 
                   flexShrink: 0,
@@ -133,6 +141,8 @@ const Testimonials = () => {
                   <img
                     src={testimonial.image}
                     alt={`${testimonial.name} testimonial`}
+                    width={testimonial.width}
+                    height={testimonial.height}
                     className="w-full h-full object-contain"
                   />
                   

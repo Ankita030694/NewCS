@@ -538,7 +538,7 @@ export default function FullAndFinalSettlementMeaningClient() {
               {/* Compact Landscape Infographic Image */}
               <div className="p-3 md:p-4 bg-slate-50">
                 <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-sm bg-white">
-                  <img src="/images/infographics/full-and-final-settlement-meaning.jpg" alt="Full and Final Debt Settlement Meaning and Roadmap Infographic" className="w-full h-auto object-contain max-h-[440px] mx-auto hover:scale-[1.01] transition-transform duration-300" loading="lazy"/>
+                  <img src="/images/infographics/full-and-final-settlement-meaning.jpg" alt="Full and Final Debt Settlement Meaning and Roadmap Infographic" className="w-full h-auto object-contain max-h-[440px] mx-auto hover:scale-[1.01] transition-transform duration-300" loading="lazy" width={1376} height={768} />
                 </div>
               </div>
 

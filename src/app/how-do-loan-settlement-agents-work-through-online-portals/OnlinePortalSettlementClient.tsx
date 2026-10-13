@@ -332,7 +332,7 @@ export default function OnlinePortalSettlementClient() {
           <aside className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24 space-y-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Amit Patel Legal Expert" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50"/>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Amit Patel Legal Expert" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50" width={96} height={96} />
                 <p className="font-bold text-gray-900">Amit Patel</p>
                 <p className="text-sm text-gray-500 mb-4">Senior Digital Resolution Strategist.</p>
                 <p className="text-xs text-gray-400">Expert in navigating digital dispute resolution frameworks and online banking negotiations.</p>

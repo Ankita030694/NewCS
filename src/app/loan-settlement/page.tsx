@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Loan Settlement in India — Complete Legal & Financial Guide',
+    title: 'Loan Settlement in India - Complete Legal & Financial Guide',
     description: 'How loan settlement works in India under RBI compromise settlement directives. Know your rights, CIBIL impact, and OTS calculation.'
   },
   alternates: {

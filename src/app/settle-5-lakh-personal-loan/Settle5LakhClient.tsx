@@ -342,7 +342,7 @@ export default function Settle5LakhClient() {
                     <aside className="lg:w-1/4 xl:w-1/5 w-full mt-8 lg:mt-0">
                         <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm sticky top-14">
                             <div className="flex items-center space-x-4 mb-4">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="CredSettle Expert Author" className="w-16 h-16 rounded-full object-cover border-2 border-blue-100" />
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="CredSettle Expert Author" className="w-16 h-16 rounded-full object-cover border-2 border-blue-100"  width={64} height={64} />
                                 <div>
                                     <p className="font-bold text-black">CredSettle Expert</p>
                                     <p className="text-sm text-black">Legal & Financial Advisor</p>

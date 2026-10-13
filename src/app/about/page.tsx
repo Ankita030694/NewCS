@@ -177,15 +177,15 @@ export default function AboutPage() {
                 {/* Mobile Version - Google, Media, Trustpilot */}
               <div className="flex flex-col gap-4 mt-8 lg:hidden w-full">
                 {/* Google Review Card */}
-                <a href="https://share.google.com/UGjkJ5UCd6UiyJ7A6" target="_blank" rel="noopener noreferrer">
+                <a href="https://share.google/UGjkJ5UCd6UiyJ7A6" target="_blank" rel="noopener noreferrer">
                 <div className="flex mx-auto" style={{ borderRadius: '40px', background: '#EFF7FF', boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)', padding: '10px', gap: '8px', maxWidth: '320px', width: '100%' }}>
                   <div className="w-1/2 flex justify-center items-center">
-                    <img src="/ggle.png" alt="Google Reviews - CredSettle" style={{ height: '32px' }}/>
+                    <img src="/ggle.png" alt="Google Reviews - CredSettle" width={386} height={130} style={{ height: '32px', width: 'auto' }}/>
                   </div>
                   <div className="w-1/2 flex flex-col items-end justify-center" style={{ gap: '4px' }}>
                     {/* Stars - First, Right Aligned */}
                     <div className="flex justify-end">
-                      <img src="/stars.png" alt="5 Star Rating - CredSettle" style={{ height: '12px' }}/>
+                      <img src="/stars.png" alt="5 Star Rating - CredSettle" width={127} height={20} style={{ height: '12px', width: 'auto' }}/>
                     </div>
                     {/* Rating and Text Container - Right Aligned */}
                     <div className="flex flex-col items-end" style={{ gap: '2px' }}>
@@ -216,16 +216,16 @@ export default function AboutPage() {
                   </p>
                   <div className="flex flex-row items-center justify-center gap-2 w-full" style={{ flexWrap: 'wrap' }}>
                     <div>
-                      <img src="/media/media1.svg" alt="CredSettle Media Coverage - News Publication" style={{ height: '28px', width: 'auto', flexShrink: 0 }}/>
+                      <img src="/media/media1.svg" alt="CredSettle Media Coverage - News Publication" width={100} height={58} style={{ height: '28px', width: 'auto', flexShrink: 0 }}/>
                     </div>
                     <a href="https://yourstory.com/companies/credsettle" target="_blank" rel="noopener noreferrer" aria-label="CredSettle on YourStory">
-                      <img src="/media/media2.svg" alt="CredSettle Media Coverage - Financial Publication" style={{ height: '28px', width: 'auto', flexShrink: 0 }}/>
-                    </a>
-                    <a href="https://medium.com/@credsettle/" target="_blank" rel="noopener noreferrer" aria-label="CredSettle on Medium">
-                      <img src="/media/media3.svg" alt="CredSettle Media Coverage - Business Publication" style={{ height: '28px', width: 'auto', flexShrink: 0 }}/>
+                      <img src="/media/media2.svg" alt="CredSettle Media Coverage - Financial Publication" width={100} height={39} style={{ height: '28px', width: 'auto', flexShrink: 0 }}/>
                     </a>
                     <div>
-                      <img src="/media/media4.svg" alt="CredSettle Media Coverage - Industry Publication" style={{ height: '28px', width: 'auto', flexShrink: 0 }}/>
+                      <img src="/media/media3.svg" alt="CredSettle Media Coverage - Business Publication" width={100} height={32} style={{ height: '28px', width: 'auto', flexShrink: 0 }}/>
+                    </div>
+                    <div>
+                      <img src="/media/media4.svg" alt="CredSettle Media Coverage - Industry Publication" width={100} height={32} style={{ height: '28px', width: 'auto', flexShrink: 0 }}/>
                     </div>
                   </div>
                 </div>
@@ -233,12 +233,12 @@ export default function AboutPage() {
                 {/* Trustpilot Review Card */}
                 <div className="flex mx-auto" style={{ borderRadius: '40px', background: '#EFF7FF', boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)', padding: '10px', gap: '8px', maxWidth: '320px', width: '100%' }}>
                   <div className="w-1/2 flex justify-center items-center">
-                      <img src="/trustpilot.svg" alt="Trustpilot Reviews - CredSettle" style={{ height: '32px' }}/>
+                      <img src="/trustpilot.svg" alt="Trustpilot Reviews - CredSettle" width={119} height={29} style={{ height: '32px', width: 'auto' }}/>
                   </div>
                   <div className="w-1/2 flex flex-col items-end justify-center" style={{ gap: '4px' }}>
                     {/* Stars - First, Right Aligned */}
                     <div className="flex justify-end">
-                      <img src="/stars.png" alt="5 Star Rating - CredSettle" style={{ height: '12px' }}/>
+                      <img src="/stars.png" alt="5 Star Rating - CredSettle" width={127} height={20} style={{ height: '12px', width: 'auto' }}/>
                     </div>
                     {/* Rating and Text Container - Right Aligned */}
                     <div className="flex flex-col items-end" style={{ gap: '2px' }}>
@@ -264,11 +264,11 @@ export default function AboutPage() {
               <a href="https://share.google/UGjkJ5UCd6UiyJ7A6" target="_blank" rel="noopener noreferrer" style={{ width: '100%', display: 'flex', justifyContent: 'end', textDecoration: 'none' }}>
                 <div className="flex" style={{ borderRadius: '40px', background: '#EFF7FF', boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)', padding: '12.96px', gap: '9.72px', width: '70%' }}>
                   <div className="w-1/2 flex justify-center items-center">
-                    <img src="/ggle.png" alt="Google Reviews - CredSettle" style={{ height: '39.16px' }}/>
+                    <img src="/ggle.png" alt="Google Reviews - CredSettle" width={386} height={130} style={{ height: '39.16px' }}/>
                   </div>
                   <div className="w-1/2 flex flex-col" style={{ gap: '9.48px' }}>
                     <div className="flex justify-center items-center" style={{ gap: '6.48px' }}>
-                      <img src="/stars.png" alt="5 Star Rating - CredSettle" style={{ height: '15.96px' }}/>
+                      <img src="/stars.png" alt="5 Star Rating - CredSettle" width={127} height={20} style={{ height: '15.96px' }}/>
                       <span className="font-medium text-gray-900" style={{ fontSize: '12.72px' }}>4.6/5</span>
                     </div>
                     <div className="text-center">
@@ -301,16 +301,16 @@ export default function AboutPage() {
                   </p>
                   <div className="flex flex-col w-full mt-5" style={{ gap: '9.72px', paddingLeft: '15.96px', paddingRight: '15.96px', paddingBottom: '12.96px' }}>
                     <div className="flex items-center justify-center mb-5">
-                      <img src="/media/media1.svg" alt="CredSettle Media Coverage - News Publication" style={{ height: '35.92px' }}/>
+                      <img src="/media/media1.svg" alt="CredSettle Media Coverage - News Publication" width={100} height={58} style={{ height: '35.92px' }}/>
                     </div>
                     <a href="https://yourstory.com/companies/credsettle" target="_blank" rel="noopener noreferrer" aria-label="CredSettle Media Coverage - YourStory" className="flex items-center justify-center mb-5">
-                      <img src="/media/media2.svg" alt="CredSettle Media Coverage - Financial Publication" style={{ height: '35.92px' }}/>
-                    </a>
-                    <a href="https://medium.com/@credsettle" target="_blank" rel="noopener noreferrer" aria-label="CredSettle Media Coverage - Medium" className="flex items-center justify-center mb-5">
-                      <img src="/media/media3.svg" alt="CredSettle Media Coverage - Business Publication" style={{ height: '35.92px' }}/>
+                      <img src="/media/media2.svg" alt="CredSettle Media Coverage - Financial Publication" width={100} height={39} style={{ height: '35.92px' }}/>
                     </a>
                     <div className="flex items-center justify-center mb-5">
-                      <img src="/media/media4.svg" alt="CredSettle Media Coverage - Industry Publication" style={{ height: '35.92px' }}/>
+                      <img src="/media/media3.svg" alt="CredSettle Media Coverage - Business Publication" width={100} height={32} style={{ height: '35.92px' }}/>
+                    </div>
+                    <div className="flex items-center justify-center mb-5">
+                      <img src="/media/media4.svg" alt="CredSettle Media Coverage - Industry Publication" width={100} height={32} style={{ height: '35.92px' }}/>
                     </div>
                   </div>
                 </div>
@@ -320,11 +320,11 @@ export default function AboutPage() {
               <div style={{ width: '100%', display: 'flex', justifyContent: 'end', textDecoration: 'none' }}>
                 <div className="flex" style={{ borderRadius: '40px', background: '#EFF7FF', boxShadow: '4px 4px 15.4px 0 rgba(0, 0, 0, 0.10)', padding: '12.96px', gap: '9.72px', width: '70%' }}>
                   <div className="w-1/2 flex justify-center items-center">
-                      <img src="/trustpilot.svg" alt="Trustpilot Reviews - CredSettle" style={{ height: '39.16px' }}/>
+                      <img src="/trustpilot.svg" alt="Trustpilot Reviews - CredSettle" width={119} height={29} style={{ height: '39.16px' }}/>
                   </div>
                   <div className="w-1/2 flex flex-col" style={{ gap: '9.48px' }}>
                     <div className="flex justify-center items-center" style={{ gap: '6.48px' }}>
-                      <img src="/stars.png" alt="5 Star Rating - CredSettle" style={{ height: '15.96px' }}/>
+                      <img src="/stars.png" alt="5 Star Rating - CredSettle" width={127} height={20} style={{ height: '15.96px' }}/>
                       <span className="font-medium text-gray-900" style={{ fontSize: '12.72px' }}>4.6/5</span>
                     </div>
                     <div className="text-center">
@@ -539,7 +539,7 @@ export default function AboutPage() {
             flexDirection: 'column'
         }}>
                 <div className="absolute top-0 left-0" style={{ marginLeft: '-20px', maxWidth: 'calc(100% + 20px)' }}>
-                  <img src="/aboutcard1.png" alt="Integrity and Compliance" style={{ width: '180px', height: '180px', maxWidth: '100%' }}/>
+                  <img src="/aboutcard1.png" alt="Integrity and Compliance" width={500} height={500} style={{ width: '180px', height: '180px', maxWidth: '100%' }}/>
                 </div>
                 <div className="mt-36">
                   <h3 className="font-bold text-left mb-3 mt-10" style={{ color: '#0C2756', fontSize: '18px' }}>
@@ -561,7 +561,7 @@ export default function AboutPage() {
             flexDirection: 'column'
         }}>
                 <div className="absolute top-0 left-0" style={{ marginLeft: '-20px', maxWidth: 'calc(100% + 20px)' }}>
-                  <img src="/aboutcard2.png" alt="Client Dignity First" style={{ width: '180px', height: '180px', maxWidth: '100%' }}/>
+                  <img src="/aboutcard2.png" alt="Client Dignity First" width={500} height={500} style={{ width: '180px', height: '180px', maxWidth: '100%' }}/>
                 </div>
                 <div className="mt-36">
                   <h3 className="font-bold text-left mb-3 mt-10" style={{ color: '#0C2756', fontSize: '18px' }}>
@@ -583,7 +583,7 @@ export default function AboutPage() {
             flexDirection: 'column'
         }}>
                 <div className="absolute top-5 left-0" style={{ maxWidth: '100%' }}>
-                  <img src="/aboutcard3.png" alt="Expert Negotiation" style={{ width: '150px', height: '150px', maxWidth: '100%' }}/>
+                  <img src="/aboutcard3.png" alt="Expert Negotiation" width={500} height={500} style={{ width: '150px', height: '150px', maxWidth: '100%' }}/>
                 </div>
                 <div className="mt-36">
                   <h3 className="font-bold text-left mb-3 mt-10" style={{ color: '#0C2756', fontSize: '18px' }}>
@@ -605,7 +605,7 @@ export default function AboutPage() {
             flexDirection: 'column'
         }}>
                 <div className="absolute top-0 left-0" style={{ marginLeft: '-20px', maxWidth: 'calc(100% + 20px)' }}>
-                  <img src="/aboutcard4.png" alt="Transparency" style={{ width: '180px', height: '180px', maxWidth: '100%' }}/>
+                  <img src="/aboutcard4.png" alt="Transparency" width={500} height={500} style={{ width: '180px', height: '180px', maxWidth: '100%' }}/>
                 </div>
                 <div className="mt-36">
                   <h3 className="font-bold text-left mb-3 mt-10" style={{ color: '#0C2756', fontSize: '18px' }}>
@@ -627,7 +627,7 @@ export default function AboutPage() {
             flexDirection: 'column'
         }}>
                 <div className="absolute top-0 left-0" style={{ marginLeft: '-20px', maxWidth: 'calc(100% + 20px)' }}>
-                  <img src="/aboutcard5.png" alt="Financial Empowerment" style={{ width: '180px', height: '180px', maxWidth: '100%' }}/>
+                  <img src="/aboutcard5.png" alt="Financial Empowerment" width={500} height={500} style={{ width: '180px', height: '180px', maxWidth: '100%' }}/>
                 </div>
                 <div className="mt-36">
                   <h3 className="font-bold text-left mb-3 mt-10" style={{ color: '#0C2756', fontSize: '18px' }}>
@@ -649,7 +649,7 @@ export default function AboutPage() {
             flexDirection: 'column'
         }}>
                 <div className="absolute top-0 left-0" style={{ marginLeft: '20px', maxWidth: 'calc(100% - 20px)' }}>
-                  <img src="/aboutcard6.png" alt="Results-Oriented" style={{ width: '180px', height: '180px', maxWidth: '100%' }}/>
+                  <img src="/aboutcard6.png" alt="Results-Oriented" width={500} height={500} style={{ width: '180px', height: '180px', maxWidth: '100%' }}/>
                 </div>
                 <div className="mt-36">
                   <h3 className="font-bold text-left mb-3 mt-10" style={{ color: '#0C2756', fontSize: '18px' }}>

@@ -641,7 +641,7 @@ export default function AntiHarassmentClient() {
                   {/* Blurred edge layer: only show left/right edges using mask */}
                   <img
                     src="/anti_hero.png"
-                    alt=""
+                    alt="Anti-Harassment Protection"
                     aria-hidden
                     className="hidden sm:block"
                     style={{
@@ -657,7 +657,7 @@ export default function AntiHarassmentClient() {
                       maskImage:
                         'linear-gradient(to right, black 0%, black 10%, transparent 35%, transparent 65%, black 90%, black 100%)'
                     }}
-                  />
+                   width={500} height={500} />
                   {/* Main image */}
                   <img
                     src="/anti_hero.png"
@@ -668,7 +668,7 @@ export default function AntiHarassmentClient() {
                       height: 'auto',
                       transformOrigin: 'center'
                     }}
-                  />
+                   width={500} height={500} />
                 </div>
               </div>
             </section>

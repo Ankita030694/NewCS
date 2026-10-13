@@ -59,6 +59,8 @@ export default function WhyCredSettle() {
                   <img 
                   src="/why1.png" 
                   alt="RBI Compliant Process" 
+                  width={500}
+                  height={500}
                   style={{ 
                     maxWidth: '126px',
                     height: 'auto',
@@ -94,6 +96,8 @@ export default function WhyCredSettle() {
                 <img 
                   src="/why2.png" 
                   alt="Expert Negotiation" 
+                  width={500}
+                  height={500}
                   style={{ 
                     maxWidth: '126px',
                     height: 'auto',
@@ -117,6 +121,8 @@ export default function WhyCredSettle() {
                 <img 
                   src="/why3.png" 
                   alt="Expert Legal Team" 
+                  width={500}
+                  height={500}
                   style={{ 
                     width: '100%',
                     height: 'auto',
@@ -159,6 +165,8 @@ export default function WhyCredSettle() {
                   <img 
                     src="/why4.png" 
                     alt="Zero Harassment" 
+                    width={500}
+                    height={500}
                     style={{ 
                       maxWidth: '102px',
                       height: 'auto',
@@ -199,6 +207,8 @@ export default function WhyCredSettle() {
                   <img 
                     src="/why5.png" 
                     alt="Peace of Mind" 
+                    width={500}
+                    height={500}
                     style={{ 
                       maxWidth: '102px',
                       height: 'auto',
@@ -259,6 +269,8 @@ export default function WhyCredSettle() {
               <img 
                 src="/why1.png" 
                 alt="RBI Compliant Process" 
+                width={500}
+                height={500}
                 className="absolute bottom-0 right-0"
                 style={{ 
                   width: '100px',
@@ -296,6 +308,8 @@ export default function WhyCredSettle() {
               <img 
                 src="/why2.png" 
                 alt="Expert Negotiation" 
+                width={500}
+                height={500}
                 className="absolute bottom-0 right-0"
                 style={{ 
                   width: '100px',
@@ -333,6 +347,8 @@ export default function WhyCredSettle() {
               <img 
                 src="/why3.png" 
                 alt="Expert Legal Team" 
+                width={500}
+                height={500}
                 className="absolute bottom-0 right-0"
                 style={{ 
                   width: '100px',
@@ -370,6 +386,8 @@ export default function WhyCredSettle() {
               <img 
                 src="/why4.png" 
                 alt="Zero Harassment" 
+                width={500}
+                height={500}
                 className="absolute bottom-0 right-0"
                 style={{ 
                   width: '100px',
@@ -407,6 +425,8 @@ export default function WhyCredSettle() {
               <img 
                 src="/why5.png" 
                 alt="Peace of Mind" 
+                width={500}
+                height={500}
                 className="absolute bottom-0 right-0"
                 style={{ 
                   width: '100px',

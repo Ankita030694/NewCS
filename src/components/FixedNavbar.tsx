@@ -20,7 +20,7 @@ export default function FixedNavbar() {
         <div className="flex justify-between items-center">
           {/* Left Column - Logo */}
           <div className="flex-shrink-0">
-            <img src="/credsettle-logo.svg" alt="CredSettle Logo" className="h-12" />
+            <img src="/credsettle-logo.svg" alt="CredSettle Logo" width={105} height={32} className="h-12 w-auto" />
           </div>
           
           {/* Middle Column - Navigation Links */}

@@ -149,6 +149,8 @@ export default function Settlements() {
             <img 
               src={bankCards[0].src} 
               alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner" 
+              width={100}
+              height={54}
               style={{ width: '100px', height: '54px' }}
             />
           </div>
@@ -170,6 +172,8 @@ export default function Settlements() {
             <img 
               src={bankCards[1].src} 
               alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner" 
+              width={100}
+              height={54}
               style={{ width: '100px', height: '54px' }}
             />
           </div>
@@ -217,6 +221,8 @@ export default function Settlements() {
             <img 
               src="/credsettle-logo-black.svg" 
               alt="Credsettle Logo" 
+              width={131}
+              height={40}
               style={{ width: '81px', height: '24px' }}
             />
           </div>
@@ -265,6 +271,8 @@ export default function Settlements() {
             <img 
               src={bankCards[2].src} 
               alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner" 
+              width={100}
+              height={54}
               style={{ width: '100px', height: '54px' }}
             />
           </div>
@@ -286,6 +294,8 @@ export default function Settlements() {
             <img 
               src={bankCards[3].src} 
               alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner" 
+              width={92}
+              height={18}
               style={{ width: '92px', height: '18px' }}
             />
           </div>
@@ -307,6 +317,8 @@ export default function Settlements() {
             <img 
               src={bankCards[4].src} 
               alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner" 
+              width={100}
+              height={54}
               style={{ width: '100px', height: '54px' }}
             />
           </div>
@@ -328,6 +340,8 @@ export default function Settlements() {
             <img 
               src={bankCards[5].src} 
               alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner" 
+              width={100}
+              height={54}
               style={{ width: '100px', height: '54px' }}
             />
           </div>
@@ -376,6 +390,8 @@ export default function Settlements() {
             <img 
               src={bankCards[6].src} 
               alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner" 
+              width={101}
+              height={71}
               style={{ width: '101px', height: '71px', marginLeft: '4px', marginTop: '0' }}
             />
           </div>
@@ -406,6 +422,8 @@ export default function Settlements() {
                   draggable={false}
                   src={settlementLetter} 
                   alt="Settlement Letter" 
+                  width={256}
+                  height={332}
                   className="letter-image"
                   style={{ 
                     width: '256px', 
@@ -571,6 +589,8 @@ export default function Settlements() {
               <img
                 src={bankCards[0].src}
                 alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner"
+                width={94}
+                height={51}
                 style={{ width: '94px', height: '51px' }}
               />
             </div>
@@ -593,6 +613,8 @@ export default function Settlements() {
               <img
                 src={bankCards[1].src}
                 alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner"
+                width={74}
+                height={40}
                 style={{ width: '74px', height: '40px' }}
               />
             </div>
@@ -615,6 +637,8 @@ export default function Settlements() {
               <img
                 src={bankCards[2].src}
                 alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner"
+                width={75}
+                height={40}
                 style={{ width: '75px', height: '40px' }}
               />
             </div>
@@ -637,6 +661,8 @@ export default function Settlements() {
               <img
                 src={bankCards[3].src}
                 alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner"
+                width={75}
+                height={14}
                 style={{ width: '75px', height: '14px' }}
               />
             </div>
@@ -659,6 +685,8 @@ export default function Settlements() {
               <img
                 src={bankCards[4].src}
                 alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner"
+                width={75}
+                height={40}
                 style={{ width: '75px', height: '40px' }}
               />
             </div>
@@ -681,6 +709,8 @@ export default function Settlements() {
               <img
                 src={bankCards[5].src}
                 alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner"
+                width={92}
+                height={50}
                 style={{ width: '92px', height: '50px' }}
               />
             </div>
@@ -703,6 +733,8 @@ export default function Settlements() {
             <img
               src={bankCards[6].src}
               alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner"
+              width={85}
+              height={48}
               style={{ width: '85px', height: '48px' }}
             />
           </div>
@@ -770,6 +802,8 @@ export default function Settlements() {
               <img
                 src="/credsettle-logo-black.svg"
                 alt="Credsettle Logo"
+                width={131}
+                height={40}
                 style={{ width: '75px', height: '23px' }}
               />
             </div>
@@ -823,6 +857,8 @@ export default function Settlements() {
                     draggable={false}
                     src={settlementLetter}
                     alt="Settlement Letter"
+                    width={290}
+                    height={380}
                     className="w-full h-full object-cover"
                     style={{
                       borderRadius: '30px',

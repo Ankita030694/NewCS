@@ -406,7 +406,7 @@ export default async function BankStateSettlementPage({ params }: { params: Prom
                     src="/default-user.svg" 
                     alt="Rahul Verma - Legal Expert" 
                     className="w-24 h-24 rounded-full mx-auto mb-4 border-2 border-white shadow-sm object-cover"
-                />
+                 width={96} height={96} />
                 <p className="font-bold text-gray-900 text-lg">Rahul Verma</p>
                 <p className="text-blue-600 text-sm font-semibold mb-4">Lead Consumer Advocate</p>
                 <p className="text-gray-600 text-sm mb-6 leading-relaxed">

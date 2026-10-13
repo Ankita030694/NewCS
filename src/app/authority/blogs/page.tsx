@@ -674,7 +674,7 @@ const BlogsDashboard = () => {
 
         if (blogData) {
           const content = blogData.description || '';
-          const imgRegex = /<img[^>]+src="([^">]+)"/g;
+          const imgRegex = /<img[^ width={500} height={300} >]+src="([^">]+)"/g;
           const imageUrls = new Set<string>();
           let match;
 
@@ -1217,7 +1217,7 @@ const BlogsDashboard = () => {
                                 src={blog.image}
                                 alt={blog.title}
                                 className="w-16 h-10 object-cover rounded-lg bg-slate-100 border border-slate-200/50 shadow-sm"
-                              />
+                               width={64} height={40} />
                             ) : (
                               <div className="w-16 h-10 rounded-lg bg-slate-100 border border-slate-200/50 shadow-sm flex items-center justify-center text-xs text-slate-400">No Img</div>
                             )}
@@ -1632,14 +1632,14 @@ const BlogsDashboard = () => {
                       src={imagePreview || newBlog.image}
                       alt="cover preview"
                       className="w-full max-w-sm h-40 object-cover rounded-xl border border-slate-200 shadow-sm"
-                    />
+                     width={384} height={160} />
                   )}
                   {newBlog.infographic && (
                     <img
                       src={newBlog.infographic}
                       alt="infographic preview"
                       className="w-full max-w-sm h-40 object-cover rounded-xl border border-slate-200 shadow-sm"
-                    />
+                     width={384} height={160} />
                   )}
                 </div>
               </div>

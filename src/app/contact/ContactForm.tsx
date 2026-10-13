@@ -408,7 +408,7 @@ export default function ContactForm() {
           <span className="text-xs md:text-sm lg:text-base font-medium tracking-wide" style={{ color: '#0C2756', fontFamily: 'Poppins' }}>
             Powered by
           </span>
-          <img src="/payu.png" alt="PayU" className="w-24 h-24f md:w-24 md:h-20 object-contain -ml-7" />
+          <img src="/payu.png" alt="PayU" width={600} height={450} className="w-24 h-24 md:w-24 md:h-20 object-contain -ml-7" />
         </div>
       </form>
     </div>

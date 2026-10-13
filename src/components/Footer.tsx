@@ -15,7 +15,7 @@ export default function Footer({ hideFunnel = false }: FooterProps = {}) {
         <div className="bg-white rounded-[15px] md:rounded-[30px] border border-[rgba(12,39,86,0.20)] shadow-[0_0_23.5px_0_rgba(0,0,0,0.10)] p-6 md:p-10 lg:p-[40px]">
           <div className="flex flex-col lg:flex-row justify-between gap-8 md:gap-12 lg:gap-[60px] mb-8 md:mb-12 lg:mb-[45px]">
             <div className="flex flex-col gap-4 md:gap-5 w-full lg:max-w-[350px]">
-              <img src="/credsettle-logo-black.svg" alt="CredSettle Logo" className="w-20 md:w-24 lg:w-[110px] h-auto" />
+              <img src="/credsettle-logo-black.svg" alt="CredSettle Logo" width={131} height={40} className="w-20 md:w-24 lg:w-[110px] h-auto" />
               <p className="text-[rgba(12,39,86,0.70)] text-xs md:text-sm leading-relaxed font-normal">
                 Settle your loans and credit card debt easily with CredSettle. Get debt relief, loan waivers & protection from harassment by recovery agents in India.
               </p>

@@ -108,12 +108,13 @@ export default async function Blogs() {
                   className="flex-shrink-0 w-[280px] flex flex-col gap-4 transition-all duration-200 hover:opacity-90 cursor-pointer"
                   style={{ scrollSnapAlign: 'start' }}
                 >
-                  <div className="relative w-full h-48">
+                  <div className="relative w-full h-48 overflow-hidden rounded-xl">
                       <Image
                         src={post.image}
                         alt={post.title}
-                        fill
-                        className="object-cover rounded-xl"
+                        width={400}
+                        height={240}
+                        className="w-full h-full object-cover rounded-xl"
                         sizes="(max-width: 768px) 280px"
                         priority
                         unoptimized
@@ -139,12 +140,13 @@ export default async function Blogs() {
                 href={`/resources/${post.slug}`}
                 className="flex flex-col gap-4 transition-all duration-200 hover:opacity-90 cursor-pointer"
               >
-                <div className="relative w-full h-48">
+                <div className="relative w-full h-48 overflow-hidden rounded-xl">
                   <Image
                     src={post.image}
                     alt={post.title}
-                    fill
-                    className="object-cover rounded-xl"
+                    width={400}
+                    height={240}
+                    className="w-full h-full object-cover rounded-xl"
                     sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
                     unoptimized
                   />

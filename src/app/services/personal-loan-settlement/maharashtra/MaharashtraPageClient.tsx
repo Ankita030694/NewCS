@@ -125,7 +125,7 @@ export default function MaharashtraPageClient() {
                   transform: 'rotate(335deg)',
                   transformOrigin: 'center'
                 }}
-              />
+               width={661} height={377} />
             </div>
             <div className="flex-1 w-full lg:w-auto order-2 lg:order-1" style={{ maxWidth: '640px' }}>
               <h1

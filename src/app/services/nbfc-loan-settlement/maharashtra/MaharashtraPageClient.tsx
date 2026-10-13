@@ -202,7 +202,7 @@ function MaharashtraPageClient() {
             height: 'auto',
             transform: 'rotate(335deg)',
             transformOrigin: 'center'
-        }}/>
+        }} width={500} height={500} />
             </div>
 
             <div className="flex-1 w-full lg:w-auto order-2 lg:order-1" style={{ maxWidth: '640px' }}>
