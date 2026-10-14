@@ -554,13 +554,35 @@
        - `What is Debt Settlement?` (2 URLs)
        - Generic closings (`Final Thoughts`, `Conclusion`, `✅ conclusion`, `Why Choose CredSettle?`).
     4. Overly Aggressive Title Duplicate Stripping: `isDuplicateOfTitle` in `BlogPostPageClient.tsx` previously used a broad substring search (`normTitle.includes(normText)`), causing legitimate article subheadings that contained title keywords (e.g., "debt settlement", "credit score") to be stripped, leaving articles with 0 body headings and exposing the hardcoded FAQ H2.
+    5. Vocabulary Readability Replacements Mutating Heading Text: `improveTextReadability` performs global vocabulary simplification across HTML text nodes (`settlement` -> `closure`, `understanding` -> `knowing`, `procedure` -> `steps`). Because it ran across the entire document including `<h1-6>` headings, subheadings were transformed into `What is Loan closure?` and `knowing Debt closure`. Consequently, exact-key lookup in `GENERIC_H2_REWRITES` (keyed by `what is loan settlement?`) failed to match, allowing generic headings to slip into rendered output.
   * *Prevention & Protocol:*
     1. **Contextualize FAQ Headings:** Never render a bare generic `<h2 ...>Frequently Asked Questions</h2>`. Always contextualize the heading using `getFaqHeading(blog.title)` (e.g., `Frequently Asked Questions: ${cleanTitle}` or `FAQs: ${cleanTitle}`) targeting 35–65 characters and strictly 0 em-dashes.
-    2. **Map & Rewrite Generic Headings (`src/data/blogH2Rewrites.ts`):** Maintain a centralized `GENERIC_H2_REWRITES` map keyed by slug to rewrite repeated generic headings into unique, context-specific titles (e.g. `What is Bank Loan Settlement Under RBI Rules?`, `What is Credit Card Debt Settlement?`).
-    3. **Dynamic Contextual Fallback:** For unmapped articles, automatically contextualize common generic patterns (`Introduction: ${cleanTopic}`, `Conclusion: ${cleanTopic}`, `What is Loan Settlement: ${cleanTopic}`) clamped to ≤ 65 chars.
-    4. **Tighten Title Matching:** Restrict `isDuplicateOfTitle` to exact normalized string matching (`normText === normTitle || normText === normRawTitle`) so valid descriptive subheadings are never stripped.
-    5. **Promote Pseudo-Headings When Headings Missing:** When CMS articles use bold paragraph pseudo-headings (`<p><strong>`) and have ≤ 2 headings, promote valid standalone bold tags into semantic `<h2>` tags.
-    6. **Enforce Character Limits & Uniqueness:** Ensure all rendered H2s pass `formatH2Text(text, 65)`, contain strictly ZERO em-dashes (`—` or `–`), and are deduplicated via `seenH2Texts` per page.
+    2. **Map & Rewrite Generic Headings (`src/data/blogH2Rewrites.ts`):** Maintain a centralized `GENERIC_H2_REWRITES` map keyed by slug to rewrite repeated generic headings into unique, context-specific titles (e.g. `What is Bank Loan Settlement Under RBI Rules?`, `What is Credit Card Debt Settlement?`). Provide dual keys for both original and readability variants.
+    3. **Protect Headings from Readability Vocabulary Replacement:** In `improveTextReadability`, stash all `<h[1-6][^>]*>[\s\S]*?<\/h[1-6]>` blocks before applying vocabulary replacements so headings are never mutated into "closure" or "knowing". In `processDescription`, promote pseudo-headings before readability processing.
+    4. **Dual-Key & Normalized Key Matching:** In `getRewrittenH2Text`, normalize incoming heading text (`closure` -> `settlement`, `knowing` -> `understanding`) so rewrites match regardless of input phrasing.
+    5. **Dynamic Contextual Fallback:** For unmapped articles, automatically contextualize common generic patterns (`Introduction: ${cleanTopic}`, `Conclusion: ${cleanTopic}`, `What is Loan Settlement: ${cleanTopic}`) clamped to ≤ 65 chars.
+    6. **Tighten Title Matching:** Restrict `isDuplicateOfTitle` to exact normalized string matching (`normText === normTitle || normText === normRawTitle`) so valid descriptive subheadings are never stripped.
+* **Mistake 53: Non-Sequential Heading Hierarchy on Resource & Editorial Pages (`H2: Non-Sequential`)**
+  * *Why it happens:*
+    1. Screaming Frog SEO Spider audits heading order from `<h1>` to `<h6>`. It flags pages under `H2: Non-Sequential` whenever an `<h2>` appears on the page, but is NOT the second heading level directly below `<h1>` (e.g., `<h1>` followed by `<h3>`, then an `<h2>` appears).
+    2. In editorial and CMS resource articles (`/resources/[slug]`), authors frequently wrote subheadings using `<h3>` tags for all body sections (e.g. `<h3>The Role of a Lawyer</h3>`, `<h3>Introduction</h3>`).
+    3. When `BlogPostPageClient.tsx` demoted `<h1>` in body to `<h2>` but preserved `origLevel === 3` for body headings, the article body rendered as `<h3 id="...">...</h3>`.
+    4. At the bottom of the page, the template FAQ section was rendered as `<h2 ...> {faqHeadingText} </h2>`.
+    5. As a result, the rendered DOM heading order was: `<h1>` -> `<h3>` -> `<h3>` ... -> `<h2>` (FAQ).
+    6. Screaming Frog flagged all 37 resource URLs under `H2: Non-Sequential`.
+    7. Furthermore, on articles that already had `<h2>` tags in their body, having the template FAQ also render as `<h2>` caused `H2: Multiple` (65 URLs) and triggered `H2: Duplicate` when generic headings repeated.
+  * *Prevention & Protocol:*
+    1. **Single Primary H2 Architecture for Resource Pages:**
+       - In `BlogPostPageClient.tsx` (`processDescription`), the very first section heading in the article body (`index === 0`) is strictly mapped to `<h2>` (the primary section heading directly under `<h1>`).
+       - All subsequent sub-sections (`index > 0`) are mapped to `<h3>` (or `<h4>` if originally nested at h4+) without skipping levels (`if (lvl > prevLevel + 1) lvl = prevLevel + 1`).
+       - The template FAQ section heading conditionally renders as `<h3>` when the article body contains headings (`headings.length > 0`), and only renders as `<h2>` when the article body has zero headings (`headings.length === 0`).
+    2. **Full Heading Compliance Across All Heading Filters:**
+       - `H2: Non-Sequential`: Exactly 0 URLs (the `<h2>` is guaranteed to be the second heading level directly below `<h1>`).
+       - `H2: Multiple`: Exactly 0 URLs (every resource page has strictly 1 `<h2>`).
+       - `H2: Duplicate`: Exactly 0 URLs (a page with 1 `<h2>` cannot have duplicate H2s).
+       - `H2: Missing`: Exactly 0 URLs (every resource page is guaranteed 1 `<h2>`).
+       - `H2 Length`: Strictly 30–65 characters (never > 70), 0 em-dashes (`—` or `–`).
+       - `Title vs H1 vs H2`: Strictly distinct across all elements.
 
 ---
 

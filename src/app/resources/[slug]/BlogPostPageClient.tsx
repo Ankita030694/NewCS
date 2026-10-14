@@ -643,8 +643,16 @@ const READABILITY_REPLACEMENTS: Array<[RegExp, string]> = [
 export const improveTextReadability = (html: string): string => {
   if (!html) return '';
 
+  // 0. Protect heading tags (<h1-6>) from readability vocabulary mutation
+  const headingPlaceholders: string[] = [];
+  let protectedHtml = html.replace(/<h[1-6][^>]*>[\s\S]*?<\/h[1-6]>/gi, (m) => {
+    const placeholder = `___HEADING_STASH_${headingPlaceholders.length}___`;
+    headingPlaceholders.push(m);
+    return placeholder;
+  });
+
   // 1. Ensure list items end with a period so crawler doesn't treat list items as run-on sentences
-  let updated = html.replace(/([^.!?\s>])\s*<\/li>/gi, '$1.</li>');
+  let updated = protectedHtml.replace(/([^.!?\s>])\s*<\/li>/gi, '$1.</li>');
 
   // 2. Apply vocabulary replacements (only inside text nodes outside tags)
   updated = updated.replace(/(>|^)([^<]+)(<|$)/g, (_match, prefix, text, suffix) => {
@@ -696,6 +704,11 @@ export const improveTextReadability = (html: string): string => {
     return prefix + newText + suffix;
   });
 
+  // Restore protected headings intact
+  for (let i = 0; i < headingPlaceholders.length; i++) {
+    updated = updated.replace(`___HEADING_STASH_${i}___`, headingPlaceholders[i]);
+  }
+
   return updated;
 };
 
@@ -717,13 +730,11 @@ const processDescription = (
     );
   };
 
-  // 0. Enhance content readability (simpler vocabulary and shorter sentences)
-  let cleanedHtml = improveTextReadability(html);
-
-  // Promote standalone <p><strong> headings if article has <= 2 existing headings
-  const existingHCount = (cleanedHtml.match(/<h[2-6]/gi) || []).length;
+  // 0. Promote standalone <p><strong> headings if article has <= 2 existing headings BEFORE readability replaces vocabulary
+  let initialHtml = html;
+  const existingHCount = (initialHtml.match(/<h[2-6]/gi) || []).length;
   if (existingHCount <= 2) {
-    cleanedHtml = cleanedHtml.replace(
+    initialHtml = initialHtml.replace(
       /<p(?:\s[^>]*)?>\s*(?:<span[^>]*>)?\s*(?:<strong>|<b>)\s*([\s\S]*?)\s*(?:<\/strong>|<\/b>)\s*(?:<\/span>)?\s*(?:<br\s*\/?>)?\s*<\/p>/gi,
       (match, inner) => {
         const text = inner.replace(/<[^>]+>/g, '').trim();
@@ -736,6 +747,9 @@ const processDescription = (
       }
     );
   }
+
+  // Enhance content readability on body copy (headings protected)
+  let cleanedHtml = improveTextReadability(initialHtml);
 
   // 1. Strictly enforce single H1 on page & remove duplicate titles:
   // If an <h1> in html duplicates the blog title, remove it.
@@ -924,9 +938,24 @@ const processDescription = (
 
   const seenH2Texts = new Set<string>();
 
+  let prevLevel = 2; // matches[0] is always Level 2 (H2)
+
   const matches = rawMatches.map((item, index) => {
-    // Preserve natural semantic hierarchy (Mistake 50): H1 demoted to H2, H2 stays H2, H3-H6 stay H3-H6
-    const level = (item.origLevel === 1 || item.origLevel === 2) ? 2 : item.origLevel;
+    // Single Primary H2 Architecture for Resource Pages (Mistake 50):
+    // 1. The very first section heading in the article body (index === 0) is mapped to <h2> (primary section heading directly under <h1>).
+    // 2. All subsequent sub-sections (index > 0) are mapped to <h3> or <h4> without skipping levels.
+    let level: number;
+    if (index === 0) {
+      level = 2;
+      prevLevel = 2;
+    } else {
+      let lvl = item.origLevel <= 2 ? 3 : item.origLevel;
+      if (lvl > prevLevel + 1) {
+        lvl = prevLevel + 1;
+      }
+      level = Math.max(3, Math.min(6, lvl));
+      prevLevel = level;
+    }
 
     // Rewrite generic headings using slug-specific rewrites or dynamic contextual fallback
     let displayText = getRewrittenH2Text(canonicalSlug, item.text, blogTitle);
@@ -946,6 +975,8 @@ const processDescription = (
       }
       seenH2Texts.add(uniqueText.toLowerCase());
       displayText = uniqueText;
+    } else {
+      displayText = displayText.replace(/[—–]/g, '-').replace(/&mdash;|&ndash;/g, '-').trim();
     }
 
     let id = displayText
@@ -985,9 +1016,7 @@ const processDescription = (
 
     const attrsWithoutId = item.attrs.replace(/\sid=["'][^"']*["']/gi, '').trim();
     const attrsStr = attrsWithoutId ? ` ${attrsWithoutId}` : '';
-    const finalContent = item.level === 2
-      ? (item.displayText || formatH2Text(item.text, 65))
-      : item.content.replace(/[—–]/g, '-').replace(/&mdash;|&ndash;/g, '-');
+    const finalContent = item.displayText || formatH2Text(item.text, 65);
 
     const replacement = `<h${item.level} id="${item.id}"${attrsStr}>${finalContent}</h${item.level}>`;
 
@@ -1046,7 +1075,7 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
         .trim();
       heading = `Common Questions on ${clean}`.slice(0, 65).trim();
     }
-    return heading;
+    return formatH2Text(heading, 65);
   }, [blog.title, headings]);
 
   const { part1, part2 } = useMemo(() => {
@@ -1668,9 +1697,15 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
               {/* FAQs Section */}
               {faqs.length > 0 && (
                 <div className="mt-12 md:mt-16">
-                  <h2 className="text-[22px] font-bold leading-tight text-[#004479] md:text-[28px] mb-6">
-                    {faqHeadingText}
-                  </h2>
+                  {headings.length > 0 ? (
+                    <h3 className="text-[22px] font-bold leading-tight text-[#004479] md:text-[28px] mb-6">
+                      {faqHeadingText}
+                    </h3>
+                  ) : (
+                    <h2 className="text-[22px] font-bold leading-tight text-[#004479] md:text-[28px] mb-6">
+                      {faqHeadingText}
+                    </h2>
+                  )}
                   <div className="space-y-4">
                     {faqs.map((faq, index) => (
                       <div
