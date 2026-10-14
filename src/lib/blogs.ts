@@ -132,6 +132,7 @@ function mapDocToBlogDocument(
 export const OPTIMIZED_IMAGE_MAP: Record<string, string> = {
   'ai_generated_1787035160503': '/images/blog/ai_generated_1787035160503.webp',
   'ai_generated_1787029675842': '/images/blog/ai_generated_1787029675842.webp',
+  'ai_generated_1787031453623': '/images/blog/ai_generated_1787031453623.webp',
   'ai_infographic_1787029742246': '/images/blog/ai_infographic_1787029742246.webp',
   'ai_infographic_1787035145827': '/images/blog/ai_infographic_1787035145827.webp',
 };

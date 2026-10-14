@@ -157,6 +157,8 @@ function generateKeywords(bankName: string): string[] {
 // Generate compliant meta description (140-146 chars, <= 960px)
 function getNbfcBankMetaDesc(shortName: string, bankName: string): string {
   const candidates = [
+    `Settle ${shortName} NBFC loan dues legally under RBI rules with CredSettle. Stop recovery harassment, reduce debt up to 50% & clear your dues.`,
+    `Settle your ${shortName} NBFC loan dues legally under RBI rules with CredSettle. Stop recovery harassment, reduce debt up to 50% & clear dues.`,
     `Settle ${shortName} NBFC loan dues legally under RBI rules with CredSettle. Stop harassment, reduce debt & clear dues safely.`,
     `Settle ${shortName} NBFC loan dues under RBI rules with CredSettle. Stop recovery calls, reduce debt up to 50% & clear your dues.`,
     `Resolve ${shortName} NBFC loan debt legally under RBI rules with CredSettle. Stop agent harassment & settle your dues safely.`,

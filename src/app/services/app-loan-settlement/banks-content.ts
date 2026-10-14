@@ -143,6 +143,7 @@ function generateKeywords(bankName: string): string[] {
 // Generate compliant meta description (140-146 chars, <= 960px)
 function getAppLoanBankMetaDesc(shortName: string, bankName: string): string {
   const candidates = [
+    `Settle your ${shortName} app loan dues legally under RBI rules with CredSettle. Stop recovery harassment, reduce debt up to 50% & clear dues safely.`,
     `Settle ${shortName} app loan dues legally under RBI rules with CredSettle. Stop recovery harassment, reduce debt & clear dues safely.`,
     `Settle ${shortName} app loan dues under RBI rules with CredSettle. Stop recovery calls, reduce debt up to 50% & clear your dues.`,
     `Resolve ${shortName} app loan debt legally under RBI rules with CredSettle. Stop agent harassment & settle your outstanding dues safely.`,
@@ -183,32 +184,32 @@ export function getBankContentWithFallback(bankSlug: string): BankContent {
     metaDescription: generatedContent?.metaDescription || getAppLoanBankMetaDesc(shortName, bankName),
     heroTitle: getBankH1Title(bankName, 'App Loan Settlement'),
     heroDescription: `Get expert legal help to clear your ${shortName} app loan dues. Settle debt under RBI rules. Stop agent calls, protect your privacy, and live debt free with CredSettle.`,
-    whyChooseSettlement: generatedContent?.whyChooseSettlement || `App loan debt can grow fast due to high daily interest rates. If you fall behind on your ${bankName} loan, extra fees add up quickly. Collection agents often call many times a day. An RBI One-Time Settlement (OTS) gives you a legal way out. CredSettle steps in to talk with ${bankName}. We help reduce your total dues by 30% to 70%. We stop harassment calls right away and close your account for good.`,
-    understandingSettlement: generatedContent?.understandingSettlement || `Settling an app loan with ${bankName} is fully legal under RBI rules. You pay a lower one-time amount to clear your dues for good. CredSettle lawyers submit your case directly to ${bankName}. We present clear proof of your financial hardship. The lender reviews the file and approves a large waiver on the total balance. Once you pay, ${bankName} gives you an official No Dues Certificate.`,
-    howCredSettleHelps: generatedContent?.howCredSettleHelps || `CredSettle gives you full legal support to settle your ${bankName} app loan. Our team reviews your loan papers and current budget. We build a strong hardship case to show why you cannot pay in full. We negotiate directly with ${bankName} to cut 40% to 60% off your dues. We also take over all recovery calls to give you instant peace of mind. You settle your debt at a fraction of the cost and become debt free.`,
-    cibilImpact: generatedContent?.cibilImpact || `Settling your ${bankName} app loan will cause a small drop in your CIBIL score. The lender marks the account as Settled. This drop is only short term and much safer than ongoing default. Unpaid loans harm your score every month. A legal settlement stops the drop at once. CredSettle shows you simple steps to rebuild your score. Most clients reach a good 700+ score within 12 to 24 months.`,
-    whyChooseCredSettle: generatedContent?.whyChooseCredSettle || `CredSettle is a trusted name for ${bankName} app loan settlements. Our legal team knows RBI lending laws and borrower rights. We have helped thousands of borrowers settle digital app loans with big waivers. We stop agent harassment from day one and protect your data privacy. We handle the entire process until you get your final closure letter.`,
-    stepByStepProcess: generatedContent?.stepByStepProcess || `Step 1: Free Review. Contact CredSettle online or by phone. We review your ${bankName} loan and explain your options. Step 2: Case Review. Our legal team checks your loan file and takes over recovery calls to stop agent pressure. Step 3: Settlement Offer. We send a formal OTS proposal to ${bankName} with your hardship proof. Step 4: Negotiation. Our lawyers negotiate directly with ${bankName} to secure the highest waiver. Step 5: Payment and Closure. You pay the agreed reduced amount directly to ${bankName} and get your No Dues Certificate. Step 6: Credit Building. We guide you on simple ways to raise your CIBIL score quickly.`,
-    documentsRequired: generatedContent?.documentsRequired || `To settle your ${bankName} app loan, you only need basic documents. These include your PAN card, Aadhaar card, and latest loan statement. You can also share income slips, default notices, or screenshots of agent messages. CredSettle formats all your papers properly for quick approval.`,
+    whyChooseSettlement: generatedContent?.whyChooseSettlement || `App loan debt can grow fast due to high daily interest rates. If you fall behind on your ${shortName} loan, extra fees add up quickly. Collection agents often call many times a day. An RBI One-Time Settlement (OTS) gives you a legal way out. CredSettle steps in to talk with ${shortName}. We help reduce your total dues by 30% to 70%. We stop harassment calls right away and close your account for good.`,
+    understandingSettlement: generatedContent?.understandingSettlement || `Settling an app loan with ${shortName} is fully legal under RBI rules. You pay a lower one-time amount to clear your dues for good. CredSettle lawyers submit your case directly to ${shortName}. We present clear proof of your financial hardship. The lender reviews the file and approves a large waiver on the total balance. Once you pay, ${shortName} gives you an official No Dues Certificate.`,
+    howCredSettleHelps: generatedContent?.howCredSettleHelps || `CredSettle gives you full legal support to settle your ${shortName} app loan. Our team reviews your loan papers and current budget. We build a strong hardship case to show why you cannot pay in full. We negotiate directly with ${shortName} to cut 40% to 60% off your dues. We also take over all recovery calls to give you instant peace of mind. You settle your debt at a fraction of the cost and become debt free.`,
+    cibilImpact: generatedContent?.cibilImpact || `Settling your ${shortName} app loan will cause a small drop in your CIBIL score. The lender marks the account as Settled. This drop is only short term and much safer than ongoing default. Unpaid loans harm your score every month. A legal settlement stops the drop at once. CredSettle shows you simple steps to rebuild your score. Most clients reach a good 700+ score within 12 to 24 months.`,
+    whyChooseCredSettle: generatedContent?.whyChooseCredSettle || `CredSettle is a trusted name for ${shortName} app loan settlements. Our legal team knows RBI lending laws and borrower rights. We have helped thousands of borrowers settle digital app loans with big waivers. We stop agent harassment from day one and protect your data privacy. We handle the entire process until you get your final closure letter.`,
+    stepByStepProcess: generatedContent?.stepByStepProcess || `Step 1: Free Review. Contact CredSettle online or by phone. We review your ${shortName} loan and explain your options. Step 2: Case Review. Our legal team checks your loan file and takes over recovery calls to stop agent pressure. Step 3: Settlement Offer. We send a formal OTS proposal to ${shortName} with your hardship proof. Step 4: Negotiation. Our lawyers negotiate directly with ${shortName} to secure the highest waiver. Step 5: Payment and Closure. You pay the agreed reduced amount directly to ${shortName} and get your No Dues Certificate. Step 6: Credit Building. We guide you on simple ways to raise your CIBIL score quickly.`,
+    documentsRequired: generatedContent?.documentsRequired || `To settle your ${shortName} app loan, you only need basic documents. These include your PAN card, Aadhaar card, and latest loan statement. You can also share income slips, default notices, or screenshots of agent messages. CredSettle formats all your papers properly for quick approval.`,
     faqs: generatedContent?.faqs || [
       {
-        question: `What is the settlement percentage for ${bankName} app loans?`,
-        answer: `${bankName} often approves settlements between 30% and 60% of total dues. The exact waiver depends on your hardship. CredSettle negotiates directly with the lender to get the lowest payoff amount.`
+        question: `What is the settlement percentage for ${shortName} app loans?`,
+        answer: `${shortName} often approves settlements between 30% and 60% of total dues. The exact waiver depends on your hardship. CredSettle negotiates directly with the lender to get the lowest payoff amount.`
       },
       {
-        question: `Can I settle my app loan dues legally with ${bankName}?`,
-        answer: `Yes. You can settle your ${bankName} app loan legally under RBI One-Time Settlement rules. CredSettle helps you get a formal waiver and an official No Dues Certificate.`
+        question: `Can I settle my app loan dues legally with ${shortName}?`,
+        answer: `Yes. You can settle your ${shortName} app loan legally under RBI One-Time Settlement rules. CredSettle helps you get a formal waiver and an official No Dues Certificate.`
       },
       {
-        question: `How long does the ${bankName} app loan settlement process take?`,
-        answer: `Settling an app loan with ${bankName} usually takes 30 to 60 days. Our legal team speeds up approvals with proper paperwork.`
+        question: `How long does the ${shortName} app loan settlement process take?`,
+        answer: `Settling an app loan with ${shortName} usually takes 30 to 60 days. Our legal team speeds up approvals with proper paperwork.`
       },
       {
-        question: `Will my CIBIL score recover after settling my ${bankName} app loan?`,
+        question: `Will my CIBIL score recover after settling my ${shortName} app loan?`,
         answer: `Yes. Your score drops slightly at first because the loan is marked as Settled. With regular on-time bills, your score can rise back to 700+ within 1 to 2 years.`
       },
       {
-        question: `How can I stop harassment from ${bankName} recovery agents?`,
+        question: `How can I stop harassment from ${shortName} recovery agents?`,
         answer: `CredSettle stops collection harassment within 48 hours. Our lawyers issue formal notices and handle all recovery calls for you.`
       }
     ],

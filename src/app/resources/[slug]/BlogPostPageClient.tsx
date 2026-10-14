@@ -1255,6 +1255,7 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                       priority
                       placeholder="blur"
                       blurDataURL={PLACEHOLDER_BLUR_DATA_URL}
+                      unoptimized={true}
                     />
                   </div>
                 </div>
@@ -1496,6 +1497,7 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                           width={800}
                           height={600}
                           className="w-full h-auto object-contain bg-white/50"
+                          unoptimized={true}
                         />
                       </div>
                     </div>
@@ -1529,6 +1531,7 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                           width={800}
                           height={600}
                           className="w-full h-auto object-contain bg-white/50"
+                          unoptimized={true}
                         />
                       </div>
                     </div>

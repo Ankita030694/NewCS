@@ -283,6 +283,13 @@ export function getShortBankName(name: string): string {
     'Telangana State Co Operative Apex Bank': 'Telangana Apex Bank',
     'West Bengal State Co Operative Bank': 'West Bengal Co-op Bank',
     'Faircent Technologies India Pvt Ltd': 'Faircent',
+    'Samunnati Financial Intermediation': 'Samunnati',
+    'Samunnati Financial Intermediation Services': 'Samunnati',
+    'Samunnati Financial Intermediation & Services': 'Samunnati',
+    'Samunnati Financial Intermediation and Services': 'Samunnati',
+    'Samunnati Financial Intermediation Pvt Ltd': 'Samunnati',
+    'Samunnati Financial Intermediation Private Limited': 'Samunnati',
+    'Samunnati Financial': 'Samunnati',
     'Indifi Capital Private Limited': 'Indifi Capital',
     'Epimoney Private Limited': 'Epimoney',
     'Chimnay Finlease Ltd': 'Chimnay Finlease',
@@ -532,7 +539,8 @@ export function getShortBankName(name: string): string {
     .replace(/International Financial(\s+Services)?/gi, 'International')
     .replace(/Whizdm Innovations Pvt Ltd/gi, '')
     .replace(/Maybright Ventures Pvt Ltd/gi, '')
-    .replace(/Private Limited/gi, 'Pvt Ltd')
+    .replace(/Financial Intermediation(\s+(Services|Pvt|Private|Ltd|Limited|and Services|& Services))?/gi, '')
+    .replace(/Intermediation/gi, '')
     .replace(/Financial Services/gi, 'Fin')
     .replace(/Finance Limited/gi, 'Fin Ltd')
     .replace(/Financial Holdings/gi, 'Fin Holdings')

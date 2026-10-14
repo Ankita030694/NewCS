@@ -170,6 +170,8 @@ function generateKeywords(bankName: string): string[] {
 // Generate compliant meta description (140-146 chars, <= 960px)
 function getCreditCardBankMetaDesc(shortName: string, bankName: string): string {
   const candidates = [
+    `Settle ${shortName} credit card dues legally under RBI rules with CredSettle. Stop recovery harassment, reduce debt up to 50% & get your bank NOC.`,
+    `Settle your ${shortName} credit card dues legally under RBI rules with CredSettle. Stop recovery harassment, reduce debt up to 50% & get your NOC.`,
     `Settle ${shortName} credit card dues legally under RBI rules with CredSettle. Stop harassment, reduce debt & get your bank NOC.`,
     `Settle ${shortName} credit card dues under RBI rules with CredSettle. Stop collection harassment, reduce debt & get your bank NOC.`,
     `Resolve ${shortName} credit card debt legally with CredSettle under RBI rules. Stop agent harassment & cut total card dues up to 50%.`,

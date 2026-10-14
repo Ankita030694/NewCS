@@ -553,6 +553,8 @@ export function getBankMetaDescription(bankName: string): string {
   const b = bankName.trim();
   const shortB = getShortBankName(b);
   const candidates = [
+    `Settle your ${shortB} personal loan dues legally under RBI rules with CredSettle. Stop recovery harassment, reduce debt up to 50% & clear dues.`,
+    `Settle ${shortB} personal loan dues legally under RBI rules with CredSettle. Stop recovery harassment, reduce debt up to 50% & clear dues safely.`,
     `Settle ${shortB} personal loan dues legally under RBI rules with CredSettle. Stop harassment, reduce debt & clear dues safely.`,
     `Settle ${shortB} personal loan dues under RBI rules with CredSettle. Stop recovery calls, reduce debt up to 50% & clear your dues.`,
     `Resolve ${shortB} personal loan debt legally under RBI rules with CredSettle. Stop agent harassment & settle your dues safely.`,

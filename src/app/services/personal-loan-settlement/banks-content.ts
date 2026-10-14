@@ -191,30 +191,30 @@ export function getBankContentWithFallback(bankSlug: string): BankContent {
     metaDescription: generatedContent?.metaDescription || getBankMetaDescription(bankName),
     heroTitle: `${shortName} Personal Loan Settlement`,
     heroDescription: `Get legal help to settle your ${shortName} personal loan dues under RBI OTS rules. Stop recovery calls and live debt free.`,
-    whyChooseSettlement: generatedContent?.whyChooseSettlement || `Loan debt can build up fast after job loss, pay cuts, or medical costs. When ${bankName} EMIs get hard to pay, legal debt settlement helps you exit safely. Under RBI OTS rules, you can cut total dues by 30% to 60%. This clears your debt for good and stops collection calls.`,
-    understandingSettlement: generatedContent?.understandingSettlement || `Settling a personal loan with ${bankName} follows RBI OTS rules. It lets you close your unpaid loan with a single reduced payment. CredSettle lawyers review your money hardship and present your facts to ${bankName}. Once agreed and paid, the bank issues an official No Dues Certificate.`,
-    howCredSettleHelps: generatedContent?.howCredSettleHelps || `CredSettle provides full legal help for ${bankName} loan settlements. Our lawyers check your loan records and build a strong hardship file. We talk directly with bank officers to cut your dues by 40% to 60%. We also send legal notices to stop recovery agent calls right away.`,
-    cibilImpact: generatedContent?.cibilImpact || `Settling a loan with ${bankName} marks your credit status as Settled. This causes a small score drop of 50 to 100 points at first. But it is much better than ongoing default. With simple credit habits and secured cards, your score can climb back to 700+ within 12 to 24 months.`,
-    whyChooseCredSettle: generatedContent?.whyChooseCredSettle || `CredSettle is India's top debt relief team. Our panel of lawyers knows bank laws and debt relief rules well. We manage all talks with ${bankName} directly so you do not face rude collection agents. We offer clear fees and full legal safety.`,
+    whyChooseSettlement: generatedContent?.whyChooseSettlement || `Loan debt can build up fast after job loss, pay cuts, or medical costs. When ${shortName} EMIs get hard to pay, legal debt settlement helps you exit safely. Under RBI OTS rules, you can cut total dues by 30% to 60%. This clears your debt for good and stops collection calls.`,
+    understandingSettlement: generatedContent?.understandingSettlement || `Settling a personal loan with ${shortName} follows RBI OTS rules. It lets you close your unpaid loan with a single reduced payment. CredSettle lawyers review your money hardship and present your facts to ${shortName}. Once agreed and paid, the bank issues an official No Dues Certificate.`,
+    howCredSettleHelps: generatedContent?.howCredSettleHelps || `CredSettle provides full legal help for ${shortName} loan settlements. Our lawyers check your loan records and build a strong hardship file. We talk directly with bank officers to cut your dues by 40% to 60%. We also send legal notices to stop recovery agent calls right away.`,
+    cibilImpact: generatedContent?.cibilImpact || `Settling a loan with ${shortName} marks your credit status as Settled. This causes a small score drop of 50 to 100 points at first. But it is much better than ongoing default. With simple credit habits and secured cards, your score can climb back to 700+ within 12 to 24 months.`,
+    whyChooseCredSettle: generatedContent?.whyChooseCredSettle || `CredSettle is India's top debt relief team. Our panel of lawyers knows bank laws and debt relief rules well. We manage all talks with ${shortName} directly so you do not face rude collection agents. We offer clear fees and full legal safety.`,
     stepByStepProcess: generatedContent?.stepByStepProcess || `Step 1: Free Review. Share your ${shortName} loan details with our team for a free review.
-Step 2: Legal Notice. Our lawyers notify ${bankName} to stop collection agent calls.
+Step 2: Legal Notice. Our lawyers notify ${shortName} to stop collection agent calls.
 Step 3: Hardship File. We prepare a formal settlement offer backed by your income proof.
-Step 4: Bank Talks. We talk directly with ${bankName} for the best debt waiver.
-Step 5: Sanction Letter. ${bankName} issues an official written OTS approval letter.
-Step 6: Payment & NOC. You pay the agreed amount directly to ${bankName} and receive your No Dues Certificate.`,
-    documentsRequired: generatedContent?.documentsRequired || `To settle your ${bankName} personal loan, you need basic papers: 1. Loan account statements. 2. PAN card and Aadhaar copies. 3. Income proof such as bank statements or salary slips. 4. Hardship proof such as medical bills or job loss letters. 5. Bank default notices. Our legal team helps you organize everything.`,
+Step 4: Bank Talks. We talk directly with ${shortName} for the best debt waiver.
+Step 5: Sanction Letter. ${shortName} issues an official written OTS approval letter.
+Step 6: Payment & NOC. You pay the agreed amount directly to ${shortName} and receive your No Dues Certificate.`,
+    documentsRequired: generatedContent?.documentsRequired || `To settle your ${shortName} personal loan, you need basic papers: 1. Loan account statements. 2. PAN card and Aadhaar copies. 3. Income proof such as bank statements or salary slips. 4. Hardship proof such as medical bills or job loss letters. 5. Bank default notices. Our legal team helps you organize everything.`,
     faqs: generatedContent?.faqs || [
       {
         question: `What is the average settlement waiver for ${shortName} loans?`,
-        answer: `${bankName} usually accepts settlements with a 30% to 60% waiver on total dues. The exact discount depends on your payment delay and hardship proof.`
+        answer: `${shortName} usually accepts settlements with a 30% to 60% waiver on total dues. The exact discount depends on your payment delay and hardship proof.`
       },
       {
         question: `Can I settle my personal loan legally with ${shortName}?`,
-        answer: `Yes. Personal loans with ${bankName} can be settled legally under RBI One-Time Settlement rules. The bank issues a formal sanction letter and closes your account upon payment.`
+        answer: `Yes. Personal loans with ${shortName} can be settled legally under RBI One-Time Settlement rules. The bank issues a formal sanction letter and closes your account upon payment.`
       },
       {
         question: `How long does the settlement process take with ${shortName}?`,
-        answer: `Most personal loan settlements with ${bankName} take 45 to 90 days. Recovery calls stop fast once our legal team sends formal notice to the bank.`
+        answer: `Most personal loan settlements with ${shortName} take 45 to 90 days. Recovery calls stop fast once our legal team sends formal notice to the bank.`
       },
       {
         question: `Will my CIBIL score recover after settling with ${shortName}?`,

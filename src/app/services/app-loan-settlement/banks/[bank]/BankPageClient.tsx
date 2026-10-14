@@ -394,7 +394,7 @@ export default function BankPageClient({ content, headings }: BankPageClientProp
                         className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full"
                         style={{ color: 'rgba(12, 39, 86, 0.70)' }}
                       >
-                        Get expert legal help from CredSettle. Stop recovery harassment, settle your {content.bankName} app loan under RBI rules, and protect your privacy. Start your journey to debt freedom today.
+                        Get expert legal help from CredSettle. Stop recovery harassment, settle your {shortName} app loan under RBI rules, and protect your privacy. Start your journey to debt freedom today.
                       </p>
                     </div>
 

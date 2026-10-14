@@ -491,6 +491,7 @@ export default function ResourcesClient({
                           priority={pagination.page === 1 && idx < 3}
                           placeholder="blur"
                           blurDataURL={PLACEHOLDER_BLUR_DATA_URL}
+                          unoptimized={true}
                           onError={(event: SyntheticEvent<HTMLImageElement>) => {
                             const target = event.currentTarget;
                             if (target.dataset?.fallbackApplied) {
