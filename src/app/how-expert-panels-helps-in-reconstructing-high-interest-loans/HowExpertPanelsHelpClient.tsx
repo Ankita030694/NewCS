@@ -67,23 +67,23 @@ export default function HowExpertPanelsHelpClient() {
     const faqs = [
         {
             question: 'Can an expert panel legally force a bank to reduce my interest rate?',
-            answer: 'Yes. While banks generally refuse to lower rates for individuals, an expert legal panel leverages regulatory frameworks and the threat of prolonged litigation to compel lenders to the negotiation table. We use consumer protection laws to challenge usurious 30%+ interest rates and negotiate a sustainable, low-interest repayment plan.'
+            answer: 'Yes. While banks generally refuse to lower rates for individuals. An expert legal panel leverages RBI rules and the threat of prolonged lawsuits to compel lenders to the talks table. We use clients protection laws to challenge usurious 30%+ interest rates and settle a sustainable, low-interest payment plan.'
         },
         {
             question: 'Is restructuring a high-interest loan better than declaring bankruptcy?',
-            answer: "Absolutely. Bankruptcy severely damages your financial reputation and credit score for up to a decade, severely limiting your future opportunities. Loan restructuring through a legal panel allows you to clear your debt under manageable terms, avoid the stigma of insolvency. Rebuild your financial standing much faster."
+            answer: "Absolutely. Bankruptcy severely damages your money reputation and credit score for up to a decade. Severely limiting your future opportunities. Loan restructuring through a legal panel allows you to clear your debt under manageable terms. Avoid the stigma of insolvency. Rebuild your money standing much faster."
         },
         {
             question: 'Will negotiating with payday loan apps stop them from contacting my phone contacts?',
-            answer: 'Yes. Our first step is to issue a formal Cease and Desist notice and initiate cyber harassment complaints where necessary. These legal interventions immediately deter payday apps from illegally accessing and harassing your personal and professional contacts, shifting the discussion to a formal legal arena.'
+            answer: 'Yes. Our first step is to issue a formal Cease and Desist notice and initiate cyber abuse complaints where necessary. These legal interventions promptly deter payday apps from illegally accessing and harassing your private and expert contacts. Shifting the discussion to a formal legal arena.'
         },
         {
             question: 'How long does the loan restructuring process typically take?',
-            answer: "The timeline varies based on the lender and the complexity of the debt. However, most high-interest loan restructurings helped by our expert panels take between 45 to 90 days. During this period, our legal team shields you from recovery harassment while finalizing the new EMI structure."
+            answer: "The timeline varies based on the lender and the complexity of the debt. However, most high-interest loan restructurings helped by our expert panels take between 45 to 90 days. During this period, our legal team shields you from collection abuse while finalizing the new EMI structure."
         },
         {
             question: "Are the late fees and penalty charges waived during this restructuring?",
-            answer: "In the vast majority of our cases, yes. Our legal experts argue that excessive penalty charges are unconscionable and legally unenforceable. We aggressively negotiate to have all late fees, bounce charges. Penal interest completely waived, ensuring you only repay the principal and a fair, reduced interest amount."
+            answer: "In the vast majority of our cases, yes. Our legal experts argue that excessive penalty charges are unconscionable and legally unenforceable. We aggressively settle to have all late fees, bounce charges. Penal interest completely waived, ensuring you only repay the main loan and a fair, reduced interest amount."
         }
     ];
     const reviews = [
@@ -91,13 +91,13 @@ export default function HowExpertPanelsHelpClient() {
             name: 'Vikram Mehta',
             location: 'Mumbai',
             stars: 5,
-            comment: "I was drowning in multiple credit card debts with interest rates hitting 42% annually. I thought bankruptcy was my only way out. The expert panel stepped in, stopped the daily harassment calls. Restructured my entire debt into a single 12% EMI. They saved my career and my sanity."
+            comment: "I was drowning in multiple credit card debts with interest rates hitting 42% annually. I thought bankruptcy was my only way out. The expert panel stepped in. Stopped the daily abuse calls. Restructured my entire debt into a single 12% EMI. They saved my career and my sanity."
         },
         {
             name: 'Priya Desai',
             location: 'Pune',
             stars: 5,
-            comment: 'Payday loan apps made my life a nightmare. They threatened to call my employer over a small delayed payment. CredSettle’s legal team issued strong notices and forced them to waive all the illegal penalties. We settled the actual principal over six manageable months. I cannot thank them enough for their swift action.'
+            comment: 'Payday loan apps made my life a nightmare. They threatened to call my employer over a small delayed payment. CredSettle’s legal team issued strong notices and forced them to waive all the illegal penalties. We settled the actual main loan over six manageable months. I cannot thank them enough for their swift action.'
         }
     ];
     const faqSchema = {
@@ -141,9 +141,7 @@ export default function HowExpertPanelsHelpClient() {
                         How Expert Panels Help in Restructuring<br />
                         <span className="text-blue-300">High-Interest Loans in India.</span>
                     </h1>
-                    <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
-                        Trapped in 30%+ interest rate loans? Discover how elite legal experts force banks to the negotiation table, restructure your debt into low-interest EMIs. Waive penalty charges entirely.
-                    </p>
+                    <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light"> Trapped in 30%+ interest rate loans? Discover how elite legal experts force banks to the talks table. Restructure your debt into low-interest EMIs. Waive penalty charges entirely. </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link href="/contact" className="bg-white text-blue-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                             Consult an Expert Panel Today
@@ -157,21 +155,8 @@ export default function HowExpertPanelsHelpClient() {
                 <div className="max-w-[1440px] mx-auto px-4 py-4 font-sans">
                     <nav className="flex text-sm text-gray-500" aria-label="Breadcrumb">
                         <ol className="inline-flex items-center space-x-1 md:space-x-3">
-                            <li className="inline-flex items-center">
-                                <Link href="/" className="inline-flex items-center hover:text-blue-600">
-                                    Home
-                                </Link>
-                            </li>
-                            <li>
-                                <div className="flex items-center">
-                                    <svg className="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                                        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4"/>
-                                    </svg>
-                                    <span className="ml-1 font-medium text-gray-500 md:ml-2">
-                                        Expert Panels Loan Restructuring.
-                                    </span>
-                                </div>
-                            </li>
+                            <li className="inline-flex items-center"> <Link href="/" className="inline-flex items-center hover:text-blue-600"> Home </Link> </li>
+                            <li> <div className="flex items-center"> <svg className="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10"> <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4"/> </svg> <span className="ml-1 font-medium text-gray-500 md:ml-2"> Expert Panels Loan Restructuring. </span> </div> </li>
                         </ol>
                     </nav>
                 </div>
@@ -207,7 +192,7 @@ export default function HowExpertPanelsHelpClient() {
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
-                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Strategy Manual</p>
+                            <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">plan Manual</p>
                             <nav className="space-y-1 text-sm">
                                 {navLinks.map((link) => (<a key={link.id} href={`#${link.id}`} className={`block py-1.5 px-3 rounded-lg transition-all ${activeId === link.id
                 ? 'bg-blue-600 text-white font-semibold'
@@ -238,114 +223,58 @@ export default function HowExpertPanelsHelpClient() {
                         <article className="prose prose-lg max-w-none bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100">
 
                             <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 1: The High-Interest Debt Trap</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                The modern financial landscape is fraught with hidden dangers, chief among them being high-interest unsecured loans. Borrowers who turn to digital payday apps, aggressive credit cards. Predatory private lenders often find themselves caught in a vicious cycle. What starts as a temporary solution to a liquidity crisis rapidly transforms into an unmanageable burden when interest rates exceed 30%, 40%. Even 50% annually. This is not merely a financial oversight. It is a systematic debt trap designed to extract maximum wealth from vulnerable individuals.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                In this environment of relentless compounding interest, missed payments trigger an avalanche of penalty charges. Late fees, bounce charges. Default interest are piled onto the original principal, causing the outstanding balance to double or triple in a matter of months. When the debt reaches a critical mass, the lender unleashes aggressive recovery agents who use intimidation, social shaming. Continuous harassment to force repayment. The borrower is left feeling isolated, overwhelmed, and completely cornered.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6 font-bold text-green-900 uppercase tracking-tighter border-y border-green-100 py-4">
-                                You are not powerless against predatory interest rates. Legal frameworks exist to dismantle them.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-10">
-                                This comprehensive, deep-dive guide explores exactly how expert legal panels operate to deconstruct and neutralize high-interest loans. We will dissect the precise mechanisms used to force lenders into restructuring agreements, the laws that protect you from extortionate penalties. The strategic pathways that lead to a fair, manageable EMI structure without resorting to the extreme measure of bankruptcy.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> The modern money landscape is fraught with hidden dangers. Chief among them being high-interest no-collateral loans. Clients who turn to digital payday apps, aggressive credit cards. Predatory private lenders often find themselves caught in a vicious cycle. What starts as a temporary solution to a liquidity crisis rapidly transforms into an unmanageable burden when interest rates exceed 30%, 40%. Even 50% annually. This is not merely a money oversight. It is a systematic debt trap designed to extract maximum wealth from vulnerable individuals. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> In this environment of relentless compounding interest. Missed payments trigger an avalanche of penalty charges. Late fees, bounce charges. Default interest are piled onto the original main loan. This causes the unpaid dues to double or triple in a matter of months. When the debt reaches a critical mass. The lender unleashes aggressive collection agents who use threats, social shaming. steady abuse to force payment. The client is left feeling isolated, overwhelmed, and completely cornered. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6 font-bold text-green-900 uppercase tracking-tighter border-y border-green-100 py-4"> You are not powerless against predatory interest rates. Legal rules exist to dismantle them. </p>
+                            <p className="text-gray-700 leading-relaxed mb-10"> This full, deep-dive guide explores exactly how expert legal panels operate to deconstruct and neutralize high-interest loans. We will dissect the precise mechanisms used to force lenders into restructuring pacts. The laws that protect you from extortionate penalties. The strategic pathways that lead to a fair. Manageable EMI structure without resorting to the extreme measure of bankruptcy. </p>
 
                             <h2 id="the-gap" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-green-700 pl-6">Section 2: Why Bankruptcy is Not the Only Exit</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                A critical knowledge gap exists among borrowers trapped in excessive debt. When facing mounting pressure from banks and payday apps, many individuals incorrectly assume that declaring bankruptcy is their sole remaining option. This misconception is often fueled by a lack of financial literacy and the intimidating tactics employed by recovery agencies.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> A critical knowledge gap exists among clients trapped in excessive debt. When facing mounting pressure from banks and payday apps. Many individuals incorrectly assume that declaring bankruptcy is their sole remaining option. This misconception is often fueled by a lack of money literacy and the intimidating tactics employed by collection firms. </p>
                             <div className="bg-red-50 text-red-900 p-8 rounded-3xl mb-10 shadow-sm border border-red-200">
-                                <p className="text-xl font-bold mb-4 flex items-center gap-2 uppercase tracking-wide">
-                                    <svg className="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
-                                    The Bankruptcy Trap Alert.
-                                </p>
-                                <p className="text-red-800 font-light leading-relaxed">
-                                    Filing for insolvency or bankruptcy carries devastating, long-term results. It annihilates your credit score, making it virtually impossible to secure future financing, rent premium property. Sometimes even clear background checks for corporate employment. It is an extreme measure that surrenders all financial autonomy. Do not accept this fate without first consulting an expert legal panel for debt restructuring.
-                                </p>
+                                <p className="text-xl font-bold mb-4 flex items-center gap-2 uppercase tracking-wide"> <svg className="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg> The Bankruptcy Trap Alert. </p>
+                                <p className="text-red-800 font-light leading-relaxed"> Filing for insolvency or bankruptcy carries devastating, long-term results. It annihilates your credit score. This making it virtually impossible to secure future financing, rent premium property. Sometimes even clear background checks for company employment. It is an extreme measure that surrenders all money autonomy. Do not accept this fate without first consulting an expert legal panel for debt restructuring. </p>
                             </div>
-                            <p className="text-gray-700 leading-relaxed mb-6 font-medium">
-                                What these borrowers do not realize is that legal experts possess the tools to force banks to the negotiation table. Lenders, despite their aggressive posturing, are highly risk-averse institutions. They understand that pursuing legal action against a defaulting borrower is expensive, time-consuming, and yields uncertain results. An expert panel leverages this institutional reluctance, transforming a one-sided harassment campaign into a structured, formal legal negotiation.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-10">
-                                By asserting consumer rights and highlighting regulatory violations often committed by high-interest lenders, expert lawyers can compel the institution to abandon its predatory terms. The goal is to restructure the debt, converting an impossible 36% interest loan into a highly manageable 12% to 15% EMI structure spread over an extended tenure. This protects the borrower's dignity, shields them from recovery abuse, and provides a realistic pathway to becoming debt-free.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6 font-medium"> What these clients do not realize is that legal experts possess the tools to force banks to the talks table. Lenders, despite their aggressive posturing, are highly risk-averse institutions. They understand that pursuing legal action against a defaulting client is expensive. Time-consuming, and yields uncertain results. An expert panel leverages this bank reluctance. Transforming a one-sided abuse campaign into a structured, formal legal talks. </p>
+                            <p className="text-gray-700 leading-relaxed mb-10"> By asserting clients rights and highlighting RBI violations often committed by high-interest lenders. Expert lawyers can compel the institution to abandon its predatory terms. The goal is to restructure the debt. Converting an impossible 36% interest loan into a highly manageable 12% to 15% EMI structure spread over an extended tenure. This protects the client's dignity. Shields them from collection abuse. And provides a realistic pathway to becoming debt-free. </p>
 
                             <h2 id="legal-mechanics" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-green-700 pl-6">Section 3: How Expert Panels Restructure Debt</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Restructuring a loan is a sophisticated legal maneuver, not a simple request for leniency. When an individual borrower asks a bank for a lower interest rate, they are routinely dismissed by junior executives following rigid corporate scripts. However, when an expert legal panel intervenes, the dynamic fundamentally shifts.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Expert panels operate by shifting the venue of conflict from informal harassment to formal legal scrutiny. The first step involves an exhaustive audit of the loan agreement. Lawyers scrutinize the contract for unconscionable clauses, inadequate disclosures. Violations of fair lending practices mandated by the Reserve Bank of India (RBI). If a payday app or credit card company has charged arbitrary processing fees or obscured the true Annual Percentage Rate (APR), this constitutes a material breach of regulatory guidelines.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Once these violations are documented, the legal team drafts a comprehensive legal notice. This is not a plea for mercy. It is a meticulously structured document that outlines the lender's regulatory failures and presents a clear ultimatum. The notice demands the immediate cessation of all coercive recovery tactics and proposes a fair restructuring plan based on the borrower's actual repayment capacity.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-10">
-                                Confronted with a well-prepared legal adversary, the lender's compliance and legal departments recognize the risk. Escalating the matter to a consumer forum or the banking ombudsman could result in severe penalties for the institution. as a result, the lender is incentivized to accept the restructuring proposal. This is the precise mechanism by which expert panels achieve results that individual borrowers cannot. For a deeper understanding of handling personal loans, you can read our guide on the. <Link href="/best-lawyer-for-personal-loans" className="text-blue-600 hover:underline">best lawyer for personal loans</Link>.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Restructuring a loan is a sophisticated legal maneuver. Not a simple request for leniency. When an individual client asks a bank for a lower interest rate. They are routinely dismissed by junior executives following rigid company scripts. However, when an expert legal panel intervenes, the dynamic fundamentally shifts. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Expert panels operate by shifting the venue of conflict from informal abuse to formal legal scrutiny. The first step involves an exhaustive audit of the loan pacts. Lawyers scrutinize the contract for unconscionable clauses, inadequate disclosures. Violations of fair lending practices mandated by the Reserve Bank of India (RBI). If a payday app or credit card company has charged arbitrary processing fees or obscured the true Annual Percentage Rate (APR). This constitutes a material breach of RBI rules. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Once these violations are documented. The legal team drafts a full legal notice. This is not a plea for mercy. It is a meticulously structured paper that outlines the lender's RBI failures and presents a clear ultimatum. The notice demands the fast cessation of all coercive collection tactics and proposes a fair restructuring plan based on the client's actual payment capacity. </p>
+                            <p className="text-gray-700 leading-relaxed mb-10"> Confronted with a well-prepared legal adversary. The lender's compliance and legal departments recognize the risk. Escalating the matter to a clients forum or the banking ombudsman could result in severe penalties for the institution. As a result, the lender is incentivized to accept the restructuring proposal. This is the precise mechanism by which expert panels achieve results that individual clients cannot. For a deeper understanding of handling private loans. You can read our guide on the. <Link href="/best-lawyer-for-personal-loans" className="text-blue-600 hover:underline">best lawyer for private loans</Link>. </p>
 
                             <h2 id="interest-rate-conversion" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-green-700 pl-6">Section 4: Converting 30%+ Rates to Low EMI</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                The mathematical core of the high-interest debt trap is the compounding effect of rates exceeding 30%. At such levels, the majority of the borrower's monthly payment is consumed by interest, leaving the principal balance largely untouched. The primary objective of the expert panel is to shatter this mathematical trap.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> The mathematical core of the high-interest debt trap is the compounding effect of rates exceeding 30%. At such levels, the majority of the client's monthly payment is consumed by interest. Leaving the base loan largely untouched. The primary objective of the expert panel is to shatter this mathematical trap. </p>
                             <div className="bg-gray-900 text-white p-10 rounded-[3rem] mb-10 shadow-2xl relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-green-500/20 blur-3xl rounded-full"></div>
-                                <p className="text-2xl font-black mb-6 flex items-center gap-3">
-                                    <span className="w-3 h-10 bg-green-500 inline-block rounded-full"></span>
-                                    The Interest Rate Conversion Strategy:
-                                </p>
+                                <p className="text-2xl font-black mb-6 flex items-center gap-3"> <span className="w-3 h-10 bg-green-500 inline-block rounded-full"></span> The Interest Rate Conversion plan: </p>
                                 <ul className="space-y-5 font-light text-gray-300">
-                                    <li><strong className="text-white uppercase tracking-wider italic text-sm">Step 1: Freezing the Compounding:</strong> The immediate legal priority is to freeze the account status, preventing further interest from compounding while negotiations are underway.</li>
-                                    <li><strong className="text-white uppercase tracking-wider italic text-sm">Step 2: Proving Financial Hardship:</strong> Lawyers present documented evidence of the borrower's financial distress. Examples include job loss, medical emergencies, or severe business downturns, establishing that the current EMI is objectively unpayable.</li>
-                                    <li><strong className="text-white uppercase tracking-wider italic text-sm">Step 3: Negotiating the Base Rate:</strong> The panel rejects the predatory 30%+ rate and anchors the negotiation to standard market rates (e.g., 12% to 15%), arguing that anything higher is usurious and legally indefensible.</li>
-                                    <li><strong className="text-white uppercase tracking-wider italic text-sm">Step 4: Tenure Extension:</strong> Concurrently, the repayment tenure is extended, which dramatically reduces the monthly cash outflow required from the borrower, creating a highly manageable new EMI.</li>
+                                    <li><strong className="text-white uppercase tracking-wider italic text-sm">Step 1: Freezing the Compounding:</strong> The fast legal priority is to freeze the account status. Preventing further interest from compounding while talks are underway.</li>
+                                    <li><strong className="text-white uppercase tracking-wider italic text-sm">Step 2: Proving hardship:</strong> Lawyers present documented proof of the client's debt stress. Examples include job loss, medical emergencies. Or severe trade downturns, establishing that the current EMI is objectively unpayable.</li>
+                                    <li><strong className="text-white uppercase tracking-wider italic text-sm">Step 3: settling the Base Rate:</strong> The panel rejects the predatory 30%+ rate and anchors the talks to standard market rates (e.g. 12% to 15%), arguing that anything higher is usurious and legally indefensible.</li>
+                                    <li><strong className="text-white uppercase tracking-wider italic text-sm">Step 4: Tenure Extension:</strong> Concurrently, the payment tenure is extended. This dramatically reduces the monthly cash outflow required from the client. Creating a highly manageable new EMI.</li>
                                 </ul>
                             </div>
-                            <p className="text-gray-700 leading-relaxed mb-10 font-medium">
-                                The result of this strategy is a complete overhaul of the debt structure. A borrower who was struggling to pay a 25,000 INR monthly EMI on a toxic loan might find their debt reduced to an 8,000 INR monthly payment under the restructured terms. This conversion is what allows individuals to breathe, stabilize their household finances. Steadily eliminate their debt without the constant threat of default.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-10 font-medium"> The result of this plan is a complete overhaul of the debt structure. A client who was struggling to pay a 25,000 INR monthly EMI on a toxic loan might find their debt reduced to an 8,000 INR monthly payment under the restructured terms. This conversion is what allows individuals to breathe, stabilize their household finances. Steadily eliminate their debt without the constant threat of default. </p>
 
                             <h2 id="waiving-penal-charges" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-green-700 pl-6">Section 5: Waiving Penal Charges Entirely</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                High-interest lenders profit immensely not just from the base interest rate. From the punitive fees attached to missed payments. These include excessive late payment charges, cheque bounce fees. Arbitrary penalty interest applied on top of the already inflated balance. Over a period of a few months, these penalties can constitute a massive portion of the total demanded amount.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Expert panels attack these penalty charges aggressively. The legal argument is straightforward: penalty charges are intended to act as a deterrent against willful default, not as a mechanism for extortion against someone experiencing genuine financial hardship. Under the principles of contract law and consumer protection, penalties that are disproportionate to the actual loss suffered by the lender are considered unconscionable and invalid.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-10">
-                                During restructuring negotiations, the legal team insists on the complete waiver of all accumulated penalty charges. They present the lender with a stark choice: accept a restructured settlement based solely on the outstanding principal and a reasonable interest rate. Face protracted litigation over the legality of their punitive fee structure. In the face of this legal pressure, banks and NBFCs almost universally capitulate, wiping the penalty charges clean from the ledger. If you have received a legal warning regarding these charges, our expertise as the. <Link href="/best-lawyer-for-notice-for-loan-default" className="text-blue-600 hover:underline">best lawyer for notice for loan default</Link> can guide you.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> High-interest lenders profit immensely not just from the base interest rate. From the punitive fees attached to missed payments. These include excessive late payment charges, cheque bounce fees. Arbitrary penalty interest applied on top of the already inflated balance. Over a period of a few months. These penalties can constitute a massive portion of the total demanded amount. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Expert panels attack these penalty charges aggressively. The legal argument is straightforward: penalty charges are intended to act as a deterrent against willful default. Not as a mechanism for extortion against someone experiencing genuine hardship. Under the principles of contract law and clients protection. Penalties that are disproportionate to the actual loss suffered by the lender are considered unconscionable and invalid. </p>
+                            <p className="text-gray-700 leading-relaxed mb-10"> During restructuring talks, the legal team insists on the complete waiver of all total penalty charges. They present the lender with a stark choice: accept a restructured settlement based solely on the unpaid main loan and a reasonable interest rate. Face protracted lawsuits over the legality of their punitive fee structure. In the face of this legal pressure. Banks and NBFCs almost universally capitulate. Wiping the penalty charges clean from the ledger. If you have received a legal warning regarding these charges, our expertise as the. <Link href="/best-lawyer-for-notice-for-loan-default" className="text-blue-600 hover:underline">best lawyer for notice for loan default</Link> can guide you. </p>
 
                             <h2 id="payday-apps" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-green-700 pl-6">Section 6: Defending Against Digital Lenders and Payday Apps</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                The rise of digital lending applications has introduced a new, highly aggressive form of high-interest debt. These payday apps offer instant, unsecured cash but often charge interest rates that equate to 60% or more annually. Worse, they frequently demand access to the borrower's smartphone contacts, photo galleries. Location data during the installation process.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6 font-bold text-red-800 uppercase italic border-b-2 border-red-100 pb-2">
-                                Digital Harassment: The Illegal Weapon of Payday Lenders.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                When a borrower defaults on a payday app, the recovery tactics are often brutal. Agents will send humiliating messages to the borrower's family, friends, and employers, using the stolen contact lists. This is a severe violation of privacy laws, IT regulations, and RBI guidelines on fair recovery practices.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-10">
-                                Expert legal panels specialize in neutralizing these digital threats. The immediate action involves filing strict cyber complaints against the app developers for data theft and criminal intimidation. Simultaneously, legal notices are served demanding the immediate deletion of personal data and the cessation of all third-party contact. Because many of these apps operate in legal gray areas, they are highly vulnerable to regulatory scrutiny. The threat of an RBI crackdown or police action forces them to retreat, drop the illegal penalties. Accept a highly compromised settlement or restructuring plan.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> The rise of digital lending applications has introduced a new. Highly aggressive form of high-interest debt. These payday apps offer instant. No-collateral cash but often charge interest rates that equate to 60% or more annually. Worse, they often demand access to the client's smartphone contacts, photo galleries. Location data during the installation process. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6 font-bold text-red-800 uppercase italic border-b-2 border-red-100 pb-2"> Digital abuse: The Illegal Weapon of Payday Lenders. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> When a client defaults on a payday app. The collection tactics are often brutal. Agents will send humiliating messages to the client's family. Friends, and employers, using the stolen contact lists. This is a severe violation of privacy laws. IT regulations, and RBI rules on fair collection practices. </p>
+                            <p className="text-gray-700 leading-relaxed mb-10"> Expert legal panels specialize in neutralizing these digital threats. The fast action involves filing strict cyber complaints against the app developers for data theft and criminal threats. Simultaneously, legal notices are served demanding the fast deletion of private data and the cessation of all third-party contact. Because many of these apps operate in legal gray areas. They are highly vulnerable to RBI scrutiny. The threat of an RBI crackdown or police action forces them to retreat, drop the illegal penalties. Accept a highly compromised settlement or restructuring plan. </p>
 
                             <h2 id="credit-cards" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-green-700 pl-6">Section 7: Negotiating Credit Card Defaults</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Credit card debt is perhaps the most common form of high-interest unsecured liability. When a cardholder falls into the trap of paying only the "Minimum Amount Due," they are subjected to punishing revolving interest rates typically ranging from 36% to 42% per annum. At this rate, the debt compounds exponentially, making escape nearly impossible without intervention.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Banks use aggressive telecalling teams to harass credit card defaulters. However, credit card debt is entirely unsecured. The bank has no collateral to seize. This gives the expert legal panel major leverage during negotiations.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-10">
-                                The restructuring strategy for credit cards involves demanding the conversion of the outstanding revolving balance into a fixed-term personal loan with a drastically reduced interest rate (often below 14%). The legal panel argues that the bank's continued application of 40% interest on an already distressed account is predatory. By initiating formal grievance procedures with the banking ombudsman and threatening to challenge the debt's validity in consumer court, the panel forces the bank to restructure the credit card debt into a manageable EMI, waiving all over-limit and late payment fees in the process.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Credit card debt is perhaps the most common form of high-interest no-collateral debt risk. When a cardholder falls into the trap of paying only the "Minimum Amount Due," they are subjected to punishing revolving interest rates typically ranging from 36% to 42% per annum. At this rate, the debt compounds exponentially. Making escape nearly impossible without intervention. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Banks use aggressive telecalling teams to harass credit card defaulters. However, credit card debt is entirely no-collateral. The bank has no security to seize. This gives the expert legal panel major leverage during talks. </p>
+                            <p className="text-gray-700 leading-relaxed mb-10"> The restructuring plan for credit cards involves demanding the conversion of the unpaid revolving balance into a fixed-term private loans with a drastically reduced interest rate (often below 14%). The legal panel argues that the bank's continued application of 40% interest on an already distressed account is predatory. By initiating formal grievance procedures with the banking ombudsman and threatening to challenge the debt's validity in clients court. The panel forces the bank to restructure the credit card debt into a manageable EMI. Waiving all over-limit and late payment fees in the process. </p>
 
                             <h2 id="expert-panel-vs-agents" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-green-700 pl-6">Section 8: Expert Panel vs. Recovery Agents: The Shield Against Harassment</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                The most profound benefit of engaging an expert legal panel is the immediate deployment of a protective shield against recovery agents. Lenders rely on fear, intimidation, and constant disruption to force borrowers to pay. They deploy agents to workplaces, send threatening messages, and use abusive language over the phone.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> The most profound benefit of engaging an expert legal panel is the fast deployment of a protective shield against collection agents. Lenders rely on fear, threats. And constant breaks to force clients to pay. They deploy agents to workplaces. Send threatening messages, and use abusive language over the phone. </p>
                             <div className="overflow-x-auto mb-10">
                                 <table className="w-full text-left border-collapse rounded-xl overflow-hidden shadow-lg border border-gray-200">
                                     <thead>
@@ -357,9 +286,9 @@ export default function HowExpertPanelsHelpClient() {
                                     </thead>
                                     <tbody className="bg-white divide-y divide-gray-200">
                                         <tr className="hover:bg-blue-50 transition-colors">
-                                            <td className="py-4 px-6 font-semibold text-gray-900">Communication</td>
-                                            <td className="py-4 px-6 text-gray-700 font-light">Continuous harassment calls, 30+ times a day.</td>
-                                            <td className="py-4 px-6 text-green-700 font-medium border-l border-gray-200 bg-green-50/30">All communication redirected to the law firm. Zero direct calls to you.</td>
+                                            <td className="py-4 px-6 font-semibold text-gray-900">contact</td>
+                                            <td className="py-4 px-6 text-gray-700 font-light">steady abuse calls, 30+ times a day.</td>
+                                            <td className="py-4 px-6 text-green-700 font-medium border-l border-gray-200 bg-green-50/30">All contact redirected to the law firm. Zero direct calls to you.</td>
                                         </tr>
                                         <tr className="hover:bg-blue-50 transition-colors">
                                             <td className="py-4 px-6 font-semibold text-gray-900">Home/Office Visits.</td>
@@ -367,79 +296,33 @@ export default function HowExpertPanelsHelpClient() {
                                             <td className="py-4 px-6 text-green-700 font-medium border-l border-gray-200 bg-green-50/30">Cease and Desist notices block physical visits. Police action threatened against trespassing.</td>
                                         </tr>
                                         <tr className="hover:bg-blue-50 transition-colors">
-                                            <td className="py-4 px-6 font-semibold text-gray-900">Negotiation Leverage.</td>
+                                            <td className="py-4 px-6 font-semibold text-gray-900">talks Leverage.</td>
                                             <td className="py-4 px-6 text-gray-700 font-light">None. You are forced to accept their impossible demands.</td>
-                                            <td className="py-4 px-6 text-green-700 font-medium border-l border-gray-200 bg-green-50/30">Total legal dominance. Lenders are forced to negotiate terms that you can actually afford.</td>
+                                            <td className="py-4 px-6 text-green-700 font-medium border-l border-gray-200 bg-green-50/30">Total legal dominance. Lenders are forced to settle terms that you can actually afford.</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
-                            <p className="text-gray-700 leading-relaxed mb-10 font-light">
-                                By formally bringing a legal agent on board, you strip the recovery agents of their power. The law mandates that once a borrower is legally represented, the lender and its agents must communicate only with the counsel. Any attempt to bypass the lawyer and harass the borrower directly becomes a severe legal violation, exposing the lender to hefty compensation claims. This is why having the. <Link href="/best-lawyer-for-bank-loan-recovery-defence" className="text-blue-600 hover:underline">best lawyer for bank loan recovery defence</Link> is critical for your mental peace.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-10 font-light"> By formally bringing a legal agent on board. You strip the collection agents of their power. The law mandates that once a client is legally represented. The lender and its agents must communicate only with the counsel. Any attempt to bypass the lawyer and harass the client straight becomes a severe legal violation. Exposing the lender to hefty payout claims. This is why having the. <Link href="/best-lawyer-for-bank-loan-recovery-defence" className="text-blue-600 hover:underline">best lawyer for bank loan collection defence</Link> is critical for your mental peace. </p>
 
                             <h2 id="step-by-step" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-green-700 pl-6">Section 9: The Step-by-Step Restructuring Process</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                If you are ready to break free from the high-interest debt trap, it is essential to understand the structured approach taken by an expert legal panel.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> If you are ready to break free from the high-interest debt trap. It is essential to understand the structured approach taken by an expert legal panel. </p>
                             <div className="bg-white p-8 rounded-3xl border border-blue-100 shadow-xl mb-10">
                                 <p className="text-2xl font-bold text-blue-900 mb-6 border-b pb-4">Your Legal Checklist for Debt Freedom:</p>
                                 <ul className="space-y-4 text-gray-800">
-                                    <li className="flex items-start gap-4">
-                                        <div className="bg-blue-100 p-2 rounded-full text-blue-700 mt-1">
-                                            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
-                                        </div>
-                                        <div>
-                                            <strong className="block text-lg text-blue-900 mb-1">1. Comprehensive Debt Evaluation:</strong>
-                                            <p className="font-light text-gray-600">Compile all loan documents, account statements, and evidence of harassment. The legal team analyzes the total liability and identifies regulatory breaches.</p>
-                                        </div>
-                                    </li>
-                                    <li className="flex items-start gap-4">
-                                        <div className="bg-blue-100 p-2 rounded-full text-blue-700 mt-1">
-                                            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
-                                        </div>
-                                        <div>
-                                            <strong className="block text-lg text-blue-900 mb-1">2. execution of the Legal Shield:</strong>
-                                            <p className="font-light text-gray-600">Immediate dispatch of legal notices to all lenders and recovery agencies, establishing the legal boundary and stopping harassment.</p>
-                                        </div>
-                                    </li>
-                                    <li className="flex items-start gap-4">
-                                        <div className="bg-blue-100 p-2 rounded-full text-blue-700 mt-1">
-                                            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
-                                        </div>
-                                        <div>
-                                            <strong className="block text-lg text-blue-900 mb-1">3. Aggressive Negotiation Phase:</strong>
-                                            <p className="font-light text-gray-600">Lawyers engage with the bank's nodal officers and legal department, demanding the waiver of penalty charges and a massive reduction in the base interest rate.</p>
-                                        </div>
-                                    </li>
-                                    <li className="flex items-start gap-4">
-                                        <div className="bg-blue-100 p-2 rounded-full text-blue-700 mt-1">
-                                            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
-                                        </div>
-                                        <div>
-                                            <strong className="block text-lg text-blue-900 mb-1">4. Formalization of the Restructured Agreement:</strong>
-                                            <p className="font-light text-gray-600">Drafting and reviewing the new settlement or restructuring contract to ensure no hidden clauses remain, securing a dignified EMI structure for you.</p>
-                                        </div>
-                                    </li>
+                                    <li className="flex items-start gap-4"> <div className="bg-blue-100 p-2 rounded-full text-blue-700 mt-1"> <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg> </div> <div> <strong className="block text-lg text-blue-900 mb-1">1. full Debt Evaluation:</strong> <p className="font-light text-gray-600">Compile all loan papers, account records, and proof of abuse. The legal team analyzes the total debt risk and identifies RBI breaches.</p> </div> </li>
+                                    <li className="flex items-start gap-4"> <div className="bg-blue-100 p-2 rounded-full text-blue-700 mt-1"> <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg> </div> <div> <strong className="block text-lg text-blue-900 mb-1">2. execution of the Legal Shield:</strong> <p className="font-light text-gray-600">Fast dispatch of legal notices to all lenders and collection firms. Establishing the legal boundary and stopping abuse.</p> </div> </li>
+                                    <li className="flex items-start gap-4"> <div className="bg-blue-100 p-2 rounded-full text-blue-700 mt-1"> <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg> </div> <div> <strong className="block text-lg text-blue-900 mb-1">3. Aggressive talks Phase:</strong> <p className="font-light text-gray-600">Lawyers engage with the bank's nodal officers and legal department. Demanding the waiver of penalty charges and a massive reduction in the base interest rate.</p> </div> </li>
+                                    <li className="flex items-start gap-4"> <div className="bg-blue-100 p-2 rounded-full text-blue-700 mt-1"> <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg> </div> <div> <strong className="block text-lg text-blue-900 mb-1">4. Formalization of the Restructured pacts:</strong> <p className="font-light text-gray-600">Drafting and reviewing the new settlement or restructuring contract to ensure no hidden clauses remain. Securing a dignified EMI structure for you.</p> </div> </li>
                                 </ul>
                             </div>
-                            <p className="text-gray-700 leading-relaxed mb-10 font-light">
-                                This systematic approach guarantees that you are never operating from a position of weakness. The law is a powerful equalizer. With the right legal representation, even the largest financial institutions must adhere to fair and equitable practices.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-10 font-light"> This systematic approach guarantees that you are never operating from a position of weakness. The law is a powerful equalizer. With the right legal legal help. Even the largest banks must adhere to fair and equitable practices. </p>
 
                             <h2 id="conclusion" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-green-700 pl-6">Conclusion: Your Path to Financial Freedom</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Being ensnared in a high-interest loan with rates soaring above 30% is a terrifying experience. It is not the end of your financial life. You do not need to accept relentless harassment, nor do you need to surrender to the devastating results of bankruptcy. There is a strategic, dignified, and legally protected alternative.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Engaging an expert legal panel to restructure your high-interest debt is the most effective way to regain control. By wielding consumer protection laws, challenging unconscionable penalty charges. Forcing lenders into formal negotiations, these legal experts completely dismantle the predatory debt trap. They transform overwhelming liabilities into manageable, low-interest EMIs. This allows you to rebuild your financial stability without fear.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6 font-black text-green-800 uppercase tracking-widest text-sm border-t-2 border-green-100 pt-6 animate-pulse">
-                                Stop suffering in silence. Legal intervention is your right.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-10 text-blue-900 font-medium">
-                                At CredSettle, our elite consumer protection lawyers specialize in defending borrowers against aggressive lenders and structuring sustainable debt resolutions. Reach out today for a consultation. Let our expert panel provide the legal shield and financial strategy you need to achieve true debt freedom.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Being ensnared in a high-interest loan with rates soaring above 30% is a terrifying skill. It is not the end of your money life. You do not need to accept relentless abuse. Nor do you need to surrender to the devastating results of bankruptcy. There is a strategic, dignified, and legally protected alternative. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Engaging an expert legal panel to restructure your high-interest debt is the most effective way to regain control. By wielding clients protection laws, challenging unconscionable penalty charges. Forcing lenders into formal talks. These legal experts completely dismantle the predatory debt trap. They transform overwhelming debts into manageable, low-interest EMIs. This allows you to rebuild your money stability without fear. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6 font-black text-green-800 uppercase tracking-widest text-sm border-t-2 border-green-100 pt-6 animate-pulse"> Stop suffering in silence. Legal intervention is your right. </p>
+                            <p className="text-gray-700 leading-relaxed mb-10 text-blue-900 font-medium"> At CredSettle, our elite clients protection lawyers specialize in defending clients against aggressive lenders and structuring sustainable debt resolutions. Reach out today for a call. Let our expert panel provide the legal shield and money plan you need to achieve true debt freedom. </p>
 
                             <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Client Success and Feedback</h2>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
@@ -476,7 +359,7 @@ export default function HowExpertPanelsHelpClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">You Don't Have to Choose Bankruptcy.</h3>
-                                <p className="text-blue-800 mb-6">Our expert lawyers specialize in restructuring toxic, high-interest debt into fair, manageable plans. Stop the harassment and protect your financial future today.</p>
+                                <p className="text-blue-800 mb-6">Our expert lawyers specialize in restructuring toxic. High-interest debt into fair, manageable plans. Stop the abuse and protect your money future today.</p>
                                 <Link href="/contact" className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300">
                                     Get Legal Protection Now
                                 </Link>
@@ -496,7 +379,7 @@ export default function HowExpertPanelsHelpClient() {
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
                                 <p className="font-bold text-xl text-gray-900 mb-2">Trapped in Debt?</p>
-                                <p className="text-sm text-gray-600 mb-6">We can send an immediate Legal Notice to stop agents and start restructuring your loan.</p>
+                                <p className="text-sm text-gray-600 mb-6">We can send an fast Legal Notice to stop agents and start restructuring your loan.</p>
                                 <Link href="/contact" className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md text-center">
                                     Consult Expert Panel
                                 </Link>
@@ -504,7 +387,7 @@ export default function HowExpertPanelsHelpClient() {
                                     <p>v 24hr Legal Response.</p>
                                     <p>v Restructure High Rates.</p>
                                     <p>v Waive penalty charges.</p>
-                                    <p>v Shield from Harassment.</p>
+                                    <p>v Shield from abuse.</p>
                                 </div>
                             </div>
 

@@ -47,43 +47,43 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
     const faqs = [
         {
             q: 'What is the main difference between Lok Adalat and DRT for loan settlement?',
-            a: 'Lok Adalat is an alternative dispute resolution forum focused on mutual conciliation with zero court fees for any loan amount, whereas the Debt Recovery Tribunal (DRT) is a formal statutory judicial tribunal handling default claims of ₹20 Lakhs and above under the RDB Act, 1993.'
+            a: 'Lok Adalat is an alternative dispute relief forum focused on mutual talks with zero court fees for any loan amount. In contrast. The Debt claims Tribunal (DRT) is a formal legal judicial tribunal handling default claims of ₹20 Lakhs and above under the RDB Act. 1993.'
         },
         {
             q: 'Can a bank force a loan settlement on me in Lok Adalat?',
-            a: "No. Lok Adalat functions strictly on voluntary mutual consent under the Legal Services Authorities Act, 1987. If you do not agree with the bank's settlement figure or payment terms, the bench cannot impose any decision. The matter returns to regular proceedings without penalty."
+            a: "No. Lok Adalat functions strictly on voluntary mutual consent under the Legal Services officials Act. 1987. If you do not agree with the bank's settlement figure or payment terms. The bench cannot impose any decision. The matter returns to regular proceedings without penalty."
         },
         {
             q: 'Is a Lok Adalat settlement decree final and non-appealable?',
-            a: 'Yes. Under Section 21 of the Legal Services Authorities Act, 1987, an award passed by Lok Adalat is deemed a civil court decree. Because it is founded on mutual consent, no appeal lies against this award before any appellate court, ensuring permanent dispute closure.'
+            a: 'Yes. Under Section 21 of the Legal Services officials Act. 1987. An award passed by Lok Adalat is deemed a civil court decree. Because it is founded on mutual consent. No appeal lies against this award before any appellate court. Ensuring permanent dispute closure.'
         },
         {
             q: 'What is the minimum loan default threshold required to file a case in DRT?',
-            a: 'Under Section 1(4) of the Recovery of Debts and Bankruptcy (RDB) Act, 1993, the statutory pecuniary threshold for banks and NBFCs to institute an Original Application before the Debt Recovery Tribunal is strictly ₹20 Lakhs and above.'
+            a: 'Under Section 1(4) of the claims of Debts and Bankruptcy (RDB) Act. 1993. The legal pecuniary threshold for banks and NBFCs to institute an Original Application before the Debt claims Tribunal is strictly ₹20 Lakhs and above.'
         },
         {
             q: 'Which forum offers higher loan settlement discounts and penal interest waivers?',
-            a: "Lok Adalat generally yields higher and faster waivers, often between 50% and 75% on total accumulated dues, as banks aim for immediate NPA resolution. In DRT, compromise One-Time Settlements (OTS) typically range between 40% and 60% on total claims after challenging compound penalty charges."
+            a: "Lok Adalat generally yields higher and faster waivers. Often between 50% and 75% on total total dues. As banks aim for fast NPA relief. In DRT. OTS deal One-Time Settlements (OTS) typically range between 40% and 60% on total claims after challenging compound penalty charges."
         },
         {
             q: 'Can you face arrest or jail time for defaulting on a personal loan in DRT or Lok Adalat?',
-            a: 'No. Unsecured personal loan and credit card default is purely a civil contractual dispute. Neither Lok Adalat nor DRT has the criminal authority to order arrest or imprisonment for honest financial inability to repay unsecured credit.'
+            a: 'No. no-pledge private loans and credit card default is purely a civil contractual dispute. Neither Lok Adalat nor DRT has the criminal formal to order arrest or imprisonment for honest money inability to repay no-pledge credit.'
         },
         {
             q: 'How does a borrower appeal an adverse DRT order, and what is the pre-deposit?',
-            a: 'A final or interim DRT order can be appealed before the Debt Recovery Appellate Tribunal (DRAT) under Section 20 of the RDB Act within 30 days. However, Section 21 requires a mandatory pre-deposit of 50% of the debt, reducible to a minimum of 25% upon proving severe hardship.'
+            a: 'A final or interim DRT order can be appealed before the Debt claims Appellate Tribunal (DRAT) under Section 20 of the RDB Act within 30 days. However. Section 21 requires a strict pre-deposit of 50% of the debt. Reducible to a minimum of 25% upon proving severe hardship.'
         },
         {
             q: 'What happens if a borrower settles a pending DRT case in Lok Adalat?',
-            a: "When a pending DRT litigation is resolved through Lok Adalat or pre-Lok Adalat conciliation, the parties execute joint consent terms. The DRT disposes of the original application. The bank files for a full refund of tribunal court fees under Section 21(1) of the Legal Services Authorities Act."
+            a: "When a pending DRT lawsuits is resolved through Lok Adalat or pre-Lok Adalat talks. The parties execute joint consent terms. The DRT disposes of the original application. The bank files for a full refund of tribunal court fees under Section 21(1) of the Legal Services officials Act."
         },
         {
             q: 'How long does a loan settlement take in Lok Adalat compared to DRT litigation?',
-            a: 'A Lok Adalat settlement is concluded in a single day once terms are mutually agreed upon during pre-conciliation sittings. Conversely, contested DRT proceedings typically take 12 to 24 months unless resolved earlier through a negotiated out-of-court compromise OTS.'
+            a: 'A Lok Adalat settlement is concluded in a single day once terms are mutually agreed upon during pre-talks sittings. Conversely. Contested DRT proceedings typically take 12 to 24 months unless resolved earlier through a settled out-of-court OTS deal OTS.'
         },
         {
             q: 'How does loan settlement in Lok Adalat or DRT affect my CIBIL credit score?',
-            a: "Upon settlement payment, the lender issues a No Dues Certificate and reports the account status as \"Settled\" or \"Post-Settlement Closed\" to credit bureaus under Section 21 of CICRA. Borrowers can gradually rebuild their score to 750+ over 12 to 24 months through disciplined credit use."
+            a: "Upon settlement payment. The lender issues a No Dues letter and reports the account status as \"Settled\" or \"Post-Settlement Closed\" to credit bureaus under Section 21 of CICRA. Borrowers can gradually rebuild their score to 750+ over 12 to 24 months through disciplined credit use."
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -100,9 +100,7 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
             Lok Adalat vs DRT for Loan Settlement: Which Option Is Better?
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed">
-            Struggling to choose between Lok Adalat conciliation and Debt Recovery Tribunal proceedings for your loan default? Compare statutory authority, waiver percentages, decree finality, and financial timelines to pick the ideal legal path.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> Struggling to choose between Lok Adalat talks and Debt claims Tribunal proceedings for your loan default? Compare legal formal, waiver percentages. Decree finality. And money timelines to pick the ideal legal path. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -145,9 +143,7 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>Statutory Dispute Guide.</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Governed under the Legal Services Authorities Act, 1987 &amp; Recovery of Debts and Bankruptcy Act, 1993.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed under the Legal Services officials Act. 1987 &amp. Claims of Debts and Bankruptcy Act. 1993. </p>
               </div>
             </div>
           </aside>
@@ -231,15 +227,9 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                 1. Legal Foundations: Lok Adalat vs Debt Recovery Tribunal (DRT)
               </h2>
               <div className="space-y-4 text-slate-700 leading-relaxed text-sm md:text-base">
-                <p>
-                  When loan accounts encounter non-payment extending past the 90-day threshold, Reserve Bank of India prudential norms classify them as Non-Performing Assets (NPAs). This classification mandates that commercial banks and NBFCs allocate large Tier-1 capital provisioning to offset balance-sheet risk. To recover capital and de-clog their distressed portfolios, institutional lenders must select an appropriate legal forum based on the loan structure, security availability. Total outstanding debt quantum.
-                </p>
-                <p>
-                  For debts of ₹20 Lakhs and above, financial institutions routinely invoke Section 19 of the Recovery of Debts and Bankruptcy (RDB) Act, 1993, by filing an Original Application (OA) before the Debt Recovery Tribunal. The DRT is a specialized judicial body designed to expedite recovery by bypassing ordinary civil courts. In contrast, for smaller retail loans, credit card balances. High-volume NPA batches, banks frequently approach the National Lok Adalat, organized under the Legal Services Authorities Act, 1987.
-                </p>
-                <p>
-                  The foundational divergence lies in judicial philosophy. The DRT functions as an adversarial tribunal where both parties present evidence, submit formal pleadings. Contest legal technicalities under procedural rules. Conversely, Lok Adalat is an Alternative Dispute Resolution (ADR) mechanism based entirely on mutual conciliation and equitable settlement. Understanding this structural difference enables borrowers to choose whether to engage in rapid conciliation or leverage formal procedural defenses to negotiate a discounted One-Time Settlement (OTS).
-                </p>
+                <p> When loan accounts encounter non-payment extending past the 90-day threshold. Reserve Bank of India prudential norms classify them as Non-Performing Assets (NPAs). This classification mandates that banks and NBFCs allocate large Tier-1 cash provisioning to offset balance-sheet risk. To recover cash and de-clog their distressed portfolios. Banks must select an appropriate legal forum based on the loan structure. Security availability. Total unpaid debt quantum. </p>
+                <p> For debts of ₹20 Lakhs and above. Banks routinely invoke Section 19 of the claims of Debts and Bankruptcy (RDB) Act. 1993. By filing an Original Application (OA) before the Debt claims Tribunal. The DRT is a specialized judicial body designed to expedite claims by bypassing ordinary civil courts. In contrast. For smaller retail loans. Credit card balances. High-volume NPA batches. Banks often approach the National Lok Adalat. Organized under the Legal Services officials Act. 1987. </p>
+                <p> The foundational divergence lies in judicial philosophy. The DRT functions as an adversarial tribunal where both parties present proof. Submit formal pleadings. Contest legal technicalities under procedural rules. Conversely. Lok Adalat is an Alternative Dispute relief (ADR) mechanism based entirely on mutual talks and equitable settlement. Understanding this structural difference enables clients to choose whether to engage in rapid talks or leverage formal procedural defenses to settle a discounted One-Time Settlement (OTS). </p>
               </div>
             </section>
 
@@ -253,12 +243,8 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                 2. Financial Breakdown: Waiver Percentages and Claim Economics
               </h2>
               <div className="space-y-4 text-slate-700 leading-relaxed text-sm md:text-base">
-                <p>
-                  A primary consideration for any borrower navigating debt resolution is the achievable discount on total accumulated dues. When a loan defaults, banks automatically compound contractual interest, penal interest, bounce charges. Administrative overheads, inflating the total demand by 40% to 70% over the original principal balance. How these inflated claims are settled differs drastically between Lok Adalat and DRT.
-                </p>
-                <p>
-                  During National Lok Adalat sittings, institutional lenders operate under special NPA recovery mandates approved by their board committees. In this forum, bank agents are authorized to waive up to 100% of penal surcharges, accumulated interest. Even a portion of the original principal to achieve immediate cash recovery. In DRT matters, however, lenders often pursue the entire inflated figure until the borrower files a robust Written Statement challenging compounding practices under Supreme Court precedents. Once challenged, banks negotiate a compromise OTS, generally yielding 40% to 60% total relief.
-                </p>
+                <p> A primary consideration for any client navigating debt relief is the achievable discount on total total dues. When a loan defaults. Banks automatically compound contractual interest. Penal interest. Bounce charges. Office overheads. Inflating the total demand by 40% to 70% over the original base loan. How these inflated claims are settled differs drastically between Lok Adalat and DRT. </p>
+                <p> During National Lok Adalat sittings. Banks operate under special NPA claims mandates approved by their board boards. In this forum. Bank agents are authorized to waive up to 100% of penal surcharges. Total interest. Even a portion of the original main loan to achieve fast cash claims. In DRT matters. However. Lenders often pursue the entire inflated figure until the client files a robust Written record challenging compounding practices under Supreme Court rulings. Once challenged. Banks settle a OTS deal OTS. Generally yielding 40% to 60% total relief. </p>
 
                 <div className="bg-white p-5 sm:p-6 rounded-2xl border border-slate-200/80 shadow-xs space-y-4">
                   <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2">
@@ -303,9 +289,7 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                       </div>
                     </div>
                   </div>
-                  <p className="text-xs text-slate-500 italic">
-                    Note: Final figures depend on financial hardship paperwork, loan age, and credit committee approval. All payments must be deposited directly to the bank against a formal written sanction letter.
-                  </p>
+                  <p className="text-xs text-slate-500 italic"> Note: Final figures depend on hardship paperwork. Loan age, and credit boards approval. All payments must be deposited straight to the bank against a formal written sanction letter. </p>
                 </div>
               </div>
             </section>
@@ -320,9 +304,7 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                 3. Legal Forum Matrix: Lok Adalat vs DRT vs Other Recovery Paths
               </h2>
               <div className="space-y-4 text-slate-700 leading-relaxed text-sm md:text-base">
-                <p>
-                  To make an informed decision on your debt resolution strategy, it is critical to compare Lok Adalat and the Debt Recovery Tribunal alongside alternative recovery methods such as civil summary suits, arbitration. Direct bilateral negotiations:
-                </p>
+                <p> To make an informed decision on your debt relief plan. It is critical to compare Lok Adalat and the Debt claims Tribunal alongside alternative claims methods such as civil summary suits. Arbitration. Direct bilateral talks: </p>
 
                 <div className="border border-slate-200/80 rounded-2xl overflow-x-auto bg-white shadow-xs">
                   <table className="w-full text-left text-xs md:text-sm">
@@ -346,18 +328,18 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                         <td className="p-3.5 text-emerald-700 font-bold">50% to 75% Total Relief.</td>
                       </tr>
                       <tr className="hover:bg-slate-50/50">
-                        <td className="p-3.5 font-bold text-slate-900 border-r border-slate-200/80">Debt Recovery Tribunal (DRT).</td>
-                        <td className="p-3.5 border-r border-slate-200/80 font-semibold text-slate-800">₹20 Lakhs &amp; Above.</td>
+                        <td className="p-3.5 font-bold text-slate-900 border-r border-slate-200/80">Debt claims Tribunal (DRT).</td>
+                        <td className="p-3.5 border-r border-slate-200/80 font-semibold text-slate-800">₹20 Lakhs &amp. Above.</td>
                         <td className="p-3.5 border-r border-slate-200/80 text-blue-700 font-semibold">Adversarial Judicial.</td>
-                        <td className="p-3.5 border-r border-slate-200/80">Appeal to DRAT (25%–50% Deposit).</td>
+                        <td className="p-3.5 border-r border-slate-200/80">Appeal to DRAT (25%. 50% Deposit).</td>
                         <td className="p-3.5 border-r border-slate-200/80 text-slate-700">Ad Valorem Tribunal Fee.</td>
-                        <td className="p-3.5 text-[#1886ff] font-bold">40% to 60% Compromise OTS.</td>
+                        <td className="p-3.5 text-[#1886ff] font-bold">40% to 60% OTS deal OTS.</td>
                       </tr>
                       <tr className="hover:bg-slate-50/50">
                         <td className="p-3.5 font-bold text-slate-900 border-r border-slate-200/80">Summary Civil Suit (Order 37).</td>
                         <td className="p-3.5 border-r border-slate-200/80">Below ₹20 Lakhs</td>
-                        <td className="p-3.5 border-r border-slate-200/80">Civil Court Litigation.</td>
-                        <td className="p-3.5 border-r border-slate-200/80">Regular Appeal in District / HC.</td>
+                        <td className="p-3.5 border-r border-slate-200/80">Civil Court lawsuits.</td>
+                        <td className="p-3.5 border-r border-slate-200/80">Regular Appeal in areas / HC.</td>
                         <td className="p-3.5 border-r border-slate-200/80 text-slate-700">Full State Court Fee.</td>
                         <td className="p-3.5 text-slate-700 font-semibold">35% to 50% via Consent Terms.</td>
                       </tr>
@@ -366,14 +348,14 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                         <td className="p-3.5 border-r border-slate-200/80">Contractual Threshold.</td>
                         <td className="p-3.5 border-r border-slate-200/80">Private Arbitral Body.</td>
                         <td className="p-3.5 border-r border-slate-200/80">Section 34 Petition in Civil Court.</td>
-                        <td className="p-3.5 border-r border-slate-200/80 text-slate-700">Arbitrator &amp; Admin Fees.</td>
+                        <td className="p-3.5 border-r border-slate-200/80 text-slate-700">Arbitrator &amp. Admin Fees.</td>
                         <td className="p-3.5 text-slate-700 font-semibold">30% to 45% during proceedings.</td>
                       </tr>
                       <tr className="hover:bg-slate-50/50">
                         <td className="p-3.5 font-bold text-slate-900 border-r border-slate-200/80">Complete Inaction / Default.</td>
                         <td className="p-3.5 border-r border-slate-200/80">N/A</td>
                         <td className="p-3.5 border-r border-slate-200/80 text-red-700 font-semibold">Uncontested Default.</td>
-                        <td className="p-3.5 border-r border-slate-200/80">Ex-Parte Recovery Certificate.</td>
+                        <td className="p-3.5 border-r border-slate-200/80">Ex-Parte claims letter.</td>
                         <td className="p-3.5 border-r border-slate-200/80 text-red-700 font-semibold">Execution Costs Added.</td>
                         <td className="p-3.5 text-red-700 font-bold">0% Waiver (Full Attachment).</td>
                       </tr>
@@ -393,15 +375,9 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                 4. CIBIL Algorithm Dynamics &amp; Credit Bureau Restoration
               </h2>
               <div className="space-y-4 text-slate-700 leading-relaxed text-sm md:text-base">
-                <p>
-                  Regardless of whether a settlement is finalized through a Lok Adalat consent award or a DRT compromise order, the resolution impacts your credit profile across the four Reserve Bank of India authorized credit bureaus: TransUnion CIBIL, Equifax, Experian. CRIF High Mark. Credit scoring algorithms evaluate consumer profiles across five primary weights: payment history (35%), credit exposure and use (30%), length of credit history (15%), credit mix (10%). New credit inquiries (10%).
-                </p>
-                <p>
-                  When an account is settled with a partial waiver, banking software reports the account status as &quot;Settled&quot. Or &quot;Post-Settlement Closed&quot; rather than &quot;Closed&quot;. This flag registers a historical credit loss, causing an initial score drop of 75 to 150 points and restricting immediate access to fresh unsecured credit. However, this is vastly preferable to an open &quot;Written Off&quot. Or &quot;Suit Filed&quot; status, which completely freezes loan eligibility.
-                </p>
-                <p>
-                  Under Section 21 of the Credit Information Companies (Regulation) Act, 2005 (CICRA), lenders are legally required to update bureau databases within 30 days of receiving settlement consideration and issuing a No Dues Certificate. Borrowers can restore their credit score above 750 within 12 to 24 months by establishing a new trade line, using secured fixed-deposit credit cards with use below 30%, maintaining flawless repayment timeliness. Then paying the remaining balance to convert the record from &quot;Settled&quot. To &quot;Closed&quot;.
-                </p>
+                <p> Regardless of whether a settlement is finalized through a Lok Adalat consent award or a DRT OTS deal order. The relief impacts your credit profile across the four Reserve Bank of India authorized credit bureaus: TransUnion CIBIL. Equifax. Experian. CRIF High Mark. Credit scoring algorithms evaluate clients profiles across five primary weights: payment history (35%). Credit exposure and use (30%). Length of credit history (15%). Credit mix (10%). New credit inquiries (10%). </p>
+                <p> When an account is settled with a partial waiver. Banking software reports the account status as &quot. Settled&quot. Or &quot. Post-Settlement Closed&quot. rather than &quot. Closed&quot. This flag registers a historical credit loss. This causes an initial score drop of 75 to 150 points and restricting fast access to fresh no-pledge credit. However. This is vastly preferable to an open &quot. Written Off&quot. Or &quot. Suit Filed&quot. status. This completely freezes loan eligibility. </p>
+                <p> Under Section 21 of the Credit Information Companies (Regulation) Act. 2005 (CICRA). Lenders are legally required to update bureau databases within 30 days of receiving settlement consideration and issuing a No Dues letter. Clients can restore their credit score above 750 within 12 to 24 months by establishing a new trade line. Using secured fixed-deposit credit cards with use below 30%. Maintaining flawless payment timeliness. Then paying the remaining balance to convert the record from &quot. Settled&quot. To &quot. Closed&quot. </p>
               </div>
             </section>
 
@@ -414,9 +390,7 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 5. Visual Comparison: Lok Adalat vs DRT at a Glance
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Review this comparative visual breakdown illustrating jurisdictional limits, fee structures, decree finality. Settlement waiver timelines between Lok Adalat conciliation and Debt Recovery Tribunal litigation:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Review this comparative visual breakdown illustrating jurisdictional limits. Fee structures. Decree finality. Settlement waiver timelines between Lok Adalat talks and Debt claims Tribunal lawsuits: </p>
 
               <div className="bg-white p-3 sm:p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-3">
                 <div className="relative w-full aspect-video rounded-xl overflow-hidden bg-slate-100">
@@ -441,9 +415,7 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 6. 6-Stage SOP: Choosing and Navigating the Right Legal Forum
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Navigating loan resolution across either forum demands a disciplined, step-by-step legal protocol. Follow this six-stage standard operating procedure to maximize waiver margins and safeguard your legal rights:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Navigating loan relief across either forum demands a disciplined. Step-by-step legal protocol. Follow this six-stage standard operating procedure to maximize waiver margins and safeguard your legal rights: </p>
 
               <div className="space-y-4 pt-2">
                 {/* Stage 1 */}
@@ -457,9 +429,7 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                   <h3 className="text-base md:text-lg font-bold text-slate-900">
                     Debt Exposure Audit &amp; Jurisdictional Assessment
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Audit defaulted exposure across lenders to verify if total balances cross the statutory ₹20 Lakhs DRT threshold.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Audit defaulted exposure across lenders to verify if total balances cross the legal ₹20 Lakhs DRT threshold. </p>
                 </div>
 
                 {/* Stage 2 */}
@@ -473,9 +443,7 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                   <h3 className="text-base md:text-lg font-bold text-slate-900">
                     Notice Verification &amp; Response Preparation
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Verify summons validity, note delivery dates, and track the 30-day response window to prevent ex-parte DRT decrees.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Verify summons validity, note delivery dates. And track the 30-day response window to prevent ex-parte DRT decrees. </p>
                 </div>
 
                 {/* Stage 3 */}
@@ -489,9 +457,7 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                   <h3 className="text-base md:text-lg font-bold text-slate-900">
                     Hardship Dossier &amp; Forensic Ledger Analysis
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Assemble income loss and medical proof while auditing loan statements to isolate unapproved penal interest compounding.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Assemble income loss and medical proof while auditing loan records to isolate unapproved penal interest compounding. </p>
                 </div>
 
                 {/* Stage 4 */}
@@ -505,9 +471,7 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                   <h3 className="text-base md:text-lg font-bold text-slate-900">
                     Forum Appearance &amp; Strategic Negotiations
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Attend DLSA conciliation sittings or submit a formal DRT Written Statement while initiating bilateral compromise talks.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Attend DLSA talks sittings or submit a formal DRT Written record while initiating bilateral OTS deal talks. </p>
                 </div>
 
                 {/* Stage 5 */}
@@ -521,9 +485,7 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                   <h3 className="text-base md:text-lg font-bold text-slate-900">
                     Sanction Letter Vetting &amp; Terms Finalization
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Vet the bank sanction letter to confirm full satisfaction, debt waiver, and mandatory withdrawal of pending litigation.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Vet the bank sanction letter to confirm full satisfaction. Debt waiver. And strict withdrawal of pending lawsuits. </p>
                 </div>
 
                 {/* Stage 6 */}
@@ -537,9 +499,7 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                   <h3 className="text-base md:text-lg font-bold text-slate-900">
                     Direct Remittance, Final Decree &amp; NDC
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    pay settlement funds directly to the lender, obtain the final non-appealable award/order, and collect your NDC.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> pay settlement funds straight to the lender. Obtain the final non-appealable award/order. And collect your NDC. </p>
                 </div>
               </div>
             </section>
@@ -554,9 +514,7 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                 7. Statutory Rights &amp; Legal Defenses Across Forums
               </h2>
               <div className="space-y-4 text-slate-700 leading-relaxed text-sm md:text-base">
-                <p>
-                  Borrowers facing recovery actions in either Lok Adalat or the Debt Recovery Tribunal are protected by robust statutory safeguards under Indian law. Whether defending an Original Application or negotiating in conciliation, these four legal pillars govern your rights:
-                </p>
+                <p> clients facing claims actions in either Lok Adalat or the Debt claims Tribunal are protected by robust legal safeguards under Indian law. Whether defending an Original Application or settling in talks. These four legal pillars govern your rights: </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-1">
                   <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -564,9 +522,7 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                       <Scale className="w-4 h-4"/>
                       <span>Section 21 Legal Services Authorities Act.</span>
                     </div>
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      Lok Adalat awards carry civil decree status with zero appeal rights, permanently barring lenders from reopening settled claims.
-                    </p>
+                    <p className="text-xs text-slate-600 leading-relaxed"> Lok Adalat awards carry civil decree status with zero appeal rights. Permanently barring lenders from reopening settled claims. </p>
                   </div>
 
                   <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -574,9 +530,7 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                       <Clock className="w-4 h-4"/>
                       <span>Section 19(5) RDB Act Response Timelines.</span>
                     </div>
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      Mandatory 30-day statutory window to file a Written Statement, dispute unverified service, and block ex-parte decrees.
-                    </p>
+                    <p className="text-xs text-slate-600 leading-relaxed"> strict 30-day legal window to file a Written record. Dispute unverified service. And block ex-parte decrees. </p>
                   </div>
 
                   <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -584,9 +538,7 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                       <Gavel className="w-4 h-4"/>
                       <span>Central Bank of India v. Ravindra.</span>
                     </div>
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      Supreme Court precedent barring capitalization of penal interest, stripping phantom compounding from bank tribunal demands.
-                    </p>
+                    <p className="text-xs text-slate-600 leading-relaxed"> Supreme Court ruling barring capitalization of penal interest. Stripping phantom compounding from bank tribunal demands. </p>
                   </div>
 
                   <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -594,9 +546,7 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                       <ShieldCheck className="w-4 h-4"/>
                       <span>RBI Fair Practices Code Protections.</span>
                     </div>
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      Strict prohibition against abusive collection agents, workplace harassment, or calling outside authorized regulatory hours.
-                    </p>
+                    <p className="text-xs text-slate-600 leading-relaxed"> Strict prohibition against abusive claims agents. Workplace abuse. Or calling outside authorized RBI hours. </p>
                   </div>
                 </div>
               </div>
@@ -612,9 +562,7 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                 8. 3-Tier Escalation Matrix: Resolving Impasses and Grievances
               </h2>
               <div className="space-y-4 text-slate-700 leading-relaxed text-sm md:text-base">
-                <p>
-                  If you encounter rigid bank recovery desks, incorrect debt calculations. Procedural irregularities during Lok Adalat or DRT proceedings, you should systematically escalate through this established 3-tier grievance matrix:
-                </p>
+                <p> If you encounter rigid bank claims desks. Incorrect debt calculations. Procedural irregularities during Lok Adalat or DRT proceedings. You should systematically escalate through this established 3-tier grievance matrix: </p>
 
                 <div className="space-y-3 pt-1">
                   <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -627,9 +575,7 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                     <h3 className="text-sm md:text-base font-bold text-slate-900">
                       Internal Bank Escalation &amp; Pre-Conciliation Referral
                     </h3>
-                    <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                      Submit written representations on ledger errors and request reference to the bank&apos;s Special OTS Committee.
-                    </p>
+                    <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Submit written representations on ledger errors and request reference to the bank&apos. s Special OTS boards. </p>
                   </div>
 
                   <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -642,9 +588,7 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                     <h3 className="text-sm md:text-base font-bold text-slate-900">
                       Appellate Tribunal Review &amp; Legal Services Oversight
                     </h3>
-                    <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                      Appeal adverse DRT interim orders before the DRAT (Sec 20) or escalate conciliation impasses to the SLSA.
-                    </p>
+                    <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Appeal adverse DRT interim orders before the DRAT (Sec 20) or escalate talks impasses to the SLSA. </p>
                   </div>
 
                   <div className="bg-white p-5 rounded-2xl border border-emerald-200 shadow-xs space-y-2">
@@ -657,9 +601,7 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                     <h3 className="text-sm md:text-base font-bold text-slate-900">
                       Regulatory Complaint on CMS Portal (cms.rbi.org.in)
                     </h3>
-                    <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                      Lodge regulatory complaints for recovery harassment, refusal to honor settlement terms, or delayed NOC issuance.
-                    </p>
+                    <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Lodge RBI complaints for claims abuse. Refusal to honor settlement terms. Or delayed NOC issuance. </p>
                   </div>
                 </div>
               </div>
@@ -675,9 +617,7 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                 9. Chronological Milestones: Default to Final Resolution
               </h2>
               <div className="space-y-4 text-slate-700 leading-relaxed text-sm md:text-base">
-                <p>
-                  The progression from initial loan default to final decree execution follows structured procedural phases across both resolution avenues:
-                </p>
+                <p> The progression from initial loan default to final decree execution follows structured procedural phases across both relief avenues: </p>
 
                 <div className="border border-slate-200/80 rounded-2xl overflow-x-auto bg-white shadow-xs">
                   <table className="w-full text-left text-xs md:text-sm">
@@ -691,34 +631,34 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                     </thead>
                     <tbody className="divide-y divide-slate-100 text-slate-600">
                       <tr className="hover:bg-slate-50/50">
-                        <td className="p-3.5 font-bold text-slate-900 border-r border-slate-200/80">Days 1–90</td>
+                        <td className="p-3.5 font-bold text-slate-900 border-r border-slate-200/80">Days 1. 90</td>
                         <td className="p-3.5 border-r border-slate-200/80 font-medium">SMA-0 to SMA-2</td>
-                        <td className="p-3.5 border-r border-slate-200/80">Soft collection calls &amp; reminders.</td>
-                        <td className="p-3.5 text-slate-700">Internal bank recovery notices issued.</td>
+                        <td className="p-3.5 border-r border-slate-200/80">Soft claims calls &amp. reminders.</td>
+                        <td className="p-3.5 text-slate-700">Internal bank claims notices issued.</td>
                       </tr>
                       <tr className="hover:bg-slate-50/50">
-                        <td className="p-3.5 font-bold text-slate-900 border-r border-slate-200/80">Days 91–180</td>
+                        <td className="p-3.5 font-bold text-slate-900 border-r border-slate-200/80">Days 91. 180</td>
                         <td className="p-3.5 border-r border-slate-200/80 font-medium text-amber-700">NPA Classification.</td>
                         <td className="p-3.5 border-r border-slate-200/80">Account referred to DLSA Pre-Lok Adalat list.</td>
                         <td className="p-3.5 text-slate-700">Legal demand notice under Section 138/PSSA/DRT.</td>
                       </tr>
                       <tr className="hover:bg-slate-50/50">
-                        <td className="p-3.5 font-bold text-slate-900 border-r border-slate-200/80">Months 6–9</td>
+                        <td className="p-3.5 font-bold text-slate-900 border-r border-slate-200/80">Months 6. 9</td>
                         <td className="p-3.5 border-r border-slate-200/80 font-medium">Sub-Standard Asset.</td>
-                        <td className="p-3.5 border-r border-slate-200/80 text-emerald-700 font-semibold">Pre-conciliation meetings &amp; OTS negotiation.</td>
+                        <td className="p-3.5 border-r border-slate-200/80 text-emerald-700 font-semibold">Pre-talks meetings &amp. OTS talks.</td>
                         <td className="p-3.5 text-blue-700 font-semibold">Section 19 OA filed in DRT (₹20L+ loans).</td>
                       </tr>
                       <tr className="hover:bg-slate-50/50">
-                        <td className="p-3.5 font-bold text-slate-900 border-r border-slate-200/80">Months 9–12</td>
+                        <td className="p-3.5 font-bold text-slate-900 border-r border-slate-200/80">Months 9. 12</td>
                         <td className="p-3.5 border-r border-slate-200/80 font-medium">Doubtful Asset</td>
                         <td className="p-3.5 border-r border-slate-200/80 font-bold text-emerald-700">Final consent award executed on Lok Adalat day.</td>
-                        <td className="p-3.5 text-slate-700">30-day Written Statement filed &amp; OTS talks open.</td>
+                        <td className="p-3.5 text-slate-700">30-day Written record filed &amp. OTS talks open.</td>
                       </tr>
                       <tr className="hover:bg-slate-50/50">
-                        <td className="p-3.5 font-bold text-slate-900 border-r border-slate-200/80">Months 12–24</td>
+                        <td className="p-3.5 font-bold text-slate-900 border-r border-slate-200/80">Months 12. 24</td>
                         <td className="p-3.5 border-r border-slate-200/80 font-medium text-red-700">Loss / Deep NPA</td>
                         <td className="p-3.5 border-r border-slate-200/80">N/A (Dispute already permanently closed).</td>
-                        <td className="p-3.5 text-emerald-700 font-bold">Joint Compromise Terms filed; DRT case closed.</td>
+                        <td className="p-3.5 text-emerald-700 font-bold">Joint OTS deal Terms filed. DRT case closed.</td>
                       </tr>
                     </tbody>
                   </table>
@@ -736,9 +676,7 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                 10. Real-World Scenarios: Which Forum Should You Choose?
               </h2>
               <div className="space-y-4 text-slate-700 leading-relaxed text-sm md:text-base">
-                <p>
-                  Every borrower&apos;s financial and legal situation are unique. Consider these four agent real-world scenarios to determine the most advantageous forum for your situation:
-                </p>
+                <p> Every client&apos. s money and legal situation are unique. Consider these four agent real-world scenarios to determine the most advantageous forum for your situation: </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-1">
                   <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -748,9 +686,7 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                     <h3 className="text-sm md:text-base font-bold text-slate-900">
                       Clear Preference for Lok Adalat
                     </h3>
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      Ideal for credit cards and retail loans below ₹20L with zero court fees and immediate 50%–75% debt waivers.
-                    </p>
+                    <p className="text-xs text-slate-600 leading-relaxed"> Ideal for credit cards and retail loans below ₹20L with zero court fees and fast 50%. 75% debt waivers. </p>
                   </div>
 
                   <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -760,9 +696,7 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                     <h3 className="text-sm md:text-base font-bold text-slate-900">
                       DRT Defense Combined with Parallel OTS
                     </h3>
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      File a 30-day Written Statement to block ex-parte orders while negotiating a compromise OTS with the Zonal Committee.
-                    </p>
+                    <p className="text-xs text-slate-600 leading-relaxed"> File a 30-day Written record to block ex-parte orders while settling a OTS deal OTS with the Zonal boards. </p>
                   </div>
 
                   <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -772,9 +706,7 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                     <h3 className="text-sm md:text-base font-bold text-slate-900">
                       Deep Discount Settlements via Conciliation
                     </h3>
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      ARCs buy distressed debt at steep discounts and frequently approve 60%–75% cash settlements for quick closure.
-                    </p>
+                    <p className="text-xs text-slate-600 leading-relaxed"> ARCs buy distressed debt at steep discounts and often approve 60%. 75% cash settlements for quick closure. </p>
                   </div>
 
                   <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -784,9 +716,7 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                     <h3 className="text-sm md:text-base font-bold text-slate-900">
                       Hybrid Resolution Strategy
                     </h3>
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      Settle smaller facilities swiftly in Lok Adalat while dedicating legal resources to defend larger claims in DRT.
-                    </p>
+                    <p className="text-xs text-slate-600 leading-relaxed"> Settle smaller facilities swiftly in Lok Adalat while dedicating legal resources to defend larger claims in DRT. </p>
                   </div>
                 </div>
               </div>
@@ -806,9 +736,7 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 10. Frequently Asked Questions: Lok Adalat vs DRT
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Clear, definitive answers to the most critical legal and financial questions surrounding loan settlement through Lok Adalat and the Debt Recovery Tribunal:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Clear. Definitive answers to the most critical legal and money questions surrounding loan settlement through Lok Adalat and the Debt claims Tribunal: </p>
 
               <div className="space-y-3 pt-2">
                 {faqs.map((faq, index) => {
@@ -836,9 +764,7 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                 Authoritative Legal Citations &amp; Official Portals
               </h2>
               <div className="space-y-3 text-xs text-slate-600 leading-relaxed">
-                <p>
-                  This comparative legal analysis is anchored in the statutory provisions of the Legal Services Authorities Act, 1987, the Recovery of Debts and Bankruptcy Act, 1993, the Credit Information Companies (Regulation) Act, 2005. Authoritative Supreme Court rulings including Central Bank of India v. Ravindra (2002) 1 SCC 367.
-                </p>
+                <p> This comparative legal analysis is anchored in the legal rules of the Legal Services officials Act. 1987. The claims of Debts and Bankruptcy Act. 1993. The Credit Information Companies (Regulation) Act. 2005. Authoritative Supreme Court rulings including Central Bank of India v. Ravindra (2002) 1 SCC 367. </p>
 
                 {/* 6 Outbound Authority Badges */}
                 <div className="flex flex-wrap gap-2 pt-1">
@@ -922,14 +848,10 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                   <Link href="/author/ashish-jhangra" className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional.
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief expert. </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Specialized in banking dispute advisory, Lok Adalat pre-conciliation representation, Section 19 DRT defense. High-value NPA compromise settlements across India.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> Specialized in banking dispute alert. Lok Adalat pre-talks legal help. Section 19 DRT defense. High-value NPA OTS deals across India. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
                   <span>View Author Profile.</span>
@@ -947,12 +869,8 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
                 <span className="text-xs font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
                   CONFIDENTIAL LEGAL &amp; DEBT ADVISORY.
                 </span>
-                <p className="text-lg md:text-xl font-bold text-white leading-snug">
-                  Unsure About Lok Adalat or DRT?
-                </p>
-                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
-                  Our debt resolution professionals evaluate your loan quantum, challenge compound penal interest. Secure the highest possible waiver through consensual conciliation or structured OTS.
-                </p>
+                <p className="text-lg md:text-xl font-bold text-white leading-snug"> Unsure About Lok Adalat or DRT? </p>
+                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal"> Our debt relief workers evaluate your loan quantum. Challenge compound penal interest. Secure the highest possible waiver through consensual talks or structured OTS. </p>
               </div>
               <Link href="/contact" className="block w-full bg-white text-blue-900 hover:text-[#1886ff] py-3 px-4 rounded-full font-bold text-sm hover:bg-slate-50 transition-all shadow-md">
                 Compare Your Legal Options
@@ -975,22 +893,10 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
               <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage.</p>
               <ul className="space-y-2 text-slate-600">
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Zero Upfront Settlement Fee:</strong> Transparent, success-linked debt relief.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Direct Lender Payments:</strong> No third-party accounts or escrow traps.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Binding Legal Decrees:</strong> 100% lawful closure under NALSA &amp; RDB Acts.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Pan-India Defense Network:</strong> Seasoned advocates &amp; financial negotiators.</span>
-                </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Zero Upfront Settlement Fee:</strong> Transparent, success-linked debt relief.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Direct Lender Payments:</strong> No third-party accounts or escrow traps.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Binding Legal Decrees:</strong> 100% lawful closure under NALSA &amp. RDB Acts.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Pan-India Defense Network:</strong> Seasoned advocates &amp. money negotiators.</span> </li>
               </ul>
             </div>
 
@@ -999,23 +905,17 @@ export default function LokAdalatVsDrtForLoanSettlementClient() {
               <p className="font-bold text-slate-900 text-sm">Related Legal Guides.</p>
               <div className="space-y-2.5">
                 <Link href="/drt-notice-for-personal-loan-default" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Received a DRT Notice for Loan Default?
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Received a DRT Notice for Loan Default? </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">30-Day Written Statement guide &rarr;.</span>
                 </Link>
 
                 <Link href="/bank-sent-legal-notice-for-loan-what-to-do" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Bank Sent Legal Notice for Loan.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Bank Sent Legal Notice for Loan. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Forensic audit &amp; legal reply steps &rarr;.</span>
                 </Link>
 
                 <Link href="/arbitration-notice-personal-loan-default" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Arbitration Notice for Personal Loan.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Arbitration Notice for private loans. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Unilateral arbitrator defense &rarr;.</span>
                 </Link>
               </div>

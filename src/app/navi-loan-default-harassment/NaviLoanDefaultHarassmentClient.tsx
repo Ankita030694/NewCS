@@ -47,43 +47,43 @@ export default function NaviLoanDefaultHarassmentClient() {
     const faqs = [
         {
             q: 'Can Navi recovery agents call my contacts or family members?',
-            a: "No. Under RBI Digital Lending Guidelines, lenders like Navi Finserv cannot access phone contacts or call family, friends. Employers for debt collection."
+            a: "No. Under RBI online Lending rules. Lenders like Navi Finserv cannot access phone contacts or call kin. Friends. Employers for debt claims."
         },
         {
             q: 'What are the permissible calling hours for Navi recovery agents?',
-            a: 'Under the RBI Fair Practices Code, agents can only call or visit between 8:00 AM and 7:00 PM. Calls outside these hours violate RBI regulations.'
+            a: 'Under the RBI Fair Practices Code. Agents can only call or visit between 8:00 AM and 7:00 PM. Calls outside these hours violate RBI regulations.'
         },
         {
             q: 'Can Navi recovery agents visit my home or office without notice?',
-            a: "Agents must give prior written notice before visiting. They must carry official ID and approval letters, maintaining decorum without uninvited entry."
+            a: "Agents must give prior written notice before visiting. They must carry formal ID and approval letters. Maintaining decorum without uninvited entry."
         },
         {
             q: 'Is defaulting on a Navi personal loan a criminal offense in India?',
-            a: 'No. Unsecured personal loan default is purely a civil contractual dispute. Lenders cannot initiate criminal arrest, file police FIRs, or threaten imprisonment.'
+            a: 'No. no-pledge private loans default is purely a civil contractual claims. Lenders cannot initiate penal arrest. File police FIRs. threaten imprisonment.'
         },
         {
             q: 'What legal action can Navi take for loan default?',
-            a: "Navi can file civil recovery suits, initiate arbitration under Section 21, issue Section 25 PSSA notices for NACH bounce. Report delinquencies to credit bureaus."
+            a: "Navi can file civil claims suits. Initiate hearing under Section 21. Issue Section 25 PSSA notices for NACH bounce. Report delinquencies to credit bureaus."
         },
         {
             q: 'How can I file a formal harassment complaint against Navi recovery agents?',
-            a: 'Document call logs and submit a complaint to Navi Grievance Redressal Officer. If unresolved within 30 days, escalate to the RBI Integrated Ombudsman at cms.rbi.org.in.'
+            a: 'paper call logs and submit a reports to Navi Grievance Redressal agents. If unresolved within 30 days. Escalate to the RBI Integrated agents at cms.rbi.org.in.'
         },
         {
             q: 'Can I negotiate a One-Time Settlement (OTS) with Navi Finserv?',
-            a: "Yes. overdue loans past 90 to 180 days in NPA status can be settled with 40% to 55% waivers on accumulated interest and penalties."
+            a: "Yes. late loans past 90 to 180 days in NPA status can be settled with 40% to 55% waivers on total rates and penalties."
         },
         {
             q: 'What is the impact of a Navi loan settlement on my CIBIL score?',
-            a: "A settlement reduces your score by 60 to 110 points with a Settled status, stopping active default compounding and allowing structured score rehabilitation."
+            a: "A settlement reduces your score by 60 to 110 points with a Settled status. Stopping active default growing and allowing structured score rehabilitation."
         },
         {
             q: 'Can Navi recovery agents seize my personal household assets?',
-            a: 'No. Unsecured loans have no asset collateral. Agents cannot seize household items, vehicles, or bank balances without a formal civil court decree.'
+            a: 'No. no-pledge loans have no asset pledge. Agents cannot seize household items. cars. Or bank balances without a formal civil court decree.'
         },
         {
             q: 'How does CredSettle protect borrowers from Navi recovery harassment?',
-            a: "CredSettle issues legal cease-and-desist notices, handles creditor communications, enforces RBI Digital Lending Guidelines. Negotiates binding OTS compromise settlements with official No Dues Certificates."
+            a: "CredSettle issues legal cease-and-desist notices. Handles lenders contacts. Enforces RBI online Lending rules. Negotiates binding OTS OTS deals with formal No Dues letters."
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -100,9 +100,7 @@ export default function NaviLoanDefaultHarassmentClient() {
             Navi Loan Default Harassment: Stop Recovery Threats &amp; Settle Legally
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed">
-            Facing aggressive recovery calls, contact scraping, or doorstep visits from Navi Finserv agents? Learn your legal rights under RBI regulations, stop collection abuses, and negotiate an affordable One-Time Settlement.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> Facing harsh claims calls. Contact scraping. Or doorstep visits from Navi Finserv agents? Learn your legal rights under RBI regulations. Stop claims abuses. And settle an affordable One-Time settlement. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -145,9 +143,7 @@ export default function NaviLoanDefaultHarassmentClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>Statutory Legal Defense.</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Governed by RBI Digital Lending Guidelines &amp; Fair Practices Code.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by RBI online Lending rules &amp. Fair Practices Code. </p>
               </div>
             </div>
           </aside>
@@ -163,61 +159,21 @@ export default function NaviLoanDefaultHarassmentClient() {
               </div>
 
               <ul className="space-y-2 text-xs sm:text-sm text-slate-700 leading-relaxed">
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Civil Protection:</strong> Defaulting on an unsecured Navi loan is purely civil with zero police arrest authority.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Civil safety:</strong> Defaulting on an no-pledge Navi loan is purely civil with zero police arrest formal. </div> </li>
 
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Privacy Shield:</strong> RBI rules strictly prohibit accessing contact lists, photos, or messaging relatives and employers.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">rights Shield:</strong> RBI rules strictly prohibit accessing contact lists. Photos. messaging relatives and employers. </div> </li>
 
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Visit Regulations:</strong> Field agents must give prior written notice and visit only between 8:00 AM and 7:00 PM.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Visit Regulations:</strong> Field agents must give prior written notice and visit only between 8:00 AM and 7:00 PM. </div> </li>
 
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Anti-Harassment Shield:</strong> Relentless robocalls and workplace humiliation violate the RBI Fair Practices Code.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Anti-abuse Shield:</strong> Relentless robocalls and workplace humiliation violate the RBI Fair Practices Code. </div> </li>
 
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Statutory Escalation:</strong> Unresolved collection abuses can be escalated to Navi Principal Nodal Officer and RBI Ombudsman.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">legal reports:</strong> Unresolved claims abuses can be escalated to Navi main loan Nodal agents and RBI agents. </div> </li>
 
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">40% to 55% OTS Waiver:</strong> overdue digital loans in NPA status can be settled with large interest reductions.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">40% to 55% OTS Waiver:</strong> late app loans in NPA status can be settled with large rates reductions. </div> </li>
 
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Notice Defense:</strong> Formal replies to Section 25 PSSA NACH bounce notices prevent ex-parte legal actions.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Notice Defense:</strong> Formal replies to Section 25 PSSA NACH bounce notices prevent ex-parte legal actions. </div> </li>
 
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">CIBIL Rehabilitation:</strong> Securing a No Dues Certificate enables structured credit score recovery under CICRA.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">CIBIL Rehabilitation:</strong> Securing a No Dues letter enables structured credit score claims under CICRA. </div> </li>
               </ul>
             </div>
 
@@ -230,12 +186,8 @@ export default function NaviLoanDefaultHarassmentClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 1. Debt Economics &amp; NPA Dynamics of Digital Lending Apps
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Navi Finserv operates as a systemically important NBFC using automated algorithmic underwriting to disburse unsecured personal loans across India. Unlike traditional banks evaluating physical collateral, digital fintech lenders rely on algorithmic risk scoring and bank statement analysis. When macroeconomic stress, unexpected job loss, medical emergencies. Business downturns cause missed installments, the loan undergoes statutory asset classification under Reserve Bank of India prudential norms.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                During the initial 1 to 30 days of default, the account enters SMA-0 status, advancing through SMA-1 (31 to 60 days) and SMA-2 (61 to 90 days). Upon crossing 90 days of continuous non-payment, the loan is formally classified as a Non-Performing Asset (NPA). Under RBI capital adequacy rules, NBFCs must allocate mandatory Tier-1 capital provisioning against unsecured NPAs, locking balance sheet liquidity. Because unsecured loans have no collateral governed by the SARFAESI Act, lenders cannot seize property. as a result, institutional credit committees prioritize commercial One-Time Settlements (OTS) to recover principal capital and release provisioning reserves.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Navi Finserv operates as a systemically key NBFC using automated algorithmic underwriting to disburse no-pledge private loans across India. Unlike traditional banks evaluating physical pledge. online fintech lenders rely on algorithmic risk scoring and bank record analysis. When macroeconomic stress. Unexpected job loss. health crises. Trade downturns cause missed installments. The loan undergoes legal asset classification under Reserve Bank of India prudential norms. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> During the initial 1 to 30 days of default. The account enters SMA-0 status. Advancing through SMA-1 (31 to 60 days) and SMA-2 (61 to 90 days). Upon crossing 90 days of steady non-payment. The loan is formally classified as a Non-Performing Asset (NPA). Under RBI cash adequacy rules. NBFCs must allocate strict Tier-1 cash bank reserves against no-pledge NPAs. Locking balance sheet liquidity. Because no-pledge loans have no pledge governed by the SARFAESI Act. Lenders cannot seize home. As a result. Bank boards prioritize trade One-Time deals (OTS) to recover main loan cash and release bank reserves reserves. </p>
             </section>
 
             {/* SECTION 2: Financial Breakdown & Settlement Math */}
@@ -247,12 +199,8 @@ export default function NaviLoanDefaultHarassmentClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 2. Financial Breakdown &amp; Settlement Target Math
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When an unsecured digital loan defaults, automated billing engines add penal interest rates, late fees. Repeated NACH mandate bounce charges (often ₹500 to ₹1,000 per bounce). Over a 180-day default period, these compounding non-principal charges artificially inflate the ledger balance by 25% to 40% above the genuine principal released.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                During commercial OTS negotiations, the primary objective is separating the legally binding principal exposure from arbitrary penal fees. Credit committees hold discretionary authority to waive 100% of penal interest, late payment charges. Administrative fees, while accepting a structured principal haircut based on demonstrated financial hardship. For a agent ₹5,00,000 overdue Navi loan escalated to ₹6,80,000 with penal interest, an institutional OTS typically closes at ₹2,50,000 to ₹3,20,000 (a 40% to 55% total waiver), payable in a single lump sum or structured two-tranche disbursements.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When an no-pledge app loans defaults. Automated billing engines add extra fees rates. Late fees. Repeated NACH mandate bounce charges (often ₹500 to ₹1,000 per bounce). Over a 180-day default period. These growing non-main loan charges artificially inflate the ledger balance by 25% to 40% above the genuine main loan released. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> During trade OTS talks. The primary objective is separating the by law binding main loan exposure from arbitrary penal fees. Credit boards hold special formal to waive 100% of extra fees. Late payment charges. office fees. Meanwhile. Accepting a structured main loan haircut based on demonstrated hardship. For a agent ₹5,00,000 late Navi loan escalated to ₹6,80,000 with extra fees. An bank OTS typically closes at ₹2,50,000 to ₹3,20,000 (a 40% to 55% total waiver). Payable in a single lump sum or structured two-tranche disbursements. </p>
             </section>
 
             {/* SECTION 3: 4-Sided Bordered Comparison Matrix */}
@@ -264,9 +212,7 @@ export default function NaviLoanDefaultHarassmentClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 3. Legal &amp; Financial Resolution Options Matrix
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Resolving a overdue digital personal loan requires evaluating available dispute resolution mechanisms under Indian financial regulations:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Resolving a late online private loans requires evaluating available claims relief options under Indian money regulations: </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto bg-white shadow-xs">
                 <table className="w-full text-left text-xs sm:text-sm divide-y divide-slate-200/80">
@@ -281,37 +227,37 @@ export default function NaviLoanDefaultHarassmentClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-600">
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/50">
-                      <td className="p-3 font-bold text-slate-900">One-Time Settlement (OTS).</td>
+                      <td className="p-3 font-bold text-slate-900">One-Time settlement (OTS).</td>
                       <td className="p-3 font-bold text-emerald-700">40% to 55% Total Waiver.</td>
-                      <td className="p-3 text-emerald-700 font-semibold">Immediate Cessation.</td>
+                      <td className="p-3 text-emerald-700 font-semibold">fast Cessation.</td>
                       <td className="p-3">30-60 Days</td>
                       <td className="p-3">Settled (Upgradable).</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/50">
                       <td className="p-3 font-bold text-slate-900">Loan Restructuring.</td>
-                      <td className="p-3">Zero Principal Waiver.</td>
+                      <td className="p-3">Zero loan cut.</td>
                       <td className="p-3">Conditional on EMI.</td>
                       <td className="p-3">15-30 Days</td>
                       <td className="p-3">Restructured</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/50">
-                      <td className="p-3 font-bold text-slate-900">Civil Court Litigation.</td>
+                      <td className="p-3 font-bold text-slate-900">Civil Court lawsuits.</td>
                       <td className="p-3 text-rose-600">Court Discretion.</td>
-                      <td className="p-3">Protracted Dispute.</td>
+                      <td className="p-3">Protracted claims.</td>
                       <td className="p-3">2-5 Years</td>
                       <td className="p-3 text-rose-600">Severe DPD Loss</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/50">
                       <td className="p-3 font-bold text-slate-900">National Lok Adalat.</td>
-                      <td className="p-3 text-emerald-700 font-semibold">30% to 50% Compromise.</td>
-                      <td className="p-3 text-emerald-700 font-semibold">Immediate on Award.</td>
+                      <td className="p-3 text-emerald-700 font-semibold">30% to 50% OTS deal.</td>
+                      <td className="p-3 text-emerald-700 font-semibold">fast on Award.</td>
                       <td className="p-3">Single Day</td>
                       <td className="p-3">Lok Adalat Settled.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/50 bg-rose-50/30">
                       <td className="p-3 font-bold text-rose-900">Default Inaction.</td>
                       <td className="p-3 text-rose-700">Zero (Penalties Rise).</td>
-                      <td className="p-3 text-rose-700 font-bold">Severe Escalation.</td>
+                      <td className="p-3 text-rose-700 font-bold">Severe reports.</td>
                       <td className="p-3">Indefinite</td>
                       <td className="p-3 text-rose-700 font-bold">Sub-550 Score</td>
                     </tr>
@@ -329,12 +275,8 @@ export default function NaviLoanDefaultHarassmentClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 4. Technical CIBIL Algorithm &amp; Score Rehabilitation
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Credit Information Bureau (India) Limited (CIBIL) and peer bureaus calculate creditworthiness using a 300 to 900 score model. Five key weighted factors determine score calculation: Payment History (35%), Credit Exposure and use (30%), Credit History Length (15%), Credit Mix (10%). Recent Credit Inquiries (10%).
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Defaulting on a digital loan damages the 35% payment history component. This results in an 80 to 140 point drop within 90 days. While an OTS brings a temporary 40 to 60 point drop due to Settled reporting, it permanently halts active compounding default marks. Under Section 21 of the Credit Information Companies (Regulation) Act, 2005 (CICRA), borrowers can systematically rebuild their score to 750+ within 18 to 24 months by using secured credit builder cards, maintaining credit use below 30%. Eventually converting Settled to Closed status through residual differential clearance.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Credit Information CIBIL desk (India) Limited (CIBIL) and peer bureaus calculate creditworthiness using a 300 to 900 score model. Five key weighted factors determine score calculation: Payment History (35%). Credit Exposure and use (30%). Credit History Length (15%). Credit Mix (10%). Recent Credit Inquiries (10%). </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Defaulting on a app loans damages the 35% payment history component. This results in an 80 to 140 point drop within 90 days. While an OTS brings a temporary 40 to 60 point drop due to Settled reporting. It permanently halts active growing default marks. Under Section 21 of the Credit Information firms (Regulation) Act. 2005 (CICRA). Clients can systematically rebuild their score to 750+ within 18 to 24 months by using secured credit builder cards. Maintaining credit use below 30%. Eventually converting Settled to Closed status through residual differential clearance. </p>
             </section>
 
             {/* SECTION 5: Visual Infographic Asset Card */}
@@ -346,9 +288,7 @@ export default function NaviLoanDefaultHarassmentClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 5. Visual 6-Step Defense &amp; Settlement Blueprint
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                The visual blueprint below outlines the 6 stages of stopping recovery harassment and executing an authorized settlement with Navi Finserv under Reserve Bank of India regulatory directives:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The visual blueprint below outlines the 6 stages of stopping claims abuse and executing an authorized settlement with Navi Finserv under Reserve Bank of India RBI directives: </p>
               <div className="bg-white p-3 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
                 <div className="relative aspect-video w-full rounded-xl overflow-hidden border border-slate-100">
                   <Image src="/images/infographics/navi-loan-default-harassment.jpg" alt="Navi Loan Default Harassment Legal Defense & Settlement Guide" fill priority sizes="(max-width: 1200px) 100vw, 900px" className="object-cover"/>
@@ -378,9 +318,7 @@ export default function NaviLoanDefaultHarassmentClient() {
                     <span className="w-5 h-5 rounded-full bg-blue-100 text-[#1886ff] text-xs flex items-center justify-center font-black">1</span>
                     <span>Stage 1: Forensic Loan Account Audit.</span>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    Conduct an exhaustive analysis of the digital loan sanction letter, repayment schedules, bank debits, and interest computations. Identify errors including interest rates exceeding approved APR caps, unauthorized mandate bounce fees, and uncredited payments.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Conduct an exhaustive analysis of the app loans sanction letter. Payment schedules. Bank debits. And rates computations. Identify errors including rates exceeding approved APR caps. banned mandate bounce fees. And uncredited payments. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
@@ -388,9 +326,7 @@ export default function NaviLoanDefaultHarassmentClient() {
                     <span className="w-5 h-5 rounded-full bg-indigo-100 text-indigo-700 text-xs flex items-center justify-center font-black">2</span>
                     <span>Stage 2: Hardship Dossier Compilation.</span>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    Assemble irrefutable documentary proof establishing genuine financial distress. Key evidence includes termination letters, medical certificates, salary deduction records, business income tax return depreciation. Bank statements showing cash flow insolvency.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Assemble irrefutable documentary proof establishing genuine debt stress. Key proof includes termination letters. Health letters. Salary deduction records. Trade income tax return depreciation. Bank records showing cash flow ruin. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
@@ -398,9 +334,7 @@ export default function NaviLoanDefaultHarassmentClient() {
                     <span className="w-5 h-5 rounded-full bg-blue-100 text-blue-700 text-xs flex items-center justify-center font-black">3</span>
                     <span>Stage 3: Cease-and-Desist Representation.</span>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    Issue a formal statutory notice to Navi Finserv and its recovery agencies demanding immediate cessation of unauthorized calls, workplace visits. Contact list harassment under the RBI Digital Lending Guidelines and Fair Practices Code.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Issue a formal legal notices to Navi Finserv and its claims firms demanding fast cessation of banned calls. Workplace visits. Contact list abuse under the RBI online Lending rules and Fair Practices Code. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
@@ -408,9 +342,7 @@ export default function NaviLoanDefaultHarassmentClient() {
                     <span className="w-5 h-5 rounded-full bg-emerald-100 text-emerald-700 text-xs flex items-center justify-center font-black">4</span>
                     <span>Stage 4: Bilateral Settlement Negotiations.</span>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    Engage directly with Navi institutional credit committee and nodal recovery managers. Present the structured hardship dossier to negotiate maximum waivers on penal interest, late payment penalties. Principal balances for an affordable OTS amount.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Engage straight with Navi bank board and nodal claims managers. Present the structured hardship dossier to settle maximum waivers on extra fees. Late payment penalties. main loan balances for an affordable OTS amount. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
@@ -418,9 +350,7 @@ export default function NaviLoanDefaultHarassmentClient() {
                     <span className="w-5 h-5 rounded-full bg-purple-100 text-purple-700 text-xs flex items-center justify-center font-black">5</span>
                     <span>Stage 5: Settlement Letter verification.</span>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    Subject the formal OTS approval letter to rigorous legal scrutiny. Ensure the document explicitly specifies the agreed compromise amount, payment deadlines, waiver terms. A binding commitment to issue an unconditional No Dues Certificate.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Subject the formal OTS approval letter to rigorous legal scrutiny. Ensure the paper explicitly specifies the agreed OTS deal amount. Payment deadlines. Waiver terms. A binding commitment to issue an full No Dues letter. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
@@ -428,9 +358,7 @@ export default function NaviLoanDefaultHarassmentClient() {
                     <span className="w-5 h-5 rounded-full bg-teal-100 text-teal-700 text-xs flex items-center justify-center font-black">6</span>
                     <span>Stage 6: Direct Remittance and Bureau Closure.</span>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    Execute the settlement payment directly into the designated Navi Finserv institutional loan account via traceable banking channels. Secure the original No Dues Certificate (NDC) and initiate formal credit bureau updates under CICRA 2005.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Execute the settlement payment straight into the designated Navi Finserv bank loan account via traceable banking channels. Secure the original No Dues letter (NDC) and initiate formal CIBIL desk updates under CICRA 2005. </p>
                 </div>
               </div>
             </section>
@@ -444,9 +372,7 @@ export default function NaviLoanDefaultHarassmentClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 7. Statutory Notice Defense &amp; Borrower Rights
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Navi Finserv and digital lending entities use specific statutory provisions to recover defaulted unsecured debts. Understanding your substantive legal rights safeguards you against coercive tactics:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Navi Finserv and online lending entities use local legal rules to recover defaulted no-pledge debts. Understanding your substantive legal rights safeguards you against coercive tactics: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -454,9 +380,7 @@ export default function NaviLoanDefaultHarassmentClient() {
                     <FileText className="w-4 h-4"/>
                     <span>Section 25 PSSA (NACH Bounce).</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    When auto-debit mandates bounce, lenders may issue a 30-day notice alleging quasi-criminal liability. Establishing genuine financial distress and absence of fraudulent intent provides a solid defense while initiating OTS talks.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> When auto-debit mandates bounce. Lenders may issue a 30-day notice alleging quasi-penal debt risk. Establishing genuine debt stress and absence of fraudulent intent provides a solid defense while initiating OTS talks. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -464,9 +388,7 @@ export default function NaviLoanDefaultHarassmentClient() {
                     <Scale className="w-4 h-4"/>
                     <span>Section 138 NI Act (Cheque Bounce).</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Applicable when repayment cheques dishonor. A valid statutory defense requires showing that the instrument was issued merely as security rather than towards a crystallized debt. Proving lack of timely statutory notice.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Applicable when payment cheques dishonor. A valid legal defense requires showing that the instrument was issued merely as pledge rather than towards a crystallized debt. Proving lack of timely legal notices. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -474,9 +396,7 @@ export default function NaviLoanDefaultHarassmentClient() {
                     <Landmark className="w-4 h-4"/>
                     <span>Section 21 Arbitration Notice.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Lenders frequently invoke arbitration for rapid awards. Under Supreme Court rulings in Perkins Eastman and TRF Ltd., unilateral arbitrator appointments by lenders are legally invalid, granting grounds to challenge jurisdiction under Section 12(5).
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Lenders often invoke hearing for rapid awards. Under Supreme Court rulings in Perkins Eastman and TRF Ltd. Unilateral judge appointments by lenders are by law invalid. Granting grounds to challenge police area under Section 12(5). </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -484,9 +404,7 @@ export default function NaviLoanDefaultHarassmentClient() {
                     <ShieldCheck className="w-4 h-4"/>
                     <span>DRT &amp; Fair Practices Code.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Unsecured personal loans below ₹20 Lakhs cannot be brought before the Debt Recovery Tribunal. also, the RBI Fair Practices Code strictly prohibits physical force, verbal abuse, public humiliation. Doorstep visits outside 8:00 AM to 7:00 PM.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> no-pledge private loans below ₹20 Lakhs cannot be brought before the Debt claims Tribunal. Also. The RBI Fair Practices Code strictly prohibits physical force. Verbal abuse. Public humiliation. Doorstep visits outside 8:00 AM to 7:00 PM. </p>
                 </div>
               </div>
             </section>
@@ -500,9 +418,7 @@ export default function NaviLoanDefaultHarassmentClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 8. 3-Tier Escalation Matrix Against Recovery Abuses
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When facing non-compliant collection tactics or unauthorized contact scraping, borrowers must follow a structured escalation framework:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When facing non-compliant claims tactics or banned contact scraping. Clients must follow a structured reports rules: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-3.5">
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -511,9 +427,7 @@ export default function NaviLoanDefaultHarassmentClient() {
                     <span className="text-xs text-slate-500 font-semibold">7-10 Days</span>
                   </div>
                   <h3 className="text-sm font-bold text-slate-900">Grievance Redressal Officer</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Lodge a written complaint with Navi designated GRO citing specific call dates and violations. Response turnaround is 7 to 10 working days.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Lodge a written reports with Navi designated GRO citing local call dates and violations. Response turnaround is 7 to 10 working days. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -522,9 +436,7 @@ export default function NaviLoanDefaultHarassmentClient() {
                     <span className="text-xs text-slate-500 font-semibold">14-21 Days</span>
                   </div>
                   <h3 className="text-sm font-bold text-slate-900">Principal Nodal Officer</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Escalate to the Principal Nodal Officer of Navi Finserv with call recordings and evidence. Response turnaround is 14 to 21 days.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Escalate to the main loan Nodal agents of Navi Finserv with call recordings and proof. Response turnaround is 14 to 21 days. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -533,9 +445,7 @@ export default function NaviLoanDefaultHarassmentClient() {
                     <span className="text-xs text-slate-500 font-semibold">30 Days</span>
                   </div>
                   <h3 className="text-sm font-bold text-slate-900">RBI Integrated Ombudsman</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    If unresolved after 30 days, file a statutory complaint on the RBI CMS portal (cms.rbi.org.in) under the Integrated Ombudsman Scheme.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> If unresolved after 30 days. File a legal reports on the RBI CMS portal (cms.rbi.org.in) under the Integrated agents Scheme. </p>
                 </div>
               </div>
             </section>
@@ -549,9 +459,7 @@ export default function NaviLoanDefaultHarassmentClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 9. Chronological Timeline: From Default to Resolution
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Navi personal loan default follows defined statutory and commercial milestones:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Navi private loans default follows defined legal and trade milestones: </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto bg-white shadow-xs">
                 <table className="w-full text-left text-xs sm:text-sm divide-y divide-slate-200/80">
@@ -568,31 +476,31 @@ export default function NaviLoanDefaultHarassmentClient() {
                       <td className="p-3 font-bold text-slate-900">Day 1-30</td>
                       <td className="p-3 font-semibold text-amber-700">SMA-0</td>
                       <td className="p-3">Automated SMS and app alerts.</td>
-                      <td className="p-3">Audit statements and track records.</td>
+                      <td className="p-3">Audit records and track records.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/50">
                       <td className="p-3 font-bold text-slate-900">Day 31-60</td>
                       <td className="p-3 font-semibold text-amber-800">SMA-1</td>
-                      <td className="p-3">Tele-calling recovery outreach.</td>
+                      <td className="p-3">Tele-calling claims outreach.</td>
                       <td className="p-3">Enforce RBI calling hour limits.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/50">
                       <td className="p-3 font-bold text-slate-900">Day 61-90</td>
                       <td className="p-3 font-semibold text-orange-700">SMA-2</td>
-                      <td className="p-3">Pre-litigation warning notices.</td>
-                      <td className="p-3">Compile financial hardship dossier.</td>
+                      <td className="p-3">Pre-lawsuits warning notices.</td>
+                      <td className="p-3">Compile hardship dossier.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/50">
                       <td className="p-3 font-bold text-slate-900">Day 91-120</td>
                       <td className="p-3 font-bold text-rose-700">NPA</td>
-                      <td className="p-3">Mandatory capital provisioning.</td>
+                      <td className="p-3">strict cash bank reserves.</td>
                       <td className="p-3 font-semibold text-[#1886ff]">Initiate formal OTS settlement.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/50">
                       <td className="p-3 font-bold text-slate-900">Day 121-180</td>
                       <td className="p-3">Deep Default</td>
                       <td className="p-3">Section 25 PSSA / Sec 21 notices.</td>
-                      <td className="p-3">Finalize 40% to 55% compromise OTS.</td>
+                      <td className="p-3">Finalize 40% to 55% OTS deal OTS.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/50 bg-emerald-50/30">
                       <td className="p-3 font-bold text-emerald-900">Month 6+</td>
@@ -614,9 +522,7 @@ export default function NaviLoanDefaultHarassmentClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 10. Specialized Real-World Default Scenarios
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Default situations differ depending on borrower financial situation. Our legal panel resolves complex digital lending challenges across four common scenarios:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Default situations differ depending on client money situation. Our legal panel resolves complex online lending challenges across four common scenarios: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -624,9 +530,7 @@ export default function NaviLoanDefaultHarassmentClient() {
                     <Users className="w-4 h-4"/>
                     <span>Multi-App Fintech Debt Stacking.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Borrowers with active loans across multiple apps face severe repayment stress. CredSettle implements a consolidated defense strategy, negotiating coordinated OTS waivers across all lenders simultaneously.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> clients with active loans across multiple apps face severe payment stress. CredSettle implements a consolidated defense plan. Settling coordinated OTS waivers across all lenders simultaneously. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -634,9 +538,7 @@ export default function NaviLoanDefaultHarassmentClient() {
                     <Briefcase className="w-4 h-4"/>
                     <span>Tech Sector Layoffs &amp; Salary Cuts.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Professionals impacted by corporate layoffs or prolonged unemployment can present formal termination letters and severance proofs to secure deep principal settlement discounts.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> workers impacted by firm layoffs or prolonged unemployment can present formal termination letters and severance proofs to secure deep main loan settlement discounts. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -644,9 +546,7 @@ export default function NaviLoanDefaultHarassmentClient() {
                     <Building2 className="w-4 h-4"/>
                     <span>MSME Working Capital Stress.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Business owners using digital personal loans for operational cash flow can leverage audited statements and GST decline filings to substantiate commercial hardship before credit committees.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> shop owners using online private loans for daily work cash flow can leverage audited records and GST decline filings to prove trade hardship before credit boards. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -654,9 +554,7 @@ export default function NaviLoanDefaultHarassmentClient() {
                     <Layers className="w-4 h-4"/>
                     <span>ARC Debt Assignment &amp; Portfolio Sales.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    When Navi Finserv transfers overdue loan portfolios to Asset Reconstruction Companies, our legal team conducts forensic assignment verification under SARFAESI Section 5, negotiating steep portfolio discounts.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> When Navi Finserv transfers late loan portfolios to Asset Reconstruction firms. Our legal team conducts deep assignment check under SARFAESI Section 5. Settling steep portfolio discounts. </p>
                 </div>
               </div>
             </section>
@@ -675,9 +573,7 @@ export default function NaviLoanDefaultHarassmentClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 12. Frequently Asked Questions: Navi Loan Default &amp; Harassment
               </h2>
-              <p className="text-sm text-slate-600">
-                Authoritative legal answers regarding Navi loan defaults, recovery rules, and debt settlement in India.
-              </p>
+              <p className="text-sm text-slate-600"> Authoritative legal answers regarding Navi loan defaults. Claims rules. And debt settlement in India. </p>
 
               <div className="space-y-3 pt-2">
                 {faqs.map((faq, index) => {
@@ -705,21 +601,11 @@ export default function NaviLoanDefaultHarassmentClient() {
                 Official Regulatory Citations &amp; Statutory Authorities
               </h2>
               <ul className="space-y-1 text-xs text-slate-600 leading-relaxed list-disc pl-5">
-                <li>
-                  <strong>Reserve Bank of India:</strong> Guidelines on Digital Lending (2026) and Master Direction on Fair Practices Code.
-                </li>
-                <li>
-                  <strong>Reserve Bank - Integrated Ombudsman Scheme, 2021:</strong> Redressal of Unfair Recovery Practices and Charges.
-                </li>
-                <li>
-                  <strong>Ministry of Law and Justice:</strong> Payment and Settlement Systems Act 2007 (Section 25), Negotiable Instruments Act 1881 (Section 138), Arbitration Act 1996 (Section 21).
-                </li>
-                <li>
-                  <strong>Credit Information Companies Act, 2005:</strong> Rights of borrowers regarding credit score dispute redressal under Section 21.
-                </li>
-                <li>
-                  <strong>Supreme Court of India:</strong> <em>Perkins Eastman (2020).</em> and <em>TRF Ltd. (2017)</em> on unilateral arbitrator disqualification.
-                </li>
+                <li> <strong>Reserve Bank of India:</strong> rules on online Lending (2026) and Master Direction on Fair Practices Code. </li>
+                <li> <strong>Reserve Bank - Integrated agents Scheme. 2021:</strong> Redressal of Unfair claims Practices and Charges. </li>
+                <li> <strong>Ministry of Law and Justice:</strong> Payment and settlement Systems Act 2007 (Section 25). Negotiable Instruments Act 1881 (Section 138). hearing Act 1996 (Section 21). </li>
+                <li> <strong>Credit Information firms Act. 2005:</strong> Rights of clients regarding credit score claims redressal under Section 21. </li>
+                <li> <strong>Supreme Court of India:</strong> <em>Perkins Eastman (2020).</em> and <em>TRF Ltd. (2017)</em> on unilateral judge disqualification. </li>
               </ul>
 
               {/* 6 Outbound Authority Badges */}
@@ -806,14 +692,10 @@ export default function NaviLoanDefaultHarassmentClient() {
                   <Link href="/author/ashish-jhangra" className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional.
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief expert. </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Specialized in digital lending regulations, RBI compliance enforcement, and NPA settlement negotiations.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> expert in online lending regulations. RBI compliance enforcement. NPA talks. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
                   <span>Author Profile</span>
@@ -831,12 +713,8 @@ export default function NaviLoanDefaultHarassmentClient() {
                 <span className="text-xs font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
                   CONFIDENTIAL DEFENSE.
                 </span>
-                <p className="text-lg md:text-xl font-bold text-white leading-snug">
-                  Facing Navi Recovery Harassment?
-                </p>
-                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
-                  Our legal panel halts recovery calls, enforces RBI rules, and negotiates a 40% to 55% settlement.
-                </p>
+                <p className="text-lg md:text-xl font-bold text-white leading-snug"> Facing Navi claims abuse? </p>
+                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal"> Our legal panel halts claims calls. Enforces RBI rules. And negotiates a 40% to 55% settlement. </p>
               </div>
               <Link href="/contact" className="block w-full bg-white text-blue-900 hover:text-[#1886ff] py-3 px-4 rounded-full font-bold text-sm hover:bg-slate-50 transition-all shadow-md">
                 Stop Harassment &amp; Settle Loan Now
@@ -859,22 +737,10 @@ export default function NaviLoanDefaultHarassmentClient() {
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
               <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage.</p>
               <ul className="space-y-2 text-slate-600">
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Zero Upfront Risk:</strong> Success-linked settlement fees.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Direct NBFC Remittance:</strong> Zero middleman fund holding.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>RBI &amp; CICRA Compliance:</strong> Lawful dispute handling.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Pan-India Defense:</strong> Dedicated loan specialists.</span>
-                </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Zero Upfront Risk:</strong> Success-linked settlement fees.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Direct NBFC Remittance:</strong> Zero middleman fund holding.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>RBI &amp. CICRA Compliance:</strong> Lawful claims handling.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Pan-India Defense:</strong> Dedicated loan specialists.</span> </li>
               </ul>
             </div>
 
@@ -883,23 +749,17 @@ export default function NaviLoanDefaultHarassmentClient() {
               <p className="font-bold text-slate-900 text-sm">Related Legal Guides.</p>
               <div className="space-y-2.5">
                 <Link href="/services/anti-harassment" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Anti-Harassment Legal Defense.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Anti-abuse Legal Defense. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Stop illegal recovery agents &rarr;.</span>
                 </Link>
 
                 <Link href="/arbitration-notice-personal-loan-default" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Arbitration Notice Defense.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> hearing Notice Defense. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Challenge unilateral arbitrator &rarr;.</span>
                 </Link>
 
                 <Link href="/convert-settled-status-to-closed" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Convert Settled Loan to Closed.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Convert Settled Loan to Closed. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Clean credit report blueprint &rarr;.</span>
                 </Link>
               </div>

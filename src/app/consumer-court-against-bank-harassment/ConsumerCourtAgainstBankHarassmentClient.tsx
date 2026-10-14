@@ -47,43 +47,43 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
     const faqs = [
         {
             q: 'Can I file a consumer court case against a bank for loan recovery harassment?',
-            a: "Yes. Under Section 2(11) and Section 2(47) of the Consumer Protection Act, 2019, abusive debt collection, unannounced home visits at odd hours, threatening phone calls. Privacy breaches constitute deficiency of service and unfair trade practices, making banks legally liable for damages."
+            a: "Yes. Under Section 2(11) and Section 2(47) of the clients safety Act. 2019. Abusive debt claims. Unannounced home visits at odd hours. Threatening phone calls. rights breaches constitute deficiency of service and unfair trade practices. Making banks by law liable for damages."
         },
         {
             q: 'What compensation can I claim from a bank in Consumer Court?',
-            a: "You can claim monetary compensation for mental agony, emotional distress, physical harassment, loss of reputation, refund of illegal penalty charges or excessive interest. Reimbursement of all litigation and legal defense expenses under Section 39 of the Act."
+            a: "You can claim monetary payout for mental agony. Emotional distress. Physical abuse. Loss of reputation. Refund of banned penalty charges or excessive rates. Reimbursement of all lawsuits and legal defense expenses under Section 39 of the Act."
         },
         {
             q: 'Do I need an advocate to file a complaint in Consumer Court?',
-            a: "No. Under the Consumer Protection Act, 2019, a complainant can represent themselves in person or through an authorized agent. However, working with a professional debt resolution team ensures robust petition drafting, statutory compliance. Maximum settlement or compensation outcomes."
+            a: "No. Under the clients safety Act. 2019. A complainant can represent themselves in person or through an authorized staff. However. Working with a expert debt relief team ensures robust petition drafting. Legal compliance. Maximum closure or payout outcomes."
         },
         {
             q: 'What is e-Daakhil and how is it used to sue a bank?',
-            a: "e-Daakhil (edaakhil.nic.in) is the official online filing portal developed by the National Consumer Disputes Redressal Commission (NCDRC). It enables consumers to file digital complaints, upload evidentiary exhibits, pay court fees online. Track hearings without physical registry visits."
+            a: "e-Daakhil (edaakhil.nic.in) is the formal online filing portal developed by the National clients claims Redressal Commission (NCDRC). It enables clients to file online reports. Upload evidentiary exhibits. Pay court fees online. Track hearings without physical registry visits."
         },
         {
             q: 'Which Consumer Court has the jurisdiction to hear my bank dispute?',
-            a: "Pecuniary jurisdiction under CPA 2019 is determined by the value of goods or services paid: District Commissions handle claims up to \u20B950 Lakhs, State Commissions adjudicate claims between \u20B950 Lakhs and \u20B92 Crores. The National Commission (NCDRC) hears matters exceeding \u20B92 Crores."
+            a: "Pecuniary police area under CPA 2019 is determined by the value of goods or services paid: areas Commissions handle claims up to \u20B950 Lakhs. State Commissions adjudicate claims between \u20B950 Lakhs and \u20B92 Crores. The National Commission (NCDRC) hears matters exceeding \u20B92 Crores."
         },
         {
             q: 'Can the bank initiate loan recovery while a consumer case is pending?',
-            a: "While banks may attempt recovery, filing a consumer complaint puts large legal pressure on the lender. You can seek interim relief or restraining orders from the Consumer Commission under Section 38(8) to prevent coercive recovery actions during the pendency of the dispute."
+            a: "While banks may attempt claims. Filing a clients reports puts large legal pressure on the lender. You can seek interim relief or restraining orders from the clients Commission under Section 38(8) to prevent coercive claims steps during the pendency of the claims."
         },
         {
             q: 'How does Consumer Court handle wrongful CIBIL credit reporting by banks?',
-            a: "Consumer Commissions routinely hold banks liable for gross deficiency in service if they report incorrect default statuses, fail to update settled accounts to closed within 30 days under CICRA Section 21. Ruin a credit score due to unauthorized disputed charges."
+            a: "Clients Commissions routinely hold banks liable for gross deficiency in service if they report incorrect default statuses. Fail to update settled accounts to closed within 30 days under CICRA Section 21. Ruin a credit score due to banned disputed charges."
         },
         {
             q: 'What evidence is required to prove bank harassment in Consumer Forum?',
-            a: "Essential evidence includes audio recordings of abusive recovery calls, dated call logs with timestamps, CCTV footage of home or office visits, written letters, SMS or WhatsApp threat messages, police complaints. Medical certificates establishing mental agony or health deterioration."
+            a: "Essential proof includes audio recordings of abusive claims calls. Dated call logs with timestamps. CCTV footage of home or office visits. Written letters. SMS or WhatsApp threat messages. Police reports. health letters establishing mental agony or health deterioration."
         },
         {
             q: 'How long does a Consumer Court case against a bank take in India?',
-            a: 'Under Section 38(7) of the Consumer Protection Act, 2019, consumer complaints are statutorily mandated to be decided within 3 to 5 months. In practice, proceedings typically conclude within 6 to 12 months, often prompting early compromise settlements from banks.'
+            a: 'Under Section 38(7) of the clients safety Act. 2019. Clients reports are statutorily mandated to be decided within 3 to 5 months. In practice. steps typically conclude within 6 to 12 months. Often prompting early OTS deals from banks.'
         },
         {
             q: 'Can I approach Consumer Court if I have already filed an RBI Ombudsman complaint?',
-            a: "Yes. The remedy under the Consumer Protection Act, 2019 is in addition to. Not in derogation of, any other statutory laws. If the RBI Ombudsman rejects your grievance or awards inadequate compensation, you can approach the Consumer Forum for full adjudication and higher damages."
+            a: "Yes. The remedy under the clients safety Act. 2019 is in addition to. Not in derogation of. Any other legal laws. If the RBI staff rejects your grievance or awards inadequate payout. You can approach the clients Forum for full adjudication and higher damages."
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -100,9 +100,7 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
             How to Sue Your Bank in Consumer Court for Harassment
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed">
-            Borrowers across India possess enforceable statutory rights against unlawful debt collection, unauthorized charges, and privacy breaches. Learn how to petition the Consumer Commission, secure large damages for mental agony, and enforce comprehensive debt resolution.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> clients across India possess enforceable legal rights against unlawful debt claims. banned charges. rights breaches. Learn how to petition the clients Commission. Secure large damages for mental agony. And enforce full debt relief. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -145,9 +143,7 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>CPA 2019 Verified Jurisprudence.</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Enforcing Section 2(11) Deficiency of Service &amp; Supreme Court Protections.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Enforcing Section 2(11) Deficiency of Service &amp. Supreme Court Protections. </p>
               </div>
             </div>
           </aside>
@@ -163,40 +159,15 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
               </div>
 
               <ul className="space-y-3 text-xs sm:text-sm text-slate-700 leading-relaxed">
-                <li className="flex items-center gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div className="truncate">
-                    <strong className="text-slate-900 font-bold">Statutory Consumer Rights:</strong> Borrowers and cardholders are protected under CPA 2019 Section 2(7).
-                  </div>
-                </li>
+                <li className="flex items-center gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div className="truncate"> <strong className="text-slate-900 font-bold">legal clients Rights:</strong> clients and cardholders are protected under CPA 2019 Section 2(7). </div> </li>
 
-                <li className="flex items-center gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div className="truncate">
-                    <strong className="text-slate-900 font-bold">Deficiency of Service:</strong> Coercive calls, workplace visits, and abuse violate Section 2(11).
-                  </div>
-                </li>
+                <li className="flex items-center gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div className="truncate"> <strong className="text-slate-900 font-bold">Deficiency of Service:</strong> Coercive calls. Workplace visits. And abuse violate Section 2(11). </div> </li>
 
-                <li className="flex items-center gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div className="truncate">
-                    <strong className="text-slate-900 font-bold">Compensation for Agony:</strong> Commissions award monetary damages for harassment under Section 39.
-                  </div>
-                </li>
+                <li className="flex items-center gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div className="truncate"> <strong className="text-slate-900 font-bold">payout for Agony:</strong> Commissions award monetary damages for abuse under Section 39. </div> </li>
 
-                <li className="flex items-center gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div className="truncate">
-                    <strong className="text-slate-900 font-bold">Digital e-Daakhil Filing:</strong> Cases can be filed online via edaakhil.nic.in with zero physical visits.
-                  </div>
-                </li>
+                <li className="flex items-center gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div className="truncate"> <strong className="text-slate-900 font-bold">online e-Daakhil Filing:</strong> Cases can be filed online via edaakhil.nic.in with zero physical visits. </div> </li>
 
-                <li className="flex items-center gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div className="truncate">
-                    <strong className="text-slate-900 font-bold">OTS Settlement Leverage:</strong> Formal notices prompt bank committees to offer 40% to 65% waivers.
-                  </div>
-                </li>
+                <li className="flex items-center gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div className="truncate"> <strong className="text-slate-900 font-bold">OTS closure Leverage:</strong> Formal notices prompt bank boards to offer 40% to 65% waivers. </div> </li>
               </ul>
             </div>
 
@@ -209,12 +180,8 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 1. Banking Deficiency: Consumer Protection Act 2019
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When a borrower experiences genuine financial distress due to enterprise slowdown, severe illness. Unforeseen job loss, commercial lenders often deploy aggressive third-party collection agencies rather than engaging in constructive debt restructuring. In the Indian legal landscape, banking services are explicitly covered under the Consumer Protection Act, 2019. Any failure by a bank to maintain professional standards, protect consumer privacy. Adhere to the Reserve Bank of India Fair Practices Code directly constitutes a deficiency of service under Section 2(11) of the Act.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                The Supreme Court of India has established that lending institutions cannot treat defaulted borrowers as persons stripped of fundamental dignity. Deploying muscular recovery agents, calling borrowers before 8:00 AM or after 7:00 PM, using intimidatory language, contacting family members or employers. Public shaming represent egregious breaches of service dues. Such actions empower the borrower to institute formal legal proceedings before the Consumer Disputes Redressal Commission seeking heavy monetary compensation, punitive damages. Permanent injunctions against coercive recovery tactics.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When a client experiences genuine debt stress due to firms slowdown. Severe illness. Unforeseen job loss. Trade lenders often deploy harsh third-party claims firms rather than engaging in constructive debt restructuring. In the Indian legal landscape. Banking services are explicitly covered under the clients safety Act. 2019. Any failure by a bank to maintain expert standards. Protect clients rights. Adhere to the Reserve Bank of India Fair Practices Code straight constitutes a deficiency of service under Section 2(11) of the Act. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The Supreme Court of India has established that lending institutions cannot treat defaulted clients as persons stripped of fundamental dignity. Deploying muscular claims staff. Calling clients before 8:00 AM or after 7:00 PM. Using intimidatory language. Contacting kin or employers. Public shaming represent egregious breaches of service dues. Such steps empower the client to institute formal legal steps before the clients claims Redressal Commission seeking heavy monetary payout. Punitive damages. Permanent injunctions against coercive claims tactics. </p>
             </section>
 
             {/* SECTION 2: Financial Breakdown & Damages Calculation Math */}
@@ -226,12 +193,8 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 2. Financial Damages: Compensation Calculation Math
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When filing a consumer complaint against a lending institution, complainants are entitled to claim multiple distinct heads of monetary relief. Banks frequently inflate overdue accounts by levying excessive penal interest, compound bounce penalties, and arbitrary collection overheads. Under Section 39 of the Consumer Protection Act, 2019, the Consumer Forum possesses wide statutory powers to order a complete refund of unfair financial levies, award direct restitution. Grant large punitive damages for mental agony and reputational harm.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                In a typical consumer petition involving an unsecured loan or credit card debt where unlawful harassment has occurred, the total monetary compensation awarded by the Commission regularly exceeds the outstanding contested penal balance, creating large economic leverage for an affordable compromise resolution.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When filing a clients reports against a lending institution. Complainants are entitled to claim multiple distinct heads of monetary relief. Banks often inflate late accounts by levying excessive extra fees. Compound bounce penalties. And arbitrary claims overheads. Under Section 39 of the clients safety Act. 2019. The clients Forum possesses wide legal powers to order a complete refund of unfair money levies. Award direct restitution. Grant large punitive damages for mental agony and reputational harm. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> In a typical clients petition involving an no-pledge loan or credit card debt where unlawful abuse has occurred. The total monetary payout awarded by the Commission regularly exceeds the unpaid contested penal balance. Creating large economic leverage for an affordable OTS deal. </p>
 
               {/* Representative Calculation Card */}
               <div className="bg-white p-6 rounded-2xl border border-blue-200/80 shadow-xs space-y-4">
@@ -249,13 +212,13 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 text-xs md:text-sm">
                   <div className="p-3 bg-slate-50 rounded-xl border border-slate-200/60">
-                    <p className="text-slate-500 font-medium">Bank Claimed Outstanding.</p>
+                    <p className="text-slate-500 font-medium">Bank Claimed unpaid.</p>
                     <p className="text-base md:text-lg font-extrabold text-slate-900 mt-1">₹8,50,000</p>
-                    <p className="text-[11px] text-slate-500 mt-0.5">Includes ₹3.2L penal interest &amp; fees.</p>
+                    <p className="text-[11px] text-slate-500 mt-0.5">Includes ₹3.2L extra fees &amp. fees.</p>
                   </div>
 
                   <div className="p-3 bg-blue-50/60 rounded-xl border border-blue-200/60">
-                    <p className="text-blue-700 font-medium">True Contractual Principal.</p>
+                    <p className="text-blue-700 font-medium">True Contractual main loan.</p>
                     <p className="text-base md:text-lg font-extrabold text-blue-900 mt-1">₹5,30,000</p>
                     <p className="text-[11px] text-blue-600 mt-0.5">Base net disbursement balance.</p>
                   </div>
@@ -263,13 +226,13 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
                   <div className="p-3 bg-emerald-50 rounded-xl border border-emerald-200/60">
                     <p className="text-emerald-700 font-medium">Claimed Damages in Forum.</p>
                     <p className="text-base md:text-lg font-extrabold text-emerald-900 mt-1">₹3,00,000</p>
-                    <p className="text-[11px] text-emerald-600 mt-0.5">Mental agony + illegal charge refund.</p>
+                    <p className="text-[11px] text-emerald-600 mt-0.5">Mental agony + banned charge refund.</p>
                   </div>
 
                   <div className="p-3 bg-indigo-50 rounded-xl border border-indigo-200/60">
                     <p className="text-indigo-700 font-medium">Effective OTS Target (40-55%).</p>
                     <p className="text-base md:text-lg font-extrabold text-indigo-900 mt-1">₹2,40,000 - ₹2,90,000.</p>
-                    <p className="text-[11px] text-indigo-600 mt-0.5">Full &amp; final closure with clean NOC.</p>
+                    <p className="text-[11px] text-indigo-600 mt-0.5">Full &amp. final closure with clean NOC.</p>
                   </div>
                 </div>
               </div>
@@ -284,9 +247,7 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 3. Redressal Comparison: Consumer Court vs Other Forums
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Selecting the correct legal forum is vital when confronting aggressive banking practices. While the RBI Ombudsman provides administrative relief and police complaints handle physical intimidation, the Consumer Commission remains the most potent civil tribunal for securing large monetary compensation and binding court injunctions against lender malpractice.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Selecting the correct legal forum is vital when confronting harsh banking practices. While the RBI staff provides office relief and police reports handle physical threats. The clients Commission remains the most potent civil tribunal for securing large monetary payout and binding court injunctions against lender malpractice. </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
                 <table className="w-full text-left text-xs md:text-sm border-collapse">
@@ -301,39 +262,39 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-200 text-slate-700">
                     <tr className="hover:bg-blue-50/40 transition-colors">
-                      <td className="p-3.5 md:p-4 font-bold text-slate-900">Consumer Court (DCDRC / SCDRC).</td>
-                      <td className="p-3.5 md:p-4 border-l border-slate-200">Consumer Protection Act, 2019.</td>
+                      <td className="p-3.5 md:p-4 font-bold text-slate-900">clients Court (DCDRC / SCDRC).</td>
+                      <td className="p-3.5 md:p-4 border-l border-slate-200">Clients safety Act. 2019.</td>
                       <td className="p-3.5 md:p-4 border-l border-slate-200 text-emerald-700 font-semibold">High (Unlimited pecuniary damages).</td>
                       <td className="p-3.5 md:p-4 border-l border-slate-200">6 to 12 Months</td>
                       <td className="p-3.5 md:p-4 border-l border-slate-200 text-[#1886ff] font-bold">Exceptional OTS Leverage.</td>
                     </tr>
                     <tr className="hover:bg-blue-50/40 transition-colors">
-                      <td className="p-3.5 md:p-4 font-bold text-slate-900">RBI Ombudsman (CMS Portal).</td>
+                      <td className="p-3.5 md:p-4 font-bold text-slate-900">RBI staff (CMS Portal).</td>
                       <td className="p-3.5 md:p-4 border-l border-slate-200">RBI Integrated Scheme 2021.</td>
                       <td className="p-3.5 md:p-4 border-l border-slate-200 text-slate-600">Capped at ₹1 Lakh for mental agony.</td>
                       <td className="p-3.5 md:p-4 border-l border-slate-200">30 to 60 Days</td>
-                      <td className="p-3.5 md:p-4 border-l border-slate-200">Moderate Administrative Pressure.</td>
+                      <td className="p-3.5 md:p-4 border-l border-slate-200">Moderate office Pressure.</td>
                     </tr>
                     <tr className="hover:bg-blue-50/40 transition-colors">
                       <td className="p-3.5 md:p-4 font-bold text-slate-900">Civil Court Suit.</td>
-                      <td className="p-3.5 md:p-4 border-l border-slate-200">Code of Civil Procedure, 1908.</td>
+                      <td className="p-3.5 md:p-4 border-l border-slate-200">Code of Civil steps. 1908.</td>
                       <td className="p-3.5 md:p-4 border-l border-slate-200 text-slate-600">Full damages subject to high court fees.</td>
                       <td className="p-3.5 md:p-4 border-l border-slate-200">3 to 7 Years</td>
-                      <td className="p-3.5 md:p-4 border-l border-slate-200">Slow &amp; Expensive Process.</td>
+                      <td className="p-3.5 md:p-4 border-l border-slate-200">Slow &amp. Expensive steps.</td>
                     </tr>
                     <tr className="hover:bg-blue-50/40 transition-colors">
                       <td className="p-3.5 md:p-4 font-bold text-slate-900">National Lok Adalat.</td>
-                      <td className="p-3.5 md:p-4 border-l border-slate-200">Legal Services Authorities Act, 1987.</td>
+                      <td className="p-3.5 md:p-4 border-l border-slate-200">Legal Services officials Act. 1987.</td>
                       <td className="p-3.5 md:p-4 border-l border-slate-200 text-slate-600">Zero damages (Consensual waiver only).</td>
                       <td className="p-3.5 md:p-4 border-l border-slate-200">Single Day Hearing.</td>
-                      <td className="p-3.5 md:p-4 border-l border-slate-200">Immediate Non-Appealable Consent.</td>
+                      <td className="p-3.5 md:p-4 border-l border-slate-200">fast Non-Appealable Consent.</td>
                     </tr>
                     <tr className="hover:bg-blue-50/40 transition-colors">
                       <td className="p-3.5 md:p-4 font-bold text-rose-700">Inaction / Non-Response.</td>
-                      <td className="p-3.5 md:p-4 border-l border-slate-200">Default &amp; NPA Guidelines.</td>
-                      <td className="p-3.5 md:p-4 border-l border-slate-200 text-rose-600 font-bold">Zero (Escalating penal interest).</td>
-                      <td className="p-3.5 md:p-4 border-l border-slate-200">Continuous Harassment.</td>
-                      <td className="p-3.5 md:p-4 border-l border-slate-200 text-rose-700 font-bold">Severe CIBIL Damage &amp; Legal Suits.</td>
+                      <td className="p-3.5 md:p-4 border-l border-slate-200">Default &amp. NPA rules.</td>
+                      <td className="p-3.5 md:p-4 border-l border-slate-200 text-rose-600 font-bold">Zero (Escalating extra fees).</td>
+                      <td className="p-3.5 md:p-4 border-l border-slate-200">steady abuse.</td>
+                      <td className="p-3.5 md:p-4 border-l border-slate-200 text-rose-700 font-bold">Severe CIBIL Damage &amp. Legal Suits.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -349,12 +310,8 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 4. CIBIL Rectification: Enforcing Credit Bureau Updates
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Credit scores maintained by TransUnion CIBIL, Experian, CRIF High Mark. Equifax are calculated using advanced proprietary algorithms heavily weighted across five core dimensions: repayment history (35%), credit use ratio (30%), credit mix duration (15%), new credit inquiries (10%). Total debt exposure (10%). When a bank wrongfully reports a disputed account as willful default or delays reporting an agreed settlement, the consumer credit score experiences an immediate collapse of 120 to 250 points.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Under Section 21 of the Credit Information Companies (Regulation) Act, 2005 (CICRA), credit institutions are statutorily obligated to update accurate account data within 30 days of resolution. When banks fail to do so, Consumer Commissions regularly issue binding directives ordering immediate credit bureau data rectification, deletion of derogatory remarks. Monetary compensation of ₹100 per day of delay under RBI guidelines.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Credit scores maintained by TransUnion CIBIL. Experian. CRIF High Mark. Equifax are calculated using advanced proprietary algorithms heavily weighted across five core dimensions: payment history (35%). Credit use ratio (30%). Credit mix duration (15%). New credit inquiries (10%). Total debt exposure (10%). When a bank wrongfully reports a disputed account as willful default or delays reporting an agreed closure. The clients credit score experiences an fast collapse of 120 to 250 points. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Under Section 21 of the Credit Information firms (Regulation) Act. 2005 (CICRA). Credit institutions are statutorily obligated to update accurate account data within 30 days of relief. When banks fail to do so. Clients Commissions regularly issue binding directives ordering fast CIBIL desk data rectification. Deletion of derogatory remarks. Monetary payout of ₹100 per day of delay under RBI rules. </p>
             </section>
 
             {/* SECTION 5: Visual Infographic Asset Card */}
@@ -366,9 +323,7 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 5. Infographic: Bank Harassment Consumer Court Roadmap
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                The visual framework below summarizes the end-to-end procedural trajectory from evidence locking to filing on e-Daakhil and securing enforceable compensation orders against banking malpractice.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The visual rules below summarizes the end-to-end procedural trajectory from proof locking to filing on e-Daakhil and securing enforceable payout orders against banking malpractice. </p>
 
               <div className="bg-white rounded-2xl border border-slate-200/80 p-4 sm:p-5 shadow-xs overflow-hidden">
                 <div className="relative aspect-video w-full rounded-xl overflow-hidden bg-slate-100 border border-slate-200/60">
@@ -393,9 +348,7 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 6. Step-by-Step SOP: 6 Stages to File and Win in Court
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Filing an effective consumer court complaint requires methodical legal execution. Following this standardized six-stage litigation protocol guarantees evidentiary integrity, procedural compliance, and maximum settlement leverage.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Filing an effective clients court reports requires methodical legal execution. Following this standardized six-stage lawsuits protocol guarantees evidentiary integrity. Procedural compliance. maximum closure leverage. </p>
 
               <div className="space-y-4">
                 {/* Stage 1 */}
@@ -404,9 +357,7 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-xs font-extrabold">1</span>
                     <span>Stage 1: Forensic Audit &amp; Evidence Preservation.</span>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-8">
-                    Compile unedited audio recordings of abusive calls, timestamped call logs, CCTV footage of unlawful visits, written demands. Certified loan statements. Categorize every violation under the RBI Fair Practices Code.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-8"> Compile unedited audio recordings of abusive calls. Timestamped call logs. CCTV footage of unlawful visits. Written demands. Certified loan records. Categorize every violation under the RBI Fair Practices Code. </p>
                 </div>
 
                 {/* Stage 2 */}
@@ -415,9 +366,7 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-xs font-extrabold">2</span>
                     <span>Stage 2: Pre-Litigation Legal Notice &amp; Hardship Dossier.</span>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-8">
-                    Serve a formal legal notice upon the bank Managing Director and Principal Nodal Officer giving 15 days to halt harassment, correct wrongful charges. Provide a fair resolution roadmap before court action.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-8"> Serve a formal legal notice upon the bank Managing Director and main loan Nodal staff giving 15 days to halt abuse. Correct wrongful charges. Provide a fair relief roadmap before court steps. </p>
                 </div>
 
                 {/* Stage 3 */}
@@ -426,9 +375,7 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-xs font-extrabold">3</span>
                     <span>Stage 3: Drafting the Consumer Complaint Petition.</span>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-8">
-                    Draft the comprehensive complaint setting out facts, establishing consumer status under Section 2(7), detailing specific deficiencies under Section 2(11). Enumerating itemized claims for compensation under Section 39.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-8"> Draft the full reports setting out facts. Establishing clients status under Section 2(7). Detailing local deficiencies under Section 2(11). Enumerating itemized claims for payout under Section 39. </p>
                 </div>
 
                 {/* Stage 4 */}
@@ -437,9 +384,7 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-xs font-extrabold">4</span>
                     <span>Stage 4: e-Daakhil Online Filing &amp; Verification.</span>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-8">
-                    Submit the indexed petition along with supporting affidavits and evidence on edaakhil.nic.in, paying the requisite nominal court fee based on the pecuniary jurisdiction of the District or State Commission.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-8"> Submit the indexed petition along with supporting affidavits and proof on edaakhil.nic.in. Paying the requisite nominal court fee based on the pecuniary police area of the areas or State Commission. </p>
                 </div>
 
                 {/* Stage 5 */}
@@ -448,9 +393,7 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-xs font-extrabold">5</span>
                     <span>Stage 5: Court Admission, Interim Relief &amp; Rejoinder.</span>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-8">
-                    Argue preliminary admission, obtain an interim stay order against collection agent contact under Section 38(8), receive the bank written statement. Submit a rejoinder dismantling frivolous lender defenses.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-8"> Argue preliminary admission. Obtain an interim stay order against claims staff contact under Section 38(8). Receive the bank written record. Submit a rejoinder dismantling frivolous lender defenses. </p>
                 </div>
 
                 {/* Stage 6 */}
@@ -459,9 +402,7 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-xs font-extrabold">6</span>
                     <span>Stage 6: Final Adjudication, Award &amp; Compromise Closure.</span>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-8">
-                    Present final arguments to secure an enforceable compensation award or leverage the strong litigation position to conclude a 40% to 60% One-Time Settlement with a formal No Dues Certificate and clean CIBIL reporting.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-8"> Present final arguments to secure an enforceable payout award or leverage the strong lawsuits position to conclude a 40% to 60% One-Time closure with a formal No Dues letter and clean CIBIL reporting. </p>
                 </div>
               </div>
             </section>
@@ -475,9 +416,7 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 7. Statutory Legal Rights: Consumer Protection Standards
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Indian consumer jurisprudence provides strong statutory safeguards to shield citizens from corporate banking malpractice. Understanding these core legal provisions ensures your defense is rooted in binding statutory authority.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Indian clients jurisprudence provides strong legal safeguards to shield citizens from firm banking malpractice. Understanding these core legal provisions ensures your defense is rooted in binding legal formal. </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-1">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2.5">
@@ -485,9 +424,7 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
                     <Building2 className="w-4 h-4 text-[#1886ff]"/>
                     <span>Pecuniary Jurisdiction (Sections 35, 47 &amp; 58).</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Complaints with consideration paid up to ₹50 Lakhs lie before the District Commission. Claims between ₹50 Lakhs and ₹2 Crores are heard by the State Commission, while disputes exceeding ₹2 Crores reach the National Commission (NCDRC).
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> reports with consideration paid up to ₹50 Lakhs lie before the areas Commission. Claims between ₹50 Lakhs and ₹2 Crores are heard by the State Commission. Meanwhile. claims exceeding ₹2 Crores reach the National Commission (NCDRC). </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2.5">
@@ -495,9 +432,7 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
                     <Scale className="w-4 h-4 text-emerald-600"/>
                     <span>Deficiency of Service (Section 2(11)).</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Covers any fault, imperfection, shortcoming, or inadequacy in banking quality or manner of performance. Unwarranted calls, privacy breaches, and unverified penalty fees automatically constitute actionable deficiency.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Covers any fault. Imperfection. Shortcoming. Or inadequacy in banking quality or manner of performance. Unwarranted calls. rights breaches. And unverified penalty fees automatically constitute actionable deficiency. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2.5">
@@ -505,9 +440,7 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
                     <ShieldCheck className="w-4 h-4 text-indigo-600"/>
                     <span>RBI Master Direction on Recovery Agents.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Mandates that agents must be police-verified, carry ID cards, contact borrowers only between 8:00 AM and 7:00 PM, maintain call recordings. Strictly refrain from intimidating or threatening actions.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Mandates that staff must be police-checked. Carry ID cards. Contact clients only between 8:00 AM and 7:00 PM. Maintain call recordings. Strictly refrain from intimidating or threatening steps. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2.5">
@@ -515,9 +448,7 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
                     <Gavel className="w-4 h-4 text-amber-600"/>
                     <span>Supreme Court Precedent: Shanti Devi Sharma.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    In ICICI Bank v. Shanti Devi Sharma (2008), the Supreme Court ruled that banks cannot employ musclemen to recover loans and affirmed vicarious liability of senior banking management for agent misbehavior.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> In ICICI Bank v. Shanti Devi Sharma (2008). The Supreme Court ruled that banks cannot employ musclemen to recover loans and affirmed vicarious debt risk of senior banking handling for staff misbehavior. </p>
                 </div>
               </div>
             </section>
@@ -531,9 +462,7 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 8. 3-Tier Escalation: Redressal from Bank to Commission
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                An orderly escalation strategy establishes undeniable procedural diligence. This ensures that when your petition reaches the Consumer Forum, the bank cannot claim lack of notice or internal opportunity to resolve the grievance.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> An orderly reports plan establishes undeniable procedural diligence. This ensures that when your petition reaches the clients Forum. The bank cannot claim lack of notice or internal opportunity to resolve the grievance. </p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-1">
                 <div className="bg-white p-4.5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -541,9 +470,7 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
                     Tier 1: Internal Redressal.
                   </span>
                   <h3 className="text-sm font-bold text-slate-900">Bank GRO &amp; PNO</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Submit a formal grievance to the bank Grievance Redressal Officer (7 to 10 days) and escalate to the Principal Nodal Officer (14 to 21 days) demanding immediate stoppage of collection misconduct.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Submit a formal grievance to the bank Grievance Redressal staff (7 to 10 days) and escalate to the main loan Nodal staff (14 to 21 days) demanding fast stoppage of claims misconduct. </p>
                 </div>
 
                 <div className="bg-white p-4.5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -551,9 +478,7 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
                     Tier 2: Regulatory Portal.
                   </span>
                   <h3 className="text-sm font-bold text-slate-900">RBI Ombudsman (CMS)</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Lodge a digital complaint on cms.rbi.org.in if the bank fails to resolve the dispute within 30 days, invoking the Integrated Ombudsman Scheme 2021 for institutional accountability.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Lodge a online reports on cms.rbi.org.in if the bank fails to resolve the claims within 30 days. Invoking the Integrated staff Scheme 2021 for bank accountability. </p>
                 </div>
 
                 <div className="bg-white p-4.5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -561,9 +486,7 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
                     Tier 3: Judicial Redressal.
                   </span>
                   <h3 className="text-sm font-bold text-slate-900">Consumer Court (e-Daakhil)</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    File a formal civil complaint under the Consumer Protection Act, 2019 claiming monetary compensation, refund of illegal penal interest. Permanent restraining orders against recovery agencies.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> File a formal civil reports under the clients safety Act. 2019 claiming monetary payout. Refund of banned extra fees. Permanent restraining orders against claims firms. </p>
                 </div>
               </div>
             </section>
@@ -577,9 +500,7 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 9. Chronological Timeline: Filing to Compensation Order
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Consumer litigation follows a structured judicial timeline designed for swift dispute adjudication, moving systematically through distinct evidentiary and argumentative stages.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> clients lawsuits follows a structured court timeline designed for swift claims adjudication. Moving systematically through distinct evidentiary and argumentative stages. </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
                 <table className="w-full text-left text-xs md:text-sm border-collapse">
@@ -593,28 +514,28 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
                   <tbody className="divide-y divide-slate-200 text-slate-700">
                     <tr className="hover:bg-blue-50/40 transition-colors">
                       <td className="p-3.5 md:p-4 font-bold text-slate-900">Day 1 to 15</td>
-                      <td className="p-3.5 md:p-4 border-l border-slate-200">Evidence Audit &amp; Legal Notice.</td>
-                      <td className="p-3.5 md:p-4 border-l border-slate-200">Establishes formal statutory record and 15-day lender cure period.</td>
+                      <td className="p-3.5 md:p-4 border-l border-slate-200">proof Audit &amp. Legal Notice.</td>
+                      <td className="p-3.5 md:p-4 border-l border-slate-200">Establishes formal legal record and 15-day lender cure period.</td>
                     </tr>
                     <tr className="hover:bg-blue-50/40 transition-colors">
                       <td className="p-3.5 md:p-4 font-bold text-slate-900">Day 16 to 30</td>
-                      <td className="p-3.5 md:p-4 border-l border-slate-200">Petition Drafting &amp; e-Daakhil Filing.</td>
-                      <td className="p-3.5 md:p-4 border-l border-slate-200">Formal registration of consumer case and allotment of case number.</td>
+                      <td className="p-3.5 md:p-4 border-l border-slate-200">Petition Drafting &amp. e-Daakhil Filing.</td>
+                      <td className="p-3.5 md:p-4 border-l border-slate-200">Formal registration of clients case and allotment of case number.</td>
                     </tr>
                     <tr className="hover:bg-blue-50/40 transition-colors">
                       <td className="p-3.5 md:p-4 font-bold text-slate-900">Month 2 to 3</td>
-                      <td className="p-3.5 md:p-4 border-l border-slate-200">Admission Hearing &amp; Bank Summons.</td>
-                      <td className="p-3.5 md:p-4 border-l border-slate-200">Court issues notice to bank and grants interim anti-harassment stay.</td>
+                      <td className="p-3.5 md:p-4 border-l border-slate-200">Admission Hearing &amp. Bank Summons.</td>
+                      <td className="p-3.5 md:p-4 border-l border-slate-200">Court issues notice to bank and grants interim anti-abuse stay.</td>
                     </tr>
                     <tr className="hover:bg-blue-50/40 transition-colors">
                       <td className="p-3.5 md:p-4 font-bold text-slate-900">Month 4 to 6</td>
-                      <td className="p-3.5 md:p-4 border-l border-slate-200">Bank Reply, Rejoinder &amp; Evidence.</td>
-                      <td className="p-3.5 md:p-4 border-l border-slate-200">Submission of sworn affidavits, call transcripts, and expert audits.</td>
+                      <td className="p-3.5 md:p-4 border-l border-slate-200">Bank Reply. Rejoinder &amp. proof.</td>
+                      <td className="p-3.5 md:p-4 border-l border-slate-200">Submission of sworn affidavits. Call transcripts. And expert audits.</td>
                     </tr>
                     <tr className="hover:bg-blue-50/40 transition-colors">
                       <td className="p-3.5 md:p-4 font-bold text-slate-900">Month 7 to 12</td>
-                      <td className="p-3.5 md:p-4 border-l border-slate-200">Final Arguments &amp; Award Execution.</td>
-                      <td className="p-3.5 md:p-4 border-l border-slate-200">Judicial decree awarding damages or conclusion of bilateral OTS.</td>
+                      <td className="p-3.5 md:p-4 border-l border-slate-200">Final Arguments &amp. Award Execution.</td>
+                      <td className="p-3.5 md:p-4 border-l border-slate-200">court decree awarding damages or conclusion of bilateral OTS.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -630,37 +551,27 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 10. Specialized Scenarios: Unauthorized Calls &amp; Errors
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Consumer court litigation addresses a wide spectrum of specialized banking violations, providing targeted legal remedies tailored to distinct factual situation.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> clients court lawsuits addresses a wide spectrum of expert banking violations. This provides targeted legal remedies tailored to distinct factual situation. </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-1">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
                   <h3 className="text-sm font-bold text-slate-900">Workplace &amp; Third-Party Harassment</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Recovery agents contacting employers, colleagues. Distant relatives violates constitutional privacy rights under the Puttaswamy verdict, creating immediate liability for large reputational damages in Consumer Court.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> claims staff contacting employers. Colleagues. Distant relatives violates constitutional rights rights under the Puttaswamy verdict. Creating fast debt risk for large reputational damages in clients Court. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
                   <h3 className="text-sm font-bold text-slate-900">Unauthorized Credit Card Levies</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Unilateral billing of unsolicited insurance premiums, annual maintenance charges on inactive cards. Hidden forex conversion fees are routinely struck down as unfair trade practices with full interest refunds.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Unilateral billing of unsolicited cover premiums. Annual maintenance charges on inactive cards. Hidden forex conversion fees are routinely struck down as unfair trade practices with full rates refunds. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
                   <h3 className="text-sm font-bold text-slate-900">Wrongful Post-Settlement CIBIL Status</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    When a bank accepts an OTS payment but continues reporting the account as written-off or active overdue, consumer commissions impose daily compliance penalties until credit bureau records are cleaned.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> When a bank accepts an OTS payment but continues reporting the account as written-off or active late. Clients commissions impose daily compliance penalties until CIBIL desk records are cleaned. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
                   <h3 className="text-sm font-bold text-slate-900">ARC Debt Assignment Coercion</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Asset Reconstruction Companies purchasing NPA portfolios must adhere strictly to RBI debt collection guidelines. Failing to provide formal assignment deeds while deploying collection agencies constitutes severe service deficiency.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Asset Reconstruction firms purchasing NPA portfolios must adhere strictly to RBI debt claims rules. Failing to provide formal assignment deeds while deploying claims firms constitutes severe service deficiency. </p>
                 </div>
               </div>
             </section>
@@ -679,9 +590,7 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Frequently Asked Questions: Consumer Court Bank Cases
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Clear, authoritative answers to essential questions regarding consumer forum procedures, damages calculation. Legal defenses against bank recovery misconduct.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Clear. Authoritative answers to essential questions regarding clients forum steps. Damages calculation. Legal defenses against bank claims misconduct. </p>
 
               <div className="space-y-3">
                 {faqs.map((faq, index) => {
@@ -711,9 +620,7 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Statutory Citations: Legal Authorities &amp; Outbound Links
               </h2>
-              <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                All legal interpretations and procedural frameworks detailed on this page are grounded in statutory enactments, binding Reserve Bank of India Master Directions. Landmark Supreme Court of India precedents.
-              </p>
+              <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> All legal interpretations and procedural rules detailed on this page are grounded in legal enactments. Binding Reserve Bank of India Master Directions. Landmark Supreme Court of India rulings. </p>
 
               {/* 6 Outbound Authority Badges */}
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5 pt-2">
@@ -803,14 +710,10 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
                   <Link href="/author/ashish-jhangra" className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional.
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief expert. </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Specialized in consumer protection litigation, banking regulatory compliance, anti-harassment injunctions, and debt settlement negotiations across Indian consumer forums.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> expert in clients safety lawsuits. Banking RBI compliance. Anti-abuse injunctions. And debt talks across Indian clients forums. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
                   <span>View Author Profile.</span>
@@ -828,12 +731,8 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
                 <span className="text-xs font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
                   100% CONFIDENTIAL LEGAL DEFENSE.
                 </span>
-                <p className="text-lg md:text-xl font-bold text-white leading-snug">
-                  Facing Bank Harassment?
-                </p>
-                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
-                  Our consumer law experts file deficiency of service lawsuits, halt recovery harassment, claim damages. Negotiate 40% to 65% loan waivers.
-                </p>
+                <p className="text-lg md:text-xl font-bold text-white leading-snug"> Facing Bank abuse? </p>
+                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal"> Our clients law experts file deficiency of service lawsuits. Halt claims abuse. Claim damages. settle 40% to 65% loan waivers. </p>
               </div>
               <Link href="/contact" className="block w-full bg-white text-blue-900 hover:text-[#1886ff] py-3 px-4 rounded-full font-bold text-sm hover:bg-slate-50 transition-all shadow-md">
                 File a Consumer Court Lawsuit
@@ -856,47 +755,29 @@ export default function ConsumerCourtAgainstBankHarassmentClient() {
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
               <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage.</p>
               <ul className="space-y-2 text-slate-600">
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Zero Upfront Risk:</strong> Success-linked settlement fees.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Direct Bank Remittance:</strong> Zero middleman fund holding.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>RBI &amp; CPA Compliance:</strong> 100% lawful dispute handling.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Pan-India Representation:</strong> Dedicated consumer debt specialists.</span>
-                </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Zero Upfront Risk:</strong> Success-linked closure fees.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Direct Bank Remittance:</strong> Zero middleman fund holding.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>RBI &amp. CPA Compliance:</strong> 100% lawful claims handling.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Pan-India legal help:</strong> Dedicated clients debt specialists.</span> </li>
               </ul>
             </div>
 
             {/* Card 4: Related Guides */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
-              <p className="font-bold text-slate-900 text-sm">Related Consumer Guides.</p>
+              <p className="font-bold text-slate-900 text-sm">Related clients Guides.</p>
               <div className="space-y-2.5">
                 <Link href="/bank-recovery-harassment-complaint" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Bank Recovery Harassment Complaint Guide.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Bank claims abuse reports Guide. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Police FIR &amp; RBI Ombudsman steps &rarr;.</span>
                 </Link>
 
                 <Link href="/arbitration-notice-personal-loan-default" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Arbitration Notice for Personal Loan Default.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> hearing Notice for private loans Default. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Challenge unilateral appointments &rarr;.</span>
                 </Link>
 
                 <Link href="/convert-settled-status-to-closed" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Convert Settled Loan to Closed Status.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Convert Settled Loan to Closed Status. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Clean credit report blueprint &rarr;.</span>
                 </Link>
               </div>

@@ -48,43 +48,43 @@ export default function PersonalLoanAfterDeathClient() {
     const faqs = [
         {
             q: "Does a family or legal heir have to repay an unsecured personal loan after the borrower's death?",
-            a: "No, family members and legal heirs are not personally liable to repay an unsecured personal loan out of their own income or personal assets. Under Section 37 of the Indian Contract Act, 1872 and Sections 50 and 52 of the Code of Civil Procedure (CPC), 1908, a legal heir's liability is strictly limited to the value of the inherited estate received from the deceased borrower. If no assets are inherited, the liability of the legal heirs is zero."
+            a: "No, family members and legal heirs are not personally liable to repay an no-collateral private loans out of their own income or own assets. Under Section 37 of the Indian Contract Act. 1872 and Sections 50 and 52 of the Code of Civil Procedure (CPC). 1908, a legal heir's debt risk is strictly limited to the value of the inherited estate received from the deceased client. If no assets are inherited. The debt risk of the legal heirs is zero."
         },
         {
             q: "What happens if the deceased borrower had personal loan insurance or credit shield?",
-            a: "If the personal loan was covered by a Credit Shield, Loan Protection Insurance. Group Term Life Insurance policy bundled at the time of disbursement, the outstanding loan balance is settled directly by the insurance company upon submitting the borrower's Death Certificate and claim documents. The bank cannot demand repayment from the family while an insurance claim is active and must issue an unconditional No Dues Certificate (NDC) once settled."
+            a: "If the private loans was covered by a Credit Shield, Loan Protection cover. Group Term Life cover policy bundled at the time of disbursement. The unpaid loan balance is settled straight by the cover company upon submitting the client's Death letter and claim papers. The bank cannot demand payment from the family while an cover claim is active and must issue an full No Dues letter (NDC) once settled."
         },
         {
             q: "Can a bank or recovery agent seize personal assets of legal heirs for an unpaid personal loan?",
-            a: "No. A bank or recovery agent cannot seize, attach. Touch the personal property, salary, bank accounts, or gold belonging independently to the legal heirs. Under Section 50(2) of the CPC, court execution is restricted only to property that belonged to the deceased borrower and came into the hands of the legal agents. Any recovery agent threatening the family's personal assets commits extortion (Section 308 BNS / Section 383 IPC) and criminal intimidation (Section 351 BNS / Section 506 IPC)."
+            a: "No. A bank or collection agent cannot seize, attach. Touch the own property, salary. Bank accounts, or gold belonging independently to the legal heirs. Under Section 50(2) of the CPC. Court execution is restricted only to property that belonged to the deceased client and came into the hands of the legal agents. Any collection agent threatening the family's own assets commits extortion (Section 308 BNS / Section 383 IPC) and criminal threats (Section 351 BNS / Section 506 IPC)."
         },
         {
             q: "Is a co-borrower or guarantor liable if the primary borrower passes away?",
-            a: "Yes. If a family member signed the loan agreement as a joint co-borrower or a co-guarantor, their liability is joint and several under Section 128 of the Indian Contract Act, 1872. Unlike non-signatory legal heirs, a co-borrower or guarantor remains directly contractually obligated to repay the debt regardless of whether they inherited any assets from the deceased borrower."
+            a: "Yes. If a family member signed the loan pacts as a joint co-client or a co-guarantor. Their debt risk is joint and several under Section 128 of the Indian Contract Act, 1872. Unlike non-signatory legal heirs, a co-client or guarantor remains straight contractually obligated to repay the debt regardless of whether they inherited any assets from the deceased client."
         },
         {
             q: "What should the family do immediately after a borrower passes away with an active personal loan?",
-            a: "The family should follow three immediate steps: (1) Intimate the lending bank in writing with a certified copy of the Death Certificate and formal letter requesting freeze on interest and penalty accrual, (2) Verify the loan agreement and bank statement for loan protection insurance / credit shield deductions. (3) Demand that the bank immediately halt automated ECS / NACH debits from the deceased's bank account to avoid unnecessary bounce charges."
+            a: "The family should follow three fast steps: (1) Intimate the lending bank in writing with a certified copy of the Death letter and formal letter requesting freeze on interest and penalty accrual. (2) Verify the loan pacts and bank record for loan protection cover / credit shield deductions. (3) Demand that the bank promptly halt automated ECS / NACH debits from the deceased's bank account to avoid unnecessary bounce charges."
         },
         {
             q: "Can banks initiate Section 138 cheque bounce or Section 25 NACH bounce cases against legal heirs?",
-            a: "No. Criminal proceedings under Section 138 of the Negotiable Instruments Act, 1881 and Section 25 of the Payment and Settlement Systems Act, 2007 are strictly personal criminal liabilities against the drawer of the instrument. In landmark rulings, the Supreme Court has clarified that criminal liability abates upon the death of the accused and cannot be transferred to or initiated against surviving legal heirs."
+            a: "No. Criminal proceedings under Section 138 of the Negotiable Instruments Act. 1881 and Section 25 of the Payment and Settlement Systems Act. 2007 are strictly private criminal debts against the drawer of the instrument. In landmark rulings, the Supreme Court has clarified that criminal debt risk abates upon the death of the accused and cannot be transferred to or initiated against surviving legal heirs."
         },
         {
             q: "What is the extent of legal heir liability under Section 50 and Section 52 of the CPC?",
-            a: "Under Section 50(1) of the Code of Civil Procedure, 1908, a decree-holder may execute against the legal agent of the deceased debtor. However, Section 50(2) and Section 52(1) explicitly cap that liability solely to the extent of the property of the deceased which has come into the hands of the legal agent and has not been duly disposed of. If the deceased left an estate of \u20B92 Lakhs and a debt of \u20B95 Lakhs, the heirs cannot be forced to pay more than \u20B92 Lakhs."
+            a: "Under Section 50(1) of the Code of Civil Procedure. 1908, a decree-holder may execute against the legal agent of the deceased debtor. However, Section 50(2) and Section 52(1) explicitly cap that debt risk solely to the extent of the property of the deceased which has come into the hands of the legal agent and has not been duly disposed of. If the deceased left an estate of \u20B92 Lakhs and a debt of \u20B95 Lakhs. The heirs cannot be forced to pay more than \u20B92 Lakhs."
         },
         {
             q: "How to deal with aggressive recovery agents harassing the family of a deceased borrower?",
-            a: "If recovery agents harass the bereaved family, immediately send a formal written notice enclosing the death certificate, citing Section 50 CPC. Quoting the RBI Master Directions on Recovery Agents which strictly prohibit abusive conduct, harassment of grieving family members. Visits outside 8 AM to 7 PM. If harassment continues, lodge a police complaint for criminal intimidation and file an escalation with the bank's Principal Nodal Officer (PNO) and the RBI Integrated Ombudsman (cms.rbi.org.in)."
+            a: "If collection agents harass the bereaved family. Promptly send a formal written notice enclosing the death letter, citing Section 50 CPC. Quoting the RBI Master Directions on collection agents which strictly prohibit abusive conduct. Abuse of grieving family members. Visits outside 8 AM to 7 PM. If abuse continues, lodge a police complaint for criminal threats and file an escalation with the bank's main loan Nodal Officer (PNO) and the RBI Integrated Ombudsman (cms.rbi.org.in)."
         },
         {
             q: "Does the deceased borrower's unpaid personal loan affect the CIBIL score of legal heirs?",
-            a: "No. An individual's CIBIL score and credit report are mapped strictly to their own PAN (Permanent Account Number). The default or demise of a deceased borrower is updated solely on the deceased individual's credit profile (marked as Deceased / Written Off / Settled). It has zero impact on the credit score, CIBIL history. Loan eligibility of surviving family members, provided they were not co-borrowers or guarantors."
+            a: "No. An individual's CIBIL score and credit report are mapped strictly to their own PAN (Permanent Account Number). The default or demise of a deceased client is updated solely on the deceased individual's credit profile (marked as Deceased / Written Off / Settled). It has zero impact on the credit score, CIBIL history. Loan eligibility of surviving family members. Provided they were not co-clients or guarantors."
         },
         {
             q: "Can legal heirs negotiate a One-Time Settlement (OTS) if the deceased left limited estate assets?",
-            a: "Yes. If the deceased left partial assets or if legal heirs wish to clear the loan record without prolonged litigation, they can approach the bank's settlement committee for a One-Time Settlement (OTS). Banks typically offer major waivers (50% to 80% on accumulated interest and penalty charges) in deceased borrower accounts, after which they issue an unconditional No Dues Certificate (NDC) to permanently close the account."
+            a: "Yes. If the deceased left partial assets or if legal heirs wish to clear the loan record without prolonged lawsuits. They can approach the bank's settlement boards for a One-Time Settlement (OTS). Banks typically offer major waivers (50% to 80% on total interest and penalty charges) in deceased client accounts. After which they issue an full No Dues letter (NDC) to permanently close the account."
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -96,9 +96,7 @@ export default function PersonalLoanAfterDeathClient() {
             Does Family Have to Repay a Personal Loan After Death?
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed">
-            If a borrower passes away, who pays their unsecured personal loan? Discover the legal liability of legal heirs under Section 50 CPC, Indian Succession Act, and how to stop recovery agent harassment.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> If a client passes away. Who pays their no-collateral private loans? Discover the legal debt risk of legal heirs under Section 50 CPC. Indian Succession Act, and how to stop collection agent abuse. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -141,9 +139,7 @@ export default function PersonalLoanAfterDeathClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>Legal Heir Protection Shield</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Governed by CPC 1908 Sections 50/52, Indian Contract Act &amp; RBI Fair Practices Code.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by CPC 1908 Sections 50/52, Indian Contract Act &amp. RBI Fair Practices Code. </p>
               </div>
             </div>
           </aside>
@@ -159,40 +155,15 @@ export default function PersonalLoanAfterDeathClient() {
               </div>
 
               <ul className="space-y-3.5 text-xs sm:text-sm text-slate-700 leading-relaxed">
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Zero Personal Liability for Family:</strong> Surviving family members, spouses, children, and parents are NOT personally liable to pay an unsecured personal loan or credit card debt out of their personal salary, independent savings, or self-acquired assets.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Zero private debt risk for Family:</strong> Surviving family members, spouses, children. And parents are NOT personally liable to pay an no-collateral private loans or credit card debt out of their private salary. Independent savings, or self-acquired assets. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Section 50 &amp; 52 CPC Estate Limitation:</strong> Under Sections 50 and 52 of the Code of Civil Procedure (CPC), 1908, a lender&apos;s recovery claim against legal heirs is strictly capped to the net asset value of the inherited estate. If the deceased left zero tangible assets, the legal heir liability is strictly ₹0.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Section 50 &amp. 52 CPC Estate Limitation:</strong> Under Sections 50 and 52 of the Code of Civil Procedure (CPC), 1908, a lender&apos. s collection claim against legal heirs is strictly capped to the net asset value of the inherited estate. If the deceased left zero tangible assets. The legal heir debt risk is strictly ₹0. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Loan Protection Insurance Priority:</strong> Many personal loans have embedded credit life or loan protection insurance. Upon submission of the Death Certificate, the insurer must settle the outstanding debt directly with the bank, fully protecting the estate and family.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Loan Protection cover Priority:</strong> Many private loans have embedded credit life or loan protection cover. Upon submission of the Death letter. The insurer must settle the unpaid debt straight with the bank. Fully protecting the estate and family. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Criminal Proceedings Abate Upon Death:</strong> Any pending or threatened proceedings under Section 138 of the Negotiable Instruments Act (Cheque Bounce) or Section 25 of the Payment and Settlement Systems Act (NACH / ECS Bounce) legally extinguish upon the borrower&apos;s death and cannot be initiated against family members.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Criminal Proceedings Abate Upon Death:</strong> Any pending or threatened proceedings under Section 138 of the Negotiable Instruments Act (Cheque Bounce) or Section 25 of the Payment and Settlement Systems Act (NACH / ECS Bounce) legally extinguish upon the client&apos. s death and cannot be initiated against family members. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Absolute Protection from Harassment:</strong> Third-party recovery agents have zero right to visit, call, or intimidate grieving family members. Threatening family members violates the RBI Fair Practices Code and attracts criminal penalties for extortion and intimidation under Bharatiya Nyaya Sanhita (BNS) and IPC.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Absolute Protection from abuse:</strong> Third-party collection agents have zero right to visit. Call, or intimidate grieving family members. Threatening family members violates the RBI Fair Practices Code and attracts criminal penalties for extortion and threats under Bharatiya Nyaya Sanhita (BNS) and IPC. </div> </li>
               </ul>
             </div>
 
@@ -205,12 +176,8 @@ export default function PersonalLoanAfterDeathClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 1. What Happens to an Unsecured Personal Loan After the Borrower Dies?
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                The sudden loss of a family member is a devastating emotional crisis. In the midst of bereavement, receiving aggressive phone calls, intimidating WhatsApp messages, or unannounced doorstep visits from bank recovery agents demanding immediate repayment of an unpaid personal loan can push families into extreme psychological and financial distress.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Under Indian commercial jurisprudence and contract law, it is essential to understand the fundamental legal nature of an unsecured personal loan. A personal loan is granted purely on the basis of the individual borrower&apos;s creditworthiness, income profile, and personal repayment covenant. <strong>It creates no mortgage, hypothecation, pledge, or statutory charge over any family property.</strong>
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The sudden loss of a family member is a devastating emotional crisis. In the midst of bereavement. Receiving aggressive phone calls, intimidating WhatsApp messages. Or unannounced doorstep visits from bank collection agents demanding fast payment of an unpaid private loans can push families into extreme psychological and debt stress. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Under Indian trade jurisprudence and contract law. It is essential to understand the fundamental legal nature of an no-collateral private loans. A private loans is granted purely on the basis of the individual client&apos. s creditworthiness, income profile, and private payment covenant. <strong>It creates no mortgage, hypothecation. Pledge, or legal charge over any family property.</strong> </p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-blue-200/80 shadow-xs space-y-2">
@@ -218,9 +185,7 @@ export default function PersonalLoanAfterDeathClient() {
                     <UserX className="w-4 h-4"/>
                     <span>Privity of Contract</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Under the Indian Contract Act, 1872, the loan contract exists strictly between the lender and the borrower. Family members who never signed the agreement are total third-party strangers to the contract.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Under the Indian Contract Act. 1872, the loan contract exists strictly between the lender and the client. Family members who never signed the pacts are total third-party strangers to the contract. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-emerald-200/80 shadow-xs space-y-2">
@@ -228,9 +193,7 @@ export default function PersonalLoanAfterDeathClient() {
                     <ShieldCheck className="w-4 h-4"/>
                     <span>Non-Inheritance of Debt</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Indian law does not recognize hereditary personal debt bondage. Debts do not automatically pass from deceased parents or spouses to surviving family members.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Indian law does not recognize hereditary private debt bondage. Debts do not automatically pass from deceased parents or spouses to surviving family members. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-purple-200/80 shadow-xs space-y-2">
@@ -238,9 +201,7 @@ export default function PersonalLoanAfterDeathClient() {
                     <Gavel className="w-4 h-4"/>
                     <span>Pure Civil Claim</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    A lender can only seek recovery through a civil claim against the deceased&apos;s estate. No criminal offense can be framed against non-signatory surviving relatives.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> A lender can only seek collection through a civil claim against the deceased&apos. s estate. No criminal offense can be framed against non-signatory surviving relatives. </p>
                 </div>
               </div>
 
@@ -249,9 +210,7 @@ export default function PersonalLoanAfterDeathClient() {
                   <BookOpen className="w-5 h-5 text-[#1886ff] flex-shrink-0"/>
                   <span>Section 37 of the Indian Contract Act, 1872: The Statutory Covenant</span>
                 </div>
-                <p className="text-xs md:text-sm text-slate-700 leading-relaxed">
-                  Section 37 of the Indian Contract Act provides that promises bind the representatives of the promisors in case of the death of such promisors before performance, <em>unless a contrary intention appears from the contract</em>. However, Indian courts have uniformly established that this representative obligation is not an unlimited personal liability—it binds legal representatives solely to the extent of the assets inherited from the deceased.
-                </p>
+                <p className="text-xs md:text-sm text-slate-700 leading-relaxed"> Section 37 of the Indian Contract Act provides that promises bind the representatives of the promisors in case of the death of such promisors before performance, <em>unless a contrary intention appears from the contract</em>. However, Indian courts have uniformly established that this representative debt is not an unlimited private debt risk. it binds legal representatives solely to the extent of the assets inherited from the deceased. </p>
               </div>
             </section>
 
@@ -264,9 +223,7 @@ export default function PersonalLoanAfterDeathClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 2. The Section 50 &amp; 52 CPC Shield: How the Law Protects Legal Heirs
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When banks threaten to attach family assets or demand that a widow or children repay a deceased person&apos;s debt, they deliberately conceal the protective provisions of the <strong>Code of Civil Procedure, 1908 (CPC)</strong>. Sections 50 and 52 of the CPC represent an unyielding statutory firewall protecting legal heirs:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When banks threaten to attach family assets or demand that a widow or children repay a deceased person&apos. S debt, they on purpose conceal the protective provisions of the <strong>Code of Civil Procedure, 1908 (CPC)</strong>. Sections 50 and 52 of the CPC represent an unyielding legal firewall protecting legal heirs: </p>
 
               <div className="space-y-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-3">
@@ -279,9 +236,7 @@ export default function PersonalLoanAfterDeathClient() {
                   <h3 className="text-sm md:text-base font-bold text-slate-900">
                     Execution of Decrees Against Legal Representatives
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Section 50(1) provides that if a judgment-debtor dies before a decree is fully satisfied, the decree-holder may apply to execute against the legal representative. However, <strong>Section 50(2) strictly restricts execution</strong>: <em>&quot;Where the decree is executed against such legal representative, he shall be liable only to the extent of the property of the deceased which has come to his hands and has not been duly disposed of.&quot;</em>
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Section 50(1) provides that if a judgment-debtor dies before a decree is fully satisfied. The decree-holder may apply to execute against the legal representative. However, <strong>Section 50(2) strictly restricts execution</strong>: <em>&quot. Where the decree is executed against such legal representative. He shall be liable only to the extent of the property of the deceased which has come to his hands and has not been duly disposed of.&quot. </em> </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-3">
@@ -294,9 +249,7 @@ export default function PersonalLoanAfterDeathClient() {
                   <h3 className="text-sm md:text-base font-bold text-slate-900">
                     Immunity of Self-Acquired Assets of Surviving Family
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Under Section 52(1), where a decree is passed against a party as the legal representative of a deceased person, it can only be executed by the attachment and sale of any property of the deceased. The personal salary, independent savings, jewelry purchased by the spouse, and self-acquired property of legal heirs are <strong>100% legally immune</strong> from court attachment.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Under Section 52(1), where a decree is passed against a party as the legal representative of a deceased person. It can only be executed by the attachment and sale of any property of the deceased. The private salary, independent savings. Jewelry purchased by the spouse. And self-acquired property of legal heirs are <strong>100% legally immune</strong> from court attachment. </p>
                 </div>
               </div>
 
@@ -305,9 +258,7 @@ export default function PersonalLoanAfterDeathClient() {
                   <Gavel className="w-4 h-4 text-emerald-600"/>
                   <span>High Court Precedent: Doctrine of Limited Representative Liability</span>
                 </div>
-                <p className="text-emerald-950">
-                  In recurring landmark rulings across various High Courts, the judiciary has held that a creditor cannot touch a single rupee of a legal heir&apos;s personal earnings. The burden of proving that the deceased left an estate and that such estate reached the hands of the heirs lies squarely upon the lending bank. If the bank fails to prove the existence of inherited assets, the claim fails completely.
-                </p>
+                <p className="text-emerald-950"> In recurring landmark rulings across various High Courts. The judiciary has held that a creditor cannot touch a single rupee of a legal heir&apos. s private earnings. The burden of proving that the deceased left an estate and that such estate reached the hands of the heirs lies squarely upon the lending bank. If the bank fails to prove the existence of inherited assets, the claim fails completely. </p>
               </div>
             </section>
 
@@ -320,9 +271,7 @@ export default function PersonalLoanAfterDeathClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 3. Critical Legal Distinction: Co-Borrowers, Guarantors vs. Non-Signatory Family Members
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                To evaluate your family&apos;s exact legal exposure, you must identify whether any surviving relative signed the loan documents as a co-applicant or guarantor, or whether they are simply non-signatory legal heirs. The law treats these categories completely differently:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> To evaluate your family&apos. S exact legal exposure, you must identify whether any surviving relative signed the loan papers as a co-applicant or guarantor. Or whether they are simply non-signatory legal heirs. The law treats these categories completely differently: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-red-200/80 shadow-xs space-y-2">
@@ -333,9 +282,7 @@ export default function PersonalLoanAfterDeathClient() {
                     <BadgeAlert className="w-4 h-4 text-red-600"/>
                   </div>
                   <h3 className="text-sm font-bold text-slate-900">100% Contractual Liability</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    If a spouse or child signed as a co-applicant, their liability is joint and several. The death of the primary borrower does not extinguish the co-borrower&apos;s independent contractual obligation to pay EMIs.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> If a spouse or child signed as a co-applicant. Their debt risk is joint and several. The death of the primary client does not extinguish the co-client&apos. s independent contractual debt to pay EMIs. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-amber-200/80 shadow-xs space-y-2">
@@ -346,9 +293,7 @@ export default function PersonalLoanAfterDeathClient() {
                     <Scale className="w-4 h-4 text-amber-600"/>
                   </div>
                   <h3 className="text-sm font-bold text-slate-900">Section 128 Contract Act</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Under Section 128 of the Indian Contract Act, the liability of a surety is co-extensive with that of the principal debtor. The guarantor remains liable even after the borrower dies, unless covered by insurance.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Under Section 128 of the Indian Contract Act. The debt risk of a surety is co-extensive with that of the main loan debtor. The guarantor remains liable even after the client dies, unless covered by cover. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-emerald-200/80 shadow-xs space-y-2">
@@ -359,16 +304,12 @@ export default function PersonalLoanAfterDeathClient() {
                     <ShieldCheck className="w-4 h-4 text-emerald-600"/>
                   </div>
                   <h3 className="text-sm font-bold text-slate-900">Zero Personal Liability</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Family members who did not sign any loan documents have zero personal liability. They cannot be sued personally, cannot be arrested, and their own assets cannot be touched under Section 50 CPC.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Family members who did not sign any loan papers have zero private debt risk. They cannot be sued personally. Cannot be arrested, and their own assets cannot be touched under Section 50 CPC. </p>
                 </div>
               </div>
 
               <div className="bg-slate-100/90 border border-slate-200 p-4 rounded-xl text-xs md:text-sm text-slate-700 leading-relaxed">
-                <p>
-                  <strong>Abatement of Cheque / NACH Criminal Proceedings:</strong> Under Section 394 of the Code of Criminal Procedure (CrPC) / Section 435 of the Bharatiya Nagarik Suraksha Sanhita (BNSS), all criminal proceedings for cheque bounce (Section 138 NI Act) or NACH bounce (Section 25 PSS Act) automatically abate and are dismissed upon the death of the drawer. A bank cannot file cheque bounce cases against a deceased borrower&apos;s family.
-                </p>
+                <p> <strong>Abatement of Cheque / NACH Criminal Proceedings:</strong> Under Section 394 of the Code of Criminal Procedure (CrPC) / Section 435 of the Bharatiya Nagarik Suraksha Sanhita (BNSS). All criminal proceedings for cheque bounce (Section 138 NI Act) or NACH bounce (Section 25 PSS Act) automatically abate and are dismissed upon the death of the drawer. A bank cannot file cheque bounce cases against a deceased client&apos. s family. </p>
               </div>
             </section>
 
@@ -381,9 +322,7 @@ export default function PersonalLoanAfterDeathClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 4. Debt Liability Comparison Grid: How Different Loans Are Handled After Death
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                How a lender recovers debt upon a borrower&apos;s death depends entirely on whether the loan is unsecured, secured by property, or covered by third-party guarantees. This comprehensive grid outlines family exposure across all debt categories:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> How a lender recovers debt upon a client&apos. S death depends entirely on whether the loan is no-collateral. Secured by property, or covered by third-party guarantees. This full grid outlines family exposure across all debt categories: </p>
 
               {/* TABLE WITH BOTH VERTICAL AND HORIZONTAL GRID LINES */}
               <div className="overflow-x-auto rounded-xl border border-slate-300 bg-white shadow-xs">
@@ -400,49 +339,49 @@ export default function PersonalLoanAfterDeathClient() {
                   </thead>
                   <tbody className="text-slate-700">
                     <tr className="hover:bg-slate-50">
-                      <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Unsecured Personal Loan</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300">None (Purely Unsecured)</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">NO (Zero Personal Liability)</td>
+                      <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">no-collateral private loans</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300">None (Purely no-collateral)</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">NO (Zero private debt risk)</td>
                       <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">NO (Immune under Sec 52 CPC)</td>
                       <td className="p-3 md:p-3.5 border border-slate-300">Capped strictly to Inherited Estate NAV</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-[#1886ff] font-semibold">Claim Loan Insurance or execute No-Asset Closure / OTS</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-[#1886ff] font-semibold">Claim Loan cover or execute No-Asset Closure / OTS</td>
                     </tr>
                     <tr className="hover:bg-slate-50">
-                      <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Credit Card Outstanding</td>
+                      <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Credit Card unpaid</td>
                       <td className="p-3 md:p-3.5 border border-slate-300">None (Revolving Credit)</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">NO (Zero Personal Liability)</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">NO (Zero private debt risk)</td>
                       <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">NO (Immune under Sec 52 CPC)</td>
                       <td className="p-3 md:p-3.5 border border-slate-300">Capped strictly to Inherited Estate NAV</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-[#1886ff] font-semibold">Submit Death Certificate; bank writes off balance as loss asset</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-[#1886ff] font-semibold">Submit Death letter. bank writes off balance as loss asset</td>
                     </tr>
                     <tr className="hover:bg-slate-50">
                       <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Home Loan / Mortgage (LAP)</td>
                       <td className="p-3 md:p-3.5 border border-slate-300">Equitable Mortgage on Real Estate</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-slate-800">NO (Personal), YES (Asset level)</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-slate-800">NO (private), YES (Asset level)</td>
                       <td className="p-3 md:p-3.5 border border-slate-300 text-amber-700 font-semibold">Only Mortgaged Property under SARFAESI</td>
                       <td className="p-3 md:p-3.5 border border-slate-300">Auction proceeds of mortgaged property</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-[#1886ff] font-semibold">Claim Home Loan Life Insurance or refinance/transfer property</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-[#1886ff] font-semibold">Claim Home Loan Life cover or refinance/transfer property</td>
                     </tr>
                     <tr className="hover:bg-slate-50">
                       <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Auto / Vehicle Loan</td>
                       <td className="p-3 md:p-3.5 border border-slate-300">Hypothecation of Vehicle</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">NO (Personal)</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">NO (private)</td>
                       <td className="p-3 md:p-3.5 border border-slate-300 text-amber-700 font-semibold">Only Hypothecated Vehicle can be repossessed</td>
                       <td className="p-3 md:p-3.5 border border-slate-300">Resale value of hypothecated vehicle</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-[#1886ff] font-semibold">Surrender vehicle or pay outstanding to transfer RC book</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-[#1886ff] font-semibold">Surrender vehicle or pay unpaid to transfer RC book</td>
                     </tr>
                     <tr className="hover:bg-slate-50">
-                      <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Joint Personal Loan</td>
+                      <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Joint private loans</td>
                       <td className="p-3 md:p-3.5 border border-slate-300">Co-Signatory Covenant</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-red-700 font-bold">YES (Surviving Co-Borrower is 100% Liable)</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-red-700 font-semibold">YES (Co-Borrower&apos;s personal assets)</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300">Entire outstanding loan balance</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-[#1886ff] font-semibold">Negotiate structured restructuring or compromise One-Time Settlement</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-red-700 font-bold">YES (Surviving Co-client is 100% Liable)</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-red-700 font-semibold">YES (Co-client&apos. s own assets)</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300">Entire unpaid loan balance</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-[#1886ff] font-semibold">settle structured restructuring or OTS deal One-Time Settlement</td>
                     </tr>
                     <tr className="hover:bg-slate-50">
                       <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Education Loan (Parent Guarantor)</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300">Personal Guarantee of Parent</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-red-700 font-bold">YES (Student Borrower remains liable)</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300">private guarantees of Parent</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-red-700 font-bold">YES (Student client remains liable)</td>
                       <td className="p-3 md:p-3.5 border border-slate-300 text-amber-700">Depends on whether parent or student passed away</td>
                       <td className="p-3 md:p-3.5 border border-slate-300">Parent estate / student future income</td>
                       <td className="p-3 md:p-3.5 border border-slate-300 text-[#1886ff] font-semibold">Apply for CSIS government subsidy / moratorium waiver</td>
@@ -461,9 +400,7 @@ export default function PersonalLoanAfterDeathClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 5. Technical Estate Liability Analytics: Calculating the Inherited Estate NAV
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Under Section 50 of the CPC and the Indian Succession Act, 1925, legal heir liability is calculated via a strict mathematical formula. Creditors can only claim from the <strong>Net Asset Value (NAV) of the Inherited Estate</strong> after deducting higher-priority statutory expenses.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Under Section 50 of the CPC and the Indian Succession Act. 1925, legal heir debt risk is calculated via a strict mathematical formula. Creditors can only claim from the <strong>Net Asset Value (NAV) of the Inherited Estate</strong> after deducting higher-priority legal expenses. </p>
 
               {/* Technical Math Card */}
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 md:p-6 space-y-4">
@@ -509,9 +446,7 @@ export default function PersonalLoanAfterDeathClient() {
                         <span>₹0 (100% Written Off)</span>
                       </div>
                     </div>
-                    <p className="text-[11px] text-slate-500 pt-1">
-                      Bank cannot touch the family&apos;s ₹6,00,000 personal savings. Under Section 50(2) CPC, the debt is legally extinguished as a bad loss asset.
-                    </p>
+                    <p className="text-[11px] text-slate-500 pt-1"> Bank cannot touch the family&apos. s ₹6,00,000 private savings. Under Section 50(2) CPC, the debt is legally extinguished as a bad loss asset. </p>
                   </div>
 
                   {/* Case Study 2 */}
@@ -540,17 +475,13 @@ export default function PersonalLoanAfterDeathClient() {
                         <span>₹3,00,000 (Remaining ₹9L Waived)</span>
                       </div>
                     </div>
-                    <p className="text-[11px] text-slate-500 pt-1">
-                      Heirs can settle the entire ₹12L claim by offering the net estate value of ₹3,00,000 via a compromise OTS, securing an unconditional NDC.
-                    </p>
+                    <p className="text-[11px] text-slate-500 pt-1"> Heirs can settle the entire ₹12L claim by offering the net estate value of ₹3,00,000 via a OTS deal OTS, securing an full NDC. </p>
                   </div>
                 </div>
 
                 <div className="border-t border-slate-200 pt-3 text-xs text-slate-600 space-y-1.5">
                   <span className="font-bold text-slate-900 block">Priority of Claims under Sections 320–325 of the Indian Succession Act, 1925:</span>
-                  <p>
-                    1. Funeral and deathbed expenses (Highest Priority) &gt; 2. Estate administration and probate expenses &gt; 3. Secured debts with registered charges &gt; 4. Wages of domestic servants &gt; <strong>5. Unsecured personal loans and credit cards (Lowest Priority)</strong>.
-                  </p>
+                  <p> 1. Funeral and deathbed expenses (Highest Priority) &gt. 2. Estate administration and probate expenses &gt. 3. Secured debts with registered charges &gt. 4. Wages of domestic servants &gt. <strong>5. no-collateral private loans and credit cards (Lowest Priority)</strong>. </p>
                 </div>
               </div>
             </section>
@@ -564,9 +495,7 @@ export default function PersonalLoanAfterDeathClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Visual Defense Blueprint: 6-Step Legal Heir Debt Resolution Process
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Review this high-level visual roadmap illustrating how Indian statutory law protects bereaved families, how to handle unlawful recovery harassment, and how to reach complete debt closure:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Review this high-level visual roadmap illustrating how Indian legal law protects bereaved families. How to handle unlawful collection abuse. And how to reach complete debt closure: </p>
 
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-sm p-3 md:p-4 overflow-hidden">
                 <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-slate-100">
@@ -591,9 +520,7 @@ export default function PersonalLoanAfterDeathClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 6. 6-Stage SOP for Legal Heirs Facing Personal Loan Claims After Death
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                If your family is confronted with loan recovery demands following the demise of a loved one, execute this structured, legally backed 6-stage Standard Operating Procedure to protect your rights:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> If your family is confronted with loan collection demands following the demise of a loved one. Execute this structured, legally backed 6-stage Standard Operating Procedure to protect your rights: </p>
 
               <div className="space-y-4 pt-2">
                 {/* Stage 1 */}
@@ -606,9 +533,7 @@ export default function PersonalLoanAfterDeathClient() {
                       Stage 1: Formal Death Intimation &amp; Interest Freezing Notice
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10">
-                    Immediately send a formal written letter along with a notarized copy of the municipal Death Certificate to the lender&apos;s home branch via registered Speed Post with Acknowledgment Due (AD) or official email. Request the bank to freeze all ongoing penal interest, late payment fines, and NACH/ECS mandate debits immediately.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10"> promptly send a formal written letter along with a notarized copy of the municipal Death letter to the lender&apos. s home branch via registered Speed Post with Acknowledgment Due (AD) or formal email. Request the bank to freeze all ongoing penal interest. Late payment fines, and NACH/ECS mandate debits promptly. </p>
                 </div>
 
                 {/* Stage 2 */}
@@ -621,9 +546,7 @@ export default function PersonalLoanAfterDeathClient() {
                       Stage 2: Loan Protection Insurance &amp; Credit Shield Audit
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10">
-                    Audit the original loan sanction letter, loan agreement, and initial bank disbursement statements. Check if an insurance premium (Credit Shield, Group Credit Life, or Loan Suraksha) was deducted from the disbursed loan amount. If insured, submit the official claim form along with medical records to ensure the insurer settles the outstanding loan balance.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10"> Audit the original loan sanction letter. Loan pacts, and initial bank disbursement records. Check if an cover premium (Credit Shield. Group Credit Life, or Loan Suraksha) was deducted from the disbursed loan amount. If insured, submit the formal claim form along with medical records to ensure the insurer settles the unpaid loan balance. </p>
                 </div>
 
                 {/* Stage 3 */}
@@ -636,9 +559,7 @@ export default function PersonalLoanAfterDeathClient() {
                       Stage 3: Estate Valuation &amp; Legal Heir Limitation Assessment
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10">
-                    Catalog all assets that were registered solely in the name of the deceased. Establish clearly whether any inheritable estate exists. If the deceased had zero assets in their personal name or if the debt exceeds the estate value, calculate the Section 50 CPC estate limit to prepare a solid legal defense.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10"> Catalog all assets that were registered solely in the name of the deceased. Establish clearly whether any inheritable estate exists. If the deceased had zero assets in their private name or if the debt exceeds the estate value. Calculate the Section 50 CPC estate limit to prepare a solid legal defense. </p>
                 </div>
 
                 {/* Stage 4 */}
@@ -651,9 +572,7 @@ export default function PersonalLoanAfterDeathClient() {
                       Stage 4: Rebuttal of Recovery Agent Harassment (Citing Section 50 CPC &amp; RBI Rules)
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10">
-                    If third-party collection agencies make threatening calls or home visits, do not pay under panic. Issue a stern written notice citing Section 50 CPC and RBI Recovery Master Directions. Remind them that harassing bereaved family members constitutes an offense of criminal intimidation and extortion under Sections 351 and 308 of the Bharatiya Nyaya Sanhita (BNS).
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10"> If third-party collection firms make threatening calls or home visits. Do not pay under panic. Issue a stern written notice citing Section 50 CPC and RBI collection Master Directions. Remind them that harassing bereaved family members constitutes an offense of criminal threats and extortion under Sections 351 and 308 of the Bharatiya Nyaya Sanhita (BNS). </p>
                 </div>
 
                 {/* Stage 5 */}
@@ -666,9 +585,7 @@ export default function PersonalLoanAfterDeathClient() {
                       Stage 5: Representation Before Bank Settlement Committee (OTS / Debt Write-Off)
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10">
-                    Present the legal heir position directly to the bank&apos;s Principal Nodal Officer or Special Settlement Committee. For uninsured loans with zero estate, request a formal accounting write-off. For partial estate cases, negotiate a heavily discounted compromise One-Time Settlement (OTS) with a 50% to 80% waiver on accrued interest and penalties.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10"> Present the legal heir position straight to the bank&apos. s main loan Nodal Officer or Special Settlement boards. For uninsured loans with zero estate. Request a formal accounting write-off. For partial estate cases, settle a heavily discounted OTS deal One-Time Settlement (OTS) with a 50% to 80% waiver on accrued interest and penalties. </p>
                 </div>
 
                 {/* Stage 6 */}
@@ -681,9 +598,7 @@ export default function PersonalLoanAfterDeathClient() {
                       Stage 6: Securing Unconditional No Dues Certificate &amp; Credit Bureau Demise Update
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10">
-                    Once the insurance claim or settlement payment is processed, obtain a formal, unconditional No Dues Certificate (NDC) on the bank&apos;s official letterhead. Ensure the bank reports the loan account status as &quot;Closed / Settled Due to Demise&quot; to CIBIL, Experian, CRIF High Mark, and Equifax, permanently closing the file.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10"> Once the cover claim or settlement payment is processed. Obtain a formal, full No Dues letter (NDC) on the bank&apos. s formal letterhead. Ensure the bank reports the loan account status as &quot. Closed / Settled Due to Demise&quot. To CIBIL, Experian, CRIF High Mark. And Equifax, permanently closing the file. </p>
                 </div>
               </div>
             </section>
@@ -697,9 +612,7 @@ export default function PersonalLoanAfterDeathClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 7. Formal Cease &amp; Desist Legal Notice Draft for Bereaved Families
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Below is a formal legal response template engineered to stop unlawful recovery harassment and assert legal heir protections under Section 50 CPC, Indian Contract Act, and RBI Recovery Master Directions:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Below is a formal legal response template engineered to stop unlawful collection abuse and assert legal heir protections under Section 50 CPC. Indian Contract Act, and RBI collection Master Directions: </p>
 
               {/* DARK MONOSPACE TERMINAL DRAFT */}
               <div className="bg-slate-900 text-slate-100 p-5 rounded-2xl font-mono text-xs shadow-md border border-slate-800 space-y-3 overflow-x-auto leading-relaxed">
@@ -708,27 +621,17 @@ export default function PersonalLoanAfterDeathClient() {
                   <span className="text-slate-500 text-[10px]">REGISTERED SPEED POST / EMAIL WITH AD</span>
                 </div>
                 <div className="text-slate-300 space-y-2">
-                  <p><strong>TO:</strong> The Principal Nodal Officer / Head of Customer Grievance Redressal</p>
-                  <p><strong>LENDER:</strong> [Name of Commercial Bank / NBFC Institution]</p>
-                  <p><strong>LOAN ACCOUNT NUMBER:</strong> [Enter Deceased Borrower&apos;s Loan No.]</p>
-                  <p><strong>DECEASED BORROWER:</strong> Late [Full Name of Borrower] (Demised on [Date of Death])</p>
-                  <p><strong>SUBJECT:</strong> Formal Intimation of Borrower Demise, Demand to Freeze Interest Accrual, and Cease &amp; Desist Notice Against Unlawful Recovery Harassment of Non-Signatory Legal Heirs</p>
+                  <p><strong>TO:</strong> The main loan Nodal Officer / Head of Customer Grievance Redressal</p>
+                  <p><strong>LENDER:</strong> [Name of banks / NBFC Institution]</p>
+                  <p><strong>LOAN ACCOUNT NUMBER:</strong> [Enter Deceased client&apos. s Loan No.]</p>
+                  <p><strong>DECEASED client:</strong> Late [Full Name of client] (Demised on [Date of Death])</p>
+                  <p><strong>SUBJECT:</strong> Formal Intimation of client Demise. Demand to Freeze Interest Accrual, and Cease &amp. Desist Notice Against Unlawful collection abuse of Non-Signatory Legal Heirs</p>
                   <p className="pt-2">Sir / Madam,</p>
-                  <p>
-                    1. Please be formally notified that the primary borrower referenced above sadly passed away on [Date of Death]. A certified copy of the municipal Death Certificate (Registration No: [Enter Number]) is annexed herewith for your official records.
-                  </p>
-                  <p>
-                    2. Take notice that third-party recovery agents representing your institution have been continuously contacting and visiting the residential premises of the surviving family members, issuing unlawful threats of asset seizure and demanding that non-signatory legal heirs pay the outstanding debt out of their personal funds.
-                  </p>
-                  <p>
-                    3. You are explicitly reminded that under Section 37 of the Indian Contract Act, 1872 and Sections 50(2) and 52(1) of the Code of Civil Procedure, 1908, surviving legal heirs hold zero personal liability for an unsecured personal loan. A legal heir&apos;s liability is strictly limited to the value of the inherited estate. The surviving family members are non-signatory third parties and own only self-acquired assets which are completely immune under Indian law.
-                  </p>
-                  <p>
-                    4. Furthermore, under RBI Master Direction DOR.ORG.REC.65/21.04.158/2022-23 (Fair Practices Code), lenders and their recovery agents are strictly prohibited from intimidating, threatening, or contacting bereaved family members in violation of statutory privacy standards.
-                  </p>
-                  <p>
-                    5. You are hereby called upon to immediately: (a) Freeze all interest, penal charges, and NACH debits as of the date of death, (b) Halt all third-party recovery agent calls and home visits, (c) Verify and process the embedded Credit Shield / Loan Life Insurance policy, and (d) Issue a formal Statement of Account to the undersigned for final settlement / closure.
-                  </p>
+                  <p> 1. Please be formally notified that the primary client referenced above sadly passed away on [Date of Death]. A certified copy of the municipal Death letter (Registration No: [Enter Number]) is annexed herewith for your records. </p>
+                  <p> 2. Take notice that third-party collection agents representing your institution have been continuously contacting and visiting the residential premises of the surviving family members. Issuing unlawful threats of asset seizure and demanding that non-signatory legal heirs pay the unpaid debt out of their private funds. </p>
+                  <p> 3. You are explicitly reminded that under Section 37 of the Indian Contract Act. 1872 and Sections 50(2) and 52(1) of the Code of Civil Procedure. 1908, surviving legal heirs hold zero private debt risk for an no-collateral private loans. A legal heir&apos. s debt risk is strictly limited to the value of the inherited estate. The surviving family members are non-signatory third parties and own only self-acquired assets which are completely immune under Indian law. </p>
+                  <p> 4. Also, under RBI Master Direction DOR.ORG.REC.65/21.04.158/2022-23 (Fair Practices Code). Lenders and their collection agents are strictly prohibited from intimidating. Threatening, or contacting bereaved family members in violation of legal privacy standards. </p>
+                  <p> 5. You are hereby called upon to promptly: (a) Freeze all interest. Penal charges, and NACH debits as of the date of death. (b) Halt all third-party collection agent calls and home visits. (c) Verify and process the embedded Credit Shield / Loan Life cover policy. And (d) Issue a formal record of Account to the undersigned for final settlement / closure. </p>
                 </div>
                 <div className="text-slate-500 text-[10px] pt-2 border-t border-slate-800 flex justify-between">
                   <span>Authorized Representative of Deceased Borrower&apos;s Family</span>
@@ -746,9 +649,7 @@ export default function PersonalLoanAfterDeathClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 8. 3-Tier Institutional Grievance Redressal Matrix
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                If a lender refuses to honor the Death Certificate, ignores loan insurance coverage, or deploys aggressive recovery agents against your family, escalate through the statutory 3-tier grievance mechanism:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> If a lender refuses to honor the Death letter. Ignores loan cover coverage, or deploys aggressive collection agents against your family. Escalate through the legal 3-tier grievance mechanism: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
                 {/* Tier 1 */}
@@ -763,9 +664,7 @@ export default function PersonalLoanAfterDeathClient() {
                     <h3 className="text-sm md:text-base font-bold text-slate-900">
                       Branch Manager &amp; Bereavement Desk
                     </h3>
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      Submit the Death Certificate and formal intimation letter to the Branch Head. Request a formal Complaint Docket / Service Request Number confirming receipt and account freeze.
-                    </p>
+                    <p className="text-xs text-slate-600 leading-relaxed"> Submit the Death letter and formal intimation letter to the Branch Head. Request a formal Complaint Docket / Service Request Number confirming receipt and account freeze. </p>
                   </div>
                   <div className="text-[11px] font-bold text-[#1886ff] pt-2 border-t border-slate-100">
                     Action: Intimation &amp; Insurance Audit
@@ -784,9 +683,7 @@ export default function PersonalLoanAfterDeathClient() {
                     <h3 className="text-sm md:text-base font-bold text-slate-900">
                       Principal Nodal Officer (PNO)
                     </h3>
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      If the branch ignores the intimation or recovery calls continue, escalate to the bank&apos;s Principal Nodal Officer and Internal Ombudsman to recall recovery agencies and enforce Section 50 CPC limits.
-                    </p>
+                    <p className="text-xs text-slate-600 leading-relaxed"> If the branch ignores the intimation or collection calls continue, escalate to the bank&apos. s main loan Nodal Officer and Internal Ombudsman to recall collection firms and enforce Section 50 CPC limits. </p>
                   </div>
                   <div className="text-[11px] font-bold text-[#1886ff] pt-2 border-t border-slate-100">
                     Action: Recall Agents &amp; Negotiate OTS
@@ -805,9 +702,7 @@ export default function PersonalLoanAfterDeathClient() {
                     <h3 className="text-sm md:text-base font-bold text-slate-900">
                       RBI Integrated Ombudsman &amp; Police
                     </h3>
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      File an online complaint on the RBI CMS Portal (<code>cms.rbi.org.in</code>) for unfair practices and harassment. For criminal threats, lodge an FIR with the local Police / Cyber Cell.
-                    </p>
+                    <p className="text-xs text-slate-600 leading-relaxed"> File an online complaint on the RBI CMS Portal (<code>cms.rbi.org.in</code>) for unfair practices and abuse. For criminal threats, lodge an FIR with the local Police / Cyber Cell. </p>
                   </div>
                   <div className="text-[11px] font-bold text-emerald-700 pt-2 border-t border-slate-100">
                     Action: Regulatory Penalties &amp; Closure
@@ -825,9 +720,7 @@ export default function PersonalLoanAfterDeathClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 9. Chronological Resolution Timelines &amp; Post-Death Settlement Milestones
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                The institutional lifecycle of handling a deceased borrower&apos;s loan account follows a standard banking trajectory. Here is what family members should expect at each stage:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The bank lifecycle of handling a deceased client&apos. s loan account follows a standard banking trajectory. Here is what family members should expect at each stage: </p>
 
               {/* TABLE WITH BOTH VERTICAL AND HORIZONTAL GRID LINES */}
               <div className="overflow-x-auto rounded-xl border border-slate-300 bg-white shadow-xs">
@@ -843,39 +736,39 @@ export default function PersonalLoanAfterDeathClient() {
                   </thead>
                   <tbody className="text-slate-700">
                     <tr className="hover:bg-slate-50">
-                      <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Days 1 – 15</td>
+                      <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Days 1. 15</td>
                       <td className="p-3 md:p-3.5 border border-slate-300">Demise Intimation Pending</td>
                       <td className="p-3 md:p-3.5 border border-slate-300">Automated SMS, missed EMI reminder calls</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300">Submit Death Certificate; demand NACH cancelation</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300">Submit Death letter. demand NACH cancelation</td>
                       <td className="p-3 md:p-3.5 border border-slate-300">Account flagged as Demised in Core Banking System</td>
                     </tr>
                     <tr className="hover:bg-slate-50">
-                      <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Days 16 – 45</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300">Insurance &amp; Estate Review</td>
+                      <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Days 16. 45</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300">cover &amp. Estate Review</td>
                       <td className="p-3 md:p-3.5 border border-slate-300">Collection call center outreach</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300">Submit insurance claim; assert Section 50 CPC limits</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300">Insurance claim initiated; penal charges frozen</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300">Submit cover claim. assert Section 50 CPC limits</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300">cover claim initiated. penal charges frozen</td>
                     </tr>
                     <tr className="hover:bg-slate-50">
-                      <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Days 46 – 90</td>
+                      <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Days 46. 90</td>
                       <td className="p-3 md:p-3.5 border border-slate-300 text-amber-700 font-bold">NPA / Loss Classification</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-red-700">Agency assignment, unauthorized home visits</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-[#1886ff] font-semibold">Issue Cease &amp; Desist notice to PNO citing RBI norms</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300">Recovery calls halted; file transferred to settlement desk</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-red-700">firm assignment, illegal home visits</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-[#1886ff] font-semibold">Issue Cease &amp. Desist notice to PNO citing RBI norms</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300">collection calls halted. file transferred to settlement teams</td>
                     </tr>
                     <tr className="hover:bg-slate-50">
-                      <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Days 91 – 180</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300">Special Recovery Committee</td>
+                      <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Days 91. 180</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300">Special collection boards</td>
                       <td className="p-3 md:p-3.5 border border-slate-300">Formal legal settlement offer letters</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-[#1886ff] font-semibold">Negotiate OTS compromise or prove zero estate assets</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-[#1886ff] font-semibold">settle OTS OTS deal or prove zero estate assets</td>
                       <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-semibold">Sanction of 50% to 80% waiver or complete debt write-off</td>
                     </tr>
                     <tr className="hover:bg-slate-50">
                       <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Post-Settlement</td>
                       <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">Account Extinguished</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700">Zero recovery activity; all harassment halted</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">Collect unconditional No Dues Certificate (NDC)</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">CIBIL updated to &quot;Closed / Demised&quot;; complete legal peace</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700">Zero collection activity. all abuse halted</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">Collect full No Dues letter (NDC)</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">CIBIL updated to &quot. Closed / Demised&quot. complete legal peace</td>
                     </tr>
                   </tbody>
                 </table>
@@ -891,9 +784,7 @@ export default function PersonalLoanAfterDeathClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 10. Specialized Real-World Scenarios: Credit Cards, Fintech Apps &amp; Insurance Nominees
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Different financial products and lending channels present distinct challenges upon a borrower&apos;s death. Here is how to navigate complex scenarios:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Different money products and lending channels present distinct challenges upon a client&apos. s death. Here is how to navigate complex scenarios: </p>
 
               <div className="space-y-4 pt-2">
                 {/* Scenario 1 */}
@@ -907,9 +798,7 @@ export default function PersonalLoanAfterDeathClient() {
                   <h3 className="text-sm md:text-base font-bold text-slate-900">
                     Add-On Cardholders vs. Primary Deceased Cardholder
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Credit card debt is 100% unsecured. If the primary cardholder passes away, the debt does not pass to surviving family. However, if a family member holds an <strong>Add-On card</strong>, banks sometimes claim the add-on user is liable. Legally, add-on cardholders are merely authorized users, not primary debtors. The debt remains bounded strictly by the deceased primary cardholder&apos;s estate under Section 50 CPC.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Credit card debt is 100% no-collateral. If the primary cardholder passes away. The debt does not pass to surviving family. However, if a family member holds an <strong>Add-On card</strong>, banks sometimes claim the add-on user is liable. Legally, add-on cardholders are merely authorized users, not primary debtors. The debt remains bounded strictly by the deceased primary cardholder&apos. s estate under Section 50 CPC. </p>
                 </div>
 
                 {/* Scenario 2 */}
@@ -923,9 +812,7 @@ export default function PersonalLoanAfterDeathClient() {
                   <h3 className="text-sm md:text-base font-bold text-slate-900">
                     Illegal Harassment of Contact Lists Post Demise
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Rogue digital lending apps often harvest contact lists and send threatening messages to relatives even after being informed of the borrower&apos;s death. This is a severe violation of the RBI Digital Lending Directions (2022) and the Information Technology Act. Immediately file a complaint on the National Cyber Crime Portal (<code>cybercrime.gov.in</code>) and RBI Sachet portal to trigger regulatory sanctions against the digital lender.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Rogue digital lending apps often harvest contact lists and send threatening messages to relatives even after being informed of the client&apos. s death. This is a severe violation of the RBI Digital Lending Directions (2022) and the Information Technology Act. promptly file a complaint on the National Cyber Crime Portal (<code>cybercrime.gov.in</code>) and RBI Sachet portal to trigger RBI sanctions against the digital lender. </p>
                 </div>
 
                 {/* Scenario 3 */}
@@ -939,9 +826,7 @@ export default function PersonalLoanAfterDeathClient() {
                   <h3 className="text-sm md:text-base font-bold text-slate-900">
                     Can Banks Forcefully Deduct Loan From Term Life Insurance Proceeds?
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Banks often attempt to seize term life insurance payouts received by the widow or children (nominees) to clear unpaid personal loans. Under Section 39(7) of the Insurance Act, 1938 (as amended in 2015), beneficial nominees (spouse, children, parents) hold absolute beneficial ownership of policy proceeds. Furthermore, policies under the Married Women&apos;s Property (MWP) Act, 1874 are statutorily protected from all creditors and cannot be attached.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Banks often attempt to seize term life cover payouts received by the widow or children (nominees) to clear unpaid private loans. Under Section 39(7) of the cover Act. 1938 (as amended in 2015). Beneficial nominees (spouse, children, parents) hold absolute beneficial ownership of policy proceeds. also, policies under the Married Women&apos. S Property (MWP) Act, 1874 are statutorily protected from all creditors and cannot be attached. </p>
                 </div>
               </div>
             </section>
@@ -960,9 +845,7 @@ export default function PersonalLoanAfterDeathClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Frequently Asked Questions About Personal Loans After Borrower Death
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Review exhaustive legal answers to the most critical questions regarding family liability, estate succession, and recovery agent restrictions under Indian banking law:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Review exhaustive legal answers to the most critical questions regarding family debt risk. Estate succession, and collection agent restrictions under Indian banking law: </p>
 
               <div className="space-y-3 pt-2">
                 {faqs.map((faq, idx) => {
@@ -996,9 +879,7 @@ export default function PersonalLoanAfterDeathClient() {
               <h2 className="text-lg sm:text-xl font-bold text-slate-900">
                 Official Statutory &amp; Regulatory Citations
               </h2>
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                The legal principles, statutory exemptions, and precedents detailed in this guide are anchored directly in official Indian statutes and regulatory directives:
-              </p>
+              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> The legal principles, legal exemptions. And rulings detailed in this guide are anchored straight in formal Indian statutes and RBI directives: </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 pt-1">
                 <a href="https://www.rbi.org.in" target="_blank" rel="noopener noreferrer" className="p-3 bg-white rounded-xl border border-slate-200 hover:border-[#1886ff] shadow-2xs hover:shadow-xs transition-all flex items-center justify-between text-xs font-semibold text-slate-700 hover:text-[#1886ff]">
@@ -1105,14 +986,10 @@ export default function PersonalLoanAfterDeathClient() {
                   <Link href="/author/ashish-jhangra" className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief expert </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed border-t border-slate-100 pt-2.5">
-                Specialist in civil debt dispute resolution, Section 50 CPC legal heir protection, and RBI regulatory enforcement with over a decade of experience safeguarding Indian families.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed border-t border-slate-100 pt-2.5"> Specialist in civil debt dispute relief. Section 50 CPC legal heir protection. And RBI RBI enforcement with over a decade of skill safeguarding Indian families. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
                   <span>View Author Profile</span>
@@ -1133,12 +1010,8 @@ export default function PersonalLoanAfterDeathClient() {
               </div>
 
               <div className="space-y-1">
-                <p className="text-base font-extrabold tracking-tight leading-snug">
-                  Bank Harassing Your Family?
-                </p>
-                <p className="text-xs text-blue-100 leading-relaxed">
-                  Protect your loved ones from unlawful recovery pressure. Enforce Section 50 CPC protections and get direct representation before the bank.
-                </p>
+                <p className="text-base font-extrabold tracking-tight leading-snug"> Bank Harassing Your Family? </p>
+                <p className="text-xs text-blue-100 leading-relaxed"> Protect your loved ones from unlawful collection pressure. Enforce Section 50 CPC protections and get direct legal help before the bank. </p>
               </div>
 
               <div className="space-y-2 pt-1">
@@ -1155,28 +1028,13 @@ export default function PersonalLoanAfterDeathClient() {
 
             {/* 3. CredSettle Trust Commitments Card */}
             <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 space-y-3">
-              <p className="text-xs font-black uppercase tracking-wider text-slate-800 flex items-center gap-1.5">
-                <ShieldCheck className="w-4 h-4 text-emerald-600"/>
-                <span>CredSettle Trust Commitments</span>
-              </p>
+              <p className="text-xs font-black uppercase tracking-wider text-slate-800 flex items-center gap-1.5"> <ShieldCheck className="w-4 h-4 text-emerald-600"/> <span>CredSettle Trust Commitments</span> </p>
 
               <ul className="space-y-2.5 text-xs text-slate-600">
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Zero Upfront Risk:</strong> Performance &amp; success-fee aligned engagement.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Direct Bank Remittance:</strong> 100% of settlement funds paid directly to bank.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>RBI &amp; CICRA Compliance:</strong> Strict adherence to statutory fair recovery rules.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Pan-India Representation:</strong> Protecting families across all 28 states &amp; UTs.</span>
-                </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Zero Upfront Risk:</strong> Performance &amp. success-fee aligned engagement.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Direct Bank Remittance:</strong> 100% of settlement funds paid straight to bank.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>RBI &amp. CICRA Compliance:</strong> Strict adherence to legal fair collection rules.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Pan-India legal help:</strong> Protecting families across all 28 states &amp. UTs.</span> </li>
               </ul>
             </div>
 

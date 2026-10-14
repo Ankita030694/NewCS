@@ -47,35 +47,35 @@ export default function BajajFinservPersonalLoanSettlementClient() {
     const faqs = [
         {
             q: 'What is the official Bajaj Finserv personal loan settlement policy?',
-            a: "Bajaj Finance operates a structured compromise program managed by its central resolution desks in Pune. Borrowers facing verified job loss, business insolvency. Medical emergencies can settle unsecured personal loan dues via a One-Time Settlement, waiving all penal bounce charges alongside a large principal haircut."
+            a: "Bajaj Finance operates a structured OTS deal program managed by its central relief desks in Pune. Clients facing verified job loss. Trade bankruptcy. health crises can settle no-pledge private loans dues via a One-Time settlement. Waiving all penal bounce charges alongside a large main loan haircut."
         },
         {
             q: 'When does Bajaj Finance consider an unsecured personal loan eligible for a settlement?',
-            a: "An unsecured loan becomes eligible for compromise settlement once default crosses 90 consecutive days and is classified as a Non-Performing Asset (NPA). At this stage, mandatory RBI provisioning rules incentivize Bajaj credit committees to accept a discounted cash settlement to clean their balance sheet."
+            a: "An no-pledge loan becomes eligible for OTS deals once default crosses 90 consecutive days and is classified as a Non-Performing Asset (NPA). At this stage. Strict RBI provisioning rules incentivize Bajaj credit boards to accept a discounted cash settlement to clean their balance sheet."
         },
         {
             q: 'How much waiver or discount can I realistically negotiate on a Bajaj Finserv personal loan?',
-            a: "Borrowers typically secure a 100% waiver on accrued penal interest and NACH bounce fees. On the core remaining principal balance, borrowers realistically negotiate a 40% to 55% haircut depending on the age of default, hardship paperwork. Recovery stage."
+            a: "clients typically secure a 100% waiver on accrued penal interest and NACH bounce fees. On the core remaining base loan. Clients realistically settle a 40% to 55% haircut depending on the age of default. Hardship paperwork. claims stage."
         },
         {
             q: 'How can I stop aggressive recovery agents and field visits from Bajaj Finance?',
-            a: "Serve a formal legal representation directly to the Bajaj Finance Principal Nodal Officer in Pune. This invokes the RBI Fair Practices Code, limits calls strictly between 8:00 AM and 7:00 PM, redirects contact to your legal counsel. Halts unauthorized workplace visits."
+            a: "Serve a formal legal legal help straight to the Bajaj Finance main loan Nodal Officer in Pune. This invokes the RBI Fair Practices Code. Limits calls strictly between 8:00 AM and 7:00 PM. Redirects contact to your legal counsel. Halts illegal workplace visits."
         },
         {
             q: 'How do I approach the Bajaj Finserv Stressed Asset Resolution Department directly?',
-            a: "Bypass third-party collection telecallers by submitting a documented hardship dossier directly to the Bajaj Finance Zonal Grievance Redressal Officer and credit committee. CredSettle helps direct institutional representation to negotiate binding settlement terms."
+            a: "Bypass third-party claims telecallers by submitting a documented hardship dossier straight to the Bajaj Finance Zonal Grievance Redressal Officer and credit boards. CredSettle helps direct bank legal help to settle binding settlement terms."
         },
         {
             q: 'What should I do if I receive a Section 25 NACH bounce notice or Section 138 notice from Bajaj Finance?',
-            a: "Never ignore statutory notices. Serve a formal legal reply through counsel within 15 to 30 days, establishing genuine financial hardship, refuting intentional dishonor. Proposing an amicable One-Time Settlement before magistrate court proceedings start."
+            a: "Never ignore legal notices. Serve a formal legal reply through counsel within 15 to 30 days. Establishing genuine hardship. Refuting intentional dishonor. Proposing an amicable One-Time settlement before magistrate court steps start."
         },
         {
             q: 'Can Bajaj Finserv send police, file an FIR, or have a borrower arrested for personal loan default?',
-            a: 'Unsecured personal loan default is strictly a civil dispute, not a criminal offense. Police cannot file an FIR or arrest borrowers for unpaid EMIs. Even Section 25 PSSA auto-debit bounce notices are compoundable matters routinely resolved through settlement.'
+            a: 'No-pledge private loans default is strictly a civil claims. Not a criminal offense. Police cannot file an FIR or arrest clients for unpaid EMIs. Even Section 25 PSSA auto-debit bounce notices are compoundable matters routinely resolved through settlement.'
         },
         {
             q: 'What essential clauses must be verified in an official Bajaj Finserv settlement sanction letter?',
-            a: 'An authentic Bajaj settlement letter must be on official letterhead, originate from a verified @bajajfinserv.in email, state your exact loan number, define agreed payment tranches, and explicitly covenant to withdraw all legal notices upon settlement.'
+            a: 'An authentic Bajaj closure note must be on formal letterhead. Originate from a verified @bajajfinserv.in email. State your exact loan number. Define agreed payment tranches. And explicitly covenant to withdraw all legal notices upon settlement.'
         },
         {
             q: 'How will settling a Bajaj Finserv personal loan impact my CIBIL report and credit score?',
@@ -83,7 +83,7 @@ export default function BajajFinservPersonalLoanSettlementClient() {
         },
         {
             q: 'What is the procedure and timeline to obtain the No Dues Certificate (NDC) from Bajaj Finance?',
-            a: "After paying the agreed settlement amount directly into your Bajaj loan account via NEFT or RTGS, the bank reconciles the ledger and writes off the waived variance. Bajaj Finance issues the official No Dues Certificate (NDC) within 30 to 45 business days."
+            a: "After paying the agreed payout sum straight into your Bajaj loan account via NEFT or RTGS. The bank reconciles the ledger and writes off the waived variance. Bajaj Finance issues the formal No Dues letter (NDC) within 30 to 45 trade days."
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -100,9 +100,7 @@ export default function BajajFinservPersonalLoanSettlementClient() {
             Bajaj Finserv Personal Loan Settlement
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed">
-            Institutional protocol for resolving overdue Bajaj Finance personal loans. Halt collection agency calls, stop unauthorized workplace visits, waive compounding NACH bounce charges. Secure 40% to 55% principal haircuts with an official No Dues Certificate.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> bank protocol for resolving overdue Bajaj Finance private loans. Halt claims firm calls. Stop illegal workplace visits. Waive compounding NACH bounce charges. Secure 40% to 55% main loan haircuts with an formal No Dues letter. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -145,9 +143,7 @@ export default function BajajFinservPersonalLoanSettlementClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>Institutional Defense.</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Governed by Reserve Bank of India NBFC Regulations and Fair Practices Code.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by Reserve Bank of India NBFC Regulations and Fair Practices Code. </p>
               </div>
             </div>
           </aside>
@@ -163,40 +159,15 @@ export default function BajajFinservPersonalLoanSettlementClient() {
               </div>
 
               <ul className="space-y-2 text-xs sm:text-sm text-slate-700 leading-relaxed">
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div className="truncate sm:overflow-visible">
-                    <strong className="text-slate-900 font-bold">NPA Mandate:</strong> Resolved directly through Bajaj Finance stressed asset desks after 90 days of default.
-                  </div>
-                </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div className="truncate sm:overflow-visible"> <strong className="text-slate-900 font-bold">NPA Mandate:</strong> Resolved straight through Bajaj Finance stressed asset desks after 90 days of default. </div> </li>
 
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div className="truncate sm:overflow-visible">
-                    <strong className="text-slate-900 font-bold">Zero Mortgage Risk:</strong> Unsecured loans carry zero property mortgage or SARFAESI attachment rights.
-                  </div>
-                </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div className="truncate sm:overflow-visible"> <strong className="text-slate-900 font-bold">Zero Mortgage Risk:</strong> no-pledge loans carry zero property mortgage or SARFAESI attachment rights. </div> </li>
 
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div className="truncate sm:overflow-visible">
-                    <strong className="text-slate-900 font-bold">100% Penal Waiver:</strong> Full elimination of compounding penal interest and repeated NACH bounce fees.
-                  </div>
-                </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div className="truncate sm:overflow-visible"> <strong className="text-slate-900 font-bold">100% Penal Waiver:</strong> Full elimination of compounding penal interest and repeated NACH bounce fees. </div> </li>
 
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div className="truncate sm:overflow-visible">
-                    <strong className="text-slate-900 font-bold">40% to 55% Haircut:</strong> Practical principal compromise negotiated on core unamortized balances.
-                  </div>
-                </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div className="truncate sm:overflow-visible"> <strong className="text-slate-900 font-bold">40% to 55% Haircut:</strong> Practical main loan OTS deal settled on core unamortized balances. </div> </li>
 
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div className="truncate sm:overflow-visible">
-                    <strong className="text-slate-900 font-bold">Official Closure:</strong> Binding sanction letter followed by an authentic No Dues Certificate within 30 to 45 days.
-                  </div>
-                </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div className="truncate sm:overflow-visible"> <strong className="text-slate-900 font-bold">formal Closure:</strong> Binding sanction letter followed by an authentic No Dues letter within 30 to 45 days. </div> </li>
               </ul>
             </div>
 
@@ -209,12 +180,8 @@ export default function BajajFinservPersonalLoanSettlementClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 1. Debt Economics &amp; NPA Classification in Bajaj Finance Personal Loans
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Bajaj Finance Limited disburses large volumes of unsecured personal and flexi loans via digital underwriting. When sudden income loss, business downturns, or medical emergencies disrupt cashflow, servicing installments becomes unviable. Overdue accounts progress through Special Mention Account stages: SMA-0 (1-30 days), SMA-1 (31-60 days), and SMA-2 (61-90 days). Beyond 90 consecutive days of default, the loan is formally classified as a Non-Performing Asset (NPA) under Reserve Bank of India prudential guidelines.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                NPA reclassification requires Bajaj Finance to halt ledger interest accruals and allocate 15% to 25% provisions from its Tier-1 core capital reserves. Because unsecured personal loans lack mortgaged property or physical collateral, Bajaj cannot initiate summary asset seizure under the SARFAESI Act. Protracted civil litigation or disputed arbitrations across courts involve heavy administrative costs. as a result, Bajaj Finance central stressed asset committees in Pune are commercially motivated to approve structured One-Time Settlements (OTS) to release locked capital reserves and clean toxic non-performing assets off their balance sheets.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Bajaj Finance Limited disburses large volumes of no-pledge private and flexi loans via digital underwriting. When sudden income loss. Trade downturns. Or health crises disrupt cashflow. Servicing installments becomes unviable. Overdue accounts progress through Special Mention Account stages: SMA-0 (1-30 days). SMA-1 (31-60 days). And SMA-2 (61-90 days). Beyond 90 consecutive days of default. The loan is formally classified as a Non-Performing Asset (NPA) under Reserve Bank of India prudential rules. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> NPA reclassification requires Bajaj Finance to halt ledger interest accruals and allocate 15% to 25% provisions from its Tier-1 core cash reserves. Because no-pledge private loans lack mortgaged property or physical pledge. Bajaj cannot initiate summary asset seizure under the SARFAESI Act. Protracted civil lawsuits or disputed arbitrations across courts involve heavy office costs. As a result. Bajaj Finance central stressed asset boards in Pune are commercially motivated to approve structured One-Time deals (OTS) to release locked cash reserves and clean toxic non-performing assets off their balance sheets. </p>
             </section>
 
             {/* SECTION 2: Financial Breakdown & Settlement Math */}
@@ -226,12 +193,8 @@ export default function BajajFinservPersonalLoanSettlementClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 2. Financial Breakdown: Principal vs. Compounded Penal Levies
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When an EMI bounces, Bajaj Finance systems inflate the balance with annual penal interest between 24% and 36%, plus recurring auto-debit bounce fees of ₹500 and 18% GST for each failed presentation. Within several months, these artificial non-statutory charges swell the gross claim by 30% to 50% above the genuine unamortized loan principal.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                A skilled debt resolution strategy begins with a forensic audit to strip away these non-statutory additions. When backed by verified financial hardship records, Bajaj Finance credit committees routinely authorize a 100% waiver across all extra penalty charges and bounce charges, alongside a 40% to 55% principal haircut on the core unamortized balance.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When an EMI bounces. Bajaj Finance systems inflate the balance with annual penal interest between 24% and 36%. Plus recurring auto-debit bounce fees of ₹500 and 18% GST for each failed presentation. Within several months. These artificial non-legal charges swell the gross claim by 30% to 50% above the genuine unamortized loan main loan. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> A skilled debt relief plan begins with a audits to strip away these non-legal additions. When backed by verified hardship records. Bajaj Finance credit boards routinely authorize a 100% waiver across all extra penalty charges and bounce charges. Alongside a 40% to 55% main loan haircut on the core unamortized balance. </p>
 
               {/* Representative Calculation Card */}
               <div className="border border-slate-200/80 rounded-2xl overflow-hidden bg-white shadow-xs">
@@ -254,25 +217,25 @@ export default function BajajFinservPersonalLoanSettlementClient() {
                     </thead>
                     <tbody className="divide-y divide-slate-200/80 text-slate-600">
                       <tr>
-                        <td className="p-3 font-medium text-slate-900">remaining principal balance.</td>
+                        <td className="p-3 font-medium text-slate-900">remaining base loan.</td>
                         <td className="p-3">₹7,00,000</td>
                         <td className="p-3 text-emerald-600 font-semibold">45% Core Haircut (₹3,15,000).</td>
                         <td className="p-3 text-right font-bold text-slate-900">₹3,85,000</td>
                       </tr>
                       <tr>
-                        <td className="p-3 font-medium text-slate-900">Accrued Regular &amp; Penal Interest.</td>
+                        <td className="p-3 font-medium text-slate-900">Accrued Regular &amp. Penal Interest.</td>
                         <td className="p-3">₹2,40,000</td>
                         <td className="p-3 text-emerald-600 font-semibold">100% Complete Waiver.</td>
                         <td className="p-3 text-right font-bold text-slate-900">₹0</td>
                       </tr>
                       <tr>
-                        <td className="p-3 font-medium text-slate-900">Late Surcharges &amp; NACH Bounces.</td>
+                        <td className="p-3 font-medium text-slate-900">Late Surcharges &amp. NACH Bounces.</td>
                         <td className="p-3">₹60,00,0</td>
-                        <td className="p-3 text-emerald-600 font-semibold">100% Administrative Waiver.</td>
+                        <td className="p-3 text-emerald-600 font-semibold">100% office Waiver.</td>
                         <td className="p-3 text-right font-bold text-slate-900">₹0</td>
                       </tr>
                       <tr className="bg-blue-50/70 font-bold text-slate-900">
-                        <td className="p-3">Total Compromise Evaluation.</td>
+                        <td className="p-3">Total OTS deal Evaluation.</td>
                         <td className="p-3 text-rose-600">₹10,00,000</td>
                         <td className="p-3 text-emerald-700">₹6,15,000 Total Relief (61.5% Savings).</td>
                         <td className="p-3 text-right text-[#1886ff] text-sm sm:text-base">₹3,85,000 Final OTS.</td>
@@ -292,9 +255,7 @@ export default function BajajFinservPersonalLoanSettlementClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 3. Comparative Analysis: Bajaj Finance Debt Resolution Pathways
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Borrowers must evaluate their options objectively. Simple tenure restructuring increases overall interest without principal relief, while ignoring notices invites aggressive recovery visits and court summons. An institutional OTS provides definitive closure and legal immunity.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> clients must evaluate their options objectively. Simple tenure restructuring increases overall interest without main loan relief. Meanwhile. Ignoring notices invites aggressive claims visits and court summons. An bank OTS provides definitive closure and legal immunity. </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto bg-white shadow-xs">
                 <table className="w-full text-xs sm:text-sm text-left border-collapse divide-x divide-slate-200/80 min-w-[620px]">
@@ -309,9 +270,9 @@ export default function BajajFinservPersonalLoanSettlementClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-600">
                     <tr className="bg-blue-50/30">
-                      <td className="p-3 font-bold text-slate-900">One-Time Settlement (OTS).</td>
-                      <td className="p-3 text-emerald-600 font-semibold">40% to 55% Principal Haircut.</td>
-                      <td className="p-3">Complete Discharge &amp; Notice Withdrawal.</td>
+                      <td className="p-3 font-bold text-slate-900">One-Time settlement (OTS).</td>
+                      <td className="p-3 text-emerald-600 font-semibold">40% to 55% main loan Haircut.</td>
+                      <td className="p-3">Complete Discharge &amp. Notice Withdrawal.</td>
                       <td className="p-3 font-mono text-[11px]">Settled / Zero Balance.</td>
                       <td className="p-3">30 to 60 Days</td>
                     </tr>
@@ -323,7 +284,7 @@ export default function BajajFinservPersonalLoanSettlementClient() {
                       <td className="p-3">45 to 90 Days</td>
                     </tr>
                     <tr>
-                      <td className="p-3 font-medium text-slate-900">Civil Court Litigation.</td>
+                      <td className="p-3 font-medium text-slate-900">Civil Court lawsuits.</td>
                       <td className="p-3 text-rose-600">High Legal Defense Expenses.</td>
                       <td className="p-3">Prolonged Adversarial Decrees.</td>
                       <td className="p-3 font-mono text-[11px]">Suit Filed / Wilful Default.</td>
@@ -331,7 +292,7 @@ export default function BajajFinservPersonalLoanSettlementClient() {
                     </tr>
                     <tr>
                       <td className="p-3 font-medium text-slate-900">National Lok Adalat.</td>
-                      <td className="p-3 text-emerald-600">35% to 50% Mutual Compromise.</td>
+                      <td className="p-3 text-emerald-600">35% to 50% Mutual OTS deal.</td>
                       <td className="p-3">Section 21 Non-Appealable Decree.</td>
                       <td className="p-3 font-mono text-[11px]">Settled in Lok Adalat.</td>
                       <td className="p-3">Sitting Date Basis.</td>
@@ -357,12 +318,8 @@ export default function BajajFinservPersonalLoanSettlementClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 4. CIBIL Scoring Mechanics, Algorithms &amp; Score Rehabilitation
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Credit bureaus (CIBIL, Experian, CRIF High Mark) calculate scores based on five factors: 35% Payment History, 30% Credit use, 15% Credit Age, 10% Credit Mix. 10% Inquiries. Defaulting on a Bajaj personal loan damages the critical 35% payment history pillar, logging progressive 30, 60. 90+ DPD marks that reduce scores by 120 to 180 points.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Executing an authorized settlement updates the bureau remark to &quot;Settled&quot. With a zero outstanding balance, halting ongoing negative DPD notations. Borrowers can rebuild a 750+ score over 18 to 24 months using a fixed-deposit secured credit card while maintaining use below 30%. Under Section 21 of CICRA, paying the waived variance later converts &quot;Settled&quot. To &quot;Closed&quot;, restoring complete creditworthiness.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Credit bureaus (CIBIL. Experian. CRIF High Mark) calculate scores based on five factors: 35% Payment History. 30% Credit use. 15% Credit Age. 10% Credit Mix. 10% Inquiries. Defaulting on a Bajaj private loans damages the critical 35% payment history pillar. Logging progressive 30. 60. 90+ DPD marks that reduce scores by 120 to 180 points. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Executing an authorized settlement updates the bureau remark to &quot. Settled&quot. With a zero unpaid dues. Halting ongoing negative DPD notations. clients can rebuild a 750+ score over 18 to 24 months using a fixed-deposit secured credit card while maintaining use below 30%. Under Section 21 of CICRA. Paying the waived variance later converts &quot. Settled&quot. To &quot. Closed&quot. , restoring complete creditworthiness. </p>
             </section>
 
             {/* SECTION 5: Visual Infographic Asset Card */}
@@ -374,9 +331,7 @@ export default function BajajFinservPersonalLoanSettlementClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Bajaj Finserv Personal Loan Settlement Roadmap
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                This visual flowchart summarizes the six institutional stages required to resolve an overdue Bajaj personal loan through an authorized compromise settlement.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> This visual flowchart summarizes the six bank stages required to resolve an overdue Bajaj private loans through an authorized OTS deals. </p>
 
               <div className="bg-white p-4 sm:p-6 rounded-2xl border border-slate-200/80 shadow-xs space-y-3">
                 <div className="relative aspect-video w-full rounded-xl overflow-hidden border border-slate-100 bg-slate-100">
@@ -401,9 +356,7 @@ export default function BajajFinservPersonalLoanSettlementClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 6. Six-Stage SOP: Negotiating Bajaj Finserv Personal Loan Settlements
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Settling with Bajaj Finance requires structured institutional engagement. Informal discussions with telecallers often lead to misallocated token payments. Follow this six-stage protocol to secure an authorized settlement.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Settling with Bajaj Finance requires structured bank engagement. Informal discussions with telecallers often lead to misallocated token payments. Follow this six-stage protocol to secure an authorized settlement. </p>
 
               <div className="space-y-4">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -411,9 +364,7 @@ export default function BajajFinservPersonalLoanSettlementClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-xs font-black">1</span>
                     Stage 1: Forensic Statement &amp; Bounce Audit
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    Audit the loan statement from inception. Isolate released principal, reconcile cleared EMIs, unbundle 36% penal interest. Strip away accumulated NACH bounce charges to establish the true net principal balance.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Audit the loan record from inception. Isolate released main loan. Reconcile cleared EMIs. Unbundle 36% penal interest. Strip away total NACH bounce charges to establish the true net base loan. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -421,9 +372,7 @@ export default function BajajFinservPersonalLoanSettlementClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-xs font-black">2</span>
                     Stage 2: Comprehensive Hardship Dossier Compilation
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    Assemble verifiable proof of genuine distress. This includes job termination letters, salary reduction slips, audited business balance sheets. Medical discharge summaries to establish genuine inability to service regular EMIs.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Assemble verifiable proof of genuine distress. This includes job termination letters. Salary reduction slips. Audited trade balance sheets. health discharge summaries to establish genuine inability to service regular EMIs. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -431,9 +380,7 @@ export default function BajajFinservPersonalLoanSettlementClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-xs font-black">3</span>
                     Stage 3: Harassment Shield &amp; Grievance Representation
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    Serve a formal legal notice to the Bajaj Principal Nodal Officer in Pune, invoking the RBI Fair Practices Code to enforce 8 AM to 7 PM calling hours, redirect contact through counsel. Stop workplace visits.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Serve a formal legal notice to the Bajaj main loan Nodal Officer in Pune. Invoking the RBI Fair Practices Code to enforce 8 AM to 7 PM calling hours. Redirect contact through counsel. Stop workplace visits. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -441,9 +388,7 @@ export default function BajajFinservPersonalLoanSettlementClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-xs font-black">4</span>
                     Stage 4: Stressed Asset Committee Negotiations
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    Engage Bajaj Finance credit committees directly. Leverage Tier-1 provisioning pressures and the lack of underlying collateral to eliminate 100% of penal fees and secure a 40% to 55% principal haircut.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Engage Bajaj Finance credit boards straight. Leverage Tier-1 provisioning pressures and the lack of underlying pledge to eliminate 100% of penal fees and secure a 40% to 55% main loan haircut. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -451,9 +396,7 @@ export default function BajajFinservPersonalLoanSettlementClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-xs font-black">5</span>
                     Stage 5: Settlement Sanction Letter Legal Vetting
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    Verify the sanction letter on official letterhead from an authorized @bajajfinserv.in email, confirming stated settlement figures, payment deadlines, and an explicit undertaking to withdraw pending statutory notices.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Verify the sanction letter on formal letterhead from an authorized @bajajfinserv.in email. Confirming stated settlement figures. Payment deadlines. And an explicit doing to withdraw pending legal notices. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -461,9 +404,7 @@ export default function BajajFinservPersonalLoanSettlementClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-xs font-black">6</span>
                     Stage 6: Direct Loan Remittance &amp; NDC Procurement
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    pay the agreed settlement figure directly into your Bajaj loan account via NEFT or RTGS. Retain transaction receipts, verify zeroed ledger balances. Obtain your official No Dues Certificate within 30 to 45 business days.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> pay the agreed settlement figure straight into your Bajaj loan account via NEFT or RTGS. Retain transaction receipts. Verify zeroed ledger balances. Obtain your formal No Dues letter within 30 to 45 trade days. </p>
                 </div>
               </div>
             </section>
@@ -477,9 +418,7 @@ export default function BajajFinservPersonalLoanSettlementClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 7. Statutory Notice Defense &amp; Borrower Legal Rights
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When loan default surpasses 90 to 120 days, Bajaj Finance retainers dispatch statutory demand notices. Understanding your legal rights disarms intimidation and creates leverage for a fair compromise.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When loan default surpasses 90 to 120 days. Bajaj Finance retainers dispatch legal demand notices. Understanding your legal rights disarms threats and creates leverage for a fair OTS deal. </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-1">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -487,9 +426,7 @@ export default function BajajFinservPersonalLoanSettlementClient() {
                     <FileText className="w-4 h-4"/>
                     <span>Section 25 PSSA NACH Mandate Notice.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Issued under the Payment and Settlement Systems Act for bounced auto-debits. Serving a legal reply within 30 days showing unexpected financial distress refutes criminal intent and channels the debt into an amicable OTS.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Issued under the Payment and settlement Systems Act for bounced auto-debits. Serving a legal reply within 30 days showing unexpected debt stress refutes criminal intent and channels the debt into an amicable OTS. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -497,9 +434,7 @@ export default function BajajFinservPersonalLoanSettlementClient() {
                     <Scale className="w-4 h-4"/>
                     <span>Section 138 Negotiable Instruments Act.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Dispatched if physical security cheques are dishonored. A legal reply served within 15 days establishing that cheques were deposited as conditional security prevents summary criminal proceedings.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Dispatched if physical pledge cheques are dishonored. A legal reply served within 15 days establishing that cheques were deposited as conditional pledge prevents summary criminal steps. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -507,9 +442,7 @@ export default function BajajFinservPersonalLoanSettlementClient() {
                     <Gavel className="w-4 h-4"/>
                     <span>Arbitration Section 21 Jurisdictional Challenge.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Under Supreme Court precedents in Perkins Eastman and TRF Ltd, lenders cannot unilaterally appoint a sole arbitrator. Raising Section 12(5) objections halts ex-parte proceedings and forces bilateral compromise.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Under Supreme Court rulings in Perkins Eastman and TRF Ltd. Lenders cannot unilaterally appoint a sole arbitrator. Raising Section 12(5) objections halts ex-parte steps and forces bilateral OTS deal. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -517,9 +450,7 @@ export default function BajajFinservPersonalLoanSettlementClient() {
                     <ShieldCheck className="w-4 h-4"/>
                     <span>DRT Limits &amp; RBI Fair Practices Code.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Debts Recovery Tribunals handle claims exceeding ₹20 Lakhs only. For all retail loans, the RBI Fair Practices Code forbids calls before 8 AM or after 7 PM, harassment of relatives. Workplace visits.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Debts claims Tribunals handle claims exceeding ₹20 Lakhs only. For all retail loans. The RBI Fair Practices Code forbids calls before 8 AM or after 7 PM. Abuse of relatives. Workplace visits. </p>
                 </div>
               </div>
             </section>
@@ -533,9 +464,7 @@ export default function BajajFinservPersonalLoanSettlementClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 8. Three-Tier Escalation Matrix for Bajaj Finserv Grievances
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When recovery vendors violate conduct guidelines or branches ignore hardship letters, escalate systematically through Bajaj internal redressal officers and the Reserve Bank of India.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When claims vendors violate conduct rules or branches ignore hardship letters. Escalate systematically through Bajaj internal redressal officers and the Reserve Bank of India. </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto bg-white shadow-xs">
                 <table className="w-full text-xs sm:text-sm text-left border-collapse divide-x divide-slate-200/80 min-w-[550px]">
@@ -552,19 +481,19 @@ export default function BajajFinservPersonalLoanSettlementClient() {
                       <td className="p-3 font-bold text-slate-900">Level 1: GRO</td>
                       <td className="p-3">Bajaj Grievance Redressal Officer (Pune).</td>
                       <td className="p-3 font-mono">7 to 10 Working Days.</td>
-                      <td className="p-3">Investigation into improper recovery conduct, disputed penal interest charges, and initial settlement review.</td>
+                      <td className="p-3">Investigation into improper claims conduct. Disputed penal interest charges. And initial settlement review.</td>
                     </tr>
                     <tr>
                       <td className="p-3 font-bold text-slate-900">Level 2: PNO</td>
-                      <td className="p-3">Principal Nodal Officer (Pune HQ).</td>
+                      <td className="p-3">main loan Nodal Officer (Pune HQ).</td>
                       <td className="p-3 font-mono">14 to 21 Working Days.</td>
-                      <td className="p-3">Direct intervention on persistent recovery agent harassment, review of disputed accounting, and zonal credit committee escalations.</td>
+                      <td className="p-3">Direct intervention on persistent claims agent abuse. Review of disputed accounting. And zonal credit boards escalations.</td>
                     </tr>
                     <tr className="bg-blue-50/40">
                       <td className="p-3 font-bold text-slate-900">Level 3: RBI Ombudsman.</td>
                       <td className="p-3">Reserve Bank Integrated Ombudsman.</td>
                       <td className="p-3 font-mono">30 Days Post-PNO.</td>
-                      <td className="p-3">Legally binding regulatory adjudication through cms.rbi.org.in for severe fair practices code infractions and predatory debt recovery practices.</td>
+                      <td className="p-3">Legally binding RBI adjudication through cms.rbi.org.in for severe fair practices code infractions and predatory debt claims practices.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -580,9 +509,7 @@ export default function BajajFinservPersonalLoanSettlementClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 9. Chronological Resolution Timeline: From Default to NDC
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Understanding where your loan sits along the default timeline enables you to pinpoint the optimal strategic window for initiating negotiations and maximizing principal waivers.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Understanding where your loan sits along the default timeline enables you to pinpoint the optimal strategic window for initiating talks and maximizing main loan waivers. </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto bg-white shadow-xs">
                 <table className="w-full text-xs sm:text-sm text-left border-collapse divide-x divide-slate-200/80 min-w-[550px]">
@@ -598,38 +525,38 @@ export default function BajajFinservPersonalLoanSettlementClient() {
                     <tr>
                       <td className="p-3 font-bold text-slate-900">Day 1 to 30</td>
                       <td className="p-3 font-mono text-[11px]">SMA-0</td>
-                      <td className="p-3">Automated SMS notifications, email reminders, and soft collection phone calls.</td>
-                      <td className="p-3">Review household cashflow; avoid taking fresh high-interest digital loan apps.</td>
+                      <td className="p-3">Automated SMS notices, email reminders. And soft claims phone calls.</td>
+                      <td className="p-3">Review household cashflow. avoid taking fresh high-interest digital loan apps.</td>
                     </tr>
                     <tr>
                       <td className="p-3 font-bold text-slate-900">Day 31 to 60</td>
                       <td className="p-3 font-mono text-[11px]">SMA-1</td>
                       <td className="p-3">Intensified telecaller outreach and preliminary loan recall notices.</td>
-                      <td className="p-3">Assemble authenticated medical, employment, and income hardship records.</td>
+                      <td className="p-3">Assemble authenticated health. Employment. And income hardship records.</td>
                     </tr>
                     <tr>
                       <td className="p-3 font-bold text-slate-900">Day 61 to 90</td>
                       <td className="p-3 font-mono text-[11px]">SMA-2</td>
-                      <td className="p-3">Pre-NPA warnings and initial assignment to third-party recovery agencies.</td>
+                      <td className="p-3">Pre-NPA warnings and initial assignment to third-party claims firms.</td>
                       <td className="p-3">Enforce RBI Fair Practices Code rights against abusive telecalling vendors.</td>
                     </tr>
                     <tr className="bg-amber-50/50">
                       <td className="p-3 font-bold text-slate-900">Day 91 to 120</td>
                       <td className="p-3 font-mono text-[11px] text-amber-700 font-bold">NPA Classification.</td>
-                      <td className="p-3">Tier-1 capital provisioning triggered; account referred to central stressed assets.</td>
-                      <td className="p-3">Perform forensic statement audit and engage seasoned debt resolution counsel.</td>
+                      <td className="p-3">Tier-1 cash provisioning triggered. account referred to central stressed assets.</td>
+                      <td className="p-3">Perform deep record audit and engage seasoned debt relief counsel.</td>
                     </tr>
                     <tr className="bg-blue-50/40">
                       <td className="p-3 font-bold text-slate-900">Day 121 to 180</td>
                       <td className="p-3 font-mono text-[11px] text-[#1886ff] font-bold">Prime OTS Window.</td>
-                      <td className="p-3">Issuance of Section 25 PSSA notices or arbitration intimation letters.</td>
-                      <td className="p-3 font-bold text-slate-900">Execute bilateral compromise negotiations for a 40% to 55% waiver.</td>
+                      <td className="p-3">Issuance of Section 25 PSSA notices or hearing intimation letters.</td>
+                      <td className="p-3 font-bold text-slate-900">Execute bilateral OTS deal talks for a 40% to 55% waiver.</td>
                     </tr>
                     <tr>
                       <td className="p-3 font-bold text-slate-900">Month 6 and Beyond.</td>
                       <td className="p-3 font-mono text-[11px]">Write-off / ARC Sale.</td>
                       <td className="p-3">Ex-parte arbitral hearings or portfolio assignment to Asset Reconstruction Companies.</td>
-                      <td className="p-3">pay sanctioned settlement tranches directly and secure official NDC.</td>
+                      <td className="p-3">pay sanctioned payment steps straight and secure formal NDC.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -645,9 +572,7 @@ export default function BajajFinservPersonalLoanSettlementClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 10. Handling Complex Scenarios: Insta Cards, Layoffs &amp; ARCs
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Borrowers frequently face multi-product liabilities and distinct economic emergencies. Below are tactical strategies for specialized Bajaj debt scenarios.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> clients often face multi-product debts and distinct economic crises. Below are tactical plans for specialized Bajaj debt scenarios. </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-1">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -655,9 +580,7 @@ export default function BajajFinservPersonalLoanSettlementClient() {
                     <CreditCard className="w-4 h-4 text-[#1886ff]"/>
                     Insta EMI Card &amp; Flexi Cross-Defaults
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    default on an Insta EMI card accelerates cross-defaults on personal loans. Structured resolution bundles all active facilities into a single compromise dossier to achieve a unified waiver.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> default on an Insta EMI card accelerates cross-defaults on private loans. Structured relief bundles all active facilities into a single OTS deal dossier to achieve a unified waiver. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -665,9 +588,7 @@ export default function BajajFinservPersonalLoanSettlementClient() {
                     <UserCheck className="w-4 h-4 text-emerald-600"/>
                     Corporate Tech Layoffs &amp; Salary Loss
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Salaried corporate employees facing sudden downsizing can submit severance documents and depleted bank records as verifiable hardship to expedite approval for deep principal haircuts.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Salaried company staff facing sudden downsizing can submit severance papers and depleted bank records as verifiable hardship to expedite approval for deep main loan haircuts. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -675,9 +596,7 @@ export default function BajajFinservPersonalLoanSettlementClient() {
                     <Building2 className="w-4 h-4 text-indigo-600"/>
                     Business Proprietorship Cashflow Shocks
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Small business owners using personal credit for working capital can establish genuine commercial distress through audited financial statements, tax returns. Debtor default records.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Small shop owners using private credit for working cash can establish genuine trade distress through audited money records. Tax returns. Debtor default records. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -685,9 +604,7 @@ export default function BajajFinservPersonalLoanSettlementClient() {
                     <AlertTriangle className="w-4 h-4 text-amber-600"/>
                     Asset Reconstruction Company (ARC) Sales
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    When aged portfolios are sold to ARCs like Phoenix or Prudent at deep discounts, experienced negotiators can leverage the discounted acquisition cost to secure haircuts exceeding 60%.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> When aged portfolios are sold to ARCs like Phoenix or Prudent at deep discounts. Skilled negotiators can leverage the discounted acquisition cost to secure haircuts exceeding 60%. </p>
                 </div>
               </div>
             </section>
@@ -706,9 +623,7 @@ export default function BajajFinservPersonalLoanSettlementClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Frequently Asked Questions About Bajaj Finserv Personal Loan Settlement
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Clear, verified answers addressing the most common borrower questions regarding Bajaj Finance personal loan settlements, waiver limits, recovery conduct. Credit rebuilding.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Clear. Verified answers addressing the most common client questions regarding Bajaj Finance private loans deals. Waiver limits. Claims conduct. Credit rebuilding. </p>
 
               <div className="space-y-3 pt-2">
                 {faqs.map((faq, index) => {
@@ -738,21 +653,11 @@ export default function BajajFinservPersonalLoanSettlementClient() {
                 Official Regulatory References &amp; Legal Framework
               </h2>
               <ul className="space-y-2 text-xs text-slate-600 leading-relaxed list-disc pl-5">
-                <li>
-                  <strong>Reserve Bank of India:</strong> Master Direction on Fair Practices Code for NBFCs and Recovery Conduct Rules.
-                </li>
-                <li>
-                  <strong>Payment and Settlement Systems Act, 2007:</strong> Section 25, Dishonour of Electronic Funds Transfer Mandates.
-                </li>
-                <li>
-                  <strong>Negotiable Instruments Act, 1881:</strong> Section 138, Cheque Dishonour for Debt Discharge.
-                </li>
-                <li>
-                  <strong>Arbitration and Conciliation Act, 1996:</strong> Sections 12(5) and 21, Ineligibility of Unilateral Arbitrators (Perkins Eastman).
-                </li>
-                <li>
-                  <strong>Credit Information Companies Act, 2005:</strong> Section 21, Credit Information Rectification Protocols.
-                </li>
+                <li> <strong>Reserve Bank of India:</strong> Master Direction on Fair Practices Code for NBFCs and claims Conduct Rules. </li>
+                <li> <strong>Payment and settlement Systems Act. 2007:</strong> Section 25. Dishonour of Electronic Funds Transfer Mandates. </li>
+                <li> <strong>Negotiable Instruments Act, 1881:</strong> Section 138. Cheque Dishonour for Debt Discharge. </li>
+                <li> <strong>hearing and talks Act, 1996:</strong> Sections 12(5) and 21. Ineligibility of Unilateral Arbitrators (Perkins Eastman). </li>
+                <li> <strong>Credit Information Companies Act, 2005:</strong> Section 21. Credit Information Rectification Protocols. </li>
               </ul>
 
               {/* 6 Outbound Authority Badges */}
@@ -839,14 +744,10 @@ export default function BajajFinservPersonalLoanSettlementClient() {
                   <Link href="/author/ashish-jhangra" className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional.
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief expert. </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Expert in NBFC compliance, Bajaj Finance stressed asset resolution, and debt defense before ombudsman offices and credit committees.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> Expert in NBFC compliance. Bajaj Finance stressed asset relief. And debt defense before ombudsman offices and credit boards. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
                   <span>View Author Profile.</span>
@@ -864,12 +765,8 @@ export default function BajajFinservPersonalLoanSettlementClient() {
                 <span className="text-xs font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
                   CONFIDENTIAL LEGAL DEFENSE.
                 </span>
-                <p className="text-lg md:text-xl font-bold text-white leading-snug">
-                  Bajaj Finance Recovery Threats or Legal Notices?
-                </p>
-                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
-                  Our senior debt specialists halt recovery harassment, reply to Section 25 notices. Negotiate up to 55% waivers directly with Bajaj Finance.
-                </p>
+                <p className="text-lg md:text-xl font-bold text-white leading-snug"> Bajaj Finance claims Threats or Legal Notices? </p>
+                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal"> Our senior debt specialists halt claims abuse. Reply to Section 25 notices. settle up to 55% waivers straight with Bajaj Finance. </p>
               </div>
               <Link href="/contact" className="block w-full bg-white text-blue-900 hover:text-[#1886ff] py-3 px-4 rounded-full font-bold text-sm hover:bg-slate-50 transition-all shadow-md">
                 Request Free Settlement Evaluation
@@ -892,22 +789,10 @@ export default function BajajFinservPersonalLoanSettlementClient() {
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
               <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage.</p>
               <ul className="space-y-2 text-slate-600">
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Zero Upfront Risk:</strong> Success-linked resolution fee structure.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Direct Account Remittance:</strong> No middleman fund handling.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Complete RBI Compliance:</strong> Strict Fair Practices enforcement.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Verified No Dues Certificate:</strong> Official NBFC closure guarantee.</span>
-                </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Zero Upfront Risk:</strong> Success-linked relief fee structure.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Direct Account Remittance:</strong> No middleman fund handling.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Complete RBI Compliance:</strong> Strict Fair Practices enforcement.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Verified No Dues letter:</strong> formal NBFC closure guarantee.</span> </li>
               </ul>
             </div>
 
@@ -916,23 +801,17 @@ export default function BajajFinservPersonalLoanSettlementClient() {
               <p className="font-bold text-slate-900 text-sm">Related Legal Guides.</p>
               <div className="space-y-2.5">
                 <Link href="/bank-sent-legal-notice-for-loan-what-to-do" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Bank Sent Legal Notice for Loan Default.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Bank Sent Legal Notice for Loan Default. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Full step-by-step reply blueprint &rarr;.</span>
                 </Link>
 
                 <Link href="/arbitration-notice-personal-loan-default" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Arbitration Notice for Personal Loan.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> hearing Notice for private loans. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Challenge unilateral arbitrator guide &rarr;.</span>
                 </Link>
 
                 <Link href="/convert-settled-status-to-closed" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Convert Settled Loan to Closed Status.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Convert Settled Loan to Closed Status. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Clean credit report blueprint &rarr;.</span>
                 </Link>
               </div>

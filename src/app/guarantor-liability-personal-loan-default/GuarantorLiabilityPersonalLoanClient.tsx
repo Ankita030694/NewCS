@@ -60,43 +60,43 @@ export default function GuarantorLiabilityPersonalLoanClient() {
     const faqs = [
         {
             q: 'Can the bank directly demand repayment from the guarantor without first taking action against the primary borrower?',
-            a: "Yes. Under Section 128 of the Indian Contract Act, 1872, the liability of the guarantor (surety) is co-extensive with that of the principal debtor, unless the contract stipulates otherwise. As affirmed by the Supreme Court of India in State Bank of India v. Indexport Registered (1992) and Bank of Bihar v. Damodar Prasad (1969), the creditor is not legally obligated to exhaust all legal remedies or initiate recovery against the primary borrower before proceeding directly against the guarantor. Once default occurs, the bank can issue demand notices, file civil recovery suits. Initiate arbitration against the guarantor simultaneously or only."
+            a: "Yes. Under Section 128 of the Indian Contract Act. 1872, the debt risk of the guarantor (surety) is co-extensive with that of the main loan debtor. Unless the contract stipulates otherwise. As affirmed by the Supreme Court of India in State Bank of India v. Indexport Registered (1992) and Bank of Bihar v. Damodar Prasad (1969), the creditor is not legally obligated to exhaust all legal remedies or initiate collection against the primary client before proceeding straight against the guarantor. Once default occurs, the bank can issue demand notices, file civil collection suits. Initiate arbitration against the guarantor simultaneously or only."
         },
         {
             q: 'What is the difference between a co-applicant (co-borrower) and a loan guarantor?',
-            a: "A co-applicant (co-borrower) is a joint primary borrower who applies for the loan jointly, shares primary responsibility for regular monthly EMI repayments from inception. Often has shared ownership or direct enjoyment of the loan asset. A loan guarantor (surety) is a collateral third-party promisor who guarantees that the borrower will fulfill their repayment dues. While a guarantor does not receive loan disbursements or pay regular EMIs initially, their legal financial liability becomes 100% equal and co-extensive with the borrower upon default."
+            a: "A co-applicant (co-client) is a joint primary client who applies for the loan jointly. Shares primary responsibility for regular monthly EMI payments from inception. Often has shared ownership or direct enjoyment of the loan asset. A loan guarantor (surety) is a security third-party promisor who guarantees that the client will fulfill their payment dues. While a guarantor does not receive loan disbursements or pay regular EMIs initially. Their legal money debt risk becomes 100% equal and co-extensive with the client upon default."
         },
         {
             q: 'What happens if the primary borrower is absconding, untraceable, or flees the country?',
-            a: "If the primary borrower absconds or becomes untraceable, the lending institution will invoke the guarantee deed and target the guarantor for full recovery of the outstanding principal, accumulated interest. Penalty charges. However, the guarantor is entitled to robust legal defenses: (1) demanding an audit of loan statements to eliminate illegal penal compounding. (2) asserting that recovery agencies adhere strictly to RBI fair practice codes against harassment. (3) negotiating a formal One-Time Settlement (OTS). And (4) exercising subrogation rights under Section 140 of the Contract Act to legally recover the settled amount from the absconding borrower's known assets."
+            a: "If the primary client absconds or becomes untraceable. The lending institution will invoke the guarantee deed and target the guarantor for full collection of the unpaid main loan, total interest. Penalty charges. However, the guarantor is entitled to robust legal defenses: (1) demanding an audit of loan records to eliminate illegal penal compounding. (2) asserting that collection firms adhere strictly to RBI fair practice codes against abuse. (3) settling a formal One-Time Settlement (OTS). And (4) exercising subrogation rights under Section 140 of the Contract Act to legally recover the settled amount from the absconding client's known assets."
         },
         {
             q: 'Does a guarantor liability extinguish if the primary borrower passes away (dies)?',
-            a: "No, a guarantor's liability does not automatically extinguish upon the death of the primary borrower. In unsecured personal loans without mandatory credit life insurance, the lender can legally demand settlement from the guarantor. However, the deceased borrower's legal heirs are also liable to the extent of the value of the estate/inheritance they received from the deceased. Guarantors can coordinate with legal heirs, verify if a loan protection insurance policy was bundled during sanction. Negotiate an amicable OTS with the bank."
+            a: "No, a guarantor's debt risk does not automatically extinguish upon the death of the primary client. In no-collateral private loans without strict credit life cover. The lender can legally demand settlement from the guarantor. However, the deceased client's legal heirs are also liable to the extent of the value of the estate/inheritance they received from the deceased. Guarantors can coordinate with legal heirs. Verify if a loan protection cover policy was bundled during sanction. settle an amicable OTS with the bank."
         },
         {
             q: 'How does a primary borrower default affect the guarantor CIBIL score and credit history?',
-            a: "Under Credit Information Companies (Regulation) Act, 2005 (CICRA), lending institutions report guarantee dues to credit bureaus (CIBIL, Experian, Equifax, CRIF High Mark). When the primary borrower misses EMIs, the default is reported against both the primary borrower's PAN and the guarantor's PAN under 'Guarantor' liability. This triggers a sharp CIBIL score plunge (often 60 to 120 points), blocks fresh loan or credit card approvals. Leads to automated underwriting rejections until the account is formally settled and reported as 'Closed'."
+            a: "Under Credit Information Companies (Regulation) Act. 2005 (CICRA), lending institutions report guarantee dues to credit bureaus (CIBIL. Experian, Equifax, CRIF High Mark). When the primary client misses EMIs. The default is reported against both the primary client's PAN and the guarantor's PAN under 'Guarantor' debt risk. This triggers a sharp CIBIL score plunge (often 60 to 120 points). Blocks fresh loan or credit card approvals. Leads to automated underwriting rejections until the account is formally settled and reported as 'Closed'."
         },
         {
             q: 'Can a guarantor be discharged from liability if the bank modified the loan terms without consent?',
-            a: "Yes. Under Section 133 of the Indian Contract Act, 1872, any variance or material alteration made to the loan contract between the primary debtor and the creditor without the surety's explicit written consent discharges the guarantor from all liability for transactions subsequent to the variance. also, under Sections 134, 135. 139, if the bank compounds with the borrower, grants unauthorized moratoriums or time extensions. Omits to preserve underlying securities, the guarantor is legally discharged."
+            a: "Yes. Under Section 133 of the Indian Contract Act. 1872, any variance or material alteration made to the loan contract between the primary debtor and the creditor without the surety's explicit written consent discharges the guarantor from all debt risk for transactions subsequent to the variance. also, under Sections 134, 135. 139, if the bank compounds with the client. Grants illegal moratoriums or time extensions. Omits to preserve underlying securities. The guarantor is legally discharged."
         },
         {
             q: 'How can someone legally remove their name as a loan guarantor?',
-            a: "A guarantor cannot unilaterally withdraw from an active guarantee deed for an existing released loan without the lender's formal written consent. However, you can legally remove your name through three established mechanisms: (1) Guarantor Substitution: The primary borrower provides an acceptable replacement guarantor or additional collateral asset to release you. (2) Refinancing / Balance Transfer: The borrower transfers the loan to a new lender solely in their individual name. (3) Full Loan Closure or Compromise Settlement: Paying off the debt or structuring a One-Time Settlement (OTS) resulting in an official No Dues Certificate (NDC) and guarantee deed cancellation."
+            a: "A guarantor cannot unilaterally withdraw from an active guarantee deed for an existing released loan without the lender's formal written consent. However, you can legally remove your name through three established mechanisms: (1) Guarantor Substitution: The primary client provides an acceptable replacement guarantor or additional security asset to release you. (2) Refinancing / Balance Transfer: The client transfers the loan to a new lender solely in their individual name. (3) Full Loan Closure or OTS deals: Paying off the debt or structuring a One-Time Settlement (OTS) resulting in an formal No Dues letter (NDC) and guarantee deed cancellation."
         },
         {
             q: 'What is the "Right of Subrogation" under Section 140 of the Indian Contract Act?',
-            a: "The Right of Subrogation (Section 140, Indian Contract Act) empowers a guarantor who has paid off or settled the primary borrower's defaulted debt to \"step into the shoes of the creditor.\" The guarantor automatically inherits all rights, claims, securities. Legal remedies that the bank had against the principal debtor. The guarantor can then file a civil recovery suit or summary suit under Order 37 CPC against the primary borrower to recover 100% of the released settlement funds, legal expenses. Interest."
+            a: "The Right of Subrogation (Section 140. Indian Contract Act) empowers a guarantor who has paid off or settled the primary client's defaulted debt to \"step into the shoes of the creditor.\" The guarantor automatically inherits all rights, claims, securities. Legal remedies that the bank had against the principal debtor. The guarantor can then file a civil recovery suit or summary suit under Order 37 CPC against the primary borrower to recover 100% of the released settlement funds, legal expenses. Interest."
         },
         {
             q: 'Can bank recovery agents harass or visit the home and workplace of a guarantor?',
-            a: "Absolutely not. Under RBI Master Directions on Recovery Agents and Fair Practices Code (RBI/2022-23/108), recovery agents are strictly prohibited from using abusive language, making harassing phone calls before 8:00 AM or after 7:00 PM, calling references or relatives, visiting workplaces without prior appointment. Humiliating the guarantor publicly. Any violation constitutes an actionable regulatory offense punishable under the RBI Integrated Ombudsman Scheme and Indian criminal law (Section 503/506 IPC / BNS)."
+            a: "Absolutely not. Under RBI Master Directions on collection agents and Fair Practices Code (RBI/2022-23/108). Collection agents are strictly prohibited from using abusive language. Making harassing phone calls before 8:00 AM or after 7:00 PM. Calling references or relatives, visiting workplaces without prior appointment. Humiliating the guarantor publicly. Any violation constitutes an actionable RBI offense punishable under the RBI Integrated Ombudsman Scheme and Indian criminal law (Section 503/506 IPC / BNS)."
         },
         {
             q: 'How does CredSettle assist loan guarantors facing recovery notices and borrower default?',
-            a: "CredSettle provides comprehensive legal and financial defense for distressed guarantors: (1) We draft and issue formal statutory response notices challenging bank demands under Sections 128, 133, 134. 139 of the Contract Act. (2) We halt recovery agent harassment through cease-and-desist mandates. (3) We represent guarantors before bank settlement committees to negotiate a 40% to 70% One-Time Settlement (OTS) waiver. (4) We secure official No Dues Certificates and ensure clean CIBIL credit report updates. And (5) We assist in drafting recovery suits under Section 140 Subrogation against the primary borrower."
+            a: "CredSettle provides full legal and money defense for distressed guarantors: (1) We draft and issue formal legal response notices challenging bank demands under Sections 128, 133, 134. 139 of the Contract Act. (2) We halt collection agent abuse through cease-and-desist mandates. (3) We represent guarantors before bank settlement boards to settle a 40% to 70% One-Time Settlement (OTS) waiver. (4) We secure formal No Dues letters and ensure clean CIBIL credit report updates. And (5) We assist in drafting collection suits under Section 140 Subrogation against the primary client."
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -108,9 +108,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
             Guarantor Liability in Personal Loan
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed">
-            Are you facing recovery harassment or legal notices because the primary borrower defaulted? Understand the legal liability of a loan guarantor under Section 128 of the Indian Contract Act and how to defend your assets, credit score. Rights.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> Are you facing collection abuse or legal notices because the primary client defaulted? Understand the legal debt risk of a loan guarantor under Section 128 of the Indian Contract Act and how to defend your assets, credit score. Rights. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -153,9 +151,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>Guarantor Statutory Defense.</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Governed by Indian Contract Act 1872 (Sec 126–147) &amp; RBI Fair Practices Code.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by Indian Contract Act 1872 (Sec 126. 147) &amp. RBI Fair Practices Code. </p>
               </div>
             </div>
           </aside>
@@ -171,40 +167,15 @@ export default function GuarantorLiabilityPersonalLoanClient() {
               </div>
 
               <ul className="space-y-3.5 text-xs sm:text-sm text-slate-700 leading-relaxed">
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">The Co-Extensive Rule (Section 128):</strong> Under Section 128 of the Indian Contract Act, 1872, the guarantor&apos;s liability is 100% co-extensive with the principal debtor. The bank is legally permitted to proceed against the guarantor without exhausting remedies against the primary borrower first.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">The Co-Extensive Rule (Section 128):</strong> Under Section 128 of the Indian Contract Act, 1872, the guarantor&apos. s debt risk is 100% co-extensive with the main loan debtor. The bank is legally permitted to proceed against the guarantor without exhausting remedies against the primary client first. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Guarantor vs. Co-Applicant Distinction:</strong> A co-applicant is a joint borrower who signs as a primary debtor from Day 1. A guarantor is a third-party surety who provides a collateral guarantee. However, upon default, both face identical legal recovery exposure.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Guarantor vs. Co-Applicant Distinction:</strong> A co-applicant is a joint client who signs as a primary debtor from Day 1. A guarantor is a third-party surety who provides a security guarantee. However, upon default, both face identical legal collection exposure. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Statutory Discharge Protections (Sections 133–139):</strong> If the lender altered interest rates, tenure. Loan terms without the guarantor&apos;s written consent. Compromised with the borrower, the guarantor is legally discharged from liability under Sections 133, 134, and 135.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">legal Discharge Protections (Sections 133. 139):</strong> If the lender altered interest rates, tenure. Loan terms without the guarantor&apos. s written consent. Compromised with the client, the guarantor is legally discharged from debt risk under Sections 133, 134, and 135. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Right of Subrogation (Section 140):</strong> If a guarantor settles or pays the defaulted debt, they automatically step into the bank&apos;s shoes to legally recover 100% of the released funds, costs. Interest from the primary borrower through civil summary suits.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Right of Subrogation (Section 140):</strong> If a guarantor settles or pays the defaulted debt. They automatically step into the bank&apos. S shoes to legally recover 100% of the released funds, costs. Interest from the primary client through civil summary suits. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Defense Against Harassment &amp; 40%–70% OTS:</strong> CredSettle stops illegal third-party collection calls, protects guarantor assets. Negotiates a structured One-Time Settlement (OTS) resulting in an official No Dues Certificate and clean credit record restoration.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Defense Against abuse &amp. 40%. 70% OTS:</strong> CredSettle stops illegal third-party collection calls, protects guarantor assets. Negotiates a structured One-Time Settlement (OTS) resulting in an formal No Dues letter and clean credit record restoration. </div> </li>
               </ul>
             </div>
 
@@ -217,24 +188,16 @@ export default function GuarantorLiabilityPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 1. What is Guarantor Liability? Section 128 &amp; The Co-Extensive Rule
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Thousands of individuals across India sign loan documents as a favor to friends, relatives. Business colleagues without realizing the severe legal ramifications. When the primary borrower stops paying monthly EMIs, banks and NBFCs immediately shift their aggressive recovery machinery toward the guarantor.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                The legal foundation of guarantor liability in India is governed by the. <strong>Indian Contract Act, 1872.</strong>. Under <strong>Section 126</strong>, a &quot;contract of guarantee&quot. Is a tripartite contract to perform the promise. Discharge the liability, of a third person in case of their default. The person who gives the guarantee is called the. <em>Surety</em> or <em>Guarantor</em>, the person for whom the guarantee is given is the. <em>Principal Debtor.</em> (Primary Borrower), and the person to whom the guarantee is given is the. <em>Creditor</em> (Bank or NBFC).
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Thousands of individuals across India sign loan papers as a favor to friends, relatives. trade colleagues without realizing the severe legal ramifications. When the primary client stops paying monthly EMIs. Banks and NBFCs promptly shift their aggressive collection machinery toward the guarantor. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The legal foundation of guarantor debt risk in India is governed by the. <strong>Indian Contract Act, 1872.</strong>. Under <strong>Section 126</strong>, a &quot. contract of guarantee&quot. Is a tripartite contract to perform the promise. Discharge the debt risk, of a third person in case of their default. The person who gives the guarantee is called the. <em>Surety</em> or <em>Guarantor</em>, the person for whom the guarantee is given is the. <em>main loan Debtor.</em> (Primary client), and the person to whom the guarantee is given is the. <em>Creditor</em> (Bank or NBFC). </p>
 
               <div className="bg-white p-5 md:p-6 rounded-2xl border border-blue-200/80 shadow-xs space-y-3">
                 <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2">
                   <Gavel className="w-4 h-4 text-[#1886ff]"/>
                   The Landmark &quot;Co-Extensive&quot; Doctrine (Section 128)
                 </h3>
-                <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                  <strong>Section 128 of the Indian Contract Act, 1872.</strong> declares: <em>&quot;The liability of the surety is co-extensive with that of the principal debtor, unless it is otherwise provided by the contract.&quot;.</em>
-                </p>
-                <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                  In practical legal terms, &quot;co-extensive&quot. Means the guarantor&apos;s financial liability is identical in quantum, timing, and enforceability to that of the primary borrower. The moment the borrower commits an event of default (e.g., missing 90 days of EMIs turning the loan into a Non-Performing Asset), the guarantor becomes 100% personally liable for the entire outstanding loan balance, accumulated interest, penalty charges. Legal expenses.
-                </p>
+                <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> <strong>Section 128 of the Indian Contract Act, 1872.</strong> declares: <em>&quot. The debt risk of the surety is co-extensive with that of the main loan debtor. Unless it is otherwise provided by the contract.&quot.</em> </p>
+                <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> In practical legal terms, &quot. co-extensive&quot. Means the guarantor&apos. S money debt risk is identical in quantum. Timing, and enforceability to that of the primary client. The moment the client commits an event of default (e.g. Missing 90 days of EMIs turning the loan into a Non-Performing Asset). The guarantor becomes 100% personally liable for the entire unpaid loan balance, total interest, penalty charges. Legal expenses. </p>
               </div>
 
               {/* Landmark Supreme Court Precedents */}
@@ -249,9 +212,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                       <Scale className="w-4 h-4 text-[#1886ff]"/>
                       <span>Bank of Bihar v. Damodar Prasad (AIR 1969 SC 297).</span>
                     </div>
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      The Supreme Court established that a creditor is not required to exhaust its legal remedies against the principal debtor before suing the surety. The creditor can directly execute a recovery decree against the guarantor even before touching the primary borrower&apos;s assets.
-                    </p>
+                    <p className="text-xs text-slate-600 leading-relaxed"> The Supreme Court established that a creditor is not required to exhaust its legal remedies against the main loan debtor before suing the surety. The creditor can straight execute a collection decree against the guarantor even before touching the primary client&apos. s assets. </p>
                   </div>
 
                   <div className="p-4 rounded-xl bg-white border border-slate-200/80 shadow-xs space-y-2">
@@ -259,9 +220,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                       <Scale className="w-4 h-4 text-[#1886ff]"/>
                       <span>State Bank of India v. Indexport Registered (AIR 1992 SC 1740).</span>
                     </div>
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      The Apex Court reiterated that a composite money decree may be executed against the guarantor first. The bank has the sole discretion to choose whether to enforce the decree against the principal debtor, the mortgaged security. The personal guarantor.
-                    </p>
+                    <p className="text-xs text-slate-600 leading-relaxed"> The Apex Court reiterated that a composite money decree may be executed against the guarantor first. The bank has the sole discretion to choose whether to enforce the decree against the main loan debtor, the mortgaged security. The private guarantor. </p>
                   </div>
                 </div>
               </div>
@@ -276,9 +235,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 2. Co-Applicant (Co-Borrower) vs. Loan Guarantor: Key Distinctions
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Many borrowers confuse the roles of a co-applicant and a loan guarantor. While both share large financial exposure upon default, their contractual inception and ongoing operational roles differ greatly:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Many clients confuse the roles of a co-applicant and a loan guarantor. While both share large money exposure upon default. Their contractual inception and ongoing daily work roles differ greatly: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
                 {/* Co-Applicant Card */}
@@ -288,18 +245,10 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                     <span>Co-Applicant / Co-Borrower.</span>
                   </div>
                   <ul className="text-xs text-slate-600 space-y-2 list-disc pl-4 leading-relaxed">
-                    <li>
-                      <strong>Primary Obligor:</strong> Signs the loan agreement as a joint borrower from Day 1.
-                    </li>
-                    <li>
-                      <strong>Disbursement &amp; Usage:</strong> Frequently enjoys joint ownership of the asset or direct benefit from loan funds.
-                    </li>
-                    <li>
-                      <strong>Repayment Responsibility:</strong> Directly responsible for regular monthly EMI debits.
-                    </li>
-                    <li>
-                      <strong>Credit Impact:</strong> Full loan balance reflects as an active loan on credit bureaus immediately upon sanction.
-                    </li>
+                    <li> <strong>Primary Obligor:</strong> Signs the loan pacts as a joint client from Day 1. </li>
+                    <li> <strong>Disbursement &amp. Usage:</strong> often enjoys joint ownership of the asset or direct benefit from loan funds. </li>
+                    <li> <strong>payment Responsibility:</strong> straight responsible for regular monthly EMI debits. </li>
+                    <li> <strong>Credit Impact:</strong> Full loan balance reflects as an active loan on credit bureaus promptly upon sanction. </li>
                   </ul>
                 </div>
 
@@ -310,18 +259,10 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                     <span>Loan Guarantor / Surety.</span>
                   </div>
                   <ul className="text-xs text-slate-600 space-y-2 list-disc pl-4 leading-relaxed">
-                    <li>
-                      <strong>Collateral Promisor:</strong> Signs a separate Deed of Guarantee as a third-party backup.
-                    </li>
-                    <li>
-                      <strong>Disbursement &amp; Usage:</strong> Receives zero loan funds and derives no direct financial benefit from the loan.
-                    </li>
-                    <li>
-                      <strong>Repayment Responsibility:</strong> Only triggered when the primary borrower defaults on payments.
-                    </li>
-                    <li>
-                      <strong>Credit Impact:</strong> Listed as &quot;Guarantor&quot;; defaults trigger instant CIBIL score penalties on the guarantor&apos;s PAN.
-                    </li>
+                    <li> <strong>security Promisor:</strong> Signs a separate Deed of Guarantee as a third-party backup. </li>
+                    <li> <strong>Disbursement &amp. Usage:</strong> Receives zero loan funds and derives no direct money benefit from the loan. </li>
+                    <li> <strong>payment Responsibility:</strong> Only triggered when the primary client defaults on payments. </li>
+                    <li> <strong>Credit Impact:</strong> Listed as &quot. Guarantor&quot. defaults trigger instant CIBIL score penalties on the guarantor&apos. s PAN. </li>
                   </ul>
                 </div>
               </div>
@@ -336,9 +277,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 3. What Happens When the Primary Borrower is Absconding, Bankrupt, or Deceased?
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When catastrophic events impact the primary borrower, guarantors often believe their liability vanishes. Under Indian jurisprudence, the legal outcome depends on specific statutory frameworks:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When catastrophic events impact the primary client. Guarantors often believe their debt risk vanishes. Under Indian jurisprudence, the legal outcome depends on local legal rules: </p>
 
               <div className="space-y-3 pt-1">
                 {/* Scenario 1: Absconding */}
@@ -347,9 +286,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                     <AlertTriangle className="w-4 h-4 text-amber-600"/>
                     <span>Scenario A: Primary Borrower is Absconding or Untraceable.</span>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    If the primary borrower switches off their phone, vacates their residence. Moves abroad, the lender will immediately invoke Section 128 and demand 100% repayment from the guarantor. The guarantor cannot evade liability simply because the borrower cannot be located. However, the guarantor can compel the bank to provide certified loan statement audits, halt recovery harassment, negotiate an OTS waiver. Invoke Section 140 Subrogation rights to attach the borrower&apos;s known properties.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> If the primary client switches off their phone, vacates their residence. Moves abroad, the lender will promptly invoke Section 128 and demand 100% payment from the guarantor. The guarantor cannot evade debt risk simply because the client cannot be located. However, the guarantor can compel the bank to provide certified loan record audits. Halt collection abuse, settle an OTS waiver. Invoke Section 140 Subrogation rights to attach the client&apos. s known properties. </p>
                 </div>
 
                 {/* Scenario 2: Deceased */}
@@ -358,9 +295,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                     <Building2 className="w-4 h-4 text-indigo-600"/>
                     <span>Scenario B: Death of the Primary Borrower.</span>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    The death of the principal debtor does not automatically extinguish the guarantee deed. While the legal heirs of the deceased are only liable to the extent of the inheritance/estate they received, the guarantor&apos;s personal liability remains legally enforceable. The guarantor should immediately check if a mandatory Credit Shield or Loan Protection Insurance was bundled with the personal loan during sanction, which pays off the balance upon death.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> The death of the main loan debtor does not automatically extinguish the guarantee deed. While the legal heirs of the deceased are only liable to the extent of the inheritance/estate they received, the guarantor&apos. s private debt risk remains legally enforceable. The guarantor should promptly check if a strict Credit Shield or Loan Protection cover was bundled with the private loans during sanction. This pays off the balance upon death. </p>
                 </div>
 
                 {/* Scenario 3: Bankruptcy */}
@@ -369,9 +304,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                     <Gavel className="w-4 h-4 text-red-600"/>
                     <span>Scenario C: Insolvency or Bankruptcy of the Borrower.</span>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    In the landmark case of. <em>Lalit Kumar Jain v. Union of India (2021).</em>, the Supreme Court ruled that the sanction of a resolution plan or the discharge of a principal debtor under the Insolvency and Bankruptcy Code (IBC) does not automatically discharge the personal guarantor. Lenders can continue independent recovery actions against personal guarantors unless explicitly released in the approved settlement.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> In the landmark case of. <em>Lalit Kumar Jain v. Union of India (2021).</em>, the Supreme Court ruled that the sanction of a settlement plan or the discharge of a main loan debtor under the Insolvency and Bankruptcy Code (IBC) does not automatically discharge the private guarantor. Lenders can continue independent collection actions against private guarantors unless explicitly released in the approved settlement. </p>
                 </div>
               </div>
             </section>
@@ -385,9 +318,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 4. Legal Grounds for Discharge of Guarantor under the Contract Act
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                The Indian Contract Act contains powerful statutory safeguards that legally release and exonerate a guarantor from all liabilities if the lender or borrower acts outside the original contract:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The Indian Contract Act contains powerful legal safeguards that legally release and exonerate a guarantor from all debts if the lender or client acts outside the original contract: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5 pt-2">
                 <div className="p-4 rounded-xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
@@ -395,9 +326,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                     <span className="w-5 h-5 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-[11px] font-bold">Sec 130</span>
                     <span>Revocation of Continuing Guarantee.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    A continuing guarantee (covering multiple future transactions) may at any time be revoked by the surety, as to future transactions, by giving formal written notice to the creditor.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> A continuing guarantee (covering multiple future transactions) may at any time be revoked by the surety. As to future transactions, by giving formal written notice to the creditor. </p>
                 </div>
 
                 <div className="p-4 rounded-xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
@@ -405,9 +334,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                     <span className="w-5 h-5 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-[11px] font-bold">Sec 133</span>
                     <span>Discharge by Variance in Terms.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Any variance or material modification made to the loan contract (interest hike, tenure extension, top-up loan) between borrower and bank without the guarantor&apos;s explicit consent automatically discharges the guarantor.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Any variance or material modification made to the loan contract (interest hike. Tenure extension, top-up loan) between client and bank without the guarantor&apos. s explicit consent automatically discharges the guarantor. </p>
                 </div>
 
                 <div className="p-4 rounded-xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
@@ -415,9 +342,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                     <span className="w-5 h-5 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-[11px] font-bold">Sec 134</span>
                     <span>Discharge by Release of Borrower.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    The guarantor is discharged by any contract between the creditor and the principal debtor by which the principal debtor is released. By any act or omission of the creditor resulting in the debtor&apos;s legal discharge.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> The guarantor is discharged by any contract between the creditor and the main loan debtor by which the main loan debtor is released. By any act or omission of the creditor resulting in the debtor&apos. s legal discharge. </p>
                 </div>
 
                 <div className="p-4 rounded-xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
@@ -425,9 +350,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                     <span className="w-5 h-5 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-[11px] font-bold">Sec 135</span>
                     <span>Compounding or Granting Time.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    A contract between the creditor and principal debtor, whereby the creditor makes a composition with. Promises to give time to. Agrees not to sue the debtor, discharges the surety unless the surety assents.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> A contract between the creditor and main loan debtor. Whereby the creditor makes a composition with. Promises to give time to. Agrees not to sue the debtor. Discharges the surety unless the surety assents. </p>
                 </div>
 
                 <div className="p-4 rounded-xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
@@ -435,9 +358,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                     <span className="w-5 h-5 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-[11px] font-bold">Sec 139</span>
                     <span>Creditor Impairing Surety Remedy.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    If the creditor does any act inconsistent with the rights of the surety. Omits to do any act which duty to the surety requires (e.g. losing collateral securities or delaying recovery), the surety is discharged.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> If the creditor does any act inconsistent with the rights of the surety. Omits to do any act which duty to the surety requires (e.g. Losing security securities or delaying collection), the surety is discharged. </p>
                 </div>
 
                 <div className="p-4 rounded-xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
@@ -445,9 +366,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                     <span className="w-5 h-5 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-[11px] font-bold">Sec 141</span>
                     <span>Right to Creditor Securities.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    A surety is entitled to the benefit of every security which the creditor holds against the principal debtor. If the creditor loses or parts with such security without the surety&apos;s consent, the surety is discharged to that value.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> A surety is entitled to the benefit of every security which the creditor holds against the main loan debtor. If the creditor loses or parts with such security without the surety&apos. s consent, the surety is discharged to that value. </p>
                 </div>
               </div>
             </section>
@@ -461,9 +380,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 5. Status &amp; Legal Liability Comparison Grid: Borrower vs. Guarantor Scenarios
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Examine how legal liability, recovery avenues, asset attachment risks, and credit bureau penalties compare across distinct borrowing roles:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Examine how legal debt risk. Collection avenues, asset attachment risks. And credit bureau penalties compare across distinct borrowing roles: </p>
 
               {/* Table with both vertical and horizontal lines forming a proper grid */}
               <div className="overflow-x-auto rounded-2xl border border-slate-300 bg-white shadow-xs">
@@ -480,64 +397,52 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-200 text-slate-600">
                     <tr className="hover:bg-slate-50/60">
-                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200">
-                        Primary Borrower.
-                      </td>
+                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200"> Primary client. </td>
                       <td className="p-3.5 border border-slate-200">Indian Contract Act 1872.</td>
                       <td className="p-3.5 text-emerald-700 font-semibold border border-slate-200">100% Loan Funds</td>
-                      <td className="p-3.5 text-red-700 font-semibold border border-slate-200">Primary legal suits, arbitration &amp; SARFAESI.</td>
+                      <td className="p-3.5 text-red-700 font-semibold border border-slate-200">Primary legal suits, arbitration &amp. SARFAESI.</td>
                       <td className="p-3.5 text-red-700 font-semibold border border-slate-200">Severe Drop (-90 to -120 pts), NPA flag.</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Comprehensive OTS negotiation with 40%–70% waiver &amp; NDC.</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">full OTS talks with 40%. 70% waiver &amp. NDC.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/60">
-                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200">
-                        Co-Applicant (Co-Borrower).
-                      </td>
+                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200"> Co-Applicant (Co-client). </td>
                       <td className="p-3.5 border border-slate-200">Joint Debtor Principle.</td>
                       <td className="p-3.5 text-emerald-700 font-semibold border border-slate-200">Shared Asset / Funds.</td>
-                      <td className="p-3.5 text-red-700 font-semibold border border-slate-200">Equal primary liability from Day 1.</td>
+                      <td className="p-3.5 text-red-700 font-semibold border border-slate-200">Equal primary debt risk from Day 1.</td>
                       <td className="p-3.5 text-red-700 font-semibold border border-slate-200">Severe Drop (-90 to -120 pts), Joint default.</td>
                       <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Joint restructuring or single-applicant release through OTS.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/60">
-                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200">
-                        Personal Loan Guarantor.
-                      </td>
+                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200"> private loans Guarantor. </td>
                       <td className="p-3.5 border border-slate-200">Sec 128 Indian Contract Act.</td>
                       <td className="p-3.5 text-slate-500 font-semibold border border-slate-200">0% (Zero Benefit).</td>
-                      <td className="p-3.5 text-red-700 font-semibold border border-slate-200">Co-extensive demand notices, suits &amp; arbitration.</td>
-                      <td className="p-3.5 text-red-700 font-semibold border border-slate-200">Hard drop (-60 to -100 pts), &quot;Guarantor Default&quot;.</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Invoke Sec 133–139 discharge or negotiate OTS &amp; subrogate.</td>
+                      <td className="p-3.5 text-red-700 font-semibold border border-slate-200">Co-extensive demand notices, suits &amp. arbitration.</td>
+                      <td className="p-3.5 text-red-700 font-semibold border border-slate-200">Hard drop (-60 to -100 pts), &quot. Guarantor Default&quot.</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Invoke Sec 133. 139 discharge or settle OTS &amp. subrogate.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/60">
-                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200">
-                        Corporate / Director Guarantor.
-                      </td>
-                      <td className="p-3.5 border border-slate-200">IBC 2016 &amp; Contract Act.</td>
-                      <td className="p-3.5 text-amber-700 font-semibold border border-slate-200">Equity / Business Stake.</td>
-                      <td className="p-3.5 text-red-700 font-semibold border border-slate-200">Personal insolvency before NCLT / DRT.</td>
-                      <td className="p-3.5 text-red-700 font-semibold border border-slate-200">Commercial CIBIL &amp; Director PAN flagging.</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Defend against NCLT Sec 95 petitions &amp; structure debt resolution.</td>
+                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200"> company / Director Guarantor. </td>
+                      <td className="p-3.5 border border-slate-200">IBC 2016 &amp. Contract Act.</td>
+                      <td className="p-3.5 text-amber-700 font-semibold border border-slate-200">Equity / trade Stake.</td>
+                      <td className="p-3.5 text-red-700 font-semibold border border-slate-200">private insolvency before NCLT / DRT.</td>
+                      <td className="p-3.5 text-red-700 font-semibold border border-slate-200">trade CIBIL &amp. Director PAN flagging.</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Defend against NCLT Sec 95 petitions &amp. structure debt relief.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/60">
-                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200">
-                        Discharged Guarantor.
-                      </td>
+                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200"> Discharged Guarantor. </td>
                       <td className="p-3.5 border border-slate-200">Sec 133, 134, 139 Contract Act.</td>
                       <td className="p-3.5 text-slate-500 font-semibold border border-slate-200">0% (Zero Benefit).</td>
-                      <td className="p-3.5 text-emerald-700 font-semibold border border-slate-200">ZERO (Legally void recovery actions).</td>
-                      <td className="p-3.5 text-amber-700 font-semibold border border-slate-200">Subject to dispute &amp; deletion under CICRA.</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Serve statutory discharge notice &amp; purge CIBIL negative remarks.</td>
+                      <td className="p-3.5 text-emerald-700 font-semibold border border-slate-200">ZERO (Legally void collection actions).</td>
+                      <td className="p-3.5 text-amber-700 font-semibold border border-slate-200">Subject to dispute &amp. deletion under CICRA.</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Serve legal discharge notice &amp. purge CIBIL negative remarks.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/60">
-                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200">
-                        Subrogated Guarantor.
-                      </td>
+                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200"> Subrogated Guarantor. </td>
                       <td className="p-3.5 border border-slate-200">Sec 140 Indian Contract Act.</td>
-                      <td className="p-3.5 text-emerald-700 font-semibold border border-slate-200">Recovery from Debtor.</td>
-                      <td className="p-3.5 text-emerald-700 font-semibold border border-slate-200">Inherits all creditor rights against borrower.</td>
-                      <td className="p-3.5 text-emerald-700 font-semibold border border-slate-200">Restored to &quot;Closed&quot; / Clean Score.</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">File Order 37 summary recovery suit against primary borrower.</td>
+                      <td className="p-3.5 text-emerald-700 font-semibold border border-slate-200">collection from Debtor.</td>
+                      <td className="p-3.5 text-emerald-700 font-semibold border border-slate-200">Inherits all creditor rights against client.</td>
+                      <td className="p-3.5 text-emerald-700 font-semibold border border-slate-200">Restored to &quot. Closed&quot. / Clean Score.</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">File Order 37 summary collection suit against primary client.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -553,9 +458,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 6. Technical Financial Risk Analytics &amp; CIBIL Scoring Penalties
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When a primary borrower defaults, the guarantor experiences an immediate, compounding cascade of credit destruction and underwriting blocks across the Indian banking ecosystem:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When a primary client defaults. The guarantor experiences an fast. Compounding cascade of credit destruction and underwriting blocks across the Indian banking hub: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-3">
@@ -627,9 +530,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Visual Defense Blueprint: 6-Step Guarantor Protection &amp; Debt Resolution
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Refer to this visual blueprint outlining the 6-stage procedural sequence to protect yourself as a loan guarantor, challenge unlawful bank demands. Achieve an amicable debt settlement:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Refer to this visual blueprint outlining the 6-stage procedural sequence to protect yourself as a loan guarantor, challenge unlawful bank demands. Achieve an amicable debt settlement: </p>
 
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-sm p-3 md:p-4 overflow-hidden">
                 <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-slate-100">
@@ -654,9 +555,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 7. Standard Operating Procedure (SOP): 6 Stages of Guarantor Defense
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Follow this sequential protocol to protect your personal assets, stop third-party harassment. Resolve your guarantor liability on favorable terms:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Follow this sequential protocol to protect your own assets, stop third-party abuse. Resolve your guarantor debt risk on favorable terms: </p>
 
               <div className="space-y-4 pt-2">
                 {/* Stage 1 */}
@@ -670,9 +569,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                   <h3 className="text-base md:text-lg font-bold text-slate-900">
                     Immediate Loan Document Audit &amp; Guarantee Deed Inspection
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Request complete, certified copies of the Loan Sanction Letter, Loan Agreement. The executed Deed of Guarantee from the lending institution. Verify whether your signature was obtained with proper witness attestation, whether the guarantee was specific or continuing. Whether any specific limitation clauses exist.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Request complete, certified copies of the Loan Sanction Letter, Loan pacts. The executed Deed of Guarantee from the lending institution. Verify whether your signature was obtained with proper witness attestation. Whether the guarantee was local or continuing. Whether any local limitation clauses exist. </p>
                 </div>
 
                 {/* Stage 2 */}
@@ -686,9 +583,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                   <h3 className="text-base md:text-lg font-bold text-slate-900">
                     Statutory Examination for Discharge Grounds (Sections 133–139)
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Audit loan statements to discover if the bank altered interest rates, granted repayment holidays/moratoriums to the borrower, extended loan tenure. Released top-up facilities without your written approval. Any unauthorized variance constitutes an immediate legal ground for complete discharge of the surety under Section 133 of the Indian Contract Act.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Audit loan records to discover if the bank altered interest rates. Granted payment holidays/moratoriums to the client, extended loan tenure. Released top-up facilities without your written approval. Any illegal variance constitutes an fast legal ground for complete discharge of the surety under Section 133 of the Indian Contract Act. </p>
                 </div>
 
                 {/* Stage 3 */}
@@ -702,9 +597,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                   <h3 className="text-base md:text-lg font-bold text-slate-900">
                     Formal Legal Reply &amp; Cease-and-Desist to Recovery Agencies
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Issue a formal statutory response notice through CredSettle to the Bank&apos;s Branch Manager and Principal Nodal Officer. Demand an immediate halt to unlawful recovery visits, phone calls before 8 AM / after 7 PM. Calls to family members under the. <strong>RBI Master Directions on Recovery Agents (RBI/2022-23/108).</strong>.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Issue a formal legal response notice through CredSettle to the Bank&apos. s Branch Manager and main loan Nodal Officer. Demand an fast halt to unlawful collection visits. Phone calls before 8 AM / after 7 PM. Calls to family members under the. <strong>RBI Master Directions on collection agents (RBI/2022-23/108).</strong>. </p>
                 </div>
 
                 {/* Stage 4 */}
@@ -718,9 +611,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                   <h3 className="text-base md:text-lg font-bold text-slate-900">
                     Asset Protection &amp; Rerouting of Bank Accounts
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    If your personal savings or salary account is held in the same bank where you signed as a guarantor, immediately open an account in a separate banking institution and reroute your funds. This eliminates the risk of an extrajudicial &quot;Right of Set-Off&quot. Sweep against your personal deposits under Section 171 of the Contract Act.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> If your private savings or salary account is held in the same bank where you signed as a guarantor. Promptly open an account in a separate banking institution and reroute your funds. This eliminates the risk of an extrajudicial &quot. Right of Set-Off&quot. Sweep against your private deposits under Section 171 of the Contract Act. </p>
                 </div>
 
                 {/* Stage 5 */}
@@ -734,9 +625,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                   <h3 className="text-base md:text-lg font-bold text-slate-900">
                     Structured One-Time Settlement (OTS) Negotiation
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    CredSettle engages with the bank&apos;s Compromise Settlement Committee. Leveraging the lack of borrower recovery, statutory defense objections. Genuine financial hardship, we negotiate a 40% to 70% waiver on accumulated interest, penalties. Outstanding balance, securing an official written OTS Sanction Letter.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> CredSettle engages with the bank&apos. s OTS deals boards. Leveraging the lack of client collection, legal defense objections. Genuine hardship, we settle a 40% to 70% waiver on total interest, penalties. unpaid dues, securing an formal written OTS Sanction Letter. </p>
                 </div>
 
                 {/* Stage 6 */}
@@ -750,9 +639,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                   <h3 className="text-base md:text-lg font-bold text-slate-900">
                     Securing NDC, CIBIL Restoration &amp; Invoking Section 140 Subrogation
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Upon settlement remittance, we ensure receipt of an official. <strong>No Dues Certificate (NDC).</strong> and cancellation of the Guarantee Deed. We verify that credit bureaus update your status to &quot;Closed&quot;. Simultaneously, we assist you in exercising. <strong>Section 140 Subrogation rights.</strong> to initiate legal proceedings against the primary borrower to recover 100% of your money.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Upon settlement remittance, we ensure receipt of an formal. <strong>No Dues letter (NDC).</strong> and cancellation of the Guarantee Deed. We verify that credit bureaus update your status to &quot. Closed&quot. Simultaneously, we assist you in exercising. <strong>Section 140 Subrogation rights.</strong> to initiate legal proceedings against the primary client to recover 100% of your money. </p>
                 </div>
               </div>
             </section>
@@ -766,21 +653,15 @@ export default function GuarantorLiabilityPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 8. The Right of Subrogation (Section 140): How to Recover Money from the Borrower
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                One of the most potent legal rights available to a loan guarantor who pays or settles a defaulted debt is the. <strong>Right of Subrogation.</strong> under <strong>Section 140 of the Indian Contract Act, 1872.</strong>.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> One of the most potent legal rights available to a loan guarantor who pays or settles a defaulted debt is the. <strong>Right of Subrogation.</strong> under <strong>Section 140 of the Indian Contract Act, 1872.</strong>. </p>
 
               <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-3">
                 <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2">
                   <Gavel className="w-4 h-4 text-[#1886ff]"/>
                   What Does Section 140 Provide?
                 </h3>
-                <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                  <em>&quot;Where a guaranteed debt has become due. Default of the principal debtor to perform a guaranteed duty has taken place, the surety, upon payment or performance of all that he is liable for, is invested with all the rights which the creditor had against the principal debtor.&quot;.</em>
-                </p>
-                <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                  In simple terms: The moment you pay off the bank or execute a settlement, you legally step into the shoes of the bank. You become the new creditor and inherit all legal claims, security liens. Enforcement rights against the defaulting primary borrower.
-                </p>
+                <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> <em>&quot. Where a guaranteed debt has become due. Default of the main loan debtor to perform a guaranteed duty has taken place. The surety, upon payment or performance of all that he is liable for. Is invested with all the rights which the creditor had against the main loan debtor.&quot.</em> </p>
+                <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> In simple terms: The moment you pay off the bank or execute a settlement. You legally step into the shoes of the bank. You become the new creditor and inherit all legal claims, security liens. Enforcement rights against the defaulting primary client. </p>
               </div>
 
               <div className="space-y-3 pt-1">
@@ -791,23 +672,17 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-3.5">
                   <div className="p-4 rounded-xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
                     <div className="text-xs font-bold text-[#1886ff]">Step 1: Collect Bank Proofs.</div>
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      Secure certified bank receipts, the official OTS sanction letter, bank payment vouchers. The No Dues Certificate establishing the exact amount you paid on behalf of the borrower.
-                    </p>
+                    <p className="text-xs text-slate-600 leading-relaxed"> Secure certified bank receipts, the formal OTS sanction letter, bank payment vouchers. The No Dues letter establishing the exact amount you paid on behalf of the client. </p>
                   </div>
 
                   <div className="p-4 rounded-xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
                     <div className="text-xs font-bold text-[#1886ff]">Step 2: Statutory Demand Notice.</div>
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      Serve a formal statutory legal demand notice on the primary borrower demanding 100% reimbursement of the settled sum along with legal costs and interest under Section 145 Contract Act (Implied Promise to Indemnify).
-                    </p>
+                    <p className="text-xs text-slate-600 leading-relaxed"> Serve a formal legal legal demand notice on the primary client demanding 100% reimbursement of the settled sum along with legal costs and interest under Section 145 Contract Act (Implied Promise to Indemnify). </p>
                   </div>
 
                   <div className="p-4 rounded-xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
                     <div className="text-xs font-bold text-[#1886ff]">Step 3: Summary Suit (Order 37 CPC).</div>
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      File an expedited Summary Suit under Order 37 of the Code of Civil Procedure (CPC) for liquidated debt recovery. Seek attachment before judgment of the borrower&apos;s bank accounts and properties under Order 38 Rule 5 CPC.
-                    </p>
+                    <p className="text-xs text-slate-600 leading-relaxed"> File an expedited Summary Suit under Order 37 of the Code of Civil Procedure (CPC) for liquidated debt collection. Seek attachment before judgment of the client&apos. s bank accounts and properties under Order 38 Rule 5 CPC. </p>
                   </div>
                 </div>
               </div>
@@ -822,9 +697,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 9. How to Legally Remove Your Name as a Loan Guarantor
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Many individuals ask: <em>&quot;Can I simply write a letter to the bank and cancel my guarantee?&quot;.</em> Once a personal loan is released, a guarantee cannot be unilaterally cancelled without the lender&apos;s formal written agreement. However, there are three established legal pathways to remove your name:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Many individuals ask: <em>&quot. Can I simply write a letter to the bank and cancel my guarantee?&quot.</em> Once a private loans is released. A guarantee cannot be unilaterally cancelled without the lender&apos. s formal written pacts. However, there are three established legal pathways to remove your name: </p>
 
               <div className="space-y-3 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -832,9 +705,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                     <Users className="w-4 h-4 text-[#1886ff]"/>
                     Mechanism 1: Guarantor Substitution (Replacement)
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    The primary borrower introduces a new, creditworthy guarantor (with equal or higher income and CIBIL score) or offers additional tangible collateral (such as a fixed deposit or property lien) to the lending institution. Upon approval by the bank credit committee, the bank executes an. <strong>Addendum &amp; Release Deed.</strong>, officially releasing you from all liabilities.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> The primary client introduces a new. Creditworthy guarantor (with equal or higher income and CIBIL score) or offers additional tangible security (such as a fixed deposit or property lien) to the lending institution. Upon approval by the bank credit boards, the bank executes an. <strong>Addendum &amp. Release Deed.</strong>, officially releasing you from all debts. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -842,9 +713,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                     <CreditCard className="w-4 h-4 text-indigo-600"/>
                     Mechanism 2: Loan Refinancing / Balance Transfer by Borrower
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    The primary borrower applies for a balance transfer or fresh personal loan from another bank solely in their individual name without requiring a guarantor. The new loan proceeds are used to fully prepay and foreclose the original loan, automatically extinguishing the original guarantee deed.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> The primary client applies for a balance transfer or fresh private loans from another bank solely in their individual name without requiring a guarantor. The new loan proceeds are used to fully prepay and foreclose the original loan. Automatically extinguishing the original guarantee deed. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -852,9 +721,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                     <ShieldCheck className="w-4 h-4 text-emerald-600"/>
                     Mechanism 3: Full Foreclosure or One-Time Settlement (OTS)
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    If the loan is in default, negotiating a formal One-Time Settlement (OTS) with a large waiver and paying the agreed compromised sum results in an official No Dues Certificate and complete discharge of both the borrower and guarantor.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> If the loan is in default. Settling a formal One-Time Settlement (OTS) with a large waiver and paying the agreed compromised sum results in an formal No Dues letter and complete discharge of both the client and guarantor. </p>
                 </div>
               </div>
             </section>
@@ -868,9 +735,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 10. Formal Statutory Reply Notice (Monospace Terminal Draft)
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                If the lending bank or its recovery agents have served you with a loan default demand notice as a guarantor, dispatch this formal statutory reply to the Bank Principal Nodal Officer and Branch Manager:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> If the lending bank or its collection agents have served you with a loan default demand notice as a guarantor. Dispatch this formal legal reply to the Bank main loan Nodal Officer and Branch Manager: </p>
 
               {/* Code / Notice Container */}
               <div className="rounded-2xl border border-slate-700 bg-slate-900 text-slate-100 p-5 md:p-6 shadow-sm overflow-x-auto text-xs font-mono leading-relaxed relative">
@@ -935,9 +800,7 @@ ___________________________
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 11. The 3-Tier Escalation Matrix &amp; Judicial Remedies for Guarantors
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                If the lending bank refuses to consider statutory discharge grounds or allows recovery agents to harass you, follow this 3-tier regulatory escalation path:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> If the lending bank refuses to consider legal discharge grounds or allows collection agents to harass you. Follow this 3-tier RBI escalation path: </p>
 
               <div className="space-y-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -950,9 +813,7 @@ ___________________________
                   <h3 className="text-sm md:text-base font-bold text-slate-900">
                     Submission of Statutory Reply &amp; Audit Request
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Submit the written statutory response directly to the lending branch and the bank&apos;s centralized customer redressal cell. Request account statements and obtain a stamped acknowledgement receipt.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Submit the written legal response straight to the lending branch and the bank&apos. s centralized customer redressal cell. Request account records and obtain a stamped receipts receipt. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -965,9 +826,7 @@ ___________________________
                   <h3 className="text-sm md:text-base font-bold text-slate-900">
                     Escalation for Arbitrary Recovery &amp; Unfair Practices
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    If the branch does not resolve the issue within 14 days, escalate to the Principal Nodal Officer (PNO). The PNO has direct authority to examine Section 133 contract variances, halt rogue recovery agents. Refer the file to the OTS Compromise Committee.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> If the branch does not resolve the issue within 14 days. Escalate to the main loan Nodal Officer (PNO). The PNO has direct formal to examine Section 133 contract variances, halt rogue collection agents. Refer the file to the OTS OTS deal boards. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-emerald-200 shadow-xs space-y-2">
@@ -980,9 +839,7 @@ ___________________________
                   <h3 className="text-sm md:text-base font-bold text-slate-900">
                     Regulatory Complaint via cms.rbi.org.in
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    If 30 days elapse without resolution, file a formal complaint on the. <strong>RBI CMS portal (cms.rbi.org.in).</strong> under the Reserve Bank - Integrated Ombudsman Scheme, 2021. The Ombudsman can award compensation up to ₹20 Lakhs for harassment and order the bank to rectify wrongful credit bureau reporting.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> If 30 days elapse without relief. File a formal complaint on the. <strong>RBI CMS portal (cms.rbi.org.in).</strong> under the Reserve Bank - Integrated Ombudsman Scheme, 2021. The Ombudsman can award payout up to ₹20 Lakhs for abuse and order the bank to rectify wrongful credit bureau reporting. </p>
                 </div>
               </div>
             </section>
@@ -996,9 +853,7 @@ ___________________________
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 12. Chronological Milestone Resolution Timeline (Day 0 to Month 6)
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Understand the key institutional and legal milestones involved in resolving guarantor liabilities from the first default notice to full closure:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Understand the key bank and legal milestones involved in resolving guarantor debts from the first default notice to full closure: </p>
 
               {/* Table with both vertical and horizontal lines forming a proper grid */}
               <div className="overflow-x-auto rounded-2xl border border-slate-300 bg-white shadow-xs">
@@ -1014,39 +869,39 @@ ___________________________
                   <tbody className="divide-y divide-slate-200 text-slate-600">
                     <tr className="hover:bg-slate-50/60">
                       <td className="p-3.5 font-bold text-slate-900 border border-slate-200">Day 0</td>
-                      <td className="p-3.5 border border-slate-200">Primary Borrower Misses EMI.</td>
+                      <td className="p-3.5 border border-slate-200">Primary client Misses EMI.</td>
                       <td className="p-3.5 border border-slate-200">1 to 30 DPD (Special Mention Account 0).</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Contact borrower &amp; verify reason for missed EMI.</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Contact client &amp. verify reason for missed EMI.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/60">
-                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200">Days 30–60</td>
-                      <td className="p-3.5 border border-slate-200">Bank Recovery Contact with Guarantor.</td>
+                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200">Days 30. 60</td>
+                      <td className="p-3.5 border border-slate-200">Bank collection Contact with Guarantor.</td>
                       <td className="p-3.5 border border-slate-200">SMA-1 / SMA-2 stage.</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Review loan deed copies &amp; ensure bank accounts are segregated.</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Review loan deed copies &amp. ensure bank accounts are segregated.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/60">
                       <td className="p-3.5 font-bold text-slate-900 border border-slate-200">Day 90</td>
-                      <td className="p-3.5 border border-slate-200">NPA Classification &amp; Demand Notice.</td>
+                      <td className="p-3.5 border border-slate-200">NPA Classification &amp. Demand Notice.</td>
                       <td className="p-3.5 border border-slate-200">90-day RBI prudential norm.</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Dispatch formal Section 128/133 statutory reply notice.</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Dispatch formal Section 128/133 legal reply notice.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/60">
-                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200">Days 91–150</td>
+                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200">Days 91. 150</td>
                       <td className="p-3.5 border border-slate-200">Arbitration / Legal Notice Issuance.</td>
                       <td className="p-3.5 border border-slate-200">30-day response window.</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Engage CredSettle legal panel to open compromise OTS talks.</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Engage CredSettle legal panel to open OTS deal OTS talks.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/60">
-                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200">Months 3–5</td>
-                      <td className="p-3.5 border border-slate-200">OTS Compromise Sanction Letter.</td>
-                      <td className="p-3.5 border border-slate-200">Bilateral negotiation period.</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Secure official written OTS letter with 40%–70% waiver.</td>
+                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200">Months 3. 5</td>
+                      <td className="p-3.5 border border-slate-200">OTS OTS deal Sanction Letter.</td>
+                      <td className="p-3.5 border border-slate-200">Bilateral talks period.</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Secure formal written OTS letter with 40%. 70% waiver.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/60">
-                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200">Months 5–6</td>
-                      <td className="p-3.5 border border-slate-200">No Dues Certificate &amp; Subrogation.</td>
+                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200">Months 5. 6</td>
+                      <td className="p-3.5 border border-slate-200">No Dues letter &amp. Subrogation.</td>
                       <td className="p-3.5 border border-slate-200">30 days from settlement payment.</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Collect NDC, verify CIBIL update, &amp; file Sec 140 suit against debtor.</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Collect NDC, verify CIBIL update, &amp. file Sec 140 suit against debtor.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -1062,9 +917,7 @@ ___________________________
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 13. Specialized Real-World Scenarios: Fintech Apps, ARCs &amp; DRT Litigation
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Guarantor liability dynamics vary greatly across modern lending models and specialized legal forums:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Guarantor debt risk dynamics vary greatly across modern lending models and specialized legal forums: </p>
 
               <div className="space-y-3 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -1072,9 +925,7 @@ ___________________________
                     <Sparkles className="w-4 h-4 text-[#1886ff]"/>
                     1. Digital Fintech NBFC Apps &amp; OTP-Based Guarantees
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Instant loan applications often attempt to bind relatives as guarantors through SMS OTP verifications or simple checkbox consents. Under the. <strong>Information Technology Act, 2000.</strong> and the Indian Contract Act, a valid contract of guarantee requires free consent, explicit consideration. Clear acknowledgment of surety terms. Vague digital references or emergency contact permissions do NOT constitute enforceable guarantee deeds.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Instant loan applications often attempt to bind relatives as guarantors through SMS OTP verifications or simple checkbox consents. Under the. <strong>Information Technology Act, 2000.</strong> and the Indian Contract Act. A valid contract of guarantee requires free consent, explicit consideration. Clear acknowledgment of surety terms. Vague digital references or emergency contact permissions do NOT constitute enforceable guarantee deeds. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -1082,9 +933,7 @@ ___________________________
                     <Building2 className="w-4 h-4 text-indigo-600"/>
                     2. Asset Reconstruction Companies (ARCs) &amp; Bad Loan Assignment
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    When banks sell stressed loan portfolios to Asset Reconstruction Companies (e.g., ARCIL, Edelweiss ARC, Phoenix ARC) under Section 5 of the SARFAESI Act, the ARC acquires all contractual rights against both the borrower and guarantor. However, ARCs purchase bad loans at steep discounts (20% to 40% of face value) and are highly motivated to execute quick, cash-based OTS settlements with large waivers.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> When banks sell stressed loan portfolios to Asset Reconstruction Companies (e.g. ARCIL, Edelweiss ARC, Phoenix ARC) under Section 5 of the SARFAESI Act. The ARC acquires all contractual rights against both the client and guarantor. However, ARCs purchase bad loans at steep discounts (20% to 40% of face value) and are highly motivated to execute quick. Cash-based OTS settlements with large waivers. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -1092,9 +941,7 @@ ___________________________
                     <Gavel className="w-4 h-4 text-red-600"/>
                     3. Unilateral Arbitrator Appointments &amp; Perkins Eastman Defense
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Private lenders frequently issue arbitration notices appointing a sole arbitrator unilaterally to pass ex-parte awards against guarantors. Under the Supreme Court ruling in. <em>Perkins Eastman Architects DPC v. HSCC (India) Ltd. (2020).</em>, unilateral appointment of arbitrators by lenders is illegal and void ab initio. We challenge such biased proceedings before the High Court under Section 11/14 of the Arbitration Act.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Private lenders often issue arbitration notices appointing a sole arbitrator unilaterally to pass ex-parte awards against guarantors. Under the Supreme Court ruling in. <em>Perkins Eastman Architects DPC v. HSCC (India) Ltd. (2020).</em>, unilateral appointment of arbitrators by lenders is illegal and void ab initio. We challenge such biased proceedings before the High Court under Section 11/14 of the Arbitration Act. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -1102,9 +949,7 @@ ___________________________
                     <Landmark className="w-4 h-4 text-emerald-600"/>
                     4. Debt Recovery Tribunal (DRT) Proceedings for High-Value Debts
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    For cumulative loan defaults exceeding ₹20 Lakhs, banks file Original Applications (OA) before the Debt Recovery Tribunal (DRT) under the Recovery of Debts and Bankruptcy Act, 1993. Personal guarantors have the right to appear, file written statements contesting debt calculations, raise Section 133/139 discharge pleas. Participate in Lok Adalat or court-annexed mediation for compromise settlement.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> For cumulative loan defaults exceeding ₹20 Lakhs. Banks file Original Applications (OA) before the Debt collection Tribunal (DRT) under the collection of Debts and Bankruptcy Act, 1993. Private guarantors have the right to appear. File written records contesting debt calculations. Raise Section 133/139 discharge pleas. join in Lok Adalat or court-annexed mediation for OTS deals. </p>
                 </div>
               </div>
             </section>
@@ -1123,9 +968,7 @@ ___________________________
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Frequently Asked Questions on Guarantor Liability in Personal Loans
               </h2>
-              <p className="text-xs md:text-sm text-slate-600">
-                Click on any question below to view detailed legal answers verified by our debt resolution professionals:
-              </p>
+              <p className="text-xs md:text-sm text-slate-600"> Click on any question below to view detailed legal answers verified by our debt relief workers: </p>
 
               <div className="space-y-3 pt-2">
                 {faqs.map((faq, index) => {
@@ -1153,21 +996,11 @@ ___________________________
                 Official Regulatory Citations &amp; Judicial References
               </h2>
               <ul className="space-y-2 text-xs text-slate-600 leading-relaxed list-disc pl-5">
-                <li>
-                  <strong>Indian Contract Act, 1872:</strong> Sections 126–147 (Contract of Guarantee, Surety Rights, Discharge of Surety, Subrogation), Ministry of Law and Justice, Government of India.
-                </li>
-                <li>
-                  <strong>Reserve Bank of India (RBI):</strong> Master Direction on Fair Practices Code for Lenders &amp; Circular RBI/2022-23/108 on Recovery Agents.
-                </li>
-                <li>
-                  <strong>Reserve Bank - Integrated Ombudsman Scheme, 2021:</strong> Redressal Mechanism for Unfair Bank Practices &amp; Harassment (cms.rbi.org.in).
-                </li>
-                <li>
-                  <strong>Credit Information Companies (Regulation) Act, 2005 (CICRA):</strong> Rules on Reporting Guarantor dues to CIBIL, Experian, and Equifax.
-                </li>
-                <li>
-                  <strong>Code of Civil Procedure, 1908 (CPC):</strong> Order 37 (Summary Suits for Debt Recovery) and Order 38 Rule 5 (Attachment Before Judgment).
-                </li>
+                <li> <strong>Indian Contract Act, 1872:</strong> Sections 126. 147 (Contract of Guarantee, Surety Rights. Discharge of Surety, Subrogation), Ministry of Law and Justice, Government of India. </li>
+                <li> <strong>Reserve Bank of India (RBI):</strong> Master Direction on Fair Practices Code for Lenders &amp. Circular RBI/2022-23/108 on collection agents. </li>
+                <li> <strong>Reserve Bank - Integrated Ombudsman Scheme, 2021:</strong> Redressal Mechanism for Unfair Bank Practices &amp. abuse (cms.rbi.org.in). </li>
+                <li> <strong>Credit Information Companies (Regulation) Act, 2005 (CICRA):</strong> Rules on Reporting Guarantor dues to CIBIL, Experian, and Equifax. </li>
+                <li> <strong>Code of Civil Procedure, 1908 (CPC):</strong> Order 37 (Summary Suits for Debt collection) and Order 38 Rule 5 (Attachment Before Judgment). </li>
               </ul>
 
               {/* 10 Internal Topic Badges */}
@@ -1223,14 +1056,10 @@ ___________________________
                   <Link href="/author/ashish-jhangra" className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional.
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief expert. </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Specialized in banking compliance, arbitral defense strategies, loan dispute resolution. NPA settlement negotiations with deep expertise challenging unlawful guarantor recovery demands and surety disputes across Indian banking forums.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> Specialized in banking compliance, arbitral defense plans, loan dispute relief. NPA settlement talks with deep expertise challenging unlawful guarantor collection demands and surety disputes across Indian banking forums. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
                   <span>View Author Profile.</span>
@@ -1248,12 +1077,8 @@ ___________________________
                 <span className="text-xs font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
                   100% CONFIDENTIAL LEGAL DEFENSE.
                 </span>
-                <p className="text-lg md:text-xl font-bold text-white leading-snug">
-                  Primary Borrower Defaulted on Loan?
-                </p>
-                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
-                  Our debt resolution experts challenge illegal guarantor demands, stop recovery agent harassment, defend your personal assets. Negotiate a 40% to 70% loan waiver.
-                </p>
+                <p className="text-lg md:text-xl font-bold text-white leading-snug"> Primary client Defaulted on Loan? </p>
+                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal"> Our debt relief experts challenge illegal guarantor demands. Stop collection agent abuse, defend your own assets. settle a 40% to 70% loan waiver. </p>
               </div>
               <Link href="/contact" className="block w-full bg-white text-blue-900 hover:text-[#1886ff] py-3 px-4 rounded-full font-bold text-sm hover:bg-slate-50 transition-all shadow-md">
                 Guarantor Legal Defense: Consult Us
@@ -1276,22 +1101,10 @@ ___________________________
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
               <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage.</p>
               <ul className="space-y-2 text-slate-600">
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Zero Upfront Risk:</strong> Success-linked settlement fees.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Direct Bank Remittance:</strong> Zero middleman fund holding.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>RBI &amp; CICRA Compliance:</strong> 100% lawful dispute handling.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Pan-India Representation:</strong> Dedicated debt resolution specialists.</span>
-                </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Zero Upfront Risk:</strong> Success-linked settlement fees.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Direct Bank Remittance:</strong> Zero middleman fund holding.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>RBI &amp. CICRA Compliance:</strong> 100% lawful dispute handling.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Pan-India legal help:</strong> Dedicated debt relief specialists.</span> </li>
               </ul>
             </div>
 
@@ -1300,23 +1113,17 @@ ___________________________
               <p className="font-bold text-slate-900 text-sm">Related Legal Guides.</p>
               <div className="space-y-2.5">
                 <Link href="/salary-deduction-personal-loan-default" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Can Bank Legally Deduct EMI from Salary?
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Can Bank Legally Deduct EMI from Salary? </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Right of Set-Off defense guide &rarr;.</span>
                 </Link>
 
                 <Link href="/ecs-nach-bounce-legal-notice-section-25" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    ECS / NACH Bounce Legal Notice Section 25.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> ECS / NACH Bounce Legal Notice Section 25. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Full step-by-step reply blueprint &rarr;.</span>
                 </Link>
 
                 <Link href="/arbitration-notice-personal-loan-default" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Arbitration Notice for Personal Loan Default.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Arbitration Notice for private loans Default. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Perkins Eastman defense guide &rarr;.</span>
                 </Link>
               </div>

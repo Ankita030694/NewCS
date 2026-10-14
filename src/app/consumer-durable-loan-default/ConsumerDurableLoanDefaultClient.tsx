@@ -100,9 +100,7 @@ export default function ConsumerDurableLoanDefaultClient() {
             Consumer Durable &amp; Mobile Loan Default
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed">
-            Struggling with unpaid smartphone EMIs, NBFC consumer credit cards, or Buy-Now-Pay-Later dues? Understand your legal protections against unlawful recovery harassment, halt escalating NACH bounce penalties. Negotiate an official compromise settlement.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> Struggling with unpaid smartphone EMIs. NBFC clients credit cards. Or Buy-Now-Pay-Later dues? Understand your legal protections against unlawful claims abuse. Halt escalating NACH bounce penalties. settle an formal OTS deals. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -145,9 +143,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>Statutory Borrower Rights.</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Protected by RBI Digital Lending Guidelines 2022 &amp; Section 25 PSSA Safeguards.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Protected by RBI Digital Lending rules 2022 &amp. Section 25 PSSA Safeguards. </p>
               </div>
             </div>
           </aside>
@@ -163,61 +159,21 @@ export default function ConsumerDurableLoanDefaultClient() {
               </div>
 
               <ul className="space-y-2 text-xs sm:text-sm text-slate-700 leading-relaxed">
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Civil Dispute Nature:</strong> Consumer durable and BNPL defaults are strictly civil matters carrying zero criminal arrest risk under Indian law.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Civil claims Nature:</strong> clients durable and BNPL defaults are strictly civil matters carrying zero criminal arrest risk under Indian law. </div> </li>
 
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Prohibition of Bot Calls:</strong> RBI Digital Lending Guidelines 2022 strictly ban contact list scraping and automated dialer bots.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Prohibition of Bot Calls:</strong> RBI Digital Lending rules 2022 strictly ban contact list scraping and automated dialer bots. </div> </li>
 
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Section 25 PSSA Defense:</strong> Failed auto-debit notices are defensible by showing genuine distress and disputing unauthorized re-presentations.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Section 25 PSSA Defense:</strong> Failed auto-debit notices are defensible by showing genuine distress and disputing illegal re-presentations. </div> </li>
 
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">100% Bounce Fee Waiver:</strong> Compounded NACH bounce charges and late payment penalties are completely eliminated during settlement.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">100% Bounce Fee Waiver:</strong> Compounded NACH bounce charges and late payment penalties are completely eliminated during settlement. </div> </li>
 
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">40% to 60% Principal Haircut:</strong> Unsecured NPA consumer loans are routinely settled at large principal discounts to clear books.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">40% to 60% main loan Haircut:</strong> no-pledge NPA clients loans are routinely settled at large main loan discounts to clear books. </div> </li>
 
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Multi-Bureau Synchronization:</strong> Full settlement updates records across CIBIL, CRIF, Experian, and Equifax under Section 21 CICRA 2005.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Multi-Bureau Synchronization:</strong> Full settlement updates records across CIBIL. CRIF. Experian. And Equifax under Section 21 CICRA 2005. </div> </li>
 
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Sanction Letter Verification:</strong> Settlement payments must only be made against verified official NBFC sanction letters.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Sanction Letter check:</strong> settlement payments must only be made against verified formal NBFC sanction letters. </div> </li>
 
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">3-Tier Statutory Redressal:</strong> Grievances can be escalated sequentially to the NBFC Grievance Officer, Principal Nodal Officer, and RBI Ombudsman.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">3-Tier legal Redressal:</strong> Grievances can be escalated sequentially to the NBFC Grievance agents. Main loan Nodal agents. And RBI Ombudsman. </div> </li>
               </ul>
             </div>
 
@@ -230,13 +186,9 @@ export default function ConsumerDurableLoanDefaultClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
-                Consumer durable loans and Buy-Now-Pay-Later facilities offered by non-banking financial companies like Bajaj Finserv, Home Credit. TVS Credit operate as high-volume, unsecured micro-credit lines. When sudden income shocks or medical emergencies disrupt cash flows, borrowers frequently default across retail financing tranches. Under RBI prudential norms, unpaid loan installments progress through Special Mention Account stages: SMA-0 for 1 to 30 days overdue, SMA-1 for 31 to 60 days. SMA-2 for 61 to 90 days, culminating in mandatory Non-Performing Asset (NPA) classification upon crossing the 90-day default threshold.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal"> clients durable loans and Buy-Now-Pay-Later facilities offered by non-banking money companies like Bajaj Finserv. Home Credit. TVS Credit operate as high-volume. No-pledge micro-credit lines. When sudden income shocks or health crises disrupt cash flows. Clients often default across retail financing tranches. Under RBI prudential norms. Unpaid loan installments progress through Special Mention Account stages: SMA-0 for 1 to 30 days overdue. SMA-1 for 31 to 60 days. SMA-2 for 61 to 90 days. Culminating in strict Non-Performing Asset (NPA) classification upon crossing the 90-day default threshold. </p>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
-                Once an unsecured consumer loan is designated as an NPA, the lending NBFC must allocate 100% Tier-1 capital loss provisioning against the asset. Because these loans are entirely unsecured, lenders cannot invoke the SARFAESI Act, which applies solely to secured debts exceeding one lakh rupees with registered collateral. Pursuing formal civil litigation for small balances between ten thousand and one lakh rupees is commercially unviable due to heavy court fees and legal expenses. as a result, NBFC credit committees actively approve One-Time Settlements (OTS) to recover core principal capital.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal"> Once an no-pledge clients loan is designated as an NPA. The lending NBFC must allocate 100% Tier-1 cash loss provisioning against the asset. Because these loans are entirely no-pledge. Lenders cannot invoke the SARFAESI Act. This applies solely to secured debts exceeding one lakh rupees with registered pledge. Pursuing formal civil lawsuits for small balances between ten thousand and one lakh rupees is commercially unviable due to heavy court fees and legal expenses. As a result. NBFC credit boards actively approve One-Time deals (OTS) to recover core main loan cash. </p>
             </section>
 
             {/* SECTION 2: FINANCIAL BREAKDOWN & SETTLEMENT MATH */}
@@ -248,9 +200,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
-                Defaulted consumer durable accounts experience rapid balance inflation driven by automated penal mechanisms. When an electronic NACH mandate fails, both the lending institution and the depository bank levy separate bounce penalties ranging from ₹350 to ₹750 per instance. When lenders re-present failed mandates repeatedly without borrower consent, these automated fees quickly exceed the original EMI balance. Under RBI Fair Lending Guidelines 2024, penal interest cannot be compounded into principal. During formal settlement negotiations, legal representation secures complete elimination of all bounce fees and penal surcharges.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal"> Defaulted clients durable accounts skill rapid balance inflation driven by automated penal mechanisms. When an electronic NACH mandate fails. Both the lending institution and the depository bank levy separate bounce penalties ranging from ₹350 to ₹750 per instance. When lenders re-present failed mandates repeatedly without client consent. These automated fees quickly exceed the original EMI balance. Under RBI Fair Lending rules 2024. Penal interest cannot be compounded into main loan. During formal talks. Legal legal help secures complete elimination of all bounce fees and penal surcharges. </p>
 
               {/* 4-Sided Bordered Financial Math Table Card */}
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
@@ -265,7 +215,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-200/80">
                     <tr className="divide-x divide-slate-200/80">
-                      <td className="p-2.5 font-semibold text-slate-900">Principal Balance.</td>
+                      <td className="p-2.5 font-semibold text-slate-900">base loan.</td>
                       <td className="p-2.5">₹36,000</td>
                       <td className="p-2.5 text-emerald-700 font-medium">45% Haircut</td>
                       <td className="p-2.5 font-bold text-slate-900">₹19,800</td>
@@ -277,7 +227,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                       <td className="p-2.5 font-bold text-slate-900">₹1,200</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80">
-                      <td className="p-2.5 font-semibold text-slate-900">Penal &amp; Bounce Fees.</td>
+                      <td className="p-2.5 font-semibold text-slate-900">Penal &amp. Bounce Fees.</td>
                       <td className="p-2.5">₹13,000</td>
                       <td className="p-2.5 text-emerald-700 font-medium">100% Waived</td>
                       <td className="p-2.5 font-bold text-emerald-700">₹0</td>
@@ -286,7 +236,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                       <td className="p-2.5 text-blue-950">Total debt.</td>
                       <td className="p-2.5 text-rose-700 line-through">₹53,200</td>
                       <td className="p-2.5 text-emerald-800">60.5% Relief</td>
-                      <td className="p-2.5 text-[#1886ff] text-base">₹21,000 (Full &amp; Final).</td>
+                      <td className="p-2.5 text-[#1886ff] text-base">₹21,000 (Full &amp. Final).</td>
                     </tr>
                   </tbody>
                 </table>
@@ -302,9 +252,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
-                Evaluating dispute resolution pathways allows borrowers to select the optimal mechanism to eliminate liability while managing credit score impacts effectively.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal"> Evaluating claims relief pathways allows clients to select the optimal mechanism to eliminate debt risk while managing credit score impacts effectively. </p>
 
               {/* 4-Sided Bordered Comparison Table */}
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
@@ -320,22 +268,22 @@ export default function ConsumerDurableLoanDefaultClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-200/80">
                     <tr className="divide-x divide-slate-200/80">
-                      <td className="p-2.5 font-bold text-[#1886ff]">OTS Settlement</td>
-                      <td className="p-2.5">Direct Nodal negotiation; notices closed.</td>
-                      <td className="p-2.5 text-emerald-700 font-semibold">40% to 60% principal waiver; 100% fee waiver.</td>
-                      <td className="p-2.5">Marked as Settled; rebuilds in 12 to 24 months.</td>
+                      <td className="p-2.5 font-bold text-[#1886ff]">OTS settlement</td>
+                      <td className="p-2.5">Direct Nodal talks. notices closed.</td>
+                      <td className="p-2.5 text-emerald-700 font-semibold">40% to 60% loan cut. 100% fee waiver.</td>
+                      <td className="p-2.5">Marked as Settled. rebuilds in 12 to 24 months.</td>
                       <td className="p-2.5">Job loss or multi-debt distress.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 bg-slate-50/40">
                       <td className="p-2.5 font-bold text-slate-900">Restructuring</td>
                       <td className="p-2.5">Tenor extension with revised EMIs.</td>
-                      <td className="p-2.5">Zero principal waiver; higher interest.</td>
+                      <td className="p-2.5">Zero loan cut. higher interest.</td>
                       <td className="p-2.5">Marked as Restructured.</td>
                       <td className="p-2.5">Temporary income dip.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80">
                       <td className="p-2.5 font-bold text-slate-900">Lok Adalat</td>
-                      <td className="p-2.5">Pre-litigation judicial conciliation.</td>
+                      <td className="p-2.5">Pre-lawsuits judicial talks.</td>
                       <td className="p-2.5">30% to 50% discount with binding award.</td>
                       <td className="p-2.5">Settled through Lok Adalat Award.</td>
                       <td className="p-2.5">Court-endorsed closure.</td>
@@ -343,7 +291,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                     <tr className="divide-x divide-slate-200/80 bg-slate-50/40">
                       <td className="p-2.5 font-bold text-slate-900">Civil Suit</td>
                       <td className="p-2.5">Lender files summary civil suit.</td>
-                      <td className="p-2.5">High advocate fees and decree risk.</td>
+                      <td className="p-2.5">High lawyers fees and decree risk.</td>
                       <td className="p-2.5">Prolonged default record.</td>
                       <td className="p-2.5">Rare for micro-loans.</td>
                     </tr>
@@ -351,7 +299,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                       <td className="p-2.5 font-bold text-rose-600">Inaction</td>
                       <td className="p-2.5">Persistent bot calls and field visits.</td>
                       <td className="p-2.5">Compounding penalties inflating debt.</td>
-                      <td className="p-2.5">Written Off status; score &lt;550.</td>
+                      <td className="p-2.5">Written Off status. score &lt. 550.</td>
                       <td className="p-2.5 text-rose-700 font-medium">Unadvisable.</td>
                     </tr>
                   </tbody>
@@ -368,13 +316,9 @@ export default function ConsumerDurableLoanDefaultClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
-                Credit scoring models used by TransUnion CIBIL, Experian, CRIF High Mark. Equifax allocate 35% of total score weight strictly to Payment History. Even a default on a ₹10,000 smartphone loan creates an immediate Days Past Due (DPD) record, causing scores to drop by 50 to 120 points. also, fintech BNPL platforms often partition a single transaction across multiple partner NBFC balance sheets, generating separate default trade lines across different credit bureaus that severely elevate Credit use ratios (30% weight).
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal"> Credit scoring models used by TransUnion CIBIL. Experian. CRIF High Mark. Equifax allocate 35% of total score weight strictly to Payment History. Even a default on a ₹10,000 smartphone loan creates an fast Days Past Due (DPD) record. This causes scores to drop by 50 to 120 points. Also. Fintech BNPL platforms often partition a single transaction across multiple partner NBFC balance sheets. Generating separate default trade lines across different credit bureaus that severely elevate Credit use ratios (30% weight). </p>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
-                Under Section 21 of the Credit Information Companies (Regulation) Act (CICRA) 2005, lending NBFCs are statutorily obligated to update bureau records within 30 to 45 days of issuing a No Dues Certificate. Once the status reflects Settled with a zero outstanding balance, ongoing DPD reporting stops. Borrowers can then rebuild their score back to 750+ within 12 to 24 months using secured credit products.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal"> Under Section 21 of the Credit Information Companies (Regulation) Act (CICRA) 2005. Lending NBFCs are statutorily obligated to update bureau records within 30 to 45 days of issuing a No Dues letter. Once the status reflects Settled with a zero unpaid dues. Ongoing DPD reporting stops. clients can then rebuild their score back to 750+ within 12 to 24 months using secured credit products. </p>
             </section>
 
             {/* SECTION 5: VISUAL INFOGRAPHIC ASSET CARD */}
@@ -386,9 +330,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
-                Our proprietary 6-stage legal framework provides comprehensive protection against recovery harassment, eliminates predatory charges. Ensures legitimate debt discharge for consumer durable defaults.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal"> Our proprietary 6-stage legal rules provides full safety against claims abuse. Eliminates predatory charges. Ensures legitimate debt discharge for clients durable defaults. </p>
 
               <div className="relative rounded-2xl overflow-hidden border border-slate-200/80 shadow-md bg-slate-900 group">
                 <Image src="/images/infographics/consumer-durable-loan-default.jpg" alt="Consumer Durable and Mobile Loan Default Resolution Framework Infographic" width={1920} height={1080} priority className="w-full h-auto object-cover transform transition-transform duration-300 group-hover:scale-[1.01]"/>
@@ -411,9 +353,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
-                Our structured six-stage SOP ensures seamless debt resolution by uniting forensic accounting with assertive statutory legal representation.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal"> Our structured six-stage SOP ensures seamless debt relief by uniting deep accounting with assertive legal legal legal help. </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {/* Stage 1 */}
@@ -425,9 +365,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                     <FileText className="w-4 h-4 text-[#06b6d4]"/>
                   </div>
                   <h3 className="text-sm font-bold text-slate-900">Forensic Ledger Audit</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed font-normal">
-                    We audit your loan statement, separating principal from penal interest, unauthorized NACH bounce fees. Disputed processing charges across BNPL tranches.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed font-normal"> We audit your loan record. Separating main loan from penal interest. Illegal NACH bounce fees. Disputed processing charges across BNPL tranches. </p>
                 </div>
 
                 {/* Stage 2 */}
@@ -439,9 +377,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                     <Briefcase className="w-4 h-4 text-[#3b82f6]"/>
                   </div>
                   <h3 className="text-sm font-bold text-slate-900">Hardship Documentation</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed font-normal">
-                    We assemble a verified hardship dossier containing job termination letters, medical records. Bank deficit proofs substantiating involuntary default.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed font-normal"> We assemble a verified hardship dossier containing job termination letters. health records. Bank deficit proofs proving involuntary default. </p>
                 </div>
 
                 {/* Stage 3 */}
@@ -453,9 +389,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                     <ShieldAlert className="w-4 h-4 text-[#8b5cf6]"/>
                   </div>
                   <h3 className="text-sm font-bold text-slate-900">Anti-Harassment Notice</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed font-normal">
-                    We issue statutory legal notices under RBI Digital Lending Guidelines and IT Act Sections 66E and 72A, halting recovery agent contact scraping and bot calls.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed font-normal"> We issue legal legal notices under RBI Digital Lending rules and IT Act Sections 66E and 72A. Halting claims agent contact scraping and bot calls. </p>
                 </div>
 
                 {/* Stage 4 */}
@@ -467,9 +401,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                     <TrendingUp className="w-4 h-4 text-[#f59e0b]"/>
                   </div>
                   <h3 className="text-sm font-bold text-slate-900">Credit Committee OTS</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed font-normal">
-                    Our legal negotiators represent your case before the NBFC Principal Nodal Officer and Credit Committee, securing a 40% to 60% principal waiver.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed font-normal"> Our legal negotiators represent your case before the NBFC main loan Nodal agents and Credit boards. Securing a 40% to 60% loan cut. </p>
                 </div>
 
                 {/* Stage 5 */}
@@ -481,9 +413,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                     <CheckCircle2 className="w-4 h-4 text-[#10b981]"/>
                   </div>
                   <h3 className="text-sm font-bold text-slate-900">Sanction Letter Vetting</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed font-normal">
-                    We vet the official sanction letter issued directly on NBFC letterhead, verifying explicit full debt discharge covenants and NACH cancellation.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed font-normal"> We vet the formal sanction letter issued straight on NBFC letterhead. Verifying explicit full debt discharge covenants and NACH cancellation. </p>
                 </div>
 
                 {/* Stage 6 */}
@@ -495,9 +425,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                     <Sparkles className="w-4 h-4 text-[#14b8a6]"/>
                   </div>
                   <h3 className="text-sm font-bold text-slate-900">NDC &amp; Bureau Sync</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed font-normal">
-                    Payment is made directly into the lender official account, followed by receipt of the No Dues Certificate and credit bureau synchronization.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed font-normal"> Payment is made straight into the lender formal account. Followed by receipt of the No Dues letter and credit bureau synchronization. </p>
                 </div>
               </div>
             </section>
@@ -511,9 +439,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
-                When consumer durable loans default, lenders issue formal statutory notices. Understanding the legal framework governing each notice allows borrowers to assert their statutory defenses effectively.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal"> When clients durable loans default. Lenders issue formal legal notices. Understanding the legal rules governing each notice allows clients to assert their legal defenses effectively. </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {/* Card 1: Section 25 PSSA */}
@@ -523,9 +449,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                     <span>Section 25 PSSA (NACH Bounce).</span>
                   </div>
                   <h3 className="text-sm font-bold text-slate-900">Electronic Mandate Defense</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed font-normal">
-                    Section 25 PSSA penalizes electronic debit bounces. A statutory notice requires a formal legal response within 30 days showing involuntary hardship and challenging unauthorized multiple presentations.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed font-normal"> Section 25 PSSA penalizes electronic debit bounces. A legal notices requires a formal legal response within 30 days showing involuntary hardship and challenging illegal multiple presentations. </p>
                 </div>
 
                 {/* Card 2: Section 138 NI Act */}
@@ -535,9 +459,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                     <span>Section 138 NI Act (Cheque Bounce).</span>
                   </div>
                   <h3 className="text-sm font-bold text-slate-900">Negotiable Instruments Reply</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed font-normal">
-                    If a security cheque is dishonored, lenders must issue a demand notice within 30 days. Our counsel drafts statutory replies challenging inflated interest sums and seeking conciliation.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed font-normal"> If a pledge cheque is dishonored. Lenders must issue a demand notice within 30 days. Our counsel drafts legal replies challenging inflated interest sums and seeking talks. </p>
                 </div>
 
                 {/* Card 3: Arbitration Section 21 */}
@@ -547,9 +469,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                     <span>Section 21 Arbitration Act 1996.</span>
                   </div>
                   <h3 className="text-sm font-bold text-slate-900">Challenging Arbitrators</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed font-normal">
-                    Fintech lenders often appoint sole arbitrators unilaterally. Under Supreme Court rulings in TRF Ltd. and Perkins Eastman, unilateral appointments by an interested lender are de jure invalid under Section 12(5).
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed font-normal"> Fintech lenders often appoint sole arbitrators unilaterally. Under Supreme Court rulings in TRF Ltd. And Perkins Eastman. Unilateral appointments by an interested lender are de jure invalid under Section 12(5). </p>
                 </div>
 
                 {/* Card 4: RBI Digital Lending & IT Act */}
@@ -559,9 +479,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                     <span>RBI Digital Lending &amp; IT Act.</span>
                   </div>
                   <h3 className="text-sm font-bold text-slate-900">Injunction Against Harassment</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed font-normal">
-                    RBI Digital Lending Guidelines 2022 and Sections 66E and 72A of the IT Act strictly prohibit accessing contacts or deploying bot calls, enabling immediate regulatory complaints before the RBI Ombudsman.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed font-normal"> RBI Digital Lending rules 2022 and Sections 66E and 72A of the IT Act strictly prohibit accessing contacts or deploying bot calls. This lets fast RBI reports before the RBI Ombudsman. </p>
                 </div>
               </div>
             </section>
@@ -575,9 +493,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
-                When lenders violate Fair Practices Codes or permit collection harassment, borrowers can escalate disputes through a structured regulatory hierarchy.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal"> When lenders violate Fair Practices Codes or permit claims abuse. Clients can escalate claims through a structured RBI hierarchy. </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
                 <table className="w-full text-left text-xs sm:text-sm text-slate-700 divide-y divide-slate-200/80">
@@ -592,21 +508,21 @@ export default function ConsumerDurableLoanDefaultClient() {
                   <tbody className="divide-y divide-slate-200/80">
                     <tr className="divide-x divide-slate-200/80">
                       <td className="p-2.5 font-bold text-slate-900">Level 1</td>
-                      <td className="p-2.5 font-semibold text-[#1886ff]">Grievance Officer (GRO).</td>
+                      <td className="p-2.5 font-semibold text-[#1886ff]">Grievance agents (GRO).</td>
                       <td className="p-2.5">7 to 10 Days</td>
                       <td className="p-2.5">Disputing billing errors and agent misconduct.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 bg-slate-50/40">
                       <td className="p-2.5 font-bold text-slate-900">Level 2</td>
-                      <td className="p-2.5 font-semibold text-indigo-700">Principal Nodal Officer.</td>
+                      <td className="p-2.5 font-semibold text-indigo-700">main loan Nodal agents.</td>
                       <td className="p-2.5">14 to 21 Days</td>
-                      <td className="p-2.5">Appealing disputes; negotiating OTS terms.</td>
+                      <td className="p-2.5">Appealing claims. settling OTS terms.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80">
                       <td className="p-2.5 font-bold text-slate-900">Level 3</td>
                       <td className="p-2.5 font-semibold text-emerald-700">RBI Ombudsman</td>
                       <td className="p-2.5">30 Days</td>
-                      <td className="p-2.5">Filing complaints on cms.rbi.org.in.</td>
+                      <td className="p-2.5">Filing reports on cms.rbi.org.in.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -622,9 +538,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
-                Tracking default milestones allows timely legal intervention to secure maximum waivers while halting aggressive collection escalation.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal"> Tracking default milestones allows timely legal intervention to secure maximum waivers while halting aggressive claims escalation. </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
                 <table className="w-full text-left text-xs sm:text-sm text-slate-700 divide-y divide-slate-200/80">
@@ -647,19 +561,19 @@ export default function ConsumerDurableLoanDefaultClient() {
                       <td className="p-2.5 font-bold text-slate-900">Days 31 to 90</td>
                       <td className="p-2.5 text-orange-700 font-semibold">SMA-1 / SMA-2</td>
                       <td className="p-2.5">Tele-calling surges and demand notices.</td>
-                      <td className="p-2.5">Issue anti-harassment notice.</td>
+                      <td className="p-2.5">Issue anti-abuse notice.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80">
                       <td className="p-2.5 font-bold text-slate-900">Days 91 to 120</td>
                       <td className="p-2.5 text-rose-700 font-semibold">NPA Status</td>
-                      <td className="p-2.5">Section 25 PSSA statutory notices.</td>
+                      <td className="p-2.5">Section 25 PSSA legal notices.</td>
                       <td className="p-2.5">Engage counsel to propose OTS.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 bg-slate-50/40">
                       <td className="p-2.5 font-bold text-[#1886ff]">Days 121 to 180</td>
                       <td className="p-2.5 font-semibold text-[#1886ff]">OTS Window</td>
-                      <td className="p-2.5">Credit committee evaluates terms.</td>
-                      <td className="p-2.5">Negotiate 40% to 60% waiver.</td>
+                      <td className="p-2.5">Credit boards evaluates terms.</td>
+                      <td className="p-2.5">settle 40% to 60% waiver.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80">
                       <td className="p-2.5 font-bold text-emerald-700">Month 6 Onward</td>
@@ -681,9 +595,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
-                Consumer credit defaults require tailored legal strategies depending on the underlying financing structure and lender collection tactics.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal"> clients credit defaults require tailored legal plans depending on the underlying financing structure and lender claims tactics. </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {/* Scenario 1 */}
@@ -693,9 +605,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                     <span>Multi-App BNPL Stacking.</span>
                   </div>
                   <h3 className="text-sm font-bold text-slate-900">Consolidated Debt Resolution</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed font-normal">
-                    Borrowers stacking BNPL lines across Simpl, Lazypay, and apps face multiple notices. We consolidate cross-lender negotiations into a single synchronized compromise plan.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed font-normal"> clients stacking BNPL lines across Simpl. Lazypay. apps face multiple notices. We consolidate cross-lender talks into a single synchronized OTS deal plan. </p>
                 </div>
 
                 {/* Scenario 2 */}
@@ -705,9 +615,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                     <span>Salaried Job Loss &amp; Layoffs.</span>
                   </div>
                   <h3 className="text-sm font-bold text-slate-900">Involuntary Distress Petition</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed font-normal">
-                    Sudden layoffs leave individuals unable to pay active electronics EMIs. We submit verified severance proofs to NBFC committees to secure maximum principal haircuts.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed font-normal"> Sudden layoffs leave people unable to pay active electronics EMIs. We submit verified severance proofs to NBFC boards to secure maximum main loan haircuts. </p>
                 </div>
 
                 {/* Scenario 3 */}
@@ -717,9 +625,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                     <span>Auto-Dialer Bots &amp; Spam.</span>
                   </div>
                   <h3 className="text-sm font-bold text-slate-900">Regulatory Injunction</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed font-normal">
-                    Fintech apps using automated dialers making dozens of daily calls violate RBI rules. We issue immediate legal cease notices, stopping aggressive calling within 48 hours.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed font-normal"> Fintech apps using automated dialers making dozens of daily calls violate RBI rules. We issue fast legal cease notices. Stopping aggressive calling within 48 hours. </p>
                 </div>
 
                 {/* Scenario 4 */}
@@ -729,9 +635,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                     <span>ARC Debt Assignments.</span>
                   </div>
                   <h3 className="text-sm font-bold text-slate-900">Asset Reconstruction OTS</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed font-normal">
-                    When consumer debts are sold to ARCs like Phoenix or Arcil at deep discounts, we leverage their acquisition cost to negotiate deep settlements of 60% to 70% off.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed font-normal"> When clients debts are sold to ARCs like Phoenix or Arcil at deep discounts. We leverage their acquisition cost to settle deep deals of 60% to 70% off. </p>
                 </div>
               </div>
             </section>
@@ -750,9 +654,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
-                Find clear, authoritative answers to common legal and financial questions regarding consumer durable loan defaults, NBFC EMI cards, BNPL lines. Recovery regulations.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal"> Find clear. Authoritative answers to common legal and money questions regarding clients durable loan defaults. NBFC EMI cards. BNPL lines. claims regulations. </p>
 
               <div className="space-y-3">
                 {faqs.map((faq, index) => {
@@ -779,9 +681,7 @@ export default function ConsumerDurableLoanDefaultClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
-                Our consumer debt resolution protocols strictly adhere to statutory Indian financial enactments, Reserve Bank of India regulatory directives. Established judicial precedents governing consumer credit.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal"> Our clients debt relief protocols strictly adhere to legal Indian money enactments. Reserve Bank of India RBI directives. Established judicial rulings governing clients credit. </p>
 
               {/* Statutory Enactments List */}
               <div className="bg-white rounded-2xl border border-slate-200/80 p-3.5 shadow-xs space-y-2">
@@ -789,30 +689,12 @@ export default function ConsumerDurableLoanDefaultClient() {
                   Primary Governing Frameworks &amp; Statutory Codes:
                 </h3>
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-1.5 text-xs text-slate-600">
-                  <li className="flex items-center gap-2">
-                    <Check className="w-3.5 h-3.5 text-[#1886ff]"/>
-                    <span>RBI Digital Lending Guidelines (2022).</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="w-3.5 h-3.5 text-[#1886ff]"/>
-                    <span>Payment &amp; Settlement Systems Act (Sec 25).</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="w-3.5 h-3.5 text-[#1886ff]"/>
-                    <span>Credit Information Companies Act (CICRA 2005).</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="w-3.5 h-3.5 text-[#1886ff]"/>
-                    <span>Negotiable Instruments Act (Section 138).</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="w-3.5 h-3.5 text-[#1886ff]"/>
-                    <span>Information Technology Act (Sec 66E &amp; 72A).</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="w-3.5 h-3.5 text-[#1886ff]"/>
-                    <span>Arbitration &amp; Conciliation Act (1996).</span>
-                  </li>
+                  <li className="flex items-center gap-2"> <Check className="w-3.5 h-3.5 text-[#1886ff]"/> <span>RBI Digital Lending rules (2022).</span> </li>
+                  <li className="flex items-center gap-2"> <Check className="w-3.5 h-3.5 text-[#1886ff]"/> <span>Payment &amp. settlement Systems Act (Sec 25).</span> </li>
+                  <li className="flex items-center gap-2"> <Check className="w-3.5 h-3.5 text-[#1886ff]"/> <span>Credit Information Companies Act (CICRA 2005).</span> </li>
+                  <li className="flex items-center gap-2"> <Check className="w-3.5 h-3.5 text-[#1886ff]"/> <span>Negotiable Instruments Act (Section 138).</span> </li>
+                  <li className="flex items-center gap-2"> <Check className="w-3.5 h-3.5 text-[#1886ff]"/> <span>Information Technology Act (Sec 66E &amp. 72A).</span> </li>
+                  <li className="flex items-center gap-2"> <Check className="w-3.5 h-3.5 text-[#1886ff]"/> <span>hearing &amp. talks Act (1996).</span> </li>
                 </ul>
               </div>
 
@@ -896,12 +778,10 @@ export default function ConsumerDurableLoanDefaultClient() {
                 </div>
                 <div>
                   <p className="text-sm font-bold text-slate-900">Ashish Jhangra</p>
-                  <p className="text-[11px] font-semibold text-slate-500">Legal &amp; Debt Resolution Professional.</p>
+                  <p className="text-[11px] font-semibold text-slate-500">Legal &amp. Debt relief expert.</p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Specialist in Indian banking law, NBFC micro-loan disputes, and RBI digital lending compliance.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> Specialist in Indian banking law. NBFC micro-loan claims. And RBI digital lending compliance. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500 font-medium">
                 <span>Verified Author</span>
                 <span className="text-emerald-600 font-bold flex items-center gap-1">
@@ -915,11 +795,9 @@ export default function ConsumerDurableLoanDefaultClient() {
             <div className="rounded-2xl text-white p-4 shadow-lg space-y-2.5" style={{ backgroundColor: '#2452ae' }}>
               <div className="flex items-center gap-2">
                 <ShieldAlert className="w-5 h-5 text-sky-300 flex-shrink-0"/>
-                <p className="text-sm font-bold tracking-tight">Facing Collection Harassment?</p>
+                <p className="text-sm font-bold tracking-tight">Facing claims abuse?</p>
               </div>
-              <p className="text-xs text-blue-100 leading-relaxed font-normal">
-                Stop illegal bot calls, contact scraping, and aggressive visits immediately with formal legal representation.
-              </p>
+              <p className="text-xs text-blue-100 leading-relaxed font-normal"> Stop illegal bot calls. Contact scraping. And aggressive visits promptly with formal legal legal help. </p>
               <Link href="/contact" className="w-full py-2.5 px-4 rounded-xl bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-xs hover:bg-slate-50 transition-all text-center block shadow-xs">
                 Request Legal Protection
               </Link>
@@ -959,9 +837,7 @@ export default function ConsumerDurableLoanDefaultClient() {
 
             {/* Related Resolution Guides Card */}
             <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-4 space-y-2">
-              <p className="text-xs font-black uppercase tracking-wider text-slate-800 pb-2 border-b border-slate-100">
-                Related Legal Guides.
-              </p>
+              <p className="text-xs font-black uppercase tracking-wider text-slate-800 pb-2 border-b border-slate-100"> Related Legal Guides. </p>
               <div className="space-y-1 text-xs">
                 <Link href="/services/personal-loan-settlement" className="block text-slate-600 hover:text-[#1886ff] font-medium transition-colors">
                   &bull; Personal Loan OTS Guide

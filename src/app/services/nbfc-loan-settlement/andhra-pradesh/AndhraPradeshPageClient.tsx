@@ -7,28 +7,28 @@ import FAQWithSchema from '@/components/FAQWithSchema';
 import CTAButton from '@/components/CTAButton';
 const heroCopy = {
     title: 'NBFC Loan Settlement in Andhra Pradesh - Coastal Clarity, Legal Closure',
-    description: "Andhra Pradesh borrowers juggle coastal trade cycles, agrarian income swings, fintech buzz, and microfinance networks. CredSettle\u2019s AP command desk blends RBI policy mastery with state-level dispute forums to negotiate compliant settlements, throttle harassment. Deliver closure for borrowers in Vizag, Vijayawada, Guntur, Tirupati, and Rayalaseema."
+    description: "Local clients juggle coastal trade cycles. Agrarian income swings. Fintech buzz. And small loans networks. CredSettle\u2019s AP command desk blends RBI policy mastery with state-level claims forums to settle compliant deals. Throttle abuse. Deliver closure for clients in Vizag. Vijayawada, Guntur, Tirupati. Rayalaseema."
 };
 const faqs = [
     {
         question: 'Which NBFCs does CredSettle negotiate with in Andhra Pradesh?',
-        answer: "We handle Bajaj Finance, Tata Capital, Aditya Birla Finance, Shriram Finance, Muthoot Finance, L&T Finance, Piramal Capital, HDB Financial Services, MoneyTap, KreditBee. Registered microfinance NBFCs operating across Andhra Pradesh. Multi-lender portfolios and co-lending arrangements are coordinated end-to-end."
+        answer: "We handle Bajaj Finance. Tata cash. Aditya Birla Finance. Shriram Finance. Muthoot Finance. L&T Finance. Piramal cash. HDB money Services. MoneyTap. KreditBee. Registered small loans NBFCs operating across the state. Multi-lender portfolios and joint loans arrangements are coordinated end-to-end."
     },
     {
         question: 'What legal protections exist against coercive recovery in Andhra Pradesh?',
-        answer: "We leverage the RBI Fair Practices Code, the Andhra Pradesh Micro Finance Institutions (Regulation of Money Lending) Act provisions, local police circulars on recovery conduct. The AP Lok Adalat system. Our notices warn NBFCs that harassment invites FIRs and Ombudsman escalations through the RBI\u2019s Chennai office."
+        answer: "We leverage the RBI Fair Practices Code. The Andhra Pradesh Micro Finance Institutions (Regulation of Money Lending) Act provisions. Local police circulars on claims conduct. The AP Lok Adalat system. Our notices warn NBFCs that abuse invites FIRs and agents reports through the RBI\u2019s Chennai office."
     },
     {
         question: 'How strong are settlement outcomes in coastal and Rayalaseema regions?',
-        answer: "Average reductions range between 40% and 70% depending on loan category and paperwork strength. Coastal traders and transporters typically see 45-55% waivers, while fintech personal loans and microfinance cases can cross the 60% mark once we substantiate income disruption."
+        answer: "Average reductions range between 40% and 70% depending on loan category and paperwork strength. Coastal traders and transporters typically see 45-55% waivers. Meanwhile. Fintech private loans and small loans cases can cross the 60% mark once we prove income breaks."
     },
     {
         question: 'Can CredSettle help if SARFAESI and arbitration proceedings run simultaneously?',
-        answer: "Yes. The AP High Court allows parallel SARFAESI and arbitration actions. We engage with NBFC advocates to pause aggressive enforcement, steer the dispute toward negotiated settlement. Document consent terms in Lok Adalat or civil court to ensure final closure."
+        answer: "Yes. The AP High Court allows parallel SARFAESI and hearing actions. We engage with NBFC lawyers to pause harsh enforcement. Steer the claims toward settled settlement. paper consent terms in Lok Adalat or civil court to ensure final closure."
     },
     {
         question: 'Do you charge upfront fees for Andhra Pradesh clients?',
-        answer: "No. Our fee is success-based. Once we onboard, gather paperwork. Secure the NBFC settlement letter, we raise invoices only after the negotiated payment is acknowledged."
+        answer: "No. Our fee is success-based. Once we onboard. Gather paperwork. Secure the NBFC closure note. We raise invoices only after the settled payment is acknowledged."
     }
 ];
 const sections = [
@@ -37,8 +37,8 @@ const sections = [
         title: 'Andhra Pradesh Credit Dynamics: Ports, Farms, and Fintech',
         level: 2,
         content: [
-            "Visakhapatnam’s ports, Vijayawada’s logistics hubs, Guntur’s spice traders, Tirupati’s pilgrimage economy, and Rayalaseema’s agrarian base all rely on NBFC capital. Cargo exporters, aqua farmers, sari retailers, and MSMEs use NBFCs for working capital and asset financing. Digital personal loans and buy-now-pay-later products now reach tier-2 towns via mobile apps, fuelling quick disbursal but also rapid delinquency when tourist seasons or agri prices dip.",
-            "Post-pandemic recovery saw aggressive expansion by fintech lenders across coastal districts. Interest rates north of 24% plus platform penalties drive EMI burdens higher, while crop failure, cyclone impacts, or rail freight delays disrupt cash flow. Borrowers soon face domino calls from collection agencies, social media threats, and door-step visits that violate RBI norms. CredSettle intervenes with documentation, compliance warnings, and structured negotiation to defuse the pressure."
+            "Visakhapatnam’s ports. Vijayawada’s freight hubs. Guntur’s spice traders. Tirupati’s pilgrimage economy. And Rayalaseema’s agrarian base all rely on NBFC cash. Cargo exporters. Aqua farmers. Sari retailers. And MSMEs use NBFCs for working cash and asset financing. online private loans and buy-now-pay-later products now reach smaller towns via mobile apps. Fuelling quick disbursal but also rapid delinquency when tourist seasons or farm prices dip.",
+            "Post-pandemic claims saw harsh growth by fintech lenders across coastal areas. rates north of 24% plus platform penalties drive EMI burdens higher. Meanwhile. Crop failure. Cyclone impacts. Or rail freight delays disrupt cash flow. Clients soon face domino calls from claims firms. Social media threats. And door-step visits that violate RBI norms. CredSettle intervenes with records. Compliance warnings. And structured talks to defuse the pressure."
         ]
     },
     {
@@ -46,8 +46,8 @@ const sections = [
         title: 'NBFC Footprint Across North Coastal, Central, and Rayalaseema Andhra',
         level: 2,
         content: [
-            "Northern coastal districts (Visakhapatnam, Vizianagaram, Srikakulam) feature logistics, steel, and fishing-based loans. Central Andhra (Vijayawada, Guntur, Eluru) leans on transport, spice trading, and FMCG distribution. Rayalaseema (Kurnool, Anantapur, Kadapa, Chittoor) depends on agro-input finance, solar pumps, and microfinance for self-help groups.",
-            "NBFCs position branch teams, franchise partners, and digital recovery agents with local language proficiency (Telugu and coastal dialects). CredSettle’s AP negotiators work in Telugu and English, maintaining etiquette while recording every interaction. Our local network collects ground intelligence on NBFC policy shifts, quarter-end targets, and willingness to approve OTS proposals."
+            "Northern coastal areas (Visakhapatnam. Vizianagaram. Srikakulam) feature freight. Steel. And fishing-based loans. Central Andhra (Vijayawada. Guntur. Eluru) leans on transport. Spice trading. FMCG distribution. Rayalaseema (Kurnool. Anantapur. Kadapa. Chittoor) depends on agro-input finance. Solar pumps. And small loans for self-help groups.",
+            "NBFCs position branch teams. Franchise partners. And online claims agents with local language proficiency (Telugu and coastal dialects). CredSettle’s AP negotiators work in Telugu and English. Maintaining etiquette while recording every interaction. Our local network collects ground intelligence on NBFC policy shifts. Quarter-end targets. And willingness to approve OTS proposals."
         ]
     },
     {
@@ -55,9 +55,9 @@ const sections = [
         title: 'Legal Framework: RBI Rules, AP MF Regulation, and Judiciary Benchmarks',
         level: 2,
         content: [
-            "The RBI Fair Practices Code mandates transparent interest disclosure, harassment-free recovery, and responsive grievance redressal. Andhra Pradesh strengthened protection with microfinance regulation requiring money lenders to register, disclose rates, and follow code-of-conduct norms.",
-            "In May 2024 the Andhra Pradesh High Court affirmed that banks can invoke SARFAESI and arbitration simultaneously to recover dues. We use this precedent to craft dual-strategy settlements, ensuring NBFCs accept negotiated amounts before enforcement escalates.",
-            "Borrowers can escalate grievances to the RBI NBFC Ombudsman (Chennai jurisdiction), Andhra Pradesh State Consumer Disputes Commissions, and AP Lok Adalat benches. CredSettle drafts petitions, collects evidence, and represents clients through allied advocates whenever escalations improve settlement leverage."
+            "The RBI Fair Practices Code mandates transparent rates disclosure. Abuse-free claims. responsive grievance redressal. Andhra Pradesh strengthened safety with small loans regulation requiring money lenders to register. Disclose rates. follow code-of-conduct norms.",
+            "In May 2024 the Andhra Pradesh High Court affirmed that banks can invoke SARFAESI and hearing simultaneously to recover dues. We use this ruling to craft dual-plan deals. Ensuring NBFCs accept settled amounts before enforcement escalates.",
+            "Clients can escalate grievances to the RBI NBFC agents (Chennai police area). Andhra Pradesh State clients claims Commissions. And AP Lok Adalat benches. CredSettle drafts petitions. Collects proof. And represents clients through allied lawyers whenever reports improve settlement leverage."
         ]
     },
     {
@@ -65,9 +65,9 @@ const sections = [
         title: "CredSettle’s Andhra Settlement Method",
         level: 2,
         content: [
-            "Diagnostics: We collect sanction letters, EMI trails, bank statements, GST returns, mandi invoices, shipping bills, SHG passbooks, and digital app screenshots. Compliance control: representation notices go to NBFC nodal officers, recovery agencies, and local police citing RBI and AP regulations.",
-            "Negotiation memos: our analysts compile NBFC provisioning status, quarter-end closure pressures, and comparable settlements achieved by CredSettle for AP clients. Offer review: we vet OTS letters for clear waiver clauses, cheque destruction guarantees, and accurate outstanding vs settlement figures.",
-            "Closure & aftercare: we schedule payments through trackable channels, secure NOCs, ensure release of hypothecation or mortgage documents, and monitor credit bureau updates. Clients receive bilingual updates via email and WhatsApp until every compliance point is complete."
+            "Diagnostics: We collect sanction letters. EMI trails. Bank records. GST returns. Mandi invoices. Shipping bills. SHG passbooks. And online app screenshots. Compliance control: legal help notices go to NBFC nodal agents. Claims firms. And local police citing RBI and AP regulations.",
+            "Talks memos: our analysts compile NBFC bank reserves status. Quarter-end closure pressures. And comparable deals achieved by CredSettle for AP clients. Offer review: we vet OTS letters for clear waiver clauses. Cheque destruction guarantees. And accurate unpaid vs settlement figures.",
+            "Closure & aftercare: we schedule payments through trackable channels. Secure NOCs. Ensure release of hypothecation or mortgage papers. And monitor CIBIL desk updates. Clients receive bilingual updates via email and WhatsApp until every compliance point is complete."
         ]
     },
     {
@@ -75,9 +75,9 @@ const sections = [
         title: 'Industry Playbooks Tailored to Andhra Pradesh',
         level: 2,
         content: [
-            "Aquaculture & fisheries: we document harvest schedules, export delays, feed cost spikes, and cyclone alerts (e.g., Hudhud, Titli) to justify waivers.",
-            "Agriculture & allied trades: chilli, turmeric, and cotton farmers face price volatility. CredSettle compiles Agriculture Market Committee data, warehousing receipts, and e-NAM price charts as proof of hardship.",
-            "Transport & logistics: lorry owners on NH16 or port feeder services present diesel invoices, toll receipts, and slump in parcel volumes. Fintech personal loans for gig delivery riders in Vijayawada or Tirupati are negotiated using aggregator payout statements and algorithmic incentive cuts."
+            "Aquaculture & fisheries: we paper harvest schedules. Export delays. Feed cost spikes. And cyclone alerts (e.g. Hudhud. Titli) to justify waivers.",
+            "Farming & allied trades: chilli. Turmeric. And cotton farmers face price swings. CredSettle compiles farming Market boards data. Storage receipts. And e-NAM price charts as proof of hardship.",
+            "Transport & freight: lorry owners on NH16 or port feeder services present diesel invoices. Toll receipts. And slump in parcel volumes. Fintech private loans for gig delivery riders in Vijayawada or Tirupati are settled using aggregator payout records and algorithmic incentive cuts."
         ]
     },
     {
@@ -85,9 +85,9 @@ const sections = [
         title: 'Dispute Forums: AP Lok Adalat, Consumer Commissions, and Ombudsman',
         level: 2,
         content: [
-            "AP Lok Adalat, guided by the Andhra Pradesh State Legal Services Authority, resolves NBFC disputes in district court complexes across Vizag, Kakinada, Guntur, Nellore, and Anantapur. CredSettle prepays settlement drafts for decree-backed closure.",
-            "District Consumer Commissions in Visakhapatnam, Vijayawada, and Tirupati handle complaints against unfair NBFC practices. Our legal partners file cases when hidden charges, mis-selling, or data misuse surfaces.",
-            "The RBI NBFC Ombudsman (Chennai) and the integrated grievance portal (cms.rbi.org.in) provide additional oversight. We escalate unresolved grievances with structured evidence logs to nudge NBFC management toward settlement."
+            "AP Lok Adalat. Guided by the Andhra Pradesh State Legal Services formal. Resolves NBFC claims in areas court complexes across Vizag. Kakinada, Guntur, Nellore. Anantapur. CredSettle prepays settlement drafts for decree-backed closure.",
+            "Areas clients Commissions in Visakhapatnam. Vijayawada. And Tirupati handle reports against unfair NBFC practices. Our legal partners file cases when hidden charges. Mis-selling. data misuse surfaces.",
+            "The RBI NBFC agents (Chennai) and the integrated grievance portal (cms.rbi.org.in) provide additional oversight. We escalate unresolved grievances with structured proof logs to nudge NBFC handling toward settlement."
         ]
     },
     {
@@ -95,12 +95,12 @@ const sections = [
         title: 'Step-by-Step Andhra Settlement Roadmap',
         level: 2,
         content: [
-            "Step 1: Free consultation, document checklist, and representation letter issuance within 48 hours.",
-            "Step 2: Financial analysis using bank statements, mandi receipts, and platform payout reports to define settlement capacity.",
-            "Step 3: Negotiation campaign timed with NBFC review cycles, including escalation to regional managers or board-level committees.",
-            "Step 4: Offer evaluation, counter reasoning, and structured payment scheduling.",
-            "Step 5: Legal vetting, payment execution, receipt verification, NOC and document release tracking.",
-            "Step 6: Lok Adalat filings (if beneficial), credit bureau update monitoring, and post-settlement guidance."
+            "Step 1: Free call. Paper checklist. And legal help letter issuance within 48 hours.",
+            "Step 2: money analysis using bank records. Mandi receipts. And platform payout reports to define settlement capacity.",
+            "Step 3: talks campaign timed with NBFC review cycles. Including reports to local managers or board-level boards.",
+            "Step 4: Offer evaluation. Counter reasoning. And structured payment scheduling.",
+            "Step 5: Legal vetting. Payment execution. Receipt check. NOC and paper release tracking.",
+            "Step 6: Lok Adalat filings (if beneficial). CIBIL desk update monitoring. And post-settlement guidance."
         ]
     },
     {
@@ -108,10 +108,10 @@ const sections = [
         title: 'Documentation Toolkit for Andhra Borrowers',
         level: 2,
         content: [
-            "KYC: Aadhaar, PAN, ration card, voter ID, property tax receipts, or utility bills.",
-            "Income & operations: GST returns, mandi slips, bank statements, shipping bills, SHG passbooks, aggregator payment dashboards, contract letters from seafood exporters or textile buyers.",
-            "Hardship proof: cyclone relief claims, crop damage certificates, hospital bills, salary reduction letters, and digital communication logs (calls, WhatsApp, emails).",
-            "Settlement funds proof: savings account snapshots, gold loan release plans, land sale agreements awaiting registration, or family contribution affidavits."
+            "KYC: Aadhaar. PAN. Ration card. Voter ID. home tax receipts. Or utility bills.",
+            "Income & work: GST returns. Mandi slips. Bank records. Shipping bills. SHG passbooks. Aggregator payment dashboards. Contract letters from seafood exporters or textile buyers.",
+            "Hardship proof: cyclone relief claims. Crop damage letters. Hospital bills. Salary reduction letters. And online contact logs (calls. WhatsApp. Emails).",
+            "settlement funds proof: savings account snapshots. Gold loan release plans. Land sale pacts awaiting registration. Or kin contribution affidavits."
         ]
     },
     {
@@ -119,9 +119,9 @@ const sections = [
         title: 'Payment Architecture & Compliance',
         level: 2,
         content: [
-            "We build settlement schedules aligned with seasonal inflows-paddy auctions, festival retail peaks, export remittances, or pilgrimage tourism cycles.",
-            "Payments move via NEFT/RTGS or demand drafts from Andhra Bank/Union Bank, SBI, or cooperative banks. Acknowledgement letters are demanded within 24 hours to prevent disputes.",
-            "Post-dated cheques, if unavoidable, include destruction clauses in the settlement letter. We ensure TDS implications on waivers are documented and Form 26AS matches the NBFC’s reporting."
+            "We build settlement schedules aligned with seasonal inflows-paddy auctions. Festival retail peaks. Export remittances. Or pilgrimage tourism cycles.",
+            "Payments move via NEFT/RTGS or demand drafts from Andhra Bank/Union Bank. SBI. Or local banks. receipts letters are demanded within 24 hours to prevent claims.",
+            "Post-dated cheques. If unavoidable. Include destruction clauses in the closure note. We ensure TDS implications on waivers are documented and Form 26AS matches the NBFC’s reporting."
         ]
     },
     {
@@ -129,9 +129,9 @@ const sections = [
         title: 'Financial Recovery & Credit Rebuild in Andhra Pradesh',
         level: 2,
         content: [
-            "We design bilingual budgeting templates (English/Telugu) separating business and household flows, set up emergency funds through APCOB or district cooperative banks, and encourage systematic investment plans.",
-            "Credit rebuild begins with bureau checks (CIBIL, Experian, Equifax, CRIF). Discrepancies are disputed with settlement letters attached. We then introduce secured credit products or community-based lending options as scores improve.",
-            "Entrepreneurs get access to AP Industrial Infrastructure Corporation support, YSR Cheyutha or Rythu Bharosa scheme guidance, and DigiLocker-based document organisation to stay ready for future credit applications."
+            "We design bilingual budgeting templates (English/Telugu) separating trade and household flows. Set up crisis funds through APCOB or areas local banks. And encourage systematic investment plans.",
+            "Credit rebuild begins with CIBIL desk checks (CIBIL. Experian. Equifax. CRIF). Discrepancies are disputed with settlement letters attached. We then introduce secured credit products or community-based lending options as scores improve.",
+            "Founders get access to AP factory Infrastructure Corporation support. YSR Cheyutha or Rythu Bharosa scheme guidance. And DigiLocker-based paper organisation to stay ready for future credit applications."
         ]
     },
     {
@@ -139,9 +139,9 @@ const sections = [
         title: 'Case Stories from Coastal & Rayalaseema Clients',
         level: 2,
         content: [
-            "Case 1: A Visakhapatnam marine export firm defaulted on two NBFC loans after global freight delays. CredSettle secured a 49% settlement, timed payments with a new export contract, and closed SARFAESI proceedings via a consent order.",
-            "Case 2: A Guntur chilli trader faced cascading defaults due to price crashes. Using Agricultural Market Committee data, warehousing receipts, and mandi transaction logs, we negotiated a 61% waiver recorded in a Guntur Lok Adalat session.",
-            "Case 3: A Tirupati tour operator lost revenue during pandemic travel curbs. We compiled TTD pass data, aggregator platform figures, and bank statements to secure a 57% settlement and restructure remaining debt with a state cooperative bank."
+            "Case 1: A Visakhapatnam marine export firm defaulted on two NBFC loans after global freight delays. CredSettle secured a 49% settlement. Timed payments with a new export contract. And closed SARFAESI steps via a consent order.",
+            "Case 2: A Guntur chilli trader faced cascading defaults due to price crashes. Using farm Market boards data. Storage receipts. mandi transaction logs. We settled a 61% waiver recorded in a Guntur Lok Adalat session.",
+            "Case 3: A Tirupati tour operator lost income during pandemic travel curbs. We compiled TTD pass data. Aggregator platform figures. And bank records to secure a 57% settlement and restructure remaining debt with a state local bank."
         ]
     }
 ];
@@ -220,9 +220,7 @@ function AndhraPradeshPageClient() {
             fontFamily: 'Poppins',
             lineHeight: '28px',
             marginBottom: '20px'
-        }}>
-                {heroCopy.description}
-              </p>
+        }}> {heroCopy.description} </p>
               <button className="text-white text-sm md:text-base lg:text-[18.58px] px-6 md:px-8 lg:px-[39.44px] py-2 md:py-3 lg:py-[13.48px]" style={{
             borderRadius: '32.4px',
             background: '#007AFF',
@@ -260,9 +258,7 @@ function AndhraPradeshPageClient() {
                 fontFamily: 'Poppins',
                 lineHeight: '28px'
             }}>
-                    {section.content.map((paragraph, index) => (<p key={index} style={{ marginBottom: '16px' }}>
-                        {paragraph}
-                      </p>))}
+                    {section.content.map((paragraph, index) => (<p key={index} style={{ marginBottom: '16px' }}> {paragraph} </p>))}
                   </div>
                 </section>))}
             </div>
@@ -283,9 +279,7 @@ function AndhraPradeshPageClient() {
                     <h2 className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full" style={{ color: '#0C2756' }}>
                       Ready to Craft Your Andhra Settlement Plan?
                     </h2>
-                    <p className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full" style={{ color: 'rgba(12, 39, 86, 0.70)' }}>
-                      Share your EMI statements and hardship proof. Our AP desk builds a negotiation blueprint within 48 hours.
-                    </p>
+                    <p className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full" style={{ color: 'rgba(12, 39, 86, 0.70)' }}> Share your EMI records and hardship proof. Our AP desk builds a talks blueprint within 48 hours. </p>
                   </div>
 
                   <CTAButton>

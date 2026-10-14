@@ -47,43 +47,43 @@ export default function JobLossInsurancePersonalLoanClient() {
     const faqs = [
         {
             q: 'What is credit shield or job loss insurance on a personal loan?',
-            a: 'Credit shield is an insurance policy bundled with personal loans that covers loan repayments during unforeseen events. The job loss component specifically pays 3 consecutive monthly EMIs if the borrower experiences involuntary termination or retrenchment from salaried employment.'
+            a: 'Credit shield is an cover policy bundled with private loans that covers loan payments during unforeseen events. The job loss component mainly pays 3 running monthly EMIs if the client experiences forced end or retrenchment from salaried jobs.'
         },
         {
             q: 'How do I check if my existing personal loan has job loss insurance?',
-            a: "Review your original loan sanction letter, Key Fact Statement (KFS). Loan account schedule for line items like Loan Protect, Group Credit Shield, or Insurance Premium deductions. You can also request your Certificate of Insurance (COI) from the lending bank."
+            a: "Review your original loan sanction letter. Key Fact record (KFS). Loan account schedule for line items like Loan Protect. Group Credit Shield. Or cover Premium deductions. You can also request your letter of cover (COI) from the lending bank."
         },
         {
             q: 'Does credit shield cover voluntary resignation or career breaks?',
-            a: "No. Credit shield insurance strictly excludes voluntary resignation, retirement, mutual separation, career sabbaticals. Termination arising from employee misconduct, probation failure, or fraudulent activities. It only triggers on documented involuntary redundancy or corporate downsizing."
+            a: "No. Credit shield cover strictly excludes voluntary resignation. Retirement. Mutual separation. Career sabbaticals. end arising from staff misconduct. Probation failure. fraudulent activities. It only triggers on documented forced redundancy or firm downsizing."
         },
         {
             q: 'How many EMIs does job loss insurance pay in India?',
-            a: "Most standard Indian credit shield policies cover up to 3 consecutive EMIs, subject to an initial waiting period of 30 to 90 days from loan disbursement. After 3 EMIs are released, the policy terminates, and remaining dues become the borrower's responsibility."
+            a: "Most standard Indian credit shield policies cover up to 3 running EMIs. Subject to an initial waiting period of 30 to 90 days from loan disbursement. After 3 EMIs are released. The policy terminates. And remaining dues become the client's responsibility."
         },
         {
             q: 'What documents are required to file a job loss insurance claim?',
-            a: "You must submit the official termination or retrenchment letter from your employer specifying company restructuring, salary slips for the preceding 3 months, bank statements, Form 16, relieving letter. The completed insurer claim form with loan account details."
+            a: "You must submit the formal end or retrenchment letter from your employer specifying firm restructuring. Salary slips for the preceding 3 months. Bank records. Form 16. Relieving letter. The completed firm claim form with loan account details."
         },
         {
             q: 'What happens if the insurer delays or rejects my job loss claim?',
-            a: "If an insurer delays or unfairly rejects your claim, you can file a formal complaint with the insurer's Grievance Redressal Officer, escalate to the IRDAI Bima Bharosa portal, approach the Insurance Ombudsman. Instruct your bank to hold recovery actions pending investigation."
+            a: "If an firm delays or unfairly rejects your claim. You can file a formal reports with the firm's Grievance Redressal staff. Escalate to the IRDAI Bima Bharosa portal. Approach the cover staff. Instruct your bank to hold claims steps pending investigation."
         },
         {
             q: 'Does filing an insurance claim stop bank recovery calls and NACH debits?',
-            a: 'Filing a claim does not automatically freeze automated NACH debits. You must formally submit your claim acknowledgment docket to your bank branch and loan officer in writing, requesting a temporary hold on NACH presentations and recovery enforcement while the claim processes.'
+            a: 'Filing a claim does not automatically freeze automated NACH debits. You must formally submit your claim acknowledgment docket to your bank branch and loan staff in writing. Requesting a temporary hold on NACH presentations and claims enforcement while the claim processes.'
         },
         {
             q: 'Can a bank file a criminal case under Section 25 PSSA if I lose my job?',
-            a: 'While banks may issue Section 25 PSSA or Section 138 NI Act notices for bounced EMIs, involuntary unemployment constitutes a genuine lack of criminal fraudulent intent (mens rea). Proving documented job loss and insurance claim status establishes a valid civil defense.'
+            a: 'While banks may issue Section 25 PSSA or Section 138 NI Act notices for bounced EMIs. forced job loss constitutes a genuine lack of penal fraudulent intent (mens rea). Proving documented job loss and cover claim status establishes a valid civil defense.'
         },
         {
             q: 'What should I do if my job loss insurance cover expires before I get a job?',
-            a: "If your 3-month cover lapses and you remain unemployed, immediately contact your lender to request a formal loan restructuring or engage CredSettle to negotiate a structured One-Time Settlement (OTS) to waive penalty charges and resolve the balance amicably."
+            a: "If your 3-month cover lapses and you remain unemployed. Promptly contact your lender to request a formal loan restructuring or engage CredSettle to settle a structured One-Time closure (OTS) to waive penalty charges and resolve the balance amicably."
         },
         {
             q: 'How does a job loss credit shield claim impact my CIBIL credit score?',
-            a: 'If your insurance claim is approved and the insurer pays your EMIs on time, the bank reports your loan as regular, preserving your CIBIL score. However, if payments are delayed before approval, your score may dip until retrospective credit bureau updates are filed.'
+            a: 'If your cover claim is approved and the firm pays your EMIs on time. The bank reports your loan as regular. Preserving your CIBIL score. However. If payments are delayed before approval. Your score may dip until retrospective CIBIL desk updates are filed.'
         }
     ];
     return (<div className="w-full bg-[#FDFDFD] text-slate-800 antialiased">
@@ -94,14 +94,12 @@ export default function JobLossInsurancePersonalLoanClient() {
           <div className="max-w-4xl">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-xs font-semibold uppercase tracking-wider text-blue-100 mb-4">
               <ShieldCheck className="w-4 h-4 text-emerald-300"/>
-              <span>Credit Shield &amp; Loan Insurance Advisory.</span>
+              <span>Credit Shield &amp. Loan cover Advisory.</span>
             </div>
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight text-white leading-tight mb-4">
               How to Claim Credit Shield Loan Insurance on Job Loss
             </h1>
-            <p className="text-base md:text-lg text-blue-100 font-normal leading-relaxed">
-              Discover whether your personal loan includes hidden credit shield protection. Learn how to invoke involuntary unemployment clauses, secure 3-month EMI payouts, and halt aggressive debt recovery legally.
-            </p>
+            <p className="text-base md:text-lg text-blue-100 font-normal leading-relaxed"> Discover whether your private loans includes hidden credit shield safety. Learn how to invoke forced job loss clauses. Secure 3-month EMI payouts. And halt harsh debt claims by law. </p>
           </div>
         </div>
       </header>
@@ -135,19 +133,17 @@ export default function JobLossInsurancePersonalLoanClient() {
             <section id="executive-summary" className="scroll-target p-6 md:p-8 rounded-2xl bg-[#F4F8FE] border-l-[5px] border-l-[#1886ff] border border-blue-100 shadow-sm space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
                 <FileSearch className="w-4 h-4"/>
-                <span>Executive Summary &amp; Strategic Brief.</span>
+                <span>Executive Summary &amp. Strategic Brief.</span>
               </div>
-              <p className="text-sm md:text-base font-semibold text-slate-800 leading-relaxed">
-                When sudden corporate layoffs or restructuring trigger severe cash-flow distress, many Indian borrowers remain unaware that their personal loan or credit line carries an active Credit Shield policy. Here is the operational summary:
-              </p>
+              <p className="text-sm md:text-base font-semibold text-slate-800 leading-relaxed"> When sudden firm layoffs or restructuring trigger severe cash-flow distress. Many Indian clients remain unaware that their private loans or credit line carries an active Credit Shield policy. Here is the daily work summary: </p>
               <div className="grid grid-cols-1 gap-2.5 pt-1 text-xs md:text-sm text-slate-700">
                 <div className="flex items-center gap-2.5">
                   <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <span><strong>Hidden Loan Cover:</strong> Most personal loans bundle credit shield insurance paying up to 3 EMIs.</span>
+                  <span><strong>Hidden Loan Cover:</strong> Most own loans bundle credit shield cover paying up to 3 EMIs.</span>
                 </div>
                 <div className="flex items-center gap-2.5">
                   <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <span><strong>Involuntary Layoffs Only:</strong> Covers corporate redundancy and restructuring (excludes voluntary exits).</span>
+                  <span><strong>Involuntary Layoffs Only:</strong> Covers firm redundancy and restructuring (excludes voluntary exits).</span>
                 </div>
                 <div className="flex items-center gap-2.5">
                   <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
@@ -155,11 +151,11 @@ export default function JobLossInsurancePersonalLoanClient() {
                 </div>
                 <div className="flex items-center gap-2.5">
                   <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <span><strong>Legal Protection:</strong> Involuntary job loss negates criminal liability under Section 25 PSSA and NI Act.</span>
+                  <span><strong>Legal Protection:</strong> Involuntary job loss negates criminal risk under Section 25 PSSA and NI Act.</span>
                 </div>
                 <div className="flex items-center gap-2.5">
                   <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <span><strong>Post-Cover OTS:</strong> CredSettle secures 40% to 55% settlement waivers if unemployment exceeds 90 days.</span>
+                  <span><strong>Post-Cover OTS:</strong> CredSettle secures 40% to 55% closure waivers if unemployment exceeds 90 days.</span>
                 </div>
               </div>
             </section>
@@ -173,58 +169,43 @@ export default function JobLossInsurancePersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 1. Credit Shield Fundamentals: Understanding Job Loss Loan Cover
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                In India, retail unsecured lending has expanded rapidly over the past decade. To reduce systemic default risks on high-margin personal loans, commercial banks and Non-Banking Financial Companies (NBFCs) routinely partner with general insurance providers such as HDFC ERGO, ICICI Lombard, SBI General. Bajaj Allianz. During loan disbursement, lenders frequently bundle a single-premium group insurance product, widely referred to as Credit Shield, Loan Suraksha. Payment Protection Insurance (PPI).
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                While borrowers often perceive this deduction as a mandatory processing surcharge, it actually constitutes a binding tripartite insurance contract. The policy is specifically structured to absorb repayment shocks caused by critical illness, accidental disability. Involuntary loss of employment. Under the job loss rider, the underwriting insurer assumes the contractual liability to service up to three consecutive monthly loan instalments on behalf of the salaried borrower.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                The economic rationale behind this mechanism lies in preventing the loan from slipping into Special Mention Account (SMA) default. When an employee is laid off due to corporate downsizing, factory restructuring. Macroeconomic cost reductions, the 90-day liquidity buffer provided by the credit shield prevents the loan asset from decaying into a non-performing asset (NPA). This shields the bank from mandatory Tier-1 capital provisioning requirements under Reserve Bank of India prudential norms while providing the distressed employee vital breathing space to secure alternative employment.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> In India. Retail no-pledge lending has expanded rapidly over the past decade. To reduce systemic default risks on high-margin private loans. Banks and Non-Banking money firms (NBFCs) routinely partner with general cover providers such as HDFC ERGO. ICICI Lombard. SBI General. Bajaj Allianz. During loan disbursement. Lenders often bundle a single-premium group cover product. Widely referred to as Credit Shield. Loan Suraksha. Payment safety cover (PPI). </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> While clients often perceive this deduction as a strict processing surcharge. It actually constitutes a binding tripartite cover contract. The policy is mainly structured to absorb payment shocks caused by key illness. Accidental disability. forced loss of jobs. Under the job loss rider. The underwriting firm assumes the contractual debt risk to service up to three running monthly loan EMIs on behalf of the salaried client. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The economic rationale behind this mechanism lies in preventing the loan from slipping into Special Mention Account (SMA) default. When an staff is laid off due to firm downsizing. Factory restructuring. Macroeconomic cost reductions. The 90-day liquidity buffer provided by the credit shield prevents the loan asset from decaying into a non-performing asset (NPA). This shields the bank from strict Tier-1 cash bank reserves requirements under Reserve Bank of India prudential norms while providing the distressed staff vital breathing space to secure alternative jobs. </p>
             </section>
 
             {/* SECTION 2: Financial Breakdown & Settlement Math */}
             <section id="financial-breakdown-math" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
                 <DollarSign className="w-4 h-4 text-[#1886ff]"/>
-                <span>2. Financial Engineering &amp; Settlement Math.</span>
+                <span>2. money Engineering &amp. closure Math.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 2. Financial Math: EMI Waivers vs Accumulated Default Liabilities
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Understanding the numerical mechanics of job loss insurance shows how large savings are achieved compared to an unmanaged default. When an EMI bounces without active insurance intervention, commercial lenders levy severe compound penalties. A standard personal loan with a monthly instalment of ₹25,000 subjected to three consecutive bounces quickly accumulates ₹1,500 to ₹3,000 in NACH bounce fees, 24% to 36% annual penal interest on overdue principal. Immediate credit bureau downgrade notices.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Conversely, invoking an active Credit Shield policy completely pauses the accrual of punitive levies. The insurer disburses three full EMIs (totaling ₹75,000 in this scenario) directly to the lending institution. This direct capital infusion maintains the loan account in Standard status across CIBIL and Experian databases, eliminating financial hemorrhaging while the borrower refocuses on professional re-employment.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> grasp the numerical workings of job loss cover shows how large savings are achieved compared to an unmanaged default. When an EMI bounces without active cover action. Trade lenders levy severe compound penalties. A standard private loans with a monthly EMIs of ₹25,000 subjected to three running bounces quickly grows ₹1,500 to ₹3,000 in NACH bounce fees. 24% to 36% annual extra fees on late main loan. fast CIBIL desk downgrade notices. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Conversely. Invoking an active Credit Shield policy fully pauses the accrual of punitive levies. The firm disburses three full EMIs (totaling ₹75,000 in this scenario) straight to the lending institution. This direct cash infusion maintains the loan account in Standard status across CIBIL and Experian databases. Eliminating money hemorrhaging while the client refocuses on expert re-jobs. </p>
 
               {/* Calculation Breakdown Card */}
               <div className="bg-white rounded-2xl border border-slate-200/80 p-5 md:p-6 shadow-sm space-y-4">
-                <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2">
-                  <TrendingUp className="w-4 h-4 text-[#1886ff]"/>
-                  <span>agent 180-Day Financial Trajectory: Personal Loan of ₹8,00,000.</span>
-                </h3>
+                <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2"> <TrendingUp className="w-4 h-4 text-[#1886ff]"/> <span>Staff 180-Day money Trajectory: own Loan of ₹8,00,000.</span> </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs md:text-sm">
                   <div className="p-4 rounded-xl bg-red-50/70 border border-red-200/60 space-y-2">
                     <span className="font-bold text-red-900 block">Scenario A: Unmanaged default (No Cover).</span>
                     <p className="text-slate-700">Monthly EMI: ₹26,500 over 6 months of joblessness.</p>
-                    <p className="text-slate-700">Accumulated Overdue EMIs: ₹1,59,000.</p>
-                    <p className="text-slate-700">Penal Interest (30% p.a.) &amp; Bounce Fees: ₹38,400.</p>
-                    <p className="font-bold text-red-700 pt-1 border-t border-red-200">Total Immediate Claim Demand: ₹1,97,400 (NPA Status).</p>
+                    <p className="text-slate-700">Total late EMIs: ₹1,59,000.</p>
+                    <p className="text-slate-700">extra fees (30% p.a.) &amp. Bounce Fees: ₹38,400.</p>
+                    <p className="font-bold text-red-700 pt-1 border-t border-red-200">Total fast Claim Demand: ₹1,97,400 (NPA Status).</p>
                   </div>
                   <div className="p-4 rounded-xl bg-emerald-50/70 border border-emerald-200/60 space-y-2">
                     <span className="font-bold text-emerald-900 block">Scenario B: Credit Shield + CredSettle OTS.</span>
-                    <p className="text-slate-700">Insurer 3-Month EMI Disbursal: -₹79,500 (Covered).</p>
-                    <p className="text-slate-700">Protected Period: 90 Days Zero Penalty &amp; Regular CIBIL.</p>
-                    <p className="text-slate-700">Subsequent CredSettle OTS Settlement on Balance: 48% Principal Waiver.</p>
-                    <p className="font-bold text-emerald-700 pt-1 border-t border-emerald-200">Total Net Borrower Outflow: ₹3,15,000 vs ₹7,20,500 Due.</p>
+                    <p className="text-slate-700">Firm 3-Month EMI payout: -₹79,500 (Covered).</p>
+                    <p className="text-slate-700">Protected Period: 90 Days Zero Penalty &amp. Regular CIBIL.</p>
+                    <p className="text-slate-700">Subsequent CredSettle OTS closure on Balance: 48% loan cut.</p>
+                    <p className="font-bold text-emerald-700 pt-1 border-t border-emerald-200">Total Net client Outflow: ₹3,15,000 vs ₹7,20,500 Due.</p>
                   </div>
                 </div>
-                <p className="text-xs text-slate-500 italic">
-                  Note: Settlement figures reflect historical averages across private commercial banks in India. Actual compromise terms depend on bank credit committee approvals and documented income impairment.
-                </p>
+                <p className="text-xs text-slate-500 italic"> Note: closure figures reflect historical averages across private banks in India. Actual OTS deal terms depend on bank credit boards approvals and documented income impairment. </p>
               </div>
             </section>
 
@@ -237,9 +218,7 @@ export default function JobLossInsurancePersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 3. Debt Relief Pathways: Credit Shield vs Moratorium vs Settlement
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When career disruption eliminates your primary income stream, evaluating all available debt relief avenues prevents costly procedural missteps. The table below contrasts credit shield claims against alternative institutional resolution mechanisms available under Indian banking regulations:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When career breaks eliminates your primary income stream. Evaluating all available debt relief avenues prevents costly procedural missteps. The table below contrasts credit shield claims against alternative bank relief options available under Indian banking rules: </p>
 
               {/* 4-Sided Bordered Table */}
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-sm bg-white">
@@ -256,8 +235,8 @@ export default function JobLossInsurancePersonalLoanClient() {
                   <tbody className="divide-y divide-slate-200/80 text-slate-600">
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="p-3.5 md:p-4 font-semibold text-slate-900">Credit Shield Claim.</td>
-                      <td className="p-3.5 md:p-4">Involuntary redundancy or layoff.</td>
-                      <td className="p-3.5 md:p-4">3 Monthly EMIs paid by insurer.</td>
+                      <td className="p-3.5 md:p-4">forced redundancy or layoff.</td>
+                      <td className="p-3.5 md:p-4">3 Monthly EMIs paid by firm.</td>
                       <td className="p-3.5 md:p-4 text-emerald-600 font-semibold">100% Protected (Standard).</td>
                       <td className="p-3.5 md:p-4">Loan remains active without arrears.</td>
                     </tr>
@@ -266,28 +245,28 @@ export default function JobLossInsurancePersonalLoanClient() {
                       <td className="p-3.5 md:p-4">Documented temporary income drop.</td>
                       <td className="p-3.5 md:p-4">Tenure extension / lower EMI.</td>
                       <td className="p-3.5 md:p-4 text-amber-600 font-semibold">Marked as Restructured.</td>
-                      <td className="p-3.5 md:p-4">Higher total interest over time.</td>
+                      <td className="p-3.5 md:p-4">Higher total rates over time.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
-                      <td className="p-3.5 md:p-4 font-semibold text-slate-900">One-Time Settlement.</td>
-                      <td className="p-3.5 md:p-4">Prolonged unemployment &gt;90 days.</td>
-                      <td className="p-3.5 md:p-4">Single or 3-tranche compromise.</td>
+                      <td className="p-3.5 md:p-4 font-semibold text-slate-900">One-Time closure.</td>
+                      <td className="p-3.5 md:p-4">Prolonged job loss &gt. 90 days.</td>
+                      <td className="p-3.5 md:p-4">Single or 3-tranche OTS deal.</td>
                       <td className="p-3.5 md:p-4 text-amber-600 font-semibold">Marked as Settled.</td>
                       <td className="p-3.5 md:p-4 text-emerald-700 font-semibold">Permanent debt closure + NDC.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="p-3.5 md:p-4 font-semibold text-slate-900">Lok Adalat Referral.</td>
-                      <td className="p-3.5 md:p-4">Pre-litigation conciliation.</td>
+                      <td className="p-3.5 md:p-4">Pre-lawsuits talks.</td>
                       <td className="p-3.5 md:p-4">Mutually agreed concession.</td>
                       <td className="p-3.5 md:p-4 text-amber-600 font-semibold">Reflects Compromised status.</td>
                       <td className="p-3.5 md:p-4">Decree passed with court seal.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 bg-red-50/30">
                       <td className="p-3.5 md:p-4 font-semibold text-red-900">Unmanaged Inaction.</td>
-                      <td className="p-3.5 md:p-4">Ignored default &amp; bounced EMIs.</td>
-                      <td className="p-3.5 md:p-4">Zero relief; penal interest compounds.</td>
+                      <td className="p-3.5 md:p-4">Ignored default &amp. bounced EMIs.</td>
+                      <td className="p-3.5 md:p-4">Zero relief. extra fees compounds.</td>
                       <td className="p-3.5 md:p-4 text-red-600 font-semibold">Severe Drop (-150 Points).</td>
-                      <td className="p-3.5 md:p-4 text-red-700">Legal notices &amp; recovery visits.</td>
+                      <td className="p-3.5 md:p-4 text-red-700">Legal notices &amp. claims visits.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -298,20 +277,14 @@ export default function JobLossInsurancePersonalLoanClient() {
             <section id="cibil-score-trajectory" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
                 <TrendingUp className="w-4 h-4 text-[#1886ff]"/>
-                <span>4. Credit Bureau Bureaucracy &amp; Scoring.</span>
+                <span>4. Credit Bureau Bureaucracy &amp. Scoring.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 4. CIBIL Trajectory: Credit Scoring Impact During Job Loss
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Credit information companies in India. This includes transUnion CIBIL, Experian, CRIF High Mark. Equifax, compute your three-digit credit score based on five core mathematical parameters: payment history (35%), credit exposure and use (30%), credit duration (15%), credit type mix (10%). Recent inquiries (10%). During sudden unemployment, the payment history component faces immediate exposure to severe degradation.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When a valid Credit Shield claim is processed seamlessly, the underwriting insurance company remits the exact instalment amount before the monthly billing closure date. As a result, the lending bank transmits a clean "000" Days Past Due (DPD) record to the credit bureau, preserving your baseline score in the 750 to 800 range. This ensures your financial reputation remains unblemished during your job transition period.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                However, if the claim is delayed due to incomplete paperwork or procedural bottlenecks at the Third-Party Administrator (TPA) level, the bank automated reporting engine may mistakenly log 30-day or 60-day DPD entries. In such instances, borrowers possess a statutory right under Section 21 of the Credit Information Companies (Regulation) Act (CICRA), 2005 to mandate retrospective rectification. Upon presenting the final insurance claim approval and disbursal voucher, the lender is legally required to submit an updated Member Credit Information file to purge erroneous default tags.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Credit information firms in India. This includes transUnion CIBIL. Experian. CRIF High Mark. Equifax. Compute your three-digit credit score based on five core mathematical parameters: payment history (35%). Credit exposure and use (30%). Credit duration (15%). Credit type mix (10%). Recent inquiries (10%). During sudden job loss. The payment history component faces fast exposure to severe degradation. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When a valid Credit Shield claim is processed seamlessly. The underwriting cover firm remits the exact EMIs amount before the monthly billing closure date. As a result. The lending bank transmits a clean "000" Days Past Due (DPD) record to the CIBIL desk. Preserving your baseline score in the 750 to 800 range. This ensures your money reputation remains unblemished during your job transition period. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> However. If the claim is delayed due to incomplete papers or procedural bottlenecks at the Third-Party Administrator (TPA) level. The bank automated reporting engine may mistakenly log 30-day or 60-day DPD entries. In such instances. Clients possess a legal right under Section 21 of the Credit Information firms (rule) Act (CICRA). 2005 to mandate retrospective rectification. Upon presenting the final cover claim approval and payout voucher. The lender is by law required to submit an updated Member Credit Information file to purge erroneous default tags. </p>
             </section>
 
             {/* SECTION 5: Visual Infographic Asset Card */}
@@ -323,16 +296,14 @@ export default function JobLossInsurancePersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Visual Blueprint: Step-by-Step Credit Shield Claim Protocol
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                This comprehensive visual workflow outlines the sequential stages required to verify policy coverage, assemble an indisputable hardship dossier. Secure complete EMI relief or structured settlement:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> This full visual workflow outlines the sequential stages required to verify policy coverage. Assemble an indisputable hardship dossier. Secure complete EMI relief or structured closure: </p>
 
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-sm p-3 md:p-4 overflow-hidden">
                 <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-slate-100">
                   <Image src="/images/infographics/job-loss-insurance-for-personal-loan.jpg" alt="Credit Shield and Job Loss Loan Insurance Claim and Debt Resolution Process Diagram" fill className="object-contain" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 75vw, 60vw" priority/>
                 </div>
                 <div className="mt-3 px-2 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-2">
-                  <span>CredSettle Regulatory Architecture • IRDAI Policyholder Protection &amp; RBI Guidelines.</span>
+                  <span>CredSettle Regulatory Architecture • IRDAI Policyholder Protection &amp. RBI Guidelines.</span>
                   <a href="/images/infographics/job-loss-insurance-for-personal-loan.jpg" target="_blank" rel="noopener noreferrer" className="text-[#1886ff] hover:underline font-bold flex items-center gap-1">
                     <span>View High-Resolution Blueprint.</span>
                     <ExternalLink className="w-3.5 h-3.5"/>
@@ -350,20 +321,16 @@ export default function JobLossInsurancePersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 5. Standard Operating Procedure: 6 Steps to Claim Job Loss Cover
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                To navigate the insurance claiming mechanism successfully without triggering avoidable rejection clauses, follow this rigorous six-stage procedural roadmap developed by CredSettle debt resolution professionals:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> To navigate the cover claiming mechanism successfully without triggering avoidable rejection clauses. Follow this rigorous six-stage procedural roadmap developed by CredSettle debt relief workers: </p>
 
               <div className="space-y-4 pt-2">
                 {/* Stage 1 */}
                 <div className="p-4 md:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-sm space-y-2">
                   <div className="flex items-center gap-2.5 font-bold text-slate-900 text-sm md:text-base">
                     <span className="w-6 h-6 rounded-full bg-[#1886ff] text-white text-xs flex items-center justify-center font-bold flex-shrink-0">1</span>
-                    <h3>Stage 1: Document Discovery &amp; Policy Certificate Verification</h3>
+                    <h3>Stage 1: papers Discovery &amp. Policy Certificate Verification</h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-8">
-                    Locate your initial loan sanction letter, Key Fact Statement (KFS), and loan amortization schedule. Identify specific deductions labeled as "Insurance Premium", "Loan Protect", or "Credit Shield". Contact your lending branch to request your unique Certificate of Insurance (COI) containing the master policy number and underwriter details.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-8"> Locate your initial loan sanction letter. Key Fact record (KFS). And loan amortization schedule. Identify local deductions labeled as "cover Premium". "Loan Protect". "Credit Shield". Contact your lending branch to request your unique letter of cover (COI) containing the master policy number and underwriter details. </p>
                 </div>
 
                 {/* Stage 2 */}
@@ -372,9 +339,7 @@ export default function JobLossInsurancePersonalLoanClient() {
                     <span className="w-6 h-6 rounded-full bg-[#1886ff] text-white text-xs flex items-center justify-center font-bold flex-shrink-0">2</span>
                     <h3>Stage 2: Hardship Evidence Dossier Compilation</h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-8">
-                    Assemble comprehensive documentary proof establishing involuntary retrenchment. This includes your official termination or redundancy letter on corporate letterhead, three months of preceding salary slips, Form 16, relieving paperwork. Written verification confirming no ongoing disciplinary investigations or fraudulent misconduct.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-8"> Assemble full documentary proof establishing forced retrenchment. This includes your formal end or redundancy letter on firm letterhead. Three months of preceding salary slips. Form 16. Relieving papers. Written check confirming no ongoing disciplinary investigations or fraudulent misconduct. </p>
                 </div>
 
                 {/* Stage 3 */}
@@ -383,42 +348,34 @@ export default function JobLossInsurancePersonalLoanClient() {
                     <span className="w-6 h-6 rounded-full bg-[#1886ff] text-white text-xs flex items-center justify-center font-bold flex-shrink-0">3</span>
                     <h3>Stage 3: Formal Claim Intimation within Statutory Window</h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-8">
-                    Lodge the formal claim with the general insurance underwriter via registered email and their official web portal within 15 to 30 calendar days of termination. Attach the completed claim intimation form alongside your compiled hardship dossier to generate a verified claim docket tracking number.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-8"> Lodge the formal claim with the general cover underwriter via registered email and their formal web portal within 15 to 30 calendar days of end. Attach the completed claim intimation form alongside your compiled hardship dossier to generate a checked claim docket tracking number. </p>
                 </div>
 
                 {/* Stage 4 */}
                 <div className="p-4 md:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-sm space-y-2">
                   <div className="flex items-center gap-2.5 font-bold text-slate-900 text-sm md:text-base">
                     <span className="w-6 h-6 rounded-full bg-[#1886ff] text-white text-xs flex items-center justify-center font-bold flex-shrink-0">4</span>
-                    <h3>Stage 4: Bank Branch Notification &amp; NACH Presentation Moratorium</h3>
+                    <h3>Stage 4: Bank Branch Notification &amp. NACH Presentation Moratorium</h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-8">
-                    Submit a formal written representation to your bank loan operations desk and Branch Manager referencing the active insurance claim docket. Explicitly request an interim freeze on automated NACH mandate presentations to avoid recursive bounce fees and prevent automated debt collector assignment.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-8"> Submit a formal written legal help to your bank loan work desk and Branch Manager referencing the active cover claim docket. Explicitly request an interim freeze on automated NACH mandate presentations to avoid recursive bounce fees and prevent automated debt collector assignment. </p>
                 </div>
 
                 {/* Stage 5 */}
                 <div className="p-4 md:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-sm space-y-2">
                   <div className="flex items-center gap-2.5 font-bold text-slate-900 text-sm md:text-base">
                     <span className="w-6 h-6 rounded-full bg-[#1886ff] text-white text-xs flex items-center justify-center font-bold flex-shrink-0">5</span>
-                    <h3>Stage 5: Claim Adjudication &amp; Direct EMI Disbursal Tracking</h3>
+                    <h3>Stage 5: Claim Adjudication &amp. Direct EMI Disbursal Tracking</h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-8">
-                    Under IRDAI regulations, the insurer must process complete claims within 30 days. Monitor claim disbursal confirmations to ensure the three monthly EMI tranches are credited directly into your loan account, eliminating penal interest and maintaining uninterrupted loan servicing.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-8"> Under IRDAI rules. The firm must steps complete claims within 30 days. Monitor claim payout confirmations to ensure the three monthly EMI tranches are credited straight into your loan account. Eliminating extra fees and maintaining uninterrupted loan servicing. </p>
                 </div>
 
                 {/* Stage 6 */}
                 <div className="p-4 md:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-sm space-y-2">
                   <div className="flex items-center gap-2.5 font-bold text-slate-900 text-sm md:text-base">
                     <span className="w-6 h-6 rounded-full bg-[#1886ff] text-white text-xs flex items-center justify-center font-bold flex-shrink-0">6</span>
-                    <h3>Stage 6: Post-Cover Strategy &amp; Structured Debt Resolution</h3>
+                    <h3>Stage 6: Post-Cover Strategy &amp. Structured Debt Resolution</h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-8">
-                    If professional re-employment is secured within 90 days, regular EMI payments resume smoothly. However, if joblessness persists beyond the three-month insurance payout window, engage CredSettle debt resolution specialists to structure an amicable One-Time Settlement (OTS) to permanently extinguish remaining liabilities.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-8"> If expert re-jobs is secured within 90 days. Regular EMI payments resume smoothly. However. If joblessness persists beyond the three-month cover payout window. Engage CredSettle debt relief specialists to structure an amicable One-Time closure (OTS) to permanently extinguish remaining debts. </p>
                 </div>
               </div>
             </section>
@@ -427,14 +384,12 @@ export default function JobLossInsurancePersonalLoanClient() {
             <section id="statutory-rights-defense" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
                 <ShieldCheck className="w-4 h-4 text-[#1886ff]"/>
-                <span>6. Legal Safeguards &amp; Consumer Rights.</span>
+                <span>6. Legal Safeguards &amp. Consumer Rights.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 6. Statutory Rights: IRDAI Guidelines &amp; Loan Insurance Bundling
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Borrowers dealing with unexpected employment loss often endure severe collection pressure and aggressive legal notices. Indian law provides extensive statutory protections to safeguard honest individuals navigating genuine financial hardship:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> clients dealing with unexpected jobs loss often endure severe claims pressure and harsh legal notices. Indian law provides extensive legal protections to safeguard honest people navigating genuine hardship: </p>
 
               {/* 4-Card Analytical Grid */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-1">
@@ -443,19 +398,15 @@ export default function JobLossInsurancePersonalLoanClient() {
                     <Landmark className="w-4 h-4 text-[#1886ff]"/>
                     <h3>IRDAI Policyholder Protection</h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    The IRDAI (Protection of Policyholders' Interests) Regulations mandate that general insurers decide on claims within 30 days of receiving the final survey report. Unreasonable rejections or delays attract statutory penal interest at 2% above prevailing bank rate.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> The IRDAI (safety of Policyholders' Interests) rules mandate that general firms decide on claims within 30 days of receiving the final survey report. Unreasonable rejections or delays attract legal extra fees at 2% above prevailing bank rate. </p>
                 </div>
 
                 <div className="p-4 md:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-sm space-y-2">
                   <div className="flex items-center gap-2 font-bold text-slate-900 text-sm">
                     <BadgeAlert className="w-4 h-4 text-[#1886ff]"/>
-                    <h3>Section 25 PSSA &amp; NI Act Defense</h3>
+                    <h3>Section 25 PSSA &amp. NI Act Defense</h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Bounced NACH mandates during active insurance processing do not constitute criminal fraud. Involuntary job loss and active claim filing establish a complete lack of criminal intention (mens rea). This provides a solid legal defense before Magistrate Courts.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Bounced NACH mandates during active cover processing do not constitute penal fraud. forced job loss and active claim filing establish a complete lack of penal intention (mens rea). This provides a solid legal defense before Magistrate Courts. </p>
                 </div>
 
                 <div className="p-4 md:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-sm space-y-2">
@@ -463,9 +414,7 @@ export default function JobLossInsurancePersonalLoanClient() {
                     <Scale className="w-4 h-4 text-[#1886ff]"/>
                     <h3>RBI Fair Practices Code Protections</h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Under RBI Master Directions, recovery agents are strictly prohibited from visiting borrowers outside 8:00 AM to 7:00 PM, calling references or employers. Engaging in public humiliation. Violations permit immediate police FIRs and RBI Ombudsman complaints.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Under RBI Master Directions. Claims staff are strictly prohibited from visiting clients outside 8:00 AM to 7:00 PM. Calling references or employers. Engaging in public humiliation. Violations permit fast police FIRs and RBI staff reports. </p>
                 </div>
 
                 <div className="p-4 md:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-sm space-y-2">
@@ -473,9 +422,7 @@ export default function JobLossInsurancePersonalLoanClient() {
                     <FileText className="w-4 h-4 text-[#1886ff]"/>
                     <h3>Consumer Protection Act Remedies</h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Under the Consumer Protection Act, 2019, arbitrary repudiation of a valid credit shield claim constitutes actionable "Deficiency of Service" and "Unfair Trade Practice". This allows borrowers to claim full compensation and emotional distress damages.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Under the clients safety Act. 2019. Arbitrary repudiation of a valid credit shield claim constitutes actionable "Deficiency of Service" and "Unfair Trade Practice". This allows clients to claim full payout and emotional distress damages. </p>
                 </div>
               </div>
             </section>
@@ -489,9 +436,7 @@ export default function JobLossInsurancePersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 7. 3-Tier Grievance Matrix: Insurer to IRDAI Bima Bharosa
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                If the underwriting insurance firm or lending bank rejects your legitimate job loss claim or engages in bureaucratic stalling, follow this structured three-tier statutory escalation pathway:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> If the underwriting cover firm or lending bank rejects your legitimate job loss claim or engages in bureaucratic stalling. Follow this structured three-tier legal reports pathway: </p>
 
               <div className="space-y-3 pt-1">
                 <div className="p-4 rounded-xl bg-white border border-slate-200/80 shadow-sm">
@@ -499,29 +444,23 @@ export default function JobLossInsurancePersonalLoanClient() {
                     <span className="text-[#1886ff]">Level 1: Internal Grievance Redressal Officer (GRO).</span>
                     <span className="text-slate-500 font-medium">Turnaround: 7 - 14 Days.</span>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600">
-                    File a formal representation to the appointed Grievance Officer of the insurance company and the Principal Nodal Officer (PNO) of the lending bank attaching your complete claim file and termination evidence.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600"> File a formal legal help to the appointed Grievance staff of the cover firm and the main loan Nodal staff (PNO) of the lending bank attaching your complete claim file and end proof. </p>
                 </div>
 
                 <div className="p-4 rounded-xl bg-white border border-slate-200/80 shadow-sm">
                   <div className="flex items-center justify-between font-bold text-slate-900 text-xs md:text-sm mb-1">
-                    <span className="text-[#1886ff]">Level 2: IRDAI Bima Bharosa &amp; RBI CMS Portal.</span>
+                    <span className="text-[#1886ff]">Level 2: IRDAI Bima Bharosa &amp. RBI CMS Portal.</span>
                     <span className="text-slate-500 font-medium">Turnaround: 15 - 30 Days.</span>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600">
-                    If unresolved, register an online complaint on the IRDAI Bima Bharosa portal (bimabharosa.irdai.gov.in) and cross-file on the RBI Complaint Management System (cms.rbi.org.in) against the partner lending institution.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600"> If unresolved. Register an online reports on the IRDAI Bima Bharosa portal (bimabharosa.irdai.gov.in) and cross-file on the RBI reports handling System (cms.rbi.org.in) against the partner lending institution. </p>
                 </div>
 
                 <div className="p-4 rounded-xl bg-white border border-slate-200/80 shadow-sm">
                   <div className="flex items-center justify-between font-bold text-slate-900 text-xs md:text-sm mb-1">
-                    <span className="text-[#1886ff]">Level 3: Insurance Ombudsman &amp; Consumer Commission.</span>
+                    <span className="text-[#1886ff]">Level 3: cover Ombudsman &amp. Consumer Commission.</span>
                     <span className="text-slate-500 font-medium">Statutory Binding Award.</span>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600">
-                    Approach the territorial Insurance Ombudsman under the Redressal of Public Grievances Rules, 1998 for free, legally binding quasi-judicial adjudication with zero court fees. File a petition before the District Consumer Disputes Redressal Commission.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600"> Approach the territorial cover staff under the Redressal of Public Grievances Rules. 1998 for free. by law binding quasi-court adjudication with zero court fees. File a petition before the areas clients claims Redressal Commission. </p>
                 </div>
               </div>
             </section>
@@ -535,9 +474,7 @@ export default function JobLossInsurancePersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 8. Procedural Timeline: Job Termination to Claim Settlement
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Navigating the aftermath of job loss requires strict adherence to statutory and operational milestones. The timeline below illustrates the sequential progression from the date of layoff to final debt resolution:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Navigating the aftermath of job loss requires strict adherence to legal and daily work milestones. The timeline below illustrates the sequential progression from the date of layoff to final debt relief: </p>
 
               {/* 4-Sided Bordered Table */}
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-sm bg-white">
@@ -553,32 +490,32 @@ export default function JobLossInsurancePersonalLoanClient() {
                   <tbody className="divide-y divide-slate-200/80 text-slate-600">
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="p-3.5 md:p-4 font-bold text-slate-900">Day 1 - 7</td>
-                      <td className="p-3.5 md:p-4">Termination Notice Received.</td>
-                      <td className="p-3.5 md:p-4">Retrieve Sanction Letter, KFS, and COI.</td>
+                      <td className="p-3.5 md:p-4">end Notice Received.</td>
+                      <td className="p-3.5 md:p-4">Retrieve Sanction Letter. KFS. COI.</td>
                       <td className="p-3.5 md:p-4 text-emerald-600 font-medium">Standard (SMA-0).</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="p-3.5 md:p-4 font-bold text-slate-900">Day 8 - 25</td>
-                      <td className="p-3.5 md:p-4">Claim Filing &amp; Bank Hold.</td>
-                      <td className="p-3.5 md:p-4">Lodge claim dossier; submit NACH hold request.</td>
+                      <td className="p-3.5 md:p-4">Claim Filing &amp. Bank Hold.</td>
+                      <td className="p-3.5 md:p-4">Lodge claim dossier. submit NACH hold request.</td>
                       <td className="p-3.5 md:p-4 text-emerald-600 font-medium">Claim Under Review.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="p-3.5 md:p-4 font-bold text-slate-900">Day 30 - 90</td>
-                      <td className="p-3.5 md:p-4">3-Month Insurance Disbursals.</td>
+                      <td className="p-3.5 md:p-4">3-Month cover Disbursals.</td>
                       <td className="p-3.5 md:p-4">Verify monthly EMI credits with lender.</td>
                       <td className="p-3.5 md:p-4 text-emerald-600 font-semibold">100% Regular Servicing.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="p-3.5 md:p-4 font-bold text-slate-900">Day 91 - 120</td>
                       <td className="p-3.5 md:p-4">Coverage Transition Window.</td>
-                      <td className="p-3.5 md:p-4">Resume salary EMIs or initiate settlement dialogue.</td>
+                      <td className="p-3.5 md:p-4">Resume salary EMIs or initiate closure dialogue.</td>
                       <td className="p-3.5 md:p-4 text-amber-600 font-medium">SMA-1 Classification.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="p-3.5 md:p-4 font-bold text-slate-900">Month 5 - 6</td>
-                      <td className="p-3.5 md:p-4">Compromise Settlement (OTS).</td>
-                      <td className="p-3.5 md:p-4">CredSettle negotiates 40% - 55% principal waiver.</td>
+                      <td className="p-3.5 md:p-4">OTS deals (OTS).</td>
+                      <td className="p-3.5 md:p-4">CredSettle negotiates 40% - 55% loan cut.</td>
                       <td className="p-3.5 md:p-4 text-emerald-700 font-bold">Closed with NDC</td>
                     </tr>
                   </tbody>
@@ -595,37 +532,27 @@ export default function JobLossInsurancePersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 9. Specialized Scenarios: Tech Layoffs &amp; Contract Workers
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Employment contracts and loan architectures vary largely across sectors. Here is how credit shield policies and legal defenses operate across four distinct real-world scenarios:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> jobs contracts and loan architectures vary largely across sectors. Here is how credit shield policies and legal defenses operate across four distinct real-world scenarios: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-1">
                 <div className="p-4 md:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-sm space-y-2">
-                  <h3 className="font-bold text-slate-900 text-sm">Corporate Restructuring &amp; IT Layoffs</h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Tech professionals impacted by mass global or domestic downsizing easily qualify for credit shield payouts provided the severance letter explicitly states organizational redundancy rather than voluntary separation or performance termination.
-                  </p>
+                  <h3 className="font-bold text-slate-900 text-sm">firm Restructuring &amp. IT Layoffs</h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Tech workers impacted by mass global or domestic downsizing easily qualify for credit shield payouts provided the severance letter explicitly states organizational redundancy rather than voluntary separation or performance end. </p>
                 </div>
 
                 <div className="p-4 md:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-sm space-y-2">
-                  <h3 className="font-bold text-slate-900 text-sm">Probationary &amp; Contractual Staff</h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Fixed-term contract completions or probation non-confirmations are often excluded under standard general insurance riders. In such instances, CredSettle directly engages the bank credit committee to structure an immediate One-Time Settlement.
-                  </p>
+                  <h3 className="font-bold text-slate-900 text-sm">Probationary &amp. Contractual Staff</h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Fixed-term contract completions or probation non-confirmations are often excluded under standard general cover riders. In such instances. CredSettle straight engages the bank credit boards to structure an fast One-Time closure. </p>
                 </div>
 
                 <div className="p-4 md:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-sm space-y-2">
-                  <h3 className="font-bold text-slate-900 text-sm">Multiple Loans with Partial Insurance</h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Borrowers holding personal loans across multiple banks where only one carries insurance require a dual strategy: claiming EMIs on the insured account while proactively negotiating moratoriums or OTS on uninsured lines.
-                  </p>
+                  <h3 className="font-bold text-slate-900 text-sm">Multiple Loans with Partial cover</h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> clients holding private loans across multiple banks where only one carries cover require a dual plan: claiming EMIs on the insured account while proactively settling moratoriums or OTS on uninsured lines. </p>
                 </div>
 
                 <div className="p-4 md:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-sm space-y-2">
                   <h3 className="font-bold text-slate-900 text-sm">Loans Assigned to ARCs</h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    If an unpaid loan has already been sold to an Asset Reconstruction Company (ARC), past insurance claims can no longer be triggered. However, ARCs purchase portfolios at deep discounts, enabling CredSettle to negotiate large 50% to 70% waivers.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> If an unpaid loan has already been sold to an Asset Reconstruction firm (ARC). Past cover claims can no longer be triggered. However. ARCs purchase portfolios at deep discounts. This lets CredSettle to settle large 50% to 70% waivers. </p>
                 </div>
               </div>
             </section>
@@ -644,9 +571,7 @@ export default function JobLossInsurancePersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Frequently Asked Questions: Job Loss Loan Insurance &amp; Claims
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Find clear, authoritative answers to the most common questions regarding loan protection insurance, eligibility requirements, and debt resolution:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Find clear. Authoritative answers to the most common questions regarding loan safety cover. Eligibility requirements. debt relief: </p>
 
               <div className="space-y-3 pt-2">
                 {faqs.map((faq, index) => (<div key={index} className="border border-slate-200/80 rounded-2xl bg-white overflow-hidden transition-all duration-150 shadow-sm">
@@ -670,9 +595,7 @@ export default function JobLossInsurancePersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 10. Statutory Citations &amp; Outbound Regulatory Authorities
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                CredSettle adheres strictly to Indian statutory frameworks and regulatory directives. You can verify official guidelines directly from governing bodies:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> CredSettle adheres strictly to Indian legal rules and RBI directives. You can verify formal rules straight from governing bodies: </p>
 
               {/* Outbound Badges */}
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2 text-xs">
@@ -697,16 +620,14 @@ export default function JobLossInsurancePersonalLoanClient() {
                   <ExternalLink className="w-3.5 h-3.5 text-slate-400"/>
                 </a>
                 <a href="https://cybercrime.gov.in" target="_blank" rel="noopener noreferrer" className="p-3 rounded-xl bg-white border border-slate-200/80 hover:border-[#1886ff] hover:text-[#1886ff] transition-all flex items-center justify-between font-semibold text-slate-700">
-                  <span>Cyber Crime Portal.</span>
+                  <span>online Crime Portal.</span>
                   <ExternalLink className="w-3.5 h-3.5 text-slate-400"/>
                 </a>
               </div>
 
               {/* Internal Related Topic Badges */}
               <div className="pt-4 border-t border-slate-100">
-                <span className="text-xs font-bold text-slate-500 uppercase tracking-wider block mb-3">
-                  Related CredSettle Legal &amp; Debt Resolution Guides:
-                </span>
+                <span className="text-xs font-bold text-slate-500 uppercase tracking-wider block mb-3"> Related CredSettle Legal &amp. Debt Resolution Guides: </span>
                 <div className="flex flex-wrap gap-2 text-xs">
                   <Link href="/arbitration-notice-personal-loan-default" className="px-3 py-1.5 rounded-lg bg-slate-100 hover:bg-[#F4F8FE] hover:text-[#1886ff] text-slate-700 font-medium transition-colors">
                     Personal Loan Arbitration Defense
@@ -737,15 +658,11 @@ export default function JobLossInsurancePersonalLoanClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-300"/>
                   <span>Confidential Assessment.</span>
                 </div>
-                <p className="text-lg md:text-xl font-bold leading-snug">
-                  Struggling with Loan EMIs After Job Loss?
-                </p>
-                <p className="text-xs md:text-sm text-blue-100 leading-relaxed">
-                  Let CredSettle legal and debt specialists audit your loan policy, file your insurance claim. Negotiate an official compromise settlement.
-                </p>
+                <p className="text-lg md:text-xl font-bold leading-snug"> Struggling with Loan EMIs After Job Loss? </p>
+                <p className="text-xs md:text-sm text-blue-100 leading-relaxed"> Let CredSettle legal and debt specialists audit your loan policy. File your cover claim. settle an formal OTS deals. </p>
                 <a href="tel:+918800226635" className="w-full inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-white text-[#2452ae] font-extrabold text-sm hover:bg-blue-50 transition-colors shadow-sm">
                   <Phone className="w-4 h-4 text-[#1886ff]"/>
-                  <span>Check Your Loan Insurance Eligibility.</span>
+                  <span>Check Your Loan cover Eligibility.</span>
                 </a>
                 <div className="flex items-center justify-center gap-1 text-[11px] text-blue-200">
                   <span>Direct Helpline:</span>
@@ -761,12 +678,10 @@ export default function JobLossInsurancePersonalLoanClient() {
                   </div>
                   <div>
                     <p className="font-bold text-slate-900 text-sm">Ashish Jhangra</p>
-                    <p className="text-xs text-slate-500 font-medium">Legal &amp; Debt Resolution Professional.</p>
+                    <p className="text-xs text-slate-500 font-medium">Legal &amp. Debt relief expert.</p>
                   </div>
                 </div>
-                <p className="text-xs text-slate-600 leading-relaxed">
-                  Specializing in banking regulatory disputes, IRDAI insurance claims, and structured credit compromise settlements for retail borrowers across India.
-                </p>
+                <p className="text-xs text-slate-600 leading-relaxed"> Specializing in banking RBI claims. IRDAI cover claims. And structured credit OTS deals for retail clients across India. </p>
                 <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                   <span>CredSettle Advisory.</span>
                   <Link href="/author/ashish-jhangra" className="text-[#1886ff] font-bold hover:underline">
@@ -777,9 +692,7 @@ export default function JobLossInsurancePersonalLoanClient() {
 
               {/* CredSettle Trust Badges */}
               <div className="p-5 rounded-2xl bg-white border border-slate-200/80 shadow-sm space-y-3">
-                <p className="font-bold text-slate-900 text-xs uppercase tracking-wider text-slate-400">
-                  CredSettle Trust Metrics.
-                </p>
+                <p className="font-bold text-slate-900 text-xs uppercase tracking-wider text-slate-400"> CredSettle Trust Metrics. </p>
                 <div className="space-y-2.5 text-xs text-slate-700">
                   <div className="flex items-center gap-2">
                     <Check className="w-4 h-4 text-emerald-500 flex-shrink-0"/>
@@ -791,11 +704,11 @@ export default function JobLossInsurancePersonalLoanClient() {
                   </div>
                   <div className="flex items-center gap-2">
                     <Check className="w-4 h-4 text-emerald-500 flex-shrink-0"/>
-                    <span>100% Legal &amp; IRDAI Compliant.</span>
+                    <span>100% Legal &amp. IRDAI Compliant.</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Check className="w-4 h-4 text-emerald-500 flex-shrink-0"/>
-                    <span>Strict Anti-Harassment Shield.</span>
+                    <span>Strict Anti-threats Shield.</span>
                   </div>
                 </div>
               </div>

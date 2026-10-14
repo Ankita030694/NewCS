@@ -48,43 +48,43 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
     const faqs = [
         {
             q: 'How do fake loan apps steal contacts and personal photos from my phone?',
-            a: "Fake loan apps trick users during installation by demanding mandatory Android permissions for Read Contacts (READ_CONTACTS), Gallery/Media Access (READ_EXTERNAL_STORAGE). Camera. Once granted, malicious background scripts automatically exfiltrate your entire address book, call logs. Private photos to overseas servers operated by cyber extortion syndicates."
+            a: "Fake loan apps trick users during installation by demanding strict Android permissions for Read Contacts (READ_CONTACTS). Gallery/Media Access (READ_EXTERNAL_STORAGE). Camera. Once granted. Malicious background scripts automatically exfiltrate your entire address book. Call logs. Private photos to overseas servers operated by online extortion syndicates."
         },
         {
             q: 'What immediate steps should I take if an illegal loan app is blackmailing me with morphed photos?',
-            a: "Immediately take screenshots of the extortion chats, morphed images, and sender numbers. Do not delete WhatsApp chats. Do not transfer any money under blackmail. Immediately revoke all app permissions and uninstall the application. Next, broadcast a preemptive alert to your family and contacts warning them that your device was hacked by a scam syndicate. File an instant cyber crime complaint on cybercrime.gov.in or helpline 1930."
+            a: "Promptly take screenshots of the extortion chats. Morphed images. sender numbers. Do not delete WhatsApp chats. Do not transfer any money under blackmail. promptly revoke all app permissions and uninstall the apps. Next. Broadcast a preemptive alert to your kin and contacts warning them that your device was hacked by a scam syndicate. File an instant online crime reports on online crime.gov.in or helpline 1930."
         },
         {
             q: 'Which sections of the IT Act and Bharatiya Nyaya Sanhita (BNS) penalize fake loan app extortion?',
-            a: "Fake loan app harassment attracts severe criminal penalties under Sections 66C (Identity Theft), 66E (Privacy Violation), 67. 67A (Transmitting Sexually Explicit/Obscene Material) of the Information Technology Act, 2000. Under the Bharatiya Nyaya Sanhita, 2023 (BNS), it constitutes criminal extortion under Section 308, criminal intimidation under Section 351(2). Defamation under Section 356(2)."
+            a: "Fake loan app abuse attracts severe penal penalties under Sections 66C (Identity Theft). 66E (rights abuse). 67. 67A (Transmitting Sexually Explicit/Obscene Material) of the Information Technology Act. 2000. Under the Bharatiya Nyaya Sanhita. 2023 (BNS). It constitutes penal extortion under Section 308. penal threats under Section 351(2). Defamation under Section 356(2)."
         },
         {
             q: 'Will paying the extortion demand stop the recovery agents from harassing my family?',
-            a: 'No. Paying extortion money never stops the harassment; it only accelerates it. When scammers receive money, they identify the victim as vulnerable and financially capable, prompting secondary and tertiary demands from alternate numbers for the same fake loan. Total financial disengagement combined with police reporting is the only proven method to stop the syndicate.'
+            a: 'No. Paying extortion money never stops the abuse. it only accelerates it. When scammers receive money. They identify the victim as vulnerable and financially capable. Prompting secondary and tertiary demands from alternate numbers for the same fake loan. Total money disengagement combined with police reporting is the only proven method to stop the syndicate.'
         },
         {
             q: 'How do I file an online FIR on the National Cyber Crime Reporting Portal (cybercrime.gov.in)?',
-            a: "Visit cybercrime.gov.in and select 'Report Crime Related to Women/Children' or 'Report Other Cyber Crime'. Register with your mobile number, enter the incident details under 'Financial Fraud & Cyber Blackmail / Sextortion', upload timestamped WhatsApp screenshots, transaction IDs, UPI VPA handles, APK download links. Caller phone numbers. You will receive an official Cyber Crime Acknowledgement Number for tracking."
+            a: "Visit online crime.gov.in and select 'Report Crime Related to Women/Children' or 'Report Other online Crime'. Register with your mobile number. Enter the incident details under 'money Fraud & online Blackmail / Sextortion'. Upload timestamped WhatsApp screenshots. Transaction IDs. UPI VPA handles. APK download links. Caller phone numbers. You will receive an formal online Crime receipts Number for tracking."
         },
         {
             q: 'Can illegal or Chinese loan apps report defaults to CIBIL, Experian, or CRIF High Mark?',
-            a: 'No. Only RBI-regulated entities (Scheduled Commercial Banks and registered NBFCs) possess statutory membership in Credit Information Companies (CICs) under the CICRA Act, 2005. Unregistered 7-day loan apps have zero regulatory access to credit bureaus and cannot report defaults or damage your official CIBIL score.'
+            a: 'No. Only RBI-regulated entities (Scheduled banks and registered NBFCs) possess legal membership in Credit Information firms (CICs) under the CICRA Act. 2005. Unregistered 7-day loan apps have zero RBI access to credit bureaus and cannot report defaults or damage your formal CIBIL score.'
         },
         {
             q: 'Can police arrest me if a fake loan app sends a fabricated arrest warrant or legal notice?',
-            a: "No. Fake loan apps frequently forge court notices, RBI seal documents, and police arrest warrants using template editing software. The Indian police do not execute civil debt collections. Genuine legal summons are never issued via WhatsApp with immediate UPI payment demands. Forging government logos is itself a cognizable felony under Sections 336 and 340 of BNS 2023."
+            a: "No. Fake loan apps often forge court notices. RBI seal papers. And police arrest warrants using template editing software. The Indian police do not execute civil debt calls. Genuine legal summons are never issued via WhatsApp with fast UPI payment demands. Forging state logos is itself a cognizable felony under Sections 336 and 340 of BNS 2023."
         },
         {
             q: 'How can I remove an illegal loan app\'s spyware access from my Android or iOS device?',
-            a: "Go to your phone Settings > Apps & Permissions > Permission Manager. Revoke Contacts, Storage, Photos, Camera, and Microphone access for the suspect application. Force stop and uninstall the APK. For comprehensive security, clear cache partitions or perform a factory data reset after backing up uninfected documents. Reset your Google Advertising ID."
+            a: "Go to your phone Settings > Apps & Permissions > Permission Manager. Revoke Contacts. Storage. Photos. Camera. And Microphone access for the suspect apps. Force stop and uninstall the APK. For full pledge. Clear cache partitions or perform a factory data reset after backing up uninfected papers. Reset your Google Advertising ID."
         },
         {
             q: 'How does CredSettle assist victims trapped in illegal loan app extortion syndicates?',
-            a: "CredSettle provides institutional legal protection, digital forensic paperwork, formal cyber complaint structuring under the IT Act and BNS, escalation to the RBI Sachet portal. Strategic communication protocols that insulate victims and their families from illegal recovery harassment."
+            a: "CredSettle provides bank legal safety. online deep paperwork. Formal online reports structuring under the IT Act and BNS. reports to the RBI Sachet portal. Strategic contact protocols that insulate victims and their families from banned claims abuse."
         },
         {
             q: 'What are the RBI Digital Lending Guidelines regarding loan recovery and contact access?',
-            a: "Under RBI's Digital Lending Guidelines, lending apps are strictly prohibited from accessing a borrower's mobile contacts, phone media files, call logs. Biometric data. also, loans must be released and serviced directly through the bank account of the regulated entity without any pass-through or third-party pool accounts."
+            a: "Under RBI's online Lending rules. Lending apps are strictly prohibited from accessing a client's mobile contacts. Phone media files. Call logs. Biometric data. Also. Loans must be released and serviced straight through the bank account of the regulated entity without any pass-through or third-party pool accounts."
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -96,9 +96,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
             Fake Loan App Harassment &amp; Cyber Crime
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed">
-            Are illegal loan apps morphing your photos and harassing your contacts? Learn how to file a cyber crime FIR, invoke statutory protections under the IT Act and BNS. Permanently stop digital blackmail.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> Are banned loan apps morphing your photos and harassing your contacts? Learn how to file a online crime FIR. Invoke legal protections under the IT Act and BNS. Permanently stop online blackmail. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -141,9 +139,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>Cyber Crime Legal Defense.</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Protected under IT Act 2000, BNS 2023 &amp; RBI Digital Lending Directions.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Protected under IT Act 2000. BNS 2023 &amp. RBI online Lending Directions. </p>
               </div>
             </div>
           </aside>
@@ -159,33 +155,13 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
               </div>
 
               <ul className="space-y-3.5 text-xs sm:text-sm text-slate-700 leading-relaxed">
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Unregulated Cross-Border Extortion Syndicates:</strong> Predatory 7-day loan applications operate without Reserve Bank of India (RBI) registration or Non-Banking Financial Company (NBFC) licensing. They use deceptive APK side-loading and unverified digital payment gateways to distribute micro-advances with 50% to 120% upfront deductions.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Unregulated Cross-Border Extortion Syndicates:</strong> Predatory 7-day loan apps operate without Reserve Bank of India (RBI) registration or Non-Banking money firm (NBFC) licensing. They use deceptive APK side-loading and unverified online payment gateways to distribute micro-advances with 50% to 120% upfront deductions. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Cognizable Cyber Felonies under IT Act &amp; BNS:</strong> Scraping mobile contacts, creating deepfake synthetic media. Circulating morphed pornographic imagery constitute severe criminal offenses under Sections 66C, 66E, 67. 67A of the Information Technology Act, 2000, alongside Sections 308 (Extortion), 351(2) (Criminal Intimidation). 356(2) (Defamation) of the Bharatiya Nyaya Sanhita, 2023.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Cognizable online Felonies under IT Act &amp. BNS:</strong> Scraping mobile contacts. Creating deepfake synthetic media. Circulating morphed pornographic imagery constitute severe penal offenses under Sections 66C. 66E. 67. 67A of the Information Technology Act. 2000. Alongside Sections 308 (Extortion). 351(2) (penal threats). 356(2) (Defamation) of the Bharatiya Nyaya Sanhita. 2023. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Zero Legitimate Credit Bureau Footprint:</strong> Illegal Chinese loan apps have no statutory access to Credit Information Companies (CICs) like CIBIL, Experian, Equifax. CRIF High Mark under CICRA 2005. Threats of ruining credit scores or generating civil recovery warrants are entirely fabricated.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Zero Legitimate CIBIL desk Footprint:</strong> banned Chinese loan apps have no legal access to Credit Information firms (CICs) like CIBIL. Experian. Equifax. CRIF High Mark under CICRA 2005. Threats of ruining credit scores or generating civil claims warrants are entirely fabricated. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">The Cardinal Rule of Extortion Disengagement:</strong> Paying extortion money never stops the harassment; it establishes financial solvency and invites multi-origin blackmail. Complete communication cut-off, preemptive contact broadcasting, National Cyber Crime Portal (1930) reporting. Legal containment are the only verified solutions.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">The Cardinal Rule of Extortion Disengagement:</strong> Paying extortion money never stops the abuse. it establishes money solvency and invites multi-origin blackmail. Complete contact cut-off. Preemptive contact broadcasting. National online Crime Portal (1930) reporting. Legal containment are the only checked solutions. </div> </li>
               </ul>
             </div>
 
@@ -198,12 +174,8 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 1. Anatomy of Predatory 7-Day Loan Apps &amp; Chinese Extortion Syndicates
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                The rapid expansion of instant micro-credit in India has spawned a sprawling shadow industry of illegal loan applications—commonly known as. <strong>7-day Chinese loan apps.</strong>. These entities are not legitimate lending platforms. They are structured digital extortion rackets operated by international cyber syndicates using shell corporate entities, untraceable cloud servers. Local mule bank accounts.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Unlike legitimate financial institutions governed by the. <strong>Reserve Bank of India (RBI) Digital Lending Guidelines (DLG).</strong>, these rogue apps operate through side-loaded Android Package Kits (APKs), spoofed social media advertisements. Short-lived web portals. They lure financially stressed borrowers with advertisements promising. <em>instant no-document cash.</em> of ₹3,000 to ₹10,000 released in 60 seconds.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The rapid growth of instant micro-credit in India has spawned a sprawling shadow industry of banned loan apps. commonly known as. <strong>7-day Chinese loan apps.</strong>. These entities are not legitimate lending platforms. They are structured online extortion rackets operated by international online syndicates using shell firm entities. Untraceable cloud servers. Local mule bank accounts. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Unlike legitimate banks governed by the. <strong>Reserve Bank of India (RBI) online Lending rules (DLG).</strong>These rogue apps operate through side-loaded Android Package Kits (APKs). Spoofed social media advertisements. Short-lived web portals. They lure financially stressed clients with advertisements promising. <em>instant no-paper cash.</em> of ₹3,000 to ₹10,000 released in 60 seconds. </p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-blue-200/80 shadow-xs space-y-2">
@@ -211,9 +183,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                     <Zap className="w-4 h-4"/>
                     <span>Usurious Advance Deductions.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    A sanctioned loan of ₹5,000 results in only ₹2,800 to ₹3,200 released into the borrower&apos;s account, with ₹1,800 to ₹2,200 deducted upfront as bogus &quot;processing&quot. Or &quot;technology&quot; fees.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> A sanctioned loan of ₹5,000 results in only ₹2,800 to ₹3,200 released into the client&apos. S account. With ₹1,800 to ₹2,200 deducted upfront as bogus &quot. processing&quot. Or &quot. technology&quot. fees. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-indigo-200/80 shadow-xs space-y-2">
@@ -221,9 +191,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                     <Clock className="w-4 h-4"/>
                     <span>Hyper-Compressed Tenures.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    While advertised as 90-day loans, the application resets repayment to exactly 6 or 7 days, demanding 100% principal repayment plus compounding penal interest of 300% to 1,000% annualized.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> While advertised as 90-day loans. The apps resets payment to exactly 6 or 7 days. Demanding 100% main loan payment plus growing extra fees of 300% to 1,000% annualized. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-rose-200/80 shadow-xs space-y-2">
@@ -231,16 +199,12 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                     <ShieldAlert className="w-4 h-4"/>
                     <span>Mule Payment Gateways.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Repayment collections are routed through hundreds of revolving UPI Virtual Payment Addresses (VPAs) and rented bank accounts to evade cyber tracking and launder funds out of jurisdiction.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> payment calls are routed through hundreds of revolving UPI Virtual Payment Addresses (VPAs) and rented bank accounts to evade online tracking and launder funds out of police area. </p>
                 </div>
               </div>
 
               <div className="bg-blue-50/70 border border-blue-200/70 p-4 rounded-xl text-xs md:text-sm text-slate-700 leading-relaxed">
-                <p>
-                  <strong>Regulatory Non-Compliance:</strong> These applications fail every statutory mandate outlined in the RBI Master Directions on Digital Lending. They operate without a named Regulated Entity (RE), provide no Key Fact Statement (KFS), lack a Grievance Redressal Officer (GRO). Do not maintain statutory registration under Section 45-IA of the RBI Act, 1934.
-                </p>
+                <p> <strong>RBI Non-Compliance:</strong> These apps fail every legal mandate outlined in the RBI Master Directions on online Lending. They operate without a named Regulated Entity (RE). Provide no Key Fact record (KFS). Lack a Grievance Redressal staff (GRO). Do not maintain legal registration under Section 45-IA of the RBI Act. 1934. </p>
               </div>
             </section>
 
@@ -253,9 +217,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 2. Contact Scraping, Image Morphing &amp; Synthetic Deepfake Extortion
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                The primary weapon of fake loan apps is not civil litigation or judicial recovery; it is. <strong>digital extortion and psychological terror.</strong>. During the installation phase, the malicious APK executes automated permissions exploits designed to harvest sensitive personal data from the victim&apos;s smartphone:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The primary weapon of fake loan apps is not civil lawsuits or court claims. it is. <strong>online extortion and psychological terror.</strong>. During the installation phase. The malicious APK executes automated permissions exploits designed to harvest sensitive private data from the victim&apos. s smartphone: </p>
 
               <div className="space-y-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -263,9 +225,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                     <Users className="w-4 h-4 text-[#1886ff]"/>
                     Total Contact Book Exfiltration
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    By mandating the. <code>READ_CONTACTS</code> and <code>READ_CALL_LOG</code> Android permissions, the app uploads the borrower&apos;s complete address book—including parents, spouses, siblings, employers. Social acquaintances—directly to command-and-control servers. The syndicate identifies high-value social relations (such as contacts labeled &quot;Dad&quot;, &quot;Boss&quot;, or &quot;Wife&quot;) for targeted harassment.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> By mandating the. <code>READ_CONTACTS</code> and <code>READ_CALL_LOG</code> Android permissions. The app uploads the client&apos. s complete address book. Including parents. Spouses. Siblings. Employers. Social acquaintances. straight to command-and-control servers. The syndicate identifies high-value social relations (such as contacts labeled &quot. Dad&quot. , &quot. Boss&quot. &quot. Wife&quot. ) for targeted abuse. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -273,9 +233,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                     <Radio className="w-4 h-4 text-purple-600"/>
                     Private Gallery Scraping &amp; AI Image Morphing
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Through <code>READ_EXTERNAL_STORAGE.</code> and live selfie KYC requirements, the scammers obtain high-resolution facial images of the victim and their family members. Using automated face-swapping software and generative AI models, the syndicate splices the victim&apos;s face onto obscene, pornographic. Compromising visual media.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Through <code>READ_EXTERNAL_STORAGE.</code> and live selfie KYC requirements. The scammers obtain high-relief facial images of the victim and their kin. Using automated face-swapping software and generative AI models. The syndicate splices the victim&apos. S face onto obscene. Pornographic. Compromising visual media. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -283,9 +241,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                     <BadgeAlert className="w-4 h-4 text-rose-600"/>
                     WhatsApp Defamation Groups &amp; Social Sabotage
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    On Day 5 or 6 (often before any real due date), recovery callers initiate aggressive WhatsApp messaging. They create group chats titled &quot;Fraud Defaulter Alert&quot. Containing the victim&apos;s colleagues and relatives, threatening to broadcast the morphed pornographic media unless a ransom payment is made via an unverified UPI handle within 15 minutes.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> On Day 5 or 6 (often before any real due date). claims callers initiate harsh WhatsApp messaging. They create group chats titled &quot. Fraud Defaulter Alert&quot. Containing the victim&apos. S colleagues and relatives. Threatening to broadcast the morphed pornographic media unless a ransom payment is made via an unverified UPI handle within 15 minutes. </p>
                 </div>
               </div>
             </section>
@@ -299,9 +255,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 3. Statutory Criminal Enactments: IT Act, 2000 &amp; Bharatiya Nyaya Sanhita (BNS), 2023
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                It is crucial for victims to recognize that the actions of fake loan app operators are not commercial civil disputes. They are. <strong>serious criminal felonies.</strong> punishable with rigorous imprisonment under Indian cyber and criminal statutes:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> It is crucial for victims to recognize that the steps of fake loan app operators are not trade civil claims. They are. <strong>serious penal felonies.</strong> punishable with rigorous imprisonment under Indian online and penal statutes: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-blue-200/80 shadow-xs space-y-3">
@@ -310,18 +264,10 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                     Information Technology Act, 2000
                   </h3>
                   <ul className="space-y-2 text-xs text-slate-600 leading-relaxed">
-                    <li className="p-2 bg-slate-50 rounded-lg border border-slate-100">
-                      <strong className="text-slate-900">Section 66C (Identity Theft):</strong> Fraudulent or dishonest use of electronic signatures, passwords, or personal data. Up to 3 years imprisonment and fine.
-                    </li>
-                    <li className="p-2 bg-slate-50 rounded-lg border border-slate-100">
-                      <strong className="text-slate-900">Section 66E (Privacy Violation):</strong> Capturing, publishing, or transmitting images of private areas without consent. Up to 3 years imprisonment or ₹2 Lakh fine.
-                    </li>
-                    <li className="p-2 bg-slate-50 rounded-lg border border-slate-100">
-                      <strong className="text-slate-900">Section 67 (Publishing Obscene Material):</strong> Transmitting obscene material electronically. First conviction: up to 3 years; repeat: up to 5 years.
-                    </li>
-                    <li className="p-2 bg-slate-50 rounded-lg border border-slate-100">
-                      <strong className="text-slate-900">Section 67A (Sexually Explicit Acts):</strong> Transmitting sexually explicit material electronically. Non-bailable, up to 5 years imprisonment for first offense.
-                    </li>
+                    <li className="p-2 bg-slate-50 rounded-lg border border-slate-100"> <strong className="text-slate-900">Section 66C (Identity Theft):</strong> Fraudulent or dishonest use of electronic signatures. Passwords. Or private data. Up to 3 years imprisonment and fine. </li>
+                    <li className="p-2 bg-slate-50 rounded-lg border border-slate-100"> <strong className="text-slate-900">Section 66E (rights abuse):</strong> Capturing. Publishing. Or transmitting images of private areas without consent. Up to 3 years imprisonment or ₹2 Lakh fine. </li>
+                    <li className="p-2 bg-slate-50 rounded-lg border border-slate-100"> <strong className="text-slate-900">Section 67 (Publishing Obscene Material):</strong> Transmitting obscene material electronically. First conviction: up to 3 years. repeat: up to 5 years. </li>
+                    <li className="p-2 bg-slate-50 rounded-lg border border-slate-100"> <strong className="text-slate-900">Section 67A (Sexually Explicit Acts):</strong> Transmitting sexually explicit material electronically. Non-bailable. Up to 5 years imprisonment for first offense. </li>
                   </ul>
                 </div>
 
@@ -331,18 +277,10 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                     Bharatiya Nyaya Sanhita, 2023 (BNS)
                   </h3>
                   <ul className="space-y-2 text-xs text-slate-600 leading-relaxed">
-                    <li className="p-2 bg-slate-50 rounded-lg border border-slate-100">
-                      <strong className="text-slate-900">Section 308 (Extortion):</strong> Intentionally putting any person in fear of injury to extort property or valuable security. Rigorous imprisonment up to 3 years.
-                    </li>
-                    <li className="p-2 bg-slate-50 rounded-lg border border-slate-100">
-                      <strong className="text-slate-900">Section 351(2) (Criminal Intimidation):</strong> Threatening injury to reputation or property. Up to 2 years imprisonment, fine, or both.
-                    </li>
-                    <li className="p-2 bg-slate-50 rounded-lg border border-slate-100">
-                      <strong className="text-slate-900">Section 356(2) (Defamation):</strong> Publishing defamatory statements with intent to harm reputation. Up to 2 years imprisonment with fine.
-                    </li>
-                    <li className="p-2 bg-slate-50 rounded-lg border border-slate-100">
-                      <strong className="text-slate-900">Sections 336 &amp; 340 (Forgery &amp; Fraudulent Seals):</strong> Forging government notices or court warrants. Cognizable offense up to 7 years.
-                    </li>
+                    <li className="p-2 bg-slate-50 rounded-lg border border-slate-100"> <strong className="text-slate-900">Section 308 (Extortion):</strong> Intentionally putting any person in fear of injury to extort home or valuable pledge. Rigorous imprisonment up to 3 years. </li>
+                    <li className="p-2 bg-slate-50 rounded-lg border border-slate-100"> <strong className="text-slate-900">Section 351(2) (penal threats):</strong> Threatening injury to reputation or home. Up to 2 years imprisonment. Fine. Or both. </li>
+                    <li className="p-2 bg-slate-50 rounded-lg border border-slate-100"> <strong className="text-slate-900">Section 356(2) (Defamation):</strong> Publishing defamatory records with intent to harm reputation. Up to 2 years imprisonment with fine. </li>
+                    <li className="p-2 bg-slate-50 rounded-lg border border-slate-100"> <strong className="text-slate-900">Sections 336 &amp. 340 (Forgery &amp. Fraudulent Seals):</strong> Forging state notices or court warrants. Cognizable offense up to 7 years. </li>
                   </ul>
                 </div>
               </div>
@@ -357,9 +295,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 4. Comparative Legal Grid: Legitimate RBI-Registered NBFCs vs. Rogue Loan Apps
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Distinguish the operational, legal, and regulatory parameters governing genuine digital lenders versus illegal extortion apps:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Distinguish the daily work. Legal. And RBI parameters governing genuine online lenders versus banned extortion apps: </p>
 
               {/* TABLE WITH BOTH VERTICAL AND HORIZONTAL LINES (GRID) */}
               <div className="overflow-x-auto rounded-2xl border border-slate-300 bg-white shadow-xs">
@@ -373,34 +309,34 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                   </thead>
                   <tbody className="text-slate-600">
                     <tr className="hover:bg-slate-50/70">
-                      <td className="p-3.5 font-bold text-slate-900 border-r border-b border-slate-300">Statutory Licensing.</td>
-                      <td className="p-3.5 text-emerald-700 font-semibold border-r border-b border-slate-300">Mandatory RBI Certificate of Registration (CoR).</td>
-                      <td className="p-3.5 text-rose-700 font-semibold border-b border-slate-300">Zero RBI registration; unverified overseas shell entity.</td>
+                      <td className="p-3.5 font-bold text-slate-900 border-r border-b border-slate-300">legal Licensing.</td>
+                      <td className="p-3.5 text-emerald-700 font-semibold border-r border-b border-slate-300">strict RBI letter of Registration (CoR).</td>
+                      <td className="p-3.5 text-rose-700 font-semibold border-b border-slate-300">Zero RBI registration. unverified overseas shell entity.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/70">
                       <td className="p-3.5 font-bold text-slate-900 border-r border-b border-slate-300">Mobile Phone Permissions.</td>
-                      <td className="p-3.5 border-r border-b border-slate-300">Strictly no contact list, gallery, or call log access (RBI DLG).</td>
-                      <td className="p-3.5 text-rose-700 border-b border-slate-300">Enforces full contact scraping, media, and camera access.</td>
+                      <td className="p-3.5 border-r border-b border-slate-300">Strictly no contact list. Gallery. Or call log access (RBI DLG).</td>
+                      <td className="p-3.5 text-rose-700 border-b border-slate-300">Enforces full contact scraping. Media. And camera access.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/70">
-                      <td className="p-3.5 font-bold text-slate-900 border-r border-b border-slate-300">Repayment Tenure &amp; APR.</td>
-                      <td className="p-3.5 border-r border-b border-slate-300">Minimum 3 months to several years; transparent APR in KFS.</td>
-                      <td className="p-3.5 text-rose-700 border-b border-slate-300">6 to 7 days tenure; 300% to 1,200% annualized interest.</td>
+                      <td className="p-3.5 font-bold text-slate-900 border-r border-b border-slate-300">payment Tenure &amp. APR.</td>
+                      <td className="p-3.5 border-r border-b border-slate-300">Minimum 3 months to several years. transparent APR in KFS.</td>
+                      <td className="p-3.5 text-rose-700 border-b border-slate-300">6 to 7 days tenure. 300% to 1,200% annualized rates.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/70">
-                      <td className="p-3.5 font-bold text-slate-900 border-r border-b border-slate-300">Disbursement &amp; Repayment Mechanism.</td>
-                      <td className="p-3.5 border-r border-b border-slate-300">Directly via borrower&apos;s bank account (NACH / e-NACH).</td>
-                      <td className="p-3.5 text-rose-700 border-b border-slate-300">Dispersed personal UPI VPAs, mule accounts, and crypto links.</td>
+                      <td className="p-3.5 font-bold text-slate-900 border-r border-b border-slate-300">Disbursement &amp. payment Mechanism.</td>
+                      <td className="p-3.5 border-r border-b border-slate-300">straight via client&apos. s bank account (NACH / e-NACH).</td>
+                      <td className="p-3.5 text-rose-700 border-b border-slate-300">Dispersed private UPI VPAs. Mule accounts. And crypto links.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/70">
-                      <td className="p-3.5 font-bold text-slate-900 border-r border-b border-slate-300">CIBIL / Credit Bureau Reporting.</td>
-                      <td className="p-3.5 text-emerald-700 font-semibold border-r border-b border-slate-300">Statutory monthly reporting to 4 CICs under CICRA 2005.</td>
-                      <td className="p-3.5 text-rose-700 font-semibold border-b border-slate-300">Zero access to CIBIL / Experian; cannot report default.</td>
+                      <td className="p-3.5 font-bold text-slate-900 border-r border-b border-slate-300">CIBIL / CIBIL desk Reporting.</td>
+                      <td className="p-3.5 text-emerald-700 font-semibold border-r border-b border-slate-300">legal monthly reporting to 4 CICs under CICRA 2005.</td>
+                      <td className="p-3.5 text-rose-700 font-semibold border-b border-slate-300">Zero access to CIBIL / Experian. cannot report default.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/70">
-                      <td className="p-3.5 font-bold text-slate-900 border-r border-slate-300">Recovery &amp; Grievance Redressal.</td>
-                      <td className="p-3.5 border-r border-slate-300">Governed by RBI Fair Practices Code &amp; RBI Ombudsman.</td>
-                      <td className="p-3.5 text-rose-700 font-bold">Unlawful extortion, morphed pornography, and social blackmail.</td>
+                      <td className="p-3.5 font-bold text-slate-900 border-r border-slate-300">claims &amp. Grievance Redressal.</td>
+                      <td className="p-3.5 border-r border-slate-300">Governed by RBI Fair Practices Code &amp. RBI staff.</td>
+                      <td className="p-3.5 text-rose-700 font-bold">Unlawful extortion. Morphed pornography. And social blackmail.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -416,9 +352,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 5. Extortion Risk Analytics: Why Paying Blackmail Accelerates Harassment
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Many victims erroneously assume that paying off the demanded sum (e.g., ₹5,000 to ₹10,000) will permanently resolve the issue and delete their contact records. In cyber extortion operations,. <strong>payment is interpreted as high compliance and panic.</strong>, triggering automated escalation algorithms across partner syndicates:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Many victims erroneously assume that paying off the demanded sum (e.g. ₹5,000 to ₹10,000) will permanently resolve the issue and delete their contact records. In online extortion work,. <strong>payment is interpreted as high compliance and panic.</strong>Triggering automated reports algorithms across partner syndicates: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-3">
@@ -490,9 +424,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Visual Defense Blueprint: 6-Step Cyber Harassment Defense Blueprint
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Refer to this structured 6-stage procedural roadmap designed by cyber law and debt resolution professionals to neutralize extortion, preserve digital evidence. File statutory complaints:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Refer to this structured 6-stage procedural roadmap designed by online law and debt relief workers to neutralize extortion. Preserve online proof. File legal reports: </p>
 
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-sm p-3 md:p-4 overflow-hidden">
                 <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-slate-100">
@@ -517,9 +449,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 6. Standard Operating Procedure (SOP): 6 Stages to Neutralize Fake Loan App Extortion
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Follow this battle-tested, sequential protocol immediately upon facing threats or contact harassment from illegal lending apps:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Follow this battle-tested. Sequential protocol promptly upon facing threats or contact abuse from banned lending apps: </p>
 
               <div className="space-y-4 pt-2">
                 {/* Stage 1 */}
@@ -533,9 +463,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                   <h3 className="text-base md:text-lg font-bold text-slate-900">
                     Forensic Evidence Preservation &amp; Screenshot Capture
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Capture full-screen, timestamped screenshots of every WhatsApp message, SMS threat, call log, UPI payment request, and morphed image. Ensure the caller&apos;s full international or virtual mobile number is clearly visible on the screen. Export and backup the WhatsApp chat archive before blocking the number. Note down bank account transaction IDs (UTR numbers) of the initial disbursement.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Capture full-screen. Timestamped screenshots of every WhatsApp message. SMS threat. Call log. UPI payment request. And morphed image. Ensure the caller&apos. s full international or virtual mobile number is clearly visible on the screen. Export and backup the WhatsApp chat archive before blocking the number. Note down bank account transaction IDs (UTR numbers) of the initial disbursement. </p>
                 </div>
 
                 {/* Stage 2 */}
@@ -549,9 +477,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                   <h3 className="text-base md:text-lg font-bold text-slate-900">
                     Device Quarantine &amp; Spyware Permission Revocation
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Open your smartphone settings: <code>Settings &gt; Apps &gt; Permission Manager.</code>. Revoke Contacts, Camera, Storage/Media, Location, and SMS permissions for all suspicious or recently downloaded applications. Force-stop and uninstall the APK. Reset your Google Advertising ID. For complete safety, perform a clean factory data reset after backing up personal documents.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Open your smartphone settings: <code>Settings &gt. Apps &gt. Permission Manager.</code>. Revoke Contacts. Camera. Storage/Media. Location. And SMS permissions for all suspicious or recently downloaded apps. Force-stop and uninstall the APK. Reset your Google Advertising ID. For complete safety. Perform a clean factory data reset after backing up private papers. </p>
                 </div>
 
                 {/* Stage 3 */}
@@ -565,9 +491,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                   <h3 className="text-base md:text-lg font-bold text-slate-900">
                     Preemptive Social &amp; Contact Shield Warning Broadcast
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Take away the scammer&apos;s primary leverage—fear of social embarrassment—by proactively warning your contacts. Post a WhatsApp status and broadcast message stating: <em>&quot;Important Security Alert: My mobile phone contacts and gallery were recently compromised by a cyber malware application. Cyber extortionists are sending fake, morphed images and defamatory messages from unknown numbers. Please block and report any such calls immediately. An official police cyber complaint has been registered.&quot;.</em>
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Take away the scammer&apos. s primary leverage. fear of social embarrassment. by proactively warning your contacts. Post a WhatsApp status and broadcast message stating: <em>&quot. key pledge Alert: My mobile phone contacts and gallery were recently compromised by a online malware apps. online extortionists are sending fake. Morphed images and defamatory messages from unknown numbers. Please block and report any such calls promptly. An formal police online reports has been registered.&quot.</em> </p>
                 </div>
 
                 {/* Stage 4 */}
@@ -581,9 +505,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                   <h3 className="text-base md:text-lg font-bold text-slate-900">
                     National Cyber Crime Reporting Portal (1930) FIR Lodgment
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Dial the National Cyber Financial Helpline. <strong>1930</strong> immediately. Log on to. <strong>cybercrime.gov.in.</strong> and lodge a formal complaint under &quot;Report Cyber Crime Related to Women/Children&quot. (for morphed explicit media) or &quot;Report Other Cyber Crime&quot;. Attach all preserved screenshots, UPI VPA IDs, APK file hashes, and sender phone numbers. Obtain your official Acknowledgement Number.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Dial the National online money Helpline. <strong>1930</strong> promptly. Log on to. <strong>online crime.gov.in.</strong> and lodge a formal reports under &quot. Report online Crime Related to Women/Children&quot. (for morphed explicit media) or &quot. Report Other online Crime&quot. Attach all preserved screenshots. UPI VPA IDs. APK file hashes. And sender phone numbers. Obtain your formal receipts Number. </p>
                 </div>
 
                 {/* Stage 5 */}
@@ -597,9 +519,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                   <h3 className="text-base md:text-lg font-bold text-slate-900">
                     RBI Sachet Portal &amp; Banking Ombudsman Escalation
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    File an institutional complaint on the. <strong>RBI Sachet Portal (sachet.rbi.org.in).</strong> against the unauthorized digital lending entity. If the scammer used a legitimate Indian bank or payment gateway merchant account to collect payments, report those mule bank accounts to the respective bank&apos;s Principal Nodal Officer (PNO) to trigger account freezing under anti-money laundering regulations.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> File an bank reports on the. <strong>RBI Sachet Portal (sachet.rbi.org.in).</strong> against the banned online lending entity. If the scammer used a legitimate Indian bank or payment gateway merchant account to collect payments. Report those mule bank accounts to the respective bank&apos. s main loan Nodal staff (PNO) to trigger account freezing under anti-money laundering regulations. </p>
                 </div>
 
                 {/* Stage 6 */}
@@ -613,9 +533,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                   <h3 className="text-base md:text-lg font-bold text-slate-900">
                     Total Financial Disengagement &amp; Communication Blackout
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Adopt complete, uncompromising disengagement. Do not answer calls from unknown numbers, do not negotiate settlement amounts, and never transfer a single rupee. Enable spam blocking on your smartphone (e.g., Truecaller / Google Phone spam protection). Once scammers realize you are legally fortified, unresponsive. Have warned your contact circle, they abandon the file within 3 to 5 days to target vulnerable victims.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Adopt complete. Uncompromising disengagement. Do not answer calls from unknown numbers. Do not settle closure amounts. And never transfer a single rupee. Enable spam blocking on your smartphone (e.g. Truecaller / Google Phone spam safety). Once scammers realize you are by law fortified. Unresponsive. Have warned your contact circle. They abandon the file within 3 to 5 days to target vulnerable victims. </p>
                 </div>
               </div>
             </section>
@@ -629,18 +547,10 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 7. Cyber Crime Complaint Architecture &amp; Evidentiary Preservation Framework
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                The institutional mechanism for prosecuting fake loan app syndicates requires strict compliance with evidentiary protocols under the Bharatiya Sakshya Adhiniyam, 2023 (BSA), formerly Section 65B of the Indian Evidence Act. When a victim approaches the cyber police or lodges an electronic petition on the National Cyber Crime Reporting Portal (cybercrime.gov.in), the administrative viability of the complaint depends on the precision of digital forensic logging. The complainant must methodically archive every transaction log, unedited chat export, network timestamp. APK manifest rather than submitting fragmented or cropped images.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                A legally sound cyber crime petition establishes the jurisdictional elements of digital extortion under Section 308 of the Bharatiya Nyaya Sanhita, 2023, while simultaneously invoking Section 66E for privacy infringement and Section 67A of the Information Technology Act for the circulation of sexually explicit content. By articulating that the transaction originated from an unauthorized non-banking entity operating in violation of the RBI Master Direction on Digital Lending (RBI/2022-23/111), the complaint legally categorizes the demanded payment not as a civil contractual debt. As extortionate proceeds of crime under the Prevention of Money Laundering Act (PMLA).
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                also, the complainant should formally request the Cyber Cell investigating officer to issue urgent notices under Section 91 of the Code of Criminal Procedure (Section 94 of BNSS) to the associated payment aggregators and telecom service providers. This statutory directive compels the immediate preservation of IP address logs, Virtual Payment Address (VPA) transaction histories. Call Detail Records (CDR) of the extortionist caller pool. Once an official Cyber Crime Acknowledgement Number is generated, it serves as an immutable legal shield against any fraudulent legal notices or synthetic arrest threats issued by the recovery operators.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                In instances where malicious recovery personnel have initiated contact with third-party acquaintances. This provides a certified copy of the cyber police acknowledgement to concerned family members immediately restores reputational integrity. Law enforcement authorities across multiple states—including Telangana, Maharashtra, Karnataka. Delhi Cyber Cells—have established dedicated special task forces to dismantle these multi-tier call center operations and initiate frozen asset recovery for affected citizens.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The bank mechanism for prosecuting fake loan app syndicates requires strict compliance with evidentiary protocols under the Bharatiya Sakshya Adhiniyam. 2023 (BSA). Formerly Section 65B of the Indian proof Act. When a victim approaches the online police or lodges an electronic petition on the National online Crime Reporting Portal (online crime.gov.in). The office viability of the reports depends on the precision of online deep logging. The complainant must methodically archive every transaction log. Unedited chat export. Network timestamp. APK manifest rather than submitting fragmented or cropped images. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> A by law sound online crime petition establishes the jurisdictional elements of online extortion under Section 308 of the Bharatiya Nyaya Sanhita. 2023. Meanwhile. Simultaneously invoking Section 66E for rights infringement and Section 67A of the Information Technology Act for the circulation of sexually explicit content. By articulating that the transaction originated from an banned non-banking entity operating in violation of the RBI Master Direction on online Lending (RBI/2022-23/111). The reports by law categorizes the demanded payment not as a civil contractual debt. As extortionate proceeds of crime under the Prevention of Money Laundering Act (PMLA). </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> also. The complainant should formally request the online Cell investigating staff to issue urgent notices under Section 91 of the Code of penal steps (Section 94 of BNSS) to the associated payment aggregators and telecom service providers. This legal directive compels the fast preservation of IP address logs. Virtual Payment Address (VPA) transaction histories. Call Detail Records (CDR) of the extortionist caller pool. Once an formal online Crime receipts Number is generated. It serves as an immutable legal shield against any fraudulent legal notices or synthetic arrest threats issued by the claims operators. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> In instances where malicious claims personnel have initiated contact with third-party acquaintances. This provides a certified copy of the online police receipts to concerned kin promptly restores reputational integrity. Law enforcement officials across multiple states. Including Telangana. Maharashtra. Karnataka. Delhi online Cells. have established dedicated special task forces to dismantle these multi-tier call center work and initiate frozen asset claims for affected citizens. </p>
             </section>
 
             {/* SECTION 9: 3-Tier Institutional Escalation Matrix */}
@@ -652,9 +562,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 8. The 3-Tier Escalation Matrix: From App Stores to RBI &amp; Cyber Police
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Execute a structured, multi-tier escalation across technical, policing, and central banking authorities to dismantle the syndicate:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Execute a structured. Multi-tier reports across technical. Policing. And central banking officials to dismantle the syndicate: </p>
 
               <div className="space-y-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -667,9 +575,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                   <h3 className="text-sm md:text-base font-bold text-slate-900">
                     Google Play Protect, Apple App Store &amp; MeitY Takedown Notices
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Submit an abuse report on the Google Play Store or Apple App Store flagging the app for malware, predatory lending. Privacy violations. If the app was installed via a third-party website, submit a URL takedown request to the Ministry of Electronics and Information Technology (MeitY) via. <strong>cert-in.org.in</strong>.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Submit an abuse report on the Google Play Store or Apple App Store flagging the app for malware. Predatory lending. rights abuse. If the app was installed via a third-party website. Submit a URL takedown request to the Ministry of Electronics and Information Technology (MeitY) via. <strong>cert-in.org.in</strong>. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -682,9 +588,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                   <h3 className="text-sm md:text-base font-bold text-slate-900">
                     Helpline 1930 &amp; cybercrime.gov.in Online Police FIR
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Lodge a formal electronic FIR on the National Cyber Crime Reporting Portal. Provide complete digital forensic evidence (call logs, UPI VPAs, WhatsApp screenshots). Contact your District Cyber Police Station or Cyber Crime Cell to request immediate freezing of the extortionists&apos. Mule accounts under Section 102 CrPC (Section 107 BNSS).
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Lodge a formal electronic FIR on the National online Crime Reporting Portal. Provide complete online deep proof (call logs. UPI VPAs. WhatsApp screenshots). Contact your areas online Police Station or online Crime Cell to request fast freezing of the extortionists&apos. Mule accounts under Section 102 CrPC (Section 107 BNSS). </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -697,9 +601,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                   <h3 className="text-sm md:text-base font-bold text-slate-900">
                     RBI Sachet Portal &amp; Integrated Banking Ombudsman (cms.rbi.org.in)
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Escalate unauthorized lending entities to the. <strong>RBI Sachet Portal (sachet.rbi.org.in).</strong>. If a regulated NBFC is found leasing its license or co-lending arrangement to an illegal entity in violation of RBI DLG, file a complaint on the RBI CMS portal for license cancellation and punitive sanctions.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Escalate banned lending entities to the. <strong>RBI Sachet Portal (sachet.rbi.org.in).</strong>. If a regulated NBFC is found leasing its license or joint loans arrangement to an banned entity in violation of RBI DLG. File a reports on the RBI CMS portal for license cancellation and punitive sanctions. </p>
                 </div>
               </div>
             </section>
@@ -713,9 +615,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 9. Chronological Resolution Milestones: What to Expect in 30 Days
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Understand the institutional timeline following total disengagement, preemptive contact broadcasting, and cyber crime lodgment:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Understand the bank timeline following total disengagement. Preemptive contact broadcasting. And online crime lodgment: </p>
 
               {/* TABLE WITH BOTH VERTICAL AND HORIZONTAL LINES (GRID) */}
               <div className="overflow-x-auto rounded-2xl border border-slate-300 bg-white shadow-xs">
@@ -731,33 +631,33 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                   <tbody className="text-slate-600">
                     <tr className="hover:bg-slate-50/70">
                       <td className="p-3.5 font-bold text-slate-900 border-r border-b border-slate-300">Day 0 (Initial Threat).</td>
-                      <td className="p-3.5 border-r border-b border-slate-300">Aggressive WhatsApp threats, fake police warrants, morphed photo previews.</td>
-                      <td className="p-3.5 border-r border-b border-slate-300">Capture screenshots, do not pay, revoke permissions, uninstall app.</td>
-                      <td className="p-3.5 border-b border-slate-300">Evidence locked; zero payment made.</td>
+                      <td className="p-3.5 border-r border-b border-slate-300">harsh WhatsApp threats. Fake police warrants. Morphed photo previews.</td>
+                      <td className="p-3.5 border-r border-b border-slate-300">Capture screenshots. Do not pay. Revoke permissions. Uninstall app.</td>
+                      <td className="p-3.5 border-b border-slate-300">proof locked. zero payment made.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/70">
-                      <td className="p-3.5 font-bold text-slate-900 border-r border-b border-slate-300">Days 1–2 (Peak Pressure).</td>
-                      <td className="p-3.5 border-r border-b border-slate-300">Calls from 10–20 virtual numbers; possible WhatsApp group attempts.</td>
-                      <td className="p-3.5 border-r border-b border-slate-300">Broadcast warning to contacts; lodge 1930 &amp; cybercrime.gov.in FIR.</td>
-                      <td className="p-3.5 border-b border-slate-300">Official Cyber Acknowledgement generated; social leverage broken.</td>
+                      <td className="p-3.5 font-bold text-slate-900 border-r border-b border-slate-300">Days 1. 2 (Peak Pressure).</td>
+                      <td className="p-3.5 border-r border-b border-slate-300">Calls from 10. 20 virtual numbers. possible WhatsApp group attempts.</td>
+                      <td className="p-3.5 border-r border-b border-slate-300">Broadcast warning to contacts. lodge 1930 &amp. online crime.gov.in FIR.</td>
+                      <td className="p-3.5 border-b border-slate-300">formal online receipts generated. social leverage broken.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/70">
-                      <td className="p-3.5 font-bold text-slate-900 border-r border-b border-slate-300">Days 3–5 (De-escalation).</td>
-                      <td className="p-3.5 border-r border-b border-slate-300">Call frequency drops by 80%; discount offers (&quot;Pay ₹1,000 and close&quot;).</td>
-                      <td className="p-3.5 border-r border-b border-slate-300">Maintain 100% blackout; do not respond to discount offers.</td>
+                      <td className="p-3.5 font-bold text-slate-900 border-r border-b border-slate-300">Days 3. 5 (De-reports).</td>
+                      <td className="p-3.5 border-r border-b border-slate-300">Call frequency drops by 80%. discount offers (&quot. Pay ₹1,000 and close&quot. ).</td>
+                      <td className="p-3.5 border-r border-b border-slate-300">Maintain 100% blackout. do not respond to discount offers.</td>
                       <td className="p-3.5 border-b border-slate-300">Scammers classify file as unrecoverable / hardened.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/70">
-                      <td className="p-3.5 font-bold text-slate-900 border-r border-b border-slate-300">Days 7–14 (Cessation).</td>
+                      <td className="p-3.5 font-bold text-slate-900 border-r border-b border-slate-300">Days 7. 14 (Cessation).</td>
                       <td className="p-3.5 border-r border-b border-slate-300">Occasional sporadic automated SMS or automated robocalls.</td>
-                      <td className="p-3.5 border-r border-b border-slate-300">Keep spam filters active; ignore all unsolicited micro-credits.</td>
-                      <td className="p-3.5 border-b border-slate-300">Syndicate closes tracking on borrower.</td>
+                      <td className="p-3.5 border-r border-b border-slate-300">Keep spam filters active. ignore all unsolicited micro-credits.</td>
+                      <td className="p-3.5 border-b border-slate-300">Syndicate closes tracking on client.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/70">
-                      <td className="p-3.5 font-bold text-slate-900 border-r border-slate-300">Days 30+ (Resolution).</td>
-                      <td className="p-3.5 border-r border-slate-300">Zero contact; complete cessation of harassment.</td>
-                      <td className="p-3.5 border-r border-slate-300">Check official CIBIL report (verify zero impact); resume normalcy.</td>
-                      <td className="p-3.5 text-emerald-700 font-bold">100% Harassment-Free; credit score completely intact.</td>
+                      <td className="p-3.5 font-bold text-slate-900 border-r border-slate-300">Days 30+ (relief).</td>
+                      <td className="p-3.5 border-r border-slate-300">Zero contact. complete cessation of abuse.</td>
+                      <td className="p-3.5 border-r border-slate-300">Check formal CIBIL report (verify zero impact). resume normalcy.</td>
+                      <td className="p-3.5 text-emerald-700 font-bold">100% abuse-Free. credit score completely intact.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -780,12 +680,8 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                     <ShieldAlert className="w-4 h-4 text-rose-600"/>
                     Scenario A: Morphed Obscene Photos Sent to Family Contacts
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    <strong>Challenge:</strong> The extortionist shares a sexually explicit morphed image of the borrower with their spouse, parents. Colleagues on WhatsApp.
-                  </p>
-                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed font-semibold">
-                    <strong>Solution:</strong> File an immediate complaint under Section 67A of the IT Act (non-bailable offense) on cybercrime.gov.in. Provide your family with the FIR acknowledgement. WhatsApp allows immediate reporting of the offending number for child exploitation/nudity violations, triggering automated device bans by Meta.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> <strong>Challenge:</strong> The extortionist shares a sexually explicit morphed image of the client with their spouse. Parents. Colleagues on WhatsApp. </p>
+                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed font-semibold"> <strong>Solution:</strong> File an fast reports under Section 67A of the IT Act (non-bailable offense) on online crime.gov.in. Provide your kin with the FIR receipts. WhatsApp allows fast reporting of the offending number for child exploitation/nudity violations. Triggering automated device bans by Meta. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -793,12 +689,8 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                     <Gavel className="w-4 h-4 text-amber-600"/>
                     Scenario B: Fake Police Warrants, CBI Notices &amp; Court Summons
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    <strong>Challenge:</strong> Scammers send high-resolution PDF documents bearing the Indian National Emblem, Supreme Court seals. Delhi Police letterheads demanding immediate payment to avoid arrest.
-                  </p>
-                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed font-semibold">
-                    <strong>Solution:</strong> Indian police and judicial courts never serve legal summons via WhatsApp demanding UPI transfers. Forging government emblems is a cognizable felony under the State Emblem of India (Prohibition of Improper Use) Act, 2005 and Section 336 BNS. Report the forgery directly to the cyber cell.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> <strong>Challenge:</strong> Scammers send high-relief PDF papers bearing the Indian National Emblem. Supreme Court seals. Delhi Police letterheads demanding fast payment to avoid arrest. </p>
+                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed font-semibold"> <strong>Solution:</strong> Indian police and court courts never serve legal summons via WhatsApp demanding UPI transfers. Forging state emblems is a cognizable felony under the State Emblem of India (Prohibition of Improper Use) Act. 2005 and Section 336 BNS. Report the forgery straight to the online cell. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -806,12 +698,8 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                     <RefreshCw className="w-4 h-4 text-purple-600"/>
                     Scenario C: Unsolicited Micro-Credits Credited Without Consent
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    <strong>Challenge:</strong> After uninstalling the app, an unknown account deposits ₹1,500 or ₹2,000 into your bank account and demands ₹4,000 seven days later.
-                  </p>
-                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed font-semibold">
-                    <strong>Solution:</strong> Immediately notify your bank in writing that an unsolicited credit was deposited by an unknown party and request them to place the funds in a suspense account or return to remitter. File a cyber complaint stating forced micro-crediting. Never pay the demanded penalty.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> <strong>Challenge:</strong> After uninstalling the app. An unknown account deposits ₹1,500 or ₹2,000 into your bank account and demands ₹4,000 seven days later. </p>
+                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed font-semibold"> <strong>Solution:</strong> promptly notify your bank in writing that an unsolicited credit was deposited by an unknown party and request them to place the funds in a suspense account or return to remitter. File a online reports stating forced micro-crediting. Never pay the demanded penalty. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -819,12 +707,8 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                     <Smartphone className="w-4 h-4 text-[#1886ff]"/>
                     Scenario D: Multi-App Entrapment Loop (Overlapping 7-Day Apps)
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    <strong>Challenge:</strong> The borrower downloaded 8 to 15 different apps to repay previous apps. This leads to ₹2 Lakhs in rolling daily extortion demands.
-                  </p>
-                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed font-semibold">
-                    <strong>Solution:</strong> Stop the chain immediately. Do not borrow from App B to pay App A. Execute an across-the-board total financial disengagement, broadcast your security warning. File a consolidated cyber petition listing all app names, APKs, and UPI VPA IDs.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> <strong>Challenge:</strong> The client downloaded 8 to 15 different apps to repay previous apps. This leads to ₹2 Lakhs in rolling daily extortion demands. </p>
+                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed font-semibold"> <strong>Solution:</strong> Stop the chain promptly. Do not borrow from App B to pay App A. Execute an across-the-board total money disengagement. Broadcast your pledge warning. File a consolidated online petition listing all app names. APKs. UPI VPA IDs. </p>
                 </div>
               </div>
             </section>
@@ -867,9 +751,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Official Cyber Crime &amp; Regulatory Resource Directory
               </h2>
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                Official government portals, statutory reporting databases, and central banking complaint channels:
-              </p>
+              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> formal state portals. Legal reporting databases. And central banking reports channels: </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 pt-1 text-xs">
                 <a href="https://cybercrime.gov.in" target="_blank" rel="noopener noreferrer" className="p-3.5 bg-white rounded-xl border border-slate-200/80 hover:border-blue-300 hover:shadow-xs transition-all flex items-start gap-2.5 group">
@@ -976,12 +858,10 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                 </div>
                 <div>
                   <p className="font-bold text-slate-900 text-sm sm:text-base">Ashish Jhangra</p>
-                  <p className="text-xs text-slate-500 font-medium">Legal &amp; Debt Resolution Professional.</p>
+                  <p className="text-xs text-slate-500 font-medium">Legal &amp. Debt relief expert.</p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
-                Specialist in cyber debt harassment defense, statutory digital lending compliance, and RBI Ombudsman resolution frameworks across India.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed border-t border-slate-100 pt-3"> Specialist in online debt abuse defense. Legal online lending compliance. And RBI staff relief rules across India. </p>
             </div>
 
             {/* Card 2: Emergency CTA Card */}
@@ -990,12 +870,8 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                 <Lock className="w-3 h-3 text-white"/>
                 <span>100% Confidential Support.</span>
               </div>
-              <p className="text-lg sm:text-xl font-black leading-tight">
-                Facing Fake Loan App Blackmail?
-              </p>
-              <p className="text-xs text-white/90 leading-relaxed">
-                Do not pay extortion money. Get instant institutional legal protection, cyber FIR filing assistance, and stop harassment calls permanently.
-              </p>
+              <p className="text-lg sm:text-xl font-black leading-tight"> Facing Fake Loan App Blackmail? </p>
+              <p className="text-xs text-white/90 leading-relaxed"> Do not pay extortion money. Get instant bank legal safety. online FIR filing assistance. And stop abuse calls permanently. </p>
               <Link href="/contact" className="w-full py-3 bg-white text-blue-900 hover:text-[#1886ff] hover:bg-slate-50 rounded-xl font-extrabold text-xs sm:text-sm text-center block transition-all shadow-sm">
                 Stop Digital Harassment: File a Complaint
               </Link>
@@ -1011,22 +887,10 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs text-slate-600">
               <p className="font-bold text-slate-900 text-sm">CredSettle Trust Commitments.</p>
               <ul className="space-y-2.5">
-                <li className="flex items-start gap-2">
-                  <Check className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Zero Upfront Risk:</strong> 100% transparent legal advisory and protection.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Direct Bank Remittance:</strong> No mediator accounts; 100% legitimate settlement.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>RBI &amp; CICRA Compliance:</strong> Direct enforcement of central banking norms.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Pan-India Representation:</strong> Dedicated debt resolution specialists.</span>
-                </li>
+                <li className="flex items-start gap-2"> <Check className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Zero Upfront Risk:</strong> 100% transparent legal alert and safety.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Direct Bank Remittance:</strong> No mediator accounts. 100% legitimate closure.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>RBI &amp. CICRA Compliance:</strong> Direct enforcement of central banking norms.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Pan-India legal help:</strong> Dedicated debt relief specialists.</span> </li>
               </ul>
             </div>
 
@@ -1035,23 +899,17 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
               <p className="font-bold text-slate-900 text-sm">Related Legal Guides.</p>
               <div className="space-y-2.5">
                 <Link href="/7-day-loan-app-harassment-morphed-photos" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    7 Day Loan App Harassment.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> 7 Day Loan App abuse. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Morphed photos &amp; cyber defense &rarr;.</span>
                 </Link>
 
                 <Link href="/rbi-rules-for-recovery-agents" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    RBI Rules for Recovery Agents.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> RBI Rules for claims staff. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Legal timing &amp; harassment bounds &rarr;.</span>
                 </Link>
 
                 <Link href="/stop-recovery-agent-harassment" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Stop Recovery Agent Harassment.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Stop claims staff abuse. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Complete protection protocol &rarr;.</span>
                 </Link>
               </div>

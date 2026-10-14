@@ -47,43 +47,43 @@ export default function EducationLoanSettlementClient() {
     const faqs = [
         {
             q: 'Can education loans be settled through a One-Time Settlement (OTS) in India?',
-            a: "Yes. When student borrowers face genuine post-graduation financial distress. Examples include prolonged unemployment or health crises, Indian banks and NBFCs can sanction an OTS to write off interest and accept a reduced principal lump sum."
+            a: "Yes. When student clients face genuine post-graduation debt stress. Examples include prolonged unemployment or health crises. Indian banks and NBFCs can sanction an OTS to write off rates and accept a reduced main loan lump sum."
         },
         {
             q: 'What is the difference between collateralized and non-collateralized education loans under default?',
-            a: 'Loans under ₹7.5 Lakhs are generally non-collateralized and backed by CGFSEL guarantee cover, limiting recovery to unsecured claims. Collateralized loans above ₹7.5 Lakhs involve pledged property, which lenders can attach under SARFAESI if unpaid.'
+            a: 'Loans under ₹7.5 Lakhs are generally non-collateralized and backed by CGFSEL guarantee cover. Limiting claims to no-pledge claims. Collateralized loans above ₹7.5 Lakhs involve pledged home. This lenders can attach under SARFAESI if unpaid.'
         },
         {
             q: 'How does the Credit Guarantee Fund Scheme for Educational Loans (CGFSEL) affect loan settlement?',
-            a: 'CGFSEL provides banks with up to 75% credit risk cover on eligible defaulted loans up to ₹7.5 Lakhs. Because banks can claim fund compensation, they possess greater flexibility to negotiate compromise settlements with distressed students.'
+            a: 'CGFSEL provides banks with up to 75% credit risk cover on eligible defaulted loans up to ₹7.5 Lakhs. Because banks can claim fund payout. They possess greater flexibility to settle OTS deals with distressed students.'
         },
         {
             q: 'Are parents and co-borrowers legally liable for education loan default?',
-            a: 'Yes. Parents who sign as co-borrowers share joint and several liability under Section 128 of the Indian Contract Act 1872, exposing their credit scores and income to recovery proceedings until a formal compromise is executed.'
+            a: 'Yes. Parents who sign as co-clients share joint and several debt risk under Section 128 of the Indian Contract Act 1872. Exposing their credit scores and income to claims steps until a formal OTS deal is executed.'
         },
         {
             q: 'Can I request a moratorium extension if I have not secured employment after graduation?',
-            a: "Yes. Under IBA Model Educational Loan guidelines, graduates unable to secure placement can formally petition their lender for a moratorium extension of 6 to 12 months before the account is classified as overdue."
+            a: "Yes. Under IBA Model Educational Loan rules. Graduates unable to secure placement can formally petition their lender for a moratorium extension of 6 to 12 months before the account is classified as late."
         },
         {
             q: 'How much waiver can borrowers typically expect in an education loan OTS?',
-            a: "In verified hardship cases where graduate earning capacity is impaired, credit committees routinely waive 100% of penalty charges and accumulated compound interest, alongside a 35% to 55% discount on the core principal balance."
+            a: "In checked hardship cases where graduate earning capacity is impaired. Credit boards routinely waive 100% of penalty charges and total growing fees. Alongside a 35% to 55% discount on the core base loan."
         },
         {
             q: 'What happens to my CIBIL score and my co-borrower parent\'s score after settlement?',
-            a: 'The loan status updates to Settled across credit bureaus, arresting negative overdue reporting. While scores temporarily decline, borrowers can rebuild their CIBIL score to 750+ within 12 to 24 months through disciplined credit repair.'
+            a: 'The loan status updates to Settled across credit bureaus. Arresting negative late reporting. While scores temporarily decline. Clients can rebuild their CIBIL score to 750+ within 12 to 24 months through disciplined credit repair.'
         },
         {
             q: 'Can banks initiate legal proceedings or send recovery agents to my workplace?',
-            a: 'Lenders may issue statutory notices under Section 138 NI Act or Section 25 PSSA for unpaid mandates. However, recovery agent harassment, intimidation, and workplace visits violate the RBI Fair Practices Code and are strictly actionable.'
+            a: 'Lenders may issue legal notices under Section 138 NI Act or Section 25 PSSA for unpaid mandates. However. Claims agent abuse. Threats. And workplace visits violate the RBI Fair Practices Code and are strictly actionable.'
         },
         {
             q: 'Can education loans for overseas studies be settled if foreign employment falls through?',
-            a: "Yes. Overseas education loans from Indian banks or NBFCs are eligible for OTS. showing visa expiration, lack of foreign job placement. Currency repatriation distress helps establish genuine hardship for principal concessions."
+            a: "Yes. Overseas education loans from Indian banks or NBFCs are eligible for OTS. Showing visa expiration. Lack of foreign job placement. Currency repatriation distress helps establish genuine hardship for main loan concessions."
         },
         {
             q: 'What documents are essential to negotiate an education loan settlement?',
-            a: "Essential documents include graduation completion certificates, proof of job search or termination, bank account statements proving insufficient income, medical records if applicable. A formal written hardship petition addressed to the bank."
+            a: "Essential papers include graduation completion letters. Proof of job search or termination. Bank account records proving insufficient income. health records if applicable. A formal written hardship petition addressed to the bank."
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -99,9 +99,7 @@ export default function EducationLoanSettlementClient() {
             Education Loan Settlement in India
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed">
-            Resolve defaulted student debt under IBA guidelines and CGFSEL cover. Protect parent co-borrowers from CIBIL damage, stop recovery harassment. Negotiate 35% to 55% principal waivers when post-study employment fails.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed"> Resolve defaulted student debt under IBA rules and CGFSEL cover. Protect parent co-clients from CIBIL damage. Stop claims abuse. settle 35% to 55% main loan waivers when post-study jobs fails. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -144,9 +142,7 @@ export default function EducationLoanSettlementClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>Student Debt Protection.</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Governed by IBA Model Scheme, CGFSEL Guidelines, Indian Contract Act 1872, and RBI Fair Practices Code.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by IBA Model Scheme. CGFSEL rules. Indian Contract Act 1872. And RBI Fair Practices Code. </p>
               </div>
             </div>
           </aside>
@@ -162,9 +158,7 @@ export default function EducationLoanSettlementClient() {
                   Executive Summary: Student Debt Resolution &amp; Co-Borrower Shield
                 </h2>
               </div>
-              <p className="text-xs md:text-sm text-slate-700 leading-relaxed font-normal">
-                Defaulting on an educational loan creates severe stress across Indian families because parents almost universally sign as joint co-borrowers. When campus placements fail, layoffs occur, or foreign work visas expire, servicing EMIs becomes unviable. Under Indian banking regulations, borrowers can execute a structured One-Time Settlement (OTS) rather than facing perpetual debt.
-              </p>
+              <p className="text-xs md:text-sm text-slate-700 leading-relaxed font-normal"> Defaulting on an educational loan creates severe stress across Indian families because parents almost universally sign as joint co-clients. When campus placements fail. Layoffs occur. Or foreign work visas expire. Servicing EMIs becomes unviable. Under Indian banking regulations. Clients can execute a structured One-Time settlement (OTS) rather than facing perpetual debt. </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5 pt-1">
                 <div className="flex items-start gap-2 text-xs md:text-sm text-slate-700">
                   <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
@@ -209,15 +203,9 @@ export default function EducationLoanSettlementClient() {
                   1. Debt Economics &amp; Educational NPA Classification Dynamics
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Educational loans in India carry distinct credit dynamics because they are sanctioned on expected future earnings rather than tangible balance sheets. When students face hiring freezes or currency repatriation distress, loan servicing breaks down once the course moratorium expires.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Under RBI prudential norms, overdue accounts advance through Special Mention Account buckets: SMA-0 (1-30 days overdue), SMA-1 (31-60 days). SMA-2 (61-90 days). On the 91st day, the loan is classified as a Non-Performing Asset (NPA), requiring mandatory 15% to 100% provisioning against bank Tier-1 capital.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                For non-collateralized loans under ₹7.5 Lakhs backed by the Credit Guarantee Fund Scheme for Educational Loans (CGFSEL), lenders cannot invoke SARFAESI property attachment. Knowing civil recovery takes years in court, credit committees prefer an OTS to recover capital promptly and clear balance sheets.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Educational loans in India carry distinct credit dynamics because they are sanctioned on expected future earnings rather than tangible balance sheets. When students face hiring freezes or currency repatriation distress. Loan servicing breaks down once the course moratorium expires. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Under RBI prudential norms. late accounts advance through Special Mention Account buckets: SMA-0 (1-30 days late). SMA-1 (31-60 days). SMA-2 (61-90 days). On the 91st day. The loan is classified as a Non-Performing Asset (NPA). Requiring strict 15% to 100% bank reserves against bank Tier-1 cash. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> For non-collateralized loans under ₹7.5 Lakhs backed by the Credit Guarantee Fund Scheme for Educational Loans (CGFSEL). Lenders cannot invoke SARFAESI home attachment. Knowing civil claims takes years in court. Credit boards prefer an OTS to recover cash promptly and clear balance sheets. </p>
             </section>
 
             {/* SECTION 2: FINANCIAL BREAKDOWN & SETTLEMENT MATH */}
@@ -228,9 +216,7 @@ export default function EducationLoanSettlementClient() {
                   2. Principal vs Penal Interest Breakdown &amp; OTS Financial Math
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Student loan debt escalates rapidly during default due to accrued moratorium interest and punitive penalty charges of 24% to 36% per annum. However, RBI Fair Practices Code rules prohibit capitalizing penalty charges into core principal. A forensic ledger audit strips unauthorized levies, establishing the true settlement baseline.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Student loan debt escalates rapidly during default due to accrued moratorium rates and punitive penalty charges of 24% to 36% per annum. However. RBI Fair Practices Code rules prohibit capitalizing penalty charges into core main loan. A deep ledger audit strips banned levies. Establishing the true settlement baseline. </p>
               
               {/* Financial Calculation Card */}
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 md:p-6 space-y-4">
@@ -279,9 +265,7 @@ export default function EducationLoanSettlementClient() {
                     </div>
                   </div>
                 </div>
-                <p className="text-xs text-slate-600 leading-relaxed">
-                  Documenting unemployment proves to credit committees that an immediate ₹8.25 Lakh lump sum offers superior recovery over uncollectible debt.
-                </p>
+                <p className="text-xs text-slate-600 leading-relaxed"> Documenting unemployment proves to credit boards that an fast ₹8.25 Lakh lump sum offers superior claims over uncollectible debt. </p>
               </div>
             </section>
 
@@ -293,9 +277,7 @@ export default function EducationLoanSettlementClient() {
                   3. Student Debt Resolution Pathways: Strategic Comparative Matrix
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Evaluating available legal and financial avenues allows graduates and parents to select the most viable debt resolution strategy.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Evaluating available legal and money avenues allows graduates and parents to select the most viable debt relief plan. </p>
 
               {/* 4-Sided Bordered Table */}
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
@@ -311,29 +293,29 @@ export default function EducationLoanSettlementClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-700">
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/80 transition-colors">
-                      <td className="p-3.5 md:p-4 font-semibold text-slate-900">One Time Settlement (OTS).</td>
-                      <td className="p-3.5 md:p-4 text-emerald-600 font-semibold">35% to 55% Principal + 100% Fees.</td>
+                      <td className="p-3.5 md:p-4 font-semibold text-slate-900">One Time settlement (OTS).</td>
+                      <td className="p-3.5 md:p-4 text-emerald-600 font-semibold">35% to 55% main loan + 100% Fees.</td>
                       <td className="p-3.5 md:p-4">30 to 90 Days</td>
                       <td className="p-3.5 md:p-4 text-emerald-700 font-medium">Full discharge via NDC.</td>
-                      <td className="p-3.5 md:p-4">Settled tag, repairable in 12-24m.</td>
+                      <td className="p-3.5 md:p-4">Settled tag. Repairable in 12-24m.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/80 transition-colors">
                       <td className="p-3.5 md:p-4 font-semibold text-slate-900">Moratorium Extension.</td>
                       <td className="p-3.5 md:p-4 text-amber-600 font-medium">0% Haircut (Tenure elongation).</td>
                       <td className="p-3.5 md:p-4">60 to 120 Days</td>
-                      <td className="p-3.5 md:p-4 text-amber-700">Parental liability continues.</td>
+                      <td className="p-3.5 md:p-4 text-amber-700">Parental debt risk continues.</td>
                       <td className="p-3.5 md:p-4">Restructured tag.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/80 transition-colors">
-                      <td className="p-3.5 md:p-4 font-semibold text-slate-900">DRT / Court Litigation.</td>
+                      <td className="p-3.5 md:p-4 font-semibold text-slate-900">DRT / Court lawsuits.</td>
                       <td className="p-3.5 md:p-4 text-slate-600">Uncertain decree.</td>
                       <td className="p-3.5 md:p-4 text-rose-600 font-medium">3 to 7 Years</td>
                       <td className="p-3.5 md:p-4 text-rose-700">Persistent parental asset threat.</td>
                       <td className="p-3.5 md:p-4 text-rose-600">Suit Filed tag</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/80 transition-colors">
-                      <td className="p-3.5 md:p-4 font-semibold text-slate-900">Lok Adalat Conciliation.</td>
-                      <td className="p-3.5 md:p-4 text-emerald-600 font-medium">15% to 35% Interest Waivers.</td>
+                      <td className="p-3.5 md:p-4 font-semibold text-slate-900">Lok Adalat talks.</td>
+                      <td className="p-3.5 md:p-4 text-emerald-600 font-medium">15% to 35% rates Waivers.</td>
                       <td className="p-3.5 md:p-4">Single Session</td>
                       <td className="p-3.5 md:p-4">Enforceable consent award.</td>
                       <td className="p-3.5 md:p-4">Lok Adalat Settled tag.</td>
@@ -343,7 +325,7 @@ export default function EducationLoanSettlementClient() {
                       <td className="p-3.5 md:p-4 text-rose-600 font-semibold">0% (Debt compounds).</td>
                       <td className="p-3.5 md:p-4">Indefinite</td>
                       <td className="p-3.5 md:p-4 text-rose-700">Severe asset attachment risk.</td>
-                      <td className="p-3.5 md:p-4 text-rose-700 font-bold">Score crashes (&lt;550).</td>
+                      <td className="p-3.5 md:p-4 text-rose-700 font-bold">Score crashes (&lt. 550).</td>
                     </tr>
                   </tbody>
                 </table>
@@ -358,15 +340,9 @@ export default function EducationLoanSettlementClient() {
                   4. Technical CIBIL Algorithm &amp; Co-Borrower Scoring Dynamics
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Credit bureaus evaluate education loans against both the primary student and the co-borrowing parent. TransUnion CIBIL scoring calculates creditworthiness across five weighted factors: Payment History (35%), Credit Exposure (30%), History Length (15%), Credit Mix (10%). Inquiries (10%).
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Default triggers concurrent Days Past Due (DPD) reporting on both files, slashing scores by 150 to 250 points and paralyzing parental access to emergency credit.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                An executed OTS stops negative DPD reporting immediately. Under Section 21 of the Credit Information Companies (Regulation) Act (CICRA) 2005, borrowers can update bureau records with their No Dues Certificate, allowing systematic credit score recovery back to 750+ within 12 to 24 months.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Credit bureaus evaluate education loans against both the primary student and the co-borrowing parent. TransUnion CIBIL scoring calculates creditworthiness across five weighted factors: Payment History (35%). Credit Exposure (30%). History Length (15%). Credit Mix (10%). Inquiries (10%). </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Default triggers concurrent Days Past Due (DPD) reporting on both files. Slashing scores by 150 to 250 points and paralyzing parental access to crisis credit. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> An executed OTS stops negative DPD reporting promptly. Under Section 21 of the Credit Information firms (Regulation) Act (CICRA) 2005. Clients can update CIBIL desk records with their No Dues letter. This allows systematic credit score claims back to 750+ within 12 to 24 months. </p>
             </section>
 
             {/* SECTION 5: VISUAL INFOGRAPHIC ASSET CARD */}
@@ -399,9 +375,7 @@ export default function EducationLoanSettlementClient() {
                   6. Step-by-Step SOP: 6 Stages of Education Loan Compromise
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Following this structured 6-stage Standard Operating Procedure ensures student debt is resolved lawfully while protecting parental assets.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Following this structured 6-stage Standard Operating steps ensures student debt is resolved lawfully while protecting parental assets. </p>
 
               <div className="space-y-3.5 text-sm md:text-base text-slate-700 leading-relaxed">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -409,9 +383,7 @@ export default function EducationLoanSettlementClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] font-bold text-xs flex items-center justify-center">1</span>
                     Stage 1: Forensic Loan &amp; CGFSEL Audit
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Counsel examines sanction letters, interest compounding during moratoriums, and verifies CGFSEL guarantee coverage to establish co-borrower exposure limits.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Counsel examines sanction letters. rates growing during moratoriums. And verifies CGFSEL guarantee coverage to establish co-client exposure limits. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -419,9 +391,7 @@ export default function EducationLoanSettlementClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] font-bold text-xs flex items-center justify-center">2</span>
                     Stage 2: Hardship Dossier Compilation
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    The borrower compiles proof of unemployment, placement rejection records, medical summaries, and 12-month bank statements showing financial insolvency.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> The client compiles proof of unemployment. Placement rejection records. Health summaries. And 12-month bank records showing money ruin. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -429,9 +399,7 @@ export default function EducationLoanSettlementClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] font-bold text-xs flex items-center justify-center">3</span>
                     Stage 3: Statutory Legal Notice Defense
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    When lenders issue Section 25 PSSA or Section 138 notices, counsel submits formal legal responses within 15-30 days to halt harassment.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> When lenders issue Section 25 PSSA or Section 138 notices. Counsel submits formal legal responses within 15-30 days to halt abuse. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -439,9 +407,7 @@ export default function EducationLoanSettlementClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] font-bold text-xs flex items-center justify-center">4</span>
                     Stage 4: Credit Committee Representation
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Formal OTS petitions are submitted to the Stressed Assets Desk, proving that a 35% to 55% cash settlement maximizes net recovery.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Formal OTS petitions are submitted to the Stressed Assets Desk. Proving that a 35% to 55% cash settlement maximizes net claims. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -449,9 +415,7 @@ export default function EducationLoanSettlementClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] font-bold text-xs flex items-center justify-center">5</span>
                     Stage 5: Settlement Sanction Letter Vetting
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Attorneys review the bank formal OTS letter to ensure 100% penal waiver and full discharge of parental guarantees under Section 128.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Attorneys review the bank formal OTS letter to ensure 100% penal waiver and full discharge of parental guarantees under Section 128. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -459,9 +423,7 @@ export default function EducationLoanSettlementClient() {
                     <span className="w-6 h-6 rounded-full bg-emerald-100 text-emerald-600 font-bold text-xs flex items-center justify-center">6</span>
                     Stage 6: Remittance &amp; No Dues Certificate
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Funds are remitted directly to the loan account via RTGS, securing an unconditional No Dues Certificate and updated credit bureau files.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Funds are remitted straight to the loan account via RTGS. Securing an full No Dues letter and updated CIBIL desk files. </p>
                 </div>
               </div>
             </section>
@@ -474,9 +436,7 @@ export default function EducationLoanSettlementClient() {
                   7. Statutory Notice Defense &amp; Borrower Legal Rights
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Understanding statutory instruments enables borrowers to defend against aggressive recovery and assert their consumer protections under Indian law.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Understanding legal instruments enables clients to defend against harsh claims and assert their clients protections under Indian law. </p>
 
               <div className="space-y-3.5 text-xs md:text-sm text-slate-700 leading-relaxed">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -484,9 +444,7 @@ export default function EducationLoanSettlementClient() {
                     <ShieldAlert className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
                     <span>Section 25 Payment &amp; Settlement Systems Act (PSSA).</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">
-                    For failed NACH mandates, legal defense establishes that dishonour stemmed from genuine unemployment without criminal intent, confirming willingness to settle.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> For failed NACH mandates. Legal defense establishes that dishonour stemmed from genuine unemployment without penal intent. Confirming willingness to settle. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -494,9 +452,7 @@ export default function EducationLoanSettlementClient() {
                     <FileText className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
                     <span>Section 138 Negotiable Instruments Act (Cheque Dishonour).</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">
-                    For bounced security cheques, counsel shows that security instruments deposited without reconciled debt amounts cannot support criminal prosecution.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> For bounced pledge cheques. Counsel shows that pledge instruments deposited without reconciled debt amounts cannot support penal legal steps. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -504,9 +460,7 @@ export default function EducationLoanSettlementClient() {
                     <Scale className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
                     <span>Section 21 Arbitration Act &amp; Perkins Precedent.</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">
-                    Lenders cannot unilaterally appoint sole arbitrators. Unilateral arbitral proceedings are challenged under Section 12(5) of the Arbitration Act.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> Lenders cannot unilaterally appoint sole arbitrators. Unilateral arbitral steps are challenged under Section 12(5) of the hearing Act. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -514,9 +468,7 @@ export default function EducationLoanSettlementClient() {
                     <ShieldCheck className="w-4 h-4 text-emerald-600 flex-shrink-0"/>
                     <span>DRT Jurisdiction &amp; Fair Practices Code.</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">
-                    DRT proceedings under Section 19 RDBFI Act require claims exceeding ₹20 Lakhs. The RBI Fair Practices Code strictly prohibits agent visits to workplaces or harassment.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> DRT steps under Section 19 RDBFI Act require claims exceeding ₹20 Lakhs. The RBI Fair Practices Code strictly prohibits agent visits to workplaces or abuse. </p>
                 </div>
               </div>
             </section>
@@ -529,9 +481,7 @@ export default function EducationLoanSettlementClient() {
                   8. 3-Tier Institutional Grievance &amp; Escalation Matrix
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When bank branches stall settlement talks or engage in coercive tactics, borrowers can use the RBI statutory grievance framework.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When bank branches stall talks or engage in coercive tactics. Clients can use the RBI legal grievance rules. </p>
 
               <div className="space-y-3.5 text-xs md:text-sm text-slate-700 leading-relaxed">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -539,9 +489,7 @@ export default function EducationLoanSettlementClient() {
                     <h3 className="font-bold text-slate-900 text-sm">Tier 1: Bank Internal Grievance Redressal Officer (GRO)</h3>
                     <span className="text-[11px] font-bold text-[#1886ff] bg-blue-50 px-2.5 py-1 rounded-full">7-10 Days</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">
-                    File a written complaint regarding improper fee capitalization or agent harassment, required to be addressed within 7 to 10 days.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> File a written reports regarding improper fee capitalization or agent abuse. Required to be addressed within 7 to 10 days. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -549,9 +497,7 @@ export default function EducationLoanSettlementClient() {
                     <h3 className="font-bold text-slate-900 text-sm">Tier 2: Bank Principal Nodal Officer (PNO)</h3>
                     <span className="text-[11px] font-bold text-[#1886ff] bg-blue-50 px-2.5 py-1 rounded-full">14-21 Days</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">
-                    Escalate deadlocked negotiations to the zonal Principal Nodal Officer for credit committee intervention within 14 to 21 days.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> Escalate deadlocked talks to the zonal main loan Nodal agents for credit boards intervention within 14 to 21 days. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -559,9 +505,7 @@ export default function EducationLoanSettlementClient() {
                     <h3 className="font-bold text-slate-900 text-sm">Tier 3: RBI Integrated Ombudsman Scheme</h3>
                     <span className="text-[11px] font-bold text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded-full">cms.rbi.org.in</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">
-                    Lodge a statutory complaint on cms.rbi.org.in for Fair Practices Code violations or delays in issuing No Dues Certificates.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> Lodge a legal reports on cms.rbi.org.in for Fair Practices Code violations or delays in issuing No Dues letters. </p>
                 </div>
               </div>
             </section>
@@ -574,9 +518,7 @@ export default function EducationLoanSettlementClient() {
                   9. Chronological Resolution Timeline: From Delinquency to Clean NDC
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                An education loan settlement progresses across five operational milestones over six months.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> An education loan settlement progresses across five daily work milestones over six months. </p>
 
               {/* 4-Sided Bordered Timeline Table */}
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
@@ -599,26 +541,26 @@ export default function EducationLoanSettlementClient() {
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/80 transition-colors">
                       <td className="p-3.5 md:p-4 font-semibold text-slate-900">Days 31 to 90</td>
                       <td className="p-3.5 md:p-4 text-amber-700 font-medium">SMA-1 / SMA-2</td>
-                      <td className="p-3.5 md:p-4">Recall notices and co-borrower calls.</td>
+                      <td className="p-3.5 md:p-4">Recall notices and co-client calls.</td>
                       <td className="p-3.5 md:p-4">Compile hardship dossier and audit ledger.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/80 transition-colors">
                       <td className="p-3.5 md:p-4 font-semibold text-slate-900">Day 91+</td>
                       <td className="p-3.5 md:p-4 text-rose-700 font-semibold">NPA Classification.</td>
-                      <td className="p-3.5 md:p-4">Mandatory bank provisioning.</td>
+                      <td className="p-3.5 md:p-4">strict bank bank reserves.</td>
                       <td className="p-3.5 md:p-4">Submit formal OTS proposal.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/80 transition-colors">
                       <td className="p-3.5 md:p-4 font-semibold text-slate-900">Month 4 to 5</td>
-                      <td className="p-3.5 md:p-4 text-purple-700 font-medium">Active Negotiation.</td>
-                      <td className="p-3.5 md:p-4">Statutory legal notices issued.</td>
-                      <td className="p-3.5 md:p-4">File formal legal replies and negotiate haircut.</td>
+                      <td className="p-3.5 md:p-4 text-purple-700 font-medium">Active talks.</td>
+                      <td className="p-3.5 md:p-4">legal legal notices issued.</td>
+                      <td className="p-3.5 md:p-4">File formal legal replies and settle haircut.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/80 transition-colors">
                       <td className="p-3.5 md:p-4 font-semibold text-slate-900">Month 6</td>
                       <td className="p-3.5 md:p-4 text-emerald-700 font-bold">Debt Discharged</td>
                       <td className="p-3.5 md:p-4">Bank issues OTS sanction letter.</td>
-                      <td className="p-3.5 md:p-4">pay funds, obtain NDC and update CIBIL.</td>
+                      <td className="p-3.5 md:p-4">Pay funds. Obtain NDC and update CIBIL.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -633,37 +575,27 @@ export default function EducationLoanSettlementClient() {
                   10. Specialized Real-World Student Debt Scenarios &amp; Case Commentary
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Addressing specific educational debt situations requires tailored legal and financial resolution strategies.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Addressing local educational debt situations requires tailored legal and money relief plans. </p>
 
               <div className="space-y-3.5 text-xs md:text-sm text-slate-700 leading-relaxed">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
                   <h3 className="font-bold text-slate-900 text-sm">Multi-Lender &amp; Fintech Stacking</h3>
-                  <p className="text-slate-600 leading-relaxed">
-                    Resolving supplementary fintech loans requires synchronized negotiations to secure uniform principal waivers across all creditors.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> Resolving supplementary fintech loans requires synchronized talks to secure uniform main loan waivers across all lenders. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
                   <h3 className="font-bold text-slate-900 text-sm">Overseas Study Default &amp; Visa Expiration</h3>
-                  <p className="text-slate-600 leading-relaxed">
-                    showing post-study visa expiry and forced return to lower domestic salary levels provides justification for deep principal haircuts.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> showing post-study visa expiry and forced return to lower domestic salary levels provides justification for deep main loan haircuts. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
                   <h3 className="font-bold text-slate-900 text-sm">Parental Pension &amp; Asset Protection</h3>
-                  <p className="text-slate-600 leading-relaxed">
-                    Invoking Section 60 CPC protects parental retirement pensions and agricultural assets from unlawful recovery attachment.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> Invoking Section 60 CPC protects parental retirement pensions and farm assets from unlawful claims attachment. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
                   <h3 className="font-bold text-slate-900 text-sm">ARC Debt Assignments</h3>
-                  <p className="text-slate-600 leading-relaxed">
-                    Stressed student loans sold to Asset Reconstruction Companies at discounts allow aggressive compromise settlements with 50% to 70% waivers.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> Stressed student loans sold to Asset Reconstruction firms at discounts allow harsh OTS deals with 50% to 70% waivers. </p>
                 </div>
               </div>
             </section>
@@ -681,9 +613,7 @@ export default function EducationLoanSettlementClient() {
                   Frequently Asked Questions: Education Loan Settlement
                 </h2>
               </div>
-              <p className="text-xs md:text-sm text-slate-600">
-                Essential legal and financial inquiries regarding student debt resolution, parent co-borrower rights, CGFSEL provisions. One-Time Settlement procedures in India.
-              </p>
+              <p className="text-xs md:text-sm text-slate-600"> Essential legal and money inquiries regarding student debt relief. Parent co-client rights. CGFSEL provisions. One-Time settlement steps in India. </p>
 
               <div className="space-y-3">
                 {faqs.map((faq, index) => {
@@ -709,9 +639,7 @@ export default function EducationLoanSettlementClient() {
                   Statutory Citations &amp; Institutional Authorities
                 </h2>
               </div>
-              <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                CredSettle resolution procedures strictly adhere to statutory frameworks including the IBA Model Educational Loan Scheme, CGFSEL Guidelines, Section 128 Indian Contract Act (1872), Section 25 PSSA (2007), Section 138 NI Act (1881). CICRA (2005).
-              </p>
+              <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> CredSettle relief steps strictly adhere to legal rules including the IBA Model Educational Loan Scheme. CGFSEL rules. Section 128 Indian Contract Act (1872). Section 25 PSSA (2007). Section 138 NI Act (1881). CICRA (2005). </p>
 
               {/* Outbound Badges */}
               <div className="space-y-2 pt-2">
@@ -801,14 +729,10 @@ export default function EducationLoanSettlementClient() {
                   <Link href="/author/ashish-jhangra" className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional.
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief expert. </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Specialized in student loan dispute defense, CGFSEL banking compliance, and co-borrower compromise negotiations across Indian banking forums.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> expert in student loan claims defense. CGFSEL banking compliance. And co-client OTS deal talks across Indian banking forums. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
                   <span>View Author Profile.</span>
@@ -826,12 +750,8 @@ export default function EducationLoanSettlementClient() {
                 <span className="text-[10px] font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
                   100% CONFIDENTIAL STUDENT DEBT DEFENSE.
                 </span>
-                <p className="text-lg md:text-xl font-bold text-white leading-snug">
-                  Facing Education Loan Default?
-                </p>
-                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
-                  Our debt specialists protect parent co-borrowers from harassment, represent your case before bank committees. Negotiate 35% to 55% principal waivers.
-                </p>
+                <p className="text-lg md:text-xl font-bold text-white leading-snug"> Facing Education Loan Default? </p>
+                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal"> Our debt specialists protect parent co-clients from abuse. Represent your case before bank boards. settle 35% to 55% main loan waivers. </p>
               </div>
               <Link href="/contact" className="block w-full bg-white text-blue-900 hover:text-[#1886ff] py-3 px-4 rounded-full font-bold text-sm hover:bg-slate-50 transition-all shadow-md">
                 Facing Education Loan Default? Get Legal Defense
@@ -852,10 +772,7 @@ export default function EducationLoanSettlementClient() {
 
             {/* Card 3: Trust Badges Card */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3">
-              <p className="font-bold text-xs uppercase tracking-wider text-slate-800 flex items-center gap-2">
-                <ShieldCheck className="w-4 h-4 text-emerald-600"/>
-                <span>CredSettle Protection Standards.</span>
-              </p>
+              <p className="font-bold text-xs uppercase tracking-wider text-slate-800 flex items-center gap-2"> <ShieldCheck className="w-4 h-4 text-emerald-600"/> <span>CredSettle safety Standards.</span> </p>
               <div className="space-y-2 text-xs text-slate-600">
                 <div className="flex items-center gap-2">
                   <span className="w-2 h-2 rounded-full bg-emerald-500 flex-shrink-0"/>

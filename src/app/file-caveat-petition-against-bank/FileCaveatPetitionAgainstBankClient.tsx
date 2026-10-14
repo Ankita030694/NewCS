@@ -47,43 +47,43 @@ export default function FileCaveatPetitionAgainstBankClient() {
     const faqs = [
         {
             q: 'What is a caveat petition under Section 148A against a bank?',
-            a: "A caveat petition under Section 148A of the Code of Civil Procedure (CPC), 1908 is a formal legal application lodged by a borrower in a civil court, commercial court. Debt Recovery Tribunal (DRT). It notifies the court that if the lending bank or financial institution files any suit, appeal. Interim application against the borrower, the court must not pass any ex-parte order or injunction without first serving notice and providing the borrower a fair hearing."
+            a: "A caveat petition under Section 148A of the Code of Civil Procedure (CPC). 1908 is a formal legal application lodged by a client in a civil court. Trade court. Debt claims Tribunal (DRT). It notifies the court that if the lending bank or bank files any suit. Appeal. Interim application against the client. The court must not pass any ex-parte order or injunction without first serving notice and providing the client a fair hearing."
         },
         {
             q: 'How long does a caveat petition remain legally valid in court?',
-            a: 'Under Section 148A(5) of the Code of Civil Procedure, a caveat petition remains legally enforceable for exactly 90 days from the date it is lodged in court. If the dispute is not resolved or if the bank does not file its legal action within this 90-day window, the borrower must file a fresh caveat petition to maintain continuous legal protection against ex-parte orders.'
+            a: 'Under Section 148A(5) of the Code of Civil Procedure. A caveat petition remains legally enforceable for exactly 90 days from the date it is lodged in court. If the dispute is not resolved or if the bank does not file its legal action within this 90-day window. The client must file a fresh caveat petition to maintain steady legal protection against ex-parte orders.'
         },
         {
             q: 'Can a caveat petition be filed in the Debt Recovery Tribunal (DRT)?',
-            a: "Yes, a caveat petition can be filed before the Debt Recovery Tribunal (DRT) and Debt Recovery Appellate Tribunal (DRAT) under Section 22 of the Recovery of Debts and Bankruptcy Act, 1993 read with DRT (Procedure) Rules. Filing a caveat in DRT prevents the bank from securing ex-parte recovery certificates, asset attachment orders. Advocate commissioner appointments for property inspection."
+            a: "Yes. A caveat petition can be filed before the Debt claims Tribunal (DRT) and Debt claims Appellate Tribunal (DRAT) under Section 22 of the claims of Debts and Bankruptcy Act. 1993 read with DRT (Procedure) Rules. Filing a caveat in DRT prevents the bank from securing ex-parte claims letters. Asset attachment orders. Advocate commissioner appointments for property checks."
         },
         {
             q: 'Does filing a caveat petition stop a bank from taking SARFAESI action?',
-            a: 'A caveat petition filed in civil court does not automatically bar a bank from issuing statutory demand notices under Section 13(2) of the SARFAESI Act because SARFAESI is a non-judicial administrative recovery enforcement mechanism. However, filing a caveat in the DRT under Section 17 ensures that if the bank approaches the tribunal for interim protection or if an appeal is filed, the borrower is heard immediately.'
+            a: 'A caveat petition filed in civil court does not automatically bar a bank from issuing legal demand notices under Section 13(2) of the SARFAESI Act because SARFAESI is a non-judicial office claims enforcement mechanism. However. Filing a caveat in the DRT under Section 17 ensures that if the bank approaches the tribunal for interim protection or if an appeal is filed. The client is heard promptly.'
         },
         {
             q: 'What happens if a court passes an ex-parte order after a caveat is filed?',
-            a: 'Under established Supreme Court and High Court jurisprudence, if a court passes an ex-parte interim order or injunction against a caveator without serving the mandatory statutory notice under Section 148A(3), such an order is procedurally defective and liable to be recalled or set aside immediately upon filing an application pointing out the subsisting caveat.'
+            a: 'Under established Supreme Court and High Court jurisprudence. If a court passes an ex-parte interim order or injunction against a caveator without serving the strict legal notices under Section 148A(3). Such an order is procedurally defective and liable to be recalled or set aside promptly upon filing an application pointing out the subsisting caveat.'
         },
         {
             q: 'Can a borrower file a caveat petition without an advocate?',
-            a: "While an individual has the statutory right to appear in person under civil procedure rules, drafting and filing a caveat petition involves technical compliance. This includes precise identification of the prospective dispute, executing a supporting verification affidavit. Serving mandatory RPAD postal notice to the bank under Section 148A(2). Engaging experienced debt resolution professionals or advocates ensures zero procedural defects."
+            a: "While an individual has the legal right to appear in person under civil procedure rules. Drafting and filing a caveat petition involves technical compliance. This includes precise identification of the prospective dispute. Executing a supporting verification affidavit. Serving strict RPAD postal notice to the bank under Section 148A(2). Engaging skilled debt relief workers or advocates ensures zero procedural defects."
         },
         {
             q: 'What documents are required to file a caveat petition against a bank?',
-            a: "The essential documents required to file a caveat include a copy of the loan sanction letter or credit facility agreement, recent loan account statements, any recall notices or legal demand notices issued by the bank, a duly verified supporting affidavit, proof of postal service (RPAD receipt) sent to the bank. An executed Vakalatnama or letter of authority."
+            a: "The essential papers required to file a caveat include a copy of the loan sanction letter or credit facility pacts. Recent loan account records. Any recall notices or legal demand notices issued by the bank. A duly verified supporting affidavit. Proof of postal service (RPAD receipt) sent to the bank. An executed Vakalatnama or letter of formal."
         },
         {
             q: 'How does a caveat petition help in negotiating a One-Time Settlement (OTS)?',
-            a: "Filing a caveat petition strips the bank of the element of surprise and blocks fast-track ex-parte asset attachments. Facing the reality of contested civil litigation, extended court hearings. Higher legal expenses, the bank credit committee and legal recovery desk become far more amenable to offering large 40% to 60% waivers on penal interest and closing the loan through an OTS."
+            a: "Filing a caveat petition strips the bank of the element of surprise and blocks fast-track ex-parte asset attachments. Facing the reality of contested civil lawsuits. Extended court hearings. Higher legal expenses. The bank credit boards and legal claims desk become far more amenable to offering large 40% to 60% waivers on penal interest and closing the loan through an OTS."
         },
         {
             q: 'Is it mandatory to serve a registered post notice of the caveat to the bank?',
-            a: 'Yes. Under Section 148A(2) of the Code of Civil Procedure, the caveator is statutorily mandated to serve a copy of the caveat petition by Registered Post with Acknowledgment Due (RPAD) or speed post to the prospective applicant (the bank). Proof of dispatch and tracking receipt must be submitted to the court registry at the time of lodging the caveat.'
+            a: 'Yes. Under Section 148A(2) of the Code of Civil Procedure. The caveator is statutorily mandated to serve a copy of the caveat petition by Registered Post with Acknowledgment Due (RPAD) or speed post to the prospective applicant (the bank). Proof of dispatch and tracking receipt must be submitted to the court registry at the time of lodging the caveat.'
         },
         {
             q: 'Can a bank file a caveat petition against a borrower?',
-            a: 'Yes. Banks and financial institutions frequently lodge caveat petitions in High Courts and DRTs after initiating recovery proceedings or issuing SARFAESI possession notices. Lenders do this preemptively to prevent borrowers from obtaining ex-parte interim stay orders or restraining orders against property auctions and recovery enforcement actions.'
+            a: 'Yes. Banks and banks often lodge caveat petitions in High Courts and DRTs after initiating claims steps or issuing SARFAESI takeover notices. Lenders do this preemptively to prevent clients from obtaining ex-parte interim stay orders or restraining orders against property auctions and claims enforcement actions.'
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -100,9 +100,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
             How to File a Caveat Petition Against Bank Under Section 148A
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed">
-            Anticipating bank legal action or summary recovery proceedings? Lodging a caveat petition under Section 148A CPC prevents surprise ex-parte stay orders, freezes arbitrary asset attachments. Forces the judicial bench to hear your defense before passing any adverse orders.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> Anticipating bank legal action or summary claims steps? Lodging a caveat petition under Section 148A CPC prevents surprise ex-parte stay orders. Freezes arbitrary asset attachments. Forces the judicial bench to hear your defense before passing any adverse orders. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -145,9 +143,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>Preemptive Legal Shield.</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Governed by Section 148A of the Code of Civil Procedure, 1908 &amp; RDB Act 1993.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by Section 148A of the Code of Civil Procedure. 1908 &amp. RDB Act 1993. </p>
               </div>
             </div>
           </aside>
@@ -163,40 +159,15 @@ export default function FileCaveatPetitionAgainstBankClient() {
               </div>
 
               <ul className="space-y-2.5 text-xs sm:text-sm text-slate-700">
-                <li className="flex items-center gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Mandatory Prior Hearing:</strong> Bars courts from passing ex-parte orders without serving advance notice and hearing your defense.
-                  </div>
-                </li>
+                <li className="flex items-center gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div> <strong className="text-slate-900 font-bold">strict Prior Hearing:</strong> Bars courts from passing ex-parte orders without serving advance notice and hearing your defense. </div> </li>
 
-                <li className="flex items-center gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Strict 90-Day Legal Shield:</strong> Provides 90 calendar days of statutory preemptive protection under Section 148A(5).
-                  </div>
-                </li>
+                <li className="flex items-center gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div> <strong className="text-slate-900 font-bold">Strict 90-Day Legal Shield:</strong> Provides 90 calendar days of legal preemptive protection under Section 148A(5). </div> </li>
 
-                <li className="flex items-center gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Blocks Sudden Asset Freezes:</strong> Prevents surprise bank account attachments and property injunctions under Order 38 and Order 39.
-                  </div>
-                </li>
+                <li className="flex items-center gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div> <strong className="text-slate-900 font-bold">Blocks Sudden Asset Freezes:</strong> Prevents surprise bank account attachments and property injunctions under Order 38 and Order 39. </div> </li>
 
-                <li className="flex items-center gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Enforceable Across All Forums:</strong> Valid in District Civil Courts, High Courts, Commercial Courts, and Debt Recovery Tribunals.
-                  </div>
-                </li>
+                <li className="flex items-center gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div> <strong className="text-slate-900 font-bold">Enforceable Across All Forums:</strong> Valid in areas Civil Courts. High Courts. Trade Courts. And Debt claims Tribunals. </div> </li>
 
-                <li className="flex items-center gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Drives Favorable OTS Settlements:</strong> Eliminates fast-track litigation leverage and pushes the bank to negotiate an affordable compromise waiver.
-                  </div>
-                </li>
+                <li className="flex items-center gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div> <strong className="text-slate-900 font-bold">Drives Favorable OTS Settlements:</strong> Eliminates fast-track lawsuits leverage and pushes the bank to settle an affordable OTS deal waiver. </div> </li>
               </ul>
             </div>
 
@@ -209,15 +180,9 @@ export default function FileCaveatPetitionAgainstBankClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 1. Debt Economics, NPA Dynamics, and Preemptive Court Risks
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When a borrower experiences financial distress, commercial banks and NBFCs follow a strict regulatory recovery cycle mandated by the Reserve Bank of India. The moment an account crosses 30, 60. 90 days past due, it transitions from Special Mention Account stages (SMA-0, SMA-1, SMA-2) directly into Non-Performing Asset (NPA) classification. Upon NPA declaration, lenders face rigorous provisioning requirements under RBI Prudential Norms, compelling them to lock up valuable Tier-1 capital against potential credit defaults.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                To minimize balance sheet write-offs and recover funds before standard limitations lapse, bank legal departments often bypass preliminary mediation and rush directly to court. Their preferred strategy is filing summary recovery suits under Order 37 CPC or original applications in Debt Recovery Tribunals (DRTs) alongside urgent interim applications. Lenders routinely seek ex-parte temporary injunctions, receiver appointments. Pre-judgment asset freezes under Order 38 Rule 5 CPC without prior notice to the borrower.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                This aggressive procedural maneuver catches distressed borrowers completely off-guard. Without timely intervention, a borrower may suddenly discover their business bank accounts frozen or residential properties subjected to interim status quo orders. Filing a caveat petition under Section 148A of the Code of Civil Procedure neutralizes this aggressive tactic entirely. By formally placing the court on notice, the borrower builds an impenetrable legal barrier that disallows any unilateral judicial relief and restores parity between both parties.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When a client experiences debt stress. Banks and NBFCs follow a strict RBI claims cycle mandated by the Reserve Bank of India. The moment an account crosses 30. 60. 90 days past due. It transitions from Special Mention Account stages (SMA-0. SMA-1. SMA-2) straight into Non-Performing Asset (NPA) classification. Upon NPA declaration. Lenders face rigorous provisioning requirements under RBI Prudential Norms. Compelling them to lock up valuable Tier-1 cash against potential credit defaults. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> To minimize balance sheet write-offs and recover funds before standard limitations lapse. Bank legal departments often bypass preliminary mediation and rush straight to court. Their preferred plan is filing summary claims suits under Order 37 CPC or original applications in Debt claims Tribunals (DRTs) alongside urgent interim applications. Lenders routinely seek ex-parte temporary injunctions. Receiver appointments. Pre-judgment asset freezes under Order 38 Rule 5 CPC without prior notice to the client. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> This aggressive procedural maneuver catches distressed clients completely off-guard. Without timely intervention. A client may suddenly discover their trade bank accounts frozen or residential properties subjected to interim status quo orders. Filing a caveat petition under Section 148A of the Code of Civil Procedure neutralizes this aggressive tactic entirely. By formally placing the court on notice. The client builds an impenetrable legal barrier that disallows any unilateral judicial relief and restores parity between both parties. </p>
             </section>
 
             {/* SECTION 2: Financial Breakdown & Settlement Math */}
@@ -229,9 +194,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 2. Financial Breakdown, Litigation Math, and Settlement Economics
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                A primary reason loan disputes spiral out of control during litigation is the exponential inflation of outstanding debt caused by compound penal interest, late payment charges. Legal retainer surcharges. Once a loan defaults, banks typically levy punitive interest rates ranging between 24% and 36% per annum on the total overdue balance. Over a 180-day to 360-day litigation cycle, these phantom charges often inflate the outstanding claim by 30% to 50% above the genuine principal disbursement.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> A primary reason loan disputes spiral out of control during lawsuits is the exponential inflation of unpaid debt caused by compound penal interest. Late payment charges. Legal retainer surcharges. Once a loan defaults. Banks typically levy punitive interest rates ranging between 24% and 36% per annum on the total overdue balance. Over a 180-day to 360-day lawsuits cycle. These phantom charges often inflate the unpaid claim by 30% to 50% above the genuine main loan disbursement. </p>
 
               {/* Financial Comparison Card */}
               <div className="bg-white rounded-2xl border border-slate-200/80 p-5 md:p-6 shadow-xs space-y-4">
@@ -261,13 +224,11 @@ export default function FileCaveatPetitionAgainstBankClient() {
                   <div className="p-3.5 bg-blue-50 rounded-xl border border-blue-100 space-y-1">
                     <span className="text-[#1886ff] font-semibold block text-[11px]">CredSettle Negotiated OTS.</span>
                     <span className="text-blue-950 font-extrabold text-base">₹8,50,000 - ₹9,75,000.</span>
-                    <p className="text-[11px] text-blue-700">Waiver of 100% penal fees + principal cut.</p>
+                    <p className="text-[11px] text-blue-700">Waiver of 100% penal fees + main loan cut.</p>
                   </div>
                 </div>
 
-                <p className="text-xs md:text-sm text-slate-600 leading-relaxed pt-2">
-                  When a borrower lodges a caveat, the bank legal counsel is compelled to disclose their complete claim ledger in open court. This judicial scrutiny exposes arbitrary penal compounding and violations of the RBI Master Direction on Fair Practices Code. Realizing that obtaining a summary decree will involve protracted hearings, the bank credit committee shifts from adversarial litigation to a commercial compromise, making an affordable One-Time Settlement the most cost-effective recovery path.
-                </p>
+                <p className="text-xs md:text-sm text-slate-600 leading-relaxed pt-2"> When a client lodges a caveat. The bank legal counsel is compelled to disclose their complete claim ledger in open court. This judicial scrutiny exposes arbitrary penal compounding and violations of the RBI Master Direction on Fair Practices Code. Realizing that obtaining a summary decree will involve protracted hearings. The bank credit boards shifts from adversarial lawsuits to a trade OTS deal. Making an affordable One-Time Settlement the most cost-effective claims path. </p>
               </div>
             </section>
 
@@ -280,9 +241,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 3. Comparative Analysis: Caveat Shield vs Alternative Legal Responses
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Navigating bank disputes requires choosing the right legal posture. Compare how lodging a Section 148A caveat measures against other procedural strategies when anticipating bank court recovery:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Navigating bank disputes requires choosing the right legal posture. Compare how lodging a Section 148A caveat measures against other procedural plans when anticipating bank court claims: </p>
 
               <div className="overflow-x-auto rounded-2xl border border-slate-200/80 bg-white shadow-xs">
                 <table className="w-full text-left text-xs md:text-sm border-collapse">
@@ -300,7 +259,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
                       <td className="p-3.5 font-bold text-slate-900">Section 148A Caveat Petition.</td>
                       <td className="p-3.5">Section 148A CPC / Section 22 RDB Act.</td>
                       <td className="p-3.5 text-emerald-700 font-bold">100% Guaranteed Protection.</td>
-                      <td className="p-3.5">Mandatory prior notice before any hearing.</td>
+                      <td className="p-3.5">strict prior notice before any hearing.</td>
                       <td className="p-3.5 font-bold text-emerald-700">Maximum: Blocks surprise injunctions.</td>
                     </tr>
                     <tr className="divide-x divide-slate-100 hover:bg-slate-50/50">
@@ -315,20 +274,20 @@ export default function FileCaveatPetitionAgainstBankClient() {
                       <td className="p-3.5">Order 9 Rule 13 CPC / Section 34.</td>
                       <td className="p-3.5 text-amber-600 font-bold">Reactive: Post-damage defense.</td>
                       <td className="p-3.5">Requires filing review applications.</td>
-                      <td className="p-3.5 text-amber-600">Moderate: Heavy litigation cost burden.</td>
+                      <td className="p-3.5 text-amber-600">Moderate: Heavy lawsuits cost burden.</td>
                     </tr>
                     <tr className="divide-x divide-slate-100 hover:bg-slate-50/50">
                       <td className="p-3.5 font-bold text-slate-900">Unprotected Direct OTS Talks.</td>
-                      <td className="p-3.5">Non-Statutory Bank Policy.</td>
+                      <td className="p-3.5">Non-legal Bank Policy.</td>
                       <td className="p-3.5 text-rose-600 font-bold">Zero: Bank can sue concurrently.</td>
                       <td className="p-3.5">No judicial oversight or protection.</td>
                       <td className="p-3.5 text-slate-600">Weak: Lenders maintain coercive pressure.</td>
                     </tr>
                     <tr className="divide-x divide-slate-100 hover:bg-slate-50/50">
-                      <td className="p-3.5 font-bold text-slate-900">Lok Adalat Pre-Litigation.</td>
-                      <td className="p-3.5">Legal Services Authorities Act 1987.</td>
+                      <td className="p-3.5 font-bold text-slate-900">Lok Adalat Pre-lawsuits.</td>
+                      <td className="p-3.5">Legal Services officials Act 1987.</td>
                       <td className="p-3.5 text-slate-700 font-semibold">Limited to consented matters.</td>
-                      <td className="p-3.5">Voluntary mutual participation.</td>
+                      <td className="p-3.5">Voluntary mutual role.</td>
                       <td className="p-3.5 text-slate-700">Moderate: Requires mutual bank consent.</td>
                     </tr>
                   </tbody>
@@ -345,15 +304,9 @@ export default function FileCaveatPetitionAgainstBankClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 4. Technical CIBIL Algorithm Mechanics and Credit Repair Pathways
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Credit information bureaus in India (TransUnion CIBIL, Experian, CRIF High Mark. Equifax) compute credit scores using proprietary mathematical models evaluated across five fundamental pillars: Repayment History (35%), Credit use Ratio (30%), Credit History Length (15%), Credit Mix (10%). Recent Credit Inquiries (10%). The moment an account enters NPA status, regular non-payment reporting drives the credit score downward by 150 to 250 points, dropping distressed borrowers into the high-risk 500 to 580 range.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                The greatest credit catastrophe occurs when a bank files a civil suit or DRT application and marks the account as &quot;Suit Filed&quot. Or &quot;Willful Default&quot; on bureau databases. If the bank secures an ex-parte decree, the borrower becomes virtually blacklisted across the Indian banking ecosystem for new loans, credit cards. Commercial credit lines.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Filing a Section 148A caveat halts unmonitored litigation, keeping the dispute within manageable boundaries. Once an amicable One-Time Settlement is executed and the settlement amount remitted directly to the bank, the lender is legally obligated to issue an official No Dues Certificate (NDC). Under Section 21 of the Credit Information Companies (Regulation) Act (CICRA), 2005, the bank must update the bureau records from &quot;Suit Filed&quot. To &quot;Settled&quot. Or &quot;Closed&quot. Within 30 days, opening the pathway to rebuild your credit rating back above 750 within 12 to 18 months.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Credit information bureaus in India (TransUnion CIBIL. Experian. CRIF High Mark. Equifax) compute credit scores using proprietary mathematical models evaluated across five fundamental pillars: payment History (35%). Credit use Ratio (30%). Credit History Length (15%). Credit Mix (10%). Recent Credit Inquiries (10%). The moment an account enters NPA status. Regular non-payment reporting drives the credit score downward by 150 to 250 points. Dropping distressed clients into the high-risk 500 to 580 range. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The greatest credit catastrophe occurs when a bank files a civil suit or DRT application and marks the account as &quot. Suit Filed&quot. Or &quot. Willful Default&quot. on bureau databases. If the bank secures an ex-parte decree. The client becomes virtually blacklisted across the Indian banking hub for new loans. Credit cards. firm credit lines. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Filing a Section 148A caveat halts unmonitored lawsuits. Keeping the dispute within manageable boundaries. Once an amicable One-Time Settlement is executed and the payout sum remitted straight to the bank. The lender is legally obligated to issue an formal No Dues letter (NDC). Under Section 21 of the Credit Information Companies (Regulation) Act (CICRA). 2005. The bank must update the bureau records from &quot. Suit Filed&quot. To &quot. Settled&quot. Or &quot. Closed&quot. Within 30 days. Opening the pathway to rebuild your credit rating back above 750 within 12 to 18 months. </p>
             </section>
 
             {/* SECTION 5: Visual Infographic Asset Card */}
@@ -365,9 +318,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 5. Visual Overview: 6-Stage Section 148A Caveat Workflow
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Review the end-to-end procedural lifecycle of lodging a caveat petition against a banking institution to secure preemptive legal shielding and help compromise debt resolution:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Review the end-to-end procedural lifecycle of lodging a caveat petition against a banking institution to secure preemptive legal shielding and help OTS deal debt relief: </p>
 
               <div className="bg-white rounded-3xl border border-slate-200/80 p-4 sm:p-6 shadow-xs space-y-3">
                 <div className="relative aspect-video w-full rounded-2xl overflow-hidden border border-slate-100 bg-slate-900">
@@ -392,9 +343,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 6. Step-by-Step SOP: Lodging a Section 148A Caveat Petition
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Filing a caveat against a commercial lender requires rigorous adherence to statutory formalities under the Code of Civil Procedure. Here is the structured 6-stage operational blueprint executed by legal professionals:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Filing a caveat against a trade lender requires rigorous adherence to legal formalities under the Code of Civil Procedure. Here is the structured 6-stage daily work blueprint executed by legal workers: </p>
 
               <div className="space-y-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -406,9 +355,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
                       Stage 1: Pre-Litigation Threat &amp; Jurisdiction Assessment
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10">
-                    Identify prospective recovery courts, such as District Civil Courts, Commercial Courts, or DRTs, from bank notices.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10"> Identify prospective claims courts. Such as areas Civil Courts. Trade Courts. Or DRTs. From bank notices. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -420,9 +367,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
                       Stage 2: Drafting the Caveat Petition &amp; Supporting Affidavit
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10">
-                    Draft the Section 148A petition with dispute facts and execute a verified supporting affidavit.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10"> Draft the Section 148A petition with dispute facts and execute a verified supporting affidavit. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -434,9 +379,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
                       Stage 3: Mandatory Section 148A(2) RPAD Notice to Bank
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10">
-                    Serve the caveat copy to the bank via RPAD post under Section 148A(2) and secure postal receipts.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10"> Serve the caveat copy to the bank via RPAD post under Section 148A(2) and secure postal receipts. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -448,9 +391,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
                       Stage 4: Court Registry Lodgment &amp; Caveat Number Allocation
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10">
-                    Lodge the petition with postal proof in the court registry to receive a formal Caveat Number.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10"> Lodge the petition with postal proof in the court registry to receive a formal Caveat Number. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -462,9 +403,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
                       Stage 5: 90-Day Preemptive Shield &amp; Cause-List Monitoring
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10">
-                    Track court cause-lists during the 90-day period; the court cannot hear bank pleas without notice.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10"> Track court cause-lists during the 90-day period. the court cannot hear bank pleas without notice. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -476,9 +415,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
                       Stage 6: Commercial Negotiation &amp; Bilateral OTS Closure
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10">
-                    Negotiate an OTS with the bank credit committee, pay settlement funds, and secure an official NDC.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10"> settle an OTS with the bank credit boards. Pay settlement funds. And secure an formal NDC. </p>
                 </div>
               </div>
             </section>
@@ -492,9 +429,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 7. Statutory Notice Defense &amp; Borrower Legal Rights
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Indian civil and banking jurisprudence provides multiple statutory safeguards that protect borrowers from unilateral lender actions. Review the core statutory defense provisions below:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Indian civil and banking jurisprudence provides multiple legal safeguards that protect clients from unilateral lender actions. Review the core legal defense provisions below: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -502,9 +437,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
                     <ShieldCheck className="w-4 h-4"/>
                     <span>Section 148A &amp; Order 39 Rules 1-2 CPC.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Bars courts from granting ex-parte interim injunctions without advance notice and hearing.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Bars courts from granting ex-parte interim injunctions without advance notice and hearing. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -512,9 +445,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
                     <Scale className="w-4 h-4"/>
                     <span>Order 38 Rule 5 CPC (Attachment Defense).</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Protects assets from pre-judgment attachment by requiring banks to prove fraudulent intent.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Protects assets from pre-judgment attachment by requiring banks to prove fraudulent intent. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -522,9 +453,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
                     <Landmark className="w-4 h-4"/>
                     <span>Section 22 RDB Act &amp; DRT Caveats.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Ensures claims over ₹20 Lakhs in DRT cannot secure ex-parte recovery certificates.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Ensures claims over ₹20 Lakhs in DRT cannot secure ex-parte claims letters. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -532,9 +461,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
                     <ShieldAlert className="w-4 h-4"/>
                     <span>Section 25 PSSA &amp; Section 138 NI Act.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Helps counter coercive recovery tactics by establishing active civil dispute conciliation.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Helps counter coercive claims tactics by establishing active civil dispute talks. </p>
                 </div>
               </div>
             </section>
@@ -548,9 +475,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 8. 3-Tier Grievance Redressal and Judicial Escalation Matrix
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                If a lender engages in unfair debt collection practices, ignores formal caveat notices. Attempts coercive recovery, borrowers can escalate through three institutional levels:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> If a lender engages in unfair debt claims practices. Ignores formal caveat notices. Attempts coercive claims. Clients can escalate through three bank levels: </p>
 
               <div className="space-y-3 pt-2">
                 <div className="bg-white p-4.5 rounded-2xl border border-slate-200/80 shadow-xs flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
@@ -559,9 +484,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
                       <span className="text-xs font-black px-2 py-0.5 rounded-md bg-blue-50 text-[#1886ff]">LEVEL 1</span>
                       <h3 className="font-bold text-slate-900 text-sm">Bank Grievance Redressal Officer (GRO) &amp; Legal Desk</h3>
                     </div>
-                    <p className="text-xs text-slate-600 mt-1">
-                      Submit caveat details to the bank legal desk to dispute penal interest and halt coercion (7-10 days).
-                    </p>
+                    <p className="text-xs text-slate-600 mt-1"> Submit caveat details to the bank legal desk to dispute penal interest and halt coercion (7-10 days). </p>
                   </div>
                   <span className="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-full whitespace-nowrap">
                     Internal Bank Escalation.
@@ -574,9 +497,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
                       <span className="text-xs font-black px-2 py-0.5 rounded-md bg-indigo-50 text-indigo-700">LEVEL 2</span>
                       <h3 className="font-bold text-slate-900 text-sm">Principal Nodal Officer (PNO) &amp; Court Registry Review</h3>
                     </div>
-                    <p className="text-xs text-slate-600 mt-1">
-                      Notify the Principal Nodal Officer and court registry to block unlisted hearings (14-21 days).
-                    </p>
+                    <p className="text-xs text-slate-600 mt-1"> Notify the main loan Nodal Officer and court registry to block unlisted hearings (14-21 days). </p>
                   </div>
                   <span className="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-full whitespace-nowrap">
                     Appellate Oversight.
@@ -589,9 +510,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
                       <span className="text-xs font-black px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-700">LEVEL 3</span>
                       <h3 className="font-bold text-slate-900 text-sm">RBI Integrated Ombudsman &amp; High Court Review</h3>
                     </div>
-                    <p className="text-xs text-slate-600 mt-1">
-                      File regulatory complaints on cms.rbi.org.in or seek High Court supervisory review under Article 227.
-                    </p>
+                    <p className="text-xs text-slate-600 mt-1"> File RBI complaints on cms.rbi.org.in or seek High Court supervisory review under Article 227. </p>
                   </div>
                   <span className="text-[11px] font-bold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-full whitespace-nowrap">
                     Statutory Regulator.
@@ -609,9 +528,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 9. Chronological Resolution Milestones: Day 1 to Month 6
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                The timeline below outlines the key procedural milestones when responding to bank legal actions through a preemptive caveat strategy:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The timeline below outlines the key procedural milestones when responding to bank legal actions through a preemptive caveat plan: </p>
 
               <div className="overflow-x-auto rounded-2xl border border-slate-200/80 bg-white shadow-xs">
                 <table className="w-full text-left text-xs md:text-sm border-collapse">
@@ -626,32 +543,32 @@ export default function FileCaveatPetitionAgainstBankClient() {
                   <tbody className="divide-y divide-slate-100 text-slate-600">
                     <tr className="divide-x divide-slate-100 hover:bg-slate-50/50">
                       <td className="p-3.5 font-bold text-slate-900">Days 1 - 30</td>
-                      <td className="p-3.5 font-medium">NPA Notice &amp; Legal Threat.</td>
-                      <td className="p-3.5">Account crosses 90 DPD; bank issues loan recall or legal demand notice.</td>
-                      <td className="p-3.5 text-amber-600 font-semibold">Pre-Litigation Vulnerability.</td>
+                      <td className="p-3.5 font-medium">NPA Notice &amp. Legal Threat.</td>
+                      <td className="p-3.5">Account crosses 90 DPD. bank issues loan recall or legal demand notice.</td>
+                      <td className="p-3.5 text-amber-600 font-semibold">Pre-lawsuits Vulnerability.</td>
                     </tr>
                     <tr className="divide-x divide-slate-100 hover:bg-slate-50/50">
                       <td className="p-3.5 font-bold text-slate-900">Days 31 - 45</td>
-                      <td className="p-3.5 font-medium">Caveat Drafting &amp; Filing.</td>
-                      <td className="p-3.5">Draft Section 148A petition, execute affidavit, serve RPAD, and lodge in court.</td>
+                      <td className="p-3.5 font-medium">Caveat Drafting &amp. Filing.</td>
+                      <td className="p-3.5">Draft Section 148A petition, execute affidavit. Serve RPAD, and lodge in court.</td>
                       <td className="p-3.5 text-blue-700 font-bold">Caveat Number Assigned.</td>
                     </tr>
                     <tr className="divide-x divide-slate-100 hover:bg-slate-50/50">
                       <td className="p-3.5 font-bold text-slate-900">Days 46 - 90</td>
                       <td className="p-3.5 font-medium">Active Protection Window.</td>
-                      <td className="p-3.5">Court cause-list tracking; bank barred from ex-parte interim injunctions.</td>
+                      <td className="p-3.5">Court cause-list tracking. bank barred from ex-parte interim injunctions.</td>
                       <td className="p-3.5 text-emerald-700 font-bold">100% Preemptive Immunity.</td>
                     </tr>
                     <tr className="divide-x divide-slate-100 hover:bg-slate-50/50">
                       <td className="p-3.5 font-bold text-slate-900">Days 91 - 120</td>
-                      <td className="p-3.5 font-medium">Bilateral OTS Negotiation.</td>
-                      <td className="p-3.5">Represent financial hardship before credit committee; negotiate 40%-60% waiver.</td>
-                      <td className="p-3.5 text-indigo-700 font-bold">Commercial Compromise Phase.</td>
+                      <td className="p-3.5 font-medium">Bilateral OTS talks.</td>
+                      <td className="p-3.5">Represent hardship before credit boards. settle 40%-60% waiver.</td>
+                      <td className="p-3.5 text-indigo-700 font-bold">trade OTS deal Phase.</td>
                     </tr>
                     <tr className="divide-x divide-slate-100 hover:bg-slate-50/50">
                       <td className="p-3.5 font-bold text-slate-900">Months 5 - 6</td>
-                      <td className="p-3.5 font-medium">Closure &amp; CIBIL Rectification.</td>
-                      <td className="p-3.5">pay settlement funds, obtain formal NDC, and update bureau records to Closed.</td>
+                      <td className="p-3.5 font-medium">Closure &amp. CIBIL Rectification.</td>
+                      <td className="p-3.5">Pay settlement funds, obtain formal NDC. And update bureau records to Closed.</td>
                       <td className="p-3.5 text-emerald-700 font-bold">Complete Debt Freedom.</td>
                     </tr>
                   </tbody>
@@ -668,9 +585,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 10. Specialized Real-World Scenarios in Banking Litigation
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Different financial products involve distinct statutory venues and litigation mechanics. Explore four specialized scenarios:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Different money products involve distinct legal venues and lawsuits mechanics. Explore four specialized scenarios: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -678,9 +593,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
                     <Building2 className="w-4 h-4 text-[#1886ff]"/>
                     Consortium Lending &amp; Multi-Bank Facilities
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Lodge individual caveats against each consortium lender to block coordinated recovery actions.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Lodge individual caveats against each consortium lender to block coordinated claims actions. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -688,9 +601,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
                     <UserCheck className="w-4 h-4 text-[#1886ff]"/>
                     Corporate &amp; Personal Guarantor Liability
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Enables personal guarantors to independently shield personal assets from summary attachment.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Enables private guarantors to independently shield own assets from summary attachment. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -698,9 +609,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
                     <Landmark className="w-4 h-4 text-[#1886ff]"/>
                     Mortgaged Property &amp; Section 17 DRT Appeals
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Guarantees a DRT hearing if the bank files for physical possession assistance under Section 14.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Guarantees a DRT hearing if the bank files for physical takeover assistance under Section 14. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -708,9 +617,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
                     <Scale className="w-4 h-4 text-[#1886ff]"/>
                     Asset Reconstruction Company (ARC) Portfolios
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Halts fast-track recovery actions by debt buyers and compels bilateral OTS discussions.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Halts fast-track claims actions by debt buyers and compels bilateral OTS discussions. </p>
                 </div>
               </div>
             </section>
@@ -729,9 +636,7 @@ export default function FileCaveatPetitionAgainstBankClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Frequently Asked Questions on Caveat Petitions Against Banks
               </h2>
-              <p className="text-xs md:text-sm text-slate-600">
-                Click on any question below to view detailed legal answers verified by our debt resolution professionals:
-              </p>
+              <p className="text-xs md:text-sm text-slate-600"> Click on any question below to view detailed legal answers verified by our debt relief workers: </p>
 
               <div className="space-y-3 pt-2">
                 {faqs.map((faq, index) => {
@@ -759,21 +664,11 @@ export default function FileCaveatPetitionAgainstBankClient() {
                 Official Regulatory Citations &amp; Judicial References
               </h2>
               <ul className="space-y-2 text-xs text-slate-600 leading-relaxed list-disc pl-5">
-                <li>
-                  <strong>Code of Civil Procedure, 1908:</strong> Section 148A (Right to Lodge a Caveat), Order 38 Rule 5 (Attachment Before Judgment). Order 39 Rules 1-2 (Temporary Injunctions), Ministry of Law and Justice, Government of India.
-                </li>
-                <li>
-                  <strong>Recovery of Debts and Bankruptcy Act, 1993:</strong> Section 19 and Section 22 (Application of Natural Justice and Civil Procedure in Debt Recovery Tribunals).
-                </li>
-                <li>
-                  <strong>Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002 (SARFAESI Act):</strong> Section 13, Section 17, and Section 18.
-                </li>
-                <li>
-                  <strong>Reserve Bank of India Master Directions:</strong> Master Direction on Fair Practices Code for Lenders and Prudential Norms on Income Recognition, Asset Classification. Provisioning about Advances (Updated 2026).
-                </li>
-                <li>
-                  <strong>Credit Information Companies (Regulation) Act, 2005 (CICRA):</strong> Section 21 (Statutory Duty of Credit Institutions to Update Credit Records Following Settlement).
-                </li>
+                <li> <strong>Code of Civil Procedure, 1908:</strong> Section 148A (Right to Lodge a Caveat). Order 38 Rule 5 (Attachment Before Judgment). Order 39 Rules 1-2 (Temporary Injunctions). Ministry of Law and Justice. Government of India. </li>
+                <li> <strong>Claims of Debts and Bankruptcy Act. 1993:</strong> Section 19 and Section 22 (Application of Natural Justice and Civil Procedure in Debt claims Tribunals). </li>
+                <li> <strong>Securitisation and Reconstruction of money Assets and Enforcement of Security Interest Act. 2002 (SARFAESI Act):</strong> Section 13. Section 17. And Section 18. </li>
+                <li> <strong>Reserve Bank of India Master Directions:</strong> Master Direction on Fair Practices Code for Lenders and Prudential Norms on Income Recognition. Asset Classification. Provisioning about Advances (Updated 2026). </li>
+                <li> <strong>Credit Information Companies (Regulation) Act. 2005 (CICRA):</strong> Section 21 (legal Duty of Credit Institutions to Update Credit Records Following Settlement). </li>
               </ul>
 
               {/* 6 Outbound Authority Badges */}
@@ -860,14 +755,10 @@ export default function FileCaveatPetitionAgainstBankClient() {
                   <Link href="/author/ashish-jhangra" className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional.
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief expert. </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Specialized in banking litigation defense, Section 148A caveat strategies, loan dispute resolution. NPA compromise negotiations across Indian civil courts and Debt Recovery Tribunals.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> Specialized in banking lawsuits defense. Section 148A caveat plans. Loan dispute relief. NPA OTS deal talks across Indian civil courts and Debt claims Tribunals. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
                   <span>View Author Profile.</span>
@@ -885,12 +776,8 @@ export default function FileCaveatPetitionAgainstBankClient() {
                 <span className="text-xs font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
                   100% CONFIDENTIAL LEGAL DEFENSE.
                 </span>
-                <p className="text-lg md:text-xl font-bold text-white leading-snug">
-                  Anticipating Bank Legal Action?
-                </p>
-                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
-                  Our legal and debt resolution specialists lodge Section 148A caveat petitions in civil courts and DRTs, block ex-parte injunctions. Negotiate 40% to 60% loan settlement waivers.
-                </p>
+                <p className="text-lg md:text-xl font-bold text-white leading-snug"> Anticipating Bank Legal Action? </p>
+                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal"> Our legal and debt relief specialists lodge Section 148A caveat petitions in civil courts and DRTs. Block ex-parte injunctions. settle 40% to 60% loan settlement waivers. </p>
               </div>
               <Link href="/contact" className="block w-full bg-white text-blue-900 hover:text-[#1886ff] py-3 px-4 rounded-full font-bold text-sm hover:bg-slate-50 transition-all shadow-md">
                 File a Caveat Petition Today
@@ -913,22 +800,10 @@ export default function FileCaveatPetitionAgainstBankClient() {
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
               <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage.</p>
               <ul className="space-y-2 text-slate-600">
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Zero Upfront Risk:</strong> Success-linked settlement fees.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Direct Remittance:</strong> Payments made only to bank accounts.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Statutory Preemption:</strong> CPC &amp; RDB Act compliant filings.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Pan-India Defense:</strong> Specialized debt resolution panel.</span>
-                </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Zero Upfront Risk:</strong> Success-linked settlement fees.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Direct Remittance:</strong> Payments made only to bank accounts.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>legal Preemption:</strong> CPC &amp. RDB Act compliant filings.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Pan-India Defense:</strong> Specialized debt relief panel.</span> </li>
               </ul>
             </div>
 
@@ -937,23 +812,17 @@ export default function FileCaveatPetitionAgainstBankClient() {
               <p className="font-bold text-slate-900 text-sm">Related Legal Guides.</p>
               <div className="space-y-2.5">
                 <Link href="/bank-sent-legal-notice-for-loan-what-to-do" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Bank Sent Legal Notice for Loan Default.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Bank Sent Legal Notice for Loan Default. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Full step-by-step reply blueprint &rarr;.</span>
                 </Link>
 
                 <Link href="/bank-recovery-case-in-court" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Bank Filed Recovery Case in Civil Court.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Bank Filed claims Case in Civil Court. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Civil suit defense &amp; summons guide &rarr;.</span>
                 </Link>
 
                 <Link href="/convert-settled-status-to-closed" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Convert Settled Loan to Closed Status.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Convert Settled Loan to Closed Status. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Clean credit report blueprint &rarr;.</span>
                 </Link>
               </div>

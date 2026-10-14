@@ -7,28 +7,28 @@ import FAQWithSchema from '@/components/FAQWithSchema';
 import CTAButton from '@/components/CTAButton';
 const heroCopy = {
     title: 'NBFC Loan Settlement in Delhi NCR - Strategic, Compliant, Result Driven',
-    description: "Delhi NCR borrowers juggle metro living costs, start-up volatility, gig economy cash flows, and relentless recovery follow-ups. CredSettle\u2019s Delhi command centre negotiates with every major NBFC operating in Connaught Place, Gurugram, Noida, Ghaziabad. Faridabad, delivering RBI-compliant settlements that stop harassment, reduce liability, and protect legal rights."
+    description: "The city NCR clients juggle metro living costs. Start-up swings, gig economy cash flows, and relentless collection follow-ups. CredSettle\u2019s the city command centre negotiates with every major NBFC operating in Connaught Place. Gurugram, Noida, Ghaziabad. Faridabad, delivering RBI-compliant settlements that stop abuse. Reduce debt risk, and protect legal rights."
 };
 const faqs = [
     {
         question: 'Which NBFCs does CredSettle work with in Delhi NCR?',
-        answer: "We negotiate with all major NBFCs and fintech lenders active in the capital region including Bajaj Finance, Tata Capital, Aditya Birla Finance, HDB Financial Services, Hero FinCorp, Clix Capital, Cashe, KreditBee, InCred. Regional housing finance companies. Multi-lender cases involving co-lending or NBFC-bank partnerships are coordinated through a single negotiation desk."
+        answer: "We settle with all major NBFCs and fintech lenders active in the cash region including Bajaj Finance. Tata cash, Aditya Birla Finance. HDB money Services, Hero FinCorp. Clix cash, Cashe, KreditBee, InCred. local housing finance companies. Multi-lender cases involving joint loans or NBFC-bank partnerships are aligned through a single talks desk."
     },
     {
         question: 'How fast can CredSettle stop recovery harassment in Delhi?',
-        answer: "Most clients experience a noticeable reduction in calls within three to five business days. We issue representation notices referencing RBI Fair Practices Code, the Delhi Police standing order on recovery conduct. The RBI Ombudsman escalation path. Persistent violations are escalated with call recordings, email transcripts, and complaints through the RBI CMS portal."
+        answer: "Most clients skill a noticeable cut in calls within three to five trade days. We issue legal help notices referencing RBI Fair Practices Code. The the city Police standing order on collection conduct. The RBI Ombudsman escalation path. Persistent violations are escalated with call recordings. Email transcripts, and complaints through the RBI CMS portal."
     },
     {
         question: 'Does a settlement damage my credit score in Delhi NCR?',
-        answer: "The bureau marks the account as settled, which is preferable to a write-off or ongoing default. CredSettle\u2019s Delhi team prepares a post-settlement credit rebuild plan using secured credit cards, low-limit cooperative bank products. Bureau dispute submissions to lift scores back into the mid-600 range over 18 to 24 months."
+        answer: "The bureau marks the account as settled. This is preferable to a write-off or ongoing default. CredSettle\u2019s the city team prepares a post-settlement credit rebuild plan using secured credit cards. Low-limit local bank products. Bureau dispute submissions to lift scores back into the mid-600 range over 18 to 24 months."
     },
     {
         question: 'Can CredSettle assist if my NBFC has already filed a case in Saket or Rohini courts?',
-        answer: "Yes. We partner with Delhi-based advocates to file appearances, request mediation. Move the matter to Lok Adalat where appropriate. During litigation we continue negotiating with NBFC legal teams so the case can close with a consent settlement and formal court order."
+        answer: "Yes. We partner with the city-based lawyers to file appearances, request mediation. Move the matter to Lok Adalat where appropriate. During lawsuits we continue settling with NBFC legal teams so the case can close with a consent settlement and formal court order."
     },
     {
         question: 'Do you charge upfront fees for Delhi NCR clients?',
-        answer: 'No. We work on a success-linked model. After onboarding and document verification, we represent you with NBFCs and only raise invoices once an authorised settlement letter is issued and acknowledged.'
+        answer: 'No. We work on a success-linked model. After onboarding and papers verification. We represent you with NBFCs and only raise invoices once an authorised settlement letter is issued and acknowledged.'
     }
 ];
 const sections = [
@@ -37,9 +37,9 @@ const sections = [
         title: 'Delhi Borrower Snapshot: Metro Pressures and NCR Debt Patterns',
         level: 2,
         content: [
-            "Delhi NCR is India’s densest financial ecosystem, combining central government employees, policy think-tanks, start-ups, e-commerce warehouses, gig riders, and traders from Chandni Chowk to Nehru Place. NBFC penetration remains high because digital lending apps, point-of-sale financing, and business credit lines provide faster disbursals than scheduled banks. The same convenience turns risky after two or three missed EMIs. Interest costs between 20% and 36% stack up quickly, while late fees and legal charges convert manageable arrears into runaway balances.",
-            "Capital residents face a unique cost matrix: sky-high rentals in South Delhi, school fees in Dwarka and Gurugram, transport expenses, and inflation-hit groceries. Gig economy earners - delivery riders, ride-hailing drivers, and freelance professionals - experience inconsistent payouts. When revenue drops, NBFC EMIs slip behind quickly, prompting relentless follow-ups. Many salaried professionals also carry relocation costs, security deposits, and lifestyle debt from electronics or travel purchases, all of which strain cash flows when bonuses are delayed.",
-            "By the time borrowers approach CredSettle, their cases often include multiple NBFCs plus wage garnishment threats or social media intimidation. Our Delhi desk handles these scenarios daily, ensuring the borrower regains control of communication, compiles the right evidence, and structures a settlement that matches capital-region living realities."
+            "The city NCR is India’s densest money hub. Combining central government staff, policy think-tanks. Start-ups, e-commerce warehouses, gig riders. And traders from Chandni Chowk to Nehru Place. NBFC penetration remains high because digital lending apps. Point-of-sale financing, and trade credit lines provide faster disbursals than scheduled banks. The same convenience turns risky after two or three missed EMIs. Interest costs between 20% and 36% stack up quickly. Meanwhile, late fees and legal charges convert manageable arrears into runaway balances.",
+            "Cash residents face a unique cost matrix: sky-high rentals in South the city. School fees in Dwarka and Gurugram. Transport expenses, and inflation-hit groceries. Gig economy earners - delivery riders. Ride-hailing drivers, and freelance workers - skill inconsistent payouts. When income drops. NBFC EMIs slip behind quickly, prompting relentless follow-ups. Many salaried workers also carry relocation costs. Security deposits, and lifestyle debt from electronics or travel purchases. All of which strain cash flows when bonuses are delayed.",
+            "By the time clients approach CredSettle. Their cases often include multiple NBFCs plus wage garnishment threats or social media threats. Our city desk handles these scenarios daily. Ensuring the clients regains control of contact. Compiles the right proof. And structures a settlement that matches cash-region living realities."
         ],
     },
     {
@@ -47,9 +47,9 @@ const sections = [
         title: 'NBFC Footprint Across Delhi NCR',
         level: 2,
         content: [
-            "Bajaj Finance, Tata Capital, Aditya Birla Finance, L&T Finance, HDB Financial Services, and Mahindra Finance operate large branches in Connaught Place, Karol Bagh, Rajouri Garden, and Nehru Place. Digital-first lenders such as Cashe, KreditBee, MoneyTap, and EarlySalary run their risk and recovery teams out of Gurugram and Noida, leveraging analytics to trigger automated reminders within hours of a missed payment.",
-            "Vehicle NBFCs finance fleets for cab aggregators and logistics companies in Ghaziabad, Faridabad, and Manesar. When fuel prices spike or platform incentives change, EMIs become unsustainable. Machinery and unsecured business loans dominate industrial clusters in Okhla, Bawana, and Greater Noida, while education and travel financing flourish in south campus student zones and airport-linked businesses.",
-            "Our settlement team maintains direct channels with NBFC risk officers and cluster heads across these geographies. Because we understand each lender’s provisioning cycles, audit checkpoints, and board-approved compromise policies, we time proposals to coincide with quarter-end review meetings or fiscal year cleanups when approvals are most likely."
+            "Bajaj Finance, Tata cash, Aditya Birla Finance. L&T Finance, HDB money Services. And Mahindra Finance operate large branches in Connaught Place. Karol Bagh, Rajouri Garden, and Nehru Place. Digital-first lenders such as Cashe. KreditBee, MoneyTap, and EarlySalary run their risk and collection teams out of Gurugram and Noida. Leveraging analytics to trigger automated reminders within hours of a missed payment.",
+            "Vehicle NBFCs finance fleets for cab apps and freight companies in Ghaziabad. Faridabad, and Manesar. When fuel prices spike or platform incentives change. EMIs become unsustainable. Machinery and no-security firm loans dominate factory hubs in Okhla. Bawana, and Greater Noida. Meanwhile, education and travel financing flourish in south campus student zones and airport-linked firms.",
+            "Our settlement team maintains direct channels with NBFC risk officers and hubs heads across these geographies. Because we understand each lender’s provisioning cycles. Audit checkpoints, and board-approved OTS deal policies. We time proposals to coincide with quarter-end review meetings or fiscal year cleanups when approvals are most likely."
         ],
     },
     {
@@ -57,9 +57,9 @@ const sections = [
         title: 'Regulatory Environment and Borrower Protection in Delhi',
         level: 2,
         content: [
-            "Delhi residents can leverage a strong compliance backdrop. The RBI Fair Practices Code forces NBFCs to share transparent statements, respect working hours for communication, and display authorised recovery agent IDs. The RBI Integrated Ombudsman has an office at Sansad Marg that accepts online complaints through the CMS portal when NBFCs ignore grievance escalations.",
-            "The Delhi Police issued a standing order in 2020 reiterating that recovery agents cannot threaten borrowers, visit workplaces without permission, or misuse contact lists scraped from smartphones. Violations invite FIRs for criminal intimidation. Additionally, the Delhi High Court has repeatedly emphasised dignified collection practices in judgments involving NBFCs and fintech apps, another lever we cite when pushing for immediate harassment cessation.",
-            "CredSettle builds a compliance file for every Delhi case: grievance emails, call recordings, SMS screenshots, and detailed timelines. This dossier becomes leverage when negotiating settlements or drafting submissions to the Ombudsman, Delhi State Legal Services Authority (DSLSA), or consumer forums."
+            "the city residents can leverage a strong compliance backdrop. The RBI Fair Practices Code forces NBFCs to share transparent records. Respect working hours for contact. And display authorised collection agent IDs. The RBI Integrated Ombudsman has an office at Sansad Marg that accepts online complaints through the CMS portal when NBFCs ignore grievance escalations.",
+            "The the city Police issued a standing order in 2020 reiterating that collection agents cannot threaten clients. Visit workplaces without permission. Or misuse contact lists scraped from smartphones. Violations invite FIRs for criminal threats. Additionally, the the city High Court has repeatedly emphasised dignified collection practices in judgments involving NBFCs and fintech apps. Another lever we cite when pushing for fast abuse cessation.",
+            "CredSettle builds a compliance file for every the city case: grievance emails. Call recordings, SMS screenshots, and detailed timelines. This dossier becomes leverage when settling settlements or drafting submissions to the Ombudsman. The city State Legal Services formal (DSLSA). Or clients forums."
         ],
     },
     {
@@ -67,9 +67,9 @@ const sections = [
         title: "CredSettle’s Delhi Command Centre Methodology",
         level: 2,
         content: [
-            "Our Delhi command centre runs a six-pillar methodology tailored to the capital’s pace. Pillar one is diagnostics: we pull credit bureau reports, decode loan agreements, identify co-applicants, and benchmark interest plus penalty accruals. Pillar two is harassment control: a dedicated compliance desk issues notices to NBFC nodal officers, recovery partners, and tele-calling vendors, warning them about RBI and Delhi Police norms.",
-            "Pillar three focuses on financial architecture. We map inflows from salaries, business receipts, or gig platforms, then simulate various settlement payment plans to test feasibility. Pillar four handles negotiation campaigns. We prepare lender-specific memos referencing provisioning status, board-approved OTS schemes, and comparable case precedents achieved by CredSettle in Delhi the previous quarter.",
-            "Pillar five is documentation vetting. Our legal team reviews each offer letter to ensure complete waiver of future claims, closure of legal notices, and accurate representation of outstanding versus agreed amounts. Pillar six delivers closure and aftercare, coordinating payment acknowledgements, NOC issuance, lien releases, and bureau updates while coaching clients through the rebuild roadmap."
+            "Our the city command centre runs a six-pillar system tailored to the cash’s pace. Pillar one is checks: we pull credit bureau reports. Decode loan pacts, identify co-applicants. And benchmark interest plus penalty accruals. Pillar two is abuse control: a dedicated compliance desk issues notices to NBFC nodal officers. collection partners, and tele-calling vendors. Warning them about RBI and the city Police norms.",
+            "Pillar three focuses on money architecture. We map inflows from pay. Trade receipts, or gig platforms. Then simulate various settlement payment plans to test feasibility. Pillar four handles talks campaigns. We prepare lender-local memos referencing provisioning status. Board-approved OTS schemes. And comparable case rulings achieved by CredSettle in the city the previous quarter.",
+            "Pillar five is records vetting. Our legal team reviews each offer letter to ensure complete waiver of future claims. Closure of legal notices. And accurate legal help of unpaid versus agreed amounts. Pillar six delivers closure and aftercare. Aligning payment receipts, NOC issuance. Lien releases, and bureau updates while coaching clients through the rebuild roadmap."
         ],
     },
     {
@@ -77,9 +77,9 @@ const sections = [
         title: 'Industry-Specific Settlement Strategies in NCR',
         level: 2,
         content: [
-            "Start-up founders in Gurugram and Noida often rely on unsecured business loans for runway. When funding rounds delay, we supply investors' bridge commitment letters or revenue projections to position settlement as the cleanest exit. Retail traders in Sadar Bazaar and Lajpat Nagar need cash flow-sensitive instalment plans, so we align payment dates with seasonal peaks like Diwali and wedding shopping cycles.",
-            "Gig workers in Dwarka, Rohini, and Ghaziabad depend on aggregator payouts. We compile platform statements showing incentive cuts, fuel reimbursement changes, and downtime during air pollution bans or weekend curfews, supporting a reduced settlement percentage. Healthcare professionals running clinics in South Delhi leverage patient appointment data and insurance claim delays to justify structured payments.",
-            "Educational institutions and coaching centres along the Metro Blue Line suffered revenue dips during extended online learning. CredSettle integrates school fee collection data, rental agreements, and ESI/PF filings to build persuasive hardship narratives that NBFC credit committees accept."
+            "Start-up founders in Gurugram and Noida often rely on no-security firm loans for runway. When funding rounds delay. We supply investors' bridge commitment letters or income projections to position settlement as the cleanest exit. Retail traders in Sadar Bazaar and Lajpat Nagar need cash flow-sensitive EMIs plans. So we align payment dates with seasonal peaks like Diwali and wedding shopping cycles.",
+            "Gig workers in Dwarka, Rohini. And Ghaziabad depend on apps payouts. We compile platform records showing incentive cuts. Fuel reimbursement changes. And downtime during air pollution bans or weekend curfews. Supporting a reduced settlement percentage. Healthcare workers running clinics in South the city leverage patient appointment data and cover claim delays to justify structured payments.",
+            "Educational institutions and coaching centres along the Metro Blue Line suffered income dips during extended online learning. CredSettle integrates school fee collection data. Rental pacts, and ESI/PF filings to build persuasive hardship narratives that NBFC credit boards accept."
         ],
     },
     {
@@ -87,9 +87,9 @@ const sections = [
         title: 'Legal Lifelines: DSLSA, Lok Adalats, and DRT Benches',
         level: 2,
         content: [
-            "The Delhi State Legal Services Authority conducts special Lok Adalat sittings for loan disputes at district courts in Patiala House, Saket, Dwarka, Rohini, and Karkardooma. NBFCs participate to clear non-performing assets swiftly. CredSettle drafts joint petitions so settlements receive the force of a decree, closing the door on future claims.",
-            "Debts Recovery Tribunals (DRT-I and DRT-II) sit in New Delhi and handle higher-ticket NBFC litigations. Our advocates track cause lists, file appearances, and push for mediation or consent terms before assets are attached. For smaller digital lending disputes, Delhi District Consumer Commissions in Shalimar Bagh and Moti Nagar accept complaints, especially when hidden charges or data misuse is involved.",
-            "When cyber intimidation or privacy breaches occur, we mobilise Delhi Police Cyber Cells at Dwarka and Mandir Marg, lodging complaints with evidence packages. Legal escalation combined with settlement outreach often persuades NBFCs to accept reasonable offers sooner."
+            "The the city State Legal Services formal conducts special Lok Adalat sittings for loan disputes at areas courts in Patiala House. Saket, Dwarka, Rohini, and Karkardooma. NBFCs join to clear non-performing assets swiftly. CredSettle drafts joint petitions so settlements receive the force of a decree. Closing the door on future claims.",
+            "Debts collection Tribunals (DRT-I and DRT-II) sit in New the city and handle higher-ticket NBFC litigations. Our lawyers track cause lists. File appearances, and push for mediation or consent terms before assets are attached. For smaller digital lending disputes. The city areas clients Commissions in Shalimar Bagh and Moti Nagar accept complaints. Especially when hidden charges or data misuse is involved.",
+            "When cyber threats or privacy breaches occur. We mobilise the city Police Cyber Cells at Dwarka and Mandir Marg. Lodging complaints with proof packages. Legal escalation combined with settlement outreach often persuades NBFCs to accept reasonable offers sooner."
         ],
     },
     {
@@ -97,9 +97,9 @@ const sections = [
         title: 'Step-by-Step Settlement Blueprint for Delhi Clients',
         level: 2,
         content: [
-            "Step 1: Discovery call and documentation checklist issued within 24 hours. Step 2: Engagement letter signed and compliance notices dispatched to halt harassment. Step 3: Financial analysis and case memo creation referencing Delhi market data. Step 4: Negotiation campaign launched with lender-specific strategy and timeline tracking dashboard shared with the client.",
-            "Step 5: Offer evaluation, counter proposal drafting, and inclusion of structured payment options when needed. Step 6: Legal review of settlement terms, ensuring coverage of co-applicants, guarantors, and post-dated cheques. Step 7: Payment execution via traceable banking channels, followed by collection of receipts, NOCs, and lien release documents.",
-            "Step 8: Bureau update monitoring, Lok Adalat filings (if required), and post-settlement coaching session. Step 9: Quarterly follow-ups for one year to ensure credit rebuild milestones and compliance with tax obligations on any waived amounts."
+            "Step 1: Discovery call and records checklist issued within 24 hours. Step 2: Engagement letter signed and compliance notices dispatched to halt abuse. Step 3: money analysis and case memo creation referencing the city market data. Step 4: talks campaign launched with lender-local plan and timeline tracking dashboard shared with the client.",
+            "Step 5: Offer evaluation, counter proposal drafting. And inclusion of structured payment options when needed. Step 6: Legal review of settlement terms. Ensuring coverage of co-applicants, guarantors, and post-dated cheques. Step 7: Payment execution via traceable banking channels. Followed by collection of receipts. NOCs, and lien release papers.",
+            "Step 8: Bureau update monitoring. Lok Adalat filings (if required), and post-settlement coaching session. Step 9: Quarterly follow-ups for one year to ensure credit rebuild milestones and compliance with tax debts on any waived amounts."
         ],
     },
     {
@@ -107,9 +107,9 @@ const sections = [
         title: 'Documentation Blueprint for Delhi Settlements',
         level: 2,
         content: [
-            "Identity and address proofs: Aadhaar, PAN, voter ID, utility bills, and passport copies. Employment or business proof: appointment letters, salary slips, bank statements, GST returns, MSME registrations, and rent agreements for offices or shops.",
-            "Financial hardship evidence: salary reduction emails, Form 16, termination letters, invoicing dips captured in accounting software, Ola/Uber earnings statements, e-commerce settlement reports, or medical expense bills from AIIMS, Fortis, or Max hospitals.",
-            "Communication records: call logs, WhatsApp screenshots, recovery agent ID photos, audio recordings, and email chains. Proof of funds available for settlement: bank balance certificates, fixed deposit encashment plans, or family contributions documented through affidavits. Each item accelerates negotiation and satisfies NBFC compliance checks."
+            "Identity and address proofs: Aadhaar. PAN, voter ID, utility bills, and passport copies. Employment or trade proof: appointment letters. Pay slips, bank records, GST returns. MSME registrations, and rent pacts for offices or shops.",
+            "Money hardship proof: pay cut emails. Form 16, termination letters, invoicing dips captured in accounting software. Ola/Uber earnings records, e-commerce settlement reports. Or medical expense bills from AIIMS. Fortis, or Max hospitals.",
+            "Contact records: call logs, WhatsApp screenshots. collection agent ID photos, audio recordings, and email chains. Proof of funds available for settlement: bank balance letters. Fixed deposit encashment plans. Or family contributions documented through affidavits. Each item accelerates talks and satisfies NBFC compliance checks."
         ],
     },
     {
@@ -117,9 +117,9 @@ const sections = [
         title: 'Payment Architecture and Compliance Safeguards',
         level: 2,
         content: [
-            "Delhi NCR clients often juggle multiple banking relationships. CredSettle designs a payment architecture that locks settlement funds in escrow-like accounts until the NBFC issues an acceptance letter. We prefer NEFT/RTGS transfers or demand drafts to maintain a verifiable trail.",
-            "For structured settlements, we align instalments with predictable inflows such as monthly retainers, rental income, or institutional purchase orders. Each payment triggers an acknowledgement request within 24 hours to avoid disputes. When NBFCs insist on securing post-dated cheques, we ensure the cheque count matches the schedule and that a destruction clause appears in the final NOC.",
-            "We also handle compliance reporting: TDS certificates for any write-back taxation, Form 26AS verification, and ledger reconciliation so the borrower’s accounting software reflects accurate liabilities and waiver amounts."
+            "the city NCR clients often juggle multiple banking relationships. CredSettle designs a payment architecture that locks settlement funds in escrow-like accounts until the NBFC issues an acceptance letter. We prefer NEFT/RTGS transfers or demand drafts to maintain a verifiable trail.",
+            "For structured settlements. We align EMIs with predictable inflows such as monthly retainers. Rental income, or bank purchase orders. Each payment triggers an receipts request within 24 hours to avoid disputes. When NBFCs insist on securing post-dated cheques. We ensure the cheque count matches the schedule and that a destruction clause appears in the final NOC.",
+            "We also handle compliance reporting: TDS letters for any write-back taxation. Form 26AS verification. And ledger reconciliation so the clients’s accounting software reflects accurate debts and waiver amounts."
         ],
     },
     {
@@ -127,9 +127,9 @@ const sections = [
         title: 'Financial Recovery and Credit Rebuild After Settlement',
         level: 2,
         content: [
-            "Post-settlement, we schedule a financial reset workshop. Clients set up emergency funds through Delhi cooperative banks like Saraswat Bank or Punjab & Sind Bank branches, automate savings via recurring deposits, and segregate personal and business accounts to prevent cash flow confusion.",
-            "We guide clients to review their credit reports from CIBIL, Experian, Equifax, and CRIF High Mark within 45 days of settlement. Any discrepancies trigger online disputes with supporting documents. Once bureaus reflect the correct status, we introduce secured credit products such as fixed-deposit-backed cards or gold loans with lower interest to rebuild repayment history.",
-            "Entrepreneurs receive cash flow templates tailored to local realities - factoring in GST payments, vendor credit terms at Azadpur Mandi, or seasonal tourism inflows in central Delhi. Gig workers receive app-based earning trackers and fuel budgeting tools. Quarterly reviews ensure the recovery roadmap stays on track."
+            "Post-settlement, we schedule a money reset workshop. Clients set up emergency funds through the city local banks like Saraswat Bank or Punjab & Sind Bank branches. Automate savings via recurring deposits. And segregate private and trade accounts to prevent cash flow confusion.",
+            "We guide clients to review their credit reports from CIBIL. Experian, Equifax, and CRIF High Mark within 45 days of settlement. Any discrepancies trigger online disputes with supporting papers. Once bureaus reflect the correct status. We introduce secured credit products such as fixed-deposit-backed cards or gold loans with lower interest to rebuild payment history.",
+            "Founders receive cash flow templates tailored to local realities - factoring in GST payments. Vendor credit terms at Azadpur Mandi. Or seasonal tourism inflows in central the city. Gig workers receive app-based earning trackers and fuel budgeting tools. Quarterly reviews ensure the collection roadmap stays on track."
         ],
     },
     {
@@ -137,9 +137,9 @@ const sections = [
         title: 'Case Diaries from Delhi NCR Borrowers',
         level: 2,
         content: [
-            "Case 1: A Gurugram SaaS founder faced simultaneous defaults across three NBFC business loans totalling INR 96 lakh after a delayed Series A round. CredSettle negotiated a consolidated settlement of INR 41 lakh payable over four instalments aligned with a new client contract. Legal notices in Saket court were withdrawn after consent terms were filed.",
-            "Case 2: A Dwarka-based ride-hailing driver with two vehicle loans and a digital payday loan saw earnings plummet during pollution-related odd-even restrictions. By presenting aggregator earnings data and repair invoices, we secured a 55% reduction and structured payments that matched new incentive cycles.",
-            "Case 3: A Karol Bagh jewellery trader used six NBFC lines for working capital. After COVID-era store closures, arrears ballooned to INR 78 lakh. CredSettle routed the matter through a special Lok Adalat session at Patiala House Courts, closing with a 48% settlement funded through a family property refinancing plan."
+            "Case 1: A Gurugram SaaS founder faced simultaneous defaults across three NBFC firm loans totalling INR 96 lakh after a delayed Series A round. CredSettle settled a consolidated settlement of INR 41 lakh payable over four EMIs aligned with a new client contract. Legal notices in Saket court were withdrawn after consent terms were filed.",
+            "Case 2: A Dwarka-based ride-hailing driver with two vehicle loans and a digital payday loan saw earnings plummet during pollution-related odd-even restrictions. By presenting apps earnings data and repair invoices. We secured a 55% cut and structured payments that matched new incentive cycles.",
+            "Case 3: A Karol Bagh jewellery trader used six NBFC lines for working cash. After COVID-era store closures. Arrears ballooned to INR 78 lakh. CredSettle routed the matter through a special Lok Adalat session at Patiala House Courts. Closing with a 48% settlement funded through a family property refinancing plan."
         ],
     }
 ];
@@ -218,9 +218,7 @@ function DelhiPageClient() {
             fontFamily: 'Poppins',
             lineHeight: '28px',
             marginBottom: '20px'
-        }}>
-                {heroCopy.description}
-              </p>
+        }}> {heroCopy.description} </p>
               <button className="text-white text-sm md:text-base lg:text-[18.58px] px-6 md:px-8 lg:px-[39.44px] py-2 md:py-3 lg:py-[13.48px]" style={{
             borderRadius: '32.4px',
             background: '#007AFF',
@@ -258,9 +256,7 @@ function DelhiPageClient() {
                 fontFamily: 'Poppins',
                 lineHeight: '28px'
             }}>
-                    {section.content.map((paragraph, index) => (<p key={index} style={{ marginBottom: '16px' }}>
-                        {paragraph}
-                      </p>))}
+                    {section.content.map((paragraph, index) => (<p key={index} style={{ marginBottom: '16px' }}> {paragraph} </p>))}
                   </div>
                 </section>))}
             </div>
@@ -281,9 +277,7 @@ function DelhiPageClient() {
                     <h2 className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full" style={{ color: '#0C2756' }}>
                       Ready to Build Your Delhi Settlement Plan?
                     </h2>
-                    <p className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full" style={{ color: 'rgba(12, 39, 86, 0.70)' }}>
-                      Share loan statements and hardship proof. Our Delhi command centre drafts your negotiation blueprint within 48 hours.
-                    </p>
+                    <p className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full" style={{ color: 'rgba(12, 39, 86, 0.70)' }}> Share loan records and hardship proof. Our the city command centre drafts your talks blueprint within 48 hours. </p>
                   </div>
 
                 <CTAButton>

@@ -48,43 +48,43 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
     const faqs = [
         {
             q: "Can recovery agents legally seize my property or household items for an unsecured personal loan?",
-            a: "No. Recovery agents have zero legal authority or statutory power to seize, attach. Confiscate any movable or immovable property for an unsecured personal loan. Any agent attempting to forcefully enter your home or confiscate items commits criminal trespass (Section 441 IPC / Section 329 BNS), extortion (Section 383 IPC / Section 308 BNS). Criminal intimidation (Section 506 IPC), violating the RBI Fair Practices Code."
+            a: "No. Claims agents have zero legal formal or legal power to seize. Attach. Confiscate any movable or immovable property for an no-pledge private loans. Any agent attempting to forcefully enter your home or confiscate items commits criminal trespass (Section 441 IPC / Section 329 BNS). Extortion (Section 383 IPC / Section 308 BNS). Criminal threats (Section 506 IPC). Violating the RBI Fair Practices Code."
         },
         {
             q: "Does the SARFAESI Act apply to unsecured personal loans or credit card debts?",
-            a: "No. Under Section 31(i) of the SARFAESI Act, 2002, the law applies only to secured creditors holding a registered mortgage, hypothecation. Pledge. Unsecured personal loans and credit cards do not create any security interest or lien over your assets. Therefore, banks cannot issue SARFAESI Section 13(2) demand notices or Section 13(4) possession notices for unsecured debts."
+            a: "No. Under Section 31(i) of the SARFAESI Act. 2002. The law applies only to secured creditors holding a registered mortgage. Hypothecation. Pledge. no-pledge private loans and credit cards do not create any security interest or lien over your assets. Therefore. Banks cannot issue SARFAESI Section 13(2) demand notices or Section 13(4) takeover notices for no-pledge debts."
         },
         {
             q: "Can a bank auction or sell my house if I default on a personal loan?",
-            a: "A bank cannot directly auction or sell your house for an unsecured personal loan default. To reach any property, the bank must first file a civil suit or arbitration claim, obtain a monetary decree or arbitral award. Then file an Execution Petition under Order 21 of the Code of Civil Procedure (CPC). also, Section 60 of the CPC protects primary residential dwellings, essential household items. Livelihood tools from execution attachment."
+            a: "A bank cannot straight auction or sell your house for an no-pledge private loans default. To reach any property. The bank must first file a civil suit or arbitration claim. Obtain a monetary decree or arbitral award. Then file an Execution Petition under Order 21 of the Code of Civil Procedure (CPC). Also. Section 60 of the CPC protects primary residential dwellings. Essential household items. Livelihood tools from execution attachment."
         },
         {
             q: "What property is exempt from court attachment under Section 60 of the CPC?",
-            a: "Under Section 60(1) of the Code of Civil Procedure, 1908, the law strictly exempts essential personal assets from attachment: necessary wearing apparel, cooking vessels, beds. Bedding. Tools of artisans and agricultural implements. Books of accounts. Pensions, gratuity, and Employee Provident Fund (EPF/PPF) deposits. Life insurance policy proceeds; and statutory exemptions on basic salaried earnings."
+            a: "Under Section 60(1) of the Code of Civil Procedure. 1908. The law strictly exempts essential own assets from attachment: necessary wearing apparel. Cooking vessels. Beds. Bedding. Tools of artisans and farm implements. Books of accounts. Pensions. Gratuity. And staff Provident Fund (EPF/PPF) deposits. Life cover policy proceeds. and legal exemptions on basic salaried earnings."
         },
         {
             q: "What should I do if a recovery agent threatens to bring a seizure team or police to my house?",
-            a: "Immediately demand the agent's official ID card, bank approval letter, and DRS (Debt Recovery System) registration. Inform them clearly that personal loan default is a civil dispute and that unauthorized seizure threats violate RBI Master Directions. Record the interaction via audio or video, notify the local police station of criminal intimidation if they refuse to leave. Submit a formal complaint to the bank's Principal Nodal Officer (PNO) and the RBI Ombudsman."
+            a: "Promptly demand the agent's formal ID card. Bank approval letter. And DRS (Debt claims System) registration. Inform them clearly that private loans default is a civil dispute and that illegal seizure threats violate RBI Master Directions. Record the interaction via audio or video. Notify the local police station of criminal threats if they refuse to leave. Submit a formal complaint to the bank's main loan Nodal Officer (PNO) and the RBI Ombudsman."
         },
         {
             q: "Can a bank freeze or attach my salary account for a personal loan default?",
-            a: "A bank cannot freeze your salary account on its own without a specific attachment order from a competent Civil Court or a banker's right of set-off on an account held within the same banking institution. Under Section 60(1)(i) of the CPC, any court attachment on salary is strictly capped—the first ₹1,000 plus two-thirds of the remainder of the monthly salary is completely exempt from attachment."
+            a: "A bank cannot freeze your salary account on its own without a local attachment order from a competent Civil Court or a banker's right of set-off on an account held within the same banking institution. Under Section 60(1)(i) of the CPC. Any court attachment on salary is strictly capped. The first ₹1,000 plus two-thirds of the remainder of the monthly salary is completely exempt from attachment."
         },
         {
             q: "What is the difference between an Asset Reconstruction Company (ARC) and a recovery agent?",
-            a: "An Asset Reconstruction Company (ARC) is an RBI-registered financial institution that buys bad loan portfolios (NPAs) from banks under Section 5 of the SARFAESI Act. An ARC steps into the legal shoes of the original lender. However, for unsecured loans, ARCs inherit the exact same unsecured legal status and cannot seize property without a court decree, being bound by the identical RBI recovery guidelines."
+            a: "An Asset Reconstruction Company (ARC) is an RBI-registered bank that buys bad loan portfolios (NPAs) from banks under Section 5 of the SARFAESI Act. An ARC steps into the legal shoes of the original lender. However. For no-pledge loans. ARCs inherit the exact same no-pledge legal status and cannot seize property without a court decree. Being bound by the identical RBI claims rules."
         },
         {
             q: "How can I identify fake court notices or forged property attachment warrants?",
-            a: "Real court summons and execution orders are issued under the seal of a District Civil Court and contain a unique 16-digit CNR (Case Number Record) that can be verified online on the official eCourts Services portal (ecourts.gov.in). Fake notices sent by collection agencies often lack a valid CNR, use generic threatening language, demand direct UPI transfers to private accounts. Are sent over WhatsApp without official court registry dispatch numbers."
+            a: "Real court summons and execution orders are issued under the seal of a areas Civil Court and contain a unique 16-digit CNR (Case Number Record) that can be verified online on the formal eCourts Services portal (ecourts.gov.in). Fake notices sent by claims firms often lack a valid CNR. Use generic threatening language. Demand direct UPI transfers to private accounts. Are sent over WhatsApp without formal court registry dispatch numbers."
         },
         {
             q: "Can I negotiate a One-Time Settlement (OTS) to permanently protect my assets?",
-            a: "Yes. Negotiating a formal One-Time Settlement (OTS) with the bank's authorized settlement desk or Principal Nodal Officer allows you to settle the outstanding debt with a 40% to 75% waiver on accumulated penal interest and charges. Once settled and paid through official banking channels, the bank issues an unconditional No Dues Certificate (NDC), permanently extinguishing all legal claims and eliminating any risk of future litigation or asset attachment."
+            a: "Yes. settling a formal One-Time Settlement (OTS) with the bank's authorized settlement teams or main loan Nodal Officer allows you to settle the unpaid debt with a 40% to 75% waiver on total penal interest and charges. Once settled and paid through formal banking channels. The bank issues an full No Dues letter (NDC). Permanently extinguishing all legal claims and eliminating any risk of future lawsuits or asset attachment."
         },
         {
             q: "What legal remedies exist against abusive recovery agents under Indian law?",
-            a: "Borrowers have multi-tier legal remedies: (1) Filing a formal harassment complaint with the bank's Principal Nodal Officer (PNO), (2) Escalating to the RBI Integrated Ombudsman (cms.rbi.org.in) for statutory penalties against the bank, (3) Filing an FIR under Sections 329, 308. 351 of the Bharatiya Nyaya Sanhita (BNS) / Sections 441, 383. 506 of the IPC for criminal intimidation and extortion. (4) Filing a civil injunction suit or Consumer Protection complaint for damages."
+            a: "Clients have multi-tier legal remedies: (1) Filing a formal abuse complaint with the bank's main loan Nodal Officer (PNO). (2) Escalating to the RBI Integrated Ombudsman (cms.rbi.org.in) for legal penalties against the bank. (3) Filing an FIR under Sections 329. 308. 351 of the Bharatiya Nyaya Sanhita (BNS) / Sections 441. 383. 506 of the IPC for criminal threats and extortion. (4) Filing a civil injunction suit or clients Protection complaint for damages."
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -96,9 +96,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
             Can Recovery Agents Seize Property?
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed">
-            Worried that recovery agents will seize your house or assets for an unsecured personal loan? Understand your legal protections under Section 60 CPC, SARFAESI Act restrictions. What banks are actually allowed to do.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> Worried that claims agents will seize your house or assets for an no-pledge private loans? Understand your legal protections under Section 60 CPC. SARFAESI Act restrictions. What banks are actually allowed to do. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -141,9 +139,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>Asset Protection Law.</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Governed by CPC 1908 Section 60, SARFAESI Act 2002 &amp; RBI Fair Practices Code.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by CPC 1908 Section 60. SARFAESI Act 2002 &amp. RBI Fair Practices Code. </p>
               </div>
             </div>
           </aside>
@@ -159,40 +155,15 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
               </div>
 
               <ul className="space-y-3.5 text-xs sm:text-sm text-slate-700 leading-relaxed">
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Zero Direct Seizure Authority:</strong> Recovery agents and collection agencies have absolutely zero legal authority to enter your premises, confiscate household items. Seize movable or immovable property. Any forceful entry or physical seizure constitutes criminal trespass and extortion under the Bharatiya Nyaya Sanhita (BNS) and IPC.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Zero Direct Seizure formal:</strong> claims agents and claims firms have absolutely zero legal formal to enter your premises. Confiscate household items. Seize movable or immovable property. Any forceful entry or physical seizure constitutes criminal trespass and extortion under the Bharatiya Nyaya Sanhita (BNS) and IPC. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">SARFAESI Act Does NOT Apply to Unsecured Debts:</strong> Under Section 31(i) of the SARFAESI Act, 2002, the summary property attachment powers without court intervention apply strictly to secured loans (such as home mortgages). Unsecured personal loans and credit cards do not create any legal charge or mortgage over your property.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">SARFAESI Act Does NOT Apply to no-pledge Debts:</strong> Under Section 31(i) of the SARFAESI Act. 2002. The summary property attachment powers without court intervention apply strictly to secured loans (such as home mortgages). no-pledge private loans and credit cards do not create any legal charge or mortgage over your property. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Section 60 CPC Statutory Protections:</strong> Even if a lender obtains a formal civil money decree, Section 60 of the Code of Civil Procedure (CPC), 1908 exempts essential items, primary residential houses (under state amendments), wearing apparel, cooking utensils, tools of livelihood, pensions, EPF. Gratuity from execution attachment.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Section 60 CPC legal Protections:</strong> Even if a lender obtains a formal civil money decree. Section 60 of the Code of Civil Procedure (CPC). 1908 exempts essential items. Primary residential houses (under state amendments). Wearing apparel. Cooking utensils. Tools of livelihood. Pensions. EPF. Gratuity from execution attachment. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Supreme Court Strict Anti-Musclemen Precedents:</strong> In landmark judgments including. <em>ICICI Bank Ltd. v. Prakash Kaur (2007).</em> and <em>CBI v. Bank of India.</em>, the Supreme Court ruled that banks cannot use recovery agents to forcefully seize property or intimidate borrowers, establishing civil liability and criminal action for violations.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Supreme Court Strict Anti-Musclemen rulings:</strong> In landmark judgments including. <em>ICICI Bank Ltd. v. Prakash Kaur (2007).</em> and <em>CBI v. Bank of India.</em>The Supreme Court ruled that banks cannot use claims agents to forcefully seize property or intimidate clients. Establishing civil debt risk and criminal action for violations. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Permanent Remedy via One-Time Settlement (OTS):</strong> Resolving an unsecured loan default through a structured compromise One-Time Settlement (OTS) eliminates all legal litigation risk, secures an unconditional No Dues Certificate (NDC). Protects your personal assets permanently.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Permanent Remedy via One-Time Settlement (OTS):</strong> Resolving an no-pledge loan default through a structured OTS deal One-Time Settlement (OTS) eliminates all legal lawsuits risk. Secures an full No Dues letter (NDC). Protects your own assets permanently. </div> </li>
               </ul>
             </div>
 
@@ -205,12 +176,8 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 1. What Legal Powers Do Debt Recovery Agents Actually Have?
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When borrowers experience genuine financial distress due to medical emergencies, business downturns. Sudden job loss and default on unsecured personal loan Equated Monthly Installments (EMIs), third-party debt recovery agencies often resort to aggressive, intimidating tactics. One of the most terrifying threats used by these agents is claiming that they will arrive with a &quot;seizure squad&quot;, confiscate your vehicle, take away household furniture and electronics. Seal your residential premises.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Under Indian banking jurisprudence, commercial statutes. Reserve Bank of India (RBI) regulations, let us state the law unambiguously: <strong>A recovery agent has ZERO legal authority to seize, attach, impound, confiscate. Take possession of any property whatsoever.</strong>
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When clients skill genuine debt stress due to medical emergencies. Trade downturns. Sudden job loss and default on no-pledge private loans Equated Monthly Installments (EMIs). Third-party debt claims firms often resort to aggressive. Intimidating tactics. One of the most terrifying threats used by these agents is claiming that they will arrive with a &quot. seizure squad&quot. Confiscate your vehicle. Take away household furniture and electronics. Seal your residential premises. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Under Indian banking jurisprudence, trade statutes. Reserve Bank of India (RBI) regulations. Let us state the law unambiguously: <strong>A claims agent has ZERO legal formal to seize. Attach. Impound. Confiscate. Take takeover of any property whatsoever.</strong> </p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-blue-200/80 shadow-xs space-y-2">
@@ -218,9 +185,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                     <UserCheck className="w-4 h-4"/>
                     <span>Pure Facilitation Role.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Recovery agents are third-party service contractors hired solely to communicate and help voluntary repayment. They hold no judicial or executive enforcement powers under Indian law.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> claims agents are third-party service contractors hired solely to communicate and help voluntary payment. They hold no judicial or executive enforcement powers under Indian law. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-red-200/80 shadow-xs space-y-2">
@@ -228,9 +193,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                     <ShieldAlert className="w-4 h-4"/>
                     <span>Criminal Liabilities.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Any agent attempting forceful home entry or physical asset confiscation commits Criminal Trespass (Sec 329 BNS / Sec 441 IPC) and Extortion (Sec 308 BNS / Sec 383 IPC).
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Any agent attempting forceful home entry or physical asset confiscation commits Criminal Trespass (Sec 329 BNS / Sec 441 IPC) and Extortion (Sec 308 BNS / Sec 383 IPC). </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-emerald-200/80 shadow-xs space-y-2">
@@ -238,9 +201,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                     <Gavel className="w-4 h-4"/>
                     <span>Court Order Mandatory.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Only an authorized Bailiff or Court Amin executing a valid Civil Court decree under Order 21 CPC can legally attach assets, never a private recovery agency.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Only an authorized Bailiff or Court Amin executing a valid Civil Court decree under Order 21 CPC can legally attach assets. Never a private claims firm. </p>
                 </div>
               </div>
 
@@ -249,9 +210,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                   <ShieldCheck className="w-5 h-5 text-emerald-600 flex-shrink-0"/>
                   <span>Supreme Court Precedent: ICICI Bank Ltd. v. Prakash Kaur (2007) 2 SCC 711.</span>
                 </div>
-                <p className="text-xs md:text-sm text-emerald-950 leading-relaxed">
-                  The Hon&apos;ble Supreme Court of India held in unequivocal terms that banks cannot deploy musclemen or private recovery agents to take forceful possession of property. The Court declared: <em>&quot;We are governed by a rule of law in the country. The recovery of loans must be done only through legal procedure. The practice of using musclemen to take possession of property from defaulting borrowers is completely illegal and unconstitutional.&quot;.</em>
-                </p>
+                <p className="text-xs md:text-sm text-emerald-950 leading-relaxed"> The Hon&apos. ble Supreme Court of India held in unequivocal terms that banks cannot deploy musclemen or private claims agents to take forceful takeover of property. The Court declared: <em>&quot. We are governed by a rule of law in the country. The claims of loans must be done only through legal procedure. The practice of using musclemen to take takeover of property from defaulting clients is completely illegal and illegal.&quot.</em> </p>
               </div>
             </section>
 
@@ -264,12 +223,8 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 2. Why SARFAESI Section 13 Does Not Apply to Personal Loans
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                A common scare tactic used by unethical collection agencies is sending notices bearing threatening legal jargon such as &quot;Notice under Section 13(2) of SARFAESI Act&quot. Or &quot;Imminent Auction of Residential House under SARFAESI Rules&quot;. Many borrowers panic because they know the SARFAESI Act enables banks to seize mortgaged properties without going through a civil court.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                However, applying the SARFAESI Act to an unsecured personal loan or credit card is legally impossible and constitutes a gross misrepresentation of statutory law. Here is the exact legal reality:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> A common scare tactic used by unethical claims firms is sending notices bearing threatening legal jargon such as &quot. Notice under Section 13(2) of SARFAESI Act&quot. Or &quot. Imminent Auction of Residential House under SARFAESI Rules&quot. Many clients panic because they know the SARFAESI Act enables banks to seize mortgaged properties without going through a civil court. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> However. Applying the SARFAESI Act to an no-pledge private loans or credit card is legally impossible and constitutes a gross misrepresentation of legal law. Here is the exact legal reality: </p>
 
               <div className="space-y-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -282,9 +237,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                   <h3 className="text-sm md:text-base font-bold text-slate-900">
                     Express Exemption of Unsecured Loans &amp; General Debts
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Section 31(i) of the Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest (SARFAESI) Act, 2002 explicitly mandates that the provisions of this Act. <strong>shall not apply to any security interest created in agricultural land. Any case in which no security interest is created.</strong>. Because an unsecured personal loan contains no mortgage deed, no hypothecation. No pledge of assets, SARFAESI powers are completely unavailable to the lender.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Section 31(i) of the Securitisation and Reconstruction of money Assets and Enforcement of Security Interest (SARFAESI) Act. 2002 explicitly mandates that the provisions of this Act. <strong>shall not apply to any security interest created in farm land. Any case in which no security interest is created.</strong>. Because an no-pledge private loans contains no mortgage deed. No hypothecation. No pledge of assets. SARFAESI powers are completely unavailable to the lender. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -297,16 +250,12 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                   <h3 className="text-sm md:text-base font-bold text-slate-900">
                     Why Mortgage Rights Cannot Be Assumed
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    When you take a home loan, you execute a registered Memorandum of Deposit of Title Deeds (MODTD), giving the bank an equitable mortgage over the property. In stark contrast, when you take an unsecured personal loan, the bank prices in higher interest rates precisely because they have no collateral backup. They cannot later claim rights over your house as if it were a mortgage.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> When you take a home loan. You execute a registered Memorandum of Deposit of Title Deeds (MODTD). Giving the bank an equitable mortgage over the property. In stark contrast. When you take an no-pledge private loans. The bank prices in higher interest rates precisely because they have no security backup. They cannot later claim rights over your house as if it were a mortgage. </p>
                 </div>
               </div>
 
               <div className="bg-amber-50 border border-amber-200 p-4 rounded-xl text-xs md:text-sm text-slate-700 leading-relaxed">
-                <p className="text-amber-900">
-                  <strong>How to Respond to Fake SARFAESI Notices:</strong> If a collection agency serves a SARFAESI demand notice for a personal loan or credit card, it is legally invalid. A prompt formal legal rebuttal drafted to the bank&apos;s Principal Nodal Officer pointing out the violation of Section 31(i) will immediately compel the bank to retract the notice and discipline the errant collection agency.
-                </p>
+                <p className="text-amber-900"> <strong>How to Respond to Fake SARFAESI Notices:</strong> If a claims firm serves a SARFAESI demand notice for a private loans or credit card. It is legally invalid. A prompt formal legal rebuttal drafted to the bank&apos. s main loan Nodal Officer pointing out the violation of Section 31(i) will promptly compel the bank to retract the notice and discipline the errant claims firm. </p>
               </div>
             </section>
 
@@ -319,12 +268,8 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 3. Section 60 CPC: Assets Protected From Court Attachment
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                To understand the limits of what a bank can do even if they decide to litigate in a regular civil court, one must examine the. <strong>Code of Civil Procedure, 1908 (CPC).</strong>. If a bank files a civil money suit (or arbitration) and after years of litigation wins a money decree, it must file an. <em>Execution Petition under Order 21 of the CPC.</em> to attach the judgment-debtor&apos;s property.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                However, Parliament incorporated rigorous socio-economic safeguards under. <strong>Section 60 of the CPC.</strong>. Section 60 explicitly exempts vital personal, domestic, and livelihood assets from any form of court attachment or sale:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> To understand the limits of what a bank can do even if they decide to litigate in a regular civil court. One must examine the. <strong>Code of Civil Procedure, 1908 (CPC).</strong>. If a bank files a civil money suit (or arbitration) and after years of lawsuits wins a money decree. It must file an. <em>Execution Petition under Order 21 of the CPC.</em> to attach the judgment-debtor&apos. s property. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> However. Parliament incorporated rigorous socio-economic safeguards under. <strong>Section 60 of the CPC.</strong>. Section 60 explicitly exempts vital private. Domestic. And livelihood assets from any form of court attachment or sale: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-3">
@@ -333,9 +278,9 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                     Domestic Necessities &amp; Primary Shelter
                   </h3>
                   <ul className="space-y-2 text-xs text-slate-600 leading-relaxed list-disc list-inside">
-                    <li><strong>Necessary Wearing Apparel &amp; Bedding:</strong> All clothing, cooking vessels, kitchen utensils, beds. Bedding of the borrower and family are 100% exempt from attachment under Section 60(1)(a).</li>
-                    <li><strong>Livelihood Tools of Artisans:</strong> Tools of artisans, agricultural implements. Cattle necessary to earn a basic living cannot be attached under Section 60(1)(b).</li>
-                    <li><strong>Primary Residential Dwellings:</strong> Under various State Amendments to Section 60 (e.g., Delhi, Maharashtra, Punjab, Karnataka), the sole residential house of a judgment-debtor cannot be attached or sold to satisfy an unsecured money decree.</li>
+                    <li><strong>Necessary Wearing Apparel &amp. Bedding:</strong> All clothing. Cooking vessels. Kitchen utensils. Beds. Bedding of the client and family are 100% exempt from attachment under Section 60(1)(a).</li>
+                    <li><strong>Livelihood Tools of Artisans:</strong> Tools of artisans, farm implements. Cattle necessary to earn a basic living cannot be attached under Section 60(1)(b).</li>
+                    <li><strong>Primary Residential Dwellings:</strong> Under various State Amendments to Section 60 (e.g. Delhi. Maharashtra. Punjab. Karnataka). The sole residential house of a judgment-debtor cannot be attached or sold to satisfy an no-pledge money decree.</li>
                   </ul>
                 </div>
 
@@ -345,17 +290,15 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                     Salary, Pension &amp; Retirement Protections
                   </h3>
                   <ul className="space-y-2 text-xs text-slate-600 leading-relaxed list-disc list-inside">
-                    <li><strong>Salary Attachment Cap (Section 60(1)(i)):</strong> In civil execution, the first ₹1,000 plus two-thirds of the remainder of monthly salary is completely exempt from attachment. The remaining one-third can only be attached for a maximum continuous period of 24 months.</li>
-                    <li><strong>EPF and PPF Immunity:</strong> Monies standing in Employee Provident Fund (EPF) and Public Provident Fund (PPF) are statutorily protected from court attachment under the Provident Funds Act, 1925.</li>
-                    <li><strong>Pensions and Gratuity:</strong> Government pensions and statutory gratuity payable under the Payment of Gratuity Act, 1972 are immune under Section 60(1)(g).</li>
+                    <li><strong>Salary Attachment Cap (Section 60(1)(i)):</strong> In civil execution. The first ₹1,000 plus two-thirds of the remainder of monthly salary is completely exempt from attachment. The remaining one-third can only be attached for a maximum steady period of 24 months.</li>
+                    <li><strong>EPF and PPF Immunity:</strong> Monies standing in staff Provident Fund (EPF) and Public Provident Fund (PPF) are statutorily protected from court attachment under the Provident Funds Act. 1925.</li>
+                    <li><strong>Pensions and Gratuity:</strong> Government pensions and legal gratuity payable under the Payment of Gratuity Act. 1972 are immune under Section 60(1)(g).</li>
                   </ul>
                 </div>
               </div>
 
               <div className="bg-blue-50/70 border border-blue-200/70 p-4 rounded-xl text-xs md:text-sm text-slate-700 leading-relaxed">
-                <p>
-                  <strong>Summary of Legal Protections:</strong> Even with a full Civil Court decree, a lender cannot render a borrower homeless, cannot take away daily domestic necessities, cannot touch retirement PF funds. Cannot seize salary beyond a strictly capped fractional limit.
-                </p>
+                <p> <strong>Summary of Legal Protections:</strong> Even with a full Civil Court decree. A lender cannot render a client homeless. Cannot take away daily domestic necessities. Cannot touch retirement PF funds. Cannot seize salary beyond a strictly capped fractional limit. </p>
               </div>
             </section>
 
@@ -368,9 +311,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 4. Asset Attachment Comparison: Secured vs Unsecured Loans
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Understanding the vast statutory distinction between secured collateral and unsecured personal debt is crucial for evaluating your exposure. This comparative grid details how property rights and recovery powers differ across loan categories in India:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Understanding the vast legal distinction between secured security and no-pledge private debt is crucial for evaluating your exposure. This comparative grid details how property rights and claims powers differ across loan categories in India: </p>
 
               {/* TABLE WITH BOTH VERTICAL AND HORIZONTAL GRID LINES */}
               <div className="overflow-x-auto rounded-xl border border-slate-300 bg-white shadow-xs">
@@ -389,42 +330,42 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                     <tr className="hover:bg-slate-50">
                       <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Home Loan / LAP</td>
                       <td className="p-3 md:p-3.5 border border-slate-300">Equitable Mortgage on Immovable Property.</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-red-700 font-bold">YES (Sec 13(2) &amp; 13(4)).</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-red-700 font-bold">YES (Sec 13(2) &amp. 13(4)).</td>
                       <td className="p-3 md:p-3.5 border border-slate-300 text-amber-700 font-semibold">Only Authorized Officer with DM Order.</td>
                       <td className="p-3 md:p-3.5 border border-slate-300 text-slate-600">NO (Direct SARFAESI Enforcement).</td>
                       <td className="p-3 md:p-3.5 border border-slate-300 text-[#1886ff] font-semibold">File Section 17 Securitisation Application before DRT.</td>
                     </tr>
                     <tr className="hover:bg-slate-50">
                       <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Auto / Vehicle Loan.</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300">Hypothecation of Specific Vehicle.</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300">Hypothecation of local Vehicle.</td>
                       <td className="p-3 md:p-3.5 border border-slate-300 text-red-700 font-bold">YES (Moveable Asset Securitisation).</td>
                       <td className="p-3 md:p-3.5 border border-slate-300 text-amber-700 font-semibold">Strict RBI notice required before repossession.</td>
                       <td className="p-3 md:p-3.5 border border-slate-300 text-slate-600">NO (Subject to Fair Practices Code).</td>
                       <td className="p-3 md:p-3.5 border border-slate-300 text-[#1886ff] font-semibold">Challenge repossession without prior notice under Prakash Kaur.</td>
                     </tr>
                     <tr className="hover:bg-slate-50">
-                      <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Personal Loan (Bank / NBFC).</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">NONE (100% Unsecured).</td>
+                      <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">private loans (Bank / NBFC).</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">NONE (100% no-pledge).</td>
                       <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">NO (Exempt under Sec 31(i)).</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">NO (Zero Authority).</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">NO (Zero formal).</td>
                       <td className="p-3 md:p-3.5 border border-slate-300 text-slate-900 font-semibold">YES (Civil Suit / Arbitration Decree).</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-[#1886ff] font-semibold">Assert Sec 60 CPC Shield &amp; Negotiate Compromise OTS.</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-[#1886ff] font-semibold">Assert Sec 60 CPC Shield &amp. settle OTS deal OTS.</td>
                     </tr>
                     <tr className="hover:bg-slate-50">
                       <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Credit Card Debt.</td>
                       <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">NONE (Revolving Line of Credit).</td>
                       <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">NO (Exempt under Sec 31(i)).</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">NO (Zero Authority).</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">NO (Zero formal).</td>
                       <td className="p-3 md:p-3.5 border border-slate-300 text-slate-900 font-semibold">YES (Civil Money Suit / Lok Adalat).</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-[#1886ff] font-semibold">Dispute inflated finance charges &amp; execute final OTS.</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-[#1886ff] font-semibold">Dispute inflated finance charges &amp. execute final OTS.</td>
                     </tr>
                     <tr className="hover:bg-slate-50">
                       <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Digital Fintech Loan Apps.</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">NONE (Digital Unsecured Advance).</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">NONE (Digital no-pledge Advance).</td>
                       <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">NO (Exempt under Sec 31(i)).</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">NO (Illegal Harassment Prohibited).</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">NO (Illegal abuse Prohibited).</td>
                       <td className="p-3 md:p-3.5 border border-slate-300 text-slate-900 font-semibold">YES (Rarely pursued in court).</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-[#1886ff] font-semibold">File Cyber Crime &amp; RBI Sachet complaint for data privacy breach.</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-[#1886ff] font-semibold">File Cyber Crime &amp. RBI Sachet complaint for data privacy breach.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -440,9 +381,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 5. Why Banks Rarely Attach Property for Personal Loans
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Borrowers often wonder: <em>&quot;If banks technically have the right to file a civil suit and seek execution, why do recovery agents make empty seizure threats instead of filing cases immediately?&quot;.</em> The answer lies in the rigorous cost-benefit mathematics of institutional litigation in India.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> clients often wonder: <em>&quot. If banks technically have the right to file a civil suit and seek execution. Why do claims agents make empty seizure threats instead of filing cases promptly?&quot.</em> The answer lies in the rigorous cost-benefit mathematics of bank lawsuits in India. </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-3">
@@ -505,9 +444,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
               </div>
 
               <div className="bg-slate-100/90 border border-slate-200 p-4 rounded-xl text-xs md:text-sm text-slate-700 leading-relaxed">
-                <p>
-                  <strong>Strategic Takeaway for Borrowers:</strong> For personal loans under ₹15 to ₹20 Lakhs, executing property attachment through civil court costs banks more in court fees, legal costs. Multi-year delays than the recoverable sum. This is why banks prefer offering a. <strong>One-Time Settlement (OTS).</strong> to clean their balance sheet rather than litigating.
-                </p>
+                <p> <strong>Strategic Takeaway for clients:</strong> For private loans under ₹15 to ₹20 Lakhs. Executing property attachment through civil court costs banks more in court fees. Legal costs. Multi-year delays than the recoverable sum. This is why banks prefer offering a. <strong>One-Time Settlement (OTS).</strong> to clean their balance sheet rather than litigating. </p>
               </div>
             </section>
 
@@ -520,9 +457,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Visual Defense Blueprint: 6-Step Asset Protection Roadmap
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Review this high-level visual roadmap illustrating how Indian statutory law protects your personal assets, how to handle unlawful recovery harassment. How to reach an amicable compromise settlement:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Review this high-level visual roadmap illustrating how Indian legal law protects your own assets. How to handle unlawful claims abuse. How to reach an amicable OTS deals: </p>
 
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-sm p-3 md:p-4 overflow-hidden">
                 <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-slate-100">
@@ -547,9 +482,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 6. 6-Stage SOP for Borrowers Facing Property Seizure Threats
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                If recovery agents contact you or visit your home making threats of asset confiscation, follow this structured, legally backed 6-stage Standard Operating Procedure to protect your rights:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> If claims agents contact you or visit your home making threats of asset confiscation. Follow this structured. Legally backed 6-stage Standard Operating Procedure to protect your rights: </p>
 
               <div className="space-y-4 pt-2">
                 {/* Stage 1 */}
@@ -562,9 +495,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                       Stage 1: Credential Verification &amp; Audio/Video Documentation
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10">
-                    Demand the recovery agent&apos;s official Employee ID card, the bank&apos;s direct letter of approval. Their Debt Recovery Agency (DRA) accreditation details. Record all telephonic conversations and home visits. Do not sign any handwritten undertakings or voluntary surrender slips under duress.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10"> Demand the claims agent&apos. S formal staff ID card. The bank&apos. s direct letter of approval. Their Debt claims firm (DRA) accreditation details. Record all telephonic conversations and home visits. Do not sign any handwritten undertakings or voluntary surrender slips under duress. </p>
                 </div>
 
                 {/* Stage 2 */}
@@ -577,9 +508,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                       Stage 2: Rebuttal on SARFAESI &amp; Section 60 CPC Immunity
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10">
-                    Inform the agent in writing or verbally that an unsecured personal loan contains no mortgage lien, making SARFAESI Act inapplicable under Section 31(i). Remind them that primary residences and basic household assets are statutorily protected from execution under Section 60 of the CPC.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10"> Inform the agent in writing or verbally that an no-pledge private loans contains no mortgage lien. Making SARFAESI Act inapplicable under Section 31(i). Remind them that primary residences and basic household assets are statutorily protected from execution under Section 60 of the CPC. </p>
                 </div>
 
                 {/* Stage 3 */}
@@ -592,9 +521,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                       Stage 3: Cease &amp; Desist Notice to Bank Principal Nodal Officer (PNO)
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10">
-                    Issue a formal legal Cease &amp. Desist notice addressed to the bank&apos;s Principal Nodal Officer and Managing Director. Cite specific instances of agent intimidation, time-stamp violations (calling outside 8 AM to 7 PM). Illegal seizure threats in violation of RBI Master Directions.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10"> Issue a formal legal Cease &amp. Desist notice addressed to the bank&apos. s main loan Nodal Officer and Managing Director. Cite local instances of agent threats. Time-stamp violations (calling outside 8 AM to 7 PM). Illegal seizure threats in violation of RBI Master Directions. </p>
                 </div>
 
                 {/* Stage 4 */}
@@ -607,9 +534,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                       Stage 4: Police Complaint for Extortion and Criminal Intimidation
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10">
-                    If agents threaten physical force, attempt to enter your home without consent. Threaten your family, lodge an immediate written complaint / FIR at the local police station under Section 329 (Criminal Trespass), Section 308 (Extortion). Section 351 (Criminal Intimidation) of the Bharatiya Nyaya Sanhita (BNS).
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10"> If agents threaten physical force. Attempt to enter your home without consent. Threaten your family. Lodge an fast written complaint / FIR at the local police station under Section 329 (Criminal Trespass). Section 308 (Extortion). Section 351 (Criminal threats) of the Bharatiya Nyaya Sanhita (BNS). </p>
                 </div>
 
                 {/* Stage 5 */}
@@ -622,9 +547,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                       Stage 5: Escalation to RBI Integrated Ombudsman (cms.rbi.org.in)
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10">
-                    If the bank fails to resolve your grievance within 30 days, file an online complaint through the RBI Complaint Management System (CMS). The RBI Ombudsman holds statutory authority to penalize banks, award compensation for mental agony. Enforce compliance with Fair Practices Codes.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10"> If the bank fails to resolve your grievance within 30 days. File an online complaint through the RBI Complaint handling System (CMS). The RBI Ombudsman holds legal formal to penalize banks. Award payout for mental agony. Enforce compliance with Fair Practices Codes. </p>
                 </div>
 
                 {/* Stage 6 */}
@@ -637,9 +560,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                       Stage 6: Negotiating a Compromise OTS &amp; Securing No Dues Certificate
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10">
-                    Once abusive recovery tactics are halted through legal intervention, initiate professional One-Time Settlement (OTS) negotiations with the bank&apos;s senior settlement committee. Secure a formal settlement letter with 40% to 75% waiver, pay directly to the bank loan account. Collect your unconditional No Dues Certificate (NDC).
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed pl-10"> Once abusive claims tactics are halted through legal intervention. Initiate expert One-Time Settlement (OTS) talks with the bank&apos. s senior settlement boards. Secure a formal closure note with 40% to 75% waiver. Pay straight to the bank loan account. Collect your full No Dues letter (NDC). </p>
                 </div>
               </div>
             </section>
@@ -653,9 +574,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 7. Formal Cease &amp; Desist Legal Notice Draft
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Below is a formal legal response template engineered to stop unlawful property seizure threats and assert your statutory protections under Section 60 CPC, SARFAESI Section 31(i). RBI Recovery Master Directions:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Below is a formal legal response template engineered to stop unlawful property seizure threats and assert your legal protections under Section 60 CPC. SARFAESI Section 31(i). RBI claims Master Directions: </p>
 
               {/* DARK MONOSPACE TERMINAL DRAFT */}
               <div className="bg-slate-900 text-slate-100 p-5 rounded-2xl font-mono text-xs shadow-md border border-slate-800 space-y-3 overflow-x-auto leading-relaxed">
@@ -664,26 +583,16 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                   <span className="text-slate-500 text-[10px]">SPEED POST / EMAIL WITH AD.</span>
                 </div>
                 <div className="text-slate-300 space-y-2">
-                  <p><strong>TO:</strong> The Principal Nodal Officer / Grievance Redressal Desk.</p>
-                  <p><strong>LENDER:</strong> [Name of Commercial Bank / NBFC Institution].</p>
-                  <p><strong>LOAN ACCOUNT NUMBER:</strong> [Enter Unsecured Personal Loan No.].</p>
-                  <p><strong>SUBJECT:</strong> Notice of Criminal Intimidation, Unlawful Property Seizure Threats &amp. Gross Violation of RBI Fair Practices Code by Authorized Collection Agents.</p>
+                  <p><strong>TO:</strong> The main loan Nodal Officer / Grievance Redressal Desk.</p>
+                  <p><strong>LENDER:</strong> [Name of banks / NBFC Institution].</p>
+                  <p><strong>LOAN ACCOUNT NUMBER:</strong> [Enter no-pledge private loans No.].</p>
+                  <p><strong>SUBJECT:</strong> Notice of Criminal threats. Unlawful Property Seizure Threats &amp. Gross Violation of RBI Fair Practices Code by Authorized claims Agents.</p>
                   <p className="pt-2">Sir / Madam,</p>
-                  <p>
-                    1. The undersigned borrower availed an unsecured personal loan bearing account number referenced above. Due to unforeseen financial hardship [brief reason: job loss / medical emergency], monthly installments suffered default.
-                  </p>
-                  <p>
-                    2. Take notice that on [Date] at [Time], third-party recovery agents claiming representation on behalf of your institution visited the undersigned&apos;s residential premises and issued severe threats of forceful entry, auction of residential premises. Confiscation of domestic furniture and vehicles.
-                  </p>
-                  <p>
-                    3. You are explicitly reminded that the subject debt is entirely UNSECURED. Under Section 31(i) of the SARFAESI Act, 2002, your institution holds zero security interest, mortgage. Hypothecation over the undersigned&apos;s assets. Direct seizure of assets without a decree is an act of Criminal Trespass (Sec 329 BNS / Sec 441 IPC) and Extortion (Sec 308 BNS / Sec 383 IPC).
-                  </p>
-                  <p>
-                    4. also, under Section 60 of the Code of Civil Procedure, 1908, essential personal effects, wearing apparel, cooking utensils, tools of trade. Primary residential houses are statutorily immune from civil execution.
-                  </p>
-                  <p>
-                    5. You are hereby called upon to immediately CEASE AND DESIST all unauthorized home visits, abusive communications. Unlawful seizure threats. Direct your authorized settlement committee to provide an audited Statement of Account to explore an amicable One-Time Settlement (OTS) under RBI guidelines.
-                  </p>
+                  <p> 1. The undersigned client availed an no-pledge private loans bearing account number referenced above. Due to unforeseen hardship [brief reason: job loss / medical emergency]. Monthly installments suffered default. </p>
+                  <p> 2. Take notice that on [Date] at [Time]. Third-party claims agents claiming legal help on behalf of your institution visited the undersigned&apos. S residential premises and issued severe threats of forceful entry. Auction of residential premises. Confiscation of domestic furniture and vehicles. </p>
+                  <p> 3. You are explicitly reminded that the subject debt is entirely no-pledge. Under Section 31(i) of the SARFAESI Act. 2002. Your institution holds zero security interest. Mortgage. Hypothecation over the undersigned&apos. s assets. Direct seizure of assets without a decree is an act of Criminal Trespass (Sec 329 BNS / Sec 441 IPC) and Extortion (Sec 308 BNS / Sec 383 IPC). </p>
+                  <p> 4. Also. Under Section 60 of the Code of Civil Procedure. 1908, essential private effects, wearing apparel. Cooking utensils, tools of trade. Primary residential houses are statutorily immune from civil execution. </p>
+                  <p> 5. You are hereby called upon to promptly CEASE AND DESIST all illegal home visits. Abusive contacts. Unlawful seizure threats. Direct your authorized settlement boards to provide an audited record of Account to explore an amicable One-Time Settlement (OTS) under RBI rules. </p>
                 </div>
                 <div className="text-slate-500 text-[10px] pt-2 border-t border-slate-800 flex justify-between">
                   <span>Advocate Panel / Borrower Legal Defense Wing.</span>
@@ -701,9 +610,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 8. 3-Tier Grievance Redressal &amp; Institutional Escalation Matrix
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When dealing with abusive recovery agents, escalate systematically through the statutory grievance redressal mechanism established by the Reserve Bank of India:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When dealing with abusive claims agents. Escalate systematically through the legal grievance redressal mechanism established by the Reserve Bank of India: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
                 {/* Tier 1 */}
@@ -718,9 +625,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                     <h3 className="text-sm md:text-base font-bold text-slate-900">
                       Branch Manager &amp; Bank Customer Service
                     </h3>
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      Submit a formal written complaint via registered email or speed post to the Branch Head and Head of Customer Care detailing recovery agent harassment. Obtain a formal Complaint Ticket Number.
-                    </p>
+                    <p className="text-xs text-slate-600 leading-relaxed"> Submit a formal written complaint via registered email or speed post to the Branch Head and Head of Customer Care detailing claims agent abuse. Obtain a formal Complaint Ticket Number. </p>
                   </div>
                   <div className="text-[11px] font-bold text-[#1886ff] pt-2 border-t border-slate-100">
                     Step: Establish Formal Paper Trail.
@@ -739,9 +644,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                     <h3 className="text-sm md:text-base font-bold text-slate-900">
                       Principal Nodal Officer (PNO)
                     </h3>
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      If Tier 1 fails to resolve the harassment within 30 days or rejects the dispute, escalate to the bank&apos;s Principal Nodal Officer (PNO) and Internal Ombudsman, who have direct authority to recall recovery files.
-                    </p>
+                    <p className="text-xs text-slate-600 leading-relaxed"> If Tier 1 fails to resolve the abuse within 30 days or rejects the dispute. Escalate to the bank&apos. S main loan Nodal Officer (PNO) and Internal Ombudsman. Who have direct formal to recall claims files. </p>
                   </div>
                   <div className="text-[11px] font-bold text-[#1886ff] pt-2 border-t border-slate-100">
                     Step: Direct Settlement Negotiation.
@@ -760,9 +663,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                     <h3 className="text-sm md:text-base font-bold text-slate-900">
                       RBI Integrated Ombudsman &amp; Courts
                     </h3>
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      File a complaint on the RBI CMS Portal (.<code>cms.rbi.org.in</code>) under the Reserve Bank - Integrated Ombudsman Scheme, 2021. For criminal harassment, lodge an FIR with local police or Cyber Crime Cell.
-                    </p>
+                    <p className="text-xs text-slate-600 leading-relaxed"> File a complaint on the RBI CMS Portal (.<code>cms.rbi.org.in</code>) under the Reserve Bank - Integrated Ombudsman Scheme. 2021. For criminal abuse. Lodge an FIR with local police or Cyber Crime Cell. </p>
                   </div>
                   <div className="text-[11px] font-bold text-emerald-700 pt-2 border-t border-slate-100">
                     Step: Regulatory Sanctions &amp; Penalty.
@@ -780,9 +681,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 9. Chronological Resolution Timelines &amp; Settlement Milestones
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                The journey from loan default and recovery threats to complete debt resolution follows a predictable statutory and banking lifecycle. Here is the realistic milestone roadmap:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The journey from loan default and claims threats to complete debt relief follows a predictable legal and banking lifecycle. Here is the realistic milestone roadmap: </p>
 
               {/* TABLE WITH BOTH VERTICAL AND HORIZONTAL GRID LINES */}
               <div className="overflow-x-auto rounded-xl border border-slate-300 bg-white shadow-xs">
@@ -798,46 +697,46 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                   </thead>
                   <tbody className="text-slate-700">
                     <tr className="hover:bg-slate-50">
-                      <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Days 1 – 30</td>
+                      <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Days 1. 30</td>
                       <td className="p-3 md:p-3.5 border border-slate-300">Special Mention Account (SMA-0).</td>
                       <td className="p-3 md:p-3.5 border border-slate-300">Automated SMS, reminder IVR calls.</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300">Communicate financial hardship in writing.</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300">Late fee applied; minor score drop (-15 pts).</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300">Communicate hardship in writing.</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300">Late fee applied. minor score drop (-15 pts).</td>
                     </tr>
                     <tr className="hover:bg-slate-50">
-                      <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Days 31 – 60</td>
+                      <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Days 31. 60</td>
                       <td className="p-3 md:p-3.5 border border-slate-300">SMA-1 Classification.</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300">Collection call center outreach.</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300">claims call center outreach.</td>
                       <td className="p-3 md:p-3.5 border border-slate-300">Request loan restructuring or moratorium.</td>
                       <td className="p-3 md:p-3.5 border border-slate-300">30+ DPD reported to CIBIL / Experian.</td>
                     </tr>
                     <tr className="hover:bg-slate-50">
-                      <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Days 61 – 90</td>
+                      <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Days 61. 90</td>
                       <td className="p-3 md:p-3.5 border border-slate-300">SMA-2 Classification.</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300">Third-party agency assignment, home visits.</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300">Demand agent ID; verify credentials; record visits.</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300">60+ DPD flag; credit freeze across bureaus.</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300">Third-party firm assignment, home visits.</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300">Demand agent ID. verify credentials. record visits.</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300">60+ DPD flag. credit freeze across bureaus.</td>
                     </tr>
                     <tr className="hover:bg-slate-50">
-                      <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Days 91 – 120</td>
+                      <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Days 91. 120</td>
                       <td className="p-3 md:p-3.5 border border-slate-300 text-amber-700 font-bold">NPA (Non-Performing Asset).</td>
                       <td className="p-3 md:p-3.5 border border-slate-300 text-red-700">Legal demand notices, property seizure threats.</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-[#1886ff] font-semibold">Issue Cease &amp; Desist Notice citing Sec 60 CPC &amp; SARFAESI.</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300">NPA status reported; bank creates capital provision.</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-[#1886ff] font-semibold">Issue Cease &amp. Desist Notice citing Sec 60 CPC &amp. SARFAESI.</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300">NPA status reported. bank creates cash provision.</td>
                     </tr>
                     <tr className="hover:bg-slate-50">
-                      <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Days 121 – 180</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300">Loss Asset / Hard Recovery.</td>
+                      <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Days 121. 180</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300">Loss Asset / Hard claims.</td>
                       <td className="p-3 md:p-3.5 border border-slate-300">Arbitration notices or Lok Adalat referrals.</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-[#1886ff] font-semibold">Initiate formal One-Time Settlement (OTS) negotiations.</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-[#1886ff] font-semibold">Initiate formal One-Time Settlement (OTS) talks.</td>
                       <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-semibold">Waiver of 40% to 75% on penalty charges offered.</td>
                     </tr>
                     <tr className="hover:bg-slate-50">
                       <td className="p-3 md:p-3.5 font-bold border border-slate-300 text-slate-900">Post-Settlement</td>
                       <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">Debt Extinguished.</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700">Zero recovery activity; all harassment halted.</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">Obtain unconditional No Dues Certificate (NDC).</td>
-                      <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">Account marked &quot;Closed&quot; / &quot;Settled&quot;; permanent asset safety.</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700">Zero claims activity. all abuse halted.</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">Obtain full No Dues letter (NDC).</td>
+                      <td className="p-3 md:p-3.5 border border-slate-300 text-emerald-700 font-bold">Account marked &quot. Closed&quot. / &quot. Settled&quot. permanent asset safety.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -853,9 +752,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 10. Specialized Scenarios: Credit Cards, ARCs &amp; Fake Court Bailiffs
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Different lending institutions and recovery channels employ distinct tactics. Here is how to navigate complex real-world situations:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Different lending institutions and claims channels employ distinct tactics. Here is how to navigate complex real-world situations: </p>
 
               <div className="space-y-4 pt-2">
                 {/* Scenario 1 */}
@@ -869,9 +766,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                   <h3 className="text-sm md:text-base font-bold text-slate-900">
                     Forged &quot;Court Orders&quot; Sent via Instant Messaging
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Credit card recovery agencies frequently send forged documents marked &quot;Notice of Attachment of Moveable Property&quot. Over WhatsApp, demanding immediate UPI payments. Authentic court processes are NEVER served via unofficial WhatsApp numbers without an official eCourts CNR number. Verify any case number on. <code>ecourts.gov.in</code> to expose the forgery.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Credit card claims firms often send forged papers marked &quot. Notice of Attachment of Moveable Property&quot. Over WhatsApp, demanding fast UPI payments. Authentic court processes are NEVER served via unofficial WhatsApp numbers without an formal eCourts CNR number. Verify any case number on. <code>ecourts.gov.in</code> to expose the forgery. </p>
                 </div>
 
                 {/* Scenario 2 */}
@@ -885,9 +780,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                   <h3 className="text-sm md:text-base font-bold text-slate-900">
                     When Your Bad Loan is Sold to an ARC
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    When banks write off defaulted personal loans, they bundle and assign the portfolio to Asset Reconstruction Companies under Section 5 of the SARFAESI Act. ARCs purchase these loans at a steep discount (often 15% to 30% of face value). ARCs inherit only the rights of the original lender. They cannot magically convert an unsecured loan into a secured property attachment. ARCs are prime candidates for lucrative OTS compromise settlements.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> When banks write off defaulted private loans. They bundle and assign the portfolio to Asset Reconstruction Companies under Section 5 of the SARFAESI Act. ARCs purchase these loans at a steep discount (often 15% to 30% of face value). ARCs inherit only the rights of the original lender. They cannot magically convert an no-pledge loan into a secured property attachment. ARCs are prime candidates for lucrative OTS OTS deals. </p>
                 </div>
 
                 {/* Scenario 3 */}
@@ -901,9 +794,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                   <h3 className="text-sm md:text-base font-bold text-slate-900">
                     Agents Claiming to be Court Bailiffs or Police Sub-Inspectors
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    If an individual arrives at your home claiming to be a police officer or court bailiff to &quot;seize property&quot. For a personal loan, immediately ask for their official government ID and badge number. Dial 112 (Emergency Police Control Room). Impersonating a public servant is a non-bailable cognizable offense under Section 204 of the Bharatiya Nyaya Sanhita (BNS) / Section 170 IPC.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> If an individual arrives at your home claiming to be a police officer or court bailiff to &quot. seize property&quot. For a private loans. Promptly ask for their formal government ID and badge number. Dial 112 (Emergency Police Control Room). Impersonating a public servant is a non-bailable cognizable offense under Section 204 of the Bharatiya Nyaya Sanhita (BNS) / Section 170 IPC. </p>
                 </div>
               </div>
             </section>
@@ -922,9 +813,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Frequently Asked Questions About Property Seizure &amp; Recovery Agents
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Review exhaustive legal answers to the most common questions regarding loan default, recovery agent boundaries. Statutory asset protection under Indian banking law:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Review exhaustive legal answers to the most common questions regarding loan default. Claims agent boundaries. legal asset protection under Indian banking law: </p>
 
               <div className="space-y-3 pt-2">
                 {faqs.map((faq, idx) => {
@@ -958,9 +847,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
               <h2 className="text-lg sm:text-xl font-bold text-slate-900">
                 Official Statutory &amp; Regulatory Citations
               </h2>
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                The legal frameworks, statutory exemptions. Precedents referenced in this guide are anchored directly in official Indian legislation and regulatory master directions:
-              </p>
+              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> The legal rules, legal exemptions. rulings referenced in this guide are anchored straight in formal Indian legislation and RBI master directions: </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 pt-1">
                 <a href="https://www.rbi.org.in" target="_blank" rel="noopener noreferrer" className="p-3 bg-white rounded-xl border border-slate-200 hover:border-[#1886ff] shadow-2xs hover:shadow-xs transition-all flex items-center justify-between text-xs font-semibold text-slate-700 hover:text-[#1886ff]">
@@ -1067,14 +954,10 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                   <Link href="/author/ashish-jhangra" className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional.
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief expert. </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed border-t border-slate-100 pt-2.5">
-                Specialist in civil debt dispute resolution, Section 60 CPC asset protection. RBI regulatory enforcement with over a decade of experience safeguarding Indian borrowers.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed border-t border-slate-100 pt-2.5"> Specialist in civil debt dispute relief. Section 60 CPC asset protection. RBI RBI enforcement with over a decade of skill safeguarding Indian clients. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
                   <span>View Author Profile.</span>
@@ -1095,12 +978,8 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
               </div>
 
               <div className="space-y-1">
-                <p className="text-base font-extrabold tracking-tight leading-snug">
-                  Facing Property Seizure Threats?
-                </p>
-                <p className="text-xs text-blue-100 leading-relaxed">
-                  Stop illegal recovery agent harassment and protect your family. Get direct representation before the bank&apos;s settlement committee.
-                </p>
+                <p className="text-base font-extrabold tracking-tight leading-snug"> Facing Property Seizure Threats? </p>
+                <p className="text-xs text-blue-100 leading-relaxed"> Stop illegal claims agent abuse and protect your family. Get direct legal help before the bank&apos. s settlement boards. </p>
               </div>
 
               <div className="space-y-2 pt-1">
@@ -1117,28 +996,13 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
 
             {/* 3. CredSettle Trust Commitments Card */}
             <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 space-y-3">
-              <p className="text-xs font-black uppercase tracking-wider text-slate-800 flex items-center gap-1.5">
-                <ShieldCheck className="w-4 h-4 text-emerald-600"/>
-                <span>CredSettle Trust Commitments.</span>
-              </p>
+              <p className="text-xs font-black uppercase tracking-wider text-slate-800 flex items-center gap-1.5"> <ShieldCheck className="w-4 h-4 text-emerald-600"/> <span>CredSettle Trust Commitments.</span> </p>
 
               <ul className="space-y-2.5 text-xs text-slate-600">
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Zero Upfront Risk:</strong> Performance &amp; success-fee aligned engagement.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Direct Bank Remittance:</strong> 100% of settlement funds paid directly to bank.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>RBI &amp; CICRA Compliance:</strong> Strict adherence to statutory fair recovery rules.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Pan-India Representation:</strong> Protecting clients across all 28 states &amp; UTs.</span>
-                </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Zero Upfront Risk:</strong> Performance &amp. success-fee aligned engagement.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Direct Bank Remittance:</strong> 100% of settlement funds paid straight to bank.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>RBI &amp. CICRA Compliance:</strong> Strict adherence to legal fair claims rules.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Pan-India legal help:</strong> Protecting clients across all 28 states &amp. UTs.</span> </li>
               </ul>
             </div>
 

@@ -47,43 +47,43 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
     const faqs = [
         {
             q: 'Can a bank deduct money from another bank account without my permission?',
-            a: "No. A lending bank cannot automatically debit or seize funds from your account held in a completely separate, third-party bank without an explicit civil court attachment decree, a Garnishee Order under Order XXI Rule 46 of the CPC. A Debt Recovery Tribunal (DRT) recovery certificate. The Banker's Right of Set-Off under Section 171 of the Indian Contract Act only applies to accounts held within the same banking institution."
+            a: "No. A lending bank cannot automatically debit or seize funds from your account held in a completely separate. Third-party bank without an explicit civil court attachment decree. A Garnishee Order under Order XXI Rule 46 of the CPC. A Debt claims Tribunal (DRT) claims letter. The Banker's Right of Set-Off under Section 171 of the Indian Contract Act only applies to accounts held within the same banking institution."
         },
         {
             q: 'What is the Banker\'s Right of Set-Off under Section 171 of the Indian Contract Act?',
-            a: 'Section 171 of the Indian Contract Act, 1872 grants banks a general banker\'s lien and right of set-off. This legal mechanism allows a bank to combine two or more accounts maintained by the same borrower within the same bank, using positive balances from a savings or current account to liquidate defaulted loan dues, provided there is mutuality of debt.'
+            a: 'Section 171 of the Indian Contract Act. 1872 grants banks a general banker\'s lien and right of set-off. This legal mechanism allows a bank to combine two or more accounts maintained by the same borrower within the same bank, using positive balances from a savings or current account to liquidate defaulted loan dues, provided there is mutuality of debt.'
         },
         {
             q: 'Can a bank debit funds from my savings account in a different branch of the same bank?',
-            a: 'Yes. Under Indian banking jurisprudence, all branches of a commercial bank constitute a single corporate entity. If you have an outstanding default in one branch and a credit balance in another branch of the exact same bank, the bank can exercise an inter-branch right of set-off to adjust the overdue liability.'
+            a: 'Yes. Under Indian banking jurisprudence. All branches of a banks constitute a single company entity. If you have an unpaid default in one branch and a credit balance in another branch of the exact same bank. The bank can exercise an inter-branch right of set-off to adjust the overdue debt risk.'
         },
         {
             q: 'Can a bank deduct money from a joint account for an individual personal loan default?',
-            a: 'No, unless both account holders are joint borrowers or co-guarantors for that specific loan. The right of set-off requires strict mutuality of parties and capacity. Funds standing in a joint account owned with a spouse or partner cannot be seized to satisfy the individual, sole debt of only one account holder.'
+            a: 'No. Unless both account holders are joint clients or co-guarantors for that local loan. The right of set-off requires strict mutuality of parties and capacity. Funds standing in a joint account owned with a spouse or partner cannot be seized to satisfy the individual. Sole debt of only one account holder.'
         },
         {
             q: 'Is it legal for a bank to freeze 100% of my salary account without prior notice?',
-            a: "No. Arbitrary freezing of an entire salary account without reasonable advance notice violates the Reserve Bank of India (RBI) Fair Practices Code and natural justice principles. also, under Section 60(1)(i) of the Code of Civil Procedure, basic salary allowances necessary for personal subsistence are legally exempt from total attachment."
+            a: "No. Arbitrary freezing of an entire salary account without reasonable advance notice violates the Reserve Bank of India (RBI) Fair Practices Code and natural justice principles. Also. Under Section 60(1)(i) of the Code of Civil Procedure. Basic salary allowances necessary for private subsistence are legally exempt from total attachment."
         },
         {
             q: 'Can a bank deduct funds from my Public Provident Fund (PPF) or pension account?',
-            a: "No. Statutory retirement funds. This includes public Provident Fund (PPF), Employee Provident Fund (EPF). Central or state government pensions, enjoy absolute statutory immunity from bank lien, set-off. Civil court attachment under Section 60 of the CPC and Section 10 of the EPF Act."
+            a: "No. legal retirement funds. This includes public Provident Fund (PPF). Staff Provident Fund (EPF). Central or state government pensions. Enjoy absolute legal immunity from bank lien. Set-off. Civil court attachment under Section 60 of the CPC and Section 10 of the EPF Act."
         },
         {
             q: 'How can I stop unauthorized auto-debits or NACH mandates?',
-            a: 'You can formally revoke your electronic NACH or e-Mandate consent by submitting a written mandate cancellation request to your home branch and sending a formal revocation notice to the lender under Section 25 of the Payment and Settlement Systems Act, 2007. Banks are mandated by the RBI to honor cancellation requests immediately.'
+            a: 'You can formally revoke your electronic NACH or e-Mandate consent by submitting a written mandate cancellation request to your home branch and sending a formal revocation notice to the lender under Section 25 of the Payment and Settlement Systems Act. 2007. Banks are mandated by the RBI to honor cancellation requests promptly.'
         },
         {
             q: 'What should I do if a bank illegally transfers money from my account?',
-            a: 'If a bank executes an unlawful set-off without mutuality or proper notice, immediately file a written grievance with the branch manager and the bank\'s Principal Nodal Officer (PNO). If the bank fails to reverse the illegal deduction within 30 days, file a statutory complaint with the RBI Integrated Ombudsman via cms.rbi.org.in.'
+            a: 'If a bank executes an unlawful set-off without mutuality or proper notice. Promptly file a written grievance with the branch manager and the bank\'s Principal Nodal Officer (PNO). If the bank fails to reverse the illegal deduction within 30 days, file a statutory complaint with the RBI Integrated Ombudsman via cms.rbi.org.in.'
         },
         {
             q: 'Can a bank attach my third-party bank accounts during loan recovery proceedings?',
-            a: 'A bank can only attach funds in third-party banks after obtaining a formal judicial order. In personal loans exceeding ₹20 Lakhs, lenders can seek recovery orders through the Debt Recovery Tribunal (DRT). For smaller loans, lenders must obtain a civil court decree and subsequent Garnishee Order under Order XXI Rule 46 of the CPC.'
+            a: 'A bank can only attach funds in third-party banks after obtaining a formal judicial order. In private loans exceeding ₹20 Lakhs. Lenders can seek claims orders through the Debt claims Tribunal (DRT). For smaller loans. Lenders must obtain a civil court decree and subsequent Garnishee Order under Order XXI Rule 46 of the CPC.'
         },
         {
             q: 'How does One-Time Settlement (OTS) protect my bank accounts from future set-off?',
-            a: "A formal One-Time Settlement (OTS) sanctioned by the bank's Stressed Assets Resolution Branch completely extinguishes all underlying loan liabilities. Once the agreed compromise sum is paid, the bank issues a stamped No Dues Certificate (NDC), removes all internal lien-marks. Cancels the right of set-off permanently."
+            a: "A formal One-Time Settlement (OTS) sanctioned by the bank's Stressed Assets relief Branch completely extinguishes all underlying loan debts. Once the agreed OTS deal sum is paid. The bank issues a stamped No Dues letter (NDC). Removes all internal lien-marks. Cancels the right of set-off permanently."
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white font-sans">
@@ -100,9 +100,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
             Can a Bank Deduct Money from Another Account?
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed">
-            Understand the strict statutory boundaries of the Banker’s Right of Set-Off under Section 171 of the Indian Contract Act. Learn why lending banks cannot debit third-party accounts without court decrees, how inter-branch set-offs operate. How to safeguard essential salary funds.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed"> Understand the strict legal boundaries of the Banker’s Right of Set-Off under Section 171 of the Indian Contract Act. Learn why lending banks cannot debit third-party accounts without court decrees. How inter-branch set-offs operate. How to safeguard essential salary funds. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -145,9 +143,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>Statutory Protection.</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Governed by the Indian Contract Act 1872, CPC Section 60, &amp; RBI Fair Practices Code.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by the Indian Contract Act 1872. CPC Section 60. &amp. RBI Fair Practices Code. </p>
               </div>
             </div>
           </aside>
@@ -162,66 +158,24 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                 <span>EXECUTIVE SUMMARY: BANK SET-OFF &amp; DEDUCTION RULES.</span>
               </div>
 
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-medium">
-                Key statutory rules governing bank account deductions, set-offs, and borrower legal protections in India:
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-medium"> Key legal rules governing bank account deductions. Set-offs. And client legal protections in India: </p>
 
               <ul className="space-y-2 text-xs sm:text-sm text-slate-700 leading-relaxed">
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Third-Party Banks Protected:</strong> Lenders cannot debit funds from other banks without a court Garnishee Order.
-                  </div>
-                </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div> <strong className="text-slate-900 font-bold">Third-Party Banks Protected:</strong> Lenders cannot debit funds from other banks without a court Garnishee Order. </div> </li>
 
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Same-Bank Set-Off Allowed:</strong> Banks can combine intra-bank balances under Section 171 of the Indian Contract Act.
-                  </div>
-                </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div> <strong className="text-slate-900 font-bold">Same-Bank Set-Off Allowed:</strong> Banks can combine intra-bank balances under Section 171 of the Indian Contract Act. </div> </li>
 
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Debt Mutuality Required:</strong> Joint accounts with non-borrowers cannot be seized for individual loan defaults.
-                  </div>
-                </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div> <strong className="text-slate-900 font-bold">Debt Mutuality Required:</strong> Joint accounts with non-clients cannot be seized for individual loan defaults. </div> </li>
 
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">PF &amp; Pension Immunity:</strong> PPF, EPF, and pensions have absolute statutory protection under Section 60 CPC.
-                  </div>
-                </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div> <strong className="text-slate-900 font-bold">PF &amp. Pension Immunity:</strong> PPF. EPF. And pensions have absolute legal protection under Section 60 CPC. </div> </li>
 
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Salary Subsistence Limits:</strong> Freezing 100% of salary accounts violates Section 60 CPC subsistence norms.
-                  </div>
-                </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div> <strong className="text-slate-900 font-bold">Salary Subsistence Limits:</strong> Freezing 100% of salary accounts violates Section 60 CPC subsistence norms. </div> </li>
 
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">NACH Mandate Revocation:</strong> Borrowers can cancel electronic auto-debits under Section 25 PSSA in writing.
-                  </div>
-                </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div> <strong className="text-slate-900 font-bold">NACH Mandate Revocation:</strong> clients can cancel electronic auto-debits under Section 25 PSSA in writing. </div> </li>
 
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Prior Notice Mandatory:</strong> Banks must issue reasonable advance notice before exercising any account set-off.
-                  </div>
-                </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div> <strong className="text-slate-900 font-bold">Prior Notice strict:</strong> Banks must issue reasonable advance notice before exercising any account set-off. </div> </li>
 
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">OTS Extinguishes Liens:</strong> A formal One-Time Settlement permanently cancels set-off rights with an NDC.
-                  </div>
-                </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div> <strong className="text-slate-900 font-bold">OTS Extinguishes Liens:</strong> A formal One-Time Settlement permanently cancels set-off rights with an NDC. </div> </li>
               </ul>
             </div>
 
@@ -235,21 +189,13 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                 1. Debt Economics: Banker’s Set-Off Under Section 171
               </h2>
               
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                The question of whether a lending institution can arbitrarily deduct money from another bank account touches upon fundamental principles of Indian contract law and commercial banking operations. When an unsecured personal loan, credit card. Business credit line falls into arrears, borrowers frequently discover unexpected debits or frozen balances. The statutory foundation behind this action is the. <strong>Banker’s General Lien and Right of Set-Off.</strong> codified under <strong>Section 171 of the Indian Contract Act, 1872.</strong>.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The question of whether a lending institution can arbitrarily deduct money from another bank account touches upon fundamental principles of Indian contract law and trade banking work. When an no-pledge private loans. Credit card. Trade credit line falls into arrears. Clients often discover unexpected debits or frozen balances. The legal foundation behind this action is the. <strong>Banker’s General Lien and Right of Set-Off.</strong> codified under <strong>Section 171 of the Indian Contract Act. 1872.</strong>. </p>
 
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Under Section 171, bankers retain the legal right, in the absence of an express contract to the contrary, to retain as security for a general balance of account any goods, securities. Money bailed to them. The right of set-off is an equitable legal mechanism that enables a bank to combine two or more distinct accounts belonging to the exact same customer maintained within the same banking institution. If you maintain a overdue personal loan account at Branch A and hold a positive balance in a savings account at Branch B of the same bank, the law treats all branches as constituent units of a single corporate entity. as a result, the bank can apply your credit balance toward the liquidation of your overdue debt.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Under Section 171. Bankers retain the legal right. In the absence of an express contract to the contrary. To retain as security for a general balance of account any goods. Securities. Money bailed to them. The right of set-off is an equitable legal mechanism that enables a bank to combine two or more distinct accounts belonging to the exact same customer maintained within the same banking institution. If you maintain a overdue private loans account at Branch A and hold a positive balance in a savings account at Branch B of the same bank. The law treats all branches as constituent units of a single company entity. As a result. The bank can apply your credit balance toward the liquidation of your overdue debt. </p>
 
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Crucially, this legal authority is subject to the strict doctrine of. <em>mutuality of debt.</em>. For a valid exercise of set-off, the debt owed to the bank and the money held by the bank must exist between the exact same parties in the exact same legal capacity. A bank cannot apply funds belonging to a third party, a trust. A joint account holder who is not a party to the underlying loan agreement. also, this right is strictly intra-bank. A lender cannot reach into a separate, third-party bank to debit funds unless it has secured an enforceable decree and a formal Garnishee Order from a competent civil court.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Crucially. This legal formal is subject to the strict doctrine of. <em>mutuality of debt.</em>. For a valid exercise of set-off. The debt owed to the bank and the money held by the bank must exist between the exact same parties in the exact same legal capacity. A bank cannot apply funds belonging to a third party. A trust. A joint account holder who is not a party to the underlying loan pacts. also, this right is strictly intra-bank. A lender cannot reach into a separate. Third-party bank to debit funds unless it has secured an enforceable decree and a formal Garnishee Order from a competent civil court. </p>
 
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                In the context of retail banking distress, debt accounts transition through established regulatory default stages mandated by the Reserve Bank of India. Delinquencies start as Special Mention Accounts (SMA-0 for 1-30 days overdue, SMA-1 for 31-60 days. SMA-2 for 61-90 days). Once non-payment surpasses 90 days, the account is classified as a Non-Performing Asset (NPA). At this stage, under RBI Prudential Norms, the lender is compelled to allocate Tier-1 capital provisioning ranging from 15% to over 50%. Because unsecured loans carry no mortgage or hypothecated security under Section 31(g) of the SARFAESI Act, banks actively attempt internal set-offs while simultaneously becoming commercially open to compromise One-Time Settlements (OTS) to recover capital and avoid prolonged litigation.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> In the context of retail banking distress. Debt accounts transition through established RBI default stages mandated by the Reserve Bank of India. Delinquencies start as Special Mention Accounts (SMA-0 for 1-30 days overdue. SMA-1 for 31-60 days. SMA-2 for 61-90 days). Once non-payment surpasses 90 days. The account is classified as a Non-Performing Asset (NPA). At this stage. Under RBI Prudential Norms. The lender is compelled to allocate Tier-1 cash provisioning ranging from 15% to over 50%. Because no-pledge loans carry no mortgage or hypothecated security under Section 31(g) of the SARFAESI Act. Banks actively attempt internal set-offs while simultaneously becoming commercially open to OTS deal One-Time Settlements (OTS) to recover cash and avoid prolonged lawsuits. </p>
             </section>
 
             {/* SECTION 2: FINANCIAL BREAKDOWN & SETTLEMENT MATH */}
@@ -262,13 +208,9 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                 2. Financial Breakdown: Settlement Math &amp; Penal Dues
               </h2>
 
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When a borrower defaults on monthly loan installments, commercial lending algorithms automatically superimpose a complex pyramid of compounding penalty charges, default interest rates, ECS bounce penalties. Overdue administrative fees. Over a period of 6 to 12 months, these accumulated ancillary charges frequently inflate the nominal outstanding balance by 40% to 80% above the genuine principal released.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When a client defaults on monthly loan installments. Trade lending algorithms automatically superimpose a complex pyramid of compounding penalty charges. Default interest rates, ECS bounce penalties. Overdue office fees. Over a period of 6 to 12 months. These total ancillary charges often inflate the nominal unpaid dues by 40% to 80% above the genuine main loan released. </p>
 
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Understanding the mathematical dissection between pure principal exposure and capitalized penal interest is essential for establishing an effective defense. When lenders attempt to freeze accounts or set off balances, they often demand the total inflated figure. However, during formal dispute resolution, our legal team isolates the true contractual baseline and leverages the bank’s capital provisioning requirements to negotiate large waivers.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Understanding the mathematical dissection between pure main loan exposure and capitalized penal interest is essential for establishing an effective defense. When lenders attempt to freeze accounts or set off balances. They often demand the total inflated figure. However, during formal dispute relief. Our legal team isolates the true contractual baseline and leverages the bank’s cash provisioning requirements to settle large waivers. </p>
 
               {/* Settlement Math Representative Calculation Card */}
               <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 sm:p-6 space-y-4">
@@ -312,9 +254,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                   </div>
                 </div>
 
-                <p className="text-xs text-slate-600 leading-relaxed pt-1">
-                  By presenting documented hardship evidence and challenging improper inter-branch account freezes, the borrower eliminated ₹3,00,000 in unfair penalty charges and secured an additional ₹1,40,000 principal discount, achieving complete debt discharge with a formal No Dues Certificate.
-                </p>
+                <p className="text-xs text-slate-600 leading-relaxed pt-1"> By presenting documented hardship proof and challenging improper inter-branch account freezes. The client eliminated ₹3,00,000 in unfair penalty charges and secured an additional ₹1,40,000 main loan discount. Achieving complete debt discharge with a formal No Dues letter. </p>
               </div>
             </section>
 
@@ -328,9 +268,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                 3. Legal Comparison: Same Bank vs Third-Party Account
               </h2>
 
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                To navigate aggressive lender demands, borrowers must understand the precise legal boundaries separating lawful intra-bank set-offs from unlawful third-party fund seizures. The comparison matrix below outlines the five primary operational routes:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> To navigate aggressive lender demands. Clients must understand the precise legal boundaries separating lawful intra-bank set-offs from unlawful third-party fund seizures. The comparison matrix below outlines the five primary daily work routes: </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
                 <table className="w-full text-left border-collapse text-xs divide-y divide-slate-200/80">
@@ -347,36 +285,36 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="p-3 font-bold text-[#1886ff]">Same-Bank Inter-Branch Set-Off.</td>
                       <td className="p-3">Section 171 Indian Contract Act, 1872.</td>
-                      <td className="p-3 font-semibold text-emerald-700">Yes (Requires mutuality &amp; prior notice).</td>
-                      <td className="p-3">Immediate ledger debit from savings or current account.</td>
-                      <td className="p-3">Challenge arbitrary lien &amp; file for Stressed Asset OTS.</td>
+                      <td className="p-3 font-semibold text-emerald-700">Yes (Requires mutuality &amp. prior notice).</td>
+                      <td className="p-3">fast ledger debit from savings or current account.</td>
+                      <td className="p-3">Challenge arbitrary lien &amp. file for Stressed Asset OTS.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="p-3 font-bold text-slate-900">Third-Party Bank Account Debit.</td>
                       <td className="p-3">Banking Regulation Act, 1949.</td>
                       <td className="p-3 font-bold text-red-600">Strictly Prohibited.</td>
-                      <td className="p-3">Zero access; third-party banks cannot debit without mandate.</td>
+                      <td className="p-3">Zero access. third-party banks cannot debit without mandate.</td>
                       <td className="p-3">Maintain primary salary in an untied independent bank.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="p-3 font-bold text-slate-900">Civil Court Garnishee Order.</td>
                       <td className="p-3">Order XXI Rule 46 CPC, 1908.</td>
                       <td className="p-3 font-semibold text-slate-700">No (Requires formal court decree).</td>
-                      <td className="p-3">Judicially attached after trial; Section 60 subsistence exempt.</td>
+                      <td className="p-3">Judicially attached after trial. Section 60 subsistence exempt.</td>
                       <td className="p-3">File Section 60 subsistence objection or compound debt.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="p-3 font-bold text-emerald-700">One-Time Settlement (OTS).</td>
-                      <td className="p-3">RBI Stressed Assets Framework &amp; SARB Policy.</td>
-                      <td className="p-3 font-semibold text-emerald-700">Voluntary Bilateral Agreement.</td>
-                      <td className="p-3">All liens released; 40% to 55% discount on outstanding sum.</td>
+                      <td className="p-3">RBI Stressed Assets rules &amp. SARB Policy.</td>
+                      <td className="p-3 font-semibold text-emerald-700">Voluntary Bilateral pacts.</td>
+                      <td className="p-3">All liens released. 40% to 55% discount on unpaid sum.</td>
                       <td className="p-3 font-bold text-emerald-700">Recommended: Full permanent debt discharge with NDC.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="p-3 font-bold text-slate-900">Loan Restructuring / Rescheduling.</td>
-                      <td className="p-3">RBI Prudential Guidelines.</td>
-                      <td className="p-3 font-semibold text-slate-700">Voluntary Mutual Agreement.</td>
-                      <td className="p-3">Tenure extended; interest continues accumulating with zero haircut.</td>
+                      <td className="p-3">RBI Prudential rules.</td>
+                      <td className="p-3 font-semibold text-slate-700">Voluntary Mutual pacts.</td>
+                      <td className="p-3">Tenure extended. interest continues growing with zero haircut.</td>
                       <td className="p-3">Suitable only if long-term monthly income is fully stable.</td>
                     </tr>
                   </tbody>
@@ -394,9 +332,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                 4. Technical CIBIL Algorithm &amp; Section 21 CICRA Credit Restoration
               </h2>
 
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Understanding how account liens, auto-debit bounces. Unresolved defaults interact with credit scoring models is critical for long-term financial recovery. Credit Information Companies in India (TransUnion CIBIL, Experian, CRIF High Mark. Equifax) compute your three-digit credit score using an algorithmic weighting model composed of five distinct pillars:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Understanding how account liens, auto-debit bounces. Unresolved defaults interact with credit scoring models is critical for long-term money claims. Credit Information Companies in India (TransUnion CIBIL. Experian. CRIF High Mark. Equifax) compute your three-digit credit score using an algorithmic weighting model composed of five distinct pillars: </p>
 
               <div className="grid grid-cols-2 sm:grid-cols-5 gap-2.5 text-xs text-center">
                 <div className="bg-white p-3 rounded-xl border border-slate-200/80 shadow-xs">
@@ -426,13 +362,9 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                 </div>
               </div>
 
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When a borrower defaults and the lender repeatedly marks Days Past Due (DPD) past 90 or 180 days, the credit score experiences a severe downward trajectory, typically plunging from 780+ down to the 500-580 band. Every consecutive bounce generated by automated NACH mandates further degrades the payment history parameter.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When a client defaults and the lender repeatedly marks Days Past Due (DPD) past 90 or 180 days. The credit score experiences a severe downward trajectory. Typically plunging from 780+ down to the 500-580 band. Every consecutive bounce generated by automated NACH mandates further degrades the payment history parameter. </p>
 
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Executing a formal One-Time Settlement immediately stops the ongoing reporting of monthly default cycles. Upon payment of the settlement amount, the lender is statutorily mandated to report the outstanding balance as zero. Under. <strong>Section 21 of the Credit Information Companies (Regulation) Act, 2005 (CICRA).</strong>, borrowers possess the statutory right to request correction of inaccurate tradelines by presenting their stamped No Dues Certificate. By introducing a low-limit secured credit card against a small fixed deposit and maintaining pristine repayment discipline for 12 to 24 months, borrowers successfully rebuild their CIBIL score back into the prime 750+ category.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Executing a formal One-Time Settlement promptly stops the ongoing reporting of monthly default cycles. Upon payment of the payout sum. The lender is statutorily mandated to report the unpaid dues as zero. Under. <strong>Section 21 of the Credit Information Companies (Regulation) Act. 2005 (CICRA).</strong>Clients possess the legal right to request correction of inaccurate tradelines by presenting their stamped No Dues letter. By introducing a low-limit secured credit card against a small fixed deposit and maintaining pristine payment discipline for 12 to 24 months. Clients successfully rebuild their CIBIL score back into the prime 750+ category. </p>
             </section>
 
             {/* SECTION 5: VISUAL INFOGRAPHIC ASSET CARD */}
@@ -444,9 +376,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                 </h2>
               </div>
 
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                Review this analytical 16:9 infographic summarizing the legal distinctions between same-bank set-offs under Section 171, third-party bank immunities, protected statutory funds. The 6-step debt defense roadmap:
-              </p>
+              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Review this analytical 16:9 infographic summarizing the legal distinctions between same-bank set-offs under Section 171. Third-party bank immunities, protected legal funds. The 6-step debt defense roadmap: </p>
 
               <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-4 sm:p-5 overflow-hidden space-y-3">
                 <div className="relative aspect-[16/9] w-full rounded-2xl overflow-hidden bg-slate-950 border border-slate-800">
@@ -473,9 +403,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                 5. Step-by-Step SOP: 6-Stage Account Defense Blueprint
               </h2>
 
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When faced with aggressive recovery threats, unauthorized account liens. Impending NPA classification, executing a disciplined legal strategy ensures the complete protection of essential livelihood assets while positioning your file for an advantageous settlement:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When faced with aggressive claims threats. Illegal account liens. Impending NPA classification. Executing a disciplined legal plan ensures the complete protection of essential livelihood assets while positioning your file for an advantageous settlement: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
@@ -483,9 +411,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                     <span className="w-6 h-6 rounded-md bg-blue-100 text-[#1886ff] font-bold flex items-center justify-center text-xs">01</span>
                     <h3 className="font-bold text-slate-900 text-sm">Forensic Account Audit</h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Examine your statement of accounts to segregate the released principal from unconstitutional compound penalty charges and unnotified administrative levies.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Examine your record of accounts to segregate the released main loan from illegal compound penalty charges and unnotified office levies. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
@@ -493,9 +419,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                     <span className="w-6 h-6 rounded-md bg-blue-100 text-[#1886ff] font-bold flex items-center justify-center text-xs">02</span>
                     <h3 className="font-bold text-slate-900 text-sm">Hardship Dossier Compilation</h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Assemble verified paperwork of acute income disruption, medical emergencies. Business losses to establish genuine financial distress under RBI norms.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Assemble verified paperwork of acute income breaks. Medical emergencies. trade losses to establish genuine debt stress under RBI norms. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
@@ -503,9 +427,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                     <span className="w-6 h-6 rounded-md bg-blue-100 text-[#1886ff] font-bold flex items-center justify-center text-xs">03</span>
                     <h3 className="font-bold text-slate-900 text-sm">Salary Account Segregation</h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Instruct your employer payroll department to redirect monthly salary disbursements to an untied third-party banking institution to insulate living expenses from intra-bank lien.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Instruct your employer payroll department to redirect monthly salary disbursements to an untied third-party banking institution to insulate living expenses from intra-bank lien. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
@@ -513,9 +435,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                     <span className="w-6 h-6 rounded-md bg-blue-100 text-[#1886ff] font-bold flex items-center justify-center text-xs">04</span>
                     <h3 className="font-bold text-slate-900 text-sm">Revocation of NACH Mandates</h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Formally revoke electronic debit mandates under Section 25 PSSA in writing to halt recurring dishonor charges and eliminate grounds for quasi-criminal harassment.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Formally revoke electronic debit mandates under Section 25 PSSA in writing to halt recurring dishonor charges and eliminate grounds for quasi-criminal abuse. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
@@ -523,9 +443,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                     <span className="w-6 h-6 rounded-md bg-blue-100 text-[#1886ff] font-bold flex items-center justify-center text-xs">05</span>
                     <h3 className="font-bold text-slate-900 text-sm">Credit Committee Representation</h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Bypass third-party recovery agencies and submit a structured settlement proposal directly to the bank Stressed Assets Resolution Branch (SARB) for a 40% to 55% waiver.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Bypass third-party claims firms and submit a structured offers straight to the bank Stressed Assets relief Branch (SARB) for a 40% to 55% waiver. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
@@ -533,9 +451,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                     <span className="w-6 h-6 rounded-md bg-blue-100 text-[#1886ff] font-bold flex items-center justify-center text-xs">06</span>
                     <h3 className="font-bold text-slate-900 text-sm">Letter Vetting &amp; NDC Issuance</h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Rigorously review the Settlement Sanction Letter to ensure zero residual liability clauses, pay settlement funds directly. Secure a stamped No Dues Certificate.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Rigorously review the Settlement Sanction Letter to ensure zero residual debt risk clauses. Pay settlement funds straight. Secure a stamped No Dues letter. </p>
                 </div>
               </div>
             </section>
@@ -550,9 +466,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                 6. Statutory Notice Defense &amp; Essential Borrower Legal Protections
               </h2>
 
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When asserting legal rights against arbitrary banking actions, borrowers are protected by comprehensive statutory provisions across Indian jurisprudence. Rather than relying on generic informal communications, effective defense requires understanding how these statutory mechanisms operate:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When asserting legal rights against arbitrary banking actions. Clients are protected by full legal rules across Indian jurisprudence. Rather than relying on generic informal contacts. Effective defense requires understanding how these legal mechanisms operate: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-2 shadow-xs">
@@ -560,9 +474,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                     <FileText className="w-4 h-4 text-[#1886ff]"/>
                     <h3 className="font-bold text-sm">Section 25 PSSA: Electronic Mandate Revocation</h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Under the Payment and Settlement Systems Act, 2007, an electronic mandate is a revocable approval. Submitting a written revocation eliminates civil bad faith claims and prevents lenders from triggering criminal summons for subsequent clearing failures.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Under the Payment and Settlement Systems Act. 2007. An electronic mandate is a revocable approval. Submitting a written revocation eliminates civil bad faith claims and prevents lenders from triggering criminal summons for subsequent clearing failures. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-2 shadow-xs">
@@ -570,9 +482,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                     <ShieldCheck className="w-4 h-4 text-[#1886ff]"/>
                     <h3 className="font-bold text-sm">Section 60 CPC: Subsistence Salary Immunity</h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Section 60(1)(i) of the Code of Civil Procedure explicitly exempts salary allowances necessary for personal and family subsistence from court attachment. Total freezes executed by banks without judicial sanction directly violate this statutory standard.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Section 60(1)(i) of the Code of Civil Procedure explicitly exempts salary allowances necessary for private and family subsistence from court attachment. Total freezes executed by banks without judicial sanction straight violate this legal standard. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-2 shadow-xs">
@@ -580,9 +490,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                     <Scale className="w-4 h-4 text-[#1886ff]"/>
                     <h3 className="font-bold text-sm">Arbitration &amp; Perkins Eastman Rulings</h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    The Supreme Court of India in. <em>Perkins Eastman</em> and <em>TRF Ltd.</em> established that lenders cannot unilaterally appoint sole arbitrators. Unilateral arbitral proceedings initiated to secure monetary recovery orders are legally voidable de jure under Section 12(5).
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> The Supreme Court of India in. <em>Perkins Eastman</em> and <em>TRF Ltd.</em> established that lenders cannot unilaterally appoint sole arbitrators. Unilateral arbitral proceedings initiated to secure monetary claims orders are legally voidable de jure under Section 12(5). </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-2 shadow-xs">
@@ -590,9 +498,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                     <ShieldAlert className="w-4 h-4 text-[#1886ff]"/>
                     <h3 className="font-bold text-sm">DRT Jurisdiction &amp; RBI Fair Practices</h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    The Debt Recovery Tribunal holds statutory jurisdiction only for claims exceeding ₹20 Lakhs. For all retail loans, the RBI Fair Practices Code strictly prohibits workplace harassment, verbal intimidation. Unnotified operational account freezes.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> The Debt claims Tribunal holds legal police area only for claims exceeding ₹20 Lakhs. For all retail loans. The RBI Fair Practices Code strictly prohibits workplace abuse. Verbal threats. Unnotified daily work account freezes. </p>
                 </div>
               </div>
             </section>
@@ -607,33 +513,25 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                 7. 3-Tier Grievance &amp; Regulatory Escalation Framework
               </h2>
 
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                If a bank executes an unauthorized debit or arbitrarily places a lien on your operational account, follow this structured three-tier regulatory hierarchy to enforce corrective action and unfreeze funds:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> If a bank executes an illegal debit or arbitrarily places a lien on your daily work account. Follow this structured three-tier RBI hierarchy to enforce corrective action and unfreeze funds: </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-3.5">
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
                   <span className="text-[10px] font-black uppercase text-blue-600 bg-blue-50 px-2 py-0.5 rounded">Level 1: 7-10 Days.</span>
                   <h3 className="font-bold text-slate-900 text-sm">Grievance Redressal Officer (GRO)</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Submit a formal written complaint to the branch manager and the bank Internal Grievance Redressal Officer demanding reversal of unauthorized deductions.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Submit a formal written complaint to the branch manager and the bank Internal Grievance Redressal Officer demanding reversal of illegal deductions. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
                   <span className="text-[10px] font-black uppercase text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded">Level 2: 14-21 Days.</span>
                   <h3 className="font-bold text-slate-900 text-sm">Principal Nodal Officer (PNO)</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Escalate unresolved complaints to the bank Principal Nodal Officer, citing violation of mutuality rules under Section 171 and requesting urgent OTS review.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Escalate unresolved complaints to the bank main loan Nodal Officer. Citing violation of mutuality rules under Section 171 and requesting urgent OTS review. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
                   <span className="text-[10px] font-black uppercase text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded">Level 3: 30 Days.</span>
                   <h3 className="font-bold text-slate-900 text-sm">RBI Integrated Ombudsman</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    File a statutory complaint on the RBI CMS portal (cms.rbi.org.in) under the Integrated Ombudsman Scheme, 2021 for financial restitution and compensation.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> File a legal complaint on the RBI CMS portal (cms.rbi.org.in) under the Integrated Ombudsman Scheme. 2021 for money restitution and payout. </p>
                 </div>
               </div>
             </section>
@@ -648,9 +546,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                 8. Chronological Timeline: 180-Day Path From Delinquency to Settlement
               </h2>
 
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Understanding how bank recovery departments progress from initial missed EMIs to legal action enables borrowers to take timely preventive measures:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Understanding how bank claims departments progress from initial missed EMIs to legal action enables clients to take timely preventive measures: </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
                 <table className="w-full text-left border-collapse text-xs divide-y divide-slate-200/80">
@@ -666,32 +562,32 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="p-3 font-bold text-[#1886ff]">Days 1 to 30</td>
                       <td className="p-3">SMA-0 default.</td>
-                      <td className="p-3">Automated payment reminders and internal collection calls.</td>
-                      <td className="p-3">Audit finances; evaluate restructuring vs settlement roadmap.</td>
+                      <td className="p-3">Automated payment reminders and internal claims calls.</td>
+                      <td className="p-3">Audit finances. evaluate restructuring vs settlement roadmap.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="p-3 font-bold text-slate-900">Days 31 to 90</td>
                       <td className="p-3">SMA-1 / SMA-2</td>
-                      <td className="p-3">Outsourced agency recovery calls; threats of account lien.</td>
-                      <td className="p-3">Redirect salary to untied bank; revoke NACH under Section 25 PSSA.</td>
+                      <td className="p-3">outside firm claims calls. threats of account lien.</td>
+                      <td className="p-3">Redirect salary to untied bank. revoke NACH under Section 25 PSSA.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="p-3 font-bold text-slate-900">Days 91 to 120</td>
                       <td className="p-3">NPA Classification.</td>
-                      <td className="p-3">Bank allocates capital provision; file moved to SARB.</td>
-                      <td className="p-3">Bypass external agents; submit hardship dossier directly to SARB.</td>
+                      <td className="p-3">Bank allocates cash provision. file moved to SARB.</td>
+                      <td className="p-3">Bypass external agents. submit hardship dossier straight to SARB.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="p-3 font-bold text-slate-900">Days 121 to 150</td>
-                      <td className="p-3">Committee Review.</td>
-                      <td className="p-3">Bank assesses hardship evidence and approves haircut margin.</td>
-                      <td className="p-3">Negotiate 40% to 55% principal compromise settlement terms.</td>
+                      <td className="p-3">boards Review.</td>
+                      <td className="p-3">Bank assesses hardship proof and approves haircut margin.</td>
+                      <td className="p-3">settle 40% to 55% main loan OTS deals terms.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="p-3 font-bold text-slate-900">Days 151 to 180</td>
-                      <td className="p-3">OTS Sanction &amp; Closure.</td>
-                      <td className="p-3">Issuance of Settlement Sanction Letter; lien revocation.</td>
-                      <td className="p-3">Vet sanction letter, deposit settlement funds, obtain stamped NDC.</td>
+                      <td className="p-3">OTS Sanction &amp. Closure.</td>
+                      <td className="p-3">Issuance of Settlement Sanction Letter. lien revocation.</td>
+                      <td className="p-3">Vet sanction letter. Deposit settlement funds. Obtain stamped NDC.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -708,9 +604,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                 9. Specialized Scenarios: Joint Accounts &amp; Overdrafts
               </h2>
 
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                The application of Section 171 set-off rules varies largely depending on the legal ownership structure and character of the bank accounts involved:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The application of Section 171 set-off rules varies largely depending on the legal ownership structure and character of the bank accounts involved: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
@@ -718,9 +612,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                     <UserCheck className="w-4 h-4 text-[#1886ff]"/>
                     Joint Accounts with Non-Borrowers
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Under established Supreme Court precedents, funds in a joint account owned with a spouse or parent cannot be set off for an individual personal loan default unless the co-owner is also a contractual borrower or guarantor.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Under established Supreme Court rulings. Funds in a joint account owned with a spouse or parent cannot be set off for an individual private loans default unless the co-owner is also a contractual client or guarantor. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
@@ -728,9 +620,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                     <CreditCard className="w-4 h-4 text-[#1886ff]"/>
                     Salary Accounts in the Same Bank
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    While intra-bank set-off applies, total freezing of an employee operational salary account without notice violates natural justice. Transferring primary payroll to an independent institution provides immediate subsistence protection.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> While intra-bank set-off applies. Total freezing of an staff daily work salary account without notice violates natural justice. Transferring primary payroll to an independent institution provides fast subsistence protection. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
@@ -738,9 +628,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                     <Briefcase className="w-4 h-4 text-[#1886ff]"/>
                     Business Current vs. Personal Savings
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    For private limited companies, corporate debts cannot be set off against personal director accounts due to separate corporate entity status, unless personal guarantees have been formally invoked.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> For private limited companies. Company debts cannot be set off against private director accounts due to separate company entity status. Unless private guarantees have been formally invoked. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
@@ -748,9 +636,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                     <Ban className="w-4 h-4 text-[#1886ff]"/>
                     PPF, Gratuity &amp; Pension Balances
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Statutory welfare funds. This includes public Provident Fund (PPF) and employee gratuity deposits, enjoy absolute immunity under Section 60 CPC and cannot be attached or set off under any banking agreement.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> legal welfare funds. This includes public Provident Fund (PPF) and staff gratuity deposits. Enjoy absolute immunity under Section 60 CPC and cannot be attached or set off under any banking pacts. </p>
                 </div>
               </div>
             </section>
@@ -769,9 +655,7 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Frequently Asked Questions: Bank Deductions &amp; Set-Off Protections
               </h2>
-              <p className="text-xs md:text-sm text-slate-600">
-                Click on any question below to view detailed legal answers verified by our banking and debt resolution professionals:
-              </p>
+              <p className="text-xs md:text-sm text-slate-600"> Click on any question below to view detailed legal answers verified by our banking and debt relief workers: </p>
 
               <div className="space-y-3 pt-2">
                 {faqs.map((faq, index) => {
@@ -799,21 +683,11 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                 Official Regulatory Citations &amp; Judicial References
               </h2>
               <ul className="space-y-2 text-xs text-slate-600 leading-relaxed list-disc pl-5">
-                <li>
-                  <strong>Indian Contract Act, 1872:</strong> Section 171 (General Lien of Bankers, Factors, and Attorneys), Ministry of Law and Justice, Government of India.
-                </li>
-                <li>
-                  <strong>Code of Civil Procedure, 1908 (CPC):</strong> Section 60 (Property Liable to Attachment and Sale) and Order XXI Rule 46 (Garnishee Orders).
-                </li>
-                <li>
-                  <strong>Payment and Settlement Systems Act, 2007 (PSSA):</strong> Section 25 (Dishonour of Electronic Funds Transfer and Mandate Revocation Rules).
-                </li>
-                <li>
-                  <strong>Credit Information Companies (Regulation) Act, 2005 (CICRA):</strong> Section 21 (Dispute Resolution and Inaccurate Credit Data Rectification).
-                </li>
-                <li>
-                  <strong>Reserve Bank of India Master Directions:</strong> Master Direction on Fair Practices Code for Lenders and Integrated Ombudsman Scheme, 2021.
-                </li>
+                <li> <strong>Indian Contract Act, 1872:</strong> Section 171 (General Lien of Bankers. Factors. And Attorneys). Ministry of Law and Justice. Government of India. </li>
+                <li> <strong>Code of Civil Procedure, 1908 (CPC):</strong> Section 60 (Property Liable to Attachment and Sale) and Order XXI Rule 46 (Garnishee Orders). </li>
+                <li> <strong>Payment and Settlement Systems Act. 2007 (PSSA):</strong> Section 25 (Dishonour of Electronic Funds Transfer and Mandate Revocation Rules). </li>
+                <li> <strong>Credit Information Companies (Regulation) Act. 2005 (CICRA):</strong> Section 21 (Dispute relief and Inaccurate Credit Data Rectification). </li>
+                <li> <strong>Reserve Bank of India Master Directions:</strong> Master Direction on Fair Practices Code for Lenders and Integrated Ombudsman Scheme. 2021. </li>
               </ul>
 
               {/* 6 Outbound Authority Badges */}
@@ -900,14 +774,10 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                   <Link href="/author/ashish-jhangra" className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional.
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief expert. </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Specialized in banking compliance, arbitral defense strategies, loan dispute resolution. Section 171 set-off protections with extensive experience defending borrowers across Indian financial forums.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> Specialized in banking compliance. Arbitral defense plans. Loan dispute relief. Section 171 set-off protections with extensive skill defending clients across Indian money forums. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
                   <span>View Author Profile.</span>
@@ -925,12 +795,8 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
                 <span className="text-xs font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
                   100% CONFIDENTIAL LEGAL DEFENSE.
                 </span>
-                <p className="text-lg md:text-xl font-bold text-white leading-snug">
-                  Bank Freezing Your Account?
-                </p>
-                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
-                  Our debt resolution experts challenge unauthorized liens, protect your salary account, stop recovery harassment. Negotiate a 40% to 55% settlement.
-                </p>
+                <p className="text-lg md:text-xl font-bold text-white leading-snug"> Bank Freezing Your Account? </p>
+                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal"> Our debt relief experts challenge illegal liens. Protect your salary account. Stop claims abuse. settle a 40% to 55% settlement. </p>
               </div>
               <Link href="/contact" className="block w-full bg-white text-blue-900 hover:text-[#1886ff] py-3 px-4 rounded-full font-bold text-sm hover:bg-slate-50 transition-all shadow-md">
                 Facing Account Deductions? Get Legal Help
@@ -953,22 +819,10 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
               <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage.</p>
               <ul className="space-y-2 text-slate-600">
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Zero Upfront Risk:</strong> Success-linked settlement fee structure.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Direct Bank Remittance:</strong> Zero middleman fund holding.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>RBI &amp; CICRA Compliance:</strong> 100% lawful dispute handling.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Pan-India Representation:</strong> Dedicated banking resolution team.</span>
-                </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Zero Upfront Risk:</strong> Success-linked settlement fee structure.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Direct Bank Remittance:</strong> Zero middleman fund holding.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>RBI &amp. CICRA Compliance:</strong> 100% lawful dispute handling.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Pan-India legal help:</strong> Dedicated banking relief team.</span> </li>
               </ul>
             </div>
 
@@ -977,23 +831,17 @@ export default function CanBankDeductMoneyFromAnotherAccountClient() {
               <p className="font-bold text-slate-900 text-sm">Related Legal Guides.</p>
               <div className="space-y-2.5">
                 <Link href="/application-to-unblock-bank-account-for-loan-emi" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Unblock Bank Account Frozen for Loan EMI.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Unblock Bank Account Frozen for Loan EMI. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Step-by-step account unfreeze blueprint &rarr;.</span>
                 </Link>
 
                 <Link href="/ecs-nach-bounce-legal-notice-section-25" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Section 25 Notice for NACH Mandate Bounce.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Section 25 Notice for NACH Mandate Bounce. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">PSSA legal defense &amp; reply guide &rarr;.</span>
                 </Link>
 
                 <Link href="/bank-demanding-full-payment-for-loan-closure" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Bank Demanding Full Loan Payment.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Bank Demanding Full Loan Payment. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Countering full demands &amp; securing OTS &rarr;.</span>
                 </Link>
               </div>

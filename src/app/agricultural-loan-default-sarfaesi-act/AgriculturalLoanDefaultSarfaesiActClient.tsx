@@ -47,43 +47,43 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
     const faqs = [
         {
             q: 'Can a bank seize and auction agricultural land under the SARFAESI Act?',
-            a: "No. Section 31(i) of the SARFAESI Act, 2002 creates an absolute statutory exemption prohibiting banks from taking symbolic possession, physical possession. Conducting an auction of any agricultural land for recovering unpaid loans without civil court intervention."
+            a: "No. Section 31(i) of the SARFAESI Act. 2002 creates an absolute legal exemption prohibiting banks from taking symbolic takeover. Physical takeover. Conducting an auction of any farm land for recovering unpaid loans without civil court intervention."
         },
         {
             q: 'What does Section 31(i) of the SARFAESI Act state about farm land?',
-            a: 'Section 31(i) explicitly mandates that the provisions of the SARFAESI Act shall not apply to any security interest created in agricultural land. Any possession notice under Section 13(4) or auction notice issued against agricultural land is illegal and void ab initio.'
+            a: 'Section 31(i) explicitly mandates that the provisions of the SARFAESI Act shall not apply to any security interest created in farm land. Any seizure notice under Section 13(4) or auction notice issued against farm land is illegal and void ab initio.'
         },
         {
             q: 'Can a bank auction agricultural land for Kisan Credit Card (KCC) loan default?',
-            a: 'No. KCC loans secured against agricultural land cannot be recovered through SARFAESI proceedings. If a bank issues SARFAESI notices for KCC defaults, farmers can challenge the action before the Debt Recovery Tribunal under Section 17 or High Court under Article 226.'
+            a: 'No. KCC loans secured against farm land cannot be recovered through SARFAESI proceedings. If a bank issues SARFAESI notices for KCC defaults. Farmers can challenge the action before the Debt claims Tribunal under Section 17 or High Court under Article 226.'
         },
         {
             q: 'How does the Supreme Court determine whether a land is truly agricultural?',
-            a: "In landmark judgments like ITC Ltd. v. Blue Coast Hotels and Indian Bank v. K. Pappireddiyar, the Supreme Court held that agricultural classification depends on revenue records (Khasra/Khatauni), actual agricultural usage. The purpose of the security interest at the time of mortgage creation."
+            a: "In landmark judgments like ITC Ltd. v. Blue Coast Hotels and Indian Bank v. K. Pappireddiyar. The Supreme Court held that farm classification depends on income records (Khasra/Khatauni). Actual farm usage. The purpose of the security interest at the time of mortgage creation."
         },
         {
             q: 'What legal recourse can a bank take if it cannot use the SARFAESI Act?',
-            a: 'If SARFAESI is barred under Section 31(i), banks must file a standard civil recovery suit in Civil Court or file an Original Application (OA) before the Debt Recovery Tribunal (DRT) under Section 19 of the RDB Act if debt exceeds ₹20 Lakhs.'
+            a: 'If SARFAESI is barred under Section 31(i). Banks must file a standard civil claims suit in Civil Court or file an Original Application (OA) before the Debt claims Tribunal (DRT) under Section 19 of the RDB Act if debt exceeds ₹20 Lakhs.'
         },
         {
             q: 'Can banks auction farm tractors, harvesters, or agricultural equipment?',
-            a: "Yes. The Section 31(i) exemption strictly protects agricultural land. Movable assets like tractors, harvesters. Irrigation equipment are hypothecated chattels, allowing lenders to seize them under standard hypothecation contract clauses, subject to RBI Fair Practices Code guidelines against physical coercion."
+            a: "Yes. The Section 31(i) exemption strictly protects farm land. Movable assets like tractors, harvesters. Irrigation tools are hypothecated chattels. This allows lenders to seize them under standard hypothecation contract clauses. Subject to RBI Fair Practices Code rules against physical coercion."
         },
         {
             q: 'Can a farmer go to jail or face arrest for defaulting on an agricultural loan?',
-            a: 'No. Defaulting on a Kisan Credit Card, crop loan, or farm equipment loan is strictly a civil dispute. Commercial banks cannot arrest farmers or file criminal FIRs for loan default unless there is documented evidence of forged revenue records or deliberate fraud.'
+            a: 'No. Defaulting on a Kisan Credit Card. Crop loan. Or farm tools loan is strictly a civil dispute. banks cannot arrest farmers or file criminal FIRs for loan default unless there is documented proof of forged income records or deliberate fraud.'
         },
         {
             q: 'What happens if a bank issues a Section 13(2) demand notice for farm land?',
-            a: "The borrower should immediately file a formal written representation and objection under Section 13(3A) within 60 days. The objection must highlight the statutory bar under Section 31(i), enclose certified revenue extract records. Demand withdrawal of SARFAESI proceedings."
+            a: "The client should promptly file a formal written legal help and objection under Section 13(3A) within 60 days. The objection must highlight the legal bar under Section 31(i). Enclose certified income extract records. Demand withdrawal of SARFAESI proceedings."
         },
         {
             q: 'Can agricultural loans and KCC dues be settled through a One-Time Settlement (OTS)?',
-            a: "Yes. All public sector and scheduled commercial banks offer specialized Agricultural One-Time Settlement (OTS) schemes approved by their boards. Distressed farmers facing crop failure or financial hardship can negotiate major waivers on accumulated compound interest and penalty charges."
+            a: "Yes. All public sector and scheduled banks offer specialized farm One-Time Settlement (OTS) schemes approved by their boards. Distressed farmers facing crop failure or hardship can settle major waivers on total compound interest and penalty charges."
         },
         {
             q: 'How does an agricultural loan default affect CIBIL scores and future credit access?',
-            a: 'When an agricultural loan defaults past 90 days, it is classified as a Non-Performing Asset (NPA) and reported to CIBIL, causing a score drop of 80 to 140 points. Completing an official OTS and obtaining a No Dues Certificate updates credit records to Settled or Closed.'
+            a: 'When an farm loan defaults past 90 days. It is classified as a Non-Performing Asset (NPA) and reported to CIBIL. This causes a score drop of 80 to 140 points. Completing an formal OTS and obtaining a No Dues letter updates credit records to Settled or Closed.'
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -100,9 +100,7 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
             Can Banks Auction Agricultural Land Under the SARFAESI Act?
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed">
-            Defaulted on your Kisan Credit Card (KCC), tractor loan, or agricultural term credit? Learn how Section 31(i) of the SARFAESI Act strictly prohibits banks from auctioning farm land, discover your statutory legal remedies. Negotiate an affordable compromise settlement.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> Defaulted on your Kisan Credit Card (KCC). Tractor loan, or farm term credit? Learn how Section 31(i) of the SARFAESI Act strictly prohibits banks from auctioning farm land. Discover your legal legal remedies. settle an affordable OTS deals. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -145,9 +143,7 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>Statutory Farm Land Shield.</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Protected under Section 31(i) SARFAESI Act 2002 &amp; Supreme Court of India precedents.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Protected under Section 31(i) SARFAESI Act 2002 &amp. Supreme Court of India rulings. </p>
               </div>
             </div>
           </aside>
@@ -163,61 +159,21 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
               </div>
 
               <ul className="space-y-3.5 text-xs sm:text-sm text-slate-700 leading-relaxed">
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Absolute Exemption Under Section 31(i):</strong> Section 31(i) of the SARFAESI Act, 2002 explicitly mandates that the Act shall not apply to any security interest created in agricultural land, rendering any bank possession or auction notice legally void.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Absolute Exemption Under Section 31(i):</strong> Section 31(i) of the SARFAESI Act. 2002 explicitly mandates that the Act shall not apply to any security interest created in farm land. Rendering any bank takeover or auction notice legally void. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Zero Arrest or Jail Authority:</strong> Default on a Kisan Credit Card (KCC) or farm development loan is purely a civil contractual dispute, meaning banks and recovery agents have zero power to arrest or imprison farmers.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Zero Arrest or Jail formal:</strong> Default on a Kisan Credit Card (KCC) or farm development loan is purely a civil contractual dispute. Meaning banks and claims agents have zero power to arrest or imprison farmers. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Supreme Court Precedents Favor Farmers:</strong> Landmark apex court rulings establish that revenue records (7/12 extracts, Khasra, Khatauni) and actual agricultural cultivation govern land character, preventing banks from re-classifying farm land as commercial real estate.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Supreme Court rulings Favor Farmers:</strong> Landmark apex court rulings establish that income records (7/12 extracts. Khasra. Khatauni) and actual farm cultivation govern land character. Preventing banks from re-classifying farm land as trade real estate. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Critical 60-Day Section 13(3A) Objection Window:</strong> Upon receiving a Section 13(2) demand notice, farmers have a statutory right to submit written objections within 60 days to formally place the Section 31(i) bar on the bank record.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Critical 60-Day Section 13(3A) Objection Window:</strong> Upon receiving a Section 13(2) demand notice. Farmers have a legal right to submit written objections within 60 days to formally place the Section 31(i) bar on the bank record. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">DRT Section 17 &amp; High Court Writs:</strong> If a lender ignores objections and issues a Section 13(4) possession notice, borrowers can secure an immediate judicial stay before the Debt Recovery Tribunal or High Court under Article 226.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">DRT Section 17 &amp. High Court Writs:</strong> If a lender ignores objections and issues a Section 13(4) seizure notice. Clients can secure an fast judicial stay before the Debt claims Tribunal or High Court under Article 226. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Tractor &amp; Machinery Hypothecation Distinction:</strong> While agricultural land cannot be auctioned under SARFAESI, movable farm equipment like tractors and harvesters remain hypothecated assets governed by strict RBI repossession guidelines.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Tractor &amp. Machinery Hypothecation Distinction:</strong> While farm land cannot be auctioned under SARFAESI. Movable farm tools like tractors and harvesters remain hypothecated assets governed by strict RBI repossession rules. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Commercial Rationale for 40% to 55% OTS Waivers:</strong> Because lenders cannot take summary possession of land under SARFAESI, they face multi-year civil court litigation, making bank credit committees eager to accept compromise One-Time Settlements.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">trade Rationale for 40% to 55% OTS Waivers:</strong> Because lenders cannot take summary takeover of land under SARFAESI. They face multi-year civil court lawsuits. Making bank credit boards eager to accept OTS deal One-Time Settlements. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Restoring Credit Bureau Health:</strong> Executing a formal OTS agreement eliminates mounting penal interest surcharges and allows borrowers to obtain an official No Dues Certificate (NDC) to update CIBIL records.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Restoring Credit Bureau Health:</strong> Executing a formal OTS pacts eliminates mounting penal interest surcharges and allows clients to obtain an formal No Dues letter (NDC) to update CIBIL records. </div> </li>
               </ul>
             </div>
 
@@ -231,15 +187,9 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
                 1. Agricultural Loan Defaults &amp; Section 31(i) SARFAESI Shield
               </h2>
               <div className="space-y-4 text-sm md:text-base text-slate-700 leading-relaxed">
-                <p>
-                  Agricultural credit in India constitutes the backbone of rural economic stability, yet it operates under severe structural vulnerabilities ranging from monsoon failure and erratic commodity prices to pest infestations and supply chain disruptions. When an agricultural borrower defaults on a Kisan Credit Card (KCC) limit, crop cultivation loan. Farm development term facility, commercial banks and regional rural banks (RRBs) often attempt to initiate aggressive recovery measures. However, Parliament deliberately built an impregnable statutory shield into the Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest (SARFAESI) Act, 2002 to prevent rural dispossession.
-                </p>
-                <p>
-                  Under normal non-agricultural commercial lending, when a loan account crosses ninety days past due (90 DPD), it undergoes Special Mention Account (SMA) progression from SMA-0 to SMA-2 and is formally classified as a Non-Performing Asset (NPA). Lenders immediately invoke Section 13(2) and Section 13(4) of the SARFAESI Act, enabling them to seize commercial or residential properties without filing a civil court lawsuit. However,. <strong>Section 31(i) of the SARFAESI Act categorically establishes that the provisions of the Act shall not apply to any security interest created in agricultural land.</strong>
-                </p>
-                <p>
-                  This statutory exclusion means that commercial banks, cooperative banks, NBFCs. Asset Reconstruction Companies (ARCs) possess zero legal authority to issue possession notices, assume symbolic custody, appoint receiver officers through District Magistrates. Conduct public e-auctions against agricultural land under the SARFAESI framework. When banks classify farm loans as NPAs, they must maintain standard provisioning of fifteen to twenty-five percent Tier-1 capital against sub-standard assets. Because Section 31(i) deprives lenders of summary seizure powers, banks face the grim prospect of protracted, multi-year recovery proceedings before civil courts or Debt Recovery Tribunals, providing borrowers with immense leverage to negotiate a mutually beneficial One-Time Settlement (OTS).
-                </p>
+                <p> farm credit in India constitutes the backbone of rural economic stability. Yet it operates under severe structural vulnerabilities ranging from monsoon failure and erratic commodity prices to pest infestations and supply chain breaks. When an farm client defaults on a Kisan Credit Card (KCC) limit. Crop cultivation loan. Farm development term facility. Banks and local rural banks (RRBs) often attempt to initiate aggressive claims measures. However. Parliament on purpose built an impregnable legal shield into the Securitisation and Reconstruction of money Assets and Enforcement of Security Interest (SARFAESI) Act. 2002 to prevent rural dispossession. </p>
+                <p> Under normal non-farm trade lending. When a loan account crosses ninety days past due (90 DPD). It undergoes Special Mention Account (SMA) progression from SMA-0 to SMA-2 and is formally classified as a Non-Performing Asset (NPA). Lenders promptly invoke Section 13(2) and Section 13(4) of the SARFAESI Act. This lets them to seize trade or residential properties without filing a civil court lawsuit. However,. <strong>Section 31(i) of the SARFAESI Act categorically establishes that the provisions of the Act shall not apply to any security interest created in farm land.</strong> </p>
+                <p> This legal exclusion means that banks. Local banks. NBFCs. Asset Reconstruction Companies (ARCs) possess zero legal formal to issue takeover notices. Assume symbolic custody. Appoint receiver officers through areas Magistrates. Conduct public e-auctions against farm land under the SARFAESI rules. When banks classify farm loans as NPAs. They must maintain standard provisioning of fifteen to twenty-five percent Tier-1 cash against sub-standard assets. Because Section 31(i) deprives lenders of summary seizure powers. Banks face the grim prospect of protracted. Multi-year claims steps before civil courts or Debt claims Tribunals. This provides clients with immense leverage to settle a mutually beneficial One-Time Settlement (OTS). </p>
               </div>
             </section>
 
@@ -253,12 +203,8 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
                 2. Financial Breakdown: Kisan Credit Card Dues vs True Debt
               </h2>
               <div className="space-y-4 text-sm md:text-base text-slate-700 leading-relaxed">
-                <p>
-                  A primary source of severe distress for farming families is the rapid, artificial escalation of their outstanding dues once an agricultural credit facility turns overdue. Under normal operating conditions, Kisan Credit Cards and crop loans enjoy interest subvention benefits from the Central Government, offering effective borrowing rates between four and seven percent per annum. However, the moment an account slips past its annual renewal date or experiences non-payment following harvest losses, banks revoke all subvention subsidies retroactively.
-                </p>
-                <p>
-                  Lenders then apply commercial interest rates ranging from eleven to fourteen percent per annum, coupled with compounding penal interest surcharges of two to three percent per month, ledger foliation charges, inspection penalties. Unapproved collection fees. Within eighteen to thirty-six months of default, a manageable agricultural loan of ₹8,00,000 frequently balloons into an unpayable claimed liability exceeding ₹15,50,000. Understanding the forensic distinction between legitimate principal disbursements and unearned compound penalties is the cornerstone of executing a successful debt compromise.
-                </p>
+                <p> A primary source of severe distress for farming families is the rapid. Artificial escalation of their dues once an farm credit facility turns overdue. Under normal operating conditions. Kisan Credit Cards and crop loans enjoy interest subvention benefits from the Central Government. Offering effective borrowing rates between four and seven percent per annum. However. The moment an account slips past its annual renewal date or experiences non-payment following harvest losses. Banks revoke all subvention subsidies retroactively. </p>
+                <p> Lenders then apply trade interest rates ranging from eleven to fourteen percent per annum. Coupled with compounding penal interest surcharges of two to three percent per month. Ledger foliation charges, checks penalties. Unapproved claims fees. Within eighteen to thirty-six months of default. A manageable farm loan of ₹8,00,000 often balloons into an unpayable claimed debt risk exceeding ₹15,50,000. Understanding the deep distinction between legitimate main loan disbursements and unearned compound penalties is the cornerstone of executing a successful debt OTS deal. </p>
 
                 {/* 4-Sided Bordered Calculation Breakdown */}
                 <div className="rounded-2xl border border-slate-200/80 bg-white p-5 sm:p-6 shadow-xs space-y-4">
@@ -313,9 +259,7 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
                         <span className="text-emerald-900">Final Compromise Settlement:</span>
                         <span className="text-emerald-700 font-extrabold">₹8,75,000 (44% Total Waiver).</span>
                       </div>
-                      <p className="text-[11px] text-slate-500 pt-1 leading-relaxed">
-                        Result: Full debt closure with official No Dues Certificate and permanent release of agricultural land revenue charge.
-                      </p>
+                      <p className="text-[11px] text-slate-500 pt-1 leading-relaxed"> Result: Full debt closure with formal No Dues letter and permanent release of farm land income charge. </p>
                     </div>
                   </div>
                 </div>
@@ -331,9 +275,7 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 3. Legal Forum Matrix: Agricultural Debt Resolution Options
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When agricultural credit defaults, lenders evaluate various statutory forums. Understanding how each forum operates and the specific defense strategies available allows borrowers to protect their assets:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When farm credit defaults. Lenders evaluate various legal forums. Understanding how each forum operates and the local defense plans available allows clients to protect their assets: </p>
 
               <div className="rounded-2xl border border-slate-200/80 bg-white shadow-xs overflow-hidden">
                 <div className="overflow-x-auto">
@@ -353,32 +295,32 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
                         <td className="p-3.5 border-r border-slate-200/80">SARFAESI Act, 2002.</td>
                         <td className="p-3.5 text-emerald-700 font-bold border-r border-slate-200/80">NO (Strictly Barred by Sec 31(i)).</td>
                         <td className="p-3.5 border-r border-slate-200/80">60 to 90 Days</td>
-                        <td className="p-3.5 text-[#1886ff] font-semibold">File Section 13(3A) objection &amp; DRT stay under Section 17.</td>
+                        <td className="p-3.5 text-[#1886ff] font-semibold">File Section 13(3A) objection &amp. DRT stay under Section 17.</td>
                       </tr>
                       <tr className="hover:bg-slate-50/50">
-                        <td className="p-3.5 font-bold text-slate-900 border-r border-slate-200/80">Civil Recovery Suit.</td>
+                        <td className="p-3.5 font-bold text-slate-900 border-r border-slate-200/80">Civil claims Suit.</td>
                         <td className="p-3.5 border-r border-slate-200/80">Code of Civil Procedure, 1908.</td>
                         <td className="p-3.5 text-amber-700 font-semibold border-r border-slate-200/80">Only after final decree.</td>
                         <td className="p-3.5 border-r border-slate-200/80">3 to 7 Years</td>
-                        <td className="p-3.5 text-[#1886ff] font-semibold">Submit Written Statement citing crop damage &amp; seek OTS.</td>
+                        <td className="p-3.5 text-[#1886ff] font-semibold">Submit Written record citing crop damage &amp. seek OTS.</td>
                       </tr>
                       <tr className="hover:bg-slate-50/50">
-                        <td className="p-3.5 font-bold text-slate-900 border-r border-slate-200/80">Debt Recovery Tribunal (DRT).</td>
-                        <td className="p-3.5 border-r border-slate-200/80">RDB Act, 1993 (Only &gt;₹20 Lakhs).</td>
-                        <td className="p-3.5 text-amber-700 font-semibold border-r border-slate-200/80">Through Recovery Officer.</td>
+                        <td className="p-3.5 font-bold text-slate-900 border-r border-slate-200/80">Debt claims Tribunal (DRT).</td>
+                        <td className="p-3.5 border-r border-slate-200/80">RDB Act, 1993 (Only &gt. ₹20 Lakhs).</td>
+                        <td className="p-3.5 text-amber-700 font-semibold border-r border-slate-200/80">Through claims Officer.</td>
                         <td className="p-3.5 border-r border-slate-200/80">2 to 4 Years</td>
-                        <td className="p-3.5 text-[#1886ff] font-semibold">Challenge Statement of Account &amp; negotiate compromise OTS.</td>
+                        <td className="p-3.5 text-[#1886ff] font-semibold">Challenge record of Account &amp. settle OTS deal OTS.</td>
                       </tr>
                       <tr className="hover:bg-slate-50/50">
                         <td className="p-3.5 font-bold text-slate-900 border-r border-slate-200/80">National Lok Adalat.</td>
-                        <td className="p-3.5 border-r border-slate-200/80">Legal Services Authorities Act, 1987.</td>
+                        <td className="p-3.5 border-r border-slate-200/80">Legal Services officials Act, 1987.</td>
                         <td className="p-3.5 text-emerald-700 font-semibold border-r border-slate-200/80">NO (Consent Award Only).</td>
                         <td className="p-3.5 border-r border-slate-200/80">Single Day Sitting.</td>
                         <td className="p-3.5 text-[#1886ff] font-semibold">Execute binding OTS consent decree with maximum interest waiver.</td>
                       </tr>
                       <tr className="hover:bg-slate-50/50">
-                        <td className="p-3.5 font-bold text-slate-900 border-r border-slate-200/80">Bank Agricultural OTS Scheme.</td>
-                        <td className="p-3.5 border-r border-slate-200/80">RBI Master Directions &amp; Bank Policy.</td>
+                        <td className="p-3.5 font-bold text-slate-900 border-r border-slate-200/80">Bank farm OTS Scheme.</td>
+                        <td className="p-3.5 border-r border-slate-200/80">RBI Master Directions &amp. Bank Policy.</td>
                         <td className="p-3.5 text-emerald-700 font-semibold border-r border-slate-200/80">NO (Voluntary Settlement).</td>
                         <td className="p-3.5 border-r border-slate-200/80">30 to 60 Days</td>
                         <td className="p-3.5 text-[#1886ff] font-semibold">Submit hardship dossier to secure 40% to 55% waiver with NDC.</td>
@@ -399,15 +341,9 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
                 4. Credit Bureau Impact: Rebuilding CIBIL After Farm Default
               </h2>
               <div className="space-y-4 text-sm md:text-base text-slate-700 leading-relaxed">
-                <p>
-                  Agricultural loan default triggers major repercussions across credit bureaus. This includes transUnion CIBIL, Experian, CRIF High Mark, and Equifax. Under the Credit Information Companies (Regulation) Act, 2005 (CICRA), commercial banks and rural credit institutions upload monthly repayment records to bureau databases. The standard credit scoring algorithm distributes a 900-point score across five critical components: payment history (35 percent weight), credit exposure and use (30 percent weight), credit history duration (15 percent weight), credit portfolio mix (10 percent weight). Recent credit inquiries (10 percent weight).
-                </p>
-                <p>
-                  When a Kisan Credit Card or agricultural term loan crosses 90 days of non-payment, the bureau flag shifts from standard status to Sub-Standard NPA, immediately deducting 80 to 140 points from the borrower&apos;s score. If the bank initiates court litigation or files an Original Application before the DRT, a severe &quot;Suit Filed&quot. Or &quot;Willful Default&quot. Tag is stamped onto the report, resulting in systemic loan rejections across all formal banking channels.
-                </p>
-                <p>
-                  Executing a structured One-Time Settlement provides the definitive legal pathway to halt this score erosion. Upon full payment of the agreed compromise sum, the bank must issue an unconditional No Dues Certificate and report the account as &quot;Settled&quot. Or &quot;Closed&quot; under Section 21 of CICRA within thirty days. Borrowers can then initiate credit rebuilding by servicing secured credit cards or gold loans, steadily restoring their credit score above 750 within twelve to eighteen months.
-                </p>
+                <p> farm loan default triggers major repercussions across credit bureaus. This includes transUnion CIBIL, Experian. CRIF High Mark, and Equifax. Under the Credit Information Companies (Regulation) Act. 2005 (CICRA). Banks and rural credit institutions upload monthly payment records to bureau databases. The standard credit scoring algorithm distributes a 900-point score across five critical components: payment history (35 percent weight). Credit exposure and use (30 percent weight). Credit history duration (15 percent weight). Credit portfolio mix (10 percent weight). Recent credit inquiries (10 percent weight). </p>
+                <p> When a Kisan Credit Card or farm term loan crosses 90 days of non-payment. The bureau flag shifts from standard status to Sub-Standard NPA. Promptly deducting 80 to 140 points from the client&apos. s score. If the bank initiates court lawsuits or files an Original Application before the DRT. A severe &quot. Suit Filed&quot. Or &quot. Willful Default&quot. Tag is stamped onto the report. This resulting in systemic loan rejections across all formal banking channels. </p>
+                <p> Executing a structured One-Time Settlement provides the definitive legal pathway to halt this score erosion. Upon full payment of the agreed OTS deal sum. The bank must issue an full No Dues letter and report the account as &quot. Settled&quot. Or &quot. Closed&quot. under Section 21 of CICRA within thirty days. Clients can then initiate credit rebuilding by servicing secured credit cards or gold loans. Steadily restoring their credit score above 750 within twelve to eighteen months. </p>
               </div>
             </section>
 
@@ -420,9 +356,7 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Visual Defense Roadmap: 6-Stage Farm Loan Defense Protocol
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                This comprehensive visual roadmap outlines the sequential, battle-tested legal and procedural blueprint to challenge unlawful SARFAESI notices, enforce Section 31(i) agricultural exemptions. Negotiate a full compromise settlement:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> This full visual roadmap outlines the sequential. Battle-tested legal and procedural blueprint to challenge unlawful SARFAESI notices. Enforce Section 31(i) farm exemptions. settle a full OTS deals: </p>
 
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-sm p-3 md:p-4 overflow-hidden">
                 <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-slate-100">
@@ -447,9 +381,7 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 5. Step-by-Step SOP: Agricultural Loan Settlement Protocol
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Follow this proven six-stage standard operating procedure to defend your agricultural property against unlawful bank recovery and secure a formal compromise settlement:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Follow this proven six-stage standard operating procedure to defend your farm property against unlawful bank claims and secure a formal OTS deals: </p>
 
               <div className="space-y-4 pt-2">
                 {/* Stage 1 */}
@@ -463,9 +395,7 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
                   <h3 className="text-base md:text-lg font-bold text-slate-900">
                     Loan Agreement, Sanction Terms &amp; Title Document Forensic Audit
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Examine all original sanction letters, mortgage deeds, and KCC limit renewals. Cross-examine claimed bank interest rates against RBI agricultural master directions, isolating unapproved penal compounding, insurance deductions. Un-subvented charges.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Examine all original sanction letters. Mortgage deeds, and KCC limit renewals. Cross-examine claimed bank interest rates against RBI farm master directions. Isolating unapproved penal compounding, cover deductions. Un-subvented charges. </p>
                 </div>
 
                 {/* Stage 2 */}
@@ -479,9 +409,7 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
                   <h3 className="text-base md:text-lg font-bold text-slate-900">
                     Revenue Records Verification &amp; Section 31(i) Evidence Compilation
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Procure certified land revenue records, including 7/12 extracts, Khasra, Khatauni, and Patwari crop verification certificates. Establish documented proof of ongoing agricultural activity to construct an unassailable statutory defense under Section 31(i).
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Procure certified land income records. Including 7/12 extracts, Khasra, Khatauni. And Patwari crop verification letters. Establish documented proof of ongoing farm activity to construct an unassailable legal defense under Section 31(i). </p>
                 </div>
 
                 {/* Stage 3 */}
@@ -495,9 +423,7 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
                   <h3 className="text-base md:text-lg font-bold text-slate-900">
                     Section 13(3A) Statutory Objection Representation
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Serve a formal statutory representation upon the bank Authorised Officer within 60 days of receiving a Section 13(2) notice. Cite Section 31(i) and Supreme Court rulings, demanding the immediate withdrawal of SARFAESI proceedings against the farm land.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Serve a formal legal legal help upon the bank Authorised Officer within 60 days of receiving a Section 13(2) notice. Cite Section 31(i) and Supreme Court rulings. Demanding the fast withdrawal of SARFAESI proceedings against the farm land. </p>
                 </div>
 
                 {/* Stage 4 */}
@@ -511,9 +437,7 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
                   <h3 className="text-base md:text-lg font-bold text-slate-900">
                     DRT Section 17 Securitisation Application &amp; Stay Petition
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    If the lender attempts physical or symbolic possession under Section 13(4), file an immediate Securitisation Application before the jurisdictional Debt Recovery Tribunal under Section 17. Secure an interim stay against possession and auction actions.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> If the lender attempts physical or symbolic takeover under Section 13(4). File an fast Securitisation Application before the jurisdictional Debt claims Tribunal under Section 17. Secure an interim stay against takeover and auction actions. </p>
                 </div>
 
                 {/* Stage 5 */}
@@ -527,9 +451,7 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
                   <h3 className="text-base md:text-lg font-bold text-slate-900">
                     Bilateral Agricultural OTS Proposal &amp; Credit Committee Review
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Leverage the legal roadblock to submit a structured One-Time Settlement dossier to the bank Settlement Advisory Committee. Present genuine crop loss records to negotiate a 40% to 55% waiver on accumulated dues.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Leverage the legal roadblock to submit a structured One-Time Settlement dossier to the bank Settlement alert boards. Present genuine crop loss records to settle a 40% to 55% waiver on total dues. </p>
                 </div>
 
                 {/* Stage 6 */}
@@ -543,9 +465,7 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
                   <h3 className="text-base md:text-lg font-bold text-slate-900">
                     Compromise Remittance &amp; No Dues Certificate (NDC) Issuance
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    pay the approved settlement amount directly into the bank loan account against a verified sanction letter. Secure the formal No Dues Certificate, retrieve original title deeds, and release revenue charges at the Sub-Registrar office.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> pay the approved payout sum straight into the bank loan account against a verified sanction letter. Secure the formal No Dues letter. Retrieve original title deeds. And release income charges at the Sub-Registrar office. </p>
                 </div>
               </div>
             </section>
@@ -560,18 +480,10 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
                 6. Statutory Notice Defense: Legal Protections for Farmers
               </h2>
               <div className="space-y-4 text-sm md:text-base text-slate-700 leading-relaxed">
-                <p>
-                  Defending against bank legal notices in agricultural loan defaults requires a comprehensive understanding of Indian statutory banking jurisprudence. Lenders frequently deploy a combination of demand notices under the SARFAESI Act, dishonored cheque complaints under Section 138 of the Negotiable Instruments Act, 1881. Electronic mandate failure notices under Section 25 of the Payment and Settlement Systems Act, 2007. Each of these statutory mechanisms possesses distinct legal thresholds and procedural safeguards.
-                </p>
-                <p>
-                  Under Section 31(i) of the SARFAESI Act, 2002, the bar against proceeding against agricultural land is absolute and non-derogable. The Supreme Court of India has reaffirmed in landmark judgments including. <em>ITC Ltd. v. Blue Coast Hotels Ltd. (2018).</em> and <em>Indian Bank v. K. Pappireddiyar (2018).</em> that the character of land must be determined based on official revenue records, agricultural entries in revenue extracts. Actual agricultural activity rather than the mere nomenclature in a bank loan mortgage document. If a bank issues a notice under Section 13(2) demanding possession of farmland, the borrower must submit a formal response under Section 13(3A) within sixty days, placing these certified revenue extracts on record.
-                </p>
-                <p>
-                  When lenders initiate quasi-criminal proceedings under Section 138 of the NI Act or Section 25 of the PSSA for security cheques or NACH auto-debit bounces, borrowers must understand that these are bailable summons cases. Securing bail through counsel on the first appearance is a straightforward procedural step. Borrowers can then establish that the cheques were issued strictly as undated loan security rather than in discharge of a crystallized debt, opening the gateway for bilateral conciliation and compounding under Section 147 of the NI Act.
-                </p>
-                <p>
-                  also, the Reserve Bank of India Fair Practices Code strictly prohibits lenders and their recovery agents from engaging in physical intimidation, verbal harassment. Visiting borrowers outside the designated hours of 8:00 AM to 7:00 PM. Banks are also mandated to align agricultural recovery with regional crop cycles and harvest seasons, providing moratoria during documented droughts or natural disasters.
-                </p>
+                <p> Defending against bank legal notices in farm loan defaults requires a full understanding of Indian legal banking jurisprudence. Lenders often deploy a combination of demand notices under the SARFAESI Act. Dishonored cheque complaints under Section 138 of the Negotiable Instruments Act. 1881. Electronic mandate failure notices under Section 25 of the Payment and Settlement Systems Act. 2007. Each of these legal mechanisms possesses distinct legal thresholds and procedural safeguards. </p>
+                <p> Under Section 31(i) of the SARFAESI Act. 2002. The bar against proceeding against farm land is absolute and non-derogable. The Supreme Court of India has reaffirmed in landmark judgments including. <em>ITC Ltd. v. Blue Coast Hotels Ltd. (2018).</em> and <em>Indian Bank v. K. Pappireddiyar (2018).</em> that the character of land must be determined based on formal income records. Farm entries in income extracts. Actual farm activity rather than the mere nomenclature in a bank loan mortgage paper. If a bank issues a notice under Section 13(2) demanding takeover of farmland. The client must submit a formal response under Section 13(3A) within sixty days. Placing these certified income extracts on record. </p>
+                <p> When lenders initiate quasi-criminal proceedings under Section 138 of the NI Act or Section 25 of the PSSA for security cheques or NACH auto-debit bounces. Clients must understand that these are bailable summons cases. Securing bail through counsel on the first appearance is a straightforward procedural step. Clients can then establish that the cheques were issued strictly as undated loan security rather than in discharge of a crystallized debt. Opening the gateway for bilateral talks and compounding under Section 147 of the NI Act. </p>
+                <p> also. The Reserve Bank of India Fair Practices Code strictly prohibits lenders and their claims agents from engaging in physical threats. Verbal abuse. Visiting clients outside the designated hours of 8:00 AM to 7:00 PM. Banks are also mandated to align farm claims with local crop cycles and harvest seasons. This provides moratoria during documented droughts or natural disasters. </p>
               </div>
             </section>
 
@@ -584,9 +496,7 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 7. 3-Tier Escalation Matrix: Institutional Grievance Redress
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                If branch managers or recovery agents disregard Section 31(i) statutory protections or engage in unlawful recovery harassment, escalate through this structured 3-tier regulatory hierarchy:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> If branch managers or claims agents disregard Section 31(i) legal protections or engage in unlawful claims abuse. Escalate through this structured 3-tier RBI hierarchy: </p>
 
               <div className="space-y-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -599,9 +509,7 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
                   <h3 className="text-sm md:text-base font-bold text-slate-900">
                     Formal Written Objection &amp; Revenue Record Submission
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Submit a registered written complaint to the branch manager and bank internal Grievance Redressal Officer. Enclose certified revenue extracts proving the agricultural nature of the property and request the formal stoppage of unlawful SARFAESI recovery notices.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Submit a registered written complaint to the branch manager and bank internal Grievance Redressal Officer. Enclose certified income extracts proving the farm nature of the property and request the formal stoppage of unlawful SARFAESI claims notices. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -614,9 +522,7 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
                   <h3 className="text-sm md:text-base font-bold text-slate-900">
                     Escalation for Compromise Settlement &amp; Harassment Redressal
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    If the branch fails to withdraw improper notices or negotiate in good faith, escalate to the Principal Nodal Officer at the bank head office. Request the referral of the loan account to the Agricultural One-Time Settlement Committee for a structured compromise.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> If the branch fails to withdraw improper notices or settle in good faith. Escalate to the main loan Nodal Officer at the bank head office. Request the referral of the loan account to the farm One-Time Settlement boards for a structured OTS deal. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-emerald-200 shadow-xs space-y-2">
@@ -629,9 +535,7 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
                   <h3 className="text-sm md:text-base font-bold text-slate-900">
                     Regulatory Complaint via CMS Portal &amp; Article 226 Petitions
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    File a regulatory complaint on the RBI CMS portal (cms.rbi.org.in) under the Reserve Bank - Integrated Ombudsman Scheme, 2021 for violation of agricultural lending norms. Concurrently, file a Writ Petition under Article 226 before the High Court if physical possession is threatened.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> File a RBI complaint on the RBI CMS portal (cms.rbi.org.in) under the Reserve Bank - Integrated Ombudsman Scheme. 2021 for violation of farm lending norms. Concurrently. File a Writ Petition under Article 226 before the High Court if physical takeover is threatened. </p>
                 </div>
               </div>
             </section>
@@ -645,9 +549,7 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 8. Procedural Timeline: Default to No Dues Certificate
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Navigating an agricultural loan resolution requires understanding key procedural milestones from initial default to final debt closure:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Navigating an farm loan relief requires understanding key procedural milestones from initial default to final debt closure: </p>
 
               <div className="rounded-2xl border border-slate-200/80 bg-white shadow-xs overflow-hidden">
                 <div className="overflow-x-auto">
@@ -662,28 +564,28 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
                     </thead>
                     <tbody className="divide-y divide-slate-100 text-slate-600">
                       <tr className="hover:bg-slate-50/50">
-                        <td className="p-3.5 font-bold text-slate-900 border-r border-slate-200/80">Days 1–90</td>
+                        <td className="p-3.5 font-bold text-slate-900 border-r border-slate-200/80">Days 1. 90</td>
                         <td className="p-3.5 border-r border-slate-200/80">SMA-0 to SMA-2 default.</td>
                         <td className="p-3.5 border-r border-slate-200/80">before NPA declaration.</td>
-                        <td className="p-3.5 text-[#1886ff] font-semibold">Audit loan ledger &amp; seek crop restructuring if applicable.</td>
+                        <td className="p-3.5 text-[#1886ff] font-semibold">Audit loan ledger &amp. seek crop restructuring if applicable.</td>
                       </tr>
                       <tr className="hover:bg-slate-50/50">
                         <td className="p-3.5 font-bold text-slate-900 border-r border-slate-200/80">Day 90+</td>
-                        <td className="p-3.5 border-r border-slate-200/80">NPA Classification &amp; Demand Notice.</td>
+                        <td className="p-3.5 border-r border-slate-200/80">NPA Classification &amp. Demand Notice.</td>
                         <td className="p-3.5 border-r border-slate-200/80">Section 13(2) issuance.</td>
-                        <td className="p-3.5 text-[#1886ff] font-semibold">File Section 13(3A) representation invoking Section 31(i).</td>
+                        <td className="p-3.5 text-[#1886ff] font-semibold">File Section 13(3A) legal help invoking Section 31(i).</td>
                       </tr>
                       <tr className="hover:bg-slate-50/50">
-                        <td className="p-3.5 font-bold text-slate-900 border-r border-slate-200/80">Months 3–4</td>
-                        <td className="p-3.5 border-r border-slate-200/80">Legal Roadblock &amp; OTS Window.</td>
-                        <td className="p-3.5 border-r border-slate-200/80">Bilateral negotiation stage.</td>
-                        <td className="p-3.5 text-[#1886ff] font-semibold">Submit hardship dossier to bank OTS Settlement Committee.</td>
+                        <td className="p-3.5 font-bold text-slate-900 border-r border-slate-200/80">Months 3. 4</td>
+                        <td className="p-3.5 border-r border-slate-200/80">Legal Roadblock &amp. OTS Window.</td>
+                        <td className="p-3.5 border-r border-slate-200/80">Bilateral talks stage.</td>
+                        <td className="p-3.5 text-[#1886ff] font-semibold">Submit hardship dossier to bank OTS Settlement boards.</td>
                       </tr>
                       <tr className="hover:bg-slate-50/50">
-                        <td className="p-3.5 font-bold text-slate-900 border-r border-slate-200/80">Months 5–6</td>
-                        <td className="p-3.5 border-r border-slate-200/80">OTS Approval &amp; Remittance.</td>
+                        <td className="p-3.5 font-bold text-slate-900 border-r border-slate-200/80">Months 5. 6</td>
+                        <td className="p-3.5 border-r border-slate-200/80">OTS Approval &amp. Remittance.</td>
                         <td className="p-3.5 border-r border-slate-200/80">Within 30 days of sanction.</td>
-                        <td className="p-3.5 text-[#1886ff] font-semibold">pay compromise amount and obtain formal No Dues Certificate.</td>
+                        <td className="p-3.5 text-[#1886ff] font-semibold">pay OTS deal amount and obtain formal No Dues letter.</td>
                       </tr>
                     </tbody>
                   </table>
@@ -700,9 +602,7 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 9. Specialized Scenarios: Crop Loss, Tractors &amp; ARCs
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Agricultural lending encompasses diverse credit structures with distinct legal implications:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> farm lending encompasses diverse credit structures with distinct legal implications: </p>
 
               <div className="space-y-3 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -710,9 +610,7 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
                     <Sprout className="w-4 h-4 text-emerald-600"/>
                     Crop Failure, Drought &amp; State Calamity Relief
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    When district administrations declare a drought, flood. Natural calamity, RBI Master Directions require banks to convert short-term crop loans into medium-term loans with a moratorium of one to two years. Farmers can present calamity notifications to restructure dues and halt all adverse recovery actions.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> When areas administrations declare a drought. Flood. Natural calamity. RBI Master Directions require banks to convert short-term crop loans into medium-term loans with a moratorium of one to two years. Farmers can present calamity notifications to restructure dues and halt all adverse claims actions. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -720,9 +618,7 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
                     <Tractor className="w-4 h-4 text-[#1886ff]"/>
                     Tractor &amp; Farm Equipment Hypothecation vs Land Exemption
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    While agricultural land cannot be auctioned under SARFAESI, movable farm equipment like tractors and harvesters are hypothecated chattels. Lenders can repossess equipment under contract terms. They must strictly adhere to RBI Fair Practices Code, provide advance notice, and avoid physical force.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> While farm land cannot be auctioned under SARFAESI. Movable farm tools like tractors and harvesters are hypothecated chattels. Lenders can repossess tools under contract terms. They must strictly adhere to RBI Fair Practices Code. Provide advance notice. And avoid physical force. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -730,9 +626,7 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
                     <Building2 className="w-4 h-4 text-indigo-600"/>
                     Agricultural Loans Sold to Asset Reconstruction Companies (ARCs)
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    When banks assign overdue agricultural loan portfolios to ARCs under Section 5 of the SARFAESI Act, ARCs inherit the same statutory restrictions. They cannot enforce SARFAESI on farmland. Because ARCs acquire bad loan portfolios at deep discounts, they are highly motivated to negotiate fast compromise settlements.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> When banks assign overdue farm loan portfolios to ARCs under Section 5 of the SARFAESI Act. ARCs inherit the same legal restrictions. They cannot enforce SARFAESI on farmland. Because ARCs acquire bad loan portfolios at deep discounts. They are highly motivated to settle fast OTS deals. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -740,9 +634,7 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
                     <UserCheck className="w-4 h-4 text-amber-600"/>
                     Joint Ancestral Mortgages and Co-Borrower Liability
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    In joint family farm holdings where multiple co-owners execute mortgage deeds, banks cannot partition or auction undivided agricultural shares under SARFAESI. The Section 31(i) exemption protects all undivided ancestral land parcels against summary disposal.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> In joint family farm holdings where multiple co-owners execute mortgage deeds. Banks cannot partition or auction undivided farm shares under SARFAESI. The Section 31(i) exemption protects all undivided ancestral land parcels against summary disposal. </p>
                 </div>
               </div>
             </section>
@@ -761,9 +653,7 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Frequently Asked Questions: Farm Loan Defaults &amp; SARFAESI
               </h2>
-              <p className="text-xs md:text-sm text-slate-600">
-                Click on any question below to view detailed legal answers verified by our debt resolution professionals:
-              </p>
+              <p className="text-xs md:text-sm text-slate-600"> Click on any question below to view detailed legal answers verified by our debt relief workers: </p>
 
               <div className="space-y-3 pt-2">
                 {faqs.map((faq, index) => {
@@ -791,21 +681,11 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
                 Statutory References &amp; Official Regulatory Citations
               </h2>
               <ul className="space-y-2 text-xs text-slate-600 leading-relaxed list-disc pl-5">
-                <li>
-                  <strong>SARFAESI Act, 2002:</strong> Section 31(i) (Statutory Exemption for Agricultural Land) and Sections 13(2), 13(3A), 13(4), and 17.
-                </li>
-                <li>
-                  <strong>Supreme Court of India:</strong> <em>ITC Ltd. v. Blue Coast Hotels Ltd. (2018) 15 SCC 99.</em> and <em>Indian Bank v. K. Pappireddiyar (2018) 18 SCC 252.</em> (Revenue Records Determine Agricultural Character).
-                </li>
-                <li>
-                  <strong>Recovery of Debts and Bankruptcy Act, 1993:</strong> Section 19 (Tribunal Jurisdiction for Claims Exceeding ₹20 Lakhs).
-                </li>
-                <li>
-                  <strong>Reserve Bank of India:</strong> Master Direction on Priority Sector Lending - Agriculture and Master Direction on Fair Practices Code for Lenders (Updated 2026).
-                </li>
-                <li>
-                  <strong>Credit Information Companies (Regulation) Act, 2005 (CICRA):</strong> Section 21 (Mandatory Credit Bureau Dispute Rectification).
-                </li>
+                <li> <strong>SARFAESI Act, 2002:</strong> Section 31(i) (legal Exemption for farm Land) and Sections 13(2). 13(3A). 13(4). And 17. </li>
+                <li> <strong>Supreme Court of India:</strong> <em>ITC Ltd. v. Blue Coast Hotels Ltd. (2018) 15 SCC 99.</em> and <em>Indian Bank v. K. Pappireddiyar (2018) 18 SCC 252.</em> (income Records Determine farm Character). </li>
+                <li> <strong>Claims of Debts and Bankruptcy Act. 1993:</strong> Section 19 (Tribunal police area for Claims Exceeding ₹20 Lakhs). </li>
+                <li> <strong>Reserve Bank of India:</strong> Master Direction on Priority Sector Lending - farming and Master Direction on Fair Practices Code for Lenders (Updated 2026). </li>
+                <li> <strong>Credit Information Companies (Regulation) Act. 2005 (CICRA):</strong> Section 21 (strict Credit Bureau Dispute Rectification). </li>
               </ul>
 
               {/* 6 Outbound Authority Badges */}
@@ -892,14 +772,10 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
                   <Link href="/author/ashish-jhangra" className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional.
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief expert. </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Specialized in banking compliance, SARFAESI Section 31(i) agricultural exemptions, Kisan Credit Card dispute resolution. NPA settlement negotiations across Indian debt recovery tribunals.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> Specialized in banking compliance. SARFAESI Section 31(i) farm exemptions. Kisan Credit Card dispute relief. NPA talks across Indian debt claims tribunals. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
                   <span>View Author Profile.</span>
@@ -917,12 +793,8 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
                 <span className="text-xs font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
                   100% CONFIDENTIAL LEGAL DEFENSE.
                 </span>
-                <p className="text-lg md:text-xl font-bold text-white leading-snug">
-                  Facing Farm Land Auction Threats?
-                </p>
-                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
-                  Our agricultural debt specialists protect your farm land under Section 31(i) SARFAESI Act, halt recovery harassment. Negotiate up to 55% compromise loan settlements.
-                </p>
+                <p className="text-lg md:text-xl font-bold text-white leading-snug"> Facing Farm Land Auction Threats? </p>
+                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal"> Our farm debt specialists protect your farm land under Section 31(i) SARFAESI Act. Halt claims abuse. settle up to 55% OTS deal loan settlements. </p>
               </div>
               <Link href="/contact" className="block w-full bg-white text-blue-900 hover:text-[#1886ff] py-3 px-4 rounded-full font-bold text-sm hover:bg-slate-50 transition-all shadow-md">
                 Legal Defense for Agricultural Loans
@@ -945,22 +817,10 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
               <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage.</p>
               <ul className="space-y-2 text-slate-600">
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Zero Upfront Risk:</strong> Success-linked settlement fees.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Direct Bank Remittance:</strong> Zero middleman fund holding.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>RBI &amp; SARFAESI Compliance:</strong> 100% lawful dispute handling.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Pan-India Representation:</strong> Dedicated debt resolution specialists.</span>
-                </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Zero Upfront Risk:</strong> Success-linked settlement fees.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Direct Bank Remittance:</strong> Zero middleman fund holding.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>RBI &amp. SARFAESI Compliance:</strong> 100% lawful dispute handling.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Pan-India legal help:</strong> Dedicated debt relief specialists.</span> </li>
               </ul>
             </div>
 
@@ -969,23 +829,17 @@ export default function AgriculturalLoanDefaultSarfaesiActClient() {
               <p className="font-bold text-slate-900 text-sm">Related Legal Guides.</p>
               <div className="space-y-2.5">
                 <Link href="/bank-sent-legal-notice-for-loan-what-to-do" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Bank Sent Legal Notice for Loan Default.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Bank Sent Legal Notice for Loan Default. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Full step-by-step reply blueprint &rarr;.</span>
                 </Link>
 
                 <Link href="/bank-recovery-case-in-court" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Bank Filed Recovery Case in Civil Court.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Bank Filed claims Case in Civil Court. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Civil suit defense &amp; summons guide &rarr;.</span>
                 </Link>
 
                 <Link href="/convert-settled-status-to-closed" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Convert Settled Loan to Closed Status.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Convert Settled Loan to Closed Status. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Clean credit report blueprint &rarr;.</span>
                 </Link>
               </div>

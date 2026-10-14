@@ -51,27 +51,27 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
     const faqs: FaqItem[] = [
         {
             q: 'Lok Adalat notice kya hota hai aur bank ise kyu bhejte hain?',
-            a: 'Lok Adalat notice pre-litigation conciliation invitation hai jo NALSA dwara issue hota hai. Banks ise NPA loan settlement aur balance sheet cleanup ke liye bhejte hain.'
+            a: 'Lok Adalat notice pre-lawsuits talks invitation hai jo NALSA dwara issue hota hai. Banks ise NPA loan settlement aur balance sheet cleanup ke liye bhejte hain.'
         },
         {
             q: 'Kya Lok Adalat notice aane par police arrest kar sakti hai ya jail ho sakti hai?',
-            a: 'Nahi. Lok Adalat purely civil conciliation bench hai. Iske pas arrest warrant ya jail bhejne ki koi shakti nahi hoti.'
+            a: 'Nahi. Lok Adalat purely civil talks bench hai. Iske pas arrest warrant ya jail bhejne ki koi shakti nahi hoti.'
         },
         {
             q: 'Kya Lok Adalat mein jana mandatory ya anivarya hota hai?',
-            a: 'Nahi, Lok Adalat me jana voluntary hai. Wahan jana highly recommended hai kyunki bina court fees ke 50% se 70% loan waiver milta hai.'
+            a: 'Nahi. Lok Adalat me jana voluntary hai. Wahan jana highly recommended hai kyunki bina court fees ke 50% se 70% loan waiver milta hai.'
         },
         {
             q: 'Lok Adalat mein personal loan ya credit card par kitna discount ya waiver milta hai?',
-            a: "Banks typically 100% penalty charges waive karte hain. Financial hardship par core principal par bhi 40% se 60% concession mil sakta hai."
+            a: "Banks typically 100% penalty charges waive karte hain. hardship par core main loan par bhi 40% se 60% concession mil sakta hai."
         },
         {
             q: "Kya main Lok Adalat mein khud jane ke bajay advocate ya legal agent bhej sakta hoon?",
-            a: 'Haan. Aap authorized legal counsel ya debt resolution professional ko bhej sakte hain jo aapka hardship dossier present karke negotiate karenge.'
+            a: 'Haan. Aap authorized legal counsel ya debt relief expert ko bhej sakte hain jo aapka hardship dossier present karke settle karenge.'
         },
         {
             q: 'Lok Adalat Award under Section 21 ka kya legal importance hota hai?',
-            a: 'Section 21 ke tehat Lok Adalat Award final Civil Court Decree hota hai. Yeh non-appealable hota hai, jisse bank dubara claim nahi kar sakta.'
+            a: 'Section 21 ke tehat Lok Adalat Award final Civil Court Decree hota hai. Yeh non-appealable hota hai. Jisse bank dubara claim nahi kar sakta.'
         },
         {
             q: 'Kya Section 138 cheque bounce ya Section 25 NACH cases Lok Adalat mein settle ho sakte hain?',
@@ -79,7 +79,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
         },
         {
             q: 'Agar Lok Adalat mein bank ke sath settlement amount par agreement na bane to kya hoga?',
-            a: 'Agar agreement nahi banta, to bench case ko Not Settled mark kar deti hai. Iske baad matter regular civil court me chala jata hai.'
+            a: 'Agar pacts nahi banta. To bench case ko Not Settled mark kar deti hai. Iske baad matter regular civil court me chala jata hai.'
         },
         {
             q: 'Lok Adalat settlement ke baad CIBIL score aur credit report par kya asar padta hai?',
@@ -87,7 +87,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
         },
         {
             q: 'Lok Adalat notice aane par step-by-step kya karna chahiye?',
-            a: 'Pehle loan ledger audit karein, hardship proof collect karein, bank nodal desk se offer negotiate karein, aur Section 21 decree execute karein.'
+            a: 'Pehle loan ledger audit karein. Hardship proof collect karein. Bank nodal desk se offer settle karein. Aur Section 21 decree execute karein.'
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -104,9 +104,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
             Lok Adalat Notice Kya Hota Hai? NALSA Settlement &amp; Legal Rights
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed">
-            Bank ya NBFC se Lok Adalat notice mila hai? Janein Lok Adalat notice kya hota hai, NALSA settlement process, 50% se 70% loan waiver prapt karne ke legal tarike aur statutory rights.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> Bank ya NBFC se Lok Adalat notice mila hai? Janein Lok Adalat notice kya hota hai. NALSA settlement process. 50% se 70% loan waiver prapt karne ke legal tarike aur legal rights. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -149,9 +147,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>Statutory NALSA Authority.</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Governed by Legal Services Authorities Act 1987 &amp; RBI Fair Practices Code.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by Legal Services officials Act 1987 &amp. RBI Fair Practices Code. </p>
               </div>
             </div>
           </aside>
@@ -167,12 +163,8 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
               </div>
 
               <div className="space-y-3.5 text-xs sm:text-sm text-slate-700 leading-relaxed">
-                <p>
-                  Receiving a Lok Adalat notice often causes panic among borrowers who mistake it for a criminal summons or police warrant. In reality, Lok Adalat is an amicable conciliation body established under the Legal Services Authorities Act, 1987. Organised under NALSA, it operates purely as a civil conciliation bench with zero powers to issue arrest warrants or order imprisonment. Participation is completely voluntary, and no settlement can be forced without mutual, written consent.
-                </p>
-                <p>
-                  Because commercial banks use National Lok Adalats to write off NPAs and release locked Tier-1 capital, borrowers gain large settlement leverage. Presenting a documented hardship dossier allows borrowers to eliminate 100% of accumulated penal interest and negotiate 50% to 70% waivers on core dues. Any agreed compromise results in an official Section 21 Award, holding the binding authority of a final, non-appealable Civil Court decree.
-                </p>
+                <p> Receiving a Lok Adalat notice often causes panic among clients who mistake it for a criminal summons or police warrant. In reality. Lok Adalat is an amicable talks body established under the Legal Services officials Act. 1987. Organised under NALSA. It operates purely as a civil talks bench with zero powers to issue arrest warrants or order imprisonment. Role is completely voluntary. And no settlement can be forced without mutual. Written consent. </p>
+                <p> Because banks use National Lok Adalats to write off NPAs and release locked Tier-1 cash. Clients gain large settlement leverage. Presenting a documented hardship dossier allows clients to eliminate 100% of total penal interest and settle 50% to 70% waivers on core dues. Any agreed OTS deal results in an formal Section 21 Award. Holding the binding formal of a final. Non-appealable Civil Court decree. </p>
               </div>
             </div>
 
@@ -186,12 +178,8 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                 1. Debt Economics: Why Banks Send Lok Adalat Notices
               </h2>
               <div className="space-y-3.5 text-sm md:text-base text-slate-700 leading-relaxed">
-                <p>
-                  When an individual defaults on personal loan or credit card EMIs for 90 days, banking regulations require the lender to classify the account as a Non-Performing Asset (NPA). Under RBI prudential norms, banks must allocate 15% to 100% of the overdue debt into locked Tier-1 capital reserves, restricting lending operations and eroding institutional profitability.
-                </p>
-                <p>
-                  Because unsecured loans lack mortgaged collateral, lenders cannot enforce SARFAESI property seizures. Traditional civil litigation entails upfront court fees of 5% to 10% and multi-year delays. as a result, banks partner with District Legal Services Authorities (DLSA) to refer overdue debts to National Lok Adalat. For financial institutions, Lok Adalat provides an expedited One-Time Settlement (OTS) mechanism to recover liquid capital, write off bad debts. Release locked reserves in a single sitting.
-                </p>
+                <p> When an individual defaults on private loans or credit card EMIs for 90 days. Banking regulations require the lender to classify the account as a Non-Performing Asset (NPA). Under RBI prudential norms. Banks must allocate 15% to 100% of the overdue debt into locked Tier-1 cash reserves. Restricting lending work and eroding bank profitability. </p>
+                <p> Because no-pledge loans lack mortgaged security. Lenders cannot enforce SARFAESI property seizures. Traditional civil lawsuits entails upfront court fees of 5% to 10% and multi-year delays. As a result. Banks partner with areas Legal Services officials (DLSA) to refer overdue debts to National Lok Adalat. For banks. Lok Adalat provides an expedited One-Time Settlement (OTS) mechanism to recover liquid cash. Write off bad debts. Release locked reserves in a single sitting. </p>
               </div>
             </section>
 
@@ -205,12 +193,8 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                 2. Settlement Math: 50% to 70% Lok Adalat Waivers
               </h2>
               <div className="space-y-3.5 text-sm md:text-base text-slate-700 leading-relaxed">
-                <p>
-                  Following a default, lenders inflate balances by adding 24% to 36% compound penal interest, bounce surcharges. Recovery fees. In Lok Adalat conciliation, the bench systematically disregards these arbitrary penal additions, focusing discussions strictly on net unrecovered principal and genuine borrower capacity.
-                </p>
-                <p>
-                  Consider a defaulted ₹4,00,000 personal loan where ₹3,50,000 in unpaid principal inflates to a ₹6,50,000 bank demand due to ₹3,00,000 in penal interest and fees. Through structured Lok Adalat conciliation, the borrower&apos;s counsel can eliminate 100% of the ₹3,00,000 penal surcharge while securing a 40% hardship discount on the principal balance. This establishes a final binding Section 21 settlement of ₹2,10,000, delivering a total waiver of ₹4,40,000 (67.7% relief) and complete legal discharge.
-                </p>
+                <p> Following a default. Lenders inflate balances by adding 24% to 36% compound penal interest. Bounce surcharges. claims fees. In Lok Adalat talks. The bench systematically disregards these arbitrary penal additions. Focusing discussions strictly on net unrecovered main loan and genuine client capacity. </p>
+                <p> Consider a defaulted ₹4,00,000 private loans where ₹3,50,000 in unpaid main loan inflates to a ₹6,50,000 bank demand due to ₹3,00,000 in penal interest and fees. Through structured Lok Adalat talks. The client&apos. S counsel can eliminate 100% of the ₹3,00,000 penal surcharge while securing a 40% hardship discount on the base loan. This establishes a final binding Section 21 settlement of ₹2,10,000. Delivering a total waiver of ₹4,40,000 (67.7% relief) and complete legal discharge. </p>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
@@ -275,9 +259,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 3. Resolution Matrix: Lok Adalat vs Court vs Arbitration
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Compare how National Lok Adalat compares against conventional recovery routes for unsecured personal loan defaults:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Compare how National Lok Adalat compares against conventional claims routes for no-pledge private loans defaults: </p>
 
               <div className="overflow-x-auto rounded-2xl border border-slate-200/80 bg-white shadow-xs">
                 <table className="w-full text-left text-xs md:text-sm border-collapse">
@@ -295,18 +277,18 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200">
                       <td className="p-3.5 font-bold text-slate-900">National Lok Adalat.</td>
                       <td className="p-3.5">Legal Services Act 1987.</td>
-                      <td className="p-3.5 text-emerald-700 font-semibold">Zero (Civil Conciliation).</td>
+                      <td className="p-3.5 text-emerald-700 font-semibold">Zero (Civil talks).</td>
                       <td className="p-3.5 font-medium">Sec 21 Award</td>
                       <td className="p-3.5">Single Sitting</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold">50%-70% Waiver &amp; Binding Decree.</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold">50%-70% Waiver &amp. Binding Decree.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200">
                       <td className="p-3.5 font-bold text-slate-900">Summary Civil Suit.</td>
                       <td className="p-3.5">Order 37 CPC</td>
-                      <td className="p-3.5 text-emerald-700 font-semibold">Zero (Civil Recovery).</td>
+                      <td className="p-3.5 text-emerald-700 font-semibold">Zero (Civil claims).</td>
                       <td className="p-3.5">Money Decree</td>
                       <td className="p-3.5">18-36 Months</td>
-                      <td className="p-3.5 text-slate-700">Extended litigation, interest liability.</td>
+                      <td className="p-3.5 text-slate-700">Extended lawsuits, interest debt risk.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200">
                       <td className="p-3.5 font-bold text-slate-900">Arbitration Tribunal.</td>
@@ -317,12 +299,12 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                       <td className="p-3.5 text-slate-700">Challenge Sec 12(5) Unilateral Appointment.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200">
-                      <td className="p-3.5 font-bold text-slate-900">Debt Recovery Tribunal.</td>
+                      <td className="p-3.5 font-bold text-slate-900">Debt claims Tribunal.</td>
                       <td className="p-3.5">RDBFI Act 1993</td>
-                      <td className="p-3.5 text-emerald-700 font-semibold">Zero (Claims &gt; ₹20L).</td>
-                      <td className="p-3.5">Recovery Certificate.</td>
+                      <td className="p-3.5 text-emerald-700 font-semibold">Zero (Claims &gt. ₹20L).</td>
+                      <td className="p-3.5">claims letter.</td>
                       <td className="p-3.5">12-24 Months</td>
-                      <td className="p-3.5 text-slate-700">High legal costs &amp; contested accounting.</td>
+                      <td className="p-3.5 text-slate-700">High legal costs &amp. contested accounting.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200">
                       <td className="p-3.5 font-bold text-slate-900">Total Inaction</td>
@@ -330,7 +312,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                       <td className="p-3.5 text-amber-700 font-semibold">Ex-Parte Attachments.</td>
                       <td className="p-3.5 text-red-600">Ex-Parte Decrees.</td>
                       <td className="p-3.5">Unchecked</td>
-                      <td className="p-3.5 text-red-600 font-semibold">Score Destroyed &amp; Compounding Dues.</td>
+                      <td className="p-3.5 text-red-600 font-semibold">Score Destroyed &amp. Compounding Dues.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -347,12 +329,8 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                 4. CIBIL Dynamics: DPD Tracking &amp; Bureau Upgrades
               </h2>
               <div className="space-y-3.5 text-sm md:text-base text-slate-700 leading-relaxed">
-                <p>
-                  Credit bureaus (CIBIL, Experian, Equifax, CRIF High Mark) evaluate creditworthiness using five factors: Payment History (35%), Credit use (30%), Credit History Depth (15%), Credit Mix (10%). Recent Inquiries (10%). Defaulting past 90 days past due (90+ DPD) triggers an automated risk flag across inter-bank systems, reducing credit scores by 80 to 140 points.
-                </p>
-                <p>
-                  Executing a Lok Adalat compromise initially updates bureau records to Settled status, terminating active litigation flags and negative DPD compounding. To restore credit ratings systematically, borrowers can invoke Section 21 of the Credit Information Companies (Regulation) Act, 2005 (CICRA). Submitting the certified Section 21 Lok Adalat Award alongside the bank&apos;s unconditional No Dues Certificate ensures the balance is reported as zero, enabling progressive credit rebuilding over 12 to 18 months.
-                </p>
+                <p> Credit bureaus (CIBIL, Experian, Equifax. CRIF High Mark) evaluate creditworthiness using five factors: Payment History (35%). Credit use (30%). Credit History Depth (15%). Credit Mix (10%). Recent Inquiries (10%). Defaulting past 90 days past due (90+ DPD) triggers an automated risk flag across inter-bank systems. Reducing credit scores by 80 to 140 points. </p>
+                <p> Executing a Lok Adalat OTS deal initially updates bureau records to Settled status. Terminating active lawsuits flags and negative DPD compounding. To restore credit ratings systematically. Clients can invoke Section 21 of the Credit Information Companies (Regulation) Act. 2005 (CICRA). Submitting the certified Section 21 Lok Adalat Award alongside the bank&apos. s full No Dues letter ensures the balance is reported as zero. This lets progressive credit rebuilding over 12 to 18 months. </p>
               </div>
             </section>
 
@@ -365,9 +343,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 5. Visual Roadmap: Lok Adalat Settlement Workflow
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Refer to this visual roadmap illustrating the procedural workflow to handle Lok Adalat notices, challenge excessive interest claims. Secure binding Section 21 consent awards:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Refer to this visual roadmap illustrating the procedural workflow to handle Lok Adalat notices. Challenge excessive interest claims. Secure binding Section 21 consent awards: </p>
 
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-sm p-3 md:p-4 overflow-hidden">
                 <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-slate-100">
@@ -392,9 +368,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 6. Step-by-Step SOP: Handling Lok Adalat Notices
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Successfully resolving a defaulted personal loan through Lok Adalat requires following a structured six-stage procedural workflow:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Successfully resolving a defaulted private loans through Lok Adalat requires following a structured six-stage procedural workflow: </p>
 
               <div className="space-y-4 pt-2">
                 <div className="bg-white p-5 md:p-6 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -405,9 +379,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                     <span className="text-xs font-semibold text-slate-500">Days 1–5</span>
                   </div>
                   <h3 className="text-base font-bold text-slate-900">Notice Verification &amp; Audit</h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Verify the DLSA seal and Pre-Litigation Case number. Audit loan statements to isolate principal balances from arbitrary penal surcharges.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Verify the DLSA seal and Pre-lawsuits Case number. Audit loan records to isolate main loan balances from arbitrary penal surcharges. </p>
                 </div>
 
                 <div className="bg-white p-5 md:p-6 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -418,9 +390,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                     <span className="text-xs font-semibold text-slate-500">Days 6–15</span>
                   </div>
                   <h3 className="text-base font-bold text-slate-900">Hardship Dossier</h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Compile verified distress evidence. Examples include termination letters, salary cuts, or medical records, to substantiate waiver requests before the bench.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Compile verified distress proof. Examples include termination letters, salary cuts. Or medical records. To prove waiver requests before the bench. </p>
                 </div>
 
                 <div className="bg-white p-5 md:p-6 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -431,9 +401,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                     <span className="text-xs font-semibold text-slate-500">Days 16–25</span>
                   </div>
                   <h3 className="text-base font-bold text-slate-900">Pre-Adalat Bank Representation</h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Engage the bank&apos;s Legal Cell and Nodal Officer before the session. Submitting an OTS proposal enables pre-approval of large concessions.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Engage the bank&apos. s Legal Cell and Nodal Officer before the session. Submitting an OTS proposal enables pre-approval of large concessions. </p>
                 </div>
 
                 <div className="bg-white p-5 md:p-6 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -444,9 +412,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                     <span className="text-xs font-semibold text-slate-500">Day of Adalat</span>
                   </div>
                   <h3 className="text-base font-bold text-slate-900">Bench Conciliation</h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Appear before the bench in person or via counsel. The judicial conciliator mediates terms neutrally, ensuring no coercive terms are imposed.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Appear before the bench in person or via counsel. The judicial conciliator mediates terms neutrally. Ensuring no coercive terms are imposed. </p>
                 </div>
 
                 <div className="bg-white p-5 md:p-6 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -457,9 +423,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                     <span className="text-xs font-semibold text-slate-500">Immediate</span>
                   </div>
                   <h3 className="text-base font-bold text-slate-900">Section 21 Award</h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Upon reaching agreement, execute a formal Settlement Deed. The bench issues an official Award under Section 21, establishing a binding civil decree.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Upon reaching pacts. Execute a formal Settlement Deed. The bench issues an formal Award under Section 21. Establishing a binding civil decree. </p>
                 </div>
 
                 <div className="bg-white p-5 md:p-6 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -470,9 +434,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                     <span className="text-xs font-semibold text-slate-500">Days 60–90</span>
                   </div>
                   <h3 className="text-base font-bold text-slate-900">Remittance &amp; NDC</h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    pay settlement funds directly to the loan account. Obtain an unconditional No Dues Certificate and rectify credit bureau records under CICRA 2005.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> pay settlement funds straight to the loan account. Obtain an full No Dues letter and rectify credit bureau records under CICRA 2005. </p>
                 </div>
               </div>
             </section>
@@ -486,9 +448,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 7. Notice Defense: PSSA, NI Act &amp; DRT Provisions
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Borrowers managing defaulted debt often receive parallel statutory notices. Understanding each framework ensures a robust defense:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> clients managing defaulted debt often receive parallel legal notices. Understanding each rules ensures a robust defense: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -499,9 +459,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                     <span className="text-xs font-semibold text-slate-500">Payments Act 2007.</span>
                   </div>
                   <h3 className="text-sm md:text-base font-bold text-slate-900">NACH Dishonor Defense</h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    When NACH mandates bounce, lenders issue Section 25 notices. Because Section 25 offenses are compoundable, settling before a Lok Adalat bench leads to the immediate quashing of complaints without criminal conviction.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> When NACH mandates bounce. Lenders issue Section 25 notices. Because Section 25 offenses are compoundable. Settling before a Lok Adalat bench leads to the fast quashing of complaints without criminal conviction. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -512,9 +470,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                     <span className="text-xs font-semibold text-slate-500">Negotiable Instruments.</span>
                   </div>
                   <h3 className="text-sm md:text-base font-bold text-slate-900">Cheque Bounce Compounding</h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Lenders frequently file Section 138 complaints upon cheque dishonor. Under Section 147 of the NI Act, cheque bounce matters are explicitly compoundable. Executing Lok Adalat compromise terms permanently disposes of magistrate court proceedings.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Lenders often file Section 138 complaints upon cheque dishonor. Under Section 147 of the NI Act. Cheque bounce matters are explicitly compoundable. Executing Lok Adalat OTS deal terms permanently disposes of magistrate court proceedings. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -525,9 +481,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                     <span className="text-xs font-semibold text-slate-500">Perkins Eastman</span>
                   </div>
                   <h3 className="text-sm md:text-base font-bold text-slate-900">Challenging Arbitrator Nominations</h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Lenders often initiate private arbitration by unilaterally appointing sole arbitrators. Under Supreme Court rulings (TRF Ltd. and Perkins Eastman), unilateral nominations are disqualified de jure under Section 12(5), enabling transition to Lok Adalat.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Lenders often initiate private arbitration by unilaterally appointing sole arbitrators. Under Supreme Court rulings (TRF Ltd. And Perkins Eastman). Unilateral nominations are disqualified de jure under Section 12(5). This lets transition to Lok Adalat. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -538,9 +492,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                     <span className="text-xs font-semibold text-slate-500">Fair Practices Code.</span>
                   </div>
                   <h3 className="text-sm md:text-base font-bold text-slate-900">High-Value Claims &amp; Anti-Coercion</h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Claims exceeding ₹20 Lakhs before Debt Recovery Tribunals can be referred to Lok Adalats under Section 19(1). Additionally, the RBI Fair Practices Code strictly prohibits recovery agents from intimidation or unauthorized visits.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Claims exceeding ₹20 Lakhs before Debt claims Tribunals can be referred to Lok Adalats under Section 19(1). Additionally. The RBI Fair Practices Code strictly prohibits claims agents from threats or illegal visits. </p>
                 </div>
               </div>
             </section>
@@ -554,9 +506,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 8. 3-Tier Escalation Matrix: Defending Borrower Rights
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                If lenders or collection agencies violate statutory guidelines, escalate through this structured three-tier grievance redressal mechanism:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> If lenders or claims firms violate legal rules. Escalate through this structured three-tier grievance redressal mechanism: </p>
 
               <div className="space-y-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -567,9 +517,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                     <span className="text-xs text-slate-500 font-semibold">Turnaround: 7–10 Days.</span>
                   </div>
                   <h3 className="text-sm md:text-base font-bold text-slate-900">Formal Statement Audit</h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    File a written objection challenging arbitrary penal surcharges, requesting formal referral to the bank&apos;s compromise settlement committee for Lok Adalat disposal.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> File a written objection challenging arbitrary penal surcharges. Requesting formal referral to the bank&apos. s OTS deals boards for Lok Adalat disposal. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -580,9 +528,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                     <span className="text-xs text-slate-500 font-semibold">Turnaround: 14–21 Days.</span>
                   </div>
                   <h3 className="text-sm md:text-base font-bold text-slate-900">Executive Nodal Escalation</h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    If the GRO fails to resolve the dispute or if agent harassment persists, escalate directly to the Principal Nodal Officer with documented hardship evidence to stay collection calls.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> If the GRO fails to resolve the dispute or if agent abuse persists. Escalate straight to the main loan Nodal Officer with documented hardship proof to stay claims calls. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-emerald-200 shadow-xs space-y-2">
@@ -593,9 +539,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                     <span className="text-xs text-slate-500 font-semibold">Turnaround: 30 Days.</span>
                   </div>
                   <h3 className="text-sm md:text-base font-bold text-slate-900">Regulatory Complaint Filing</h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    If thirty days elapse without institutional resolution, lodge a formal regulatory complaint on the RBI CMS portal (cms.rbi.org.in) under the Integrated Ombudsman Scheme, 2021.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> If thirty days elapse without bank relief. Lodge a formal RBI complaint on the RBI CMS portal (cms.rbi.org.in) under the Integrated Ombudsman Scheme. 2021. </p>
                 </div>
               </div>
             </section>
@@ -609,9 +553,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 9. Procedural Timeline: Notice Receipt to Final Closure
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Understanding chronological milestones enables systematic defense planning:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Understanding chronological milestones enables systematic defense planning: </p>
 
               <div className="overflow-x-auto rounded-2xl border border-slate-200/80 bg-white shadow-xs">
                 <table className="w-full text-left text-xs md:text-sm border-collapse">
@@ -628,28 +570,28 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                       <td className="p-3.5 font-bold text-slate-900">Day 1</td>
                       <td className="p-3.5">Notice Receipt</td>
                       <td className="p-3.5">Sec 19/20 Legal Services Act.</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold">Verify DLSA seal and isolate principal.</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold">Verify DLSA seal and isolate main loan.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200">
-                      <td className="p-3.5 font-bold text-slate-900">Days 10–20</td>
+                      <td className="p-3.5 font-bold text-slate-900">Days 10. 20</td>
                       <td className="p-3.5">Hardship Dossier.</td>
                       <td className="p-3.5">RBI Fair Practices Code.</td>
                       <td className="p-3.5 text-[#1886ff] font-semibold">Compile income loss proofs and engage nodal desk.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200">
-                      <td className="p-3.5 font-bold text-slate-900">Days 30–45</td>
+                      <td className="p-3.5 font-bold text-slate-900">Days 30. 45</td>
                       <td className="p-3.5">Bench Sitting</td>
-                      <td className="p-3.5">NALSA Conciliation Rules.</td>
+                      <td className="p-3.5">NALSA talks Rules.</td>
                       <td className="p-3.5 text-[#1886ff] font-semibold">Represent via counsel and execute decree.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200">
-                      <td className="p-3.5 font-bold text-slate-900">Days 60–90</td>
-                      <td className="p-3.5">Compromise Remittance.</td>
+                      <td className="p-3.5 font-bold text-slate-900">Days 60. 90</td>
+                      <td className="p-3.5">OTS deal Remittance.</td>
                       <td className="p-3.5">Sec 21 Award Terms.</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold">Pay settlement directly and secure NDC.</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold">Pay settlement straight and secure NDC.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200">
-                      <td className="p-3.5 font-bold text-slate-900">Months 4–6</td>
+                      <td className="p-3.5 font-bold text-slate-900">Months 4. 6</td>
                       <td className="p-3.5">Credit Restoration.</td>
                       <td className="p-3.5">CICRA 2005 Sec 21.</td>
                       <td className="p-3.5 text-[#1886ff] font-semibold">Upgrade CIBIL status to Closed.</td>
@@ -668,9 +610,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 10. Real-World Scenarios: Layoffs, Business &amp; ARCs
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Lok Adalat conciliation mechanics provide versatile debt resolution pathways across diverse borrower hardship scenarios:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Lok Adalat talks mechanics provide versatile debt relief pathways across diverse client hardship scenarios: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -678,9 +618,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                     <CreditCard className="w-4 h-4 text-[#1886ff]"/>
                     Multi-Lender Consolidation in Lok Adalat
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Borrowers managing defaulted cards and loans across multiple banks can coordinate joint conciliation sittings, negotiating simultaneous compromise agreements across all lenders to eliminate collection pressure.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> clients managing defaulted cards and loans across multiple banks can coordinate joint talks sittings. Settling simultaneous OTS deal pacts across all lenders to eliminate claims pressure. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -688,9 +626,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                     <UserCheck className="w-4 h-4 text-[#1886ff]"/>
                     Corporate Layoffs &amp; Executive Income Loss
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Salaried professionals impacted by workforce reductions can submit severance letters, establishing genuine distress and motivating credit committees to grant up to 60% principal waivers.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Salaried workers impacted by workforce reductions can submit severance letters. Establishing genuine distress and motivating credit boards to grant up to 60% main loan waivers. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -698,9 +634,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                     <Briefcase className="w-4 h-4 text-[#1886ff]"/>
                     Proprietorship &amp; Working Capital Defaults
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Small business owners facing cash-flow collapse can resolve unsecured overdrafts through Lok Adalat, preventing asset attachment and shielding guarantors from litigation.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Small shop owners facing cash-flow collapse can resolve no-pledge overdrafts through Lok Adalat. Preventing asset attachment and shielding guarantors from lawsuits. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -708,9 +642,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                     <Building2 className="w-4 h-4 text-[#1886ff]"/>
                     Debt Assigned to Asset Reconstruction Companies
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    When loans are sold to ARCs (e.g., Phoenix ARC, ARCIL), these entities offer deep compromise settlements in Lok Adalat for rapid cash recoveries.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> When loans are sold to ARCs (e.g. Phoenix ARC. ARCIL). These entities offer deep OTS deals in Lok Adalat for rapid cash recoveries. </p>
                 </div>
               </div>
             </section>
@@ -729,9 +661,7 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Frequently Asked Questions: Lok Adalat Notice Kya Hota Hai
               </h2>
-              <p className="text-xs md:text-sm text-slate-600">
-                Click on any question below to view detailed legal answers verified by our debt resolution professionals:
-              </p>
+              <p className="text-xs md:text-sm text-slate-600"> Click on any question below to view detailed legal answers verified by our debt relief workers: </p>
 
               <div className="space-y-3 pt-2">
                 {faqs.map((faq, index) => {
@@ -759,21 +689,11 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                 Official Regulatory Citations &amp; Judicial References
               </h2>
               <ul className="space-y-2 text-xs text-slate-600 leading-relaxed list-disc pl-5">
-                <li>
-                  <strong>Legal Services Authorities Act, 1987:</strong> Sections 19, 20, 21, and 22, Ministry of Law and Justice, Government of India.
-                </li>
-                <li>
-                  <strong>National Legal Services Authority Regulations, 2009:</strong> Guidelines for Pre-Litigation Bank Recovery Matters.
-                </li>
-                <li>
-                  <strong>Reserve Bank of India Master Directions:</strong> Fair Practices Code for Lenders and Grievance Redressal Mechanism.
-                </li>
-                <li>
-                  <strong>Credit Information Companies (Regulation) Act, 2005 (CICRA):</strong> Section 21 regarding accuracy and credit status rectification.
-                </li>
-                <li>
-                  <strong>Negotiable Instruments Act, 1881:</strong> Section 138 read with Section 147 (Compounding of Cheque Dishonor Offenses).
-                </li>
+                <li> <strong>Legal Services officials Act, 1987:</strong> Sections 19, 20, 21, and 22. Ministry of Law and Justice. Government of India. </li>
+                <li> <strong>National Legal Services formal Regulations, 2009:</strong> rules for Pre-lawsuits Bank claims Matters. </li>
+                <li> <strong>Reserve Bank of India Master Directions:</strong> Fair Practices Code for Lenders and Grievance Redressal Mechanism. </li>
+                <li> <strong>Credit Information Companies (Regulation) Act. 2005 (CICRA):</strong> Section 21 regarding accuracy and credit status rectification. </li>
+                <li> <strong>Negotiable Instruments Act, 1881:</strong> Section 138 read with Section 147 (Compounding of Cheque Dishonor Offenses). </li>
               </ul>
 
               {/* 6 Outbound Authority Badges */}
@@ -860,14 +780,10 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
                   <Link href="/author/ashish-jhangra" className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional.
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief expert. </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed border-t border-slate-100 pt-2.5">
-                Specialized in banking compliance, Lok Adalat conciliation advocacy, loan dispute resolution. NPA settlement negotiations across District Legal Services Authorities in India.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed border-t border-slate-100 pt-2.5"> Specialized in banking compliance. Lok Adalat talks advocacy. Loan dispute relief. NPA talks across areas Legal Services officials in India. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
                   <span>View Author Profile.</span>
@@ -888,12 +804,8 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
               </div>
 
               <div className="space-y-1">
-                <p className="text-base font-extrabold tracking-tight leading-snug">
-                  Received a Lok Adalat Notice?
-                </p>
-                <p className="text-xs text-blue-100 leading-relaxed">
-                  Stop compounding interest and recovery harassment. Settle your debt legally with direct bank approval.
-                </p>
+                <p className="text-base font-extrabold tracking-tight leading-snug"> Received a Lok Adalat Notice? </p>
+                <p className="text-xs text-blue-100 leading-relaxed"> Stop compounding interest and claims abuse. Settle your debt legally with direct bank approval. </p>
               </div>
 
               <div className="space-y-2 pt-1">
@@ -910,27 +822,12 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
 
             {/* Card 3: CredSettle Trust Commitments Card */}
             <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
-              <p className="font-bold text-slate-900 text-sm flex items-center gap-1.5">
-                <ShieldCheck className="w-4 h-4 text-emerald-600"/>
-                <span>The CredSettle Advantage.</span>
-              </p>
+              <p className="font-bold text-slate-900 text-sm flex items-center gap-1.5"> <ShieldCheck className="w-4 h-4 text-emerald-600"/> <span>The CredSettle Advantage.</span> </p>
               <ul className="space-y-2 text-slate-600">
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Zero Upfront Risk:</strong> Success-linked settlement fee model.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Direct Bank Remittance:</strong> Zero intermediary account holding.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Statutory Section 21 Decree:</strong> Final and non-appealable awards.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Pan-India Representation:</strong> Advocates available in all DLSAs.</span>
-                </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Zero Upfront Risk:</strong> Success-linked settlement fee model.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Direct Bank Remittance:</strong> Zero intermediary account holding.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>legal Section 21 Decree:</strong> Final and non-appealable awards.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Pan-India legal help:</strong> Advocates available in all DLSAs.</span> </li>
               </ul>
             </div>
 
@@ -939,23 +836,17 @@ export default function LokAdalatNoticeKyaHotaHaiClient() {
               <p className="font-bold text-slate-900 text-sm">Related Legal Guides.</p>
               <div className="space-y-2.5">
                 <Link href="/bank-recovery-agent-harassment-rules-in-hindi" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Bank Recovery Agent Harassment Rules in Hindi.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Bank claims Agent abuse Rules in Hindi. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">RBI rules &amp; legal rights guide &rarr;.</span>
                 </Link>
 
                 <Link href="/lok-adalat-personal-loan-settlement" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Lok Adalat Personal Loan Settlement.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Lok Adalat private loans Settlement. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Full settlement process &amp; waivers &rarr;.</span>
                 </Link>
 
                 <Link href="/convert-settled-status-to-closed" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Convert Settled Loan to Closed Status.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Convert Settled Loan to Closed Status. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Clean credit report blueprint &rarr;.</span>
                 </Link>
               </div>

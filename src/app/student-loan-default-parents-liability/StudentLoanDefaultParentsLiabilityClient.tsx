@@ -47,7 +47,7 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
     const faqs = [
         {
             q: 'Are parents automatically legally liable when a student defaults on an education loan in India?',
-            a: 'In India, parents are legally liable if they signed the loan agreement as a co-borrower, co-applicant, or guarantor. Under Section 128 of the Indian Contract Act, 1872, the liability of a surety or co-borrower is co-extensive with that of the principal debtor, allowing the bank to initiate recovery directly against the parents.'
+            a: 'In India. Parents are legally liable if they signed the loan pacts as a co-client. Co-applicant. Or guarantor. Under Section 128 of the Indian Contract Act. 1872. The debt risk of a surety or co-client is co-extensive with that of the main loan debtor. This allows the bank to initiate claims straight against the parents.'
         },
         {
             q: 'What happens if the education loan was below ₹4 Lakhs without collateral?',
@@ -55,35 +55,35 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
         },
         {
             q: 'Can the bank seize parents\' residential house if the student defaults?',
-            a: 'If the loan exceeds ₹7.5 Lakhs and parents pledged their residential property or ancestral land as collateral via an equitable mortgage, the bank can enforce security interests under the SARFAESI Act, 2002. The bank can issue Section 13(2) demand notices and Section 13(4) possession notices to auction the property unless stayed by DRT or resolved through OTS.'
+            a: 'If the loan exceeds ₹7.5 Lakhs and parents pledged their residential property or ancestral land as security via an equitable mortgage. The bank can enforce security interests under the SARFAESI Act. 2002. The bank can issue Section 13(2) demand notices and Section 13(4) takeover notices to auction the property unless stayed by DRT or resolved through OTS.'
         },
         {
             q: 'What happens if the student moves abroad and stops paying the loan?',
-            a: "When a student relocates abroad (e.g., US, UK, Canada) and ceases EMI repayments, Indian banks rarely pursue cross-border litigation due to jurisdictional complexity and prohibitive legal costs. Instead, lenders enforce recovery against resident Indian co-applicants, freezing parents' bank accounts, issuing legal notices. Pursuing mortgaged domestic collateral."
+            a: "When a student relocates abroad (e.g. US. UK. Canada) and ceases EMI payments. Indian banks rarely pursue cross-border lawsuits due to jurisdictional complexity and prohibitive legal costs. Instead. Lenders enforce claims against resident Indian co-applicants. Freezing parents' bank accounts. Issuing legal notices. Pursuing mortgaged domestic security."
         },
         {
             q: 'Can parents be sent to jail for an education loan default?',
-            a: "No, defaulting on a civil loan is not a criminal offense under Indian law. Parents cannot be jailed simply for failing to pay loan EMIs. However, if post-dated security cheques bounce under Section 138 of the Negotiable Instruments Act or NACH auto-debits dishonor under Section 25 PSSA, lenders may initiate quasi-criminal proceedings, which can be defended, bailed. Compounded through settlement."
+            a: "No. Defaulting on a civil loan is not a criminal offense under Indian law. Parents cannot be jailed simply for failing to pay loan EMIs. However. If post-dated security cheques bounce under Section 138 of the Negotiable Instruments Act or NACH auto-debits dishonor under Section 25 PSSA. Lenders may initiate quasi-criminal proceedings. This can be defended, bailed. Compounded through settlement."
         },
         {
             q: 'Does an education loan default damage the parents\' CIBIL score?',
-            a: "Yes. Because parents are registered as primary co-applicants or guarantors in bureau records, any missed EMI, SMA classification. NPA default reflects simultaneously on both the student's and parents' CIBIL reports. This lowers the parents' credit score by 100 to 250 points and freezes their access to credit facilities until resolved."
+            a: "Yes. Because parents are registered as primary co-applicants or guarantors in bureau records. Any missed EMI, SMA classification. NPA default reflects simultaneously on both the student's and parents' CIBIL reports. This lowers the parents' credit score by 100 to 250 points and freezes their access to credit facilities until resolved."
         },
         {
             q: 'What is the Credit Guarantee Fund Scheme for Education Loans (CGFSEL)?',
-            a: "CGFSEL is a government credit guarantee scheme managed by NCGTC covering education loans between \u20B94 Lakhs and \u20B97.5 Lakhs released without tangible collateral or third-party guarantee. When a borrower defaults, the lending bank can claim up to 75% of the defaulted amount from the guarantee fund after following prescribed recovery protocols."
+            a: "CGFSEL is a government credit guarantee scheme managed by NCGTC covering education loans between \u20B94 Lakhs and \u20B97.5 Lakhs released without tangible security or third-party guarantee. When a client defaults. The lending bank can claim up to 75% of the defaulted amount from the guarantee fund after following prescribed claims protocols."
         },
         {
             q: 'Can parents negotiate a One-Time Settlement (OTS) for an education loan?',
-            a: 'Yes. When an education loan turns into a Non-Performing Asset (NPA) due to prolonged unemployment or genuine hardship, banks are authorized under RBI Prudential Guidelines to consider OTS proposals. Parents can negotiate a commercial compromise, typically waiving 40% to 60% of penal interest and accumulated charges to close the loan permanently.'
+            a: 'Yes. When an education loan turns into a Non-Performing Asset (NPA) due to prolonged unemployment or genuine hardship. Banks are authorized under RBI Prudential rules to consider OTS proposals. Parents can settle a trade OTS deal. Typically waiving 40% to 60% of penal interest and total charges to close the loan permanently.'
         },
         {
             q: 'How can parents stop recovery agent harassment at their residence?',
-            a: "Parents are protected by the RBI Master Circular on Fair Practices Code. Recovery agents cannot use abusive language, make calls before 8:00 AM or after 7:00 PM, intimidate elderly parents. Enter homes without authorized identity cards. Coercive harassment can be escalated to the Bank's Principal Nodal Officer, the RBI Ombudsman, or local police authorities."
+            a: "Parents are protected by the RBI Master Circular on Fair Practices Code. claims agents cannot use abusive language. Make calls before 8:00 AM or after 7:00 PM. Intimidate elderly parents. Enter homes without authorized identity cards. Coercive abuse can be escalated to the Bank's main loan Nodal Officer. The RBI Ombudsman. Or local police officials."
         },
         {
             q: 'How do parents retrieve property title deeds after settling the education loan?',
-            a: "Upon paying the agreed OTS settlement amount to the designated loan account, the bank issues a formal No Dues Certificate (NDC). Under RBI directives on release of movable and immovable property documents, the lender is legally required to return all original title deeds and release the charge registered on CERSAI within 30 days of loan closure."
+            a: "Upon paying the agreed OTS payout sum to the designated loan account. The bank issues a formal No Dues letter (NDC). Under RBI directives on release of movable and immovable property papers. The lender is legally required to return all original title deeds and release the charge registered on CERSAI within 30 days of loan closure."
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -100,9 +100,7 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
             Are Parents Legally Liable for Education Loan Defaults?
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed">
-            Has your child defaulted on an education loan? Learn co-applicant liability under Indian law, defend mortgaged family property from SARFAESI auction. Negotiate a structured compromise settlement.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> Has your child defaulted on an education loan? Learn co-applicant debt risk under Indian law. Defend mortgaged family property from SARFAESI auction. settle a structured OTS deals. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -150,9 +148,7 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
             <div id="quick-crux" className="scroll-target rounded-2xl p-5 md:p-6 bg-[#F4F8FE] border-l-[5px] border-l-[#1886ff] border border-blue-100/80 shadow-xs">
               <div className="flex items-center gap-2 pb-3 mb-3 border-b border-blue-100">
                 <ShieldCheck className="w-5 h-5 text-[#1886ff]"/>
-                <p className="text-base sm:text-lg font-bold text-slate-900">
-                  Executive Summary: Education Loan Default &amp; Parent Liability.
-                </p>
+                <p className="text-base sm:text-lg font-bold text-slate-900"> Executive Summary: Education Loan Default &amp. Parent debt risk. </p>
               </div>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-xs sm:text-sm text-slate-700">
@@ -200,17 +196,11 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                In India, education loan agreements mandatorily require parents or guardians to sign as co-borrowers or personal guarantors under the Indian Banks Association (IBA) Model Scheme. Because students entering university lack prior credit scores and stable earnings, banks secure parental co-debt before disbursing funds.
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> In India. Education loan pacts mandatorily require parents or guardians to sign as co-clients or private guarantors under the Indian Banks Association (IBA) Model Scheme. Because students entering university lack prior credit scores and stable earnings. Banks secure parental co-debt before disbursing funds. </p>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                Under Section 128 of the Indian Contract Act, 1872, the liability of a co-borrower or surety is co-extensive with that of the principal debtor. The Supreme Court has repeatedly confirmed that lenders can proceed directly against parents without first exhausting legal remedies against the student. When an EMI remains unpaid for 90 days, the account is classified as a Non-Performing Asset (NPA), triggering recovery actions against the parents.
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> Under Section 128 of the Indian Contract Act. 1872. The debt risk of a co-client or surety is co-extensive with that of the main loan debtor. The Supreme Court has repeatedly confirmed that lenders can proceed straight against parents without first exhausting legal remedies against the student. When an EMI remains unpaid for 90 days. The account is classified as a Non-Performing Asset (NPA). Triggering claims actions against the parents. </p>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                Whether signed as joint co-borrowers or guarantors, parents are legally exposed to demands for the entire outstanding principal, compound interest. Penal fees.
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> Whether signed as joint co-clients or guarantors. Parents are legally exposed to demands for the entire unpaid main loan. Compound interest. Penal fees. </p>
             </section>
 
             {/* SECTION 2: FINANCIAL EXPOSURE & COLLATERAL TIERS */}
@@ -222,21 +212,13 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                Parental exposure depends directly on the loan size and pledged security, categorized under three regulatory tiers:
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> Parental exposure depends straight on the loan size and pledged security. Categorized under three RBI tiers: </p>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                <strong>Tier 1 (Up to ₹4 Lakhs):</strong> Clean, unsecured loans. Banks cannot demand property collateral or third-party guarantors under IBA norms. While property seizure under SARFAESI is not permitted, lenders may pursue civil recovery suits.
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> <strong>Tier 1 (Up to ₹4 Lakhs):</strong> Clean, no-pledge loans. Banks cannot demand property security or third-party guarantors under IBA norms. While property seizure under SARFAESI is not permitted. Lenders may pursue civil claims suits. </p>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                <strong>Tier 2 (₹4 Lakhs to ₹7.5 Lakhs):</strong> Secured by parent guarantee and covered by the Credit Guarantee Fund Scheme for Education Loans (CGFSEL) via NCGTC, allowing banks to claim up to 75% of defaulted balances post recovery attempts.
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> <strong>Tier 2 (₹4 Lakhs to ₹7.5 Lakhs):</strong> Secured by parent guarantee and covered by the Credit Guarantee Fund Scheme for Education Loans (CGFSEL) via NCGTC. This allows banks to claim up to 75% of defaulted balances post claims attempts. </p>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                <strong>Tier 3 (Above ₹7.5 Lakhs):</strong> Requires tangible collateral, such as mortgaged residential homes or land. Defaults expose parents to immediate property auction under the SARFAESI Act, 2002.
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> <strong>Tier 3 (Above ₹7.5 Lakhs):</strong> Requires tangible security. Such as mortgaged residential homes or land. Defaults expose parents to fast property auction under the SARFAESI Act. 2002. </p>
 
               <div className="bg-white rounded-2xl border border-slate-200/80 p-5 shadow-xs space-y-3">
                 <div className="flex items-center justify-between pb-2 border-b border-slate-100">
@@ -245,7 +227,7 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs sm:text-sm">
                   <div className="p-3 bg-slate-50 rounded-xl">
-                    <p className="text-slate-500 text-xs">Original Principal released.</p>
+                    <p className="text-slate-500 text-xs">Original main loan released.</p>
                     <p className="text-base font-bold text-slate-900">₹25,00,000</p>
                     <p className="text-[11px] text-slate-500">Overseas MS Program.</p>
                   </div>
@@ -255,14 +237,12 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                     <p className="text-[11px] text-rose-600">Compound + Penal Dues.</p>
                   </div>
                   <div className="p-3 bg-emerald-50 rounded-xl">
-                    <p className="text-emerald-600 text-xs">Target OTS Compromise.</p>
+                    <p className="text-emerald-600 text-xs">Target OTS OTS deal.</p>
                     <p className="text-base font-bold text-emerald-700">₹16,50,000</p>
                     <p className="text-[11px] text-emerald-600">45% to 58% Real Relief.</p>
                   </div>
                 </div>
-                <p className="text-xs text-slate-600 leading-relaxed pt-1">
-                  When an education loan stays unpaid, banks capitalize penal interest and legal costs. CredSettle negotiates under RBI Compromise Settlement frameworks to waive penal interest and settle close to the core principal value.
-                </p>
+                <p className="text-xs text-slate-600 leading-relaxed pt-1"> When an education loan stays unpaid. Banks capitalize penal interest and legal costs. CredSettle negotiates under RBI OTS deals rules to waive penal interest and settle close to the core main loan value. </p>
               </div>
             </section>
 
@@ -275,9 +255,7 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                Choosing the appropriate legal strategy preserves family property and eliminates debt distress:
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> Choosing the appropriate legal plan preserves family property and eliminates debt distress: </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
                 <table className="w-full text-left text-xs sm:text-sm divide-y divide-slate-200/80">
@@ -293,38 +271,38 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                   <tbody className="divide-y divide-slate-200/80 text-slate-700 font-normal">
                     <tr className="divide-x divide-slate-200/80 bg-blue-50/30 hover:bg-blue-50/50">
                       <td className="px-3.5 py-2.5 font-bold text-[#1886ff]">One-Time Settlement (OTS).</td>
-                      <td className="px-3.5 py-2.5">RBI Compromise Policy / Lok Adalat.</td>
+                      <td className="px-3.5 py-2.5">RBI OTS deal Policy / Lok Adalat.</td>
                       <td className="px-3.5 py-2.5 text-emerald-700 font-bold">100% Protected (Deed returned).</td>
-                      <td className="px-3.5 py-2.5 text-amber-700">Marked &quot;Settled&quot; (Can be closed).</td>
+                      <td className="px-3.5 py-2.5 text-amber-700">Marked &quot. Settled&quot. (Can be closed).</td>
                       <td className="px-3.5 py-2.5">Chronic unemployment or permanent inability to service EMIs.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="px-3.5 py-2.5 font-bold text-slate-900">Tenure Restructuring.</td>
-                      <td className="px-3.5 py-2.5">RBI Prudential Framework extension.</td>
+                      <td className="px-3.5 py-2.5">RBI Prudential rules extension.</td>
                       <td className="px-3.5 py-2.5 text-blue-700 font-semibold">Mortgage stays active with bank.</td>
                       <td className="px-3.5 py-2.5 text-blue-700 font-semibold">Standard / Restructured account.</td>
                       <td className="px-3.5 py-2.5">Temporary cash crunch with confirmed upcoming employment.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="px-3.5 py-2.5 font-bold text-rose-700">SARFAESI Property Auction.</td>
-                      <td className="px-3.5 py-2.5">Section 13(2) &amp; 13(4) enforcement.</td>
-                      <td className="px-3.5 py-2.5 text-rose-700 font-extrabold">High Risk of eviction &amp; distress sale.</td>
+                      <td className="px-3.5 py-2.5">Section 13(2) &amp. 13(4) enforcement.</td>
+                      <td className="px-3.5 py-2.5 text-rose-700 font-extrabold">High Risk of eviction &amp. distress sale.</td>
                       <td className="px-3.5 py-2.5 text-rose-700 font-extrabold">Severe default / Written off.</td>
                       <td className="px-3.5 py-2.5">Lender proceeds unilaterally if notices are ignored.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
-                      <td className="px-3.5 py-2.5 font-bold text-purple-900">DRT Court Litigation.</td>
-                      <td className="px-3.5 py-2.5">Section 19 Recovery Suit / Sec 17 SA.</td>
+                      <td className="px-3.5 py-2.5 font-bold text-purple-900">DRT Court lawsuits.</td>
+                      <td className="px-3.5 py-2.5">Section 19 claims Suit / Sec 17 SA.</td>
                       <td className="px-3.5 py-2.5 text-amber-700 font-semibold">Requires stay order deposit (25%-50%).</td>
                       <td className="px-3.5 py-2.5 text-rose-700">Suit Filed flag in bureau.</td>
                       <td className="px-3.5 py-2.5">Disputing inflated accounts or procedural bank violations.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="px-3.5 py-2.5 font-bold text-slate-600">Prolonged Inaction.</td>
-                      <td className="px-3.5 py-2.5">Unilateral recovery &amp; ARC sale.</td>
-                      <td className="px-3.5 py-2.5 text-rose-700 font-extrabold">Guaranteed forfeiture of collateral.</td>
-                      <td className="px-3.5 py-2.5 text-rose-700 font-extrabold">CIBIL ruined; frozen bank accounts.</td>
-                      <td className="px-3.5 py-2.5">Never recommended under any circumstance.</td>
+                      <td className="px-3.5 py-2.5">Unilateral claims &amp. ARC sale.</td>
+                      <td className="px-3.5 py-2.5 text-rose-700 font-extrabold">Guaranteed forfeiture of security.</td>
+                      <td className="px-3.5 py-2.5 text-rose-700 font-extrabold">CIBIL ruined. frozen bank accounts.</td>
+                      <td className="px-3.5 py-2.5">Never recommended under any hardship.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -340,17 +318,11 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                When a student relocates abroad (US, UK, Canada, Australia) and defaults due to visa expiration or job loss, parents wonder if cross-border recovery is possible.
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> When a student relocates abroad (US. UK. Canada. Australia) and defaults due to visa expiration or job loss. Parents wonder if cross-border claims is possible. </p>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                Civil loan default is non-extraditable under international law. Foreign immigration agencies do not monitor Indian civil debts. Because filing overseas recovery lawsuits is cost-prohibitive, Indian banks focus their entire recovery apparatus onto resident Indian parents.
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> Civil loan default is non-extraditable under international law. Foreign immigration firms do not monitor Indian civil debts. Because filing overseas claims lawsuits is cost-prohibitive. Indian banks focus their entire claims apparatus onto resident Indian parents. </p>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                Lenders freeze domestic parent bank accounts using the Right of General Lien (Section 171 Indian Contract Act) and enforce SARFAESI on mortgaged property. Defaults also damage parents&apos; CIBIL scores by 100 to 250 points, freezing their credit access.
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> Lenders freeze domestic parent bank accounts using the Right of General Lien (Section 171 Indian Contract Act) and enforce SARFAESI on mortgaged property. Defaults also damage parents&apos. CIBIL scores by 100 to 250 points. Freezing their credit access. </p>
             </section>
 
             {/* SECTION 5: INFOGRAPHIC ASSET CARD */}
@@ -362,9 +334,7 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                The visual framework illustrates the three collateral tiers and CredSettle&apos;s verified 6-stage protocol for compromise settlement and deed release.
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> The visual rules illustrates the three security tiers and CredSettle&apos. s verified 6-stage protocol for OTS deals and deed release. </p>
 
               <div className="rounded-2xl border border-slate-200/90 overflow-hidden bg-slate-900 shadow-md">
                 <div className="relative aspect-video w-full bg-slate-950">
@@ -389,9 +359,7 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                CredSettle executes a tested six-stage Standard Operating Procedure to protect parents, stop harassment, and secure maximum debt waivers:
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> CredSettle executes a tested six-stage Standard Operating Procedure to protect parents. Stop abuse. And secure maximum debt waivers: </p>
 
               <div className="space-y-4">
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 sm:p-5 shadow-2xs">
@@ -399,9 +367,7 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                     <span className="w-7 h-7 rounded-lg bg-blue-100 text-[#1886ff] font-extrabold flex items-center justify-center text-xs">01</span>
                     <h3 className="text-base font-bold text-slate-900">Stage 1: Forensic Loan Document &amp; Moratorium Audit</h3>
                   </div>
-                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600">
-                    We audit sanction letters and account statements to verify moratorium compliance (Course Duration plus 1 Year) and identify illegal penal interest capitalization.
-                  </p>
+                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600"> We audit sanction letters and account records to verify moratorium compliance (Course Duration plus 1 Year) and identify illegal penal interest capitalization. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 sm:p-5 shadow-2xs">
@@ -409,9 +375,7 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                     <span className="w-7 h-7 rounded-lg bg-blue-100 text-[#1886ff] font-extrabold flex items-center justify-center text-xs">02</span>
                     <h3 className="text-base font-bold text-slate-900">Stage 2: Comprehensive Hardship Dossier</h3>
                   </div>
-                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600">
-                    We compile verifiable hardship proofs. This includes visa terminations, medical records, and parent pension proofs to substantiate inability to pay.
-                  </p>
+                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600"> We compile verifiable hardship proofs. This includes visa terminations, medical records. And parent pension proofs to prove inability to pay. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 sm:p-5 shadow-2xs">
@@ -419,9 +383,7 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                     <span className="w-7 h-7 rounded-lg bg-blue-100 text-[#1886ff] font-extrabold flex items-center justify-center text-xs">03</span>
                     <h3 className="text-base font-bold text-slate-900">Stage 3: Legal Representation &amp; Cease-and-Desist</h3>
                   </div>
-                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600">
-                    We submit formal objections under Section 13(3A) SARFAESI and enforce the RBI Fair Practices Code to stop recovery agent visits and home harassment.
-                  </p>
+                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600"> We submit formal objections under Section 13(3A) SARFAESI and enforce the RBI Fair Practices Code to stop claims agent visits and home abuse. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 sm:p-5 shadow-2xs">
@@ -429,9 +391,7 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                     <span className="w-7 h-7 rounded-lg bg-blue-100 text-[#1886ff] font-extrabold flex items-center justify-center text-xs">04</span>
                     <h3 className="text-base font-bold text-slate-900">Stage 4: Direct OTS Bilateral Negotiations</h3>
                   </div>
-                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600">
-                    We negotiate directly with bank zonal settlement committees to secure a 40% to 60% compromise waiver benchmarked against actual recovery potential.
-                  </p>
+                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600"> We settle straight with bank zonal settlement boards to secure a 40% to 60% OTS deal waiver benchmarked against actual claims potential. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 sm:p-5 shadow-2xs">
@@ -439,9 +399,7 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                     <span className="w-7 h-7 rounded-lg bg-blue-100 text-[#1886ff] font-extrabold flex items-center justify-center text-xs">05</span>
                     <h3 className="text-base font-bold text-slate-900">Stage 5: OTS Sanction Letter Vetting</h3>
                   </div>
-                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600">
-                    Our legal counsel verifies the sanction letter to ensure clear full-and-final settlement terms, case withdrawal commitments. Deed release guarantees.
-                  </p>
+                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600"> Our legal counsel verifies the sanction letter to ensure clear full-and-final settlement terms. Case withdrawal commitments. Deed release guarantees. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 sm:p-5 shadow-2xs">
@@ -449,9 +407,7 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                     <span className="w-7 h-7 rounded-lg bg-blue-100 text-[#1886ff] font-extrabold flex items-center justify-center text-xs">06</span>
                     <h3 className="text-base font-bold text-slate-900">Stage 6: Settlement Remittance &amp; Deed Release</h3>
                   </div>
-                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600">
-                    After paying payment to the bank account, we retrieve original title deeds within 30 days under RBI rules and obtain an unconditional No Dues Certificate.
-                  </p>
+                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600"> After paying payment to the bank account. We retrieve original title deeds within 30 days under RBI rules and obtain an full No Dues letter. </p>
                 </div>
               </div>
             </section>
@@ -465,9 +421,7 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                Understanding statutory notices empowers parents to assert legal rights and prevent panic:
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> Understanding legal notices empowers parents to assert legal rights and prevent panic: </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-2xs space-y-2">
@@ -475,9 +429,7 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                     <Home className="w-4 h-4 text-[#1886ff]"/>
                     <span>SARFAESI Demand Notice (Section 13(2)).</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Provides 60 days to respond. Parents have the statutory right under Section 13(3A) to file written objections, which the bank must examine within 15 days before taking possession.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Provides 60 days to respond. Parents have the legal right under Section 13(3A) to file written objections. This the bank must examine within 15 days before taking takeover. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-2xs space-y-2">
@@ -485,9 +437,7 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                     <CreditCard className="w-4 h-4 text-emerald-600"/>
                     <span>NACH E-Mandate Dishonor (Section 25 PSSA).</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    When auto-debits bounce, lenders issue Section 25 notices. While quasi-criminal, these offenses are compoundable through bail and commercial settlement.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> When auto-debits bounce. Lenders issue Section 25 notices. While quasi-criminal. These offenses are compoundable through bail and trade settlement. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-2xs space-y-2">
@@ -495,9 +445,7 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                     <FileText className="w-4 h-4 text-purple-600"/>
                     <span>Security Cheque Bounce (Section 138 NI Act).</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Parents who did not sign the specific security cheque cannot be prosecuted under Section 138, as criminal liability attaches strictly to the signatory.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Parents who did not sign the local security cheque cannot be prosecuted under Section 138. As criminal debt risk attaches strictly to the signatory. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-2xs space-y-2">
@@ -505,15 +453,11 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                     <Landmark className="w-4 h-4 text-amber-600"/>
                     <span>Debt Recovery Tribunal (Section 19 DRT).</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    For claims above ₹20 Lakhs in DRT, parents can challenge excessive interest calculations and request referral to Lok Adalat for an expedited settlement.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> For claims above ₹20 Lakhs in DRT. Parents can challenge excessive interest calculations and request referral to Lok Adalat for an expedited settlement. </p>
                 </div>
               </div>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                Under the RBI Fair Practices Code, agents cannot make abusive calls, visit before 8:00 AM or after 7:00 PM. Intimidate family members. Violations allow filing police complaints and reporting to the RBI Ombudsman.
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> Under the RBI Fair Practices Code. Agents cannot make abusive calls. Visit before 8:00 AM or after 7:00 PM. Intimidate family members. Violations allow filing police complaints and reporting to the RBI Ombudsman. </p>
             </section>
 
             {/* SECTION 8: 3-TIER ESCALATION MATRIX */}
@@ -531,9 +475,7 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                     <span className="font-bold text-slate-900 text-sm">Level 1: Grievance Redressal Officer (GRO).</span>
                     <span className="px-2 py-0.5 rounded-md bg-blue-100 text-[#1886ff] font-bold text-xs">7 to 10 Days</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">
-                    Submit a formal representation detailing student unemployment and requesting penal interest waiver and referral to the OTS committee.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> Submit a formal legal help detailing student unemployment and requesting penal interest waiver and referral to the OTS boards. </p>
                 </div>
 
                 <div className="p-4 rounded-2xl bg-white border border-slate-200/80 shadow-2xs space-y-1">
@@ -541,9 +483,7 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                     <span className="font-bold text-slate-900 text-sm">Level 2: Principal Nodal Officer (PNO).</span>
                     <span className="px-2 py-0.5 rounded-md bg-emerald-100 text-emerald-700 font-bold text-xs">14 to 21 Days</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">
-                    Escalate to the bank&apos;s head office if branch harassment persists, citing RBI Fair Practices violations to halt coercive actions.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> Escalate to the bank&apos. S head office if branch abuse persists. Citing RBI Fair Practices violations to halt coercive actions. </p>
                 </div>
 
                 <div className="p-4 rounded-2xl bg-white border border-slate-200/80 shadow-2xs space-y-1">
@@ -551,9 +491,7 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                     <span className="font-bold text-slate-900 text-sm">Level 3: RBI Ombudsman &amp; Lok Adalat.</span>
                     <span className="px-2 py-0.5 rounded-md bg-purple-100 text-purple-700 font-bold text-xs">Statutory Redressal.</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">
-                    File complaints on the RBI CMS portal (cms.rbi.org.in) or seek conciliation before the National Lok Adalat for binding compromise decrees.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> File complaints on the RBI CMS portal (cms.rbi.org.in) or seek talks before the National Lok Adalat for binding OTS deal decrees. </p>
                 </div>
               </div>
             </section>
@@ -581,13 +519,13 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="px-3.5 py-2.5 font-bold text-slate-900">Month 1 to 6 post-study.</td>
                       <td className="px-3.5 py-2.5">Moratorium Period.</td>
-                      <td className="px-3.5 py-2.5">Repayment holiday; simple interest accrual.</td>
-                      <td className="px-3.5 py-2.5">Request repayment tenure extension if unplaced.</td>
+                      <td className="px-3.5 py-2.5">payment holiday. simple interest accrual.</td>
+                      <td className="px-3.5 py-2.5">Request payment tenure extension if unplaced.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="px-3.5 py-2.5 font-bold text-slate-900">Day 1 to 90 overdue.</td>
                       <td className="px-3.5 py-2.5">SMA-0, SMA-1, SMA-2.</td>
-                      <td className="px-3.5 py-2.5">Automated reminder SMS and recovery calls.</td>
+                      <td className="px-3.5 py-2.5">Automated reminder SMS and claims calls.</td>
                       <td className="px-3.5 py-2.5">Submit formal hardship notice to prevent NPA.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 bg-blue-50/30 hover:bg-blue-50/50">
@@ -598,15 +536,15 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="px-3.5 py-2.5 font-bold text-purple-900">Month 4 to 8</td>
-                      <td className="px-3.5 py-2.5">Statutory SARFAESI Notices.</td>
+                      <td className="px-3.5 py-2.5">legal SARFAESI Notices.</td>
                       <td className="px-3.5 py-2.5">Section 13(2) 60-day demand notice issued.</td>
-                      <td className="px-3.5 py-2.5">File Section 13(3A) representation &amp; stay auction.</td>
+                      <td className="px-3.5 py-2.5">File Section 13(3A) legal help &amp. stay auction.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="px-3.5 py-2.5 font-bold text-emerald-800">Month 6 to 12</td>
-                      <td className="px-3.5 py-2.5">Compromise Closure.</td>
-                      <td className="px-3.5 py-2.5">Bank sanctions OTS; all recovery cases stayed.</td>
-                      <td className="px-3.5 py-2.5 font-semibold text-emerald-800">pay settlement, secure NDC, and recover original deeds.</td>
+                      <td className="px-3.5 py-2.5">OTS deal Closure.</td>
+                      <td className="px-3.5 py-2.5">Bank sanctions OTS. all claims cases stayed.</td>
+                      <td className="px-3.5 py-2.5 font-semibold text-emerald-800">Pay settlement. Secure NDC. And recover original deeds.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -628,9 +566,7 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                     <Briefcase className="w-4 h-4 text-[#1886ff]"/>
                     <span>Foreign Tech Layoffs &amp; Visa Expiration.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    For graduates returning to India after layoffs, we submit proof of involuntary termination to secure deep principal waivers and rupee-denominated settlements.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> For graduates returning to India after layoffs. We submit proof of involuntary termination to secure deep main loan waivers and rupee-denominated settlements. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-2xs space-y-2">
@@ -638,9 +574,7 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                     <UserCheck className="w-4 h-4 text-emerald-600"/>
                     <span>Demise or Disability of Student Borrower.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Most education loans include term life insurance. We enforce insurance policy claim settlements to extinguish loan liability without burdening parents.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Most education loans include term life cover. We enforce cover policy claim settlements to extinguish loan debt risk without burdening parents. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-2xs space-y-2">
@@ -648,9 +582,7 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                     <Home className="w-4 h-4 text-purple-600"/>
                     <span>Joint Ancestral Property Mortgaged.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    When ancestral land is mortgaged, we challenge defective mortgage creations in DRT while executing swift OTS compromise agreements to prevent family disputes.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> When ancestral land is mortgaged. We challenge defective mortgage creations in DRT while executing swift OTS OTS deal pacts to prevent family disputes. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-2xs space-y-2">
@@ -658,9 +590,7 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                     <Landmark className="w-4 h-4 text-amber-600"/>
                     <span>Education Loans Sold to ARCs.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    When sticky education NPAs are sold to ARCs at steep discounts, we leverage their low acquisition costs to negotiate 50% to 70% settlement waivers.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> When sticky education NPAs are sold to ARCs at steep discounts. We leverage their low acquisition costs to settle 50% to 70% settlement waivers. </p>
                 </div>
               </div>
             </section>
@@ -679,9 +609,7 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                 </h2>
               </div>
 
-              <p className="text-xs sm:text-sm text-slate-600">
-                Find clear answers to questions regarding education loan defaults, co-applicant liability, property mortgage defense. Debt settlement in India.
-              </p>
+              <p className="text-xs sm:text-sm text-slate-600"> Find clear answers to questions regarding education loan defaults. Co-applicant debt risk, property mortgage defense. Debt settlement in India. </p>
 
               <div className="space-y-3">
                 {faqs.map((faq, idx) => {
@@ -709,20 +637,20 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
               </div>
 
               <div className="p-4 rounded-2xl bg-white border border-slate-200/80 shadow-2xs space-y-3 text-xs sm:text-sm text-slate-700">
-                <p className="font-semibold text-slate-900">Key Governing Statutes &amp; Regulatory Directives Cited:</p>
+                <p className="font-semibold text-slate-900">Key Governing Statutes &amp. RBI Directives Cited:</p>
                 <ul className="list-disc pl-5 space-y-1 text-slate-600 text-xs">
-                  <li><strong>Section 128, Indian Contract Act, 1872:</strong> Co-extensive liability of surety and co-borrower in credit agreements.</li>
-                  <li><strong>IBA Model Educational Loan Scheme:</strong> Standard collateral and guarantee norms for higher education loans in India.</li>
-                  <li><strong>Section 13(2), 13(3A) &amp; 13(4), SARFAESI Act, 2002:</strong> Enforcement of security interest, borrower objection rights, and possession rules.</li>
-                  <li><strong>Section 25, Payment and Settlement Systems Act, 2007 (PSSA):</strong> Dishonor of electronic fund transfer auto-debits and NACH mandates.</li>
-                  <li><strong>Section 138 &amp; 147, Negotiable Instruments Act, 1881:</strong> Dishonor of cheques and statutory compounding provisions.</li>
-                  <li><strong>Section 19, Recovery of Debts and Bankruptcy Act, 1993 (RDBA):</strong> Debt Recovery Tribunal jurisdiction and original application process.</li>
-                  <li><strong>RBI Master Circular on Fair Practices Code for Lenders:</strong> Standards governing recovery agent conduct and customer protection.</li>
+                  <li><strong>Section 128, Indian Contract Act, 1872:</strong> Co-extensive debt risk of surety and co-client in credit pacts.</li>
+                  <li><strong>IBA Model Educational Loan Scheme:</strong> Standard security and guarantee norms for higher education loans in India.</li>
+                  <li><strong>Section 13(2), 13(3A) &amp. 13(4), SARFAESI Act, 2002:</strong> Enforcement of security interest. Client objection rights. And takeover rules.</li>
+                  <li><strong>Section 25. Payment and Settlement Systems Act. 2007 (PSSA):</strong> Dishonor of electronic fund transfer auto-debits and NACH mandates.</li>
+                  <li><strong>Section 138 &amp. 147, Negotiable Instruments Act, 1881:</strong> Dishonor of cheques and legal compounding provisions.</li>
+                  <li><strong>Section 19. Claims of Debts and Bankruptcy Act. 1993 (RDBA):</strong> Debt claims Tribunal police area and original application process.</li>
+                  <li><strong>RBI Master Circular on Fair Practices Code for Lenders:</strong> Standards governing claims agent conduct and customer protection.</li>
                 </ul>
               </div>
 
               <div className="space-y-2">
-                <p className="text-xs font-bold uppercase tracking-wider text-slate-600">Official Government &amp; Regulatory Portals:</p>
+                <p className="text-xs font-bold uppercase tracking-wider text-slate-600">formal Government &amp. RBI Portals:</p>
                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 text-xs">
                   <a href="https://www.rbi.org.in" target="_blank" rel="noopener noreferrer" className="p-2.5 rounded-xl border border-slate-200 bg-white hover:border-[#1886ff] hover:text-[#1886ff] transition-all flex items-center justify-between group shadow-2xs">
                     <span className="font-semibold truncate">Reserve Bank of India.</span>
@@ -752,7 +680,7 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
               </div>
 
               <div className="space-y-2 pt-2">
-                <p className="text-xs font-bold uppercase tracking-wider text-slate-600">Related Legal &amp; Settlement Guides on CredSettle:</p>
+                <p className="text-xs font-bold uppercase tracking-wider text-slate-600">Related Legal &amp. Settlement Guides on CredSettle:</p>
                 <div className="flex flex-wrap gap-1.5">
                   {[
             { title: 'Education Loan Settlement', href: '/education-loan-settlement' },
@@ -784,15 +712,11 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                 </div>
                 <div>
                   <p className="font-bold text-slate-900 text-sm">Ashish Jhangra</p>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional.
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief expert. </p>
                   <p className="text-[10px] text-slate-500">CredSettle Research Head.</p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed border-t border-slate-100 pt-2.5">
-                Specialist in Indian banking dispute defense, education loan dispute resolution, SARFAESI property protection. Institutional compromise settlements under RBI Prudential Frameworks.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed border-t border-slate-100 pt-2.5"> Specialist in Indian banking dispute defense. Education loan dispute relief. SARFAESI property protection. bank OTS deals under RBI Prudential rules. </p>
             </div>
 
             {/* EMERGENCY CTA CARD (#2452ae) */}
@@ -803,12 +727,8 @@ export default function StudentLoanDefaultParentsLiabilityClient() {
                   Urgent Legal Defense.
                 </span>
               </div>
-              <p className="text-base font-extrabold leading-snug">
-                Bank Demanding Education Loan Dues from Parents?
-              </p>
-              <p className="text-xs text-white/90 leading-relaxed">
-                Speak directly with CredSettle legal professionals to stop recovery agent harassment, defend mortgaged family property. Negotiate a 40% to 60% compromise waiver.
-              </p>
+              <p className="text-base font-extrabold leading-snug"> Bank Demanding Education Loan Dues from Parents? </p>
+              <p className="text-xs text-white/90 leading-relaxed"> Speak straight with CredSettle legal workers to stop claims agent abuse. Defend mortgaged family property. settle a 40% to 60% OTS deal waiver. </p>
               <div className="pt-1 space-y-2">
                 <a href="tel:+918800226635" className="w-full py-2.5 px-4 rounded-xl bg-white text-blue-900 font-extrabold text-xs flex items-center justify-center gap-2 hover:bg-slate-50 transition-all shadow-xs">
                   <Phone className="w-3.5 h-3.5 text-[#1886ff]"/>

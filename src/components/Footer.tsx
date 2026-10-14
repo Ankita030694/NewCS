@@ -20,21 +20,21 @@ export default function Footer({ hideFunnel = false }: FooterProps = {}) {
                 Settle your loans and credit card debt easily with CredSettle. Get debt relief, loan waivers & protection from harassment by recovery agents in India.
               </p>
               <div className="flex items-center gap-3 md:gap-4">
-                <a href="https://www.linkedin.com/company/credsettle/" target="_blank" rel="noopener noreferrer" aria-label="CredSettle on LinkedIn">
+                <a href="https://www.linkedin.com/company/credsettle/" target="_blank" rel="nofollow noopener noreferrer" aria-label="CredSettle on LinkedIn">
                   <span className="sr-only">CredSettle on LinkedIn</span>
                   <FontAwesomeIcon
                     icon={faLinkedin}
                     className="text-[#0C2756] w-5 h-5 md:w-6 md:h-6 cursor-pointer hover:opacity-70 transition-opacity"
                   />
                 </a>
-                <a href="https://www.facebook.com/people/CredSettle/61572589389799/" target="_blank" rel="noopener noreferrer" aria-label="CredSettle on Facebook">
+                <a href="https://www.facebook.com/people/CredSettle/61572589389799/" target="_blank" rel="nofollow noopener noreferrer" aria-label="CredSettle on Facebook">
                   <span className="sr-only">CredSettle on Facebook</span>
                   <FontAwesomeIcon
                     icon={faFacebook}
                     className="text-[#0C2756] w-5 h-5 md:w-6 md:h-6 cursor-pointer hover:opacity-70 transition-opacity"
                   />
                 </a>
-                <a href="https://www.instagram.com/credsettle/" target="_blank" rel="noopener noreferrer" aria-label="CredSettle on Instagram">
+                <a href="https://www.instagram.com/credsettle/" target="_blank" rel="nofollow noopener noreferrer" aria-label="CredSettle on Instagram">
                   <span className="sr-only">CredSettle on Instagram</span>
                   <FontAwesomeIcon
                     icon={faInstagram}

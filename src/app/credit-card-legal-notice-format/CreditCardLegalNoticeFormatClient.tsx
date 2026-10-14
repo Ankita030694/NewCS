@@ -100,9 +100,7 @@ export default function CreditCardLegalNoticeFormatClient() {
             Credit Card Legal Notice Format and Reply
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed">
-            Received a demand notice from a bank advocate for unpaid credit card dues? Learn how to reply, challenge compounding 42%+ finance charges, rebut arbitration threats, and settle your debt.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> Received a demand notice from a bank lawyers for unpaid credit card dues? Learn how to reply. Challenge growing 42%+ finance charges. Rebut hearing threats. And settle your debt. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -145,9 +143,7 @@ export default function CreditCardLegalNoticeFormatClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>Statutory Legal Defense.</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Governed by the RBI Fair Practices Code, Contract Act 1872 &amp; Supreme Court Precedents.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by the RBI Fair Practices Code. Contract Act 1872 &amp. Supreme Court rulings. </p>
               </div>
             </div>
           </aside>
@@ -163,61 +159,21 @@ export default function CreditCardLegalNoticeFormatClient() {
               </div>
 
               <ul className="space-y-2 text-xs sm:text-sm text-slate-700 leading-relaxed">
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Civil Dispute:</strong> Credit card default is purely a civil contractual matter. Advocates cannot issue arrest warrants.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Civil claims:</strong> Credit card default is purely a civil contractual matter. lawyers cannot issue arrest warrants. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Unbundling 40%+ APR:</strong> Claimed balances consist largely of compounding finance charges and late fees, all legally contestable.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Unbundling 40%+ APR:</strong> Claimed balances consist largely of growing finance charges and late fees. All by law contestable. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">15 to 30 Day Window:</strong> A timely legal reply preserves defenses, disputes penal inflation, and prevents ex-parte orders.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">15 to 30 Day Window:</strong> A timely legal reply preserves defenses. claims penal inflation. And prevents ex-parte orders. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Deconstructing Threats:</strong> Cheque and NACH bounce provisions cannot be misused to enforce penalty claims lacking enforceable debt.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Deconstructing Threats:</strong> Cheque and NACH bounce provisions cannot be misused to enforce penalty claims lacking enforceable debt. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Arbitration Nullification:</strong> Under Perkins Eastman rulings, unilateral sole arbitrator appointments by lenders are void ab initio.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">hearing Nullification:</strong> Under Perkins Eastman rulings. Unilateral sole judge appointments by lenders are void ab initio. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Ledger Audit Rights:</strong> Borrowers possess statutory rights under the Bankers Books Evidence Act to demand audited statements.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Ledger Audit Rights:</strong> clients possess legal rights under the Bankers Books proof Act to demand audited records. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Pivot to 40%–60% OTS:</strong> Substantive legal objections create litigation risk, motivating Credit Committees to sanction compromise settlements.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Pivot to 40%. 60% OTS:</strong> Substantive legal objections create lawsuits risk. Motivating Credit boards to sanction OTS deals. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Bureau Upgrades:</strong> Obtaining an unconditional No Dues Certificate enables updating credit records to Closed under CICRA Section 21.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">CIBIL desk Upgrades:</strong> Obtaining an full No Dues letter enables updating credit records to Closed under CICRA Section 21. </div> </li>
               </ul>
             </div>
 
@@ -230,12 +186,8 @@ export default function CreditCardLegalNoticeFormatClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 1. Credit Card Debt Economics, Unbundling APR, and NPA Classification
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Credit card debt represents unsecured revolving credit in Indian banking. Cards levy interest between 42% and 48% annually, compounding monthly at 3.5% to 4%. When cardholders face distress like job loss or illness, paying Minimum Amount Due traps them in continuous interest servicing without reducing principal.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Under Reserve Bank of India prudential norms, unpaid cards progress through SMA stages to NPA status at 90 days. Lacking collateral under SARFAESI, banks face mandatory provisioning, creating strong institutional incentives for Credit Committees to approve compromise One-Time Settlements with 40% to 60% waivers rather than financing protracted litigation.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Credit card debt represents no-pledge revolving credit in Indian banking. Cards levy rates between 42% and 48% annually. growing monthly at 3.5% to 4%. When cardholders face distress like job loss or illness. Paying Minimum Amount Due traps them in steady rates servicing without reducing main loan. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Under Reserve Bank of India prudential norms. Unpaid cards progress through SMA stages to NPA status at 90 days. Lacking pledge under SARFAESI. Banks face strict bank reserves. Creating strong bank incentives for Credit boards to approve OTS deal One-Time deals with 40% to 60% waivers rather than financing protracted lawsuits. </p>
             </section>
 
             {/* SECTION 2: Financial Breakdown & Settlement Math */}
@@ -247,12 +199,8 @@ export default function CreditCardLegalNoticeFormatClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 2. Financial Breakdown: Principal vs. Compounding Penal Surcharges
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When a bank advocate serves a demand notice, the claimed sum is inflated through compounding finance charges, late fees, over-limit fees. 18% GST. Within eighteen months, penal additions routinely exceed original spending.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                A forensic accounting review deconstructs the claim ledger into real principal disbursements versus unconscionable fees, establishing an equitable baseline for compromise settlement negotiations.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When a bank lawyers serves a demand notice. The claimed sum is inflated through growing finance charges. Late fees. Over-limit fees. 18% GST. Within eighteen months. Penal additions routinely exceed original spending. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> A deep accounting review deconstructs the claim ledger into real main loan disbursements versus unconscionable fees. Establishing an equitable baseline for OTS deals talks. </p>
 
               {/* Representative Calculation Card */}
               <div className="bg-white p-5 sm:p-6 rounded-2xl border border-slate-200/80 shadow-xs space-y-4">
@@ -320,9 +268,7 @@ export default function CreditCardLegalNoticeFormatClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 3. Strategic Forum Comparison: Credit Card Recovery vs. Resolution Options
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When a credit card account defaults, banks weigh several recovery avenues. Compare how negotiated One-Time Settlements contrast with restructuring, civil suits, arbitration, Lok Adalats, and default:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When a credit card account defaults. Banks weigh several claims avenues. Compare how settled One-Time deals contrast with restructuring. Civil suits. hearing. Lok Adalats. And default: </p>
 
               <div className="overflow-x-auto rounded-2xl border border-slate-200/80 bg-white shadow-xs">
                 <table className="w-full text-left text-xs md:text-sm divide-y divide-slate-200/80">
@@ -338,35 +284,35 @@ export default function CreditCardLegalNoticeFormatClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-600">
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
-                      <td className="p-3 font-bold text-slate-900">One-Time Settlement.</td>
-                      <td className="p-3">RBI Compromise</td>
-                      <td className="p-3 text-emerald-700 font-semibold">40%–60% Debt Waiver.</td>
-                      <td className="p-3 text-emerald-700 font-semibold">Zero Risk; NDC Issued.</td>
-                      <td className="p-3">30–60 Days</td>
-                      <td className="p-3 text-[#1886ff] font-semibold">Full debt discharge with binding No Dues Certificate.</td>
+                      <td className="p-3 font-bold text-slate-900">One-Time settlement.</td>
+                      <td className="p-3">RBI OTS deal</td>
+                      <td className="p-3 text-emerald-700 font-semibold">40%. 60% Debt Waiver.</td>
+                      <td className="p-3 text-emerald-700 font-semibold">Zero Risk. NDC Issued.</td>
+                      <td className="p-3">30. 60 Days</td>
+                      <td className="p-3 text-[#1886ff] font-semibold">Full debt discharge with binding No Dues letter.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
                       <td className="p-3 font-bold text-slate-900">EMI Restructuring.</td>
                       <td className="p-3">Bank Policy</td>
-                      <td className="p-3">0% Waiver; 18%–24% APR.</td>
+                      <td className="p-3">0% Waiver. 18%. 24% APR.</td>
                       <td className="p-3">New loan terms</td>
-                      <td className="p-3">12–36 Mos</td>
+                      <td className="p-3">12. 36 Mos</td>
                       <td className="p-3">Spreads monthly cash flow without debt reduction.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
                       <td className="p-3 font-bold text-slate-900">Summary Civil Suit.</td>
                       <td className="p-3">Order 37 CPC</td>
-                      <td className="p-3 text-red-600 font-semibold">Full claim plus interest.</td>
+                      <td className="p-3 text-red-600 font-semibold">Full claim plus rates.</td>
                       <td className="p-3">Money Decree</td>
-                      <td className="p-3">24–48 Mos</td>
-                      <td className="p-3">File Leave to Defend citing inflated penalty interest.</td>
+                      <td className="p-3">24. 48 Mos</td>
+                      <td className="p-3">File Leave to Defend citing inflated penalty rates.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
-                      <td className="p-3 font-bold text-slate-900">Arbitration</td>
-                      <td className="p-3">Arbitration Act</td>
+                      <td className="p-3 font-bold text-slate-900">hearing</td>
+                      <td className="p-3">hearing Act</td>
                       <td className="p-3 text-red-600 font-semibold">Full claim plus fees.</td>
                       <td className="p-3">Civil decree award.</td>
-                      <td className="p-3">6–12 Mos</td>
+                      <td className="p-3">6. 12 Mos</td>
                       <td className="p-3">Challenge appointment under Section 12(5) Perkins Eastman.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
@@ -375,10 +321,10 @@ export default function CreditCardLegalNoticeFormatClient() {
                       <td className="p-3 text-emerald-700 font-semibold">Consensual waiver.</td>
                       <td className="p-3">Final award</td>
                       <td className="p-3">1 Day</td>
-                      <td className="p-3">Court fees refunded, formal judicial closure recorded.</td>
+                      <td className="p-3">Court fees refunded. Formal court closure recorded.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
-                      <td className="p-3 font-bold text-slate-900">Inaction &amp; Default.</td>
+                      <td className="p-3 font-bold text-slate-900">Inaction &amp. Default.</td>
                       <td className="p-3">Default State</td>
                       <td className="p-3 text-red-700 font-bold">180%+ Inflation</td>
                       <td className="p-3 text-red-700 font-bold">Ex-parte decrees.</td>
@@ -399,12 +345,8 @@ export default function CreditCardLegalNoticeFormatClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 4. Technical CIBIL Algorithm Breakdown and Bureau Repair Timeline
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Credit bureaus evaluate creditworthiness using Payment History (35%), Credit use (30%), History Length (15%), Credit Mix (10%). Inquiries (10%). Defaulting on credit cards breaches use limits while inflicting severe penalties across models.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Upon 90+ DPD default and advocate notice issuance, scores drop 80 to 140 points. Under CICRA 2005, negative records persist for seven years unless formally resolved. Executing a One-Time Settlement and securing a No Dues Certificate triggers statutory updates under Section 21 of CICRA. The account status transitions to Closed with zero balance, enabling score rebuilding above 750 within 12 to 24 months.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Credit bureaus evaluate creditworthiness using Payment History (35%). Credit use (30%). History Length (15%). Credit Mix (10%). Inquiries (10%). Defaulting on credit cards breaches use limits while inflicting severe penalties across models. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Upon 90+ DPD default and lawyers notice issuance. Scores drop 80 to 140 points. Under CICRA 2005. Negative records persist for seven years unless formally resolved. Executing a One-Time settlement and securing a No Dues letter triggers legal updates under Section 21 of CICRA. The account status transitions to Closed with zero balance. This lets score rebuilding above 750 within 12 to 24 months. </p>
             </section>
 
             {/* SECTION 5: Embedded 16:9 Infographic Banner */}
@@ -416,9 +358,7 @@ export default function CreditCardLegalNoticeFormatClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Visual Defense Blueprint: 6-Step Credit Card Notice Response Workflow
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Examine this structured strategic flowchart illustrating the exact 6-stage procedural sequence from forensic ledger audit to legal reply drafting, arbitration rebuttal. Final No Dues Certificate issuance.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Examine this structured strategic flowchart illustrating the exact 6-stage procedural sequence from deep ledger audit to legal reply drafting. hearing rebuttal. Final No Dues letter issuance. </p>
 
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-sm p-3 md:p-4 overflow-hidden">
                 <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-slate-900">
@@ -443,9 +383,7 @@ export default function CreditCardLegalNoticeFormatClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 5. Standard Operating Procedure: 6 Stages of Legal Notice Defense &amp; Settlement
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Follow this sequential procedure to protect your legal rights and negotiate an affordable compromise settlement upon receiving a credit card demand notice:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Follow this sequential steps to protect your legal rights and settle an affordable OTS deals upon receiving a credit card demand notice: </p>
 
               <div className="space-y-4 pt-2">
                 {/* Stage 1 */}
@@ -459,9 +397,7 @@ export default function CreditCardLegalNoticeFormatClient() {
                   <h3 className="text-base font-bold text-slate-900">
                     Forensic Notice &amp; Ledger Audit
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Verify advocate credentials and reconcile claimed dues against statements to isolate real principal from 42%+ APR compounding and penalties.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Verify lawyers credentials and reconcile claimed dues against records to isolate real main loan from 42%+ APR growing and penalties. </p>
                 </div>
 
                 {/* Stage 2 */}
@@ -475,9 +411,7 @@ export default function CreditCardLegalNoticeFormatClient() {
                   <h3 className="text-base font-bold text-slate-900">
                     Drafting Substantive Legal Reply
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Serve an advocate reply via Speed Post AD within 15 days, detailing financial hardship, disputing illegal charges. Proposing principal settlement.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Serve an lawyers reply via Speed Post AD within 15 days. Detailing hardship. Disputing banned charges. Proposing main loan settlement. </p>
                 </div>
 
                 {/* Stage 3 */}
@@ -491,9 +425,7 @@ export default function CreditCardLegalNoticeFormatClient() {
                   <h3 className="text-base font-bold text-slate-900">
                     Rebutting Quasi-Criminal Threats
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Establish that card default is strictly civil breach of contract, rebutting misuse of cheque bounce sections for arbitrary penalty totals.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Establish that card default is strictly civil breach of contract. Rebutting misuse of cheque bounce sections for arbitrary penalty totals. </p>
                 </div>
 
                 {/* Stage 4 */}
@@ -507,9 +439,7 @@ export default function CreditCardLegalNoticeFormatClient() {
                   <h3 className="text-base font-bold text-slate-900">
                     Challenging Unilateral Arbitration
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    File objections under Section 12(5) citing Perkins Eastman precedents, halting ex-parte hearings and driving bilateral settlement talks.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> File objections under Section 12(5) citing Perkins Eastman rulings. Halting ex-parte hearings and driving bilateral talks. </p>
                 </div>
 
                 {/* Stage 5 */}
@@ -523,9 +453,7 @@ export default function CreditCardLegalNoticeFormatClient() {
                   <h3 className="text-base font-bold text-slate-900">
                     Bilateral Credit Committee Talks
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Engage the bank Principal Nodal Officer with hardship dossier to secure 100% penal waiver and a 40% to 55% principal compromise.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Engage the bank main loan Nodal agents with hardship dossier to secure 100% penal waiver and a 40% to 55% main loan OTS deal. </p>
                 </div>
 
                 {/* Stage 6 */}
@@ -539,9 +467,7 @@ export default function CreditCardLegalNoticeFormatClient() {
                   <h3 className="text-base font-bold text-slate-900">
                     Settlement Vetting &amp; NDC Issuance
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Vet the settlement letter for full discharge clauses, pay payment directly to the card account. Obtain a No Dues Certificate.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Vet the closure note for full discharge clauses. Pay payment straight to the card account. Obtain a No Dues letter. </p>
                 </div>
               </div>
             </section>
@@ -555,9 +481,7 @@ export default function CreditCardLegalNoticeFormatClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 6. Statutory Notice Defense: Legal Protections and Borrower Rights
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Understanding statutory boundaries is essential when responding to legal notices. Indian jurisprudence provides solid borrower protections against coercion and unlawful fees:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Understanding legal boundaries is essential when responding to legal notices. Indian jurisprudence provides solid client protections against coercion and unlawful fees: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -565,9 +489,7 @@ export default function CreditCardLegalNoticeFormatClient() {
                     <ShieldCheck className="w-4 h-4 flex-shrink-0"/>
                     <span>Section 25 PSSA Defense (NACH).</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Section 25 applies to bounced auto-debits. It requires strict statutory compliance within 30 days and cannot enforce arbitrary penal fees lacking contractual validity.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Section 25 applies to bounced auto-debits. It requires strict legal compliance within 30 days and cannot enforce arbitrary penal fees lacking contractual validity. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -575,9 +497,7 @@ export default function CreditCardLegalNoticeFormatClient() {
                     <Scale className="w-4 h-4 flex-shrink-0"/>
                     <span>Section 138 NI Act Defense (Cheques).</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Cheque bounce actions require legally enforceable debt. The Supreme Court affirmed that security cheques filled with arbitrary penalty sums do not satisfy statutory debt tests.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Cheque bounce actions require by law enforceable debt. The Supreme Court affirmed that pledge cheques filled with arbitrary penalty sums do not satisfy legal debt tests. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -585,9 +505,7 @@ export default function CreditCardLegalNoticeFormatClient() {
                     <Landmark className="w-4 h-4 flex-shrink-0"/>
                     <span>Section 12(5) Arbitration Nullification.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    In Perkins Eastman and TRF Ltd., the Supreme Court ruled that lenders cannot unilaterally appoint sole arbitrators. Such nominations are void ab initio.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> In Perkins Eastman and TRF Ltd. The Supreme Court ruled that lenders cannot unilaterally appoint sole arbitrators. Such nominations are void ab initio. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -595,9 +513,7 @@ export default function CreditCardLegalNoticeFormatClient() {
                     <BadgeAlert className="w-4 h-4 flex-shrink-0"/>
                     <span>DRT Limits &amp; Anti-Harassment Rules.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Debt Recovery Tribunals require claims over ₹20 Lakhs. The RBI Fair Practices Code strictly prohibits recovery agent harassment, workplace visits, and contacting family members.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Debt claims Tribunals require claims over ₹20 Lakhs. The RBI Fair Practices Code strictly prohibits claims agent abuse. Workplace visits. contacting kin. </p>
                 </div>
               </div>
             </section>
@@ -611,9 +527,7 @@ export default function CreditCardLegalNoticeFormatClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 7. The 3-Tier Grievance Escalation &amp; Regulatory Matrix
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                If the lending bank or its recovery advocate ignores your statutory reply or persists with aggressive extra-judicial harassment, escalate through this 3-tier matrix:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> If the lending bank or its claims lawyers ignores your legal reply or persists with harsh extra-court abuse. Escalate through this 3-tier matrix: </p>
 
               <div className="space-y-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -626,9 +540,7 @@ export default function CreditCardLegalNoticeFormatClient() {
                   <h3 className="text-sm font-bold text-slate-900">
                     Formal Notice Response &amp; Internal Audit
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Submit the formal legal reply directly to the Principal Nodal Officer, detailing notice errors, providing hardship proofs. Requesting compromise review.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Submit the formal legal reply straight to the main loan Nodal agents. Detailing notice errors. This provides hardship proofs. Requesting OTS deal review. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -641,9 +553,7 @@ export default function CreditCardLegalNoticeFormatClient() {
                   <h3 className="text-sm font-bold text-slate-900">
                     Challenging Illegal Proceedings
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    If an empaneled arbitrator continues hearings despite Section 12(5) objections, petition the High Court under Section 14 to terminate the mandate.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> If an empaneled judge continues hearings despite Section 12(5) objections. Petition the High Court under Section 14 to terminate the mandate. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-emerald-200 shadow-xs space-y-2">
@@ -656,9 +566,7 @@ export default function CreditCardLegalNoticeFormatClient() {
                   <h3 className="text-sm font-bold text-slate-900">
                     Regulatory Complaint for Harassment
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Lodge a statutory complaint via cms.rbi.org.in for Fair Practices Code violations, coercive collection calls, and arbitrary interest compounding.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Lodge a legal reports via cms.rbi.org.in for Fair Practices Code violations. Coercive claims calls. And arbitrary rates growing. </p>
                 </div>
               </div>
             </section>
@@ -672,9 +580,7 @@ export default function CreditCardLegalNoticeFormatClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 8. Chronological Resolution Milestones: Day 1 to Month 6
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Understanding default progression enables borrowers to time legal interventions and settlement proposals for maximum financial relief:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Understanding default progression enables clients to time legal interventions and offers for maximum money relief: </p>
 
               <div className="overflow-x-auto rounded-2xl border border-slate-200/80 bg-white shadow-xs">
                 <table className="w-full text-left text-xs md:text-sm divide-y divide-slate-200/80">
@@ -688,34 +594,34 @@ export default function CreditCardLegalNoticeFormatClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-600">
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
-                      <td className="p-3 font-bold text-slate-900">Days 1–30</td>
+                      <td className="p-3 font-bold text-slate-900">Days 1. 30</td>
                       <td className="p-3">SMA-0 default.</td>
-                      <td className="p-3">Automated SMS, emails &amp; call reminders.</td>
-                      <td className="p-3 text-[#1886ff] font-semibold">Audit monthly card statements &amp; curtail non-essential credit usage.</td>
+                      <td className="p-3">Automated SMS. Emails &amp. call reminders.</td>
+                      <td className="p-3 text-[#1886ff] font-semibold">Audit monthly card records &amp. curtail non-essential credit usage.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
-                      <td className="p-3 font-bold text-slate-900">Days 31–90</td>
+                      <td className="p-3 font-bold text-slate-900">Days 31. 90</td>
                       <td className="p-3">SMA-1 / SMA-2 Pre-NPA.</td>
-                      <td className="p-3">Collection agency calls &amp; field visits.</td>
-                      <td className="p-3 text-[#1886ff] font-semibold">Enforce RBI Fair Practices Code; document harassment incidents.</td>
+                      <td className="p-3">claims firm calls &amp. field visits.</td>
+                      <td className="p-3 text-[#1886ff] font-semibold">Enforce RBI Fair Practices Code. paper abuse incidents.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
-                      <td className="p-3 font-bold text-slate-900">Days 91–120</td>
+                      <td className="p-3 font-bold text-slate-900">Days 91. 120</td>
                       <td className="p-3">NPA Classification.</td>
                       <td className="p-3">Demand Recall Notice issued by bank.</td>
-                      <td className="p-3 text-[#1886ff] font-semibold">Engage legal debt resolution counsel to prepare hardship dossier.</td>
+                      <td className="p-3 text-[#1886ff] font-semibold">Engage legal debt relief counsel to prepare hardship dossier.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
-                      <td className="p-3 font-bold text-slate-900">Days 121–150</td>
-                      <td className="p-3">Pre-Litigation Stage.</td>
-                      <td className="p-3">Advocate Legal Notice / Arbitration Notice.</td>
+                      <td className="p-3 font-bold text-slate-900">Days 121. 150</td>
+                      <td className="p-3">Pre-lawsuits Stage.</td>
+                      <td className="p-3">lawyers Legal Notice / hearing Notice.</td>
                       <td className="p-3 text-[#1886ff] font-semibold">Dispatch formal legal reply disputing 42%+ penal APR within 15 days.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
-                      <td className="p-3 font-bold text-slate-900">Days 151–180</td>
-                      <td className="p-3">OTS Negotiation Window.</td>
-                      <td className="p-3">Litigation risk triggers compromise review.</td>
-                      <td className="p-3 text-[#1886ff] font-semibold">Secure written OTS letter with 40%–60% waiver &amp; obtain NDC.</td>
+                      <td className="p-3 font-bold text-slate-900">Days 151. 180</td>
+                      <td className="p-3">OTS talks Window.</td>
+                      <td className="p-3">lawsuits risk triggers OTS deal review.</td>
+                      <td className="p-3 text-[#1886ff] font-semibold">Secure written OTS letter with 40%. 60% waiver &amp. obtain NDC.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -731,9 +637,7 @@ export default function CreditCardLegalNoticeFormatClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 9. Specialized Scenarios: Multi-Card Debt, Layoffs &amp; ARC Assignments
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Legal notice response strategies must adapt to distinct financial, operational, and institutional situation:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Legal notice response plans must adapt to distinct money. Daily work. bank situation: </p>
 
               <div className="space-y-3 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -741,9 +645,7 @@ export default function CreditCardLegalNoticeFormatClient() {
                     <CreditCard className="w-4 h-4 text-[#1886ff]"/>
                     Multi-Card Rollover &amp; Cross-Lender Debt Defense
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Holding balances across multiple card issuers risks conflicting responses. A synchronized defense unifies replies, preventing creditor judgments while structuring phased settlements.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Holding balances across multiple card issuers risks conflicting responses. A synchronized defense unifies replies. Preventing lenders judgments while structuring phased deals. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -751,9 +653,7 @@ export default function CreditCardLegalNoticeFormatClient() {
                     <Briefcase className="w-4 h-4 text-[#1886ff]"/>
                     Sudden Executive Layoffs &amp; Loss of Livelihood
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Submitting documented employment termination notices establishes genuine hardship, prompting Credit Committees to sanction deep OTS waivers.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Submitting documented jobs termination notices establishes genuine hardship. Prompting Credit boards to sanction deep OTS waivers. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -761,9 +661,7 @@ export default function CreditCardLegalNoticeFormatClient() {
                     <AlertCircle className="w-4 h-4 text-[#1886ff]"/>
                     Unresolved Merchant Disputes &amp; Fraudulent Charges
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    For notices demanding payment on disputed chargebacks unaddressed under RBI Zero Liability Rules, the reply must formally contest liability and demand reversals.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> For notices demanding payment on disputed chargebacks unaddressed under RBI Zero debt risk Rules. The reply must formally contest debt risk and demand reversals. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -771,9 +669,7 @@ export default function CreditCardLegalNoticeFormatClient() {
                     <Building2 className="w-4 h-4 text-[#1886ff]"/>
                     Credit Card Portfolios Assigned to ARCs
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    When banks sell distressed card portfolios to ARCs at 15% to 25% of face value under SARFAESI Section 5, ARCs readily accept discounted compromise settlements.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> When banks sell distressed card portfolios to ARCs at 15% to 25% of face value under SARFAESI Section 5. ARCs readily accept discounted OTS deals. </p>
                 </div>
               </div>
             </section>
@@ -792,9 +688,7 @@ export default function CreditCardLegalNoticeFormatClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Frequently Asked Questions on Credit Card Legal Notices &amp; Replies
               </h2>
-              <p className="text-xs md:text-sm text-slate-600">
-                Click on any question below to view detailed legal answers verified by our debt resolution professionals:
-              </p>
+              <p className="text-xs md:text-sm text-slate-600"> Click on any question below to view detailed legal answers checked by our debt relief workers: </p>
 
               <div className="space-y-3 pt-2">
                 {faqs.map((faq, index) => {
@@ -822,21 +716,11 @@ export default function CreditCardLegalNoticeFormatClient() {
                 Official Regulatory Citations &amp; Judicial References
               </h2>
               <ul className="space-y-2 text-xs text-slate-600 leading-relaxed list-disc pl-5">
-                <li>
-                  <strong>RBI Master Directions:</strong> Credit Card Conduct Directions 2022 (Updated 2026).
-                </li>
-                <li>
-                  <strong>Indian Contract Act, 1872:</strong> Sections 73 &amp; 74 (Breach &amp; Usurious Penalties).
-                </li>
-                <li>
-                  <strong>Arbitration Act, 1996:</strong> Sections 11, 12(5) &amp; 21 (Unilateral Arbitrator Nullification).
-                </li>
-                <li>
-                  <strong>Supreme Court of India:</strong> <em>Perkins Eastman (2020).</em> &amp; <em>TRF Ltd. (2017)</em>.
-                </li>
-                <li>
-                  <strong>CICRA 2005:</strong> Section 21 (Mandatory Accurate Bureau Updates).
-                </li>
+                <li> <strong>RBI Master Directions:</strong> Credit Card Conduct Directions 2022 (Updated 2026). </li>
+                <li> <strong>Indian Contract Act. 1872:</strong> Sections 73 &amp. 74 (Breach &amp. Usurious Penalties). </li>
+                <li> <strong>hearing Act, 1996:</strong> Sections 11. 12(5) &amp. 21 (Unilateral judge Nullification). </li>
+                <li> <strong>Supreme Court of India:</strong> <em>Perkins Eastman (2020).</em> &amp. <em>TRF Ltd. (2017)</em>. </li>
+                <li> <strong>CICRA 2005:</strong> Section 21 (strict Accurate CIBIL desk Updates). </li>
               </ul>
 
               {/* 6 Outbound Authority Badges */}
@@ -923,14 +807,10 @@ export default function CreditCardLegalNoticeFormatClient() {
                   <Link href="/author/ashish-jhangra" className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional.
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief expert. </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Specialized in banking compliance, credit card dispute defense, unbundling usurious finance charges. Negotiating compromise settlements with Bank Nodal Officers across Indian forums.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> expert in banking compliance. Credit card claims defense. Unbundling usurious finance charges. settling OTS deals with Bank Nodal agents across Indian forums. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
                   <span>View Author Profile.</span>
@@ -948,12 +828,8 @@ export default function CreditCardLegalNoticeFormatClient() {
                 <span className="text-xs font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
                   100% CONFIDENTIAL LEGAL DEFENSE.
                 </span>
-                <p className="text-lg md:text-xl font-bold text-white leading-snug">
-                  Received a Credit Card Legal Notice?
-                </p>
-                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
-                  Our debt resolution experts draft authoritative legal replies, dispute inflated finance charges, stop recovery calls. Negotiate a 40% to 60% compromise waiver.
-                </p>
+                <p className="text-lg md:text-xl font-bold text-white leading-snug"> Received a Credit Card Legal Notice? </p>
+                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal"> Our debt relief experts draft authoritative legal replies. claims inflated finance charges. Stop claims calls. settle a 40% to 60% OTS deal waiver. </p>
               </div>
               <Link href="/contact" className="block w-full bg-white text-blue-900 hover:text-[#1886ff] py-3 px-4 rounded-full font-bold text-sm hover:bg-slate-50 transition-all shadow-md">
                 Received a Credit Card Legal Notice? Get Legal Defense
@@ -976,22 +852,10 @@ export default function CreditCardLegalNoticeFormatClient() {
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
               <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage.</p>
               <ul className="space-y-2 text-slate-600">
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Zero Upfront Risk:</strong> Success-linked fees.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Direct Bank Remittance:</strong> Zero middleman fund holding.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>RBI &amp; CICRA Compliance:</strong> 100% lawful dispute handling.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Pan-India Representation:</strong> Dedicated specialists.</span>
-                </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Zero Upfront Risk:</strong> Success-linked fees.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Direct Bank Remittance:</strong> Zero middleman fund holding.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>RBI &amp. CICRA Compliance:</strong> 100% lawful claims handling.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Pan-India legal help:</strong> Dedicated specialists.</span> </li>
               </ul>
             </div>
 
@@ -1000,23 +864,17 @@ export default function CreditCardLegalNoticeFormatClient() {
               <p className="font-bold text-slate-900 text-sm">Related Legal Guides.</p>
               <div className="space-y-2.5">
                 <Link href="/services/credit-card-settlement" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Credit Card Settlement Process.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Credit Card steps. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Full step-by-step negotiation blueprint &rarr;.</span>
                 </Link>
 
                 <Link href="/arbitration-notice-personal-loan-default" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Arbitration Notice Defense Strategy.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> hearing Notice Defense plan. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Section 12(5) Perkins Eastman guide &rarr;.</span>
                 </Link>
 
                 <Link href="/convert-settled-status-to-closed" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Convert Settled Card to Closed.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Convert Settled Card to Closed. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Credit bureau repair blueprint &rarr;.</span>
                 </Link>
               </div>

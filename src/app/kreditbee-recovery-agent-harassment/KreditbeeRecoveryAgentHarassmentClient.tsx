@@ -100,9 +100,7 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
             KreditBee Recovery Agent Harassment: Legal Complaint Guide
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed">
-            Are collection agents calling your relatives, scraping your contact list. Issuing unlawful threats for a defaulted KreditBee personal loan? Understand your statutory protections under Reserve Bank of India directions, lodge formal regulatory complaints. Secure an authorized compromise settlement.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> Are claims agents calling your relatives. Scraping your contact list. Issuing unlawful threats for a defaulted KreditBee private loans? Understand your legal protections under Reserve Bank of India directions. Lodge formal RBI reports. Secure an authorized OTS deals. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -145,9 +143,7 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>RBI Compliance Verified.</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Protected under RBI Digital Lending Directions, IT Act 2000 &amp; BNS 2023.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Protected under RBI online Lending Directions. IT Act 2000 &amp. BNS 2023. </p>
               </div>
             </div>
           </aside>
@@ -163,38 +159,14 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
               </div>
 
               <ul className="space-y-2 text-xs sm:text-sm text-slate-700 leading-relaxed">
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <span><strong>Regulated NBFC Governance:</strong> KreditBee loans operate under Krazybee Services Private Limited, bound by RBI master directions.</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <span><strong>No Third-Party Calling:</strong> Calling family or scraping contacts violates RBI Digital Lending Guidelines and the IT Act.</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <span><strong>Permissible Calling Hours:</strong> Recovery calls and home visits are legally restricted to 8:00 AM through 7:00 PM.</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <span><strong>Civil Dispute Immunity:</strong> Unsecured loan default is a civil matter; agents cannot threaten police arrests or warrants.</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <span><strong>Section 25 NACH Defense:</strong> Auto-debit bounce notices require timely 30-day legal replies establishing hardship.</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <span><strong>Asset Seizure Immunity:</strong> Unsecured digital credit carries no mortgage, barring property attachment under SARFAESI.</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <span><strong>Direct OTS Settlements:</strong> Accounts reaching NPA status qualify for compromise settlements at 40% to 55% of claims.</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <span><strong>3-Tier Escalation:</strong> Harassment is escalated to Krazybee GRO, the Principal Nodal Officer, and the RBI Ombudsman.</span>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <span><strong>Regulated NBFC Governance:</strong> KreditBee loans operate under Krazybee Services Private Limited. Bound by RBI master directions.</span> </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <span><strong>No Third-Party Calling:</strong> Calling kin or scraping contacts violates RBI online Lending rules and the IT Act.</span> </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <span><strong>Permissible Calling Hours:</strong> claims calls and home visits are by law restricted to 8:00 AM through 7:00 PM.</span> </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <span><strong>Civil claims Immunity:</strong> no-pledge loan default is a civil matter. agents cannot threaten police arrests or warrants.</span> </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <span><strong>Section 25 NACH Defense:</strong> Auto-debit bounce notices require timely 30-day legal replies establishing hardship.</span> </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <span><strong>Asset Seizure Immunity:</strong> no-pledge online credit carries no mortgage. Barring home attachment under SARFAESI.</span> </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <span><strong>Direct OTS deals:</strong> Accounts reaching NPA status qualify for OTS deals at 40% to 55% of claims.</span> </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <span><strong>3-Tier reports:</strong> abuse is escalated to Krazybee GRO. The main loan Nodal agents. And the RBI agents.</span> </li>
               </ul>
             </div>
 
@@ -209,13 +181,9 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
                 Digital Micro-Lending Economics &amp; Krazybee NPA Dynamics
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                KreditBee originates digital credit primarily through Krazybee Services Private Limited, an RBI-registered Systemically Important Non-Banking Financial Company (NBFC-ND-SI), alongside co-lending banks. When unforeseen hardships cause missed EMIs, accounts progress across Special Mention Account stages: SMA-0 (1 to 30 days), SMA-1 (31 to 60 days). SMA-2 (61 to 90 days).
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> KreditBee originates online credit primarily through Krazybee Services Private Limited. An RBI-registered Systemically key Non-Banking money firm (NBFC-ND-SI). Alongside joint loans banks. When unforeseen hardships cause missed EMIs. Accounts progress across Special Mention Account stages: SMA-0 (1 to 30 days). SMA-1 (31 to 60 days). SMA-2 (61 to 90 days). </p>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                Past 90 days, the debt becomes a Non-Performing Asset (NPA). Central banking prudential norms mandate Tier-1 capital provisioning against unsecured NPAs, creating strong commercial incentives for Krazybee to accept structured One-Time Settlements (OTS). Because digital personal loans are unsecured, lenders hold no mortgage rights under the SARFAESI Act, barring asset attachment without a civil court decree.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> Past 90 days. The debt becomes a Non-Performing Asset (NPA). Central banking prudential norms mandate Tier-1 cash bank reserves against no-pledge NPAs. Creating strong trade incentives for Krazybee to accept structured One-Time deals (OTS). Because online private loans are no-pledge. Lenders hold no mortgage rights under the SARFAESI Act. Barring asset attachment without a civil court decree. </p>
             </section>
 
             {/* Section 2: Financial Breakdown & Settlement Math */}
@@ -229,13 +197,9 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
                 Principal Isolation &amp; 180-Day NPA Settlement Mechanics
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                When an unsecured digital personal loan defaults, the outstanding ledger balance on the mobile application escalates steeply through compounding penal interest rates, daily bounce surcharges. Collection handling fees. In typical retail defaults, an initial released principal of ₹1,00,000 can rapidly inflate to over ₹1,65,000 within six months of non-payment. During institutional settlement negotiations, legal counsel isolates the genuine core principal released from these excessive penalty layers, creating an objective basis for compromise.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> When an no-pledge online private loans defaults. The unpaid ledger balance on the mobile application escalates steeply through growing extra fees rates. Daily bounce surcharges. claims handling fees. In typical retail defaults. An initial released main loan of ₹1,00,000 can rapidly inflate to over ₹1,65,000 within six months of non-payment. During bank talks. Legal counsel isolates the genuine core main loan released from these excessive penalty layers. Creating an objective basis for OTS deal. </p>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                When an account reaches 180 days past due, the loan is fully provisioned on the lender balance sheet. At this juncture, Krazybee routinely accepts compromise settlements between 40% and 55% of the total ledger claim, waiving accumulated penalties upon structured single or split-tranche remittance directly into the verified virtual account.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> When an account reaches 180 days past due. The loan is fully provisioned on the lender balance sheet. At this juncture. Krazybee routinely accepts OTS deals between 40% and 55% of the total ledger claim. Waiving total penalties upon structured single or split-tranche remittance straight into the checked virtual account. </p>
 
               {/* Financial Math Card */}
               <div className="rounded-2xl bg-gradient-to-br from-slate-900 via-slate-800 to-blue-950 text-white p-5 sm:p-6 md:p-7 shadow-md space-y-4">
@@ -246,11 +210,11 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
 
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
                   <div className="bg-white/5 rounded-xl p-3 border border-white/10">
-                    <p className="text-[11px] text-slate-400 font-medium">Original Principal.</p>
+                    <p className="text-[11px] text-slate-400 font-medium">Original main loan.</p>
                     <p className="text-base sm:text-lg font-black text-white mt-1">₹1,00,000</p>
                   </div>
                   <div className="bg-white/5 rounded-xl p-3 border border-white/10">
-                    <p className="text-[11px] text-slate-400 font-medium">Penal Interest &amp; Fees.</p>
+                    <p className="text-[11px] text-slate-400 font-medium">extra fees &amp. Fees.</p>
                     <p className="text-base sm:text-lg font-black text-rose-300 mt-1">₹65,000</p>
                   </div>
                   <div className="bg-white/5 rounded-xl p-3 border border-white/10">
@@ -263,9 +227,7 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
                   </div>
                 </div>
 
-                <p className="text-xs text-slate-300 leading-relaxed pt-2 border-t border-white/10">
-                  Executing an authorized compromise settlement eliminates all residual liabilities, halts third-party collection calls permanently. Secures an official No Dues Certificate directly from Krazybee Services Private Limited.
-                </p>
+                <p className="text-xs text-slate-300 leading-relaxed pt-2 border-t border-white/10"> Executing an authorized OTS deals eliminates all residual debts. Halts third-party claims calls permanently. Secures an formal No Dues letter straight from Krazybee Services Private Limited. </p>
               </div>
             </section>
 
@@ -280,9 +242,7 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
                 Resolution Pathways Comparison Matrix
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                Evaluating different dispute resolution options allows overdue borrowers to compare financial dues, collection harassment outcomes, credit bureau repercussions. Legal finality before committing resources.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> Evaluating different claims relief options allows late clients to compare money dues. Claims abuse outcomes. CIBIL desk repercussions. Legal finality before committing resources. </p>
 
               {/* 4-Sided Bordered Comparison Table */}
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs">
@@ -298,37 +258,37 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-700">
                     <tr className="hover:bg-blue-50/30 transition-colors">
-                      <td className="p-3.5 sm:p-4 font-bold text-slate-900">One-Time Settlement (OTS).</td>
+                      <td className="p-3.5 sm:p-4 font-bold text-slate-900">One-Time settlement (OTS).</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200/80 text-emerald-700 font-semibold">40% to 55% of claim.</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Immediate upon sanction.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">fast upon sanction.</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Marked as Settled.</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Complete with NDC.</td>
                     </tr>
                     <tr className="hover:bg-blue-50/30 transition-colors">
                       <td className="p-3.5 sm:p-4 font-bold text-slate-900">Loan Restructuring.</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">100% principal + interest.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">100% main loan + rates.</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Temporary relief.</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Marked Restructured.</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Ongoing debt debt.</td>
                     </tr>
                     <tr className="hover:bg-blue-50/30 transition-colors">
-                      <td className="p-3.5 sm:p-4 font-bold text-slate-900">Lok Adalat Settlement.</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">45% to 60% compromise.</td>
+                      <td className="p-3.5 sm:p-4 font-bold text-slate-900">Lok Adalat settlement.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">45% to 60% OTS deal.</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Permanent post-award.</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Reported as Settled.</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Non-appealable decree.</td>
                     </tr>
                     <tr className="hover:bg-blue-50/30 transition-colors">
-                      <td className="p-3.5 sm:p-4 font-bold text-slate-900">Court Litigation.</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">High legal &amp; court fees.</td>
+                      <td className="p-3.5 sm:p-4 font-bold text-slate-900">Court lawsuits.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">High legal &amp. court fees.</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Requires court stay.</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Marked Suit Filed.</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Prolonged judicial battle.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Prolonged court battle.</td>
                     </tr>
                     <tr className="hover:bg-blue-50/30 transition-colors">
                       <td className="p-3.5 sm:p-4 font-bold text-slate-900">Inaction / Ignoring.</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Escalating penalties.</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Intense collection calls.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Intense claims calls.</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Written-Off / Default.</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Ongoing legal exposure.</td>
                     </tr>
@@ -348,13 +308,9 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
                 Credit Scoring Mechanics &amp; Post-Settlement Rectification
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                The TransUnion CIBIL credit scoring algorithm operates across five weighted pillars: repayment track record accounts for 35%, credit use ratio represents 30%, credit history vintage comprises 15%, the portfolio mix of secured versus unsecured credit makes up 10%. Recent credit inquiries constitute 10%. Defaulting beyond 90 days severely damages the 35% repayment weighting, causing an acute drop of 120 to 180 points.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> The TransUnion CIBIL credit scoring algorithm operates across five weighted pillars: payment track record accounts for 35%. Credit use ratio represents 30%. Credit history vintage comprises 15%. The portfolio mix of secured versus no-pledge credit makes up 10%. Recent credit inquiries constitute 10%. Defaulting beyond 90 days severely damages the 35% payment weighting. This causes an acute drop of 120 to 180 points. </p>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                Executing a formal OTS marks the trade line as Settled, immediately capping further DPD reporting. Borrowers can then use Section 21 of the Credit Information Companies (Regulation) Act (CICRA 2005) or clear the waived balance to convert the account from Settled to Closed, rebuilding a 750+ score within 12 to 18 months through disciplined secured credit cards.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> Executing a formal OTS marks the trade line as Settled. Promptly capping further DPD reporting. Clients can then use Section 21 of the Credit Information firms (Regulation) Act (CICRA 2005) or clear the waived balance to convert the account from Settled to Closed. Rebuilding a 750+ score within 12 to 18 months through disciplined secured credit cards. </p>
             </section>
 
             {/* Section 5: Visual Infographic Asset Card */}
@@ -368,9 +324,7 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
                 Step-by-Step KreditBee Harassment Defense Workflow
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                Our visual roadmap outlines the core stages to stop unlawful collection harassment, enforce RBI Digital Lending Guidelines against Krazybee Services. Achieve an authorized compromise settlement.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> Our visual roadmap outlines the core stages to stop unlawful claims abuse. Enforce RBI online Lending rules against Krazybee Services. Achieve an authorized OTS deals. </p>
 
               {/* Infographic Image Container */}
               <div className="relative rounded-2xl overflow-hidden border border-slate-200/80 shadow-md bg-slate-950">
@@ -395,9 +349,7 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
                 Standard Operating Procedure for Digital Loan Resolution
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                Resolving digital debt disputes requires a systematic, evidence-driven approach combining digital paperwork with statutory legal representation.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> Resolving online debt claims requires a systematic. Proof-driven approach combining online paperwork with legal legal legal help. </p>
 
               <div className="space-y-4">
                 <div className="p-4 sm:p-5 rounded-2xl bg-slate-50 border border-slate-200/80 space-y-2">
@@ -405,9 +357,7 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center font-black">1</span>
                     <span>Stage 1: Evidence Audit.</span>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                    Record threatening calls, screenshot chat messages, and demand official credentials from recovery personnel to establish an evidentiary record.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> Record threatening calls. Screenshot chat messages. And demand formal credentials from claims personnel to establish an evidentiary record. </p>
                 </div>
 
                 <div className="p-4 sm:p-5 rounded-2xl bg-slate-50 border border-slate-200/80 space-y-2">
@@ -415,9 +365,7 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center font-black">2</span>
                     <span>Stage 2: Hardship Dossier.</span>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                    Organize financial hardship evidence including termination letters, medical summaries, or business statements to show inability to pay.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> Organize hardship proof including termination letters. health summaries. Or trade records to show inability to pay. </p>
                 </div>
 
                 <div className="p-4 sm:p-5 rounded-2xl bg-slate-50 border border-slate-200/80 space-y-2">
@@ -425,9 +373,7 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center font-black">3</span>
                     <span>Stage 3: Legal Representation.</span>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                    Serve a formal legal notice to Krazybee Services citing RBI Digital Lending Guidelines, notifying management of collection infractions.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> Serve a formal legal notice to Krazybee Services citing RBI online Lending rules. Notifying handling of claims infractions. </p>
                 </div>
 
                 <div className="p-4 sm:p-5 rounded-2xl bg-slate-50 border border-slate-200/80 space-y-2">
@@ -435,9 +381,7 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center font-black">4</span>
                     <span>Stage 4: Settlement Talks.</span>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                    Engage the NBFC nodal desk directly to eliminate accumulated penal interest, negotiating a final compromise settlement between 40% and 55%.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> Engage the NBFC nodal desk straight to eliminate total extra fees. Settling a final OTS deals between 40% and 55%. </p>
                 </div>
 
                 <div className="p-4 sm:p-5 rounded-2xl bg-slate-50 border border-slate-200/80 space-y-2">
@@ -445,9 +389,7 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center font-black">5</span>
                     <span>Stage 5: Sanction Letter Vetting.</span>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                    Verify that the sanction letter is on official Krazybee letterhead, accurately states terms. Confirms full waiver upon payment.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> Verify that the sanction letter is on formal Krazybee letterhead. Accurately states terms. Confirms full waiver upon payment. </p>
                 </div>
 
                 <div className="p-4 sm:p-5 rounded-2xl bg-slate-50 border border-slate-200/80 space-y-2">
@@ -455,9 +397,7 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center font-black">6</span>
                     <span>Stage 6: Remittance &amp; NDC.</span>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                    pay the settlement amount directly into Krazybee verified virtual accounts, then obtain an unconditional No Dues Certificate.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> pay the payout sum straight into Krazybee checked virtual accounts. Then obtain an full No Dues letter. </p>
                 </div>
               </div>
             </section>
@@ -473,9 +413,7 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
                 Analytical Framework for Statutory Notice Defense
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                Understanding the statutory framework governing digital personal loans protects borrowers from unlawful legal intimidation and enables structured legal defense.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> Understanding the legal rules governing online private loans protects clients from unlawful legal threats and enables structured legal defense. </p>
 
               {/* 4-Card Analytical Defense Grid */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -484,9 +422,7 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
                     <FileText className="w-4 h-4 text-[#1886ff]"/>
                     <span>Section 25 PSSA 2007 (NACH Bounce).</span>
                   </div>
-                  <p className="text-xs text-slate-700 leading-relaxed">
-                    Governs electronic auto-debit dishonours. Establishing genuine financial hardship in a timely statutory reply refutes criminal intent, preventing prosecution and helping compromise settlement.
-                  </p>
+                  <p className="text-xs text-slate-700 leading-relaxed"> Governs electronic auto-debit dishonours. Establishing genuine hardship in a timely legal reply refutes penal intent. Preventing legal steps and helping OTS deals. </p>
                 </div>
 
                 <div className="p-5 rounded-2xl bg-slate-50 border border-slate-200/80 space-y-2">
@@ -494,9 +430,7 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
                     <Gavel className="w-4 h-4 text-[#1886ff]"/>
                     <span>Section 138 NI Act 1881 Limitations.</span>
                   </div>
-                  <p className="text-xs text-slate-700 leading-relaxed">
-                    Applies strictly to physical cheque dishonours. Purely digital loan repayments through NACH mandates cannot be prosecuted under Section 138 without a physical signed cheque instrument.
-                  </p>
+                  <p className="text-xs text-slate-700 leading-relaxed"> Applies strictly to physical cheque dishonours. Purely app loans payments through NACH mandates cannot be prosecuted under Section 138 without a physical signed cheque instrument. </p>
                 </div>
 
                 <div className="p-5 rounded-2xl bg-slate-50 border border-slate-200/80 space-y-2">
@@ -504,9 +438,7 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
                     <Scale className="w-4 h-4 text-[#1886ff]"/>
                     <span>Arbitration Section 21 &amp; Supreme Court Rulings.</span>
                   </div>
-                  <p className="text-xs text-slate-700 leading-relaxed">
-                    Unilateral sole arbitrator appointments by digital lenders are legally invalid under Supreme Court precedents in. <em>Perkins Eastman</em> and <em>TRF Limited</em>, nullifying ex parte awards.
-                  </p>
+                  <p className="text-xs text-slate-700 leading-relaxed"> Unilateral sole judge appointments by online lenders are by law invalid under Supreme Court rulings in. <em>Perkins Eastman</em> and <em>TRF Limited</em>Nullifying ex parte awards. </p>
                 </div>
 
                 <div className="p-5 rounded-2xl bg-slate-50 border border-slate-200/80 space-y-2">
@@ -514,9 +446,7 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
                     <Landmark className="w-4 h-4 text-[#1886ff]"/>
                     <span>DRT Jurisdiction &amp; Fair Practices Code.</span>
                   </div>
-                  <p className="text-xs text-slate-700 leading-relaxed">
-                    Debt Recovery Tribunals require claims over ₹20 Lakhs. Retail digital loans below this threshold are exempt from DRT action and governed strictly by RBI Fair Practices Code limits.
-                  </p>
+                  <p className="text-xs text-slate-700 leading-relaxed"> Debt claims Tribunals require claims over ₹20 Lakhs. Retail app loans below this threshold are exempt from DRT action and governed strictly by RBI Fair Practices Code limits. </p>
                 </div>
               </div>
             </section>
@@ -532,33 +462,25 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
                 Hierarchical Redressal for Recovery Harassment
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                When collection agencies violate RBI conduct directions, lodge structured complaints across regulatory oversight tiers.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> When claims firms violate RBI conduct directions. Lodge structured reports across RBI oversight tiers. </p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div className="p-4 sm:p-5 rounded-2xl bg-slate-50 border border-slate-200/80 space-y-2">
                   <div className="text-xs font-extrabold text-[#1886ff] uppercase">Level 1: Krazybee GRO.</div>
                   <h3 className="font-bold text-slate-900 text-sm">Grievance Redressal Officer</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Submit a written complaint with call recordings and chat screenshots. The GRO must acknowledge within 48 hours and resolve within 7 to 10 days.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Submit a written reports with call recordings and chat screenshots. The GRO must acknowledge within 48 hours and resolve within 7 to 10 days. </p>
                 </div>
 
                 <div className="p-4 sm:p-5 rounded-2xl bg-slate-50 border border-slate-200/80 space-y-2">
                   <div className="text-xs font-extrabold text-[#1886ff] uppercase">Level 2: Principal Nodal Officer.</div>
                   <h3 className="font-bold text-slate-900 text-sm">Executive Nodal Desk</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    If Level 1 is unresolved, escalate to the Principal Nodal Officer of Krazybee Services to restrain third-party agencies within 14 to 21 days.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> If Level 1 is unresolved. Escalate to the main loan Nodal agents of Krazybee Services to restrain third-party firms within 14 to 21 days. </p>
                 </div>
 
                 <div className="p-4 sm:p-5 rounded-2xl bg-slate-50 border border-slate-200/80 space-y-2">
                   <div className="text-xs font-extrabold text-[#1886ff] uppercase">Level 3: RBI Ombudsman.</div>
                   <h3 className="font-bold text-slate-900 text-sm">Central Banking Portal</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    If unresolved after 30 days, file an appeal on the RBI Integrated Ombudsman portal (cms.rbi.org.in) for regulatory penalties and statutory relief.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> If unresolved after 30 days. File an appeal on the RBI Integrated agents portal (cms.rbi.org.in) for RBI penalties and legal relief. </p>
                 </div>
               </div>
             </section>
@@ -574,9 +496,7 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
                 Delinquency to Settlement Timeline
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                Tracking procedural progression helps anticipate lender collections and initiate compromise negotiations during optimal windows.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> Tracking procedural progression helps anticipate lender calls and initiate OTS deal talks during optimal windows. </p>
 
               {/* 4-Sided Bordered Timeline Table */}
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs">
@@ -593,32 +513,32 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
                     <tr className="hover:bg-blue-50/30 transition-colors">
                       <td className="p-3.5 sm:p-4 font-bold text-slate-900">Day 1 to 30</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200/80">SMA-0 Stage</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Automated SMS &amp; IVR reminders.</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Log calls, evaluate liquidity.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Automated SMS &amp. IVR reminders.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Log calls. Evaluate liquidity.</td>
                     </tr>
                     <tr className="hover:bg-blue-50/30 transition-colors">
                       <td className="p-3.5 sm:p-4 font-bold text-slate-900">Day 31 to 60</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200/80">SMA-1 Stage</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Tele-calling &amp; NACH notice reminders.</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Submit written hardship notification.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Tele-calling &amp. NACH notice reminders.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Submit written hardship notice.</td>
                     </tr>
                     <tr className="hover:bg-blue-50/30 transition-colors">
                       <td className="p-3.5 sm:p-4 font-bold text-slate-900">Day 61 to 90</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200/80">SMA-2 Stage</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Third-party agency assignment.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Third-party firm assignment.</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Demand agent ID and assert RBI rules.</td>
                     </tr>
                     <tr className="hover:bg-blue-50/30 transition-colors">
                       <td className="p-3.5 sm:p-4 font-bold text-slate-900">Day 91 to 180</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200/80">NPA Status</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Mandatory 100% loss provisioning.</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Open OTS negotiations at 40%-55%.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">strict 100% loss bank reserves.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Open OTS talks at 40%-55%.</td>
                     </tr>
                     <tr className="hover:bg-blue-50/30 transition-colors">
                       <td className="p-3.5 sm:p-4 font-bold text-slate-900">Month 6 Onward</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Loss Pool</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200/80">ARC assignment consideration.</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Finalize settlement &amp; obtain NDC.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Finalize settlement &amp. obtain NDC.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -636,37 +556,27 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
                 Practical Resolution for Complex Dispute Cases
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                Tailored legal solutions insulate personal privacy and resolve complex digital lending disputes effectively.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> Tailored legal solutions insulate private rights and resolve complex online lending claims effectively. </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="p-5 rounded-2xl bg-slate-50 border border-slate-200/80 space-y-2">
                   <h3 className="font-bold text-slate-900 text-sm">Contact Scraping &amp; Relative Calling</h3>
-                  <p className="text-xs text-slate-700 leading-relaxed">
-                    When recovery agents call non-guarantor family members, issue an immediate cease-and-desist letter citing RBI Digital Lending Guidelines and file an IT Act Section 66E privacy complaint.
-                  </p>
+                  <p className="text-xs text-slate-700 leading-relaxed"> When claims agents call non-guarantor kin. Issue an fast cease-and-desist letter citing RBI online Lending rules and file an IT Act Section 66E rights reports. </p>
                 </div>
 
                 <div className="p-5 rounded-2xl bg-slate-50 border border-slate-200/80 space-y-2">
                   <h3 className="font-bold text-slate-900 text-sm">WhatsApp Group Defamation</h3>
-                  <p className="text-xs text-slate-700 leading-relaxed">
-                    If agents create WhatsApp groups to defame you, capture full screenshots. This constitutes criminal intimidation and public defamation under Section 356(2) of the Bharatiya Nyaya Sanhita 2023.
-                  </p>
+                  <p className="text-xs text-slate-700 leading-relaxed"> If agents create WhatsApp groups to defame you. Capture full screenshots. This constitutes penal threats and public defamation under Section 356(2) of the Bharatiya Nyaya Sanhita 2023. </p>
                 </div>
 
                 <div className="p-5 rounded-2xl bg-slate-50 border border-slate-200/80 space-y-2">
                   <h3 className="font-bold text-slate-900 text-sm">Corporate Layoffs &amp; Income Loss</h3>
-                  <p className="text-xs text-slate-700 leading-relaxed">
-                    Submit termination letters to Krazybee before the 90-day mark. This establishes genuine good faith, refutes fraud claims, and forms the basis for a deep-compromise OTS.
-                  </p>
+                  <p className="text-xs text-slate-700 leading-relaxed"> Submit termination letters to Krazybee before the 90-day mark. This establishes genuine good faith. Refutes fraud claims. And forms the basis for a deep-OTS deal OTS. </p>
                 </div>
 
                 <div className="p-5 rounded-2xl bg-slate-50 border border-slate-200/80 space-y-2">
                   <h3 className="font-bold text-slate-900 text-sm">Multi-App Debt Consolidation</h3>
-                  <p className="text-xs text-slate-700 leading-relaxed">
-                    Borrowers with multiple micro-loan defaults should consolidate disputes under legal counsel, enforce uniform RBI conduct rules. Negotiate sequential compromise settlements.
-                  </p>
+                  <p className="text-xs text-slate-700 leading-relaxed"> clients with multiple micro-loan defaults should consolidate claims under legal counsel. Enforce uniform RBI conduct rules. settle sequential OTS deals. </p>
                 </div>
               </div>
             </section>
@@ -687,9 +597,7 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
                 Authoritative Legal Answers on KreditBee Recovery &amp; Settlement
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                Review verified answers to essential legal questions regarding digital loan recovery, RBI guidelines, and debt settlement.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> Review checked answers to essential legal questions regarding app loans claims. RBI rules. debt settlement. </p>
 
               <div className="space-y-3">
                 {faqs.map((faq, index) => {
@@ -718,9 +626,7 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
                 Regulatory Frameworks &amp; Outbound Verification Links
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                All legal protections and settlement standards detailed here are anchored in central banking directions and statutory Indian enactments.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> All legal protections and settlement standards detailed here are anchored in central banking directions and legal Indian enactments. </p>
 
               {/* 6 Outbound Authority Badges */}
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 text-xs">
@@ -826,12 +732,10 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
                 </div>
                 <div>
                   <p className="font-bold text-slate-900 text-sm sm:text-base">Ashish Jhangra</p>
-                  <p className="text-xs text-slate-500 font-medium">Legal &amp; Debt Resolution Professional.</p>
+                  <p className="text-xs text-slate-500 font-medium">Legal &amp. Debt relief expert.</p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
-                Specialist in digital lending dispute defense, RBI Fair Practices Code enforcement, and institutional NPA compromise settlements.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed border-t border-slate-100 pt-3"> Specialist in online lending claims defense. RBI Fair Practices Code enforcement. And bank NPA OTS deals. </p>
             </div>
 
             {/* Card 2: Emergency CTA Card (#2452ae Background) */}
@@ -840,12 +744,8 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
                 <Lock className="w-3 h-3 text-white"/>
                 <span>100% Confidential Support.</span>
               </div>
-              <p className="text-lg sm:text-xl font-black leading-tight">
-                Facing Harassment From KreditBee Agents?
-              </p>
-              <p className="text-xs text-white/90 leading-relaxed">
-                Halt relative calling, cyber threats, and illegal collection visits today with institutional legal representation and RBI grievance filing.
-              </p>
+              <p className="text-lg sm:text-xl font-black leading-tight"> Facing abuse From KreditBee Agents? </p>
+              <p className="text-xs text-white/90 leading-relaxed"> Halt relative calling. Cyber threats. And banned claims visits today with bank legal legal help and RBI grievance filing. </p>
               <Link href="/contact" className="w-full py-3 bg-white text-blue-900 hover:text-[#1886ff] hover:bg-slate-50 rounded-xl font-extrabold text-xs sm:text-sm text-center block transition-all shadow-sm">
                 Stop Recovery Harassment Now
               </Link>
@@ -861,22 +761,10 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs text-slate-600">
               <p className="font-bold text-slate-900 text-sm">CredSettle Trust Commitments.</p>
               <ul className="space-y-2.5">
-                <li className="flex items-start gap-2">
-                  <Check className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Zero Upfront Risk:</strong> 100% transparent legal consultation and dispute evaluation.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Direct NBFC Remittance:</strong> No middleman accounts; direct settlement with Krazybee.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>RBI Compliance:</strong> Direct enforcement of central banking directions.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Pan-India Advocacy:</strong> Dedicated digital loan settlement specialists.</span>
-                </li>
+                <li className="flex items-start gap-2"> <Check className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Zero Upfront Risk:</strong> 100% transparent legal call and claims evaluation.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Direct NBFC Remittance:</strong> No middleman accounts. direct settlement with Krazybee.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>RBI Compliance:</strong> Direct enforcement of central banking directions.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Pan-India Advocacy:</strong> Dedicated app loans settlement specialists.</span> </li>
               </ul>
             </div>
 
@@ -885,23 +773,17 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
               <p className="font-bold text-slate-900 text-sm">Related Legal Guides.</p>
               <div className="space-y-2.5">
                 <Link href="/stop-recovery-agent-harassment" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Stop Recovery Agent Harassment.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Stop claims Agent abuse. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Legal rights &amp; protection roadmap &rarr;.</span>
                 </Link>
 
                 <Link href="/rbi-rules-for-recovery-agents" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    RBI Recovery Agent Guidelines.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> RBI claims Agent rules. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Timings, conduct &amp; restrictions &rarr;.</span>
                 </Link>
 
                 <Link href="/ecs-nach-bounce-legal-notice-section-25" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Section 25 NACH Notice Defense.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Section 25 NACH Notice Defense. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Auto-debit failure legal remedies &rarr;.</span>
                 </Link>
               </div>

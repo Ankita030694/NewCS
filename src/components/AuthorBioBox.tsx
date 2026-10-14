@@ -40,7 +40,7 @@ export default function AuthorBioBox({ className = "" }: AuthorBioBoxProps) {
           <a
             href="https://www.linkedin.com/in/ashish-jhangra-ab1a54127/"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
             className="text-[#D2A02A] hover:text-[#b88a22] flex items-center gap-1 transition-colors"
           >
             LinkedIn Profile →

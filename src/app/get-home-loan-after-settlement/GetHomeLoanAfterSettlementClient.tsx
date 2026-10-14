@@ -46,7 +46,7 @@ export default function GetHomeLoanAfterSettlementClient() {
     const faqs = [
         {
             q: 'Can I get a home loan after settling a personal loan or credit card in India?',
-            a: "Yes, you can secure a home loan after debt settlement. Because home loans are fully secured against immovable property collateral (under SARFAESI Act 2002 mortgage architecture), lending risk is fundamentally lower than unsecured loans. While automated underwriting at prime commercial banks may initially reject automated applications, Housing Finance Companies (HFCs) and specialized NBFCs conduct manual credit underwriting, evaluating current debt-servicing capability, property valuation, equity down payment. Co-applicant financials."
+            a: "Yes. You can secure a home loan after debt settlement. Because home loans are fully secured against immovable property security (under SARFAESI Act 2002 mortgage architecture). Lending risk is fundamentally lower than no-pledge loans. While automated underwriting at prime banks may initially reject automated applications. Housing Finance Companies (HFCs) and specialized NBFCs conduct manual credit underwriting. Evaluating current debt-servicing skill. Property valuation. Equity down payment. Co-applicant financials."
         },
         {
             q: 'Does a "Settled" status on CIBIL permanently block SBI or public sector home loans?',
@@ -54,35 +54,35 @@ export default function GetHomeLoanAfterSettlementClient() {
         },
         {
             q: 'How do Housing Finance Companies (HFCs) evaluate post-settlement mortgage applications?',
-            a: "HFCs (such as LIC Housing Finance, PNB Housing, Tata Capital, Can Fin Homes. Piramal) use manual credit appraisal rather than rigid binary algorithmic filters. HFC underwriters inspect the root cause of historical default (e.g., job loss, medical emergency), verify that the No Dues Certificate (NDC) is genuine, analyze 12 months of clean bank statements. Evaluate the marketability and legal title of the collateral property."
+            a: "HFCs (such as LIC Housing Finance. PNB Housing. Tata cash. Can Fin Homes. Piramal) use manual credit appraisal rather than rigid binary algorithmic filters. HFC underwriters inspect the root cause of historical default (e.g. Job loss. Medical emergency). Verify that the No Dues letter (NDC) is genuine. Analyze 12 months of clean bank records. Evaluate the marketability and legal title of the security property."
         },
         {
             q: 'What is the impact of adding a creditworthy co-applicant on home loan approval?',
-            a: "Adding a creditworthy co-applicant (such as an earning spouse, parent. Sibling with a CIBIL score of 750+ and stable income) dramatically increases home loan approval odds. Under RBI and NHB guidelines, lenders pool joint household incomes, reducing the overall portfolio risk and allowing the primary borrower to bypass individual algorithmic credit scoring hurdles."
+            a: "Adding a creditworthy co-applicant (such as an earning spouse. Parent. Sibling with a CIBIL score of 750+ and stable income) dramatically increases home loan approval odds. Under RBI and NHB rules. Lenders pool joint household incomes. Reducing the overall portfolio risk and allowing the primary client to bypass individual algorithmic credit scoring hurdles."
         },
         {
             q: 'How does Loan-to-Value (LTV) and higher down payment influence post-settlement mortgage sanctions?',
-            a: "Offering a higher down payment (30% to 40% equity contribution) lowers the lender's Loan-to-Value (LTV) ratio to 60%\u201370%, well below the regulatory ceiling of 75%\u201380%. A lower LTV provides the mortgage lender with large safety margin and foreclosure cushion, motivating risk committees to approve home loans even with historical settlement flags."
+            a: "Offering a higher down payment (30% to 40% equity contribution) lowers the lender's Loan-to-Value (LTV) ratio to 60%\u201370%. Well below the RBI ceiling of 75%\u201380%. A lower LTV provides the mortgage lender with large safety margin and foreclosure cushion. Motivating risk boards to approve home loans even with historical settlement flags."
         },
         {
             q: "How does Fixed debt to Income Ratio (FOIR) affect home loan eligibility after debt settlement?",
-            a: "FOIR measures the proportion of your net monthly income committed to servicing existing debt dues. Post-settlement mortgage underwriters mandate a conservative FOIR between 35% and 45% (including the prospective home loan EMI). Borrowers must eliminate all active short-term micro-loans and credit card balances before applying to present maximum unencumbered cash flow."
+            a: "FOIR measures the proportion of your net monthly income committed to servicing existing debt dues. Post-settlement mortgage underwriters mandate a conservative FOIR between 35% and 45% (including the prospective home loan EMI). clients must eliminate all active short-term micro-loans and credit card balances before applying to present maximum unencumbered cash flow."
         },
         {
             q: 'Should I convert my "Settled" status to "Closed" before applying for a housing loan?',
-            a: 'Converting a "Settled" tag to "Closed" by paying the historical waived principal differential to the original lender is the most decisive strategy for prime home loan eligibility. Once the lender issues an unconditional NDC and updates CIBIL to "Closed", automated loan origination systems (LOS) treat the account as fully satisfied, unlocking lower interest rates (saving lakhs over a 20-year loan tenure).'
+            a: 'Converting a "Settled" tag to "Closed" by paying the historical waived main loan differential to the original lender is the most decisive plan for prime home loan eligibility. Once the lender issues an full NDC and updates CIBIL to "Closed". Automated loan origination systems (LOS) treat the account as fully satisfied. Unlocking lower interest rates (saving lakhs over a 20-year loan tenure).'
         },
         {
             q: 'What is the mandatory cooling-off period required after settlement before seeking a mortgage?',
-            a: 'A minimum cooling-off period of 6 to 12 months post-NDC is recommended before applying for a home loan. This timeframe allows the ₹0 balance to stabilize across all four credit bureaus (CIBIL, Experian, Equifax, CRIF High Mark) and provides sufficient runway to establish 6–12 months of spotless repayment on new secured credit products.'
+            a: 'A minimum cooling-off period of 6 to 12 months post-NDC is recommended before applying for a home loan. This timeframe allows the ₹0 balance to stabilize across all four credit bureaus (CIBIL. Experian. Equifax. CRIF High Mark) and provides sufficient runway to establish 6. 12 months of spotless payment on new secured credit products.'
         },
         {
             q: 'Which specific documents must be submitted to prove post-settlement creditworthiness to mortgage underwriters?',
-            a: "Borrowers must compile a comprehensive credit file containing: (1) Original No Dues Certificate (NDC) and OTS sanction letter, (2) 12 to 24 months of continuous bank statements showing zero EMI bounces or inward cheque returns, (3) 3 years of audited ITRs/Form 16 with computation of income, (4) Title deeds and approved municipal sanctions of the collateral property. (5) A formal reducing representation letter explaining the situation of the past settlement."
+            a: "Clients must compile a full credit file containing: (1) Original No Dues letter (NDC) and OTS sanction letter. (2) 12 to 24 months of steady bank records showing zero EMI bounces or inward cheque returns. (3) 3 years of audited ITRs/Form 16 with computation of income. (4) Title deeds and approved municipal sanctions of the security property. (5) A formal reducing legal help letter explaining the situation of the past settlement."
         },
         {
             q: 'What legal recourse exists if an HFC or bank rejects an application without examining current financial viability?',
-            a: 'Under the RBI Fair Practices Code and National Housing Bank (NHB) Directions, lenders must provide written, cogent reasons for mortgage rejection upon request. If a lender improperly rejects an application based on inaccurate or outdated bureau records despite valid NDC submission, borrowers can lodge a formal grievance with the Bank Principal Nodal Officer (PNO) and escalate to the RBI Integrated Ombudsman portal (cms.rbi.org.in) or NHB GRIDS.'
+            a: 'Under the RBI Fair Practices Code and National Housing Bank (NHB) Directions. Lenders must provide written. Cogent reasons for mortgage rejection upon request. If a lender improperly rejects an application based on inaccurate or outdated bureau records despite valid NDC submission. Clients can lodge a formal grievance with the Bank main loan Nodal Officer (PNO) and escalate to the RBI Integrated Ombudsman portal (cms.rbi.org.in) or NHB GRIDS.'
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -97,9 +97,7 @@ export default function GetHomeLoanAfterSettlementClient() {
           </h1>
 
           {/* Subtitle */}
-          <p className="text-base sm:text-lg md:text-2xl mb-8 max-w-3xl mx-auto font-normal md:font-medium text-white/95 leading-relaxed">
-            A settled personal loan can make getting a mortgage difficult, but not impossible. Discover how to secure a home loan despite a past debt settlement.
-          </p>
+          <p className="text-base sm:text-lg md:text-2xl mb-8 max-w-3xl mx-auto font-normal md:font-medium text-white/95 leading-relaxed"> A settled private loans can make getting a mortgage difficult. But not impossible. Discover how to secure a home loan despite a past debt settlement. </p>
 
           {/* Single Pill-Shaped White CTA Button */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -142,9 +140,7 @@ export default function GetHomeLoanAfterSettlementClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>Mortgage Underwriting Blueprint.</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Compliant with RBI Master Directions on Housing Finance &amp; National Housing Bank (NHB) Guidelines 2026.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Compliant with RBI Master Directions on Housing Finance &amp. National Housing Bank (NHB) rules 2026. </p>
               </div>
             </div>
           </aside>
@@ -160,33 +156,14 @@ export default function GetHomeLoanAfterSettlementClient() {
               </div>
 
               <div className="text-xs sm:text-sm text-slate-700 leading-relaxed space-y-3">
-                <p>
-                  Executing a One-Time Settlement (OTS) on an unsecured personal loan or credit card provides essential debt relief, halting collection litigation and freezing compounding penal interest. However, when the lending institution reports the compromise as &quot;Settled&quot. Or &quot;Post-Write-off Settled&quot. Across TransUnion CIBIL, Equifax, Experian. CRIF High Mark, automated Loan Origination Systems (LOS) at prime commercial banks automatically red-flag the borrower.
-                </p>
-                <p>
-                  Securing a home loan post-settlement is entirely achievable because housing finance is fundamentally governed by. <strong>secured collateral underwriting.</strong> under the SARFAESI Act, 2002. By transitioning away from rigid algorithmic bank filters toward manual appraisal Housing Finance Companies (HFCs), compressing your Fixed debt to Income Ratio (FOIR). This provides a 30%–40% equity down payment. Executing a differential payoff to upgrade your credit tag to &quot;Closed&quot;, you can successfully secure long-term mortgage sanctions at competitive interest rates.
-                </p>
+                <p> Executing a One-Time Settlement (OTS) on an no-pledge private loans or credit card provides essential debt relief. Halting claims lawsuits and freezing compounding penal interest. However. When the lending institution reports the OTS deal as &quot. Settled&quot. Or &quot. Post-Write-off Settled&quot. Across TransUnion CIBIL, Equifax, Experian. CRIF High Mark. Automated Loan Origination Systems (LOS) at prime banks automatically red-flag the client. </p>
+                <p> Securing a home loan post-settlement is entirely achievable because housing finance is fundamentally governed by. <strong>secured security underwriting.</strong> under the SARFAESI Act, 2002. By transitioning away from rigid algorithmic bank filters toward manual appraisal Housing Finance Companies (HFCs). Compressing your Fixed debt to Income Ratio (FOIR). This provides a 30%. 40% equity down payment. Executing a differential payoff to upgrade your credit tag to &quot. Closed&quot. You can successfully secure long-term mortgage sanctions at competitive interest rates. </p>
               </div>
 
               <ul className="space-y-3 pt-2 text-xs sm:text-sm text-slate-700 leading-relaxed border-t border-blue-100">
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Secured Collateral vs. Unsecured Risk:</strong> Unlike unsecured personal loans, home loans are backed by registered mortgage on prime real estate, allowing risk committees to approve files through manual deviation mandates.
-                  </div>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">HFC Manual Credit Appraisal:</strong> Specialized Housing Finance Companies (LIC HFL, PNB Housing, Tata Capital) evaluate debt-servicing capacity and cash flows rather than rejecting applicants solely based on legacy bureau tags.
-                  </div>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">The Differential Payoff Multiplier:</strong> Settling the historical waived principal balance converts your CIBIL record to &quot;Closed&quot;, immediately unlocking tier-1 public sector bank home loans (such as SBI, Bank of Baroda. PNB).
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Secured security vs. no-pledge Risk:</strong> Unlike no-pledge private loans. Home loans are backed by registered mortgage on prime real estate. This allows risk boards to approve files through manual deviation mandates. </div> </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">HFC Manual Credit Appraisal:</strong> Specialized Housing Finance Companies (LIC HFL. PNB Housing. Tata cash) evaluate debt-servicing capacity and cash flows rather than rejecting applicants solely based on legacy bureau tags. </div> </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">The Differential Payoff Multiplier:</strong> Settling the historical waived base loan converts your CIBIL record to &quot. Closed&quot. Promptly unlocking tier-1 public sector bank home loans (such as SBI. Bank of Baroda. PNB). </div> </li>
               </ul>
             </div>
 
@@ -199,15 +176,9 @@ export default function GetHomeLoanAfterSettlementClient() {
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
                 1. Can You Get a Home Loan After Loan Settlement?
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                The unequivocal answer is. <strong>yes</strong>. While a historical debt settlement complicates retail mortgage applications, it does not permanently extinguish your legal right or financial ability to buy a home. In Indian banking jurisprudence, a One-Time Settlement (OTS) executed with a bank or NBFC is a legally binding compromise agreement that fully discharges your civil debt debt upon payment of the agreed settlement consideration.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                The primary obstacle arises from credit bureau mechanics. Under the Credit Information Companies (Regulation) Act, 2005 (CICRA), the original lender is required to report the loan account status as. <em>&quot;Settled&quot;.</em> because a portion of the contractual principal and interest was waived as an operational write-off. When prospective borrowers apply for home loans online, prime commercial banks use algorithmic Loan Origination Systems (LOS) that automatically filter out any credit profile exhibiting derogatory remarks within the trailing 24 to 36 months.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                However, mortgage financing is fundamentally distinct from unsecured credit cards or personal loans. A home loan is a collateralized facility governed by the Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest (SARFAESI) Act, 2002. Because the lending institution obtains an equitable mortgage over prime immovable property, the lender&apos;s recovery risk is protected by tangible real estate. as a result, Housing Finance Companies (HFCs) and manual credit appraisal desks at commercial banks regularly sanction home loans to post-settlement borrowers who satisfy specific risk-reducing benchmarks.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The unequivocal answer is. <strong>yes</strong>. While a historical debt settlement complicates retail mortgage applications. It does not permanently extinguish your legal right or money ability to buy a home. In Indian banking jurisprudence. A One-Time Settlement (OTS) executed with a bank or NBFC is a legally binding OTS deal pacts that fully discharges your civil debt debt upon payment of the agreed settlement consideration. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The primary obstacle arises from credit bureau mechanics. Under the Credit Information Companies (Regulation) Act. 2005 (CICRA). The original lender is required to report the loan account status as. <em>&quot. Settled&quot.</em> because a portion of the contractual main loan and interest was waived as an daily work write-off. When prospective clients apply for home loans online. Prime banks use algorithmic Loan Origination Systems (LOS) that automatically filter out any credit profile exhibiting derogatory remarks within the trailing 24 to 36 months. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> However. Mortgage financing is fundamentally distinct from no-pledge credit cards or private loans. A home loan is a collateralized facility governed by the Securitisation and Reconstruction of money Assets and Enforcement of Security Interest (SARFAESI) Act. 2002. Because the lending institution obtains an equitable mortgage over prime immovable property. The lender&apos. s claims risk is protected by tangible real estate. As a result. Housing Finance Companies (HFCs) and manual credit appraisal desks at banks regularly sanction home loans to post-settlement clients who satisfy local risk-reducing benchmarks. </p>
 
               {/* 4-Sided Bordered Comparison Table */}
               <div className="rounded-2xl border border-slate-300 bg-white overflow-hidden shadow-xs my-6">
@@ -224,97 +195,45 @@ export default function GetHomeLoanAfterSettlementClient() {
                     </thead>
                     <tbody className="divide-y divide-slate-200 text-slate-700">
                       <tr className="hover:bg-slate-50/80 transition-colors">
-                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-bold text-slate-900 bg-slate-50/50">
-                          Public Sector Banks (SBI, PNB, BoB).
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-semibold text-amber-600">
-                          Moderate (45% – 60%).
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-mono">
-                          725+ (Manual Deviation).
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200">
-                          70% – 75% of Property Value.
-                        </td>
-                        <td className="p-3.5 md:p-4 text-slate-700 font-medium">
-                          18 – 24 Months post-NDC.
-                        </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-bold text-slate-900 bg-slate-50/50"> Public Sector Banks (SBI, PNB, BoB). </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-semibold text-amber-600"> Moderate (45%. 60%). </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-mono"> 725+ (Manual Deviation). </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200"> 70%. 75% of Property Value. </td>
+                        <td className="p-3.5 md:p-4 text-slate-700 font-medium"> 18. 24 Months post-NDC. </td>
                       </tr>
                       <tr className="hover:bg-slate-50/80 transition-colors">
-                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-bold text-slate-900 bg-slate-50/50">
-                          Top Private Banks (HDFC, ICICI, Axis).
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-semibold text-rose-600">
-                          Low (30% – 45% Algorithmic).
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-mono">
-                          750+ (Clean Bureau).
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200">
-                          75% – 80% of Property Value.
-                        </td>
-                        <td className="p-3.5 md:p-4 text-rose-700 font-medium">
-                          24+ Months (or Differential Payoff).
-                        </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-bold text-slate-900 bg-slate-50/50"> Top Private Banks (HDFC, ICICI, Axis). </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-semibold text-rose-600"> Low (30%. 45% Algorithmic). </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-mono"> 750+ (Clean Bureau). </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200"> 75%. 80% of Property Value. </td>
+                        <td className="p-3.5 md:p-4 text-rose-700 font-medium"> 24+ Months (or Differential Payoff). </td>
                       </tr>
                       <tr className="hover:bg-slate-50/80 transition-colors">
-                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-bold text-emerald-900 bg-emerald-50/30">
-                          Housing Finance Companies (HFCs).
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-semibold text-emerald-600">
-                          High (80% – 90%).
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-mono">
-                          650 – 700+
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200">
-                          65% – 75% of Property Value.
-                        </td>
-                        <td className="p-3.5 md:p-4 text-emerald-700 font-medium">
-                          6 – 12 Months post-NDC.
-                        </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-bold text-emerald-900 bg-emerald-50/30"> Housing Finance Companies (HFCs). </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-semibold text-emerald-600"> High (80%. 90%). </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-mono"> 650. 700+ </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200"> 65%. 75% of Property Value. </td>
+                        <td className="p-3.5 md:p-4 text-emerald-700 font-medium"> 6. 12 Months post-NDC. </td>
                       </tr>
                       <tr className="hover:bg-slate-50/80 transition-colors">
-                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-bold text-blue-900 bg-blue-50/30">
-                          Non-Banking Financial Companies (NBFCs).
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-semibold text-blue-600">
-                          Very High (85% – 95%).
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-mono">
-                          620 – 680+
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200">
-                          60% – 70% of Property Value.
-                        </td>
-                        <td className="p-3.5 md:p-4 text-blue-700 font-medium">
-                          3 – 6 Months post-NDC.
-                        </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-bold text-blue-900 bg-blue-50/30"> Non-Banking money Companies (NBFCs). </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-semibold text-blue-600"> Very High (85%. 95%). </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-mono"> 620. 680+ </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200"> 60%. 70% of Property Value. </td>
+                        <td className="p-3.5 md:p-4 text-blue-700 font-medium"> 3. 6 Months post-NDC. </td>
                       </tr>
                       <tr className="hover:bg-slate-50/80 transition-colors">
-                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-bold text-indigo-900 bg-indigo-50/30">
-                          Co-Applicant Joint Mortgage Structure.
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-semibold text-indigo-600">
-                          Exceptional (90%+).
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-mono">
-                          Co-Applicant 750+.
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200">
-                          75% – 80% (Pooled Income).
-                        </td>
-                        <td className="p-3.5 md:p-4 text-indigo-700 font-medium">
-                          Immediate (Post-NDC Validation).
-                        </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-bold text-indigo-900 bg-indigo-50/30"> Co-Applicant Joint Mortgage Structure. </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-semibold text-indigo-600"> Exceptional (90%+). </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-mono"> Co-Applicant 750+. </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200"> 75%. 80% (Pooled Income). </td>
+                        <td className="p-3.5 md:p-4 text-indigo-700 font-medium"> fast (Post-NDC Validation). </td>
                       </tr>
                     </tbody>
                   </table>
                 </div>
               </div>
-              <p className="text-xs md:text-sm text-slate-600 italic">
-                <strong>Strategic Takeaway:</strong> Do not blind-apply for mortgages on bank aggregators or web portals. Every algorithmic hard rejection gets permanently recorded in your credit enquiry history, damaging your score. Instead, target specialized HFCs through manual credit appraisal channels.
-              </p>
+              <p className="text-xs md:text-sm text-slate-600 italic"> <strong>Strategic Takeaway:</strong> Do not blind-apply for mortgages on bank aggregators or web portals. Every algorithmic hard rejection gets permanently recorded in your credit enquiry history. Damaging your score. Instead. Target specialized HFCs through manual credit appraisal channels. </p>
             </section>
 
             {/* SECTION 2: BANK VS. HFC UNDERWRITING ARCHITECTURE */}
@@ -326,12 +245,8 @@ export default function GetHomeLoanAfterSettlementClient() {
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
                 2. Bank vs HFC Underwriting for Post-Settlement Home Loans
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                To successfully navigate a mortgage application following a debt settlement, borrowers must understand the technical divide between algorithmic retail bank screening and manual housing finance underwriting. When an individual submits a digital loan application to a scheduled commercial bank (such as SBI, HDFC. ICICI), the application is processed by an automated Loan Origination System (LOS).
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                The automated LOS executes pre-programmed binary business rules: if the credit information report (CIR) contains a Days Past Due (DPD) count greater than 90. Contains status tags such as. <em>&quot;Settled&quot;.</em>, <em>&quot;Written-Off&quot;.</em>, or <em>&quot;Post-Write-off Settled&quot;.</em> within the past 36 months, the software instantly terminates the application without forwarding the file to a human credit manager. also, if the settlement occurred with that specific bank, the applicant&apos;s Permanent Account Number (PAN) is permanently lodged in an internal &quot;Loss / Sacrifice Ledger&quot;, preventing future unsecured lending from that institution.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> To successfully navigate a mortgage application following a debt settlement. Clients must understand the technical divide between algorithmic retail bank screening and manual housing finance underwriting. When an individual submits a digital loan application to a scheduled banks (such as SBI. HDFC. ICICI). The application is processed by an automated Loan Origination System (LOS). </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The automated LOS executes pre-programmed binary trade rules: if the credit information report (CIR) contains a Days Past Due (DPD) count greater than 90. Contains status tags such as. <em>&quot. Settled&quot.</em>, <em>&quot. Written-Off&quot.</em>, or <em>&quot. Post-Write-off Settled&quot.</em> within the past 36 months. The software instantly terminates the application without forwarding the file to a human credit manager. Also. If the settlement occurred with that local bank. The applicant&apos. s Permanent Account Number (PAN) is permanently lodged in an internal &quot. Loss / Sacrifice Ledger&quot. Preventing future no-pledge lending from that institution. </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-2">
                 <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-2xs space-y-2">
@@ -339,9 +254,7 @@ export default function GetHomeLoanAfterSettlementClient() {
                     <AlertCircle className="w-4 h-4 flex-shrink-0"/>
                     <span>Tier-1 Bank Binary Algorithmic Underwriting.</span>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Operates on strict score cut-offs (typically 750+). Derogatory settlement flags trigger instant algorithmic auto-rejection. Underwriters possess limited deviation powers and cannot override policy rules for standalone retail borrowers.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Operates on strict score cut-offs (typically 750+). Derogatory settlement flags trigger instant algorithmic auto-rejection. Underwriters possess limited deviation powers and cannot override policy rules for standalone retail clients. </p>
                 </div>
 
                 <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-2xs space-y-2">
@@ -349,9 +262,7 @@ export default function GetHomeLoanAfterSettlementClient() {
                     <CheckCircle2 className="w-4 h-4 flex-shrink-0"/>
                     <span>Housing Finance Company (HFC) Manual Appraisal.</span>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Underwriters evaluate the total financial dossier: current banking cash flows, debt-servicing ratios (FOIR), collateral liquidity, employment stability. The genuine narrative behind the historical default.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Underwriters evaluate the total money dossier: current banking cash flows. Debt-servicing ratios (FOIR). Security liquidity. Employment stability. The genuine narrative behind the historical default. </p>
                 </div>
               </div>
 
@@ -369,9 +280,7 @@ export default function GetHomeLoanAfterSettlementClient() {
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
                 3. Mortgage Scoring Breakdown: FOIR and LTV Calculations
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When a borrower with a past settlement applies for a mortgage, underwriters rely on mathematical risk formulas to determine whether the credit risk is acceptable. Mastering two fundamental formulas—.<strong>FOIR (Fixed debt to Income Ratio).</strong> and <strong>LTV (Loan to Value Ratio).</strong>—enables you to structure an unassailable loan proposal:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When a client with a past settlement applies for a mortgage. Underwriters rely on mathematical risk formulas to determine whether the credit risk is acceptable. Mastering two fundamental formulas.<strong>FOIR (Fixed debt to Income Ratio).</strong> and <strong>LTV (Loan to Value Ratio).</strong>. enables you to structure an unassailable loan proposal: </p>
 
               {/* Technical Scoring / Math Card */}
               <div className="rounded-3xl border-2 border-blue-200 bg-white p-6 md:p-7 shadow-xs space-y-6">
@@ -384,9 +293,7 @@ export default function GetHomeLoanAfterSettlementClient() {
                       <h3 className="text-sm md:text-base font-bold text-slate-900">
                         Mortgage Underwriting Formulas &amp; Credit Weight Distribution
                       </h3>
-                      <p className="text-xs text-slate-500">
-                        NHB Housing Risk Appraisal &amp; TransUnion Scoring Weight Architecture.
-                      </p>
+                      <p className="text-xs text-slate-500"> NHB Housing Risk Appraisal &amp. TransUnion Scoring Weight Architecture. </p>
                     </div>
                   </div>
                   <span className="text-xs font-bold px-3 py-1 bg-emerald-50 text-emerald-700 border border-emerald-200 rounded-full">
@@ -404,9 +311,7 @@ export default function GetHomeLoanAfterSettlementClient() {
                     <div className="p-2.5 rounded-lg bg-white border border-slate-200 font-mono text-[11px] text-blue-900">
                       FOIR = (Total Existing Monthly EMIs + Proposed Home Loan EMI) / Net Monthly Take-Home Income × 100.
                     </div>
-                    <p className="text-slate-600 leading-relaxed text-[11px]">
-                      For post-settlement profiles, keeping FOIR under 40% proves that existing debt service will not compromise mortgage repayment even during income fluctuations.
-                    </p>
+                    <p className="text-slate-600 leading-relaxed text-[11px]"> For post-settlement profiles. Keeping FOIR under 40% proves that existing debt service will not OTS deal mortgage payment even during income shifts. </p>
                   </div>
 
                   <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-2">
@@ -417,9 +322,7 @@ export default function GetHomeLoanAfterSettlementClient() {
                     <div className="p-2.5 rounded-lg bg-white border border-slate-200 font-mono text-[11px] text-blue-900">
                       LTV = (Sanctioned Home Loan Amount / Appraised Market Value of Property) × 100.
                     </div>
-                    <p className="text-slate-600 leading-relaxed text-[11px]">
-                      While RBI permits up to 75%–80% LTV for retail buyers, post-settlement applicants who provide 30%–40% down payment (lowering LTV to 60%–70%) drastically reduce lender foreclosure exposure.
-                    </p>
+                    <p className="text-slate-600 leading-relaxed text-[11px]"> While RBI permits up to 75%. 80% LTV for retail buyers. Post-settlement applicants who provide 30%. 40% down payment (lowering LTV to 60%. 70%) drastically reduce lender foreclosure exposure. </p>
                   </div>
                 </div>
 
@@ -434,9 +337,7 @@ export default function GetHomeLoanAfterSettlementClient() {
                         <span className="font-bold text-slate-900">Payment History</span>
                         <span className="font-mono font-black text-blue-600">35% Weight</span>
                       </div>
-                      <p className="text-slate-600 text-[11px] leading-snug">
-                        Most vital metric. 12+ months of on-time payments on fresh secured lines systematically dilute past default impact.
-                      </p>
+                      <p className="text-slate-600 text-[11px] leading-snug"> Most vital metric. 12+ months of on-time payments on fresh secured lines systematically dilute past default impact. </p>
                     </div>
 
                     <div className="p-3 rounded-xl bg-slate-50 border border-slate-200">
@@ -444,9 +345,7 @@ export default function GetHomeLoanAfterSettlementClient() {
                         <span className="font-bold text-slate-900">Credit use (CUR).</span>
                         <span className="font-mono font-black text-blue-600">30% Weight</span>
                       </div>
-                      <p className="text-slate-600 text-[11px] leading-snug">
-                        Total balance divided by limit. Maintaining CUR strictly below 20%–30% delivers rapid credit score elevation.
-                      </p>
+                      <p className="text-slate-600 text-[11px] leading-snug"> Total balance divided by limit. Maintaining CUR strictly below 20%. 30% delivers rapid credit score elevation. </p>
                     </div>
 
                     <div className="p-3 rounded-xl bg-slate-50 border border-slate-200">
@@ -454,9 +353,7 @@ export default function GetHomeLoanAfterSettlementClient() {
                         <span className="font-bold text-slate-900">Credit Vintage &amp; Age.</span>
                         <span className="font-mono font-black text-blue-600">15% Weight</span>
                       </div>
-                      <p className="text-slate-600 text-[11px] leading-snug">
-                        Average duration of active trade-lines. Preserving aged accounts establishes historical financial stability.
-                      </p>
+                      <p className="text-slate-600 text-[11px] leading-snug"> Average duration of active trade-lines. Preserving aged accounts establishes historical money stability. </p>
                     </div>
 
                     <div className="p-3 rounded-xl bg-slate-50 border border-slate-200">
@@ -464,9 +361,7 @@ export default function GetHomeLoanAfterSettlementClient() {
                         <span className="font-bold text-slate-900">Credit Mix</span>
                         <span className="font-mono font-black text-blue-600">10% Weight</span>
                       </div>
-                      <p className="text-slate-600 text-[11px] leading-snug">
-                        Balance between secured assets (FD card, gold loan) and unsecured lines proves disciplined multi-facility management.
-                      </p>
+                      <p className="text-slate-600 text-[11px] leading-snug"> Balance between secured assets (FD card. Gold loan) and no-pledge lines proves disciplined multi-facility handling. </p>
                     </div>
 
                     <div className="p-3 rounded-xl bg-slate-50 border border-slate-200">
@@ -474,9 +369,7 @@ export default function GetHomeLoanAfterSettlementClient() {
                         <span className="font-bold text-slate-900">Hard Inquiries</span>
                         <span className="font-mono font-black text-blue-600">10% Weight</span>
                       </div>
-                      <p className="text-slate-600 text-[11px] leading-snug">
-                        Zero hard loan applications in the trailing 6 months prevents the borrower from appearing credit-hungry.
-                      </p>
+                      <p className="text-slate-600 text-[11px] leading-snug"> Zero hard loan applications in the trailing 6 months prevents the client from appearing credit-hungry. </p>
                     </div>
 
                     <div className="p-3 rounded-xl bg-blue-50 border border-blue-200">
@@ -484,9 +377,7 @@ export default function GetHomeLoanAfterSettlementClient() {
                         <span className="font-bold text-blue-950">Differential Payoff.</span>
                         <span className="font-mono font-black text-blue-700">100% Reset</span>
                       </div>
-                      <p className="text-blue-900 text-[11px] leading-snug">
-                        Paying the historical waived differential balance permanently converts &quot;Settled&quot; to &quot;Closed&quot; status.
-                      </p>
+                      <p className="text-blue-900 text-[11px] leading-snug"> Paying the historical waived differential balance permanently converts &quot. Settled&quot. to &quot. Closed&quot. status. </p>
                     </div>
                   </div>
                 </div>
@@ -502,9 +393,7 @@ export default function GetHomeLoanAfterSettlementClient() {
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
                 4. Mortgage Lender Categories & Post-Settlement Policies
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Indian housing finance is segmented into four distinct institutional categories, each operating under specific regulatory frameworks and risk tolerances:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Indian housing finance is segmented into four distinct bank categories. Each operating under local RBI rules and risk tolerances: </p>
 
               <div className="space-y-4">
                 {/* Category 1: Public Sector Banks (SBI Home Loans) */}
@@ -518,9 +407,7 @@ export default function GetHomeLoanAfterSettlementClient() {
                       Prime Lowest Rates.
                     </span>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    State Bank of India (SBI) is India&apos;s largest mortgage lender. While SBI home loan automated systems mandate a CIBIL score of 700 to 750, SBI policy circulars allow. <strong>Deviation Sanctions.</strong> approved by the Assistant General Manager (AGM) or Deputy General Manager (DGM) of the Real Estate &amp. Housing Business Unit (REHBU). If the settlement occurred with a third-party bank 24+ months ago, the applicant has a spotless 24-month banking record. The loan is co-signed by an earning co-borrower, SBI can sanction the loan under standard prime interest brackets.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> State Bank of India (SBI) is India&apos. s largest mortgage lender. While SBI home loan automated systems mandate a CIBIL score of 700 to 750. SBI policy circulars allow. <strong>Deviation Sanctions.</strong> approved by the Assistant General Manager (AGM) or Deputy General Manager (DGM) of the Real Estate &amp. Housing trade Unit (REHBU). If the settlement occurred with a third-party bank 24+ months ago. The applicant has a spotless 24-month banking record. The loan is co-signed by an earning co-client. SBI can sanction the loan under standard prime interest brackets. </p>
                 </div>
 
                 {/* Category 2: Large Private Sector Banks */}
@@ -534,9 +421,7 @@ export default function GetHomeLoanAfterSettlementClient() {
                       Algorithmic Strictness.
                     </span>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Private banks use aggressive automated risk models that reject files with historical settlement tags within 36 months. However, if the borrower executes a. <strong>Differential Payoff.</strong> to convert the old account to &quot;Closed&quot;, private banks will readily approve the mortgage within 30 days of credit bureau tape updates.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Private banks use aggressive automated risk models that reject files with historical settlement tags within 36 months. However, if the client executes a. <strong>Differential Payoff.</strong> to convert the old account to &quot. Closed&quot. Private banks will readily approve the mortgage within 30 days of credit bureau tape updates. </p>
                 </div>
 
                 {/* Category 3: Housing Finance Companies (HFCs) */}
@@ -550,9 +435,7 @@ export default function GetHomeLoanAfterSettlementClient() {
                       Best Post-Settlement Pathway.
                     </span>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    HFCs are the prime avenue for borrowers with past settlements. Operating under specialized housing appraisal mandates, HFC credit officers meet applicants in person, evaluate business books or salary accounts, inspect the physical collateral. Sanction loans with competitive margins (typically charging 0.5% to 1.25% premium above bank benchmark rates).
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> HFCs are the prime avenue for clients with past settlements. Operating under specialized housing appraisal mandates. HFC credit officers meet applicants in person. Evaluate trade books or salary accounts. Inspect the physical security. Sanction loans with competitive margins (typically charging 0.5% to 1.25% premium above bank benchmark rates). </p>
                 </div>
 
                 {/* Category 4: Specialized Retail NBFCs */}
@@ -566,9 +449,7 @@ export default function GetHomeLoanAfterSettlementClient() {
                       Flexible Risk-Pricing.
                     </span>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Asset-backed NBFCs cater specifically to borrowers with unconventional credit records, self-employed individuals with informal cash receipts. Applicants with recent settlements. They accept lower CIBIL scores (620–680) in exchange for a slightly higher interest rate and a conservative LTV of 60%–65%.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Asset-backed NBFCs cater mainly to clients with unconventional credit records. Self-employed individuals with informal cash receipts. Applicants with recent settlements. They accept lower CIBIL scores (620. 680) in exchange for a slightly higher interest rate and a conservative LTV of 60%. 65%. </p>
                 </div>
               </div>
             </section>
@@ -624,9 +505,7 @@ export default function GetHomeLoanAfterSettlementClient() {
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
                 5. 7-Stage SOP for Home Loan Approval After Settlement
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Securing a mortgage sanction after a settlement requires methodical execution of this 7-stage standard operating procedure recognized by banking risk committees and housing finance underwriters:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Securing a mortgage sanction after a settlement requires methodical execution of this 7-stage standard operating procedure recognized by banking risk boards and housing finance underwriters: </p>
 
               <div className="space-y-4">
                 {/* Stage 1 */}
@@ -638,9 +517,7 @@ export default function GetHomeLoanAfterSettlementClient() {
                     <h3 className="text-sm md:text-base font-bold text-slate-900">
                       Stage 1: Verify No Dues Certificate (NDC) &amp; Rectify Credit Bureau Tape
                     </h3>
-                    <p className="text-xs md:text-sm text-slate-600 mt-1 leading-relaxed">
-                      Ensure your original lending institution has issued an unconditional physical/digital No Dues Certificate (NDC / NOC). Verify across TransUnion CIBIL, Experian, Equifax. CRIF High Mark that the outstanding balance and amount overdue are strictly reported as ₹0. If errors exist, raise a dispute under Section 21 of CICRA 2005.
-                    </p>
+                    <p className="text-xs md:text-sm text-slate-600 mt-1 leading-relaxed"> Ensure your original lending institution has issued an full physical/digital No Dues letter (NDC / NOC). Verify across TransUnion CIBIL, Experian, Equifax. CRIF High Mark that the unpaid dues and amount overdue are strictly reported as ₹0. If errors exist. Raise a dispute under Section 21 of CICRA 2005. </p>
                   </div>
                 </div>
 
@@ -653,9 +530,7 @@ export default function GetHomeLoanAfterSettlementClient() {
                     <h3 className="text-sm md:text-base font-bold text-slate-900">
                       Stage 2: Establish 6 to 12 Months of Secured Credit Seasoning
                     </h3>
-                    <p className="text-xs md:text-sm text-slate-600 mt-1 leading-relaxed">
-                      Immediately open a Fixed Deposit-backed secured credit card (such as IDFC FIRST WOW or Kotak 811 DreamDifferent). Use 15% to 20% of the limit monthly and repay in full 3 days before the due date. This builds a pristine 100% on-time payment track record across 35% of your CIBIL weight.
-                    </p>
+                    <p className="text-xs md:text-sm text-slate-600 mt-1 leading-relaxed"> promptly open a Fixed Deposit-backed secured credit card (such as IDFC FIRST WOW or Kotak 811 DreamDifferent). Use 15% to 20% of the limit monthly and repay in full 3 days before the due date. This builds a pristine 100% on-time payment track record across 35% of your CIBIL weight. </p>
                   </div>
                 </div>
 
@@ -668,9 +543,7 @@ export default function GetHomeLoanAfterSettlementClient() {
                     <h3 className="text-sm md:text-base font-bold text-slate-900">
                       Stage 3: Compress FOIR by Prepaying Active Small Loans &amp; Consumer EMIs
                     </h3>
-                    <p className="text-xs md:text-sm text-slate-600 mt-1 leading-relaxed">
-                      Foreclose all active Buy-Now-Pay-Later (BNPL) accounts, consumer durable EMIs, and micro-loans. Underwriters require your total monthly fixed debt dues (including the new home loan EMI) to remain below 35%–40% of net disposable salary.
-                    </p>
+                    <p className="text-xs md:text-sm text-slate-600 mt-1 leading-relaxed"> Foreclose all active Buy-Now-Pay-Later (BNPL) accounts. Clients durable EMIs, and micro-loans. Underwriters require your total monthly fixed debt dues (including the new home loan EMI) to remain below 35%. 40% of net disposable salary. </p>
                   </div>
                 </div>
 
@@ -683,9 +556,7 @@ export default function GetHomeLoanAfterSettlementClient() {
                     <h3 className="text-sm md:text-base font-bold text-slate-900">
                       Stage 4: Ingest a Creditworthy Co-Borrower with 750+ CIBIL Score
                     </h3>
-                    <p className="text-xs md:text-sm text-slate-600 mt-1 leading-relaxed">
-                      Add an earning spouse, parent, or working child as a joint co-applicant. Joint borrower structuring allows lenders to pool household incomes, dramatically reducing the lender&apos;s perceived default probability.
-                    </p>
+                    <p className="text-xs md:text-sm text-slate-600 mt-1 leading-relaxed"> Add an earning spouse, parent. Or working child as a joint co-applicant. Joint client structuring allows lenders to pool household incomes. Dramatically reducing the lender&apos. s perceived default probability. </p>
                   </div>
                 </div>
 
@@ -698,9 +569,7 @@ export default function GetHomeLoanAfterSettlementClient() {
                     <h3 className="text-sm md:text-base font-bold text-slate-900">
                       Stage 5: Structure a 30% to 40% Equity Down Payment (Lowering LTV to 60%–70%)
                     </h3>
-                    <p className="text-xs md:text-sm text-slate-600 mt-1 leading-relaxed">
-                      Rather than seeking the regulatory maximum of 80% LTV, offer a 30%–40% down payment from legitimate savings. A 60%–70% LTV provides the mortgage lender with a large equity safety buffer, making deviation approval straightforward for credit managers.
-                    </p>
+                    <p className="text-xs md:text-sm text-slate-600 mt-1 leading-relaxed"> Rather than seeking the RBI maximum of 80% LTV. Offer a 30%. 40% down payment from legitimate savings. A 60%. 70% LTV provides the mortgage lender with a large equity safety buffer. Making deviation approval straightforward for credit managers. </p>
                   </div>
                 </div>
 
@@ -713,9 +582,7 @@ export default function GetHomeLoanAfterSettlementClient() {
                     <h3 className="text-sm md:text-base font-bold text-slate-900">
                       Stage 6: Submit a Formal Mitigating Representation to HFC Credit Underwriters
                     </h3>
-                    <p className="text-xs md:text-sm text-slate-600 mt-1 leading-relaxed">
-                      Attach a formal written representation drafted by a debt resolution specialist explaining the genuine situation behind the past settlement (medical event, business setback, COVID disruption), supported by 12 months of flawless bank statements with zero cheque bounces.
-                    </p>
+                    <p className="text-xs md:text-sm text-slate-600 mt-1 leading-relaxed"> Attach a formal written legal help drafted by a debt relief specialist explaining the genuine situation behind the past settlement (medical event. Trade setback. COVID breaks). Supported by 12 months of flawless bank records with zero cheque bounces. </p>
                   </div>
                 </div>
 
@@ -728,9 +595,7 @@ export default function GetHomeLoanAfterSettlementClient() {
                     <h3 className="text-sm md:text-base font-bold text-slate-900">
                       Stage 7: Execute Differential Payoff to Convert Status to &quot;Closed&quot; (Optional Power Move)
                     </h3>
-                    <p className="text-xs md:text-sm text-slate-600 mt-1 leading-relaxed">
-                      If you require a massive mortgage from a prime public sector bank (SBI / BoB) at the absolute lowest repo-linked lending rate (RLLR), negotiate with the original lender to pay the historical waived principal differential and upgrade your CIBIL record from &quot;Settled&quot. To &quot;Closed&quot;.
-                    </p>
+                    <p className="text-xs md:text-sm text-slate-600 mt-1 leading-relaxed"> If you require a massive mortgage from a prime public sector bank (SBI / BoB) at the absolute lowest repo-linked lending rate (RLLR). Settle with the original lender to pay the historical waived main loan differential and upgrade your CIBIL record from &quot. Settled&quot. To &quot. Closed&quot. </p>
                   </div>
                 </div>
               </div>
@@ -745,9 +610,7 @@ export default function GetHomeLoanAfterSettlementClient() {
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
                 6. Legal Representation Draft & Mortgage Appraisal Letter
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Submit this formal legal representation letter to the Credit Appraisal Committee, Head of Retail Mortgages. Branch Credit Manager when submitting your housing loan file:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Submit this formal legal legal help letter to the Credit Appraisal boards. Head of Retail Mortgages. Branch Credit Manager when submitting your housing loan file: </p>
 
               {/* Code / Letter Draft Container with Modern Slate Styling */}
               <div className="rounded-2xl border border-slate-700 bg-slate-900 text-slate-100 p-5 md:p-6 shadow-sm overflow-x-auto text-xs font-mono leading-relaxed">
@@ -816,9 +679,7 @@ Date: [DD/MM/YYYY]                   Place: [City, State]`}
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
                 7. 3-Tier Escalation Matrix for Rejected Loan Applications
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Under the RBI Charter of Customer Rights and National Housing Bank (NHB) Fair Lending Guidelines, every mortgage applicant has the statutory right to fair appraisal and transparent communication. If your home loan is improperly rejected due to outdated bureau data despite valid NDC submission, follow this 3-tier escalation framework:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Under the RBI Charter of Customer Rights and National Housing Bank (NHB) Fair Lending rules. Every mortgage applicant has the legal right to fair appraisal and transparent contact. If your home loan is improperly rejected due to outdated bureau data despite valid NDC submission. Follow this 3-tier escalation rules: </p>
 
               {/* Escalation Steps Grid */}
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -829,9 +690,7 @@ Date: [DD/MM/YYYY]                   Place: [City, State]`}
                   <h3 className="text-sm font-bold text-slate-900 mb-1.5">
                     Branch Credit Desk &amp; CRM Ticket
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Submit written representation to the Branch Credit Manager along with your NDC and 12-month bank statements. Log a formal tracking ticket on the bank or HFC&apos;s customer service CRM.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Submit written legal help to the Branch Credit Manager along with your NDC and 12-month bank records. Log a formal tracking ticket on the bank or HFC&apos. s customer service CRM. </p>
                 </div>
 
                 <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-2xs">
@@ -841,9 +700,7 @@ Date: [DD/MM/YYYY]                   Place: [City, State]`}
                   <h3 className="text-sm font-bold text-slate-900 mb-1.5">
                     Principal Nodal Officer (PNO)
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Escalate to the apex grievance authority (PNO / Head of Customer Care). Under RBI rules, the PNO must review credit deviation appeals and issue a written reasoned resolution within 30 days.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Escalate to the apex grievance formal (PNO / Head of Customer Care). Under RBI rules. The PNO must review credit deviation appeals and issue a written reasoned relief within 30 days. </p>
                 </div>
 
                 <div className="p-4 rounded-xl bg-white border-2 border-emerald-300 bg-emerald-50/20 shadow-2xs">
@@ -853,9 +710,7 @@ Date: [DD/MM/YYYY]                   Place: [City, State]`}
                   <h3 className="text-sm font-bold text-slate-900 mb-1.5">
                     RBI Integrated Ombudsman / NHB GRIDS
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Lodge a statutory complaint on. <strong>cms.rbi.org.in</strong> (for banks/NBFCs) or. <strong>grids.nhbonline.org.in.</strong> (for HFCs). Regulators order immediate file re-evaluation for arbitrary rejections.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Lodge a legal complaint on. <strong>cms.rbi.org.in</strong> (for banks/NBFCs) or. <strong>grids.nhbonline.org.in.</strong> (for HFCs). Regulators order fast file re-evaluation for arbitrary rejections. </p>
                 </div>
               </div>
             </section>
@@ -869,9 +724,7 @@ Date: [DD/MM/YYYY]                   Place: [City, State]`}
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
                 8. 18-Month Roadmap to Prime Home Loan Sanctions
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Securing a home loan at prime interest rates following a debt settlement is a structured chronological progression across three distinct financial milestones:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Securing a home loan at prime interest rates following a debt settlement is a structured chronological progression across three distinct money milestones: </p>
 
               {/* 4-Sided Bordered Timeline Table */}
               <div className="rounded-2xl border border-slate-300 bg-white overflow-hidden shadow-xs">
@@ -887,46 +740,22 @@ Date: [DD/MM/YYYY]                   Place: [City, State]`}
                     </thead>
                     <tbody className="divide-y divide-slate-200 text-slate-700">
                       <tr className="hover:bg-slate-50/80">
-                        <td className="p-3.5 border-r border-slate-200 font-bold text-slate-900">
-                          Phase 1: Months 1 – 3 (Post-NDC Audit).
-                        </td>
-                        <td className="p-3.5 border-r border-slate-200">
-                          Settlement reported across 4 bureaus; Balance updated to ₹0; DPD historical default freezes.
-                        </td>
-                        <td className="p-3.5 border-r border-slate-200 font-semibold text-slate-900">
-                          600 – 650
-                        </td>
-                        <td className="p-3.5">
-                          Download official CIR reports from CIBIL, Experian, Equifax, CRIF. Audit ₹0 balance updates; dispute any residual erroneous dues.
-                        </td>
+                        <td className="p-3.5 border-r border-slate-200 font-bold text-slate-900"> Phase 1: Months 1. 3 (Post-NDC Audit). </td>
+                        <td className="p-3.5 border-r border-slate-200"> Settlement reported across 4 bureaus. Balance updated to ₹0. DPD historical default freezes. </td>
+                        <td className="p-3.5 border-r border-slate-200 font-semibold text-slate-900"> 600. 650 </td>
+                        <td className="p-3.5"> Download formal CIR reports from CIBIL. Experian. Equifax. CRIF. Audit ₹0 balance updates. dispute any residual erroneous dues. </td>
                       </tr>
                       <tr className="hover:bg-slate-50/80">
-                        <td className="p-3.5 border-r border-slate-200 font-bold text-slate-900">
-                          Phase 2: Months 3 – 9 (Trade-Line Seasoning).
-                        </td>
-                        <td className="p-3.5 border-r border-slate-200">
-                          New positive trade-line reporting begins; credit use stabilized below 20%.
-                        </td>
-                        <td className="p-3.5 border-r border-slate-200 font-semibold text-blue-700">
-                          680 – 730
-                        </td>
-                        <td className="p-3.5">
-                          Service an FD-backed secured credit card with 100% on-time autopay. Foreclose all active micro-loans; compress FOIR to under 38%.
-                        </td>
+                        <td className="p-3.5 border-r border-slate-200 font-bold text-slate-900"> Phase 2: Months 3. 9 (Trade-Line Seasoning). </td>
+                        <td className="p-3.5 border-r border-slate-200"> New positive trade-line reporting begins. credit use stabilized below 20%. </td>
+                        <td className="p-3.5 border-r border-slate-200 font-semibold text-blue-700"> 680. 730 </td>
+                        <td className="p-3.5"> Service an FD-backed secured credit card with 100% on-time autopay. Foreclose all active micro-loans. compress FOIR to under 38%. </td>
                       </tr>
                       <tr className="hover:bg-slate-50/80">
-                        <td className="p-3.5 border-r border-slate-200 font-bold text-slate-900">
-                          Phase 3: Months 9 – 18 (Mortgage Sanction).
-                        </td>
-                        <td className="p-3.5 border-r border-slate-200">
-                          Consistent repayment history established; legacy settlement impact diluted; high score stability.
-                        </td>
-                        <td className="p-3.5 border-r border-slate-200 font-semibold text-emerald-700">
-                          740 – 780+ (Prime).
-                        </td>
-                        <td className="p-3.5">
-                          Apply for home loan with specialized HFCs or public sector banks (SBI/BoB) with co-applicant and 30%+ down payment equity.
-                        </td>
+                        <td className="p-3.5 border-r border-slate-200 font-bold text-slate-900"> Phase 3: Months 9. 18 (Mortgage Sanction). </td>
+                        <td className="p-3.5 border-r border-slate-200"> Consistent payment history established. legacy settlement impact diluted. high score stability. </td>
+                        <td className="p-3.5 border-r border-slate-200 font-semibold text-emerald-700"> 740. 780+ (Prime). </td>
+                        <td className="p-3.5"> Apply for home loan with specialized HFCs or public sector banks (SBI/BoB) with co-applicant and 30%+ down payment equity. </td>
                       </tr>
                     </tbody>
                   </table>
@@ -950,9 +779,7 @@ Date: [DD/MM/YYYY]                   Place: [City, State]`}
                     <CreditCard className="w-4 h-4 text-[#1886ff]"/>
                     Credit Card Settlements
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Credit cards carry compounding 42%+ APR. When mortgage underwriters see a credit card settlement, explain that high finance charges inflated the balance during hardship. Submitting proof of the principal paid during settlement clears underwriter doubts.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Credit cards carry compounding 42%+ APR. When mortgage underwriters see a credit card settlement. Explain that high finance charges inflated the balance during hardship. Submitting proof of the main loan paid during settlement clears underwriter doubts. </p>
                 </div>
 
                 <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-2xs">
@@ -960,9 +787,7 @@ Date: [DD/MM/YYYY]                   Place: [City, State]`}
                     <Building2 className="w-4 h-4 text-[#1886ff]"/>
                     Debt Sold to ARCs (SARFAESI §5)
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    If your past loan was assigned to an Asset Reconstruction Company (e.g. ARCIL, Phoenix, Edelweiss ARC), obtain the NDC directly from the ARC. Ensure the ARC updates the bureau ledger to reflect zero remaining liability before applying for housing finance.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> If your past loan was assigned to an Asset Reconstruction Company (e.g. ARCIL. Phoenix. Edelweiss ARC). Obtain the NDC straight from the ARC. Ensure the ARC updates the bureau ledger to reflect zero remaining debt risk before applying for housing finance. </p>
                 </div>
 
                 <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-2xs">
@@ -970,9 +795,7 @@ Date: [DD/MM/YYYY]                   Place: [City, State]`}
                     <Users className="w-4 h-4 text-[#1886ff]"/>
                     Joint Co-Applicant Mortgages
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    If your spouse or parent has a clean 750+ CIBIL score and stable salary, structure the application with them as the. <strong>Primary Applicant.</strong> and yourself as the Co-Applicant. Banks sanction the mortgage based on the primary borrower&apos;s clean bureau rating.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> If your spouse or parent has a clean 750+ CIBIL score and stable salary. Structure the application with them as the. <strong>Primary Applicant.</strong> and yourself as the Co-Applicant. Banks sanction the mortgage based on the primary client&apos. s clean bureau rating. </p>
                 </div>
               </div>
             </section>
@@ -991,9 +814,7 @@ Date: [DD/MM/YYYY]                   Place: [City, State]`}
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
                 Frequently Asked Questions: Getting a Home Loan After Settlement
               </h2>
-              <p className="text-xs md:text-sm text-slate-600">
-                Click on any question below to view detailed legal and banking answers verified by our debt resolution and mortgage experts:
-              </p>
+              <p className="text-xs md:text-sm text-slate-600"> Click on any question below to view detailed legal and banking answers verified by our debt relief and mortgage experts: </p>
 
               <div className="space-y-3 pt-2">
                 {faqs.map((faq, idx) => {
@@ -1022,9 +843,7 @@ Date: [DD/MM/YYYY]                   Place: [City, State]`}
                 <BookOpen className="w-4 h-4 text-[#1886ff]"/>
                 <span>Statutory Authority &amp; Regulatory Citations.</span>
               </div>
-              <p className="text-xs text-slate-600">
-                All mortgage underwriting procedures, FOIR rules. Legal consumer rights described on this page are grounded in official Indian statutory frameworks:
-              </p>
+              <p className="text-xs text-slate-600"> All mortgage underwriting procedures, FOIR rules. Legal clients rights described on this page are grounded in formal Indian legal rules: </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 text-xs">
                 <a href="https://www.rbi.org.in" target="_blank" rel="noopener noreferrer" className="p-2.5 rounded-lg bg-white border border-slate-200 hover:border-[#1886ff] hover:text-[#1886ff] flex items-center justify-between transition-colors shadow-2xs">
@@ -1104,14 +923,10 @@ Date: [DD/MM/YYYY]                   Place: [City, State]`}
                   <Link href="/author/ashish-jhangra" className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional.
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief expert. </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Specialized in banking compliance, debt resolution strategies, loan dispute negotiations. CIBIL rectification with extensive experience resolving complex NPA defaults across Indian banks.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> Specialized in banking compliance. Debt relief plans. Loan dispute talks. CIBIL rectification with extensive skill resolving complex NPA defaults across Indian banks. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
                   <span>View Author Profile.</span>
@@ -1130,12 +945,8 @@ Date: [DD/MM/YYYY]                   Place: [City, State]`}
                 <span>100% CONFIDENTIAL.</span>
               </div>
               <div>
-                <p className="text-xl font-bold text-white leading-tight">
-                  Worried a Past Settlement Blocks Your Home Loan?
-                </p>
-                <p className="text-blue-100 text-sm mt-2 leading-relaxed font-normal">
-                  Our mortgage and credit resolution experts structure your home loan application, optimize your FOIR. Negotiate differential upgrades to secure approvals from leading HFCs and banks.
-                </p>
+                <p className="text-xl font-bold text-white leading-tight"> Worried a Past Settlement Blocks Your Home Loan? </p>
+                <p className="text-blue-100 text-sm mt-2 leading-relaxed font-normal"> Our mortgage and credit relief experts structure your home loan application. Optimize your FOIR. settle differential upgrades to secure approvals from leading HFCs and banks. </p>
               </div>
               <Link href="/contact" className="block w-full text-center bg-white text-blue-900 font-bold py-3.5 px-4 rounded-xl hover:bg-slate-100 transition-all shadow-md text-sm transform hover:-translate-y-0.5">
                 Evaluate Your Home Loan Eligibility
@@ -1150,27 +961,12 @@ Date: [DD/MM/YYYY]                   Place: [City, State]`}
 
             {/* Card 3: CredSettle Trust Commitments Card */}
             <div className="bg-white rounded-3xl border border-slate-200/80 p-5 space-y-3 text-xs shadow-xs">
-              <p className="font-bold text-slate-900 uppercase tracking-wider text-[11px] flex items-center gap-1.5">
-                <ShieldCheck className="w-3.5 h-3.5 text-emerald-600"/>
-                CredSettle Trust Commitments.
-              </p>
+              <p className="font-bold text-slate-900 uppercase tracking-wider text-[11px] flex items-center gap-1.5"> <ShieldCheck className="w-3.5 h-3.5 text-emerald-600"/> CredSettle Trust Commitments. </p>
               <ul className="space-y-2 text-slate-600">
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Zero Upfront Risk:</strong> Success-linked advisory &amp; resolution fees.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Direct Bank Remittance:</strong> Zero middleman fund holding.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>RBI &amp; CICRA Compliance:</strong> 100% lawful dispute handling.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Pan-India Representation:</strong> Dedicated debt resolution specialists.</span>
-                </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Zero Upfront Risk:</strong> Success-linked alert &amp. relief fees.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Direct Bank Remittance:</strong> Zero middleman fund holding.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>RBI &amp. CICRA Compliance:</strong> 100% lawful dispute handling.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Pan-India legal help:</strong> Dedicated debt relief specialists.</span> </li>
               </ul>
             </div>
 

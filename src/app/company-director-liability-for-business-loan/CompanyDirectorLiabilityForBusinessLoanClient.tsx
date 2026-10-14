@@ -47,43 +47,43 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
     const faqs = [
         {
             q: 'Is a company director personally liable for a business loan default in India?',
-            a: "A director is generally protected by the corporate veil under the Companies Act 2013 and is not automatically liable for company debts, unless they executed a personal guarantee, pledged personal assets. Engaged in fraudulent conduct."
+            a: "A board heads is generally protected by the firm shield under the firms Act 2013 and is not automatically liable for firm debts. Unless they executed a private sureties. Pledged own assets. Engaged in fraudulent conduct."
         },
         {
             q: 'What happens when a bank invokes a director\'s personal guarantee?',
-            a: "Under Section 128 of the Indian Contract Act 1872, the surety's liability is co-extensive with the principal debtor. The bank can proceed against the director's personal bank accounts, movable assets. Unencumbered properties via civil court or DRT."
+            a: "Under Section 128 of the Indian Contract Act 1872. The surety's debt risk is co-extensive with the main loan debtor. The bank can proceed against the board heads's bank accounts. Movable assets. Unencumbered homes via civil court or DRT."
         },
         {
             q: 'Can a director be jailed if a Private Limited company defaults on a loan?',
-            a: 'Loan default is a civil dispute, not a criminal offence. However, directors who signed dishonoured repayment cheques or NACH mandates may face prosecution under Section 138 of the Negotiable Instruments Act or Section 25 of the PSSA.'
+            a: 'Loan default is a civil claims. Not a crime. However. board heads who signed dishonoured payment cheques or NACH mandates may face legal steps under Section 138 of the Negotiable Instruments Act or Section 25 of the PSSA.'
         },
         {
             q: 'Does resigning as a director discharge an existing personal guarantee?',
-            a: 'Resignation as a director does not automatically terminate personal guarantees executed during your tenure. A formal written revocation under Section 130 of the Contract Act or a bank-issued Deed of Release is legally required.'
+            a: 'Resignation as a board heads does not automatically terminate private sureties executed during your tenure. A formal written revocation under Section 130 of the Contract Act or a bank-issued Deed of Release is by law required.'
         },
         {
             q: 'How does a company loan default affect the personal CIBIL score of a director?',
-            a: 'If the director signed a personal guarantee, the default is reported under their individual PAN, severely reducing their individual CIBIL score below 600 and impairing personal borrowing capability until an OTS or closure is executed.'
+            a: 'If the board heads signed a private sureties. The default is reported under their person PAN. Severely reducing their person CIBIL score below 600 and impairing private borrowing skill until an OTS or closure is executed.'
         },
         {
             q: 'Can banks attach personal residential property of a director under SARFAESI?',
-            a: 'Banks can attach personal residential properties under the SARFAESI Act only if the property was formally mortgaged. For unsecured loans with personal guarantees, banks must secure a decree through the Debt Recovery Tribunal before attachment.'
+            a: 'Banks can attach private residential homes under the SARFAESI Act only if the home was formally mortgaged. For no-pledge loans with private sureties. Banks must secure a decree through the Debt claims Tribunal before attachment.'
         },
         {
             q: 'What is the legal threshold for banks to file IBC proceedings against personal guarantors?',
-            a: 'Under Section 95 of the Insolvency and Bankruptcy Code (IBC) 2016, creditors can initiate insolvency resolution against personal guarantors of corporate debtors before the NCLT or DRT, which triggers an interim moratorium under Section 96.'
+            a: 'Under Section 95 of the ruin and ruin Code (IBC) 2016. lenders can initiate ruin relief against private guarantors of firm debtors before the NCLT or DRT. This triggers an interim moratorium under Section 96.'
         },
         {
             q: 'Can a director negotiate a One Time Settlement (OTS) for business loans?',
-            a: 'Yes. Directors can submit a structured OTS proposal to bank credit committees, negotiating a 40% to 60% principal waiver along with complete discharge of personal guarantees and unconditional return of original guarantee documents.'
+            a: 'Yes. board heads can submit a structured OTS proposal to bank credit boards. Settling a 40% to 60% loan cut along with complete discharge of private sureties and full return of original sureties papers.'
         },
         {
             q: 'Are independent or non-executive directors liable for corporate loan defaults?',
-            a: "Under Section 149(12) of the Companies Act 2013, independent and non-executive directors are liable only for acts of omission or commission committed with their direct knowledge, consent. Connivance, provided they did not sign personal guarantees."
+            a: "Under Section 149(12) of the firms Act 2013. Independent and non-executive board heads are liable only for acts of omission or commission committed with their direct knowledge. Consent. Connivance. Provided they did not sign private sureties."
         },
         {
             q: 'How do directors obtain a complete release from personal guarantees after settlement?',
-            a: 'The One Time Settlement sanction letter must contain an explicit clause releasing all personal guarantors under Section 133 of the Indian Contract Act, followed by obtaining an unconditional No Dues Certificate and return of security cheques.'
+            a: 'The One Time closure sanction letter must contain an explicit clause releasing all private guarantors under Section 133 of the Indian Contract Act. Followed by obtaining an full No Dues letter and return of pledge cheques.'
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -99,9 +99,7 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
             Is a Director Personally Liable for Business Loan Defaults?
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed">
-            Understand when banks can legally pierce the corporate veil, how personal guarantees are invoked under Indian contract law. The exact legal mechanisms company directors use to protect personal residential properties and family wealth from commercial debt recovery.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed"> Understand when banks can by law pierce the firm shield. How private sureties are invoked under Indian contract law. The exact legal mechanisms firm board heads use to protect private residential homes and kin wealth from trade debt claims. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -144,9 +142,7 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>Director Asset Protection.</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Governed by Companies Act 2013, Indian Contract Act 1872, IBC 2016, and RBI Prudential Guidelines.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by firms Act 2013. Indian Contract Act 1872. IBC 2016. And RBI Prudential rules. </p>
               </div>
             </div>
           </aside>
@@ -162,15 +158,9 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                   Executive Summary: Company Director Liability Crux
                 </h2>
               </div>
-              <p className="text-xs md:text-sm text-slate-700 leading-relaxed font-normal">
-                Under foundational Indian company law, a Private Limited or Public Limited company is a distinct legal entity endowed with perpetual succession and separate corporate personality. as a result, directors and shareholders enjoy limited liability and are not inherently responsible for commercial loans contracted in the company name. However, commercial lenders routinely require promoters to sign continuous personal guarantees, creating independent tripartite surety dues that bypass the statutory corporate shield.
-              </p>
-              <p className="text-xs md:text-sm text-slate-700 leading-relaxed font-normal">
-                When a corporate borrower defaults and enters Non-Performing Asset classification after 90 days of continuous default, institutional lenders trigger personal guarantee clauses under Section 128 of the Indian Contract Act 1872. While lenders cannot attach personal residential homes under the SARFAESI Act unless specifically mortgaged, they frequently initiate Debt Recovery Tribunal applications, Section 138 cheque bounce proceedings. Section 95 insolvency applications under the Insolvency and Bankruptcy Code.
-              </p>
-              <p className="text-xs md:text-sm text-slate-700 leading-relaxed font-normal">
-                A structured One Time Settlement (OTS) executed at the institutional credit committee level provides a lawful exit mechanism. Through forensic loan audits, documented commercial hardship dossiers. Bilateral compromise negotiations, directors routinely secure 40% to 60% principal waivers alongside total discharge of personal guarantees, unconditional No Dues Certificates. The return of all personal collateral.
-              </p>
+              <p className="text-xs md:text-sm text-slate-700 leading-relaxed font-normal"> Under foundational Indian firm law. A Private Limited or Public Limited firm is a distinct legal entity endowed with perpetual succession and separate firm personality. As a result. board heads and shareholders enjoy limited debt risk and are not inherently responsible for firm loans contracted in the firm name. However. Trade lenders routinely require promoters to sign steady private sureties. Creating independent tripartite surety dues that bypass the legal firm shield. </p>
+              <p className="text-xs md:text-sm text-slate-700 leading-relaxed font-normal"> When a firm clients defaults and enters Non-Performing Asset classification after 90 days of steady default. Banks trigger private sureties clauses under Section 128 of the Indian Contract Act 1872. While lenders cannot attach private residential homes under the SARFAESI Act unless mainly mortgaged. They often initiate Debt claims Tribunal apps. Section 138 cheque bounce steps. Section 95 ruin apps under the ruin and ruin Code. </p>
+              <p className="text-xs md:text-sm text-slate-700 leading-relaxed font-normal"> A structured One Time closure (OTS) executed at the bank board level provides a lawful exit mechanism. Through loan audits. Documented trade hardship dossiers. Bilateral OTS deal talks. board heads routinely secure 40% to 60% main loan waivers alongside total discharge of private sureties. Full No Dues letters. The return of all private pledge. </p>
             </section>
 
             {/* SECTION 1: DEBT ECONOMICS & NPA DYNAMICS */}
@@ -181,15 +171,9 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                   1. Corporate Debt Economics &amp; Director Liability Dynamics
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                The principle of separate legal personality established in landmark corporate jurisprudence protects company officers from personal debts incurred by the business entity. Under Section 2(34) and Section 149 of the Companies Act 2013, directors act as agents and fiduciaries of the corporate body, meaning liability for corporate contractual default rests solely with company assets. When an enterprise suffers operational collapse, supply chain disruption, or client insolvency, commercial credit facilities inevitably face distress.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Indian commercial banks and Non-Banking Financial Companies reduce this corporate veil protection by mandating individual promoter personal guarantees during loan origination. Under the Reserve Bank of India Prudential Framework for Resolution of Stressed Assets, loans progress through Special Mention Account stages (SMA-0 for 1-30 days overdue, SMA-1 for 31-60 days. SMA-2 for 61-90 days). Upon reaching day 91, the account is classified as a Non-Performing Asset, requiring banks to make mandatory Tier-1 capital provisioning ranging from 15% to 100%.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Because unsecured corporate loans carry no underlying physical mortgage, lenders cannot use summary attachment under the SARFAESI Act 2002 against unpledged personal assets. Instead, banks face prolonged civil trials or DRT litigation spanning three to seven years. This economic dynamic drives institutional credit committees to favor structured One Time Settlements, enabling lenders to clean up stressed balance sheets while allowing directors to resolve company liabilities cleanly.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The principle of separate legal personality established in landmark firm jurisprudence protects firm staff from private debts incurred by the trade entity. Under Section 2(34) and Section 149 of the firms Act 2013. board heads act as staff and fiduciaries of the firm body. Meaning debt risk for firm contractual default rests solely with firm assets. When an firms suffers daily work collapse. Supply chain breaks. client ruin. Firm credit facilities inevitably face distress. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Indian banks and Non-Banking money firms reduce this firm shield safety by mandating person promoter private sureties during loan origination. Under the Reserve Bank of India Prudential rules for relief of Stressed Assets. Loans progress through Special Mention Account stages (SMA-0 for 1-30 days late. SMA-1 for 31-60 days. SMA-2 for 61-90 days). Upon reaching day 91. The account is classified as a Non-Performing Asset. Requiring banks to make strict Tier-1 cash bank reserves ranging from 15% to 100%. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Because no-pledge firm loans carry no underlying physical deeds. Lenders cannot use summary attachment under the SARFAESI Act 2002 against unpledged own assets. Instead. Banks face prolonged civil trials or DRT lawsuits spanning three to seven years. This economic dynamic drives bank boards to favor structured One Time deals. This lets lenders to clean up stressed balance sheets while allowing board heads to resolve firm debts cleanly. </p>
             </section>
 
             {/* SECTION 2: FINANCIAL BREAKDOWN & SETTLEMENT MATH */}
@@ -200,12 +184,8 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                   2. Principal vs Penal Breakdown &amp; Director Settlement Math
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Following a corporate loan default, institutional lenders rapidly inflate outstanding balances by compounding overdue interest, applying penalty fees between 24% and 36% annually. Adding legal recovery overheads. Within 12 to 18 months, the claimed debt frequently exceeds the original principal by 40% to 70%. Under the Reserve Bank of India Fair Practices Code and master directions on penalty charges, lenders are prohibited from capitalizing penal interest into core principal balances.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Conducting a forensic loan audit strips away these unapplied charges and illegal compoundings, establishing the baseline principal owed. During formal OTS negotiations, bank credit committees evaluate the net present value of immediate cash recovery versus indefinite litigation costs against personal guarantors, paving the way for large commercial debt relief.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Following a firm loans default. Banks rapidly inflate unpaid dues by growing late rates. Applying penalty fees between 24% and 36% annually. Adding legal claims overheads. Within 12 to 18 months. The claimed debt often exceeds the original main loan by 40% to 70%. Under the Reserve Bank of India Fair Practices Code and master directions on penalty charges. Lenders are prohibited from capitalizing extra fees into core main loan balances. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Conducting a loan audits strips away these unapplied charges and banned compoundings. Establishing the baseline main loan owed. During formal OTS talks. Bank credit boards evaluate the net present value of fast cash claims versus indefinite lawsuits costs against private guarantors. Paving the way for large trade debt relief. </p>
               
               {/* Financial Calculation Card */}
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 md:p-6 space-y-4">
@@ -254,9 +234,7 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                     </div>
                   </div>
                 </div>
-                <p className="text-xs text-slate-600 leading-relaxed">
-                  Upon payment of ₹33 Lakhs, the bank issues a full corporate No Dues Certificate and an irrevocable Deed of Release discharging the personal guarantee, releasing all personal risk permanently.
-                </p>
+                <p className="text-xs text-slate-600 leading-relaxed"> Upon payment of ₹33 Lakhs. The bank issues a full firm No Dues letter and an irrevocable Deed of Release discharging the private sureties. Releasing all private risk permanently. </p>
               </div>
             </section>
 
@@ -268,9 +246,7 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                   3. Corporate Resolution Mechanisms: Comparative Matrix
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When a Private Limited company defaults on commercial dues, management can choose from several dispute pathways. The strategic matrix below outlines how each resolution mechanism directly impacts personal guarantor exposure, financial recovery. Timeline certainty.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When a Private Limited firm defaults on trade dues. handling can choose from several claims pathways. The strategic matrix below outlines how each relief options straight impacts private guarantor exposure. Money claims. Timeline certainty. </p>
 
               {/* 4-Sided Bordered Table */}
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
@@ -286,39 +262,39 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-700">
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/80 transition-colors">
-                      <td className="p-3.5 md:p-4 font-semibold text-slate-900">One Time Settlement (OTS).</td>
-                      <td className="p-3.5 md:p-4 text-emerald-600 font-semibold">40% to 60% Principal + 100% Fees.</td>
+                      <td className="p-3.5 md:p-4 font-semibold text-slate-900">One Time closure (OTS).</td>
+                      <td className="p-3.5 md:p-4 text-emerald-600 font-semibold">40% to 60% main loan + 100% Fees.</td>
                       <td className="p-3.5 md:p-4">30 to 90 Days</td>
                       <td className="p-3.5 md:p-4 text-emerald-700 font-medium">Fully discharged via sanction letter.</td>
-                      <td className="p-3.5 md:p-4">Settled status, repairable in 12-24m.</td>
+                      <td className="p-3.5 md:p-4">Settled status. Repairable in 12-24m.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/80 transition-colors">
-                      <td className="p-3.5 md:p-4 font-semibold text-slate-900">Corporate Debt Restructuring.</td>
+                      <td className="p-3.5 md:p-4 font-semibold text-slate-900">firm debt Restructuring.</td>
                       <td className="p-3.5 md:p-4 text-amber-600 font-medium">0% Haircut (Tenure extension).</td>
                       <td className="p-3.5 md:p-4">60 to 150 Days</td>
-                      <td className="p-3.5 md:p-4 text-amber-700">Guarantees remain active.</td>
-                      <td className="p-3.5 md:p-4">Restructured tag on commercial file.</td>
+                      <td className="p-3.5 md:p-4 text-amber-700">sureties remain active.</td>
+                      <td className="p-3.5 md:p-4">Restructured tag on trade file.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/80 transition-colors">
-                      <td className="p-3.5 md:p-4 font-semibold text-slate-900">DRT / NCLT Litigation.</td>
+                      <td className="p-3.5 md:p-4 font-semibold text-slate-900">DRT / NCLT lawsuits.</td>
                       <td className="p-3.5 md:p-4 text-slate-600">Unpredictable decree.</td>
                       <td className="p-3.5 md:p-4 text-rose-600 font-medium">3 to 7 Years</td>
-                      <td className="p-3.5 md:p-4 text-rose-700">Persistent personal asset exposure.</td>
+                      <td className="p-3.5 md:p-4 text-rose-700">Persistent private asset exposure.</td>
                       <td className="p-3.5 md:p-4 text-rose-600">Suit Filed / Willful Defaulter risk.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/80 transition-colors">
                       <td className="p-3.5 md:p-4 font-semibold text-slate-900">Lok Adalat Mediation.</td>
-                      <td className="p-3.5 md:p-4 text-emerald-600 font-medium">20% to 40% Interest Waivers.</td>
+                      <td className="p-3.5 md:p-4 text-emerald-600 font-medium">20% to 40% rates Waivers.</td>
                       <td className="p-3.5 md:p-4">Single Session</td>
                       <td className="p-3.5 md:p-4">Discharged upon award fulfillment.</td>
                       <td className="p-3.5 md:p-4">Settled through Lok Adalat.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/80 transition-colors">
                       <td className="p-3.5 md:p-4 font-semibold text-slate-900">Unmanaged Default Inaction.</td>
-                      <td className="p-3.5 md:p-4 text-rose-600 font-semibold">0% (Compounding continues).</td>
+                      <td className="p-3.5 md:p-4 text-rose-600 font-semibold">0% (growing continues).</td>
                       <td className="p-3.5 md:p-4">Indefinite</td>
-                      <td className="p-3.5 md:p-4 text-rose-700">Civil attachment &amp; Section 95 IBC.</td>
-                      <td className="p-3.5 md:p-4 text-rose-700 font-bold">Severe degradation (&lt;550 CIBIL).</td>
+                      <td className="p-3.5 md:p-4 text-rose-700">Civil attachment &amp. Section 95 IBC.</td>
+                      <td className="p-3.5 md:p-4 text-rose-700 font-bold">Severe degradation (&lt. 550 CIBIL).</td>
                     </tr>
                   </tbody>
                 </table>
@@ -333,15 +309,9 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                   4. Commercial CIBIL &amp; Director Credit Score Dynamics
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When a corporate borrower defaults, the impact on credit profiles is two-fold. The corporate entity is rated on its Company Credit Report (CCR) with a CIBIL Commercial Rank ranging from CMR-1 (lowest risk) to CMR-10 (highest risk). Simultaneously, every director who signed a personal guarantee is tracked under their individual PAN on their consumer Credit Information Report scored from 300 to 900.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Individual credit scoring algorithms evaluate five primary parameters: Payment History (35%), Credit Exposure &amp. Use (30%), Credit History Length (15%), Credit Diversity (10%), and Recent Credit Inquiries (10%). Defaulting on a guaranteed business loan causes Days Past Due (DPD) to escalate, precipitating an immediate 150 to 250 point drop in the director personal score and pushing commercial ratings to CMR-9 or CMR-10.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Executing an institutional OTS freezes negative DPD escalation and updates the account status to Settled. Under Section 21 of the Credit Information Companies (Regulation) Act (CICRA) 2005, borrowers and guarantors are entitled to accurate reporting post-settlement. By securing an unconditional No Dues Certificate, directors can systematically dispute erroneous default tags and rebuild their credit profiles to 750+ within 12 to 24 months.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When a firm clients defaults. The impact on credit profiles is two-fold. The firm entity is rated on its firm Credit Report (CCR) with a CIBIL trade Rank ranging from CMR-1 (lowest risk) to CMR-10 (highest risk). Simultaneously. Every board heads who signed a private sureties is tracked under their person PAN on their clients Credit Information Report scored from 300 to 900. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> person credit scoring algorithms evaluate five primary parameters: Payment History (35%). Credit Exposure &amp. Use (30%). Credit History Length (15%). Credit Diversity (10%). And Recent Credit Inquiries (10%). Defaulting on a guaranteed firm loans causes Days Past Due (DPD) to escalate. Precipitating an fast 150 to 250 point drop in the board heads private score and pushing trade ratings to CMR-9 or CMR-10. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Executing an bank OTS freezes negative DPD reports and updates the account status to Settled. Under Section 21 of the Credit Information firms (Regulation) Act (CICRA) 2005. Clients and guarantors are entitled to accurate reporting post-closure. By securing an full No Dues letter. board heads can systematically claims erroneous default tags and rebuild their credit profiles to 750+ within 12 to 24 months. </p>
             </section>
 
             {/* SECTION 5: VISUAL INFOGRAPHIC ASSET CARD */}
@@ -374,9 +344,7 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                   6. Step-by-Step SOP: 6 Stages of Business Debt Resolution
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Protecting personal assets and extinguishing corporate loan liabilities requires a disciplined six-stage Standard Operating Procedure executed by seasoned debt resolution counsel.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Protecting own assets and extinguishing firm loans debts requires a disciplined six-stage Standard Operating steps executed by seasoned debt relief counsel. </p>
 
               <div className="space-y-3.5 text-sm md:text-base text-slate-700 leading-relaxed">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -384,9 +352,7 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] font-bold text-xs flex items-center justify-center">1</span>
                     Stage 1: Forensic Loan &amp; Personal Guarantee Audit
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Counsel undertakes a comprehensive audit of commercial loan agreements, sanction letters, and personal guarantee covenants. The audit identifies unauthorized penal compoundings violating RBI directives while establishing the precise legal limits of individual promoter guarantees.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> counsel does a full audit of firm loans pacts. Sanction letters. private sureties covenants. The audit identifies banned penal compoundings violating RBI directives while establishing the precise legal limits of person promoter sureties. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -394,9 +360,7 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] font-bold text-xs flex items-center justify-center">2</span>
                     Stage 2: Financial Hardship Dossier Compilation
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    The enterprise compiles certified financial evidence documenting genuine business insolvency. This includes audited balance sheets, declining GST returns, bank statements reflecting cash deficits. Uncollectable client receivables to substantiate corporate distress.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> The firms compiles certified money proof documenting genuine trade ruin. This includes audited balance sheets. Declining GST returns. Bank records reflecting cash deficits. Uncollectable client receivables to prove firm distress. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -404,9 +368,7 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] font-bold text-xs flex items-center justify-center">3</span>
                     Stage 3: Statutory Legal Notice Defense
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    When lenders issue notices under Section 138 of the Negotiable Instruments Act or Section 25 of the PSSA for dishonoured cheques or mandates, attorneys file structured replies within 15 days to establish genuine commercial disputes and prevent criminal action.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> When lenders issue notices under Section 138 of the Negotiable Instruments Act or Section 25 of the PSSA for dishonoured cheques or mandates. Attorneys file structured replies within 15 days to establish genuine trade claims and prevent police case. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -414,9 +376,7 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] font-bold text-xs flex items-center justify-center">4</span>
                     Stage 4: Bank Credit Committee Bilateral Negotiations
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    A formal OTS proposal is submitted to the bank Stressed Assets Resolution Desk, presenting financial metrics that prove a 40% to 60% discounted lump-sum recovery delivers superior net present value compared to multi-year DRT litigation against personal guarantors.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> A formal OTS proposal is submitted to the bank Stressed Assets relief Desk. Presenting money metrics that prove a 40% to 60% discounted lump-sum claims delivers superior net present value compared to multi-year DRT lawsuits against private guarantors. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -424,9 +384,7 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] font-bold text-xs flex items-center justify-center">5</span>
                     Stage 5: Settlement Sanction Vetting &amp; Guarantee Discharge
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Legal specialists review the formal bank OTS sanction letter to ensure it contains explicit covenants releasing all personal guarantors under Section 133 of the Indian Contract Act 1872 and confirming complete debt extinguishment upon payment.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Legal specialists review the formal bank OTS sanction letter to ensure it contains explicit covenants releasing all private guarantors under Section 133 of the Indian Contract Act 1872 and confirming complete debt extinguishment upon payment. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -434,9 +392,7 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                     <span className="w-6 h-6 rounded-full bg-emerald-100 text-emerald-600 font-bold text-xs flex items-center justify-center">6</span>
                     Stage 6: Direct Remittance &amp; No Dues Certificate Issuance
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    The agreed compromise sum is transferred directly into the bank loan account via RTGS. The lender promptly issues an unconditional No Dues Certificate, releases original title documents and security cheques. Updates credit bureau records to Settled.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> The agreed OTS deal sum is transferred straight into the bank loan account via RTGS. The lender promptly issues an full No Dues letter. Releases original title papers and pledge cheques. Updates CIBIL desk records to Settled. </p>
                 </div>
               </div>
             </section>
@@ -449,9 +405,7 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                   7. Statutory Notice Defense &amp; Director Legal Protections
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                During corporate loan default, financial institutions use various statutory instruments to exert recovery pressure on company leadership. Understanding applicable legal defenses protects directors from coercive recovery tactics and unwarranted personal liability.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> During firm loans default. Banks use various legal instruments to exert claims pressure on firm leadership. Understanding applicable legal defenses protects board heads from coercive claims tactics and unwarranted private debt risk. </p>
 
               <div className="space-y-3.5 text-xs md:text-sm text-slate-700 leading-relaxed">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -459,9 +413,7 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                     <ShieldAlert className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
                     <span>Section 25 Payment &amp; Settlement Systems Act.</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">
-                    When electronic NACH mandates bounce due to insufficient corporate funds, lenders issue Section 25 notices. Legal defense establishes that the mandate dishonour was caused by genuine business distress rather than fraudulent intent, while showing continuous good-faith efforts to reach a structured compromise.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> When electronic NACH mandates bounce due to insufficient firm funds. Lenders issue Section 25 notices. Legal defense establishes that the mandate dishonour was caused by genuine trade distress rather than fraudulent intent. Meanwhile. Showing steady good-faith efforts to reach a structured OTS deal. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -469,9 +421,7 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                     <FileText className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
                     <span>Section 138 &amp; Section 141 Negotiable Instruments Act.</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">
-                    Banks routinely deposit blank security cheques and file complaints against directors under Section 138 read with Section 141. Under established Supreme Court precedent, security cheques do not represent an existing liquidated debt at issuance. Non-signatory or non-executive directors are shielded unless direct operational management is established.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> Banks routinely deposit blank pledge cheques and file reports against board heads under Section 138 read with Section 141. Under established Supreme Court ruling. pledge cheques do not represent an existing liquidated debt at issuance. Non-signatory or non-executive board heads are shielded unless direct daily work handling is established. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -479,9 +429,7 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                     <Scale className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
                     <span>Section 21 Arbitration Act &amp; Perkins Supreme Court Ruling.</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">
-                    Financial institutions often attempt to initiate unilateral arbitration proceedings against corporate debtors and guarantors. Under the Supreme Court judgments in Perkins Eastman and TRF Limited, unilateral arbitrator appointments by lenders are void ab initio under Section 12(5) of the Arbitration Act, halting biased proceedings immediately.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> banks often attempt to initiate unilateral hearing steps against firm debtors and guarantors. Under the Supreme Court judgments in Perkins Eastman and TRF Limited. Unilateral judge appointments by lenders are void ab initio under Section 12(5) of the hearing Act. Halting biased steps promptly. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -489,9 +437,7 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                     <ShieldCheck className="w-4 h-4 text-emerald-600 flex-shrink-0"/>
                     <span>DRT Jurisdiction &amp; RBI Fair Practices Code.</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">
-                    Debt Recovery Tribunal proceedings under Section 19 of the RDBFI Act apply only to claims exceeding ₹20 Lakhs. Simultaneously, the RBI Fair Practices Code strictly prohibits lenders from deploying third-party recovery agents to harass directors, visit personal residences unannounced. Violate privacy rights.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> Debt claims Tribunal steps under Section 19 of the RDBFI Act apply only to claims exceeding ₹20 Lakhs. Simultaneously. The RBI Fair Practices Code strictly prohibits lenders from deploying third-party claims staff to harass board heads. Visit private residences unannounced. Violate rights rights. </p>
                 </div>
               </div>
             </section>
@@ -504,9 +450,7 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                   8. 3-Tier Grievance Redressal &amp; Institutional Matrix
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When recovery branch officials refuse to consider genuine settlement representations, impose arbitrary penal additions. Engage in recovery agent misconduct, directors can use the Reserve Bank of India statutory grievance escalation framework.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When claims branch officials refuse to consider genuine closure representations. Impose arbitrary penal additions. Engage in claims staff misconduct. board heads can use the Reserve Bank of India legal grievance reports rules. </p>
 
               <div className="space-y-3.5 text-xs md:text-sm text-slate-700 leading-relaxed">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -514,9 +458,7 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                     <h3 className="font-bold text-slate-900 text-sm">Tier 1: Bank Internal Grievance Redressal Officer (GRO)</h3>
                     <span className="text-[11px] font-bold text-[#1886ff] bg-blue-50 px-2.5 py-1 rounded-full">7-10 Days</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">
-                    Submit a formal written grievance detailing unauthorized penal capitalization, non-adherence to MSME debt guidelines. Agent harassment, requiring mandatory investigation and response within 7 to 10 working days.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> Submit a formal written grievance detailing banned penal capitalization. Non-adherence to MSME debt rules. staff abuse. Requiring strict investigation and response within 7 to 10 working days. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -524,9 +466,7 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                     <h3 className="font-bold text-slate-900 text-sm">Tier 2: Bank Principal Nodal Officer (PNO)</h3>
                     <span className="text-[11px] font-bold text-[#1886ff] bg-blue-50 px-2.5 py-1 rounded-full">14-21 Days</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">
-                    Escalate unresolved branch disputes to the Principal Nodal Officer at the bank zonal or national headquarters, who possesses executive authority to review settlement proposals with central credit committees within 14 to 21 days.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> Escalate unresolved branch claims to the main loan Nodal staff at the bank zonal or national headquarters. Who possesses executive formal to review offers with central credit boards within 14 to 21 days. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -534,9 +474,7 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                     <h3 className="font-bold text-slate-900 text-sm">Tier 3: RBI Integrated Ombudsman Scheme</h3>
                     <span className="text-[11px] font-bold text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded-full">cms.rbi.org.in</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">
-                    Lodge a statutory complaint through the RBI Integrated Ombudsman portal (cms.rbi.org.in) for non-compliance with Fair Practices Codes, unlawful guarantee enforcement. Unjustified delays in releasing collateral paperwork.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> Lodge a legal reports through the RBI Integrated staff portal (cms.rbi.org.in) for non-compliance with Fair Practices Codes. Unlawful sureties enforcement. Unjustified delays in releasing pledge paperwork. </p>
                 </div>
               </div>
             </section>
@@ -549,9 +487,7 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                   9. Chronological Resolution Milestones: Default to Release
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Corporate loan dispute resolution follows a predictable procedural sequence from the first missed instalment to final guarantee discharge.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> firm loans claims relief follows a predictable procedural sequence from the first missed EMIs to final sureties discharge. </p>
 
               {/* 4-Sided Bordered Timeline Table */}
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
@@ -568,32 +504,32 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/80 transition-colors">
                       <td className="p-3.5 md:p-4 font-semibold text-slate-900">Days 1 to 30</td>
                       <td className="p-3.5 md:p-4 text-blue-700 font-medium">SMA-0 Classification.</td>
-                      <td className="p-3.5 md:p-4">Automated overdue alerts and branch reminders.</td>
-                      <td className="p-3.5 md:p-4">Audit corporate cash flow and isolate personal finances.</td>
+                      <td className="p-3.5 md:p-4">Automated late alerts and branch reminders.</td>
+                      <td className="p-3.5 md:p-4">Audit firm cash flow and isolate private finances.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/80 transition-colors">
                       <td className="p-3.5 md:p-4 font-semibold text-slate-900">Days 31 to 90</td>
                       <td className="p-3.5 md:p-4 text-amber-700 font-medium">SMA-1 / SMA-2</td>
-                      <td className="p-3.5 md:p-4">Loan recall notices and guarantee invocation warnings.</td>
-                      <td className="p-3.5 md:p-4">Compile financial hardship dossier and audit ledgers.</td>
+                      <td className="p-3.5 md:p-4">Loan recall notices and sureties invocation warnings.</td>
+                      <td className="p-3.5 md:p-4">Compile hardship dossier and audit ledgers.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/80 transition-colors">
                       <td className="p-3.5 md:p-4 font-semibold text-slate-900">Day 91+</td>
                       <td className="p-3.5 md:p-4 text-rose-700 font-semibold">NPA Classification.</td>
-                      <td className="p-3.5 md:p-4">Bank executes mandatory Tier-1 capital provisioning.</td>
+                      <td className="p-3.5 md:p-4">Bank executes strict Tier-1 cash bank reserves.</td>
                       <td className="p-3.5 md:p-4">Submit structured OTS proposal to Stressed Assets Desk.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/80 transition-colors">
                       <td className="p-3.5 md:p-4 font-semibold text-slate-900">Month 4 to 5</td>
-                      <td className="p-3.5 md:p-4 text-purple-700 font-medium">Active Settlement.</td>
+                      <td className="p-3.5 md:p-4 text-purple-700 font-medium">Active closure.</td>
                       <td className="p-3.5 md:p-4">Issuance of Section 138 NI Act / Section 25 notices.</td>
-                      <td className="p-3.5 md:p-4">File formal statutory defenses and attend credit hearings.</td>
+                      <td className="p-3.5 md:p-4">File formal legal defenses and attend credit hearings.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/80 transition-colors">
                       <td className="p-3.5 md:p-4 font-semibold text-slate-900">Month 6</td>
                       <td className="p-3.5 md:p-4 text-emerald-700 font-bold">Complete Closure.</td>
-                      <td className="p-3.5 md:p-4">Sanction letter issued with full guarantee release.</td>
-                      <td className="p-3.5 md:p-4">pay settlement sum, secure NDC, and restore CIBIL.</td>
+                      <td className="p-3.5 md:p-4">Sanction letter issued with full sureties release.</td>
+                      <td className="p-3.5 md:p-4">Pay closure sum. Secure NDC. And restore CIBIL.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -608,37 +544,27 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                   10. Specialized Commercial Scenarios &amp; Director Defense
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Corporate loan defaults frequently intersect with complex operational and governance realities. Examining these specialized scenarios illustrates how directors protect their rights in high-stakes situation.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> firm loans defaults often intersect with complex daily work and governance realities. Examining these expert scenarios illustrates how board heads protect their rights in high-stakes situation. </p>
 
               <div className="space-y-3.5 text-xs md:text-sm text-slate-700 leading-relaxed">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
                   <h3 className="font-bold text-slate-900 text-sm">Multi-Director Co-Guarantee Liability Allocation</h3>
-                  <p className="text-slate-600 leading-relaxed">
-                    When multiple promoters execute joint and several guarantees, lenders frequently pursue the director with the most accessible personal assets. Legal representation ensures settlement negotiations encompass all guarantors collectively, executing comprehensive compromise releases under Section 138 of the Indian Contract Act to prevent internal contribution disputes.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> When multiple promoters execute joint and several sureties. Lenders often pursue the board heads with the most accessible own assets. Legal legal help ensures talks encompass all guarantors collectively. Executing full OTS deal releases under Section 138 of the Indian Contract Act to prevent internal contribution claims. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
                   <h3 className="font-bold text-slate-900 text-sm">Resigned Director Exposure for Legacy Company Debt</h3>
-                  <p className="text-slate-600 leading-relaxed">
-                    Resigning as a director under Section 168 of the Companies Act does not automatically revoke personal guarantees given to banks. Legal counsel serves formal revocation notices under Section 130 of the Contract Act for future advances and negotiates complete substitution or release of the outgoing director guarantees.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> Resigning as a board heads under Section 168 of the firms Act does not automatically revoke private sureties given to banks. Legal counsel serves formal revocation notices under Section 130 of the Contract Act for future advances and negotiates complete substitution or release of the outgoing board heads sureties. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
                   <h3 className="font-bold text-slate-900 text-sm">Section 95 IBC Personal Guarantor Insolvency Defense</h3>
-                  <p className="text-slate-600 leading-relaxed">
-                    Creditors initiating personal insolvency against directors under Section 95 of the IBC trigger an automatic interim moratorium under Section 96, staying all legal proceedings. Leveraging this statutory window allows counsel to present formal repayment plans that settle corporate liabilities and prevent personal bankruptcy.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> lenders initiating private ruin against board heads under Section 95 of the IBC trigger an automatic interim moratorium under Section 96. Staying all legal steps. Leveraging this legal window allows counsel to present formal payment plans that settle firm debts and prevent private ruin. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
                   <h3 className="font-bold text-slate-900 text-sm">Asset Reconstruction Company (ARC) Debt Assignments</h3>
-                  <p className="text-slate-600 leading-relaxed">
-                    When stressed corporate loans are assigned to ARCs under Section 5 of the SARFAESI Act at deep discounts, ARCs possess extensive commercial flexibility. Stressed company directors can negotiate aggressive lump-sum compromise settlements securing 50% to 70% debt waivers and immediate guarantee releases.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> When stressed firm loans are assigned to ARCs under Section 5 of the SARFAESI Act at deep discounts. ARCs possess extensive trade flexibility. Stressed firm board heads can settle harsh lump-sum OTS deals securing 50% to 70% debt waivers and fast sureties releases. </p>
                 </div>
               </div>
             </section>
@@ -656,9 +582,7 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                   Frequently Asked Questions: Director Loan Liability
                 </h2>
               </div>
-              <p className="text-xs md:text-sm text-slate-600">
-                Authoritative legal answers regarding company director liability, personal guarantee enforcement, and business loan settlement protocols in India.
-              </p>
+              <p className="text-xs md:text-sm text-slate-600"> Authoritative legal answers regarding firm board heads debt risk. Private sureties enforcement. And firm loans closure protocols in India. </p>
 
               <div className="space-y-3">
                 {faqs.map((faq, index) => {
@@ -684,9 +608,7 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                   Statutory Citations &amp; Institutional Authorities
                 </h2>
               </div>
-              <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                CredSettle resolution procedures strictly comply with established statutory frameworks including the Companies Act (2013), Indian Contract Act (1872), Insolvency and Bankruptcy Code (2016), SARFAESI Act (2002), RDBFI Act (1993), Section 138 Negotiable Instruments Act (1881), Section 25 PSSA (2007). Reserve Bank of India Prudential Master Directions.
-              </p>
+              <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> CredSettle relief steps strictly comply with established legal rules including the firms Act (2013). Indian Contract Act (1872). ruin and ruin Code (2016). SARFAESI Act (2002). RDBFI Act (1993). Section 138 Negotiable Instruments Act (1881). Section 25 PSSA (2007). Reserve Bank of India Prudential Master Directions. </p>
 
               {/* Outbound Badges */}
               <div className="space-y-2 pt-2">
@@ -776,14 +698,10 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                   <Link href="/author/ashish-jhangra" className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional.
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief expert. </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Specialized in corporate debt resolution, director personal guarantee protection, DRT litigation defense, and banking compromise negotiations.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> expert in firm debt relief. board heads private sureties safety. DRT lawsuits defense. And banking OTS deal talks. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
                   <span>View Author Profile.</span>
@@ -801,12 +719,8 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
                 <span className="text-[10px] font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
                   100% CONFIDENTIAL DIRECTOR PROTECTION.
                 </span>
-                <p className="text-lg md:text-xl font-bold text-white leading-snug">
-                  Facing Personal Guarantee Invocation?
-                </p>
-                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
-                  Our corporate debt specialists protect your personal assets, represent your case before credit committees. Secure complete legal releases.
-                </p>
+                <p className="text-lg md:text-xl font-bold text-white leading-snug"> Facing private sureties Invocation? </p>
+                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal"> Our firm debt specialists protect your own assets. Represent your case before credit boards. Secure complete legal releases. </p>
               </div>
               <Link href="/contact" className="block w-full bg-white text-blue-900 hover:text-[#1886ff] py-3 px-4 rounded-full font-bold text-sm hover:bg-slate-50 transition-all shadow-md">
                 Defend Your Personal Assets
@@ -829,47 +743,29 @@ export default function CompanyDirectorLiabilityForBusinessLoanClient() {
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
               <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage.</p>
               <ul className="space-y-2 text-slate-600">
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Zero Upfront Risk:</strong> Transparent success-linked fees.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Direct Bank Remittance:</strong> No third-party escrow pools.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Complete Guarantee Discharge:</strong> Legally binding releases.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Pan-India Representation:</strong> Experienced corporate counsel.</span>
-                </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Zero Upfront Risk:</strong> Transparent success-linked fees.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Direct Bank Remittance:</strong> No third-party escrow pools.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Complete sureties Discharge:</strong> by law binding releases.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Pan-India legal help:</strong> skilled firm counsel.</span> </li>
               </ul>
             </div>
 
             {/* Card 4: Related Guides */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
-              <p className="font-bold text-slate-900 text-sm">Related Corporate Guides.</p>
+              <p className="font-bold text-slate-900 text-sm">Related firm Guides.</p>
               <div className="space-y-2.5">
                 <Link href="/best-lawyer-for-company-loan-matters" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Best Lawyer for Company Loan Matters.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Best counsel for firm Loan Matters. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Corporate debt guide &rarr;.</span>
                 </Link>
 
                 <Link href="/business-loan-settlement-process" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Business Loan Settlement Process.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> firm loans steps. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">MSME resolution &rarr;.</span>
                 </Link>
 
                 <Link href="/best-lawyer-for-msme-loan-recovery-defence" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    MSME Loan Recovery Defense in India.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> MSME Loan claims Defense in India. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Statutory protections &rarr;.</span>
                 </Link>
               </div>

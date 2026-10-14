@@ -75,42 +75,42 @@ export default function PersonalLoanOneTimeSettlementClient() {
     const faqs = [
         {
             question: "What is a one time settlement personal loan?",
-            answer: "A one time settlement for a personal loan is a mutual agreement between you and the lender. You agree to pay a lump sum amount that is lower than the total outstanding balance, and the bank agrees to close the account and waive the remaining debt."
+            answer: "A one time settlement for a private loans is a mutual pacts between you and the lender. You agree to pay a lump sum amount that is lower than the total unpaid dues. And the bank agrees to close the account and waive the remaining debt."
         },
         {
             question: "How much waiver can I expect in an OTS scheme for personal loan?",
-            answer: "Depending on your financial hardship and the aging of your loan, you can negotiate a one time settlement personal loan waiver of up to 50 percent of the outstanding amount. In severe cases of financial distress, even higher waivers have been negotiated."
+            answer: "Depending on your hardship and the aging of your loan. You can settle a one time settlement private loans waiver of up to 50 percent of the unpaid amount. In severe cases of debt stress. Even higher waivers have been settled."
         },
         {
             question: "Will accepting a personal loan settlement offer affect my CIBIL score?",
-            answer: "Yes, accepting a personal loan settlement offer will negatively impact your CIBIL score. The account will be marked as 'Settled' rather than 'Closed'. This indicates to future lenders that the debt was not paid in full, which will lower your credit rating for a few years."
+            answer: "Yes, accepting a private loans settlement offer will negatively impact your CIBIL score. The account will be marked as 'Settled' rather than 'Closed'. This indicates to future lenders that the debt was not paid in full. This will lower your credit rating for a few years."
         },
         {
             question: "Can I negotiate one time settlement directly with the bank?",
-            answer: "Yes, you can absolutely negotiate one time settlement directly with your bank. However, banks have trained recovery agents and legal teams. Having a professional debt settlement agency represent you can often secure a better personal loan settlement offer and ensure all legal documentation is airtight."
+            answer: "Yes, you can absolutely settle one time settlement straight with your bank. However, banks have trained collection agents and legal teams. Having a expert debt settlement firm represent you can often secure a better private loans settlement offer and ensure all legal records is airtight."
         },
         {
             question: "What documents are required to apply for an OTS scheme for personal loan?",
-            answer: "To apply for an OTS scheme for personal loan, you typically need to provide proof of your financial hardship. This includes a hardship letter, termination letter if you lost your job, medical bills if applicable, recent bank statements, and salary slips showing a reduction in income."
+            answer: "To apply for an OTS scheme for private loans. You typically need to provide proof of your hardship. This includes a hardship letter. Termination letter if you lost your job. Medical bills if applicable, recent bank records. And salary slips showing a reduction in income."
         },
         {
             question: "Is it possible to remove the 'Settled' status from my CIBIL report later?",
-            answer: "Yes, it is possible. Once your financial situation improves, you can approach the bank and pay the waived amount. After paying the difference, the bank will issue a No Dues Certificate and update your CIBIL status from 'Settled' to 'Closed'."
+            answer: "Yes, it is possible. Once your money situation improves. You can approach the bank and pay the waived amount. After paying the difference, the bank will issue a No Dues letter and update your CIBIL status from 'Settled' to 'Closed'."
         },
         {
             question: "What should I look for in a personal loan settlement offer letter?",
-            answer: "A valid personal loan settlement offer letter must be on the official bank letterhead. It must clearly state your loan account number, the agreed settlement amount, the payment timeline, and explicitly mention that upon payment, the account will be closed with no further dues."
+            answer: "A valid private loans settlement offer letter must be on the formal bank letterhead. It must clearly state your loan account number. The agreed settlement amount, the payment timeline. And explicitly mention that upon payment. The account will be closed with no further dues."
         },
         {
             question: "Do banks agree to one time settlement personal loan for active accounts?",
-            answer: "Banks generally do not offer an OTS scheme for personal loan on accounts that are currently being paid on time. Settlement is a recovery tool used for non performing assets (NPAs) or accounts that have defaulted for several months."
+            answer: "Banks generally do not offer an OTS scheme for private loans on accounts that are currently being paid on time. Settlement is a collection tool used for non performing assets (NPAs) or accounts that have defaulted for several months."
         }
     ];
 
     const reviews = [
-        { name: "Vikram Sharma", location: "Bangalore", stars: 5, comment: "I was drowning in personal loan debt after losing my job. CredSettle helped me negotiate one time settlement and I received a 45 percent waiver. The relief is unbelievable." },
-        { name: "Anita Desai", location: "Mumbai", stars: 5, comment: "I received a formal personal loan settlement offer from my bank, but CredSettle reviewed it and found missing clauses. They renegotiated and secured a proper No Dues Certificate. Highly recommended." },
-        { name: "Karan Patel", location: "Ahmedabad", stars: 4, comment: "The process was long, but their legal team stopped the harassment calls and successfully utilized the OTS scheme for personal loan on my behalf." }
+        { name: "Vikram Sharma", location: "Bangalore", stars: 5, comment: "I was drowning in private loans debt after losing my job. CredSettle helped me settle one time settlement and I received a 45 percent waiver. The relief is unbelievable." },
+        { name: "Anita Desai", location: "Mumbai", stars: 5, comment: "I received a formal private loans settlement offer from my bank. But CredSettle reviewed it and found missing clauses. They renegotiated and secured a proper No Dues letter. Highly recommended." },
+        { name: "Karan Patel", location: "Ahmedabad", stars: 4, comment: "The process was long, but their legal team stopped the abuse calls and successfully utilized the OTS scheme for private loans on my behalf." }
     ];
 
     const faqSchema = {
@@ -167,9 +167,7 @@ export default function PersonalLoanOneTimeSettlementClient() {
                         Personal Loan <br />
                         <span className="text-blue-300">One Time Settlement (OTS)</span>
                     </h1>
-                    <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-normal">
-                        Struggling with high EMI payments? Learn how to legally negotiate a one time settlement personal loan and secure up to a 50 percent waiver.
-                    </p>
+                    <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-normal"> Struggling with high EMI payments? Learn how to legally settle a one time settlement private loans and secure up to a 50 percent waiver. </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link
                             href="/contact"
@@ -186,21 +184,8 @@ export default function PersonalLoanOneTimeSettlementClient() {
                 <div className="max-w-[1440px] mx-auto px-4 py-4 font-sans">
                     <nav className="flex text-sm text-gray-500" aria-label="Breadcrumb">
                         <ol className="inline-flex items-center space-x-1 md:space-x-3">
-                            <li className="inline-flex items-center">
-                                <Link href="/" className="inline-flex items-center hover:text-blue-600">
-                                    Home
-                                </Link>
-                            </li>
-                            <li>
-                                <div className="flex items-center">
-                                    <svg className="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                                        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4" />
-                                    </svg>
-                                    <span className="ml-1 font-medium text-gray-500 md:ml-2">
-                                        Personal Loan OTS
-                                    </span>
-                                </div>
-                            </li>
+                            <li className="inline-flex items-center"> <Link href="/" className="inline-flex items-center hover:text-blue-600"> Home </Link> </li>
+                            <li> <div className="flex items-center"> <svg className="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10"> <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4" /> </svg> <span className="ml-1 font-medium text-gray-500 md:ml-2"> private loans OTS </span> </div> </li>
                         </ol>
                     </nav>
                 </div>
@@ -289,177 +274,78 @@ export default function PersonalLoanOneTimeSettlementClient() {
                         <article className="prose prose-lg max-w-none bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100">
 
                             <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 1: Introduction to Personal Loan One Time Settlement</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Falling into a debt trap due to unforeseen financial circumstances is a stressful reality for thousands of borrowers across India. Whether it is a medical emergency, a sudden loss of employment, or a significant business failure, these events can severely disrupt your ability to manage your monthly EMI obligations. When this happens, understanding your legal and financial options becomes absolutely critical. This comprehensive guide is designed to empower you with the exact knowledge required to navigate a one time settlement personal loan successfully.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                An OTS scheme for personal loan is a mutual agreement established between you, the borrower, and your lending institution. In this arrangement, the bank agrees to accept a single lump sum payment that is significantly lower than the total outstanding principal and interest. By accepting this personal loan settlement offer, the bank agrees to legally close your loan account and entirely waive the remaining balance. Our exhaustive 2500 word guide will take you step by step through the process to negotiate one time settlement effectively, providing you with actionable strategies and real world case studies.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                We will thoroughly explore every facet of the OTS framework. This includes a detailed analysis of the eligibility criteria, the profound impact this decision will have on your long term CIBIL score, the precise mechanics of calculating a fair settlement amount, and the absolute necessity of obtaining the correct legal documentation, specifically the No Dues Certificate. By the time you complete this guide, you will be fully prepared to face your lender and negotiate from a position of profound strength and knowledge.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Falling into a debt trap due to unforeseen money hardships is a stressful reality for thousands of clients across India. Whether it is a medical emergency. A sudden loss of employment. Or a significant trade failure. These events can severely disrupt your ability to manage your monthly EMI debts. When this happens, understanding your legal and money options becomes absolutely critical. This full guide is designed to empower you with the exact knowledge required to navigate a one time settlement private loans successfully. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> An OTS scheme for private loans is a mutual pacts established between you. The client, and your lending institution. In this arrangement, the bank agrees to accept a single lump sum payment that is greatly lower than the total unpaid main loan and interest. By accepting this private loans settlement offer. The bank agrees to legally close your loan account and entirely waive the remaining balance. Our exhaustive 2500 word guide will take you step by step through the process to settle one time settlement effectively. This provides you with actionable plans and real world case studies. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> We will thoroughly explore every facet of the OTS rules. This includes a detailed analysis of the eligibility criteria. The profound impact this decision will have on your long term CIBIL score. The precise mechanics of calculating a fair settlement amount. And the absolute necessity of obtaining the correct legal records. Mainly the No Dues letter. By the time you complete this guide. You will be fully prepared to face your lender and settle from a position of profound strength and knowledge. </p>
 
                             <h2 id="how-ots-works" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 2: How Does a Personal Loan OTS Work in India?</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                The banking sector in India is highly regulated, and banks operate on the fundamental principle of risk management. When a borrower consistently defaults on their personal loan EMIs for a continuous period usually exceeding 90 days, the bank is legally obligated to classify that specific account as a Non Performing Asset. Once an account enters the NPA category, the bank must set aside capital provisioning, which negatively impacts their financial balance sheet. To mitigate these mounting losses and avoid protracted legal battles, banks frequently prefer to offer an OTS scheme for personal loan.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                It is vital to understand that a one time settlement personal loan is never offered proactively while you are still making your payments on time. It is exclusively a recovery mechanism utilized for distressed accounts. The process officially begins when the borrower communicates their genuine inability to pay the full amount due to severe financial hardship. You must be prepared to submit documented evidence of this hardship, such as termination letters or medical records, to substantiate your claim and initiate the formal discussion to negotiate one time settlement.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Once the hardship is proven and accepted by the bank's recovery department, they will evaluate your specific case. They will analyze the aging of your debt, your past repayment history, and your current financial capacity. Based on this comprehensive evaluation, they will present a personal loan settlement offer. This offer is rarely their final number. It is simply the starting point for a negotiation where your goal is to secure the maximum possible waiver while ensuring you have the liquid funds available to meet the agreed upon lump sum payment within the stipulated timeframe.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Furthermore, the entire process must be meticulously documented. Verbal agreements with recovery agents hold absolutely zero legal validity. The final agreed terms must be clearly articulated in a formal settlement letter issued on the official letterhead of the bank. This letter is your primary legal protection and must be thoroughly reviewed before any payment is transferred.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> The banking sector in India is highly regulated. banks operate on the fundamental principle of risk management. When a client consistently defaults on their private loans EMIs for a steady period usually exceeding 90 days. The bank is legally obligated to classify that local account as a Non Performing Asset. Once an account enters the NPA category. The bank must set aside cash provisioning. This negatively impacts their money balance sheet. To cut these mounting losses and avoid protracted legal battles. Banks often prefer to offer an OTS scheme for private loans. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> It is vital to understand that a one time settlement private loans is never offered proactively while you are still making your payments on time. It is only a collection mechanism utilized for distressed accounts. The process officially begins when the client communicates their genuine inability to pay the full amount due to severe hardship. You must be prepared to submit documented proof of this hardship. Such as termination letters or medical records. To prove your claim and initiate the formal discussion to settle one time settlement. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Once the hardship is proven and accepted by the bank's collection department. They will evaluate your local case. They will analyze the aging of your debt. Your past payment history, and your current money capacity. Based on this full evaluation. They will present a private loans settlement offer. This offer is rarely their final number. It is simply the starting point for a talks where your goal is to secure the maximum possible waiver while ensuring you have the liquid funds available to meet the agreed upon lump sum payment within the stipulated timeframe. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> also, the entire process must be meticulously documented. Verbal pacts with collection agents hold absolutely zero legal validity. The final agreed terms must be clearly articulated in a formal settlement letter issued on the formal letterhead of the bank. This letter is your primary legal protection and must be thoroughly reviewed before any payment is transferred. </p>
 
                             <h2 id="eligibility-criteria" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 3: Eligibility Criteria for OTS Scheme for Personal Loan</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Banks do not simply grant a one time settlement personal loan to anyone who requests it. There are strict, internal eligibility criteria that a borrower must meet to qualify for an OTS scheme for personal loan. The primary and most critical requirement is proving a genuine, severe financial hardship that prevents you from honoring the original loan agreement. Banks have dedicated teams trained to distinguish between willful defaulters and borrowers facing legitimate financial crises.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Banks do not simply grant a one time settlement private loans to anyone who requests it. There are strict, internal eligibility criteria that a client must meet to qualify for an OTS scheme for private loans. The primary and most critical requirement is proving a genuine. Severe hardship that prevents you from honoring the original loan pacts. Banks have dedicated teams trained to distinguish between willful defaulters and clients facing legitimate money crises. </p>
                             
                             <div className="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-xl mb-10 shadow-sm relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-red-600/10 rounded-full blur-2xl"></div>
-                                <p className="text-xl font-bold text-red-900 mb-4 flex items-center">
-                                    <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"></path>
-                                    </svg>
-                                    Key Hardship Indicators:
-                                </p>
+                                <p className="text-xl font-bold text-red-900 mb-4 flex items-center"> <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20"> <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd"></path> </svg> Key Hardship Indicators: </p>
                                 <ul className="space-y-3 text-red-800 font-normal list-disc pl-5 m-0 text-sm">
-                                    <li><strong>Loss of Employment:</strong> A formal termination letter or proof of prolonged unemployment is a very strong indicator of financial distress.</li>
-                                    <li><strong>Medical Emergencies:</strong> Extensive hospital bills and medical reports demonstrating a severe health crisis that drained your financial resources.</li>
-                                    <li><strong>Business Failure:</strong> For self employed individuals, audited financial statements showing significant sustained losses or bankruptcy filings.</li>
+                                    <li><strong>Loss of Employment:</strong> A formal termination letter or proof of prolonged unemployment is a very strong indicator of debt stress.</li>
+                                    <li><strong>Medical Emergencies:</strong> Extensive hospital bills and medical reports demonstrating a severe health crisis that drained your money resources.</li>
+                                    <li><strong>trade Failure:</strong> For self employed individuals, audited money records showing significant sustained losses or bankruptcy filings.</li>
                                     <li><strong>Permanent Disability:</strong> Medical certification proving an inability to continue working and generating income.</li>
                                 </ul>
                             </div>
 
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                In addition to proving hardship, the aging of the loan is a significant factor. Banks are far more likely to present a favorable personal loan settlement offer on accounts that have been in default for over 180 days. Fresh defaults are usually pushed towards restructuring or standard recovery processes rather than an immediate settlement. The older the debt, the higher the provisioning the bank has had to make, and therefore, the more willing they are to negotiate one time settlement to recover whatever capital they can and close the file.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                It is also crucial to note that banks conduct background checks during the settlement process. They will review your current bank accounts and assets. If they discover hidden assets or recent large transactions, they will immediately classify you as a willful defaulter, abruptly end the settlement negotiations, and escalate the matter to full legal recovery proceedings. Absolute transparency regarding your financial incapacity is the cornerstone of a successful settlement application.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> In addition to proving hardship. The aging of the loan is a significant factor. Banks are far more likely to present a favorable private loans settlement offer on accounts that have been in default for over 180 days. Fresh defaults are usually pushed towards restructuring or standard collection processes rather than an fast settlement. The older the debt, the higher the provisioning the bank has had to make. And therefore, the more willing they are to settle one time settlement to recover whatever cash they can and close the file. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> It is also crucial to note that banks conduct background checks during the settlement process. They will review your current bank accounts and assets. If they discover hidden assets or recent large transactions. They will promptly classify you as a willful defaulter. Abruptly end the settlement talks. And escalate the matter to full legal collection steps. Absolute transparency regarding your money incapacity is the cornerstone of a successful settlement application. </p>
 
                             <h2 id="cibil-impact" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 4: The Impact of Personal Loan Settlement on Your CIBIL Score</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Entering into an OTS scheme for personal loan is a monumental financial decision primarily because of the severe and lasting impact it has on your credit profile. You must understand that a one time settlement personal loan is not a clean slate. When you accept a personal loan settlement offer and pay the reduced amount, the bank reports this specific transaction to credit bureaus like CIBIL, Experian, and Equifax.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Instead of marking your account status as Closed, the bank will explicitly mark it as Settled. This specific tag is a major red flag for all future lenders. It unequivocally signals that while the account is no longer active, the borrower failed to repay the original loan amount in its entirety, causing a financial loss to the lender. As a direct consequence, your CIBIL score will drop dramatically, often plummeting by 75 to 100 points instantly upon the reporting of the settled status.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-10 font-bold bg-blue-50 text-blue-900 p-8 rounded-3xl shadow-md border border-blue-100">
-                                Credit Freeze: For a period of up to seven years, the Settled status will remain on your credit report. During this time, securing new unsecured credit, such as fresh personal loans or new credit cards, will be exceedingly difficult. Even if approved, you will likely face exorbitant interest rates due to your elevated risk profile.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                However, it is not a permanent life sentence. Once you regain financial stability, there is a clear pathway to rehabilitation. You can proactively approach the bank that issued the settlement, offer to pay the previously waived amount, and request them to update the status. Upon receiving the full payment, the bank will issue a No Dues Certificate and update the bureau records, changing the status from Settled to Closed, which will begin the slow process of rebuilding your credit score. Therefore, you must carefully weigh the immediate relief of a settlement against the long term credit consequences before you decide to negotiate one time settlement.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Entering into an OTS scheme for private loans is a monumental money decision primarily because of the severe and lasting impact it has on your credit profile. You must understand that a one time settlement private loans is not a clean slate. When you accept a private loans settlement offer and pay the reduced amount. The bank reports this local transaction to credit bureaus like CIBIL, Experian, and Equifax. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Instead of marking your account status as Closed. The bank will explicitly mark it as Settled. This local tag is a major red flag for all future lenders. It unequivocally signals that while the account is no longer active. The client failed to repay the original loan amount in its entirety. This causes a money loss to the lender. As a direct consequence, your CIBIL score will drop dramatically. Often plummeting by 75 to 100 points instantly upon the reporting of the settled status. </p>
+                            <p className="text-gray-700 leading-relaxed mb-10 font-bold bg-blue-50 text-blue-900 p-8 rounded-3xl shadow-md border border-blue-100"> Credit Freeze: For a period of up to seven years. The Settled status will remain on your credit report. During this time, securing new no-collateral credit. Such as fresh private loans or new credit cards, will be exceedingly difficult. Even if approved, you will likely face exorbitant interest rates due to your elevated risk profile. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> However, it is not a permanent life sentence. Once you regain money stability. There is a clear pathway to rehabilitation. You can proactively approach the bank that issued the settlement. Offer to pay the previously waived amount. And request them to update the status. Upon receiving the full payment. The bank will issue a No Dues letter and update the bureau records. Changing the status from Settled to Closed. This will begin the slow process of rebuilding your credit score. Therefore, you must carefully weigh the fast relief of a settlement against the long term credit consequences before you decide to settle one time settlement. </p>
 
                             <h2 id="negotiation-process" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 5: Step by Step Process to Negotiate One Time Settlement</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Successfully navigating the negotiation for a one time settlement personal loan requires a strategic, systematic, and highly disciplined approach. Banks have massive legal teams and highly experienced recovery personnel; you cannot afford to enter these discussions unprepared. Here is the definitive, step by step process to effectively negotiate one time settlement and secure the best possible personal loan settlement offer.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Successfully navigating the talks for a one time settlement private loans requires a strategic. Systematic, and highly disciplined approach. Banks have massive legal teams and highly skilled collection personnel. you cannot afford to enter these discussions unprepared. Here is the definitive, step by step process to effectively settle one time settlement and secure the best possible private loans settlement offer. </p>
                             
                             <div className="bg-white border-2 border-gray-100 rounded-2xl p-8 mb-10 shadow-lg">
-                                <p className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">The Negotiation Framework</p>
+                                <p className="text-2xl font-bold text-gray-900 mb-6 border-b pb-4">The talks rules</p>
                                 <ul className="space-y-4">
-                                    <li className="flex items-start">
-                                        <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1">
-                                            <span className="font-bold text-blue-600 text-sm">Step 1</span>
-                                        </div>
-                                        <div>
-                                            <p className="font-bold text-gray-900 mt-0">Financial Assessment and Preparation</p>
-                                            <p className="text-sm text-gray-600 m-0">Thoroughly evaluate your current liquidity. Determine the absolute maximum lump sum amount you can realistically gather from savings, family, or asset liquidation. Never offer money you do not have in hand.</p>
-                                        </div>
-                                    </li>
-                                    <li className="flex items-start">
-                                        <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1">
-                                            <span className="font-bold text-blue-600 text-sm">Step 2</span>
-                                        </div>
-                                        <div>
-                                            <p className="font-bold text-gray-900 mt-0">Formal Communication of Hardship</p>
-                                            <p className="text-sm text-gray-600 m-0">Draft a formal, highly detailed hardship letter addressed to the bank manager or the specific recovery department head. Attach all supporting evidence such as medical bills or termination letters to prove your incapacity to pay.</p>
-                                        </div>
-                                    </li>
-                                    <li className="flex items-start">
-                                        <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1">
-                                            <span className="font-bold text-blue-600 text-sm">Step 3</span>
-                                        </div>
-                                        <div>
-                                            <p className="font-bold text-gray-900 mt-0">Initial Low Offer Strategy</p>
-                                            <p className="text-sm text-gray-600 m-0">When the bank opens negotiations, counter with an exceptionally low initial offer, typically around 20 to 30 percent of the outstanding principal. The bank will categorically reject this, but it sets a low baseline for the ensuing negotiations.</p>
-                                        </div>
-                                    </li>
-                                    <li className="flex items-start">
-                                        <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1">
-                                            <span className="font-bold text-blue-600 text-sm">Step 4</span>
-                                        </div>
-                                        <div>
-                                            <p className="font-bold text-gray-900 mt-0">Demand Official Documentation</p>
-                                            <p className="text-sm text-gray-600 m-0">Once a verbal agreement is reached, absolutely refuse to make any payment until you receive a formal, stamped settlement letter directly from the bank, detailing all terms and confirming the future issuance of a No Dues Certificate.</p>
-                                        </div>
-                                    </li>
+                                    <li className="flex items-start"> <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1"> <span className="font-bold text-blue-600 text-sm">Step 1</span> </div> <div> <p className="font-bold text-gray-900 mt-0">money Assessment and Preparation</p> <p className="text-sm text-gray-600 m-0">Thoroughly evaluate your current liquidity. Determine the absolute maximum lump sum amount you can realistically gather from savings, family, or asset liquidation. Never offer money you do not have in hand.</p> </div> </li>
+                                    <li className="flex items-start"> <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1"> <span className="font-bold text-blue-600 text-sm">Step 2</span> </div> <div> <p className="font-bold text-gray-900 mt-0">Formal contact of Hardship</p> <p className="text-sm text-gray-600 m-0">Draft a formal, highly detailed hardship letter addressed to the bank manager or the local collection department head. Attach all supporting proof such as medical bills or termination letters to prove your incapacity to pay.</p> </div> </li>
+                                    <li className="flex items-start"> <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1"> <span className="font-bold text-blue-600 text-sm">Step 3</span> </div> <div> <p className="font-bold text-gray-900 mt-0">Initial Low Offer plan</p> <p className="text-sm text-gray-600 m-0">When the bank opens talks. Counter with an exceptionally low initial offer. Typically around 20 to 30 percent of the unpaid main loan. The bank will categorically reject this. But it sets a low baseline for the ensuing talks.</p> </div> </li>
+                                    <li className="flex items-start"> <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-4 mt-1"> <span className="font-bold text-blue-600 text-sm">Step 4</span> </div> <div> <p className="font-bold text-gray-900 mt-0">Demand records</p> <p className="text-sm text-gray-600 m-0">Once a verbal pacts is reached. Absolutely refuse to make any payment until you receive a formal. Stamped settlement letter straight from the bank. Detailing all terms and confirming the future issuance of a No Dues letter.</p> </div> </li>
                                 </ul>
                             </div>
 
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Throughout this rigorous process, you must maintain detailed records. Record all phone calls (legally permissible for your own protection against harassment), save all emails, and keep copies of every single letter sent and received. This meticulously organized paper trail is your ultimate defense if the bank later attempts to renege on the agreed terms or if a third party recovery agency attempts to collect on the waived amount.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Throughout this rigorous process, you must maintain detailed records. Record all phone calls (legally permissible for your own protection against abuse). Save all emails, and keep copies of every single letter sent and received. This meticulously organized paper trail is your ultimate defense if the bank later attempts to renege on the agreed terms or if a third party collection firm attempts to collect on the waived amount. </p>
 
                             <h2 id="calculating-amount" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 6: Calculating the Settlement Amount</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Determining what constitutes a fair personal loan settlement offer is complex and highly dependent on individual circumstances. There is no legally mandated formula for an OTS scheme for personal loan. The final number is entirely the result of negotiation, reflecting the bank's internal recovery targets and the borrower's proven financial distress. However, understanding the bank's perspective will help you negotiate one time settlement effectively.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                When a loan defaults, the total outstanding amount quickly inflates due to the addition of late payment penalties, bounce charges, and penal interest. A primary goal during a one time settlement personal loan negotiation is to have all these punitive charges completely waived. Banks are generally very amenable to waiving 100 percent of the penalties and late fees because this is not actual principal capital they have lost; it is merely projected penalty income.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                The negotiation then centers on the core principal amount. In standard scenarios involving a default of 6 to 12 months, borrowers can often negotiate a waiver of 30 to 50 percent of the principal. For highly distressed accounts that have been NPA for several years, waivers of up to 70 percent have been recorded. To calculate your target amount, take the original principal, subtract the total EMIs already paid, and aim to settle for 50 percent of the resulting figure. Always start your opening bid significantly lower than your actual target number to leave ample room for the inevitable back and forth bargaining.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Determining what constitutes a fair private loans settlement offer is complex and highly dependent on individual hardships. There is no legally mandated formula for an OTS scheme for private loans. The final number is entirely the result of talks. Reflecting the bank's internal collection targets and the client's proven debt stress. However, understanding the bank's perspective will help you settle one time settlement effectively. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> When a loan defaults, the total unpaid amount quickly inflates due to the addition of late payment penalties. Bounce charges, and penal interest. A primary goal during a one time settlement private loans talks is to have all these punitive charges completely waived. Banks are generally very amenable to waiving 100 percent of the penalties and late fees because this is not actual main loan cash they have lost. it is merely projected penalty income. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> The talks then centers on the core base loan. In standard scenarios involving a default of 6 to 12 months. Clients can often settle a waiver of 30 to 50 percent of the main loan. For highly distressed accounts that have been NPA for several years. Waivers of up to 70 percent have been recorded. To calculate your target amount. Take the original main loan. Subtract the total EMIs already paid. And aim to settle for 50 percent of the resulting figure. Always start your opening bid greatly lower than your actual target number to leave ample room for the inevitable back and forth bargaining. </p>
                             
                             <h2 id="case-study-1" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 7: Case Study 1: Resolving a 15 Lakh Personal Loan Trap</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                To illustrate the practical application of the OTS scheme for personal loan, let us examine the case of Mr. Rajesh Verma. Rajesh had taken a personal loan of 15 Lakhs to fund a new business venture. Unfortunately, the business failed rapidly, and Rajesh exhausted his savings trying to keep it afloat. He eventually defaulted on his EMIs. Over the next 14 months, due to aggressive penal interest and late fees, his outstanding balance ballooned to an unmanageable 18.5 Lakhs.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Facing intense harassment from recovery agents, Rajesh decided to negotiate one time settlement. He drafted a comprehensive hardship letter detailing his business failure, attached his audited loss statements, and submitted them to the bank's zonal recovery head. The bank initially presented a personal loan settlement offer of 12 Lakhs, which was entirely beyond his capacity.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Rajesh, utilizing expert guidance, held firm. He demonstrated that he could only liquidate a small ancestral property to raise 7.5 Lakhs. He made a final, take it or leave it offer of 7.5 Lakhs as a one time settlement personal loan. After three weeks of intense internal review, the bank, realizing that full recovery was impossible and protracted legal action would be costly, accepted the offer. Rajesh saved 11 Lakhs, secured his formal No Dues Certificate, and successfully closed the most stressful chapter of his financial life.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> To illustrate the practical application of the OTS scheme for private loans. Let us examine the case of Mr. Rajesh Verma. Rajesh had taken a private loans of 15 Lakhs to fund a new trade venture. Unfortunately, the trade failed rapidly. And Rajesh exhausted his savings trying to keep it afloat. He eventually defaulted on his EMIs. Over the next 14 months. Due to aggressive penal interest and late fees. His unpaid dues ballooned to an unmanageable 18.5 Lakhs. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Facing intense abuse from collection agents. Rajesh decided to settle one time settlement. He drafted a full hardship letter detailing his trade failure. Attached his audited loss records. And submitted them to the bank's zonal collection head. The bank initially presented a private loans settlement offer of 12 Lakhs. This was entirely beyond his capacity. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Rajesh, utilizing expert guidance, held firm. He demonstrated that he could only liquidate a small ancestral property to raise 7.5 Lakhs. He made a final, take it or leave it offer of 7.5 Lakhs as a one time settlement private loans. After three weeks of intense internal review. The bank, realizing that full collection was impossible and protracted legal action would be costly, accepted the offer. Rajesh saved 11 Lakhs, secured his formal No Dues letter. And successfully closed the most stressful chapter of his money life. </p>
 
                             <h2 id="case-study-2" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 8: Case Study 2: Medical Emergency and a 50 Percent Waiver</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Our second case involves Mrs. Sunita Rao, a corporate employee who suffered a severe medical emergency requiring multiple surgeries. She had an outstanding personal loan of 8 Lakhs. Due to her prolonged hospitalization and subsequent loss of pay, she defaulted on six consecutive EMIs. Her total outstanding amount, including penalties, reached 9.2 Lakhs.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Sunita's approach to the OTS scheme for personal loan was meticulous. She compiled a massive dossier of her hospital bills, doctor's certificates proving her inability to work, and a letter from her employer confirming her unpaid leave status. She proactively approached the bank before they initiated harsh recovery measures, requesting to negotiate one time settlement based on undeniable medical hardship.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                The bank's recovery committee reviewed the compelling medical evidence. Recognizing the genuine, unavoidable nature of her default, they bypassed the usual aggressive negotiation tactics. They offered a highly sympathetic personal loan settlement offer of 4 Lakhs. Sunita utilized funds borrowed from close family members to make the lump sum payment. This case perfectly demonstrates that a one time settlement personal loan is heavily influenced by the undeniable authenticity and thorough documentation of the borrower's hardship.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Our second case involves Mrs. Sunita Rao, a company staff who suffered a severe medical emergency requiring multiple surgeries. She had an unpaid private loans of 8 Lakhs. Due to her prolonged hospitalization and subsequent loss of pay. She defaulted on six consecutive EMIs. Her total unpaid amount, including penalties, reached 9.2 Lakhs. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Sunita's approach to the OTS scheme for private loans was meticulous. She compiled a massive dossier of her hospital bills. Doctor's letters proving her inability to work. And a letter from her employer confirming her unpaid leave status. She proactively approached the bank before they initiated harsh collection measures. Requesting to settle one time settlement based on undeniable medical hardship. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> The bank's collection boards reviewed the compelling medical proof. Recognizing the genuine, unavoidable nature of her default. They bypassed the usual aggressive talks tactics. They offered a highly sympathetic private loans settlement offer of 4 Lakhs. Sunita utilized funds borrowed from close family members to make the lump sum payment. This case perfectly demonstrates that a one time settlement private loans is heavily influenced by the undeniable authenticity and thorough records of the client's hardship. </p>
 
                             <h2 id="legal-protections" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 9: Legal Rights and Protections During Negotiation</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                When you decide to negotiate one time settlement, you must be acutely aware of your legal rights. Banks possess immense power, but they are strictly bound by the regulatory frameworks established by the Reserve Bank of India. Even as a defaulting borrower seeking an OTS scheme for personal loan, you do not surrender your fundamental rights to dignity and fair treatment.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                The RBI has issued explicit guidelines regarding the conduct of recovery agents. Agents are strictly prohibited from utilizing abusive language, making physical threats, or harassing your family members and colleagues. They are also restricted from calling you at unreasonable hours, specifically between 7 PM and 8 AM. If you experience any of these violations during your attempt to secure a one time settlement personal loan, you have the legal right to file a formal complaint with the bank's grievance redressal officer and escalate it to the Banking Ombudsman.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Furthermore, never succumb to pressure tactics demanding immediate, undocumented payments. Some rogue agents may promise a fantastic personal loan settlement offer if you transfer funds to a personal account or pay in cash immediately. This is almost always a scam. Every single aspect of the settlement must be documented in writing on official bank stationery before a single rupee changes hands. Your awareness of these legal boundaries is your strongest shield during the highly stressful negotiation period.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> When you decide to settle one time settlement. You must be acutely aware of your legal rights. Banks possess immense power. But they are strictly bound by the RBI rules established by the Reserve Bank of India. Even as a defaulting client seeking an OTS scheme for private loans. You do not surrender your fundamental rights to dignity and fair treatment. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> The RBI has issued explicit rules regarding the conduct of collection agents. Agents are strictly prohibited from utilizing abusive language. Making physical threats, or harassing your family members and colleagues. They are also restricted from calling you at unreasonable hours. Mainly between 7 PM and 8 AM. If you skill any of these violations during your attempt to secure a one time settlement private loans. You have the legal right to file a formal complaint with the bank's grievance redressal officer and escalate it to the Banking Ombudsman. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> also, never succumb to pressure tactics demanding fast, undocumented payments. Some rogue agents may promise a fantastic private loans settlement offer if you transfer funds to a private account or pay in cash promptly. This is almost always a scam. Every single aspect of the settlement must be documented in writing on formal bank stationery before a single rupee changes hands. Your awareness of these legal boundaries is your strongest shield during the highly stressful talks period. </p>
 
                             <h2 id="conclusion" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 10: Conclusion: Is OTS the Right Choice for You?</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Deciding whether to pursue an OTS scheme for personal loan is a complex evaluation of your immediate financial survival versus your long term credit health. A one time settlement personal loan provides immediate, massive relief from unbearable debt burdens and aggressive recovery harassment. It allows you to legally close a disastrous financial chapter and begin the process of rebuilding your life without the constant fear of defaulting on EMIs.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                However, this relief comes at the steep cost of a severely damaged CIBIL score. The Settled tag will limit your financial flexibility for years to come. If you anticipate needing a home loan, an education loan for your children, or a business loan in the near future, the consequences of a personal loan settlement offer must be carefully considered. It should truly be viewed as a measure of last resort, utilized only when all other avenues, such as restructuring the loan or liquidating non essential assets, have been completely exhausted.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                If you decide that you must negotiate one time settlement, approach the process with meticulous preparation, absolute transparency regarding your hardship, and unwavering discipline regarding the legal documentation. Ensure you secure that final No Dues Certificate, as it is the only document that truly guarantees your financial freedom from that specific debt trap.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Deciding whether to pursue an OTS scheme for private loans is a complex evaluation of your fast money survival versus your long term credit health. A one time settlement private loans provides fast. Massive relief from unbearable debt burdens and aggressive collection abuse. It allows you to legally close a disastrous money chapter and begin the process of rebuilding your life without the constant fear of defaulting on EMIs. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> However, this relief comes at the steep cost of a severely damaged CIBIL score. The Settled tag will limit your money flexibility for years to come. If you anticipate needing a home loan. An education loan for your children. Or a firm loans in the near future. The consequences of a private loans settlement offer must be carefully considered. It should truly be viewed as a measure of last resort. Utilized only when all other avenues. Such as restructuring the loan or liquidating non essential assets, have been completely exhausted. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> If you decide that you must settle one time settlement. Approach the process with meticulous preparation. Absolute transparency regarding your hardship. And unwavering discipline regarding the legal records. Ensure you secure that final No Dues letter. As it is the only paper that truly guarantees your money freedom from that local debt trap. </p>
 
 
                             <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Client Success and Feedback</h2>
@@ -513,7 +399,7 @@ export default function PersonalLoanOneTimeSettlementClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4 mt-0">Secure Your Settlement Today.</h3>
-                                <p className="text-blue-800 mb-6 font-normal">Our expert legal team specializes in evaluating your hardship and negotiating the maximum possible waiver on your behalf.</p>
+                                <p className="text-blue-800 mb-6 font-normal">Our expert legal team specializes in evaluating your hardship and settling the maximum possible waiver on your behalf.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md hover:shadow-lg focus:ring-4 focus:ring-blue-300 transform hover:-translate-y-1"
@@ -528,10 +414,8 @@ export default function PersonalLoanOneTimeSettlementClient() {
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-24 self-start space-y-6">
                         {/* Card 1: CTA */}
                         <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
-                            <p className="font-black text-gray-900 text-xl mb-3 mt-2 tracking-tight">Facing Harassment?</p>
-                            <p className="text-gray-600 text-xs mb-5 leading-relaxed px-2">
-                                We can send an immediate Legal Notice to stop recovery agents from visiting your house today.
-                            </p>
+                            <p className="font-black text-gray-900 text-xl mb-3 mt-2 tracking-tight">Facing abuse?</p>
+                            <p className="text-gray-600 text-xs mb-5 leading-relaxed px-2"> We can send an fast Legal Notice to stop collection agents from visiting your house today. </p>
                             <Link
                                 href="/contact"
                                 className="w-full bg-[#1b5df3] hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-xl transition-colors shadow-md text-center text-sm"
@@ -539,9 +423,9 @@ export default function PersonalLoanOneTimeSettlementClient() {
                                 Stop the Agents
                             </Link>
                             <div className="mt-4 space-y-2 text-xs text-gray-500 w-full text-center font-medium">
-                                <p>&#10003; 24hr Legal Response</p>
-                                <p>&#10003; RBI Compliance Audit</p>
-                                <p>&#10003; Harassment Defense</p>
+                                <p>&#10003. 24hr Legal Response</p>
+                                <p>&#10003. RBI Compliance Audit</p>
+                                <p>&#10003. abuse Defense</p>
                             </div>
                         </div>
 
@@ -549,26 +433,10 @@ export default function PersonalLoanOneTimeSettlementClient() {
                         <div className="bg-gray-50/80 p-5 rounded-2xl border border-gray-100 shadow-sm mt-6">
                             <p className="font-black text-gray-900 text-lg border-b border-gray-900 pb-2 mb-4">Related Expertise</p>
                             <ul className="space-y-4 text-left font-medium">
-                                <li>
-                                    <Link href="/are-there-legal-implecations-or-non-payment-during-debt-settlement" className="text-blue-600 hover:text-blue-800 text-sm transition-colors">
-                                        Personal Loan Relief
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/compare-debt-settlement-fees-and-success-rate" className="text-blue-600 hover:text-blue-800 text-sm transition-colors">
-                                        MSME Dispute Defense
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/is-loan-settlement-a-good-option-for-borrowers" className="text-blue-600 hover:text-blue-800 text-sm transition-colors">
-                                        Bank Recovery Shield
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/how-to-improve-cibil-score" className="text-blue-600 hover:text-blue-800 text-sm transition-colors">
-                                        Credit Score Help
-                                    </Link>
-                                </li>
+                                <li> <Link href="/are-there-legal-implecations-or-non-payment-during-debt-settlement" className="text-blue-600 hover:text-blue-800 text-sm transition-colors"> private loans Relief </Link> </li>
+                                <li> <Link href="/compare-debt-settlement-fees-and-success-rate" className="text-blue-600 hover:text-blue-800 text-sm transition-colors"> MSME Dispute Defense </Link> </li>
+                                <li> <Link href="/is-loan-settlement-a-good-option-for-borrowers" className="text-blue-600 hover:text-blue-800 text-sm transition-colors"> Bank collection Shield </Link> </li>
+                                <li> <Link href="/how-to-improve-cibil-score" className="text-blue-600 hover:text-blue-800 text-sm transition-colors"> Credit Score Help </Link> </li>
                             </ul>
                         </div>
                     </aside>

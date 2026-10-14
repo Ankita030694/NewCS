@@ -47,43 +47,43 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
     const faqs = [
         {
             q: 'Is it legal to record recovery agent calls without consent in India?',
-            a: 'Yes. India follows single-party consent rules. You can record calls you participate in without notifying agents for legal defense, dispute resolution, or police complaints.'
+            a: 'Yes. India follows single-party consent rules. You can record calls you join in without notifying agents for legal defense. claims relief. police reports.'
         },
         {
             q: 'What makes audio recordings admissible as evidence in Indian courts?',
-            a: "Under Section 65B Evidence Act and Section 63 BSA 2023, digital recordings require an electronic certificate certifying device custody, source integrity. Absence of audio tampering."
+            a: "Under Section 65B proof Act and Section 63 BSA 2023. online recordings require an electronic letter certifying device custody. Source integrity. Absence of audio tampering."
         },
         {
             q: 'Can recovery agent recordings be submitted for police complaints?',
-            a: 'Yes. If an agent issues threats of violence or extortion, unedited recordings with an electronic certificate support FIR filings under Sections 308 and 351 BNS.'
+            a: 'Yes. If an agent issues threats of violence or extortion. Unedited recordings with an electronic letter support FIR filings under Sections 308 and 351 BNS.'
         },
         {
             q: 'Can I submit call recordings to the RBI Banking Ombudsman?',
-            a: 'Yes. You can upload call recordings and transcripts directly to the RBI Ombudsman portal (cms.rbi.org.in) as verifiable proof of RBI Fair Practices Code violations.'
+            a: 'Yes. You can upload call recordings and transcripts straight to the RBI agents portal (cms.rbi.org.in) as verifiable proof of RBI Fair Practices Code violations.'
         },
         {
             q: 'Does recording recovery calls violate constitutional privacy rights?',
-            a: "No. Judicial rulings confirm that recording debt collection calls to document statutory violations, threats. Unfair practices does not violate Article 21 privacy rights."
+            a: "No. court rulings confirm that recording debt claims calls to paper legal violations. Threats. Unfair practices does not violate Article 21 rights rights."
         },
         {
             q: 'Can audio recordings assist in negotiating a One-Time Settlement?',
-            a: 'Yes. Documented audio proof of agent misconduct creates legal exposure for lenders, prompting bank credit committees to waive penal interest and sanction 40% to 55% settlements.'
+            a: 'Yes. Documented audio proof of agent misconduct creates legal exposure for lenders. Prompting bank credit boards to waive extra fees and sanction 40% to 55% deals.'
         },
         {
             q: 'What are permitted calling hours for recovery agents under RBI rules?',
-            a: 'Under the RBI Fair Practices Code, recovery agents are strictly restricted to calling borrowers between 08:00 AM and 07:00 PM. Outside hours calls constitute punishable harassment.'
+            a: 'Under the RBI Fair Practices Code. claims agents are strictly restricted to calling clients between 08:00 AM and 07:00 PM. Outside hours calls constitute punishable abuse.'
         },
         {
             q: 'What is the difference between Section 65B and BSA Section 63?',
-            a: 'Section 65B governed electronic records historically. Section 63 BSA 2023 modernizes these requirements, defining statutory standards for digital audio storage and electronic certificates.'
+            a: 'Section 65B governed electronic records historically. Section 63 BSA 2023 modernizes these requirements. Defining legal standards for online audio storage and electronic letters.'
         },
         {
             q: 'Can recovery agents contact my employer or family members?',
-            a: 'No. RBI rules prohibit recovery agents from contacting employers, colleagues, or relatives who are not co-borrowers or guarantors. Such outreach constitutes unlawful third-party harassment.'
+            a: 'No. RBI rules prohibit claims agents from contacting employers. Colleagues. Or relatives who are not co-clients or guarantors. Such outreach constitutes unlawful third-party abuse.'
         },
         {
             q: 'What should I do if a recovery agent threatens immediate arrest?',
-            a: 'Record the call calmly. Unsecured loan default is strictly a civil matter. Recovery agents have zero authority to order arrests or seize assets without a civil court decree.'
+            a: 'Record the call calmly. no-pledge loan default is strictly a civil matter. claims agents have zero formal to order arrests or seize assets without a civil court decree.'
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -100,9 +100,7 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
             Is It Legal to Record Recovery Agent Calls in India?
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed">
-            Understand single-party consent rules, Section 65B and Section 63 BSA electronic evidence certificates. How to submit recordings against harassment.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> Understand single-party consent rules. Section 65B and Section 63 BSA electronic proof letters. How to submit recordings against abuse. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -145,9 +143,7 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>Statutory Audio Evidence.</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Governed by BSA Section 63, Evidence Act Sec 65B &amp; RBI Fair Practices Code.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by BSA Section 63. Proof Act Sec 65B &amp. RBI Fair Practices Code. </p>
               </div>
             </div>
           </aside>
@@ -163,61 +159,21 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
               </div>
 
               <ul className="space-y-2 text-xs sm:text-sm text-slate-700 leading-relaxed">
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Single-Party Consent:</strong> India permits recording collection calls you participate in without prior agent notification.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Single-Party Consent:</strong> India permits recording claims calls you join in without prior agent notice. </div> </li>
 
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Statutory Admissibility:</strong> Audio recordings constitute valid evidence under Section 65B Evidence Act and Section 63 BSA.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">legal Admissibility:</strong> Audio recordings constitute valid proof under Section 65B proof Act and Section 63 BSA. </div> </li>
 
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Electronic Certificate Mandate:</strong> Submitting audio requires a certificate proving device custody and zero tampering.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Electronic letter Mandate:</strong> Submitting audio requires a letter proving device custody and zero tampering. </div> </li>
 
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Criminal Intimidation Defense:</strong> Recorded threats support police FIRs under Sections 308 and 351 BNS.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">penal threats Defense:</strong> Recorded threats support police FIRs under Sections 308 and 351 BNS. </div> </li>
 
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">RBI Fair Practices Enforcement:</strong> Recorded calling hour violations (outside 8 AM - 7 PM) escalate directly to the RBI Ombudsman.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">RBI Fair Practices Enforcement:</strong> Recorded calling hour violations (outside 8 AM - 7 PM) escalate straight to the RBI agents. </div> </li>
 
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Consumer Forum Relief:</strong> District Consumer Commissions admit verified audio to award mental harassment compensation.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">clients Forum Relief:</strong> areas clients Commissions admit checked audio to award mental abuse payout. </div> </li>
 
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Zero Privacy Violation:</strong> Documenting debt collection calls does not violate Article 21 privacy protections.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Zero rights abuse:</strong> Documenting debt claims calls does not violate Article 21 rights protections. </div> </li>
 
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Settlement Counter-Leverage:</strong> Recorded misconduct empowers borrowers to negotiate 40% to 55% One-Time Settlements.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">settlement Counter-Leverage:</strong> Recorded misconduct empowers clients to settle 40% to 55% One-Time deals. </div> </li>
               </ul>
             </div>
 
@@ -230,12 +186,8 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 1. Debt Economics, Banking Regulations &amp; NPA Dynamics
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When borrowers default on unsecured personal loans or credit cards due to acute financial hardship, lending institutions must adhere to the Reserve Bank of India Prudential Framework for Resolution of Stressed Assets. overdue accounts transition through successive Special Mention Account classifications: SMA-0 (1 to 30 days past due), SMA-1 (31 to 60 days past due). SMA-2 (61 to 90 days past due). Once default crosses 90 days, the exposure is formally classified as a Non-Performing Asset (NPA).
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Under RBI prudential norms, NPA classification mandates Tier-1 capital provisioning, starting at 15% for sub-standard assets and rising to 100% for doubtful exposures. Because unsecured loans lack pledged collateral and are exempt from SARFAESI Act asset seizures, banks cannot attach properties without civil litigation. To reduce capital drag on balance sheets, lenders outsource collections to third-party recovery agencies on aggressive commissions. This pressure triggers coercive collection tactics, making audio recording an essential safeguard for borrowers preparing for compromise One-Time Settlements (OTS).
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When clients default on no-pledge private loans or credit cards due to acute hardship. Lending institutions must adhere to the Reserve Bank of India Prudential rules for relief of Stressed Assets. late accounts transition through successive Special Mention Account classifications: SMA-0 (1 to 30 days past due). SMA-1 (31 to 60 days past due). SMA-2 (61 to 90 days past due). Once default crosses 90 days. The exposure is formally classified as a Non-Performing Asset (NPA). </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Under RBI prudential norms. NPA classification mandates Tier-1 cash bank reserves. Starting at 15% for sub-standard assets and rising to 100% for doubtful exposures. Because no-pledge loans lack pledged pledge and are exempt from SARFAESI Act asset seizures. Banks cannot attach homes without civil lawsuits. To reduce cash drag on balance sheets. Lenders outsource calls to third-party claims firms on harsh commissions. This pressure triggers coercive claims tactics. Making audio recording an essential safeguard for clients preparing for OTS deal One-Time deals (OTS). </p>
             </section>
 
             {/* SECTION 2: Financial Breakdown & Settlement Math */}
@@ -247,15 +199,9 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 2. Financial Breakdown: Principal vs. Penal Charges &amp; Settlement Math
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Following loan default, lenders inflate outstanding balances by levying compound penal interest (24% to 36% per annum), late payment charges. Administrative fees. Over a 180-day default cycle, a principal default of ₹10,00,000 routinely inflates into a gross claim exceeding ₹13,40,000.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Under RBI accounting directives, penalty fees represent uncollected memorandum charges rather than released capital. In One-Time Settlement negotiations, banks prioritize recovering core principal while waiving uncollected penal interest. When borrowers substantiate agent misconduct with verifiable audio recordings, lenders face regulatory liability, expediting settlement approvals.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                In a agent 180-day NPA case with a principal of ₹10,00,000 and ₹3,40,000 in accumulated charges (total ₹13,40,000 claim), an evidence-backed settlement typically closes at ₹4,50,000 to ₹5,50,000, securing an effective 45% to 55% reduction against principal.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Following loan default. Lenders inflate unpaid dues by levying compound extra fees (24% to 36% per annum). Late payment charges. office fees. Over a 180-day default cycle. A main loan default of ₹10,00,000 routinely inflates into a gross claim exceeding ₹13,40,000. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Under RBI accounting directives. Penalty fees represent uncollected memorandum charges rather than released cash. In One-Time talks. Banks prioritize recovering core main loan while waiving uncollected extra fees. When clients prove agent misconduct with verifiable audio recordings. Lenders face RBI debt risk. Expediting deal sign-offs. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> In a agent 180-day NPA case with a main loan of ₹10,00,000 and ₹3,40,000 in total charges (total ₹13,40,000 claim). An proof-backed settlement typically closes at ₹4,50,000 to ₹5,50,000. Securing an effective 45% to 55% reduction against main loan. </p>
 
               {/* Settlement Calculation Card */}
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 md:p-6 space-y-4">
@@ -293,9 +239,7 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 3. Strategic Comparison Matrix: Debt Resolution Pathways in India
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Evaluating legal and financial resolution strategies for distressed personal loans and credit cards:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Evaluating legal and money relief plans for distressed private loans and credit cards: </p>
 
               {/* 4-Sided Bordered Table */}
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
@@ -310,34 +254,34 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-600">
                     <tr className="hover:bg-blue-50/40 transition-colors">
-                      <td className="p-3.5 sm:p-4 font-bold text-slate-900">OTS with Audio Evidence.</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80 text-emerald-700 font-semibold">40% to 55% principal settlement.</td>
+                      <td className="p-3.5 sm:p-4 font-bold text-slate-900">OTS with Audio proof.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80 text-emerald-700 font-semibold">40% to 55% main loan settlement.</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200/80">30 to 60 days timeline.</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Cessation of harassment, signed NDC, zero court visits.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Cessation of abuse. Signed NDC. Zero court visits.</td>
                     </tr>
                     <tr className="hover:bg-slate-50 transition-colors">
                       <td className="p-3.5 sm:p-4 font-bold text-slate-900">Loan Restructuring.</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">100% principal plus interest.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">100% main loan plus rates.</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200/80">3 to 5 years duration.</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Postpones default, increases lifetime interest, high re-default risk.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Postpones default. Increases lifetime rates. High re-default risk.</td>
                     </tr>
                     <tr className="hover:bg-slate-50 transition-colors">
                       <td className="p-3.5 sm:p-4 font-bold text-slate-900">Civil Summary Suit.</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">100% claim plus 18% interest and court fees.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">100% claim plus 18% rates and court fees.</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200/80">3 to 7 years trial.</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Litigation risk, potential salary or bank attachment decrees.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Lawsuits risk. Potential salary or bank attachment decrees.</td>
                     </tr>
                     <tr className="hover:bg-slate-50 transition-colors">
                       <td className="p-3.5 sm:p-4 font-bold text-slate-900">Lok Adalat</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200/80">15% to 30% nominal waiver.</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Single hearing day.</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Non-appealable award under Section 21 LSA Act, requires immediate payment.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Non-appealable award under Section 21 LSA Act. Requires fast payment.</td>
                     </tr>
                     <tr className="hover:bg-slate-50 transition-colors">
                       <td className="p-3.5 sm:p-4 font-bold text-slate-900">Inaction</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80 text-rose-600">Compounding debt.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80 text-rose-600">growing debt.</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Indefinite distress.</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Severe harassment, CIBIL collapse to 550, potential ex-parte arbitral decrees.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Severe abuse. CIBIL collapse to 550. Potential ex-parte arbitral decrees.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -353,15 +297,9 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 4. CIBIL Score Algorithm, Score Drop Trajectory &amp; Credit Rebuilding
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Credit bureaus in India (TransUnion CIBIL, Experian, CRIF High Mark, Equifax) compute credit scores using proprietary algorithms weighted across Payment History (35%), Credit use (30%), Credit Mix (15%), History Length (10%). Inquiries (10%).
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When an account reaches 90 DPD, the payment history component suffers damage, causing an immediate credit score drop of 150 to 220 points, often plunging a 780 score down to 560. Following a negotiated settlement, the lender reports the trade line as &quot;Settled&quot;. While this stops further DPD deterioration, the remark indicates past compromise.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Borrowers can restore their score back to 750+ within 12 to 24 months through disciplined credit rebuilding steps. Examples include managing a secured card with sub-20% use. Under Section 21 of CICRA 2005, borrowers retain the statutory right to dispute incorrect reporting or convert &quot;Settled&quot. To &quot;Closed&quot;.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Credit bureaus in India (TransUnion CIBIL. Experian. CRIF High Mark. Equifax) compute credit scores using proprietary algorithms weighted across Payment History (35%). Credit use (30%). Credit Mix (15%). History Length (10%). Inquiries (10%). </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When an account reaches 90 DPD. The payment history component suffers damage. This causes an fast credit score drop of 150 to 220 points. Often plunging a 780 score down to 560. Following a settled settlement. The lender reports the trade line as &quot. Settled&quot. While this stops further DPD deterioration. The remark indicates past OTS deal. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> clients can restore their score back to 750+ within 12 to 24 months through disciplined credit rebuilding steps. Examples include managing a secured card with sub-20% use. Under Section 21 of CICRA 2005. Clients retain the legal right to claims incorrect reporting or convert &quot. Settled&quot. To &quot. Closed&quot. </p>
             </section>
 
             {/* SECTION 5: Visual Infographic Asset Card */}
@@ -379,9 +317,7 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
                   <Image src="/images/infographics/is-it-legal-to-record-recovery-agent-calls.jpg" alt="Is It Legal to Record Recovery Agent Calls in India Evidence Blueprint" fill priority sizes="(max-width: 768px) 100vw, (max-width: 1200px) 70vw, 900px" className="object-cover"/>
                 </div>
                 <div className="pt-3 px-1 flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs text-slate-600">
-                  <p className="leading-relaxed">
-                    Visual blueprint detailing single-party consent recording rules in India, Section 65B and Section 63 BSA compliance certificates, digital custody protocols. Multi-forum evidence submission channels.
-                  </p>
+                  <p className="leading-relaxed"> Visual blueprint detailing single-party consent recording rules in India. Section 65B and Section 63 BSA compliance letters. online custody protocols. Multi-forum proof submission channels. </p>
                   <a href="/images/infographics/is-it-legal-to-record-recovery-agent-calls.jpg" target="_blank" rel="noopener noreferrer" className="text-[#1886ff] font-bold hover:underline inline-flex items-center gap-1 flex-shrink-0">
                     <span>View High-Res</span>
                     <ExternalLink className="w-3.5 h-3.5"/>
@@ -406,9 +342,7 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-xs font-bold">1</span>
                     <span>Stage 1: Call Audit &amp; Metadata Archival.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Activate native call recording. Save unedited master audio in original formats. Maintain metadata logs detailing timestamps, caller IDs, and durations to preserve digital custody.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Activate native call recording. Save unedited master audio in original formats. Maintain metadata logs detailing timestamps. Caller IDs. And durations to preserve online custody. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -416,9 +350,7 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-xs font-bold">2</span>
                     <span>Stage 2: Hardship Dossier &amp; Transcripts.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Transcribe abusive calls verbatim with exact timestamps. Assemble documented financial hardship records. Cross-reference recorded agent threats against the RBI Fair Practices Code.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Transcribe abusive calls verbatim with exact timestamps. Assemble documented hardship records. Cross-reference recorded agent threats against the RBI Fair Practices Code. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -426,9 +358,7 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-xs font-bold">3</span>
                     <span>Stage 3: Legal Notice to Bank GRO.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Submit formal legal representation to the bank Grievance Redressal Officer (GRO). Present audited call logs, verbatim transcripts, and a cease-and-desist notice against third-party outreach.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Submit formal legal legal help to the bank Grievance Redressal agents (GRO). Present audited call logs. Verbatim transcripts. And a cease-and-desist notice against third-party outreach. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -436,9 +366,7 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-xs font-bold">4</span>
                     <span>Stage 4: Bilateral Settlement Discussions.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Leverage recorded audio evidence of regulatory violations during settlement discussions to negotiate a complete 100% waiver of penal interest and reduce settlement demands to 40% to 55%.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Leverage recorded audio proof of RBI violations during settlement discussions to settle a complete 100% waiver of extra fees and reduce settlement demands to 40% to 55%. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -446,9 +374,7 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-xs font-bold">5</span>
                     <span>Stage 5: Sanction Letter Legal Vetting.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Review the settlement letter issued on bank letterhead. Verify covenants including full-and-final discharge of debt, waiver of remaining balances, and withdrawal of pending statutory notices.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Review the closure note issued on bank letterhead. Verify covenants including full-and-final discharge of debt. Waiver of remaining balances. And withdrawal of pending legal notices. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -456,9 +382,7 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-xs font-bold">6</span>
                     <span>Stage 6: Direct Remittance &amp; NDC.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    pay agreed settlement funds directly into your loan account via RTGS/NEFT. Secure a signed No Dues Certificate (NDC) and verify credit bureau updates under Section 21 CICRA within 30 days.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> pay agreed settlement funds straight into your loan account via RTGS/NEFT. Secure a signed No Dues letter (NDC) and verify CIBIL desk updates under Section 21 CICRA within 30 days. </p>
                 </div>
               </div>
             </section>
@@ -472,9 +396,7 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 7. Statutory Notice Defense &amp; Borrower Legal Safeguards
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When loans default, lenders issue statutory notices requiring strategic legal responses:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When loans default. Lenders issue legal notices requiring strategic legal responses: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -482,9 +404,7 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
                     <FileText className="w-4 h-4 text-[#1886ff]"/>
                     <span>Section 25 PSSA Act.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Governs NACH bounces. Borrowers must reply within statutory timelines showing lack of fraudulent intent (mens rea) and showing default resulted from genuine hardship.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Governs NACH bounces. clients must reply within legal timelines showing lack of fraudulent intent (mens rea) and showing default resulted from genuine hardship. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -492,9 +412,7 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
                     <FileText className="w-4 h-4 text-[#1886ff]"/>
                     <span>Section 138 NI Act.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Governs bounced cheques. Borrowers must reply within 15 days of notice, challenging inflated security cheque amounts and establishing genuine contractual debt disputes.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Governs bounced cheques. Clients must reply within 15 days of notice. Challenging inflated pledge cheque amounts and establishing genuine contractual debt claims. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -502,9 +420,7 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
                     <Scale className="w-4 h-4 text-[#1886ff]"/>
                     <span>Section 21 Arbitration Act.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Under Supreme Court rulings in Perkins Eastman, lenders cannot unilaterally appoint sole arbitrators. Borrowers can challenge arbitrator eligibility under Section 12(5).
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Under Supreme Court rulings in Perkins Eastman. Lenders cannot unilaterally appoint sole arbitrators. clients can challenge judge eligibility under Section 12(5). </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -512,9 +428,7 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
                     <ShieldAlert className="w-4 h-4 text-[#1886ff]"/>
                     <span>Section 19 DRT &amp; RBI Safeguards.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Applies to claims over ₹20 Lakhs before DRT. Under RBI Fair Practices Code, agents are prohibited from calling outside 8 AM to 7 PM or intimidating relatives.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Applies to claims over ₹20 Lakhs before DRT. Under RBI Fair Practices Code. Agents are prohibited from calling outside 8 AM to 7 PM or intimidating relatives. </p>
                 </div>
               </div>
             </section>
@@ -535,9 +449,7 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
                     <span className="font-bold text-sm text-slate-900">Level 1: Bank Grievance Redressal Officer (GRO).</span>
                     <span className="text-[11px] font-semibold text-blue-600 bg-blue-50 px-2 py-0.5 rounded-md">7-10 Days</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    File a formal complaint attaching call recordings and transcripts detailing RBI code violations. Resolution turnaround is 7 to 10 working days.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> File a formal reports attaching call recordings and transcripts detailing RBI code violations. relief turnaround is 7 to 10 working days. </p>
                 </div>
 
                 <div className="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -545,9 +457,7 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
                     <span className="font-bold text-sm text-slate-900">Level 2: Principal Nodal Officer (PNO).</span>
                     <span className="text-[11px] font-semibold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded-md">14-21 Days</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    If unresolved within 14 days, escalate to the bank Principal Nodal Officer to discipline recovery agencies and propose structured settlements within 14 to 21 days.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> If unresolved within 14 days. Escalate to the bank main loan Nodal agents to discipline claims firms and propose structured deals within 14 to 21 days. </p>
                 </div>
 
                 <div className="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -555,9 +465,7 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
                     <span className="font-bold text-sm text-slate-900">Level 3: RBI Integrated Ombudsman &amp; Consumer Commission.</span>
                     <span className="text-[11px] font-semibold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-md">30 Days Max</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    If unresolved after 30 days, lodge an online complaint at cms.rbi.org.in or file a petition before the District Consumer Commission (DCDRC) for compensation.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> If unresolved after 30 days. Lodge an online reports at cms.rbi.org.in or file a petition before the areas clients Commission (DCDRC) for payout. </p>
                 </div>
               </div>
             </section>
@@ -571,9 +479,7 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 9. Chronological Procedural Timeline &amp; Resolution Milestones
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Procedural milestones from default to resolution:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Procedural milestones from default to relief: </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
                 <table className="w-full text-xs sm:text-sm text-left border-collapse">
@@ -587,13 +493,13 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
                   <tbody className="divide-y divide-slate-200/80 text-slate-600">
                     <tr className="hover:bg-slate-50 transition-colors">
                       <td className="p-3.5 sm:p-4 font-bold text-slate-900">Days 1-30</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80 font-medium">SMA-0: First missed EMI, automated SMS alerts.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80 font-medium">SMA-0: First missed EMI. Automated SMS alerts.</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Activate call recording on phone.</td>
                     </tr>
                     <tr className="hover:bg-slate-50 transition-colors">
                       <td className="p-3.5 sm:p-4 font-bold text-slate-900">Days 31-60</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80 font-medium">SMA-1: Third-party agency assignment, frequent calls.</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Maintain call logs, record interactions.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80 font-medium">SMA-1: Third-party firm assignment. Frequent calls.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Maintain call logs. Record interactions.</td>
                     </tr>
                     <tr className="hover:bg-slate-50 transition-colors">
                       <td className="p-3.5 sm:p-4 font-bold text-slate-900">Days 61-90</td>
@@ -602,13 +508,13 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
                     </tr>
                     <tr className="hover:bg-slate-50 transition-colors">
                       <td className="p-3.5 sm:p-4 font-bold text-slate-900">Days 91-120</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80 font-medium">NPA Classification: Mandatory provisioning triggers.</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Formally submit audio evidence and propose OTS.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80 font-medium">NPA Classification: strict bank reserves triggers.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80">Formally submit audio proof and propose OTS.</td>
                     </tr>
                     <tr className="hover:bg-emerald-50/40 transition-colors">
                       <td className="p-3.5 sm:p-4 font-bold text-emerald-900">Days 121-180</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80 font-medium text-emerald-800">Bilateral OTS &amp; Closure: Sanctioned OTS letter (40%-55% waiver).</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80 text-emerald-800 font-semibold">pay settlement, obtain NDC, update CIBIL.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80 font-medium text-emerald-800">Bilateral OTS &amp. Closure: Sanctioned OTS letter (40%-55% waiver).</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200/80 text-emerald-800 font-semibold">Pay settlement. Obtain NDC. Update CIBIL.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -624,9 +530,7 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 10. Specialized Real-World Default &amp; Call Recording Scenarios
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Managing complex recovery scenarios across varied debt profiles:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Managing complex claims scenarios across varied debt profiles: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -634,9 +538,7 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
                     <CreditCard className="w-4 h-4 text-[#1886ff]"/>
                     <span>Multi-Lender Over-Leverage.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Borrowers facing dozens of daily collection calls across multiple cards and loans should centralize audio recordings by lender to maintain consistent evidence files.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> clients facing dozens of daily claims calls across multiple cards and loans should centralize audio recordings by lender to maintain consistent proof files. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -644,9 +546,7 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
                     <UserCheck className="w-4 h-4 text-[#1886ff]"/>
                     <span>Corporate Layoffs &amp; Income Loss.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    When aggressive agents disregard documented termination letters or medical emergencies, recorded calls prove the lender ignored genuine financial hardship.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> When harsh agents disregard documented termination letters or health crises. Recorded calls prove the lender ignored genuine hardship. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -654,9 +554,7 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
                     <Building2 className="w-4 h-4 text-[#1886ff]"/>
                     <span>MSME &amp; Business Defaults.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Business owners facing working capital distress must record calls to prevent unauthorized agent visits to business premises, protecting commercial goodwill.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> shop owners facing working cash distress must record calls to prevent banned agent visits to trade premises. Protecting trade goodwill. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -664,9 +562,7 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
                     <Landmark className="w-4 h-4 text-[#1886ff]"/>
                     <span>ARC Debt Assignments.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    When banks assign stressed loans to ARCs under Section 5 SARFAESI, recording calls ensures agencies verify chain-of-title before making collection demands.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> When banks assign stressed loans to ARCs under Section 5 SARFAESI. Recording calls ensures firms verify chain-of-title before making claims demands. </p>
                 </div>
               </div>
             </section>
@@ -712,24 +608,12 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
                 Official Regulatory Citations &amp; Judicial References
               </h2>
               <ul className="space-y-2 text-xs text-slate-600 leading-relaxed list-disc pl-5">
-                <li>
-                  <strong>Bharatiya Sakshya Adhiniyam, 2023:</strong> Section 63 (Electronic Records Admissibility).
-                </li>
-                <li>
-                  <strong>Indian Evidence Act, 1872:</strong> Section 65B (Electronic Evidence Admissibility).
-                </li>
-                <li>
-                  <strong>Bharatiya Nyaya Sanhita, 2023 (BNS):</strong> Sections 308 (Extortion) and 351 (Criminal Intimidation).
-                </li>
-                <li>
-                  <strong>Reserve Bank of India:</strong> Master Direction on Fair Practices Code for Lenders.
-                </li>
-                <li>
-                  <strong>Consumer Protection Act, 2019:</strong> Sections 35 &amp; 47 (Banking Deficiency).
-                </li>
-                <li>
-                  <strong>Credit Information Companies Act, 2005 (CICRA):</strong> Section 21 (Dispute Resolution).
-                </li>
+                <li> <strong>Bharatiya Sakshya Adhiniyam. 2023:</strong> Section 63 (Electronic Records Admissibility). </li>
+                <li> <strong>Indian proof Act. 1872:</strong> Section 65B (Electronic proof Admissibility). </li>
+                <li> <strong>Bharatiya Nyaya Sanhita. 2023 (BNS):</strong> Sections 308 (Extortion) and 351 (penal threats). </li>
+                <li> <strong>Reserve Bank of India:</strong> Master Direction on Fair Practices Code for Lenders. </li>
+                <li> <strong>Clients safety Act. 2019:</strong> Sections 35 &amp. 47 (Banking Deficiency). </li>
+                <li> <strong>Credit Information firms Act. 2005 (CICRA):</strong> Section 21 (claims relief). </li>
               </ul>
 
               {/* 6 Outbound Authority Badges */}
@@ -816,14 +700,10 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
                   <Link href="/author/ashish-jhangra" className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional.
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief expert. </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Specialized in banking compliance, arbitral defense, loan dispute resolution. NPA settlement negotiations with deep expertise in electronic evidence.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> expert in banking compliance. Arbitral defense. Loan claims relief. NPA talks with deep expertise in electronic proof. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
                   <span>View Profile</span>
@@ -843,12 +723,8 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
               </div>
 
               <div className="space-y-2">
-                <p className="text-xl sm:text-2xl font-bold text-white tracking-tight leading-tight">
-                  Facing Recovery Harassment?
-                </p>
-                <p className="text-xs sm:text-sm text-white/95 leading-relaxed font-normal">
-                  Stop illegal agent abuse, protect your dignity, and sue the bank for emotional distress. Get expert representation today.
-                </p>
+                <p className="text-xl sm:text-2xl font-bold text-white tracking-tight leading-tight"> Facing claims abuse? </p>
+                <p className="text-xs sm:text-sm text-white/95 leading-relaxed font-normal"> Stop banned agent abuse. Protect your dignity. And sue the bank for emotional distress. Get expert legal help today. </p>
               </div>
 
               <div className="space-y-3 pt-1">
@@ -867,18 +743,9 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
               <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage.</p>
               <ul className="space-y-2 text-slate-600">
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Zero Upfront Risk:</strong> Success-linked settlement fees.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Direct Bank Remittance:</strong> Zero middleman fund holding.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>RBI Compliance:</strong> 100% lawful dispute handling.</span>
-                </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Zero Upfront Risk:</strong> Success-linked settlement fees.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Direct Bank Remittance:</strong> Zero middleman fund holding.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>RBI Compliance:</strong> 100% lawful claims handling.</span> </li>
               </ul>
             </div>
 
@@ -887,23 +754,17 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
               <p className="font-bold text-slate-900 text-sm">Related Legal Guides.</p>
               <div className="space-y-2.5">
                 <Link href="/bank-sent-legal-notice-for-loan-what-to-do" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Bank Sent Legal Notice.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Bank Sent Legal Notice. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Full step-by-step reply blueprint &rarr;.</span>
                 </Link>
 
                 <Link href="/bank-recovery-case-in-court" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Bank Recovery Case in Court.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Bank claims Case in Court. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Civil suit defense &amp; summons guide &rarr;.</span>
                 </Link>
 
                 <Link href="/convert-settled-status-to-closed" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Convert Settled to Closed.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Convert Settled to Closed. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Clean credit report blueprint &rarr;.</span>
                 </Link>
               </div>

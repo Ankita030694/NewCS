@@ -47,43 +47,43 @@ export default function CreditCardSettlementDiscountClient() {
     const faqs = [
         {
             q: 'How much discount can I get on a credit card settlement in India?',
-            a: "Cardholders typically negotiate 50% to 75% gross balance waivers, depending on account default age, documented hardship. The ratio of core principal to accumulated 42% APR finance charges."
+            a: "Cardholders typically settle 50% to 75% gross balance waivers. Depending on account default age. Documented hardship. The ratio of core main loan to total 42% APR finance charges."
         },
         {
             q: 'Why do banks offer high discounts on credit card settlements?',
-            a: 'Credit cards are unsecured loans lacking physical collateral. After 90 days of default, RBI rules mandate 100% bank provisioning, making immediate compromised cash recovery through an OTS commercially advantageous.'
+            a: 'Credit cards are no-pledge loans lacking physical pledge. After 90 days of default. RBI rules mandate 100% bank bank reserves. Making fast compromised cash claims through an OTS commercially advantageous.'
         },
         {
             q: 'Can I get a discount on the core principal credit card balance?',
-            a: 'Yes. While banks readily waive 100% of late fees and 70% of finance interest, seasoned NPAs past 180 days with severe documented insolvency can also secure 25% to 40% principal haircuts.'
+            a: 'Yes. While banks readily waive 100% of late fees and 70% of finance rates. Seasoned NPAs past 180 days with severe documented ruin can also secure 25% to 40% main loan haircuts.'
         },
         {
             q: 'What documents are required to negotiate a credit card settlement discount?',
-            a: "Borrowers must submit a hardship dossier containing job termination letters, salary reduction certificates, medical hospitalization records, audited business financial losses. Bank statements showing depleted liquidity."
+            a: "Clients must submit a hardship dossier containing job termination letters. Salary reduction letters. health hospitalization records. Audited trade money losses. Bank records showing depleted liquidity."
         },
         {
             q: 'Will settling a credit card debt at a discount affect my CIBIL score?',
-            a: 'Yes. The bank reports the status as Settled, reducing credit scores by 75 to 150 points. However, disciplined credit habits and secured cards can restore scores above 750 within 24 months.'
+            a: 'Yes. The bank reports the status as Settled. Reducing credit scores by 75 to 150 points. However. Disciplined credit habits and secured cards can restore scores above 750 within 24 months.'
         },
         {
             q: 'Can a bank recovery agent reject my settlement discount proposal?',
-            a: 'Third-party recovery agents lack sanction authority. Authentic settlement discounts must be formally approved by the bank Stressed Asset Committee or Nodal Officers, who issue an official Settlement Sanction Letter.'
+            a: 'Third-party claims agents lack sanction formal. Authentic settlement discounts must be formally approved by the bank Stressed Asset boards or Nodal agents. Who issue an formal settlement Sanction Letter.'
         },
         {
             q: 'How do I reply to a Section 25 PSSA notice for a bounced card auto-debit?',
-            a: "Serve a formal legal reply within 15 days contesting penalty compounding, establishing genuine financial hardship without fraudulent intent. Proposing a structured One-Time Settlement based on core principal dues."
+            a: "Serve a formal legal reply within 15 days contesting penalty growing. Establishing genuine hardship without fraudulent intent. Proposing a structured One-Time settlement based on core main loan dues."
         },
         {
             q: 'Can I convert a Settled credit card status to Closed in CIBIL?',
-            a: "Yes. Under Section 21 of CICRA 2005, you can repay the previously waived balance at a later date, obtain a final No Dues Certificate. Update your bureau status to Closed."
+            a: "Yes. Under Section 21 of CICRA 2005. You can repay the previously waived balance at a later date. Obtain a final No Dues letter. Update your CIBIL desk status to Closed."
         },
         {
             q: 'How can I verify that my credit card settlement letter is authentic?',
-            a: "Ensure the letter originates from the bank official corporate email domain or branch letterhead, specifies exact card numbers, lists negotiated settlement amounts. Explicitly covenants complete liability discharge."
+            a: "Ensure the letter originates from the bank formal firm email domain or branch letterhead. Specifies exact card numbers. Lists settled settlement amounts. Explicitly covenants complete debt risk discharge."
         },
         {
             q: 'What should I do if a bank violates RBI fair recovery guidelines?',
-            a: 'Document all abusive calls or unauthorized visits and file a formal grievance with the Bank Nodal Officer. If unresolved within 30 days, lodge a complaint on cms.rbi.org.in.'
+            a: 'paper all abusive calls or banned visits and file a formal grievance with the Bank Nodal agents. If unresolved within 30 days. Lodge a reports on cms.rbi.org.in.'
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -100,9 +100,7 @@ export default function CreditCardSettlementDiscountClient() {
             How Much Discount Can You Get on Credit Card Settlement in India?
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed">
-            A comprehensive legal and financial guide explaining how overdue cardholders leverage 90 to 180-day default milestones, unbundle compounding 42% APR finance charges. Establish genuine hardship to negotiate 50% to 75% total debt waivers with scheduled commercial banks.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed"> A full legal and money guide explaining how late cardholders leverage 90 to 180-day default milestones. Unbundle growing 42% APR finance charges. Establish genuine hardship to settle 50% to 75% total debt waivers with scheduled banks. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -145,9 +143,7 @@ export default function CreditCardSettlementDiscountClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>RBI Compliant Resolution.</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Governed by Master Directions on Credit Card Operations &amp; Fair Practices Code.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by Master Directions on Credit Card work &amp. Fair Practices Code. </p>
               </div>
             </div>
           </aside>
@@ -163,68 +159,23 @@ export default function CreditCardSettlementDiscountClient() {
               </div>
 
               <ul className="space-y-3 text-xs sm:text-sm text-slate-700 leading-relaxed">
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Pure Civil Debt:</strong> Unsecured credit card default is strictly a civil breach under the Indian Contract Act, 1872, with zero arrest exposure.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Pure Civil Debt:</strong> no-pledge credit card default is strictly a civil breach under the Indian Contract Act. 1872. With zero arrest exposure. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">50% to 75% Average Waiver:</strong> Borrowers routinely secure 50% to 75% balance reductions on cards overdue past 90 to 180 days.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">50% to 75% Average Waiver:</strong> clients routinely secure 50% to 75% balance reductions on cards late past 90 to 180 days. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">100% Penalty Elimination:</strong> Banks universally waive 100% of accumulated late payment fees, overlimit penalties, and 18% GST charges.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">100% Penalty Elimination:</strong> Banks universally waive 100% of total late payment fees. Overlimit penalties. 18% GST charges. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Steep APR Cuts:</strong> Structured negotiations eliminate 60% to 80% of compounding finance charges accrued at 42% APR.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Steep APR Cuts:</strong> Structured talks eliminate 60% to 80% of growing finance charges accrued at 42% APR. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">90-Day Provisioning Pressure:</strong> Accounts past 90 days trigger mandatory 100% Tier-1 bank capital provisioning under RBI rules.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">90-Day bank reserves Pressure:</strong> Accounts past 90 days trigger strict 100% Tier-1 bank cash bank reserves under RBI rules. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Principal Haircuts:</strong> Severe insolvency seasoned past 180 days frequently secures 25% to 40% haircuts on core principal spends.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">main loan Haircuts:</strong> Severe ruin seasoned past 180 days often secures 25% to 40% haircuts on core main loan spends. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Statutory Notice Defense:</strong> Formal legal replies to Section 25 PSSA notices protect borrowers and redirect disputes into compromise talks.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">legal notices Defense:</strong> Formal legal replies to Section 25 PSSA notices protect clients and redirect claims into OTS deal talks. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Mandatory Sanction Letter:</strong> Payments must be made solely against official sanction letters on bank corporate letterhead.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">strict Sanction Letter:</strong> Payments must be made solely against formal sanction letters on bank firm letterhead. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">CIBIL Status Remedy:</strong> Settled bureau marks can be upgraded to Closed under Section 21 of CICRA, 2005 upon future repayment.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">CIBIL Status Remedy:</strong> Settled CIBIL desk marks can be upgraded to Closed under Section 21 of CICRA. 2005 upon future payment. </div> </li>
               </ul>
             </div>
 
@@ -238,17 +189,11 @@ export default function CreditCardSettlementDiscountClient() {
                 1. Debt Economics: Structural Driver of Card Waivers
               </h2>
               
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Credit cards represent the most expensive unsecured revolving credit in the Indian banking system. Commercial card issuers levy monthly finance charges of 3.5% to 4.2%, creating an effective Annual Percentage Rate (APR) exceeding 42% to 52%. When cardholders face unexpected financial distress, paying only the mandatory 5% Minimum Amount Due triggers a severe compounding cycle. Minimum payments merely service accumulated interest and 18% GST, leaving underlying principal balances completely unamortized while statement totals escalate.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Credit cards represent the most expensive no-pledge revolving credit in the Indian banking system. Trade card issuers levy monthly finance charges of 3.5% to 4.2%. Creating an effective Annual Percentage Rate (APR) exceeding 42% to 52%. When cardholders face unexpected debt stress. Paying only the strict 5% Minimum Amount Due triggers a severe growing cycle. Minimum payments merely service total rates and 18% GST. Leaving underlying main loan balances completely unamortized while record totals escalate. </p>
 
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Under Reserve Bank of India prudential guidelines, overdue accounts transition across Special Mention Account stages: SMA-0 (1-30 days overdue), SMA-1 (31-60 days). SMA-2 (61-90 days). Beyond 90 days, the account is classified as a Non-Performing Asset (NPA), mandating 100% Tier-1 capital provisioning by the lending institution.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Under Reserve Bank of India prudential rules. late accounts transition across Special Mention Account stages: SMA-0 (1-30 days late). SMA-1 (31-60 days). SMA-2 (61-90 days). Beyond 90 days. The account is classified as a Non-Performing Asset (NPA). Mandating 100% Tier-1 cash bank reserves by the lending institution. </p>
 
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Because credit cards lack mortgage or hypothecated security, banks cannot enforce summary collateral recovery under the SARFAESI Act, 2002. also, instituting civil summary suits under Order 37 CPC entails lengthy litigation and high legal costs. as a result, commercial banks maintain distressed debt committees empowered to sanction large One-Time Settlements (OTS) to recover compromised capital.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Because credit cards lack mortgage or hypothecated pledge. Banks cannot enforce summary pledge claims under the SARFAESI Act. 2002. Also. Instituting civil summary suits under Order 37 CPC entails lengthy lawsuits and high legal costs. As a result. Banks maintain distressed debt boards empowered to sanction large One-Time deals (OTS) to recover compromised cash. </p>
             </section>
 
             {/* SECTION 2: Financial Breakdown & Settlement Math */}
@@ -261,20 +206,16 @@ export default function CreditCardSettlementDiscountClient() {
                 2. Financial Breakdown: Core Principal vs Inflated Dues
               </h2>
 
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                A overdue credit card statement rarely reflects true economic liabilities. Over 6 to 9 months of default, issuers continuously stack 42% APR finance interest, late fees, overlimit charges. 18% GST. A forensic statement audit unbundles these stacked charges to isolate the net core principal from penalty inflation.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> A late credit card record rarely reflects true economic debts. Over 6 to 9 months of default. Issuers continuously stack 42% APR finance rates. Late fees. Overlimit charges. 18% GST. A deep record audit unbundles these stacked charges to isolate the net core main loan from penalty inflation. </p>
 
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                During One-Time Settlement discussions, card issuers adhere to an established institutional waiver hierarchy. Banks readily grant 100% waivers on late payment fees, overlimit penalties. GST. also, negotiations eliminate 50% to 80% of cumulative finance interest. For seasoned non-performing assets aged beyond 180 days with documented hardship, banks frequently grant direct 20% to 40% principal haircuts.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> During One-Time settlement discussions. Card issuers adhere to an established bank waiver hierarchy. Banks readily grant 100% waivers on late payment fees. Overlimit penalties. GST. Also. Talks eliminate 50% to 80% of cumulative finance rates. For seasoned non-performing assets aged beyond 180 days with documented hardship. Banks often grant direct 20% to 40% main loan haircuts. </p>
 
               {/* Settlement Math Card */}
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs overflow-hidden">
                 <div className="bg-slate-900 text-white p-4 sm:p-5 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2">
                   <div>
                     <h3 className="font-bold text-sm sm:text-base">Representative 180-Day Credit Card Settlement Breakdown</h3>
-                    <p className="text-xs text-slate-400">Actual financial forensic model for unbundling overdue revolving card balances.</p>
+                    <p className="text-xs text-slate-400">Actual money deep model for unbundling late revolving card balances.</p>
                   </div>
                   <span className="text-xs font-extrabold bg-blue-600 text-white px-3 py-1 rounded-full uppercase tracking-wider">
                     54.2% Gross Savings.
@@ -340,9 +281,7 @@ export default function CreditCardSettlementDiscountClient() {
                 3. Strategic Options Comparison: Evaluating Debt Relief Pathways
               </h2>
 
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Borrowers facing severe credit card default must evaluate available debt resolution pathways based on financial burden, legal finality. Bureau implications:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> clients facing severe credit card default must evaluate available debt relief pathways based on money burden. Legal finality. CIBIL desk implications: </p>
 
               <div className="overflow-x-auto rounded-2xl border border-slate-200/80 bg-white shadow-xs">
                 <table className="w-full text-left text-xs md:text-sm divide-y divide-slate-200/80">
@@ -357,8 +296,8 @@ export default function CreditCardSettlementDiscountClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-100 text-slate-600">
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-100">
-                      <td className="p-3.5 font-bold text-slate-900">One-Time Settlement (OTS).</td>
-                      <td className="p-3.5">RBI Stressed Asset Guidelines.</td>
+                      <td className="p-3.5 font-bold text-slate-900">One-Time settlement (OTS).</td>
+                      <td className="p-3.5">RBI Stressed Asset rules.</td>
                       <td className="p-3.5 text-emerald-600 font-semibold">50% to 75% gross waiver.</td>
                       <td className="p-3.5">30 to 60 Days</td>
                       <td className="p-3.5 text-emerald-700 font-medium">Complete legal discharge and clean NDC.</td>
@@ -366,30 +305,30 @@ export default function CreditCardSettlementDiscountClient() {
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-100">
                       <td className="p-3.5 font-bold text-slate-900">Term Loan Restructuring.</td>
                       <td className="p-3.5">Internal Bank Retail Policy.</td>
-                      <td className="p-3.5 text-amber-700">Zero debt waiver, converted at 14% to 18%.</td>
+                      <td className="p-3.5 text-amber-700">Zero debt waiver. Converted at 14% to 18%.</td>
                       <td className="p-3.5">24 to 48 Months</td>
                       <td className="p-3.5 text-slate-600">High ongoing re-default risks.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-100">
                       <td className="p-3.5 font-bold text-slate-900">Civil Summary Suit.</td>
                       <td className="p-3.5">Order 37 CPC</td>
-                      <td className="p-3.5 text-red-600">Full ledger claim plus 18% litigation interest.</td>
+                      <td className="p-3.5 text-red-600">Full ledger claim plus 18% lawsuits rates.</td>
                       <td className="p-3.5">3 to 7 Years</td>
-                      <td className="p-3.5 text-red-700">Decree execution &amp; asset attachment.</td>
+                      <td className="p-3.5 text-red-700">Decree execution &amp. asset attachment.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-100">
                       <td className="p-3.5 font-bold text-slate-900">National Lok Adalat.</td>
-                      <td className="p-3.5">Legal Services Authorities Act, 1987.</td>
-                      <td className="p-3.5 text-blue-600">30% to 50% interest waiver.</td>
+                      <td className="p-3.5">Legal Services officials Act. 1987.</td>
+                      <td className="p-3.5 text-blue-600">30% to 50% rates waiver.</td>
                       <td className="p-3.5">Single-Day Award.</td>
                       <td className="p-3.5 text-slate-700">Binding non-appealable award.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-100">
                       <td className="p-3.5 font-bold text-slate-900">Inaction / Defaulting.</td>
-                      <td className="p-3.5">Unregulated Recovery Dynamics.</td>
-                      <td className="p-3.5 text-red-700 font-bold">Unchecked 42% compounding.</td>
+                      <td className="p-3.5">Unregulated claims Dynamics.</td>
+                      <td className="p-3.5 text-red-700 font-bold">Unchecked 42% growing.</td>
                       <td className="p-3.5">Indefinite</td>
-                      <td className="p-3.5 text-red-700">Collection harassment &amp; ARC debt sale.</td>
+                      <td className="p-3.5 text-red-700">claims abuse &amp. ARC debt sale.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -406,17 +345,11 @@ export default function CreditCardSettlementDiscountClient() {
                 4. CIBIL Algorithm: Post-Settlement Credit Recovery
               </h2>
 
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                The TransUnion CIBIL scoring model evaluates consumer credit across five weighted parameters: Payment History (35%), Credit use (30%), Credit History Length (15%), Credit Mix (10%). Recent Inquiries (10%). Defaulting past 90 DPD triggers a sharp score drop of 120 to 180 points.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The TransUnion CIBIL scoring model evaluates clients credit across five weighted parameters: Payment History (35%). Credit use (30%). Credit History Length (15%). Credit Mix (10%). Recent Inquiries (10%). Defaulting past 90 DPD triggers a sharp score drop of 120 to 180 points. </p>
 
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Executing an official One-Time Settlement updates the bureau status to Settled. While this notation confirms that the account closed with a negotiated compromise, it permanently halts active monthly overdue DPD reporting. Cardholders can systematically rebuild their score above 750 within 18 to 24 months by using a Fixed Deposit secured credit card and keeping use strictly below 20%.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Executing an formal One-Time settlement updates the CIBIL desk status to Settled. While this notation confirms that the account closed with a settled OTS deal. It permanently halts active monthly late DPD reporting. Cardholders can systematically rebuild their score above 750 within 18 to 24 months by using a Fixed Deposit secured credit card and keeping use strictly below 20%. </p>
 
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                also, under Section 21 of the Credit Information Companies (Regulation) Act, 2005 (CICRA), borrowers retain the statutory right to pay the residual waived balance in the future, obtaining a No Dues Certificate and converting their CIBIL status from Settled to Closed.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> also. Under Section 21 of the Credit Information firms (Regulation) Act. 2005 (CICRA). Clients retain the legal right to pay the residual waived balance in the future. Obtaining a No Dues letter and converting their CIBIL status from Settled to Closed. </p>
             </section>
 
             {/* SECTION 5: Visual Infographic Asset Card */}
@@ -453,9 +386,7 @@ export default function CreditCardSettlementDiscountClient() {
                 5. Settlement SOP: 6 Stages to Maximum Debt Waivers
               </h2>
 
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Securing a 50% to 75% credit card settlement discount requires a disciplined standard operating procedure to maximize waivers and secure legal closure:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Securing a 50% to 75% credit card settlement discount requires a disciplined standard operating steps to maximize waivers and secure legal closure: </p>
 
               <div className="space-y-4">
                 {/* Stage 1 */}
@@ -468,9 +399,7 @@ export default function CreditCardSettlementDiscountClient() {
                       Stage 1: Forensic Statement Audit
                     </h3>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed pl-11">
-                    Line-by-line statement audit separating core principal from compounding 42% APR interest, late fees. GST to establish baseline liability.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed pl-11"> Line-by-line record audit separating core main loan from growing 42% APR rates. Late fees. GST to establish baseline debt risk. </p>
                 </div>
 
                 {/* Stage 2 */}
@@ -483,9 +412,7 @@ export default function CreditCardSettlementDiscountClient() {
                       Stage 2: Hardship Dossier Compilation
                     </h3>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed pl-11">
-                    Assembling documentary proof of distress including termination notices, salary reduction slips, audited business losses, and medical records.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed pl-11"> Assembling documentary proof of distress including termination notices. Salary reduction slips. Audited trade losses. And health records. </p>
                 </div>
 
                 {/* Stage 3 */}
@@ -498,9 +425,7 @@ export default function CreditCardSettlementDiscountClient() {
                       Stage 3: Institutional Escalation
                     </h3>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed pl-11">
-                    Serving formal legal representations to bank Nodal Officers, citing the RBI Fair Practices Code to halt recovery agent harassment.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed pl-11"> Serving formal legal representations to bank Nodal agents. Citing the RBI Fair Practices Code to halt claims agent abuse. </p>
                 </div>
 
                 {/* Stage 4 */}
@@ -513,9 +438,7 @@ export default function CreditCardSettlementDiscountClient() {
                       Stage 4: Stressed Asset Negotiation
                     </h3>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed pl-11">
-                    Presenting structured hardship proposals before credit committees, leveraging 90-day NPA provisioning pressures for 50% to 75% waivers.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed pl-11"> Presenting structured hardship proposals before credit boards. Leveraging 90-day NPA bank reserves pressures for 50% to 75% waivers. </p>
                 </div>
 
                 {/* Stage 5 */}
@@ -528,9 +451,7 @@ export default function CreditCardSettlementDiscountClient() {
                       Stage 5: Settlement Sanction Vetting
                     </h3>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed pl-11">
-                    Forensic legal vetting of the bank Settlement Letter, verifying corporate domain authenticity, payment schedules, and liability discharge.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed pl-11"> deep legal vetting of the bank closure note. Verifying firm domain authenticity. Payment schedules. And debt risk discharge. </p>
                 </div>
 
                 {/* Stage 6 */}
@@ -543,9 +464,7 @@ export default function CreditCardSettlementDiscountClient() {
                       Stage 6: Direct Card Remittance
                     </h3>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed pl-11">
-                    Depositing compromise sums directly into the credit card account, securing a stamped No Dues Certificate. Updating bureau records.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed pl-11"> Depositing OTS deal sums straight into the credit card account. Securing a stamped No Dues letter. Updating CIBIL desk records. </p>
                 </div>
               </div>
             </section>
@@ -560,9 +479,7 @@ export default function CreditCardSettlementDiscountClient() {
                 6. Statutory Notice Defense: Legal Protections
               </h2>
 
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When card default extends past 90 days, bank legal departments issue statutory demand notices to enforce collections. Serving structured formal legal replies protects cardholders:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When card default extends past 90 days. Bank legal units issue legal demand notices to enforce calls. Serving structured formal legal replies protects cardholders: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {/* Card 1: Section 25 PSSA */}
@@ -571,9 +488,7 @@ export default function CreditCardSettlementDiscountClient() {
                     <FileText className="w-4 h-4 text-[#1886ff]"/>
                     <span>Section 25 PSSA Notice Defense.</span>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    Issued for dishonored electronic NACH mandates. Serving a formal reply within 15 days establishes genuine hardship without fraudulent intent, directing proceedings toward structured OTS discussions.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Issued for dishonored electronic NACH mandates. Serving a formal reply within 15 days establishes genuine hardship without fraudulent intent. Directing steps toward structured OTS discussions. </p>
                 </div>
 
                 {/* Card 2: Section 138 NI Act */}
@@ -582,9 +497,7 @@ export default function CreditCardSettlementDiscountClient() {
                     <Gavel className="w-4 h-4 text-indigo-600"/>
                     <span>Section 138 NI Act Cheque Defense.</span>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    Issued when security cheques bounce. Legal defense contests arbitrary penal interest stacking and unauthorized presentation of undated instruments, shielding cardholders from criminal liability.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Issued when pledge cheques bounce. Legal defense contests arbitrary extra fees stacking and banned presentation of undated instruments. Shielding cardholders from penal debt risk. </p>
                 </div>
 
                 {/* Card 3: Section 21 Arbitration Act */}
@@ -593,9 +506,7 @@ export default function CreditCardSettlementDiscountClient() {
                     <Landmark className="w-4 h-4 text-emerald-600"/>
                     <span>Section 21 Arbitration Act Invocation.</span>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    Banks frequently invoke private arbitration. Under Supreme Court rulings in TRF Ltd. and Perkins Eastman, unilateral sole arbitrator appointments are de jure invalid under Section 12(5).
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Banks often invoke private hearing. Under Supreme Court rulings in TRF Ltd. And Perkins Eastman. Unilateral sole judge appointments are de jure invalid under Section 12(5). </p>
                 </div>
 
                 {/* Card 4: DRT Limits & RBI Fair Practices */}
@@ -604,9 +515,7 @@ export default function CreditCardSettlementDiscountClient() {
                     <ShieldAlert className="w-4 h-4 text-amber-600"/>
                     <span>DRT Limits &amp; RBI Fair Practices.</span>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    DRT jurisdiction is strictly restricted to claims exceeding ₹20 Lakhs. The RBI Fair Practices Code strictly prohibits calling before 8 AM or after 7 PM, workplace visits. Third-party disclosure.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> DRT police area is strictly restricted to claims exceeding ₹20 Lakhs. The RBI Fair Practices Code strictly prohibits calling before 8 AM or after 7 PM. Workplace visits. Third-party disclosure. </p>
                 </div>
               </div>
             </section>
@@ -621,9 +530,7 @@ export default function CreditCardSettlementDiscountClient() {
                 7. Grievance Escalation Hierarchy: 3-Tier Matrix
               </h2>
 
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                If card issuers ignore hardship representations or violate fair recovery norms, cardholders can escalate through the structured three-tier grievance hierarchy:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> If card issuers ignore hardship representations or violate fair claims norms. Cardholders can escalate through the structured three-tier grievance hierarchy: </p>
 
               <div className="space-y-3">
                 <div className="bg-white p-4 rounded-xl border border-slate-200/80 shadow-xs flex flex-col sm:flex-row sm:items-center justify-between gap-3">
@@ -632,7 +539,7 @@ export default function CreditCardSettlementDiscountClient() {
                       Level 1 Escalation.
                     </span>
                     <h3 className="font-bold text-slate-900 text-sm mt-1">Bank Grievance Redressal Officer (GRO)</h3>
-                    <p className="text-xs text-slate-600 mt-0.5">Submitting initial formal complaints regarding unlawful penal interest or aggressive collection tactics. Resolution timeline of 7 to 10 working days.</p>
+                    <p className="text-xs text-slate-600 mt-0.5">Submitting initial formal reports regarding unlawful extra fees or harsh claims tactics. relief timeline of 7 to 10 working days.</p>
                   </div>
                   <span className="text-xs font-semibold text-slate-500 flex-shrink-0">7 - 10 Days</span>
                 </div>
@@ -643,7 +550,7 @@ export default function CreditCardSettlementDiscountClient() {
                       Level 2 Escalation.
                     </span>
                     <h3 className="font-bold text-slate-900 text-sm mt-1">Principal Nodal Officer (PNO)</h3>
-                    <p className="text-xs text-slate-600 mt-0.5">Escalating to senior bank management for stressed asset re-evaluation and special OTS approvals. Turnaround timeline of 14 to 21 working days.</p>
+                    <p className="text-xs text-slate-600 mt-0.5">Escalating to senior bank handling for stressed asset re-evaluation and special OTS approvals. Turnaround timeline of 14 to 21 working days.</p>
                   </div>
                   <span className="text-xs font-semibold text-slate-500 flex-shrink-0">14 - 21 Days</span>
                 </div>
@@ -654,7 +561,7 @@ export default function CreditCardSettlementDiscountClient() {
                       Level 3 Statutory Escalation.
                     </span>
                     <h3 className="font-bold text-slate-900 text-sm mt-1">RBI Integrated Ombudsman (CMS Portal)</h3>
-                    <p className="text-xs text-slate-600 mt-0.5">Filing statutory complaints via cms.rbi.org.in if grievances remain unresolved past 30 days, providing binding dispute resolution at zero cost.</p>
+                    <p className="text-xs text-slate-600 mt-0.5">Filing legal reports via cms.rbi.org.in if grievances remain unresolved past 30 days. This provides binding claims relief at zero cost.</p>
                   </div>
                   <span className="text-xs font-semibold text-slate-500 flex-shrink-0">30 - 45 Days</span>
                 </div>
@@ -671,9 +578,7 @@ export default function CreditCardSettlementDiscountClient() {
                 8. Chronological Resolution Milestones: Default Cycle to Debt Freedom
               </h2>
 
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Understanding how bank recovery strategies evolve across the 180-day default cycle enables borrowers to initiate negotiations during the peak waiver window:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Understanding how bank claims plans evolve across the 180-day default cycle enables clients to initiate talks during the peak waiver window: </p>
 
               <div className="overflow-x-auto rounded-2xl border border-slate-200/80 bg-white shadow-xs">
                 <table className="w-full text-left text-xs md:text-sm divide-y divide-slate-200/80">
@@ -690,37 +595,37 @@ export default function CreditCardSettlementDiscountClient() {
                       <td className="p-3.5 font-bold text-slate-900">Days 1 - 30</td>
                       <td className="p-3.5">SMA-0</td>
                       <td className="p-3.5">SMS alerts and late fee application.</td>
-                      <td className="p-3.5">Audit statement; stop minimum dues payments.</td>
+                      <td className="p-3.5">Audit record. stop minimum dues payments.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-100">
                       <td className="p-3.5 font-bold text-slate-900">Days 31 - 60</td>
                       <td className="p-3.5">SMA-1</td>
-                      <td className="p-3.5">Telecalling and 42% APR interest compounding.</td>
-                      <td className="p-3.5">Compile documented financial hardship dossier.</td>
+                      <td className="p-3.5">Telecalling and 42% APR rates growing.</td>
+                      <td className="p-3.5">Compile documented hardship dossier.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-100">
                       <td className="p-3.5 font-bold text-slate-900">Days 61 - 90</td>
                       <td className="p-3.5">SMA-2</td>
-                      <td className="p-3.5">Agency allocation and demand notices.</td>
-                      <td className="p-3.5">Engage debt resolution team to halt harassment.</td>
+                      <td className="p-3.5">firm allocation and demand notices.</td>
+                      <td className="p-3.5">Engage debt relief team to halt abuse.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-100">
                       <td className="p-3.5 font-bold text-slate-900">Days 91 - 120</td>
                       <td className="p-3.5">NPA Classification.</td>
-                      <td className="p-3.5">Card blocked; 100% bank provisioning enforced.</td>
+                      <td className="p-3.5">Card blocked. 100% bank bank reserves enforced.</td>
                       <td className="p-3.5">Serve formal legal response contesting dues.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-100">
                       <td className="p-3.5 font-bold text-slate-900">Days 121 - 150</td>
                       <td className="p-3.5">Peak OTS Window</td>
-                      <td className="p-3.5">Bank reviews write-off vs recovery.</td>
-                      <td className="p-3.5 text-emerald-700 font-bold">Negotiate 50% to 75% gross balance waiver.</td>
+                      <td className="p-3.5">Bank reviews write-off vs claims.</td>
+                      <td className="p-3.5 text-emerald-700 font-bold">settle 50% to 75% gross balance waiver.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-100">
                       <td className="p-3.5 font-bold text-slate-900">Days 151 - 180+</td>
-                      <td className="p-3.5">Settlement &amp; Closure.</td>
+                      <td className="p-3.5">settlement &amp. Closure.</td>
                       <td className="p-3.5">Sanction letter issued on bank letterhead.</td>
-                      <td className="p-3.5 text-emerald-700 font-bold">pay funds directly to bank and obtain stamped No Dues Certificate.</td>
+                      <td className="p-3.5 text-emerald-700 font-bold">pay funds straight to bank and obtain stamped No Dues letter.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -737,9 +642,7 @@ export default function CreditCardSettlementDiscountClient() {
                 9. Real-World Scenarios: Card Settlement Negotiations
               </h2>
 
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Professional debt resolution strategies must account for specialized borrower situation to optimize settlement discounts and protect client rights:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> expert debt relief plans must account for expert client situation to optimize settlement discounts and protect client rights: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {/* Scenario 1 */}
@@ -748,9 +651,7 @@ export default function CreditCardSettlementDiscountClient() {
                     <CreditCard className="w-4 h-4 text-[#1886ff]"/>
                     Multi-Card Portfolio Consolidation
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    Negotiating simultaneously across multiple credit cards from different issuers to synchronize settlement schedules, eliminate cross-exposure risks. Secure combined waivers exceeding 60%.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> settling simultaneously across multiple credit cards from different issuers to synchronize settlement schedules. Eliminate cross-exposure risks. Secure combined waivers exceeding 60%. </p>
                 </div>
 
                 {/* Scenario 2 */}
@@ -759,9 +660,7 @@ export default function CreditCardSettlementDiscountClient() {
                     <UserCheck className="w-4 h-4 text-indigo-600"/>
                     Corporate Layoffs &amp; Income Shocks
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    showing involuntary job termination, severe salary reductions. Prolonged medical emergencies to justify large principal haircuts on high-limit premium cards.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> showing involuntary job termination. Severe salary reductions. Prolonged health crises to justify large main loan haircuts on high-limit premium cards. </p>
                 </div>
 
                 {/* Scenario 3 */}
@@ -770,9 +669,7 @@ export default function CreditCardSettlementDiscountClient() {
                     <Building2 className="w-4 h-4 text-emerald-600"/>
                     MSME Proprietorship Capital Distress
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    Segregating personal credit cards used for enterprise working capital from operational liabilities, using audited GST returns to negotiate standalone retail debt relief.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Segregating private credit cards used for firms working cash from daily work debts. Using audited GST returns to settle standalone retail debt relief. </p>
                 </div>
 
                 {/* Scenario 4 */}
@@ -781,9 +678,7 @@ export default function CreditCardSettlementDiscountClient() {
                     <Landmark className="w-4 h-4 text-amber-600"/>
                     Asset Reconstruction Company (ARC) Portfolios
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    Negotiating with ARCs like Phoenix or Encore that acquired written-off debt portfolios at deep discounts, unlocking potential settlement waivers of 70% to 80%.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> settling with ARCs like Phoenix or Encore that acquired written-off debt portfolios at deep discounts. Unlocking potential settlement waivers of 70% to 80%. </p>
                 </div>
               </div>
             </section>
@@ -802,9 +697,7 @@ export default function CreditCardSettlementDiscountClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Frequently Asked Questions: Card Settlement Discounts
               </h2>
-              <p className="text-xs sm:text-sm text-slate-600">
-                Authoritative legal and financial answers regarding credit card settlements, waivers, CIBIL score implications, and statutory protections:
-              </p>
+              <p className="text-xs sm:text-sm text-slate-600"> Authoritative legal and money answers regarding credit card deals. Waivers. CIBIL score implications. And legal protections: </p>
 
               <div className="space-y-3 pt-2">
                 {faqs.map((faq, index) => {
@@ -832,21 +725,11 @@ export default function CreditCardSettlementDiscountClient() {
                 Official Regulatory Citations &amp; Outbound Reference Portals
               </h2>
               <ul className="space-y-2 text-xs text-slate-600 leading-relaxed list-disc pl-5">
-                <li>
-                  <strong>Reserve Bank of India Master Directions (2022):</strong> Master Direction - Credit Card Issuance and Conduct Directions, 2022 (RBI/2022-23/92), governing billing transparency and recovery codes.
-                </li>
-                <li>
-                  <strong>Reserve Bank - Integrated Ombudsman Scheme, 2021:</strong> Statutory dispute resolution mechanism providing cost-free adjudication for unfair banking and credit card recovery practices.
-                </li>
-                <li>
-                  <strong>Credit Information Companies (Regulation) Act, 2005 (CICRA):</strong> Section 21 and Section 22 governing credit reporting accuracy and conversion of Settled records.
-                </li>
-                <li>
-                  <strong>Supreme Court of India Jurisprudence:</strong> <em>Perkins Eastman Architects DPC (2020).</em> and <em>TRF Ltd. (2017)</em> regarding the invalidity of unilateral arbitrator appointments.
-                </li>
-                <li>
-                  <strong>Payments and Settlement Systems Act, 2007 (PSSA):</strong> Section 25 framework and judicial defenses concerning electronic auto-debit bounce notices.
-                </li>
+                <li> <strong>Reserve Bank of India Master Directions (2022):</strong> Master Direction - Credit Card Issuance and Conduct Directions. 2022 (RBI/2022-23/92). Governing billing transparency and claims codes. </li>
+                <li> <strong>Reserve Bank - Integrated agents Scheme. 2021:</strong> legal claims relief options providing cost-free adjudication for unfair banking and credit card claims practices. </li>
+                <li> <strong>Credit Information firms (Regulation) Act. 2005 (CICRA):</strong> Section 21 and Section 22 governing credit reporting accuracy and conversion of Settled records. </li>
+                <li> <strong>Supreme Court of India Jurisprudence:</strong> <em>Perkins Eastman Architects DPC (2020).</em> and <em>TRF Ltd. (2017)</em> regarding the invalidity of unilateral judge appointments. </li>
+                <li> <strong>Payments and settlement Systems Act. 2007 (PSSA):</strong> Section 25 rules and court defenses concerning electronic auto-debit bounce notices. </li>
               </ul>
 
               {/* 6 Outbound Authority Badges */}
@@ -933,14 +816,10 @@ export default function CreditCardSettlementDiscountClient() {
                   <Link href="/author/ashish-jhangra" className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional.
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief expert. </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Specialized in banking regulations, credit card dispute negotiations, anti-harassment defense. Stressed retail debt restructuring across major Indian scheduled commercial banks and NBFCs.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> expert in banking regulations. Credit card claims talks. Anti-abuse defense. Stressed retail debt restructuring across major Indian scheduled banks and NBFCs. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
                   <span>View Author Profile.</span>
@@ -958,12 +837,8 @@ export default function CreditCardSettlementDiscountClient() {
                 <span className="text-xs font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
                   100% CONFIDENTIAL RESOLUTION.
                 </span>
-                <p className="text-lg md:text-xl font-bold text-white leading-snug">
-                  Maxed-Out Credit Cards?
-                </p>
-                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
-                  Stop recovery harassment, halt compounding interest. Settle credit card debt at a 50% to 75% waiver with direct bank legal protection.
-                </p>
+                <p className="text-lg md:text-xl font-bold text-white leading-snug"> Maxed-Out Credit Cards? </p>
+                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal"> Stop claims abuse. Halt growing fees. Settle credit card debt at a 50% to 75% waiver with direct bank legal safety. </p>
               </div>
               <Link href="/contact" className="block w-full bg-white text-blue-900 hover:text-[#1886ff] py-3 px-4 rounded-full font-bold text-sm hover:bg-slate-50 transition-all shadow-md">
                 Settle Your Credit Card Debt
@@ -986,22 +861,10 @@ export default function CreditCardSettlementDiscountClient() {
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
               <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage.</p>
               <ul className="space-y-2 text-slate-600">
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Zero Upfront Risk:</strong> Performance-based debt resolution fees.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Direct Bank Remittance:</strong> Payments made only to card accounts.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>RBI &amp; CICRA Compliance:</strong> 100% lawful dispute handling.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Pan-India Representation:</strong> Dedicated negotiators and legal panel.</span>
-                </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Zero Upfront Risk:</strong> Performance-based debt relief fees.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Direct Bank Remittance:</strong> Payments made only to card accounts.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>RBI &amp. CICRA Compliance:</strong> 100% lawful claims handling.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Pan-India legal help:</strong> Dedicated negotiators and legal panel.</span> </li>
               </ul>
             </div>
 
@@ -1010,23 +873,17 @@ export default function CreditCardSettlementDiscountClient() {
               <p className="font-bold text-slate-900 text-sm">Related Credit Card Guides.</p>
               <div className="space-y-2.5">
                 <Link href="/credit-card-minimum-due-trap" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Credit Card Minimum Due Trap Explained.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Credit Card Minimum Due Trap Explained. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">How 42% APR compounds your balance &rarr;.</span>
                 </Link>
 
                 <Link href="/can-i-go-to-jail-for-credit-card-debt" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Can You Go to Jail for Credit Card Debt?
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Can You Go to Jail for Credit Card Debt? </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Debunking arrest threats &amp; police calls &rarr;.</span>
                 </Link>
 
                 <Link href="/convert-settled-status-to-closed" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Convert Settled Card Status to Closed.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Convert Settled Card Status to Closed. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Step-by-step Section 21 CICRA roadmap &rarr;.</span>
                 </Link>
               </div>

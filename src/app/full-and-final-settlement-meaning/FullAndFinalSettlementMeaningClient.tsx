@@ -46,43 +46,43 @@ export default function FullAndFinalSettlementMeaningClient() {
     const faqs = [
         {
             q: 'What is the legal definition of a Full and Final (F&F) Settlement in banking?',
-            a: "A Full and Final (F&F) Settlement\u2014commonly referred to in Indian banking jurisprudence as a One-Time Settlement (OTS) or Compromise Settlement\u2014is a legally binding accord reached between a borrower in distress and a regulated creditor (Bank, NBFC. ARC). Under this agreement, the creditor consents to accept a mutually agreed lump-sum or structured tranche amount that is less than the total outstanding ledger balance (principal plus accrued penal interest and legal fees) as complete and irrevocable satisfaction of the entire debt debt under Section 63 of the Indian Contract Act, 1872."
+            a: "A Full and Final (F&F) Settlement\u2014commonly referred to in Indian banking jurisprudence as a One-Time Settlement (OTS) or OTS deals\u2014is a legally binding accord reached between a client in distress and a regulated creditor (Bank, NBFC. ARC). Under this pacts, the creditor consents to accept a mutually agreed lump-sum or structured tranche amount that is less than the total unpaid ledger balance (main loan plus accrued penal interest and legal fees) as complete and irrevocable satisfaction of the entire debt debt under Section 63 of the Indian Contract Act, 1872."
         },
         {
             q: 'What is the exact difference between a Settlement Letter and a No Objection Certificate (NOC) / No Dues Certificate (NDC)?',
-            a: "An OTS Settlement Sanction Letter is a conditional offer document issued before payment, detailing the discounted settlement amount, payment due dates. Terms of compromise. It does not extinguish the debt until fully paid. In contrast, a No Objection Certificate (NOC) or No Dues Certificate (NDC) is a post-payment legal discharge instrument issued on official bank letterhead after realization of funds. The NDC certifies that all agreed settlement terms were fulfilled, the outstanding loan balance is \u20B90, all security charges/hypothecations are released. The lender possesses zero future claims against the borrower."
+            a: "An OTS Settlement Sanction Letter is a conditional offer paper issued before payment. Detailing the discounted settlement amount, payment due dates. Terms of OTS deal. It does not extinguish the debt until fully paid. In contrast, a No Objection letter (NOC) or No Dues letter (NDC) is a post-payment legal discharge instrument issued on formal bank letterhead after realization of funds. The NDC certifies that all agreed settlement terms were fulfilled. The unpaid loan balance is \u20B90. All security charges/hypothecations are released. The lender possesses zero future claims against the client."
         },
         {
             q: 'What happens immediately after paying the settlement amount to the bank?',
-            a: "Immediately upon payment clearance, several critical backend banking and legal events occur: (1) The funds are credited to your loan ledger and reconciled by Central Operations. (2) The bank's credit committee passes a formal Loss/Sacrifice Provisioning voucher to write off the waived portion. (3) The account status transitions in the Core Banking System (CBS) to settled/closed. (4) The lender is statutorily mandated to issue an unconditional No Dues Certificate within 30 days under RBI Master Direction RBI/2023-24/60. And (5) The lender transmits an updated data tape in the next monthly reporting cycle to CIBIL, Experian, Equifax. CRIF High Mark."
+            a: "Promptly upon payment clearance, several critical backend banking and legal events occur: (1) The funds are credited to your loan ledger and reconciled by Central work. (2) The bank's credit boards passes a formal Loss/Sacrifice Provisioning voucher to write off the waived portion. (3) The account status transitions in the Core Banking System (CBS) to settled/closed. (4) The lender is statutorily mandated to issue an full No Dues letter within 30 days under RBI Master Direction RBI/2023-24/60. And (5) The lender transmits an updated data tape in the next monthly reporting cycle to CIBIL, Experian, Equifax. CRIF High Mark."
         },
         {
             q: 'Does a Full and Final Settlement wipe out or clear my CIBIL credit report?',
-            a: "No. A full and final settlement does not wipe your credit file clean. Because the bank incurred a financial loss by waiving part of the contractually owed balance, the account status on your Credit Information Report (CIR) changes from \"Default/Overdue/Written Off\" to \"Settled\" (or \"Post-Write-off Settled\"). While this halts further default escalation and freezes Days Past Due (DPD) accumulation, the \"Settled\" remark remains on bureau records for 7 years (84 months) unless you then pay the waived differential amount to convert the tag to \"Closed\"."
+            a: "No. A full and final settlement does not wipe your credit file clean. Because the bank incurred a money loss by waiving part of the contractually owed balance. The account status on your Credit Information Report (CIR) changes from \"Default/Overdue/Written Off\" to \"Settled\" (or \"Post-Write-off Settled\"). While this halts further default escalation and freezes Days Past Due (DPD) accumulation, the \"Settled\" remark remains on bureau records for 7 years (84 months) unless you then pay the waived differential amount to convert the tag to \"Closed\"."
         },
         {
             q: 'Can a bank or recovery agency demand more money after a Full and Final settlement is paid?',
-            a: "Under Section 63 of the Indian Contract Act, 1872, once a creditor accepts the negotiated settlement amount in full satisfaction of the claim and the borrower satisfies all conditions within the stipulated validity date, the doctrine of promissory estoppel legally bars the lender or its assignees from demanding additional payments or reviving the waived amount. If an aggressive collection agency attempts further recovery, serving a formal legal notice referencing the OTS letter, payment receipts. NDC immediately quashes unlawful demands."
+            a: "Under Section 63 of the Indian Contract Act. 1872, once a creditor accepts the settled settlement amount in full satisfaction of the claim and the client satisfies all conditions within the stipulated validity date. The doctrine of promissory estoppel legally bars the lender or its assignees from demanding additional payments or reviving the waived amount. If an aggressive collection firm attempts further collection. Serving a formal legal notice referencing the OTS letter, payment receipts. NDC promptly quashes unlawful demands."
         },
         {
             q: 'What is the statutory RBI timeline for lenders to deliver the NOC after settlement?',
-            a: "Under Reserve Bank of India (RBI) Directive RBI/2023-24/60 (Directions on Release of Movable and Immovable Property Documents), all Commercial Banks, NBFCs. Housing Finance Companies are legally required to issue the final No Dues Certificate and return all original title deeds/collateral documents within 30 calendar days of receiving full settlement consideration. Failure to comply mandates the lender to pay the borrower \u20B95,000 per calendar day of unexcused delay."
+            a: "Under Reserve Bank of India (RBI) Directive RBI/2023-24/60 (Directions on Release of Movable and Immovable Property papers), all banks, NBFCs. Housing Finance Companies are legally required to issue the final No Dues letter and return all original title deeds/security papers within 30 calendar days of receiving full settlement consideration. Failure to comply mandates the lender to pay the client \u20B95,000 per calendar day of unexcused delay."
         },
         {
             q: 'How does an F&F settlement impact my credit score mathematically?',
-            a: "When a settlement is completed, the immediate impact depends on the prior state of the account. If the account was actively accumulating 90+ DPD and late fees, settling freezes default and reduces your revolving Credit use Ratio (CUR) to 0, which halts further score collapse and stabilizes the score. However, because Payment History accounts for 35% of the CIBIL algorithm, the historical delinquencies and \"Settled\" status incur an algorithmic penalty, typically keeping scores depressed between 620 and 700 until positive credit rebuilding steps are taken."
+            a: "When a settlement is completed. The fast impact depends on the prior state of the account. If the account was actively growing 90+ DPD and late fees. Settling freezes default and reduces your revolving Credit use Ratio (CUR) to 0. This halts further score collapse and stabilizes the score. However. This is because Payment History accounts for 35% of the CIBIL algorithm. The historical delinquencies and \"Settled\" status incur an algorithmic penalty, typically keeping scores depressed between 620 and 700 until positive credit rebuilding steps are taken."
         },
         {
             q: 'What critical elements must be verified in a Settlement Sanction Letter before paying?',
-            a: "Before making any payment, verify 6 mandatory elements: (1) Official letterhead with corporate CIN and branch stamp. (2) Exact borrower legal name, PAN. Loan Account Number. (3) Precise settlement amount broken down into single payment or explicit installment dates. (4) Clear statement that payment constitutes \"Full and Final Satisfaction\" of the entire claim. (5) Direct bank collection account details (never pay via personal UPI or cash to an agent). And (6) Name, designation, employee code, and signature of an authorized bank official."
+            a: "Before making any payment, verify 6 strict elements: (1) formal letterhead with company CIN and branch stamp. (2) Exact client legal name, PAN. Loan Account Number. (3) Precise settlement amount broken down into single payment or explicit installment dates. (4) Clear record that payment constitutes \"Full and Final Satisfaction\" of the entire claim. (5) Direct bank collection account details (never pay via personal UPI or cash to an agent). And (6) Name, designation, employee code, and signature of an authorized bank official."
         },
         {
             q: 'Can I take a new personal loan or credit card after doing a Full and Final Settlement?',
-            a: "Yes. Prime scheduled banks will generally decline unsecured personal loans and premium credit cards during the initial 12\u201324 months post-settlement due to automated underwriting filters flagging the \"Settled\" status. However, borrowers can successfully rebuild eligibility by obtaining a secured credit card against a Fixed Deposit (FD), maintaining a credit use ratio below 30%, servicing all other existing EMIs punctually. Paying the waived differential amount to upgrade the status to \"Closed\"."
+            a: "Yes. Prime scheduled banks will generally decline no-collateral private loans and premium credit cards during the initial 12\u201324 months post-settlement due to automated underwriting filters flagging the \"Settled\" status. However, borrowers can successfully rebuild eligibility by obtaining a secured credit card against a Fixed Deposit (FD), maintaining a credit use ratio below 30%, servicing all other existing EMIs punctually. Paying the waived differential amount to upgrade the status to \"Closed\"."
         },
         {
             q: 'What is the legal procedure if the bank refuses to update CIBIL after settlement payment?',
-            a: "If the bank fails to update the credit bureaus within 30 days of receiving settlement funds, you should: (1) Raise a formal grievance with the Bank's Principal Nodal Officer (PNO). (2) Log an online dispute on the TransUnion CIBIL Dispute Resolution portal attaching the OTS letter and NDC. And (3) If unresolved after 30 days, file a statutory complaint with the RBI Integrated Ombudsman at cms.rbi.org.in. Under RBI Circular RBI/2023-24/72, borrowers are entitled to \u20B9100 per day compensation for every day of delay beyond the statutory 30-day window."
+            a: "If the bank fails to update the credit bureaus within 30 days of receiving settlement funds. You should: (1) Raise a formal grievance with the Bank's main loan Nodal Officer (PNO). (2) Log an online dispute on the TransUnion CIBIL Dispute relief portal attaching the OTS letter and NDC. And (3) If unresolved after 30 days. File a legal complaint with the RBI Integrated Ombudsman at cms.rbi.org.in. Under RBI Circular RBI/2023-24/72, clients are entitled to \u20B9100 per day payout for every day of delay beyond the legal 30-day window."
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -97,9 +97,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                     </h1>
 
           {/* Subtitle */}
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal md:font-medium text-white/95 leading-relaxed">
-            Understand the legal definition of a Full and Final (F&amp;F) debt settlement, what it means for your CIBIL. The exact steps to finalize it.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal md:font-medium text-white/95 leading-relaxed"> Understand the legal definition of a Full and Final (F&amp. F) debt settlement, what it means for your CIBIL. The exact steps to finalize it. </p>
 
           {/* Single Rounded Full CTA Button */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -142,9 +140,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>Statutory Compliance 2026.</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Aligned with Section 63 Indian Contract Act, RBI Master Directions &amp; CICRA 2005.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Aligned with Section 63 Indian Contract Act, RBI Master Directions &amp. CICRA 2005. </p>
               </div>
             </div>
           </aside>
@@ -160,33 +156,13 @@ export default function FullAndFinalSettlementMeaningClient() {
               </div>
 
               <ul className="space-y-3.5 text-xs sm:text-sm text-slate-700 leading-relaxed">
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Absolute Legal Debt Extinguishment:</strong> A Full and Final (F&amp;F) Settlement—legally classified as a Compromise Settlement or One-Time Settlement (OTS)—is a bilateral contract under Section 63 of the Indian Contract Act, 1872. When executed properly, the creditor accepts a discounted lump sum and irrevocably relinquishes all future legal claims against the borrower.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Absolute Legal Debt Extinguishment:</strong> A Full and Final (F&amp. F) Settlement. legally classified as a OTS deals or One-Time Settlement (OTS). Is a bilateral contract under Section 63 of the Indian Contract Act, 1872. When executed properly, the creditor accepts a discounted lump sum and irrevocably relinquishes all future legal claims against the client. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Settlement Letter vs. No Dues Certificate:</strong> A settlement sanction letter is merely an. <em>offer of accord</em>; it does not close the loan. Complete satisfaction occurs only when the lender receives the agreed funds and issues an unconditional. <strong>No Dues Certificate (NDC) / No Objection Certificate (NOC).</strong> on official letterhead.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Settlement Letter vs. No Dues letter:</strong> A settlement sanction letter is merely an. <em>offer of accord</em>. it does not close the loan. Complete satisfaction occurs only when the lender receives the agreed funds and issues an full. <strong>No Dues letter (NDC) / No Objection letter (NOC).</strong> on formal letterhead. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">CIBIL Bureau Reporting Dynamics:</strong> Settleing debt stops compounding interest, halts aggressive recovery harassment, and eliminates accumulating Days Past Due (DPD). However, the credit bureaus record the trade-line as &quot;Settled&quot. (reflecting the lender&apos;s financial sacrifice), requiring proactive credit rebuilding or subsequent differential payoff to convert to &quot;Closed&quot;.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">CIBIL Bureau Reporting Dynamics:</strong> Settleing debt stops compounding interest. Halts aggressive collection abuse, and eliminates growing Days Past Due (DPD). However, the credit bureaus record the trade-line as &quot. Settled&quot. (reflecting the lender&apos. S money sacrifice), requiring early credit rebuilding or subsequent differential payoff to convert to &quot. Closed&quot. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Strict RBI 30-Day Document Release Mandate:</strong> Under RBI Directive RBI/2023-24/60, all regulated banks and NBFCs must issue the final NDC and return all original security/property deeds within. <strong>30 calendar days.</strong> of receiving settlement remittance, under penalty of ₹5,000 per day of delay.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Strict RBI 30-Day paper Release Mandate:</strong> Under RBI Directive RBI/2023-24/60, all regulated banks and NBFCs must issue the final NDC and return all original security/property deeds within. <strong>30 calendar days.</strong> of receiving settlement remittance, under penalty of ₹5,000 per day of delay. </div> </li>
               </ul>
             </div>
 
@@ -199,12 +175,8 @@ export default function FullAndFinalSettlementMeaningClient() {
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
                 1. Legal Definition &amp; Banking Taxonomy of a Full and Final Settlement
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                In Indian banking jurisprudence, the phrase. <strong>&quot;Full and Final Settlement&quot; (F&amp;F Settlement).</strong> refers to a formal compromise agreement entered into between a distressed borrower and a regulated lending institution (Scheduled Commercial Bank, NBFC, Housing Finance Company. Asset Reconstruction Company). Under this accord, the lender formally agrees to accept an amount lower than the total contractually outstanding liability (which encompasses unpaid principal, accrued regular interest, penal interest, late fees. Legal charges) in complete and absolute discharge of the underlying loan contract.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Borrowers frequently conflate different loan closure states. To understand where a Full and Final Settlement sits within the banking spectrum, examine the five distinct legal states of loan resolution in India:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> In Indian banking jurisprudence, the phrase. <strong>&quot. Full and Final Settlement&quot. (F&amp. F Settlement).</strong> refers to a formal OTS deal pacts entered into between a distressed client and a regulated lending institution (Scheduled banks, NBFC, Housing Finance Company. Asset Reconstruction Company). Under this accord, the lender formally agrees to accept an amount lower than the total contractually unpaid debt risk (which encompasses unpaid main loan. Accrued regular interest, penal interest, late fees. Legal charges) in complete and absolute discharge of the underlying loan contract. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> clients often conflate different loan closure states. To understand where a Full and Final Settlement sits within the banking spectrum. Examine the five distinct legal states of loan relief in India: </p>
 
               {/* 4-Sided Bordered Comparison Table */}
               <div className="rounded-2xl border border-slate-300 bg-white overflow-hidden shadow-xs">
@@ -221,97 +193,45 @@ export default function FullAndFinalSettlementMeaningClient() {
                     </thead>
                     <tbody className="divide-y divide-slate-200 text-slate-700">
                       <tr className="hover:bg-slate-50/80 transition-colors">
-                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-black text-emerald-700 bg-emerald-50/30">
-                          Standard Full Payoff (Regular Closure).
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200">
-                          Borrower satisfies 100% of the contractual principal, interest, and applicable foreclosure charges without any waiver.
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-bold text-emerald-600">
-                          CLOSED / REGULAR.
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-semibold text-emerald-600">
-                          ₹0 (Zero Loss)
-                        </td>
-                        <td className="p-3.5 md:p-4 font-semibold text-emerald-600">
-                          Fully Extinguished.
-                        </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-black text-emerald-700 bg-emerald-50/30"> Standard Full Payoff (Regular Closure). </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200"> client satisfies 100% of the contractual main loan. Interest, and applicable foreclosure charges without any waiver. </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-bold text-emerald-600"> CLOSED / REGULAR. </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-semibold text-emerald-600"> ₹0 (Zero Loss) </td>
+                        <td className="p-3.5 md:p-4 font-semibold text-emerald-600"> Fully Extinguished. </td>
                       </tr>
                       <tr className="hover:bg-slate-50/80 transition-colors">
-                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-black text-blue-700 bg-blue-50/30">
-                          Full &amp; Final Settlement (Compromise / OTS).
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200">
-                          Bilateral agreement where lender accepts discounted lump-sum consideration; balance is written off as a commercial sacrifice.
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-bold text-blue-700">
-                          SETTLED / POST-WRITE-OFF SETTLED.
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200 text-amber-600 font-semibold">
-                          Waived Amount Written Off.
-                        </td>
-                        <td className="p-3.5 md:p-4 font-semibold text-emerald-600">
-                          Extinguished via Estoppel (§63).
-                        </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-black text-blue-700 bg-blue-50/30"> Full &amp. Final Settlement (OTS deal / OTS). </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200"> Bilateral pacts where lender accepts discounted lump-sum consideration. balance is written off as a trade sacrifice. </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-bold text-blue-700"> SETTLED / POST-WRITE-OFF SETTLED. </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200 text-amber-600 font-semibold"> Waived Amount Written Off. </td>
+                        <td className="p-3.5 md:p-4 font-semibold text-emerald-600"> Extinguished via Estoppel (§63). </td>
                       </tr>
                       <tr className="hover:bg-slate-50/80 transition-colors">
-                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-black text-amber-700 bg-amber-50/30">
-                          Loan Restructuring / Rescheduling.
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200">
-                          Tenure extension, interest rate reduction, or EMI moratorium without principal write-off; contract remains active.
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-bold text-amber-700">
-                          RESTRUCTURED
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200">
-                          Zero Principal Loss (Deferred Yield).
-                        </td>
-                        <td className="p-3.5 md:p-4 text-amber-700">
-                          Active ongoing debt debt.
-                        </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-black text-amber-700 bg-amber-50/30"> Loan Restructuring / Rescheduling. </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200"> Tenure extension, interest rate reduction. Or EMI moratorium without main loan write-off. contract remains active. </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-bold text-amber-700"> RESTRUCTURED </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200"> Zero main loan Loss (Deferred Yield). </td>
+                        <td className="p-3.5 md:p-4 text-amber-700"> Active ongoing debt debt. </td>
                       </tr>
                       <tr className="hover:bg-slate-50/80 transition-colors">
-                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-black text-rose-700 bg-rose-50/30">
-                          Unilateral Bank Write-Off (Bad Debt).
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200">
-                          Internal accounting transfer to provision for NPA. Lender retains active legal rights to recover and assign to ARCs.
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-bold text-rose-600">
-                          WRITTEN OFF
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-semibold text-rose-600">
-                          100% Provisioned.
-                        </td>
-                        <td className="p-3.5 md:p-4 font-semibold text-rose-600">
-                          Active legal recovery &amp; arbitration.
-                        </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-black text-rose-700 bg-rose-50/30"> Unilateral Bank Write-Off (Bad Debt). </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200"> Internal accounting transfer to provision for NPA. Lender retains active legal rights to recover and assign to ARCs. </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-bold text-rose-600"> WRITTEN OFF </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-semibold text-rose-600"> 100% Provisioned. </td>
+                        <td className="p-3.5 md:p-4 font-semibold text-rose-600"> Active legal collection &amp. arbitration. </td>
                       </tr>
                       <tr className="hover:bg-slate-50/80 transition-colors">
-                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-black text-purple-700 bg-purple-50/30">
-                          Willful Default Classification.
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200">
-                          Borrower has capacity to pay but defaults or siphons funds. Penalized under RBI Master Circular on Willful Defaulters.
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-bold text-purple-700">
-                          SUIT FILED / WILLFUL DEFAULT.
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200 text-rose-700 font-semibold">
-                          Total Loss
-                        </td>
-                        <td className="p-3.5 md:p-4 text-rose-700 font-semibold">
-                          Criminal prosecution &amp; civil recovery.
-                        </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-black text-purple-700 bg-purple-50/30"> Willful Default Classification. </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200"> client has capacity to pay but defaults or siphons funds. Penalized under RBI Master Circular on Willful Defaulters. </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200 font-bold text-purple-700"> SUIT FILED / WILLFUL DEFAULT. </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200 text-rose-700 font-semibold"> Total Loss </td>
+                        <td className="p-3.5 md:p-4 text-rose-700 font-semibold"> Criminal legal steps &amp. civil collection. </td>
                       </tr>
                     </tbody>
                   </table>
                 </div>
               </div>
-              <p className="text-xs md:text-sm text-slate-600 italic">
-                <strong>Key Takeaway:</strong> A Full and Final Settlement is NOT a unilateral default or write-off. It is a legally enforceable compromise sanctioned by the bank&apos;s competent authority under the doctrine of accord and satisfaction.
-              </p>
+              <p className="text-xs md:text-sm text-slate-600 italic"> <strong>Key Takeaway:</strong> A Full and Final Settlement is NOT a unilateral default or write-off. It is a legally enforceable OTS deal sanctioned by the bank&apos. s competent formal under the doctrine of accord and satisfaction. </p>
             </section>
 
             {/* SECTION 2: SETTLEMENT LETTER VS NOC */}
@@ -323,9 +243,7 @@ export default function FullAndFinalSettlementMeaningClient() {
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
                 2. Settlement Sanction Letter vs No Dues Certificate (NDC)
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                One of the most catastrophic mistakes borrowers make is assuming that receiving an OTS Sanction Letter means their debt is closed. In legal reality, the Settlement Sanction Letter and the No Dues Certificate occupy diametrically opposed positions in the debt resolution lifecycle:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> One of the most catastrophic mistakes clients make is assuming that receiving an OTS Sanction Letter means their debt is closed. In legal reality, the Settlement Sanction Letter and the No Dues letter occupy diametrically opposed positions in the debt relief lifecycle: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {/* Settlement Letter Card */}
@@ -334,9 +252,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                     <FileText className="w-4 h-4"/>
                     <span>The Settlement Sanction Letter (Pre-Payment Offer).</span>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    The settlement letter is a. <strong>conditional proposal.</strong> issued by the bank specifying the exact terms under which they are willing to discharge the loan. It outlines the negotiated settlement sum, the installment tranches, and the hard validity cut-off date.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> The settlement letter is a. <strong>conditional proposal.</strong> issued by the bank specifying the exact terms under which they are willing to discharge the loan. It outlines the settled settlement sum. The installment tranches, and the hard validity cut-off date. </p>
                   <div className="p-3 rounded-xl bg-amber-50 border border-amber-200 text-xs text-amber-900 space-y-1">
                     <strong>Legal Limitation:</strong> If you miss the payment validity deadline even by 24 hours or pay a single rupee less, the settlement letter becomes null and void automatically. The bank reserves the right to reinstate the full original debt with compounded penalty charges.
                   </div>
@@ -348,9 +264,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                     <ShieldCheck className="w-4 h-4"/>
                     <span>The No Dues Certificate (Post-Payment Discharge).</span>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    The No Dues Certificate (NDC) or No Objection Certificate (NOC) is the. <strong>absolute legal deed of release.</strong> issued <em>after</em> the settlement funds are cleared. It formally certifies that all settlement dues have been satisfied in full and the account balance is ₹0.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> The No Dues letter (NDC) or No Objection letter (NOC) is the. <strong>absolute legal deed of release.</strong> issued <em>after</em> the settlement funds are cleared. It formally certifies that all settlement dues have been satisfied in full and the account balance is ₹0. </p>
                   <div className="p-3 rounded-xl bg-emerald-50 border border-emerald-200 text-xs text-emerald-900 space-y-1">
                     <strong>Legal Power:</strong> The NDC is the only document recognized by TransUnion CIBIL, Experian, Equifax. CRIF High Mark as conclusive proof to freeze default reporting, cancel liens. Protect the borrower from future third-party recovery attempts.
                   </div>
@@ -363,9 +277,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                   <AlertTriangle className="w-4 h-4 text-rose-600 flex-shrink-0"/>
                   <span>The Dangerous Myth of the Cashier / Agent Receipt.</span>
                 </div>
-                <p>
-                  Never accept a verbal assurance from a collection executive, a payment receipt stamped &quot;Subject to realization,&quot. Or an informal WhatsApp confirmation as proof of loan closure. Unless the bank issues an official NDC on physical or digitally verified corporate letterhead, your loan account remains active on the bank&apos;s Core Banking System (CBS) ledger.
-                </p>
+                <p> Never accept a verbal assurance from a collection executive. A payment receipt stamped &quot. Subject to realization,&quot. Or an informal WhatsApp confirmation as proof of loan closure. Unless the bank issues an formal NDC on physical or digitally verified company letterhead. Your loan account remains active on the bank&apos. s Core Banking System (CBS) ledger. </p>
               </div>
             </section>
 
@@ -378,9 +290,7 @@ export default function FullAndFinalSettlementMeaningClient() {
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
                 3. What Happens Immediately After Paying the Settlement Amount?
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When you execute your payment according to the approved settlement sanction letter, a complex chain of backend banking, accounting. Regulatory compliance events is initiated across multiple departments:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When you execute your payment according to the approved settlement sanction letter. A complex chain of backend banking, accounting. RBI compliance events is initiated across multiple departments: </p>
 
               <div className="space-y-3.5">
                 {/* Event 1 */}
@@ -389,9 +299,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                     <span className="w-2 h-2 rounded-full bg-[#1886ff]"></span>
                     Stage 1: Central Operations (COPS) Remittance Reconciliation
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Your payment (remitted via RTGS/NEFT directly into the bank&apos;s centralized collection or NPA pooling account) is matched against your Loan Account Number by Central Operations. The remittance is credited to your ledger to clear the negotiated principal portion.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Your payment (remitted via RTGS/NEFT straight into the bank&apos. s centralized collection or NPA pooling account) is matched against your Loan Account Number by Central work. The remittance is credited to your ledger to clear the settled main loan portion. </p>
                 </div>
 
                 {/* Event 2 */}
@@ -400,9 +308,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                     <span className="w-2 h-2 rounded-full bg-[#1886ff]"></span>
                     Stage 2: Passing the Loss / Sacrifice Provisioning Voucher
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Because you paid less than the total contractual balance, the remaining unpaid balance (the &quot;waiver&quot;) must be written off through a formal internal accounting voucher approved by the Credit Committee or Zonal Sanctioning Authority. This voucher zeroes out the remaining ledger balance.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Because you paid less than the total contractual balance. The remaining unpaid balance (the &quot. waiver&quot. ) must be written off through a formal internal accounting voucher approved by the Credit boards or Zonal Sanctioning formal. This voucher zeroes out the remaining ledger balance. </p>
                 </div>
 
                 {/* Event 3 */}
@@ -411,9 +317,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                     <span className="w-2 h-2 rounded-full bg-[#1886ff]"></span>
                     Stage 3: Core Banking System (CBS) Status Transition
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Once the sacrifice voucher is posted, the loan account status in Finacle, BaNCS. Flexcube flips from &quot;Active NPA / Sub-Standard&quot. To &quot;Settled / Compromise Closed&quot;. This prevents automated accrual of daily interest and stops automated SMS/calling queues.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Once the sacrifice voucher is posted. The loan account status in Finacle, BaNCS. Flexcube flips from &quot. Active NPA / Sub-Standard&quot. To &quot. Settled / OTS deal Closed&quot. This prevents automated accrual of daily interest and stops automated SMS/calling queues. </p>
                 </div>
 
                 {/* Event 4 */}
@@ -422,9 +326,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                     <span className="w-2 h-2 rounded-full bg-[#1886ff]"></span>
                     Stage 4: Execution &amp; Dispatch of the No Dues Certificate
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Under RBI Directive RBI/2023-24/60, the bank is statutorily obligated to generate, sign. Deliver the unconditional No Dues Certificate within. <strong>30 calendar days.</strong>. For secured loans, all original property deeds and Form 35 documents must be handed over simultaneously.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Under RBI Directive RBI/2023-24/60, the bank is statutorily obligated to generate, sign. Deliver the full No Dues letter within. <strong>30 calendar days.</strong>. For secured loans, all original property deeds and Form 35 papers must be handed over simultaneously. </p>
                 </div>
 
                 {/* Event 5 */}
@@ -433,9 +335,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                     <span className="w-2 h-2 rounded-full bg-[#1886ff]"></span>
                     Stage 5: Monthly Batch Tape Transmission to Credit Bureaus
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    At the close of each calendar month, the bank compiles its member data feed and transmits it to TransUnion CIBIL, Experian, Equifax. CRIF High Mark under Section 21 of CICRA 2005. The account trade-line is updated to reflect zero current balance and marked with the &quot;Settled&quot; status.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> At the close of each calendar month. The bank compiles its member data feed and transmits it to TransUnion CIBIL, Experian, Equifax. CRIF High Mark under Section 21 of CICRA 2005. The account trade-line is updated to reflect zero current balance and marked with the &quot. Settled&quot. status. </p>
                 </div>
               </div>
             </section>
@@ -449,9 +349,7 @@ export default function FullAndFinalSettlementMeaningClient() {
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
                 4. Credit Scoring Math: How an F&amp;F Settlement Impacts Your CIBIL Score
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Credit Information Companies (CIBIL, Experian, Equifax, CRIF) calculate your credit score between 300 and 900 based on weighted multivariate mathematical models. Understanding how a full and final settlement interacts with each component of the scoring algorithm is vital:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Credit Information Companies (CIBIL, Experian. Equifax, CRIF) calculate your credit score between 300 and 900 based on weighted multivariate mathematical models. Understanding how a full and final settlement interacts with each component of the scoring algorithm is vital: </p>
 
               {/* Technical Scoring Card */}
               <div className="rounded-2xl border-2 border-blue-200 bg-white p-5 md:p-6 shadow-xs space-y-4">
@@ -474,7 +372,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                   <div className="p-3 rounded-xl bg-slate-50 border border-slate-200">
                     <span className="block text-xl font-black text-blue-800">30%</span>
                     <span className="text-[11px] font-bold text-slate-700 uppercase">Credit Exposure</span>
-                    <p className="text-[10px] text-slate-500 mt-1">Revolving CUR &amp; total overdue amount.</p>
+                    <p className="text-[10px] text-slate-500 mt-1">Revolving CUR &amp. total overdue amount.</p>
                   </div>
                   <div className="p-3 rounded-xl bg-slate-50 border border-slate-200">
                     <span className="block text-xl font-black text-blue-800">15%</span>
@@ -484,7 +382,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                   <div className="p-3 rounded-xl bg-slate-50 border border-slate-200">
                     <span className="block text-xl font-black text-blue-800">10%</span>
                     <span className="text-[11px] font-bold text-slate-700 uppercase">Credit Mix</span>
-                    <p className="text-[10px] text-slate-500 mt-1">Secured vs. unsecured credit balance.</p>
+                    <p className="text-[10px] text-slate-500 mt-1">Secured vs. no-collateral credit balance.</p>
                   </div>
                   <div className="p-3 rounded-xl bg-slate-50 border border-slate-200">
                     <span className="block text-xl font-black text-blue-800">10%</span>
@@ -498,15 +396,11 @@ export default function FullAndFinalSettlementMeaningClient() {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-slate-300">
                     <div className="p-2.5 rounded bg-slate-800/80 border border-slate-700">
                       <span className="text-rose-400 font-bold block">ACTIVE default (Unsettled State):</span>
-                      <p className="text-[11px] mt-1 text-slate-400">
-                        Monthly DPD increments (+30, +60, +90, +180). Overdue balances inflate with compound penal interest. CUR remains pegged at 100%+. Score drops continuously to the sub-580 zone, triggering automated loan application rejections across all scheduled banks.
-                      </p>
+                      <p className="text-[11px] mt-1 text-slate-400"> Monthly DPD increments (+30, +60, +90, +180). Overdue balances inflate with compound penal interest. CUR remains pegged at 100%+. Score drops continuously to the sub-580 zone. Triggering automated loan application rejections across all scheduled banks. </p>
                     </div>
                     <div className="p-2.5 rounded bg-slate-800/80 border border-slate-700">
                       <span className="text-emerald-400 font-bold block">EXECUTED F&amp;F SETTLEMENT (Settled State):</span>
-                      <p className="text-[11px] mt-1 text-slate-400">
-                        Overdue balance drops to ₹0 immediately. Ongoing DPD accumulation is frozen permanently. Revolving exposure is eliminated. Score stabilizes in the 620–680 range, establishing an active runway for score restoration to 750+ within 12–18 months.
-                      </p>
+                      <p className="text-[11px] mt-1 text-slate-400"> Overdue balance drops to ₹0 promptly. Ongoing DPD accumulation is frozen permanently. Revolving exposure is eliminated. Score stabilizes in the 620. 680 range, establishing an active runway for score restoration to 750+ within 12. 18 months. </p>
                     </div>
                   </div>
                 </div>
@@ -563,9 +457,7 @@ export default function FullAndFinalSettlementMeaningClient() {
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
                 5. 6-Stage SOP to Execute a Full and Final Settlement
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                To prevent post-settlement legal disputes, unauthorized balance revival. Perpetual bureau default tags, follow this strict 6-stage operational protocol developed by CredSettle debt resolution professionals:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> To prevent post-settlement legal disputes, illegal balance revival. Perpetual bureau default tags, follow this strict 6-stage daily work protocol developed by CredSettle debt relief workers: </p>
 
               <div className="space-y-4">
                 {/* Step 1 */}
@@ -577,9 +469,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                     <h3 className="text-sm md:text-base font-bold text-slate-900">
                       Stage 1: Financial Hardship Assessment &amp; Formal Settlement Petition
                     </h3>
-                    <p className="text-xs md:text-sm text-slate-600 mt-1 leading-relaxed">
-                      Compile verifiable documentary evidence of genuine financial hardship (e.g., job loss, medical catastrophe, business insolvency). Submit a formal settlement representation to the bank&apos;s Central Collections and Retail NPA Committee proposing a realistic lump-sum or structured compromise figure based on the principal balance.
-                    </p>
+                    <p className="text-xs md:text-sm text-slate-600 mt-1 leading-relaxed"> Compile verifiable documentary proof of genuine hardship (e.g. Job loss, medical catastrophe, trade insolvency). Submit a formal settlement legal help to the bank&apos. s Central Collections and Retail NPA boards proposing a realistic lump-sum or structured OTS deal figure based on the base loan. </p>
                   </div>
                 </div>
 
@@ -592,9 +482,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                     <h3 className="text-sm md:text-base font-bold text-slate-900">
                       Stage 2: Comprehensive Audit of the OTS Sanction Letter
                     </h3>
-                    <p className="text-xs md:text-sm text-slate-600 mt-1 leading-relaxed">
-                      Scrutinize the bank&apos;s settlement sanction letter to confirm it is issued on physical letterhead bearing the bank&apos;s CIN, branch seal. Authorized signatory signature. Verify that the letter explicitly contains the phrase. <em>&quot;accepted in full and final settlement of all claims against Loan Account No. XXXXXXXXX&quot;.</em>.
-                    </p>
+                    <p className="text-xs md:text-sm text-slate-600 mt-1 leading-relaxed"> Scrutinize the bank&apos. s settlement sanction letter to confirm it is issued on physical letterhead bearing the bank&apos. s CIN, branch seal. Authorized signatory signature. Verify that the letter explicitly contains the phrase. <em>&quot. accepted in full and final settlement of all claims against Loan Account No. XXXXXXXXX&quot.</em>. </p>
                   </div>
                 </div>
 
@@ -607,9 +495,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                     <h3 className="text-sm md:text-base font-bold text-slate-900">
                       Stage 3: Traceable Direct Bank Remittance (RTGS / NEFT / Demand Draft)
                     </h3>
-                    <p className="text-xs md:text-sm text-slate-600 mt-1 leading-relaxed">
-                      pay the exact sanctioned settlement amount before the validity cut-off date directly into the bank&apos;s designated collection account. Never pay through personal UPI IDs, third-party payment gateways, or cash handed to collection agents. Secure timestamped RTGS UTR receipts.
-                    </p>
+                    <p className="text-xs md:text-sm text-slate-600 mt-1 leading-relaxed"> pay the exact sanctioned settlement amount before the validity cut-off date straight into the bank&apos. s designated collection account. Never pay through private UPI IDs. Third-party payment gateways, or cash handed to collection agents. Secure timestamped RTGS UTR receipts. </p>
                   </div>
                 </div>
 
@@ -622,9 +508,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                     <h3 className="text-sm md:text-base font-bold text-slate-900">
                       Stage 4: Demand &amp; Verification of the Unconditional No Dues Certificate
                     </h3>
-                    <p className="text-xs md:text-sm text-slate-600 mt-1 leading-relaxed">
-                      Immediately upon remittance clearance, file a written request demanding issuance of the physical/digital No Dues Certificate (NDC). Inspect the certificate to ensure it certifies zero remaining balance, confirms complete discharge. Contains no conditional reservation clauses.
-                    </p>
+                    <p className="text-xs md:text-sm text-slate-600 mt-1 leading-relaxed"> promptly upon remittance clearance, file a written request demanding issuance of the physical/digital No Dues letter (NDC). Inspect the letter to ensure it certifies zero remaining balance, confirms complete discharge. Contains no conditional reservation clauses. </p>
                   </div>
                 </div>
 
@@ -637,9 +521,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                     <h3 className="text-sm md:text-base font-bold text-slate-900">
                       Stage 5: Collateral Retrieval &amp; Auto-Debit Mandate Revocation
                     </h3>
-                    <p className="text-xs md:text-sm text-slate-600 mt-1 leading-relaxed">
-                      For secured loans, collect all original title deeds, share certificates. Signed Form 35 (for RTO vehicle hypothecation removal). Instruct your savings bank to revoke and cancel all active NACH/ECS mandates. Demand written confirmation that all post-dated cheques (PDCs) have been destroyed.
-                    </p>
+                    <p className="text-xs md:text-sm text-slate-600 mt-1 leading-relaxed"> For secured loans, collect all original title deeds, share letters. Signed Form 35 (for RTO vehicle hypothecation removal). Instruct your savings bank to revoke and cancel all active NACH/ECS mandates. Demand written confirmation that all post-dated cheques (PDCs) have been destroyed. </p>
                   </div>
                 </div>
 
@@ -652,9 +534,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                     <h3 className="text-sm md:text-base font-bold text-slate-900">
                       Stage 6: Credit Bureau Validation &amp; Long-Term Score Rebuilding
                     </h3>
-                    <p className="text-xs md:text-sm text-slate-600 mt-1 leading-relaxed">
-                      Download your updated CIBIL and Experian reports after 45 days. Verify that the overdue balance reflects ₹0 and the status is updated to &quot;Settled&quot;. If the bank fails to update bureau records within 30 days, raise an online dispute with your scanned NDC attached.
-                    </p>
+                    <p className="text-xs md:text-sm text-slate-600 mt-1 leading-relaxed"> Download your updated CIBIL and Experian reports after 45 days. Verify that the overdue balance reflects ₹0 and the status is updated to &quot. Settled&quot. If the bank fails to update bureau records within 30 days. Raise an online dispute with your scanned NDC attached. </p>
                   </div>
                 </div>
               </div>
@@ -669,9 +549,7 @@ export default function FullAndFinalSettlementMeaningClient() {
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
                 6. Section 63 Contract Act: Why Lenders Cannot Revive Settled Debt
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Many borrowers fear that years after settling a loan, the bank or an aggressive collection agency might resurface to demand the waived balance. Under Indian jurisprudence, a properly executed Full and Final Settlement is fortified by foundational statutory protections that legally extinguish the creditor&apos;s claims.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Many clients fear that years after settling a loan. The bank or an aggressive collection firm might resurface to demand the waived balance. Under Indian jurisprudence, a properly executed Full and Final Settlement is fortified by foundational legal protections that legally extinguish the creditor&apos. s claims. </p>
 
               <div className="space-y-4">
                 {/* Section 63 Contract Act */}
@@ -680,9 +558,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                     <Gavel className="w-5 h-5 text-[#1886ff]"/>
                     <span>Section 63 of the Indian Contract Act, 1872 (Doctrine of Remission).</span>
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Section 63 of the Indian Contract Act establishes that. <em>&quot;Every promisee may dispense with or pay, wholly or in part, the performance of the promise made to him. May extend the time for such performance. May accept instead of it any satisfaction which he thinks fit.&quot;.</em> In the context of debt settlement, once a bank accepts a lesser sum under an OTS agreement, the original contract is discharged by operation of law. Unlike English Common Law, Indian law requires no fresh consideration for remission to be legally valid and permanent.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Section 63 of the Indian Contract Act establishes that. <em>&quot. Every promisee may dispense with or pay. Wholly or in part, the performance of the promise made to him. May extend the time for such performance. May accept instead of it any satisfaction which he thinks fit.&quot.</em> In the context of debt settlement. Once a bank accepts a lesser sum under an OTS pacts. The original contract is discharged by work of law. Unlike English Common Law, Indian law requires no fresh consideration for remission to be legally valid and permanent. </p>
                 </div>
 
                 {/* Doctrine of Accord and Satisfaction */}
@@ -691,9 +567,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                     <Scale className="w-5 h-5 text-[#1886ff]"/>
                     <span>The Doctrine of Accord &amp; Satisfaction and Promissory Estoppel.</span>
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    In banking jurisprudence, the sanction letter represents the. <strong>Accord</strong> (agreement to settle for a specific sum), and the payment of funds constitutes the. <strong>Satisfaction</strong> (performance of the agreed compromise). Once accord and satisfaction are completed, the legal doctrine of. <strong>Promissory Estoppel.</strong> strictly prohibits the lender, its recovery agents. Assignee Asset Reconstruction Companies from reviving the waived debt or initiating legal proceedings under Section 138 of the Negotiable Instruments Act or Section 25 of the Payment and Settlement Systems Act.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> In banking jurisprudence, the sanction letter represents the. <strong>Accord</strong> (pacts to settle for a local sum). And the payment of funds constitutes the. <strong>Satisfaction</strong> (performance of the agreed OTS deal). Once accord and satisfaction are completed, the legal doctrine of. <strong>Promissory Estoppel.</strong> strictly prohibits the lender, its collection agents. Assignee Asset Reconstruction Companies from reviving the waived debt or initiating legal proceedings under Section 138 of the Negotiable Instruments Act or Section 25 of the Payment and Settlement Systems Act. </p>
                 </div>
 
                 {/* Statutory Penalties Grid */}
@@ -703,18 +577,14 @@ export default function FullAndFinalSettlementMeaningClient() {
                       <Landmark className="w-4 h-4 text-blue-600"/>
                       <span>RBI Directive RBI/2023-24/60 (₹5,000/Day Delay Penalty).</span>
                     </h3>
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      Lenders failing to issue the No Dues Certificate and release original property/movable documents within 30 days of settlement payment must pay the borrower ₹5,000 compensation for every day of unexcused delay.
-                    </p>
+                    <p className="text-xs text-slate-600 leading-relaxed"> Lenders failing to issue the No Dues letter and release original property/movable papers within 30 days of settlement payment must pay the client ₹5,000 payout for every day of unexcused delay. </p>
                   </div>
                   <div className="p-4 rounded-xl bg-slate-50 border border-slate-200">
                     <h3 className="font-bold text-slate-900 text-xs sm:text-sm flex items-center gap-1.5 mb-1.5">
                       <Building2 className="w-4 h-4 text-emerald-600"/>
                       <span>RBI Circular RBI/2023-24/72 (₹100/Day Bureau Penalty).</span>
                     </h3>
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      Lenders and credit bureaus that fail to update or rectify credit bureau reporting within 30 days of receiving valid settlement proof must pay ₹100 per day compensation to the aggrieved borrower.
-                    </p>
+                    <p className="text-xs text-slate-600 leading-relaxed"> Lenders and credit bureaus that fail to update or rectify credit bureau reporting within 30 days of receiving valid settlement proof must pay ₹100 per day payout to the aggrieved client. </p>
                   </div>
                 </div>
               </div>
@@ -729,9 +599,7 @@ export default function FullAndFinalSettlementMeaningClient() {
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
                 7. 3-Tier Escalation Matrix for Settlement Compliance
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                If your lending institution delays issuing your No Dues Certificate, continues recovery harassment post-settlement. Fails to update TransUnion CIBIL, execute this structured 3-tier escalation hierarchy:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> If your lending institution delays issuing your No Dues letter, continues collection abuse post-settlement. Fails to update TransUnion CIBIL. Execute this structured 3-tier escalation hierarchy: </p>
 
               {/* 3-Tier Escalation Steps Grid */}
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -744,9 +612,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                     <Building2 className="w-4 h-4 text-[#1886ff]"/>
                     Branch Operations &amp; CRM
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Submit written representation to the Branch Manager and log a formal service ticket on the bank&apos;s central portal attaching your OTS sanction letter and transaction UTR receipt.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Submit written legal help to the Branch Manager and log a formal service ticket on the bank&apos. s central portal attaching your OTS sanction letter and transaction UTR receipt. </p>
                 </div>
 
                 {/* Level 2 */}
@@ -758,9 +624,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                     <Landmark className="w-4 h-4 text-blue-600"/>
                     Principal Nodal Officer (PNO)
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Escalate to the bank&apos;s apex grievance desk (PNO). The PNO has administrative authority to approve backend sacrifice vouchers and expedite manual NDC generation.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Escalate to the bank&apos. s apex grievance desk (PNO). The PNO has office formal to approve backend sacrifice vouchers and expedite manual NDC generation. </p>
                 </div>
 
                 {/* Level 3 */}
@@ -772,9 +636,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                     <Award className="w-4 h-4 text-emerald-600"/>
                     RBI Integrated Ombudsman
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    File a statutory complaint at. <strong>cms.rbi.org.in</strong>. The Ombudsman orders immediate delivery of the NDC and awards statutory daily delay compensation.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> File a legal complaint at. <strong>cms.rbi.org.in</strong>. The Ombudsman orders fast delivery of the NDC and awards legal daily delay payout. </p>
                 </div>
               </div>
             </section>
@@ -788,9 +650,7 @@ export default function FullAndFinalSettlementMeaningClient() {
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
                 8. Chronological Milestone Resolution Table: Institutional Timelines
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                The institutional timeline from payment execution to clean bureau records follows a defined sequence:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The bank timeline from payment execution to clean bureau records follows a defined sequence: </p>
 
               {/* 4-Sided Bordered Timeline Table */}
               <div className="rounded-2xl border border-slate-300 bg-white overflow-hidden shadow-xs">
@@ -806,74 +666,34 @@ export default function FullAndFinalSettlementMeaningClient() {
                     </thead>
                     <tbody className="divide-y divide-slate-200 text-slate-700">
                       <tr className="hover:bg-slate-50/80">
-                        <td className="p-3.5 border-r border-slate-200 font-bold text-slate-900">
-                          Day 0 (Payment Day).
-                        </td>
-                        <td className="p-3.5 border-r border-slate-200">
-                          Settlement funds remitted into designated bank collection ledger.
-                        </td>
-                        <td className="p-3.5 border-r border-slate-200 font-semibold text-blue-700">
-                          RTGS / NEFT UTR Counterfoil.
-                        </td>
-                        <td className="p-3.5">
-                          Preserve transaction counterfoils; email copies to bank settlement team.
-                        </td>
+                        <td className="p-3.5 border-r border-slate-200 font-bold text-slate-900"> Day 0 (Payment Day). </td>
+                        <td className="p-3.5 border-r border-slate-200"> Settlement funds remitted into designated bank collection ledger. </td>
+                        <td className="p-3.5 border-r border-slate-200 font-semibold text-blue-700"> RTGS / NEFT UTR Counterfoil. </td>
+                        <td className="p-3.5"> Preserve transaction counterfoils. email copies to bank settlement team. </td>
                       </tr>
                       <tr className="hover:bg-slate-50/80">
-                        <td className="p-3.5 border-r border-slate-200 font-bold text-slate-900">
-                          Days 1 – 7
-                        </td>
-                        <td className="p-3.5 border-r border-slate-200">
-                          Operations reconciles payment; passes internal sacrifice/loss accounting voucher.
-                        </td>
-                        <td className="p-3.5 border-r border-slate-200 font-semibold text-slate-800">
-                          Internal Accounting Voucher.
-                        </td>
-                        <td className="p-3.5">
-                          Download updated loan ledger statement verifying ₹0 outstanding balance.
-                        </td>
+                        <td className="p-3.5 border-r border-slate-200 font-bold text-slate-900"> Days 1. 7 </td>
+                        <td className="p-3.5 border-r border-slate-200"> work reconciles payment. passes internal sacrifice/loss accounting voucher. </td>
+                        <td className="p-3.5 border-r border-slate-200 font-semibold text-slate-800"> Internal Accounting Voucher. </td>
+                        <td className="p-3.5"> Download updated loan ledger record verifying ₹0 unpaid dues. </td>
                       </tr>
                       <tr className="hover:bg-slate-50/80">
-                        <td className="p-3.5 border-r border-slate-200 font-bold text-slate-900">
-                          Days 8 – 20
-                        </td>
-                        <td className="p-3.5 border-r border-slate-200">
-                          Authorized signatory generates official physical / digitally signed NDC.
-                        </td>
-                        <td className="p-3.5 border-r border-slate-200 font-semibold text-emerald-700">
-                          Unconditional No Dues Certificate (NDC).
-                        </td>
-                        <td className="p-3.5">
-                          Collect original certificate; verify all account, name &amp; PAN details.
-                        </td>
+                        <td className="p-3.5 border-r border-slate-200 font-bold text-slate-900"> Days 8. 20 </td>
+                        <td className="p-3.5 border-r border-slate-200"> Authorized signatory generates formal physical / digitally signed NDC. </td>
+                        <td className="p-3.5 border-r border-slate-200 font-semibold text-emerald-700"> full No Dues letter (NDC). </td>
+                        <td className="p-3.5"> Collect original letter. verify all account, name &amp. PAN details. </td>
                       </tr>
                       <tr className="hover:bg-slate-50/80">
-                        <td className="p-3.5 border-r border-slate-200 font-bold text-slate-900">
-                          Days 21 – 30
-                        </td>
-                        <td className="p-3.5 border-r border-slate-200">
-                          Security released; Form 35 issued for auto loans; property deeds handed over.
-                        </td>
-                        <td className="p-3.5 border-r border-slate-200 font-semibold text-emerald-700">
-                          Form 35 / Original Property Deeds.
-                        </td>
-                        <td className="p-3.5">
-                          Submit Form 35 to RTO; cancel all active NACH/ECS mandates with your bank.
-                        </td>
+                        <td className="p-3.5 border-r border-slate-200 font-bold text-slate-900"> Days 21. 30 </td>
+                        <td className="p-3.5 border-r border-slate-200"> Security released. Form 35 issued for auto loans. property deeds handed over. </td>
+                        <td className="p-3.5 border-r border-slate-200 font-semibold text-emerald-700"> Form 35 / Original Property Deeds. </td>
+                        <td className="p-3.5"> Submit Form 35 to RTO. cancel all active NACH/ECS mandates with your bank. </td>
                       </tr>
                       <tr className="hover:bg-slate-50/80">
-                        <td className="p-3.5 border-r border-slate-200 font-bold text-slate-900">
-                          Days 31 – 45+
-                        </td>
-                        <td className="p-3.5 border-r border-slate-200">
-                          Bank transmits monthly data tape to CIBIL, Experian, Equifax &amp; CRIF High Mark.
-                        </td>
-                        <td className="p-3.5 border-r border-slate-200 font-semibold text-blue-700">
-                          Updated Credit Bureau Report (CIR).
-                        </td>
-                        <td className="p-3.5">
-                          Download fresh CIBIL report; raise online dispute with NDC if tape is delayed.
-                        </td>
+                        <td className="p-3.5 border-r border-slate-200 font-bold text-slate-900"> Days 31. 45+ </td>
+                        <td className="p-3.5 border-r border-slate-200"> Bank transmits monthly data tape to CIBIL, Experian, Equifax &amp. CRIF High Mark. </td>
+                        <td className="p-3.5 border-r border-slate-200 font-semibold text-blue-700"> Updated Credit Bureau Report (CIR). </td>
+                        <td className="p-3.5"> Download fresh CIBIL report. raise online dispute with NDC if tape is delayed. </td>
                       </tr>
                     </tbody>
                   </table>
@@ -898,9 +718,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                     <CreditCard className="w-4 h-4 text-[#1886ff]"/>
                     Credit Card Settlements
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Credit cards are unsecured revolving credit lines. Upon settlement, the bank&apos;s card operations department must deactivate all physical/virtual cards, extinguish accumulated reward point encumbrances. Issue a dedicated electronic NDC confirming zero current balance on primary and add-on cards.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Credit cards are no-collateral revolving credit lines. Upon settlement, the bank&apos. S card work department must deactivate all physical/virtual cards. Extinguish total reward point encumbrances. Issue a dedicated electronic NDC confirming zero current balance on primary and add-on cards. </p>
                 </div>
 
                 {/* Scenario 2: ARCs */}
@@ -909,9 +727,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                     <Building2 className="w-4 h-4 text-[#1886ff]"/>
                     Debt Sold to ARCs
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    If the bank assigned your NPA to an Asset Reconstruction Company (ARC) under SARFAESI Section 5, you must negotiate and obtain the NDC directly from the ARC. Ensure the ARC provides a copy of the Assignment Agreement confirming their exclusive legal authority to discharge the debt.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> If the bank assigned your NPA to an Asset Reconstruction Company (ARC) under SARFAESI Section 5. You must settle and obtain the NDC straight from the ARC. Ensure the ARC provides a copy of the Assignment pacts confirming their exclusive legal formal to discharge the debt. </p>
                 </div>
 
                 {/* Scenario 3: Fintech Apps */}
@@ -920,9 +736,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                     <Briefcase className="w-4 h-4 text-[#1886ff]"/>
                     Digital Fintech NBFC Apps
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    For instant app loans (KreditBee, MoneyView, CASHe), the settlement must be executed with the underlying RBI-registered NBFC lender (the Regulated Entity), not the front-end Lending Service Provider (LSP). Ensure the NBFC cancels e-mandates and revokes app data permissions under RBI Digital Lending Directives.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> For instant app loans (KreditBee. MoneyView, CASHe), the settlement must be executed with the underlying RBI-registered NBFC lender (the Regulated Entity). Not the front-end Lending Service Provider (LSP). Ensure the NBFC cancels e-mandates and revokes app data permissions under RBI Digital Lending Directives. </p>
                 </div>
               </div>
             </section>
@@ -941,9 +755,7 @@ export default function FullAndFinalSettlementMeaningClient() {
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
                 Frequently Asked Questions on Full and Final Settlement Meaning
               </h2>
-              <p className="text-xs md:text-sm text-slate-600">
-                Click on any question below to view detailed legal and banking answers verified by our debt resolution experts:
-              </p>
+              <p className="text-xs md:text-sm text-slate-600"> Click on any question below to view detailed legal and banking answers verified by our debt relief experts: </p>
 
               <div className="space-y-3 pt-2">
                 {faqs.map((faq, idx) => {
@@ -972,9 +784,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                 <BookOpen className="w-4 h-4 text-[#1886ff]"/>
                 <span>Statutory Authority &amp; Official Citations.</span>
               </div>
-              <p className="text-xs text-slate-600">
-                All legal procedures, timelines, and rights described on this page are grounded in official Indian statutory frameworks:
-              </p>
+              <p className="text-xs text-slate-600"> All legal procedures, timelines, and rights described on this page are grounded in formal Indian legal rules: </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 text-xs">
                 <a href="https://www.rbi.org.in" target="_blank" rel="noopener noreferrer" className="p-2.5 rounded-lg bg-white border border-slate-200 hover:border-[#1886ff] hover:text-[#1886ff] flex items-center justify-between transition-colors shadow-2xs">
@@ -1054,14 +864,10 @@ export default function FullAndFinalSettlementMeaningClient() {
                   <Link href="/author/ashish-jhangra" className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional.
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief expert. </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Specialized in banking compliance, debt resolution strategies, loan dispute negotiations. CIBIL rectification with extensive experience resolving complex NPA defaults across Indian banks.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> Specialized in banking compliance, debt relief plans, loan dispute talks. CIBIL rectification with extensive skill resolving complex NPA defaults across Indian banks. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
                   <span>View Author Profile.</span>
@@ -1080,12 +886,8 @@ export default function FullAndFinalSettlementMeaningClient() {
                 <span>100% CONFIDENTIAL.</span>
               </div>
               <div>
-                <p className="text-xl font-bold text-white leading-tight">
-                  Need Help Negotiating an F&amp;F Settlement?
-                </p>
-                <p className="text-blue-100 text-sm mt-2 leading-relaxed font-normal">
-                  Our debt resolution professionals negotiate directly with Bank Principal Nodal Officers, eliminate unfair interest &amp. Penal fees, verify settlement letters, and enforce 30-day NDC delivery.
-                </p>
+                <p className="text-xl font-bold text-white leading-tight"> Need Help settling an F&amp. F Settlement? </p>
+                <p className="text-blue-100 text-sm mt-2 leading-relaxed font-normal"> Our debt relief workers settle straight with Bank main loan Nodal Officers, eliminate unfair interest &amp. Penal fees, verify settlement letters. And enforce 30-day NDC delivery. </p>
               </div>
               <Link href="/contact" className="block w-full text-center bg-white text-blue-900 font-bold py-3.5 px-4 rounded-xl hover:bg-slate-100 transition-all shadow-md text-sm transform hover:-translate-y-0.5">
                 Need Help Negotiating an F&amp;F Settlement?
@@ -1100,27 +902,12 @@ export default function FullAndFinalSettlementMeaningClient() {
 
             {/* Card 3: Trust Signals Card */}
             <div className="bg-white rounded-3xl border border-slate-200/80 p-5 space-y-3 text-xs shadow-xs">
-              <p className="font-bold text-slate-900 uppercase tracking-wider text-[11px] flex items-center gap-1.5">
-                <ShieldCheck className="w-3.5 h-3.5 text-emerald-600"/>
-                CredSettle Trust Commitments.
-              </p>
+              <p className="font-bold text-slate-900 uppercase tracking-wider text-[11px] flex items-center gap-1.5"> <ShieldCheck className="w-3.5 h-3.5 text-emerald-600"/> CredSettle Trust Commitments. </p>
               <ul className="space-y-2 text-slate-600">
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Zero Upfront Risk:</strong> Success-linked resolution model.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Direct Bank Remittance:</strong> Zero middleman fund handling.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>RBI &amp; CICRA Compliance:</strong> 100% lawful statutory enforcement.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Pan-India Representation:</strong> Dedicated banking resolution specialists.</span>
-                </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Zero Upfront Risk:</strong> Success-linked relief model.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Direct Bank Remittance:</strong> Zero middleman fund handling.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>RBI &amp. CICRA Compliance:</strong> 100% lawful legal enforcement.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Pan-India legal help:</strong> Dedicated banking relief specialists.</span> </li>
               </ul>
             </div>
 

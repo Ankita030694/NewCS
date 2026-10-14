@@ -47,43 +47,43 @@ export default function MsmeLoanDefaultLegalActionClient() {
     const faqs = [
         {
             q: 'What legal action can banks take when an MSME defaults on a business loan in India?',
-            a: "Banks can initiate civil recovery suits under Order 37 CPC, file claims before DRT if exposure exceeds \u20B920 Lakhs, issue SARFAESI demand notices for secured loans. File Section 138/25 complaints for dishonored repayment instruments."
+            a: "Banks can initiate civil claims suits under Order 37 CPC. File claims before DRT if exposure exceeds \u20B920 Lakhs. Issue SARFAESI demand notices for secured loans. File Section 138/25 complaints for dishonored payment instruments."
         },
         {
             q: 'Can a bank attach personal assets or invoke SARFAESI on a CGTMSE-backed MSME loan?',
-            a: 'For CGTMSE-covered loans, lenders cannot demand primary property collateral. In pure CGTMSE defaults, banks cannot initiate SARFAESI action against unmortgaged assets and must claim the trust guarantee, though borrowers remain civilly liable for unrecovered balances.'
+            a: 'For CGTMSE-covered loans. Lenders cannot demand primary property security. In pure CGTMSE defaults. Banks cannot initiate SARFAESI action against unmortgaged assets and must claim the trust guarantee. Though clients remain civilly liable for unrecovered balances.'
         },
         {
             q: 'What is the RBI Framework for Revival and Rehabilitation of MSMEs?',
-            a: 'The RBI Framework mandates that lenders identify stress at SMA stages and refer eligible enterprises to a Committee for Stressed MSMEs before classifying accounts as NPA, allowing businesses to seek loan restructuring and corrective action plans.'
+            a: 'The RBI rules mandates that lenders identify stress at SMA stages and refer eligible firms to a boards for Stressed MSMEs before classifying accounts as NPA. This allows firms to seek loan restructuring and corrective action plans.'
         },
         {
             q: 'Can an MSME promoter go to jail for defaulting on a collateral-free business loan?',
-            a: "Pure loan default is strictly a civil dispute with zero criminal imprisonment. Criminal liability arises only if quasi-criminal provisions like Section 138 cheque bounces occur, which are bailable compoundable offenses. Where proven fraud exists."
+            a: "Pure loan default is strictly a civil dispute with zero criminal imprisonment. Criminal debt risk arises only if quasi-criminal provisions like Section 138 cheque bounces occur. This are bailable compoundable offenses. Where proven fraud exists."
         },
         {
             q: 'How does Section 138 of the Negotiable Instruments Act apply to MSME loan defaults?',
-            a: 'When business repayment cheques bounce, lenders issue a 30-day statutory notice. If unpaid within 15 days, banks file criminal complaints. Promoters can secure bail, contest security cheque misuse, and settle through judicial compounding.'
+            a: 'When trade payment cheques bounce. Lenders issue a 30-day legal notices. If unpaid within 15 days. Banks file criminal complaints. Promoters can secure bail. Contest security cheque misuse. And settle through judicial compounding.'
         },
         {
             q: 'What is the difference between SARFAESI recovery and DRT proceedings for MSME loans?',
-            a: 'SARFAESI is an out-of-court enforcement mechanism where banks seize mortgaged collateral after a 60-day Section 13(2) notice. DRT is a specialized judicial tribunal where lenders file original applications under Section 19 RDBFI Act for debts over ₹20 Lakhs.'
+            a: 'SARFAESI is an out-of-court enforcement mechanism where banks seize mortgaged security after a 60-day Section 13(2) notice. DRT is a specialized judicial tribunal where lenders file original applications under Section 19 RDBFI Act for debts over ₹20 Lakhs.'
         },
         {
             q: 'Can MSEFC arbitration or delayed buyer payments be used to defend bank loan default?',
-            a: 'Yes. Under Chapter V MSMED Act, MSMEs facing buyer payment delays can file claims before MSEFC for compounded penal interest. Enterprises can present MSEFC filings to bank credit committees to justify cash-flow stress and secure restructuring.'
+            a: 'Yes. Under Chapter V MSMED Act. MSMEs facing buyer payment delays can file claims before MSEFC for compounded penal interest. firms can present MSEFC filings to bank credit boards to justify cash-flow stress and secure restructuring.'
         },
         {
             q: 'What happens to personal guarantors of an MSME loan upon default?',
-            a: 'Under Section 128 of the Indian Contract Act, personal guarantor liability is co-extensive with the borrower. Banks can proceed against guarantors simultaneously, though defenses can be raised against disproportionate recovery during settlement negotiations.'
+            a: 'Under Section 128 of the Indian Contract Act. Private guarantor debt risk is co-extensive with the client. Banks can proceed against guarantors simultaneously. Though defenses can be raised against disproportionate claims during talks.'
         },
         {
             q: 'Can an MSME negotiate a One-Time Settlement (OTS) with public sector and private banks?',
-            a: 'Yes. All commercial banks maintain board-approved OTS policies. Once an MSME loan turns NPA and is provisioned, borrowers can submit formal compromise settlement proposals offering upfront lump-sum payments with 40% to 60% waivers on penal interest.'
+            a: 'Yes. All banks maintain board-approved OTS policies. Once an MSME loan turns NPA and is provisioned. Clients can submit formal OTS deals proposals offering upfront lump-sum payments with 40% to 60% waivers on penal interest.'
         },
         {
             q: 'How does an MSME loan default affect CIBIL Commercial and personal credit scores?',
-            a: 'An MSME default is reported to commercial credit bureaus under company PAN/Udyam, degrading CMR rank to CMR-9/10. Concurrently, personal CIBIL scores of directors and guarantors drop by 100 to 180 points upon 90+ DPD classification.'
+            a: 'An MSME default is reported to firm credit bureaus under company PAN/Udyam. Degrading CMR rank to CMR-9/10. Concurrently. Private CIBIL scores of directors and guarantors drop by 100 to 180 points upon 90+ DPD classification.'
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -100,9 +100,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
             MSME Loan Default Legal Action: Defense Under MSMED Act, CGTMSE &amp; RBI
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed">
-            Facing Section 138 summons, SARFAESI notices, or recovery litigation on your business credit facility? Learn your statutory protections under the MSMED Act 2006, CGTMSE guarantee guidelines. RBI revival frameworks to protect your enterprise.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed"> Facing Section 138 summons, SARFAESI notices. Or claims lawsuits on your trade credit facility? Learn your legal protections under the MSMED Act 2006. CGTMSE guarantee rules. RBI revival rules to protect your firms. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -145,9 +143,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>Statutory MSME Defense.</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  MSMED Act 2006, RBI Master Directions, CGTMSE Rules &amp; NI Act.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> MSMED Act 2006. RBI Master Directions. CGTMSE Rules &amp. NI Act. </p>
               </div>
             </div>
           </aside>
@@ -163,61 +159,21 @@ export default function MsmeLoanDefaultLegalActionClient() {
               </div>
 
               <ul className="space-y-2.5 text-xs sm:text-sm text-slate-700 leading-relaxed">
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Civil Dispute Character:</strong> MSME loan default is strictly a civil contractual matter with zero criminal arrest powers.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Civil Dispute Character:</strong> MSME loan default is strictly a civil contractual matter with zero criminal arrest powers. </div> </li>
 
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">CGTMSE Asset Protection:</strong> For credit guarantee loans, lenders cannot attach unmortgaged assets under SARFAESI.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">CGTMSE Asset Protection:</strong> For credit guarantee loans. Lenders cannot attach unmortgaged assets under SARFAESI. </div> </li>
 
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Mandatory RBI Committee:</strong> Lenders must evaluate viable restructuring at SMA stages before initiating adversarial recovery.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">strict RBI boards:</strong> Lenders must evaluate viable restructuring at SMA stages before initiating adversarial claims. </div> </li>
 
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Section 138 Defense:</strong> Cheque bounces are bailable, compoundable proceedings that can be resolved through structured settlement.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Section 138 Defense:</strong> Cheque bounces are bailable. Compoundable proceedings that can be resolved through structured settlement. </div> </li>
 
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Guarantor Rights:</strong> Section 128 co-extensive liability can be defended against coercive escalation via credit committees.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Guarantor Rights:</strong> Section 128 co-extensive debt risk can be defended against coercive escalation via credit boards. </div> </li>
 
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">MSEFC Payment Offsets:</strong> Unpaid receivables under Chapter V MSMED Act justify commercial cash-flow restructuring.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">MSEFC Payment Offsets:</strong> Unpaid receivables under Chapter V MSMED Act justify trade cash-flow restructuring. </div> </li>
 
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">40% to 60% OTS Window:</strong> Fully provisioned NPA debt creates strong institutional room for negotiated penal waivers.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">40% to 60% OTS Window:</strong> Fully provisioned NPA debt creates strong bank room for settled penal waivers. </div> </li>
 
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Credit Bureau Resolution:</strong> A verified No Dues Certificate enables commercial and personal CIBIL status conversion to Closed.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Credit Bureau relief:</strong> A verified No Dues letter enables trade and private CIBIL status conversion to Closed. </div> </li>
               </ul>
             </div>
 
@@ -230,12 +186,8 @@ export default function MsmeLoanDefaultLegalActionClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 1. MSME Debt Economics: Regulatory Stress &amp; NPA Dynamics
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Micro, Small. Medium Enterprises operate on tight working capital cycles where delayed buyer payments or macroeconomic downturns trigger sudden liquidity distress. When an enterprise defaults on commercial cash credit, overdraft. Term loan facilities, lenders evaluate the debt under strict Reserve Bank of India prudential norms. Accounts transition through Special Mention Account stages: SMA-0 (1 to 30 days overdue), SMA-1 (31 to 60 days). SMA-2 (61 to 90 days).
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Crossing the 90-day threshold triggers Non-Performing Asset (NPA) classification under RBI Master Directions on Income Recognition and Asset Classification. This mandates compulsory Tier-1 capital provisioning, scaling from 15% for sub-standard assets to 40% for doubtful assets and 100% for loss assets. For collateral-free loans backed by CGTMSE, lenders cannot enforce SARFAESI property seizures against non-existent mortgages. Under the RBI Prudential Framework for Resolution of Stressed Assets, institutional lenders are incentivized to resolve stressed exposure through bilateral settlement rather than litigation. This heavy capital provisioning burden provides strong commercial rationale for bank credit committees to accept pragmatic One-Time Settlements (OTS) to purge non-performing assets and release regulatory capital.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Micro, Small. Medium firms operate on tight working cash cycles where delayed buyer payments or macroeconomic downturns trigger sudden liquidity distress. When an firms defaults on trade cash credit. Overdraft. Term loan facilities. Lenders evaluate the debt under strict Reserve Bank of India prudential norms. Accounts transition through Special Mention Account stages: SMA-0 (1 to 30 days overdue). SMA-1 (31 to 60 days). SMA-2 (61 to 90 days). </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Crossing the 90-day threshold triggers Non-Performing Asset (NPA) classification under RBI Master Directions on Income Recognition and Asset Classification. This mandates compulsory Tier-1 cash provisioning. Scaling from 15% for sub-standard assets to 40% for doubtful assets and 100% for loss assets. For security-free loans backed by CGTMSE. Lenders cannot enforce SARFAESI property seizures against non-existent mortgages. Under the RBI Prudential rules for relief of Stressed Assets. Banks are incentivized to resolve stressed exposure through bilateral settlement rather than lawsuits. This heavy cash provisioning burden provides strong trade rationale for bank credit boards to accept pragmatic One-Time Settlements (OTS) to purge non-performing assets and release RBI cash. </p>
             </section>
 
             {/* SECTION 2: Financial Breakdown & Settlement Math */}
@@ -247,9 +199,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 2. Financial Breakdown: MSME Debt &amp; Settlement Math
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Following default, bank claims escalate rapidly due to compounding penal interest, monthly commitment surcharges, cheque return fees. Administrative recovery costs. Under RBI Fair Lending Practice circulars, lenders are strictly prohibited from capitalizing penalty charges or compounding penalty rates into loan principal. A forensic ledger audit under the Bankers&apos. Books Evidence Act strips away these unapproved additions, establishing the true baseline principal liability for compromise negotiations.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Following default. Bank claims escalate rapidly due to compounding penal interest. Monthly commitment surcharges, cheque return fees. office claims costs. Under RBI Fair Lending Practice circulars. Lenders are strictly prohibited from capitalizing penalty charges or compounding penalty rates into loan main loan. A deep ledger audit under the Bankers&apos. Books proof Act strips away these unapproved additions. Establishing the true baseline main loan debt risk for OTS deal talks. </p>
 
               {/* Financial Calculation Card */}
               <div className="bg-white p-5 sm:p-6 rounded-2xl border border-slate-200/80 shadow-xs space-y-3">
@@ -290,9 +240,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
                   </div>
                 </div>
 
-                <p className="text-xs text-slate-600 leading-relaxed pt-1">
-                  By eliminating capitalized penal fees and establishing genuine distress through audited financial statements, enterprises routinely settle provisioned unsecured and CGTMSE debts at 40% to 55% of the gross bank demand.
-                </p>
+                <p className="text-xs text-slate-600 leading-relaxed pt-1"> By eliminating capitalized penal fees and establishing genuine distress through audited money records. Firms routinely settle provisioned no-pledge and CGTMSE debts at 40% to 55% of the gross bank demand. </p>
               </div>
             </section>
 
@@ -305,9 +253,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 3. Resolution Matrix: Legal Pathways for Stressed MSMEs
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Stressed MSMEs must evaluate business continuity, legal timelines, and financial outcomes across available recovery and settlement avenues:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Stressed MSMEs must evaluate trade continuity. Legal timelines. And money outcomes across available claims and settlement avenues: </p>
 
               {/* 4-Sided Bordered Table with vertical dividers */}
               <div className="overflow-x-auto rounded-2xl border border-slate-200/80 bg-white shadow-xs">
@@ -323,39 +269,39 @@ export default function MsmeLoanDefaultLegalActionClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-600">
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
-                      <td className="p-3 font-bold text-slate-900">Compromise OTS</td>
+                      <td className="p-3 font-bold text-slate-900">OTS deal OTS</td>
                       <td className="p-3">RBI Master Directions.</td>
-                      <td className="p-3 text-emerald-700 font-semibold">High (Immediate full discharge).</td>
+                      <td className="p-3 text-emerald-700 font-semibold">High (fast full discharge).</td>
                       <td className="p-3">45-90 Days</td>
-                      <td className="p-3 text-[#1886ff] font-semibold">40% to 60% waiver; CIBIL Closed.</td>
+                      <td className="p-3 text-[#1886ff] font-semibold">40% to 60% waiver. CIBIL Closed.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
                       <td className="p-3 font-bold text-slate-900">RBI MSME Restructuring.</td>
-                      <td className="p-3">RBI Revival Framework.</td>
+                      <td className="p-3">RBI Revival rules.</td>
                       <td className="p-3">Moderate (Realigns cash flows).</td>
                       <td className="p-3">60-120 Days</td>
-                      <td className="p-3">Tenure extension; zero principal waiver.</td>
+                      <td className="p-3">Tenure extension. zero loan cut.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
-                      <td className="p-3 font-bold text-slate-900">DRT / Civil Litigation.</td>
+                      <td className="p-3 font-bold text-slate-900">DRT / Civil lawsuits.</td>
                       <td className="p-3">RDBFI Act / Order 37 CPC.</td>
                       <td className="p-3 text-amber-700 font-semibold">Strained (Attachment risks).</td>
                       <td className="p-3">18-36 Months</td>
-                      <td className="p-3">Protracted defense; creates OTS leverage.</td>
+                      <td className="p-3">Protracted defense. creates OTS leverage.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
                       <td className="p-3 font-bold text-slate-900">National Lok Adalat.</td>
-                      <td className="p-3">Legal Services Authorities Act.</td>
+                      <td className="p-3">Legal Services officials Act.</td>
                       <td className="p-3 text-emerald-700 font-semibold">High (Binding consent award).</td>
                       <td className="p-3">Single Sitting</td>
-                      <td className="p-3">Expedited compromise settlement decree.</td>
+                      <td className="p-3">Expedited OTS deals decree.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
                       <td className="p-3 font-bold text-slate-900">Inaction / Default.</td>
                       <td className="p-3">SARFAESI / NI Act.</td>
-                      <td className="p-3 text-red-700 font-semibold">Critical (Asset auctions &amp; summons).</td>
+                      <td className="p-3 text-red-700 font-semibold">Critical (Asset auctions &amp. summons).</td>
                       <td className="p-3">Uncontrolled</td>
-                      <td className="p-3 text-red-700 font-semibold">Total CIBIL ruin, personal guarantees enforced.</td>
+                      <td className="p-3 text-red-700 font-semibold">Total CIBIL ruin, private guarantees enforced.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -371,9 +317,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 4. CIBIL Commercial Algorithm: Scoring Math &amp; Rectification
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Commercial credit reporting in India operates under CICRA 2005 across two dimensions: the enterprise Company Credit Report (CCR) ranked from CMR-1 to CMR-10 (high risk) and the personal credit scores of directors and guarantors (300 to 900).
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> firm credit reporting in India operates under CICRA 2005 across two dimensions: the firms Company Credit Report (CCR) ranked from CMR-1 to CMR-10 (high risk) and the private credit scores of directors and guarantors (300 to 900). </p>
 
               <div className="bg-white p-5 sm:p-6 rounded-2xl border border-slate-200/80 shadow-xs space-y-3">
                 <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2">
@@ -408,9 +352,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
                   </div>
                 </div>
 
-                <p className="text-xs md:text-sm text-slate-700 leading-relaxed pt-1">
-                  At 90+ DPD, the company rank drops to CMR-9/10 while director scores fall by 120-180 points. Under Section 21 CICRA, executing an OTS mandates lenders to submit updated data within 30 days, enabling borrowers to convert adverse remarks to Closed status. Borrowers can also file a statutory grievance with credit bureaus if lenders fail to report full settlement data within the prescribed 30-day turnaround.
-                </p>
+                <p className="text-xs md:text-sm text-slate-700 leading-relaxed pt-1"> At 90+ DPD. The company rank drops to CMR-9/10 while director scores fall by 120-180 points. Under Section 21 CICRA. Executing an OTS mandates lenders to submit updated data within 30 days. This lets clients to convert adverse remarks to Closed status. clients can also file a legal grievance with credit bureaus if lenders fail to report full settlement data within the prescribed 30-day turnaround. </p>
               </div>
             </section>
 
@@ -423,9 +365,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Visual Defense Roadmap: 6-Stage MSME Legal Protection Workflow
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Review this structured visual flowchart illustrating the 6-stage procedural sequence to audit debt, assert statutory defenses. Execute an OTS:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Review this structured visual flowchart illustrating the 6-stage procedural sequence to audit debt. Assert legal defenses. Execute an OTS: </p>
 
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-sm p-3 md:p-4 overflow-hidden">
                 <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-slate-100">
@@ -450,9 +390,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 5. Standard Operating Procedure (SOP): 6 Stages of MSME Legal Defense
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Execute this sequential 6-stage operational protocol to safeguard business assets and negotiate an amicable resolution:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Execute this sequential 6-stage daily work protocol to safeguard trade assets and settle an amicable relief: </p>
 
               <div className="space-y-3.5 pt-1">
                 <div className="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -461,9 +399,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
                     <span className="text-xs font-medium text-slate-500">Forensic Audit</span>
                   </div>
                   <h3 className="text-sm md:text-base font-bold text-slate-900">Forensic Loan &amp; Security Ledger Audit</h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Audit the sanction letter, hypothecation deeds, and CGTMSE guarantee fee deductions. Identify illegal compound penalty charges and calculate baseline principal liability under the Bankers&apos; Books Evidence Act.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Audit the sanction letter, hypothecation deeds. And CGTMSE guarantee fee deductions. Identify illegal compound penalty charges and calculate baseline main loan debt risk under the Bankers&apos. Books proof Act. </p>
                 </div>
 
                 <div className="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -472,9 +408,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
                     <span className="text-xs font-medium text-slate-500">Hardship Dossier.</span>
                   </div>
                   <h3 className="text-sm md:text-base font-bold text-slate-900">Hardship Dossier &amp; MSEFC Claims</h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Assemble a commercial hardship file documenting canceled contracts and delayed buyer receivables. File claims before the MSEFC under Chapter V MSMED Act to establish external cash-flow distress.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Assemble a trade hardship file documenting canceled contracts and delayed buyer receivables. File claims before the MSEFC under Chapter V MSMED Act to establish external cash-flow distress. </p>
                 </div>
 
                 <div className="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -483,9 +417,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
                     <span className="text-xs font-medium text-slate-500">RBI Committee</span>
                   </div>
                   <h3 className="text-sm md:text-base font-bold text-slate-900">Invocation of RBI Stressed MSME Committee</h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Serve a formal representation to the bank Branch Manager under the RBI MSME Revival Framework, requesting an immediate freeze on coercive legal recovery and referral for restructuring.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Serve a formal legal help to the bank Branch Manager under the RBI MSME Revival rules. Requesting an fast freeze on coercive legal claims and referral for restructuring. </p>
                 </div>
 
                 <div className="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -494,9 +426,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
                     <span className="text-xs font-medium text-slate-500">OTS Negotiations.</span>
                   </div>
                   <h3 className="text-sm md:text-base font-bold text-slate-900">Credit Committee Compromise Negotiations</h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Engage bank Circle and Head Office credit committees with an actuarially verified OTS proposal, securing a 40% to 60% waiver on accumulated penal interest and administrative charges.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Engage bank Circle and Head Office credit boards with an actuarially verified OTS proposal. Securing a 40% to 60% waiver on total penal interest and office charges. </p>
                 </div>
 
                 <div className="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -505,9 +435,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
                     <span className="text-xs font-medium text-slate-500">Letter Vetting</span>
                   </div>
                   <h3 className="text-sm md:text-base font-bold text-slate-900">Legal Vetting of OTS Sanction Letter</h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Vet the bank&apos;s OTS approval letter to verify mandatory withdrawal of all pending Section 138, Section 25 PSSA, DRT. SARFAESI proceedings without residual financial liability.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Vet the bank&apos. S OTS approval letter to verify strict withdrawal of all pending Section 138. Section 25 PSSA. DRT. SARFAESI proceedings without residual money debt risk. </p>
                 </div>
 
                 <div className="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -516,9 +444,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
                     <span className="text-xs font-medium text-slate-500">NDC &amp; Closure.</span>
                   </div>
                   <h3 className="text-sm md:text-base font-bold text-slate-900">Remittance, No Dues Certificate &amp; Bureau Update</h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    pay settlement funds directly to the loan pool account, obtain the original No Dues Certificate, retrieve unencumbered documents. Submit updates under Section 21 CICRA to mark accounts Closed.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> pay settlement funds straight to the loan pool account. Obtain the original No Dues letter. Retrieve unencumbered papers. Submit updates under Section 21 CICRA to mark accounts Closed. </p>
                 </div>
               </div>
             </section>
@@ -532,9 +458,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 6. Statutory Notice Defense: MSME Legal Protections
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Lenders issue notices across criminal, quasi-criminal, and civil forums. Enterprise leadership must address each action under its governing statute:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Lenders issue notices across criminal. Quasi-criminal. And civil forums. firms leadership must address each action under its governing statute: </p>
 
               {/* 4 Clean Analytical Cards */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5 pt-1">
@@ -543,9 +467,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
                     <AlertCircle className="w-4 h-4"/>
                     <span>Section 25 PSSA: NACH Dishonor.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Issued for bounced auto-debits under Payment and Settlement Systems Act 2007. It is a bailable proceeding that can be compounded immediately upon executing an OTS or discharging principal dues. Filing a formal reply refuting intentional default establishes a crucial contemporaneous defense record before the magistrate.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Issued for bounced auto-debits under Payment and Settlement Systems Act 2007. It is a bailable proceeding that can be compounded promptly upon executing an OTS or discharging main loan dues. Filing a formal reply refuting intentional default establishes a crucial contemporaneous defense record before the magistrate. </p>
                 </div>
 
                 <div className="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -553,9 +475,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
                     <Gavel className="w-4 h-4"/>
                     <span>Section 138 NI Act: Cheque Bounce.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Carries a 30-day notice and 15-day cure window. Promoters can contest security cheque misuse, challenge penal interest claims. Seek judicial compounding under Section 147 citing the Supreme Court ruling in. <em>Damodar S. Prabhu.</em>.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Carries a 30-day notice and 15-day cure window. Promoters can contest security cheque misuse. Challenge penal interest claims. Seek judicial compounding under Section 147 citing the Supreme Court ruling in. <em>Damodar S. Prabhu.</em>. </p>
                 </div>
 
                 <div className="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -563,9 +483,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
                     <Landmark className="w-4 h-4"/>
                     <span>Section 21 Arbitration: Perkins Eastman.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Under Supreme Court precedents in TRF Ltd. and Perkins Eastman, banks cannot unilaterally appoint sole arbitrators, giving borrowers Section 12(5) grounds to challenge tainted proceedings.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Under Supreme Court rulings in TRF Ltd. And Perkins Eastman. Banks cannot unilaterally appoint sole arbitrators. Giving clients Section 12(5) grounds to challenge tainted proceedings. </p>
                 </div>
 
                 <div className="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -573,9 +491,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
                     <Building2 className="w-4 h-4"/>
                     <span>Section 19 DRT &amp; SARFAESI 13(2).</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    DRT hears debts above ₹20 Lakhs. For CGTMSE collateral-free loans, SARFAESI property seizure is statutorily barred. DRT suits can be defended by auditing inflated compound ledgers. Promoters can file interim applications praying for restraint against coercive attachment of essential operating machinery.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> DRT hears debts above ₹20 Lakhs. For CGTMSE security-free loans. SARFAESI property seizure is statutorily barred. DRT suits can be defended by auditing inflated compound ledgers. Promoters can file interim applications praying for restraint against coercive attachment of essential operating machinery. </p>
                 </div>
               </div>
 
@@ -595,9 +511,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 7. The 3-Tier Grievance Redressal Matrix &amp; Regulatory Escalation
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When recovery wings violate guidelines, ignore revival applications, or levy illegal penalty charges, escalate through this 3-tier matrix:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When claims wings violate rules. Ignore revival applications. Or levy illegal penalty charges. Escalate through this 3-tier matrix: </p>
 
               <div className="space-y-3 pt-1">
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
@@ -605,9 +519,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
                     <span className="text-xs font-bold text-[#1886ff] bg-blue-50 px-2 py-0.5 rounded">Level 1: Grievance Redressal Officer (GRO).</span>
                     <span className="text-xs text-slate-500">7–10 Days</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Submit a written grievance detailing accounting errors and request referral to the bank&apos;s Stressed MSME Committee.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Submit a written grievance detailing accounting errors and request referral to the bank&apos. s Stressed MSME boards. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
@@ -615,9 +527,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
                     <span className="text-xs font-bold text-indigo-700 bg-indigo-50 px-2 py-0.5 rounded">Level 2: Principal Nodal Officer (PNO).</span>
                     <span className="text-xs text-slate-500">14–21 Days</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Escalate unresolved disputes to the Head Office PNO with cash-flow viability reports and formal OTS proposals.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Escalate unresolved disputes to the Head Office PNO with cash-flow viability reports and formal OTS proposals. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-emerald-200 shadow-xs space-y-1">
@@ -625,9 +535,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
                     <span className="text-xs font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded">Level 3: RBI Integrated Ombudsman.</span>
                     <span className="text-xs text-slate-500">30 Days</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    File complaints on cms.rbi.org.in for Fair Practices Code breaches, harassment, or unlawful denial of MSME framework relief.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> File complaints on cms.rbi.org.in for Fair Practices Code breaches. Abuse. Or unlawful denial of MSME rules relief. </p>
                 </div>
               </div>
             </section>
@@ -641,9 +549,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 8. Procedural Timeline: Default to Resolution Milestones
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Understand regulatory milestones from initial default to final debt discharge:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Understand RBI milestones from initial default to final debt discharge: </p>
 
               {/* 4-Sided Bordered Table with vertical dividers */}
               <div className="overflow-x-auto rounded-2xl border border-slate-200/80 bg-white shadow-xs">
@@ -658,28 +564,28 @@ export default function MsmeLoanDefaultLegalActionClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-600">
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
-                      <td className="p-3 font-bold text-slate-900">Days 1–30</td>
+                      <td className="p-3 font-bold text-slate-900">Days 1. 30</td>
                       <td className="p-3">SMA-0: Incipient Stress.</td>
                       <td className="p-3">Cure window</td>
-                      <td className="p-3 text-[#1886ff]">Audit cash flows &amp; file MSEFC claims.</td>
+                      <td className="p-3 text-[#1886ff]">Audit cash flows &amp. file MSEFC claims.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
-                      <td className="p-3 font-bold text-slate-900">Days 31–60</td>
+                      <td className="p-3 font-bold text-slate-900">Days 31. 60</td>
                       <td className="p-3">SMA-1: Stress Recognition.</td>
                       <td className="p-3">30-day window</td>
-                      <td className="p-3 text-[#1886ff]">Invoke RBI Stressed MSME Framework.</td>
+                      <td className="p-3 text-[#1886ff]">Invoke RBI Stressed MSME rules.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
-                      <td className="p-3 font-bold text-slate-900">Days 61–90</td>
+                      <td className="p-3 font-bold text-slate-900">Days 61. 90</td>
                       <td className="p-3">SMA-2: Imminent NPA.</td>
                       <td className="p-3">Pre-NPA period</td>
                       <td className="p-3 text-[#1886ff]">Present restructuring proposal.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
-                      <td className="p-3 font-bold text-slate-900">Days 91–180</td>
-                      <td className="p-3">NPA &amp; Demand Notices.</td>
-                      <td className="p-3">Statutory notice.</td>
-                      <td className="p-3 text-[#1886ff]">Defend Sec 138 &amp; open OTS dialogue.</td>
+                      <td className="p-3 font-bold text-slate-900">Days 91. 180</td>
+                      <td className="p-3">NPA &amp. Demand Notices.</td>
+                      <td className="p-3">legal notices.</td>
+                      <td className="p-3 text-[#1886ff]">Defend Sec 138 &amp. open OTS dialogue.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
                       <td className="p-3 font-bold text-slate-900">Months 6+</td>
@@ -701,9 +607,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 9. Specialized Business Scenarios: Shocks &amp; ARCs
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Legal strategies must adapt to the corporate structure and facility architecture:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Legal plans must adapt to the company structure and facility architecture: </p>
 
               <div className="space-y-3 pt-1">
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
@@ -711,9 +615,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
                     <Layers className="w-4 h-4 text-[#1886ff]"/>
                     Multi-Lender Consortium &amp; Multiple Banking
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    When carrying limits across multiple lenders, defense requires negotiating an Inter-Creditor Agreement (ICA) or harmonizing parallel OTS offers to prevent insolvency filings under IBC.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> When carrying limits across multiple lenders. Defense requires settling an Inter-Creditor pacts (ICA) or harmonizing parallel OTS offers to prevent bankruptcy filings under IBC. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
@@ -721,9 +623,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
                     <AlertTriangle className="w-4 h-4 text-amber-600"/>
                     Enterprise Liquidity Shocks &amp; Supply Chain Disruptions
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Documenting external disruptions in an economic hardship dossier proves to credit committees that non-payment is circumstantial rather than willful default.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Documenting external breaks in an economic hardship dossier proves to credit boards that non-payment is circumstantial rather than willful default. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
@@ -731,9 +631,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
                     <Building2 className="w-4 h-4 text-[#1886ff]"/>
                     Sole Proprietorship vs. Private Limited Liabilities
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    In proprietorships, personal assets are exposed to civil execution, whereas in Private Limited companies, liability is restricted unless personal guarantees were executed under Section 128.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> In proprietorships. Own assets are exposed to civil execution. In contrast, in Private Limited companies. Debt risk is restricted unless private guarantees were executed under Section 128. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
@@ -741,9 +639,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
                     <Landmark className="w-4 h-4 text-[#1886ff]"/>
                     MSME Debt Assignment to Asset Reconstruction Companies (ARCs)
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    When banks sell MSME debt to ARCs at 20% to 35% discounts under SARFAESI Section 5, borrowers gain large leverage for deep compromise OTS settlements.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> When banks sell MSME debt to ARCs at 20% to 35% discounts under SARFAESI Section 5. Clients gain large leverage for deep OTS deal OTS settlements. </p>
                 </div>
               </div>
             </section>
@@ -762,9 +658,7 @@ export default function MsmeLoanDefaultLegalActionClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Frequently Asked Questions on MSME Loan Default Legal Action
               </h2>
-              <p className="text-xs md:text-sm text-slate-600">
-                Click on any question below to view detailed legal answers verified by our banking and debt resolution professionals:
-              </p>
+              <p className="text-xs md:text-sm text-slate-600"> Click on any question below to view detailed legal answers verified by our banking and debt relief workers: </p>
 
               <div className="space-y-3 pt-2">
                 {faqs.map((faq, index) => {
@@ -792,12 +686,12 @@ export default function MsmeLoanDefaultLegalActionClient() {
                 Official Regulatory Citations &amp; Judicial References
               </h2>
               <ul className="space-y-1.5 text-xs text-slate-600 leading-relaxed list-disc pl-5">
-                <li><strong>MSMED Act 2006:</strong> Chapter V, Sections 15 to 21, Ministry of MSME.</li>
-                <li><strong>RBI Master Directions:</strong> Framework for Revival and Rehabilitation of MSMEs.</li>
-                <li><strong>CGTMSE Guidelines:</strong> Operational Rules on Default Guarantee Coverage.</li>
-                <li><strong>NI Act 1881 &amp; PSSA 2007:</strong> Section 138 (Cheques) &amp; Section 25 (NACH).</li>
-                <li><strong>CICRA 2005:</strong> Section 21 Rules for Mandatory Credit Information Closure.</li>
-                <li><strong>Supreme Court:</strong> <em>Perkins Eastman (2020).</em> &amp; <em>TRF Ltd. (2017)</em>.</li>
+                <li><strong>MSMED Act 2006:</strong> Chapter V. Sections 15 to 21. Ministry of MSME.</li>
+                <li><strong>RBI Master Directions:</strong> rules for Revival and Rehabilitation of MSMEs.</li>
+                <li><strong>CGTMSE rules:</strong> daily work Rules on Default Guarantee Coverage.</li>
+                <li><strong>NI Act 1881 &amp. PSSA 2007:</strong> Section 138 (Cheques) &amp. Section 25 (NACH).</li>
+                <li><strong>CICRA 2005:</strong> Section 21 Rules for strict Credit Information Closure.</li>
+                <li><strong>Supreme Court:</strong> <em>Perkins Eastman (2020).</em> &amp. <em>TRF Ltd. (2017)</em>.</li>
               </ul>
 
               {/* 6 Outbound Authority Badges */}
@@ -846,14 +740,10 @@ export default function MsmeLoanDefaultLegalActionClient() {
                   <Link href="/author/ashish-jhangra" className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional.
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief expert. </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Specialized in MSME credit dispute defense, banking compliance, DRT representation, and commercial debt settlement negotiations.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> Specialized in MSME credit dispute defense. Banking compliance, DRT legal help. And trade debt talks. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px]">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
                   <span>View Profile</span>
@@ -870,12 +760,8 @@ export default function MsmeLoanDefaultLegalActionClient() {
               <span className="text-xs font-bold uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block">
                 100% CONFIDENTIAL DEFENSE.
               </span>
-              <p className="text-lg font-bold text-white leading-snug">
-                Facing Legal Action on Your MSME Loan?
-              </p>
-              <p className="text-blue-100 text-xs leading-relaxed">
-                Our debt resolution experts invoke RBI revival committees, defend Section 138 summons. Negotiate a 40% to 60% compromise loan waiver.
-              </p>
+              <p className="text-lg font-bold text-white leading-snug"> Facing Legal Action on Your MSME Loan? </p>
+              <p className="text-blue-100 text-xs leading-relaxed"> Our debt relief experts invoke RBI revival boards. Defend Section 138 summons. settle a 40% to 60% OTS deal loan waiver. </p>
               <Link href="/contact" className="block w-full bg-white text-blue-900 hover:text-[#1886ff] py-3 px-4 rounded-full font-bold text-sm hover:bg-slate-50 transition-all shadow-md">
                 Get Enterprise Legal Defense
               </Link>
@@ -895,22 +781,10 @@ export default function MsmeLoanDefaultLegalActionClient() {
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-4 space-y-2.5 text-xs">
               <p className="font-bold text-slate-900 text-sm">CredSettle Advantage.</p>
               <ul className="space-y-1.5 text-slate-600">
-                <li className="flex items-center gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
-                  <span><strong>Zero Upfront Risk:</strong> Success-linked fees.</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
-                  <span><strong>Direct Bank Remittance:</strong> No middleman fund holding.</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
-                  <span><strong>RBI &amp; MSMED Compliance:</strong> 100% lawful defense.</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
-                  <span><strong>Pan-India Representation:</strong> Banking specialists.</span>
-                </li>
+                <li className="flex items-center gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/> <span><strong>Zero Upfront Risk:</strong> Success-linked fees.</span> </li>
+                <li className="flex items-center gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/> <span><strong>Direct Bank Remittance:</strong> No middleman fund holding.</span> </li>
+                <li className="flex items-center gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/> <span><strong>RBI &amp. MSMED Compliance:</strong> 100% lawful defense.</span> </li>
+                <li className="flex items-center gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/> <span><strong>Pan-India legal help:</strong> Banking specialists.</span> </li>
               </ul>
             </div>
 
@@ -919,11 +793,11 @@ export default function MsmeLoanDefaultLegalActionClient() {
               <p className="font-bold text-slate-900 text-sm">Related Guides</p>
               <div className="space-y-2">
                 <Link href="/sme-loan-dispute-resolution" className="block p-2 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors">
-                  <p className="font-bold text-slate-800 leading-snug">SME Loan Dispute Resolution.</p>
+                  <p className="font-bold text-slate-800 leading-snug">SME Loan Dispute relief.</p>
                   <span className="text-[10px] text-slate-400">MSEFC arbitration guide &rarr;.</span>
                 </Link>
                 <Link href="/best-lawyer-for-business-loan-settlement" className="block p-2 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors">
-                  <p className="font-bold text-slate-800 leading-snug">Business Loan Settlement.</p>
+                  <p className="font-bold text-slate-800 leading-snug">firm loans Settlement.</p>
                   <span className="text-[10px] text-slate-400">OTS strategy guide &rarr;.</span>
                 </Link>
               </div>

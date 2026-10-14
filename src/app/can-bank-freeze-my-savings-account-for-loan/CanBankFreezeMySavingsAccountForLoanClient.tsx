@@ -47,43 +47,43 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
     const faqs = [
         {
             q: 'Can a bank freeze my savings account if I default on an unsecured personal loan?',
-            a: "Yes. Only if the savings account is maintained within the exact same banking institution where the defaulted loan exists. Under Section 171 of the Indian Contract Act, 1872, banks possess a general lien and right of set-off allowing them to combine accounts. However, a bank cannot freeze your savings account held in an entirely separate third-party bank without a specific judicial decree or court Garnishee Order."
+            a: "Yes. Only if the savings account is maintained within the exact same banking institution where the defaulted loan exists. Under Section 171 of the Indian Contract Act. 1872, banks possess a general lien and right of set-off allowing them to combine accounts. However, a bank cannot freeze your savings account held in an entirely separate third-party bank without a local judicial decree or court Garnishee Order."
         },
         {
             q: 'What is the legal difference between a bank lien, a set-off, and an account freeze?',
-            a: 'A banker lien is a statutory right to retain borrower deposits until outstanding debts are discharged. Right of set-off is the operational accounting debit of those retained credit balances against overdue loan liabilities. An account freeze is a complete operational suspension of all incoming and outgoing transactions, which typically requires a formal judicial or law enforcement order unless exercised internally as an administrative lien.'
+            a: 'A banker lien is a legal right to retain client deposits until unpaid debts are discharged. Right of set-off is the daily work accounting debit of those retained credit balances against overdue loan debts. An account freeze is a complete daily work suspension of all incoming and outgoing transactions. This typically requires a formal judicial or law enforcement order unless exercised internally as an office lien.'
         },
         {
             q: 'Can a bank put a lien on a joint savings account for an individual borrower default?',
-            a: 'No. The right of set-off and banker lien strictly require mutuality of debt. This principle dictates that money held jointly belongs equally to both primary and secondary holders. If a personal loan or credit card was sanctioned in your sole name, the lending bank has no legal authority to freeze or debit a joint account maintained with your spouse or parent.'
+            a: 'No. The right of set-off and banker lien strictly require mutuality of debt. This principle dictates that money held jointly belongs equally to both primary and secondary holders. If a private loans or credit card was sanctioned in your sole name. The lending bank has no legal formal to freeze or debit a joint account maintained with your spouse or parent.'
         },
         {
             q: 'Is it legal for a bank to freeze 100% of my salary or savings without prior notice?',
-            a: 'Arbitrary 100% account freezes without advance written notice violate the Reserve Bank of India (RBI) Fair Practices Code and principles of natural justice. Additionally, under Section 60(1)(i) of the Code of Civil Procedure, basic subsistence wages necessary for personal survival and family sustenance are legally protected from complete attachment.'
+            a: 'Arbitrary 100% account freezes without advance written notice violate the Reserve Bank of India (RBI) Fair Practices Code and principles of natural justice. Additionally, under Section 60(1)(i) of the Code of Civil Procedure. Basic subsistence wages necessary for private survival and family sustenance are legally protected from complete attachment.'
         },
         {
             q: 'Can a bank freeze my Public Provident Fund (PPF), EPF, or pension account?',
-            a: "No. Statutory retirement funds including Public Provident Fund (PPF), Employee Provident Fund (EPF). Government pensions enjoy absolute statutory immunity from bank lien, set-off. Civil attachment under Section 10 of the EPF Act and Section 60 of the CPC. Banks attempting to attach these funds commit an actionable regulatory violation."
+            a: "No. Legal retirement funds including Public Provident Fund (PPF), staff Provident Fund (EPF). Government pensions enjoy absolute legal immunity from bank lien, set-off. Civil attachment under Section 10 of the EPF Act and Section 60 of the CPC. Banks attempting to attach these funds commit an actionable RBI violation."
         },
         {
             q: 'How do I unfreeze a bank account that was blocked for an overdue loan?',
-            a: "To unfreeze your account, immediately submit a formal representation to the Branch Manager and Grievance Redressal Officer citing lack of mutuality, absence of prior notice. Subsistence hardship under Section 60 CPC. Concurrently, initiate a structured One-Time Settlement (OTS) proposal to negotiate a waiver on penalty charges and resolve the debt."
+            a: "To unfreeze your account, promptly submit a formal legal help to the Branch Manager and Grievance Redressal Officer citing lack of mutuality, absence of prior notice. Subsistence hardship under Section 60 CPC. Concurrently, initiate a structured One-Time Settlement (OTS) proposal to settle a waiver on penalty charges and resolve the debt."
         },
         {
             q: 'Can a third-party bank freeze my account because another lender reported a default?',
-            a: 'No. Third-party banks have no legal standing to freeze your savings or current accounts simply because an external lender has reported an overdue balance to CIBIL. Third-party funds can only be attached if the creditor obtains a court decree and a formal Garnishee Order under Order XXI Rule 46 of the CPC or a DRT recovery certificate.'
+            a: 'No. Third-party banks have no legal standing to freeze your savings or current accounts simply because an external lender has reported an overdue balance to CIBIL. Third-party funds can only be attached if the creditor obtains a court decree and a formal Garnishee Order under Order XXI Rule 46 of the CPC or a DRT collection letter.'
         },
         {
             q: 'What should I do if the bank ignores my request to lift an unlawful lien?',
-            a: 'If the branch manager and Principal Nodal Officer (PNO) fail to resolve your grievance or provide partial subsistence access within 30 days, immediately file a formal statutory complaint with the RBI Integrated Ombudsman via cms.rbi.org.in citing violation of customer rights and arbitrary recovery tactics.'
+            a: 'If the branch manager and main loan Nodal Officer (PNO) fail to resolve your grievance or provide partial subsistence access within 30 days. Promptly file a formal legal complaint with the RBI Integrated Ombudsman via cms.rbi.org.in citing violation of customer rights and arbitrary collection tactics.'
         },
         {
             q: 'Can recovery agents order my bank to freeze my savings account?',
-            a: "No. Third-party recovery agents have zero statutory or administrative power to freeze, block, or attach bank accounts. Account operations can only be modified through the bank internal credit operations committee or through formal judicial orders issued by competent civil courts, DRT. Law enforcement agencies."
+            a: "No. Third-party collection agents have zero legal or office power to freeze. Block, or attach bank accounts. Account work can only be modified through the bank internal credit work boards or through formal judicial orders issued by competent civil courts, DRT. Law enforcement firms."
         },
         {
             q: 'How does a One-Time Settlement (OTS) permanently resolve account liens?',
-            a: "A formal One-Time Settlement (OTS) legally compromises the outstanding debt for an agreed lump-sum or structured payment. Once the settlement amount is remitted, the bank issues an official No Dues Certificate (NDC), permanently releases all account liens, cancels auto-debit mandates. Updates credit bureaus."
+            a: "A formal One-Time Settlement (OTS) legally compromises the unpaid debt for an agreed lump-sum or structured payment. Once the settlement amount is remitted. The bank issues an formal No Dues letter (NDC). Permanently releases all account liens, cancels auto-debit mandates. Updates credit bureaus."
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white font-sans">
@@ -100,9 +100,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
             Can a Bank Legally Freeze Your Savings Account for Loan Default?
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed">
-            Discover your statutory protections against arbitrary bank liens, inter-branch set-offs, and unlawful account freezes. Learn how Section 171 of the Indian Contract Act and Section 60 CPC safeguard your essential livelihood funds.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed"> Discover your legal protections against arbitrary bank liens. Inter-branch set-offs, and unlawful account freezes. Learn how Section 171 of the Indian Contract Act and Section 60 CPC safeguard your essential livelihood funds. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -145,9 +143,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>Statutory Protection.</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Governed by the Indian Contract Act 1872, CPC Section 60, &amp; RBI Fair Practices Code.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by the Indian Contract Act 1872, CPC Section 60, &amp. RBI Fair Practices Code. </p>
               </div>
             </div>
           </aside>
@@ -162,66 +158,24 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                 <span>EXECUTIVE SUMMARY: SAVINGS ACCOUNT FREEZE &amp; LIEN RULES.</span>
               </div>
 
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-medium">
-                Key statutory boundaries governing bank account liens, right of set-off, and borrower legal protections under Indian banking jurisprudence:
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-medium"> Key legal boundaries governing bank account liens. Right of set-off, and client legal protections under Indian banking jurisprudence: </p>
 
               <ul className="space-y-2 text-xs sm:text-sm text-slate-700 leading-relaxed">
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Same-Bank Right of Set-Off:</strong> Under Section 171 of the Indian Contract Act 1872, a bank can combine intra-bank balances to adjust loan dues.
-                  </div>
-                </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div> <strong className="text-slate-900 font-bold">Same-Bank Right of Set-Off:</strong> Under Section 171 of the Indian Contract Act 1872. A bank can combine intra-bank balances to adjust loan dues. </div> </li>
 
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Third-Party Banks Protected:</strong> Lenders cannot debit funds from other banking institutions without a formal court Garnishee Order.
-                  </div>
-                </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div> <strong className="text-slate-900 font-bold">Third-Party Banks Protected:</strong> Lenders cannot debit funds from other banking institutions without a formal court Garnishee Order. </div> </li>
 
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Mutuality of Debt Required:</strong> Joint accounts with non-borrowers or spouses cannot be attached for an individual personal debt.
-                  </div>
-                </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div> <strong className="text-slate-900 font-bold">Mutuality of Debt Required:</strong> Joint accounts with non-clients or spouses cannot be attached for an individual private debt. </div> </li>
 
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Subsistence Protections:</strong> Under Section 60(1) CPC, essential wages, pension income, and PF balances enjoy statutory attachment immunity.
-                  </div>
-                </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div> <strong className="text-slate-900 font-bold">Subsistence Protections:</strong> Under Section 60(1) CPC, essential wages. Pension income, and PF balances enjoy legal attachment immunity. </div> </li>
 
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Prior Notice Mandate:</strong> Under the RBI Fair Practices Code, banks must give reasonable notice before immobilizing customer liquidity.
-                  </div>
-                </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div> <strong className="text-slate-900 font-bold">Prior Notice Mandate:</strong> Under the RBI Fair Practices Code. Banks must give reasonable notice before immobilizing customer liquidity. </div> </li>
 
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">No Agent Freeze Powers:</strong> Collection agents have zero legal standing to issue account freezes or block customer deposits.
-                  </div>
-                </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div> <strong className="text-slate-900 font-bold">No Agent Freeze Powers:</strong> Collection agents have zero legal standing to issue account freezes or block customer deposits. </div> </li>
 
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">3-Tier Grievance Route:</strong> Unlawful liens can be challenged before the Branch GRO, Bank PNO, and the RBI Integrated Ombudsman.
-                  </div>
-                </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div> <strong className="text-slate-900 font-bold">3-Tier Grievance Route:</strong> Unlawful liens can be challenged before the Branch GRO. Bank PNO, and the RBI Integrated Ombudsman. </div> </li>
 
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Permanent Closure via OTS:</strong> A One-Time Settlement legally extinguishes dues, removes liens, and yields a clean NDC.
-                  </div>
-                </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div> <strong className="text-slate-900 font-bold">Permanent Closure via OTS:</strong> A One-Time Settlement legally extinguishes dues. Removes liens, and yields a clean NDC. </div> </li>
               </ul>
             </div>
 
@@ -231,13 +185,9 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                 1. Banker’s Lien &amp; Right of Set-Off: Section 171 Explained
               </h2>
 
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal text-justify">
-                Discovering that your savings account has been frozen or marked with an administrative lien is a distressing experience for any borrower. When retail personal loans or credit card accounts fall into default, banks frequently attempt recovery by attaching credit balances in customer deposit accounts. Under Section 171 of the Indian Contract Act, 1872, commercial banks possess a general banker’s lien over securities and credit balances, enabling an inter-branch right of set-off to combine accounts within the same banking entity.
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal text-justify"> Discovering that your savings account has been frozen or marked with an office lien is a distressing skill for any client. When retail private loans or credit card accounts fall into default. Banks often attempt collection by attaching credit balances in customer deposit accounts. Under Section 171 of the Indian Contract Act. 1872, banks possess a general banker’s lien over securities and credit balances. This lets an inter-branch right of set-off to combine accounts within the same banking entity. </p>
 
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal text-justify">
-                However, this power is strictly governed by the doctrine of debt mutuality. A bank can only exercise set-off when the deposit and the debt exist between the exact same parties in the same legal capacity. If an account is held jointly with a non-borrower spouse. Designated for statutory retirement funds, the bank cannot lawfully freeze those deposits. also, the RBI Fair Practices Code requires lenders to issue advance written notice before executing set-offs, preventing arbitrary deprivation of essential livelihood funds.
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal text-justify"> However, this power is strictly governed by the doctrine of debt mutuality. A bank can only exercise set-off when the deposit and the debt exist between the exact same parties in the same legal capacity. If an account is held jointly with a non-client spouse. Designated for legal retirement funds. The bank cannot lawfully freeze those deposits. Also, the RBI Fair Practices Code requires lenders to issue advance written notice before executing set-offs. Preventing arbitrary deprivation of essential livelihood funds. </p>
             </section>
 
             {/* SECTION 2: FINANCIAL BREAKDOWN & SETTLEMENT MATH */}
@@ -246,9 +196,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                 2. Account Freeze Math: Principal vs Inflated Penal Charges
               </h2>
 
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal text-justify">
-                When an account crosses 90 days of non-payment and turns into a Non-Performing Asset (NPA), banks stop regular income recognition and compound aggressive penal interest, late fees. Administrative charges. While this inflates the ledger balance by 50% to 100%, mandatory Basel III capital provisioning of 15% to 100% incentivizes bank credit committees to accept a structured One-Time Settlement (OTS) at a 40% to 55% discount on real dues.
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal text-justify"> When an account crosses 90 days of non-payment and turns into a Non-Performing Asset (NPA). Banks stop regular income recognition and compound aggressive penal interest, late fees. office charges. While this inflates the ledger balance by 50% to 100%. Strict Basel III cash provisioning of 15% to 100% incentivizes bank credit boards to accept a structured One-Time Settlement (OTS) at a 40% to 55% discount on real dues. </p>
 
               {/* REPRESENTATIVE SETTLEMENT MATH CARD */}
               <div className="rounded-2xl border border-slate-200/80 bg-white p-5 md:p-6 shadow-xs space-y-4">
@@ -324,9 +272,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                   </div>
                 </div>
 
-                <p className="text-[11px] text-slate-500 leading-tight">
-                  Note: Upon payment of the negotiated OTS compromise sum, the bank is legally required to lift all account freezes, cancel internal lien marks, revoke Section 25 PSSA / 138 NI notices. Issue an irrevocable No Dues Certificate (NDC).
-                </p>
+                <p className="text-[11px] text-slate-500 leading-tight"> Note: Upon payment of the settled OTS OTS deal sum. The bank is legally required to lift all account freezes. Cancel internal lien marks, revoke Section 25 PSSA / 138 NI notices. Issue an irrevocable No Dues letter (NDC). </p>
               </div>
             </section>
 
@@ -336,9 +282,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                 3. Resolution Comparison: Bank Freeze Relief Pathways
               </h2>
 
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal text-justify">
-                Borrowers dealing with frozen accounts have multiple legal and procedural avenues available to them, each carrying distinct financial results, time horizons. Legal implications. The comparison table below evaluates the primary resolution strategies available under Indian commercial banking law:
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal text-justify"> clients dealing with frozen accounts have multiple legal and procedural avenues available to them. Each carrying distinct money results, time horizons. Legal implications. The comparison table below evaluates the primary relief plans available under Indian trade banking law: </p>
 
               {/* 4-SIDED BORDERED TABLE */}
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto bg-white shadow-xs">
@@ -354,89 +298,39 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-700">
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors">
-                      <td className="p-3.5 font-bold text-slate-900">
-                        One-Time Settlement (OTS).
-                      </td>
-                      <td className="p-3.5 text-emerald-700 font-semibold">
-                        Lien 100% revoked upon compromise payment.
-                      </td>
-                      <td className="p-3.5 text-emerald-700 font-semibold">
-                        40% to 65% total reduction on claim.
-                      </td>
-                      <td className="p-3.5">
-                        15 to 45 business days.
-                      </td>
-                      <td className="p-3.5">
-                        Complete legal discharge with stamped NDC; credit bureau updated as Settled.
-                      </td>
+                      <td className="p-3.5 font-bold text-slate-900"> One-Time Settlement (OTS). </td>
+                      <td className="p-3.5 text-emerald-700 font-semibold"> Lien 100% revoked upon OTS deal payment. </td>
+                      <td className="p-3.5 text-emerald-700 font-semibold"> 40% to 65% total reduction on claim. </td>
+                      <td className="p-3.5"> 15 to 45 trade days. </td>
+                      <td className="p-3.5"> Complete legal discharge with stamped NDC. credit bureau updated as Settled. </td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors">
-                      <td className="p-3.5 font-bold text-slate-900">
-                        Loan Restructuring (Tenure Extension).
-                      </td>
-                      <td className="p-3.5 text-blue-700">
-                        Lien lifted after signing revised terms &amp; initial EMI.
-                      </td>
-                      <td className="p-3.5 text-rose-700">
-                        0% waiver; interest continues to compound over longer tenure.
-                      </td>
-                      <td className="p-3.5">
-                        30 to 60 business days.
-                      </td>
-                      <td className="p-3.5">
-                        Ongoing contractual liability; reported as Restructured on CIBIL report.
-                      </td>
+                      <td className="p-3.5 font-bold text-slate-900"> Loan Restructuring (Tenure Extension). </td>
+                      <td className="p-3.5 text-blue-700"> Lien lifted after signing revised terms &amp. initial EMI. </td>
+                      <td className="p-3.5 text-rose-700"> 0% waiver. interest continues to compound over longer tenure. </td>
+                      <td className="p-3.5"> 30 to 60 trade days. </td>
+                      <td className="p-3.5"> Ongoing contractual debt risk. reported as Restructured on CIBIL report. </td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors">
-                      <td className="p-3.5 font-bold text-slate-900">
-                        Lok Adalat Conciliation.
-                      </td>
-                      <td className="p-3.5 text-emerald-700">
-                        Lien lifted under formal judicial consent award.
-                      </td>
-                      <td className="p-3.5 text-emerald-700">
-                        30% to 50% waiver on accrued interest and fees.
-                      </td>
-                      <td className="p-3.5">
-                        Held quarterly (1 to 4 months).
-                      </td>
-                      <td className="p-3.5">
-                        Judicial award carries status of a civil court decree with zero appeal rights.
-                      </td>
+                      <td className="p-3.5 font-bold text-slate-900"> Lok Adalat talks. </td>
+                      <td className="p-3.5 text-emerald-700"> Lien lifted under formal judicial consent award. </td>
+                      <td className="p-3.5 text-emerald-700"> 30% to 50% waiver on accrued interest and fees. </td>
+                      <td className="p-3.5"> Held quarterly (1 to 4 months). </td>
+                      <td className="p-3.5"> Judicial award carries status of a civil court decree with zero appeal rights. </td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors">
-                      <td className="p-3.5 font-bold text-slate-900">
-                        Civil Court / DRT Litigation.
-                      </td>
-                      <td className="p-3.5 text-amber-700">
-                        Lien conditional on interim stay order or court security deposit.
-                      </td>
-                      <td className="p-3.5 text-slate-700">
-                        Subject to final judicial decree; heavy legal fees.
-                      </td>
-                      <td className="p-3.5">
-                        2 to 5+ years
-                      </td>
-                      <td className="p-3.5">
-                        Prolonged adversarial litigation with continuous recovery actions.
-                      </td>
+                      <td className="p-3.5 font-bold text-slate-900"> Civil Court / DRT lawsuits. </td>
+                      <td className="p-3.5 text-amber-700"> Lien conditional on interim stay order or court security deposit. </td>
+                      <td className="p-3.5 text-slate-700"> Subject to final judicial decree. heavy legal fees. </td>
+                      <td className="p-3.5"> 2 to 5+ years </td>
+                      <td className="p-3.5"> Prolonged adversarial lawsuits with steady collection actions. </td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors bg-rose-50/30">
-                      <td className="p-3.5 font-bold text-rose-900">
-                        Inaction &amp; Ignoring Lien.
-                      </td>
-                      <td className="p-3.5 text-rose-700 font-semibold">
-                        Lien remains permanent; subsequent incoming funds debited.
-                      </td>
-                      <td className="p-3.5 text-rose-700 font-semibold">
-                        0% waiver; debt compounds with continuous penalty fees.
-                      </td>
-                      <td className="p-3.5 text-rose-700">
-                        Indefinite exposure.
-                      </td>
-                      <td className="p-3.5 text-rose-800">
-                        Section 138/25 prosecution, arbitration awards, and permanent credit damage.
-                      </td>
+                      <td className="p-3.5 font-bold text-rose-900"> Inaction &amp. Ignoring Lien. </td>
+                      <td className="p-3.5 text-rose-700 font-semibold"> Lien remains permanent. subsequent incoming funds debited. </td>
+                      <td className="p-3.5 text-rose-700 font-semibold"> 0% waiver. debt compounds with steady penalty fees. </td>
+                      <td className="p-3.5 text-rose-700"> Indefinite exposure. </td>
+                      <td className="p-3.5 text-rose-800"> Section 138/25 legal steps, arbitration awards, and permanent credit damage. </td>
                     </tr>
                   </tbody>
                 </table>
@@ -449,13 +343,9 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                 4. CIBIL Algorithm: Credit Score Impact of Frozen Accounts
               </h2>
 
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal text-justify">
-                Indian credit bureaus (CIBIL, Experian, Equifax, CRIF High Mark) allocate 35% of their scoring weight to repayment history and 30% to credit use. Unresolved loan delinquencies leading to account liens depress credit scores by 120 to 200 points. Executing an OTS updates the account status to Settled under Section 21 of the Credit Information Companies (Regulation) Act, 2005 (CICRA), stopping ongoing DPD deterioration and freezing penal accruals.
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal text-justify"> Indian credit bureaus (CIBIL, Experian. Equifax, CRIF High Mark) allocate 35% of their scoring weight to payment history and 30% to credit use. Unresolved loan delinquencies leading to account liens depress credit scores by 120 to 200 points. Executing an OTS updates the account status to Settled under Section 21 of the Credit Information Companies (Regulation) Act. 2005 (CICRA), stopping ongoing DPD deterioration and freezing penal accruals. </p>
 
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal text-justify">
-                Following settlement, borrowers can rebuild their credit rating back to 750+ within 12 to 24 months by using a secured credit card backed by a fixed deposit, keeping credit use below 30%. Maintaining timely repayments on all subsequent dues.
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal text-justify"> Following settlement, clients can rebuild their credit rating back to 750+ within 12 to 24 months by using a secured credit card backed by a fixed deposit. Keeping credit use below 30%. Maintaining timely payments on all subsequent dues. </p>
             </section>
 
             {/* SECTION 5: VISUAL INFOGRAPHIC ASSET CARD */}
@@ -464,9 +354,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                 5. Visual Blueprint: Savings Account Freeze Defense Rules
               </h2>
 
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal text-justify">
-                The following structural infographic diagrams the statutory mechanisms governing banker liens under Section 171 of the Indian Contract Act, the distinct legal boundaries separating same-bank versus third-party bank accounts, subsistence exemptions under Section 60 CPC. The structured 3-tier grievance escalation protocol:
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal text-justify"> The following structural infographic diagrams the legal mechanisms governing banker liens under Section 171 of the Indian Contract Act. The distinct legal boundaries separating same-bank versus third-party bank accounts. Subsistence exemptions under Section 60 CPC. The structured 3-tier grievance escalation protocol: </p>
 
               <div className="rounded-2xl border border-slate-200/80 bg-white p-3 md:p-4 shadow-xs overflow-hidden">
                 <div className="relative aspect-video w-full rounded-xl overflow-hidden bg-slate-100">
@@ -488,9 +376,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                 6. Step-by-Step SOP: 6 Stages to Unblock Funds &amp; Settle
               </h2>
 
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal text-justify">
-                CredSettle follows a structured six-stage Standard Operating Procedure (SOP) to defend borrowers against arbitrary account freezes, restore subsistence liquidity. Negotiate comprehensive debt settlements:
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal text-justify"> CredSettle follows a structured six-stage Standard Operating Procedure (SOP) to defend clients against arbitrary account freezes, restore subsistence liquidity. settle full debt settlements: </p>
 
               <div className="space-y-4">
                 {/* Stage 1 */}
@@ -502,9 +388,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                     <h3 className="text-sm font-bold text-slate-900">
                       Stage 1: Forensic Account Audit &amp; Lien Classification
                     </h3>
-                    <p className="text-xs sm:text-sm text-slate-700 leading-relaxed text-justify">
-                      Our legal specialists examine the account hold, verifying whether it is an internal Section 171 banker’s lien, a cyber cell hold under Section 102 CrPC. A judicial Garnishee Order, while verifying debt mutuality.
-                    </p>
+                    <p className="text-xs sm:text-sm text-slate-700 leading-relaxed text-justify"> Our legal specialists examine the account hold. Verifying whether it is an internal Section 171 banker’s lien. A cyber cell hold under Section 102 CrPC. A judicial Garnishee Order. Meanwhile, verifying debt mutuality. </p>
                   </div>
                 </div>
 
@@ -517,9 +401,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                     <h3 className="text-sm font-bold text-slate-900">
                       Stage 2: Comprehensive Hardship Dossier Compilation
                     </h3>
-                    <p className="text-xs sm:text-sm text-slate-700 leading-relaxed text-justify">
-                      We compile medical records, layoff notices. Business financials into an airtight dossier showing genuine financial distress and quantifying protected subsistence wages under Section 60 CPC.
-                    </p>
+                    <p className="text-xs sm:text-sm text-slate-700 leading-relaxed text-justify"> We compile medical records, layoff notices. trade financials into an airtight dossier showing genuine debt stress and quantifying protected subsistence wages under Section 60 CPC. </p>
                   </div>
                 </div>
 
@@ -532,9 +414,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                     <h3 className="text-sm font-bold text-slate-900">
                       Stage 3: Formal Representation to Branch Manager &amp; Nodal Desk
                     </h3>
-                    <p className="text-xs sm:text-sm text-slate-700 leading-relaxed text-justify">
-                      CredSettle submits a legal representation to the branch manager and Grievance Redressal Officer, challenging arbitrary freezes lacking advance notice and seeking immediate release of subsistence funds.
-                    </p>
+                    <p className="text-xs sm:text-sm text-slate-700 leading-relaxed text-justify"> CredSettle submits a legal legal help to the branch manager and Grievance Redressal Officer. Challenging arbitrary freezes lacking advance notice and seeking fast release of subsistence funds. </p>
                   </div>
                 </div>
 
@@ -547,9 +427,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                     <h3 className="text-sm font-bold text-slate-900">
                       Stage 4: Bilateral Negotiations with Stressed Assets Desk
                     </h3>
-                    <p className="text-xs sm:text-sm text-slate-700 leading-relaxed text-justify">
-                      We negotiate directly with the Stressed Assets Resolution Branch, leveraging provisioning mandates to secure 100% penal fee waivers and 40% to 55% principal compromise terms.
-                    </p>
+                    <p className="text-xs sm:text-sm text-slate-700 leading-relaxed text-justify"> We settle straight with the Stressed Assets relief Branch. Leveraging provisioning mandates to secure 100% penal fee waivers and 40% to 55% main loan OTS deal terms. </p>
                   </div>
                 </div>
 
@@ -562,9 +440,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                     <h3 className="text-sm font-bold text-slate-900">
                       Stage 5: Sanction Letter Forensic Vetting &amp; Verification
                     </h3>
-                    <p className="text-xs sm:text-sm text-slate-700 leading-relaxed text-justify">
-                      Our legal panel vets the settlement sanction letter on official bank letterhead to confirm explicit debt discharge terms, payment milestones. Mandatory lien removal clauses.
-                    </p>
+                    <p className="text-xs sm:text-sm text-slate-700 leading-relaxed text-justify"> Our legal panel vets the settlement sanction letter on formal bank letterhead to confirm explicit debt discharge terms, payment milestones. strict lien removal clauses. </p>
                   </div>
                 </div>
 
@@ -577,9 +453,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                     <h3 className="text-sm font-bold text-slate-900">
                       Stage 6: Settlement Remittance, Lien Release &amp; NDC Issuance
                     </h3>
-                    <p className="text-xs sm:text-sm text-slate-700 leading-relaxed text-justify">
-                      Funds are remitted directly into the bank’s settlement pool. We ensure the immediate release of all account holds, cancellation of auto-debits. Issuance of the stamped No Dues Certificate.
-                    </p>
+                    <p className="text-xs sm:text-sm text-slate-700 leading-relaxed text-justify"> Funds are remitted straight into the bank’s settlement pool. We ensure the fast release of all account holds, cancellation of auto-debits. Issuance of the stamped No Dues letter. </p>
                   </div>
                 </div>
               </div>
@@ -591,9 +465,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                 7. Statutory Notice Defense: Legal Protections &amp; Rights
               </h2>
 
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal text-justify">
-                When lending institutions fail to recover debts through account liens, they frequently issue statutory legal notices under various Indian financial and commercial statutes. Borrowers must understand their substantive defense rights under each framework:
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal text-justify"> When lending institutions fail to recover debts through account liens. They often issue legal legal notices under various Indian money and trade statutes. clients must understand their substantive defense rights under each rules: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {/* Notice 1 */}
@@ -602,9 +474,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                     <ShieldAlert className="w-4 h-4"/>
                     <span>Section 25 PSSA (e-NACH Mandate Bounce).</span>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed text-justify">
-                    A notice under Section 25 of the Payment and Settlement Systems Act requires a reply within 15 days. We establish absence of criminal intent, document hardship, and transition the dispute into an OTS.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed text-justify"> A notice under Section 25 of the Payment and Settlement Systems Act requires a reply within 15 days. We establish absence of criminal intent. Paper hardship, and transition the dispute into an OTS. </p>
                 </div>
 
                 {/* Notice 2 */}
@@ -613,9 +483,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                     <Gavel className="w-4 h-4"/>
                     <span>Section 138 NI Act (Cheque Dishonour).</span>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed text-justify">
-                    Under Section 138 of the Negotiable Instruments Act, demand notices must be answered promptly. We challenge inflated claims, show security cheque misuse, and compound the matter under Section 147.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed text-justify"> Under Section 138 of the Negotiable Instruments Act. Demand notices must be answered promptly. We challenge inflated claims, show security cheque misuse. And compound the matter under Section 147. </p>
                 </div>
 
                 {/* Notice 3 */}
@@ -624,9 +492,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                     <Landmark className="w-4 h-4"/>
                     <span>Arbitration Section 21 &amp; Supreme Court Precedents.</span>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed text-justify">
-                    under Supreme Court rulings in TRF Ltd. and Perkins Eastman, unilateral sole arbitrator appointments by lenders are void ab initio. We challenge biased proceedings under Section 14 of the Arbitration Act.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed text-justify"> under Supreme Court rulings in TRF Ltd. And Perkins Eastman, unilateral sole arbitrator appointments by lenders are void ab initio. We challenge biased proceedings under Section 14 of the Arbitration Act. </p>
                 </div>
 
                 {/* Notice 4 */}
@@ -635,9 +501,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                     <Scale className="w-4 h-4"/>
                     <span>DRT Section 19 &amp; Section 60 CPC Protections.</span>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed text-justify">
-                    For claims above ₹20 Lakhs before the Debt Recovery Tribunal, we file written statements invoking Section 60(1) CPC subsistence salary protections and negotiate compromise consent terms.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed text-justify"> For claims above ₹20 Lakhs before the Debt collection Tribunal. We file written records invoking Section 60(1) CPC subsistence salary protections and settle OTS deal consent terms. </p>
                 </div>
               </div>
             </section>
@@ -648,9 +512,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                 8. 3-Tier Escalation Matrix: Institutional Redressal
               </h2>
 
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal text-justify">
-                If a commercial bank or NBFC executes an unlawful account freeze, refuses to release subsistence funds. Violates RBI fair collection directives, borrowers have access to a structured three-tier statutory grievance mechanism:
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal text-justify"> If a banks or NBFC executes an unlawful account freeze. Refuses to release subsistence funds. Violates RBI fair collection directives. Clients have access to a structured three-tier legal grievance mechanism: </p>
 
               <div className="space-y-3">
                 <div className="p-4 rounded-xl bg-white border border-slate-200/80 shadow-xs flex items-start gap-3">
@@ -661,9 +523,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                     <div className="font-bold text-slate-900">
                       Branch Grievance Redressal Officer (GRO) &bull; 7–10 Business Days.
                     </div>
-                    <p className="leading-relaxed text-justify">
-                      Submit a formal written complaint with acknowledgment to the branch manager and the designated Zonal Grievance Redressal Officer, specifying the unlawful nature of the freeze, lack of debt mutuality. Breach of RBI circulars.
-                    </p>
+                    <p className="leading-relaxed text-justify"> Submit a formal written complaint with acknowledgment to the branch manager and the designated Zonal Grievance Redressal Officer. Specifying the unlawful nature of the freeze, lack of debt mutuality. Breach of RBI circulars. </p>
                   </div>
                 </div>
 
@@ -675,9 +535,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                     <div className="font-bold text-slate-900">
                       Principal Nodal Officer (PNO) &bull; 14–21 Business Days.
                     </div>
-                    <p className="leading-relaxed text-justify">
-                      If the branch fails to resolve the issue or release necessary funds within 7 days, escalate the matter to the bank’s Principal Nodal Officer at corporate headquarters, invoking the Charter of Customer Rights and requesting Stressed Assets Committee review.
-                    </p>
+                    <p className="leading-relaxed text-justify"> If the branch fails to resolve the issue or release necessary funds within 7 days. Escalate the matter to the bank’s main loan Nodal Officer at company headquarters. Invoking the Charter of Customer Rights and requesting Stressed Assets boards review. </p>
                   </div>
                 </div>
 
@@ -689,9 +547,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                     <div className="font-bold text-slate-900">
                       RBI Integrated Ombudsman (cms.rbi.org.in) &bull; 30 Business Days.
                     </div>
-                    <p className="leading-relaxed text-justify">
-                      If 30 days elapse without adequate redressal, lodge an official regulatory complaint on the RBI Complaint Management System (CMS). The Ombudsman possesses statutory authority under the RBI Ombudsman Scheme 2021 to award compensation for deficiency of banking service.
-                    </p>
+                    <p className="leading-relaxed text-justify"> If 30 days elapse without adequate redressal. Lodge an formal RBI complaint on the RBI Complaint Management System (CMS). The Ombudsman possesses legal formal under the RBI Ombudsman Scheme 2021 to award payout for deficiency of banking service. </p>
                   </div>
                 </div>
               </div>
@@ -703,9 +559,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                 9. Procedural Timeline: Default to Account Unfreezing
               </h2>
 
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal text-justify">
-                The lifecycle of loan default, account lien marking. Subsequent settlement follows standard procedural milestones under Indian banking regulations:
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal text-justify"> The lifecycle of loan default, account lien marking. Subsequent settlement follows standard procedural milestones under Indian banking regulations: </p>
 
               {/* 4-SIDED BORDERED TABLE */}
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto bg-white shadow-xs">
@@ -722,32 +576,32 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors">
                       <td className="p-3.5 font-bold text-slate-900">Days 1 to 30</td>
                       <td className="p-3.5">SMA-0 (Standard Account).</td>
-                      <td className="p-3.5">Automated SMS reminders and telephonic follow-ups; accounts fully operational.</td>
+                      <td className="p-3.5">Automated SMS reminders and telephonic follow-ups. accounts fully daily work.</td>
                       <td className="p-3.5">Review budget and request temporary EMI moratorium or restructuring.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors">
                       <td className="p-3.5 font-bold text-slate-900">Days 31 to 60</td>
                       <td className="p-3.5">SMA-1 (Sub-Standard Stress).</td>
-                      <td className="p-3.5">Collection calls intensify; NACH re-presentation charges applied to balance.</td>
+                      <td className="p-3.5">Collection calls intensify. NACH re-presentation charges applied to balance.</td>
                       <td className="p-3.5">Submit formal hardship disclosure and revoke unviable auto-debit mandates.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors">
                       <td className="p-3.5 font-bold text-slate-900">Days 61 to 90</td>
                       <td className="p-3.5">SMA-2 (Critical default).</td>
-                      <td className="p-3.5">Pre-NPA warnings issued; bank prepares internal set-off lien-marking.</td>
+                      <td className="p-3.5">Pre-NPA warnings issued. bank prepares internal set-off lien-marking.</td>
                       <td className="p-3.5">Separate subsistence income into independent third-party bank accounts.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors">
                       <td className="p-3.5 font-bold text-slate-900">Days 91 to 150</td>
                       <td className="p-3.5 text-rose-700 font-semibold">NPA (15% Provisioning).</td>
-                      <td className="p-3.5 text-rose-700">Section 171 banker lien marked on same-bank accounts; legal notices dispatched.</td>
-                      <td className="p-3.5 font-semibold text-blue-700">File formal representation against 100% lien; initiate OTS dialogue.</td>
+                      <td className="p-3.5 text-rose-700">Section 171 banker lien marked on same-bank accounts. legal notices dispatched.</td>
+                      <td className="p-3.5 font-semibold text-blue-700">File formal legal help against 100% lien. initiate OTS dialogue.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors bg-blue-50/30">
                       <td className="p-3.5 font-bold text-blue-900">Days 151 to 180</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold">OTS Compromise Window.</td>
-                      <td className="p-3.5">Bank Credit Committee reviews OTS proposal to avoid heavy year-end provisioning.</td>
-                      <td className="p-3.5 font-bold text-emerald-700">pay settlement sum, lift all liens, and obtain stamped NDC.</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold">OTS OTS deal Window.</td>
+                      <td className="p-3.5">Bank Credit boards reviews OTS proposal to avoid heavy year-end provisioning.</td>
+                      <td className="p-3.5 font-bold text-emerald-700">Pay settlement sum, lift all liens, and obtain stamped NDC.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -760,9 +614,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                 10. Specialized Scenarios: Joint Accounts &amp; Third Parties
               </h2>
 
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal text-justify">
-                Real-world account freeze disputes frequently involve nuanced legal relationships. Here is how statutory rules apply across four specialized operational scenarios:
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal text-justify"> Real-world account freeze disputes often involve nuanced legal relationships. Here is how legal rules apply across four specialized daily work scenarios: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {/* Scenario 1 */}
@@ -771,9 +623,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                     <Users className="w-4 h-4 text-[#1886ff]"/>
                     <span>Joint Savings Accounts with Spouses.</span>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed text-justify">
-                    A joint savings account cannot be attached for the individual debt of one holder. Seizing joint balances destroys mutuality of debt, enabling borrowers to compel immediate lien removal through Ombudsman escalation.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed text-justify"> A joint savings account cannot be attached for the individual debt of one holder. Seizing joint balances destroys mutuality of debt. This lets clients to compel fast lien removal through Ombudsman escalation. </p>
                 </div>
 
                 {/* Scenario 2 */}
@@ -782,9 +632,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                     <Building className="w-4 h-4 text-[#1886ff]"/>
                     <span>Third-Party Bank Accounts.</span>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed text-justify">
-                    Lenders have zero legal standing to attach deposits in separate third-party banks without obtaining a formal Garnishee Order under Order XXI Rule 46 CPC or a DRT recovery certificate.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed text-justify"> Lenders have zero legal standing to attach deposits in separate third-party banks without obtaining a formal Garnishee Order under Order XXI Rule 46 CPC or a DRT collection letter. </p>
                 </div>
 
                 {/* Scenario 3 */}
@@ -793,9 +641,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                     <Wallet className="w-4 h-4 text-[#1886ff]"/>
                     <span>Salary Accounts &amp; Subsistence Wages.</span>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed text-justify">
-                    Under Section 60(1)(i) CPC, basic salary necessary for livelihood is exempt from complete attachment, entitling borrowers to demand partial fund release for food, shelter. Medical needs.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed text-justify"> Under Section 60(1)(i) CPC, basic salary necessary for livelihood is exempt from complete attachment. Entitling clients to demand partial fund release for food, shelter. Medical needs. </p>
                 </div>
 
                 {/* Scenario 4 */}
@@ -804,9 +650,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                     <RefreshCw className="w-4 h-4 text-[#1886ff]"/>
                     <span>Asset Reconstruction Companies (ARCs).</span>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed text-justify">
-                    When a debt is assigned to an ARC under Section 5 of the SARFAESI Act, the original bank’s right of set-off ceases because debt ownership transfers, preventing retrospective account holds.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed text-justify"> When a debt is assigned to an ARC under Section 5 of the SARFAESI Act. The original bank’s right of set-off ceases because debt ownership transfers, preventing retrospective account holds. </p>
                 </div>
               </div>
             </section>
@@ -822,9 +666,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                 Frequently Asked Questions: Bank Account Freeze &amp; Liens
               </h2>
 
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal">
-                Clear, authoritative legal answers to the most common questions regarding savings account holds, banker rights of set-off. Debt settlement procedures in India:
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal"> Clear, authoritative legal answers to the most common questions regarding savings account holds, banker rights of set-off. Debt settlement procedures in India: </p>
 
               <div className="space-y-3">
                 {faqs.map((faq, idx) => {
@@ -850,9 +692,7 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                 Statutory Citations &amp; Regulatory References
               </h2>
 
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal text-justify">
-                CredSettle’s debt resolution and legal defense advisory is grounded in established Indian statutes, Reserve Bank of India prudential master directions. Binding judicial precedents:
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal text-justify"> CredSettle’s debt relief and legal defense alert is grounded in established Indian statutes. Reserve Bank of India prudential master directions. Binding judicial rulings: </p>
 
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 text-xs">
                 <a href="https://www.rbi.org.in" target="_blank" rel="noopener noreferrer" className="p-3 rounded-xl bg-white border border-slate-200/80 hover:border-[#1886ff] transition-all flex items-center justify-between group shadow-xs">
@@ -940,12 +780,8 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
               </div>
 
               <div className="space-y-1.5">
-                <p className="text-base font-extrabold leading-snug">
-                  Account Frozen? Let Us Unblock It.
-                </p>
-                <p className="text-xs text-blue-100 leading-relaxed">
-                  Has your lending bank blocked your savings balance or deducted living funds? Speak with CredSettle’s debt dispute specialists today.
-                </p>
+                <p className="text-base font-extrabold leading-snug"> Account Frozen? Let Us Unblock It. </p>
+                <p className="text-xs text-blue-100 leading-relaxed"> Has your lending bank blocked your savings balance or deducted living funds? Speak with CredSettle’s debt dispute specialists today. </p>
               </div>
 
               <div className="space-y-2 pt-1">
@@ -968,17 +804,11 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                   AJ
                 </div>
                 <div>
-                  <p className="text-xs font-bold text-slate-900">
-                    Ashish Jhangra
-                  </p>
-                  <p className="text-[11px] text-slate-500">
-                    Legal &amp; Debt Resolution Professional.
-                  </p>
+                  <p className="text-xs font-bold text-slate-900"> Ashish Jhangra </p>
+                  <p className="text-[11px] text-slate-500"> Legal &amp. Debt relief expert. </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Specialist in Indian retail banking disputes, Section 171 banker set-off litigation, RBI Ombudsman escalations. Commercial debt compromise settlements.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> Specialist in Indian retail banking disputes. Section 171 banker set-off lawsuits, RBI Ombudsman escalations. trade debt OTS deals. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px]">
                 <span className="text-slate-400">CredSettle Panel.</span>
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] font-bold hover:underline">
@@ -994,22 +824,10 @@ export default function CanBankFreezeMySavingsAccountForLoanClient() {
                 <span>CredSettle Defense Guarantee.</span>
               </div>
               <ul className="space-y-2 text-xs text-slate-600">
-                <li className="flex items-center gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
-                  <span>100% Legal &amp; RBI Compliant Representation.</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
-                  <span>5,000+ Verified Debt Settlements.</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
-                  <span>Section 60 CPC Subsistence Protection.</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
-                  <span>Direct Credit Committee Negotiation.</span>
-                </li>
+                <li className="flex items-center gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/> <span>100% Legal &amp. RBI Compliant legal help.</span> </li>
+                <li className="flex items-center gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/> <span>5,000+ Verified Debt Settlements.</span> </li>
+                <li className="flex items-center gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/> <span>Section 60 CPC Subsistence Protection.</span> </li>
+                <li className="flex items-center gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/> <span>Direct Credit boards talks.</span> </li>
               </ul>
             </div>
 

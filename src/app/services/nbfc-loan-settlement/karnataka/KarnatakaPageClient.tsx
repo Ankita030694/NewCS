@@ -7,28 +7,28 @@ import FAQWithSchema from '@/components/FAQWithSchema';
 import CTAButton from '@/components/CTAButton';
 const heroCopy = {
     title: 'NBFC Loan Settlement in Karnataka - Policy-Savvy Relief for Bengaluru & Beyond',
-    description: "Karnataka\u2019s borrowers range from Bengaluru tech founders and Mysuru retailers to coastal logistics fleets and microfinance borrowers in the Malnad belt. CredSettle\u2019s Karnataka desk combines RBI expertise with knowledge of the 2025 state anti-coercion law to negotiate compliant settlements, halt harassment. Close outstanding NBFC loans legally."
+    description: "the state\u2019s clients range from the cash tech founders and Mysore retailers to coastal freight fleets and small loans clients in the Malnad belt. CredSettle\u2019s state desk combines RBI expertise with knowledge of the 2025 state anti-coercion law to settle compliant settlements, halt abuse. Close unpaid NBFC loans legally."
 };
 const faqs = [
     {
         question: 'Which NBFCs does CredSettle negotiate with in Karnataka?',
-        answer: "We cover Bajaj Finance, Tata Capital, Aditya Birla Finance, HDB Financial Services, Hero FinCorp, L&T Finance, Piramal Finance, KreditBee, ZestMoney, Cashe. Microfinance NBFCs licensed under the Karnataka Micro Loan & Small Loan Act. We also coordinate co-lending cases where private banks and NBFCs share exposure."
+        answer: "We cover Bajaj Finance, Tata cash. Aditya Birla Finance, HDB money Services. Hero FinCorp, L&T Finance, Piramal Finance, KreditBee, ZestMoney, Cashe. small loans NBFCs licensed under the the state Micro Loan & Small Loan Act. We also align joint loans cases where private banks and NBFCs share exposure."
     },
     {
         question: 'Can CredSettle protect me from coercive recovery under Karnataka law?',
-        answer: 'Yes. We invoke the Karnataka Micro Loan and Small Loan (Prevention of Coercive Actions) Act, 2025, along with the RBI Fair Practices Code. Our legal notices warn NBFCs and their agencies that harassment invites penalties and ban orders from district authorities. Persistent violations are escalated to the Consumer Affairs Department and the RBI Ombudsman in Bengaluru.'
+        answer: 'Yes. We invoke the the state Micro Loan and Small Loan (Prevention of Coercive Actions) Act. 2025, along with the RBI Fair Practices Code. Our legal notices warn NBFCs and their firms that abuse invites penalties and ban orders from areas officials. Persistent violations are escalated to the clients Affairs Department and the RBI Ombudsman in the cash.'
     },
     {
         question: 'How much settlement reduction is typical in Bengaluru or Mysuru?',
-        answer: "Most Karnataka clients achieve 40-70% reductions depending on the loan type, overdue tenure, and paperwork quality. Vehicle loans in logistics corridors often settle around 50%, while unsecured fintech loans may see higher waivers once we evidence income disruption."
+        answer: "Most the state clients achieve 40-70% cuts depending on the loan type. Overdue tenure, and paperwork quality. Vehicle loans in freight belts often settle around 50%. Meanwhile, no-security fintech loans may see higher waivers once we proof income breaks."
     },
     {
         question: 'What if my case is already filed in the Karnataka Debt Recovery Tribunal or civil court?',
-        answer: "Our panel advocates engage with NBFC counsel in the Bengaluru DRT, commercial court. District courts across Hubballi, Mangaluru, and Shivamogga. We seek mediation, negotiate consent terms, and ensure the final order reflects full and final settlement. Lok Adalat routes remain available for quick closures."
+        answer: "Our panel lawyers engage with NBFC counsel in the the cash DRT, trade court. areas courts across Hubli, Mangalore, and Shivamogga. We seek mediation, settle consent terms. And ensure the final order reflects full and final settlement. Lok Adalat routes remain available for quick closures."
     },
     {
         question: 'Do you require upfront fees from Karnataka clients?',
-        answer: "No upfront fees. We sign a success-linked mandate, complete due diligence. Collect our fee only after the NBFC issues the settlement letter and acknowledges receipt of negotiated payments."
+        answer: "No upfront fees. We sign a success-linked mandate, complete due diligence. Collect our fee only after the NBFC issues the settlement letter and acknowledges receipt of settled payments."
     }
 ];
 const sections = [
@@ -37,8 +37,8 @@ const sections = [
         title: 'Karnataka Credit Landscape: Tech Capital Meets Microfinance Heartland',
         level: 2,
         content: [
-            "Karnataka is India’s technology launchpad and also a major microfinance hub. Bengaluru’s start-ups, IT parks, and gig economy rely on quick NBFC funding for expansion, employee relocation, and vehicle fleets. In contrast, coffee, pepper, and areca nut growers in Kodagu and Malnad districts use NBFC microloans to manage seasonal cash flow. The same depth of credit access turns risky when revenue cycles stumble - layoffs in tech corridors, delayed export payments in coastal logistics, or crop disease outbreaks can make EMIs unmanageable overnight.",
-            "Lenders deploy multi-channel recovery teams from Whitefield to Belagavi, with data-driven dialers, doorstep collection, and social media nudges. Borrowers facing twin shocks - high urban living costs plus aggressive follow-ups - need a settlement partner that understands both RBI regulations and state-level protections. CredSettle fills that gap with a Karnataka-specific command centre staffed by negotiators, advocates, and chartered accountants."
+            "the state is India’s technology launchpad and also a major small loans hub. The cash’s start-ups, IT parks. And gig economy rely on quick NBFC funding for growth. Staff relocation, and vehicle fleets. In contrast, coffee, pepper, and areca nut growers in Kodagu and Malnad areas use NBFC small loans to manage seasonal cash flow. The same depth of credit access turns risky when income cycles stumble - layoffs in tech belts. Delayed export payments in coastal freight. Or crop disease outbreaks can make EMIs unmanageable overnight.",
+            "Lenders deploy multi-channel collection teams from Whitefield to Belagavi. With data-driven dialers, doorstep collection, and social media nudges. clients facing twin shocks - high urban living costs plus aggressive follow-ups - need a settlement partner that understands both RBI regulations and state-level protections. CredSettle fills that gap with a the state-local command centre staffed by negotiators. Lawyers, and chartered accountants."
         ],
     },
     {
@@ -46,8 +46,8 @@ const sections = [
         title: 'NBFC Coverage Across Bengaluru, Mysuru, Coastal, and Northern Zones',
         level: 2,
         content: [
-            "Bengaluru hosts major NBFC headquarters and service centres, including Bajaj Finance, Tata Capital, and multiple fintech lenders along the Outer Ring Road. Mysuru, Hubballi-Dharwad, and Belagavi feature auto-financing clusters supporting ancillary industries. Coastal cities like Mangaluru and Udupi depend on NBFCs for fisheries, logistics, and tourism-focussed lending, while Shivamogga and Ballari rely on NBFC working capital for agro-processing and mining supply chains.",
-            "Microfinance NBFCs, self-help group (SHG) lenders, and cooperative-backed NBFCs have strong penetration in Davangere, Tumakuru, and rural Mandya. When borrowers default, enforcement teams operate in Kannada, Tulu, Konkani, and English, using local intelligence to trace co-borrowers and guarantors. CredSettle’s multilingual case managers ensure communication stays professional, documented, and within legal limits so that settlement negotiations proceed without intimidation."
+            "The cash hosts major NBFC headquarters and service centres. Including Bajaj Finance, Tata cash. And multiple fintech lenders along the Outer Ring Road. Mysore, Hubli-Dharwad, and Belagavi feature auto-financing hubs supporting ancillary industries. Coastal cities like Mangalore and Udupi depend on NBFCs for fisheries. Freight, and tourism-focussed lending. Meanwhile, Shivamogga and Ballari rely on NBFC working cash for agro-processing and mining supply chains.",
+            "Small loans NBFCs, self-help group (SHG) lenders. And local-backed NBFCs have strong penetration in Davangere. Tumakuru, and rural Mandya. When clients default, enforcement teams operate in Kannada. Tulu, Konkani, and English, using local intelligence to trace co-clients and guarantors. CredSettle’s multilingual case managers ensure contact stays expert. Documented, and within legal limits so that settlement talks proceed without threats."
         ],
     },
     {
@@ -55,9 +55,9 @@ const sections = [
         title: 'Regulatory Safeguards: RBI Playbook + Karnataka Anti-Coercion Law',
         level: 2,
         content: [
-            "The RBI Fair Practices Code mandates transparent statements, respectful recovery conduct, and grievance escalation within NBFCs. Karnataka went further with the 2025 Micro Loan and Small Loan Act, prohibiting coercive collections and requiring all micro lenders to register with district authorities. Violations attract fines up to INR 5 lakh and imprisonment.",
-            "CredSettle anchors every case in this dual framework. We log harassment with audio clips, WhatsApp snapshots, and field visit photos, then alert NBFC nodal officers and district registrars. Many lenders pivot to settlement once they realise non-compliance could trigger license suspension or public naming by the Registrar of Cooperative Societies or the state Consumer Affairs Department.",
-            "Borrowers also gain recourse through the RBI Ombudsman in Bengaluru, consumer disputes redressal commissions, and the Karnataka State Legal Services Authority (KSLSA). We draft escalations for clients whenever NBFCs delay or deny reasonable settlement proposals."
+            "The RBI Fair Practices Code mandates transparent records. Respectful collection conduct, and grievance escalation within NBFCs. The state went further with the 2025 Micro Loan and Small Loan Act. Prohibiting coercive collections and requiring all micro lenders to register with areas officials. Violations attract fines up to INR 5 lakh and imprisonment.",
+            "CredSettle anchors every case in this dual rules. We log abuse with audio clips. WhatsApp snapshots, and field visit photos. Then alert NBFC nodal officers and areas registrars. Many lenders pivot to settlement once they realise non-compliance could trigger license suspension or public naming by the Registrar of local Societies or the state clients Affairs Department.",
+            "Clients also gain recourse through the RBI Ombudsman in the cash. Clients disputes redressal commissions. And the the state State Legal Services formal (KSLSA). We draft escalations for clients whenever NBFCs delay or deny reasonable closure deals."
         ],
     },
     {
@@ -65,9 +65,9 @@ const sections = [
         title: "CredSettle’s Karnataka Settlement Methodology",
         level: 2,
         content: [
-            "Our Karnataka methodology runs on five pillars. Pillar one is situation mapping: gathering loan agreements, EMI histories, co-applicant data, Udyam registrations, SHG passbooks, and GST returns. Pillar two enforces compliance - legal notices to NBFC headquarters, field recovery agencies, and if required, to the jurisdictional police station citing the anti-coercion act.",
-            "Pillar three constructs negotiation dossiers. We analyse each NBFC’s provisioning matrix, quarter-end targets, and appetite for OTS in light of the new state regulations. Pillar four finalises settlements, vetting offer letters for complete release clauses, cheque destruction assurances, and credit bureau update commitments.",
-            "Pillar five covers closure and rehabilitation: collecting NOCs, coordinating vehicle hypothecation releases at RTOs, supporting property lien removals, and scheduling credit rebuild coaching. Clients receive monthly tracker updates until every document and bureau entry reflects the new status."
+            "Our the state system runs on five pillars. Pillar one is situation mapping: gathering loan pacts. EMI histories, co-applicant data, Udyam registrations. SHG passbooks, and GST returns. Pillar two enforces compliance - legal notices to NBFC headquarters. Field collection firms, and if required. To the jurisdictional police station citing the anti-coercion act.",
+            "Pillar three constructs talks dossiers. We analyse each NBFC’s provisioning matrix. Quarter-end targets, and appetite for OTS in light of the new state regulations. Pillar four finalises settlements. Vetting offer letters for complete release clauses. Cheque destruction assurances, and credit bureau update commitments.",
+            "Pillar five covers closure and rehabilitation: collecting NOCs. Aligning vehicle hypothecation releases at RTOs. Supporting property lien removals, and scheduling credit rebuild coaching. Clients receive monthly tracker updates until every papers and bureau entry reflects the new status."
         ],
     },
     {
@@ -75,9 +75,9 @@ const sections = [
         title: 'Sector Playbooks Tailored to Karnataka’s Economy',
         level: 2,
         content: [
-            "Bengaluru start-ups and IT professionals: we leverage payroll reduction letters, ESOP liquidity delays, and venture funding timelines to justify structured settlements. Our team also collaborates with CFOs to craft staggered payments aligned to expected receivable inflows.",
-            "Agriculture and plantation borrowers: coffee and spice growers in Kodagu or Chikkamagaluru often battle price crashes and weather extremes. We compile rainfall deviations, Coffee Board advisories, and crop insurance claim status to secure significant waivers, especially from agro-focused NBFCs.",
-            "Logistics and fleet operators along National Highway corridors: we gather freight rate data, toll cost spikes, and EV transition expenses to support settlement proposals. For fintech microloans in urban slums or coastal fishing communities, we showcase community income statistics and local government relief measures."
+            "The cash start-ups and IT workers: we leverage payroll cut letters. ESOP liquidity delays. And venture funding timelines to justify structured settlements. Our team also collaborates with CFOs to craft staggered payments aligned to expected receivable inflows.",
+            "farming and plantation clients: coffee and spice growers in Kodagu or Chikkamagaluru often battle price crashes and weather extremes. We compile rainfall deviations, Coffee Board alerts. And crop cover claim status to secure significant waivers. Especially from agro-focused NBFCs.",
+            "Freight and fleet operators along National Highway belts: we gather freight rate data. Toll cost spikes. And EV transition expenses to support closure deals. For fintech small loans in urban slums or coastal fishing communities. We showcase community income statistics and local government relief measures."
         ],
     },
     {
@@ -85,9 +85,9 @@ const sections = [
         title: 'Legal Forums: KSLSA, Lok Adalats, and DRT Bengaluru',
         level: 2,
         content: [
-            "Karnataka State Legal Services Authority conducts Mega Lok Adalat drives across Bengaluru, Mysuru, Hubballi, and Mangaluru, resolving loan disputes in a single sitting. CredSettle files joint settlement memos so borrowers receive decree-backed closure without protracted litigation.",
-            "The Debts Recovery Tribunal in Bengaluru handles higher-ticket NBFC cases, while city civil courts and magistrate courts manage cheque bounce and arbitration matters. Our advocates ensure settlement terms are recorded formally, preventing future enforcement attempts.",
-            "When data misuse or cyber intimidation occurs, we work with the Bengaluru Cyber Crime police station and the state’s cyber command centre to register complaints. Legal escalation combined with settlement outreach accelerates approvals from cautious NBFC legal teams."
+            "The state State Legal Services formal conducts Mega Lok Adalat drives across the cash. Mysore, Hubli, and Mangalore, resolving loan disputes in a single sitting. CredSettle files joint settlement memos so clients receive decree-backed closure without protracted lawsuits.",
+            "The Debts collection Tribunal in the cash handles higher-ticket NBFC cases. Meanwhile, city civil courts and magistrate courts manage cheque bounce and arbitration matters. Our lawyers ensure settlement terms are recorded formally. Preventing future enforcement attempts.",
+            "When data misuse or cyber threats occurs. We work with the the cash Cyber Crime police station and the state’s cyber command centre to register complaints. Legal escalation combined with settlement outreach accelerates approvals from cautious NBFC legal teams."
         ],
     },
     {
@@ -95,9 +95,9 @@ const sections = [
         title: 'Step-by-Step Karnataka Settlement Game Plan',
         level: 2,
         content: [
-            "Step 1: Intake and documentation checklist shared within 24 hours. Step 2: CredSettle issues representation notices and begins harassment logs. Step 3: Financial analysis using salary statements, Udyam data, and municipal tax records to define affordable settlement bands.",
-            "Step 4: Negotiation campaign aligned with NBFC review calendars. Step 5: Offer evaluation, counter proposals, and structured payment scheduling. Step 6: Legal vetting, payment execution via traceable banking channels, and real-time receipt tracking.",
-            "Step 7: Collect NOCs, lien release documents, and bureau update confirmations. Step 8: Lok Adalat or KSLSA filings if judicial backing is beneficial. Step 9: Post-settlement coaching on budgeting, tax compliance for write-offs, and credit rebuild checkpoints."
+            "Step 1: Intake and records checklist shared within 24 hours. Step 2: CredSettle issues legal help notices and begins abuse logs. Step 3: money analysis using pay records. Udyam data, and municipal tax records to define affordable settlement bands.",
+            "Step 4: talks campaign aligned with NBFC review calendars. Step 5: Offer evaluation. Counter proposals, and structured payment scheduling. Step 6: Legal vetting. Payment execution via traceable banking channels. And real-time receipt tracking.",
+            "Step 7: Collect NOCs. Lien release papers, and bureau update confirmations. Step 8: Lok Adalat or KSLSA filings if judicial backing is beneficial. Step 9: Post-settlement coaching on budgeting. Tax compliance for write-offs, and credit rebuild checkpoints."
         ],
     },
     {
@@ -105,9 +105,9 @@ const sections = [
         title: 'Documentation & Evidence Toolkit for Karnataka Borrowers',
         level: 2,
         content: [
-            "Identity & KYC: Aadhaar, PAN, voter ID, passport, local address proofs. Income & business proof: salary slips, Form 16, bank statements, GST returns, SHG passbooks, cooperative society certificates, and invoices from Kirana or textile suppliers.",
-            "Hardship evidence: termination letters, salary revision emails, rainfall deficit reports from IMD, crop disease certificates from Krishi Vigyan Kendras, medical bills from Manipal, Narayana, or Jayadeva hospitals, and municipal closure notices for shops.",
-            "Communication logs: call recordings, WhatsApp screenshots, social media tags, and field visit details. Settlement funding proof: bank balance letters, family contribution affidavits, or property sale agreements awaiting registration."
+            "Identity & KYC: Aadhaar, PAN. Voter ID, passport, local address proofs. Income & trade proof: pay slips. Form 16, bank records, GST returns. SHG passbooks, local society letters. And invoices from Kirana or textile suppliers.",
+            "Hardship proof: termination letters, pay revision emails. Rainfall deficit reports from IMD. Crop disease letters from Krishi Vigyan Kendras. Medical bills from Manipal, Narayana. Or Jayadeva hospitals, and municipal closure notices for shops.",
+            "Contact logs: call recordings, WhatsApp screenshots. Social media tags, and field visit details. Settlement funding proof: bank balance letters. Family contribution affidavits, or property sale pacts awaiting registration."
         ],
     },
     {
@@ -115,8 +115,8 @@ const sections = [
         title: 'Payment Structure and Compliance Controls',
         level: 2,
         content: [
-            "We design payment structures that respect Karnataka’s business cycles. For example, coir exporters align settlement instalments with export remittance receipts, while BMTC staff coordinate payments with quarterly allowances. Every transaction uses NEFT/RTGS or demand drafts for audit-ready trails.",
-            "CredSettle secures acknowledgement letters within 24 hours of each payment. If NBFCs insist on post-dated cheques, we specify a destruction clause in the final NOC, referencing the Karnataka anti-coercion act to prevent misuse. We also verify TDS rules for any write-back taxation and update Form 26AS accordingly."
+            "We design payment structures that respect the state’s trade cycles. For example, coir exporters align settlement EMIs with export remittance receipts. Meanwhile, BMTC staff align payments with quarterly allowances. Every transaction uses NEFT/RTGS or demand drafts for audit-ready trails.",
+            "CredSettle secures receipts letters within 24 hours of each payment. If NBFCs insist on post-dated cheques. We specify a destruction clause in the final NOC. Referencing the the state anti-coercion act to prevent misuse. We also verify TDS rules for any write-back taxation and update Form 26AS accordingly."
         ],
     },
     {
@@ -124,9 +124,9 @@ const sections = [
         title: 'Financial Recovery & Credit Rebuild for Karnataka Clients',
         level: 2,
         content: [
-            "Our post-settlement clinics teach clients to set up emergency reserves through Karnataka Bank, Canara Bank, or regional cooperative societies. We separate business and personal accounts, automate savings via recurring deposits, and map expenses using Kannada and English budgeting dashboards.",
-            "Credit rebuild involves pulling CIBIL, Experian, Equifax, and CRIF High Mark reports 45 days after settlement, filing disputes for inaccuracies, and gradually adding secured credit products. For SHG borrowers, we coordinate with NABARD-sponsored credit counselling cells to restore group lending eligibility.",
-            "We also connect entrepreneurs to government schemes like the Karnataka Udyog Mitra incentives, Start-up Karnataka grants, and the state’s alternative credit platforms that offer lower-cost refinancing once regular repayments resume."
+            "Our post-settlement clinics teach clients to set up emergency reserves through the state Bank. Canara Bank, or local local societies. We separate trade and private accounts. Automate savings via recurring deposits. And map expenses using Kannada and English budgeting dashboards.",
+            "Credit rebuild involves pulling CIBIL. Experian, Equifax, and CRIF High Mark reports 45 days after settlement. Filing disputes for inaccuracies. And gradually adding secured credit products. For SHG clients. We align with NABARD-sponsored credit counselling cells to restore group lending eligibility.",
+            "We also connect founders to government schemes like the the state Udyog Mitra incentives. Start-up the state grants. And the state’s alternative credit platforms that offer lower-cost refinancing once regular payments resume."
         ],
     },
     {
@@ -134,9 +134,9 @@ const sections = [
         title: 'Case Stories from Bengaluru, Mysuru, and Coastal Karnataka',
         level: 2,
         content: [
-            "Case 1: A Bengaluru-based SaaS company had three NBFC lines totalling INR 1.1 crore. When a global client deferred payments, defaults triggered legal notices. CredSettle negotiated a 52% settlement, structured across five tranches funded by a bridge round, and closed the DRT case with a consent decree.",
-            "Case 2: A Mangaluru logistics entrepreneur operating six refrigerated trucks faced losses due to diesel price hikes and monsoon route disruptions. We used fuel invoices, route maps, and fish auction data to secure a 58% reduction and aligned payments with new contracts at New Mangalore Port.",
-            "Case 3: A Chikkamagaluru coffee planter with SHG-backed microloans saw yield collapse because of heavy rainfall. CredSettle presented IMD rainfall reports, Coffee Board advisories, and crop insurance claim receipts to achieve a 63% waiver recorded through a KSLSA Lok Adalat settlement."
+            "Case 1: A the cash-based SaaS company had three NBFC lines totalling INR 1.1 crore. When a global client deferred payments. Defaults triggered legal notices. CredSettle settled a 52% settlement. Structured across five tranches funded by a bridge round. And closed the DRT case with a consent decree.",
+            "Case 2: A Mangalore freight founders operating six refrigerated trucks faced losses due to diesel price hikes and monsoon route breaks. We used fuel invoices, route maps. And fish auction data to secure a 58% cut and aligned payments with new contracts at New Mangalore Port.",
+            "Case 3: A Chikkamagaluru coffee planter with SHG-backed small loans saw yield collapse because of heavy rainfall. CredSettle presented IMD rainfall reports. Coffee Board alerts. And crop cover claim receipts to achieve a 63% waiver recorded through a KSLSA Lok Adalat settlement."
         ],
     }
 ];
@@ -215,9 +215,7 @@ function KarnatakaPageClient() {
             fontFamily: 'Poppins',
             lineHeight: '28px',
             marginBottom: '20px'
-        }}>
-                {heroCopy.description}
-              </p>
+        }}> {heroCopy.description} </p>
               <button className="text-white text-sm md:text-base lg:text-[18.58px] px-6 md:px-8 lg:px-[39.44px] py-2 md:py-3 lg:py-[13.48px]" style={{
             borderRadius: '32.4px',
             background: '#007AFF',
@@ -255,9 +253,7 @@ function KarnatakaPageClient() {
                 fontFamily: 'Poppins',
                 lineHeight: '28px'
             }}>
-                    {section.content.map((paragraph, index) => (<p key={index} style={{ marginBottom: '16px' }}>
-                        {paragraph}
-                      </p>))}
+                    {section.content.map((paragraph, index) => (<p key={index} style={{ marginBottom: '16px' }}> {paragraph} </p>))}
                   </div>
                 </section>))}
             </div>
@@ -278,9 +274,7 @@ function KarnatakaPageClient() {
                     <h2 className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full" style={{ color: '#0C2756' }}>
                       Ready to Plan Your Karnataka Settlement?
                     </h2>
-                    <p className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full" style={{ color: 'rgba(12, 39, 86, 0.70)' }}>
-                      Share your EMI statements and hardship proof. Our Karnataka desk drafts a negotiation roadmap within 48 hours.
-                    </p>
+                    <p className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full" style={{ color: 'rgba(12, 39, 86, 0.70)' }}> Share your EMI records and hardship proof. Our state desk drafts a talks roadmap within 48 hours. </p>
                   </div>
 
                 <CTAButton>

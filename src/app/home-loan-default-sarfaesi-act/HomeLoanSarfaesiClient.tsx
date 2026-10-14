@@ -47,43 +47,43 @@ export default function HomeLoanSarfaesiClient() {
     const faqs = [
         {
             q: "What is a Section 13(2) demand notice under the SARFAESI Act. How much time do I have to respond?",
-            a: 'A Section 13(2) notice is a statutory demand served by a secured creditor after a home loan account remains continuously unpaid for 90 days and is classified as an NPA. The notice grants the borrower an unconditional 60-day statutory cure window to pay the exact outstanding dues or file a formal legal objection under Section 13(3A).'
+            a: 'A Section 13(2) notice is a legal demand served by a secured lenders after a home loan account remains continuously unpaid for 90 days and is classified as an NPA. The notice grants the client an full 60-day legal cure window to pay the exact dues or file a formal legal objection under Section 13(3A).'
         },
         {
             q: 'What happens if the bank fails to respond to my Section 13(3A) representation within 15 days?',
-            a: 'Under Section 13(3A) of the SARFAESI Act, the bank must examine borrower objections and communicate a reasoned written reply within exactly 15 days. If the bank fails to issue this reasoned decision or attempts to take physical possession without considering the objection, the entire subsequent recovery proceeding is vitiated and can be stayed by the DRT.'
+            a: 'Under Section 13(3A) of the SARFAESI Act. The bank must examine client objections and communicate a reasoned written reply within exactly 15 days. If the bank fails to issue this reasoned decision or attempts to take physical takeover without considering the objection. The entire subsequent claims steps is vitiated and can be stayed by the DRT.'
         },
         {
             q: 'Can the bank take physical possession of my residential house without a court order?',
-            a: 'No. While banks can assume symbolic possession under Section 13(4) by issuing a notice and affixing it to the premises, taking physical possession against an occupying homeowner requires an administrative order from the District Magistrate (DM) or Chief Metropolitan Magistrate (CMM) under Section 14 of the SARFAESI Act.'
+            a: 'No. While banks can assume symbolic takeover under Section 13(4) by issuing a notice and affixing it to the premises. Taking physical takeover against an occupying homeowner requires an office order from the areas Magistrate (DM) or Chief city Magistrate (CMM) under Section 14 of the SARFAESI Act.'
         },
         {
             q: 'When can a borrower approach the Debt Recovery Tribunal (DRT) under Section 17?',
-            a: "A borrower can file a Securitisation Application (SA) before the DRT under Section 17 within 45 days from the date the bank takes any measure under Section 13(4). Examples include issuing a possession notice, taking symbolic possession, or publishing an auction sale notice. Borrowers cannot approach the DRT merely upon receiving a Section 13(2) notice."
+            a: "A client can file a Securitisation Application (SA) before the DRT under Section 17 within 45 days from the date the bank takes any measure under Section 13(4). Examples include issuing a seizure notice. Taking symbolic takeover. Or publishing an auction sale notice. clients cannot approach the DRT merely upon receiving a Section 13(2) notice."
         },
         {
             q: 'Is there a mandatory pre-deposit required to file a Securitisation Application before the DRT?',
-            a: "No. Under Section 17 of the SARFAESI Act, borrowers are NOT required to make any mandatory pre-deposit to file an application before the DRT. Mandatory pre-deposit rules (ranging from 25% to 50%) only apply if a borrower then files an appeal before the Debt Recovery Appellate Tribunal (DRAT) under Section 18 against an adverse DRT order."
+            a: "No. Under Section 17 of the SARFAESI Act. Clients are NOT required to make any strict pre-deposit to file an application before the DRT. strict pre-deposit rules (ranging from 25% to 50%) only apply if a client then files an appeal before the Debt claims Appellate Tribunal (DRAT) under Section 18 against an adverse DRT order."
         },
         {
             q: 'Can a borrower settle a defaulted home loan through a One-Time Settlement (OTS) during SARFAESI proceedings?',
-            a: "Yes. Even after SARFAESI notices are issued, banks actively entertain One-Time Settlement (OTS) proposals to avoid extended tribunal litigation and uncertain auction realizations. Compromise terms are evaluated under bank board-approved policies and RBI June 2023 norms. This allows borrowers to settle for an agreed sum and reclaim original title deeds."
+            a: "Yes. Even after SARFAESI notices are issued. Banks actively entertain One-Time closure (OTS) proposals to avoid extended tribunal lawsuits and uncertain auction realizations. OTS deal terms are evaluated under bank board-approved policies and RBI June 2023 norms. This allows clients to settle for an agreed sum and reclaim original title deeds."
         },
         {
             q: 'What are the legal requirements for a bank before conducting a public auction under SARFAESI?',
-            a: "Under the Security Interest (Enforcement) Rules 2002, the bank must obtain a valuation report from an approved valuer, serve an individual 30-day notice of sale to the borrower under Rule 8(6), publish the public auction notice in two leading newspapers (one in the vernacular language) under Rule 9(1). Strictly adhere to reserve price transparency norms."
+            a: "Under the pledge rates (Enforcement) Rules 2002. The bank must obtain a valuation report from an approved valuer. Serve an person 30-day notice of sale to the client under Rule 8(6). Publish the public auction notice in two leading newspapers (one in the vernacular language) under Rule 9(1). Strictly adhere to reserve price transparency norms."
         },
         {
             q: 'Are agricultural properties or loans below certain thresholds exempt from SARFAESI proceedings?',
-            a: "Yes. Under Section 31(i) of the SARFAESI Act, security interest cannot be created or enforced on agricultural land. also, under Section 31(h), SARFAESI proceedings do not apply where the remaining unpaid debt is less than 20% of the principal and interest. Where the entire outstanding claim is under \u20B91 Lakh."
+            a: "Yes. Under Section 31(i) of the SARFAESI Act. pledge rates cannot be created or enforced on farm land. Also. Under Section 31(h). SARFAESI steps do not apply where the remaining unpaid debt is less than 20% of the main loan and rates. Where the entire unpaid claim is under \u20B91 Lakh."
         },
         {
             q: 'Can tenants living in a mortgaged property be summarily evicted under Section 14?',
-            a: 'No. As established by the Supreme Court in Harshad Govardhan Sondagar v. International Assets Reconstruction Co., valid tenancies created before mortgage or registered lease deeds cannot be summarily terminated under Section 14. The Magistrate must examine the leasehold rights, and banks can only assume constructive or landlord possession.'
+            a: 'No. As established by the Supreme Court in Harshad Govardhan Sondagar v. International Assets Reconstruction Co. Valid tenancies created before mortgage or registered lease deeds cannot be summarily terminated under Section 14. The Magistrate must examine the leasehold rights. banks can only assume constructive or landlord takeover.'
         },
         {
             q: 'How does a home loan settlement impact my CIBIL score and how do I retrieve my original title deeds?',
-            a: "Upon full payment of the agreed settlement sum under Section 13(8), the bank is legally obligated to issue a No Dues Certificate, release all original title deeds within 30 days under RBI directives. Report the account status to credit bureaus. The record updates to Settled, stopping overdue compounding and enabling credit rehabilitation."
+            a: "Upon full payment of the agreed closure sum under Section 13(8). The bank is by law obligated to issue a No Dues letter. Release all original title deeds within 30 days under RBI directives. Report the account status to credit bureaus. The record updates to Settled. Stopping late growing and enabling credit rehabilitation."
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -99,9 +99,7 @@ export default function HomeLoanSarfaesiClient() {
             Home Loan Default &amp; SARFAESI Act: How to Stop Bank Auction
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed">
-            Master the statutory defense blueprint to challenge Section 13(2) demand notices, enforce the mandatory 15-day bank reply rule under Section 13(3A), obtain urgent interim stays from the Debt Recovery Tribunal under Section 17. Negotiate One-Time Settlement deed redemption.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed"> Master the legal defense blueprint to challenge Section 13(2) demand notices. Enforce the strict 15-day bank reply rule under Section 13(3A). Obtain urgent interim stays from the Debt claims Tribunal under Section 17. settle One-Time closure deed redemption. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -144,9 +142,7 @@ export default function HomeLoanSarfaesiClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>Statutory Mortgage Rights.</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Governed by SARFAESI Act 2002, Security Interest Rules 2002, Transfer of Property Act 1882, and RBI Master Directives.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by SARFAESI Act 2002. pledge rates Rules 2002. Transfer of home Act 1882. And RBI Master Directives. </p>
               </div>
             </div>
           </aside>
@@ -163,30 +159,12 @@ export default function HomeLoanSarfaesiClient() {
                 </h2>
               </div>
               <ul className="space-y-2.5 text-xs md:text-sm text-slate-700 font-medium">
-                <li className="flex items-start gap-2.5">
-                  <Check className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <span><strong>Section 13(2) Demand Window:</strong> Borrowers hold an unconditional 60-day cure period during which lenders are legally barred from seizing physical possession.</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <Check className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <span><strong>Mandatory 15-Day Written Order:</strong> A formal Section 13(3A) objection legally compels the bank to issue a reasoned written determination within 15 days, vitiating subsequent coercive steps if neglected.</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <Check className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <span><strong>Section 14 Judicial Safeguard:</strong> Banks cannot forcibly dispossess an occupant without obtaining an administrative clearance order from the District Magistrate or Chief Metropolitan Magistrate.</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <Check className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <span><strong>Zero Pre-Deposit DRT Remedy:</strong> Filing a Securitisation Application under Section 17 before the Debt Recovery Tribunal does not require any mandatory deposit and can secure interim auction stay orders.</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <Check className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <span><strong>Compromise OTS Economics:</strong> Institutional lenders actively accept One-Time Settlement compromise terms to avoid multi-year tribunal delays, discounting penalty fees and interest.</span>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <Check className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <span><strong>Deed Redemption &amp; Title Recovery:</strong> Under Section 13(8), full settlement payment before auction notice publication entitles the borrower to an immediate return of all original title deeds within 30 days.</span>
-                </li>
+                <li className="flex items-start gap-2.5"> <Check className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <span><strong>Section 13(2) Demand Window:</strong> clients hold an full 60-day cure period during which lenders are by law barred from seizing physical takeover.</span> </li>
+                <li className="flex items-start gap-2.5"> <Check className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <span><strong>strict 15-Day Written Order:</strong> A formal Section 13(3A) objection by law compels the bank to issue a reasoned written determination within 15 days. Vitiating subsequent coercive steps if neglected.</span> </li>
+                <li className="flex items-start gap-2.5"> <Check className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <span><strong>Section 14 court Safeguard:</strong> Banks cannot forcibly dispossess an occupant without obtaining an office clearance order from the areas Magistrate or Chief city Magistrate.</span> </li>
+                <li className="flex items-start gap-2.5"> <Check className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <span><strong>Zero Pre-Deposit DRT Remedy:</strong> Filing a Securitisation Application under Section 17 before the Debt claims Tribunal does not require any strict deposit and can secure interim auction stay orders.</span> </li>
+                <li className="flex items-start gap-2.5"> <Check className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <span><strong>OTS deal OTS Economics:</strong> banks actively accept One-Time closure OTS deal terms to avoid multi-year tribunal delays. Discounting penalty fees and rates.</span> </li>
+                <li className="flex items-start gap-2.5"> <Check className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <span><strong>Deed Redemption &amp. Title claims:</strong> Under Section 13(8). Full closure payment before auction notice publication entitles the client to an fast return of all original title deeds within 30 days.</span> </li>
               </ul>
             </section>
 
@@ -198,15 +176,9 @@ export default function HomeLoanSarfaesiClient() {
                   1. The SARFAESI Framework &amp; 90-Day NPA Classification Dynamics
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When a borrower signs a mortgage contract for a residential or commercial property in India, the transaction is underpinned by the Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002 (SARFAESI Act). Unlike unsecured credit cards or personal loans where lenders must institute protracted civil suits under the Code of Civil Procedure, secured home loans grant financial institutions summary powers to enforce their security interest without the direct intervention of a civil court.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                However, this enforcement mechanism does not operate arbitrarily. The statutory machinery can only be activated after an account satisfies strict regulatory criteria established by the Reserve Bank of India. When an equated monthly installment (EMI) remains unpaid, the banking core software initiates progressive monitoring across Special Mention Account (SMA) buckets: SMA-0 for delinquencies between 1 and 30 days, SMA-1 for delays between 31 and 60 days. SMA-2 for arrears spanning 61 to 90 days. Only upon the 91st consecutive day of non-payment is the credit facility formally classified as a Non-Performing Asset (NPA).
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                NPA classification triggers large balance sheet results for the lender. Under RBI prudential norms, banks must immediately freeze uncollected interest recognition and allocate mandatory capital provisioning out of their operating reserves. To reduce this capital drag, the lender issues a statutory demand notice under Section 13(2) of the SARFAESI Act. Borrowers must understand that a Section 13(2) notice is not an eviction order. It is a formal demand granting an unconditional 60-day statutory window during which the homeowner retains full ownership, physical possession. Statutory rights to challenge the bank claims.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When a client signs a mortgage contract for a residential or trade home in India. The transaction is underpinned by the Securitisation and Reconstruction of money Assets and Enforcement of pledge rates Act. 2002 (SARFAESI Act). Unlike no-pledge credit cards or private loans where lenders must institute protracted civil suits under the Code of Civil steps. Secured home loans grant banks summary powers to enforce their pledge rates without the direct intervention of a civil court. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> However. This enforcement mechanism does not operate arbitrarily. The legal machinery can only be activated after an account satisfies strict RBI criteria established by the Reserve Bank of India. When an equated monthly installment (EMI) remains unpaid. The banking core software initiates progressive monitoring across Special Mention Account (SMA) buckets: SMA-0 for delinquencies between 1 and 30 days. SMA-1 for delays between 31 and 60 days. SMA-2 for arrears spanning 61 to 90 days. Only upon the 91st consecutive day of non-payment is the credit facility formally classified as a Non-Performing Asset (NPA). </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> NPA classification triggers large balance sheet results for the lender. Under RBI prudential norms. Banks must promptly freeze uncollected rates recognition and allocate strict cash bank reserves out of their operating reserves. To reduce this cash drag. The lender issues a legal demand notice under Section 13(2) of the SARFAESI Act. clients must understand that a Section 13(2) notice is not an eviction order. It is a formal demand granting an full 60-day legal window during which the homeowner retains full ownership. Physical takeover. legal rights to challenge the bank claims. </p>
             </section>
 
             {/* SECTION 2: FINANCIAL BREAKDOWN & FORENSIC LEDGER AUDIT */}
@@ -217,12 +189,8 @@ export default function HomeLoanSarfaesiClient() {
                   2. Loan Ledger Forensic Audit &amp; Penal Math Breakdown
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                A frequent vulnerability in bank SARFAESI claims lies in the mathematical computation of the claimed debt. When an account enters default, automated banking systems routinely levy penal interest, overdue processing charges, inspection fees. Legal overheads. Over several quarters, these ancillary fees compound exponentially, inflating the demand amount by 20% to 40% beyond the legitimate principal and contracted interest.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Under the RBI Master Circular on Fair Practices Code and the landmark directives on penalty charges in loan accounts, regulated entities are strictly prohibited from capitalizing penalty charges into the principal debt for compounding purposes. penalty fees must be recovered separately as operational fees and cannot be compounded with monthly interest. When an institutional borrower or homeowner conducts a forensic audit of their historical loan ledger, large accounting errors frequently emerge, providing decisive leverage to dispute the Section 13(2) demand notice.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> A frequent vulnerability in bank SARFAESI claims lies in the mathematical computation of the claimed debt. When an account enters default. Automated banking systems routinely levy extra fees. late processing charges. Checks fees. Legal overheads. Over several quarters. These ancillary fees compound exponentially. Inflating the demand amount by 20% to 40% beyond the legitimate main loan and contracted rates. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Under the RBI Master Circular on Fair Practices Code and the landmark directives on penalty charges in loan accounts. Regulated entities are strictly prohibited from capitalizing penalty charges into the main loan debt for growing purposes. penalty fees must be recovered separately as daily work fees and cannot be compounded with monthly rates. When an bank client or homeowner conducts a audits of their historical loan ledger. Large accounting errors often emerge. This provides decisive leverage to claims the Section 13(2) demand notice. </p>
               
               {/* Financial Calculation Card */}
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 md:p-6 space-y-4">
@@ -279,9 +247,7 @@ export default function HomeLoanSarfaesiClient() {
                     </div>
                   </div>
                 </div>
-                <p className="text-xs text-slate-500 leading-relaxed italic">
-                  Note: A forensic audit eliminates unauthorized interest capitalizing during moratoria, rectifies unapplied interest rate reductions under floating benchmark benchmarks. Strips away unapproved administrative fees, creating a clean baseline for compromise negotiations.
-                </p>
+                <p className="text-xs text-slate-500 leading-relaxed italic"> Note: A audits eliminates banned rates capitalizing during moratoria. Rectifies unapplied rates reductions under floating benchmark benchmarks. Strips away unapproved office fees. Creating a clean baseline for OTS deal talks. </p>
               </div>
             </section>
 
@@ -293,9 +259,7 @@ export default function HomeLoanSarfaesiClient() {
                   3. Resolution &amp; Legal Defense Mechanisms Matrix
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Home loan borrowers confronted by SARFAESI recovery proceedings have multiple legal and institutional pathways to protect their assets. Choosing the appropriate mechanism depends on the stage of enforcement, the borrower financial liquidity. Whether the primary objective is immediate debt redemption, long-term loan rehabilitation, or a negotiated exit.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Home loan clients confronted by SARFAESI claims steps have multiple legal and bank pathways to protect their assets. Choosing the appropriate mechanism depends on the stage of enforcement. The client money liquidity. Whether the primary objective is fast debt redemption. Long-term loan rehabilitation. Or a settled exit. </p>
 
               {/* 4-Sided Bordered Table */}
               <div className="border border-slate-200/80 rounded-2xl overflow-hidden bg-white shadow-xs">
@@ -312,89 +276,39 @@ export default function HomeLoanSarfaesiClient() {
                     </thead>
                     <tbody className="divide-y divide-slate-200/80 text-slate-700">
                       <tr className="hover:bg-slate-50/60 transition-colors">
-                        <td className="p-3.5 md:p-4 font-bold text-slate-900 border-r border-slate-200/80">
-                          Section 13(3A) Objection.
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200/80">
-                          SARFAESI Act Sec 13(3A).
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200/80">
-                          Within 60 days of 13(2).
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200/80">
-                          Compels formal 15-day bank reply; halts hasty physical steps.
-                        </td>
-                        <td className="p-3.5 md:p-4">
-                          Correction of ledger errors, removal of unapplied penal fees.
-                        </td>
+                        <td className="p-3.5 md:p-4 font-bold text-slate-900 border-r border-slate-200/80"> Section 13(3A) Objection. </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200/80"> SARFAESI Act Sec 13(3A). </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200/80"> Within 60 days of 13(2). </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200/80"> Compels formal 15-day bank reply. halts hasty physical steps. </td>
+                        <td className="p-3.5 md:p-4"> Correction of ledger errors. Removal of unapplied penal fees. </td>
                       </tr>
                       <tr className="hover:bg-slate-50/60 transition-colors">
-                        <td className="p-3.5 md:p-4 font-bold text-slate-900 border-r border-slate-200/80">
-                          DRT Securitisation Application.
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200/80">
-                          SARFAESI Act Sec 17.
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200/80">
-                          Within 45 days of 13(4).
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200/80">
-                          Interim judicial stay on auction, quashes flawed possession.
-                        </td>
-                        <td className="p-3.5 md:p-4">
-                          Court-directed mediation, revision of auction reserve price.
-                        </td>
+                        <td className="p-3.5 md:p-4 font-bold text-slate-900 border-r border-slate-200/80"> DRT Securitisation Application. </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200/80"> SARFAESI Act Sec 17. </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200/80"> Within 45 days of 13(4). </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200/80"> Interim court stay on auction. Quashes flawed takeover. </td>
+                        <td className="p-3.5 md:p-4"> Court-directed mediation. Revision of auction reserve price. </td>
                       </tr>
                       <tr className="hover:bg-slate-50/60 transition-colors">
-                        <td className="p-3.5 md:p-4 font-bold text-slate-900 border-r border-slate-200/80">
-                          One-Time Settlement (OTS).
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200/80">
-                          RBI June 2023 Norms &amp; Sec 13(8).
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200/80">
-                          Any stage before auction.
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200/80">
-                          Complete debt extinguishment, immediate release of title deeds.
-                        </td>
-                        <td className="p-3.5 md:p-4">
-                          100% penal waiver, 15% to 45% core interest and balance haircut.
-                        </td>
+                        <td className="p-3.5 md:p-4 font-bold text-slate-900 border-r border-slate-200/80"> One-Time closure (OTS). </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200/80"> RBI June 2023 Norms &amp. Sec 13(8). </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200/80"> Any stage before auction. </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200/80"> Complete debt extinguishment. Fast release of title deeds. </td>
+                        <td className="p-3.5 md:p-4"> 100% penal waiver. 15% to 45% core rates and balance haircut. </td>
                       </tr>
                       <tr className="hover:bg-slate-50/60 transition-colors">
-                        <td className="p-3.5 md:p-4 font-bold text-slate-900 border-r border-slate-200/80">
-                          Loan Restructuring / Rescheduling.
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200/80">
-                          RBI Prudential Framework.
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200/80">
-                          SMA-1 or early NPA stage.
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200/80">
-                          Retains property ownership, reduces monthly installment burden.
-                        </td>
-                        <td className="p-3.5 md:p-4">
-                          Tenor extension up to 5 years, interest rate restructuring.
-                        </td>
+                        <td className="p-3.5 md:p-4 font-bold text-slate-900 border-r border-slate-200/80"> Loan Restructuring / Rescheduling. </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200/80"> RBI Prudential rules. </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200/80"> SMA-1 or early NPA stage. </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200/80"> Retains home ownership. Reduces monthly installment burden. </td>
+                        <td className="p-3.5 md:p-4"> Tenor extension up to 5 years. rates restructuring. </td>
                       </tr>
                       <tr className="hover:bg-slate-50/60 transition-colors">
-                        <td className="p-3.5 md:p-4 font-bold text-slate-900 border-r border-slate-200/80">
-                          National Lok Adalat.
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200/80">
-                          Legal Services Authorities Act.
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200/80">
-                          Quarterly judicial sittings.
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200/80">
-                          Final non-appealable award, zero court fees, stops litigation.
-                        </td>
-                        <td className="p-3.5 md:p-4">
-                          Standardized concession grids approved by zonal committees.
-                        </td>
+                        <td className="p-3.5 md:p-4 font-bold text-slate-900 border-r border-slate-200/80"> National Lok Adalat. </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200/80"> Legal Services officials Act. </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200/80"> Quarterly court sittings. </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200/80"> Final non-appealable award. Zero court fees. Stops lawsuits. </td>
+                        <td className="p-3.5 md:p-4"> Standardized concession grids approved by zonal boards. </td>
                       </tr>
                     </tbody>
                   </table>
@@ -410,15 +324,9 @@ export default function HomeLoanSarfaesiClient() {
                   4. CIBIL Algorithm &amp; Mortgage Debt Closure Dynamics
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Defaulting on a secured home loan causes major damage to an individual credit profile. Because home loans represent high-ticket facilities, credit scoring algorithms like TransUnion CIBIL, Experian. CRIF High Mark heavily weight 90+ Days Past Due (DPD) delinquencies. When an account enters NPA status, the borrower credit score typically plummets from prime tiers (750+) to subprime thresholds (520 to 580), completely restricting access to institutional credit lines.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When concluding a compromise settlement on a secured facility, understanding bureau reporting nomenclature is critical. If the account is closed under an OTS with a financial haircut, the bank reports the account status as Settled or Post-Write-Off Settled. While this mark indicates that the debt was resolved for less than the full contracted balance, it arrests further default escalation, stops ongoing interest accrual. Marks the outstanding overdue balance as zero. Over a 12 to 24 month period, disciplined credit rebuilding through secured fixed-deposit credit cards can restore the credit score above 720.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Equally crucial is the recovery of original title deeds. Under the landmark Reserve Bank of India directive issued on September 13, 2023, all regulated commercial banks and Housing Finance Companies (HFCs) are legally mandated to release all original movable and immovable property documents within 30 days of full loan repayment or compromise settlement. If the lender fails to return the title documents within this 30-day window, the bank is obligated to compensate the borrower at ₹5,000 for each day of delay beyond 30 days, alongside bearing the full cost of reconstructing certified copies in the event of document loss.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Defaulting on a secured home loan causes major damage to an person credit profile. Because home loans represent high-ticket facilities. Credit scoring algorithms like TransUnion CIBIL. Experian. CRIF High Mark heavily weight 90+ Days Past Due (DPD) delinquencies. When an account enters NPA status. The client credit score typically plummets from prime tiers (750+) to subprime thresholds (520 to 580). Completely restricting access to bank credit lines. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When concluding a OTS deals on a secured facility. Understanding CIBIL desk reporting nomenclature is critical. If the account is closed under an OTS with a money haircut. The bank reports the account status as Settled or Post-Write-Off Settled. While this mark indicates that the debt was resolved for less than the full contracted balance. It arrests further default reports. Stops ongoing rates accrual. Marks the unpaid late balance as zero. Over a 12 to 24 month period. Disciplined credit rebuilding through secured fixed-deposit credit cards can restore the credit score above 720. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Equally crucial is the claims of original title deeds. Under the landmark Reserve Bank of India directive issued on September 13. 2023. All regulated banks and Housing Finance firms (HFCs) are by law mandated to release all original movable and immovable home papers within 30 days of full loan payment or OTS deals. If the lender fails to return the title papers within this 30-day window. The bank is obligated to compensate the client at ₹5,000 for each day of delay beyond 30 days. Alongside bearing the full cost of reconstructing certified copies in the event of paper loss. </p>
             </section>
 
             {/* SECTION 5: INFOGRAPHIC OVERVIEW */}
@@ -429,9 +337,7 @@ export default function HomeLoanSarfaesiClient() {
                   5. Visual 6-Stage SARFAESI Defense &amp; Property Protection Blueprint
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Understanding the chronological interplay between bank enforcement powers and borrower legal remedies is essential for defending your mortgaged home. The comprehensive architectural infographic below maps out the 6 pivotal stages of the SARFAESI process, highlighting critical statutory deadlines, judicial stay checkpoints. The structured redemption pathway to retrieve original property documents.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Understanding the chronological interplay between bank enforcement powers and client legal remedies is essential for defending your mortgaged home. The full architectural infographic below maps out the 6 pivotal stages of the SARFAESI steps. Highlighting critical legal deadlines. court stay checkpoints. The structured redemption pathway to retrieve original home papers. </p>
 
               {/* Infographic Image Container */}
               <div className="rounded-2xl overflow-hidden border border-slate-200/80 bg-slate-900 shadow-md">
@@ -453,9 +359,7 @@ export default function HomeLoanSarfaesiClient() {
                   6. The 6-Stage Statutory Defense SOP: From Notice to Deed Release
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Navigating a home loan default requires a disciplined legal strategy that leverages statutory safeguards at every stage. Homeowners often panic upon receiving bank communications, allowing critical statutory timelines to elapse by default. By following this standardized operational procedure, borrowers can systematically challenge bank non-compliance, halt coercive physical possession. Negotiate an equitable debt resolution.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Navigating a home loan default requires a disciplined legal plan that leverages legal safeguards at every stage. Homeowners often panic upon receiving bank contacts. This allows critical legal timelines to elapse by default. By following this standardized daily work steps. Clients can systematically challenge bank non-compliance. Halt coercive physical takeover. settle an equitable debt relief. </p>
 
               <div className="space-y-4">
                 <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 md:p-6 space-y-2">
@@ -467,9 +371,7 @@ export default function HomeLoanSarfaesiClient() {
                       Stage 1: Demand Notice Scrutiny &amp; 60-Day Cure Window Audit
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-11">
-                    The process begins when the bank serves a statutory demand notice under Section 13(2). Borrowers must immediately verify the notice validity: confirm that the account was legitimately classified as an NPA after 90 days of continuous default, scrutinize the detailed breakup of principal, interest. Charges. Confirm whether the security interest is registered with the Central Registry of Securitisation Asset Reconstruction and Security Interest of India (CERSAI) under Section 26D. The notice triggers an absolute 60-day statutory window during which the bank cannot initiate physical possession.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-11"> The steps begins when the bank serves a legal demand notice under Section 13(2). Clients must promptly verify the notice validity: confirm that the account was legitimately classified as an NPA after 90 days of steady default. Scrutinize the detailed breakup of main loan. rates. Charges. Confirm whether the pledge rates is registered with the Central Registry of Securitisation Asset Reconstruction and pledge rates of India (CERSAI) under Section 26D. The notice triggers an absolute 60-day legal window during which the bank cannot initiate physical takeover. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 md:p-6 space-y-2">
@@ -481,9 +383,7 @@ export default function HomeLoanSarfaesiClient() {
                       Stage 2: Section 13(3A) Formal Representation &amp; Mandatory 15-Day Reply
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-11">
-                    Within the 60-day period, the borrower must submit a comprehensive written representation or objection under Section 13(3A). This document challenges erroneous ledger entries, disputes illegal compound penalty fees, asserts bonafide financial hardship. Proposes a viable restructuring plan. Under the statute, the authorized officer is legally obligated to consider the representation and communicate a reasoned written order within exactly 15 days. If the bank fails to issue this reasoned reply before proceeding to possession, the entire subsequent recovery action becomes legally void.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-11"> Within the 60-day period. The client must submit a full written legal help or objection under Section 13(3A). This paper challenges erroneous ledger entries. claims banned compound penalty fees. Asserts bonafide hardship. Proposes a viable restructuring plan. Under the statute. The authorized staff is by law obligated to consider the legal help and communicate a reasoned written order within exactly 15 days. If the bank fails to issue this reasoned reply before steps to takeover. The entire subsequent claims steps becomes by law void. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 md:p-6 space-y-2">
@@ -495,9 +395,7 @@ export default function HomeLoanSarfaesiClient() {
                       Stage 3: Property Valuation &amp; Rule 8(6) Statutory Notice Audit
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-11">
-                    If the bank assumes symbolic possession under Section 13(4) by affixing a possession notice, it must comply with Rule 8 of the Security Interest (Enforcement) Rules, 2002. The lender must obtain an objective valuation report from an approved registered valuer before fixing the reserve price. Under Rule 8(6), the authorized officer must serve an individual 30-day notice of sale directly to the borrower before scheduling any public auction. Borrowers can audit the valuation to ensure the property is not being auctioned at an artificial distress price that erodes their accumulated equity.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-11"> If the bank assumes symbolic takeover under Section 13(4) by affixing a seizure notice. It must comply with Rule 8 of the pledge rates (Enforcement) Rules. 2002. The lender must obtain an objective valuation report from an approved registered valuer before fixing the reserve price. Under Rule 8(6). The authorized staff must serve an person 30-day notice of sale straight to the client before scheduling any public auction. clients can audit the valuation to ensure the home is not being auctioned at an artificial distress price that erodes their total equity. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 md:p-6 space-y-2">
@@ -509,9 +407,7 @@ export default function HomeLoanSarfaesiClient() {
                       Stage 4: Filing Section 17 Securitisation Application before the DRT
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-11">
-                    Once the bank takes any measure under Section 13(4), the borrower has 45 days to file a Securitisation Application (SA) before the jurisdictional Debt Recovery Tribunal (DRT) under Section 17. Crucially, filing an application under Section 17 requires zero mandatory pre-deposit of the claimed amount. By showing procedural lapses such as failure to reply under Section 13(3A), undervaluation of the asset. Improper service of the 30-day sale notice, the borrower can obtain urgent interim stay orders halting public auctions and physical eviction.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-11"> Once the bank takes any measure under Section 13(4). The client has 45 days to file a Securitisation Application (SA) before the jurisdictional Debt claims Tribunal (DRT) under Section 17. Crucially. Filing an application under Section 17 requires zero strict pre-deposit of the claimed amount. By showing procedural lapses such as failure to reply under Section 13(3A). Undervaluation of the asset. Improper service of the 30-day sale notice. The client can obtain urgent interim stay orders halting public auctions and physical eviction. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 md:p-6 space-y-2">
@@ -523,9 +419,7 @@ export default function HomeLoanSarfaesiClient() {
                       Stage 5: Structuring Compromise OTS Terms with Zonal Committees
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-11">
-                    With legal defenses established and the auction stayed, negotiations transition to the bank Stressed Assets Resolution Branch (SARB) or Zonal Settlement Advisory Committee. Lenders recognize that prolonged DRT proceedings and sluggish property auctions tie up institutional capital. Borrowers can propose a structured One-Time Settlement (OTS) under the RBI June 2023 compromise program, offering an upfront deposit (typically 10% to 15%) with the balance payable in agreed installments, securing complete waivers of penal interest and legal costs.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-11"> With legal defenses established and the auction stayed. Talks transition to the bank Stressed Assets relief Branch (SARB) or Zonal closure alert boards. Lenders recognize that prolonged DRT steps and sluggish home auctions tie up bank cash. Clients can propose a structured One-Time closure (OTS) under the RBI June 2023 OTS deal program. Offering an upfront deposit (typically 10% to 15%) with the balance payable in agreed installments. Securing complete waivers of extra fees and legal costs. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 md:p-6 space-y-2">
@@ -537,9 +431,7 @@ export default function HomeLoanSarfaesiClient() {
                       Stage 6: Section 13(8) Deed Redemption, NDC, and Bureau Rectification
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-11">
-                    Under Section 13(8) of the SARFAESI Act, the borrower holds a statutory right of redemption. If the agreed dues or settlement sum are tendered before the date of publication of the auction notice, the secured creditor cannot proceed with the sale. Upon realization of the final settlement installment, the bank must issue an unconditional No Dues Certificate, withdraw all pending Section 14 and DRT proceedings, release original title deeds within 30 days under RBI mandates. Update bureau records.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-11"> Under Section 13(8) of the SARFAESI Act. The client holds a legal right of redemption. If the agreed dues or closure sum are tendered before the date of publication of the auction notice. The secured lenders cannot proceed with the sale. Upon realization of the final closure installment. The bank must issue an full No Dues letter. Withdraw all pending Section 14 and DRT steps. Release original title deeds within 30 days under RBI mandates. Update CIBIL desk records. </p>
                 </div>
               </div>
             </section>
@@ -552,15 +444,9 @@ export default function HomeLoanSarfaesiClient() {
                   7. Statutory Notice Defense &amp; Homeowner Safeguards
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                The SARFAESI Act balances the creditor right to speedy debt recovery with constitutional protections under Article 300A of the Indian Constitution, which provides that no person shall be deprived of their property save by authority of law. Because summary enforcement bypasses judicial trials, the Supreme Court of India has repeatedly held that banks must adhere strictly to every procedural requirement of the statute. Any failure by the lender to follow statutory rules renders the recovery action illegal and liable to be quashed.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                A critical distinction exists between symbolic possession under Section 13(4) and physical dispossession under Section 14. When a bank serves a possession notice under Section 13(4), it merely assumes legal or symbolic control. The bank cannot forcibly break locks, evict residents. Remove personal belongings based solely on a Section 13(4) notice. To obtain physical possession against an unwilling occupant, the authorized officer must make an application supported by an affidavit to the District Magistrate (DM) or Chief Metropolitan Magistrate (CMM) under Section 14.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Before the Magistrate issues a physical possession order, the officer must verify that the bank has satisfied nine mandatory statutory conditions outlined in the proviso to Section 14(1). These include verifying proper service of the 60-day demand notice, receipt and disposal of the Section 13(3A) representation, valid registration on CERSAI. Absence of full payment. If the bank affidavit conceals facts or misrepresents compliance, the borrower can challenge the Section 14 application, delaying physical eviction and creating a vital window to negotiate compromise terms.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The SARFAESI Act balances the lenders right to speedy debt claims with constitutional protections under Article 300A of the Indian Constitution. This provides that no person shall be deprived of their home save by formal of law. Because summary enforcement bypasses court trials. The Supreme Court of India has repeatedly held that banks must adhere strictly to every procedural requirement of the statute. Any failure by the lender to follow legal rules renders the claims steps banned and liable to be quashed. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> A critical distinction exists between symbolic takeover under Section 13(4) and physical dispossession under Section 14. When a bank serves a seizure notice under Section 13(4). It merely assumes legal or symbolic control. The bank cannot forcibly break locks. Evict residents. Remove private belongings based solely on a Section 13(4) notice. To obtain physical takeover against an unwilling occupant. The authorized staff must make an application supported by an affidavit to the areas Magistrate (DM) or Chief city Magistrate (CMM) under Section 14. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Before the Magistrate issues a physical takeover order. The staff must verify that the bank has satisfied nine strict legal conditions outlined in the proviso to Section 14(1). These include verifying proper service of the 60-day demand notice. Receipt and disposal of the Section 13(3A) legal help. Valid registration on CERSAI. Absence of full payment. If the bank affidavit conceals facts or misrepresents compliance. The client can challenge the Section 14 application. Delaying physical eviction and creating a vital window to settle OTS deal terms. </p>
             </section>
 
             {/* SECTION 8: 3-TIER GRIEVANCE REDRESSAL MATRIX */}
@@ -571,9 +457,7 @@ export default function HomeLoanSarfaesiClient() {
                   8. 3-Tier Grievance Redressal &amp; Legal Escalation Matrix
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When confronting coercive actions, unlawful recovery agent harassment. Administrative non-compliance by bank officials, borrowers should execute a structured escalation across institutional, regulatory, and judicial tiers. Relying solely on verbal arguments with branch managers is ineffective because local managers operate under strict non-discretionary recovery targets.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When confronting coercive steps. Unlawful claims staff abuse. Office non-compliance by bank officials. Clients should execute a structured reports across bank. RBI. And court tiers. Relying solely on verbal arguments with branch managers is ineffective because local managers operate under strict non-special claims targets. </p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 space-y-2">
@@ -582,9 +466,7 @@ export default function HomeLoanSarfaesiClient() {
                     <span>Tier 1: Internal Banking.</span>
                   </div>
                   <h3 className="font-bold text-slate-900 text-sm">Authorized Officer &amp; SARB</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Submit written legal objections directly to the designated Authorized Officer, Regional Stressed Assets Branch. The bank Principal Nodal Officer (PNO). Demand ledger reconciliation and formal recording of compromise proposals.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Submit written legal objections straight to the designated Authorized staff. Local Stressed Assets Branch. The bank main loan Nodal staff (PNO). Demand ledger reconciliation and formal recording of OTS deal proposals. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 space-y-2">
@@ -593,9 +475,7 @@ export default function HomeLoanSarfaesiClient() {
                     <span>Tier 2: Regulatory.</span>
                   </div>
                   <h3 className="font-bold text-slate-900 text-sm">RBI Integrated Ombudsman</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    If the bank violates the Fair Practices Code, deploys unauthorized recovery agents. Fails to respond within 30 days, file an online complaint under the RBI Reserve Bank Integrated Ombudsman Scheme (RB-IOS) via cms.rbi.org.in.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> If the bank violates the Fair Practices Code. Deploys banned claims staff. Fails to respond within 30 days. File an online reports under the RBI Reserve Bank Integrated staff Scheme (RB-IOS) via cms.rbi.org.in. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 space-y-2">
@@ -604,9 +484,7 @@ export default function HomeLoanSarfaesiClient() {
                     <span>Tier 3: Judicial Tribunals.</span>
                   </div>
                   <h3 className="font-bold text-slate-900 text-sm">DRT &amp; High Court Writs</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    File a Securitisation Application before the DRT under Section 17 for interim injunctions. In cases of flagrant constitutional violations or tribunal vacancies, invoke the High Court extraordinary writ jurisdiction under Article 226.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> File a Securitisation Application before the DRT under Section 17 for interim injunctions. In cases of flagrant constitutional violations or tribunal vacancies. Invoke the High Court extraordinary writ police area under Article 226. </p>
                 </div>
               </div>
             </section>
@@ -619,9 +497,7 @@ export default function HomeLoanSarfaesiClient() {
                   9. Chronological Milestones &amp; Legal Defense Timeline
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                The recovery process under SARFAESI follows a predictable statutory calendar. Knowing the exact sequence of events empowers homeowners to anticipate lender actions and deploy legal remedies before deadlines expire.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The claims steps under SARFAESI follows a predictable legal calendar. Knowing the exact sequence of events empowers homeowners to anticipate lender steps and deploy legal remedies before deadlines expire. </p>
 
               {/* 4-Sided Bordered Timeline Table */}
               <div className="border border-slate-200/80 rounded-2xl overflow-hidden bg-white shadow-xs">
@@ -637,74 +513,34 @@ export default function HomeLoanSarfaesiClient() {
                     </thead>
                     <tbody className="divide-y divide-slate-200/80 text-slate-700">
                       <tr className="hover:bg-slate-50/60 transition-colors">
-                        <td className="p-3.5 md:p-4 font-bold text-slate-900 border-r border-slate-200/80">
-                          Days 1 to 90
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200/80">
-                          Special Mention Account (SMA-0/1/2).
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200/80">
-                          Routine collection reminders, telephonic notices, late fee charges.
-                        </td>
-                        <td className="p-3.5 md:p-4">
-                          Request loan restructuring, EMI deferment, or tenor extension.
-                        </td>
+                        <td className="p-3.5 md:p-4 font-bold text-slate-900 border-r border-slate-200/80"> Days 1 to 90 </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200/80"> Special Mention Account (SMA-0/1/2). </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200/80"> Routine claims reminders. Telephonic notices. Late fee charges. </td>
+                        <td className="p-3.5 md:p-4"> Request loan restructuring. EMI deferment. Or tenor extension. </td>
                       </tr>
                       <tr className="hover:bg-slate-50/60 transition-colors">
-                        <td className="p-3.5 md:p-4 font-bold text-slate-900 border-r border-slate-200/80">
-                          Day 91
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200/80">
-                          NPA Classification Trigger.
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200/80">
-                          Account classified as Non-Performing Asset, provisioning allocated.
-                        </td>
-                        <td className="p-3.5 md:p-4">
-                          Audit ledger balance, demand statement of accounts, prepare hardship brief.
-                        </td>
+                        <td className="p-3.5 md:p-4 font-bold text-slate-900 border-r border-slate-200/80"> Day 91 </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200/80"> NPA Classification Trigger. </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200/80"> Account classified as Non-Performing Asset. bank reserves allocated. </td>
+                        <td className="p-3.5 md:p-4"> Audit ledger balance. Demand record of accounts. Prepare hardship brief. </td>
                       </tr>
                       <tr className="hover:bg-slate-50/60 transition-colors">
-                        <td className="p-3.5 md:p-4 font-bold text-slate-900 border-r border-slate-200/80">
-                          Days 91 to 150
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200/80">
-                          Section 13(2) Demand Period.
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200/80">
-                          Service of 60-day demand notice demanding entire outstanding dues.
-                        </td>
-                        <td className="p-3.5 md:p-4">
-                          File formal Section 13(3A) representation; invoke 15-day bank reply mandate.
-                        </td>
+                        <td className="p-3.5 md:p-4 font-bold text-slate-900 border-r border-slate-200/80"> Days 91 to 150 </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200/80"> Section 13(2) Demand Period. </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200/80"> Service of 60-day demand notice demanding entire dues. </td>
+                        <td className="p-3.5 md:p-4"> File formal Section 13(3A) legal help. invoke 15-day bank reply mandate. </td>
                       </tr>
                       <tr className="hover:bg-slate-50/60 transition-colors">
-                        <td className="p-3.5 md:p-4 font-bold text-slate-900 border-r border-slate-200/80">
-                          Days 151 to 180
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200/80">
-                          Section 13(4) Symbolic Possession.
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200/80">
-                          Affixing possession notice, newspaper publication, Sec 14 DM filing.
-                        </td>
-                        <td className="p-3.5 md:p-4">
-                          File Securitisation Application before DRT under Section 17; oppose DM order.
-                        </td>
+                        <td className="p-3.5 md:p-4 font-bold text-slate-900 border-r border-slate-200/80"> Days 151 to 180 </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200/80"> Section 13(4) Symbolic takeover. </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200/80"> Affixing seizure notice. Newspaper publication. Sec 14 DM filing. </td>
+                        <td className="p-3.5 md:p-4"> File Securitisation Application before DRT under Section 17. oppose DM order. </td>
                       </tr>
                       <tr className="hover:bg-slate-50/60 transition-colors">
-                        <td className="p-3.5 md:p-4 font-bold text-slate-900 border-r border-slate-200/80">
-                          Day 180 onwards
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200/80">
-                          Public Auction &amp; Redemption.
-                        </td>
-                        <td className="p-3.5 md:p-4 border-r border-slate-200/80">
-                          Rule 8(6) 30-day notice, Rule 9(1) newspaper auction advertisement.
-                        </td>
-                        <td className="p-3.5 md:p-4">
-                          Exercise Section 13(8) right of redemption; execute compromise OTS terms.
-                        </td>
+                        <td className="p-3.5 md:p-4 font-bold text-slate-900 border-r border-slate-200/80"> Day 180 onwards </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200/80"> Public Auction &amp. Redemption. </td>
+                        <td className="p-3.5 md:p-4 border-r border-slate-200/80"> Rule 8(6) 30-day notice. Rule 9(1) newspaper auction advertisement. </td>
+                        <td className="p-3.5 md:p-4"> Exercise Section 13(8) right of redemption. execute OTS deal OTS terms. </td>
                       </tr>
                     </tbody>
                   </table>
@@ -720,45 +556,35 @@ export default function HomeLoanSarfaesiClient() {
                   10. Specialized Real-World Scenarios &amp; Complex Legal Nuances
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Secured home loan defaults frequently involve complex collateral structures, third-party rights, and developer defaults. Recognizing these unique factual matrices provides decisive legal defenses against summary bank enforcement.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Secured home loan defaults often involve complex pledge structures. Third-party rights. developer defaults. Recognizing these unique factual matrices provides decisive legal defenses against summary bank enforcement. </p>
 
               <div className="space-y-4 text-xs md:text-sm text-slate-700">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 space-y-2 shadow-xs">
                   <h3 className="font-bold text-slate-900 text-sm md:text-base">
                     Agricultural Land Exemption under Section 31(i)
                   </h3>
-                  <p className="leading-relaxed">
-                    Under Section 31(i) of the SARFAESI Act, the provisions of the Act do not apply to any security interest created in agricultural land. In numerous cases where farmhouses, suburban plots. Mixed-use lands are mortgaged for housing credit, banks improperly attempt SARFAESI enforcement. The Supreme Court in ITC Limited v. Blue Coast Hotels Ltd reaffirmed that revenue records determining agricultural classification at the time of mortgage creation govern exemption, barring banks from taking summary possession.
-                  </p>
+                  <p className="leading-relaxed"> Under Section 31(i) of the SARFAESI Act. The provisions of the Act do not apply to any pledge rates created in farm land. In numerous cases where farmhouses. Suburban plots. Mixed-use lands are mortgaged for housing credit. Banks improperly attempt SARFAESI enforcement. The Supreme Court in ITC Limited v. Blue Coast Hotels Ltd reaffirmed that income records determining farm classification at the time of mortgage creation govern exemption. Barring banks from taking summary takeover. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 space-y-2 shadow-xs">
                   <h3 className="font-bold text-slate-900 text-sm md:text-base">
                     Builder-Buyer Subvention Scheme Defaults
                   </h3>
-                  <p className="leading-relaxed">
-                    In subvention schemes, buyers, developers. Lending institutions enter tripartite agreements where the builder promises to service EMIs until project possession. When developers abandon construction and default on EMIs, banks aggressively initiate recovery against individual homebuyers. High Courts across India. This includes the Delhi High Court in multiple landmark writ petitions, have granted interim injunctions restraining lenders from coercive SARFAESI actions against innocent buyers who never received physical possession from defaulting developers.
-                  </p>
+                  <p className="leading-relaxed"> In subvention schemes. Buyers. Developers. Lending institutions enter tripartite pacts where the builder promises to service EMIs until project takeover. When developers abandon construction and default on EMIs. Banks aggressively initiate claims against person homebuyers. High Courts across India. This includes the Delhi High Court in multiple landmark writ petitions. Have granted interim injunctions restraining lenders from coercive SARFAESI steps against innocent buyers who never received physical takeover from defaulting developers. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 space-y-2 shadow-xs">
                   <h3 className="font-bold text-slate-900 text-sm md:text-base">
                     Protection of Bonafide Tenants under Section 14
                   </h3>
-                  <p className="leading-relaxed">
-                    Where a mortgaged residential property is occupied by a valid tenant under a registered lease deed executed before mortgage creation, the tenant cannot be summarily evicted by the Magistrate under Section 14. In Harshad Govardhan Sondagar v. International Assets Reconstruction Co., the Supreme Court held that the Chief Metropolitan Magistrate must determine the validity of the tenancy. The secured creditor can only assume symbolic possession and landlord rights, preserving tenant occupation until lawful lease expiry.
-                  </p>
+                  <p className="leading-relaxed"> Where a mortgaged residential home is occupied by a valid tenant under a registered lease deed executed before mortgage creation. The tenant cannot be summarily evicted by the Magistrate under Section 14. In Harshad Govardhan Sondagar v. International Assets Reconstruction Co. The Supreme Court held that the Chief city Magistrate must determine the validity of the tenancy. The secured lenders can only assume symbolic takeover and landlord rights. Preserving tenant occupation until lawful lease expiry. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 space-y-2 shadow-xs">
                   <h3 className="font-bold text-slate-900 text-sm md:text-base">
                     Debt Transferred to Asset Reconstruction Companies (ARCs)
                   </h3>
-                  <p className="leading-relaxed">
-                    When public or private banks cannot recover distressed housing debt, they assign the portfolio to an Asset Reconstruction Company under Section 5 of the SARFAESI Act. ARCs typically acquire these Non-Performing Assets at major discounts, often paying only 30% to 50% of the book value. Because ARCs acquire the debt at a deep haircut, they possess large commercial flexibility to negotiate attractive One-Time Settlement compromise packages with borrowers who show verifiable illiquidity.
-                  </p>
+                  <p className="leading-relaxed"> When public or private banks cannot recover distressed housing debt. They assign the portfolio to an Asset Reconstruction firm under Section 5 of the SARFAESI Act. ARCs typically acquire these Non-Performing Assets at major discounts. Often paying only 30% to 50% of the book value. Because ARCs acquire the debt at a deep haircut. They possess large trade flexibility to settle attractive One-Time closure OTS deal packages with clients who show verifiable illiquidity. </p>
                 </div>
               </div>
             </section>
@@ -776,9 +602,7 @@ export default function HomeLoanSarfaesiClient() {
                   Frequently Asked Questions
                 </h2>
               </div>
-              <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                Clear, authoritative answers to critical questions regarding home loan defaults, SARFAESI proceedings, DRT stays, and property deed recovery.
-              </p>
+              <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Clear. Authoritative answers to critical questions regarding home loan defaults. SARFAESI steps. DRT stays. And home deed claims. </p>
 
               <div className="space-y-3 pt-2">
                 {faqs.map((faq, index) => {
@@ -804,9 +628,7 @@ export default function HomeLoanSarfaesiClient() {
                   Statutory Citations &amp; Regulatory Authorities
                 </h2>
               </div>
-              <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                CredSettle mortgage dispute resolution and SARFAESI defense procedures strictly adhere to statutory frameworks including the Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act (2002), Security Interest (Enforcement) Rules (2002), Recovery of Debts and Bankruptcy Act (1993), Transfer of Property Act (1882), RBI Master Direction on Compromise Settlements (June 8, 2023). RBI Direction on Release of Movable/Immovable Property Documents (September 13, 2023).
-              </p>
+              <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> CredSettle mortgage claims relief and SARFAESI defense steps strictly adhere to legal rules including the Securitisation and Reconstruction of money Assets and Enforcement of pledge rates Act (2002). pledge rates (Enforcement) Rules (2002). claims of Debts and ruin Act (1993). Transfer of home Act (1882). RBI Master Direction on OTS deals (June 8. 2023). RBI Direction on Release of Movable/Immovable home papers (September 13. 2023). </p>
 
               {/* Outbound Badges */}
               <div className="space-y-2 pt-2">
@@ -896,14 +718,10 @@ export default function HomeLoanSarfaesiClient() {
                   <Link href="/author/ashish-jhangra" className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional.
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief expert. </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed font-normal">
-                Specialized in mortgage dispute resolution, SARFAESI defense, DRT stay petitions, and Zonal committee settlements.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed font-normal"> expert in mortgage claims relief. SARFAESI defense. DRT stay petitions. And Zonal boards deals. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
                   <span>Author Profile</span>
@@ -921,12 +739,8 @@ export default function HomeLoanSarfaesiClient() {
                 <span className="text-[10px] font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
                   MORTGAGE DEFENSE CELL.
                 </span>
-                <p className="text-lg md:text-xl font-bold text-white leading-snug">
-                  Facing SARFAESI Auction?
-                </p>
-                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
-                  Our mortgage defense specialists represent you before bank Stressed Assets branches and file urgent DRT stay applications.
-                </p>
+                <p className="text-lg md:text-xl font-bold text-white leading-snug"> Facing SARFAESI Auction? </p>
+                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal"> Our mortgage defense specialists represent you before bank Stressed Assets branches and file urgent DRT stay applications. </p>
               </div>
               <Link href="/contact" className="block w-full bg-white text-blue-900 hover:text-[#1886ff] py-3 px-4 rounded-full font-bold text-sm hover:bg-slate-50 transition-all shadow-md">
                 Facing SARFAESI Auction? Protect Your Property &amp; Stop Bank Eviction
@@ -949,22 +763,10 @@ export default function HomeLoanSarfaesiClient() {
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
               <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage.</p>
               <ul className="space-y-2 text-slate-600">
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Zero Upfront Risk:</strong> Performance-linked fees.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Direct Remittance:</strong> No middleman pooling.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>SARB Representation:</strong> Direct institutional talks.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Pan-India Defense:</strong> DRT &amp; SARFAESI panel.</span>
-                </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Zero Upfront Risk:</strong> Performance-linked fees.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Direct Remittance:</strong> No middleman pooling.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>SARB legal help:</strong> Direct bank talks.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Pan-India Defense:</strong> DRT &amp. SARFAESI panel.</span> </li>
               </ul>
             </div>
 
@@ -973,23 +775,17 @@ export default function HomeLoanSarfaesiClient() {
               <p className="font-bold text-slate-900 text-sm">Related SARFAESI Guides.</p>
               <div className="space-y-2.5">
                 <Link href="/how-to-convince-bank-for-one-time-settlement" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    How to Convince Bank for One Time Settlement.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> How to Convince Bank for One Time closure. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">OTS negotiation blueprint &rarr;.</span>
                 </Link>
 
                 <Link href="/services/personal-loan-settlement" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Best Lawyer for Personal Loan Settlement.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Best lawyers for private loans closure. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Legal representation &rarr;.</span>
                 </Link>
 
                 <Link href="/gold-loan-default-auction" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Gold Loan Default &amp; Auction Defense.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Gold Loan Default &amp. Auction Defense. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Secured debt relief &rarr;.</span>
                 </Link>
               </div>

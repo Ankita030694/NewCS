@@ -51,23 +51,23 @@ export default function MedicalEmergencyClient() {
     const faqs = [
         {
             question: "Can I stop paying my EMI if I have a severe medical emergency?",
-            answer: "You cannot simply stop paying without results. However, you can formally request a temporary moratorium or restructured payment plan from the Grievance Redressal Officer based on compassionate grounds."
+            answer: "You cannot simply stop paying without results. However. You can formally request a temporary moratorium or restructured payment plan from the Grievance Redressal Officer based on compassionate grounds."
         },
         {
             question: "What documents do banks require to prove a medical emergency?",
-            answer: "Banks require verified hospital admission records, discharge summaries, detailed medical bills. A doctor's certificate explicitly stating the patient's inability to work or the severe financial drain caused by the treatment."
+            answer: "Banks require verified hospital admission records. Discharge summaries, detailed medical bills. A doctor's letter explicitly stating the patient's inability to work or the severe money drain caused by the treatment."
         },
         {
             question: "Will the bank waive my loan entirely if I have cancer or a critical illness?",
-            answer: "Complete loan waivers are exceedingly rare. However, banks are highly likely to offer a deep settlement haircut (waiving all interest, penalties. A portion of the principal) if faced with verified critical illness paperwork."
+            answer: "Complete loan waivers are exceedingly rare. However. Banks are highly likely to offer a deep settlement haircut (waiving all interest. Penalties. A portion of the main loan) if faced with verified critical illness paperwork."
         },
         {
             question: "Do recovery agents have the right to visit me in the hospital?",
-            answer: "Absolutely not. RBI guidelines strictly prohibit recovery agents from engaging in any behavior that causes public humiliation or harassment. This includes visiting hospitals or contacting relatives regarding the debt."
+            answer: "Absolutely not. RBI rules strictly prohibit claims agents from engaging in any behavior that causes public humiliation or abuse. This includes visiting hospitals or contacting relatives regarding the debt."
         },
         {
             question: "Who should I contact at the bank regarding a medical hardship application?",
-            answer: "Do not deal with third party recovery agents. Submit your hardship letter and medical evidence directly to the Principal Nodal Officer or the Grievance Redressal Officer (GRO) of the bank."
+            answer: "Do not deal with third party claims agents. Submit your hardship letter and medical proof straight to the main loan Nodal Officer or the Grievance Redressal Officer (GRO) of the bank."
         }
     ];
     return (<>
@@ -84,9 +84,7 @@ export default function MedicalEmergencyClient() {
                         Loan Settlement During<br />
                         <span className="text-blue-300">Medical Emergencies.</span>
                     </h1>
-                    <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
-                        Learn how to formally request a bank moratorium or a deep settlement on compassionate grounds using your medical records.
-                    </p>
+                    <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light"> Learn how to formally request a bank moratorium or a deep settlement on compassionate grounds using your medical records. </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link href="/contact" className="bg-white text-blue-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                             Request Legal Assistance
@@ -100,21 +98,8 @@ export default function MedicalEmergencyClient() {
                 <div className="max-w-[1440px] mx-auto px-4 py-4">
                     <nav className="flex text-sm text-gray-500" aria-label="Breadcrumb">
                         <ol className="inline-flex items-center space-x-1 md:space-x-3">
-                            <li className="inline-flex items-center">
-                                <Link href="/" className="inline-flex items-center hover:text-blue-600">
-                                    Home
-                                </Link>
-                            </li>
-                            <li>
-                                <div className="flex items-center">
-                                    <svg className="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                                        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4"/>
-                                    </svg>
-                                    <span className="ml-1 font-medium text-gray-500 md:ml-2">
-                                        Medical Emergency Settlement.
-                                    </span>
-                                </div>
-                            </li>
+                            <li className="inline-flex items-center"> <Link href="/" className="inline-flex items-center hover:text-blue-600"> Home </Link> </li>
+                            <li> <div className="flex items-center"> <svg className="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10"> <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4"/> </svg> <span className="ml-1 font-medium text-gray-500 md:ml-2"> Medical Emergency Settlement. </span> </div> </li>
                         </ol>
                     </nav>
                 </div>
@@ -158,68 +143,36 @@ export default function MedicalEmergencyClient() {
                     <main className="lg:w-2/4 xl:w-3/5 w-full">
                         <article className="prose prose-lg max-w-none bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100">
                             
-                            <p className="text-gray-700 leading-relaxed mb-6 font-bold text-xl">
-                                When a severe illness or the hospitalization of a family member drains your savings, defaulting on a loan is often unavoidable. Unfortunately, borrowers in the midst of a medical crisis are frequently subjected to the same ruthless recovery tactics as willful defaulters. However, you have the right to demand humane treatment. Discover how to leverage banking regulations to formally request a moratorium, halt recovery harassment. Negotiate a deep loan settlement on compassionate grounds using your medical records.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6 font-bold text-xl"> When a severe illness or the hospitalization of a family member drains your savings. Defaulting on a loan is often unavoidable. Unfortunately. Clients in the midst of a medical crisis are often subjected to the same ruthless claims tactics as willful defaulters. However. You have the right to demand humane treatment. Discover how to leverage banking regulations to formally request a moratorium. Halt claims abuse. settle a deep loan settlement on compassionate grounds using your medical records. </p>
 
                             <h2 id="cruelty-of-collection" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">The Cruelty of Debt Collection During Illness</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                The Indian healthcare system operates largely on an out of pocket expenditure model. A sudden diagnosis of cancer, a major cardiovascular event requiring immediate surgery. A severe accident can instantly wipe out years of accumulated family savings. In these desperate situations, individuals are often forced to redirect funds originally earmarked for Equated Monthly Installments (EMIs) toward life saving medical interventions. as a result, personal loans and credit card bills fall into default.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                What follows is a profoundly traumatic experience. The banking system is largely automated, meaning an algorithm does not differentiate between a borrower who lost their job, a willful defaulter who absconded with funds. A father sitting in an Intensive Care Unit waiting room. The moment the EMI mandate bounces, the account is flagged. The contact details are outsourced to third party recovery agencies. These agencies operate on aggressive commission structures and are notoriously insensitive to personal tragedies.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Borrowers facing medical emergencies report horrific instances of recovery harassment. Agents may incessantly call the borrower while they are undergoing chemotherapy, they may verbally abuse family members who are already paralyzed by anxiety. In some egregious cases, they have even attempted to visit hospitals to demand payment. This relentless psychological pressure severely hampers the recovery process of the patient and creates an environment of intolerable distress. Understanding your rights and knowing how to legally intercept this automated cruelty is critical.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> The Indian healthcare system operates largely on an out of pocket expenditure model. A sudden diagnosis of cancer. A major cardiovascular event requiring fast surgery. A severe accident can instantly wipe out years of total family savings. In these desperate situations. Individuals are often forced to redirect funds originally earmarked for Equated Monthly Installments (EMIs) toward life saving medical interventions. As a result. Private loans and credit card bills fall into default. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> What follows is a profoundly traumatic skill. The banking system is largely automated. Meaning an algorithm does not differentiate between a client who lost their job. A willful defaulter who absconded with funds. A father sitting in an Intensive Care Unit waiting room. The moment the EMI mandate bounces. The account is flagged. The contact details are outside to third party claims firms. These firms operate on aggressive commission structures and are notoriously insensitive to private tragedies. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> clients facing medical emergencies report horrific instances of claims abuse. Agents may incessantly call the client while they are undergoing chemotherapy. They may verbally abuse family members who are already paralyzed by anxiety. In some egregious cases. They have even attempted to visit hospitals to demand payment. This relentless psychological pressure severely hampers the claims process of the patient and creates an environment of intolerable distress. Understanding your rights and knowing how to legally intercept this automated cruelty is critical. </p>
 
                             <h2 id="compassionate-grounds" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Understanding Compassionate Grounds in Indian Banking</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                To combat this mechanical ruthlessness, borrowers must understand the concept of "Compassionate Grounds" within the framework of Indian banking regulations. While banks are commercial entities driven by profit, they are also heavily regulated by the Reserve Bank of India (RBI). The RBI places a strong emphasis on fair banking practices and customer protection, specifically mandating that banks must adopt sympathetic and humane approaches when dealing with borrowers facing genuine, severe hardships.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> To combat this mechanical ruthlessness. Clients must understand the concept of "Compassionate Grounds" within the rules of Indian banking regulations. While banks are trade entities driven by profit. They are also heavily regulated by the Reserve Bank of India (RBI). The RBI places a strong emphasis on fair banking practices and customer protection. Mainly mandating that banks must adopt sympathetic and humane approaches when dealing with clients facing genuine. Severe hardships. </p>
 
                             {/* Data Callout Section Type */}
                             <div className="bg-blue-50 p-6 rounded-2xl border border-blue-200 mb-8 mt-6">
-                                <p className="text-xl font-bold text-blue-900 mb-4 flex items-center">
-                                    <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-                                    BCSBI Code of Bank's Commitment.
-                                </p>
+                                <p className="text-xl font-bold text-blue-900 mb-4 flex items-center"> <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg> BCSBI Code of Bank's Commitment. </p>
                                 <ul className="space-y-4 text-blue-800">
-                                    <li className="flex justify-between border-b border-blue-200 pb-2">
-                                        <span className="font-semibold">Sympathetic Consideration:</span>
-                                        <span>The Banking Codes and Standards Board of India (BCSBI) stipulates that banks must consider cases of genuine financial difficulty. This includes medical emergencies, with sympathy and positive intent.</span>
-                                    </li>
-                                    <li className="flex justify-between border-b border-blue-200 pb-2">
-                                        <span className="font-semibold">Prohibition of Harassment:</span>
-                                        <span>Agents are strictly forbidden from resorting to intimidation, verbal abuse. Contacting borrowers at inappropriate locations (such as hospitals or during periods of mourning).</span>
-                                    </li>
-                                    <li className="flex justify-between border-b border-blue-200 pb-2">
-                                        <span className="font-semibold">Restructuring Mandate:</span>
-                                        <span>Banks possess the internal authority to restructure loans, grant moratoriums. Offer deep settlements if documentary evidence proves a borrower's inability to pay due to health reasons.</span>
-                                    </li>
+                                    <li className="flex justify-between border-b border-blue-200 pb-2"> <span className="font-semibold">Sympathetic Consideration:</span> <span>The Banking Codes and Standards Board of India (BCSBI) stipulates that banks must consider cases of genuine money trouble. This includes medical emergencies. With sympathy and positive intent.</span> </li>
+                                    <li className="flex justify-between border-b border-blue-200 pb-2"> <span className="font-semibold">Prohibition of abuse:</span> <span>Agents are strictly forbidden from resorting to threats. Verbal abuse. Contacting clients at inappropriate locations (such as hospitals or during periods of mourning).</span> </li>
+                                    <li className="flex justify-between border-b border-blue-200 pb-2"> <span className="font-semibold">Restructuring Mandate:</span> <span>Banks possess the internal formal to restructure loans. Grant moratoriums. Offer deep settlements if documentary proof proves a client's inability to pay due to health reasons.</span> </li>
                                 </ul>
-                                <p className="mt-4 text-sm text-blue-700 italic">
-                                    If a recovery agent ignores your medical situation and continues to harass you, they are violating RBI guidelines. You have the right to escalate the matter immediately to the Banking Ombudsman.
-                                </p>
+                                <p className="mt-4 text-sm text-blue-700 italic"> If a claims agent ignores your medical situation and continues to harass you. They are violating RBI rules. You have the right to escalate the matter promptly to the Banking Ombudsman. </p>
                             </div>
 
                             <p className="text-2xl font-bold text-gray-900 mb-4 mt-8">What Constitutes a Valid Medical Emergency?</p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Banks will not grant concessions based on a verbal claim of a minor ailment. To successfully invoke compassionate grounds, the medical emergency must be severe, verifiable, and financially debilitating. Valid emergencies typically include a diagnosis of a critical illness (such as cancer, kidney failure. Severe cardiac conditions), major surgical interventions requiring prolonged hospitalization. Catastrophic accidents resulting in long term disability or loss of income. 
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                also, the emergency does not strictly need to apply to the borrower alone. If the borrower is the primary financial provider for a spouse, child. Dependent parent who is undergoing severe medical treatment, the resultant financial drain is equally valid grounds for seeking a settlement or restructuring.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Banks will not grant concessions based on a verbal claim of a minor ailment. To successfully invoke compassionate grounds. The medical emergency must be severe. Verifiable. And financially debilitating. Valid emergencies typically include a diagnosis of a critical illness (such as cancer. Kidney failure. Severe cardiac conditions). Major surgical interventions requiring prolonged hospitalization. Catastrophic accidents resulting in long term disability or loss of income. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> also. The emergency does not strictly need to apply to the client alone. If the client is the primary money provider for a spouse. Child. Dependent parent who is undergoing severe medical treatment. The resultant money drain is equally valid grounds for seeking a settlement or restructuring. </p>
 
-                            <p className="text-2xl font-bold text-gray-900 mb-4 mt-8">RBI Guidelines on Humane Recovery Practices.</p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                The RBI's Fair Practices Code dictates the boundaries of acceptable recovery behavior. Agents cannot call at ungodly hours, they cannot discuss your debt with neighbors or colleagues. Most importantly, they must respect a borrower's explicit request for privacy during a medical crisis. When a borrower formally informs the bank of a severe hospitalization, the bank's internal compliance protocols should ideally halt outbound recovery calls temporarily. The failure of banks to implement this pause is a systemic flaw, which is why borrowers must take proactive, documented steps to enforce their rights and establish a strong. <Link href="/loan-default-recovery-freeze-defense" className="text-blue-600 hover:underline">loan default recovery freeze defense</Link>.
-                            </p>
+                            <p className="text-2xl font-bold text-gray-900 mb-4 mt-8">RBI rules on Humane claims Practices.</p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> The RBI's Fair Practices Code dictates the boundaries of acceptable claims behavior. Agents cannot call at ungodly hours. They cannot discuss your debt with neighbors or colleagues. Most importantly. They must respect a client's explicit request for privacy during a medical crisis. When a client formally informs the bank of a severe hospitalization. The bank's internal compliance protocols should ideally halt outbound claims calls temporarily. The failure of banks to implement this pause is a systemic flaw. This is why clients must take early. Documented steps to enforce their rights and establish a strong. <Link href="/loan-default-recovery-freeze-defense" className="text-blue-600 hover:underline">loan default claims freeze defense</Link>. </p>
 
                             <h2 id="request-moratorium" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">How to Formally Request a Medical Moratorium</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                A moratorium is a temporary holiday from making EMI payments. During a medical crisis, securing a three to six month moratorium provides critical breathing room. However, you cannot simply stop paying and assume the bank will understand. You must formally petition the bank's hierarchy, bypassing the lower level recovery agents who have no authority to grant concessions.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> A moratorium is a temporary holiday from making EMI payments. During a medical crisis. Securing a three to six month moratorium provides critical breathing room. However. You cannot simply stop paying and assume the bank will understand. You must formally petition the bank's hierarchy. Bypassing the lower level claims agents who have no formal to grant concessions. </p>
 
                             {/* Step Checklist Section Type */}
                             <div className="bg-white border border-gray-200 p-6 rounded-2xl shadow-sm mb-8 mt-6">
@@ -227,35 +180,29 @@ export default function MedicalEmergencyClient() {
                                 <div className="space-y-4">
                                     <div className="flex items-start">
                                         <div className="flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-blue-100 text-blue-600 font-bold mr-4">1</div>
-                                        <p className="text-gray-700 pt-1"><strong>Draft a Formal Hardship Letter:</strong> Write a clear, concise letter addressed to the Principal Nodal Officer or the Grievance Redressal Officer. Explain the exact nature of the illness, the impact on your income. Clearly state whether you are requesting a temporary moratorium or a full settlement.</p>
+                                        <p className="text-gray-700 pt-1"><strong>Draft a Formal Hardship Letter:</strong> Write a clear. Concise letter addressed to the main loan Nodal Officer or the Grievance Redressal Officer. Explain the exact nature of the illness. The impact on your income. Clearly state whether you are requesting a temporary moratorium or a full settlement.</p>
                                     </div>
                                     <div className="flex items-start">
                                         <div className="flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-blue-100 text-blue-600 font-bold mr-4">2</div>
-                                        <p className="text-gray-700 pt-1"><strong>Compile Verified Medical Evidence:</strong> Gather official hospital admission records, discharge summaries on hospital letterhead, diagnostic reports confirming the critical illness. A comprehensive summary of medical bills paid out of pocket.</p>
+                                        <p className="text-gray-700 pt-1"><strong>Compile Verified Medical proof:</strong> Gather formal hospital admission records. Discharge summaries on hospital letterhead. Diagnostic reports confirming the critical illness. A full summary of medical bills paid out of pocket.</p>
                                     </div>
                                     <div className="flex items-start">
                                         <div className="flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-blue-100 text-blue-600 font-bold mr-4">3</div>
-                                        <p className="text-gray-700 pt-1"><strong>Obtain a Doctor's Certificate:</strong> Ask the treating physician to provide a signed certificate explicitly stating that the patient is unable to work or requires prolonged, expensive medical care. This is a critical piece of evidence.</p>
+                                        <p className="text-gray-700 pt-1"><strong>Obtain a Doctor's letter:</strong> Ask the treating physician to provide a signed letter explicitly stating that the patient is unable to work or requires prolonged. Expensive medical care. This is a critical piece of proof.</p>
                                     </div>
                                     <div className="flex items-start">
                                         <div className="flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-blue-100 text-blue-600 font-bold mr-4">4</div>
-                                        <p className="text-gray-700 pt-1"><strong>Submit via Registered Channels:</strong> Do not hand these documents to a collection agent. Send the complete dossier via Registered Post with Acknowledgment Due. Simultaneously email scanned copies to the official grievance email IDs listed on the bank's website.</p>
+                                        <p className="text-gray-700 pt-1"><strong>Submit via Registered Channels:</strong> Do not hand these papers to a claims agent. Send the complete dossier via Registered Post with Acknowledgment Due. Simultaneously email scanned copies to the formal grievance email IDs listed on the bank's website.</p>
                                     </div>
                                 </div>
                             </div>
 
                             <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Drafting the Hardship Letter</h3>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                The hardship letter is your formal legal notification to the bank. It should not be emotional or pleading; rather, it should be factual and legally robust. State your loan account number, outline the exact date the medical emergency started, detail the projected timeline of the treatment. Explain exactly why the EMI is currently unsustainable. 
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Crucially, include a specific paragraph invoking the RBI guidelines on fair practices. State clearly that due to the severe medical condition, any outbound recovery calls to your phone or visits to your residence are causing severe medical distress and will be treated as illegal harassment. This puts the bank on legal notice. If they continue to harass you after receiving this letter, you have grounds for a very strong complaint to the banking ombudsman.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> The hardship letter is your formal legal notification to the bank. It should not be emotional or pleading. Rather. It should be factual and legally robust. State your loan account number. Outline the exact date the medical emergency started. Detail the projected timeline of the treatment. Explain exactly why the EMI is currently unsustainable. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Crucially. Include a local paragraph invoking the RBI rules on fair practices. State clearly that due to the severe medical condition. Any outbound claims calls to your phone or visits to your residence are causing severe medical distress and will be treated as illegal abuse. This puts the bank on legal notice. If they continue to harass you after receiving this letter. You have grounds for a very strong complaint to the banking ombudsman. </p>
 
                             <h2 id="negotiate-settlement" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Negotiating a Deep Settlement on Medical Grounds</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                If the medical crisis has resulted in a permanent loss of income or a catastrophic financial drain, a temporary moratorium will merely delay the inevitable. In such cases, you must pivot from requesting a pause to negotiating a full and final settlement. The objective is to close the loan account entirely for a fraction of the outstanding balance.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> If the medical crisis has resulted in a permanent loss of income or a catastrophic money drain. A temporary moratorium will merely delay the inevitable. In such cases. You must pivot from requesting a pause to settling a full and final settlement. The objective is to close the loan account entirely for a fraction of the unpaid dues. </p>
 
                             {/* Comparison Table Section Type */}
                             <div className="overflow-x-auto mb-8 mt-6">
@@ -269,50 +216,36 @@ export default function MedicalEmergencyClient() {
                                     </thead>
                                     <tbody className="divide-y divide-gray-200">
                                         <tr className="hover:bg-gray-50 transition-colors">
-                                            <td className="py-4 px-6 text-sm text-gray-700 font-medium">Negotiation Leverage.</td>
+                                            <td className="py-4 px-6 text-sm text-gray-700 font-medium">talks Leverage.</td>
                                             <td className="py-4 px-6 text-sm text-gray-600">Based purely on aging of the debt and willingness to pay.</td>
                                             <td className="py-4 px-6 text-sm text-gray-600">Based on verifiable inability to pay due to health crisis.</td>
                                         </tr>
                                         <tr className="hover:bg-gray-50 transition-colors">
                                             <td className="py-4 px-6 text-sm text-gray-700 font-medium">Expected Haircut.</td>
-                                            <td className="py-4 px-6 text-sm text-gray-600">Typically 30 to 50 percent waiver on the total outstanding.</td>
-                                            <td className="py-4 px-6 text-sm text-gray-600">Can reach 70 to 80 percent waiver, often settling for just the principal amount.</td>
+                                            <td className="py-4 px-6 text-sm text-gray-600">Typically 30 to 50 percent waiver on the total unpaid.</td>
+                                            <td className="py-4 px-6 text-sm text-gray-600">Can reach 70 to 80 percent waiver. Often settling for just the base loan.</td>
                                         </tr>
                                         <tr className="hover:bg-gray-50 transition-colors">
-                                            <td className="py-4 px-6 text-sm text-gray-700 font-medium">Approval Authority.</td>
-                                            <td className="py-4 px-6 text-sm text-gray-600">Standard branch managers or regional collection heads.</td>
-                                            <td className="py-4 px-6 text-sm text-gray-600">Requires escalation to central risk committees or the Principal Nodal Officer.</td>
+                                            <td className="py-4 px-6 text-sm text-gray-700 font-medium">Approval formal.</td>
+                                            <td className="py-4 px-6 text-sm text-gray-600">Standard branch managers or local claims heads.</td>
+                                            <td className="py-4 px-6 text-sm text-gray-600">Requires escalation to central risk boards or the main loan Nodal Officer.</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
 
                             <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Leveraging the Grievance Redressal Officer (GRO)</h3>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                The average recovery agent on the phone has zero authority to approve a deep settlement based on medical records. Their system only allows them to offer standard discounts based on how many months the account has been in default. To secure a compassionate grounds settlement, you must elevate the negotiation far above the call center floor.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                You must address your settlement proposal directly to the Grievance Redressal Officer or the Principal Nodal Officer. These senior bank officials have the mandate to review exceptional cases and the authority to override standard recovery protocols. When presenting the settlement offer, be realistic. State clearly that due to the ongoing medical expenses, you can only arrange a specific, small lump sum amount (often borrowed from relatives) to close the account permanently.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> The average claims agent on the phone has zero formal to approve a deep settlement based on medical records. Their system only allows them to offer standard discounts based on how many months the account has been in default. To secure a compassionate grounds settlement. You must elevate the talks far above the call center floor. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> You must address your offers straight to the Grievance Redressal Officer or the main loan Nodal Officer. These senior bank officials have the mandate to review exceptional cases and the formal to override standard claims protocols. When presenting the offers, be realistic. State clearly that due to the ongoing medical expenses. You can only arrange a local. Small lump sum amount (often borrowed from relatives) to close the account permanently. </p>
 
                             <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Why Banks Accept Larger Haircuts for Medical Defaults</h3>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                From a purely analytical perspective, banks understand that a borrower facing a catastrophic medical emergency represents a dead end for recovery. If a borrower has zero income and massive hospital bills, no amount of aggressive calling or legal threats will magically generate money. also, pursuing legal action against a critically ill patient is a public relations disaster and invites severe censure from the regulatory bodies.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Therefore, the bank's internal risk committee prefers to cut their losses, accept a minimal settlement to close the Non Performing Asset (NPA) file. Move on. While a deep settlement will undoubtedly impact your credit score negatively, prioritizing your health and survival is the only logical choice. Once the crisis has passed and the debt is settled, you can begin the long process of learning. <Link href="/how-to-improve-cibil-score-after-loan-settlement" className="text-blue-600 hover:underline">how to improve CIBIL score after loan settlement</Link>. Understanding <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="text-blue-600 hover:underline">what is loan settlement and how does it work in India</Link> in the context of a medical crisis can literally save lives by eliminating extreme financial stress.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> From a purely analytical perspective. Banks understand that a client facing a catastrophic medical emergency represents a dead end for claims. If a client has zero income and massive hospital bills. No amount of aggressive calling or legal threats will magically generate money. Also. Pursuing legal action against a critically ill patient is a public relations disaster and invites severe censure from the RBI bodies. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Therefore. The bank's internal risk boards prefers to cut their losses. Accept a minimal settlement to close the Non Performing Asset (NPA) file. Move on. While a deep settlement will undoubtedly impact your credit score negatively. Prioritizing your health and survival is the only logical choice. Once the crisis has passed and the debt is settled. You can begin the long process of learning. <Link href="/how-to-improve-cibil-score-after-loan-settlement" className="text-blue-600 hover:underline">how to improve CIBIL score after loan settlement</Link>. Understanding <Link href="/what-is-loan-settlement-and-how-does-it-work-in-india" className="text-blue-600 hover:underline">what is loan settlement and how does it work in India</Link> in the context of a medical crisis can literally save lives by eliminating extreme money stress. </p>
 
                             <h2 id="success-story" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Success Story: Halting Harassment During Cancer Treatment</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Consider the case of a school teacher in Bangalore who was diagnosed with advanced stage breast cancer. She had an outstanding personal loan of INR 8 Lakhs. Forced to take unpaid leave for chemotherapy, she immediately defaulted on her EMIs. Within weeks, recovery agents began calling her excessively, threatening to seize her household assets, which caused her severe panic attacks and worsened her physical condition.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Desperate, her husband contacted our legal team. We immediately intervened, drafting a stern legal notice addressed to the bank's Principal Nodal Officer. The notice included comprehensive medical paperwork from the oncologist, verifying the severity of the illness and the complete loss of income. We invoked the RBI guidelines on humane treatment and explicitly warned the bank that any further calls would be treated as criminal harassment.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                The impact was immediate. The bank's central compliance team flagged the account, and all recovery calls stopped within 24 hours. Given the terminal nature of the illness and the clear inability to pay, the bank's risk committee reviewed the file. After a month of negotiation, they agreed to close the INR 8 Lakh loan for a one time settlement of just INR 1.5 Lakhs, which the family managed to arrange from relatives. The No Dues Certificate was issued, completely removing the crushing burden of debt from a family fighting for survival.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Consider the case of a school teacher in Bangalore who was diagnosed with advanced stage breast cancer. She had an unpaid private loans of INR 8 Lakhs. Forced to take unpaid leave for chemotherapy. She promptly defaulted on her EMIs. Within weeks. Claims agents began calling her excessively. Threatening to seize her household assets. This caused her severe panic attacks and worsened her physical condition. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Desperate. Her husband contacted our legal team. We promptly intervened. Drafting a stern legal notice addressed to the bank's main loan Nodal Officer. The notice included full medical paperwork from the oncologist. Verifying the severity of the illness and the complete loss of income. We invoked the RBI rules on humane treatment and explicitly warned the bank that any further calls would be treated as criminal abuse. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> The impact was fast. The bank's central compliance team flagged the account. And all claims calls stopped within 24 hours. Given the terminal nature of the illness and the clear inability to pay. The bank's risk boards reviewed the file. After a month of talks. They agreed to close the INR 8 Lakh loan for a one time settlement of just INR 1.5 Lakhs. This the family managed to arrange from relatives. The No Dues letter was issued. Completely removing the crushing burden of debt from a family fighting for survival. </p>
 
                             <h2 id="faqs" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Frequently Asked Questions</h2>
                             <div className="space-y-6">
@@ -331,9 +264,7 @@ export default function MedicalEmergencyClient() {
                             {/* CTA Card Widget */}
                             <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center">
                                 <p className="font-bold text-2xl text-gray-900 mb-2">Trapped in Debt?</p>
-                                <p className="text-gray-600 mb-6 leading-relaxed">
-                                    Stop paying high interest and start negotiating. We protect your rights.
-                                </p>
+                                <p className="text-gray-600 mb-6 leading-relaxed"> Stop paying high interest and start settling. We protect your rights. </p>
                                 <Link href="/contact" className="block w-full bg-[#1e40af] text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-800 transition-colors shadow-md text-center text-lg mb-6">
                                     Get Legal Help
                                 </Link>

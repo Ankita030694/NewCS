@@ -640,7 +640,7 @@ export default function CreditCardNpaTimelineClient() {
                   <div>
                     <h3 className="font-bold text-slate-900">Level 3: RBI Integrated Ombudsman</h3>
                     <p className="text-slate-600 leading-relaxed text-xs">
-                      If the bank does not resolve complaints within 30 days, lodge an online complaint via the RBI portal at <a href="https://cms.rbi.org.in" target="_blank" rel="noopener noreferrer" className="text-[#1886ff] font-bold hover:underline">cms.rbi.org.in</a>.
+                      If the bank does not resolve complaints within 30 days, lodge an online complaint via the RBI portal at <a href="https://cms.rbi.org.in" target="_blank" rel="nofollow noopener noreferrer" className="text-[#1886ff] font-bold hover:underline">cms.rbi.org.in</a>.
                     </p>
                   </div>
                 </div>
@@ -826,28 +826,16 @@ export default function CreditCardNpaTimelineClient() {
               <div className="space-y-1 pt-1">
                 <span className="text-xs font-bold uppercase tracking-wider text-slate-500">Official Regulatory Portals:</span>
                 <div className="flex flex-wrap gap-1.5">
-                  <a href="https://www.rbi.org.in" target="_blank" rel="noopener noreferrer" className="text-xs px-2.5 py-1 rounded-lg bg-white hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200 flex items-center gap-1 shadow-2xs">
+                  <a href="https://www.rbi.org.in" target="_blank" rel="nofollow noopener noreferrer" className="text-xs px-2.5 py-1 rounded-lg bg-white hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200 flex items-center gap-1 shadow-2xs">
                     <span>rbi.org.in</span>
                     <ExternalLink className="w-3 h-3 text-slate-400" />
                   </a>
-                  <a href="https://cms.rbi.org.in" target="_blank" rel="noopener noreferrer" className="text-xs px-2.5 py-1 rounded-lg bg-white hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200 flex items-center gap-1 shadow-2xs">
-                    <span>cms.rbi.org.in</span>
-                    <ExternalLink className="w-3 h-3 text-slate-400" />
-                  </a>
-                  <a href="https://www.cibil.com" target="_blank" rel="noopener noreferrer" className="text-xs px-2.5 py-1 rounded-lg bg-white hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200 flex items-center gap-1 shadow-2xs">
+                  <a href="https://www.cibil.com" target="_blank" rel="nofollow noopener noreferrer" className="text-xs px-2.5 py-1 rounded-lg bg-white hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200 flex items-center gap-1 shadow-2xs">
                     <span>cibil.com</span>
                     <ExternalLink className="w-3 h-3 text-slate-400" />
                   </a>
-                  <a href="https://www.indiacode.nic.in" target="_blank" rel="noopener noreferrer" className="text-xs px-2.5 py-1 rounded-lg bg-white hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200 flex items-center gap-1 shadow-2xs">
+                  <a href="https://www.indiacode.nic.in" target="_blank" rel="nofollow noopener noreferrer" className="text-xs px-2.5 py-1 rounded-lg bg-white hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200 flex items-center gap-1 shadow-2xs">
                     <span>indiacode.nic.in</span>
-                    <ExternalLink className="w-3 h-3 text-slate-400" />
-                  </a>
-                  <a href="https://nalsa.gov.in" target="_blank" rel="noopener noreferrer" className="text-xs px-2.5 py-1 rounded-lg bg-white hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200 flex items-center gap-1 shadow-2xs">
-                    <span>nalsa.gov.in</span>
-                    <ExternalLink className="w-3 h-3 text-slate-400" />
-                  </a>
-                  <a href="https://cybercrime.gov.in" target="_blank" rel="noopener noreferrer" className="text-xs px-2.5 py-1 rounded-lg bg-white hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200 flex items-center gap-1 shadow-2xs">
-                    <span>cybercrime.gov.in</span>
                     <ExternalLink className="w-3 h-3 text-slate-400" />
                   </a>
                 </div>

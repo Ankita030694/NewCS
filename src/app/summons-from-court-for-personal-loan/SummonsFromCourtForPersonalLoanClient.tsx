@@ -47,43 +47,43 @@ export default function SummonsFromCourtForPersonalLoanClient() {
     const faqs = [
         {
             q: "What is a court summons for a personal loan default?",
-            a: "A court summons for a personal loan default is a formal judicial notice issued by a Civil Court, Magistrate Court. Debt Recovery Tribunal (DRT). It informs the borrower that the lending bank has instituted recovery proceedings. Examples include a summary suit under Order 37 CPC or a Section 138 NI Act complaint, requiring formal legal appearance."
+            a: "A court summons for a private loans default is a formal judicial notice issued by a Civil Court, Magistrate Court. Debt collection Tribunal (DRT). It informs the client that the lending bank has instituted collection steps. Examples include a summary suit under Order 37 CPC or a Section 138 NI Act complaint, requiring formal legal appearance."
         },
         {
             q: "Do I have to appear in court if I receive a loan summons?",
-            a: "Yes, you or your appointed advocate must enter an appearance on or before the specified hearing date. In civil summary suits, your advocate files a Vakalatnama and Leave to Defend. In Section 138 or Section 25 cases, appearance is required to secure bail and avoid non-bailable warrants."
+            a: "Yes, you or your appointed advocate must enter an appearance on or before the specified hearing date. In civil summary suits, your advocate files a Vakalatnama and Leave to Defend. In Section 138 or Section 25 cases. Appearance is required to secure bail and avoid non-bailable warrants."
         },
         {
             q: "What happens if I ignore a court summons for a personal loan?",
-            a: "Ignoring a civil court summons causes the judge to declare you ex-parte under Order 9 Rule 6 CPC, passing a money decree in favor of the lender. In Section 138/25 cases, non-appearance leads to bailable and non-bailable warrants. An ex-parte decree allows the bank to seek execution through salary or account attachment."
+            a: "Ignoring a civil court summons causes the judge to declare you ex-parte under Order 9 Rule 6 CPC. Passing a money decree in favor of the lender. In Section 138/25 cases, non-appearance leads to bailable and non-bailable warrants. An ex-parte decree allows the bank to seek execution through salary or account attachment."
         },
         {
             q: "Can I be arrested or sent to jail for an unpaid personal loan?",
-            a: "Defaulting on an unsecured personal loan is strictly a civil dispute. Civil courts do not order imprisonment for genuine financial inability under Section 51 CPC. However, in Section 138 cheque bounce or Section 25 NACH dishonor cases, repeated non-appearance can result in arrest warrants."
+            a: "Defaulting on an no-collateral private loans is strictly a civil dispute. Civil courts do not order imprisonment for genuine money inability under Section 51 CPC. However, in Section 138 cheque bounce or Section 25 NACH dishonor cases. Repeated non-appearance can result in arrest warrants."
         },
         {
             q: "Can a personal loan court case be settled out of court?",
-            a: "Yes, a personal loan court case can be settled at any stage before final decree execution through a One-Time Settlement (OTS) or Lok Adalat compromise. CredSettle negotiates with bank credit committees to secure 40% to 55% waivers, drafting formal consent terms submitted to the court for suit withdrawal."
+            a: "Yes, a private loans court case can be settled at any stage before final decree execution through a One-Time Settlement (OTS) or Lok Adalat OTS deal. CredSettle negotiates with bank credit boards to secure 40% to 55% waivers. Drafting formal consent terms submitted to the court for suit withdrawal."
         },
         {
             q: "What is a summary suit under Order 37 of CPC for loan recovery?",
-            a: "Order 37 of the Code of Civil Procedure 1908 is an expedited judicial procedure for debt recovery where defendants must apply for Leave to Defend within 10 days of summons service, presenting triable legal issues such as disputed penal interest, unauthorized fees. Unfair banking practices."
+            a: "Order 37 of the Code of Civil Procedure 1908 is an expedited judicial procedure for debt collection where defendants must apply for Leave to Defend within 10 days of summons service. Presenting triable legal issues such as disputed penal interest, illegal fees. Unfair banking practices."
         },
         {
             q: "How does CredSettle defend against a bank court summons?",
-            a: "CredSettle engages verified panel advocates to file a Vakalatnama, conduct a forensic statement audit, submit written statements or Leave to Defend petitions. Negotiate a One-Time Settlement with bank credit desks. We secure formal compromise consent terms, obtain No Dues Certificates, and ensure court suit dismissal."
+            a: "CredSettle engages verified panel advocates to file a Vakalatnama. Conduct a deep record audit. Submit written records or Leave to Defend petitions. settle a One-Time Settlement with bank credit desks. We secure formal OTS deal consent terms. Obtain No Dues letters, and ensure court suit dismissal."
         },
         {
             q: "Can the bank attach my salary or freeze my bank account after summons?",
-            a: "A bank cannot attach salary or freeze accounts merely upon issuing a summons. Attachment can only occur after the court passes a final decree and the lender files an execution petition under Order 21 CPC. Even then, Section 60 CPC exempts statutory subsistence allowances to protect borrower livelihood."
+            a: "A bank cannot attach salary or freeze accounts merely upon issuing a summons. Attachment can only occur after the court passes a final decree and the lender files an execution petition under Order 21 CPC. Even then, Section 60 CPC exempts legal subsistence allowances to protect client livelihood."
         },
         {
             q: "What is the difference between a lawyer notice and a court summons?",
-            a: "A legal notice from a bank lawyer is an informal pre-litigation demand letter with no judicial authority. In contrast, a court summons is an official sovereign judicial order issued under the seal and signature of a court registrar, carrying mandatory statutory dues to appear and defend under procedural law."
+            a: "A legal notice from a bank lawyer is an informal pre-lawsuits demand letter with no judicial formal. In contrast, a court summons is an formal sovereign judicial order issued under the seal and signature of a court registrar. Carrying strict legal dues to appear and defend under procedural law."
         },
         {
             q: "How does settling a court loan dispute impact my CIBIL score?",
-            a: "Settling a personal loan case updates the bureau status to Settled. While this resolves litigation and ends legal liability, the settled tag reflects on credit history. Borrowers can later convert this status to Closed under Section 21 of CICRA 2005 by clearing remaining balances or rebuilding credit to 750+ within 12 to 24 months."
+            a: "Settling a private loans case updates the bureau status to Settled. While this resolves lawsuits and ends legal debt risk. The settled tag reflects on credit history. clients can later convert this status to Closed under Section 21 of CICRA 2005 by clearing remaining balances or rebuilding credit to 750+ within 12 to 24 months."
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -100,9 +100,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
             Received a Court Summons for Personal Loan Default? Legal Steps
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed">
-            Received a court summons for personal loan default? Learn your defense rights under civil procedure rules, avoid ex-parte decrees, and resolve debt via settlement.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed"> Received a court summons for private loans default? Learn your defense rights under civil procedure rules. Avoid ex-parte decrees, and resolve debt via settlement. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -146,9 +144,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>Statutory Judicial Defense.</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Governed by Code of Civil Procedure 1908 and RBI Master Directions.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by Code of Civil Procedure 1908 and RBI Master Directions. </p>
               </div>
             </div>
           </aside>
@@ -164,9 +160,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
                   Executive Summary: Responding to a Court Summons
                 </h2>
               </div>
-              <p className="text-xs md:text-sm text-slate-700 leading-relaxed mb-4">
-                A court summons marks formal judicial escalation. Knowing your procedural rights prevents irreversible ex-parte liability.
-              </p>
+              <p className="text-xs md:text-sm text-slate-700 leading-relaxed mb-4"> A court summons marks formal judicial escalation. Knowing your procedural rights prevents irreversible ex-parte debt risk. </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs md:text-sm text-slate-800">
                 <div className="flex items-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
@@ -208,15 +202,9 @@ export default function SummonsFromCourtForPersonalLoanClient() {
               <h2 className="text-xl md:text-2xl font-black text-slate-900 tracking-tight">
                 1. Civil Debt Economics: Loan Default to Court Summons
               </h2>
-              <p className="text-xs md:text-sm text-slate-700 leading-relaxed">
-                When an unsecured personal loan defaults, lenders classify the debt under RBI Prudential Norms. Overdue accounts transition from SMA-0 (1-30 days) to SMA-1 (31-60 days) and SMA-2 (61-90 days). After 90 days of non-payment, the account is classified as a Non-Performing Asset (NPA).
-              </p>
-              <p className="text-xs md:text-sm text-slate-700 leading-relaxed">
-                NPA classification requires banks to allocate 100% Tier-1 capital provisioning against bad debt. Because unsecured loans lack mortgage collateral, lenders cannot invoke property seizure under the SARFAESI Act. Instead, institutions file civil recovery suits under Order 37 CPC or initiate proceedings for bounced payment mandates.
-              </p>
-              <p className="text-xs md:text-sm text-slate-700 leading-relaxed">
-                Civil litigation requires banks to deposit court fees and endure multi-year judicial proceedings. For credit committees, lengthy litigation represents an inefficient use of capital. This commercial dynamic creates strong leverage for represented borrowers to negotiate an out-of-court One-Time Settlement (OTS), providing immediate recovery for the bank and large debt relief.
-              </p>
+              <p className="text-xs md:text-sm text-slate-700 leading-relaxed"> When an no-collateral private loans defaults. Lenders classify the debt under RBI Prudential Norms. Overdue accounts transition from SMA-0 (1-30 days) to SMA-1 (31-60 days) and SMA-2 (61-90 days). After 90 days of non-payment. The account is classified as a Non-Performing Asset (NPA). </p>
+              <p className="text-xs md:text-sm text-slate-700 leading-relaxed"> NPA classification requires banks to allocate 100% Tier-1 cash provisioning against bad debt. Because no-collateral loans lack mortgage security. Lenders cannot invoke property seizure under the SARFAESI Act. Instead, institutions file civil collection suits under Order 37 CPC or initiate proceedings for bounced payment mandates. </p>
+              <p className="text-xs md:text-sm text-slate-700 leading-relaxed"> Civil lawsuits requires banks to deposit court fees and endure multi-year judicial proceedings. For credit boards, lengthy lawsuits represents an inefficient use of cash. This trade dynamic creates strong leverage for represented clients to settle an out-of-court One-Time Settlement (OTS). This provides fast collection for the bank and large debt relief. </p>
             </section>
 
             {/* SECTION 2: FINANCIAL BREAKDOWN & SETTLEMENT MATH */}
@@ -224,12 +212,8 @@ export default function SummonsFromCourtForPersonalLoanClient() {
               <h2 className="text-xl md:text-2xl font-black text-slate-900 tracking-tight">
                 2. Financial Breakdown: Principal Dues vs Inflated Claims
               </h2>
-              <p className="text-xs md:text-sm text-slate-700 leading-relaxed">
-                Monetary claims in court summons are heavily inflated beyond the original loan balance. Lenders compound monthly penal interest above 30% per annum, adding overdue fees, recurring bounce charges, legal expenses. GST across every surcharge.
-              </p>
-              <p className="text-xs md:text-sm text-slate-700 leading-relaxed">
-                Under RBI Fair Practices Code, penalty charges cannot be capitalized into loan principal. A forensic audit eliminates these unverified penalties to establish true net principal exposure. In a typical ₹10,00,000 loan default where claimed dues reach ₹14,80,000, CredSettle establishes true principal of ₹7,50,000 and negotiates an out-of-court OTS of ₹3,75,000 to ₹4,50,000, securing a 50% to 62% overall reduction with full suit dismissal.
-              </p>
+              <p className="text-xs md:text-sm text-slate-700 leading-relaxed"> Monetary claims in court summons are heavily inflated beyond the original loan balance. Lenders compound monthly penal interest above 30% per annum. Adding overdue fees, recurring bounce charges, legal expenses. GST across every surcharge. </p>
+              <p className="text-xs md:text-sm text-slate-700 leading-relaxed"> Under RBI Fair Practices Code. Penalty charges cannot be capitalized into loan main loan. A audits eliminates these unverified penalties to establish true net main loan exposure. In a typical ₹10,00,000 loan default where claimed dues reach ₹14,80,000. CredSettle establishes true main loan of ₹7,50,000 and negotiates an out-of-court OTS of ₹3,75,000 to ₹4,50,000. Securing a 50% to 62% overall reduction with full suit dismissal. </p>
 
               {/* Representative Calculation Card */}
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 md:p-6 space-y-4">
@@ -249,31 +233,23 @@ export default function SummonsFromCourtForPersonalLoanClient() {
                   <div className="p-4 rounded-xl bg-slate-50 border border-slate-100 space-y-1">
                     <span className="text-slate-500 font-medium block">Total Bank Court Claim.</span>
                     <span className="text-lg font-extrabold text-red-600 block">₹14,80,000</span>
-                    <p className="text-[11px] text-slate-500 leading-tight">
-                      Includes principal plus compounded penal interest and fees.
-                    </p>
+                    <p className="text-[11px] text-slate-500 leading-tight"> Includes main loan plus compounded penal interest and fees. </p>
                   </div>
 
                   <div className="p-4 rounded-xl bg-blue-50/50 border border-blue-100 space-y-1">
                     <span className="text-slate-600 font-medium block">Audited Net Principal.</span>
                     <span className="text-lg font-extrabold text-blue-700 block">₹7,50,000</span>
-                    <p className="text-[11px] text-slate-600 leading-tight">
-                      True liability established after removing penalty charges.
-                    </p>
+                    <p className="text-[11px] text-slate-600 leading-tight"> True debt risk established after removing penalty charges. </p>
                   </div>
 
                   <div className="p-4 rounded-xl bg-emerald-50/60 border border-emerald-100 space-y-1">
                     <span className="text-emerald-800 font-medium block">Final CredSettle OTS Range.</span>
                     <span className="text-lg font-extrabold text-emerald-600 block">₹3,75,000 - ₹4,50,000.</span>
-                    <p className="text-[11px] text-emerald-700 leading-tight">
-                      Achieved 50% to 62% reduction with suit dismissal and NDC.
-                    </p>
+                    <p className="text-[11px] text-emerald-700 leading-tight"> Achieved 50% to 62% reduction with suit dismissal and NDC. </p>
                   </div>
                 </div>
 
-                <p className="text-xs text-slate-600 leading-relaxed pt-2 border-t border-slate-100">
-                  By engaging the bank legal desk before an ex-parte decree is passed, borrowers transform an aggressive court demand into an affordable compromise settlement.
-                </p>
+                <p className="text-xs text-slate-600 leading-relaxed pt-2 border-t border-slate-100"> By engaging the bank legal desk before an ex-parte decree is passed. Clients transform an aggressive court demand into an affordable OTS deals. </p>
               </div>
             </section>
 
@@ -282,9 +258,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
               <h2 className="text-xl md:text-2xl font-black text-slate-900 tracking-tight">
                 3. Resolution Comparison: Court Defense vs Settlement
               </h2>
-              <p className="text-xs md:text-sm text-slate-700 leading-relaxed">
-                Borrowers facing judicial summons must evaluate resolution pathways against legal exposure, timeframe, and financial relief. While courtroom litigation takes years and ignoring summons leads to ex-parte decree execution, a structured out-of-court compromise provides rapid closure and maximum debt waiver.
-              </p>
+              <p className="text-xs md:text-sm text-slate-700 leading-relaxed"> clients facing judicial summons must evaluate relief pathways against legal exposure, timeframe, and money relief. While courtroom lawsuits takes years and ignoring summons leads to ex-parte decree execution. A structured out-of-court OTS deal provides rapid closure and maximum debt waiver. </p>
 
               {/* 4-Sided Bordered Comparison Table */}
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
@@ -301,8 +275,8 @@ export default function SummonsFromCourtForPersonalLoanClient() {
                   <tbody className="divide-y divide-slate-200/80 text-slate-700">
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors">
                       <td className="p-3.5 md:p-4 font-bold text-slate-900">One-Time Settlement (OTS).</td>
-                      <td className="p-3.5 md:p-4">Credit Desk &amp; Court Withdrawal.</td>
-                      <td className="p-3.5 md:p-4 font-bold text-emerald-600">40% to 55% Principal Waiver.</td>
+                      <td className="p-3.5 md:p-4">Credit Desk &amp. Court Withdrawal.</td>
+                      <td className="p-3.5 md:p-4 font-bold text-emerald-600">40% to 55% loan cut.</td>
                       <td className="p-3.5 md:p-4">30 to 60 Days</td>
                       <td className="p-3.5 md:p-4">Settled (Rebuildable to 750+).</td>
                     </tr>
@@ -315,7 +289,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors">
                       <td className="p-3.5 md:p-4 font-bold text-slate-900">Civil Court Defense.</td>
-                      <td className="p-3.5 md:p-4">District Civil / Commercial Court.</td>
+                      <td className="p-3.5 md:p-4">areas Civil / trade Court.</td>
                       <td className="p-3.5 md:p-4 text-slate-700">Subject to Final Judgment.</td>
                       <td className="p-3.5 md:p-4">2 to 5 Years</td>
                       <td className="p-3.5 md:p-4">Suit Filed (Sub-550 Score).</td>
@@ -323,7 +297,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors">
                       <td className="p-3.5 md:p-4 font-bold text-slate-900">Lok Adalat Settlement.</td>
                       <td className="p-3.5 md:p-4">NALSA Judicial Bench.</td>
-                      <td className="p-3.5 md:p-4 font-bold text-emerald-600">30% to 50% Compromise Decree.</td>
+                      <td className="p-3.5 md:p-4 font-bold text-emerald-600">30% to 50% OTS deal Decree.</td>
                       <td className="p-3.5 md:p-4">Single Hearing Sitting.</td>
                       <td className="p-3.5 md:p-4">Settled via Judicial Decree.</td>
                     </tr>
@@ -331,7 +305,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
                       <td className="p-3.5 md:p-4 font-bold text-red-700">Ignoring Court Summons.</td>
                       <td className="p-3.5 md:p-4 text-red-700">Ex-Parte Judicial Order.</td>
                       <td className="p-3.5 md:p-4 font-bold text-red-700">0% Relief (100% + Interest).</td>
-                      <td className="p-3.5 md:p-4 text-red-700">Immediate Ex-Parte Order.</td>
+                      <td className="p-3.5 md:p-4 text-red-700">fast Ex-Parte Order.</td>
                       <td className="p-3.5 md:p-4 text-red-700">Wilful Default / Sub-500 Score.</td>
                     </tr>
                   </tbody>
@@ -344,12 +318,8 @@ export default function SummonsFromCourtForPersonalLoanClient() {
               <h2 className="text-xl md:text-2xl font-black text-slate-900 tracking-tight">
                 4. CIBIL Algorithm: Legal Defaults &amp; Credit Rebuilding
               </h2>
-              <p className="text-xs md:text-sm text-slate-700 leading-relaxed">
-                Credit bureaus evaluate creditworthiness using an algorithm weighted across five metrics: payment history (35%), credit use (30%), credit history length (15%), credit mix (10%). New inquiries (10%).
-              </p>
-              <p className="text-xs md:text-sm text-slate-700 leading-relaxed">
-                When a bank files a recovery suit, it reports the account as Suit Filed, causing a score drop to sub-550. Executing an out-of-court OTS halts litigation and updates bureau status to Settled. Under Section 21 of CICRA 2005, borrowers can convert settled records to Closed or restore their CIBIL score to 750+ within 12 to 24 months through secured credit builder tools.
-              </p>
+              <p className="text-xs md:text-sm text-slate-700 leading-relaxed"> Credit bureaus evaluate creditworthiness using an algorithm weighted across five metrics: payment history (35%). Credit use (30%), credit history length (15%), credit mix (10%). New inquiries (10%). </p>
+              <p className="text-xs md:text-sm text-slate-700 leading-relaxed"> When a bank files a collection suit. It reports the account as Suit Filed. This causes a score drop to sub-550. Executing an out-of-court OTS halts lawsuits and updates bureau status to Settled. Under Section 21 of CICRA 2005. Clients can convert settled records to Closed or restore their CIBIL score to 750+ within 12 to 24 months through secured credit builder tools. </p>
             </section>
 
             {/* SECTION 5: INFOGRAPHIC ASSET CARD */}
@@ -357,9 +327,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
               <h2 className="text-xl md:text-2xl font-black text-slate-900 tracking-tight">
                 Court Summons Defense Blueprint &amp; Action Plan
               </h2>
-              <p className="text-xs md:text-sm text-slate-700 leading-relaxed">
-                The visual roadmap below details the 6-stage procedural workflow for responding to personal loan court summons, establishing legal representation. Negotiating an out-of-court compromise settlement.
-              </p>
+              <p className="text-xs md:text-sm text-slate-700 leading-relaxed"> The visual roadmap below details the 6-stage procedural workflow for responding to private loans court summons, establishing legal legal help. settling an out-of-court OTS deals. </p>
 
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-md p-4 overflow-hidden">
                 <div className="relative aspect-[16/9] w-full rounded-xl overflow-hidden bg-slate-900">
@@ -380,9 +348,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
               <h2 className="text-xl md:text-2xl font-black text-slate-900 tracking-tight">
                 5. Step-by-Step SOP: 6 Stages of Court Summons Defense
               </h2>
-              <p className="text-xs md:text-sm text-slate-700 leading-relaxed">
-                Handling a personal loan court summons requires a disciplined standard operating procedure combining courtroom representation with credit desk negotiations.
-              </p>
+              <p className="text-xs md:text-sm text-slate-700 leading-relaxed"> Handling a private loans court summons requires a disciplined standard operating procedure combining courtroom legal help with credit desk talks. </p>
 
               <div className="space-y-4">
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-5 shadow-xs space-y-2">
@@ -394,9 +360,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
                       Stage 1: Judicial Audit &amp; Summons Verification
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-10">
-                    We inspect the summons to verify court seal authenticity, case filing number, judicial forum. Appearance date, checking for limitation defects under the Limitation Act 1963 and unverified compound penal interest.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-10"> We inspect the summons to verify court seal authenticity. Case filing number, judicial forum. Appearance date, checking for limitation defects under the Limitation Act 1963 and unverified compound penal interest. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-5 shadow-xs space-y-2">
@@ -408,9 +372,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
                       Stage 2: Comprehensive Hardship Dossier Compilation
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-10">
-                    To show genuine inability rather than wilful default, we assemble paperwork verifying job loss, medical emergencies. Revenue downturns to substantiate compromise settlement proposals.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-10"> To show genuine inability rather than wilful default. We assemble paperwork verifying job loss, medical emergencies. income downturns to prove OTS deals proposals. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-5 shadow-xs space-y-2">
@@ -422,9 +384,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
                       Stage 3: Formal Appearance &amp; Vakalatnama Execution
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-10">
-                    Our panel advocate enters appearance before the judge by submitting a Vakalatnama. In Order 37 summary suits, we file Leave to Defend. In Section 138/25 cases, counsel secures bail to avoid arrest warrants.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-10"> Our panel advocate enters appearance before the judge by submitting a Vakalatnama. In Order 37 summary suits. We file Leave to Defend. In Section 138/25 cases, counsel secures bail to avoid arrest warrants. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-5 shadow-xs space-y-2">
@@ -436,9 +396,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
                       Stage 4: Bilateral Credit Committee Negotiations
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-10">
-                    While counsel manages court proceedings, our debt negotiators engage the bank stressed asset desk. We bypass collection agents, present hardship records. Demand complete penal fee waivers to secure a 40% to 55% settlement.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-10"> While counsel manages court proceedings. Our debt negotiators engage the bank stressed asset desk. We bypass collection agents, present hardship records. Demand complete penal fee waivers to secure a 40% to 55% settlement. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-5 shadow-xs space-y-2">
@@ -450,9 +408,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
                       Stage 5: Settlement Sanction Letter Legal Audit
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-10">
-                    Before authorizing payment, our legal team verifies the formal settlement letter. We confirm authentic bank letterhead, verify tranche payment schedules. Ensure a clause mandating court suit withdrawal upon payment.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-10"> Before authorizing payment, our legal team verifies the formal settlement letter. We confirm authentic bank letterhead, verify tranche payment schedules. Ensure a clause mandating court suit withdrawal upon payment. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-5 shadow-xs space-y-2">
@@ -464,9 +420,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
                       Stage 6: Direct Remittance, Court Dismissal &amp; NDC
                     </h3>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-10">
-                    You pay compromise funds directly into your loan account via RTGS or NEFT. The bank counsel files a withdrawal memo in court, dismissing the suit. We obtain your No Dues Certificate and initiate bureau updates.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-700 leading-relaxed pl-10"> You pay OTS deal funds straight into your loan account via RTGS or NEFT. The bank counsel files a withdrawal memo in court, dismissing the suit. We obtain your No Dues letter and initiate bureau updates. </p>
                 </div>
               </div>
             </section>
@@ -476,9 +430,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
               <h2 className="text-xl md:text-2xl font-black text-slate-900 tracking-tight">
                 6. Statutory Notice Defense: Legal Framework &amp; Rights
               </h2>
-              <p className="text-xs md:text-sm text-slate-700 leading-relaxed">
-                Indian law provides procedural protections against arbitrary recovery litigation. Understanding your statutory rights ensures you never surrender valid legal defenses.
-              </p>
+              <p className="text-xs md:text-sm text-slate-700 leading-relaxed"> Indian law provides procedural protections against arbitrary collection lawsuits. Understanding your legal rights ensures you never surrender valid legal defenses. </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-5 shadow-xs space-y-2">
@@ -488,9 +440,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
                       Section 25 Payment &amp; Settlement Systems Act
                     </h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Applies when NACH auto-debit mandates bounce. Lenders must prove that a valid statutory 30-day demand notice was properly served before filing a court complaint.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Applies when NACH auto-debit mandates bounce. Lenders must prove that a valid legal 30-day demand notice was properly served before filing a court complaint. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-5 shadow-xs space-y-2">
@@ -500,9 +450,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
                       Section 138 Negotiable Instruments Act
                     </h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Governs bounced security cheques. Banks must prove the cheque was issued toward an existing legal debt rather than as an undated security token at loan sanction.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Governs bounced security cheques. Banks must prove the cheque was issued toward an existing legal debt rather than as an undated security token at loan sanction. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-5 shadow-xs space-y-2">
@@ -512,9 +460,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
                       Arbitration &amp; Supreme Court Precedents
                     </h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Under Supreme Court rulings in TRF Ltd. and Perkins Eastman, banks cannot unilaterally appoint a sole arbitrator. Such appointments are void under Section 12(5) of the 1996 Act.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Under Supreme Court rulings in TRF Ltd. And Perkins Eastman, banks cannot unilaterally appoint a sole arbitrator. Such appointments are void under Section 12(5) of the 1996 Act. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-5 shadow-xs space-y-2">
@@ -524,9 +470,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
                       DRT Jurisdiction &amp; RBI Fair Practices
                     </h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Debt Recovery Tribunals handle claims strictly exceeding ₹20 Lakhs. Under RBI Fair Practices Code 2026, lenders cannot use abusive language, contact third parties. Visit outside 8 AM to 7 PM.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Debt collection Tribunals handle claims strictly exceeding ₹20 Lakhs. Under RBI Fair Practices Code 2026. Lenders cannot use abusive language, contact third parties. Visit outside 8 AM to 7 PM. </p>
                 </div>
               </div>
             </section>
@@ -536,36 +480,28 @@ export default function SummonsFromCourtForPersonalLoanClient() {
               <h2 className="text-xl md:text-2xl font-black text-slate-900 tracking-tight">
                 7. 3-Tier Grievance Escalation &amp; Redressal Matrix
               </h2>
-              <p className="text-xs md:text-sm text-slate-700 leading-relaxed">
-                When lenders violate banking guidelines or initiate coercive litigation, borrowers can activate the formal 3-tier regulatory redressal mechanism established by the Reserve Bank of India.
-              </p>
+              <p className="text-xs md:text-sm text-slate-700 leading-relaxed"> When lenders violate banking rules or initiate coercive lawsuits. Clients can activate the formal 3-tier RBI redressal mechanism established by the Reserve Bank of India. </p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs md:text-sm">
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-5 shadow-xs space-y-2">
                   <div className="flex items-center justify-between border-b border-slate-100 pb-2">
                     <span className="font-bold text-slate-900">Level 1: Grievance Redressal Officer (7-10 Days).</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Submit a written complaint to the bank Grievance Redressal Officer detailing unfair interest calculation, lack of statutory notice. Recovery agent misconduct.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Submit a written complaint to the bank Grievance Redressal Officer detailing unfair interest calculation, lack of legal notices. collection agent misconduct. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-5 shadow-xs space-y-2">
                   <div className="flex items-center justify-between border-b border-slate-100 pb-2">
                     <span className="font-bold text-slate-900">Level 2: Principal Nodal Officer (14-21 Days).</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    If Level 1 fails to resolve the dispute within 10 days, escalate the matter to the bank Principal Nodal Officer and Internal Ombudsman for executive review.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> If Level 1 fails to resolve the dispute within 10 days. Escalate the matter to the bank main loan Nodal Officer and Internal Ombudsman for executive review. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-5 shadow-xs space-y-2">
                   <div className="flex items-center justify-between border-b border-slate-100 pb-2">
                     <span className="font-bold text-slate-900">Level 3: RBI Ombudsman (30 Days Maximum).</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    File an institutional complaint on the RBI Integrated Ombudsman portal (cms.rbi.org.in) for deficiency in banking service, improper billing. Unfair litigation tactics.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> File an bank complaint on the RBI Integrated Ombudsman portal (cms.rbi.org.in) for deficiency in banking service, improper billing. Unfair lawsuits tactics. </p>
                 </div>
               </div>
             </section>
@@ -575,9 +511,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
               <h2 className="text-xl md:text-2xl font-black text-slate-900 tracking-tight">
                 8. Chronological Timeline: Default to Decree Avoidance
               </h2>
-              <p className="text-xs md:text-sm text-slate-700 leading-relaxed">
-                Loan default progresses through predictable legal milestones. Engaging specialized defense early prevents ex-parte orders and maximizes settlement savings.
-              </p>
+              <p className="text-xs md:text-sm text-slate-700 leading-relaxed"> Loan default progresses through predictable legal milestones. Engaging specialized defense early prevents ex-parte orders and maximizes settlement savings. </p>
 
               {/* 4-Sided Bordered Chronological Table */}
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
@@ -600,7 +534,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors">
                       <td className="p-3.5 md:p-4 font-bold text-slate-900">Day 31 to 90</td>
                       <td className="p-3.5 md:p-4">SMA-1 / SMA-2 Alert.</td>
-                      <td className="p-3.5 md:p-4">Third-party agency calls and field visits.</td>
+                      <td className="p-3.5 md:p-4">Third-party firm calls and field visits.</td>
                       <td className="p-3.5 md:p-4">Enforce RBI calling hours and compile hardship records.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors">
@@ -617,7 +551,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors bg-emerald-50/30">
                       <td className="p-3.5 md:p-4 font-bold text-emerald-700">Month 6+</td>
-                      <td className="p-3.5 md:p-4 font-bold text-emerald-700">Compromise Resolution.</td>
+                      <td className="p-3.5 md:p-4 font-bold text-emerald-700">OTS deal.</td>
                       <td className="p-3.5 md:p-4">Credit desk accepts 40%-55% OTS waiver.</td>
                       <td className="p-3.5 md:p-4">Execute settlement sanction, dismiss suit and get NDC.</td>
                     </tr>
@@ -631,9 +565,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
               <h2 className="text-xl md:text-2xl font-black text-slate-900 tracking-tight">
                 9. Specialized Scenarios: Layoffs, ARCs &amp; Multiple Loans
               </h2>
-              <p className="text-xs md:text-sm text-slate-700 leading-relaxed">
-                Legal defense strategies must adapt to the commercial situation surrounding personal loan defaults. CredSettle handles complex loan disputes nationwide.
-              </p>
+              <p className="text-xs md:text-sm text-slate-700 leading-relaxed"> Legal defense plans must adapt to the trade situation surrounding private loans defaults. CredSettle handles complex loan disputes nationwide. </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-5 shadow-xs space-y-2">
@@ -643,9 +575,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
                       Multi-Lender Consolidation &amp; Cross-Court Filings
                     </h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Borrowers with multiple defaulted loans often face concurrent summons across different courts. We consolidate legal representations, avoid conflicting orders, and coordinate simultaneous multi-bank settlements.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> clients with multiple defaulted loans often face concurrent summons across different courts. We consolidate legal representations, avoid conflicting orders. And coordinate simultaneous multi-bank settlements. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-5 shadow-xs space-y-2">
@@ -655,9 +585,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
                       Corporate Layoffs &amp; Loss of Livelihood
                     </h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Salaried executives facing sudden job loss cannot service high-value personal loans. We leverage severance records, termination notices, and bank statements to secure maximum principal waivers.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Salaried executives facing sudden job loss cannot service high-value private loans. We leverage severance records, termination notices. And bank records to secure maximum main loan waivers. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-5 shadow-xs space-y-2">
@@ -667,9 +595,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
                       Proprietorship Working Capital Personal Loans
                     </h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Business owners who used personal loans for operational cash flow face recovery suits during business downturns. We shield personal assets from business debt claims and prevent insolvency actions.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> shop owners who used private loans for daily work cash flow face collection suits during trade downturns. We shield own assets from trade debt claims and prevent insolvency actions. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-5 shadow-xs space-y-2">
@@ -679,9 +605,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
                       ARC Debt Assignments &amp; Inflated Demands
                     </h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    When loans are assigned to Asset Reconstruction Companies (ARCs), ARCs initiate aggressive suits demanding inflated interest. We audit assignment deeds under SARFAESI Section 5 and negotiate deep haircuts.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> When loans are assigned to Asset Reconstruction Companies (ARCs). ARCs initiate aggressive suits demanding inflated interest. We audit assignment deeds under SARFAESI Section 5 and settle deep haircuts. </p>
                 </div>
               </div>
             </section>
@@ -702,9 +626,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
                   Frequently Asked Questions: Court Summons for Loan
                 </h2>
               </div>
-              <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                Find clear, authoritative answers to common legal and financial questions regarding personal loan court summons, advocate representation. Out-of-court settlements in India.
-              </p>
+              <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Find clear, authoritative answers to common legal and money questions regarding private loans court summons, advocate legal help. Out-of-court settlements in India. </p>
 
               <div className="space-y-3">
                 {faqs.map((faq, idx) => (<div key={idx} className="border border-slate-200/80 rounded-2xl bg-white overflow-hidden shadow-xs transition-colors">
@@ -726,9 +648,7 @@ export default function SummonsFromCourtForPersonalLoanClient() {
                 Statutory Authorities &amp; Governing Legal Frameworks
               </h2>
               
-              <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                CredSettle operates strictly within statutory provisions established by the Indian judicial system, Parliamentary enactments. Regulatory directives of the Reserve Bank of India.
-              </p>
+              <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> CredSettle operates strictly within legal rules established by the Indian judicial system, Parliamentary enactments. RBI directives of the Reserve Bank of India. </p>
 
               {/* 6 Outbound Authority Badges */}
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5 pt-2">
@@ -766,10 +686,10 @@ export default function SummonsFromCourtForPersonalLoanClient() {
               {/* Statutory Citations List */}
               <ul className="space-y-2 text-xs text-slate-600 border-t border-slate-100 pt-4 leading-relaxed">
                 <li><strong>Code of Civil Procedure, 1908:</strong> Order XXXVII (Summary Procedure), Order IX Rule 6 (Ex-Parte Hearing). Section 60 (Property and Salary Exemptions from Attachment).</li>
-                <li><strong>Negotiable Instruments Act, 1881:</strong> Section 138 (Dishonour of Cheque for Insufficiency of Funds) and Section 141 (Company Liability).</li>
+                <li><strong>Negotiable Instruments Act, 1881:</strong> Section 138 (Dishonour of Cheque for Insufficiency of Funds) and Section 141 (Company debt risk).</li>
                 <li><strong>Payment and Settlement Systems Act, 2007:</strong> Section 25 (Dishonour of Electronic Funds Transfer Mandates).</li>
-                <li><strong>Reserve Bank of India Master Directions:</strong> Master Direction on Fair Practices Code for Lenders and Regulatory Framework for Stressed Assets (Updated 2026).</li>
-                <li><strong>Credit Information Companies (Regulation) Act, 2005:</strong> Section 21 (Statutory Duty of Accuracy and Credit Information Dispute Resolution).</li>
+                <li><strong>Reserve Bank of India Master Directions:</strong> Master Direction on Fair Practices Code for Lenders and RBI rules for Stressed Assets (Updated 2026).</li>
+                <li><strong>Credit Information Companies (Regulation) Act, 2005:</strong> Section 21 (legal Duty of Accuracy and Credit Information Dispute relief).</li>
               </ul>
 
               {/* 10 Internal Topic Badges */}
@@ -825,14 +745,10 @@ export default function SummonsFromCourtForPersonalLoanClient() {
                   <Link href="/author/ashish-jhangra" className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional.
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief expert. </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Specialized in civil debt defense, banking regulatory compliance, Section 138/25 dispute resolution. NPA compromise settlements across Indian judicial and commercial tribunals.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> Specialized in civil debt defense. Banking RBI compliance, Section 138/25 dispute relief. NPA OTS deals across Indian judicial and trade tribunals. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
                   <span>View Author Profile.</span>
@@ -850,12 +766,8 @@ export default function SummonsFromCourtForPersonalLoanClient() {
                 <span className="text-xs font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
                   100% CONFIDENTIAL LEGAL DEFENSE.
                 </span>
-                <p className="text-lg md:text-xl font-bold text-white leading-snug">
-                  Received a Court Summons?
-                </p>
-                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
-                  Our panel advocates file your court defense, stop recovery agent harassment, prevent ex-parte decrees. Negotiate a 40% to 55% compromise waiver.
-                </p>
+                <p className="text-lg md:text-xl font-bold text-white leading-snug"> Received a Court Summons? </p>
+                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal"> Our panel advocates file your court defense. Stop collection agent abuse, prevent ex-parte decrees. settle a 40% to 55% OTS deal waiver. </p>
               </div>
               <Link href="/contact" className="block w-full bg-white text-blue-900 hover:text-[#1886ff] py-3 px-4 rounded-full font-bold text-sm hover:bg-slate-50 transition-all shadow-md">
                 Received a Summons? Hire a Defense Lawyer
@@ -878,22 +790,10 @@ export default function SummonsFromCourtForPersonalLoanClient() {
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
               <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage.</p>
               <ul className="space-y-2 text-slate-600">
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Zero Upfront Risk:</strong> Success-linked settlement fee structure.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Direct Bank Remittance:</strong> Payments made strictly to your loan account.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>RBI &amp; CPC Compliance:</strong> 100% lawful dispute handling and defense.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Pan-India Advocacy:</strong> Verified panel advocates across all major cities.</span>
-                </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Zero Upfront Risk:</strong> Success-linked settlement fee structure.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Direct Bank Remittance:</strong> Payments made strictly to your loan account.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>RBI &amp. CPC Compliance:</strong> 100% lawful dispute handling and defense.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Pan-India Advocacy:</strong> Verified panel advocates across all major cities.</span> </li>
               </ul>
             </div>
 
@@ -902,23 +802,17 @@ export default function SummonsFromCourtForPersonalLoanClient() {
               <p className="font-bold text-slate-900 text-sm">Related Legal Guides.</p>
               <div className="space-y-2.5">
                 <Link href="/bank-recovery-case-in-court" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Bank Filed Recovery Case in Civil Court.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Bank Filed collection Case in Civil Court. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Civil suit defense &amp; summons guide &rarr;.</span>
                 </Link>
 
                 <Link href="/bank-sent-legal-notice-for-loan-what-to-do" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Bank Sent Legal Notice for Loan Default.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Bank Sent Legal Notice for Loan Default. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Full step-by-step reply blueprint &rarr;.</span>
                 </Link>
 
                 <Link href="/convert-settled-status-to-closed" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Convert Settled Loan to Closed Status.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Convert Settled Loan to Closed Status. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Clean credit report blueprint &rarr;.</span>
                 </Link>
               </div>

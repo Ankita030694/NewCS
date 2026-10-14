@@ -24,7 +24,7 @@ export default function WhatsAppWidget() {
         href={WHATSAPP_URL}
         aria-label="Chat with CredSettle on WhatsApp"
         target="_blank"
-        rel="noopener noreferrer"
+        rel="nofollow noopener noreferrer"
         className="inline-flex items-center justify-center rounded-full bg-[#0C9A5A] text-white shadow-[0_18px_36px_rgba(12,154,90,0.28)] transition-transform duration-200 hover:-translate-y-0.5 hover:shadow-[0_22px_44px_rgba(12,154,90,0.32)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#0C9A5A]"
         style={{ width: '62px', height: '62px' }}
       >

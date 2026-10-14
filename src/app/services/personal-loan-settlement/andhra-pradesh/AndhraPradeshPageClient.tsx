@@ -32,19 +32,19 @@ export default function AndhraPradeshPageClient() {
     const faqs = [
         {
             question: 'Is loan settlement legal in Andhra Pradesh?',
-            answer: 'Yes, completely legal in Andhra Pradesh and across India. RBI recognizes settlement as legitimate debt resolution. CredSettle operates within all legal frameworks including AP Lok Adalat and State Consumer Commission.'
+            answer: 'Yes, completely legal in Andhra Pradesh and across India. RBI recognizes settlement as legitimate debt relief. CredSettle operates within all legal frameworks including AP Lok Adalat and State Consumer Commission.'
         },
         {
             question: 'How bad is harassment problem in Andhra Pradesh?',
-            answer: 'Very serious. AP and Telangana saw 41% increase in harassment cases in 2024 (highest in South India). Recovery agents are aggressive here. That is exactly why we stop harassment within 3-5 days through legal notices citing RBI Fair Practices Code.'
+            answer: 'Very serious. AP and Telangana saw 41% increase in abuse cases in 2024 (highest in South India). agents are harsh here. That is exactly why we stop abuse within 3-5 days through legal notices citing RBI Fair Practices Code.'
         },
         {
             question: 'Can Vizag port workers settle loans?',
-            answer: 'Yes, we handle many Visakhapatnam port and shipping sector cases. We understand wage structures, contract employment patterns and port economy cycles. This helps negotiate better with lenders.'
+            answer: 'Yes, we handle many Visakhapatnam port and shipping sector cases. We know wage structures, contract jobs patterns and port economy cycles. This helps settle better with lenders.'
         },
         {
             question: 'How much can AP borrowers save?',
-            answer: "Andhra Pradesh borrowers typically save 30-70% on outstanding debt. Our AP state average is 57% savings. Exact amount depends on your loan type, sector and hardship paperwork."
+            answer: "Andhra Pradesh clients mostly save 30-70% on unpaid debt. Our AP state average is 57% savings. Exact amount depends on your loan type, sector and hardship files."
         },
         {
             question: 'Do you work with Andhra Bank and AP local banks?',
@@ -52,7 +52,7 @@ export default function AndhraPradeshPageClient() {
         },
         {
             question: 'Can Guntur agricultural traders settle business loans?',
-            answer: 'Absolutely. Guntur is major agricultural trading hub (chili, cotton, tobacco). We handle trader cases understanding crop cycles, mandi payment systems and seasonal income patterns. This helps settlement negotiations.'
+            answer: 'Absolutely. Guntur is major farm trading hub (chili, cotton, tobacco). We handle trader cases clear view of crop cycles, mandi payment systems and yearly income patterns. This helps settlement talks.'
         },
         {
             question: 'What is AP Lok Adalat success rate?',
@@ -60,7 +60,7 @@ export default function AndhraPradeshPageClient() {
         },
         {
             question: 'Do you provide services in Telugu language?',
-            answer: "Yes, our AP team can communicate in Telugu. We prepare hardship paperwork in Telugu and English both. This helps with local lenders and district court judges who prefer regional language."
+            answer: "Yes, our AP team can communicate in Telugu. We prepare hardship files in Telugu and English both. This helps with local lenders and district court judges who prefer regional language."
         }
     ];
     return (<div className="relative min-h-screen bg-white mt-6">
@@ -115,9 +115,7 @@ export default function AndhraPradeshPageClient() {
             fontFamily: 'Poppins',
             lineHeight: '28px',
             marginBottom: '20px'
-        }}>
-                Facing severe loan harassment in Vizag, Vijayawada or anywhere in Andhra Pradesh? CredSettle helps AP borrowers reduce debt by 30-70% and stop aggressive recovery tactics through legal, RBI-compliant settlement. Port workers, IT professionals, agricultural traders, all sectors covered. Over 8,000 AP families got debt-free and harassment-free with us.
-              </p>
+        }}> Facing severe loan abuse in Vizag, Vijayawada or anywhere in Andhra Pradesh? CredSettle helps AP clients reduce debt by 30-70% and stop harsh collection tactics through legal, RBI-compliant settlement. Port workers, IT workers, farm traders, all sectors covered. Over 8,000 AP families got debt-free and abuse-free with us. </p>
               <button className="text-white text-sm md:text-base lg:text-[18.58px] px-6 md:px-8 lg:px-[39.44px] py-2 md:py-3 lg:py-[13.48px]" style={{
             borderRadius: '32.4px',
             background: '#007AFF',
@@ -159,15 +157,9 @@ export default function AndhraPradeshPageClient() {
             fontFamily: 'Poppins',
             lineHeight: '28px'
         }}>
-                  <p style={{ marginBottom: '16px' }}>
-                    Andhra Pradesh, stretching along Bay of Bengal coast with major port economy in Visakhapatnam, agricultural trading in Guntur, commercial activity in Vijayawada and temple economy in Tirupati, sees massive loan activity yearly. Port workers, IT professionals, agricultural traders, small business owners and salaried employees borrow for homes, education, medical needs and business capital.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Personal loan settlement.</strong> lets you negotiate with banks and NBFCs to pay reduced amounts instead of full outstanding balances. RBI recognizes this as legal debt resolution method across India including Andhra Pradesh. When you genuinely cannot repay loans, settlement provides proper exit without years of harassment or court fights.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    CredSettle has settled loans for over 8,000 Andhra Pradesh borrowers across Visakhapatnam, Vijayawada, Guntur, Tirupati, Nellore, Kakinada, Rajahmundry and all 13 districts. Our AP clients typically save 30-70% on outstanding amounts (state average: 57%). Every settlement follows RBI rules, gets proper legal paperwork, and permanently closes debt without future lender claims.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> Andhra Pradesh, stretching along Bay of Bengal coast with major port economy in Visakhapatnam, farm trading in Guntur, trade in Vijayawada and temple economy in Tirupati, sees massive loan activity yearly. Port workers, IT workers, farm traders, small shop owners and salaried staff borrow for homes, school, medical needs and trade capital. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Personal loan settlement.</strong> lets you settle with banks and NBFCs to pay reduced amounts instead of full unpaid dues. RBI recognizes this as legal debt relief method across India including Andhra Pradesh. When you genuinely cannot repay loans, settlement provides proper exit without years of abuse or court fights. </p>
+                  <p style={{ marginBottom: '16px' }}> CredSettle has settled loans for over 8,000 Andhra Pradesh clients across Visakhapatnam, Vijayawada, Guntur, Tirupati, Nellore, Kakinada, Rajahmundry and all 13 districts. Our AP clients mostly save 30-70% on unpaid amounts (state average: 57%). Every settlement follows RBI rules, gets proper legal files, and permanently closes debt without future lender claims. </p>
                 </div>
               </section>
 
@@ -186,24 +178,12 @@ export default function AndhraPradeshPageClient() {
             fontFamily: 'Poppins',
             lineHeight: '28px'
         }}>
-                  <p style={{ marginBottom: '16px' }}>
-                    Andhra Pradesh economy mixes coastal activities, agriculture, emerging IT sector and religious tourism. Visakhapatnam port handles major cargo and employs thousands in shipping, logistics and related industries. Vijayawada sits on Krishna River as commercial hub connecting coastal and inland regions. Guntur dominates agricultural commodity trading (chili, cotton, tobacco). Each creates different borrowing patterns and debt problems.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>AP borrowing patterns:</strong> Port workers in Vizag borrow for homes near port areas, children education and vehicle purchase. IT professionals in emerging Vizag tech sector take loans for lifestyle and real estate. Agricultural traders in Guntur borrow for crop purchase and mandi operations. Business owners in Vijayawada take working capital loans. All these loans become problems when income drops or business slows.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>What makes AP different:</strong> After bifurcation from Telangana in 2014, AP saw 800% increase in debt burden over 10 years. Economic restructuring, capital relocation issues and development pressures created financial stress across population. Many government employees faced salary delays. Businesses struggled with infrastructure gaps. Agricultural sector faced monsoon uncertainties and price volatility.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Default crisis in AP:</strong> After 90 days missed payments, accounts become NPA. Recovery pressure in AP is particularly aggressive (41% increase in harassment cases in 2024 - highest in South). Agents call 20-30 times daily. Visit homes and workplaces repeatedly. Some use abusive language or threats. CIBIL scores crash. Legal notices start coming.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    Settlement ends this nightmare. Lenders prefer getting 40-70% now versus uncertain court battles. You get direct benefits: major debt reduction (save 30-70%), all harassment stops permanently, legal closure with documents, clean restart without recovery pressure.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    We specialize in AP’s unique situation. We know port economy patterns in Vizag, commercial dynamics in Vijayawada, agricultural trading in Guntur. We understand Telugu culture and communicate in regional language when needed. This AP-specific knowledge gets better settlement outcomes.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> Andhra Pradesh economy mixes coastal activities, agriculture, emerging IT sector and religious tourism. Visakhapatnam port handles major cargo and employs thousands in shipping, logistics and related sectors. Vijayawada sits on Krishna River as trade hub connecting coastal and inland regions. Guntur dominates farm commodity trading (chili, cotton, tobacco). Each creates different borrowing patterns and debt problems. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>AP borrowing patterns:</strong> Port workers in Vizag borrow for homes near port areas, children school and vehicle purchase. IT workers in emerging Vizag tech sector take loans for daily life and real estate. farm traders in Guntur borrow for crop purchase and mandi work. shop owners in Vijayawada take working capital loans. All these loans become problems when income drops or trade slows. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>What makes AP different:</strong> After bifurcation from Telangana in 2014, AP saw 800% increase in debt burden over 10 years. Economic restructuring, capital relocation issues and development pressures created money stress across population. Many state staff faced salary delays. firms struggled with infrastructure gaps. farm sector faced monsoon uncertainties and price swings. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Default crisis in AP:</strong> After 90 days missed payments, accounts become NPA. collection pressure in AP is chiefly harsh (41% increase in abuse cases in 2024 - highest in South). Agents call 20-30 times daily. Visit homes and workplaces repeatedly. Some use abusive language or threats. CIBIL scores crash. Legal notices start coming. </p>
+                  <p style={{ marginBottom: '16px' }}> Settlement ends this nightmare. Lenders prefer getting 40-70% now versus uncertain court battles. You get direct benefits: major debt reduction (save 30-70%), all abuse stops permanently, legal closure with papers, clean restart without collection pressure. </p>
+                  <p style={{ marginBottom: '16px' }}> We specialize in AP’s unique situation. We know port economy patterns in Vizag, trade dynamics in Vijayawada, farm trading in Guntur. We know Telugu culture and communicate in regional language when needed. This AP-specific knowledge gets better settlement outcomes. </p>
                 </div>
               </section>
 
@@ -222,21 +202,11 @@ export default function AndhraPradeshPageClient() {
             fontFamily: 'Poppins',
             lineHeight: '28px'
         }}>
-                  <p style={{ marginBottom: '16px' }}>
-                    Andhra Pradesh faces severe recovery harassment problem. Data shows 41% increase in harassment cases during 2024, reaching six-quarter high of 3.6% default rate. This makes AP one of the most aggressive recovery markets in South India. Why this matters for you: You need legal protection fast, not just settlement negotiation.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Common harassment tactics in AP:</strong> Recovery agents call 25-35 times daily. Visit homes in Vizag, Vijayawada, Guntur repeatedly (sometimes 3-4 visits per week). Contact family members, neighbors and even employers. Use threatening language about police action or property seizure. Send recovery notices to relatives. In smaller AP towns, agents sometimes create public scenes causing social embarrassment.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Why harassment is worse in AP:</strong> State bifurcation created regulatory gaps initially. Some NBFCs hired local collection agencies with aggressive tactics. Banking penetration is lower than metros, so lenders rely heavily on recovery agents. Cultural factors mean family pressure and social reputation matter deeply, which recovery agents exploit.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>How we stop harassment fast:</strong> Once you engage CredSettle, we send urgent legal notices to all lenders within 24 hours. We cite RBI Fair Practices Code violations, threaten Banking Ombudsman complaints and police action. We copy district police stations on notices in severe cases. Harassment typically stops within 3-5 days across AP. This protection alone is worth hiring us, even apart from debt reduction.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Legal action we take:</strong> If harassment continues after our notices, we file formal complaints with Banking Ombudsman, RBI Complaints Cell and local police. We’ve filed dozens of such complaints in AP protecting clients from illegal recovery. Several agents faced police action due to our complaints.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> Andhra Pradesh faces severe collection abuse problem. Data shows 41% increase in abuse cases during 2024, reaching six-quarter high of 3.6% default rate. This makes AP one of the most harsh collection markets in South India. Why this matters for you: You need legal protection fast, not just settlement talks. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Common abuse tactics in AP:</strong> agents call 25-35 times daily. Visit homes in Vizag, Vijayawada, Guntur repeatedly (sometimes 3-4 visits per week). Contact family members, neighbors and even employers. Use threatening language about police action or property seizure. Send collection notices to relatives. In smaller AP towns, agents sometimes create public scenes causing social embarrassment. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Why abuse is worse in AP:</strong> State bifurcation created RBI gaps initially. Some NBFCs hired local collection agencies with harsh tactics. Banking penetration is lower than metros, so lenders rely heavily on agents. Cultural factors mean family pressure and social name matter deeply. This agents exploit. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>How we stop abuse fast:</strong> Once you engage CredSettle, we send urgent legal notices to all lenders within 24 hours. We cite RBI Fair Practices Code violations, threaten Banking Ombudsman complaints and police action. We copy district police stations on notices in severe cases. abuse mostly stops within 3-5 days across AP. This protection alone is worth hiring us, even apart from debt reduction. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Legal action we take:</strong> If abuse continues after our notices, we file formal complaints with Banking Ombudsman, RBI Complaints Cell and local police. We’ve filed dozens of such complaints in AP protecting clients from illegal collection. Several agents faced police action due to our complaints. </p>
                 </div>
               </section>
 
@@ -255,24 +225,12 @@ export default function AndhraPradeshPageClient() {
             fontFamily: 'Poppins',
             lineHeight: '28px'
         }}>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>1. Visakhapatnam Port Economy Volatility:</strong> Vizag port and shipyard employ thousands directly and indirectly. Port workers, logistics staff, shipping company employees borrow for homes and education. When global shipping slows or port activity drops (happened during COVID and global recession), job security weakens, wages stagnate. We’ve settled 1,200+ Vizag port sector loans. Strategy: Show lenders the port cargo data, employment statistics and prove income stress is sector-wide.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>2. IT Sector Job Instability:</strong> Vizag has emerging IT sector with companies like TCS, Tech Mahindra, Concentrix. Smaller than Bangalore or Hyderabad but growing. IT professionals here borrowed expecting job stability. When layoffs came (2023-2024), many got stuck with loans. We negotiate using IT industry layoff data and income drop proof.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>3. Guntur Agricultural Trading Cash Crisis:</strong> Guntur is India’s largest chili market and major cotton, tobacco trading hub. Traders borrow ₹10-40 lakhs for crop purchase, warehouse operations and mandi transactions. When crop prices fall or buyers default on payments, traders get cash stuck. Cannot pay bank EMIs even though business happened. We’ve settled many Guntur trader cases explaining agricultural commodity cycles to lenders.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>4. Government Employee Salary Issues:</strong> AP state government employees faced salary delays after bifurcation. Teachers, police, health workers and clerks borrowed assuming stable income. When salaries got delayed by 2-3 months, EMI payments bounced. We negotiate these cases using government employment proof and explaining state’s fiscal situation.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>5. Aquaculture and Fishing Industry Debt:</strong> Coastal AP has massive aquaculture (shrimp farming) and fishing economy. Farmers borrow ₹5-25 lakhs for pond development, feed purchase and equipment. When disease hits shrimp crops or export prices crash, entire season’s income disappears. Loans remain. We’ve settled aquaculture loans using crop failure proof and export price data.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>6. Tirupati Temple Economy Impact:</strong> Tirupati depends heavily on temple tourism and related businesses. Hotels, transport operators, prasadam sellers, shops near temple all borrowed for business. COVID crashed this economy completely. Recovery is slow. We’ve settled Tirupati business loans using tourism visitor data and revenue collapse reports.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>1. Visakhapatnam Port Economy swings:</strong> Vizag port and shipyard employ thousands straight and indirectly. Port workers, logistics staff, shipping company staff borrow for homes and school. When global shipping slows or port activity drops (happened during COVID and global recession), job security weakens, wages stagnate. We’ve settled 1,200+ Vizag port sector loans. plan: Show lenders the port cargo data, jobs data and prove income stress is sector-wide. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>2. IT Sector Job Instability:</strong> Vizag has emerging IT sector with companies like TCS, Tech Mahindra, Concentrix. Smaller than Bangalore or Hyderabad but growing. IT workers here borrowed expecting job stability. When layoffs came (2023-2024), many got stuck with loans. We settle using IT sector layoff data and income drop proof. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>3. Guntur farm Trading Cash Crisis:</strong> Guntur is India’s largest chili market and major cotton, tobacco trading hub. Traders borrow ₹10-40 lakhs for crop purchase, warehouse work and mandi transactions. When crop prices fall or buyers default on payments, traders get cash stuck. Cannot pay bank EMIs even though trade happened. We’ve settled many Guntur trader cases explaining farm commodity cycles to lenders. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>4. state worker Salary Issues:</strong> AP state state staff faced salary delays after bifurcation. Teachers, police, health workers and clerks borrowed assuming stable income. When salaries got delayed by 2-3 months, EMI payments bounced. We settle these cases using state jobs proof and explaining state’s fiscal situation. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>5. Aquaculture and Fishing sector Debt:</strong> Coastal AP has massive aquaculture (shrimp farming) and fishing economy. Farmers borrow ₹5-25 lakhs for pond development, feed purchase and equipment. When disease hits shrimp crops or export prices crash, entire season’s income disappears. Loans remain. We’ve settled aquaculture loans using crop failure proof and export price data. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>6. Tirupati Temple Economy Impact:</strong> Tirupati depends heavily on temple tourism and related firms. Hotels, transport operators, prasadam sellers, shops near temple all borrowed for trade. COVID crashed this economy completely. collection is slow. We’ve settled Tirupati firm loans using tourism visitor data and revenue collapse reports. </p>
                 </div>
               </section>
 
@@ -291,12 +249,8 @@ export default function AndhraPradeshPageClient() {
             fontFamily: 'Poppins',
             lineHeight: '28px'
         }}>
-                  <p style={{ marginBottom: '16px' }}>
-                    We’ve handled 8,000+ loan settlements across Andhra Pradesh in last four years. Our AP clients save an average of 57% on their debt. We work with all major banks including Union Bank (merged with Andhra Bank), SBI, Indian Bank and all NBFCs operating across the state.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Our AP strength:</strong> We’re registered legal services company following every RBI rule. We have Telugu-speaking team members who understand AP’s post-bifurcation challenges, coastal economy patterns, agricultural trading cycles and emerging sectors. This local understanding combined with legal expertise delivers results.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> We’ve handled 8,000+ loan settlements across Andhra Pradesh in last four years. Our AP clients save an average of 57% on their debt. We work with all major banks including Union Bank (merged with Andhra Bank), SBI, Indian Bank and all NBFCs operating across the state. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Our AP strength:</strong> We’re registered legal services company following every RBI rule. We have Telugu-speaking team members who know AP’s post-bifurcation challenges, coastal economy patterns, farm trading cycles and emerging sectors. This local clear view of combined with legal expertise delivers results. </p>
 
                   <div id="ap-methods" style={{ marginTop: '32px', scrollMarginTop: '100px' }}>
                     <h3 className="text-lg md:text-xl lg:text-[24px] leading-tight" style={{
@@ -308,9 +262,7 @@ export default function AndhraPradeshPageClient() {
         }}>
                       Settlement Methods for AP Cases
                     </h3>
-                    <p style={{ marginBottom: '16px' }}>
-                      <strong>Step 1: Urgent Harassment Assessment.</strong> - In AP cases, we first assess harassment severity. How many calls daily? Have agents visited? Any threats made? This determines urgency level. Free confidential consultation. <strong>Step 2: Immediate Legal Intervention.</strong> - We send urgent legal notices within 24 hours for severe harassment cases. Cite RBI rules, threaten police complaints. All recovery contact stops within 3-5 days. <strong>Step 3: Sector-Based Negotiation.</strong> - Our AP team uses sector-specific proof. Port cargo statistics for Vizag cases, commodity price data for Guntur traders, tourism figures for Tirupati businesses, IT layoff reports for tech sector. Push for 30-70% debt reduction. <strong>Step 4: Telugu + English paperwork.</strong> - Settlement papers in both languages when needed. Helps with local banks and regional lenders. <strong>Step 5: Follow-Up Protection.</strong> - After settlement, we monitor for any harassment resumption and provide credit rebuilding guidance.
-                    </p>
+                    <p style={{ marginBottom: '16px' }}> <strong>Step 1: Urgent abuse Assessment.</strong> - In AP cases, we first assess abuse severity. How many calls daily? Have agents visited? Any threats made? This determines urgency level. Free confidential call. <strong>Step 2: fast Legal Intervention.</strong> - We send urgent legal notices within 24 hours for severe abuse cases. Cite RBI rules, threaten police complaints. All collection contact stops within 3-5 days. <strong>Step 3: Sector-Based talks.</strong> - Our AP team uses sector-specific proof. Port cargo data for Vizag cases, commodity price data for Guntur traders, tourism figures for Tirupati firms, IT layoff reports for tech sector. Push for 30-70% debt reduction. <strong>Step 4: Telugu + English files.</strong> - Settlement papers in both languages when needed. Helps with local banks and regional lenders. <strong>Step 5: Follow-Up Protection.</strong> - After settlement, we monitor for any abuse resumption and provide credit rebuilding guidance. </p>
                   </div>
 
                   <div id="legal-framework" style={{ marginTop: '32px', scrollMarginTop: '100px' }}>
@@ -323,9 +275,7 @@ export default function AndhraPradeshPageClient() {
         }}>
                       Legal Framework and RBI Protection
                     </h3>
-                    <p style={{ marginBottom: '16px' }}>
-                      Every settlement follows RBI Master Directions, Fair Practices Code and Banking Ombudsman guidelines. You get: (1) Written OTS agreement on lender letterhead, (2) Clear statement that no more claims can be made, (3) Correct credit reporting (marked "settled"), (4) Documents released within 30 days per RBI rule, (5) Legal support against continued harassment. Our AP lawyers act immediately when needed including police complaints.
-                    </p>
+                    <p style={{ marginBottom: '16px' }}> Every settlement follows RBI Master Directions, Fair Practices Code and Banking Ombudsman guidelines. You get: (1) Written OTS agreement on lender letterhead, (2) Clear record that no more claims can be made, (3) Correct credit reporting (marked "settled"), (4) papers released within 30 days per RBI rule, (5) Legal support against continued abuse. Our AP lawyers act promptly when needed including police complaints. </p>
                   </div>
                 </div>
               </section>
@@ -345,24 +295,12 @@ export default function AndhraPradeshPageClient() {
             fontFamily: 'Poppins',
             lineHeight: '28px'
         }}>
-                  <p style={{ marginBottom: '16px' }}>
-                    Andhra Pradesh has two legal systems for debt cases. We use both depending on situation.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>AP Lok Adalat:</strong> Court-backed mediation under Legal Services Authorities Act. Works across all 13 AP districts. You and lender sit with mediators for settlement. No court fees. Quick resolution (one session typically). Decision is legally binding. AP conducts regular banking Lok Adalats where lenders participate. Settlements usually land at 40-60% of outstanding.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Our AP Lok Adalat experience:</strong> We’ve represented hundreds of borrowers in Lok Adalats across Visakhapatnam, Vijayawada, Guntur and district courts. We prepare hardship files in Telugu and English (helps with judges). Write settlement proposals with sector data. Argue strongly. 83% success rate in AP Lok Adalat cases. Everything gets legally binding orders.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>AP State Consumer Commission:</strong> Handles consumer disputes including unfair lending and harassment cases. Works faster than regular courts (3-5 months). If lender hid charges, harassed illegally or violated terms, file here. Commission can order compensation. We’ve handled several AP Consumer Commission cases where lenders or agents used illegal tactics.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Which route to use:</strong> If lender filed court case, Lok Adalat is fastest. If harassment was severe and illegal, Consumer Commission gives leverage and compensation. For most cases, direct negotiation with our legal support works best. We assess your AP situation and recommend right path.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Free legal aid:</strong> If you earn under ₹5 lakhs yearly, AP State Legal Services Authority provides free lawyers. We coordinate for eligible borrowers across Andhra Pradesh.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> Andhra Pradesh has two legal systems for debt cases. We use both depending on situation. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>AP Lok Adalat:</strong> Court-backed mediation under Legal Services officials Act. Works across all 13 AP districts. You and lender sit with mediators for settlement. No court fees. Quick relief (one session mostly). Decision is legally binding. AP conducts regular banking Lok Adalats where lenders join. Settlements usually land at 40-60% of unpaid. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Our AP Lok Adalat skill:</strong> We’ve represented hundreds of clients in Lok Adalats across Visakhapatnam, Vijayawada, Guntur and district courts. We prepare hardship files in Telugu and English (helps with judges). Write settlement offers with sector data. Argue strongly. 83% success rate in AP Lok Adalat cases. Everything gets legally binding orders. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>AP State Consumer Commission:</strong> Handles consumer disputes including unfair lending and abuse cases. Works faster than regular courts (3-5 months). If lender hid charges, harassed illegally or violated terms, file here. Commission can order payout. We’ve handled several AP Consumer Commission cases where lenders or agents used illegal tactics. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Which route to use:</strong> If lender filed court case, Lok Adalat is fastest. If abuse was severe and illegal, Consumer Commission gives leverage and payout. For most cases, direct talks with our legal support works best. We assess your AP situation and recommend right path. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Free legal aid:</strong> If you earn under ₹5 lakhs yearly, AP State Legal Services official provides free lawyers. We coordinate for eligible clients across Andhra Pradesh. </p>
                 </div>
               </section>
 
@@ -381,15 +319,9 @@ export default function AndhraPradeshPageClient() {
             fontFamily: 'Poppins',
             lineHeight: '28px'
         }}>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Visakhapatnam (Vizag):</strong> Port city and industrial hub. Vizag port, steel plant, shipyard, oil refineries employ thousands. Emerging IT sector in Rushikonda and VUDA areas. We’ve handled 2,500+ Vizag cases. Mix of port workers, industrial employees, IT professionals and business owners. We understand port economy cycles, industrial sector patterns and IT job market. Use this knowledge in settlement negotiations.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Vijayawada:</strong> Commercial capital of AP. Sits on Krishna River connecting regions. Trading hub for agricultural commodities, consumer goods distribution, real estate activity. We’ve settled 1,800+ Vijayawada loans. Mostly traders, business owners and salaried professionals. We understand Vijayawada’s role as distribution center and commercial crossroads. Negotiate using regional trade data.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Why Vizag-Vijayawada focus:</strong> These two cities account for 55% of AP settlements we handle. Both have higher banking penetration, more loan activity and stronger legal infrastructure. Our teams here know local banks, understand recovery agent networks and have district court relationships.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Visakhapatnam (Vizag):</strong> Port city and factory hub. Vizag port, steel plant, shipyard, oil refineries employ thousands. Emerging IT sector in Rushikonda and VUDA areas. We’ve handled 2,500+ Vizag cases. Mix of port workers, factory staff, IT workers and shop owners. We know port economy cycles, factory sector patterns and IT job market. Use this knowledge in settlement talks. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Vijayawada:</strong> trade capital of AP. Sits on Krishna River connecting regions. Trading hub for farm commodities, consumer goods distribution, real estate activity. We’ve settled 1,800+ Vijayawada loans. Mostly traders, shop owners and salaried workers. We know Vijayawada’s role as distribution center and trade crossroads. settle using regional trade data. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Why Vizag-Vijayawada focus:</strong> These two cities account for 55% of AP settlements we handle. Both have higher banking penetration, more loan activity and stronger legal infrastructure. Our teams here know local banks, know collection agent networks and have district court relationships. </p>
                 </div>
               </section>
 
@@ -408,18 +340,10 @@ export default function AndhraPradeshPageClient() {
             fontFamily: 'Poppins',
             lineHeight: '28px'
         }}>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Guntur:</strong> Agricultural commodity trading capital. Largest chili market in Asia, major cotton and tobacco trading. Thousands of commission agents, traders and warehouse owners borrow for business. We’ve handled 900+ Guntur cases. We understand mandi operations, crop cycles, commodity price volatility and trader cash flows. This helps negotiate settlements showing lenders that agricultural trading has inherent seasonal risks.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Tirupati:</strong> Temple city with economy depending on religious tourism. Hotels, transport, prasadam businesses, jewelry shops all borrowed for expansion during peak years. COVID and subsequent tourism slowdown hit badly. We’ve settled 600+ Tirupati cases using temple visitor statistics and tourism revenue data.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Kakinada, Rajahmundry, Nellore:</strong> Coastal cities with mix of port activities, aquaculture, rice milling and trading. Full settlement coverage with understanding of coastal economy patterns.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Other AP Districts:</strong> Anantapur, Kurnool, Chittoor, Prakasam and all 13 districts. We serve entire Andhra Pradesh through local legal partnerships and Telugu-speaking team coordination.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Guntur:</strong> farm commodity trading capital. Largest chili market in Asia, major cotton and tobacco trading. Thousands of commission agents, traders and warehouse owners borrow for trade. We’ve handled 900+ Guntur cases. We know mandi work, crop cycles, commodity price swings and trader cash flows. This helps settle settlements showing lenders that farm trading has inherent yearly risks. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Tirupati:</strong> Temple city with economy depending on religious tourism. Hotels, transport, prasadam firms, jewelry shops all borrowed for growth during peak years. COVID and subsequent tourism slowdown hit badly. We’ve settled 600+ Tirupati cases using temple visitor data and tourism revenue data. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Kakinada, Rajahmundry, Nellore:</strong> Coastal cities with mix of port activities, aquaculture, rice milling and trading. Full settlement coverage with clear view of of coastal economy patterns. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Other AP Districts:</strong> Anantapur, Kurnool, Chittoor, Prakasam and all 13 districts. We serve entire Andhra Pradesh through local legal partnerships and Telugu-speaking team coordination. </p>
                 </div>
               </section>
 
@@ -438,27 +362,13 @@ export default function AndhraPradeshPageClient() {
             fontFamily: 'Poppins',
             lineHeight: '28px'
         }}>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>1. Harassment Protection Priority:</strong> Given AP’s 41% harassment increase, we act fastest here. Legal notices within 24 hours for severe cases. Police complaint threats when needed. Harassment stops in 3-5 days.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>2. Sector-Specific Knowledge:</strong> Port economy, agricultural trading, aquaculture, temple tourism, emerging IT. We understand AP’s diverse economy and use sector data effectively.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>3. Telugu Communication:</strong> Our AP team can handle cases in Telugu language. paperwork in regional language when needed. Helps with local lenders and courts.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>4. Save 30-70% Debt:</strong> AP clients save 57% on average. That’s lakhs of rupees saved. We use NPA economics and sector proof to negotiate hard.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>5. Consumer Commission Experience:</strong> We’ve filed multiple harassment cases at AP Consumer Commission. Know the system well. Can get you compensation beyond settlement.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>6. Complete Legal Process:</strong> Every settlement follows RBI rules. Proper paperwork so lenders cannot return. Critical in AP where some lenders try to restart recovery after informal settlements.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>7. Pay After Success:</strong> No upfront fees. We charge only after settlement is negotiated, documented and harassment has stopped. Our confidence in delivery.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>1. abuse Protection Priority:</strong> Given AP’s 41% abuse increase, we act fastest here. Legal notices within 24 hours for severe cases. Police complaint threats when needed. abuse stops in 3-5 days. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>2. Sector-Specific Knowledge:</strong> Port economy, farm trading, aquaculture, temple tourism, emerging IT. We know AP’s diverse economy and use sector data effectively. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>3. Telugu contact:</strong> Our AP team can handle cases in Telugu language. files in regional language when needed. Helps with local lenders and courts. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>4. Save 30-70% Debt:</strong> AP clients save 57% on average. That’s lakhs of rupees saved. We use NPA economics and sector proof to settle hard. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>5. Consumer Commission skill:</strong> We’ve filed multiple abuse cases at AP Consumer Commission. Know the system well. Can get you payout beyond settlement. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>6. Complete Legal Process:</strong> Every settlement follows RBI rules. Proper files so lenders cannot return. Critical in AP where some lenders try to restart collection after informal settlements. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>7. Pay After Success:</strong> No upfront fees. We charge only after settlement is negotiated, documented and abuse has stopped. Our confidence in delivery. </p>
                 </div>
               </section>
 
@@ -477,30 +387,14 @@ export default function AndhraPradeshPageClient() {
             fontFamily: 'Poppins',
             lineHeight: '28px'
         }}>
-                  <p style={{ marginBottom: '16px' }}>
-                    Know your rights as AP borrower. Laws strongly protect you from harassment:
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>RBI Fair Practices Code:</strong> Banks and NBFCs cannot harass, threaten, abuse or use force. Cannot visit repeatedly. Cannot contact family, neighbors or employers. Cannot use threatening language. Break these rules, file Banking Ombudsman complaint immediately.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Right to Police Protection:</strong> If recovery agent threatens you, uses abusive language or visits repeatedly causing distress, file FIR at local AP police station. This is criminal offense under Indian Penal Code sections 294 (obscene acts), 506 (criminal intimidation), 503 (criminal threat).
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Right to Negotiate:</strong> If you have genuine financial hardship, lenders must discuss settlement. RBI encourages resolution before legal action.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Document Release Rule:</strong> After settlement payment, lender has 30 days maximum for closure letter and NOC. RBI Master Direction. Delays mean penalties (₹5,000 daily).
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Consumer Commission Access:</strong> AP State Consumer Commission handles harassment cases. File complaint, get hearing within 3-5 months, can get compensation for harassment suffered.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Lok Adalat Access:</strong> Any AP resident can use Lok Adalat. Free legal aid available through AP Legal Services Authority for eligible borrowers.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    We protect all these rights aggressively. Given AP’s high harassment rate, we take violations very seriously and act fast with police and regulatory complaints.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> Know your rights as AP client. Laws strongly protect you from abuse: </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>RBI Fair Practices Code:</strong> Banks and NBFCs cannot harass, threaten, abuse or use force. Cannot visit repeatedly. Cannot contact family, neighbors or employers. Cannot use threatening language. Break these rules, file Banking Ombudsman complaint promptly. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Right to Police Protection:</strong> If collection agent threatens you, uses abusive language or visits repeatedly causing distress, file FIR at local AP police station. This is criminal offense under Indian Penal Code sections 294 (obscene acts), 506 (criminal threats), 503 (criminal threat). </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Right to settle:</strong> If you have genuine money hardship, lenders must discuss settlement. RBI encourages relief before legal action. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>paper Release Rule:</strong> After settlement payment, lender has 30 days maximum for closure letter and NOC. RBI Master Direction. Delays mean penalties (₹5,000 daily). </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Consumer Commission Access:</strong> AP State Consumer Commission handles abuse cases. File complaint, get hearing within 3-5 months, can get payout for abuse suffered. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Lok Adalat Access:</strong> Any AP resident can use Lok Adalat. Free legal aid available through AP Legal Services official for eligible clients. </p>
+                  <p style={{ marginBottom: '16px' }}> We protect all these rights aggressively. Given AP’s high abuse rate, we take violations very seriously and act fast with police and RBI complaints. </p>
                 </div>
               </section>
 
@@ -519,33 +413,15 @@ export default function AndhraPradeshPageClient() {
             fontFamily: 'Poppins',
             lineHeight: '28px'
         }}>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Days 1-2: Urgent Contact.</strong> - Call, WhatsApp us immediately if harassment is severe. We prioritize AP cases given the harassment statistics. Free confidential assessment for 30-40 minutes.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Days 2-3: Stop Harassment.</strong> - In severe AP cases, we send legal notices within 24 hours (faster than other states). Cite RBI rules, threaten police action. Harassment stops within 3-5 days.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Days 4-10: paperwork.</strong> - You share loan papers, income proof, hardship documents. We analyze and build settlement case with sector-specific data.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Weeks 2-8: Negotiate.</strong> - Our AP team contacts lender NPA divisions. We push for 30-70% reduction using your hardship proof and sector data. May need multiple rounds.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Weeks 8-10: Lock Terms.</strong> - Lender agrees. We get formal OTS letter. Everything legally verified before payment.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Weeks 10-12: Payment.</strong> - You arrange settlement amount. Pay directly to lender. We get receipt immediately.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Weeks 12-16: Close Everything.</strong> - Lender has 30 days for all documents. We follow up hard. Verify credit bureau updates.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>After Settlement: Monitor Protection.</strong> - We stay alert for any harassment resumption (happens sometimes in AP). Immediate action if it restarts. Credit rebuilding guidance provided.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Total time:</strong> Usually 60-110 days from first consultation to final closure for AP cases. Harassment protection starts within 3 days though.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Days 1-2: Urgent Contact.</strong> - Call, WhatsApp us promptly if abuse is severe. We prioritize AP cases given the abuse data. Free confidential assessment for 30-40 minutes. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Days 2-3: Stop abuse.</strong> - In severe AP cases, we send legal notices within 24 hours (faster than other states). Cite RBI rules, threaten police action. abuse stops within 3-5 days. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Days 4-10: files.</strong> - You share loan papers, income proof, hardship papers. We analyze and build settlement case with sector-specific data. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Weeks 2-8: settle.</strong> - Our AP team contacts lender NPA divisions. We push for 30-70% reduction using your hardship proof and sector data. May need multiple rounds. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Weeks 8-10: Lock Terms.</strong> - Lender agrees. We get formal OTS letter. Everything legally verified before payment. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Weeks 10-12: Payment.</strong> - You arrange settlement amount. Pay straight to lender. We get receipt promptly. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Weeks 12-16: Close Everything.</strong> - Lender has 30 days for all papers. We follow up hard. Verify credit bureau updates. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>After Settlement: Monitor Protection.</strong> - We stay alert for any abuse resumption (happens sometimes in AP). fast action if it restarts. Credit rebuilding guidance provided. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Total time:</strong> Usually 60-110 days from first call to final closure for AP cases. abuse protection starts within 3 days though. </p>
                 </div>
               </section>
 
@@ -564,27 +440,13 @@ export default function AndhraPradeshPageClient() {
             fontFamily: 'Poppins',
             lineHeight: '28px'
         }}>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>The Borrower:</strong> Ravi K., age 36, logistics supervisor at Visakhapatnam port-related company. Salary ₹8 lakhs yearly. Had borrowed ₹19 lakhs total (1 personal loan for flat, 1 two-wheeler loan, 2 credit cards).
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>What Went Wrong:</strong> Company lost major shipping contract in early 2023. Cut workforce by 40%. Ravi kept job but salary reduced by 30% and overtime stopped (was earning extra ₹1.5 lakhs yearly through overtime). Take-home fell from ₹8 lakhs to ₹5.5 lakhs. Couldn’t pay EMIs on ₹12 lakhs personal loan, ₹3 lakhs vehicle loan and ₹4 lakhs credit cards. All accounts went NPA. Recovery agents called 30+ times daily, visited his Vizag home 5 times in 2 weeks, contacted his neighbors twice, sent messages to relatives. CIBIL dropped from 730 to 495. Harassment was severe - agents used threatening language and created neighborhood embarrassment.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>We Intervened Urgently:</strong> Ravi contacted us March 2024 in distressed state. We treated as priority case given harassment severity. Sent legal notices to all 4 lenders within 24 hours with strong language about RBI violations and threats of police complaints. Copied notices to local police station and Banking Ombudsman. Harassment stopped in 4 days completely.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Negotiation Details:</strong> Our Vizag team spent 2 months negotiating. Personal loan (from NBFC) settled at 45% because we showed them port sector slowdown data and company contract loss proof. Vehicle loan settled at 50% using depreciation and income drop. Both credit cards settled at 40% by showing salary reduction and revolving interest trap.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Final Numbers:</strong> ₹19 lakhs outstanding became ₹8.5 lakhs settlement. Saved ₹10.5 lakhs (55% reduction). Ravi arranged money through personal savings, family help and selling some gold. All 4 accounts closed legally with NOCs. Harassment stopped permanently. Neighborhood peace restored.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Today:</strong> Ravi is debt-free. Still working at same Vizag port company (overtime came back partially). CIBIL improved to 660 after 14 months. We guided him on credit rebuilding. His words: "CredSettle stopped the harassment hell I was going through. Agents were destroying my peace and family reputation in neighborhood. CredSettle acted fast and got me out legally."
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Timeline:</strong> March 2024 first call, April-May negotiation, June 2024 payment, July 2024 closure. Total: 4 months. Harassment stopped in 4 days.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>The client:</strong> Ravi K., age 36, logistics supervisor at Visakhapatnam port-related company. Salary ₹8 lakhs yearly. Had borrowed ₹19 lakhs total (1 personal loan for flat, 1 two-wheeler loan, 2 credit cards). </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>What Went Wrong:</strong> Company lost major shipping contract in early 2023. Cut workforce by 40%. Ravi kept job but salary reduced by 30% and overtime stopped (was earning extra ₹1.5 lakhs yearly through overtime). Take-home fell from ₹8 lakhs to ₹5.5 lakhs. Couldn’t pay EMIs on ₹12 lakhs personal loan, ₹3 lakhs vehicle loan and ₹4 lakhs credit cards. All accounts went NPA. agents called 30+ times daily, visited his Vizag home 5 times in 2 weeks, contacted his neighbors twice, sent messages to relatives. CIBIL dropped from 730 to 495. abuse was severe - agents used threatening language and created neighborhood embarrassment. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>We Intervened Urgently:</strong> Ravi contacted us March 2024 in distressed state. We treated as priority case given abuse severity. Sent legal notices to all 4 lenders within 24 hours with strong language about RBI violations and threats of police complaints. Copied notices to local police station and Banking Ombudsman. abuse stopped in 4 days completely. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>talks Details:</strong> Our Vizag team spent 2 months settling. Personal loan (from NBFC) settled at 45% because we showed them port sector slowdown data and company contract loss proof. Vehicle loan settled at 50% using depreciation and income drop. Both credit cards settled at 40% by showing salary reduction and revolving interest trap. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Final Numbers:</strong> ₹19 lakhs unpaid became ₹8.5 lakhs settlement. Saved ₹10.5 lakhs (55% reduction). Ravi arranged money through personal savings, family help and selling some gold. All 4 accounts closed legally with NOCs. abuse stopped permanently. Neighborhood peace restored. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Today:</strong> Ravi is debt-free. Still working at same Vizag port company (overtime came back partially). CIBIL improved to 660 after 14 months. We guided him on credit rebuilding. His words: "CredSettle stopped the abuse hell I was going through. Agents were destroying my peace and family name in neighborhood. CredSettle acted fast and got me out legally." </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Timeline:</strong> March 2024 first call, April-May talks, June 2024 payment, July 2024 closure. Total: 4 months. abuse stopped in 4 days. </p>
                 </div>
               </section>
 
@@ -603,21 +465,11 @@ export default function AndhraPradeshPageClient() {
             fontFamily: 'Poppins',
             lineHeight: '28px'
         }}>
-                  <p style={{ marginBottom: '16px' }}>
-                    Suffering from loan debt and recovery harassment in Visakhapatnam, Vijayawada, Guntur or anywhere in Andhra Pradesh? You don’t need to endure this alone. Settlement is legal. RBI backs it. Harassment protection is your right.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    Debt plus harassment destroys everything. Health collapses, family peace gone, work focus disappears, social embarrassment in Telugu communities, sleep impossible. Each day you delay, harassment continues, penalties grow, CIBIL falls more. But exit exists. Over 8,000 AP families already achieved financial freedom and harassment-free life through our services.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Act today:</strong> Free confidential consultation. No dues, no upfront fees. Just honest assessment and immediate harassment protection plan. Our AP experts will show exactly how to stop harassment fast (within 3-5 days), cut debt 30-70% and close everything legally. We understand port work, agricultural trading, aquaculture, temple businesses - whatever your situation is.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    Financial troubles are temporary problems. But unresolved debt and continuing harassment can destroy years of your life. With our legal team, AP knowledge and 8,000+ case experience, you can end both debt and harassment properly. Don’t suffer anymore. Take action now.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Call CredSettle for free consultation.</strong> Vizag port areas, Vijayawada commercial zones, Guntur mandis, Tirupati temple areas or any AP district. Wherever you are, debt-free and harassment-free life is possible. We’ll help you reach there safely.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> Suffering from loan debt and collection abuse in Visakhapatnam, Vijayawada, Guntur or anywhere in Andhra Pradesh? You don’t need to endure this alone. Settlement is legal. RBI backs it. abuse protection is your right. </p>
+                  <p style={{ marginBottom: '16px' }}> Debt plus abuse destroys everything. Health collapses, family peace gone, work focus disappears, social embarrassment in Telugu communities, sleep impossible. Each day you delay, abuse continues, penalties grow, CIBIL falls more. But exit exists. Over 8,000 AP families already achieved money freedom and abuse-free life through our services. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Act today:</strong> Free confidential call. No dues, no upfront fees. Just honest assessment and fast abuse protection plan. Our AP experts will show exactly how to stop abuse fast (within 3-5 days), cut debt 30-70% and close everything legally. We know port work, farm trading, aquaculture, temple firms - whatever your situation is. </p>
+                  <p style={{ marginBottom: '16px' }}> money troubles are temporary problems. But unresolved debt and continuing abuse can destroy years of your life. With our legal team, AP knowledge and 8,000+ case skill, you can end both debt and abuse properly. Don’t suffer anymore. Take action now. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Call CredSettle for free call.</strong> Vizag port areas, Vijayawada trade zones, Guntur mandis, Tirupati temple areas or any AP district. Wherever you are, debt-free and abuse-free life is possible. We’ll help you reach there safely. </p>
                 </div>
               </section>
             </div>
@@ -638,9 +490,7 @@ export default function AndhraPradeshPageClient() {
                     <h2 className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full" style={{ color: '#0C2756' }}>
                       Ready to Stop Harassment and Clear Debt in AP?
                     </h2>
-                    <p className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full" style={{ color: 'rgba(12, 39, 86, 0.70)' }}>
-                      Join 8,000+ AP families who got harassment-free and debt-free. Urgent protection available. Free consultation, no upfront fees.
-                    </p>
+                    <p className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full" style={{ color: 'rgba(12, 39, 86, 0.70)' }}> Join 8,000+ AP families who got abuse-free and debt-free. Urgent protection available. Free call, no upfront fees. </p>
                   </div>
 
                   <CTAButton>

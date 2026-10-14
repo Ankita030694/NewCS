@@ -47,43 +47,43 @@ export default function LoanSettlementFraudAlertClient() {
     const faqs = [
         {
             q: 'How do fake loan settlement agencies trap borrowers?',
-            a: "Fraudulent agencies promise 100% debt waivers, demand upfront fees into personal UPI accounts. Falsely claim RBI approvals to steal money from distressed borrowers."
+            a: "Fraudulent firms promise 100% debt waivers. Demand upfront fees into private UPI accounts. Falsely claim RBI approvals to steal money from distressed clients."
         },
         {
             q: 'Can any agency guarantee a 100% loan waiver?',
-            a: 'No legitimate agency can guarantee total debt forgiveness. Lawful bank settlements compromise between 40% to 55% of principal balance based on verified insolvency.'
+            a: 'No legitimate firm can guarantee total debt forgiveness. Lawful bank deals OTS deal between 40% to 55% of base loan based on checked ruin.'
         },
         {
             q: 'What are the primary red flags of a fake debt agency?',
-            a: "Key red flags include upfront cash demands, personal UPI transfers, instant CIBIL erasure promises. Settlement letters sent via WhatsApp without official bank emails."
+            a: "Key red flags include upfront cash demands. Private UPI transfers. Instant CIBIL erasure promises. settlement letters sent via WhatsApp without formal bank emails."
         },
         {
             q: 'Is it safe to pay settlement fees into personal UPI accounts?',
-            a: 'No. Settlement payments must be deposited directly into your official bank loan account via NEFT, RTGS, or branch counters. Never transfer money to intermediaries.'
+            a: 'No. settlement payments must be deposited straight into your formal bank loan account via NEFT. RTGS. Or branch counters. Never transfer money to intermediaries.'
         },
         {
             q: 'How can I verify if a bank settlement letter is genuine?',
-            a: "Verify that the letter has official bank letterhead, unique reference numbers, branch seals, authorized signatory. Confirmation sent from the bank corporate email domain."
+            a: "Verify that the letter has formal bank letterhead. Unique reference numbers. Branch seals. Authorized signatory. Confirmation sent from the bank firm email domain."
         },
         {
             q: 'Does the RBI license private loan settlement companies?',
-            a: 'No. The RBI does not license or endorse private settlement agencies. Legal debt resolution is provided by legal professionals operating under the Advocates Act.'
+            a: 'No. The RBI does not license or endorse private settlement firms. Legal debt relief is provided by legal workers operating under the lawyers Act.'
         },
         {
             q: 'What should I do if I am scammed by a fake agency?',
-            a: 'Report the fraud to the National Cyber Crime Portal at cybercrime.gov.in or dial 1930. File an IPC Section 420 complaint and alert your bank fraud cell.'
+            a: 'Report the fraud to the National Cyber Crime Portal at cybercrime.gov.in or dial 1930. File an IPC Section 420 reports and alert your bank fraud cell.'
         },
         {
             q: 'Can a fake agency remove default status from CIBIL?',
-            a: 'No. Tampering with credit bureau data is illegal. Credit scores can only be repaired lawfully by obtaining a bank No Dues Certificate and filing a Section 21 dispute.'
+            a: 'No. Tampering with CIBIL desk data is banned. Credit scores can only be repaired lawfully by obtaining a bank No Dues letter and filing a Section 21 claims.'
         },
         {
             q: 'How does CredSettle provide authentic settlement assistance?',
-            a: "CredSettle provides legal representation, audits predatory interest charges, stops recovery harassment, negotiates formal OTS terms with bank committees. Ensures direct bank payments."
+            a: "CredSettle provides legal legal help. Audits predatory rates charges. Stops claims abuse. Negotiates formal OTS terms with bank boards. Ensures direct bank payments."
         },
         {
             q: 'What criminal charges apply to fake settlement extortionists?',
-            a: "Victims can file criminal complaints under Section 420 (Cheating), Section 468 (Forgery), Section 384 (Extortion) of IPC. Section 66D of the IT Act for impersonation."
+            a: "Victims can file penal reports under Section 420 (Cheating). Section 468 (Forgery). Section 384 (Extortion) of IPC. Section 66D of the IT Act for impersonation."
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -100,9 +100,7 @@ export default function LoanSettlementFraudAlertClient() {
             Loan Settlement Fraud Alert: How to Identify Fake Agencies
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed">
-            Learn how to spot fake debt relief agencies, unmask advance fee traps, identify forged bank NOCs. Secure legally binding loan settlements directly through authorized banking channels.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed"> Learn how to spot fake debt relief firms. Unmask advance fee traps. Identify forged bank NOCs. Secure by law binding loan deals straight through authorized banking channels. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -145,9 +143,7 @@ export default function LoanSettlementFraudAlertClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>Statutory Anti-Scam Guide.</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Governed by RBI Fair Practices Code, IPC Section 420, and the Advocates Act 1961.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by RBI Fair Practices Code. IPC Section 420. And the lawyers Act 1961. </p>
               </div>
             </div>
           </aside>
@@ -163,61 +159,21 @@ export default function LoanSettlementFraudAlertClient() {
               </div>
 
               <ul className="space-y-2 text-xs sm:text-sm text-slate-700 leading-relaxed">
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Zero 100% Waiver Feasibility:</strong> No legitimate agency can guarantee total debt forgiveness. Authentic bank settlements compromise between 40% to 55% of principal.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Zero 100% Waiver Feasibility:</strong> No legitimate firm can guarantee total debt forgiveness. Authentic bank deals OTS deal between 40% to 55% of main loan. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Advance Fee Scam Trap:</strong> Never transfer upfront settlement charges or compromise amounts into personal UPI IDs or private company accounts.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Advance Fee Scam Trap:</strong> Never transfer upfront settlement charges or OTS deal amounts into private UPI IDs or private firm accounts. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Direct Bank Remittance:</strong> Lawful settlement payments are deposited strictly into your designated bank loan account via NEFT, RTGS, or branch counters.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Direct Bank Remittance:</strong> Lawful settlement payments are deposited strictly into your designated bank loan account via NEFT. RTGS. Or branch counters. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Forged Settlement Letters:</strong> Fake agencies circulate counterfeit PDF letters with low-resolution logos, invalid branch codes, and fictitious bank officer signatures.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Forged settlement Letters:</strong> Fake firms circulate counterfeit PDF letters with low-relief logos. Invalid branch codes. And fictitious bank agents signatures. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">No RBI-Approved Settlement Firms:</strong> The RBI does not license private debt settlement agencies. Legitimate advisory operates under contract law and the Advocates Act.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">No RBI-Approved settlement Firms:</strong> The RBI does not license private debt settlement firms. Legitimate alert operates under contract law and the lawyers Act. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Credit Repair Myths:</strong> Erasing default records unlawfully is impossible under CICRA 2005. Credit rebuilding requires authentic bank No Dues Certificates.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Credit Repair Myths:</strong> Erasing default records unlawfully is impossible under CICRA 2005. Credit rebuilding requires authentic bank No Dues letters. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Immediate Cyber Reporting:</strong> Report financial scams to the National Cyber Crime Portal at cybercrime.gov.in or dial the 1930 national helpline.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">fast Cyber Reporting:</strong> Report money scams to the National Cyber Crime Portal at cybercrime.gov.in or dial the 1930 national helpline. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Statutory Defense Rights:</strong> Borrowers possess enforceable legal protections under RBI Fair Practices Code and Section 12(5) Arbitration Act against harassment.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">legal Defense Rights:</strong> clients possess enforceable legal protections under RBI Fair Practices Code and Section 12(5) hearing Act against abuse. </div> </li>
               </ul>
             </div>
 
@@ -230,12 +186,8 @@ export default function LoanSettlementFraudAlertClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 1. Debt Economics: Rise of Fake Settlement Syndicates
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                The massive expansion of unsecured credit cards and digital personal loans in India has led to a sharp increase in non-performing assets (NPAs). When a borrower experiences severe income loss or medical distress and misses three consecutive monthly EMIs (90 days past due), the loan transitions into NPA status under Reserve Bank of India prudential norms. This classification obligates lending institutions to allocate 15% to 100% Tier-1 capital provisioning against the defaulted account.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Because unsecured debts lack collateral under SARFAESI rules, lenders frequently evaluate commercial One-Time Settlements (OTS) to recover core principal capital. However, this distressed environment has spawned an unregulated grey market of fraudulent consultants. Operating via deceptive online ads and cold calls, these unauthorized syndicates impersonate bank officials, promise complete debt waivers, pocket upfront cash fees into private UPI accounts. Leave borrowers exposed to continued recovery harassment and legal default notices.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The massive growth of no-pledge credit cards and online private loans in India has led to a sharp increase in non-performing assets (NPAs). When a client experiences severe income loss or health distress and misses three consecutive monthly EMIs (90 days past due). The loan transitions into NPA status under Reserve Bank of India prudential norms. This classification obligates lending institutions to allocate 15% to 100% Tier-1 cash bank reserves against the defaulted account. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Because no-pledge debts lack pledge under SARFAESI rules. Lenders often evaluate trade One-Time deals (OTS) to recover core main loan cash. However. This distressed environment has spawned an unregulated grey market of fraudulent consultants. Operating via deceptive online ads and cold calls. These banned syndicates impersonate bank officials. Promise complete debt waivers. Pocket upfront cash fees into private UPI accounts. Leave clients exposed to continued claims abuse and legal default notices. </p>
             </section>
 
             {/* SECTION 2: Financial Breakdown & Settlement Math */}
@@ -247,12 +199,8 @@ export default function LoanSettlementFraudAlertClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 2. Settlement Math: Scam Promises vs Authentic OTS
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Evaluating whether a settlement offer is legitimate requires understanding the mathematical anatomy of loan defaults. When an account defaults, lenders add compounding penal interest (24% to 36% p.a.), cheque bounce penalties. Administrative charges, inflating the demand largely. Fake agencies manipulate these figures, promising an impossible 90% to 100% total waiver while extracting upfront fees.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                In contrast, an authentic bank OTS negotiated by certified legal professionals eliminates 100% of accumulated penal interest and charges, while establishing a realistic 40% to 55% compromise on the core principal balance based on verified insolvency:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Evaluating whether a offers is legitimate requires understanding the mathematical anatomy of loan defaults. When an account defaults. Lenders add growing extra fees (24% to 36% p.a.). Cheque bounce penalties. Office charges. Inflating the demand largely. Fake firms manipulate these figures. Promising an impossible 90% to 100% total waiver while extracting upfront fees. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> In contrast. An authentic bank OTS settled by certified legal workers eliminates 100% of total extra fees and charges. Meanwhile. Establishing a realistic 40% to 55% OTS deal on the core base loan based on checked ruin: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
                 <div className="bg-white p-4 rounded-2xl border border-red-200/80 shadow-xs space-y-2">
@@ -316,9 +264,7 @@ export default function LoanSettlementFraudAlertClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 3. Comparative Matrix: Legal OTS vs Scam Agencies
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Compare legitimate debt resolution against fraudulent agencies, bank restructuring, Lok Adalats, and borrower inaction:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Compare legitimate debt relief against fraudulent firms. Bank restructuring. Lok Adalats. And client inaction: </p>
 
               <div className="rounded-2xl border border-slate-200/80 bg-white shadow-xs overflow-x-auto">
                 <table className="w-full text-left text-xs divide-y divide-slate-200/80">
@@ -334,20 +280,20 @@ export default function LoanSettlementFraudAlertClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-100 text-slate-600">
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-100">
-                      <td className="p-3 font-bold text-slate-900">Verified Legal OTS.</td>
+                      <td className="p-3 font-bold text-slate-900">checked Legal OTS.</td>
                       <td className="p-3">RBI Master Directions.</td>
                       <td className="p-3 text-emerald-700 font-semibold">Bank Loan A/C Only.</td>
                       <td className="p-3 text-emerald-700 font-semibold">Zero Risk</td>
                       <td className="p-3">Updated to Closed.</td>
-                      <td className="p-3 text-[#1886ff] font-semibold">Advocacy &amp; 40%-55% waiver.</td>
+                      <td className="p-3 text-[#1886ff] font-semibold">Advocacy &amp. 40%-55% waiver.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-100">
-                      <td className="p-3 font-bold text-red-600">Fraudulent Agency.</td>
+                      <td className="p-3 font-bold text-red-600">Fraudulent firm.</td>
                       <td className="p-3 text-red-600">None (Extortion).</td>
-                      <td className="p-3 text-red-600 font-semibold">Personal UPI / Agency.</td>
-                      <td className="p-3 text-red-600 font-semibold">100% Capital Loss.</td>
+                      <td className="p-3 text-red-600 font-semibold">private UPI / firm.</td>
+                      <td className="p-3 text-red-600 font-semibold">100% cash Loss.</td>
                       <td className="p-3 text-red-600">Remains Defaulted.</td>
-                      <td className="p-3 text-red-600">Zero standing, forged papers.</td>
+                      <td className="p-3 text-red-600">Zero standing. Forged papers.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-100">
                       <td className="p-3 font-bold text-slate-900">Bank Restructuring.</td>
@@ -355,7 +301,7 @@ export default function LoanSettlementFraudAlertClient() {
                       <td className="p-3">Bank Loan A/C</td>
                       <td className="p-3 text-emerald-700">Low Risk</td>
                       <td className="p-3">Restructured Flag.</td>
-                      <td className="p-3">Tenure extension increases interest.</td>
+                      <td className="p-3">Tenure extension increases rates.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-100">
                       <td className="p-3 font-bold text-slate-900">Lok Adalat</td>
@@ -366,12 +312,12 @@ export default function LoanSettlementFraudAlertClient() {
                       <td className="p-3">Final non-appealable decree.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-100">
-                      <td className="p-3 font-bold text-slate-900">Borrower Inaction.</td>
-                      <td className="p-3">Recovery Statutes.</td>
+                      <td className="p-3 font-bold text-slate-900">client Inaction.</td>
+                      <td className="p-3">claims Statutes.</td>
                       <td className="p-3">N/A</td>
-                      <td className="p-3 text-amber-700">Penal Escalation.</td>
-                      <td className="p-3 text-red-600">Severe Drop (&lt;550).</td>
-                      <td className="p-3 text-red-600">Section 138 suits &amp; arbitration.</td>
+                      <td className="p-3 text-amber-700">Penal reports.</td>
+                      <td className="p-3 text-red-600">Severe Drop (&lt. 550).</td>
+                      <td className="p-3 text-red-600">Section 138 suits &amp. hearing.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -387,12 +333,8 @@ export default function LoanSettlementFraudAlertClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 4. CIBIL Scoring Mechanics: Fake Credit Repair Scams
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                A frequent scam involves agencies promising to delete default remarks or boost CIBIL scores to 750+ within 48 hours for upfront cash. TransUnion CIBIL and credit bureaus calculate scores using a strict 5-factor model: Payment History (35%), Credit Exposure (30%), Credit Mix (15%), Credit History Length (10%). Recent Enquiries (10%). Under the Credit Information Companies (Regulation) Act 2005, modifying bureau records without encrypted bank approval is illegal.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Any unauthorized alteration violates Section 66 of the IT Act. The only lawful method to rebuild credit is completing a formal bank OTS, obtaining a genuine No Dues Certificate. Submitting a Section 21 dispute to transition status to Closed, steadily restoring credit health over 18 to 24 months.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> A frequent scam involves firms promising to delete default remarks or boost CIBIL scores to 750+ within 48 hours for upfront cash. TransUnion CIBIL and credit bureaus calculate scores using a strict 5-factor model: Payment History (35%). Credit Exposure (30%). Credit Mix (15%). Credit History Length (10%). Recent Enquiries (10%). Under the Credit Information firms (Regulation) Act 2005. Modifying CIBIL desk records without encrypted bank approval is banned. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Any banned alteration violates Section 66 of the IT Act. The only lawful method to rebuild credit is completing a formal bank OTS. Obtaining a genuine No Dues letter. Submitting a Section 21 claims to transition status to Closed. Steadily restoring credit health over 18 to 24 months. </p>
             </section>
 
             {/* SECTION 5: Embedded 16:9 Infographic Banner */}
@@ -404,9 +346,7 @@ export default function LoanSettlementFraudAlertClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Visual Anti-Scam Roadmap: Forensic Verification Blueprint
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Review this visual blueprint highlighting core scam red flags and the authentic 6-stage debt resolution protocol:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Review this visual blueprint highlighting core scam red flags and the authentic 6-stage debt relief protocol: </p>
 
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-sm p-3 md:p-4 overflow-hidden">
                 <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-slate-100">
@@ -431,9 +371,7 @@ export default function LoanSettlementFraudAlertClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 6. Step-by-Step SOP: Verified Debt Resolution Protocol
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Follow this sequential standard operating procedure to verify legitimate debt advisory and negotiate an authorized bank compromise:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Follow this sequential standard operating steps to verify legitimate debt alert and settle an authorized bank OTS deal: </p>
 
               <div className="space-y-3 pt-2">
                 {/* Stage 1 */}
@@ -447,9 +385,7 @@ export default function LoanSettlementFraudAlertClient() {
                   <h3 className="text-sm md:text-base font-bold text-slate-900">
                     Forensic Loan Audit &amp; Statement Reconciliation
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Retrieve official bank statements directly from NetBanking or branch desks. Audit the loan ledger to identify illegal compounding penal interest and determine the pure core principal owed.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Retrieve formal bank records straight from NetBanking or branch desks. Audit the loan ledger to identify banned growing extra fees and determine the pure core main loan owed. </p>
                 </div>
 
                 {/* Stage 2 */}
@@ -463,9 +399,7 @@ export default function LoanSettlementFraudAlertClient() {
                   <h3 className="text-sm md:text-base font-bold text-slate-900">
                     Financial Hardship Dossier Preparation
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Compile verified documentary evidence substantiating involuntary default. This includes job termination letters, income loss proofs, medical summaries. Business balance sheets required for bank OTS approval.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Compile checked documentary proof proving involuntary default. This includes job termination letters. Income loss proofs. Health summaries. trade balance sheets required for bank OTS approval. </p>
                 </div>
 
                 {/* Stage 3 */}
@@ -479,9 +413,7 @@ export default function LoanSettlementFraudAlertClient() {
                   <h3 className="text-sm md:text-base font-bold text-slate-900">
                     Credit Committee Representation &amp; Anti-Harassment Notice
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Serve formal legal representations upon the bank Zonal Credit Committee. Concurrently issue cease-and-desist notices to unauthorized collection agencies under RBI Fair Practices Code, curbing harassment.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Serve formal legal representations upon the bank Zonal Credit boards. Concurrently issue cease-and-desist notices to banned claims firms under RBI Fair Practices Code. Curbing abuse. </p>
                 </div>
 
                 {/* Stage 4 */}
@@ -495,9 +427,7 @@ export default function LoanSettlementFraudAlertClient() {
                   <h3 className="text-sm md:text-base font-bold text-slate-900">
                     Bilateral Bank Negotiations &amp; Penal Waiver Bargaining
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Conduct structured bilateral negotiations with bank legal recovery officers. Secure a 100% waiver of accumulated penal interest and negotiate an affordable 40% to 55% settlement on core principal.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Conduct structured bilateral talks with bank legal claims agents. Secure a 100% waiver of total extra fees and settle an affordable 40% to 55% settlement on core main loan. </p>
                 </div>
 
                 {/* Stage 5 */}
@@ -511,9 +441,7 @@ export default function LoanSettlementFraudAlertClient() {
                   <h3 className="text-sm md:text-base font-bold text-slate-900">
                     Forensic Settlement Sanction Letter Verification
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Verify the official OTS sanction letter before releasing funds. Confirm the document is printed on official bank letterhead with branch seals and confirmation from the bank corporate email domain.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Verify the formal OTS sanction letter before releasing funds. Confirm the paper is printed on formal bank letterhead with branch seals and confirmation from the bank firm email domain. </p>
                 </div>
 
                 {/* Stage 6 */}
@@ -527,9 +455,7 @@ export default function LoanSettlementFraudAlertClient() {
                   <h3 className="text-sm md:text-base font-bold text-slate-900">
                     Direct-to-Bank Remittance &amp; NDC Authentication
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    pay settlement payments directly into your official bank loan account number via RTGS, NEFT, or branch counters. Obtain official receipts followed by an authenticated No Dues Certificate within 30 days.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> pay settlement payments straight into your formal bank loan account number via RTGS. NEFT. Or branch counters. Obtain formal receipts followed by an authenticated No Dues letter within 30 days. </p>
                 </div>
               </div>
             </section>
@@ -543,9 +469,7 @@ export default function LoanSettlementFraudAlertClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 7. Statutory Legal Protections &amp; Bank Notice Defense Grid
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Fraudulent agencies use fake court summons to panic borrowers. Understand the authentic statutory frameworks governing loan default notices in India:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Fraudulent firms use fake court summons to panic clients. Understand the authentic legal rules governing loan default notices in India: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -553,9 +477,7 @@ export default function LoanSettlementFraudAlertClient() {
                     <FileCheck className="w-4 h-4"/>
                     <span>Section 25 PSSA (NACH Bounce).</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Triggered upon electronic auto-debit bounce under Payment and Settlement Systems Act. Quasi-criminal but bailable; settled via legal counsel appearance and loan compromise without arrest risk.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Triggered upon electronic auto-debit bounce under Payment and settlement Systems Act. Quasi-penal but bailable. settled via legal counsel appearance and loan OTS deal without arrest risk. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -563,9 +485,7 @@ export default function LoanSettlementFraudAlertClient() {
                     <Scale className="w-4 h-4"/>
                     <span>Section 138 NI Act (Cheque Bounce).</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Applies to dishonored security cheques. Legal defense requires checking 30-day notice validity, contesting liability quantum, and seeking compounding before Judicial Magistrate courts.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Applies to dishonored pledge cheques. Legal defense requires checking 30-day notice validity. Contesting debt risk quantum. And seeking growing before court Magistrate courts. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -573,9 +493,7 @@ export default function LoanSettlementFraudAlertClient() {
                     <Landmark className="w-4 h-4"/>
                     <span>Section 21 Arbitration Act.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Under Supreme Court rulings in TRF Ltd. and Perkins Eastman, unilateral sole arbitrator appointments by banks are disqualified de jure under Section 12(5), rendering proceedings invalid.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Under Supreme Court rulings in TRF Ltd. And Perkins Eastman. Unilateral sole judge appointments by banks are disqualified de jure under Section 12(5). Rendering steps invalid. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -583,9 +501,7 @@ export default function LoanSettlementFraudAlertClient() {
                     <ShieldCheck className="w-4 h-4"/>
                     <span>DRT &amp; RBI Fair Practices.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    DRT handles claims strictly exceeding ₹20 Lakhs. Concurrently, RBI Fair Practices Code strictly prohibits recovery agent abuse, contact outside 8:00 AM to 7:00 PM. Third-party shaming.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> DRT handles claims strictly exceeding ₹20 Lakhs. Concurrently. RBI Fair Practices Code strictly prohibits claims agent abuse. Contact outside 8:00 AM to 7:00 PM. Third-party shaming. </p>
                 </div>
               </div>
             </section>
@@ -599,9 +515,7 @@ export default function LoanSettlementFraudAlertClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 8. The 3-Tier Grievance &amp; Cybercrime Escalation Matrix
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                If you encounter fraudulent debt settlement agencies or illegal recovery threats, escalate through this structured 3-tier matrix:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> If you encounter fraudulent debt settlement firms or banned claims threats. Escalate through this structured 3-tier matrix: </p>
 
               <div className="space-y-3 pt-2">
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
@@ -611,9 +525,7 @@ export default function LoanSettlementFraudAlertClient() {
                     </span>
                     <span className="text-xs text-slate-500 font-semibold">7-10 Days</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    File a written complaint with the bank GRO to report unauthorized collection contact and clarify disputed penalty levies.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> File a written reports with the bank GRO to report banned claims contact and clarify disputed penalty levies. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
@@ -623,9 +535,7 @@ export default function LoanSettlementFraudAlertClient() {
                     </span>
                     <span className="text-xs text-slate-500 font-semibold">14-21 Days</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Escalate to bank PNO requesting formal referral of your loan to the compromise committee while halting agent field visits.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Escalate to bank PNO requesting formal referral of your loan to the OTS deal boards while halting agent field visits. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-red-200 shadow-xs space-y-1">
@@ -635,9 +545,7 @@ export default function LoanSettlementFraudAlertClient() {
                     </span>
                     <span className="text-xs text-slate-500 font-semibold">Immediate</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Lodge complaints on RBI CMS (cms.rbi.org.in). For fake NOCs or advance fee scams, register a cyber FIR on cybercrime.gov.in or call 1930.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Lodge reports on RBI CMS (cms.rbi.org.in). For fake NOCs or advance fee scams. Register a cyber FIR on cybercrime.gov.in or call 1930. </p>
                 </div>
               </div>
             </section>
@@ -651,9 +559,7 @@ export default function LoanSettlementFraudAlertClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 9. Chronological Procedural Milestones: From Default to Clean Closure
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Understanding institutional recovery timelines protects borrowers from artificial urgency created by scammers:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Understanding bank claims timelines protects clients from artificial urgency created by scammers: </p>
 
               <div className="rounded-2xl border border-slate-200/80 bg-white shadow-xs overflow-x-auto">
                 <table className="w-full text-left text-xs divide-y divide-slate-200/80">
@@ -670,31 +576,31 @@ export default function LoanSettlementFraudAlertClient() {
                       <td className="p-2.5 font-bold text-slate-900">Days 1-30</td>
                       <td className="p-2.5">SMA-0: First EMI bounce.</td>
                       <td className="p-2.5 text-slate-500">Low</td>
-                      <td className="p-2.5 text-[#1886ff] font-semibold">Notify bank of financial hardship.</td>
+                      <td className="p-2.5 text-[#1886ff] font-semibold">Notify bank of hardship.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-100">
                       <td className="p-2.5 font-bold text-slate-900">Days 31-89</td>
-                      <td className="p-2.5">SMA-1/2: Agent escalation.</td>
+                      <td className="p-2.5">SMA-1/2: Agent reports.</td>
                       <td className="p-2.5 text-amber-600 font-semibold">High</td>
-                      <td className="p-2.5 text-[#1886ff] font-semibold">Block fake calls &amp; seek counsel.</td>
+                      <td className="p-2.5 text-[#1886ff] font-semibold">Block fake calls &amp. seek counsel.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-100">
                       <td className="p-2.5 font-bold text-slate-900">Day 90+</td>
-                      <td className="p-2.5">NPA: 15% provisioning.</td>
+                      <td className="p-2.5">NPA: 15% bank reserves.</td>
                       <td className="p-2.5 text-red-600 font-semibold">Critical</td>
                       <td className="p-2.5 text-[#1886ff] font-semibold">Submit hardship dossier to bank.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-100">
                       <td className="p-2.5 font-bold text-slate-900">Months 4-5</td>
-                      <td className="p-2.5">Bank Credit Committee OTS.</td>
+                      <td className="p-2.5">Bank Credit boards OTS.</td>
                       <td className="p-2.5 text-amber-600 font-semibold">Moderate</td>
-                      <td className="p-2.5 text-[#1886ff] font-semibold">Negotiate 40%-55% OTS waiver.</td>
+                      <td className="p-2.5 text-[#1886ff] font-semibold">settle 40%-55% OTS waiver.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-100">
                       <td className="p-2.5 font-bold text-slate-900">Month 6</td>
-                      <td className="p-2.5">Direct Remittance &amp; NDC.</td>
+                      <td className="p-2.5">Direct Remittance &amp. NDC.</td>
                       <td className="p-2.5 text-emerald-700 font-semibold">Zero</td>
-                      <td className="p-2.5 text-[#1886ff] font-semibold">Obtain NDC &amp; update CIBIL.</td>
+                      <td className="p-2.5 text-[#1886ff] font-semibold">Obtain NDC &amp. update CIBIL.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -710,9 +616,7 @@ export default function LoanSettlementFraudAlertClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 10. Real-World Fraud Scenarios: Fintech Apps &amp; ARCs
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Fraud schemes manifest across multiple credit channels and borrower profiles:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Fraud schemes manifest across multiple credit channels and client profiles: </p>
 
               <div className="space-y-3 pt-2">
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -720,9 +624,7 @@ export default function LoanSettlementFraudAlertClient() {
                     <AlertTriangle className="w-4 h-4 text-red-600"/>
                     Multi-Lender Consolidation Scam Traps
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Borrowers holding multiple credit cards are targeted with fake debt consolidation loan promises with zero CIBIL checks, demanding 10% upfront processing fees before disappearing.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> clients holding multiple credit cards are targeted with fake debt consolidation loan promises with zero CIBIL checks. Demanding 10% upfront processing fees before disappearing. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -730,9 +632,7 @@ export default function LoanSettlementFraudAlertClient() {
                     <Sparkles className="w-4 h-4 text-[#1886ff]"/>
                     Executive Layoffs &amp; Fintech Loan App Frauds
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Salaried executives facing corporate layoffs turn to instant digital apps that harvest phone contacts and issue forged notices threatening defamation. Legal notices stop harassment immediately.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Salaried executives facing firm layoffs turn to instant online apps that harvest phone contacts and issue forged notices threatening defamation. Legal notices stop abuse promptly. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -740,9 +640,7 @@ export default function LoanSettlementFraudAlertClient() {
                     <Building2 className="w-4 h-4 text-[#1886ff]"/>
                     Business Proprietorship Working Capital Scams
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Small business owners are approached by fake consultants promising government MSME debt write-offs. Authentic business debt resolution requires bilateral restructuring with bank zonal heads.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Small shop owners are approached by fake consultants promising state MSME debt write-offs. Authentic trade debt relief requires bilateral restructuring with bank zonal heads. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -750,9 +648,7 @@ export default function LoanSettlementFraudAlertClient() {
                     <Landmark className="w-4 h-4 text-[#1886ff]"/>
                     ARC Debt Assignments &amp; Counterfeit Notices
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    When loans are assigned to Asset Reconstruction Companies under SARFAESI Section 5, rogue agents issue fake notices. Borrowers must demand verified Assignment Agreements directly from the ARC.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> When loans are assigned to Asset Reconstruction firms under SARFAESI Section 5. Rogue agents issue fake notices. clients must demand checked Assignment pacts straight from the ARC. </p>
                 </div>
               </div>
             </section>
@@ -771,9 +667,7 @@ export default function LoanSettlementFraudAlertClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Frequently Asked Questions: Loan Settlement Frauds
               </h2>
-              <p className="text-xs md:text-sm text-slate-600">
-                Click on any question below to view detailed legal answers verified by our debt resolution professionals:
-              </p>
+              <p className="text-xs md:text-sm text-slate-600"> Click on any question below to view detailed legal answers checked by our debt relief workers: </p>
 
               <div className="space-y-3 pt-2">
                 {faqs.map((faq, index) => {
@@ -801,24 +695,12 @@ export default function LoanSettlementFraudAlertClient() {
                 Official Regulatory Citations &amp; References
               </h2>
               <ul className="space-y-1 text-xs text-slate-600 leading-relaxed list-disc pl-5">
-                <li>
-                  <strong>RBI Master Directions:</strong> Fair Practices Code for Lenders &amp; Grievance Redressal (2026).
-                </li>
-                <li>
-                  <strong>RBI Integrated Ombudsman:</strong> Scheme 2021 for Unfair Recovery Practices Redressal.
-                </li>
-                <li>
-                  <strong>Indian Penal Code:</strong> Sections 420 (Cheating), 468 (Forgery), 384 (Extortion).
-                </li>
-                <li>
-                  <strong>IT Act 2000:</strong> Section 66D for Cheating by Personation using Computer Resources.
-                </li>
-                <li>
-                  <strong>CICRA 2005:</strong> Section 21 for Statutory Credit Bureau Dispute Settlement.
-                </li>
-                <li>
-                  <strong>Arbitration Act 1996:</strong> Section 12(5) Perkins Eastman Supreme Court Precedent.
-                </li>
+                <li> <strong>RBI Master Directions:</strong> Fair Practices Code for Lenders &amp. Grievance Redressal (2026). </li>
+                <li> <strong>RBI Integrated agents:</strong> Scheme 2021 for Unfair claims Practices Redressal. </li>
+                <li> <strong>Indian Penal Code:</strong> Sections 420 (Cheating). 468 (Forgery). 384 (Extortion). </li>
+                <li> <strong>IT Act 2000:</strong> Section 66D for Cheating by Personation using Computer Resources. </li>
+                <li> <strong>CICRA 2005:</strong> Section 21 for legal CIBIL desk claims settlement. </li>
+                <li> <strong>hearing Act 1996:</strong> Section 12(5) Perkins Eastman Supreme Court ruling. </li>
               </ul>
 
               {/* 6 Outbound Authority Badges */}
@@ -905,14 +787,10 @@ export default function LoanSettlementFraudAlertClient() {
                   <Link href="/author/ashish-jhangra" className="text-xs font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[10px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional.
-                  </p>
+                  <p className="text-[10px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief expert. </p>
                 </div>
               </div>
-              <p className="text-[11px] text-slate-600 leading-relaxed">
-                Specialized in banking compliance, anti-scam debt forensics, and NPA settlement negotiations.
-              </p>
+              <p className="text-[11px] text-slate-600 leading-relaxed"> expert in banking compliance. Anti-scam debt forensics. And NPA talks. </p>
               <div className="pt-1.5 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
                   <span>Author Profile</span>
@@ -930,12 +808,8 @@ export default function LoanSettlementFraudAlertClient() {
                 <span className="text-[10px] font-black uppercase tracking-wider text-blue-200 bg-white/10 px-2.5 py-0.5 rounded-full inline-block">
                   100% CONFIDENTIAL DEFENSE.
                 </span>
-                <p className="text-base font-bold text-white leading-snug">
-                  Suspicious Settlement Offer?
-                </p>
-                <p className="text-blue-100 text-xs mt-1 leading-relaxed font-normal">
-                  verify bank settlement letters, stop recovery harassment, and negotiate legitimate 40% to 55% waivers.
-                </p>
+                <p className="text-base font-bold text-white leading-snug"> Suspicious offers? </p>
+                <p className="text-blue-100 text-xs mt-1 leading-relaxed font-normal"> verify bank settlement letters. Stop claims abuse. And settle legitimate 40% to 55% waivers. </p>
               </div>
               <Link href="/contact" className="block w-full bg-white text-blue-900 hover:text-[#1886ff] py-2.5 px-3 rounded-full font-bold text-xs hover:bg-slate-50 transition-all shadow-md">
                 Spot Fraud? Get Protection
@@ -955,22 +829,10 @@ export default function LoanSettlementFraudAlertClient() {
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-4 space-y-2 text-xs">
               <p className="font-bold text-slate-900 text-xs">The CredSettle Advantage.</p>
               <ul className="space-y-1.5 text-slate-600 text-[11px]">
-                <li className="flex items-start gap-1.5">
-                  <Check className="w-3 h-3 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Zero Upfront Risk:</strong> Direct bank remittance.</span>
-                </li>
-                <li className="flex items-start gap-1.5">
-                  <Check className="w-3 h-3 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Verified Advocates:</strong> Registered counsel.</span>
-                </li>
-                <li className="flex items-start gap-1.5">
-                  <Check className="w-3 h-3 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>RBI Compliance:</strong> Fair Practices adherence.</span>
-                </li>
-                <li className="flex items-start gap-1.5">
-                  <Check className="w-3 h-3 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Genuine No Dues:</strong> Authentic NDC issuance.</span>
-                </li>
+                <li className="flex items-start gap-1.5"> <Check className="w-3 h-3 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Zero Upfront Risk:</strong> Direct bank remittance.</span> </li>
+                <li className="flex items-start gap-1.5"> <Check className="w-3 h-3 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>checked lawyers:</strong> Registered counsel.</span> </li>
+                <li className="flex items-start gap-1.5"> <Check className="w-3 h-3 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>RBI Compliance:</strong> Fair Practices adherence.</span> </li>
+                <li className="flex items-start gap-1.5"> <Check className="w-3 h-3 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Genuine No Dues:</strong> Authentic NDC issuance.</span> </li>
               </ul>
             </div>
 
@@ -979,23 +841,17 @@ export default function LoanSettlementFraudAlertClient() {
               <p className="font-bold text-slate-900 text-xs">Related Guides</p>
               <div className="space-y-1.5">
                 <Link href="/verify-loan-settlement-letter" className="block p-2 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 text-[11px] group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Verify Settlement Letter.
-                  </p>
+                  <p className="font-bold text-slate-800 text-[11px] group-hover:text-[#1886ff] transition-colors leading-snug"> Verify closure note. </p>
                   <span className="text-[9px] text-slate-400 block">Checklist &amp; red flags &rarr;.</span>
                 </Link>
 
                 <Link href="/bank-sent-legal-notice-for-loan-what-to-do" className="block p-2 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 text-[11px] group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Bank Sent Legal Notice.
-                  </p>
+                  <p className="font-bold text-slate-800 text-[11px] group-hover:text-[#1886ff] transition-colors leading-snug"> Bank Sent Legal Notice. </p>
                   <span className="text-[9px] text-slate-400 block">Reply blueprint &rarr;.</span>
                 </Link>
 
                 <Link href="/convert-settled-status-to-closed" className="block p-2 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 text-[11px] group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Convert Settled to Closed.
-                  </p>
+                  <p className="font-bold text-slate-800 text-[11px] group-hover:text-[#1886ff] transition-colors leading-snug"> Convert Settled to Closed. </p>
                   <span className="text-[9px] text-slate-400 block">Credit report guide &rarr;.</span>
                 </Link>
               </div>

@@ -47,23 +47,23 @@ export default function CanIGoToJailForCreditCardDebtClient() {
     const faqs = [
         {
             q: 'Can I go to jail for credit card debt in India?',
-            a: 'No. Credit card default is strictly a civil breach of contract under the Indian Contract Act, 1872. Banks, NBFCs, and collection agents have zero legal power to arrest or jail borrowers for unpaid balances.'
+            a: 'No. Credit card default is strictly a civil breach of contract under the Indian Contract Act. 1872. Banks. NBFCs. And claims agents have zero legal power to arrest or jail clients for unpaid balances.'
         },
         {
             q: 'Can police arrest me or file an FIR for credit card default?',
-            a: "No. Local police cannot arrest you for debt default. Criminal action applies only if intentional fraud at card issuance. Examples include forged KYC or stolen identity, is proven under Section 420."
+            a: "No. Local police cannot arrest you for debt default. Criminal action applies only if intentional fraud at card issuance. Examples include forged KYC or stolen identity. Is proven under Section 420."
         },
         {
             q: 'What should I do if a recovery agent sends a fake police notice?',
-            a: "Do not pay under threat. Preserve evidence. File a formal complaint with the bank's Nodal Officer, report extortion to cybercrime.gov.in. File an RBI Ombudsman grievance under Section 383 IPC."
+            a: "Do not pay under threat. Preserve proof. File a formal complaint with the bank's Nodal Officer. Report extortion to cybercrime.gov.in. File an RBI Ombudsman grievance under Section 383 IPC."
         },
         {
             q: 'What legal action can a bank actually take for credit card default?',
-            a: "Banks can classify accounts as NPA after 90 days, report defaults to CIBIL, issue statutory legal demand notices, initiate arbitration. File an Order 37 CPC summary suit for civil decree recovery."
+            a: "Banks can classify accounts as NPA after 90 days. Report defaults to CIBIL. Issue legal legal demand notices. Initiate arbitration. File an Order 37 CPC summary suit for civil decree claims."
         },
         {
             q: 'What is an Order 37 CPC Summary Suit for credit card dues?',
-            a: 'Order 37 CPC is an expedited civil court process for recovering liquidated debts. Borrowers receive court summons and can file Leave to Defend within 10 days contesting inflated 42%+ compound interest.'
+            a: 'Order 37 CPC is an expedited civil court process for recovering liquidated debts. clients receive court summons and can file Leave to Defend within 10 days contesting inflated 42%+ compound interest.'
         },
         {
             q: 'Can credit card default be treated as criminal cheating under Section 420 IPC?',
@@ -75,15 +75,15 @@ export default function CanIGoToJailForCreditCardDebtClient() {
         },
         {
             q: 'What are the Supreme Court guidelines on credit card debt recovery harassment?',
-            a: 'In ICICI Bank v. Shanti Devi Sharma, the Supreme Court barred recovery agent intimidation. RBI rules restrict calling hours to 8:00 AM to 7:00 PM and prohibit contacting employers or relatives.'
+            a: 'In ICICI Bank v. Shanti Devi Sharma. The Supreme Court barred claims agent threats. RBI rules restrict calling hours to 8:00 AM to 7:00 PM and prohibit contacting employers or relatives.'
         },
         {
             q: 'How does a credit card One-Time Settlement (OTS) work in India?',
-            a: 'An OTS is a formal compromise where the bank waives compound interest (42%+ APR) and penalties, allowing the borrower to settle principal at a 40% to 60% discount with an NDC.'
+            a: 'An OTS is a formal OTS deal where the bank waives compound interest (42%+ APR) and penalties. This allows the client to settle main loan at a 40% to 60% discount with an NDC.'
         },
         {
             q: 'Can credit card debt disputes be settled at a National Lok Adalat?',
-            a: "Yes. National Lok Adalats organized by NALSA provide pre-litigation conciliation where cardholders negotiate large waivers. Lok Adalat awards carry civil court decree status, require zero fees, and cannot be appealed."
+            a: "Yes. National Lok Adalats organized by NALSA provide pre-lawsuits talks where cardholders settle large waivers. Lok Adalat awards carry civil court decree status. Require zero fees. And cannot be appealed."
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -100,9 +100,7 @@ export default function CanIGoToJailForCreditCardDebtClient() {
             Can I Go to Jail for Credit Card Debt in India? Legal Rights Guide
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed">
-            Unsecured credit card default in India is purely a civil contractual dispute. Lenders and recovery agents cannot arrest you, summon police, or order imprisonment. Learn your Supreme Court protections, refute fake arrest threats, and resolve outstanding dues through legal debt settlement.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed"> no-pledge credit card default in India is purely a civil contractual dispute. Lenders and claims agents cannot arrest you. Summon police, or order imprisonment. Learn your Supreme Court protections. Refute fake arrest threats. And resolve dues through legal debt settlement. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -145,9 +143,7 @@ export default function CanIGoToJailForCreditCardDebtClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>Statutory Legal Defense.</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Governed by Indian Contract Act 1872, CPC 1908, and Supreme Court Debt Guidelines.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by Indian Contract Act 1872. CPC 1908. And Supreme Court Debt rules. </p>
               </div>
             </div>
           </aside>
@@ -162,13 +158,9 @@ export default function CanIGoToJailForCreditCardDebtClient() {
                 <span>EXECUTIVE SUMMARY: CREDIT CARD DEBT LEGAL PROTECTION IN INDIA.</span>
               </div>
 
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                Under the Indian legal framework, credit card non-payment is strictly classified as a civil contractual breach governed by the Indian Contract Act, 1872. Commercial banks, financial institutions. Third-party recovery agencies possess zero legal authority to issue arrest warrants, summon police officers. Seek criminal imprisonment for genuine financial defaults. When recovery agents fabricate fake police summons or send intimidatory arrest notices over WhatsApp, they commit punishable criminal extortion under Section 383 of the Indian Penal Code (Section 308 BNS).
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> Under the Indian legal rules. Credit card non-payment is strictly classified as a civil contractual breach governed by the Indian Contract Act. 1872. banks, banks. Third-party claims firms possess zero legal formal to issue arrest warrants. Summon police officers. Seek criminal imprisonment for genuine money defaults. When claims agents fabricate fake police summons or send intimidatory arrest notices over WhatsApp. They commit punishable criminal extortion under Section 383 of the Indian Penal Code (Section 308 BNS). </p>
 
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                Institutional lenders seeking monetary recovery must adhere strictly to civil judicial remedies. Examples include filing summary recovery suits under Order 37 of the Code of Civil Procedure (CPC) or pursuing arbitration. Criminal provisions under Section 420 IPC apply only when intentional fraud existed at the time of card issuance, rather than inability to pay caused by subsequent job loss or medical crises. as a result, cardholders facing aggressive collection tactics are protected by binding Supreme Court precedents that mandate zero harassment and enable formal resolution through structured One-Time Settlements (OTS) with large interest waivers.
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> banks seeking monetary claims must adhere strictly to civil judicial remedies. Examples include filing summary claims suits under Order 37 of the Code of Civil Procedure (CPC) or pursuing arbitration. Criminal provisions under Section 420 IPC apply only when intentional fraud existed at the time of card issuance. Rather than inability to pay caused by subsequent job loss or medical crises. As a result. Cardholders facing aggressive claims tactics are protected by binding Supreme Court rulings that mandate zero abuse and enable formal relief through structured One-Time Settlements (OTS) with large interest waivers. </p>
             </div>
 
             {/* SECTION 1: Debt Economics & NPA Dynamics */}
@@ -180,12 +172,8 @@ export default function CanIGoToJailForCreditCardDebtClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 1. Credit Card Debt Economics &amp; 90-Day NPA Dynamics in India
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                In India, credit card debt represents high-exposure unsecured revolving credit carrying annualized percentage rates (APR) scaling between 42% and 52%. When financial hardship, job loss. Medical crises trigger missed minimum monthly payments, default progresses through strict Reserve Bank of India (RBI) Special Mention Account stages: SMA-0 (1 to 30 days past due), SMA-1 (31 to 60 days past due). SMA-2 (61 to 90 days past due). Upon crossing the 90-day threshold, the bank classifies the credit card account as a Non-Performing Asset (NPA) under RBI Master Circulars on Prudential Norms.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Crucially, unsecured credit card accounts carry zero tangible collateral or hypothecated security. as a result, lenders cannot enforce summary physical asset seizure under the SARFAESI Act, 2002, which strictly excludes unsecured debt under Section 31(b). also, RBI capital adequacy guidelines mandate that banks allocate Tier-1 capital provisioning of 15% to 100% against non-performing unsecured assets. To release tied-up provisioning capital and eliminate ongoing recovery overheads, institutional credit committees prioritize commercial One-Time Settlements (OTS) over expensive, multi-year civil court litigation across Indian jurisdictions.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> In India. Credit card debt represents high-exposure no-pledge revolving credit carrying annualized percentage rates (APR) scaling between 42% and 52%. When hardship, job loss. Medical crises trigger missed minimum monthly payments. Default progresses through strict Reserve Bank of India (RBI) Special Mention Account stages: SMA-0 (1 to 30 days past due). SMA-1 (31 to 60 days past due). SMA-2 (61 to 90 days past due). Upon crossing the 90-day threshold. The bank classifies the credit card account as a Non-Performing Asset (NPA) under RBI Master Circulars on Prudential Norms. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Crucially. No-pledge credit card accounts carry zero tangible security or hypothecated security. As a result. Lenders cannot enforce summary physical asset seizure under the SARFAESI Act. 2002. This strictly excludes no-pledge debt under Section 31(b). Also. RBI cash adequacy rules mandate that banks allocate Tier-1 cash provisioning of 15% to 100% against non-performing no-pledge assets. To release tied-up provisioning cash and eliminate ongoing claims overheads. Bank boards prioritize trade One-Time Settlements (OTS) over expensive. Multi-year civil court lawsuits across Indian police areas. </p>
             </section>
 
             {/* SECTION 2: Financial Breakdown & Settlement Math */}
@@ -197,9 +185,7 @@ export default function CanIGoToJailForCreditCardDebtClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 2. Financial Breakdown: Principal vs. Inflated Penal Charges Math
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Understanding the mathematical distinction between genuine principal exposure and inflated penal interest is vital when challenging credit card debt claims. Credit card issuers apply monthly finance charges ranging from 3.5% to 4.2%, compounded monthly, alongside late payment penalties, over-limit charges. 18% Goods and Services Tax (GST) on all fees. Within 180 days of default, accumulated penalties frequently surpass the initial borrowed principal balance.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Understanding the mathematical distinction between genuine main loan exposure and inflated penal interest is vital when challenging credit card debt claims. Credit card issuers apply monthly finance charges ranging from 3.5% to 4.2%. Compounded monthly. Alongside late payment penalties. Over-limit charges. 18% Goods and Services Tax (GST) on all fees. Within 180 days of default. Total penalties often surpass the initial borrowed base loan. </p>
 
               {/* Representative 180-Day NPA Settlement Math Card */}
               <div className="bg-white p-5 sm:p-6 rounded-2xl border border-slate-200/80 shadow-xs space-y-4">
@@ -246,9 +232,7 @@ export default function CanIGoToJailForCreditCardDebtClient() {
                 </div>
               </div>
 
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Lenders routinely waive 100% of compounded interest and penalty charges, agreeing to compromise on 40% to 55% of the core principal to secure immediate liquid cash recovery across commercial debt settlements.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Lenders routinely waive 100% of compounded interest and penalty charges. Agreeing to OTS deal on 40% to 55% of the core main loan to secure fast liquid cash claims across trade debt settlements. </p>
             </section>
 
             {/* SECTION 3: 4-Sided Bordered Comparison Matrix */}
@@ -260,9 +244,7 @@ export default function CanIGoToJailForCreditCardDebtClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 3. Legal Forum Comparison: Resolution Routes vs. Inaction
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Compare statutory debt resolution options, judicial litigation procedures, conciliation forums, and the hazards of passive default:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Compare legal debt relief options. Judicial lawsuits procedures, talks forums. And the hazards of passive default: </p>
 
               <div className="overflow-x-auto rounded-2xl border border-slate-200/80 bg-white shadow-xs">
                 <table className="w-full text-left text-xs md:text-sm">
@@ -281,15 +263,15 @@ export default function CanIGoToJailForCreditCardDebtClient() {
                       <td className="p-3.5 font-bold text-slate-900">One-Time Settlement (OTS).</td>
                       <td className="p-3.5">Indian Contract Act 1872.</td>
                       <td className="p-3.5 text-emerald-700 font-semibold">Zero Risk (No arrest).</td>
-                      <td className="p-3.5">40% to 60% principal waiver.</td>
+                      <td className="p-3.5">40% to 60% loan cut.</td>
                       <td className="p-3.5">30 to 60 Days</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold">Recommended: Structured compromise with complete legal immunity.</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold">Recommended: Structured OTS deal with complete legal immunity.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-100">
                       <td className="p-3.5 font-bold text-slate-900">Loan Restructuring.</td>
-                      <td className="p-3.5">RBI Framework</td>
+                      <td className="p-3.5">RBI rules</td>
                       <td className="p-3.5 text-emerald-700 font-semibold">Zero Risk (Civil relief).</td>
-                      <td className="p-3.5">Converts dues to term loan, higher interest.</td>
+                      <td className="p-3.5">Converts dues to term loan. Higher interest.</td>
                       <td className="p-3.5">15 to 30 Days</td>
                       <td className="p-3.5 text-slate-700 font-medium">Viable only if steady monthly income resumes.</td>
                     </tr>
@@ -303,19 +285,19 @@ export default function CanIGoToJailForCreditCardDebtClient() {
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-100">
                       <td className="p-3.5 font-bold text-slate-900">National Lok Adalat.</td>
-                      <td className="p-3.5">Legal Services Authorities Act 1987.</td>
-                      <td className="p-3.5 text-emerald-700 font-semibold">Zero Risk (Pure conciliation).</td>
+                      <td className="p-3.5">Legal Services officials Act 1987.</td>
+                      <td className="p-3.5 text-emerald-700 font-semibold">Zero Risk (Pure talks).</td>
                       <td className="p-3.5">Final binding consent decree.</td>
                       <td className="p-3.5">1 Day</td>
-                      <td className="p-3.5 text-slate-700 font-medium">Formalize negotiated compromise without court fees.</td>
+                      <td className="p-3.5 text-slate-700 font-medium">Formalize settled OTS deal without court fees.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-100">
                       <td className="p-3.5 font-bold text-slate-900">Passive Default (Inaction).</td>
-                      <td className="p-3.5">Unregulated Collection Exposure.</td>
+                      <td className="p-3.5">Unregulated claims Exposure.</td>
                       <td className="p-3.5 text-amber-700 font-semibold">Zero Jail (Vulnerable to threats).</td>
                       <td className="p-3.5">Ex-parte decrees, credit destruction.</td>
                       <td className="p-3.5">Indefinite</td>
-                      <td className="p-3.5 text-red-600 font-semibold">Never leave defaults unrepresented; assert statutory rights.</td>
+                      <td className="p-3.5 text-red-600 font-semibold">Never leave defaults unrepresented. assert legal rights.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -331,12 +313,8 @@ export default function CanIGoToJailForCreditCardDebtClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 4. Technical CIBIL Scoring Algorithm &amp; Post-Settlement Rebuilding
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                The TransUnion CIBIL credit scoring algorithm computes scores between 300 and 900 based on five weighted parameters: Payment History (35%), Credit use Ratio (30%), Credit Mix (15%), Credit History Length (10%). New Credit Inquiries (10%). Defaulting on revolving credit cards inflicts immediate dual-impact damage, exhausting 100%+ credit use while logging 90+ Days Past Due (DPD) payment defaults.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Upon NPA classification, a credit score of 780 can plummet by 140 to 220 points within three billing cycles, dropping into the sub-580 high-risk credit band. Following a negotiated One-Time Settlement, the card issuer reports the account status as &quot;Settled&quot. Or &quot;Post-Write-Off Settled&quot; to all four Credit Information Companies (CIBIL, Experian, CRIF High Mark, Equifax). Under Section 21 of the Credit Information Companies (Regulation) Act, 2005 (CICRA), borrowers retain the statutory right to dispute incorrect arrears or initiate post-settlement balance adjustments to transition records from &quot;Settled&quot. To &quot;Closed&quot;. By maintaining timely payments on small secured credit builder products, borrowers reliably rebuild credit scores back above 750 within 12 to 24 months.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The TransUnion CIBIL credit scoring algorithm computes scores between 300 and 900 based on five weighted parameters: Payment History (35%). Credit use Ratio (30%). Credit Mix (15%). Credit History Length (10%). New Credit Inquiries (10%). Defaulting on revolving credit cards inflicts fast dual-impact damage. Exhausting 100%+ credit use while logging 90+ Days Past Due (DPD) payment defaults. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Upon NPA classification. A credit score of 780 can plummet by 140 to 220 points within three billing cycles. Dropping into the sub-580 high-risk credit band. Following a settled One-Time Settlement. The card issuer reports the account status as &quot. Settled&quot. Or &quot. Post-Write-Off Settled&quot. To all four Credit Information Companies (CIBIL. Experian, CRIF High Mark, Equifax). Under Section 21 of the Credit Information Companies (Regulation) Act. 2005 (CICRA). Clients retain the legal right to dispute incorrect arrears or initiate post-settlement balance adjustments to transition records from &quot. Settled&quot. To &quot. Closed&quot. By maintaining timely payments on small secured credit builder products. Clients reliably rebuild credit scores back above 750 within 12 to 24 months. </p>
             </section>
 
             {/* SECTION 5: Visual Infographic Asset Card */}
@@ -348,9 +326,7 @@ export default function CanIGoToJailForCreditCardDebtClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 5. Visual Blueprint: Credit Card Debt Legal Rights &amp; Protection
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                This visual infographic synthesizes the complete statutory framework governing credit card defaults in India, illustrating the civil versus criminal legal boundary, Supreme Court guidelines prohibiting police arrest, Order 37 CPC summary suit timelines. The 6-stage CredSettle debt resolution standard operating procedure.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> This visual infographic synthesizes the complete legal rules governing credit card defaults in India. Illustrating the civil versus criminal legal boundary. Supreme Court rules prohibiting police arrest. Order 37 CPC summary suit timelines. The 6-stage CredSettle debt relief standard operating procedure. </p>
 
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-sm p-3 md:p-4 overflow-hidden">
                 <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-slate-100">
@@ -375,29 +351,15 @@ export default function CanIGoToJailForCreditCardDebtClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 6. Standard Operating Procedure (SOP): 6 Stages of Credit Card Debt Settlement
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Navigating credit card default requires a methodical, statutory sequence designed to halt recovery agent harassment, dispute unconscionable compound finance charges. Secure an official compromise agreement:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Navigating credit card default requires a methodical. Legal sequence designed to halt claims agent abuse. Dispute unconscionable compound finance charges. Secure an formal OTS deal pacts: </p>
 
               <div className="space-y-4 text-slate-700 leading-relaxed text-sm md:text-base">
-                <p>
-                  <strong>Stage 1: Forensic Card Statement &amp; Penalty Audit (Days 1–7):</strong> The initial phase involves obtaining and examining complete historical billing ledgers across the default period. Legal specialists isolate core principal expenditures from usurious monthly finance charges, late payment fines, over-limit penalties. Cascading GST surcharges. Establishing this audited baseline prevents card issuers from demanding inflated claims.
-                </p>
-                <p>
-                  <strong>Stage 2: Comprehensive Hardship Dossier Preparation (Days 8–15):</strong> To refute any potential claims of intentional default, borrowers compile an evidentiary hardship dossier containing objective proof of financial distress. This includes job termination letters, salary reduction notices, business balance sheets, or hospitalization records. This paperwork substantiates genuine inability to pay under RBI guidelines.
-                </p>
-                <p>
-                  <strong>Stage 3: Credit Committee Representation &amp; Notice Reply (Days 16–30):</strong> A formal legal representation is dispatched to the bank&apos;s recovery division and Grievance Redressal Officer. This communication establishes civil statutory protections under the Indian Contract Act, places recovery agencies on notice against unlawful harassment. Formally petitions the credit committee for compromise resolution.
-                </p>
-                <p>
-                  <strong>Stage 4: Strategic Bilateral Settlement Negotiation (Days 31–45):</strong> Direct negotiations are initiated with the bank&apos;s central legal recovery desk and Principal Nodal Officer. By highlighting the lender&apos;s Tier-1 capital provisioning liabilities and litigation overheads, negotiators structure a compromise targeting a 40% to 60% waiver on core principal and complete cancellation of accrued penal interest.
-                </p>
-                <p>
-                  <strong>Stage 5: Settlement Letter Forensic Vetting &amp; Validation (Days 46–52):</strong> Before any funds are transferred, the formal settlement offer letter undergoes strict legal scrutiny. The verification confirms that the document originates from authorized corporate domain servers, bears official bank seals, carries a unique settlement ID, grants full release of liability. Details credit bureau update terms.
-                </p>
-                <p>
-                  <strong>Stage 6: Direct Bank Remittance &amp; NDC Procurement (Days 53–65):</strong> Settlement payments are remitted only into the card issuer&apos;s direct corporate account via traceable RTGS or NEFT channels, strictly avoiding third-party collection intermediaries. Upon clearance, the borrower secures an unconditional No Dues Certificate (NDC) and confirms that credit reporting reflects full account closure.
-                </p>
+                <p> <strong>Stage 1: deep Card record &amp. Penalty Audit (Days 1. 7):</strong> The initial phase involves obtaining and examining complete historical billing ledgers across the default period. Legal specialists isolate core main loan expenditures from usurious monthly finance charges. Late payment fines, over-limit penalties. Cascading GST surcharges. Establishing this audited baseline prevents card issuers from demanding inflated claims. </p>
+                <p> <strong>Stage 2: full Hardship Dossier Preparation (Days 8. 15):</strong> To refute any potential claims of intentional default. Clients compile an evidentiary hardship dossier containing objective proof of debt stress. This includes job termination letters. Salary reduction notices. Trade balance sheets. Or hospitalization records. This paperwork substantiates genuine inability to pay under RBI rules. </p>
+                <p> <strong>Stage 3: Credit boards legal help &amp. Notice Reply (Days 16. 30):</strong> A formal legal legal help is dispatched to the bank&apos. s claims division and Grievance Redressal Officer. This contact establishes civil legal protections under the Indian Contract Act. Places claims firms on notice against unlawful abuse. Formally petitions the credit boards for OTS deal. </p>
+                <p> <strong>Stage 4: Strategic Bilateral talks (Days 31. 45):</strong> Direct talks are initiated with the bank&apos. s central legal claims desk and main loan Nodal Officer. By highlighting the lender&apos. S Tier-1 cash provisioning debts and lawsuits overheads. Negotiators structure a OTS deal targeting a 40% to 60% waiver on core main loan and complete cancellation of accrued penal interest. </p>
+                <p> <strong>Stage 5: closure note deep Vetting &amp. Validation (Days 46. 52):</strong> Before any funds are transferred. The formal offers letter undergoes strict legal scrutiny. The verification confirms that the paper originates from authorized company domain servers. Bears formal bank seals. Carries a unique settlement ID. Grants full release of debt risk. Details credit bureau update terms. </p>
+                <p> <strong>Stage 6: Direct Bank Remittance &amp. NDC crop sales (Days 53. 65):</strong> Settlement payments are remitted only into the card issuer&apos. S direct company account via traceable RTGS or NEFT channels. Strictly avoiding third-party claims intermediaries. Upon clearance. The client secures an full No Dues letter (NDC) and confirms that credit reporting reflects full account closure. </p>
               </div>
             </section>
 
@@ -410,20 +372,12 @@ export default function CanIGoToJailForCreditCardDebtClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 7. Statutory Notice Defense Architecture &amp; Borrower Legal Rights
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When card issuers initiate formal legal proceedings or recovery agencies issue intimidatory communications, borrowers are protected by comprehensive statutory safeguards across civil and criminal codes:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When card issuers initiate formal legal proceedings or claims firms issue intimidatory contacts. Clients are protected by full legal safeguards across civil and criminal codes: </p>
 
               <div className="space-y-4 text-slate-700 leading-relaxed text-sm md:text-base">
-                <p>
-                  <strong>Electronic Mandate and Cheque Bounce Defenses:</strong> Proceedings initiated under Section 25 of the Payments and Settlement Systems Act, 2007 for bounced NACH auto-debits. Section 138 of the Negotiable Instruments Act, 1881 for dishonored cheques, represent quasi-criminal statutory mechanisms. While these sections carry potential penalties, they are strictly bailable and compoundable offenses. A formal legal reply issued within the mandatory 15-day notice window allows borrowers to contest incorrect claims, obtain immediate bail through counsel. Compound the matter through mutual settlement without incarceration.
-                </p>
-                <p>
-                  <strong>Order 37 CPC Summary Suit Protections:</strong> When banks file summary civil suits under Order 37 of the Code of Civil Procedure, 1908 for expedited monetary recovery, borrowers receive a formal court summons. Within 10 days of entering appearance, the borrower can file an Application for Leave to Defend. By showing triable issues such as unconscionable 42%+ compound interest rates, unauthorized penalties. Disputed transaction entries, courts routinely grant unconditional leave to defend, bringing lenders to the settlement table.
-                </p>
-                <p>
-                  <strong>Supreme Court Precedents &amp; Fair Practices Enforcement:</strong> In landmark rulings including. <em>ICICI Bank v. Shanti Devi Sharma (2008).</em> and <em>Anita Suresh v. Union of India.</em>, the Supreme Court of India firmly held that banks cannot employ musclemen or coercive collection tactics to recover debts. also, RBI Master Directions strictly confine recovery calls to the 8:00 AM to 7:00 PM window and prohibit contacting employers, family members. Third parties, establishing civil damages liability against non-compliant lenders.
-                </p>
+                <p> <strong>Electronic Mandate and Cheque Bounce Defenses:</strong> Proceedings initiated under Section 25 of the Payments and Settlement Systems Act. 2007 for bounced NACH auto-debits. Section 138 of the Negotiable Instruments Act. 1881 for dishonored cheques. Represent quasi-criminal legal mechanisms. While these sections carry potential penalties. They are strictly bailable and compoundable offenses. A formal legal reply issued within the strict 15-day notice window allows clients to contest incorrect claims. Obtain fast bail through counsel. Compound the matter through mutual settlement without incarceration. </p>
+                <p> <strong>Order 37 CPC Summary Suit Protections:</strong> When banks file summary civil suits under Order 37 of the Code of Civil Procedure. 1908 for expedited monetary claims. Clients receive a formal court summons. Within 10 days of entering appearance. The client can file an Application for Leave to Defend. By showing triable issues such as unconscionable 42%+ compound interest rates. Illegal penalties. Disputed transaction entries. Courts routinely grant full leave to defend. Bringing lenders to the settlement table. </p>
+                <p> <strong>Supreme Court rulings &amp. Fair Practices Enforcement:</strong> In landmark rulings including. <em>ICICI Bank v. Shanti Devi Sharma (2008).</em> and <em>Anita Suresh v. Union of India.</em>The Supreme Court of India firmly held that banks cannot employ musclemen or coercive claims tactics to recover debts. Also. RBI Master Directions strictly confine claims calls to the 8:00 AM to 7:00 PM window and prohibit contacting employers. Family members. Third parties. Establishing civil damages debt risk against non-compliant lenders. </p>
               </div>
             </section>
 
@@ -436,20 +390,12 @@ export default function CanIGoToJailForCreditCardDebtClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 8. The 3-Tier Grievance Escalation Matrix &amp; Ombudsman Remedies
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When recovery agents deploy abusive tactics, issue fake police notices. Refuse reasonable settlement proposals, borrowers can systematically escalate grievances through a structured 3-tier regulatory framework:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When claims agents deploy abusive tactics. Issue fake police notices. Refuse reasonable offers. Clients can systematically escalate grievances through a structured 3-tier RBI rules: </p>
 
               <div className="space-y-4 text-slate-700 leading-relaxed text-sm md:text-base">
-                <p>
-                  <strong>Level 1: Bank Grievance Redressal Officer (GRO) (7–10 Days):</strong> The initial escalation requires submitting a detailed written complaint to the bank&apos;s internal Grievance Redressal Officer, specifying dates, call recordings, agent phone numbers. Copies of fraudulent notices. Under internal banking compliance guidelines, the GRO is mandated to investigate agency misconduct and provide a formal written resolution within 10 business days.
-                </p>
-                <p>
-                  <strong>Level 2: Bank Principal Nodal Officer (PNO) (14–21 Days):</strong> If the GRO fails to resolve the harassment or rectify arbitrary penalty charges within the designated timeframe, the dispute is escalated to the bank&apos;s Principal Nodal Officer. As the senior-most appellate authority within the bank, the PNO has the institutional power to recall aggressive collection agencies and refer stressed accounts to the compromise settlement committee.
-                </p>
-                <p>
-                  <strong>Level 3: RBI Integrated Ombudsman Portal (30 Days):</strong> If thirty days elapse without satisfactory resolution, borrowers can file a statutory grievance on the RBI Centralized Management System portal (cms.rbi.org.in) under the Reserve Bank - Integrated Ombudsman Scheme, 2021. The Ombudsman holds statutory authority to penalize the bank and award compensation up to ₹20 Lakhs for mental anguish, harassment. Privacy violations.
-                </p>
+                <p> <strong>Level 1: Bank Grievance Redressal Officer (GRO) (7. 10 Days):</strong> The initial escalation requires submitting a detailed written complaint to the bank&apos. S internal Grievance Redressal Officer. Specifying dates. Call recordings. Agent phone numbers. Copies of fraudulent notices. Under internal banking compliance rules. The GRO is mandated to investigate firm misconduct and provide a formal written relief within 10 trade days. </p>
+                <p> <strong>Level 2: Bank main loan Nodal Officer (PNO) (14. 21 Days):</strong> If the GRO fails to resolve the abuse or rectify arbitrary penalty charges within the designated timeframe. The dispute is escalated to the bank&apos. s main loan Nodal Officer. As the senior-most appellate formal within the bank. The PNO has the bank power to recall aggressive claims firms and refer stressed accounts to the OTS deals boards. </p>
+                <p> <strong>Level 3: RBI Integrated Ombudsman Portal (30 Days):</strong> If thirty days elapse without satisfactory relief. Clients can file a legal grievance on the RBI Centralized handling System portal (cms.rbi.org.in) under the Reserve Bank - Integrated Ombudsman Scheme. 2021. The Ombudsman holds legal formal to penalize the bank and award payout up to ₹20 Lakhs for mental anguish. Abuse. Privacy violations. </p>
               </div>
             </section>
 
@@ -462,9 +408,7 @@ export default function CanIGoToJailForCreditCardDebtClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 9. Chronological Timeline Table: Delinquency to Settlement (Day 1 to Month 6)
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Review institutional stages, recovery actions, and strategic borrower maneuvers across the 6-month resolution cycle:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Review bank stages, claims actions. And strategic client maneuvers across the 6-month relief cycle: </p>
 
               <div className="overflow-x-auto rounded-2xl border border-slate-200/80 bg-white shadow-xs">
                 <table className="w-full text-left text-xs md:text-sm">
@@ -478,31 +422,31 @@ export default function CanIGoToJailForCreditCardDebtClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-100 text-slate-600">
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-100">
-                      <td className="p-3.5 font-bold text-slate-900">Days 1–30</td>
+                      <td className="p-3.5 font-bold text-slate-900">Days 1. 30</td>
                       <td className="p-3.5">SMA-0 (Standard).</td>
                       <td className="p-3.5">Automated reminders, late fees applied.</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold">Audit statement, dispute hidden charges, assess liquidity.</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold">Audit record. Dispute hidden charges. Assess liquidity.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-100">
-                      <td className="p-3.5 font-bold text-slate-900">Days 31–60</td>
+                      <td className="p-3.5 font-bold text-slate-900">Days 31. 60</td>
                       <td className="p-3.5">SMA-1 (Early Default).</td>
                       <td className="p-3.5">Internal calling, formal payment demand letters.</td>
                       <td className="p-3.5 text-[#1886ff] font-semibold">Establish documented hardship, request interest freeze.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-100">
-                      <td className="p-3.5 font-bold text-slate-900">Days 61–90</td>
+                      <td className="p-3.5 font-bold text-slate-900">Days 61. 90</td>
                       <td className="p-3.5">SMA-2 (Pre-NPA Alert).</td>
-                      <td className="p-3.5">Agency assignment, aggressive call volume.</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold">Issue legal warnings against third-party harassment.</td>
+                      <td className="p-3.5">firm assignment, aggressive call volume.</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold">Issue legal warnings against third-party abuse.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-100">
-                      <td className="p-3.5 font-bold text-slate-900">Days 91–120</td>
+                      <td className="p-3.5 font-bold text-slate-900">Days 91. 120</td>
                       <td className="p-3.5">NPA Classification.</td>
                       <td className="p-3.5">100% interest freeze, legal notices.</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold">Engage legal defense, refute fake notices, invoke civil rights.</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold">Engage legal defense. Refute fake notices. Invoke civil rights.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-100">
-                      <td className="p-3.5 font-bold text-slate-900">Days 121–180</td>
+                      <td className="p-3.5 font-bold text-slate-900">Days 121. 180</td>
                       <td className="p-3.5">Strategic OTS Window.</td>
                       <td className="p-3.5">Provisioning write-off pressure.</td>
                       <td className="p-3.5 text-[#1886ff] font-semibold">Submit formal OTS proposal for 40% to 55% lump-sum closure.</td>
@@ -511,7 +455,7 @@ export default function CanIGoToJailForCreditCardDebtClient() {
                       <td className="p-3.5 font-bold text-slate-900">Month 6+</td>
                       <td className="p-3.5">Full Closure</td>
                       <td className="p-3.5">Direct bank remittance.</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold">Obtain official NDC, update credit bureaus, rebuild score.</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold">Obtain formal NDC. Update credit bureaus. Rebuild score.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -527,23 +471,13 @@ export default function CanIGoToJailForCreditCardDebtClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 10. Specialized Credit Card Debt Default Scenarios
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Credit card defaults emerge under varied financial and commercial realities, each demanding specialized legal resolution strategies:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Credit card defaults emerge under varied money and trade realities. Each demanding specialized legal relief plans: </p>
 
               <div className="space-y-4 text-slate-700 leading-relaxed text-sm md:text-base">
-                <p>
-                  <strong>Multi-Lender Card Exposure:</strong> Cardholders managing overdue balances across three or more banking institutions simultaneously often face uncoordinated collection pressures. A centralized legal strategy consolidates creditor negotiations, establishing uniform financial insolvency evidence across all lenders to prevent piecemeal litigation while securing synchronized 50%+ compromise waivers.
-                </p>
-                <p>
-                  <strong>Corporate Layoffs &amp; Salaried Income Cessation:</strong> Salaried professionals experiencing involuntary redundancy or corporate restructuring can present termination paperwork and bank statements reflecting zero monthly inflows. Institutional credit committees readily accept documented income cessation as justifiable hardship, approving single-bullet settlements with full penal waivers.
-                </p>
-                <p>
-                  <strong>Proprietorship Capital Deficits:</strong> Business owners who use personal credit cards to sustain commercial operating expenditures during economic downturns can show cash flow distress through GST return filings and audited profit-and-loss statements, paving the way for commercial debt compromise settlements.
-                </p>
-                <p>
-                  <strong>Debt Portfolios Assigned to ARCs:</strong> When commercial banks write off non-performing card portfolios and assign underlying debts to Asset Reconstruction Companies (ARCs) like Phoenix ARC or ARCIL at deep portfolio discounts (typically 15% to 30% of book value), borrowers gain large leverage to negotiate rapid settlements at up to 60% waivers.
-                </p>
+                <p> <strong>Multi-Lender Card Exposure:</strong> Cardholders managing overdue balances across three or more banking institutions simultaneously often face uncoordinated claims pressures. A centralized legal plan consolidates creditor talks. Establishing uniform money bankruptcy proof across all lenders to prevent piecemeal lawsuits while securing synchronized 50%+ OTS deal waivers. </p>
+                <p> <strong>company Layoffs &amp. Salaried Income Cessation:</strong> Salaried workers experiencing involuntary redundancy or company restructuring can present termination paperwork and bank records reflecting zero monthly inflows. Bank boards readily accept documented income cessation as justifiable hardship. Approving single-bullet settlements with full penal waivers. </p>
+                <p> <strong>Proprietorship cash Deficits:</strong> shop owners who use private credit cards to sustain trade operating expenditures during economic downturns can show cash flow distress through GST return filings and audited profit-and-loss records. Paving the way for trade debt OTS deals. </p>
+                <p> <strong>Debt Portfolios Assigned to ARCs:</strong> When banks write off non-performing card portfolios and assign underlying debts to Asset Reconstruction Companies (ARCs) like Phoenix ARC or ARCIL at deep portfolio discounts (typically 15% to 30% of book value). Clients gain large leverage to settle rapid settlements at up to 60% waivers. </p>
               </div>
             </section>
 
@@ -561,9 +495,7 @@ export default function CanIGoToJailForCreditCardDebtClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Frequently Asked Questions on Credit Card Debt &amp; Legal Arrest Realities
               </h2>
-              <p className="text-xs md:text-sm text-slate-600">
-                Click on any question below to view detailed legal answers verified by our debt resolution professionals:
-              </p>
+              <p className="text-xs md:text-sm text-slate-600"> Click on any question below to view detailed legal answers verified by our debt relief workers: </p>
 
               <div className="space-y-3 pt-2">
                 {faqs.map((faq, index) => {
@@ -591,21 +523,11 @@ export default function CanIGoToJailForCreditCardDebtClient() {
                 Official Regulatory Citations &amp; Judicial References
               </h2>
               <ul className="space-y-2 text-xs text-slate-600 leading-relaxed list-disc pl-5">
-                <li>
-                  <strong>Indian Contract Act, 1872:</strong> Section 73 (Civil Breach Remedies), Ministry of Law and Justice, Government of India.
-                </li>
-                <li>
-                  <strong>Code of Civil Procedure, 1908 (CPC):</strong> Order 37 (Summary Suits on Contracts).
-                </li>
-                <li>
-                  <strong>Supreme Court of India:</strong> <em>ICICI Bank v. Shanti Devi Sharma (2008).</em> (Harassment Prohibition).
-                </li>
-                <li>
-                  <strong>Reserve Bank of India Master Directions:</strong> Credit Card Conduct Directions (Updated 2026).
-                </li>
-                <li>
-                  <strong>Reserve Bank - Integrated Ombudsman Scheme, 2021:</strong> Grievance Redressal.
-                </li>
+                <li> <strong>Indian Contract Act, 1872:</strong> Section 73 (Civil Breach Remedies). Ministry of Law and Justice. Government of India. </li>
+                <li> <strong>Code of Civil Procedure, 1908 (CPC):</strong> Order 37 (Summary Suits on Contracts). </li>
+                <li> <strong>Supreme Court of India:</strong> <em>ICICI Bank v. Shanti Devi Sharma (2008).</em> (abuse Prohibition). </li>
+                <li> <strong>Reserve Bank of India Master Directions:</strong> Credit Card Conduct Directions (Updated 2026). </li>
+                <li> <strong>Reserve Bank - Integrated Ombudsman Scheme. 2021:</strong> Grievance Redressal. </li>
               </ul>
 
               {/* 6 Outbound Authority Badges */}
@@ -692,14 +614,10 @@ export default function CanIGoToJailForCreditCardDebtClient() {
                   <Link href="/author/ashish-jhangra" className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional.
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief expert. </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed border-t border-slate-100 pt-2.5">
-                Specialist in civil debt dispute resolution, credit card defense. RBI regulatory compliance with over a decade of experience safeguarding Indian borrowers.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed border-t border-slate-100 pt-2.5"> Specialist in civil debt dispute relief. Credit card defense. RBI RBI compliance with over a decade of skill safeguarding Indian clients. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
                   <span>View Author Profile.</span>
@@ -720,12 +638,8 @@ export default function CanIGoToJailForCreditCardDebtClient() {
               </div>
 
               <div className="space-y-1">
-                <p className="text-base font-extrabold tracking-tight leading-snug">
-                  Facing Recovery Harassment?
-                </p>
-                <p className="text-xs text-blue-100 leading-relaxed">
-                  Stop illegal agent abuse, protect your dignity, and resolve your debt through structured legal settlement. Get expert representation today.
-                </p>
+                <p className="text-base font-extrabold tracking-tight leading-snug"> Facing claims abuse? </p>
+                <p className="text-xs text-blue-100 leading-relaxed"> Stop illegal agent abuse. Protect your dignity. And resolve your debt through structured legal settlement. Get expert legal help today. </p>
               </div>
 
               <div className="space-y-2 pt-1">
@@ -742,28 +656,13 @@ export default function CanIGoToJailForCreditCardDebtClient() {
 
             {/* Card 3: CredSettle Trust Commitments Card */}
             <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 space-y-3">
-              <p className="text-xs font-black uppercase tracking-wider text-slate-800 flex items-center gap-1.5">
-                <ShieldCheck className="w-4 h-4 text-emerald-600"/>
-                <span>CredSettle Trust Commitments.</span>
-              </p>
+              <p className="text-xs font-black uppercase tracking-wider text-slate-800 flex items-center gap-1.5"> <ShieldCheck className="w-4 h-4 text-emerald-600"/> <span>CredSettle Trust Commitments.</span> </p>
 
               <ul className="space-y-2.5 text-xs text-slate-600">
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Zero Upfront Risk:</strong> Performance &amp; success-fee aligned engagement.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Direct Bank Remittance:</strong> 100% of settlement funds paid directly to bank.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>RBI &amp; CICRA Compliance:</strong> Strict adherence to statutory fair recovery rules.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Pan-India Representation:</strong> Protecting clients across all 28 states &amp; UTs.</span>
-                </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Zero Upfront Risk:</strong> Performance &amp. success-fee aligned engagement.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Direct Bank Remittance:</strong> 100% of settlement funds paid straight to bank.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>RBI &amp. CICRA Compliance:</strong> Strict adherence to legal fair claims rules.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Pan-India legal help:</strong> Protecting clients across all 28 states &amp. UTs.</span> </li>
               </ul>
             </div>
 
@@ -772,23 +671,17 @@ export default function CanIGoToJailForCreditCardDebtClient() {
               <p className="font-bold text-slate-900 text-sm">Related Legal Guides.</p>
               <div className="space-y-2.5">
                 <Link href="/bank-sent-legal-notice-for-loan-what-to-do" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Bank Sent Legal Notice for Loan Default.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Bank Sent Legal Notice for Loan Default. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Full step-by-step reply blueprint &rarr;.</span>
                 </Link>
 
                 <Link href="/bank-recovery-case-in-court" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Bank Filed Recovery Case in Civil Court.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Bank Filed claims Case in Civil Court. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Civil suit defense &amp; summons guide &rarr;.</span>
                 </Link>
 
                 <Link href="/convert-settled-status-to-closed" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Convert Settled Loan to Closed Status.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Convert Settled Loan to Closed Status. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Clean credit report blueprint &rarr;.</span>
                 </Link>
               </div>

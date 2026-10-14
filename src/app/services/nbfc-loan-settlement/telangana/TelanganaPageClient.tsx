@@ -7,28 +7,28 @@ import FAQWithSchema from '@/components/FAQWithSchema';
 import CTAButton from '@/components/CTAButton';
 const heroCopy = {
     title: 'NBFC Loan Settlement in Telangana Tailored for Hyderabad, Tier-2 Cities, and Agri Hubs',
-    description: "CredSettle\u2019s Telangana desk supports borrowers from HITEC City product teams and Pharma City manufacturers to Warangal handloom clusters and Karimnagar turmeric farmers. We combine RBI compliant negotiation, Telangana Lok Adalat coordination. Cyber fraud surveillance so that every NBFC settlement brings durable relief without regulatory setbacks."
+    description: "CredSettle\u2019s state desk supports clients from HITEC City product teams and Pharma City makers to Warangal loom hubs and Karimnagar turmeric farmers. We combine RBI compliant talks. The state Lok Adalat coordination. Cyber fraud surveillance so that each NBFC deal brings durable relief without RBI setbacks."
 };
 const faqs = [
     {
         question: 'Which NBFCs does CredSettle negotiate with in Telangana?',
-        answer: "We work with Bajaj Finance, Tata Capital, Aditya Birla Finance, Mahindra Finance, HDB Financial Services, Hero FinCorp, Shriram Finance, Cholamandalam Investment, Piramal Finance, Fullerton, CreditAccess Grameen, Annapurna Finance. Fintech backed NBFCs serving Hyderabad, Warangal, Karimnagar, Khammam, Nizamabad, and tier-2 towns across the state."
+        answer: "We work with Bajaj Finance. Tata cash, Aditya Birla Finance. Mahindra Finance, HDB money Services. Hero FinCorp, Shriram Finance, Cholamandalam Investment. Piramal Finance, Fullerton, CreditAccess Grameen, Annapurna Finance. Fintech backed NBFCs serving the cash. Warangal, Karimnagar, Khammam, Nizamabad, and smaller towns across the state."
     },
     {
         question: 'How fast can coercive recovery stop once CredSettle intervenes?',
-        answer: "We issue legal notices referencing the RBI Fair Practices Code, escalate to NBFC grievance officers. File complaints with the Telangana State Cyber Security Bureau when digital harassment is involved. Most clients see field calls and intimidation slow within forty eight hours once our paperwork and legal escalation reach lenders and agencies."
+        answer: "We issue legal notices referencing the RBI Fair Practices Code. Escalate to NBFC grievance officers. File complaints with the the state State Cyber Security Bureau when digital abuse is involved. Most clients see field calls and threats slow within forty eight hours once our paperwork and legal escalation reach lenders and firms."
     },
     {
         question: 'What waiver ranges are realistic in Telangana?',
-        answer: "Hyderabad unsecured professional loans usually settle between 45 and 60 percent of outstanding dues. Pharma vendors and logistics borrowers in the Genome Valley, Shamshabad. Kothur belts average 50 to 55 percent depending on inventory valuations. Agri and food processing loans in Karimnagar, Nizamabad. Adilabad can secure 55 to 70 percent waivers when crop loss or procurement delays are well evidenced."
+        answer: "the cash no-security expert loans usually settle between 45 and 60 percent of unpaid dues. Pharma vendors and freight clients in the Genome Valley, Shamshabad. Kothur belts average 50 to 55 percent depending on stock valuations. farm and food processing loans in Karimnagar, Nizamabad. Adilabad can secure 55 to 70 percent waivers when crop loss or crop sales delays are well evidenced."
     },
     {
         question: 'Will settlement damage my CIBIL score permanently?',
-        answer: "Settlements are reported as settled rather than written off. CredSettle secures closure letters, files bureau disputes. Guides Telangana borrowers toward secured credit cards, gold backed loans. Cooperative bank products so that credit scores recover above 650 within twelve to eighteen months."
+        answer: "Settlements are reported as settled rather than written off. CredSettle secures closure letters, files bureau disputes. Guides the state clients toward secured credit cards. Gold backed loans. local bank products so that credit scores recover above 650 within twelve to eighteen months."
     },
     {
         question: 'Do Telangana clients pay upfront fees to CredSettle?',
-        answer: "No. We operate on success linked engagement letters. Fees are due only after the NBFC issues a written sanction, the borrower executes negotiated payments. No dues certificates are collected."
+        answer: "No. We operate on success linked engagement letters. Fees are due only after the NBFC issues a written sanction. The clients executes settled payments. No dues letters are collected."
     }
 ];
 const sections = [
@@ -37,8 +37,8 @@ const sections = [
         title: 'Telangana Credit Landscape Led by IT, Pharma, and Agri Value Chains',
         level: 2,
         content: [
-            'Telangana’s gross state domestic product crossed fifteen lakh crore rupees in FY24 with services contributing more than sixty five percent, largely due to Hyderabad’s IT, biotech, and entertainment clusters. NBFC funding plays a crucial role in working capital for product engineering firms, film production houses, logistics operators, and retail chains across the capital region. Beyond the metropolis, districts such as Warangal, Karimnagar, medak, and Khammam rely on NBFC loans for textile weaving, spice processing, and hatchery expansion.',
-            'The state’s irrigation push through Kaleshwaram and Mission Bhagiratha has increased agri credit demand for drip irrigation, cold chains, and agri equipment. Seasonal cash flow swings, however, trigger repayment stress when monsoons misfire or procurement is delayed. CredSettle maps these cyclical patterns so that settlement proposals align with actual revenue inflows instead of generic monthly schedules.'
+            'the state’s gross state domestic product crossed fifteen lakh crore rupees in FY24 with services contributing more than sixty five percent. This is mainly due to the cash’s IT. Biotech, and entertainment hubs. NBFC funding plays a crucial role in working cash for product tech firms. Film output houses, freight operators. And retail chains across the cash region. Beyond the city, areas such as Warangal. Karimnagar, medak, and Khammam rely on NBFC loans for textile weaving. Spice processing, and hatchery growth.',
+            'The state’s irrigation push through Kaleshwaram and Mission Bhagiratha has increased farm credit demand for drip irrigation. Cold chains, and farm tools. Seasonal cash flow swings. However, trigger payment stress when monsoons misfire or crop sales is delayed. CredSettle maps these cyclical patterns so that closure deals align with actual income inflows instead of generic monthly schedules.'
         ]
     },
     {
@@ -46,8 +46,8 @@ const sections = [
         title: 'Urban Corridors from HITEC City to Warangal Driving NBFC Exposure',
         level: 2,
         content: [
-            'Hyderabad’s HITEC City, Financial District, and Genome Valley anchor IT services, SaaS startups, and pharmaceutical manufacturing. NBFCs extend venture debt, invoice financing, and equipment loans to these entities, often with bullet repayment structures. Shamshabad and Kothur host e-commerce warehouses and logistics parks tied to the Hyderabad Outer Ring Road, increasing demand for fleet finance and working capital.',
-            'Warangal, Hanamkonda, and Kazipet form the state’s eastern hub for textile weaving, rice milling, and academic services. Karimnagar and Nizamabad balance agri processing with medical device manufacturing, while Khammam and Nalgonda specialise in horticulture, spice trading, and solar projects. CredSettle tailors settlement narratives with corridor specific data such as IT contract attrition rates, pharma inspection schedules, handloom order books, and chilli market price movements.'
+            'The cash’s HITEC City, money areas. And Genome Valley anchor IT services. SaaS startups, and drug output. NBFCs extend venture debt, invoice financing. And tools loans to these entities. These often carry bullet payment structures. Shamshabad and Kothur host e-commerce warehouses and freight parks tied to the the cash Outer Ring Road. This increases demand for fleet finance and working cash.',
+            'Warangal, Hanamkonda, and Kazipet form the state’s eastern hub for textile weaving. Rice milling, and academic services. Karimnagar and Nizamabad balance farm processing with medical device output. Meanwhile, Khammam and Nalgonda specialise in fruit farming. Spice trading, and solar projects. CredSettle tailors settlement facts with belts local data such as IT contract attrition rates. Pharma checks schedules, loom order books. And chilli market price movements.'
         ]
     },
     {
@@ -55,8 +55,8 @@ const sections = [
         title: 'NBFC Presence Across Telangana Districts',
         level: 2,
         content: [
-            'Major NBFCs maintain strong branch and digital networks in Hyderabad, Warangal, Karimnagar, and Nizamabad, while microfinance NBFCs focus on Mahabubnagar, Adilabad, Jangaon, and Gadwal self help groups. Fintech NBFCs partner with payment apps and online travel aggregators across the state, pushing personal loans to gig workers and small merchants. Co-lending arrangements with private banks have grown since 2022, particularly for MSME invoice financing in pharma, animation, and packaging sectors.',
-            'These layered relationships complicate settlement approvals. CredSettle coordinates with lead NBFCs and partner banks to secure simultaneous sign offs and unified bureau reporting. We also monitor when collection outsourcing shifts to agencies in and around Hyderabad so proactive compliance notices reach every stake holder.'
+            'Major NBFCs maintain strong branch and digital networks in the cash. Warangal, Karimnagar, and Nizamabad. Meanwhile, small loans NBFCs focus on Mahabubnagar. Adilabad, Jangaon, and Gadwal self help groups. Fintech NBFCs partner with payment apps and online travel apps across the state. Pushing private loans to gig workers and small merchants. Joint loans arrangements with private banks have grown since 2022. Chiefly for MSME invoice financing in pharma. Animation, and packaging sectors.',
+            'These layered relationships complicate deal sign-offs. CredSettle coordinates with lead NBFCs and partner banks to secure simultaneous sign offs and unified bureau reporting. We also monitor when collection off-site work shifts to firms in and around the cash so early compliance notices reach every stake holder.'
         ]
     },
     {
@@ -64,8 +64,8 @@ const sections = [
         title: 'Borrower Pressure Points Unique to Telangana’s Economy',
         level: 2,
         content: [
-            'IT and SaaS firms endure client budget freezes and slower ramp ups, causing deferred milestone payments and high bench costs. Film and OTT producers in Jubilee Hills juggle release delays and fluctuating streaming advances, affecting NBFC bridge loans. Pharma exporters in Genome Valley face regulatory inspection holds and raw material price spikes. Agricultural borrowers in Karimnagar, Jagtial, and Nirmal weather erratic monsoons and pest outbreaks that disrupt turmeric, paddy, and cotton revenue.',
-            'Telangana police and cyber security bureaus have reported repeated loan app harassment cases since 2021, with arrests in Hyderabad and Cyberabad jurisdictions. Borrowers often receive threats via morphed photos or contact spamming. CredSettle gathers FIR copies, cyber complaint numbers, and phone recording logs to demonstrate compliance risk when NBFCs or their digital partners ignore RBI guidelines.'
+            'IT and SaaS firms endure client budget freezes and slower ramp ups. This causes deferred milestone payments and high bench costs. Film and OTT producers in Jubilee Hills juggle release delays and shifting streaming advances. This affects NBFC bridge loans. Pharma exporters in Genome Valley face RBI checks holds and raw material price spikes. Farm clients in Karimnagar, Jagtial. And Nirmal weather erratic monsoons and pest outbreaks that disrupt turmeric. Paddy, and cotton income.',
+            'The state police and cyber security bureaus have reported repeated loan app abuse cases since 2021. With arrests in the cash and Cyberabad areas. clients often receive threats via morphed photos or contact spamming. CredSettle gathers FIR copies, cyber complaint numbers. And phone recording logs to demonstrate compliance risk when NBFCs or their digital partners ignore RBI rules.'
         ]
     },
     {
@@ -73,8 +73,8 @@ const sections = [
         title: 'Regulatory Safeguards and State Relief Mechanisms',
         level: 2,
         content: [
-            'The RBI Ombudsman office in Hyderabad covers NBFC grievances for Telangana and neighbouring states, offering escalations when lenders ignore fair practice norms. Telangana State Legal Services Authority conducts regular Lok Adalats and recently scaled up e-Lok Adalats to de-clog civil and loan disputes. Borrowers can also approach consumer fora in Hyderabad, Warangal, and district headquarters when NBFCs hold original documents or levy hidden fees.',
-            'The state government’s enhanced Rythu Bandhu support and crop insurance subsidies provide cash flow relief that can be aligned with settlement tranches. Telangana Police and Cyber Security Bureau publish advisories warning against paying unregulated settlement agents, a point CredSettle reinforces during onboarding to keep clients safe from fraud. When lenders delay returning property documents after closure, we reference legal precedents from Telangana consumer forums that penalised such behaviour.'
+            'The RBI Ombudsman office in the cash covers NBFC grievances for the state and neighbouring states. Offering escalations when lenders ignore fair practice norms. the state State Legal Services formal conducts regular Lok Adalats and recently scaled up e-Lok Adalats to de-clog civil and loan disputes. Clients can also approach clients fora in the cash. Warangal, and areas headquarters when NBFCs hold original papers or levy hidden fees.',
+            'The state government’s enhanced Rythu Bandhu support and crop cover subsidies provide cash flow relief that can be aligned with payment steps. The state Police and Cyber Security Bureau publish alerts warning against paying unregulated settlement agents. A point CredSettle reinforces during onboarding to keep clients safe from fraud. When lenders delay returning property papers after closure. We reference legal rulings from the state clients forums that penalised such behaviour.'
         ]
     },
     {
@@ -82,8 +82,8 @@ const sections = [
         title: 'CredSettle Methodology Crafted for Telangana Borrowers',
         level: 2,
         content: [
-            'We start with a diagnostic review gathering loan agreements, repayment ledgers, bank statements, GST returns, TDS filings, project contracts, and agri produce receipts. Analysts map each NBFC’s provisioning guidelines, fiscal quarter targets, and historical settlement ratios for Telangana portfolios. This research sets a data backed anchor rather than a random percentage guess.',
-            'Negotiation unfolds over structured sprints. Sprint one documents harassment, sends legal notices, and registers cyber complaints when digital intimidation appears. Sprint two compiles hardship evidence such as client attrition charts, export backlog emails, mandi price data, and rainfall deviations. Sprint three secures sanction letters with full and final language, cheque destruction assurances, and bureau update commitments. Clients receive bilingual updates in English and Telugu so promoters, guarantors, and family members stay informed.'
+            'We start with a deep review gathering loan pacts. Payment ledgers, bank records, GST returns. TDS filings, project contracts, and farm produce receipts. Analysts map each NBFC’s provisioning rules. Fiscal quarter targets. And historical settlement rates for the state portfolios. This research sets a data backed anchor rather than a random percentage guess.',
+            'talks unfolds over structured sprints. Sprint one papers abuse, sends legal notices. And registers cyber complaints when digital threats appears. Sprint two compiles hardship proof such as client attrition charts. Export backlog emails, mandi price data, and rainfall deviations. Sprint three secures sanction letters with full and final language. Cheque destruction assurances, and bureau update commitments. Clients receive bilingual updates in English and Telugu so promoters. Guarantors, and family members stay informed.'
         ]
     },
     {
@@ -91,8 +91,8 @@ const sections = [
         title: 'Sector Strategies for IT, Pharma, Aerospace, and Agri Value Chains',
         level: 2,
         content: [
-            'For IT and SaaS borrowers we leverage customer churn metrics, deferred milestone logs, and bench cost analyses to justify phased settlements tied to renewed contracts. Pharma manufacturers provide USFDA or EU inspection schedules, batch failure reports, and raw material import invoices to illustrate temporary cash strain. Aerospace and defense suppliers around Adibatla and Ibrahimpatnam share production rescheduling letters from public sector undertakings.',
-            'Agri and food processing clients in Karimnagar, Nizamabad, and Siddipet present mandi receipts, Telangana State Warehousing Corporation storage data, and crop insurance claim acknowledgements. Handloom and handicraft cooperatives in Warangal and Gadwal deliver order cancellations from export houses and evidence of yarn price hikes. CredSettle converts these datasets into negotiation briefs that resonate with NBFC risk committees.'
+            'For IT and SaaS clients we leverage customer churn metrics. Deferred milestone logs. And bench cost analyses to justify phased deals tied to renewed contracts. Pharma makers provide USFDA or EU checks schedules. Batch failure reports. And raw material import invoices to illustrate temporary cash strain. Aerospace and defense suppliers around Adibatla and Ibrahimpatnam share output rescheduling letters from public sector undertakings.',
+            'Farm and food processing clients in Karimnagar. Nizamabad, and Siddipet present mandi receipts. The state State storage Corporation storage data. And crop cover claim receipts. loom and crafts local units in Warangal and Gadwal deliver order cancellations from export houses and proof of yarn price hikes. CredSettle converts these datasets into talks briefs that resonate with NBFC risk boards.'
         ]
     },
     {
@@ -100,8 +100,8 @@ const sections = [
         title: 'Microfinance and Rural Borrower Support Structures',
         level: 2,
         content: [
-            'Self help groups and joint liability groups under the Telangana State Rural Livelihood Mission rely on microfinance NBFCs for livestock, small retail, and weaving businesses. When income dips due to drought, disease, or market closures, repayment discipline suffers. CredSettle conducts group workshops, obtains gram panchayat endorsements, and coordinates with district project managers to reshape instalments while preserving group credit scores.',
-            'For rural borrowers facing digital harassment, we help file complaints via cybercrime.gov.in and liaise with police stations in Cyberabad, Rachakonda, and Warangal Commissionarates. We also advise on verifying NBFC field staff identities, referencing Telangana Police circulars that mandate photo ID and authorisation letters during collection visits.'
+            'Self help groups and joint debt risk groups under the the state State Rural Livelihood Mission rely on small loans NBFCs for livestock. Small retail, and weaving firms. When income dips due to drought. Disease, or market closures, payment discipline suffers. CredSettle conducts group workshops, obtains gram panchayat endorsements. And coordinates with areas project managers to reshape EMIs while preserving group credit scores.',
+            'For rural clients facing digital abuse. We help file complaints via cybercrime.gov.in and liaise with police stations in Cyberabad. Rachakonda, and Warangal Commissionarates. We also advise on verifying NBFC field staff identities. Referencing the state Police circulars that mandate photo ID and authorisation letters during collection visits.'
         ]
     },
     {
@@ -109,8 +109,8 @@ const sections = [
         title: 'Legal and Quasi Judicial Forums Strengthening Settlements',
         level: 2,
         content: [
-            'Debt Recovery Tribunal Hyderabad handles larger NBFC suits from across Telangana, while commercial courts and civil courts in Hyderabad, Warangal, and Karimnagar take mid ticket disputes. CredSettle’s advocates pursue consent terms or withdrawal petitions once compromise terms are agreed, ensuring the tribunal or court records the settlement to prevent future enforcement.',
-            'Telangana Lok Adalat benches and e-Lok Adalat sessions move smaller loans quickly when both parties submit joint memos. Telangana State Consumer Commission precedents show that lenders who hold documents or mis-sell insurance face penalties. We integrate these references into negotiation decks to highlight litigation risk for stubborn NBFCs.'
+            'Debt collection Tribunal the cash handles larger NBFC suits from across the state. Meanwhile, trade courts and civil courts in the cash. Warangal, and Karimnagar take mid ticket disputes. CredSettle’s lawyers pursue consent terms or withdrawal petitions once OTS deal terms are agreed. Ensuring the tribunal or court records the settlement to prevent future enforcement.',
+            'the state Lok Adalat benches and e-Lok Adalat sessions move smaller loans quickly when both parties submit joint memos. the state State clients Commission rulings show that lenders who hold papers or mis-sell cover face penalties. We integrate these references into talks decks to highlight lawsuits risk for stubborn NBFCs.'
         ]
     },
     {
@@ -118,8 +118,8 @@ const sections = [
         title: 'Nine Step Telangana Settlement Playbook',
         level: 2,
         content: [
-            'Step one collects loan files, bank statements, GST returns, salary slips, and sector specific evidence within forty eight hours. Step two issues representation notices to NBFC headquarters, branch heads, and collection agencies citing RBI rules. Step three documents hardship with client attrition records, crop loss certificates, procurement delays, or medical expenses.',
-            'Step four benchmarks desired waivers based on the NBFC’s prior Telangana settlements and quarter end provisioning needs. Step five tables an opening proposal with either lump sum or structured instalments tied to forecast revenue. Step six manages counter offers while logging every harassment incident for leverage. Step seven locks a sanction letter spelling out full and final closure, cheque destruction, and bureau updates. Step eight supervises payments via NEFT, RTGS, or demand draft scheduled around salary cycles, export remittances, or Rythu Bandhu disbursals. Step nine gathers NOCs, retrieves pledged documents, files credit bureau disputes, and schedules credit rebuild sessions.'
+            'Step one collects loan files. Bank records, GST returns, pay slips. And sector local proof within forty eight hours. Step two issues legal help notices to NBFC headquarters. Branch heads, and collection firms citing RBI rules. Step three papers hardship with client attrition records. Crop loss letters, crop sales delays, or medical expenses.',
+            'Step four benchmarks desired waivers based on the NBFC’s prior the state settlements and quarter end provisioning needs. Step five tables an opening proposal with either lump sum or structured EMIs tied to forecast income. Step six manages counter offers while logging every abuse incident for leverage. Step seven locks a sanction letter spelling out full and final closure. Cheque destruction, and bureau updates. Step eight supervises payments via NEFT. RTGS, or demand draft scheduled around pay cycles. Export remittances, or Rythu Bandhu disbursals. Step nine gathers NOCs, retrieves pledged papers. Files credit bureau disputes, and schedules credit rebuild sessions.'
         ]
     },
     {
@@ -127,8 +127,8 @@ const sections = [
         title: 'Documentation Checklist for Telangana Borrowers',
         level: 2,
         content: [
-            'IT and SaaS companies provide contracts, invoice ageing reports, timesheets, payroll records, and software subscription logs. Pharma borrowers submit plant licences, batch production records, regulator correspondence, and raw material bills. Logistics operators share fleet registration papers, fuel invoices, FASTag statements, and warehouse rental agreements.',
-            'Agricultural and rural borrowers supply pattadar passbooks, crop booking certificates, market yard receipts, and insurance claims. Handloom cooperatives provide society resolutions, buyer cancellations, and yarn purchase registers. Funding proof includes cooperative bank sanction letters, family contribution affidavits, and asset sale agreements that demonstrate ability to honour the negotiated plan.'
+            'IT and SaaS companies provide contracts. Invoice ageing reports. Timesheets, payroll records, and software subscription logs. Pharma clients submit plant licences. Batch output records, regulator correspondence, and raw material bills. Freight operators share fleet registration papers. Fuel invoices, FASTag records, and warehouse rental pacts.',
+            'Farm and rural clients supply pattadar passbooks. Crop booking letters, market yard receipts, and cover claims. Loom local units provide society resolutions. Buyer cancellations, and yarn purchase registers. Funding proof includes local bank sanction letters. Family contribution affidavits. And asset sale pacts that demonstrate ability to honour the settled plan.'
         ]
     },
     {
@@ -136,8 +136,8 @@ const sections = [
         title: 'Payment Structuring and Compliance Controls',
         level: 2,
         content: [
-            'IT professionals align instalments with quarterly bonuses or annual appraisal cycles. Pharma and logistics borrowers schedule payments after export remittances, regulator clearances, or procurement settlements. Farmers and millers prefer tranches post Rythu Bandhu credit, civil supplies procurement, or chilli market season. Creative studios tie payments to streaming platform disbursements or theatrical release windows.',
-            'CredSettle routes every instalment through traceable banking channels, receives acknowledgements, and confirms that post dated cheques are destroyed once digital transfers clear. We review Form 26AS entries to prevent TDS errors and maintain compliance trackers so any future lender audit recognises the settlement as fully honoured.'
+            'IT workers align EMIs with quarterly bonuses or annual appraisal cycles. Pharma and freight clients schedule payments after export remittances. Regulator clearances, or crop sales settlements. Farmers and millers prefer tranches post Rythu Bandhu credit. Civil supplies crop sales, or chilli market season. Creative studios tie payments to streaming platform disbursements or theatrical release windows.',
+            'CredSettle routes every EMIs through traceable banking channels. Receives receipts, and confirms that post dated cheques are destroyed once digital transfers clear. We review Form 26AS entries to prevent TDS errors and maintain compliance trackers so any future lender audit recognises the settlement as fully honoured.'
         ]
     },
     {
@@ -145,8 +145,8 @@ const sections = [
         title: 'Credit Rebuild and Business Revival Support',
         level: 2,
         content: [
-            'Forty five days after final payment we pull reports from CIBIL, Experian, Equifax, and CRIF High Mark to confirm settled status and zero balance. Any mismatch triggers bureau disputes with attached sanction letters and receipts. Clients join credit health workshops covering budget discipline, phishing awareness, and responsible credit usage in English and Telugu.',
-            'We connect business borrowers with Telangana State Industrial Infrastructure Corporation facilitation desks, T Hub and WE Hub programs, TS-iPASS incentives, SIDBI cluster lines, and NABARD refinancing. These channels provide lower cost working capital so clients avoid returning to high interest NBFC cycles after settlement.'
+            'Forty five days after final payment we pull reports from CIBIL. Experian, Equifax, and CRIF High Mark to confirm settled status and zero balance. Any mismatch triggers bureau disputes with attached sanction letters and receipts. Clients join credit health workshops covering budget discipline. Phishing awareness, and responsible credit usage in English and Telugu.',
+            'We connect trade clients with the state State factory Infrastructure Corporation facilitation desks. T Hub and WE Hub programs. TS-iPASS incentives, SIDBI hubs lines, and NABARD refinancing. These channels provide lower cost working cash so clients avoid returning to high interest NBFC cycles after settlement.'
         ]
     },
     {
@@ -154,9 +154,9 @@ const sections = [
         title: 'Case Stories from Hyderabad, Warangal, and Karimnagar',
         level: 2,
         content: [
-            'A Hyderabad SaaS startup with Rs 1.9 crore across two NBFC lines faced delayed renewals from international clients. CredSettle compiled churn metrics, revised contract emails, and payroll continuity proof. Both NBFCs accepted waivers around fifty percent and aligned instalments to renewed client onboarding schedules.',
-            'A Warangal handloom cooperative defaulted on Rs 78 lakh after export orders were cancelled and yarn prices doubled. We presented buyer cancellation letters, yarn tariff data, and government relief receipts. The lender sanctioned a 60 percent waiver payable over four instalments matched to the next export season and state marketing society advances.',
-            'A Karimnagar turmeric farmer collective owed Rs 52 lakh after market fluctuations and heavy rainfall damaged crop quality. CredSettle submitted crop loss panchanama records, mandi price charts, and insurance claim acknowledgements. The NBFC agreed to a 65 percent waiver with payments tied to Rythu Bandhu disbursals and the next procurement drive, releasing pledged land documents within thirty days.'
+            'A the cash SaaS startup with Rs 1.9 crore across two NBFC lines faced delayed renewals from international clients. CredSettle compiled churn metrics. Revised contract emails, and payroll continuity proof. Both NBFCs accepted waivers around fifty percent and aligned EMIs to renewed client onboarding schedules.',
+            'A Warangal loom local defaulted on Rs 78 lakh after export orders were cancelled and yarn prices doubled. We presented buyer cancellation letters. Yarn tariff data, and government relief receipts. The lender sanctioned a 60 percent waiver payable over four EMIs matched to the next export season and state marketing society advances.',
+            'A Karimnagar turmeric farmer collective owed Rs 52 lakh after market shifts and heavy rainfall damaged crop quality. CredSettle submitted crop loss panchanama records. Mandi price charts, and cover claim receipts. The NBFC agreed to a 65 percent waiver with payments tied to Rythu Bandhu disbursals and the next crop sales drive. Releasing pledged land papers within thirty days.'
         ]
     }
 ];
@@ -238,9 +238,7 @@ function TelanganaPageClient() {
             fontFamily: 'Poppins',
             lineHeight: '28px',
             marginBottom: '20px'
-        }}>
-                {heroCopy.description}
-              </p>
+        }}> {heroCopy.description} </p>
               <button className="text-white text-sm md:text-base lg:text-[18.58px] px-6 md:px-8 lg:px-[39.44px] py-2 md:py-3 lg:py-[13.48px]" style={{
             borderRadius: '32.4px',
             background: '#007AFF',
@@ -278,9 +276,7 @@ function TelanganaPageClient() {
                 fontFamily: 'Poppins',
                 lineHeight: '28px'
             }}>
-                    {section.content.map((paragraph, index) => (<p key={index} style={{ marginBottom: '16px' }}>
-                        {paragraph}
-                      </p>))}
+                    {section.content.map((paragraph, index) => (<p key={index} style={{ marginBottom: '16px' }}> {paragraph} </p>))}
                   </div>
                 </section>))}
             </div>
@@ -301,9 +297,7 @@ function TelanganaPageClient() {
                     <h2 className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full" style={{ color: '#0C2756' }}>
                       Ready to Plan Your Telangana Settlement?
                     </h2>
-                    <p className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full" style={{ color: 'rgba(12, 39, 86, 0.70)' }}>
-                      Share EMI schedules, client attrition reports, or crop evidence. Our Telangana desk replies with a negotiation blueprint within 48 hours.
-                    </p>
+                    <p className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full" style={{ color: 'rgba(12, 39, 86, 0.70)' }}> Share EMI schedules, client attrition reports, or crop proof. Our state desk replies with a talks blueprint within 48 hours. </p>
                   </div>
 
                   <CTAButton>

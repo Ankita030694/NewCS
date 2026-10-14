@@ -47,43 +47,43 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
     const faqs = [
         {
             q: 'Does an unpaid personal loan or credit card default fail an IT MNC background verification?',
-            a: "In general IT and software service firms, a standard civil loan default or low CIBIL score will not automatically fail your background verification. Most tech employers focus primarily on education, past employment authenticity. Criminal records rather than personal financial credit histories."
+            a: "In general IT and software service firms. A standard civil loan default or low CIBIL score will not automatically fail your background check. Most tech employers focus primarily on education. Past jobs authenticity. penal records rather than private money credit histories."
         },
         {
             q: 'Which specific IT roles or projects require mandatory CIBIL credit score checks?',
-            a: "Mandatory credit checks primarily apply when you are assigned to BFSI sector clients, fintech applications, core banking software integrations. Corporate finance and accounting roles where employees manage financial data, transactional credentials, or sensitive fiduciary infrastructure."
+            a: "Strict credit checks primarily apply when you are assigned to BFSI sector clients. Fintech applications. Core banking software integrations. firm finance and accounting roles where staff manage money data. Transactional credentials. sensitive fiduciary infrastructure."
         },
         {
             q: 'Can a bank or recovery agency contact my HR or visit my IT company office?',
-            a: "Under Reserve Bank of India Fair Practices Code guidelines, recovery agents are strictly prohibited from harassing employees at work, calling corporate switchboards. Disclosing debt details to HR managers. CredSettle issues immediate cease-and-desist legal representations to halt workplace intimidation."
+            a: "Under Reserve Bank of India Fair Practices Code rules. Claims agents are strictly prohibited from harassing staff at work. Calling firm switchboards. Disclosing debt details to HR managers. CredSettle issues fast cease-and-desist legal representations to halt workplace threats."
         },
         {
             q: 'Does an ongoing Section 138 or Section 25 NACH court notice show up on police verification?',
-            a: 'Section 138 Negotiable Instruments Act and Section 25 PSSA summons are quasi-criminal civil disputes handled in magistrate courts. They do not generate criminal FIRs or police history records unless an individual repeatedly evades court summons and a non-bailable warrant is issued.'
+            a: 'Section 138 Negotiable Instruments Act and Section 25 PSSA summons are quasi-penal civil claims handled in magistrate courts. They do not generate penal FIRs or police history records unless an person repeatedly evades court summons and a non-bailable warrant is issued.'
         },
         {
             q: 'Can an IT MNC revoke an existing job offer because of a loan default?',
-            a: "Non-BFSI IT enterprises rarely revoke offers for unsecured debt defaults. However, offer revocation risks arise if recovery agents cause public workplace disruption. If a candidate fails specific client security clearance requirements mandated by overseas banking clients."
+            a: "Non-BFSI IT firms rarely revoke offers for no-pledge debt defaults. However. Offer revocation risks arise if claims agents cause public workplace breaks. If a candidate fails local client pledge clearance requirements mandated by overseas banking clients."
         },
         {
             q: 'How does settling a defaulted loan help protect my current and future tech career?',
-            a: "Settle your outstanding debts through an authorized One-Time Settlement (OTS) to stop legal notices, eliminate recovery harassment. Secure an official No Dues Certificate (NDC). This allows you to report zero outstanding liability and pass high-security client background checks."
+            a: "Settle your unpaid debts through an authorized One-Time settlement (OTS) to stop legal notices. Eliminate claims abuse. Secure an formal No Dues letter (NDC). This allows you to report zero unpaid debt risk and pass high-pledge client background checks."
         },
         {
             q: 'What is the difference between a criminal police record and a civil loan dispute during BGV?',
-            a: "Criminal checks identify offenses registered in police databases (such as fraud, theft, or physical assault). Civil loan defaults, arbitrations. Debt recovery tribunal matters are commercial contract disputes and do not appear on standard Indian police clearance certificates."
+            a: "penal checks identify offenses registered in police databases (such as fraud. Theft. Or physical assault). Civil loan defaults. Arbitrations. Debt claims tribunal matters are trade contract claims and do not appear on standard Indian police clearance letters."
         },
         {
             q: 'What should I do if a recovery agent threatens to contact my IT company management?',
-            a: "Document all call recordings, text messages, and agent details immediately. Serve a formal legal notice to the lending institution citing RBI Master Circulars on recovery conduct. Lodge a grievance on the RBI CMS portal to enforce workplace privacy protections."
+            a: "Paper all call recordings. Text messages. And agent details promptly. Serve a formal legal notice to the lending institution citing RBI Master Circulars on claims conduct. Lodge a grievance on the RBI CMS portal to enforce workplace rights protections."
         },
         {
             q: 'Will settling a loan reflect negatively on overseas IT client background screenings?',
-            a: "International clients and visa processing agencies verify criminal records and professional integrity. A \"Settled\" status on CIBIL with an authentic No Dues Certificate shows resolved financial commitments and clears international vendor background vetting."
+            a: "International clients and visa processing firms verify penal records and expert integrity. A \"Settled\" status on CIBIL with an authentic No Dues Certificate shows resolved financial commitments and clears international vendor background vetting."
         },
         {
             q: "How quickly can CredSettle resolve overdue loans to clear employment background risks?",
-            a: "CredSettle initiates legal representation within 24 to 48 hours to stop recovery harassment. Complete One-Time Settlement negotiations, bank credit committee approvals. No Dues Certificate disbursements are typically concluded within 30 to 60 days."
+            a: "CredSettle initiates legal legal help within 24 to 48 hours to stop claims abuse. Complete One-Time talks. Bank credit boards approvals. No Dues letter disbursements are typically concluded within 30 to 60 days."
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -100,9 +100,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
             IT MNC Job Background Verification &amp; Loan Default Impact
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed">
-            Understand how corporate background verification agencies evaluate credit scores, civil loan defaults, and police records. Learn how to protect your job offer, halt workplace recovery harassment. Resolve overdue debts with an authentic No Dues Certificate.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> Understand how firm background check firms evaluate credit scores. Civil loan defaults. police records. Learn how to protect your job offer. Halt workplace claims abuse. Resolve late debts with an authentic No Dues letter. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -145,9 +143,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>Employment Defense.</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Aligned with Indian Labor Laws, RBI Fair Practices Code, and Global BGV Standards.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Aligned with Indian Labor Laws. RBI Fair Practices Code. And Global BGV Standards. </p>
               </div>
             </div>
           </aside>
@@ -163,47 +159,17 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
               </div>
 
               <ul className="space-y-2 text-xs sm:text-sm text-slate-700 leading-relaxed">
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Standard BGV Scope:</strong> General software firms focus on identity, educational credentials, employment tenure, and criminal records rather than credit scores.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Standard BGV Scope:</strong> General software firms focus on identity. Educational credentials. jobs tenure. And penal records rather than credit scores. </div> </li>
 
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">BFSI &amp; Fintech Exception:</strong> Projects handling banking applications, payment gateways, or financial data often mandate a formal CIBIL credit check.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">BFSI &amp. Fintech Exception:</strong> Projects handling banking applications. Payment gateways. Or money data often mandate a formal CIBIL credit check. </div> </li>
 
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Civil vs Criminal Distinction:</strong> Unpaid personal loans and credit cards are civil contract breaches and do not trigger police FIRs or criminal BGV records.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Civil vs penal Distinction:</strong> Unpaid private loans and credit cards are civil contract breaches and do not trigger police FIRs or penal BGV records. </div> </li>
 
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Workplace Privacy Protections:</strong> RBI regulations strictly prohibit bank recovery agents from visiting IT offices, calling reception desks, or intimidating HR teams.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Workplace rights Protections:</strong> RBI regulations strictly prohibit bank claims agents from visiting IT offices. Calling reception desks. Or intimidating HR teams. </div> </li>
 
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Section 138 &amp; 25 Realities:</strong> Cheque bounce and NACH dishonor notices are compoundable magistrate matters that settle smoothly without criminal blacklisting.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Section 138 &amp. 25 Realities:</strong> Cheque bounce and NACH dishonor notices are compoundable magistrate matters that settle smoothly without penal blacklisting. </div> </li>
 
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Permanent Resolution:</strong> A structured One-Time Settlement (OTS) clears outstanding liabilities and secures an authentic No Dues Certificate for career safety.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Permanent relief:</strong> A structured One-Time settlement (OTS) clears unpaid debts and secures an authentic No Dues letter for career safety. </div> </li>
               </ul>
             </div>
 
@@ -216,12 +182,8 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 1. Corporate BGV Architecture: How MNCs Screen IT Recruits
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Indian IT enterprises and MNCs partner with background screening agencies like AuthBridge, First Advantage. HireRight to vet recruits. For most engineering, QA, and cloud roles, screening evaluates identity, degrees, employment history, and criminal convictions. Standard IT background verification does not pull your personal CIBIL report.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Unless your position involves fiduciary control over corporate treasury, banking software integration. Payment gateways, civil personal loan and credit card defaults remain outside regular screening scope. However, for specialized BFSI or fintech client deployments, international compliance rules enforce stricter financial checks, making proactive debt resolution essential.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Indian IT firms and MNCs partner with background screening firms like AuthBridge. First Advantage. HireRight to vet recruits. For most tech. QA. And cloud roles. Screening evaluates identity. Degrees. jobs history. And penal convictions. Standard IT background check does not pull your private CIBIL report. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Unless your position involves fiduciary control over firm treasury. Banking software integration. Payment gateways. Civil private loans and credit card defaults remain outside regular screening scope. However. For expert BFSI or fintech client deployments. International compliance rules enforce stricter money checks. Making early debt relief essential. </p>
             </section>
 
             {/* SECTION 2: Financial Forensics & Settlement Scope */}
@@ -233,12 +195,8 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 2. Financial Forensics: Debt Inflation &amp; Settlement Scope
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Defaulting on unsecured loans triggers automated banking charges: 24% to 36% penal interest, NACH bounce penalties. Overdue fees, inflating ledger balances by up to 50% above principal. A forensic audit removes these unjustified levies to establish true liability.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                After 90 days of default, loans enter Non-Performing Asset (NPA) classification, requiring banks to set aside capital provisions. To recover funds, bank credit committees routinely sanction One-Time Settlements (OTS), offering a 100% penal interest waiver and a 40% to 55% principal haircut.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Defaulting on no-pledge loans triggers automated banking charges: 24% to 36% extra fees. NACH bounce penalties. late fees. Inflating ledger balances by up to 50% above main loan. A audits removes these unjustified levies to establish true debt risk. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> After 90 days of default. Loans enter Non-Performing Asset (NPA) classification. Requiring banks to set aside cash provisions. To recover funds. Bank credit boards routinely sanction One-Time deals (OTS). Offering a 100% extra fees waiver and a 40% to 55% main loan haircut. </p>
 
               {/* Representative Calculation Card */}
               <div className="border border-slate-200/80 rounded-2xl overflow-hidden bg-white shadow-xs">
@@ -261,25 +219,25 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
                     </thead>
                     <tbody className="divide-y divide-slate-200/80 text-slate-600">
                       <tr>
-                        <td className="p-3 font-medium text-slate-900">remaining principal balance.</td>
+                        <td className="p-3 font-medium text-slate-900">remaining base loan.</td>
                         <td className="p-3">₹7,00,000</td>
-                        <td className="p-3 text-emerald-600 font-semibold">45% Principal Haircut (₹3,15,000).</td>
+                        <td className="p-3 text-emerald-600 font-semibold">45% main loan Haircut (₹3,15,000).</td>
                         <td className="p-3 text-right font-bold text-slate-900">₹3,85,000</td>
                       </tr>
                       <tr>
-                        <td className="p-3 font-medium text-slate-900">Accrued Compound &amp; Penal Interest.</td>
+                        <td className="p-3 font-medium text-slate-900">Accrued Compound &amp. extra fees.</td>
                         <td className="p-3">₹2,45,000</td>
                         <td className="p-3 text-emerald-600 font-semibold">100% Complete Waiver.</td>
                         <td className="p-3 text-right font-bold text-slate-900">₹0</td>
                       </tr>
                       <tr>
-                        <td className="p-3 font-medium text-slate-900">NACH Bounce &amp; Late Surcharges.</td>
+                        <td className="p-3 font-medium text-slate-900">NACH Bounce &amp. Late Surcharges.</td>
                         <td className="p-3">₹55,000</td>
-                        <td className="p-3 text-emerald-600 font-semibold">100% Administrative Waiver.</td>
+                        <td className="p-3 text-emerald-600 font-semibold">100% office Waiver.</td>
                         <td className="p-3 text-right font-bold text-slate-900">₹0</td>
                       </tr>
                       <tr className="bg-blue-50/70 font-bold text-slate-900">
-                        <td className="p-3">Total Resolution Assessment.</td>
+                        <td className="p-3">Total relief Assessment.</td>
                         <td className="p-3 text-rose-600">₹10,00,000</td>
                         <td className="p-3 text-emerald-700">₹6,15,000 Total Relief (61.5% Savings).</td>
                         <td className="p-3 text-right text-[#1886ff] text-sm sm:text-base">₹3,85,000 Final OTS.</td>
@@ -299,9 +257,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 3. Industry Comparison: BGV Screening by Corporate Sector
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Background verification rigor depends on industry and data sensitivity. While tech consulting prioritizes employment tenure and technical capability, financial entities demand rigorous credit and integrity checks.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Background check rigor depends on industry and data sensitivity. While tech consulting prioritizes jobs tenure and technical skill. Money entities demand rigorous credit and integrity checks. </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto bg-white shadow-xs">
                 <table className="w-full text-xs sm:text-sm text-left border-collapse divide-x divide-slate-200/80 min-w-[620px]">
@@ -316,37 +272,37 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-600">
                     <tr className="bg-blue-50/30">
-                      <td className="p-3 font-bold text-slate-900">IT Services &amp; SaaS Products.</td>
+                      <td className="p-3 font-bold text-slate-900">IT Services &amp. SaaS Products.</td>
                       <td className="p-3 text-slate-600">Not Conducted in 95% of Roles.</td>
                       <td className="p-3 text-emerald-600 font-semibold">Negligible Impact.</td>
-                      <td className="p-3">Criminal FIR &amp; Conviction Check.</td>
+                      <td className="p-3">penal FIR &amp. Conviction Check.</td>
                       <td className="p-3 text-emerald-600 font-semibold">Extremely Low</td>
                     </tr>
                     <tr>
-                      <td className="p-3 font-bold text-slate-900">BFSI Tech &amp; Fintech Platforms.</td>
-                      <td className="p-3 text-amber-600 font-semibold">Mandatory (Credit Bureau Pull).</td>
+                      <td className="p-3 font-bold text-slate-900">BFSI Tech &amp. Fintech Platforms.</td>
+                      <td className="p-3 text-amber-600 font-semibold">strict (CIBIL desk Pull).</td>
                       <td className="p-3 text-amber-600 font-semibold">Explanation Required.</td>
-                      <td className="p-3">Criminal &amp; Court Record Search.</td>
+                      <td className="p-3">penal &amp. Court Record Search.</td>
                       <td className="p-3 text-amber-600 font-semibold">Moderate (Unless Resolved).</td>
                     </tr>
                     <tr>
                       <td className="p-3 font-bold text-slate-900">Global Investment Banking Units.</td>
-                      <td className="p-3 text-rose-600 font-semibold">Strict Regulatory Audit.</td>
-                      <td className="p-3 text-rose-600 font-semibold">Requires Zero Outstanding NDC.</td>
-                      <td className="p-3">Comprehensive Inter-State Database.</td>
+                      <td className="p-3 text-rose-600 font-semibold">Strict RBI Audit.</td>
+                      <td className="p-3 text-rose-600 font-semibold">Requires Zero unpaid NDC.</td>
+                      <td className="p-3">full Inter-State Database.</td>
                       <td className="p-3 text-rose-600 font-semibold">High if Left Unresolved.</td>
                     </tr>
                     <tr>
-                      <td className="p-3 font-bold text-slate-900">Corporate Finance &amp; Accounting.</td>
-                      <td className="p-3 text-amber-600 font-semibold">Frequently Audited.</td>
+                      <td className="p-3 font-bold text-slate-900">firm Finance &amp. Accounting.</td>
+                      <td className="p-3 text-amber-600 font-semibold">often Audited.</td>
                       <td className="p-3 text-amber-600 font-semibold">Requires Clearance Proof.</td>
-                      <td className="p-3">Jurisdictional Police Verification.</td>
+                      <td className="p-3">Jurisdictional Police check.</td>
                       <td className="p-3 text-amber-600 font-semibold">Moderate</td>
                     </tr>
                     <tr>
-                      <td className="p-3 font-bold text-slate-900">Government &amp; Defense IT Vendors.</td>
-                      <td className="p-3 text-slate-600">Discretionary Security Clearance.</td>
-                      <td className="p-3 text-slate-600">Assessed on National Security Risk.</td>
+                      <td className="p-3 font-bold text-slate-900">state &amp. Defense IT Vendors.</td>
+                      <td className="p-3 text-slate-600">special pledge Clearance.</td>
+                      <td className="p-3 text-slate-600">Assessed on National pledge Risk.</td>
                       <td className="p-3">Special Branch Police Scrutiny.</td>
                       <td className="p-3 text-amber-600 font-semibold">Low to Moderate</td>
                     </tr>
@@ -364,12 +320,8 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 4. CIBIL Algorithm: Credit Score Trajectory &amp; BGV Metrics
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Credit bureaus calculate scores based on repayment history (35%), credit use (30%), history length (15%), credit mix (10%). Inquiries (10%). Reaching 90 DPD triggers an immediate 80 to 140 point drop, falling below typical 650 thresholds required in sensitive financial developer roles.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Executing a One-Time Settlement updates credit reports to &quot;Settled&quot; with zero outstanding balance, stopping negative reporting. Borrowers can rebuild a 750+ score over 18 to 24 months, or later convert status to &quot;Closed&quot. Under Section 21 of CICRA 2005.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Credit bureaus calculate scores based on payment history (35%). Credit use (30%). History length (15%). Credit mix (10%). Inquiries (10%). Reaching 90 DPD triggers an fast 80 to 140 point drop. Falling below typical 650 thresholds required in sensitive money developer roles. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Executing a One-Time settlement updates credit reports to &quot. Settled&quot. With zero unpaid dues. Stopping negative reporting. Clients can rebuild a 750+ score over 18 to 24 months. Or later convert status to &quot. Closed&quot. Under Section 21 of CICRA 2005. </p>
             </section>
 
             {/* SECTION 5: Visual Blueprint Asset Card */}
@@ -381,9 +333,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 5. Visual Blueprint: IT Career &amp; Debt Resolution Roadmap
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                This comprehensive infographic illustrates the complete institutional pathway for protecting your IT career from background verification hurdles, distinguishing civil loan defaults from criminal records, stopping workplace harassment. Securing a binding No Dues Certificate.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> This full infographic illustrates the complete bank pathway for protecting your IT career from background check hurdles. Distinguishing civil loan defaults from penal records. Stopping workplace abuse. Securing a binding No Dues letter. </p>
 
               <div className="bg-white p-4 sm:p-6 rounded-2xl border border-slate-200/80 shadow-xs space-y-3">
                 <div className="relative aspect-video w-full rounded-xl overflow-hidden border border-slate-100 bg-slate-100">
@@ -408,9 +358,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 6. Six-Stage SOP: Career Protection &amp; Debt Resolution
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                CredSettle executes a disciplined six-stage methodology engineered specifically for salaried tech professionals to resolve debt while safeguarding employment credentials:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> CredSettle executes a disciplined six-stage process engineered mainly for salaried tech workers to resolve debt while safeguarding jobs credentials: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {/* Stage 1 */}
@@ -424,9 +372,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
                   <h3 className="font-bold text-slate-900 text-sm sm:text-base">
                     Forensic Portfolio &amp; BGV Risk Audit
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    We audit loan statements, isolate unfair penal interest, evaluate employer BGV requirements. Separate civil defaults from statutory notice risks.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> We audit loan records. Isolate unfair extra fees. Evaluate employer BGV requirements. Separate civil defaults from legal notices risks. </p>
                 </div>
 
                 {/* Stage 2 */}
@@ -440,9 +386,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
                   <h3 className="font-bold text-slate-900 text-sm sm:text-base">
                     Legal Representation &amp; Workplace Shield
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    We issue formal legal notices to bank Nodal Officers, enforcing RBI Fair Practices to halt recovery agent calls and unauthorized office visits.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> We issue formal legal notices to bank Nodal agents. Enforcing RBI Fair Practices to halt claims agent calls and banned office visits. </p>
                 </div>
 
                 {/* Stage 3 */}
@@ -456,9 +400,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
                   <h3 className="font-bold text-slate-900 text-sm sm:text-base">
                     Comprehensive Hardship Dossier Preparation
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    We compile documented proof of layoffs, medical emergencies. Salary revisions to establish genuine hardship before bank credit committees.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> We compile documented proof of layoffs. health crises. Salary revisions to establish genuine hardship before bank credit boards. </p>
                 </div>
 
                 {/* Stage 4 */}
@@ -472,9 +414,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
                   <h3 className="font-bold text-slate-900 text-sm sm:text-base">
                     Bilateral Negotiations with Stressed Asset Desks
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    Our senior advocates negotiate directly with bank zonal desks to secure 100% penal fee waivers and a 40% to 55% principal settlement discount.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Our senior lawyers settle straight with bank zonal desks to secure 100% penal fee waivers and a 40% to 55% main loan settlement discount. </p>
                 </div>
 
                 {/* Stage 5 */}
@@ -488,9 +428,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
                   <h3 className="font-bold text-slate-900 text-sm sm:text-base">
                     Official Settlement Sanction Letter Vetting
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    We verify sanction letters on official bank letterhead, ensuring clear settlement amounts, tranche dates. Court notice withdrawal terms.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> We verify sanction letters on formal bank letterhead. Ensuring clear settlement amounts. Tranche dates. Court notice withdrawal terms. </p>
                 </div>
 
                 {/* Stage 6 */}
@@ -504,9 +442,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
                   <h3 className="font-bold text-slate-900 text-sm sm:text-base">
                     Direct Account Remittance &amp; NDC Issuance
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    You pay directly into your loan account. We follow up with bank operations to secure your official No Dues Certificate for clean BGV audits.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> You pay straight into your loan account. We follow up with bank work to secure your formal No Dues letter for clean BGV audits. </p>
                 </div>
               </div>
             </section>
@@ -520,9 +456,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 7. Statutory Defense: Legal Rights &amp; Workplace Immunity
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Loan default is a civil contractual dispute, not criminal misconduct. Lenders possess zero legal authority to breach employee privacy or contact corporate HR:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Loan default is a civil contractual claims. Not penal misconduct. Lenders possess zero legal formal to breach staff rights or contact firm HR: </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {/* Card 1 */}
@@ -531,9 +465,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
                     <BadgeAlert className="w-4 h-4 text-amber-600"/>
                     <span>Section 25 PSSA &amp; NACH Dishonor.</span>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    Magistrate summons for electronic mandate bounces are compoundable quasi-criminal proceedings that resolve fully through settlement with zero police record impact.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Magistrate summons for electronic mandate bounces are compoundable quasi-penal steps that resolve fully through settlement with zero police record impact. </p>
                 </div>
 
                 {/* Card 2 */}
@@ -542,9 +474,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
                     <Scale className="w-4 h-4 text-blue-600"/>
                     <span>Section 138 NI Act Cheque Bounce.</span>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    Requires a formal legal reply within 15 days. Prompt settlement ensures immediate court case withdrawal without criminal conviction records.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Requires a formal legal reply within 15 days. Prompt settlement ensures fast court case withdrawal without penal conviction records. </p>
                 </div>
 
                 {/* Card 3 */}
@@ -553,9 +483,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
                     <Gavel className="w-4 h-4 text-purple-600"/>
                     <span>Arbitration Section 21 Challenges.</span>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    Unilateral arbitrator appointments violate Supreme Court rulings (TRF / Perkins). Challenging jurisdiction under Section 12(5) prompts bilateral compromise talks.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Unilateral judge appointments violate Supreme Court rulings (TRF / Perkins). Challenging police area under Section 12(5) prompts bilateral OTS deal talks. </p>
                 </div>
 
                 {/* Card 4 */}
@@ -564,9 +492,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
                     <ShieldCheck className="w-4 h-4 text-emerald-600"/>
                     <span>RBI Fair Practices Code Enforcement.</span>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    RBI rules strictly forbid agents from visiting workplaces, calling colleagues. Contacting borrowers outside 8:00 AM to 7:00 PM.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> RBI rules strictly forbid agents from visiting workplaces. Calling colleagues. Contacting clients outside 8:00 AM to 7:00 PM. </p>
                 </div>
               </div>
             </section>
@@ -580,9 +506,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 8. 3-Tier Escalation Matrix: Institutional Debt Grievance
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                If collection agencies threaten your employment standing, invoke the RBI-mandated 3-tier grievance mechanism:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> If claims firms threaten your jobs standing. Invoke the RBI-mandated 3-tier grievance mechanism: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div className="p-4 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-2">
@@ -590,9 +514,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
                     Tier 1: Grievance Officer.
                   </div>
                   <h3 className="font-bold text-slate-900 text-sm">Branch &amp; Regional GRO</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Submit written complaints regarding agent harassment demanding immediate workplace cessation. Resolution turnaround: 7 to 10 working days.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Submit written reports regarding agent abuse demanding fast workplace cessation. relief turnaround: 7 to 10 working days. </p>
                 </div>
 
                 <div className="p-4 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-2">
@@ -600,9 +522,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
                     Tier 2: Principal Nodal Officer.
                   </div>
                   <h3 className="font-bold text-slate-900 text-sm">Apex Bank PNO Desk</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Escalate to the corporate PNO to halt third-party agency calling rosters and initiate formal compromise reviews within 14 to 21 days.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Escalate to the firm PNO to halt third-party firm calling rosters and initiate formal OTS deal reviews within 14 to 21 days. </p>
                 </div>
 
                 <div className="p-4 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-2">
@@ -610,9 +530,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
                     Tier 3: RBI Ombudsman.
                   </div>
                   <h3 className="font-bold text-slate-900 text-sm">Regulatory CMS Portal</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    File a petition on cms.rbi.org.in for recovery violations. The Ombudsman has statutory authority to penalize errant lenders.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> File a petition on cms.rbi.org.in for claims violations. The agents has legal formal to penalize errant lenders. </p>
                 </div>
               </div>
             </section>
@@ -626,9 +544,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 9. Procedural Timeline: Default to Background Clearance
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Chronological milestones from initial default to complete background clearance:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Chronological milestones from initial default to complete background clearance: </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto bg-white shadow-xs">
                 <table className="w-full text-xs sm:text-sm text-left border-collapse divide-x divide-slate-200/80 min-w-[580px]">
@@ -642,34 +558,34 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-600">
                     <tr>
-                      <td className="p-3 font-bold text-slate-900">Days 1 – 30</td>
+                      <td className="p-3 font-bold text-slate-900">Days 1. 30</td>
                       <td className="p-3">SMA-0 Stage</td>
-                      <td className="p-3">Automated SMS &amp; Email Reminders.</td>
-                      <td className="p-3">Maintain active communication; assess liquidity options.</td>
+                      <td className="p-3">Automated SMS &amp. Email Reminders.</td>
+                      <td className="p-3">Maintain active contact. assess liquidity options.</td>
                     </tr>
                     <tr>
-                      <td className="p-3 font-bold text-slate-900">Days 31 – 90</td>
+                      <td className="p-3 font-bold text-slate-900">Days 31. 90</td>
                       <td className="p-3">SMA-1 / SMA-2 Brackets.</td>
-                      <td className="p-3">Branch Collection Agency Calls.</td>
+                      <td className="p-3">Branch claims firm Calls.</td>
                       <td className="p-3">Issue cease-and-desist against workplace outreach.</td>
                     </tr>
                     <tr>
-                      <td className="p-3 font-bold text-slate-900">Days 91 – 180</td>
+                      <td className="p-3 font-bold text-slate-900">Days 91. 180</td>
                       <td className="p-3 text-rose-600 font-semibold">NPA Classification.</td>
                       <td className="p-3">Stressed Asset Desk Portfolio.</td>
-                      <td className="p-3 font-medium text-[#1886ff]">Prime One-Time Settlement (OTS) negotiation window.</td>
+                      <td className="p-3 font-medium text-[#1886ff]">Prime One-Time settlement (OTS) talks window.</td>
                     </tr>
                     <tr>
-                      <td className="p-3 font-bold text-slate-900">Month 6 – 8</td>
+                      <td className="p-3 font-bold text-slate-900">Month 6. 8</td>
                       <td className="p-3 text-emerald-600 font-semibold">Sanctioned OTS</td>
                       <td className="p-3">Payment Tranches Remitted.</td>
-                      <td className="p-3">Execute direct loan payment; secure receipt confirmations.</td>
+                      <td className="p-3">Execute direct loan payment. secure receipt confirmations.</td>
                     </tr>
                     <tr>
                       <td className="p-3 font-bold text-slate-900">Month 8+</td>
                       <td className="p-3 text-emerald-700 font-bold">Closed / Settled.</td>
-                      <td className="p-3">No Dues Certificate Issued.</td>
-                      <td className="p-3 font-bold text-emerald-600">100% BGV Clearance ready for any corporate audit.</td>
+                      <td className="p-3">No Dues letter Issued.</td>
+                      <td className="p-3 font-bold text-emerald-600">100% BGV Clearance ready for any firm audit.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -685,9 +601,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 10. Specialized Scenarios: Layoffs &amp; BFSI Project Checks
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Tailored resolution strategies for distinct IT career scenarios:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Tailored relief plans for distinct IT career scenarios: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {/* Card 1 */}
@@ -696,9 +610,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
                     <AlertCircle className="w-4 h-4 text-amber-500"/>
                     <span>Tech Layoffs &amp; Career Gaps.</span>
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    Submitting official severance and termination letters to credit committees validates genuine financial hardship, unlocking maximum settlement discounts.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Submitting formal severance and termination letters to credit boards validates genuine hardship. Unlocking maximum settlement discounts. </p>
                 </div>
 
                 {/* Card 2 */}
@@ -707,9 +619,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
                     <ShieldCheck className="w-4 h-4 text-blue-500"/>
                     <span>Overseas Onsite Client Deployments.</span>
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    For H-1B, L-1. European onsite client travel, securing an official No Dues Certificate ensures zero impediment during international background audits.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> For H-1B, L-1. European onsite client travel. Securing an formal No Dues letter ensures zero impediment during international background audits. </p>
                 </div>
 
                 {/* Card 3 */}
@@ -718,9 +628,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
                     <Building2 className="w-4 h-4 text-emerald-500"/>
                     <span>Switching to BFSI or Fintech Employers.</span>
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    Joining fintech hubs with mandatory credit checks requires a formal bank settlement sanction letter to satisfy HR onboarding compliance.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Joining fintech hubs with strict credit checks requires a formal bank settlement sanction letter to satisfy HR onboarding compliance. </p>
                 </div>
 
                 {/* Card 4 */}
@@ -729,9 +637,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
                     <UserCheck className="w-4 h-4 text-purple-500"/>
                     <span>Debt Sold to ARCs (Asset Reconstruction).</span>
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    When loans are assigned to ARCs (like ARCIL or Phoenix), specialized compromise pricing allows deeper principal waivers and fast NDC closure.
-                  </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> When loans are assigned to ARCs (like ARCIL or Phoenix). expert OTS deal pricing allows deeper main loan waivers and fast NDC closure. </p>
                 </div>
               </div>
             </section>
@@ -750,9 +656,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Frequently Asked Questions: IT Job BGV &amp; Loan Defaults
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Find clear, authoritative answers to the most common questions asked by Indian IT and MNC professionals regarding employment background verification, credit score checks. Loan default legalities.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Find clear. Authoritative answers to the most common questions asked by Indian IT and MNC workers regarding jobs background check. Credit score checks. Loan default legalities. </p>
 
               <div className="space-y-3 pt-2">
                 {faqs.map((faq, index) => {
@@ -781,9 +685,7 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Regulatory Framework &amp; Official Verification Authorities
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                CredSettle operates in strict compliance with the legal frameworks established by the Reserve Bank of India, Indian judicial authorities. National regulatory bodies:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> CredSettle operates in strict compliance with the legal rules established by the Reserve Bank of India. Indian court officials. National RBI bodies: </p>
 
               {/* 6 Outbound Authority Badges */}
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
@@ -871,14 +773,10 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
                 </div>
                 <div>
                   <p className="font-bold text-slate-900 text-sm">Ashish Jhangra</p>
-                  <p className="text-[11px] text-slate-500 font-medium">
-                    Legal &amp; Debt Resolution Professional.
-                  </p>
+                  <p className="text-[11px] text-slate-500 font-medium"> Legal &amp. Debt relief expert. </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Specialist in banking compliance, corporate employee debt resolution, BGV risk mitigation. Compromise settlements with extensive experience defending salaried tech professionals before bank credit committees.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> Specialist in banking compliance. firm staff debt relief. BGV risk mitigation. OTS deals with extensive skill defending salaried tech workers before bank credit boards. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
                   <span>View Author Profile.</span>
@@ -896,12 +794,8 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
                 <span className="text-xs font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
                   CAREER &amp; DEBT PROTECTION.
                 </span>
-                <p className="text-lg md:text-xl font-bold text-white leading-snug">
-                  Loan Default Worrying Your IT Career?
-                </p>
-                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
-                  Halt recovery agent harassment at your workplace, safeguard your background verification status. Settle debts with up to 55% waivers and official No Dues Certificates.
-                </p>
+                <p className="text-lg md:text-xl font-bold text-white leading-snug"> Loan Default Worrying Your IT Career? </p>
+                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal"> Halt claims agent abuse at your workplace. Safeguard your background check status. Settle debts with up to 55% waivers and formal No Dues letters. </p>
               </div>
               <Link href="/contact" className="block w-full bg-white text-blue-900 hover:text-[#1886ff] py-3 px-4 rounded-full font-bold text-sm hover:bg-slate-50 transition-all shadow-md">
                 Protect Your Career: Settle Your Debt
@@ -924,47 +818,29 @@ export default function BackgroundVerificationForItJobLoanDefaultClient() {
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
               <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage.</p>
               <ul className="space-y-2 text-slate-600">
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Workplace Privacy:</strong> Cease-and-desist protects corporate standing.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Direct Remittance:</strong> Payments made strictly to your loan account.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>RBI Compliance:</strong> Full enforcement of Fair Practices Code.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Verified NDC:</strong> Guaranteed official bank closure certificate.</span>
-                </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Workplace rights:</strong> Cease-and-desist protects firm standing.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Direct Remittance:</strong> Payments made strictly to your loan account.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>RBI Compliance:</strong> Full enforcement of Fair Practices Code.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>checked NDC:</strong> Guaranteed formal bank closure letter.</span> </li>
               </ul>
             </div>
 
             {/* Card 4: Related Guides */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
-              <p className="font-bold text-slate-900 text-sm">Related IT &amp; Debt Guides.</p>
+              <p className="font-bold text-slate-900 text-sm">Related IT &amp. Debt Guides.</p>
               <div className="space-y-2.5">
                 <Link href="/can-recovery-agents-visit-my-office" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Can Recovery Agents Visit My Office?
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Can claims agents Visit My Office? </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Workplace harassment defense &rarr;.</span>
                 </Link>
 
                 <Link href="/bank-sent-legal-notice-for-loan-what-to-do" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Bank Sent Legal Notice for Loan.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Bank Sent Legal Notice for Loan. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Legal notice response blueprint &rarr;.</span>
                 </Link>
 
                 <Link href="/convert-settled-status-to-closed" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Convert Settled Loan to Closed Status.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Convert Settled Loan to Closed Status. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Clean CIBIL credit report &rarr;.</span>
                 </Link>
               </div>
