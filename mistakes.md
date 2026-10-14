@@ -543,6 +543,7 @@
     1. Screaming Frog audits headings under the `H2` tab using the filter `H2: Duplicate` (Opportunity / Low-Priority Warning). It flags URLs that contain identical `<h2>` text on the same page OR shared across multiple pages in the site crawl.
     2. Shared Template Section Headings: Blog and resource page templates (`BlogPostPageClient.tsx`) hardcoded `<h2 ...>Frequently Asked Questions</h2>` for the bottom FAQ accordion whenever an article had few or no in-body headings. As a result, 11+ URLs shared the exact identical 26-character H2 string (`Frequently Asked Questions`), triggering `H2: Duplicate` across all of them.
     3. Generic In-Body Article Subheadings: Multiple articles generated from CMS/Firestore shared generic subheadings across different posts:
+       - `Understanding Loan Settlement in India` (2 URLs: `key-legal-strategies-for-loan-settlement-in-india` and `how-to-negotiate-a-better-waiver-for-loan-settlement-in-india`)
        - `What is Loan Settlement?` (11 URLs)
        - `knowing Debt Settlement` (5 URLs)
        - `Introduction` (3 URLs)
@@ -560,7 +561,7 @@
     2. **Map & Rewrite Generic Headings (`src/data/blogH2Rewrites.ts`):** Maintain a centralized `GENERIC_H2_REWRITES` map keyed by slug to rewrite repeated generic headings into unique, context-specific titles (e.g. `What is Bank Loan Settlement Under RBI Rules?`, `What is Credit Card Debt Settlement?`). Provide dual keys for both original and readability variants.
     3. **Protect Headings from Readability Vocabulary Replacement:** In `improveTextReadability`, stash all `<h[1-6][^>]*>[\s\S]*?<\/h[1-6]>` blocks before applying vocabulary replacements so headings are never mutated into "closure" or "knowing". In `processDescription`, promote pseudo-headings before readability processing.
     4. **Dual-Key & Normalized Key Matching:** In `getRewrittenH2Text`, normalize incoming heading text (`closure` -> `settlement`, `knowing` -> `understanding`) so rewrites match regardless of input phrasing.
-    5. **Dynamic Contextual Fallback:** For unmapped articles, automatically contextualize common generic patterns (`Introduction: ${cleanTopic}`, `Conclusion: ${cleanTopic}`, `What is Loan Settlement: ${cleanTopic}`) clamped to ≤ 65 chars.
+    5. **Dynamic Contextual Fallback with Word-Boundary Truncation:** For unmapped articles, automatically contextualize common generic patterns (`Introduction: ${cleanTopic}`, `Conclusion: ${cleanTopic}`, `What is Loan Settlement: ${cleanTopic}`, `Understanding Loan Settlement: ${cleanTopic}`) clamped to ≤ 65 chars using `formatFallbackH2` with word-boundary preservation and trailing preposition cleanup.
     6. **Tighten Title Matching:** Restrict `isDuplicateOfTitle` to exact normalized string matching (`normText === normTitle || normText === normRawTitle`) so valid descriptive subheadings are never stripped.
 * **Mistake 53: Non-Sequential Heading Hierarchy on Resource & Editorial Pages (`H2: Non-Sequential`)**
   * *Why it happens:*

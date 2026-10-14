@@ -347,6 +347,32 @@ export const GENERIC_H2_REWRITES: Record<string, Record<string, string>> = {
   'dealing-with-recovery-agents-know-your-rights-and-how-to-handle-them': {
     'who are recovery agents?': 'Who Are Bank Recovery Agents in India?',
   },
+  // 39. key-legal-strategies-for-loan-settlement-in-india
+  'key-legal-strategies-for-loan-settlement-in-india': {
+    'understanding loan settlement in india': 'Understanding Key Legal Settlement Strategies',
+    'understanding loan settlement in india?': 'Understanding Key Legal Settlement Strategies',
+    'understanding loan settlement': 'Understanding Key Legal Settlement Strategies',
+    'understanding loan settlement?': 'Understanding Key Legal Settlement Strategies',
+    'what is loan settlement in india?': 'Understanding Key Legal Settlement Strategies',
+    'what is loan settlement in india': 'Understanding Key Legal Settlement Strategies',
+    'what is loan settlement?': 'Understanding Key Legal Settlement Strategies',
+    'what is loan closure?': 'Understanding Key Legal Settlement Strategies',
+    'knowing debt settlement': 'Understanding Key Legal Settlement Strategies',
+    'knowing debt closure': 'Understanding Key Legal Settlement Strategies',
+  },
+  // 40. how-to-negotiate-a-better-waiver-for-loan-settlement-in-india
+  'how-to-negotiate-a-better-waiver-for-loan-settlement-in-india': {
+    'understanding loan settlement in india': 'Understanding Loan Settlement Waiver Negotiation',
+    'understanding loan settlement in india?': 'Understanding Loan Settlement Waiver Negotiation',
+    'understanding loan settlement': 'Understanding Loan Settlement Waiver Negotiation',
+    'understanding loan settlement?': 'Understanding Loan Settlement Waiver Negotiation',
+    'what is loan settlement in india?': 'Understanding Loan Settlement Waiver Negotiation',
+    'what is loan settlement in india': 'Understanding Loan Settlement Waiver Negotiation',
+    'what is loan settlement?': 'Understanding Loan Settlement Waiver Negotiation',
+    'what is loan closure?': 'Understanding Loan Settlement Waiver Negotiation',
+    'knowing debt settlement': 'Understanding Loan Settlement Waiver Negotiation',
+    'knowing debt closure': 'Understanding Loan Settlement Waiver Negotiation',
+  },
 };
 
 /**
@@ -436,38 +462,49 @@ export const getRewrittenH2Text = (
     cleanTopic = (lastSpace > 20 ? slice.slice(0, lastSpace) : slice).replace(/[,;:\-\s]+$/, '').trim();
   }
 
-  if (/^what is (?:loan|debt) (?:settlement|closure)\??$/i.test(lower)) {
-    return `What is Loan Settlement: ${cleanTopic}`.slice(0, 65).trim();
+  const formatFallbackH2 = (prefix: string, topic: string): string => {
+    if (!topic) return prefix;
+    const combined = `${prefix}: ${topic}`.replace(/[—–]/g, '-').trim();
+    if (combined.length <= 65) return combined;
+    const slice = combined.slice(0, 65);
+    const lastSpace = slice.lastIndexOf(' ');
+    let cand = (lastSpace > 35 ? slice.slice(0, lastSpace) : slice).replace(/[,;:\-\s]+$/, '').trim();
+    cand = cand.replace(/\s+(?:in|on|for|with|to|of|the|a|an|at|by|from)$/i, '').replace(/[,;:\-\s]+$/, '').trim();
+    return cand;
+  };
+
+  if (/^(?:what is|what's) (?:loan|debt) (?:settlement|closure)(?:\s+in\s+india)?\??$/i.test(lower) || /^(?:what is|what's) (?:loan|debt) (?:settlement|closure)(?:\s+in\s+india)?\??$/i.test(normalizedKey)) {
+    return formatFallbackH2('What is Loan Settlement', cleanTopic);
   }
-  if (/^how does (?:loan|debt) (?:settlement|closure) work\??$/i.test(lower)) {
-    return `How Settlement Works: ${cleanTopic}`.slice(0, 65).trim();
+  if (/^how does (?:loan|debt) (?:settlement|closure) work(?:\s+in\s+india)?\??$/i.test(lower) || /^how does (?:loan|debt) (?:settlement|closure) work(?:\s+in\s+india)?\??$/i.test(normalizedKey)) {
+    return formatFallbackH2('How Settlement Works', cleanTopic);
   }
-  if (/^(?:understanding|knowing) debt (?:settlement|closure)\??$/i.test(lower)) {
-    return `Understanding Debt Settlement: ${cleanTopic}`.slice(0, 65).trim();
+  if (/^(?:understanding|knowing) (?:loan|debt) (?:settlement|closure)(?:\s+in\s+india)?\??$/i.test(lower) || /^(?:understanding|knowing) (?:loan|debt) (?:settlement|closure)(?:\s+in\s+india)?\??$/i.test(normalizedKey)) {
+    return formatFallbackH2('Understanding Loan Settlement', cleanTopic);
   }
-  if (/^(?:understanding|knowing) rbi guidelines for debt (?:settlement|closure)\??$/i.test(lower)) {
-    return `RBI Guidelines for Debt Settlement: ${cleanTopic}`.slice(0, 65).trim();
+  if (/^(?:understanding|knowing) rbi guidelines for (?:loan|debt) (?:settlement|closure)(?:\s+in\s+india)?\??$/i.test(lower) || /^(?:understanding|knowing) rbi guidelines for (?:loan|debt) (?:settlement|closure)(?:\s+in\s+india)?\??$/i.test(normalizedKey)) {
+    return formatFallbackH2('RBI Guidelines for Debt Settlement', cleanTopic);
   }
   if (/^introduction:?$/i.test(lower)) {
-    return `Introduction: ${cleanTopic}`.slice(0, 65).trim();
+    return formatFallbackH2('Introduction', cleanTopic);
   }
   if (/^[✅\s]*conclusion:?$/i.test(lower)) {
-    return `Conclusion: ${cleanTopic}`.slice(0, 65).trim();
+    return formatFallbackH2('Conclusion', cleanTopic);
   }
   if (/^final thoughts:?$/i.test(lower)) {
-    return `Final Thoughts on ${cleanTopic}`.slice(0, 65).trim();
+    return formatFallbackH2('Final Thoughts on', cleanTopic);
   }
   if (/^why choose credsettle\??$/i.test(lower)) {
-    return `Why Choose CredSettle for ${cleanTopic}`.slice(0, 65).trim();
+    return formatFallbackH2('Why Choose CredSettle for', cleanTopic);
   }
   if (/^(?:frequently asked questions|faqs)(?:\s*\(faqs\))?:?$/i.test(lower)) {
-    return `Common Questions on ${cleanTopic}`.slice(0, 65).trim();
+    return formatFallbackH2('Common Questions on', cleanTopic);
   }
   if (/^who are (?:bank\s+)?recovery agents\??$/i.test(lower)) {
     return `Who Are Bank Recovery Agents in India?`;
   }
   if (/^a real-life success story with credsettle$/i.test(lower)) {
-    return `Real-Life Success Story with CredSettle: ${cleanTopic}`.slice(0, 65).trim();
+    return formatFallbackH2('Real-Life Success Story with CredSettle', cleanTopic);
   }
 
   return clean;

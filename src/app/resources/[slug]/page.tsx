@@ -114,6 +114,7 @@ const OPTIMIZED_TITLES: Record<string, string> = {
   "loan-settlement-vs-loan-closure-what-is-the-difference": "Loan Settlement vs Closure: Know the Key Difference",
   "latest-developments-in-debt-settlement-regulations-in-india": "New Debt Settlement Regulations in India 2026 Guide",
   "key-legal-strategies-for-loan-settlement-in-india": "Key Legal Loan Settlement Strategies in India 2026",
+  "how-to-negotiate-a-better-waiver-for-loan-settlement-in-india": "Negotiate Maximum Loan Settlement Waivers in India",
   "how-to-legally-settle-your-loan-in-india-without-harassment": "Legally Settle Loans in India: Stop Bank Harassment",
   "cibil-score-after-loan-settlement-how-to-improve-it": "Boost CIBIL Score After Loan Settlement: Tips India",
   // Fix: H1 over 70 characters URLs (Titles)
@@ -178,6 +179,7 @@ const OPTIMIZED_H1S: Record<string, string> = {
   "loan-settlement-vs-loan-closure-what-is-the-difference": "Loan Settlement vs Loan Closure: What Is the Difference",
   "latest-developments-in-debt-settlement-regulations-in-india": "Latest Developments in Debt Settlement Regulations in India",
   "key-legal-strategies-for-loan-settlement-in-india": "Key Legal Strategies for Loan Settlement in India",
+  "how-to-negotiate-a-better-waiver-for-loan-settlement-in-india": "How to Negotiate Better Loan Settlement Waivers",
   "how-to-legally-settle-your-loan-in-india-without-harassment": "How to Legally Settle Your Loan in India Without Harassment",
   "cibil-score-after-loan-settlement-how-to-improve-it": "CIBIL Score After Loan Settlement: How to Improve It",
   // Fix: H1 over 70 characters URLs (H1s strictly 30-65 chars)
@@ -230,6 +232,8 @@ const OPTIMIZED_DESCRIPTIONS: Record<string, string> = {
   "why-hiring-a-loan-settlement-lawyer-can-save-you-time-and-money": "Hire a loan settlement lawyer to save time, reduce bank debt, and stop harassment. Explore legal debt resolution and relief with CredSettle.",
   "clear-loans-solutions-expert-settlement-advice-from-a-trusted-loan-repayment-company": "Explore clear loan settlement solutions with CredSettle. Settle debt legally, reduce burden, stop recovery calls, and book a free advisor call today.",
   "a-complete-guide-to-loan-settlement-in-india-how-to-become-debt-free": "Facing financial hardship? Learn how the legal loan settlement process in India helps reduce debt, stop bank harassment, and become debt-free easily.",
+  "key-legal-strategies-for-loan-settlement-in-india": "Master key legal loan settlement strategies in India. Protect your rights, stop recovery agent harassment, and settle bank debt with CredSettle.",
+  "how-to-negotiate-a-better-waiver-for-loan-settlement-in-india": "Learn how to negotiate higher loan settlement waivers in India. Settle bank debts legally, reduce dues, and stop harassment with CredSettle today.",
   // Old long slugs (>115 chars) — kept for safety during redirect transition
   "the-ultimate-guide-to-loan-settlement-how-to-settle-credit-card-and-personal-loan-debt": "Settle credit card and personal loan debt legally in India. Learn the loan settlement process, RBI rights, and relief options with CredSettle.",
   "recovery-agents-gone-rogue-unveiling-the-limits-they-break-and-your-rbi-backed-defences": "Know your RBI-backed rights when recovery agents cross the line. Learn legal limits, complaint steps, and harassment defences with CredSettle.",
