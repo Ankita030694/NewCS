@@ -14,9 +14,7 @@ export default function ClientPage() {
           <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
             How to Negotiate a Personal Loan Settlement with Banks
           </h1>
-          <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
-            Learn the exact negotiation tactics, paperwork rules. Psychological levers required to secure up to a 60% waiver on unsecured personal loans.
-          </p>
+          <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto"> Learn the exact talks tactics. Papers rules. mental levers required to secure up to a 60% waiver on clean own loans. </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="bg-[#007AFF] hover:bg-blue-600 text-white font-bold py-4 px-8 rounded-full transition-all shadow-lg text-lg">
               Get Professional Negotiation Help
@@ -35,42 +33,26 @@ export default function ClientPage() {
               Core Principles of Personal Loan Settlement Negotiation
             </h2>
             <div className="prose max-w-none text-gray-700 space-y-4 leading-relaxed">
-              <p>
-                Negotiating an unsecured personal loan settlement in India is a formal financial and legal procedure, not an emotional dispute. Commercial banks write off billions in Non-Performing Assets (NPAs) annually. Obtaining an optimal waiver requires navigating internal bank hierarchy and credit risk provisioning cycles.
-              </p>
+              <p> settle an clean own loan closure in India is a formal money and legal procedure. Not an emotional dispute. trade banks write off billions in Non-Performing Assets (NPAs) annually. Obtaining an optimal waiver requires navigating internal bank hierarchy and credit risk provisioning cycles. </p>
 
-              <h3 className="text-xl font-bold text-[#0C2756] mt-8 mb-4">
-                1. Timing Your Negotiation Window
-              </h3>
-              <p>
-                Banks will not entertain settlement during early default (1 to 60 days). The ideal window begins once the account has crossed 90 days past due (NPA classification) and approaches 150–180 days. Around financial quarter-ends (especially March and September), branch managers and circle debt heads have urgent NPA reduction targets and higher discretionary waiver limits.
-              </p>
+              <h3 className="text-xl font-bold text-[#0C2756] mt-8 mb-4"> 1. Timing Your talks Window </h3>
+              <p> Banks will not entertain closure during early default (1 to 60 days). The ideal window begins once the account has crossed 90 days past due (NPA classification) and approaches 150. 180 days. Around money quarter-ends (especially March and September). Branch managers and circle debt heads have urgent NPA reduction targets and higher discretionary waiver limits. </p>
 
-              <h3 className="text-xl font-bold text-[#0C2756] mt-8 mb-4">
-                2. Bypassing Third-Party Recovery Agencies
-              </h3>
-              <p>
-                Third-party collection agents operate on commissions and will use aggressive pressure tactics to collect partial payments. Never negotiate final settlement figures with external collection tele-callers. Always insist on dealing with the bank&apos;s internal overdue Asset Division (DAD) or circle credit manager.
-              </p>
+              <h3 className="text-xl font-bold text-[#0C2756] mt-8 mb-4"> 2. Bypassing Third-Party claims firms </h3>
+              <p> Third-party calls agents operate on commissions and will use harsh pressure tactics to collect partial payments. Never settle final closure figures with external calls tele-callers. Always insist on dealing with the bank&apos. s internal overdue Asset Division (DAD) or circle credit manager. </p>
 
-              <h3 className="text-xl font-bold text-[#0C2756] mt-8 mb-4">
-                3. Establishing Genuine Insolvency
-              </h3>
-              <p>
-                Under Reserve Bank of India (RBI) prudential guidelines, banks can only approve compromise settlements if the borrower shows verifiable inability to pay. Provide concrete evidence:
-              </p>
+              <h3 className="text-xl font-bold text-[#0C2756] mt-8 mb-4"> 3. Establishing Genuine Insolvency </h3>
+              <p> Under Reserve Bank of India (RBI) prudential guidelines. Banks can only approve deal closures if the clients shows verifiable inability to pay. Provide concrete evidence: </p>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Salary reduction slips or termination letters from your employer.</li>
-                <li>Hospitalization records, medical invoices, or chronic illness proofs.</li>
-                <li>GST cancellation or audited balance sheets showing business winding up.</li>
+                <li>Salary reduction slips or end letters from your employer.</li>
+                <li>Hospitalization records. Medical invoices. chronic illness proofs.</li>
+                <li>GST cancellation or audited balance sheets showing firm winding up.</li>
               </ul>
             </div>
 
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-xl mt-8">
               <h3 className="font-bold text-blue-950 mb-2">The Golden Rule: Written Approval First</h3>
-              <p className="text-sm text-gray-700 leading-relaxed">
-                Never transfer money based on verbal promises or WhatsApp messages. Ensure you hold a physical or cryptographically signed One-Time Settlement (OTS) sanction letter on the bank&apos;s official letterhead with the authorized signatory&apos;s employee code.
-              </p>
+              <p className="text-sm text-gray-700 leading-relaxed"> Never transfer money based on verbal promises or WhatsApp messages. Ensure you hold a real or cryptographically signed One-Time closure (OTS) sanction letter on the bank&apos. s valid letterhead with the authorized signatory&apos. s employee code. </p>
             </div>
           </div>
 
@@ -80,26 +62,18 @@ export default function ClientPage() {
             </h2>
             <div className="space-y-6">
               <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                  What is a realistic waiver percentage on personal loans?
-                </h3>
-                <p className="text-gray-600 leading-relaxed text-sm">
-                  On unsecured personal loans with deep default (over 180 days), realistic settlements typically conclude between 40% and 55% of the total outstanding amount, effectively waiving 100% of accumulated penal interest and a notable portion of principal.
-                </p>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2"> What is a realistic waiver rate on own loans? </h3>
+                <p className="text-gray-600 leading-relaxed text-sm"> On clean own loans with deep default (over 180 days). Realistic closures typically conclude between 40% and 55% of the total unpaid amount. Effectively waiving 100% of accumulated penal rates and a notable portion of main sum. </p>
               </div>
               <div className="border-t pt-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                  Can an advocate negotiate on my behalf?
-                </h3>
-                <p className="text-gray-600 leading-relaxed text-sm">
-                  Yes. Appointing a legal agent stops abusive collection agent calls under RBI guidelines and allows experienced advocates to represent your case before the bank&apos;s compromise committee.
-                </p>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2"> Can an counsel settle on my behalf? </h3>
+                <p className="text-gray-600 leading-relaxed text-sm"> Yes. Appointing a legal agent stops abusive calls agent calls under RBI guidelines and allows experienced counsel to represent your case before the bank&apos. s deal board. </p>
               </div>
             </div>
 
             <div className="bg-blue-50 p-6 rounded-xl border border-blue-100 mt-8">
-              <h3 className="font-semibold text-[#0C2756] mb-2">Let Senior Advocates Negotiate Your Debt</h3>
-              <p className="mb-4 text-sm text-gray-600">CredSettle provides institutional legal backing to stop harassment and achieve maximum waivers on your personal loans.</p>
+              <h3 className="font-semibold text-[#0C2756] mb-2">Let Senior counsel settle Your Debt</h3>
+              <p className="mb-4 text-sm text-gray-600">CredSettle provides bank legal backing to stop threats and achieve maximum waivers on your own loans.</p>
               <Link href="/contact" className="inline-block bg-[#0C2756] text-white font-medium py-2.5 px-6 rounded-lg hover:bg-blue-900 transition-colors text-sm">
                 Get a Free Negotiation Evaluation
               </Link>

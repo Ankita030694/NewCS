@@ -14,9 +14,7 @@ export default function ClientPage() {
           <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
             How to Respond to Bank Legal Notices & Stop Harassment
           </h1>
-          <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
-            Received a legal notice for personal loan default or facing harassment from recovery agents? Learn your constitutional rights and legal remedies.
-          </p>
+          <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto"> Received a legal notice for own loan default or facing threats from claims agents? Learn your legal rights and legal remedies. </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="bg-[#007AFF] hover:bg-blue-600 text-white font-bold py-4 px-8 rounded-full transition-all shadow-lg text-lg">
               Get an Advocate to Reply
@@ -35,50 +33,38 @@ export default function ClientPage() {
               Types of Legal Notices Issued by Banks for Loan Default
             </h2>
             <div className="prose max-w-none text-gray-700 space-y-4 leading-relaxed">
-              <p>
-                When you miss three consecutive loan EMIs, your account is classified as a Non-Performing Asset (NPA). Before taking any statutory action, banks typically issue formal legal communications through panel advocates. It is crucial to distinguish between genuine legal processes and intimidation tactics.
-              </p>
+              <p> When you miss three running loan EMIs. Your account is classified as a Non-Performing Asset (NPA). Before taking any legal action. Banks typically issue formal legal contacts through panel counsel. It is crucial to distinguish between genuine legal processes and threaten tactics. </p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-6">
                 <div className="p-5 bg-gray-50 rounded-xl border border-gray-200">
                   <h3 className="text-base font-bold text-[#0C2756] mb-2">Section 138 NI Act</h3>
-                  <p className="text-xs text-gray-600">
-                    Issued when a post-dated cheque (PDC) bounces due to insufficient funds. The notice gives 15 days to pay before a complaint can be filed in the Magistrate court.
-                  </p>
+                  <p className="text-xs text-gray-600"> Issued when a post-dated cheque (PDC) bounces due to insufficient funds. The notice gives 15 days to pay before a complaint can be filed in the Magistrate court. </p>
                 </div>
                 <div className="p-5 bg-gray-50 rounded-xl border border-gray-200">
                   <h3 className="text-base font-bold text-[#0C2756] mb-2">Section 25 PSS Act</h3>
-                  <p className="text-xs text-gray-600">
-                    Pertains to electronic mandate or NACH mandate failure. Lenders use this provision to threaten quasi-criminal complaints if unpaid within the statutory window.
-                  </p>
+                  <p className="text-xs text-gray-600"> Pertains to electronic mandate or NACH mandate failure. Lenders use this rules to threaten quasi-criminal complaints if unpaid within the legal window. </p>
                 </div>
                 <div className="p-5 bg-gray-50 rounded-xl border border-gray-200">
                   <h3 className="text-base font-bold text-[#0C2756] mb-2">Arbitration Notice</h3>
-                  <p className="text-xs text-gray-600">
-                    Invokes the arbitration clause in the loan agreement under Section 21 of the Arbitration & Conciliation Act to obtain a unilateral ex-parte financial award.
-                  </p>
+                  <p className="text-xs text-gray-600"> Invokes the arbitration clause in the loan pacts under Section 21 of the Arbitration & Conciliation Act to obtain a unilateral ex-parte money award. </p>
                 </div>
               </div>
 
               <h3 className="text-xl font-bold text-[#0C2756] mt-8 mb-4">
                 How to Respond to an Advocate Legal Notice
               </h3>
-              <p>
-                <strong>Never ignore a genuine legal notice.</strong> Failing to reply allows the bank&apos;s lawyer to argue that you had no defense against their allegations. An experienced debt resolution advocate will:
-              </p>
+              <p> <strong>Never ignore a genuine legal notice.</strong> Failing to reply allows the bank&apos. s counsel to argue that you had no defense against their allegations. An experienced debt relief counsel will: </p>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Submit a formal, registered legal reply denying false allegations of willful default or fraud.</li>
-                <li>Detail verifiable financial hardships (medical conditions, job loss, insolvency) to show absence of. <em>mens rea</em> (criminal intent).</li>
-                <li>Highlight violations of the RBI Fair Practices Code committed by recovery agents (calling at odd hours, abusive language, contacting friends/family).</li>
-                <li>Propose an amicable One-Time Settlement (OTS) to resolve the matter outside of protracted litigation.</li>
+                <li>Submit a formal. Registered legal reply denying false allegations of willful default or fraud.</li>
+                <li>Detail verifiable money hardships (medical conditions. Job loss. Insolvency) to show absence of. <em>mens rea</em> (criminal intent).</li>
+                <li>Highlight violations of the RBI Fair Practices Code committed by claims agents (calling at odd hours. Abusive language. Contacting friends/family).</li>
+                <li>Propose an amicable One-Time closure (OTS) to resolve the matter outside of protracted litigation.</li>
               </ul>
             </div>
 
             <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-xl mt-8">
               <h3 className="font-bold text-red-900 mb-2">Beware of Fake Recovery Agent Notices</h3>
-              <p className="text-sm text-red-800 leading-relaxed">
-                Collection agencies frequently circulate fraudulent letters titled &apos;Court Warrant&apos;, &apos;Police Arrest Notice&apos;, or &apos;Immediate Seizure Order&apos. Via WhatsApp or unverified email. Police cannot arrest you for personal loan or credit card default without a direct warrant from a competent judicial magistrate.
-              </p>
+              <p className="text-sm text-red-800 leading-relaxed"> calls agencies frequently circulate fraudulent letters titled &apos. Court Warrant&apos. , &apos. Police Arrest Notice&apos. &apos. Immediate Seizure Order&apos. Via WhatsApp or unverified email. Police cannot arrest you for own loan or credit card default without a direct warrant from a competent judicial magistrate. </p>
             </div>
           </div>
 
@@ -92,31 +78,25 @@ export default function ClientPage() {
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">
                   What are the permissible calling hours for recovery agents under RBI rules?
                 </h3>
-                <p className="text-gray-600 leading-relaxed text-sm">
-                  Under the RBI Master Direction on loan recovery, collection agents are strictly prohibited from calling or visiting borrowers before 8:00 AM and after 7:00 PM. Visiting your workplace or contacting your neighbors is illegal.
-                </p>
+                <p className="text-gray-600 leading-relaxed text-sm"> Under the RBI Master Direction on loan claims. Calls agents are strictly prohibited from calling or visiting clients before 8:00 AM and after 7:00 PM. Visiting your workplace or contacting your neighbors is illegal. </p>
               </div>
               <div className="border-t pt-6">
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">
                   Can recovery agents seize household items for unsecured personal loans?
                 </h3>
-                <p className="text-gray-600 leading-relaxed text-sm">
-                  No. Personal loans and credit cards are unsecured debts without any hypothecation or mortgage. Recovery agents have zero authority to enter your residence or seize appliances, vehicles, or personal property.
-                </p>
+                <p className="text-gray-600 leading-relaxed text-sm"> No. own loans and credit cards are unsecured debts without any hypothecation or mortgage. Claims agents have zero authority to enter your residence or seize appliances. Vehicles. own home. </p>
               </div>
               <div className="border-t pt-6">
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">
                   Where can I lodge a complaint against recovery agent harassment?
                 </h3>
-                <p className="text-gray-600 leading-relaxed text-sm">
-                  You can file a formal complaint with the Bank&apos;s Principal Nodal Officer, escalate to the RBI Integrated Ombudsman (cms.rbi.org.in). Lodge an FIR under IPC Section 503/506 for criminal intimidation.
-                </p>
+                <p className="text-gray-600 leading-relaxed text-sm"> You can file a formal complaint with the Bank&apos. S main sum Nodal Officer. Escalate to the RBI Integrated Ombudsman (cms.rbi.org.in). Lodge an FIR under IPC Section 503/506 for criminal threaten. </p>
               </div>
             </div>
 
             <div className="bg-blue-50 p-6 rounded-xl border border-blue-100 mt-8">
               <h3 className="font-semibold text-[#0C2756] mb-2">Stop Harassment and Legal Threats Today</h3>
-              <p className="mb-4 text-sm text-gray-600">Our advocates represent you legally, stop abusive phone calls, and negotiate a clean debt settlement on your behalf.</p>
+              <p className="mb-4 text-sm text-gray-600">Our counsel represent you legally. Stop abusive phone calls. settle a clean debt closure on your behalf.</p>
               <Link href="/contact" className="inline-block bg-[#0C2756] text-white font-medium py-2.5 px-6 rounded-lg hover:bg-blue-900 transition-colors text-sm">
                 Get Immediate Legal Protection
               </Link>

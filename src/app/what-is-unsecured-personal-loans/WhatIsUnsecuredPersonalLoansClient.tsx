@@ -66,31 +66,31 @@ export default function WhatIsUnsecuredPersonalLoansClient() {
   const faqs = [
     {
       question: 'What is an unsecured personal loan?',
-      answer: 'An unsecured personal loan is a form of debt that is not backed by any collateral. In the event of a default, the lender cannot automatically seize your house, car, or other physical assets to recover the outstanding balance.'
+      answer: 'An clean own loan is a form of debt that is not backed by any pledge. In the event of a default. The lender cannot automatically seize your house. Car. other real assets to recover the unpaid balance.'
     },
     {
       question: 'Can I go to jail for defaulting on an unsecured loan in India?',
-      answer: 'No. Defaulting on a personal loan is considered a civil breach of contract, not a criminal offense. You cannot be imprisoned solely for the inability to repay an unsecured debt.'
+      answer: 'No. Defaulting on a own loan is considered a civil breach of contract. Not a crime. You cannot be imprisoned solely for the inability to repay an clean debt.'
     },
     {
       question: 'What happens if I miss my first EMI on a personal loan?',
-      answer: 'Missing a single EMI will trigger late payment fees and automated reminder calls. Your account enters the SMA-0 (Special Mention Account) category, but it is not immediately classified as a Non-Performing Asset (NPA).'
+      answer: 'Missing a single EMI will trigger late payment fees and automated reminder calls. Your account enters the SMA-0 (Special Mention Account) category. it is not fast classified as a Non-Performing Asset (NPA).'
     },
     {
       question: 'When does an unsecured loan become a Non-Performing Asset (NPA)?',
-      answer: 'An account is typically classified as a Non-Performing Asset (NPA) after 90 consecutive days of non-payment. At this stage, the bank accelerates recovery efforts and may consider settlement options.'
+      answer: 'An account is typically classified as a Non-Performing Asset (NPA) after 90 running days of non-payment. At this stage. The bank accelerates claims efforts and may consider closure options.'
     },
     {
       question: 'Can recovery agents visit my office for an unsecured loan default?',
-      answer: 'While recovery agents can visit you, RBI guidelines strictly prohibit them from humiliating you at your workplace or disclosing your debt to your employer. Any such action constitutes harassment and can be legally challenged.'
+      answer: 'While agents can visit you. RBI guidelines strictly prohibit them from humiliating you at your workplace or disclosing your debt to your employer. Any such action constitutes threats and can be by law challenged.'
     },
     {
       question: 'Can a bank freeze my salary account if I default on an unsecured loan?',
-      answer: 'Yes, if your salary account is with the same bank that issued the loan, they can use the Bankers Right of General Lien or Right to Set-Off to deduct outstanding dues from your incoming salary.'
+      answer: 'Yes. If your salary account is with the same bank that issued the loan. They can use the Bankers Right of General Lien or Right to Set-Off to deduct unpaid dues from your incoming salary.'
     },
     {
       question: 'Is loan settlement possible for unsecured personal loans?',
-      answer: 'Yes. Since unsecured loans lack collateral, banks are often willing to negotiate a One-Time Settlement (OTS) when the account is highly delinquent and recovering the full amount seems unlikely.'
+      answer: 'Yes. Since clean loans lack pledge. Banks are often willing to settle a One-Time closure (OTS) when the account is highly delinquent and recovering the full amount seems unlikely.'
     }
   ];
 
@@ -99,14 +99,14 @@ export default function WhatIsUnsecuredPersonalLoansClient() {
       name: "Suresh Pillai",
       location: "Chennai",
       rating: 5,
-      text: "I was drowning in an unsecured personal loan and the collection calls were destroying my mental health. I thought they would take my family home. Understanding the real difference between secured and unsecured debt changed everything. The experts helped me stop the harassment and settle my loan for a fraction of what I owed.",
+      text: "I was drowning in an clean own loan and the calls calls were destroying my mental health. I thought they would take my family home. grasp the real difference between secured and clean debt changed everything. The experts helped me stop the threats and settle my loan for a fraction of what I owed.",
       date: "June 2026"
     },
     {
       name: "Pooja Verma",
       location: "New Delhi",
       rating: 5,
-      text: "When my business failed, my personal loan default seemed like the end of the world. The recovery agents used terrible red flag tactics, threatening a police case. Once I learned about the 90 day NPA timeline and engaged legal professionals, we brought the bank to the negotiating table and secured a proper legal settlement.",
+      text: "When my firm failed. My own loan default seemed like the end of the world. The agents used terrible red flag tactics. Threatening a police case. Once I learned about the 90 day NPA timeline and engaged legal experts. We brought the bank to the settle table and secured a proper legal closure.",
       date: "May 2026"
     }
   ];
@@ -134,21 +134,8 @@ export default function WhatIsUnsecuredPersonalLoansClient() {
         <div className="max-w-7xl mx-auto px-4 py-4">
           <nav className="flex text-sm text-gray-500" aria-label="Breadcrumb">
             <ol className="inline-flex items-center space-x-1 md:space-x-3">
-              <li className="inline-flex items-center">
-                <Link href="/" className="inline-flex items-center hover:text-blue-600">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <div className="flex items-center">
-                  <svg className="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4"/>
-                  </svg>
-                  <span className="ml-1 font-medium text-gray-500 md:ml-2">
-                    What is Unsecured Personal Loans
-                  </span>
-                </div>
-              </li>
+              <li className="inline-flex items-center"> <Link href="/" className="inline-flex items-center hover:text-blue-600"> Home </Link> </li>
+              <li> <div className="flex items-center"> <svg className="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10"> <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4"/> </svg> <span className="ml-1 font-medium text-gray-500 md:ml-2"> What is clean own Loans </span> </div> </li>
             </ol>
           </nav>
         </div>
@@ -204,67 +191,41 @@ export default function WhatIsUnsecuredPersonalLoansClient() {
 
             <section className="mb-10">
               <div className="text-gray-700 leading-relaxed text-base mb-16 space-y-10 opacity-90 border-l-4 border-blue-600 pl-8">
-                <p>
-                  In India, nearly 78% of all personal loans disbursed are entirely unsecured, meaning the lender has zero direct collateral to seize if you default. However, this absence of collateral often triggers extremely aggressive psychological recovery tactics within just 30 days of a missed EMI. When you search for what is unsecured personal loans, you are likely looking for the legal reality of what happens when you cannot pay them back.
-                </p>
-                <p>
-                  Countless borrowers lose sleep, suffer immense stress, and make terrible financial decisions simply because they do not understand the fundamental nature of their debt. An unsecured loan relies entirely on your promise to pay, evaluated at the time of disbursement based on your credit score and salary slips. It does not give the lending institution a direct, immediate legal right to your tangible property.
-                </p>
-                <p>
-                  The confusion between different types of debt allows recovery agencies to operate in a gray area of fear. By deliberately blurring the lines, collection agents convince vulnerable borrowers that their assets are at immediate risk, pushing them to liquidate savings or borrow from predatory sources. The reality is that the legal system in India provides distinct pathways for different types of debt recovery, and understanding these pathways is your first line of defense.
-                </p>
-                <p>
-                  This comprehensive legal breakdown will explain exactly what constitutes an unsecured loan, contrast it with secured debt, detail the specific timeline of a default, expose the red flags of illegal recovery tactics, and provide a roadmap for resolving the debt through strategic negotiation rather than capitulation.
-                </p>
+                <p> In India. Nearly 78% of all own loans disbursed are fully clean. Meaning the lender has zero direct pledge to seize if you default. Yet. This absence of pledge often triggers extremely harsh mental claims tactics within just 30 days of a missed EMI. When you search for what is clean own loans. You are likely looking for the legal reality of what happens when you cannot pay them back. </p>
+                <p> Countless clients lose sleep. Suffer immense stress. make terrible money decisions simply because they do not understand the fundamental nature of their debt. An clean loan relies fully on your promise to pay. Evaluated at the time of disbursement based on your credit score and salary slips. It does not give the lending institution a direct. Fast legal right to your tangible home. </p>
+                <p> The confusion between different types of debt allows claims firms to operate in a gray area of fear. By on purpose blurring the lines. Calls agents convince vulnerable clients that their assets are at fast risk. Pushing them to liquidate savings or borrow from predatory sources. The reality is that the legal system in India provides distinct pathways for different types of debt claims. grasp these pathways is your first line of defense. </p>
+                <p> This thorough legal breakdown will explain exactly what constitutes an clean loan. Contrast it with secured debt. Detail the exact timeline of a default. Expose the red flags of unlawful claims tactics. provide a roadmap for resolving the debt through strategic talks rather than capitulation. </p>
               </div>
             </section>
 
             <section>
               <h2 id="anatomy-unsecured-loan" className="text-base font-bold text-gray-900 mb-6 scroll-mt-28">The Anatomy of an Unsecured Personal Loan in India</h2>
               <div className="text-gray-700 leading-relaxed mb-12 space-y-8 text-base">
-                <p>
-                  At its core, an unsecured personal loan is a financial product extended purely on the basis of your perceived creditworthiness. When a bank or Non Banking Financial Company (NBFC) approves this loan, they are taking a calculated risk. They have analyzed your CIBIL score, your employment history, and your debt to income ratio, determining that you are statistically likely to repay the principal amount along with the designated interest.
-                </p>
-                <p>
-                  The critical defining feature is the total lack of underlying collateral. You have not pledged your apartment, your gold jewelry, or your vehicle as security. Because the risk is entirely borne by the lender, unsecured loans command significantly higher interest rates than secured loans. This high interest rate is essentially the premium the bank charges for operating without a safety net.
-                </p>
-                <p>
-                  When you sign the loan agreement, you are entering into a civil contract. A breach of this contract, which occurs when you fail to make your Equated Monthly Installment (EMI) payments, initiates a civil dispute. The entire framework of recovery must operate within the boundaries of civil law. Borrowers often face severe anxiety regarding the <Link href="/punishment-for-non-payment-of-personal-loan-in-india" className="text-blue-600 font-bold hover:underline">punishment for non payment of personal loan in India</Link>, fearing criminal consequences for a purely civil matter.
-                </p>
+                <p> At its core. An clean own loan is a money product extended purely on the basis of your perceived creditworthiness. When a bank or Non Banking money Company (NBFC) approves this loan. They are taking a calculated risk. They have analyzed your CIBIL score. Your employment history. Your debt to income ratio. Determining that you are statistically likely to repay the main sum amount along with the designated rates. </p>
+                <p> The key defining feature is the total lack of underlying pledge. You have not pledged your apartment. Your gold jewelry. your vehicle as security. Because the risk is fully borne by the lender. Clean loans command significantly higher rates rates than secured loans. This high rates rate is essentially the premium the bank charges for operating without a safety net. </p>
+                <p> When you sign the loan pacts. You are entering into a civil contract. A breach of this contract. Which occurs when you fail to make your Equated Monthly Installment (EMI) payments. Initiates a civil dispute. The entire framework of claims must operate within the boundaries of civil law. clients often face severe anxiety regarding the <Link href="/punishment-for-non-payment-of-personal-loan-in-india" className="text-blue-600 font-bold hover:underline">punishment for non payment of own loan in India</Link>Fearing penal results for a purely civil matter. </p>
               </div>
             </section>
 
             <section>
               <h2 id="secured-vs-unsecured" className="text-base font-bold text-gray-900 mb-6 scroll-mt-28">Secured vs. Unsecured Loans: The Legal Difference</h2>
               <div className="text-gray-700 leading-relaxed mb-12 space-y-8 text-base">
-                <p>
-                  To fully grasp your leverage during a financial crisis, you must differentiate between secured and unsecured debt. The legal mechanisms available to the lender change drastically depending on this classification.
-                </p>
+                <p> To fully grasp your leverage during a money crisis. You must differentiate between secured and clean debt. The legal mechanisms available to the lender change drastically depending on this classification. </p>
 
-                <h3 id="why-no-immediate-confiscation" className="text-base font-bold text-gray-900 mt-10 mb-4 scroll-mt-28">Why Lenders Cannot Confiscate Your Assets Immediately</h3>
-                <p>
-                  In a secured loan scenario, such as a home loan or an auto loan, the asset itself acts as the guarantee. If you default on your car loan, the lender holds a hypothecation over the vehicle. After following due process, they can physically repossess the car, auction it, and recover their dues. Similarly, under the SARFAESI Act, banks can take possession of a mortgaged residential property to recover a home loan default without requiring extensive court intervention.
-                </p>
-                <p>
-                  Unsecured personal loans enjoy no such privilege. Because there is no pledged asset, the SARFAESI Act does not apply. The bank cannot unilaterally decide to attach your property, seize your vehicle, or lock your home. Any recovery agent threatening immediate asset confiscation for an unsecured personal loan is bluffing and employing illegal intimidation tactics.
-                </p>
+                <h3 id="why-no-immediate-confiscation" className="text-base font-bold text-gray-900 mt-10 mb-4 scroll-mt-28">Why Lenders Cannot Confiscate Your Assets fast</h3>
+                <p> In a secured loan scenario. Such as a home loan or an auto loan. The asset itself acts as the guarantee. If you default on your car loan. The lender holds a hypothecation over the vehicle. After following due process. They can physically repossess the car. Auction it. recover their dues. Similarly. Under the SARFAESI Act. Banks can take takeover of a mortgaged home home to recover a home loan default without requiring extensive court action. </p>
+                <p> clean own loans enjoy no such privilege. Because there is no pledged asset. The SARFAESI Act does not apply. The bank cannot unilaterally decide to attach your home. Seize your vehicle. lock your home. Any agents threatening fast asset confiscation for an clean own loan is bluffing and employing unlawful threaten tactics. </p>
 
-                <h3 id="when-debt-becomes-threat" className="text-base font-bold text-gray-900 mt-10 mb-4 scroll-mt-28">When Unsecured Debt Becomes a Legal Threat</h3>
-                <p>
-                  This does not mean you are immune to legal action. While they cannot seize assets directly, lenders have alternative legal avenues. The most common tool utilized is the Negotiable Instruments Act, specifically regarding bounced security cheques or failed Electronic Clearing Service (ECS) mandates. If you provided post dated cheques that bounce due to insufficient funds, the lender can initiate a criminal proceeding under Section 138 of the NI Act.
-                </p>
-                <p>
-                  Additionally, the lender can file a civil recovery suit in a competent court. If they win a decree from the civil court, that court order can eventually be used to attach your assets or freeze your bank accounts. However, this is a protracted, expensive, and time consuming legal process. Lenders vastly prefer negotiated settlements over a multi year civil litigation battle, which forms the basis for effective <Link href="/loan-settlement-for-salaried-people" className="text-blue-600 font-bold hover:underline">loan settlement for salaried people</Link>.
-                </p>
+                <h3 id="when-debt-becomes-threat" className="text-base font-bold text-gray-900 mt-10 mb-4 scroll-mt-28">When clean Debt Becomes a Legal Threat</h3>
+                <p> This does not mean you are immune to legal action. While they cannot seize assets straight. Lenders have alternative legal avenues. The most common tool utilized is the Negotiable Instruments Act. Specifically regarding bounced security cheques or failed online Clearing Service (ECS) mandates. If you provided post dated cheques that bounce due to insufficient funds. The lender can initiate a penal steps under Section 138 of the NI Act. </p>
+                <p> Additionally. The lender can file a civil claims suit in a competent court. If they win a decree from the civil court. That court order can eventually be used to attach your assets or freeze your bank accounts. Yet. This is a protracted. Expensive. time consuming legal process. Lenders vastly prefer settle closures over a multi year civil litigation battle. which forms the basis for effective <Link href="/loan-settlement-for-salaried-people" className="text-blue-600 font-bold hover:underline">loan closure for salaried people</Link>. </p>
               </div>
             </section>
 
             <section>
               <h2 id="exact-timeline-default" className="text-base font-bold text-gray-900 mb-6 scroll-mt-28">The Exact Timeline of an Unsecured Loan Default</h2>
               <div className="text-gray-700 leading-relaxed mb-12 space-y-8 text-base">
-                <p>
-                  Knowing the precise timeline of a loan default removes the element of surprise and allows you to plan your defense strategically. Lenders operate on strict internal schedules dictated by Reserve Bank of India (RBI) provisioning norms.
-                </p>
+                <p> Knowing the precise timeline of a loan default removes the element of surprise and allows you to plan your defense strategically. Lenders operate on strict internal schedules dictated by Reserve Bank of India (RBI) provisioning norms. </p>
 
                 <div className="my-12">
                   <h3 className="font-bold text-blue-900 text-base mb-8 border-b-2 border-blue-100 pb-2">The 90 Day Default Trajectory</h3>
@@ -276,7 +237,7 @@ export default function WhatIsUnsecuredPersonalLoansClient() {
                     </div>
                     <div className="pb-8">
                       <h3 className="font-bold text-gray-900 text-base mb-2">Days 1 to 30: The Reminder Phase</h3>
-                      <p className="text-gray-700">The moment your EMI bounces, your account is flagged as Special Mention Account 0 (SMA-0). You will receive automated SMS alerts and emails regarding the missed payment. Late payment penalty fees and bounce charges are added to your outstanding principal. The bank's internal telecalling team will begin making polite but firm reminder calls, urging immediate payment to avoid further penalties.</p>
+                      <p className="text-gray-700">The moment your EMI bounces. Your account is flagged as Special Mention Account 0 (SMA-0). You will receive automated SMS alerts and emails regarding the missed payment. Late payment fine fees and bounce charges are added to your unpaid main sum. The bank's internal telecalling team will begin making polite but firm reminder calls. Urging fast payment to avoid further fines.</p>
                     </div>
                   </div>
 
@@ -287,7 +248,7 @@ export default function WhatIsUnsecuredPersonalLoansClient() {
                     </div>
                     <div className="pb-8">
                       <h3 className="font-bold text-gray-900 text-base mb-2">Days 31 to 60: The Escalation Phase</h3>
-                      <p className="text-gray-700">If the debt remains unpaid, the account moves to SMA-1 status. The frequency and intensity of the calls increase significantly. The bank may outsource the initial calling process to third party collection agencies. You may receive the first formal legal warning letter via email or post. The tone shifts from a reminder to a demand, often highlighting potential damage to your credit score.</p>
+                      <p className="text-gray-700">If the debt remains unpaid. The account moves to SMA-1 status. The frequency and intensity of the calls increase significantly. The bank may outsource the first calling process to third party calls firms. You may receive the first formal legal warning letter via email or post. The tone shifts from a reminder to a demand. Often highlighting potential damage to your credit score.</p>
                     </div>
                   </div>
 
@@ -298,7 +259,7 @@ export default function WhatIsUnsecuredPersonalLoansClient() {
                     </div>
                     <div className="pb-8">
                       <h3 className="font-bold text-gray-900 text-base mb-2">Days 61 to 90: The Pre NPA Phase</h3>
-                      <p className="text-gray-700">At SMA-2, the situation becomes critical. Field recovery agents may be dispatched to your registered residential or official address. The psychological pressure reaches its peak. The bank will issue a formal loan recall notice, demanding the entire outstanding loan amount rather than just the missed EMIs. The threat of legal action becomes imminent.</p>
+                      <p className="text-gray-700">At SMA-2. The case becomes key. Field agents may be dispatched to your registered home or valid address. The mental pressure reaches its peak. The bank will issue a formal loan recall notice. Demanding the entire unpaid loan amount rather than just the missed EMIs. The threat of legal action becomes imminent.</p>
                     </div>
                   </div>
 
@@ -308,7 +269,7 @@ export default function WhatIsUnsecuredPersonalLoansClient() {
                     </div>
                     <div>
                       <h3 className="font-bold text-gray-900 text-base mb-2">Day 90 and Beyond: Non Performing Asset (NPA)</h3>
-                      <p className="text-gray-700">Once 90 days have elapsed without a payment covering the overdue amount, the account is officially classified as a Non Performing Asset. For a detailed breakdown of this critical phase, it is vital to read about <Link href="/understanding-90-day-loan-default-india" className="text-blue-600 font-bold hover:underline">understanding 90 day loan default India</Link>. The bank must now provision for this bad debt on their balance sheet. It is at this stage that the bank becomes genuinely open to discussing a One Time Settlement (OTS) to recover whatever fraction of the debt they can salvage.</p>
+                      <p className="text-gray-700">Once 90 days have elapsed without a payment covering the overdue amount. The account is officially classified as a Non Performing Asset. For a detailed breakdown of this key phase. It is vital to read about <Link href="/understanding-90-day-loan-default-india" className="text-blue-600 font-bold hover:underline">grasp 90 day loan default India</Link>. The bank must now rules for this bad debt on their balance sheet. It is at this stage that the bank becomes genuinely open to discussing a One Time closure (OTS) to recover whatever fraction of the debt they can salvage.</p>
                     </div>
                   </div>
                 </div>
@@ -318,33 +279,23 @@ export default function WhatIsUnsecuredPersonalLoansClient() {
             <section>
               <h2 id="major-red-flags" className="text-base font-bold text-gray-900 mb-6 scroll-mt-28">Major Red Flags During the Recovery Process</h2>
               <div className="text-gray-700 leading-relaxed mb-12 space-y-8 text-base">
-                <p>
-                  Because they lack physical collateral, recovery agencies often rely on fear and intimidation to force payments. It is crucial to identify when collection efforts cross the boundary from legal demands into illegal harassment.
-                </p>
+                <p> Because they lack real pledge. Claims firms often rely on fear and threaten to force payments. It is crucial to identify when calls efforts cross the boundary from legal demands into unlawful threats. </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
                   <div className="bg-red-50 p-8 rounded-2xl border border-red-200">
                     <h3 className="font-bold text-red-900 text-base mb-4">Fake Police Threats</h3>
-                    <p className="text-gray-800 text-base">
-                      A common red flag is receiving calls from individuals claiming to be police officers or court officials, stating that an arrest warrant has been issued against you for failing to pay the personal loan. The police do not call to mediate civil loan disputes or warn you of impending arrests over the phone.
-                    </p>
+                    <p className="text-gray-800 text-base"> A common red flag is receiving calls from individuals claiming to be police heads or court officials. Stating that an arrest warrant has been issued against you for failing to pay the own loan. The police do not call to mediate civil loan disputes or warn you of impending arrests over the phone. </p>
                   </div>
                   <div className="bg-red-50 p-8 rounded-2xl border border-red-200">
-                    <h3 className="font-bold text-red-900 text-base mb-4">Workplace Defamation</h3>
-                    <p className="text-gray-800 text-base">
-                      Recovery agents may threaten to visit your office to publicly shame you in front of your colleagues and superiors, or they may send emails to your HR department detailing your debt. This is a severe violation of privacy laws and RBI guidelines regarding third party disclosure.
-                    </p>
+                    <h3 className="font-bold text-red-900 text-base mb-4">Workplace slander</h3>
+                    <p className="text-gray-800 text-base"> agents may threaten to visit your office to publicly shame you in front of your colleagues and superiors. they may send emails to your HR department detailing your debt. This is a severe violation of privacy laws and RBI guidelines regarding third party disclosure. </p>
                   </div>
                   <div className="bg-red-50 p-8 rounded-2xl border border-red-200">
                     <h3 className="font-bold text-red-900 text-base mb-4">Abusive Language and Timings</h3>
-                    <p className="text-gray-800 text-base">
-                      Receiving calls before 8:00 AM or after 7:00 PM is strictly prohibited. Furthermore, the use of foul language, insults, or physical threats by any agent is a criminal offense. You have the absolute right to record these interactions and file a police complaint for criminal intimidation.
-                    </p>
+                    <p className="text-gray-800 text-base"> Receiving calls before 8:00 AM or after 7:00 PM is strictly prohibited. Furthermore. The use of foul language. Insults. real threats by any agent is a crime. You have the absolute right to record these interactions and file a police complaint for penal threaten. </p>
                   </div>
                   <div className="bg-red-50 p-8 rounded-2xl border border-red-200">
                     <h3 className="font-bold text-red-900 text-base mb-4">Fabricated Legal Notices</h3>
-                    <p className="text-gray-800 text-base">
-                      Agencies often send documents formatted to look like official court summons, complete with fake stamps and seals. A genuine court summons will have a valid case number, the signature of a judge or court registrar, and proper jurisdictional details. Always verify legal documents with a qualified advocate.
-                    </p>
+                    <p className="text-gray-800 text-base"> firms often send papers formatted to look like valid court summons. Complete with fake stamps and seals. A genuine court summons will have a valid case number. The signature of a judge or court registrar. proper jurisdictional details. Always check legal papers with a qualified counsel. </p>
                   </div>
                 </div>
               </div>
@@ -353,33 +304,25 @@ export default function WhatIsUnsecuredPersonalLoansClient() {
             <section>
               <h2 id="case-study-survival" className="text-base font-bold text-gray-900 mb-6 scroll-mt-28">Case Study: Surviving an Unsecured Loan Default Without Asset Loss</h2>
               <div className="text-gray-700 leading-relaxed mb-12 space-y-8 text-base">
-                <p>
-                  Consider the case of Mr. Sharma, a marketing executive who secured a personal loan of eight lakh rupees to fund a family wedding. Six months later, a sudden company restructuring led to his termination. Without a steady income, he quickly defaulted on his monthly EMIs.
-                </p>
+                <p> Consider the case of Mr. Sharma. A marketing executive who secured a own loan of eight lakh rupees to fund a family wedding. Six months later. A sudden company restructuring led to his end. Without a steady income. He quickly defaulted on his monthly EMIs. </p>
                 
                 <div className="bg-gray-900 p-10 md:p-14 rounded-3xl text-white shadow-2xl relative overflow-hidden my-12">
                   <div className="relative z-10">
-                    <h3 className="text-base font-bold mb-8 text-yellow-400">The Anatomy of Strategic Resolution</h3>
+                    <h3 className="text-base font-bold mb-8 text-yellow-400">The Anatomy of Strategic relief</h3>
                     
                     <div className="space-y-6 text-base">
-                      <p><strong className="text-yellow-400">The Onset of Harassment:</strong> By the second month of default, Mr. Sharma was receiving over forty calls a day. A recovery agent visited his apartment complex and loudly informed the security guard that Mr. Sharma was a fraudster attempting to abscond.</p>
+                      <p><strong className="text-yellow-400">The Onset of threats:</strong> By the second month of default. Mr. Sharma was receiving over forty calls a day. A agents visited his apartment complex and loudly informed the security guard that Mr. Sharma was a fraudster attempting to abscond.</p>
                       
-                      <p><strong className="text-yellow-400">The Escalation:</strong> The agency sent a fabricated legal notice via WhatsApp, threatening to bring a police team to seize his household appliances and his wifes jewelry to auction them off. Terrified of the social stigma and asset loss, Mr. Sharma considered borrowing from an illegal loan app at extortionate interest rates.</p>
+                      <p><strong className="text-yellow-400">The Escalation:</strong> The firm sent a fabricated legal notice via WhatsApp. Threatening to bring a police team to seize his household appliances and his wifes jewelry to auction them off. Terrified of the social stigma and asset loss. Mr. Sharma considered borrowing from an unlawful loan app at extortionate rates rates.</p>
                     </div>
                   </div>
                   <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-yellow-600 rounded-full -mr-40 -mt-40 opacity-10 blur-[100px]"></div>
                 </div>
 
-                <h3 id="borrowers-misstep" className="text-base font-bold text-gray-900 mt-10 mb-4 scroll-mt-28">The Borrowers Misstep and Correction</h3>
-                <p>
-                  Mr. Sharmas initial instinct to capitulate to fear was his biggest misstep. Fortunately, before taking another predatory loan, he consulted with legal professionals specializing in debt resolution. The legal team immediately recognized the red flags. They drafted a strong cease and desist notice citing RBI circulars on harassment and dispatched it to the banks nodal officer and the collection agency.
-                </p>
-                <p>
-                  The legal experts educated Mr. Sharma that his unsecured loan gave the bank zero authority to touch his household goods or his wifes assets. Once the fear of illegal confiscation was removed, Mr. Sharma regained his composure. He waited until the account was officially declared an NPA at the 90 day mark.
-                </p>
-                <p>
-                  Armed with proof of his termination and prolonged unemployment, the legal team initiated formal negotiations for a One Time Settlement. Because the bank realized they had exhausted their legal leverage against an unemployed individual with no attachable assets, they agreed to settle the eight lakh rupee debt for a single payment of three lakh rupees. Mr. Sharma arranged the funds through family support, received a formal NOC, and permanently closed the chapter without losing his dignity or his assets.
-                </p>
+                <h3 id="borrowers-misstep" className="text-base font-bold text-gray-900 mt-10 mb-4 scroll-mt-28">The clients Misstep and Correction</h3>
+                <p> Mr. Sharmas first instinct to capitulate to fear was his biggest misstep. Fortunately. Before taking another predatory loan. He consulted with legal experts specializing in debt relief. The legal team fast recognized the red flags. They drafted a strong cease and desist notice citing RBI circulars on threats and dispatched it to the banks nodal head and the calls firm. </p>
+                <p> The legal experts educated Mr. Sharma that his clean loan gave the bank zero authority to touch his household goods or his wifes assets. Once the fear of unlawful confiscation was removed. Mr. Sharma regained his composure. He waited until the account was officially declared an NPA at the 90 day mark. </p>
+                <p> Armed with proof of his end and prolonged job loss. The legal team initiated formal talks for a One Time closure. Because the bank realized they had exhausted their legal leverage against an unemployed individual with no attachable assets. They agreed to settle the eight lakh rupee debt for a single payment of three lakh rupees. Mr. Sharma arranged the funds through family support. Received a formal NOC. permanently closed the chapter without losing his dignity or his assets. </p>
               </div>
             </section>
 
@@ -428,7 +371,7 @@ export default function WhatIsUnsecuredPersonalLoansClient() {
                 <img src="/default-user.svg" alt="Rajesh Kumar" className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-50 object-cover"  width={96} height={96} />
                 <p className="font-bold text-gray-900">Rajesh Kumar</p>
                 <p className="text-sm text-gray-500 mb-4">Senior Legal Consultant</p>
-                <p className="text-xs text-gray-400">Expert in debt management and providing strategic legal resolution for retail borrowers in India.</p>
+                <p className="text-xs text-gray-400">Expert in debt handling and providing strategic legal relief for retail clients in India.</p>
               </div>
             </div>
           </aside>

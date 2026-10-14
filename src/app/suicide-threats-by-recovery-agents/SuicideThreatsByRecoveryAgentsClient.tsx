@@ -47,43 +47,43 @@ export default function SuicideThreatsByRecoveryAgentsClient() {
     const faqs = [
         {
             q: 'What should I do immediately if recovery agent harassment is pushing me to severe mental distress or suicide?',
-            a: "Immediately prioritize your safety and call emergency police helpline 112 or national emergency lines. Understand that loan default is purely a civil dispute in India and never a crime. Do not take any drastic steps. File an immediate complaint at your local police station under Section 351 (Criminal Intimidation) and Section 308 (Extortion) of the Bharatiya Nyaya Sanhita (BNS). Contact CredSettle to place an immediate legal buffer between you and the lenders."
+            a: "fast prioritize your safety and call emergency police helpline 112 or national emergency lines. Understand that loan default is purely a civil dispute in India and never a crime. Do not take any drastic steps. File an fast complaint at your local police station under Section 351 (penal threaten) and Section 308 (Extortion) of the Bharatiya Nyaya Sanhita (BNS). Contact CredSettle to place an fast legal buffer between you and the lenders."
         },
         {
             q: 'Can recovery agents or bank managers be arrested if their harassment drives someone to suicide?',
-            a: "Yes. Under Section 108 of the Bharatiya Nyaya Sanhita, 2023 (formerly Section 306 of the Indian Penal Code), abetment of suicide is a non-bailable, cognizable criminal offense punishable by up to 10 years of rigorous imprisonment. If recovery agents, agency directors. Bank recovery managers engage in persistent intimidation, humiliation. Threats that drive a borrower to suicide, police can arrest and prosecute all individuals in the recovery chain."
+            a: "Yes. Under Section 108 of the Bharatiya Nyaya Sanhita. 2023 (formerly Section 306 of the Indian Penal Code). Abetment of suicide is a non-bailable. Cognizable crime punishable by up to 10 years of rigorous imprisonment. If claims agents. firm directors. Bank claims managers engage in persistent threaten. Humiliation. Threats that drive a clients to suicide. Police can arrest and prosecute all individuals in the claims chain."
         },
         {
             q: 'How do I file an FIR against recovery agents for extreme mental harassment?',
-            a: "Visit your nearest police station and submit a written complaint detailing the harassment, attaching call recordings, WhatsApp messages, abusive audio. Agent phone numbers. Request the Station House Officer (SHO) to register an FIR under Section 351 BNS (Criminal Intimidation), Section 308 BNS (Extortion). Section 352 BNS (Intentional Insult). If the local police hesitate, submit the complaint to the District Superintendent of Police (SP) or file a Section 175(3) BNSS petition before the Magistrate."
+            a: "Visit your nearest police station and submit a written complaint detailing the threats. Attaching call recordings. WhatsApp messages. Abusive audio. Agent phone numbers. Request the Station House head (SHO) to register an FIR under Section 351 BNS (penal threaten). Section 308 BNS (Extortion). Section 352 BNS (Intentional Insult). If the local police hesitate. Submit the complaint to the District Superintendent of Police (SP) or file a Section 175(3) BNSS petition before the Magistrate."
         },
         {
             q: 'What legal actions can be taken against 7-day illegal loan apps blackmailing with morphed photos?',
-            a: "Immediately file a cybercrime complaint on the National Cyber Crime Reporting Portal (cybercrime.gov.in) or call helpline 1930. These predatory apps operate illegally without RBI licenses. Circulating morphed or private photos constitutes severe criminal offenses under Sections 67 and 67A of the Information Technology Act, 2000. Section 354C IPC / Section 77 BNS (Voyeurism & Extortion). Never pay extortion demands, warn your contacts, and report the app to Google Play Store."
+            a: "fast file a cybercrime complaint on the National Cyber Crime Reporting Portal (cybercrime.gov.in) or call helpline 1930. These predatory apps operate illegally without RBI licenses. Circulating morphed or private photos constitutes severe penal offenses under Sections 67 and 67A of the Information Technology Act. 2000. Section 354C IPC / Section 77 BNS (Voyeurism & Extortion). Never pay extortion demands. Warn your contacts. report the app to Google Play Store."
         },
         {
             q: 'Are bank recovery agents legally allowed to visit my home or workplace and shout?',
-            a: "No. The Reserve Bank of India (RBI) Fair Practices Code strictly prohibits recovery agents from visiting before 8:00 AM or after 7:00 PM, using abusive language, humiliating borrowers publicly. Disclosing debt details to family, neighbors, or employers. Unannounced aggressive visits or workplace disturbances violate your fundamental Right to Privacy under Article 21 of the Constitution and constitute criminal trespass."
+            a: "No. The Reserve Bank of India (RBI) Fair Practices Code strictly prohibits claims agents from visiting before 8:00 AM or after 7:00 PM. Using abusive language. Humiliating clients publicly. Disclosing debt details to family. Neighbors. employers. Unannounced harsh visits or workplace disturbances violate your fundamental Right to Privacy under Article 21 of the Constitution and constitute penal trespass."
         },
         {
             q: 'Can a bank or recovery agent send me to jail for defaulting on an unsecured loan?',
-            a: "No. In India, inability to repay an unsecured personal loan, credit card balance. Business loan is strictly a civil dispute governed by the Indian Contract Act, 1872. The Supreme Court has repeatedly held that financial default is not a criminal offense and cannot result in jail time. Even in cases involving cheque bounce (Section 138 NI Act) or NACH dishonor (Section 25 PSSA), these are bailable quasi-criminal proceedings where jail is not automatic."
+            a: "No. In India. Inability to repay an clean own loan. Credit card balance. Firm loan is strictly a civil dispute governed by the Indian Contract Act. 1872. The Supreme Court has repeatedly held that money default is not a crime and cannot result in jail time. Even in cases involving cheque bounce (Section 138 NI Act) or NACH dishonor (Section 25 PSSA). These are bailable quasi-penal steps where jail is not automatic."
         },
         {
             q: 'Can recovery agents call my relatives, parents, or friends regarding my debt?',
-            a: "No. RBI Master Directives strictly bar lenders and their outsourced agencies from contacting references, parents, spouses. Acquaintances for debt collection. Any unauthorized contact or harassment of third parties violates RBI guidelines and personal data protection norms, providing solid legal grounds for filing an immediate complaint with the Banking Ombudsman and the Cyber Crime Cell."
+            a: "No. RBI Master Directives strictly bar lenders and their outsourced firms from contacting references. Parents. Spouses. Acquaintances for debt calls. Any unlawful contact or threats of third parties violates RBI guidelines and own data safety norms. Providing solid legal grounds for filing an fast complaint with the Banking RBI officer and the Cyber Crime Cell."
         },
         {
             q: 'How does CredSettle protect borrowers from ongoing recovery agent harassment?',
-            a: "CredSettle issues formal legal representation notices to all your lenders, demanding an immediate cessation of all direct agent calls, home visits. Third-party communications. By stepping in as your legal dispute resolution partner, we redirect all creditor communications to our team, file institutional complaints against non-compliant agents. Negotiate a structured, affordable One-Time Settlement (OTS) with full debt closure."
+            a: "CredSettle issues formal legal representation notices to all your lenders. Demanding an fast cessation of all direct agent calls. Home visits. Third-party contacts. By stepping in as your legal dispute relief partner. We redirect all creditor contacts to our team. File bank complaints against non-compliant agents. Settle a structured. Affordable One-Time closure (OTS) with full debt closure."
         },
         {
             q: 'How do I escalate recovery agent harassment to the Reserve Bank of India (RBI)?',
-            a: "First, lodge a formal written complaint with the bank's Principal Nodal Officer (PNO). If the bank fails to resolve the harassment within 30 days or provides an unsatisfactory reply, escalate the matter to the RBI Integrated Ombudsman via the online portal (cms.rbi.org.in). The Ombudsman possesses statutory powers to penalize banks, award compensation for mental agony. Order disciplinary action against errant recovery agencies."
+            a: "First. Lodge a formal written complaint with the bank's main sum Nodal head (PNO). If the bank fails to resolve the threats within 30 days or provides an unsatisfactory reply. Escalate the matter to the RBI Integrated RBI officer via the online portal (cms.rbi.org.in). The RBI officer possesses legal powers to penalize banks. Award compensation for mental agony. Order disciplinary action against errant claims firms."
         },
         {
             q: 'Can I settle my defaulted loans and get a No Dues Certificate after severe harassment?',
-            a: "Yes. Once harassment is halted through legal intervention, you can negotiate a One-Time Settlement (OTS) directly with the bank's Credit Committee or during National Lok Adalat proceedings. Lenders routinely waive 40% to 65% of the total outstanding dues. This includes penal interest and accumulated charges. Upon payment of the settled amount, the bank issues a legally binding No Dues Certificate (NDC) to close the loan account permanently."
+            a: "Yes. Once threats is halted through legal action. You can settle a One-Time closure (OTS) straight with the bank's Credit board or during National Lok Adalat steps. Lenders routinely waive 40% to 65% of the total unpaid dues. This includes penal rates and accumulated charges. Upon payment of the settled amount. The bank issues a by law binding No Dues letter (NDC) to close the loan account permanently."
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -100,9 +100,7 @@ export default function SuicideThreatsByRecoveryAgentsClient() {
             Stop Extreme Recovery Agent Harassment &amp; Intimidation
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed">
-            If severe recovery harassment has pushed you to acute distress, remember that loan default is purely a civil dispute. Driving a borrower to suicide is a serious criminal offense. Secure immediate police protection, halt agent abuse, and enforce your rights.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> If severe claims threats has pushed you to acute distress. Remember that loan default is purely a civil dispute. Driving a clients to suicide is a serious crime. Secure fast police safety. Halt agent abuse. enforce your rights. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -150,9 +148,7 @@ export default function SuicideThreatsByRecoveryAgentsClient() {
             <div id="quick-crux" className="scroll-target rounded-2xl p-5 md:p-6 bg-[#F4F8FE] border-l-[5px] border-l-[#1886ff] border border-blue-100/80 shadow-xs">
               <div className="flex items-center gap-2 pb-3 mb-3 border-b border-blue-100">
                 <ShieldCheck className="w-5 h-5 text-[#1886ff]"/>
-                <p className="text-base sm:text-lg font-bold text-slate-900">
-                  Executive Brief: Emergency Defense Against Extreme Harassment.
-                </p>
+                <p className="text-base sm:text-lg font-bold text-slate-900"> Executive Brief: Emergency Defense Against Extreme threats. </p>
               </div>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-xs sm:text-sm text-slate-700">
@@ -200,13 +196,9 @@ export default function SuicideThreatsByRecoveryAgentsClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                When financial hardship interrupts loan repayments, lenders mark accounts as Non-Performing Assets (NPAs) after 90 days of default. To recover capital, banks and NBFCs frequently assign portfolios to third-party collection agencies that operate on aggressive commission models. These agencies often deploy untrained personnel who resort to abusive phone calls, doorstep intimidation, public humiliation. Social threats.
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> When money hardship interrupts loan payments. Lenders mark accounts as Non-Performing Assets (NPAs) after 90 days of default. To recover capital. Banks and NBFCs often assign portfolios to third-party calls firms that operate on harsh commission models. These firms often deploy untrained staff who resort to abusive phone calls. Doorstep threaten. Public humiliation. Social threats. </p>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                Under Indian law, debt default is strictly a civil contract dispute governed by the Indian Contract Act, 1872. It is never a criminal offense, and inability to pay cannot result in arrest. When recovery agents use sustained psychological pressure or threats that drive a borrower to suicidal despair, their conduct enters the domain of criminal law. The Supreme Court has repeatedly affirmed that lenders and their agents hold no immunity for coercive recovery methods that violate human dignity.
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> Under Indian law. Debt default is strictly a civil contract dispute governed by the Indian Contract Act. 1872. It is never a crime. inability to pay cannot result in arrest. When claims agents use sustained mental pressure or threats that drive a clients to suicidal despair. Their conduct enters the domain of penal law. The Supreme Court has repeatedly affirmed that lenders and their agents hold no immunity for coercive claims methods that violate human dignity. </p>
             </section>
 
             {/* SECTION 2: STATUTORY PROVISIONS: CRIMINAL INTIMIDATION & ABETMENT */}
@@ -218,13 +210,9 @@ export default function SuicideThreatsByRecoveryAgentsClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                The Bharatiya Nyaya Sanhita, 2023 (BNS) provides strong criminal remedies against recovery abuse. Threatening physical harm, reputation damage. Property seizure constitutes Criminal Intimidation under Section 351 BNS (formerly Sections 503/506 IPC). Demanding immediate funds under duress constitutes Extortion under Section 308 BNS (formerly Sections 383/384 IPC).
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> The Bharatiya Nyaya Sanhita. 2023 (BNS) provides strong penal remedies against claims abuse. Threatening real harm. Reputation damage. home seizure constitutes penal threaten under Section 351 BNS (formerly Sections 503/506 IPC). Demanding fast funds under duress constitutes Extortion under Section 308 BNS (formerly Sections 383/384 IPC). </p>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                Where relentless harassment drives an individual to contemplate ending their life, police can invoke Section 108 BNS (Abetment of Suicide) and Section 61 BNS (Criminal Conspiracy). Under these provisions, field agents, collection agency managers. Supervising bank executives can be named as co-accused in a non-bailable FIR. Additionally, Section 329 BNS penalizes house trespass, and Section 352 BNS punishes intentional insult.
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> Where relentless threats drives an individual to contemplate ending their life. Police can invoke Section 108 BNS (Abetment of Suicide) and Section 61 BNS (penal Conspiracy). Under these rules. Field agents. Calls firm managers. Supervising bank executives can be named as co-accused in a non-bailable FIR. Additionally. Section 329 BNS penalizes house trespass. Section 352 BNS punishes intentional insult. </p>
             </section>
 
             {/* SECTION 3: 4-SIDED BORDERED COMPARISON MATRIX */}
@@ -253,34 +241,34 @@ export default function SuicideThreatsByRecoveryAgentsClient() {
                       <td className="px-3.5 py-2.5">Between 8:00 AM and 7:00 PM only.</td>
                       <td className="px-3.5 py-2.5 text-rose-700 font-semibold">Late-night or repeated early calls.</td>
                       <td className="px-3.5 py-2.5">RBI Fair Practices Code.</td>
-                      <td className="px-3.5 py-2.5">Call logs &amp; PNO complaint.</td>
+                      <td className="px-3.5 py-2.5">Call logs &amp. PNO complaint.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 bg-blue-50/30 hover:bg-blue-50/50">
                       <td className="px-3.5 py-2.5 font-bold text-[#1886ff]">Third-Party Contact.</td>
-                      <td className="px-3.5 py-2.5">Only direct borrower or co-borrower.</td>
-                      <td className="px-3.5 py-2.5 text-rose-700 font-semibold">Calling parents, friends, employers.</td>
-                      <td className="px-3.5 py-2.5">Article 21 &amp; RBI Directives.</td>
+                      <td className="px-3.5 py-2.5">Only direct clients or co-clients.</td>
+                      <td className="px-3.5 py-2.5 text-rose-700 font-semibold">Calling parents. Friends. Employers.</td>
+                      <td className="px-3.5 py-2.5">Article 21 &amp. RBI Directives.</td>
                       <td className="px-3.5 py-2.5">Cease-and-desist notice.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="px-3.5 py-2.5 font-bold text-slate-900">Doorstep Visits</td>
                       <td className="px-3.5 py-2.5">Authorized visits with ID and notice.</td>
-                      <td className="px-3.5 py-2.5 text-rose-700 font-semibold">Forced entry, shouting, mobbing.</td>
+                      <td className="px-3.5 py-2.5 text-rose-700 font-semibold">Forced entry. Shouting. Mobbing.</td>
                       <td className="px-3.5 py-2.5">Sec 329 BNS (Trespass).</td>
-                      <td className="px-3.5 py-2.5">Dial 112 &amp; Police PCR call.</td>
+                      <td className="px-3.5 py-2.5">Dial 112 &amp. Police PCR call.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="px-3.5 py-2.5 font-bold text-slate-900">Verbal Conduct</td>
-                      <td className="px-3.5 py-2.5">Professional, polite language.</td>
-                      <td className="px-3.5 py-2.5 text-rose-700 font-semibold">Abuse, death threats, suicide nudging.</td>
+                      <td className="px-3.5 py-2.5">experts, polite language.</td>
+                      <td className="px-3.5 py-2.5 text-rose-700 font-semibold">Abuse. Death threats. Suicide nudging.</td>
                       <td className="px-3.5 py-2.5">Sec 351 / 108 BNS.</td>
-                      <td className="px-3.5 py-2.5">Police FIR for intimidation.</td>
+                      <td className="px-3.5 py-2.5">Police FIR for threaten.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="px-3.5 py-2.5 font-bold text-slate-900">Digital Media</td>
                       <td className="px-3.5 py-2.5">Standard payment reminder emails.</td>
-                      <td className="px-3.5 py-2.5 text-rose-700 font-semibold">Morphed photos, WhatsApp spam.</td>
-                      <td className="px-3.5 py-2.5">Sec 67/67A IT Act, 2000.</td>
+                      <td className="px-3.5 py-2.5 text-rose-700 font-semibold">Morphed photos. WhatsApp spam.</td>
+                      <td className="px-3.5 py-2.5">Sec 67/67A IT Act. 2000.</td>
                       <td className="px-3.5 py-2.5">National Cyber Portal (1930).</td>
                     </tr>
                   </tbody>
@@ -297,13 +285,9 @@ export default function SuicideThreatsByRecoveryAgentsClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                Unauthorized 7-day mobile lending applications operate outside RBI regulations. Upon installation, they siphon contacts, private gallery images, and location data. Within days of loan disbursal, cyber syndicates initiate extortion by circulating morphed images and defamatory messages to relatives and colleagues.
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> unlawful 7-day mobile lending applications operate outside RBI rules. Upon installation. They siphon contacts. Private gallery images. location data. Within days of loan payout. Cyber syndicates initiate extortion by circulating morphed images and false messages to relatives and colleagues. </p>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                Paying extortion demands never stops the blackmail. Borrowers must immediately file a cybercrime complaint via helpline 1930 or cybercrime.gov.in. Under Sections 67 and 67A of the IT Act, Section 77 BNS (Voyeurism). Section 308 BNS (Extortion), police can freeze mule bank accounts and initiate criminal prosecution against app operators.
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> Paying extortion demands never stops the blackmail. clients must fast file a cybercrime complaint via helpline 1930 or cybercrime.gov.in. Under Sections 67 and 67A of the IT Act. Section 77 BNS (Voyeurism). Section 308 BNS (Extortion). Police can freeze mule bank accounts and initiate penal prosecution against app operators. </p>
             </section>
 
             {/* SECTION 5: INFOGRAPHIC CARD */}
@@ -315,9 +299,7 @@ export default function SuicideThreatsByRecoveryAgentsClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                This visual defense protocol outlines the six key stages from digital evidence collection and police FIR filing to RBI escalation and final OTS loan settlement.
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> This visual defense protocol outlines the six key stages from digital evidence calls and police FIR filing to RBI escalation and final OTS loan closure. </p>
 
               <div className="rounded-2xl border border-slate-200/90 overflow-hidden bg-slate-900 shadow-md">
                 <div className="relative aspect-video w-full bg-slate-950">
@@ -348,19 +330,15 @@ export default function SuicideThreatsByRecoveryAgentsClient() {
                     <span className="w-7 h-7 rounded-lg bg-blue-100 text-[#1886ff] font-extrabold flex items-center justify-center text-xs">01</span>
                     <h3 className="text-base font-bold text-slate-900">Stage 1: Digital Evidence Preservation</h3>
                   </div>
-                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600">
-                    Record all abusive calls, archive WhatsApp chats, screenshot threats. Log agent phone numbers to establish admissible electronic evidence under Section 63 of Bharatiya Sakshya Adhiniyam, 2023.
-                  </p>
+                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600"> Record all abusive calls. Archive WhatsApp chats. Screenshot threats. Log agent phone numbers to establish admissible online evidence under Section 63 of Bharatiya Sakshya Adhiniyam. 2023. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 sm:p-5 shadow-2xs">
                   <div className="flex items-center gap-3 mb-2">
                     <span className="w-7 h-7 rounded-lg bg-blue-100 text-[#1886ff] font-extrabold flex items-center justify-center text-xs">02</span>
-                    <h3 className="text-base font-bold text-slate-900">Stage 2: Emergency Police Complaint &amp; FIR</h3>
+                    <h3 className="text-base font-bold text-slate-900">Stage 2: Emergency Police Complaint &amp. FIR</h3>
                   </div>
-                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600">
-                    Submit a written complaint to the local SHO requesting an FIR under Section 351 BNS (Criminal Intimidation), Section 308 BNS (Extortion). Section 352 BNS for immediate police intervention.
-                  </p>
+                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600"> Submit a written complaint to the local SHO requesting an FIR under Section 351 BNS (penal threaten). Section 308 BNS (Extortion). Section 352 BNS for fast police action. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 sm:p-5 shadow-2xs">
@@ -368,39 +346,31 @@ export default function SuicideThreatsByRecoveryAgentsClient() {
                     <span className="w-7 h-7 rounded-lg bg-blue-100 text-[#1886ff] font-extrabold flex items-center justify-center text-xs">03</span>
                     <h3 className="text-base font-bold text-slate-900">Stage 3: Legal Cease-and-Desist Notice</h3>
                   </div>
-                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600">
-                    CredSettle issues a formal notice to the lender MD and collections head, demanding an immediate stop to unauthorized visits and routing all communications through legal counsel.
-                  </p>
+                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600"> CredSettle issues a formal notice to the lender MD and collections head. Demanding an fast stop to unlawful visits and routing all contacts through legal counsel. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 sm:p-5 shadow-2xs">
                   <div className="flex items-center gap-3 mb-2">
                     <span className="w-7 h-7 rounded-lg bg-blue-100 text-[#1886ff] font-extrabold flex items-center justify-center text-xs">04</span>
-                    <h3 className="text-base font-bold text-slate-900">Stage 4: Bank PNO &amp; RBI Ombudsman Escalation</h3>
+                    <h3 className="text-base font-bold text-slate-900">Stage 4: Bank PNO &amp. RBI RBI officer Escalation</h3>
                   </div>
-                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600">
-                    Lodge statutory grievances with the bank Principal Nodal Officer and escalate to the RBI Integrated Ombudsman (cms.rbi.org.in) citing Fair Practices Code violations for regulatory penalties.
-                  </p>
+                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600"> Lodge legal grievances with the bank main sum Nodal head and escalate to the RBI Integrated RBI officer (cms.rbi.org.in) citing Fair Practices Code violations for RBI fines. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 sm:p-5 shadow-2xs">
                   <div className="flex items-center gap-3 mb-2">
                     <span className="w-7 h-7 rounded-lg bg-blue-100 text-[#1886ff] font-extrabold flex items-center justify-center text-xs">05</span>
-                    <h3 className="text-base font-bold text-slate-900">Stage 5: Court Protection &amp; Magistrate Orders</h3>
+                    <h3 className="text-base font-bold text-slate-900">Stage 5: Court safety &amp. Magistrate Orders</h3>
                   </div>
-                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600">
-                    If police inaction occurs, file a Section 175(3) BNSS application before the Magistrate or seek High Court writ directions under Article 226 for comprehensive police protection.
-                  </p>
+                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600"> If police inaction occurs. File a Section 175(3) BNSS application before the Magistrate or seek High Court writ directions under Article 226 for thorough police safety. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 sm:p-5 shadow-2xs">
                   <div className="flex items-center gap-3 mb-2">
                     <span className="w-7 h-7 rounded-lg bg-blue-100 text-[#1886ff] font-extrabold flex items-center justify-center text-xs">06</span>
-                    <h3 className="text-base font-bold text-slate-900">Stage 6: Compromise OTS &amp; Full Closure</h3>
+                    <h3 className="text-base font-bold text-slate-900">Stage 6: deal OTS &amp. Full Closure</h3>
                   </div>
-                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600">
-                    With harassment halted, CredSettle negotiates a structured One-Time Settlement (OTS), securing a 40% to 65% principal waiver and an unconditional No Dues Certificate.
-                  </p>
+                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600"> With threats halted. CredSettle negotiates a structured One-Time closure (OTS). Securing a 40% to 65% main sum waiver and an unconditional No Dues letter. </p>
                 </div>
               </div>
             </section>
@@ -420,9 +390,7 @@ export default function SuicideThreatsByRecoveryAgentsClient() {
                     <Landmark className="w-4 h-4 text-[#1886ff]"/>
                     <span>1. RBI Master Directions on Recovery.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Strictly forbids calls outside 8:00 AM to 7:00 PM, abusive words, family harassment, or persistent nuisance. Agents must carry valid bank approval and identification cards.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Strictly forbids calls outside 8:00 AM to 7:00 PM. Abusive words. Family threats. persistent nuisance. Agents must carry valid bank approval and identification cards. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-2xs space-y-1.5">
@@ -430,9 +398,7 @@ export default function SuicideThreatsByRecoveryAgentsClient() {
                     <Gavel className="w-4 h-4 text-emerald-600"/>
                     <span>2. Supreme Court in ICICI Bank v. Prakash Kaur.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    The Supreme Court held that banks cannot use musclemen for debt collection and established that lending institutions are vicariously liable for criminal acts of their agents.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> The Supreme Court held that banks cannot use musclemen for debt calls and established that lending institutions are vicariously liable for penal acts of their agents. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-2xs space-y-1.5">
@@ -440,9 +406,7 @@ export default function SuicideThreatsByRecoveryAgentsClient() {
                     <ShieldCheck className="w-4 h-4 text-blue-600"/>
                     <span>3. Abetment Rulings (Section 108 BNS).</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Courts have affirmed that continuous, intolerable harassment driving a borrower to suicide constitutes abetment, making collection agents and managers liable for arrest.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Courts have affirmed that continuous. Intolerable threats driving a clients to suicide constitutes abetment. Making calls agents and managers liable for arrest. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-2xs space-y-1.5">
@@ -450,9 +414,7 @@ export default function SuicideThreatsByRecoveryAgentsClient() {
                     <Scale className="w-4 h-4 text-purple-600"/>
                     <span>4. Article 21: Right to Life &amp; Dignity.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    The Constitution guarantees every citizen the right to live with dignity and privacy. Commercial loan default does not permit psychological intimidation or harassment.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> The Constitution guarantees every citizen the right to live with dignity and privacy. trade loan default does not permit mental threaten or threats. </p>
                 </div>
               </div>
             </section>
@@ -472,9 +434,7 @@ export default function SuicideThreatsByRecoveryAgentsClient() {
                     <span className="font-bold text-slate-900 text-sm">Level 1: Local Police Station FIR &amp; Cyber Cell (1930).</span>
                     <span className="px-2 py-0.5 rounded-md bg-rose-100 text-rose-700 font-bold text-xs">Immediate (24 Hours).</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">
-                    Lodge a written complaint or Zero FIR under Sections 351 and 308 BNS for criminal intimidation and extortion. Concurrently report morphing or digital threats to cybercrime.gov.in.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> Lodge a written complaint or Zero FIR under Sections 351 and 308 BNS for penal threaten and extortion. Concurrently report morphing or digital threats to cybercrime.gov.in. </p>
                 </div>
 
                 <div className="p-4 rounded-2xl bg-white border border-slate-200/80 shadow-2xs space-y-1">
@@ -482,9 +442,7 @@ export default function SuicideThreatsByRecoveryAgentsClient() {
                     <span className="font-bold text-slate-900 text-sm">Level 2: Bank Principal Nodal Officer (PNO) Redressal.</span>
                     <span className="px-2 py-0.5 rounded-md bg-blue-100 text-[#1886ff] font-bold text-xs">Statutory (7 to 14 Days).</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">
-                    Submit a formal legal complaint with call records to the bank PNO, who is required under RBI rules to investigate misconduct and halt errant collection agencies.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> Submit a formal legal complaint with call records to the bank PNO. Who is required under RBI rules to investigate misconduct and halt errant calls firms. </p>
                 </div>
 
                 <div className="p-4 rounded-2xl bg-white border border-slate-200/80 shadow-2xs space-y-1">
@@ -492,9 +450,7 @@ export default function SuicideThreatsByRecoveryAgentsClient() {
                     <span className="font-bold text-slate-900 text-sm">Level 3: RBI Ombudsman &amp; Section 175(3) BNSS Court Petition.</span>
                     <span className="px-2 py-0.5 rounded-md bg-purple-100 text-purple-700 font-bold text-xs">Judicial / Regulatory Stage.</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">
-                    Escalate unresolved matters to the RBI Ombudsman for financial compensation. If police fail to act on your FIR, file a Section 175(3) BNSS petition before the Magistrate.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> Escalate unresolved matters to the RBI RBI officer for money compensation. If police fail to act on your FIR. File a Section 175(3) BNSS petition before the Magistrate. </p>
                 </div>
               </div>
             </section>
@@ -520,34 +476,34 @@ export default function SuicideThreatsByRecoveryAgentsClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-700 font-normal">
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
-                      <td className="px-3.5 py-2.5 font-bold text-slate-900">Day 1 (0–24 Hours).</td>
-                      <td className="px-3.5 py-2.5">Acute Distress &amp; Threats.</td>
-                      <td className="px-3.5 py-2.5 text-rose-700 font-semibold">Abusive calls, doorstep intimidation.</td>
-                      <td className="px-3.5 py-2.5">Evidence audit, Dial 112 / 1930 reporting.</td>
+                      <td className="px-3.5 py-2.5 font-bold text-slate-900">Day 1 (0. 24 Hours).</td>
+                      <td className="px-3.5 py-2.5">Acute Distress &amp. Threats.</td>
+                      <td className="px-3.5 py-2.5 text-rose-700 font-semibold">Abusive calls. Doorstep threaten.</td>
+                      <td className="px-3.5 py-2.5">Evidence audit. Dial 112 / 1930 reporting.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="px-3.5 py-2.5 font-bold text-slate-900">Day 2 to 7</td>
-                      <td className="px-3.5 py-2.5">Legal Notice &amp; Police FIR.</td>
-                      <td className="px-3.5 py-2.5">Bank notified of criminal complaints.</td>
+                      <td className="px-3.5 py-2.5">Legal Notice &amp. Police FIR.</td>
+                      <td className="px-3.5 py-2.5">Bank notified of penal complaints.</td>
                       <td className="px-3.5 py-2.5">Issue formal cease-and-desist notice to lender MD.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="px-3.5 py-2.5 font-bold text-slate-900">Day 8 to 30</td>
-                      <td className="px-3.5 py-2.5">Regulatory Redressal.</td>
-                      <td className="px-3.5 py-2.5">Recovery agency halted.</td>
-                      <td className="px-3.5 py-2.5">Escalate to RBI Ombudsman &amp; Banking Nodal Officer.</td>
+                      <td className="px-3.5 py-2.5">RBI Redressal.</td>
+                      <td className="px-3.5 py-2.5">claims firm halted.</td>
+                      <td className="px-3.5 py-2.5">Escalate to RBI RBI officer &amp. Banking Nodal head.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 bg-blue-50/30 hover:bg-blue-50/50">
                       <td className="px-3.5 py-2.5 font-bold text-[#1886ff]">Month 2 to 3</td>
-                      <td className="px-3.5 py-2.5">Bilateral Settlement Talks.</td>
-                      <td className="px-3.5 py-2.5 text-blue-900 font-semibold">Bank shifts to compromise mode.</td>
-                      <td className="px-3.5 py-2.5">Credit Committee representation for waiver terms.</td>
+                      <td className="px-3.5 py-2.5">Bilateral closure Talks.</td>
+                      <td className="px-3.5 py-2.5 text-blue-900 font-semibold">Bank shifts to deal mode.</td>
+                      <td className="px-3.5 py-2.5">Credit board representation for waiver terms.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="px-3.5 py-2.5 font-bold text-emerald-800">Month 3 to 6</td>
-                      <td className="px-3.5 py-2.5">OTS Execution &amp; Closure.</td>
+                      <td className="px-3.5 py-2.5">OTS Execution &amp. Closure.</td>
                       <td className="px-3.5 py-2.5 text-emerald-700 font-bold">Total debt extinguished.</td>
-                      <td className="px-3.5 py-2.5">Lok Adalat order, No Dues Certificate &amp; CIBIL update.</td>
+                      <td className="px-3.5 py-2.5">Lok Adalat order. No Dues letter &amp. CIBIL update.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -569,9 +525,7 @@ export default function SuicideThreatsByRecoveryAgentsClient() {
                     <Building2 className="w-4 h-4 text-[#1886ff]"/>
                     <span>Multi-Lender Coordinated Pressure.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Borrowers with multiple defaulted cards and loans face calls from dozens of agencies. CredSettle consolidates creditor files and issues blanket legal representation notices to halt multi-lender harassment.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> clients with multiple defaulted cards and loans face calls from dozens of firms. CredSettle consolidates creditor files and issues blanket legal representation notices to halt multi-lender threats. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-2xs space-y-2">
@@ -579,9 +533,7 @@ export default function SuicideThreatsByRecoveryAgentsClient() {
                     <Briefcase className="w-4 h-4 text-emerald-600"/>
                     <span>Workplace Harassment &amp; Defamation.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Agents calling office receptionists or contacting HR violate privacy norms. We serve legal notices citing tortious interference and Section 356 BNS (Defamation) to immediately cease workplace contact.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Agents calling office receptionists or contacting HR violate privacy norms. We serve legal notices citing tortious interference and Section 356 BNS (slander) to fast cease workplace contact. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-2xs space-y-2">
@@ -589,9 +541,7 @@ export default function SuicideThreatsByRecoveryAgentsClient() {
                     <Users className="w-4 h-4 text-purple-600"/>
                     <span>Elderly Parents &amp; Family Harassment.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    When agents intimidate senior citizen parents, we file police complaints under the Senior Citizens Act, 2007. Section 351 BNS, obtaining protective restraining orders.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> When agents threaten senior citizen parents. We file police complaints under the Senior Citizens Act. 2007. Section 351 BNS. Obtaining protective restraining orders. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-2xs space-y-2">
@@ -599,9 +549,7 @@ export default function SuicideThreatsByRecoveryAgentsClient() {
                     <Smartphone className="w-4 h-4 text-amber-600"/>
                     <span>Illegal Instant Loan App Extortion.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    For victims of predatory apps threatening contact leaks, we manage cyber defense with the National Cyber Crime Cell, securing contact privacy and stopping illegal extortion.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> For victims of predatory apps threatening contact leaks. We manage cyber defense with the National Cyber Crime Cell. Securing contact privacy and stopping unlawful extortion. </p>
                 </div>
               </div>
             </section>
@@ -646,19 +594,19 @@ export default function SuicideThreatsByRecoveryAgentsClient() {
               </div>
 
               <div className="p-4 rounded-2xl bg-white border border-slate-200/80 shadow-2xs space-y-3 text-xs sm:text-sm text-slate-700">
-                <p className="font-semibold text-slate-900">Key Governing Statutes &amp; Judicial Precedents Cited:</p>
+                <p className="font-semibold text-slate-900">Key Governing Statutes &amp. Judicial Precedents Cited:</p>
                 <ul className="list-disc pl-5 space-y-1 text-slate-600 text-xs">
-                  <li><strong>Section 108 &amp; 61, Bharatiya Nyaya Sanhita, 2023:</strong> Abetment of suicide and criminal conspiracy penalties against coercive lenders.</li>
-                  <li><strong>Section 351, 308 &amp; 352, Bharatiya Nyaya Sanhita, 2023:</strong> Offenses of criminal intimidation, extortion, and intentional insult.</li>
-                  <li><strong>Section 67 &amp; 67A, Information Technology Act, 2000:</strong> Strict penal liability for transmitting obscene or morphed digital material.</li>
-                  <li><strong>Reserve Bank of India Master Circular on Loan Recovery:</strong> Restrictions on calling hours, conduct, and third-party interactions.</li>
-                  <li><strong>ICICI Bank Ltd. v. Prakash Kaur (2007) 2 SCC 711:</strong> Supreme Court directive prohibiting strong-arm recovery methods by banks.</li>
-                  <li><strong>Article 21, Constitution of India:</strong> Fundamental Right to Life, Dignity, and Personal Privacy.</li>
+                  <li><strong>Section 108 &amp. 61. Bharatiya Nyaya Sanhita. 2023:</strong> Abetment of suicide and penal conspiracy fines against coercive lenders.</li>
+                  <li><strong>Section 351. 308 &amp. 352. Bharatiya Nyaya Sanhita. 2023:</strong> Offenses of penal threaten. Extortion. intentional insult.</li>
+                  <li><strong>Section 67 &amp. 67A. Information Technology Act. 2000:</strong> Strict penal risk for transmitting obscene or morphed digital material.</li>
+                  <li><strong>Reserve Bank of India Master Circular on Loan claims:</strong> Restrictions on calling hours. Conduct. third-party interactions.</li>
+                  <li><strong>ICICI Bank Ltd. v. Prakash Kaur (2007) 2 SCC 711:</strong> Supreme Court directive prohibiting strong-arm claims methods by banks.</li>
+                  <li><strong>Article 21. Constitution of India:</strong> Fundamental Right to Life. Dignity. own Privacy.</li>
                 </ul>
               </div>
 
               <div className="space-y-2">
-                <p className="text-xs font-bold uppercase tracking-wider text-slate-600">Official Government &amp; Regulatory Portals:</p>
+                <p className="text-xs font-bold uppercase tracking-wider text-slate-600">valid Government &amp. RBI Portals:</p>
                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 text-xs">
                   <a href="https://www.rbi.org.in" target="_blank" rel="noopener noreferrer" className="p-2.5 rounded-xl border border-slate-200 bg-white hover:border-[#1886ff] hover:text-[#1886ff] transition-all flex items-center justify-between group shadow-2xs">
                     <span className="font-semibold truncate">Reserve Bank of India.</span>
@@ -688,7 +636,7 @@ export default function SuicideThreatsByRecoveryAgentsClient() {
               </div>
 
               <div className="space-y-2 pt-2">
-                <p className="text-xs font-bold uppercase tracking-wider text-slate-600">Related Legal Protection Guides on CredSettle:</p>
+                <p className="text-xs font-bold uppercase tracking-wider text-slate-600">Related Legal safety Guides on CredSettle:</p>
                 <div className="flex flex-wrap gap-1.5">
                   {[
             { title: 'Stop Recovery Harassment', href: '/how-to-stop-recovery-agent-harassment' },
@@ -718,15 +666,11 @@ export default function SuicideThreatsByRecoveryAgentsClient() {
                 </div>
                 <div>
                   <p className="font-bold text-slate-900 text-sm">Ashish Jhangra</p>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional.
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief experts. </p>
                   <p className="text-[10px] text-slate-500">CredSettle Research Head.</p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed border-t border-slate-100 pt-2.5">
-                Specialist in banking dispute defense, borrower civil liberties protection, criminal intimidation defense. Institutional debt compromise settlements under RBI Prudential Frameworks.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed border-t border-slate-100 pt-2.5"> Specialist in banking dispute defense. Clients civil liberties safety. penal threaten defense. bank debt deal closures under RBI Prudential Frameworks. </p>
             </div>
 
             {/* EMERGENCY CTA CARD (#2452ae) */}
@@ -737,12 +681,8 @@ export default function SuicideThreatsByRecoveryAgentsClient() {
                   Emergency Defense Desk.
                 </span>
               </div>
-              <p className="text-base font-extrabold leading-snug">
-                Facing Extreme Recovery Harassment?
-              </p>
-              <p className="text-xs text-white/90 leading-relaxed">
-                Connect immediately with CredSettle for emergency police complaint drafting, legal cease-and-desist intervention, and full creditor dispute resolution.
-              </p>
+              <p className="text-base font-extrabold leading-snug"> Facing Extreme claims threats? </p>
+              <p className="text-xs text-white/90 leading-relaxed"> Connect fast with CredSettle for emergency police complaint drafting. Legal cease-and-desist action. full creditor dispute relief. </p>
               <div className="pt-1 space-y-2">
                 <a href="tel:+918800226635" className="w-full py-2.5 px-4 rounded-xl bg-white text-blue-900 font-extrabold text-xs flex items-center justify-center gap-2 hover:bg-slate-50 transition-all shadow-xs">
                   <Phone className="w-3.5 h-3.5 text-[#1886ff]"/>

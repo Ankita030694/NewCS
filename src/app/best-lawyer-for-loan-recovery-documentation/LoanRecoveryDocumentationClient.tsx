@@ -45,7 +45,7 @@ export default function LoanRecoveryDocumentationClient() {
     const faqs = [
         {
             question: 'What are the most important documents a bank needs to file an Original Application in the DRT?',
-            answer: "For a DRT Original Application under the RDDBFI Act. The bank must file: (1) the original loan sanction letter and pacts. (2) the mortgaged deed or security creation papers (registered). (3) the certified account record from the date of disbursement. (4) the NPA classification memo. (5) the demand notice sent to the client and proof of service. (6) any payment schedule agreed upon. (7) the relief passed by the bank authorizing the filing of the OA. (8) the certified bank account extracts under the Bankers Books proof Act. A lawyer helps ensure each paper meets the tribunal requirements."
+            answer: "For a DRT Original Application under the RDDBFI Act. The bank must file: (1) the original loan sanction letter and pacts. (2) the mortgaged deed or security creation papers (registered) : (3) the certified account record from the date of disbursement. (4) the NPA classification memo. (5) the demand notice sent to the client and proof of service. (6) any payment schedule agreed upon. (7) the relief passed by the bank authorizing the filing of the OA. (8) the certified bank account extracts under the Bankers Books proof Act. A lawyer helps ensure each paper meets the tribunal requirements."
         },
         {
             question: 'Can a borrower demand copies of all bank documents used in a DRT recovery case?',

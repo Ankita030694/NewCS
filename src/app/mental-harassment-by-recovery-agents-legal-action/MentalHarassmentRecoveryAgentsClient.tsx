@@ -68,7 +68,7 @@ export default function MentalHarassmentRecoveryAgentsClient() {
         },
         {
             q: "What evidence is required to build an airtight mental harassment lawsuit against a bank?",
-            a: "An airtight evidentiary foundation requires: (1) Timestamped audio and video recordings of abusive phone calls or doorstep altercations. (2) Detailed telecom call detail records (CDR) and screenshots proving incessant calling or calls outside legal hours (8 AM\u20137 PM). (3) Certified true copies of abusive WhatsApp messages. SMS. Defamatory emails. (4) CCTV footage of illegal trespass at your residence or workplace. (5) Written witness testimonies from neighbors. Co-workers. Relatives who witnessed abuse. (6) health records. Psychiatric evaluation reports. Prescription bills documenting acute stress. Panic attacks. Or clinical depression resulting from the trauma."
+            a: "An airtight evidentiary foundation requires: (1) Timestamped audio and video recordings of abusive phone calls or doorstep altercations. (2) Detailed telecom call detail records (CDR) and screenshots proving incessant calling or calls outside legal hours (8 AM\u20137 PM) : (3) Certified true copies of abusive WhatsApp messages. SMS. Defamatory emails. (4) CCTV footage of illegal trespass at your residence or workplace. (5) Written witness testimonies from neighbors. Co-workers. Relatives who witnessed abuse. (6) health records. Psychiatric evaluation reports. Prescription bills documenting acute stress. Panic attacks. Or clinical depression resulting from the trauma."
         },
         {
             q: "What is the procedure to file a complaint on the RBI Integrated Ombudsman portal (CMS)?",

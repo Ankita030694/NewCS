@@ -16,56 +16,56 @@ export default function TamilNaduPageClient() {
   }, []);
 
   const headings = [
-    { id: 'tn-settlement', text: 'Personal Loan Settlement in Tamil Nadu', level: 2 },
-    { id: 'tn-protection-law', text: 'TN Anti-Harassment Law - Strongest Protection in India', level: 2 },
-    { id: 'economy-mix', text: 'Tamil Nadu Economy - IT, Auto, Textile Mix', level: 2 },
+    { id: 'tn-settlement', text: 'own Loan closure in Tamil Nadu', level: 2 },
+    { id: 'tn-protection-law', text: 'TN Anti-threats Law - Strongest safety in India', level: 2 },
+    { id: 'economy-mix', text: 'Tamil Nadu Economy - IT. Auto. Textile Mix', level: 2 },
     { id: 'debt-problems', text: 'Seven Common Debt Problems in TN', level: 2 },
     { id: 'credsettle-tn', text: 'Why CredSettle Leads in Tamil Nadu', level: 2 },
-    { id: 'tn-strategy', text: 'Our Tamil Nadu Settlement Strategy', level: 3 },
-    { id: 'legal-backing', text: 'RBI Rules Plus TN Law Protection', level: 3 },
+    { id: 'tn-strategy', text: 'Our Tamil Nadu closure Strategy', level: 3 },
+    { id: 'legal-backing', text: 'RBI Rules Plus TN Law safety', level: 3 },
     { id: 'tn-lok-adalat', text: 'Tamil Nadu Lok Adalat for Loan Cases', level: 2 },
     { id: 'chennai-coverage', text: 'Chennai Metro - OMR to Porur Coverage', level: 2 },
-    { id: 'coimbatore-madurai', text: 'Coimbatore, Madurai and Industrial TN', level: 2 },
-    { id: 'tn-benefits', text: 'Eight Reasons Tamil Borrowers Pick Us', level: 2 },
+    { id: 'coimbatore-madurai', text: 'Coimbatore. Madurai and Industrial TN', level: 2 },
+    { id: 'tn-benefits', text: 'Eight Reasons Tamil clients Pick Us', level: 2 },
     { id: 'your-tn-rights', text: 'Your Rights Under TN and RBI Laws', level: 2 },
-    { id: 'process-stages', text: 'Settlement Process - Stage by Stage', level: 2 },
+    { id: 'process-stages', text: 'steps - Stage by Stage', level: 2 },
     { id: 'chennai-story', text: 'Success Story - Chennai Auto Engineer Wins', level: 2 },
     { id: 'tn-consultation', text: 'Book Your Free Tamil Nadu Consultation', level: 2 },
-    { id: 'faqs', text: 'Tamil Nadu Settlement Questions', level: 2 }
+    { id: 'faqs', text: 'Tamil Nadu closure Questions', level: 2 }
   ];
 
   const faqs = [
     {
       question: 'Is loan settlement legal in Tamil Nadu?',
-      answer: 'Yes, completely legal in Tamil Nadu and across India. RBI recognizes settlement as legitimate debt resolution. Tamil Nadu also has strongest anti-harassment law in India (TN Money Lending Act 2025) that gives you extra protection during settlement process.'
+      answer: 'Yes. Fully legal in Tamil Nadu and across India. RBI recognizes closure as legitimate debt relief. Tamil Nadu also has strongest anti-threats law in India (TN Money Lending Act 2025) that gives you extra safety during steps.'
     },
     {
       question: 'What is TN Anti-Harassment Law 2025?',
-      answer: 'Tamil Nadu Money Lending Entities (Prevention of Coercive Actions) Act, 2025. Gives 3-5 years imprisonment and up to ₹5 lakh fine for harassment. Strongest borrower protection law in India. Applies to all lenders including banks and NBFCs if they use coercive tactics.'
+      answer: 'Tamil Nadu Money Lending Entities (Prevention of Coercive Actions) Act. 2025. Gives 3-5 years imprisonment and up to ₹5 lakh fine for threats. Strongest clients safety law in India. Applies to all lenders including banks and NBFCs if they use coercive tactics.'
     },
     {
       question: 'Can Chennai IT professionals settle loans?',
-      answer: 'Yes, we specialize in Chennai IT sector cases from OMR, Porur, Ambattur areas. We understand tech layoffs, startup failures and IT job market. Have settled thousands of Chennai IT professional loans with 55-70% average reductions.'
+      answer: 'Yes. We specialize in Chennai IT sector cases from OMR. Porur. Ambattur areas. We understand tech layoffs. Startup failures and IT job market. Have settled thousands of Chennai IT experts loans with 55-70% average reductions.'
     },
     {
       question: 'How much can TN borrowers save?',
-      answer: 'Tamil Nadu borrowers typically save 30-70% on outstanding debt. Our TN state average is 60% savings. Chennai IT professionals often get 60-65% reductions, Coimbatore manufacturing cases get 55-60%.'
+      answer: 'Tamil Nadu clients typically save 30-70% on unpaid debt. Our TN state average is 60% savings. Chennai IT experts often get 60-65% reductions. Coimbatore manufacturing cases get 55-60%.'
     },
     {
       question: 'Do you work with Tamil Nadu local banks?',
-      answer: 'Yes, all banks including Indian Bank (headquartered in Chennai), Indian Overseas Bank, City Union Bank and all major private banks and NBFCs. We have settled thousands of loans from TN lenders.'
+      answer: 'Yes. All banks including Indian Bank (headquartered in Chennai). Indian Overseas Bank. City Union Bank and all major private banks and NBFCs. We have settled thousands of loans from TN lenders.'
     },
     {
       question: 'Can Coimbatore textile workers settle loans?',
-      answer: 'Absolutely. Coimbatore textile sector employs lakhs. We understand spinning mills, garment units, dyeing factories and their employment patterns. This sector knowledge helps negotiate better with lenders.'
+      answer: 'Absolutely. Coimbatore textile sector employs lakhs. We understand spinning mills. Garment units. Dyeing factories and their employment patterns. This sector knowledge helps settle better with lenders.'
     },
     {
       question: 'What is TN Lok Adalat success rate?',
-      answer: 'Excellent. Tamil Nadu conducts very active Lok Adalats across all districts. We have handled hundreds of TN cases through Lok Adalat with 86% settlement success. Usually achieve 40-60% debt reduction with legally binding orders.'
+      answer: 'Excellent. Tamil Nadu conducts very active Lok Adalats across all districts. We have handled hundreds of TN cases through Lok Adalat with 86% closure success. Usually achieve 40-60% debt reduction with by law binding orders.'
     },
     {
       question: 'Can you handle cases in Tamil language?',
-      answer: 'Yes, our TN team can communicate in Tamil. We prepare documentation in Tamil and English both when needed. This helps with local lenders and district courts across Tamil Nadu.'
+      answer: 'Yes. Our TN team can communicate in Tamil. We prepare proof in Tamil and English both when needed. This helps with local lenders and district courts across Tamil Nadu.'
     }
   ];
 
@@ -147,9 +147,7 @@ export default function TamilNaduPageClient() {
                   lineHeight: '28px',
                   marginBottom: '20px'
                 }}
-              >
-                Facing loan debt in Chennai, Coimbatore or anywhere in Tamil Nadu? CredSettle helps TN borrowers reduce debt by 30-70% through legal, RBI-compliant settlement. Tamil Nadu’s new Anti-Harassment Law (2025) gives you strongest protection in India. IT professionals, auto sector workers, textile manufacturers, all sectors covered. Over 14,000 Tamil families got debt-free with us.
-              </p>
+              > Facing loan debt in Chennai. Coimbatore or anywhere in Tamil Nadu? CredSettle helps TN clients reduce debt by 30-70% through legal. RBI-compliant closure. Tamil Nadu’s new Anti-threats Law (2025) gives you strongest safety in India. IT experts. Auto sector workers. Textile manufacturers. All sectors covered. Over 14,000 Tamil families got debt-free with us. </p>
               <button
                 className="text-white text-sm md:text-base lg:text-[18.58px] px-6 md:px-8 lg:px-[39.44px] py-2 md:py-3 lg:py-[13.48px]"
                 style={{
@@ -207,15 +205,9 @@ export default function TamilNaduPageClient() {
                     lineHeight: '28px'
                   }}
                 >
-                  <p style={{ marginBottom: '16px' }}>
-                    Tamil Nadu, India’s manufacturing powerhouse and emerging IT hub, handles massive loan volumes yearly. From Chennai’s OMR IT corridor and auto manufacturing clusters to Coimbatore’s textile mills and engineering units, Madurai’s trading hub to Tiruppur’s garment exports, millions borrow for homes, education, business expansion and family needs.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Personal loan settlement</strong> lets you negotiate with banks and NBFCs to pay reduced amounts instead of full outstanding balances. RBI recognizes this as legal debt resolution across India. Tamil Nadu now has India’s strongest borrower protection law (TN Money Lending Act 2025) that makes harassment criminal offense with jail time.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    CredSettle has settled loans for over 14,000 Tamil Nadu borrowers across Chennai, Coimbatore, Madurai, Salem, Trichy, Tiruppur and all districts. Our TN clients typically save 30-70% on outstanding amounts (state average: 60%). Every settlement follows RBI rules, gets proper legal documentation, and permanently closes debt without future lender claims.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> Tamil Nadu. India’s manufacturing powerhouse and emerging IT hub. Handles massive loan volumes yearly. From Chennai’s OMR IT corridor and auto manufacturing clusters to Coimbatore’s textile mills and engineering units. Madurai’s trading hub to Tiruppur’s garment exports. Millions borrow for homes. Education. Firm expansion and family needs. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>own loan closure</strong> lets you settle with banks and NBFCs to pay reduced amounts instead of full unpaid balances. RBI recognizes this as legal debt relief across India. Tamil Nadu now has India’s strongest clients safety law (TN Money Lending Act 2025) that makes threats crime with jail time. </p>
+                  <p style={{ marginBottom: '16px' }}> CredSettle has settled loans for over 14,000 Tamil Nadu clients across Chennai. Coimbatore. Madurai. Salem. Trichy. Tiruppur and all districts. Our TN clients typically save 30-70% on unpaid amounts (state average: 60%). Every closure follows RBI rules. Gets proper legal proof. permanently closes debt without future lender claims. </p>
                 </div>
               </section>
 
@@ -240,21 +232,11 @@ export default function TamilNaduPageClient() {
                     lineHeight: '28px'
                   }}
                 >
-                  <p style={{ marginBottom: '16px' }}>
-                    Tamil Nadu passed revolutionary law in June 2025: <strong>Tamil Nadu Money Lending Entities (Prevention of Coercive Actions) Act, 2025</strong>. This law makes Tamil Nadu the most borrower-friendly state in India for debt resolution. Why this matters for you: Recovery agents face serious criminal consequences for harassment, making them very careful in TN now.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>What TN law says:</strong> Any lender (including banks and NBFCs) using coercive recovery methods faces 3-5 years imprisonment plus up to ₹5 lakh fine. Coercive actions defined as: intimidation, threats, property seizure attempts, undue influence, harassment of family members, repeated visits causing distress, abusive language. If harassment causes suicide, criminal liability applies (extremely serious).
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>How we use TN law:</strong> When we send legal notices to lenders in Tamil Nadu cases, we cite this state law prominently along with RBI rules. We explicitly warn that we will file police complaints under TN Act for any violations. This dual protection (RBI + TN Law) makes harassment stop faster in Tamil Nadu than most other states. Typically stops within 2-4 days (fastest in South India).
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Real impact:</strong> Since TN law passed, recovery agents in Tamil Nadu have become much more cautious. They know harassment can lead to jail time, not just regulatory complaints. This gives us strong leverage in settlement negotiations. Lenders prefer settling fairly rather than risking criminal cases.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Your advantage as TN borrower:</strong> You have double protection. RBI Fair Practices Code applies nationwide. TN Anti-Harassment Law adds criminal penalties specific to Tamil Nadu. Together, these make you one of the most protected borrowers in India. We use both aggressively to shield you during settlement process.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> Tamil Nadu passed revolutionary law in June 2025: <strong>Tamil Nadu Money Lending Entities (Prevention of Coercive Actions) Act. 2025</strong>. This law makes Tamil Nadu the most clients-friendly state in India for debt relief. Why this matters for you: agents face serious penal results for threats. Making them very careful in TN now. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>What TN law says:</strong> Any lender (including banks and NBFCs) using coercive claims methods faces 3-5 years imprisonment plus up to ₹5 lakh fine. Coercive actions defined as: threaten. Threats. Home seizure attempts. Undue influence. Threats of family members. Repeated visits causing distress. Abusive language. If threats causes suicide. Penal risk applies (extremely serious). </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>How we use TN law:</strong> When we send legal notices to lenders in Tamil Nadu cases. We cite this state law prominently along with RBI rules. We explicitly warn that we will file police complaints under TN Act for any violations. This dual safety (RBI + TN Law) makes threats stop faster in Tamil Nadu than most other states. Typically stops within 2-4 days (fastest in South India). </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Real impact:</strong> Since TN law passed. Agents in Tamil Nadu have become much more cautious. They know threats can lead to jail time. Not just RBI complaints. This gives us strong leverage in closure talks. Lenders prefer settling fairly rather than risking penal cases. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Your advantage as TN clients:</strong> You have double safety. RBI Fair Practices Code applies nationwide. TN Anti-threats Law adds penal fines exact to Tamil Nadu. Together. These make you one of the most protected clients in India. We use both aggressively to shield you during steps. </p>
                 </div>
               </section>
 
@@ -279,21 +261,11 @@ export default function TamilNaduPageClient() {
                     lineHeight: '28px'
                   }}
                 >
-                  <p style={{ marginBottom: '16px' }}>
-                    Tamil Nadu has most diversified economy in South India. Chennai houses IT companies on OMR (Old Mahabalipuram Road), auto manufacturing (Ford, Hyundai, Nissan, BMW), financial services and port operations. Coimbatore runs textile spinning, garment manufacturing and engineering units. Tiruppur dominates knitwear exports. Madurai has trading and MSME clusters. Each sector creates different borrowing and default patterns.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Chennai borrowing patterns:</strong> IT professionals in OMR, Porur, Ambattur areas borrow for flats in ECR, Velachery, Chromepet (₹15-40 lakhs personal loans for down payments). Auto sector engineers and workers take loans for education, vehicles and homes. When tech layoffs hit or auto plants reduce production, EMIs become burden. High cost of living in Chennai (₹20,000-₹50,000 rent) makes situation worse.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Coimbatore industrial economy:</strong> Textile spinning mills, garment factories, pump manufacturing, engineering units employ hundreds of thousands. Workers and small business owners borrow for homes, education, business needs. When cotton prices spike, export orders drop or power costs increase, entire sector feels stress. Loan defaults rise.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Tiruppur export vulnerability:</strong> Knitwear export capital of India. When US and European buyers reduce orders (happens during recessions), thousands of garment workers and unit owners get affected. Many borrowed during boom times, now struggle with loans during slow periods.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    We understand all these TN sector patterns. We know how to negotiate with lenders using industry-specific data. IT layoff reports for Chennai tech sector, textile export statistics for Coimbatore cases, auto production data for manufacturing sector loans. This sector expertise improves your settlement outcome directly.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> Tamil Nadu has most diversified economy in South India. Chennai houses IT companies on OMR (Old Mahabalipuram Road). Auto manufacturing (Ford. Hyundai. Nissan. BMW). Money services and port operations. Coimbatore runs textile spinning. Garment manufacturing and engineering units. Tiruppur dominates knitwear exports. Madurai has trading and MSME clusters. Each sector creates different borrowing and default patterns. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Chennai borrowing patterns:</strong> IT experts in OMR. Porur. Ambattur areas borrow for flats in ECR. Velachery. Chromepet (₹15-40 lakhs own loans for down payments). Auto sector engineers and workers take loans for education. Vehicles and homes. When tech layoffs hit or auto plants reduce production. EMIs become burden. High cost of living in Chennai (₹20,000-₹50,000 rent) makes case worse. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Coimbatore industrial economy:</strong> Textile spinning mills. Garment factories. Pump manufacturing. Engineering units employ hundreds of thousands. Workers and small firm owners borrow for homes. Education. Firm needs. When cotton prices spike. Export orders drop or power costs increase. Entire sector feels stress. Loan defaults rise. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Tiruppur export vulnerability:</strong> Knitwear export capital of India. When US and European buyers reduce orders (happens during recessions). Thousands of garment workers and unit owners get affected. Many borrowed during boom times. Now struggle with loans during slow periods. </p>
+                  <p style={{ marginBottom: '16px' }}> We understand all these TN sector patterns. We know how to settle with lenders using trade-exact data. IT layoff reports for Chennai tech sector. Textile export statistics for Coimbatore cases. Auto production data for manufacturing sector loans. This sector expertise improves your closure outcome straight. </p>
                 </div>
               </section>
 
@@ -318,27 +290,13 @@ export default function TamilNaduPageClient() {
                     lineHeight: '28px'
                   }}
                 >
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>1. Chennai IT Sector Layoffs:</strong> OMR corridor, Porur IT park, Ambattur IT SEZ house major companies (TCS, Infosys, Wipro, Cognizant, smaller startups). Layoffs hit 2023-2024. People borrowed on ₹20-35 lakh packages. New jobs pay ₹15-25 lakhs. EMIs don’t adjust. We’ve settled 2,500+ Chennai IT cases. Strategy: Use layoff data, funding winter reports and income drop proof to negotiate 55-70% reductions.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>2. Auto Manufacturing Job Losses:</strong> Chennai houses India’s second largest auto hub (Detroit of Asia tag). Ford shut plant 2022, many vendor layoffs followed. Hyundai, Renault-Nissan also cut staff during slow periods. Auto workers and engineers borrowed for homes and vehicles. We’ve settled many auto sector loans using industry production data and employment reports.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>3. Coimbatore Textile Margin Squeeze:</strong> Spinning mills and textile units face cost pressures. Cotton prices volatile, power tariffs high, labor costs up, but export prices flat. Many mill owners and workers borrowed during good times. Now margins crushed. We’ve handled 1,800+ Coimbatore textile sector cases. We show lenders the textile industry reports and margin data proving sector-wide crisis.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>4. Tiruppur Export Order Cancellations:</strong> Garment exporters in Tiruppur depend on US and European orders. When global demand drops, orders get cancelled. Small garment unit owners borrowed ₹10-30 lakhs for machinery and working capital. Cannot service loans when orders disappear. We negotiate using export statistics and order cancellation documentation.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>5. Medical Debt Crisis:</strong> Healthcare costs in Tamil Nadu metros are high. People borrow ₹5-15 lakhs for serious treatments. After medical crisis, debt remains. Medical emergency loans get good settlement terms (60-70% reduction) because lenders understand unavoidable nature.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>6. Education Loan Burden:</strong> Tamil Nadu has strong education culture. Parents borrow heavily for children’s engineering, medical, MBA education (₹8-25 lakhs). When child’s job doesn’t materialize or pays less than expected, parents struggle with EMI burden. We’ve settled many such family cases.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>7. Multiple Small Loans Trap:</strong> NBFCs and fintech apps have targeted TN aggressively. Many people end up with 4-6 small loans (₹30,000 to ₹2 lakhs each) at 24-36% interest. Interest compounds faster than repayments. Our method: Bundle all loans in single negotiation showing total default risk.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>1. Chennai IT Sector Layoffs:</strong> OMR corridor. Porur IT park. Ambattur IT SEZ house major companies (TCS. Infosys. Wipro. Cognizant. Smaller startups). Layoffs hit 2023-2024. People borrowed on ₹20-35 lakh packages. New jobs pay ₹15-25 lakhs. EMIs don’t adjust. We’ve settled 2,500+ Chennai IT cases. Strategy: Use layoff data. Funding winter reports and income drop proof to settle 55-70% reductions. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>2. Auto Manufacturing Job Losses:</strong> Chennai houses India’s second largest auto hub (Detroit of Asia tag). Ford shut plant 2022. Many vendor layoffs followed. Hyundai. Renault-Nissan also cut staff during slow periods. Auto workers and engineers borrowed for homes and vehicles. We’ve settled many auto sector loans using trade production data and employment reports. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>3. Coimbatore Textile Margin Squeeze:</strong> Spinning mills and textile units face cost pressures. Cotton prices volatile. Power tariffs high. Labor costs up. export prices flat. Many mill owners and workers borrowed during good times. Now margins crushed. We’ve handled 1,800+ Coimbatore textile sector cases. We show lenders the textile trade reports and margin data proving sector-wide crisis. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>4. Tiruppur Export Order Cancellations:</strong> Garment exporters in Tiruppur depend on US and European orders. When global demand drops. Orders get cancelled. Small garment unit owners borrowed ₹10-30 lakhs for machinery and working capital. Cannot service loans when orders disappear. We settle using export statistics and order cancellation proof. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>5. Medical Debt Crisis:</strong> Healthcare costs in Tamil Nadu metros are high. People borrow ₹5-15 lakhs for serious treatments. After medical crisis. Debt remains. Medical emergency loans get good closure terms (60-70% reduction) because lenders understand unavoidable nature. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>6. Education Loan Burden:</strong> Tamil Nadu has strong education culture. Parents borrow heavily for children’s engineering. Medical. MBA education (₹8-25 lakhs). When child’s job doesn’t materialize or pays less than expected. Parents struggle with EMI burden. We’ve settled many such family cases. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>7. Multiple Small Loans Trap:</strong> NBFCs and fintech apps have targeted TN aggressively. Many people end up with 4-6 small loans (₹30,000 to ₹2 lakhs each) at 24-36% rates. rates compounds faster than payments. Our method: Bundle all loans in single talks showing total default risk. </p>
                 </div>
               </section>
 
@@ -363,12 +321,8 @@ export default function TamilNaduPageClient() {
                     lineHeight: '28px'
                   }}
                 >
-                  <p style={{ marginBottom: '16px' }}>
-                    We’ve handled 14,000+ loan settlements across Tamil Nadu in last four years. Our TN clients save an average of 60% on their debt (among highest in South India). We work with all major banks including Indian Bank and Indian Overseas Bank (both headquartered in Chennai) and all NBFCs operating across the state.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Our TN edge:</strong> We’re registered legal services company following every RBI rule. We understand TN’s new Anti-Harassment Law and use it aggressively to protect clients. We have Tamil-speaking team members who know Chennai IT culture, Coimbatore textile economics, auto sector employment patterns and regional business practices.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> We’ve handled 14,000+ loan closures across Tamil Nadu in last four years. Our TN clients save an average of 60% on their debt (among highest in South India). We work with all major banks including Indian Bank and Indian Overseas Bank (both headquartered in Chennai) and all NBFCs operating across the state. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Our TN edge:</strong> We’re registered legal services company following every RBI rule. We understand TN’s new Anti-threats Law and use it aggressively to protect clients. We have Tamil-speaking team members who know Chennai IT culture. Coimbatore textile economics. Auto sector employment patterns and regional firm practices. </p>
 
                   <div id="tn-strategy" style={{ marginTop: '32px', scrollMarginTop: '100px' }}>
                     <h3
@@ -380,12 +334,8 @@ export default function TamilNaduPageClient() {
                         lineHeight: '32px',
                         marginBottom: '16px'
                       }}
-                    >
-                      Our Tamil Nadu Settlement Strategy
-                    </h3>
-                    <p style={{ marginBottom: '16px' }}>
-                      <strong>Step 1: Sector Assessment</strong> - IT professional from OMR? Auto worker from Sriperumbudur? Textile employee from Coimbatore? Each needs different approach. Free confidential consultation. <strong>Step 2: Immediate Legal Shield</strong> - Legal notices citing both RBI rules and TN Anti-Harassment Law 2025. We warn explicitly about criminal penalties (3-5 years jail). Harassment stops within 2-4 days (fastest in South India). <strong>Step 3: Industry-Smart Negotiation</strong> - Our TN team uses sector data. IT layoff reports, auto production statistics, textile export figures, whatever applies to your case. Push for 30-70% debt reduction. <strong>Step 4: Tamil + English Documentation</strong> - Settlement papers in both languages when needed. Helps with regional banks and local lenders. <strong>Step 5: Credit Recovery Plan</strong> - After settlement, we guide on CIBIL rebuilding considering TN job market and future needs.
-                    </p>
+                    > Our Tamil Nadu closure Strategy </h3>
+                    <p style={{ marginBottom: '16px' }}> <strong>Step 1: Sector Assessment</strong> - IT experts from OMR? Auto worker from Sriperumbudur? Textile employee from Coimbatore? Each needs different approach. Free private consultation. <strong>Step 2: fast Legal Shield</strong> - Legal notices citing both RBI rules and TN Anti-threats Law 2025. We warn explicitly about penal fines (3-5 years jail). threats stops within 2-4 days (fastest in South India). <strong>Step 3: trade-Smart talks</strong> - Our TN team uses sector data. IT layoff reports. Auto production statistics. Textile export figures. Whatever applies to your case. Push for 30-70% debt reduction. <strong>Step 4: Tamil + English proof</strong> - closure papers in both languages when needed. Helps with regional banks and local lenders. <strong>Step 5: Credit claims Plan</strong> - After closure. We guide on CIBIL rebuilding considering TN job market and future needs. </p>
                   </div>
 
                   <div id="legal-backing" style={{ marginTop: '32px', scrollMarginTop: '100px' }}>
@@ -398,12 +348,8 @@ export default function TamilNaduPageClient() {
                         lineHeight: '32px',
                         marginBottom: '16px'
                       }}
-                    >
-                      RBI Rules Plus TN Law Protection
-                    </h3>
-                    <p style={{ marginBottom: '16px' }}>
-                      Every settlement follows RBI Master Directions, Fair Practices Code and Banking Ombudsman guidelines. Plus TN Anti-Harassment Law 2025 adds criminal penalties for violations. You get: (1) Written OTS agreement, (2) Clear terms that no more claims can be made, (3) Correct credit reporting, (4) Documents within 30 days, (5) Dual legal protection (RBI + TN Law). Our TN lawyers file criminal complaints immediately if harassment continues.
-                    </p>
+                    > RBI Rules Plus TN Law safety </h3>
+                    <p style={{ marginBottom: '16px' }}> Every closure follows RBI Master Directions. Fair Practices Code and Banking RBI officer guidelines. Plus TN Anti-threats Law 2025 adds penal fines for violations. You get: (1) Written OTS pacts. (2) Clear terms that no more claims can be made. (3) Correct credit reporting. (4) papers within 30 days. (5) Dual legal safety (RBI + TN Law). Our TN counsel file penal complaints fast if threats continues. </p>
                   </div>
                 </div>
               </section>
@@ -429,21 +375,11 @@ export default function TamilNaduPageClient() {
                     lineHeight: '28px'
                   }}
                 >
-                  <p style={{ marginBottom: '16px' }}>
-                    Tamil Nadu runs highly efficient Lok Adalat system across all districts. Court-backed mediation under Legal Services Authorities Act delivers legally binding orders like regular court judgments. TN Lok Adalats are known for high settlement rates and borrower-friendly approach.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>How TN Lok Adalat works:</strong> You and lender sit with trained mediators in district court. Mediators push both sides toward fair settlement. Zero court fees. Usually done in one session (2-4 hours). Decision is final and enforceable. Banks and NBFCs participate actively because it saves legal costs. Settlements typically land at 40-60% of outstanding.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Our TN Lok Adalat experience:</strong> We’ve represented hundreds of Tamil borrowers in Lok Adalats across Chennai, Coimbatore, Madurai, Salem and district courts. We prepare hardship files in Tamil and English (helps with judges). Write settlement proposals with sector data. Argue cases strongly. 86% success rate in TN Lok Adalat cases. Everything documented with legally binding orders.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>When Lok Adalat is best:</strong> If lender filed court case already, Lok Adalat provides fastest resolution. If your loan is above ₹10 lakhs and involves property or vehicle, Lok Adalat gives structured settlement with asset protection. Tamil Nadu Legal Services Authority conducts regular banking Lok Adalats.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Free legal help:</strong> If you earn under ₹5 lakhs yearly, TN Legal Services Authority provides free lawyers for Lok Adalat. We coordinate for eligible Tamil Nadu borrowers.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> Tamil Nadu runs highly efficient Lok Adalat system across all districts. Court-backed mediation under Legal Services Authorities Act delivers by law binding orders like regular court judgments. TN Lok Adalats are known for high closure rates and clients-friendly approach. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>How TN Lok Adalat works:</strong> You and lender sit with trained mediators in district court. Mediators push both sides toward fair closure. Zero court fees. Usually done in one session (2-4 hours). Decision is final and enforceable. Banks and NBFCs participate actively because it saves legal costs. closures typically land at 40-60% of unpaid. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Our TN Lok Adalat experience:</strong> We’ve represented hundreds of Tamil clients in Lok Adalats across Chennai. Coimbatore. Madurai. Salem and district courts. We prepare hardship files in Tamil and English (helps with judges). Write closure proposals with sector data. Argue cases strongly. 86% success rate in TN Lok Adalat cases. Everything documented with by law binding orders. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>When Lok Adalat is best:</strong> If lender filed court case already. Lok Adalat provides fastest relief. If your loan is above ₹10 lakhs and involves home or vehicle. Lok Adalat gives structured closure with asset safety. Tamil Nadu Legal Services Authority conducts regular banking Lok Adalats. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Free legal help:</strong> If you earn under ₹5 lakhs yearly. TN Legal Services Authority provides free counsel for Lok Adalat. We coordinate for eligible Tamil Nadu clients. </p>
                 </div>
               </section>
 
@@ -468,21 +404,11 @@ export default function TamilNaduPageClient() {
                     lineHeight: '28px'
                   }}
                 >
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>OMR IT Corridor:</strong> Old Mahabalipuram Road from Taramani to Siruseri houses IT parks (TCS Campus, Infosys, Cognizant, HCL). We’ve handled 2,800+ cases from OMR residents. Mostly IT professionals, some startup employees. We understand tech sector layoffs, funding winters and IT job market volatility. Use this knowledge in settlement negotiations.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Porur and Ambattur Industrial Areas:</strong> Mix of IT parks and manufacturing units. We’ve settled 1,200+ loans from these areas. Different profile than pure IT corridor. Mix of tech and manufacturing employees.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Sriperumbudur Auto Belt:</strong> Ford (now closed), Hyundai, Renault-Nissan, BMW plants plus hundreds of vendor units. Auto sector employs lakhs. When production drops or plants close, mass impact. We’ve handled 900+ auto sector loan cases using production data and employment statistics.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Central Chennai:</strong> T Nagar, Anna Nagar, Nungambakkam. Mix of professionals, business owners, traders. Higher loan amounts typically. We handle central Chennai cases understanding property values and lifestyle loan patterns.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>South Chennai:</strong> Velachery, Chromepet, Tambaram. Residential areas with salaried class. We’ve settled thousands of loans from South Chennai families.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>OMR IT Corridor:</strong> Old Mahabalipuram Road from Taramani to Siruseri houses IT parks (TCS Campus. Infosys. Cognizant. HCL). We’ve handled 2,800+ cases from OMR residents. Mostly IT experts. Some startup employees. We understand tech sector layoffs. Funding winters and IT job market volatility. Use this knowledge in closure talks. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Porur and Ambattur Industrial Areas:</strong> Mix of IT parks and manufacturing units. We’ve settled 1,200+ loans from these areas. Different profile than pure IT corridor. Mix of tech and manufacturing employees. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Sriperumbudur Auto Belt:</strong> Ford (now closed). Hyundai. Renault-Nissan. BMW plants plus hundreds of vendor units. Auto sector employs lakhs. When production drops or plants close. Mass impact. We’ve handled 900+ auto sector loan cases using production data and employment statistics. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Central Chennai:</strong> T Nagar. Anna Nagar. Nungambakkam. Mix of experts. Firm owners. Traders. Higher loan amounts typically. We handle central Chennai cases grasp home values and lifestyle loan patterns. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>South Chennai:</strong> Velachery, Chromepet, Tambaram. home areas with salaried class. We’ve settled thousands of loans from South Chennai families. </p>
                 </div>
               </section>
 
@@ -507,21 +433,11 @@ export default function TamilNaduPageClient() {
                     lineHeight: '28px'
                   }}
                 >
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Coimbatore:</strong> Textile city with thousands of spinning mills, garment units, engineering workshops, pump manufacturers. We’ve handled 2,200+ Coimbatore cases. Mix of mill workers, business owners and professionals. We understand Coimbatore’s industrial clusters, textile economics and engineering sector. Use this local knowledge in settlement negotiations with lenders.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Tiruppur:</strong> Knitwear export hub. Almost everyone works in or around garment industry. We’ve settled 1,100+ Tiruppur loans. We understand export cycles, buyer payment delays and garment unit cash flows. Critical for negotiating with lenders who may not understand export business dynamics.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Madurai:</strong> Trading and commercial hub of South TN. Temple economy, textile trading, small industries. We’ve handled 1,000+ Madurai cases with understanding of regional business patterns.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Salem, Erode, Trichy:</strong> Mix of steel, textiles, agriculture trading, education institutions. Full settlement coverage across these cities.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Other TN Districts:</strong> Vellore, Thanjavur, Kanchipuram, Tirunelveli and all 38 districts. We serve entire Tamil Nadu through local partnerships and Tamil-speaking coordination.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Coimbatore:</strong> Textile city with thousands of spinning mills. Garment units. Engineering workshops. Pump manufacturers. We’ve handled 2,200+ Coimbatore cases. Mix of mill workers. Firm owners and experts. We understand Coimbatore’s industrial clusters. Textile economics and engineering sector. Use this local knowledge in closure talks with lenders. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Tiruppur:</strong> Knitwear export hub. Almost everyone works in or around garment trade. We’ve settled 1,100+ Tiruppur loans. We understand export cycles. Buyer payment delays and garment unit cash flows. key for settle with lenders who may not understand export firm dynamics. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Madurai:</strong> Trading and trade hub of South TN. Temple economy. Textile trading. Small industries. We’ve handled 1,000+ Madurai cases with grasp of regional firm patterns. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Salem, Erode, Trichy:</strong> Mix of steel. Textiles. Agriculture trading. Education institutions. Full closure coverage across these cities. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Other TN Districts:</strong> Vellore. Thanjavur. Kanchipuram. Tirunelveli and all 38 districts. We serve entire Tamil Nadu through local partnerships and Tamil-speaking coordination. </p>
                 </div>
               </section>
 
@@ -546,30 +462,14 @@ export default function TamilNaduPageClient() {
                     lineHeight: '28px'
                   }}
                 >
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>1. TN Anti-Harassment Law Expertise:</strong> We know how to use TN’s 2025 law aggressively. Cite criminal penalties, threaten police complaints. Makes harassment stop fastest here (2-4 days typically).
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>2. Sector-Specific Knowledge:</strong> IT sector understanding for Chennai, textile economics for Coimbatore, auto manufacturing for Sriperumbudur, garment exports for Tiruppur. We speak your industry language.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>3. Tamil Communication:</strong> Our TN team handles cases in Tamil language. Documentation in regional language when needed. Helps with local lenders and courts.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>4. Save 30-70% Average:</strong> TN clients save 60% on average. Chennai IT professionals often get 60-65%. That’s lakhs saved.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>5. Lok Adalat Mastery:</strong> 86% success rate in TN Lok Adalat cases. Hundreds handled across districts. We know the system inside out.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>6. Complete Legal Process:</strong> Every settlement follows RBI rules. Proper documentation so lenders cannot return. Important in TN where strong law backs you.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>7. Pay After Results:</strong> No upfront fees. We charge only after settlement is negotiated and documented. Our confidence.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>8. 14,000+ TN Success Stories:</strong> Chennai, Coimbatore, Madurai across the state. Track record proves capability.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>1. TN Anti-threats Law Expertise:</strong> We know how to use TN’s 2025 law aggressively. Cite penal fines. Threaten police complaints. Makes threats stop fastest here (2-4 days typically). </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>2. Sector-exact Knowledge:</strong> IT sector grasp for Chennai. Textile economics for Coimbatore. Auto manufacturing for Sriperumbudur. Garment exports for Tiruppur. We speak your trade language. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>3. Tamil contact:</strong> Our TN team handles cases in Tamil language. proof in regional language when needed. Helps with local lenders and courts. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>4. Save 30-70% Average:</strong> TN clients save 60% on average. Chennai IT experts often get 60-65%. That’s lakhs saved. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>5. Lok Adalat Mastery:</strong> 86% success rate in TN Lok Adalat cases. Hundreds handled across districts. We know the system inside out. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>6. Complete Legal Process:</strong> Every closure follows RBI rules. Proper proof so lenders cannot return. Important in TN where strong law backs you. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>7. Pay After Results:</strong> No upfront fees. We charge only after closure is settle and documented. Our confidence. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>8. 14,000+ TN Success Stories:</strong> Chennai. Coimbatore. Madurai across the state. Track record proves capability. </p>
                 </div>
               </section>
 
@@ -594,30 +494,14 @@ export default function TamilNaduPageClient() {
                     lineHeight: '28px'
                   }}
                 >
-                  <p style={{ marginBottom: '16px' }}>
-                    Know your rights as Tamil Nadu borrower. You have strongest legal protection in India:
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>TN Anti-Harassment Law 2025:</strong> Any lender or agent using coercive recovery faces 3-5 years imprisonment plus ₹5 lakh fine. Coercion includes: intimidation, threats, repeated visits, abusive language, contacting family, property seizure attempts. File police FIR immediately if this happens.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>RBI Fair Practices Code:</strong> Banks and NBFCs cannot harass, threaten or abuse. Cannot visit without notice. Cannot tell employers or colleagues about debt. Break these rules, file Banking Ombudsman complaint plus police complaint under TN law.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Right to Negotiate:</strong> If you have genuine hardship, lenders must discuss settlement. RBI encourages resolution before legal action.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Document Release Rule:</strong> After settlement payment, lender has 30 days for closure letter and NOC. RBI Master Direction. Delays mean penalties (₹5,000 daily).
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Lok Adalat Access:</strong> Any TN resident can use Lok Adalat for loan disputes. Free legal aid if you earn under ₹5 lakhs yearly.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Criminal Protection:</strong> Under TN law, if harassment causes you extreme distress or health problems, recovery agents face serious criminal charges. This is unique to Tamil Nadu.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    We protect all these rights aggressively. Tamil Nadu gives us strongest legal tools in India to shield you from harassment while negotiating settlement.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> Know your rights as Tamil Nadu clients. You have strongest legal safety in India: </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>TN Anti-threats Law 2025:</strong> Any lender or agent using coercive claims faces 3-5 years imprisonment plus ₹5 lakh fine. Coercion includes: threaten. Threats. Repeated visits. Abusive language. Contacting family. Home seizure attempts. File police FIR fast if this happens. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>RBI Fair Practices Code:</strong> Banks and NBFCs cannot harass. Threaten or abuse. Cannot visit without notice. Cannot tell employers or colleagues about debt. Break these rules. File Banking RBI officer complaint plus police complaint under TN law. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Right to settle:</strong> If you have genuine hardship. Lenders must discuss closure. RBI encourages relief before legal action. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>papers Release Rule:</strong> After closure payment. Lender has 30 days for closure letter and NOC. RBI Master Direction. Delays mean fines (₹5,000 daily). </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Lok Adalat Access:</strong> Any TN resident can use Lok Adalat for loan disputes. Free legal aid if you earn under ₹5 lakhs yearly. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>penal safety:</strong> Under TN law. If threats causes you extreme distress or health problems. Agents face serious penal charges. This is unique to Tamil Nadu. </p>
+                  <p style={{ marginBottom: '16px' }}> We protect all these rights aggressively. Tamil Nadu gives us strongest legal tools in India to shield you from threats while settle closure. </p>
                 </div>
               </section>
 
@@ -642,33 +526,15 @@ export default function TamilNaduPageClient() {
                     lineHeight: '28px'
                   }}
                 >
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Stage 1: Quick Connect (Days 1-2)</strong> - Call, WhatsApp us immediately if facing harassment. Free 30-40 minute confidential assessment. We review loans, sector, harassment severity. No pressure.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Stage 2: Legal Shield Activation (Days 2-4)</strong> - Legal notices to all lenders citing RBI rules and TN Anti-Harassment Law 2025. We warn about criminal penalties explicitly. Harassment typically stops within 2-4 days (fastest in South India).
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Stage 3: Documentation (Days 5-10)</strong> - You share loan papers, employment proof, hardship documents. We analyze and build settlement case with sector-specific data.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Stage 4: Negotiate (Weeks 2-7)</strong> - Our TN team contacts lender NPA divisions. We use IT layoff data, auto production reports, textile export statistics. Push for 30-70% debt reduction.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Stage 5: Lock Settlement (Weeks 7-9)</strong> - Lender agrees. We get formal OTS letter. Everything legally verified.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Stage 6: Payment (Weeks 9-11)</strong> - You arrange settlement amount. Pay to lender. We get receipt immediately.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Stage 7: Close Account (Weeks 11-15)</strong> - Lender has 30 days for all documents. We follow up hard. Verify credit bureau updates.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Stage 8: Post-Settlement (Ongoing)</strong> - Credit rebuilding guidance, financial management advice. We stay available for support.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Total time:</strong> Usually 55-95 days for TN cases. Chennai corporate cases sometimes faster because documentation is better and lenders respond quicker.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Stage 1: Quick Connect (Days 1-2)</strong> - Call. WhatsApp us fast if facing threats. Free 30-40 minute private assessment. We review loans. Sector. Threats severity. No pressure. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Stage 2: Legal Shield Activation (Days 2-4)</strong> - Legal notices to all lenders citing RBI rules and TN Anti-threats Law 2025. We warn about penal fines explicitly. threats typically stops within 2-4 days (fastest in South India). </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Stage 3: proof (Days 5-10)</strong> - You share loan papers. Employment proof. Hardship papers. We analyze and build closure case with sector-exact data. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Stage 4: settle (Weeks 2-7)</strong> - Our TN team contacts lender NPA divisions. We use IT layoff data. Auto production reports. Textile export statistics. Push for 30-70% debt reduction. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Stage 5: Lock closure (Weeks 7-9)</strong> - Lender agrees. We get formal OTS letter. Everything by law checked. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Stage 6: Payment (Weeks 9-11)</strong> - You arrange payout sum. Pay to lender. We get receipt fast. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Stage 7: Close Account (Weeks 11-15)</strong> - Lender has 30 days for all papers. We follow up hard. check credit desk updates. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Stage 8: Post-closure (Ongoing)</strong> - Credit rebuilding guidance. Money handling advice. We stay available for support. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Total time:</strong> Usually 55-95 days for TN cases. Chennai firm cases sometimes faster because proof is better and lenders respond quicker. </p>
                 </div>
               </section>
 
@@ -693,27 +559,13 @@ export default function TamilNaduPageClient() {
                     lineHeight: '28px'
                   }}
                 >
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>The Borrower:</strong> Murugan S., age 39, senior design engineer at auto component manufacturer near Sriperumbudur. Salary ₹12 lakhs yearly. Had borrowed ₹22 lakhs total (1 personal loan for flat down payment, 1 car loan, 2 credit cards).
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>What Crashed:</strong> Ford India shut Maraimalai Nagar plant in 2022. His company supplied components to Ford. When Ford closed, orders dropped 60%. Company cut workforce by 45%. Murugan survived but salary reduced 25% (from ₹12 lakhs to ₹9 lakhs). Couldn’t pay EMIs on ₹15 lakhs personal loan, ₹4 lakhs car loan and ₹3 lakhs credit cards. All accounts went NPA. Recovery agents called 30+ times daily, visited his Chromepet flat 4 times, contacted his brother twice, sent threatening messages. CIBIL fell from 760 to 510. Family was stressed beyond limits.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>We Protected Him:</strong> Murugan contacted us January 2024. We sent immediate legal notices citing TN Anti-Harassment Law 2025 with explicit warnings about 3-5 years jail for harassment. Copied local police station. Harassment stopped in 3 days completely. Our assessment showed genuine sector crisis - Ford closure news, vendor impact reports, salary reduction letter. Documented everything.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Negotiation Process:</strong> Our Chennai auto sector specialist team spent 2 months negotiating. Personal loan (from major bank) settled at 45% because we showed them Ford closure impact on entire vendor ecosystem (not individual problem). Car loan settled at 50% using depreciation data. Both credit cards settled at 38% by showing salary cut and revolving interest.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Final Result:</strong> ₹22 lakhs outstanding became ₹10.2 lakhs settlement. Saved ₹11.8 lakhs (54% reduction). Murugan arranged money through provident fund withdrawal, family help and selling old car. All 4 accounts closed legally with NOCs. Harassment stopped permanently. Family peace restored.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Today:</strong> Murugan is debt-free. Still working at same vendor company (orders improved from other OEMs). CIBIL improved to 680 after 15 months. We guided him on credit rebuilding. His words: "CredSettle used TN’s new harassment law to protect me immediately. The legal protection came first, then settlement. That approach saved my family from hell."
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Timeline:</strong> January 2024 first call, February-March negotiation, April 2024 payment, May 2024 closure. Total: 4 months. Harassment stopped in 3 days.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>The clients:</strong> Murugan S. Age 39. Senior design engineer at auto component manufacturer near Sriperumbudur. Salary ₹12 lakhs yearly. Had borrowed ₹22 lakhs total (1 own loan for flat down payment. 1 car loan. 2 credit cards). </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>What Crashed:</strong> Ford India shut Maraimalai Nagar plant in 2022. His company supplied components to Ford. When Ford closed. Orders dropped 60%. Company cut workforce by 45%. Murugan survived but salary reduced 25% (from ₹12 lakhs to ₹9 lakhs). Couldn’t pay EMIs on ₹15 lakhs own loan. ₹4 lakhs car loan and ₹3 lakhs credit cards. All accounts went NPA. Agents called 30+ times daily. Visited his Chromepet flat 4 times. Contacted his brother twice. Sent threatening messages. CIBIL fell from 760 to 510. Family was stressed beyond limits. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>We Protected Him:</strong> Murugan contacted us January 2024. We sent fast legal notices citing TN Anti-threats Law 2025 with explicit warnings about 3-5 years jail for threats. Copied local police station. threats stopped in 3 days fully. Our assessment showed genuine sector crisis - Ford closure news. Vendor impact reports. Salary reduction letter. Documented everything. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>talks Process:</strong> Our Chennai auto sector specialist team spent 2 months settle. own loan (from major bank) settled at 45% because we showed them Ford closure impact on entire vendor ecosystem (not individual problem). Car loan settled at 50% using depreciation data. Both credit cards settled at 38% by showing salary cut and revolving rates. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Final Result:</strong> ₹22 lakhs unpaid became ₹10.2 lakhs closure. Saved ₹11.8 lakhs (54% reduction). Murugan arranged money through provident fund withdrawal. Family help and selling old car. All 4 accounts closed by law with NOCs. threats stopped permanently. Family peace restored. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Today:</strong> Murugan is debt-free. Still working at same vendor company (orders improved from other OEMs). CIBIL improved to 680 after 15 months. We guided him on credit rebuilding. His words: "CredSettle used TN’s new threats law to protect me fast. The legal safety came first. Then closure. That approach saved my family from hell." </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Timeline:</strong> January 2024 first call. February-March talks. April 2024 payment. May 2024 closure. Total: 4 months. threats stopped in 3 days. </p>
                 </div>
               </section>
 
@@ -738,21 +590,11 @@ export default function TamilNaduPageClient() {
                     lineHeight: '28px'
                   }}
                 >
-                  <p style={{ marginBottom: '16px' }}>
-                    Struggling with loan debt in Chennai, Coimbatore, Madurai or anywhere in Tamil Nadu? You don’t need to suffer harassment or debt burden alone. Settlement is legal. RBI backs it. TN’s new law protects you with strongest harassment penalties in India.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    Debt plus harassment destroys life. Health suffers, family peace gone, work focus disappears, social stress increases, sleep impossible. Each day you delay, harassment continues (agents don’t care until legal action hits them), penalties grow, CIBIL falls more. But exit exists. Over 14,000 Tamil families already achieved debt-free and harassment-free life through our services.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Start today:</strong> Free confidential consultation. No obligations, no upfront fees. Just honest assessment and immediate protection plan using TN law. Our Tamil Nadu experts will show exactly how to stop harassment fast (2-4 days), cut debt 30-70% and close everything legally. We understand IT sector, auto manufacturing, textile industry, whatever your situation is.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    Financial problems are temporary phases. But unresolved debt and continuing harassment can destroy years. With our legal team, TN law expertise and 14,000+ case experience, you can end both debt and harassment properly. Don’t suffer anymore. Act now.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Call CredSettle for free consultation.</strong> Chennai OMR corridor, Coimbatore textile mills, Tiruppur garment units, Madurai markets or any TN district. Wherever you are, debt-free and harassment-free life is possible. We’ll help you reach there safely.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> Struggling with loan debt in Chennai. Coimbatore. Madurai or anywhere in Tamil Nadu? You don’t need to suffer threats or debt burden alone. closure is legal. RBI backs it. TN’s new law protects you with strongest threats fines in India. </p>
+                  <p style={{ marginBottom: '16px' }}> Debt plus threats destroys life. Health suffers. Family peace gone. Work focus disappears. Social stress increases. Sleep impossible. Each day you delay. Threats continues (agents don’t care until legal action hits them). Fines grow. CIBIL falls more. But exit exists. Over 14,000 Tamil families already achieved debt-free and threats-free life through our services. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Start today:</strong> Free private consultation. No debts. No upfront fees. Just honest assessment and fast safety plan using TN law. Our Tamil Nadu experts will show exactly how to stop threats fast (2-4 days). Cut debt 30-70% and close everything by law. We understand IT sector. Auto manufacturing. Textile trade. Whatever your case is. </p>
+                  <p style={{ marginBottom: '16px' }}> money problems are temporary phases. But unresolved debt and continuing threats can destroy years. With our legal team. TN law expertise and 14,000+ case experience. You can end both debt and threats properly. Don’t suffer anymore. Act now. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Call CredSettle for free consultation.</strong> Chennai OMR corridor. Coimbatore textile mills. Tiruppur garment units. Madurai markets or any TN district. Wherever you are. Debt-free and threats-free life is possible. We’ll help you reach there safely. </p>
                 </div>
               </section>
             </div>
@@ -785,9 +627,7 @@ export default function TamilNaduPageClient() {
                     <p
                       className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full"
                       style={{ color: 'rgba(12, 39, 86, 0.70)' }}
-                    >
-                      Join 14,000+ Tamil families protected by TN’s strongest law. Free consultation, no upfront fees, harassment stops in 2-4 days.
-                    </p>
+                    > Join 14,000+ Tamil families protected by TN’s strongest law. Free consultation. No upfront fees. Threats stops in 2-4 days. </p>
                   </div>
 
                   <CTAButton>

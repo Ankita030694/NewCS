@@ -680,7 +680,7 @@ export default function LoanDefaultGovtEmployeeClient() {
 
               <ul className="space-y-2 text-xs text-slate-600 leading-relaxed list-disc pl-5">
                 <li> <strong>Central Civil Services (Conduct) Rules. 1964:</strong> Rule 16 (ruin and Habitual Indebtedness). unit of Personnel and Training (DoPT). state of India. </li>
-                <li> <strong>Code of Civil steps. 1908 (CPC):</strong> Section 60(1)(i). (g). And (k) (safety of Salary. Pensions. Gratuity from Attachment). </li>
+                <li> <strong>Code of Civil steps. 1908 (CPC):</strong> Section 60(1)(i) : (g). And (k) (safety of Salary. Pensions. Gratuity from Attachment). </li>
                 <li> <strong>Reserve Bank of India Master Directions:</strong> Master Direction on Fair Practices Code for Lenders and Grievance Redressal Mechanism (Updated 2026). </li>
                 <li> <strong>Supreme Court of India:</strong> <em>Perkins Eastman Architects DPC v. HSCC (India) Ltd. (2020).</em> &amp. <em>TRF Ltd. (2017)</em> (Disqualification of Unilateral Arbitrators). </li>
                 <li> <strong>Credit Information firms (Regulation) Act. 2005 (CICRA):</strong> Section 21 (claims relief and Data Correction rules). </li>

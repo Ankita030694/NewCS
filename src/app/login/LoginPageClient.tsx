@@ -53,7 +53,7 @@ export default function LoginPageClient() {
 
       setStatus({
         type: 'success',
-        message: 'You are logged in. Redirecting to the dashboard...',
+        message: 'You are logged in. Redirecting to the dashboard..',
       });
 
       setTimeout(() => {
@@ -112,10 +112,7 @@ export default function LoginPageClient() {
                   debt-free journey
                 </h1>
 
-                <p className="max-w-xl text-sm sm:text-base text-[rgba(12,39,86,0.72)] leading-relaxed">
-                  Access your personalized dashboard to track settlements, review RBI-compliant documentation,
-                  and connect instantly with our legal negotiators. We keep your data encrypted and secured at every step.
-                </p>
+                <p className="max-w-xl text-sm sm:text-base text-[rgba(12,39,86,0.72)] leading-relaxed"> Access your personalized dashboard to track closures. Review RBI-compliant proof. connect instantly with our legal negotiators. We keep your data encrypted and secured at every step. </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <FeatureCard
@@ -136,9 +133,7 @@ export default function LoginPageClient() {
                 <div className="relative rounded-[26px] bg-white shadow-[0_24px_60px_rgba(12,39,86,0.12)] border border-[rgba(12,39,86,0.08)] p-6 sm:p-8 space-y-6">
                   <header className="space-y-2">
                     <h2 className="text-2xl font-semibold text-[#0C2756]">Welcome back</h2>
-                    <p className="text-sm text-[rgba(12,39,86,0.6)]">
-                      Enter your registered email address and password to access your CredSettle dashboard.
-                    </p>
+                    <p className="text-sm text-[rgba(12,39,86,0.6)]"> Enter your registered email address and password to access your CredSettle dashboard. </p>
                   </header>
 
                   <form className="space-y-5" onSubmit={handleSubmit}>
@@ -204,14 +199,10 @@ export default function LoginPageClient() {
                   </form>
 
                   {status.type === 'error' && (
-                    <p className="rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
-                      {status.message}
-                    </p>
+                    <p className="rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700"> {status.message} </p>
                   )}
                   {status.type === 'success' && (
-                    <p className="rounded-lg border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm text-emerald-700">
-                      {status.message}
-                    </p>
+                    <p className="rounded-lg border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm text-emerald-700"> {status.message} </p>
                   )}
 
                   <div className="rounded-lg bg-[rgba(12,39,86,0.05)] px-4 py-3 text-xs text-[rgba(12,39,86,0.62)] leading-relaxed">

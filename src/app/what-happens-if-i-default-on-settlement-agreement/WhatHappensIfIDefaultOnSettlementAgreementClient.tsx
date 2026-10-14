@@ -59,9 +59,7 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
             What Happens If You Default on a Settlement Agreement? (OTS Guide)
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed">
-            Understand legal and financial results of missing an agreed OTS installment. Learn how revocation clauses revive waived interest, defend against Section 138/25 notices, and renegotiate terms.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed"> Understand legal and money results of missing an agreed OTS installment. Learn how revocation clauses revive waived rates. Defend against Section 138/25 notices. renegotiate terms. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -104,9 +102,7 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>Statutory Borrower Rights.</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Protected under RBI Fair Practices Code, PSSA §25, NI Act §138 &amp; CICRA.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Protected under RBI Fair Practices Code. PSSA §25. NI Act §138 &amp. CICRA. </p>
               </div>
             </div>
           </aside>
@@ -123,9 +119,7 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
                 </h2>
               </div>
 
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                Defaulting on an agreed One-Time Settlement (OTS) triggers immediate contractual and banking repercussions across Indian financial institutions. Legal jurisprudence and RBI regulations govern borrower protections and restructuring pathways:
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> Defaulting on an agreed One-Time closure (OTS) triggers fast contractual and banking repercussions across Indian money institutions. Legal law and RBI rules govern clients safety and restructuring pathways: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-3 pt-1">
                 <div className="flex items-start gap-2.5">
@@ -172,12 +166,8 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 1. Debt Economics: Mechanics of a Settlement Default
               </h2>
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                When a borrower executes a One-Time Settlement (OTS) with a bank or NBFC, the agreement operates as a conditional compromise governed by the Indian Contract Act, 1872. The lending institution agrees to waive large interest and principal only on the strict condition that all installment tranches are paid exactly on schedule. If an agreed date is missed, the conditional agreement is breached, triggering the automatic revocation clause embedded in the sanction letter.
-              </p>
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                Under Reserve Bank of India prudential norms, the loan facility remains an active Non-Performing Asset (NPA) throughout the settlement period until the final tranche clears. When default occurs, the lender reverses proposed accounting write-offs and reinstates the entire gross claim. Because unsecured debts lack collateral under the SARFAESI Act, banks face costly 3 to 5 year litigations in civil courts or Debt Recovery Tribunals. as a result, institutional credit committees are commercially open to evaluating fresh compromise proposals before initiating aggressive legal action.
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> When a clients executes a One-Time closure (OTS) with a bank or NBFC. The pacts operates as a conditional deal governed by the Indian Contract Act. 1872. The lending institution agrees to waive large rates and main sum only on the strict condition that all installment tranches are paid exactly on schedule. If an agreed date is missed. The conditional pacts is breached. Triggering the automatic revocation clause embedded in the sanction letter. </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> Under Reserve Bank of India prudential norms. The loan facility remains an active Non-Performing Asset (NPA) throughout the closure period until the final tranche clears. When default occurs. The lender reverses proposed accounting write-offs and reinstates the entire gross claim. Because clean debts lack pledge under the SARFAESI Act. Banks face costly 3 to 5 year litigations in civil courts or Debt claims Tribunals. As a result. bank credit boards are commercially open to evaluating fresh deal proposals before initiating harsh legal action. </p>
             </section>
 
             {/* SECTION 2: Financial Breakdown & Settlement Math */}
@@ -189,16 +179,11 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 2. Financial Breakdown: Settlement Revocation Math
               </h2>
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                Defaulting on an OTS exposes borrowers to immediate balance inflation. Lenders retroactively reinstate waived penal interest (24% to 36% compound annual rates), mandate bounce surcharges. Legal recovery costs. also, money paid in prior tranches is reallocated toward interest rather than reducing settlement principal.
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> Defaulting on an OTS exposes clients to fast balance inflation. Lenders retroactively reinstate waived penal rates (24% to 36% compound annual rates). Mandate bounce surcharges. Legal claims costs. Also. Money paid in prior tranches is reallocated toward rates rather than reducing closure main sum. </p>
 
               <div className="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-3">
                 <div className="flex items-center justify-between border-b border-slate-100 pb-2">
-                  <h3 className="text-xs sm:text-sm font-bold text-slate-900 flex items-center gap-2">
-                    <ReceiptText className="w-4 h-4 text-[#1886ff]"/>
-                    <span>agent Settlement Default Math (₹10 Lakh Facility).</span>
-                  </h3>
+                  <h3 className="text-xs sm:text-sm font-bold text-slate-900 flex items-center gap-2"> <ReceiptText className="w-4 h-4 text-[#1886ff]"/> <span>agent closure Default Math (₹10 Lakh Facility).</span> </h3>
                   <span className="text-[11px] font-bold text-rose-600 bg-rose-50 px-2 py-0.5 rounded border border-rose-200">
                     Revocation Impact.
                   </span>
@@ -223,7 +208,7 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
                   <div className="p-3 rounded-xl bg-rose-50/60 border border-rose-200/70 space-y-1">
                     <span className="text-rose-700 text-[11px] block font-medium">Revived Balance Post-Default.</span>
                     <span className="text-base font-extrabold text-rose-700">₹8,83,334</span>
-                    <p className="text-[11px] text-slate-600">Waiver revoked; prior payment credited to penal interest.</p>
+                    <p className="text-[11px] text-slate-600">Waiver revoked. prior payment credited to penal rates.</p>
                   </div>
                 </div>
 
@@ -232,9 +217,7 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
                     <AlertTriangle className="w-3.5 h-3.5 text-amber-600 flex-shrink-0"/>
                     <span>Renegotiated Cure Target: ₹3,85,000 with Extended 3-Month Plan.</span>
                   </div>
-                  <p className="text-[11px] text-amber-800 leading-relaxed">
-                    By submitting a formal hardship dossier within the grace period, borrowers can preserve prior remittances and revalidate the 50% waiver under a revised sanction letter.
-                  </p>
+                  <p className="text-[11px] text-amber-800 leading-relaxed"> By submitting a formal hardship dossier within the grace period. Clients can preserve prior wire transfers and revalidate the 50% waiver under a revised sanction letter. </p>
                 </div>
               </div>
             </section>
@@ -248,9 +231,7 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 3. Strategic Options: Settlement Default vs Alternatives
               </h2>
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                Evaluating the optimal legal path after a settlement default requires comparing costs and timelines:
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> Evaluating the optimal legal path after a closure default requires comparing costs and timelines: </p>
 
               <div className="overflow-x-auto rounded-2xl border border-slate-200/80 bg-white shadow-xs">
                 <table className="w-full text-left text-xs border-collapse">
@@ -266,30 +247,30 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
                     <tr className="divide-x divide-slate-200/80">
                       <td className="p-3 font-bold text-rose-700">OTS Default</td>
                       <td className="p-3">Full debt + 24%-36% penal fees.</td>
-                      <td className="p-3">Sec 138/25 notices, arbitration.</td>
+                      <td className="p-3">Sec 138/25 notices. Arbitration.</td>
                       <td className="p-3">2 to 4 years</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80">
                       <td className="p-3 font-bold text-[#1886ff]">Renegotiated OTS.</td>
-                      <td className="p-3">40%-55% principal (penal waived).</td>
-                      <td className="p-3">Notices quashed, clean NDC.</td>
+                      <td className="p-3">40%-55% main sum (penal waived).</td>
+                      <td className="p-3">Notices quashed. Clean NDC.</td>
                       <td className="p-3 font-semibold text-slate-900">30 to 90 days</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80">
                       <td className="p-3 font-bold text-slate-900">Restructuring</td>
-                      <td className="p-3">100% principal + standard interest.</td>
-                      <td className="p-3">Standard asset; zero discount.</td>
+                      <td className="p-3">100% main sum + standard rates.</td>
+                      <td className="p-3">Standard asset. zero discount.</td>
                       <td className="p-3">2 to 5 years</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80">
                       <td className="p-3 font-bold text-slate-900">DRT Litigation</td>
-                      <td className="p-3">Full liability + legal costs.</td>
+                      <td className="p-3">Full risk + legal costs.</td>
                       <td className="p-3">Summons, hearings, attachments.</td>
                       <td className="p-3">3 to 7 years</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80">
                       <td className="p-3 font-bold text-slate-900">Lok Adalat</td>
-                      <td className="p-3">40% to 60% compromise sum.</td>
+                      <td className="p-3">40% to 60% deal sum.</td>
                       <td className="p-3">Non-appealable consent award.</td>
                       <td className="p-3">1 day hearing</td>
                     </tr>
@@ -307,12 +288,8 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 4. Credit Bureau Impact: CIBIL Scoring Mechanics After an OTS Default
               </h2>
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                The TransUnion CIBIL scoring model evaluates creditworthiness across five weighted pillars: payment history (35%), credit use (30%), credit history length (15%), credit mix (10%). Recent inquiries (10%). Defaulting on an active settlement agreement severely damages the payment history pillar. Lenders update Days Past Due (DPD) to reflect continuous default and report negative remarks such as &apos;Suit Filed&apos. Or &apos;Wilful Default&apos;.
-              </p>
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                This triggers a rapid credit score drop of 80 to 140 points, pushing scores below 600. However, this impact is reversible. Under Section 21 of the Credit Information Companies (Regulation) Act, 2005 (CICRA), borrowers have the legal right to rectify inaccurate bureau reporting. Completing a renegotiated settlement and securing an authentic No Dues Certificate updates the account to &apos;Settled&apos. With zero outstanding balance, enabling score recovery within 12 to 24 months.
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> The TransUnion CIBIL scoring model evaluates creditworthiness across five weighted pillars: payment history (35%). Credit use (30%). Credit history length (15%). Credit mix (10%). Recent inquiries (10%). Defaulting on an active closure pacts severely damages the payment history pillar. Lenders update Days Past Due (DPD) to reflect continuous default and report negative remarks such as &apos. Suit Filed&apos. Or &apos. Wilful Default&apos. </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> This triggers a rapid credit score drop of 80 to 140 points. Pushing scores below 600. yet. This impact is reversible. Under Section 21 of the Credit Information Companies (rule) Act. 2005 (CICRA). Clients have the legal right to rectify inaccurate desk reporting. Completing a renegotiated closure and securing an authentic No Dues letter updates the account to &apos. Settled&apos. With zero unpaid balance. Enabling score claims within 12 to 24 months. </p>
             </section>
 
             {/* SECTION 5: Visual Infographic Asset Card */}
@@ -324,9 +301,7 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Settlement Default Consequences &amp; Cure Roadmap
               </h2>
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                Review the 6 core pillars of settlement default results, statutory notice risks, and step-by-step cure procedures:
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> Review the 6 core pillars of closure default results. Legal notice risks. step-by-step cure procedures: </p>
 
               <div className="bg-white p-3 sm:p-4 rounded-2xl border border-slate-200/80 shadow-xs">
                 <div className="relative aspect-video w-full rounded-xl overflow-hidden bg-slate-100">
@@ -351,45 +326,43 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 5. SOP: 6 Stages to Cure Default &amp; Renegotiate Terms
               </h2>
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                Execute this disciplined 6-stage SOP to cure default triggers, protect prior payments, and revive your settlement agreement:
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> Execute this disciplined 6-stage SOP to cure default triggers. Protect prior payments. revive your closure pacts: </p>
 
               <div className="space-y-3 text-xs">
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
                   <span className="text-[11px] font-black uppercase text-[#1886ff] bg-blue-50 px-2 py-0.5 rounded">Stage 1: Days 1-7.</span>
-                  <h3 className="font-bold text-slate-900 text-sm">Forensic Statement Audit &amp; Grace Period Check</h3>
-                  <p className="text-slate-600 leading-relaxed">Review the sanction letter for 7 to 15 day grace clauses. Calculate exact default shortfalls, isolate uncredited payments, and verify if formal revocation notices have been issued.</p>
+                  <h3 className="font-bold text-slate-900 text-sm">Forensic Statement Audit &amp. Grace Period Check</h3>
+                  <p className="text-slate-600 leading-relaxed">Review the sanction letter for 7 to 15 day grace clauses. Calculate exact default shortfalls. Isolate uncredited payments. check if formal revocation notices have been issued.</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
                   <span className="text-[11px] font-black uppercase text-[#1886ff] bg-blue-50 px-2 py-0.5 rounded">Stage 2: Days 8-15.</span>
                   <h3 className="font-bold text-slate-900 text-sm">Emergency Hardship Dossier Preparation</h3>
-                  <p className="text-slate-600 leading-relaxed">Compile authentic evidence of default causes. This includes medical summaries, layoff letters, or business bank statements to document genuine cash-flow constraints.</p>
+                  <p className="text-slate-600 leading-relaxed">Compile authentic evidence of default causes. This includes medical summaries. Layoff letters. firm bank statements to papers genuine cash-flow constraints.</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
                   <span className="text-[11px] font-black uppercase text-[#1886ff] bg-blue-50 px-2 py-0.5 rounded">Stage 3: Days 16-30.</span>
-                  <h3 className="font-bold text-slate-900 text-sm">Credit Committee Representation &amp; Cure Notice</h3>
-                  <p className="text-slate-600 leading-relaxed">Submit a formal settlement preservation petition directly to the Zonal Credit Committee. Bypass aggressive recovery agents and propose a restructured installment schedule.</p>
+                  <h3 className="font-bold text-slate-900 text-sm">Credit board Representation &amp. Cure Notice</h3>
+                  <p className="text-slate-600 leading-relaxed">Submit a formal closure preservation petition straight to the Zonal Credit board. Bypass harsh claims agents and propose a restructured installment schedule.</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
                   <span className="text-[11px] font-black uppercase text-[#1886ff] bg-blue-50 px-2 py-0.5 rounded">Stage 4: Days 31-45.</span>
-                  <h3 className="font-bold text-slate-900 text-sm">Bilateral Negotiations for Revised Terms</h3>
-                  <p className="text-slate-600 leading-relaxed">Negotiate with bank recovery managers. Protect earlier tranche payments from forfeiture by ensuring they credit toward the agreed compromise sum with an extended timeline.</p>
+                  <h3 className="font-bold text-slate-900 text-sm">Bilateral talks for Revised Terms</h3>
+                  <p className="text-slate-600 leading-relaxed">settle with bank claims managers. Protect earlier tranche payments from forfeiture by making sure they credit toward the agreed deal sum with an extended timeline.</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
                   <span className="text-[11px] font-black uppercase text-[#1886ff] bg-blue-50 px-2 py-0.5 rounded">Stage 5: Days 46-60.</span>
-                  <h3 className="font-bold text-slate-900 text-sm">Legal Due Diligence of Revised Sanction Letter</h3>
-                  <p className="text-slate-600 leading-relaxed">Vet the new settlement letter on official bank letterhead. Ensure it supersedes defaulted terms, waives 100% of penal interest, and guarantees NDC issuance.</p>
+                  <h3 className="font-bold text-slate-900 text-sm">Legal Due care of Revised Sanction Letter</h3>
+                  <p className="text-slate-600 leading-relaxed">Vet the new closure letter on valid bank letterhead. Ensure it supersedes defaulted terms. Waives 100% of penal rates. guarantees NDC issuance.</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
                   <span className="text-[11px] font-black uppercase text-[#1886ff] bg-blue-50 px-2 py-0.5 rounded">Stage 6: Days 61-90+.</span>
-                  <h3 className="font-bold text-slate-900 text-sm">Tranche Remittance &amp; Procurement of Final NDC</h3>
-                  <p className="text-slate-600 leading-relaxed">pay remaining installments directly to your loan account via RTGS/NEFT. Maintain timestamped receipts, verify zero balance in core banking, and obtain your official NDC within 30 days.</p>
+                  <h3 className="font-bold text-slate-900 text-sm">Tranche wire transfer &amp. Procurement of Final NDC</h3>
+                  <p className="text-slate-600 leading-relaxed">pay remaining installments straight to your loan account via RTGS/NEFT. Maintain timestamped receipts. check zero balance in core banking. obtain your valid NDC within 30 days.</p>
                 </div>
               </div>
             </section>
@@ -403,9 +376,7 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 6. Statutory Notice Defense: Post-Default Legal Action
               </h2>
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                Loan settlement default is strictly a civil contractual dispute. Knowing your legal protections ensures secure negotiation:
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> Loan closure default is strictly a civil contractual dispute. Knowing your legal safety ensures secure talks: </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
@@ -413,7 +384,7 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
                     <AlertCircle className="w-4 h-4"/>
                     <span>Section 25 PSSA, 2007 (NACH Dishonour).</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">Issued when electronic mandate debits bounce. Serve a formal legal reply within 15 days proving lack of fraud and active renegotiation.</p>
+                  <p className="text-slate-600 leading-relaxed">Issued when online mandate debits bounce. Serve a formal legal reply within 15 days proving lack of fraud and active renegotiation.</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
@@ -421,7 +392,7 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
                     <Scale className="w-4 h-4"/>
                     <span>Section 138 NI Act, 1881 (Cheque Dishonour).</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">Applies to bounced security cheques. Offenses are compoundable under Section 147; complaints are quashed upon settlement fulfillment.</p>
+                  <p className="text-slate-600 leading-relaxed">Applies to bounced security cheques. Offenses are compoundable under Section 147. complaints are quashed upon closure fulfillment.</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
@@ -437,18 +408,13 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
                     <Landmark className="w-4 h-4"/>
                     <span>Section 19 RDB Act (DRT Claims).</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">For debts over ₹20 Lakhs. Borrowers can file a written statement disputing penal interest and seek a Lok Adalat compromise.</p>
+                  <p className="text-slate-600 leading-relaxed">For debts over ₹20 Lakhs. clients can file a written statement disputing penal rates and seek a Lok Adalat deal.</p>
                 </div>
               </div>
 
               <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-2 text-xs">
-                <h3 className="font-bold text-slate-900 text-sm flex items-center gap-2">
-                  <ShieldCheck className="w-4 h-4 text-[#1886ff]"/>
-                  <span>Borrower Protections Under the RBI Fair Practices Code.</span>
-                </h3>
-                <p className="text-slate-600 leading-relaxed">
-                  Under the RBI Master Direction on Fair Practices Code, lenders and recovery agents cannot call before 8:00 AM or after 7:00 PM, visit without notice, use abusive language. Contact relatives.
-                </p>
+                <h3 className="font-bold text-slate-900 text-sm flex items-center gap-2"> <ShieldCheck className="w-4 h-4 text-[#1886ff]"/> <span>clients safety Under the RBI Fair Practices Code.</span> </h3>
+                <p className="text-slate-600 leading-relaxed"> Under the RBI Master Direction on Fair Practices Code. Lenders and claims agents cannot call before 8:00 AM or after 7:00 PM. Visit without notice. Use abusive language. Contact relatives. </p>
               </div>
             </section>
 
@@ -461,24 +427,22 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 7. The 3-Tier Escalation Framework for Defaulted Settlement Disputes
               </h2>
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                If a bank recovery department unlawfully cancels compromise terms, escalate through this 3-tier statutory framework:
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> If a bank claims department unlawfully cancels deal terms. Escalate through this 3-tier legal framework: </p>
 
               <div className="space-y-3 text-xs">
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
                   <span className="text-[11px] font-bold text-[#1886ff] bg-blue-50 px-2 py-0.5 rounded">Level 1: Grievance Redressal Officer (GRO).</span>
-                  <p className="text-slate-600 mt-1 leading-relaxed">Submit a formal written petition proposing your revised plan directly to the GRO (7 to 10 days turnaround).</p>
+                  <p className="text-slate-600 mt-1 leading-relaxed">Submit a formal written petition proposing your revised plan straight to the GRO (7 to 10 days turnaround).</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
                   <span className="text-[11px] font-bold text-indigo-700 bg-indigo-50 px-2 py-0.5 rounded">Level 2: Principal Nodal Officer (PNO).</span>
-                  <p className="text-slate-600 mt-1 leading-relaxed">Escalate to the bank&apos;s apex PNO if Level 1 fails or if agent harassment persists (14 to 21 days turnaround).</p>
+                  <p className="text-slate-600 mt-1 leading-relaxed">Escalate to the bank&apos. s apex PNO if Level 1 fails or if agent threats persists (14 to 21 days turnaround).</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-emerald-200 shadow-xs space-y-1">
                   <span className="text-[11px] font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded">Level 3: RBI Integrated Ombudsman.</span>
-                  <p className="text-slate-600 mt-1 leading-relaxed">Lodge a complaint on cms.rbi.org.in for unfair settlement cancellations or violations of the Fair Practices Code.</p>
+                  <p className="text-slate-600 mt-1 leading-relaxed">Lodge a complaint on cms.rbi.org.in for unfair closure cancellations or violations of the Fair Practices Code.</p>
                 </div>
               </div>
             </section>
@@ -492,9 +456,7 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 8. Chronological Timeline: Default to Re-Settlement
               </h2>
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                Follow chronological milestones and legal deadlines from initial installment default to final NDC delivery:
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> Follow chronological milestones and legal deadlines from first installment default to final NDC delivery: </p>
 
               <div className="overflow-x-auto rounded-2xl border border-slate-200/80 bg-white shadow-xs">
                 <table className="w-full text-left text-xs border-collapse">
@@ -511,31 +473,31 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
                       <td className="p-3 font-bold text-slate-900">Days 1-15</td>
                       <td className="p-3">Technical Default.</td>
                       <td className="p-3">Grace tracking</td>
-                      <td className="p-3 text-[#1886ff] font-semibold">Exercise grace clause, audit ledger, notify branch.</td>
+                      <td className="p-3 text-[#1886ff] font-semibold">Exercise grace clause. Audit ledger. Notify branch.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80">
                       <td className="p-3 font-bold text-slate-900">Days 16-30</td>
                       <td className="p-3">Sanction Breach</td>
                       <td className="p-3">Revocation warning.</td>
-                      <td className="p-3 text-[#1886ff] font-semibold">Submit hardship petition, request bilateral meeting.</td>
+                      <td className="p-3 text-[#1886ff] font-semibold">Submit hardship petition. Request bilateral meeting.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80">
                       <td className="p-3 font-bold text-slate-900">Days 31-60</td>
                       <td className="p-3">Revived NPA</td>
                       <td className="p-3">Section 138/25 notices.</td>
-                      <td className="p-3 text-[#1886ff] font-semibold">Issue legal reply, challenge arbitrator, propose revised OTS.</td>
+                      <td className="p-3 text-[#1886ff] font-semibold">Issue legal reply. Challenge arbitrator. Propose revised OTS.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80">
                       <td className="p-3 font-bold text-slate-900">Days 61-90</td>
                       <td className="p-3">Revalidated OTS</td>
                       <td className="p-3">Revised terms approved.</td>
-                      <td className="p-3 text-[#1886ff] font-semibold">Vet revised sanction letter, pay updated down payment.</td>
+                      <td className="p-3 text-[#1886ff] font-semibold">Vet revised sanction letter. Pay updated down payment.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80">
                       <td className="p-3 font-bold text-slate-900">Month 4-5</td>
                       <td className="p-3">Settled / Closed.</td>
                       <td className="p-3">Ledger zero-balanced.</td>
-                      <td className="p-3 text-[#1886ff] font-semibold">Collect official NDC, initiate CIBIL record update.</td>
+                      <td className="p-3 text-[#1886ff] font-semibold">Collect valid NDC. Initiate CIBIL record update.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -551,19 +513,17 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 9. Real-World Settlement Default Scenarios &amp; Strategic Solutions
               </h2>
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                Applying tailored negotiation strategies across different borrower profiles ensures protected resolution:
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> Applying tailored talks strategies across different clients profiles ensures protected relief: </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
                   <h3 className="font-bold text-slate-900 text-sm">Multi-Lender Portfolio Balancing</h3>
-                  <p className="text-slate-600 leading-relaxed">Defaulting on multiple loans requires sequencing settlements one by one rather than exhausting funds simultaneously across lenders.</p>
+                  <p className="text-slate-600 leading-relaxed">Defaulting on multiple loans requires sequencing closures one by one rather than exhausting funds simultaneously across lenders.</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
-                  <h3 className="font-bold text-slate-900 text-sm">Corporate Executive Layoffs</h3>
-                  <p className="text-slate-600 leading-relaxed">Submit verified severance paperwork to freeze installment schedules for 60 days without forfeiting prior tranche payments.</p>
+                  <h3 className="font-bold text-slate-900 text-sm">firm Executive Layoffs</h3>
+                  <p className="text-slate-600 leading-relaxed">Submit checked severance papers to freeze installment schedules for 60 days without forfeiting prior tranche payments.</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
@@ -573,7 +533,7 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
                   <h3 className="font-bold text-slate-900 text-sm">ARC Debt Assignments</h3>
-                  <p className="text-slate-600 leading-relaxed">Leverage ARC discounted acquisition prices (70%-80% off) to negotiate deep 4 to 6 month restructured settlement terms.</p>
+                  <p className="text-slate-600 leading-relaxed">Leverage ARC discounted acquisition prices (70%-80% off) to settle deep 4 to 6 month restructured closure terms.</p>
                 </div>
               </div>
             </section>
@@ -622,12 +582,12 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
 
               <ul className="space-y-1.5 text-xs text-slate-700 leading-relaxed list-disc pl-5">
                 <li><strong className="text-slate-900 font-bold">RBI:</strong> Master Direction on Fair Practices Code for Lenders.</li>
-                <li><strong className="text-slate-900 font-bold">RBI Ombudsman Scheme 2021:</strong> Statutory dispute mechanism on cms.rbi.org.in.</li>
-                <li><strong className="text-slate-900 font-bold">CICRA 2005 (§21):</strong> Credit dispute resolution and bureau remark rectification.</li>
-                <li><strong className="text-slate-900 font-bold">PSSA 2007 (§25):</strong> Dishonour of electronic funds transfer / NACH mandates.</li>
-                <li><strong className="text-slate-900 font-bold">RDB Act 1993 (§19):</strong> Original Applications before Debt Recovery Tribunals (DRT).</li>
-                <li><strong className="text-slate-900 font-bold">Indian Contract Act 1872:</strong> Sections 73 &amp; 74 regarding contractual damages.</li>
-                <li><strong className="text-slate-900 font-bold">NI Act 1881 (§138 &amp; §147):</strong> Cheque dishonour defense and compounding of offenses.</li>
+                <li><strong className="text-slate-900 font-bold">RBI RBI officer Scheme 2021:</strong> legal dispute mechanism on cms.rbi.org.in.</li>
+                <li><strong className="text-slate-900 font-bold">CICRA 2005 (§21):</strong> Credit dispute relief and desk remark rectification.</li>
+                <li><strong className="text-slate-900 font-bold">PSSA 2007 (§25):</strong> Dishonour of online funds transfer / NACH mandates.</li>
+                <li><strong className="text-slate-900 font-bold">RDB Act 1993 (§19):</strong> Original Applications before Debt claims Tribunals (DRT).</li>
+                <li><strong className="text-slate-900 font-bold">Indian Contract Act 1872:</strong> Sections 73 &amp. 74 regarding contractual damages.</li>
+                <li><strong className="text-slate-900 font-bold">NI Act 1881 (§138 &amp. §147):</strong> Cheque dishonour defense and growing of offenses.</li>
               </ul>
 
               <div className="pt-2">
@@ -692,14 +652,10 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
                   <Link href="/author/ashish-jhangra" className="text-xs font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[10px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional.
-                  </p>
+                  <p className="text-[10px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief experts. </p>
                 </div>
               </div>
-              <p className="text-slate-600 leading-relaxed text-[11px]">
-                Specialized in banking regulations, settlement default remedies, and retail NPA compromise resolution across Indian banking tribunals.
-              </p>
+              <p className="text-slate-600 leading-relaxed text-[11px]"> Specialized in banking rules. Closure default remedies. retail NPA deal relief across Indian banking tribunals. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
                   <span>Author Profile</span>
@@ -716,12 +672,8 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
                 <span className="text-[10px] font-black uppercase text-blue-200 bg-white/10 px-2.5 py-0.5 rounded-full inline-block">
                   100% CONFIDENTIAL DEBT RELIEF.
                 </span>
-                <p className="text-base font-bold text-white leading-snug">
-                  Defaulted on Your Settlement Agreement?
-                </p>
-                <p className="text-blue-100 text-xs leading-relaxed font-normal">
-                  Our debt resolution experts negotiate directly with bank credit committees to cure defaults, stop legal escalation. Restore settlement discounts.
-                </p>
+                <p className="text-base font-bold text-white leading-snug"> Defaulted on Your closure pacts? </p>
+                <p className="text-blue-100 text-xs leading-relaxed font-normal"> Our debt relief experts settle straight with bank credit boards to cure defaults. Stop legal escalation. Restore closure discounts. </p>
               </div>
               <Link href="/contact" className="block w-full bg-white text-blue-900 hover:text-[#1886ff] py-2.5 px-3 rounded-full font-bold text-xs hover:bg-slate-50 transition-all shadow-md">
                 Defaulted on OTS? Speak to Senior Advisors
@@ -738,9 +690,9 @@ export default function WhatHappensIfIDefaultOnSettlementAgreementClient() {
               <p className="font-bold text-slate-900 text-xs">The CredSettle Advantage.</p>
               <ul className="space-y-1.5 text-slate-600 text-[11px]">
                 <li className="flex items-center gap-1.5"><Check className="w-3 h-3 text-emerald-600 flex-shrink-0"/><span className="leading-snug"><strong>Zero Upfront Risk:</strong> Success-linked advisory model.</span></li>
-                <li className="flex items-center gap-1.5"><Check className="w-3 h-3 text-emerald-600 flex-shrink-0"/><span className="leading-snug"><strong>Direct Remittance:</strong> Zero middleman account transfers.</span></li>
-                <li className="flex items-center gap-1.5"><Check className="w-3 h-3 text-emerald-600 flex-shrink-0"/><span className="leading-snug"><strong>RBI &amp; Banking Norms:</strong> 100% lawful dispute handling.</span></li>
-                <li className="flex items-center gap-1.5"><Check className="w-3 h-3 text-emerald-600 flex-shrink-0"/><span className="leading-snug"><strong>Pan-India Defense:</strong> Senior banking resolution team.</span></li>
+                <li className="flex items-center gap-1.5"><Check className="w-3 h-3 text-emerald-600 flex-shrink-0"/><span className="leading-snug"><strong>Direct wire transfer:</strong> Zero middleman account transfers.</span></li>
+                <li className="flex items-center gap-1.5"><Check className="w-3 h-3 text-emerald-600 flex-shrink-0"/><span className="leading-snug"><strong>RBI &amp. Banking Norms:</strong> 100% lawful dispute handling.</span></li>
+                <li className="flex items-center gap-1.5"><Check className="w-3 h-3 text-emerald-600 flex-shrink-0"/><span className="leading-snug"><strong>Pan-India Defense:</strong> Senior banking relief team.</span></li>
               </ul>
             </div>
 

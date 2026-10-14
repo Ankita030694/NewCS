@@ -47,43 +47,43 @@ export default function StopCreditCardRecoveryCallsClient() {
     const faqs = [
         {
             q: 'How can I stop credit card recovery calls immediately in India?',
-            a: "Serve a formal Cease-and-Desist notice via email to the bank Grievance Redressal Officer and Principal Nodal Officer, citing RBI Fair Practices Code rules that prohibit harassment and restrict collection communication only to registered written channels."
+            a: "Serve a formal Cease-and-Desist notice via email to the bank Grievance Redressal head and main sum Nodal head. Citing RBI Fair Practices Code rules that prohibit threats and restrict calls contact only to registered written channels."
         },
         {
             q: 'What are the official RBI rules regarding credit card recovery call timings?',
-            a: 'Under RBI Master Directions, recovery telecallers can contact borrowers only between 8:00 AM and 7:00 PM. Calls placed outside this window constitute actionable regulatory violations punishable by the RBI Ombudsman.'
+            a: 'Under RBI Master Directions. Claims telecallers can contact clients only between 8:00 AM and 7:00 PM. Calls placed outside this window constitute actionable RBI violations punishable by the RBI RBI officer.'
         },
         {
             q: 'Can credit card recovery agents call my family, friends, or office HR?',
-            a: 'No. RBI rules strictly prohibit contacting family, friends, or employers regarding card defaults. Disclosing debt details to third parties violates privacy laws and constitutes criminal defamation under Section 499 IPC.'
+            a: 'No. RBI rules strictly prohibit contacting family. Friends. employers regarding card defaults. Disclosing debt details to third parties violates privacy laws and constitutes penal slander under Section 499 IPC.'
         },
         {
             q: 'Can I go to jail or face police arrest for credit card payment default?',
-            a: 'No. Credit card default is purely a civil breach of contract under the Indian Contract Act. Non-payment is not a criminal offense, and recovery agents cannot issue arrest warrants or police summons.'
+            a: 'No. Credit card default is purely a civil breach of contract under the Indian Contract Act. Non-payment is not a crime. claims agents cannot issue arrest warrants or police summons.'
         },
         {
             q: 'Is it legal to record phone calls with aggressive credit card recovery agents?',
-            a: 'Yes. Borrowers have the legal right to record agent calls. Audio logs serve as admissible electronic evidence under Section 65B of the Indian Evidence Act when submitting formal complaints before banking authorities.'
+            a: 'Yes. clients have the legal right to record agent calls. Audio logs serve as admissible online evidence under Section 65B of the Indian Evidence Act when submitting formal complaints before banking authorities.'
         },
         {
             q: 'What is a Cease and Desist notice for bank recovery harassment?',
-            a: "A Cease and Desist notice is a formal legal notice sent to bank nodal officers documenting collection harassment and mandating that the lender immediately recall recovery agencies and communicate only in writing."
+            a: "A Cease and Desist notice is a formal legal notice sent to bank nodal heads documenting calls threats and mandating that the lender fast recall claims firms and communicate only in writing."
         },
         {
             q: 'How do I file a formal complaint against credit card recovery harassment with the RBI Ombudsman?',
-            a: 'If the bank fails to resolve harassment within 30 days, submit a complaint at cms.rbi.org.in under the RBI Integrated Ombudsman Scheme, attaching call records and your prior nodal officer grievance letters.'
+            a: 'If the bank fails to resolve threats within 30 days. Submit a complaint at cms.rbi.org.in under the RBI Integrated RBI officer Scheme. Attaching call records and your prior nodal head grievance letters.'
         },
         {
             q: 'What happens if a credit card bank sends a Section 138 or Section 25 legal notice?',
-            a: 'If auto-debit mandates or cheques bounce, the bank may send a statutory notice under Section 25 PSSA or Section 138 NI Act. Reply through legal counsel within 15 days to seek conciliation.'
+            a: 'If auto-debit mandates or cheques bounce. The bank may send a legal notice under Section 25 PSSA or Section 138 NI Act. Reply through legal counsel within 15 days to seek conciliation.'
         },
         {
             q: 'Can I settle my credit card dues through a One-Time Settlement (OTS) to stop calls permanently?',
-            a: "Yes. An official One-Time Settlement permanently resolves debt and halts collection calls. Eligible borrowers can waive 100% of penalty charges and 40% to 55% of principal, receiving a No Dues Certificate."
+            a: "Yes. An valid One-Time closure permanently resolves debt and halts calls calls. Eligible clients can waive 100% of fine charges and 40% to 55% of main sum. Receiving a No Dues letter."
         },
         {
             q: 'How does settling a credit card affect my CIBIL score and can it be repaired?',
-            a: 'Settling marks the account as Settled, temporarily lowering CIBIL scores. However, cardholders can rebuild credit to 750+ over 12 to 24 months using secured credit cards or Section 21 CICRA status conversion.'
+            a: 'Settling marks the account as Settled. Temporarily lowering CIBIL scores. yet. Cardholders can rebuild credit to 750+ over 12 to 24 months using secured credit cards or Section 21 CICRA status conversion.'
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -100,9 +100,7 @@ export default function StopCreditCardRecoveryCallsClient() {
             How to Stop Credit Card Recovery Calls Immediately
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed">
-            Inundated with relentless collection calls and aggressive recovery agents? Enforce strict Reserve Bank of India calling regulations, issue formal statutory cease-and-desist notices. Transition your unsecured card dues into an affordable compromise settlement.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed"> Inundated with relentless calls calls and harsh claims agents? Enforce strict Reserve Bank of India calling rules. Issue formal legal cease-and-desist notices. Transition your clean card dues into an affordable deal closure. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
@@ -145,9 +143,7 @@ export default function StopCreditCardRecoveryCallsClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
                   <span>Statutory Legal Defense.</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Protected under RBI Master Directions, TRAI Regulations &amp; Consumer Protection Act 2019.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Protected under RBI Master Directions. TRAI rules &amp. Consumer safety Act 2019. </p>
               </div>
             </div>
           </aside>
@@ -163,61 +159,21 @@ export default function StopCreditCardRecoveryCallsClient() {
               </div>
 
               <ul className="space-y-3 text-xs sm:text-sm text-slate-700 leading-relaxed">
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Strict Calling Window:</strong> RBI rules bar recovery calls before 8:00 AM or after 7:00 PM.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Strict Calling Window:</strong> RBI rules bar claims calls before 8:00 AM or after 7:00 PM. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Third-Party Privacy:</strong> Agents cannot contact relatives, employers, or friends under any situation.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Third-Party Privacy:</strong> Agents cannot contact relatives. Employers. friends under any case. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Civil Dispute:</strong> Card default is a civil contract breach; police arrest threats are illegal.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Civil Dispute:</strong> Card default is a civil contract breach. police arrest threats are unlawful. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Call Recording Right:</strong> Borrowers can legally record all agent calls as Section 65B electronic evidence.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Call Recording Right:</strong> clients can by law record all agent calls as Section 65B online evidence. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Cease-and-Desist Effect:</strong> Formal notices to bank nodal officers halt agency calls within 48 hours.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Cease-and-Desist Effect:</strong> Formal notices to bank nodal heads halt firm calls within 48 hours. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Mandatory DRA Badges:</strong> Visiting recovery agents must carry bank approval letters and IIBF DRA credentials.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Mandatory DRA Badges:</strong> Visiting claims agents must carry bank approval letters and IIBF DRA credentials. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">RBI Ombudsman Remedy:</strong> Unresolved harassment escalates directly to cms.rbi.org.in for regulatory sanctions.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">RBI RBI officer Remedy:</strong> Unresolved threats escalates straight to cms.rbi.org.in for RBI sanctions. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/>
-                  <div>
-                    <strong className="text-slate-900 font-bold">Permanent OTS Resolution:</strong> Negotiating a 40% to 55% One-Time Settlement permanently eliminates debt and calls.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Permanent OTS relief:</strong> settle a 40% to 55% One-Time closure permanently eliminates debt and calls. </div> </li>
               </ul>
             </div>
 
@@ -230,12 +186,8 @@ export default function StopCreditCardRecoveryCallsClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 1. Credit Card Debt Economics &amp; NPA Portfolio Dynamics
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Credit cards represent high-risk unsecured revolving credit lines where lending institutions maintain zero underlying physical collateral. When a cardholder misses consecutive monthly payment deadlines, the exposure follows a rigid regulatory classification trajectory under Reserve Bank of India prudential asset norms. From Day 1 to Day 30 of default, the account is categorized as Special Mention Account Zero (SMA-0), escalating to SMA-1 (31 to 60 days) and SMA-2 (61 to 90 days). Once non-payment surpasses 90 days, the bank is legally compelled under RBI balance sheet directives to classify the balance as a Non-Performing Asset (NPA).
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Classifying an account as an NPA forces commercial banks to allocate mandatory Tier-1 capital provisioning, locking up liquid capital against the bad loan. Because unsecured credit cards are exempt from SARFAESI Act property confiscation, banks cannot seize residential property. as a result, lenders deploy aggressive third-party collection agencies on heavy commission incentives. Understanding these banking mechanics clarifies that relentless telecalling is an institutional push to extract cash before full write-off, creating the commercial foundation for an affordable One-Time Settlement (OTS).
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Credit cards represent high-risk clean revolving credit lines where lending institutions maintain zero underlying real pledge. When a cardholder misses running monthly payment deadlines. The exposure follows a rigid RBI classification trajectory under Reserve Bank of India prudential asset norms. From Day 1 to Day 30 of default. The account is categorized as Special Mention Account Zero (SMA-0). Escalating to SMA-1 (31 to 60 days) and SMA-2 (61 to 90 days). Once non-payment surpasses 90 days. The bank is by law compelled under RBI balance sheet directives to classify the balance as a Non-Performing Asset (NPA). </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Classifying an account as an NPA forces trade banks to allocate mandatory Tier-1 capital provisioning. Locking up liquid capital against the bad loan. Because clean credit cards are exempt from SARFAESI Act home confiscation. Banks cannot seize home home. As a result. Lenders deploy harsh third-party calls firms on heavy commission incentives. Grasp these banking workings clarifies that relentless telecalling is an bank push to extract cash before full write-off. Creating the trade foundation for an affordable One-Time closure (OTS). </p>
             </section>
 
             {/* SECTION 2: Financial Breakdown & Settlement Math */}
@@ -247,12 +199,8 @@ export default function StopCreditCardRecoveryCallsClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 2. Financial Breakdown: Principal vs. Compounding Penal Interest
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Unpaid credit card balances compound aggressively due to annualized percentage rates oscillating between 42% and 48%, combined with monthly late fees and 18% GST surcharges. Over six months of payment default, these compounding penal surcharges often double the ledger balance, transforming manageable consumer borrowing into an unpayable artificial debt.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                During bilateral compromise negotiations, institutional credit committees routinely strip away 100% of accrued late fees, penal surcharges. Unbilled finance interest. Compromise settlements are evaluated strictly against the baseline principal exposure, typically resolving between 40% and 55% of the total recorded ledger claim upon establishing genuine financial distress.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Unpaid credit card balances compound aggressively due to annualized rate rates oscillating between 42% and 48%. Combined with monthly late fees and 18% GST surcharges. Over six months of payment default. These growing penal surcharges often double the ledger balance. Transforming manageable consumer borrowing into an unpayable artificial debt. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> During bilateral deal talks. bank credit boards routinely strip away 100% of accrued late fees. Penal surcharges. Unbilled finance rates. Deal closures are evaluated strictly against the baseline main sum exposure. Typically resolving between 40% and 55% of the total recorded ledger claim upon establishing genuine money distress. </p>
 
               <div className="bg-white p-5 sm:p-6 rounded-2xl border border-slate-200/80 shadow-xs space-y-3">
                 <div className="flex items-center justify-between pb-2 border-b border-slate-100">
@@ -291,9 +239,7 @@ export default function StopCreditCardRecoveryCallsClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 3. Comparative Resolution Matrix: Recovery Pathways Analyzed
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Comparing available debt resolution routes highlights clear trade-offs across cost, timeline, and harassment relief:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Comparing available debt relief routes highlights clear trade-offs across cost. Timeline. threats relief: </p>
 
               <div className="overflow-x-auto rounded-2xl border border-slate-200/80 bg-white shadow-xs">
                 <table className="w-full text-left text-xs md:text-sm">
@@ -309,12 +255,12 @@ export default function StopCreditCardRecoveryCallsClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-100 text-slate-600">
                     <tr className="hover:bg-slate-50/50">
-                      <td className="p-3.5 font-bold text-slate-900">Compromise OTS</td>
+                      <td className="p-3.5 font-bold text-slate-900">deal OTS</td>
                       <td className="p-3.5">RBI Policy</td>
                       <td className="p-3.5 text-emerald-700 font-semibold">Stops Permanently.</td>
                       <td className="p-3.5 font-bold text-emerald-700">40%-55% Waiver</td>
                       <td className="p-3.5">30-60 Days</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold">Cease-and-Desist &amp; NDC.</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold">Cease-and-Desist &amp. NDC.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50">
                       <td className="p-3.5 font-bold text-slate-900">Loan Restructure.</td>
@@ -328,21 +274,21 @@ export default function StopCreditCardRecoveryCallsClient() {
                       <td className="p-3.5 font-bold text-slate-900">Lok Adalat</td>
                       <td className="p-3.5">NALSA Act 1987</td>
                       <td className="p-3.5 text-emerald-700 font-semibold">Halted by Consent.</td>
-                      <td className="p-3.5 font-bold text-emerald-700">30%-50% Compromise.</td>
+                      <td className="p-3.5 font-bold text-emerald-700">30%-50% deal.</td>
                       <td className="p-3.5">1 Day</td>
                       <td className="p-3.5 text-[#1886ff] font-semibold">Non-appealable decree.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50">
                       <td className="p-3.5 font-bold text-slate-900">Civil Suit</td>
                       <td className="p-3.5">CPC 1908</td>
-                      <td className="p-3.5 text-blue-700 font-semibold">Handled by Lawyers.</td>
+                      <td className="p-3.5 text-blue-700 font-semibold">Handled by counsel.</td>
                       <td className="p-3.5">Court Decision</td>
                       <td className="p-3.5">2-5 Years</td>
                       <td className="p-3.5 text-[#1886ff] font-semibold">Leave to defend rights.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50">
                       <td className="p-3.5 font-bold text-slate-900">Inaction</td>
-                      <td className="p-3.5">Agency Recovery</td>
+                      <td className="p-3.5">firm claims</td>
                       <td className="p-3.5 text-red-700 font-semibold">Escalates</td>
                       <td className="p-3.5 text-red-700">Zero Waiver</td>
                       <td className="p-3.5">Indefinite</td>
@@ -362,12 +308,8 @@ export default function StopCreditCardRecoveryCallsClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 4. Technical CIBIL Algorithm &amp; Bureau Scoring Math
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                TransUnion CIBIL calculates three-digit credit scores between 300 and 900 based on five weighted pillars: 35% Payment History, 30% Credit use Ratio, 15% Credit History Length, 10% Credit Mix. 10% New Inquiries. Credit card defaults directly damage the 35% payment history component, triggering an immediate drop of 80 to 140 points as Days Past Due (DPD) counters climb past 90 days.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When an account is settled through an OTS, the bank updates bureau records with a Settled status code. While Settled marks the end of active recovery and litigation risk, it depresses scores temporarily. Under Section 21 of the Credit Information Companies (Regulation) Act, 2005 (CICRA), cardholders can later request conversion to Closed by paying agreed differential balances or by rebuilding their score to 750+ within 12 to 24 months using secured credit cards.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> TransUnion CIBIL calculates three-digit credit scores between 300 and 900 based on five weighted pillars: 35% Payment History. 30% Credit use Ratio. 15% Credit History Length. 10% Credit Mix. 10% New Inquiries. Credit card defaults straight damage the 35% payment history component. Triggering an fast drop of 80 to 140 points as Days Past Due (DPD) counters climb past 90 days. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When an account is settled through an OTS. The bank updates desk records with a Settled status code. While Settled marks the end of active claims and litigation risk. It depresses scores temporarily. Under Section 21 of the Credit Information Companies (rule) Act. 2005 (CICRA). Cardholders can later request conversion to Closed by paying agreed differential balances or by rebuilding their score to 750+ within 12 to 24 months using secured credit cards. </p>
             </section>
 
             {/* SECTION 5: Visual Infographic Asset Card */}
@@ -379,9 +321,7 @@ export default function StopCreditCardRecoveryCallsClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Visual Defense Blueprint: Anti-Harassment &amp; Settlement Architecture
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Refer to this visual blueprint outlining statutory calling limits, evidence collection protocols, 3-tier grievance escalation channels. Compromise settlement workflows:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Refer to this visual blueprint outlining legal calling limits. Evidence calls protocols. 3-tier grievance escalation channels. deal closure workflows: </p>
 
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-sm p-3 md:p-4 overflow-hidden">
                 <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-slate-100">
@@ -406,9 +346,7 @@ export default function StopCreditCardRecoveryCallsClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 5. Standard Operating Procedure (SOP): 6 Stages of Recovery Call Defense
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Follow this battle-tested procedure to halt aggressive collection calls, assert your statutory protections, and secure a final settlement:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Follow this battle-tested procedure to halt harsh calls calls. Assert your legal safety. secure a final closure: </p>
 
               <div className="space-y-4 pt-2">
                 {/* Stage 1 */}
@@ -419,12 +357,8 @@ export default function StopCreditCardRecoveryCallsClient() {
                     </span>
                     <span className="text-xs font-semibold text-slate-500">Days 1–3</span>
                   </div>
-                  <h3 className="text-base md:text-lg font-bold text-slate-900">
-                    Forensic Call &amp; Ledger Audit
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Log call timestamps, numbers, and agency names. Audit card statements to isolate actual principal borrowings from compounding 48% APR finance fees, GST charges. Late penalties.
-                  </p>
+                  <h3 className="text-base md:text-lg font-bold text-slate-900"> Forensic Call &amp. Ledger Audit </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Log call timestamps. Numbers. firm names. Audit card statements to isolate actual main sum borrowings from growing 48% APR finance fees. GST charges. Late fines. </p>
                 </div>
 
                 {/* Stage 2 */}
@@ -435,12 +369,8 @@ export default function StopCreditCardRecoveryCallsClient() {
                     </span>
                     <span className="text-xs font-semibold text-slate-500">Days 4–7</span>
                   </div>
-                  <h3 className="text-base md:text-lg font-bold text-slate-900">
-                    Statutory Hardship Dossier &amp; Cease-and-Desist
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Compile paperwork of hardship, such as salary termination letters. Dispatch a formal Cease-and-Desist notice to the bank Grievance Redressal Officer mandating the cessation of telephonic harassment.
-                  </p>
+                  <h3 className="text-base md:text-lg font-bold text-slate-900"> legal Hardship Dossier &amp. Cease-and-Desist </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Compile papers of hardship. Such as salary end letters. Dispatch a formal Cease-and-Desist notice to the bank Grievance Redressal head mandating the cessation of telephonic threats. </p>
                 </div>
 
                 {/* Stage 3 */}
@@ -451,12 +381,8 @@ export default function StopCreditCardRecoveryCallsClient() {
                     </span>
                     <span className="text-xs font-semibold text-slate-500">Days 8–15</span>
                   </div>
-                  <h3 className="text-base md:text-lg font-bold text-slate-900">
-                    Formal Representation to Credit Committee &amp; PNO
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Submit written representations to the Bank Principal Nodal Officer, requesting transfer of your account from third-party recovery vendors to the Special Assets Desk for structured compromise.
-                  </p>
+                  <h3 className="text-base md:text-lg font-bold text-slate-900"> Formal Representation to Credit board &amp. PNO </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Submit written representations to the Bank main sum Nodal head. Requesting transfer of your account from third-party claims vendors to the Special Assets Desk for structured deal. </p>
                 </div>
 
                 {/* Stage 4 */}
@@ -467,12 +393,8 @@ export default function StopCreditCardRecoveryCallsClient() {
                     </span>
                     <span className="text-xs font-semibold text-slate-500">Days 16–30</span>
                   </div>
-                  <h3 className="text-base md:text-lg font-bold text-slate-900">
-                    Bilateral Waiver Negotiations
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Negotiate directly with bank managers, countering inflated claims with a realistic 40% to 55% settlement proposal based on audited principal exposure and documented financial insolvency.
-                  </p>
+                  <h3 className="text-base md:text-lg font-bold text-slate-900"> Bilateral Waiver talks </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> settle straight with bank managers. Countering inflated claims with a realistic 40% to 55% closure proposal based on audited main sum exposure and documented money insolvency. </p>
                 </div>
 
                 {/* Stage 5 */}
@@ -483,12 +405,8 @@ export default function StopCreditCardRecoveryCallsClient() {
                     </span>
                     <span className="text-xs font-semibold text-slate-500">Days 31–45</span>
                   </div>
-                  <h3 className="text-base md:text-lg font-bold text-slate-900">
-                    Official Settlement Letter Vetting
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Vet the written One-Time Settlement offer letter issued from the bank official domain, ensuring it specifies full debt waiver, installment dates. A commitment to issue an NDC.
-                  </p>
+                  <h3 className="text-base md:text-lg font-bold text-slate-900"> valid closure note Vetting </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Vet the written One-Time closure offer letter issued from the bank valid domain. Making sure it specifies full debt waiver. Installment dates. A commitment to issue an NDC. </p>
                 </div>
 
                 {/* Stage 6 */}
@@ -499,12 +417,8 @@ export default function StopCreditCardRecoveryCallsClient() {
                     </span>
                     <span className="text-xs font-semibold text-slate-500">Days 46–60</span>
                   </div>
-                  <h3 className="text-base md:text-lg font-bold text-slate-900">
-                    Direct Remittance &amp; NDC Issuance
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    pay settlement funds directly into your credit card loan account via official channels. Within 30 days, obtain your unconditional No Dues Certificate and verify bureau closure.
-                  </p>
+                  <h3 className="text-base md:text-lg font-bold text-slate-900"> Direct wire transfer &amp. NDC Issuance </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> pay closure funds straight into your credit card loan account via valid channels. Within 30 days. Obtain your unconditional No Dues letter and check desk closure. </p>
                 </div>
               </div>
             </section>
@@ -518,9 +432,7 @@ export default function StopCreditCardRecoveryCallsClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 6. Statutory Notice Defense &amp; Borrower Legal Protections
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When credit card accounts default, lenders may issue statutory legal notices. Understanding analytical defenses prevents panic and protects your rights:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When credit card accounts default. Lenders may issue legal legal notices. grasp analytical defenses prevents panic and protects your rights: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -528,9 +440,7 @@ export default function StopCreditCardRecoveryCallsClient() {
                     <FileWarning className="w-4 h-4"/>
                     <span>Section 25 PSSA (NACH Mandate Dishonor).</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Section 25 PSSA penalizes electronic mandate bounces. Defense involves showing that non-payment arose from financial distress rather than fraudulent intent, establishing prior mandate cancellation requests. Seeking compromise conciliation.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Section 25 PSSA penalizes online mandate bounces. Defense involves showing that non-payment arose from money distress rather than fraudulent intent. Establishing prior mandate cancellation requests. Seeking deal conciliation. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -538,9 +448,7 @@ export default function StopCreditCardRecoveryCallsClient() {
                     <Gavel className="w-4 h-4"/>
                     <span>Section 138 NI Act (Cheque Dishonor Notice).</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    If security cheques bounce, lenders issue a statutory notice under Section 138 of the Negotiable Instruments Act. Defense requires showing that the cheque served as security rather than discharge of an undisputed debt, disputing penal calculations. Seeking statutory compounding.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> If security cheques bounce. Lenders issue a legal notice under Section 138 of the Negotiable Instruments Act. Defense requires showing that the cheque served as security rather than discharge of an undisputed debt. Disputing penal calculations. Seeking legal growing. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -548,9 +456,7 @@ export default function StopCreditCardRecoveryCallsClient() {
                     <Landmark className="w-4 h-4"/>
                     <span>Section 21 Arbitration Act (Unilateral Appointments).</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Banks often initiate private arbitration. Landmark Supreme Court rulings in Perkins Eastman and TRF Ltd. hold that banks cannot unilaterally appoint arbitrators, providing absolute Section 12(5) grounds to invalidate proceedings.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Banks often initiate private arbitration. Landmark Supreme Court rulings in Perkins Eastman and TRF Ltd. Hold that banks cannot unilaterally appoint arbitrators. Providing absolute Section 12(5) grounds to invalidate steps. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -558,9 +464,7 @@ export default function StopCreditCardRecoveryCallsClient() {
                     <ShieldAlert className="w-4 h-4"/>
                     <span>DRT Section 19 &amp; RBI Fair Practices Code.</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Debt Recovery Tribunal actions apply strictly over ₹20 Lakhs. For credit cards, RBI Master Directions on Fair Practices Code strictly prohibit intimidation, physical visits without notice. Calls outside 8 AM to 7 PM.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Debt claims court actions apply strictly over ₹20 Lakhs. For credit cards. RBI Master Directions on Fair Practices Code strictly prohibit threaten. Real visits without notice. Calls outside 8 AM to 7 PM. </p>
                 </div>
               </div>
             </section>
@@ -574,9 +478,7 @@ export default function StopCreditCardRecoveryCallsClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 7. The 3-Tier Escalation Matrix &amp; Regulatory Grievance Channels
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                If collection callers persist with unlawful harassment, escalate systematically through this structured 3-tier regulatory hierarchy:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> If calls callers persist with unlawful threats. Escalate systematically through this structured 3-tier RBI hierarchy: </p>
 
               <div className="space-y-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -586,12 +488,8 @@ export default function StopCreditCardRecoveryCallsClient() {
                     </span>
                     <span className="text-xs text-slate-500 font-semibold">Turnaround: 7–10 Days.</span>
                   </div>
-                  <h3 className="text-sm md:text-base font-bold text-slate-900">
-                    Formal Cease-and-Desist Notice &amp; Call Log Submission
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Submit a written complaint with call logs to the branch GRO, demanding the immediate recall of third-party recovery agencies.
-                  </p>
+                  <h3 className="text-sm md:text-base font-bold text-slate-900"> Formal Cease-and-Desist Notice &amp. Call Log Submission </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Submit a written complaint with call logs to the branch GRO. Demanding the fast recall of third-party claims firms. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -601,12 +499,8 @@ export default function StopCreditCardRecoveryCallsClient() {
                     </span>
                     <span className="text-xs text-slate-500 font-semibold">Turnaround: 14–21 Days.</span>
                   </div>
-                  <h3 className="text-sm md:text-base font-bold text-slate-900">
-                    Executive Escalation for Fair Practices Violations
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Escalate unresolved grievances to the executive PNO, citing specific RBI Fair Practices Code violations to prompt internal vendor audits.
-                  </p>
+                  <h3 className="text-sm md:text-base font-bold text-slate-900"> Executive Escalation for Fair Practices Violations </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Escalate unresolved grievances to the executive PNO. Citing exact RBI Fair Practices Code violations to prompt internal vendor audits. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-emerald-200 shadow-xs space-y-2">
@@ -616,12 +510,8 @@ export default function StopCreditCardRecoveryCallsClient() {
                     </span>
                     <span className="text-xs text-slate-500 font-semibold">Turnaround: 30 Days.</span>
                   </div>
-                  <h3 className="text-sm md:text-base font-bold text-slate-900">
-                    Statutory Regulatory Adjudication &amp; Sanctions
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Lodge a formal regulatory complaint on cms.rbi.org.in under the Integrated Ombudsman Scheme, 2021 for persistent harassment and regulatory non-compliance.
-                  </p>
+                  <h3 className="text-sm md:text-base font-bold text-slate-900"> legal RBI Adjudication &amp. Sanctions </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Lodge a formal RBI complaint on cms.rbi.org.in under the Integrated RBI officer Scheme. 2021 for persistent threats and RBI non-compliance. </p>
                 </div>
               </div>
             </section>
@@ -635,9 +525,7 @@ export default function StopCreditCardRecoveryCallsClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 8. Chronological Resolution Milestones (Day 1 to Month 6)
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Understanding default milestones helps cardholders navigate collection stages and negotiate strategically:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> grasp default milestones helps cardholders navigate calls stages and settle strategically: </p>
 
               <div className="overflow-x-auto rounded-2xl border border-slate-200/80 bg-white shadow-xs">
                 <table className="w-full text-left text-xs md:text-sm">
@@ -666,19 +554,19 @@ export default function StopCreditCardRecoveryCallsClient() {
                       <td className="p-3.5 font-bold text-slate-900">Day 91-120</td>
                       <td className="p-3.5">Bad Debt Write-Down.</td>
                       <td className="p-3.5 font-bold text-amber-600">NPA</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold">Request compromise OTS with PNO.</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold">Request deal OTS with PNO.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50">
                       <td className="p-3.5 font-bold text-slate-900">Month 4-5</td>
-                      <td className="p-3.5">Settlement Window.</td>
+                      <td className="p-3.5">closure Window.</td>
                       <td className="p-3.5">Special Assets</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold">Negotiate 40%-55% settlement.</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold">settle 40%-55% closure.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50">
                       <td className="p-3.5 font-bold text-slate-900">Month 6</td>
                       <td className="p-3.5">Permanent Closure.</td>
                       <td className="p-3.5 text-emerald-700 font-semibold">NDC</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold">Obtain No Dues Certificate.</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold">Obtain No Dues letter.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -694,49 +582,27 @@ export default function StopCreditCardRecoveryCallsClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 9. Specialized Scenarios: Multi-Card Debt, Layoffs &amp; ARC Transfers
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Credit card defaults occur in varied contexts, each requiring a tailored legal defense strategy:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Credit card defaults occur in varied contexts. Each requiring a tailored legal defense strategy: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
-                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2">
-                    <CreditCard className="w-4 h-4 text-[#1886ff]"/>
-                    Multi-Card Compounding Consolidation
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Cardholders with multiple defaulted accounts face over 40 daily recovery calls. A coordinated strategy pools portfolios, serves unified cease-and-desist notices, and sequences individual settlements efficiently.
-                  </p>
+                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2"> <CreditCard className="w-4 h-4 text-[#1886ff]"/> Multi-Card growing merger </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Cardholders with multiple defaulted accounts face over 40 daily claims calls. A coordinated strategy pools portfolios. Serves unified cease-and-desist notices. sequences individual closures efficiently. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
-                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2">
-                    <UserCheck className="w-4 h-4 text-emerald-600"/>
-                    Executive Layoffs &amp; Income Shocks
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Sudden job loss severely disrupts credit card payments. Documenting financial hardship with severance letters and bank statements encourages bank credit committees to grant maximum settlement concessions.
-                  </p>
+                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2"> <UserCheck className="w-4 h-4 text-emerald-600"/> Executive Layoffs &amp. Income Shocks </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Sudden job loss severely disrupts credit card payments. Documenting money hardship with severance letters and bank statements encourages bank credit boards to grant maximum closure concessions. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
-                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2">
-                    <Briefcase className="w-4 h-4 text-purple-600"/>
-                    Proprietorship Business Card Debt
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Business credit cards used for working capital create personal liability for sole proprietors. Defense focuses on isolating business distress and negotiating OTS terms that shield family assets.
-                  </p>
+                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2"> <Briefcase className="w-4 h-4 text-purple-600"/> Proprietorship firm Card Debt </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> firm credit cards used for working capital create own risk for sole proprietors. Defense focuses on isolating firm distress and settle OTS terms that shield family assets. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
-                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2">
-                    <Building2 className="w-4 h-4 text-amber-600"/>
-                    ARC Debt Assignments (Phoenix, ARCIL)
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    When banks assign aged card debts to ARCs under SARFAESI Section 5 at steep discounts (often 15% to 25%), borrowers gain large leverage to negotiate deep-discount compromise settlements.
-                  </p>
+                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2"> <Building2 className="w-4 h-4 text-amber-600"/> ARC Debt Assignments (Phoenix. ARCIL) </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> When banks assign aged card debts to ARCs under SARFAESI Section 5 at steep discounts (often 15% to 25%). Clients gain large leverage to settle deep-discount deal closures. </p>
                 </div>
               </div>
             </section>
@@ -755,9 +621,7 @@ export default function StopCreditCardRecoveryCallsClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Frequently Asked Questions on Stopping Credit Card Recovery Calls
               </h2>
-              <p className="text-xs md:text-sm text-slate-600">
-                Click on any question below to view detailed legal and procedural answers verified by our debt resolution professionals:
-              </p>
+              <p className="text-xs md:text-sm text-slate-600"> Click on any question below to view detailed legal and procedural answers checked by our debt relief experts: </p>
 
               <div className="space-y-3 pt-2">
                 {faqs.map((faq, index) => {
@@ -785,24 +649,12 @@ export default function StopCreditCardRecoveryCallsClient() {
                 Official Regulatory Citations &amp; Judicial References
               </h2>
               <ul className="space-y-2 text-xs text-slate-600 leading-relaxed list-disc pl-5">
-                <li>
-                  <strong>RBI Master Directions:</strong> Master Direction on Fair Practices Code for Lenders, Grievance Redressal Mechanism &amp; Debt Recovery Agent Standards.
-                </li>
-                <li>
-                  <strong>RBI Integrated Ombudsman Scheme 2021:</strong> Redressal of Unfair Recovery Practices, Intimidation, and Calling Violations.
-                </li>
-                <li>
-                  <strong>CICRA 2005 (Section 21):</strong> Credit Information Dispute Resolution and Bureau Status Updates.
-                </li>
-                <li>
-                  <strong>PSSA 2007 (Section 25):</strong> Electronic Auto-Debit Mandate Dishonor Framework and Defenses.
-                </li>
-                <li>
-                  <strong>NI Act 1881 (Section 138):</strong> Dishonor of Cheque for Inadequacy of Funds and Statutory Limitations.
-                </li>
-                <li>
-                  <strong>Supreme Court Precedents:</strong> <em>Perkins Eastman (2020).</em> &amp; <em>TRF Ltd (2017)</em> on Unilateral Arbitrator Ineligibility.
-                </li>
+                <li> <strong>RBI Master Directions:</strong> Master Direction on Fair Practices Code for Lenders. Grievance Redressal Mechanism &amp. Debt claims Agent Standards. </li>
+                <li> <strong>RBI Integrated RBI officer Scheme 2021:</strong> Redressal of Unfair claims Practices. Threaten. Calling Violations. </li>
+                <li> <strong>CICRA 2005 (Section 21):</strong> Credit Information Dispute relief and desk Status Updates. </li>
+                <li> <strong>PSSA 2007 (Section 25):</strong> online Auto-Debit Mandate Dishonor Framework and Defenses. </li>
+                <li> <strong>NI Act 1881 (Section 138):</strong> Dishonor of Cheque for Inadequacy of Funds and legal Limitations. </li>
+                <li> <strong>Supreme Court Precedents:</strong> <em>Perkins Eastman (2020).</em> &amp. <em>TRF Ltd (2017)</em> on Unilateral Arbitrator Ineligibility. </li>
               </ul>
 
               {/* 6 Outbound Regulatory Authority Badges */}
@@ -889,14 +741,10 @@ export default function StopCreditCardRecoveryCallsClient() {
                   <Link href="/author/ashish-jhangra" className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional.
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief experts. </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Specialized in banking compliance, debt recovery regulations, and NPA settlements with deep expertise enforcing RBI Fair Practices Code.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> Specialized in banking compliance. Debt claims rules. NPA closures with deep expertise enforcing RBI Fair Practices Code. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
                   <span>View Author Profile.</span>
@@ -914,12 +762,8 @@ export default function StopCreditCardRecoveryCallsClient() {
                 <span className="text-xs font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
                   100% CONFIDENTIAL LEGAL DEFENSE.
                 </span>
-                <p className="text-lg md:text-xl font-bold text-white leading-snug">
-                  Facing Harassing Recovery Calls?
-                </p>
-                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
-                  Our debt resolution experts issue cease-and-desist notices, halt agency harassment, and negotiate a 40% to 55% settlement.
-                </p>
+                <p className="text-lg md:text-xl font-bold text-white leading-snug"> Facing Harassing claims Calls? </p>
+                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal"> Our debt relief experts issue cease-and-desist notices. Halt firm threats. settle a 40% to 55% closure. </p>
               </div>
               <Link href="/contact" className="block w-full bg-white text-blue-900 hover:text-[#1886ff] py-3 px-4 rounded-full font-bold text-sm hover:bg-slate-50 transition-all shadow-md">
                 Stop Harassment &amp; Settle Card Dues
@@ -942,22 +786,10 @@ export default function StopCreditCardRecoveryCallsClient() {
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
               <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage.</p>
               <ul className="space-y-2 text-slate-600">
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Zero Upfront Risk:</strong> Success-linked settlement fees.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Direct Bank Remittance:</strong> Zero middleman fund holding.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>RBI &amp; CICRA Compliance:</strong> 100% lawful dispute handling.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/>
-                  <span><strong>Pan-India Representation:</strong> Dedicated debt resolution specialists.</span>
-                </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Zero Upfront Risk:</strong> Success-linked closure fees.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Direct Bank wire transfer:</strong> Zero middleman fund holding.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>RBI &amp. CICRA Compliance:</strong> 100% lawful dispute handling.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Pan-India Representation:</strong> Dedicated debt relief specialists.</span> </li>
               </ul>
             </div>
 
@@ -966,23 +798,17 @@ export default function StopCreditCardRecoveryCallsClient() {
               <p className="font-bold text-slate-900 text-sm">Related Legal Guides.</p>
               <div className="space-y-2.5">
                 <Link href="/bank-sent-legal-notice-for-loan-what-to-do" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Bank Sent Legal Notice for Loan Default.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Bank Sent Legal Notice for Loan Default. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Full step-by-step reply blueprint &rarr;.</span>
                 </Link>
 
                 <Link href="/credit-card-minimum-due-trap" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Credit Card Minimum Due Trap.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Credit Card Minimum Due Trap. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">48% APR compounding escape plan &rarr;.</span>
                 </Link>
 
                 <Link href="/convert-settled-status-to-closed" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Convert Settled Loan to Closed Status.
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Convert Settled Loan to Closed Status. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Clean credit report blueprint &rarr;.</span>
                 </Link>
               </div>

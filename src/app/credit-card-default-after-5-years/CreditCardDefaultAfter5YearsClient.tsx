@@ -90,23 +90,23 @@ export default function CreditCardDefaultAfter5YearsClient() {
   const faqs = [
     {
       q: 'Can a bank sue for credit card default after 5 years?',
-      a: 'Under the Limitation Act 1963, civil recovery is barred after 3 years from default. Without debt acknowledgment, suits filed after 5 years are dismissed under Section 3.'
+      a: 'Under the Limitation Act 1963. Civil claims is barred after 3 years from default. Without debt acknowledgment. Suits filed after 5 years are dismissed under Section 3.'
     },
     {
       q: 'What is zombie debt in credit card collections?',
-      a: 'Zombie debt is aged, time-barred debt written off by banks and sold to third-party collection agencies or ARCs, which attempt to revive expired claims.'
+      a: 'Zombie debt is aged. Time-barred debt written off by banks and sold to third-party calls firms or ARCs. which attempt to revive expired claims.'
     },
     {
       q: 'Does making a token payment restart limitation?',
-      a: 'Yes. Under Section 18 and Section 19 of the Limitation Act, partial payments or signed letters reset the 3-year clock, making expired debt legally enforceable again.'
+      a: 'Yes. Under Section 18 and Section 19 of the Limitation Act. Partial payments or signed letters reset the 3-year clock. Making expired debt by law enforceable again.'
     },
     {
       q: 'Can recovery agents arrest me for a 5-year-old default?',
-      a: 'No. Unsecured card default is purely a civil matter. Recovery agents have zero police powers, and the Supreme Court prohibits criminalizing civil loan defaults.'
+      a: 'No. clean card default is purely a civil matter. agents have zero police powers. the Supreme Court prohibits criminalizing civil loan defaults.'
     },
     {
       q: 'Can banks seize property for aged credit card debt?',
-      a: 'No. Credit cards are unsecured loans. Lenders cannot initiate SARFAESI property attachments without registered mortgage security and an enforceable court decree.'
+      a: 'No. Credit cards are clean loans. Lenders cannot initiate SARFAESI home attachments without registered mortgage security and an enforceable court decree.'
     },
     {
       q: 'Why do banks sell 5-year-old defaults to ARCs?',
@@ -114,19 +114,19 @@ export default function CreditCardDefaultAfter5YearsClient() {
     },
     {
       q: 'Will a 5-year-old default disappear from CIBIL?',
-      a: 'No. The Limitation Act bars civil litigation but does not erase credit records. The account remains Written-Off until resolved through an OTS and official NDC.'
+      a: 'No. The Limitation Act bars civil litigation but does not erase credit records. The account remains Written-Off until resolved through an OTS and valid NDC.'
     },
     {
       q: 'How much waiver can I get on a 5-year-old card default?',
-      a: 'Because aged debts are time-barred and 100% provisioned, banks and ARCs accept settlements at 75% to 90% discounts, resolving debts for a fraction of principal.'
+      a: 'Because aged debts are time-barred and 100% provisioned. Banks and ARCs accept closures at 75% to 90% discounts. Resolving debts for a fraction of main sum.'
     },
     {
       q: 'What is the risk of ignoring legal notices for aged debt?',
-      a: 'Ignoring notices risks lenders obtaining ex parte arbitration awards. Serving a formal statutory reply asserting the Limitation Act bar prevents fraudulent legal claims.'
+      a: 'Ignoring notices risks lenders obtaining ex parte arbitration awards. Serving a formal legal reply asserting the Limitation Act bar prevents fraudulent legal claims.'
     },
     {
       q: 'How does CredSettle resolve 5-year-old card defaults?',
-      a: 'CredSettle audits limitation dates, halts recovery harassment, serves statutory legal replies asserting the Limitation Act, and negotiates deep OTS closures with official NDCs.'
+      a: 'CredSettle audits limitation dates. Halts claims threats. Serves legal legal replies asserting the Limitation Act. negotiates deep OTS closures with valid NDCs.'
     }
   ];
 
@@ -148,9 +148,7 @@ export default function CreditCardDefaultAfter5YearsClient() {
             Credit Card Default After 5 Years: Limitation Act &amp; Legal Settlement
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed">
-            Understand how the Limitation Act 1963 bars civil recovery after 3 years, how banks assign aged accounts to ARCs, and how to settle zombie debts with official No Dues Certificates.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed"> Understand how the Limitation Act 1963 bars civil claims after 3 years. How banks assign aged accounts to ARCs. how to settle zombie debts with valid No Dues letters. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -204,9 +202,7 @@ export default function CreditCardDefaultAfter5YearsClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0" />
                   <span>Statutory Limitation Defense</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Governed by the Limitation Act 1963, Section 21 CICRA, and RBI Master Directions on Recovery Agents.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by the Limitation Act 1963. Section 21 CICRA. RBI Master Directions on agents. </p>
               </div>
             </div>
           </aside>
@@ -225,38 +221,14 @@ export default function CreditCardDefaultAfter5YearsClient() {
               </div>
 
               <ul className="space-y-2.5 text-xs sm:text-sm text-slate-700 leading-relaxed">
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div><strong>3-Year Limitation Bar:</strong> Articles 19 and 25 bar civil court recovery after 3 years.</div>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div><strong>Zero Court Enforceability:</strong> Without written acknowledgment, 5-year defaults cannot be decreed.</div>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div><strong>Section 18 Traps:</strong> Token payments or acknowledgment letters restart the 3-year clock.</div>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div><strong>Technical Write-Offs:</strong> Banks provision 100% loss and sell pools to ARCs at 2% to 6% value.</div>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div><strong>Zombie Debt Recovery:</strong> Collection agencies use aggressive calls to revive expired claims.</div>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div><strong>Zero Asset Attachment:</strong> Unsecured card debt carries zero SARFAESI property seizure rights.</div>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div><strong>75% to 90% OTS Discounts:</strong> Aged accounts qualify for deep compromise settlements.</div>
-                </li>
-                <li className="flex items-start gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div><strong>CIBIL Resolution:</strong> Formal settlements secure an NDC, updating credit records under CICRA.</div>
-                </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div><strong>3-Year Limitation Bar:</strong> Articles 19 and 25 bar civil court claims after 3 years.</div> </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div><strong>Zero Court Enforceability:</strong> Without written acknowledgment. 5-year defaults cannot be decreed.</div> </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div><strong>Section 18 Traps:</strong> Token payments or acknowledgment letters restart the 3-year clock.</div> </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div><strong>Technical Write-Offs:</strong> Banks rules 100% loss and sell pools to ARCs at 2% to 6% value.</div> </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div><strong>Zombie Debt claims:</strong> calls firms use harsh calls to revive expired claims.</div> </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div><strong>Zero Asset Attachment:</strong> clean card debt carries zero SARFAESI home seizure rights.</div> </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div><strong>75% to 90% OTS Discounts:</strong> Aged accounts qualify for deep deal closures.</div> </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div><strong>CIBIL relief:</strong> Formal closures secure an NDC. Updating credit records under CICRA.</div> </li>
               </ul>
             </div>
 
@@ -270,13 +242,9 @@ export default function CreditCardDefaultAfter5YearsClient() {
                 Aged Credit Card Portfolios and ARC Debt Assignments
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                When a borrower defaults on an unsecured credit card in India, the debt undergoes a structured transition under Reserve Bank of India guidelines. Over the initial 90 days of non-payment, the card moves through Special Mention Account stages before classification as a Non-Performing Asset (NPA). Because credit cards represent uncollateralized lending, banking regulations require lenders to maintain aggressive provisioning against credit losses.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> When a clients defaults on an clean credit card in India. The debt undergoes a structured transition under Reserve Bank of India guidelines. Over the first 90 days of non-payment. The card moves through Special Mention Account stages before classification as a Non-Performing Asset (NPA). Because credit cards represent uncollateralized lending. Banking rules require lenders to maintain harsh provisioning against credit losses. </p>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                After an NPA remains overdue for more than 180 days, commercial banks allocate 100% loss provisioning and execute a technical write-off to clean balance sheets. Following years of unsuccessful collection, banks bundle aged delinquent accounts and sell them to Asset Reconstruction Companies (ARCs) for 2% to 6% of face value. This secondary debt sale creates substantial leverage for cardholders to negotiate deep compromise settlements.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> After an NPA remains overdue for more than 180 days. Trade banks allocate 100% loss provisioning and execute a technical write-off to clean balance sheets. Following years of unsuccessful calls. Banks bundle aged delinquent accounts and sell them to Asset Reconstruction Companies (ARCs) for 2% to 6% of face value. This secondary debt sale creates substantial leverage for cardholders to settle deep deal closures. </p>
             </section>
 
             {/* SECTION 2: Financial Breakdown & Settlement Math */}
@@ -289,13 +257,9 @@ export default function CreditCardDefaultAfter5YearsClient() {
                 Statutory Limitation Economics vs. Inflated Zombie Debt Claims
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                Over five years of default, credit card balances inflate drastically due to monthly finance charges of 3.5% to 3.99% (42% to 48% APR), late penalties, and 18% GST. A cardholder defaulting on a ₹2,00,000 spend often faces demands exceeding ₹7,50,000. Over 70% of this demand comprises uncollected interest additions lacking judicial enforceability.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> Over five years of default. Credit card balances inflate drastically due to monthly finance charges of 3.5% to 3.99% (42% to 48% APR). Late fines. 18% GST. A cardholder defaulting on a ₹2,00,000 spend often faces demands exceeding ₹7,50,000. Over 70% of this demand comprises uncollected rates additions lacking judicial enforceability. </p>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                Because the debt is time-barred under the Limitation Act 1963 and the ARC acquired the portfolio at a deep discount, realistic settlement amounts diverge sharply from the gross claim. Credit committees routinely approve complete fee waivers and substantial principal discounts, allowing 5-year defaults to be settled at 10% to 25% of the ledger balance.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> Because the debt is time-barred under the Limitation Act 1963 and the ARC acquired the portfolio at a deep discount. Realistic closure amounts diverge sharply from the gross claim. Credit boards routinely approve complete fee waivers and substantial main sum discounts. Allowing 5-year defaults to be settled at 10% to 25% of the ledger balance. </p>
 
               {/* Representative Calculation Card */}
               <div className="rounded-2xl bg-white border border-slate-200/80 p-5 shadow-xs space-y-3">
@@ -311,7 +275,7 @@ export default function CreditCardDefaultAfter5YearsClient() {
 
                 <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 text-center">
                   <div className="p-3 rounded-xl bg-slate-50 border border-slate-100">
-                    <p className="text-xs text-slate-500">Original Principal</p>
+                    <p className="text-xs text-slate-500">Original main sum</p>
                     <p className="text-base font-bold text-slate-900 mt-1">₹2,00,000</p>
                   </div>
                   <div className="p-3 rounded-xl bg-red-50/60 border border-red-100">
@@ -320,11 +284,11 @@ export default function CreditCardDefaultAfter5YearsClient() {
                   </div>
                   <div className="p-3 rounded-xl bg-blue-50/60 border border-blue-100">
                     <p className="text-xs text-[#1886ff]">ARC Buy Base</p>
-                    <p className="text-base font-bold text-[#1886ff] mt-1">₹15,000 – ₹35,000</p>
+                    <p className="text-base font-bold text-[#1886ff] mt-1">₹15,000. ₹35,000</p>
                   </div>
                   <div className="p-3 rounded-xl bg-emerald-50/60 border border-emerald-100">
-                    <p className="text-xs text-emerald-700">Final Compromise OTS</p>
-                    <p className="text-base font-bold text-emerald-700 mt-1">₹65,000 – ₹90,000</p>
+                    <p className="text-xs text-emerald-700">Final deal OTS</p>
+                    <p className="text-base font-bold text-emerald-700 mt-1">₹65,000. ₹90,000</p>
                   </div>
                 </div>
               </div>
@@ -340,9 +304,7 @@ export default function CreditCardDefaultAfter5YearsClient() {
                 Strategic Pathways for 5-Year Credit Card Defaults
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                Borrowers facing aged card defaults can pursue several resolution options, each carrying distinct legal and credit implications. Evaluating these pathways ensures informed decision-making while avoiding deceptive recovery traps.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> clients facing aged card defaults can pursue several relief options. Each carrying distinct legal and credit implications. Evaluating these pathways ensures informed decision-making while avoiding deceptive claims traps. </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
                 <table className="w-full text-xs md:text-sm text-left border-collapse">
@@ -357,30 +319,30 @@ export default function CreditCardDefaultAfter5YearsClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-700">
                     <tr className="divide-x divide-slate-200/80">
-                      <td className="py-2.5 px-3 font-bold text-slate-900">Compromise OTS</td>
+                      <td className="py-2.5 px-3 font-bold text-slate-900">deal OTS</td>
                       <td className="py-2.5 px-3 text-emerald-700 font-semibold">Full Legal Discharge with NDC</td>
                       <td className="py-2.5 px-3 font-bold text-emerald-700">10% to 25% of Ledger Balance</td>
-                      <td className="py-2.5 px-3">Marked Settled; Path to 750+</td>
-                      <td className="py-2.5 px-3 text-emerald-700 font-semibold">Immediate Cease &amp; Desist</td>
+                      <td className="py-2.5 px-3">Marked Settled. Path to 750+</td>
+                      <td className="py-2.5 px-3 text-emerald-700 font-semibold">fast Cease &amp. Desist</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80">
                       <td className="py-2.5 px-3 font-bold text-slate-900">Term Loan Restructure</td>
                       <td className="py-2.5 px-3">Fresh Enforceable Contract</td>
-                      <td className="py-2.5 px-3">100% Principal + Fresh Interest</td>
-                      <td className="py-2.5 px-3">Marked Restructured; Extended Drag</td>
+                      <td className="py-2.5 px-3">100% main sum + Fresh rates</td>
+                      <td className="py-2.5 px-3">Marked Restructured. Extended Drag</td>
                       <td className="py-2.5 px-3">Resumes upon Missed EMI</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80">
                       <td className="py-2.5 px-3 font-bold text-slate-900">Civil Court Defense</td>
                       <td className="py-2.5 px-3 text-red-600 font-semibold">Barred by Limitation Act 1963</td>
-                      <td className="py-2.5 px-3">High Advocate Defense Fees</td>
+                      <td className="py-2.5 px-3">High counsel Defense Fees</td>
                       <td className="py-2.5 px-3">Remains Written-Off</td>
                       <td className="py-2.5 px-3">Subject to Court Timelines</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80">
                       <td className="py-2.5 px-3 font-bold text-slate-900">National Lok Adalat</td>
                       <td className="py-2.5 px-3">Binding Decree (Section 21 LSA)</td>
-                      <td className="py-2.5 px-3">35% to 55% of Principal</td>
+                      <td className="py-2.5 px-3">35% to 55% of main sum</td>
                       <td className="py-2.5 px-3">Settled via Judicial Award</td>
                       <td className="py-2.5 px-3">Ceases upon Mutual Order</td>
                     </tr>
@@ -389,7 +351,7 @@ export default function CreditCardDefaultAfter5YearsClient() {
                       <td className="py-2.5 px-3 text-amber-700 font-semibold">Time-Barred but Unresolved</td>
                       <td className="py-2.5 px-3">Zero Payment (Inflating Ledger)</td>
                       <td className="py-2.5 px-3 text-red-600 font-semibold">Perpetual Credit Impairment</td>
-                      <td className="py-2.5 px-3 text-red-600 font-semibold">Persistent Collection Calls</td>
+                      <td className="py-2.5 px-3 text-red-600 font-semibold">Persistent calls Calls</td>
                     </tr>
                   </tbody>
                 </table>
@@ -406,13 +368,9 @@ export default function CreditCardDefaultAfter5YearsClient() {
                 CIBIL Scoring: 5-Year Default Decay &amp; CICRA Remedies
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                Credit scoring engines evaluate borrower profiles across five weighted pillars: Payment History (35%), Credit Utilization (30%), Credit History Length (15%), Credit Mix (10%), and Recent Inquiries (10%). Upon default, the 35% payment history component sustains substantial damage, pulling credit scores down from prime bands above 750 into subprime brackets between 520 and 580 within four billing cycles.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> Credit scoring engines evaluate clients profiles across five weighted pillars: Payment History (35%). Credit Utilization (30%). Credit History Length (15%). Credit Mix (10%). Recent Inquiries (10%). Upon default. The 35% payment history component sustains substantial damage. Pulling credit scores down from prime bands above 750 into subprime brackets between 520 and 580 within four billing cycles. </p>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                Over five years, default scoring impact stabilizes through recency decay, but the account remains indefinitely listed as Written Off. The Limitation Act bars civil litigation but does not automatically clear bureau files. To remove this impairment, cardholders must complete a structured One-Time Settlement. Under Section 21 of CICRA 2005, lenders must update credit bureaus within 30 days to reflect the Settled status, facilitating score recovery back to 750+ over 12 to 18 months.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> Over five years. Default scoring impact stabilizes through recency decay. the account remains indefinitely listed as Written Off. The Limitation Act bars civil litigation but does not automatically clear desk files. To remove this impairment. Cardholders must complete a structured One-Time closure. Under Section 21 of CICRA 2005. Lenders must update credit bureaus within 30 days to reflect the Settled status. Facilitating score claims back to 750+ over 12 to 18 months. </p>
             </section>
 
             {/* SECTION 5: Visual Infographic Asset Card */}
@@ -425,9 +383,7 @@ export default function CreditCardDefaultAfter5YearsClient() {
                 Strategic 6-Stage Resolution Framework for 5-Year Credit Card Defaults
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                This infographic outlines the forensic limitation review, statutory anti-harassment protections under RBI rules, and settlement execution stages required to secure an official No Dues Certificate.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> This infographic outlines the forensic limitation review. Legal anti-threats safety under RBI rules. closure execution stages required to secure an valid No Dues letter. </p>
 
               <div className="rounded-2xl border border-slate-200/80 bg-white p-3 sm:p-4 shadow-xs overflow-hidden">
                 <div className="relative aspect-video w-full rounded-xl overflow-hidden bg-slate-900">
@@ -465,57 +421,43 @@ export default function CreditCardDefaultAfter5YearsClient() {
                 6-Stage SOP for Resolving 5-Year-Old Credit Card Debts
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                Resolving an aged card default requires a disciplined legal protocol to preserve statutory defenses under the Limitation Act while securing maximum commercial waivers.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> Resolving an aged card default requires a disciplined legal protocol to preserve legal defenses under the Limitation Act while securing maximum trade waivers. </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
                 <div className="rounded-2xl bg-white border border-slate-200/80 p-3.5 space-y-1 shadow-xs">
                   <span className="text-[10px] font-bold text-[#1886ff] uppercase">Stage 01: Audit</span>
                   <h3 className="text-xs sm:text-sm font-bold text-slate-900">Forensic Limitation Audit</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    CredSettle audits statements to verify default dates and confirm no Section 18 acknowledgment occurred, establishing time-barred status.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> CredSettle audits statements to check default dates and confirm no Section 18 acknowledgment occurred. Establishing time-barred status. </p>
                 </div>
 
                 <div className="rounded-2xl bg-white border border-slate-200/80 p-3.5 space-y-1 shadow-xs">
                   <span className="text-[10px] font-bold text-[#1886ff] uppercase">Stage 02: Dossier</span>
-                  <h3 className="text-xs sm:text-sm font-bold text-slate-900">Limitation &amp; Hardship Dossier</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Our team compiles documentary proof of the 5-year timeline and legitimate hardship, proving inability to pay inflated demands.
-                  </p>
+                  <h3 className="text-xs sm:text-sm font-bold text-slate-900">Limitation &amp. Hardship Dossier</h3>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Our team compiles documentary proof of the 5-year timeline and legitimate hardship. Proving inability to pay inflated demands. </p>
                 </div>
 
                 <div className="rounded-2xl bg-white border border-slate-200/80 p-3.5 space-y-1 shadow-xs">
                   <span className="text-[10px] font-bold text-[#1886ff] uppercase">Stage 03: Shield</span>
-                  <h3 className="text-xs sm:text-sm font-bold text-slate-900">Statutory Harassment Shield</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    We serve formal notices under RBI rules, halting abusive calls, workplace visits, and unauthorized third-party harassment.
-                  </p>
+                  <h3 className="text-xs sm:text-sm font-bold text-slate-900">legal threats Shield</h3>
+                  <p className="text-xs text-slate-600 leading-relaxed"> We serve formal notices under RBI rules. Halting abusive calls. Workplace visits. illegal third-party threats. </p>
                 </div>
 
                 <div className="rounded-2xl bg-white border border-slate-200/80 p-3.5 space-y-1 shadow-xs">
                   <span className="text-[10px] font-bold text-[#1886ff] uppercase">Stage 04: Terms</span>
-                  <h3 className="text-xs sm:text-sm font-bold text-slate-900">Bilateral OTS Negotiations</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Leveraging 100% loss provisioning and low ARC acquisition costs, negotiators secure 75% to 90% waivers on gross ledger claims.
-                  </p>
+                  <h3 className="text-xs sm:text-sm font-bold text-slate-900">Bilateral OTS talks</h3>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Leveraging 100% loss provisioning and low ARC acquisition costs. Negotiators secure 75% to 90% waivers on gross ledger claims. </p>
                 </div>
 
                 <div className="rounded-2xl bg-white border border-slate-200/80 p-3.5 space-y-1 shadow-xs">
                   <span className="text-[10px] font-bold text-[#1886ff] uppercase">Stage 05: Vetting</span>
                   <h3 className="text-xs sm:text-sm font-bold text-slate-900">Sanction Letter Vetting</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Legal counsel inspects the settlement letter for full-and-final release terms, authentic letterheads, and future resale bans.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Legal counsel inspects the closure note for full-and-final release terms. Authentic letterheads. future resale bans. </p>
                 </div>
 
                 <div className="rounded-2xl bg-white border border-slate-200/80 p-3.5 space-y-1 shadow-xs">
                   <span className="text-[10px] font-bold text-[#1886ff] uppercase">Stage 06: NDC</span>
-                  <h3 className="text-xs sm:text-sm font-bold text-slate-900">Direct Remittance &amp; NDC</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Payment is made directly to the bank or ARC. We obtain the formal No Dues Certificate and trigger CIBIL updates under CICRA.
-                  </p>
+                  <h3 className="text-xs sm:text-sm font-bold text-slate-900">Direct wire transfer &amp. NDC</h3>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Payment is made straight to the bank or ARC. We obtain the formal No Dues letter and trigger CIBIL updates under CICRA. </p>
                 </div>
               </div>
             </section>
@@ -530,9 +472,7 @@ export default function CreditCardDefaultAfter5YearsClient() {
                 Statutory Defense Against Aged Debt Claims &amp; Notices
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                Third-party agencies frequently send aggressive notices to intimidate cardholders into reviving expired liabilities. Understanding statutory protections enables borrowers to defend their rights effectively without succumbing to pressure.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> Third-party firms often send harsh notices to threaten cardholders into reviving expired debts. grasp legal safety enables clients to defend their rights effectively without succumbing to pressure. </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
                 <div className="rounded-2xl bg-white border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
@@ -540,9 +480,7 @@ export default function CreditCardDefaultAfter5YearsClient() {
                     <ShieldCheck className="w-4 h-4 text-[#1886ff]" />
                     <span>Limitation Act 1963 (Articles 19 &amp; 25)</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Imposes a 3-year limitation on unsecured recovery. Section 3 mandates that civil courts dismiss time-barred recovery suits even if limitation is not explicitly pleaded.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Imposes a 3-year limitation on clean claims. Section 3 mandates that civil courts dismiss time-barred claims suits even if limitation is not explicitly pleaded. </p>
                 </div>
 
                 <div className="rounded-2xl bg-white border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
@@ -550,9 +488,7 @@ export default function CreditCardDefaultAfter5YearsClient() {
                     <AlertTriangle className="w-4 h-4 text-amber-600" />
                     <span>Section 18 &amp; 19 Acknowledgment Traps</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Written acknowledgments or partial payments restart the 3-year limitation clock from that date. Borrowers should never sign informal acknowledgment forms without legal review.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Written acknowledgments or partial payments restart the 3-year limitation clock from that date. clients should never sign informal acknowledgment forms without legal review. </p>
                 </div>
 
                 <div className="rounded-2xl bg-white border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
@@ -560,9 +496,7 @@ export default function CreditCardDefaultAfter5YearsClient() {
                     <Scale className="w-4 h-4 text-[#1886ff]" />
                     <span>Section 25 PSSA &amp; Section 138 NI Act</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Electronic mandate or cheque dishonor provisions apply solely to legally enforceable debts. Time-barred claims cannot sustain valid criminal proceedings under the law.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> online mandate or cheque dishonor rules apply solely to by law enforceable debts. Time-barred claims cannot sustain valid penal steps under the law. </p>
                 </div>
 
                 <div className="rounded-2xl bg-white border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
@@ -570,9 +504,7 @@ export default function CreditCardDefaultAfter5YearsClient() {
                     <BadgeAlert className="w-4 h-4 text-red-600" />
                     <span>Arbitration &amp; Supreme Court Precedents</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Supreme Court rulings in Perkins Eastman prohibit unilateral arbitrator appointments. RBI guidelines strictly bar verbal abuse, family intimidation, and calls outside 8 AM to 7 PM.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Supreme Court rulings in Perkins Eastman prohibit unilateral arbitrator appointments. RBI guidelines strictly bar verbal abuse. Family threaten. calls outside 8 AM to 7 PM. </p>
                 </div>
               </div>
             </section>
@@ -587,33 +519,25 @@ export default function CreditCardDefaultAfter5YearsClient() {
                 Statutory Escalation: Stopping Unlawful Harassment
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                When recovery agencies violate RBI guidelines on time-barred accounts, cardholders can trigger a structured 3-tier regulatory escalation to enforce compliance and halt harassment.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> When claims firms violate RBI guidelines on time-barred accounts. Cardholders can trigger a structured 3-tier RBI escalation to enforce compliance and halt threats. </p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-3.5">
                 <div className="rounded-2xl bg-white border border-slate-200/80 p-3.5 space-y-1 shadow-xs">
                   <span className="text-[10px] font-bold text-[#1886ff] uppercase">Tier 1: Internal Desk</span>
-                  <h3 className="text-xs sm:text-sm font-bold text-slate-900">Grievance Officer (GRO)</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    File a formal complaint to the bank GRO citing harassment on time-barred debt. Response turnaround is 7 to 10 days.
-                  </p>
+                  <h3 className="text-xs sm:text-sm font-bold text-slate-900">Grievance head (GRO)</h3>
+                  <p className="text-xs text-slate-600 leading-relaxed"> File a formal complaint to the bank GRO citing threats on time-barred debt. Response turnaround is 7 to 10 days. </p>
                 </div>
 
                 <div className="rounded-2xl bg-white border border-slate-200/80 p-3.5 space-y-1 shadow-xs">
                   <span className="text-[10px] font-bold text-[#1886ff] uppercase">Tier 2: Executive Desk</span>
-                  <h3 className="text-xs sm:text-sm font-bold text-slate-900">Principal Nodal Officer</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Escalate unresolved complaints to the PNO with call recordings and statutory notices. Turnaround is 14 to 21 days.
-                  </p>
+                  <h3 className="text-xs sm:text-sm font-bold text-slate-900">main sum Nodal head</h3>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Escalate unresolved complaints to the PNO with call recordings and legal notices. Turnaround is 14 to 21 days. </p>
                 </div>
 
                 <div className="rounded-2xl bg-white border border-slate-200/80 p-3.5 space-y-1 shadow-xs">
                   <span className="text-[10px] font-bold text-[#1886ff] uppercase">Tier 3: Regulatory Desk</span>
-                  <h3 className="text-xs sm:text-sm font-bold text-slate-900">RBI Ombudsman</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Submit a statutory complaint on cms.rbi.org.in under the Integrated Ombudsman Scheme 2021 for binding directions.
-                  </p>
+                  <h3 className="text-xs sm:text-sm font-bold text-slate-900">RBI RBI officer</h3>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Submit a legal complaint on cms.rbi.org.in under the Integrated RBI officer Scheme 2021 for binding directions. </p>
                 </div>
               </div>
             </section>
@@ -628,9 +552,7 @@ export default function CreditCardDefaultAfter5YearsClient() {
                 Procedural Lifecycle: Default to Year 5+ Resolution
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                Understanding default milestones highlights how legal remedies evolve over time, showing why year 5 offers an optimal window for high-discount compromise settlements.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> grasp default milestones highlights how legal remedies evolve over time. Showing why year 5 offers an optimal window for high-discount deal closures. </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
                 <table className="w-full text-xs md:text-sm text-left border-collapse">
@@ -646,8 +568,8 @@ export default function CreditCardDefaultAfter5YearsClient() {
                     <tr className="divide-x divide-slate-200/80">
                       <td className="py-2.5 px-3 font-bold text-slate-900">Days 1 to 90</td>
                       <td className="py-2.5 px-3">SMA-0 to SMA-2</td>
-                      <td className="py-2.5 px-3">Late fees, interest, card blocked</td>
-                      <td className="py-2.5 px-3">Full civil liability; active recovery</td>
+                      <td className="py-2.5 px-3">Late fees. Rates. Card blocked</td>
+                      <td className="py-2.5 px-3">Full civil risk. active claims</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80">
                       <td className="py-2.5 px-3 font-bold text-slate-900">Days 91 to 180</td>
@@ -665,7 +587,7 @@ export default function CreditCardDefaultAfter5YearsClient() {
                       <td className="py-2.5 px-3 font-bold text-slate-900">Years 3 to 5+</td>
                       <td className="py-2.5 px-3 text-emerald-700 font-semibold">Time-Barred Zombie Debt</td>
                       <td className="py-2.5 px-3">Assigned to ARCs at 2% to 6% value</td>
-                      <td className="py-2.5 px-3 text-emerald-700 font-semibold">Civil suits barred; Deep OTS (75%–90%)</td>
+                      <td className="py-2.5 px-3 text-emerald-700 font-semibold">Civil suits barred. Deep OTS (75%. 90%)</td>
                     </tr>
                   </tbody>
                 </table>
@@ -682,49 +604,27 @@ export default function CreditCardDefaultAfter5YearsClient() {
                 Case Study Profiles: Resolving Aged Credit Card Debts
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                Aged defaults usually result from unforeseen financial disruption rather than willful evasion. Below are four common case scenarios resolved through statutory defenses and structured settlements.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> Aged defaults usually result from unforeseen money disruption rather than willful evasion. Below are four common case scenarios resolved through legal defenses and structured closures. </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
                 <div className="rounded-2xl bg-white border border-slate-200/80 p-3.5 space-y-1 shadow-xs">
-                  <h3 className="text-xs sm:text-sm font-bold text-slate-900 flex items-center gap-2">
-                    <CreditCard className="w-4 h-4 text-[#1886ff]" />
-                    <span>Multi-Card Consolidation (5+ Years)</span>
-                  </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Borrowers with multiple aged accounts. CredSettle audits limitation timelines and settles all cards simultaneously.
-                  </p>
+                  <h3 className="text-xs sm:text-sm font-bold text-slate-900 flex items-center gap-2"> <CreditCard className="w-4 h-4 text-[#1886ff]" /> <span>Multi-Card merger (5+ Years)</span> </h3>
+                  <p className="text-xs text-slate-600 leading-relaxed"> clients with multiple aged accounts. CredSettle audits limitation timelines and settles all cards simultaneously. </p>
                 </div>
 
                 <div className="rounded-2xl bg-white border border-slate-200/80 p-3.5 space-y-1 shadow-xs">
-                  <h3 className="text-xs sm:text-sm font-bold text-slate-900 flex items-center gap-2">
-                    <UserCheck className="w-4 h-4 text-emerald-600" />
-                    <span>Layoffs &amp; Medical Hardship</span>
-                  </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Salaried workers facing income loss. Hardship dossiers submitted to committees secure deep fee and principal waivers.
-                  </p>
+                  <h3 className="text-xs sm:text-sm font-bold text-slate-900 flex items-center gap-2"> <UserCheck className="w-4 h-4 text-emerald-600" /> <span>Layoffs &amp. Medical Hardship</span> </h3>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Salaried workers facing income loss. Hardship dossiers submitted to boards secure deep fee and main sum waivers. </p>
                 </div>
 
                 <div className="rounded-2xl bg-white border border-slate-200/80 p-3.5 space-y-1 shadow-xs">
-                  <h3 className="text-xs sm:text-sm font-bold text-slate-900 flex items-center gap-2">
-                    <Briefcase className="w-4 h-4 text-[#1886ff]" />
-                    <span>Small Business Working Capital</span>
-                  </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Founders who funded businesses with personal cards. We separate entity debts to achieve individual OTS discharges.
-                  </p>
+                  <h3 className="text-xs sm:text-sm font-bold text-slate-900 flex items-center gap-2"> <Briefcase className="w-4 h-4 text-[#1886ff]" /> <span>Small firm Working Capital</span> </h3>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Founders who funded firms with own cards. We separate entity debts to achieve individual OTS discharges. </p>
                 </div>
 
                 <div className="rounded-2xl bg-white border border-slate-200/80 p-3.5 space-y-1 shadow-xs">
-                  <h3 className="text-xs sm:text-sm font-bold text-slate-900 flex items-center gap-2">
-                    <ShieldAlert className="w-4 h-4 text-amber-600" />
-                    <span>ARC Zombie Debt Harassment</span>
-                  </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Debts pursued years after write-off. Cease-and-desist notices stop harassment and convert demands to OTS terms.
-                  </p>
+                  <h3 className="text-xs sm:text-sm font-bold text-slate-900 flex items-center gap-2"> <ShieldAlert className="w-4 h-4 text-amber-600" /> <span>ARC Zombie Debt threats</span> </h3>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Debts pursued years after write-off. Cease-and-desist notices stop threats and convert demands to OTS terms. </p>
                 </div>
               </div>
             </section>
@@ -744,9 +644,7 @@ export default function CreditCardDefaultAfter5YearsClient() {
                 Frequently Asked Questions: 5-Year Card Defaults
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-                Authoritative legal and financial answers regarding aged credit card defaults, statutory limitation rules, recovery agent conduct, and compromise settlements.
-              </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> Authoritative legal and money answers regarding aged credit card defaults. Legal limitation rules. Agents conduct. deal closures. </p>
 
               <div className="space-y-3 pt-2">
                 {faqs.map((faq, index) => {
@@ -789,12 +687,12 @@ export default function CreditCardDefaultAfter5YearsClient() {
               </h2>
 
               <ul className="text-xs sm:text-sm text-slate-600 space-y-1 list-disc pl-5 leading-relaxed">
-                <li>Limitation Act 1963 - Articles 19 &amp; 25 (3-Year Limitation for Unsecured Debt Recovery).</li>
+                <li>Limitation Act 1963 - Articles 19 &amp. 25 (3-Year Limitation for clean Debt claims).</li>
                 <li>Limitation Act 1963 - Section 3 (Mandatory Dismissal) and Section 18 (Debt Acknowledgment).</li>
-                <li>Credit Information Companies (Regulation) Act 2005 (CICRA) - Section 21 (Data Accuracy).</li>
-                <li>RBI Master Direction - Recovery Agents and Fair Practices Code (August 2022).</li>
+                <li>Credit Information Companies (rule) Act 2005 (CICRA) - Section 21 (Data Accuracy).</li>
+                <li>RBI Master Direction - agents and Fair Practices Code (August 2022).</li>
                 <li>Supreme Court of India - Perkins Eastman Architects DPC v. HSCC (India) Ltd.</li>
-                <li>Payment and Settlement Systems Act 2007 - Section 25 (Dishonour of Electronic Transfer).</li>
+                <li>Payment and closure Systems Act 2007 - Section 25 (Dishonour of online Transfer).</li>
               </ul>
 
               {/* 6 Outbound Authority Badges */}
@@ -866,14 +764,10 @@ export default function CreditCardDefaultAfter5YearsClient() {
                   >
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief experts </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Specialized in banking compliance, aged credit card default defense, Limitation Act remedies, and OTS negotiations.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> Specialized in banking compliance. Aged credit card default defense. Limitation Act remedies. OTS talks. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link
                   href="/author/ashish-jhangra"
@@ -897,12 +791,8 @@ export default function CreditCardDefaultAfter5YearsClient() {
                 <span className="text-[10px] font-black uppercase tracking-wider text-blue-200 bg-white/10 px-2.5 py-0.5 rounded-full inline-block">
                   100% CONFIDENTIAL DEBT RELIEF
                 </span>
-                <p className="text-base sm:text-lg font-bold text-white leading-snug">
-                  Harassed for a 5-Year Card Default?
-                </p>
-                <p className="text-blue-100 text-xs mt-1 leading-relaxed font-normal">
-                  Settle time-barred debt at up to 90% discount with legal protection and official NDC.
-                </p>
+                <p className="text-base sm:text-lg font-bold text-white leading-snug"> Harassed for a 5-Year Card Default? </p>
+                <p className="text-blue-100 text-xs mt-1 leading-relaxed font-normal"> Settle time-barred debt at up to 90% discount with legal safety and valid NDC. </p>
               </div>
               <Link
                 href="/contact"
@@ -928,22 +818,10 @@ export default function CreditCardDefaultAfter5YearsClient() {
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-4 space-y-2 text-xs">
               <p className="font-bold text-slate-900 text-xs uppercase tracking-wider">The CredSettle Assurance</p>
               <ul className="space-y-1.5 text-slate-600">
-                <li className="flex items-start gap-1.5">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>Statutory Defense:</strong> Limitation Act protections.</span>
-                </li>
-                <li className="flex items-start gap-1.5">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>Zero Advance Risk:</strong> Success-linked terms.</span>
-                </li>
-                <li className="flex items-start gap-1.5">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>Direct Remittance:</strong> Paid directly to bank or ARC.</span>
-                </li>
-                <li className="flex items-start gap-1.5">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>Official NDC:</strong> Complete legal discharge.</span>
-                </li>
+                <li className="flex items-start gap-1.5"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" /> <span><strong>legal Defense:</strong> Limitation Act safety.</span> </li>
+                <li className="flex items-start gap-1.5"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" /> <span><strong>Zero Advance Risk:</strong> Success-linked terms.</span> </li>
+                <li className="flex items-start gap-1.5"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" /> <span><strong>Direct wire transfer:</strong> Paid straight to bank or ARC.</span> </li>
+                <li className="flex items-start gap-1.5"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" /> <span><strong>valid NDC:</strong> Complete legal discharge.</span> </li>
               </ul>
             </div>
 
@@ -955,9 +833,7 @@ export default function CreditCardDefaultAfter5YearsClient() {
                   href="/personal-loan-defaulter-for-10-years"
                   className="block p-2 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
                 >
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Personal Loan Defaulter 10 Years
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> own Loan Defaulter 10 Years </p>
                   <span className="text-[10px] text-slate-400 block mt-0.5">Limitation Act &amp; zombie debt &rarr;</span>
                 </Link>
 
@@ -965,9 +841,7 @@ export default function CreditCardDefaultAfter5YearsClient() {
                   href="/credit-card-minimum-due-trap"
                   className="block p-2 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
                 >
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Escape Minimum Due Trap
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Escape Minimum Due Trap </p>
                   <span className="text-[10px] text-slate-400 block mt-0.5">42% APR compounding analysis &rarr;</span>
                 </Link>
 
@@ -975,9 +849,7 @@ export default function CreditCardDefaultAfter5YearsClient() {
                   href="/can-i-go-to-jail-for-credit-card-debt"
                   className="block p-2 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
                 >
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Can You Go to Jail for Debt?
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Can You Go to Jail for Debt? </p>
                   <span className="text-[10px] text-slate-400 block mt-0.5">Civil vs criminal law rights &rarr;</span>
                 </Link>
               </div>

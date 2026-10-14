@@ -84,43 +84,43 @@ export default function CreditCardNpaTimelineClient() {
   const faqs = [
     {
       q: 'When does a credit card account become an NPA in India?',
-      a: 'Under RBI IRACP norms, a credit card becomes an NPA when the Minimum Amount Due remains unpaid for over 90 consecutive days past due date.'
+      a: 'Under RBI IRACP norms. A credit card becomes an NPA when the Minimum Amount Due remains unpaid for over 90 running days past due date.'
     },
     {
       q: 'What are the SMA stages before a credit card turns into an NPA?',
-      a: 'Delinquency progresses across SMA-0 (1-30 days), SMA-1 (31-60 days), and SMA-2 (61-90 days), after which the account enters Substandard NPA status.'
+      a: 'Delinquency progresses across SMA-0 (1-30 days). SMA-1 (31-60 days). SMA-2 (61-90 days). After which the account enters Substandard NPA status.'
     },
     {
       q: 'What happens to interest and penal charges once a credit card becomes NPA?',
-      a: 'Banks must stop booking unrealized interest to income under RBI rules. Accumulated penal charges and finance fees are 100% waived during settlement negotiations.'
+      a: 'Banks must stop booking unrealized rates to income under RBI rules. Accumulated penal charges and finance fees are 100% waived during closure talks.'
     },
     {
       q: 'Can recovery agents visit my home or office during the NPA timeline?',
-      a: 'While banks assign agencies during SMA-2 and NPA stages, agents must obey the RBI Fair Practices Code, prohibiting harassment and visits outside 8:00 AM to 7:00 PM.'
+      a: 'While banks assign firms during SMA-2 and NPA stages. Agents must obey the RBI Fair Practices Code. Prohibiting threats and visits outside 8:00 AM to 7:00 PM.'
     },
     {
       q: 'Can I go to jail or face arrest if my credit card becomes an NPA?',
-      a: 'No. Unsecured card default is strictly a civil dispute. Banks cannot arrest borrowers for genuine financial distress, provided no fraud or dishonored cheques occurred.'
+      a: 'No. clean card default is strictly a civil dispute. Banks cannot arrest clients for genuine money distress. Provided no fraud or dishonored cheques occurred.'
     },
     {
       q: 'When is the optimal time to negotiate a One-Time Settlement (OTS)?',
-      a: 'The prime window begins between 120 and 180 days post-default, when bank 15% to 25% provisioning rules incentivize credit committees to grant 40% to 55% waivers.'
+      a: 'The prime window begins between 120 and 180 days post-default. when bank 15% to 25% provisioning rules incentivize credit boards to grant 40% to 55% waivers.'
     },
     {
       q: 'What legal notices can a bank send after a credit card becomes NPA?',
-      a: 'Banks may issue a Loan Recall Notice, Section 25 PSSA notice for bounced auto-debits, Section 138 NI Act notice for bounced cheques, or Section 21 Arbitration notices.'
+      a: 'Banks may issue a Loan Recall Notice. Section 25 PSSA notice for bounced auto-debits. Section 138 NI Act notice for bounced cheques. Section 21 Arbitration notices.'
     },
     {
       q: 'How does credit card NPA classification impact my CIBIL score?',
-      a: 'An NPA classification causes a score drop of 150 to 250 points. Completing an OTS stops negative reporting, allowing score recovery to 750+ within 12 to 18 months.'
+      a: 'An NPA classification causes a score drop of 150 to 250 points. Completing an OTS stops negative reporting. Allowing score claims to 750+ within 12 to 18 months.'
     },
     {
       q: 'Can a bank freeze my savings account if my credit card becomes NPA?',
-      a: "Yes. Under Section 171 of the Indian Contract Act, banks can exercise a general banker's lien against savings in the same bank, making external accounts vital."
+      a: "Yes. Under Section 171 of the Indian Contract Act. Banks can exercise a general banker's lien against savings in the same bank. Making external accounts vital."
     },
     {
       q: 'What document proves that my credit card NPA has been fully resolved?',
-      a: 'Complete legal discharge is confirmed exclusively by an official, signed No Dues Certificate (NDC) or Settlement Closure Letter issued by the bank, confirming zero residual liability.'
+      a: 'Complete legal discharge is confirmed exclusively by an valid. Signed No Dues letter (NDC) or closure Closure Letter issued by the bank. Confirming zero residual risk.'
     }
   ];
 
@@ -142,9 +142,7 @@ export default function CreditCardNpaTimelineClient() {
             When Does a Credit Card Become NPA? Delinquency Stages &amp; Resolution
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed">
-            Understand the exact 90-day transition of credit card debt from SMA-0 to Substandard NPA in India, covering provisioning rules, collection escalation, and optimal OTS timing.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed"> Understand the exact 90-day transition of credit card debt from SMA-0 to Substandard NPA in India. Covering provisioning rules. Calls escalation. optimal OTS timing. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -198,9 +196,7 @@ export default function CreditCardNpaTimelineClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0" />
                   <span>RBI Compliance Advisory</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Governed by Master Direction on IRACP Norms and Fair Practices Code.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by Master Direction on IRACP Norms and Fair Practices Code. </p>
               </div>
             </div>
           </aside>
@@ -219,61 +215,21 @@ export default function CreditCardNpaTimelineClient() {
               </div>
 
               <ul className="space-y-2 text-xs sm:text-sm text-slate-700 leading-relaxed">
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div>
-                    <strong className="text-slate-900 font-bold">90-Day Statutory Threshold:</strong> Cards become NPAs when the Minimum Amount Due remains unpaid for 90 days past due date under RBI IRACP rules.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div> <strong className="text-slate-900 font-bold">90-Day legal Threshold:</strong> Cards become NPAs when the Minimum Amount Due remains unpaid for 90 days past due date under RBI IRACP rules. </div> </li>
 
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div>
-                    <strong className="text-slate-900 font-bold">Three SMA Stages:</strong> Delinquency moves across SMA-0 (1-30 days), SMA-1 (31-60 days), and SMA-2 (61-90 days) pre-NPA categories.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div> <strong className="text-slate-900 font-bold">Three SMA Stages:</strong> Delinquency moves across SMA-0 (1-30 days). SMA-1 (31-60 days). SMA-2 (61-90 days) pre-NPA categories. </div> </li>
 
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div>
-                    <strong className="text-slate-900 font-bold">Bank Provisioning:</strong> NPA status mandates 15% capital provisioning, rising to 25%-40% for doubtful debt.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div> <strong className="text-slate-900 font-bold">Bank Provisioning:</strong> NPA status mandates 15% capital provisioning. Rising to 25%-40% for doubtful debt. </div> </li>
 
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div>
-                    <strong className="text-slate-900 font-bold">SARFAESI Immunity:</strong> Unsecured card debt cannot be recovered via SARFAESI property attachment without a court decree.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div> <strong className="text-slate-900 font-bold">SARFAESI Immunity:</strong> clean card debt cannot be recovered via SARFAESI home attachment without a court decree. </div> </li>
 
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div>
-                    <strong className="text-slate-900 font-bold">Prime OTS Window (Days 120-180):</strong> Banks offer maximum compromise waivers after NPA classification to mitigate provisioning burdens.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div> <strong className="text-slate-900 font-bold">Prime OTS Window (Days 120-180):</strong> Banks offer maximum deal waivers after NPA classification to mitigate provisioning burdens. </div> </li>
 
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div>
-                    <strong className="text-slate-900 font-bold">100% Penal Waiver:</strong> Compounding finance fees (45% APR) and late charges are eliminated, settling dues at 40%-55% of principal.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div> <strong className="text-slate-900 font-bold">100% Penal Waiver:</strong> growing finance fees (45% APR) and late charges are eliminated. Settling dues at 40%-55% of main sum. </div> </li>
 
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div>
-                    <strong className="text-slate-900 font-bold">Anti-Harassment Rights:</strong> Recovery agencies must strictly obey the RBI Fair Practices Code regarding calling hours and conduct.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div> <strong className="text-slate-900 font-bold">Anti-threats Rights:</strong> claims firms must strictly obey the RBI Fair Practices Code regarding calling hours and conduct. </div> </li>
 
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div>
-                    <strong className="text-slate-900 font-bold">No Dues Certificate:</strong> Full legal discharge is established exclusively through an official signed bank No Dues Certificate.
-                  </div>
-                </li>
+                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div> <strong className="text-slate-900 font-bold">No Dues letter:</strong> Full legal discharge is established exclusively through an valid signed bank No Dues letter. </div> </li>
               </ul>
             </div>
 
@@ -287,13 +243,9 @@ export default function CreditCardNpaTimelineClient() {
                 Debt Economics &amp; NPA Classification Dynamics
               </h2>
 
-              <p className="text-slate-700 leading-relaxed text-sm sm:text-base">
-                In Indian banking, credit card delinquency is governed by the Reserve Bank of India Master Direction on IRACP Norms. Unlike term loans with fixed EMIs, credit cards operate as revolving credit facilities. Under RBI rules, an account defaults into non-performing asset status when the Minimum Amount Due (MAD) remains unpaid for more than 90 consecutive days past the scheduled due date. Before reaching this point, lenders monitor default across three Special Mention Account tiers: SMA-0 (1-30 days), SMA-1 (31-60 days), and SMA-2 (61-90 days).
-              </p>
+              <p className="text-slate-700 leading-relaxed text-sm sm:text-base"> In Indian banking. Credit card delinquency is governed by the Reserve Bank of India Master Direction on IRACP Norms. Unlike term loans with fixed EMIs. Credit cards operate as revolving credit facilities. Under RBI rules. An account defaults into non-performing asset status when the Minimum Amount Due (MAD) remains unpaid for more than 90 running days past the scheduled due date. Before reaching this point. Lenders monitor default across three Special Mention Account tiers: SMA-0 (1-30 days). SMA-1 (31-60 days). SMA-2 (61-90 days). </p>
 
-              <p className="text-slate-700 leading-relaxed text-sm sm:text-base">
-                Crossing day 90 triggers reclassification to Substandard NPA, requiring banks to set aside a mandatory 15% capital provision directly from profits. Unsecured cards cannot be enforced through rapid collateral seizure under the SARFAESI Act, creating commercial pressure on credit committees to approve structured One-Time Settlement (OTS) waivers to release capital reserves.
-              </p>
+              <p className="text-slate-700 leading-relaxed text-sm sm:text-base"> Crossing day 90 triggers reclassification to Substandard NPA. Requiring banks to set aside a mandatory 15% capital rules straight from profits. Clean cards cannot be enforced through rapid pledge seizure under the SARFAESI Act. Creating trade pressure on credit boards to approve structured One-Time closure (OTS) waivers to release capital reserves. </p>
             </section>
 
             {/* SECTION 2: Financial Breakdown & Settlement Math */}
@@ -306,16 +258,11 @@ export default function CreditCardNpaTimelineClient() {
                 Interest Inflation, Penalty Compounding &amp; Settlement Math
               </h2>
 
-              <p className="text-slate-700 leading-relaxed text-sm sm:text-base">
-                Missed card payments trigger compounding finance charges of 42% to 54% annualized, monthly late fees, and 18% GST. Within 180 days, a core utilized principal of ₹5,00,000 frequently inflates into a claimed demand of ₹8,50,000, representing over 70% penalty inflation.
-              </p>
+              <p className="text-slate-700 leading-relaxed text-sm sm:text-base"> Missed card payments trigger growing finance charges of 42% to 54% annualized. Monthly late fees. 18% GST. Within 180 days. A core utilized main sum of ₹5,00,000 often inflates into a claimed demand of ₹8,50,000. Representing over 70% fine inflation. </p>
 
               {/* Financial Calculation Card */}
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-3.5 space-y-2">
-                <h3 className="font-bold text-slate-900 text-xs sm:text-sm flex items-center gap-1.5">
-                  <CreditCard className="w-4 h-4 text-[#1886ff]" />
-                  <span>Representative 180-Day NPA Trajectory (₹5,00,000 Exposure)</span>
-                </h3>
+                <h3 className="font-bold text-slate-900 text-xs sm:text-sm flex items-center gap-1.5"> <CreditCard className="w-4 h-4 text-[#1886ff]" /> <span>Representative 180-Day NPA Trajectory (₹5,00,000 Exposure)</span> </h3>
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-xs">
                   <div className="p-2 rounded-xl bg-slate-50 border border-slate-200/60">
                     <span className="text-slate-500 text-[11px] block">Principal</span>
@@ -345,9 +292,7 @@ export default function CreditCardNpaTimelineClient() {
                 </div>
               </div>
 
-              <p className="text-slate-700 leading-relaxed text-sm sm:text-base">
-                Under RBI accounting norms, banks stop booking unrealized interest once an account becomes an NPA. CredSettle eliminates these penal charges, using net principal as the baseline for aggressive settlement discounts.
-              </p>
+              <p className="text-slate-700 leading-relaxed text-sm sm:text-base"> Under RBI accounting norms. Banks stop booking unrealized rates once an account becomes an NPA. CredSettle eliminates these penal charges. Using net main sum as the baseline for harsh closure discounts. </p>
             </section>
 
             {/* SECTION 3: 4-Sided Bordered Comparison Matrix */}
@@ -360,9 +305,7 @@ export default function CreditCardNpaTimelineClient() {
                 Comparison of Credit Card Debt Resolution Pathways
               </h2>
 
-              <p className="text-slate-700 leading-relaxed text-sm sm:text-base">
-                Borrowers facing credit card delinquency must evaluate resolution options across financial cost, legal exposure, credit score consequences, and turnaround speed.
-              </p>
+              <p className="text-slate-700 leading-relaxed text-sm sm:text-base"> clients facing credit card delinquency must evaluate relief options across money cost. Legal exposure. Credit score results. turnaround speed. </p>
 
               {/* 4-Sided Bordered Table */}
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
@@ -378,23 +321,23 @@ export default function CreditCardNpaTimelineClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-700">
                     <tr className="hover:bg-blue-50/30 transition-colors">
-                      <td className="p-2 sm:p-2.5 font-bold text-slate-900">OTS Settlement</td>
-                      <td className="p-2 sm:p-2.5 text-emerald-700 font-semibold">40%-55% Principal</td>
-                      <td className="p-2 sm:p-2.5">Zero risk; NDC issued</td>
+                      <td className="p-2 sm:p-2.5 font-bold text-slate-900">OTS closure</td>
+                      <td className="p-2 sm:p-2.5 text-emerald-700 font-semibold">40%-55% main sum</td>
+                      <td className="p-2 sm:p-2.5">Zero risk. NDC issued</td>
                       <td className="p-2 sm:p-2.5">Marked Settled (Rebuildable)</td>
                       <td className="p-2 sm:p-2.5 font-semibold text-slate-900">30-60 Days</td>
                     </tr>
                     <tr className="hover:bg-slate-50 transition-colors">
                       <td className="p-2 sm:p-2.5 font-bold text-slate-900">EMI Restructure</td>
-                      <td className="p-2 sm:p-2.5 text-slate-800">100% Principal + 15% Interest</td>
-                      <td className="p-2 sm:p-2.5">Low immediate risk</td>
+                      <td className="p-2 sm:p-2.5 text-slate-800">100% main sum + 15% rates</td>
+                      <td className="p-2 sm:p-2.5">Low fast risk</td>
                       <td className="p-2 sm:p-2.5">Marked Restructured</td>
                       <td className="p-2 sm:p-2.5 font-semibold text-slate-900">24-48 Mos</td>
                     </tr>
                     <tr className="hover:bg-slate-50 transition-colors">
                       <td className="p-2 sm:p-2.5 font-bold text-slate-900">Civil Court Suit</td>
                       <td className="p-2.5 text-red-700">Full claim + legal fees</td>
-                      <td className="p-2.5 text-red-700">Decree &amp; attachment risk</td>
+                      <td className="p-2.5 text-red-700">Decree &amp. attachment risk</td>
                       <td className="p-2.5">Active Suit Filed</td>
                       <td className="p-2.5 font-semibold text-slate-900">2-5+ Years</td>
                     </tr>
@@ -408,8 +351,8 @@ export default function CreditCardNpaTimelineClient() {
                     <tr className="hover:bg-slate-50 transition-colors">
                       <td className="p-2 sm:p-2.5 font-bold text-slate-900">Inaction</td>
                       <td className="p-2.5 sm:p-2.5 text-red-700 font-semibold">Ballooning debt (48% APR)</td>
-                      <td className="p-2.5 sm:p-2.5 text-red-700">Harassment &amp; banker lien</td>
-                      <td className="p-2.5 sm:p-2.5 text-red-700 font-semibold">Written-Off (&lt;550)</td>
+                      <td className="p-2.5 sm:p-2.5 text-red-700">threats &amp. banker lien</td>
+                      <td className="p-2.5 sm:p-2.5 text-red-700 font-semibold">Written-Off (&lt. 550)</td>
                       <td className="p-2.5 sm:p-2.5 font-semibold text-slate-900">Indefinite</td>
                     </tr>
                   </tbody>
@@ -427,13 +370,9 @@ export default function CreditCardNpaTimelineClient() {
                 Technical CIBIL Algorithm, Scoring Weights &amp; DPD Trajectory
               </h2>
 
-              <p className="text-slate-700 leading-relaxed text-sm sm:text-base">
-                Credit bureaus (CIBIL, Experian, CRIF, Equifax) weight Payment History (35%) and Credit Utilization (30%) as 65% of your score. Delinquency across SMA-0 through SMA-2 causes progressive drops, culminating in a 150-250 point decline upon reaching 90+ DPD Substandard NPA status.
-              </p>
+              <p className="text-slate-700 leading-relaxed text-sm sm:text-base"> Credit bureaus (CIBIL. Experian. CRIF. Equifax) weight Payment History (35%) and Credit Utilization (30%) as 65% of your score. Delinquency across SMA-0 through SMA-2 causes progressive drops. Culminating in a 150-250 point decline upon reaching 90+ DPD Substandard NPA status. </p>
 
-              <p className="text-slate-700 leading-relaxed text-sm sm:text-base">
-                Completing an OTS stops monthly DPD reporting. Under Section 21 of CICRA 2005, borrowers can ensure accurate reporting of settled terms and restore scores above 750 within 12 to 18 months via disciplined secured card usage.
-              </p>
+              <p className="text-slate-700 leading-relaxed text-sm sm:text-base"> Completing an OTS stops monthly DPD reporting. Under Section 21 of CICRA 2005. Clients can ensure accurate reporting of settled terms and restore scores above 750 within 12 to 18 months via disciplined secured card usage. </p>
             </section>
 
             {/* SECTION 5: Visual Infographic Asset Card */}
@@ -484,63 +423,33 @@ export default function CreditCardNpaTimelineClient() {
 
               <div className="space-y-2 text-slate-700 text-sm">
                 <div className="p-2.5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-0.5">
-                  <h3 className="font-bold text-slate-900 text-xs sm:text-sm flex items-center gap-1.5">
-                    <span className="w-4 h-4 rounded-full bg-blue-100 text-[#1886ff] font-extrabold text-[10px] flex items-center justify-center">1</span>
-                    <span>Stage 1: Forensic Portfolio Audit</span>
-                  </h3>
-                  <p className="leading-relaxed text-slate-600 text-xs">
-                    We analyze 12-24 months of statements to separate core spent principal from compounding 45% APR interest, late fees, and GST levies to establish the baseline settlement value.
-                  </p>
+                  <h3 className="font-bold text-slate-900 text-xs sm:text-sm flex items-center gap-1.5"> <span className="w-4 h-4 rounded-full bg-blue-100 text-[#1886ff] font-extrabold text-[10px] flex items-center justify-center">1</span> <span>Stage 1: Forensic Portfolio Audit</span> </h3>
+                  <p className="leading-relaxed text-slate-600 text-xs"> We analyze 12-24 months of statements to separate core spent main sum from growing 45% APR rates. Late fees. GST levies to establish the baseline closure value. </p>
                 </div>
 
                 <div className="p-2.5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-0.5">
-                  <h3 className="font-bold text-slate-900 text-xs sm:text-sm flex items-center gap-1.5">
-                    <span className="w-4 h-4 rounded-full bg-blue-100 text-[#1886ff] font-extrabold text-[10px] flex items-center justify-center">2</span>
-                    <span>Stage 2: Hardship Dossier Compilation</span>
-                  </h3>
-                  <p className="leading-relaxed text-slate-600 text-xs">
-                    We assemble documented proof of genuine financial hardship, such as medical records, layoff letters, business loss statements, or bank accounts verifying zero liquid assets.
-                  </p>
+                  <h3 className="font-bold text-slate-900 text-xs sm:text-sm flex items-center gap-1.5"> <span className="w-4 h-4 rounded-full bg-blue-100 text-[#1886ff] font-extrabold text-[10px] flex items-center justify-center">2</span> <span>Stage 2: Hardship Dossier Compilation</span> </h3>
+                  <p className="leading-relaxed text-slate-600 text-xs"> We assemble documented proof of genuine money hardship. Such as medical records. Layoff letters. Firm loss statements. bank accounts verifying zero liquid assets. </p>
                 </div>
 
                 <div className="p-2.5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-0.5">
-                  <h3 className="font-bold text-slate-900 text-xs sm:text-sm flex items-center gap-1.5">
-                    <span className="w-4 h-4 rounded-full bg-blue-100 text-[#1886ff] font-extrabold text-[10px] flex items-center justify-center">3</span>
-                    <span>Stage 3: Legal Representation Notice</span>
-                  </h3>
-                  <p className="leading-relaxed text-slate-600 text-xs">
-                    We issue formal notices to the card issuer and Principal Nodal Officer under RBI Master Directions, requiring all communications to route through counsel and halting recovery visits.
-                  </p>
+                  <h3 className="font-bold text-slate-900 text-xs sm:text-sm flex items-center gap-1.5"> <span className="w-4 h-4 rounded-full bg-blue-100 text-[#1886ff] font-extrabold text-[10px] flex items-center justify-center">3</span> <span>Stage 3: Legal Representation Notice</span> </h3>
+                  <p className="leading-relaxed text-slate-600 text-xs"> We issue formal notices to the card issuer and main sum Nodal head under RBI Master Directions. Requiring all contacts to route through counsel and halting claims visits. </p>
                 </div>
 
                 <div className="p-2.5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-0.5">
-                  <h3 className="font-bold text-slate-900 text-xs sm:text-sm flex items-center gap-1.5">
-                    <span className="w-4 h-4 rounded-full bg-blue-100 text-[#1886ff] font-extrabold text-[10px] flex items-center justify-center">4</span>
-                    <span>Stage 4: Credit Committee Negotiations</span>
-                  </h3>
-                  <p className="leading-relaxed text-slate-600 text-xs">
-                    Our debt resolution advocates represent your case before the bank SAMB recovery desk, leveraging 15%-40% provisioning mandates to secure an aggressive 40%-55% waiver.
-                  </p>
+                  <h3 className="font-bold text-slate-900 text-xs sm:text-sm flex items-center gap-1.5"> <span className="w-4 h-4 rounded-full bg-blue-100 text-[#1886ff] font-extrabold text-[10px] flex items-center justify-center">4</span> <span>Stage 4: Credit board talks</span> </h3>
+                  <p className="leading-relaxed text-slate-600 text-xs"> Our debt relief counsel represent your case before the bank SAMB claims desk. Leveraging 15%-40% provisioning mandates to secure an harsh 40%-55% waiver. </p>
                 </div>
 
                 <div className="p-2.5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-0.5">
-                  <h3 className="font-bold text-slate-900 text-xs sm:text-sm flex items-center gap-1.5">
-                    <span className="w-4 h-4 rounded-full bg-blue-100 text-[#1886ff] font-extrabold text-[10px] flex items-center justify-center">5</span>
-                    <span>Stage 5: Sanction Letter Verification</span>
-                  </h3>
-                  <p className="leading-relaxed text-slate-600 text-xs">
-                    We examine the bank written settlement sanction letter to verify authorized signatory credentials, full-and-final discharge language, and zero residual liability terms.
-                  </p>
+                  <h3 className="font-bold text-slate-900 text-xs sm:text-sm flex items-center gap-1.5"> <span className="w-4 h-4 rounded-full bg-blue-100 text-[#1886ff] font-extrabold text-[10px] flex items-center justify-center">5</span> <span>Stage 5: Sanction Letter Verification</span> </h3>
+                  <p className="leading-relaxed text-slate-600 text-xs"> We examine the bank written closure sanction letter to check authorized signatory credentials. Full-and-final discharge language. zero residual risk terms. </p>
                 </div>
 
                 <div className="p-2.5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-0.5">
-                  <h3 className="font-bold text-slate-900 text-xs sm:text-sm flex items-center gap-1.5">
-                    <span className="w-4 h-4 rounded-full bg-blue-100 text-[#1886ff] font-extrabold text-[10px] flex items-center justify-center">6</span>
-                    <span>Stage 6: Direct Remittance &amp; NDC Delivery</span>
-                  </h3>
-                  <p className="leading-relaxed text-slate-600 text-xs">
-                    You remit settlement funds directly into your designated card account via NEFT/RTGS. We follow up to procure the signed No Dues Certificate and verify updated bureau records.
-                  </p>
+                  <h3 className="font-bold text-slate-900 text-xs sm:text-sm flex items-center gap-1.5"> <span className="w-4 h-4 rounded-full bg-blue-100 text-[#1886ff] font-extrabold text-[10px] flex items-center justify-center">6</span> <span>Stage 6: Direct wire transfer &amp. NDC Delivery</span> </h3>
+                  <p className="leading-relaxed text-slate-600 text-xs"> You remit closure funds straight into your designated card account via NEFT/RTGS. We follow up to procure the signed No Dues letter and check updated desk records. </p>
                 </div>
               </div>
             </section>
@@ -561,9 +470,7 @@ export default function CreditCardNpaTimelineClient() {
                     <FileText className="w-4 h-4 text-[#1886ff]" />
                     <span>Section 25 PSSA NACH Notice</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    When auto-debits bounce, banks issue Section 25 notices. Replying within 15 days demonstrating distress and settlement intent prevents magistrate summons and criminal escalation.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> When auto-debits bounce. Banks issue Section 25 notices. Replying within 15 days demonstrating distress and closure intent prevents magistrate summons and penal escalation. </p>
                 </div>
 
                 <div className="p-2.5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-1">
@@ -571,9 +478,7 @@ export default function CreditCardNpaTimelineClient() {
                     <AlertTriangle className="w-4 h-4 text-amber-600" />
                     <span>Section 138 NI Act Cheque Bounce</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    If cheques bounce, lenders issue Section 138 notices. We draft formal replies contesting inflated claims and requesting Lok Adalat compromise resolution.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> If cheques bounce. Lenders issue Section 138 notices. We draft formal replies contesting inflated claims and requesting Lok Adalat deal relief. </p>
                 </div>
 
                 <div className="p-2.5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-1">
@@ -581,9 +486,7 @@ export default function CreditCardNpaTimelineClient() {
                     <Scale className="w-4 h-4 text-purple-600" />
                     <span>Arbitration Ineligibility</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Under Supreme Court TRF Ltd. rulings, banks cannot unilaterally appoint a sole arbitrator. Such appointments are de jure invalid under Section 12(5).
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Under Supreme Court TRF Ltd. Rulings. Banks cannot unilaterally appoint a sole arbitrator. Such appointments are de jure invalid under Section 12(5). </p>
                 </div>
 
                 <div className="p-2.5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-1">
@@ -591,9 +494,7 @@ export default function CreditCardNpaTimelineClient() {
                     <ShieldCheck className="w-4 h-4 text-emerald-600" />
                     <span>DRT Limits &amp; RBI Fair Code</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    DRT only handles claims of ₹20 Lakhs and above. Furthermore, RBI Fair Practices Code strictly prohibits verbal abuse, odd-hour calling, and employer contacts.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> DRT only handles claims of ₹20 Lakhs and above. Furthermore. RBI Fair Practices Code strictly prohibits verbal abuse. Odd-hour calling. employer contacts. </p>
                 </div>
               </div>
             </section>
@@ -614,10 +515,8 @@ export default function CreditCardNpaTimelineClient() {
                     L1
                   </div>
                   <div>
-                    <h3 className="font-bold text-slate-900">Level 1: Bank Grievance Redressal Officer (GRO)</h3>
-                    <p className="text-slate-600 leading-relaxed text-xs">
-                      Submit a formal written complaint detailing agent harassment and call logs. The GRO must provide a formal resolution within 7-10 working days.
-                    </p>
+                    <h3 className="font-bold text-slate-900">Level 1: Bank Grievance Redressal head (GRO)</h3>
+                    <p className="text-slate-600 leading-relaxed text-xs"> Submit a formal written complaint detailing agent threats and call logs. The GRO must provide a formal relief within 7-10 working days. </p>
                   </div>
                 </div>
 
@@ -626,10 +525,8 @@ export default function CreditCardNpaTimelineClient() {
                     L2
                   </div>
                   <div>
-                    <h3 className="font-bold text-slate-900">Level 2: Principal Nodal Officer (PNO)</h3>
-                    <p className="text-slate-600 leading-relaxed text-xs">
-                      If unresolved, escalate to the bank Principal Nodal Officer and Head of Collections to restrain agencies and initiate settlement talks.
-                    </p>
+                    <h3 className="font-bold text-slate-900">Level 2: main sum Nodal head (PNO)</h3>
+                    <p className="text-slate-600 leading-relaxed text-xs"> If unresolved. Escalate to the bank main sum Nodal head and Head of Collections to restrain firms and initiate talks. </p>
                   </div>
                 </div>
 
@@ -638,10 +535,8 @@ export default function CreditCardNpaTimelineClient() {
                     L3
                   </div>
                   <div>
-                    <h3 className="font-bold text-slate-900">Level 3: RBI Integrated Ombudsman</h3>
-                    <p className="text-slate-600 leading-relaxed text-xs">
-                      If the bank does not resolve complaints within 30 days, lodge an online complaint via the RBI portal at <a href="https://cms.rbi.org.in" target="_blank" rel="nofollow noopener noreferrer" className="text-[#1886ff] font-bold hover:underline">cms.rbi.org.in</a>.
-                    </p>
+                    <h3 className="font-bold text-slate-900">Level 3: RBI Integrated RBI officer</h3>
+                    <p className="text-slate-600 leading-relaxed text-xs"> If the bank does not resolve complaints within 30 days. Lodge an online complaint via the RBI portal at <a href="https://cms.rbi.org.in" target="_blank" rel="nofollow noopener noreferrer" className="text-[#1886ff] font-bold hover:underline">cms.rbi.org.in</a>. </p>
                   </div>
                 </div>
               </div>
@@ -672,38 +567,38 @@ export default function CreditCardNpaTimelineClient() {
                     <tr className="hover:bg-slate-50 transition-colors">
                       <td className="p-2 sm:p-2.5 font-bold text-slate-900">Days 1 - 30</td>
                       <td className="p-2 sm:p-2.5 text-blue-700 font-semibold">SMA-0</td>
-                      <td className="p-2 sm:p-2.5">SMS, email reminders, late fees</td>
-                      <td className="p-2 sm:p-2.5">Pay minimum due if feasible; assess dues</td>
+                      <td className="p-2 sm:p-2.5">SMS. Email reminders. Late fees</td>
+                      <td className="p-2 sm:p-2.5">Pay minimum due if feasible. assess dues</td>
                     </tr>
                     <tr className="hover:bg-slate-50 transition-colors">
                       <td className="p-2 sm:p-2.5 font-bold text-slate-900">Days 31 - 60</td>
                       <td className="p-2 sm:p-2.5 text-amber-700 font-semibold">SMA-1</td>
-                      <td className="p-2 sm:p-2.5">Tele-calling, card blocked, finance fees</td>
-                      <td className="p-2 sm:p-2.5">Protect salary account; consult debt experts</td>
+                      <td className="p-2 sm:p-2.5">Tele-calling. Card blocked. Finance fees</td>
+                      <td className="p-2 sm:p-2.5">Protect salary account. consult debt experts</td>
                     </tr>
                     <tr className="hover:bg-slate-50 transition-colors">
                       <td className="p-2 sm:p-2.5 font-bold text-slate-900">Days 61 - 90</td>
                       <td className="p-2 sm:p-2.5 text-orange-700 font-semibold">SMA-2</td>
-                      <td className="p-2.5 sm:p-2.5">Agency assignment, pre-NPA warnings</td>
-                      <td className="p-2 sm:p-2.5">Compile hardship dossier; prepare defense</td>
+                      <td className="p-2.5 sm:p-2.5">Firm assignment. Pre-NPA warnings</td>
+                      <td className="p-2 sm:p-2.5">Compile hardship dossier. prepare defense</td>
                     </tr>
                     <tr className="hover:bg-slate-50 transition-colors">
                       <td className="p-2 sm:p-2.5 font-bold text-slate-900">Days 91 - 120</td>
                       <td className="p-2 sm:p-2.5 text-red-700 font-semibold">Substandard</td>
-                      <td className="p-2 sm:p-2.5">15% provisioning, agency visits, Sec 25 notice</td>
-                      <td className="p-2 sm:p-2.5">Serve representation; reply to notices</td>
+                      <td className="p-2 sm:p-2.5">15% provisioning. Firm visits. Sec 25 notice</td>
+                      <td className="p-2 sm:p-2.5">Serve representation. reply to notices</td>
                     </tr>
                     <tr className="hover:bg-blue-50/40 transition-colors">
                       <td className="p-2 sm:p-2.5 font-bold text-slate-900">Days 121 - 180+</td>
                       <td className="p-2 sm:p-2.5 text-emerald-700 font-semibold">Prime OTS</td>
-                      <td className="p-2 sm:p-2.5">Desks authorized for compromise waivers</td>
-                      <td className="p-2 sm:p-2.5 font-bold text-emerald-800">Negotiate 40%-55% waiver; get sanction letter</td>
+                      <td className="p-2 sm:p-2.5">Desks authorized for deal waivers</td>
+                      <td className="p-2 sm:p-2.5 font-bold text-emerald-800">settle 40%-55% waiver. get sanction letter</td>
                     </tr>
                     <tr className="hover:bg-slate-50 transition-colors">
                       <td className="p-2 sm:p-2.5 font-bold text-slate-900">Month 6+</td>
                       <td className="p-2 sm:p-2.5 text-purple-700 font-semibold">Write-Off / ARC</td>
-                      <td className="p-2 sm:p-2.5">Write-off, portfolio sale to ARC</td>
-                      <td className="p-2 sm:p-2.5">Finalize settlement with bank/ARC; get NDC</td>
+                      <td className="p-2 sm:p-2.5">Write-off. Portfolio sale to ARC</td>
+                      <td className="p-2 sm:p-2.5">Finalize closure with bank/ARC. get NDC</td>
                     </tr>
                   </tbody>
                 </table>
@@ -723,30 +618,22 @@ export default function CreditCardNpaTimelineClient() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5">
                 <div className="p-2.5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-1">
                   <h3 className="font-bold text-slate-900 text-xs sm:text-sm">Scenario A: Multi-Card Cross-Default</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Defaults on one card trigger credit limit freezes across other banks. We prioritize settling salary bank accounts first to eliminate banker lien set-off risks before resolving secondary cards.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Defaults on one card trigger credit limit freezes across other banks. We prioritize settling salary bank accounts first to eliminate banker lien set-off risks before resolving secondary cards. </p>
                 </div>
 
                 <div className="p-2.5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-1">
-                  <h3 className="font-bold text-slate-900 text-xs sm:text-sm">Scenario B: Corporate Layoffs &amp; Job Loss</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    For employees facing sudden job loss, submitting severance letters secures temporary 60-day moratoriums on legal notices, allowing clients to accumulate settlement funds for closure.
-                  </p>
+                  <h3 className="font-bold text-slate-900 text-xs sm:text-sm">Scenario B: firm Layoffs &amp. Job Loss</h3>
+                  <p className="text-xs text-slate-600 leading-relaxed"> For employees facing sudden job loss. Submitting severance letters secures temporary 60-day moratoriums on legal notices. Allowing clients to accumulate closure funds for closure. </p>
                 </div>
 
                 <div className="p-2.5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-1">
                   <h3 className="font-bold text-slate-900 text-xs sm:text-sm">Scenario C: SME Proprietorship Crunch</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Proprietors using personal cards for business utilize audited GST filings to demonstrate commercial distress and negotiate deep principal waivers with bank recovery committees.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Proprietors using own cards for firm utilize audited GST filings to demonstrate trade distress and settle deep main sum waivers with bank claims boards. </p>
                 </div>
 
                 <div className="p-2.5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-1">
                   <h3 className="font-bold text-slate-900 text-xs sm:text-sm">Scenario D: ARC Debt Assignment</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Delinquent card debt sold to Asset Reconstruction Companies (such as Phoenix ARC) at steep discounts enables our legal negotiators to secure aggressive 60% to 75% compromise settlements.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Delinquent card debt sold to Asset Reconstruction Companies (such as Phoenix ARC) at steep discounts enables our legal negotiators to secure harsh 60% to 75% deal closures. </p>
                 </div>
               </div>
             </section>
@@ -806,19 +693,17 @@ export default function CreditCardNpaTimelineClient() {
                 Statutory Citations &amp; Institutional Authorities
               </h2>
 
-              <p className="text-slate-700 leading-relaxed text-xs">
-                Our debt resolution advisory is anchored in Indian banking statutes, Supreme Court judicial precedents, and regulatory directives issued by the Reserve Bank of India.
-              </p>
+              <p className="text-slate-700 leading-relaxed text-xs"> Our debt relief advisory is anchored in Indian banking statutes. Supreme Court judicial precedents. RBI directives issued by the Reserve Bank of India. </p>
 
               <div className="p-3 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
-                <h3 className="font-bold text-slate-900 text-xs">Primary Statutory References:</h3>
+                <h3 className="font-bold text-slate-900 text-xs">Primary legal References:</h3>
                 <ul className="space-y-0.5 text-xs text-slate-600">
                   <li>• <strong>RBI IRACP Master Directions:</strong> Prudential Norms on Income Recognition and Asset Classification.</li>
-                  <li>• <strong>RBI Fair Practices Code:</strong> Directives on Conduct of Non-Banking Financial Companies and Banks.</li>
-                  <li>• <strong>Section 25, Payment and Settlement Systems Act, 2007:</strong> Dishonor of electronic funds transfer instructions.</li>
-                  <li>• <strong>Section 138, Negotiable Instruments Act, 1881:</strong> Dishonor of cheque for insufficiency of funds.</li>
-                  <li>• <strong>Arbitration &amp; Conciliation Act, 1996:</strong> Sections 12(5), 16, 21, and Supreme Court rulings in TRF Ltd.</li>
-                  <li>• <strong>CICRA 2005:</strong> Section 21 statutory rules for dispute redressal and credit reporting.</li>
+                  <li>• <strong>RBI Fair Practices Code:</strong> Directives on Conduct of Non-Banking money Companies and Banks.</li>
+                  <li>• <strong>Section 25. Payment and closure Systems Act. 2007:</strong> Dishonor of online funds transfer instructions.</li>
+                  <li>• <strong>Section 138. Negotiable Instruments Act. 1881:</strong> Dishonor of cheque for insufficiency of funds.</li>
+                  <li>• <strong>Arbitration &amp. Conciliation Act, 1996:</strong> Sections 12(5). 16. 21. Supreme Court rulings in TRF Ltd.</li>
+                  <li>• <strong>CICRA 2005:</strong> Section 21 legal rules for dispute redressal and credit reporting.</li>
                 </ul>
               </div>
 
@@ -901,14 +786,10 @@ export default function CreditCardNpaTimelineClient() {
                   >
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief experts </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Specialized in banking compliance, credit card NPA dispute defense, IRACP guidelines, and bilateral debt resolution across Indian banking platforms.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> Specialized in banking compliance. Credit card NPA dispute defense. IRACP guidelines. bilateral debt relief across Indian banking platforms. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link
                   href="/author/ashish-jhangra"
@@ -932,12 +813,8 @@ export default function CreditCardNpaTimelineClient() {
                 <span className="text-xs font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
                   100% CONFIDENTIAL LEGAL DEFENSE
                 </span>
-                <p className="text-lg md:text-xl font-bold text-white leading-snug">
-                  Facing Credit Card NPA Escalation?
-                </p>
-                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
-                  Our legal debt resolution specialists halt aggressive collection calls, respond to statutory notices, and negotiate a 40% to 55% compromise settlement directly with bank credit desks.
-                </p>
+                <p className="text-lg md:text-xl font-bold text-white leading-snug"> Facing Credit Card NPA Escalation? </p>
+                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal"> Our legal debt relief specialists halt harsh calls calls. Respond to legal notices. settle a 40% to 55% deal closure straight with bank credit desks. </p>
               </div>
               <Link
                 href="/contact"
@@ -963,22 +840,10 @@ export default function CreditCardNpaTimelineClient() {
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
               <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage</p>
               <ul className="space-y-2 text-slate-600">
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>Zero Upfront Risk:</strong> Success-linked settlement fees.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>Direct Bank Remittance:</strong> Zero middleman fund holding.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>RBI &amp; CICRA Compliance:</strong> 100% lawful dispute handling.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>Pan-India Representation:</strong> Dedicated debt resolution specialists.</span>
-                </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" /> <span><strong>Zero Upfront Risk:</strong> Success-linked closure fees.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" /> <span><strong>Direct Bank wire transfer:</strong> Zero middleman fund holding.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" /> <span><strong>RBI &amp. CICRA Compliance:</strong> 100% lawful dispute handling.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" /> <span><strong>Pan-India Representation:</strong> Dedicated debt relief specialists.</span> </li>
               </ul>
             </div>
 
@@ -990,9 +855,7 @@ export default function CreditCardNpaTimelineClient() {
                   href="/settle-multiple-credit-cards"
                   className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
                 >
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    How to Settle Multiple Credit Cards
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> How to Settle Multiple Credit Cards </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Multi-lender resolution blueprint &rarr;</span>
                 </Link>
 
@@ -1000,9 +863,7 @@ export default function CreditCardNpaTimelineClient() {
                   href="/credit-card-minimum-due-trap"
                   className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
                 >
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Credit Card Minimum Due Trap Explained
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Credit Card Minimum Due Trap Explained </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Compounding interest math &rarr;</span>
                 </Link>
 
@@ -1010,9 +871,7 @@ export default function CreditCardNpaTimelineClient() {
                   href="/stop-credit-card-recovery-calls"
                   className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
                 >
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Stop Credit Card Recovery Agent Harassment
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Stop Credit Card agents threats </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">RBI anti-harassment safeguards &rarr;</span>
                 </Link>
               </div>

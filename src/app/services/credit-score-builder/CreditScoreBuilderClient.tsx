@@ -45,35 +45,35 @@ export default function CreditScoreBuilderClient() {
     const faqs = [
         {
             question: 'What is a CIBIL credit score and how is it calculated?',
-            answer: "CIBIL credit score is a three-digit number ranging from 300 to 900 that represents your creditworthiness in India. It is calculated by CIBIL (Credit Information Bureau India Limited) based on your credit record, payment habits, credit use, credit mix. Length of credit record. A score above 750 is considered excellent, while scores below 600 may make it difficult to get loans approved. The CIBIL credit score builder focuses on improving all these factors to boost your score."
+            answer: "CIBIL credit score is a three-digit number ranging from 300 to 900 that represents your creditworthiness in India. It is calculated by CIBIL (Credit Information Bureau India Limited) based on your credit record. Payment habits. Credit use. Credit mix. Length of credit record. A score above 750 is considered excellent. while scores below 600 may make it difficult to get loans approved. The CIBIL credit score builder focuses on improving all these factors to boost your score."
         },
         {
             question: 'How can I improve my CIBIL credit score quickly?',
-            answer: "To improve your CIBIL credit score quickly, pay all bills on time, reduce credit card use below 30%, avoid multiple loan applications, maintain a good credit mix. Check your credit report regularly for errors. A credit score builder service can help identify specific issues in your credit report and provide a custom plan to improve your score. Typically, following these practices consistently can improve your score within 6-12 months."
+            answer: "To improve your CIBIL credit score quickly. Pay all bills on time. Reduce credit card use below 30%. Avoid multiple loan applications. Maintain a good credit mix. Check your credit report regularly for errors. A credit score builder service can help identify specific issues in your credit report and provide a custom plan to improve your score. Typically. Following these practices consistently can improve your score within 6-12 months."
         },
         {
             question: 'What is a credit score builder and how does it work?',
-            answer: "A credit score builder is a service that helps you improve your credit score through strategic money planning, credit report review. custom growth plans. It works by analyzing your credit report, identifying negative factors affecting your score, creating a customized action plan. Providing ongoing guidance to help you build credit wisely. CredSettle\u2019s credit score builder service includes credit report review, dispute resolution, and credit growth plans."
+            answer: "A credit score builder is a service that helps you improve your credit score through strategic money planning. Credit report review. custom growth plans. It works by analyzing your credit report. Identifying negative factors affecting your score. Creating a customized action plan. Providing ongoing guidance to help you build credit wisely. CredSettle\u2019s credit score builder service includes credit report review. Dispute relief. credit growth plans."
         },
         {
             question: 'How long does it take to build a good credit score from scratch?',
-            answer: "Building a good credit score from scratch typically takes 6-12 months of steady wise credit habits. This includes making timely payments, maintaining low credit use, and establishing a good credit record. With a credit score builder service, you can potentially see improvements faster by addressing specific issues and following proven plans. The key is consistency and patience in building credit."
+            answer: "Building a good credit score from scratch typically takes 6-12 months of steady wise credit habits. This includes making timely payments. Maintaining low credit use. establishing a good credit record. With a credit score builder service. You can potentially see improvements faster by addressing specific issues and following proven plans. The key is consistency and patience in building credit."
         },
         {
             question: 'Can I check my CIBIL score for free?',
-            answer: 'Yes, you can check your CIBIL credit score for free once a year from the CIBIL website. Also, many banks and banks offer free credit score checks to their customers. Regular tracking of your credit score is important for credit score building, as it helps you track your progress and identify any issues that need to be addressed.'
+            answer: 'Yes. You can check your CIBIL credit score for free once a year from the CIBIL website. Also. Many banks and banks offer free credit score checks to their customers. Regular tracking of your credit score is important for credit score building. as it helps you track your progress and identify any issues that need to be addressed.'
         },
         {
             question: 'What factors affect my CIBIL credit score negatively?',
-            answer: "Factors that negatively affect your CIBIL credit score include late payments or defaults, high credit use (above 30%), multiple loan applications in a short period, having too many credit accounts, outstanding debt. Errors in your credit report. A credit score builder service can help identify and address these factors to improve your score."
+            answer: "Factors that negatively affect your CIBIL credit score include late payments or defaults. High credit use (above 30%). Multiple loan applications in a short period. Having too many credit accounts. Unpaid debt. Errors in your credit report. A credit score builder service can help identify and address these factors to improve your score."
         },
         {
             question: 'How does credit card usage affect my credit score?',
-            answer: "Credit card usage greatly affects your credit score. Maintaining credit use below 30% of your credit limit helps build a good credit score. High use, missing payments, or maxing out credit cards can negatively impact your score. Using credit cards wisely and paying bills on time is essential for credit score building. A credit score builder can help you optimize your credit card usage plan."
+            answer: "Credit card usage greatly affects your credit score. Maintaining credit use below 30% of your credit limit helps build a good credit score. High use. Missing payments. maxing out credit cards can negatively impact your score. Using credit cards wisely and paying bills on time is essential for credit score building. A credit score builder can help you optimize your credit card usage plan."
         },
         {
             question: 'Can I improve my credit score after loan settlement?',
-            answer: "Yes, you can improve your credit score after loan settlement. While settlement initially impacts your credit score, you can rebuild it through credit score building plans such as making timely payments on other accounts, maintaining low credit use, diversifying your credit mix. tracking your credit report regularly. A credit score builder service can provide a custom plan to help you recover and improve your credit score post-settlement."
+            answer: "Yes. You can improve your credit score after loan closure. While closure initially impacts your credit score. You can rebuild it through credit score building plans such as making timely payments on other accounts. Maintaining low credit use. Diversifying your credit mix. tracking your credit report regularly. A credit score builder service can provide a custom plan to help you recover and improve your credit score post-closure."
         }
     ];
     const bodyTextStyle: CSSProperties = {
@@ -700,9 +700,7 @@ export default function CreditScoreBuilderClient() {
             fontFamily: 'Poppins',
             fontSize: 'clamp(16px, 4.5vw, 18px)',
             lineHeight: 'clamp(24px, 6vw, 28px)'
-        }}>
-                    Expert insights on credit score growth, CIBIL score building, credit report review. Proven plans to boost your creditworthiness in India.
-                  </p>
+        }}> Expert insights on credit score growth. CIBIL score building. Credit report review. Proven plans to boost your creditworthiness in India. </p>
                 </div>
 
                 {/* Right: Credit Score Image */}
@@ -738,9 +736,7 @@ export default function CreditScoreBuilderClient() {
                       Master Your CIBIL Credit Score with CredSettle
                     </h2>
                     <div className="mt-4 space-y-4">
-                      {introductionParagraphs.map((paragraph, index) => (<p key={index} className="text-sm md:text-base" style={bodyTextStyle}>
-                          {paragraph}
-                        </p>))}
+                      {introductionParagraphs.map((paragraph, index) => (<p key={index} className="text-sm md:text-base" style={bodyTextStyle}> {paragraph} </p>))}
                     </div>
                   </div>
 
@@ -753,16 +749,9 @@ export default function CreditScoreBuilderClient() {
                         <h3 className="text-lg md:text-xl font-semibold" style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '28px' }}>
                           CredSettle Credit Score Builder Advantage
                         </h3>
-                        <p className="mt-2 text-sm md:text-base" style={cardTextStyle}>
-                          We combine legal muscle, data-driven analytics. steady coaching to deliver compounding credit score gains that hold up with every bureau and lender in India.
-                        </p>
+                        <p className="mt-2 text-sm md:text-base" style={cardTextStyle}> We combine legal muscle. Data-driven analytics. steady coaching to deliver compounding credit score gains that hold up with every bureau and lender in India. </p>
                         <ul className="mt-4 space-y-2">
-                          {highlightPoints.map((point) => (<li key={point} className="flex items-start gap-3">
-                              <span className="mt-1 h-2.5 w-2.5 flex-shrink-0 rounded-full bg-blue-500/80"/>
-                              <span className="text-sm md:text-base" style={cardTextStyle}>
-                                {point}
-                              </span>
-                            </li>))}
+                          {highlightPoints.map((point) => (<li key={point} className="flex items-start gap-3"> <span className="mt-1 h-2.5 w-2.5 flex-shrink-0 rounded-full bg-blue-500/80"/> <span className="text-sm md:text-base" style={cardTextStyle}> {point} </span> </li>))}
                         </ul>
                       </div>
                     </div>
@@ -781,9 +770,7 @@ export default function CreditScoreBuilderClient() {
                           </h2>
 
                           {section.paragraphs && (<div className="mt-4 space-y-4">
-                              {section.paragraphs.map((paragraph, paragraphIndex) => (<p key={paragraphIndex} className="text-sm md:text-base" style={bodyTextStyle}>
-                                  {paragraph}
-                                </p>))}
+                              {section.paragraphs.map((paragraph, paragraphIndex) => (<p key={paragraphIndex} className="text-sm md:text-base" style={bodyTextStyle}> {paragraph} </p>))}
                             </div>)}
 
                           {section.bullets && (<div className="mt-6 w-full rounded-2xl border border-blue-100/70 bg-blue-50/40 p-5 md:p-6">
@@ -791,14 +778,7 @@ export default function CreditScoreBuilderClient() {
                                 {section.bulletTitle ?? 'Key Takeaways'}
                               </h3>
                               <ul className="space-y-3">
-                                {section.bullets.map((bullet) => (<li key={bullet} className="flex items-start gap-3">
-                                    <span className="mt-1 flex h-8 w-8 items-center justify-center rounded-lg bg-blue-500/15 text-blue-600">
-                                      <FontAwesomeIcon icon={faCircleExclamation} className="h-4 w-4"/>
-                                    </span>
-                                    <span className="flex-1 text-sm md:text-base" style={bodyTextStyle}>
-                                      {bullet}
-                                    </span>
-                                  </li>))}
+                                {section.bullets.map((bullet) => (<li key={bullet} className="flex items-start gap-3"> <span className="mt-1 flex h-8 w-8 items-center justify-center rounded-lg bg-blue-500/15 text-blue-600"> <FontAwesomeIcon icon={faCircleExclamation} className="h-4 w-4"/> </span> <span className="flex-1 text-sm md:text-base" style={bodyTextStyle}> {bullet} </span> </li>))}
                               </ul>
                             </div>)}
 
@@ -812,9 +792,7 @@ export default function CreditScoreBuilderClient() {
                                       <h3 className="text-base md:text-lg font-semibold" style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '26px' }}>
                                         {card.title}
                                       </h3>
-                                      <p className="mt-2 text-sm md:text-base" style={cardTextStyle}>
-                                        {card.description}
-                                      </p>
+                                      <p className="mt-2 text-sm md:text-base" style={cardTextStyle}> {card.description} </p>
                                     </div>
                                   </div>
                                 </div>))}
@@ -831,12 +809,7 @@ export default function CreditScoreBuilderClient() {
                                     </h3>
                                   </div>
                                   <ul className="space-y-3">
-                                    {list.items.map((item) => (<li key={item} className="flex items-start gap-3">
-                                        <span className="mt-[7px] h-2 w-2 rounded-full bg-blue-500/80"/>
-                                        <span className="flex-1 text-sm md:text-base" style={cardTextStyle}>
-                                          {item}
-                                        </span>
-                                      </li>))}
+                                    {list.items.map((item) => (<li key={item} className="flex items-start gap-3"> <span className="mt-[7px] h-2 w-2 rounded-full bg-blue-500/80"/> <span className="flex-1 text-sm md:text-base" style={cardTextStyle}> {item} </span> </li>))}
                                   </ul>
                                 </div>))}
                             </div>)}
@@ -851,9 +824,7 @@ export default function CreditScoreBuilderClient() {
                                       <h3 className="text-base font-semibold" style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '24px' }}>
                                         {callout.title}
                                       </h3>
-                                      <p className="mt-2 text-sm md:text-base" style={cardTextStyle}>
-                                        {callout.description}
-                                      </p>
+                                      <p className="mt-2 text-sm md:text-base" style={cardTextStyle}> {callout.description} </p>
                                     </div>
                                   </div>
                                 </div>))}
@@ -868,9 +839,7 @@ export default function CreditScoreBuilderClient() {
                                     <h3 className="text-base md:text-lg font-semibold" style={{ color: '#0C2756', fontFamily: 'Poppins', lineHeight: '26px' }}>
                                       {step.title}
                                     </h3>
-                                    <p className="mt-2 text-sm md:text-base" style={cardTextStyle}>
-                                      {step.description}
-                                    </p>
+                                    <p className="mt-2 text-sm md:text-base" style={cardTextStyle}> {step.description} </p>
                                   </div>
                                 </div>))}
                             </div>)}
@@ -901,9 +870,7 @@ export default function CreditScoreBuilderClient() {
                       <h2 className="text-center text-[21px] md:text-[28px] leading-[21px] md:leading-[28px] font-normal w-full" style={{ color: '#0C2756' }}>
                         Ready to Improve Your CIBIL Credit Score?
                       </h2>
-                      <p className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full" style={{ color: 'rgba(12, 39, 86, 0.70)' }}>
-                        Get professional credit score building help from CredSettle’s expert team. Improve your CIBIL credit score through proven plans and custom guidance-start your path to better credit today.
-                      </p>
+                      <p className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full" style={{ color: 'rgba(12, 39, 86, 0.70)' }}> Get professional credit score building help from CredSettle’s expert team. Improve your CIBIL credit score through proven plans and custom guidance-start your path to better credit today. </p>
                     </div>
 
                     {/* CTA Button */}

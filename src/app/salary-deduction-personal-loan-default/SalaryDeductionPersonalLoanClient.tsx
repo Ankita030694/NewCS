@@ -101,43 +101,43 @@ export default function SalaryDeductionPersonalLoanClient() {
   const faqs = [
     {
       q: 'Can a bank legally deduct money directly from my salary account without my permission?',
-      a: "A bank can only debit money from your account if there is an active auto-debit (NACH/e-mandate/SI) authorization or under the common law 'Right of Set-Off' (Section 171 of Indian Contract Act) if your loan and salary account are in the same bank. However, under RBI Fair Practices Code and Supreme Court rulings, banks cannot arbitrarily seize 100% of your monthly salary without prior notice or if the salary account is maintained with a different banking institution."
+      a: "A bank can only debit money from your account if there is an active auto-debit (NACH/e-mandate/SI) authorization or under the common law 'Right of Set-Off' (Section 171 of Indian Contract Act) if your loan and salary account are in the same bank. Yet. Under RBI Fair Practices Code and Supreme Court rulings. Banks cannot arbitrarily seize 100% of your monthly salary without prior notice or if the salary account is maintained with a different banking institution."
     },
     {
       q: "What is the banker's 'Right of Set-Off' and when does it apply?",
-      a: "The Right of Set-Off (rooted in Section 171 of the Indian Contract Act, 1872) allows a bank to merge or adjust a debtor's credit balance (e.g., salary account or fixed deposit) against an overdue loan liability. However, this right strictly requires mutuality (the accounts must be in the exact same capacity and name) and exists only between accounts held within the same financial institution. A bank cannot exercise set-off against accounts held in other separate banks."
+      a: "The Right of Set-Off (rooted in Section 171 of the Indian Contract Act. 1872) allows a bank to merge or adjust a debtor's credit balance (e.g. Salary account or fixed deposit) against an overdue loan risk. Yet. This right strictly requires mutuality (the accounts must be in the exact same capacity and name) and exists only between accounts held within the same money institution. A bank cannot exercise set-off against accounts held in other separate banks."
     },
     {
       q: 'Can a bank attach my salary account if the loan is with a different bank?',
-      a: "No. If your personal loan or credit card is with Bank A and your salary account is with Bank B, Bank A cannot directly freeze, debit, or exercise set-off against your Bank B salary account. Bank A's only automated recovery route is through active NACH/ECS mandates, which you have a statutory right to cancel, or by obtaining a formal Garnishee Order / Salary Attachment Decree from a competent Civil Court."
+      a: "No. If your own loan or credit card is with Bank A and your salary account is with Bank B. Bank A cannot straight freeze. Debit. exercise set-off against your Bank B salary account. Bank A's only automated claims route is through active NACH/ECS mandates. which you have a legal right to cancel. by obtaining a formal Garnishee Order / Salary Attachment Decree from a competent Civil Court."
     },
     {
       q: 'How can I stop or cancel a NACH/e-mandate auto-debit on my salary account?',
-      a: "Under RBI Circular DPSS.CO.CHD.No./133/04.07.05/2019-20, every customer has the statutory right to stop or cancel NACH, e-mandates, or Standing Instructions (SI). You can revoke the mandate via your net banking / mobile app portal under the 'e-Mandate Management' section, or by submitting a physical/email Mandate Revocation Notice to your home bank branch. Once revoked, the bank is legally barred from debiting future installments under that mandate."
+      a: "Under RBI Circular DPSS.CO.CHD.No./133/04.07.05/2019-20. Every customer has the legal right to stop or cancel NACH. E-mandates. Standing Instructions (SI). You can revoke the mandate via your net banking / mobile app portal under the 'e-Mandate handling' section. by submitting a real/email Mandate Revocation Notice to your home bank branch. Once revoked. The bank is by law barred from debiting future installments under that mandate."
     },
     {
       q: 'What is the statutory protection for salary under Section 60 of the Code of Civil Procedure (CPC)?',
-      a: 'Under Section 60(1)(i) of the Code of Civil Procedure, 1908, the law provides robust protection to salaried individuals against total income seizure. In any civil execution decree, the first ₹1,000 plus two-thirds (2/3rd) of the remainder of salary is completely exempt from attachment. Furthermore, salary attachment cannot extend beyond 24 consecutive months. Total salary sweep by banks violates this legislative protection.'
+      a: 'Under Section 60(1)(i) of the Code of Civil Procedure. 1908. The law provides robust safety to salaried individuals against total income seizure. In any civil execution decree. The first ₹1,000 plus two-thirds (2/3rd) of the remainder of salary is fully exempt from attachment. Furthermore. Salary attachment cannot extend beyond 24 running months. Total salary sweep by banks violates this legislative safety.'
     },
     {
       q: "Can my employer deduct money from my salary on a bank's informal request?",
-      a: 'Absolutely not. An employer has zero legal authority to deduct loan EMIs or transfer funds to a lending bank unless served with a formal judicial attachment order passed by a competent Civil Court under Order 21 Rule 48 CPC, or unless the employee has signed an explicit tripartite payroll deduction agreement. Recovery agents calling or writing to HR departments to demand salary withholding commit an illegal act punishable under labor and criminal laws.'
+      a: 'Absolutely not. An employer has zero legal authority to deduct loan EMIs or transfer funds to a lending bank unless served with a formal judicial attachment order passed by a competent Civil Court under Order 21 Rule 48 CPC. unless the employee has signed an explicit tripartite payroll deduction pacts. agents calling or writing to HR departments to demand salary withholding commit an unlawful act punishable under labor and penal laws.'
     },
     {
       q: 'What should I do if the bank wipes out my entire salary on payday?',
-      a: 'If a bank illegally sweeps your entire monthly salary leaving zero subsistence funds, take immediate action: (1) Submit an emergency written protest to the Branch Manager and Principal Nodal Officer demanding refund under Section 60 CPC principles; (2) Instruct your employer HR to immediately route future salary credits to a new account in a separate bank; (3) File an urgent complaint with the RBI Integrated Ombudsman at cms.rbi.org.in for predatory recovery and breach of Fair Practices Code.'
+      a: 'If a bank illegally sweeps your entire monthly salary leaving zero subsistence funds. Take fast action: (1) Submit an emergency written protest to the Branch Manager and main sum Nodal head demanding refund under Section 60 CPC principles. (2) Instruct your employer HR to fast route future salary credits to a new account in a separate bank. (3) File an urgent complaint with the RBI Integrated RBI officer at cms.rbi.org.in for predatory claims and breach of Fair Practices Code.'
     },
     {
       q: 'Does cancelling NACH mandate attract criminal liability under Section 25 of the PSS Act?',
-      a: 'Cancelling a NACH mandate prevents auto-debits, but if an auto-debit attempt dishonors due to insufficient funds prior to formal revocation, the lender may issue a 30-day notice under Section 25 of the Payment and Settlement Systems Act, 2007 (analogous to Section 138 NI Act). However, default on an unsecured loan remains fundamentally a civil debt, and timely legal representation can settle the matter through compromise without criminal conviction.'
+      a: 'Cancelling a NACH mandate prevents auto-debits. If an auto-debit attempt dishonors due to insufficient funds prior to formal revocation. The lender may issue a 30-day notice under Section 25 of the Payment and closure Systems Act. 2007 (analogous to Section 138 NI Act). Yet. Default on an clean loan remains fundamentally a civil debt. timely legal representation can settle the matter through deal without penal conviction.'
     },
     {
       q: 'Can a bank debit my joint account or provident fund (PF) for my personal loan default?',
-      a: 'No. The Right of Set-Off requires strict mutuality of parties. A bank cannot debit a joint account (e.g., held with a spouse or parent) to recover the sole individual debt of one account holder unless the other party is a co-borrower or guarantor. Furthermore, statutory funds such as Provident Fund (EPF/PPF under Section 10 of EPF Act) and gratuity are completely immune from bank set-off and court attachment.'
+      a: 'No. The Right of Set-Off requires strict mutuality of parties. A bank cannot debit a joint account (e.g. Held with a spouse or parent) to recover the sole individual debt of one account holder unless the other party is a co-clients or guarantor. Furthermore. Legal funds such as Provident Fund (EPF/PPF under Section 10 of EPF Act) and gratuity are fully immune from bank set-off and court attachment.'
     },
     {
       q: 'How can CredSettle help me stop illegal salary deductions and resolve the defaulted loan?',
-      a: 'CredSettle provides a complete legal and financial defense: we issue formal statutory stop notices to banks under Section 171 Contract Act and RBI Mandate Revocation directives, protect your salary through structured account segregation, defend against aggressive recovery tactics, and negotiate a formal compromise One-Time Settlement (OTS) with a 40% to 70% waiver on accumulated dues, culminating in a clean No Dues Certificate.'
+      a: 'CredSettle provides a complete legal and money defense: we issue formal legal stop notices to banks under Section 171 Contract Act and RBI Mandate Revocation directives. Protect your salary through structured account segregation. Defend against harsh claims tactics. Settle a formal deal One-Time closure (OTS) with a 40% to 70% waiver on accumulated dues. Culminating in a clean No Dues letter.'
     }
   ];
 
@@ -154,9 +154,7 @@ export default function SalaryDeductionPersonalLoanClient() {
             Can a Bank Legally Deduct EMI from Your Salary Account?
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed">
-            Is the bank emptying your salary account using the &quot;Right of Set-Off&quot; to recover a defaulted loan? Learn how to legally stop auto-debits, protect your livelihood under Section 60 CPC, and settle your loan safely.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> Is the bank emptying your salary account using the &quot. Right of Set-Off&quot. to recover a defaulted loan? Learn how to by law stop auto-debits. Protect your livelihood under Section 60 CPC. settle your loan safely. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -210,9 +208,7 @@ export default function SalaryDeductionPersonalLoanClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0" />
                   <span>Statutory Income Protection</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Governed by Indian Contract Act 1872, CPC Section 60 &amp; RBI Fair Practices Code.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by Indian Contract Act 1872. CPC Section 60 &amp. RBI Fair Practices Code. </p>
               </div>
             </div>
           </aside>
@@ -231,40 +227,15 @@ export default function SalaryDeductionPersonalLoanClient() {
               </div>
 
               <ul className="space-y-3.5 text-xs sm:text-sm text-slate-700 leading-relaxed">
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div>
-                    <strong className="text-slate-900 font-bold">Same-Bank vs. Separate-Bank Distinction:</strong> If your defaulted loan and your salary account are with the <em>same bank</em>, the bank can technically attempt an internal debit using the &quot;Right of Set-Off&quot;. If your salary account is with a <em>different bank</em>, the lender has zero direct access and relies solely on NACH mandates or civil court decrees.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div> <strong className="text-slate-900 font-bold">Same-Bank vs. Separate-Bank Distinction:</strong> If your defaulted loan and your salary account are with the <em>same bank</em>The bank can technically attempt an internal debit using the &quot. Right of Set-Off&quot. If your salary account is with a <em>different bank</em>The lender has zero direct access and relies solely on NACH mandates or civil court decrees. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div>
-                    <strong className="text-slate-900 font-bold">Absolute Right to Cancel Auto-Debits (NACH):</strong> Under RBI Circular DPSS.CO.CHD.No./133/04.07.05/2019-20, borrowers possess an unconditional statutory right to revoke or cancel NACH, e-mandates, or Standing Instructions through net banking or written bank notice.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div> <strong className="text-slate-900 font-bold">Absolute Right to Cancel Auto-Debits (NACH):</strong> Under RBI Circular DPSS.CO.CHD.No./133/04.07.05/2019-20. Clients possess an unconditional legal right to revoke or cancel NACH. E-mandates. Standing Instructions through net banking or written bank notice. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div>
-                    <strong className="text-slate-900 font-bold">Section 60 CPC Statutory Subsistence Exemption:</strong> Total salary confiscation is unlawful. Under Section 60(1)(i) of the Code of Civil Procedure, 1908, the first ₹1,000 plus two-thirds (2/3rd) of the remaining salary is completely exempt from judicial attachment, preserving fundamental subsistence funds.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div> <strong className="text-slate-900 font-bold">Section 60 CPC legal Subsistence Exemption:</strong> Total salary confiscation is unlawful. Under Section 60(1)(i) of the Code of Civil Procedure. 1908. The first ₹1,000 plus two-thirds (2/3rd) of the remaining salary is fully exempt from judicial attachment. Preserving fundamental subsistence funds. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div>
-                    <strong className="text-slate-900 font-bold">Employer HR Protection &amp; Strict Mutuality:</strong> A bank cannot demand that your employer deduct EMIs directly from your paycheck without a formal court decree. Furthermore, banks cannot touch joint accounts (spouse/parents) or statutory Provident Funds (EPF/PPF) under the doctrine of strict mutuality.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div> <strong className="text-slate-900 font-bold">Employer HR safety &amp. Strict Mutuality:</strong> A bank cannot demand that your employer deduct EMIs straight from your paycheck without a formal court decree. Furthermore. Banks cannot touch joint accounts (spouse/parents) or legal Provident Funds (EPF/PPF) under the doctrine of strict mutuality. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div>
-                    <strong className="text-slate-900 font-bold">Legal Impasse to Secure 40%–70% OTS Waiver:</strong> Rerouting your salary and asserting statutory objections halts predatory auto-debits, bringing the lender to the negotiating table for an amicable One-Time Settlement (OTS) with substantial interest waivers.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div> <strong className="text-slate-900 font-bold">Legal Impasse to Secure 40%. 70% OTS Waiver:</strong> Rerouting your salary and asserting legal objections halts predatory auto-debits. Bringing the lender to the settle table for an amicable One-Time closure (OTS) with substantial rates waivers. </div> </li>
               </ul>
             </div>
 
@@ -277,12 +248,8 @@ export default function SalaryDeductionPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 1. Can a Bank Deduct Money Directly from Your Salary Account?
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When salaried professionals in India face unexpected financial distress, job transitions, or medical crises and miss personal loan or credit card EMIs, their primary anxiety centers on their monthly paycheck: <em>Will the bank empty my salary account the moment my salary gets credited?</em>
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                The legal reality depends fundamentally on the technical architecture of your banking relationship and the legal instruments executed during loan sanction. Under Indian banking law, there are two distinct mechanisms through which a bank attempts to deduct funds:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When salaried experts in India face unexpected money distress. Job transitions. Medical crises and miss own loan or credit card EMIs. Their primary anxiety centers on their monthly paycheck: <em>Will the bank empty my salary account the moment my salary gets credited?</em> </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The legal reality depends fundamentally on the technical architecture of your banking relationship and the legal instruments executed during loan sanction. Under Indian banking law. There are two distinct mechanisms through which a bank attempts to deduct funds: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-blue-200/80 shadow-xs space-y-2">
@@ -290,9 +257,7 @@ export default function SalaryDeductionPersonalLoanClient() {
                     <CreditCard className="w-4 h-4" />
                     <span>1. Automated Mandates (NACH / ECS / SI)</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    When you take a loan from Bank A while holding a salary account at Bank B, Bank A relies on a National Automated Clearing House (NACH) mandate or electronic Standing Instruction (SI). This is an authorized clearing system, not an automatic legal seizure. You have the statutory right to cancel this mandate.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> When you take a loan from Bank A while holding a salary account at Bank B. Bank A relies on a National Automated Clearing House (NACH) mandate or online Standing Instruction (SI). This is an authorized clearing system. Not an automatic legal seizure. You have the legal right to cancel this mandate. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-indigo-200/80 shadow-xs space-y-2">
@@ -300,16 +265,12 @@ export default function SalaryDeductionPersonalLoanClient() {
                     <Building2 className="w-4 h-4" />
                     <span>2. Internal Account Sweep (Right of Set-Off)</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    If your personal loan and your salary account are both maintained within the <em>same financial institution</em>, the bank uses internal ledger transfers under the common law doctrine of the &quot;Right of Set-Off&quot; (Section 171, Indian Contract Act, 1872) without triggering external clearing clearing houses.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> If your own loan and your salary account are both maintained within the <em>same money institution</em>The bank uses internal ledger transfers under the common law doctrine of the &quot. Right of Set-Off&quot. (Section 171. Indian Contract Act. 1872) without triggering external clearing clearing houses. </p>
                 </div>
               </div>
 
               <div className="bg-blue-50/70 border border-blue-200/70 p-4 rounded-xl text-xs md:text-sm text-slate-700 leading-relaxed">
-                <p>
-                  <strong>The Core Legal Principle:</strong> A lending bank possesses <strong>zero power to unilaterally freeze or seize funds from a salary account held in a third-party bank</strong> without either an active NACH mandate or a formal judicial Garnishee Order issued by a civil court under Order 21 Rule 46 of the Code of Civil Procedure, 1908.
-                </p>
+                <p> <strong>The Core Legal Principle:</strong> A lending bank possesses <strong>zero power to unilaterally freeze or seize funds from a salary account held in a third-party bank</strong> without either an active NACH mandate or a formal judicial Garnishee Order issued by a civil court under Order 21 Rule 46 of the Code of Civil Procedure. 1908. </p>
               </div>
             </section>
 
@@ -322,25 +283,16 @@ export default function SalaryDeductionPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 2. The Banker&apos;s Right of Set-Off Under Section 171
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When a borrower defaults on an unsecured debt, banks frequently cite their &quot;Banker&apos;s Lien&quot; and &quot;Right of Set-Off&quot; to sweep 100% of the funds resting in the debtor&apos;s savings or salary account. Understanding the statutory boundaries of this right is vital to defending your income.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When a clients defaults on an clean debt. Banks often cite their &quot. Banker&apos. s Lien&quot. and &quot. Right of Set-Off&quot. to sweep 100% of the funds resting in the debtor&apos. s savings or salary account. grasp the legal boundaries of this right is vital to defending your income. </p>
 
               <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-3">
-                <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2">
-                  <Gavel className="w-4 h-4 text-[#1886ff]" />
-                  What is Section 171 of the Indian Contract Act, 1872?
-                </h3>
-                <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                  Section 171 provides that bankers may, in the absence of a contract to the contrary, retain as a security for a general balance of account, any goods or securities bailed to them. Extending this principle to cash balances, the Right of Set-Off empowers a bank to combine two accounts (one in credit, one in debit) belonging to the exact same customer to extinguish or reduce a matured, legally enforceable debt.
-                </p>
+                <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2"> <Gavel className="w-4 h-4 text-[#1886ff]" /> What is Section 171 of the Indian Contract Act. 1872? </h3>
+                <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Section 171 provides that bankers may. In the absence of a contract to the contrary. Retain as a security for a general balance of account. Any goods or securities bailed to them. Extending this principle to cash balances. The Right of Set-Off empowers a bank to combine two accounts (one in credit. One in debit) belonging to the exact same customer to extinguish or reduce a matured. By law enforceable debt. </p>
               </div>
 
               {/* The 4 Non-Negotiable Legal Preconditions for Set-Off */}
               <div className="space-y-3 pt-1">
-                <h3 className="text-sm md:text-base font-bold text-slate-900">
-                  The 4 Statutory Preconditions Required for a Lawful Set-Off:
-                </h3>
+                <h3 className="text-sm md:text-base font-bold text-slate-900"> The 4 legal Preconditions Required for a Lawful Set-Off: </h3>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
                   <div className="p-4 rounded-xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
@@ -348,9 +300,7 @@ export default function SalaryDeductionPersonalLoanClient() {
                       <span className="w-5 h-5 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-[11px] font-bold">1</span>
                       <span>Strict Mutuality of Parties</span>
                     </div>
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      The credit balance and the debit liability must belong to the exact same person in the exact same capacity. A bank cannot set off a personal loan against a joint account or a partnership firm account.
-                    </p>
+                    <p className="text-xs text-slate-600 leading-relaxed"> The credit balance and the debit risk must belong to the exact same person in the exact same capacity. A bank cannot set off a own loan against a joint account or a partnership firm account. </p>
                   </div>
 
                   <div className="p-4 rounded-xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
@@ -358,9 +308,7 @@ export default function SalaryDeductionPersonalLoanClient() {
                       <span className="w-5 h-5 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-[11px] font-bold">2</span>
                       <span>Debt Must Be Due &amp; Ascertained</span>
                     </div>
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      Set-off can only be exercised against a liquidated, matured, and overdue liability. A bank cannot debit your salary account for future unaccrued EMIs or unadjudicated disputed penalties.
-                    </p>
+                    <p className="text-xs text-slate-600 leading-relaxed"> Set-off can only be exercised against a liquidated. Matured. overdue risk. A bank cannot debit your salary account for future unaccrued EMIs or unadjudicated disputed fines. </p>
                   </div>
 
                   <div className="p-4 rounded-xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
@@ -368,9 +316,7 @@ export default function SalaryDeductionPersonalLoanClient() {
                       <span className="w-5 h-5 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-[11px] font-bold">3</span>
                       <span>Mandatory Reasonable Notice</span>
                     </div>
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      Supreme Court precedents and the RBI Fair Practices Code establish that exercising set-off without prior reasonable written notice is an unfair trade practice. A surprise zero-balance sweep is actionable before the Banking Ombudsman.
-                    </p>
+                    <p className="text-xs text-slate-600 leading-relaxed"> Supreme Court precedents and the RBI Fair Practices Code establish that exercising set-off without prior reasonable written notice is an unfair trade practice. A surprise zero-balance sweep is actionable before the Banking RBI officer. </p>
                   </div>
 
                   <div className="p-4 rounded-xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
@@ -378,9 +324,7 @@ export default function SalaryDeductionPersonalLoanClient() {
                       <span className="w-5 h-5 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-[11px] font-bold">4</span>
                       <span>Same Legal Entity Limitation</span>
                     </div>
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      The Right of Set-Off exists solely between accounts maintained inside the same banking corporation. HDFC Bank cannot exercise set-off against an ICICI Bank salary account under any circumstance.
-                    </p>
+                    <p className="text-xs text-slate-600 leading-relaxed"> The Right of Set-Off exists solely between accounts maintained inside the same banking corporation. HDFC Bank cannot exercise set-off against an ICICI Bank salary account under any hardship. </p>
                   </div>
                 </div>
               </div>
@@ -395,9 +339,7 @@ export default function SalaryDeductionPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 3. The Critical Difference: Same-Bank vs. Separate-Bank Accounts
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                The single most impactful factor determining whether your salary is vulnerable to immediate seizure is whether your salary account resides in the same banking institution as your loan facility.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The single most impactful factor determining whether your salary is vulnerable to fast seizure is whether your salary account resides in the same banking institution as your loan facility. </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
                 {/* Same-Bank Scenario */}
@@ -406,16 +348,14 @@ export default function SalaryDeductionPersonalLoanClient() {
                     <AlertTriangle className="w-5 h-5 text-red-600 flex-shrink-0" />
                     <span>Scenario A: Same-Bank Account (High Risk)</span>
                   </div>
-                  <p className="text-xs md:text-sm text-red-950 leading-relaxed">
-                    <strong>Example:</strong> You took a personal loan from Axis Bank and your corporate salary is credited to your Axis Bank account.
-                  </p>
+                  <p className="text-xs md:text-sm text-red-950 leading-relaxed"> <strong>Example:</strong> You took a own loan from Axis Bank and your firm salary is credited to your Axis Bank account. </p>
                   <div className="text-xs text-red-900 space-y-2">
                     <p className="font-semibold text-red-950">How the Bank Operates:</p>
                     <ul className="list-disc pl-4 space-y-1">
                       <li>The bank has direct backend database access to your incoming credits.</li>
                       <li>Automated sweep bots trigger on the 1st/30th of the month the second payroll lands.</li>
                       <li>Cancelling NACH does not prevent internal set-off sweeps.</li>
-                      <li><strong>Immediate Remedy:</strong> You must request employer HR to switch your payroll account to a separate bank.</li>
+                      <li><strong>fast Remedy:</strong> You must request employer HR to switch your payroll account to a separate bank.</li>
                     </ul>
                   </div>
                 </div>
@@ -426,16 +366,14 @@ export default function SalaryDeductionPersonalLoanClient() {
                     <ShieldCheck className="w-5 h-5 text-emerald-600 flex-shrink-0" />
                     <span>Scenario B: Separate-Bank Account (Protected)</span>
                   </div>
-                  <p className="text-xs md:text-sm text-emerald-950 leading-relaxed">
-                    <strong>Example:</strong> You took a personal loan from Bajaj Finserv / HDFC and your salary is credited to SBI or Kotak Bank.
-                  </p>
+                  <p className="text-xs md:text-sm text-emerald-950 leading-relaxed"> <strong>Example:</strong> You took a own loan from Bajaj Finserv / HDFC and your salary is credited to SBI or Kotak Bank. </p>
                   <div className="text-xs text-emerald-900 space-y-2">
                     <p className="font-semibold text-emerald-950">How the Bank Operates:</p>
                     <ul className="list-disc pl-4 space-y-1">
                       <li>The lender has zero internal access to your SBI / Kotak account balance.</li>
                       <li>The lender is restricted to external NACH / e-mandate clearing attempts.</li>
-                      <li>Revoking the NACH mandate legally stops automated debits completely.</li>
-                      <li><strong>Immediate Remedy:</strong> Exercise statutory mandate revocation and proceed to negotiated OTS.</li>
+                      <li>Revoking the NACH mandate by law stops automated debits fully.</li>
+                      <li><strong>fast Remedy:</strong> Exercise legal mandate revocation and proceed to settle OTS.</li>
                     </ul>
                   </div>
                 </div>
@@ -451,9 +389,7 @@ export default function SalaryDeductionPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 4. Legal Comparison: Salary Deduction Scenarios
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Compare how different recovery methods operate, their statutory legality, power to attach income, and exact borrower defense routes:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Compare how different claims methods operate. Their legal legality. Power to attach income. exact clients defense routes: </p>
 
               {/* Table with both vertical and horizontal lines forming a proper grid */}
               <div className="overflow-x-auto rounded-2xl border border-slate-300 bg-white shadow-xs">
@@ -470,54 +406,44 @@ export default function SalaryDeductionPersonalLoanClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-200 text-slate-600">
                     <tr className="hover:bg-slate-50/60">
-                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200">
-                        Internal Sweep (Same Bank)
-                      </td>
+                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200"> Internal Sweep (Same Bank) </td>
                       <td className="p-3.5 border border-slate-200">Sec 171 Indian Contract Act 1872</td>
                       <td className="p-3.5 text-red-700 font-semibold border border-slate-200">YES (Internal Core Banking)</td>
                       <td className="p-3.5 text-red-700 font-semibold border border-slate-200">YES (Unless Challenged)</td>
-                      <td className="p-3.5 border border-slate-200">Sec 60 CPC Notice &amp; Reroute Payroll</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Switch salary account to separate bank &amp; issue refund notice</td>
+                      <td className="p-3.5 border border-slate-200">Sec 60 CPC Notice &amp. Reroute Payroll</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Switch salary account to separate bank &amp. issue refund notice</td>
                     </tr>
                     <tr className="hover:bg-slate-50/60">
-                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200">
-                        Cross-Bank NACH / e-Mandate
-                      </td>
-                      <td className="p-3.5 border border-slate-200">Payment &amp; Settlement Systems Act 2007</td>
+                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200"> Cross-Bank NACH / e-Mandate </td>
+                      <td className="p-3.5 border border-slate-200">Payment &amp. closure Systems Act 2007</td>
                       <td className="p-3.5 text-amber-700 font-semibold border border-slate-200">Conditional (Mandate Only)</td>
                       <td className="p-3.5 text-emerald-700 font-semibold border border-slate-200">NO (Only Mandate Amount)</td>
                       <td className="p-3.5 border border-slate-200">RBI Mandate Revocation Circular</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Submit formal NACH cancellation notice via net banking &amp; branch</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Submit formal NACH cancellation notice via net banking &amp. branch</td>
                     </tr>
                     <tr className="hover:bg-slate-50/60">
-                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200">
-                        Court Garnishee Order
-                      </td>
+                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200"> Court Garnishee Order </td>
                       <td className="p-3.5 border border-slate-200">Order 21 Rule 46 / 48 CPC 1908</td>
                       <td className="p-3.5 text-red-700 font-semibold border border-slate-200">YES (Via Court Summons)</td>
                       <td className="p-3.5 text-emerald-700 font-semibold border border-slate-200">NO (Sec 60 CPC Exemption: 1st ₹1,000 + 2/3rd Exempt)</td>
-                      <td className="p-3.5 border border-slate-200">Civil Court Objection &amp; OTS Compromise</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">File application for stay &amp; negotiate structured one-time settlement</td>
+                      <td className="p-3.5 border border-slate-200">Civil Court Objection &amp. OTS deal</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">File application for stay &amp. settle structured one-time closure</td>
                     </tr>
                     <tr className="hover:bg-slate-50/60">
-                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200">
-                        Joint Account Debit (Spouse/Parent)
-                      </td>
+                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200"> Joint Account Debit (Spouse/Parent) </td>
                       <td className="p-3.5 border border-slate-200">Doctrine of Mutuality (Contract Act)</td>
                       <td className="p-3.5 text-amber-700 font-semibold border border-slate-200">YES (If in Same Bank)</td>
-                      <td className="p-3.5 text-red-700 font-semibold border border-slate-200">ILLEGAL (Direct Violation of Mutuality)</td>
-                      <td className="p-3.5 border border-slate-200">RBI Ombudsman Complaint for Illegal Debit</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Demand 100% refund of co-owner funds under Banking Ombudsman Scheme</td>
+                      <td className="p-3.5 text-red-700 font-semibold border border-slate-200">unlawful (Direct Violation of Mutuality)</td>
+                      <td className="p-3.5 border border-slate-200">RBI RBI officer Complaint for unlawful Debit</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Demand 100% refund of co-owner funds under Banking RBI officer Scheme</td>
                     </tr>
                     <tr className="hover:bg-slate-50/60">
-                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200">
-                        Direct HR / Employer Withholding
-                      </td>
+                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200"> Direct HR / Employer Withholding </td>
                       <td className="p-3.5 border border-slate-200">Payment of Wages Act 1936</td>
                       <td className="p-3.5 text-emerald-700 font-semibold border border-slate-200">NO (Zero Legal Access)</td>
-                      <td className="p-3.5 text-emerald-700 font-semibold border border-slate-200">STRICTLY ILLEGAL (Criminal Extortion)</td>
-                      <td className="p-3.5 border border-slate-200">Sec 383 IPC / Sec 308 BNS &amp; RBI Sachet</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Issue cease-and-desist warning to lender; HR cannot deduct without court decree</td>
+                      <td className="p-3.5 text-emerald-700 font-semibold border border-slate-200">STRICTLY unlawful (penal Extortion)</td>
+                      <td className="p-3.5 border border-slate-200">Sec 383 IPC / Sec 308 BNS &amp. RBI Sachet</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Issue cease-and-desist warning to lender. HR cannot deduct without court decree</td>
                     </tr>
                   </tbody>
                 </table>
@@ -533,16 +459,11 @@ export default function SalaryDeductionPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 5. Technical Financial Risk Analytics &amp; CIBIL Scoring Penalties
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When a bank repeatedly attempts uncoordinated salary debits or leaves a defaulted loan unpaid, the borrower faces both acute financial bleeding and severe credit bureau rating destruction. The mathematical mechanics operate as follows:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When a bank repeatedly attempts uncoordinated salary debits or leaves a defaulted loan unpaid. The clients faces both acute money bleeding and severe credit desk rating destruction. The mathematical workings operate as follows: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-3">
-                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2">
-                    <DollarSign className="w-4 h-4 text-[#1886ff]" />
-                    Compounding NACH Bounce Charges &amp; Penal Multipliers
-                  </h3>
+                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2"> <DollarSign className="w-4 h-4 text-[#1886ff]" /> growing NACH Bounce Charges &amp. Penal Multipliers </h3>
                   <div className="space-y-2 text-xs text-slate-600 leading-relaxed">
                     <div className="flex justify-between py-1 border-b border-slate-100">
                       <span>Lender NACH Bounce Surcharge:</span>
@@ -568,10 +489,7 @@ export default function SalaryDeductionPersonalLoanClient() {
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-3">
-                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2">
-                    <TrendingUp className="w-4 h-4 text-red-600" />
-                    CIBIL Score Destruction &amp; Algorithmic Multipliers
-                  </h3>
+                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2"> <TrendingUp className="w-4 h-4 text-red-600" /> CIBIL Score Destruction &amp. digital Multipliers </h3>
                   <div className="space-y-2 text-xs text-slate-600 leading-relaxed">
                     <div className="flex justify-between py-1 border-b border-slate-100">
                       <span>Payment History Weightage (CIBIL):</span>
@@ -607,9 +525,7 @@ export default function SalaryDeductionPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Visual Blueprint: Salary Defense &amp; Debt Resolution
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Refer to this visual blueprint outlining the 6-stage procedural sequence to protect your monthly salary from unauthorized bank sweeps, invoke statutory exemptions, and achieve an amicable debt settlement:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Refer to this visual blueprint outlining the 6-stage procedural sequence to protect your monthly salary from illegal bank sweeps. Invoke legal exemptions. achieve an amicable debt closure: </p>
 
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-sm p-3 md:p-4 overflow-hidden">
                 <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-slate-100">
@@ -646,9 +562,7 @@ export default function SalaryDeductionPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 6. Standard Operating Procedure (SOP): 6 Stages of Salary Defense
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Follow this battle-tested, sequential protocol to secure your monthly livelihood and resolve your personal loan dispute on favorable terms:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Follow this battle-tested. Sequential protocol to secure your monthly livelihood and resolve your own loan dispute on favorable terms: </p>
 
               <div className="space-y-4 pt-2">
                 {/* Stage 1 */}
@@ -659,12 +573,8 @@ export default function SalaryDeductionPersonalLoanClient() {
                     </span>
                     <span className="text-xs font-semibold text-slate-500">Timeline: Days 1–3</span>
                   </div>
-                  <h3 className="text-base md:text-lg font-bold text-slate-900">
-                    Immediate Account Segregation &amp; Payroll Account Rerouting
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    If your salary account is held with the lending bank, immediately submit a formal written request to your employer HR/payroll department to update your salary disbursement account to a fresh account in a separate, unrelated scheduled commercial bank (e.g., SBI, Bank of Baroda, or Kotak). This physically severs the lending bank&apos;s automated database sweep capabilities before the next payday.
-                  </p>
+                  <h3 className="text-base md:text-lg font-bold text-slate-900"> fast Account Segregation &amp. Payroll Account Rerouting </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> If your salary account is held with the lending bank. Fast submit a formal written request to your employer HR/payroll department to update your salary disbursement account to a fresh account in a separate. Unrelated scheduled trade bank (e.g. SBI. Bank of Baroda. Kotak). This physically severs the lending bank&apos. s automated database sweep capabilities before the next payday. </p>
                 </div>
 
                 {/* Stage 2 */}
@@ -675,12 +585,8 @@ export default function SalaryDeductionPersonalLoanClient() {
                     </span>
                     <span className="text-xs font-semibold text-slate-500">Timeline: Days 4–7</span>
                   </div>
-                  <h3 className="text-base md:text-lg font-bold text-slate-900">
-                    Statutory NACH &amp; e-Mandate Revocation under RBI Circular
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Exercise your statutory rights under RBI Circular DPSS.CO.CHD.No./133/04.07.05/2019-20. Log into your net banking portal and revoke the active e-mandate. Simultaneously send a written Mandate Cancellation Notice via registered email and speed post to the destination branch, demanding the immediate cessation of automated debit presentations.
-                  </p>
+                  <h3 className="text-base md:text-lg font-bold text-slate-900"> legal NACH &amp. e-Mandate Revocation under RBI Circular </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Exercise your legal rights under RBI Circular DPSS.CO.CHD.No./133/04.07.05/2019-20. Log into your net banking portal and revoke the active e-mandate. Simultaneously send a written Mandate Cancellation Notice via registered email and speed post to the destination branch. Demanding the fast cessation of automated debit presentations. </p>
                 </div>
 
                 {/* Stage 3 */}
@@ -691,12 +597,8 @@ export default function SalaryDeductionPersonalLoanClient() {
                     </span>
                     <span className="text-xs font-semibold text-slate-500">Timeline: Days 8–15</span>
                   </div>
-                  <h3 className="text-base md:text-lg font-bold text-slate-900">
-                    Formal Legal Objection against Section 171 Right of Set-Off
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    If the bank executed an unauthorized sweep, serve a formal legal notice upon the Branch Manager and Principal Nodal Officer. Challenge the debit on grounds of lack of prior notice, violation of the RBI Fair Practices Code, and breach of mutuality (if joint funds or salary credits were swept). Demand an immediate refund of essential subsistence funds.
-                  </p>
+                  <h3 className="text-base md:text-lg font-bold text-slate-900"> Formal Legal Objection against Section 171 Right of Set-Off </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> If the bank executed an illegal sweep. Serve a formal legal notice upon the Branch Manager and main sum Nodal head. Challenge the debit on grounds of lack of prior notice. Violation of the RBI Fair Practices Code. breach of mutuality (if joint funds or salary credits were swept). Demand an fast refund of essential subsistence funds. </p>
                 </div>
 
                 {/* Stage 4 */}
@@ -707,12 +609,8 @@ export default function SalaryDeductionPersonalLoanClient() {
                     </span>
                     <span className="text-xs font-semibold text-slate-500">Timeline: Days 16–30</span>
                   </div>
-                  <h3 className="text-base md:text-lg font-bold text-slate-900">
-                    Invoking Section 60 CPC Statutory Subsistence Protections
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    In your formal representation, cite Section 60(1)(i) of the Code of Civil Procedure, 1908. Put the bank on record that even a civil execution court is statutorily prohibited from attaching the first ₹1,000 plus two-thirds of salary, and an extrajudicial full salary sweep violates fundamental livelihood rights under Article 21 of the Constitution of India.
-                  </p>
+                  <h3 className="text-base md:text-lg font-bold text-slate-900"> Invoking Section 60 CPC legal Subsistence safety </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> In your formal representation. Cite Section 60(1)(i) of the Code of Civil Procedure. 1908. Put the bank on record that even a civil execution court is statutorily prohibited from attaching the first ₹1,000 plus two-thirds of salary. an extrajudicial full salary sweep violates fundamental livelihood rights under Article 21 of the Constitution of India. </p>
                 </div>
 
                 {/* Stage 5 */}
@@ -723,12 +621,8 @@ export default function SalaryDeductionPersonalLoanClient() {
                     </span>
                     <span className="text-xs font-semibold text-slate-500">Timeline: Days 31–60</span>
                   </div>
-                  <h3 className="text-base md:text-lg font-bold text-slate-900">
-                    Escalating to the RBI Integrated Ombudsman (CMS Portal)
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    If the bank fails to reverse illegal deductions, file an expedited regulatory complaint on the <strong>RBI CMS portal (cms.rbi.org.in)</strong> under the Reserve Bank - Integrated Ombudsman Scheme, 2021. Include bank statements, mandate cancellation receipts, and proof of financial distress to compel regulatory intervention.
-                  </p>
+                  <h3 className="text-base md:text-lg font-bold text-slate-900"> Escalating to the RBI Integrated RBI officer (CMS Portal) </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> If the bank fails to reverse unlawful deductions. File an expedited RBI complaint on the <strong>RBI CMS portal (cms.rbi.org.in)</strong> under the Reserve Bank - Integrated RBI officer Scheme. 2021. Include bank statements. Mandate cancellation receipts. proof of money distress to compel RBI action. </p>
                 </div>
 
                 {/* Stage 6 */}
@@ -739,12 +633,8 @@ export default function SalaryDeductionPersonalLoanClient() {
                     </span>
                     <span className="text-xs font-semibold text-slate-500">Timeline: Months 2–4</span>
                   </div>
-                  <h3 className="text-base md:text-lg font-bold text-slate-900">
-                    Negotiating Compromise OTS (40%–70% Waiver) &amp; Obtaining NDC
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    With salary deductions successfully halted and regulatory scrutiny initiated, the lender loses automated leverage and becomes motivated to close the non-performing asset (NPA). CredSettle leads bilateral negotiations to secure a 40% to 70% waiver on accumulated dues, culminating in a formal OTS Sanction Letter and an official No Dues Certificate (NDC).
-                  </p>
+                  <h3 className="text-base md:text-lg font-bold text-slate-900"> settle deal OTS (40%. 70% Waiver) &amp. Obtaining NDC </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> With salary deductions successfully halted and RBI scrutiny initiated. The lender loses automated leverage and becomes motivated to close the non-performing asset (NPA). CredSettle leads bilateral talks to secure a 40% to 70% waiver on accumulated dues. Culminating in a formal OTS Sanction Letter and an valid No Dues letter (NDC). </p>
                 </div>
               </div>
             </section>
@@ -758,9 +648,7 @@ export default function SalaryDeductionPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 7. Formal Statutory Demand Notice (Monospace Terminal Draft)
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                If your bank has executed an unauthorized salary sweep or continues unapproved NACH debit presentations, dispatch this formal statutory notice to the Bank Principal Nodal Officer and Branch Manager:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> If your bank has executed an illegal salary sweep or continues unapproved NACH debit presentations. Dispatch this formal legal notice to the Bank main sum Nodal head and Branch Manager: </p>
 
               {/* Code / Notice Container */}
               <div className="rounded-2xl border border-slate-700 bg-slate-900 text-slate-100 p-5 md:p-6 shadow-sm overflow-x-auto text-xs font-mono leading-relaxed relative">
@@ -828,9 +716,7 @@ ___________________________
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 8. The 3-Tier Escalation Matrix &amp; Judicial Remedies
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                If the lending bank ignores your mandate cancellation or refuses to refund unauthorized salary sweeps, escalate through this structured 3-tier regulatory and judicial matrix:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> If the lending bank ignores your mandate cancellation or refuses to refund illegal salary sweeps. Escalate through this structured 3-tier RBI and judicial matrix: </p>
 
               <div className="space-y-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -840,12 +726,8 @@ ___________________________
                     </span>
                     <span className="text-xs text-slate-500 font-semibold">Turnaround: 7–14 Days</span>
                   </div>
-                  <h3 className="text-sm md:text-base font-bold text-slate-900">
-                    Submission of Formal Mandate Cancellation &amp; Set-Off Protest
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Submit the written statutory notice directly to your home branch manager and email the Bank&apos;s Centralized Customer Redressal Desk. Obtain a physical receiving stamp or electronic ticket acknowledgement number.
-                  </p>
+                  <h3 className="text-sm md:text-base font-bold text-slate-900"> Submission of Formal Mandate Cancellation &amp. Set-Off Protest </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Submit the written legal notice straight to your home branch manager and email the Bank&apos. s Centralized Customer Redressal Desk. Obtain a real receiving stamp or online ticket acknowledgement number. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -855,12 +737,8 @@ ___________________________
                     </span>
                     <span className="text-xs text-slate-500 font-semibold">Turnaround: 15–30 Days</span>
                   </div>
-                  <h3 className="text-sm md:text-base font-bold text-slate-900">
-                    Escalation to Apex Internal Banking Authority
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    If the branch fails to resolve the grievance within 14 days, escalate to the bank&apos;s appointed Principal Nodal Officer (PNO). The PNO operates under direct RBI mandates to review arbitrary recoveries, reverse unfair penalties, and facilitate OTS compromise settlements.
-                  </p>
+                  <h3 className="text-sm md:text-base font-bold text-slate-900"> Escalation to Apex Internal Banking Authority </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> If the branch fails to resolve the grievance within 14 days. Escalate to the bank&apos. s appointed main sum Nodal head (PNO). The PNO operates under direct RBI mandates to review arbitrary recoveries. Reverse unfair fines. facilitate OTS deal closures. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-emerald-200 shadow-xs space-y-2">
@@ -870,12 +748,8 @@ ___________________________
                     </span>
                     <span className="text-xs text-slate-500 font-semibold">Turnaround: 30 Days</span>
                   </div>
-                  <h3 className="text-sm md:text-base font-bold text-slate-900">
-                    Regulatory Redressal &amp; Statutory Compensation
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    If 30 days elapse without resolution, lodge a formal complaint on the <strong>RBI CMS portal (cms.rbi.org.in)</strong> under the Reserve Bank - Integrated Ombudsman Scheme, 2021. The Ombudsman holds statutory powers to order immediate fund restitution, levy fines on the bank, and grant compensation up to ₹20 Lakhs for mental harassment.
-                  </p>
+                  <h3 className="text-sm md:text-base font-bold text-slate-900"> RBI Redressal &amp. legal Compensation </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> If 30 days elapse without relief. Lodge a formal complaint on the <strong>RBI CMS portal (cms.rbi.org.in)</strong> under the Reserve Bank - Integrated RBI officer Scheme. 2021. The RBI officer holds legal powers to order fast fund relief. Levy fines on the bank. grant compensation up to ₹20 Lakhs for mental threats. </p>
                 </div>
               </div>
             </section>
@@ -889,9 +763,7 @@ ___________________________
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 9. Chronological Milestone Resolution Timeline (Day 0 to Month 6)
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Understanding institutional and legal milestones allows borrowers to plan defense maneuvers and settlement negotiations strategically:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> grasp bank and legal milestones allows clients to plan defense maneuvers and closure talks strategically: </p>
 
               {/* Table with both vertical and horizontal lines forming a proper grid */}
               <div className="overflow-x-auto rounded-2xl border border-slate-300 bg-white shadow-xs">
@@ -909,37 +781,37 @@ ___________________________
                       <td className="p-3.5 font-bold text-slate-900 border border-slate-200">Day 0</td>
                       <td className="p-3.5 border border-slate-200">First Missed EMI / Auto-Debit Bounce</td>
                       <td className="p-3.5 border border-slate-200">1 to 30 Days Past Due (DPD)</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Audit banking setup &amp; prepare salary account firewall</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Audit banking setup &amp. prepare salary account firewall</td>
                     </tr>
                     <tr className="hover:bg-slate-50/60">
-                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200">Days 1–5</td>
-                      <td className="p-3.5 border border-slate-200">Payroll Rerouting &amp; Account Segregation</td>
+                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200">Days 1. 5</td>
+                      <td className="p-3.5 border border-slate-200">Payroll Rerouting &amp. Account Segregation</td>
                       <td className="p-3.5 border border-slate-200">Prior to next employer payroll cycle</td>
                       <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Submit new account details to employer HR to protect wages</td>
                     </tr>
                     <tr className="hover:bg-slate-50/60">
-                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200">Days 6–15</td>
-                      <td className="p-3.5 border border-slate-200">NACH Cancellation &amp; Statutory Notice</td>
+                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200">Days 6. 15</td>
+                      <td className="p-3.5 border border-slate-200">NACH Cancellation &amp. legal Notice</td>
                       <td className="p-3.5 border border-slate-200">Within 30 days of default notice</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Dispatch Section 171 notice &amp; cancel e-mandates on net banking</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Dispatch Section 171 notice &amp. cancel e-mandates on net banking</td>
                     </tr>
                     <tr className="hover:bg-slate-50/60">
-                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200">Days 16–30</td>
+                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200">Days 16. 30</td>
                       <td className="p-3.5 border border-slate-200">NPA Classification (90 DPD Window)</td>
-                      <td className="p-3.5 border border-slate-200">Statutory 90-day RBI prudential norm</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Engage CredSettle legal desk to open formal OTS settlement channel</td>
+                      <td className="p-3.5 border border-slate-200">legal 90-day RBI prudential norm</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Engage CredSettle legal desk to open formal OTS closure channel</td>
                     </tr>
                     <tr className="hover:bg-slate-50/60">
-                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200">Months 2–4</td>
-                      <td className="p-3.5 border border-slate-200">OTS Compromise Negotiation Window</td>
-                      <td className="p-3.5 border border-slate-200">Bilateral negotiation period</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Secure official written OTS sanction letter with 40%–70% waiver</td>
+                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200">Months 2. 4</td>
+                      <td className="p-3.5 border border-slate-200">OTS deal talks Window</td>
+                      <td className="p-3.5 border border-slate-200">Bilateral talks period</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Secure valid written OTS sanction letter with 40%. 70% waiver</td>
                     </tr>
                     <tr className="hover:bg-slate-50/60">
-                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200">Months 5–6</td>
-                      <td className="p-3.5 border border-slate-200">Full Closure &amp; No Dues Certificate (NDC)</td>
-                      <td className="p-3.5 border border-slate-200">Within 30 days of settlement payment</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Collect NDC &amp; verify CIBIL record updated to &quot;Closed&quot; status</td>
+                      <td className="p-3.5 font-bold text-slate-900 border border-slate-200">Months 5. 6</td>
+                      <td className="p-3.5 border border-slate-200">Full Closure &amp. No Dues letter (NDC)</td>
+                      <td className="p-3.5 border border-slate-200">Within 30 days of closure payment</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold border border-slate-200">Collect NDC &amp. check CIBIL record updated to &quot. Closed&quot. status</td>
                     </tr>
                   </tbody>
                 </table>
@@ -955,49 +827,27 @@ ___________________________
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 10. Special Scenarios: Joint Accounts, Provident Funds &amp; HR Threats
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Salary deduction dynamics vary across complex family financial structures and aggressive recovery practices:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Salary deduction dynamics vary across complex family money structures and harsh claims practices: </p>
 
               <div className="space-y-3 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
-                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2">
-                    <UserCheck className="w-4 h-4 text-[#1886ff]" />
-                    1. Joint Accounts with Spouse or Parents: The Rule of Mutuality
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Under Indian contract jurisprudence, a bank <strong>cannot debit a joint account</strong> held by a borrower along with a spouse, parent, or sibling to recover an individual debt, unless the joint holder is a signed co-borrower or guarantor. If a bank unlawfully sweeps funds from a joint account, a formal objection citing lack of mutuality mandates immediate restitution of the co-holder&apos;s funds.
-                  </p>
+                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2"> <UserCheck className="w-4 h-4 text-[#1886ff]" /> 1. Joint Accounts with Spouse or Parents: The Rule of Mutuality </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Under Indian contract law. A bank <strong>cannot debit a joint account</strong> held by a clients along with a spouse. Parent. sibling to recover an individual debt. unless the joint holder is a signed co-clients or guarantor. If a bank unlawfully sweeps funds from a joint account. A formal objection citing lack of mutuality mandates fast relief of the co-holder&apos. s funds. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
-                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2">
-                    <ShieldCheck className="w-4 h-4 text-emerald-600" />
-                    2. Complete Statutory Immunity for Provident Fund (EPF/PPF) &amp; Gratuity
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Under Section 10 of the Employees&apos; Provident Funds and Miscellaneous Provisions Act, 1952, Section 60(1)(k) CPC, and the Public Provident Fund Act, 1968, funds lying in EPF, PPF, and statutory Gratuity accounts are <strong>completely immune from bank set-off and civil court attachment</strong>. Any attempt by a bank to freeze or debit PF accumulation is void ab initio.
-                  </p>
+                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2"> <ShieldCheck className="w-4 h-4 text-emerald-600" /> 2. Complete legal Immunity for Provident Fund (EPF/PPF) &amp. Gratuity </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Under Section 10 of the Employees&apos. Provident Funds and Miscellaneous rules Act. 1952. Section 60(1)(k) CPC. The Public Provident Fund Act. 1968. Funds lying in EPF. PPF. legal Gratuity accounts are <strong>fully immune from bank set-off and civil court attachment</strong>. Any attempt by a bank to freeze or debit PF accumulation is void ab initio. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
-                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2">
-                    <Ban className="w-4 h-4 text-red-600" />
-                    3. Recovery Agent Threats to Contact Employer HR / Company Payroll
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Recovery agents frequently threaten: <em>&quot;We will send a legal notice to your HR and deduct EMI directly from your salary.&quot;</em> This is a complete bluff and an illegal practice. An employer is legally prohibited under the Payment of Wages Act, 1936 from withholding an employee&apos;s salary for private loans without an explicit judicial order passed under Order 21 Rule 48 CPC.
-                  </p>
+                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2"> <Ban className="w-4 h-4 text-red-600" /> 3. agents Threats to Contact Employer HR / Company Payroll </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> agents often threaten: <em>&quot. We will send a legal notice to your HR and deduct EMI straight from your salary.&quot. </em> This is a complete bluff and an unlawful practice. An employer is by law prohibited under the Payment of Wages Act. 1936 from withholding an employee&apos. s salary for private loans without an explicit judicial order passed under Order 21 Rule 48 CPC. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
-                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2">
-                    <Sparkles className="w-4 h-4 text-[#1886ff]" />
-                    4. Digital Fintech NBFC Apps &amp; UPI Auto-Pay Overrides
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Instant loan applications often register recurring UPI Auto-Pay mandates on Google Pay, PhonePe, or Paytm. If you face distress, you must cancel these mandates directly inside your UPI application settings under &apos;AutoPay / Recurring Mandates&apos; to prevent random mid-month debits.
-                  </p>
+                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2"> <Sparkles className="w-4 h-4 text-[#1886ff]" /> 4. Digital Fintech NBFC Apps &amp. UPI Auto-Pay Overrides </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Instant loan applications often register recurring UPI Auto-Pay mandates on Google Pay. PhonePe. Paytm. If you face distress. You must cancel these mandates straight inside your UPI application settings under &apos. AutoPay / Recurring Mandates&apos. to prevent random mid-month debits. </p>
                 </div>
               </div>
             </section>
@@ -1016,9 +866,7 @@ ___________________________
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Frequently Asked Questions on Bank Salary Deductions &amp; Set-Off
               </h2>
-              <p className="text-xs md:text-sm text-slate-600">
-                Click on any question below to view detailed legal answers verified by our debt resolution professionals:
-              </p>
+              <p className="text-xs md:text-sm text-slate-600"> Click on any question below to view detailed legal answers checked by our debt relief experts: </p>
 
               <div className="space-y-3 pt-2">
                 {faqs.map((faq, index) => {
@@ -1061,21 +909,11 @@ ___________________________
                 Official Regulatory Citations &amp; Judicial References
               </h2>
               <ul className="space-y-2 text-xs text-slate-600 leading-relaxed list-disc pl-5">
-                <li>
-                  <strong>Indian Contract Act, 1872:</strong> Section 171 (Banker&apos;s General Lien &amp; Right of Set-Off), Ministry of Law and Justice, Government of India.
-                </li>
-                <li>
-                  <strong>Code of Civil Procedure, 1908:</strong> Section 60(1)(i) (Statutory Exemption of Salary from Attachment) and Order 21 Rule 48.
-                </li>
-                <li>
-                  <strong>Reserve Bank of India (RBI):</strong> Master Direction on Fair Practices Code for Lenders &amp; Circular DPSS.CO.CHD.No./133/04.07.05/2019-20 (Customer Rights on NACH Mandate Cancellation).
-                </li>
-                <li>
-                  <strong>Reserve Bank - Integrated Ombudsman Scheme, 2021:</strong> Redressal Mechanism for Unfair Bank Debits (cms.rbi.org.in).
-                </li>
-                <li>
-                  <strong>Payment and Settlement Systems Act, 2007:</strong> Section 25 (Dishonour of Electronic Funds Transfer).
-                </li>
+                <li> <strong>Indian Contract Act. 1872:</strong> Section 171 (Banker&apos. s General Lien &amp. Right of Set-Off). Ministry of Law and Justice. Government of India. </li>
+                <li> <strong>Code of Civil Procedure. 1908:</strong> Section 60(1)(i) (legal Exemption of Salary from Attachment) and Order 21 Rule 48. </li>
+                <li> <strong>Reserve Bank of India (RBI):</strong> Master Direction on Fair Practices Code for Lenders &amp. Circular DPSS.CO.CHD.No./133/04.07.05/2019-20 (Customer Rights on NACH Mandate Cancellation). </li>
+                <li> <strong>Reserve Bank - Integrated RBI officer Scheme. 2021:</strong> Redressal Mechanism for Unfair Bank Debits (cms.rbi.org.in). </li>
+                <li> <strong>Payment and closure Systems Act. 2007:</strong> Section 25 (Dishonour of online Funds Transfer). </li>
               </ul>
 
               {/* 10 Internal Topic Badges */}
@@ -1138,14 +976,10 @@ ___________________________
                   >
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief experts </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Specialized in banking compliance, arbitral defense strategies, loan dispute resolution, and NPA settlement negotiations with deep expertise challenging unlawful salary sweeps and banker liens across Indian banking forums.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> Specialized in banking compliance. Arbitral defense strategies. Loan dispute relief. NPA closure talks with deep expertise challenging unlawful salary sweeps and banker liens across Indian banking forums. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link
                   href="/author/ashish-jhangra"
@@ -1169,12 +1003,8 @@ ___________________________
                 <span className="text-xs font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
                   100% CONFIDENTIAL LEGAL DEFENSE
                 </span>
-                <p className="text-lg md:text-xl font-bold text-white leading-snug">
-                  Bank Emptying Your Salary Account?
-                </p>
-                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
-                  Our debt resolution experts challenge illegal set-off sweeps, stop NACH auto-debits, protect your livelihood, and negotiate a 40% to 70% loan waiver.
-                </p>
+                <p className="text-lg md:text-xl font-bold text-white leading-snug"> Bank Emptying Your Salary Account? </p>
+                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal"> Our debt relief experts challenge unlawful set-off sweeps. Stop NACH auto-debits. Protect your livelihood. settle a 40% to 70% loan waiver. </p>
               </div>
               <Link
                 href="/contact"
@@ -1200,22 +1030,10 @@ ___________________________
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
               <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage</p>
               <ul className="space-y-2 text-slate-600">
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>Zero Upfront Risk:</strong> Success-linked settlement fees.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>Direct Bank Remittance:</strong> Zero middleman fund holding.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>RBI &amp; CICRA Compliance:</strong> 100% lawful dispute handling.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>Pan-India Representation:</strong> Dedicated debt resolution specialists.</span>
-                </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" /> <span><strong>Zero Upfront Risk:</strong> Success-linked closure fees.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" /> <span><strong>Direct Bank wire transfer:</strong> Zero middleman fund holding.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" /> <span><strong>RBI &amp. CICRA Compliance:</strong> 100% lawful dispute handling.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" /> <span><strong>Pan-India Representation:</strong> Dedicated debt relief specialists.</span> </li>
               </ul>
             </div>
 
@@ -1227,9 +1045,7 @@ ___________________________
                   href="/ecs-nach-bounce-legal-notice-section-25"
                   className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
                 >
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    ECS / NACH Bounce Legal Notice Section 25
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> ECS / NACH Bounce Legal Notice Section 25 </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Full step-by-step reply blueprint &rarr;</span>
                 </Link>
 
@@ -1237,9 +1053,7 @@ ___________________________
                   href="/arbitration-notice-personal-loan-default"
                   className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
                 >
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Arbitration Notice for Personal Loan Default
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Arbitration Notice for own Loan Default </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Perkins Eastman defense guide &rarr;</span>
                 </Link>
 
@@ -1247,9 +1061,7 @@ ___________________________
                   href="/convert-settled-status-to-closed"
                   className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
                 >
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Convert Settled Loan to Closed Status
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Convert Settled Loan to Closed Status </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Clean credit report blueprint &rarr;</span>
                 </Link>
               </div>

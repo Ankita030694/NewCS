@@ -66,9 +66,7 @@ export default function SuccessPage() {
               <h1 className="mt-3 text-2xl font-bold text-[#0C2756] sm:text-3xl md:text-4xl">
                 Thank You for Choosing CredSettle
               </h1>
-              <p className="mx-auto mt-3 max-w-2xl text-sm sm:text-base text-[#0C2756]/70 leading-relaxed">
-                Your retainer payment has been processed securely. Our legal debt resolution team has prioritized your account, and our senior advocates are preparing your legal file.
-              </p>
+              <p className="mx-auto mt-3 max-w-2xl text-sm sm:text-base text-[#0C2756]/70 leading-relaxed"> Your retainer payment has been processed securely. Our legal debt relief team has prioritized your account. our senior counsel are preparing your legal file. </p>
             </div>
 
             {/* Next Steps Section */}
@@ -83,10 +81,8 @@ export default function SuccessPage() {
                       <FontAwesomeIcon icon={faUserTie} className="h-4 w-4" />
                     </div>
                     <div>
-                      <h3 className="text-sm font-bold text-[#0C2756]">1. Dedicated Advocate Assignment</h3>
-                      <p className="mt-1 text-xs text-[#0C2756]/70 leading-relaxed">
-                        A senior advocate reviews your outstanding bank balances, default duration, and recent legal notices to prepare your negotiation defense.
-                      </p>
+                      <h3 className="text-sm font-bold text-[#0C2756]">1. Dedicated counsel Assignment</h3>
+                      <p className="mt-1 text-xs text-[#0C2756]/70 leading-relaxed"> A senior counsel reviews your unpaid bank balances. Default duration. recent legal notices to prepare your talks defense. </p>
                     </div>
                   </div>
                 </div>
@@ -97,10 +93,8 @@ export default function SuccessPage() {
                       <FontAwesomeIcon icon={faPhoneVolume} className="h-4 w-4" />
                     </div>
                     <div>
-                      <h3 className="text-sm font-bold text-[#0C2756]">2. Onboarding &amp; Strategy Call</h3>
-                      <p className="mt-1 text-xs text-[#0C2756]/70 leading-relaxed">
-                        Our legal advisory desk connects with you to evaluate your financial hardship, determine target waiver ratios, and finalize settlement terms.
-                      </p>
+                      <h3 className="text-sm font-bold text-[#0C2756]">2. Onboarding &amp. Strategy Call</h3>
+                      <p className="mt-1 text-xs text-[#0C2756]/70 leading-relaxed"> Our legal advisory desk connects with you to evaluate your money hardship. Determine target waiver ratios. finalize closure terms. </p>
                     </div>
                   </div>
                 </div>
@@ -111,10 +105,8 @@ export default function SuccessPage() {
                       <FontAwesomeIcon icon={faShieldHalved} className="h-4 w-4" />
                     </div>
                     <div>
-                      <h3 className="text-sm font-bold text-[#0C2756]">3. Harassment Shield Protocol</h3>
-                      <p className="mt-1 text-xs text-[#0C2756]/70 leading-relaxed">
-                        We issue formal notices of legal representation to bank nodal officers, demanding immediate cessation of unlawful collection agency harassment.
-                      </p>
+                      <h3 className="text-sm font-bold text-[#0C2756]">3. threats Shield Protocol</h3>
+                      <p className="mt-1 text-xs text-[#0C2756]/70 leading-relaxed"> We issue formal notices of legal representation to bank nodal heads. Demanding fast cessation of unlawful calls firm threats. </p>
                     </div>
                   </div>
                 </div>
@@ -125,10 +117,8 @@ export default function SuccessPage() {
                       <FontAwesomeIcon icon={faFileContract} className="h-4 w-4" />
                     </div>
                     <div>
-                      <h3 className="text-sm font-bold text-[#0C2756]">4. Official OTS Sanction</h3>
-                      <p className="mt-1 text-xs text-[#0C2756]/70 leading-relaxed">
-                        Our advocates negotiate with bank credit committees to secure formal written OTS sanction letters and valid No Dues Certificates.
-                      </p>
+                      <h3 className="text-sm font-bold text-[#0C2756]">4. valid OTS Sanction</h3>
+                      <p className="mt-1 text-xs text-[#0C2756]/70 leading-relaxed"> Our counsel settle with bank credit boards to secure formal written OTS sanction letters and valid No Dues letters. </p>
                     </div>
                   </div>
                 </div>
@@ -148,9 +138,7 @@ export default function SuccessPage() {
                     </div>
                     <div>
                       <h3 className="text-sm font-bold text-[#0C2756]">Loan Account Statements</h3>
-                      <p className="mt-1 text-xs text-[#0C2756]/70 leading-relaxed">
-                        Gather your latest bank or credit card statements detailing principal balances, penal interests, and cumulative late charges.
-                      </p>
+                      <p className="mt-1 text-xs text-[#0C2756]/70 leading-relaxed"> Gather your latest bank or credit card statements detailing main sum balances. Penal interests. cumulative late charges. </p>
                     </div>
                   </div>
                 </div>
@@ -161,10 +149,8 @@ export default function SuccessPage() {
                       <FontAwesomeIcon icon={faScaleBalanced} className="h-4 w-4" />
                     </div>
                     <div>
-                      <h3 className="text-sm font-bold text-[#0C2756]">Statutory Legal Notices</h3>
-                      <p className="mt-1 text-xs text-[#0C2756]/70 leading-relaxed">
-                        Have copies of any demand notices, Section 138 notices, arbitration letters, or court summons served by lenders ready for review.
-                      </p>
+                      <h3 className="text-sm font-bold text-[#0C2756]">legal Legal Notices</h3>
+                      <p className="mt-1 text-xs text-[#0C2756]/70 leading-relaxed"> Have copies of any demand notices. Section 138 notices. Arbitration letters. court summons served by lenders ready for review. </p>
                     </div>
                   </div>
                 </div>
@@ -176,9 +162,7 @@ export default function SuccessPage() {
                     </div>
                     <div>
                       <h3 className="text-sm font-bold text-[#0C2756]">Hardship Verification Proof</h3>
-                      <p className="mt-1 text-xs text-[#0C2756]/70 leading-relaxed">
-                        Compile salary reduction slips, medical expense bills, or business balance sheets that substantiate legitimate financial distress.
-                      </p>
+                      <p className="mt-1 text-xs text-[#0C2756]/70 leading-relaxed"> Compile salary reduction slips. Medical expense bills. firm balance sheets that prove legitimate money distress. </p>
                     </div>
                   </div>
                 </div>
@@ -189,10 +173,8 @@ export default function SuccessPage() {
                       <FontAwesomeIcon icon={faShieldHalved} className="h-4 w-4" />
                     </div>
                     <div>
-                      <h3 className="text-sm font-bold text-[#0C2756]">Recovery Agency Records</h3>
-                      <p className="mt-1 text-xs text-[#0C2756]/70 leading-relaxed">
-                        Note phone numbers, agent names, and timestamps of aggressive calls or unscheduled home visits to support legal injunction notices.
-                      </p>
+                      <h3 className="text-sm font-bold text-[#0C2756]">claims firm Records</h3>
+                      <p className="mt-1 text-xs text-[#0C2756]/70 leading-relaxed"> Note phone numbers. Agent names. timestamps of harsh calls or unscheduled home visits to support legal injunction notices. </p>
                     </div>
                   </div>
                 </div>
@@ -205,15 +187,9 @@ export default function SuccessPage() {
                 Anti-Harassment Protection &amp; Legal Advisory Guidelines
               </h2>
               <div className="rounded-2xl bg-[#F1F5F9] border border-[#CBD5E1] p-5 sm:p-6 space-y-3 text-xs sm:text-sm text-[#0C2756]/80 leading-relaxed">
-                <p>
-                  <strong>1. Inform Collection Callers Promptly:</strong> State clearly that you have engaged legal counsel at CredSettle to manage your debt resolution. Direct them to communicate through our formal legal desk.
-                </p>
-                <p>
-                  <strong>2. Avoid Unofficial Cash Settlements:</strong> Never pay cash or transfer funds directly to field recovery agents. Only payments made against an official written OTS letter issued by the lending bank are legally binding.
-                </p>
-                <p>
-                  <strong>3. Preserve All Evidence:</strong> Retain call recordings, WhatsApp chat screenshots, and physical notices. Our legal team uses these records to file complaints under the RBI Fair Practices Code whenever harassment occurs.
-                </p>
+                <p> <strong>1. Inform calls Callers Promptly:</strong> State clearly that you have engaged legal counsel at CredSettle to manage your debt relief. Direct them to communicate through our formal legal desk. </p>
+                <p> <strong>2. Avoid Unofficial Cash closures:</strong> Never pay cash or transfer funds straight to field claims agents. Only payments made against an valid written OTS letter issued by the lending bank are by law binding. </p>
+                <p> <strong>3. Preserve All Evidence:</strong> Retain call recordings. WhatsApp chat screenshots. real notices. Our legal team uses these records to file complaints under the RBI Fair Practices Code whenever threats occurs. </p>
               </div>
             </div>
 
@@ -227,10 +203,8 @@ export default function SuccessPage() {
                   <div className="flex items-start gap-3">
                     <FontAwesomeIcon icon={faCircleQuestion} className="h-5 w-5 text-[#007AFF] mt-0.5" />
                     <div>
-                      <h3 className="text-sm font-bold text-[#0C2756]">When will my designated legal advocate contact me?</h3>
-                      <p className="mt-1.5 text-xs sm:text-sm text-[#0C2756]/70 leading-relaxed">
-                        Your assigned legal advocate initiates contact within 2 to 4 business hours. During this initial call, we verify your creditor accounts and prepare formal representation documents.
-                      </p>
+                      <h3 className="text-sm font-bold text-[#0C2756]">When will my designated legal counsel contact me?</h3>
+                      <p className="mt-1.5 text-xs sm:text-sm text-[#0C2756]/70 leading-relaxed"> Your assigned legal counsel initiates contact within 2 to 4 firm hours. During this first call. We check your creditor accounts and prepare formal representation papers. </p>
                     </div>
                   </div>
                 </div>
@@ -239,10 +213,8 @@ export default function SuccessPage() {
                   <div className="flex items-start gap-3">
                     <FontAwesomeIcon icon={faCircleQuestion} className="h-5 w-5 text-[#007AFF] mt-0.5" />
                     <div>
-                      <h3 className="text-sm font-bold text-[#0C2756]">Will I receive an official payment invoice for this transaction?</h3>
-                      <p className="mt-1.5 text-xs sm:text-sm text-[#0C2756]/70 leading-relaxed">
-                        Yes. A digital GST invoice and official payment receipt have been generated and dispatched to your registered email address for accounting and verification purposes.
-                      </p>
+                      <h3 className="text-sm font-bold text-[#0C2756]">Will I receive an valid payment invoice for this transaction?</h3>
+                      <p className="mt-1.5 text-xs sm:text-sm text-[#0C2756]/70 leading-relaxed"> Yes. A digital GST invoice and valid payment receipt have been generated and dispatched to your registered email address for accounting and verification purposes. </p>
                     </div>
                   </div>
                 </div>
@@ -251,10 +223,8 @@ export default function SuccessPage() {
                   <div className="flex items-start gap-3">
                     <FontAwesomeIcon icon={faCircleQuestion} className="h-5 w-5 text-[#007AFF] mt-0.5" />
                     <div>
-                      <h3 className="text-sm font-bold text-[#0C2756]">What is the estimated timeline to achieve a formal OTS settlement?</h3>
-                      <p className="mt-1.5 text-xs sm:text-sm text-[#0C2756]/70 leading-relaxed">
-                        The majority of bank and NBFC settlements take between 45 to 90 days. The exact timeframe depends on your default duration and internal credit committee approval schedules.
-                      </p>
+                      <h3 className="text-sm font-bold text-[#0C2756]">What is the estimated timeline to achieve a formal OTS closure?</h3>
+                      <p className="mt-1.5 text-xs sm:text-sm text-[#0C2756]/70 leading-relaxed"> The majority of bank and NBFC closures take between 45 to 90 days. The exact timeframe depends on your default duration and internal credit board approval schedules. </p>
                     </div>
                   </div>
                 </div>
@@ -265,8 +235,8 @@ export default function SuccessPage() {
             <div className="mt-8 rounded-2xl bg-[#EFF6FF] border border-[#BFDBFE] p-5 text-center sm:text-left sm:flex sm:items-center sm:justify-between gap-4">
               <div>
                 <p className="text-xs font-semibold uppercase tracking-wider text-[#1E40AF]">Priority Helpdesk</p>
-                <p className="text-sm font-bold text-[#1E3A8A] mt-0.5">Need immediate assistance with your case?</p>
-                <p className="text-xs text-[#3B82F6] mt-0.5">Available Monday to Saturday, 9:30 AM to 6:30 PM IST.</p>
+                <p className="text-sm font-bold text-[#1E3A8A] mt-0.5">Need fast assistance with your case?</p>
+                <p className="text-xs text-[#3B82F6] mt-0.5">Available Monday to Saturday. 9:30 AM to 6:30 PM IST.</p>
               </div>
               <div className="mt-4 sm:mt-0 flex flex-wrap gap-2 justify-center sm:justify-end">
                 <a

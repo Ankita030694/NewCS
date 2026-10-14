@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata = {
     title: 'Ashish - Legal and Debt Resolution Professional | CredSettle',
-    description: 'Ashish is a leading legal and debt resolution expert at CredSettle, helping individuals navigate multiple loan settlements and financial recovery.',
+    description: 'Ashish is a leading legal and debt relief expert at CredSettle. Helping individuals navigate multiple loan closures and money claims.',
 };
 
 export default function AshishAuthorPage() {
@@ -56,15 +56,9 @@ export default function AshishAuthorPage() {
                             <h2 className="text-xl font-medium text-blue-600 mb-6">Legal and Debt Resolution Professional</h2>
                             
                             <div className="prose prose-lg text-gray-600 max-w-none">
-                                <p className="mb-4">
-                                    Ashish is a seasoned legal professional specializing in consumer debt resolution, loan settlement negotiation, and banking disputes. With extensive experience navigating the complexities of Indian financial regulations (including RBI guidelines and the SARFAESI Act), he helps distressed borrowers reclaim their financial independence.
-                                </p>
-                                <p className="mb-4">
-                                    At CredSettle, Ashish leads the legal strategy for complex multi-loan consolidation and harassment defense. He is passionate about protecting consumer rights and ensuring that banks and recovery agencies adhere strictly to fair practice codes.
-                                </p>
-                                <p>
-                                    His expertise spans across credit card debt relief, personal loan settlements, and resolving high-value business loan defaults safely and legally.
-                                </p>
+                                <p className="mb-4"> Ashish is a seasoned legal experts specializing in consumer debt relief. Loan closure talks. banking disputes. With extensive experience navigating the complexities of Indian money rules (including RBI guidelines and the SARFAESI Act). He helps distressed clients reclaim their money independence. </p>
+                                <p className="mb-4"> At CredSettle. Ashish leads the legal strategy for complex multi-loan merger and threats defense. He is passionate about protecting consumer rights and making sure that banks and claims firms adhere strictly to fair practice codes. </p>
+                                <p> His expertise spans across credit card debt relief. Own loan closures. resolving high-value firm loan defaults safely and by law. </p>
                             </div>
                         </div>
 

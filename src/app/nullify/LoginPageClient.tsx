@@ -48,7 +48,7 @@ export default function LoginPageClient() {
 
       setStatus({
         type: 'success',
-        message: 'You are logged in. Redirecting to the leads dashboard...',
+        message: 'You are logged in. Redirecting to the leads dashboard.',
       });
 
       setTimeout(() => {
@@ -137,9 +137,7 @@ export default function LoginPageClient() {
               <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white tracking-tight leading-tight">
                 CredSettle Client &amp; Partner Portal Login
               </h1>
-              <p className="text-sm sm:text-base text-[rgba(229,255,244,0.75)] leading-relaxed">
-                Welcome to the unified CredSettle portal. Access your centralized legal dashboard to track debt settlement negotiations, inspect lender responses, and collaborate directly with your assigned advocate team.
-              </p>
+              <p className="text-sm sm:text-base text-[rgba(229,255,244,0.75)] leading-relaxed"> Welcome to the unified CredSettle portal. Access your centralized legal dashboard to track debt closure talks. Inspect lender responses. collaborate straight with your assigned counsel team. </p>
             </div>
 
             {/* Quick Feature Pillars */}
@@ -149,9 +147,7 @@ export default function LoginPageClient() {
                   <FontAwesomeIcon icon={faChartLine} className="w-4 h-4" />
                   <span className="text-sm font-semibold text-white">Live Milestone Tracking</span>
                 </div>
-                <p className="text-xs text-[rgba(210,255,231,0.7)] leading-relaxed">
-                  Monitor active bank negotiations, concession requests, and OTS approvals in real time.
-                </p>
+                <p className="text-xs text-[rgba(210,255,231,0.7)] leading-relaxed"> Monitor active bank talks. Concession requests. OTS approvals in real time. </p>
               </div>
 
               <div className="rounded-xl border border-[rgba(50,194,122,0.2)] bg-[rgba(12,32,23,0.7)] p-3.5 backdrop-blur-xs">
@@ -159,9 +155,7 @@ export default function LoginPageClient() {
                   <FontAwesomeIcon icon={faFileContract} className="w-4 h-4" />
                   <span className="text-sm font-semibold text-white">Legal Notice Repository</span>
                 </div>
-                <p className="text-xs text-[rgba(210,255,231,0.7)] leading-relaxed">
-                  Review formal legal replies drafted for Section 138, SARFAESI, and arbitration notices.
-                </p>
+                <p className="text-xs text-[rgba(210,255,231,0.7)] leading-relaxed"> Review formal legal replies drafted for Section 138. SARFAESI. arbitration notices. </p>
               </div>
             </div>
           </div>
@@ -175,9 +169,7 @@ export default function LoginPageClient() {
                   <h2 className="text-xl sm:text-2xl font-semibold text-[#0d2a1e]">
                     Sign in to Your Authorized CredSettle Portal Account
                   </h2>
-                  <p className="text-xs sm:text-sm text-[#0d2a1e]/70">
-                    Enter your registered credentials to access your secure case dashboard.
-                  </p>
+                  <p className="text-xs sm:text-sm text-[#0d2a1e]/70"> Enter your registered credentials to access your secure case dashboard. </p>
                 </header>
 
                 <form className="space-y-4" onSubmit={handleSubmit}>
@@ -234,14 +226,10 @@ export default function LoginPageClient() {
                 </form>
 
                 {status.type === 'error' && (
-                  <p className="rounded-lg border border-[rgba(247,71,71,0.25)] bg-[rgba(255,240,240,0.95)] px-4 py-3 text-xs sm:text-sm text-[#7a1b1b]">
-                    {status.message}
-                  </p>
+                  <p className="rounded-lg border border-[rgba(247,71,71,0.25)] bg-[rgba(255,240,240,0.95)] px-4 py-3 text-xs sm:text-sm text-[#7a1b1b]"> {status.message} </p>
                 )}
                 {status.type === 'success' && (
-                  <p className="rounded-lg border border-[rgba(39,192,123,0.25)] bg-[rgba(232,255,245,0.95)] px-4 py-3 text-xs sm:text-sm text-[#0f442c]">
-                    {status.message}
-                  </p>
+                  <p className="rounded-lg border border-[rgba(39,192,123,0.25)] bg-[rgba(232,255,245,0.95)] px-4 py-3 text-xs sm:text-sm text-[#0f442c]"> {status.message} </p>
                 )}
 
                 <div className="pt-2 text-center text-xs text-[#0d2a1e]/60">
@@ -258,9 +246,7 @@ export default function LoginPageClient() {
             <h2 className="text-xl sm:text-2xl font-bold text-white tracking-tight">
               Comprehensive Legal Case Management Features
             </h2>
-            <p className="text-xs sm:text-sm text-[rgba(210,255,231,0.75)]">
-              Our digital platform connects clients, legal advocates, and case managers in one secure workspace.
-            </p>
+            <p className="text-xs sm:text-sm text-[rgba(210,255,231,0.75)]"> Our digital platform connects clients. Legal counsel. case managers in one secure workspace. </p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -293,9 +279,7 @@ export default function LoginPageClient() {
             <h2 className="text-xl sm:text-2xl font-bold text-white tracking-tight">
               Bank-Grade Data Security &amp; Legal Privacy Standards
             </h2>
-            <p className="text-xs sm:text-sm text-[rgba(210,255,231,0.75)]">
-              We uphold rigorous confidentiality protocols to protect your personal and financial information.
-            </p>
+            <p className="text-xs sm:text-sm text-[rgba(210,255,231,0.75)]"> We uphold rigorous confidentiality protocols to protect your own and money information. </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
@@ -304,29 +288,23 @@ export default function LoginPageClient() {
                 <FontAwesomeIcon icon={faLock} className="w-4 h-4" />
               </div>
               <h3 className="text-base font-semibold text-white">256-Bit SSL Data Encryption</h3>
-              <p className="text-xs text-[rgba(210,255,231,0.7)] leading-relaxed">
-                All uploaded loan statements, KYC records, and settlement agreements are encrypted using industry standard protocols to ensure complete data integrity.
-              </p>
+              <p className="text-xs text-[rgba(210,255,231,0.7)] leading-relaxed"> All uploaded loan statements. KYC records. closure pacts are encrypted using trade standard protocols to ensure complete data integrity. </p>
             </div>
 
             <div className="rounded-2xl border border-[rgba(50,194,122,0.2)] bg-[rgba(10,28,19,0.7)] p-5 backdrop-blur-xs space-y-2">
               <div className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-[rgba(50,194,122,0.15)] text-[#7cf0b0] mb-1">
                 <FontAwesomeIcon icon={faScaleBalanced} className="w-4 h-4" />
               </div>
-              <h3 className="text-base font-semibold text-white">Advocate-Client Legal Privilege</h3>
-              <p className="text-xs text-[rgba(210,255,231,0.7)] leading-relaxed">
-                Communications between you and our legal team are protected under professional privilege. Your records are never disclosed to unverified third parties.
-              </p>
+              <h3 className="text-base font-semibold text-white">counsel-Client Legal Privilege</h3>
+              <p className="text-xs text-[rgba(210,255,231,0.7)] leading-relaxed"> contacts between you and our legal team are protected under experts privilege. Your records are never disclosed to unverified third parties. </p>
             </div>
 
             <div className="rounded-2xl border border-[rgba(50,194,122,0.2)] bg-[rgba(10,28,19,0.7)] p-5 backdrop-blur-xs space-y-2">
               <div className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-[rgba(50,194,122,0.15)] text-[#7cf0b0] mb-1">
                 <FontAwesomeIcon icon={faShieldHalved} className="w-4 h-4" />
               </div>
-              <h3 className="text-base font-semibold text-white">RBI Regulatory Compliance</h3>
-              <p className="text-xs text-[rgba(210,255,231,0.7)] leading-relaxed">
-                Our debt resolution protocols follow Reserve Bank of India Fair Practices guidelines, ensuring all creditor settlements are legitimate and binding.
-              </p>
+              <h3 className="text-base font-semibold text-white">RBI RBI Compliance</h3>
+              <p className="text-xs text-[rgba(210,255,231,0.7)] leading-relaxed"> Our debt relief protocols follow Reserve Bank of India Fair Practices guidelines. Making sure all creditor closures are legitimate and binding. </p>
             </div>
           </div>
         </section>
@@ -337,9 +315,7 @@ export default function LoginPageClient() {
             <h2 className="text-xl sm:text-2xl font-bold text-white tracking-tight">
               Frequently Asked Questions About Portal Access
             </h2>
-            <p className="text-xs sm:text-sm text-[rgba(210,255,231,0.75)]">
-              Clear answers to common questions regarding client login, document uploads, and case security.
-            </p>
+            <p className="text-xs sm:text-sm text-[rgba(210,255,231,0.75)]"> Clear answers to common questions regarding client login. Papers uploads. case security. </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -348,9 +324,7 @@ export default function LoginPageClient() {
                 <FontAwesomeIcon icon={faCircleQuestion} className="w-4 h-4 text-[#7cf0b0] mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="text-sm font-semibold text-white">Who can access the CredSettle portal?</h3>
-                  <p className="text-xs text-[rgba(210,255,231,0.7)] mt-1 leading-relaxed">
-                    The portal is reserved for registered borrowers managing active debt settlement files, accredited channel partners, and assigned legal advocates.
-                  </p>
+                  <p className="text-xs text-[rgba(210,255,231,0.7)] mt-1 leading-relaxed"> The portal is reserved for registered clients managing active debt closure files. Accredited channel partners. assigned legal counsel. </p>
                 </div>
               </div>
             </div>
@@ -360,9 +334,7 @@ export default function LoginPageClient() {
                 <FontAwesomeIcon icon={faCircleQuestion} className="w-4 h-4 text-[#7cf0b0] mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="text-sm font-semibold text-white">How do I obtain my portal login credentials?</h3>
-                  <p className="text-xs text-[rgba(210,255,231,0.7)] mt-1 leading-relaxed">
-                    Login credentials are created automatically when your case is onboarded. If you need a password reset, please contact our support desk at 8800226635.
-                  </p>
+                  <p className="text-xs text-[rgba(210,255,231,0.7)] mt-1 leading-relaxed"> Login credentials are created automatically when your case is onboarded. If you need a password reset. Please contact our support desk at 8800226635. </p>
                 </div>
               </div>
             </div>
@@ -372,9 +344,7 @@ export default function LoginPageClient() {
                 <FontAwesomeIcon icon={faCircleQuestion} className="w-4 h-4 text-[#7cf0b0] mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="text-sm font-semibold text-white">Can I upload bank legal notices in the portal?</h3>
-                  <p className="text-xs text-[rgba(210,255,231,0.7)] mt-1 leading-relaxed">
-                    Yes. Borrowers can upload demand letters, Section 138 notices, and loan statements directly to their secure digital case file for legal analysis.
-                  </p>
+                  <p className="text-xs text-[rgba(210,255,231,0.7)] mt-1 leading-relaxed"> Yes. Clients can upload demand letters. Section 138 notices. loan statements straight to their secure digital case file for legal analysis. </p>
                 </div>
               </div>
             </div>
@@ -383,10 +353,8 @@ export default function LoginPageClient() {
               <div className="flex items-start gap-3">
                 <FontAwesomeIcon icon={faCircleQuestion} className="w-4 h-4 text-[#7cf0b0] mt-1 flex-shrink-0" />
                 <div>
-                  <h3 className="text-sm font-semibold text-white">Is my financial information shared with third parties?</h3>
-                  <p className="text-xs text-[rgba(210,255,231,0.7)] mt-1 leading-relaxed">
-                    No. CredSettle enforces strict non-disclosure policies. Your data is used exclusively by your assigned advocate for loan settlement negotiations.
-                  </p>
+                  <h3 className="text-sm font-semibold text-white">Is my money information shared with third parties?</h3>
+                  <p className="text-xs text-[rgba(210,255,231,0.7)] mt-1 leading-relaxed"> No. CredSettle enforces strict non-disclosure policies. Your data is used exclusively by your assigned counsel for loan closure talks. </p>
                 </div>
               </div>
             </div>
@@ -400,12 +368,8 @@ export default function LoginPageClient() {
               <h2 className="text-lg sm:text-xl font-bold text-white">
                 Priority Client &amp; Partner Portal Support Helpdesk
               </h2>
-              <p className="text-xs sm:text-sm text-[rgba(210,255,231,0.75)]">
-                Need immediate help with your account login or active case documentation?
-              </p>
-              <p className="text-xs text-[#7cf0b0]">
-                Available Monday to Saturday, 9:30 AM to 6:30 PM IST.
-              </p>
+              <p className="text-xs sm:text-sm text-[rgba(210,255,231,0.75)]"> Need fast help with your account login or active case proof? </p>
+              <p className="text-xs text-[#7cf0b0]"> Available Monday to Saturday. 9:30 AM to 6:30 PM IST. </p>
             </div>
             <div className="mt-4 sm:mt-0 flex flex-wrap gap-2.5 justify-center sm:justify-end">
               <a
@@ -430,7 +394,7 @@ export default function LoginPageClient() {
       {/* Footer */}
       <footer className="w-full border-t border-[rgba(255,255,255,0.08)] bg-[rgba(5,14,10,0.9)] py-8 text-xs text-[rgba(210,255,231,0.6)]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p>© 2026 CredSettle. All rights reserved. Legal debt resolution services in India.</p>
+          <p>© 2026 CredSettle. All rights reserved. Legal debt relief services in India.</p>
           <div className="flex flex-wrap items-center gap-4">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <Link href="/services" className="hover:text-white transition-colors">Services</Link>

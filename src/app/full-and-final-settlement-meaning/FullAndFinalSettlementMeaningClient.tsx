@@ -82,7 +82,7 @@ export default function FullAndFinalSettlementMeaningClient() {
         },
         {
             q: 'What is the legal procedure if the bank refuses to update CIBIL after settlement payment?',
-            a: "If the bank fails to update the credit bureaus within 30 days of receiving settlement funds. You should: (1) Raise a formal grievance with the Bank's main loan Nodal Officer (PNO). (2) Log an online dispute on the TransUnion CIBIL Dispute relief portal attaching the OTS letter and NDC. And (3) If unresolved after 30 days. File a legal complaint with the RBI Integrated Ombudsman at cms.rbi.org.in. Under RBI Circular RBI/2023-24/72, clients are entitled to \u20B9100 per day payout for every day of delay beyond the legal 30-day window."
+            a: "If the bank fails to update the credit bureaus within 30 days of receiving settlement funds. You should: (1) Raise a formal grievance with the Bank's main loan Nodal Officer (PNO) : (2) Log an online dispute on the TransUnion CIBIL Dispute relief portal attaching the OTS letter and NDC. And (3) If unresolved after 30 days. File a legal complaint with the RBI Integrated Ombudsman at cms.rbi.org.in. Under RBI Circular RBI/2023-24/72, clients are entitled to \u20B9100 per day payout for every day of delay beyond the legal 30-day window."
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">

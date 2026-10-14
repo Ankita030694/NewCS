@@ -14,9 +14,7 @@ export default function ClientPage() {
           <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
             How to Request a Personal Loan Settlement Offer from Banks
           </h1>
-          <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
-            A practical guide to initiating an official One-Time Settlement offer, presenting your case to the credit committee. Securing a formal sanction.
-          </p>
+          <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto"> A practical guide to starting an valid One-Time closure offer. giving your case to the credit board. getting a formal sanction. </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="bg-[#007AFF] hover:bg-blue-600 text-white font-bold py-4 px-8 rounded-full transition-all shadow-lg text-lg">
               Request a Settlement Offer
@@ -35,40 +33,28 @@ export default function ClientPage() {
               Initiating a Compromise Settlement Proposal
             </h2>
             <div className="prose max-w-none text-gray-700 space-y-4 leading-relaxed">
-              <p>
-                Requesting a One-Time Settlement (OTS) offer requires a formal approach. Initiating a request incorrectly can alert aggressive collection agencies or prompt premature legal notices under Section 138 of the Negotiable Instruments Act.
-              </p>
+              <p> asking for a One-Time closure (OTS) offer requires a formal approach. starting a request incorrectly can alert harsh calls firms or prompt premature legal notices under Section 138 of the Negotiable Instruments Act. </p>
 
-              <h3 className="text-xl font-bold text-[#0C2756] mt-8 mb-4">
-                Essential Steps in Requesting an OTS Offer:
-              </h3>
+              <h3 className="text-xl font-bold text-[#0C2756] mt-8 mb-4"> Essential Steps in asking for an OTS Offer. </h3>
               <div className="space-y-4 my-6">
                 <div className="p-4 bg-gray-50 rounded-lg border border-gray-200">
                   <h3 className="font-semibold text-[#0C2756]">1. Assess Your Capital Availability</h3>
-                  <p className="text-sm text-gray-600 mt-1">
-                    Before requesting an offer, ascertain exactly how much lump sum capital you can arrange from personal savings, friends. Family. An offer without payment capacity weakens your negotiating leverage.
-                  </p>
+                  <p className="text-sm text-gray-600 mt-1"> Before asking for an offer. Ascertain exactly how much lump sum capital you can arrange from own savings. Friends. Family. An offer without payment capacity weakens your settle leverage. </p>
                 </div>
                 <div className="p-4 bg-gray-50 rounded-lg border border-gray-200">
-                  <h3 className="font-semibold text-[#0C2756]">2. Draft a Formal Hardship Application</h3>
-                  <p className="text-sm text-gray-600 mt-1">
-                    Submit a comprehensive letter to the Bank&apos;s overdue Asset Department stating your loan account number, financial hardship reasons. A concrete proposed settlement amount.
-                  </p>
+                  <h3 className="font-semibold text-[#0C2756]">2. Draft a Formal Hardship request</h3>
+                  <p className="text-sm text-gray-600 mt-1"> Submit a thorough letter to the Bank&apos. S overdue Asset Department stating your loan account number. Money hardship reasons. A concrete proposed closure amount. </p>
                 </div>
                 <div className="p-4 bg-gray-50 rounded-lg border border-gray-200">
-                  <h3 className="font-semibold text-[#0C2756]">3. Demand an Official Letterhead Sanction</h3>
-                  <p className="text-sm text-gray-600 mt-1">
-                    Ensure the bank provides an authorized OTS sanction letter detailing the waived amount, payment date. Specific waiver clauses before any deposit is made.
-                  </p>
+                  <h3 className="font-semibold text-[#0C2756]">3. Demand an valid Letterhead Sanction</h3>
+                  <p className="text-sm text-gray-600 mt-1"> Ensure the bank provides an authorized OTS sanction letter detailing the waived amount. Payment date. exact waiver clauses before any deposit is made. </p>
                 </div>
               </div>
             </div>
 
             <div className="bg-emerald-50 border-l-4 border-emerald-600 p-6 rounded-r-xl mt-8">
-              <h3 className="font-bold text-emerald-950 mb-2">Legal Shield Against Harassment</h3>
-              <p className="text-sm text-emerald-800 leading-relaxed">
-                When you initiate an official settlement through CredSettle, our legal notice to the bank immediately halts unauthorized collection agent visits and ensures negotiations are conducted directly with bank officials.
-              </p>
+              <h3 className="font-bold text-emerald-950 mb-2">Legal Shield Against threats</h3>
+              <p className="text-sm text-emerald-800 leading-relaxed"> When you start an valid closure through CredSettle. Our legal notice to the bank fast halts unlawful calls agent visits and ensures talks are conducted straight with bank officials. </p>
             </div>
           </div>
 
@@ -78,26 +64,18 @@ export default function ClientPage() {
             </h2>
             <div className="space-y-6">
               <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                  Can a bank reject my settlement request?
-                </h3>
-                <p className="text-gray-600 leading-relaxed text-sm">
-                  Yes, banks may initially reject an offer if the proposed amount is too low or if hardship paperwork is inadequate. Experienced legal counsel counter-negotiates with revised proofs to gain committee approval.
-                </p>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2"> Can a bank reject my closure request? </h3>
+                <p className="text-gray-600 leading-relaxed text-sm"> Yes. Banks may initially reject an offer if the proposed amount is too low or if hardship papers is inadequate. Experienced legal counsel counter-negotiates with revised proofs to gain board approval. </p>
               </div>
               <div className="border-t pt-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                  What happens if I miss the settlement payment deadline?
-                </h3>
-                <p className="text-gray-600 leading-relaxed text-sm">
-                  Missing the deadline specified in the OTS sanction letter can invalidate the waiver, reinstating full liability. Always request an installment timeline that you can fulfill with absolute certainty.
-                </p>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2"> What happens if I miss the closure payment deadline? </h3>
+                <p className="text-gray-600 leading-relaxed text-sm"> Missing the deadline specified in the OTS sanction letter can invalidate the waiver. Reinstating full risk. Always request an installment timeline that you can fulfill with absolute certainty. </p>
               </div>
             </div>
 
             <div className="bg-blue-50 p-6 rounded-xl border border-blue-100 mt-8">
-              <h3 className="font-semibold text-[#0C2756] mb-2">Initiate Your Settlement with Professional Advocates</h3>
-              <p className="mb-4 text-sm text-gray-600">CredSettle prepares and files your formal OTS application with complete legal rigor, maximizing your discount.</p>
+              <h3 className="font-semibold text-[#0C2756] mb-2">start Your closure with experts counsel</h3>
+              <p className="mb-4 text-sm text-gray-600">CredSettle prepares and files your formal OTS request with complete legal rigor. Maximizing your discount.</p>
               <Link href="/contact" className="inline-block bg-[#0C2756] text-white font-medium py-2.5 px-6 rounded-lg hover:bg-blue-900 transition-colors text-sm">
                 Request an OTS Proposal
               </Link>

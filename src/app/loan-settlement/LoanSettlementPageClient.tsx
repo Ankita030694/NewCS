@@ -187,39 +187,39 @@ export default function LoanSettlementPageClient() {
   const faqs = [
     {
       question: 'What is loan settlement?',
-      answer: 'Loan settlement (One-Time Settlement or OTS) is a formal negotiated agreement between a financially distressed borrower and a lender (bank or NBFC). Under this arrangement, the lender agrees to accept a lump-sum or staged amount that is less than the total outstanding balance, extinguishing the remaining balance and closing the account.'
+      answer: 'Loan closure (One-Time closure or OTS) is a formal settle pacts between a financially distressed clients and a lender (bank or NBFC). Under this arrangement. The lender agrees to accept a lump-sum or staged amount that is less than the total unpaid balance. Extinguishing the remaining balance and closing the account.'
     },
     {
       question: 'Is loan settlement legal in India?',
-      answer: 'Yes, loan settlement is entirely legal in India. It is governed and recognized by the Reserve Bank of India (RBI) under the "Framework for Compromise Settlements and Technical Write-offs" (Circular DOR.STR.REC.20/21.04.048/2023-24) and the Prudential Framework for Resolution of Stressed Assets.'
+      answer: 'Yes. Loan closure is fully legal in India. It is governed and recognized by the Reserve Bank of India (RBI) under the "Framework for deal closures and Technical Write-offs" (Circular DOR.STR.REC.20/21.04.048/2023-24) and the Prudential Framework for relief of Stressed Assets.'
     },
     {
       question: 'Is loan settlement safe?',
-      answer: 'Loan settlement is completely safe when executed formally through official banking channels. You must only make payments directly into your registered loan account after receiving a physical or verified digital Settlement Sanction Letter from an authorized bank officer on official bank letterhead. Never pay cash or transfer funds into third-party personal accounts.'
+      answer: 'Loan closure is fully safe when executed formally through valid banking channels. You must only make payments straight into your registered loan account after receiving a real or checked digital closure Sanction Letter from an authorized bank head on valid bank letterhead. Never pay cash or transfer funds into third-party own accounts.'
     },
     {
       question: 'How does loan settlement work?',
-      answer: 'The process involves assessing genuine financial hardship, communicating inability to pay due to valid reasons (job loss, business failure, medical emergency), negotiating with the bank\'s collections or Stressed Asset Recovery Branch, receiving an official written settlement sanction letter, paying the agreed amount via authorized bank channels, and receiving a No Dues Certificate (NOC).'
+      answer: 'The process involves assessing genuine money hardship. Communicating inability to pay due to valid reasons (job loss. Firm failure. Medical emergency). Settle with the bank\'s collections or Stressed Asset Recovery Branch, receiving an official written settlement sanction letter, paying the agreed amount via authorized bank channels, and receiving a No Dues Certificate (NOC).'
     },
     {
       question: 'How much can a loan be settled for?',
-      answer: 'There is no fixed statutory waiver percentage. In unsecured debts like credit cards and personal loans, settlements typically conclude at 30% to 60% of the total outstanding dues depending on the age of default, the principal component, penal interest accumulated, and documented hardship.'
+      answer: 'There is no fixed legal waiver rate. In clean debts like credit cards and own loans. Closures typically conclude at 30% to 60% of the total unpaid dues depending on the age of default. The main sum component. Penal rates accumulated. documented hardship.'
     },
     {
       question: 'Can I settle my personal loan?',
-      answer: 'Yes. Personal loans from commercial banks and NBFCs are unsecured and represent one of the most common debt categories resolved through compromise settlements when regular EMI payments become impossible.'
+      answer: 'Yes. own loans from trade banks and NBFCs are clean and represent one of the most common debt categories resolved through deal closures when regular EMI payments become impossible.'
     },
     {
       question: 'Can I settle my credit card?',
-      answer: 'Yes. Credit cards carry exorbitant finance charges (36% to 48% APR) and compounding penal fees. Banks routinely offer substantial waivers on accumulated charges during one-time settlements for default cards.'
+      answer: 'Yes. Credit cards carry exorbitant finance charges (36% to 48% APR) and growing penal fees. Banks routinely offer substantial waivers on accumulated charges during one-time closures for default cards.'
     },
     {
       question: 'Can I settle an NBFC loan?',
-      answer: 'Yes. All RBI-registered Non-Banking Financial Companies (NBFCs) are mandated to maintain transparent, Board-approved compromise settlement policies aligned with RBI circulars.'
+      answer: 'Yes. All RBI-registered Non-Banking money Companies (NBFCs) are mandated to maintain transparent. Board-approved deal closure policies aligned with RBI circulars.'
     },
     {
       question: 'Can I settle a vehicle loan?',
-      answer: 'Vehicle loans are secured by hypothecation of the vehicle. Lenders generally possess the legal right to repossess and auction the asset. Settlements on vehicle loans typically occur only if there is an uncovered deficiency balance following auction, or if the vehicle is untraceable/damaged.'
+      answer: 'Vehicle loans are secured by hypothecation of the vehicle. Lenders generally possess the legal right to repossess and auction the asset. closures on vehicle loans typically occur only if there is an uncovered deficiency balance following auction. if the vehicle is untraceable/damaged.'
     },
     {
       question: 'Does loan settlement affect CIBIL?',
@@ -227,43 +227,43 @@ export default function LoanSettlementPageClient() {
     },
     {
       question: 'How long does loan settlement take?',
-      answer: 'A structured loan settlement usually takes between 3 weeks to 3 months. The duration depends on the bank\'s internal approval delegation committee, whether the account is in NPA stage 1, 2, or 3, and whether legal notices are already active.'
+      answer: 'A structured loan closure usually takes between 3 weeks to 3 months. The duration depends on the bank\'s internal approval delegation committee, whether the account is in NPA stage 1, 2, or 3, and whether legal notices are already active.'
     },
     {
       question: 'Can a bank reject settlement?',
-      answer: 'Yes. Banks are under no legal obligation to settle. If their internal investigation reveals sufficient liquid assets, active salary credits, or suspected willful default, they can reject the proposal and pursue civil or arbitration recovery.'
+      answer: 'Yes. Banks are under no legal debts to settle. If their internal investigation reveals sufficient liquid assets. Active salary credits. Suspected willful default. They can reject the proposal and pursue civil or arbitration claims.'
     },
     {
       question: 'Can a bank take legal action after settlement?',
-      answer: 'No, provided you fulfill all payments stipulated in the official settlement agreement within the prescribed timelines. Under the Indian Contract Act (Accord and Satisfaction), completing the agreed terms extinguishes the creditor\'s claim.'
+      answer: 'No. Provided you fulfill all payments stipulated in the valid closure pacts within the prescribed timelines. Under the Indian Contract Act (Accord and Satisfaction). Completing the agreed terms extinguishes the creditor\'s claim.'
     },
     {
       question: 'Can I get a loan after settlement?',
-      answer: 'Not immediately from prime lenders. Under RBI norms, there is a cooling-off period (at least 12 months) before the settling bank can consider fresh credit. Borrowers can rebuild credit over 24-36 months using secured credit cards backed by fixed deposits.'
+      answer: 'Not fast from prime lenders. Under RBI norms. There is a cooling-off period (at least 12 months) before the settling bank can consider fresh credit. clients can rebuild credit over 24-36 months using secured credit cards backed by fixed deposits.'
     },
     {
       question: 'What happens after settlement?',
-      answer: 'Once payment is completed, the bank withdraws pending recovery calls and legal notices, cancels Section 138/arbitration filings, issues a formal No Dues Certificate (NOC), and updates the credit bureau records within 30-45 days.'
+      answer: 'Once payment is completed. The bank withdraws pending claims calls and legal notices. Cancels Section 138/arbitration filings. Issues a formal No Dues letter (NOC). updates the credit desk records within 30-45 days.'
     },
     {
       question: 'How do I get an NOC?',
-      answer: 'After clearing the settlement payment, submit the transaction receipt with the settlement letter to the branch or designated nodal officer. The bank is required to issue the formal No Dues Certificate within 15 to 30 working days.'
+      answer: 'After clearing the closure payment. Submit the transaction receipt with the closure note to the branch or designated nodal head. The bank is required to issue the formal No Dues letter within 15 to 30 working days.'
     },
     {
       question: 'Can recovery agents visit my home?',
-      answer: 'Under RBI Fair Practices Code, authorized agents may visit only between 8:00 AM and 7:00 PM. They must carry official ID cards and bank authorization letters, maintain professional decorum, and cannot intimidate, shout, or breach your privacy.'
+      answer: 'Under RBI Fair Practices Code. Authorized agents may visit only between 8:00 AM and 7:00 PM. They must carry valid ID cards and bank authorization letters. Maintain experts decorum. cannot threaten, shout. breach your privacy.'
     },
     {
       question: 'What should I do if recovery agents harass me?',
-      answer: 'Document all evidence (record phone calls, save WhatsApp threats, note agent details). File an immediate written complaint to the bank\'s Principal Nodal Officer (PNO). If unaddressed within 30 days, escalate to the RBI Banking Ombudsman (CMS Portal) and file a police complaint under applicable provisions of law.'
+      answer: 'Papers all evidence (record phone calls. Save WhatsApp threats. Note agent details). File an fast written complaint to the bank\'s Principal Nodal Officer (PNO). If unaddressed within 30 days, escalate to the RBI Banking Ombudsman (CMS Portal) and file a police complaint under applicable provisions of law.'
     },
     {
       question: 'Can I negotiate directly with the bank?',
-      answer: 'Yes, you can approach the bank\'s Stressed Assets Recovery Branch or branch manager in person. However, many borrowers find legal and financial advisory firms helpful to buffer against aggressive recovery harassment and ensure legally binding settlement agreements.'
+      answer: 'Yes. You can approach the bank\'s Stressed Assets Recovery Branch or branch manager in person. However, many borrowers find legal and financial advisory firms helpful to buffer against aggressive recovery harassment and ensure legally binding settlement agreements.'
     },
     {
       question: 'Should I hire a lawyer for loan settlement?',
-      answer: 'Consulting legal counsel is strongly recommended if you have received formal court summons, Section 138 (cheque bounce) notices, Section 25 (e-mandate bounce) notices, or arbitration notices, to ensure that legal replies are formally filed and prevent ex-parte orders.'
+      answer: 'Consulting legal counsel is strongly recommended if you have received formal court summons. Section 138 (cheque bounce) notices. Section 25 (e-mandate bounce) notices. Arbitration notices. To ensure that legal replies are formally filed and prevent ex-parte orders.'
     }
   ];
 
@@ -283,19 +283,8 @@ export default function LoanSettlementPageClient() {
         <div className="max-w-7xl mx-auto px-3 sm:px-4 py-2.5 sm:py-3">
           <nav className="flex text-xs sm:text-sm text-gray-500 overflow-x-auto no-scrollbar" aria-label="Breadcrumb">
             <ol className="inline-flex items-center space-x-1 md:space-x-3 whitespace-nowrap">
-              <li className="inline-flex items-center">
-                <Link href="/" className="inline-flex items-center hover:text-blue-600 transition-colors">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <div className="flex items-center">
-                  <svg className="w-3 h-3 text-gray-400 mx-1" fill="none" viewBox="0 0 6 10">
-                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4"/>
-                  </svg>
-                  <span className="ml-1 font-medium text-gray-800 md:ml-2">Loan Settlement in India</span>
-                </div>
-              </li>
+              <li className="inline-flex items-center"> <Link href="/" className="inline-flex items-center hover:text-blue-600 transition-colors"> Home </Link> </li>
+              <li> <div className="flex items-center"> <svg className="w-3 h-3 text-gray-400 mx-1" fill="none" viewBox="0 0 6 10"> <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4"/> </svg> <span className="ml-1 font-medium text-gray-800 md:ml-2">Loan closure in India</span> </div> </li>
             </ol>
           </nav>
         </div>
@@ -476,9 +465,7 @@ export default function LoanSettlementPageClient() {
                 <div className="space-y-3">
                   {navModules.map((module, mIdx) => (
                     <div key={mIdx} className="space-y-1">
-                      <p className="text-[10px] font-extrabold uppercase tracking-wider text-black px-1 py-0.5">
-                        {module.moduleTitle.replace('Module ', 'M')}
-                      </p>
+                      <p className="text-[10px] font-extrabold uppercase tracking-wider text-black px-1 py-0.5"> {module.moduleTitle.replace('Module ', 'M')} </p>
                       <nav className="space-y-0.5">
                         {module.links.map((link) => {
                           const isActive = activeId === link.id;
@@ -512,9 +499,7 @@ export default function LoanSettlementPageClient() {
                   ⚖️
                 </div>
                 <div className="font-bold text-xs mb-1">Multi-Debt Shield</div>
-                <p className="text-[10px] text-blue-200 mb-3 leading-snug">
-                  Direct advocate intervention freezing recovery action across all lenders.
-                </p>
+                <p className="text-[10px] text-blue-200 mb-3 leading-snug"> Direct counsel action freezing claims action across all lenders. </p>
                 <Link
                   href="/contact"
                   className="block text-center bg-blue-500 hover:bg-blue-400 text-white font-bold text-[11px] py-1.5 px-2.5 rounded-lg transition-colors shadow"
@@ -537,19 +522,15 @@ export default function LoanSettlementPageClient() {
                   1. Introduction to Loan Settlement in India
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <p>
-                    <strong>Loan settlement</strong>—commonly referred to in Indian banking as a <strong>One-Time Settlement (OTS)</strong> or compromise settlement—is a legally recognized process where a borrower unable to service their debt negotiates with a lender (bank or NBFC) to pay an agreed lump-sum amount lower than the total ledger balance. Upon realization of this agreed amount, the lender forgives the residual balance and considers the obligation fully discharged.
-                  </p>
-                  <p>
-                    In India, loan settlement is not a statutory right of default; it is a financial and legal relief mechanism intended for individuals and businesses experiencing verified, irreversible financial hardship such as job termination, critical illness, demise of an earning member, or commercial insolvency.
-                  </p>
+                  <p> <strong>Loan closure</strong>. commonly referred to in Indian banking as a <strong>One-Time closure (OTS)</strong> or deal closure. is a by law recognized process where a clients unable to service their debt negotiates with a lender (bank or NBFC) to pay an agreed lump-sum amount lower than the total ledger balance. Upon realization of this agreed amount. The lender forgives the residual balance and considers the debts fully discharged. </p>
+                  <p> In India. Loan closure is not a legal right of default. It is a money and legal relief mechanism intended for individuals and firms experiencing checked. Irreversible money hardship such as job end. Key illness. Demise of an earning member. trade insolvency. </p>
 
                   <div className="bg-slate-50 border-l-4 border-blue-600 p-3 sm:p-4 rounded-r-xl my-4 text-xs sm:text-sm space-y-2">
-                    <p className="font-semibold text-black">Critical Terminological Distinctions:</p>
+                    <p className="font-semibold text-black">key Terminological Distinctions:</p>
                     <ul className="list-disc pl-5 space-y-1.5 text-black">
-                      <li><strong>Loan Settlement vs Loan Repayment:</strong> In standard repayment, the borrower pays 100% of the principal and accrued interest as per the loan schedule. In settlement, the bank waives a portion of principal and penal interest, closing the account with a partial payment.</li>
-                      <li><strong>Loan Settlement vs Loan Waiver:</strong> A loan waiver is typically a government-subsidized scheme (such as agricultural debt relief) where the government reimburses banks. In a loan settlement, the private lender voluntarily takes a commercial loss (haircut) based on its own recovery calculations.</li>
-                      <li><strong>Loan Settlement vs Loan Restructuring:</strong> Restructuring adjusts loan tenures, lowers interest rates, or adds a moratorium without forgiving principal dues. Settlement permanently extinguishes the loan account with a one-time discounted payment.</li>
+                      <li><strong>Loan closure vs Loan payment:</strong> In standard payment. The clients pays 100% of the main sum and accrued rates as per the loan schedule. In closure. The bank waives a portion of main sum and penal rates. Closing the account with a partial payment.</li>
+                      <li><strong>Loan closure vs Loan Waiver:</strong> A loan waiver is typically a government-subsidized scheme (such as agricultural debt relief) where the government reimburses banks. In a loan closure. The private lender voluntarily takes a trade loss (haircut) based on its own claims calculations.</li>
+                      <li><strong>Loan closure vs Loan Restructuring:</strong> Restructuring adjusts loan tenures. Lowers rates rates. adds a EMI freeze without forgiving main sum dues. closure permanently extinguishes the loan account with a one-time discounted payment.</li>
                     </ul>
                   </div>
                 </div>
@@ -569,45 +550,43 @@ export default function LoanSettlementPageClient() {
                   2. How Loan Settlement Works: Step-by-Step Procedure
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <p>
-                    A standard compromise settlement does not occur overnight. It progresses through a structured regulatory sequence governed by the lender&apos;s internal Recovery Policy and RBI circulars:
-                  </p>
+                  <p> A standard deal closure does not occur overnight. It progresses through a structured RBI sequence governed by the lender&apos. s internal claims Policy and RBI circulars: </p>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 my-4 sm:my-6">
                     <div className="p-3.5 sm:p-4 bg-gray-50 rounded-xl border border-gray-200">
                       <span className="w-7 h-7 rounded-full bg-blue-600 text-white font-bold inline-flex items-center justify-center text-xs mb-2">1</span>
-                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Dues &amp; Hardship Assessment</h3>
-                      <p className="text-xs text-black">Comprehensive audit of actual principal, normal interest, penal charges, and assembly of incontrovertible medical, employment, or revenue loss records.</p>
+                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Dues &amp. Hardship Assessment</h3>
+                      <p className="text-xs text-black">Thorough audit of actual main sum. Normal rates. Penal charges. Assembly of incontrovertible medical. Employment. revenue loss records.</p>
                     </div>
 
                     <div className="p-3.5 sm:p-4 bg-gray-50 rounded-xl border border-gray-200">
                       <span className="w-7 h-7 rounded-full bg-blue-600 text-white font-bold inline-flex items-center justify-center text-xs mb-2">2</span>
                       <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Formal Representation</h3>
-                      <p className="text-xs text-black">Submitting a formal hardship letter and compromise proposal to the bank branch or Stressed Asset Recovery Branch (SARB) offering a realistic lump-sum.</p>
+                      <p className="text-xs text-black">Submitting a formal hardship letter and deal proposal to the bank branch or Stressed Asset claims Branch (SARB) offering a realistic lump-sum.</p>
                     </div>
 
                     <div className="p-3.5 sm:p-4 bg-gray-50 rounded-xl border border-gray-200">
                       <span className="w-7 h-7 rounded-full bg-blue-600 text-white font-bold inline-flex items-center justify-center text-xs mb-2">3</span>
-                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Committee Negotiation</h3>
-                      <p className="text-xs text-black">Bank&apos;s internal Settlement Advisory Committee evaluates liquidation value vs legal recovery costs and issues terms.</p>
+                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">board talks</h3>
+                      <p className="text-xs text-black">Bank&apos. s internal closure Advisory board evaluates liquidation value vs legal claims costs and issues terms.</p>
                     </div>
 
                     <div className="p-3.5 sm:p-4 bg-gray-50 rounded-xl border border-gray-200">
                       <span className="w-7 h-7 rounded-full bg-blue-600 text-white font-bold inline-flex items-center justify-center text-xs mb-2">4</span>
-                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Written Settlement Sanction</h3>
-                      <p className="text-xs text-black">Lender issues a formal written approval letter specifying the agreed sum, due dates, and closure clauses.</p>
+                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Written closure Sanction</h3>
+                      <p className="text-xs text-black">Lender issues a formal written approval letter specifying the agreed sum. Due dates. closure clauses.</p>
                     </div>
 
                     <div className="p-3.5 sm:p-4 bg-gray-50 rounded-xl border border-gray-200">
                       <span className="w-7 h-7 rounded-full bg-blue-600 text-white font-bold inline-flex items-center justify-center text-xs mb-2">5</span>
                       <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Payment Execution</h3>
-                      <p className="text-xs text-black">Remittance executed strictly via authorized banking channels (NEFT/RTGS/Official payment gateway) credited directly to the loan account.</p>
+                      <p className="text-xs text-black">wire transfer executed strictly via authorized banking channels (NEFT/RTGS/valid payment gateway) credited straight to the loan account.</p>
                     </div>
 
                     <div className="p-3.5 sm:p-4 bg-gray-50 rounded-xl border border-gray-200">
                       <span className="w-7 h-7 rounded-full bg-blue-600 text-white font-bold inline-flex items-center justify-center text-xs mb-2">6</span>
-                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">NOC &amp; Bureau Update</h3>
-                      <p className="text-xs text-black">Lender issues a No Dues Certificate (NOC) and reports the account as &apos;Settled&apos; to CIBIL, Equifax, Experian, and CRIF High Mark.</p>
+                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">NOC &amp. desk Update</h3>
+                      <p className="text-xs text-black">Lender issues a No Dues letter (NOC) and reports the account as &apos. Settled&apos. To CIBIL. Equifax. Experian. CRIF High Mark.</p>
                     </div>
                   </div>
 
@@ -616,7 +595,7 @@ export default function LoanSettlementPageClient() {
                     <div className="flex flex-wrap items-center justify-between gap-2 mb-2 sm:mb-3">
                       <div>
                         <span className="text-[10px] sm:text-[11px] font-bold text-blue-600 uppercase tracking-wider block">Visual Roadmap</span>
-                        <h3 className="text-sm sm:text-base font-bold text-black">5-Step Loan Settlement Process in India</h3>
+                        <h3 className="text-sm sm:text-base font-bold text-black">5-Step Loan steps in India</h3>
                       </div>
                       <span className="text-[10px] bg-blue-100 text-blue-800 font-semibold px-2 py-0.5 rounded-full">
                         RBI Compliant
@@ -632,9 +611,7 @@ export default function LoanSettlementPageClient() {
                         height={670}
                       />
                     </div>
-                    <p className="text-[10px] sm:text-[11px] text-gray-500 mt-2 italic text-center">
-                      Infographic: Complete legal and procedural sequence for compromise loan settlement under RBI guidelines.
-                    </p>
+                    <p className="text-[10px] sm:text-[11px] text-gray-500 mt-2 italic text-center"> Infographic: Complete legal and procedural sequence for deal loan closure under RBI guidelines. </p>
                   </div>
                 </div>
               </section>
@@ -648,16 +625,14 @@ export default function LoanSettlementPageClient() {
                   3. Who Can Opt for Loan Settlement? Eligibility Realities
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <p>
-                    Banks and NBFCs in India do not grant compromise settlements simply upon request. Lenders conduct diligence to distinguish between a <strong>genuine distressed borrower</strong> and a <strong>willful defaulter</strong>.
-                  </p>
-                  <p>Lenders actively consider settlement applications under the following circumstances:</p>
+                  <p> Banks and NBFCs in India do not grant deal closures simply upon request. Lenders conduct care to distinguish between a <strong>genuine distressed clients</strong> and a <strong>willful defaulter</strong>. </p>
+                  <p>Lenders actively consider closure applications under the following hardship:</p>
                   <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-black">
-                    <li><strong>Loss of Employment or Primary Income:</strong> Involuntary layoff, downsizing, or company shutdown supported by termination letters and non-salary bank statements.</li>
-                    <li><strong>Catastrophic Medical Emergencies:</strong> Life-threatening illnesses, major surgeries, or prolonged treatments of the borrower or direct dependents that consumed family savings.</li>
-                    <li><strong>Business Failure &amp; Commercial Distress:</strong> Micro, small, or medium enterprise (MSME) closure, loss of key contracts, or insolvency.</li>
-                    <li><strong>Excessive Debt-to-Income (DTI) Overload:</strong> When total monthly EMI obligations exceed 80% to 100% of demonstrable monthly take-home earnings.</li>
-                    <li><strong>Prolonged Default (NPA Classification):</strong> Accounts in Non-Performing Asset (NPA) status for 90 days or longer where recovery prospects through normal collection are bleak.</li>
+                    <li><strong>Loss of Employment or Primary Income:</strong> forced layoff, downsizing. company shutdown supported by end letters and non-salary bank statements.</li>
+                    <li><strong>dire Medical Emergencies:</strong> Life-threatening illnesses. Major surgeries. prolonged treatments of the clients or direct dependents that consumed family savings.</li>
+                    <li><strong>firm Failure &amp. trade Distress:</strong> Micro, small. Medium enterprise (MSME) closure. Loss of key contracts. insolvency.</li>
+                    <li><strong>Excessive Debt-to-Income (DTI) Overload:</strong> When total monthly EMI debts exceed 80% to 100% of demonstrable monthly take-home earnings.</li>
+                    <li><strong>Prolonged Default (NPA Classification):</strong> Accounts in Non-Performing Asset (NPA) status for 90 days or longer where claims prospects through normal calls are bleak.</li>
                   </ul>
                   <div className="p-3 sm:p-4 bg-amber-50 border border-amber-200 rounded-xl text-xs text-amber-900">
                     <strong>Warning on Willful Default:</strong> Borrowers with substantial undeclared assets, verifiable luxury spending, or who divert sanctioned funds are classified as willful defaulters under RBI Master Directions and face criminal proceedings rather than compromise settlements.
@@ -674,9 +649,7 @@ export default function LoanSettlementPageClient() {
                   4. Types of Loans That Can Be Settled in India
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <p>
-                    The viability of a loan settlement depends heavily on whether the underlying loan is <strong>unsecured</strong> or <strong>secured</strong>.
-                  </p>
+                  <p> The viability of a loan closure depends heavily on whether the underlying loan is <strong>clean</strong> or <strong>secured</strong>. </p>
 
                   <div className="overflow-x-auto -mx-1 sm:mx-0 my-4 border border-gray-200 rounded-xl shadow-xs">
                     <div className="text-[10px] text-gray-500 sm:hidden px-3 py-1.5 bg-gray-50 border-b border-gray-200 flex items-center justify-between font-medium">
@@ -695,39 +668,39 @@ export default function LoanSettlementPageClient() {
                       <tbody className="divide-y divide-gray-200 text-black">
                         <tr>
                           <td className="p-2.5 sm:p-3 font-semibold text-black">Credit Card Dues</td>
-                          <td className="p-2.5 sm:p-3">Unsecured</td>
+                          <td className="p-2.5 sm:p-3">clean</td>
                           <td className="p-2.5 sm:p-3 text-emerald-700 font-semibold">Very High</td>
-                          <td className="p-2.5 sm:p-3">40% – 70% of total balance (waiver of penal charges + interest)</td>
+                          <td className="p-2.5 sm:p-3">40%. 70% of total balance (waiver of penal charges + rates)</td>
                         </tr>
                         <tr>
-                          <td className="p-2.5 sm:p-3 font-semibold text-black">Personal Loans</td>
-                          <td className="p-2.5 sm:p-3">Unsecured</td>
+                          <td className="p-2.5 sm:p-3 font-semibold text-black">own Loans</td>
+                          <td className="p-2.5 sm:p-3">clean</td>
                           <td className="p-2.5 sm:p-3 text-emerald-700 font-semibold">High</td>
-                          <td className="p-2.5 sm:p-3">30% – 60% of total ledger balance</td>
+                          <td className="p-2.5 sm:p-3">30%. 60% of total ledger balance</td>
                         </tr>
                         <tr>
                           <td className="p-2.5 sm:p-3 font-semibold text-black">NBFC / Instant App Loans</td>
-                          <td className="p-2.5 sm:p-3">Unsecured</td>
+                          <td className="p-2.5 sm:p-3">clean</td>
                           <td className="p-2.5 sm:p-3 text-emerald-700 font-semibold">High</td>
-                          <td className="p-2.5 sm:p-3">40% – 65% depending on platform and vintage</td>
+                          <td className="p-2.5 sm:p-3">40%. 65% depending on platform and vintage</td>
                         </tr>
                         <tr>
-                          <td className="p-2.5 sm:p-3 font-semibold text-black">Unsecured Business Loans</td>
-                          <td className="p-2.5 sm:p-3">Unsecured / Personal Guarantee</td>
+                          <td className="p-2.5 sm:p-3 font-semibold text-black">clean firm Loans</td>
+                          <td className="p-2.5 sm:p-3">clean / own Guarantee</td>
                           <td className="p-2.5 sm:p-3 text-blue-700 font-semibold">Moderate to High</td>
-                          <td className="p-2.5 sm:p-3">25% – 50% subject to financial audit</td>
+                          <td className="p-2.5 sm:p-3">25%. 50% subject to money audit</td>
                         </tr>
                         <tr>
                           <td className="p-2.5 sm:p-3 font-semibold text-black">Vehicle / Auto Loans</td>
                           <td className="p-2.5 sm:p-3">Secured (Hypothecated Vehicle)</td>
                           <td className="p-2.5 sm:p-3 text-amber-700 font-semibold">Conditional</td>
-                          <td className="p-2.5 sm:p-3">Settlement generally limited to deficiency balance post-repossession</td>
+                          <td className="p-2.5 sm:p-3">closure generally limited to deficiency balance post-repossession</td>
                         </tr>
                         <tr>
                           <td className="p-2.5 sm:p-3 font-semibold text-black">Home Loans / Mortgages</td>
-                          <td className="p-2.5 sm:p-3">Secured (Immovable Property)</td>
+                          <td className="p-2.5 sm:p-3">Secured (Immovable home)</td>
                           <td className="p-2.5 sm:p-3 text-rose-700 font-semibold">Very Low</td>
-                          <td className="p-2.5 sm:p-3">Lenders invoke SARFAESI Act to auction property rather than give large haircuts</td>
+                          <td className="p-2.5 sm:p-3">Lenders invoke SARFAESI Act to auction home rather than give large haircuts</td>
                         </tr>
                       </tbody>
                     </table>
@@ -744,9 +717,7 @@ export default function LoanSettlementPageClient() {
                   5. Loan Settlement vs Loan Restructuring
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <p>
-                    Borrowers in distress must evaluate whether to seek a loan restructuring or a compromise settlement. Both address default risk, but their financial mechanics and bureau repercussions are fundamentally different.
-                  </p>
+                  <p> clients in distress must evaluate whether to seek a loan restructuring or a deal closure. Both address default risk. their money workings and desk repercussions are fundamentally different. </p>
 
                   <div className="overflow-x-auto -mx-1 sm:mx-0 my-4 border border-gray-200 rounded-xl shadow-xs">
                     <div className="text-[10px] text-gray-500 sm:hidden px-3 py-1.5 bg-gray-50 border-b border-gray-200 flex items-center justify-between font-medium">
@@ -763,9 +734,9 @@ export default function LoanSettlementPageClient() {
                       </thead>
                       <tbody className="divide-y divide-gray-200">
                         <tr>
-                          <td className="p-2.5 sm:p-3 font-semibold">Principal Repayment</td>
-                          <td className="p-2.5 sm:p-3">100% of principal is repaid over extended time</td>
-                          <td className="p-2.5 sm:p-3 font-semibold text-blue-700">Bank waives a portion of principal and charges</td>
+                          <td className="p-2.5 sm:p-3 font-semibold">main sum payment</td>
+                          <td className="p-2.5 sm:p-3">100% of main sum is repaid over extended time</td>
+                          <td className="p-2.5 sm:p-3 font-semibold text-blue-700">Bank waives a portion of main sum and charges</td>
                         </tr>
                         <tr>
                           <td className="p-2.5 sm:p-3 font-semibold">Loan Account Status</td>
@@ -774,13 +745,13 @@ export default function LoanSettlementPageClient() {
                         </tr>
                         <tr>
                           <td className="p-2.5 sm:p-3 font-semibold">Payment Mode</td>
-                          <td className="p-2.5 sm:p-3">Extended monthly EMIs with lowered interest</td>
-                          <td className="p-2.5 sm:p-3">Single lump-sum or 2–4 short structured installments</td>
+                          <td className="p-2.5 sm:p-3">Extended monthly EMIs with lowered rates</td>
+                          <td className="p-2.5 sm:p-3">Single lump-sum or 2. 4 short structured installments</td>
                         </tr>
                         <tr>
-                          <td className="p-2.5 sm:p-3 font-semibold">CIBIL Bureau Reporting</td>
-                          <td className="p-2.5 sm:p-3">Tagged as &apos;Restructured&apos;</td>
-                          <td className="p-2.5 sm:p-3 text-rose-700 font-semibold">Tagged as &apos;Settled&apos; or &apos;Post Write-Off Settled&apos;</td>
+                          <td className="p-2.5 sm:p-3 font-semibold">CIBIL desk Reporting</td>
+                          <td className="p-2.5 sm:p-3">Tagged as &apos. Restructured&apos. </td>
+                          <td className="p-2.5 sm:p-3 text-rose-700 font-semibold">Tagged as &apos. Settled&apos. or &apos. Post Write-Off Settled&apos. </td>
                         </tr>
                         <tr>
                           <td className="p-2.5 sm:p-3 font-semibold">Best Suited For</td>
@@ -802,11 +773,7 @@ export default function LoanSettlementPageClient() {
                   6. RBI Guidelines on Compromise Settlements &amp; Technical Write-offs
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <p>
-                    On <strong>June 8, 2023</strong>, the Reserve Bank of India issued its landmark circular 
-                    <span className="font-semibold text-black"> DOR.STR.REC.20/21.04.048/2023-24</span> entitled 
-                    <em> &quot;Framework for Compromise Settlements and Technical Write-offs&quot;</em>, reinforcing uniform standards across all Regulated Entities (REs):
-                  </p>
+                  <p> On <strong>June 8, 2023</strong>The Reserve Bank of India issued its landmark circular <span className="font-semibold text-black"> DOR.STR.REC.20/21.04.048/2023-24</span> entitled <em> &quot. Framework for deal closures and Technical Write-offs&quot. </em>Reinforcing uniform standards across all Regulated Entities (REs): </p>
 
                   <div className="space-y-2.5 sm:space-y-3 bg-slate-50 p-3.5 sm:p-5 rounded-xl sm:rounded-2xl border border-slate-200 text-xs sm:text-sm">
                     <div className="flex gap-2.5 sm:gap-3">
@@ -834,9 +801,7 @@ export default function LoanSettlementPageClient() {
                       </div>
                     </div>
                   </div>
-                  <p className="text-[11px] sm:text-xs text-gray-500">
-                    Source: Reserve Bank of India, Department of Regulation, Central Office, Mumbai.
-                  </p>
+                  <p className="text-[11px] sm:text-xs text-gray-500"> Source: Reserve Bank of India. Department of rule. Central Office. Mumbai. </p>
                 </div>
               </section>
 
@@ -849,35 +814,27 @@ export default function LoanSettlementPageClient() {
                   7. RBI Guidelines for Loan Recovery Agents: Calling Hours &amp; Conduct Rules
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <p>
-                    Under RBI Master Directions (including Circular <strong>RBI/2022-23/108</strong> and unified Fair Practices Codes), the Reserve Bank strictly regulates debt collection. Banks and NBFCs remain <strong>vicariously liable</strong> for unlawful actions taken by their outsourced recovery agencies.
-                  </p>
+                  <p> Under RBI Master Directions (including Circular <strong>RBI/2022-23/108</strong> and unified Fair Practices Codes). The Reserve Bank strictly regulates debt calls. Banks and NBFCs remain <strong>vicariously liable</strong> for unlawful actions taken by their outsourced claims firms. </p>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 my-4">
                     <div className="p-3.5 sm:p-4 bg-emerald-50 rounded-xl border border-emerald-200 text-xs">
-                      <h3 className="font-bold text-emerald-900 text-xs sm:text-sm mb-2 flex items-center gap-1.5">
-                        <span className="w-2 h-2 rounded-full bg-emerald-600"></span>
-                        Permitted Recovery Practices
-                      </h3>
+                      <h3 className="font-bold text-emerald-900 text-xs sm:text-sm mb-2 flex items-center gap-1.5"> <span className="w-2 h-2 rounded-full bg-emerald-600"></span> Permitted claims Practices </h3>
                       <ul className="space-y-1.5 text-emerald-800 list-disc pl-4">
-                        <li>Calling borrowers strictly between <strong>8:00 AM and 7:00 PM</strong>.</li>
-                        <li>Verifying borrower identity before discussing outstanding loan details.</li>
+                        <li>Calling clients strictly between <strong>8:00 AM and 7:00 PM</strong>.</li>
+                        <li>Verifying clients identity before discussing unpaid loan details.</li>
                         <li>Agents carrying valid bank authorization letters and photo identity cards.</li>
-                        <li>Maintaining professional call recordings and communication audit trails.</li>
+                        <li>Maintaining experts call recordings and contact audit trails.</li>
                       </ul>
                     </div>
 
                     <div className="p-3.5 sm:p-4 bg-rose-50 rounded-xl border border-rose-200 text-xs">
-                      <h3 className="font-bold text-rose-900 text-xs sm:text-sm mb-2 flex items-center gap-1.5">
-                        <span className="w-2 h-2 rounded-full bg-rose-600"></span>
-                        Strictly Prohibited Illegal Conduct
-                      </h3>
+                      <h3 className="font-bold text-rose-900 text-xs sm:text-sm mb-2 flex items-center gap-1.5"> <span className="w-2 h-2 rounded-full bg-rose-600"></span> Strictly Prohibited unlawful Conduct </h3>
                       <ul className="space-y-1.5 text-rose-800 list-disc pl-4">
-                        <li>Initiating recovery communications outside the permissible 8:00 AM to 7:00 PM statutory window.</li>
-                        <li>Resorting to defamatory, abusive, or emotionally intimidating remarks during calls.</li>
-                        <li>Contacting friends, relatives, neighbours, or workplace employers.</li>
+                        <li>Initiating claims contacts outside the permissible 8:00 AM to 7:00 PM legal window.</li>
+                        <li>Resorting to false. Abusive. emotionally threaten remarks during calls.</li>
+                        <li>Contacting friends. Relatives. Neighbours. workplace employers.</li>
                         <li>Visiting residence/workplace without prior notice or creating public scenes.</li>
-                        <li>Falsely claiming to be police officers, court bailiffs, or CBI officials.</li>
+                        <li>Falsely claiming to be police heads. Court bailiffs. CBI officials.</li>
                       </ul>
                     </div>
                   </div>
@@ -893,18 +850,12 @@ export default function LoanSettlementPageClient() {
                   8. How Much Can a Loan Be Settled For? The Mathematics of OTS
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <p>
-                    One of the most persistent myths in Indian debt resolution is that there is a standard &quot;flat 50% discount&quot; or guaranteed waiver rate. <strong>There is no statutory flat percentage.</strong> Every compromise settlement amount is calculated on a risk-recovery matrix governed by the following factors:
-                  </p>
+                  <p> One of the most persistent myths in Indian debt relief is that there is a standard &quot. flat 50% discount&quot. or guaranteed waiver rate. <strong>There is no legal flat rate.</strong> Every deal payout sum is calculated on a risk-claims matrix governed by the following factors: </p>
                   <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-black">
-                    <li><strong>Principal vs Penal Charges Composition:</strong> Banks are far more willing to waive 100% of accumulated penal interest and late fees than their core disbursed principal.</li>
-                    <li><strong>Age of Default (NPA Vintage):</strong> 
-                      <br />• <em>SMA-0 to SMA-2 (0-90 days):</em> Banks rarely consider settlements; they push for full recovery or restructuring.
-                      <br />• <em>Sub-standard Asset (NPA 3–12 months):</em> Settlement offers typically range between 55% to 75% of total dues.
-                      <br />• <em>Doubtful / Loss Asset (NPA &gt; 12 months):</em> Settlement offers often range between 30% to 50% of the total balance because the bank has already made 100% provisioning in its books.
-                    </li>
-                    <li><strong>Demonstrable Inability to Pay:</strong> Documented zero liquid balance, frozen accounts, or medical liabilities prove that dragging the borrower to civil court will yield zero recoverable assets.</li>
-                    <li><strong>Immediate Lump-sum Capacity:</strong> A borrower ready to transfer ₹3,00,000 within 48 hours will always receive a better OTS sanction than a borrower seeking 12 installments.</li>
+                    <li><strong>main sum vs Penal Charges Composition:</strong> Banks are far more willing to waive 100% of accumulated penal rates and late fees than their core disbursed main sum.</li>
+                    <li><strong>Age of Default (NPA Vintage):</strong> <br />• <em>SMA-0 to SMA-2 (0-90 days):</em> Banks rarely consider closures. they push for full claims or restructuring. <br />• <em>Sub-standard Asset (NPA 3. 12 months):</em> deals typically range between 55% to 75% of total dues. <br />• <em>Doubtful / Loss Asset (NPA &gt. 12 months):</em> deals often range between 30% to 50% of the total balance because the bank has already made 100% provisioning in its books. </li>
+                    <li><strong>Demonstrable Inability to Pay:</strong> Documented zero liquid balance. Frozen accounts. medical debts prove that dragging the clients to civil court will yield zero recoverable assets.</li>
+                    <li><strong>fast Lump-sum Capacity:</strong> A clients ready to transfer ₹3,00,000 within 48 hours will always receive a better OTS sanction than a clients seeking 12 installments.</li>
                   </ul>
                 </div>
               </section>
@@ -918,29 +869,27 @@ export default function LoanSettlementPageClient() {
                   9. How to Negotiate the Best Loan Settlement Amount
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <p>
-                    Negotiating with a banking institution requires a disciplined, evidence-based approach. Shouting at recovery agents or ignoring calls weakens your position. Follow this battle-tested negotiation playbook:
-                  </p>
+                  <p> settle with a banking institution requires a disciplined. Evidence-based approach. Shouting at agents or ignoring calls weakens your position. Follow this battle-tested talks playbook: </p>
                   
                   <div className="space-y-3 sm:space-y-4 my-4">
                     <div className="p-3.5 sm:p-4 bg-slate-50 border border-slate-200 rounded-xl">
                       <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Step 1: Obtain Complete Statement of Accounts (SOA)</h3>
-                      <p className="text-xs text-black">Demand an itemized breakdown of pure principal outstanding, normal contractual interest, penal interest, and processing charges. Never negotiate on a vague &apos;total demand figure&apos; stated verbally over the phone.</p>
+                      <p className="text-xs text-black">Demand an itemized breakdown of pure main sum unpaid. Normal contractual rates. Penal rates. processing charges. Never settle on a vague &apos. total demand figure&apos. stated verbally over the phone.</p>
                     </div>
 
                     <div className="p-3.5 sm:p-4 bg-slate-50 border border-slate-200 rounded-xl">
                       <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Step 2: Establish the Anchoring Offer</h3>
-                      <p className="text-xs text-black">Start negotiations by proposing waiver of 100% of penal charges and 60% of principal. This anchors the discussion around principal recovery rather than accumulated interest penalties.</p>
+                      <p className="text-xs text-black">Start talks by proposing waiver of 100% of penal charges and 60% of main sum. This anchors the discussion around main sum claims rather than accumulated rates fines.</p>
                     </div>
 
                     <div className="p-3.5 sm:p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Step 3: Document Hardship in Writing</h3>
-                      <p className="text-xs text-black">Submit a comprehensive representation letter citing RBI Compromise Framework guidelines, detailing health reports or termination slips, demonstrating that your offer is the maximum realizable value.</p>
+                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Step 3: papers Hardship in Writing</h3>
+                      <p className="text-xs text-black">Submit a thorough representation letter citing RBI deal Framework guidelines. Detailing health reports or end slips. Demonstrating that your offer is the maximum realizable value.</p>
                     </div>
 
                     <div className="p-3.5 sm:p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Step 4: Golden Rule — Never Pay Without Written Sanction</h3>
-                      <p className="text-xs text-black">No matter how urgent the recovery agent claims their monthly target is, <strong>never transfer a single rupee</strong> based on a WhatsApp message or verbal call. Insist on a formal Settlement Letter generated from the bank&apos;s centralized system with an official dispatch number.</p>
+                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Step 4: Golden Rule. Never Pay Without Written Sanction</h3>
+                      <p className="text-xs text-black">No matter how urgent the agents claims their monthly target is<strong>never transfer a single rupee</strong> based on a WhatsApp message or verbal call. Insist on a formal closure note generated from the bank&apos. s centralized system with an valid dispatch number.</p>
                     </div>
                   </div>
                 </div>
@@ -955,29 +904,27 @@ export default function LoanSettlementPageClient() {
                   10. Legal Rights of Borrowers During Loan Recovery in India
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <p>
-                    Defaulting on a debt is a civil contractual breach—<strong>it is not a criminal offense under Indian law</strong>. The Supreme Court of India and the Reserve Bank have repeatedly upheld fundamental constitutional rights safeguarding borrowers:
-                  </p>
+                  <p> Defaulting on a debt is a civil contractual breach. <strong>it is not a crime under Indian law</strong>. The Supreme Court of India and the Reserve Bank have repeatedly upheld fundamental legal rights safeguarding clients: </p>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 my-4">
                     <div className="p-3.5 sm:p-4 bg-white border border-gray-200 rounded-xl shadow-xs">
                       <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Right to Privacy (Article 21)</h3>
-                      <p className="text-xs text-black">Lenders cannot disclose your debt status to your employer, colleagues, neighbours, or extended family members. Doing so constitutes civil defamation and an actionable breach of privacy.</p>
+                      <p className="text-xs text-black">Lenders cannot disclose your debt status to your employer. Colleagues. Neighbours. extended family members. Doing so constitutes civil slander and an actionable breach of privacy.</p>
                     </div>
 
                     <div className="p-3.5 sm:p-4 bg-white border border-gray-200 rounded-xl shadow-xs">
-                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Right Against Harassment</h3>
-                      <p className="text-xs text-black">Repeated calling, threatening criminal incarceration, shouting at doorsteps, or physical stalking is actionable under the Bharatiya Nyaya Sanhita (BNS) / IPC Sections 351, 352, and 503.</p>
+                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Right Against threats</h3>
+                      <p className="text-xs text-black">Repeated calling. Threatening penal incarceration. Shouting at doorsteps. Real stalking is actionable under the Bharatiya Nyaya Sanhita (BNS) / IPC Sections 351. 352. 503.</p>
                     </div>
 
                     <div className="p-3.5 sm:p-4 bg-white border border-gray-200 rounded-xl shadow-xs">
-                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Right to Due Process &amp; Notice</h3>
-                      <p className="text-xs text-black">Borrowers are legally entitled to receive prior written demand notices before any legal invocation (Arbitration, Sec 138 NI Act, or SARFAESI repossession).</p>
+                      <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Right to Due Process &amp. Notice</h3>
+                      <p className="text-xs text-black">Clients are by law entitled to receive prior written demand notices before any legal invocation (Arbitration. Sec 138 NI Act. SARFAESI repossession).</p>
                     </div>
 
                     <div className="p-3.5 sm:p-4 bg-white border border-gray-200 rounded-xl shadow-xs">
                       <h3 className="font-bold text-black text-xs sm:text-sm mb-1">Right to Grievance Redressal</h3>
-                      <p className="text-xs text-black">Access to the bank&apos;s Principal Nodal Officer (PNO) and subsequent escalation to the RBI Integrated Ombudsman Scheme (CMS Portal) with mandatory 30-day resolution windows.</p>
+                      <p className="text-xs text-black">Access to the bank&apos. s main sum Nodal head (PNO) and subsequent escalation to the RBI Integrated RBI officer Scheme (CMS Portal) with mandatory 30-day relief windows.</p>
                     </div>
                   </div>
                 </div>
@@ -992,9 +939,7 @@ export default function LoanSettlementPageClient() {
                   11. What Legal Action Can a Bank or NBFC Take Against Defaulters?
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <p>
-                    Understanding the distinction between an empty recovery agent threat, a formal lawyer&apos;s legal notice, and an actual court summons is vital:
-                  </p>
+                  <p> grasp the distinction between an empty agents threat. A formal counsel&apos. s legal notice. an actual court summons is vital: </p>
 
                   <div className="space-y-2.5 sm:space-y-3 text-xs text-black">
                     <div className="p-3 bg-gray-50 rounded-lg border border-gray-200">
@@ -1025,13 +970,11 @@ export default function LoanSettlementPageClient() {
                   12. Legal Complications: Defaulting on a Settlement Agreement
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <p>
-                    Entering into a compromise settlement creates a new substituted contract under Section 62 and Section 63 of the Indian Contract Act, 1872. Borrowers must be aware of the severe legal pitfalls if they fail to uphold the terms:
-                  </p>
+                  <p> Entering into a deal closure creates a new substituted contract under Section 62 and Section 63 of the Indian Contract Act. 1872. clients must be aware of the severe legal pitfalls if they fail to uphold the terms: </p>
                   <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-black">
-                    <li><strong>Revocation of Waiver:</strong> Every standard Settlement Sanction Letter contains a default clause: <em>&quot;In the event of delay or default in payment of any installment, the settlement shall stand cancelled automatically, and the bank shall be entitled to recover the entire original dues with retrospective interest.&quot;</em></li>
-                    <li><strong>Loss of Partial Payments:</strong> If you agree to settle for ₹3 Lakhs in 3 installments of ₹1 Lakh each, and you pay ₹2 Lakhs but default on the 3rd, the bank typically treats the ₹2 Lakhs as normal partial payment against your original ledger dues and restarts recovery for the balance!</li>
-                    <li><strong>Pending Litigation Re-activation:</strong> If Section 138 or arbitration was stayed conditional upon settlement payments, the bank can immediately resume criminal or execution proceedings before the court.</li>
+                    <li><strong>Revocation of Waiver:</strong> Every standard closure Sanction Letter contains a default clause: <em>&quot. In the event of delay or default in payment of any installment. The closure shall stand cancelled automatically. the bank shall be entitled to recover the entire original dues with retrospective rates.&quot. </em></li>
+                    <li><strong>Loss of Partial Payments:</strong> If you agree to settle for ₹3 Lakhs in 3 installments of ₹1 Lakh each. You pay ₹2 Lakhs but default on the 3rd. The bank typically treats the ₹2 Lakhs as normal partial payment against your original ledger dues and restarts claims for the balance!</li>
+                    <li><strong>Pending Litigation Re-activation:</strong> If Section 138 or arbitration was stayed conditional upon closure payments. The bank can fast resume penal or execution steps before the court.</li>
                   </ul>
                 </div>
               </section>
@@ -1045,30 +988,26 @@ export default function LoanSettlementPageClient() {
                   13. Impact of Loan Settlement on CIBIL &amp; Credit Score
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <p>
-                    Borrowers must enter settlement with complete clarity on how Indian credit information companies (TransUnion CIBIL, Equifax, Experian, CRIF High Mark) record the transaction:
-                  </p>
+                  <p> clients must enter closure with complete clarity on how Indian credit information companies (TransUnion CIBIL. Equifax. Experian. CRIF High Mark) record the transaction: </p>
 
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 my-4">
                     <div className="p-3.5 sm:p-4 bg-emerald-50 border border-emerald-200 rounded-xl text-xs">
                       <span className="font-bold text-emerald-900 block mb-1 text-xs sm:text-sm">Status: &apos;CLOSED&apos;</span>
-                      <p className="text-emerald-800">Represents 100% full repayment of principal and interest. Positive credit signal that builds or restores high 750+ CIBIL scores.</p>
+                      <p className="text-emerald-800">Represents 100% full payment of main sum and rates. Positive credit signal that builds or restores high 750+ CIBIL scores.</p>
                     </div>
 
                     <div className="p-3.5 sm:p-4 bg-amber-50 border border-amber-200 rounded-xl text-xs">
                       <span className="font-bold text-amber-900 block mb-1 text-xs sm:text-sm">Status: &apos;SETTLED&apos;</span>
-                      <p className="text-amber-800">Represents account closed via compromise haircut. Lowers credit score by 50–120 points and remains on your bureau report for up to 7 years.</p>
+                      <p className="text-amber-800">Represents account closed via deal haircut. Lowers credit score by 50. 120 points and remains on your desk report for up to 7 years.</p>
                     </div>
 
                     <div className="p-3.5 sm:p-4 bg-rose-50 border border-rose-200 rounded-xl text-xs">
                       <span className="font-bold text-rose-900 block mb-1 text-xs sm:text-sm">Status: &apos;POST WRITE-OFF SETTLED&apos;</span>
-                      <p className="text-rose-800">Indicates the lender wrote off the debt as bad debt before you paid a compromise amount. Severe red flag for tier-1 credit underwriting.</p>
+                      <p className="text-rose-800">Indicates the lender wrote off the debt as bad debt before you paid a deal amount. Severe red flag for tier-1 credit underwriting.</p>
                     </div>
                   </div>
 
-                  <p className="text-xs sm:text-sm">
-                    <strong>Is a &apos;Settled&apos; status worse than an active NPA?</strong> No. An active unpaid default continues to drag your CIBIL score downward month after month with Days Past Due (DPD) counters hitting 900+ days, invites court cases, and guarantees immediate rejection. A settled status stops the bleeding and begins the 7-year countdown for credit rehabilitation.
-                  </p>
+                  <p className="text-xs sm:text-sm"> <strong>Is a &apos. Settled&apos. status worse than an active NPA?</strong> No. An active unpaid default continues to drag your CIBIL score downward month after month with Days Past Due (DPD) counters hitting 900+ days. Invites court cases. guarantees fast rejection. A settled status stops the bleeding and begins the 7-year countdown for credit rehabilitation. </p>
                 </div>
               </section>
 
@@ -1081,14 +1020,12 @@ export default function LoanSettlementPageClient() {
                   14. What Happens After Loan Settlement? Post-Closure Checklist
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <p>
-                    Once your settlement remittance clears the bank&apos;s account, ensure you complete these four mandatory closing procedures:
-                  </p>
+                  <p> Once your closure wire transfer clears the bank&apos. S account. Ensure you complete these four mandatory closing procedures: </p>
                   <ol className="list-decimal pl-5 space-y-1.5 text-xs sm:text-sm text-black">
-                    <li><strong>Demand the Official No Dues Certificate (NDC):</strong> The bank is mandated under RBI customer service directives to issue a stamped No Dues Certificate / Account Closure Letter within 15–30 days confirming that no further claims survive.</li>
-                    <li><strong>Verify Withdrawal of Court Cases:</strong> If Section 138 or arbitration notices were filed, ensure the bank&apos;s advocate files a joint memo of compromise or application for withdrawal before the relevant Magistrate or Arbitrator.</li>
-                    <li><strong>Retrieve Post-Dated Cheques &amp; Security Documents:</strong> Ensure the lender cancels NACH e-mandates and returns or destroys any physical security cheques deposited at the time of loan disbursal.</li>
-                    <li><strong>Check Credit Bureau After 45 Days:</strong> Download an updated CIBIL report 45 to 60 days post-settlement to verify that the balance outstanding shows zero and the status reflects &apos;Settled&apos; rather than active default.</li>
+                    <li><strong>Demand the valid No Dues letter (NDC):</strong> The bank is mandated under RBI customer service directives to issue a stamped No Dues letter / Account Closure Letter within 15. 30 days confirming that no further claims survive.</li>
+                    <li><strong>check Withdrawal of Court Cases:</strong> If Section 138 or arbitration notices were filed. Ensure the bank&apos. s counsel files a joint memo of deal or application for withdrawal before the relevant Magistrate or Arbitrator.</li>
+                    <li><strong>Retrieve Post-Dated Cheques &amp. Security papers:</strong> Ensure the lender cancels NACH e-mandates and returns or destroys any real security cheques deposited at the time of loan payout.</li>
+                    <li><strong>Check Credit desk After 45 Days:</strong> Download an updated CIBIL report 45 to 60 days post-closure to check that the balance unpaid shows zero and the status reflects &apos. Settled&apos. rather than active default.</li>
                   </ol>
                 </div>
               </section>
@@ -1102,24 +1039,22 @@ export default function LoanSettlementPageClient() {
                   15. Can You Get a Loan After Settlement? Rebuilding Creditworthiness
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <p>
-                    While prime banks will reject unsecured loan applications immediately following a settlement, you can systematically rebuild your credit score using this proven 3-phase pathway:
-                  </p>
+                  <p> While prime banks will reject clean loan applications fast following a closure. You can systematically rebuild your credit score using this proven 3-phase pathway: </p>
 
                   <div className="space-y-2.5 sm:space-y-3 text-xs text-black my-4">
                     <div className="p-3 bg-slate-50 border border-slate-200 rounded-xl">
                       <span className="font-bold text-black block mb-0.5">Phase 1 (Months 1–12): The Secured Credit Foundation</span>
-                      <p>Open a fixed deposit (FD) of ₹25,000 to ₹50,000 with a bank (e.g. IDFC First WOW, Kotak 811 Dream Different, or SBI Unnati) and obtain a <strong>secured credit card</strong> backed 100% by the FD. Use no more than 20% of the limit and repay the bill in full 5 days before the due date.</p>
+                      <p>Open a fixed deposit (FD) of ₹25,000 to ₹50,000 with a bank (e.g. IDFC First WOW. Kotak 811 Dream Different. SBI Unnati) and obtain a <strong>secured credit card</strong> backed 100% by the FD. Use no more than 20% of the limit and repay the bill in full 5 days before the due date.</p>
                     </div>
 
                     <div className="p-3 bg-slate-50 border border-slate-200 rounded-xl">
                       <span className="font-bold text-black block mb-0.5">Phase 2 (Months 13–24): Establishing Positive Bureau History</span>
-                      <p>Consistent, on-time payments on your secured card generate consecutive &apos;000&apos; (paid on time) monthly records on CIBIL. Your score typically climbs from the low 600s back into the 700–740 range.</p>
+                      <p>Consistent. On-time payments on your secured card generate running &apos. 000&apos. (paid on time) monthly records on CIBIL. Your score typically climbs from the low 600s back into the 700. 740 range.</p>
                     </div>
 
                     <div className="p-3 bg-slate-50 border border-slate-200 rounded-xl">
                       <span className="font-bold text-black block mb-0.5">Phase 3 (Months 25+): Secured Loans &amp; Secondary Lenders</span>
-                      <p>Apply for entry-level consumer durable loans or gold loans. Once 36 months pass with zero fresh delinquencies, secondary NBFCs and fintech lenders will readily approve fresh personal credit.</p>
+                      <p>Apply for entry-level consumer durable loans or gold loans. Once 36 months pass with zero fresh delinquencies. Secondary NBFCs and fintech lenders will readily approve fresh own credit.</p>
                     </div>
                   </div>
                 </div>
@@ -1134,14 +1069,12 @@ export default function LoanSettlementPageClient() {
                   16. Recovery Agent Harassment: How to Legally Defend Yourself
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <p>
-                    Recovery agent harassment is the most painful ordeal for defaulting borrowers. If collection agents are crossing legal boundaries, execute these immediate defensive countermeasures:
-                  </p>
+                  <p> agents threats is the most painful ordeal for defaulting clients. If calls agents are crossing legal boundaries. Execute these fast defensive defenses: </p>
                   <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-black">
-                    <li><strong>Enable Call Recording:</strong> Maintain an automatic audio recorder on your phone. Inform calling agents: <em>&quot;This call is being recorded for evidence under RBI circular DOR.ORG.REC.65/21.04.158/2022-23.&quot;</em> This statement alone discourages 80% of aggressive threats.</li>
-                    <li><strong>Send a Formal Cease &amp; Desist Letter:</strong> Issue a registered legal notice to the bank&apos;s managing director and collections head demanding that third-party agents immediately cease calling unauthorized numbers or visiting your workplace.</li>
-                    <li><strong>Lodge a Complaint with the Principal Nodal Officer (PNO):</strong> Every bank has a designated PNO. Send the call audio, agent phone numbers, and WhatsApp screenshots. Under RBI regulations, the bank must acknowledge within 24 hours.</li>
-                    <li><strong>Escalate to the RBI Banking Ombudsman (CMS Portal):</strong> If the harassment does not halt within 30 days, file an online grievance on <a href="https://cms.rbi.org.in" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline font-semibold">cms.rbi.org.in</a>. The Ombudsman can award compensation up to ₹20 Lakhs for mental anguish and harassment.</li>
+                    <li><strong>Enable Call Recording:</strong> Maintain an automatic audio recorder on your phone. Inform calling agents: <em>&quot. This call is being recorded for evidence under RBI circular DOR.ORG.REC.65/21.04.158/2022-23.&quot. </em> This statement alone discourages 80% of harsh threats.</li>
+                    <li><strong>Send a Formal Cease &amp. Desist Letter:</strong> Issue a registered legal notice to the bank&apos. s managing director and collections head demanding that third-party agents fast cease calling illegal numbers or visiting your workplace.</li>
+                    <li><strong>Lodge a Complaint with the main sum Nodal head (PNO):</strong> Every bank has a designated PNO. Send the call audio. Agent phone numbers. WhatsApp screenshots. Under RBI rules. The bank must acknowledge within 24 hours.</li>
+                    <li><strong>Escalate to the RBI Banking RBI officer (CMS Portal):</strong> If the threats does not halt within 30 days. File an online grievance on <a href="https://cms.rbi.org.in" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline font-semibold">cms.rbi.org.in</a>. The RBI officer can award compensation up to ₹20 Lakhs for mental anguish and threats.</li>
                   </ul>
                 </div>
               </section>
@@ -1155,25 +1088,23 @@ export default function LoanSettlementPageClient() {
                   17. Comprehensive Document Checklist for Loan Settlement
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <p>
-                    Having an organized dossier of hardship documentation speeds up the bank&apos;s settlement committee approval:
-                  </p>
+                  <p> Having an organized dossier of hardship proof speeds up the bank&apos. s closure board approval: </p>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 text-xs">
                     <div className="p-3.5 sm:p-4 bg-gray-50 border border-gray-200 rounded-xl space-y-1.5">
-                      <p className="font-bold text-black text-xs sm:text-sm mb-1">KYC &amp; Loan Records</p>
-                      <p>✓ PAN Card &amp; Aadhaar Card</p>
+                      <p className="font-bold text-black text-xs sm:text-sm mb-1">KYC &amp. Loan Records</p>
+                      <p>✓ PAN Card &amp. Aadhaar Card</p>
                       <p>✓ Latest Loan Account Statement (showing dues)</p>
-                      <p>✓ Loan Sanction Letter / Credit Card Agreement</p>
-                      <p>✓ Comprehensive CIBIL / Experian Credit Report</p>
+                      <p>✓ Loan Sanction Letter / Credit Card pacts</p>
+                      <p>✓ thorough CIBIL / Experian Credit Report</p>
                     </div>
 
                     <div className="p-3.5 sm:p-4 bg-gray-50 border border-gray-200 rounded-xl space-y-1.5">
-                      <p className="font-bold text-black text-xs sm:text-sm mb-1">Financial Inability Proof</p>
+                      <p className="font-bold text-black text-xs sm:text-sm mb-1">money Inability Proof</p>
                       <p>✓ Last 6 to 12 months Bank Statements (all active accounts)</p>
-                      <p>✓ Job Termination Letter / Resignation / Salary Slips</p>
-                      <p>✓ Business Closure Certificate / GST Surrender (for MSMEs)</p>
-                      <p>✓ Hospital discharge summaries &amp; medical treatment bills</p>
+                      <p>✓ Job end Letter / Resignation / Salary Slips</p>
+                      <p>✓ firm Closure letter / GST Surrender (for MSMEs)</p>
+                      <p>✓ Hospital discharge summaries &amp. medical treatment bills</p>
                     </div>
                   </div>
                 </div>
@@ -1188,9 +1119,7 @@ export default function LoanSettlementPageClient() {
                   18. How to Verify a Genuine Settlement Offer &amp; Avoid Scams
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <p>
-                    Thousands of Indian borrowers are defrauded each month by rogue recovery telecallers and scammers sending forged settlement letters on PDF templates. Use this 4-step checklist to verify authenticity:
-                  </p>
+                  <p> Thousands of Indian clients are defrauded each month by rogue claims telecallers and scammers sending forged closure letters on PDF templates. Use this 4-step checklist to check authenticity: </p>
 
                   <div className="space-y-2.5 sm:space-y-3 text-xs text-black my-4">
                     <div className="p-3 bg-rose-50 border border-rose-200 rounded-xl">
@@ -1219,10 +1148,10 @@ export default function LoanSettlementPageClient() {
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-black">
-                    <li><strong>Relying on Verbal Promises of Recovery Agents:</strong> Agents under target pressure frequently say: <em>&quot;Just pay ₹50,000 today and the bank will close the card.&quot;</em> If you pay without a settlement letter, the bank treats it as partial interest recovery and demands the rest next week!</li>
-                    <li><strong>Ignoring Court Summons &amp; Legal Notices:</strong> Thinking that avoiding notices makes them disappear. Failing to appear in Section 138 or arbitration proceedings results in bailable/non-bailable warrants or ex-parte awards that freeze your bank accounts.</li>
-                    <li><strong>Borrowing from Informal Loan Sharks to Settle:</strong> Taking a high-interest private loan (5%–10% monthly interest) to settle a 14% bank loan creates a fatal debt vortex.</li>
-                    <li><strong>Forgetting to Demand the No Dues Certificate (NDC):</strong> Assuming payment receipt is the same as an NOC. Without an official NOC, old collection agencies may resurface years later demanding residual dues.</li>
+                    <li><strong>Relying on Verbal Promises of agents:</strong> Agents under target pressure often say: <em>&quot. Just pay ₹50,000 today and the bank will close the card.&quot. </em> If you pay without a closure note. The bank treats it as partial rates claims and demands the rest next week!</li>
+                    <li><strong>Ignoring Court Summons &amp. Legal Notices:</strong> Thinking that avoiding notices makes them disappear. Failing to appear in Section 138 or arbitration steps results in bailable/non-bailable warrants or ex-parte awards that freeze your bank accounts.</li>
+                    <li><strong>Borrowing from Informal Loan Sharks to Settle:</strong> Taking a high-rates private loan (5%. 10% monthly rates) to settle a 14% bank loan creates a fatal debt vortex.</li>
+                    <li><strong>Forgetting to Demand the No Dues letter (NDC):</strong> Assuming payment receipt is the same as an NOC. Without an valid NOC. Old calls firms may resurface years later demanding residual dues.</li>
                   </ul>
                 </div>
               </section>
@@ -1236,27 +1165,25 @@ export default function LoanSettlementPageClient() {
                   20. Practical Settlement Case Studies &amp; Financial Breakdowns
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <p>
-                    Examine these real-world examples demonstrating how compromise settlements are negotiated across different loan portfolios:
-                  </p>
+                  <p> Examine these real-world examples demonstrating how deal closures are settle across different loan portfolios: </p>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 text-xs my-4">
                     <div className="p-3.5 sm:p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2">
                       <span className="font-bold text-blue-700 block text-xs sm:text-sm">Case 1: Personal Loan Compromise</span>
-                      <p><strong>Borrower Profile:</strong> IT Professional terminated during tech layoffs.</p>
-                      <p><strong>Original Sanction:</strong> ₹8,00,000 | <strong>Total Outstanding:</strong> ₹9,40,000 (with penalties)</p>
-                      <p><strong>Principal Balance:</strong> ₹6,20,000 | <strong>Default Vintage:</strong> 11 Months NPA</p>
-                      <p><strong>Negotiated Settlement:</strong> ₹3,80,000 in two installments.</p>
+                      <p><strong>clients Profile:</strong> IT experts terminated during tech layoffs.</p>
+                      <p><strong>Original Sanction:</strong> ₹8,00,000 | <strong>Total unpaid:</strong> ₹9,40,000 (with fines)</p>
+                      <p><strong>main sum Balance:</strong> ₹6,20,000 | <strong>Default Vintage:</strong> 11 Months NPA</p>
+                      <p><strong>settle closure:</strong> ₹3,80,000 in two installments.</p>
                       <p className="font-semibold text-emerald-700">Total Waiver: ₹5,60,000 (~60% of total ledger dues)</p>
                     </div>
 
                     <div className="p-3.5 sm:p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-2">
                       <span className="font-bold text-blue-700 block text-xs sm:text-sm">Case 2: Multiple Credit Cards Portfolio</span>
-                      <p><strong>Borrower Profile:</strong> Retail shop owner with pandemic business collapse.</p>
-                      <p><strong>Dues Across 3 Cards:</strong> ₹5,20,000 (Principal: ₹2,40,000 + ₹2,80,000 Finance Charges)</p>
+                      <p><strong>clients Profile:</strong> Retail shop owner with pandemic firm collapse.</p>
+                      <p><strong>Dues Across 3 Cards:</strong> ₹5,20,000 (main sum: ₹2,40,000 + ₹2,80,000 Finance Charges)</p>
                       <p><strong>Default Vintage:</strong> 14 Months</p>
-                      <p><strong>Negotiated Settlement:</strong> ₹1,90,000 total lump-sum payment.</p>
-                      <p className="font-semibold text-emerald-700">Total Waiver: ₹3,30,000 (Waiver of 100% penalties + ₹50,000 principal haircut)</p>
+                      <p><strong>settle closure:</strong> ₹1,90,000 total lump-sum payment.</p>
+                      <p className="font-semibold text-emerald-700">Total Waiver: ₹3,30,000 (Waiver of 100% fines + ₹50,000 main sum haircut)</p>
                     </div>
                   </div>
                 </div>
@@ -1271,13 +1198,11 @@ export default function LoanSettlementPageClient() {
                   21. Loan Settlement Costs and Professional Legal Assistance
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <p>
-                    When evaluating professional debt settlement and legal representation services in India, transparency in fee structures is paramount:
-                  </p>
+                  <p> When evaluating experts debt closure and legal representation services in India. Transparency in fee structures is paramount: </p>
                   <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-black">
-                    <li><strong>Direct Settlement Amount (Paid to Bank):</strong> The negotiated compromise sum paid directly to the lending bank or NBFC.</li>
-                    <li><strong>Professional Legal &amp; Representation Fees:</strong> Reputable legal advisory firms operate either on a transparent milestone retainer or a success-fee percentage based on the verified money saved for the borrower.</li>
-                    <li><strong>No Upfront Hidden Charges:</strong> Legitimate firms never demand full upfront contingency fees before negotiating with the bank. Ensure you receive a formal service contract specifying exact deliverables, legal notice drafting, and anti-harassment coverage.</li>
+                    <li><strong>Direct payout sum (Paid to Bank):</strong> The settle deal sum paid straight to the lending bank or NBFC.</li>
+                    <li><strong>experts Legal &amp. Representation Fees:</strong> Reputable legal advisory firms operate either on a transparent milestone retainer or a success-fee rate based on the checked money saved for the clients.</li>
+                    <li><strong>No Upfront Hidden Charges:</strong> Legitimate firms never demand full upfront contingency fees before settle with the bank. Ensure you receive a formal service contract specifying exact deliverables. Legal notice drafting. anti-threats coverage.</li>
                   </ul>
                 </div>
               </section>
@@ -1290,9 +1215,7 @@ export default function LoanSettlementPageClient() {
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   22. Interactive Loan Settlement Calculator / Estimator
                 </h2>
-                <p className="text-xs sm:text-sm text-black mb-4 sm:mb-6">
-                  Estimate a realistic One-Time Settlement (OTS) compromise band based on your principal, accumulated charges, and default duration under standard Indian banking recovery parameters:
-                </p>
+                <p className="text-xs sm:text-sm text-black mb-4 sm:mb-6"> Estimate a realistic One-Time closure (OTS) deal band based on your main sum. Accumulated charges. default duration under standard Indian banking claims parameters: </p>
 
                 {/* Calculator Widget */}
                 <div className="bg-slate-900 text-white p-4 sm:p-6 md:p-8 rounded-2xl sm:rounded-3xl shadow-xl border border-slate-800 space-y-5 sm:space-y-6">
@@ -1397,9 +1320,7 @@ export default function LoanSettlementPageClient() {
                     </div>
                   </div>
 
-                  <p className="text-[11px] sm:text-xs text-slate-400 leading-relaxed italic">
-                    *Disclaimer: This estimator provides statistical approximations based on standard RBI compromise trends and NPA aging. Actual compromise sanctions depend solely on the concerned bank or NBFC Board-approved compromise policy and settlement committee approval.
-                  </p>
+                  <p className="text-[11px] sm:text-xs text-slate-400 leading-relaxed italic"> *Disclaimer: This estimator provides statistical approximations based on standard RBI deal trends and NPA aging. Actual deal sanctions depend solely on the concerned bank or NBFC Board-approved deal policy and closure board approval. </p>
                 </div>
               </section>
 
@@ -1412,14 +1333,12 @@ export default function LoanSettlementPageClient() {
                   23. Legal Remedies &amp; When to Seek Advocate Representation
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <p>
-                    While simple default negotiations can sometimes be initiated directly by borrowers, legal representation becomes crucial in the following circumstances:
-                  </p>
+                  <p> While simple default talks can sometimes be initiated straight by clients. Legal representation becomes crucial in the following hardship: </p>
                   <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-black">
-                    <li><strong>Receipt of Section 138 NI Act or Section 25 PSSA Notice:</strong> A formal legal reply drafted by a practicing advocate must be served within the statutory period to set up your defense and prevent summary conviction.</li>
-                    <li><strong>Notice of Arbitration:</strong> Objecting to unilaterally appointed sole arbitrators and filing applications under Section 11, 12, or 16 of the Arbitration and Conciliation Act 1996.</li>
-                    <li><strong>Unlawful Harassment &amp; Blackmail:</strong> Issuing formal Cease &amp; Desist notices, criminal complaints under BNS/IPC, and initiating injunction proceedings before Civil Courts against illegal workplace visits.</li>
-                    <li><strong>Drafting Watertight Settlement Contracts:</strong> Reviewing the bank&apos;s settlement letter to ensure it does not contain hidden clauses that keep personal guarantees or co-borrower liabilities alive.</li>
+                    <li><strong>Receipt of Section 138 NI Act or Section 25 PSSA Notice:</strong> A formal legal reply drafted by a practicing counsel must be served within the legal period to set up your defense and prevent summary conviction.</li>
+                    <li><strong>Notice of Arbitration:</strong> Objecting to unilaterally appointed sole arbitrators and filing applications under Section 11. 12. 16 of the Arbitration and Conciliation Act 1996.</li>
+                    <li><strong>Unlawful threats &amp. Blackmail:</strong> Issuing formal Cease &amp. Desist notices. Penal complaints under BNS/IPC. initiating injunction steps before Civil Courts against unlawful workplace visits.</li>
+                    <li><strong>Drafting Watertight closure Contracts:</strong> Reviewing the bank&apos. s closure note to ensure it does not contain hidden clauses that keep own guarantees or co-clients debts alive.</li>
                   </ul>
                 </div>
               </section>
@@ -1432,9 +1351,7 @@ export default function LoanSettlementPageClient() {
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
                   24. Comprehensive Loan Settlement FAQs (20 Essential Q&amp;As)
                 </h2>
-                <p className="text-xs sm:text-sm text-black mb-4 sm:mb-6">
-                  Answers to the most critical legal, operational, and financial questions regarding loan settlement in India:
-                </p>
+                <p className="text-xs sm:text-sm text-black mb-4 sm:mb-6"> Answers to the most key legal. Operational. money questions regarding loan closure in India: </p>
 
                 <div className="space-y-2.5 sm:space-y-3">
                   {faqs.map((faq, index) => {
@@ -1470,18 +1387,12 @@ export default function LoanSettlementPageClient() {
                   25. Conclusion: Your Action Plan for Financial Freedom
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
-                  <p>
-                    Loan settlement is a viable, legally protected exit route for honest borrowers overwhelmed by uncontrollable economic distress. It shields your mental sanity, halts aggressive recovery intimidation, and formally liquidates crushing liabilities.
-                  </p>
-                  <p>
-                    However, settlement must never be entered into impulsively or without proper legal documentation. Always demand written settlement sanction letters, verify authorized bank payment channels, insist on your No Dues Certificate, and commit to a structured 24-month credit rebuilding roadmap.
-                  </p>
+                  <p> Loan closure is a viable. By law protected exit route for honest clients overwhelmed by uncontrollable economic distress. It shields your mental sanity. Halts harsh claims threaten. formally liquidates crushing debts. </p>
+                  <p> yet. Closure must never be entered into impulsively or without proper legal proof. Always demand written closure sanction letters. Check authorized bank payment channels. Insist on your No Dues letter. commit to a structured 24-month credit rebuilding roadmap. </p>
 
                   <div className="p-4 sm:p-6 md:p-8 bg-gradient-to-r from-blue-900 to-indigo-950 rounded-2xl sm:rounded-3xl text-white my-4 sm:my-6 space-y-3 sm:space-y-4">
-                    <h3 className="text-base sm:text-xl font-bold">Don&apos;t Fight the Bank Alone</h3>
-                    <p className="text-xs sm:text-sm text-blue-200 leading-relaxed">
-                      At CredSettle, our team of seasoned advocates and banking resolution specialists safeguard your rights under RBI guidelines, stop recovery agent harassment immediately, and negotiate the highest possible legal waiver for your loans.
-                    </p>
+                    <h3 className="text-base sm:text-xl font-bold">Don&apos. t Fight the Bank Alone</h3>
+                    <p className="text-xs sm:text-sm text-blue-200 leading-relaxed"> At CredSettle. Our team of seasoned counsel and banking relief specialists safeguard your rights under RBI guidelines. Stop agents threats fast. settle the highest possible legal waiver for your loans. </p>
                     <div className="pt-2">
                       <Link
                         href="/contact"
@@ -1493,8 +1404,8 @@ export default function LoanSettlementPageClient() {
                   </div>
 
                   <div className="p-3.5 sm:p-4 bg-gray-100 rounded-xl text-[11px] sm:text-xs text-black space-y-1">
-                    <p><strong>Regulatory &amp; Legal Attribution:</strong> Content authored and maintained in compliance with Reserve Bank of India (Compromise Settlements and Technical Write-offs Framework 2023, Circular DOR.STR.REC.20/21.04.048/2023-24) and Banking Regulation Act, 1949.</p>
-                    <p><em>Disclaimer: The contents of this master guide are published for informational purposes and do not constitute formal attorney-client advice until a legal representation agreement is formally executed.</em></p>
+                    <p><strong>RBI &amp. Legal Attribution:</strong> Content authored and maintained in compliance with Reserve Bank of India (deal closures and Technical Write-offs Framework 2023. Circular DOR.STR.REC.20/21.04.048/2023-24) and Banking rule Act. 1949.</p>
+                    <p><em>Disclaimer: The contents of this master guide are published for informational purposes and do not constitute formal lawyer-client advice until a legal representation pacts is formally executed.</em></p>
                   </div>
                 </div>
               </section>
@@ -1510,9 +1421,7 @@ export default function LoanSettlementPageClient() {
                   🛡️
                 </span>
                 <div className="font-bold text-xs text-black mb-1">Halt Multi-Loan Calls</div>
-                <p className="text-[10px] text-black mb-3 leading-tight">
-                  Official advocate notices shield your family from cross-lender recovery pressure within 24 hrs.
-                </p>
+                <p className="text-[10px] text-black mb-3 leading-tight"> valid counsel notices shield your family from cross-lender claims pressure within 24 hrs. </p>
                 <Link 
                   href="/contact"
                   className="block w-full bg-blue-600 text-white font-bold py-2 px-2 rounded-lg hover:bg-blue-700 transition-colors shadow-xs text-[11px]"
@@ -1520,7 +1429,7 @@ export default function LoanSettlementPageClient() {
                   Request Call Back
                 </Link>
                 <div className="mt-3 pt-2.5 border-t border-gray-100 text-[10px] text-black space-y-1 text-left">
-                  <p className="flex items-center gap-1"><span className="text-emerald-500 font-bold">✓</span> 100% Confidential</p>
+                  <p className="flex items-center gap-1"><span className="text-emerald-500 font-bold">✓</span> 100% private</p>
                   <p className="flex items-center gap-1"><span className="text-emerald-500 font-bold">✓</span> RBI Fair Code</p>
                   <p className="flex items-center gap-1"><span className="text-emerald-500 font-bold">✓</span> Bank Sanctions</p>
                 </div>
@@ -1529,7 +1438,7 @@ export default function LoanSettlementPageClient() {
               {/* OTS Calculator Quick Jump Badge */}
               <div className="p-3 bg-slate-50 border border-slate-200 rounded-xl text-xs space-y-1 text-black">
                 <span className="font-bold text-black block text-[11px]">Composite Debt Calculator</span>
-                <p className="text-[10px] text-black leading-tight">Simulate potential compromise waivers across all your active loans and bank cards.</p>
+                <p className="text-[10px] text-black leading-tight">Simulate potential deal waivers across all your active loans and bank cards.</p>
                 <a href="#settlement-calculator" className="text-[10px] text-blue-600 font-semibold block pt-1 hover:underline">Estimate Combined Relief ↓</a>
               </div>
           </aside>

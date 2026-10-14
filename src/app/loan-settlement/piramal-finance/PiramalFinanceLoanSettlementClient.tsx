@@ -90,31 +90,31 @@ export default function PiramalFinanceLoanSettlementClient() {
   const faqList = [
     {
       question: "Can I settle my Piramal Finance Personal Loan?",
-      answer: "Yes, Piramal Finance offers One Time Settlement (OTS) for personal loans that are classified as NPA (Non-Performing Asset). You must prove genuine financial hardship like job loss or medical crisis."
+      answer: "Yes. Piramal Finance offers One Time closure (OTS) for own loans that are classified as NPA (Non-Performing Asset). You must prove genuine money hardship like job loss or medical crisis."
     },
     {
       question: "What is the standard waiver percentage for Piramal Finance settlement?",
-      answer: "Waivers typically range from 30% to 50% of the total outstanding amount. The exact percentage depends on the age of the default and your ability to pay a lump sum."
+      answer: "Waivers typically range from 30% to 50% of the total unpaid amount. The exact rate depends on the age of the default and your ability to pay a lump sum."
     },
     {
       question: "Will Piramal Finance take legal action if I stop paying?",
-      answer: "Yes. For unsecured loans, they may initiate Arbitration proceedings. For secured loans (Home/LAP), they can invoke the SARFAESI Act to seize and sell the property without court intervention."
+      answer: "Yes. For clean loans. They may initiate Arbitration steps. For secured loans (Home/LAP). They can invoke the SARFAESI Act to seize and sell the home without court action."
     },
     {
       question: "How do I identify a fake Piramal Finance legal notice?",
-      answer: "Fake notices often come via WhatsApp from personal numbers, threaten immediate police arrest (which is illegal for civil dues), and ask for payment to personal UPI IDs. Real notices come via Registered Post."
+      answer: "Fake notices often come via WhatsApp from own numbers. Threaten fast police arrest (which is unlawful for civil dues). ask for payment to own UPI IDs. Real notices come via Registered Post."
     },
     {
       question: "Who is the Principal Nodal Officer for Piramal Finance?",
-      answer: "Ms. Hetal Parihar is the Principal Nodal Officer. You can contact her at nodal.officer@piramal.com or 022-69181439."
+      answer: "Ms. Hetal Parihar is the main sum Nodal head. You can contact her at nodal.head@piramal.com or 022-69181439."
     },
     {
       question: "Does settlement remove the loan from CIBIL?",
-      answer: "No. The loan status will change to 'Settled' instead of 'Closed'. This will lower your CIBIL score by 70-100 points, but it is better than a 'Written Off' status."
+      answer: "No. The loan status will change to 'Settled' instead of 'Closed'. This will lower your CIBIL score by 70-100 points. it is better than a 'Written Off' status."
     },
     {
       question: "Can I get an NOC after settlement?",
-      answer: "Yes, once the settlement amount is paid in full, Piramal Finance will issue a No Objection Certificate (NOC) and close the loan account within 30 days."
+      answer: "Yes. Once the payout sum is paid in full. Piramal Finance will issue a No Objection letter (NOC) and close the loan account within 30 days."
     }
   ];
 
@@ -125,31 +125,9 @@ export default function PiramalFinanceLoanSettlementClient() {
         <div className="max-w-7xl mx-auto px-4 py-4">
           <nav className="flex text-sm text-gray-500" aria-label="Breadcrumb">
             <ol className="inline-flex items-center space-x-1 md:space-x-3">
-              <li className="inline-flex items-center">
-                <Link href="/" className="inline-flex items-center hover:text-blue-600">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <div className="flex items-center">
-                  <svg className="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4"/>
-                  </svg>
-                  <Link href="/loan-settlement" className="ml-1 font-medium text-gray-700 hover:text-blue-600 md:ml-2">
-                    Loan Settlement
-                  </Link>
-                </div>
-              </li>
-              <li>
-                <div className="flex items-center">
-                  <svg className="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4"/>
-                  </svg>
-                  <span className="ml-1 font-medium text-gray-500 md:ml-2">
-                    Piramal Finance
-                  </span>
-                </div>
-              </li>
+              <li className="inline-flex items-center"> <Link href="/" className="inline-flex items-center hover:text-blue-600"> Home </Link> </li>
+              <li> <div className="flex items-center"> <svg className="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10"> <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4"/> </svg> <Link href="/loan-settlement" className="ml-1 font-medium text-gray-700 hover:text-blue-600 md:ml-2"> Loan closure </Link> </div> </li>
+              <li> <div className="flex items-center"> <svg className="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10"> <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4"/> </svg> <span className="ml-1 font-medium text-gray-500 md:ml-2"> Piramal Finance </span> </div> </li>
             </ol>
           </nav>
         </div>
@@ -212,18 +190,12 @@ export default function PiramalFinanceLoanSettlementClient() {
             <article className="prose prose-lg max-w-none bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-gray-100">
               
               <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Piramal Finance Loan Settlement Guide 2026</h2>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                Piramal Finance is a leading NBFC offering Housing Loans, Business Loans, and Personal Loans. While they support customers during good times, default can lead to strict recovery actions, including **SARFAESI** proceedings for secured loans and **Arbitration** for unsecured ones.
-              </p>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                If you are facing financial distress, Piramal Finance offers a **One Time Settlement (OTS)** mechanism to help you close your loan legally and start fresh. This guide covers the official settlement process, how to spot fake notices, and how to escalate grievances.
-              </p>
+              <p className="text-gray-700 leading-relaxed mb-6"> Piramal Finance is a leading NBFC offering Housing Loans. Firm Loans. own Loans. While they support customers during good times. Default can lead to strict claims actions. Including **SARFAESI** steps for secured loans and **Arbitration** for clean ones. </p>
+              <p className="text-gray-700 leading-relaxed mb-6"> If you are facing money distress. Piramal Finance offers a **One Time closure (OTS)** mechanism to help you close your loan by law and start fresh. This guide covers the valid steps. How to spot fake notices. how to escalate grievances. </p>
 
               {/* Fake Notice Checker */}
               <h2 id="fake-notice-check" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Fake vs Real Legal Notices</h2>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                 We have seen a surge in fake "Court Summons" being sent via WhatsApp by fraudulent agencies claiming to represent Piramal Finance. Use this checklist to verify authenticity:
-              </p>
+              <p className="text-gray-700 leading-relaxed mb-6"> We have seen a surge in fake "Court Summons" being sent via WhatsApp by fraudulent firms claiming to represent Piramal Finance. Use this checklist to check authenticity: </p>
 
               <div className="overflow-x-auto mb-10">
                 <table className="min-w-full bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
@@ -242,27 +214,25 @@ export default function PiramalFinanceLoanSettlementClient() {
                     </tr>
                     <tr>
                       <td className="py-4 px-6 text-sm font-medium text-gray-900">Threats</td>
-                      <td className="py-4 px-6 text-sm text-gray-700">"Arrest in 2 hours", "Police visit"</td>
-                      <td className="py-4 px-6 text-sm text-gray-700">"Arbitration Hearing", "SARFAESI Action"</td>
+                      <td className="py-4 px-6 text-sm text-gray-700">"Arrest in 2 hours". "Police visit"</td>
+                      <td className="py-4 px-6 text-sm text-gray-700">"Arbitration Hearing". "SARFAESI Action"</td>
                     </tr>
                     <tr>
                       <td className="py-4 px-6 text-sm font-medium text-gray-900">Payment To</td>
-                      <td className="py-4 px-6 text-sm text-gray-700">Personal UPI ID / GooglePay</td>
-                      <td className="py-4 px-6 text-sm text-gray-700">Official Piramal Loan Account only</td>
+                      <td className="py-4 px-6 text-sm text-gray-700">own UPI ID / GooglePay</td>
+                      <td className="py-4 px-6 text-sm text-gray-700">valid Piramal Loan Account only</td>
                     </tr>
                   </tbody>
                 </table>
               </div>
 
               <h2 id="ots-policy" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Piramal Finance OTS Policy</h2>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                One Time Settlement (OTS) is available primarily for loans classified as **NPA (Non-Performing Asset)**, meaning unpaid for over 90 days.
-              </p>
+              <p className="text-gray-700 leading-relaxed mb-6"> One Time closure (OTS) is available primarily for loans classified as **NPA (Non-Performing Asset)**. Meaning unpaid for over 90 days. </p>
               <ul className="list-disc pl-6 space-y-2 mb-6 text-gray-700">
-                <li><strong>Eligibility:</strong> Proven financial hardship (Job loss, Health crisis, Business failure).</li>
-                <li><strong>Waiver Amount:</strong> Typically **30-50%** of principal + interest, depending on the case. Penalties are often fully waived.</li>
-                <li><strong>Timeline:</strong> Processing takes **2-4 weeks**. Settlement letter is issued 7-10 days after approval.</li>
-                <li><strong>Documents Required:</strong> Income proof (or lack thereof), termination letter, medical records, bank statements.</li>
+                <li><strong>fit:</strong> Proven money hardship (Job loss. Health crisis. Firm failure).</li>
+                <li><strong>Waiver Amount:</strong> Typically **30-50%** of main sum + rates. Depending on the case. fines are often fully waived.</li>
+                <li><strong>Timeline:</strong> Processing takes **2-4 weeks**. closure note is issued 7-10 days after approval.</li>
+                <li><strong>papers Required:</strong> Income proof (or lack thereof). End letter. Medical records. Bank statements.</li>
               </ul>
 
               <h2 id="settlement-process" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">How to Settle Your Loan</h2>
@@ -271,81 +241,61 @@ export default function PiramalFinanceLoanSettlementClient() {
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">1</div>
                   <div>
                     <h3 className="font-bold text-gray-900">Stop Paying "On Account"</h3>
-                    <p className="text-gray-600 mt-1">Do not pay small random amounts to agents. Save money for a lump-sum settlement offer.</p>
+                    <p className="text-gray-600 mt-1">Do not pay small random amounts to agents. Save money for a lump-sum deals.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">2</div>
                   <div>
                     <h3 className="font-bold text-gray-900">Submit Proposal</h3>
-                    <p className="text-gray-600 mt-1">Send a settlement proposal email to **customercare@piramal.com**. Clearly state your hardship and offer amount.</p>
+                    <p className="text-gray-600 mt-1">Send a closure proposal email to **customercare@piramal.com**. Clearly state your hardship and offer amount.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">3</div>
                   <div>
-                    <h3 className="font-bold text-gray-900">Negotiation</h3>
-                    <p className="text-gray-600 mt-1">The collection team will reject your first offer. Negotiate hard. If you have legal representation (like CredSettle), this becomes easier.</p>
+                    <h3 className="font-bold text-gray-900">talks</h3>
+                    <p className="text-gray-600 mt-1">The calls team will reject your first offer. settle hard. If you have legal representation (like CredSettle). This becomes easier.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">4</div>
                   <div>
-                    <h3 className="font-bold text-gray-900">Get Settlement Letter</h3>
-                    <p className="text-gray-600 mt-1">Once agreed, pay ONLY after receiving the official settlement letter on Piramal letterhead. Verify it before paying.</p>
+                    <h3 className="font-bold text-gray-900">Get closure note</h3>
+                    <p className="text-gray-600 mt-1">Once agreed. Pay ONLY after receiving the valid closure note on Piramal letterhead. check it before paying.</p>
                   </div>
                 </div>
               </div>
 
               <h2 id="sarfaesi-action" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Legal Actions: SARFAESI & Arbitration</h2>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                Piramal Finance takes legal action seriously. Know your rights.
-              </p>
+              <p className="text-gray-700 leading-relaxed mb-6"> Piramal Finance takes legal action seriously. Know your rights. </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                 <div className="bg-white border-l-4 border-purple-600 shadow-sm p-6 ml-0">
-                  <h3 className="font-bold text-gray-900">Secured Loans (Home / LAP / Business)</h3>
-                  <p className="text-gray-600 mt-2 text-sm leading-relaxed">
-                    Piramal invokes the <strong>SARFAESI Act, 2002</strong> for secured defaults once the account crosses 90 days NPA.
-                    <br/><br/>
-                    <strong>Key Statutory Stages:</strong>
-                    <br/>
-                    1. <strong>Section 13(2) Notice:</strong> 60-day statutory demand notice. Borrowers have the right to file formal legal objections under <strong>Section 13(3A)</strong>, which the lender must respond to within 15 days before taking coercive action.
-                    <br/>
-                    2. <strong>Section 13(4) Notice:</strong> Symbolic possession. You have an absolute statutory right to file a Securitisation Application (SA) under <strong>Section 17 before the Debt Recovery Tribunal (DRT)</strong> within 45 days.
-                  </p>
+                  <h3 className="font-bold text-gray-900">Secured Loans (Home / LAP / firm)</h3>
+                  <p className="text-gray-600 mt-2 text-sm leading-relaxed"> Piramal invokes the <strong>SARFAESI Act, 2002</strong> for secured defaults once the account crosses 90 days NPA. <br/><br/> <strong>Key legal Stages:</strong> <br/> 1. <strong>Section 13(2) Notice:</strong> 60-day legal demand notice. clients have the right to file formal legal objections under <strong>Section 13(3A)</strong>. which the lender must respond to within 15 days before taking coercive action. <br/> 2. <strong>Section 13(4) Notice:</strong> Symbolic takeover. You have an absolute legal right to file a Securitisation Application (SA) under <strong>Section 17 before the Debt claims court (DRT)</strong> within 45 days. </p>
                 </div>
                 <div className="bg-white border-l-4 border-orange-500 shadow-sm p-6 ml-0">
-                  <h3 className="font-bold text-gray-900">Unsecured Loans (Personal / Digital)</h3>
-                  <p className="text-gray-600 mt-2 text-sm leading-relaxed">
-                    For unsecured defaults, Piramal typically initiates <strong>Arbitration proceedings under the Arbitration &amp; Conciliation Act, 1996</strong> or sends legal demand notices.
-                    <br/><br/>
-                    <strong>Legal Safeguards &amp; BNS 2023:</strong>
-                    <br/>
-                    Arbitrators do not possess criminal enforcement powers—they can never issue arrest warrants or police orders. If collection agencies use abusive tactics or threaten your family, they violate <strong>Bharatiya Nyaya Sanhita (BNS) 2023 Section 351/352</strong> (criminal intimidation) and <strong>BNS Section 308</strong> (extortion), and face <strong>RBI Banking Ombudsman penalties up to ₹20 Lakhs</strong> under July 2026 directives.
-                  </p>
+                  <h3 className="font-bold text-gray-900">clean Loans (own / Digital)</h3>
+                  <p className="text-gray-600 mt-2 text-sm leading-relaxed"> For clean defaults. Piramal typically initiates <strong>Arbitration steps under the Arbitration &amp. Conciliation Act, 1996</strong> or sends legal demand notices. <br/><br/> <strong>Legal Safeguards &amp. BNS 2023:</strong> <br/> Arbitrators do not possess penal enforcement powers. they can never issue arrest warrants or police orders. If calls firms use abusive tactics or threaten your family. They violate <strong>Bharatiya Nyaya Sanhita (BNS) 2023 Section 351/352</strong> (penal threaten) and <strong>BNS Section 308</strong> (extortion). face <strong>RBI Banking RBI officer fines up to ₹20 Lakhs</strong> under July 2026 directives. </p>
                 </div>
               </div>
 
               <h2 id="settlement-letter" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Settlement Email Format</h2>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                Copy this email draft to send to **nodal.officer@piramal.com** or **customercare@piramal.com**.
-              </p>
+              <p className="text-gray-700 leading-relaxed mb-6"> Copy this email draft to send to **nodal.head@piramal.com** or **customercare@piramal.com**. </p>
 
               <div className="bg-gray-800 text-gray-200 p-6 rounded-lg font-mono text-sm mb-8 overflow-x-auto">
-                <p className="mb-2"><span className="text-blue-400">Subject:</span> Request for OTS (One Time Settlement) - Loan A/C [YOUR_LOAN_NUMBER]</p>
-                <p className="mb-2">Dear Nodal Officer,</p>
-                <p className="mb-2">I am writing regarding my personal loan (A/C No: [NUMBER]). Due to [REASON: Job Loss/Severe Medical Issue], my financial situation has deteriorated, and I have defaulted on payments.</p>
-                <p className="mb-2">I want to clear this debt but cannot pay the full outstanding of Rs. [TOTAL_AMOUNT] due to added penalties and interest.</p>
-                <p className="mb-2">I am arranging funds from relatives to offer a <strong>One Time Settlement of Rs. [OFFER_AMOUNT]</strong>. Please consider this request and waive the penal charges so I can close this loan immediately.</p>
+                <p className="mb-2"><span className="text-blue-400">Subject:</span> Request for OTS (One Time closure) - Loan A/C [YOUR_LOAN_NUMBER]</p>
+                <p className="mb-2">Dear Nodal head,</p>
+                <p className="mb-2">I am writing regarding my own loan (A/C No: [NUMBER]). Due to [REASON: Job Loss/Severe Medical Issue]. My money case has deteriorated. I have defaulted on payments.</p>
+                <p className="mb-2">I want to clear this debt but cannot pay the full unpaid of Rs. [TOTAL_AMOUNT] due to added fines and rates.</p>
+                <p className="mb-2">I am arranging funds from relatives to offer a <strong>One Time closure of Rs. [OFFER_AMOUNT]</strong>. Please consider this request and waive the penal charges so I can close this loan fast.</p>
                 <p className="mb-2">Looking forward to a positive response.</p>
                 <p>Sincerely,<br/>[YOUR_NAME]<br/>[PHONE_NUMBER]</p>
               </div>
 
               <h2 id="grievance-redressal" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Grievance Redressal (Escalation)</h2>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                If the collection agents are abusive or the branch manager refuses settlement, escalate to the Principal Nodal Officer immediately.
-              </p>
+              <p className="text-gray-700 leading-relaxed mb-6"> If the calls agents are abusive or the branch manager refuses closure. Escalate to the main sum Nodal head fast. </p>
 
                <div className="overflow-x-auto mb-10">
                 <table className="min-w-full bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
@@ -357,18 +307,12 @@ export default function PiramalFinanceLoanSettlementClient() {
                   </thead>
                   <tbody className="divide-y divide-gray-200">
                     <tr>
-                      <td className="py-4 px-6 text-sm font-medium text-gray-900">Principal Nodal Officer</td>
-                      <td className="py-4 px-6 text-sm text-gray-700">
-                        <strong>Ms. Hetal Parihar</strong><br/>
-                        Email: nodal.officer@piramal.com<br/>
-                        Phone: 022-69181439
-                      </td>
+                      <td className="py-4 px-6 text-sm font-medium text-gray-900">main sum Nodal head</td>
+                      <td className="py-4 px-6 text-sm text-gray-700"> <strong>Ms. Hetal Parihar</strong><br/> Email: nodal.head@piramal.com<br/> Phone: 022-69181439 </td>
                     </tr>
                     <tr>
                       <td className="py-4 px-6 text-sm font-medium text-gray-900">Address</td>
-                      <td className="py-4 px-6 text-sm text-gray-700">
-                        1st Floor, Amiti Building, Agastya Corporate Park, Kamani Junction, Kurla (W), Mumbai - 400070
-                      </td>
+                      <td className="py-4 px-6 text-sm text-gray-700"> 1st Floor. Amiti Building. Agastya firm Park. Kamani Junction. Kurla (W). Mumbai - 400070 </td>
                     </tr>
                   </tbody>
                 </table>
@@ -377,16 +321,16 @@ export default function PiramalFinanceLoanSettlementClient() {
               <h2 id="why-choose-us" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Why Choose CredSettle?</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
-                  <h3 className="font-bold text-gray-900 mb-1">Stop Harassment</h3>
-                  <p className="text-sm text-gray-600">We take over all communication. No more abusive calls.</p>
+                  <h3 className="font-bold text-gray-900 mb-1">Stop threats</h3>
+                  <p className="text-sm text-gray-600">We take over all contact. No more abusive calls.</p>
                 </div>
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
                   <h3 className="font-bold text-gray-900 mb-1">Legal Defense</h3>
-                  <p className="text-sm text-gray-600">Our lawyers handle SARFAESI responses and Arbitration hearings.</p>
+                  <p className="text-sm text-gray-600">Our counsel handle SARFAESI responses and Arbitration hearings.</p>
                 </div>
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
                   <h3 className="font-bold text-gray-900 mb-1">Max Savings</h3>
-                  <p className="text-sm text-gray-600">We negotiate professionally to get up to 50% waiver.</p>
+                  <p className="text-sm text-gray-600">We settle professionally to get up to 50% waiver.</p>
                 </div>
                 <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-lg">
                   <h3 className="font-bold text-gray-900 mb-1">Success Fee</h3>
@@ -403,14 +347,14 @@ export default function PiramalFinanceLoanSettlementClient() {
                       <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Rakesh K., Mumbai</div>
                     </div>
-                    <p className="italic text-gray-200 text-sm">"I defaulted on a 5 Lakh loan. Piramal agents were visiting my office. CredSettle stepped in, stopped the visits, and settled it for 2.8 Lakhs."</p>
+                    <p className="italic text-gray-200 text-sm">"I defaulted on a 5 Lakh loan. Piramal agents were visiting my office. CredSettle stepped in. Stopped the visits. settled it for 2.8 Lakhs."</p>
                   </div>
                   <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
                     <div className="flex items-center mb-4">
                       <div className="text-yellow-400 text-xl mr-2">*****</div>
                       <div className="text-sm opacity-80">Suman D., Bangalore</div>
                     </div>
-                    <p className="italic text-gray-200 text-sm">"Received a SARFAESI notice for my shop. I was terrified. CredSettle’s lawyer filed a reply and bought us time to arrange a settlement."</p>
+                    <p className="italic text-gray-200 text-sm">"Received a SARFAESI notice for my shop. I was terrified. CredSettle’s counsel filed a reply and bought us time to arrange a closure."</p>
                   </div>
                 </div>
               </div>
@@ -455,24 +399,9 @@ export default function PiramalFinanceLoanSettlementClient() {
               <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
                 <p className="font-bold text-gray-900 mb-4 border-b pb-2">Related Guides</p>
                 <ul className="space-y-3 text-sm">
-                   <li>
-                    <Link href="/loan-settlement/bajaj-finserv" className="text-gray-600 hover:text-blue-600 flex items-center">
-                      <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span>
-                      Bajaj Finance
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/loan-settlement/au-small-finance-bank" className="text-gray-600 hover:text-blue-600 flex items-center">
-                      <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span>
-                      AU Small Finance Bank
-                    </Link>
-                  </li>
-                   <li>
-                    <Link href="/loan-settlement/aditya-birla" className="text-gray-600 hover:text-blue-600 flex items-center">
-                      <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span>
-                      Aditya Birla Capital
-                    </Link>
-                  </li>
+                   <li> <Link href="/loan-settlement/bajaj-finserv" className="text-gray-600 hover:text-blue-600 flex items-center"> <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span> Bajaj Finance </Link> </li>
+                  <li> <Link href="/loan-settlement/au-small-finance-bank" className="text-gray-600 hover:text-blue-600 flex items-center"> <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span> AU Small Finance Bank </Link> </li>
+                   <li> <Link href="/loan-settlement/aditya-birla" className="text-gray-600 hover:text-blue-600 flex items-center"> <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span> Aditya Birla Capital </Link> </li>
                 </ul>
               </div>
 

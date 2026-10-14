@@ -84,39 +84,39 @@ export default function HaryanaLoanSettlementClient() {
   const faqList = [
     {
       question: "Is loan settlement legal in Haryana?",
-      answer: "Yes, loan settlement is fully legal in Haryana. It is a financial mechanism recognized by the RBI and governed by the Indian Contract Act. Banks in Gurugram, Faridabad, and across the state use settlement to resolve bad debts (NPAs) and recover a portion of the outstanding amount."
+      answer: "Yes. Loan closure is fully legal in Haryana. It is a money mechanism recognized by the RBI and governed by the Indian Contract Act. Banks in Gurugram. Faridabad. across the state use closure to resolve bad debts (NPAs) and recover a portion of the unpaid amount."
     },
     {
       question: "How does the Punjab Regulation of Money Lenders Act apply to Haryana?",
-      answer: "Haryana, having been part of Punjab, adopted several of its laws. This Act (as applicable to Haryana) regulates money lending, requiring licenses and capping interest rates. It serves as a legal defense against harassment by unregistered private financiers in the state."
+      answer: "Haryana. Having been part of Punjab. Adopted several of its laws. This Act (as applicable to Haryana) regulates money lending. Requiring licenses and capping rates rates. It serves as a legal defense against threats by unregistered private financiers in the state."
     },
     {
       question: "Can I settle my personal loan in Gurugram?",
-      answer: "Absolutely. Gurugram, being a corporate hub, sees a high volume of personal loan settlements due to job market volatility. If you have lost your job or faced a medical emergency, banks are often willing to negotiate a one-time settlement."
+      answer: "Absolutely. Gurugram. Being a firm hub. Sees a high volume of own loan closures due to job market volatility. If you have lost your job or faced a medical emergency. Banks are often willing to settle a one-time closure."
     },
     {
       question: "Will the Haryana Police help if recovery agents harass me?",
-      answer: "Yes. The Haryana Police, particularly in NCR regions like Gurugram and Faridabad, are very strict about harassment. You can file a complaint at your local station or via the 'Dial 112' service if agents threaten you or create a nuisance at your workplace."
+      answer: "Yes. The Haryana Police. Particularly in NCR regions like Gurugram and Faridabad. Are very strict about threats. You can file a complaint at your local station or via the 'Dial 112' service if agents threaten you or create a nuisance at your workplace."
     },
     {
       question: "What is the role of Lok Adalat in Haryana?",
-      answer: "The Haryana State Legal Services Authority (HALSA) organizes Lok Adalats regularly. These are effective forums for settling banking disputes amicably. An award passed here is final and binding, ensuring that the bank cannot harass you for the same loan in the future."
+      answer: "The Haryana State Legal Services Authority (HALSA) organizes Lok Adalats regularly. These are effective forums for settling banking disputes amicably. An award passed here is final and binding. Making sure that the bank cannot harass you for the same loan in the future."
     },
     {
       question: "Does settlement affect my CIBIL score?",
-      answer: "Yes, the loan account status changes to 'Settled', which temporarily lowers your credit score. However, this is better than a 'Default' status. You can rebuild your score over 18-24 months by using secured credit cards and maintaining financial discipline."
+      answer: "Yes. The loan account status changes to 'Settled'. which temporarily lowers your credit score. Yet. This is better than a 'Default' status. You can rebuild your score over 18-24 months by using secured credit cards and maintaining money discipline."
     },
     {
       question: "Where is the Debt Recovery Tribunal (DRT) for Haryana?",
-      answer: "Cases for loan defaults above ₹20 Lakhs in Haryana are typically handled by the Debt Recovery Tribunals (DRT) located in Chandigarh (DRT-1, DRT-2, DRT-3). We provide legal representation in Chandigarh to defend your case."
+      answer: "Cases for loan defaults above ₹20 Lakhs in Haryana are typically handled by the Debt claims Tribunals (DRT) located in Chandigarh (DRT-1. DRT-2. DRT-3). We provide legal representation in Chandigarh to defend your case."
     },
     {
       question: "Can I settle industrial or business loans in Faridabad?",
-      answer: "Yes. Faridabad and Panipat are industrial hubs, and we specialize in settling MSME and business loans there. If your business has suffered losses, we can negotiate a settlement based on your current cash flow realities."
+      answer: "Yes. Faridabad and Panipat are industrial hubs. we specialize in settling MSME and firm loans there. If your firm has suffered losses. We can settle a closure based on your current cash flow realities."
     },
     {
       question: "Do I need to visit the bank branch personally?",
-      answer: "No. CredSettle handles the entire negotiation process with the bank’s Regional or Zonal offices (often in Delhi or Chandigarh). You do not need to face the branch manager or recovery agents."
+      answer: "No. CredSettle handles the entire talks process with the bank’s Regional or Zonal offices (often in Delhi or Chandigarh). You do not need to face the branch manager or agents."
     },
     {
       question: "How long does the settlement process take in Haryana?",
@@ -131,31 +131,9 @@ export default function HaryanaLoanSettlementClient() {
         <div className="max-w-[1440px] mx-auto px-4 py-4">
           <nav className="flex text-sm text-gray-500" aria-label="Breadcrumb">
             <ol className="inline-flex items-center space-x-1 md:space-x-3">
-              <li className="inline-flex items-center">
-                <Link href="/" className="inline-flex items-center hover:text-blue-600 transition-colors">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <div className="flex items-center">
-                  <svg className="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4"/>
-                  </svg>
-                  <Link href="/loan-settlement" className="ml-1 font-medium text-gray-700 hover:text-blue-600 md:ml-2 transition-colors">
-                    Loan Settlement
-                  </Link>
-                </div>
-              </li>
-              <li>
-                <div className="flex items-center">
-                  <svg className="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4"/>
-                  </svg>
-                  <span className="ml-1 font-medium text-gray-500 md:ml-2">
-                    Haryana
-                  </span>
-                </div>
-              </li>
+              <li className="inline-flex items-center"> <Link href="/" className="inline-flex items-center hover:text-blue-600 transition-colors"> Home </Link> </li>
+              <li> <div className="flex items-center"> <svg className="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10"> <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4"/> </svg> <Link href="/loan-settlement" className="ml-1 font-medium text-gray-700 hover:text-blue-600 md:ml-2 transition-colors"> Loan closure </Link> </div> </li>
+              <li> <div className="flex items-center"> <svg className="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10"> <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4"/> </svg> <span className="ml-1 font-medium text-gray-500 md:ml-2"> Haryana </span> </div> </li>
             </ol>
           </nav>
         </div>
@@ -213,65 +191,41 @@ export default function HaryanaLoanSettlementClient() {
             <article className="prose prose-lg max-w-none bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-gray-100 text-justify">
               
               <h2 id="haryana-debt-landscape" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Debt Settlement in Haryana: A Legal Guide for Borrowers</h2>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                Haryana is a powerhouse of industry and agriculture. The state presents a dual economic face: the glistening corporate towers of Gurugram (Gurgaon) and the industrial factories of Faridabad and Panipat. This rapid economic growth is fueled by credit. Young professionals in Cyber City rely on personal loans and credit cards to maintain an urban lifestyle, while MSME owners in industrial belts rely on business loans to keep their factories running.
-              </p>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                However, volatility is inherent to this growth. Layoffs in the tech sector, slowdowns in export demand for textiles, or agricultural uncertainties can quickly turn manageable debt into a crisis. In Haryana, where social standing is highly valued, debt is often hidden until it becomes unmanageable. The fear of "samaj" (society) knowing about financial trouble often stops people from seeking help.
-              </p>
-              <p className="text-gray-700 leading-relaxed mb-8">
-                It is important to know that <strong>Loan Settlement</strong> is a legal right. It is a pragmatic financial solution used globally and recognized by the RBI. Major banks operating in Haryana, including SBI, HDFC, ICICI, and Axis Bank, have established policies to settle Non-Performing Assets (NPAs). They prefer a one-time settlement over long-drawn court cases. CredSettle acts as your professional shield, handling the legalities and negotiations so you can exit the debt trap with your dignity intact.
-              </p>
+              <p className="text-gray-700 leading-relaxed mb-6"> Haryana is a powerhouse of trade and agriculture. The state presents a dual economic face: the glistening firm towers of Gurugram (Gurgaon) and the industrial factories of Faridabad and Panipat. This rapid economic growth is fueled by credit. Young experts in Cyber City rely on own loans and credit cards to maintain an urban lifestyle. while MSME owners in industrial belts rely on firm loans to keep their factories running. </p>
+              <p className="text-gray-700 leading-relaxed mb-6"> yet. Volatility is inherent to this growth. Layoffs in the tech sector. Slowdowns in export demand for textiles. agricultural uncertainties can quickly turn manageable debt into a crisis. In Haryana. Where social standing is highly valued. Debt is often hidden until it becomes unmanageable. The fear of "samaj" (society) knowing about money trouble often stops people from seeking help. </p>
+              <p className="text-gray-700 leading-relaxed mb-8"> It is important to know that <strong>Loan closure</strong> is a legal right. It is a pragmatic money solution used globally and recognized by the RBI. Major banks operating in Haryana. Including SBI. HDFC. ICICI. Axis Bank. Have established policies to settle Non-Performing Assets (NPAs). They prefer a one-time closure over long-drawn court cases. CredSettle acts as your experts shield. Handling the legalities and talks so you can exit the debt trap with your dignity intact. </p>
 
               <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-600 mb-10">
                 <h3 className="font-bold text-blue-900 mb-2">Did You Know?</h3>
-                <p className="text-blue-800 m-0">
-                  Haryana has specialized police initiatives, especially in Gurugram and Faridabad, to tackle harassment by recovery agents. The "Dial 112" emergency response system is highly effective in curbing illegal recovery tactics at your doorstep.
-                </p>
+                <p className="text-blue-800 m-0"> Haryana has specialized police initiatives. Especially in Gurugram and Faridabad. To tackle threats by agents. The "Dial 112" emergency response system is highly effective in curbing unlawful claims tactics at your doorstep. </p>
               </div>
 
               <h2 id="money-lenders-act-haryana" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Legal Protection: The Money Lenders Act</h2>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                While central banking laws apply, Haryana also follows the <strong>Punjab Regulation of Money Lenders Act, 1938</strong> (as applicable to the state of Haryana). This act is a crucial line of defense against unregulated private financiers who often operate in the grey market.
-              </p>
-              <p className="text-gray-700 leading-relaxed mb-4">
-                <strong>How it protects you:</strong>
-              </p>
+              <p className="text-gray-700 leading-relaxed mb-6"> While central banking laws apply. Haryana also follows the <strong>Punjab rule of Money Lenders Act. 1938</strong> (as applicable to the state of Haryana). This act is a crucial line of defense against unregulated private financiers who often operate in the grey market. </p>
+              <p className="text-gray-700 leading-relaxed mb-4"> <strong>How it protects you:</strong> </p>
               <ul className="list-disc pl-6 space-y-4 mb-6 text-gray-700">
-                <li>
-                  <strong>Licensing is Mandatory:</strong> The Act mandates that anyone in the business of money lending must be registered. Debts owed to unlicensed lenders are often difficult to enforce legally in court, giving borrowers leverage against "loan sharks."
-                </li>
-                <li>
-                  <strong>Fair Interest Rates:</strong> The Act empowers the state to regulate interest rates, preventing the charging of usurious rates that trap borrowers in a never-ending cycle of debt.
-                </li>
-                <li>
-                  <strong>Anti-Harassment:</strong> Combined with the RBI’s Fair Practices Code, this legal framework ensures that harassment, intimidation, and public shaming are criminal offenses. If a recovery agent crosses the line, they are breaking the law.
-                </li>
+                <li> <strong>Licensing is Mandatory:</strong> The Act mandates that anyone in the firm of money lending must be registered. Debts owed to unlicensed lenders are often difficult to enforce by law in court. Giving clients leverage against "loan sharks." </li>
+                <li> <strong>Fair rates Rates:</strong> The Act empowers the state to regulate rates rates. Preventing the charging of usurious rates that trap clients in a never-ending cycle of debt. </li>
+                <li> <strong>Anti-threats:</strong> Combined with the RBI’s Fair Practices Code. This legal framework ensures that threats. Threaten. public shaming are penal offenses. If a agents crosses the line. They are breaking the law. </li>
               </ul>
 
               <h2 id="settlement-process-gurugram" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">The Settlement Process in Gurugram & Haryana</h2>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                Settling a loan in Haryana involves navigating both the corporate banking structures of Gurugram and the regional offices in Delhi/Chandigarh. We have a streamlined process to handle this effectively.
-              </p>
+              <p className="text-gray-700 leading-relaxed mb-6"> Settling a loan in Haryana involves navigating both the firm banking structures of Gurugram and the regional offices in Delhi/Chandigarh. We have a streamlined process to handle this effectively. </p>
 
               <div className="space-y-8 mb-10">
                 <div className="flex bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm transition-shadow hover:shadow-md">
                   <div className="flex-shrink-0 h-14 w-14 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">1</div>
                   <div className="ml-6">
                     <h3 className="text-xl font-bold text-gray-900 mb-2">Debt Assessment</h3>
-                    <p className="text-gray-700 leading-relaxed">
-                      We start by reviewing your loan portfolio. In Gurugram, we often see high-value personal loans and credit card debts. In industrial zones like Panipat, business loans are common. We identify which loans are unsecured and eligible for settlement.
-                    </p>
+                    <p className="text-gray-700 leading-relaxed"> We start by reviewing your loan portfolio. In Gurugram. We often see high-value own loans and credit card debts. In industrial zones like Panipat. Firm loans are common. We identify which loans are clean and eligible for closure. </p>
                   </div>
                 </div>
 
                 <div className="flex bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm transition-shadow hover:shadow-md">
                   <div className="flex-shrink-0 h-14 w-14 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">2</div>
                   <div className="ml-6">
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">Legal Shield & Communication Takeover</h3>
-                    <p className="text-gray-700 leading-relaxed">
-                      Recovery agents in NCR can be aggressive. We immediately direct you to divert all calls to our legal team. We notify the bank of our representation, which helps stop the harassment of your family and colleagues.
-                    </p>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">Legal Shield & contact Takeover</h3>
+                    <p className="text-gray-700 leading-relaxed"> agents in NCR can be harsh. We fast direct you to divert all calls to our legal team. We notify the bank of our representation. which helps stop the threats of your family and colleagues. </p>
                   </div>
                 </div>
 
@@ -279,19 +233,15 @@ export default function HaryanaLoanSettlementClient() {
                   <div className="flex-shrink-0 h-14 w-14 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">3</div>
                   <div className="ml-6">
                     <h3 className="text-xl font-bold text-gray-900 mb-2">Handling NPA & Notices</h3>
-                    <p className="text-gray-700 leading-relaxed">
-                      Settlement discussions typically begin after the account is classified as NPA (90 days). We guide you through this period, handling any legal notices (Section 138, Arbitration, or Lok Adalat summons) to ensure your legal standing remains strong.
-                    </p>
+                    <p className="text-gray-700 leading-relaxed"> closure discussions typically begin after the account is classified as NPA (90 days). We guide you through this period. Handling any legal notices (Section 138. Arbitration. Lok Adalat summons) to ensure your legal standing remains strong. </p>
                   </div>
                 </div>
 
                 <div className="flex bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm transition-shadow hover:shadow-md">
                   <div className="flex-shrink-0 h-14 w-14 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">4</div>
                   <div className="ml-6">
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">Negotiation with Regional Offices</h3>
-                    <p className="text-gray-700 leading-relaxed">
-                      We negotiate directly with the bank’s Regional Collection Managers (often based in Delhi, Gurugram, or Chandigarh). Our objective is to waive 100% of the penal interest and significantly reduce the principal, often achieving savings of 40-50%.
-                    </p>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">talks with Regional Offices</h3>
+                    <p className="text-gray-700 leading-relaxed"> We settle straight with the bank’s Regional calls Managers (often based in Delhi. Gurugram. Chandigarh). Our objective is to waive 100% of the penal rates and significantly reduce the main sum. Often achieving savings of 40-50%. </p>
                   </div>
                 </div>
 
@@ -299,96 +249,68 @@ export default function HaryanaLoanSettlementClient() {
                   <div className="flex-shrink-0 h-14 w-14 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xl">5</div>
                   <div className="ml-6">
                     <h3 className="text-xl font-bold text-gray-900 mb-2">Closure & NDC</h3>
-                    <p className="text-gray-700 leading-relaxed">
-                      We secure a formal Settlement Letter on the bank’s letterhead. You pay the settlement amount directly to your loan account. We then ensure the bank issues a "No Dues Certificate" (NDC), formally closing the chapter.
-                    </p>
+                    <p className="text-gray-700 leading-relaxed"> We secure a formal closure note on the bank’s letterhead. You pay the payout sum straight to your loan account. We then ensure the bank issues a "No Dues letter" (NDC). Formally closing the chapter. </p>
                   </div>
                 </div>
               </div>
 
               <h2 id="lok-adalat-haryana" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Lok Adalat: The Best Route in Haryana</h2>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                The <strong>Lok Adalat</strong> (People’s Court) is a highly effective forum for resolving banking disputes in Haryana. Organized by the <strong>Haryana State Legal Services Authority (HALSA)</strong>, it offers a secure path to settlement.
-              </p>
+              <p className="text-gray-700 leading-relaxed mb-6"> The <strong>Lok Adalat</strong> (People’s Court) is a highly effective forum for resolving banking disputes in Haryana. Organized by the <strong>Haryana State Legal Services Authority (HALSA)</strong>It offers a secure path to closure. </p>
               
               <h3 className="text-xl font-bold text-gray-800 mb-4">Why Choose Lok Adalat?</h3>
               <ul className="list-disc pl-6 space-y-4 mb-6 text-gray-700">
                  <li><strong>Final & Binding:</strong> An award passed by the Lok Adalat is deemed to be a decree of a Civil Court. It is final and binding on all parties. No appeal lies against it. This guarantees that the bank cannot reopen the case later.</li>
-                 <li><strong>Cost-Effective:</strong> There is no court fee. If a pending court case is settled here, any court fee paid is refunded.</li>
-                 <li><strong>Speedy Justice:</strong> Matters are resolved on the spot. National Lok Adalats are held quarterly in district courts across Haryana, including Gurugram, Faridabad, Rohtak, and Hisar.</li>
+                 <li><strong>Cost-Effective:</strong> There is no court fee. If a pending court case is settled here. Any court fee paid is refunded.</li>
+                 <li><strong>Speedy Justice:</strong> Matters are resolved on the spot. National Lok Adalats are held quarterly in district courts across Haryana. Including Gurugram. Faridabad. Rohtak. Hisar.</li>
               </ul>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                CredSettle can help refer your case to the Lok Adalat and represent you there to ensure the settlement terms are recorded accurately.
-              </p>
+              <p className="text-gray-700 leading-relaxed mb-6"> CredSettle can help refer your case to the Lok Adalat and represent you there to ensure the closure terms are recorded accurately. </p>
 
               <h2 id="police-help-ncr" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Haryana Police: Protection Against Harassment</h2>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                The Haryana Police, especially in the NCR districts, are very strict about law and order. Harassment by recovery agents is taken seriously.
-              </p>
+              <p className="text-gray-700 leading-relaxed mb-6"> The Haryana Police. Especially in the NCR districts. Are very strict about law and order. threats by agents is taken seriously. </p>
               
-              <h3 className="text-xl font-bold text-gray-800 mb-4">How to Report Harassment</h3>
+              <h3 className="text-xl font-bold text-gray-800 mb-4">How to Report threats</h3>
               <div className="grid md:grid-cols-2 gap-6 mb-8">
                 <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm">
                   <h3 className="font-bold text-blue-900 mb-2">Dial 112 (ERSS)</h3>
-                  <p className="text-sm text-gray-600">This is the unified emergency number. If recovery agents are at your home or office creating a nuisance, dial 112. Police Response Vehicles (Durga Shakti in some areas) arrive quickly to handle the situation.</p>
+                  <p className="text-sm text-gray-600">This is the unified emergency number. If agents are at your home or office creating a nuisance. Dial 112. Police Response Vehicles (Durga Shakti in some areas) arrive quickly to handle the case.</p>
                 </div>
                 <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm">
                   <h3 className="font-bold text-blue-900 mb-2">Local Police Station</h3>
-                  <p className="text-sm text-gray-600">You can file a written complaint at your local police station. Mention the details of the harassment, abusive language, and threats. This creates an official record.</p>
+                  <p className="text-sm text-gray-600">You can file a written complaint at your local police station. Mention the details of the threats. Abusive language. threats. This creates an valid record.</p>
                 </div>
                 <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm">
                   <h3 className="font-bold text-blue-900 mb-2">Cyber Crime Portal</h3>
-                  <p className="text-sm text-gray-600">For harassment via WhatsApp, email, or fake loan apps, file a complaint on the National Cyber Crime Reporting Portal. Gurugram has a dedicated Cyber City police station for such matters.</p>
+                  <p className="text-sm text-gray-600">For threats via WhatsApp. Email. Fake loan apps. File a complaint on the National Cyber Crime Reporting Portal. Gurugram has a dedicated Cyber City police station for such matters.</p>
                 </div>
               </div>
 
               <h2 id="drt-chandigarh" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Debt Recovery Tribunals (DRT) for Haryana</h2>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                For loans exceeding ₹20 Lakhs, banks approach the <strong>Debt Recovery Tribunals (DRT)</strong>. For Haryana, these tribunals are located in Chandigarh.
-              </p>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                <strong>DRT Infrastructure:</strong>
-              </p>
+              <p className="text-gray-700 leading-relaxed mb-6"> For loans exceeding ₹20 Lakhs. Banks approach the <strong>Debt claims Tribunals (DRT)</strong>. For Haryana. These tribunals are located in Chandigarh. </p>
+              <p className="text-gray-700 leading-relaxed mb-6"> <strong>DRT Infrastructure:</strong> </p>
               <ul className="list-disc pl-6 space-y-3 mb-6 text-gray-700">
-                <li><strong>DRT-1, DRT-2 & DRT-3 Chandigarh:</strong> These benches have jurisdiction over cases from Haryana, Punjab, and Himachal Pradesh. They handle high-value recovery suits.</li>
+                <li><strong>DRT-1. DRT-2 & DRT-3 Chandigarh:</strong> These benches have jurisdiction over cases from Haryana. Punjab. Himachal Pradesh. They handle high-value claims suits.</li>
               </ul>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                Receiving a DRT summons is a serious legal matter. It can lead to asset attachment if ignored. However, the DRT is also a forum for settlement. We provide legal representation in Chandigarh to defend your case and negotiate a compromise proposal directly with the bank’s legal team.
-              </p>
+              <p className="text-gray-700 leading-relaxed mb-6"> Receiving a DRT summons is a serious legal matter. It can lead to asset attachment if ignored. Yet. The DRT is also a forum for closure. We provide legal representation in Chandigarh to defend your case and settle a deal proposal straight with the bank’s legal team. </p>
 
               <h2 id="industrial-loans" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Special Focus: Industrial & MSME Loan Settlement</h2>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                Haryana is an industrial hub. We specialize in settling unsecured business loans and MSME loans in industrial belts like:
-              </p>
+              <p className="text-gray-700 leading-relaxed mb-6"> Haryana is an industrial hub. We specialize in settling clean firm loans and MSME loans in industrial belts like: </p>
               <ul className="list-disc pl-6 space-y-3 mb-6 text-gray-700">
                 <li><strong>Faridabad:</strong> Manufacturing and engineering units.</li>
                 <li><strong>Panipat:</strong> Textile and handloom industries.</li>
                 <li><strong>Manesar/Gurugram:</strong> Auto components and IT services.</li>
               </ul>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                For business loans, we analyze the "Willful Default" vs "Genuine Business Failure" aspect. We help prove genuine hardship due to market conditions to secure a favorable settlement, often protecting the directors from personal liability.
-              </p>
+              <p className="text-gray-700 leading-relaxed mb-6"> For firm loans. We analyze the "Willful Default" vs "Genuine firm Failure" aspect. We help prove genuine hardship due to market conditions to secure a favorable closure. Often protecting the directors from own risk. </p>
 
               <h2 id="scams-haryana" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Beware of Settlement Scams in Haryana</h2>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                Fraudsters often target distressed borrowers in NCR. Be vigilant against:
-              </p>
+              <p className="text-gray-700 leading-relaxed mb-6"> Fraudsters often target distressed clients in NCR. Be vigilant against: </p>
               <ul className="list-disc pl-6 space-y-4 mb-6 text-gray-700">
-                <li>
-                  <strong>Fake "High Court" Notices:</strong> Scammers send WhatsApp notices claiming to be from the "Punjab & Haryana High Court," demanding payment via UPI. Courts never work this way.
-                </li>
-                <li>
-                  <strong>"Crime Branch" Calls:</strong> You may receive calls pretending to be from the Cyber Cell or Crime Branch, threatening arrest. This is a common intimidation tactic.
-                </li>
-                <li>
-                  <strong>Fake Settlement Letters:</strong> Always verify the settlement letter at the bank branch. Scammers often forge logos of major banks to steal your settlement money.
-                </li>
+                <li> <strong>Fake "High Court" Notices:</strong> Scammers send WhatsApp notices claiming to be from the "Punjab & Haryana High Court," demanding payment via UPI. Courts never work this way. </li>
+                <li> <strong>"Crime Branch" Calls:</strong> You may receive calls pretending to be from the Cyber Cell or Crime Branch. Threatening arrest. This is a common threaten tactic. </li>
+                <li> <strong>Fake closure Letters:</strong> Always check the closure note at the bank branch. Scammers often forge logos of major banks to steal your closure money. </li>
               </ul>
 
               <h2 id="cities-covered-hr" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">We Serve Every District in Haryana</h2>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                CredSettle provides expert legal and financial settlement services across the entire state of Haryana.
-              </p>
+              <p className="text-gray-700 leading-relaxed mb-6"> CredSettle provides expert legal and money closure services across the entire state of Haryana. </p>
               <div className="flex flex-wrap gap-3 mb-10">
                 {['Gurugram', 'Faridabad', 'Panipat', 'Ambala', 'Yamunanagar', 'Rohtak', 'Hisar', 'Karnal', 'Sonipat', 'Panchkula', 'Bhiwani', 'Sirsa', 'Bahadurgarh', 'Jind', 'Thanesar', 'Kaithal', 'Rewari', 'Palwal'].map((city, index) => (
                   <span key={index} className="bg-blue-50 text-blue-800 px-4 py-2 rounded-full text-sm font-medium border border-blue-100 transition-colors hover:bg-blue-100">
@@ -410,17 +332,15 @@ export default function HaryanaLoanSettlementClient() {
               <div className="mt-16 bg-gradient-to-br from-blue-600 to-blue-800 rounded-3xl p-8 md:p-12 text-center text-white relative overflow-hidden shadow-xl">
                 <div className="absolute top-0 left-0 w-full h-full bg-pattern opacity-10"></div>
                 <div className="relative z-10">
-                  <h3 className="text-3xl md:text-4xl font-bold mb-6">Reclaim Your Financial Freedom in Haryana</h3>
-                  <p className="mb-10 opacity-90 max-w-2xl mx-auto text-lg">
-                    Don’t let debt stress overwhelm you. With legal expertise and local knowledge of NCR & Haryana, CredSettle helps you close your loans with dignity.
-                  </p>
+                  <h3 className="text-3xl md:text-4xl font-bold mb-6">Reclaim Your money Freedom in Haryana</h3>
+                  <p className="mb-10 opacity-90 max-w-2xl mx-auto text-lg"> Don’t let debt stress overwhelm you. With legal expertise and local knowledge of NCR & Haryana. CredSettle helps you close your loans with dignity. </p>
                   <Link 
                     href="/contact"
                     className="inline-block bg-white text-blue-700 font-bold py-4 px-12 rounded-full hover:bg-gray-100 transition-all shadow-lg transform hover:-translate-y-1 text-lg"
                   >
                     Start Your Free Consultation
                   </Link>
-                  <p className="mt-6 text-sm opacity-75 font-medium">Serving Gurugram, Faridabad, Panipat & All HR Districts</p>
+                  <p className="mt-6 text-sm opacity-75 font-medium">Serving Gurugram. Faridabad. Panipat & All HR Districts</p>
                 </div>
               </div>
 
@@ -453,37 +373,17 @@ export default function HaryanaLoanSettlementClient() {
               <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
                 <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Related Regions</h4>
                 <ul className="space-y-3 text-sm">
-                   <li>
-                    <Link href="/loan-settlement/delhi" className="text-gray-600 hover:text-blue-600 flex items-center group">
-                      <span className="w-1.5 h-1.5 bg-gray-400 group-hover:bg-blue-600 rounded-full mr-2 transition-colors"></span>
-                      Delhi Guide
-                    </Link>
-                  </li>
+                   <li> <Link href="/loan-settlement/delhi" className="text-gray-600 hover:text-blue-600 flex items-center group"> <span className="w-1.5 h-1.5 bg-gray-400 group-hover:bg-blue-600 rounded-full mr-2 transition-colors"></span> Delhi Guide </Link> </li>
 
-                   <li>
-                    <Link href="/loan-settlement/uttar-pradesh" className="text-gray-600 hover:text-blue-600 flex items-center group">
-                      <span className="w-1.5 h-1.5 bg-gray-400 group-hover:bg-blue-600 rounded-full mr-2 transition-colors"></span>
-                      UP Guide
-                    </Link>
-                  </li>
+                   <li> <Link href="/loan-settlement/uttar-pradesh" className="text-gray-600 hover:text-blue-600 flex items-center group"> <span className="w-1.5 h-1.5 bg-gray-400 group-hover:bg-blue-600 rounded-full mr-2 transition-colors"></span> UP Guide </Link> </li>
                 </ul>
               </div>
 
                <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
                 <h4 className="font-bold text-gray-900 mb-4 border-b pb-2">Our Services</h4>
                 <ul className="space-y-3 text-sm">
-                  <li>
-                    <Link href="/services/personal-loan-settlement" className="text-gray-600 hover:text-blue-600 flex items-center group">
-                      <span className="w-1.5 h-1.5 bg-gray-400 group-hover:bg-blue-600 rounded-full mr-2 transition-colors"></span>
-                      Personal Loan Settlement
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/services/credit-card-settlement" className="text-gray-600 hover:text-blue-600 flex items-center group">
-                      <span className="w-1.5 h-1.5 bg-gray-400 group-hover:bg-blue-600 rounded-full mr-2 transition-colors"></span>
-                      Credit Card Settlement
-                    </Link>
-                  </li>
+                  <li> <Link href="/services/personal-loan-settlement" className="text-gray-600 hover:text-blue-600 flex items-center group"> <span className="w-1.5 h-1.5 bg-gray-400 group-hover:bg-blue-600 rounded-full mr-2 transition-colors"></span> own Loan closure </Link> </li>
+                  <li> <Link href="/services/credit-card-settlement" className="text-gray-600 hover:text-blue-600 flex items-center group"> <span className="w-1.5 h-1.5 bg-gray-400 group-hover:bg-blue-600 rounded-full mr-2 transition-colors"></span> Credit Card closure </Link> </li>
                 </ul>
               </div>
 

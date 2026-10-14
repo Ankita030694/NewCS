@@ -6,7 +6,7 @@ const SECTIONS = [
     {
         icon: 'fa-mobile-screen-button',
         title: 'Option 1: In-App Deletion Request',
-        description: 'You can request account deletion directly inside our Android or iOS mobile app with these quick steps:',
+        description: 'You can request account removal straight inside our Android or iOS mobile app with these quick steps. ',
         bullets: [
             'Open the CredSettle application on your mobile device and log in to your account.',
             'Tap on the Profile avatar located at the top-left corner of the dashboard.',
@@ -18,7 +18,7 @@ const SECTIONS = [
     {
         icon: 'fa-envelope',
         title: 'Option 2: Formal Request via Email',
-        description: 'If you cannot access the app or prefer email, you can reach our Data Protection team directly:',
+        description: 'If you cannot access the app or prefer email. You can reach our Data safety team straight. ',
         bullets: [
             'Send an email to: info@credsettle.com with the subject line "Request for CredSettle Account and Data Deletion".',
             'Provide your registered full name, registered mobile phone number, and registered email address.',
@@ -29,7 +29,7 @@ const SECTIONS = [
     {
         icon: 'fa-trash-can',
         title: 'Data Deletion Scope & What Happens to Your Data',
-        description: 'Upon confirmation and identity verification, CredSettle takes immediate action on your profile according to India\'s Digital Personal Data Protection (DPDP) Act 2023:',
+        description: 'Upon proof and identity check. CredSettle takes fast action on your profile according to India\'s Digital Personal Data Protection (DPDP) Act 2023:',
         bullets: [
             'Your personal details, profile photo, address, and email are permanently deleted from active servers.',
             'Uploaded financial documents and bank records are securely removed from active cloud storage.',
@@ -40,7 +40,7 @@ const SECTIONS = [
     {
         icon: 'fa-scale-balanced',
         title: 'Regulatory Data Retention Obligations',
-        description: 'As a legal advisory firm, we must retain certain historical records under Indian regulatory laws:',
+        description: 'As a legal advisory firm. We must retain certain historical records under Indian RBI laws. ',
         bullets: [
             'Tax and invoice records are kept for the required period under Income Tax and GST rules.',
             'Executed settlement letters and No Dues Certificates may be kept in encrypted offline storage for audit compliance.',
@@ -50,7 +50,7 @@ const SECTIONS = [
     {
         icon: 'fa-clock',
         title: 'Verification and Processing Timeline',
-        description: 'We verify each deletion request carefully to prevent unauthorized account termination:',
+        description: 'We check each removal request carefully to prevent illegal account end. ',
         bullets: [
             'We complete initial verification within 48 hours to prevent accidental deletion.',
             'Once verified, full data deletion takes place within 7 to 14 business days.',
@@ -60,20 +60,20 @@ const SECTIONS = [
 ];
 export const metadata: Metadata = {
     title: 'Delete Your CredSettle Account | Data Privacy & Control',
-    description: 'Learn how to permanently delete your CredSettle account and associated personal data through our mobile app or via email request.',
+    description: 'Learn how to permanently delete your CredSettle account and linked own data through our mobile app or via email request.',
     alternates: {
         canonical: 'https://www.credsettle.com/delete-your-app-account',
     },
     openGraph: {
         title: 'Delete Your CredSettle Account | CredSettle',
-        description: 'Instructions for account deletion and data removal. Manage your personal information and privacy with CredSettle.',
+        description: 'Instructions for account removal and data removal. Manage your own information and privacy with CredSettle.',
         url: 'https://www.credsettle.com/delete-your-app-account',
         type: 'article',
     },
     twitter: {
         card: 'summary_large_image',
         title: 'Delete Your CredSettle Account | CredSettle',
-        description: 'Permanently remove your account and data. Follow our simple steps for account deletion.',
+        description: 'Permanently remove your account and data. Follow our simple steps for account removal.',
     },
 };
 export default function DeleteAccountPage() {
@@ -90,7 +90,7 @@ export default function DeleteAccountPage() {
         '@id': 'https://www.credsettle.com/delete-your-app-account',
         name: 'Delete Your CredSettle Account',
         url: 'https://www.credsettle.com/delete-your-app-account',
-        description: 'Instructions and details for deleting your CredSettle account and associated personal data.',
+        description: 'Instructions and details for deleting your CredSettle account and linked own data.',
         inLanguage: 'en-IN',
         breadcrumb: {
             '@type': 'BreadcrumbList',
@@ -152,9 +152,7 @@ export default function DeleteAccountPage() {
                   <h1 className="text-[30px] leading-[40px] font-semibold text-[#0C2756] md:text-[40px] md:leading-[48px]">
                     Delete Your CredSettle Account
                   </h1>
-                  <p className="max-w-3xl text-base leading-7 text-[rgba(12,39,86,0.72)] md:text-lg md:leading-8">
-                    If you wish to delete your account and associated personal data, you can do so using the following methods. Please note that account deletion is permanent and cannot be undone.
-                  </p>
+                  <p className="max-w-3xl text-base leading-7 text-[rgba(12,39,86,0.72)] md:text-lg md:leading-8"> If you wish to delete your account and linked own data. You can do so using the following methods. Please note that account removal is lasting and cannot be undone. </p>
                 </div>
                 <div className="rounded-2xl bg-white/70 px-5 py-4 text-sm md:text-base md:leading-7 text-[rgba(12,39,86,0.75)] shadow-inner border border-[#B9DFFF]/60">
                   Last updated: {formattedDate}
@@ -174,24 +172,15 @@ export default function DeleteAccountPage() {
                     </div>
                     <div className="flex flex-1 flex-col gap-3">
                       <h2 className="text-xl font-semibold text-[#0C2756] md:text-2xl">{section.title}</h2>
-                      {section.description && (<p className="text-sm leading-6 text-[rgba(12,39,86,0.72)] md:text-base md:leading-7">
-                          {section.description}
-                        </p>)}
+                      {section.description && (<p className="text-sm leading-6 text-[rgba(12,39,86,0.72)] md:text-base md:leading-7"> {section.description} </p>)}
                     </div>
                   </div>
 
                   {section.bullets && (<ul className="flex flex-col gap-3 md:gap-4">
-                      {section.bullets.map((bullet) => (<li key={bullet} className="flex items-start gap-3 rounded-2xl bg-[#EFF7FF] px-4 py-4 text-sm leading-6 text-[rgba(12,39,86,0.78)] md:text-base md:leading-7">
-                          <i className="fa-solid fa-check text-[#007AFF] pt-1" aria-hidden="true"/>
-                          {bullet.includes('info@credsettle.com') ? (<span>
-                              {bullet.split('info@credsettle.com').map((part, index, array) => (<span key={index}>
-                                  {part}
-                                  {index < array.length - 1 && (<Link href="mailto:info@credsettle.com" className="text-[#007AFF] underline underline-offset-4 hover:opacity-80 transition-opacity">
+                      {section.bullets.map((bullet) => (<li key={bullet} className="flex items-start gap-3 rounded-2xl bg-[#EFF7FF] px-4 py-4 text-sm leading-6 text-[rgba(12,39,86,0.78)] md:text-base md:leading-7"> <i className="fa-solid fa-check text-[#007AFF] pt-1" aria-hidden="true"/> {bullet.includes('info@credsettle.com') ? (<span>
+                              {bullet.split('info@credsettle.com').map((part, index, array) => (<span key={index}> {part} {index < array.length - 1 && (<Link href="mailto:info@credsettle.com" className="text-[#007AFF] underline underline-offset-4 hover:opacity-80 transition-opacity">
                                       info@credsettle.com
-                                    </Link>)}
-                                </span>))}
-                            </span>) : (<span>{bullet}</span>)}
-                        </li>))}
+                                    </Link>)} </span>))} </span>) : (<span>{bullet}</span>)} </li>))}
                     </ul>)}
                 </div>
               </article>))}

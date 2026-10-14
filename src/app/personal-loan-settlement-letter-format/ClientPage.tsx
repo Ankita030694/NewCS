@@ -55,9 +55,7 @@ Yours sincerely,
             Free Legal Template & Guide.
           </span>
           <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">Personal Loan Settlement Letter Format</h1>
-          <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
-            Download or copy our legally vetted One-Time Settlement (OTS) proposal template to formally communicate with your bank manager or recovery division.
-          </p>
+          <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto"> Download or copy our by law vetted One-Time closure (OTS) proposal template to formally communicate with your bank manager or claims division. </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="bg-[#007AFF] hover:bg-blue-600 text-white font-bold py-4 px-8 rounded-full transition-all shadow-lg text-lg">
               Get Expert Negotiation Help
@@ -97,22 +95,20 @@ Yours sincerely,
               Crucial Rules When Submitting a Settlement Application
             </h2>
             <div className="prose max-w-none text-gray-700 space-y-4 leading-relaxed">
-              <p>
-                Drafting a settlement proposal letter is a legally binding step in negotiating with financial institutions. In India, under the framework of the Reserve Bank of India (RBI) circular on compromise settlements, banks have clear authority to approve haircuts. Their credit committees require robust paperwork.
-              </p>
-              <h3 className="text-xl font-semibold text-[#0C2756] mt-6 mb-3">Key Elements Bank Officers Look For:</h3>
+              <p> Drafting a closure proposal letter is a by law binding step in settle with money institutions. In India. Under the framework of the Reserve Bank of India (RBI) circular on deal closures. Banks have clear authority to approve haircuts. Their credit boards require robust papers. </p>
+              <h3 className="text-xl font-semibold text-[#0C2756] mt-6 mb-3">Key Elements Bank heads Look For:</h3>
               <ul className="list-disc pl-6 space-y-2">
-                <li><strong>Clear Proof of Genuine Hardship:</strong> Banks will reject frivolous requests from borrowers with visible repayment capacity. Attach salary slips showing a pay cut, termination letters, medical diagnosis records, or GST filings showing business closure.</li>
-                <li><strong>Realistic Settlement Offer:</strong> Offering 10% on a recently defaulted unsecured loan will be summarily rejected. A realistic initial proposal usually falls between 35% and 50% of the principal outstanding.</li>
-                <li><strong>Explicit Request for No Dues Certificate:</strong> Ensure your letter demands written confirmation that the bank will issue an NDC and refrain from selling the residual debt to asset reconstruction companies (ARCs).</li>
-                <li><strong>Submission Channel:</strong> Always submit this letter via Registered Post with Acknowledgement Due (RPAD) or send it to the bank&apos;s official nodal grievance email address so you hold an indisputable audit trail.</li>
+                <li><strong>Clear Proof of Genuine Hardship:</strong> Banks will reject frivolous requests from clients with visible payment capacity. Attach salary slips showing a pay cut. End letters. Medical diagnosis records. GST filings showing firm closure.</li>
+                <li><strong>Realistic closure Offer:</strong> Offering 10% on a recently defaulted clean loan will be summarily rejected. A realistic first proposal usually falls between 35% and 50% of the main sum unpaid.</li>
+                <li><strong>Explicit Request for No Dues letter:</strong> Ensure your letter demands written confirmation that the bank will issue an NDC and refrain from selling the residual debt to asset reconstruction companies (ARCs).</li>
+                <li><strong>Submission Channel:</strong> Always submit this letter via Registered Post with Acknowledgement Due (RPAD) or send it to the bank&apos. s valid nodal grievance email address so you hold an indisputable audit trail.</li>
               </ul>
             </div>
 
             {/* CTA Box */}
             <div className="bg-blue-50 p-6 rounded-xl border border-blue-100 mt-8">
-              <h3 className="font-semibold text-[#0C2756] mb-2">Need Professional Legal Assistance?</h3>
-              <p className="mb-4 text-sm text-gray-600">Our senior advocates negotiate directly with regional bank decision-makers, shielding you from collection agents and securing the highest possible waiver.</p>
+              <h3 className="font-semibold text-[#0C2756] mb-2">Need experts Legal Assistance?</h3>
+              <p className="mb-4 text-sm text-gray-600">Our senior counsel settle straight with regional bank decision-makers. Shielding you from calls agents and securing the highest possible waiver.</p>
               <Link href="/contact" className="inline-block bg-[#0C2756] text-white font-medium py-2.5 px-6 rounded-lg hover:bg-blue-900 transition-colors text-sm">
                 Get a Lawyer to Draft Your Settlement
               </Link>

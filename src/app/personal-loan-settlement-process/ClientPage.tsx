@@ -14,9 +14,7 @@ export default function ClientPage() {
           <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
             Personal Loan Settlement Process in India (Step-by-Step)
           </h1>
-          <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
-            A comprehensive overview of the complete loan settlement lifecycle from default notice to receiving your official No Dues Certificate.
-          </p>
+          <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto"> A thorough overview of the complete loan closure lifecycle from default notice to receiving your valid No Dues letter. </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="bg-[#007AFF] hover:bg-blue-600 text-white font-bold py-4 px-8 rounded-full transition-all shadow-lg text-lg">
               Begin Settlement Process
@@ -35,53 +33,39 @@ export default function ClientPage() {
               The 5 Crucial Stages of Personal Loan Settlement
             </h2>
             <div className="prose max-w-none text-gray-700 space-y-4 leading-relaxed">
-              <p>
-                Settling an unsecured personal loan follows a well-defined statutory trajectory governed by Reserve Bank of India guidelines. Understanding each stage empowers borrowers to avoid legal pitfalls and achieve maximum financial relief.
-              </p>
+              <p> Settling an clean own loan follows a well-defined legal trajectory governed by Reserve Bank of India guidelines. grasp each stage empowers clients to avoid legal pitfalls and achieve maximum money relief. </p>
 
               <div className="space-y-6 my-6">
                 <div className="p-5 bg-gray-50 rounded-xl border border-gray-200">
                   <h3 className="text-base font-bold text-[#0C2756] mb-1">Stage 1: Delinquency to NPA Classification (0 to 90 Days)</h3>
-                  <p className="text-sm text-gray-600">
-                    When consecutive installments are missed, the account enters Special Mention Account (SMA) categories. At 90 days of continuous non-payment, the loan is formally classified as a Non-Performing Asset (NPA).
-                  </p>
+                  <p className="text-sm text-gray-600"> When running installments are missed. The account enters Special Mention Account (SMA) categories. At 90 days of continuous non-payment. The loan is formally classified as a Non-Performing Asset (NPA). </p>
                 </div>
 
                 <div className="p-5 bg-gray-50 rounded-xl border border-gray-200">
-                  <h3 className="text-base font-bold text-[#0C2756] mb-1">Stage 2: Hardship Documentation & Grievance Representation</h3>
-                  <p className="text-sm text-gray-600">
-                    The borrower submits a formal written petition detailing valid financial catastrophe (medical incapacity, job termination, business insolvency) directly to the bank&apos;s Circle Recovery Cell.
-                  </p>
+                  <h3 className="text-base font-bold text-[#0C2756] mb-1">Stage 2: Hardship proof & Grievance Representation</h3>
+                  <p className="text-sm text-gray-600"> The clients submits a formal written petition detailing valid money catastrophe (medical incapacity. Job end. Firm insolvency) straight to the bank&apos. s Circle claims Cell. </p>
                 </div>
 
                 <div className="p-5 bg-gray-50 rounded-xl border border-gray-200">
-                  <h3 className="text-base font-bold text-[#0C2756] mb-1">Stage 3: Bilateral Committee Negotiation</h3>
-                  <p className="text-sm text-gray-600">
-                    Legal agents negotiate with the bank&apos;s internal compromise settlement committee. Discussion centers on principal haircut percentage, waiver of penal interest, and payment timeframe.
-                  </p>
+                  <h3 className="text-base font-bold text-[#0C2756] mb-1">Stage 3: Bilateral board talks</h3>
+                  <p className="text-sm text-gray-600"> Legal agents settle with the bank&apos. s internal deal closure board. Discussion centers on main sum haircut rate. Waiver of penal rates. payment timeframe. </p>
                 </div>
 
                 <div className="p-5 bg-gray-50 rounded-xl border border-gray-200">
-                  <h3 className="text-base font-bold text-[#0C2756] mb-1">Stage 4: Issuance of Formal Settlement Sanction Letter</h3>
-                  <p className="text-sm text-gray-600">
-                    The bank generates a legally binding OTS letter on letterhead specifying: the agreed settlement sum, installment schedule (if staggered). Commitment to discharge all claims.
-                  </p>
+                  <h3 className="text-base font-bold text-[#0C2756] mb-1">Stage 4: Issuance of Formal closure Sanction Letter</h3>
+                  <p className="text-sm text-gray-600"> The bank generates a by law binding OTS letter on letterhead specifying: the agreed closure sum. Installment schedule (if staggered). Commitment to discharge all claims. </p>
                 </div>
 
                 <div className="p-5 bg-gray-50 rounded-xl border border-gray-200">
-                  <h3 className="text-base font-bold text-[#0C2756] mb-1">Stage 5: Payment & No Dues Certificate (NDC) Issuance</h3>
-                  <p className="text-sm text-gray-600">
-                    Upon deposit of the settled sum directly into the loan account, the bank issues a final NDC within 30 days and notifies credit bureaus (CIBIL/Experian) to reflect the status as &apos;Settled&apos;.
-                  </p>
+                  <h3 className="text-base font-bold text-[#0C2756] mb-1">Stage 5: Payment & No Dues letter (NDC) Issuance</h3>
+                  <p className="text-sm text-gray-600"> Upon deposit of the settled sum straight into the loan account. The bank issues a final NDC within 30 days and notifies credit bureaus (CIBIL/Experian) to reflect the status as &apos. Settled&apos. </p>
                 </div>
               </div>
             </div>
 
             <div className="bg-emerald-50 border-l-4 border-emerald-600 p-6 rounded-r-xl mt-8">
               <h3 className="font-bold text-emerald-950 mb-2">Notice Verification Guarantee</h3>
-              <p className="text-sm text-emerald-800 leading-relaxed">
-                Always ensure payment is made directly to the bank&apos;s designated account number through official banking channels (NEFT/RTGS/Cheque). Never hand cash to collection agents or transfer funds into third-party accounts.
-              </p>
+              <p className="text-sm text-emerald-800 leading-relaxed"> Always ensure payment is made straight to the bank&apos. s designated account number through valid banking channels (NEFT/RTGS/Cheque). Never hand cash to calls agents or transfer funds into third-party accounts. </p>
             </div>
           </div>
 
@@ -91,26 +75,18 @@ export default function ClientPage() {
             </h2>
             <div className="space-y-6">
               <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                  How long does the entire loan settlement process take?
-                </h3>
-                <p className="text-gray-600 leading-relaxed text-sm">
-                  Typically between 30 and 60 days from formal representation to final sanction letter issuance, depending on the speed of the bank&apos;s credit committee approvals.
-                </p>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2"> How long does the entire loan steps take? </h3>
+                <p className="text-gray-600 leading-relaxed text-sm"> Typically between 30 and 60 days from formal representation to final sanction letter issuance. Depending on the speed of the bank&apos. s credit board approvals. </p>
               </div>
               <div className="border-t pt-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                  Can a settlement be paid in multiple installments?
-                </h3>
-                <p className="text-gray-600 leading-relaxed text-sm">
-                  Yes, banks frequently approve structured settlements split over 2 to 4 monthly installments for borrowers unable to raise a single lump sum.
-                </p>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2"> Can a closure be paid in multiple installments? </h3>
+                <p className="text-gray-600 leading-relaxed text-sm"> Yes. Banks often approve structured closures split over 2 to 4 monthly installments for clients unable to raise a single lump sum. </p>
               </div>
             </div>
 
             <div className="bg-blue-50 p-6 rounded-xl border border-blue-100 mt-8">
-              <h3 className="font-semibold text-[#0C2756] mb-2">Need Professional Assistance Through the Process?</h3>
-              <p className="mb-4 text-sm text-gray-600">CredSettle manages every stage of your settlement process with complete legal transparency and RBI compliance.</p>
+              <h3 className="font-semibold text-[#0C2756] mb-2">Need experts Assistance Through the Process?</h3>
+              <p className="mb-4 text-sm text-gray-600">CredSettle manages every stage of your closure process with complete legal transparency and RBI compliance.</p>
               <Link href="/contact" className="inline-block bg-[#0C2756] text-white font-medium py-2.5 px-6 rounded-lg hover:bg-blue-900 transition-colors text-sm">
                 Get Expert Process Guidance
               </Link>

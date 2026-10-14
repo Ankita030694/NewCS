@@ -45,7 +45,7 @@ export default function DocumentsNeededForLoanSettlementClient() {
     const faqs = [
         {
             q: 'What core documents do I need to submit to initiate a personal loan settlement?',
-            a: "To initiate a formal One-Time closure (OTS) for a private loans or credit card default. You must compile a structured 4-part dossier: (1) Primary KYC proofs (self-attested PAN Card and Aadhaar Card). (2) Original Loan papers (Loan Sanction Letter. Pacts copy. Loan Account record showing total released amount and payment history). (3) Bank Account records for the preceding 6 to 12 months across all active accounts showing genuine cash-flow distress and zero unencumbered liquidity. And (4) Primary Hardship Proofs such as health summaries. end letters. Audited loss accounts establishing an forced inability to service contractual EMIs."
+            a: "To initiate a formal One-Time closure (OTS) for a private loans or credit card default. You must compile a structured 4-part dossier: (1) Primary KYC proofs (self-attested PAN Card and Aadhaar Card) : (2) Original Loan papers (Loan Sanction Letter. Pacts copy. Loan Account record showing total released amount and payment history) : (3) Bank Account records for the preceding 6 to 12 months across all active accounts showing genuine cash-flow distress and zero unencumbered liquidity. And (4) Primary Hardship Proofs such as health summaries. end letters. Audited loss accounts establishing an forced inability to service contractual EMIs."
         },
         {
             q: 'What specific documents serve as legally valid proof of financial hardship for banks and NBFCs?',

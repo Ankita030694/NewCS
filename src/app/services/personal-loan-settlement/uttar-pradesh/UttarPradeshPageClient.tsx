@@ -16,55 +16,55 @@ export default function UttarPradeshPageClient() {
   }, []);
 
   const headings = [
-    { id: 'up-overview', text: 'Personal Loan Settlement Across Uttar Pradesh', level: 2 },
-    { id: 'up-economy', text: 'UP Economy and Borrower Challenges', level: 2 },
+    { id: 'up-overview', text: 'own Loan closure Across Uttar Pradesh', level: 2 },
+    { id: 'up-economy', text: 'UP Economy and clients Challenges', level: 2 },
     { id: 'debt-issues', text: 'Six Major Debt Issues in UP Cities', level: 2 },
     { id: 'credsettle-up', text: 'Why CredSettle Works Best in Uttar Pradesh', level: 2 },
     { id: 'up-settlement-method', text: 'How We Handle UP Loan Cases', level: 3 },
-    { id: 'rbi-legal-cover', text: 'RBI Protection and Legal Security', level: 3 },
+    { id: 'rbi-legal-cover', text: 'RBI safety and Legal Security', level: 3 },
     { id: 'up-lok-adalat', text: 'UP Lok Adalat and Consumer Commission Routes', level: 2 },
     { id: 'lucknow-kanpur', text: 'Lucknow and Kanpur - Our Strongest Presence', level: 2 },
-    { id: 'other-cities', text: 'Agra, Varanasi, Meerut and Beyond', level: 2 },
-    { id: 'up-benefits', text: 'Six Core Benefits for UP Borrowers', level: 2 },
+    { id: 'other-cities', text: 'Agra. Varanasi. Meerut and Beyond', level: 2 },
+    { id: 'up-benefits', text: 'Six Core Benefits for UP clients', level: 2 },
     { id: 'rights-up', text: 'Your Legal Rights Under UP and RBI Laws', level: 2 },
     { id: 'process-breakdown', text: 'Week by Week Process Breakdown', level: 2 },
     { id: 'kanpur-case', text: 'Real Case - Kanpur Trader Escapes Debt Trap', level: 2 },
     { id: 'get-started', text: 'Get Started With Free UP Consultation', level: 2 },
-    { id: 'faqs', text: 'UP Borrower Questions Answered', level: 2 }
+    { id: 'faqs', text: 'UP clients Questions Answered', level: 2 }
   ];
 
   const faqs = [
     {
       question: 'Is loan settlement legal for UP borrowers?',
-      answer: 'Yes, completely legal in Uttar Pradesh and all India. RBI recognizes settlement as legitimate debt resolution. CredSettle follows all legal frameworks including UP State Consumer Commission and Lok Adalat systems.'
+      answer: 'Yes. Fully legal in Uttar Pradesh and all India. RBI recognizes closure as legitimate debt relief. CredSettle follows all legal frameworks including UP State Consumer Commission and Lok Adalat systems.'
     },
     {
       question: 'How much debt can Lucknow or Kanpur borrowers save?',
-      answer: 'UP borrowers typically save 30-70% on outstanding debt. Our Uttar Pradesh average is 58% savings. Exact amount depends on your loan type, outstanding balance, hardship proof and lender policies.'
+      answer: 'UP clients typically save 30-70% on unpaid debt. Our Uttar Pradesh average is 58% savings. Exact amount depends on your loan type. Unpaid balance. Hardship proof and lender policies.'
     },
     {
       question: 'Will settlement affect my CIBIL in UP?',
-      answer: 'Yes, settled loans show "settled" status on CIBIL report. Impacts score temporarily (drops 50-100 points). But better than continued defaults or court cases. We guide you on rebuilding CIBIL over 12-18 months.'
+      answer: 'Yes. Settled loans show "settled" status on CIBIL report. Impacts score temporarily (drops 50-100 points). But better than continued defaults or court cases. We guide you on rebuilding CIBIL over 12-18 months.'
     },
     {
       question: 'Can you help UP government employees settle loans?',
-      answer: 'Yes, we specialize in UP state government employee cases. Many face salary delays, pension issues or transfer problems. We use job security as negotiation leverage with lenders and have settled hundreds of government employee loans across UP.'
+      answer: 'Yes. We specialize in UP state government employee cases. Many face salary delays. Pension issues or transfer problems. We use job security as talks leverage with lenders and have settled hundreds of government employee loans across UP.'
     },
     {
       question: 'Do you work with Kanpur and Agra local banks?',
-      answer: 'Yes, we work with all banks and NBFCs operating in UP including local cooperative banks in Kanpur, Agra and other cities. We have settled loans from SBI, PNB, Bank of Baroda, HDFC, ICICI and regional banks across UP.'
+      answer: 'Yes. We work with all banks and NBFCs operating in UP including local cooperative banks in Kanpur. Agra and other cities. We have settled loans from SBI. PNB. Bank of Baroda. HDFC. ICICI and regional banks across UP.'
     },
     {
       question: 'Can traders and business owners in Agra/Varanasi settle loans?',
-      answer: 'Absolutely. Many UP traders and MSME owners face cash flow issues. We understand seasonal business patterns, festival economy impacts and GST compliance burdens. Our business settlement approach works for traders, manufacturers and service providers across UP.'
+      answer: 'Absolutely. Many UP traders and MSME owners face cash flow issues. We understand seasonal firm patterns. Festival economy impacts and GST compliance burdens. Our firm closure approach works for traders. Manufacturers and service providers across UP.'
     },
     {
       question: 'What is UP Lok Adalat success rate?',
-      answer: 'Very good. UP conducts regular Lok Adalats across 75 districts. We have handled hundreds of UP loan cases through Lok Adalat with 85%+ settlement success. Usually achieve 40-60% debt reduction through this route.'
+      answer: 'Very good. UP conducts regular Lok Adalats across 75 districts. We have handled hundreds of UP loan cases through Lok Adalat with 85%+ closure success. Usually achieve 40-60% debt reduction through this route.'
     },
     {
       question: 'How long does settlement take in Uttar Pradesh?',
-      answer: 'Typically 60-120 days from first consultation to final closure. UP cases sometimes take slightly longer than metro cities because regional lender approvals may need head office clearance. But we push hard for fast resolution.'
+      answer: 'Typically 60-120 days from first consultation to final closure. UP cases sometimes take slightly longer than metro cities because regional lender approvals may need head office clearance. But we push hard for fast relief.'
     }
   ];
 
@@ -147,9 +147,7 @@ export default function UttarPradeshPageClient() {
                   lineHeight: '28px',
                   marginBottom: '20px'
                 }}
-              >
-                Buried under loan debt in Lucknow, Kanpur, Agra or anywhere in Uttar Pradesh? CredSettle helps UP borrowers reduce debt by 30-70% through legal, RBI-compliant settlement. Government employees, traders, MSME owners, salaried professionals - we handle all cases. Stop recovery harassment, negotiate with all banks and NBFCs. Over 15,000 UP families got debt-free with our help.
-              </p>
+              > Buried under loan debt in Lucknow. Kanpur. Agra or anywhere in Uttar Pradesh? CredSettle helps UP clients reduce debt by 30-70% through legal. RBI-compliant closure. Government employees. Traders. MSME owners. Salaried experts - we handle all cases. Stop claims threats. Settle with all banks and NBFCs. Over 15,000 UP families got debt-free with our help. </p>
               <button
                 className="text-white text-sm md:text-base lg:text-[18.58px] px-6 md:px-8 lg:px-[39.44px] py-2 md:py-3 lg:py-[13.48px]"
                 style={{
@@ -207,12 +205,8 @@ export default function UttarPradeshPageClient() {
                     lineHeight: '28px'
                   }}
                 >
-                  <p style={{ marginBottom: '16px' }}>
-                    Uttar Pradesh’s 75 districts depend on personal loans for education, healthcare, trading inventory and family milestones. Lucknow government employees, Kanpur manufacturers, Agra tourism operators and Varanasi service owners often carry multiple loans at once, so a single income shock quickly escalates into missed EMIs and nonstop recovery pressure.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Personal loan settlement</strong> offers a lawful exit endorsed by RBI. CredSettle has already guided 15,000+ UP borrowers to close accounts across Lucknow, Kanpur, Agra, Varanasi, Meerut and beyond with average savings near 58%. Every case ends with verified documentation so lenders cannot return later.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> Uttar Pradesh’s 75 districts depend on own loans for education. Healthcare. Trading inventory and family milestones. Lucknow government employees. Kanpur manufacturers. Agra tourism operators and Varanasi service owners often carry multiple loans at once. so a single income shock quickly escalates into missed EMIs and nonstop claims pressure. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>own loan closure</strong> offers a lawful exit endorsed by RBI. CredSettle has already guided 15,000+ UP clients to close accounts across Lucknow. Kanpur. Agra. Varanasi. Meerut and beyond with average savings near 58%. Every case ends with checked proof so lenders cannot return later. </p>
                 </div>
               </section>
 
@@ -237,12 +231,8 @@ export default function UttarPradeshPageClient() {
                     lineHeight: '28px'
                   }}
                 >
-                  <p style={{ marginBottom: '16px' }}>
-                    Lucknow salaries, Kanpur factory cycles, Agra tourism swings and Varanasi pilgrim seasons feed very different repayment risks. Families routinely juggle wedding loans, medical borrowing and business capital; once income slows, every EMI becomes a burden and recovery teams start calling relatives or visiting workplaces.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    We combine hardship evidence with local data - government salary delays, industrial output drops, tourism statistics - to win 40-70% settlements before lenders pursue crowded UP courts. Results: harassment stops, debt shrinks and you restart finances with clean paperwork.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> Lucknow salaries. Kanpur factory cycles. Agra tourism swings and Varanasi pilgrim seasons feed very different payment risks. Families routinely juggle wedding loans. Medical borrowing and firm capital. Once income slows. Every EMI becomes a burden and claims teams start calling relatives or visiting workplaces. </p>
+                  <p style={{ marginBottom: '16px' }}> We combine hardship evidence with local data - government salary delays. Industrial output drops. Tourism statistics - to win 40-70% closures before lenders pursue crowded UP courts. Results: threats stops. Debt shrinks and you restart finances with clean papers. </p>
                 </div>
               </section>
 
@@ -267,24 +257,12 @@ export default function UttarPradeshPageClient() {
                     lineHeight: '28px'
                   }}
                 >
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>1. Salary delays:</strong> Teachers, police and clerks live on fixed government pay. When disbursements slip for a few months, EMIs bounce and we leverage job security to secure breathing room.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>2. Industrial swings:</strong> Kanpur leather and textile units run hot and cold. Production cuts leave owners and workers with stalled cash flow, so we use industry data to justify reduced payouts.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>3. Tourism shocks:</strong> Agra’s hospitality chain still recovers from COVID. Visitor stats prove why 40-60% settlements make sense for hotels, guides and artisans.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>4. Medical emergencies:</strong> Treatment bills of ₹5-15 lakhs are unavoidable, so lenders accept 50-65% closures when we file hospital and income records.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>5. Wedding obligations:</strong> Cultural expectations push families to borrow heavily; explaining social context helps us reset EMIs to realistic levels.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>6. NBFC clusters:</strong> Easy credit creates five small high-interest loans instead of one big one. We bundle them and show every lender why cooperation protects their recovery.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>1. Salary delays:</strong> Teachers. Police and clerks live on fixed government pay. When disbursements slip for a few months. EMIs bounce and we leverage job security to secure breathing room. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>2. Industrial swings:</strong> Kanpur leather and textile units run hot and cold. Production cuts leave owners and workers with stalled cash flow. so we use trade data to justify reduced payouts. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>3. Tourism shocks:</strong> Agra’s hospitality chain still recovers from COVID. Visitor stats prove why 40-60% closures make sense for hotels. Guides and artisans. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>4. Medical emergencies:</strong> Treatment bills of ₹5-15 lakhs are unavoidable. so lenders accept 50-65% closures when we file hospital and income records. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>5. Wedding debts:</strong> Cultural expectations push families to borrow heavily. explaining social context helps us reset EMIs to realistic levels. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>6. NBFC clusters:</strong> Easy credit creates five small high-rates loans instead of one big one. We bundle them and show every lender why cooperation protects their claims. </p>
                 </div>
               </section>
 
@@ -309,12 +287,8 @@ export default function UttarPradeshPageClient() {
                     lineHeight: '28px'
                   }}
                 >
-                  <p style={{ marginBottom: '16px' }}>
-                    We have closed 15,000+ Uttar Pradesh settlements with average savings near 58%, working with PSU banks, cooperatives and NBFCs across all 75 districts.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    CredSettle is a registered legal services partner with Lucknow- and Kanpur-based lawyers, so every offer we secure meets RBI standards and ends with airtight paperwork.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> We have closed 15,000+ Uttar Pradesh closures with average savings near 58%. Working with PSU banks. Cooperatives and NBFCs across all 75 districts. </p>
+                  <p style={{ marginBottom: '16px' }}> CredSettle is a registered legal services partner with Lucknow- and Kanpur-based counsel. so every offer we secure meets RBI standards and ends with airtight papers. </p>
 
                   <div id="up-settlement-method" style={{ marginTop: '32px', scrollMarginTop: '100px' }}>
                     <h3
@@ -326,12 +300,8 @@ export default function UttarPradeshPageClient() {
                         lineHeight: '32px',
                         marginBottom: '16px'
                       }}
-                    >
-                      How We Handle UP Loan Cases
-                    </h3>
-                    <p style={{ marginBottom: '16px' }}>
-                      <strong>Phase 1:</strong> Free consultation maps every loan, income stream and hardship proof. <strong>Phase 2:</strong> Legal notices halt recovery within a week. <strong>Phase 3:</strong> We negotiate with state-specific data - salary calendars, leather export trends, tourism indices - to win 30-70% reductions. <strong>Phase 4:</strong> Lawyers verify OTS letters, supervise payment and design your credit rebuild plan.
-                    </p>
+                    > How We Handle UP Loan Cases </h3>
+                    <p style={{ marginBottom: '16px' }}> <strong>Phase 1:</strong> Free consultation maps every loan. Income stream and hardship proof. <strong>Phase 2:</strong> Legal notices halt claims within a week. <strong>Phase 3:</strong> We settle with state-exact data - salary calendars. Leather export trends. Tourism indices - to win 30-70% reductions. <strong>Phase 4:</strong> counsel check OTS letters. Supervise payment and design your credit rebuild plan. </p>
                   </div>
 
                   <div id="rbi-legal-cover" style={{ marginTop: '32px', scrollMarginTop: '100px' }}>
@@ -344,12 +314,8 @@ export default function UttarPradeshPageClient() {
                         lineHeight: '32px',
                         marginBottom: '16px'
                       }}
-                    >
-                      RBI Protection and Legal Security
-                    </h3>
-                    <p style={{ marginBottom: '16px' }}>
-                      We enforce RBI Master Directions at each step - written offers, fixed payment schedules, 30-day document delivery and immediate legal intervention if a lender deviates.
-                    </p>
+                    > RBI safety and Legal Security </h3>
+                    <p style={{ marginBottom: '16px' }}> We enforce RBI Master Directions at each step - written offers. Fixed payment schedules. 30-day papers delivery and fast legal action if a lender deviates. </p>
                   </div>
                 </div>
               </section>
@@ -375,15 +341,9 @@ export default function UttarPradeshPageClient() {
                     lineHeight: '28px'
                   }}
                 >
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Uttar Pradesh Lok Adalat:</strong> Court-backed mediation sessions operate in every district and usually close matters in a single sitting. We prepare the hardship file, present the offer and typically land 40-60% resolutions backed by enforceable orders.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>State Consumer Commission:</strong> Ideal when lenders add hidden charges or harass illegally. Cases finish in 3-5 months and can award compensation beyond settlement.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    We help you choose the right route and coordinate free legal aid through UP State Legal Services Authority when household income is below ₹5 lakhs.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Uttar Pradesh Lok Adalat:</strong> Court-backed mediation sessions operate in every district and usually close matters in a single sitting. We prepare the hardship file. Present the offer and typically land 40-60% resolutions backed by enforceable orders. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>State Consumer Commission:</strong> Ideal when lenders add hidden charges or harass illegally. Cases finish in 3-5 months and can award compensation beyond closure. </p>
+                  <p style={{ marginBottom: '16px' }}> We help you choose the right route and coordinate free legal aid through UP State Legal Services Authority when household income is below ₹5 lakhs. </p>
                 </div>
               </section>
 
@@ -408,12 +368,8 @@ export default function UttarPradeshPageClient() {
                     lineHeight: '28px'
                   }}
                 >
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Lucknow:</strong> We have handled 3,500+ capital-city cases for government employees, doctors and business owners by speaking the language of salary cycles, transfer policies and pension rules.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Kanpur:</strong> Leather and textile swings create cash squeezes for 2,000+ clients we have supported. Local legal partners, data on export orders and court relationships help us negotiate faster outcomes in both cities.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Lucknow:</strong> We have handled 3,500+ capital-city cases for government employees. Doctors and firm owners by speaking the language of salary cycles. Transfer policies and pension rules. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Kanpur:</strong> Leather and textile swings create cash squeezes for 2,000+ clients we have supported. Local legal partners. Data on export orders and court relationships help us settle faster outcomes in both cities. </p>
                 </div>
               </section>
 
@@ -438,15 +394,9 @@ export default function UttarPradeshPageClient() {
                     lineHeight: '28px'
                   }}
                 >
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Agra and Varanasi:</strong> Tourism-driven incomes rise and fall with visitor flows, so we time settlements around peak seasons and present occupancy data to banks for 1,400+ clients.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Meerut, Ghaziabad and Prayagraj:</strong> Manufacturing, trading and administrative hubs need customised strategies - whether it is aligning payments with factory cycles or coordinating with local courts.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Rest of UP:</strong> Through district partners we cover Bareilly, Gorakhpur, Jhansi, Mathura and every other region with the same documented process and Lok Adalat support.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Agra and Varanasi:</strong> Tourism-driven incomes rise and fall with visitor flows. So we time closures around peak seasons and present occupancy data to banks for 1,400+ clients. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Meerut. Ghaziabad and Prayagraj:</strong> Manufacturing. Trading and administrative hubs need customised strategies - whether it is aligning payments with factory cycles or coordinating with local courts. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Rest of UP:</strong> Through district partners we cover Bareilly. Gorakhpur. Jhansi. Mathura and every other region with the same documented process and Lok Adalat support. </p>
                 </div>
               </section>
 
@@ -471,21 +421,11 @@ export default function UttarPradeshPageClient() {
                     lineHeight: '28px'
                   }}
                 >
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>1.</strong> Local insight into salary cycles, tourism swings and industrial trends improves settlement terms.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>2.</strong> Legal notices stop harassment within a week across metros and tier-2 towns.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>3.</strong> Average savings hover around 58%, returning lakhs to UP households.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>4.</strong> Lok Adalat expertise delivers court-backed closure when cases demand it.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>5.</strong> We manage every OTS letter, receipt and NOC, and fees trigger only after success.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>1.</strong> Local insight into salary cycles. Tourism swings and industrial trends improves closure terms. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>2.</strong> Legal notices stop threats within a week across metros and tier-2 towns. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>3.</strong> Average savings hover around 58%. Returning lakhs to UP households. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>4.</strong> Lok Adalat expertise delivers court-backed closure when cases demand it. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>5.</strong> We manage every OTS letter. Receipt and NOC. fees trigger only after success. </p>
                 </div>
               </section>
 
@@ -510,18 +450,10 @@ export default function UttarPradeshPageClient() {
                     lineHeight: '28px'
                   }}
                 >
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Fair treatment:</strong> RBI’s Fair Practices Code bars harassment, public shaming or surprise visits. We escalate to the Banking Ombudsman the moment those lines are crossed.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Jurisdiction safety:</strong> The UP Money-Lending Act keeps disputes within your district and protects you from being dragged to out-of-state courts.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Settlement rights:</strong> Genuine hardship means lenders must discuss restructuring. After payment, RBI rules force them to issue closure letters and NOCs within 30 days.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Escalation paths:</strong> Consumer Commission, Lok Adalat and police support remain available - we activate them whenever harassment or unfair charges persist.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Fair treatment:</strong> RBI’s Fair Practices Code bars threats. Public shaming or surprise visits. We escalate to the Banking RBI officer the moment those lines are crossed. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Jurisdiction safety:</strong> The UP Money-Lending Act keeps disputes within your district and protects you from being dragged to out-of-state courts. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>closure rights:</strong> Genuine hardship means lenders must discuss restructuring. After payment. RBI rules force them to issue closure letters and NOCs within 30 days. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Escalation paths:</strong> Consumer Commission. Lok Adalat and police support remain available - we activate them whenever threats or unfair charges persist. </p>
                 </div>
               </section>
 
@@ -546,18 +478,10 @@ export default function UttarPradeshPageClient() {
                     lineHeight: '28px'
                   }}
                 >
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Days 1-7:</strong> Free assessment, document checklist and legal notices that redirect every recovery call to us.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Weeks 2-6:</strong> Negotiations with each lender using hardship proof plus sector data to achieve 30-70% reductions.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Weeks 6-9:</strong> We vet OTS letters, schedule lump-sum or installment payments and collect receipts.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Weeks 9-12:</strong> Closure letters and NOCs arrive, credit bureaus update, and we map your credit rebuild plan.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Days 1-7:</strong> Free assessment. Papers checklist and legal notices that redirect every claims call to us. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Weeks 2-6:</strong> talks with each lender using hardship proof plus sector data to achieve 30-70% reductions. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Weeks 6-9:</strong> We vet OTS letters. Schedule lump-sum or installment payments and collect receipts. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Weeks 9-12:</strong> Closure letters and NOCs arrive. Credit bureaus update. we map your credit rebuild plan. </p>
                 </div>
               </section>
 
@@ -582,15 +506,9 @@ export default function UttarPradeshPageClient() {
                     lineHeight: '28px'
                   }}
                 >
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>The borrower:</strong> Suresh, a Kanpur leather trader, faced ₹35 lakh exposure across business, personal and mortgage-linked loans after export orders collapsed.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Our response:</strong> Legal notices stopped harassment in six days, and industry data proved to lenders that the downturn was sector-wide, leading to settlements between 42% and 55% across all five accounts.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Outcome:</strong> He paid ₹16.5 lakhs, saved ₹18.5 lakhs, released the shop mortgage and rebuilt his CIBIL score to 650 within 15 months.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>The clients:</strong> Suresh. A Kanpur leather trader. Faced ₹35 lakh exposure across firm. Own and mortgage-linked loans after export orders collapsed. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Our response:</strong> Legal notices stopped threats in six days. Trade data proved to lenders that the downturn was sector-wide. Leading to closures between 42% and 55% across all five accounts. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Outcome:</strong> He paid ₹16.5 lakhs. Saved ₹18.5 lakhs. Released the shop mortgage and rebuilt his CIBIL score to 650 within 15 months. </p>
                 </div>
               </section>
 
@@ -615,12 +533,8 @@ export default function UttarPradeshPageClient() {
                     lineHeight: '28px'
                   }}
                 >
-                  <p style={{ marginBottom: '16px' }}>
-                    Struggling with personal loan dues anywhere in Uttar Pradesh? Settlement is legal, RBI-backed and already helped 15,000+ local families reclaim peace of mind.
-                  </p>
-                  <p style={{ marginBottom: '16px' }}>
-                    <strong>Book a free consultation:</strong> No upfront fees - just a clear plan to stop harassment, save 30-70% and close every account legally, whether you are a government employee, trader or MSME owner.
-                  </p>
+                  <p style={{ marginBottom: '16px' }}> Struggling with own loan dues anywhere in Uttar Pradesh? Closure is legal. RBI-backed and already helped 15,000+ local families reclaim peace of mind. </p>
+                  <p style={{ marginBottom: '16px' }}> <strong>Book a free consultation:</strong> No upfront fees - just a clear plan to stop threats. Save 30-70% and close every account by law. Whether you are a government employee. Trader or MSME owner. </p>
                 </div>
               </section>
             </div>
@@ -653,9 +567,7 @@ export default function UttarPradeshPageClient() {
                     <p
                       className="text-center text-[14px] md:text-[18px] leading-[14px] md:leading-[18px] font-normal w-full"
                       style={{ color: 'rgba(12, 39, 86, 0.70)' }}
-                    >
-                      Join 15,000+ UP families who achieved financial freedom. Free consultation, no upfront fees, proven results across all 75 districts.
-                    </p>
+                    > Join 15,000+ UP families who achieved money freedom. Free consultation. No upfront fees. Proven results across all 75 districts. </p>
                   </div>
 
                   <CTAButton>

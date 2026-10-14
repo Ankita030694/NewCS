@@ -90,19 +90,19 @@ export default function SettleThirtyLakhPersonalLoanClient() {
   const faqs = [
     {
       q: 'Can I settle a ₹30 lakh personal loan in India?',
-      a: 'Yes. Borrowers with authentic financial hardship can negotiate an OTS for 40% to 55% of principal (₹9.84L to ₹13.53L). Banks settle to release mandatory RBI capital provisioning and avoid multi-year DRT litigation.'
+      a: 'Yes. clients with authentic money hardship can settle an OTS for 40% to 55% of main sum (₹9.84L to ₹13.53L). Banks settle to release mandatory RBI capital provisioning and avoid multi-year DRT litigation.'
     },
     {
       q: 'What legal actions can a bank take for a ₹30 lakh default?',
-      a: 'Default is strictly a civil breach under the Indian Contract Act with zero arrest risk. Banks may issue notices under Section 25 PSSA, Section 138 NI Act, or approach DRT, which are withdrawn upon OTS.'
+      a: 'Default is strictly a civil breach under the Indian Contract Act with zero arrest risk. Banks may issue notices under Section 25 PSSA. Section 138 NI Act. approach DRT. which are withdrawn upon OTS.'
     },
     {
       q: 'Can a bank approach the Debt Recovery Tribunal (DRT) for ₹30 lakhs?',
-      a: 'Yes, since the DRT threshold under Section 19 RDB Act is ₹20 lakhs. However, unsecured loans lack attachable real estate, prompting bank credit committees to routinely prefer fast out-of-court OTS settlements.'
+      a: 'Yes. since the DRT threshold under Section 19 RDB Act is ₹20 lakhs. Yet. Clean loans lack attachable real estate. Prompting bank credit boards to routinely prefer fast out-of-court OTS closures.'
     },
     {
       q: 'How much will a bank accept to settle a ₹30 lakh personal loan?',
-      a: 'Banks typically accept 40% to 55% of the true net principal balance with a 100% waiver on accrued penal interest and late fees. On ₹24.6L net principal, settlement closes around ₹9.84L to ₹13.53L.'
+      a: 'Banks typically accept 40% to 55% of the true net main sum balance with a 100% waiver on accrued penal rates and late fees. On ₹24.6L net main sum. Closure closes around ₹9.84L to ₹13.53L.'
     },
     {
       q: 'Can the bank unilaterally appoint a sole arbitrator for my default?',
@@ -110,23 +110,23 @@ export default function SettleThirtyLakhPersonalLoanClient() {
     },
     {
       q: 'How does settling a ₹30 lakh loan impact my CIBIL score?',
-      a: 'The status is reported as Settled, causing an initial 75 to 130 point drop while halting monthly DPD accumulation. You can rebuild to 750+ within 18 to 24 months or convert to Closed under CICRA.'
+      a: 'The status is reported as Settled. Causing an first 75 to 130 point drop while halting monthly DPD accumulation. You can rebuild to 750+ within 18 to 24 months or convert to Closed under CICRA.'
     },
     {
       q: 'Can recovery agents visit my residence or workplace for ₹30 lakhs?',
-      a: 'No. Under RBI Fair Practices Code, agents cannot visit without prior written notice, call outside 8 AM to 7 PM, use abusive language, or contact colleagues. Violations can be halted via legal notices.'
+      a: 'No. Under RBI Fair Practices Code. Agents cannot visit without prior written notice. Call outside 8 AM to 7 PM. Use abusive language. contact colleagues. Violations can be halted via legal notices.'
     },
     {
       q: 'How should I respond to a Section 25 PSSA or Section 138 notice?',
-      a: 'Serve a formal legal reply within 15 days demonstrating genuine financial hardship, absence of mens rea, and a structured OTS offer. Upon payment of the agreed settlement, all statutory complaints are quashed.'
+      a: 'Serve a formal legal reply within 15 days demonstrating genuine money hardship. Absence of mens rea. a structured OTS offer. Upon payment of the agreed closure. All legal complaints are quashed.'
     },
     {
       q: 'Can multiple personal loans totaling ₹30 lakhs be settled together?',
-      a: 'Yes. A consolidated debt settlement strategy pools available liquidity, prioritizes aggressive lenders, and negotiates simultaneous or sequential settlements across each bank to permanently extinguish all liabilities.'
+      a: 'Yes. A consolidated debt closure strategy pools available liquidity. Prioritizes harsh lenders. negotiates simultaneous or sequential closures across each bank to permanently extinguish all debts.'
     },
     {
       q: 'What documents are required to make a ₹30 lakh settlement binding?',
-      a: 'You must obtain: (1) An official Settlement Sanction Letter on bank letterhead signed by an authorized manager, (2) Direct bank payment receipts into your loan account, and (3) An official No Dues Certificate.'
+      a: 'You must obtain: (1) An valid closure Sanction Letter on bank letterhead signed by an authorized manager. (2) Direct bank payment receipts into your loan account. (3) An valid No Dues letter.'
     }
   ];
 
@@ -148,9 +148,7 @@ export default function SettleThirtyLakhPersonalLoanClient() {
             High-Value Default: Settle a ₹30 Lakh Personal Loan
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed">
-            Defaulting on a ₹30 Lakh personal loan requires strategic legal defense. Discover how to neutralize bank litigation, handle DRT and Section 25 notices, shield personal assets, and negotiate a formal One-Time Settlement (OTS) with substantial principal waiver.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed"> Defaulting on a ₹30 Lakh own loan requires strategic legal defense. Discover how to neutralize bank litigation. Handle DRT and Section 25 notices. Shield own assets. settle a formal One-Time closure (OTS) with substantial main sum waiver. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -204,9 +202,7 @@ export default function SettleThirtyLakhPersonalLoanClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0" />
                   <span>Borrower Protections</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Protected under RBI Fair Practices Code, RDB Act §19, PSSA §25 &amp; CICRA Framework.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Protected under RBI Fair Practices Code. RDB Act §19. PSSA §25 &amp. CICRA Framework. </p>
               </div>
             </div>
           </aside>
@@ -225,42 +221,15 @@ export default function SettleThirtyLakhPersonalLoanClient() {
               </div>
 
               <ul className="space-y-2 text-xs sm:text-sm text-slate-700 leading-normal">
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0" />
-                  <span><strong className="text-slate-900 font-bold">Settlement Target:</strong> Settle ₹30 Lakh unsecured debt for 40% to 55% of principal (₹9.84L to ₹13.53L full discharge).</span>
-                </li>
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0" />
-                  <span><strong className="text-slate-900 font-bold">100% Penal Waiver:</strong> Completely eradicate ₹10L to ₹15L in compounding penal interest and late bounce charges.</span>
-                </li>
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0" />
-                  <span><strong className="text-slate-900 font-bold">Strictly Civil Dispute:</strong> Default is a civil contractual breach with zero risk of police harassment or arrest.</span>
-                </li>
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0" />
-                  <span><strong className="text-slate-900 font-bold">Notice Defense:</strong> Formally reply to Section 25 PSSA and Section 138 NI Act notices within 15 days.</span>
-                </li>
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0" />
-                  <span><strong className="text-slate-900 font-bold">DRT Strategy:</strong> Avoid 3 to 5 years in DRT litigation through proactive out-of-court bilateral compromise.</span>
-                </li>
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0" />
-                  <span><strong className="text-slate-900 font-bold">Arbitration Shield:</strong> Quash unilateral arbitrator appointments under Supreme Court Perkins Eastman precedent.</span>
-                </li>
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0" />
-                  <span><strong className="text-slate-900 font-bold">Asset Protection:</strong> Lenders cannot attach residential property or freeze income without conclusive court decrees.</span>
-                </li>
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0" />
-                  <span><strong className="text-slate-900 font-bold">Anti-Harassment:</strong> Enforce RBI Fair Practices Code to stop unannounced visits, late calls, or third-party contacts.</span>
-                </li>
-                <li className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0" />
-                  <span><strong className="text-slate-900 font-bold">Direct Remittance:</strong> Pay directly into loan account under bank sanction letter to secure valid NDC.</span>
-                </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0" /> <span><strong className="text-slate-900 font-bold">closure Target:</strong> Settle ₹30 Lakh clean debt for 40% to 55% of main sum (₹9.84L to ₹13.53L full discharge).</span> </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0" /> <span><strong className="text-slate-900 font-bold">100% Penal Waiver:</strong> fully eradicate ₹10L to ₹15L in growing penal rates and late bounce charges.</span> </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0" /> <span><strong className="text-slate-900 font-bold">Strictly Civil Dispute:</strong> Default is a civil contractual breach with zero risk of police threats or arrest.</span> </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0" /> <span><strong className="text-slate-900 font-bold">Notice Defense:</strong> Formally reply to Section 25 PSSA and Section 138 NI Act notices within 15 days.</span> </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0" /> <span><strong className="text-slate-900 font-bold">DRT Strategy:</strong> Avoid 3 to 5 years in DRT litigation through proactive out-of-court bilateral deal.</span> </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0" /> <span><strong className="text-slate-900 font-bold">Arbitration Shield:</strong> Quash unilateral arbitrator appointments under Supreme Court Perkins Eastman precedent.</span> </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0" /> <span><strong className="text-slate-900 font-bold">Asset safety:</strong> Lenders cannot attach home home or freeze income without conclusive court decrees.</span> </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0" /> <span><strong className="text-slate-900 font-bold">Anti-threats:</strong> Enforce RBI Fair Practices Code to stop unannounced visits. Late calls. third-party contacts.</span> </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0" /> <span><strong className="text-slate-900 font-bold">Direct wire transfer:</strong> Pay straight into loan account under bank sanction letter to secure valid NDC.</span> </li>
               </ul>
             </div>
 
@@ -273,12 +242,8 @@ export default function SettleThirtyLakhPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 1. High-Value Debt Economics: Can You Settle a ₹30 Lakh Personal Loan?
               </h2>
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                Defaulting on an unsecured ₹30 Lakh personal loan represents a major inflection point in retail banking. Unlike smaller consumer loans, high-value debt exposures of ₹30 Lakhs carry heavy monthly EMI burdens of ₹75,000 to ₹95,000. When severe life shocks occur, such as corporate layoffs, business cash-flow disruption, or medical emergencies, continuing full debt servicing becomes mathematically impossible.
-              </p>
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                After 90 consecutive days of missed installments, the loan transitions into a Non-Performing Asset (NPA). Under Reserve Bank of India prudential guidelines, lenders must set aside mandatory Tier-1 capital provisioning, scaling from 15% up to 100% of the loan value. Because unsecured personal loans carry no attached mortgage collateral under the SARFAESI Act, banks face prolonged recovery timelines. While claims exceeding ₹20 Lakhs can be filed before the Debt Recovery Tribunal (DRT) under Section 19 of the RDB Act, tribunal trials frequently take 3 to 5 years. Consequently, bank credit committees routinely prioritize an out-of-court One-Time Settlement (OTS) accepting 40% to 55% of principal to immediately release provisioning reserves and clear bad debt.
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> Defaulting on an clean ₹30 Lakh own loan represents a major inflection point in retail banking. Unlike smaller consumer loans. High-value debt exposures of ₹30 Lakhs carry heavy monthly EMI burdens of ₹75,000 to ₹95,000. When severe life shocks occur. Such as firm layoffs. Firm cash-flow disruption. Medical emergencies. Continuing full debt servicing becomes mathematically impossible. </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> After 90 running days of missed installments. The loan transitions into a Non-Performing Asset (NPA). Under Reserve Bank of India prudential guidelines. Lenders must set aside mandatory Tier-1 capital provisioning. Scaling from 15% up to 100% of the loan value. Because clean own loans carry no attached mortgage pledge under the SARFAESI Act. Banks face prolonged claims timelines. While claims exceeding ₹20 Lakhs can be filed before the Debt claims court (DRT) under Section 19 of the RDB Act. Court trials often take 3 to 5 years. Consequently. Bank credit boards routinely prioritize an out-of-court One-Time closure (OTS) accepting 40% to 55% of main sum to fast release provisioning reserves and clear bad debt. </p>
             </section>
 
             {/* SECTION 2: Financial Breakdown & Settlement Formula */}
@@ -290,16 +255,11 @@ export default function SettleThirtyLakhPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 2. How Much to Pay to Settle a ₹30 Lakh Personal Loan?
               </h2>
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                Following default, lenders rapidly inflate the claimed balance with compounded penal interest rates (24% to 36% per annum), overdue late charges, and mandate bounce fees. Within 12 months, an original principal balance of ₹24.6 Lakhs escalates into an inflated recovery demand claiming ₹39.8 Lakhs to ₹45 Lakhs. Strategic debt settlement isolates the true net principal and eliminates all non-contractual penal levies:
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> Following default. Lenders rapidly inflate the claimed balance with compounded penal rates rates (24% to 36% per annum). Overdue late charges. mandate bounce fees. Within 12 months. An original main sum balance of ₹24.6 Lakhs escalates into an inflated claims demand claiming ₹39.8 Lakhs to ₹45 Lakhs. Strategic debt closure isolates the true net main sum and eliminates all non-contractual penal levies: </p>
 
               <div className="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-3">
                 <div className="flex items-center justify-between border-b border-slate-100 pb-2">
-                  <h3 className="text-xs sm:text-sm font-bold text-slate-900 flex items-center gap-2">
-                    <ReceiptText className="w-4 h-4 text-[#1886ff]" />
-                    <span>Anatomy of a Defaulted ₹30 Lakh Personal Loan Claim</span>
-                  </h3>
+                  <h3 className="text-xs sm:text-sm font-bold text-slate-900 flex items-center gap-2"> <ReceiptText className="w-4 h-4 text-[#1886ff]" /> <span>Anatomy of a Defaulted ₹30 Lakh own Loan Claim</span> </h3>
                   <span className="text-[11px] font-bold text-slate-500 bg-slate-100 px-2 py-0.5 rounded">
                     180-Day NPA Case
                   </span>
@@ -353,9 +313,7 @@ export default function SettleThirtyLakhPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 3. Resolution Matrix: Settlement vs DRT vs Default
               </h2>
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                Borrowers confronting a defaulted ₹30 Lakh personal loan have five primary resolution pathways available under Indian law:
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> clients confronting a defaulted ₹30 Lakh own loan have five primary relief pathways available under Indian law: </p>
 
               <div className="overflow-x-auto rounded-2xl border border-slate-200/80 bg-white shadow-xs">
                 <table className="w-full text-left text-xs border-collapse">
@@ -371,41 +329,41 @@ export default function SettleThirtyLakhPersonalLoanClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-600">
                     <tr className="divide-x divide-slate-200/80">
-                      <td className="p-3 font-bold text-slate-900">One-Time Settlement (OTS)</td>
-                      <td className="p-3 text-emerald-700 font-semibold">₹9.84L – ₹13.53L</td>
-                      <td className="p-3">&quot;Settled&quot; (-75 to -130 pts)</td>
+                      <td className="p-3 font-bold text-slate-900">One-Time closure (OTS)</td>
+                      <td className="p-3 text-emerald-700 font-semibold">₹9.84L. ₹13.53L</td>
+                      <td className="p-3">&quot. Settled&quot. (-75 to -130 pts)</td>
                       <td className="p-3 text-emerald-700 font-semibold">Eliminated (Withdrawn)</td>
-                      <td className="p-3">45–90 Days</td>
+                      <td className="p-3">45. 90 Days</td>
                       <td className="p-3 text-[#1886ff] font-semibold">Optimal path for debt relief and permanent legal release</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80">
                       <td className="p-3 font-bold text-slate-900">Restructuring</td>
-                      <td className="p-3">₹30L + Full Interest</td>
-                      <td className="p-3">&quot;Restructured&quot;</td>
+                      <td className="p-3">₹30L + Full rates</td>
+                      <td className="p-3">&quot. Restructured&quot. </td>
                       <td className="p-3 text-emerald-700 font-semibold">Paused during EMIs</td>
-                      <td className="p-3">48–84 Months</td>
+                      <td className="p-3">48. 84 Months</td>
                       <td className="p-3 text-[#1886ff] font-semibold">Viable only if substantial ongoing cash flow is certain</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80">
                       <td className="p-3 font-bold text-slate-900">DRT Contest</td>
                       <td className="p-3 text-red-700 font-semibold">₹1.5L+ Legal Fees</td>
-                      <td className="p-3 text-red-700 font-bold">&quot;Suit Filed / DRT&quot;</td>
-                      <td className="p-3 text-amber-700 font-semibold">High (Tribunal trials)</td>
-                      <td className="p-3">3–5 Years</td>
+                      <td className="p-3 text-red-700 font-bold">&quot. Suit Filed / DRT&quot. </td>
+                      <td className="p-3 text-amber-700 font-semibold">High (court trials)</td>
+                      <td className="p-3">3. 5 Years</td>
                       <td className="p-3 text-[#1886ff] font-semibold">Effective defensive defense to compel an out-of-court OTS</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80">
                       <td className="p-3 font-bold text-slate-900">Lok Adalat OTS</td>
-                      <td className="p-3 text-emerald-700 font-semibold">₹11.5L – ₹15.0L</td>
-                      <td className="p-3">&quot;Settled via Adalat&quot;</td>
+                      <td className="p-3 text-emerald-700 font-semibold">₹11.5L. ₹15.0L</td>
+                      <td className="p-3">&quot. Settled via Adalat&quot. </td>
                       <td className="p-3 text-emerald-700 font-semibold">Decree passed (Final)</td>
                       <td className="p-3">1 Day sitting</td>
-                      <td className="p-3 text-[#1886ff] font-semibold">Binding judicial closure if pre-negotiated by counsel</td>
+                      <td className="p-3 text-[#1886ff] font-semibold">Binding judicial closure if pre-settle by counsel</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80">
                       <td className="p-3 font-bold text-slate-900">Inaction / Default</td>
                       <td className="p-3 text-red-700 font-semibold">Claims balloon</td>
-                      <td className="p-3 text-red-700 font-bold">&quot;Written Off&quot;</td>
+                      <td className="p-3 text-red-700 font-bold">&quot. Written Off&quot. </td>
                       <td className="p-3 text-red-700 font-bold">Severe (Notices, visits)</td>
                       <td className="p-3">Indefinite</td>
                       <td className="p-3 text-red-600 font-semibold">Severe risk of credit paralysis and persistent disputes</td>
@@ -424,16 +382,11 @@ export default function SettleThirtyLakhPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 4. CIBIL Score Impact of a ₹30 Lakh Loan Settlement
               </h2>
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                Credit bureaus calculate CIBIL scores across five weighted parameters: Payment History (35%), Credit Exposure (30%), Credit Longevity (15%), Credit Mix (10%), and Recent Inquiries (10%).
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> Credit bureaus calculate CIBIL scores across five weighted parameters: Payment History (35%). Credit Exposure (30%). Credit Longevity (15%). Credit Mix (10%). Recent Inquiries (10%). </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-2 text-xs">
-                  <h3 className="font-bold text-slate-900 flex items-center gap-1.5">
-                    <Percent className="w-4 h-4 text-[#1886ff]" />
-                    Weight Distribution &amp; Default Impact
-                  </h3>
+                  <h3 className="font-bold text-slate-900 flex items-center gap-1.5"> <Percent className="w-4 h-4 text-[#1886ff]" /> Weight Distribution &amp. Default Impact </h3>
                   <div className="flex justify-between py-1 border-b border-slate-100">
                     <span>Payment History (35%):</span>
                     <span className="font-bold text-slate-900">Immediate -100 to -160 pts on default</span>
@@ -449,10 +402,7 @@ export default function SettleThirtyLakhPersonalLoanClient() {
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-2 text-xs">
-                  <h3 className="font-bold text-slate-900 flex items-center gap-1.5">
-                    <Award className="w-4 h-4 text-emerald-600" />
-                    Credit Score Rehabilitation Path
-                  </h3>
+                  <h3 className="font-bold text-slate-900 flex items-center gap-1.5"> <Award className="w-4 h-4 text-emerald-600" /> Credit Score Rehabilitation Path </h3>
                   <div className="flex justify-between py-1 border-b border-slate-100">
                     <span>Phase 1 (Months 1–6):</span>
                     <span className="font-bold text-slate-800">+35 to +50 pts via Secured Card</span>
@@ -482,9 +432,7 @@ export default function SettleThirtyLakhPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Visual Defense Blueprint: ₹30 Lakh Personal Loan Settlement Roadmap
               </h2>
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                Study this 6-stage roadmap detailing the entire trajectory from initial loan default to forensic audit, legal notice defense, credit committee negotiation, direct remittance, and credit rehabilitation:
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> Study this 6-stage roadmap detailing the entire trajectory from first loan default to forensic audit. Legal notice defense. Credit board talks. Direct wire transfer. credit rehabilitation: </p>
 
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-sm p-3 overflow-hidden">
                 <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-slate-100">
@@ -521,45 +469,43 @@ export default function SettleThirtyLakhPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 5. 6-Stage SOP to Settle a ₹30 Lakh Personal Loan
               </h2>
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                Settling a high-stakes ₹30 Lakh loan requires adhering to a structured 6-stage standard operating procedure to counter litigation, eliminate harassment, and maximize principal waiver:
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> Settling a high-stakes ₹30 Lakh loan requires adhering to a structured 6-stage standard operating procedure to counter litigation. Eliminate threats. maximize main sum waiver: </p>
 
               <div className="space-y-3 text-xs">
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
                   <span className="text-[11px] font-black uppercase text-[#1886ff] bg-blue-50 px-2 py-0.5 rounded">Stage 1: Days 1–15</span>
-                  <h3 className="font-bold text-slate-900 text-sm">Forensic Statement Audit &amp; Net Principal Isolation</h3>
-                  <p className="text-slate-600">Audit the certified Statement of Account, deduct regular interest, strip out 36% compound penal fees and bounce charges, establishing the net principal baseline for negotiation.</p>
+                  <h3 className="font-bold text-slate-900 text-sm">Forensic Statement Audit &amp. Net main sum Isolation</h3>
+                  <p className="text-slate-600">Audit the signed Statement of Account. Deduct regular rates. Strip out 36% compound penal fees and bounce charges. Establishing the net main sum baseline for talks.</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
                   <span className="text-[11px] font-black uppercase text-[#1886ff] bg-blue-50 px-2 py-0.5 rounded">Stage 2: Days 16–30</span>
-                  <h3 className="font-bold text-slate-900 text-sm">Hardship Dossier Compilation &amp; Legal Shielding</h3>
-                  <p className="text-slate-600">Assemble authentic layoff, revenue loss, or medical records. Concurrently serve a Cease-and-Desist notice under the RBI Fair Practices Code to stop recovery agent visits.</p>
+                  <h3 className="font-bold text-slate-900 text-sm">Hardship Dossier Compilation &amp. Legal Shielding</h3>
+                  <p className="text-slate-600">Assemble authentic layoff. Revenue loss. medical records. Concurrently serve a Cease-and-Desist notice under the RBI Fair Practices Code to stop agents visits.</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
                   <span className="text-[11px] font-black uppercase text-[#1886ff] bg-blue-50 px-2 py-0.5 rounded">Stage 3: Days 31–45</span>
-                  <h3 className="font-bold text-slate-900 text-sm">Formal Representation to Credit Risk Committee</h3>
-                  <p className="text-slate-600">Submit a formal OTS petition to the Zonal Head of NPA Recovery and Credit Committee, citing RBI compromise guidelines and initiating talks at 30%–35%.</p>
+                  <h3 className="font-bold text-slate-900 text-sm">Formal Representation to Credit Risk board</h3>
+                  <p className="text-slate-600">Submit a formal OTS petition to the Zonal Head of NPA claims and Credit board. Citing RBI deal guidelines and initiating talks at 30%. 35%.</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
                   <span className="text-[11px] font-black uppercase text-[#1886ff] bg-blue-50 px-2 py-0.5 rounded">Stage 4: Days 46–60</span>
-                  <h3 className="font-bold text-slate-900 text-sm">Bilateral Negotiations &amp; Provisioning Leverage</h3>
-                  <p className="text-slate-600">Leverage DRT tribunal delays, borrower illiquidity, and bank capital provisioning pressures to finalize a formal compromise at 40%–55% of net principal.</p>
+                  <h3 className="font-bold text-slate-900 text-sm">Bilateral talks &amp. Provisioning Leverage</h3>
+                  <p className="text-slate-600">Leverage DRT court delays. Clients illiquidity. bank capital provisioning pressures to finalize a formal deal at 40%. 55% of net main sum.</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
                   <span className="text-[11px] font-black uppercase text-[#1886ff] bg-blue-50 px-2 py-0.5 rounded">Stage 5: Days 61–75</span>
-                  <h3 className="font-bold text-slate-900 text-sm">Legal Vetting of Settlement Sanction Letter</h3>
-                  <p className="text-slate-600">Thoroughly vet the formal Settlement Sanction Letter on official bank letterhead signed by an authorized manager to ensure full waivers and explicit NDC commitments.</p>
+                  <h3 className="font-bold text-slate-900 text-sm">Legal Vetting of closure Sanction Letter</h3>
+                  <p className="text-slate-600">Thoroughly vet the formal closure Sanction Letter on valid bank letterhead signed by an authorized manager to ensure full waivers and explicit NDC commitments.</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
                   <span className="text-[11px] font-black uppercase text-[#1886ff] bg-blue-50 px-2 py-0.5 rounded">Stage 6: Days 76–90</span>
-                  <h3 className="font-bold text-slate-900 text-sm">Direct Remittance, Case Withdrawal &amp; NDC Issuance</h3>
-                  <p className="text-slate-600">Remit funds directly into your loan account via RTGS/NEFT. Secure the official No Dues Certificate within 30 days and confirm civil case closures.</p>
+                  <h3 className="font-bold text-slate-900 text-sm">Direct wire transfer. Case Withdrawal &amp. NDC Issuance</h3>
+                  <p className="text-slate-600">Remit funds straight into your loan account via RTGS/NEFT. Secure the valid No Dues letter within 30 days and confirm civil case closures.</p>
                 </div>
               </div>
             </section>
@@ -573,29 +519,24 @@ export default function SettleThirtyLakhPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 6. Formal Legal Notice Defense &amp; Statutory Legal Framework
               </h2>
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                When managing a ₹30 Lakh personal loan default, understanding statutory defense frameworks is crucial to protecting your rights against institutional bank notices:
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> When managing a ₹30 Lakh own loan default. Grasp legal defense frameworks is crucial to protecting your rights against bank bank notices: </p>
 
               <div className="bg-slate-900 text-slate-100 p-4 sm:p-5 rounded-2xl font-mono text-xs space-y-2.5 shadow-md">
                 <div className="text-emerald-400 font-bold">[STATUTORY NOTICE DEFENSE FRAMEWORKS]</div>
                 <div className="border-t border-slate-800 pt-2 space-y-2 text-slate-300">
-                  <p><span className="text-yellow-400">1. SECTION 25 PSSA 2007 (NACH BOUNCE):</span> Issued for electronic clearing bounce. Serve a formal 15-day legal reply proving lack of mens rea and submitting an OTS compromise. Proceedings are quashed upon settlement.</p>
-                  <p><span className="text-yellow-400">2. SECTION 138 NI ACT 1881 (CHEQUE BOUNCE):</span> Issued for dishonoured security cheques. Compoundable under Section 147; dismissed immediately upon settlement payment.</p>
+                  <p><span className="text-yellow-400">1. SECTION 25 PSSA 2007 (NACH BOUNCE):</span> Issued for online clearing bounce. Serve a formal 15-day legal reply proving lack of mens rea and submitting an OTS deal. steps are quashed upon closure.</p>
+                  <p><span className="text-yellow-400">2. SECTION 138 NI ACT 1881 (CHEQUE BOUNCE):</span> Issued for dishonoured security cheques. Compoundable under Section 147. dismissed fast upon closure payment.</p>
                   <p><span className="text-yellow-400">3. ARBITRATION ACT (SECTION 21):</span> Supreme Court rulings in TRF Ltd. and Perkins Eastman prohibit unilateral arbitrator appointments. Ineligibility is absolute under Section 12(5).</p>
-                  <p><span className="text-yellow-400">4. SECTION 19 RDB ACT (DRT RECOVERY):</span> Applies to claims over ₹20L. File written statement contesting penal interest and petition for Lok Adalat referral to execute an out-of-court OTS.</p>
+                  <p><span className="text-yellow-400">4. SECTION 19 RDB ACT (DRT claims):</span> Applies to claims over ₹20L. File written statement contesting penal rates and petition for Lok Adalat referral to execute an out-of-court OTS.</p>
                 </div>
               </div>
 
               <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-2 text-xs">
-                <h3 className="font-bold text-slate-900 text-sm flex items-center gap-2">
-                  <ShieldCheck className="w-4 h-4 text-[#1886ff]" />
-                  Borrower Rights Under RBI Fair Practices Code
-                </h3>
+                <h3 className="font-bold text-slate-900 text-sm flex items-center gap-2"> <ShieldCheck className="w-4 h-4 text-[#1886ff]" /> clients Rights Under RBI Fair Practices Code </h3>
                 <ul className="list-disc pl-5 text-slate-600 space-y-1">
-                  <li>No collection calls or home visits before 8:00 AM or after 7:00 PM.</li>
-                  <li>Strict prohibition against contacting employers, workplace colleagues, or relatives.</li>
-                  <li>Zero tolerance for intimidating, abusive, or defamatory language.</li>
+                  <li>No calls calls or home visits before 8:00 AM or after 7:00 PM.</li>
+                  <li>Strict prohibition against contacting employers. Workplace colleagues. relatives.</li>
+                  <li>Zero tolerance for threaten. Abusive. false language.</li>
                 </ul>
               </div>
             </section>
@@ -613,17 +554,17 @@ export default function SettleThirtyLakhPersonalLoanClient() {
               <div className="space-y-3 text-xs">
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
                   <span className="text-[11px] font-bold text-[#1886ff] bg-blue-50 px-2 py-0.5 rounded">Level 1: Grievance Redressal Officer (GRO)</span>
-                  <p className="text-slate-600 mt-1">Submit a formal written OTS compromise representation to the Branch Manager and GRO (7–10 days turnaround for dispute assessment).</p>
+                  <p className="text-slate-600 mt-1">Submit a formal written OTS deal representation to the Branch Manager and GRO (7. 10 days turnaround for dispute assessment).</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
                   <span className="text-[11px] font-bold text-indigo-700 bg-indigo-50 px-2 py-0.5 rounded">Level 2: Principal Nodal Officer (PNO)</span>
-                  <p className="text-slate-600 mt-1">Escalate to Bank PNO if unresolved within 30 days or for harassment violations (14–21 days turnaround for committee escalation).</p>
+                  <p className="text-slate-600 mt-1">Escalate to Bank PNO if unresolved within 30 days or for threats violations (14. 21 days turnaround for board escalation).</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-emerald-200 shadow-xs space-y-1">
                   <span className="text-[11px] font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded">Level 3: RBI Integrated Ombudsman</span>
-                  <p className="text-slate-600 mt-1">Lodge regulatory complaint at <strong>cms.rbi.org.in</strong> for statutory intervention and binding settlement direction.</p>
+                  <p className="text-slate-600 mt-1">Lodge RBI complaint at <strong>cms.rbi.org.in</strong> for legal action and binding closure direction.</p>
                 </div>
               </div>
             </section>
@@ -650,34 +591,34 @@ export default function SettleThirtyLakhPersonalLoanClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-600">
                     <tr className="divide-x divide-slate-200/80">
-                      <td className="p-3 font-bold text-slate-900">Days 1–30</td>
+                      <td className="p-3 font-bold text-slate-900">Days 1. 30</td>
                       <td className="p-3">SMA-0</td>
-                      <td className="p-3">SMS &amp; call reminders</td>
-                      <td className="p-3 text-[#1886ff] font-semibold">Audit statement, calculate net principal, preserve liquidity</td>
+                      <td className="p-3">SMS &amp. call reminders</td>
+                      <td className="p-3 text-[#1886ff] font-semibold">Audit statement. Calculate net main sum. Preserve liquidity</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80">
-                      <td className="p-3 font-bold text-slate-900">Days 31–90</td>
+                      <td className="p-3 font-bold text-slate-900">Days 31. 90</td>
                       <td className="p-3">SMA-1 / SMA-2</td>
                       <td className="p-3">Demand notices</td>
-                      <td className="p-3 text-[#1886ff] font-semibold">Compile hardship dossier; issue Cease-and-Desist notice</td>
+                      <td className="p-3 text-[#1886ff] font-semibold">Compile hardship dossier. issue Cease-and-Desist notice</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80">
-                      <td className="p-3 font-bold text-slate-900">Days 91–120</td>
+                      <td className="p-3 font-bold text-slate-900">Days 91. 120</td>
                       <td className="p-3">NPA</td>
                       <td className="p-3">Section 25 / DRT notice</td>
-                      <td className="p-3 text-[#1886ff] font-semibold">Submit formal OTS proposal to Zonal Credit Committee</td>
+                      <td className="p-3 text-[#1886ff] font-semibold">Submit formal OTS proposal to Zonal Credit board</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80">
-                      <td className="p-3 font-bold text-slate-900">Months 4–5</td>
-                      <td className="p-3">Compromise Window</td>
-                      <td className="p-3">Credit Committee review</td>
-                      <td className="p-3 text-[#1886ff] font-semibold">Negotiate 40%–55% waiver; secure written Sanction Letter</td>
+                      <td className="p-3 font-bold text-slate-900">Months 4. 5</td>
+                      <td className="p-3">deal Window</td>
+                      <td className="p-3">Credit board review</td>
+                      <td className="p-3 text-[#1886ff] font-semibold">settle 40%. 55% waiver. secure written Sanction Letter</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80">
                       <td className="p-3 font-bold text-slate-900">Month 6</td>
-                      <td className="p-3">Settled &amp; Closed</td>
-                      <td className="p-3">Issue official NDC</td>
-                      <td className="p-3 text-[#1886ff] font-semibold">Remit funds directly; secure NDC; begin CIBIL rebuilding</td>
+                      <td className="p-3">Settled &amp. Closed</td>
+                      <td className="p-3">Issue valid NDC</td>
+                      <td className="p-3 text-[#1886ff] font-semibold">Remit funds straight. secure NDC. begin CIBIL rebuilding</td>
                     </tr>
                   </tbody>
                 </table>
@@ -697,22 +638,22 @@ export default function SettleThirtyLakhPersonalLoanClient() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
                   <h3 className="font-bold text-slate-900 text-sm">Multi-Lender Portfolios (₹12L + ₹10L + ₹8L)</h3>
-                  <p className="text-slate-600">Prioritize aggressive lenders first and execute structured, phased settlements across each bank without depleting reserves on partial EMIs.</p>
+                  <p className="text-slate-600">Prioritize harsh lenders first and execute structured. Phased closures across each bank without depleting reserves on partial EMIs.</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
-                  <h3 className="font-bold text-slate-900 text-sm">Corporate Executives Facing Layoffs</h3>
-                  <p className="text-slate-600">Present authenticated termination letters and liquid asset exhaustion to secure maximum principal haircuts from credit committees.</p>
+                  <h3 className="font-bold text-slate-900 text-sm">firm Executives Facing Layoffs</h3>
+                  <p className="text-slate-600">Present authenticated end letters and liquid asset exhaustion to secure maximum main sum haircuts from credit boards.</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
-                  <h3 className="font-bold text-slate-900 text-sm">Proprietorship Business Working Capital</h3>
-                  <p className="text-slate-600">Submit audited balance sheets, GST revenue drops, and creditor lists to verify business insolvency and obtain deep settlement discounts.</p>
+                  <h3 className="font-bold text-slate-900 text-sm">Proprietorship firm Working Capital</h3>
+                  <p className="text-slate-600">Submit audited balance sheets. GST revenue drops. creditor lists to check firm insolvency and obtain deep closure discounts.</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs space-y-1">
-                  <h3 className="font-bold text-slate-900 text-sm">Debts Sold to ARCs (CFM, Phoenix, ARCIL)</h3>
-                  <p className="text-slate-600">ARCs purchase bad loan portfolios at 70%–80% discounts, allowing substantial settlement headroom of 60% to 75% total waivers.</p>
+                  <h3 className="font-bold text-slate-900 text-sm">Debts Sold to ARCs (CFM. Phoenix. ARCIL)</h3>
+                  <p className="text-slate-600">ARCs purchase bad loan portfolios at 70%. 80% discounts. Allowing substantial closure headroom of 60% to 75% total waivers.</p>
                 </div>
               </div>
             </section>
@@ -776,12 +717,12 @@ export default function SettleThirtyLakhPersonalLoanClient() {
 
               <ul className="space-y-1.5 text-xs text-slate-700 leading-relaxed list-disc pl-5">
                 <li><strong className="text-slate-900 font-bold">Reserve Bank of India (RBI):</strong> Master Direction on Fair Practices Code for Lenders.</li>
-                <li><strong className="text-slate-900 font-bold">RBI Integrated Ombudsman Scheme, 2021:</strong> Statutory dispute mechanism on cms.rbi.org.in.</li>
-                <li><strong className="text-slate-900 font-bold">CICRA 2005 (Section 21):</strong> Credit dispute resolution and bureau remark rectification.</li>
-                <li><strong className="text-slate-900 font-bold">PSSA 2007 (Section 25):</strong> Dishonour of electronic funds transfer / NACH mandates.</li>
-                <li><strong className="text-slate-900 font-bold">RDB Act 1993 (Section 19):</strong> Original Applications before Debt Recovery Tribunals (DRT).</li>
-                <li><strong className="text-slate-900 font-bold">Indian Contract Act 1872:</strong> Sections 73 &amp; 74 regarding civil contractual damages.</li>
-                <li><strong className="text-slate-900 font-bold">NI Act 1881 (Section 138 &amp; 147):</strong> Cheque dishonour defense and compounding of offenses.</li>
+                <li><strong className="text-slate-900 font-bold">RBI Integrated RBI officer Scheme. 2021:</strong> legal dispute mechanism on cms.rbi.org.in.</li>
+                <li><strong className="text-slate-900 font-bold">CICRA 2005 (Section 21):</strong> Credit dispute relief and desk remark rectification.</li>
+                <li><strong className="text-slate-900 font-bold">PSSA 2007 (Section 25):</strong> Dishonour of online funds transfer / NACH mandates.</li>
+                <li><strong className="text-slate-900 font-bold">RDB Act 1993 (Section 19):</strong> Original Applications before Debt claims Tribunals (DRT).</li>
+                <li><strong className="text-slate-900 font-bold">Indian Contract Act 1872:</strong> Sections 73 &amp. 74 regarding civil contractual damages.</li>
+                <li><strong className="text-slate-900 font-bold">NI Act 1881 (Section 138 &amp. 147):</strong> Cheque dishonour defense and growing of offenses.</li>
               </ul>
 
               {/* 6 Official Outbound Authority Link Badges */}
@@ -857,14 +798,10 @@ export default function SettleThirtyLakhPersonalLoanClient() {
                   >
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[10px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional
-                  </p>
+                  <p className="text-[10px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief experts </p>
                 </div>
               </div>
-              <p className="text-slate-600 leading-relaxed text-[11px]">
-                Specialized in banking compliance, high-value debt dispute resolution, and NPA compromise negotiations across DRT and civil banking forums.
-              </p>
+              <p className="text-slate-600 leading-relaxed text-[11px]"> Specialized in banking compliance. High-value debt dispute relief. NPA deal talks across DRT and civil banking forums. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
                   <span>Author Profile</span>
@@ -885,12 +822,8 @@ export default function SettleThirtyLakhPersonalLoanClient() {
                 <span className="text-[10px] font-black uppercase text-blue-200 bg-white/10 px-2.5 py-0.5 rounded-full inline-block">
                   100% CONFIDENTIAL DEBT RELIEF
                 </span>
-                <p className="text-base font-bold text-white leading-snug">
-                  Defaulting on a ₹30 Lakh Personal Loan?
-                </p>
-                <p className="text-blue-100 text-xs leading-relaxed font-normal">
-                  Our debt resolution experts negotiate directly with bank credit committees to stop litigation, secure a 45% to 60% loan waiver, and protect your assets.
-                </p>
+                <p className="text-base font-bold text-white leading-snug"> Defaulting on a ₹30 Lakh own Loan? </p>
+                <p className="text-blue-100 text-xs leading-relaxed font-normal"> Our debt relief experts settle straight with bank credit boards to stop litigation. Secure a 45% to 60% loan waiver. protect your assets. </p>
               </div>
               <Link
                 href="/contact"
@@ -911,9 +844,9 @@ export default function SettleThirtyLakhPersonalLoanClient() {
               <p className="font-bold text-slate-900 text-xs">The CredSettle Advantage</p>
               <ul className="space-y-1.5 text-slate-600 text-[11px]">
                 <li className="flex items-center gap-1.5"><Check className="w-3 h-3 text-emerald-600 flex-shrink-0" /><span><strong>Zero Upfront Risk:</strong> Success-linked fee model.</span></li>
-                <li className="flex items-center gap-1.5"><Check className="w-3 h-3 text-emerald-600 flex-shrink-0" /><span><strong>Direct Remittance:</strong> Zero middleman fund holding.</span></li>
-                <li className="flex items-center gap-1.5"><Check className="w-3 h-3 text-emerald-600 flex-shrink-0" /><span><strong>RBI &amp; DRT Compliance:</strong> 100% lawful dispute handling.</span></li>
-                <li className="flex items-center gap-1.5"><Check className="w-3 h-3 text-emerald-600 flex-shrink-0" /><span><strong>Pan-India Defense:</strong> Senior banking advocates.</span></li>
+                <li className="flex items-center gap-1.5"><Check className="w-3 h-3 text-emerald-600 flex-shrink-0" /><span><strong>Direct wire transfer:</strong> Zero middleman fund holding.</span></li>
+                <li className="flex items-center gap-1.5"><Check className="w-3 h-3 text-emerald-600 flex-shrink-0" /><span><strong>RBI &amp. DRT Compliance:</strong> 100% lawful dispute handling.</span></li>
+                <li className="flex items-center gap-1.5"><Check className="w-3 h-3 text-emerald-600 flex-shrink-0" /><span><strong>Pan-India Defense:</strong> Senior banking counsel.</span></li>
               </ul>
             </div>
 

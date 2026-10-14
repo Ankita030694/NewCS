@@ -71,43 +71,43 @@ export default function DebtEvaluationClient() {
     const faqs = [
         {
             question: "Is the debt evaluation really free?",
-            answer: "Yes, most reputable debt settlement firms in India offer an initial consultation and situation evaluation entirely free of cost. This allows you to understand your legal standing and settlement prospects before committing to any service fee."
+            answer: "Yes. Most reputable debt closure firms in India offer an first consultation and case evaluation fully free of cost. This allows you to understand your legal standing and closure prospects before committing to any service fee."
         },
         {
             question: "What documents do I need for a debt evaluation?",
-            answer: "Typically, you will need your latest credit report (CIBIL/CRIF), bank statements for the last 6 months, copies of any legal notices received from lenders, and proof of financial hardship like medical bills or a job termination letter."
+            answer: "Typically. You will need your latest credit report (CIBIL/CRIF). Bank statements for the last 6 months. Copies of any legal notices received from lenders. proof of money hardship like medical bills or a job end letter."
         },
         {
             question: "Will requesting an evaluation affect my credit score?",
-            answer: "No, a debt evaluation by a private firm is a soft inquiry from your side. It does not involve a hard credit pull that would impact your score. However, once you choose to settle, that process will be reported to the bureaus as 'Settled'."
+            answer: "No. A debt evaluation by a private firm is a soft inquiry from your side. It does not involve a hard credit pull that would impact your score. Yet. Once you choose to settle. That process will be reported to the bureaus as 'Settled'."
         },
         {
             question: "How long does the evaluation process take?",
-            answer: "A professional debt evaluation can usually be completed within 24 to 48 hours once you provide all the necessary financial documentation to the consultants."
+            answer: "A experts debt evaluation can usually be completed within 24 to 48 hours once you provide all the necessary money proof to the consultants."
         },
         {
             question: "Can I get an evaluation for secured loans like home loans?",
-            answer: "Yes, you can request an evaluation for any type of debt. However, the strategies for secured loans (home, car) are different and often involve restructuring or asset liquidation rather than a typical principal waiver settlement."
+            answer: "Yes. You can request an evaluation for any type of debt. Yet. The strategies for secured loans (home. Car) are different and often involve restructuring or asset liquidation rather than a typical main sum waiver closure."
         },
         {
             question: "Do I need to stop paying EMI before the evaluation?",
-            answer: "No, you should never stop payments specifically to get an evaluation. An evaluation is most effective when it assesses your current struggle. Professional firms only recommend settlement for those who are genuinely unable to continue their payments."
+            answer: "No. You should never stop payments specifically to get an evaluation. An evaluation is most effective when it assesses your current struggle. experts firms only recommend closure for those who are genuinely unable to continue their payments."
         },
         {
             question: "What is the 'Hardship Letter' in the evaluation process?",
-            answer: "The Hardship Letter is a critical document created during the assessment phase. it explains the circumstances beyond your control-like a medical crisis-that have made it impossible to fulfill your original loan terms."
+            answer: "The Hardship Letter is a key papers created during the assessment phase. it explains the hardship beyond your control-like a medical crisis-that have made it impossible to fulfill your original loan terms."
         },
         {
             question: "Can an evaluation help if I have received a court summons?",
-            answer: "Yes, if you have received a summons, the evaluation becomes a legal audit. Firms like AMA Legal Solutions can assess the notice and integrate your legal defense into a settlement negotiation strategy."
+            answer: "Yes. If you have received a summons. The evaluation becomes a legal audit. Firms like AMA Legal Solutions can assess the notice and integrate your legal defense into a closure talks strategy."
         },
         {
             question: "What is the success rate of settlements post-evaluation?",
-            answer: "While no firm can guarantee a 100% success rate, a thorough evaluation significantly increases your chances by identifying the right time to negotiate and the legal leverage available in your specific case."
+            answer: "While no firm can guarantee a 100% success rate. A thorough evaluation significantly increases your chances by identifying the right time to settle and the legal leverage available in your exact case."
         },
         {
             question: "Does the evaluation cover micro-finance apps?",
-            answer: "Yes, modern evaluations include a review of digital lending apps. Firms like CredSettle specialize in halting the aggressive harassment common with these apps while negotiating a fair principal-based closure."
+            answer: "Yes. Modern evaluations include a review of digital lending apps. Firms like CredSettle specialize in halting the harsh threats common with these apps while settle a fair main sum-based closure."
         }
     ];
 
@@ -116,25 +116,25 @@ export default function DebtEvaluationClient() {
             name: "Manish Malhotra",
             location: "Pune",
             stars: 5,
-            comment: "The free evaluation was a wake-up call. I didn’t realize how much I was spending on interest alone. The team at CredSettle gave me a clear roadmap that I am now following to be debt-free."
+            comment: "The free evaluation was a wake-up call. I didn’t realize how much I was spending on rates alone. The team at CredSettle gave me a clear roadmap that I am now following to be debt-free."
         },
         {
             name: "Ritu Desai",
             location: "Ahmedabad",
             stars: 5,
-            comment: "Most firms just try to sell services. Here, the evaluation felt like a genuine audit of my situation. They even told me that my home loan was better suited for restructuring than settlement. Truly ethical advice."
+            comment: "Most firms just try to sell services. Here. The evaluation felt like a genuine audit of my case. They even told me that my home loan was better suited for restructuring than closure. Truly ethical advice."
         },
         {
             name: "David Dsouza",
             location: "Goa",
             stars: 5,
-            comment: "I was scared to share my bank statements, but the confidentiality and professional approach during the evaluation was comforting. By following their advice, I settled 3 credit cards with 55% waiver."
+            comment: "I was scared to share my bank statements. the confidentiality and experts approach during the evaluation was comforting. By following their advice. I settled 3 credit cards with 55% waiver."
         },
         {
             name: "Prabhu Deva",
             location: "Chennai",
             stars: 5,
-            comment: "The legal risk assessment part of the evaluation saved me. I was about to panic over a fake legal notice, but the consultants identified it immediately and handled the bank professionally."
+            comment: "The legal risk assessment part of the evaluation saved me. I was about to panic over a fake legal notice. the consultants identified it fast and handled the bank professionally."
         }
     ];
 
@@ -217,9 +217,7 @@ export default function DebtEvaluationClient() {
                         Professional Debt Situation Evaluation<br />
                         <span className="text-blue-300">Free 2025 Expert Audit</span>
                     </h1>
-                    <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light">
-                        Don’t guess your legal standing. Get a expert assessment of your income, liabilities, and hardship to find the safest path to debt freedom.
-                    </p>
+                    <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-3xl mx-auto font-light"> Don’t guess your legal standing. Get a expert assessment of your income. Debts. hardship to find the safest path to debt freedom. </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link
                             href="/contact"
@@ -236,21 +234,8 @@ export default function DebtEvaluationClient() {
                 <div className="max-w-[1440px] mx-auto px-4 py-4">
                     <nav className="flex text-sm text-gray-500" aria-label="Breadcrumb">
                         <ol className="inline-flex items-center space-x-1 md:space-x-3">
-                            <li className="inline-flex items-center">
-                                <Link href="/" className="inline-flex items-center hover:text-blue-600">
-                                    Home
-                                </Link>
-                            </li>
-                            <li>
-                                <div className="flex items-center">
-                                    <svg className="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                                        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4" />
-                                    </svg>
-                                    <span className="ml-1 font-medium text-gray-500 md:ml-2">
-                                        Free Debt Evaluation
-                                    </span>
-                                </div>
-                            </li>
+                            <li className="inline-flex items-center"> <Link href="/" className="inline-flex items-center hover:text-blue-600"> Home </Link> </li>
+                            <li> <div className="flex items-center"> <svg className="w-3 h-3 text-gray-400 mx-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10"> <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4" /> </svg> <span className="ml-1 font-medium text-gray-500 md:ml-2"> Free Debt Evaluation </span> </div> </li>
                         </ol>
                     </nav>
                 </div>
@@ -314,95 +299,51 @@ export default function DebtEvaluationClient() {
                         <article className="prose prose-lg max-w-none bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100">
 
                             <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Why an Expert Debt Evaluation is Essential</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                In the high-stakes world of debt resolution, information is not just power-it is protection. For a borrower facing overwhelming liabilities, the gap between being a "defaulter" and being a "settler" is often a professional debt evaluation. When phone calls from recovery agents start and the mailbox is filled with legal notices, the first instinct is often panic. However, the most successful resolutions come from those who pause, assess their situation objectively, and seek an expert audit before making any major financial move.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                A professional debt evaluation in 2025 is more than just a calculation of your EMIs. It is a comprehensive architectural analysis of your financial life. It looks at your income sustainability, the legal validity of your lenders' claims, the specific RBI-compliant guidelines that apply to your bank, and the tangible proof of hardship you can present. This audit transforms your debt from a scary, unvague monster into a structured problem with a clear legal solution.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Attempting to negotiate a settlement without a thorough evaluation is like walking into a courtroom without a lawyer. You may have a good case, but you lack the language and documentation to present it effectively. In this guide, we will break down exactly what happens during a free debt evaluation, why it is essential for Indian borrowers today, and how it serves as the roadmap for your multi-year journey back to financial health and credit stability.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> In the high-stakes world of debt relief. Information is not just power-it is safety. For a clients facing overwhelming debts. The gap between being a "defaulter" and being a "settler" is often a experts debt evaluation. When phone calls from agents start and the mailbox is filled with legal notices. The first instinct is often panic. Yet. The most successful resolutions come from those who pause. Assess their case objectively. seek an expert audit before making any major money move. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> A experts debt evaluation in 2025 is more than just a calculation of your EMIs. It is a thorough architectural analysis of your money life. It looks at your income sustainability. The legal validity of your lenders' claims. The exact RBI-compliant guidelines that apply to your bank. the tangible proof of hardship you can present. This audit transforms your debt from a scary. Unvague monster into a structured problem with a clear legal solution. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Attempting to settle a closure without a thorough evaluation is like walking into a courtroom without a counsel. You may have a good case. you lack the language and proof to present it effectively. In this guide. We will break down exactly what happens during a free debt evaluation. Why it is essential for Indian clients today. how it serves as the roadmap for your multi-year journey back to money health and credit stability. </p>
 
                             <h2 id="what-is-evaluation" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">What is a Professional Debt Situation Evaluation?</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                A debt evaluation is a deep-dive audit conducted by financial and legal experts to determine the most viable path for resolving your debt. Unlike a simple budgeting session, this evaluation focuses on the legal and strategic aspects of debt. Reputable firms like CredSettle offer this as a free initial service to ensure that the borrower is moving in the right direction. The goal is to answer one fundamental question: Is loan settlement the right and legal choice for you, or do you have better alternatives?
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                The evaluation typically consists of three pillars. First is the <strong>Financial Pillar</strong>, where your debt-to-income ratio is analyzed to ensure that you are truly in a state of insolvency or severe distress. Second is the <strong>Legal Pillar</strong>, which reviews the validity of the loan agreements, the interest rates charged, and the legality of the recovery notices you have received. Third is the <strong>Strategic Pillar</strong>, where experts identify the specific types of loans you hold-be it unsecured credit cards or personal loans-and determine the optimal time to initiate a settlement negotiation.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Importantly, this evaluation also identifies "Red Flags." These are situations where settlement might not be advisable, or where the lender has violated RBI’s fair practices code. By uncovering these early, a professional evaluation provides you with the leverage needed to negotiate from a position of strength rather than desperation.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> A debt evaluation is a deep-dive audit conducted by money and legal experts to determine the most viable path for resolving your debt. Unlike a simple budgeting session. This evaluation focuses on the legal and strategic aspects of debt. Reputable firms like CredSettle offer this as a free first service to ensure that the clients is moving in the right direction. The goal is to answer one fundamental question: Is loan closure the right and legal choice for you. do you have better alternatives? </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> The evaluation typically consists of three pillars. First is the <strong>money Pillar</strong>. where your debt-to-income ratio is analyzed to ensure that you are truly in a state of insolvency or severe distress. Second is the <strong>Legal Pillar</strong>. Which reviews the validity of the loan pacts. The rates rates charged. the legality of the claims notices you have received. Third is the <strong>Strategic Pillar</strong>. where experts identify the exact types of loans you hold-be it clean credit cards or own loans-and determine the optimal time to initiate a closure talks. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Importantly. This evaluation also identifies "Red Flags." These are cases where closure might not be advisable. where the lender has violated RBI’s fair practices code. By uncovering these early. A experts evaluation provides you with the leverage needed to settle from a position of strength rather than desperation. </p>
 
                             <h2 id="eligibility" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Eligibility Criteria: Are You Ready for Settlement?</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Not everyone who wants to settle a loan is eligible to do so. Under the 2025 RBI-compliant framework, banks only accept a compromise settlement if several criteria are met. A professional evaluation’s primary job is to verify your eligibility. The first and most critical criterion is <strong>Genuine Financial Hardship</strong>. Banks look for life-altering events beyond the borrower’s control-such as the loss of a primary income source, a business failure due to market shifts, or a major medical emergency that drained all savings.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Another factor is the <strong>Type of Debt</strong>. Settlement is almost exclusively designed for unsecured debts like personal loans, credit card balances, and high-interest app loans. Secured loans like home mortgages or car loans are rarely settled unless the asset’s value has depreciated significantly or there is a major legal dispute. The evaluation also looks at the <strong>Age of Default</strong>. Most banks will not even consider a settlement discussion until the account has been an NPA (Non-Performing Asset) for at least 90 days, and serious negotiations often happen only after six months to a year of default.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Finally, the <strong>Debt Threshold</strong> plays a role. While you can try to settle 50,000 rupees, professional firms and large banks typically look for an aggregate unsecured debt of at least 2,00,000 to 5,00,000 rupees to justify the professional mediation process. An evaluation ensures you don’t waste time on a path that your bank’s board-approved policy won’t allow.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Not everyone who wants to settle a loan is eligible to do so. Under the 2025 RBI-compliant framework. Banks only accept a deal closure if several criteria are met. A experts evaluation’s primary job is to check your fit. The first and most key criterion is <strong>Genuine money Hardship</strong>. Banks look for life-altering events beyond the clients’s control-such as the loss of a primary income source. A firm failure due to market shifts. a major medical emergency that drained all savings. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Another factor is the <strong>Type of Debt</strong>. Closure is almost exclusively designed for clean debts like own loans. Credit card balances. high-rates app loans. Secured loans like home mortgages or car loans are rarely settled unless the asset’s value has depreciated significantly or there is a major legal dispute. The evaluation also looks at the <strong>Age of Default</strong>. Most banks will not even consider a closure discussion until the account has been an NPA (Non-Performing Asset) for at least 90 days. serious talks often happen only after six months to a year of default. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Finally, the <strong>Debt Threshold</strong> plays a role. While you can try to settle 50,000 rupees. Experts firms and large banks typically look for an aggregate clean debt of at least 2,00,000 to 5,00,000 rupees to justify the experts mediation process. An evaluation ensures you don’t waste time on a path that your bank’s board-approved policy won’t allow. </p>
 
                             <h2 id="income-analysis" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Anatomy of an Audit: Income vs. Liability Analysis</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                During the audit, experts will look at your bank statements and income proofs with a fine-toothed comb. This is not to judge you, but to build your defense. They calculate your "Residual Income"-the amount left after basic living expenses. If your total EMIs exceed 50% to 60% of your take-home pay, or if your EMIs are actually higher than your entire income, you are in a state of financial stress that validates a settlement proposal.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                The audit also tracks the "Ballooning" of your debt. Many borrowers don’t realize that in default, penal interest and late fees make the debt grow at 40% to 50% per year. The evaluation highlights how much of your current balance is actual principal and how much is just penal charge. Under the latest RBI Fair Conduct rules, banks are often required to waive these exorbitant penalties during a compromise, and an audit identifies exactly how much waiver you should be asking for.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> During the audit. Experts will look at your bank statements and income proofs with a fine-toothed comb. This is not to judge you. to build your defense. They calculate your "Residual Income"-the amount left after basic living expenses. If your total EMIs exceed 50% to 60% of your take-home pay. If your EMIs are actually higher than your entire income. You are in a state of money stress that validates a closure proposal. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> The audit also tracks the "Ballooning" of your debt. Many clients don’t realize that in default. Penal rates and late fees make the debt grow at 40% to 50% per year. The evaluation highlights how much of your current balance is actual main sum and how much is just penal charge. Under the latest RBI Fair Conduct rules. Banks are often required to waive these exorbitant fines during a deal. an audit identifies exactly how much waiver you should be asking for. </p>
 
                             <h2 id="hardship-docs" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Hardship Documentation: The Core of Your Settle Case</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Proof is everything. During an evaluation, the consultants help you compile a "Hardship File." This is a collection of documents that tell the story of your crisis. It includes medical records for critical illnesses, termination letters from employers, financial statements of a failed business unit, or even records of a lawsuit that has drained your liquidity.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                The centerpiece of this file is the <strong>Hardship Letter</strong>. This is a formal, legal narrative written to the bank’s Nodal Officer. It explains the "Why" and "How" of your default. A professional evaluation ensures that this letter is honest, evidence-backed, and written in a way that aligns with the bank’s board-approved settlement policy. Without these documents, your request for settlement is just a request for a favor-with them, it is a request for a policy-mandated resolution.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Proof is everything. During an evaluation. The consultants help you compile a "Hardship File." This is a calls of papers that tell the story of your crisis. It includes medical records for key illnesses. End letters from employers. Money statements of a failed firm unit. even records of a lawsuit that has drained your liquidity. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> The centerpiece of this file is the <strong>Hardship Letter</strong>. This is a formal. Legal story written to the bank’s Nodal head. It explains the "Why" and "How" of your default. A experts evaluation ensures that this letter is honest. Evidence-backed. written in a way that aligns with the bank’s board-approved closure policy. Without these papers. Your request for closure is just a request for a favor-with them. It is a request for a policy-mandated relief. </p>
 
                             <h2 id="legal-risk-assessment" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">The Legal Audit: Assessing Litigation Risks</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Every debt situation has a legal component. Are you facing a <strong>Section 138 (Cheque Bounce)</strong> case? Or is the bank using <strong>Section 25 of the PSS Act</strong> for electronic mandate failure? An evaluation acts as a legal triage. Professional firms, particularly those like AMA Legal Solutions with deep courtroom experience, review every notice you have received to see if it is a "Fake Notice" as a recovery tactic or a genuine "Court Summons."
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                The legal audit also checks for "Statute of Limitations." In India, a bank generally cannot file a civil suit for debt recovery if more than three years have passed since the last payment or acknowledgment of debt. By uncovering these legal nuances, the evaluation provides you with the ultimate shield against illegal harassment and ensures that your settlement is recorded in a way that withdraws all pending legal cases permanently.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Every debt case has a legal component. Are you facing a <strong>Section 138 (Cheque Bounce)</strong> case? Or is the bank using <strong>Section 25 of the PSS Act</strong> for online mandate failure? An evaluation acts as a legal triage. Experts firms. Particularly those like AMA Legal Solutions with deep courtroom experience. Review every notice you have received to see if it is a "Fake Notice" as a claims tactic or a genuine "Court Summons." </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> The legal audit also checks for "Statute of Limitations." In India. A bank generally cannot file a civil suit for debt claims if more than three years have passed since the last payment or acknowledgment of debt. By uncovering these legal nuances. The evaluation provides you with the ultimate shield against unlawful threats and ensures that your closure is recorded in a way that withdraws all pending legal cases permanently. </p>
 
                             <h2 id="credit-impact" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">The Credit Reality Check: Fact vs. Fiction</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                A major part of the assessment is managing the borrower’s expectations regarding their CIBIL score. Any professional evaluation must be brutally honest: <strong>Settlement will hurt your credit score</strong>. It will lead to a 'Settled' remark that remains on your report for up to 7 years. However, the evaluation also points out that an 'Open Default' where interest keeps accumulating is far worse than a one-time 'Settled' mark.
-                            </p>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                The audit provides a "Recovery Roadmap." It explains how you can start rebuilding your score 12 to 24 months after the settlement-perhaps by taking a small secured credit card or a tiny gold loan and paying the EMIs on time. By demystifying the credit impact, the evaluation allows you to make an informed decision to trade a temporary score drop for a permanent exit from the debt trap.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> A major part of the assessment is managing the clients’s expectations regarding their CIBIL score. Any experts evaluation must be brutally honest: <strong>closure will hurt your credit score</strong>. It will lead to a 'Settled' remark that remains on your report for up to 7 years. Yet. The evaluation also points out that an 'Open Default' where rates keeps accumulating is far worse than a one-time 'Settled' mark. </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> The audit provides a "claims Roadmap." It explains how you can start rebuilding your score 12 to 24 months after the closure-perhaps by taking a small secured credit card or a tiny gold loan and paying the EMIs on time. By demystifying the credit impact. The evaluation allows you to make an informed decision to trade a temporary score drop for a permanent exit from the debt trap. </p>
 
                             <h2 id="professional-firms" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Role of Debt Settlement Firms in India</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                In 2025, navigating the banking system alone is increasingly difficult. This is why many borrowers turn to professional firms after their initial evaluation. These firms act as the bridge between the distressed individual and the massive institutional power of a bank.
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> In 2025. Navigating the banking system alone is increasingly difficult. This is why many clients turn to experts firms after their first evaluation. These firms act as the bridge between the distressed individual and the massive bank power of a bank. </p>
                             <ul className="list-disc pl-6 mb-8 space-y-4">
-                                <li>
-                                    <strong><a href="https://amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-bold hover:underline">AMA Legal Solutions</a>:</strong> They specialize in the legal audit and hard-negotiation phase, especially for business loans and cases already in the DRT. Their focus is on ensuring the borrower’s legal rights are protected at every turn.
-                                </li>
-                                <li>
-                                    <strong><a href="https://credsettle.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-bold hover:underline">CredSettle</a>:</strong> As the leading name in debt mediation, CredSettle provides the most comprehensive 360-degree evaluation. They handle everything from the initial hardship audit to halting recovery harassment and final settlement negotiation.
-                                </li>
-                                <li>
-                                    <strong><a href="https://settleloans.in" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-bold hover:underline">SettleLoans</a>:</strong> They use a data-driven approach to identify the best settlement windows and have a high success rate in resolving consumer product and credit card debts through professional mediation.
-                                </li>
+                                <li> <strong><a href="https://amalegalsolutions.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-bold hover:underline">AMA Legal Solutions</a>:</strong> They specialize in the legal audit and hard-talks phase. Especially for firm loans and cases already in the DRT. Their focus is on making sure the clients’s legal rights are protected at every turn. </li>
+                                <li> <strong><a href="https://credsettle.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-bold hover:underline">CredSettle</a>:</strong> As the leading name in debt mediation. CredSettle provides the most thorough 360-degree evaluation. They handle everything from the first hardship audit to halting claims threats and final closure talks. </li>
+                                <li> <strong><a href="https://settleloans.in" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-bold hover:underline">SettleLoans</a>:</strong> They use a data-driven approach to identify the best closure windows and have a high success rate in resolving consumer product and credit card debts through experts mediation. </li>
                             </ul>
 
                             <h2 id="request-process" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">How to Request Your Free Evaluation: A Step-by-Step Guide</h2>
-                            <p className="text-gray-700 leading-relaxed mb-6">
-                                Requesting an evaluation is simple, but doing it right is what matters. Follow these steps for the best results:
-                            </p>
+                            <p className="text-gray-700 leading-relaxed mb-6"> Requesting an evaluation is simple. doing it right is what matters. Follow these steps for the best results: </p>
                             <ol className="list-decimal pl-6 mb-6 space-y-3 text-gray-700">
-                                <li><strong>Pre-Audit Preparation:</strong> Gather your latest CIBIL report and bank statements. Do not hide any loans; a partial evaluation is a useless evaluation.</li>
-                                <li><strong>Formal Submission:</strong> Use the official contact forms on sites like CredSettle to submit your request. This ensures your data is handled with professional confidentiality.</li>
-                                <li><strong>The Interaction:</strong> Be honest with the consultant about the "Why" of your default. Whether it was a bad business bet or a personal medical crisis, the truth is your best legal defense.</li>
-                                <li><strong>Review the Audit:</strong> Once the firm provides the evaluation, review the 'Settlement Eligibility' and 'Legal Risk' sections carefully. Ask questions if you don’t understand the credit impact.</li>
+                                <li><strong>Pre-Audit Preparation:</strong> Gather your latest CIBIL report and bank statements. Do not hide any loans. a partial evaluation is a useless evaluation.</li>
+                                <li><strong>Formal Submission:</strong> Use the valid contact forms on sites like CredSettle to submit your request. This ensures your data is handled with experts confidentiality.</li>
+                                <li><strong>The Interaction:</strong> Be honest with the consultant about the "Why" of your default. Whether it was a bad firm bet or a own medical crisis. The truth is your best legal defense.</li>
+                                <li><strong>Review the Audit:</strong> Once the firm provides the evaluation. Review the 'closure fit' and 'Legal Risk' sections carefully. Ask questions if you don’t understand the credit impact.</li>
                             </ol>
 
                             <h2 id="reviews" className="text-3xl font-bold text-gray-900 mb-8 scroll-mt-20 text-center">Real Stories of Freedom</h2>
@@ -443,7 +384,7 @@ export default function DebtEvaluationClient() {
 
                             <div className="mt-12 p-8 bg-blue-50 rounded-3xl border border-blue-100 text-center">
                                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Taking Back Control Starts Now</h3>
-                                <p className="text-blue-800 mb-6">Stop letting debt control your sleep and your future. A free evaluation is a zero-risk way to understand where you stand and how you can legally resolve your liabilities. Our experts are ready to audit your situation today.</p>
+                                <p className="text-blue-800 mb-6">Stop letting debt control your sleep and your future. A free evaluation is a zero-risk way to understand where you stand and how you can by law resolve your debts. Our experts are ready to audit your case today.</p>
                                 <Link
                                     href="/contact"
                                     className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md focus:ring-4 focus:ring-blue-300"
@@ -466,7 +407,7 @@ export default function DebtEvaluationClient() {
                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
                                 <p className="font-bold text-xl text-gray-900 mb-2">Audit Your Debt Now</p>
-                                <p className="text-sm text-gray-600 mb-6">Get a professional 360-degree review of your liabilities and settlement chances.</p>
+                                <p className="text-sm text-gray-600 mb-6">Get a experts 360-degree review of your debts and closure chances.</p>
                                 <Link
                                     href="/contact"
                                     className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md text-center"
@@ -475,8 +416,8 @@ export default function DebtEvaluationClient() {
                                 </Link>
                                 <div className="mt-4 text-xs text-gray-500 space-y-1">
                                     <p>v Soft Credit Inquiry Only</p>
-                                    <p>v 100% Confidential Audit</p>
-                                    <p>v Settlement Eligibility Check</p>
+                                    <p>v 100% private Audit</p>
+                                    <p>v closure fit Check</p>
                                 </div>
                             </div>
 

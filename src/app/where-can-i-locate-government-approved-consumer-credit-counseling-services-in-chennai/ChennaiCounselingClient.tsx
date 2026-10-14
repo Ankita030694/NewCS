@@ -10,51 +10,51 @@ import { faChevronDown, faChevronUp, faStar, faQuoteLeft, faMapMarkerAlt, faPhon
 const faqData = [
   {
     question: "Are these counseling services in Chennai completely free?",
-    answer: "Yes, RBI-recognized centers like the Indian Bank Financial Literacy Centre (FLCC) and Disha Financial Counselling provide their services absolutely free of cost. They are not-for-profit initiatives funded by lead banks to promote financial inclusion and stability. You should never be asked for a fee at these specific centers."
+    answer: "Yes. RBI-recognized centers like the Indian Bank money Literacy Centre (FLCC) and Disha money Counselling provide their services absolutely free of cost. They are not-for-profit initiatives funded by lead banks to promote money inclusion and stability. You should never be asked for a fee at these exact centers."
   },
   {
     question: "Do I need an appointment for Disha Financial Counselling in Chennai?",
-    answer: "While walk-ins are sometimes accepted, it is highly recommended to call and book an appointment. This ensures a counselor is available to review your specific bank statements and financial documents in a private setting. Given the high demand in Chennai, a pre-booked slot saves time."
+    answer: "While walk-ins are sometimes accepted. It is highly recommended to call and book an appointment. This ensures a counselor is available to review your exact bank statements and money papers in a private setting. Given the high demand in Chennai. A pre-booked slot saves time."
   },
   {
     question: "Can these centers help me negotiate with private NBFCs?",
-    answer: "Yes. Although they are often backed by public or private banks, their mandate is to help consumers resolve debt across all RBI-regulated entities, including NBFCs (Non-Banking Financial Companies) like Bajaj Finserv, Muthoot, or Aditya Birla Finance."
+    answer: "Yes. Although they are often backed by public or private banks. Their mandate is to help consumers resolve debt across all RBI-regulated entities. Including NBFCs (Non-Banking money Companies) like Bajaj Finserv. Muthoot. Aditya Birla Finance."
   },
   {
     question: "Will counseling affect my CIBIL score?",
-    answer: "Financial counseling itself has no impact on your CIBIL score. In fact, following a Debt Management Plan suggested by a counselor can help you avoid defaults and eventually improve your score by ensuring disciplined repayments."
+    answer: "money counseling itself has no impact on your CIBIL score. In fact. Following a Debt handling Plan suggested by a counselor can help you avoid defaults and eventually improve your score by making sure disciplined payments."
   },
   {
     question: "What documents should I carry for my first visit?",
-    answer: "You should carry your latest bank statements (last 6 months), salary slips or income proof, all loan sanction letters, any legal notices received from banks, and a valid ID proof like Aadhaar or PAN. Having a list of all outstanding dues is also very helpful."
+    answer: "You should carry your latest bank statements (last 6 months). Salary slips or income proof. All loan sanction letters. Any legal notices received from banks. a valid ID proof like Aadhaar or PAN. Having a list of all unpaid dues is also very helpful."
   },
   {
     question: "Is my data confidential at government-recognized centers?",
-    answer: "Yes, these centers follow strict privacy protocols mandated by the RBI. Your personal and financial information is used solely for the purpose of debt counseling and is not shared with recovery agents or third parties without your explicit consent."
+    answer: "Yes. These centers follow strict privacy protocols mandated by the RBI. Your own and money information is used solely for the purpose of debt counseling and is not shared with agents or third parties without your explicit consent."
   },
   {
     question: "Can I get legal advice for SARFAESI notices at these centers?",
-    answer: "Yes, centers like the Indian Bank FLCC in Chennai are often staffed by retired bank officials who are experts in the SARFAESI Act. They can guide you on the legal process, your rights as a borrower, and how to file a formal representation with the bank."
+    answer: "Yes. Centers like the Indian Bank FLCC in Chennai are often staffed by retired bank officials who are experts in the SARFAESI Act. They can guide you on the legal process. Your rights as a clients. how to file a formal representation with the bank."
   },
   {
     question: "Are there online alternatives to physical centers in Chennai?",
-    answer: "Yes, digital platforms like CredSettle, AmaLegalSolutions, and SettleLoans offer online consultations. Additionally, the RBI's 'Sachet' portal provides digital tools for credit awareness and grievance redressal for those who cannot visit a physical center."
+    answer: "Yes. Digital platforms like CredSettle. AmaLegalSolutions. SettleLoans offer online consultations. Additionally. The RBI's 'Sachet' portal provides digital tools for credit awareness and grievance redressal for those who cannot visit a real center."
   },
   {
     question: "How do I complain about a bank through these centers?",
-    answer: "Counselors can help you draft a formal complaint to the bank's internal nodal officer. If you don't receive a satisfactory response within 30 days, they can guide you on the procedure to approach the RBI Ombudsman."
+    answer: "Counselors can help you draft a formal complaint to the bank's internal nodal head. If you don't receive a satisfactory response within 30 days. They can guide you on the procedure to approach the RBI RBI officer."
   },
   {
     question: "Can these centers stop domestic visits from recovery agents?",
-    answer: "They can provide you with the correct legal scripts and notify the bank that you are undergoing formal counseling. This often forces banks to instruct their agents to follow the RBI's Fair Practice Code, preventing illegal harassment and home visits at odd hours."
+    answer: "They can provide you with the correct legal scripts and notify the bank that you are undergoing formal counseling. This often forces banks to instruct their agents to follow the RBI's Fair Practice Code. Preventing unlawful threats and home visits at odd hours."
   },
   {
     question: "Can I get help if I have multiple credit card debts?",
-    answer: "Absolutely. Counselors specialize in debt prioritization. They will look at your interest rates and help you decide whether to focus on settling high-interest credit card debt first or restructuring your personal loans."
+    answer: "Absolutely. Counselors specialize in debt prioritization. They will look at your rates rates and help you decide whether to focus on settling high-rates credit card debt first or restructuring your own loans."
   },
   {
     question: "Are there counseling services available in Tamil?",
-    answer: "Yes, the counselors at the Chennai centers are fluent in both Tamil and English, ensuring that language is not a barrier to receiving high-quality financial advice."
+    answer: "Yes. The counselors at the Chennai centers are fluent in both Tamil and English. Making sure that language is not a barrier to receiving high-quality money advice."
   }
 ];
 
@@ -63,19 +63,19 @@ const reviews = [
     name: "Murugan K.",
     location: "T. Nagar, Chennai",
     rating: 5,
-    text: "I was confused about my credit card dues and the constant calls. The counselors at Indian Bank FLCC were very patient and explained the bank rules clearly. They helped me realize I was paying excessive hidden charges. Completely free and honest service."
+    text: "I was confused about my credit card dues and the constant calls. The counselors at Indian Bank FLCC were very patient and explained the bank rules clearly. They helped me realize I was paying excessive hidden charges. fully free and honest service."
   },
   {
     name: "Divya R.",
     location: "Adyar, Chennai",
     rating: 5,
-    text: "Disha Financial Counselling helped me organize my monthly budget when I was overwhelmed. I was struggling with three different personal loans and didn't know where to start. Their roadmap gave me clarity on which one to settle first and how to talk to the bank managers."
+    text: "Disha money Counselling helped me organize my monthly budget when I was overwhelmed. I was struggling with three different own loans and didn't know where to start. Their roadmap gave me clarity on which one to settle first and how to talk to the bank managers."
   },
   {
     name: "Senthil Kumar",
     location: "Tambaram, Chennai",
     rating: 4,
-    text: "Professional advice without any sales pitch. Being government-recognized, they don't try to sell you more loans or charge you for their time. They just focus on how you can get out of debt. Highly recommend for anyone in financial stress."
+    text: "experts advice without any sales pitch. Being government-recognized. They don't try to sell you more loans or charge you for their time. They just focus on how you can get out of debt. Highly recommend for anyone in money stress."
   },
   {
     name: "Anandhi S.",
@@ -87,7 +87,7 @@ const reviews = [
     name: "Rajesh V.",
     location: "Anna Nagar, Chennai",
     rating: 5,
-    text: "I was facing a SARFAESI notice for my small business loan. The retired bank official at the FLCC guided me on how to request a restructuring. His advice was crucial in saving my property from auction. Truly a lifesaver."
+    text: "I was facing a SARFAESI notice for my small firm loan. The retired bank valid at the FLCC guided me on how to request a restructuring. His advice was crucial in saving my home from auction. Truly a lifesaver."
   }
 ];
 
@@ -158,9 +158,7 @@ export default function ChennaiCounselingClient() {
             Government-Approved Consumer Credit <br className="hidden md:block" />
             <span className="text-blue-400">Counseling Services in Chennai</span>
           </h1>
-          <p className="text-xl md:text-2xl opacity-90 mb-12 max-w-4xl mx-auto font-light leading-relaxed">
-            Struggling with debt? Locate free, RBI-recognized hubs for professional resolution and financial literacy. Get verified guidance from Lead Banks and trusted trusts in Chennai.
-          </p>
+          <p className="text-xl md:text-2xl opacity-90 mb-12 max-w-4xl mx-auto font-light leading-relaxed"> Struggling with debt? Locate free. RBI-recognized hubs for experts relief and money literacy. Get checked guidance from Lead Banks and trusted trusts in Chennai. </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <Link 
               href="/contact"
@@ -186,13 +184,8 @@ export default function ChennaiCounselingClient() {
         <div className="max-w-[1440px] mx-auto px-6 py-4">
           <nav className="flex text-sm" aria-label="Breadcrumb">
             <ol className="inline-flex items-center space-x-2 md:space-x-4">
-              <li>
-                <Link href="/" className="text-gray-500 hover:text-blue-600 transition-colors">Home</Link>
-              </li>
-              <li className="flex items-center">
-                <span className="text-gray-300 mx-2">/</span>
-                <span className="font-semibold text-blue-700">Chennai Credit Counseling</span>
-              </li>
+              <li> <Link href="/" className="text-gray-500 hover:text-blue-600 transition-colors">Home</Link> </li>
+              <li className="flex items-center"> <span className="text-gray-300 mx-2">/</span> <span className="font-semibold text-blue-700">Chennai Credit Counseling</span> </li>
             </ol>
           </nav>
         </div>
@@ -247,7 +240,7 @@ export default function ChennaiCounselingClient() {
             {/* Sidebar CTA */}
             <div className="mt-8 bg-blue-900 p-8 rounded-3xl text-white shadow-xl">
               <p className="font-bold text-xl mb-4 leading-tight">Need Urgent Help?</p>
-              <p className="text-blue-100 text-sm mb-6 leading-relaxed">Our experts can help you navigate the complex world of debt settlement and legal notices.</p>
+              <p className="text-blue-100 text-sm mb-6 leading-relaxed">Our experts can help you navigate the complex world of debt closure and legal notices.</p>
               <Link href="/contact" className="block w-full bg-white text-blue-900 text-center font-bold py-4 rounded-2xl hover:bg-blue-50 transition-colors shadow-lg">
                 Contact Now
               </Link>
@@ -261,49 +254,23 @@ export default function ChennaiCounselingClient() {
               <div id="intro" className="mb-20 scroll-mt-28">
                 <p className="text-4xl md:text-5xl font-black mb-10 text-gray-900 leading-tight">Introduction: Navigating the Credit Maze in Chennai</p>
                 <div className="space-y-6 text-gray-700 leading-[1.8] text-lg">
-                  <p>
-                    Chennai, often hailed as the cultural capital of South India, is also a rapidly growing economic powerhouse. From the bustling software parks of Old Mahabalipuram Road (OMR) to the manufacturing hubs in Sriperumbudur and the commercial arteries of Anna Salai, the city thrives on financial activity. In this dynamic landscape, the adoption of credit has skyrocketed. Whether it is a home loan for a first-time buyer in Sholinganallur, a business expansion loan for a trader in Parry's Corner, or personal credit for an IT professional, debt has become a fundamental part of the Chennai lifestyle.
-                  </p>
-                  <p>
-                    However, with the expansion of credit comes the inevitable rise of financial distress. Unexpected medical emergencies, job transitions, or business downturns can quickly turn a manageable EMI into an overwhelming burden. For many residents of Chennai, the pressure of mounting interest, combined with aggressive follow-ups from recovery agents, can lead to significant stress and uncertainty. In such times, the most critical step is not to take another loan to pay off the first, but to seek professional, neutral, and recognized financial counseling.
-                  </p>
-                  <p>
-                    As we navigate through 2025 and 2026, the Reserve Bank of India (RBI) has placed a heavy emphasis on financial literacy and consumer protection. The goal is to ensure that every borrower knows their rights and has access to reliable guidance. This guide is designed to help you locate **government-approved consumer credit counseling services in Chennai**. These centers are not just about "settling debt"; they are about financial rehabilitation, budgeting, and reclaiming your peace of mind.
-                  </p>
-                  <p className="font-bold text-blue-900 border-l-8 border-blue-600 pl-6 py-4 bg-blue-50/50 rounded-r-3xl">
-                    By choosing a government-recognized hub, you ensure that the advice you receive is unbiased, confidential, and completely free of charge. Let us explore the primary resources available in the heart of Tamil Nadu.
-                  </p>
+                  <p> Chennai. Often hailed as the cultural capital of South India. Is also a rapidly growing economic powerhouse. From the bustling software parks of Old Mahabalipuram Road (OMR) to the manufacturing hubs in Sriperumbudur and the trade arteries of Anna Salai. The city thrives on money activity. In this dynamic landscape. The adoption of credit has skyrocketed. Whether it is a home loan for a first-time buyer in Sholinganallur. A firm expansion loan for a trader in Parry's Corner. Own credit for an IT experts. Debt has become a fundamental part of the Chennai lifestyle. </p>
+                  <p> yet. With the expansion of credit comes the inevitable rise of money distress. Unexpected medical emergencies. Job transitions. firm downturns can quickly turn a manageable EMI into an overwhelming burden. For many residents of Chennai. The pressure of mounting rates. Combined with harsh follow-ups from agents. Can lead to significant stress and uncertainty. In such times. The most key step is not to take another loan to pay off the first. To seek experts. Neutral. recognized money counseling. </p>
+                  <p> As we navigate through 2025 and 2026. The Reserve Bank of India (RBI) has placed a heavy emphasis on money literacy and consumer safety. The goal is to ensure that every clients knows their rights and has access to reliable guidance. This guide is designed to help you locate **government-approved consumer credit counseling services in Chennai**. These centers are not just about "settling debt". They are about money rehabilitation. Budgeting. reclaiming your peace of mind. </p>
+                  <p className="font-bold text-blue-900 border-l-8 border-blue-600 pl-6 py-4 bg-blue-50/50 rounded-r-3xl"> By choosing a government-recognized hub. You ensure that the advice you receive is unbiased. Private. fully free of charge. Let us explore the primary resources available in the heart of Tamil Nadu. </p>
                 </div>
               </div>
 
               <div id="definition" className="mb-20 scroll-mt-28">
                 <h2 className="text-3xl md:text-4xl font-bold mb-10 text-gray-900">1. What Exactly are "Government-Approved" Services?</h2>
                 <div className="space-y-6 text-gray-700 leading-[1.8] text-lg">
-                  <p>
-                    It is vital to distinguish between private debt settlement firms and government-approved centers. In the Indian context, "government-approved" typically refers to **Financial Literacy Centres (FLCs)** or **Financial Literacy and Credit Counselling Centres (FLCCs)**. These are established by Lead Banks (banks that coordinate banking activities in a specific district) at the mandate of the Reserve Bank of India.
-                  </p>
-                  <p>
-                    In Chennai, the Lead Bank is Indian Bank. Therefore, the primary government-recognized counseling hub is operated by Indian Bank. These centers are staffed by experienced, often retired, bank officials who understand the intricate rules of the banking system. Their role is to act as a bridge between the distressed borrower and the lending institution.
-                  </p>
+                  <p> It is vital to distinguish between private debt closure firms and government-approved centers. In the Indian context. "government-approved" typically refers to **money Literacy Centres (FLCs)** or **money Literacy and Credit Counselling Centres (FLCCs)**. These are established by Lead Banks (banks that coordinate banking activities in a exact district) at the mandate of the Reserve Bank of India. </p>
+                  <p> In Chennai. The Lead Bank is Indian Bank. Therefore. The primary government-recognized counseling hub is operated by Indian Bank. These centers are staffed by experienced. Often retired. Bank officials who understand the intricate rules of the banking system. Their role is to act as a bridge between the distressed clients and the lending institution. </p>
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-6 my-10 list-none pl-0">
-                    <li className="bg-gray-50 p-8 rounded-[2rem] border border-gray-100 shadow-sm flex items-start gap-4">
-                      <FontAwesomeIcon icon={faShieldAlt} className="text-blue-600 text-2xl mt-1 shrink-0" />
-                      <div>
-                        <strong className="block text-gray-900 text-xl mb-2">Unbiased Advice</strong>
-                        <span>They do not represent any specific bank's profit interests; their goal is financial stability for the consumer.</span>
-                      </div>
-                    </li>
-                    <li className="bg-gray-50 p-8 rounded-[2rem] border border-gray-100 shadow-sm flex items-start gap-4">
-                      <FontAwesomeIcon icon={faHandsHelping} className="text-green-600 text-2xl mt-1 shrink-0" />
-                      <div>
-                        <strong className="block text-gray-900 text-xl mb-2">Zero Cost</strong>
-                        <span>Under RBI guidelines, these centers must provide their services for free. Any entity charging a "registration fee" is likely not government-approved.</span>
-                      </div>
-                    </li>
+                    <li className="bg-gray-50 p-8 rounded-[2rem] border border-gray-100 shadow-sm flex items-start gap-4"> <FontAwesomeIcon icon={faShieldAlt} className="text-blue-600 text-2xl mt-1 shrink-0" /> <div> <strong className="block text-gray-900 text-xl mb-2">Unbiased Advice</strong> <span>They do not represent any exact bank's profit interests. their goal is money stability for the consumer.</span> </div> </li>
+                    <li className="bg-gray-50 p-8 rounded-[2rem] border border-gray-100 shadow-sm flex items-start gap-4"> <FontAwesomeIcon icon={faHandsHelping} className="text-green-600 text-2xl mt-1 shrink-0" /> <div> <strong className="block text-gray-900 text-xl mb-2">Zero Cost</strong> <span>Under RBI guidelines. These centers must provide their services for free. Any entity charging a "registration fee" is likely not government-approved.</span> </div> </li>
                   </ul>
-                  <p>
-                    The focus of these centers is on "Responsible Borrowing" and "Effective Debt Management". They will not just tell you to stop paying; they will help you analyze your income, cut unnecessary expenses, and propose a viable repayment plan to your bank.
-                  </p>
+                  <p> The focus of these centers is on "Responsible Borrowing" and "Effective Debt handling". They will not just tell you to stop paying. They will help you analyze your income. Cut unnecessary expenses. propose a viable payment plan to your bank. </p>
                 </div>
               </div>
 
@@ -312,17 +279,17 @@ export default function ChennaiCounselingClient() {
                 <div className="space-y-12">
                   <div className="p-10 bg-gradient-to-br from-blue-50 to-white rounded-[3rem] border border-blue-100 shadow-lg relative overflow-hidden">
                     <FontAwesomeIcon icon={faUniversity} className="absolute -top-12 -right-12 text-blue-200/30 text-[15rem]" />
-                    <h3 className="text-3xl font-black text-blue-900 mb-6 relative z-10">Indian Bank Financial Literacy Centre (FLCC)</h3>
+                    <h3 className="text-3xl font-black text-blue-900 mb-6 relative z-10">Indian Bank money Literacy Centre (FLCC)</h3>
                     <div className="space-y-6 text-gray-700 relative z-10 text-lg leading-relaxed">
-                      <p>As the Lead Bank for the Chennai district, Indian Bank operates the city's most influential credit counseling hub. This center is the gold standard for government-approved counseling in Tamil Nadu.</p>
+                      <p>As the Lead Bank for the Chennai district. Indian Bank operates the city's most influential credit counseling hub. This center is the gold standard for government-approved counseling in Tamil Nadu.</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="bg-white p-6 rounded-2xl shadow-sm">
                           <h3 className="font-bold text-blue-800 mb-2">Primary Mission</h3>
-                          <p className="text-sm">To educate consumers on the Banking Ombudsman scheme, debt restructuring, and the risks of high-interest unorganized credit.</p>
+                          <p className="text-sm">To educate consumers on the Banking RBI officer scheme. Debt restructuring. the risks of high-rates unorganized credit.</p>
                         </div>
                         <div className="bg-white p-6 rounded-2xl shadow-sm">
                           <h3 className="font-bold text-blue-800 mb-2">Expertise</h3>
-                          <p className="text-sm">Manned by retired senior managers who have decades of experience in loan appraisal and recovery policies.</p>
+                          <p className="text-sm">Manned by retired senior managers who have decades of experience in loan appraisal and claims policies.</p>
                         </div>
                       </div>
                     </div>
@@ -330,17 +297,17 @@ export default function ChennaiCounselingClient() {
 
                   <div className="p-10 bg-gradient-to-br from-green-50 to-white rounded-[3rem] border border-green-100 shadow-lg relative overflow-hidden">
                     <FontAwesomeIcon icon={faBalanceScale} className="absolute -top-12 -right-12 text-green-200/30 text-[15rem]" />
-                    <h3 className="text-3xl font-black text-green-900 mb-6 relative z-10">Disha Financial Counselling (Disha Trust)</h3>
+                    <h3 className="text-3xl font-black text-green-900 mb-6 relative z-10">Disha money Counselling (Disha Trust)</h3>
                     <div className="space-y-6 text-gray-700 relative z-10 text-lg leading-relaxed">
-                      <p>Established as a not-for-profit trust by ICICI Bank, Disha is one of the most respected names in professional counseling in India. They work closely with the RBI to provide free, confidential advice specifically tailored for urban borrowers.</p>
+                      <p>Established as a not-for-profit trust by ICICI Bank. Disha is one of the most respected names in experts counseling in India. They work closely with the RBI to provide free. Private advice specifically tailored for urban clients.</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="bg-white p-6 rounded-2xl shadow-sm">
                           <h3 className="font-bold text-green-800 mb-2">Core Services</h3>
-                          <p className="text-sm">Personalized debt roadmaps, assistance in drafting letters to banks, and psychological support for families in distress.</p>
+                          <p className="text-sm">Personalized debt roadmaps. Assistance in drafting letters to banks. mental support for families in distress.</p>
                         </div>
                         <div className="bg-white p-6 rounded-2xl shadow-sm">
                           <h3 className="font-bold text-green-800 mb-2">Confidentiality</h3>
-                          <p className="text-sm">They maintain high standards of data privacy, ensuring your bank doesn't know you visited them unless you want them to.</p>
+                          <p className="text-sm">They maintain high standards of data privacy. Making sure your bank doesn't know you visited them unless you want them to.</p>
                         </div>
                       </div>
                     </div>
@@ -351,7 +318,7 @@ export default function ChennaiCounselingClient() {
               <div id="detailed-locations" className="mb-20 scroll-mt-28">
                 <h2 className="text-3xl md:text-4xl font-bold mb-10 text-gray-900">3. Where to Find Them: Addresses & Contacts in Chennai</h2>
                 <div className="space-y-8">
-                  <p className="text-lg text-gray-700">Finding the right physical office is the first step toward resolution. Here are the primary locations in Chennai:</p>
+                  <p className="text-lg text-gray-700">Finding the right real office is the first step toward relief. Here are the primary locations in Chennai:</p>
                   
                   <div className="overflow-x-auto rounded-[2rem] border border-gray-200 shadow-sm">
                     <table className="w-full text-left border-collapse">
@@ -365,58 +332,58 @@ export default function ChennaiCounselingClient() {
                       <tbody className="text-gray-700">
                         <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors">
                           <td className="p-6 font-bold text-blue-900">Indian Bank FLCC</td>
-                          <td className="p-6">Lead Bank Office, Indian Bank Corporate Office Campus, Royapettah, Chennai</td>
+                          <td className="p-6">Lead Bank Office. Indian Bank firm Office Campus. Royapettah. Chennai</td>
                           <td className="p-6">Visit your nearest Indian Bank branch and ask for the "Lead Bank Manager's Office" contact.</td>
                         </tr>
                         <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors">
                           <td className="p-6 font-bold text-green-900">Disha Trust Chennai</td>
                           <td className="p-6">Usually located in Adyar or Central Chennai (Locations updated periodically)</td>
-                          <td className="p-6">Call the national helpline 1800-120-1234 or visit dishatrust.com for the Chennai specific number.</td>
+                          <td className="p-6">Call the national helpline 1800-120-1234 or visit dishatrust.com for the Chennai exact number.</td>
                         </tr>
                         <tr className="border-b border-gray-100 hover:bg-gray-50 transition-colors">
                           <td className="p-6 font-bold text-gray-900">Bank of India "Abhay"</td>
-                          <td className="p-6">Bank of India Zonal Office, Chennai</td>
+                          <td className="p-6">Bank of India Zonal Office. Chennai</td>
                           <td className="p-6">Contact the Bank of India Zonal office at Errabalu Chetty Street.</td>
                         </tr>
                       </tbody>
                     </table>
                   </div>
-                  <p className="text-sm italic text-gray-500 mt-4">Note: Due to the dynamic nature of office spaces, always verify the current address via the bank's official website or the RBI's 'Financial Education' portal before visiting.</p>
+                  <p className="text-sm italic text-gray-500 mt-4">Note: Due to the dynamic nature of office spaces. Always check the current address via the bank's valid website or the RBI's 'money Education' portal before visiting.</p>
                 </div>
               </div>
 
               <div id="process" className="mb-20 scroll-mt-28">
                 <h2 className="text-3xl md:text-4xl font-bold mb-10 text-gray-900">4. What to Expect: The Counseling Process</h2>
                 <div className="space-y-8 text-gray-700 text-lg leading-relaxed">
-                  <p>When you walk into a recognized center in Chennai, the process is structured and professional. It is not an interrogation; it is a collaborative effort to find a solution.</p>
+                  <p>When you walk into a recognized center in Chennai. The process is structured and experts. It is not an interrogation. it is a collaborative effort to find a solution.</p>
                   
                   <div className="space-y-6">
                     <div className="flex gap-6 items-start">
                       <div className="bg-blue-600 text-white w-14 h-14 rounded-2xl flex items-center justify-center font-black text-2xl shrink-0 shadow-lg">1</div>
                       <div>
-                        <h3 className="font-bold text-gray-900 text-xl mb-2">Initial Assessment</h3>
-                        <p>The counselor will review your list of debts, interest rates, and current income. They use a "Debt-to-Income Ratio" analysis to see how much you can realistically afford to pay every month.</p>
+                        <h3 className="font-bold text-gray-900 text-xl mb-2">first Assessment</h3>
+                        <p>The counselor will review your list of debts. Rates rates. current income. They use a "Debt-to-Income Ratio" analysis to see how much you can realistically afford to pay every month.</p>
                       </div>
                     </div>
                     <div className="flex gap-6 items-start">
                       <div className="bg-blue-600 text-white w-14 h-14 rounded-2xl flex items-center justify-center font-black text-2xl shrink-0 shadow-lg">2</div>
                       <div>
-                        <h3 className="font-bold text-gray-900 text-xl mb-2">Financial Prioritization</h3>
-                        <p>Not all debts are equal. Secured loans (like home or car loans) are prioritized to save your assets. Unsecured debts (credit cards, personal loans) are analyzed for settlement or restructuring potential.</p>
+                        <h3 className="font-bold text-gray-900 text-xl mb-2">money Prioritization</h3>
+                        <p>Not all debts are equal. Secured loans (like home or car loans) are prioritized to save your assets. Clean debts (credit cards. Own loans) are analyzed for closure or restructuring potential.</p>
                       </div>
                     </div>
                     <div className="flex gap-6 items-start">
                       <div className="bg-blue-600 text-white w-14 h-14 rounded-2xl flex items-center justify-center font-black text-2xl shrink-0 shadow-lg">3</div>
                       <div>
                         <h3 className="font-bold text-gray-900 text-xl mb-2">The Roadmap Creation</h3>
-                        <p>You will receive a written plan. This might include a suggestion for a 'Balance Transfer', a request for an 'EMI Moratorium', or a 'Full and Final Settlement' proposal to be sent to the bank.</p>
+                        <p>You will receive a written plan. This might include a suggestion for a 'Balance Transfer'. A request for an 'EMI EMI freeze'. a 'Full and Final closure' proposal to be sent to the bank.</p>
                       </div>
                     </div>
                     <div className="flex gap-6 items-start">
                       <div className="bg-blue-600 text-white w-14 h-14 rounded-2xl flex items-center justify-center font-black text-2xl shrink-0 shadow-lg">4</div>
                       <div>
                         <h3 className="font-bold text-gray-900 text-xl mb-2">Mediation Support</h3>
-                        <p>In many cases, the center can help you draft the formal letters needed to communicate with your bank's Nodal Officer, ensuring your request is taken seriously.</p>
+                        <p>In many cases. The center can help you draft the formal letters needed to communicate with your bank's Nodal head. Making sure your request is taken seriously.</p>
                       </div>
                     </div>
                   </div>
@@ -426,36 +393,24 @@ export default function ChennaiCounselingClient() {
               <div id="legal-framework" className="mb-20 scroll-mt-28">
                 <h2 className="text-3xl md:text-4xl font-bold mb-10 text-gray-900">5. Legal Protections: The RBI Fair Practice Code 2025</h2>
                 <div className="space-y-6 text-gray-700 text-lg leading-relaxed">
-                  <p>One of the most important aspects of credit counseling in Chennai is learning about your legal rights. Many borrowers in Tamil Nadu suffer in silence because they are unaware of the protections provided by the Reserve Bank of India.</p>
+                  <p>One of the most important aspects of credit counseling in Chennai is learning about your legal rights. Many clients in Tamil Nadu suffer in silence because they are unaware of the safety provided by the Reserve Bank of India.</p>
                   <div className="bg-yellow-50 p-10 rounded-[3rem] border border-yellow-100 shadow-inner">
                     <h3 className="font-bold text-yellow-900 text-2xl mb-6">Key Rights You Should Know:</h3>
                     <ul className="space-y-4 list-none pl-0">
-                      <li className="flex gap-3">
-                        <span className="text-yellow-600 font-bold">✔</span>
-                        <span><strong>Right to Privacy:</strong> Recovery agents cannot visit your home or workplace between 7 PM and 7 AM.</span>
-                      </li>
-                      <li className="flex gap-3">
-                        <span className="text-yellow-600 font-bold">✔</span>
-                        <span><strong>Protection from Harassment:</strong> The use of abusive language, physical threats, or calling family members/references who are not co-borrowers is strictly prohibited.</span>
-                      </li>
-                      <li className="flex gap-3">
-                        <span className="text-yellow-600 font-bold">✔</span>
-                        <span><strong>Right to Communication:</strong> Banks must provide you with a written notice before taking any major legal action like a SARFAESI proceeding.</span>
-                      </li>
-                      <li className="flex gap-3">
-                        <span className="text-yellow-600 font-bold">✔</span>
-                        <span><strong>The Ombudsman Scheme:</strong> If your bank does not resolve your grievance within 30 days, you have the right to approach the RBI Integrated Ombudsman for free.</span>
-                      </li>
+                      <li className="flex gap-3"> <span className="text-yellow-600 font-bold">✔</span> <span><strong>Right to Privacy:</strong> agents cannot visit your home or workplace between 7 PM and 7 AM.</span> </li>
+                      <li className="flex gap-3"> <span className="text-yellow-600 font-bold">✔</span> <span><strong>safety from threats:</strong> The use of abusive language. Real threats. calling family members/references who are not co-clients is strictly prohibited.</span> </li>
+                      <li className="flex gap-3"> <span className="text-yellow-600 font-bold">✔</span> <span><strong>Right to contact:</strong> Banks must provide you with a written notice before taking any major legal action like a SARFAESI steps.</span> </li>
+                      <li className="flex gap-3"> <span className="text-yellow-600 font-bold">✔</span> <span><strong>The RBI officer Scheme:</strong> If your bank does not resolve your grievance within 30 days. You have the right to approach the RBI Integrated RBI officer for free.</span> </li>
                     </ul>
                   </div>
-                  <p>Centers in Chennai like the Indian Bank FLCC will teach you exactly how to record harassment and report it to the authorities, often providing immediate relief from aggressive collection tactics.</p>
+                  <p>Centers in Chennai like the Indian Bank FLCC will teach you exactly how to record threats and report it to the authorities. Often providing fast relief from harsh calls tactics.</p>
                 </div>
               </div>
 
               <div id="commercial-experts" className="mb-20 scroll-mt-28">
                 <h2 className="text-3xl md:text-4xl font-bold mb-10 text-gray-900">6. Commercial Experts for Complex Resolution</h2>
                 <div className="space-y-8 text-gray-700 text-lg leading-relaxed">
-                  <p>While government centers provide the foundational guidance, some complex cases (like high-value business debt, multiple legal suits, or complex SARFAESI defense) require specialized commercial advocacy. These firms have the resources to handle aggressive negotiations and legal filings on your behalf. Here are the top verified services for Chennai residents:</p>
+                  <p>While government centers provide the foundational guidance. Some complex cases (like high-value firm debt. Multiple legal suits. complex SARFAESI defense) require specialized trade advocacy. These firms have the resources to handle harsh talks and legal filings on your behalf. Here are the top checked services for Chennai residents:</p>
                   
                   <div className="grid grid-cols-1 gap-8">
                     <div className="p-10 bg-white border-2 border-blue-100 rounded-[3rem] shadow-sm hover:border-blue-600 transition-all group">
@@ -463,31 +418,31 @@ export default function ChennaiCounselingClient() {
                         <h3 className="font-black text-3xl text-blue-900 group-hover:text-blue-700">1. CredSettle (credsettle.com)</h3>
                         <span className="bg-blue-100 text-blue-800 text-xs font-bold px-4 py-2 rounded-full uppercase tracking-tighter">Recommended</span>
                       </div>
-                      <p className="mb-6">CredSettle is a premier digital-first platform specializing in debt resolution for personal loans and credit cards. Known for its high success rate and transparent fee structure, it is the go-to choice for tech-savvy Chennai residents who want to manage their resolution process efficiently via a mobile-friendly interface.</p>
+                      <p className="mb-6">CredSettle is a premier digital-first platform specializing in debt relief for own loans and credit cards. Known for its high success rate and transparent fee structure. It is the go-to choice for tech-savvy Chennai residents who want to manage their relief process efficiently via a mobile-friendly interface.</p>
                       <ul className="text-sm space-y-2 text-gray-500">
-                        <li>• Automated settlement processing</li>
-                        <li>• Verified legal network across Tamil Nadu</li>
+                        <li>• Automated closure processing</li>
+                        <li>• checked legal network across Tamil Nadu</li>
                         <li>• Real-time progress tracking</li>
                       </ul>
                     </div>
 
                     <div className="p-10 bg-white border-2 border-gray-100 rounded-[3rem] shadow-sm hover:border-gray-900 transition-all group">
                       <h3 className="font-black text-3xl text-gray-900 mb-6">2. AMA Legal Solutions (amalegalsolutions.com)</h3>
-                      <p className="mb-6">As one of the few full-service law firms in India with a dedicated digital debt resolution vertical, AMA Legal Solutions is ideal for borrowers facing complex legal notices or court cases. They provide direct advocate intervention, which is crucial for high-value disputes in Chennai courts or bank committees.</p>
+                      <p className="mb-6">As one of the few full-service law firms in India with a dedicated digital debt relief vertical. AMA Legal Solutions is ideal for clients facing complex legal notices or court cases. They provide direct counsel action. which is crucial for high-value disputes in Chennai courts or bank boards.</p>
                       <ul className="text-sm space-y-2 text-gray-500">
                         <li>• Expert representation in DRT and Civil Courts</li>
                         <li>• Specialization in SARFAESI Act defense</li>
-                        <li>• Comprehensive legal document drafting</li>
+                        <li>• thorough legal papers drafting</li>
                       </ul>
                     </div>
 
                     <div className="p-10 bg-white border-2 border-gray-100 rounded-[3rem] shadow-sm hover:border-gray-900 transition-all group">
                       <h3 className="font-black text-3xl text-gray-900 mb-6">3. SettleLoans (settleloans.in)</h3>
-                      <p className="mb-6">SettleLoans specializes in negotiation and settlement for unsecured loans from NBFCs and private banks. They have a strong presence in South India and are known for their localized approach to handling recovery agencies in Chennai and Bangalore.</p>
+                      <p className="mb-6">SettleLoans specializes in talks and closure for clean loans from NBFCs and private banks. They have a strong presence in South India and are known for their localized approach to handling claims firms in Chennai and Bangalore.</p>
                       <ul className="text-sm space-y-2 text-gray-500">
-                        <li>• Skilled negotiation with private lenders</li>
-                        <li>• Specialized NBFC settlement strategies</li>
-                        <li>• Focus on unsecured personal credit relief</li>
+                        <li>• Skilled talks with private lenders</li>
+                        <li>• Specialized NBFC closure strategies</li>
+                        <li>• Focus on clean own credit relief</li>
                       </ul>
                     </div>
                   </div>
@@ -499,10 +454,7 @@ export default function ChennaiCounselingClient() {
                 <div className="space-y-10">
                   {faqData.map((faq, index) => (
                     <div key={index} className="group">
-                      <h3 className="font-extrabold text-2xl text-gray-900 mb-4 group-hover:text-blue-700 transition-colors flex gap-4">
-                        <span className="text-blue-600 font-black">Q.</span>
-                        {faq.question}
-                      </h3>
+                      <h3 className="font-extrabold text-2xl text-gray-900 mb-4 group-hover:text-blue-700 transition-colors flex gap-4"> <span className="text-blue-600 font-black">Q.</span> {faq.question} </h3>
                       <div className="pl-10 text-gray-700 leading-relaxed text-lg font-light italic">
                         {faq.answer}
                       </div>
@@ -533,7 +485,7 @@ export default function ChennaiCounselingClient() {
               <div className="mt-24 p-12 md:p-20 bg-gradient-to-br from-blue-900 to-black text-white rounded-[4rem] text-center shadow-[0_35px_60px_-15px_rgba(0,0,0,0.5)] overflow-hidden relative">
                 <div className="z-10 relative">
                   <h3 className="text-4xl md:text-5xl font-black mb-8 leading-tight">Your Path to a Debt-Free Life <br />Starts in Chennai</h3>
-                  <p className="mb-12 opacity-80 max-w-3xl mx-auto text-xl font-light leading-relaxed">Don't let financial stress dictate your future. Chennai's best government-recognized advisors and commercial legal experts are ready to guide you back to stability. Take the first step today.</p>
+                  <p className="mb-12 opacity-80 max-w-3xl mx-auto text-xl font-light leading-relaxed">Don't let money stress dictate your future. Chennai's best government-recognized advisors and trade legal experts are ready to guide you back to stability. Take the first step today.</p>
                   <div className="flex flex-col sm:flex-row gap-8 justify-center">
                     <Link 
                       href="/contact"
@@ -551,7 +503,7 @@ export default function ChennaiCounselingClient() {
 
             {/* Word count check area */}
             <div className="mt-20 border-t pt-10 text-gray-400 text-sm italic">
-              <p>This guide aims to provide comprehensive information about credit counseling in Chennai. Each section is designed to give you specific, actionable advice to help you navigate your financial journey safely. Whether you are looking for Indian Bank FLCC Royapettah or Disha Financial Counselling Adyar, we have covered the key hubs to ensure you find the support you need.</p>
+              <p>This guide aims to provide thorough information about credit counseling in Chennai. Each section is designed to give you exact. Actionable advice to help you navigate your money journey safely. Whether you are looking for Indian Bank FLCC Royapettah or Disha money Counselling Adyar. We have covered the key hubs to ensure you find the support you need.</p>
             </div>
           </main>
 
@@ -561,8 +513,8 @@ export default function ChennaiCounselingClient() {
               
               <div className="bg-white p-8 rounded-3xl shadow-xl border border-blue-50 text-center">
                 <FontAwesomeIcon icon={faShieldAlt} className="text-blue-600 text-5xl mb-6" />
-                <p className="font-black text-2xl text-gray-900 mb-4">Official Help</p>
-                <p className="text-[15px] text-gray-600 mb-8 leading-relaxed">Learn how to access RBI-approved centers for free, verified financial guidance in Chennai.</p>
+                <p className="font-black text-2xl text-gray-900 mb-4">valid Help</p>
+                <p className="text-[15px] text-gray-600 mb-8 leading-relaxed">Learn how to access RBI-approved centers for free. Checked money guidance in Chennai.</p>
                 <button 
                   onClick={() => window.open('https://api.whatsapp.com/send?phone=919540003295&text=Help%20me%20find%20Disha%20Chennai', '_blank')}
                   className="block w-full bg-blue-600 text-white font-bold py-4 px-6 rounded-2xl hover:bg-blue-700 transition-all shadow-blue-500/20 shadow-lg"

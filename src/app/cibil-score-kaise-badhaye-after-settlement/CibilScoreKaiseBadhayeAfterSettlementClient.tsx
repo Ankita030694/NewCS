@@ -84,43 +84,43 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
   const faqs = [
     {
       q: 'Loan settlement ke baad CIBIL score kitna kam ho jata hai?',
-      a: 'Loan settlement hone par CIBIL score aamtaur par 70 se 120 points drop hota hai. Bank bureaus ko Settled status report karta hai, jisse naye lenders aapko high-risk borrower maante hain.'
+      a: 'Loan closure hone par CIBIL score aamtaur par 70 se 120 points drop hota hai. Bank bureaus ko Settled status report karta hai. Jisse naye lenders aapko high-risk clients maante hain.'
     },
     {
       q: 'Kya Settled status ko Closed status mein badla ja sakta hai?',
-      a: 'Haan, settled status ko Closed mein badal sakte hain. Iske liye waived principal differential pay karke bank se No Dues Certificate aur bureau status update lena hota hai.'
+      a: 'Haan. Settled status ko Closed mein badal sakte hain. Iske liye waived main sum differential pay karke bank se No Dues letter aur desk status update lena hota hai.'
     },
     {
       q: 'Loan settlement ke baad CIBIL score badhane mein kitna samay lagta hai?',
-      a: 'Settlement ke baad score ko 750+ tak pahunchane mein 12 se 24 mahine lagte hain. Is dauran secured credit card aur on-time payment track maintain karna zaroori hai.'
+      a: 'closure ke baad score ko 750+ tak pahunchane mein 12 se 24 mahine lagte hain. Is dauran secured credit card aur on-time payment track maintain karna zaroori hai.'
     },
     {
       q: 'Secured credit card kya hota hai aur yeh CIBIL kaise badhata hai?',
-      a: 'Secured credit card Fixed Deposit ke against bina credit check ke milta hai. Iska regular on-time payment record har mahine bureau par positive DPD generate karta hai.'
+      a: 'Secured credit card Fixed Deposit ke against bina credit check ke milta hai. Iska regular on-time payment record har mahine desk par positive DPD generate karta hai.'
     },
     {
       q: 'Rebuilding phase mein Credit Utilization Ratio kitna hona chahiye?',
-      a: 'Rebuilding phase mein CUR hamesha 30% se kam, aur best results ke liye 15% se 20% ke beech hona chahiye. Low utilization credit-hungry behavior avoid karta hai.'
+      a: 'Rebuilding phase mein CUR hamesha 30% se kam. Aur best results ke liye 15% se 20% ke beech hona chahiye. Low utilization credit-hungry behavior avoid karta hai.'
     },
     {
       q: 'Kya loan settlement ke baad turant naya personal loan mil sakta hai?',
-      a: 'Nahi, settlement ke turant baad unsecured loan milna mushkil hota hai kyunki banking systems Settled remark ko reject karte hain. Pehle 12 mahine secured card use karein.'
+      a: 'Nahi. Closure ke turant baad clean loan milna mushkil hota hai kyunki banking systems Settled remark ko reject karte hain. Pehle 12 mahine secured card use karein.'
     },
     {
       q: 'Settlement ke baad No Dues Certificate kitne din mein milna chahiye?',
-      a: 'RBI guidelines ke mutabik, settlement amount pay hone ke 30 dino ke bheetar lending bank ya NBFC ko official No Dues Certificate (NDC) jari karna mandatory hai.'
+      a: 'RBI guidelines ke mutabik. Payout sum pay hone ke 30 dino ke bheetar lending bank ya NBFC ko valid No Dues letter (NDC) jari karna mandatory hai.'
     },
     {
       q: 'Agar settlement ke baad bhi CIBIL par balance dikhe toh kya karein?',
-      a: 'Agar 45 dino baad bhi balance zero na ho, toh CICRA Section 21 ke tehat bureau par dispute karein aur bank GRO tatha RBI Ombudsman portal par complaint karein.'
+      a: 'Agar 45 dino baad bhi balance zero na ho. Toh CICRA Section 21 ke tehat desk par dispute karein aur bank GRO tatha RBI RBI officer portal par complaint karein.'
     },
     {
       q: 'Kya loan settlement ka asar government job ya visa par padta hai?',
-      a: 'Civil loan settlement ka government jobs ya travel visas par koi adverse impact nahi padta. Halanki, banking sector jobs mein clean credit record verification zaroori ho sakta hai.'
+      a: 'Civil loan closure ka government jobs ya travel visas par koi adverse impact nahi padta. Halanki. Banking sector jobs mein clean credit record verification zaroori ho sakta hai.'
     },
     {
       q: 'CredSettle loan settlement aur CIBIL recovery mein kaise madad karta hai?',
-      a: 'CredSettle loans par 40% se 70% legal waiver negotiate karta hai, valid NDCs verify karta hai, aur CICRA guidelines ke anusar credit score restoration roadmap provide karta.'
+      a: 'CredSettle loans par 40% se 70% legal waiver settle karta hai. Valid NDCs check karta hai. Aur CICRA guidelines ke anusar credit score restoration roadmap provide karta.'
     }
   ];
 
@@ -142,9 +142,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
             CIBIL Score Kaise Badhaye After Loan Settlement (750+ Strategy)
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed">
-            Loan settlement ke baad CIBIL score kaise badhaye? Janiye settlement remark kyu lagta hai, status closed mein kaise badlein, aur secured credit card se 12 se 24 mahine mein 750+ score kaise hasil karein.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> Loan closure ke baad CIBIL score kaise badhaye? Janiye closure remark kyu lagta hai. Status closed mein kaise badlein. Aur secured credit card se 12 se 24 mahine mein 750+ score kaise hasil karein. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -198,9 +196,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0" />
                   <span>Statutory Credit Compliance</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Governed by CICRA Act 2005 &amp; Reserve Bank of India Master Directions.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by CICRA Act 2005 &amp. Reserve Bank of India Master Directions. </p>
               </div>
             </div>
           </aside>
@@ -219,68 +215,23 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
               </div>
 
               <ul className="space-y-2.5 text-xs sm:text-sm text-slate-700 leading-relaxed">
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div>
-                    <strong className="text-slate-900 font-bold">Settled Remark:</strong> Settlement ke baad bank status Settled report karta hai jisse score 70-120 points girta hai.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div> <strong className="text-slate-900 font-bold">Settled Remark:</strong> closure ke baad bank status Settled report karta hai jisse score 70-120 points girta hai. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div>
-                    <strong className="text-slate-900 font-bold">Mandatory NDC:</strong> Settlement ke 30 dino mein bank se official NDC lena aur zero balance verify karna anivarya hai.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div> <strong className="text-slate-900 font-bold">Mandatory NDC:</strong> closure ke 30 dino mein bank se valid NDC lena aur zero balance check karna anivarya hai. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div>
-                    <strong className="text-slate-900 font-bold">Secured Card:</strong> Score recovery ke liye FD-backed card sabse tezi se positive repayment track banata hai.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div> <strong className="text-slate-900 font-bold">Secured Card:</strong> Score claims ke liye FD-backed card sabse tezi se positive payment track banata hai. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div>
-                    <strong className="text-slate-900 font-bold">Strict CUR:</strong> Scoring algorithms ke liye credit utilization hamesha 15% se 20% ke andar maintain karein.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div> <strong className="text-slate-900 font-bold">Strict CUR:</strong> Scoring algorithms ke liye credit utilization hamesha 15% se 20% ke andar maintain karein. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div>
-                    <strong className="text-slate-900 font-bold">Algorithmic Weight:</strong> CIBIL formula mein 35% weight payment history ka hai, isliye zero late payment rakhein.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div> <strong className="text-slate-900 font-bold">digital Weight:</strong> CIBIL formula mein 35% weight payment history ka hai. Isliye zero late payment rakhein. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div>
-                    <strong className="text-slate-900 font-bold">Status Upgrade:</strong> Capacity aane par waived principal pay karke settled remark ko closed mein upgrade karein.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div> <strong className="text-slate-900 font-bold">Status Upgrade:</strong> Capacity aane par waived main sum pay karke settled remark ko closed mein upgrade karein. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div>
-                    <strong className="text-slate-900 font-bold">CICRA Section 21:</strong> Galat reporting par borrower ko credit bureau aur bank ke samne dispute ka adhikar hai.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div> <strong className="text-slate-900 font-bold">CICRA Section 21:</strong> Galat reporting par clients ko credit desk aur bank ke samne dispute ka adhikar hai. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div>
-                    <strong className="text-slate-900 font-bold">Avoid Loan Spamming:</strong> Repeated loan applications se bachein kyunki hard inquiries credit score ko hurt karti hain.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div> <strong className="text-slate-900 font-bold">Avoid Loan Spamming:</strong> Repeated loan applications se bachein kyunki hard inquiries credit score ko hurt karti hain. </div> </li>
 
-                <li className="flex items-start gap-3">
-                  <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" />
-                  <div>
-                    <strong className="text-slate-900 font-bold">12-24 Mo. Window:</strong> Systematic discipline se 550 score ko dobara prime 750+ level par pahunchaya ja sakta hai.
-                  </div>
-                </li>
+                <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#1886ff] flex-shrink-0 mt-0.5" /> <div> <strong className="text-slate-900 font-bold">12-24 Mo. Window:</strong> Systematic discipline se 550 score ko dobara prime 750+ level par pahunchaya ja sakta hai. </div> </li>
               </ul>
             </div>
 
@@ -294,12 +245,8 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                 1. Debt Economics: Loan Settlement Ke Baad CIBIL Score Kyu Girta Hai?
               </h2>
               <div className="bg-white p-6 md:p-8 rounded-2xl border border-slate-200/80 shadow-xs space-y-4 text-slate-700 leading-relaxed text-sm md:text-base">
-                <p>
-                  Jab borrower genuine financial crisis jaise job loss ya business loss ke karan personal loan EMIs pay nahi kar pata, toh 90 days non-payment ke baad account NPA ban jata hai. NPA banne par RBI provisioning rules ke tehat bank ko 100% Tier-1 capital block karna padta hai. Is provisioning burden aur recovery litigation costs se bachne ke liye banks One-Time Settlement (OTS) offer karte hain jisme penal charges waive karke reduced amount par compromise settlement hota hai.
-                </p>
-                <p>
-                  Settlement ke baad bank credit bureaus ko account status Closed ke bajaye Settled report karta hai kyunki bank ne waived balance ko operational loss ke roop mein write-off kiya hota hai. Yeh Settled remark automated Loan Origination Systems ke liye risk flag ban jata hai, jisse score 70 se 120 points girta hai aur naye unsecured loans auto-reject hone lagte hain.
-                </p>
+                <p> Jab clients genuine money crisis jaise job loss ya firm loss ke karan own loan EMIs pay nahi kar pata. Toh 90 days non-payment ke baad account NPA ban jata hai. NPA banne par RBI provisioning rules ke tehat bank ko 100% Tier-1 capital block karna padta hai. Is provisioning burden aur claims litigation costs se bachne ke liye banks One-Time closure (OTS) offer karte hain jisme penal charges waive karke reduced amount par deal closure hota hai. </p>
+                <p> closure ke baad bank credit bureaus ko account status Closed ke bajaye Settled report karta hai kyunki bank ne waived balance ko operational loss ke roop mein write-off kiya hota hai. Yeh Settled remark automated Loan Origination Systems ke liye risk flag ban jata hai. Jisse score 70 se 120 points girta hai aur naye clean loans auto-reject hone lagte hain. </p>
               </div>
             </section>
 
@@ -314,9 +261,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
               </h2>
               
               <div className="bg-white p-6 md:p-8 rounded-2xl border border-slate-200/80 shadow-xs space-y-5 text-slate-700 leading-relaxed text-sm md:text-base">
-                <p>
-                  Defaulted loan accounts mein total balance ka bada hissa compounding penal interest aur bounce charges ka hota hai. CredSettle ki negotiation se yeh charges waive ho jate hain aur settlement purely adjusted principal par hota hai. Settlement ke baad CIBIL report par Current Balance ₹0 hota hai, par Written-off column mein waived amount reflect hoti hai.
-                </p>
+                <p> Defaulted loan accounts mein total balance ka bada hissa growing penal rates aur bounce charges ka hota hai. CredSettle ki talks se yeh charges waive ho jate hain aur closure purely adjusted main sum par hota hai. Closure ke baad CIBIL report par Current Balance ₹0 hota hai. Par Written-off column mein waived amount reflect hoti hai. </p>
 
                 {/* Representative Calculation Card */}
                 <div className="bg-slate-50 p-5 rounded-2xl border border-slate-200/90 space-y-4">
@@ -351,9 +296,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                     </div>
                   </div>
                   
-                  <p className="text-xs text-slate-600 pt-1">
-                    Bhavishya mein financial position strong hone par aap bachi hui principal differential amount pay karke bank se formal NDC aur bureau par Closed status update prapt kar sakte hain.
-                  </p>
+                  <p className="text-xs text-slate-600 pt-1"> Bhavishya mein money position strong hone par aap bachi hui main sum differential amount pay karke bank se formal NDC aur desk par Closed status update prapt kar sakte hain. </p>
                 </div>
               </div>
             </section>
@@ -367,9 +310,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 3. Comparison Matrix: CIBIL Rebuilding Trajectory
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Alag-alag debt resolution options, unke reporting status aur CIBIL recovery timeframe ki tulna:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Alag-alag debt relief options. Unke reporting status aur CIBIL claims timeframe ki tulna: </p>
 
               {/* 4-Sided Bordered Comparison Table */}
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto bg-white shadow-xs">
@@ -385,7 +326,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-700">
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors">
-                      <td className="p-3.5 sm:p-4 font-semibold text-slate-900">One-Time Settlement</td>
+                      <td className="p-3.5 sm:p-4 font-semibold text-slate-900">One-Time closure</td>
                       <td className="p-3.5 sm:p-4 text-amber-700 font-medium">Settled / Written-off</td>
                       <td className="p-3.5 sm:p-4 text-red-600 font-bold">Drops 70-120 pts</td>
                       <td className="p-3.5 sm:p-4">12-24 Months (Secured Route)</td>
@@ -399,11 +340,11 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                       <td className="p-3.5 sm:p-4 text-slate-800 font-medium">Restored after 12 Mo.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors">
-                      <td className="p-3.5 sm:p-4 font-semibold text-slate-900">Full Repayment</td>
+                      <td className="p-3.5 sm:p-4 font-semibold text-slate-900">Full payment</td>
                       <td className="p-3.5 sm:p-4 text-emerald-700 font-medium">Closed (Past DPD logged)</td>
                       <td className="p-3.5 sm:p-4 text-blue-600 font-bold">Stabilizes quickly</td>
                       <td className="p-3.5 sm:p-4">6-9 Months</td>
-                      <td className="p-3.5 sm:p-4 text-slate-800 font-medium">Immediate post-update</td>
+                      <td className="p-3.5 sm:p-4 text-slate-800 font-medium">fast post-update</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors">
                       <td className="p-3.5 sm:p-4 font-semibold text-slate-900">Secured Rebuilding</td>
@@ -413,7 +354,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                       <td className="p-3.5 sm:p-4 text-slate-800 font-medium">Prime 750+ Achieved</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors">
-                      <td className="p-3.5 sm:p-4 font-semibold text-slate-900">Financial Inaction</td>
+                      <td className="p-3.5 sm:p-4 font-semibold text-slate-900">money Inaction</td>
                       <td className="p-3.5 sm:p-4 text-red-700 font-medium">Suit Filed / Wilful Default</td>
                       <td className="p-3.5 sm:p-4 text-red-700 font-bold">Drops below 500</td>
                       <td className="p-3.5 sm:p-4">Indefinite Freeze</td>
@@ -434,12 +375,8 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                 4. CIBIL Scoring Math: 5 Factors &amp; Recovery Steps
               </h2>
               <div className="bg-white p-6 md:p-8 rounded-2xl border border-slate-200/80 shadow-xs space-y-4 text-slate-700 leading-relaxed text-sm md:text-base">
-                <p>
-                  TransUnion CIBIL score 300 se 900 ke numerical scale par automated mathematical algorithm calculate karta hai. Is algorithm mein sabse bada weight <strong>Payment History (35% Weight)</strong> ka hota hai jo 36 mahino ke Days Past Due (DPD) record ko measure karta hai. Settlement hone par purani DPD cycle negative signal deti hai.
-                </p>
-                <p>
-                  Doosra pramukh factor <strong>Credit Utilization Ratio (30% Weight)</strong> hai, jo credit limit ke mukable used balance ko check karta hai. Baki factors mein <strong>Credit History Duration (15% Weight)</strong>, <strong>Credit Mix (10% Weight)</strong> jisme secured aur unsecured debt ka balance dekha jata hai, aur <strong>New Hard Inquiries (10% Weight)</strong> shamil hain. Score rebuild karne ke liye 35% payment track aur 30% utilization ko strategically leverage kiya jata hai.
-                </p>
+                <p> TransUnion CIBIL score 300 se 900 ke numerical scale par automated mathematical algorithm calculate karta hai. Is algorithm mein sabse bada weight <strong>Payment History (35% Weight)</strong> ka hota hai jo 36 mahino ke Days Past Due (DPD) record ko measure karta hai. closure hone par purani DPD cycle negative signal deti hai. </p>
+                <p> Doosra pramukh factor <strong>Credit Utilization Ratio (30% Weight)</strong> hai. Jo credit limit ke mukable used balance ko check karta hai. Baki factors mein <strong>Credit History Duration (15% Weight)</strong>, <strong>Credit Mix (10% Weight)</strong> jisme secured aur clean debt ka balance dekha jata hai. Aur <strong>New Hard Inquiries (10% Weight)</strong> shamil hain. Score rebuild karne ke liye 35% payment track aur 30% utilization ko strategically leverage kiya jata hai. </p>
               </div>
             </section>
 
@@ -452,9 +389,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Visual Blueprint: CIBIL Score Rebuilding Trajectory (Settled to 750+)
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Neeche diya gaya infographic loan settlement ke baad CIBIL score ko 550 se dobara 750+ prime tier tak le jaane ka roadmap darshata hai:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Neeche diya gaya infographic loan closure ke baad CIBIL score ko 550 se dobara 750+ prime tier tak le jaane ka roadmap darshata hai: </p>
 
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-sm p-3 md:p-4 overflow-hidden">
                 <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-slate-100">
@@ -491,9 +426,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 6. Step-by-Step SOP: 6 Stages of CIBIL Score Restoration
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Follow this battle-tested 6-stage protocol to rebuild your credit rating post-settlement:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Follow this battle-tested 6-stage protocol to rebuild your credit rating post-closure: </p>
 
               <div className="space-y-4 pt-2">
                 {/* Stage 1 */}
@@ -504,12 +437,8 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                     </span>
                     <span className="text-xs font-semibold text-slate-500">Timeline: Month 1</span>
                   </div>
-                  <h3 className="text-base md:text-lg font-bold text-slate-900">
-                    Forensic CIR Audit
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    CIBIL, Experian, CRIF aur Equifax reports download karein. Verify karein ki settled account par Current Balance ₹0 show ho raha hai aur koi live penalty add nahi ho rahi.
-                  </p>
+                  <h3 className="text-base md:text-lg font-bold text-slate-900"> Forensic CIR Audit </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> CIBIL. Experian. CRIF aur Equifax reports download karein. check karein ki settled account par Current Balance ₹0 show ho raha hai aur koi live fine add nahi ho rahi. </p>
                 </div>
 
                 {/* Stage 2 */}
@@ -520,12 +449,8 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                     </span>
                     <span className="text-xs font-semibold text-slate-500">Timeline: Month 1–2</span>
                   </div>
-                  <h3 className="text-base md:text-lg font-bold text-slate-900">
-                    NDC Procurement
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Bank se official No Dues Certificate lein. Agar 45 dino baad bhi balance zero na ho, toh CICRA Section 21 ke tehat bureau portal par dispute raise karein.
-                  </p>
+                  <h3 className="text-base md:text-lg font-bold text-slate-900"> NDC Procurement </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Bank se valid No Dues letter lein. Agar 45 dino baad bhi balance zero na ho. Toh CICRA Section 21 ke tehat desk portal par dispute raise karein. </p>
                 </div>
 
                 {/* Stage 3 */}
@@ -536,12 +461,8 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                     </span>
                     <span className="text-xs font-semibold text-slate-500">Timeline: Month 3</span>
                   </div>
-                  <h3 className="text-base md:text-lg font-bold text-slate-900">
-                    Secured Credit Card
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Commercial bank mein ₹25,000 se ₹50,000 ki FD karke secured card lein. Yeh cards bina credit check ke instant issue hote hain aur positive DPD banate hain.
-                  </p>
+                  <h3 className="text-base md:text-lg font-bold text-slate-900"> Secured Credit Card </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> trade bank mein ₹25,000 se ₹50,000 ki FD karke secured card lein. Yeh cards bina credit check ke instant issue hote hain aur positive DPD banate hain. </p>
                 </div>
 
                 {/* Stage 4 */}
@@ -552,12 +473,8 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                     </span>
                     <span className="text-xs font-semibold text-slate-500">Timeline: Months 3–9</span>
                   </div>
-                  <h3 className="text-base md:text-lg font-bold text-slate-900">
-                    Utilization Optimization
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Secured card par total limit ka kewal 15% se 20% spend karein. Regular utility bills card se pay karein aur due date par 100% full payment karein.
-                  </p>
+                  <h3 className="text-base md:text-lg font-bold text-slate-900"> Utilization Optimization </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Secured card par total limit ka kewal 15% se 20% spend karein. Regular utility bills card se pay karein aur due date par 100% full payment karein. </p>
                 </div>
 
                 {/* Stage 5 */}
@@ -568,12 +485,8 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                     </span>
                     <span className="text-xs font-semibold text-slate-500">Timeline: Months 9–15</span>
                   </div>
-                  <h3 className="text-base md:text-lg font-bold text-slate-900">
-                    Credit Mix Diversification
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    6-9 mahine regular card payments ke baad chhota consumer durable loan add karein. Yeh credit mix balance karke score 700 cross karwata hai.
-                  </p>
+                  <h3 className="text-base md:text-lg font-bold text-slate-900"> Credit Mix Diversification </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> 6-9 mahine regular card payments ke baad chhota consumer durable loan add karein. Yeh credit mix balance karke score 700 cross karwata hai. </p>
                 </div>
 
                 {/* Stage 6 */}
@@ -584,12 +497,8 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                     </span>
                     <span className="text-xs font-semibold text-slate-500">Timeline: Months 15–24</span>
                   </div>
-                  <h3 className="text-base md:text-lg font-bold text-slate-900">
-                    Status Conversion &amp; 750+
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Prime loans ke liye bank ko principal differential pay karke settled remark ko Closed mein convert karein. 18-24 mahine mein score 750+ ho jayega.
-                  </p>
+                  <h3 className="text-base md:text-lg font-bold text-slate-900"> Status Conversion &amp. 750+ </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Prime loans ke liye bank ko main sum differential pay karke settled remark ko Closed mein convert karein. 18-24 mahine mein score 750+ ho jayega. </p>
                 </div>
               </div>
             </section>
@@ -611,9 +520,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                     <ShieldCheck className="w-4 h-4 text-[#1886ff] flex-shrink-0" />
                     <span>CICRA 2005 Section 21 Rights</span>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Credit Information Companies Act Section 21 ke tehat borrower ko wrong data challenge karne ka right hai. Bureaus aur banks ko dispute date se 30 dino mein records correct karna mandatory hai.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Credit Information Companies Act Section 21 ke tehat clients ko wrong data challenge karne ka right hai. Bureaus aur banks ko dispute date se 30 dino mein records correct karna mandatory hai. </p>
                 </div>
 
                 {/* Card 2: RBI Fair Practices Code */}
@@ -622,9 +529,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                     <Building2 className="w-4 h-4 text-[#1886ff] flex-shrink-0" />
                     <span>RBI Master Directions &amp; Bureau Sync</span>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    RBI Master Directions ke anusar sabbhi banks aur NBFCs ko har mahine loan settlements aur zero balances sabhi 4 licensed bureaus ko synchronized tarike se submit karna mandatory hai.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> RBI Master Directions ke anusar sabbhi banks aur NBFCs ko har mahine loan closures aur zero balances sabhi 4 licensed bureaus ko synchronized tarike se submit karna mandatory hai. </p>
                 </div>
 
                 {/* Card 3: Post-Closure Protection */}
@@ -633,9 +538,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                     <Lock className="w-4 h-4 text-[#1886ff] flex-shrink-0" />
                     <span>Post-Closure Legal Protection</span>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Compromise settlement pay hone aur NDC milne ke baad lender Section 25 PSSA ya Section 138 NI Act proceedings initiate nahi kar sakta. Sabhi claims discharge ho jate hain.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> deal closure pay hone aur NDC milne ke baad lender Section 25 PSSA ya Section 138 NI Act steps initiate nahi kar sakta. Sabhi claims discharge ho jate hain. </p>
                 </div>
 
                 {/* Card 4: Consumer Redressal Precedents */}
@@ -644,9 +547,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                     <Scale className="w-4 h-4 text-[#1886ff] flex-shrink-0" />
                     <span>Defamatory Reporting Remedies</span>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    High Courts aur Consumer Forums ke rulings ke mutabik agar bank settlement ke baad bhi wrong default report karta hai, toh borrower compensation claim karne ka haqdar hai.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> High Courts aur Consumer Forums ke rulings ke mutabik agar bank closure ke baad bhi wrong default report karta hai. Toh clients compensation claim karne ka haqdar hai. </p>
                 </div>
               </div>
             </section>
@@ -662,33 +563,25 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
               </h2>
               
               <div className="bg-white p-6 md:p-8 rounded-2xl border border-slate-200/80 shadow-xs space-y-4 text-slate-700 leading-relaxed text-sm md:text-base">
-                <p>
-                  Agar settlement ke baad bank CIBIL par balance zero nahi karta ya NDC issue karne mein delay karta hai, toh 3-tier escalation hierarchy use karein:
-                </p>
+                <p> Agar closure ke baad bank CIBIL par balance zero nahi karta ya NDC issue karne mein delay karta hai. Toh 3-tier escalation hierarchy use karein: </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-1">
                   <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1.5">
                     <span className="text-xs font-black text-[#1886ff] uppercase tracking-wider block">Level 1: GRO</span>
-                    <h3 className="font-bold text-slate-900 text-sm">Grievance Redressal Officer</h3>
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      Bank ke dedicated GRO desk ko formal grievance submit karein. Turnaround: 7-10 working days.
-                    </p>
+                    <h3 className="font-bold text-slate-900 text-sm">Grievance Redressal head</h3>
+                    <p className="text-xs text-slate-600 leading-relaxed"> Bank ke dedicated GRO desk ko formal grievance submit karein. Turnaround: 7-10 working days. </p>
                   </div>
 
                   <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1.5">
                     <span className="text-xs font-black text-[#1886ff] uppercase tracking-wider block">Level 2: PNO</span>
-                    <h3 className="font-bold text-slate-900 text-sm">Principal Nodal Officer</h3>
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      Resolution na milne par matter bank PNO desk ko escalate karein. Turnaround: 14-21 days.
-                    </p>
+                    <h3 className="font-bold text-slate-900 text-sm">main sum Nodal head</h3>
+                    <p className="text-xs text-slate-600 leading-relaxed"> relief na milne par matter bank PNO desk ko escalate karein. Turnaround: 14-21 days. </p>
                   </div>
 
                   <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1.5">
                     <span className="text-xs font-black text-[#1886ff] uppercase tracking-wider block">Level 3: RBI Ombudsman</span>
-                    <h3 className="font-bold text-slate-900 text-sm">Integrated Ombudsman</h3>
-                    <p className="text-xs text-slate-600 leading-relaxed">
-                      30 dino mein satisfactory resolution na milne par RBI Portal cms.rbi.org.in par complaint darj karein.
-                    </p>
+                    <h3 className="font-bold text-slate-900 text-sm">Integrated RBI officer</h3>
+                    <p className="text-xs text-slate-600 leading-relaxed"> 30 dino mein satisfactory relief na milne par RBI Portal cms.rbi.org.in par complaint darj karein. </p>
                   </div>
                 </div>
               </div>
@@ -703,9 +596,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 9. Chronological Timeline Table: 1 to 24 Months Score Recovery
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Settlement ke baad CIBIL score recovery ek gradual algorithmic process hai. Neeche diye gaye milestone roadmap ko follow karein:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> closure ke baad CIBIL score claims ek gradual digital process hai. Neeche diye gaye milestone roadmap ko follow karein: </p>
 
               {/* 4-Sided Bordered Timeline Table */}
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto bg-white shadow-xs">
@@ -721,33 +612,33 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                   <tbody className="divide-y divide-slate-200/80 text-slate-700">
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors">
                       <td className="p-3.5 sm:p-4 font-semibold text-slate-900">Month 1-3</td>
-                      <td className="p-3.5 sm:p-4">Settlement audit, NDC receipt, zero balance bureau reporting verification.</td>
+                      <td className="p-3.5 sm:p-4">Closure audit. NDC receipt. Zero balance desk reporting verification.</td>
                       <td className="p-3.5 sm:p-4 text-amber-700 font-bold">530-580</td>
                       <td className="p-3.5 sm:p-4">Only FD-backed cards.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors">
                       <td className="p-3.5 sm:p-4 font-semibold text-slate-900">Month 3-6</td>
-                      <td className="p-3.5 sm:p-4">Secured card setup, strict utilization (&lt; 20%), on-time payment streak.</td>
+                      <td className="p-3.5 sm:p-4">Secured card setup. Strict utilization (&lt. 20%). On-time payment streak.</td>
                       <td className="p-3.5 sm:p-4 text-blue-700 font-bold">590-640</td>
                       <td className="p-3.5 sm:p-4">Secured cards, BNPL.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors">
                       <td className="p-3.5 sm:p-4 font-semibold text-slate-900">Month 6-12</td>
-                      <td className="p-3.5 sm:p-4">Add consumer durable EMI line, zero hard inquiries, clean DPD track.</td>
+                      <td className="p-3.5 sm:p-4">Add consumer durable EMI line. Zero hard inquiries. Clean DPD track.</td>
                       <td className="p-3.5 sm:p-4 text-indigo-700 font-bold">650-700</td>
                       <td className="p-3.5 sm:p-4">Co-branded cards.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors">
                       <td className="p-3.5 sm:p-4 font-semibold text-slate-900">Month 12-18</td>
-                      <td className="p-3.5 sm:p-4">First unsecured card approval, credit limit enhancement on cards.</td>
+                      <td className="p-3.5 sm:p-4">First clean card approval. Credit limit enhancement on cards.</td>
                       <td className="p-3.5 sm:p-4 text-emerald-700 font-bold">710-740</td>
-                      <td className="p-3.5 sm:p-4">Unsecured cards.</td>
+                      <td className="p-3.5 sm:p-4">clean cards.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors">
                       <td className="p-3.5 sm:p-4 font-semibold text-slate-900">Month 18-24</td>
-                      <td className="p-3.5 sm:p-4">Optional status conversion to Closed, prime profile restoration.</td>
+                      <td className="p-3.5 sm:p-4">Optional status conversion to Closed. Prime profile restoration.</td>
                       <td className="p-3.5 sm:p-4 text-emerald-700 font-bold">750+ Prime</td>
-                      <td className="p-3.5 sm:p-4">Home &amp; Personal Loans.</td>
+                      <td className="p-3.5 sm:p-4">Home &amp. own Loans.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -768,33 +659,25 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                 {/* Scenario 1 */}
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
                   <h3 className="font-bold text-slate-900 text-sm md:text-base">Multiple Settled Accounts</h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Agar multiple accounts settle hue hain, toh sabhi ke NDCs collect karein. Rebuilding phase mein ek central secured card se positive payment frequency establish karein.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Agar multiple accounts settle hue hain. Toh sabhi ke NDCs collect karein. Rebuilding phase mein ek central secured card se positive payment frequency establish karein. </p>
                 </div>
 
                 {/* Scenario 2 */}
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
-                  <h3 className="font-bold text-slate-900 text-sm md:text-base">Salaried Corporate Verification</h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    MNCs pre-employment checks mein CIBIL check karti hain. Settled loan par valid NDC aur zero balance show karne par employment check smoothly clear ho jata hai.
-                  </p>
+                  <h3 className="font-bold text-slate-900 text-sm md:text-base">Salaried firm Verification</h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> MNCs pre-employment checks mein CIBIL check karti hain. Settled loan par valid NDC aur zero balance show karne par employment check smoothly clear ho jata hai. </p>
                 </div>
 
                 {/* Scenario 3 */}
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
-                  <h3 className="font-bold text-slate-900 text-sm md:text-base">Business MSME Capital</h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Proprietors jinke personal loans settle hue hain, unhe business credit ke liye GST turnover based loans ya CGTMSE schemes use karni chahiye jab tak CIBIL 720+ na ho.
-                  </p>
+                  <h3 className="font-bold text-slate-900 text-sm md:text-base">firm MSME Capital</h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Proprietors jinke own loans settle hue hain. Unhe firm credit ke liye GST turnover based loans ya CGTMSE schemes use karni chahiye jab tak CIBIL 720+ na ho. </p>
                 </div>
 
                 {/* Scenario 4 */}
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
                   <h3 className="font-bold text-slate-900 text-sm md:text-base">ARC-Assigned Debt</h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    ARCs ko assign hue loans mein settlement agreement aur Section 5 SARFAESI compliance confirmation letter lena bureau updation ke liye mandatory hota hai.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> ARCs ko assign hue loans mein closure pacts aur Section 5 SARFAESI compliance confirmation letter lena desk updation ke liye mandatory hota hai. </p>
                 </div>
               </div>
             </section>
@@ -813,9 +696,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 12. Frequently Asked Questions: CIBIL Score &amp; Loan Settlement
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                CIBIL score improvement, settled status conversion aur credit rebuilding ke sabhi aam sawalo ke authoritative uttar:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> CIBIL score improvement. Settled status conversion aur credit rebuilding ke sabhi aam sawalo ke authoritative uttar: </p>
 
               <div className="space-y-3 pt-2">
                 {faqs.map((faq, index) => {
@@ -859,18 +740,10 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                 Official Regulatory Citations &amp; Credit Bureau Authorities
               </h2>
               <ul className="space-y-2 text-xs text-slate-600 leading-relaxed list-disc pl-5">
-                <li>
-                  <strong>Credit Information Companies (Regulation) Act, 2005 (CICRA):</strong> Sections 18, 19, 21 and 22, Ministry of Finance, Government of India.
-                </li>
-                <li>
-                  <strong>Reserve Bank of India Master Directions:</strong> Master Direction on Credit Information Companies Guidelines and Fair Practices Code (Updated 2026).
-                </li>
-                <li>
-                  <strong>Reserve Bank - Integrated Ombudsman Scheme, 2021:</strong> Statutory Grievance Redressal for Defective Credit Reporting and Delay in NDC Issuance.
-                </li>
-                <li>
-                  <strong>Banking Regulation Act, 1949:</strong> Section 35A read with Prudential Norms on Asset Classification.
-                </li>
+                <li> <strong>Credit Information Companies (rule) Act. 2005 (CICRA):</strong> Sections 18. 19. 21 and 22. Ministry of Finance. Government of India. </li>
+                <li> <strong>Reserve Bank of India Master Directions:</strong> Master Direction on Credit Information Companies Guidelines and Fair Practices Code (Updated 2026). </li>
+                <li> <strong>Reserve Bank - Integrated RBI officer Scheme. 2021:</strong> legal Grievance Redressal for Defective Credit Reporting and Delay in NDC Issuance. </li>
+                <li> <strong>Banking rule Act. 1949:</strong> Section 35A read with Prudential Norms on Asset Classification. </li>
               </ul>
 
               {/* 6 Outbound Authority Badges */}
@@ -964,14 +837,10 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                   >
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief experts </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Specialized in credit dispute resolution, CIBIL score restoration architectures, and banking compliance under CICRA 2005 across Indian financial institutions.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> Specialized in credit dispute relief. CIBIL score restoration architectures. banking compliance under CICRA 2005 across Indian money institutions. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link
                   href="/author/ashish-jhangra"
@@ -995,12 +864,8 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                 <span className="text-xs font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
                   100% CONFIDENTIAL CREDIT REPAIR
                 </span>
-                <p className="text-lg md:text-xl font-bold text-white leading-snug">
-                  CIBIL Score Rebuild Karna Chahte Hain?
-                </p>
-                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
-                  Hamare experts se settlement, NDC verification aur CIBIL restoration par personalized guidance lein.
-                </p>
+                <p className="text-lg md:text-xl font-bold text-white leading-snug"> CIBIL Score Rebuild Karna Chahte Hain? </p>
+                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal"> Hamare experts se closure. NDC verification aur CIBIL restoration par personalized guidance lein. </p>
               </div>
               <Link
                 href="/contact"
@@ -1026,22 +891,10 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
               <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage</p>
               <ul className="space-y-2 text-slate-600">
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>Zero Upfront Risk:</strong> Success-linked fees.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>Direct Bank Remittance:</strong> Zero middleman fund holding.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>CICRA 2005 Compliance:</strong> 100% lawful dispute handling.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>Dedicated Expert Desk:</strong> Pan-India specialists.</span>
-                </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" /> <span><strong>Zero Upfront Risk:</strong> Success-linked fees.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" /> <span><strong>Direct Bank wire transfer:</strong> Zero middleman fund holding.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" /> <span><strong>CICRA 2005 Compliance:</strong> 100% lawful dispute handling.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" /> <span><strong>Dedicated Expert Desk:</strong> Pan-India specialists.</span> </li>
               </ul>
             </div>
 
@@ -1053,9 +906,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                   href="/convert-settled-status-to-closed"
                   className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
                 >
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Convert Settled Loan to Closed Status
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Convert Settled Loan to Closed Status </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Full conversion blueprint &rarr;</span>
                 </Link>
 
@@ -1063,9 +914,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                   href="/remove-settled-status-from-cibil"
                   className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
                 >
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Remove Settled Status from CIBIL Report
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Remove Settled Status from CIBIL Report </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Step-by-step dispute guide &rarr;</span>
                 </Link>
 
@@ -1073,9 +922,7 @@ export default function CibilScoreKaiseBadhayeAfterSettlementClient() {
                   href="/improve-cibil-after-loan-settlement"
                   className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
                 >
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Rebuild CIBIL Score to 750+ Fast
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Rebuild CIBIL Score to 750+ Fast </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Algorithmic score recovery &rarr;</span>
                 </Link>
               </div>

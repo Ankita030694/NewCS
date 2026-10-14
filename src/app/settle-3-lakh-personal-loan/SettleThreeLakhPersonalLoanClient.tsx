@@ -63,7 +63,7 @@ export default function SettleThreeLakhPersonalLoanClient() {
         },
         {
             q: 'What is the step-by-step process for settling a ₹3 lakh personal loan?',
-            a: "The settlement process follows six sequential stages: (1) Reconciling the certified record of Account (SOA) to isolate true main loan from bogus penalty fees. (2) Compiling an authentic hardship dossier (termination letters. Hospital records. Bank records). (3) Submitting a formal Hardship Notice and OTS OTS deal proposal straight to the bank's credit risk boards. (4) settling the settlement bracket down from initial bank demands to 35%\u201345% of main loan. (5) Legally verifying and vetting the written OTS Sanction Letter on formal bank letterhead. (6) paying the agreed funds straight into your loan account and securing a formal No Dues letter (NDC)."
+            a: "The settlement process follows six sequential stages: (1) Reconciling the certified record of Account (SOA) to isolate true main loan from bogus penalty fees. (2) Compiling an authentic hardship dossier (termination letters. Hospital records. Bank records) : (3) Submitting a formal Hardship Notice and OTS OTS deal proposal straight to the bank's credit risk boards. (4) settling the settlement bracket down from initial bank demands to 35%\u201345% of main loan. (5) Legally verifying and vetting the written OTS Sanction Letter on formal bank letterhead. (6) paying the agreed funds straight into your loan account and securing a formal No Dues letter (NDC)."
         },
         {
             q: 'How will settling a ₹3 lakh loan impact my CIBIL score and credit report?',

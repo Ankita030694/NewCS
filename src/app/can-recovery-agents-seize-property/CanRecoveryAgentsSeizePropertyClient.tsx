@@ -84,7 +84,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
         },
         {
             q: "What legal remedies exist against abusive recovery agents under Indian law?",
-            a: "Clients have multi-tier legal remedies: (1) Filing a formal abuse complaint with the bank's main loan Nodal Officer (PNO). (2) Escalating to the RBI Integrated Ombudsman (cms.rbi.org.in) for legal penalties against the bank. (3) Filing an FIR under Sections 329. 308. 351 of the Bharatiya Nyaya Sanhita (BNS) / Sections 441. 383. 506 of the IPC for criminal threats and extortion. (4) Filing a civil injunction suit or clients Protection complaint for damages."
+            a: "Clients have multi-tier legal remedies: (1) Filing a formal abuse complaint with the bank's main loan Nodal Officer (PNO) : (2) Escalating to the RBI Integrated Ombudsman (cms.rbi.org.in) for legal penalties against the bank. (3) Filing an FIR under Sections 329. 308. 351 of the Bharatiya Nyaya Sanhita (BNS) / Sections 441. 383. 506 of the IPC for criminal threats and extortion. (4) Filing a civil injunction suit or clients Protection complaint for damages."
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">

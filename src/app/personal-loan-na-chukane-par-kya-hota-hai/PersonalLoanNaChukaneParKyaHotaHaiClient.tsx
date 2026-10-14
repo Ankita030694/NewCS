@@ -144,9 +144,7 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
             Personal Loan Na Chukane Par Kya Hota Hai?
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed">
-            Agar aap financial crisis, job loss ya medical emergency ke karan personal loan EMI nahi bhar pa rahe hain, toh samjhein 90-day NPA lifecycle, recovery limits, legal notice defense, aur 40% se 55% tak One Time Settlement (OTS) karwane ki legal process.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed"> Agar aap money crisis. Job loss ya medical emergency ke karan own loan EMI nahi bhar pa rahe hain. Toh samjhein 90-day NPA lifecycle. Claims limits. Legal notice defense. Aur 40% se 55% tak One Time closure (OTS) karwane ki legal process. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -200,9 +198,7 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0" />
                   <span>Borrower Rights Protected</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Governed by RBI IRACP Master Directions.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by RBI IRACP Master Directions. </p>
               </div>
             </div>
           </aside>
@@ -220,17 +216,11 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
                 <span>EXECUTIVE SUMMARY: PERSONAL LOAN DEFAULT &amp; RESOLUTION FRAMEWORK</span>
               </div>
 
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                Jab koi borrower medical emergency ya job loss ki wajah se unsecured personal loan EMI default karta hai, toh sabse pehle psychological panic create hota hai. Indian banking laws ke mutabik unsecured loan non-payment strictly civil breach of contract hai, jisme police arrest ya criminal jail ka koi provision nahi hota.
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> Jab koi clients medical emergency ya job loss ki wajah se clean own loan EMI default karta hai. Toh sabse pehle mental panic create hota hai. Indian banking laws ke mutabik clean loan non-payment strictly civil breach of contract hai. Jisme police arrest ya penal jail ka koi rules nahi hota. </p>
 
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                Agar lagatar EMIs bounce hoti hain, toh 90 din mein account SMA stage se nikal kar Substandard NPA classify ho jata hai. Is stage par bank penal interest freeze karta hai aur One Time Settlement (OTS) window open karta hai.
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> Agar lagatar EMIs bounce hoti hain. Toh 90 din mein account SMA stage se nikal kar Substandard NPA classify ho jata hai. Is stage par bank penal rates freeze karta hai aur One Time closure (OTS) window open karta hai. </p>
 
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                RBI Fair Practices Code recovery agents ko odd hours mein call karne aur relatives ko harass karne se strictly rokta hai. Section 25 PSSA ya Section 138 notice ka timely legal reply dekar aap ex-parte recovery orders ko block kar sakte hain aur 40% se 55% principal waiver ke sath official No Dues Certificate (NDC) hasil kar sakte hain.
-              </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> RBI Fair Practices Code agents ko odd hours mein call karne aur relatives ko harass karne se strictly rokta hai. Section 25 PSSA ya Section 138 notice ka timely legal reply dekar aap ex-parte claims orders ko block kar sakte hain aur 40% se 55% main sum waiver ke sath valid No Dues letter (NDC) hasil kar sakte hain. </p>
             </div>
 
             {/* SECTION 1: Debt Economics & NPA Dynamics */}
@@ -242,15 +232,9 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 1. Debt Economics &amp; 90-Day NPA Dynamics in India
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Unsecured personal loan portfolio mein koi physical collateral hypothecated nahi hota. Jab borrower financial hardship ke chalte EMI service nahi kar pata, toh banks RBI ke <strong>Master Direction on IRACP framework</strong> ke antargat bound hote hain.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Delinquency teen stages mein progress karti hai: pehle 1 se 30 din overdue par <strong>SMA-0</strong> tag hota hai, 31 se 60 din par <strong>SMA-1</strong> banta hai, aur 61 se 90 din par <strong>SMA-2</strong> designate hota hai. Jaise hi 90 din cross hote hain, account formally <strong>Substandard Non-Performing Asset (NPA)</strong> classify ho jata hai.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                NPA tag hote hi bank ko loan amount par 15% Tier-1 capital provisioning separate karni padti hai aur unbilled interest income freeze ho jati hai. Chunki unsecured loans par SARFAESI Act apply nahi hota, isliye banks prolonged litigation ki jagah One-Time Settlement (OTS) ke through capital recovery prefer karte hain.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> clean own loan portfolio mein koi real pledge hypothecated nahi hota. Jab clients money hardship ke chalte EMI service nahi kar pata. Toh banks RBI ke <strong>Master Direction on IRACP framework</strong> ke antargat bound hote hain. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Delinquency teen stages mein progress karti hai: pehle 1 se 30 din overdue par <strong>SMA-0</strong> tag hota hai. 31 se 60 din par <strong>SMA-1</strong> banta hai. Aur 61 se 90 din par <strong>SMA-2</strong> designate hota hai. Jaise hi 90 din cross hote hain. Account formally <strong>Substandard Non-Performing Asset (NPA)</strong> classify ho jata hai. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> NPA tag hote hi bank ko loan amount par 15% Tier-1 capital provisioning separate karni padti hai aur unbilled rates income freeze ho jati hai. Chunki clean loans par SARFAESI Act apply nahi hota. Isliye banks prolonged litigation ki jagah One-Time closure (OTS) ke through capital claims prefer karte hain. </p>
             </section>
 
             {/* SECTION 2: Financial Breakdown & Settlement Math */}
@@ -262,12 +246,8 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 2. Financial Breakdown: Principal vs Penal Charges &amp; Settlement Math
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Default ke baad borrower ke account mein sabse bada distortion 24% se 36% compound penal interest aur NACH bounce fees create karti hain, jo 6 se 12 mahine mein claim ko principal se 25% se 40% inflate kar deti hain.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                CredSettle team loan ledger ka audit karti hai taaki artificial charges ko principal se bifurcate kiya ja sake. Banks ke <strong>Delegation of Financial Power (DOFP)</strong> matrices ke tehat credit committees genuine hardship mein 100% penal waiver aur 40% se 55% compromise discount sanction karti hain.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Default ke baad clients ke account mein sabse bada distortion 24% se 36% compound penal rates aur NACH bounce fees create karti hain. Jo 6 se 12 mahine mein claim ko main sum se 25% se 40% inflate kar deti hain. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> CredSettle team loan ledger ka audit karti hai taaki artificial charges ko main sum se bifurcate kiya ja sake. Banks ke <strong>Delegation of money Power (DOFP)</strong> matrices ke tehat credit boards genuine hardship mein 100% penal waiver aur 40% se 55% deal discount sanction karti hain. </p>
 
               {/* Representative Calculation Card */}
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 md:p-6 space-y-4">
@@ -276,9 +256,7 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
                     <span className="text-xs font-black uppercase tracking-wider text-[#1886ff]">
                       Representative 180-Day NPA Settlement Math
                     </span>
-                    <h3 className="text-base md:text-lg font-bold text-slate-900 mt-0.5">
-                      ₹6,00,000 Unsecured Loan Case Study
-                    </h3>
+                    <h3 className="text-base md:text-lg font-bold text-slate-900 mt-0.5"> ₹6,00,000 clean Loan Case Study </h3>
                   </div>
                   <span className="text-xs font-bold px-3 py-1 bg-emerald-50 text-emerald-700 rounded-full border border-emerald-200/60 self-start sm:self-auto">
                     45% Principal OTS Target
@@ -334,9 +312,7 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 3. Comparative Matrix: Personal Loan Resolution Pathways
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Default ke baad restructuring tenure extend karke interest double kar deti hai, jabki passive default CIBIL ko 7 saal ke liye ruin karta hai. Civil litigation dono parties ke liye expensive hoti hai, jabki One-Time Settlement (OTS) sabse practical legal exit provide karta hai:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Default ke baad restructuring tenure extend karke rates double kar deti hai. Jabki passive default CIBIL ko 7 saal ke liye ruin karta hai. Civil litigation dono parties ke liye expensive hoti hai. Jabki One-Time closure (OTS) sabse practical legal exit provide karta hai: </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto bg-white shadow-xs">
                 <table className="w-full text-left text-xs md:text-sm border-collapse">
@@ -351,16 +327,16 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-100 text-slate-600">
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
-                      <td className="p-3.5 font-bold text-slate-900">One-Time Settlement (OTS)</td>
-                      <td className="p-3.5 text-emerald-700 font-semibold">40% to 55% Principal</td>
+                      <td className="p-3.5 font-bold text-slate-900">One-Time closure (OTS)</td>
+                      <td className="p-3.5 text-emerald-700 font-semibold">40% to 55% main sum</td>
                       <td className="p-3.5 text-emerald-700">Zero risk post NDC</td>
                       <td className="p-3.5">Marked Settled Rebuildable</td>
-                      <td className="p-3.5 font-bold text-[#1886ff]">Optimal for acute financial distress</td>
+                      <td className="p-3.5 font-bold text-[#1886ff]">Optimal for acute money distress</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
                       <td className="p-3.5 font-bold text-slate-900">Loan Restructuring</td>
-                      <td className="p-3.5">100% Principal + Interest</td>
-                      <td className="p-3.5">Temporary relief high interest</td>
+                      <td className="p-3.5">100% main sum + rates</td>
+                      <td className="p-3.5">Temporary relief high rates</td>
                       <td className="p-3.5">Marked Restructured</td>
                       <td className="p-3.5">Viable only if income recovers fast</td>
                     </tr>
@@ -372,16 +348,16 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
                       <td className="p-3.5">Expensive stressful court battle</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
-                      <td className="p-3.5 font-bold text-slate-900">Lok Adalat Compromise</td>
+                      <td className="p-3.5 font-bold text-slate-900">Lok Adalat deal</td>
                       <td className="p-3.5">50% to 70% of Claim</td>
                       <td className="p-3.5 text-emerald-700">Binding decree zero appeals</td>
                       <td className="p-3.5">Marked Settled via Lok Adalat</td>
                       <td className="p-3.5">Good forum for consensual closure</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
-                      <td className="p-3.5 font-bold text-slate-900">Ignoring &amp; Inaction</td>
-                      <td className="p-3.5 text-red-600">Compounding penal interest</td>
-                      <td className="p-3.5 text-red-600">Severe agent harassment</td>
+                      <td className="p-3.5 font-bold text-slate-900">Ignoring &amp. Inaction</td>
+                      <td className="p-3.5 text-red-600">growing penal rates</td>
+                      <td className="p-3.5 text-red-600">Severe agent threats</td>
                       <td className="p-3.5 text-red-600">CIBIL ruined for 7 years</td>
                       <td className="p-3.5 text-red-600 font-bold">Worst choice leads to vulnerability</td>
                     </tr>
@@ -399,15 +375,9 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 4. Technical CIBIL Algorithm &amp; Credit Score Impact
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                CIBIL aur credit bureaus 5 factors evaluate karti hain: Payment History (35%), Credit Utilization (30%), History Age (15%), Credit Mix (10%), aur Inquiries (10%).
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Jab default 90 days cross karta hai, payment history scoring collapse hone se score 100 se 250 points plunge kar jata hai. Unresolved default par bank Written Off status report karta hai jo 7 saal tak fresh credit block kar deta hai.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Compromise OTS execute karne par status Settled mark hota hai. Section 21 CICRA Act ke tehat balance dispute karke status Closed karwaya ja sakta hai, jisse 12-24 mahine mein score 750+ rebuild ho jata hai.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> CIBIL aur credit bureaus 5 factors evaluate karti hain: Payment History (35%). Credit Utilization (30%). History Age (15%). Credit Mix (10%). Aur Inquiries (10%). </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Jab default 90 days cross karta hai. Payment history scoring collapse hone se score 100 se 250 points plunge kar jata hai. Unresolved default par bank Written Off status report karta hai jo 7 saal tak fresh credit block kar deta hai. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> deal OTS execute karne par status Settled mark hota hai. Section 21 CICRA Act ke tehat balance dispute karke status Closed karwaya ja sakta hai. Jisse 12-24 mahine mein score 750+ rebuild ho jata hai. </p>
             </section>
 
             {/* SECTION 5: Visual Infographic Asset Card */}
@@ -419,9 +389,7 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Visual Blueprint: Personal Loan Default &amp; Resolution Roadmap
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Neeche diye gaye visual roadmap mein personal loan delinquency ke 6-stage lifecycle ko explain kiya gaya hai:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Neeche diye gaye visual roadmap mein own loan delinquency ke 6-stage lifecycle ko explain kiya gaya hai: </p>
 
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-sm p-3 md:p-4 overflow-hidden">
                 <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-slate-100">
@@ -458,9 +426,7 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 5. Step-by-Step SOP: 6 Stages of Personal Loan Resolution &amp; OTS
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Personal loan default ko smoothly resolve karne aur harassment se permanent relief pane ke liye CredSettle ka 6-stage SOP follow karein:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> own loan default ko smoothly resolve karne aur threats se permanent relief pane ke liye CredSettle ka 6-stage SOP follow karein: </p>
 
               <div className="space-y-4 pt-2">
                 {/* Stage 1 */}
@@ -471,12 +437,8 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
                     </span>
                     <span className="text-xs text-slate-500 font-semibold">Days 1–15</span>
                   </div>
-                  <h3 className="text-base font-bold text-slate-900">
-                    Forensic Account Audit
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Bank se Statement of Account procure karke principal ko artificial penal interest aur unapproved charges se alag karein.
-                  </p>
+                  <h3 className="text-base font-bold text-slate-900"> Forensic Account Audit </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Bank se Statement of Account procure karke main sum ko artificial penal rates aur unapproved charges se alag karein. </p>
                 </div>
 
                 {/* Stage 2 */}
@@ -487,12 +449,8 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
                     </span>
                     <span className="text-xs text-slate-500 font-semibold">Days 16–30</span>
                   </div>
-                  <h3 className="text-base font-bold text-slate-900">
-                    Hardship Dossier Compilation
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Job loss termination slip, medical discharge summary, ya business loss report assemble karke hardship representation tayar karein.
-                  </p>
+                  <h3 className="text-base font-bold text-slate-900"> Hardship Dossier Compilation </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Job loss end slip. Medical discharge summary. Ya firm loss report assemble karke hardship representation tayar karein. </p>
                 </div>
 
                 {/* Stage 3 */}
@@ -503,12 +461,8 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
                     </span>
                     <span className="text-xs text-slate-500 font-semibold">Days 31–60</span>
                   </div>
-                  <h3 className="text-base font-bold text-slate-900">
-                    Credit Committee Engagement
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    External recovery call centers ko bypass karke direct bank ke Credit Committee aur Nodal Officers se settlement initiate karein.
-                  </p>
+                  <h3 className="text-base font-bold text-slate-900"> Credit board Engagement </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> External claims call centers ko bypass karke direct bank ke Credit board aur Nodal heads se closure initiate karein. </p>
                 </div>
 
                 {/* Stage 4 */}
@@ -519,12 +473,8 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
                     </span>
                     <span className="text-xs text-slate-500 font-semibold">Days 61–120</span>
                   </div>
-                  <h3 className="text-base font-bold text-slate-900">
-                    Bilateral Negotiations
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Hardship precedents cite karke 100% penal waiver aur principal balance par 40% se 55% tak compromise discount negotiate karein.
-                  </p>
+                  <h3 className="text-base font-bold text-slate-900"> Bilateral talks </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Hardship precedents cite karke 100% penal waiver aur main sum balance par 40% se 55% tak deal discount settle karein. </p>
                 </div>
 
                 {/* Stage 5 */}
@@ -535,12 +485,8 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
                     </span>
                     <span className="text-xs text-slate-500 font-semibold">Days 121–150</span>
                   </div>
-                  <h3 className="text-base font-bold text-slate-900">
-                    Sanction Letter Legal Vetting
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Bank se official OTS sanction letter lekar verify karein ki letter mein agreed amount aur legal withdrawal terms clearly stated hon.
-                  </p>
+                  <h3 className="text-base font-bold text-slate-900"> Sanction Letter Legal Vetting </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Bank se valid OTS sanction letter lekar check karein ki letter mein agreed amount aur legal withdrawal terms clearly stated hon. </p>
                 </div>
 
                 {/* Stage 6 */}
@@ -551,12 +497,8 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
                     </span>
                     <span className="text-xs text-slate-500 font-semibold">Days 151–180</span>
                   </div>
-                  <h3 className="text-base font-bold text-slate-900">
-                    Remittance &amp; NDC Procurement
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Agreed amount direct bank loan account mein deposit karein, unconditional No Dues Certificate lein, aur CIBIL update ensure karein.
-                  </p>
+                  <h3 className="text-base font-bold text-slate-900"> wire transfer &amp. NDC Procurement </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Agreed amount direct bank loan account mein deposit karein. Unconditional No Dues letter lein. Aur CIBIL update ensure karein. </p>
                 </div>
               </div>
             </section>
@@ -570,9 +512,7 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 6. Statutory Notice Defense: What Banks Can &amp; Cannot Legally Do
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Loan default hone par bank statutory notices issue karti hai jinka timely reply dena zaroori hai:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Loan default hone par bank legal notices issue karti hai jinka timely reply dena zaroori hai: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
                 {/* Notice 1 */}
@@ -583,12 +523,8 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
                     </span>
                     <span className="text-[11px] font-semibold text-amber-600">NACH Bounce</span>
                   </div>
-                  <h3 className="text-sm md:text-base font-bold text-slate-900">
-                    Payment Systems Act Notice
-                  </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Auto-debit bounce par 15 din ka notice milta hai. Formal reply bhejkar financial hardship aur lack of criminal intent prove kiya jata hai.
-                  </p>
+                  <h3 className="text-sm md:text-base font-bold text-slate-900"> Payment Systems Act Notice </h3>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Auto-debit bounce par 15 din ka notice milta hai. Formal reply bhejkar money hardship aur lack of penal intent prove kiya jata hai. </p>
                 </div>
 
                 {/* Notice 2 */}
@@ -599,12 +535,8 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
                     </span>
                     <span className="text-[11px] font-semibold text-red-600">Cheque Dishonour</span>
                   </div>
-                  <h3 className="text-sm md:text-base font-bold text-slate-900">
-                    Negotiable Instruments Notice
-                  </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Security cheque bounce par 15 din mein reply file karein. Supreme Court ke Dashrath Rupsingh Rathod ruling ke mutabik misuse contest karein.
-                  </p>
+                  <h3 className="text-sm md:text-base font-bold text-slate-900"> Negotiable Instruments Notice </h3>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Security cheque bounce par 15 din mein reply file karein. Supreme Court ke Dashrath Rupsingh Rathod ruling ke mutabik misuse contest karein. </p>
                 </div>
 
                 {/* Notice 3 */}
@@ -615,12 +547,8 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
                     </span>
                     <span className="text-[11px] font-semibold text-emerald-600">Quasi-Judicial</span>
                   </div>
-                  <h3 className="text-sm md:text-base font-bold text-slate-900">
-                    Arbitration Invocation
-                  </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Supreme Court Perkins Eastman ruling ke tehat unilateral arbitrator appointment voidable hoti hai, jisse contest karke settlement banti hai.
-                  </p>
+                  <h3 className="text-sm md:text-base font-bold text-slate-900"> Arbitration Invocation </h3>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Supreme Court Perkins Eastman ruling ke tehat unilateral arbitrator appointment voidable hoti hai. Jisse contest karke closure banti hai. </p>
                 </div>
 
                 {/* Notice 4 */}
@@ -631,12 +559,8 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
                     </span>
                     <span className="text-[11px] font-semibold text-slate-500">Above ₹20 Lakhs</span>
                   </div>
-                  <h3 className="text-sm md:text-base font-bold text-slate-900">
-                    Debt Recovery Tribunal
-                  </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Bada loan exposure hone par bank DRT move karti hai. Written Statement file karke matter Lok Adalat conciliation ke liye refer karwayein.
-                  </p>
+                  <h3 className="text-sm md:text-base font-bold text-slate-900"> Debt claims court </h3>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Bada loan exposure hone par bank DRT move karti hai. Written Statement file karke matter Lok Adalat conciliation ke liye refer karwayein. </p>
                 </div>
               </div>
 
@@ -645,9 +569,7 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
                   <BadgeAlert className="w-4 h-4" />
                   <span>RBI Fair Practices Code Anti-Harassment Safeguards</span>
                 </div>
-                <p className="text-slate-600 text-xs">
-                  RBI rules ke mutabik recovery agents subah 8 baje se pehle aur shaam 7 baje ke baad call nahi kar sakte, abusive language use nahi kar sakte, aur bina ID card visit nahi kar sakte.
-                </p>
+                <p className="text-slate-600 text-xs"> RBI rules ke mutabik agents subah 8 baje se pehle aur shaam 7 baje ke baad call nahi kar sakte. Abusive language use nahi kar sakte. Aur bina ID card visit nahi kar sakte. </p>
               </div>
             </section>
 
@@ -660,33 +582,25 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 7. 3-Tier Grievance Redressal Matrix for Unlawful Harassment
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Agar recovery agents RBI guidelines violate karte hain, toh structured 3-tier statutory escalation follow karein:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Agar agents RBI guidelines violate karte hain. Toh structured 3-tier legal escalation follow karein: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
                   <span className="text-xs font-bold text-[#1886ff]">Tier 1: Bank GRO</span>
-                  <h3 className="text-sm font-bold text-slate-900">Grievance Officer</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Harassment calls ke audio proofs aur numbers ke sath bank ke Grievance Officer ko formal complaint lodge karein.
-                  </p>
+                  <h3 className="text-sm font-bold text-slate-900">Grievance head</h3>
+                  <p className="text-xs text-slate-600 leading-relaxed"> threats calls ke audio proofs aur numbers ke sath bank ke Grievance head ko formal complaint lodge karein. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
                   <span className="text-xs font-bold text-indigo-700">Tier 2: Bank PNO</span>
-                  <h3 className="text-sm font-bold text-slate-900">Principal Nodal Officer</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Branch se relief na milne par zonal Principal Nodal Officer ko escalate karein jinke paas agency contract cancel karne ki authority hoti hai.
-                  </p>
+                  <h3 className="text-sm font-bold text-slate-900">main sum Nodal head</h3>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Branch se relief na milne par zonal main sum Nodal head ko escalate karein jinke paas firm contract cancel karne ki authority hoti hai. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-emerald-700 shadow-xs space-y-2">
                   <span className="text-xs font-bold text-emerald-700">Tier 3: RBI Ombudsman</span>
-                  <h3 className="text-sm font-bold text-slate-900">Integrated Ombudsman</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    30 din mein relief na milne par cms.rbi.org.in par complaint file karein jaha Ombudsman direct penalty impose karta hai.
-                  </p>
+                  <h3 className="text-sm font-bold text-slate-900">Integrated RBI officer</h3>
+                  <p className="text-xs text-slate-600 leading-relaxed"> 30 din mein relief na milne par cms.rbi.org.in par complaint file karein jaha RBI officer direct fine impose karta hai. </p>
                 </div>
               </div>
             </section>
@@ -700,9 +614,7 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 8. Chronological Timeline: Procedural Milestones from Default to NDC
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Personal loan default hone par procedural progression chronological milestones ke through unfold hota hai:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> own loan default hone par procedural progression chronological milestones ke through unfold hota hai: </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto bg-white shadow-xs">
                 <table className="w-full text-left text-xs md:text-sm border-collapse">
@@ -717,33 +629,33 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
                   <tbody className="divide-y divide-slate-100 text-slate-600">
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
                       <td className="p-3.5 font-bold text-slate-900">SMA-0 Stage</td>
-                      <td className="p-3.5">Days 1–30</td>
-                      <td className="p-3.5">Automated late fees, bounce SMS</td>
-                      <td className="p-3.5">Assess financial health, stop auto-debits</td>
+                      <td className="p-3.5">Days 1. 30</td>
+                      <td className="p-3.5">Automated late fees. Bounce SMS</td>
+                      <td className="p-3.5">Assess money health. Stop auto-debits</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
                       <td className="p-3.5 font-bold text-slate-900">SMA-1 / SMA-2</td>
-                      <td className="p-3.5">Days 31–90</td>
-                      <td className="p-3.5">Collection agency tele-calling</td>
-                      <td className="p-3.5">Record calls, assemble hardship proof</td>
+                      <td className="p-3.5">Days 31. 90</td>
+                      <td className="p-3.5">calls firm tele-calling</td>
+                      <td className="p-3.5">Record calls. Assemble hardship proof</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
                       <td className="p-3.5 font-bold text-slate-900">NPA Declaration</td>
                       <td className="p-3.5">Day 90+</td>
-                      <td className="p-3.5">Substandard NPA, 15% provision</td>
-                      <td className="p-3.5">Submit formal compromise OTS representation</td>
+                      <td className="p-3.5">Substandard NPA. 15% rules</td>
+                      <td className="p-3.5">Submit formal deal OTS representation</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
-                      <td className="p-3.5 font-bold text-slate-900">Statutory Notices</td>
-                      <td className="p-3.5">Days 90–150</td>
+                      <td className="p-3.5 font-bold text-slate-900">legal Notices</td>
+                      <td className="p-3.5">Days 90. 150</td>
                       <td className="p-3.5">Sec 25 / Sec 138 / Arbitration</td>
                       <td className="p-3.5">Serve structured legal reply contesting claims</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
-                      <td className="p-3.5 font-bold text-slate-900">Settlement &amp; NDC</td>
-                      <td className="p-3.5">Days 150–180</td>
-                      <td className="p-3.5">Sanction OTS, issue NDC</td>
-                      <td className="p-3.5 font-bold text-emerald-700">Direct payment, obtain NDC, update CIBIL</td>
+                      <td className="p-3.5 font-bold text-slate-900">closure &amp. NDC</td>
+                      <td className="p-3.5">Days 150. 180</td>
+                      <td className="p-3.5">Sanction OTS. Issue NDC</td>
+                      <td className="p-3.5 font-bold text-emerald-700">Direct payment. Obtain NDC. Update CIBIL</td>
                     </tr>
                   </tbody>
                 </table>
@@ -759,9 +671,7 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 9. Specialized Real-World Personal Loan Default Scenarios
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Different financial crisis situations mein customized legal defense aur settlement strategy apply hoti hai:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Different money crisis cases mein customized legal defense aur closure strategy apply hoti hai: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
                 {/* Scenario 1 */}
@@ -770,9 +680,7 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
                     <CreditCard className="w-4 h-4" />
                     <span>Multi-Lender Portfolio</span>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Multiple loans default hone par legal notice urgency ke basis par sequential OTS execute kiya jata hai.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Multiple loans default hone par legal notice urgency ke basis par sequential OTS execute kiya jata hai. </p>
                 </div>
 
                 {/* Scenario 2 */}
@@ -781,9 +689,7 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
                     <UserCheck className="w-4 h-4" />
                     <span>Job Loss &amp; Layoffs</span>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Salaried professionals layoff mein severance slips submit karke 55% tak principal discount secure kar sakte hain.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Salaried experts layoff mein severance slips submit karke 55% tak main sum discount secure kar sakte hain. </p>
                 </div>
 
                 {/* Scenario 3 */}
@@ -792,9 +698,7 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
                     <Building2 className="w-4 h-4" />
                     <span>Business Downturn</span>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Business owners GST cancellation aur losses present karke commercial distress ke tehat low-ticket OTS le sakte hain.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> firm owners GST cancellation aur losses present karke trade distress ke tehat low-ticket OTS le sakte hain. </p>
                 </div>
 
                 {/* Scenario 4 */}
@@ -803,9 +707,7 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
                     <ShieldCheck className="w-4 h-4" />
                     <span>ARC Debt Assignments</span>
                   </div>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Jab bad loans ARCs ko sell hote hain, tab ARCs deep OTS concessions readily offer karti hain.
-                  </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Jab bad loans ARCs ko sell hote hain. Tab ARCs deep OTS concessions readily offer karti hain. </p>
                 </div>
               </div>
             </section>
@@ -824,9 +726,7 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Frequently Asked Questions on Personal Loan Default &amp; Settlement
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Personal loan default aur legal rights se related critical questions ke authoritative answers:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> own loan default aur legal rights se related key questions ke authoritative answers: </p>
 
               <div className="space-y-3 pt-2">
                 {faqs.map((faq, index) => {
@@ -870,18 +770,16 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Statutory Citations &amp; Regulatory Authorities
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Yeh legal breakdown primary Indian banking laws aur regulatory directives par based hai:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Yeh legal breakdown primary Indian banking laws aur RBI directives par based hai: </p>
 
               <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2 text-xs text-slate-600 leading-relaxed">
                 <ul className="space-y-1.5 list-disc list-inside">
                   <li><strong>RBI IRACP Directions (2021/2023):</strong> Norms on asset classification and provisioning.</li>
-                  <li><strong>RBI Fair Practices Code (2022/2023):</strong> Guidelines prohibiting recovery harassment.</li>
-                  <li><strong>Section 25, PSSA 2007:</strong> Electronic NACH mandate dishonor framework.</li>
-                  <li><strong>Section 138, NI Act 1881:</strong> Cheque dishonour notice procedures.</li>
+                  <li><strong>RBI Fair Practices Code (2022/2023):</strong> Guidelines prohibiting claims threats.</li>
+                  <li><strong>Section 25. PSSA 2007:</strong> online NACH mandate dishonor framework.</li>
+                  <li><strong>Section 138. NI Act 1881:</strong> Cheque dishonour notice procedures.</li>
                   <li><strong>Arbitration Act 1996:</strong> Unilateral appointment restrictions.</li>
-                  <li><strong>CICRA 2005:</strong> Bureau reporting standards and remediation.</li>
+                  <li><strong>CICRA 2005:</strong> desk reporting standards and remediation.</li>
                 </ul>
               </div>
 
@@ -1010,14 +908,10 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
                   >
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief experts </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Specialized in banking regulations, personal loan dispute resolution, and NPA compromise negotiations across Indian banking forums.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> Specialized in banking rules. Own loan dispute relief. NPA deal talks across Indian banking forums. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link
                   href="/author/ashish-jhangra"
@@ -1041,12 +935,8 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
                 <span className="text-xs font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
                   100% CONFIDENTIAL LEGAL DEFENSE
                 </span>
-                <p className="text-lg md:text-xl font-bold text-white leading-snug">
-                  Facing Personal Loan Default?
-                </p>
-                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
-                  Our debt resolution specialists stop agent harassment, defend legal notices, and negotiate a 40% to 55% compromise settlement.
-                </p>
+                <p className="text-lg md:text-xl font-bold text-white leading-snug"> Facing own Loan Default? </p>
+                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal"> Our debt relief specialists stop agent threats. Defend legal notices. settle a 40% to 55% deal closure. </p>
               </div>
               <Link
                 href="/contact"
@@ -1072,22 +962,10 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
               <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage</p>
               <ul className="space-y-2 text-slate-600">
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>Zero Upfront Risk:</strong> Success-linked settlement fees.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>Direct Bank Remittance:</strong> Zero middleman fund holding.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>RBI &amp; CICRA Compliance:</strong> 100% lawful dispute handling.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>Pan-India Representation:</strong> Dedicated debt resolution specialists.</span>
-                </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" /> <span><strong>Zero Upfront Risk:</strong> Success-linked closure fees.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" /> <span><strong>Direct Bank wire transfer:</strong> Zero middleman fund holding.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" /> <span><strong>RBI &amp. CICRA Compliance:</strong> 100% lawful dispute handling.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" /> <span><strong>Pan-India Representation:</strong> Dedicated debt relief specialists.</span> </li>
               </ul>
             </div>
 
@@ -1099,9 +977,7 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
                   href="/bank-sent-legal-notice-for-loan-what-to-do"
                   className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
                 >
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Bank Sent Legal Notice for Loan Default
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Bank Sent Legal Notice for Loan Default </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Full step-by-step reply blueprint &rarr;</span>
                 </Link>
 
@@ -1109,9 +985,7 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
                   href="/arbitration-notice-personal-loan-default"
                   className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
                 >
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Arbitration Notice for Personal Loan
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Arbitration Notice for own Loan </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Challenge unilateral appointment &rarr;</span>
                 </Link>
 
@@ -1119,9 +993,7 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
                   href="/convert-settled-status-to-closed"
                   className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
                 >
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Convert Settled Loan to Closed Status
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Convert Settled Loan to Closed Status </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Clean credit report blueprint &rarr;</span>
                 </Link>
               </div>

@@ -78,43 +78,43 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
   const faqs = [
     {
       q: 'What is a Non-Bailable Warrant (NBW) in a Section 138 cheque bounce case?',
-      a: 'A Non-Bailable Warrant (NBW) is a judicial arrest order issued by a Magistrate under Section 70 of the Code of Criminal Procedure (Section 72 BNSS). It directs police to arrest the accused borrower and produce them in court after repeated non-appearance following summons and bailable warrants in a Section 138 Negotiable Instruments Act proceeding.'
+      a: 'A Non-Bailable Warrant (NBW) is a judicial arrest order issued by a Magistrate under Section 70 of the Code of penal Procedure (Section 72 BNSS). It directs police to arrest the accused clients and produce them in court after repeated non-appearance following summons and bailable warrants in a Section 138 Negotiable Instruments Act steps.'
     },
     {
       q: 'Can the police arrest me immediately once an NBW is issued for a cheque bounce?',
-      a: 'Yes, an active NBW authorizes police officers to take you into custody anywhere in India and present you before the issuing Magistrate. Unlike a bailable warrant, the police cannot grant station bail on an NBW. However, you can prevent arrest by immediately filing an urgent Section 70(2) recall petition or surrendering through counsel before the Magistrate.'
+      a: 'Yes. An active NBW authorizes police heads to take you into custody anywhere in India and present you before the issuing Magistrate. Unlike a bailable warrant. The police cannot grant station bail on an NBW. Yet. You can prevent arrest by fast filing an urgent Section 70(2) recall petition or surrendering through counsel before the Magistrate.'
     },
     {
       q: 'How do I cancel or recall a Non-Bailable Warrant without going to jail?',
-      a: 'To recall an NBW, your legal counsel must file an urgent application under Section 70(2) CrPC before the issuing trial court. The application must cite bona fide grounds for prior non-appearance, such as unserved summons, wrong address records, hospitalization, or outstation relocation, accompanied by a formal undertaking to attend all future hearings and furnish personal bail bonds.'
+      a: 'To recall an NBW. Your legal counsel must file an urgent application under Section 70(2) CrPC before the issuing trial court. The application must cite bona fide grounds for prior non-appearance. Such as unserved summons. Wrong address records. Hospitalization. Outstation relocation. Accompanied by a formal undertaking to attend all future hearings and furnish own bail bonds.'
     },
     {
       q: 'Can a Magistrate issue an NBW without first serving summons or a bailable warrant?',
-      a: 'Under Supreme Court directives in Inder Mohan Goswami (2007) and Raghuvansh Dewanchand (2012), Magistrates should not issue an NBW on the first instance in commercial cheque bounce disputes. The court must first exhaust summons and bailable warrants. If an NBW is issued without proof of valid summons service, it constitutes a procedural illegality curable through recall or Section 482 High Court quashing.'
+      a: 'Under Supreme Court directives in Inder Mohan Goswami (2007) and Raghuvansh Dewanchand (2012). Magistrates should not issue an NBW on the first instance in trade cheque bounce disputes. The court must first exhaust summons and bailable warrants. If an NBW is issued without proof of valid summons service. It constitutes a procedural illegality curable through recall or Section 482 High Court quashing.'
     },
     {
       q: 'What is the procedure for surrendering in court to recall an NBW?',
-      a: 'Surrendering involves appearing before the issuing Judicial Magistrate alongside your advocate during morning court hours. Your counsel moves an application under Section 70(2) CrPC along with a regular bail petition under Section 436 or 437 CrPC, accompanied by a personal appearance bond and a local solvent surety. In commercial loan disputes, trial courts routinely cancel the NBW on the same day.'
+      a: 'Surrendering involves appearing before the issuing Judicial Magistrate alongside your counsel during morning court hours. Your counsel moves an application under Section 70(2) CrPC along with a regular bail petition under Section 436 or 437 CrPC. Accompanied by a own appearance bond and a local solvent surety. In trade loan disputes. Trial courts routinely cancel the NBW on the same day.'
     },
     {
       q: 'Can I get an interim stay on an NBW from the High Court?',
-      a: 'Yes. If the trial Magistrate refuses to recall the warrant, or if there is imminent threat of arrest in a distant outstation jurisdiction, you can file a criminal petition under Section 482 CrPC (Section 528 BNSS) before the High Court. The High Court can stay police execution of the NBW and direct you to appear before the trial court within a protected window.'
+      a: 'Yes. If the trial Magistrate refuses to recall the warrant. If there is imminent threat of arrest in a distant outstation jurisdiction. You can file a penal petition under Section 482 CrPC (Section 528 BNSS) before the High Court. The High Court can stay police execution of the NBW and direct you to appear before the trial court within a protected window.'
     },
     {
       q: 'What happens if I continue to ignore a Non-Bailable Warrant?',
-      a: 'If an NBW remains unexecuted due to evasion, the Magistrate can initiate proclamation proceedings under Section 82 CrPC, declaring you a proclaimed person. If non-appearance persists, the court can order attachment and auction of your movable and immovable assets under Section 83 CrPC, alongside issuing Look-Out Circulars (LOC) that restrict international travel.'
+      a: 'If an NBW remains unexecuted due to evasion. The Magistrate can initiate proclamation steps under Section 82 CrPC. Declaring you a proclaimed person. If non-appearance persists. The court can order attachment and auction of your movable and immovable assets under Section 83 CrPC. Alongside issuing Look-Out Circulars (LOC) that restrict international travel.'
     },
     {
       q: 'Can a cheque bounce case and NBW be closed through a bank settlement?',
-      a: 'Yes. Section 138 offenses are compoundable under Section 147 of the Negotiable Instruments Act. Borrowers can negotiate a One-Time Settlement (OTS) with the lender to pay a mutually compromised sum. Once the bank receives payment and issues a No Dues Certificate, a joint compounding application is filed in court to quash the NBW and dismiss the criminal complaint.'
+      a: 'Yes. Section 138 offenses are compoundable under Section 147 of the Negotiable Instruments Act. clients can settle a One-Time closure (OTS) with the lender to pay a mutually compromised sum. Once the bank receives payment and issues a No Dues letter. A joint growing application is filed in court to quash the NBW and dismiss the penal complaint.'
     },
     {
       q: 'What documents are required to file an NBW recall application and secure bail?',
-      a: 'Required documents include certified copies of the complaint and warrant order sheets, proof of identity and local residence (Aadhaar, PAN, Passport), evidence substantiating prior absence (medical certificates, employer relocation letters, speed post tracking records showing non-delivery), and local surety documents such as property tax receipts, salary slips, or vehicle RC.'
+      a: 'Required papers include signed copies of the complaint and warrant order sheets. Proof of identity and local residence (Aadhaar. PAN. Passport). Evidence prove prior absence (medical letters. Employer relocation letters. Speed post tracking records showing non-delivery). Local surety papers such as home tax receipts. Salary slips. vehicle RC.'
     },
     {
       q: 'Does an NBW in a cheque bounce case affect my CIBIL score and passport renewal?',
-      a: 'The warrant itself is a judicial order and is not directly uploaded to CIBIL. However, the underlying loan default will reflect as Suit Filed or Written-Off, dropping your score below 600. Furthermore, an active uncancelled NBW reported in police databases can block passport issuance or trigger immigration alerts at airports under Section 6(2)(f) of the Passports Act, 1967.'
+      a: 'The warrant itself is a judicial order and is not straight uploaded to CIBIL. Yet. The underlying loan default will reflect as Suit Filed or Written-Off. Dropping your score below 600. Furthermore. An active uncancelled NBW reported in police databases can block passport issuance or trigger visa alerts at airports under Section 6(2)(f) of the Passports Act. 1967.'
     }
   ];
 
@@ -136,9 +136,7 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
             Non-Bailable Warrant (NBW) in Cheque Bounce: Legal Defense Guide
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed">
-            Has a Judicial Magistrate issued a Non-Bailable Warrant against you in a Section 138 cheque bounce or personal loan dispute? Learn how to file an emergency recall petition under Section 70(2) CrPC, secure regular court bail without custodial arrest, and negotiate a full compromise settlement.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> Has a Judicial Magistrate issued a Non-Bailable Warrant against you in a Section 138 cheque bounce or own loan dispute? Learn how to file an emergency recall petition under Section 70(2) CrPC. Secure regular court bail without custodial arrest. settle a full deal closure. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -204,9 +202,7 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
             >
               <div className="flex items-center gap-2 pb-3 mb-3 border-b border-blue-100">
                 <ShieldCheck className="w-5 h-5 text-[#1886ff]" />
-                <p className="text-base sm:text-lg font-bold text-slate-900">
-                  Executive Brief: Non-Bailable Warrants in Cheque Bounce
-                </p>
+                <p className="text-base sm:text-lg font-bold text-slate-900"> Executive Brief: Non-Bailable Warrants in Cheque Bounce </p>
               </div>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-xs sm:text-sm text-slate-700">
@@ -254,17 +250,11 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                Defaulting on a personal loan or credit card is fundamentally a civil contract breach under the Indian Contract Act, 1872. However, commercial banks routinely convert unsecured debts into quasi-criminal disputes by depositing post-dated security cheques or presenting electronic NACH mandates collected during disbursement. Following an EMI bounce, lenders issue a statutory demand notice under Section 138(b) of the Negotiable Instruments Act, 1881, followed by a criminal complaint under Section 200 CrPC.
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> Defaulting on a own loan or credit card is fundamentally a civil contract breach under the Indian Contract Act. 1872. Yet. Trade banks routinely convert clean debts into quasi-penal disputes by depositing post-dated security cheques or presenting online NACH mandates collected during disbursement. Following an EMI bounce. Lenders issue a legal demand notice under Section 138(b) of the Negotiable Instruments Act. 1881. Followed by a penal complaint under Section 200 CrPC. </p>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                Banks favor criminal complaints over civil suits due to RBI prudential norms. Once an overdue account breaches 90 Days Past Due, it becomes a Non-Performing Asset (NPA), requiring mandatory Tier-1 capital provisioning. Because civil suits take years, lenders use Section 138 trials to exert personal liberty pressure. When postal summons fail to reach borrowers due to changed addresses or flawed process service, Magistrates presume willful evasion and escalate from summons to Non-Bailable Warrants under Section 70 CrPC (Section 72 BNSS).
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> Banks favor penal complaints over civil suits due to RBI prudential norms. Once an overdue account breaches 90 Days Past Due. It becomes a Non-Performing Asset (NPA). Requiring mandatory Tier-1 capital provisioning. Because civil suits take years. Lenders use Section 138 trials to exert own liberty pressure. When postal summons fail to reach clients due to changed addresses or flawed process service. Magistrates presume willful evasion and escalate from summons to Non-Bailable Warrants under Section 70 CrPC (Section 72 BNSS). </p>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                The Supreme Court of India in <em>Inder Mohan Goswami v. State of U.P. (2007)</em> and <em>Raghuvansh Dewanchand Bhasin (2012)</em> established that courts must protect personal liberty under Article 21. Non-Bailable Warrants must never be issued mechanically in commercial money disputes without proof of deliberate evasion.
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> The Supreme Court of India in <em>Inder Mohan Goswami v. State of U.P. (2007)</em> and <em>Raghuvansh Dewanchand Bhasin (2012)</em> established that courts must protect own liberty under Article 21. Non-Bailable Warrants must never be issued mechanically in trade money disputes without proof of deliberate evasion. </p>
             </section>
 
             {/* SECTION 2: FINANCIAL BREAKDOWN & SETTLEMENT MATH */}
@@ -276,9 +266,7 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                During criminal cheque bounce litigation, lender claim statements are heavily inflated. Banks stack overdue interest, bounce fees, monthly penal interest at 24% to 36%, 18% GST, and legal expenses. Consequently, a borrowed principal of ₹6,50,000 frequently doubles into an inflated demand of ₹12,00,000 within 180 days of default.
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> During penal cheque bounce litigation. Lender claim statements are heavily inflated. Banks stack overdue rates. Bounce fees. Monthly penal rates at 24% to 36%. 18% GST. legal expenses. Consequently. A borrowed main sum of ₹6,50,000 often doubles into an inflated demand of ₹12,00,000 within 180 days of default. </p>
 
               <div className="bg-white rounded-2xl border border-slate-200/80 p-5 shadow-xs space-y-3">
                 <div className="flex items-center justify-between pb-3 border-b border-slate-100">
@@ -306,9 +294,7 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
                   </div>
                 </div>
 
-                <p className="text-xs text-slate-600 leading-relaxed pt-1">
-                  Once counsel recalls the NBW and secures bail, the bank loses coercive leverage. This enables bilateral One-Time Settlement (OTS) negotiations to waive penal charges and close the dispute at 40% to 55% of the total claim.
-                </p>
+                <p className="text-xs text-slate-600 leading-relaxed pt-1"> Once counsel recalls the NBW and secures bail. The bank loses coercive leverage. This enables bilateral One-Time closure (OTS) talks to waive penal charges and close the dispute at 40% to 55% of the total claim. </p>
               </div>
             </section>
 
@@ -321,9 +307,7 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                Evaluating available legal remedies against an active NBW ensures immediate protection from custodial detention while progressing toward debt resolution.
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> Evaluating available legal remedies against an active NBW ensures fast safety from custodial detention while progressing toward debt relief. </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
                 <table className="w-full text-left text-xs sm:text-sm border-collapse">
@@ -342,35 +326,35 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
                       <td className="p-3.5 sm:p-4 border-l border-slate-200">Issuing Magistrate Court</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200 text-emerald-600 font-bold">Zero Risk with Surety</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200">24 to 48 Hours</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200">Warrant cancelled; regular bail granted.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200">Warrant cancelled. regular bail granted.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/80 transition-colors">
                       <td className="p-3.5 sm:p-4 font-semibold text-slate-900">High Court Sec 482 Quashing</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200">State High Court</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200 text-blue-600 font-bold">Stay on Police Arrest</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200">7 to 15 Days</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200">Warrant stayed; trial quashed if notice invalid.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200">Warrant stayed. trial quashed if notice invalid.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/80 transition-colors">
-                      <td className="p-3.5 sm:p-4 font-semibold text-slate-900">Surrender &amp; Bail Application</td>
+                      <td className="p-3.5 sm:p-4 font-semibold text-slate-900">Surrender &amp. Bail Application</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200">Judicial Magistrate / MM</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200 text-emerald-600 font-bold">Released on Bond</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200">Same Day Hearing</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200">Bail granted on personal bond &amp; local surety.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200">Bail granted on own bond &amp. local surety.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/80 transition-colors">
                       <td className="p-3.5 sm:p-4 font-semibold text-slate-900">National Lok Adalat OTS</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200">NALSA Lok Adalat Bench</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200 text-emerald-600 font-bold">Zero Arrest Risk</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200">1 to 3 Weeks</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200">Full compounding under Sec 147 NI &amp; case closure.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200">Full growing under Sec 147 NI &amp. case closure.</td>
                     </tr>
                     <tr className="hover:bg-rose-50/40 transition-colors">
                       <td className="p-3.5 sm:p-4 font-semibold text-rose-700">Ignoring Active NBW</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200">Police &amp; Criminal Court</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200">Police &amp. penal Court</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200 text-rose-600 font-bold">Imminent Jail Arrest</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200">Indefinite Risk</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200">Sec 82 proclamation &amp; Sec 83 property attachment.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200">Sec 82 proclamation &amp. Sec 83 home attachment.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -386,13 +370,9 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                While an arrest warrant is not directly published to credit bureau feeds, underlying loan defaults severely damage your CIBIL score. CIBIL computes scores based on five core factors: 35% Payment History, 30% Utilization Ratio, 15% History Length, 10% Credit Mix, and 10% Inquiries. Delinquency tags like &quot;Suit Filed&quot; or &quot;Written-Off&quot; drop credit scores from 750+ down to distress ranges (520 to 580).
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> While an arrest warrant is not straight published to credit desk feeds. Underlying loan defaults severely damage your CIBIL score. CIBIL computes scores based on five core factors: 35% Payment History. 30% Utilization Ratio. 15% History Length. 10% Credit Mix. 10% Inquiries. Delinquency tags like &quot. Suit Filed&quot. or &quot. Written-Off&quot. drop credit scores from 750+ down to distress ranges (520 to 580). </p>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                Restoring credit requires securing an unconditional No Dues Certificate (NDC) post-settlement. Under Section 21 of the Credit Information Companies (Regulation) Act, 2005 (CICRA), submitting the NDC mandates the bureau to update the status to &quot;Closed&quot; or &quot;Settled&quot;. Combined with secured credit builder products, your score can recover to 750+ within 18 to 24 months.
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> Restoring credit requires securing an unconditional No Dues letter (NDC) post-closure. Under Section 21 of the Credit Information Companies (rule) Act. 2005 (CICRA). Submitting the NDC mandates the desk to update the status to &quot. Closed&quot. or &quot. Settled&quot. Combined with secured credit builder products. Your score can recover to 750+ within 18 to 24 months. </p>
             </section>
 
             {/* SECTION 5: VISUAL INFOGRAPHIC ASSET CARD */}
@@ -439,29 +419,23 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                CredSettle executes a structured six-stage protocol before Magistrate Courts across India to neutralize arrest risks and achieve legal case dismissal.
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> CredSettle executes a structured six-stage protocol before Magistrate Courts across India to neutralize arrest risks and achieve legal case dismissal. </p>
 
               <div className="space-y-3.5">
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 sm:p-5 shadow-2xs">
                   <div className="flex items-center gap-3 mb-2">
                     <span className="w-7 h-7 rounded-lg bg-blue-100 text-[#1886ff] font-extrabold flex items-center justify-center text-xs">01</span>
-                    <h3 className="text-base font-bold text-slate-900">Stage 1: Forensic Docket &amp; Warrant Audit</h3>
+                    <h3 className="text-base font-bold text-slate-900">Stage 1: Forensic Docket &amp. Warrant Audit</h3>
                   </div>
-                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600">
-                    Counsel audits the e-Courts CNR docket, extracts certified order sheets, and verifies whether postal summons were returned unserved or delivered to an outdated address, establishing procedural non-service.
-                  </p>
+                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600"> Counsel audits the e-Courts CNR docket. Extracts signed order sheets. Verifies whether postal summons were returned unserved or delivered to an outdated address. Establishing procedural non-service. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 sm:p-5 shadow-2xs">
                   <div className="flex items-center gap-3 mb-2">
                     <span className="w-7 h-7 rounded-lg bg-blue-100 text-[#1886ff] font-extrabold flex items-center justify-center text-xs">02</span>
-                    <h3 className="text-base font-bold text-slate-900">Stage 2: Hardship Dossier &amp; Solvent Surety Preparation</h3>
+                    <h3 className="text-base font-bold text-slate-900">Stage 2: Hardship Dossier &amp. Solvent Surety Preparation</h3>
                   </div>
-                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600">
-                    We compile documentation substantiating non-appearance (medical certificates or job transfer records) while arranging local solvent surety proofs and personal bail bonds to fulfill court bail conditions.
-                  </p>
+                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600"> We compile proof prove non-appearance (medical letters or job transfer records) while arranging local solvent surety proofs and own bail bonds to fulfill court bail conditions. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 sm:p-5 shadow-2xs">
@@ -469,39 +443,31 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
                     <span className="w-7 h-7 rounded-lg bg-blue-100 text-[#1886ff] font-extrabold flex items-center justify-center text-xs">03</span>
                     <h3 className="text-base font-bold text-slate-900">Stage 3: Urgent Section 70(2) Recall Petition Filing</h3>
                   </div>
-                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600">
-                    Counsel drafts and files an urgent Section 70(2) CrPC recall application with an affidavit, establishing absence was non-willful and citing Supreme Court guidelines in <em>Inder Mohan Goswami</em>.
-                  </p>
+                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600"> Counsel drafts and files an urgent Section 70(2) CrPC recall application with an affidavit. Establishing absence was non-willful and citing Supreme Court guidelines in <em>Inder Mohan Goswami</em>. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 sm:p-5 shadow-2xs">
                   <div className="flex items-center gap-3 mb-2">
                     <span className="w-7 h-7 rounded-lg bg-blue-100 text-[#1886ff] font-extrabold flex items-center justify-center text-xs">04</span>
-                    <h3 className="text-base font-bold text-slate-900">Stage 4: Court Appearance, Surrender &amp; Bail Grant</h3>
+                    <h3 className="text-base font-bold text-slate-900">Stage 4: Court Appearance. Surrender &amp. Bail Grant</h3>
                   </div>
-                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600">
-                    Our advocate appears before the Magistrate, surrenders the borrower to court jurisdiction, furnishes bail bonds, and secures an immediate order cancelling the NBW, with copies sent to the local police station.
-                  </p>
+                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600"> Our counsel appears before the Magistrate. Surrenders the clients to court jurisdiction. Furnishes bail bonds. Secures an fast order cancelling the NBW. With copies sent to the local police station. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 sm:p-5 shadow-2xs">
                   <div className="flex items-center gap-3 mb-2">
                     <span className="w-7 h-7 rounded-lg bg-blue-100 text-[#1886ff] font-extrabold flex items-center justify-center text-xs">05</span>
-                    <h3 className="text-base font-bold text-slate-900">Stage 5: Bilateral OTS Negotiations with Bank</h3>
+                    <h3 className="text-base font-bold text-slate-900">Stage 5: Bilateral OTS talks with Bank</h3>
                   </div>
-                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600">
-                    With arrest risks resolved, CredSettle negotiates directly with the bank Credit Committee to strip unearned penal charges and secure a formal OTS sanction letter offering a 40% to 55% waiver.
-                  </p>
+                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600"> With arrest risks resolved. CredSettle negotiates straight with the bank Credit board to strip unearned penal charges and secure a formal OTS sanction letter offering a 40% to 55% waiver. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 sm:p-5 shadow-2xs">
                   <div className="flex items-center gap-3 mb-2">
                     <span className="w-7 h-7 rounded-lg bg-blue-100 text-[#1886ff] font-extrabold flex items-center justify-center text-xs">06</span>
-                    <h3 className="text-base font-bold text-slate-900">Stage 6: Section 147 Compounding &amp; No Dues Certificate</h3>
+                    <h3 className="text-base font-bold text-slate-900">Stage 6: Section 147 growing &amp. No Dues letter</h3>
                   </div>
-                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600">
-                    Upon remitting settlement funds, a compounding application under Section 147 NI Act is filed. The court dismisses the complaint, acquits the borrower, and the bank issues a final No Dues Certificate.
-                  </p>
+                  <p className="text-xs sm:text-sm leading-relaxed text-slate-600"> Upon remitting closure funds. A growing application under Section 147 NI Act is filed. The court dismisses the complaint. Acquits the clients. the bank issues a final No Dues letter. </p>
                 </div>
               </div>
             </section>
@@ -515,9 +481,7 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                Borrowers possess strong statutory defenses against defective cheque bounce proceedings. Criminal courts cannot sustain prosecution if the lender failed to meet mandatory legal preconditions.
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> clients possess strong legal defenses against defective cheque bounce steps. penal courts cannot sustain prosecution if the lender failed to meet mandatory legal preconditions. </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-2xs space-y-1.5">
@@ -525,9 +489,7 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
                     <FileText className="w-4 h-4 text-[#1886ff]" />
                     <span>1. Section 138(b) 30-Day Notice Flaw</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Demand notices must be issued within 30 days of cheque dishonor. Failure to serve notice at the valid address or premature filing before the 15-day cure period invalidates prosecution.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Demand notices must be issued within 30 days of cheque dishonor. Failure to serve notice at the valid address or premature filing before the 15-day cure period invalidates prosecution. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-2xs space-y-1.5">
@@ -535,9 +497,7 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
                     <ShieldCheck className="w-4 h-4 text-emerald-600" />
                     <span>2. Section 25 PSSA Electronic Mandate Limits</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    NACH/ECS bounce complaints under Section 25 PSSA must strictly follow statutory notice windows. Repeated presentations without fresh notices violate settled procedure.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> NACH/ECS bounce complaints under Section 25 PSSA must strictly follow legal notice windows. Repeated presentations without fresh notices violate settled procedure. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-2xs space-y-1.5">
@@ -545,9 +505,7 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
                     <UserCheck className="w-4 h-4 text-blue-600" />
                     <span>3. Arbitration Section 21 &amp; Perkins Bar</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Under the <em>Perkins Eastman</em> ruling, lenders cannot unilaterally appoint sole arbitrators for parallel recovery. Such awards are null, void, and legally unenforceable.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Under the <em>Perkins Eastman</em> ruling. Lenders cannot unilaterally appoint sole arbitrators for parallel claims. Such awards are null. Void. by law unenforceable. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-2xs space-y-1.5">
@@ -555,15 +513,11 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
                     <Clock className="w-4 h-4 text-purple-600" />
                     <span>4. DRT Sec 19 &amp; RBI Harassment Shield</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Unsecured loans cannot face property attachment without adjudication. RBI Fair Practices Code strictly prohibits recovery contact before 8:00 AM, after 7:00 PM, or to relatives.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> clean loans cannot face home attachment without adjudication. RBI Fair Practices Code strictly prohibits claims contact before 8:00 AM. After 7:00 PM. to relatives. </p>
                 </div>
               </div>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                Establishing procedural defects enables your counsel to seek immediate discharge or petition the High Court under Section 482 CrPC to quash the warrant and complaint.
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> Establishing procedural defects enables your counsel to seek fast discharge or petition the High Court under Section 482 CrPC to quash the warrant and complaint. </p>
             </section>
 
             {/* SECTION 8: 3-TIER ESCALATION MATRIX */}
@@ -575,9 +529,7 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                CredSettle deploys a three-tier legal strategy based on the procedural stage of the warrant and lender cooperation.
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> CredSettle deploys a three-tier legal strategy based on the procedural stage of the warrant and lender cooperation. </p>
 
               <div className="space-y-3 text-xs sm:text-sm">
                 <div className="p-4 rounded-2xl bg-white border border-slate-200/80 shadow-2xs space-y-1">
@@ -585,9 +537,7 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
                     <span className="font-bold text-slate-900 text-sm">Level 1: Trial Magistrate Section 70(2) Recall Petition</span>
                     <span className="px-2 py-0.5 rounded-md bg-blue-100 text-[#1886ff] font-bold text-xs">Immediate (24 to 48 Hours)</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">
-                    We appear before the issuing Magistrate, present bona fide grounds for prior non-appearance, furnish personal appearance bonds, and secure same-day recall of the Non-Bailable Warrant.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> We appear before the issuing Magistrate. Present bona fide grounds for prior non-appearance. Furnish own appearance bonds. secure same-day recall of the Non-Bailable Warrant. </p>
                 </div>
 
                 <div className="p-4 rounded-2xl bg-white border border-slate-200/80 shadow-2xs space-y-1">
@@ -595,9 +545,7 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
                     <span className="font-bold text-slate-900 text-sm">Level 2: Sessions Court Revision &amp; Lok Adalat Conciliation</span>
                     <span className="px-2 py-0.5 rounded-md bg-emerald-100 text-emerald-700 font-bold text-xs">Mid-Stage (14 to 30 Days)</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">
-                    If onerous bail terms are imposed, we file a Criminal Revision under Section 397 CrPC while referring the dispute to the National Lok Adalat for an institutional compromise settlement.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> If onerous bail terms are imposed. We file a penal Revision under Section 397 CrPC while referring the dispute to the National Lok Adalat for an bank deal closure. </p>
                 </div>
 
                 <div className="p-4 rounded-2xl bg-white border border-slate-200/80 shadow-2xs space-y-1">
@@ -605,9 +553,7 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
                     <span className="font-bold text-slate-900 text-sm">Level 3: High Court Section 482 Quashing &amp; Stay Petition</span>
                     <span className="px-2 py-0.5 rounded-md bg-purple-100 text-purple-700 font-bold text-xs">High Court Level (7 to 15 Days)</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed">
-                    Where prosecution is time-barred or lacks statutory notice service, we petition the High Court under Section 482 CrPC (Section 528 BNSS) to obtain an interim stay and quash the complaint.
-                  </p>
+                  <p className="text-slate-600 leading-relaxed"> Where prosecution is time-barred or lacks legal notice service. We petition the High Court under Section 482 CrPC (Section 528 BNSS) to obtain an interim stay and quash the complaint. </p>
                 </div>
               </div>
             </section>
@@ -621,9 +567,7 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                Understanding Section 138 procedural milestones enables timely legal interventions before coercive warrants are executed.
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> grasp Section 138 procedural milestones enables timely legal action before coercive warrants are executed. </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
                 <table className="w-full text-left text-xs sm:text-sm border-collapse">
@@ -651,20 +595,20 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
                     <tr className="hover:bg-slate-50/80 transition-colors">
                       <td className="p-3.5 sm:p-4 font-semibold text-slate-900">Month 3 to 4: Court Summons</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200">Sec 61 to 69 CrPC</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200">Magistrate issues physical summons</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200">Appear through advocate; seek Section 205 exemption.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200">Magistrate issues real summons</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200">Appear through counsel. seek Section 205 exemption.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/80 transition-colors">
                       <td className="p-3.5 sm:p-4 font-semibold text-slate-900">Month 5 to 6: Warrant Escalation</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200">Sec 70 &amp; 71 CrPC</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200">Sec 70 &amp. 71 CrPC</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200">Bailable warrant followed by NBW order</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200">File Section 70(2) recall with local solvent surety.</td>
                     </tr>
                     <tr className="hover:bg-slate-50/80 transition-colors">
-                      <td className="p-3.5 sm:p-4 font-semibold text-emerald-700">Month 6+: Resolution &amp; NDC</td>
+                      <td className="p-3.5 sm:p-4 font-semibold text-emerald-700">Month 6+: relief &amp. NDC</td>
                       <td className="p-3.5 sm:p-4 border-l border-slate-200">Sec 147 NI Act</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200">Compromise OTS sanctioned by bank</td>
-                      <td className="p-3.5 sm:p-4 border-l border-slate-200">Joint compounding petition filed; complaint dismissed.</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200">deal OTS sanctioned by bank</td>
+                      <td className="p-3.5 sm:p-4 border-l border-slate-200">Joint growing petition filed. complaint dismissed.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -680,9 +624,7 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
                 </h2>
               </div>
 
-              <p className="text-sm sm:text-base leading-relaxed text-slate-700">
-                NBW defense requires specialized tactics when complicated by interstate jurisdictions, corporate roles, or third-party debt assignments.
-              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-700"> NBW defense requires specialized tactics when complicated by interstate jurisdictions. Firm roles. third-party debt assignments. </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-2xs space-y-1.5">
@@ -690,9 +632,7 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
                     <Landmark className="w-4 h-4 text-[#1886ff]" />
                     <span>Outstation Court Jurisdiction Warrants</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    National lenders often file cases in metro hubs. Our local panel advocates file recall petitions and Section 205 appearance exemptions, eliminating interstate travel burdens.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> National lenders often file cases in metro hubs. Our local panel counsel file recall petitions and Section 205 appearance exemptions. Eliminating interstate travel burdens. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-2xs space-y-1.5">
@@ -700,9 +640,7 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
                     <UserCheck className="w-4 h-4 text-blue-600" />
                     <span>Executive Layoffs &amp; Medical Crisis</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    For defaults caused by job loss or medical crises, we present verified hardship evidence. Courts routinely recall warrants and grant time for OTS compromise.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> For defaults caused by job loss or medical crises. We present checked hardship evidence. Courts routinely recall warrants and grant time for OTS deal. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-2xs space-y-1.5">
@@ -710,9 +648,7 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
                     <Briefcase className="w-4 h-4 text-emerald-600" />
                     <span>MSME Proprietorship &amp; Director Liability</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    Under Section 141 NI Act, non-executive directors are often wrongly impleaded. We establish non-involvement in daily management to recall warrants against uninvolved partners.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Under Section 141 NI Act. Non-executive directors are often wrongly impleaded. We establish non-involvement in daily handling to recall warrants against uninvolved partners. </p>
                 </div>
 
                 <div className="bg-white p-4 rounded-2xl border border-slate-200/80 shadow-2xs space-y-1.5">
@@ -720,9 +656,7 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
                     <Scale className="w-4 h-4 text-purple-600" />
                     <span>Asset Reconstruction (ARC) Assignments</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    When debts are assigned to ARCs, assignees must properly substitute themselves on court records. We challenge defective substitutions to negotiate 50% to 70% OTS waivers.
-                  </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> When debts are assigned to ARCs. Assignees must properly substitute themselves on court records. We challenge defective substitutions to settle 50% to 70% OTS waivers. </p>
                 </div>
               </div>
             </section>
@@ -780,19 +714,17 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
                 </h2>
               </div>
 
-              <p className="text-xs sm:text-sm leading-relaxed text-slate-600">
-                CredSettle legal guidance is rooted in statutory codes, Reserve Bank of India Master Directions, and binding Supreme Court of India precedents:
-              </p>
+              <p className="text-xs sm:text-sm leading-relaxed text-slate-600"> CredSettle legal guidance is rooted in legal codes. Reserve Bank of India Master Directions. binding Supreme Court of India precedents: </p>
 
               <div className="space-y-2 text-xs text-slate-600 leading-relaxed">
-                <p>• <strong>Negotiable Instruments Act, 1881:</strong> Sections 138, 141, 142, 143A &amp; 147 (Compounding of Offenses).</p>
-                <p>• <strong>Code of Criminal Procedure, 1973:</strong> Sections 70(2) (Recall of Warrant), 71, 82, 83, 205, 397 &amp; 482 (Inherent Powers of High Court).</p>
-                <p>• <strong>Bharatiya Nagarik Suraksha Sanhita, 2023:</strong> Sections 72, 73 &amp; 528 (Modernized Criminal Procedural Code).</p>
-                <p>• <strong>Supreme Court Precedents:</strong> <em>Inder Mohan Goswami v. State of U.P. (2007)</em>; <em>Raghuvansh Dewanchand Bhasin v. State of Maharashtra (2012)</em>; <em>Damodar S. Prabhu v. Sayed Babalal H. (2010)</em>.</p>
+                <p>• <strong>Negotiable Instruments Act. 1881:</strong> Sections 138. 141. 142. 143A &amp. 147 (growing of Offenses).</p>
+                <p>• <strong>Code of penal Procedure. 1973:</strong> Sections 70(2) (Recall of Warrant). 71. 82. 83. 205. 397 &amp. 482 (Inherent Powers of High Court).</p>
+                <p>• <strong>Bharatiya Nagarik Suraksha Sanhita. 2023:</strong> Sections 72. 73 &amp. 528 (Modernized penal Procedural Code).</p>
+                <p>• <strong>Supreme Court Precedents:</strong> <em>Inder Mohan Goswami v. State of U.P. (2007)</em>. <em>Raghuvansh Dewanchand Bhasin v. State of Maharashtra (2012)</em>. <em>Damodar S. Prabhu v. Sayed Babalal H. (2010)</em>.</p>
               </div>
 
               <div className="space-y-2 pt-2">
-                <p className="text-xs font-bold uppercase tracking-wider text-slate-600">Official Legislative &amp; Redressal Portals:</p>
+                <p className="text-xs font-bold uppercase tracking-wider text-slate-600">valid Legislative &amp. Redressal Portals:</p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 text-xs">
                   <a
                     href="https://services.ecourts.gov.in"
@@ -890,15 +822,11 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
                 </div>
                 <div>
                   <p className="font-bold text-slate-900 text-sm">Ashish Jhangra</p>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief experts </p>
                   <p className="text-[10px] text-slate-500">CredSettle Research Head</p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed border-t border-slate-100 pt-2.5">
-                Specialist in Indian banking dispute defense, Section 138 NI Act litigation strategy, and institutional compromise settlements under RBI Prudential Frameworks.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed border-t border-slate-100 pt-2.5"> Specialist in Indian banking dispute defense. Section 138 NI Act litigation strategy. bank deal closures under RBI Prudential Frameworks. </p>
             </div>
 
             {/* EMERGENCY CTA CARD (#2452ae) */}
@@ -912,12 +840,8 @@ export default function NonBailableWarrantChequeBounceLoanClient() {
                   Urgent Legal Defense
                 </span>
               </div>
-              <p className="text-base font-extrabold leading-snug">
-                Non-Bailable Warrant Issued by Court?
-              </p>
-              <p className="text-xs text-white/90 leading-relaxed">
-                Connect immediately with CredSettle counsel for emergency Section 70(2) CrPC recall representation and same-day court surrender bail protection.
-              </p>
+              <p className="text-base font-extrabold leading-snug"> Non-Bailable Warrant Issued by Court? </p>
+              <p className="text-xs text-white/90 leading-relaxed"> Connect fast with CredSettle counsel for emergency Section 70(2) CrPC recall representation and same-day court surrender bail safety. </p>
               <div className="pt-1 space-y-2">
                 <a
                   href="tel:+918800226635"

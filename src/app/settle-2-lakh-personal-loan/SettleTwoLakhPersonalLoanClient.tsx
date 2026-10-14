@@ -89,43 +89,43 @@ export default function SettleTwoLakhPersonalLoanClient() {
   const faqs = [
     {
       q: 'Can I settle a ₹2 lakh personal loan in India?',
-      a: 'Yes, you can settle a ₹2 lakh personal loan in India through a formal One-Time Settlement (OTS) with your lending bank or NBFC. When a borrower faces legitimate financial hardship (such as job loss, critical medical emergency, business setback, or sharp income drop), lenders recognize that pursuing prolonged legal recovery for ₹2 lakhs is economically inefficient. Banks routinely negotiate compromise settlements, accepting between ₹60,000 to ₹90,000 (a 55% to 70% overall waiver) to permanently close the account and recover liquidity without court litigation.'
+      a: 'Yes. You can settle a ₹2 lakh own loan in India through a formal One-Time closure (OTS) with your lending bank or NBFC. When a clients faces legitimate money hardship (such as job loss. Key medical emergency. Firm setback. Sharp income drop). Lenders recognize that pursuing prolonged legal claims for ₹2 lakhs is economically inefficient. Banks routinely settle deal closures. Accepting between ₹60,000 to ₹90,000 (a 55% to 70% overall waiver) to permanently close the account and recover liquidity without court litigation.'
     },
     {
       q: 'What are the legal consequences of defaulting on a ₹2 lakh personal loan?',
-      a: 'Defaulting on an unsecured personal loan of ₹2 lakhs is strictly a civil dispute arising from breach of contract under the Indian Contract Act, 1872. Lenders cannot file criminal charges, dispatch police, or obtain arrest warrants for genuine default. However, if your automated NACH mandate or EMI cheque bounced, the lender can issue statutory notices under Section 25 of the Payments and Settlement Systems Act (PSSA), 2007 or Section 138 of the Negotiable Instruments Act. These quasi-criminal proceedings are routinely closed or quashed upon reaching a negotiated One-Time Settlement.'
+      a: 'Defaulting on an clean own loan of ₹2 lakhs is strictly a civil dispute arising from breach of contract under the Indian Contract Act. 1872. Lenders cannot file penal charges. Dispatch police. obtain arrest warrants for genuine default. yet. If your automated NACH mandate or EMI cheque bounced. The lender can issue legal notices under Section 25 of the Payments and closure Systems Act (PSSA). 2007 or Section 138 of the Negotiable Instruments Act. These quasi-penal steps are routinely closed or quashed upon reaching a settle One-Time closure.'
     },
     {
       q: 'What settlement percentage can I expect for a ₹2 lakh personal loan?',
-      a: 'For an unsecured personal loan of ₹2 lakhs, banks and NBFCs typically settle at 30% to 45% of the true outstanding principal balance, which translates to a final payable amount between ₹60,000 to ₹85,000. Additionally, 100% of accrued penal interest, compounded late payment surcharges, and NACH bounce penalties (which often inflate the total claimed demand to ₹2.6–₹2.9 lakhs) are entirely waived during a professionally negotiated compromise.'
+      a: 'For an clean own loan of ₹2 lakhs. Banks and NBFCs typically settle at 30% to 45% of the true unpaid main sum balance. Which translates to a final payable amount between ₹60,000 to ₹85,000. Additionally. 100% of accrued penal rates. Compounded late payment surcharges. NACH bounce fines (which often inflate the total claimed demand to ₹2.6. ₹2.9 lakhs) are fully waived during a professionally settle deal.'
     },
     {
       q: 'Why do banks agree to settle a ₹2 lakh personal loan instead of suing?',
-      a: 'Filing a formal recovery suit or initiating arbitration under the Arbitration & Conciliation Act, 1996 for a ₹2 lakh loan default costs the lender substantial upfront legal capital - including advocate fees, court fees, arbitral tribunal charges, and notice execution costs that easily exceed ₹40,000 to ₹60,000. Furthermore, under RBI prudential provisioning norms, holding an unsecured Non-Performing Asset (NPA) forces banks to set aside 100% risk capital. Accepting ₹65,000 to ₹85,000 upfront through an OTS frees up balance sheet capital and eliminates litigation risk.'
+      a: 'Filing a formal claims suit or initiating arbitration under the Arbitration & Conciliation Act. 1996 for a ₹2 lakh loan default costs the lender substantial upfront legal capital - including counsel fees. Court fees. Arbitral court charges. Notice execution costs that easily exceed ₹40,000 to ₹60,000. Furthermore. Under RBI prudential provisioning norms. Holding an clean Non-Performing Asset (NPA) forces banks to set aside 100% risk capital. Accepting ₹65,000 to ₹85,000 upfront through an OTS frees up balance sheet capital and eliminates litigation risk.'
     },
     {
       q: 'What is the step-by-step process to settle a ₹2 lakh personal loan?',
-      a: 'The process involves 6 structured stages: (1) Reconciling your loan Statement of Account (SOA) to isolate true principal from bogus penal fees, (2) Compiling verifiable financial hardship documentation (pink slip, medical records, bank statements), (3) Submitting a formal Hardship Letter and OTS proposal directly to the bank\'s settlement committee, (4) Negotiating the settlement bracket down from initial bank demands to 35%–45% of principal, (5) Securing and legally vetting a written Settlement Sanction Letter on official bank letterhead, and (6) Remitting funds directly into your loan account and obtaining an official No Dues Certificate (NDC).'
+      a: 'The process involves 6 structured stages: (1) Reconciling your loan Statement of Account (SOA) to isolate true main sum from bogus penal fees. (2) Compiling verifiable money hardship proof (pink slip. Medical records. Bank statements) : (3) Submitting a formal Hardship Letter and OTS proposal straight to the bank\'s settlement committee, (4) Negotiating the settlement bracket down from initial bank demands to 35%–45% of principal, (5) Securing and legally vetting a written Settlement Sanction Letter on official bank letterhead, and (6) Remitting funds directly into your loan account and obtaining an official No Dues Certificate (NDC).'
     },
     {
       q: 'How does settling a ₹2 lakh personal loan impact my CIBIL score?',
-      a: 'Settling a ₹2 lakh personal loan results in the credit bureau reporting the account status as "Settled" (or "Post-Write-Off Settled"), which typically lowers your CIBIL score by 75 to 120 points. While this status remains on your credit history for up to 7 years under CICRA 2005 regulations, it stops monthly recurring "Days Past Due" (DPD) penalties and prevents "Suit Filed" marks. Borrowers can systematically rebuild their CIBIL score back to 750+ within 12 to 24 months through secured credit products or by later paying the balance waiver to convert the status to "Closed".'
+      a: 'Settling a ₹2 lakh own loan results in the credit desk reporting the account status as "Settled" (or "Post-Write-Off Settled"). which typically lowers your CIBIL score by 75 to 120 points. While this status remains on your credit history for up to 7 years under CICRA 2005 rules. It stops monthly recurring "Days Past Due" (DPD) fines and prevents "Suit Filed" marks. clients can systematically rebuild their CIBIL score back to 750+ within 12 to 24 months through secured credit products or by later paying the balance waiver to convert the status to "Closed".'
     },
     {
       q: 'Can recovery agents visit my home or workplace for a ₹2 lakh loan default?',
-      a: 'Under the Reserve Bank of India (RBI) Master Directions on Fair Practices Code and Guidelines on Recovery Agents, collection agents are strictly prohibited from visiting your residence or workplace without prior written notice, calling before 8:00 AM or after 7:00 PM, using abusive or threatening language, or contacting friends, family, or employers. Any violation can be immediately escalated to the bank\'s Principal Nodal Officer and the RBI Integrated Ombudsman (cms.rbi.org.in) for disciplinary penalties and compensation.'
+      a: 'Under the Reserve Bank of India (RBI) Master Directions on Fair Practices Code and Guidelines on agents. Calls agents are strictly prohibited from visiting your residence or workplace without prior written notice. Calling before 8:00 AM or after 7:00 PM. Using abusive or threatening language. contacting friends, family. employers. Any violation can be fast escalated to the bank\'s Principal Nodal Officer and the RBI Integrated Ombudsman (cms.rbi.org.in) for disciplinary penalties and compensation.'
     },
     {
       q: 'What should I do if I receive a Section 25 NACH bounce notice for my ₹2 lakh loan?',
-      a: 'Do not panic. A Section 25 notice under the Payments and Settlement Systems Act, 2007 requires a formal written reply within the statutory 15-day window. The reply must articulate genuine financial hardship, clarify the complete absence of fraudulent intention (mens rea), and formally propose a One-Time Settlement. Once the OTS terms are executed and the settlement amount is paid, the bank is legally obligated to withdraw or dismiss all Section 25 proceedings.'
+      a: 'Do not panic. A Section 25 notice under the Payments and closure Systems Act. 2007 requires a formal written reply within the legal 15-day window. The reply must articulate genuine money hardship. Clarify the complete absence of fraudulent intention (mens rea). formally propose a One-Time closure. Once the OTS terms are executed and the payout sum is paid. The bank is by law obligated to withdraw or dismiss all Section 25 steps.'
     },
     {
       q: 'Can digital lending apps (like KreditBee, Navi, MoneyTap) settle a ₹2 lakh personal loan?',
-      a: 'Yes. Registered fintech NBFC lending apps routinely enter into One-Time Settlements for defaulted loans up to ₹2 lakhs. Because digital lenders rely on fast capital churn and automated balance-sheet write-offs, their credit risk committees frequently offer significant settlement discounts (50% to 65% waivers), particularly towards the end of financial quarters (March and September) when represented by professional debt resolution negotiators.'
+      a: 'Yes. Registered fintech NBFC lending apps routinely enter into One-Time closures for defaulted loans up to ₹2 lakhs. Because digital lenders rely on fast capital churn and automated balance-sheet write-offs. Their credit risk boards often offer significant closure discounts (50% to 65% waivers). Particularly towards the end of money quarters (March and September) when represented by experts debt relief negotiators.'
     },
     {
       q: 'How do I obtain a genuine No Dues Certificate (NDC) after settling my ₹2 lakh loan?',
-      a: 'After remitting the agreed settlement amount directly to your loan account via RTGS, NEFT, or net banking as specified in your written OTS Sanction Letter, the lending institution is mandated under RBI guidelines to issue an official No Dues Certificate (NDC) or No Objection Certificate (NOC) within 21 to 30 days. This document serves as permanent legal proof that all monetary claims have been fully discharged.'
+      a: 'After remitting the agreed payout sum straight to your loan account via RTGS. NEFT. Net banking as specified in your written OTS Sanction Letter. The lending institution is mandated under RBI guidelines to issue an valid No Dues letter (NDC) or No Objection letter (NOC) within 21 to 30 days. This papers serves as permanent legal proof that all monetary claims have been fully discharged.'
     }
   ];
 
@@ -142,9 +142,7 @@ export default function SettleTwoLakhPersonalLoanClient() {
             Settle 2 Lakh Personal Loan
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed">
-            Have an outstanding personal loan of ₹2 Lakhs? Discover how to negotiate a legal One-Time Settlement, secure a 55% to 70% waiver, eliminate recovery harassment, and rebuild your CIBIL score.
-          </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> Have an unpaid own loan of ₹2 Lakhs? Discover how to settle a legal One-Time closure. Secure a 55% to 70% waiver. Eliminate claims threats. rebuild your CIBIL score. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -198,9 +196,7 @@ export default function SettleTwoLakhPersonalLoanClient() {
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0" />
                   <span>Small-Ticket Settlement Rights</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight">
-                  Governed by RBI Fair Practices Code &amp; SARFAESI/CICRA Framework.
-                </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by RBI Fair Practices Code &amp. SARFAESI/CICRA Framework. </p>
               </div>
             </div>
           </aside>
@@ -219,12 +215,8 @@ export default function SettleTwoLakhPersonalLoanClient() {
               </div>
 
               <div className="space-y-3.5 text-xs sm:text-sm text-slate-700 leading-relaxed">
-                <p>
-                  Defaulting on an unsecured personal loan of ₹2 Lakhs places borrowers in an anxious position, but from an institutional perspective, this balance represents one of the most viable loan sizes for securing a deep compromise settlement in India. Commercial banks and Non-Banking Financial Companies (NBFCs) recognize that pursuing full-scale legal recovery through civil summary suits or arbitration tribunals routinely costs upwards of ₹40,000 to ₹60,000 in advocate fees and procedural expenses. When a borrower establishes genuine, documented insolvency caused by unexpected life events, lenders routinely approve One-Time Settlements (OTS) between ₹60,000 and ₹85,000, completely waiving compounding penal interest and overdue surcharges.
-                </p>
-                <p>
-                  Borrowers must recognize that an unsecured personal loan default is purely a civil dispute governed by the Indian Contract Act, 1872, with zero risk of criminal arrest or police intervention. Although automated NACH mandate returns may trigger formal demand notices under Section 25 of the Payments and Settlement Systems Act, 2007, these matters are systematically extinguished upon executing a formal OTS. Furthermore, the Reserve Bank of India Master Directions provide robust anti-harassment protection against third-party recovery agents, ensuring that borrowers can negotiate with dignity while establishing a structured pathway to rehabilitate their CIBIL score back above 750 within 12 to 24 months.
-                </p>
+                <p> Defaulting on an clean own loan of ₹2 Lakhs places clients in an anxious position. From an bank perspective. This balance represents one of the most viable loan sizes for securing a deep deal closure in India. Trade banks and Non-Banking money Companies (NBFCs) recognize that pursuing full-scale legal claims through civil summary suits or arbitration tribunals routinely costs upwards of ₹40,000 to ₹60,000 in counsel fees and procedural expenses. When a clients establishes genuine. Documented insolvency caused by unexpected life events. Lenders routinely approve One-Time closures (OTS) between ₹60,000 and ₹85,000. Fully waiving growing penal rates and overdue surcharges. </p>
+                <p> clients must recognize that an clean own loan default is purely a civil dispute governed by the Indian Contract Act. 1872. With zero risk of penal arrest or police action. Although automated NACH mandate returns may trigger formal demand notices under Section 25 of the Payments and closure Systems Act. 2007. These matters are systematically extinguished upon executing a formal OTS. Furthermore. The Reserve Bank of India Master Directions provide robust anti-threats safety against third-party agents. Making sure that clients can settle with dignity while establishing a structured pathway to rehabilitate their CIBIL score back above 750 within 12 to 24 months. </p>
               </div>
             </div>
 
@@ -237,22 +229,12 @@ export default function SettleTwoLakhPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 1. Can You Settle a ₹2 Lakh Personal Loan? The Mid-Ticket Debt Reality
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Many borrowers in India mistakenly assume that debt settlement is a mechanism reserved exclusively for massive corporate insolvencies or multi-crore business defaults. In reality, <strong>a ₹2 Lakh unsecured personal loan falls into the prime mid-ticket retail bracket where commercial banks and Non-Banking Financial Companies (NBFCs) actively negotiate One-Time Settlements (OTS) to avoid protracted legal expenses</strong>.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When an individual defaults on a ₹2 Lakh personal loan due to legitimate hardship - such as unexpected job loss, severe medical hospitalization, salary reductions, or small business collapse - the loan follows a strict institutional lifecycle governed by Reserve Bank of India (RBI) prudential norms:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Many clients in India mistakenly assume that debt closure is a mechanism reserved exclusively for massive firm insolvencies or multi-crore firm defaults. In reality, <strong>a ₹2 Lakh clean own loan falls into the prime mid-ticket retail bracket where trade banks and Non-Banking money Companies (NBFCs) actively settle One-Time closures (OTS) to avoid protracted legal expenses</strong>. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When an individual defaults on a ₹2 Lakh own loan due to legitimate hardship - such as unexpected job loss. Severe medical hospitalization. Salary reductions. small firm collapse - the loan follows a strict bank lifecycle governed by Reserve Bank of India (RBI) prudential norms: </p>
 
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When monthly EMI payments stop, the loan moves through a strictly regulated institutional classification cycle established by the Reserve Bank of India. During the initial 90 days of overdue status, the account is categorized as a Special Mention Account across SMA-0 (1 to 30 days), SMA-1 (31 to 60 days), and SMA-2 (61 to 90 days) buckets. Throughout this preliminary phase, automated dialers and branch recovery desks apply heavy follow-up pressure in an effort to extract overdue EMIs alongside aggressive late payment surcharges.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                The institutional dynamic changes fundamentally on Day 91. Once an account crosses 90 consecutive days past due, RBI prudential norms mandate that the lender classify the loan as a Sub-Standard Non-Performing Asset (NPA). Under banking capital adequacy requirements, the institution must immediately lock up between 15% to 100% of the loan value in mandatory balance-sheet provisioning. This provisioning requirement directly impairs the bank&apos;s quarterly liquidity and profitability metrics.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                To initiate a formal recovery suit under Order 37 of the Code of Civil Procedure or pursue arbitration under the Arbitration and Conciliation Act, 1996, the bank must engage external advocates, deposit court stamp fees, fund arbitral tribunal sittings, and handle process service expenses. These procedural costs quickly exceed ₹40,000 to ₹60,000 and tie up recovery resources for two to four years without guaranteeing full asset realization. Consequently, when a borrower presents authentic documentation of hardship and offers an upfront cash compromise of ₹60,000 to ₹85,000, the bank&apos;s settlement desk recognizes that accepting an immediate OTS is far more advantageous than spending fresh capital on uncertain litigation.
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When monthly EMI payments stop. The loan moves through a strictly regulated bank classification cycle established by the Reserve Bank of India. During the first 90 days of overdue status. The account is categorized as a Special Mention Account across SMA-0 (1 to 30 days). SMA-1 (31 to 60 days). SMA-2 (61 to 90 days) buckets. Throughout this preliminary phase. Automated dialers and branch claims desks apply heavy follow-up pressure in an effort to extract overdue EMIs alongside harsh late payment surcharges. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The bank dynamic changes fundamentally on Day 91. Once an account crosses 90 running days past due. RBI prudential norms mandate that the lender classify the loan as a Sub-Standard Non-Performing Asset (NPA). Under banking capital adequacy requirements. The institution must fast lock up between 15% to 100% of the loan value in mandatory balance-sheet provisioning. This provisioning requirement straight impairs the bank&apos. s quarterly liquidity and profitability metrics. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> To initiate a formal claims suit under Order 37 of the Code of Civil Procedure or pursue arbitration under the Arbitration and Conciliation Act. 1996. The bank must engage external counsel. Deposit court stamp fees. Fund arbitral court sittings. handle process service expenses. These procedural costs quickly exceed ₹40,000 to ₹60,000 and tie up claims resources for two to four years without guaranteeing full asset realization. Consequently. When a clients presents authentic proof of hardship and offers an upfront cash deal of ₹60,000 to ₹85,000. The bank&apos. s closure desk recognizes that accepting an fast OTS is far more advantageous than spending fresh capital on uncertain litigation. </p>
             </section>
 
             {/* SECTION 2: The Financial Breakdown: Settlement Formula & Numbers */}
@@ -264,19 +246,12 @@ export default function SettleTwoLakhPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 2. The Financial Breakdown: How Much to Pay for a ₹2 Lakh Settlement?
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When you default on a ₹2,00,000 personal loan, banks automatically add aggressive compound penal interest, bounce charges, cheque return fees, and collection expenses. By the time 6 to 12 months pass, the lender&apos;s demand notice might claim ₹2,60,000 to ₹2,95,000.
-              </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Understanding the mathematical dissection between <em>Principal Balance</em>, <em>Contractual Interest</em>, and <em>Artificial Penal Add-ons</em> is the key to negotiating the lowest possible settlement figure:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When you default on a ₹2,00,000 own loan. Banks automatically add harsh compound penal rates. Bounce charges. Cheque return fees. calls expenses. By the time 6 to 12 months pass. The lender&apos. S demand notice might claim ₹2,60,000 to ₹2,95,000. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> grasp the mathematical dissection between <em>main sum Balance</em>, <em>Contractual rates</em>. <em>Artificial Penal Add-ons</em> is the key to settle the lowest possible closure figure: </p>
 
               <div className="bg-white p-5 sm:p-6 rounded-2xl border border-slate-200/80 shadow-xs space-y-4">
                 <div className="flex items-center justify-between border-b border-slate-100 pb-3">
-                  <h3 className="text-sm sm:text-base font-bold text-slate-900 flex items-center gap-2">
-                    <ReceiptText className="w-4 h-4 text-[#1886ff]" />
-                    <span>Anatomy of a ₹2 Lakh Personal Loan Default Claim</span>
-                  </h3>
+                  <h3 className="text-sm sm:text-base font-bold text-slate-900 flex items-center gap-2"> <ReceiptText className="w-4 h-4 text-[#1886ff]" /> <span>Anatomy of a ₹2 Lakh own Loan Default Claim</span> </h3>
                   <span className="text-xs font-bold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-md">
                     Typical 180-Day NPA Case
                   </span>
@@ -319,9 +294,7 @@ export default function SettleTwoLakhPersonalLoanClient() {
                       <span className="text-xs font-black uppercase tracking-wider text-emerald-800 block">
                         CredSettle Professional Settlement Target
                       </span>
-                      <p className="text-xs text-emerald-900 mt-0.5">
-                        Targeting 35% to 50% of the true principal balance with 100% penal fee waiver.
-                      </p>
+                      <p className="text-xs text-emerald-900 mt-0.5"> Targeting 35% to 50% of the true main sum balance with 100% penal fee waiver. </p>
                     </div>
                     <div className="text-right">
                       <span className="text-lg sm:text-2xl font-black text-emerald-700">
@@ -345,9 +318,7 @@ export default function SettleTwoLakhPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 3. Comparative Resolution Matrix: Settlement vs. Restructuring vs. Default
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Evaluate the five primary legal and financial routes available when managing a defaulted ₹1 Lakh personal loan in India:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Evaluate the five primary legal and money routes available when managing a defaulted ₹1 Lakh own loan in India: </p>
 
               <div className="overflow-x-auto rounded-2xl border border-slate-200/80 bg-white shadow-xs">
                 <table className="w-full text-left text-xs md:text-sm border-collapse">
@@ -363,41 +334,41 @@ export default function SettleTwoLakhPersonalLoanClient() {
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-600">
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
-                      <td className="p-3.5 font-bold text-slate-900">One-Time Settlement (OTS)</td>
-                      <td className="p-3.5 text-emerald-700 font-semibold">₹60,000 – ₹85,000 (Lump-sum)</td>
-                      <td className="p-3.5">&quot;Settled&quot; (-75 to -120 pts)</td>
+                      <td className="p-3.5 font-bold text-slate-900">One-Time closure (OTS)</td>
+                      <td className="p-3.5 text-emerald-700 font-semibold">₹60,000. ₹85,000 (Lump-sum)</td>
+                      <td className="p-3.5">&quot. Settled&quot. (-75 to -120 pts)</td>
                       <td className="p-3.5 text-emerald-700 font-semibold">Eliminated (NDC Issued)</td>
                       <td className="p-3.5">30 to 60 Days</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold">Best for immediate financial relief and closing bad debt</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold">Best for fast money relief and closing bad debt</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
                       <td className="p-3.5 font-bold text-slate-900">Loan Restructuring / Tenure Stretch</td>
-                      <td className="p-3.5 text-slate-800 font-medium">₹2,00,000 + Extended Interest</td>
-                      <td className="p-3.5">&quot;Restructured&quot; (Mild dip)</td>
+                      <td className="p-3.5 text-slate-800 font-medium">₹2,00,000 + Extended rates</td>
+                      <td className="p-3.5">&quot. Restructured&quot. (Mild dip)</td>
                       <td className="p-3.5 text-emerald-700 font-semibold">Eliminated while EMIs paid</td>
                       <td className="p-3.5">24 to 48 Months</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold">Suitable only if you have stable, predictable monthly income</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold">Suitable only if you have stable. Predictable monthly income</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
-                      <td className="p-3.5 font-bold text-slate-900">National Lok Adalat Settlement</td>
-                      <td className="p-3.5 text-emerald-700 font-semibold">₹70,000 – ₹95,000 (On the spot)</td>
-                      <td className="p-3.5">&quot;Settled via Lok Adalat&quot;</td>
-                      <td className="p-3.5 text-emerald-700 font-semibold">Legally Closed (Sec 21 LSA)</td>
+                      <td className="p-3.5 font-bold text-slate-900">National Lok Adalat closure</td>
+                      <td className="p-3.5 text-emerald-700 font-semibold">₹70,000. ₹95,000 (On the spot)</td>
+                      <td className="p-3.5">&quot. Settled via Lok Adalat&quot. </td>
+                      <td className="p-3.5 text-emerald-700 font-semibold">by law Closed (Sec 21 LSA)</td>
                       <td className="p-3.5">1 Day (Sitting date)</td>
                       <td className="p-3.5 text-[#1886ff] font-semibold">Highly effective if your bank issues a Lok Adalat notice</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
                       <td className="p-3.5 font-bold text-slate-900">Prolonged Default / Inaction</td>
-                      <td className="p-3.5 text-red-700 font-semibold">₹0 upfront, but claims grow</td>
-                      <td className="p-3.5 text-red-700 font-bold">&quot;Written Off / Suit Filed&quot; (-200 pts)</td>
-                      <td className="p-3.5 text-red-700 font-bold">Severe (Calls, notices, visits)</td>
+                      <td className="p-3.5 text-red-700 font-semibold">₹0 upfront. claims grow</td>
+                      <td className="p-3.5 text-red-700 font-bold">&quot. Written Off / Suit Filed&quot. (-200 pts)</td>
+                      <td className="p-3.5 text-red-700 font-bold">Severe (Calls. Notices. Visits)</td>
                       <td className="p-3.5">Indefinite (Years)</td>
-                      <td className="p-3.5 text-red-600 font-semibold">Worst approach; destroys creditworthiness across all lenders</td>
+                      <td className="p-3.5 text-red-600 font-semibold">Worst approach. destroys creditworthiness across all lenders</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
                       <td className="p-3.5 font-bold text-slate-900">Sale to Asset Reconstruction Co. (ARC)</td>
-                      <td className="p-3.5 text-emerald-700 font-semibold">₹50,000 – ₹75,000</td>
-                      <td className="p-3.5">&quot;Sold to ARC / Settled&quot;</td>
+                      <td className="p-3.5 text-emerald-700 font-semibold">₹50,000. ₹75,000</td>
+                      <td className="p-3.5">&quot. Sold to ARC / Settled&quot. </td>
                       <td className="p-3.5 text-amber-700 font-semibold">Moderate (ARC follow-ups)</td>
                       <td className="p-3.5">6 to 12 Months</td>
                       <td className="p-3.5 text-[#1886ff] font-semibold">High discount potential as ARCs buy debt at 20-30% face value</td>
@@ -416,16 +387,11 @@ export default function SettleTwoLakhPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 4. Technical CIBIL Scoring Math: The Mathematical Impact of ₹2 Lakh Settlement
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                How exactly does credit bureau scoring work when a ₹2 Lakh loan is settled versus left in default? Credit bureaus in India (TransUnion CIBIL, Experian, CRIF High Mark, Equifax) compute credit scores using proprietary algorithms weighted across specific parameters:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> How exactly does credit desk scoring work when a ₹2 Lakh loan is settled versus left in default? Credit bureaus in India (TransUnion CIBIL. Experian. CRIF High Mark. Equifax) compute credit scores using proprietary algorithms weighted across exact parameters: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-3">
-                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2">
-                    <Percent className="w-4 h-4 text-[#1886ff]" />
-                    Credit Bureau Algorithm Factor Weights
-                  </h3>
+                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2"> <Percent className="w-4 h-4 text-[#1886ff]" /> Credit desk Algorithm Factor Weights </h3>
                   <div className="space-y-2 text-xs text-slate-600 leading-relaxed">
                     <div className="flex justify-between py-1 border-b border-slate-100">
                       <span>Payment History (DPD Records):</span>
@@ -455,10 +421,7 @@ export default function SettleTwoLakhPersonalLoanClient() {
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-3">
-                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2">
-                    <Award className="w-4 h-4 text-emerald-600" />
-                    Settlement vs Default Recovery Timeline
-                  </h3>
+                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2"> <Award className="w-4 h-4 text-emerald-600" /> closure vs Default claims Timeline </h3>
                   <div className="space-y-2 text-xs text-slate-600 leading-relaxed">
                     <div className="flex justify-between py-1 border-b border-slate-100">
                       <span>Ongoing Default (Unsettled):</span>
@@ -485,9 +448,7 @@ export default function SettleTwoLakhPersonalLoanClient() {
               </div>
 
               <div className="bg-emerald-50/70 border border-emerald-200/70 p-4 rounded-xl text-xs md:text-sm text-emerald-950 leading-relaxed">
-                <p>
-                  <strong>The CIBIL Conversion Option:</strong> Under Credit Information Companies (Regulation) Act, 2005 (CICRA §21), you also retain the right to approach the bank in future (once your finances recover) to pay the balance waived amount and convert the CIBIL tag from <em>&quot;Settled&quot;</em> to <em>&quot;Closed&quot;</em>, permanently removing any settlement stigma.
-                </p>
+                <p> <strong>The CIBIL Conversion Option:</strong> Under Credit Information Companies (rule) Act. 2005 (CICRA §21). You also retain the right to approach the bank in future (once your finances recover) to pay the balance waived amount and convert the CIBIL tag from <em>&quot. Settled&quot. </em> to <em>&quot. Closed&quot. </em>Permanently removing any closure stigma. </p>
               </div>
             </section>
 
@@ -500,9 +461,7 @@ export default function SettleTwoLakhPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Visual Defense Blueprint: ₹2 Lakh Personal Loan Settlement Roadmap
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Study this comprehensive 6-stage roadmap detailing the entire trajectory from initial loan default to hardship evaluation, compromise negotiation, formal sanction, direct payment, and credit rehabilitation:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Study this thorough 6-stage roadmap detailing the entire trajectory from first loan default to hardship evaluation. Deal talks. Formal sanction. Direct payment. credit rehabilitation: </p>
 
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-sm p-3 md:p-4 overflow-hidden">
                 <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-slate-100">
@@ -539,9 +498,7 @@ export default function SettleTwoLakhPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 5. Standard Operating Procedure (SOP): 6 Stages to Settle a ₹2 Lakh Personal Loan
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Follow this sequential, battle-tested standard operating procedure executed by CredSettle professionals to ensure maximum waiver and complete legal safety:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Follow this sequential. Battle-tested standard operating procedure executed by CredSettle experts to ensure maximum waiver and complete legal safety: </p>
 
               <div className="space-y-4 pt-2">
                 {/* Stage 1 */}
@@ -552,12 +509,8 @@ export default function SettleTwoLakhPersonalLoanClient() {
                     </span>
                     <span className="text-xs font-semibold text-slate-500">Timeline: Days 1–15</span>
                   </div>
-                  <h3 className="text-base md:text-lg font-bold text-slate-900">
-                    Loan Audit &amp; Elimination of Bogus Penal Charges
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Request a certified Statement of Account (SOA) from the lender. Reconcile all historical EMIs paid, isolate the true remaining principal balance from compounding penal fees, and calculate your target settlement bracket (30% to 50% of the actual remaining principal).
-                  </p>
+                  <h3 className="text-base md:text-lg font-bold text-slate-900"> Loan Audit &amp. Elimination of Bogus Penal Charges </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Request a signed Statement of Account (SOA) from the lender. Reconcile all historical EMIs paid. Isolate the true remaining main sum balance from growing penal fees. calculate your target closure bracket (30% to 50% of the actual remaining main sum). </p>
                 </div>
 
                 {/* Stage 2 */}
@@ -568,12 +521,8 @@ export default function SettleTwoLakhPersonalLoanClient() {
                     </span>
                     <span className="text-xs font-semibold text-slate-500">Timeline: Days 16–30</span>
                   </div>
-                  <h3 className="text-base md:text-lg font-bold text-slate-900">
-                    Hardship Documentation &amp; Anti-Harassment Notice
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Compile authentic documentation substantiating your financial distress - such as pink slips, medical discharge summaries, GST returns showing business downturn, or bank statements. If third-party recovery agents engage in unauthorized contact or harassment, serve an anti-harassment cease-and-desist notice under RBI Fair Practices Code.
-                  </p>
+                  <h3 className="text-base md:text-lg font-bold text-slate-900"> Hardship proof &amp. Anti-threats Notice </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Compile authentic proof prove your money distress - such as pink slips. Medical discharge summaries. GST returns showing firm downturn. bank statements. If third-party agents engage in illegal contact or threats. Serve an anti-threats cease-and-desist notice under RBI Fair Practices Code. </p>
                 </div>
 
                 {/* Stage 3 */}
@@ -584,12 +533,8 @@ export default function SettleTwoLakhPersonalLoanClient() {
                     </span>
                     <span className="text-xs font-semibold text-slate-500">Timeline: Days 31–45</span>
                   </div>
-                  <h3 className="text-base md:text-lg font-bold text-slate-900">
-                    Formal Hardship Letter &amp; OTS Proposal Submission
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Submit a formal One-Time Settlement (OTS) proposal directly to the bank&apos;s Legal Recovery Desk and Credit Committee. Clearly outline that continuing default is due to genuine inability rather than willful default, and offer a specific lump-sum settlement amount (e.g., ₹65,000 for a ₹2 Lakh loan).
-                  </p>
+                  <h3 className="text-base md:text-lg font-bold text-slate-900"> Formal Hardship Letter &amp. OTS Proposal Submission </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Submit a formal One-Time closure (OTS) proposal straight to the bank&apos. s Legal claims Desk and Credit board. Clearly outline that continuing default is due to genuine inability rather than willful default. Offer a exact lump-sum payout sum (e.g. ₹65,000 for a ₹2 Lakh loan). </p>
                 </div>
 
                 {/* Stage 4 */}
@@ -600,12 +545,8 @@ export default function SettleTwoLakhPersonalLoanClient() {
                     </span>
                     <span className="text-xs font-semibold text-slate-500">Timeline: Days 46–60</span>
                   </div>
-                  <h3 className="text-base md:text-lg font-bold text-slate-900">
-                    Bilateral Negotiation with Internal Settlement Committee
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Engage in structured counter-negotiations. When the bank counter-offers 70% or 80%, present your documented financial insolvency. Negotiators leverage bank quarter-end pressure (March, June, September, December) to push the final approved settlement figure down to 35%–45% of principal.
-                  </p>
+                  <h3 className="text-base md:text-lg font-bold text-slate-900"> Bilateral talks with Internal closure board </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Engage in structured counter-talks. When the bank counter-offers 70% or 80%. Present your documented money insolvency. Negotiators leverage bank quarter-end pressure (March. June. September. December) to push the final approved closure figure down to 35%. 45% of main sum. </p>
                 </div>
 
                 {/* Stage 5 */}
@@ -616,12 +557,8 @@ export default function SettleTwoLakhPersonalLoanClient() {
                     </span>
                     <span className="text-xs font-semibold text-slate-500">Timeline: Days 61–75</span>
                   </div>
-                  <h3 className="text-base md:text-lg font-bold text-slate-900">
-                    Vetting the Written Settlement Letter &amp; Direct Bank Remittance
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    <strong className="text-slate-900 font-bold">NEVER pay without a formal Settlement Sanction Letter.</strong> Verify that the letter is on official bank letterhead, signed by an authorized manager, explicitly specifies your loan account number, states the exact settlement amount, mentions &quot;Full and Final Settlement&quot;, and gives a clear payment deadline. Remit funds strictly into your loan account via RTGS/NEFT.
-                  </p>
+                  <h3 className="text-base md:text-lg font-bold text-slate-900"> Vetting the Written closure note &amp. Direct Bank wire transfer </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> <strong className="text-slate-900 font-bold">NEVER pay without a formal closure Sanction Letter.</strong> check that the letter is on valid bank letterhead. Signed by an authorized manager. Explicitly specifies your loan account number. States the exact payout sum. Mentions &quot. Full and Final closure&quot. gives a clear payment deadline. Remit funds strictly into your loan account via RTGS/NEFT. </p>
                 </div>
 
                 {/* Stage 6 */}
@@ -632,12 +569,8 @@ export default function SettleTwoLakhPersonalLoanClient() {
                     </span>
                     <span className="text-xs font-semibold text-slate-500">Timeline: Days 76–90</span>
                   </div>
-                  <h3 className="text-base md:text-lg font-bold text-slate-900">
-                    No Dues Certificate (NDC) Retrieval &amp; CIBIL Record Update
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Collect the official No Dues Certificate (NDC) or No Objection Certificate (NOC) within 21 to 30 days of payment. Verify after 45 days that CIBIL, Experian, and CRIF High Mark reflect an outstanding balance of ₹0 with the status updated from &quot;Default/Overdue&quot; to &quot;Settled&quot;.
-                  </p>
+                  <h3 className="text-base md:text-lg font-bold text-slate-900"> No Dues letter (NDC) Retrieval &amp. CIBIL Record Update </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Collect the valid No Dues letter (NDC) or No Objection letter (NOC) within 21 to 30 days of payment. Check after 45 days that CIBIL. Experian. CRIF High Mark reflect an unpaid balance of ₹0 with the status updated from &quot. Default/Overdue&quot. to &quot. Settled&quot. </p>
                 </div>
               </div>
             </section>
@@ -651,60 +584,29 @@ export default function SettleTwoLakhPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 6. Formal Legal Notice Defense &amp; Statutory Legal Framework
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                When a ₹2 Lakh personal loan enters default, lenders frequently dispatch alarming legal notices to create panic. Understanding the exact statutory frameworks governing these notices ensures you respond with composure and legal precision:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When a ₹2 Lakh own loan enters default. Lenders often dispatch alarming legal notices to create panic. grasp the exact legal frameworks governing these notices ensures you respond with composure and legal precision: </p>
 
               <div className="bg-slate-900 text-slate-100 p-5 md:p-6 rounded-2xl font-mono text-xs space-y-3 overflow-x-auto shadow-md">
                 <div className="text-emerald-400 font-bold flex items-center gap-2">
                   <span>[STATUTORY NOTICE CLASSIFICATION &amp; BORROWER LEGAL SAFEGUARDS]</span>
                 </div>
                 <div className="border-t border-slate-800 pt-2 space-y-2 text-slate-300">
-                  <p>
-                    <span className="text-yellow-400">1. SECTION 25 PSSA 2007 (NACH / ECS DISHONOUR):</span>
-                    <br />
-                    Quasi-criminal notice issued when automated EMI auto-debit bounces due to insufficient funds.
-                    <br />
-                    <span className="text-emerald-300">Defensive Remedy:</span> Reply within 15 days documenting financial distress, lack of mens rea (fraudulent intention), and formal offer of compromise OTS.
-                  </p>
-                  <p>
-                    <span className="text-yellow-400">2. SECTION 138 NEGOTIABLE INSTRUMENTS ACT (CHEQUE BOUNCE):</span>
-                    <br />
-                    Applicable only if a physical security cheque was presented and returned dishonoured.
-                    <br />
-                    <span className="text-emerald-300">Defensive Remedy:</span> Compoundable statutory offense. Executing an OTS automatically quashes Section 138 complaints under Section 147 NI Act.
-                  </p>
-                  <p>
-                    <span className="text-yellow-400">3. SECTION 21 ARBITRATION &amp; CONCILIATION ACT 1996:</span>
-                    <br />
-                    Notice invoking arbitration clause.
-                    <br />
-                    <span className="text-emerald-300">Defensive Remedy:</span> Supreme Court precedents in <em>Perkins Eastman (2020)</em> and <em>TRF Ltd. (2017)</em> prohibit unilateral arbitrator appointments by banks. Challenge arbitrator under Section 12(5).
-                  </p>
-                  <p>
-                    <span className="text-yellow-400">4. SECTION 73/74 INDIAN CONTRACT ACT 1872:</span>
-                    <br />
-                    Standard civil notice demanding principal + interest.
-                    <br />
-                    <span className="text-emerald-300">Defensive Remedy:</span> Pure civil dispute with zero arrest powers; grounds for direct bilateral settlement negotiation.
-                  </p>
+                  <p> <span className="text-yellow-400">1. SECTION 25 PSSA 2007 (NACH / ECS DISHONOUR):</span> <br /> Quasi-penal notice issued when automated EMI auto-debit bounces due to insufficient funds. <br /> <span className="text-emerald-300">Defensive Remedy:</span> Reply within 15 days documenting money distress. Lack of mens rea (fraudulent intention). formal offer of deal OTS. </p>
+                  <p> <span className="text-yellow-400">2. SECTION 138 NEGOTIABLE INSTRUMENTS ACT (CHEQUE BOUNCE):</span> <br /> Applicable only if a real security cheque was presented and returned dishonoured. <br /> <span className="text-emerald-300">Defensive Remedy:</span> Compoundable legal offense. Executing an OTS automatically quashes Section 138 complaints under Section 147 NI Act. </p>
+                  <p> <span className="text-yellow-400">3. SECTION 21 ARBITRATION &amp. CONCILIATION ACT 1996:</span> <br /> Notice invoking arbitration clause. <br /> <span className="text-emerald-300">Defensive Remedy:</span> Supreme Court precedents in <em>Perkins Eastman (2020)</em> and <em>TRF Ltd. (2017)</em> prohibit unilateral arbitrator appointments by banks. Challenge arbitrator under Section 12(5). </p>
+                  <p> <span className="text-yellow-400">4. SECTION 73/74 INDIAN CONTRACT ACT 1872:</span> <br /> Standard civil notice demanding main sum + rates. <br /> <span className="text-emerald-300">Defensive Remedy:</span> Pure civil dispute with zero arrest powers. grounds for direct bilateral closure talks. </p>
                 </div>
               </div>
 
               <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-3">
-                <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2">
-                  <ShieldCheck className="w-4 h-4 text-[#1886ff]" />
-                  Statutory Rights under RBI Fair Practices Code
-                </h3>
-                <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                  Under the Reserve Bank of India Master Directions, commercial banks and NBFCs are strictly held accountable for the conduct of their recovery agents. Recovery personnel are legally prohibited from:
-                </p>
+                <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2"> <ShieldCheck className="w-4 h-4 text-[#1886ff]" /> legal Rights under RBI Fair Practices Code </h3>
+                <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Under the Reserve Bank of India Master Directions. Trade banks and NBFCs are strictly held accountable for the conduct of their agents. claims staff are by law prohibited from: </p>
                 <ul className="list-disc pl-5 text-xs md:text-sm text-slate-600 space-y-1.5">
                   <li>Calling before 8:00 AM or after 7:00 PM in the evening.</li>
-                  <li>Accessing your phone contacts or calling family, employers, or friends.</li>
-                  <li>Using intimidating, abusive, or defamatory language over phone or WhatsApp.</li>
+                  <li>Accessing your phone contacts or calling family. Employers. friends.</li>
+                  <li>Using threaten, abusive. false language over phone or WhatsApp.</li>
                   <li>Visiting your workplace or residence without prior written notice and valid bank ID.</li>
-                  <li>Misrepresenting themselves as police officers, court bailiffs, or criminal investigators.</li>
+                  <li>Misrepresenting themselves as police heads. Court bailiffs. penal investigators.</li>
                 </ul>
               </div>
             </section>
@@ -718,9 +620,7 @@ export default function SettleTwoLakhPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 7. The 3-Tier Escalation Matrix for Unfair Recovery &amp; Dispute Resolution
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                If the lending bank or its collection agents ignore your hardship notices or engage in coercive recovery tactics for a ₹2 Lakh loan, escalate through this structured 3-tier hierarchy:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> If the lending bank or its calls agents ignore your hardship notices or engage in coercive claims tactics for a ₹2 Lakh loan. Escalate through this structured 3-tier hierarchy: </p>
 
               <div className="space-y-4 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -730,12 +630,8 @@ export default function SettleTwoLakhPersonalLoanClient() {
                     </span>
                     <span className="text-xs text-slate-500 font-semibold">Response: 7–10 Days</span>
                   </div>
-                  <h3 className="text-sm md:text-base font-bold text-slate-900">
-                    Formal Written Grievance &amp; OTS Submission
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Submit a formal email and speed post letter to the Branch Manager and the internal Grievance Redressal Officer (GRO) citing your loan account number, documented hardship, and formal settlement offer.
-                  </p>
+                  <h3 className="text-sm md:text-base font-bold text-slate-900"> Formal Written Grievance &amp. OTS Submission </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Submit a formal email and speed post letter to the Branch Manager and the internal Grievance Redressal head (GRO) citing your loan account number. Documented hardship. formal deals. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -745,12 +641,8 @@ export default function SettleTwoLakhPersonalLoanClient() {
                     </span>
                     <span className="text-xs text-slate-500 font-semibold">Response: 14–21 Days</span>
                   </div>
-                  <h3 className="text-sm md:text-base font-bold text-slate-900">
-                    Escalation for Recovery Harassment &amp; Excessive Penalties
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    If Level 1 fails to respond within 30 days or rejects reasonable settlement terms while recovery agents continue harassment, file a formal complaint before the bank&apos;s Principal Nodal Officer (PNO).
-                  </p>
+                  <h3 className="text-sm md:text-base font-bold text-slate-900"> Escalation for claims threats &amp. Excessive fines </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> If Level 1 fails to respond within 30 days or rejects reasonable closure terms while agents continue threats. File a formal complaint before the bank&apos. s main sum Nodal head (PNO). </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-emerald-200 shadow-xs space-y-2">
@@ -760,12 +652,8 @@ export default function SettleTwoLakhPersonalLoanClient() {
                     </span>
                     <span className="text-xs text-slate-500 font-semibold">Response: 30 Days</span>
                   </div>
-                  <h3 className="text-sm md:text-base font-bold text-slate-900">
-                    Statutory Regulatory Complaint on cms.rbi.org.in
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    If the bank fails to resolve your grievance within 30 days or violates the RBI Fair Practices Code, lodge a formal regulatory complaint on the <strong>RBI Integrated Ombudsman Portal (cms.rbi.org.in)</strong>. The Ombudsman has statutory authority to award compensation up to ₹20 Lakhs for mental harassment and direct fair settlement terms.
-                  </p>
+                  <h3 className="text-sm md:text-base font-bold text-slate-900"> legal RBI Complaint on cms.rbi.org.in </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> If the bank fails to resolve your grievance within 30 days or violates the RBI Fair Practices Code. Lodge a formal RBI complaint on the <strong>RBI Integrated RBI officer Portal (cms.rbi.org.in)</strong>. The RBI officer has legal authority to award compensation up to ₹20 Lakhs for mental threats and direct fair closure terms. </p>
                 </div>
               </div>
             </section>
@@ -779,9 +667,7 @@ export default function SettleTwoLakhPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 8. Chronological Timelines &amp; Milestone Resolution Table (Day 0 to Month 6)
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Understanding the chronological phases of a ₹2 Lakh loan default allows you to plan your defense, manage cash reserves, and time your settlement negotiations for maximum discount:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> grasp the chronological phases of a ₹2 Lakh loan default allows you to plan your defense. Manage cash reserves. time your closure talks for maximum discount: </p>
 
               <div className="overflow-x-auto rounded-2xl border border-slate-200/80 bg-white shadow-xs">
                 <table className="w-full text-left text-xs md:text-sm border-collapse">
@@ -797,32 +683,32 @@ export default function SettleTwoLakhPersonalLoanClient() {
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
                       <td className="p-3.5 font-bold text-slate-900">Day 1 to 30</td>
                       <td className="p-3.5">SMA-0 / Overdue</td>
-                      <td className="p-3.5">Automated SMS, emails, tele-calling reminders</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold">Audit loan SOA and assess true financial liquidity</td>
+                      <td className="p-3.5">Automated SMS. Emails. Tele-calling reminders</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold">Audit loan SOA and assess true money liquidity</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
                       <td className="p-3.5 font-bold text-slate-900">Day 31 to 90</td>
-                      <td className="p-3.5">SMA-1 &amp; SMA-2</td>
-                      <td className="p-3.5">Intensified collection calls, field agent visit notices</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold">Compile hardship dossier; issue anti-harassment notice if needed</td>
+                      <td className="p-3.5">SMA-1 &amp. SMA-2</td>
+                      <td className="p-3.5">Intensified calls calls. Field agent visit notices</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold">Compile hardship dossier. issue anti-threats notice if needed</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
                       <td className="p-3.5 font-bold text-slate-900">Day 91 to 120</td>
                       <td className="p-3.5">NPA (Sub-Standard)</td>
                       <td className="p-3.5">Loan recall notice / Section 25 NACH bounce notice</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold">Submit formal OTS Hardship Proposal for 30%–45% principal</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold">Submit formal OTS Hardship Proposal for 30%. 45% main sum</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
                       <td className="p-3.5 font-bold text-slate-900">Months 4 to 5</td>
-                      <td className="p-3.5">Compromise OTS Window</td>
-                      <td className="p-3.5">Bank Settlement Committee reviews compromise proposal</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold">Execute bilateral negotiation; secure written OTS Sanction Letter</td>
+                      <td className="p-3.5">deal OTS Window</td>
+                      <td className="p-3.5">Bank closure board reviews deal proposal</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold">Execute bilateral talks. secure written OTS Sanction Letter</td>
                     </tr>
                     <tr className="hover:bg-slate-50/50 divide-x divide-slate-200/80">
                       <td className="p-3.5 font-bold text-slate-900">Month 6</td>
                       <td className="p-3.5">Account Closed / Settled</td>
-                      <td className="p-3.5">Issuance of official No Dues Certificate (NDC)</td>
-                      <td className="p-3.5 text-[#1886ff] font-semibold">Remit agreed OTS sum directly; obtain NDC; initiate CIBIL rebuild</td>
+                      <td className="p-3.5">Issuance of valid No Dues letter (NDC)</td>
+                      <td className="p-3.5 text-[#1886ff] font-semibold">Remit agreed OTS sum straight. obtain NDC. initiate CIBIL rebuild</td>
                     </tr>
                   </tbody>
                 </table>
@@ -838,49 +724,27 @@ export default function SettleTwoLakhPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 9. Specialized Scenarios: Digital Fintech Apps, Credit Cards &amp; ARCs
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Small-ticket loan defaults manifest across various financial structures with specific nuances:
-              </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Small-ticket loan defaults manifest across various money structures with exact nuances: </p>
 
               <div className="space-y-3 pt-2">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
-                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2">
-                    <Sparkles className="w-4 h-4 text-[#1886ff]" />
-                    Fintech NBFC Digital Instant Loan Apps (KreditBee, Navi, MoneyTap, PaySense)
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Digital loan apps disburse smaller loans instantly but often deploy aggressive automated collection bots, WhatsApp reminders, and Online Dispute Resolution (ODR) notices. Because fintech NBFCs maintain high volume and rapid balance-sheet turnover, their algorithms frequently generate automatic 40% to 60% settlement discounts at the end of financial quarters (March, September).
-                  </p>
+                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2"> <Sparkles className="w-4 h-4 text-[#1886ff]" /> Fintech NBFC Digital Instant Loan Apps (KreditBee. Navi. MoneyTap. PaySense) </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Digital loan apps disburse smaller loans instantly but often deploy harsh automated calls bots. WhatsApp reminders. Online Dispute relief (ODR) notices. Because fintech NBFCs maintain high volume and rapid balance-sheet turnover. Their algorithms often generate automatic 40% to 60% closure discounts at the end of money quarters (March. September). </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
-                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2">
-                    <Calculator className="w-4 h-4 text-[#1886ff]" />
-                    Multiple Small Micro-Loans Totaling ₹2 Lakh
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    Borrowers frequently end up with 3 to 5 smaller loans (e.g. ₹30,000 + ₹50,000 + ₹60,000 + ₹60,000 across different apps). Attempting to juggle fragmented repayments wastes scarce capital. A coordinated multi-loan debt settlement strategy pools your funds, prioritizes the most aggressive lenders first, and executes structured settlements across all accounts simultaneously.
-                  </p>
+                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2"> <Calculator className="w-4 h-4 text-[#1886ff]" /> Multiple Small Micro-Loans Totaling ₹2 Lakh </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> clients often end up with 3 to 5 smaller loans (e.g. ₹30,000 + ₹50,000 + ₹60,000 + ₹60,000 across different apps). Attempting to juggle fragmented payments wastes scarce capital. A coordinated multi-loan debt closure strategy pools your funds. Prioritizes the most harsh lenders first. executes structured closures across all accounts simultaneously. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
-                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2">
-                    <CreditCard className="w-4 h-4 text-[#1886ff]" />
-                    Credit Card Personal Loans vs. Standalone Personal Loans
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    If your ₹2 Lakh debt is a pre-approved &quot;Jumbo Loan&quot; or &quot;Loan on Credit Card&quot;, the bank may block your underlying credit card and demand the full card limit plus the loan balance. During settlement negotiations, the settlement agreement must explicitly cover both the card and the loan to ensure total closure and issuance of an all-encompassing No Dues Certificate.
-                  </p>
+                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2"> <CreditCard className="w-4 h-4 text-[#1886ff]" /> Credit Card own Loans vs. Standalone own Loans </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> If your ₹2 Lakh debt is a pre-approved &quot. Jumbo Loan&quot. or &quot. Loan on Credit Card&quot. The bank may block your underlying credit card and demand the full card limit plus the loan balance. During closure talks. The closure pacts must explicitly cover both the card and the loan to ensure total closure and issuance of an all-encompassing No Dues letter. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
-                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2">
-                    <Building2 className="w-4 h-4 text-[#1886ff]" />
-                    Loans Sold to Asset Reconstruction Companies (ARCs)
-                  </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed">
-                    When traditional banks write off ₹2 Lakh personal loans, they bundle them into portfolios and sell them to ARCs (such as CFM ARC, Phoenix ARC, or ARCIL) at 20% to 30% of face value under Section 5 of the SARFAESI Act. ARCs possess enormous margin flexibility, making them open to deep 60% to 75% compromise settlements.
-                  </p>
+                  <h3 className="text-sm md:text-base font-bold text-slate-900 flex items-center gap-2"> <Building2 className="w-4 h-4 text-[#1886ff]" /> Loans Sold to Asset Reconstruction Companies (ARCs) </h3>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> When traditional banks write off ₹2 Lakh own loans. They bundle them into portfolios and sell them to ARCs (such as CFM ARC. Phoenix ARC. ARCIL) at 20% to 30% of face value under Section 5 of the SARFAESI Act. ARCs possess enormous margin flexibility. Making them open to deep 60% to 75% deal closures. </p>
                 </div>
               </div>
             </section>
@@ -899,9 +763,7 @@ export default function SettleTwoLakhPersonalLoanClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Frequently Asked Questions on Settling a ₹2 Lakh Personal Loan
               </h2>
-              <p className="text-xs md:text-sm text-slate-600">
-                Click on any question below to view detailed legal and financial answers verified by our debt resolution professionals:
-              </p>
+              <p className="text-xs md:text-sm text-slate-600"> Click on any question below to view detailed legal and money answers checked by our debt relief experts: </p>
 
               <div className="space-y-3 pt-2">
                 {faqs.map((faq, index) => {
@@ -945,32 +807,15 @@ export default function SettleTwoLakhPersonalLoanClient() {
                 <h2 className="text-lg sm:text-xl font-bold text-slate-900">
                   Official Regulatory Citations &amp; Legal References
                 </h2>
-                <p className="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
-                  The statutory frameworks, dispute procedures, and debt relief mechanisms referenced in this guide are directly anchored in official Indian banking enactments and Reserve Bank of India Master Directions:
-                </p>
+                <p className="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed"> The legal frameworks. Dispute procedures. debt relief mechanisms referenced in this guide are straight anchored in valid Indian banking enactments and Reserve Bank of India Master Directions: </p>
               </div>
 
               <ul className="space-y-2.5 text-xs sm:text-sm text-slate-700 leading-relaxed list-disc pl-5">
-                <li>
-                  <strong className="text-slate-900 font-bold">Reserve Bank of India (RBI):</strong>{' '}
-                  Master Direction on Fair Practices Code for Lenders (Guidelines on Recovery Agents and Grievance Redressal, Updated 2026).
-                </li>
-                <li>
-                  <strong className="text-slate-900 font-bold">Reserve Bank - Integrated Ombudsman Scheme, 2021:</strong>{' '}
-                  Statutory Grievance Redressal Mechanism for Commercial Banks and NBFCs (<span className="font-mono text-xs">cms.rbi.org.in</span>).
-                </li>
-                <li>
-                  <strong className="text-slate-900 font-bold">Credit Information Companies (Regulation) Act, 2005 (CICRA):</strong>{' '}
-                  Section 21 regarding Borrower Rights, Credit Dispute Resolution, and Bureau Reporting.
-                </li>
-                <li>
-                  <strong className="text-slate-900 font-bold">Payments and Settlement Systems Act, 2007 (PSSA):</strong>{' '}
-                  Section 25 regarding Dishonour of Electronic Funds Transfer and NACH Mandates.
-                </li>
-                <li>
-                  <strong className="text-slate-900 font-bold">Indian Contract Act, 1872:</strong>{' '}
-                  Sections 73 and 74 regarding Breach of Contract and Civil Monetary Compensation.
-                </li>
+                <li> <strong className="text-slate-900 font-bold">Reserve Bank of India (RBI):</strong>{' '} Master Direction on Fair Practices Code for Lenders (Guidelines on agents and Grievance Redressal. Updated 2026). </li>
+                <li> <strong className="text-slate-900 font-bold">Reserve Bank - Integrated RBI officer Scheme. 2021:</strong>{' '} legal Grievance Redressal Mechanism for trade Banks and NBFCs (<span className="font-mono text-xs">cms.rbi.org.in</span>). </li>
+                <li> <strong className="text-slate-900 font-bold">Credit Information Companies (rule) Act. 2005 (CICRA):</strong>{' '} Section 21 regarding clients Rights. Credit Dispute relief. desk Reporting. </li>
+                <li> <strong className="text-slate-900 font-bold">Payments and closure Systems Act. 2007 (PSSA):</strong>{' '} Section 25 regarding Dishonour of online Funds Transfer and NACH Mandates. </li>
+                <li> <strong className="text-slate-900 font-bold">Indian Contract Act. 1872:</strong>{' '} Sections 73 and 74 regarding Breach of Contract and Civil Monetary Compensation. </li>
               </ul>
 
               {/* 5 Official Outbound Authority Link Badges */}
@@ -1122,14 +967,10 @@ export default function SettleTwoLakhPersonalLoanClient() {
                   >
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]">
-                    Legal &amp; Debt Resolution Professional
-                  </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief experts </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Specialized in banking compliance, small-ticket loan dispute resolution, and NPA settlement negotiations with deep expertise resolving personal loan and fintech debts across Indian banking forums.
-              </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> Specialized in banking compliance. Small-ticket loan dispute relief. NPA closure talks with deep expertise resolving own loan and fintech debts across Indian banking forums. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link
                   href="/author/ashish-jhangra"
@@ -1153,12 +994,8 @@ export default function SettleTwoLakhPersonalLoanClient() {
                 <span className="text-xs font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
                   100% CONFIDENTIAL DEBT RELIEF
                 </span>
-                <p className="text-lg md:text-xl font-bold text-white leading-snug">
-                  Defaulting on a ₹2 Lakh Personal Loan?
-                </p>
-                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
-                  Our debt resolution experts negotiate directly with banks to stop recovery harassment, secure a 55% to 70% loan waiver, and protect your legal rights.
-                </p>
+                <p className="text-lg md:text-xl font-bold text-white leading-snug"> Defaulting on a ₹2 Lakh own Loan? </p>
+                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal"> Our debt relief experts settle straight with banks to stop claims threats. Secure a 55% to 70% loan waiver. protect your legal rights. </p>
               </div>
               <Link
                 href="/contact"
@@ -1184,22 +1021,10 @@ export default function SettleTwoLakhPersonalLoanClient() {
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
               <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage</p>
               <ul className="space-y-2 text-slate-600">
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>Zero Upfront Risk:</strong> Success-linked settlement fees.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>Direct Bank Remittance:</strong> Zero middleman fund holding.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>RBI &amp; CICRA Compliance:</strong> 100% lawful dispute handling.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" />
-                  <span><strong>Pan-India Representation:</strong> Dedicated debt resolution specialists.</span>
-                </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" /> <span><strong>Zero Upfront Risk:</strong> Success-linked closure fees.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" /> <span><strong>Direct Bank wire transfer:</strong> Zero middleman fund holding.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" /> <span><strong>RBI &amp. CICRA Compliance:</strong> 100% lawful dispute handling.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5" /> <span><strong>Pan-India Representation:</strong> Dedicated debt relief specialists.</span> </li>
               </ul>
             </div>
 
@@ -1211,9 +1036,7 @@ export default function SettleTwoLakhPersonalLoanClient() {
                   href="/services/personal-loan-settlement"
                   className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
                 >
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Personal Loan Settlement Services
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> own Loan closure Services </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Full compromise settlement blueprint &rarr;</span>
                 </Link>
 
@@ -1221,9 +1044,7 @@ export default function SettleTwoLakhPersonalLoanClient() {
                   href="/ecs-nach-bounce-legal-notice-section-25"
                   className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
                 >
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    NACH Bounce Section 25 Notice Defense
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> NACH Bounce Section 25 Notice Defense </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Legal reply and dispute guide &rarr;</span>
                 </Link>
 
@@ -1231,9 +1052,7 @@ export default function SettleTwoLakhPersonalLoanClient() {
                   href="/improve-cibil-after-loan-settlement"
                   className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
                 >
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    Rebuild CIBIL Score After Settlement
-                  </p>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Rebuild CIBIL Score After closure </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Step-by-step credit repair strategy &rarr;</span>
                 </Link>
               </div>
