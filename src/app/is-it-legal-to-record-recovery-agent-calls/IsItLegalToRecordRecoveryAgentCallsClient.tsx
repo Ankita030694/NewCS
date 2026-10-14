@@ -309,7 +309,7 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
                 <span>Visual Architecture Blueprint.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                5. Visual Infographic: Single-Party Consent &amp; Electronic Evidence Workflow
+                5. Infographic: Single-Party Consent &amp; Evidence Workflow
               </h2>
               
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs overflow-hidden p-3 md:p-4">

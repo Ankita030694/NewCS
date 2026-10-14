@@ -554,7 +554,7 @@ export default function GetLoanAfterSettlementClient() {
                 <span>Standard Operating Procedure</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                5. Step-by-Step Roadmap: 6 Stages to Qualify for New Credit Post-Settlement
+                5. 6-Stage Roadmap to Qualify for New Credit Post-Settlement
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Qualifying for loans after closure requires strategic precision. Do not rely on luck or automated applications. Follow this battle-tested 6-stage operational protocol: </p>
 
@@ -634,7 +634,7 @@ export default function GetLoanAfterSettlementClient() {
                 <span>Ready-to-Use Legal Template</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                6. Formal Representation Template: Applying for Manual Credit Appraisal Post-Settlement
+                6. Formal Template: Manual Credit Appraisal Post-Settlement
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When applying for a high-value loan (home loan. Auto loan. Trade line) where automated algorithms flag a past closure. Submit this formal written representation straight to the Bank Credit Sanctioning board: </p>
 
@@ -693,7 +693,7 @@ Place: [City, State]`}
                 <span>Grievance Redressal</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                7. 3-Tier Escalation Matrix for Unjustified Bureau Data Errors &amp; Delays
+                7. 3-Tier Escalation Matrix for Credit Bureau Data Errors
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> If your previous bank fails to update your credit report to ₹0 balance after receiving closure funds. if an erroneous &quot. Written-Off&quot. status is reported instead of &quot. Settled&quot. Use this 3-tier legal escalation matrix: </p>
 
@@ -786,7 +786,7 @@ Place: [City, State]`}
                 <span>Complex Scenarios</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                9. Complex Scenarios: Credit Cards, ARCs, and Digital Fintech Loan Apps
+                9. Complex Scenarios: Cards, ARCs, and Digital Loan Apps
               </h2>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -819,7 +819,7 @@ Place: [City, State]`}
                 <span>Expert Clarifications</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                Frequently Asked Questions on Getting a Loan or Credit Card After Settlement
+                FAQs: Getting a Loan or Credit Card After Settlement
               </h2>
               <p className="text-xs md:text-sm text-slate-600"> Click on any question below to explore technical answers checked by banking compliance and debt relief experts: </p>
 

@@ -253,7 +253,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                 <span>Statutory Criminal Law.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                3. Statutory Criminal Enactments: IT Act, 2000 &amp; Bharatiya Nyaya Sanhita (BNS), 2023
+                3. Criminal Enactments: IT Act 2000 &amp; BNS 2023 Protections
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> It is crucial for victims to recognize that the steps of fake loan app operators are not trade civil claims. They are. <strong>serious penal felonies.</strong> punishable with rigorous imprisonment under Indian online and penal statutes: </p>
 
@@ -293,7 +293,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                 <span>Comparative Legal Matrix.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                4. Comparative Legal Grid: Legitimate RBI-Registered NBFCs vs. Rogue Loan Apps
+                4. Legal Grid: RBI-Registered NBFCs vs Rogue Loan Apps
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Distinguish the daily work. Legal. And RBI parameters governing genuine online lenders versus banned extortion apps: </p>
 
@@ -350,7 +350,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                 <span>Extortion Risk Analytics.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                5. Extortion Risk Analytics: Why Paying Blackmail Accelerates Harassment
+                5. Extortion Risk: Why Paying Money Accelerates Harassment
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Many victims erroneously assume that paying off the demanded sum (e.g. ₹5,000 to ₹10,000) will permanently resolve the issue and delete their contact records. In online extortion work,. <strong>payment is interpreted as high compliance and panic.</strong>Triggering automated reports algorithms across partner syndicates: </p>
 
@@ -447,7 +447,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                 <span>Step-by-Step Defense SOP.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                6. Standard Operating Procedure (SOP): 6 Stages to Neutralize Fake Loan App Extortion
+                6. 6-Stage SOP: Neutralize Fake Loan App Harassment
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Follow this battle-tested. Sequential protocol promptly upon facing threats or contact abuse from banned lending apps: </p>
 
@@ -545,7 +545,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                 <span>Statutory Complaint Framework.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                7. Cyber Crime Complaint Architecture &amp; Evidentiary Preservation Framework
+                7. Cyber Crime Complaint Architecture &amp; Evidence Gathering
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The bank mechanism for prosecuting fake loan app syndicates requires strict compliance with evidentiary protocols under the Bharatiya Sakshya Adhiniyam. 2023 (BSA). Formerly Section 65B of the Indian proof Act. When a victim approaches the online police or lodges an electronic petition on the National online Crime Reporting Portal (online crime.gov.in). The office viability of the reports depends on the precision of online deep logging. The complainant must methodically archive every transaction log. Unedited chat export. Network timestamp. APK manifest rather than submitting fragmented or cropped images. </p>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> A by law sound online crime petition establishes the jurisdictional elements of online extortion under Section 308 of the Bharatiya Nyaya Sanhita. 2023. Meanwhile. Simultaneously invoking Section 66E for rights infringement and Section 67A of the Information Technology Act for the circulation of sexually explicit content. By articulating that the transaction originated from an banned non-banking entity operating in violation of the RBI Master Direction on online Lending (RBI/2022-23/111). The reports by law categorizes the demanded payment not as a civil contractual debt. As extortionate proceeds of crime under the Prevention of Money Laundering Act (PMLA). </p>

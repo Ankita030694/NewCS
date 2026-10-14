@@ -553,7 +553,7 @@ const DisputeForgedSignaturesClient = () => {
                                 "In the digital age, your biometric failure is their golden opportunity. We provide the technical shield to prove you never clicked 'Submit'."
                             </p>
 
-                            <h2 id="vicitims-rights-bns" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14 font-serif">Section 10: Victim’s Bill of Rights under Bharatiya Nyaya Sanhita (BNS)</h2>
+                            <h2 id="vicitims-rights-bns" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14 font-serif">Section 10: Victim Rights Under Bharatiya Nyaya Sanhita (BNS)</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The transition from IPC to BNS in 2024-25 has granted victims of financial forgery specific protections that were previously absent or vague.
                             </p>

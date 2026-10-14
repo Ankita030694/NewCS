@@ -1133,7 +1133,7 @@ export default function StopRecoveryHarassmentClient() {
                   Interactive Legal Diagnostic
                 </div>
                 <h2 className="text-xl sm:text-2xl font-bold text-black leading-tight">
-                  ⚡ Emergency Recovery Harassment Legal Severity &amp; Action Protocol Checker
+                  ⚡ Recovery Harassment Legal Severity &amp; Action Checker
                 </h2>
                 <p className="text-sm text-black leading-relaxed font-normal"> Select the local claims abuse behavior you are currently facing to receive an instant legal evaluation. Applicable penal statutes under Bharatiya Nyaya Sanhita (BNS). And exact counter-action steps: </p>
 
@@ -1866,7 +1866,7 @@ export default function StopRecoveryHarassmentClient() {
                   Section 64 • Final Borrower Empowerment Takeaway
                 </div>
                 <h2 className="text-xl sm:text-2xl font-bold text-black leading-tight">
-                  64. Conclusion – Know Your Rights and Take Action Against Harassment
+                  64. Conclusion: Know Your Rights and Stop Harassment
                 </h2>
                 <p className="text-sm text-black leading-relaxed font-normal"> debt stress is a temporary economic phase. Not a crime. No bank. NBFC. Or claims firm possesses the legal formal to rob you of your constitutional dignity. Defame your character. Or terrorize your family. The law in India firmly protects clients against predatory collections. </p>
                 <p className="text-sm text-black leading-relaxed font-normal"> By understanding your rights under the RBI Master Circular. Preserving robust audio and visual proof. And deploying expert lawyers legal help. You can promptly halt unlawful abuse and regain peace of mind. </p>

@@ -335,7 +335,7 @@ export default function CibilDefaulterListClient() {
                                 When you present this evidence to the banking ombudsman or use it in a legal notice, the lending institution is often forced into a highly defensive position. Banks are strictly liable for the conduct of their third party collection agencies. Documenting this harassment is the first step toward turning the tables and demanding a fair resolution or a <Link href="/best-lawyer-for-personal-loans" className="text-blue-600 hover:underline font-semibold">personal loan settlement</Link> on your own terms.
                             </p>
 
-                            <h2 id="cibil-explained" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 3: What CIBIL Actually Does: The Credit Information Bureau Explained</h2>
+                            <h2 id="cibil-explained" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 3: What CIBIL Actually Does: The Credit Bureau Role</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 To dispel the myths, we must understand the actual function of CIBIL. TransUnion CIBIL is a Credit Information Company licensed by the Reserve Bank of India. Its primary role is to act as a vast, secure repository of credit data. Banks, non banking financial companies (NBFCs), and other lending institutions submit data to CIBIL regarding their customers credit behavior every single month.
                             </p>
@@ -492,7 +492,7 @@ export default function CibilDefaulterListClient() {
                                 If paying the full amount is impossible, your remaining option is a formal settlement. In this scenario, you negotiate to pay a reduced lump sum. The bank absorbs the loss and closes the file. They will issue a No Dues Certificate, which completely shields you from any future legal action or recovery harassment. However, they will report the account to CIBIL as "Settled." A settled status indicates that the bank had to take a haircut. While it stops the bleeding and prevents your score from dropping further due to ongoing missed EMIs, it does leave a negative footprint that you must actively work to rebuild.
                             </p>
 
-                            <h2 id="disputing-errors" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 10: Legal Strategies for Disputing Errors in Your Credit Report</h2>
+                            <h2 id="disputing-errors" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 10: Legal Strategies for Disputing CIBIL Report Errors</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 What happens if the data on your CIBIL report is completely wrong? Errors happen more frequently than consumers realize. A bank might forget to update your account status after you have paid a settlement, leaving it marked as an active NPA. Sometimes, a loan belonging to a person with a similar name and date of birth might mistakenly appear on your file. These errors are incredibly damaging and entirely unjust.
                             </p>

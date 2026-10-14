@@ -502,7 +502,7 @@ export default function MudraLoanSettlementClient() {
                                 Pro Tip: Never sign a 'Balance Confirmation' letter during recovery. Doing so extends the 'Limitation Period' for the bank to sue you. Consult us before signing any documents during the NPA stage.
                             </p>
 
-                            <h2 id="closure-legality-2026" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 10: Ensuring 100% Legal Closure: The 'Settled' vs 'Closed' Dilemma</h2>
+                            <h2 id="closure-legality-2026" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 10: Legal Closure: Settled vs Closed Status</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Many borrowers settle their Mudra loans only to receive recovery notices 3 years later from independent debt collection agencies. This happens because the bank didn’t truly 'Close' the loan but only 'Settled' it in their internal records.
                             </p>

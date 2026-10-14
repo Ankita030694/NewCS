@@ -339,7 +339,7 @@ export default function MSMEPersonalLoanClient() {
                                 In 2025, banks are increasingly using personal guarantees as leverage to force promoters into unfavorable settlements. However, a guarantee is not an absolute death sentence. There are technical grounds for "Discharge of Guarantor." If the bank has varied the terms of the loan without the guarantor’s consent, or if they have released some of the business collateral without informing you, the guarantee may become legally unenforceable.
                             </p>
 
-                            <h2 id="ibc-personal-guarantors" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Insolvency Proceedings (IBC 2016): A New Threat for Individual Promoters</h2>
+                            <h2 id="ibc-personal-guarantors" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Insolvency Proceedings (IBC 2016): Risks for Promoters</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The Insolvency and Bankruptcy Code (IBC) changed everything for personal guarantors. Since 2019, creditors have the power to file for insolvency against individual personal guarantors in the National Company Law Tribunal (NCLT). This is a terrifying prospect because it can lead to the appointment of a Resolution Professional (RP) who takes control of your personal assets.
                             </p>

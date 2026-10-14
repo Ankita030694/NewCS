@@ -281,7 +281,7 @@ export default function CheckGenuinenessClient() {
                                 If a letter lacks any of these elements, consider it suspicious. Many fake letters use phrases like "Special Festive Discount" or "Instant Clearance Deal" which are not standard banking terminology. Banks use professional, dry, and legally structured language. They don't use marketing fluff in a legal termination document.
                             </p>
 
-                            <h2 id="verifying-communication-channels" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 3: Verifying Communication Channels: Gmail vs. Official Domains</h2>
+                            <h2 id="verifying-communication-channels" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 3: Verifying Communication: Gmail vs Official Domains</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 This is the simplest yet most effective way to catch a scammer. No major bank in India (SBI, HDFC, ICICI, etc.) or major NBFC will ever write to you from a generic email address like **@gmail.com, @yahoo.com, or @outlook.com**. Even smaller fintech apps have their own custom domains for official correspondence.
                             </p>

@@ -316,7 +316,7 @@ export default function SettleTwoLakhPersonalLoanClient() {
                 <span>Resolution Pathways Matrix</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                3. Comparative Resolution Matrix: Settlement vs. Restructuring vs. Default
+                3. Resolution Matrix: Settlement vs Restructuring vs Default
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Evaluate the five primary legal and money routes available when managing a defaulted ₹1 Lakh own loan in India: </p>
 
@@ -385,7 +385,7 @@ export default function SettleTwoLakhPersonalLoanClient() {
                 <span>CIBIL Algorithm &amp; Scoring Math</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                4. Technical CIBIL Scoring Math: The Mathematical Impact of ₹2 Lakh Settlement
+                4. CIBIL Scoring Math: Impact of ₹2 Lakh Settlement
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> How exactly does credit desk scoring work when a ₹2 Lakh loan is settled versus left in default? Credit bureaus in India (TransUnion CIBIL. Experian. CRIF High Mark. Equifax) compute credit scores using proprietary algorithms weighted across exact parameters: </p>
 
@@ -496,7 +496,7 @@ export default function SettleTwoLakhPersonalLoanClient() {
                 <span>Step-by-Step Resolution SOP</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                5. Standard Operating Procedure (SOP): 6 Stages to Settle a ₹2 Lakh Personal Loan
+                5. 6-Stage SOP: Settle a ₹2 Lakh Personal Loan Legally
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Follow this sequential. Battle-tested standard operating procedure executed by CredSettle experts to ensure maximum waiver and complete legal safety: </p>
 
@@ -618,7 +618,7 @@ export default function SettleTwoLakhPersonalLoanClient() {
                 <span>Grievance Redressal</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                7. The 3-Tier Escalation Matrix for Unfair Recovery &amp; Dispute Resolution
+                7. 3-Tier Escalation Matrix for Unfair Recovery Tactics
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> If the lending bank or its calls agents ignore your hardship notices or engage in coercive claims tactics for a ₹2 Lakh loan. Escalate through this structured 3-tier hierarchy: </p>
 
@@ -665,7 +665,7 @@ export default function SettleTwoLakhPersonalLoanClient() {
                 <span>Procedural Milestones</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                8. Chronological Timelines &amp; Milestone Resolution Table (Day 0 to Month 6)
+                8. Resolution Timelines &amp; Milestone Table (Day 0 to Month 6)
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> grasp the chronological phases of a ₹2 Lakh loan default allows you to plan your defense. Manage cash reserves. time your closure talks for maximum discount: </p>
 

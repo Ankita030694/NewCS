@@ -349,7 +349,7 @@ export default function CanIGoToJailForCreditCardDebtClient() {
                 <span>Procedural Defense Workflow.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                6. Standard Operating Procedure (SOP): 6 Stages of Credit Card Debt Settlement
+                6. 6-Stage SOP: Complete Credit Card Debt Settlement Process
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Navigating credit card default requires a methodical. Legal sequence designed to halt claims agent abuse. Dispute unconscionable compound finance charges. Secure an formal OTS deal pacts: </p>
 
@@ -406,7 +406,7 @@ export default function CanIGoToJailForCreditCardDebtClient() {
                 <span>Resolution Timeline.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                9. Chronological Timeline Table: Delinquency to Settlement (Day 1 to Month 6)
+                9. Timeline Table: Delinquency to Settlement (Day 1 to Month 6)
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Review bank stages, claims actions. And strategic client maneuvers across the 6-month relief cycle: </p>
 
@@ -493,7 +493,7 @@ export default function CanIGoToJailForCreditCardDebtClient() {
                 <span>Frequently Asked Questions.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                Frequently Asked Questions on Credit Card Debt &amp; Legal Arrest Realities
+                FAQs on Credit Card Debt and Legal Arrest Realities
               </h2>
               <p className="text-xs md:text-sm text-slate-600"> Click on any question below to view detailed legal answers verified by our debt relief workers: </p>
 

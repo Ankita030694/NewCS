@@ -304,7 +304,7 @@ export default function LoanAuctionNoticeClient() {
                                 Your absolute final window to take action is during this 30-day notice period. The clock is ticking, and immediate legal consultation is imperative.
                             </p>
 
-                            <h2 id="clearing-arrears" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-green-700 pl-6">Section 3: Maneuver 1: Clearing Arrears Before the Date (Section 13(8))</h2>
+                            <h2 id="clearing-arrears" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-green-700 pl-6">Section 3: Clearing Arrears Before the Auction Date (Sec 13(8))</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 One of the most misunderstood provisions of the SARFAESI Act is Section 13(8). Many borrowers assume that once the auction is published, the only way to save the property is to win a complex court battle. The law, however, provides a straightforward, guaranteed exit route if you have access to capital.
                             </p>

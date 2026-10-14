@@ -250,7 +250,7 @@ export default function RbiGuidelinesClient() {
                             
                             <p className="text-gray-700 leading-relaxed mb-6"> Documenting these red flags is crucial. Keep a log of every call. Record talks if possible. save all text messages and emails. This evidence will form the foundation of your legal defense. If you need assistance formalizing your complaint. You can learn <Link href="/how-to-stop-recovery-agent-harassment" className="text-blue-600 hover:underline">how to stop agents threats</Link> through structured legal frameworks. </p>
 
-                            <h2 id="legal-process-map" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">The Legal Process Map: Filing a Police Complaint Against Recovery Agents</h2>
+                            <h2 id="legal-process-map" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">Legal Process Map: Police Complaints Against Recovery Agents</h2>
                             
                             <p className="text-gray-700 leading-relaxed mb-6"> When lines are crossed. Taking fast legal action is imperative. A loan default does not give anyone the right to commit penal threaten. Here is the exact step by step legal process map to file a police complaint against agents and escalate the matter effectively. </p>
 

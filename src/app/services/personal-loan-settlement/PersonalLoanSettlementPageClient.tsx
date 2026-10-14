@@ -761,7 +761,7 @@ export default function PersonalLoanSettlementPageClient() {
                   CHAPTER 3
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  3. How Personal Loan Settlement Process Works (9-Step In-Depth Roadmap)
+                  3. How Personal Loan Settlement Works: 9-Step Roadmap
                 </h2>
                 <div className="text-black leading-relaxed space-y-4 text-xs sm:text-sm md:text-base">
                   <p> Navigating a one-time settlement requires systematic execution across 9 discrete phases. Missing a single procedural step can derail talks or leave you exposed to renewed claims court cases: </p>
@@ -1155,7 +1155,7 @@ export default function PersonalLoanSettlementPageClient() {
                   CHAPTER 8
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  8. How Much Can You Settle a Personal Loan For? (With Mathematical Examples)
+                  8. Settlement Amount Calculations &amp; Mathematical Examples
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p> A settlement waiver (commonly referred to in banking circles as the &quot. haircut&quot. ) is the percentage of total claimed dues that the lender permanently forgives. To understand how waivers are determined. Examine the anatomical structure of overdue debt: </p>
@@ -1318,7 +1318,7 @@ export default function PersonalLoanSettlementPageClient() {
                   CHAPTER 10
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  10. Errors to Avoid When Settling a Personal Loan (10 Critical Pitfalls)
+                  10. Pitfalls to Avoid in Personal Loan Settlement
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p> Distressed clients are exceptionally vulnerable to misleading promises and fraudulent debt relief claims. Protect yourself by avoiding these 10 fatal mistakes: </p>
@@ -1385,7 +1385,7 @@ export default function PersonalLoanSettlementPageClient() {
                   CHAPTER 11
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  11. Impact of Personal Loan Settlement on CIBIL Score &amp; Credit Rebuilding
+                  11. Settlement Impact on CIBIL Score &amp; Credit Repair
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p> Credit bureau clarity is critical. Under the Credit Information Companies (Regulation) Act (CICRA). 2005. Lenders must report the exact payment performance to all four authorized credit bureaus: TransUnion. Experian. Equifax. And CRIF: </p>
@@ -1629,7 +1629,7 @@ export default function PersonalLoanSettlementPageClient() {
                   CHAPTER 15
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  15. RBI Guidelines Governing Personal Loan Settlement (Framework 2023–2026)
+                  15. RBI Guidelines on Personal Loan Settlement (2023-2026)
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p> Under the central bank's June 2023 notification on retail settlement rules (Circular DOR.STR.REC.20/21.04.048/2023-24). Scheduled lending institutions and non-banking finance firms are bound by uniform governance rules for resolving distressed term loan accounts.</p>
@@ -1672,7 +1672,7 @@ export default function PersonalLoanSettlementPageClient() {
                   CHAPTER 16
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  16. Documents Required for Personal Loan Settlement: Complete Checklist
+                  16. Documents Required for Personal Loan Settlement
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p> Assemble this complete four-part papers dossier before starting settlement actions to make sure swift approval: </p>

@@ -376,7 +376,7 @@ export default function PersonalLoanSettlementAfterDefaultClient() {
                                 Over the next three weeks, intense negotiations took place. The bank demanded 8 Lakh; Rajesh held firm at 5 Lakh, citing funds borrowed from relatives. Eventually, leveraging the pressure of the financial quarter-end, the bank agreed to settle the entire 15 Lakh outstanding for a single lump-sum payment of 5.5 Lakh. Rajesh received his official Settlement Letter, paid the amount directly to his loan account, and permanently closed a chapter that had caused him immense anxiety. This demonstrates exactly how to settle personal loan after default effectively.
                             </p>
 
-                            <h2 id="case-study-2" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 7: Case Study 2: Managing Credit Card and Personal Loan Defaults</h2>
+                            <h2 id="case-study-2" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 7: Case Study: Managing Credit Card &amp; Personal Loan Dues</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Neha, a small business owner in Delhi, faced a cascading financial crisis when her supply chain collapsed. She defaulted on two credit cards and an 8 Lakh personal loan simultaneously. The combined pressure from three different recovery agencies was overwhelming. What happens after personal loan default when combined with credit card defaults is a multiplier effect of harassment.
                             </p>
@@ -421,7 +421,7 @@ export default function PersonalLoanSettlementAfterDefaultClient() {
                                 </li>
                             </ul>
 
-                            <h2 id="the-role-of-arcs" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 9: The Role of ARCs and Why You Should Settle Before They Arrive</h2>
+                            <h2 id="the-role-of-arcs" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 9: The Role of ARCs and Settling Before Debt Assignment</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 If you fail to settle during the initial post-default window (usually within the first 12 months), the bank will likely write off the debt from their primary ledger and sell it to an Asset Reconstruction Company (ARC) for a fraction of its value.
                             </p>

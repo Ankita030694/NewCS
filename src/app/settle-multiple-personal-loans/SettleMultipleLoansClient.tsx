@@ -333,7 +333,7 @@ export default function SettleMultipleLoansClient() {
                                 Recovery agencies are fundamentally businesses. They look for easy targets. When they realize that a specific borrower is represented by a formidable legal team that will aggressively litigate any misstep, they quickly categorize that account as high risk. They back off the aggressive tactics and refer the matter back to the bank's internal settlement department, which is precisely where the professional negotiations must take place. The legal panel effectively builds a fortress around you, allowing you to breathe, sleep, and focus on generating the income necessary to fund the eventual settlements.
                             </p>
                             
-                            <h2 id="step-by-step" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 6: The Step by Step Strategy to Negotiate Multiple Loans With Banks</h2>
+                            <h2 id="step-by-step" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 6: Step-by-Step Strategy to Settle Multiple Loans</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 To successfully negotiate multiple loans with banks, the process must be highly systematic and rigidly controlled. Attempting to freestyle negotiations with seven different institutions will inevitably lead to contradictory agreements and catastrophic cash flow failures. Here is the structured roadmap utilized in professional Consolidated Negotiation.
                             </p>

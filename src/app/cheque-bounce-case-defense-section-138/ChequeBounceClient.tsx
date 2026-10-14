@@ -81,7 +81,7 @@ export default function ChequeBounceClient() {
     {
       moduleTitle: "Module 2: Statutory Notices & Timelines",
       links: [
-        { id: "cheque-bounce-notice-what-is-it", label: "9. Cheque Bounce Notice – What Is It?" },
+        { id: "cheque-bounce-notice-what-is-it", label: "9. Cheque Bounce Notice: Meaning & Legal Scope" },
         { id: "legal-notice-under-section-138", label: "10. Legal Notice Under Section 138" },
         { id: "time-limit-for-sending-a-cheque-bounce-notice", label: "11. 30-Day Notice Time Limit" },
         { id: "how-to-reply-to-a-section-138-legal-notice", label: "12. Replying to Section 138 Notice" },
@@ -794,7 +794,7 @@ export default function ChequeBounceClient() {
                   SECTION 9
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  9. Cheque Bounce Notice – What Is It?
+                  9. Cheque Bounce Notice: Meaning &amp; Legal Scope
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p> A Cheque Bounce Notice is a mandatory formal legal demand served by the payee (or holder in due course) to the drawer of a dishonoured cheque under clause (b) of the proviso to Section 138 of the Negotiable Instruments Act. 1881. It is not an informal reminder. Email alert. calls WhatsApp message. it is a solemn legal papers that forms the essential condition precedent to the birth of a penal cause of action. </p>
@@ -1371,7 +1371,7 @@ export default function ChequeBounceClient() {
                   SECTION 39
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  39. Security Cheque and Section 138 – Legal Position
+                  39. Security Cheque &amp; Section 138 Legal Position
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p> The phrase &quot. Security Cheque&quot. is one of the most litigated terms in Indian trade courts. Lenders and trade creditors often argue that marking a cheque as &quot. Security&quot. does not preclude prosecution under Section 138. </p>
@@ -1395,7 +1395,7 @@ export default function ChequeBounceClient() {
                   SECTION 40
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  40. Blank Cheque and Section 138 – Legal Position
+                  40. Blank Cheque &amp; Section 138 Legal Position
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p> Under Section 20 of the NI Act. A person who signs and delivers a blank or incomplete negotiable instrument is presumed to have authorized the payee to complete the details. In <em>Bir Singh v. Mukesh Kumar (2019)</em>The Supreme Court confirmed that a signed blank cheque voluntarily handed over can attract Section 138 even if filled by another person. </p>
@@ -1905,7 +1905,7 @@ export default function ChequeBounceClient() {
                   SECTION 64
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  64. Quashing of Section 138 Proceedings (Section 482 CrPC / Sec 528 BNSS)
+                  64. Quashing Section 138 Proceedings (Sec 482 CrPC / 528 BNSS)
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p> Under <strong>Section 482 of the CrPC / Section 528 of the BNSS</strong>The High Court possesses inherent powers to prevent abuse of the process of any court and to secure the ends of justice. An accused can invoke this extraordinary jurisdiction to quash an unjust cheque bounce prosecution without enduring a protracted trial. </p>
@@ -2216,7 +2216,7 @@ export default function ChequeBounceClient() {
                   SECTION 78
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  78. Conclusion – Understanding Your Rights and Defence Options Under Section 138
+                  78. Conclusion: Your Section 138 Legal Defense Options
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p> A cheque bounce notice or court summons under Section 138 is not the end of the road. it is a specialized legal steps with rigorous checks and balances. The law in India demands strict proof of a by law enforceable debt. Adherence to inflexible limitation timelines. legal fairness. </p>

@@ -269,7 +269,7 @@ export default function PersonalLoanAfterDeathClient() {
                 <span>Signatory Legal Nuances</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                3. Critical Legal Distinction: Co-Borrowers, Guarantors vs. Non-Signatory Family Members
+                3. Legal Distinction: Co-Borrowers vs Non-Signatory Family
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> To evaluate your family&apos. S exact legal exposure, you must identify whether any surviving relative signed the loan papers as a co-applicant or guarantor. Or whether they are simply non-signatory legal heirs. The law treats these categories completely differently: </p>
 
@@ -320,7 +320,7 @@ export default function PersonalLoanAfterDeathClient() {
                 <span>Comparative Legal Matrix</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                4. Debt Liability Comparison Grid: How Different Loans Are Handled After Death
+                4. Debt Liability Grid: Handling Different Loans After Death
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> How a lender recovers debt upon a client&apos. S death depends entirely on whether the loan is no-collateral. Secured by property, or covered by third-party guarantees. This full grid outlines family exposure across all debt categories: </p>
 
@@ -398,7 +398,7 @@ export default function PersonalLoanAfterDeathClient() {
                 <span>Financial &amp; Estate Mathematics</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                5. Technical Estate Liability Analytics: Calculating the Inherited Estate NAV
+                5. Estate Liability Analytics: Calculating Inherited Assets
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Under Section 50 of the CPC and the Indian Succession Act. 1925, legal heir debt risk is calculated via a strict mathematical formula. Creditors can only claim from the <strong>Net Asset Value (NAV) of the Inherited Estate</strong> after deducting higher-priority legal expenses. </p>
 
@@ -718,7 +718,7 @@ export default function PersonalLoanAfterDeathClient() {
                 <span>Resolution Timeline</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                9. Chronological Resolution Timelines &amp; Post-Death Settlement Milestones
+                9. Post-Death Loan Resolution Timelines &amp; Key Milestones
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The bank lifecycle of handling a deceased client&apos. s loan account follows a standard banking trajectory. Here is what family members should expect at each stage: </p>
 
@@ -782,7 +782,7 @@ export default function PersonalLoanAfterDeathClient() {
                 <span>Practical Edge Cases</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                10. Specialized Real-World Scenarios: Credit Cards, Fintech Apps &amp; Insurance Nominees
+                10. Specialized Scenarios: Cards, Fintech Apps &amp; Insurance
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Different money products and lending channels present distinct challenges upon a client&apos. s death. Here is how to navigate complex scenarios: </p>
 

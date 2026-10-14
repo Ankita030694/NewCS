@@ -644,7 +644,7 @@ export default function NBFCLoanSettlementPageClient() {
         <section id="nbfc-loan-settlement-process-step-by-step" className="scroll-section scroll-mt-28">
           <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">SECTION 6</div>
           <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-            6. NBFC Loan Settlement Process – Step by Step
+            6. NBFC Loan Settlement Process: Step by Step
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p> Follow this 7-step bank roadmap to navigate NBFC closure safely: </p>
@@ -891,7 +891,7 @@ export default function NBFCLoanSettlementPageClient() {
         <section id="nbfc-loan-settlement-amount-calculation-examples" className="scroll-section scroll-mt-28">
           <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">SECTION 16</div>
           <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-            16. NBFC Loan Settlement Amount – Calculation and Examples
+            16. NBFC Loan Settlement Amount: Calculations
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p> Let us analyze a concrete money ledger calculation for an clean own loan defaulted with a premier tier-1 NBFC: </p>
@@ -1321,7 +1321,7 @@ export default function NBFCLoanSettlementPageClient() {
         <section id="nbfc-loan-default-what-happens-if-you-stop-paying" className="scroll-section scroll-mt-28">
           <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">SECTION 31</div>
           <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-            31. NBFC Loan Default – What Happens If You Stop Paying?
+            31. NBFC Loan Default: Consequences of Non-Payment
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p> When you stop servicing EMIs on an NBFC loan. The facility moves through standardized asset classification stages: </p>
@@ -2459,7 +2459,7 @@ export default function NBFCLoanSettlementPageClient() {
         <section id="nbfc-loan-settlement-complete-step-by-step-guide" className="scroll-section scroll-mt-28">
           <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">SECTION 78</div>
           <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-            78. NBFC Loan Settlement – Complete Step-by-Step Guide
+            78. NBFC Loan Settlement: Step-by-Step Guide
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p> Here is the complete. End-to-end procedural workflow for executing a successful NBFC loan closure: </p>
@@ -2514,7 +2514,7 @@ export default function NBFCLoanSettlementPageClient() {
         <section id="conclusion-understanding-nbfc-loan-settlement" className="scroll-section scroll-mt-28">
           <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">SECTION 79</div>
           <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-            79. Conclusion – Understanding NBFC Loan Settlement
+            79. Conclusion: Understanding NBFC Loan Settlement
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p> Defaulting on an NBFC loan is not a penal failing. It is an economic result of unforeseen life events. Medical emergencies. trade volatility. Under Indian law and the Reserve Bank of India&apos. S RBI architecture. Every clients is entitled to dignity. Fair claims practices. the legal method of a one-time closure to resolve unsustainable debts. </p>

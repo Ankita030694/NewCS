@@ -2116,7 +2116,7 @@ export default function HowToConvinceBankForOneTimeSettlementClient() {
         <section id="ots-complete-step-by-step-guide" className="scroll-section scroll-mt-28">
           <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">SECTION 59</div>
           <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-            59. One-Time Settlement – Complete Step-by-Step Guide
+            59. One-Time Settlement: Complete Step-by-Step Guide
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p> Here is your complete procedural summary to successfully execute an OTS from default to full debt freedom: </p>
@@ -2162,7 +2162,7 @@ export default function HowToConvinceBankForOneTimeSettlementClient() {
         <section id="conclusion-successfully-negotiate-ots" className="scroll-section scroll-mt-28">
           <div className="inline-block px-2.5 py-1 bg-blue-50 text-blue-700 text-[11px] sm:text-xs font-bold rounded-md mb-2.5 sm:mb-3">SECTION 60</div>
           <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-            60. Conclusion – How to Successfully Negotiate an OTS With Your Bank
+            60. Conclusion: How to Successfully Negotiate an OTS With Bank
           </h2>
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p> Securing a One-Time Settlement with your bank is neither an admission of moral failure nor an insurmountable money barrier. It is a legitimate. Legally sanctioned trade relief pathway explicitly endorsed by the Reserve Bank of India to restore economic productivity to distressed clients. </p>

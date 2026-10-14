@@ -362,7 +362,7 @@ export default function TaxImplicationsClient() {
                                 However, if the tax authorities find evidence that the loan and subsequent waiver were a sham transaction designed to evade taxes, they can invoke Section 56(2)(x) to tax the entire amount. This highlights the importance of maintaining proper documentation proving your genuine financial hardship during the settlement process.
                             </p>
 
-                            <h2 id="principal-vs-interest" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 5: The Crucial Difference: Principal Waiver vs. Interest Waiver</h2>
+                            <h2 id="principal-vs-interest" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 5: Difference Between Principal and Interest Waivers</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 One of the most confusing aspects of the income tax on loan waiver is differentiating between the principal component and the interest component of the waived amount. The tax treatment for these two elements is distinctly different.
                             </p>

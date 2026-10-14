@@ -340,7 +340,7 @@ export default function ReduceOutstandingClient() {
                                 It is critical to note that while the RBI permits debt settlement, it does not mandate a specific waiver percentage. The decision to decrease the loan principal amount or waive off personal loan interest lies entirely with the individual bank. This means the outcome heavily depends on your negotiation strategy, the documentation you provide to prove your hardship, and the legal expertise of the representatives acting on your behalf. If the bank is convinced that you genuinely cannot pay the full amount and that a settlement is their best chance of recovering some capital, they will agree to significantly reduce your loan burden.
                             </p>
 
-                            <h2 id="case-study-1" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Case Study 1: Negotiating a 45 Percent Reduction on a 15 Lakh Personal Loan</h2>
+                            <h2 id="case-study-1" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Case Study 1: 45 Percent Waiver on a ₹15 Lakh Personal Loan</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 To illustrate how the process works in reality, let us examine the case of Mr. Rajesh Kumar, an IT professional based in Pune. Rajesh had taken an unsecured personal loan of ₹15,00,000 to fund his sister's wedding and consolidate some earlier credit card debts. For two years, he paid his EMIs on time. Unfortunately, his company underwent a massive restructuring, and he lost his job. 
                             </p>

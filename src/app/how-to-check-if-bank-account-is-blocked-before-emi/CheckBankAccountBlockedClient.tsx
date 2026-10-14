@@ -327,7 +327,7 @@ export default function CheckBankAccountBlockedClient() {
                                 However, this right is not absolute. The Reserve Bank of India (RBI) mandates that banks must operate with transparency and fairness. The sudden, unannounced freezing of an account, especially when it disrupts regular authorized payments like an EMI, walks a fine legal line. Knowing how to detect these liens early is your only way to preempt the devastating consequences of a bounced payment.
                             </p>
 
-                            <h2 id="step-by-step-guide" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 3: Step by Step Guide: How to Check if Your Account is Blocked Online</h2>
+                            <h2 id="step-by-step-guide" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 3: Step-by-Step Guide to Check Blocked Accounts Online</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Do not wait for a bounced EMI message to discover your account is frozen. Proactive monitoring is essential. You must check your account status a few days before your scheduled auto debit date. The most efficient way to do this is through your bank's net banking portal or mobile application.
                             </p>

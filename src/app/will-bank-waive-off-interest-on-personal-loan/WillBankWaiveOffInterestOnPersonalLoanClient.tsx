@@ -338,7 +338,7 @@ export default function WillBankWaiveOffInterestOnPersonalLoanClient() {
               <div className="flex items-center gap-2">
                 <Sparkles className="w-5 h-5 text-[#1886ff]"/>
                 <h2 className="text-xl sm:text-2xl font-bold text-slate-900">
-                  Visual Blueprint: The Statutory Interest Waiver &amp; Settlement Architecture
+                  Visual Blueprint: Statutory Interest Waiver Architecture
                 </h2>
               </div>
 
@@ -502,7 +502,7 @@ export default function WillBankWaiveOffInterestOnPersonalLoanClient() {
               <div className="flex items-center gap-2">
                 <Clock className="w-5 h-5 text-[#1886ff]"/>
                 <h2 className="text-xl sm:text-2xl font-bold text-slate-900">
-                  8. Chronological Timeline: 180-Day NPA Resolution &amp; Interest Waiver Path
+                  8. Chronological Timeline: 180-Day NPA Resolution Path
                 </h2>
               </div>
 

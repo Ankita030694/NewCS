@@ -401,7 +401,7 @@ export default function BadLoanRecoveryStrategyClient() {
                                 In 2025, the DRTs are moving toward a <strong>Virtual Hearing</strong> platform. All documents must be e-filed, and hearings are often held over high-definition video conferencing. This makes the process faster but also more technical. A single missing digital signature or an improperly formatted PDF can result in your application being rejected. Our technical legal team ensures that your "E-Defense" is as strong as your physical legal arguments.
                             </p>
 
-                            <h2 id="arc-directions-2025" className="text-4xl font-black text-slate-900 mb-8 scroll-mt-24 tracking-tight">Section 6: Asset Reconstruction Companies (ARCs): New RBI Directions 2025</h2>
+                            <h2 id="arc-directions-2025" className="text-4xl font-black text-slate-900 mb-8 scroll-mt-24 tracking-tight">Section 6: ARC Debt Resolution and RBI Directions 2025</h2>
                             <p className="text-slate-700 leading-relaxed mb-6">
                                 When a bank gives up on a loan, they sell it to an ARC. For years, ARCs operated as the "Bad Banks" of India. However, the RBI’s November 2025 directions have cracked down on the "Warehouse Model" of ARCs. ARCs are now legally obligated to provide a <strong>Resolution Plan</strong> within 6 months of acquiring a debt. They can no longer simply sit on the assets and wait for the real estate price to rise.
                             </p>
@@ -428,7 +428,7 @@ export default function BadLoanRecoveryStrategyClient() {
                                 At CredSettle, we are already implementing these 2026 standards in our 2025 negotiations. By showing a bank that their current behavior will be an explicit violation under the 2026 rules, we gain significant moral and legal ground in the negotiation process.
                             </p>
 
-                            <h2 id="ethical-recovery" className="text-4xl font-black text-slate-900 mb-8 scroll-mt-24 tracking-tight">Section 8: Ethical Recovery Practices: Fighting Back Against Harassment</h2>
+                            <h2 id="ethical-recovery" className="text-4xl font-black text-slate-900 mb-8 scroll-mt-24 tracking-tight">Section 8: Ethical Recovery and Protection From Harassment</h2>
                             <p className="text-slate-700 leading-relaxed mb-6 font-bold text-gray-900 border-b-2 border-slate-200 pb-2">
                                 Recovery is a financial process, not a physical one.
                             </p>

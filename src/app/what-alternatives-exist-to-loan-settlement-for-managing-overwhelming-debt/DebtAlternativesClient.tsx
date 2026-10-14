@@ -494,7 +494,7 @@ export default function DebtAlternativesClient() {
                                 We’ve seen hundreds of cases where "Coming Clean" to the family was the first step toward a successful restructuring. Once the family knows there is a plan in place, they become the support system that keeps the borrower disciplined. Whether it’s cutting down on recreational spending or contributing extra income to the DMP, a united family is the strongest weapon against a debt trap. Rebuilding your financial life is as much about restoring trust within the home as it is about restoring your CIBIL score.
                             </p>
 
-                            <h2 id="comparative-analysis" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Comparative Analysis: Debt Management Plan (DMP) vs Debt Consolidation Loan</h2>
+                            <h2 id="comparative-analysis" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Comparative Analysis: DMP vs Debt Consolidation Loans</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Many borrowers confuse these two distinct paths. A Debt Consolidation Loan is a financial product-you take a new, large loan with a lower interest rate to pay off several smaller, high-interest debts. This is ideal if your CIBIL score is still decent (above 700) and you have a stable income. It simplifies your life into a single EMI.
                             </p>
@@ -502,7 +502,7 @@ export default function DebtAlternativesClient() {
                                 In contrast, a Debt Management Plan (DMP) is a behavioral and legal strategy. It is for those who cannot get a new loan due to high debt-to-income ratios. in a DMP, you don’t take new money; instead, an agency like SettleLoans negotiates with your existing creditors to lower interest rates or waive penalties. The DMP requires more discipline but is often the only viable path for those already in a debt spiral. Choosing between them depends entirely on your current credit standing and immediate cash flow.
                             </p>
 
-                            <h2 id="bankruptcy-guide" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Navigating Bankruptcy for Individuals: A Comprehensive Guide to IBC 2016</h2>
+                            <h2 id="bankruptcy-guide" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Individual Bankruptcy Under IBC 2016: Legal Overview</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Under the Insolvency and Bankruptcy Code (IBC) 2016, individuals in India have a structured legal path to declare insolvency. This is a "Nuclear Option" and should only be considered when all other alternatives-settlement, restructuring, and DMPs-have failed. The process involves filing an application with the National Company Law Tribunal (NCLT) or the Debt Recovery Tribunal (DRT).
                             </p>

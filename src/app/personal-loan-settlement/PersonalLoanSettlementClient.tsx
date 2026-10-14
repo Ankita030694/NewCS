@@ -324,7 +324,7 @@ export default function PersonalLoanSettlementClient() {
                                 The bank calculates the Principal Outstanding. They will almost always waive the penal interest and late fees entirely. Then, depending on your demonstrated financial hardship, they will offer a percentage discount on the principal amount itself. A 10 Lakh loan could easily be settled for 4 Lakhs or 5 Lakhs if properly negotiated. You must prove genuine inability to pay through bank statements, medical records, or termination letters.
                             </p>
 
-                            <h2 id="prepayment-reflection" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 3: How Long Does Prepayment Reflection Take in Your Loan Account?</h2>
+                            <h2 id="prepayment-reflection" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 3: Prepayment Reflection Timelines in Loan Accounts</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 One of the most common anxieties borrowers face is the delay between making the settlement payment and seeing it reflect in their loan account. You have just scraped together the settlement amount, you transferred the funds, but the bank portal still shows a massive outstanding balance. Panic sets in.
                             </p>

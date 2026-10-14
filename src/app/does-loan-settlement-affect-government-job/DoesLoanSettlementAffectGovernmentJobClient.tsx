@@ -252,7 +252,7 @@ export default function DoesLoanSettlementAffectGovernmentJobClient() {
                 <span>Resolution Pathways Matrix.</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                3. Comparative Resolution Matrix: Settlement vs. Restructuring vs. Default
+                3. Resolution Matrix: Settlement vs Restructure vs Default
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> Candidates facing loan stress have five primary relief pathways under Indian banking law: </p>
 
@@ -321,7 +321,7 @@ export default function DoesLoanSettlementAffectGovernmentJobClient() {
                 <span>CIBIL Algorithm &amp; Employment Checks.</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                4. Technical CIBIL Scoring Math: Impact on Government Job Verifications
+                4. CIBIL Scoring Math: Impact on Government Job Checks
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> Credit rating bureaus compute person scores based on five weighted parameters: Payment History (35%). Credit Exposure (30%). Credit Longevity (15%). Credit Mix (10%). Recent Inquiries (10%). </p>
 
@@ -402,7 +402,7 @@ export default function DoesLoanSettlementAffectGovernmentJobClient() {
                 <span>Step-by-Step Resolution SOP.</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                5. Standard Operating Procedure (SOP): 6 Stages to Settle Debt Before Joining
+                5. 6-Stage SOP to Settle Loan Debt Before Joining Service
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> Resolving unpaid debt as a state job candidate requires adhering to a structured 6-stage protocol to eliminate legal debts. Prevent workplace abuse. Secure full jobs clearance: </p>
 
@@ -452,7 +452,7 @@ export default function DoesLoanSettlementAffectGovernmentJobClient() {
                 <span>Statutory Notice Defense Grid.</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                6. Statutory Notice Defense &amp; Legal Protections for Government Aspirants
+                6. Statutory Notice Defense for Government Job Aspirants
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> When navigating loan default. Understanding legal legal rules ensures your civil claims never escalates during state character and antecedent checks: </p>
 
@@ -538,7 +538,7 @@ export default function DoesLoanSettlementAffectGovernmentJobClient() {
                 <span>Procedural Milestones.</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                8. Chronological Timelines &amp; Milestone Resolution Table (Day 0 to Month 6)
+                8. Resolution Timelines &amp; Milestone Table (Day 0 to Month 6)
               </h2>
 
               <div className="overflow-x-auto rounded-2xl border border-slate-200/80 bg-white shadow-xs">
@@ -594,7 +594,7 @@ export default function DoesLoanSettlementAffectGovernmentJobClient() {
                 <span>Real-World Exam Scenarios.</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                9. Specialized Scenarios: Multi-Lender Portfolios, Layoffs &amp; Education Loans
+                9. Specialized Scenarios: Multi-Lender Debts &amp; Layoffs
               </h2>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">

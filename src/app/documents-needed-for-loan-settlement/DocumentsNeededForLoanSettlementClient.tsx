@@ -263,7 +263,7 @@ export default function DocumentsNeededForLoanSettlementClient() {
                 <span>money Analytics &amp. Formulas.</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                3. Financial Hardship Calculation Math, Debt Service Burdens &amp; Haircut Analytics
+                3. Financial Hardship Calculation Math &amp; Haircut Analytics
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Stressed Asset handling boards and Credit Risk staff use mathematical solvency models to evaluate whether a OTS deals represents the maximum recoverable value compared to the cost of legal claims. </p>
 
@@ -352,7 +352,7 @@ export default function DocumentsNeededForLoanSettlementClient() {
                 <span>Standard Operating Procedure.</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                4. 6-Stage Standard Operating Procedure (SOP) for Document Dossier Compilation
+                4. 6-Stage SOP for Loan Settlement Document Compilation
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> To present an unassailable closure legal help to your bank or NBFC. Follow this rigorous sequential 6-stage standard operating steps: </p>
 
@@ -432,7 +432,7 @@ export default function DocumentsNeededForLoanSettlementClient() {
                 <span>Authoritative Legal &amp. money Narrative.</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                5. Comprehensive Guide to Structuring an Unassailable Hardship Representation
+                5. Guide to Structuring a Valid Hardship Representation
               </h2>
               
               <div className="rounded-2xl border border-slate-200 bg-white p-6 md:p-8 shadow-xs space-y-5 text-slate-700 leading-relaxed text-sm md:text-base">
@@ -555,7 +555,7 @@ export default function DocumentsNeededForLoanSettlementClient() {
                 <span>Specialized Real-World Scenarios.</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                8. Specialized Scenarios: Credit Cards, ARCs, and Digital Fintech Loan Apps
+                8. Specialized Scenarios: Cards, ARCs, and Fintech Apps
               </h2>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

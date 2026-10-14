@@ -88,11 +88,11 @@ export default function CreditCardSettlementPageClient() {
         { id: 'easy-meaning-credit-card-settlement', label: '3. Easy Meaning of Credit Card Settlement' },
         { id: 'how-credit-card-settlement-works', label: '4. How Does Credit Card Settlement Work?' },
         { id: 'how-to-do-credit-card-settlement', label: '5. How to Do Credit Card Settlement?' },
-        { id: 'credit-card-settlement-process-step-by-step', label: '6. Credit Card Settlement Process – Step by Step' },
+        { id: 'credit-card-settlement-process-step-by-step', label: '6. Credit Card Settlement Process: Step by Step' },
         { id: 'when-to-consider-settlement', label: '7. When Should You Consider Credit Card Settlement?' },
         { id: 'eligibility-credit-card-settlement', label: '8. Who Is Eligible for Credit Card Settlement?' },
         { id: 'how-much-settled-for', label: '9. How Much Can a Credit Card Be Settled For?' },
-        { id: 'settlement-amount-calculation-examples', label: '10. Credit Card Settlement Amount – Calculation and Examples' },
+        { id: 'settlement-amount-calculation-examples', label: '10. Credit Card Settlement Amount: Calculations' },
       ]
     },
     {
@@ -114,7 +114,7 @@ export default function CreditCardSettlementPageClient() {
       links: [
         { id: 'rbi-guidelines-credit-card-settlement', label: '20. RBI Guidelines for Credit Card Settlement' },
         { id: 'rbi-guidelines-recovery-agents', label: '21. RBI Guidelines for Credit Card Recovery Agents' },
-        { id: 'credit-card-default-what-happens', label: '22. Credit Card Default – What Happens If You Stop Paying?' },
+        { id: 'credit-card-default-what-happens', label: '22. Credit Card Default: Consequences of Non-Payment' },
         { id: 'legal-consequences-credit-card-default', label: '23. Legal Consequences of Credit Card Default' },
         { id: 'can-bank-take-legal-action', label: '24. Can a Bank Take Legal Action for Credit Card Debt?' },
         { id: 'settlement-after-legal-notice', label: '25. Credit Card Settlement After Receiving a Legal Notice' },
@@ -142,14 +142,14 @@ export default function CreditCardSettlementPageClient() {
         { id: 'check-settlement-status-credit-report', label: '37. How to Check Credit Card Settlement Status on Your Credit Report' },
         { id: 'correct-incorrect-bureau-reporting', label: '38. How to Correct Incorrect Credit Bureau Reporting After Settlement' },
         { id: 'common-mistakes-to-avoid', label: '39. Common Mistakes to Avoid During Credit Card Settlement' },
-        { id: 'credit-card-settlement-scams-fraud', label: '40. Credit Card Settlement Scams and Fraud – How to Stay Safe' },
+        { id: 'credit-card-settlement-scams-fraud', label: '40. Credit Card Settlement Scams: How to Stay Safe' },
         { id: 'can-you-get-loan-after-settlement', label: '41. Can You Get a Loan After Credit Card Settlement?' },
         { id: 'can-you-get-card-after-settlement', label: '42. Can You Get a Credit Card After Settlement?' },
         { id: 'how-to-rebuild-financial-profile', label: '43. How to Rebuild Your Financial Profile After Settlement' },
         { id: 'faqs-credit-card-settlement', label: '44. Frequently Asked Questions About Credit Card Settlement' },
         { id: 'professional-settlement-assistance', label: '45. Professional Credit Card Settlement Assistance' },
         { id: 'why-choose-professional-service', label: '46. Why Choose a Professional Credit Card Settlement Service?' },
-        { id: 'complete-step-by-step-guide', label: '47. Credit Card Settlement – Complete Step-by-Step Guide' },
+        { id: 'complete-step-by-step-guide', label: '47. Credit Card Settlement: Step-by-Step Guide' },
         { id: 'conclusion-credit-card-settlement', label: '48. Conclusion' },
       ]
     }
@@ -729,7 +729,7 @@ export default function CreditCardSettlementPageClient() {
                   SECTION 6
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  6. Credit Card Settlement Process – Step by Step
+                  6. Credit Card Settlement Process: Step by Step
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p> The complete bank lifecycle of an counsel-led credit card closure spans 30 to 50 days across six structured operational phases: </p>
@@ -909,7 +909,7 @@ export default function CreditCardSettlementPageClient() {
                   SECTION 10
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  10. Credit Card Settlement Amount – Calculation and Examples
+                  10. Credit Card Settlement Amount: Calculations
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p> To understand how dramatic the savings can be. Examine this authentic case illustration from CredSettle&apos. s debt relief files: </p>
@@ -1376,7 +1376,7 @@ export default function CreditCardSettlementPageClient() {
                   SECTION 22
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  22. Credit Card Default – What Happens If You Stop Paying?
+                  22. Credit Card Default: Consequences of Non-Payment
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p> If an acute money crisis compels you to halt credit card payments. The default progresses through a standardized chronological lifecycle: </p>
@@ -1840,7 +1840,7 @@ export default function CreditCardSettlementPageClient() {
                   SECTION 40
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  40. Credit Card Settlement Scams and Fraud – How to Stay Safe
+                  40. Credit Card Settlement Scams: How to Stay Safe
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p> The vulnerability of distressed cardholders makes them prime targets for fraudulent syndicates. Protect yourself against these widespread scams: </p>
@@ -2024,7 +2024,7 @@ export default function CreditCardSettlementPageClient() {
                   SECTION 47
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  47. Credit Card Settlement – Complete Step-by-Step Guide
+                  47. Credit Card Settlement: Step-by-Step Guide
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p> A quick reference summary matrix of the complete credit card debt closure roadmap: </p>

@@ -811,7 +811,7 @@ export default function LoanSettlementPageClient() {
                   CHAPTER 7
                 </div>
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-black mb-3 sm:mb-4 tracking-tight break-words">
-                  7. RBI Guidelines for Loan Recovery Agents: Calling Hours &amp; Conduct Rules
+                  7. RBI Guidelines for Recovery Agents: Calling Hours &amp; Rules
                 </h2>
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p> Under RBI Master Directions (including Circular <strong>RBI/2022-23/108</strong> and unified Fair Practices Codes). The Reserve Bank strictly regulates debt calls. Banks and NBFCs remain <strong>vicariously liable</strong> for unlawful actions taken by their outsourced claims firms. </p>

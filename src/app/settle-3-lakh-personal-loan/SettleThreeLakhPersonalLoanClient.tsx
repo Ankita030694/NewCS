@@ -263,7 +263,7 @@ export default function SettleThreeLakhPersonalLoanClient() {
                 <span>Resolution Pathways Matrix.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                3. Comparative Resolution Matrix: Settlement vs. Restructuring vs. Default
+                3. Resolution Matrix: Settlement vs Restructuring vs Default
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When confronting a defaulted ₹3 Lakh private loans in India. Clients have five primary money and legal pathways available. Each option carries distinct cash requirements. RBI timelines, and credit score results: </p>
 
@@ -332,7 +332,7 @@ export default function SettleThreeLakhPersonalLoanClient() {
                 <span>CIBIL Algorithm &amp; Scoring Math.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                4. Technical CIBIL Scoring Math: The Mathematical Impact of ₹3 Lakh Settlement
+                4. CIBIL Scoring Math: Impact of ₹3 Lakh Settlement
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Credit rating engines operated by TransUnion CIBIL. Experian. CRIF High Mark. Equifax compute individual credit scores using structured mathematical weighting across distinct credit parameters. Understanding how an active default versus a completed settlement impacts these mathematical formulas provides clear guidance for your credit rehabilitation plan: </p>
 
@@ -437,7 +437,7 @@ export default function SettleThreeLakhPersonalLoanClient() {
                 <span>Step-by-Step Resolution SOP.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                5. Standard Operating Procedure (SOP): 6 Stages to Settle a ₹3 Lakh Personal Loan
+                5. 6-Stage SOP: Settle a ₹3 Lakh Personal Loan Legally
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Executing a successful debt settlement requires adherence to a rigorous. Sequential standard operating procedure designed to eliminate illegal claims abuse and secure maximum main loan reduction: </p>
 
@@ -574,7 +574,7 @@ export default function SettleThreeLakhPersonalLoanClient() {
                 <span>Grievance Redressal.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                7. The 3-Tier Escalation Matrix for Unfair Recovery &amp; Dispute Resolution
+                7. 3-Tier Escalation Matrix for Unfair Recovery Tactics
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> If the lending bank or its external claims agents ignore your hardship submissions. Apply non-contractual penal rates. Engage in coercive claims tactics for a ₹3 Lakh loan. Escalate through this structured 3-tier hierarchy: </p>
 
@@ -627,7 +627,7 @@ export default function SettleThreeLakhPersonalLoanClient() {
                 <span>Procedural Milestones.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                8. Chronological Timelines &amp; Milestone Resolution Table (Day 0 to Month 6)
+                8. Resolution Timelines &amp; Milestone Table (Day 0 to Month 6)
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Understanding the chronological milestones of a ₹3 Lakh loan default allows you to plan your legal defense. Protect private cash flow. Execute talks when the bank&apos. s willingness to offer discounts peaks: </p>
 

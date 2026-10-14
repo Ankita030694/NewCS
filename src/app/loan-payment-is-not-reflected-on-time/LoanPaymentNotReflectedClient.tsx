@@ -290,7 +290,7 @@ export default function LoanPaymentNotReflectedClient() {
                                 When you manually initiate a transfer and the amount is debited but not credited to the loan account, the UTR number is your ultimate proof. However, if the lender is supposed to pull the money automatically via NACH and fails to do so, your bank statement proving sufficient balance is the only evidence you need to demand a complete waiver of the penalty.
                             </p>
 
-                            <h2 id="legal-rights" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-green-700 pl-6">Section 3: Your Legal Rights: Why You Shouldn't Pay for Bank Server Errors</h2>
+                            <h2 id="legal-rights" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-green-700 pl-6">Section 3: Legal Rights Against Bank Server &amp; EMI Glitches</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The Reserve Bank of India has very clear guidelines regarding technical failures in the banking sector. The burden of proof and the financial liability for a server error never falls on the consumer. The law is firmly on your side.
                             </p>

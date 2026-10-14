@@ -621,7 +621,7 @@ export default function BajajFinservPersonalLoanSettlementClient() {
                 <span>Direct Answers</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                Frequently Asked Questions About Bajaj Finserv Personal Loan Settlement
+                FAQs: Bajaj Finserv Personal Loan Settlement Guide
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Clear. Verified answers addressing the most common client questions regarding Bajaj Finance private loans deals. Waiver limits. Claims conduct. Credit rebuilding. </p>
 

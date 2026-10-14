@@ -275,7 +275,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                 <span>Critical Risk Events.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                3. What Happens When the Primary Borrower is Absconding, Bankrupt, or Deceased?
+                3. Borrower Absconding, Bankrupt, or Deceased: Guarantor Risks
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When catastrophic events impact the primary client. Guarantors often believe their debt risk vanishes. Under Indian jurisprudence, the legal outcome depends on local legal rules: </p>
 
@@ -378,7 +378,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                 <span>Comparative Legal Matrix.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                5. Status &amp; Legal Liability Comparison Grid: Borrower vs. Guarantor Scenarios
+                5. Liability Comparison Grid: Borrower vs Guarantor Scenarios
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Examine how legal debt risk. Collection avenues, asset attachment risks. And credit bureau penalties compare across distinct borrowing roles: </p>
 
@@ -528,7 +528,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                 <span>Visual Defense Roadmap.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                Visual Defense Blueprint: 6-Step Guarantor Protection &amp; Debt Resolution
+                Visual Defense Blueprint: Guarantor Protection &amp; Settlement
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Refer to this visual blueprint outlining the 6-stage procedural sequence to protect yourself as a loan guarantor, challenge unlawful bank demands. Achieve an amicable debt settlement: </p>
 
@@ -651,7 +651,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                 <span>Recovering Your Money.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                8. The Right of Subrogation (Section 140): How to Recover Money from the Borrower
+                8. Right of Subrogation (Section 140): Recovering From Borrower
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> One of the most potent legal rights available to a loan guarantor who pays or settles a defaulted debt is the. <strong>Right of Subrogation.</strong> under <strong>Section 140 of the Indian Contract Act, 1872.</strong>. </p>
 
@@ -915,7 +915,7 @@ ___________________________
                 <span>Specialized Scenarios.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                13. Specialized Real-World Scenarios: Fintech Apps, ARCs &amp; DRT Litigation
+                13. Specialized Scenarios: Fintech Apps, ARCs &amp; DRT Litigation
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Guarantor debt risk dynamics vary greatly across modern lending models and specialized legal forums: </p>
 

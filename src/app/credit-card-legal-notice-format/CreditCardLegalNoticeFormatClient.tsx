@@ -266,7 +266,7 @@ export default function CreditCardLegalNoticeFormatClient() {
                 <span>Comparative Legal Matrix.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                3. Strategic Forum Comparison: Credit Card Recovery vs. Resolution Options
+                3. Strategic Forum Comparison: Card Recovery vs Resolution
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When a credit card account defaults. Banks weigh several claims avenues. Compare how settled One-Time deals contrast with restructuring. Civil suits. hearing. Lok Adalats. And default: </p>
 
@@ -381,7 +381,7 @@ export default function CreditCardLegalNoticeFormatClient() {
                 <span>Step-by-Step Defense SOP.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                5. Standard Operating Procedure: 6 Stages of Legal Notice Defense &amp; Settlement
+                5. 6-Stage SOP: Legal Notice Defense &amp; Card Settlement
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Follow this sequential steps to protect your legal rights and settle an affordable OTS deals upon receiving a credit card demand notice: </p>
 
