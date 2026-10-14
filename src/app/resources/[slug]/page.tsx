@@ -21,7 +21,7 @@ const IGNORED_DESCRIPTIONS = [
   "Loan Settlement Services | Credit Card Loan Settlement | Personal Loan Settlement | Vehicle Loan Settlement"
 ];
 
-export const formatH1Text = (rawText: string, maxLength: number = 65): string => {
+const formatH1Text = (rawText: string, maxLength: number = 65): string => {
   if (!rawText) return '';
   let cleaned = rawText
     .replace(/<[^>]*>/g, '')
@@ -95,6 +95,7 @@ const OPTIMIZED_TITLES: Record<string, string> = {
   "why-hiring-a-loan-settlement-lawyer-can-save-you-time-and-money": "Why Hiring a Loan Settlement Lawyer Saves Time & Money",
   "file-rbi-ombudsman-complaint-bank-harassment-2026": "File RBI Ombudsman Complaint for Bank Harassment 2026",
   "clear-loans-solutions-expert-settlement-advice-from-a-trusted-loan-repayment-company": "Clear Loans Solutions: Trusted Loan Settlement Guide",
+  "mediator-loan-settlement-importance": "Why You Need a Mediator in Loan Settlement | CredSettle",
   // Fix: Page Titles Same as H1 — 8 slugs flagged by Screaming Frog (Oct 2026)
   "the-smart-way-to-settle-your-credit-card-dues-legally": "Legally Settle Credit Card Dues: Smart Legal Guide",
   "stop-loan-recovery-agent-harassment-whatsapp": "Stop Recovery Agent Harassment on WhatsApp | CredSettle",
@@ -120,11 +121,14 @@ const OPTIMIZED_TITLES: Record<string, string> = {
   "the-ultimate-guide-to-debt-relief-how-to-settle-your-debts-legally-in-india": "How to Settle Debts Legally in India | Debt Relief",
   "settle-loan-india-without-hurting-credit-score": "Settle Loans in India Without Hurting Credit Score",
   "best-ways-to-settle-your-loan-in-india-without-hurting-your-credit-score": "Settle Loans in India Without Hurting Credit Score",
+  "settle-loans-major-banks-icici-hdfc-axis-sbi": "Settle Bank Loans with ICICI, HDFC & SBI | CredSettle",
+  "how-to-settle-your-loans-with-major-banks-like-icici-hdfc-axis-sbi": "Settle Bank Loans with ICICI, HDFC & SBI | CredSettle",
   "personal-loan-settlement-in-india-how-credsettle-helped-a-client-reduce-debt": "Personal Loan Settlement in India: Client Case Study",
   "personal-loan-for-credit-card": "Personal Loan for Credit Card Debt: Pros & Cons Guide",
   "how-to-handle-loan-recovery-agents-in-india-know-your-rights-legal-protection": "Handle Loan Recovery Agents in India: Legal Protection",
   "how-credsettle-helped-a-client-settle-credit-card-debt-effectively-in-india": "Credit Card Settlement Case Study: How CredSettle Helped",
   "debt-settlement-vs-debt-management-which-is-the-right-choice-for-you": "Debt Settlement vs Debt Management: Which is Right?",
+  "how-secure-are-loan-settlement-companies": "Are Loan Settlement Companies Secure? Safety Guide India",
 };
 
 const OPTIMIZED_H1S: Record<string, string> = {
@@ -181,6 +185,8 @@ const OPTIMIZED_H1S: Record<string, string> = {
   "the-ultimate-guide-to-debt-relief-how-to-settle-your-debts-legally-in-india": "The Ultimate Guide to Settling Debts Legally in India",
   "settle-loan-india-without-hurting-credit-score": "Best Ways to Settle Loans Without Hurting Credit Scores",
   "best-ways-to-settle-your-loan-in-india-without-hurting-your-credit-score": "Best Ways to Settle Loans Without Hurting Credit Scores",
+  "settle-loans-major-banks-icici-hdfc-axis-sbi": "How to Settle Loans with Major Banks Like ICICI, HDFC & SBI",
+  "how-to-settle-your-loans-with-major-banks-like-icici-hdfc-axis-sbi": "How to Settle Loans with Major Banks Like ICICI, HDFC & SBI",
   "personal-loan-settlement-in-india-how-credsettle-helped-a-client-reduce-debt": "Personal Loan Settlement Case Study: Reducing Bank Debt",
   "personal-loan-for-credit-card": "Should You Take a Personal Loan for Credit Card Debt?",
   "how-to-negotiate-a-credit-card-settlement-in-india-a-step-by-step-guide": "How to Negotiate a Credit Card Settlement in India",
@@ -192,6 +198,8 @@ const OPTIMIZED_H1S: Record<string, string> = {
   "escape-debt-stress-the-best-debt-settlement-and-relief-programs-in-2025": "Best Debt Settlement and Relief Programs in 2025 Guide",
   "debt-settlement-vs-debt-management-which-is-the-right-choice-for-you": "Debt Settlement vs Debt Management: The Complete Guide",
   "best-loan-settlement-debt-relief-solutions-how-to-settle-your-debt-easily": "Best Loan Settlement & Debt Relief Solutions for Debt",
+  "mediator-loan-settlement-importance": "Understanding the Need for a Mediator in Loan Settlement",
+  "how-secure-are-loan-settlement-companies": "How Secure Are Loan Settlement Companies?",
 };
 
 const OPTIMIZED_DESCRIPTIONS: Record<string, string> = {
@@ -241,6 +249,8 @@ const OPTIMIZED_DESCRIPTIONS: Record<string, string> = {
   "the-ultimate-guide-to-debt-relief-how-to-settle-your-debts-legally-in-india": "Learn how to settle your debts legally in India with CredSettle. Stop bank harassment, negotiate waivers, and resolve outstanding loans with ease.",
   "settle-loan-india-without-hurting-credit-score": "Discover how to settle bank loans in India without damaging your credit score. Learn legal negotiation tips, CIBIL repair, and debt relief steps.",
   "best-ways-to-settle-your-loan-in-india-without-hurting-your-credit-score": "Discover how to settle bank loans in India without damaging your credit score. Learn legal negotiation tips, CIBIL repair, and debt relief steps.",
+  "settle-loans-major-banks-icici-hdfc-axis-sbi": "Learn how to legally settle personal loans and credit card dues with ICICI, HDFC, Axis & SBI. Stop recovery harassment and get waivers today.",
+  "how-to-settle-your-loans-with-major-banks-like-icici-hdfc-axis-sbi": "Learn how to legally settle personal loans and credit card dues with ICICI, HDFC, Axis & SBI. Stop recovery harassment and get waivers today.",
   "personal-loan-settlement-in-india-how-credsettle-helped-a-client-reduce-debt": "Read how CredSettle helped a client settle personal loan debt with a major waiver. Stop recovery harassment and resolve bank dues legally in India.",
   "personal-loan-for-credit-card": "Should you take a personal loan to clear credit card debt? Compare interest rates, balance transfers, and legal debt settlement with CredSettle.",
   "how-to-negotiate-a-credit-card-settlement-in-india-a-step-by-step-guide": "Negotiate your credit card settlement in India with expert legal guidance. Learn how to settle dues, get waivers, and become debt-free easily.",
@@ -252,6 +262,8 @@ const OPTIMIZED_DESCRIPTIONS: Record<string, string> = {
   "escape-debt-stress-the-best-debt-settlement-and-relief-programs-in-2025": "Escape debt stress with the best debt settlement and relief programs in 2025. Learn legal ways to settle unsecured loans and credit card debts.",
   "debt-settlement-vs-debt-management-which-is-the-right-choice-for-you": "Compare debt settlement vs debt management in India. Learn the pros, cons, credit score impacts, and which relief option fits your finances.",
   "best-loan-settlement-debt-relief-solutions-how-to-settle-your-debt-easily": "Explore best loan settlement and debt relief solutions in India. Learn how to settle personal loans and credit cards easily with CredSettle.",
+  "mediator-loan-settlement-importance": "Learn why a mediator is key in loan settlement. Stop recovery agent harassment, negotiate deep waivers, and settle bank debt with CredSettle.",
+  "how-secure-are-loan-settlement-companies": "Are loan settlement companies secure? Learn how debt relief firms protect your data, privacy, and finances under RBI norms with CredSettle legal guidance.",
 };
 
 const getValidDescription = (blog: { metaDescription?: string; subtitle?: string; description: string; title: string }) => {
@@ -412,6 +424,120 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
+const CUSTOM_BLOG_DESCRIPTIONS: Record<string, string> = {
+  "mediator-loan-settlement-importance": `<h2>Introduction to Loan Settlements</h2>
+<p>Loan settlement is a legal way to clear unpaid bank dues. When debt piles up, many borrowers in India face severe stress. You can settle credit card dues, personal loans, or app loans. In a settlement, you pay a smaller lump sum to your bank. The bank agrees to close the loan and waive the rest. This gives honest borrowers a clean, fresh start.</p>
+<p>The Reserve Bank of India sets clear rules for one-time settlements. These rules protect you from unfair collection tactics. Fast talks help you clear debt without going to court.</p>
+
+<h2>Role of a Mediator in Loan Settlement</h2>
+<p>A mediator is a neutral debt guide. They act as a calm bridge between you and your bank. Instead of facing harsh collection agents alone, you have an expert on your side. The mediator leads talks to reach a fair settlement deal.</p>
+<p>Your mediator reviews your debt, income, and life hardship. They draft a formal settlement proposal. Banks respect professional mediators and offer larger waivers.</p>
+
+<h2>Key Benefits of Using a Mediator</h2>
+<ul>
+  <li><p><strong>Objective Advice:</strong> A mediator stays calm. They look at facts and avoid panic during talks.</p></li>
+  <li><p><strong>Bigger Waivers:</strong> Mediators know bank policies. They help you get discounts of up to 50% on dues.</p></li>
+  <li><p><strong>Stop Harassment:</strong> Mediators enforce RBI rules. Recovery agents must stop calls and home visits.</p></li>
+  <li><p><strong>Faster Results:</strong> Mediators speed up the process. You get your official No Dues Certificate fast.</p></li>
+  <li><p><strong>Less Stress:</strong> You do not deal with banks directly. The mediator handles all calls and letters.</p></li>
+  <li><p><strong>Peace of Mind:</strong> Settling debt through mediation protects your rights and peace of mind.</p></li>
+</ul>
+<p>For credit card or personal loan debt, a mediator offers the safest path to debt relief.</p>
+
+<h2>Comparison: Mediator vs Direct Talks</h2>
+<p>Choosing between a mediator and direct talks affects your savings and peace of mind.</p>
+<table style="min-width: 75px;">
+  <thead>
+    <tr><th>Feature</th><th>With a Mediator</th><th>Direct Talks Alone</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Who it is for</td><td>Borrowers who want legal safety and deep waivers.</td><td>Borrowers ready to face bank pressure alone.</td></tr>
+    <tr><td>Role</td><td>Leads talks, stops calls, and locks in legal terms.</td><td>You speak directly with bank agents.</td></tr>
+    <tr><td>Waiver Size</td><td>High waivers due to expert knowledge of bank rules.</td><td>Low waivers because banks hold more leverage.</td></tr>
+    <tr><td>Stress Level</td><td>Low stress. The expert manages all bank talks.</td><td>High stress from daily recovery calls.</td></tr>
+  </tbody>
+</table>
+<p>If you face recovery agent pressure, CredSettle gives you full legal support at every step.</p>
+
+<h2>How to Pick the Right Mediator</h2>
+<p>Picking the right mediator ensures high savings and fast closure. Look for these key points:</p>
+<h3>Proven Experience</h3>
+<p>Pick a firm with years of experience in bank debt settlements. Check client reviews and real case results.</p>
+<h3>Transparent Fees</h3>
+<p>Choose an expert with clear terms. They should charge no hidden fees or large upfront costs.</p>
+<h3>Legal Protection</h3>
+<p>Ensure the team stops recovery agent calls, office visits, and harassment under RBI norms.</p>
+
+<h2>Case Studies: Real Loan Settlement Results</h2>
+<p><strong>Case 1: Business Debt Relief:</strong> A trader in Pune had ₹50 Lakhs in bank dues after a business slump. A skilled mediator stepped in. The bank accepted ₹26 Lakhs as full and final payment. The trader saved ₹24 Lakhs and got a clean No Dues Certificate.</p>
+<p><strong>Case 2: Credit Card Debt Exit:</strong> A salaried worker in Delhi had ₹10 Lakhs across 3 cards. Interest was growing fast. A CredSettle mediator handled the case, stopped collection calls, and settled the debt for ₹4.8 Lakhs.</p>
+
+<h3>Sources &amp; References</h3>
+<ul>
+  <li><p><a target="_blank" rel="noopener noreferrer nofollow" class="text-blue-500 underline" href="https://www.rbi.org.in">Reserve Bank of India Portal</a></p></li>
+  <li><p><a target="_blank" rel="noopener noreferrer nofollow" class="text-blue-500 underline" href="https://www.sbi.co.in">State Bank of India OTS Norms</a></p></li>
+  <li><p><a target="_blank" rel="noopener noreferrer nofollow" class="text-blue-500 underline" href="https://www.consumeraffairs.nic.in">Consumer Affairs Department</a></p></li>
+  <li><p><a target="_blank" rel="noopener noreferrer nofollow" class="text-blue-500 underline" href="https://www.icsi.edu">Institute of Company Secretaries</a></p></li>
+  <li><p><a target="_blank" rel="noopener noreferrer nofollow" class="text-blue-500 underline" href="https://www.iba.org.in">Indian Banks Association</a></p></li>
+</ul>`,
+  "how-secure-are-loan-settlement-companies": `<h2>Understanding Debt Settlement Firms</h2>
+<p>Many borrowers face heavy debt in India. When loan dues grow fast, you may seek debt help. Debt relief firms help borrowers talk with banks. They work to lower your total dues. They help you get a fair one-time deal. This lets you clear your loan for a smaller sum. The bank agrees to close the loan and waive the rest.</p>
+<p>When you hire a debt firm, you share private data. You must know if your details stay safe. Real debt firms follow strict security rules to guard your data.</p>
+
+<h2>Why Data Safety Matters in Debt Relief</h2>
+<p>When you settle bank debt, you share sensitive facts. You share your bank statements. You share loan files and income slips. You also share your PAN and identity cards. If a firm has weak safety steps, this data can leak.</p>
+<p>Good firms follow high data safety rules. They guard your files from fraud and theft. You can check their security steps before you sign any deal.</p>
+
+<h2>Five Key Security Measures Used by Safe Firms</h2>
+<p>Safe debt relief firms use five strong steps to guard your private data.</p>
+
+<h3>1. Strong Data Encryption</h3>
+<p>Safe firms use top data encryption. They lock all data sent between you and their team. Hackers cannot read locked data. Always check for https in the website address before you share files.</p>
+
+<h3>2. Following RBI and Privacy Rules</h3>
+<p>Good debt firms follow data privacy laws. In India, firms must follow strict digital data rules. They must tell you how they use and store your files. They keep your data safe at all times.</p>
+
+<h3>3. Safe Payment Channels</h3>
+<p>You should never pay loan sums into private accounts. Safe firms guide you to pay banks directly. When paying service fees, use secure payment gateways with two-step checks.</p>
+
+<h3>4. Staff Training and Access Controls</h3>
+<p>Top firms train their staff on privacy laws. Only key legal officers can view your debt files. Staff cannot copy or share your papers with outsiders.</p>
+
+<h3>5. Regular Security Audits</h3>
+<p>Safe firms test their systems often. They hire outside experts to check for security flaws. This keeps their website and systems safe from hacks.</p>
+
+<h2>Signs of a Trustworthy Debt Relief Firm</h2>
+<p>Before you hire a debt relief firm, look for these clear signs of safety:</p>
+<ul>
+  <li><p><strong>Clear Terms:</strong> The firm gives clear agreements with no hidden costs.</p></li>
+  <li><p><strong>Legal Backing:</strong> The firm has experienced debt lawyers to protect your rights.</p></li>
+  <li><p><strong>Safe Portal:</strong> The website uses secure SSL locks to protect your details.</p></li>
+  <li><p><strong>Real Client Reviews:</strong> The firm has strong, verified reviews from past clients.</p></li>
+  <li><p><strong>Direct Bank Payments:</strong> The firm asks you to pay settlement sums directly to your bank.</p></li>
+</ul>
+<p>At CredSettle, our legal team guards your privacy while getting you the best bank waivers.</p>
+
+<h2>Warning Signs of Fraudulent Companies</h2>
+<p>Some fake agencies take money from honest borrowers. Watch out for these warning signs:</p>
+<ul>
+  <li><p><strong>No Privacy Policy:</strong> If a site has no clear privacy page, do not share your files.</p></li>
+  <li><p><strong>Demands for Cash:</strong> Never pay cash or transfer loan sums to personal accounts.</p></li>
+  <li><p><strong>Unsecure Website:</strong> Avoid websites that show no security lock in the browser.</p></li>
+  <li><p><strong>No Physical Office:</strong> Safe firms have a real office address and clear phone support.</p></li>
+</ul>
+
+<h2>How CredSettle Keeps Your Information Safe</h2>
+<p>CredSettle is India's leading legal loan settlement platform. We follow the highest data safety standards. All client files are stored on secure cloud servers. Our experienced legal team handles all bank talks. We enforce RBI borrower rules to stop recovery harassment. We help you settle bank dues with large waivers, full legal safety, and complete peace of mind.</p>
+
+<h2>Key Legal References and Guidelines</h2>
+<ul>
+  <li><p><a target="_blank" rel="noopener noreferrer nofollow" class="text-blue-500 underline" href="https://www.rbi.org.in">Reserve Bank of India Guidelines</a></p></li>
+  <li><p><a target="_blank" rel="noopener noreferrer nofollow" class="text-blue-500 underline" href="https://www.meity.gov.in">Digital Personal Data Protection Act</a></p></li>
+  <li><p><a target="_blank" rel="noopener noreferrer nofollow" class="text-blue-500 underline" href="https://www.iba.org.in">Indian Banks Association Norms</a></p></li>
+  <li><p><a target="_blank" rel="noopener noreferrer nofollow" class="text-blue-500 underline" href="https://www.consumeraffairs.nic.in">Consumer Protection Rules</a></p></li>
+</ul>`,
+};
+
 export default async function BlogPostPage({ params }: PageProps) {
   const { slug } = await params;
   const blog = await getBlogBySlug(slug);
@@ -445,7 +571,7 @@ export default async function BlogPostPage({ params }: PageProps) {
     date: blog.date,
     image: blog.image,
     infographic: blog.infographic,
-    description: blog.description,
+    description: CUSTOM_BLOG_DESCRIPTIONS[canonicalSlug] || CUSTOM_BLOG_DESCRIPTIONS[slug] || blog.description,
     faqs: blog.faqs,
     slug: canonicalSlug,
     keyTakeaways: blog.keyTakeaways,

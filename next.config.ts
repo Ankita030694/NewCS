@@ -1718,6 +1718,51 @@ const nextConfig: NextConfig = {
         destination: "/credit-card-settlement/north-east-small-finance-bank",
         permanent: true,
       },
+      {
+        source: "/resources/how-to-settle-your-loans-with-major-banks-like-icici-hdfc-axis-sbi",
+        destination: "/resources/settle-loans-major-banks-icici-hdfc-axis-sbi",
+        permanent: true,
+      },
+      {
+        source: "/resources/best-ways-to-settle-your-loan-in-india-without-hurting-your-credit-score",
+        destination: "/resources/settle-loan-india-without-hurting-credit-score",
+        permanent: true,
+      },
+      {
+        source: "/resources/loan-settlement-in-india-how-to-settle-loans-smartly-with-the-right-loan-settlement-company",
+        destination: "/resources/loan-settlement-company-india",
+        permanent: true,
+      },
+      {
+        source: "/resources/the-ultimate-guide-to-loan-settlement-how-to-settle-credit-card-and-personal-loan-debt",
+        destination: "/resources/loan-settlement-guide-credit-card-personal-loan-debt",
+        permanent: true,
+      },
+      {
+        source: "/resources/recovery-agents-gone-rogue-unveiling-the-limits-they-break-and-your-rbi-backed-defences",
+        destination: "/resources/recovery-agents-rogue-rbi-backed-defences",
+        permanent: true,
+      },
+      {
+        source: "/resources/personal-loan-credit-card-debt-settlement-how-credsettle-rescued-a-client-from-harassment",
+        destination: "/resources/personal-loan-credit-card-settlement-credsettle-case-study",
+        permanent: true,
+      },
+      {
+        source: "/resources/how-loan-settlement-and-anti-harassment-services-transformed-a-client-s-life-a-real-life-success-story",
+        destination: "/resources/loan-settlement-anti-harassment-success-story",
+        permanent: true,
+      },
+      {
+        source: "/resources/how-loan-settlement-and-anti-harassment-services-transformed-a-clients-life-a-real-life-success-story",
+        destination: "/resources/loan-settlement-anti-harassment-success-story",
+        permanent: true,
+      },
+      {
+        source: "/resources/clear-loans-solutions-expert-settlement-advice-from-a-trusted-loan-repayment-company",
+        destination: "/resources/clear-loans-solutions-trusted-loan-repayment-guide",
+        permanent: true,
+      },
     ];
   },
   async headers() {

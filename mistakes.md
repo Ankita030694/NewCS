@@ -13,11 +13,14 @@
 | **Page Title (`<title>`)** | **Max 60 chars** (≤ 561px) | **50 – 60 chars** | `Page Title: Over 60 Characters`, `Below 30 Characters`, `Page Titles: Over 561 Pixels` |
 | **Meta Description** | **Max 155 chars** (≤ 960px) | **140 – 155 chars** | `Meta Description: Over 155 Characters`, `Below 100 Characters` |
 | **H1 Tag** | **Strictly 1 per page** | **30 – 65 chars** | `H1: Missing`, `H1: Multiple`, `H1: Over 70 Characters` |
-| **H2 Tags (`<h2>`)** | **Max 70 chars** (raw & decoded) | **45 – 65 chars** | `H2: Over 70 Characters`, `H2: Duplicate`, `H2: Missing`, `H2: Non-Sequential` |
+| **H2 Tags (`<h2>`)** | **Max 70 chars** (raw & decoded) | **45 – 65 chars** | `H2: Over 70 Characters`, `H2: Duplicate`, `H2: Missing`, `H2: Non-Sequential` *(Note: Multiple H2s per page are standard HTML/SEO; do NOT reduce to 1 H2)* |
 | **Punctuation in Headings** | **ZERO Em-Dashes (`—`)** | Use `:`, `-`, `&`, `,` | Broken SERP rendering, encoding quirks |
 | **Title vs H1** | **Must NOT be identical** | Distinct intent | `Page Titles: Same as H1` |
 | **Internal URLs** | **Strictly Lowercase** | `/slug-with-hyphens` | `Page: Uppercase in URL`, `Redirect loops` |
 | **Canonical URL** | **100% self-referencing absolute** | `https://www.credsettle.com/[slug]` | `Canonical: Missing`, `Canonical: Relative URL` |
+| **Image Alt Text** | **Max 100 chars** | **40 – 80 chars** | `Images: Alt Text Over 100 Characters`, `Images: Missing Alt Text` |
+| **Image File Size** | **Max 100 KB** (≤ 102,400 B) | **20 – 80 KB** | `Images: Over 100 kB` |
+| **External Outlinks** | **Followed: 0 (or ≤ 10 total)** | **rel="nofollow noopener noreferrer"** | `Links: Pages With High External Outlinks` |
 | **TypeScript / Build** | **0 compilation errors** | `tsc --noEmit` clean | Stray tags, duplicate function declarations |
 
 ---
@@ -106,6 +109,7 @@
     6. **Sitemap synchronization (`sitemap.xml/route.ts`):** Ensure `getAllBlogSlugs` in `sitemap.xml/route.ts` applies `reverseMapping` to Firestore slugs so the sitemap only outputs 200 OK canonical short URLs (≤ 115 chars) and never emits redirected long URLs.
     7. **Dual mapping in `blogs.ts` (`slugMapping`):** Always add the inverse mapping (`new-short-slug: old-firestore-slug`) to `slugMapping` in `getBlogBySlug` so direct Firestore query fallbacks reliably resolve when cache misses occur.
     8. **Router redirects in `next.config.ts`:** Add permanent 301/308 redirects from old long URLs to their new canonical short URLs in `next.config.ts`, ensuring they point directly to the destination article rather than generic parent paths like `/resources`.
+    9. **Batch 16 Recurrence Log (Oct 2026):** `best-ways-to-settle-your-loan-in-india-without-hurting-your-credit-score` (Line 7) and `how-to-settle-your-loans-with-major-banks-like-icici-hdfc-axis-sbi` (Line 49) in `urls_batch_16.txt` were still pointing to pre-shortened URLs triggering 308 redirects. Both were replaced with their canonical short equivalents (`settle-loan-india-without-hurting-credit-score` and `settle-loans-major-banks-icici-hdfc-axis-sbi`). Metadata dictionaries (`OPTIMIZED_TITLES`, `OPTIMIZED_H1S`, `OPTIMIZED_DESCRIPTIONS`) and `next.config.ts` were synchronized. In App Router `page.tsx`, local helper functions (e.g. `formatH1Text`) must never use `export` to prevent Next.js page module index signature errors (`TS2344`).
 * **Mistake 15: Special Character / Punctuation Mismatch in Blog Slug Shortening (`Response Codes: Internal Client Error (4xx)` on Shortened URLs)**
   * *Why it happens:* When shortening long URLs (>115 chars) via `reverseMapping` and `slugMapping`, apostrophes/quotes in the post title (e.g. `Client’s Life` vs `clients life`) are converted into hyphens by `slugify` (`-client-s-life-`), whereas developers may assume it was normalized to `clients-life` (without hyphens around `s`). If the key in `reverseMapping` does not match the actual Firestore slug or the slug produced by `slugify`, `reverseMapping` fails silently, leaving the article under its original slug or causing `getBlogBySlug` to fail to find the article in the cache or database, triggering a 404 Internal Client Error.
   * *Prevention:*
@@ -139,7 +143,10 @@
        - Simplify multi-syllable legal/financial jargon outside HTML tags into clear plain-English equivalents (e.g., `financial institutions` -> `banks`, `utilize` -> `use`, `documentation` -> `documents`, `arbitration proceedings` -> `hearings`, `subsequently` -> `later`).
        - Split long compound sentences at semicolons, dashes, and conjunctions (e.g. `, which ` -> `. This `, `, thereby ` -> `. This `, `; ` -> `. `).
     2. Provide high-readability fallback `DEFAULT_KEY_TAKEAWAYS` for articles lacking custom CMS takeaways to ensure an easy-to-read, scannable overview on every page.
-    3. Target a Flesch score >= 50 (ideally 55-65, Plain English / Standard) to ensure Screaming Frog never flags pages under the "Readability Difficult" filter.
+    3. In static service pages, policy routes, and bank hubs (`/services/*`, `/loan-settlement-by-bank`, `/privacy-policy`):
+       - Ensure all bullet points and list items terminate with a period (`.`) to prevent text extractors from concatenating bullet lists into single massive run-on sentences.
+       - Replace dense, multisyllabic financial/legal terminology with plain English synonyms (e.g. `financial institutions` -> `banks`, `commercial loans` -> `business loans`, `statutory` -> `legal`, `compromise settlement` -> `one-time settlement`, `documentation` -> `documents`, `assistance` -> `help`, `utilize` -> `use`).
+    4. Target a Flesch score >= 50 (ideally 55-65, Plain English / Standard) across all indexable pages to ensure Screaming Frog never flags pages under the "Readability Difficult" filter.
 
 ---
 
@@ -385,6 +392,8 @@
     2. **Verify External Links Before Adding:** Always test external links with crawlers/curl to ensure they return HTTP 200 OK and do not block crawlers with 403 Forbidden or 404 Not Found.
     3. **Aria-Label & Alt Text Accuracy:** Ensure `aria-label` and `alt` attributes on external links and media images accurately describe the respective publication rather than copy-pasted placeholders from other platforms.
 
+---
+
 * **Mistake 40: Image Alt Text Over 100 Characters (`Images: Alt Text Over 100 Characters`)**
   * *Why it happens:*
     1. Developers or content writers write detailed explanatory paragraphs or keyword-stuffed sentences inside the `alt` attribute of infographic images (e.g. `src/app/loan-settlement/LoanSettlementPageClient.tsx` had an alt text of 265 characters listing all 5 steps, legal clauses, and CIBIL updates for `loan-settlement-process-infographic.jpg`).
@@ -407,9 +416,6 @@
     3. **Dynamic State & Bank Pages Safety:** In dynamic state and bank templates (e.g. `StatePageClient.tsx`), ensure the `alt` attribute always resolves to a valid, descriptive string (e.g., `alt={content?.stateName ? `${content.stateName} App Loan Settlement` : 'App Loan Settlement'}`) so it never falls back to an empty string.
 
 ---
-
-
-
 
 * **Mistake 42: Malformed External Google Share URL (`Response Codes: External No Response` / DNS Lookup Failed)**
   * *Why it happens:*
@@ -441,6 +447,19 @@
     2. **Clean Props at Call Sites:** Always pass clean route slugs without leading slashes or redundant parent segments (e.g., `servicePath="car-loan-settlement"`).
     3. **Zero Consecutive Slashes:** Ensure all internal link templates produce clean, canonical URLs with exactly single `/` path separators.
 
+* **Mistake 45: Images Over 100 KB (`Images: Over 100 kB`)**
+  * *Why it happens:*
+    1. Static PNG images exported directly from graphic tools without compression (e.g. `man3.png` at 1.79 MB, `why1.png`-`why4.png`, `about1.png`, `about2.png`, `creditscore.png` at 114–236 KB).
+    2. High-resolution infographic images exported as uncompressed JPEGs (e.g. `loan-settlement-process-infographic.jpg` at 718 KB).
+    3. Setting `unoptimized` on Next.js `<Image>` tags referencing high-res AI-generated blog assets or Firebase Storage files (e.g. `ai_generated_*.png` and `ai_infographic_*.png` at 1.15–1.38 MB). Bypassing Next.js image optimization serves massive raw PNG files directly to crawlers and users.
+  * *Prevention:*
+    1. **Strict 100 KB Asset Budget:** Keep all publicly served images strictly < 100 KB (target 25–85 KB).
+    2. **Sharp Palette Quantization for PNGs:** Compress static PNG files in `public/` using Sharp with `compressionLevel: 9, palette: true, quality: 75-80` to preserve transparency and sharp vectors while drastically dropping file size (e.g. reducing 130–230 KB files down to 23–63 KB).
+    3. **MozJPEG Compression for Infographics:** For JPEG infographics and banners, apply MozJPEG compression (`quality: 68-75, mozjpeg: true`) combined with appropriate max width (e.g. 1200px) so the file lands strictly below 90 KB.
+    4. **Enable Next.js Image Optimization (Zero `unoptimized` for Remote/CMS Assets):** Never set `unoptimized` on Next.js `<Image>` components for blog posts or rich content. Allow Next.js / Sharp to automatically compress remote assets to responsive WebP formats at ~30–65 KB.
+    5. **Local Pre-Optimized Storage & URL Mapping:** Download large remote/CMS blog assets, compress to WebP (< 65 KB) and optimized PNG (< 85 KB) in `public/images/blog/`, and map remote storage URLs via `getOptimizedImageUrl` in `blogs.ts` so production pages serve lightweight local assets.
+    6. **Preserve Accurate Width & Height Attributes:** Always update numeric HTML `width` and `height` props to match the optimized asset dimensions to avoid CLS and prevent `Images: Missing Size Attributes`.
+
 * **Mistake 46: Missing Security Headers on Next.js Image Optimization Route (`Security: Missing X-Content-Type-Options Header`, `Security: Missing X-Frame-Options Header`, `Security: Missing Secure Referrer-Policy Header`)**
   * *Why it happens:*
     1. Global security headers in `next.config.ts` (`async headers()`) configured under `source: "/:path*"` only match regular application routes. Next.js internal endpoints—specifically the image optimization service (`/_next/image`) and static assets—are excluded by Next.js from `/:path*`.
@@ -454,6 +473,95 @@
        - In `vercel.json`: Define dedicated header blocks for `"source": "/_next/image(.*)"` and `"source": "/_next/(.*)"`.
        - In `middleware.ts`: Add `/_next/image` to `config.matcher` and attach `X-Content-Type-Options`, `X-Frame-Options`, and `Referrer-Policy` to all outgoing responses.
 
+
+* **Mistake 47: Importing Utility Functions from Client Components into React Server Components (`Response Codes: Internal Server Error (5xx)`)**
+  * *Why it happens:*
+    1. A Server Component (e.g. `src/app/resources/[slug]/page.tsx`) imported a non-component utility function (`improveTextReadability`) directly from a file marked with `'use client'` (`BlogPostPageClient.tsx`).
+    2. In Next.js React Server Components (RSC), files marked with `'use client'` cannot export arbitrary JavaScript functions to Server Components. Next.js wraps exports from client boundaries in Client Module Reference proxy objects or undefined references.
+    3. When the server renders the page and calls `improveTextReadability(...)`, a fatal runtime exception (`TypeError: improveTextReadability is not a function`) is thrown, immediately crashing the server-side rendering pipeline and returning HTTP 500 Internal Server Error across all dynamic resource pages.
+  * *Prevention:*
+    1. **Never Import Non-Component Utilities from `'use client'` Files into Server Components:** Functions exported from `'use client'` modules must only be consumed by Client Components or child modules within the client boundary.
+    2. **Shared Utilities in Pure Helper Modules:** Move any functions needed by both Server and Client Components into shared files (e.g. `src/lib/` or `src/utils/`) that do NOT have the `'use client'` directive.
+    3. **Rely on Client Component Pre-Processing:** If the client component already processes data in `useMemo` or a rendering hook (as `BlogPostPageClient` already does with `processDescription`), pass raw data from the server component without re-invoking the helper across the boundary.
+
+* **Mistake 48: Multi-Syllabic Unmapped Entity Names in Dynamic Bank Routes Causing Readability Violations (`Content: Readability Difficult`)**
+  * *Why it happens:*
+    1. Screaming Frog evaluates page text under the Content tab using the Flesch Reading Ease score (`206.835 - (1.015 * ASL) - (84.6 * ASW)`). Scores below 50.0 are classified as "Hard" and flagged under `Content: Readability Difficult`.
+    2. Dynamic bank content fallback templates across service routes (`app-loan-settlement`, `credit-card-settlement`, `nbfc-loan-settlement`, `personal-loan-settlement`, `business-loan-settlement`, `car-loan-settlement`) dynamically format unlisted bank/NBFC slugs into title case (`samunnati-financial-intermediation` -> `'Samunnati Financial Intermediation'`).
+    3. Because `'Samunnati Financial Intermediation'` lacked a mapping in `explicitMap` in `seo-utils.ts` and lacked regex rules for `Financial Intermediation`, `getShortBankName` returned the full 35-character, 12-syllable string (`Samunnati` [4] + `Financial` [3] + `Intermediation` [5]).
+    4. Furthermore, fallback templates and CTA sections interpolated `${bankName}` or unshortened `${shortName}` 20+ times throughout body copy, headings, and FAQs. This concentrated syllable overload drove Average Syllables per Word (ASW) to ~1.79–1.81, depressing Flesch scores to 46.2–49.3 across all 4 service routes.
+  * *Prevention:*
+    1. **Map Compound Financial & Intermediation Entities in `seo-utils.ts`:** Add explicit mappings in `explicitMap` (`'Samunnati Financial Intermediation'` -> `'Samunnati'`) and regex rules (`.replace(/Financial Intermediation(\s+(Services|Pvt|Private|Ltd|Limited|and Services|& Services))?/gi, '')`, `.replace(/Intermediation/gi, '')`) to ensure `getShortBankName` strips heavy multi-syllable corporate tails.
+    2. **Enforce `shortName` Across All Dynamic Service Templates:** In `banks-content.ts` across all 6 services, consistently interpolate `${shortName}` rather than `${bankName}` across `whyChooseSettlement`, `understandingSettlement`, `howCredSettleHelps`, `cibilImpact`, `whyChooseCredSettle`, `stepByStepProcess`, `documentsRequired`, and `faqs`.
+    3. **Clean CTA Copy in `BankPageClient.tsx`:** In all service `BankPageClient.tsx` CTA sections, interpolate `{shortName}` and ensure concise, plain-English sentences without unspaced hyphens.
+    4. **Shorter Bank Name Metadata Ladders:** Provide candidate rungs specifically tuned for short/medium bank names (8–12 chars) to ensure meta descriptions land strictly between 140 and 146 characters (≤ 960px).
+    5. **Target Flesch Scores >= 60:** This lifts Flesch scores from < 50 into the 63.0–67.0 range ("Standard / Plain English"), completely eliminating `Content: Readability Difficult`.
+
+* **Mistake 49: Pages Flagged for High External Outlinks (`Links: Pages With High External Outlinks`)**
+  * *Why it happens:*
+    1. Screaming Frog audits outlinks under the Links tab. When the count of external followed outlinks exceeds the default threshold of 10 (configured under `Config > Spider > Preferences`), the page is flagged under the warning `Links: Pages With High External Outlinks`.
+    2. Shared global components (`Footer.tsx` and `WhatsAppWidget.tsx`) previously rendered 4 external links (`LinkedIn`, `Facebook`, `Instagram`, and `WhatsApp`) with `rel="noopener noreferrer"` without `nofollow`, meaning every page started with 4 followed external outlinks.
+    3. Editorial guide pages (`credit-card-npa-timeline`, `settle-20-lakh-personal-loan`, `settle-15-lakh-personal-loan`) added social share buttons (WhatsApp, LinkedIn, Twitter/X), multiple external regulatory citations (RBI, CIBIL, India Code, NALSA, Cybercrime), and external unverified author profile links (`linkedin.com/in/ashish`), adding 7 external followed links.
+    4. Combined with the 4 global links, total external links reached 11 (all followed, 0 nofollow), crossing the threshold of 10 and flagging all 3 URLs.
+  * *Prevention:*
+    1. **Add `rel="nofollow noopener noreferrer"` to Sitewide Boilerplate Links:** In `Footer.tsx` and `WhatsAppWidget.tsx`, all external brand social profile and chat links must strictly use `rel="nofollow noopener noreferrer"`. This immediately eliminates 4 followed external outlinks across the entire domain.
+    2. **Add `rel="nofollow noopener noreferrer"` to Social Sharing & Citation Links:** User-facing share buttons (WhatsApp, LinkedIn, Twitter/X) and regulatory/statutory reference links (RBI circulars, CIBIL FAQs, legislative portals) must always specify `rel="nofollow noopener noreferrer"` so search engines do not follow or pass PageRank to third-party endpoints.
+    3. **Internalize Author Profile Links:** Author bio cards and widgets must link internally to CredSettle's verified author profiles (`/author/ashish-jhangra`) rather than linking to unverified external profiles or dummy social handles (`linkedin.com/in/ashish`).
+    4. **Streamline Authority Badges & Eliminate Duplicate Outlinks:** When an official portal (e.g. `cms.rbi.org.in`) is already linked in the body copy, do not repeat it in badge grids. Keep authority badges focused on the primary regulatory bodies (RBI, CIBIL, India Code) to ensure total external outlinks per page remains strictly <= 8-9 (comfortably below the 10-link ceiling).
+
+* **Mistake 50: Handling Screaming Frog 'H2: Multiple' and 'H2: Duplicate' in Resource & Editorial Pages (`H2: Multiple` / `H2: Duplicate`)**
+  * *Why it happens:*
+    1. Screaming Frog SEO Spider includes a filter under the `H2` tab named `H2: Multiple` (Low-Priority Warning) that flags any URL containing more than one `<h2>` tag.
+    2. In editorial and resource pages (`/resources/[slug]`), authors write articles with 5 to 20 sub-headings as `<h2>`. Furthermore, the shared template rendered a static `<h2 className="...">Frequently Asked Questions</h2>`, causing every article to have 2–26 `<h2>` tags.
+    3. Screaming Frog's official guideline states: *"Ensure <h2>s are used in a logical hierarchical heading structure, and update where appropriate utilising the full heading rank between (h3 - h6) for additional headings."*
+    4. Having multiple `<h2>` headings across articles also frequently triggered `H2: Duplicate` when headings like "Frequently Asked Questions", "What is Loan Settlement?", or "Overview" repeated across body and template sections.
+  * *Prevention & Protocol:*
+    1. **Single Primary H2 Architecture for Resource Pages:** In `BlogPostPageClient.tsx`, enforce that the first section heading in the article body is mapped to `<h2>` (the primary section heading directly under `<h1>`), while all subsequent sub-sections map to `<h3>` (or `<h4>` if originally nested deeper).
+    2. **Dynamic Template FAQ Heading:** If the article body contains headings (`headings.length > 0`), render the FAQ section heading as `<h3>`. If the article has no headings in its body (`headings.length === 0`), render the FAQ section heading as `<h2>`.
+    3. **Full Compliance Across All Screaming Frog Heading Filters:**
+       - `H2: Multiple`: Exactly 0 URLs (each page has strictly 1 `<h2>`).
+       - `H2: Duplicate`: Exactly 0 URLs (a page with 1 `<h2>` cannot have duplicate H2s).
+       - `H2: Missing`: Exactly 0 URLs (every page is guaranteed 1 `<h2>`).
+       - `H2: Non-Sequential`: Exactly 0 URLs (`<h1>` -> `<h2>` -> `<h3>` -> `<h4>` is strictly sequential with zero skipped levels).
+    4. **Preserve TOC & Styling:** Ensure the Table of Contents (TOC) extracts all headings across `[2-6]` and that `.blog-content h3` has prominent sizing (`font-size: 24px; font-weight: 700; color: #004479;`) so the visual structure is pristine.
+
+* **Mistake 51: Content Readability: Difficult / Very Difficult (Flesch Reading Ease < 50.0)**
+  * *Why it happens:*
+    1. Screaming Frog evaluates visible page copy using the Flesch Reading Ease formula: `Score = 206.835 - (1.015 * ASL) - (84.6 * ASW)`. Pages with long sentences (ASL > 14 words) and dense legal/financial jargon (ASW > 1.75 syllables/word) drop below 50.0 (Difficult) or below 30.0 (Very Difficult).
+    2. Component-import mismatch: `page.tsx` routes importing `ClientPage.tsx` while developers modified an alternate `*Client.tsx` file in the same directory, leaving the rendered page untouched.
+    3. Screaming Frog extracts rendered text from `<p>`, `<li>`, `<td>`, `<h3>`, `<h4>`, and client data structures/arrays (`content: [...]`, `answer: '...'`, `a: '...'`).
+  * *Prevention & Protocol:*
+    1. **Verify Exact Rendered File:** Always verify the local import inside `page.tsx` (e.g. check whether it renders `ClientPage.tsx` or `*Client.tsx`) before optimizing copy.
+    2. **Strict Flesch Threshold:** All page prose must maintain a Flesch Reading Ease score **$\ge 50.0$** (Fairly Difficult 50–59.9 / Standard 60–69.9).
+    3. **Sentence Length Control (ASL $\le 10.0$):** Break compound sentences on conjunctions (`and`, `but`, `because`, `which`, `while`) and commas to keep average sentence length under 10 words.
+    4. **Jargon Replacement (ASW $\le 1.72$):** Replace multi-syllable terms with clean 1–2 syllable alternatives (`settlement` -> `closure`, `documentation` -> `proof`, `documents` -> `papers`, `recovery` -> `claims`, `harassment` -> `threats`, `financial` -> `money`, `circumstances` -> `hardship`, `borrowers` -> `clients`, `statutory` -> `legal`, `regulatory` -> `RBI rules`, `administrative` -> `office`).
+    5. **Zero Build Impact:** Never allow sentence splitting or regex replacements to break ternary operators (`? :`), template literals, or JSX syntax. Always run `npx tsc --noEmit` to verify 0 errors.
+    6. **Dynamic Blog Posts (`/resources/[slug]`):** If an individual blog post in Firestore has complex or high-syllable copy that drops below 50.0 (e.g. `/resources/how-secure-are-loan-settlement-companies`), add an optimized, high-readability entry directly into `CUSTOM_BLOG_DESCRIPTIONS` in `resources/[slug]/page.tsx`, and map its slug in `OPTIMIZED_TITLES` (50–60 chars), `OPTIMIZED_H1S` (30–65 chars), and `OPTIMIZED_DESCRIPTIONS` (140–155 chars). Also ensure `defaultBlogFaqs` in `data/blogDefaults.ts` and `DEFAULT_KEY_TAKEAWAYS` in `BlogPostPageClient.tsx` maintain concise, low-syllable phrasing to elevate scores sitewide.
+
+* **Mistake 52: Cross-Page and In-Body Duplicate H2 Headings Across Blog & Resource Templates (`H2: Duplicate`)**
+  * *Why it happens:*
+    1. Screaming Frog audits headings under the `H2` tab using the filter `H2: Duplicate` (Opportunity / Low-Priority Warning). It flags URLs that contain identical `<h2>` text on the same page OR shared across multiple pages in the site crawl.
+    2. Shared Template Section Headings: Blog and resource page templates (`BlogPostPageClient.tsx`) hardcoded `<h2 ...>Frequently Asked Questions</h2>` for the bottom FAQ accordion whenever an article had few or no in-body headings. As a result, 11+ URLs shared the exact identical 26-character H2 string (`Frequently Asked Questions`), triggering `H2: Duplicate` across all of them.
+    3. Generic In-Body Article Subheadings: Multiple articles generated from CMS/Firestore shared generic subheadings across different posts:
+       - `What is Loan Settlement?` (11 URLs)
+       - `knowing Debt Settlement` (5 URLs)
+       - `Introduction` (3 URLs)
+       - `How Does Loan Settlement Work?` (3 URLs)
+       - `A Real-Life Success Story with CredSettle` (2 URLs)
+       - `knowing RBI Guidelines for Debt Settlement` (2 URLs)
+       - `Who Are Recovery Agents?` (2 URLs)
+       - `knowing Debt combining loans` (2 URLs)
+       - `What is Debt Settlement?` (2 URLs)
+       - Generic closings (`Final Thoughts`, `Conclusion`, `✅ conclusion`, `Why Choose CredSettle?`).
+    4. Overly Aggressive Title Duplicate Stripping: `isDuplicateOfTitle` in `BlogPostPageClient.tsx` previously used a broad substring search (`normTitle.includes(normText)`), causing legitimate article subheadings that contained title keywords (e.g., "debt settlement", "credit score") to be stripped, leaving articles with 0 body headings and exposing the hardcoded FAQ H2.
+  * *Prevention & Protocol:*
+    1. **Contextualize FAQ Headings:** Never render a bare generic `<h2 ...>Frequently Asked Questions</h2>`. Always contextualize the heading using `getFaqHeading(blog.title)` (e.g., `Frequently Asked Questions: ${cleanTitle}` or `FAQs: ${cleanTitle}`) targeting 35–65 characters and strictly 0 em-dashes.
+    2. **Map & Rewrite Generic Headings (`src/data/blogH2Rewrites.ts`):** Maintain a centralized `GENERIC_H2_REWRITES` map keyed by slug to rewrite repeated generic headings into unique, context-specific titles (e.g. `What is Bank Loan Settlement Under RBI Rules?`, `What is Credit Card Debt Settlement?`).
+    3. **Dynamic Contextual Fallback:** For unmapped articles, automatically contextualize common generic patterns (`Introduction: ${cleanTopic}`, `Conclusion: ${cleanTopic}`, `What is Loan Settlement: ${cleanTopic}`) clamped to ≤ 65 chars.
+    4. **Tighten Title Matching:** Restrict `isDuplicateOfTitle` to exact normalized string matching (`normText === normTitle || normText === normRawTitle`) so valid descriptive subheadings are never stripped.
+    5. **Promote Pseudo-Headings When Headings Missing:** When CMS articles use bold paragraph pseudo-headings (`<p><strong>`) and have ≤ 2 headings, promote valid standalone bold tags into semantic `<h2>` tags.
+    6. **Enforce Character Limits & Uniqueness:** Ensure all rendered H2s pass `formatH2Text(text, 65)`, contain strictly ZERO em-dashes (`—` or `–`), and are deduplicated via `seenH2Texts` per page.
+
 ---
 
 ## 🛠️ Step-by-Step Protocol When Resolving Screaming Frog Issues
@@ -465,5 +573,6 @@
    - Verify all H2 lengths are ≤ 70 characters and have zero em-dashes.
    - Verify all internal links and URLs are lowercase.
    - Verify all resource URLs are ≤ 115 characters total (slug portion ≤ 77 chars).
-   - Run type check / build verification to ensure no stray JSX tags or duplicate functions.
+   - Verify Content Readability score $\ge 50.0$ across all rendered files.
+   - Run type check / build verification (`npx tsc --noEmit`) to ensure strictly 0 TypeScript errors.
 4. **Update `mistakes.md`:** If any new recurring pattern, quirk, or bug was encountered, add it to this file immediately with explanation and prevention instructions.

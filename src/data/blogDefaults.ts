@@ -6,43 +6,43 @@ export interface BlogFaq {
 export const defaultBlogFaqs: BlogFaq[] = [
   {
     question: 'What is a One-Time Settlement (OTS), and how does CredSettle help me achieve it?',
-    answer: 'A One-Time Settlement (OTS) is a negotiated agreement where you pay a reduced lump sum to settle your debt. CredSettle negotiates with lenders on your behalf to secure the best possible settlement terms while ensuring RBI compliance.',
+    answer: 'A One-Time Settlement (OTS) is a formal deal with your bank. You pay a smaller lump sum to clear your loan. CredSettle speaks with your bank to get large waivers under RBI rules.',
   },
   {
     question: 'Is debt settlement legal? Does it adhere to RBI guidelines?',
-    answer: 'Yes, debt settlement is completely legal in India. CredSettle ensures all settlements are conducted in accordance with RBI guidelines and regulatory frameworks, protecting your rights throughout the process.',
+    answer: 'Yes, debt settlement is legal in India. CredSettle follows RBI rules to settle bank loans. Our legal team protects your rights at every step.',
   },
   {
     question: 'How does CredSettle stop harassment from recovery agents?',
-    answer: 'CredSettle provides legal intervention and communication services to stop harassment from recovery agents. We file formal complaints with RBI, NCH, and Cyber Police when necessary, and issue cease and desist notices to protect your rights.',
+    answer: 'CredSettle gives you full legal support to stop recovery agent harassment. We send legal notices to banks. We file formal complaints with RBI and police if agents break rules.',
   },
   {
     question: 'Will debt settlement affect my CIBIL score?',
-    answer: 'Yes, settling a debt will likely reflect as "Settled" on your credit report, which can temporarily lower your CIBIL score. However, this is often a better alternative to default or bankruptcy, and you can rebuild your score over time once you are debt-free.',
+    answer: 'A settled loan shows as Settled on your CIBIL report. This drops your credit score for a short time. However, it clears unpaid dues and stops legal risk. You can rebuild your score once you are debt-free.',
   },
   {
     question: 'Can I settle credit card debt with CredSettle?',
-    answer: 'Absolutely. Credit card debt is one of the most common types of unsecured debt we settle. We negotiate with credit card issuers to reduce the outstanding balance, often achieving significant savings.',
+    answer: 'Yes, you can settle credit card debt. We speak with card issuers to lower unpaid balances. Our clients save up to 50% on total dues.',
   },
   {
     question: 'How long does the loan settlement process take?',
-    answer: 'The duration varies based on your financial situation and the lender, but most settlements are negotiated within 3 to 12 months. We work to resolve it as quickly as possible to get you back on track.',
+    answer: 'Most loan settlements take 3 to 6 months. Timelines depend on your bank and dues. We work fast to get your debt closed.',
   },
   {
     question: 'Do I have to pay CredSettle upfront?',
-    answer: 'We typically operate on a success-fee model for strictly settlement services, meaning you pay our service fee only after we successfully negotiate a settlement for you. However, specific legal protection services may have different structures.',
+    answer: 'We charge a clear fee only when we secure your settlement. We do not charge hidden fees. Our terms are shared upfront before you start.',
   },
   {
     question: 'What happens if the bank refuses to settle?',
-    answer: 'While rare, if a bank refuses initially, our legal team escalates the matter, leveraging consumer protection laws and valid financial hardship evidence to compel them to the negotiation table.',
+    answer: 'If a bank says no at first, our legal team steps in. We show proof of your hardship. We use RBI norms to bring the bank back to talks.',
   },
   {
     question: 'Can CredSettle help with secured loans like home loans?',
-    answer: 'Our primary expertise is in unsecured debts (personal loans, credit cards). Secured loans are harder to settle because the lender has collateral. However, we can sometimes assist with restructuring or legal advice depending on the case.',
+    answer: 'We help with unsecured loans like personal loans and credit cards. For secured loans, our legal team can guide you on loan restructuring.',
   },
   {
-    question: ' Is my data safe with CredSettle?',
-    answer: 'Yes, we adhere to strict data privacy standards. Your financial information is kept confidential and is only shared with authorized parties (like your creditors) for negotiation purposes with your consent.',
+    question: 'Is my data safe with CredSettle?',
+    answer: 'Yes, your data is safe with us. We use encrypted systems to store files. We never share your data without your consent.',
   },
 ];
 

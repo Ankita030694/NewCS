@@ -10,6 +10,7 @@ import TableOfContents from '@/components/TableOfContents';
 import CTAButton from '@/components/CTAButton';
 import type { BlogFaq } from '@/data/blogDefaults';
 import { defaultBlogFaqs } from '@/data/blogDefaults';
+import { getFaqHeading, getRewrittenH2Text } from '@/data/blogH2Rewrites';
 import { addBlogReview, type Review } from '@/lib/blogs';
 import { useTransition } from 'react';
 import CompanyProfile from '@/components/CompanyProfile';
@@ -192,7 +193,7 @@ const author = {
   name: 'Ashish Jhangra',
   title: 'AMA Legal Solutions',
   image: '/credsettle-logo-black.png', // Or perhaps a placeholder for Ashish's headshot
-  bio: 'Ashish is a legal and debt resolution professional at AMA Legal Solutions, passionate about helping individuals and businesses overcome financial challenges through legal guidance, debt resolution, and financial recovery solutions.',
+  bio: 'Ashish Jhangra is a legal debt expert at AMA Legal Solutions. He helps people and businesses resolve loan disputes, stop recovery harassment, and secure fair debt settlements.',
   href: '/author/ashish-jhangra'
 };
 
@@ -377,7 +378,7 @@ const READABILITY_REPLACEMENTS: Array<[RegExp, string]> = [
   [/\boutstanding\s+loans?\b/gi, 'loans'],
   [/\bterms\s+and\s+conditions\b/gi, 'terms'],
   [/\brecovery\s+proceedings\b/gi, 'recovery steps'],
-  [/\bdispute\s+resolution\b/gi, 'settlement'],
+  [/\bdispute\s+resolution\b/gi, 'relief'],
   [/\bwritten\s+confirmation\b/gi, 'written proof'],
   [/\bstrategic\s+financial\s+move\b/gi, 'smart step'],
   [/\bcost-benefit\s+analysis\b/gi, 'quick check'],
@@ -385,6 +386,53 @@ const READABILITY_REPLACEMENTS: Array<[RegExp, string]> = [
   [/\bregulatory\s+framework\b/gi, 'RBI rules'],
   [/\bsettlement\s+program\b/gi, 'plan'],
   [/\bsettlement\s+programs\b/gi, 'plans'],
+
+  // High-frequency debt relief & company terminology
+  [/\bsettlement\s+companies\b/gi, 'closure firms'],
+  [/\bsettlement\s+company\b/gi, 'closure firm'],
+  [/\bsettlement\s+amount\b/gi, 'payout sum'],
+  [/\bsettlement\s+letter\b/gi, 'closure letter'],
+  [/\bsettlement\s+process\b/gi, 'steps'],
+  [/\bsettlement\s+offers?\b/gi, 'deals'],
+  [/\bsettlement\s+talks\b/gi, 'talks'],
+  [/\bsettlements\b/gi, 'closures'],
+  [/\bsettlement\b/gi, 'closure'],
+  [/\bcompanies\b/gi, 'firms'],
+  [/\bcompany\b/gi, 'firm'],
+  [/\bfinancial\b/gi, 'money'],
+  [/\brecovery\s+agents?\b/gi, 'agents'],
+  [/\brecovery\b/gi, 'claims'],
+  [/\bcollection\b/gi, 'calls'],
+  [/\bharassment\b/gi, 'threats'],
+  [/\bborrowers?\b/gi, 'clients'],
+  [/\bborrower\b/gi, 'client'],
+  [/\bcreditors?\b/gi, 'lenders'],
+  [/\bcreditor\b/gi, 'lender'],
+  [/\bcommercial\b/gi, 'trade'],
+  [/\bcorporate\b/gi, 'firm'],
+  [/\bprincipal\b/gi, 'main sum'],
+  [/\binterest\b/gi, 'rates'],
+  [/\bcollateral\b/gi, 'pledge'],
+  [/\bstatutory\b/gi, 'legal'],
+  [/\bregulatory\b/gi, 'RBI'],
+  [/\bconfidentiality\b/gi, 'privacy'],
+  [/\bconfidential\b/gi, 'private'],
+  [/\bunauthorized\b/gi, 'illegal'],
+  [/\bimmediately\b/gi, 'fast'],
+  [/\bimmediate\b/gi, 'fast'],
+  [/\bprotection\b/gi, 'safety'],
+  [/\bprotections\b/gi, 'safety'],
+  [/\brepayment\b/gi, 'payment'],
+  [/\brepayments\b/gi, 'payments'],
+  [/\boutstanding\b/gi, 'unpaid'],
+  [/\bobligations\b/gi, 'debts'],
+  [/\bobligations?\b/gi, 'debts'],
+  [/\bliabilities\b/gi, 'debts'],
+  [/\bliability\b/gi, 'risk'],
+  [/\binstalments?\b/gi, 'EMIs'],
+  [/\bagreements?\b/gi, 'pacts'],
+  [/\bcompromise\b/gi, 'deal'],
+  [/\bsecurity\s+measures?\b/gi, 'safety steps'],
 
   // Connectives & Transition Words (long -> short)
   [/\bapproximately\b/gi, 'about'],
@@ -417,10 +465,12 @@ const READABILITY_REPLACEMENTS: Array<[RegExp, string]> = [
   [/\bterminate\b/gi, 'end'],
   [/\bterminated\b/gi, 'ended'],
   [/\bassistance\b/gi, 'help'],
-  [/\bdocumentation\b/gi, 'documents'],
-  [/\bdocumentations\b/gi, 'documents'],
+  [/\bdocumentation\b/gi, 'proof'],
+  [/\bdocumentations\b/gi, 'proof'],
+  [/\bdocuments?\b/gi, 'papers'],
   [/\bindividuals\b/gi, 'people'],
-  [/\bcircumstances\b/gi, 'situations'],
+  [/\bcircumstances\b/gi, 'hardships'],
+  [/\bcircumstance\b/gi, 'hardship'],
   [/\brequirements\b/gi, 'rules'],
   [/\brequirement\b/gi, 'rule'],
   [/\bsufficient\b/gi, 'enough'],
@@ -552,6 +602,42 @@ const READABILITY_REPLACEMENTS: Array<[RegExp, string]> = [
   [/\bconfirmation\b/gi, 'proof'],
   [/\bconfirmations\b/gi, 'proofs'],
   [/\bavoidance\b/gi, 'avoiding'],
+  [/\bintermediary\b/gi, 'third party'],
+  [/\badjudicating\b/gi, 'deciding'],
+  [/\badjudication\b/gi, 'decision'],
+  [/\bcredibility\b/gi, 'trust'],
+  [/\bcertifications\b/gi, 'badges'],
+  [/\bcertification\b/gi, 'badge'],
+  [/\bconfrontation\b/gi, 'conflict'],
+  [/\bcollaboration\b/gi, 'teamwork'],
+  [/\bcollaborative\b/gi, 'shared'],
+  [/\bindividuals\b/gi, 'people'],
+  [/\bindividual\b/gi, 'person'],
+  [/\bfacilitates\b/gi, 'helps'],
+  [/\bfacilitating\b/gi, 'helping'],
+  [/\bfacilitate\b/gi, 'help'],
+  [/\bfacilitated\b/gi, 'helped'],
+  [/\bbeneficial\b/gi, 'helpful'],
+  [/\brelationships\b/gi, 'ties'],
+  [/\brelationship\b/gi, 'ties'],
+  [/\bsustainable\b/gi, 'lasting'],
+  [/\bsuboptimal\b/gi, 'poor'],
+  [/\bintricate\b/gi, 'complex'],
+  [/\bincessant\b/gi, 'daily'],
+  [/\bprolonged\b/gi, 'long'],
+  [/\bdemonstrating\b/gi, 'showing'],
+  [/\bdemonstrated\b/gi, 'showed'],
+  [/\bdemonstrates\b/gi, 'shows'],
+  [/\bcircumstances\b/gi, 'events'],
+  [/\bcircumstance\b/gi, 'event'],
+  [/\bunforeseen\b/gi, 'sudden'],
+  [/\bintricacies\b/gi, 'details'],
+  [/\bintricacy\b/gi, 'detail'],
+  [/\boverwhelming\b/gi, 'heavy'],
+  [/\badvantageous\b/gi, 'helpful'],
+  [/\bfavorable\b/gi, 'good'],
+  [/\bamicable\b/gi, 'peaceful'],
+  [/\bamicably\b/gi, 'fairly'],
 ];
 
 export const improveTextReadability = (html: string): string => {
@@ -570,6 +656,8 @@ export const improveTextReadability = (html: string): string => {
     // Break compound sentences at semicolons, dashes, and conjunctions
     newText = newText.replace(/;\s+([a-z])/g, (_m: string, c: string) => `. ${c.toUpperCase()}`);
     newText = newText.replace(/,\s+which\s+/gi, '. This ');
+    newText = newText.replace(/,\s+where\s+/gi, '. Here, ');
+    newText = newText.replace(/,\s+who\s+/gi, '. They ');
     newText = newText.replace(/,\s+thereby\s+([a-z])/gi, (_m: string, c: string) => `. This ${c}`);
     newText = newText.replace(/,\s+resulting\s+in\s+/gi, '. This leads to ');
     newText = newText.replace(/,\s+allowing\s+you\s+to\s+/gi, '. This allows you to ');
@@ -584,9 +672,26 @@ export const improveTextReadability = (html: string): string => {
     newText = newText.replace(/,\s+including\s+/gi, '. This includes ');
     newText = newText.replace(/,\s+such\s+as\s+/gi, '. For example, ');
     newText = newText.replace(/,\s+leading\s+to\s+/gi, '. This leads to ');
-    newText = newText.replace(/,\s+making\s+it\s+/gi, '. This makes it ');
     newText = newText.replace(/,\s+ensuring\s+that\s+/gi, '. This ensures that ');
     newText = newText.replace(/,\s+providing\s+/gi, '. This gives ');
+
+    // Split sentences on commas if segment has >= 5 words
+    const rawSents = newText.split(/(\. |\? |\! )/);
+    const sentRes: string[] = [];
+    for (let s of rawSents) {
+      if (s.split(/\s+/).length >= 5 && s.includes(',')) {
+        const parts = s.split(/,\s+/);
+        const capParts = parts.map((p: string) =>
+          p.length > 1 ? p[0].toUpperCase() + p.slice(1) : p
+        );
+        s = capParts.join('. ');
+      }
+      sentRes.push(s);
+    }
+    newText = sentRes
+      .join('')
+      .replace(/\.\s*\./g, '.')
+      .replace(/\s+/g, ' ');
 
     return prefix + newText + suffix;
   });
@@ -597,7 +702,8 @@ export const improveTextReadability = (html: string): string => {
 const processDescription = (
   html: string,
   blogTitle: string = '',
-  rawTitle: string = ''
+  rawTitle: string = '',
+  canonicalSlug: string = ''
 ): ProcessedDescriptionResult => {
   const normTitle = normalizeForComparison(blogTitle);
   const normRawTitle = normalizeForComparison(rawTitle);
@@ -607,14 +713,29 @@ const processDescription = (
     if (!normText) return false;
     return Boolean(
       (normTitle && normText === normTitle) ||
-      (normRawTitle && normText === normRawTitle) ||
-      (normTitle && normText.length > 10 && (normTitle.includes(normText) || normText.includes(normTitle))) ||
-      (normRawTitle && normText.length > 10 && (normRawTitle.includes(normText) || normText.includes(normRawTitle)))
+      (normRawTitle && normText === normRawTitle)
     );
   };
 
   // 0. Enhance content readability (simpler vocabulary and shorter sentences)
   let cleanedHtml = improveTextReadability(html);
+
+  // Promote standalone <p><strong> headings if article has <= 2 existing headings
+  const existingHCount = (cleanedHtml.match(/<h[2-6]/gi) || []).length;
+  if (existingHCount <= 2) {
+    cleanedHtml = cleanedHtml.replace(
+      /<p(?:\s[^>]*)?>\s*(?:<span[^>]*>)?\s*(?:<strong>|<b>)\s*([\s\S]*?)\s*(?:<\/strong>|<\/b>)\s*(?:<\/span>)?\s*(?:<br\s*\/?>)?\s*<\/p>/gi,
+      (match, inner) => {
+        const text = inner.replace(/<[^>]+>/g, '').trim();
+        if (text.length < 3 || text.length > 70) return match;
+        if (text.includes('. ')) return match;
+        if (text.split(/\s+/).length > 10) return match;
+        if (/^(note|disclaimer|tip|warning|source|important|please note|factor\t|definition\t):?/i.test(text)) return match;
+        if (/^(credsettle|call to action|cta):?$/i.test(text)) return match;
+        return `<h2>${inner}</h2>`;
+      }
+    );
+  }
 
   // 1. Strictly enforce single H1 on page & remove duplicate titles:
   // If an <h1> in html duplicates the blog title, remove it.
@@ -801,71 +922,16 @@ const processDescription = (
     }
   }
 
-  // Normalize heading levels so the hierarchy is strictly sequential (Fix: H2: Non-Sequential)
-  // 1. The top-level headings in the body MUST start at H2 (since page title is H1).
-  // 2. If the article was authored using only H3s or H4s, shift them so top sections become H2.
-  // 3. If H3/H4 appear before the first H2, shift those pre-H2 headings to start at H2.
-  // 4. Prevent any downward heading jumps from skipping levels (e.g. H1 -> H3 or H2 -> H4).
-  let targetLevels = rawMatches.map((h) => h.origLevel);
-
-  if (rawMatches.length > 0) {
-    const firstH2Index = rawMatches.findIndex((h) => h.origLevel === 2);
-
-    if (firstH2Index === -1) {
-      // No H2 in the entire article body
-      const minLevel = Math.min(...rawMatches.map((h) => h.origLevel));
-      const shift = minLevel - 2;
-      targetLevels = rawMatches.map((h) => Math.max(2, Math.min(6, h.origLevel - shift)));
-    } else if (firstH2Index > 0) {
-      // H2s exist later, but headings before the first H2 start at H3/H4
-      const preH2Levels = rawMatches.slice(0, firstH2Index).map((h) => h.origLevel);
-      const minPreLevel = Math.min(...preH2Levels);
-      const shift = minPreLevel - 2;
-      for (let i = 0; i < firstH2Index; i += 1) {
-        targetLevels[i] = Math.max(2, Math.min(6, rawMatches[i].origLevel - shift));
-      }
-    }
-
-    // Ensure strictly sequential descending hierarchy without skipping levels
-    let prevLevel = 1; // H1 is the page title
-    for (let i = 0; i < targetLevels.length; i += 1) {
-      let lvl = targetLevels[i];
-      if (lvl > prevLevel + 1) {
-        lvl = prevLevel + 1;
-      }
-      if (lvl < 2) {
-        lvl = 2;
-      }
-      targetLevels[i] = lvl;
-      prevLevel = lvl;
-    }
-  }
-
   const seenH2Texts = new Set<string>();
-  // Pre-seed seenH2Texts with template H2s to ensure global uniqueness on the page (Mistake 3)
-  seenH2Texts.add('frequently asked questions');
 
   const matches = rawMatches.map((item, index) => {
-    const level = targetLevels[index];
+    // Preserve natural semantic hierarchy (Mistake 50): H1 demoted to H2, H2 stays H2, H3-H6 stay H3-H6
+    const level = (item.origLevel === 1 || item.origLevel === 2) ? 2 : item.origLevel;
 
-    let id = item.text
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, '-')
-      .replace(/^-+|-+$/g, '');
-
-    if (!id) {
-      id = `heading-${index}`;
-    }
-
-    let uniqueId = id;
-    let counter = 1;
-    while (headingsList.some((heading) => heading.id === uniqueId)) {
-      uniqueId = `${id}-${counter}`;
-      counter += 1;
-    }
+    // Rewrite generic headings using slug-specific rewrites or dynamic contextual fallback
+    let displayText = getRewrittenH2Text(canonicalSlug, item.text, blogTitle);
 
     // Ensure all H2 display texts do not exceed 70 characters (target 45-65 chars) & are 100% unique (Mistake 1 & 3)
-    let displayText = item.text;
     if (level === 2) {
       if (displayText.length > 70) {
         displayText = formatH2Text(displayText, 65);
@@ -880,6 +946,22 @@ const processDescription = (
       }
       seenH2Texts.add(uniqueText.toLowerCase());
       displayText = uniqueText;
+    }
+
+    let id = displayText
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '');
+
+    if (!id) {
+      id = `heading-${index}`;
+    }
+
+    let uniqueId = id;
+    let counter = 1;
+    while (headingsList.some((heading) => heading.id === uniqueId)) {
+      uniqueId = `${id}-${counter}`;
+      counter += 1;
     }
 
     headingsList.push({ id: uniqueId, text: displayText, level });
@@ -925,11 +1007,11 @@ const PLACEHOLDER_BLUR_DATA_URL =
   'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwMCIgaGVpZ2h0PSI2NzAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjcwIiBmaWxsPSIjZWZmN2ZmIi8+PC9zdmc+';
 
 const DEFAULT_KEY_TAKEAWAYS = [
-  'You have clear legal rights under Reserve Bank of India (RBI) borrower protection rules.',
-  'Lenders and collection agencies cannot abuse, threaten, or harass you for unpaid loan dues.',
-  'A formal one-time loan settlement allows you to resolve unpaid balances for an affordable sum.',
-  'Experienced debt resolution legal advisors handle bank communications and stop harassment fast.',
-  'Once settlement is completed, your bank issues an official No Objection Certificate (NOC) closing the loan.'
+  'You have clear legal rights under RBI borrower rules.',
+  'Banks and agents cannot abuse, threaten, or harass you.',
+  'A one-time settlement lets you clear debts for a smaller sum.',
+  'Expert debt lawyers handle bank talks and stop calls fast.',
+  'After settlement, your bank issues an NOC closing the loan.'
 ];
 
 const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initialReviews }: BlogPostPageClientProps) => {
@@ -950,10 +1032,22 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
     if (!blog.description) {
       return { processedHtml: '', headings: [] };
     }
-    return processDescription(blog.description, blog.title, blog.rawTitle);
-  }, [blog.description, blog.title, blog.rawTitle]);
+    return processDescription(blog.description, blog.title, blog.rawTitle, canonicalSlug);
+  }, [blog.description, blog.title, blog.rawTitle, canonicalSlug]);
 
   const { processedHtml, headings } = processedContent;
+
+  const faqHeadingText = useMemo(() => {
+    let heading = getFaqHeading(blog.title || '');
+    if (headings.some((h) => h.text.toLowerCase() === heading.toLowerCase())) {
+      const clean = blog.title
+        .replace(/^(How to|The Ultimate Guide to|Complete Guide to|A Complete Guide to)\s+/i, '')
+        .slice(0, 35)
+        .trim();
+      heading = `Common Questions on ${clean}`.slice(0, 65).trim();
+    }
+    return heading;
+  }, [blog.title, headings]);
 
   const { part1, part2 } = useMemo(() => {
     if (!processedHtml || headings.length < 2) return { part1: processedHtml, part2: '' };
@@ -1575,7 +1669,7 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
               {faqs.length > 0 && (
                 <div className="mt-12 md:mt-16">
                   <h2 className="text-[22px] font-bold leading-tight text-[#004479] md:text-[28px] mb-6">
-                    Frequently Asked Questions
+                    {faqHeadingText}
                   </h2>
                   <div className="space-y-4">
                     {faqs.map((faq, index) => (
@@ -1702,11 +1796,11 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
         }
 
         .blog-content h3 {
-          font-size: 22px;
+          font-size: 24px;
         }
 
         .blog-content h4 {
-          font-size: 18px;
+          font-size: 20px;
         }
 
         .blog-content p {
