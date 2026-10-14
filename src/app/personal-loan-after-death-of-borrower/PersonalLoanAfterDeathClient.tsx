@@ -221,7 +221,7 @@ export default function PersonalLoanAfterDeathClient() {
                 <span>Statutory Civil Shield</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. The Section 50 &amp; 52 CPC Shield: How the Law Protects Legal Heirs
+                2. Section 50 and 52 CPC Shield: Protection for Legal Heirs
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When banks threaten to attach family assets or demand that a widow or children repay a deceased person&apos. S debt, they on purpose conceal the protective provisions of the <strong>Code of Civil Procedure, 1908 (CPC)</strong>. Sections 50 and 52 of the CPC represent an unyielding legal firewall protecting legal heirs: </p>
 

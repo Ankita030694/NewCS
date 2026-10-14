@@ -178,7 +178,7 @@ export default function DoesLoanSettlementAffectGovernmentJobClient() {
                 <span>Civil Debt Economics vs. Government Service.</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                1. Debt Economics &amp; NPA Dynamics: Civil Debt vs. Government Employment
+                1. Civil Debt Default vs Government Service Rules
               </h2>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> Thousands of competitive exam candidates across India grow retail money dues. This includes private loans. Education facilities. Coaching EMIs. Or credit card dues during intensive preparation cycles. When extended exam attempts or parental income breaks deplete liquid cash reserves. Continuing debt service becomes unviable. </p>
               <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> Under Reserve Bank of India regulations. Missed installments transition sequentially through SMA-0. SMA-1. SMA-2. Before formal Non-Performing Asset (NPA) classification at 90 days. This triggers strict Tier-1 cash bank reserves requirements on lending institutions. Because no-pledge private and education loans carry zero attachable real estate pledge under the SARFAESI Act. Banks face protracted claims timelines. Crucially. Indian jurisprudence strictly categorizes loan default as a civil breach of contract under the Indian Contract Act. 1872. It carries zero penal culpability. No police arrest power. Zero impact on character check unless fraudulent intent is involved. As a result. Credit boards routinely approve trade One-Time deals (OTS) at 40% to 55% of main loan to extinguish bad debt and release locked cash reserves. </p>
@@ -510,7 +510,7 @@ export default function DoesLoanSettlementAffectGovernmentJobClient() {
                 <span>Grievance Redressal.</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                7. The 3-Tier Escalation Matrix for Aspirants &amp; Government Employees
+                7. 3-Tier Escalation Matrix for Government Employees
               </h2>
 
               <div className="space-y-3 text-xs">

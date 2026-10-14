@@ -254,7 +254,7 @@ export default function CarLoanDefaultVehicleSeizureClient() {
                 <span>Statutory Foundations &amp; Banking Economics.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                1. Debt Economics &amp; NPA Dynamics: The Realities of Auto Loan Defaults
+                1. Debt Economics and NPA Dynamics in Auto Loan Defaults
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Auto loans in India operate under hypothecation pacts governed by the Indian Contract Act. 1872 and registered under Section 51 of the Motor cars Act. 1988. While the financier maintains a charge on the asset. The client remains the registered owner. cars are rapidly depreciating assets whose market value declines sharply each quarter. </p>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When loan installments remain unpaid. Accounts progress through RBI Special Mention Account stages: SMA-0 (1-30 days). SMA-1 (31-60 days). SMA-2 (61-90 days). Beyond 90 days past due. Loans become Non-Performing Assets (NPA). Under Basel III rules. Banks must set aside heavy cash provisions for NPAs. Because seized cars in storage yards rapidly deteriorate. Lenders have strong trade incentives to settle One-Time deals (OTS). </p>
@@ -420,7 +420,7 @@ export default function CarLoanDefaultVehicleSeizureClient() {
                 <span>Credit Bureau Architecture.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                4. Technical CIBIL Algorithm: Auto Loan Scoring Math &amp; Credit Recovery
+                4. CIBIL Algorithm: Auto Loan Scoring and Credit Rebound
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Credit bureaus calculate scores across five pillars: payment History (35%). Credit use (30%). Credit Age (15%). Credit Mix (10%). Inquiries (10%). Defaulting triggers cascading 30 to 90+ DPD notations. Lowering scores by 80 to 140 points. </p>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Executing an formal OTS updates bureau records to &quot. Settled&quot. With zero balance. Stopping recurring monthly negative marks. With an full No Dues letter. A secured credit builder card. Disciplined payments. Clients recover scores above 750 within 12 to 24 months. Erroneous reporting can be corrected under Section 21 of CICRA. 2005. </p>
@@ -458,7 +458,7 @@ export default function CarLoanDefaultVehicleSeizureClient() {
                 <span>Standard Operating Procedure.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                5. Step-by-Step SOP: 6-Stage Vehicle Protection &amp; Settlement Process
+                5. Step-by-Step SOP: 6-Stage Vehicle Settlement Process
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> CredSettle implements a structured Standard Operating steps to halt coercive claims tactics and settle straight with bank credit boards: </p>
 
@@ -719,7 +719,7 @@ export default function CarLoanDefaultVehicleSeizureClient() {
                 <span>Frequently Asked Questions.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                Frequently Asked Questions: Auto Loan Default &amp; Vehicle Repossession
+                FAQs: Auto Loan Default and Vehicle Repossession Rules
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Clear. Authoritative answers to the most critical legal and money questions surrounding car loan defaults. Repossession steps. client protections in India: </p>
 

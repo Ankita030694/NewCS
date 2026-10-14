@@ -630,11 +630,11 @@ export default function ChequeBounceClient() {
                 <p> Under the Banking rule Act. 1949. The uniform clearing house rules established by the National Payments Corporation of India (NPCI) under CTS-2010 (Cheque Truncation System) standards. The drawee bank must assign a standardized reason code on the return memo. While dishonour can arise from multiple banking conditions (such as signature mismatch. Account closed. Stop payment). Only exact categories of dishonour attract penal risk under Section 138 of the Negotiable Instruments Act. </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
                   <div className="bg-white border border-gray-300 rounded-xl p-3.5 shadow-2xs space-y-1.5">
-                    <h4 className="font-bold text-black flex items-center gap-1.5"> <span className="w-1.5 h-1.5 rounded-full bg-blue-600"></span> The Bank Return Memo </h4>
+                    <h3 className="font-bold text-black flex items-center gap-1.5"> <span className="w-1.5 h-1.5 rounded-full bg-blue-600"></span> The Bank Return Memo </h3>
                     <p className="text-black font-normal"> The valid documentary letter issued by the clearing bank stating the date of dishonour and exact bank reason code. This papers forms the primary proof cornerstone required for legal notice issuance. </p>
                   </div>
                   <div className="bg-white border border-gray-300 rounded-xl p-3.5 shadow-2xs space-y-1.5">
-                    <h4 className="font-bold text-black flex items-center gap-1.5"> <span className="w-1.5 h-1.5 rounded-full bg-emerald-600"></span> Quasi-penal Status </h4>
+                    <h3 className="font-bold text-black flex items-center gap-1.5"> <span className="w-1.5 h-1.5 rounded-full bg-emerald-600"></span> Quasi-penal Status </h3>
                     <p className="text-black font-normal"> Cheque dishonour is fundamentally a civil breach of a monetary undertaking that the legislature. Via the Banking. Public money Institutions and Negotiable Instruments Laws (Amendment) Act 1988. Elevated to a specialized crime. </p>
                   </div>
                 </div>
@@ -1638,7 +1638,7 @@ export default function ChequeBounceClient() {
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <p> Simply being listed as a Director on the Ministry of firm Affairs (MCA) portal does NOT make an individual criminally liable for a bounced firm cheque. In <em>SMS Pharmaceuticals Ltd. v. Neeta Bhalla (2005)</em> and <em>Sunita Palita v. Panchami Stone Quarry (2022)</em>The Supreme Court established the &quot. exact Averments&quot. doctrine: </p>
                 <div className="bg-slate-50 border border-slate-300 rounded-xl p-4 text-xs space-y-2 text-black">
-                  <h4 className="font-bold text-blue-950 text-sm">Rules for Discharging Independent &amp. Non-Executive Directors:</h4>
+                  <h3 className="font-bold text-blue-950 text-sm">Rules for Discharging Independent &amp; Non-Executive Directors:</h3>
                   <ul className="list-disc pl-4 space-y-1 font-normal">
                     <li>The complaint must contain <strong>clear, exact. unambiguous averments</strong> demonstrating exactly how the director was in charge of and responsible for the conduct of the firm of the company at the time of the offense.</li>
                     <li>Vague. Omnibus statements like <em>&quot. all accused are directors and responsible for company affairs&quot. </em> are by law insufficient.</li>
@@ -2177,19 +2177,19 @@ export default function ChequeBounceClient() {
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <div className="space-y-3 text-xs text-black">
                   <div className="p-3.5 bg-white border border-gray-200 rounded-xl space-y-1">
-                    <h4 className="font-bold text-black text-sm">Can I go to jail fast after a cheque bounces?</h4>
+                    <h3 className="font-bold text-black text-sm">Can I go to jail fast after a cheque bounces?</h3>
                     <p className="text-black font-normal">No. A cheque bounce is a bailable offense. Arrest cannot take place upon dishonour or notice receipt. Only prolonged refusal to attend court following formal summons can lead to warrants.</p>
                   </div>
                   <div className="p-3.5 bg-white border border-gray-200 rounded-xl space-y-1">
-                    <h4 className="font-bold text-black text-sm">Can a cheque bounce case be settled out of court?</h4>
+                    <h3 className="font-bold text-black text-sm">Can a cheque bounce case be settled out of court?</h3>
                     <p className="text-black font-normal">Yes. Under Section 147 of the NI Act. Cheque bounce cases are compoundable at any stage. You can settle through bilateral deal or in the National Lok Adalat. Leading to an fast acquittal.</p>
                   </div>
                   <div className="p-3.5 bg-white border border-gray-200 rounded-xl space-y-1">
-                    <h4 className="font-bold text-black text-sm">What happens if a bank deposits an undated security cheque given years ago?</h4>
+                    <h3 className="font-bold text-black text-sm">What happens if a bank deposits an undated security cheque given years ago?</h3>
                     <p className="text-black font-normal">Depositing an undated security cheque without reconciling accounts or giving prior default notice can be successfully defended under Supreme Court precedents including <em>Indus Airways</em> and <em>Dashrathbhai Patel</em>.</p>
                   </div>
                   <div className="p-3.5 bg-white border border-gray-200 rounded-xl space-y-1">
-                    <h4 className="font-bold text-black text-sm">Is Section 143A interim compensation mandatory?</h4>
+                    <h3 className="font-bold text-black text-sm">Is Section 143A interim compensation mandatory?</h3>
                     <p className="text-black font-normal">No. The Supreme Court in <em>Rakesh Ranjan Shrivastava (2024)</em> confirmed that Section 143A is directory. Courts cannot order 20% interim deposit mechanically without evaluating your defense and money capacity.</p>
                   </div>
                 </div>
@@ -2222,7 +2222,7 @@ export default function ChequeBounceClient() {
                   <p> A cheque bounce notice or court summons under Section 138 is not the end of the road. it is a specialized legal steps with rigorous checks and balances. The law in India demands strict proof of a by law enforceable debt. Adherence to inflexible limitation timelines. legal fairness. </p>
                 <p> Whether your case stems from an unfulfilled trade contract. A predatory cash loan claim. A misused security cheque. An overwhelming bank EMI default. You possess robust legal defenses. Do not succumb to claims threats or coercive threats. Assert your legal rights. Act decisively within legal deadlines. let experienced penal defense counsel defend your case. </p>
                 <div className="p-4 bg-gradient-to-r from-blue-900 to-indigo-950 rounded-xl text-white text-center space-y-2 mt-4 shadow-md">
-                  <h4 className="text-base font-bold text-white">Receive fast Section 138 Legal Defense</h4>
+                  <div className="text-base font-bold text-white">Receive fast Section 138 Legal Defense</div>
                   <p className="text-xs text-blue-200 max-w-xl mx-auto"> Speak straight with a senior Section 138 penal defense counsel. We draft notices. Secure instant bail. Dismantle fraudulent claims. settle Lok Adalat growing. </p>
                   <div className="pt-2">
                     <Link

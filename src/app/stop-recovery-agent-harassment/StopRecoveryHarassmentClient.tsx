@@ -564,10 +564,10 @@ export default function StopRecoveryHarassmentClient() {
                 <p className="text-sm text-black leading-relaxed font-normal"> abuse is not merely loud speech. Under Indian jurisprudence. It encompasses behavioral patterns calibrated to induce psychological panic. Dread of social ostracization. Or fear of bodily harm. Whether it occurs through digital messaging. Relentless phone calls, doorstep confrontation. Or contact with innocent third parties. Such conduct is strictly prohibited by law. </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
                   <div className="bg-white border border-gray-300 rounded-xl p-3.5 shadow-2xs space-y-1.5">
-                    <h4 className="font-bold text-black flex items-center gap-1.5">
+                    <h3 className="font-bold text-black flex items-center gap-1.5">
                       <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
                       Lawful Debt Collection
-                    </h4>
+                    </h3>
                     <ul className="text-black space-y-1 list-disc pl-4 font-normal">
                       <li>Calling strictly between 08:00 AM and 07:00 PM</li>
                       <li>Clearly identifying self. Firm. And main loan bank</li>
@@ -576,10 +576,10 @@ export default function StopRecoveryHarassmentClient() {
                     </ul>
                   </div>
                   <div className="bg-white border border-red-300 rounded-xl p-3.5 shadow-2xs space-y-1.5">
-                    <h4 className="font-bold text-red-950 flex items-center gap-1.5">
+                    <h3 className="font-bold text-red-950 flex items-center gap-1.5">
                       <span className="w-1.5 h-1.5 rounded-full bg-red-600"></span>
                       Unlawful Harassment
-                    </h4>
+                    </h3>
                     <ul className="text-black space-y-1 list-disc pl-4 font-normal">
                       <li>Calling repeatedly dozens of times daily or late at night</li>
                       <li>Using abusive, profane. derogatory language</li>
@@ -664,19 +664,19 @@ export default function StopRecoveryHarassmentClient() {
                 <p className="text-sm text-black leading-relaxed font-normal"> In practical banking lawsuits. Client abuse manifests across four distinct daily work dimensions: </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
                   <div className="p-3.5 bg-white border border-gray-300 rounded-xl shadow-2xs space-y-1">
-                    <h4 className="font-bold text-black">1. Telephonic &amp; Digital Harassment</h4>
+                    <h3 className="font-bold text-black">1. Telephonic &amp; Digital Harassment</h3>
                     <p className="text-black font-normal">Auto-dialer robo-bombardment (30. 80 calls/day). Abusive WhatsApp audio notes. Spam SMS. And international virtual VoIP spoofing.</p>
                   </div>
                   <div className="p-3.5 bg-white border border-gray-300 rounded-xl shadow-2xs space-y-1">
-                    <h4 className="font-bold text-black">2. Reputational &amp; Social Shaming</h4>
+                    <h3 className="font-bold text-black">2. Reputational &amp; Social Shaming</h3>
                     <p className="text-black font-normal">Straight calling HR handling. Leaving derogatory notices in apartment lobbies. Or creating WhatsApp client default groups.</p>
                   </div>
                   <div className="p-3.5 bg-white border border-gray-300 rounded-xl shadow-2xs space-y-1">
-                    <h4 className="font-bold text-black">3. Doorstep Physical Intimidation</h4>
+                    <h3 className="font-bold text-black">3. Doorstep Physical Intimidation</h3>
                     <p className="text-black font-normal">Unannounced residential visits by groups of aggressive people. Refusal to show IIBF credentials. Shouting outside doorways.</p>
                   </div>
                   <div className="p-3.5 bg-white border border-gray-300 rounded-xl shadow-2xs space-y-1">
-                    <h4 className="font-bold text-black">4. Legal &amp; Penal Misrepresentation</h4>
+                    <h3 className="font-bold text-black">4. Legal &amp; Penal Misrepresentation</h3>
                     <p className="text-black font-normal">Forged non-bailable arrest warrants. Fake notices from "Chief Judicial Magistrates". And threats of fast asset seizure.</p>
                   </div>
                 </div>
@@ -925,12 +925,12 @@ export default function StopRecoveryHarassmentClient() {
                 <p className="text-sm text-black leading-relaxed font-normal"> The RBI has established strict. Non-negotiable daily work hours for debt claims contacts: </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
                   <div className="bg-emerald-50 border border-emerald-300 rounded-xl p-4 space-y-1">
-                    <h4 className="font-bold text-emerald-950 text-sm">✓ Permitted Hours</h4>
+                    <h3 className="font-bold text-emerald-950 text-sm">✓ Permitted Hours</h3>
                     <p className="text-emerald-900 font-bold text-base">08:00 AM to 07:00 PM (IST)</p>
                     <p className="text-black font-normal">Calls and field visits are permissible only during this window on standard trade days.</p>
                   </div>
                   <div className="bg-red-50 border border-red-300 rounded-xl p-4 space-y-1">
-                    <h4 className="font-bold text-red-950 text-sm">✗ Prohibited Hours</h4>
+                    <h3 className="font-bold text-red-950 text-sm">✗ Prohibited Hours</h3>
                     <p className="text-red-900 font-bold text-base">Before 08:00 AM &amp. After 07:00 PM</p>
                     <p className="text-black font-normal">Calls at night, early morning. Or during family bereavements are strict RBI violations.</p>
                   </div>
@@ -1247,17 +1247,17 @@ export default function StopRecoveryHarassmentClient() {
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
                   <div className="p-3 bg-white border border-gray-300 rounded-xl space-y-1">
                     <div className="w-5 h-5 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center text-[10px]">1</div>
-                    <h4 className="font-bold text-black">Document &amp; Record</h4>
+                    <h3 className="font-bold text-black">Document &amp; Record</h3>
                     <p className="text-black font-normal">Capture audio recordings of all inbound calls. Maintain timestamped call logs. And save all abusive SMS/WhatsApp messages.</p>
                   </div>
                   <div className="p-3 bg-white border border-gray-300 rounded-xl space-y-1">
                     <div className="w-5 h-5 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center text-[10px]">2</div>
-                    <h4 className="font-bold text-black">Serve Legal Notice</h4>
+                    <h3 className="font-bold text-black">Serve Legal Notice</h3>
                     <p className="text-black font-normal">Issue a formal legal help notice through CredSettle’s lawyers citing RBI circulars and BNS provisions.</p>
                   </div>
                   <div className="p-3 bg-white border border-gray-300 rounded-xl space-y-1">
                     <div className="w-5 h-5 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center text-[10px]">3</div>
-                    <h4 className="font-bold text-black">Escalate to RBI</h4>
+                    <h3 className="font-bold text-black">Escalate to RBI</h3>
                     <p className="text-black font-normal">File an formal reports on the RBI Integrated Ombudsman portal (cms.rbi.org.in) seeking payout and firm deregistration.</p>
                   </div>
                 </div>
@@ -1682,11 +1682,11 @@ export default function StopRecoveryHarassmentClient() {
                 <p className="text-sm text-black leading-relaxed font-normal"> It is vital to distinguish between a legal guarantor and a reference: </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
                   <div className="p-3 bg-white border border-gray-300 rounded-lg space-y-1">
-                    <h4 className="font-bold text-black">Reference: Zero Liability</h4>
+                    <h3 className="font-bold text-black">Reference: Zero Liability</h3>
                     <p className="text-black font-normal">A person named on the application form for identity verification. They signed no guarantee and have zero debt to pay. Calling them for debt claims is illegal.</p>
                   </div>
                   <div className="p-3 bg-white border border-gray-300 rounded-lg space-y-1">
-                    <h4 className="font-bold text-black">Guarantor: Joint Liability</h4>
+                    <h3 className="font-bold text-black">Guarantor: Joint Liability</h3>
                     <p className="text-black font-normal">A person who executed a formal Deed of Guarantee. While co-liable under contract law. Agents must treat guarantors with the exact same dignity and fair practice codes as the primary client.</p>
                   </div>
                 </div>
@@ -1707,15 +1707,15 @@ export default function StopRecoveryHarassmentClient() {
                 </h2>
                 <div className="space-y-3 text-xs">
                   <div className="bg-white border border-gray-300 rounded-xl p-3.5 shadow-2xs space-y-1.5">
-                    <h4 className="font-bold text-black">Scenario 1: Agent creates a scene at your apartment gate</h4>
+                    <h3 className="font-bold text-black">Scenario 1: Agent creates a scene at your apartment gate</h3>
                     <p className="text-black font-normal"><strong>Action:</strong> Instruct apartment pledge to bar entry. Film the agent from your balcony or gate. Dial 112 to report public nuisance and criminal trespass. Forward the video to the Bank PNO.</p>
                   </div>
                   <div className="bg-white border border-gray-300 rounded-xl p-3.5 shadow-2xs space-y-1.5">
-                    <h4 className="font-bold text-black">Scenario 2: Tele-caller sends fake arrest warrant on WhatsApp</h4>
+                    <h3 className="font-bold text-black">Scenario 2: Tele-caller sends fake arrest warrant on WhatsApp</h3>
                     <p className="text-black font-normal"><strong>Action:</strong> Take full-screen screenshots showing the phone number. Do not delete the chat. File a cybercrime reports on cybercrime.gov.in under Section 336 BNS (forgery) and serve an lawyers notice.</p>
                   </div>
                   <div className="bg-white border border-gray-300 rounded-xl p-3.5 shadow-2xs space-y-1.5">
-                    <h4 className="font-bold text-black">Scenario 3: Agent calls your workplace reception desk</h4>
+                    <h3 className="font-bold text-black">Scenario 3: Agent calls your workplace reception desk</h3>
                     <p className="text-black font-normal"><strong>Action:</strong> Request a written record from your receptionist detailing the call timestamp and caller's records. Submit this as primary proof of criminal defamation to the Bank Ombudsman.</p>
                   </div>
                 </div>
@@ -1731,7 +1731,7 @@ export default function StopRecoveryHarassmentClient() {
                 </h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
                   <div className="bg-emerald-50 border border-emerald-300 rounded-xl p-4 space-y-2">
-                    <h4 className="font-bold text-emerald-950 text-sm">✓ DO'S</h4>
+                    <h3 className="font-bold text-emerald-950 text-sm">✓ DO'S</h3>
                     <ul className="text-black space-y-1 list-disc pl-4 font-normal">
                       <li>Record all phone calls automatically on your device.</li>
                       <li>Always ask for full agent credentials and IIBF DRA letters.</li>
@@ -1741,7 +1741,7 @@ export default function StopRecoveryHarassmentClient() {
                     </ul>
                   </div>
                   <div className="bg-red-50 border border-red-300 rounded-xl p-4 space-y-2">
-                    <h4 className="font-bold text-red-950 text-sm">✗ DON'TS</h4>
+                    <h3 className="font-bold text-red-950 text-sm">✗ DON'TS</h3>
                     <ul className="text-black space-y-1 list-disc pl-4 font-normal">
                       <li>Do not lose your temper or use abusive language back.</li>
                       <li>Do not allow field agents inside your private home.</li>
@@ -1825,35 +1825,35 @@ export default function StopRecoveryHarassmentClient() {
                   <div className="flex items-start gap-3 p-3 bg-white border border-gray-300 rounded-xl">
                     <div className="w-6 h-6 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center shrink-0">1</div>
                     <div>
-                      <h4 className="font-bold text-black">Activate Call Recording Immediately</h4>
+                      <h3 className="font-bold text-black">Activate Call Recording Immediately</h3>
                       <p className="text-black font-normal">Ensure every incoming call from unknown numbers is recorded and saved with timestamps.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3 p-3 bg-white border border-gray-300 rounded-xl">
                     <div className="w-6 h-6 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center shrink-0">2</div>
                     <div>
-                      <h4 className="font-bold text-black">Send Cease-and-Desist Email to Bank PNO</h4>
+                      <h3 className="font-bold text-black">Send Cease-and-Desist Email to Bank PNO</h3>
                       <p className="text-black font-normal">Submit a formal written objection to the main loan Nodal Officer citing local call violations.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3 p-3 bg-white border border-gray-300 rounded-xl">
                     <div className="w-6 h-6 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center shrink-0">3</div>
                     <div>
-                      <h4 className="font-bold text-black">Retain CredSettle Advocates</h4>
+                      <h3 className="font-bold text-black">Retain CredSettle Advocates</h3>
                       <p className="text-black font-normal">Authorize our legal desk to issue formal notices and handle all claims contacts.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3 p-3 bg-white border border-gray-300 rounded-xl">
                     <div className="w-6 h-6 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center shrink-0">4</div>
                     <div>
-                      <h4 className="font-bold text-black">File RBI Ombudsman Complaint</h4>
+                      <h3 className="font-bold text-black">File RBI Ombudsman Complaint</h3>
                       <p className="text-black font-normal">Escalate unresolved abuse to the central Banking Ombudsman on cms.rbi.org.in.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3 p-3 bg-white border border-gray-300 rounded-xl">
                     <div className="w-6 h-6 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center shrink-0">5</div>
                     <div>
-                      <h4 className="font-bold text-black">Negotiate Structured Settlement</h4>
+                      <h3 className="font-bold text-black">Negotiate Structured Settlement</h3>
                       <p className="text-black font-normal">Resolve underlying debt on honorable. Affordable terms with full legal No Dues certification.</p>
                     </div>
                   </div>

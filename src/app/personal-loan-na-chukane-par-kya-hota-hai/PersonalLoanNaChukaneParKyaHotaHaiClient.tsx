@@ -244,7 +244,7 @@ export default function PersonalLoanNaChukaneParKyaHotaHaiClient() {
                 <span>Financial Analysis</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Financial Breakdown: Principal vs Penal Charges &amp; Settlement Math
+                2. Principal vs Penal Charges and Loan Settlement Math
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Default ke baad clients ke account mein sabse bada distortion 24% se 36% compound penal rates aur NACH bounce fees create karti hain. Jo 6 se 12 mahine mein claim ko main sum se 25% se 40% inflate kar deti hain. </p>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> CredSettle team loan ledger ka audit karti hai taaki artificial charges ko main sum se bifurcate kiya ja sake. Banks ke <strong>Delegation of money Power (DOFP)</strong> matrices ke tehat credit boards genuine hardship mein 100% penal waiver aur 40% se 55% deal discount sanction karti hain. </p>

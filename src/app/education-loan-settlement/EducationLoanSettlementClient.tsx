@@ -572,7 +572,7 @@ export default function EducationLoanSettlementClient() {
               <div className="flex items-center gap-2 pb-2 border-b border-slate-200">
                 <AlertCircle className="w-5 h-5 text-[#1886ff]"/>
                 <h2 className="text-xl md:text-2xl font-bold text-slate-900">
-                  10. Specialized Real-World Student Debt Scenarios &amp; Case Commentary
+                  10. Real-World Student Debt Scenarios and Case Studies
                 </h2>
               </div>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Addressing local educational debt situations requires tailored legal and money relief plans. </p>

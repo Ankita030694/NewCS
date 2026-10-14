@@ -200,7 +200,7 @@ export default function CanISettleLoanBeforeNpaClient() {
               <div className="flex items-center gap-2">
                 <Percent className="w-5 h-5 text-[#1886ff]"/>
                 <h2 className="text-xl sm:text-2xl font-bold text-slate-900">
-                  2. Financial Breakdown: Principal Unbundling &amp; Pre-NPA Settlement Math
+                  2. Principal Unbundling and Pre-NPA Settlement Breakdown
                 </h2>
               </div>
 
@@ -426,7 +426,7 @@ export default function CanISettleLoanBeforeNpaClient() {
               <div className="flex items-center gap-2">
                 <Gavel className="w-5 h-5 text-[#1886ff]"/>
                 <h2 className="text-xl sm:text-2xl font-bold text-slate-900">
-                  6. Statutory Notice Defense &amp; Borrower Protections During SMA Stages
+                  6. Statutory Notice Defense and Rights During SMA Stages
                 </h2>
               </div>
 

@@ -403,7 +403,7 @@ export default function MudraLoanDefaultConsequencesClient() {
               <div className="flex items-center gap-2 pb-2 border-b border-slate-200">
                 <Gavel className="w-5 h-5 text-[#1886ff]"/>
                 <h2 className="text-xl md:text-2xl font-bold text-slate-900">
-                  7. Statutory Notice Defense &amp; Borrower Protections Under Indian Law
+                  7. Statutory Notice Defense and Rights Under Indian Law
                 </h2>
               </div>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> During Mudra defaults. Banks use local legal instruments. Understanding procedural defenses protects micro-clients from unlawful abuse and coercive claims tactics. </p>

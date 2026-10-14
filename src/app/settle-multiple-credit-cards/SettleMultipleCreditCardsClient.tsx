@@ -583,7 +583,7 @@ export default function SettleMultipleCreditCardsClient() {
             <p> Resolving multiple credit card debts requires a coordinated. Bank strategy known as <strong>Multiple Credit Card closure</strong>. Rather than falling prey to piecemeal payments that are fully absorbed by growing rates. Distressed clients can utilize the Reserve Bank of India’s prudential deal guidelines to settle structured. Discounted One-Time closures (OTS) across all their card issuers concurrently or sequentially. </p>
 
             <div className="p-4 sm:p-5 bg-blue-50/70 border-l-4 border-blue-600 rounded-r-xl">
-              <h4 className="font-bold text-black text-sm sm:text-base mb-1">key RBI Principle</h4>
+              <h3 className="font-bold text-black text-sm sm:text-base mb-1">key RBI Principle</h3>
               <p className="text-black text-xs sm:text-sm"> Under the Reserve Bank of India&apos. s <em>Master Direction. Credit Card and Debit Card. Issuance and Conduct Directions. 2022</em> and the <em>Prudential Framework for deal closures (June 2023)</em>All card-issuing banks and NBFCs must maintain transparent. Board-approved deal policies. clients in genuine money distress are by law entitled to propose deal closures to extinguish unserviceable credit card debts. </p>
             </div>
           </div>
@@ -656,22 +656,22 @@ export default function SettleMultipleCreditCardsClient() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm sm:text-base mb-1">Track 1: Delinquency &amp. NPA Maturation</h4>
+                <h3 className="font-bold text-black text-sm sm:text-base mb-1">Track 1: Delinquency &amp. NPA Maturation</h3>
                 <p className="text-xs sm:text-sm text-slate-800"> When card payments cease. The accounts progress through Days Past Due (DPD) buckets: 30 DPD (SMA-0). 60 DPD (SMA-1). 90 DPD (NPA / Sub-Standard). At 90+ DPD. The bank must provide 15% to 100% capital provisioning. Opening the door for credit board haircuts. </p>
               </div>
 
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm sm:text-base mb-1">Track 2: Stressed Debt Segregation</h4>
+                <h3 className="font-bold text-black text-sm sm:text-base mb-1">Track 2: Stressed Debt Segregation</h3>
                 <p className="text-xs sm:text-sm text-slate-800"> Each bank transfers the delinquent card file from regular customer care to internal Stressed Card Collections or external empaneled claims firms. </p>
               </div>
 
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm sm:text-base mb-1">Track 3: Legal Notice Shielding</h4>
+                <h3 className="font-bold text-black text-sm sm:text-base mb-1">Track 3: Legal Notice Shielding</h3>
                 <p className="text-xs sm:text-sm text-slate-800"> As banks issue Section 138 NI Act notices (for bounced security cheques) or Section 25 PSSA notices (for failed auto-debit mandates). Formal legal replies are served to prevent penal escalation and establish bona fide closure intent. </p>
               </div>
 
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm sm:text-base mb-1">Track 4: Bilateral Hardship Appraisal</h4>
+                <h3 className="font-bold text-black text-sm sm:text-base mb-1">Track 4: Bilateral Hardship Appraisal</h3>
                 <p className="text-xs sm:text-sm text-slate-800"> A standardized money hardship dossier is submitted to each bank&apos. S closure board. Demonstrating that uncollateralized card debt cannot be recovered via civil litigation. </p>
               </div>
             </div>
@@ -708,7 +708,7 @@ export default function SettleMultipleCreditCardsClient() {
               <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-lg">
                 <span className="flex-shrink-0 w-7 h-7 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xs">1</span>
                 <div>
-                  <h4 className="font-bold text-black text-sm">Stage 1: Multi-Card Statement Audit</h4>
+                  <h3 className="font-bold text-black text-sm">Stage 1: Multi-Card Statement Audit</h3>
                   <p className="text-slate-800 text-xs sm:text-sm">Download the last 12 months of monthly statements for every card. Segregate original purchase main sum from revolving finance charges. Annual card fees. Late charges. GST levies.</p>
                 </div>
               </div>
@@ -716,7 +716,7 @@ export default function SettleMultipleCreditCardsClient() {
               <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-lg">
                 <span className="flex-shrink-0 w-7 h-7 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xs">2</span>
                 <div>
-                  <h4 className="font-bold text-black text-sm">Stage 2: Hardship Evidence Assembly</h4>
+                  <h3 className="font-bold text-black text-sm">Stage 2: Hardship Evidence Assembly</h3>
                   <p className="text-slate-800 text-xs sm:text-sm">Compile medical diagnosis records. Hospital invoices. Employment end letters. Salary revision notices. firm loss statements into a master hardship dossier.</p>
                 </div>
               </div>
@@ -724,7 +724,7 @@ export default function SettleMultipleCreditCardsClient() {
               <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-lg">
                 <span className="flex-shrink-0 w-7 h-7 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xs">3</span>
                 <div>
-                  <h4 className="font-bold text-black text-sm">Stage 3: Creditor Risk &amp. Legal Prioritization</h4>
+                  <h3 className="font-bold text-black text-sm">Stage 3: Creditor Risk &amp. Legal Prioritization</h3>
                   <p className="text-slate-800 text-xs sm:text-sm">Rank cards based on legal aggressiveness: prioritize cards with active Section 138 / Section 25 PSSA notices or accounts tied to your primary operating accounts.</p>
                 </div>
               </div>
@@ -732,7 +732,7 @@ export default function SettleMultipleCreditCardsClient() {
               <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-lg">
                 <span className="flex-shrink-0 w-7 h-7 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xs">4</span>
                 <div>
-                  <h4 className="font-bold text-black text-sm">Stage 4: Formal OTS Proposal Dispatch</h4>
+                  <h3 className="font-bold text-black text-sm">Stage 4: Formal OTS Proposal Dispatch</h3>
                   <p className="text-slate-800 text-xs sm:text-sm">Dispatch written deal closure letters to each bank&apos. s Card closure Cell via registered post AD and valid grievance email.</p>
                 </div>
               </div>
@@ -740,7 +740,7 @@ export default function SettleMultipleCreditCardsClient() {
               <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-lg">
                 <span className="flex-shrink-0 w-7 h-7 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xs">5</span>
                 <div>
-                  <h4 className="font-bold text-black text-sm">Stage 5: board Bargaining &amp. Haircut Locking</h4>
+                  <h3 className="font-bold text-black text-sm">Stage 5: board Bargaining &amp. Haircut Locking</h3>
                   <p className="text-slate-800 text-xs sm:text-sm">Engage the Credit closure Advisory board. Countering high starting quotes with documented proof of insolvency. Securing 100% penal waivers and 45%. 60% main sum haircuts.</p>
                 </div>
               </div>
@@ -748,7 +748,7 @@ export default function SettleMultipleCreditCardsClient() {
               <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-lg">
                 <span className="flex-shrink-0 w-7 h-7 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xs">6</span>
                 <div>
-                  <h4 className="font-bold text-black text-sm">Stage 6: Sanction Letter Legal Audit &amp. Direct wire transfer</h4>
+                  <h3 className="font-bold text-black text-sm">Stage 6: Sanction Letter Legal Audit &amp. Direct wire transfer</h3>
                   <p className="text-slate-800 text-xs sm:text-sm">Scrutinize the valid OTS letter for full release covenants before paying the agreed closure sum straight into your 16-digit credit card number via NEFT/RTGS.</p>
                 </div>
               </div>
@@ -756,7 +756,7 @@ export default function SettleMultipleCreditCardsClient() {
               <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-lg">
                 <span className="flex-shrink-0 w-7 h-7 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xs">7</span>
                 <div>
-                  <h4 className="font-bold text-black text-sm">Stage 7: NDC calls &amp. desk Status Verification</h4>
+                  <h3 className="font-bold text-black text-sm">Stage 7: NDC calls &amp. desk Status Verification</h3>
                   <p className="text-slate-800 text-xs sm:text-sm">Obtain the unconditional No-Dues letter. Confirm permanent card cancellation. check that the account is reported as &quot. Settled&quot. with ₹0 balance across all credit bureaus within 45 days.</p>
                 </div>
               </div>
@@ -1219,12 +1219,12 @@ export default function SettleMultipleCreditCardsClient() {
             <p> Comparing full payment versus deal closure: </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm mb-1">Full payment</h4>
+                <h3 className="font-bold text-black text-sm mb-1">Full payment</h3>
                 <p className="text-xs sm:text-sm text-slate-800 leading-relaxed"> Requires paying 100% of the growing 45%+ APR balance. Accounts reflect &quot. Closed&quot. Status on credit bureaus. Preserving your CIBIL score. Yet. For an insolvent clients. This is mathematically impossible and leads to bankruptcy. </p>
               </div>
 
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm mb-1">Multiple Card closure</h4>
+                <h3 className="font-bold text-black text-sm mb-1">Multiple Card closure</h3>
                 <p className="text-xs sm:text-sm text-slate-800 leading-relaxed"> Permanently extinguishes debt with 60%. 75% discounts. Accounts reflect &quot. Settled&quot. Status on credit bureaus. Temporarily lowering credit scores. Instantly frees the clients from legal risk. Calls. insolvency. </p>
               </div>
             </div>
@@ -1390,12 +1390,12 @@ export default function SettleMultipleCreditCardsClient() {
             <p> Credit card closures in India operate under thorough central bank rules. Primarily codified in two landmark RBI frameworks: </p>
             <div className="space-y-3 my-4">
               <div className="p-4 bg-blue-50/70 border-l-4 border-blue-600 rounded-r-xl">
-                <h4 className="font-bold text-black text-sm sm:text-base mb-1"> 1. RBI Master Direction. Credit Card and Debit Card. Issuance and Conduct Directions. 2022 </h4>
+                <h3 className="font-bold text-black text-sm sm:text-base mb-1"> 1. RBI Master Direction. Credit Card and Debit Card. Issuance and Conduct Directions. 2022 </h3>
                 <p className="text-xs sm:text-sm text-black"> Mandates strict transparency in rates rate disclosures. Explicitly prohibits negative amortization. Requires banks to provide clear. Standardized procedures for resolving disputed transactions and distressed card accounts. </p>
               </div>
 
               <div className="p-4 bg-blue-50/70 border-l-4 border-blue-600 rounded-r-xl">
-                <h4 className="font-bold text-black text-sm sm:text-base mb-1"> 2. RBI Prudential Framework for deal closures (June 8. 2023) </h4>
+                <h3 className="font-bold text-black text-sm sm:text-base mb-1"> 2. RBI Prudential Framework for deal closures (June 8. 2023) </h3>
                 <p className="text-xs sm:text-sm text-black"> Directs all regulated trade banks and NBFCs to establish non-discriminatory. Board-approved policies governing deal closures for all retail clients. Establish transparent delegation of powers. institute a standardized cooling-off period of at least 12 months before considering fresh credit. </p>
               </div>
             </div>
@@ -1539,7 +1539,7 @@ export default function SettleMultipleCreditCardsClient() {
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p> Every Indian citizen possesses constitutionally and RBI protected rights against abusive debt claims: </p>
             <div className="p-4 sm:p-5 bg-amber-50/80 border-l-4 border-amber-600 rounded-r-xl my-4 space-y-2">
-              <h4 className="font-bold text-black text-sm sm:text-base">legal safety for Defaulting Cardholders</h4>
+              <h3 className="font-bold text-black text-sm sm:text-base">legal safety for Defaulting Cardholders</h3>
               <ul className="list-disc pl-5 space-y-1 text-xs sm:text-sm text-black">
                 <li><strong>Right to Privacy:</strong> Calling third parties or visiting neighbors violates Article 21 of the Constitution and RBI Master Directions.</li>
                 <li><strong>Right to Escalate:</strong> You can file formal complaints with the Bank main sum Nodal head (PNO) and the <strong>RBI Integrated RBI officer</strong> (cms.rbi.org.in). which regularly fines banks for agent misconduct.</li>
@@ -1736,7 +1736,7 @@ export default function SettleMultipleCreditCardsClient() {
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p> Counterfeit closure letters issued by corrupt calls agents are rampant in multi-card default scenarios. Before paying a single rupee to any bank. Check this 5-point authentication protocol: </p>
             <div className="p-4 sm:p-5 bg-amber-50/80 border-l-4 border-amber-600 rounded-r-xl my-4 space-y-2">
-              <h4 className="font-bold text-black text-sm sm:text-base">Multi-Bank Sanction Letter Verification Checklist</h4>
+              <h3 className="font-bold text-black text-sm sm:text-base">Multi-Bank Sanction Letter Verification Checklist</h3>
               <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-black">
                 <li><strong>valid Bank Stationery:</strong> Must be printed on authentic firm letterhead showing registered office details. CIN. valid logo.</li>
                 <li><strong>Unique Dispatch Number:</strong> Must carry a traceable reference or dispatch number logged in the bank&apos. s CBS intranet.</li>
@@ -1872,19 +1872,19 @@ export default function SettleMultipleCreditCardsClient() {
             <p> Navigating multi-bank credit card debt without bank guidance exposes clients to key errors: </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm mb-1 text-red-600">Mistake 1: Paying Partial Tokens on Verbal Promises</h4>
+                <h3 className="font-bold text-black text-sm mb-1 text-red-600">Mistake 1: Paying Partial Tokens on Verbal Promises</h3>
                 <p className="text-xs text-slate-800">Never deposit money because an firm caller promises over the phone that &quot. Paying ₹25,000 will settle the card.&quot. The bank ledger will absorb that money as normal rates and demand the full balance next month.</p>
               </div>
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm mb-1 text-red-600">Mistake 2: Missing Staggered Deadlines</h4>
+                <h3 className="font-bold text-black text-sm mb-1 text-red-600">Mistake 2: Missing Staggered Deadlines</h3>
                 <p className="text-xs text-slate-800">Missing an agreed payment due date on an OTS letter cancels the closure automatically. Forfeiting all granted waivers.</p>
               </div>
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm mb-1 text-red-600">Mistake 3: Leaving Salary Accounts Exposed</h4>
+                <h3 className="font-bold text-black text-sm mb-1 text-red-600">Mistake 3: Leaving Salary Accounts Exposed</h3>
                 <p className="text-xs text-slate-800">Failing to shift your salary account away from a card-issuing bank allows that bank to freeze and drain your monthly wages under banker&apos. s lien.</p>
               </div>
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm mb-1 text-red-600">Mistake 4: Not Collecting No-Dues letters</h4>
+                <h3 className="font-bold text-black text-sm mb-1 text-red-600">Mistake 4: Not Collecting No-Dues letters</h3>
                 <p className="text-xs text-slate-800">Assuming payment alone closes the account without collecting real NDCs leaves you vulnerable to future calls demands if portfolios are assigned to ARCs.</p>
               </div>
             </div>
@@ -1900,7 +1900,7 @@ export default function SettleMultipleCreditCardsClient() {
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p> Distressed multi-card debtors are targeted by predatory syndicates. Protect yourself against these widespread fraudulent patterns: </p>
             <div className="p-4 sm:p-5 bg-red-50/80 border-l-4 border-red-600 rounded-r-xl my-4 space-y-2">
-              <h4 className="font-bold text-black text-sm sm:text-base">Major Multi-Card Fraud Warning Signs:</h4>
+              <h3 className="font-bold text-black text-sm sm:text-base">Major Multi-Card Fraud Warning Signs:</h3>
               <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-black">
                 <li><strong>The &quot. Guaranteed CIBIL Erase&quot. Scam:</strong> Fraudulent consultants claiming they can erase all default records from CIBIL database for an upfront fee. Under CICRA 2005. Credit desk entries are algorithmically logged and cannot be manually deleted.</li>
                 <li><strong>Forged WhatsApp Sanction Letters:</strong> Bogus agents sending fake PDF letters with forged bank logos and directing closure payments to third-party firm UPI IDs.</li>

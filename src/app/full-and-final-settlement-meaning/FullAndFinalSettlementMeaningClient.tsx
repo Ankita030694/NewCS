@@ -173,7 +173,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                 <span>Banking Jurisprudence &amp; Terminology.</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                1. Legal Definition &amp; Banking Taxonomy of a Full and Final Settlement
+                1. Legal Definition and Taxonomy of Full & Final Settlement
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> In Indian banking jurisprudence, the phrase. <strong>&quot. Full and Final Settlement&quot. (F&amp. F Settlement).</strong> refers to a formal OTS deal pacts entered into between a distressed client and a regulated lending institution (Scheduled banks, NBFC, Housing Finance Company. Asset Reconstruction Company). Under this accord, the lender formally agrees to accept an amount lower than the total contractually unpaid debt risk (which encompasses unpaid main loan. Accrued regular interest, penal interest, late fees. Legal charges) in complete and absolute discharge of the underlying loan contract. </p>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> clients often conflate different loan closure states. To understand where a Full and Final Settlement sits within the banking spectrum. Examine the five distinct legal states of loan relief in India: </p>
@@ -347,7 +347,7 @@ export default function FullAndFinalSettlementMeaningClient() {
                 <span>Underwriting Algorithms &amp; Score Dynamics.</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                4. Credit Scoring Math: How an F&amp;F Settlement Impacts Your CIBIL Score
+                4. Credit Scoring Math: How Settlement Impacts Your CIBIL
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Credit Information Companies (CIBIL, Experian. Equifax, CRIF) calculate your credit score between 300 and 900 based on weighted multivariate mathematical models. Understanding how a full and final settlement interacts with each component of the scoring algorithm is vital: </p>
 

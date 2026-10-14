@@ -319,7 +319,7 @@ export default function StopCreditCardRecoveryCallsClient() {
                 <span>Visual Defense Roadmap.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                Visual Defense Blueprint: Anti-Harassment &amp; Settlement Architecture
+                Anti-Harassment Defense and Settlement Architecture
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Refer to this visual blueprint outlining legal calling limits. Evidence calls protocols. 3-tier grievance escalation channels. deal closure workflows: </p>
 

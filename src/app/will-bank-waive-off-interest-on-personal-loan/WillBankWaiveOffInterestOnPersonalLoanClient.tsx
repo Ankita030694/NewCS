@@ -184,7 +184,7 @@ export default function WillBankWaiveOffInterestOnPersonalLoanClient() {
               <div className="flex items-center gap-2">
                 <Landmark className="w-5 h-5 text-[#1886ff]"/>
                 <h2 className="text-xl sm:text-2xl font-bold text-slate-900">
-                  1. Debt Economics &amp; NPA Dynamics: Why Banks Agree to Waive Interest
+                  1. Debt Economics and NPA Rules: Why Banks Waive Interest
                 </h2>
               </div>
 
@@ -200,7 +200,7 @@ export default function WillBankWaiveOffInterestOnPersonalLoanClient() {
               <div className="flex items-center gap-2">
                 <Percent className="w-5 h-5 text-[#1886ff]"/>
                 <h2 className="text-xl sm:text-2xl font-bold text-slate-900">
-                  2. Financial Breakdown: Unbundling Penal Inflation &amp; Settlement Math
+                  2. Financial Breakdown: Penal Charges and Settlement Math
                 </h2>
               </div>
 
@@ -259,7 +259,7 @@ export default function WillBankWaiveOffInterestOnPersonalLoanClient() {
               <div className="flex items-center gap-2">
                 <Scale className="w-5 h-5 text-[#1886ff]"/>
                 <h2 className="text-xl sm:text-2xl font-bold text-slate-900">
-                  3. Resolution Matrix: Comparing Interest Waiver &amp; Settlement Pathways
+                  3. Resolution Matrix: Comparing Interest Waiver Pathways
                 </h2>
               </div>
 

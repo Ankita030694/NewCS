@@ -635,7 +635,7 @@ export default function CreditCardLegalNoticeFormatClient() {
                 <span>Specialized Scenarios.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                9. Specialized Scenarios: Multi-Card Debt, Layoffs &amp; ARC Assignments
+                9. Scenarios: Multi-Card Debt, Layoffs and ARC Demands
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Legal notice response plans must adapt to distinct money. Daily work. bank situation: </p>
 

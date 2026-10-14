@@ -538,7 +538,7 @@ export default function NBFCLoanSettlementPageClient() {
             <p> When equated monthly installments (EMIs) become permanently unsustainable. Indian trade banking law and the Reserve Bank of India’s RBI frameworks provide a structured. Legitimate exit route: <strong>NBFC Loan closure</strong>. Through a by law executed one-time closure. A distressed clients can settle their unpaid debt for a discounted lump sum. Eliminate secondary fines. Stop third-party threats. obtain an unconditional No-Dues letter (NDC). </p>
 
             <div className="p-4 sm:p-5 bg-blue-50/70 border-l-4 border-blue-600 rounded-r-xl">
-              <h4 className="font-bold text-black text-sm sm:text-base mb-1">Key RBI safety</h4>
+              <h3 className="font-bold text-black text-sm sm:text-base mb-1">Key RBI safety</h3>
               <p className="text-black text-xs sm:text-sm"> Under the Reserve Bank of India’s landmark <em>Prudential Framework for relief of Stressed Assets (June 8. 2023)</em> and the <em>Master Direction. Reserve Bank of India (Non-Banking money Company. Scale Based rule) Directions. 2023</em>All NBFCs are by law mandated to maintain board-approved one-time closure policies. A clients who empirically proves hardship is entitled to settle a clear. Discounted closure. </p>
             </div>
           </div>
@@ -601,22 +601,22 @@ export default function NBFCLoanSettlementPageClient() {
             <p> NBFC loan closure operates through a defined bank method governed by asset classification timelines and risk provisioning: </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm sm:text-base mb-1">Stage 1: NPA Tagging (90+ DPD)</h4>
+                <h3 className="font-bold text-black text-sm sm:text-base mb-1">Stage 1: NPA Tagging (90+ DPD)</h3>
                 <p className="text-xs sm:text-sm text-slate-800"> When payments cross 90 days overdue. RBI norms require the NBFC to classify the loan as a Non-Performing Asset (NPA). The NBFC must allocate capital rules of 15% to 100% against this defaulted exposure. </p>
               </div>
 
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm sm:text-base mb-1">Stage 2: Stressed Portfolio Transfer</h4>
+                <h3 className="font-bold text-black text-sm sm:text-base mb-1">Stage 2: Stressed Portfolio Transfer</h3>
                 <p className="text-xs sm:text-sm text-slate-800"> The account moves from regular customer service to the Stressed Assets claims Branch (SARB) or regional claims desk. where performance is evaluated on cash claims speed rather than customer retention. </p>
               </div>
 
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm sm:text-base mb-1">Stage 3: Net Realization Modeling</h4>
+                <h3 className="font-bold text-black text-sm sm:text-base mb-1">Stage 3: Net Realization Modeling</h3>
                 <p className="text-xs sm:text-sm text-slate-800"> The NBFC&apos. s Credit board compares the fast cash deals against the anticipated claims from prolonged arbitration or civil court cases over 3 to 5 years minus counsel retainers. </p>
               </div>
 
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm sm:text-base mb-1">Stage 4: Sanction &amp. Closure</h4>
+                <h3 className="font-bold text-black text-sm sm:text-base mb-1">Stage 4: Sanction &amp. Closure</h3>
                 <p className="text-xs sm:text-sm text-slate-800"> Upon board approval. The NBFC issues an valid OTS Sanction Letter specifying the approved figure and due date. Once deposited straight into the loan account. The account is marked closed. </p>
               </div>
             </div>
@@ -652,7 +652,7 @@ export default function NBFCLoanSettlementPageClient() {
               <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-lg">
                 <span className="flex-shrink-0 w-7 h-7 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xs">1</span>
                 <div>
-                  <h4 className="font-bold text-black text-sm">Step 1: Ledger Statement Audit</h4>
+                  <h3 className="font-bold text-black text-sm">Step 1: Ledger Statement Audit</h3>
                   <p className="text-slate-800 text-xs sm:text-sm">Obtain the full statement of account. Separate original disbursed capital from high-rates growing. Bounce fees. claims charges.</p>
                 </div>
               </div>
@@ -660,7 +660,7 @@ export default function NBFCLoanSettlementPageClient() {
               <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-lg">
                 <span className="flex-shrink-0 w-7 h-7 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xs">2</span>
                 <div>
-                  <h4 className="font-bold text-black text-sm">Step 2: Legal Risk Assessment</h4>
+                  <h3 className="font-bold text-black text-sm">Step 2: Legal Risk Assessment</h3>
                   <p className="text-slate-800 text-xs sm:text-sm">Review pending legal notices. such as Section 25 PSSA (NACH bounce) or Section 138 NI Act notices. and prepare formal counsel replies.</p>
                 </div>
               </div>
@@ -668,7 +668,7 @@ export default function NBFCLoanSettlementPageClient() {
               <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-lg">
                 <span className="flex-shrink-0 w-7 h-7 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xs">3</span>
                 <div>
-                  <h4 className="font-bold text-black text-sm">Step 3: closure Corpus Mobilization</h4>
+                  <h3 className="font-bold text-black text-sm">Step 3: closure Corpus Mobilization</h3>
                   <p className="text-slate-800 text-xs sm:text-sm">Accumulate liquid closure funds (targeting 35% to 50% of pure main sum) in an unlinked bank account before approaching the lender.</p>
                 </div>
               </div>
@@ -676,7 +676,7 @@ export default function NBFCLoanSettlementPageClient() {
               <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-lg">
                 <span className="flex-shrink-0 w-7 h-7 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xs">4</span>
                 <div>
-                  <h4 className="font-bold text-black text-sm">Step 4: Formal OTS Submission</h4>
+                  <h3 className="font-bold text-black text-sm">Step 4: Formal OTS Submission</h3>
                   <p className="text-slate-800 text-xs sm:text-sm">Submit a structured OTS offer letter to the NBFC Stressed Assets board citing RBI closure frameworks and verifiable hardship exhibits.</p>
                 </div>
               </div>
@@ -684,7 +684,7 @@ export default function NBFCLoanSettlementPageClient() {
               <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-lg">
                 <span className="flex-shrink-0 w-7 h-7 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xs">5</span>
                 <div>
-                  <h4 className="font-bold text-black text-sm">Step 5: board Bargaining</h4>
+                  <h3 className="font-bold text-black text-sm">Step 5: board Bargaining</h3>
                   <p className="text-slate-800 text-xs sm:text-sm">Settle counter-offers with the claims manager. Locking in 100% penal fee waivers and 40% to 60% main sum haircuts.</p>
                 </div>
               </div>
@@ -692,7 +692,7 @@ export default function NBFCLoanSettlementPageClient() {
               <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-lg">
                 <span className="flex-shrink-0 w-7 h-7 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xs">6</span>
                 <div>
-                  <h4 className="font-bold text-black text-sm">Step 6: Sanction Letter Verification &amp. Payment</h4>
+                  <h3 className="font-bold text-black text-sm">Step 6: Sanction Letter Verification &amp. Payment</h3>
                   <p className="text-slate-800 text-xs sm:text-sm">Audit the valid OTS Sanction Letter for explicit full-release clauses before remitting funds straight to your loan account via RTGS/NEFT.</p>
                 </div>
               </div>
@@ -700,7 +700,7 @@ export default function NBFCLoanSettlementPageClient() {
               <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-lg">
                 <span className="flex-shrink-0 w-7 h-7 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xs">7</span>
                 <div>
-                  <h4 className="font-bold text-black text-sm">Step 7: NDC Retrieval &amp. desk Verification</h4>
+                  <h3 className="font-bold text-black text-sm">Step 7: NDC Retrieval &amp. desk Verification</h3>
                   <p className="text-slate-800 text-xs sm:text-sm">Collect the real No-Dues letter. Confirm NACH cancellation. check that CIBIL reports the account as &quot. Settled&quot. with ₹0 balance within 45 days.</p>
                 </div>
               </div>
@@ -814,12 +814,12 @@ export default function NBFCLoanSettlementPageClient() {
             <p> Vehicle loan closure bifurcates into two distinct scenarios: </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm mb-1">Pre-Repossession closure</h4>
+                <h3 className="font-bold text-black text-sm mb-1">Pre-Repossession closure</h3>
                 <p className="text-xs sm:text-sm text-slate-800 leading-relaxed"> The clients retains the vehicle. The closure figure is benchmarked against the current depreciated market value of the car or truck. Upon payment. The NBFC must issue RTO Form 35 to cancel loan lien from the Registration letter. </p>
               </div>
 
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm mb-1">Post-Auction Deficiency closure</h4>
+                <h3 className="font-bold text-black text-sm mb-1">Post-Auction Deficiency closure</h3>
                 <p className="text-xs sm:text-sm text-slate-800 leading-relaxed"> The NBFC seized and auctioned the vehicle. The auction proceeds fell short of the total debt. Leaving a &quot. deficiency balance&quot. Because the asset is already sold. This shortfall is 100% clean debt. Allowing the clients to settle it at a <strong>60% to 75% discount</strong>. </p>
               </div>
             </div>
@@ -972,12 +972,12 @@ export default function NBFCLoanSettlementPageClient() {
             <p> grasp the fundamental divergence between full payment and one-time closure: </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm mb-1">Full payment</h4>
+                <h3 className="font-bold text-black text-sm mb-1">Full payment</h3>
                 <p className="text-xs sm:text-sm text-slate-800 leading-relaxed"> Requires paying 100% of the main sum and accrued rates. The loan is reported as &quot. Closed&quot. On CIBIL. Maintaining a positive credit profile. Yet. For a clients with ruined cash flow. Full payment is impossible and causes bankruptcy. </p>
               </div>
 
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm mb-1">NBFC Loan closure</h4>
+                <h3 className="font-bold text-black text-sm mb-1">NBFC Loan closure</h3>
                 <p className="text-xs sm:text-sm text-slate-800 leading-relaxed"> Permanently clears the debt at a 40% to 65% discount. The account reflects &quot. Settled&quot. Status on credit bureaus. Temporarily lowering credit scores. Instantly stops legal threats. Calls calls. money despair. </p>
               </div>
             </div>
@@ -1258,7 +1258,7 @@ export default function NBFCLoanSettlementPageClient() {
             <p> one-time closures in the NBFC sector are strictly governed by the Reserve Bank of India’s landmark RBI circular: <strong>Prudential Framework for relief of Stressed Assets. One-time closures and Technical Write-offs (DOR.STR.REC.20/21.04.048/2023-24) issued on June 8. 2023</strong>. </p>
             <p> Key RBI rights established for NBFC clients: </p>
             <div className="p-4 sm:p-5 bg-blue-50/70 border-l-4 border-blue-600 rounded-r-xl my-4 space-y-2">
-              <h4 className="font-bold text-black text-sm sm:text-base">Core rules of the RBI June 2023 Circular:</h4>
+              <h3 className="font-bold text-black text-sm sm:text-base">Core rules of the RBI June 2023 Circular:</h3>
               <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-black">
                 <li><strong>Universal Mandate for Board Policies:</strong> Every registered NBFC (across Base. Middle. Upper Layers) must maintain a clear. Non-discriminatory closure policy approved by its board of directors.</li>
                 <li><strong>Clear Delegation of money Powers:</strong> Haircut decisions cannot be made arbitrarily. they must follow a designated hierarchy of Credit boards.</li>
@@ -1295,22 +1295,22 @@ export default function NBFCLoanSettlementPageClient() {
             <p> Under the <strong>Fair Practices Code (FPC)</strong> for NBFCs: </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm mb-1">Direct risk of NBFCs</h4>
+                <h3 className="font-bold text-black text-sm mb-1">Direct risk of NBFCs</h3>
                 <p className="text-xs text-slate-800">NBFCs cannot evade duty by blaming third-party claims firms. The NBFC is straight and strictly liable for any unlawful act. Threats. verbal abuse committed by its agents.</p>
               </div>
 
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm mb-1">Identity &amp. Authorization</h4>
+                <h3 className="font-bold text-black text-sm mb-1">Identity &amp. Authorization</h3>
                 <p className="text-xs text-slate-800">Every visiting agent must carry an valid NBFC identity badge and a checked letter of authorization detailing the debt amount.</p>
               </div>
 
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm mb-1">Grievance Redressal Mandate</h4>
+                <h3 className="font-bold text-black text-sm mb-1">Grievance Redressal Mandate</h3>
                 <p className="text-xs text-slate-800">Every NBFC must display the contact details of its main sum Nodal head (PNO) and local RBI RBI officer office on its website and branches.</p>
               </div>
 
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm mb-1">Fair Penal Charges Rules (2024)</h4>
+                <h3 className="font-bold text-black text-sm mb-1">Fair Penal Charges Rules (2024)</h3>
                 <p className="text-xs text-slate-800">NBFCs are prohibited from growing penal rates. Overdue charges must be levied as simple. Clear penal charges without capital capitalization.</p>
               </div>
             </div>
@@ -1439,7 +1439,7 @@ export default function NBFCLoanSettlementPageClient() {
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p> Every Indian citizen possesses enforceable legal safety against predatory calls behavior: </p>
             <div className="p-4 sm:p-5 bg-amber-50/80 border-l-4 border-amber-600 rounded-r-xl my-4 space-y-2">
-              <h4 className="font-bold text-black text-sm sm:text-base">legal Rights Against NBFC threats</h4>
+              <h3 className="font-bold text-black text-sm sm:text-base">legal Rights Against NBFC threats</h3>
               <ul className="list-disc pl-5 space-y-1 text-xs sm:text-sm text-black">
                 <li><strong>Right to Dignity:</strong> Abusive language. Public humiliation. shouting at your doorstep violates fundamental rights under Article 21 and Supreme Court precedents (<em>ICICI Bank v. Shanti Devi Sharma</em>).</li>
                 <li><strong>Right to Privacy:</strong> Calling your HR department or workplace colleagues violates the Digital own Data safety Act. 2023.</li>
@@ -1636,7 +1636,7 @@ export default function NBFCLoanSettlementPageClient() {
             <p> When a clients is indebted to multiple lending institutions simultaneously. Such as two trade banks. Three retail NBFCs. four instant digital lending apps. navigating closures requires cross-bank coordination and strict priority sequencing. Attempting to settle haphazardly across five different institutions creates severe liquidity exhaustion. where partial token deposits deplete closure reserves without extinguishing any single risk. </p>
             <p> Unlike firm debt restructuring governed by the bankruptcy and Bankruptcy Code (IBC) or RBI&apos. S Inter-Creditor pacts (ICA) where lenders vote collectively. Retail multiple-lender closures operate as bilateral talks. Each institution acts in isolation to boost its individual claims before the clients&apos. s remaining capital pool is fully extinguished. </p>
             <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 sm:p-5 my-4">
-              <h4 className="font-bold text-slate-900 mb-2 text-sm sm:text-base">Key Strategic Principles for Multi-Lender closure:</h4>
+              <h3 className="font-bold text-slate-900 mb-2 text-sm sm:text-base">Key Strategic Principles for Multi-Lender closure:</h3>
               <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm">
                 <li><strong>Enforce an Information Firewall:</strong> Never disclose to NBFC &apos. A&apos. that you have successfully concluded an OTS with Bank &apos. B&apos. for ₹3 Lakhs. NBFC &apos. A&apos. Will fast extrapolate that you possess hidden liquidity and will stiffen their demand. Rejecting any concessionary haircut.</li>
                 <li><strong>Triage Legal Exposure Over Balance Size:</strong> Prioritize closure funds for institutions that have actively issued legal notices under Section 138 of the Negotiable Instruments Act or started arbitration hearings. An unserviced ₹1 Lakh clean loan backed by an active penal summons poses an fast threat to your own liberty. whereas a passive ₹5 Lakh loan with no ongoing court cases can await round two of talks.</li>
@@ -1686,7 +1686,7 @@ export default function NBFCLoanSettlementPageClient() {
             <p> Salaried experts represent a unique demographic in NBFC retail lending. Because salaried clients provide employer details. Valid email addresses. Salary account bank statements during underwriting. Claims wings often leverage experts vulnerability and workplace embarrassment to force compliance. </p>
             <p> When a salaried employee faces forced job loss. Firm downsizing. Unexpected pay cuts. Key family healthcare crises. Standard monthly EMIs become unsustainable. NBFCs initially assume the clients is on purpose withholding payment while continuing to draw a salary. </p>
             <div className="bg-blue-50/60 border border-blue-100 rounded-xl p-4 sm:p-5 my-4">
-              <h4 className="font-bold text-blue-950 mb-2 text-sm sm:text-base">Strategic Steps for Salaried clients Seeking closure:</h4>
+              <h3 className="font-bold text-blue-950 mb-2 text-sm sm:text-base">Strategic Steps for Salaried clients Seeking closure:</h3>
               <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm">
                 <li><strong>papers forced Career Disruption:</strong> Submit the formal firm relieving letter. End notice. Severance computation sheet. legal proof of salary reduction. This straight establishes unviability of original EMI terms under RBI&apos. s Prudential closure Norms.</li>
                 <li><strong>Protect the Workplace Environment:</strong> If agents unlawfully call office landlines. Contact firm HR desks. Show up at company premises. Issue an fast written cease-and-desist letter citing RBI&apos. s Master Direction on agents (which strictly prohibits visiting workplaces or contacting colleagues).</li>
@@ -1708,15 +1708,15 @@ export default function NBFCLoanSettlementPageClient() {
             <p> NBFC underwriting for self-employed experts often relies on banking turnover surrogates and GST return multiples. When turnover collapses. The NBFC&apos. S algorithms still record historic high revenues. Leading closure boards to doubt hardship claims unless prove with concrete accounting evidence. </p>
             <div className="space-y-3 my-4">
               <div className="p-4 rounded-xl border border-slate-200 bg-white">
-                <h5 className="font-bold text-slate-900 text-sm sm:text-base mb-1">Evidentiary Substantiation of Income Contraction:</h5>
+                <h3 className="font-bold text-slate-900 text-sm sm:text-base mb-1">Evidentiary Substantiation of Income Contraction:</h3>
                 <p className="text-xs sm:text-sm text-slate-700"> Provide sequential GSTR-3B filings demonstrating a 50%+ reduction in gross taxable turnover over the preceding 6 to 12 months. Accompanied by current CA-signed profit and loss statements reflecting operating deficits. </p>
               </div>
               <div className="p-4 rounded-xl border border-slate-200 bg-white">
-                <h5 className="font-bold text-slate-900 text-sm sm:text-base mb-1">Client Invalidation &amp; Contract Cancellation Letters:</h5>
+                <h3 className="font-bold text-slate-900 text-sm sm:text-base mb-1">Client Invalidation &amp; Contract Cancellation Letters:</h3>
                 <p className="text-xs sm:text-sm text-slate-700"> Furnish checked documentary proof of major vendor contract cancellations. Delayed client receivables. disputed trade invoices that straight triggered the liquidity freeze. </p>
               </div>
               <div className="p-4 rounded-xl border border-slate-200 bg-white">
-                <h5 className="font-bold text-slate-900 text-sm sm:text-base mb-1">Separation of Personal and Commercial Liabilities:</h5>
+                <h3 className="font-bold text-slate-900 text-sm sm:text-base mb-1">Separation of Personal and Commercial Liabilities:</h3>
                 <p className="text-xs sm:text-sm text-slate-700"> Clarify whether the loan was extended in own capacity or tied to proprietary trade trade names. Making sure cross-collateralization clauses do not threaten essential tools of trade or experts equipment protected under Section 60 of the CPC. </p>
               </div>
             </div>
@@ -1798,7 +1798,7 @@ export default function NBFCLoanSettlementPageClient() {
             <p> The emergence of digital lending applications (DLAs) and fintech aggregators operating under Lending Service Provider (LSP) partnerships with registered NBFCs has transformed consumer credit. While onboarding is frictionless. Claims and calls workflows often exhibit intense digital aggressiveness when defaults occur. </p>
             <p> Settling debt with digital and fintech lenders requires grasp the relationship between the front-end application and the underlying regulated balance-sheet lender: </p>
             <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 sm:p-5 my-4">
-              <h4 className="font-bold text-amber-950 mb-2 text-sm sm:text-base">Essential Safeguards for Fintech &amp. App-Based closures:</h4>
+              <h3 className="font-bold text-amber-950 mb-2 text-sm sm:text-base">Essential Safeguards for Fintech &amp. App-Based closures:</h3>
               <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-amber-900">
                 <li><strong>Identify the Real Regulated Entity (RE):</strong> The mobile application displayed on your smartphone is usually merely a technology vendor (LSP). Check your loan sanction letter to identify the actual RBI-registered NBFC backing the capital. All formal closure correspondence and payments must be directed to the NBFC. Never to an illegal third-party fintech account.</li>
                 <li><strong>Enforce the RBI Digital Lending Guidelines (2022):</strong> The RBI Digital Lending Directive strictly prohibits illegal contact access. Photo scraping. threats of phone contacts. Any violation should be countered with formal complaints to the NBFC&apos. S main sum Nodal head and the RBI Sachet portal. Creating large leverage for a favorable closure.</li>
@@ -1974,7 +1974,7 @@ export default function NBFCLoanSettlementPageClient() {
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p> Under RBI mandates. All regulated NBFCs must report monthly portfolio updates to India&apos. S four licensed Credit Information Companies (CIBIL. Experian. CRIF High Mark. Equifax). Between 45 and 60 days following closure payment. Clients should inspect their credit reports across all bureaus to check accurate reporting. </p>
             <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 sm:p-5 my-4">
-              <h4 className="font-bold text-slate-900 mb-2 text-sm sm:text-base">Key Account Indicators to check on Your Credit Report:</h4>
+              <h3 className="font-bold text-slate-900 mb-2 text-sm sm:text-base">Key Account Indicators to check on Your Credit Report:</h3>
               <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm">
                 <li><strong>Current Balance / Amount Overdue:</strong> The &apos. Current Balance&apos. and &apos. Amount Overdue&apos. fields must show exactly <strong>₹0</strong>. If any balance appears. The NBFC has improperly recorded the payment as a partial claims rather than an agreed closure.</li>
                 <li><strong>Account Status:</strong> The status must reflect <strong>&apos. Settled&apos. </strong> (or &apos. Post-Write-Off Settled&apos. ). It should NOT display &apos. Written Off&apos. , &apos. Willful Default&apos. &apos. Active Default&apos.</li>
@@ -2019,7 +2019,7 @@ export default function NBFCLoanSettlementPageClient() {
             <p> In many NBFC credit facilities. Especially high-ticket clean own loans. Firm loans. MSME machinery lines. The lender mandates the execution of a separate Deed of own Guarantee by a family member. Firm partner. enterprise director. Under Section 128 of the Indian Contract Act. 1872. The risk of the surety is co-extensive with that of the main sum debtor. Meaning the NBFC can proceed against the guarantor without first exhausting remedies against the primary clients. </p>
             <p> This co-extensive risk creates a dangerous trap during unstructured closures: if a clients settles their primary loan without an explicit contractual release of the guarantor. The NBFC may attempt to pursue the guarantor for the waived &quot. haircut&quot. balance. </p>
             <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 sm:p-5 my-4">
-              <h4 className="font-bold text-slate-900 mb-2 text-sm sm:text-base">Mandatory Guarantor Safeguards in closure proof:</h4>
+              <h3 className="font-bold text-slate-900 mb-2 text-sm sm:text-base">Mandatory Guarantor Safeguards in closure proof:</h3>
               <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm">
                 <li><strong>Tripartite closure Sanction:</strong> The OTS approval letter must explicitly name both the main sum clients and all own guarantors. Affirming that payment of the payout sum discharges all parties simultaneously.</li>
                 <li><strong>Invocation of Section 135 (Indian Contract Act):</strong> Under Section 135. Any contract between the creditor and the main sum debtor to compound or grant time discharges the surety. unless the surety assents. Incorporating this rules makes sure the guarantee deed is rendered void and unenforceable upon closure execution.</li>
@@ -2104,7 +2104,7 @@ export default function NBFCLoanSettlementPageClient() {
             <p> Many NBFCs require clients to provide post-dated cheques (PDCs) or security cheques at the time of loan onboarding. If an EMI defaults. The NBFC may deposit one of these cheques. When returned dishonored with memos such as &apos. Funds Insufficient&apos. or &apos. Account Closed&apos. The NBFC initiates penal actions under Section 138 of the Negotiable Instruments Act. 1881. </p>
             <p> It is key to recognize that a Section 138 steps is a quasi-penal complaint carrying potential imprisonment of up to two years. A fine of up to double the cheque amount. both. yet. Because Section 138 offenses are compoundable under Section 147 of the NI Act. Loan closure serves as a direct legal method to compound the offense and quash the penal case. </p>
             <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 sm:p-5 my-4">
-              <h4 className="font-bold text-amber-950 mb-2 text-sm sm:text-base">Cheque Bounce Case growing Protocol:</h4>
+              <h3 className="font-bold text-amber-950 mb-2 text-sm sm:text-base">Cheque Bounce Case growing Protocol:</h3>
               <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm text-amber-900">
                 <li>Never pay closure funds under an informal verbal assurance that &apos. the cheque case will be dropped.&apos.</li>
                 <li>Demand that the NBFC counsel sign a joint closure petition or withdrawal memo to be filed before the Metropolitan Magistrate or Judicial Magistrate First Class (JMFC) simultaneously with closure fund clearance.</li>
@@ -2254,7 +2254,7 @@ export default function NBFCLoanSettlementPageClient() {
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p> clients are often surprised to learn that securing subsequent credit from a <em>different</em> NBFC is often achievable sooner than from a traditional public sector bank. NBFCs use risk-based pricing algorithms that review holistic factors. Such as bank statement cash flows. GST filings. employment stability. rather than relying solely on CIBIL scores. </p>
             <div className="bg-blue-50/60 border border-blue-100 rounded-xl p-4 sm:p-5 my-4">
-              <h4 className="font-bold text-blue-950 mb-2 text-sm sm:text-base">Rules for Securing Future NBFC Financing:</h4>
+              <h3 className="font-bold text-blue-950 mb-2 text-sm sm:text-base">Rules for Securing Future NBFC Financing:</h3>
               <ul className="list-disc pl-5 space-y-2 text-xs sm:text-sm">
                 <li><strong>Avoid the Settled NBFC Group:</strong> Never apply to the same NBFC group where you settled. Your name will remain permanently flagged on their internal negative list. Regardless of your credit score claims elsewhere.</li>
                 <li><strong>Offer pledge or trade Security:</strong> NBFCs readily extend loans against gold. Home (LAP). liquid securities even with a settled record on your credit file. as the real asset mitigates credit risk.</li>
@@ -2551,7 +2551,7 @@ export default function NBFCLoanSettlementPageClient() {
               <div className="w-9 h-9 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center mx-auto mb-2">
                 <ShieldCheck className="w-5 h-5" />
               </div>
-              <h4 className="font-bold text-slate-900 text-xs mb-1"> Facing NBFC claims threats? </h4>
+              <div className="font-bold text-slate-900 text-xs mb-1"> Facing NBFC claims threats? </div>
               <p className="text-[11px] text-slate-600 mb-3 leading-relaxed"> Senior counsel can issue fast legal notices to halt calls. Home visits. defend Section 138 notices. </p>
               <a
                 href="#lead-funnel"

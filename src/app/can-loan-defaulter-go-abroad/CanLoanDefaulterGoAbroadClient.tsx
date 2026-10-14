@@ -420,7 +420,7 @@ export default function CanLoanDefaulterGoAbroadClient() {
                 <span>Statutory Notice Defense.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                6. Statutory Notice Defense, Quasi-Criminal Procedures &amp; Legal Rights
+                6. Statutory Notice Defense and Borrower Legal Rights
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When managing debt claims from overseas. Understanding the local legal mechanisms invoked by Indian banks is vital for maintaining legal compliance: </p>
 
@@ -555,7 +555,7 @@ export default function CanLoanDefaulterGoAbroadClient() {
                 <span>Specialized Real-World Scenarios.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                9. Specialized Scenarios: Students, GCC Job Seekers, Remote PoA &amp; ARCs
+                9. Scenarios: Students, GCC Job Seekers and Remote PoA
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Cross-border debt relief involves distinct bank and daily work nuances across different client profiles: </p>
 

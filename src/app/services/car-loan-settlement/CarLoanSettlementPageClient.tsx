@@ -636,11 +636,11 @@ export default function CarLoanSettlementPageClient() {
                 <p> In a vehicle loan deal. The bank waives 100% of accumulated penal rates. Cancels exorbitant late payment charges. Absorbs a settle haircut on the remaining core main sum balance. Terminates all ongoing litigation. issues an valid No Dues letter (NDC). Most critically. The closure mandates the issuance of RTO Form 35 to cancel the hypothecation endorsement on the Registration letter (RC). Transferring unencumbered legal ownership to the clients. </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
                   <div className="bg-white border border-gray-300 rounded-xl p-3.5 shadow-2xs space-y-1.5">
-                    <h4 className="font-bold text-black flex items-center gap-1.5"> <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span> Retain Vehicle deal </h4>
+                    <h3 className="font-bold text-black flex items-center gap-1.5"> <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span> Retain Vehicle deal </h3>
                     <p className="text-black font-normal"> The clients pays a settle discounted lump-sum equivalent to the vehicle&apos. S distressed liquidation value. Clears the loan. Retains the car. removes the bank hypothecation. </p>
                   </div>
                   <div className="bg-white border border-gray-300 rounded-xl p-3.5 shadow-2xs space-y-1.5">
-                    <h4 className="font-bold text-black flex items-center gap-1.5"> <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span> Post-Surrender Deficiency closure </h4>
+                    <h3 className="font-bold text-black flex items-center gap-1.5"> <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span> Post-Surrender Deficiency closure </h3>
                     <p className="text-black font-normal"> If the car has already been surrendered or repossessed and auctioned below the loan balance. The remaining shortfall (deficiency debt) is settled with a 60%. 80% waiver. </p>
                   </div>
                 </div>
@@ -693,7 +693,7 @@ export default function CarLoanSettlementPageClient() {
                   <p> Successfully settling an auto loan requires assertive legal positioning combined with realistic money modeling. Unassisted clients who walk into auto loan branches are routinely subjected to harsh threaten. Coerced into signing vehicle surrender letters under duress. tricked into paying token amounts that reset the legal limitation period without granting any debt relief. </p>
                 <p> The proper method begins with shielding yourself from unlawful street repossession by securing legal representation. Next. Obtain an valid Statement of Account and audit all accrued penal rates and bounce charges. Formulate a data-backed OTS proposal demonstrating that the proposed closure sum represents greater money claims for the bank than forced auction liquidation. insist that all terms be delivered on valid bank letterhead before releasing any funds. </p>
                 <div className="bg-slate-50 border border-slate-300 rounded-xl p-4 text-xs space-y-2 text-black">
-                  <h4 className="font-bold text-black text-sm">Vital Rules for Vehicle clients:</h4>
+                  <h3 className="font-bold text-black text-sm">Vital Rules for Vehicle clients:</h3>
                   <ul className="list-disc pl-4 space-y-1 font-normal">
                     <li>Never hand over your car keys or sign blank inventory sheets to agents without legal consultation.</li>
                     <li>Always insist on an valid written closure Sanction Letter issued by an authorized bank manager.</li>
@@ -2237,7 +2237,7 @@ export default function CarLoanSettlementPageClient() {
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
                   <div className="p-3.5 bg-emerald-50/50 border border-emerald-300 rounded-xl space-y-2">
-                    <h4 className="font-bold text-emerald-950 text-sm flex items-center gap-1.5"> <span className="w-2 h-2 rounded-full bg-emerald-600"></span> key DO&apos. S </h4>
+                    <h3 className="font-bold text-emerald-950 text-sm flex items-center gap-1.5"> <span className="w-2 h-2 rounded-full bg-emerald-600"></span> key DO&apos. S </h3>
                     <ul className="text-black space-y-1.5 list-disc pl-4 font-normal">
                       <li>Channel all contacts through enrolled legal counsel via formal representation notices.</li>
                       <li>Maintain rigorous proof of your money distress (pink slips. Medical bills. Bank statements).</li>
@@ -2247,7 +2247,7 @@ export default function CarLoanSettlementPageClient() {
                     </ul>
                   </div>
                   <div className="p-3.5 bg-red-50/50 border border-red-300 rounded-xl space-y-2">
-                    <h4 className="font-bold text-red-950 text-sm flex items-center gap-1.5"> <span className="w-2 h-2 rounded-full bg-red-600"></span> DANGEROUS DON&apos. TS </h4>
+                    <h3 className="font-bold text-red-950 text-sm flex items-center gap-1.5"> <span className="w-2 h-2 rounded-full bg-red-600"></span> DANGEROUS DON&apos. TS </h3>
                     <ul className="text-black space-y-1.5 list-disc pl-4 font-normal">
                       <li>Never hand over car keys or sign blank vehicle surrender forms to agents on the street.</li>
                       <li>Never pay cash or transfer funds into third-party own accounts or agents accounts.</li>
@@ -2395,7 +2395,7 @@ export default function CarLoanSettlementPageClient() {
                 <p> Car loan closure under the Reserve Bank of India&apos. S deal framework provides an honorable. By law sanctioned. definitive exit. It allows you to by law write off unmanageable debt. Shield your family from agents threaten. Prevent street vehicle seizure. secure RTO Form 35 to liberate your vehicle title. </p>
                 <p> With seasoned legal representation from CredSettle. You do not have to face harsh claims firms or bank bank boards alone. Take decisive control of your auto loan today. Assert your legal rights. build a clean foundation for your family&apos. s money future. </p>
                 <div className="p-4 bg-gradient-to-r from-blue-900 to-indigo-950 rounded-xl text-white text-center space-y-2 mt-4 shadow-md">
-                  <h4 className="text-base font-bold text-white">Resolve Your Car Loan Debt Today</h4>
+                  <div className="text-base font-bold text-white">Resolve Your Car Loan Debt Today</div>
                   <p className="text-xs text-blue-200 max-w-xl mx-auto"> Speak straight with a senior banking litigation counsel. We audit your auto loan. Halt claims threats and repossession threats within 24 hours. settle maximum RBI-compliant OTS waivers. </p>
                   <div className="pt-2">
                     <Link

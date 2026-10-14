@@ -172,7 +172,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                 <span>Syndicate Infrastructure.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                1. Anatomy of Predatory 7-Day Loan Apps &amp; Chinese Extortion Syndicates
+                1. Anatomy of Illegal 7-Day Loan Apps and Extortion Rackets
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The rapid growth of instant micro-credit in India has spawned a sprawling shadow industry of banned loan apps. commonly known as. <strong>7-day Chinese loan apps.</strong>. These entities are not legitimate lending platforms. They are structured online extortion rackets operated by international online syndicates using shell firm entities. Untraceable cloud servers. Local mule bank accounts. </p>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Unlike legitimate banks governed by the. <strong>Reserve Bank of India (RBI) online Lending rules (DLG).</strong>These rogue apps operate through side-loaded Android Package Kits (APKs). Spoofed social media advertisements. Short-lived web portals. They lure financially stressed clients with advertisements promising. <em>instant no-paper cash.</em> of ₹3,000 to ₹10,000 released in 60 seconds. </p>
@@ -560,7 +560,7 @@ export default function FakeLoanAppHarassmentCyberCrimeClient() {
                 <span>Institutional Escalation.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                8. The 3-Tier Escalation Matrix: From App Stores to RBI &amp; Cyber Police
+                8. Escalation Steps: App Stores, RBI and Cyber Police
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Execute a structured. Multi-tier reports across technical. Policing. And central banking officials to dismantle the syndicate: </p>
 

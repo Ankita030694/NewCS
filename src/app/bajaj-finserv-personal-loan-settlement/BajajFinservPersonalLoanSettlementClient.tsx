@@ -178,7 +178,7 @@ export default function BajajFinservPersonalLoanSettlementClient() {
                 <span>NBFC Regulations &amp; Prudential Guidelines.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                1. Debt Economics &amp; NPA Classification in Bajaj Finance Personal Loans
+                1. Debt Economics and NPA Dynamics in Bajaj Finance Loans
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Bajaj Finance Limited disburses large volumes of no-pledge private and flexi loans via digital underwriting. When sudden income loss. Trade downturns. Or health crises disrupt cashflow. Servicing installments becomes unviable. Overdue accounts progress through Special Mention Account stages: SMA-0 (1-30 days). SMA-1 (31-60 days). And SMA-2 (61-90 days). Beyond 90 consecutive days of default. The loan is formally classified as a Non-Performing Asset (NPA) under Reserve Bank of India prudential rules. </p>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> NPA reclassification requires Bajaj Finance to halt ledger interest accruals and allocate 15% to 25% provisions from its Tier-1 core cash reserves. Because no-pledge private loans lack mortgaged property or physical pledge. Bajaj cannot initiate summary asset seizure under the SARFAESI Act. Protracted civil lawsuits or disputed arbitrations across courts involve heavy office costs. As a result. Bajaj Finance central stressed asset boards in Pune are commercially motivated to approve structured One-Time deals (OTS) to release locked cash reserves and clean toxic non-performing assets off their balance sheets. </p>

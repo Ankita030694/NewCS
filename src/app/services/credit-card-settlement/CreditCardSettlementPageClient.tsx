@@ -737,42 +737,42 @@ export default function CreditCardSettlementPageClient() {
                     <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-xl">
                       <div className="w-7 h-7 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center text-xs flex-shrink-0">1</div>
                       <div>
-                        <h4 className="font-bold text-xs text-black">Step 1: Portfolio Diagnostic &amp. Legal Shield (Days 1. 5)</h4>
+                        <h3 className="font-bold text-xs text-black">Step 1: Portfolio Diagnostic &amp. Legal Shield (Days 1. 5)</h3>
                         <p className="text-[11px] text-black mt-0.5"> Forensic review of card ledgers. Separation of core purchase main sum from finance charges. Issuance of an counsel-led Representation Notice under counsel Act rules. Mandating fast cessation of phone calls. </p>
                       </div>
                     </div>
                     <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-xl">
                       <div className="w-7 h-7 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center text-xs flex-shrink-0">2</div>
                       <div>
-                        <h4 className="font-bold text-xs text-black">Step 2: Hardship Substantiation Dossier (Days 6. 12)</h4>
+                        <h3 className="font-bold text-xs text-black">Step 2: Hardship Substantiation Dossier (Days 6. 12)</h3>
                         <p className="text-[11px] text-black mt-0.5"> Assembling income proofs. 6. 12 months bank statements confirming negligible disposable cash flow. Medical records. layoff letters to satisfy bank internal audit requirements under RBI guidelines. </p>
                       </div>
                     </div>
                     <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-xl">
                       <div className="w-7 h-7 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center text-xs flex-shrink-0">3</div>
                       <div>
-                        <h4 className="font-bold text-xs text-black">Step 3: Formal OTS Petition Submission (Days 13. 20)</h4>
+                        <h3 className="font-bold text-xs text-black">Step 3: Formal OTS Petition Submission (Days 13. 20)</h3>
                         <p className="text-[11px] text-black mt-0.5"> Drafting and serving a detailed closure memo straight to the bank&apos. S Specialized Card claims board and Zonal Credit Head. Citing RBI circulars and requesting a complete waiver of rates and fines. </p>
                       </div>
                     </div>
                     <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-xl">
                       <div className="w-7 h-7 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center text-xs flex-shrink-0">4</div>
                       <div>
-                        <h4 className="font-bold text-xs text-black">Step 4: Credit board Bilateral talks (Days 21. 32)</h4>
+                        <h3 className="font-bold text-xs text-black">Step 4: Credit board Bilateral talks (Days 21. 32)</h3>
                         <p className="text-[11px] text-black mt-0.5"> counsel-led talks rounds with the bank&apos. S closure board. Pushing back against first inflated counter-offers to lock in the lowest possible payout sum (typically 50% to 75% gross savings). </p>
                       </div>
                     </div>
                     <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-xl">
                       <div className="w-7 h-7 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center text-xs flex-shrink-0">5</div>
                       <div>
-                        <h4 className="font-bold text-xs text-black">Step 5: Sanction Letter Verification &amp. Payment (Days 33. 40)</h4>
+                        <h3 className="font-bold text-xs text-black">Step 5: Sanction Letter Verification &amp. Payment (Days 33. 40)</h3>
                         <p className="text-[11px] text-black mt-0.5"> Legal vetting of the valid written closure Sanction Letter to make sure no hidden risk clauses exist. Followed by direct online payment into the card account before the stipulated deadline. </p>
                       </div>
                     </div>
                     <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-xl">
                       <div className="w-7 h-7 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center text-xs flex-shrink-0">6</div>
                       <div>
-                        <h4 className="font-bold text-xs text-black">Step 6: No Dues letter &amp. desk Verification (Days 41. 55)</h4>
+                        <h3 className="font-bold text-xs text-black">Step 6: No Dues letter &amp. desk Verification (Days 41. 55)</h3>
                         <p className="text-[11px] text-black mt-0.5"> Securing an authenticated real debt release letter from the bank confirming nil balance and verifying zero-rupee updates across credit bureaus. </p>
                       </div>
                     </div>

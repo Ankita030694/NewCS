@@ -825,7 +825,7 @@ ___________________________
                 <span>Specialized Scenarios</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                10. Special Scenarios: Joint Accounts, Provident Funds &amp; HR Threats
+                10. Scenarios: Joint Accounts, PF and Employer Threats
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Salary deduction dynamics vary across complex family money structures and harsh claims practices: </p>
 

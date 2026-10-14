@@ -441,7 +441,7 @@ export default function LokAdalatPersonalLoanClient() {
                 <span>Credit Bureau Scoring Mechanics.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                5. Credit Bureau Analytics &amp; CIBIL Scoring Dynamics Post-Settlement
+                5. Credit Bureau Analytics and Post-Settlement CIBIL Score
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Understanding how private loans defaults and subsequent Lok Adalat settlements reflect across credit information companies (TransUnion CIBIL. Experian. Equifax. CRIF High Mark) is essential for long-term money rehabilitation: </p>
 

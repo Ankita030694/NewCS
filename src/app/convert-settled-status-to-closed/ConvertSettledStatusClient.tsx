@@ -281,7 +281,7 @@ export default function ConvertSettledStatusClient() {
                 <span>Credit Impact Analysis</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                2. Why Banks Mark Accounts as &quot;Settled&quot; &amp; The 7-Year Credit Damage
+                2. Why Banks Report Settled Status and 7-Year CIBIL Harm
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When a clients undergoes money hardship. Such as job loss. Medical emergency. firm failure. And negotiates a One-Time closure (OTS). The bank agrees to accept an amount lower than the total ledger balance. </p>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> For instance. if your unpaid own loan balance is <strong>₹5,00,000</strong> and the bank accepts <strong>₹2,50,000</strong> to close the case. The remaining <strong>₹2,50,000</strong> is booked as a <em>&quot. Sacrifice / Loss&quot. </em> in the bank&apos. s Profit &amp. Loss account. Under RBI reporting rules. The bank reports two key data points to CIBIL: </p>
@@ -344,7 +344,7 @@ export default function ConvertSettledStatusClient() {
                 <span>Financial Roadmap</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                4. Can You Convert &quot;Settled&quot; to &quot;Closed&quot;? The Legal Payoff Mechanism
+                4. Converting Settled to Closed: The Legal Payoff Option
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Many clients are misled by fraudulent &quot. CIBIL repair&quot. firms who claim they can erase a &quot. Settled&quot. status using insider contacts or automated hack dispute forms without paying the lender. <strong>This is fully false and unlawful.</strong> </p>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Under Indian banking law. The <strong>only lawful and permanent mechanism</strong> to convert a &quot. Settled&quot. account to &quot. Closed&quot. is the <strong>Differential Waiver Payoff</strong>: </p>
@@ -531,7 +531,7 @@ export default function ConvertSettledStatusClient() {
                 <span>Ready-to-Use Legal Template</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                6. Formal Legal Draft Template: Reopening &amp; Full Payoff Request Letter
+                6. Legal Draft Template: Reopening and Full Payoff Letter
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Use this formal legal notice template when addressing the main sum Nodal head and Retail Asset Operations department of your lending bank: </p>
 

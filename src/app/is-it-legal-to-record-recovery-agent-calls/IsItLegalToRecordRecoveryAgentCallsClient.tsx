@@ -197,7 +197,7 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
                 <span>Financial Analysis.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                2. Financial Breakdown: Principal vs. Penal Charges &amp; Settlement Math
+                2. Principal vs Penal Charges and Settlement Math
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Following loan default. Lenders inflate unpaid dues by levying compound extra fees (24% to 36% per annum). Late payment charges. office fees. Over a 180-day default cycle. A main loan default of ₹10,00,000 routinely inflates into a gross claim exceeding ₹13,40,000. </p>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Under RBI accounting directives. Penalty fees represent uncollected memorandum charges rather than released cash. In One-Time talks. Banks prioritize recovering core main loan while waiving uncollected extra fees. When clients prove agent misconduct with verifiable audio recordings. Lenders face RBI debt risk. Expediting deal sign-offs. </p>
@@ -295,7 +295,7 @@ export default function IsItLegalToRecordRecoveryAgentCallsClient() {
                 <span>Credit Bureau Architecture.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                4. CIBIL Score Algorithm, Score Drop Trajectory &amp; Credit Rebuilding
+                4. CIBIL Score Algorithm and Credit Rebuilding Strategy
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Credit bureaus in India (TransUnion CIBIL. Experian. CRIF High Mark. Equifax) compute credit scores using proprietary algorithms weighted across Payment History (35%). Credit use (30%). Credit Mix (15%). History Length (10%). Inquiries (10%). </p>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When an account reaches 90 DPD. The payment history component suffers damage. This causes an fast credit score drop of 150 to 220 points. Often plunging a 780 score down to 560. Following a settled settlement. The lender reports the trade line as &quot. Settled&quot. While this stops further DPD deterioration. The remark indicates past OTS deal. </p>

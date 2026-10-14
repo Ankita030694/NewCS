@@ -732,7 +732,7 @@ Place: [City, State]`}
                 <span>Credit Rebuilding Roadmap</span>
               </div>
               <h2 className="text-xl md:text-2xl font-black text-slate-900 leading-snug">
-                8. Chronological 24-Month Credit Recovery &amp; Loan Eligibility Timeline
+                8. 24-Month Credit Recovery and Loan Eligibility Timeline
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Credit restoration is a predictable. Mathematical process. Here is the realistic chronological roadmap of loan and card fit post-closure: </p>
 

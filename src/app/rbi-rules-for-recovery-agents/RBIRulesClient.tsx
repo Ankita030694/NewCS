@@ -730,7 +730,7 @@ export default function RBIRulesClient() {
                   <p> Under Paragraph 2 of the RBI Master Circular. Their legal responsibilities are strictly confined to the following lawful functions: </p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5 my-3">
                     <div className="p-4 rounded-2xl border border-blue-200 bg-blue-50/50 space-y-2">
-                      <h4 className="font-bold text-blue-950 text-xs sm:text-sm">Lawful Responsibilities</h4>
+                      <h3 className="font-bold text-blue-950 text-xs sm:text-sm">Lawful Responsibilities</h3>
                       <ul className="text-xs text-blue-900 space-y-1.5 list-disc pl-4">
                         <li>Informing the client accurately of the total dues and breakdown of rates.</li>
                         <li>Delivering formal letters. Demand notices. And restructuring dockets issued by the bank.</li>
@@ -740,7 +740,7 @@ export default function RBIRulesClient() {
                       </ul>
                     </div>
                     <div className="p-4 rounded-2xl border border-red-200 bg-red-50/50 space-y-2">
-                      <h4 className="font-bold text-red-950 text-xs sm:text-sm">Ultra Vires (Unlawful) Actions</h4>
+                      <h3 className="font-bold text-red-950 text-xs sm:text-sm">Ultra Vires (Unlawful) Actions</h3>
                       <ul className="text-xs text-red-900 space-y-1.5 list-disc pl-4">
                         <li>Demanding cash payments straight into their own hands or private UPI addresses.</li>
                         <li>Threatening penal arrest. Police detention. Or asset seizure without court orders.</li>
@@ -1852,9 +1852,9 @@ export default function RBIRulesClient() {
                         </span>
                         <span className="text-[11px] font-bold text-blue-900">Statutory Window: 30 Days</span>
                       </div>
-                      <h4 className="text-sm sm:text-base font-bold text-blue-950">
+                      <h3 className="text-sm sm:text-base font-bold text-blue-950">
                         Branch Manager &amp; Bank Grievance Redressal Officer (GRO)
-                      </h4>
+                      </h3>
                       <p className="text-xs sm:text-sm text-blue-900 leading-relaxed"> Every regulated banks and NBFC is mandated by the RBI to appoint designated Grievance Redressal agents at the branch. Hubs. And local levels. You must lodge a formal written reports with your home branch and the designated local GRO. Attaching documented proof of misconduct (call logs. Audio recordings. WhatsApp transcripts). </p>
                       <div className="text-[11px] text-blue-800 bg-white/70 p-2.5 rounded-xl border border-blue-100">
                         <strong>Mandatory Outcome:</strong> The bank must assign an official grievance tracking docket number within 48 hours and provide a substantive written finding within 30 days.
@@ -1869,9 +1869,9 @@ export default function RBIRulesClient() {
                         </span>
                         <span className="text-[11px] font-bold text-indigo-900">Escalation Window: 7–10 Days</span>
                       </div>
-                      <h4 className="text-sm sm:text-base font-bold text-indigo-950">
+                      <h3 className="text-sm sm:text-base font-bold text-indigo-950">
                         Principal Nodal Officer (PNO) &amp; Customer Care Head
-                      </h4>
+                      </h3>
                       <p className="text-xs sm:text-sm text-indigo-900 leading-relaxed"> If the branch manager or local GRO fails to respond within 7 to 10 days. Or provides an evasive. Dismissive reply defending the outside firm. Escalate the matter promptly to the lender&apos. s apex <strong>main loan Nodal agents (PNO)</strong> at their firm headquarters. The PNO holds direct executive formal over outside vendor empanelment and customer service quality. </p>
                       <div className="text-[11px] text-indigo-800 bg-white/70 p-2.5 rounded-xl border border-indigo-100">
                         <strong>Mandatory Action:</strong> Demand the immediate suspension of field visits, de-allocation of the offending agency, and disclosure of the recovery personnel&apos;s IIBF DRA certification records.
@@ -1886,9 +1886,9 @@ export default function RBIRulesClient() {
                         </span>
                         <span className="text-[11px] font-bold text-purple-900">Jurisdiction: Day 31 Onward</span>
                       </div>
-                      <h4 className="text-sm sm:text-base font-bold text-purple-950">
+                      <h3 className="text-sm sm:text-base font-bold text-purple-950">
                         RBI Integrated Ombudsman (CMS Portal: cms.rbi.org.in)
-                      </h4>
+                      </h3>
                       <p className="text-xs sm:text-sm text-purple-900 leading-relaxed"> If 30 calendar days elapse from your Tier 1 reports without a satisfactory written relief. Or if the bank outright rejects your reports while abuse continues. You gain fast legal standing to file an appeal before the <strong>RBI Integrated agents</strong> via the central reports handling System (CMS). </p>
                       <div className="text-[11px] text-purple-800 bg-white/70 p-2.5 rounded-xl border border-purple-100">
                         <strong>Ombudsman Powers:</strong> Can award up to ₹1,00,000 for mental harassment and up to ₹20,00,000 for direct financial damage, while issuing binding regulatory reprimands against the lending entity.
@@ -1999,7 +1999,7 @@ export default function RBIRulesClient() {
                     <div className="p-4 bg-white border border-gray-200 rounded-2xl shadow-2xs space-y-1.5">
                       <div className="flex items-center gap-2">
                         <span className="w-6 h-6 rounded-full bg-blue-600 text-white font-bold text-xs flex items-center justify-center">1</span>
-                        <h4 className="font-bold text-black text-sm sm:text-base">Navigate to the Official Portal &amp; Verify Identity</h4>
+                        <h3 className="font-bold text-black text-sm sm:text-base">Navigate to the Official Portal &amp; Verify Identity</h3>
                       </div>
                       <p className="text-xs sm:text-sm text-black pl-8"> Visit <strong>https://cms.rbi.org.in</strong> and select <em>&quot. File a reports&quot. </em>. Enter your registered mobile number to receive an Aadhaar/mobile OTP check. Never use third-party intermediary websites or unofficial grievance portals. </p>
                     </div>
@@ -2007,7 +2007,7 @@ export default function RBIRulesClient() {
                     <div className="p-4 bg-white border border-gray-200 rounded-2xl shadow-2xs space-y-1.5">
                       <div className="flex items-center gap-2">
                         <span className="w-6 h-6 rounded-full bg-blue-600 text-white font-bold text-xs flex items-center justify-center">2</span>
-                        <h4 className="font-bold text-black text-sm sm:text-base">Select the Regulated Entity (Lender Classification)</h4>
+                        <h3 className="font-bold text-black text-sm sm:text-base">Select the Regulated Entity (Lender Classification)</h3>
                       </div>
                       <p className="text-xs sm:text-sm text-black pl-8"> Select the correct bank tier: <em>Scheduled banks (Public or Private)</em>, <em>Non-Banking money firm (NBFC)</em>, <em>Small Finance Bank</em>. <em>Asset Reconstruction firm (ARC)</em>. Enter the local branch name and your loan or credit card account number. </p>
                     </div>
@@ -2015,7 +2015,7 @@ export default function RBIRulesClient() {
                     <div className="p-4 bg-white border border-gray-200 rounded-2xl shadow-2xs space-y-1.5">
                       <div className="flex items-center gap-2">
                         <span className="w-6 h-6 rounded-full bg-blue-600 text-white font-bold text-xs flex items-center justify-center">3</span>
-                        <h4 className="font-bold text-black text-sm sm:text-base">Accurately Classify the Grievance Category</h4>
+                        <h3 className="font-bold text-black text-sm sm:text-base">Accurately Classify the Grievance Category</h3>
                       </div>
                       <p className="text-xs sm:text-sm text-black pl-8"> Under the primary category drop-down. Select <strong>&quot. Loans and Advances&quot. </strong>. In the sub-category drop-down. Mainly choose <strong>&quot. claims Agent Conduct / abuse / Unfair claims Practices&quot. </strong>. Selecting generic customer service categories will route your reports to standard claims queues instead of the expert agents claims cell. </p>
                     </div>
@@ -2023,7 +2023,7 @@ export default function RBIRulesClient() {
                     <div className="p-4 bg-white border border-gray-200 rounded-2xl shadow-2xs space-y-1.5">
                       <div className="flex items-center gap-2">
                         <span className="w-6 h-6 rounded-full bg-blue-600 text-white font-bold text-xs flex items-center justify-center">4</span>
-                        <h4 className="font-bold text-black text-sm sm:text-base">Upload the Fortified Evidence Dossier (PDF &amp; Audio)</h4>
+                        <h3 className="font-bold text-black text-sm sm:text-base">Upload the Fortified Evidence Dossier (PDF &amp; Audio)</h3>
                       </div>
                       <p className="text-xs sm:text-sm text-black pl-8"> Attach a single full PDF dossier containing: (a) Your Tier 1 reports copy with India Post RPAD delivery proof or bank email acknowledgment ticket. (b) Bank&apos. S unsatisfactory reply or proof that 30 days have elapsed. (c) Telecom CDR call logs. And (d) Transcript of abusive call recordings. Audio files can be uploaded or provided via an authenticated cloud hyperlink. </p>
                     </div>
@@ -2031,7 +2031,7 @@ export default function RBIRulesClient() {
                     <div className="p-4 bg-white border border-gray-200 rounded-2xl shadow-2xs space-y-1.5">
                       <div className="flex items-center gap-2">
                         <span className="w-6 h-6 rounded-full bg-blue-600 text-white font-bold text-xs flex items-center justify-center">5</span>
-                        <h4 className="font-bold text-black text-sm sm:text-base">Obtain CMS Tracking Number &amp; Monitor Conciliation</h4>
+                        <h3 className="font-bold text-black text-sm sm:text-base">Obtain CMS Tracking Number &amp; Monitor Conciliation</h3>
                       </div>
                       <p className="text-xs sm:text-sm text-black pl-8"> Upon submission. You receive an formal CMS reports Reference Number (e.g.<em>CMS/2026/XXXXXX</em>). The agents office serves notice upon the bank&apos. S main loan Nodal agents with a strict 14-day legal deadline to furnish its defense. Telecaller records. And internal voice audit files. </p>
                     </div>
@@ -2058,9 +2058,9 @@ export default function RBIRulesClient() {
                       <div className="inline-block px-2 py-0.5 bg-emerald-700 text-white text-[10px] font-bold rounded-md uppercase">
                         Statutory Remedy 1
                       </div>
-                      <h4 className="text-sm sm:text-base font-bold text-emerald-950">
+                      <h3 className="text-sm sm:text-base font-bold text-emerald-950">
                         Compensation for Mental Agony: Up to ₹1,00,000
-                      </h4>
+                      </h3>
                       <p className="text-xs sm:text-sm text-emerald-900 leading-relaxed"> Under <strong>Clause 15(3) of the Scheme</strong>The agents holds special legal power to award monetary payout of up to <strong>₹1,00,000 (Rupees One Lakh)</strong> straight to the client for loss of time. Mental anguish. Physical abuse. And emotional distress caused by unlawful claims agent conduct. </p>
                     </div>
 
@@ -2068,9 +2068,9 @@ export default function RBIRulesClient() {
                       <div className="inline-block px-2 py-0.5 bg-teal-700 text-white text-[10px] font-bold rounded-md uppercase">
                         Statutory Remedy 2
                       </div>
-                      <h4 className="text-sm sm:text-base font-bold text-teal-950">
+                      <h3 className="text-sm sm:text-base font-bold text-teal-950">
                         Consequential Loss Damages: Up to ₹20,00,000
-                      </h4>
+                      </h3>
                       <p className="text-xs sm:text-sm text-teal-900 leading-relaxed"> Under <strong>Clause 15(2) of the Scheme</strong>If the claims misconduct resulted in measurable money damage. Such as banned bank account debits. Unlawful home seizure. Loss of jobs due to workplace defamation. Or forced distress sales. the agents can award damages up to <strong>₹20,00,000 (Rupees Twenty Lakhs)</strong>. </p>
                     </div>
                   </div>
@@ -2163,9 +2163,9 @@ export default function RBIRulesClient() {
                       <span className="px-2.5 py-1 bg-blue-100 text-blue-800 text-[11px] font-bold rounded-md uppercase">
                         Civil Court Injunction
                       </span>
-                      <h4 className="text-sm sm:text-base font-bold text-black">
+                      <h3 className="text-sm sm:text-base font-bold text-black">
                         Permanent &amp; Temporary Injunction Under Order 39 Rules 1 &amp; 2 CPC
-                      </h4>
+                      </h3>
                       <p className="text-xs sm:text-sm text-black leading-relaxed"> clients facing persistent doorstep threats can file a Civil Suit before the City Civil Court or Senior Civil Judge seeking a <strong>Permanent Injunction</strong> restraining the bank. Its directors. Branch managers. Claims firms. And freelance telecallers from visiting the client&apos. S residence. Office. Or contacting kin. Courts routinely grant ad-interim ex-parte injunctions prohibiting lenders from deploying field agents within a 500-meter radius of the client&apos. s home. </p>
                     </div>
 
@@ -2174,9 +2174,9 @@ export default function RBIRulesClient() {
                       <span className="px-2.5 py-1 bg-indigo-100 text-indigo-800 text-[11px] font-bold rounded-md uppercase">
                         Tortious Damages Suit
                       </span>
-                      <h4 className="text-sm sm:text-base font-bold text-black">
+                      <h3 className="text-sm sm:text-base font-bold text-black">
                         Civil Suit for Damages for Defamation &amp; Intentional Infliction of Distress
-                      </h4>
+                      </h3>
                       <p className="text-xs sm:text-sm text-black leading-relaxed"> Under Indian tort law. A lender that damages a citizen&apos. S social reputation by shouting in residential societies. Informing office employers. Or circulating WhatsApp messages can be sued for <strong>large Tortious Damages</strong>. Indian courts have awarded damages ranging from ₹5 Lakhs to ₹50 Lakhs for mental anguish. Loss of livelihood. And loss of dignity resulting from unlawful claims. </p>
                     </div>
 
@@ -2185,9 +2185,9 @@ export default function RBIRulesClient() {
                       <span className="px-2.5 py-1 bg-purple-100 text-purple-800 text-[11px] font-bold rounded-md uppercase">
                         Advocates Act Representation
                       </span>
-                      <h4 className="text-sm sm:text-base font-bold text-black">
+                      <h3 className="text-sm sm:text-base font-bold text-black">
                         Formal Legal Representation Notice Under Advocates Act, 1961
-                      </h4>
+                      </h3>
                       <p className="text-xs sm:text-sm text-black leading-relaxed"> Under Section 30 of the <em>lawyers Act, 1961</em>An enrolled lawyers has the legal right to represent clients across all forums. When CredSettle’s banking lawsuits lawyers serve a formal <strong>Legal legal help &amp. Cease-and-Desist Notice</strong> upon the bank. The lender is by law mandated to direct all future correspondence solely to the lawyers’s chamber. Any subsequent claims agent visit or harassing call straight to the client constitutes contempt and actionable abuse. </p>
                     </div>
 
@@ -2196,9 +2196,9 @@ export default function RBIRulesClient() {
                       <span className="px-2.5 py-1 bg-rose-100 text-rose-800 text-[11px] font-bold rounded-md uppercase">
                         High Court Constitutional Remedy
                       </span>
-                      <h4 className="text-sm sm:text-base font-bold text-black">
+                      <h3 className="text-sm sm:text-base font-bold text-black">
                         Writ Petition Under Article 226 of the Constitution of India
-                      </h4>
+                      </h3>
                       <p className="text-xs sm:text-sm text-black leading-relaxed"> Where public sector banks or major private lenders violate fundamental human rights through organized musclemen. Clients can petition their state High Court under Article 226 for a <strong>Writ of Mandamus</strong> directing the Reserve Bank of India to enforce its Master Circulars and hold the bank&apos. s managing director personally liable for contempt of constitutional liberty. </p>
                     </div>
                   </div>
@@ -2220,9 +2220,9 @@ export default function RBIRulesClient() {
                   <p> Coercive. Humiliating. Or unlawful debt claims is recognized under clients law as both a <strong>&quot. Deficiency in Service&quot. </strong> under Section 2(11) and an <strong>&quot. Unfair Trade Practice&quot. </strong> under Section 2(47). </p>
 
                   <div className="p-4 sm:p-5 bg-blue-50/60 border border-blue-200 rounded-2xl space-y-3 my-3">
-                    <h4 className="font-bold text-blue-950 text-sm sm:text-base">
+                    <h3 className="font-bold text-blue-950 text-sm sm:text-base">
                       Why Consumer Commissions Are Devastating for Errant Banks:
-                    </h4>
+                    </h3>
                     <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-blue-900">
                       <li> <strong>Vicarious debt risk Without Exception:</strong> clients forums hold banks 100% liable for the actions of their outside claims firms. Rejecting defenses that the agent was an &quot. independent contractor&quot. </li>
                       <li> <strong>Punitive Damages for Mental abuse:</strong> areas clients Commissions regularly award damages between ₹50,000 to ₹10,00,000 for mental agony. Defamation. And lawsuits costs against trade lenders. </li>
@@ -2519,7 +2519,7 @@ export default function RBIRulesClient() {
                     <div className="p-4 sm:p-5 bg-white border border-gray-200 rounded-2xl shadow-2xs space-y-1.5">
                       <div className="flex items-center gap-2">
                         <span className="px-2 py-0.5 bg-blue-600 text-white font-bold text-[10px] rounded uppercase">TRAI Mandate</span>
-                        <h4 className="font-bold text-black text-sm sm:text-base">TRAI &amp; DoT 160-Series Dedicated Telecalling Mandate</h4>
+                        <h3 className="font-bold text-black text-sm sm:text-base">TRAI &amp; DoT 160-Series Dedicated Telecalling Mandate</h3>
                       </div>
                       <p className="text-xs sm:text-sm text-black leading-relaxed"> Under joint directives from TRAI and the unit of Telecommunications. All legitimate trade banking and claims calls must originate strictly from the dedicated <strong>&apos. 160&apos. series number block</strong> (e.g., <em>1600XXXXXX</em>). Banks and outside firms are strictly prohibited from making debt claims calls from standard 10-digit private mobile numbers (e.g. 98XXXXXXXX. 99XXXXXXXX) or unregistered VoIP virtual numbers. Any claims call originating from a non-160 series number can be promptly reported as unlawful telemarketing and cyber abuse. </p>
                     </div>
@@ -2528,7 +2528,7 @@ export default function RBIRulesClient() {
                     <div className="p-4 sm:p-5 bg-white border border-gray-200 rounded-2xl shadow-2xs space-y-1.5">
                       <div className="flex items-center gap-2">
                         <span className="px-2 py-0.5 bg-indigo-600 text-white font-bold text-[10px] rounded uppercase">AI Surveillance</span>
-                        <h4 className="font-bold text-black text-sm sm:text-base">Mandatory AI-Powered Speech Analytics &amp; Voice Auditing</h4>
+                        <h3 className="font-bold text-black text-sm sm:text-base">Mandatory AI-Powered Speech Analytics &amp; Voice Auditing</h3>
                       </div>
                       <p className="text-xs sm:text-sm text-black leading-relaxed"> The RBI mandates all Scheduled banks and large NBFCs to deploy automated speech recognition and natural language processing (NLP) algorithms on 100% of outbound claims calls. These AI compliance engines automatically flag and log harsh decibel levels. Shouting. Profanity. Abusive vocabulary. And calls initiated outside the permitted 08:00 AM to 07:00 PM window. Generating auditable compliance logs that must be submitted to RBI checks teams. </p>
                     </div>
@@ -2537,7 +2537,7 @@ export default function RBIRulesClient() {
                     <div className="p-4 sm:p-5 bg-white border border-gray-200 rounded-2xl shadow-2xs space-y-1.5">
                       <div className="flex items-center gap-2">
                         <span className="px-2 py-0.5 bg-purple-600 text-white font-bold text-[10px] rounded uppercase">Privacy Law</span>
-                        <h4 className="font-bold text-black text-sm sm:text-base">DPDP Act 2023 Enforcement: Penalties up to ₹250 Crores</h4>
+                        <h3 className="font-bold text-black text-sm sm:text-base">DPDP Act 2023 Enforcement: Penalties up to ₹250 Crores</h3>
                       </div>
                       <p className="text-xs sm:text-sm text-black leading-relaxed"> With full operationalization of the <em>online private Data safety Act. 2023</em>Lending institutions face legal penalties of up to <strong>₹250 Crores</strong> for sharing customer phone records. Loan arrears. Or addresses with unverified claims vendors without valid consent. clients can file reports straight with the Data safety Board of India for banned data processing. </p>
                     </div>
@@ -2546,7 +2546,7 @@ export default function RBIRulesClient() {
                     <div className="p-4 sm:p-5 bg-white border border-gray-200 rounded-2xl shadow-2xs space-y-1.5">
                       <div className="flex items-center gap-2">
                         <span className="px-2 py-0.5 bg-emerald-600 text-white font-bold text-[10px] rounded uppercase">Consumer Access</span>
-                        <h4 className="font-bold text-black text-sm sm:text-base">Mandatory Principal Nodal Officer Links on All Digital Notices</h4>
+                        <h3 className="font-bold text-black text-sm sm:text-base">Mandatory Principal Nodal Officer Links on All Digital Notices</h3>
                       </div>
                       <p className="text-xs sm:text-sm text-black leading-relaxed"> Every automated payment reminder. SMS notice. Or WhatsApp alert dispatched by banks or claims firms must incorporate a direct. Clickable hyperlink routing the customer to the bank&apos. s main loan Nodal agents reports desk and the formal RBI CMS portal (<em>cms.rbi.org.in</em>). Omitting this grievance link renders the online notice by law defective under RBI customer service directives. </p>
                     </div>
@@ -2555,7 +2555,7 @@ export default function RBIRulesClient() {
                     <div className="p-4 sm:p-5 bg-white border border-gray-200 rounded-2xl shadow-2xs space-y-1.5">
                       <div className="flex items-center gap-2">
                         <span className="px-2 py-0.5 bg-rose-600 text-white font-bold text-[10px] rounded uppercase">Cyber Crime</span>
-                        <h4 className="font-bold text-black text-sm sm:text-base">Criminalization of Digital Contact Scraping &amp; Morphing</h4>
+                        <h3 className="font-bold text-black text-sm sm:text-base">Criminalization of Digital Contact Scraping &amp; Morphing</h3>
                       </div>
                       <p className="text-xs sm:text-sm text-black leading-relaxed"> The central bank&apos. s online Lending rules strictly prohibit lending applications from requesting access to a user&apos. S contact book. Photo gallery. Or device storage. Attempting to message contacts or circulate morphed photos is classified as non-bailable cyber extortion punishable under Sections 66E. 67. And 67A of the Information Technology Act and Bharatiya Nyaya Sanhita. Holding both app developers and lending executives criminally liable. </p>
                     </div>

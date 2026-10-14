@@ -606,7 +606,7 @@ export default function HowToConvinceBankForOneTimeSettlementClient() {
             <p> A One-Time Settlement represents a win-win trade OTS deal: the client is liberated from the relentless psychological and legal pressure of unpaid debts through a settled debt waiver. Meanwhile. The bank reclaims a significant portion of its cash upfront without squandering further resources on uncertain claims lawsuits. Navigating this process. However. Requires a nuanced understanding of bank credit policies. Reserve provisioning rules. And the legal parameters governing OTS deals in India. </p>
 
             <div className="p-4 sm:p-5 bg-blue-50/70 border-l-4 border-blue-600 rounded-r-xl">
-              <h4 className="font-bold text-black text-sm sm:text-base mb-1">Key Strategic Insight</h4>
+              <h3 className="font-bold text-black text-sm sm:text-base mb-1">Key Strategic Insight</h3>
               <p className="text-black text-xs sm:text-sm"> Under the Reserve Bank of India’s landmark <em>Prudential rules for relief of Stressed Assets</em> and subsequent Master Directions. All trade lenders are mandated to institute transparent. Board-approved OTS deals policies. A client who approaches the bank with an empirically verified hardship dossier can successfully secure large main loan haircuts and complete penal interest waivers. </p>
             </div>
           </div>
@@ -702,27 +702,27 @@ export default function HowToConvinceBankForOneTimeSettlementClient() {
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm sm:text-base mb-2">Stage 1: Asset Classification (NPA Tagging)</h4>
+                <h3 className="font-bold text-black text-sm sm:text-base mb-2">Stage 1: Asset Classification (NPA Tagging)</h3>
                 <p className="text-xs sm:text-sm text-slate-800"> When payments are delayed past 90 days. The loan is classified as a Non-Performing Asset (NPA). Under RBI norms. The bank must set aside cash reserves (provisioning) of 15% to 100% against this defaulted exposure. </p>
               </div>
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm sm:text-base mb-2">Stage 2: Stressed Asset Transfer</h4>
+                <h3 className="font-bold text-black text-sm sm:text-base mb-2">Stage 2: Stressed Asset Transfer</h3>
                 <p className="text-xs sm:text-sm text-slate-800"> The loan file shifts from the local branch to the local Stressed Assets claims Branch (SARB) or Special claims Cell. Where specialized claims officers are evaluated on debt claims metrics. </p>
               </div>
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm sm:text-base mb-2">Stage 3: Formal Hardship Appraisal</h4>
+                <h3 className="font-bold text-black text-sm sm:text-base mb-2">Stage 3: Formal Hardship Appraisal</h3>
                 <p className="text-xs sm:text-sm text-slate-800"> The client submits an OTS proposal supported by documentary proof proving genuine hardship. Bankruptcy. And absence of attachable trade assets. </p>
               </div>
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm sm:text-base mb-2">Stage 4: Net Present Value (NPV) Assessment</h4>
+                <h3 className="font-bold text-black text-sm sm:text-base mb-2">Stage 4: Net Present Value (NPV) Assessment</h3>
                 <p className="text-xs sm:text-sm text-slate-800"> The bank’s internal credit boards performs a Net Present Value calculation. Comparing the fast cash offer against the estimated realization from prolonged lawsuits over 3 to 7 years. </p>
               </div>
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm sm:text-base mb-2">Stage 5: Sanction Letter Issuance</h4>
+                <h3 className="font-bold text-black text-sm sm:text-base mb-2">Stage 5: Sanction Letter Issuance</h3>
                 <p className="text-xs sm:text-sm text-slate-800"> Upon boards approval. The bank issues a written OTS Sanction Letter specifying the approved settlement sum. Exact payment deadlines. And account closure terms. </p>
               </div>
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm sm:text-base mb-2">Stage 6: Execution &amp; Closure</h4>
+                <h3 className="font-bold text-black text-sm sm:text-base mb-2">Stage 6: Execution &amp; Closure</h3>
                 <p className="text-xs sm:text-sm text-slate-800"> The client remits funds straight into their designated loan account. The bank marks the facility closed. Releases any held security. And issues the No-Dues letter. </p>
               </div>
             </div>
@@ -747,7 +747,7 @@ export default function HowToConvinceBankForOneTimeSettlementClient() {
             </ul>
 
             <div className="p-4 sm:p-5 bg-amber-50/80 border-l-4 border-amber-600 rounded-r-xl my-4">
-              <h4 className="font-bold text-black text-sm sm:text-base mb-1">Strict Disqualification Criteria</h4>
+              <h3 className="font-bold text-black text-sm sm:text-base mb-1">Strict Disqualification Criteria</h3>
               <p className="text-black text-xs sm:text-sm"> clients declared as <strong>Willful Defaulters</strong> under RBI Master Circular (DBR.No.CID.BC.22/20.16.003/2015-16). Individuals implicated in money fraud. Siphoning or diversion of loan funds to sister concerns. Or those with undisclosed attachable real estate and liquid investments are strictly barred from receiving OTS benefits. </p>
             </div>
           </div>
@@ -845,7 +845,7 @@ export default function HowToConvinceBankForOneTimeSettlementClient() {
               <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-lg">
                 <span className="flex-shrink-0 w-7 h-7 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xs">1</span>
                 <div>
-                  <h4 className="font-bold text-black text-sm">Step 1: Ledger Statement Procurement</h4>
+                  <h3 className="font-bold text-black text-sm">Step 1: Ledger Statement Procurement</h3>
                   <p className="text-slate-800 text-xs sm:text-sm">Apply for and secure an authenticated. Updated Loan Account record from your home branch. Segregate the figures into: (a) Sanctioned main loan. (b) Disbursed Amount. (c) Repaid main loan. (d) Unpaid base loan. (e) Normal Accrued Interest. And (f) Compounded Penal Charges.</p>
                 </div>
               </div>
@@ -853,7 +853,7 @@ export default function HowToConvinceBankForOneTimeSettlementClient() {
               <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-lg">
                 <span className="flex-shrink-0 w-7 h-7 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xs">2</span>
                 <div>
-                  <h4 className="font-bold text-black text-sm">Step 2: Hardship Evidence Collation</h4>
+                  <h3 className="font-bold text-black text-sm">Step 2: Hardship Evidence Collation</h3>
                   <p className="text-slate-800 text-xs sm:text-sm">Assemble a full documentary dossier establishing why your income contracted permanently or temporarily. Include hospital discharge summaries. Employment separation letters. ITR acknowledgments, or GST cancellation filings.</p>
                 </div>
               </div>
@@ -861,7 +861,7 @@ export default function HowToConvinceBankForOneTimeSettlementClient() {
               <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-lg">
                 <span className="flex-shrink-0 w-7 h-7 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xs">3</span>
                 <div>
-                  <h4 className="font-bold text-black text-sm">Step 3: Repayment Corpus Mobilization</h4>
+                  <h3 className="font-bold text-black text-sm">Step 3: Repayment Corpus Mobilization</h3>
                   <p className="text-slate-800 text-xs sm:text-sm">Before approaching the bank with a local figure. Secure the proposed settlement funds in an accessible liquid account (from private savings. Provident fund withdrawals. Or assistance from relatives). Do not offer what you cannot promptly deliver.</p>
                 </div>
               </div>
@@ -869,7 +869,7 @@ export default function HowToConvinceBankForOneTimeSettlementClient() {
               <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-lg">
                 <span className="flex-shrink-0 w-7 h-7 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xs">4</span>
                 <div>
-                  <h4 className="font-bold text-black text-sm">Step 4: Formal OTS Proposal Submission</h4>
+                  <h3 className="font-bold text-black text-sm">Step 4: Formal OTS Proposal Submission</h3>
                   <p className="text-slate-800 text-xs sm:text-sm">Draft a formal. Legally structured OTS request letter addressed to the Competent formal (Branch Head / local Stressed Assets Branch Manager). Deliver it via Registered Post AD / Speed Post and formal email. Retaining acknowledgment copies.</p>
                 </div>
               </div>
@@ -877,7 +877,7 @@ export default function HowToConvinceBankForOneTimeSettlementClient() {
               <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-lg">
                 <span className="flex-shrink-0 w-7 h-7 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xs">5</span>
                 <div>
-                  <h4 className="font-bold text-black text-sm">Step 5: Bilateral Committee Negotiation</h4>
+                  <h3 className="font-bold text-black text-sm">Step 5: Bilateral Committee Negotiation</h3>
                   <p className="text-slate-800 text-xs sm:text-sm">Engage straight with the internal Settlement alert boards or designated claims officers. Counter high starting demands by anchoring firmly around the unpaid main loan and verifiable hardship parameters.</p>
                 </div>
               </div>
@@ -885,7 +885,7 @@ export default function HowToConvinceBankForOneTimeSettlementClient() {
               <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-lg">
                 <span className="flex-shrink-0 w-7 h-7 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xs">6</span>
                 <div>
-                  <h4 className="font-bold text-black text-sm">Step 6: Written Sanction &amp; Monitored Remittance</h4>
+                  <h3 className="font-bold text-black text-sm">Step 6: Written Sanction &amp; Monitored Remittance</h3>
                   <p className="text-slate-800 text-xs sm:text-sm">Obtain an formal. Signed OTS Sanction Letter on formal bank stationery. Verify critical legal clauses before depositing the settlement sum straight into the designated loan account via RTGS/NEFT.</p>
                 </div>
               </div>
@@ -893,7 +893,7 @@ export default function HowToConvinceBankForOneTimeSettlementClient() {
               <div className="flex gap-3 items-start p-3 bg-slate-50 border border-slate-200 rounded-lg">
                 <span className="flex-shrink-0 w-7 h-7 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xs">7</span>
                 <div>
-                  <h4 className="font-bold text-black text-sm">Step 7: NDC Issuance &amp; Credit Bureau Reconciliation</h4>
+                  <h3 className="font-bold text-black text-sm">Step 7: NDC Issuance &amp; Credit Bureau Reconciliation</h3>
                   <p className="text-slate-800 text-xs sm:text-sm">Collect the physical No-Dues letter. Retrieve all deposited security cheques. Cancelled ECS mandates. Or property title deeds. Ensure the bank reports the account status as &quot. Settled&quot. To CIBIL. Experian. Equifax. And CRIF High Mark within 30 days.</p>
                 </div>
               </div>
@@ -1227,22 +1227,22 @@ export default function HowToConvinceBankForOneTimeSettlementClient() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm sm:text-base mb-1">Borrower Age &amp; Employability</h4>
+                <h3 className="font-bold text-black text-sm sm:text-base mb-1">Borrower Age &amp; Employability</h3>
                 <p className="text-xs sm:text-sm text-slate-800">A 58-year-old retired client with no pension has near-zero future earning capacity. Making deep discounts readily justifiable. A 28-year-old software engineer will face higher resistance unless permanent disability is proven.</p>
               </div>
 
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm sm:text-base mb-1">Duration of Default &amp; Asset Vintage</h4>
+                <h3 className="font-bold text-black text-sm sm:text-base mb-1">Duration of Default &amp; Asset Vintage</h3>
                 <p className="text-xs sm:text-sm text-slate-800">A loan defaulted for 3 years is considered a dormant &quot. hard-core NPA&quot. Banks offer vastly steeper discounts on older vintage debts than on accounts defaulted for just 4 months.</p>
               </div>
 
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm sm:text-base mb-1">Status of Co-Borrowers and Guarantors</h4>
+                <h3 className="font-bold text-black text-sm sm:text-base mb-1">Status of Co-Borrowers and Guarantors</h3>
                 <p className="text-xs sm:text-sm text-slate-800">If a solvent co-applicant or third-party guarantor with high net worth exists. The bank will refuse an OTS and target the guarantor instead. The absence of solvent guarantors accelerates OTS approval.</p>
               </div>
 
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm sm:text-base mb-1">Speed of Lump-Sum Remittance</h4>
+                <h3 className="font-bold text-black text-sm sm:text-base mb-1">Speed of Lump-Sum Remittance</h3>
                 <p className="text-xs sm:text-sm text-slate-800">A client offering ₹4,00,000 payable within 15 days will receive a much larger haircut than a client offering ₹5,00,000 payable across 12 monthly installments.</p>
               </div>
             </div>
@@ -1450,7 +1450,7 @@ export default function HowToConvinceBankForOneTimeSettlementClient() {
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p> settling a 100% waiver of penal interest. Bounce fees. And late payment penalties is virtually non-negotiable in any standard OTS. In fact. Banks consider penal interest as a bookkeeping lever rather than real cost of cash. </p>
             <div className="p-4 sm:p-5 bg-blue-50/70 border-l-4 border-blue-600 rounded-r-xl my-4">
-              <h4 className="font-bold text-black text-sm sm:text-base mb-1">RBI Fair Lending Practice Directive (2024)</h4>
+              <h3 className="font-bold text-black text-sm sm:text-base mb-1">RBI Fair Lending Practice Directive (2024)</h3>
               <p className="text-black text-xs sm:text-sm"> Under the RBI Master Direction on <em>Fair Practices Code for Lenders</em> and circulars on <em>Penal Charges in Loan Accounts</em>The central bank explicitly mandated that penal charges must not be compounded into the base loan or used as a income-generating tool. In any OTS deals. 100% of total penal interest. Overdue processing charges. And advocate notice costs are routinely wiped clean. </p>
             </div>
             <p> also. Contractual interest accrued after the loan&apos. S NPA classification date is also reversed under RBI income recognition norms (IRAC). Since banks cannot book uncollected interest on non-performing assets into their profit records. </p>
@@ -1570,12 +1570,12 @@ export default function HowToConvinceBankForOneTimeSettlementClient() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm sm:text-base mb-1">Scenario A: Vehicle Remains with Borrower</h4>
+                <h3 className="font-bold text-black text-sm sm:text-base mb-1">Scenario A: Vehicle Remains with Borrower</h3>
                 <p className="text-xs sm:text-sm text-slate-800">The client wishes to settle the loan and retain the car. In this case. The bank will calculate the current depreciated market value of the car. The payout sum cannot fall below the vehicle&apos. s realistic market liquidation value. Upon settlement. The bank must issue RTO Form 35 to remove hypothecation from the RC.</p>
               </div>
 
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm sm:text-base mb-1">Scenario B: Post-Auction Deficiency Balance</h4>
+                <h3 className="font-bold text-black text-sm sm:text-base mb-1">Scenario B: Post-Auction Deficiency Balance</h3>
                 <p className="text-xs sm:text-sm text-slate-800">The bank repossessed and auctioned the vehicle. But the auction proceeds were insufficient to cover the loan. Leaving a &quot. deficiency balance&quot. of ₹2 to ₹5 Lakhs. Since the asset is already sold. This deficiency balance is now 100% no-pledge debt. This allows the client to settle it at a steep <strong>60% to 75% haircut</strong>.</p>
               </div>
             </div>
@@ -1694,7 +1694,7 @@ export default function HowToConvinceBankForOneTimeSettlementClient() {
             <p> This landmark rules introduced critical client rights: </p>
 
             <div className="p-4 sm:p-5 bg-blue-50/70 border-l-4 border-blue-600 rounded-r-xl my-4 space-y-2">
-              <h4 className="font-bold text-black text-sm sm:text-base">Core Mandates of the RBI June 2023 Framework:</h4>
+              <h3 className="font-bold text-black text-sm sm:text-base">Core Mandates of the RBI June 2023 Framework:</h3>
               <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-black">
                 <li><strong>strict Board-Approved Policy:</strong> Every scheduled bank and NBFC must lay down a transparent. Non-discriminatory policy detailing OTS deal terms. Haircut ceilings, and delegation of powers.</li>
                 <li><strong>Universal Eligibility:</strong> All stressed retail and firm loans accounts are eligible for consideration under OTS deal policies. Ending arbitrary exclusions.</li>
@@ -1716,22 +1716,22 @@ export default function HowToConvinceBankForOneTimeSettlementClient() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm sm:text-base mb-1">RBI Fair Practices Code (FPC)</h4>
+                <h3 className="font-bold text-black text-sm sm:text-base mb-1">RBI Fair Practices Code (FPC)</h3>
                 <p className="text-xs sm:text-sm text-slate-800">Mandates lenders to maintain transparency in loan contracts. Prohibit illegal charges. And provide clients with 30-day notices before initiating enforcement action.</p>
               </div>
 
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm sm:text-base mb-1">Guidelines on Recovery Agents (2022)</h4>
+                <h3 className="font-bold text-black text-sm sm:text-base mb-1">Guidelines on Recovery Agents (2022)</h3>
                 <p className="text-xs sm:text-sm text-slate-800">Lenders are strictly liable for the actions of claims agents. Abuse, physical threats, abusive language. Or public shaming triggers severe monetary penalties and RBI sanctions against the bank.</p>
               </div>
 
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm sm:text-base mb-1">Release of Movable/Immovable Property (Sept 2023)</h4>
+                <h3 className="font-bold text-black text-sm sm:text-base mb-1">Release of Movable/Immovable Property (Sept 2023)</h3>
                 <p className="text-xs sm:text-sm text-slate-800">Banks are legally mandated to release all original property papers and remove charges registered with CERSAI within <strong>30 days</strong> of full settlement payment. Failure to do so incurs a penalty of ₹5,000 per day payable to the client.</p>
               </div>
 
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm sm:text-base mb-1">Fair Penal Charges Framework (Jan 2024)</h4>
+                <h3 className="font-bold text-black text-sm sm:text-base mb-1">Fair Penal Charges Framework (Jan 2024)</h3>
                 <p className="text-xs sm:text-sm text-slate-800">Prohibits compounding of penal interest. Penal levies can only be levied as simple &quot. penal charges&quot. without any interest calculation on overdue amounts.</p>
               </div>
             </div>
@@ -1876,7 +1876,7 @@ export default function HowToConvinceBankForOneTimeSettlementClient() {
             <p> Fraudulent settlement letters issued by rogue claims agents are a pervasive menace. Never deposit money until you have verified the following six authentication checkpoints: </p>
 
             <div className="p-4 sm:p-5 bg-amber-50/80 border-l-4 border-amber-600 rounded-r-xl my-4 space-y-2">
-              <h4 className="font-bold text-black text-sm sm:text-base">OTS Letter Verification Checklist</h4>
+              <h3 className="font-bold text-black text-sm sm:text-base">OTS Letter Verification Checklist</h3>
               <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-black">
                 <li><strong>formal Bank Stationery:</strong> Must be on authentic bank letterhead displaying the bank&apos. S company logo. CIN. And Zonal/Branch office address.</li>
                 <li><strong>Unique Dispatch / Reference Number:</strong> Every valid sanction letter carries a CBS reference number trackable in the bank&apos. s internal intranet.</li>
@@ -2003,19 +2003,19 @@ export default function HowToConvinceBankForOneTimeSettlementClient() {
             <p> Avoid these costly missteps that OTS deal client rights across India: </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm mb-1 text-red-600">Mistake 1: Depositing Money on Verbal Assurance</h4>
+                <h3 className="font-bold text-black text-sm mb-1 text-red-600">Mistake 1: Depositing Money on Verbal Assurance</h3>
                 <p className="text-xs text-slate-800">Never deposit a single rupee because a claims agent told you &quot. Just pay ₹50,000 and the loan will be closed.&quot. The bank will simply adjust that money against overdue interest and continue demanding the full base loan.</p>
               </div>
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm mb-1 text-red-600">Mistake 2: Missing Payment Deadlines</h4>
+                <h3 className="font-bold text-black text-sm mb-1 text-red-600">Mistake 2: Missing Payment Deadlines</h3>
                 <p className="text-xs text-slate-800">Failing to pay the sanctioned payout sum by the exact due date invalidates the pacts and forfeits all settled discounts.</p>
               </div>
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm mb-1 text-red-600">Mistake 3: Ignoring Court Summons</h4>
+                <h3 className="font-bold text-black text-sm mb-1 text-red-600">Mistake 3: Ignoring Court Summons</h3>
                 <p className="text-xs text-slate-800">Failing to appear in court after receiving Section 138 NI Act or Section 25 PSSA summons leads to bailable or non-bailable warrants. Severely weakening your talks leverage.</p>
               </div>
               <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl">
-                <h4 className="font-bold text-black text-sm mb-1 text-red-600">Mistake 4: Not Collecting the NDC</h4>
+                <h3 className="font-bold text-black text-sm mb-1 text-red-600">Mistake 4: Not Collecting the NDC</h3>
                 <p className="text-xs text-slate-800">Assuming payment alone ends the relationship without obtaining a physical No-Dues letter leaves the door open for future claims disputes.</p>
               </div>
             </div>
@@ -2031,7 +2031,7 @@ export default function HowToConvinceBankForOneTimeSettlementClient() {
           <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
             <p> Distressed debtors are prime targets for predatory settlement syndicates and rogue claims agents. Be vigilant against these widespread fraudulent schemes: </p>
             <div className="p-4 sm:p-5 bg-red-50/80 border-l-4 border-red-600 rounded-r-xl my-4 space-y-2">
-              <h4 className="font-bold text-black text-sm sm:text-base">Major Settlement Fraud Patterns:</h4>
+              <h3 className="font-bold text-black text-sm sm:text-base">Major Settlement Fraud Patterns:</h3>
               <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-black">
                 <li><strong>The Fake PDF Sanction Letter:</strong> Fraudulent claims agents forge bank letterheads and issue counterfeit OTS letters over WhatsApp. Asking clients to transfer money via UPI to an firm account.</li>
                 <li><strong>The &quot. Guaranteed CIBIL Erasure&quot. Scam:</strong> Unscrupulous operators promise to &quot. completely delete default records from CIBIL within 7 days&quot. for an advance fee. Credit bureaus operate under strict algorithmic legal controls under CICRA 2005. nobody can manually delete legitimate default history.</li>

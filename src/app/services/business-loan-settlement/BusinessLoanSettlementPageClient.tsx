@@ -641,17 +641,17 @@ export default function BusinessLoanSettlementPageClient() {
                 <p> Unlike loan restructuring. Which merely reschedules loan tenure. Reduces interest rates. Or adds a temporary moratorium while keeping the main loan debt intact. a settlement results in the fast extinguishment of the debt ledger. In exchange for the agreed settlement payment. The bank waives 100% of built up penal interest. Cancels accrued compound interest. Absorbs a settled haircut on the core base loan. Withdraws ongoing legal petitions. And issues an irrevocable No Dues letter (NDC). </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
                   <div className="bg-white border border-gray-300 rounded-xl p-3.5 shadow-2xs space-y-1.5">
-                    <h4 className="font-bold text-black flex items-center gap-1.5">
+                    <h3 className="font-bold text-black flex items-center gap-1.5">
                       <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
                       Irrevocable Legal Discharge
-                    </h4>
+                    </h3>
                     <p className="text-black font-normal"> The lender issues a formal settlement Sanction Letter followed by an authenticated No Dues letter (NDC). Legally barring all future claims attempts across all legal forums. </p>
                   </div>
                   <div className="bg-white border border-gray-300 rounded-xl p-3.5 shadow-2xs space-y-1.5">
-                    <h4 className="font-bold text-black flex items-center gap-1.5">
+                    <h3 className="font-bold text-black flex items-center gap-1.5">
                       <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
                       Collateral &amp; Guarantee Release
-                    </h4>
+                    </h3>
                     <p className="text-black font-normal"> Pledged title deeds. Trade machinery charges registered with ROC/CERSAI. And private guarantees of directors and third parties are formally vacated and returned. </p>
                   </div>
                 </div>
@@ -704,7 +704,7 @@ export default function BusinessLoanSettlementPageClient() {
                   <p> Settling a firm loans requires strategic foresight. Disciplined papers. assertive legal support. Unprepared clients who walk into bank branches asking for discounts are routinely dismissed. Redirected to junior claims staff. Or coerced into signing unsustainable payment commitments that reset the statute of limitations. </p>
                 <p> The correct roadmap begins with halting informal oral exchanges with claims agents and serving a formal legal support notice. This channels all future correspondence through authorized legal counsel. Next. Conduct an exhaustive audits of the loan ledger to identify unlawful penal compounding. Uncredited subsidies. misapplied interest rates. Finally. Formulate a data-backed OTS offer demonstrating that the proposed settlement sum represents the maximum recoverable value under existing market constraints. </p>
                 <div className="bg-slate-50 border border-slate-300 rounded-xl p-4 text-xs space-y-2 text-black">
-                  <h4 className="font-bold text-black text-sm">Strategic Rules for Commercial Borrowers:</h4>
+                  <h3 className="font-bold text-black text-sm">Strategic Rules for Commercial Borrowers:</h3>
                   <ul className="list-disc pl-4 space-y-1 font-normal">
                     <li>Never submit an OTS request without verifiable proof of money bankruptcy or trade distress.</li>
                     <li>Always insist on an formal written settlement Sanction Letter issued under the signature of an authorized Scale-IV/V officer or Zonal boards head.</li>
@@ -2247,10 +2247,10 @@ export default function BusinessLoanSettlementPageClient() {
                 <div className="text-black leading-relaxed space-y-3 sm:space-y-4 text-xs sm:text-sm md:text-base">
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
                   <div className="p-3.5 bg-emerald-50/50 border border-emerald-300 rounded-xl space-y-2">
-                    <h4 className="font-bold text-emerald-950 text-sm flex items-center gap-1.5">
+                    <h3 className="font-bold text-emerald-950 text-sm flex items-center gap-1.5">
                       <span className="w-2 h-2 rounded-full bg-emerald-600"></span>
                       CRITICAL DO&apos;S
-                    </h4>
+                    </h3>
                     <ul className="text-black space-y-1.5 list-disc pl-4 font-normal">
                       <li>Channel all contact through registered legal counsel via formal support notices.</li>
                       <li>Maintain rigorous copies of audited money accounts. GST returns. And proof of trade distress.</li>
@@ -2260,10 +2260,10 @@ export default function BusinessLoanSettlementPageClient() {
                     </ul>
                   </div>
                   <div className="p-3.5 bg-red-50/50 border border-red-300 rounded-xl space-y-2">
-                    <h4 className="font-bold text-red-950 text-sm flex items-center gap-1.5">
+                    <h3 className="font-bold text-red-950 text-sm flex items-center gap-1.5">
                       <span className="w-2 h-2 rounded-full bg-red-600"></span>
                       DANGEROUS DON&apos;TS
-                    </h4>
+                    </h3>
                     <ul className="text-black space-y-1.5 list-disc pl-4 font-normal">
                       <li>Never pay cash or transfer funds into third-party private accounts or claims agent accounts.</li>
                       <li>Never pay token sums without an formal written OTS sanction confirming it forms part of settlement.</li>
@@ -2411,7 +2411,7 @@ export default function BusinessLoanSettlementPageClient() {
                 <p> firm loans settlement under the Reserve Bank of India&apos. S settlement rules provides an honorable. Legally sound. definitive exit. It allows you to legally write off unmanageable trade debt. Permanently discharge private promoter guarantees. Shield valuable mortgaged real estate from distress auction. And close painful legal actions. </p>
                 <p> With seasoned legal support from CredSettle. You do not have to face aggressive claims units or bank bank boards alone. Take decisive control of your trade debts today. Assert your legal rights. And build a clean foundation for your next entrepreneurial venture. </p>
                 <div className="p-4 bg-gradient-to-r from-blue-900 to-indigo-950 rounded-xl text-white text-center space-y-2 mt-4 shadow-md">
-                  <h4 className="text-base font-bold text-white">Resolve Your Commercial Business Debt Today</h4>
+                  <div className="text-base font-bold text-white">Resolve Your Commercial Business Debt Today</div>
                   <p className="text-xs text-blue-200 max-w-xl mx-auto"> Speak straight with a senior banking court cases lawyer. We audit your loan pacts. Halt claims abuse within 24 hours. And settle maximum RBI-compliant OTS waivers. </p>
                   <div className="pt-2">
                     <Link

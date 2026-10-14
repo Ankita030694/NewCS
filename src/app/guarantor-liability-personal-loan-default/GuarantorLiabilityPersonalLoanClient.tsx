@@ -186,7 +186,7 @@ export default function GuarantorLiabilityPersonalLoanClient() {
                 <span>Statutory Foundations.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                1. What is Guarantor Liability? Section 128 &amp; The Co-Extensive Rule
+                1. Guarantor Liability: Section 128 Co-Extensive Rule
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Thousands of individuals across India sign loan papers as a favor to friends, relatives. trade colleagues without realizing the severe legal ramifications. When the primary client stops paying monthly EMIs. Banks and NBFCs promptly shift their aggressive collection machinery toward the guarantor. </p>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> The legal foundation of guarantor debt risk in India is governed by the. <strong>Indian Contract Act, 1872.</strong>. Under <strong>Section 126</strong>, a &quot. contract of guarantee&quot. Is a tripartite contract to perform the promise. Discharge the debt risk, of a third person in case of their default. The person who gives the guarantee is called the. <em>Surety</em> or <em>Guarantor</em>, the person for whom the guarantee is given is the. <em>main loan Debtor.</em> (Primary client), and the person to whom the guarantee is given is the. <em>Creditor</em> (Bank or NBFC). </p>
@@ -798,7 +798,7 @@ ___________________________
                 <span>Grievance Escalation Framework.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                11. The 3-Tier Escalation Matrix &amp; Judicial Remedies for Guarantors
+                11. 3-Tier Escalation Matrix and Legal Remedies for Guarantors
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> If the lending bank refuses to consider legal discharge grounds or allows collection agents to harass you. Follow this 3-tier RBI escalation path: </p>
 

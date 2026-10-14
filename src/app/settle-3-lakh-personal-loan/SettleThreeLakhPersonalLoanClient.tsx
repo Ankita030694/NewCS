@@ -684,7 +684,7 @@ export default function SettleThreeLakhPersonalLoanClient() {
                 <span>Real-World Scenarios.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                9. Specialized Scenarios: Digital Fintech Apps, Credit Cards &amp; ARCs
+                9. Scenarios: Digital Fintech Apps, Credit Cards and ARCs
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Defaulting on ₹3 Lakh in no-pledge credit can arise across various lending structures. Each requiring a tailored relief plan: </p>
 

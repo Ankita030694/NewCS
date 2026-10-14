@@ -750,7 +750,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                 <span>Practical Edge Cases.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                10. Specialized Scenarios: Credit Cards, ARCs &amp; Fake Court Bailiffs
+                10. Scenarios: Credit Cards, ARCs and Fake Court Bailiffs
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Different lending institutions and claims channels employ distinct tactics. Here is how to navigate complex real-world situations: </p>
 
@@ -811,7 +811,7 @@ export default function CanRecoveryAgentsSeizePropertyClient() {
                 <span>Frequently Asked Questions.</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
-                Frequently Asked Questions About Property Seizure &amp; Recovery Agents
+                FAQs: Property Seizure Rules and Recovery Agent Limits
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Review exhaustive legal answers to the most common questions regarding loan default. Claims agent boundaries. legal asset protection under Indian banking law: </p>
 
