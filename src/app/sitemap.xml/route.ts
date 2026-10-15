@@ -4638,6 +4638,18 @@ ${urls
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.credsettle.com/personal-insolvency-section-94-ibc-interim-moratorium</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.credsettle.com/vehicle-repossession-by-bouncers-supreme-court-rulings-fir</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.credsettle.com/rbi-100-per-day-compensation-for-delayed-cibil-report-update</loc>
     <lastmod>${today}</lastmod>
     <changefreq>weekly</changefreq>
@@ -4705,6 +4717,12 @@ ${urls
   </url>
   <url>
     <loc>https://www.credsettle.com/section-60-cpc-assets-property-exempt-from-bank-attachment</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.credsettle.com/cgtmse-loan-default-borrower-liability-ots-settlement-rules</loc>
     <lastmod>${today}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

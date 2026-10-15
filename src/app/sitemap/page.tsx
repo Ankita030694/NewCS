@@ -14,6 +14,18 @@ export const metadata: Metadata = {
 
 const sitemapLinks = [
   {
+    "title": "CGTMSE Loan Default: Borrower Liability & OTS Settlement Rules",
+    "href": "/cgtmse-loan-default-borrower-liability-ots-settlement-rules",
+  },
+  {
+    "title": "Personal Insolvency Under Section 94 IBC: Interim Moratorium",
+    "href": "/personal-insolvency-section-94-ibc-interim-moratorium"
+  },
+  {
+    "title": "Vehicle Repossession by Bouncers: Supreme Court Rulings & FIR",
+    "href": "/vehicle-repossession-by-bouncers-supreme-court-rulings-fir"
+  },
+  {
     "title": "RBI ₹100 Per Day Compensation for Delayed CIBIL Report Update",
     "href": "/rbi-100-per-day-compensation-for-delayed-cibil-report-update",
   },

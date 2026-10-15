@@ -7,6 +7,21 @@ export interface SitemapLink {
 // Auto-generated hardcoded query-based pages sorted in descending order of git creation date (latest first)
 export const sitemapLinks: SitemapLink[] = [
   {
+    title: "CGTMSE Loan Default: Borrower Liability & OTS Settlement Rules",
+    href: "/cgtmse-loan-default-borrower-liability-ots-settlement-rules",
+    date: "15-10-2026",
+  },
+  {
+    title: "Personal Insolvency Under Section 94 IBC: Interim Moratorium",
+    href: "/personal-insolvency-section-94-ibc-interim-moratorium",
+    date: "15-10-2026",
+  },
+  {
+    title: "Vehicle Repossession by Bouncers: Supreme Court Rulings & FIR",
+    href: "/vehicle-repossession-by-bouncers-supreme-court-rulings-fir",
+    date: "15-10-2026",
+  },
+  {
     title: "RBI ₹100 Per Day Compensation for Delayed CIBIL Report Update",
     href: "/rbi-100-per-day-compensation-for-delayed-cibil-report-update",
     date: "15-10-2026",
