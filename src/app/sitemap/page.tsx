@@ -14,6 +14,14 @@ export const metadata: Metadata = {
 
 const sitemapLinks = [
   {
+    "title": "Sole Proprietorship Loan Default: Personal Liability & Asset Risks",
+    "href": "/sole-proprietorship-loan-default-personal-liability-asset-risks"
+  },
+  {
+    "title": "SARFAESI Section 13(4) Notice & 30-Day Auction Sale Challenge",
+    "href": "/sarfaesi-section-13-4-notice-30-day-auction-sale-challenge"
+  },
+  {
     "title": "CGTMSE Loan Default: Borrower Liability & OTS Settlement Rules",
     "href": "/cgtmse-loan-default-borrower-liability-ots-settlement-rules",
   },

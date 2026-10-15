@@ -7,6 +7,16 @@ export interface SitemapLink {
 // Auto-generated hardcoded query-based pages sorted in descending order of git creation date (latest first)
 export const sitemapLinks: SitemapLink[] = [
   {
+    title: "Sole Proprietorship Loan Default: Personal Liability & Asset Risks",
+    href: "/sole-proprietorship-loan-default-personal-liability-asset-risks",
+    date: "15-10-2026",
+  },
+  {
+    title: "SARFAESI Section 13(4) Notice & 30-Day Auction Sale Challenge",
+    href: "/sarfaesi-section-13-4-notice-30-day-auction-sale-challenge",
+    date: "15-10-2026",
+  },
+  {
     title: "CGTMSE Loan Default: Borrower Liability & OTS Settlement Rules",
     href: "/cgtmse-loan-default-borrower-liability-ots-settlement-rules",
     date: "15-10-2026",

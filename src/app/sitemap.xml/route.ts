@@ -4644,6 +4644,12 @@ ${urls
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.credsettle.com/sarfaesi-section-13-4-notice-30-day-auction-sale-challenge</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.credsettle.com/vehicle-repossession-by-bouncers-supreme-court-rulings-fir</loc>
     <lastmod>${today}</lastmod>
     <changefreq>weekly</changefreq>
@@ -4663,6 +4669,12 @@ ${urls
   </url>
   <url>
     <loc>https://www.credsettle.com/can-bank-seize-epf-provident-fund-for-loan-recovery</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.credsettle.com/sole-proprietorship-loan-default-personal-liability-asset-risks</loc>
     <lastmod>${today}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
