@@ -122,7 +122,7 @@ Before considering any page ready, verify these 8 core audit checkpoints:
 
 ## 6. Prompt Instruction Snippet for Page Creation
 
-Paste this requirement into your prompt when generating new pages:
+
 
 ```markdown
 CRITICAL SCREAMING FROG SEO COMPLIANCE:
@@ -136,3 +136,137 @@ The page MUST STRICTLY COMPLY with `SEO_COMPLIANCE_GUIDELINES.md`:
 7. Canonical: Absolute self-referencing canonical URL (https://www.credsettle.com/[slug]).
 8. Code Quality: Clean TypeScript with 0 compilation errors.
 ```
+
+## 7. Content Readability Rules: Flesch Reading Ease (CRITICAL)
+
+**Objective:** Every new page created for CredSettle MUST meet the content readability requirements measured by Screaming Frog SEO Spider. Content must not be classified as "Difficult" or "Very Difficult" under the Flesch Reading Ease test.
+
+### 7.1. Strict Flesch Reading Ease Score
+
+Follow these readability score classifications:
+
+| Flesch Reading Ease Score | Readability Level | Requirement                    |
+| ------------------------- | ----------------- | ------------------------------ |
+| 90-100                    | Very Easy         | Acceptable                     |
+| 80-89                     | Easy              | Acceptable                     |
+| 70-79                     | Fairly Easy       | Ideal                          |
+| 60-69                     | Standard          | Minimum preferred target       |
+| 50-59                     | Fairly Difficult  | Acceptable only when necessary |
+| 30-49                     | Difficult         | NOT ACCEPTABLE                 |
+| 0-29                      | Very Difficult    | STRICTLY PROHIBITED            |
+
+**Mandatory requirements:**
+
+1. Target a Flesch Reading Ease score of 60 or higher for all newly created pages.
+2. Never publish content with a Flesch Reading Ease score below 50.
+3. Avoid complex sentence structures, excessive legal terminology, lengthy paragraphs, and unnecessarily complicated explanations.
+4. Write for ordinary Indian borrowers who may have little knowledge of banking laws, financial regulations, or legal procedures.
+5. Do not sacrifice legal accuracy to achieve a higher readability score.
+
+### 7.2. Sentence Length Rules
+
+1. Target an average sentence length of 12-18 words.
+2. Avoid sentences exceeding 25 words whenever possible.
+3. Split sentences containing multiple independent clauses into shorter sentences.
+4. Avoid combining several legal conditions, exceptions, and explanations into a single sentence.
+5. Use direct sentence structures with a clear subject, verb, and object.
+6. Prefer active voice over passive voice whenever appropriate.
+
+**Bad example:**
+
+"In accordance with the applicable regulatory framework governing financial institutions, borrowers may seek appropriate remedies against unlawful recovery practices that contravene established procedural requirements."
+
+**Good example:**
+
+"RBI rules protect borrowers from unlawful recovery practices. You can file a complaint if a lender breaks these rules."
+
+### 7.3. Paragraph Length Rules
+
+1. Keep paragraphs between 2 and 4 sentences.
+2. Aim for approximately 40-80 words per paragraph.
+3. Avoid paragraphs exceeding 100 words unless absolutely necessary.
+4. Break long explanations into smaller paragraphs with clear transitions.
+5. Use bullet points and numbered lists for procedures, legal rights, eligibility criteria, and document requirements.
+6. Ensure every paragraph explains one main idea.
+
+### 7.4. Simple Language and Legal Terminology
+
+1. Use familiar English words whenever possible.
+2. Explain complex legal and financial terms immediately after introducing them.
+3. Do not use several unfamiliar legal terms in the same sentence.
+4. Retain essential statutory names, section numbers, case names, and regulatory terminology.
+5. Explain the practical meaning of every important legal provision in plain English.
+6. Avoid unnecessary jargon, redundant expressions, and overly formal language.
+7. Use clear transitions such as "For example," "This means," "However," and "As a result."
+8. Use contractions only when appropriate for the professional tone of the page.
+
+**Example:**
+
+Instead of writing:
+
+"The creditor may initiate enforcement proceedings pursuant to the applicable statutory provisions."
+
+Write:
+
+"The lender may start legal action under the applicable law."
+
+When a statutory term is essential, retain it and explain it in simple language.
+
+### 7.5. Content Structure and Readability
+
+1. Use descriptive H2 and H3 headings to divide complex topics into manageable sections.
+2. Keep each section focused on one question or subject.
+3. Explain the main answer before introducing detailed legal analysis.
+4. Use numbered steps for legal procedures and settlement processes.
+5. Use tables when comparing legal options, timelines, charges, or borrower rights.
+6. Include relevant examples to explain difficult financial or legal concepts.
+7. Avoid repeating the same information across multiple sections.
+8. Avoid excessive introductory text, filler sentences, and unnecessary explanations.
+9. Keep FAQs direct and concise while answering the actual question.
+10. Maintain all existing SEO heading restrictions, including the 70-character maximum for H2 headings and the prohibition on em-dashes.
+
+### 7.6. Flesch-Kincaid Grade Level
+
+Where available, also evaluate the Flesch-Kincaid Grade Level.
+
+1. Aim for a grade level of approximately 8-10.
+2. Prefer sentence structures understandable to readers with a basic secondary-school education.
+3. Explain technical concepts without removing legally essential details.
+4. Treat the grade-level score as a secondary readability indicator. The primary acceptance metric is Flesch Reading Ease.
+
+### 7.7. Mandatory Pre-Publication Readability Audit
+
+Before publishing any newly created page:
+
+1. Review the complete rendered page content, including headings, paragraphs, lists, and FAQs.
+2. Calculate or measure the Flesch Reading Ease score using a reliable readability analyzer.
+3. Target a score of at least 60.
+4. If the score is below 60, simplify the language, shorten sentences, and restructure lengthy paragraphs.
+5. Repeat the analysis until the target score is achieved, where reasonably possible without compromising legal accuracy.
+6. Check for both Difficult and Very Difficult classifications.
+7. Verify that important legal explanations remain accurate and complete.
+8. Run Screaming Frog against the published URL and inspect its readability results.
+9. Fix any readability issues identified by the actual Screaming Frog crawl.
+10. Never claim that a readability issue is resolved without checking the final rendered content and the relevant Screaming Frog result.
+
+**Important:** A readability score calculated before rendering is only a preliminary check. The final result must be verified against the content Screaming Frog actually crawls.
+
+### 7.8. Mandatory Instruction for AI Page Generation
+
+Every prompt used to create a new CredSettle page MUST include the following instruction:
+
+"CRITICAL CONTENT READABILITY REQUIREMENT:
+
+Write all page content according to the Flesch Reading Ease formula. Target a score of 60 or higher. Never publish content with a score below 50.
+
+Use an average sentence length of 12-18 words, short paragraphs, active voice, simple English, clear transitions, and plain-language explanations of complex legal terms.
+
+Avoid unnecessarily long sentences, excessive legal jargon, dense paragraphs, redundant explanations, and complicated sentence structures.
+
+Preserve the accuracy of Indian banking laws, RBI regulations, statutory provisions, and legal explanations. Do not remove essential legal information merely to improve readability.
+
+Before completing the page, evaluate the full content using a reliable readability analyzer. Rewrite difficult passages and repeat the check until the target score is achieved, where reasonably possible.
+
+After deployment, crawl the final URL using Screaming Frog SEO Spider. Inspect the actual readability results and fix any remaining Difficult or Very Difficult classifications.
+
+Do not introduce new SEO issues while improving readability. Continue to comply with all existing title, meta description, H1, H2, canonical URL, duplicate heading, and TypeScript requirements."

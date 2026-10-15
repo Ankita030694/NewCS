@@ -5,14 +5,62 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-    title: "CredSettle HTML Sitemap | Complete Directory",
-    description: "Navigate through CredSettle's complete directory of legal and financial services, debt settlement guides, and resources.",
-    alternates: {
-        canonical: 'https://www.credsettle.com/sitemap',
-    },
+  title: "CredSettle HTML Sitemap | Complete Directory",
+  description: "Navigate through CredSettle's complete directory of legal and financial services, debt settlement guides, and resources.",
+  alternates: {
+    canonical: 'https://www.credsettle.com/sitemap',
+  },
 };
 
 const sitemapLinks = [
+  {
+    "title": "RBI ₹100 Per Day Compensation for Delayed CIBIL Report Update",
+    "href": "/rbi-100-per-day-compensation-for-delayed-cibil-report-update",
+  },
+  {
+    "title": "Can Bank Seize PPF or Sukanya Accounts? Legal Rules",
+    "href": "/can-bank-seize-ppf-sukanya-samriddhi-accounts-for-loan-default"
+  },
+  {
+    "title": "Section 60 CPC: Assets & Property Exempt from Bank Attachment",
+    "href": "/section-60-cpc-assets-property-exempt-from-bank-attachment"
+  },
+  {
+    "title": "Can Bank Attach Ancestral Property for Personal Loan Default?",
+    "href": "/can-bank-attach-ancestral-property-for-personal-loan-default"
+  },
+  {
+    "title": "Phoenix ARC & Asset Reconstruction Company Debt Settlement",
+    "href": "/phoenix-arc-asset-reconstruction-company-debt-settlement"
+  },
+  {
+    "title": "Loan Recall Notice from Bank: Legal Defense & Reply Guide",
+    "href": "/loan-recall-notice-from-bank-legal-defense-reply-guide"
+  },
+  {
+    "title": "SARFAESI Section 14 Physical Possession Order: DM & CMM Law",
+    "href": "/sarfaesi-section-14-physical-possession-order-dm-cmm"
+  },
+  {
+    "title": "Overdraft & Cash Credit (OD/CC) Default Settlement Rules",
+    "href": "/overdraft-cash-credit-od-cc-default-settlement-rules"
+  },
+  {
+    "title": "RBI Guidelines on Penal Charges in Loan Accounts: Rules",
+    "href": "/rbi-guidelines-on-penal-charges-in-loan-accounts"
+  },
+  {
+    "title": "Willful Defaulter Notice: RBI Rules & Legal Defense Guide",
+    "href": "/willful-defaulter-notice-rbi-rules-legal-defense-guide"
+  },
+  {
+    "title": "Can Bank File Section 420 Case for Loan Default? Rules",
+    "href": "/can-bank-file-section-420-cheating-case-for-loan-default"
+  },
+  {
+    "title": "Can Bank Seize EPF & Gratuity for Loan Recovery? Rules",
+    "href": "/can-bank-seize-epf-provident-fund-for-loan-recovery"
+  },
   {
     "title": "Personal Loan Settlement in India: 2026 Master Guide & Legal Protection",
     "href": "/services/personal-loan-settlement"
@@ -2088,32 +2136,32 @@ const sitemapLinks = [
 ];
 
 export default function SitemapPage() {
-    return (
-        <div className="relative min-h-screen bg-white mt-5">
-            <Navbar />
-            <div className="relative z-10 pt-32 pb-20 px-4 md:px-8 bg-[#FAFAFA]">
-                <div className="max-w-7xl mx-auto">
-                    <h1 className="text-4xl md:text-5xl font-extrabold text-[#3a3532] mb-4" style={{ fontFamily: 'sans-serif' }}>
-                        Sitemap
-                    </h1>
-                    <h2 className="text-lg md:text-xl font-medium text-gray-600 mb-10">
-                        Explore All Debt Settlement Guides &amp; Legal Services
-                    </h2>
-                    
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                        {sitemapLinks.map((link, index) => (
-                            <Link 
-                                key={index} 
-                                href={link.href}
-                                className="bg-white border border-gray-100 rounded-xl p-5 shadow-sm hover:shadow-md transition-shadow flex items-center text-sm md:text-base text-gray-700 font-medium hover:text-[#007AFF]"
-                            >
-                                {link.title}
-                            </Link>
-                        ))}
-                    </div>
-                </div>
-            </div>
-            <Footer />
+  return (
+    <div className="relative min-h-screen bg-white mt-5">
+      <Navbar />
+      <div className="relative z-10 pt-32 pb-20 px-4 md:px-8 bg-[#FAFAFA]">
+        <div className="max-w-7xl mx-auto">
+          <h1 className="text-4xl md:text-5xl font-extrabold text-[#3a3532] mb-4" style={{ fontFamily: 'sans-serif' }}>
+            Sitemap
+          </h1>
+          <h2 className="text-lg md:text-xl font-medium text-gray-600 mb-10">
+            Explore All Debt Settlement Guides &amp; Legal Services
+          </h2>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {sitemapLinks.map((link, index) => (
+              <Link
+                key={index}
+                href={link.href}
+                className="bg-white border border-gray-100 rounded-xl p-5 shadow-sm hover:shadow-md transition-shadow flex items-center text-sm md:text-base text-gray-700 font-medium hover:text-[#007AFF]"
+              >
+                {link.title}
+              </Link>
+            ))}
+          </div>
         </div>
-    );
+      </div>
+      <Footer />
+    </div>
+  );
 }

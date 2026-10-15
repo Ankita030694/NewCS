@@ -10,8 +10,15 @@ const WHATSAPP_URL = `https://wa.me/91${WHATSAPP_NUMBER}?text=${encodeURICompone
 export default function WhatsAppWidget() {
   const pathname = usePathname();
 
-  // Hide WhatsApp widget on privacy-policy page
-  if (pathname === '/privacy-policy') {
+  // Hide WhatsApp widget on specified routes
+  const hiddenRoutes = [
+    '/privacy-policy',
+    '/can-bank-seize-epf-provident-fund-for-loan-recovery',
+    '/can-bank-file-section-420-cheating-case-for-loan-default',
+    '/overdraft-cash-credit-od-cc-default-settlement-rules'
+  ];
+
+  if (pathname && hiddenRoutes.some((route) => pathname === route || pathname.startsWith(`${route}/`))) {
     return null;
   }
 

@@ -7,6 +7,51 @@ export interface SitemapLink {
 // Auto-generated hardcoded query-based pages sorted in descending order of git creation date (latest first)
 export const sitemapLinks: SitemapLink[] = [
   {
+    title: "RBI ₹100 Per Day Compensation for Delayed CIBIL Report Update",
+    href: "/rbi-100-per-day-compensation-for-delayed-cibil-report-update",
+    date: "15-10-2026",
+  },
+  {
+    title: "Can Bank Seize PPF & Sukanya Samriddhi Accounts? Rules",
+    href: "/can-bank-seize-ppf-sukanya-samriddhi-accounts-for-loan-default",
+    date: "15-10-2026",
+  },
+  {
+    title: "Section 60 CPC: Assets & Property Exempt from Bank Attachment",
+    href: "/section-60-cpc-assets-property-exempt-from-bank-attachment",
+    date: "15-10-2026",
+  },
+  {
+    title: "SARFAESI Section 14 Physical Possession Order | DM & CMM Law",
+    href: "/sarfaesi-section-14-physical-possession-order-dm-cmm",
+    date: "15-10-2026",
+  },
+  {
+    title: "Overdraft & Cash Credit (OD/CC) Default Settlement Rules",
+    href: "/overdraft-cash-credit-od-cc-default-settlement-rules",
+    date: "15-10-2026",
+  },
+  {
+    title: "RBI Guidelines on Penal Charges in Loan Accounts: Rules",
+    href: "/rbi-guidelines-on-penal-charges-in-loan-accounts",
+    date: "15-10-2026",
+  },
+  {
+    title: "Willful Defaulter Notice: RBI Rules & Legal Defense Guide",
+    href: "/willful-defaulter-notice-rbi-rules-legal-defense-guide",
+    date: "15-10-2026",
+  },
+  {
+    title: "Can Bank File Section 420 Case for Loan Default? Rules",
+    href: "/can-bank-file-section-420-cheating-case-for-loan-default",
+    date: "15-10-2026",
+  },
+  {
+    title: "Can Bank Seize EPF & Gratuity for Loan Recovery? Rules",
+    href: "/can-bank-seize-epf-provident-fund-for-loan-recovery",
+    date: "14-10-2026",
+  },
+  {
     title: "Personal Loan Settlement in India: 2026 Master Guide & Legal Protection",
     href: "/services/personal-loan-settlement",
     date: "08-10-2026",
