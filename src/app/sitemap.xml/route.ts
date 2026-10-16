@@ -4758,7 +4758,19 @@ ${urls
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.credsettle.com/bankers-duty-of-secrecy-confidentiality-privacy-rights-violation</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.credsettle.com/can-bank-withhold-pledged-gold-after-loan-repayment</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.credsettle.com/loan-restructuring-settlement-terminal-illness-disability</loc>
     <lastmod>${today}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -4837,6 +4849,12 @@ ${urls
   </url>
   <url>
     <loc>https://www.credsettle.com/compounding-section-138-cheque-bounce-case-after-settlement-section-147</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.credsettle.com/civil-court-injunction-against-sarfaesi-fraud-exception-section-34</loc>
     <lastmod>${today}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

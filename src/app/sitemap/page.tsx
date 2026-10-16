@@ -14,6 +14,22 @@ export const metadata: Metadata = {
 
 const sitemapLinks = [
   {
+    title: "RBI ₹5,000 Per Day Delay Compensation for Property Documents",
+    href: "/rbi-5000-per-day-delay-compensation-property-documents",
+  },
+  {
+    title: "Civil Court Injunction Against SARFAESI: Fraud Exception to Section 34",
+    href: "/civil-court-injunction-against-sarfaesi-fraud-exception-section-34",
+  },
+  {
+    title: "Loan Restructuring & Settlement for Terminal Illness or Disability",
+    href: "/loan-restructuring-settlement-terminal-illness-disability",
+  },
+  {
+    title: "Banker's Duty of Secrecy & Confidentiality: Privacy Rights Violation",
+    href: "/bankers-duty-of-secrecy-confidentiality-privacy-rights-violation",
+  },
+  {
     title: "Can Bank Withhold Pledged Gold After Repayment? Lien Rules",
     href: "/can-bank-withhold-pledged-gold-after-loan-repayment",
   },
