@@ -4692,6 +4692,48 @@ ${urls
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.credsettle.com/can-bank-stop-passport-renewal-or-issue-loc-for-loan-default</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.credsettle.com/bankers-right-of-set-off-on-savings-account-section-171-contract-act</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.credsettle.com/can-bank-send-you-to-civil-prison-for-loan-default-order-21-rule-37-cpc</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.credsettle.com/police-summons-for-loan-default-rights-against-illegal-interference</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.credsettle.com/fake-arbitration-order-ex-parte-award-challenge-under-section-34</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.credsettle.com/paying-cash-to-recovery-agents-fraud-risks-official-bank-rules</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.credsettle.com/can-bank-seize-demat-account-shares-mutual-funds-loan-default</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.credsettle.com/can-bank-seize-epf-provident-fund-for-loan-recovery</loc>
     <lastmod>${today}</lastmod>
     <changefreq>weekly</changefreq>

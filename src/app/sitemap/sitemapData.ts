@@ -7,6 +7,46 @@ export interface SitemapLink {
 // Auto-generated hardcoded query-based pages sorted in descending order of git creation date (latest first)
 export const sitemapLinks: SitemapLink[] = [
   {
+    title: "Can Bank Freeze Joint Savings Account for Co-Holder Default? Rules",
+    href: "/can-bank-freeze-joint-savings-account-co-holder-loan-default",
+    date: "16-10-2026",
+  },
+  {
+    title: "Can Bank Stop Passport Renewal or Issue LOC for Loan Default? Rules",
+    href: "/can-bank-stop-passport-renewal-or-issue-loc-for-loan-default",
+    date: "16-10-2026",
+  },
+  {
+    title: "Banker's Right of Set-Off on Savings Account: Section 171 Contract Act",
+    href: "/bankers-right-of-set-off-on-savings-account-section-171-contract-act",
+    date: "16-10-2026",
+  },
+  {
+    title: "Can Bank Send You to Civil Prison for Loan Default? Order 21 Rule 37 CPC",
+    href: "/can-bank-send-you-to-civil-prison-for-loan-default-order-21-rule-37-cpc",
+    date: "16-10-2026",
+  },
+  {
+    title: "Can Bank Seize Demat Shares & Mutual Funds for Loan Default? Rules",
+    href: "/can-bank-seize-demat-account-shares-mutual-funds-loan-default",
+    date: "16-10-2026",
+  },
+  {
+    title: "Police Summons for Loan Default: Rights Against Illegal Interference",
+    href: "/police-summons-for-loan-default-rights-against-illegal-interference",
+    date: "16-10-2026",
+  },
+  {
+    title: "Fake Arbitration Order & Ex-Parte Award Challenge Under Section 34",
+    href: "/fake-arbitration-order-ex-parte-award-challenge-under-section-34",
+    date: "16-10-2026",
+  },
+  {
+    title: "Paying Cash to Recovery Agents: Fraud Risks & Official Bank Rules",
+    href: "/paying-cash-to-recovery-agents-fraud-risks-official-bank-rules",
+    date: "16-10-2026",
+  },
+  {
     title: "DRAT Appeal Pre-Deposit Waiver Under Section 18 SARFAESI Act",
     href: "/drat-appeal-pre-deposit-waiver-under-section-18-sarfaesi-act",
     date: "15-10-2026",

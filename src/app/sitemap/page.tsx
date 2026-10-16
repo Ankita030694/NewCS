@@ -14,6 +14,38 @@ export const metadata: Metadata = {
 
 const sitemapLinks = [
   {
+    title: "Can Bank Freeze Joint Savings Account for Co-Holder Default? Rules",
+    href: "/can-bank-freeze-joint-savings-account-co-holder-loan-default",
+  },
+  {
+    title: "Can Bank Stop Passport Renewal or Issue LOC for Loan Default? Rules",
+    href: "/can-bank-stop-passport-renewal-or-issue-loc-for-loan-default",
+  },
+  {
+    title: "Banker's Right of Set-Off on Savings Account: Section 171 Contract Act",
+    href: "/bankers-right-of-set-off-on-savings-account-section-171-contract-act",
+  },
+  {
+    title: "Can Bank Send You to Civil Prison for Loan Default? Order 21 Rule 37 CPC",
+    href: "/can-bank-send-you-to-civil-prison-for-loan-default-order-21-rule-37-cpc",
+  },
+  {
+    title: "Can Bank Seize Demat Shares & Mutual Funds for Loan Default? Rules",
+    href: "/can-bank-seize-demat-account-shares-mutual-funds-loan-default",
+  },
+  {
+    title: "Fake Arbitration Order & Ex-Parte Award Challenge Under Section 34",
+    href: "/fake-arbitration-order-ex-parte-award-challenge-under-section-34",
+  },
+  {
+    title: "Police Summons for Loan Default: Rights Against Illegal Interference",
+    href: "/police-summons-for-loan-default-rights-against-illegal-interference",
+  },
+  {
+    title: "Paying Cash to Recovery Agents: Fraud Risks & Official Bank Rules",
+    href: "/paying-cash-to-recovery-agents-fraud-risks-official-bank-rules",
+  },
+  {
     "title": "DRAT Appeal Pre-Deposit Waiver Under Section 18 SARFAESI Act",
     "href": "/drat-appeal-pre-deposit-waiver-under-section-18-sarfaesi-act"
   },
