@@ -4746,6 +4746,24 @@ ${urls
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.credsettle.com/social-media-defamation-by-recovery-agents-legal-action-under-bns</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.credsettle.com/rbi-digital-lending-rules-ban-on-accessing-contacts-photo-gallery</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.credsettle.com/can-bank-withhold-pledged-gold-after-loan-repayment</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.credsettle.com/can-bank-seize-epf-provident-fund-for-loan-recovery</loc>
     <lastmod>${today}</lastmod>
     <changefreq>weekly</changefreq>
@@ -4813,6 +4831,12 @@ ${urls
   </url>
   <url>
     <loc>https://www.credsettle.com/cgtmse-loan-default-borrower-liability-ots-settlement-rules</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.credsettle.com/compounding-section-138-cheque-bounce-case-after-settlement-section-147</loc>
     <lastmod>${today}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

@@ -7,6 +7,41 @@ export interface SitemapLink {
 // Auto-generated hardcoded query-based pages sorted in descending order of git creation date (latest first)
 export const sitemapLinks: SitemapLink[] = [
   {
+    title: "Can Bank Withhold Pledged Gold After Repayment? Lien Rules",
+    href: "/can-bank-withhold-pledged-gold-after-loan-repayment",
+    date: "16-10-2026",
+  },
+  {
+    title: "Social Media Defamation by Recovery Agents: Legal Action Under BNS",
+    href: "/social-media-defamation-by-recovery-agents-legal-action-under-bns",
+    date: "16-10-2026",
+  },
+  {
+    title: "RBI Digital Lending Rules: Ban on Accessing Contacts & Photo Gallery",
+    href: "/rbi-digital-lending-rules-ban-on-accessing-contacts-photo-gallery",
+    date: "16-10-2026",
+  },
+  {
+    title: "Compounding Section 138 Cheque Bounce Case After Settlement: Section 147",
+    href: "/compounding-section-138-cheque-bounce-case-after-settlement-section-147",
+    date: "16-10-2026",
+  },
+  {
+    title: "SARFAESI 12-Year Limitation Period: Article 62 Rules",
+    href: "/sarfaesi-12-year-limitation-period-article-62-rules",
+    date: "16-10-2026",
+  },
+  {
+    title: "Does Paying Token Amount Reset 3-Year Limitation Period? Section 19",
+    href: "/does-paying-token-amount-reset-3-year-limitation-period-section-19",
+    date: "16-10-2026",
+  },
+  {
+    title: "Surplus Sale Proceeds After Bank Auction: Section 13(7) SARFAESI Act",
+    href: "/surplus-sale-proceeds-after-bank-auction-section-13-7-sarfaesi-act",
+    date: "16-10-2026",
+  },
+  {
     title: "Section 95 IBC Personal Guarantor NCLT Defense Guide",
     href: "/section-95-ibc-personal-guarantor-insolvency-nclt-defense",
     date: "16-10-2026",
@@ -130,6 +165,11 @@ export const sitemapLinks: SitemapLink[] = [
     title: "SARFAESI Section 14 Physical Possession Order | DM & CMM Law",
     href: "/sarfaesi-section-14-physical-possession-order-dm-cmm",
     date: "15-10-2026",
+  },
+  {
+    title: "Challenge SARFAESI Reserve Price in DRT | CredSettle",
+    href: "/challenging-undervalued-sarfaesi-property-auction-reserve-price-drt",
+    date: "16-10-2026",
   },
   {
     title: "Overdraft & Cash Credit (OD/CC) Default Settlement Rules",

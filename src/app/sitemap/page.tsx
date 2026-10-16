@@ -14,6 +14,38 @@ export const metadata: Metadata = {
 
 const sitemapLinks = [
   {
+    title: "Can Bank Withhold Pledged Gold After Repayment? Lien Rules",
+    href: "/can-bank-withhold-pledged-gold-after-loan-repayment",
+  },
+  {
+    title: "Social Media Defamation by Recovery Agents: Legal Action Under BNS",
+    href: "/social-media-defamation-by-recovery-agents-legal-action-under-bns",
+  },
+  {
+    title: "RBI Digital Lending Rules: Ban on Accessing Contacts & Photo Gallery",
+    href: "/rbi-digital-lending-rules-ban-on-accessing-contacts-photo-gallery",
+  },
+  {
+    title: "Compounding Section 138 Cheque Bounce Case After Settlement: Section 147",
+    href: "/compounding-section-138-cheque-bounce-case-after-settlement-section-147",
+  },
+  {
+    title: "SARFAESI 12-Year Limitation Period: Article 62 Rules",
+    href: "/sarfaesi-12-year-limitation-period-article-62-rules",
+  },
+  {
+    title: "Does Paying Token Amount Reset 3-Year Limitation Period? Section 19",
+    href: "/does-paying-token-amount-reset-3-year-limitation-period-section-19",
+  },
+  {
+    title: "Challenge SARFAESI Reserve Price in DRT | CredSettle",
+    href: "/challenging-undervalued-sarfaesi-property-auction-reserve-price-drt",
+  },
+  {
+    title: "Surplus Sale Proceeds After Bank Auction: Section 13(7) SARFAESI Act",
+    href: "/surplus-sale-proceeds-after-bank-auction-section-13-7-sarfaesi-act",
+  },
+  {
     title: "Section 95 IBC Personal Guarantor NCLT Defense Guide",
     href: "/section-95-ibc-personal-guarantor-insolvency-nclt-defense",
   },
