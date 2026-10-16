@@ -14,6 +14,22 @@ export const metadata: Metadata = {
 
 const sitemapLinks = [
   {
+    "title": "DRAT Appeal Pre-Deposit Waiver Under Section 18 SARFAESI Act",
+    "href": "/drat-appeal-pre-deposit-waiver-under-section-18-sarfaesi-act"
+  },
+  {
+    "title": "Section 13(8) SARFAESI Act: Right of Mortgage Redemption Rules",
+    "href": "/section-13-8-sarfaesi-act-right-of-mortgage-redemption-rules"
+  },
+  {
+    "title": "Gold Loan Auction Shortfall Notice: Legal Defense Guide",
+    "href": "/gold-loan-auction-shortfall-recovery-notice-legal-defense"
+  },
+  {
+    "title": "Joint Home Loan Default: Rights of Non-Defaulting Co-Borrower",
+    "href": "/joint-home-loan-default-rights-of-non-defaulting-co-borrower"
+  },
+  {
     "title": "Sole Proprietorship Loan Default: Personal Liability & Asset Risks",
     "href": "/sole-proprietorship-loan-default-personal-liability-asset-risks"
   },

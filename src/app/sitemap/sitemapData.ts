@@ -7,6 +7,26 @@ export interface SitemapLink {
 // Auto-generated hardcoded query-based pages sorted in descending order of git creation date (latest first)
 export const sitemapLinks: SitemapLink[] = [
   {
+    title: "DRAT Appeal Pre-Deposit Waiver Under Section 18 SARFAESI Act",
+    href: "/drat-appeal-pre-deposit-waiver-under-section-18-sarfaesi-act",
+    date: "15-10-2026",
+  },
+  {
+    title: "Section 13(8) SARFAESI Act: Right of Mortgage Redemption Rules",
+    href: "/section-13-8-sarfaesi-act-right-of-mortgage-redemption-rules",
+    date: "15-10-2026",
+  },
+  {
+    title: "Gold Loan Auction Shortfall Notice: Legal Defense Guide",
+    href: "/gold-loan-auction-shortfall-recovery-notice-legal-defense",
+    date: "15-10-2026",
+  },
+  {
+    title: "Joint Home Loan Default: Rights of Non-Defaulting Co-Borrower",
+    href: "/joint-home-loan-default-rights-of-non-defaulting-co-borrower",
+    date: "15-10-2026",
+  },
+  {
     title: "Sole Proprietorship Loan Default: Personal Liability & Asset Risks",
     href: "/sole-proprietorship-loan-default-personal-liability-asset-risks",
     date: "15-10-2026",
