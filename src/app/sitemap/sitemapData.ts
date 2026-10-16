@@ -7,6 +7,26 @@ export interface SitemapLink {
 // Auto-generated hardcoded query-based pages sorted in descending order of git creation date (latest first)
 export const sitemapLinks: SitemapLink[] = [
   {
+    title: "Section 95 IBC Personal Guarantor NCLT Defense Guide",
+    href: "/section-95-ibc-personal-guarantor-insolvency-nclt-defense",
+    date: "16-10-2026",
+  },
+  {
+    title: "Verify Bank OTS Letter & Avoid Fake Settlement Scams",
+    href: "/how-to-verify-bank-ots-sanction-letter-avoid-settlement-scams",
+    date: "16-10-2026",
+  },
+  {
+    title: "Order 37 CPC Summary Suit for Loan Recovery: Leave to Defend Guide",
+    href: "/order-37-cpc-summary-suit-loan-recovery-leave-to-defend",
+    date: "16-10-2026",
+  },
+  {
+    title: "Does Loan Settlement Discharge Guarantor? Section 135 Rules",
+    href: "/does-loan-settlement-discharge-guarantor-section-135-contract-act",
+    date: "16-10-2026",
+  },
+  {
     title: "Can Bank Freeze Joint Savings Account for Co-Holder Default? Rules",
     href: "/can-bank-freeze-joint-savings-account-co-holder-loan-default",
     date: "16-10-2026",

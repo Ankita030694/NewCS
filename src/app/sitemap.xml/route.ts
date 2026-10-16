@@ -4734,6 +4734,18 @@ ${urls
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.credsettle.com/section-95-ibc-personal-guarantor-insolvency-nclt-defense</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.credsettle.com/order-37-cpc-summary-suit-loan-recovery-leave-to-defend</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.credsettle.com/can-bank-seize-epf-provident-fund-for-loan-recovery</loc>
     <lastmod>${today}</lastmod>
     <changefreq>weekly</changefreq>

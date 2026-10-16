@@ -14,6 +14,22 @@ export const metadata: Metadata = {
 
 const sitemapLinks = [
   {
+    title: "Section 95 IBC Personal Guarantor NCLT Defense Guide",
+    href: "/section-95-ibc-personal-guarantor-insolvency-nclt-defense",
+  },
+  {
+    title: "Verify Bank OTS Letter & Avoid Fake Settlement Scams",
+    href: "/how-to-verify-bank-ots-sanction-letter-avoid-settlement-scams",
+  },
+  {
+    title: "Order 37 CPC Summary Suit for Loan Recovery: Leave to Defend Guide",
+    href: "/order-37-cpc-summary-suit-loan-recovery-leave-to-defend",
+  },
+  {
+    title: "Does Loan Settlement Discharge Guarantor? Section 135 Rules",
+    href: "/does-loan-settlement-discharge-guarantor-section-135-contract-act",
+  },
+  {
     title: "Can Bank Freeze Joint Savings Account for Co-Holder Default? Rules",
     href: "/can-bank-freeze-joint-savings-account-co-holder-loan-default",
   },
