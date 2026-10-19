@@ -162,7 +162,8 @@ export default function PersonalLoanSettlementClient() {
           
           <aside className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
-              <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+
+                        <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
                 <p className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
@@ -429,6 +430,7 @@ export default function PersonalLoanSettlementClient() {
                 <p className="text-sm text-gray-500 mb-4">Senior Legal counsel & money Strategist</p>
                 <p className="text-xs text-gray-400">Expert in dealing with banking rules. Agents threats. complex debt restructuring matters.</p>
               </div>
+
             </div>
           </aside>
           

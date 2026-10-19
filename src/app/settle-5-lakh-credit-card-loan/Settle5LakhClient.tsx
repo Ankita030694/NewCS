@@ -185,6 +185,7 @@ export default function Settle5LakhClient() {
                 <div className="flex flex-col lg:flex-row gap-8 items-start">
 
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
+
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
                             <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Strategy Map</p>
                             <nav className="space-y-1 text-sm">
@@ -349,8 +350,8 @@ export default function Settle5LakhClient() {
                         </article>
                     </main>
 
-                    <aside className="lg:w-1/4 xl:w-1/5 w-full mt-8 lg:mt-0">
-                        <div className="bg-white p-6 rounded-3xl border border-gray-100 shadow-md sticky top-14">
+                    <aside className="lg:w-1/4 xl:w-1/5 w-full mt-8 lg:mt-0 space-y-6 sticky top-14">
+                        <div className="bg-white p-6 rounded-3xl border border-gray-100 shadow-md ">
                             <div className="flex flex-col items-center text-center">
                                 <img
                                     src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg"
@@ -370,6 +371,7 @@ export default function Settle5LakhClient() {
                                 </Link>
                             </div>
                         </div>
+
                     </aside>
 
                 </div>

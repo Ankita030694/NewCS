@@ -469,6 +469,7 @@ export default function SettleCreditCardClient() {
 
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24 space-y-8">
+
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
                 <p className="font-bold text-2xl mb-4">Free Debt Analysis</p>
                 <p className="text-blue-100 mb-6 text-sm">Speak with our experts today and find out how much you can save on your settlement.</p>

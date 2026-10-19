@@ -147,6 +147,7 @@ export default function Settle10LakhClient() {
                 <div className="flex flex-col lg:flex-row gap-8 items-start">
                     
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
+
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
                             <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Settlement Guide.</p>
                             <nav className="space-y-1 text-sm">
@@ -308,6 +309,7 @@ export default function Settle10LakhClient() {
                                     <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-blue-100 flex-shrink-0">
                                         <Image src="/anujbhiya.png" alt="Vikram Sharma legal debt strategist" width={64} height={64} className="object-cover"/>
                                     </div>
+
                                     <div>
                                         <p className="font-bold text-gray-900 text-sm">Vikram Sharma</p>
                                         <p className="text-xs text-gray-500">Legal Debt Strategist.</p>

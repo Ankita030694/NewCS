@@ -337,6 +337,7 @@ export default function Settle15LakhClient() {
         {/* Right Sidebar (Sticky Cards) */}
         <aside className="lg:w-1/4">
           <div className="sticky top-28 h-fit flex flex-col space-y-6">
+
             
             {/* Author Card */}
             <div className="bg-white p-6 rounded-3xl shadow-sm border border-gray-100 flex flex-col items-center text-center">

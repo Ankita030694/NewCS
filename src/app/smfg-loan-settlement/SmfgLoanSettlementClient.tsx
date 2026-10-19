@@ -183,7 +183,8 @@ export default function SmfgLoanSettlementClient() {
           
           <aside className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
-              <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+
+                        <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
                 <p className="font-bold text-gray-900 mb-4 text-base border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
@@ -445,6 +446,7 @@ export default function SmfgLoanSettlementClient() {
                 <p className="text-sm text-gray-500 mb-4">Senior money Strategist & Debt Relief Expert</p>
                 <p className="text-xs text-gray-400">Specializes in NBFC closures. Preventing agents threats. protecting consumer rights in India.</p>
               </div>
+
             </div>
           </aside>
 

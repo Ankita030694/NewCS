@@ -120,7 +120,8 @@ export default function CreditCardSettlementDiscountClient() {
           
           {/* ================= LEFT COLUMN: STICKY TOC ================= */}
           <aside className="sticky top-6 hidden lg:block">
-            <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-4 overflow-hidden">
+
+                        <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-4 overflow-hidden">
               <div className="flex items-center gap-2 pb-3 mb-3 border-b border-slate-100">
                 <BookOpen className="w-4 h-4 text-[#1886ff]"/>
                 <span className="text-xs font-black uppercase tracking-wider text-slate-800">
@@ -819,7 +820,8 @@ export default function CreditCardSettlementDiscountClient() {
                   <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief expert. </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed"> expert in banking regulations. Credit card claims talks. Anti-abuse defense. Stressed retail debt restructuring across major Indian scheduled banks and NBFCs. </p>
+
+                        <p className="text-xs text-slate-600 leading-relaxed"> expert in banking regulations. Credit card claims talks. Anti-abuse defense. Stressed retail debt restructuring across major Indian scheduled banks and NBFCs. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
                   <span>View Author Profile.</span>
@@ -830,6 +832,7 @@ export default function CreditCardSettlementDiscountClient() {
                 </span>
               </div>
             </div>
+
 
             {/* Card 2: Emergency CTA Card */}
             <div className="rounded-3xl p-6 text-white text-center space-y-4 shadow-md relative overflow-hidden" style={{ backgroundColor: '#2452ae' }}>

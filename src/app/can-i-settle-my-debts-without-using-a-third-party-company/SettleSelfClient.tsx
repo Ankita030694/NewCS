@@ -516,6 +516,7 @@ export default function SettleSelfClient() {
 
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24 space-y-8">
+
               <div className="bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-3xl shadow-xl text-white">
                 <p className="font-bold text-2xl mb-4">Direct Settle Support</p>
                 <p className="text-slate-300 mb-6 text-sm">Need help drafting your hardship letter or reviewing a bank offer? We are here to help.</p>

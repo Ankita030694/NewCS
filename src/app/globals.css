@@ -141,3 +141,42 @@ div[style*="position: fixed"] {
   border-radius: 9999px;
 }
 
+/* Professional Print Stylesheet: Removes browser URL/date/page-number headers & eliminates floating buttons */
+@media print {
+  @page {
+    margin: 0;
+    size: auto;
+  }
+
+  html, body {
+    margin: 0 !important;
+    padding: 12mm 15mm !important;
+    background: #ffffff !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  #whatsapp-widget-container,
+  #whatsapp-widget-container *,
+  a[href*="wa.me"],
+  a[href*="wa.me"] *,
+  .print\:hidden,
+  .print\:\!hidden,
+  [class*="print:hidden"],
+  [class*="print:!hidden"],
+  .fixed,
+  [class*="fixed"] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+    outline: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    pointer-events: none !important;
+  }
+}
+

@@ -222,6 +222,7 @@ export default function SettleLoanWithoutLawyerClient() {
 
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
+
                         <div className="bg-white p-8 rounded-3xl border border-gray-100 shadow-xl shadow-indigo-900/5">
                             <p className="font-extrabold text-indigo-900 mb-6 text-xl border-b border-indigo-50 pb-3 text-lg leading-tight">DIY Navigator</p>
                             <nav className="space-y-2 text-sm">
@@ -511,7 +512,8 @@ export default function SettleLoanWithoutLawyerClient() {
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="space-y-8">
 
-                            {/* DIY Kit CTA */}
+
+                             {/* DIY Kit CTA */}
                             <div className="bg-gradient-to-br from-indigo-900 to-gray-900 p-8 rounded-[2rem] shadow-2xl border border-gray-800 text-center text-white">
                                 <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-6">
                                     <svg className="w-8 h-8 text-indigo-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">

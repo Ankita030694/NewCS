@@ -212,7 +212,8 @@ export default function HowToSettle7DaysLoanAppClient() {
             
             {/* Desktop: Sticky Vertical Sidebar */}
             <div className="sticky top-24 space-y-4">
-              <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+
+                        <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
                 <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Table of Contents</p>
                 <nav className="space-y-2 text-sm">
                   {navLinks.map((link) => (
@@ -572,6 +573,7 @@ export default function HowToSettle7DaysLoanAppClient() {
           <div className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-6">
               
+
               {/* Main CTA Card */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
                 <p className="font-bold text-xl text-gray-900 mb-2">Need Urgent Help?</p>

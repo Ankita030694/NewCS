@@ -153,7 +153,8 @@ export default function CreditCardSettlementCalculatorClient() {
           
           {/* ================= LEFT COLUMN: STICKY TOC ================= */}
           <aside className="hidden lg:block lg:col-span-3 sticky top-24 space-y-4">
-            <div className="bg-white rounded-2xl p-5 border border-slate-200/80 shadow-xs">
+
+                        <div className="bg-white rounded-2xl p-5 border border-slate-200/80 shadow-xs">
               <div className="flex items-center gap-2 pb-3 mb-3 border-b border-slate-100 text-slate-900 font-bold text-sm">
                 <BookOpen className="w-4 h-4 text-[#1886ff]"/>
                 <span>Table of Contents.</span>
@@ -871,12 +872,14 @@ export default function CreditCardSettlementCalculatorClient() {
                   <p className="text-[11px] font-medium text-[#1886ff]"> Legal &amp. Debt relief expert. </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed"> Specialist in Indian banking claims relief. RBI OTS deals rules. And civil defense against unlawful debt claims practices. </p>
+
+                        <p className="text-xs text-slate-600 leading-relaxed"> Specialist in Indian banking claims relief. RBI OTS deals rules. And civil defense against unlawful debt claims practices. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <span>Verified Legal Author.</span>
                 <span className="text-[#1886ff] font-bold">CredSettle Panel.</span>
               </div>
             </div>
+
 
             {/* Emergency CTA Card (#2452ae) */}
             <div className="rounded-2xl p-5 text-white shadow-xs space-y-3 relative overflow-hidden" style={{ backgroundColor: '#2452ae' }}>

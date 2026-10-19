@@ -268,6 +268,7 @@ export default function HomeLoanPlatformsClient() {
 
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
+
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm overflow-y-auto max-h-[85vh]">
                             <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Article Index</p>
                             <nav className="space-y-1 text-sm">
@@ -442,7 +443,8 @@ export default function HomeLoanPlatformsClient() {
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="space-y-6">
 
-                            {/* Primary CTA */}
+
+                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
                                 <p className="font-bold text-xl text-gray-900 mb-2">Halt home Auctions</p>
                                 <p className="text-sm text-gray-600 mb-6">Instantly deploy elite online representation to by law challenge severe SARFAESI bank notices today.</p>

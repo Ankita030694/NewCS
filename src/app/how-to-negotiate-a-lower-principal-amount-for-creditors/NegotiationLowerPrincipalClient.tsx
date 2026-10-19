@@ -296,6 +296,7 @@ export default function NegotiationLowerPrincipalClient() {
 
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
+
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
                             <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Expert Outline</p>
                             <nav className="space-y-1 text-sm">
@@ -639,7 +640,8 @@ export default function NegotiationLowerPrincipalClient() {
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
                         <div className="space-y-6">
 
-                            {/* Primary CTA */}
+
+                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
                                 <p className="font-bold text-xl text-gray-900 mb-2">Can You Negotiate Successfully?</p>
                                 <p className="text-sm text-gray-600 mb-6">Every situation is unique. Take our 2-minute 'Negotiation Power Score' test and see if your case qualifies for a principal reduction.</p>

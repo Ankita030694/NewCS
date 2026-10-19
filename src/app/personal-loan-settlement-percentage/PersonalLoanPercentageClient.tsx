@@ -230,6 +230,7 @@ export default function PersonalLoanPercentageClient() {
 
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
+
                         <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
                             <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Topic Overview</p>
                             <nav className="space-y-1 text-sm">
@@ -539,7 +540,8 @@ export default function PersonalLoanPercentageClient() {
                     {/* Right Column: Cards */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-24 self-start">
                         <div className="space-y-6">
-                            {/* Card 1: CTA */}
+
+                             {/* Card 1: CTA */}
                             <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
                                 <p className="font-black text-gray-900 text-xl mb-3 tracking-tight">Facing Harassment?</p>
                                 <p className="text-gray-600 text-sm mb-5 leading-relaxed px-1">

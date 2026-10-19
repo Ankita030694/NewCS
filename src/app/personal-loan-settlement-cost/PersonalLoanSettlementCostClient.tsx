@@ -240,6 +240,7 @@ export default function PersonalLoanSettlementCostClient() {
 
                     {/* Left Column: Table of Contents */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
+
                         <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
                             <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Navigation Guide</p>
                             <nav className="space-y-2 text-sm">
@@ -388,7 +389,8 @@ export default function PersonalLoanSettlementCostClient() {
                     {/* Right Column: Cards */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-24 self-start">
                         <div className="space-y-6">
-                            {/* Card 1: CTA */}
+
+                             {/* Card 1: CTA */}
                             <div className="bg-white p-5 rounded-2xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.05)] text-center flex flex-col items-center">
                                 <p className="font-black text-gray-900 text-xl mb-3 mt-2 tracking-tight">Facing threats?</p>
                                 <p className="text-gray-600 text-sm mb-6 leading-relaxed px-1"> Stop agents instantly with our checked legal advocacy shield. No upfront fee scams. </p>

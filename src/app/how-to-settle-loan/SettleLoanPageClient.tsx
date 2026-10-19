@@ -374,6 +374,7 @@ export default function SettleLoanPageClient() {
 
              {/* Right Column: Sticky Sidebar (3 cols) */}
              <div className="lg:col-span-3 hidden lg:block sticky top-24 space-y-6">
+
                  {/* Consultation Card */}
                 <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100">
                     <p className="text-xl font-bold text-[#0C2756] mb-2">Debt-Free in 90 Days?</p>

@@ -137,6 +137,7 @@ export default function Settle10LakhClient() {
                 <div className="flex flex-col lg:flex-row gap-8 items-start">
                     
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14">
+
                         <nav className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm mb-6" aria-label="Table of Contents">
                             <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">On This Page</p>
                             <ul className="space-y-1 text-sm">
@@ -154,15 +155,9 @@ export default function Settle10LakhClient() {
                             </ul>
                         </nav>
                         
-                        <article className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm flex flex-col items-center text-center">
-                            <Image src="/default-user.svg" alt="Rajesh Kumar Author Profile" width={100} height={100} className="rounded-full mb-4 object-cover opacity-70" />
-                            <p className="font-bold text-gray-900 text-lg">Rajesh Kumar</p>
-                            <p className="text-sm text-gray-500 mb-4">Senior money & Legal Expert</p>
-                            <p className="text-xs text-gray-600">With over a decade of experience resolving high-value debt disputes. Rajesh specializes in securing favorable closure waivers while shielding clients from claims threats.</p>
-                        </article>
-                    </aside>
+                        </aside>
 
-                    <article className="lg:w-3/4 xl:w-4/5 w-full prose prose-lg max-w-none bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100">
+                    <article className="lg:w-2/4 xl:w-3/5 w-full prose prose-lg max-w-none bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100">
                         
                         <h2 id="financial-reality" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The Financial Reality of a ₹10 Lakh Credit Card Default</h2>
                         <p className="text-gray-700 leading-relaxed mb-6"> Facing a ₹10 Lakh credit card debt can feel like carrying a mountain on your shoulders. The reality of such a high-value default is fully different from falling behind on a small own loan. clean credit card debt accumulates at growing rates rates that often exceed thirty-six percent annually. When you miss payments. Late fees. Over-limit fines. cascading rates charges quickly inflate the main sum amount to unmanageable levels. Many clients fall into a vicious cycle where they scramble to arrange funds. Desperately wondering <Link href="/what-is-minimum-amount-due-for-credit-card" className="text-blue-600 hover:underline">what is minimum amount due for credit card</Link> payments just to buy another month of peace. </p>
@@ -296,6 +291,16 @@ export default function Settle10LakhClient() {
                         </div>
 
                     </article>
+
+                    <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-14 space-y-6">
+                        <article className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm flex flex-col items-center text-center">
+                            <Image src="/default-user.svg" alt="Rajesh Kumar Author Profile" width={100} height={100} className="rounded-full mb-4 object-cover opacity-70" />
+                            <p className="font-bold text-gray-900 text-lg">Rajesh Kumar</p>
+                            <p className="text-sm text-gray-500 mb-4">Senior money & Legal Expert</p>
+                            <p className="text-xs text-gray-600">With over a decade of experience resolving high-value debt disputes. Rajesh specializes in securing favorable closure waivers while shielding clients from claims threats.</p>
+                        </article>
+
+                    </aside>
                 </div>
             </section>
         </main>

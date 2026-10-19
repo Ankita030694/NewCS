@@ -471,6 +471,7 @@ export default function Settle20LakhPersonalLoanClient() {
                             </div>
                         </div>
 
+
                         {/* CTA Card */}
                         <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-6 rounded-3xl shadow-md text-white">
                             <p className="font-bold text-xl mb-3">Stop Recovery Agents</p>

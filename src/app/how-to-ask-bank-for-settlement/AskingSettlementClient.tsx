@@ -658,6 +658,7 @@ export default function AskingSettlementClient() {
           {/* Right Column: Sticky CTA and Related Pages */}
           <aside className="lg:w-1/4 w-full px-0 lg:pl-8 mt-12 lg:mt-0">
             <div className="sticky top-10 space-y-6">
+
               {/* CTA Widget */}
               <div className="bg-gradient-to-br from-blue-700 to-indigo-900 p-6 md:p-8 rounded-2xl text-white shadow-lg relative overflow-hidden group">
                 <div className="absolute -right-4 -top-4 w-20 h-20 bg-white/10 rounded-full group-hover:scale-150 transition-transform duration-500"></div>

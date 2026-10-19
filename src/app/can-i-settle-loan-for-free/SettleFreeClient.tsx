@@ -562,6 +562,7 @@ export default function SettleFreeClient() {
           <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block">
             <div className="sticky top-14 space-y-6">
 
+
               {/* Primary CTA */}
               <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
                 <p className="font-bold text-xl text-gray-900 mb-2">Stuck with Debt?</p>

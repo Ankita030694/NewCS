@@ -457,6 +457,7 @@ export default function MobileAppSettlementClient() {
 
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24 space-y-8">
+
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
                 <p className="font-bold text-2xl mb-4">Debt Relief Now</p>
                 <p className="text-blue-100 mb-6 text-sm">Are you drowning in loan app debt? Let our experts help you settle for less.</p>

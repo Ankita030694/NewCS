@@ -379,6 +379,7 @@ export default function ReviewsClient() {
           {/* Right Column: CTA & Related Pages */}
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24 space-y-8">
+
               
               {/* Main Sidebar CTA */}
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">

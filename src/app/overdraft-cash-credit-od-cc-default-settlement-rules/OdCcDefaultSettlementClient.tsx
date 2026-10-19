@@ -1021,6 +1021,7 @@ export default function OdCcDefaultSettlementClient() {
               </div>
             </div>
 
+
             {/* Card 2: Emergency CTA Card (#2452ae background) */}
             <div
               className="rounded-3xl p-6 text-white text-center space-y-4 shadow-md relative overflow-hidden"

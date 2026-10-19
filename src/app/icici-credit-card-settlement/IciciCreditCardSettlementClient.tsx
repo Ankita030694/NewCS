@@ -146,7 +146,8 @@ export default function IciciCreditCardSettlementClient() {
           
                     <aside className="lg:w-1/6 hidden lg:block">
             <div className="sticky top-24 space-y-4">
-              <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+
+                        <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
 
             
 
@@ -386,6 +387,7 @@ export default function IciciCreditCardSettlementClient() {
                 <p className="text-sm text-gray-500 mb-4">Senior Legal counsel & money Strategist.</p>
                 <p className="text-xs text-gray-400 ">Expert in dealing with banking rules. Agents threats. complex debt restructuring matters.</p>
               </div>
+
             </div>
           </aside>
         </div>

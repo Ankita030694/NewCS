@@ -473,6 +473,7 @@ export default function SecuredLoanSettlementClient() {
 
           <div className="lg:w-1/5 hidden lg:block">
             <div className="sticky top-24 space-y-8">
+
               <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-3xl shadow-xl text-white">
                 <p className="font-bold text-2xl mb-4">Debt Recovery Help</p>
                 <p className="text-blue-100 mb-6 text-sm">Dealing with bank notices or recovery calls? We can help you stop the harassment and settle your debts.</p>

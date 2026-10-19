@@ -782,6 +782,7 @@ export default function CanISettleHomeLoanPage() {
           {/* Right Column - CTA & Related */}
           <div className="hidden lg:block w-1/4 min-w-[250px]">
              <div className="sticky top-24 space-y-6">
+
                 
                 {/* CTA Container */}
                 <div className="bg-[#0C2756] rounded-xl p-6 text-white shadow-lg relative overflow-hidden">

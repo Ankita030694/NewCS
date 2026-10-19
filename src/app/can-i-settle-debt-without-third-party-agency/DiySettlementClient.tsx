@@ -186,6 +186,7 @@ export default function DiySettlementClient() {
                 <div className="flex flex-col lg:flex-row gap-8 items-start">
                     {/* Left Column: TOC */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
+
                         <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm">
                             <p className="font-bold text-gray-900 mb-4 text-lg border-b pb-2">Guide Outline</p>
                             <nav className="space-y-1 text-sm">
@@ -373,7 +374,8 @@ export default function DiySettlementClient() {
                     {/* Right Column: CTA & Related Expertise (NO AUTHOR BIO) */}
                     <aside className="lg:w-1/4 xl:w-1/5 hidden lg:block sticky top-20">
                         <div className="space-y-6">
-                            {/* Primary CTA */}
+
+                             {/* Primary CTA */}
                             <div className="bg-white p-6 rounded-2xl shadow-lg border border-blue-100 text-center">
                                 <p className="font-bold text-xl text-gray-900 mb-2">Need a Legal Shield?</p>
                                 <p className="text-sm text-gray-600 mb-6">Skip the 15% agency fees. Hire a real law firm to defend against DRT and harassment.</p>
