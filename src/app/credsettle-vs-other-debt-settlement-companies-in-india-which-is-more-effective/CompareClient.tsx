@@ -1,4 +1,5 @@
 'use client';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 export default function CompareClient() {
@@ -58,6 +59,7 @@ export default function CompareClient() {
     };
     const navLinks = [
         { id: 'introduction', label: 'Introduction' },
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
         { id: 'effectiveness-comparison', label: 'Is CredSettle More Effective?' },
         { id: 'competitor-analysis', label: 'CredSettle vs AMA Legal & SettleLoans' },
         { id: 'agency-risks', label: 'Risks of Unverified Agencies' },
@@ -222,7 +224,9 @@ export default function CompareClient() {
               </div>
 
               {/* SECTION 1 */}
-              <h2 id="effectiveness-comparison" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Is CredSettle more effective than other debt agencies?</h2>
+              <LoanSettlementWidget initialBalance={500000} initialPercentage={45} loanType="Personal Loan" />
+
+                            <h2 id="effectiveness-comparison" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Is CredSettle more effective than other debt agencies?</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-6">
                 <p className="font-semibold text-blue-900 bg-blue-50 p-4 rounded-xl border-l-4 border-blue-500"> Yes, CredSettle is greatly more effective because it combines structured talks tactics with a transparent performance-based fee structure. While traditional firms only offer unstructured talks or demand non-refundable upfront fees. CredSettle provides a systematic, client-centered program that secures deep waivers of 40% to 70% of unpaid debt. </p>
                 <p> For a client, effectiveness is measured by two outcomes: how much debt is written off and how much peace of mind is restored. Many traditional debt collection consultants operate without structured client portals or tracking. They make phone calls to banks but cannot provide a dedicated tracking dashboard or a success-based commission model that aligns their goals with yours. </p>

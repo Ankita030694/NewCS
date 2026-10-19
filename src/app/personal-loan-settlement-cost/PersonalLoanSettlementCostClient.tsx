@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Script from 'next/script';
@@ -58,6 +59,7 @@ export default function PersonalLoanSettlementCostClient() {
     };
 
     const navLinks = [
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
         { id: 'introduction', label: 'Introduction' },
         { id: 'upfront-fee-scams', label: 'Upfront Fee Scams' },
         { id: 'how-legitimate-fees-work', label: 'Legitimate Fee Structures' },
@@ -282,6 +284,9 @@ export default function PersonalLoanSettlementCostClient() {
                         <article className="prose prose-lg max-w-none bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100">
 <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Section 1: The Harsh Reality of Debt Relief in India</h2>
 <p className="text-gray-700 leading-relaxed mb-6">When individuals face insurmountable debt. Desperation often clouds judgment. clients looking for a way out of mounting own loan defaults and credit card bills are often targeted by predatory firms. These fraudulent debt closure firms exploit the vulnerability of struggling families by demanding enormous upfront payments. They disguise these demands as enrollment fees. Retainer costs. file processing charges. In this thorough guide. We will break down the true cost of debt closure in India and expose how fake firms steal from those who can least afford it.</p>
+
+                            <LoanSettlementWidget initialBalance={500000} initialPercentage={45} loanType="Personal Loan" />
+
 <p className="text-gray-700 leading-relaxed mb-6">The primary query for most clients is grasp own loan closure company fees. Transparency is severely lacking in the unregulated sectors of the debt relief trade. By analyzing how much do loan closure companies charge. We aim to arm you with the knowledge necessary to distinguish legitimate legal counsel from scammers. grasp the cost of debt closure in India is your first and most vital layer of safety against money fraud.</p>
 <p className="text-gray-700 leading-relaxed mb-6">Throughout this detailed examination. We will explore the mechanisms of the upfront fee scam. The acceptable pricing models used by genuine legal experts. provide extensive real world case studies. The objective is to build a massive foundation of trust by offering fully transparent insights into the legal process of debt relief. You must never trust a company that demands a huge rate of your debt before they have lifted a finger to help you.</p>
 <p className="text-gray-700 leading-relaxed mb-6">Debt closure is not a magical solution that erases debts overnight. It is a rigorous legal and talks process where an authorized representative engages with bank claims departments and legal teams. The fee structure for this service should reflect the experts time and expertise involved. Not a predatory rate designed to empty your remaining savings. Let us dive deep into the exact red flags and fee structures that define the trade today.</p>

@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Script from 'next/script';
@@ -54,6 +55,7 @@ export default function HomeLoanPlatformsClient() {
 
     const navLinks = [
         { id: 'introduction-home-loan', label: 'The Home Loan Crisis' },
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
         { id: 'secured-vs-unsecured', label: 'Secured vs Unsecured Rules' },
         { id: 'sarfaesi-act-explained', label: 'SARFAESI Act Explained' },
         { id: 'online-platform-mechanics', label: 'Online Platform Mechanics' },
@@ -301,6 +303,8 @@ export default function HomeLoanPlatformsClient() {
                             <p className="text-gray-700 leading-relaxed mb-6"> The dream of home ownership often transforms into a terrifying money trap. When severe economic shocks arrive in the form of sudden medical emergencies or unexpected job loss. The strict monthly home loan EMI becomes fully impossible to maintain. Missing running payments instantly flags your mortgage account internally within the banking system as a severely toxic asset. Unlike clean credit cards where banks simply hurl insults via call centers. The results of defaulting on a massive home loan are brutally real and violently swift. </p>
                             <p className="text-gray-700 leading-relaxed mb-6"> The bank holds the original deeds to your home and possesses the legal right to recover dues under exact legislative frameworks. Facing a default is not just a money hurdle. it is a legal challenge that requires grasp the timeline of bank notices and the clients’s rights to representation and fair talks. </p>
                             <p className="text-gray-700 leading-relaxed mb-6"> We sincerely apologize for any technical inconsistencies. Providing accurate content remains our priority. Facing eviction requires strategic legal action. Not panic or reliance on unverified internet advice. Using experts debt relief platforms is proven to save homes explicitly when deployed early and appropriately. </p>
+
+                            <LoanSettlementWidget initialBalance={2500000} initialPercentage={60} loanType="Home Loan" />
 
                             <h2 id="secured-vs-unsecured" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">2. The Crucial Distinction: Secured vs. Unsecured Rules</h2>
                             <p className="text-gray-700 leading-relaxed mb-6"> Many clients fundamentally misunderstand the key difference between secured and clean debt. A home loan is a secured debt. Meaning it is backed by pledge-your home. In contrast. Credit cards or own loans are clean. This distinction is paramount because the legal recourse available to lenders differs significantly. For secured loans. Banks have powerful tools. Such as the SARFAESI Act in India. To recover dues by taking takeover of and auctioning the pledge. </p>

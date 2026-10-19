@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Script from 'next/script';
@@ -46,6 +47,7 @@ export default function SettleLoanWithoutLawyerClient() {
 
     const navLinks = [
         { id: 'introduction', label: 'Does a Lawyer matter?' },
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
         { id: 'legal-framework-india', label: 'Indian Legal Rules' },
         { id: 'diy-settlement-steps', label: 'DIY Playbook' },
         { id: 'lawyer-vs-expert', label: 'Who to Choose' },
@@ -263,6 +265,8 @@ export default function SettleLoanWithoutLawyerClient() {
                             <p className="text-gray-700 leading-relaxed mb-8 text-lg">
                                 This 5000+ word authority guide will walk you through the entire landscape of self-settlement in India. We will strip away the legal myths, explain the 2025 RBI frameworks, and give you a practical blueprint to negotiate your way out of debt. Whether you are dealing with a small credit card balance or a large business loan, this roadmap will help you decide if you can handle this battle alone.
                             </p>
+
+                            <LoanSettlementWidget initialBalance={500000} initialPercentage={45} loanType="Personal Loan" />
 
                             <h2 id="legal-framework-india" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-20 leading-tight">
                                 The Legal Framework: Debt Settlement in India

@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 
@@ -53,6 +54,7 @@ export default function HowToSettle7DaysLoanAppClient() {
 
   const navLinks = [
     { id: 'introduction', label: 'Introduction' },
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
     { id: 'loan-trap', label: 'The 7-Day Trap' },
     { id: 'legal-landscape', label: 'Legal Realities' },
     { id: 'harassment-tactics', label: 'Harassment Tactics' },
@@ -255,7 +257,9 @@ export default function HowToSettle7DaysLoanAppClient() {
                 </p>
               </div>
 
-              <h2 id="loan-trap" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">The 7-Day Trap: How the Scam Operates</h2>
+              <LoanSettlementWidget initialBalance={100000} initialPercentage={35} loanType="Loan App Debt" />
+
+                            <h2 id="loan-trap" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">The 7-Day Trap: How the Scam Operates</h2>
               <div className="text-gray-700 leading-relaxed mb-12 space-y-8 text-xl">
                 <p>
                   The "7-Day Loan" is a masterpiece of psychological manipulation. It targets those in urgent need: a medical emergency, a missed bill, or a temporary cash crunch. The process is deceptively simple: download an app, give permissions, and receive money in 5 minutes.

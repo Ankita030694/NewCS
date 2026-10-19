@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Script from 'next/script';
@@ -54,6 +55,7 @@ export default function AggressiveRecoverySupportClient() {
 
     const navLinks = [
         { id: 'introduction', label: 'The Harassment War' },
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
         { id: 'the-cost-of-harassment', label: 'The Cost of Harassment' },
         { id: 'legal-rights-2026', label: 'Constitutional Rights' },
         { id: 'rbi-laws', label: 'Latest RBI Rules' },
@@ -332,6 +334,8 @@ export default function AggressiveRecoverySupportClient() {
                             <div className="bg-blue-50 p-8 rounded-3xl border border-blue-100 mb-8 font-light italic text-blue-900 text-xl text-center">
                                 "No individual can be coerced into repayment through fear, shame, or intimidation. The law of the land is absolute: your personhood is protected even when your credit is not. Use the law as your sword and your shield."
                             </div>
+
+                            <LoanSettlementWidget initialBalance={500000} initialPercentage={45} loanType="Personal Loan" />
 
                             <h2 id="the-cost-of-harassment" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The Economic and Emotional Cost of Harassment</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">

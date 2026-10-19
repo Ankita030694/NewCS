@@ -1,5 +1,6 @@
 "use client";
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 
@@ -173,6 +174,9 @@ export default function Settle15LakhClient() {
               <p className="text-blue-900 font-bold text-lg mt-0 mb-2 flex items-center">
                 <span className="text-2xl mr-2">💡</span> Quick Answer
               </p>
+
+                            <LoanSettlementWidget initialBalance={1500000} initialPercentage={45} loanType="₹15 Lakh Personal Loan" />
+
               <p className="mb-0">
                 <strong>Yes, you can settle a ₹15 Lakh personal loan in India.</strong> When faced with genuine financial hardship (like job loss or a medical emergency), banks may agree to a one-time settlement (OTS). For an unsecured loan of this size, settlement amounts typically range from <strong>30% to 50%</strong> of the outstanding principal, depending on how long the loan has been in default and your negotiation leverage.
               </p>

@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Script from 'next/script';
+import LoanEmiWidget from '@/components/tools/LoanEmiWidget';
 
 export default function CannotPayPersonalLoanEmiClient() {
     const [activeId, setActiveId] = useState<string>('');
@@ -298,6 +299,8 @@ export default function CannotPayPersonalLoanEmiClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 This comprehensive guide is designed to walk you through exactly what you need to do when you are facing financial problems paying your loan. We will cover immediate action steps, the legal implications of defaulting, how to protect yourself and your family from recovery agent harassment, and the strategic pathways to resolving your debt, including loan restructuring and debt settlement. We will also explore real world case studies to show you how other borrowers successfully navigated similar crises.
                             </p>
+
+                            <LoanEmiWidget initialPrincipal={500000} initialRate={11.5} initialTenureYears={5} loanType="Personal Loan" />
 
                             <h2 id="initial-steps" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Immediate Action Steps When You Cannot Pay</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">

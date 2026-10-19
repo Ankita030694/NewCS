@@ -97,6 +97,27 @@ export default function LoanSettlementCalculatorClient() {
     []
   );
 
+  // Auto-calculate on initial mount and support query params from widgets
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const urlBalance = params.get('balance');
+      const urlPercentage = params.get('percentage');
+
+      const b = urlBalance && Number(urlBalance) > 0 ? Number(urlBalance) : outstandingBalance;
+      const p =
+        urlPercentage && Number(urlPercentage) >= 0 && Number(urlPercentage) <= 100
+          ? Number(urlPercentage)
+          : settlementPercentage;
+
+      if (urlBalance || urlPercentage) {
+        setOutstandingBalance(b);
+        setSettlementPercentage(p);
+      }
+      fetchCalculation(b, p, additionalFees, fullRepaymentComparison);
+    }
+  }, [fetchCalculation]);
+
   // Form submission handler
   const handleCalculate = (e: React.FormEvent) => {
     e.preventDefault();

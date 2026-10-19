@@ -1,4 +1,5 @@
 'use client';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React from 'react';
 import Link from 'next/link';
 export default function ClientPage() {
@@ -34,6 +35,8 @@ export default function ClientPage() {
             </h2>
             <div className="prose max-w-none text-gray-700 space-y-4 leading-relaxed">
               <p> When you default on own loan EMIs. The unpaid balance can rapidly spiral due to compounding rates. Late payment fees. Steep penalty charges. In many instances. The inflated charges represent over 30% to 40% of the claimed debt. </p>
+
+              <LoanSettlementWidget initialBalance={500000} initialPercentage={45} loanType="Personal Loan" />
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-6">
                 <div className="p-5 bg-gray-50 rounded-xl border border-gray-200">

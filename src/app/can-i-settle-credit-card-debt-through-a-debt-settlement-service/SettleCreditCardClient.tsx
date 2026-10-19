@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 
@@ -70,6 +71,7 @@ export default function SettleCreditCardClient() {
 
   const navLinks = [
     { id: 'introduction', label: 'Introduction' },
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
     { id: 'understanding-settlement', label: 'Understanding Settlement' },
     { id: 'how-services-work', label: 'How Services Work' },
     { id: 'credsettle-role', label: 'Role of CredSettle' },
@@ -234,7 +236,9 @@ export default function SettleCreditCardClient() {
                 </p>
               </div>
 
-              <h2 id="understanding-settlement" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Understanding Credit Card Settlement &amp; OTS in India</h2>
+              <LoanSettlementWidget initialBalance={300000} initialPercentage={45} loanType="Credit Card Debt" />
+
+                            <h2 id="understanding-settlement" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Understanding Credit Card Settlement &amp; OTS in India</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
                   Credit card debt settlement is a process where you and the bank agree to close your account for a payment that is significantly lower than the total outstanding balance. This usually happens when you have been in default for several months and the bank has classified your account as a Non Performing Asset or a potential loss. For the bank, a settlement represents a way to recover at least a portion of the funds without going through a long and expensive legal battle. For you, it is an opportunity to wipe the slate clean and stop the mounting interest.

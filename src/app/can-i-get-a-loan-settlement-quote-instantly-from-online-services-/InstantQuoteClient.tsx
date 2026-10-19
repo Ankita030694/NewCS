@@ -1,4 +1,5 @@
 'use client';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 export default function InstantQuoteClient() {
@@ -41,6 +42,7 @@ export default function InstantQuoteClient() {
         }
     }, [activeId, isMobile]);
     const navLinks = [
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
         { id: 'introduction', label: 'Introduction' },
         { id: 'mechanics-behind-instant', label: 'The Mechanics Behind Instant Settlement Quotes' },
         { id: 'warning-signs-scam', label: 'Warning Signs: When a Fast Quote is a Scam' },
@@ -146,6 +148,9 @@ export default function InstantQuoteClient() {
               <h2 id="introduction" className="text-base font-bold text-gray-900 mb-6 scroll-mt-28">Navigating the World of Digital Quotes</h2>
               <div className="text-gray-700 leading-relaxed text-base mb-16 space-y-10 opacity-90 border-l-4 border-blue-600 pl-8">
                 <p> In 2025. Over 40% of Indian clients who settled straight with claims agents paid up to 30% more than the algorithmic floor price set by the bank's internal matrix. Securing an instant online settlement quote is no longer just about convenience. It is a critical data-gathering step to discover exactly how much the bank is quietly willing to waive. </p>
+
+                            <LoanSettlementWidget initialBalance={500000} initialPercentage={45} loanType="Personal Loan" />
+
                 <p> When you default on an no-pledge debt. You enter a highly asymmetrical battlefield. The bank holds decades of historical data. Predictive analytics. automated decision engines. They know exactly when a defaulting client is likely to break under pressure and agree to an inflated payment. Conversely. The average client enters this talks completely blind. Armed only with anxiety and a desperate desire to end the relentless claims calls. This profound information gap is precisely why online settlement estimators have fundamentally disrupted the debt relief industry. </p>
                 <p> The moment you receive an accurate mathematical projection. The power dynamic shifts. You are no longer settling based on the harsh demands of a commissioned claims agent. Instead. You are anchoring your counteroffers to the bank's own internal loss bank reserves models. Understanding how these tools function. The data they consume. The limits of their accuracy is the first vital step toward reclaiming your money autonomy and securing a relief that preserves your remaining cash. </p>
                 <p> This full analysis will dismantle the architecture of instant settlement quotes. We will explore the backend mechanisms that power these algorithms. Expose the deceptive practices of fraudulent lead generation websites. Guide you through the meticulous. Step by step process of obtaining a checked estimate. Whether you are dealing with a minor credit card default or a massive private loans crisis. Mastering these online tools is non negotiable for achieving the optimal outcome. </p>

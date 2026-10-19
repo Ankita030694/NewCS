@@ -1,4 +1,5 @@
 'use client';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -51,6 +52,7 @@ export default function CreditCardSettlementCalculatorClient() {
     const estimatedSavings = totalDebt - estimatedSettlementPayout;
     const estimatedSavingsPercent = Math.round((estimatedSavings / totalDebt) * 100);
     const navLinks = [
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
         { id: 'quick-crux', label: 'Executive Summary & Crux' },
         { id: 'debt-economics-npa-dynamics', label: '1. Debt Economics & NPA Dynamics' },
         { id: 'financial-breakdown-settlement-math', label: '2. Financial Breakdown & Math' },
@@ -193,6 +195,8 @@ export default function CreditCardSettlementCalculatorClient() {
                 <Sparkles className="w-5 h-5 text-[#1886ff]"/>
                 <p>Executive Summary: Core settlement Mechanics.</p>
               </div>
+
+            <LoanSettlementWidget initialBalance={300000} initialPercentage={45} loanType="Credit Card Debt" />
               <ul className="space-y-2.5 text-xs sm:text-sm text-slate-700 leading-relaxed">
                 <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <span>Credit card debt settlement operates through a bilateral OTS deal between cardholders and lending banks under RBI prudential settlement norms.</span> </li>
                 <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <span>Unbundled finance charges, late fees. Compounding 42% to 48% APR are routinely waived at 100% during talks.</span> </li>

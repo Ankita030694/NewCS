@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -51,6 +52,7 @@ export default function Settle10LakhClient() {
     }, []);
 
     const navLinks = [
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
         { id: 'financial-reality', label: 'Financial Reality' },
         { id: 'checklist', label: 'Step Checklist' },
         { id: 'cost-breakdown', label: 'Cost Breakdown' },
@@ -161,6 +163,9 @@ export default function Settle10LakhClient() {
                         
                         <h2 id="financial-reality" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The Financial Reality of a ₹10 Lakh Credit Card Default</h2>
                         <p className="text-gray-700 leading-relaxed mb-6"> Facing a ₹10 Lakh credit card debt can feel like carrying a mountain on your shoulders. The reality of such a high-value default is fully different from falling behind on a small own loan. clean credit card debt accumulates at growing rates rates that often exceed thirty-six percent annually. When you miss payments. Late fees. Over-limit fines. cascading rates charges quickly inflate the main sum amount to unmanageable levels. Many clients fall into a vicious cycle where they scramble to arrange funds. Desperately wondering <Link href="/what-is-minimum-amount-due-for-credit-card" className="text-blue-600 hover:underline">what is minimum amount due for credit card</Link> payments just to buy another month of peace. </p>
+
+                            <LoanSettlementWidget initialBalance={1000000} initialPercentage={45} loanType="₹10 Lakh Credit Card Debt" />
+
                         <p className="text-gray-700 leading-relaxed mb-6"> yet. Paying only the minimum amount on a massive ten lakh balance is a severe money trap. You are essentially paying only a fraction of the rates. while the main sum remains untouched and continues to attract more rates. After several months of this struggle. When your money reserves are fully exhausted. The inevitable default occurs. The bank classification mechanisms trigger rapidly. Within thirty days. Your credit score plummets. By ninety days. Your account is classified as a Non-Performing Asset (NPA). </p>
                         <p className="text-gray-700 leading-relaxed mb-6"> Once an account hits NPA status for a significant amount like ten lakhs. The collections strategy changes aggressively. Banks employ dedicated claims firms that are incentivized by high commission structures to extract the maximum amount possible. You will receive relentless phone calls. Legal notices via email and real post. potentially threatening language indicating fast legal action. It is in these moments of panic that clients often make key mistakes. Such as liquidating retirement savings. Taking high-rates informal loans. agreeing to verbal promises from agents that hold no legal validity. grasp that this is a systematic claims process. Not a own attack. Is the first step toward regaining your composure and planning a strategic closure. </p>
 

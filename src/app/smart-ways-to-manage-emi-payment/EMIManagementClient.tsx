@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Script from 'next/script';
+import LoanEmiWidget from '@/components/tools/LoanEmiWidget';
 
 export default function EMIManagementClient() {
     const [activeId, setActiveId] = useState<string>('');
@@ -311,6 +312,8 @@ export default function EMIManagementClient() {
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 This 5,000 word masterclass is designed to provide you with actionable, legally sound, and psychologically driven strategies to manage your EMIs like a professional. We will move beyond the basics of "don't miss a payment" and dive into the complex world of debt prioritization, tactical prepayments, and defensive legal maneuvers. With insights from **CredSettle** and **Amalegal Solutions**, you will learn how to navigate the pitfalls of over-leveraging and emerge with a credit profile that lenders covet.
                             </p>
+
+                            <LoanEmiWidget initialPrincipal={500000} initialRate={10.5} initialTenureYears={5} initialPrepayment={50000} loanType="Personal Loan" />
 
                             <h2 id="debt-mapping" className="text-3xl font-extrabold text-gray-900 mb-8 scroll-mt-28 border-l-8 border-blue-600 pl-8">1. The Debt Audit: Know Your Enemy</h2>
                             <p className="text-gray-700 leading-relaxed mb-10">

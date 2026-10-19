@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Script from 'next/script';
+import LoanEmiWidget from '@/components/tools/LoanEmiWidget';
 
 export default function LoanEmiOverdueOneDayClient() {
     const [activeId, setActiveId] = useState<string>('');
@@ -289,6 +290,8 @@ export default function LoanEmiOverdueOneDayClient() {
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 This comprehensive legal and financial guide will dissect exactly what happens behind the scenes at a bank when your payment fails. We will explore the technical nuances of the loan grace period in India, how Days Past Due (DPD) reporting works, and the genuine missed EMI by one day CIBIL impact. Furthermore, we will arm you with exact negotiation scripts so you can confidently communicate with your bank instead of turning to dangerous third-party lenders.
                             </p>
+
+                            <LoanEmiWidget initialPrincipal={500000} initialRate={12} initialTenureYears={4} loanType="Personal Loan" />
 
                             <h2 id="what-happens-day-1" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 2: What Actually Happens on Day 1 of an Overdue EMI?</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">

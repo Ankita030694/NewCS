@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 
@@ -73,6 +74,7 @@ export default function FindAgenciesClient() {
 
   const navLinks = [
     { id: 'introduction', label: 'Introduction' },
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
     { id: 'professional-help', label: 'Why Seek Professional Help?' },
     { id: 'identifying-agencies', label: 'Identifying Reputable Agencies' },
     { id: 'top-agencies', label: 'Top Agencies in India' },
@@ -244,7 +246,9 @@ export default function FindAgenciesClient() {
                 </p>
               </div>
 
-              <h2 id="professional-help" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Why Seek Professional Help for Credit Card Settlement?</h2>
+              <LoanSettlementWidget initialBalance={300000} initialPercentage={45} loanType="Credit Card Debt" />
+
+                            <h2 id="professional-help" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Why Seek Professional Help for Credit Card Settlement?</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
                   Many borrowers wonder if they can handle debt settlement on their own. While it is technically possible to call your bank and ask for a waiver, the reality is much more complex. Banks are large institutions with rigid policies and dedicated recovery departments whose goal is to collect as much as possible. An individual borrower often lacks the leverage and the legal knowledge to secure a favorable deal.

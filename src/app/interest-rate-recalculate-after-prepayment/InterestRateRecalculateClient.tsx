@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanEmiWidget from '@/components/tools/LoanEmiWidget';
 
 export default function InterestRateRecalculateClient() {
     const [activeId, setActiveId] = useState<string>('');
@@ -256,6 +257,8 @@ export default function InterestRateRecalculateClient() {
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 This extensive guide, written with legal and financial precision, is designed to completely demystify the mathematics of loan part payments. We will break down exactly how your bank rebuilds your amortization schedule the moment your part payment clears. If you want to dive deeper into the mechanics of part payments themselves, you can read our comprehensive guide on <Link href="/loan-partial-payment" className="text-blue-600 hover:underline">making a loan partial payment</Link>.
                             </p>
+
+                            <LoanEmiWidget initialPrincipal={500000} initialRate={10.5} initialTenureYears={5} initialPrepayment={50000} loanType="Personal Loan" />
 
                             <h2 id="math-of-prepayment" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-green-700 pl-6">Section 2: The Core Mathematics of Loan Prepayment</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">

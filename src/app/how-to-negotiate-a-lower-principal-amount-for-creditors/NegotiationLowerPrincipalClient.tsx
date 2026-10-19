@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Script from 'next/script';
@@ -53,6 +54,7 @@ export default function NegotiationLowerPrincipalClient() {
     }, []);
 
     const navLinks = [
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
         { id: 'opening-gambit', label: 'The Opening Gambit' },
         { id: 'principal-vs-interest', label: 'Principal vs Interest' },
         { id: 'negotiation-blueprint', label: '10-Day Success Blueprint' },
@@ -329,6 +331,9 @@ export default function NegotiationLowerPrincipalClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Entering a negotiation for your debt is not a plea for mercy; it is a strategic business re-evaluation. Most borrowers in India are intimidated by the sheer size of the "Total Outstanding" amount shown on their mobile apps. What they don’t realize is that this number is often 60% fluff - a combination of penal interest, late fees, compounding charges, and administrative bloat. In the world of 2025 finance, the "Principal" is the only number that truly matters.
                             </p>
+
+                            <LoanSettlementWidget initialBalance={500000} initialPercentage={45} loanType="Personal Loan" />
+
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 To negotiate a lower principal amount, you must first shed the guilt. Banks are for-profit institutions that build in a "Risk Buffer" into Every interest rate they charge. When a bank lends to you at 24% for a personal loan, they have already factored in a certain percentage of defaults. When you settle, you are helping the bank recover their capital so they can re-deploy it at a higher rate. You are helping them clear their Non-Performing Asset (NPA) status, which is a massive headache for their board of directors.
                             </p>

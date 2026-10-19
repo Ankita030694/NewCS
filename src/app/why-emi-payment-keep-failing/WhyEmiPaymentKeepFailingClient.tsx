@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Script from 'next/script';
+import LoanEmiWidget from '@/components/tools/LoanEmiWidget';
 
 export default function WhyEmiPaymentKeepFailingClient() {
     const [activeId, setActiveId] = useState<string>('');
@@ -319,6 +320,8 @@ export default function WhyEmiPaymentKeepFailingClient() {
                                 </div>
                             </div>
                             <p className="text-gray-700 leading-relaxed mb-10"> If the issue stems from a signature mismatch or a defunct mandate. You must proactively initiate a mandate replacement process. Do not rely solely on the lender to fix the issue. as their automated systems will simply continue attempting the debit and generating bounce charges. </p>
+
+                            <LoanEmiWidget initialPrincipal={500000} initialRate={11} initialTenureYears={5} loanType="Personal Loan" />
 
                             <h2 id="cibil-impact" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">The Hidden Impact on Your CIBIL Score</h2>
                             <p className="text-gray-700 leading-relaxed mb-6"> The most damaging result of an auto debit bounce is its impact on your CIBIL score. Credit bureaus rely on data feeds from lenders. these feeds are largely automated. When a payment fails. The system registers a missed payment. Regardless of whether the cause was a technical glitch or insufficient funds. </p>

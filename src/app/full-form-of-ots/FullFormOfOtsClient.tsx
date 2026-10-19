@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 
@@ -53,6 +54,7 @@ export default function FullFormOfOtsClient() {
 
   const navLinks = [
     { id: 'full-form-of-ots', label: 'Full Form of OTS' },
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
     { id: 'how-does-ots-work', label: 'How Does OTS Work?' },
     { id: 'eligibility', label: 'Eligibility for OTS' },
     { id: 'legal-framework', label: 'Legal Framework' },
@@ -186,7 +188,9 @@ export default function FullFormOfOtsClient() {
             </section>
 
             <section>
-              <h2 id="how-does-ots-work" className="text-xl font-bold text-gray-900 mb-6 scroll-mt-28">How Does a One Time Settlement Work?</h2>
+              <LoanSettlementWidget initialBalance={500000} initialPercentage={45} loanType="Personal Loan" />
+
+                            <h2 id="how-does-ots-work" className="text-xl font-bold text-gray-900 mb-6 scroll-mt-28">How Does a One Time Settlement Work?</h2>
               <div className="text-gray-700 leading-relaxed mb-12 space-y-8 text-base">
                 <p> The operational workings of a One Time closure involve a highly structured talks process between the clients in distress and the claims department of the money institution. The process does not commence fast after a single missed payment. In the first phases of delinquency. The bank focuses fully on standard calls procedures. Aiming to rehabilitate the account and return it to a performing status. The true closure window opens only when the account has aged significantly. </p>
                 <p> Typically. An account must remain unpaid for at least ninety days to one hundred and eighty days before the bank seriously entertains a One Time deals. During this extended period. The clients will undoubtedly face intense pressure from calls firms. The mental toll of this phase is immense. it is a necessary precursor. The bank must exhaust its standard claims options before its internal algorithms authorize a substantial waiver of the unpaid dues. </p>

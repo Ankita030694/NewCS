@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 
@@ -70,6 +71,7 @@ export default function SettleSelfClient() {
 
   const navLinks = [
     { id: 'introduction', label: 'Introduction' },
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
     { id: 'what-is-diy', label: 'What is DIY Settlement?' },
     { id: 'advantages', label: 'Advantages' },
     { id: 'financial-assessment', label: 'Financial Assessment' },
@@ -237,7 +239,9 @@ export default function SettleSelfClient() {
                 </p>
               </div>
 
-              <h2 id="what-is-diy" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Understanding DIY Debt Settlement</h2>
+              <LoanSettlementWidget initialBalance={500000} initialPercentage={45} loanType="Personal Loan" />
+
+                            <h2 id="what-is-diy" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Understanding DIY Debt Settlement</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
                   DIY debt settlement is the process where a borrower negotiates directly with their creditors to pay a lump sum amount that is less than the total outstanding balance. Once this amount is paid, the creditor agrees to consider the debt fully satisfied and releases the borrower from any further obligation. This approach is often used when a borrower is in deep financial distress and can no longer afford the regular monthly payments.

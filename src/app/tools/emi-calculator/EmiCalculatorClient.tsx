@@ -128,6 +128,37 @@ export default function EmiCalculatorClient() {
     []
   );
 
+  // Auto-calculate on initial mount and parse URL query params from widgets
+  useEffect(() => {
+    let p = 500000;
+    let r = 10.5;
+    let t = 5;
+    const u: TenureUnit = 'years';
+
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const urlPrincipal = params.get('principal') || params.get('balance');
+      const urlRate = params.get('rate');
+      const urlTenure = params.get('tenure');
+
+      if (urlPrincipal && Number(urlPrincipal) > 0) {
+        p = Number(urlPrincipal);
+        setPrincipal(p);
+      }
+      if (urlRate && Number(urlRate) >= 0) {
+        r = Number(urlRate);
+        setAnnualInterestRate(r);
+      }
+      if (urlTenure && Number(urlTenure) > 0) {
+        t = Number(urlTenure);
+        setTenureValue(t);
+      }
+    }
+
+    const defaultDate = new Date().toISOString().substring(0, 7);
+    computeScenario(p, r, t, u, 0, defaultDate);
+  }, [computeScenario]);
+
   // Handle Form Submission
   const handleCalculate = (e: React.FormEvent) => {
     e.preventDefault();

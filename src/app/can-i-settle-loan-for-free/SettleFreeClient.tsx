@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Script from 'next/script';
@@ -55,6 +56,7 @@ export default function SettleFreeClient() {
 
   const navLinks = [
     { id: 'introduction', label: 'Introduction' },
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
     { id: 'can-it-be-free', label: 'Can it be Free?' },
     { id: 'zero-fee-options', label: 'Zero Fee Options' },
     { id: 'rbi-guidelines-2025', label: 'RBI 2025 Rules' },
@@ -334,7 +336,9 @@ export default function SettleFreeClient() {
                 The financial landscape in 2025 has become increasingly complex. Digital lending apps and NBFCs have changed the way credit is accessed, but the fundamental rules of debt remain the same. If you owe money, the lender has a legal right to recover it. However, you also have rights that protect you from unfair practices. This guide is designed to empower you with the knowledge needed to navigate this difficult phase without falling prey to scams or hidden costs.
               </p>
 
-              <h2 id="can-it-be-free" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Can Loan Settlement Truly Be Free?</h2>
+              <LoanSettlementWidget initialBalance={500000} initialPercentage={45} loanType="Personal Loan" />
+
+                            <h2 id="can-it-be-free" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">Can Loan Settlement Truly Be Free?</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
                 The term "free" in the context of loan settlement can mean two things: settling without paying a fee to an intermediary agency, or settling without paying the lender the full outstanding amount. Let us address both.
               </p>

@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Script from 'next/script';
@@ -58,6 +59,7 @@ export default function AskingSettlementClient() {
 
   const navLinks = [
     { id: 'introduction', label: 'Financial Freedom Road' },
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
     { id: 'why-consider-settlement', label: 'Why Select Settlement?' },
     { id: 'npa-classification', label: 'NPA Timeline' },
     { id: 'eligibility-criteria', label: 'Are You Eligible?' },
@@ -244,7 +246,9 @@ export default function AskingSettlementClient() {
                 </div>
               </div>
 
-              <h2 id="why-consider-settlement" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-28">The Economics of "Haircuts": Why Banks Want to Settle</h2>
+              <LoanSettlementWidget initialBalance={500000} initialPercentage={45} loanType="Personal Loan" />
+
+                            <h2 id="why-consider-settlement" className="text-2xl font-bold text-gray-900 mb-4 scroll-mt-28">The Economics of "Haircuts": Why Banks Want to Settle</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4 text-base text-justify">
                 <p>
                   To the average borrower, it might seem strange that a bank would voluntarily "give up" 50% of the money owed to them. This waiver is known in the financial industry as a "haircut." The reason banks agree to these haircuts is rooted in the regulatory requirements set by the RBI. When a loan is not paid for 90 days, it is classified as a Non-Performing Asset (NPA). 

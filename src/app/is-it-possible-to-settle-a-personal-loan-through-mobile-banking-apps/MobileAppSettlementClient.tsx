@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 
@@ -70,6 +71,7 @@ export default function MobileAppSettlementClient() {
 
   const navLinks = [
     { id: 'introduction', label: 'Introduction' },
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
     { id: 'app-reality', label: 'Digital Reality' },
     { id: 'fintech-vs-bank', label: 'Fintech vs Traditional' },
     { id: 'credsettle-role', label: 'CredSettle Services' },
@@ -239,7 +241,9 @@ export default function MobileAppSettlementClient() {
                 </p>
               </div>
 
-              <h2 id="app-reality" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">The Reality of Digital Loan Settlement in India</h2>
+              <LoanSettlementWidget initialBalance={100000} initialPercentage={35} loanType="Loan App Debt" />
+
+                            <h2 id="app-reality" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">The Reality of Digital Loan Settlement in India</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
                   While mobile banking apps are incredible for checking balances and transferring funds, they are currently not designed to be the primary platform for high-stakes debt negotiations. Most major Indian banks do not feature a "Settle My Loan" button in their main interface. This is because loan settlement is a formal, legal process that involves a thorough assessment of the borrower\'s financial hardship. Banks need to be convinced that you genuinely cannot pay the full amount before they agree to take a loss on the principal or interest.

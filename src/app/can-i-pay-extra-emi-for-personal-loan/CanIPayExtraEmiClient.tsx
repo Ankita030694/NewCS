@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Script from 'next/script';
+import LoanEmiWidget from '@/components/tools/LoanEmiWidget';
 
 export default function CanIPayExtraEmiClient() {
     const [activeId, setActiveId] = useState<string>('');
@@ -298,6 +299,8 @@ export default function CanIPayExtraEmiClient() {
                                     </div>
                                 </div>
                             </div>
+
+                            <LoanEmiWidget initialPrincipal={500000} initialRate={12} initialTenureYears={4} initialPrepayment={25000} loanType="Personal Loan" />
 
                             <h2 id="advance-vs-part-payment" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 2: Advance EMI vs Part-Payment</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">

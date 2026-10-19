@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Script from 'next/script';
+import LoanEmiWidget from '@/components/tools/LoanEmiWidget';
 
 export default function WhatHappensAfter3MissedEmisClient() {
     const [activeId, setActiveId] = useState<string>('');
@@ -263,6 +264,8 @@ export default function WhatHappensAfter3MissedEmisClient() {
                             <p className="text-gray-700 leading-relaxed mb-6"> Facing money distress is a challenging experience. missing a loan payment can cause immense anxiety. If you have missed one or two payments. You are likely already receiving numerous calls and text messages from the collections department of your bank. Yet. The case escalates dramatically once you cross the threshold of three missed Equated Monthly Installments. At this precise point. The banking machinery shifts gears from routine followups to harsh legal claims. </p>
                             <p className="text-gray-700 leading-relaxed mb-6"> grasp exactly what happens after 3 missed EMIs is crucial for your money survival. The banking terminology for this event is becoming a Non Performing Asset. This classification fundamentally changes your relationship with the lender. The bank no longer views you as a standard customer who is slightly delayed on payments. Instead. You are categorized as a high risk defaulter. Triggering a cascade of automated legal and money actions designed to recover the unpaid balance at all costs. This thorough guide will illuminate the exact timeline. The legal implications including the dreaded bank recall notice. the strategic steps you must take to protect your rights and settle a favorable closure. </p>
                             <p className="text-gray-700 leading-relaxed mb-6"> The fear of the unknown often paralyzes clients. You might be wondering about the possibility of police involvement. The loss of own assets. the permanent destruction of your money reputation. By demystifying the procedures that banks follow. Including the issuance of a legal notice after 3 missed EMIs. You can regain control of your case. Knowledge is your most potent weapon against threaten. We will provide you with a meticulous breakdown of the claims process. Empowering you to make informed decisions rather than reacting out of panic. </p>
+
+                            <LoanEmiWidget initialPrincipal={500000} initialRate={12.5} initialTenureYears={4} loanType="Personal Loan" />
 
                             <h2 id="timeline-of-default" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 2: The Timeline of a Personal Loan Default</h2>
                             <p className="text-gray-700 leading-relaxed mb-6"> The journey from a standard loan account to a severe default classification follows a highly structured timeline mandated by banking rules. It does not happen overnight. The Reserve Bank of India has established clear guidelines that dictate how banks must classify and pursue overdue accounts. grasp this timeline allows you to anticipate the bank actions and prepare your defense strategy accordingly. </p>

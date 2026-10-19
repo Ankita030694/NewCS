@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -54,6 +55,7 @@ export default function Settle20LakhPersonalLoanClient() {
     }, []);
 
     const navLinks = [
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
         { id: 'quick-answer', label: 'Key Summary' },
         { id: 'can-you-settle', label: 'Can You Settle ₹20 Lakhs?' },
         { id: 'settlement-timeline', label: 'Settlement Timeline' },
@@ -251,6 +253,9 @@ export default function Settle20LakhPersonalLoanClient() {
                                 <p className="font-semibold text-blue-900 m-0 leading-relaxed">
                                     Yes, you can settle a ₹20 Lakh personal loan in India. When you face severe financial hardship (job loss, medical emergency, business failure), banks are often willing to accept a <Link href="/personal-loan-settlement" className="text-blue-700 hover:underline">one-time settlement (OTS)</Link> that is significantly lower than the principal outstanding. A ₹20 Lakh loan could potentially be settled for anywhere between ₹8 Lakhs to ₹12 Lakhs, depending on the days past due (DPD), the borrower's proving of hardship, and strategic legal negotiation to stop <Link href="/how-to-stop-recovery-agent-harassment" className="text-blue-700 hover:underline">recovery harassment</Link>.
                                 </p>
+
+                            <LoanSettlementWidget initialBalance={2000000} initialPercentage={45} loanType="₹20 Lakh Personal Loan" />
+
                             </div>
 
                             <p className="text-gray-700 mb-6 leading-relaxed">

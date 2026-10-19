@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Script from 'next/script';
+import LoanEmiWidget from '@/components/tools/LoanEmiWidget';
 
 export default function ForeclosureAndPartPrepaymentChargesClient() {
     const [activeId, setActiveId] = useState<string>('');
@@ -288,6 +289,8 @@ export default function ForeclosureAndPartPrepaymentChargesClient() {
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 This comprehensive guide is designed to dissect these rules. We will explore the critical differences between floating and fixed interest rates, expose the hidden lock-in periods, and provide you with actionable strategies to legally bypass these absurd fees. Knowing your rights is the first step. If you are struggling with broader debt issues, seeking a <Link href="/best-lawyer-for-personal-loans" className="text-blue-600 font-semibold hover:underline">legal expert for personal loans</Link> can provide a more tailored roadmap to your financial independence.
                             </p>
+
+                            <LoanEmiWidget initialPrincipal={500000} initialRate={10.5} initialTenureYears={5} initialPrepayment={50000} loanType="Personal Loan" />
 
                             <h2 id="rbi-guidelines" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-green-700 pl-6">Section 2: RBI Rules on Foreclosure Charges: The Borrower's Shield</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">

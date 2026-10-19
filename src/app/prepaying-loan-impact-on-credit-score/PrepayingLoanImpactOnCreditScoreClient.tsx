@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Script from 'next/script';
+import LoanEmiWidget from '@/components/tools/LoanEmiWidget';
 
 export default function PrepayingLoanImpactOnCreditScoreClient() {
     const [activeId, setActiveId] = useState<string>('');
@@ -300,6 +301,8 @@ export default function PrepayingLoanImpactOnCreditScoreClient() {
                             <p className="text-gray-700 leading-relaxed mb-6 font-bold text-red-800 uppercase italic border-b-2 border-red-100 pb-2"> Never pay unnecessary rates solely to manipulate a credit algorithm. </p>
                             <p className="text-gray-700 leading-relaxed mb-6"> Some clients become so obsessed with maintaining a perfect credit score that they hesitate to pay off high rates debt. Falsely believing that keeping the loan open is a necessary sacrifice for digital supremacy. This is a dire money strategy. The purpose of a high credit score is to save you money by securing lower rates rates on future borrowing. It is deeply illogical to waste money paying rates in the present simply to secure a theoretical opportunity to save money on rates in the future. </p>
                             <p className="text-gray-700 leading-relaxed mb-10"> When you evaluate the "does prepaying loan improve CIBIL score" conundrum. You must prioritize your net worth over your credit score. The CIBIL score is a tool. it is not the ultimate goal of own finance. True money freedom is characterized by the absence of oppressive debt debts. Not a flawless digital rating. Once the loan is closed and the debt is eradicated. Your money foundation is exponentially stronger. Regardless of a temporary dip in your credit dashboard. </p>
+
+                            <LoanEmiWidget initialPrincipal={500000} initialRate={12} initialTenureYears={4} initialPrepayment={100000} loanType="Personal Loan" />
 
                             {/* COMPARISON TABLE */}
                             <h2 id="comparison-table" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-green-700 pl-6">Section 6: Pre-closure vs Continuing EMIs</h2>

@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 
@@ -58,6 +59,7 @@ export default function Settle5LakhClient() {
     }, []);
 
     const navLinks = [
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
         { id: 'anatomy-of-default', label: 'Anatomy of Default' },
         { id: 'compounding-interest', label: 'Compounding Interest' },
         { id: 'collection-cycle', label: 'Collection Cycle' },
@@ -217,6 +219,9 @@ export default function Settle5LakhClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Credit card debts compound aggressively; a ₹5 Lakh balance can easily balloon to over ₹7 Lakhs within just six months due to compounding interest rates averaging 36% to 42% annually alongside exorbitant late payment penalties. Unlike term loans, credit card debt is a revolving unsecured line, meaning issuers operate with much shorter tolerance thresholds before assigning your account to aggressive third-party collection agencies. The moment you miss your first payment, a very precise mathematical and psychological machine is set into motion by the lender.
                             </p>
+
+                            <LoanSettlementWidget initialBalance={500000} initialPercentage={45} loanType="₹5 Lakh Credit Card Debt" />
+
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Understanding this anatomy is crucial for survival. When you default on a personal loan, the bank has a fixed EMI schedule to reference. With a credit card, the balance is a moving target. Every passing month without a payment triggers not just late fees, but overlimit fees, GST on those fees, and interest applied not just to the principal, but to the previously accumulated interest. This compounding effect is what makes a 5 Lakh card debt significantly more dangerous than a 5 Lakh personal loan. Borrowers often try to pay just the <Link href="/what-is-minimum-amount-due-for-credit-card" className="text-blue-600 underline">minimum amount due</Link>, but when the principal is this high, the minimum payment barely covers the new interest, leaving the core debt completely untouched.
                             </p>

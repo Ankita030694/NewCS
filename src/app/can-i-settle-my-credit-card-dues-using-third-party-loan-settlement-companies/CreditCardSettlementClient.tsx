@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Script from 'next/script';
@@ -54,6 +55,7 @@ export default function CreditCardSettlementClient() {
 
     const navLinks = [
         { id: 'introduction', label: 'The Debt Trap' },
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
         { id: 'legality-rbi', label: 'Legal & RBI Rules' },
         { id: 'how-it-works', label: 'Settlement Process' },
         { id: 'risks-and-cibil', label: 'Risks & CIBIL Impact' },
@@ -346,6 +348,8 @@ export default function CreditCardSettlementClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The year 2025 has brought new regulations and a more digitized banking environment. Banks are now faster at identifying non performing assets, but they are also more open to automated settlement processes. In this landscape, the role of a data-driven settlement platform is more critical than ever. Whether you are dealing with a single card or a dozen, understanding the legal and financial mechanics of this process will empower you to move from a state of fear to a state of strategic resolution. Let us begin by analyzing the legal foundations that make this whole industry possible in India.
                             </p>
+
+                            <LoanSettlementWidget initialBalance={300000} initialPercentage={45} loanType="Credit Card Debt" />
 
                             <h2 id="legality-rbi" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14">The Legal Framework: RBI Rules and the Indian Contract Act</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">

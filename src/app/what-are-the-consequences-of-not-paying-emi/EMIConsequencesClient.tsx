@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Script from 'next/script';
+import LoanEmiWidget from '@/components/tools/LoanEmiWidget';
 
 export default function EMIConsequencesClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -329,6 +330,8 @@ export default function EMIConsequencesClient() {
                   Non-Performing Asset (NPA) is the 'red zone'. Once a loan is an NPA, the bank must provide for it from its own profits, making them highly motivated to recover the money through aggressive litigation or asset auctions.
                 </p>
               </div>
+
+              <LoanEmiWidget initialPrincipal={500000} initialRate={12} initialTenureYears={4} loanType="Personal Loan" />
 
               <h2 id="recovery-process" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">4. The Recovery Process: Confronting Agents and Agency</h2>
               <div className="text-gray-700 leading-relaxed mb-6 space-y-6">

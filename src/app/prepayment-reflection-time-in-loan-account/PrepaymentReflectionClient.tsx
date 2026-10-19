@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Script from 'next/script';
+import LoanEmiWidget from '@/components/tools/LoanEmiWidget';
 
 export default function PrepaymentReflectionClient() {
     const [activeId, setActiveId] = useState<string>('');
@@ -320,6 +321,8 @@ export default function PrepaymentReflectionClient() {
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 This delay is not a glitch; it is an architectural feature designed to ensure data integrity and prevent misallocation of millions of rupees across the banking network.
                             </p>
+
+                            <LoanEmiWidget initialPrincipal={500000} initialRate={10.5} initialTenureYears={5} initialPrepayment={50000} loanType="Personal Loan" />
 
                             <h2 id="neft-rtgs-mechanics" className="text-4xl font-black text-gray-900 mb-8 scroll-mt-24 tracking-tight border-l-8 border-blue-700 pl-6">Section 3: NEFT & RTGS Mechanics</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">

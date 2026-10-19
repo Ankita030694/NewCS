@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Script from 'next/script';
@@ -58,6 +59,7 @@ export default function PersonalLoanPercentageClient() {
     };
 
     const navLinks = [
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
         { id: 'introduction', label: 'The Expectation Gap' },
         { id: 'bank-internal-math', label: 'Bank Internal Math' },
         { id: 'dpd-npa-rules', label: 'DPD & NPA Rules' },
@@ -275,6 +277,9 @@ export default function PersonalLoanPercentageClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Borrowers often think they can walk into a bank on the first day of default and demand a seventy percent discount on their outstanding dues. This is a massive misconception that leads to frustration, failed negotiations, and intense harassment from recovery agents. Many borrowers simply do not understand that the willingness of a bank to take a financial haircut is strictly tied to the Days Past Due (DPD) metrics and Non Performing Asset (NPA) provisioning rules mandated by the Reserve Bank of India. 
                             </p>
+
+                            <LoanSettlementWidget initialBalance={500000} initialPercentage={45} loanType="Personal Loan" />
+
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The question of what percentage is personal loan settlement approved at cannot be answered with a single flat rate. It is a highly dynamic calculation. This page reveals the internal math of the bank, explaining precisely why discounts increase dramatically from twenty percent to over fifty percent the longer the loan remains unpaid and classified as an NPA. Understanding this framework is the only way to effectively negotiate the average personal loan settlement amount and understand how much the bank will waive in settlement.
                             </p>

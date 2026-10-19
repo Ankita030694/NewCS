@@ -1,4 +1,5 @@
 'use client';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -45,6 +46,7 @@ export default function Settle10LakhClient() {
         };
     }, []);
     const navLinks = [
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
         { id: '10-lakh-default-escalation', label: 'Default Escalation' },
         { id: 'why-high-value-loans', label: 'High-Value Risks' },
         { id: 'standard-90-day-timeline', label: '90-Day Timeline' },
@@ -168,6 +170,9 @@ export default function Settle10LakhClient() {
                         
     <article className="prose prose-lg max-w-none bg-white p-6 md:p-10 rounded-3xl shadow-sm border border-gray-100">
     <p className="text-3xl font-bold text-gray-900 mb-6">Settling a ₹10 Lakh private loans in India.</p>
+
+                            <LoanSettlementWidget initialBalance={1000000} initialPercentage={45} loanType="₹10 Lakh Personal Loan" />
+
     <p className="text-gray-700 leading-relaxed mb-6 font-medium">Defaulting on a ₹10 Lakh private loans triggers a specialized high-value collection protocol in most Indian banks. Often escalating to pre-lawsuits notices and arbitration within 90 days. Unlike smaller no-collateral debts, crossing the seven-figure threshold means automated collection calls are quickly replaced by specialized legal teams and field collection agents.</p>
     
     <p className="text-gray-700 leading-relaxed mb-6">When you borrow a major amount. The lender assesses the risk differently. A ₹10 Lakh no-collateral private loans represents a large exposure for any bank. The moment you miss an EMI. The clock starts ticking not just on late fees. On a highly structured collection process designed to secure the lenders interests. Understanding this process is the key to successfully navigating a settlement without facing severe legal repercussions. The stakes are much higher here compared to a simple credit card default. The plans you employ must be equally robust and well planned.</p>

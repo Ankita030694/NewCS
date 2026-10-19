@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -67,6 +68,7 @@ export default function OdCcDefaultSettlementClient() {
 
   const navLinks = [
     { id: 'quick-crux', label: 'Executive Brief & Legal Crux' },
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
     { id: 'understanding-od-cc', label: '1. OD & CC Facility Defaults' },
     { id: 'rbi-npa-norms', label: '2. RBI 90-Day NPA Classification Norms' },
     { id: 'security-collateral-matrix', label: '3. Primary vs Collateral Security Matrix' },
@@ -280,6 +282,8 @@ export default function OdCcDefaultSettlementClient() {
                 When cash flow contracts, borrowers frequently find themselves trapped in compounding interest debits. Banks levy penal interest, inspection charges, and stock audit fees directly onto the principal balance, accelerating the depletion of available credit limits and precipitating sudden NPA classification.
               </p>
             </section>
+
+            <LoanSettlementWidget initialBalance={1000000} initialPercentage={45} loanType="Overdraft / CC Facility" />
 
             {/* SECTION 2: RBI 90-Day NPA Classification Norms */}
             <section id="rbi-npa-norms" className="scroll-target space-y-4">

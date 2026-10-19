@@ -1,4 +1,5 @@
 'use client';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -29,6 +30,7 @@ export default function CreditCardSettlementDiscountClient() {
         setOpenFaq(openFaq === index ? null : index);
     };
     const navLinks = [
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
         { id: 'quick-crux', label: 'Executive Summary & Crux' },
         { id: 'debt-economics-npa-dynamics', label: '1. Debt Economics & NPA Dynamics' },
         { id: 'financial-breakdown-settlement-math', label: '2. Financial Breakdown & Math' },
@@ -158,6 +160,8 @@ export default function CreditCardSettlementDiscountClient() {
                 <Bookmark className="w-4 h-4 text-[#1886ff]"/>
                 <span>EXECUTIVE SUMMARY: CREDIT CARD SETTLEMENT DISCOUNT &amp; WAIVER MATRIX.</span>
               </div>
+
+            <LoanSettlementWidget initialBalance={300000} initialPercentage={45} loanType="Credit Card Debt" />
 
               <ul className="space-y-3 text-xs sm:text-sm text-slate-700 leading-relaxed">
                 <li className="flex items-start gap-3"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Pure Civil Debt:</strong> no-pledge credit card default is strictly a civil breach under the Indian Contract Act. 1872. With zero arrest exposure. </div> </li>

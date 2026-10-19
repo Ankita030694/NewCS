@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 
@@ -70,6 +71,7 @@ export default function SecuredLoanSettlementClient() {
 
   const navLinks = [
     { id: 'introduction', label: 'Introduction' },
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
     { id: 'definitions', label: 'Secured vs Unsecured' },
     { id: 'can-i-settle', label: 'Settling Secured Loans' },
     { id: 'sarfaesi-act', label: 'SARFAESI Act Role' },
@@ -233,7 +235,9 @@ export default function SecuredLoanSettlementClient() {
                 </p>
               </div>
 
-              <h2 id="definitions" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Defining the Battlefield: Secured vs Unsecured Loans</h2>
+              <LoanSettlementWidget initialBalance={2500000} initialPercentage={60} loanType="Home Loan" />
+
+                            <h2 id="definitions" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">Defining the Battlefield: Secured vs Unsecured Loans</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
                   Before we dive into the settlement process, we must clarify what we mean by secured and unsecured loans. A secured loan is one where the borrower pledges an asset as collateral for the loan. The most common examples in India are home loans (where the house is the collateral), vehicle loans (where the car or bike is pledged), and gold loans. If the borrower fails to pay, the lender has the legal right to seize and sell the asset to recover the outstanding amount.

@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 
@@ -73,6 +74,7 @@ export default function JointLoanSettlementClient() {
 
   const navLinks = [
     { id: 'introduction', label: 'Introduction' },
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
     { id: 'joint-liability', label: 'Joint Liability' },
     { id: 'is-it-possible', label: 'Can You Settle?' },
     { id: 'implications', label: 'Co-Borrower Impact' },
@@ -240,7 +242,9 @@ export default function JointLoanSettlementClient() {
                 </p>
               </div>
 
-              <h2 id="joint-liability" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">The Foundation: Understanding Joint and Several Liability</h2>
+              <LoanSettlementWidget initialBalance={500000} initialPercentage={45} loanType="Personal Loan" />
+
+                            <h2 id="joint-liability" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">The Foundation: Understanding Joint and Several Liability</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-4">
                 <p>
                   The most critical legal pillar of any joint loan is the principle of joint and several liability. In simple terms, this means that every person who signs the loan agreement is responsible for the entire amount of the debt, not just a portion of it. If you and your partner take a loan for fifty lakhs, the bank does not see it as twenty five lakhs each. They see it as fifty lakhs that can be recovered from either of you, or both of you together.

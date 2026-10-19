@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Script from 'next/script';
@@ -58,6 +59,7 @@ export default function PersonalLoanSettlementCalculatorClient() {
     };
 
     const navLinks = [
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
         { id: 'introduction', label: 'Introduction' },
         { id: 'core-components', label: 'Unpaid Debt Math' },
         { id: 'dpd-impact', label: 'DPD and Settlement' },
@@ -310,6 +312,9 @@ export default function PersonalLoanSettlementCalculatorClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 When borrowers default on a personal loan, they are quickly overwhelmed by aggressive recovery agents and rapidly increasing account balances. One of the most terrifying aspects of this process is checking your loan account statement after a few months of non payment and realizing the outstanding balance has skyrocketed far beyond the original loan amount. Borrowers constantly ask how much cash they actually need to gather to escape this debt trap. The bank refuses to give a straight answer, preferring to keep the math completely opaque to maximize their recovery.
                             </p>
+
+                            <LoanSettlementWidget initialBalance={500000} initialPercentage={45} loanType="Personal Loan" />
+
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 This page serves as a comprehensive personal loan settlement calculator framework. We will demystify the exact math used by banks and recovery agencies to determine your final settlement amount. By understanding the components of your debt, the critical role of Days Past Due, and the application of a hardship severity multiplier, you can accurately estimate how much to pay for loan settlement in India. You will learn that the inflated number the bank demands is merely a starting point for negotiation, not the final verdict on your financial future.
                             </p>

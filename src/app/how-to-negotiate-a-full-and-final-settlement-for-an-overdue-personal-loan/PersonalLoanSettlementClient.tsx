@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 
@@ -53,6 +54,7 @@ export default function PersonalLoanSettlementClient() {
 
   const navLinks = [
     { id: 'summary', label: 'Summary (TL;DR)' },
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
     { id: 'reality-of-default', label: 'The Reality of Unsecured Personal Loan Default' },
     { id: 'when-banks-agree', label: 'When Do Banks Actually Agree to a Settlement?' },
     { id: 'structuring-offer', label: 'Structuring Your Settlement Offer' },
@@ -199,7 +201,9 @@ export default function PersonalLoanSettlementClient() {
             </section>
 
             <section>
-              <h2 id="reality-of-default" className="text-base font-bold text-gray-900 mb-6 scroll-mt-28">The Reality of Unsecured Personal Loan Default</h2>
+              <LoanSettlementWidget initialBalance={500000} initialPercentage={45} loanType="Personal Loan" />
+
+                            <h2 id="reality-of-default" className="text-base font-bold text-gray-900 mb-6 scroll-mt-28">The Reality of Unsecured Personal Loan Default</h2>
               <div className="text-gray-700 leading-relaxed text-base mb-16 space-y-10 opacity-90 border-l-4 border-blue-600 pl-8">
                 <p> When you take out an clean own loan. You borrow money based solely on your credit history and income profile. There is no pledge backing the transaction. The bank cannot seize your house or your vehicle if you fail to pay. Therefore. The risk is fully borne by the money institution. Because of this inherent risk. Clean loans carry much higher rates rates. When clients face economic hardships. These high rates payments are usually the first debts missed. A single missed payment triggers harsh internal calls protocols. </p>
                 <p> Many individuals panic when they receive their first legal demand notice or when a calls agent begins calling. This panic often leads to terrible money decisions. Such as liquidating retirement funds or taking on new debts just to cover the overdue installment. If you are unable to generate the income required to service your debt. Borrowing more money will only accelerate your path to ruin. You need to understand the systemic process that banks follow when dealing with defaulted clean loans. </p>

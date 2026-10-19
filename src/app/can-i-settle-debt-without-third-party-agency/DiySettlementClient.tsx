@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 
@@ -53,6 +54,7 @@ export default function DiySettlementClient() {
 
     const navLinks = [
         { id: 'truth-about-agencies', label: 'The Truth About Settlement Agencies' },
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
         { id: 'how-to-diy-settlement', label: 'How to Negotiate a DIY Settlement' },
         { id: 'step-1-stopping-emi', label: 'Step 1: Stopping EMI Payments' },
         { id: 'step-2-handling-recovery', label: 'Step 2: Handling Recovery Agents' },
@@ -238,6 +240,8 @@ export default function DiySettlementClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Furthermore, most settlement agencies are not law firms. They are essentially call centers sending generic email templates to bank grievance cells. Because they lack legal standing, they cannot represent you in court if the bank files a civil suit, nor can they file legally binding injunctions to stop physical harassment by recovery agents. For many borrowers, paying a third-party agency for a service they could perform themselves is a costly mistake.
                             </p>
+
+                            <LoanSettlementWidget initialBalance={500000} initialPercentage={45} loanType="Personal Loan" />
 
                             <h2 id="how-to-diy-settlement" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-20">How to Negotiate a DIY Loan Settlement</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">

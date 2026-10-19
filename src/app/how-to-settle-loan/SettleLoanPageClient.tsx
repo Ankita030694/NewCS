@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import { useEffect, useState } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -19,6 +20,7 @@ export default function SettleLoanPageClient() {
 
   const headings = [
     { id: 'introduction', text: 'How to Settle Loan Online', level: 2 },
+    { id: 'interactive-settlement-estimator', text: 'Settlement Calculator', level: 2 },
     { id: 'eligibility', text: 'Who Can Settle Loans?', level: 2 },
     { id: 'settlement-timeline', text: 'The Settlement Timeline', level: 2 },
     { id: 'agency-vs-legal', text: 'Agencies vs Legal Firms', level: 2 },
@@ -178,6 +180,8 @@ export default function SettleLoanPageClient() {
                         </p>
                     </div>
                 </section>
+
+                <LoanSettlementWidget initialBalance={500000} initialPercentage={45} loanType="Personal Loan" />
 
                 {/* Eligibility */}
                 <section id="eligibility" className="mb-12 scroll-mt-24">

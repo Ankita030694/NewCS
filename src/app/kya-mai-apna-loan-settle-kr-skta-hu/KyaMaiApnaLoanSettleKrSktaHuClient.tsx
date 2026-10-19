@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 
@@ -53,6 +54,7 @@ export default function KyaMaiApnaLoanSettleKrSktaHuClient() {
 
   const navLinks = [
     { id: 'introduction', label: 'Introduction' },
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
     { id: 'meaning-basics', label: 'Loan Settlement Kya Hota Hai?' },
     { id: 'loan-types', label: 'Kis Tarah Ke Loans Me Possible Hai?' },
     { id: 'bank-agreement', label: 'Bank Kab Raazi Hota Hai?' },
@@ -203,7 +205,9 @@ export default function KyaMaiApnaLoanSettleKrSktaHuClient() {
             </section>
 
             <section>
-              <h2 id="meaning-basics" className="text-base font-bold text-gray-900 mb-6 scroll-mt-28">Loan Settlement Kya Hota Hai? (Meaning & Basics)</h2>
+              <LoanSettlementWidget initialBalance={500000} initialPercentage={45} loanType="Personal Loan" />
+
+                            <h2 id="meaning-basics" className="text-base font-bold text-gray-900 mb-6 scroll-mt-28">Loan Settlement Kya Hota Hai? (Meaning & Basics)</h2>
               <div className="text-gray-700 leading-relaxed mb-12 space-y-8 text-base">
                 <p>
                   Loan settlement ek aisi mutual agreement hai jahan bank aur borrower ek aisi amount par raazi hote hain jo total outstanding balance se kafi kam hoti hai. Jab aap lagatar kai mahino tak EMI pay nahi kar paate hain, toh bank aapke account ko Non Performing Asset (NPA) ghoshit kar deta hai. Is point par, bank ka primary goal hota hai kisi tarah thoda bahut paisa wapas nikalna. Aap bank ko apni majboori dikhate hain, aur bank aapke late fees aur interest ko maaf karke ek choti principal amount par compromise kar leta hai.

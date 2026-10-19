@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -70,6 +71,7 @@ export default function LoanRestructuringTerminalIllnessDisabilityClient() {
 
   const navLinks = [
     { id: 'quick-crux', label: 'Executive Brief & Medical Relief' },
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
     { id: 'regulatory-framework', label: '1. Medical Crisis: RBI Regulatory Rules' },
     { id: 'financial-comparison', label: '2. Restructuring vs Compassionate OTS' },
     { id: 'resolution-matrix', label: '3. Medical Hardship Relief Matrix' },
@@ -282,6 +284,8 @@ export default function LoanRestructuringTerminalIllnessDisabilityClient() {
                 Borrowers do not have to face bank staff alone. By citing official RBI circulars, you can halt harsh calls. You can get fair loan relief based on health grounds.
               </p>
             </section>
+
+            <LoanSettlementWidget initialBalance={500000} initialPercentage={45} loanType="Personal Loan" />
 
             {/* SECTION 2: Financial Comparison: Loan Restructuring vs Compassionate OTS */}
             <section id="financial-comparison" className="scroll-target space-y-4">

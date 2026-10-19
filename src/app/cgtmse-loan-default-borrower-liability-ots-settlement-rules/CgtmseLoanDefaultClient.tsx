@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -69,6 +70,7 @@ export default function CgtmseLoanDefaultClient() {
 
   const navLinks = [
     { id: 'quick-crux', label: 'Executive Brief & Legal Crux' },
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
     { id: 'cgtmse-scheme', label: '1. CGTMSE Scheme & Coverage Boundaries' },
     { id: 'borrower-liability', label: '2. Borrower Liability: Bank Claim vs Defaulter' },
     { id: 'recovery-channels', label: '3. Bank Recovery Channels: DRT & SARFAESI' },
@@ -281,6 +283,8 @@ export default function CgtmseLoanDefaultClient() {
                 When an account turns into a Non-Performing Asset, or NPA, the Trust disburses funds to the lender. However, the borrower and personal guarantors remain fully liable for the entire debt under Indian banking rules.
               </p>
             </section>
+
+            <LoanSettlementWidget initialBalance={1500000} initialPercentage={45} loanType="MSME / CGTMSE Loan" />
 
             {/* SECTION 2: Borrower Liability & Representative Math */}
             <section id="borrower-liability" className="scroll-target space-y-4">

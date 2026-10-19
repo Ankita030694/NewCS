@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Script from 'next/script';
+import LoanEmiWidget from '@/components/tools/LoanEmiWidget';
 
 export default function LoanOverdueNachBounceClient() {
     const [activeId, setActiveId] = useState<string>('');
@@ -313,6 +314,8 @@ export default function LoanOverdueNachBounceClient() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 The third, and perhaps most damaging consequence, is the impact on your Credit Information Report (CIBIL score). The lender reports your payment behavior to credit bureaus every 30 to 45 days. A bounce flags your account as DPD (Days Past Due). A DPD of even a few days can significantly lower your credit score and ruin your chances of securing loans in the near future.
                             </p>
+
+                            <LoanEmiWidget initialPrincipal={500000} initialRate={12} initialTenureYears={4} loanType="Personal Loan" />
 
                             {/* Section 3: Section 25 Criminal Threat */}
                             <h2 id="section-25-criminal-notice" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-14 mt-12">

@@ -1,3 +1,4 @@
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React from 'react';
 import type { Metadata } from 'next';
 import Script from 'next/script';
@@ -57,6 +58,7 @@ export const metadata: Metadata = {
 export default function CanISettleHomeLoanPage() {
   const headings = [
     { id: 'introduction', text: 'Introduction', level: 2 },
+    { id: 'interactive-settlement-estimator', text: 'Settlement Calculator', level: 2 },
     { id: 'settlement-vs-prepayment', text: 'Settlement vs. Prepayment', level: 2 },
     { id: 'when-to-consider', text: 'When to Consider Settlement?', level: 2 },
     { id: 'understanding-npa', text: 'Understanding NPA & SMA Stages', level: 2 },
@@ -442,6 +444,8 @@ export default function CanISettleHomeLoanPage() {
                 </div>
                 <p className="mt-4 text-sm text-gray-500 italic">* SMA = Special Mention Account</p>
               </div>
+
+              <LoanSettlementWidget initialBalance={2500000} initialPercentage={60} loanType="Home Loan" />
 
               <div id="sarfaesi-act" className="my-10">
                 <h2 className="text-3xl font-bold mb-6 text-[#0C2756]">The SARFAESI Act 2002 & Your Rights</h2>

@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Script from 'next/script';
@@ -71,6 +72,7 @@ export default function WhatPercentageBanksAcceptClient() {
     };
 
     const navLinks = [
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
         { id: 'introduction', label: 'The Settlement Bracket' },
         { id: 'typical-percentage-ranges', label: 'Typical Waiver Ranges' },
         { id: 'the-math-of-waivers', label: 'The Math of Waivers' },
@@ -328,6 +330,9 @@ export default function WhatPercentageBanksAcceptClient() {
                             <p className="text-slate-600 leading-relaxed text-2xl mb-10 font-medium italic underline decoration-blue-200 underline-offset-8">
                                 Why does one borrower settle a 10 lakh loan for 3 lakhs, while another pays 7 lakhs for the same debt? The answer lies in the invisible brackets of the banking system.
                             </p>
+
+                            <LoanSettlementWidget initialBalance={500000} initialPercentage={45} loanType="Personal Loan" />
+
                             <p className="text-gray-700 leading-relaxed mb-8">
                                 In the world of Indian banking, a loan is not just a debt; it is a financial asset that loses value every day it remains unpaid. This loss in value is precisely what determines the settlement percentage. To the bank, you are a "Non-Performing Asset" (NPA). Their goal is to recover enough to stop the bleeding without wasting too much on legal fees and collection agents.
                             </p>

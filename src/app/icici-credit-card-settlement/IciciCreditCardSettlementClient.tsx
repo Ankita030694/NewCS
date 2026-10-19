@@ -1,4 +1,5 @@
 'use client';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 export default function IciciCreditCardSettlementClient() {
@@ -42,6 +43,7 @@ export default function IciciCreditCardSettlementClient() {
     }, [activeId, isMobile]);
     const navLinks = [
         { id: 'introduction', label: 'Introduction' },
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
         { id: 'understanding-policy', label: 'ICICI Settlement Policy' },
         { id: 'step-by-step-process', label: 'Step-by-Step Process' },
         { id: 'legal-rights', label: 'Legal Rights' },
@@ -189,7 +191,9 @@ export default function IciciCreditCardSettlementClient() {
             </section>
 
             <section>
-              <h2 id="understanding-policy" className="text-base font-bold text-gray-900 mb-6 scroll-mt-28">Understanding ICICI Bank's Credit Card Settlement Policy</h2>
+              <LoanSettlementWidget initialBalance={300000} initialPercentage={45} loanType="Credit Card Debt" />
+
+                            <h2 id="understanding-policy" className="text-base font-bold text-gray-900 mb-6 scroll-mt-28">Understanding ICICI Bank's Credit Card Settlement Policy</h2>
               <div className="text-gray-700 leading-relaxed mb-12 space-y-8 text-base">
                 <p> Banking institutions operate on risk models and strict money matrices. They do not offer closures out of generosity. They offer a. <Link href="/credit-card-settlement" className="text-blue-600 font-bold hover:underline">credit card closure</Link> when their internal algorithms determine that recovering a portion of the main sum amount fast is mathematically more profitable than engaging in protracted legal battles or writing off the entire debt fully. </p>
                 <p> A credit card represents clean debt. Unlike a home loan or an auto loan where a tangible asset can be repossessed and auctioned off. An clean line of credit relies fully on your promise to repay. When that promise is broken due to genuine money distress. The bank faces a total loss. This fundamental lack of pledge is your primary leverage during the talks process. </p>

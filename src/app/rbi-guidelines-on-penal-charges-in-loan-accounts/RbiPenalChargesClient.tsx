@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -69,6 +70,7 @@ export default function RbiPenalChargesClient() {
 
   const navLinks = [
     { id: 'quick-crux', label: 'Executive Brief & Regulatory Crux' },
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
     { id: 'rbi-circular-shift', label: '1. RBI Penal Charges Circular' },
     { id: 'charges-vs-interest', label: '2. Penal Interest vs Penal Charges' },
     { id: 'capitalization-ban', label: '3. Ban on Compounding & Ledgers' },
@@ -281,6 +283,8 @@ export default function RbiPenalChargesClient() {
                 The central directive is uncompromising: penalties for loan non-compliance must be treated exclusively as distinct penal charges. Lenders can no longer add any additional interest rate to the loan, cannot capitalize penalties, and cannot compute interest upon interest.
               </p>
             </section>
+
+            <LoanSettlementWidget initialBalance={500000} initialPercentage={45} loanType="Personal Loan" />
 
             {/* SECTION 2: Penal Interest vs Penal Charges */}
             <section id="charges-vs-interest" className="scroll-target space-y-4">

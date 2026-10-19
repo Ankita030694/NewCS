@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 
@@ -53,6 +54,7 @@ export default function HowToSettleACreditCardDebtClient() {
 
   const navLinks = [
     { id: 'understanding-lifecycle', label: 'Understanding the Lifecycle' },
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
     { id: 'immediate-actions', label: 'Immediate Actions' },
     { id: 'step-checklist', label: 'Step-by-Step Checklist' },
     { id: 'cost-breakdown', label: 'Cost Breakdown' },
@@ -205,7 +207,9 @@ export default function HowToSettleACreditCardDebtClient() {
             </section>
 
             <section>
-              <h2 id="immediate-actions" className="text-base font-bold text-gray-900 mb-6 scroll-mt-28">Immediate Actions After Missing an EMI</h2>
+              <LoanSettlementWidget initialBalance={300000} initialPercentage={45} loanType="Credit Card Debt" />
+
+                            <h2 id="immediate-actions" className="text-base font-bold text-gray-900 mb-6 scroll-mt-28">Immediate Actions After Missing an EMI</h2>
               <div className="text-gray-700 leading-relaxed mb-12 space-y-8 text-base">
                 <p> Panic is the enemy of strategy. When you realize that you can no longer afford your credit card payments. You must take fast. Calculated steps to protect yourself. Ignoring the problem will not make it disappear. It will only limit your options and increase your anxiety. </p>
                 <p> First. You must conduct a brutal assessment of your finances. Stop using all credit cards fast. Cut them up if necessary. You cannot borrow your way out of a debt crisis. Create a strict survival budget that covers only essential living expenses like rent. Groceries. utilities. Calculate exactly how much money. If any. You can divert toward building a closure fund. You must accumulate a lump sum to offer the bank later. </p>

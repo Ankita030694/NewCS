@@ -1,4 +1,5 @@
 'use client';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 export default function OnlineToolsClient() {
@@ -41,6 +42,7 @@ export default function OnlineToolsClient() {
         }
     }, [activeId, isMobile]);
     const navLinks = [
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
         { id: 'introduction', label: 'Introduction' },
         { id: 'hidden-mathematics', label: 'Hidden Mathematics' },
         { id: 'essential-tools', label: 'Essential Online Tools' },
@@ -168,6 +170,9 @@ export default function OnlineToolsClient() {
               <h2 id="introduction" className="text-base font-bold text-gray-900 mb-6 scroll-mt-28">The Need for Algorithmic Debt Relief</h2>
               <div className="text-gray-700 leading-relaxed text-base mb-16 space-y-10 opacity-90 border-l-4 border-blue-600 pl-8">
                 <p> In 2025. Over 62% of clean loan defaulters who accepted their bank's first manual closure offer unknowingly paid up to 40% more than what web debt forecast tools recommended. By using advanced online guess models. Clients can in math calculate their true closure threshold before even speaking to a claims agent. This basic shift from emotional talks to data driven strategy is revolutionizing how consumers resolve insurmountable money dues. </p>
+
+                            <LoanSettlementWidget initialBalance={500000} initialPercentage={45} loanType="Personal Loan" />
+
                 <p> For decades. The debt calls trade has relied on information asymmetry. The lending bank possesses detailed actuarial tables. Risk bad debt pool models. past claims data. Conversely. The individual clients is isolated. Stressed. fully unaware of the actual money parameters dictating their exact case. When you rely solely on manual talks. You are effectively playing a high stakes game where the opponent knows all the cards. Online guess software bridges this key knowledge gap. This empowers the consumer with the same level of statistical clarity historically reserved for firm credit risk departments. </p>
                 <p> The moment a money crisis occurs. The natural instinct is panic. Unpaid bills multiply rapidly due to relentless compounded rates and harsh late payment fines. Before attempting any form of relief. It is highly recommended to understand your complete exposure. A thorough evaluation begins with using resources like our guide on. <Link href="/how-to-check-active-loan-on-your-name-in-india-stepbystep-guide" className="text-blue-600 font-bold hover:underline">how to check active loan on your name in india stepbystep guide</Link>. which ensures you have a perfectly exact baseline of all unpaid debts. Once you have a checked list of your debts. math analysis can begin. </p>
                 <p> also. Navigating the legal complexities surrounding money default is daunting. claims agents often exploit consumer ignorance regarding RBI constraints. yet. Firms operating under. <a href="https://rbi.org.in/" target="_blank" rel="nofollow noopener noreferrer" className="text-blue-600 font-bold hover:underline">RBI guidelines</a> are strictly bound by ethical calls practices. When you use data backed online tools. You strip the emotion and fear out of the equation. You transition from being a vulnerable debtor to an informed negotiator who operates strictly on verifiable numbers and established trade precedents. </p>

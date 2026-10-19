@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 
@@ -53,6 +54,7 @@ export default function SmfgLoanSettlementClient() {
 
   const navLinks = [
     { id: 'reality-of-default', label: 'The Reality of SMFG Loan Default' },
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
     { id: 'decoding-policy', label: 'Decoding SMFG India Credit\'s Settlement Policy' },
     { id: 'negotiation-workflow', label: 'Step-by-Step SMFG Negotiation Workflow' },
     { id: 'legal-protections', label: 'Understanding Your Legal Protections' },
@@ -230,7 +232,9 @@ export default function SmfgLoanSettlementClient() {
             </section>
 
             <section>
-              <h2 id="decoding-policy" className="text-base font-bold text-gray-900 mb-6 scroll-mt-28">Decoding SMFG India Credit's Settlement Policy</h2>
+              <LoanSettlementWidget initialBalance={500000} initialPercentage={45} loanType="Personal Loan" />
+
+                            <h2 id="decoding-policy" className="text-base font-bold text-gray-900 mb-6 scroll-mt-28">Decoding SMFG India Credit's Settlement Policy</h2>
               <div className="text-gray-700 leading-relaxed mb-12 space-y-8 text-base">
                 <p> To effectively settle with a massive money entity like SMFG. You must first understand how they evaluate your debt. Every loan account is tracked meticulously. its status dictates the calls strategy deployed against you. Non-Banking money Companies operate under slightly different risk matrices than traditional banks. Often employing more robust early-stage calls efforts. Yet. The fundamental mathematics of risk handling remain the same. </p>
 

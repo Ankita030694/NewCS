@@ -1,0 +1,93 @@
+=============================================================================================================================
+CREDSETTLE - PAGES WITH INTEGRATED FINANCIAL CALCULATOR
+Total Pages Integrated: 46
+Tool Route: /tools/loan-settlement-calculator
+Tool Name: Loan Settlement Calculator
+=============================================================================================================================
+
+#    | Page Route                                                             | Placement                 | Default Principal  | Loan Type
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1    | /loan-restructuring-settlement-terminal-illness-disability             | 2nd Scroll (Process/Legal) | ₹500,000 (45%)     | Personal Loan
+2    | /cgtmse-loan-default-borrower-liability-ots-settlement-rules           | 2nd Scroll (Process/Legal) | ₹1,500,000 (45%)   | MSME / CGTMSE Loan
+3    | /overdraft-cash-credit-od-cc-default-settlement-rules                  | 2nd Scroll (Process/Legal) | ₹1,000,000 (45%)   | Overdraft / CC Facility
+4    | /rbi-guidelines-on-penal-charges-in-loan-accounts                      | 2nd Scroll (Process/Legal) | ₹500,000 (45%)     | Personal Loan
+5    | /can-i-settle-loan-before-npa                                          | 2nd Scroll (Process/Legal) | ₹500,000 (45%)     | Personal Loan
+6    | /credit-card-settlement-discount                                       | 1st Scroll (Lead/Crux)    | ₹300,000 (45%)     | Credit Card Debt
+7    | /credit-card-settlement-calculator                                     | 1st Scroll (Lead/Crux)    | ₹300,000 (45%)     | Credit Card Debt
+8    | /settle-20-lakh-personal-loan                                          | 1st Scroll (Lead/Crux)    | ₹2,000,000 (45%)   | ₹20 Lakh Personal Loan
+9    | /settle-15-lakh-personal-loan                                          | 1st Scroll (Lead/Crux)    | ₹1,500,000 (45%)   | ₹15 Lakh Personal Loan
+10   | /reduce-personal-loan-outstanding-amount                               | 1st Scroll (Lead/Crux)    | ₹500,000 (45%)     | Personal Loan
+11   | /personal-loan-settlement-percentage                                   | 1st Scroll (Lead/Crux)    | ₹500,000 (45%)     | Personal Loan
+12   | /personal-loan-settlement-cost                                         | 1st Scroll (Lead/Crux)    | ₹500,000 (45%)     | Personal Loan
+13   | /personal-loan-settlement-calculator                                   | 1st Scroll (Lead/Crux)    | ₹500,000 (45%)     | Personal Loan
+14   | /can-i-settle-debt-without-third-party-agency                          | 2nd Scroll (Process/Legal) | ₹500,000 (45%)     | Personal Loan
+15   | /settle-5-lakh-personal-loan                                           | 1st Scroll (Lead/Crux)    | ₹500,000 (45%)     | ₹5 Lakh Personal Loan
+16   | /settle-5-lakh-credit-card-loan                                        | 1st Scroll (Lead/Crux)    | ₹500,000 (45%)     | ₹5 Lakh Credit Card Debt
+17   | /settle-10-lakh-personal-loan                                          | 1st Scroll (Lead/Crux)    | ₹1,000,000 (45%)   | ₹10 Lakh Personal Loan
+18   | /settle-10-lakh-credit-card-loan                                       | 1st Scroll (Lead/Crux)    | ₹1,000,000 (45%)   | ₹10 Lakh Credit Card Debt
+19   | /what-online-tools-can-help-estimate-the-benefits-of-loan-settlement   | 1st Scroll (Lead/Crux)    | ₹500,000 (45%)     | Personal Loan
+20   | /how-to-negotiate-a-full-and-final-settlement-for-an-overdue-personal-loan | 2nd Scroll (Process/Legal) | ₹500,000 (45%)     | Personal Loan
+21   | /can-i-get-a-loan-settlement-quote-instantly-from-online-services-     | 1st Scroll (Lead/Crux)    | ₹500,000 (45%)     | Personal Loan
+22   | /how-to-settle-a-credit-card-debt                                      | 2nd Scroll (Process/Legal) | ₹300,000 (45%)     | Credit Card Debt
+23   | /smfg-loan-settlement                                                  | 2nd Scroll (Process/Legal) | ₹500,000 (45%)     | Personal Loan
+24   | /ots-kya-hota-hai-full-form                                            | 2nd Scroll (Process/Legal) | ₹500,000 (45%)     | Personal Loan
+25   | /kya-mai-apna-loan-settle-kr-skta-hu                                   | 2nd Scroll (Process/Legal) | ₹500,000 (45%)     | Personal Loan
+26   | /icici-credit-card-settlement                                          | 2nd Scroll (Process/Legal) | ₹300,000 (45%)     | Credit Card Debt
+27   | /full-form-of-ots                                                      | 2nd Scroll (Process/Legal) | ₹500,000 (45%)     | Personal Loan
+28   | /credsettle-vs-other-debt-settlement-companies-in-india-which-is-more-effective | 2nd Scroll (Process/Legal) | ₹500,000 (45%)     | Personal Loan
+29   | /credsettle-reviews-and-comparisons-with-other-credit-card-debt-relief-providers-in-india | 2nd Scroll (Process/Legal) | ₹300,000 (45%)     | Credit Card Debt
+30   | /find-reputable-agencies-that-help-settle-credit-card-debt-in-india    | 2nd Scroll (Process/Legal) | ₹300,000 (45%)     | Credit Card Debt
+31   | /can-i-settle-my-debts-without-using-a-third-party-company             | 2nd Scroll (Process/Legal) | ₹500,000 (45%)     | Personal Loan
+32   | /can-i-settle-credit-card-debt-through-a-debt-settlement-service       | 2nd Scroll (Process/Legal) | ₹300,000 (45%)     | Credit Card Debt
+33   | /how-to-settle-7-days-loan-app                                         | 2nd Scroll (Process/Legal) | ₹100,000 (35%)     | Loan App Debt
+34   | /cred-settle-support-for-avoiding-aggressive-recovery-practices        | 2nd Scroll (Process/Legal) | ₹500,000 (45%)     | Personal Loan
+35   | /can-i-settle-my-loan-without-a-lawyer                                 | 2nd Scroll (Process/Legal) | ₹500,000 (45%)     | Personal Loan
+36   | /is-it-possible-to-settle-a-joint-loan-and-what-are-the-implications-for-co-borrowers | 2nd Scroll (Process/Legal) | ₹500,000 (45%)     | Personal Loan
+37   | /can-i-settle-my-credit-card-dues-using-third-party-loan-settlement-companies | 2nd Scroll (Process/Legal) | ₹300,000 (45%)     | Credit Card Debt
+38   | /is-it-possible-to-settle-a-personal-loan-through-mobile-banking-apps  | 2nd Scroll (Process/Legal) | ₹100,000 (35%)     | Loan App Debt
+39   | /can-i-settle-a-secured-loan-like-a-home-loan-or-only-unsecured-ones   | 2nd Scroll (Process/Legal) | ₹2,500,000 (60%)   | Home Loan
+40   | /can-i-use-online-platforms-to-settle-my-home-loan-faster              | 2nd Scroll (Process/Legal) | ₹2,500,000 (60%)   | Home Loan
+41   | /how-to-negotiate-a-lower-principal-amount-for-creditors               | 1st Scroll (Lead/Crux)    | ₹500,000 (45%)     | Personal Loan
+42   | /what-percentage-do-banks-accept-in-loan-settlement                    | 1st Scroll (Lead/Crux)    | ₹500,000 (45%)     | Personal Loan
+43   | /how-to-ask-bank-for-settlement                                        | 2nd Scroll (Process/Legal) | ₹500,000 (45%)     | Personal Loan
+44   | /can-i-settle-my-home-loan                                             | 2nd Scroll (Process/Legal) | ₹2,500,000 (60%)   | Home Loan
+45   | /can-i-settle-loan-for-free                                            | 2nd Scroll (Process/Legal) | ₹500,000 (45%)     | Personal Loan
+46   | /how-to-settle-loan                                                    | 2nd Scroll (Process/Legal) | ₹500,000 (45%)     | Personal Loan
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+SUMMARY BREAKDOWN:
+  - 1st Scroll Placements: 16 Pages (Direct calculators, amount slabs, percentages & quotes)
+  - 2nd Scroll Placements: 30 Pages (Legal frameworks, OTS guidelines, dispute defense & procedure guides)
+  - All pages verified clean with zero build errors and working deep links.
+
+=============================================================================================================================
+TOOL 2: LOAN EMI & PREPAYMENT CALCULATOR
+Total Pages Integrated: 13
+Tool Route: /tools/emi-calculator
+Target Component: @/components/tools/LoanEmiWidget.tsx
+Tool Functionality: Reducing-balance monthly installment (EMI), interest/principal split, and prepayment savings simulation
+=============================================================================================================================
+
+#   | Page Route                                                             | Placement   | Client Component File                             | Core Intent / Topic
+-------------------------------------------------------------------------------------------------------------------------------------------------
+01  | /what-happens-after-missing-personal-loan-emi                          | 1st Scroll  | WhatHappensMissingEmiClient.tsx                   | Missed EMI impact, bounce fee & interest
+02  | /what-happens-after-3-missed-emis                                      | 1st Scroll  | WhatHappensAfter3MissedEmisClient.tsx             | 90-day NPA threshold & EMI default calculation
+03  | /cannot-pay-personal-loan-emi                                          | 1st Scroll  | CannotPayPersonalLoanEmiClient.tsx                | EMI affordability crisis & reduction options
+04  | /why-emi-payment-keep-failing                                          | 2nd Scroll  | WhyEmiPaymentKeepFailingClient.tsx                | Technical & banking auto-debit bounce fixes
+05  | /prepayment-reflection-time-in-loan-account                            | 2nd Scroll  | PrepaymentReflectionClient.tsx                    | Prepayment processing & balance recalibration
+06  | /prepaying-loan-impact-on-credit-score                                 | 2nd Scroll  | PrepayingLoanImpactOnCreditScoreClient.tsx        | Prepayment vs credit score history impact
+07  | /loan-overdue-nach-bounce-immediate-steps                              | 2nd Scroll  | LoanOverdueNachBounceClient.tsx                   | NACH/e-mandate penalty calculation
+08  | /loan-emi-overdue-1-day-what-happens                                   | 1st Scroll  | LoanEmiOverdueOneDayClient.tsx                    | 1-day grace period, DPD tagging & late fee
+09  | /interest-rate-recalculate-after-prepayment                            | 1st Scroll  | InterestRateRecalculateClient.tsx                 | Recalculating reduced EMI or tenure post-prepay
+10  | /foreclosure-and-part-prepayment-charges-on-personal-loan              | 1st Scroll  | ForeclosureAndPartPrepaymentChargesClient.tsx     | RBI zero-penalty prepayment rules check
+11  | /can-i-pay-extra-emi-for-personal-loan                                 | 1st Scroll  | CanIPayExtraEmiClient.tsx                         | Double EMI strategy & tenure reduction calculation
+12  | /smart-ways-to-manage-emi-payment                                      | 1st Scroll  | EMIManagementClient.tsx                           | EMI optimization, restructuring & budget ratio
+13  | /what-are-the-consequences-of-not-paying-emi                           | 2nd Scroll  | EMIConsequencesClient.tsx                         | Escalation matrix from SMA-0 to NPA default
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+SUMMARY BREAKDOWN:
+  - 1st Scroll Placements: 8 Pages (Early guidance, grace periods, calculation matrices & bonus prepayment)
+  - 2nd Scroll Placements: 5 Pages (NACH bounce fixes, reflection mechanics, credit impact & SMA-0 to NPA matrix)
+  - Component Built: @/components/tools/LoanEmiWidget.tsx
+  - Deep Link Destination: /tools/emi-calculator (enhanced with auto-calculate & searchParams support)
+  - Type-check status: 100% clean verification across all 13 pages and tools.

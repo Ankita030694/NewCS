@@ -1,4 +1,5 @@
 'use client';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -30,6 +31,7 @@ export default function CanISettleLoanBeforeNpaClient() {
     };
     const navLinks = [
         { id: 'executive-summary', label: 'Executive Brief & Crux' },
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
         { id: 'debt-economics-sma-framework', label: '1. SMA Framework & Bank Economics' },
         { id: 'financial-breakdown-settlement-math', label: '2. Pre-NPA Settlement Math' },
         { id: 'resolution-comparison-matrix', label: '3. Resolution Comparison Matrix' },
@@ -195,6 +197,8 @@ export default function CanISettleLoanBeforeNpaClient() {
 
               <p className="text-slate-700 leading-relaxed text-xs sm:text-sm"> However. Board-approved OTS deals policies across scheduled banks and leading Non-Banking money Companies (NBFCs) contain explicit carve-out clauses. When a client faces insurmountable hardship. Examples include sudden involuntary job loss. Terminal medical diagnosis, permanent physical disability. Trade liquidation. Senior credit boards have the special formal to approve a pre-NPA OTS deals. This allows the bank to avoid extensive legal expenditures. Bypass claims firm commissions. Recover maximum cash before full default sets in. </p>
             </section>
+
+            <LoanSettlementWidget initialBalance={500000} initialPercentage={45} loanType="Personal Loan" />
 
             {/* SECTION 2: FINANCIAL BREAKDOWN & SETTLEMENT MATH */}
             <section id="financial-breakdown-settlement-math" className="scroll-target space-y-3.5">

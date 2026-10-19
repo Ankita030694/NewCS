@@ -1,5 +1,6 @@
 'use client';
 
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 
@@ -53,6 +54,7 @@ export default function OtsKyaHotaHaiClient() {
 
   const navLinks = [
     { id: 'ots-ka-full-form-kya-hai', label: 'What is OTS Full Form?' },
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
     { id: 'warning-signs', label: '7 Warning Signs' },
     { id: 'eligibility-criteria', label: 'Eligibility Criteria' },
     { id: 'cost-breakdown', label: 'Cost Breakdown' },
@@ -216,7 +218,9 @@ export default function OtsKyaHotaHaiClient() {
             </section>
 
             <section>
-              <h2 id="warning-signs" className="text-base font-bold text-gray-900 mb-6 scroll-mt-28">7 Warning Signs That You Need an OTS</h2>
+              <LoanSettlementWidget initialBalance={500000} initialPercentage={45} loanType="Personal Loan" />
+
+                            <h2 id="warning-signs" className="text-base font-bold text-gray-900 mb-6 scroll-mt-28">7 Warning Signs That You Need an OTS</h2>
               <div className="text-gray-700 leading-relaxed mb-12 space-y-8 text-base">
                 <p> Denial is the most common and dangerous response to a debt crisis. Many individuals continue to drain their savings or borrow from friends just to make minimum payments on credit cards. Falsely believing that their case will magically improve next month. This behavior only enriches the bank through growing rates while driving the clients deeper into an inescapable trap. Recognizing the point of no return is essential. Here are the seven key warning signs that indicate you must stop making partial payments and fast begin preparing for a One Time closure. </p>
                 <p> 1. <strong>Borrowing to Pay Borrowing:</strong> If you are taking cash advances from one credit card to pay the minimum due on another credit card. If you are taking out new own loans specifically to service existing EMIs. The structural integrity of your finances has fully collapsed. This is a classic debt spiral that will inevitably end in default. </p>

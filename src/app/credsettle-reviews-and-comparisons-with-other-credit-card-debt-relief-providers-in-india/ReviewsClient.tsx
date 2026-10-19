@@ -1,4 +1,5 @@
 'use client';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 export default function ReviewsClient() {
@@ -58,6 +59,7 @@ export default function ReviewsClient() {
     };
     const navLinks = [
         { id: 'introduction', label: 'Introduction' },
+        { id: 'interactive-settlement-estimator', label: 'Settlement Calculator' },
         { id: 'how-credsettle-works', label: 'How CredSettle Works' },
         { id: 'client-feedback', label: 'Client Reviews & Ratings' },
         { id: 'provider-comparisons', label: 'Provider Comparisons' },
@@ -250,7 +252,9 @@ export default function ReviewsClient() {
               </div>
 
               {/* H2 Section 1 */}
-              <h2 id="how-credsettle-works" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">How does CredSettle resolve card defaults?</h2>
+              <LoanSettlementWidget initialBalance={300000} initialPercentage={45} loanType="Credit Card Debt" />
+
+                            <h2 id="how-credsettle-works" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28 border-l-4 border-blue-600 pl-4">How does CredSettle resolve card defaults?</h2>
               <div className="text-gray-700 leading-relaxed mb-8 space-y-6">
                 <p className="font-semibold text-blue-900 bg-blue-50 p-4 rounded-xl border-l-4 border-blue-500"> CredSettle resolves credit card defaults by acting as a formal mediator between clients and bank collection divisions. Their program halts ongoing interest compounding, stops collection agent abuse. Negotiates a lump-sum OTS deals sanction letter straight with local credit managers to resolve unpaid card balances legally. </p>
                 <p> settling waivers on multi-lakh credit defaults requires a structured case review. Banks are generally only receptive to settlement once an account remains unpaid for over 90 days and is classified as a Non-Performing Asset (NPA). CredSettle's alert panel steps in at this stage. Building a solid hardship presentation backed by your bank records and distress logs to show the lender that a OTS deal is the most viable path. </p>
