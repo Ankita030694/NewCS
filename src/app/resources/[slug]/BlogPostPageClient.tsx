@@ -63,7 +63,7 @@ const calculateReadTime = (text: string) => {
 
 const getSolutionUrlForSearch = (term: string): string => {
   const lower = term.toLowerCase();
-  
+
   if (lower.includes('credit card') || lower.includes('card')) {
     return '/services/credit-card-settlement';
   }
@@ -100,7 +100,7 @@ const getSolutionUrlForSearch = (term: string): string => {
   if (lower.includes('contact') || lower.includes('consultation') || lower.includes('help') || lower.includes('call')) {
     return '/contact';
   }
-  
+
   return '/loan-settlement';
 };
 
@@ -154,7 +154,7 @@ const AnimatedCounter = ({
       const elapsed = timestamp - startTimestamp;
       const progress = Math.min(elapsed / duration, 1);
       const easedProgress = easeOutCubic(progress);
-      
+
       const current = easedProgress * end;
       setCount(current);
 
@@ -1080,12 +1080,12 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
 
   const { part1, part2 } = useMemo(() => {
     if (!processedHtml || headings.length < 2) return { part1: processedHtml, part2: '' };
-    
+
     const middleHeading = headings[Math.floor(headings.length / 2)];
     const searchString = `id="${middleHeading.id}"`;
     const headingIndex = processedHtml.indexOf(searchString);
     if (headingIndex === -1) return { part1: processedHtml, part2: '' };
-    
+
     const splitIndex = processedHtml.lastIndexOf('<h', headingIndex);
     if (splitIndex === -1) return { part1: processedHtml, part2: '' };
 
@@ -1106,22 +1106,22 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
 
       // Find the current section
       let currentId = '';
-      
+
       // If we are at the very top, clear active ID or set first one? 
       // Usually users want to see the first context.
-      
+
       // Loop to find the last heading that is above the "scrolled past" line
       for (const heading of headingElements) {
         if (heading instanceof HTMLElement) {
           // We use offsetTop because it’s absolute position on page (assuming no transforming parents, which is mostly true)
           // Actually, getBoundingClientRect is safer relative to viewport
           const top = heading.getBoundingClientRect().top + window.scrollY;
-          
+
           if (scrollPosition >= top) {
             currentId = heading.id;
           } else {
             // Once we find a heading that is below our scroll point, we stop cause we want the *previous* one
-            break; 
+            break;
           }
         }
       }
@@ -1129,16 +1129,16 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
       // Fallback: if we haven’t passed any heading but there are headings, 
       // and we are reasonably close to the first one, highlight it? 
       // Or if scrolled to bottom, highlight last?
-      
+
       if (!currentId && headingElements.length > 0 && window.scrollY > 100) {
-         // If we are passed the hero but haven’t hit first H2, maybe keep empty or highlight first?
-         // Let’s stick to strict "passed the header" logic. 
-         // But LoanSettlement uses IO which triggers early. 
-         // Let’s check if we are near the first one.
-         const first = headingElements[0] as HTMLElement;
-         if (first.getBoundingClientRect().top + window.scrollY < scrollPosition + 200) {
-            currentId = first.id;
-         }
+        // If we are passed the hero but haven’t hit first H2, maybe keep empty or highlight first?
+        // Let’s stick to strict "passed the header" logic. 
+        // But LoanSettlement uses IO which triggers early. 
+        // Let’s check if we are near the first one.
+        const first = headingElements[0] as HTMLElement;
+        if (first.getBoundingClientRect().top + window.scrollY < scrollPosition + 200) {
+          currentId = first.id;
+        }
       }
 
       if (currentId !== activeId) {
@@ -1292,11 +1292,10 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                         document.querySelector(`#${heading.id}`)?.scrollIntoView({ behavior: 'smooth' });
                         setActiveId(heading.id);
                       }}
-                      className={`inline-flex h-9 items-center whitespace-nowrap rounded-[8px] border bg-white px-3 text-[12px] font-bold transition-colors ${
-                        activeId === heading.id
-                          ? 'border-[#004479] text-[#004479]'
-                          : 'border-[#CBD5E1] text-[#3F3F3F] hover:border-[#94A3B8]'
-                      }`}
+                      className={`inline-flex h-9 items-center whitespace-nowrap rounded-[8px] border bg-white px-3 text-[12px] font-bold transition-colors ${activeId === heading.id
+                        ? 'border-[#004479] text-[#004479]'
+                        : 'border-[#CBD5E1] text-[#3F3F3F] hover:border-[#94A3B8]'
+                        }`}
                     >
                       {heading.text}
                     </button>
@@ -1311,7 +1310,7 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
         <section className="bg-white pb-6 pt-6 md:pb-8 md:pt-8" aria-label="Article hero">
           <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 items-start gap-8 md:grid-cols-12 md:gap-10 lg:gap-12 md:items-center">
-              
+
               {/* Left Column */}
               <div className="flex min-w-0 flex-col gap-4 md:col-span-6 md:gap-6">
                 <div>
@@ -1329,13 +1328,13 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                     {blog.title}
                   </h1>
                 </div>
-                
+
                 {blog.subtitle && (
                   <p className="max-w-[680px] text-[15px] sm:text-[16px] md:text-[18px] leading-[1.6] text-[#4E4E4E]">
                     {blog.subtitle}
                   </p>
                 )}
-                
+
                 <div className="flex flex-col items-start gap-3.5 pt-2 md:flex-row md:items-center md:gap-5 md:pt-3">
                   <div className="flex min-w-0 items-center gap-3">
                     <Link href={author.href} aria-label="Ashish Jhangra - Author Profile" className="flex aspect-square h-11 w-11 flex-none items-center justify-center rounded-full bg-[#004479] text-[16px] font-bold text-white overflow-hidden transition-transform hover:scale-105 shadow-sm">
@@ -1448,57 +1447,57 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
             </div>
           </div>
           <div className="w-full xl:hidden overflow-hidden overflow-x-auto px-4 py-2 flex gap-8 whitespace-nowrap [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-             {/* Mobile simplified view */}
-             <div className="flex flex-col items-center">
-                <div className="flex items-center gap-2 justify-center">
-                  <svg className="w-6 h-6 shrink-0" viewBox="0 0 24 24" aria-hidden="true">
-                    <path
-                      fill="#4285F4"
-                      d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.82-2.4 3.68v3.05h3.88c2.27-2.09 3.66-5.17 3.66-9.17z"
-                    />
-                    <path
-                      fill="#34A853"
-                      d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.1-6.72-4.93H1.25v3.15C3.26 21.36 7.35 24 12 24z"
-                    />
-                    <path
-                      fill="#FBBC05"
-                      d="M5.28 14.27c-.25-.72-.38-1.49-.38-2.27s.13-1.55.38-2.27V6.58H1.25C.45 8.18 0 9.98 0 12s.45 3.82 1.25 5.42l4.03-3.15z"
-                    />
-                    <path
-                      fill="#EA4335"
-                      d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.35 0 3.26 2.64 1.25 6.58l4.03 3.15c.95-2.83 3.6-4.98 6.72-4.98z"
-                    />
-                  </svg>
-                  <span className="text-[#004479] text-[24px] font-bold">
-                    <AnimatedCounter end={4.8} decimals={1} suffix="/5" duration={1500} />
-                  </span>
-                </div>
-                <div className="text-[#4F4F4F] text-[14px] mt-1 text-center leading-tight">Client Rating</div>
-             </div>
-             <div className="flex flex-col items-center">
-                <div className="flex items-center gap-1 justify-center">
-                  <span className="text-[#007AFF] text-[24px] font-bold">₹</span>
-                  <span className="text-[#004479] text-[24px] font-bold">
-                    <AnimatedCounter end={200} suffix="Cr+" duration={1800} />
-                  </span>
-                </div>
-                <div className="text-[#4F4F4F] text-[14px] mt-1 text-center leading-tight">Debt Settled</div>
-             </div>
-             <div className="flex flex-col items-center">
-                <div className="flex items-center gap-2 justify-center">
-                  <span className="text-[#004479] text-[24px] font-bold">
-                    <AnimatedCounter end={5000} useLocale suffix="+" duration={2000} />
-                  </span>
-                </div>
-                <div className="text-[#4F4F4F] text-[14px] mt-1 text-center leading-tight">Happy Clients</div>
-             </div>
+            {/* Mobile simplified view */}
+            <div className="flex flex-col items-center">
+              <div className="flex items-center gap-2 justify-center">
+                <svg className="w-6 h-6 shrink-0" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    fill="#4285F4"
+                    d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.82-2.4 3.68v3.05h3.88c2.27-2.09 3.66-5.17 3.66-9.17z"
+                  />
+                  <path
+                    fill="#34A853"
+                    d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.1-6.72-4.93H1.25v3.15C3.26 21.36 7.35 24 12 24z"
+                  />
+                  <path
+                    fill="#FBBC05"
+                    d="M5.28 14.27c-.25-.72-.38-1.49-.38-2.27s.13-1.55.38-2.27V6.58H1.25C.45 8.18 0 9.98 0 12s.45 3.82 1.25 5.42l4.03-3.15z"
+                  />
+                  <path
+                    fill="#EA4335"
+                    d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.35 0 3.26 2.64 1.25 6.58l4.03 3.15c.95-2.83 3.6-4.98 6.72-4.98z"
+                  />
+                </svg>
+                <span className="text-[#004479] text-[24px] font-bold">
+                  <AnimatedCounter end={4.8} decimals={1} suffix="/5" duration={1500} />
+                </span>
+              </div>
+              <div className="text-[#4F4F4F] text-[14px] mt-1 text-center leading-tight">Client Rating</div>
+            </div>
+            <div className="flex flex-col items-center">
+              <div className="flex items-center gap-1 justify-center">
+                <span className="text-[#007AFF] text-[24px] font-bold">₹</span>
+                <span className="text-[#004479] text-[24px] font-bold">
+                  <AnimatedCounter end={200} suffix="Cr+" duration={1800} />
+                </span>
+              </div>
+              <div className="text-[#4F4F4F] text-[14px] mt-1 text-center leading-tight">Debt Settled</div>
+            </div>
+            <div className="flex flex-col items-center">
+              <div className="flex items-center gap-2 justify-center">
+                <span className="text-[#004479] text-[24px] font-bold">
+                  <AnimatedCounter end={5000} useLocale suffix="+" duration={2000} />
+                </span>
+              </div>
+              <div className="text-[#4F4F4F] text-[14px] mt-1 text-center leading-tight">Happy Clients</div>
+            </div>
           </div>
         </div>
 
         {/* Main Content Area */}
-        <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+        <div className="w-full max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
           <div className="grid w-full grid-cols-1 lg:grid-cols-12 lg:items-start gap-8 lg:gap-12">
-            
+
             {/* Left Sidebar - TOC */}
             <aside className="hidden lg:block lg:col-span-3 lg:sticky lg:top-24 lg:self-start z-10 w-full min-w-0">
               {headings.length > 0 && (
@@ -1515,20 +1514,17 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                             document.querySelector(`#${heading.id}`)?.scrollIntoView({ behavior: 'smooth' });
                             setActiveId(heading.id);
                           }}
-                          className={`flex w-full cursor-pointer items-center gap-2.5 py-2.5 pl-[calc(1rem-5px)] pr-3 text-left transition-colors border-l-[5px] ${
-                            activeId === heading.id
-                              ? 'border-[#007AFF] bg-[#F0F7FF]'
-                              : 'border-transparent bg-white hover:bg-gray-50'
-                          }`}
+                          className={`flex w-full cursor-pointer items-center gap-2.5 py-2.5 pl-[calc(1rem-5px)] pr-3 text-left transition-colors border-l-[5px] ${activeId === heading.id
+                            ? 'border-[#007AFF] bg-[#F0F7FF]'
+                            : 'border-transparent bg-white hover:bg-gray-50'
+                            }`}
                         >
-                          <span className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-[12px] font-bold ${
-                            activeId === heading.id ? 'bg-[#007AFF] text-white' : 'bg-[#eeeeee] text-[#555555]'
-                          }`}>
+                          <span className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-[12px] font-bold ${activeId === heading.id ? 'bg-[#007AFF] text-white' : 'bg-[#eeeeee] text-[#555555]'
+                            }`}>
                             {index + 1}
                           </span>
-                          <span className={`flex-1 min-w-0 break-words text-[12px] font-bold leading-snug ${
-                            activeId === heading.id ? 'text-[#007AFF]' : 'text-[#004479]'
-                          }`}>
+                          <span className={`flex-1 min-w-0 break-words text-[12px] font-bold leading-snug ${activeId === heading.id ? 'text-[#007AFF]' : 'text-[#004479]'
+                            }`}>
                             {heading.text}
                           </span>
                         </button>
@@ -1541,7 +1537,7 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
 
             {/* Content Column */}
             <div className="w-full min-w-0 lg:col-span-6 pb-8 lg:pb-0">
-              
+
               {/* Share Block styled as CTA */}
               <section className="mb-8 md:mb-10" aria-label="Call to action">
                 <div className="relative overflow-hidden rounded-xl px-5 py-4 md:px-10 md:py-6" style={{ backgroundColor: '#EEF5FB' }}>
@@ -1640,7 +1636,7 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                     />
                   </>
                 )}
-                
+
                 {blog.infographic && !part2 && (
                   <section className="my-10" aria-label="Infographic summary">
                     <div className="rounded-[20px] bg-[#F0F7FF] p-4 md:rounded-3xl md:p-6 shadow-sm border border-[#BFE0FF]">
@@ -1718,17 +1714,15 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                         >
                           <span className="pr-4">{faq.question}</span>
                           <i
-                            className={`fas fa-chevron-down text-[#007AFF] transition-transform duration-300 ${
-                              expandedFaqs.includes(faq.question) ? 'rotate-180' : ''
-                            }`}
+                            className={`fas fa-chevron-down text-[#007AFF] transition-transform duration-300 ${expandedFaqs.includes(faq.question) ? 'rotate-180' : ''
+                              }`}
                           ></i>
                         </button>
                         <div
-                          className={`px-4 text-sm text-[#3F4A56] transition-all duration-300 ease-in-out ${
-                            expandedFaqs.includes(faq.question)
-                              ? 'max-h-96 pb-4 opacity-100'
-                              : 'max-h-0 py-0 opacity-0'
-                          }`}
+                          className={`px-4 text-sm text-[#3F4A56] transition-all duration-300 ease-in-out ${expandedFaqs.includes(faq.question)
+                            ? 'max-h-96 pb-4 opacity-100'
+                            : 'max-h-0 py-0 opacity-0'
+                            }`}
                         >
                           <p>{faq.answer}</p>
                         </div>
@@ -1744,11 +1738,11 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
               </div>
 
             </div>
-            
+
             {/* Right Sidebar - Sticky Cards (Cols 10-12) */}
             <div className="hidden lg:block lg:col-span-3 lg:sticky lg:top-24 lg:self-start z-10 w-full min-w-0">
               <div className="flex flex-col gap-6">
-                
+
                 {/* Card 1: CTA */}
                 <div className="rounded-[16px] bg-[#004479] text-white p-5 shadow-md flex flex-col items-center text-center">
                   <div className="w-10 h-10 mb-2.5 rounded-full bg-white/10 border border-white/15 flex items-center justify-center shadow-inner">
@@ -1756,8 +1750,8 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                   </div>
                   <p className="text-[15px] font-bold mb-1.5 leading-tight">Talk to a CredSettle Expert Free!</p>
                   <p className="text-[12px] text-blue-50/90 mb-3.5 leading-relaxed font-medium">
-                    Get a personal debt review.<br/>
-                    One call. No pressure.<br/>
+                    Get a personal debt review.<br />
+                    One call. No pressure.<br />
                     Clear answers.
                   </p>
                   <Link href="/contact" className="w-full bg-[#007AFF] hover:bg-[#0056b3] text-white font-bold py-2.5 px-4 rounded-[10px] transition-colors duration-200 flex items-center justify-center gap-2 shadow text-[13px]">
