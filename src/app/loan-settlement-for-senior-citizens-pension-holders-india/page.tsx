@@ -7,7 +7,7 @@ import SeniorCitizenLoanClient from './SeniorCitizenLoanClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Loan Settlement for Senior Citizens & Pension Holders in',
+  title: 'Loan Settlement for Senior Citizens & Pensioners India',
   description: 'Retired and defaulted on a personal loan or credit card in India? Learn how senior citizens can protect their pension and negotiate a loan settlement.',
   keywords: [
     'senior citizen loan default pension only income India',

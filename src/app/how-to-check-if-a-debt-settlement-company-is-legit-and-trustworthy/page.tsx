@@ -7,7 +7,7 @@ import LegitimacyCheckClient from './LegitimacyCheckClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How to Check if a Debt Settlement Company is Legit and',
+  title: 'How to Check if a Debt Settlement Company is Legit India',
   description: 'Learn how to identify reputable debt settlement companies in India. Avoid scams, understand RBI guidelines, and find trustworthy debt relief services.',
   keywords: [
     'is debt settlement legit in india',

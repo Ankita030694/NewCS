@@ -56,6 +56,7 @@ const formatH1Text = (rawText: string, maxLength: number = 65): string => {
 };
 
 const OPTIMIZED_TITLES: Record<string, string> = {
+  "loan-settlement-letter": "Loan Settlement Letter Format & OTS Samples | CredSettle",
   "a-complete-guide-to-loan-settlement-in-india-how-to-become-debt-free": "Complete Guide to Loan Settlement in India",
   "best-loan-settlement-debt-relief-solutions-how-to-settle-your-debt-easily": "Best Loan Settlement & Debt Relief Solutions in India",
   "dealing-with-recovery-agents-know-your-rights-and-how-to-handle-them": "Dealing with Recovery Agents: Know Your Rights in India",
@@ -133,6 +134,7 @@ const OPTIMIZED_TITLES: Record<string, string> = {
 };
 
 const OPTIMIZED_H1S: Record<string, string> = {
+  "loan-settlement-letter": "Loan Settlement Letter Format, Samples & Writing Guide",
   "dealing-with-recovery-agents-know-your-rights-and-how-to-handle-them": "How to Handle Bank Recovery Agents: Legal Rights in India",
   "debt-settlement-vs-debt-consolidation": "Debt Settlement vs Debt Consolidation: Complete Guide",
   "car-loan-settlement-process-a-comprehensive-guide": "Car Loan Settlement Process: A Step-by-Step Guide",
@@ -205,6 +207,7 @@ const OPTIMIZED_H1S: Record<string, string> = {
 };
 
 const OPTIMIZED_DESCRIPTIONS: Record<string, string> = {
+  "loan-settlement-letter": "Download free loan settlement letter formats & bank OTS request samples for 2026. Learn how to write a hardship letter & get up to 50% waiver.",
   "file-rbi-ombudsman-complaint-bank-harassment-2026": "File an RBI Ombudsman complaint against bank harassment in 2026. Learn legal steps, borrower rights, and debt relief solutions with CredSettle.",
   "debt-settlement-vs-debt-consolidation": "Compare debt settlement vs debt consolidation in India. Learn key differences, legal benefits, and debt relief solutions with CredSettle today.",
   "dealing-with-recovery-agents-know-your-rights-and-how-to-handle-them": "Know your rights against bank recovery agents in India. Learn RBI harassment rules, legal protections, and debt relief solutions with CredSettle.",

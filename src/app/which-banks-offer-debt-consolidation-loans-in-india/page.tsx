@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Top Banks Offering Debt Consolidation Loans in India',
-  description: 'Looking for debt consolidation loans in India? Discover which banks offer the best options, eligibility criteria, interest rates.',
+  description: 'Compare top banks offering debt consolidation loans in India for 2026. Check eligibility, interest rates, or settle high-interest debt up to 50%.',
   keywords: [
     'which banks offer debt consolidation loans in india',
     'best debt consolidation loans india',

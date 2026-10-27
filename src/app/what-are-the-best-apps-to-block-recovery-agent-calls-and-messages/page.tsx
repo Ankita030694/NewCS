@@ -7,8 +7,8 @@ import BlockCallsClient from './BlockCallsClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Best Apps to Block Recovery Agent Calls and Messages in',
-  description: 'Facing harassment? Discover the best apps to block recovery agent calls and messages. Learn about RBI guidelines, legal rights.',
+  title: 'Best Apps to Block Recovery Agent Calls & SMS in India',
+  description: 'Facing harassment? Discover the best apps to block recovery agent calls and messages in India. Learn about RBI guidelines and legal rights.',
   keywords: [
     'block recovery agent calls',
     'stop debt collector harassment india',

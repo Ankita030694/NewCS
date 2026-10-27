@@ -7,8 +7,8 @@ import JointLoanSettlementClient from './JointLoanSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Is It Possible to Settle a Joint Loan? Implications for',
-  description: 'Learn if you can settle a joint loan and the legal implications for co-borrowers. Expert guidance on joint debt settlement.',
+  title: 'Can You Settle a Joint Loan? Co-Borrower Rules in India',
+  description: 'Learn if you can settle a joint loan in India and the legal and CIBIL implications for co-borrowers. Expert guidance on joint debt settlement.',
   keywords: [
     'settle joint loan',
     'joint loan settlement implications',

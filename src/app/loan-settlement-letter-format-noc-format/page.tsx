@@ -5,8 +5,8 @@ import Footer from '@/components/Footer';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: 'Loan Settlement & NOC Letter Formats (2025)',
-  description: "Download loan settlement letter and NOC formats for SBI, HDFC, ICICI, and NBFCs. Learn how to draft a hardship letter and secure your bank NOC.",
+  title: 'Loan Settlement & Bank NOC Letter Formats (2026) | Guide',
+  description: "Download 2026 loan settlement letter and NOC formats for SBI, HDFC, ICICI, and NBFCs. Learn how to draft a hardship letter and secure your bank NOC.",
   keywords: 'loan settlement letter format, NOC format for bank loan, loan closure letter sample, CIBIL NOC sample, SBI settlement letter format, HDFC NOC letter',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement-letter-format-noc-format',

@@ -7,8 +7,8 @@ import ProtectFamilyClient from './ProtectFamilyClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How to Protect Family Members from Debt Collector Calls in',
-  description: 'Learn how to protect your family from debt collector harassment. Understand RBI guidelines on recovery agents, legal rights.',
+  title: 'Protect Family Members from Debt Collector Calls India',
+  description: 'Learn how to protect your family from debt collector harassment in India. Understand RBI guidelines on recovery agents, privacy rights & legal remedies.',
   keywords: [
     'protect family from debt collectors',
     'how to stop recovery agent calls to family',
