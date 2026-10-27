@@ -7,6 +7,7 @@ import Link from 'next/link';
 import { notFound, permanentRedirect } from 'next/navigation';
 import AuthorBioBox from '@/components/AuthorBioBox';
 import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import banksData from '../banks.json';
 
 interface Props {
@@ -68,13 +69,22 @@ const getBankBySlug = (slug: string) => {
 };
 
 function toProperCase(str: string): string {
-  if (str === str.toUpperCase() && str.length > 4) {
-    return str.split(' ').map(word => {
+  const trimmed = str.trim();
+  const brandOverrides: Record<string, string> = {
+    'MPOKKET': 'mPokket',
+    'Ram FIncorp': 'Ram Fincorp',
+    'Rupee redee': 'RupeeRedee',
+    'Moneyview': 'MoneyView',
+    'Rupee 112': 'Rupee112',
+  };
+  if (brandOverrides[trimmed]) return brandOverrides[trimmed];
+  if (trimmed === trimmed.toUpperCase() && trimmed.length > 4) {
+    return trimmed.split(' ').map(word => {
       if (word.length <= 3 && /^[A-Z0-9]+$/.test(word)) return word;
       return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
     }).join(' ');
   }
-  return str;
+  return trimmed;
 }
 
 const charWidths: Record<string, number> = {
@@ -103,6 +113,24 @@ function getPixelWidth(text: string): number {
 import { getMetaDescPixelWidth } from '@/lib/seo-utils';
 
 function getBankMetaTitle(company: string): string {
+  const canonicalSlug = getBankCanonicalSlug(company);
+  const customTitles: Record<string, string> = {
+    'mpokket': 'mPokket Loan Settlement & Home Visit Rules | CredSettle',
+    'snapmint': 'Snapmint Loan Settlement & OTS Process | CredSettle',
+    'kreditbee': 'KreditBee Loan Settlement & Home Visit Rules | CredSettle',
+    'rupee-112': 'Rupee112 Loan Settlement & RBI Defense | CredSettle',
+    'ram-fincorp': 'Ram Fincorp Loan Settlement & OTS Guide 2026 | CredSettle',
+    'rupee-redee': 'RupeeRedee Loan Settlement & OTS Process | CredSettle',
+    'moneyview': 'MoneyView Loan Settlement & OTS Process | CredSettle',
+    'slice': 'Slice Loan Settlement: OTS Waiver & RBI Rules | CredSettle',
+    'navi': 'Navi Loan Settlement Percentage & OTS Guide | CredSettle',
+    'cholamandalam': 'Cholamandalam Loan Settlement & OTS Process | CredSettle',
+    'incred': 'InCred Loan Settlement & OTS Waiver Process | CredSettle',
+    'stashfin': 'Stashfin Loan Settlement & OTS Waiver Process | CredSettle',
+    'pocketly': 'Pocketly Loan Settlement & OTS Waiver Process | CredSettle',
+  };
+  if (customTitles[canonicalSlug]) return customTitles[canonicalSlug];
+
   const c = toProperCase(company.trim());
   const maxPx = 548; // Max safe width (strict Screaming Frog threshold is 561px)
   
@@ -163,7 +191,7 @@ function getBankMetaTitle(company: string): string {
 }
 
 function getBankMetaDescription(company: string): string {
-  const c = company.trim();
+  const c = toProperCase(company.trim());
   const shortName = c
     .replace(/\s*\(Lenditt\)/i, '')
     .replace('Private Limited', 'Pvt Ltd')
@@ -173,7 +201,8 @@ function getBankMetaDescription(company: string): string {
     .trim();
 
   const candidates = [
-    // For short bank names (3 - 15 chars)
+    // High-CTR candidates addressing OTS waiver %, home visit rules & NOC
+    `Settle your ${c} loan with up to 50% OTS waiver under RBI rules. Know agent home visit rules, stop harassment & get your official NOC.`,
     `Facing ${c} loan debt? Settle legally under RBI rules with CredSettle. Stop recovery agent harassment, reduce dues up to 50% & get your NOC.`,
     `Settle your ${c} loan legally under RBI guidelines with CredSettle. Stop recovery agent harassment, reduce total dues & clear debt safely.`,
     `Struggling with ${c} loan debt? CredSettle helps you negotiate legal debt relief under RBI rules. Stop harassment and resolve dues up to 50%.`,
@@ -274,10 +303,10 @@ export default async function BankSettlementSlugPage({ params }: Props) {
   }
 
   const canonicalSlug = getBankCanonicalSlug(bank.company);
-  const bankName = bank.company;
+  const bankName = toProperCase(bank.company);
   const bankEmails = bank.emails;
-  const metaTitle = getBankMetaTitle(bankName);
-  const metaDescription = getBankMetaDescription(bankName);
+  const metaTitle = getBankMetaTitle(bank.company);
+  const metaDescription = getBankMetaDescription(bank.company);
 
   // SEO Structured Data: Breadcrumbs
   const breadcrumbSchema = {
@@ -295,6 +324,14 @@ export default async function BankSettlementSlugPage({ params }: Props) {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
     'mainEntity': [
+      {
+        '@type': 'Question',
+        'name': `Does a ${bankName} recovery agent visit home or office?`,
+        'acceptedAnswer': {
+          '@type': 'Answer',
+          'text': `Under the RBI Fair Practices Code and Digital Lending Guidelines, ${bankName} recovery agents cannot visit your home or workplace without prior notice, must carry an official authorization letter and IIBF DRA certificate, and can only visit between 8:00 AM and 7:00 PM. Unannounced workplace visits or contacting relatives and neighbours is strictly prohibited.`
+        }
+      },
       {
         '@type': 'Question',
         'name': `How much waiver can I expect on a ${bankName} settlement?`,
@@ -482,15 +519,15 @@ export default async function BankSettlementSlugPage({ params }: Props) {
             <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 sticky top-24">
               <p className="font-bold text-gray-900 mb-6 uppercase tracking-wider text-sm border-b pb-4">Table of Contents</p>
               <nav className="space-y-3 text-sm font-medium text-gray-600">
-                <a href="#understanding-debt" className="block hover:text-blue-600 transition-colors py-1">1. Understanding {bankName} Debt Cycle</a>
-                <a href="#what-is-settlement" className="block hover:text-blue-600 transition-colors py-1">2. What is a One-Time Settlement (OTS)?</a>
-                <a href="#legal-rights" className="block hover:text-blue-600 transition-colors py-1">3. Your Rights Against Recovery Agents</a>
-                <a href="#step-by-step-process" className="block hover:text-blue-600 transition-colors py-1">4. Step-by-Step Settlement Process</a>
-                <a href="#negotiation-tactics" className="block hover:text-blue-600 transition-colors py-1">5. Insider Negotiation Tactics</a>
-                <a href="#credit-card-vs-loan" className="block hover:text-blue-600 transition-colors py-1">6. Credit Cards vs. Personal Loans</a>
-                <a href="#cibil-impact" className="block hover:text-blue-600 transition-colors py-1">7. Impact on CIBIL & Rebuilding</a>
-                <a href="#legal-notices" className="block hover:text-blue-600 transition-colors py-1">8. Handling Legal Notices</a>
-                <a href="#faqs" className="block hover:text-blue-600 transition-colors py-1">9. Frequently Asked Questions</a>
+                <a href="#understanding-debt" className="block hover:text-blue-600 transition-colors py-1">1. {bankName} NPA &amp; Default Timeline</a>
+                <a href="#what-is-settlement" className="block hover:text-blue-600 transition-colors py-1">2. {bankName} OTS Settlement Waiver %</a>
+                <a href="#legal-rights" className="block hover:text-blue-600 transition-colors py-1">3. Does {bankName} Agent Visit Home? RBI Rules</a>
+                <a href="#step-by-step-process" className="block hover:text-blue-600 transition-colors py-1">4. Step-by-Step {bankName} OTS &amp; NOC Process</a>
+                <a href="#negotiation-tactics" className="block hover:text-blue-600 transition-colors py-1">5. Tactics for 50% Settlement Discount</a>
+                <a href="#credit-card-vs-loan" className="block hover:text-blue-600 transition-colors py-1">6. Credit Card vs. Personal Loan OTS</a>
+                <a href="#cibil-impact" className="block hover:text-blue-600 transition-colors py-1">7. CIBIL Impact &amp; Score Rebuilding</a>
+                <a href="#legal-notices" className="block hover:text-blue-600 transition-colors py-1">8. Section 138, Arbitration &amp; Notices</a>
+                <a href="#faqs" className="block hover:text-blue-600 transition-colors py-1">9. {bankName} Settlement FAQs</a>
               </nav>
 
               {/* Mini CTA in Nav */}
@@ -584,9 +621,13 @@ export default async function BankSettlementSlugPage({ params }: Props) {
                 Settlement is a pragmatic business decision for {bankName}. You are not asking for charity; you are proposing a financially logical exit strategy for both parties.
               </p>
 
+              <div className="my-10 not-prose">
+                <LoanSettlementWidget />
+              </div>
+
               <hr className="my-12 border-gray-200" />
 
-              <h3 id="legal-rights" className="text-3xl font-bold text-gray-900 mb-6">3. Your Rights Against Recovery Agents</h3>
+              <h3 id="legal-rights" className="text-3xl font-bold text-gray-900 mb-6">3. Does {bankName} Recovery Agent Visit Home? Your RBI Rights</h3>
               <p>
                 The most traumatic aspect of defaulting on a <strong>{bankName}</strong> loan is dealing with third-party recovery agents. Banks outsource collection to external agencies who work on commission. The more money they extract from you, the higher their cut. This commission structure frequently drives agents to employ aggressive, unethical, and sometimes outright illegal tactics.
               </p>
@@ -794,6 +835,13 @@ export default async function BankSettlementSlugPage({ params }: Props) {
               <h3 id="faqs" className="text-3xl font-bold text-gray-900 mb-8">9. Frequently Asked Questions (FAQs)</h3>
               
               <div className="space-y-6">
+                <div className="border border-gray-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
+                  <h4 className="text-xl font-bold text-gray-900 mb-3">Q: Does a {bankName} recovery agent visit home or office?</h4>
+                  <p className="text-gray-600">
+                    Under the RBI Fair Practices Code and Digital Lending Guidelines, <strong>{bankName}</strong> recovery agents cannot visit your home or workplace without prior consent, must carry an official bank authorization letter and IIBF DRA certification, and are strictly restricted to <strong>8:00 AM to 7:00 PM</strong>. Unannounced workplace visits, contacting your employer or relatives, or threatening arrest is illegal.
+                  </p>
+                </div>
+
                 <div className="border border-gray-200 rounded-2xl p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
                   <h4 className="text-xl font-bold text-gray-900 mb-3">Q: Can {bankName} deduct money directly from my salary account?</h4>
                   <p className="text-gray-600">
