@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import CallingGuidelinesClient from './CallingGuidelinesClient';
 
 export const metadata: Metadata = {
-    title: 'RBI Recovery Agent Calling Hours | CredSettle',
-    description: "Discover the latest RBI guidelines on recovery agent calling hours. Learn why calls after 7 PM are illegal, your rights against harassment.",
+    title: 'RBI Guidelines on Calls After 7 PM (2026) | CredSettle',
+    description: "Know the 2026 RBI guidelines on recovery agent calling hours (8 AM to 7 PM). Learn why calls after 7 PM are illegal & how to file a complaint.",
     keywords: [
         "RBI guidelines calling after 7pm",
         "recovery agent calling hours India",

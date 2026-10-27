@@ -7,8 +7,8 @@ import YesBankLoanSettlementClient from './YesBankLoanSettlementClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Yes Bank Loan Settlement Process 2026 | Guide',
-  description: 'Expert guide on Yes Bank loan settlement. Learn how to settle Yes Bank personal loan and credit card dues with up to 50% waiver.',
+  title: 'Yes Bank Loan Settlement Process 2026: OTS & NOC Guide',
+  description: 'Complete 2026 guide on Yes Bank loan settlement. Learn how to settle Yes Bank personal loan and credit card dues with up to 50% waiver and get NOC.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/yes-bank',
   },

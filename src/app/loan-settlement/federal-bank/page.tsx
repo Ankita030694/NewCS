@@ -5,8 +5,8 @@ import Footer from '@/components/Footer';
 import FederalBankLoanSettlementClient from './FederalBankLoanSettlementClient';
 
 export const metadata: Metadata = {
-  title: 'Federal Bank Loan Settlement 2026',
-  description: 'Expert guide to settling Federal Bank loans. Learn about MSME OTS policies, agricultural loan waivers, and the "5% Deposit Rule" for 2026.',
+  title: 'Federal Bank Loan Settlement 2026: OTS & Legal Guide',
+  description: 'Complete 2026 guide to settling Federal Bank loans. Learn about MSME OTS policies, agricultural loan waivers, and the 5% deposit rule for settlement.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/federal-bank',
   },

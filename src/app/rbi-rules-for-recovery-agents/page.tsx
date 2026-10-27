@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import RBIRulesClient from './RBIRulesClient';
 
 export const metadata: Metadata = {
-  title: 'RBI Rules for Recovery Agents & Legal Rights | CredSettle',
+  title: 'RBI Rules for Recovery Agents (8 AM-7 PM) | CredSettle',
   description:
-    'Know RBI rules for recovery agents in India. Learn legal calling hours, home visit limits, police protection & RBI Ombudsman complaint steps.',
+    'Know 2026 RBI rules for recovery agents in India. Check legal calling hours (8 AM-7 PM), home visit limits, IIBF ID rules & Ombudsman steps.',
   keywords: [
     'RBI rules for recovery agents',
     'recovery agent harassment RBI guidelines',

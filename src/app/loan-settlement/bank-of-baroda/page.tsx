@@ -6,7 +6,7 @@ import BankOfBarodaLoanSettlementClient from './BankOfBarodaLoanSettlementClient
 
 export const metadata: Metadata = {
   title: 'Bank of Baroda Loan Settlement: OTS & Lok Adalat Guide',
-  description: 'Complete guide to Bank of Baroda loan settlement. Learn about the 2026 OTS Scheme, Lok Adalat process for agriculture loans.',
+  description: 'Complete guide to Bank of Baroda loan settlement. Learn about the 2026 Lakshya OTS Scheme, Lok Adalat waivers & personal loan settlement steps.',
   alternates: {
     canonical: 'https://www.credsettle.com/loan-settlement/bank-of-baroda',
   },

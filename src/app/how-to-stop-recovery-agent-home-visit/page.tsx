@@ -7,8 +7,8 @@ import RecoveryVisitClient from './RecoveryVisitClient';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How to Stop Recovery Agent Home Visits: RBI Rules',
-  description: 'Proved ways to stop recovery agent home visits. Learn RBI guidelines on collection agents, your legal rights, and how to stop harassment at your doorstep.',
+  title: 'How to Stop Recovery Agent Home Visits: RBI Rules 2026',
+  description: 'Proven legal steps to stop recovery agent home visits in India. Know 2026 RBI guidelines, IIBF DRA ID rules & how to stop doorstep harassment.',
   keywords: [
     'how to stop recovery agent home visit',
     'RBI rules for recovery agent home visit',
