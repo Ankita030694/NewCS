@@ -14,6 +14,90 @@ export const metadata: Metadata = {
 
 const sitemapLinks = [
   {
+    title: "Financial Calculators & Debt Settlement Tools Hub",
+    href: "/tools",
+  },
+  {
+    title: "Loan Settlement Waiver & Discount Calculator",
+    href: "/tools/loan-settlement-calculator",
+  },
+  {
+    title: "Loan EMI & Amortization Schedule Calculator",
+    href: "/tools/emi-calculator",
+  },
+  {
+    title: "Credit Card Compounding Interest & Minimum Due Calculator",
+    href: "/tools/credit-card-interest-calculator",
+  },
+  {
+    title: "Snowball vs Avalanche Debt Repayment Planner",
+    href: "/tools/debt-repayment-planner",
+  },
+  {
+    title: "Debt-to-Income (DTI) Ratio & Default Risk Calculator",
+    href: "/tools/debt-to-income-calculator",
+  },
+  {
+    title: "Multiple Loan Consolidation & Settlement Calculator",
+    href: "/tools/multiple-loan-calculator",
+  },
+  {
+    title: "Loan Settlement vs Full Repayment Savings Calculator",
+    href: "/tools/settlement-vs-repayment-calculator",
+  },
+  {
+    title: "How to Settle a ₹1 Lakh Personal Loan in India",
+    href: "/settle-1-lakh-personal-loan",
+  },
+  {
+    title: "How to Settle a ₹2 Lakh Personal Loan in India",
+    href: "/settle-2-lakh-personal-loan",
+  },
+  {
+    title: "How to Settle a ₹3 Lakh Personal Loan in India",
+    href: "/settle-3-lakh-personal-loan",
+  },
+  {
+    title: "How to Settle a ₹25 Lakh Personal Loan in India",
+    href: "/settle-25-lakh-personal-loan",
+  },
+  {
+    title: "How to Settle a ₹30 Lakh Personal Loan in India",
+    href: "/settle-30-lakh-personal-loan",
+  },
+  {
+    title: "HDFC Bank Personal Loan Settlement Policy & OTS Rules",
+    href: "/hdfc-personal-loan-settlement-policy",
+  },
+  {
+    title: "ICICI Bank Personal Loan Settlement Process & Waivers",
+    href: "/icici-bank-personal-loan-settlement",
+  },
+  {
+    title: "SBI Personal Loan Settlement Process & Rinn Samadhan OTS",
+    href: "/sbi-personal-loan-settlement-process",
+  },
+  {
+    title: "Axis Bank Personal Loan Settlement Process & Waivers",
+    href: "/axis-bank-personal-loan-settlement",
+  },
+  {
+    title: "Kotak Mahindra Bank Personal Loan Settlement Process",
+    href: "/kotak-mahindra-bank-loan-settlement",
+  },
+  {
+    title: "IDFC FIRST Bank Personal Loan Settlement Process",
+    href: "/idfc-first-bank-loan-settlement",
+  },
+  {
+    title: "IndusInd Bank Personal Loan Settlement Process",
+    href: "/indusind-bank-personal-loan-settlement",
+  },
+  {
+    title: "Bajaj Finserv Personal Loan Settlement Process & OTS",
+    href: "/bajaj-finserv-personal-loan-settlement",
+  },
+  {
     title: "RBI ₹5,000 Per Day Delay Compensation for Property Documents",
     href: "/rbi-5000-per-day-delay-compensation-property-documents",
   },

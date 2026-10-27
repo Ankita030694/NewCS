@@ -43,6 +43,7 @@ export default function ContactNavbar() {
   const navItems = [
     { href: '/', label: 'Home' },
     { href: '/services', label: 'Services' },
+    { href: '/tools', label: 'Calculators' },
     { href: '/resources', label: 'Resources' },
     { href: '/about', label: 'About Us' },
     { href: '/contact', label: 'Contact Us' }
