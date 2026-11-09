@@ -550,11 +550,61 @@ export default async function BankSettlementSlugPage({ params }: Props) {
                   Falling into a debt trap is a deeply distressing experience. When that debt is held by a major financial institution like <strong>{bankName}</strong>, the pressure can feel insurmountable. Constant phone calls, intimidating SMS alerts, unannounced home visits, and the looming threat of legal action can take a severe toll on your mental health, family life, and professional focus. 
                 </p>
                 <p>
-                  However, you are not alone, and more importantly, you are not out of options. Every single day, thousands of Indian citizens legally and successfully negotiate their outstanding unsecured debts down to manageable figures. If you have suffered a genuine financial setback—such as a medical emergency, unexpected job loss, severe business downturn, or a sudden reduction in household income—you have the legal right to request a restructured payment plan or a formal <strong>loan settlement</strong>.
+                  However, you are not alone, and more importantly, you are not out of options. Every single day, thousands of Indian citizens legally and successfully negotiate their outstanding unsecured debts down to manageable figures. If you have suffered a genuine financial setback, such as a medical emergency, unexpected job loss, severe business downturn, or a sudden reduction in household income, you have the legal right to request a restructured payment plan or a formal <strong>loan settlement</strong>.
                 </p>
                 <p>
                   This comprehensive, 5000+ word guide is designed to be your definitive playbook. We will dissect exactly how <strong>{bankName}</strong> operates when an account goes into default, the RBI guidelines that protect you from harassment, the psychological tactics employed by third-party collection agencies, and the precise, step-by-step legal blueprint required to execute a One-Time Settlement (OTS) that saves you money and restores your peace of mind.
                 </p>
+
+                {/* Quick Summary Table for Featured Snippets & Striking-Distance Queries (Zero h1-h6 tags) */}
+                <div className="not-prose mt-8 overflow-hidden rounded-2xl border border-blue-100 bg-slate-50/70 shadow-xs">
+                  <div className="bg-[#0C2756] px-5 py-3.5 text-white flex items-center justify-between flex-wrap gap-2">
+                    <p className="text-sm sm:text-base font-bold tracking-tight m-0">
+                      {bankName} Loan Settlement &amp; Recovery Rules Summary (2026)
+                    </p>
+                    <span className="text-[11px] font-semibold bg-blue-500/20 border border-blue-400/30 text-blue-200 px-2.5 py-0.5 rounded-full">
+                      RBI Fair Practices Code
+                    </span>
+                  </div>
+                  <div className="overflow-x-auto">
+                    <table className="w-full text-left border-collapse text-xs sm:text-sm">
+                      <tbody className="divide-y divide-slate-200/80">
+                        <tr className="bg-white">
+                          <th scope="row" className="py-3.5 px-4 sm:px-5 font-bold text-slate-900 w-2/5">
+                            Typical {bankName} OTS Waiver
+                          </th>
+                          <td className="py-3.5 px-4 sm:px-5 text-slate-700">
+                            40% to 65% discount on total dues (100% penal interest &amp; late fee waiver in genuine hardship cases).
+                          </td>
+                        </tr>
+                        <tr className="bg-slate-50/60">
+                          <th scope="row" className="py-3.5 px-4 sm:px-5 font-bold text-slate-900">
+                            Does {bankName} Agent Visit Home?
+                          </th>
+                          <td className="py-3.5 px-4 sm:px-5 text-slate-700">
+                            Field visits are strictly restricted to 8:00 AM to 7:00 PM with an official ID card and authorization letter. Calling family, friends, or workplace contacts is strictly illegal under RBI norms.
+                          </td>
+                        </tr>
+                        <tr className="bg-white">
+                          <th scope="row" className="py-3.5 px-4 sm:px-5 font-bold text-slate-900">
+                            When Does OTS Unlock?
+                          </th>
+                          <td className="py-3.5 px-4 sm:px-5 text-slate-700">
+                            After 90+ days past due (NPA stage). Deep principal waivers usually unlock between 120 and 180+ days of default.
+                          </td>
+                        </tr>
+                        <tr className="bg-slate-50/60">
+                          <th scope="row" className="py-3.5 px-4 sm:px-5 font-bold text-slate-900">
+                            Sanction Letter &amp; NOC Timeline
+                          </th>
+                          <td className="py-3.5 px-4 sm:px-5 text-slate-700">
+                            Always demand a written OTS letter from an official {bankName} domain before paying. No Dues Certificate (NOC) is issued within 15 to 30 working days after payment.
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
               </div>
 
               <hr className="my-12 border-gray-200" />

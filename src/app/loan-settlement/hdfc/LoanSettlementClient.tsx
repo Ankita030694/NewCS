@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
@@ -161,6 +162,8 @@ export default function LoanSettlementClient() {
                     Loan settlement is a legal and regulated process. It allows you to close your loan account by paying a reduced lump sum amount when you are genuinely unable to pay the full dues.
                   </p>
                 </div>
+
+                <LoanSettlementWidget />
 
                 <h2 id="what-is-settlement" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">What is HDFC Loan Settlement?</h2>
                 <p className="text-gray-700 leading-relaxed mb-6">

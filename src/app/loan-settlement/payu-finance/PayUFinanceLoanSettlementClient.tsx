@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import Image from 'next/image';
 
 export default function PayUFinanceLoanSettlementClient() {
@@ -261,6 +262,8 @@ export default function PayUFinanceLoanSettlementClient() {
                   Navigating the "100% online" collections ecosystem of digital lenders like PayU can be confusing. CredSettle bridges the gap. We don’t just negotiate; we protect your rights against digital harassment and ensure that every document you receive-from the Settlement Letter to the No Dues Certificate-is legally watertight.
                 </p>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="payu-lazypay" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">De-coding the Ecosystem: PayU Finance vs. LazyPay</h2>
               <p className="text-gray-700 leading-relaxed mb-6">

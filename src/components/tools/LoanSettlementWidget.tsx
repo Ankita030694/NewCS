@@ -69,9 +69,9 @@ export default function LoanSettlementWidget({
           </div>
           <div>
             <div className="flex items-center gap-2 flex-wrap">
-              <h3 className="text-lg md:text-xl font-extrabold text-[#0C2756] tracking-tight">
+              <p className="text-lg md:text-xl font-extrabold text-[#0C2756] tracking-tight">
                 INTERACTIVE SETTLEMENT ESTIMATOR
-              </h3>
+              </p>
             </div>
             <p className="text-xs md:text-sm text-slate-600 mt-0.5">
               Estimate your realistic payout & bank haircut for this {loanType}
@@ -222,11 +222,67 @@ export default function LoanSettlementWidget({
         </Link>
         <Link
           href="/contact"
+          data-debt-amount={validBalance}
+          onClick={(e) => {
+            if (typeof window !== 'undefined') {
+              e.preventDefault();
+              window.dispatchEvent(
+                new CustomEvent('credsettle:open_modal', {
+                  detail: { debtAmount: validBalance },
+                })
+              );
+            }
+          }}
           className="inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-xl bg-white hover:bg-slate-50 text-[#0C2756] border-2 border-[#0C2756]/25 font-bold text-sm transition-all shadow-xs"
         >
           <ShieldCheck className="w-4 h-4 text-emerald-600" />
           <span>Get Legal Help</span>
         </Link>
+      </div>
+
+      {/* Free Related Financial & Settlement Calculators Strip */}
+      <div className="mt-5 pt-4 border-t border-slate-200/80">
+        <p className="text-[11px] font-bold uppercase tracking-wider text-slate-500 mb-2.5">
+          More Free Debt &amp; Settlement Calculators:
+        </p>
+        <div className="flex flex-wrap gap-2">
+          <Link
+            href="/tools/settlement-vs-repayment-calculator"
+            className="text-xs font-semibold text-[#0C2756] bg-white hover:bg-blue-50 border border-slate-200 hover:border-blue-300 px-3 py-1.5 rounded-lg transition-colors"
+          >
+            Settlement vs Full Repayment
+          </Link>
+          <Link
+            href="/tools/credit-card-interest-calculator"
+            className="text-xs font-semibold text-[#0C2756] bg-white hover:bg-blue-50 border border-slate-200 hover:border-blue-300 px-3 py-1.5 rounded-lg transition-colors"
+          >
+            Credit Card Minimum Due Calculator
+          </Link>
+          <Link
+            href="/tools/multiple-loan-calculator"
+            className="text-xs font-semibold text-[#0C2756] bg-white hover:bg-blue-50 border border-slate-200 hover:border-blue-300 px-3 py-1.5 rounded-lg transition-colors"
+          >
+            Multi-Loan Payoff Calculator
+          </Link>
+          <Link
+            href="/tools/debt-to-income-calculator"
+            className="text-xs font-semibold text-[#0C2756] bg-white hover:bg-blue-50 border border-slate-200 hover:border-blue-300 px-3 py-1.5 rounded-lg transition-colors"
+          >
+            Debt-to-Income (DTI) Ratio
+          </Link>
+          <Link
+            href="/tools/debt-repayment-planner"
+            className="text-xs font-semibold text-[#0C2756] bg-white hover:bg-blue-50 border border-slate-200 hover:border-blue-300 px-3 py-1.5 rounded-lg transition-colors"
+          >
+            Snowball vs Avalanche Planner
+          </Link>
+          <Link
+            href="/tools/emi-calculator"
+            className="text-xs font-semibold text-[#0C2756] bg-white hover:bg-blue-50 border border-slate-200 hover:border-blue-300 px-3 py-1.5 rounded-lg transition-colors"
+          >
+            Loan EMI Calculator
+          </Link>
+        </div>
       </div>
     </div>
   );

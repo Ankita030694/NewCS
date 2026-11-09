@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 
 export default function FibeLoanSettlementClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -248,6 +249,8 @@ export default function FibeLoanSettlementClient() {
                   Loan settlement is not a loophole or an illegal escape. It is a formal provision within the banking system, regulated by RBI guidelines, designed to resolve Non Performing Assets (NPAs). It is a practical solution for both the lender (who recovers a portion of the bad debt) and the borrower (who gets a fresh start).
                 </p>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="understanding-fibe" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">De-coding Fibe: The Lender Profile</h2>
               <p className="text-gray-700 leading-relaxed mb-6">

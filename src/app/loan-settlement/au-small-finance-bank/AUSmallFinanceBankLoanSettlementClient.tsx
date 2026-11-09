@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 
 export default function AUSmallFinanceBankLoanSettlementClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -220,6 +221,8 @@ export default function AUSmallFinanceBankLoanSettlementClient() {
               </p>
 
               {/* NEW SEO SECTION: Real vs Fake Notice */}
+              <LoanSettlementWidget />
+
               <h2 id="arbitration-checker" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Is Your AU Bank Arbitration Notice Fake?</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
                  Many borrowers receive threatening messages on WhatsApp claiming to be "Court Summons" or "Arbitration Notices". 90% of these are fake tactics used by third-party agencies. Use this checklist to verify:

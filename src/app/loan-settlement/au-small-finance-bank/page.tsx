@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import AUSmallFinanceBankLoanSettlementClient from './AUSmallFinanceBankLoanSettlementClient';
 import Link from 'next/link';
 
@@ -180,6 +181,7 @@ export default function AUSmallFinanceBankLoanSettlementPage() {
       </section>
 
       {/* Client Component content */}
+      <InteractiveLeadFunnel />
       <AUSmallFinanceBankLoanSettlementClient />
       
       <Footer />

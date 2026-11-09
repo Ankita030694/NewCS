@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 
 export default function RajasthanLoanSettlementClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -229,6 +230,8 @@ export default function RajasthanLoanSettlementClient() {
                   Rajasthan has specific laws to protect borrowers. The <strong>Rajasthan Money Lenders Act, 1963</strong> is a key statute that regulates interest rates and mandates licensing for private financiers, offering a strong defense against harassment by unregulated lenders.
                 </p>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="money-lenders-act-rj" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">The Rajasthan Money Lenders Act, 1963</h2>
               <p className="text-gray-700 leading-relaxed mb-6">

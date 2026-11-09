@@ -2,6 +2,8 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
+import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import Script from 'next/script';
 import AuthorBioBox from '@/components/AuthorBioBox';
 import {
@@ -219,6 +221,8 @@ export default function MudraLoanSettlementClient() {
                 </div>
             </section>
 
+      <InteractiveLeadFunnel />
+
             {/* Breadcrumb Section */}
             <div className="bg-white border-b border-gray-200">
                 <div className="max-w-[1440px] mx-auto px-4 py-4">
@@ -336,6 +340,8 @@ export default function MudraLoanSettlementClient() {
                             <p className="text-gray-700 leading-relaxed mb-10">
                                 At CredSettle, we specialize in helping small business owners navigate the complexities of PMMY debt resolution. Whether you have a Shishu, Kishor, or the new Tarun Plus loan, understanding your legal rights is the first step toward debt freedom.
                             </p>
+
+                            <LoanSettlementWidget />
 
                             <h2 id="pmmy-guidelines" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-24">Section 2: PMMY 2026 Guidelines: What Borrowers Must Know</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">

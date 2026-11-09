@@ -2,6 +2,7 @@ import React from 'react';
 import { Metadata } from 'next';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import AdityaBirlaLoanSettlementClient from './AdityaBirlaLoanSettlementClient';
 
 export const metadata: Metadata = {
@@ -244,6 +245,8 @@ export default function AdityaBirlaLoanSettlementPage() {
           </div>
         </div>
       </section>
+
+      <InteractiveLeadFunnel />
 
       <AdityaBirlaLoanSettlementClient />
       

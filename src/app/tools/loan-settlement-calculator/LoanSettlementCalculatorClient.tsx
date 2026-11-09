@@ -658,6 +658,7 @@ Calculate yours at: https://www.credsettle.com/tools/loan-settlement-calculator`
                 </div>
                 <Link
                   href="/contact"
+                  data-debt-amount={outstandingBalance}
                   className="px-5 py-3 rounded-xl bg-[#007AFF] hover:bg-blue-600 text-white font-bold text-xs sm:text-sm transition-all whitespace-nowrap flex items-center gap-2 cursor-pointer shadow-sm hover:shadow-md"
                 >
                   <span>Request Free Consultation</span>
@@ -788,6 +789,81 @@ Calculate yours at: https://www.credsettle.com/tools/loan-settlement-calculator`
                 )}
               </div>
             ))}
+          </div>
+        </div>
+
+        {/* Cross-links to all 6 sibling calculators for crawlability & user utility */}
+        <div className="pt-6 border-t border-slate-200">
+          <h2 className="text-xl sm:text-2xl font-bold text-[#0C2756] mb-4">
+            Explore More Free Debt &amp; Repayment Calculators
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            <Link
+              href="/tools/settlement-vs-repayment-calculator"
+              className="p-4 rounded-2xl border border-slate-200 hover:border-blue-300 hover:bg-blue-50/40 transition-all group"
+            >
+              <p className="text-sm font-bold text-[#0C2756] group-hover:text-[#007AFF] mb-1">
+                Settlement vs Repayment Calculator
+              </p>
+              <p className="text-xs text-slate-600">
+                Compare lump-sum OTS savings against full EMI repayment costs.
+              </p>
+            </Link>
+            <Link
+              href="/tools/credit-card-interest-calculator"
+              className="p-4 rounded-2xl border border-slate-200 hover:border-blue-300 hover:bg-blue-50/40 transition-all group"
+            >
+              <p className="text-sm font-bold text-[#0C2756] group-hover:text-[#007AFF] mb-1">
+                Credit Card Minimum Due Calculator
+              </p>
+              <p className="text-xs text-slate-600">
+                See how long the 5% minimum due trap takes and how much interest you pay.
+              </p>
+            </Link>
+            <Link
+              href="/tools/multiple-loan-calculator"
+              className="p-4 rounded-2xl border border-slate-200 hover:border-blue-300 hover:bg-blue-50/40 transition-all group"
+            >
+              <p className="text-sm font-bold text-[#0C2756] group-hover:text-[#007AFF] mb-1">
+                Multiple Loan Payoff Calculator
+              </p>
+              <p className="text-xs text-slate-600">
+                Combine multiple personal loans and credit cards into one clear payoff plan.
+              </p>
+            </Link>
+            <Link
+              href="/tools/debt-to-income-calculator"
+              className="p-4 rounded-2xl border border-slate-200 hover:border-blue-300 hover:bg-blue-50/40 transition-all group"
+            >
+              <p className="text-sm font-bold text-[#0C2756] group-hover:text-[#007AFF] mb-1">
+                Debt-to-Income (DTI) Ratio Calculator
+              </p>
+              <p className="text-xs text-slate-600">
+                Check your EMI burden against monthly income under RBI FOIR benchmarks.
+              </p>
+            </Link>
+            <Link
+              href="/tools/debt-repayment-planner"
+              className="p-4 rounded-2xl border border-slate-200 hover:border-blue-300 hover:bg-blue-50/40 transition-all group"
+            >
+              <p className="text-sm font-bold text-[#0C2756] group-hover:text-[#007AFF] mb-1">
+                Debt Snowball vs Avalanche Planner
+              </p>
+              <p className="text-xs text-slate-600">
+                Generate a month-by-month payoff schedule for multiple overdue accounts.
+              </p>
+            </Link>
+            <Link
+              href="/tools/emi-calculator"
+              className="p-4 rounded-2xl border border-slate-200 hover:border-blue-300 hover:bg-blue-50/40 transition-all group"
+            >
+              <p className="text-sm font-bold text-[#0C2756] group-hover:text-[#007AFF] mb-1">
+                Loan EMI &amp; Prepayment Calculator
+              </p>
+              <p className="text-xs text-slate-600">
+                Calculate monthly EMI, total interest payable, and prepayment savings.
+              </p>
+            </Link>
           </div>
         </div>
       </section>

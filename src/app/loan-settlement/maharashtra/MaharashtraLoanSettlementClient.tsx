@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 
 export default function MaharashtraLoanSettlementClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -241,6 +242,8 @@ export default function MaharashtraLoanSettlementClient() {
                   The Maharashtra State Legal Services Authority has announced the dates for remaining National Lok Adalats in 2026. This is the fastest, cheapest, and most secure way to settle your bank disputes in a single day.
                 </p>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="legal-protections" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Your Legal Protections in Maharashtra</h2>
               <p className="text-gray-700 leading-relaxed mb-6">

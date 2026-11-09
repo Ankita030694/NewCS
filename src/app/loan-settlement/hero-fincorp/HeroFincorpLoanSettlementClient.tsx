@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 
 export default function HeroFincorpLoanSettlementClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -238,6 +239,8 @@ export default function HeroFincorpLoanSettlementClient() {
                   This comprehensive guide is designed to empower you with knowledge. It is not about evading debt, but about managing it legally and dignifiedly through **Loan Settlement**. We will break down specific strategies for different Hero Fincorp products, unmask the legal threats you face, and provide a clear, step-by-step roadmap to exiting this debt trap once and for all.
                 </p>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="loan-landscape" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">The Hero Fincorp Loan Landscape</h2>
               <div className="text-gray-700 leading-relaxed mb-6">

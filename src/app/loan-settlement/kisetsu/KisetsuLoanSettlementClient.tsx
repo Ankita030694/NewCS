@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 
 export default function KisetsuLoanSettlementClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -235,6 +236,8 @@ export default function KisetsuLoanSettlementClient() {
                   Your financial dignity matters. We specialize in intervening between you and lenders like Kisetsu Saison Finance to stop harassment and negotiate a fair settlement. Let us handle the legal complexities while you focus on rebuilding your life.
                 </p>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="understanding-ots" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Understanding the One Time Settlement (OTS) Mechanism</h2>
               <p className="text-gray-700 leading-relaxed mb-6">

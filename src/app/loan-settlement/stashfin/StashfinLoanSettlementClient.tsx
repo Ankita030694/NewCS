@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 
 export default function StashfinLoanSettlementClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -219,6 +220,8 @@ export default function StashfinLoanSettlementClient() {
               </p>
 
               {/* Fake Notice Checker */}
+              <LoanSettlementWidget />
+
               <h2 id="fake-notice-check" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Is Your Stashfin "Legal Notice" Fake?</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
                  Recovery agents often send scary messages on WhatsApp claiming to be "Cyber Crime Police" or "Delhi Court". 95% of these are fake. Here is how tospot them:

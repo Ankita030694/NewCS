@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 
 export default function KotakLoanSettlementClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -236,6 +237,8 @@ export default function KotakLoanSettlementClient() {
                   A loan settlement is not a favor from the bank; it is a standard banking procedure for recovering Non-Performing Assets (NPAs). You have the right to propose a settlement if you can prove financial hardship.
                 </p>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="what-is-settlement" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Understanding Kotak Loan Settlement</h2>
               <p className="text-gray-700 leading-relaxed mb-6">

@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 
 export default function IndusIndLoanSettlementClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -249,6 +250,8 @@ export default function IndusIndLoanSettlementClient() {
                   Debt is not the end of the road. With the right legal strategy and negotiation, you can close your IndusInd loan account, stop the harassment immediately, and start rebuilding your financial life. We have handled thousands of such cases successfully.
                 </p>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="understanding-ots" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Understanding the OTS (One Time Settlement) Scheme</h2>
               <p className="text-gray-700 leading-relaxed mb-6">

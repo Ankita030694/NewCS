@@ -82,6 +82,21 @@ export const LENDER_MAP: Record<string, string> = {
   'smfg': 'SMFG India Credit',
   'au-small-finance-bank': 'AU Small Finance Bank',
   'au-bank': 'AU Small Finance Bank',
+  'kisetsu': 'Credit Saison (Kisetsu)',
+};
+
+export const STATE_MAP: Record<string, string> = {
+  'andhra-pradesh': 'Andhra Pradesh',
+  'delhi': 'Delhi NCR',
+  'gujarat': 'Gujarat',
+  'haryana': 'Haryana',
+  'karnataka': 'Karnataka',
+  'maharashtra': 'Maharashtra',
+  'rajasthan': 'Rajasthan',
+  'tamil-nadu': 'Tamil Nadu',
+  'telangana': 'Telangana',
+  'uttar-pradesh': 'Uttar Pradesh',
+  'west-bengal': 'West Bengal',
 };
 
 export const DEBT_BRACKETS = [
@@ -109,6 +124,25 @@ export function getNuanceForPath(pathname: string): PageNuance {
           'Unable to pay multiple loan or credit card EMIs',
           'Payday loans or instant app loan default',
           `Received legal notice, Section 138, or court summons in ${cityName}`,
+          'Looking for an RBI-compliant One-Time Settlement (OTS)',
+        ],
+      };
+    }
+  }
+
+  // 0b. State specific routes (e.g. /loan-settlement/maharashtra)
+  for (const [slug, stateName] of Object.entries(STATE_MAP)) {
+    if (p === `/loan-settlement/${slug}` || p.startsWith(`/loan-settlement/${slug}/`)) {
+      return {
+        badge: `${stateName} Loan Settlement`,
+        title: `${stateName} Loan Settlement Assessment`,
+        subtitle: `Answer 2 simple questions to check your Lok Adalat & OTS eligibility in ${stateName}.`,
+        question1: `1. What loan or debt challenge are you facing in ${stateName}?`,
+        options1: [
+          `Recovery agent harassment & threatening calls in ${stateName}`,
+          'Unable to pay multiple loan or credit card EMIs',
+          'Payday loans or instant app loan default',
+          `Received legal notice, Section 138, or Lok Adalat summons in ${stateName}`,
           'Looking for an RBI-compliant One-Time Settlement (OTS)',
         ],
       };
@@ -312,7 +346,17 @@ export default function InteractiveLeadFunnel({
       pathname === '/about' ||
       pathname?.startsWith('/about') ||
       pathname?.startsWith('/loan-settlement-by-city') ||
-      pathname?.startsWith('/loan-settlement-by-bank')
+      pathname?.startsWith('/loan-settlement-by-bank') ||
+      pathname === '/loan-settlement' ||
+      pathname?.startsWith('/loan-settlement/') ||
+      pathname === '/mudra-loan-settlement-legal-help' ||
+      pathname === '/how-to-settle-7-days-loan-app' ||
+      pathname === '/loan-recovery-after-death-of-borrower-legal-heir-rights-india' ||
+      pathname === '/what-is-minimun-debt-amount-required-for-settlement-programs' ||
+      pathname === '/can-i-go-to-jail-for-loan-default-in-india' ||
+      pathname === '/rbi-rules-for-recovery-agents' ||
+      pathname === '/does-settlement-impact-a-co-borrower' ||
+      pathname === '/bank-calling-references-and-family-members'
     ));
 
   const nuance = getNuanceForPath(pathname || '');
@@ -490,9 +534,11 @@ export default function InteractiveLeadFunnel({
       captchaToken,
       submissionUrl: typeof window !== 'undefined' ? window.location.href : '',
       utmParams: typeof window !== 'undefined'
-        ? (new URLSearchParams(window.location.search).toString()
-            ? Object.fromEntries(new URLSearchParams(window.location.search))
-            : {})
+        ? Object.fromEntries(
+            new URLSearchParams(
+              window.location.search || sessionStorage.getItem('credsettle:entry_utm') || ''
+            )
+          )
         : {},
     };
 
@@ -557,6 +603,7 @@ export default function InteractiveLeadFunnel({
 
   return (
     <section
+      id={isFooterPlacement ? undefined : 'lead-funnel'}
       className={`w-full py-8 md:py-12 pb-20 sm:pb-12 px-4 bg-slate-50 ${className}`}
       onClickCapture={notifyFunnelActive}
       onFocusCapture={notifyFunnelActive}

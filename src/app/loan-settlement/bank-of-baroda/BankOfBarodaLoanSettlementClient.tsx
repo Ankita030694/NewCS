@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 
 export default function BankOfBarodaLoanSettlementClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -237,6 +238,8 @@ export default function BankOfBarodaLoanSettlementClient() {
                    Whether you are a farmer struggling with a Kisan Credit Card loan, an MSME owner facing a cash crunch, or a salaried individual with a personal loan, this guide will decode the specific channels you can use to settle your debt with Bank of Baroda in 2026.
                 </p>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="psu-advantage" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">The PSU Bank Settlement Advantage</h2>
               <div className="text-gray-700 leading-relaxed mb-6">

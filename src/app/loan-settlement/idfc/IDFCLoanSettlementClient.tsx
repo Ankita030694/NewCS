@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 
 export default function IDFCLoanSettlementClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -236,6 +237,8 @@ export default function IDFCLoanSettlementClient() {
                   Did you know IDFC settlements often involve a &quot;Without Prejudice&quot; clause? We ensure you understand every legal term before you sign, protecting you from future liability.
                 </p>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="npa-norms" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Understanding NPA Classification: The Driver of Settlement</h2>
               <p className="text-gray-700 leading-relaxed mb-6">

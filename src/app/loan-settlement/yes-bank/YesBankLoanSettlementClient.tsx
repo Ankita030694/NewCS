@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 
 export default function YesBankLoanSettlementClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -240,6 +241,8 @@ export default function YesBankLoanSettlementClient() {
                   Yes Bank, like all commercial banks in India, has specific provisions for One Time Settlement (OTS) for stressed assets. This is not a "favor" but a standard banking practice to clean up balance sheets and recover stuck capital.
                 </p>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="what-is-settlement" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">What is Yes Bank Loan Settlement?</h2>
               <div className="text-gray-700 leading-relaxed mb-6">

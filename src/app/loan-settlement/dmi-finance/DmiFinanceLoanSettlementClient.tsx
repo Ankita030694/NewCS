@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 
 export default function DmiFinanceLoanSettlementClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -186,6 +187,8 @@ export default function DmiFinanceLoanSettlementClient() {
                   </p>
                 </div>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="samsung-finance" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Samsung Finance+ & Knox Guard Locking</h2>
               <div className="text-gray-700 leading-relaxed mb-6">

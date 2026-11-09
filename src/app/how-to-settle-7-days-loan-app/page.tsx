@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import HowToSettle7DaysLoanAppClient from './HowToSettle7DaysLoanAppClient';
 import Link from 'next/link';
 
@@ -221,6 +222,8 @@ export default function HowToSettle7DaysLoanAppPage() {
           </div>
         </div>
       </section>
+
+      <InteractiveLeadFunnel />
 
       <HowToSettle7DaysLoanAppClient />
       

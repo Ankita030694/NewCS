@@ -2,6 +2,7 @@ import React from 'react';
 import type { Metadata } from 'next';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import LoanSettlementPageClient from './LoanSettlementPageClient';
 import Link from 'next/link';
 
@@ -354,6 +355,7 @@ export default function LoanSettlementPage() {
       </section>
 
       {/* Main Interactive Guide Component */}
+      <InteractiveLeadFunnel />
       <LoanSettlementPageClient />
       
       <Footer />

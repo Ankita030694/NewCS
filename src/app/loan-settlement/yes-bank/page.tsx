@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import YesBankLoanSettlementClient from './YesBankLoanSettlementClient';
 import Link from 'next/link';
 
@@ -205,6 +206,8 @@ export default function YesBankLoanSettlementPage() {
           </div>
         </div>
       </section>
+
+      <InteractiveLeadFunnel />
 
       <YesBankLoanSettlementClient />
       

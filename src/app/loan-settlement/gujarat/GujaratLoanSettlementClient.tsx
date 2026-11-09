@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import Image from 'next/image';
 
 export default function GujaratLoanSettlementClient() {
@@ -230,6 +231,8 @@ export default function GujaratLoanSettlementClient() {
                   Gujarat has stringent laws against predatory lending. The <strong>Gujarat Money Lenders Act, 2011</strong> is a powerful tool that protects borrowers from harassment by unregistered financiers, a common issue in cities like Surat and Rajkot.
                 </p>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="money-lenders-act" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">The Gujarat Money Lenders Act, 2011</h2>
               <p className="text-gray-700 leading-relaxed mb-6">

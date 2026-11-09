@@ -2,6 +2,7 @@ import React from 'react';
 import { Metadata } from 'next';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import HeroFincorpLoanSettlementClient from './HeroFincorpLoanSettlementClient';
 
 export const metadata: Metadata = {
@@ -240,6 +241,8 @@ export default function HeroFincorpLoanSettlementPage() {
           </div>
         </div>
       </div>
+
+      <InteractiveLeadFunnel />
 
       <HeroFincorpLoanSettlementClient />
       

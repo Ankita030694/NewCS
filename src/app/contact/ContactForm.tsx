@@ -165,8 +165,22 @@ export default function ContactForm() {
       created: Date.now(),
       date: formattedDate,
       captchaToken,
-      submissionUrl: typeof window !== 'undefined' ? window.location.href : '',
-      utmParams: typeof window !== 'undefined' ? (new URLSearchParams(window.location.search).toString() ? Object.fromEntries(new URLSearchParams(window.location.search)) : {}) : {}
+      submissionUrl:
+        typeof window !== 'undefined'
+          ? (window.location.pathname === '/contact'
+              ? sessionStorage.getItem('credsettle:last_seo_url') ||
+                sessionStorage.getItem('credsettle:entry_url') ||
+                window.location.href
+              : window.location.href)
+          : '',
+      utmParams:
+        typeof window !== 'undefined'
+          ? Object.fromEntries(
+              new URLSearchParams(
+                window.location.search || sessionStorage.getItem('credsettle:entry_utm') || ''
+              )
+            )
+          : {}
     };
 
     try {

@@ -4,6 +4,7 @@ import Link from 'next/link';
 import PoonawallaLoanSettlementClient from './PoonawallaLoanSettlementClient';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 
 export const metadata: Metadata = {
   title: 'Poonawalla Fincorp Loan Settlement: Settle Magma Dues',
@@ -171,6 +172,8 @@ export default function PoonawallaLoanSettlementPage() {
           </div>
         </div>
       </section>
+      
+      <InteractiveLeadFunnel />
       
       <PoonawallaLoanSettlementClient />
       

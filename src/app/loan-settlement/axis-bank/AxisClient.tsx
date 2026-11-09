@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import AuthorBioBox from '@/components/AuthorBioBox';
 
 
@@ -248,6 +249,8 @@ export default function AxisBankLoanSettlementClient() {
                   </p>
                 </div>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="default-timeline" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Understanding the Default Timeline (SMA Classification)</h2>
               <div className="text-gray-700 leading-relaxed mb-6">

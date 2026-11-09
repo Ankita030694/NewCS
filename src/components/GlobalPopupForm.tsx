@@ -47,24 +47,87 @@ export default function GlobalPopupForm() {
     (prefix) => pathname === prefix || pathname?.startsWith(prefix + '/')
   );
 
-  // Close when an inline funnel on the page becomes active
+  // Persist initial entry SEO landing page and UTM parameters in sessionStorage
+  // so if a user navigates to /contact, the true SEO landing page URL is preserved in submissionUrl
   useEffect(() => {
+    if (typeof window === 'undefined') return;
+    if (!isExcluded) {
+      if (!sessionStorage.getItem('credsettle:entry_url')) {
+        sessionStorage.setItem('credsettle:entry_url', window.location.href);
+      }
+      sessionStorage.setItem('credsettle:last_seo_url', window.location.href);
+    }
+    if (window.location.search && !sessionStorage.getItem('credsettle:entry_utm')) {
+      sessionStorage.setItem('credsettle:entry_utm', window.location.search);
+    }
+  }, [pathname, isExcluded]);
+
+  // Close when an inline funnel on the page becomes active, and intercept in-page /contact CTA clicks
+  useEffect(() => {
+    const mapAmountToDebtBracket = (amount: number): string => {
+      if (!amount || isNaN(amount)) return '';
+      if (amount > 5000000) return 'Above ₹50 Lakhs';
+      if (amount >= 3000000) return '₹30 Lakhs - ₹50 Lakhs';
+      if (amount >= 1500000) return '₹15 Lakhs - ₹30 Lakhs';
+      return '₹3 Lakhs - ₹15 Lakhs';
+    };
+
     const handleFunnelActive = () => {
       setIsOpen(false);
     };
 
-    const handleOpenModal = () => {
+    const handleOpenModal = (event: Event) => {
       if (!isExcluded) {
+        const customEvent = event as CustomEvent<{ debtBracket?: string; legalIssue?: string; debtAmount?: number }>;
+        if (customEvent.detail?.debtBracket) {
+          setDebtBracket(customEvent.detail.debtBracket);
+        } else if (customEvent.detail?.debtAmount) {
+          const mapped = mapAmountToDebtBracket(customEvent.detail.debtAmount);
+          if (mapped) setDebtBracket(mapped);
+        }
+        if (customEvent.detail?.legalIssue) {
+          setLegalIssue(customEvent.detail.legalIssue);
+        }
+        setIsOpen(true);
+      }
+    };
+
+    const handleDocumentClick = (e: MouseEvent) => {
+      if (isExcluded) return;
+      if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+
+      const target = e.target as HTMLElement | null;
+      if (!target) return;
+
+      const anchor = target.closest('a');
+      if (!anchor) return;
+
+      // Do not intercept top navbar or footer navigation links so /contact remains directly reachable
+      if (anchor.closest('nav') || anchor.closest('footer')) return;
+
+      const hrefAttr = anchor.getAttribute('href');
+      if (!hrefAttr) return;
+
+      if (hrefAttr === '/contact' || hrefAttr.startsWith('/contact?') || hrefAttr.startsWith('/contact#')) {
+        e.preventDefault();
+        e.stopPropagation();
+        const debtAttr = anchor.getAttribute('data-debt-amount');
+        if (debtAttr) {
+          const mapped = mapAmountToDebtBracket(Number(debtAttr));
+          if (mapped) setDebtBracket(mapped);
+        }
         setIsOpen(true);
       }
     };
 
     window.addEventListener('credsettle:funnel_active', handleFunnelActive);
     window.addEventListener('credsettle:open_modal', handleOpenModal);
+    document.addEventListener('click', handleDocumentClick, true);
 
     return () => {
       window.removeEventListener('credsettle:funnel_active', handleFunnelActive);
       window.removeEventListener('credsettle:open_modal', handleOpenModal);
+      document.removeEventListener('click', handleDocumentClick, true);
     };
   }, [isExcluded]);
 
@@ -137,8 +200,8 @@ export default function GlobalPopupForm() {
       errs.number = 'Please enter your mobile number';
     } else if (number.length !== 10) {
       errs.number = 'Please enter a valid 10-digit mobile number';
-    } else if (number.startsWith('0')) {
-      errs.number = 'Mobile number cannot start with 0';
+    } else if (['0', '1', '2', '3', '4', '5'].includes(number[0])) {
+      errs.number = 'Mobile number should start with 6, 7, 8, or 9';
     }
 
     if (!email.trim()) {
@@ -200,7 +263,11 @@ export default function GlobalPopupForm() {
       submissionUrl: typeof window !== 'undefined' ? window.location.href : '',
       utmParams:
         typeof window !== 'undefined'
-          ? Object.fromEntries(new URLSearchParams(window.location.search))
+          ? Object.fromEntries(
+              new URLSearchParams(
+                window.location.search || sessionStorage.getItem('credsettle:entry_utm') || ''
+              )
+            )
           : {},
     };
 

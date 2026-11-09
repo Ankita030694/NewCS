@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import UttarPradeshLoanSettlementClient from './UttarPradeshLoanSettlementClient';
 import Link from 'next/link';
 
@@ -275,6 +276,8 @@ export default function UttarPradeshLoanSettlementPage() {
           </div>
         </div>
       </section>
+
+      <InteractiveLeadFunnel />
 
       <UttarPradeshLoanSettlementClient />
       

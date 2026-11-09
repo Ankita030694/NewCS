@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 
 export default function TataCapitalLoanSettlementClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -242,6 +243,8 @@ export default function TataCapitalLoanSettlementClient() {
                   Tata Capital is regulated by the RBI. They are bound by the "Fair Practices Code" which mandates them to treat borrowers with dignity and offer settlement options (OTS) to those in genuine distress. You have rights that protect you during this process.
                 </p>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="what-is-ots" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">What is One Time Settlement (OTS)?</h2>
               <p className="text-gray-700 leading-relaxed mb-6">

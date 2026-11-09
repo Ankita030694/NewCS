@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import Image from 'next/image';
 
 export default function AndhraPradeshLoanSettlementClient() {
@@ -201,6 +202,8 @@ export default function AndhraPradeshLoanSettlementClient() {
                 <h3 className="font-bold text-blue-900 mb-2">Key Insight for clients in Andhra Pradesh</h3>
                 <p className="text-blue-800 m-0"> The state has a strong legal aid network. The Andhra Pradesh State Legal Services Authority (APSLSA) actively promotes amicable closures through Lok Adalats. Utilizing these forums is a highly effective way to resolve banking disputes swiftly and by law. </p>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="legal-rights-ap" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Your Legal Rights as a Borrower in Andhra Pradesh</h2>
               <p className="text-gray-700 leading-relaxed mb-6"> Many clients in Andhra Pradesh endure silence and stress because they represent unaware of their rights. You are protected by robust laws and RBI mandates designed to prevent exploitation and ensure fair treatment. </p>

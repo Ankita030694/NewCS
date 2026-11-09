@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import AuthorBioBox from '@/components/AuthorBioBox';
 
 export default function PiramalFinanceLoanSettlementClient() {
@@ -194,6 +195,8 @@ export default function PiramalFinanceLoanSettlementClient() {
               <p className="text-gray-700 leading-relaxed mb-6"> If you are facing money distress. Piramal Finance offers a **One Time closure (OTS)** mechanism to help you close your loan by law and start fresh. This guide covers the valid steps. How to spot fake notices. how to escalate grievances. </p>
 
               {/* Fake Notice Checker */}
+              <LoanSettlementWidget />
+
               <h2 id="fake-notice-check" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Fake vs Real Legal Notices</h2>
               <p className="text-gray-700 leading-relaxed mb-6"> We have seen a surge in fake "Court Summons" being sent via WhatsApp by fraudulent firms claiming to represent Piramal Finance. Use this checklist to check authenticity: </p>
 

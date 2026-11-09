@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 
 export default function DelhiLoanSettlementClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -224,6 +225,8 @@ export default function DelhiLoanSettlementClient() {
                   The Delhi State Legal Services Authority (DSLSA) actively promotes pre-litigation settlement through Lok Adalats. This is often the fastest way to get a legally binding settlement decree in the capital.
                 </p>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="legal-framework" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Legal Framework Covering Debt Settlement in Delhi</h2>
               <p className="text-gray-700 leading-relaxed mb-6">

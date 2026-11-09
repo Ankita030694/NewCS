@@ -2,6 +2,7 @@ import React from 'react';
 import { Metadata } from 'next';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import UnionBankLoanSettlementClient from './UnionBankLoanSettlementClient';
 
 export const metadata: Metadata = {
@@ -213,6 +214,8 @@ export default function UnionBankLoanSettlementPage() {
           </div>
         </div>
       </div>
+
+      <InteractiveLeadFunnel />
 
       <UnionBankLoanSettlementClient />
       

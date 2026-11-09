@@ -403,7 +403,8 @@ async function countSitemapPages(): Promise<{
  */
 async function generateSitemap(): Promise<string> {
   const urls: SitemapUrl[] = [];
-  const today = new Date().toISOString().split('T')[0]; // Format: YYYY-MM-DD
+  const today = '2026-11-09'; // Fixed deployment lastmod so Googlebot prioritizes genuinely updated pages
+  const matrixLastMod = '2026-10-15'; // Programmatic state/bank permutation baseline
 
   // ========================================================================
   // SECTION 1: MAIN STATIC PAGES
@@ -4422,9 +4423,9 @@ async function generateSitemap(): Promise<string> {
     for (const state of states) {
       urls.push({
         loc: `${baseUrl}/services/${serviceType}/${state}`,
-        priority: 0.8, // Medium priority - important for local SEO
-        changefreq: 'weekly',
-        lastmod: today
+        priority: 0.75, // Local SEO programmatic matrix
+        changefreq: 'monthly',
+        lastmod: matrixLastMod
       });
     }
 
@@ -4435,9 +4436,9 @@ async function generateSitemap(): Promise<string> {
     for (const bank of banks) {
       urls.push({
         loc: `${baseUrl}/services/${serviceType}/banks/${bank}`,
-        priority: 0.8, // Medium priority - important for bank-specific searches
-        changefreq: 'weekly',
-        lastmod: today
+        priority: 0.75, // Bank service programmatic matrix
+        changefreq: 'monthly',
+        lastmod: matrixLastMod
       });
     }
   }
@@ -4457,9 +4458,9 @@ async function generateSitemap(): Promise<string> {
     for (const state of statesData) {
       urls.push({
         loc: `${baseUrl}/credit-card-settlement/${bank.slug}/${state.slug}`,
-        priority: 0.8,
-        changefreq: 'weekly',
-        lastmod: today
+        priority: 0.7,
+        changefreq: 'monthly',
+        lastmod: matrixLastMod
       });
     }
   }
@@ -4926,37 +4927,37 @@ ${urls
     <loc>https://www.credsettle.com/tools/emi-calculator</loc>
     <lastmod>${today}</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.credsettle.com/tools/credit-card-interest-calculator</loc>
     <lastmod>${today}</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.credsettle.com/tools/debt-repayment-planner</loc>
     <lastmod>${today}</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.credsettle.com/tools/debt-to-income-calculator</loc>
     <lastmod>${today}</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.credsettle.com/tools/multiple-loan-calculator</loc>
     <lastmod>${today}</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.credsettle.com/tools/settlement-vs-repayment-calculator</loc>
     <lastmod>${today}</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.credsettle.com/settle-1-lakh-personal-loan</loc>

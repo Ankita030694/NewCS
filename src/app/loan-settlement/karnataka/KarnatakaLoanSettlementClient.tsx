@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import Image from 'next/image';
 
 export default function KarnatakaLoanSettlementClient() {
@@ -201,6 +202,8 @@ export default function KarnatakaLoanSettlementClient() {
                 <h3 className="font-bold text-blue-900 mb-2">Key Insight for Karnataka clients</h3>
                 <p className="text-blue-800 m-0"> Karnataka has a robust legal aid system. The Karnataka State Legal Services Authority (KSLSA) is very active in mediating money disputes. Utilizing forums like the Lok Adalat can expedite your steps effectively. </p>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="legal-rights-karnataka" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Your Legal Rights as a Borrower in Karnataka</h2>
               <p className="text-gray-700 leading-relaxed mb-6"> Many clients suffer in silence because they are unaware of their legal safety. In Karnataka. You are shielded by both central RBI mandates and exact state laws designed to prevent exploitation. </p>

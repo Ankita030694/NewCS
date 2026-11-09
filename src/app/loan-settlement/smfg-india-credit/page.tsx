@@ -4,6 +4,7 @@ import Script from 'next/script';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import SMFGLoanSettlementClient from './SMFGLoanSettlementClient';
 
 export const metadata: Metadata = {
@@ -254,6 +255,8 @@ export default function SMFGLoanSettlementPage() {
           </nav>
         </div>
       </div>
+
+      <InteractiveLeadFunnel />
 
       <SMFGLoanSettlementClient />
 

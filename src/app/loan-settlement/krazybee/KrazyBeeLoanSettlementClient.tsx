@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 
 export default function KrazyBeeLoanSettlementClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -237,6 +238,8 @@ export default function KrazyBeeLoanSettlementClient() {
                   <strong>KreditBee</strong> is the platform (app) you used. <strong>KrazyBee Services Pvt Ltd</strong> is the NBFC (Non-Banking Financial Company) that actually lent you the money. Your legal obligation and settlement agreement will be with KrazyBee.
                 </p>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="kreditbee-vs-krazybee" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Understanding the Lender: KreditBee vs KrazyBee</h2>
               <p className="text-gray-700 leading-relaxed mb-6">

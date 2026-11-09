@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import KisetsuLoanSettlementClient from './KisetsuLoanSettlementClient';
 import Link from 'next/link';
 
@@ -200,6 +201,7 @@ export default function KisetsuLoanSettlementPage() {
       </section>
 
       {/* Client Component content (Breadcrumb & Main Content) */}
+      <InteractiveLeadFunnel />
       <KisetsuLoanSettlementClient />
       
       <Footer />

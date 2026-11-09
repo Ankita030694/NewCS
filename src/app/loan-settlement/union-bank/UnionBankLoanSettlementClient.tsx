@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import AuthorBioBox from '@/components/AuthorBioBox';
 
 export default function UnionBankLoanSettlementClient() {
@@ -181,6 +182,8 @@ export default function UnionBankLoanSettlementClient() {
                   <p className="text-sm text-blue-900 font-medium"> <strong>Online vs. Offline OTS:</strong> Union Bank offers an "Online OTS" module. <em>Warning:</em> Offers generated there are digital and often higher (e.g. Asking for 80% of dues). Manual talks via the Regional Office often yields far better results (30-50% range). </p>
                 </div>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="rinn-samadhan" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Understanding 'Mission Rinn Samadhan' Dynamics</h2>
               <div className="text-gray-700 leading-relaxed mb-6">

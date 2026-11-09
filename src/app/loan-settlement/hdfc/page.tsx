@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import HDFCLoanSettlementClient from './HDFCLoanSettlementClient';
 import Link from 'next/link';
 
@@ -208,6 +209,7 @@ export default function HDFCLoanSettlementPage() {
       </section>
 
       {/* Client Component content (Breadcrumb & Main Content) */}
+      <InteractiveLeadFunnel />
       <HDFCLoanSettlementClient />
       
       <Footer />

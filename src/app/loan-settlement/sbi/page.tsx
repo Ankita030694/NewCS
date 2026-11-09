@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import SBILoanSettlementClient from '@/app/loan-settlement/sbi/SBILoanSettlementClient';
 import Link from 'next/link';
 
@@ -191,6 +192,7 @@ export default function SBILoanSettlementPage() {
       </section>
 
       {/* Client Component content (Breadcrumb & Main Content) */}
+      <InteractiveLeadFunnel />
       <SBILoanSettlementClient />
       
       <Footer />

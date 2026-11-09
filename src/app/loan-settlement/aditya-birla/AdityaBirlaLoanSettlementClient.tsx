@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 
 export default function AdityaBirlaLoanSettlementClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -185,6 +186,8 @@ export default function AdityaBirlaLoanSettlementClient() {
                   </p>
                 </div>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="arbitration-trap" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">The "Sole Arbitrator" Trap: Delhi & Mumbai Venues</h2>
               <div className="text-gray-700 leading-relaxed mb-6">

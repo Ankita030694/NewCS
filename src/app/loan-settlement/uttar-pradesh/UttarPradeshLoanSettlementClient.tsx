@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 
 export default function UttarPradeshLoanSettlementClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -229,6 +230,8 @@ export default function UttarPradeshLoanSettlementClient() {
                   The Uttar Pradesh Police have become increasingly strict about harassment by recovery agents. Using services like "Dial 112" or the "UPCOP" app gives you immediate access to police assistance if you are being threatened.
                 </p>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="up-moneylending-act" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Uttar Pradesh Regulation of Money Lending Act, 1976</h2>
               <p className="text-gray-700 leading-relaxed mb-6">

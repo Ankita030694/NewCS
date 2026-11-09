@@ -2,7 +2,9 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import Image from 'next/image';
+import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 
 export default function TamilNaduLoanSettlementClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -157,6 +159,8 @@ export default function TamilNaduLoanSettlementClient() {
         </div>
       </section>
 
+      <InteractiveLeadFunnel />
+
       {/* Breadcrumb Section */}
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-[1440px] mx-auto px-4 py-4">
@@ -260,6 +264,8 @@ export default function TamilNaduLoanSettlementClient() {
                   Tamil Nadu has historically strong laws against usury. The "Kandhu Vatti Act" is a unique legal shield that protects borrowers in the state from harassment and exorbitant interest demands, even from unregulated agents.
                 </p>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="kandhu-vatti-act" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">The Kandhu Vatti Act: Your Legal Shield</h2>
               <p className="text-gray-700 leading-relaxed mb-6">

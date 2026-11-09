@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import Image from 'next/image';
 
 export default function TelanganaLoanSettlementClient() {
@@ -199,6 +200,8 @@ export default function TelanganaLoanSettlementClient() {
                 <h3 className="font-bold text-blue-900 mb-2">Key Insight for clients in Telangana</h3>
                 <p className="text-blue-800 m-0"> The state has a strong legal aid network. The Telangana State Legal Services Authority (TSLSA) actively promotes amicable closures through Lok Adalats. Utilizing these forums is a highly effective way to resolve banking disputes swiftly and by law. Making sure a clear path to money claims. </p>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="legal-rights-telangana" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Your Legal Rights as a Borrower in Telangana</h2>
               <p className="text-gray-700 leading-relaxed mb-6"> Many clients in Telangana endure silence and stress because they remain unaware of their rights. You are protected by robust laws and RBI mandates designed to prevent exploitation and ensure fair treatment. </p>

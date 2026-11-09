@@ -2,6 +2,7 @@ import React from 'react';
 import { Metadata } from 'next';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import DmiFinanceLoanSettlementClient from './DmiFinanceLoanSettlementClient';
 
 export const metadata: Metadata = {
@@ -236,6 +237,8 @@ export default function DmiFinanceLoanSettlementPage() {
           </div>
         </div>
       </section>
+
+      <InteractiveLeadFunnel />
 
       <DmiFinanceLoanSettlementClient />
       

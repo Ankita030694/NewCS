@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import PiramalFinanceLoanSettlementClient from './PiramalFinanceLoanSettlementClient';
 import Link from 'next/link';
 
@@ -170,6 +171,7 @@ export default function PiramalFinanceLoanSettlementPage() {
       </section>
 
       {/* Client Component content */}
+      <InteractiveLeadFunnel />
       <PiramalFinanceLoanSettlementClient />
       
       <Footer />

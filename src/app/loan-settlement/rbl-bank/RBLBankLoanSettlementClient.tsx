@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import Image from 'next/image';
 
 export default function RBLBankLoanSettlementClient() {
@@ -246,6 +247,8 @@ export default function RBLBankLoanSettlementClient() {
                   </p>
                 </div>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="default-timeline" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">The Default Timeline: What to Expect</h2>
               <div className="text-gray-700 leading-relaxed mb-6">

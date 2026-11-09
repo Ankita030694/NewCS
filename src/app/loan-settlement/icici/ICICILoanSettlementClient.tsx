@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 
 export default function ICICILoanSettlementClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -227,6 +228,8 @@ export default function ICICILoanSettlementClient() {
               <p className="text-xl text-gray-500 mb-8 font-light">
                 Resolve your ICICI Bank Personal Loan and Credit Card defaults legally. Save up to 50% on outstanding dues with our RBI-compliant settlement process.
               </p>
+
+              <LoanSettlementWidget />
 
               <h2 id="overview" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Overview of ICICI Loan Settlement</h2>
               <p className="text-gray-700 leading-relaxed mb-6">

@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import AuthorBioBox from '@/components/AuthorBioBox';
 
 export default function SBILoanSettlementClient() {
@@ -241,6 +242,8 @@ export default function SBILoanSettlementClient() {
                   SBI has updated its "Rinn Samadhan" One Time Settlement scheme for 2026 under the latest RBI compromise guidelines, offering substantial waivers on penal interest and accumulated charges for eligible NPA accounts.
                 </p>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="rinn-samadhan" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">SBI Rinn Samadhan Scheme: The Golden Opportunity</h2>
               <p className="text-gray-700 leading-relaxed mb-6">

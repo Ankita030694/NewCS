@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import Script from 'next/script';
 
 export default function MinimumDebtAmountClient() {
@@ -217,6 +218,8 @@ export default function MinimumDebtAmountClient() {
                 </div>
                 <div className="absolute top-0 right-0 w-64 h-64 bg-white opacity-5 rounded-full -mr-32 -mt-32"></div>
             </section>
+
+      <InteractiveLeadFunnel />
 
             {/* Breadcrumb */}
             <div className="bg-gray-50 border-b border-gray-200">

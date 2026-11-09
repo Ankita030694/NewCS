@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 import Image from 'next/image';
 
 export default function WestBengalLoanSettlementClient() {
@@ -235,6 +236,8 @@ export default function WestBengalLoanSettlementClient() {
                   West Bengal offers borrowers a unique legal advantage not found in many other states: the <strong>Bengal Money-Lenders Act, 1940</strong>. This historical legislation is a powerful tool in the hands of a knowledgeable legal team, providing robust protection against predatory interest rates and harassment.
                 </p>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="bengal-money-lenders-act" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">The Bengal Money-Lenders Act, 1940: Your Legal Shield</h2>
               <p className="text-gray-700 leading-relaxed mb-6">

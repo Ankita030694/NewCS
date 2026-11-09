@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import Script from 'next/script';
 
 export default function CoBorrowerSettlementImpactClient() {
@@ -192,6 +193,8 @@ export default function CoBorrowerSettlementImpactClient() {
                     </div>
                 </div>
             </section>
+
+      <InteractiveLeadFunnel />
 
             {/* Breadcrumb Section */}
             <div className="bg-gray-50 border-b border-gray-200">

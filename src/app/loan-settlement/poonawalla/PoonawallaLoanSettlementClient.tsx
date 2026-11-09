@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 
 export default function PoonawallaLoanSettlementClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -248,6 +249,8 @@ export default function PoonawallaLoanSettlementClient() {
                   Loan settlement is a legitimate financial tool recognized by the RBI for resolving Non-Performing Assets (NPAs). It is not "running away" from your debt; it is a negotiated closure based on your current inability to pay the full amount.
                 </p>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="understanding-poonawalla" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">From Magma to Poonawalla: Know Your Lender</h2>
               <p className="text-gray-700 leading-relaxed mb-6">

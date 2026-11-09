@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 
 const navLinks = [
   { id: 'introduction', label: 'Introduction' },
@@ -172,6 +173,8 @@ export default function SMFGLoanSettlementClient() {
                   We bridge the gap between you and the lender. By handling all communication legally and professionally, we stop the harassment and negotiate the best possible settlement terms for you, allowing you to focus on rebuilding your life.
                 </p>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="understanding-ots" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Understanding SMFG India’s OTS Policy</h2>
               <p className="text-gray-700 leading-relaxed mb-6">

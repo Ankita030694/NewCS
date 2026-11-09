@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 
 export default function HaryanaLoanSettlementClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -199,6 +200,8 @@ export default function HaryanaLoanSettlementClient() {
                 <h3 className="font-bold text-blue-900 mb-2">Did You Know?</h3>
                 <p className="text-blue-800 m-0"> Haryana has specialized police initiatives. Especially in Gurugram and Faridabad. To tackle threats by agents. The "Dial 112" emergency response system is highly effective in curbing unlawful claims tactics at your doorstep. </p>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="money-lenders-act-haryana" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">Legal Protection: The Money Lenders Act</h2>
               <p className="text-gray-700 leading-relaxed mb-6"> While central banking laws apply. Haryana also follows the <strong>Punjab rule of Money Lenders Act. 1938</strong> (as applicable to the state of Haryana). This act is a crucial line of defense against unregulated private financiers who often operate in the grey market. </p>

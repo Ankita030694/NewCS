@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import LoanSettlementWidget from '@/components/tools/LoanSettlementWidget';
 
 export default function BajajFinservLoanSettlementClient() {
   const [activeId, setActiveId] = useState<string>('');
@@ -242,6 +243,8 @@ export default function BajajFinservLoanSettlementClient() {
                   Loan settlement is a financial lifeline, not a crime. If your intention to repay is genuine but your capability is currently compromised by valid hardships, Bajaj Finserv may agree to settle your outstanding dues for as low as 50% of the total liability, helping you avoid long-term legal complications.
                 </p>
               </div>
+
+              <LoanSettlementWidget />
 
               <h2 id="what-is-settlement" className="text-3xl font-bold text-gray-900 mb-6 scroll-mt-28">What is Bajaj Finserv Loan Settlement?</h2>
               <div className="text-gray-700 leading-relaxed mb-6">

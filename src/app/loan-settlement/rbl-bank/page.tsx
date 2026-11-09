@@ -5,6 +5,7 @@ import Script from 'next/script';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 
 export const metadata: Metadata = {
   title: 'RBL Bank Loan Settlement Process 2026: OTS & NOC Guide',
@@ -176,6 +177,8 @@ export default function RBLBankLoanSettlementPage() {
           </div>
         </div>
       </section>
+
+      <InteractiveLeadFunnel />
 
       <RBLBankLoanSettlementClient />
       <Footer />

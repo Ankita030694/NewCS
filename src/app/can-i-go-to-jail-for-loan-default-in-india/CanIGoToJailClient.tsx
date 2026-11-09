@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
 import Script from 'next/script';
 
 export default function CanIGoToJailClient() {
@@ -270,6 +271,8 @@ export default function CanIGoToJailClient() {
                     </div>
                 </div>
             </section>
+
+      <InteractiveLeadFunnel />
 
             {/* Breadcrumb Section */}
             <div className="bg-white border-b border-gray-200">
