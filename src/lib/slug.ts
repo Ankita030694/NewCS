@@ -54,7 +54,12 @@ const normalisePathSegment = (segment: string): string => {
     value = value.slice('resources/'.length);
   }
 
-  return decodeURIComponent(value);
+  // Titles and slugs can contain a bare '%' (e.g. "50% off"), which decodeURIComponent rejects.
+  try {
+    return decodeURIComponent(value);
+  } catch {
+    return value;
+  }
 };
 
 const slugify = (value: string): string => {

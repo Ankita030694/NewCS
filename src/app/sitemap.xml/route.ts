@@ -56,8 +56,8 @@ import banksData from '@/app/loan-settlement-by-bank/banks.json';
 import { db } from '@/lib/firebase';
 import { collection, getDocs } from 'firebase/firestore';
 
-export const dynamic = 'force-dynamic';
-export const revalidate = 0;
+// Firestore-backed (blogs are edited in the CRM): served from cache, refreshed at most every 5 minutes.
+export const revalidate = 300;
 
 function getBankCanonicalSlug(company: string): string {
   return company.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
@@ -296,8 +296,7 @@ async function getAllBlogSlugs(): Promise<string[]> {
     return [...new Set(slugs)];
   } catch (error) {
     console.error('Error fetching blog slugs from Firebase:', error);
-    // Return empty array on error - sitemap will still work but won’t include blog pages
-    return [];
+    throw error;
   }
 }
 
@@ -4498,7 +4497,8 @@ async function generateSitemap(): Promise<string> {
     }
   } catch (error) {
     console.error('Error fetching blog slugs for sitemap:', error);
-    // Continue without blog pages if there’s an error
+    // Throw rather than return nothing: a failed refresh then keeps serving the last good cached page.
+    throw error;
   }
 
   // Government-Backed Debt Relief Programs in India page

@@ -9,8 +9,13 @@ type PageProps = {
   params: Promise<{ slug: string }>;
 };
 
-export const dynamic = 'force-dynamic';
-export const revalidate = 0;
+// Firestore-backed (blogs are edited in the CRM): served from cache, refreshed at most every 5 minutes.
+export const revalidate = 300;
+
+// No articles are prebuilt; each one is rendered on its first request and then served from cache.
+export async function generateStaticParams() {
+  return [];
+}
 
 const stripHtml = (value: string): string =>
   value.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();

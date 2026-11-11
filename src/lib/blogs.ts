@@ -325,6 +325,8 @@ export async function getBlogBySlug(slug: string): Promise<BlogDocument | null> 
       }
     } catch (e) {
       console.error('Direct fetch fallback failed:', e);
+      // Throw rather than report "not found": a cached 404 would hide a real article.
+      throw e;
     }
   }
 
