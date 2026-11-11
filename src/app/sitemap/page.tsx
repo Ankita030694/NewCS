@@ -14,6 +14,34 @@ export const metadata: Metadata = {
 
 const sitemapLinks = [
   {
+    title: "ICICI Credit Card Blocked Due to Non-Payment Guide",
+    href: "/icici-credit-card-blocked-due-to-non-payment",
+  },
+  {
+    title: "Credit Card Bill Too High After Festive Sales: Action Plan",
+    href: "/credit-card-bill-after-festive-season-cannot-pay",
+  },
+  {
+    title: "Credit Card EMI Conversion Default & Settlement Guide",
+    href: "/credit-card-emi-conversion-default-settlement",
+  },
+  {
+    title: "Add-On Credit Card Default in India: Who Is Liable?",
+    href: "/add-on-credit-card-default-who-is-liable",
+  },
+  {
+    title: "Credit Card Over-Limit & Late Fees Before Settlement",
+    href: "/credit-card-over-limit-and-late-fee-before-settlement",
+  },
+  {
+    title: "Official SBI Credit Card Settlement Email ID & Helpline",
+    href: "/sbi-credit-card-settlement-email-id-and-number",
+  },
+  {
+    title: "RBL Credit Card Settlement Letter Format & Verification",
+    href: "/rbl-credit-card-settlement-letter-format",
+  },
+  {
     title: "Credit Card Minimum Due & Settlement Calculator",
     href: "/tools/credit-card-minimum-due-calculator",
   },
