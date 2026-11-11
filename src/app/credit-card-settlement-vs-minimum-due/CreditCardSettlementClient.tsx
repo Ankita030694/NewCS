@@ -386,6 +386,11 @@ export default function CreditCardSettlementClient() {
                                     <Link href="/best-lawyer-for-drt-case-defence-for-bank-loan-recovery" className="block text-sm text-blue-600 hover:underline">DRT Specialization</Link>
                                     <Link href="/best-lawyer-for-loan-settlement-during-drt" className="block text-sm text-blue-600 hover:underline">Settlement Strategies</Link>
                                     <Link href="/best-lawyer-for-msme-loan-recovery-defence" className="block text-sm text-blue-600 hover:underline">MSME Loan Defence</Link>
+                                    <Link href="/credit-card-bill-after-festive-season-cannot-pay" className="block text-sm text-blue-600 hover:underline">Festive Credit Card Bill Relief</Link>
+                                    <Link href="/credit-card-emi-conversion-default-settlement" className="block text-sm text-blue-600 hover:underline">Card EMI Conversion Default OTS</Link>
+                                    <Link href="/add-on-credit-card-default-who-is-liable" className="block text-sm text-blue-600 hover:underline">Add-On Card Default Liability</Link>
+                                    <Link href="/credit-card-over-limit-and-late-fee-before-settlement" className="block text-sm text-blue-600 hover:underline">Over-Limit &amp; Late Fees Guide</Link>
+                                    <Link href="/rbl-credit-card-settlement-letter-format" className="block text-sm text-blue-600 hover:underline">RBL Card Settlement Letter Format</Link>
                                 </nav>
                             </div>
                         </div>

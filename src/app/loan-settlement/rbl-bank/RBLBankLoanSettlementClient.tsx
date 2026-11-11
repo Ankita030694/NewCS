@@ -448,6 +448,24 @@ export default function RBLBankLoanSettlementClient() {
                       Kotak Bank
                     </Link>
                   </li>
+                  <li>
+                    <Link href="/rbl-credit-card-settlement-letter-format" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-blue-500 rounded-full mr-2"></span>
+                      RBL Card Settlement Letter Format
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/icici-credit-card-blocked-due-to-non-payment" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-blue-500 rounded-full mr-2"></span>
+                      ICICI Card Blocked for Non-Payment
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/sbi-credit-card-settlement-email-id-and-number" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-blue-500 rounded-full mr-2"></span>
+                      SBI Card Settlement Email &amp; Helpline
+                    </Link>
+                  </li>
                 </ul>
               </div>
 

@@ -884,6 +884,41 @@ export default function CreditCardSettlementProcessClient() {
                   <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Convert Settled Card Status to Closed. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Step-by-step Section 21 CICRA roadmap &rarr;.</span>
                 </Link>
+
+                <Link href="/icici-credit-card-blocked-due-to-non-payment" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> ICICI Credit Card Blocked Due to Non-Payment. </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">iMobile Pay block rules &amp; OTS options &rarr;.</span>
+                </Link>
+
+                <Link href="/credit-card-bill-after-festive-season-cannot-pay" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Cannot Pay Festive Season Credit Card Bill. </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Post-festive card bill relief roadmap &rarr;.</span>
+                </Link>
+
+                <Link href="/credit-card-emi-conversion-default-settlement" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Credit Card EMI Conversion Default &amp; OTS. </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">How unbilled merchant EMIs settle at 90 DPD &rarr;.</span>
+                </Link>
+
+                <Link href="/add-on-credit-card-default-who-is-liable" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Add-On Credit Card Default: Who Is Liable? </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Primary vs supplementary cardholder rules &rarr;.</span>
+                </Link>
+
+                <Link href="/credit-card-over-limit-and-late-fee-before-settlement" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Credit Card Over-Limit &amp; Late Fees Before OTS. </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">RBI fee consent rules &amp; penalty waivers &rarr;.</span>
+                </Link>
+
+                <Link href="/sbi-credit-card-settlement-email-id-and-number" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Official SBI Card Settlement Email &amp; Helpline. </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Verified SBICPSL OTS escalation channels &rarr;.</span>
+                </Link>
+
+                <Link href="/rbl-credit-card-settlement-letter-format" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> RBL Credit Card Settlement Letter Format. </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Mandatory OTS clauses &amp; verification steps &rarr;.</span>
+                </Link>
               </div>
             </div>
 

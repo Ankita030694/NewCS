@@ -391,6 +391,18 @@ export default function IciciCreditCardSettlementClient() {
                 <p className="text-sm text-gray-500 mb-4">Senior Legal counsel & money Strategist.</p>
                 <p className="text-xs text-gray-400 ">Expert in dealing with banking rules. Agents threats. complex debt restructuring matters.</p>
               </div>
+              <div className="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 space-y-2.5 text-xs">
+                <p className="font-bold text-gray-900 text-sm border-b border-gray-100 pb-2">Related ICICI Card Guides</p>
+                <Link href="/icici-credit-card-blocked-due-to-non-payment" className="block text-blue-600 hover:underline font-medium">
+                  ICICI Credit Card Blocked Due to Non-Payment
+                </Link>
+                <Link href="/credit-card-emi-conversion-default-settlement" className="block text-blue-600 hover:underline font-medium">
+                  Credit Card EMI Conversion Default &amp; OTS
+                </Link>
+                <Link href="/credit-card-over-limit-and-late-fee-before-settlement" className="block text-blue-600 hover:underline font-medium">
+                  Card Over-Limit &amp; Late Fees Before OTS
+                </Link>
+              </div>
 
             </div>
           </aside>

@@ -874,6 +874,62 @@ export default function CreditCardNpaTimelineClient() {
                   <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Stop Credit Card agents threats </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">RBI anti-harassment safeguards &rarr;</span>
                 </Link>
+
+                <Link
+                  href="/icici-credit-card-blocked-due-to-non-payment"
+                  className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
+                >
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> ICICI Credit Card Blocked for Non-Payment </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">DPD block stages &amp; reactivation &rarr;</span>
+                </Link>
+
+                <Link
+                  href="/credit-card-bill-after-festive-season-cannot-pay"
+                  className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
+                >
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Cannot Pay Festive Credit Card Bill </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Action plan before 90-day NPA &rarr;</span>
+                </Link>
+
+                <Link
+                  href="/credit-card-emi-conversion-default-settlement"
+                  className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
+                >
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Credit Card EMI Conversion Default </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Auto-foreclosure &amp; OTS rules &rarr;</span>
+                </Link>
+
+                <Link
+                  href="/add-on-credit-card-default-who-is-liable"
+                  className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
+                >
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Add-On Credit Card Default Liability </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Who pays &amp; whose CIBIL drops &rarr;</span>
+                </Link>
+
+                <Link
+                  href="/credit-card-over-limit-and-late-fee-before-settlement"
+                  className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
+                >
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Over-Limit &amp; Late Fees Before Settlement </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Fee stacking across SMA-0 to NPA &rarr;</span>
+                </Link>
+
+                <Link
+                  href="/sbi-credit-card-settlement-email-id-and-number"
+                  className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
+                >
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> SBI Credit Card Settlement Email &amp; Number </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Official SBICPSL OTS contacts &rarr;</span>
+                </Link>
+
+                <Link
+                  href="/rbl-credit-card-settlement-letter-format"
+                  className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
+                >
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> RBL Credit Card Settlement Letter Format </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Sanction letter clauses &amp; NOC check &rarr;</span>
+                </Link>
               </div>
             </div>
 

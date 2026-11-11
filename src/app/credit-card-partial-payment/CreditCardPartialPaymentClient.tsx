@@ -486,6 +486,11 @@ export default function CreditCardPartialPaymentClient() {
                                     <Link href="/credit-card-legal-notice-process-next-steps" className="block text-sm text-blue-600 hover:underline">Legal Notice Defense</Link>
                                     <Link href="/best-lawyer-for-bank-loan-recovery-defence" className="block text-sm text-blue-600 hover:underline">Bank Recovery Shield</Link>
                                     <Link href="/best-lawyer-for-personal-loans" className="block text-sm text-blue-600 hover:underline">Personal Loan Relief</Link>
+                                    <Link href="/credit-card-bill-after-festive-season-cannot-pay" className="block text-sm text-blue-600 hover:underline">Cannot Pay Festive Card Bill</Link>
+                                    <Link href="/credit-card-emi-conversion-default-settlement" className="block text-sm text-blue-600 hover:underline">Card EMI Conversion Default</Link>
+                                    <Link href="/add-on-credit-card-default-who-is-liable" className="block text-sm text-blue-600 hover:underline">Add-On Card Default Liability</Link>
+                                    <Link href="/credit-card-over-limit-and-late-fee-before-settlement" className="block text-sm text-blue-600 hover:underline">Over-Limit &amp; Late Fees Before OTS</Link>
+                                    <Link href="/sbi-credit-card-settlement-email-id-and-number" className="block text-sm text-blue-600 hover:underline">SBI Card Settlement Contacts</Link>
                                 </nav>
                             </div>
 
