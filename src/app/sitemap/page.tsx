@@ -14,6 +14,26 @@ export const metadata: Metadata = {
 
 const sitemapLinks = [
   {
+    title: "Credit Card Minimum Due & Settlement Calculator",
+    href: "/tools/credit-card-minimum-due-calculator",
+  },
+  {
+    title: "Multiple Credit Card Payoff vs Settlement Planner",
+    href: "/tools/multiple-credit-card-payoff-vs-settlement-calculator",
+  },
+  {
+    title: "Credit Card Blocked Due to Non-Payment: Next Steps",
+    href: "/credit-card-blocked-due-to-non-payment",
+  },
+  {
+    title: "HDFC Credit Card Blocked Due to Non-Payment Guide",
+    href: "/hdfc-credit-card-blocked-due-to-non-payment",
+  },
+  {
+    title: "SBI Credit Card Blocked Due to Non-Payment Guide",
+    href: "/sbi-credit-card-blocked-due-to-non-payment",
+  },
+  {
     title: "Financial Calculators & Debt Settlement Tools Hub",
     href: "/tools",
   },

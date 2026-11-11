@@ -7,6 +7,31 @@ export interface SitemapLink {
 // Auto-generated hardcoded query-based pages sorted in descending order of git creation date (latest first)
 export const sitemapLinks: SitemapLink[] = [
   {
+    title: "Credit Card Minimum Due & Settlement Calculator",
+    href: "/tools/credit-card-minimum-due-calculator",
+    date: "11-11-2026",
+  },
+  {
+    title: "Multiple Credit Card Payoff vs Settlement Planner",
+    href: "/tools/multiple-credit-card-payoff-vs-settlement-calculator",
+    date: "11-11-2026",
+  },
+  {
+    title: "Credit Card Blocked Due to Non-Payment: Next Steps",
+    href: "/credit-card-blocked-due-to-non-payment",
+    date: "11-11-2026",
+  },
+  {
+    title: "HDFC Credit Card Blocked Due to Non-Payment Guide",
+    href: "/hdfc-credit-card-blocked-due-to-non-payment",
+    date: "11-11-2026",
+  },
+  {
+    title: "SBI Credit Card Blocked Due to Non-Payment Guide",
+    href: "/sbi-credit-card-blocked-due-to-non-payment",
+    date: "11-11-2026",
+  },
+  {
     title: "Financial Calculators & Debt Settlement Tools Hub",
     href: "/tools",
     date: "19-10-2026",
