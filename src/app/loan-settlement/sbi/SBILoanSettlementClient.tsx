@@ -505,6 +505,12 @@ export default function SBILoanSettlementClient() {
                       SBI Card Blocked for Non-Payment
                     </Link>
                   </li>
+                  <li>
+                    <Link href="/sbi-ots-scheme-2027" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span>
+                      SBI OTS Scheme 2027 Tracker
+                    </Link>
+                  </li>
                 </ul>
               </div>
 

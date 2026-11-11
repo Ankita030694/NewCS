@@ -743,6 +743,20 @@ export default function RbiCircularOnLoanSettlementOtsClient() {
               </ul>
             </div>
 
+            {/* PSU Bank OTS 2027 Trackers */}
+            <div className="bg-white rounded-3xl border border-slate-200/80 p-5 space-y-2.5 text-xs shadow-xs">
+              <p className="font-bold text-slate-900 uppercase tracking-wider text-[11px]">PSU Bank OTS 2027 Trackers</p>
+              <div className="space-y-2">
+                <Link href="/sbi-ots-scheme-2027" className="block text-slate-700 hover:text-[#1886ff] font-semibold">SBI OTS Scheme 2027 &amp; Rinn Samadhan &rarr;</Link>
+                <Link href="/union-bank-ots-scheme-2027" className="block text-slate-700 hover:text-[#1886ff] font-semibold">Union Bank OTS Scheme 2027 Tracker &rarr;</Link>
+                <Link href="/union-npa-samadhan-scheme-2027" className="block text-slate-700 hover:text-[#1886ff] font-semibold">Union NPA Samadhan Scheme 2027 &rarr;</Link>
+                <Link href="/bank-of-baroda-ots-scheme-2027" className="block text-slate-700 hover:text-[#1886ff] font-semibold">Bank of Baroda OTS Scheme 2027 &rarr;</Link>
+                <Link href="/pnb-ots-scheme-2027" className="block text-slate-700 hover:text-[#1886ff] font-semibold">PNB OTS Scheme 2027 &amp; e-OTS Guide &rarr;</Link>
+                <Link href="/canara-bank-ots-scheme-2027" className="block text-slate-700 hover:text-[#1886ff] font-semibold">Canara Bank OTS Scheme 2027 Tracker &rarr;</Link>
+                <Link href="/indian-bank-ots-scheme-2027" className="block text-slate-700 hover:text-[#1886ff] font-semibold">Indian Bank OTS Scheme 2027 Guide &rarr;</Link>
+              </div>
+            </div>
+
           </aside>
 
         </div>

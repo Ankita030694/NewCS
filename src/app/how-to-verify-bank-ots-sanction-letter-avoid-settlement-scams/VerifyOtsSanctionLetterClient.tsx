@@ -1176,6 +1176,35 @@ export default function VerifyOtsSanctionLetterClient() {
                   </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Ensure formal bank debt closure &rarr;</span>
                 </Link>
+
+                <Link href="/sbi-ots-scheme-2027" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">SBI OTS Scheme 2027 &amp; Rinn Samadhan</p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Verify SARB OTS sanction letters &rarr;</span>
+                </Link>
+                <Link href="/union-bank-ots-scheme-2027" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">Union Bank OTS Scheme 2027 Tracker</p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Online OTS portal verification &rarr;</span>
+                </Link>
+                <Link href="/union-npa-samadhan-scheme-2027" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">Union NPA Samadhan Scheme 2027</p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Slab rules &amp; sanction checks &rarr;</span>
+                </Link>
+                <Link href="/bank-of-baroda-ots-scheme-2027" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">Bank of Baroda OTS Scheme 2027</p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">BoB e-OTS sanction check &rarr;</span>
+                </Link>
+                <Link href="/pnb-ots-scheme-2027" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">PNB OTS Scheme 2027 Guide</p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">SASTRA &amp; PNB e-OTS rules &rarr;</span>
+                </Link>
+                <Link href="/canara-bank-ots-scheme-2027" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">Canara Bank OTS Scheme 2027</p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">e-OTS status &amp; NOC steps &rarr;</span>
+                </Link>
+                <Link href="/indian-bank-ots-scheme-2027" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">Indian Bank OTS Scheme 2027</p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Digital e-OTS sanction verification &rarr;</span>
+                </Link>
               </div>
             </div>
 

@@ -489,6 +489,30 @@ export default function BankOfBarodaLoanSettlementClient() {
                       Hero Fincorp
                     </Link>
                   </li>
+                  <li>
+                    <Link href="/bank-of-baroda-ots-scheme-2027" className="text-gray-600 hover:text-blue-600 flex items-center transition-colors">
+                      <span className="w-1.5 h-1.5 bg-blue-500 rounded-full mr-2"></span>
+                      Bank of Baroda OTS 2027
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/pnb-ots-scheme-2027" className="text-gray-600 hover:text-blue-600 flex items-center transition-colors">
+                      <span className="w-1.5 h-1.5 bg-blue-500 rounded-full mr-2"></span>
+                      PNB OTS Scheme 2027
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/canara-bank-ots-scheme-2027" className="text-gray-600 hover:text-blue-600 flex items-center transition-colors">
+                      <span className="w-1.5 h-1.5 bg-blue-500 rounded-full mr-2"></span>
+                      Canara Bank OTS 2027
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/indian-bank-ots-scheme-2027" className="text-gray-600 hover:text-blue-600 flex items-center transition-colors">
+                      <span className="w-1.5 h-1.5 bg-blue-500 rounded-full mr-2"></span>
+                      Indian Bank OTS 2027
+                    </Link>
+                  </li>
                 </ul>
               </div>
 

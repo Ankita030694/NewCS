@@ -793,6 +793,18 @@ export default function SbiPersonalLoanSettlementProcessClient() {
                 <Link href="/improve-cibil-after-loan-settlement" className="block text-slate-700 hover:text-[#1886ff] font-medium transition-colors">
                   Rebuild CIBIL Score After Settlement &rarr;
                 </Link>
+                <Link href="/sbi-ots-scheme-2027" className="block text-slate-700 hover:text-[#1886ff] font-medium transition-colors">
+                  SBI OTS Scheme 2027 &amp; Rinn Samadhan &rarr;
+                </Link>
+                <Link href="/pnb-ots-scheme-2027" className="block text-slate-700 hover:text-[#1886ff] font-medium transition-colors">
+                  PNB OTS Scheme 2027 Tracker &rarr;
+                </Link>
+                <Link href="/canara-bank-ots-scheme-2027" className="block text-slate-700 hover:text-[#1886ff] font-medium transition-colors">
+                  Canara Bank OTS Scheme 2027 &rarr;
+                </Link>
+                <Link href="/indian-bank-ots-scheme-2027" className="block text-slate-700 hover:text-[#1886ff] font-medium transition-colors">
+                  Indian Bank OTS Scheme 2027 &rarr;
+                </Link>
               </div>
             </div>
           </aside>

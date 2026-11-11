@@ -305,6 +305,16 @@ export default function FullFormOfOtsClient() {
                 <p className="text-sm text-gray-500 mb-4">Senior money Analyst & Debt Strategist</p>
                 <p className="text-xs text-gray-400">Specializing in legal debt relief. Credit rehabilitation. consumer safety against unfair banking practices.</p>
               </div>
+              <div className="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 space-y-2 text-xs">
+                <p className="font-bold text-gray-900 text-sm border-b border-gray-100 pb-2">PSU Bank OTS 2027 Guides</p>
+                <Link href="/sbi-ots-scheme-2027" className="block text-blue-600 hover:underline font-medium">SBI OTS Scheme 2027 Tracker</Link>
+                <Link href="/union-bank-ots-scheme-2027" className="block text-blue-600 hover:underline font-medium">Union Bank OTS Scheme 2027</Link>
+                <Link href="/union-npa-samadhan-scheme-2027" className="block text-blue-600 hover:underline font-medium">Union NPA Samadhan 2027</Link>
+                <Link href="/bank-of-baroda-ots-scheme-2027" className="block text-blue-600 hover:underline font-medium">Bank of Baroda OTS 2027</Link>
+                <Link href="/pnb-ots-scheme-2027" className="block text-blue-600 hover:underline font-medium">PNB OTS Scheme 2027 Guide</Link>
+                <Link href="/canara-bank-ots-scheme-2027" className="block text-blue-600 hover:underline font-medium">Canara Bank OTS Scheme 2027</Link>
+                <Link href="/indian-bank-ots-scheme-2027" className="block text-blue-600 hover:underline font-medium">Indian Bank OTS Scheme 2027</Link>
+              </div>
 
             </div>
           </aside>

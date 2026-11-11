@@ -334,6 +334,9 @@ export default function UnionBankLoanSettlementClient() {
                   <li> <Link href="/loan-settlement/sbi" className="text-gray-600 hover:text-blue-600 flex items-center"> <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-2"></span> SBI closure </Link> </li>
                   <li> <Link href="/loan-settlement/bank-of-baroda" className="text-gray-600 hover:text-blue-600 flex items-center"> <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-2"></span> Bank of Baroda </Link> </li>
                    <li> <Link href="/loan-settlement/axis-bank" className="text-gray-600 hover:text-blue-600 flex items-center"> <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-2"></span> Axis Bank </Link> </li>
+                  <li> <Link href="/union-bank-ots-scheme-2027" className="text-gray-600 hover:text-blue-600 flex items-center"> <span className="w-1.5 h-1.5 bg-blue-500 rounded-full mr-2"></span> Union Bank OTS 2027 </Link> </li>
+                  <li> <Link href="/union-npa-samadhan-scheme-2027" className="text-gray-600 hover:text-blue-600 flex items-center"> <span className="w-1.5 h-1.5 bg-blue-500 rounded-full mr-2"></span> Union NPA Samadhan 2027 </Link> </li>
+                  <li> <Link href="/sbi-ots-scheme-2027" className="text-gray-600 hover:text-blue-600 flex items-center"> <span className="w-1.5 h-1.5 bg-blue-500 rounded-full mr-2"></span> SBI OTS Scheme 2027 </Link> </li>
                 </ul>
               </div>
 
