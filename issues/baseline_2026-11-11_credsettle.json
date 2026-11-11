@@ -1,0 +1,1752 @@
+{
+  "note": "Read-only 90-day and 28-day GSC baseline for CredSettle before Wave 1-3 Lead Differentiation lane rollout (existing pages frozen; only new lane pages + inbound internal links + sitemap entries added).",
+  "capturedAt": "2026-11-11T06:35:32.438Z",
+  "property": "sc-domain:credsettle.com",
+  "window90d": {
+    "start": "2026-08-11",
+    "end": "2026-11-08",
+    "clicks": 6908,
+    "impressions": 419167,
+    "ctrPct": 1.65,
+    "avgPosition": 12.2
+  },
+  "window28d": {
+    "start": "2026-10-12",
+    "end": "2026-11-08",
+    "clicks": 2070,
+    "impressions": 131480,
+    "ctrPct": 1.57,
+    "avgPosition": 10.5
+  },
+  "topPages90d": [
+    {
+      "url": "https://www.credsettle.com/",
+      "path": "/",
+      "clicks": 405,
+      "impressions": 9968,
+      "ctrPct": 4.06,
+      "position": 19.9
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/mpokket",
+      "path": "/loan-settlement-by-bank/mpokket",
+      "clicks": 366,
+      "impressions": 28463,
+      "ctrPct": 1.29,
+      "position": 6.3
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement/sbi",
+      "path": "/loan-settlement/sbi",
+      "clicks": 274,
+      "impressions": 9304,
+      "ctrPct": 2.94,
+      "position": 5.8
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement/union-bank",
+      "path": "/loan-settlement/union-bank",
+      "clicks": 157,
+      "impressions": 3964,
+      "ctrPct": 3.96,
+      "position": 6
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/rupee-112",
+      "path": "/loan-settlement-by-bank/rupee-112",
+      "clicks": 153,
+      "impressions": 5984,
+      "ctrPct": 2.56,
+      "position": 6.2
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/snapmint",
+      "path": "/loan-settlement-by-bank/snapmint",
+      "clicks": 142,
+      "impressions": 16239,
+      "ctrPct": 0.87,
+      "position": 6.2
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement/bank-of-baroda",
+      "path": "/loan-settlement/bank-of-baroda",
+      "clicks": 135,
+      "impressions": 2660,
+      "ctrPct": 5.08,
+      "position": 4.4
+    },
+    {
+      "url": "https://www.credsettle.com/mudra-loan-settlement-legal-help",
+      "path": "/mudra-loan-settlement-legal-help",
+      "clicks": 121,
+      "impressions": 5580,
+      "ctrPct": 2.17,
+      "position": 4.6
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement/piramal-finance",
+      "path": "/loan-settlement/piramal-finance",
+      "clicks": 106,
+      "impressions": 3301,
+      "ctrPct": 3.21,
+      "position": 5.4
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/kreditbee",
+      "path": "/loan-settlement-by-bank/kreditbee",
+      "clicks": 99,
+      "impressions": 10554,
+      "ctrPct": 0.94,
+      "position": 6.1
+    },
+    {
+      "url": "https://www.credsettle.com/resources/loan-settlement-letter",
+      "path": "/resources/loan-settlement-letter",
+      "clicks": 94,
+      "impressions": 7254,
+      "ctrPct": 1.3,
+      "position": 11.4
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/ram-fincorp",
+      "path": "/loan-settlement-by-bank/ram-fincorp",
+      "clicks": 87,
+      "impressions": 5828,
+      "ctrPct": 1.49,
+      "position": 6.5
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement/hdfc",
+      "path": "/loan-settlement/hdfc",
+      "clicks": 79,
+      "impressions": 4524,
+      "ctrPct": 1.75,
+      "position": 7.5
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/cholamandalam",
+      "path": "/loan-settlement-by-bank/cholamandalam",
+      "clicks": 74,
+      "impressions": 3232,
+      "ctrPct": 2.29,
+      "position": 5.4
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/rupee-redee",
+      "path": "/loan-settlement-by-bank/rupee-redee",
+      "clicks": 70,
+      "impressions": 4932,
+      "ctrPct": 1.42,
+      "position": 6.6
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/navi",
+      "path": "/loan-settlement-by-bank/navi",
+      "clicks": 68,
+      "impressions": 3974,
+      "ctrPct": 1.71,
+      "position": 6.6
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/slice",
+      "path": "/loan-settlement-by-bank/slice",
+      "clicks": 67,
+      "impressions": 4005,
+      "ctrPct": 1.67,
+      "position": 5.7
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement/indusind",
+      "path": "/loan-settlement/indusind",
+      "clicks": 59,
+      "impressions": 2274,
+      "ctrPct": 2.59,
+      "position": 6.2
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/bandhan-bank",
+      "path": "/loan-settlement-by-bank/bandhan-bank",
+      "clicks": 57,
+      "impressions": 2504,
+      "ctrPct": 2.28,
+      "position": 5.6
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement/stashfin",
+      "path": "/loan-settlement/stashfin",
+      "clicks": 55,
+      "impressions": 1747,
+      "ctrPct": 3.15,
+      "position": 5.9
+    },
+    {
+      "url": "https://www.credsettle.com/services/nbfc-loan-settlement/banks/navi",
+      "path": "/services/nbfc-loan-settlement/banks/navi",
+      "clicks": 53,
+      "impressions": 1663,
+      "ctrPct": 3.19,
+      "position": 7.2
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement/poonawalla",
+      "path": "/loan-settlement/poonawalla",
+      "clicks": 52,
+      "impressions": 3587,
+      "ctrPct": 1.45,
+      "position": 7.1
+    },
+    {
+      "url": "https://credsettle.com/loan-settlement/axis-bank",
+      "path": "/loan-settlement/axis-bank",
+      "clicks": 51,
+      "impressions": 3025,
+      "ctrPct": 1.69,
+      "position": 8
+    },
+    {
+      "url": "https://www.credsettle.com/how-to-settle-7-days-loan-app",
+      "path": "/how-to-settle-7-days-loan-app",
+      "clicks": 50,
+      "impressions": 2577,
+      "ctrPct": 1.94,
+      "position": 8.3
+    },
+    {
+      "url": "https://www.credsettle.com/services/credit-card-settlement/banks/bank-of-baroda",
+      "path": "/services/credit-card-settlement/banks/bank-of-baroda",
+      "clicks": 50,
+      "impressions": 788,
+      "ctrPct": 6.35,
+      "position": 3.7
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/idfc",
+      "path": "/loan-settlement-by-bank/idfc",
+      "clicks": 49,
+      "impressions": 3887,
+      "ctrPct": 1.26,
+      "position": 7.4
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/stashfin",
+      "path": "/loan-settlement-by-bank/stashfin",
+      "clicks": 49,
+      "impressions": 1712,
+      "ctrPct": 2.86,
+      "position": 6.5
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/incred",
+      "path": "/loan-settlement-by-bank/incred",
+      "clicks": 48,
+      "impressions": 1660,
+      "ctrPct": 2.89,
+      "position": 8.4
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement/dmi-finance",
+      "path": "/loan-settlement/dmi-finance",
+      "clicks": 48,
+      "impressions": 1719,
+      "ctrPct": 2.79,
+      "position": 6.6
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/bharat-loan",
+      "path": "/loan-settlement-by-bank/bharat-loan",
+      "clicks": 47,
+      "impressions": 1760,
+      "ctrPct": 2.67,
+      "position": 8.4
+    },
+    {
+      "url": "https://credsettle.com/",
+      "path": "/",
+      "clicks": 46,
+      "impressions": 611,
+      "ctrPct": 7.53,
+      "position": 2.8
+    },
+    {
+      "url": "https://www.credsettle.com/top-10-instant-loan-apps-revolutionizing-access-to-credit-in-india",
+      "path": "/top-10-instant-loan-apps-revolutionizing-access-to-credit-in-india",
+      "clicks": 46,
+      "impressions": 2383,
+      "ctrPct": 1.93,
+      "position": 24
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement/yes-bank",
+      "path": "/loan-settlement/yes-bank",
+      "clicks": 42,
+      "impressions": 1808,
+      "ctrPct": 2.32,
+      "position": 8
+    },
+    {
+      "url": "https://www.credsettle.com/services/credit-card-settlement/banks/icici",
+      "path": "/services/credit-card-settlement/banks/icici",
+      "clicks": 40,
+      "impressions": 1831,
+      "ctrPct": 2.18,
+      "position": 7.4
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/l-t-finance",
+      "path": "/loan-settlement-by-bank/l-t-finance",
+      "clicks": 38,
+      "impressions": 3048,
+      "ctrPct": 1.25,
+      "position": 7
+    },
+    {
+      "url": "https://www.credsettle.com/services/personal-loan-settlement/banks/rupee-112",
+      "path": "/services/personal-loan-settlement/banks/rupee-112",
+      "clicks": 38,
+      "impressions": 956,
+      "ctrPct": 3.97,
+      "position": 7.9
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/shriram-finance",
+      "path": "/loan-settlement-by-bank/shriram-finance",
+      "clicks": 37,
+      "impressions": 2187,
+      "ctrPct": 1.69,
+      "position": 6.5
+    },
+    {
+      "url": "https://www.credsettle.com/loan-recovery-after-death-of-borrower-legal-heir-rights-india",
+      "path": "/loan-recovery-after-death-of-borrower-legal-heir-rights-india",
+      "clicks": 36,
+      "impressions": 2102,
+      "ctrPct": 1.71,
+      "position": 6
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/sbi",
+      "path": "/loan-settlement-by-bank/sbi",
+      "clicks": 36,
+      "impressions": 2781,
+      "ctrPct": 1.29,
+      "position": 6.8
+    },
+    {
+      "url": "https://www.credsettle.com/services/app-loan-settlement/banks/kissht",
+      "path": "/services/app-loan-settlement/banks/kissht",
+      "clicks": 36,
+      "impressions": 1119,
+      "ctrPct": 3.22,
+      "position": 8.1
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/hdfc",
+      "path": "/loan-settlement-by-bank/hdfc",
+      "clicks": 35,
+      "impressions": 2698,
+      "ctrPct": 1.3,
+      "position": 9.7
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/lending-plate",
+      "path": "/loan-settlement-by-bank/lending-plate",
+      "clicks": 33,
+      "impressions": 2551,
+      "ctrPct": 1.29,
+      "position": 7.2
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement/icici",
+      "path": "/loan-settlement/icici",
+      "clicks": 32,
+      "impressions": 2121,
+      "ctrPct": 1.51,
+      "position": 8.6
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/moneyview",
+      "path": "/loan-settlement-by-bank/moneyview",
+      "clicks": 31,
+      "impressions": 3782,
+      "ctrPct": 0.82,
+      "position": 6.5
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-process-in-hindi",
+      "path": "/loan-settlement-process-in-hindi",
+      "clicks": 31,
+      "impressions": 3834,
+      "ctrPct": 0.81,
+      "position": 11.9
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement/kotak",
+      "path": "/loan-settlement/kotak",
+      "clicks": 31,
+      "impressions": 1560,
+      "ctrPct": 1.99,
+      "position": 7.1
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/icici",
+      "path": "/loan-settlement-by-bank/icici",
+      "clicks": 29,
+      "impressions": 1816,
+      "ctrPct": 1.6,
+      "position": 8.9
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/kissht",
+      "path": "/loan-settlement-by-bank/kissht",
+      "clicks": 29,
+      "impressions": 2235,
+      "ctrPct": 1.3,
+      "position": 6.5
+    },
+    {
+      "url": "https://www.credsettle.com/personal-loan-time-barred-after-3-years-limitation-act",
+      "path": "/personal-loan-time-barred-after-3-years-limitation-act",
+      "clicks": 29,
+      "impressions": 1987,
+      "ctrPct": 1.46,
+      "position": 8.3
+    },
+    {
+      "url": "https://www.credsettle.com/services/car-loan-settlement/banks/cholamandalam",
+      "path": "/services/car-loan-settlement/banks/cholamandalam",
+      "clicks": 29,
+      "impressions": 853,
+      "ctrPct": 3.4,
+      "position": 6.2
+    },
+    {
+      "url": "https://www.credsettle.com/are-there-government-backed-programs-for-debt-relief-in-india",
+      "path": "/are-there-government-backed-programs-for-debt-relief-in-india",
+      "clicks": 28,
+      "impressions": 1290,
+      "ctrPct": 2.17,
+      "position": 24.6
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement/krazybee",
+      "path": "/loan-settlement/krazybee",
+      "clicks": 28,
+      "impressions": 2327,
+      "ctrPct": 1.2,
+      "position": 7.2
+    },
+    {
+      "url": "https://www.credsettle.com/services/personal-loan-settlement/banks/navi",
+      "path": "/services/personal-loan-settlement/banks/navi",
+      "clicks": 27,
+      "impressions": 1001,
+      "ctrPct": 2.7,
+      "position": 6.7
+    },
+    {
+      "url": "https://www.credsettle.com/resources/received-legal-notice-from-hdfc-next-steps",
+      "path": "/resources/received-legal-notice-from-hdfc-next-steps",
+      "clicks": 26,
+      "impressions": 1193,
+      "ctrPct": 2.18,
+      "position": 6
+    },
+    {
+      "url": "https://www.credsettle.com/which-bank-provide-personal-loan-for-cibil-defaulters",
+      "path": "/which-bank-provide-personal-loan-for-cibil-defaulters",
+      "clicks": 26,
+      "impressions": 882,
+      "ctrPct": 2.95,
+      "position": 40.5
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/poonawala-fin",
+      "path": "/loan-settlement-by-bank/poonawala-fin",
+      "clicks": 25,
+      "impressions": 1994,
+      "ctrPct": 1.25,
+      "position": 6.2
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement/payu-finance",
+      "path": "/loan-settlement/payu-finance",
+      "clicks": 25,
+      "impressions": 2124,
+      "ctrPct": 1.18,
+      "position": 5.7
+    },
+    {
+      "url": "https://www.credsettle.com/services/credit-card-settlement/banks/sbi",
+      "path": "/services/credit-card-settlement/banks/sbi",
+      "clicks": 25,
+      "impressions": 1410,
+      "ctrPct": 1.77,
+      "position": 7.8
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/bank-of-baroda",
+      "path": "/loan-settlement-by-bank/bank-of-baroda",
+      "clicks": 24,
+      "impressions": 1656,
+      "ctrPct": 1.45,
+      "position": 6.7
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/mobikwik",
+      "path": "/loan-settlement-by-bank/mobikwik",
+      "clicks": 24,
+      "impressions": 1233,
+      "ctrPct": 1.95,
+      "position": 5.8
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement/tata-capital",
+      "path": "/loan-settlement/tata-capital",
+      "clicks": 24,
+      "impressions": 1436,
+      "ctrPct": 1.67,
+      "position": 9.5
+    },
+    {
+      "url": "https://www.credsettle.com/top-rated-loan-settlement-agencies-in-india-for-reducing-credit-card-debt",
+      "path": "/top-rated-loan-settlement-agencies-in-india-for-reducing-credit-card-debt",
+      "clicks": 24,
+      "impressions": 1368,
+      "ctrPct": 1.75,
+      "position": 23.4
+    },
+    {
+      "url": "https://www.credsettle.com/services/personal-loan-settlement/banks/branch",
+      "path": "/services/personal-loan-settlement/banks/branch",
+      "clicks": 23,
+      "impressions": 772,
+      "ctrPct": 2.98,
+      "position": 5.4
+    },
+    {
+      "url": "https://www.credsettle.com/services/personal-loan-settlement/banks/incred",
+      "path": "/services/personal-loan-settlement/banks/incred",
+      "clicks": 23,
+      "impressions": 720,
+      "ctrPct": 3.19,
+      "position": 10.8
+    },
+    {
+      "url": "https://www.credsettle.com/services/personal-loan-settlement/banks/mobikwik",
+      "path": "/services/personal-loan-settlement/banks/mobikwik",
+      "clicks": 23,
+      "impressions": 537,
+      "ctrPct": 4.28,
+      "position": 5.7
+    },
+    {
+      "url": "https://www.credsettle.com/services/personal-loan-settlement/kerala",
+      "path": "/services/personal-loan-settlement/kerala",
+      "clicks": 23,
+      "impressions": 487,
+      "ctrPct": 4.72,
+      "position": 25.4
+    },
+    {
+      "url": "https://www.credsettle.com/which-banks-offer-debt-consolidation-loans-in-india",
+      "path": "/which-banks-offer-debt-consolidation-loans-in-india",
+      "clicks": 23,
+      "impressions": 2652,
+      "ctrPct": 0.87,
+      "position": 50.4
+    },
+    {
+      "url": "https://www.credsettle.com/legal-case-for-loan-sanction-without-consent",
+      "path": "/legal-case-for-loan-sanction-without-consent",
+      "clicks": 22,
+      "impressions": 1133,
+      "ctrPct": 1.94,
+      "position": 10.1
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/hsbc",
+      "path": "/loan-settlement-by-bank/hsbc",
+      "clicks": 22,
+      "impressions": 1431,
+      "ctrPct": 1.54,
+      "position": 7.9
+    },
+    {
+      "url": "https://www.credsettle.com/rbl-bank-harrasement-home-visit",
+      "path": "/rbl-bank-harrasement-home-visit",
+      "clicks": 21,
+      "impressions": 481,
+      "ctrPct": 4.37,
+      "position": 6.9
+    },
+    {
+      "url": "https://www.credsettle.com/services/personal-loan-settlement/banks/cholamandalam",
+      "path": "/services/personal-loan-settlement/banks/cholamandalam",
+      "clicks": 20,
+      "impressions": 782,
+      "ctrPct": 2.56,
+      "position": 7.4
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/lendingkart",
+      "path": "/loan-settlement-by-bank/lendingkart",
+      "clicks": 19,
+      "impressions": 374,
+      "ctrPct": 5.08,
+      "position": 11.8
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-for-senior-citizens-pension-holders-india",
+      "path": "/loan-settlement-for-senior-citizens-pension-holders-india",
+      "clicks": 19,
+      "impressions": 516,
+      "ctrPct": 3.68,
+      "position": 8.5
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement/rbl-bank",
+      "path": "/loan-settlement/rbl-bank",
+      "clicks": 19,
+      "impressions": 1325,
+      "ctrPct": 1.43,
+      "position": 5.8
+    },
+    {
+      "url": "https://www.credsettle.com/salary-account-frozen-by-bank",
+      "path": "/salary-account-frozen-by-bank",
+      "clicks": 19,
+      "impressions": 2002,
+      "ctrPct": 0.95,
+      "position": 5.7
+    },
+    {
+      "url": "https://www.credsettle.com/services/car-loan-settlement/banks/sbi",
+      "path": "/services/car-loan-settlement/banks/sbi",
+      "clicks": 19,
+      "impressions": 693,
+      "ctrPct": 2.74,
+      "position": 8
+    },
+    {
+      "url": "https://www.credsettle.com/services/personal-loan-settlement",
+      "path": "/services/personal-loan-settlement",
+      "clicks": 19,
+      "impressions": 2638,
+      "ctrPct": 0.72,
+      "position": 44
+    },
+    {
+      "url": "https://www.credsettle.com/best-apps-for-managing-and-settling-unsecured-loans",
+      "path": "/best-apps-for-managing-and-settling-unsecured-loans",
+      "clicks": 18,
+      "impressions": 992,
+      "ctrPct": 1.81,
+      "position": 22.6
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/nira-finance",
+      "path": "/loan-settlement-by-bank/nira-finance",
+      "clicks": 18,
+      "impressions": 878,
+      "ctrPct": 2.05,
+      "position": 7.9
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/payme-india",
+      "path": "/loan-settlement-by-bank/payme-india",
+      "clicks": 18,
+      "impressions": 995,
+      "ctrPct": 1.81,
+      "position": 6.4
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement/idfc",
+      "path": "/loan-settlement/idfc",
+      "clicks": 18,
+      "impressions": 1058,
+      "ctrPct": 1.7,
+      "position": 8.2
+    },
+    {
+      "url": "https://www.credsettle.com/services/app-loan-settlement/banks/bharat-loan",
+      "path": "/services/app-loan-settlement/banks/bharat-loan",
+      "clicks": 18,
+      "impressions": 626,
+      "ctrPct": 2.88,
+      "position": 12.5
+    },
+    {
+      "url": "https://www.credsettle.com/services/car-loan-settlement/banks/hdfc",
+      "path": "/services/car-loan-settlement/banks/hdfc",
+      "clicks": 18,
+      "impressions": 438,
+      "ctrPct": 4.11,
+      "position": 5.5
+    },
+    {
+      "url": "https://www.credsettle.com/services/nbfc-loan-settlement/banks/rupee-112",
+      "path": "/services/nbfc-loan-settlement/banks/rupee-112",
+      "clicks": 18,
+      "impressions": 500,
+      "ctrPct": 3.6,
+      "position": 9.6
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/bharatpe",
+      "path": "/loan-settlement-by-bank/bharatpe",
+      "clicks": 17,
+      "impressions": 920,
+      "ctrPct": 1.85,
+      "position": 5
+    },
+    {
+      "url": "https://www.credsettle.com/p2p-crypto-scam-unfreeze-bank-account",
+      "path": "/p2p-crypto-scam-unfreeze-bank-account",
+      "clicks": 17,
+      "impressions": 2613,
+      "ctrPct": 0.65,
+      "position": 10
+    },
+    {
+      "url": "https://www.credsettle.com/services/credit-card-settlement/banks/hdfc",
+      "path": "/services/credit-card-settlement/banks/hdfc",
+      "clicks": 17,
+      "impressions": 1379,
+      "ctrPct": 1.23,
+      "position": 9.1
+    },
+    {
+      "url": "https://www.credsettle.com/services/personal-loan-settlement/banks/snapmint",
+      "path": "/services/personal-loan-settlement/banks/snapmint",
+      "clicks": 17,
+      "impressions": 1379,
+      "ctrPct": 1.23,
+      "position": 7.5
+    },
+    {
+      "url": "https://www.credsettle.com/which-companies-offer-loan-settlement-services-in-india",
+      "path": "/which-companies-offer-loan-settlement-services-in-india",
+      "clicks": 17,
+      "impressions": 1656,
+      "ctrPct": 1.03,
+      "position": 39.9
+    },
+    {
+      "url": "https://www.credsettle.com/bank-arbitration-notice-loan",
+      "path": "/bank-arbitration-notice-loan",
+      "clicks": 16,
+      "impressions": 1290,
+      "ctrPct": 1.24,
+      "position": 8
+    },
+    {
+      "url": "https://www.credsettle.com/best-companies-for-debt-settlement-services-in-india",
+      "path": "/best-companies-for-debt-settlement-services-in-india",
+      "clicks": 16,
+      "impressions": 917,
+      "ctrPct": 1.74,
+      "position": 42.2
+    },
+    {
+      "url": "https://www.credsettle.com/compare-features-of-loan-settlement-services-offered-by-major-financial-apps",
+      "path": "/compare-features-of-loan-settlement-services-offered-by-major-financial-apps",
+      "clicks": 16,
+      "impressions": 645,
+      "ctrPct": 2.48,
+      "position": 17
+    },
+    {
+      "url": "https://www.credsettle.com/lok-adalat-personal-loan-settlement",
+      "path": "/lok-adalat-personal-loan-settlement",
+      "clicks": 16,
+      "impressions": 1211,
+      "ctrPct": 1.32,
+      "position": 6.2
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/cred",
+      "path": "/loan-settlement-by-bank/cred",
+      "clicks": 15,
+      "impressions": 502,
+      "ctrPct": 2.99,
+      "position": 16
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/tata-capital",
+      "path": "/loan-settlement-by-bank/tata-capital",
+      "clicks": 15,
+      "impressions": 990,
+      "ctrPct": 1.52,
+      "position": 7
+    },
+    {
+      "url": "https://www.credsettle.com/services/app-loan-settlement/banks/branch",
+      "path": "/services/app-loan-settlement/banks/branch",
+      "clicks": 15,
+      "impressions": 414,
+      "ctrPct": 3.62,
+      "position": 5.7
+    },
+    {
+      "url": "https://www.credsettle.com/services/credit-card-settlement/banks/punjab-national-bank",
+      "path": "/services/credit-card-settlement/banks/punjab-national-bank",
+      "clicks": 15,
+      "impressions": 464,
+      "ctrPct": 3.23,
+      "position": 6.2
+    },
+    {
+      "url": "https://www.credsettle.com/legal-action-for-credit-card-default",
+      "path": "/legal-action-for-credit-card-default",
+      "clicks": 14,
+      "impressions": 1427,
+      "ctrPct": 0.98,
+      "position": 12.7
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/bajaj-fin",
+      "path": "/loan-settlement-by-bank/bajaj-fin",
+      "clicks": 14,
+      "impressions": 2842,
+      "ctrPct": 0.49,
+      "position": 9.8
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/mintifi",
+      "path": "/loan-settlement-by-bank/mintifi",
+      "clicks": 14,
+      "impressions": 701,
+      "ctrPct": 2,
+      "position": 6.4
+    }
+  ],
+  "topPages28d": [
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/mpokket",
+      "path": "/loan-settlement-by-bank/mpokket",
+      "clicks": 107,
+      "impressions": 7840,
+      "ctrPct": 1.36,
+      "position": 5.9
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement/sbi",
+      "path": "/loan-settlement/sbi",
+      "clicks": 88,
+      "impressions": 2638,
+      "ctrPct": 3.34,
+      "position": 4.9
+    },
+    {
+      "url": "https://www.credsettle.com/",
+      "path": "/",
+      "clicks": 77,
+      "impressions": 2822,
+      "ctrPct": 2.73,
+      "position": 18.4
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/rupee-112",
+      "path": "/loan-settlement-by-bank/rupee-112",
+      "clicks": 58,
+      "impressions": 2074,
+      "ctrPct": 2.8,
+      "position": 5.8
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/snapmint",
+      "path": "/loan-settlement-by-bank/snapmint",
+      "clicks": 54,
+      "impressions": 5323,
+      "ctrPct": 1.01,
+      "position": 5.6
+    },
+    {
+      "url": "https://www.credsettle.com/mudra-loan-settlement-legal-help",
+      "path": "/mudra-loan-settlement-legal-help",
+      "clicks": 44,
+      "impressions": 1651,
+      "ctrPct": 2.67,
+      "position": 4.4
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/kreditbee",
+      "path": "/loan-settlement-by-bank/kreditbee",
+      "clicks": 38,
+      "impressions": 3757,
+      "ctrPct": 1.01,
+      "position": 5.9
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement/piramal-finance",
+      "path": "/loan-settlement/piramal-finance",
+      "clicks": 34,
+      "impressions": 923,
+      "ctrPct": 3.68,
+      "position": 6
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement/bank-of-baroda",
+      "path": "/loan-settlement/bank-of-baroda",
+      "clicks": 33,
+      "impressions": 488,
+      "ctrPct": 6.76,
+      "position": 4
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/cholamandalam",
+      "path": "/loan-settlement-by-bank/cholamandalam",
+      "clicks": 30,
+      "impressions": 1085,
+      "ctrPct": 2.76,
+      "position": 5.1
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/stashfin",
+      "path": "/loan-settlement-by-bank/stashfin",
+      "clicks": 24,
+      "impressions": 649,
+      "ctrPct": 3.7,
+      "position": 5.5
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/rupee-redee",
+      "path": "/loan-settlement-by-bank/rupee-redee",
+      "clicks": 21,
+      "impressions": 1507,
+      "ctrPct": 1.39,
+      "position": 6.5
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement/union-bank",
+      "path": "/loan-settlement/union-bank",
+      "clicks": 20,
+      "impressions": 856,
+      "ctrPct": 2.34,
+      "position": 6.4
+    },
+    {
+      "url": "https://www.credsettle.com/how-to-settle-7-days-loan-app",
+      "path": "/how-to-settle-7-days-loan-app",
+      "clicks": 19,
+      "impressions": 1061,
+      "ctrPct": 1.79,
+      "position": 7.5
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/slice",
+      "path": "/loan-settlement-by-bank/slice",
+      "clicks": 19,
+      "impressions": 1335,
+      "ctrPct": 1.42,
+      "position": 5.5
+    },
+    {
+      "url": "https://www.credsettle.com/resources/loan-settlement-letter",
+      "path": "/resources/loan-settlement-letter",
+      "clicks": 19,
+      "impressions": 2078,
+      "ctrPct": 0.91,
+      "position": 10.9
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/ram-fincorp",
+      "path": "/loan-settlement-by-bank/ram-fincorp",
+      "clicks": 18,
+      "impressions": 1453,
+      "ctrPct": 1.24,
+      "position": 6.7
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement/dmi-finance",
+      "path": "/loan-settlement/dmi-finance",
+      "clicks": 18,
+      "impressions": 559,
+      "ctrPct": 3.22,
+      "position": 6.2
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement/hdfc",
+      "path": "/loan-settlement/hdfc",
+      "clicks": 18,
+      "impressions": 1060,
+      "ctrPct": 1.7,
+      "position": 7.1
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/bharatpe",
+      "path": "/loan-settlement-by-bank/bharatpe",
+      "clicks": 17,
+      "impressions": 920,
+      "ctrPct": 1.85,
+      "position": 5
+    },
+    {
+      "url": "https://www.credsettle.com/are-there-government-backed-programs-for-debt-relief-in-india",
+      "path": "/are-there-government-backed-programs-for-debt-relief-in-india",
+      "clicks": 16,
+      "impressions": 439,
+      "ctrPct": 3.64,
+      "position": 7.3
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/bharat-loan",
+      "path": "/loan-settlement-by-bank/bharat-loan",
+      "clicks": 16,
+      "impressions": 596,
+      "ctrPct": 2.68,
+      "position": 6.9
+    },
+    {
+      "url": "https://www.credsettle.com/services/personal-loan-settlement/banks/rupee-112",
+      "path": "/services/personal-loan-settlement/banks/rupee-112",
+      "clicks": 15,
+      "impressions": 305,
+      "ctrPct": 4.92,
+      "position": 7
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/bandhan-bank",
+      "path": "/loan-settlement-by-bank/bandhan-bank",
+      "clicks": 14,
+      "impressions": 706,
+      "ctrPct": 1.98,
+      "position": 5.5
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/icici",
+      "path": "/loan-settlement-by-bank/icici",
+      "clicks": 14,
+      "impressions": 644,
+      "ctrPct": 2.17,
+      "position": 8.7
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/incred",
+      "path": "/loan-settlement-by-bank/incred",
+      "clicks": 14,
+      "impressions": 573,
+      "ctrPct": 2.44,
+      "position": 7.1
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/navi",
+      "path": "/loan-settlement-by-bank/navi",
+      "clicks": 14,
+      "impressions": 841,
+      "ctrPct": 1.66,
+      "position": 7.1
+    },
+    {
+      "url": "https://www.credsettle.com/services/car-loan-settlement/banks/cholamandalam",
+      "path": "/services/car-loan-settlement/banks/cholamandalam",
+      "clicks": 14,
+      "impressions": 245,
+      "ctrPct": 5.71,
+      "position": 5.5
+    },
+    {
+      "url": "https://www.credsettle.com/services/credit-card-settlement/banks/bank-of-baroda",
+      "path": "/services/credit-card-settlement/banks/bank-of-baroda",
+      "clicks": 14,
+      "impressions": 228,
+      "ctrPct": 6.14,
+      "position": 3.9
+    },
+    {
+      "url": "https://www.credsettle.com/which-bank-provide-personal-loan-for-cibil-defaulters",
+      "path": "/which-bank-provide-personal-loan-for-cibil-defaulters",
+      "clicks": 14,
+      "impressions": 406,
+      "ctrPct": 3.45,
+      "position": 50.9
+    },
+    {
+      "url": "https://www.credsettle.com/credit-card-settlement-calculator",
+      "path": "/credit-card-settlement-calculator",
+      "clicks": 13,
+      "impressions": 129,
+      "ctrPct": 10.08,
+      "position": 5.9
+    },
+    {
+      "url": "https://www.credsettle.com/loan-recovery-after-death-of-borrower-legal-heir-rights-india",
+      "path": "/loan-recovery-after-death-of-borrower-legal-heir-rights-india",
+      "clicks": 12,
+      "impressions": 600,
+      "ctrPct": 2,
+      "position": 5.2
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/idfc",
+      "path": "/loan-settlement-by-bank/idfc",
+      "clicks": 12,
+      "impressions": 1271,
+      "ctrPct": 0.94,
+      "position": 8.3
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/pocketly",
+      "path": "/loan-settlement-by-bank/pocketly",
+      "clicks": 12,
+      "impressions": 1088,
+      "ctrPct": 1.1,
+      "position": 6
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/sbi",
+      "path": "/loan-settlement-by-bank/sbi",
+      "clicks": 12,
+      "impressions": 761,
+      "ctrPct": 1.58,
+      "position": 6.6
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement/kotak",
+      "path": "/loan-settlement/kotak",
+      "clicks": 12,
+      "impressions": 486,
+      "ctrPct": 2.47,
+      "position": 6.9
+    },
+    {
+      "url": "https://www.credsettle.com/services/credit-card-settlement/banks/icici",
+      "path": "/services/credit-card-settlement/banks/icici",
+      "clicks": 12,
+      "impressions": 434,
+      "ctrPct": 2.76,
+      "position": 6.4
+    },
+    {
+      "url": "https://www.credsettle.com/which-banks-offer-debt-consolidation-loans-in-india",
+      "path": "/which-banks-offer-debt-consolidation-loans-in-india",
+      "clicks": 12,
+      "impressions": 1329,
+      "ctrPct": 0.9,
+      "position": 45.6
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/canara-bank",
+      "path": "/loan-settlement-by-bank/canara-bank",
+      "clicks": 11,
+      "impressions": 495,
+      "ctrPct": 2.22,
+      "position": 5.9
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/jammu-kashmir-bank",
+      "path": "/loan-settlement-by-bank/jammu-kashmir-bank",
+      "clicks": 11,
+      "impressions": 241,
+      "ctrPct": 4.56,
+      "position": 4
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/l-t-finance",
+      "path": "/loan-settlement-by-bank/l-t-finance",
+      "clicks": 11,
+      "impressions": 1068,
+      "ctrPct": 1.03,
+      "position": 7.1
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/lendingkart",
+      "path": "/loan-settlement-by-bank/lendingkart",
+      "clicks": 11,
+      "impressions": 117,
+      "ctrPct": 9.4,
+      "position": 7.1
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/moneyview",
+      "path": "/loan-settlement-by-bank/moneyview",
+      "clicks": 11,
+      "impressions": 1018,
+      "ctrPct": 1.08,
+      "position": 6.5
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement/poonawalla",
+      "path": "/loan-settlement/poonawalla",
+      "clicks": 11,
+      "impressions": 794,
+      "ctrPct": 1.39,
+      "position": 6.4
+    },
+    {
+      "url": "https://www.credsettle.com/resources/received-legal-notice-from-hdfc-next-steps",
+      "path": "/resources/received-legal-notice-from-hdfc-next-steps",
+      "clicks": 11,
+      "impressions": 395,
+      "ctrPct": 2.78,
+      "position": 5.5
+    },
+    {
+      "url": "https://www.credsettle.com/services/credit-card-settlement/banks/axis-bank",
+      "path": "/services/credit-card-settlement/banks/axis-bank",
+      "clicks": 11,
+      "impressions": 475,
+      "ctrPct": 2.32,
+      "position": 8.8
+    },
+    {
+      "url": "https://www.credsettle.com/top-10-instant-loan-apps-revolutionizing-access-to-credit-in-india",
+      "path": "/top-10-instant-loan-apps-revolutionizing-access-to-credit-in-india",
+      "clicks": 11,
+      "impressions": 488,
+      "ctrPct": 2.25,
+      "position": 34.3
+    },
+    {
+      "url": "https://www.credsettle.com/cgtmse-loan-default-borrower-liability-ots-settlement-rules",
+      "path": "/cgtmse-loan-default-borrower-liability-ots-settlement-rules",
+      "clicks": 10,
+      "impressions": 306,
+      "ctrPct": 3.27,
+      "position": 5.5
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/bank-of-baroda",
+      "path": "/loan-settlement-by-bank/bank-of-baroda",
+      "clicks": 10,
+      "impressions": 515,
+      "ctrPct": 1.94,
+      "position": 6.2
+    },
+    {
+      "url": "https://www.credsettle.com/loan-settlement-by-bank/shriram-finance",
+      "path": "/loan-settlement-by-bank/shriram-finance",
+      "clicks": 10,
+      "impressions": 867,
+      "ctrPct": 1.15,
+      "position": 6.5
+    }
+  ],
+  "topQueries90d": [
+    {
+      "key": "credsettle",
+      "clicks": 191,
+      "impressions": 288,
+      "ctrPct": 66.32,
+      "position": 1.1
+    },
+    {
+      "key": "cred settle",
+      "clicks": 74,
+      "impressions": 102,
+      "ctrPct": 72.55,
+      "position": 1
+    },
+    {
+      "key": "sbi loan settlement scheme 2026",
+      "clicks": 41,
+      "impressions": 203,
+      "ctrPct": 20.2,
+      "position": 1.4
+    },
+    {
+      "key": "bank of baroda ots scheme 2026",
+      "clicks": 24,
+      "impressions": 73,
+      "ctrPct": 32.88,
+      "position": 1.3
+    },
+    {
+      "key": "mpokket loan settlement",
+      "clicks": 23,
+      "impressions": 254,
+      "ctrPct": 9.06,
+      "position": 5
+    },
+    {
+      "key": "sbi ots scheme 2026",
+      "clicks": 20,
+      "impressions": 289,
+      "ctrPct": 6.92,
+      "position": 3.6
+    },
+    {
+      "key": "mudraboxx",
+      "clicks": 17,
+      "impressions": 756,
+      "ctrPct": 2.25,
+      "position": 7.6
+    },
+    {
+      "key": "mpokket settlement",
+      "clicks": 16,
+      "impressions": 235,
+      "ctrPct": 6.81,
+      "position": 5.5
+    },
+    {
+      "key": "loan settlement agency",
+      "clicks": 13,
+      "impressions": 578,
+      "ctrPct": 2.25,
+      "position": 30
+    },
+    {
+      "key": "axis bank credit card settlement percentage",
+      "clicks": 11,
+      "impressions": 267,
+      "ctrPct": 4.12,
+      "position": 8.2
+    },
+    {
+      "key": "union bank ots scheme 2026",
+      "clicks": 11,
+      "impressions": 67,
+      "ctrPct": 16.42,
+      "position": 3.2
+    },
+    {
+      "key": "bob credit card settlement",
+      "clicks": 10,
+      "impressions": 58,
+      "ctrPct": 17.24,
+      "position": 1.9
+    },
+    {
+      "key": "mobikwik loan settlement",
+      "clicks": 9,
+      "impressions": 40,
+      "ctrPct": 22.5,
+      "position": 5.8
+    },
+    {
+      "key": "navi loan settlement percentage",
+      "clicks": 9,
+      "impressions": 55,
+      "ctrPct": 16.36,
+      "position": 1.5
+    },
+    {
+      "key": "union bank of india ots scheme 2026",
+      "clicks": 9,
+      "impressions": 88,
+      "ctrPct": 10.23,
+      "position": 3.6
+    },
+    {
+      "key": "union npa samadhan scheme",
+      "clicks": 9,
+      "impressions": 76,
+      "ctrPct": 11.84,
+      "position": 2.5
+    },
+    {
+      "key": "navi loan settlement",
+      "clicks": 8,
+      "impressions": 150,
+      "ctrPct": 5.33,
+      "position": 7.1
+    },
+    {
+      "key": "apps like freed",
+      "clicks": 7,
+      "impressions": 80,
+      "ctrPct": 8.75,
+      "position": 4.5
+    },
+    {
+      "key": "mpokket settlement offer",
+      "clicks": 7,
+      "impressions": 61,
+      "ctrPct": 11.48,
+      "position": 4.1
+    },
+    {
+      "key": "slice loan settlement",
+      "clicks": 7,
+      "impressions": 52,
+      "ctrPct": 13.46,
+      "position": 6.7
+    },
+    {
+      "key": "branch loan settlement",
+      "clicks": 6,
+      "impressions": 83,
+      "ctrPct": 7.23,
+      "position": 3.3
+    },
+    {
+      "key": "can mpokket visit home",
+      "clicks": 6,
+      "impressions": 175,
+      "ctrPct": 3.43,
+      "position": 6.2
+    },
+    {
+      "key": "credit card settlement agency",
+      "clicks": 6,
+      "impressions": 282,
+      "ctrPct": 2.13,
+      "position": 37
+    },
+    {
+      "key": "extreme urgent loan for cibil defaulters",
+      "clicks": 6,
+      "impressions": 76,
+      "ctrPct": 7.89,
+      "position": 24.8
+    },
+    {
+      "key": "icici bank credit card settlement percentage",
+      "clicks": 6,
+      "impressions": 223,
+      "ctrPct": 2.69,
+      "position": 7.6
+    },
+    {
+      "key": "mudra loan settlement",
+      "clicks": 6,
+      "impressions": 141,
+      "ctrPct": 4.26,
+      "position": 3.2
+    },
+    {
+      "key": "sbi lok adalat 2026",
+      "clicks": 6,
+      "impressions": 72,
+      "ctrPct": 8.33,
+      "position": 5.2
+    },
+    {
+      "key": "union bank credit card settlement",
+      "clicks": 6,
+      "impressions": 56,
+      "ctrPct": 10.71,
+      "position": 7.2
+    },
+    {
+      "key": "eots bank of baroda",
+      "clicks": 5,
+      "impressions": 81,
+      "ctrPct": 6.17,
+      "position": 6.7
+    },
+    {
+      "key": "how to settle mpokket loan",
+      "clicks": 5,
+      "impressions": 90,
+      "ctrPct": 5.56,
+      "position": 5.4
+    },
+    {
+      "key": "icici credit card settlement percentage",
+      "clicks": 5,
+      "impressions": 187,
+      "ctrPct": 2.67,
+      "position": 7.9
+    },
+    {
+      "key": "loan settlement request letter to bank",
+      "clicks": 5,
+      "impressions": 43,
+      "ctrPct": 11.63,
+      "position": 4.7
+    },
+    {
+      "key": "navi settlement",
+      "clicks": 5,
+      "impressions": 87,
+      "ctrPct": 5.75,
+      "position": 6.3
+    },
+    {
+      "key": "navi settlement offer",
+      "clicks": 5,
+      "impressions": 65,
+      "ctrPct": 7.69,
+      "position": 4.7
+    },
+    {
+      "key": "poonawalla fincorp personal loan settlement percentage",
+      "clicks": 5,
+      "impressions": 79,
+      "ctrPct": 6.33,
+      "position": 3.6
+    },
+    {
+      "key": "bob card settlement",
+      "clicks": 4,
+      "impressions": 33,
+      "ctrPct": 12.12,
+      "position": 2.6
+    },
+    {
+      "key": "canara bank loan settlement",
+      "clicks": 4,
+      "impressions": 9,
+      "ctrPct": 44.44,
+      "position": 3.3
+    },
+    {
+      "key": "freed",
+      "clicks": 4,
+      "impressions": 57,
+      "ctrPct": 7.02,
+      "position": 2.1
+    },
+    {
+      "key": "hdfc bank personal loan settlement percentage",
+      "clicks": 4,
+      "impressions": 35,
+      "ctrPct": 11.43,
+      "position": 4.2
+    },
+    {
+      "key": "hdfc loan settlement",
+      "clicks": 4,
+      "impressions": 202,
+      "ctrPct": 1.98,
+      "position": 10.8
+    },
+    {
+      "key": "kissht loan settlement",
+      "clicks": 4,
+      "impressions": 188,
+      "ctrPct": 2.13,
+      "position": 7.5
+    },
+    {
+      "key": "kreditbee loan settlement",
+      "clicks": 4,
+      "impressions": 121,
+      "ctrPct": 3.31,
+      "position": 8.8
+    },
+    {
+      "key": "loan settlement agency near me",
+      "clicks": 4,
+      "impressions": 148,
+      "ctrPct": 2.7,
+      "position": 7.9
+    },
+    {
+      "key": "loan settlement company in india",
+      "clicks": 4,
+      "impressions": 69,
+      "ctrPct": 5.8,
+      "position": 17.5
+    },
+    {
+      "key": "mobikwik loan settlement process",
+      "clicks": 4,
+      "impressions": 44,
+      "ctrPct": 9.09,
+      "position": 4.9
+    },
+    {
+      "key": "ram fincorp repayment issue",
+      "clicks": 4,
+      "impressions": 34,
+      "ctrPct": 11.76,
+      "position": 4.6
+    },
+    {
+      "key": "rbl credit card settlement percentage",
+      "clicks": 4,
+      "impressions": 129,
+      "ctrPct": 3.1,
+      "position": 3.2
+    },
+    {
+      "key": "rinn samadhan scheme",
+      "clicks": 4,
+      "impressions": 136,
+      "ctrPct": 2.94,
+      "position": 7.4
+    },
+    {
+      "key": "axis bank settlement percentage",
+      "clicks": 3,
+      "impressions": 117,
+      "ctrPct": 2.56,
+      "position": 6
+    },
+    {
+      "key": "bandhan bank settlement letter",
+      "clicks": 3,
+      "impressions": 5,
+      "ctrPct": 60,
+      "position": 16.8
+    },
+    {
+      "key": "bank of baroda",
+      "clicks": 3,
+      "impressions": 43,
+      "ctrPct": 6.98,
+      "position": 2.3
+    },
+    {
+      "key": "best loan settlement agency in india",
+      "clicks": 3,
+      "impressions": 47,
+      "ctrPct": 6.38,
+      "position": 7.9
+    },
+    {
+      "key": "best loan settlement app",
+      "clicks": 3,
+      "impressions": 11,
+      "ctrPct": 27.27,
+      "position": 16
+    },
+    {
+      "key": "bharat loan harassment",
+      "clicks": 3,
+      "impressions": 41,
+      "ctrPct": 7.32,
+      "position": 5.2
+    },
+    {
+      "key": "bharat loan settlement",
+      "clicks": 3,
+      "impressions": 53,
+      "ctrPct": 5.66,
+      "position": 7.5
+    },
+    {
+      "key": "branch loan app settlement",
+      "clicks": 3,
+      "impressions": 24,
+      "ctrPct": 12.5,
+      "position": 4.7
+    },
+    {
+      "key": "credit card settlement percentage calculator",
+      "clicks": 3,
+      "impressions": 7,
+      "ctrPct": 42.86,
+      "position": 4.1
+    },
+    {
+      "key": "debt consolidation loan for cibil defaulters",
+      "clicks": 3,
+      "impressions": 76,
+      "ctrPct": 3.95,
+      "position": 57.6
+    },
+    {
+      "key": "do mpokket visit home",
+      "clicks": 3,
+      "impressions": 92,
+      "ctrPct": 3.26,
+      "position": 7.5
+    },
+    {
+      "key": "does mpokket agent visit home",
+      "clicks": 3,
+      "impressions": 191,
+      "ctrPct": 1.57,
+      "position": 5
+    },
+    {
+      "key": "hdfc car loan settlement",
+      "clicks": 3,
+      "impressions": 53,
+      "ctrPct": 5.66,
+      "position": 5.8
+    },
+    {
+      "key": "hdfc loan settlement percentage",
+      "clicks": 3,
+      "impressions": 52,
+      "ctrPct": 5.77,
+      "position": 4.5
+    },
+    {
+      "key": "home credit settlement letter",
+      "clicks": 3,
+      "impressions": 88,
+      "ctrPct": 3.41,
+      "position": 7.4
+    },
+    {
+      "key": "icici bank credit card settlement",
+      "clicks": 3,
+      "impressions": 46,
+      "ctrPct": 6.52,
+      "position": 21.8
+    },
+    {
+      "key": "icici credit card settlement",
+      "clicks": 3,
+      "impressions": 78,
+      "ctrPct": 3.85,
+      "position": 19.3
+    },
+    {
+      "key": "indusind bank loan settlement",
+      "clicks": 3,
+      "impressions": 138,
+      "ctrPct": 2.17,
+      "position": 7.9
+    },
+    {
+      "key": "loan settlement letter",
+      "clicks": 3,
+      "impressions": 193,
+      "ctrPct": 1.55,
+      "position": 23.8
+    },
+    {
+      "key": "mpokket recovery agent home visit or not",
+      "clicks": 3,
+      "impressions": 318,
+      "ctrPct": 0.94,
+      "position": 5.5
+    },
+    {
+      "key": "nbfc loan for cibil defaulters",
+      "clicks": 3,
+      "impressions": 10,
+      "ctrPct": 30,
+      "position": 21
+    },
+    {
+      "key": "pnb credit card settlement process",
+      "clicks": 3,
+      "impressions": 23,
+      "ctrPct": 13.04,
+      "position": 5.4
+    },
+    {
+      "key": "ram fincorp loan settlement kaise kare",
+      "clicks": 3,
+      "impressions": 32,
+      "ctrPct": 9.38,
+      "position": 8.2
+    },
+    {
+      "key": "rbi loan settlement guidelines in hindi",
+      "clicks": 3,
+      "impressions": 111,
+      "ctrPct": 2.7,
+      "position": 6.4
+    },
+    {
+      "key": "rupee112",
+      "clicks": 3,
+      "impressions": 113,
+      "ctrPct": 2.65,
+      "position": 21.8
+    },
+    {
+      "key": "rupee112 harassment",
+      "clicks": 3,
+      "impressions": 145,
+      "ctrPct": 2.07,
+      "position": 9.1
+    },
+    {
+      "key": "rupeeredee",
+      "clicks": 3,
+      "impressions": 61,
+      "ctrPct": 4.92,
+      "position": 13.2
+    }
+  ]
+}
