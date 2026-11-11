@@ -169,7 +169,7 @@ function loadShippedLanePaths() {
     const urlCol = cols[2] || '';
     const changeCol = cols[3] || '';
     // Match routes logged as new page / new tool (not hub internal-link edits or sitemap/doc commits)
-    if (!/new\s+(page|tool|lane|calculator|spoke|tracker)|created|shipped|added new/i.test(changeCol)) {
+    if (!/^(?:shipped|created|added\s+new)\b/i.test(changeCol)) {
       continue;
     }
     const routeMatches = urlCol.match(/\/[a-z0-9/-]+/g) || [];
