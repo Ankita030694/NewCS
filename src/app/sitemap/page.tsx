@@ -14,6 +14,34 @@ export const metadata: Metadata = {
 
 const sitemapLinks = [
   {
+    title: "SBI OTS Scheme 2027 & Rinn Samadhan Tracker",
+    href: "/sbi-ots-scheme-2027",
+  },
+  {
+    title: "Union Bank of India OTS Scheme 2027 Tracker",
+    href: "/union-bank-ots-scheme-2027",
+  },
+  {
+    title: "Bank of Baroda OTS Scheme 2027 & e-OTS Guide",
+    href: "/bank-of-baroda-ots-scheme-2027",
+  },
+  {
+    title: "Punjab National Bank (PNB) OTS Scheme 2027 Guide",
+    href: "/pnb-ots-scheme-2027",
+  },
+  {
+    title: "Canara Bank OTS Scheme 2027 & e-OTS Tracker",
+    href: "/canara-bank-ots-scheme-2027",
+  },
+  {
+    title: "Indian Bank OTS Scheme 2027 & Digital e-OTS Guide",
+    href: "/indian-bank-ots-scheme-2027",
+  },
+  {
+    title: "Union NPA Samadhan Scheme 2027 Status & Rules",
+    href: "/union-npa-samadhan-scheme-2027",
+  },
+  {
     title: "ICICI Credit Card Blocked Due to Non-Payment Guide",
     href: "/icici-credit-card-blocked-due-to-non-payment",
   },
