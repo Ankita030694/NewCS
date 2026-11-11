@@ -7,6 +7,36 @@ export interface SitemapLink {
 // Auto-generated hardcoded query-based pages sorted in descending order of git creation date (latest first)
 export const sitemapLinks: SitemapLink[] = [
   {
+    title: "RING (PayWithRing) App Loan & Si Creva Settlement Guide",
+    href: "/ring-loan-settlement",
+    date: "11-11-2026",
+  },
+  {
+    title: "CASHe Personal Loan & Bhanix Finance Settlement Guide",
+    href: "/cashe-loan-settlement",
+    date: "11-11-2026",
+  },
+  {
+    title: "Home Credit India Personal Loan & OTS Settlement Guide",
+    href: "/home-credit-loan-settlement",
+    date: "11-11-2026",
+  },
+  {
+    title: "How to Settle Multiple App Loans Totaling Above ₹3 Lakh",
+    href: "/multiple-app-loans-settlement-total-above-3-lakh",
+    date: "11-11-2026",
+  },
+  {
+    title: "PSU Bank OTS Fiscal Cutoff & March 31, 2027 Deadlines",
+    href: "/psu-bank-ots-deadline-march-31-2027",
+    date: "11-11-2026",
+  },
+  {
+    title: "Credit Card Settlement Before FY-End: Issuer Q4 Guide",
+    href: "/credit-card-settlement-before-financial-year-end-by-issuer",
+    date: "11-11-2026",
+  },
+  {
     title: "Federal Bank Credit Card Settlement Percentage Guide",
     href: "/federal-bank-credit-card-settlement-percentage",
     date: "11-11-2026",
