@@ -373,6 +373,18 @@ export default function HdfcCreditCardSettlementClient() {
                 <p className="text-sm text-gray-500 mb-4">Senior Legal counsel</p>
                 <p className="text-xs text-gray-400">Expert in dealing with banking rules. Agents threats. complex debt restructuring matters.</p>
               </div>
+              <div className="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 space-y-2.5 text-xs">
+                <p className="font-bold text-gray-900 text-sm border-b border-gray-100 pb-2">Related HDFC Card Guides</p>
+                <Link href="/hdfc-credit-card-blocked-due-to-non-payment" className="block text-blue-600 hover:underline font-medium">
+                  HDFC Credit Card Blocked Due to Non-Payment
+                </Link>
+                <Link href="/credit-card-blocked-due-to-non-payment" className="block text-blue-600 hover:underline font-medium">
+                  Credit Card Blocked for Non-Payment Guide
+                </Link>
+                <Link href="/tools/credit-card-minimum-due-calculator" className="block text-blue-600 hover:underline font-medium">
+                  Credit Card Minimum Due &amp; OTS Calculator
+                </Link>
+              </div>
             </div>
           </aside>
 

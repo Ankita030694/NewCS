@@ -829,6 +829,31 @@ export default function CreditCardMinimumDueTrapClient() {
                   <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Section 25 PSSA NACH Bounce Notice. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Legal defense &amp; reply strategy &rarr;.</span>
                 </Link>
+
+                <Link href="/tools/credit-card-minimum-due-calculator" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Credit Card Minimum Due &amp; Settlement Calculator. </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Multi-card APR + GST trap calculator &rarr;.</span>
+                </Link>
+
+                <Link href="/tools/multiple-credit-card-payoff-vs-settlement-calculator" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Multiple Credit Card Payoff vs Settlement Planner. </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Compare Avalanche, Snowball &amp; OTS &rarr;.</span>
+                </Link>
+
+                <Link href="/credit-card-blocked-due-to-non-payment" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Credit Card Blocked Due to Non-Payment Guide. </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Temporary hold vs permanent NPA block &rarr;.</span>
+                </Link>
+
+                <Link href="/hdfc-credit-card-blocked-due-to-non-payment" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> HDFC Credit Card Blocked for Non-Payment. </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">MyCards block rules &amp; OTS steps &rarr;.</span>
+                </Link>
+
+                <Link href="/sbi-credit-card-blocked-due-to-non-payment" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> SBI Credit Card Blocked for Non-Payment. </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">SBICPSL unblock vs settlement guide &rarr;.</span>
+                </Link>
               </div>
             </div>
 

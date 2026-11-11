@@ -499,6 +499,12 @@ export default function SBILoanSettlementClient() {
                       Personal Loan Settle
                     </Link>
                   </li>
+                  <li>
+                    <Link href="/sbi-credit-card-blocked-due-to-non-payment" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-blue-400 rounded-full mr-2"></span>
+                      SBI Card Blocked for Non-Payment
+                    </Link>
+                  </li>
                 </ul>
               </div>
 

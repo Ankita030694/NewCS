@@ -143,6 +143,34 @@ export default function ToolsPageClient() {
       isLive: true,
       iconName: 'CreditCard',
     },
+    {
+      id: 'credit-card-minimum-due-calculator',
+      title: 'Credit Card Minimum Due & Settlement Calculator',
+      category: 'credit-cibil',
+      categoryLabel: 'Credit & CIBIL',
+      badge: 'Live Calculator',
+      description:
+        'Model multi-card 5% minimum due payoff months, total APR + 18% GST trap, and indicative issuer OTS settlement ranges.',
+      metrics: ['Min-Due Trap', 'APR + GST Cost', 'Issuer OTS Range'],
+      href: '/tools/credit-card-minimum-due-calculator',
+      actionText: 'Calculate Min Due Trap',
+      isLive: true,
+      iconName: 'CreditCard',
+    },
+    {
+      id: 'multiple-credit-card-payoff-vs-settlement-calculator',
+      title: 'Multiple Credit Card Payoff vs Settlement Planner',
+      category: 'debt-management',
+      categoryLabel: 'Debt Management',
+      badge: 'Live Calculator',
+      description:
+        'Compare Debt Avalanche, Debt Snowball, and One-Time Settlement side-by-side across multiple Indian credit cards.',
+      metrics: ['Avalanche vs Snowball', 'OTS Lump Sum', 'Net Savings'],
+      href: '/tools/multiple-credit-card-payoff-vs-settlement-calculator',
+      actionText: 'Compare Card Plans',
+      isLive: true,
+      iconName: 'Layers',
+    },
   ];
 
   const categories = useMemo(() => {

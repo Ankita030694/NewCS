@@ -2162,6 +2162,28 @@ export default function SettleMultipleCreditCardsClient() {
               </div>
             </div>
 
+            {/* Related Card Planners & Blocked-Card Guides */}
+            <div className="bg-white border border-slate-200 rounded-xl p-3.5 shadow-xs space-y-2 text-[11px]">
+              <div className="font-bold text-black uppercase tracking-wider">Card Tools &amp; Guides</div>
+              <div className="space-y-1.5">
+                <Link href="/tools/multiple-credit-card-payoff-vs-settlement-calculator" className="block text-blue-700 hover:underline font-medium">
+                  Multiple Card Payoff vs Settlement Planner &rarr;
+                </Link>
+                <Link href="/tools/credit-card-minimum-due-calculator" className="block text-blue-700 hover:underline font-medium">
+                  Credit Card Minimum Due &amp; OTS Calculator &rarr;
+                </Link>
+                <Link href="/credit-card-blocked-due-to-non-payment" className="block text-blue-700 hover:underline font-medium">
+                  Credit Card Blocked Due to Non-Payment &rarr;
+                </Link>
+                <Link href="/hdfc-credit-card-blocked-due-to-non-payment" className="block text-blue-700 hover:underline font-medium">
+                  HDFC Credit Card Blocked for Non-Payment &rarr;
+                </Link>
+                <Link href="/sbi-credit-card-blocked-due-to-non-payment" className="block text-blue-700 hover:underline font-medium">
+                  SBI Credit Card Blocked for Non-Payment &rarr;
+                </Link>
+              </div>
+            </div>
+
           </aside>
 
         </div>

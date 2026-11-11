@@ -2133,6 +2133,26 @@ export default function CreditCardSettlementPageClient() {
                 <p className="text-[10px] text-black leading-tight">Estimate your card closure waiver under RBI closure rules.</p>
                 <a href="#credit-card-calculator" className="text-[10px] text-blue-600 font-semibold block pt-1 hover:underline">Calculate Savings ↓</a>
               </div>
+
+              {/* Card Calculators & Blocked-Card Guides */}
+              <div className="p-3 bg-white border border-slate-200 rounded-xl text-xs space-y-1.5 text-black">
+                <span className="font-bold text-black block text-[11px]">Card Planners &amp; Guides</span>
+                <Link href="/tools/credit-card-minimum-due-calculator" className="text-[10px] text-blue-600 font-semibold block hover:underline">
+                  Minimum Due &amp; Settlement Calculator &rarr;
+                </Link>
+                <Link href="/tools/multiple-credit-card-payoff-vs-settlement-calculator" className="text-[10px] text-blue-600 font-semibold block hover:underline">
+                  Multi-Card Payoff vs OTS Planner &rarr;
+                </Link>
+                <Link href="/credit-card-blocked-due-to-non-payment" className="text-[10px] text-blue-600 font-semibold block hover:underline">
+                  Credit Card Blocked for Non-Payment &rarr;
+                </Link>
+                <Link href="/hdfc-credit-card-blocked-due-to-non-payment" className="text-[10px] text-blue-600 font-semibold block hover:underline">
+                  HDFC Card Blocked Due to Non-Payment &rarr;
+                </Link>
+                <Link href="/sbi-credit-card-blocked-due-to-non-payment" className="text-[10px] text-blue-600 font-semibold block hover:underline">
+                  SBI Card Blocked Due to Non-Payment &rarr;
+                </Link>
+              </div>
           </aside>
 
         </div>
