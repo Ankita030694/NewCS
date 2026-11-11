@@ -7,6 +7,61 @@ export interface SitemapLink {
 // Auto-generated hardcoded query-based pages sorted in descending order of git creation date (latest first)
 export const sitemapLinks: SitemapLink[] = [
   {
+    title: "Federal Bank Credit Card Settlement Percentage Guide",
+    href: "/federal-bank-credit-card-settlement-percentage",
+    date: "11-11-2026",
+  },
+  {
+    title: "Kotak Mahindra Credit Card Settlement Percentage Guide",
+    href: "/kotak-credit-card-settlement-percentage",
+    date: "11-11-2026",
+  },
+  {
+    title: "HSBC India Credit Card Settlement Percentage Guide",
+    href: "/hsbc-credit-card-settlement-percentage",
+    date: "11-11-2026",
+  },
+  {
+    title: "Bank of Baroda (BOBCARD) Credit Card Settlement Percentage",
+    href: "/bank-of-baroda-credit-card-settlement-percentage",
+    date: "11-11-2026",
+  },
+  {
+    title: "PNB Credit Card Settlement Percentage & PSU OTS Guide",
+    href: "/pnb-credit-card-settlement-percentage",
+    date: "11-11-2026",
+  },
+  {
+    title: "Union Bank Credit Card Settlement Percentage Guide",
+    href: "/union-bank-credit-card-settlement-percentage",
+    date: "11-11-2026",
+  },
+  {
+    title: "KreditBee Recovery Agent Home Visit Rights & RBI 2027 Rules",
+    href: "/kreditbee-recovery-agent-home-visit",
+    date: "11-11-2026",
+  },
+  {
+    title: "Will KreditBee Agents Come Home for Unpaid EMIs?",
+    href: "/will-kreditbee-agents-come-home",
+    date: "11-11-2026",
+  },
+  {
+    title: "MoneyTap Credit Line & Personal Loan Settlement Guide",
+    href: "/moneytap-loan-settlement",
+    date: "11-11-2026",
+  },
+  {
+    title: "mPokket 30, 60 & 90 Days Overdue Meaning & CIBIL Impact",
+    href: "/mpokket-30-90-days-meaning",
+    date: "11-11-2026",
+  },
+  {
+    title: "Rupee112 Loan Repayment Trap & Safe Settlement Guide",
+    href: "/rupee112-repayment-and-settlement",
+    date: "11-11-2026",
+  },
+  {
     title: "SBI OTS Scheme 2027 & Rinn Samadhan Tracker",
     href: "/sbi-ots-scheme-2027",
     date: "11-11-2026",

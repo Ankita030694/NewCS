@@ -14,6 +14,50 @@ export const metadata: Metadata = {
 
 const sitemapLinks = [
   {
+    title: "Federal Bank Credit Card Settlement Percentage Guide",
+    href: "/federal-bank-credit-card-settlement-percentage",
+  },
+  {
+    title: "Kotak Mahindra Credit Card Settlement Percentage Guide",
+    href: "/kotak-credit-card-settlement-percentage",
+  },
+  {
+    title: "HSBC India Credit Card Settlement Percentage Guide",
+    href: "/hsbc-credit-card-settlement-percentage",
+  },
+  {
+    title: "Bank of Baroda (BOBCARD) Credit Card Settlement Percentage",
+    href: "/bank-of-baroda-credit-card-settlement-percentage",
+  },
+  {
+    title: "PNB Credit Card Settlement Percentage & PSU OTS Guide",
+    href: "/pnb-credit-card-settlement-percentage",
+  },
+  {
+    title: "Union Bank Credit Card Settlement Percentage Guide",
+    href: "/union-bank-credit-card-settlement-percentage",
+  },
+  {
+    title: "KreditBee Recovery Agent Home Visit Rights & RBI 2027 Rules",
+    href: "/kreditbee-recovery-agent-home-visit",
+  },
+  {
+    title: "Will KreditBee Agents Come Home for Unpaid EMIs?",
+    href: "/will-kreditbee-agents-come-home",
+  },
+  {
+    title: "MoneyTap Credit Line & Personal Loan Settlement Guide",
+    href: "/moneytap-loan-settlement",
+  },
+  {
+    title: "mPokket 30, 60 & 90 Days Overdue Meaning & CIBIL Impact",
+    href: "/mpokket-30-90-days-meaning",
+  },
+  {
+    title: "Rupee112 Loan Repayment Trap & Safe Settlement Guide",
+    href: "/rupee112-repayment-and-settlement",
+  },
+  {
     title: "SBI OTS Scheme 2027 & Rinn Samadhan Tracker",
     href: "/sbi-ots-scheme-2027",
   },
