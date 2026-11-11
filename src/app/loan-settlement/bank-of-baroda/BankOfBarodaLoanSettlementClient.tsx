@@ -513,6 +513,18 @@ export default function BankOfBarodaLoanSettlementClient() {
                       Indian Bank OTS 2027
                     </Link>
                   </li>
+                  <li>
+                    <Link href="/bank-of-baroda-credit-card-settlement-percentage" className="text-gray-600 hover:text-blue-600 flex items-center transition-colors">
+                      <span className="w-1.5 h-1.5 bg-orange-500 rounded-full mr-2"></span>
+                      BOBCARD Settlement %
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/pnb-credit-card-settlement-percentage" className="text-gray-600 hover:text-blue-600 flex items-center transition-colors">
+                      <span className="w-1.5 h-1.5 bg-orange-500 rounded-full mr-2"></span>
+                      PNB Card Settlement %
+                    </Link>
+                  </li>
                 </ul>
               </div>
 

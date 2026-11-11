@@ -918,11 +918,21 @@ export default function CreditCardSettlementCalculatorClient() {
                   <Check className="w-3.5 h-3.5 text-[#1886ff]"/>
                   <span>ISO 27001 Data Confidentiality.</span>
                 </div>
-                <div className="flex items-center gap-2">
-                  <Check className="w-3.5 h-3.5 text-[#1886ff]"/>
-                  <span>Verified Legal Defense Panel.</span>
+                  <div className="flex items-center gap-2">
+                    <Check className="w-3.5 h-3.5 text-[#1886ff]"/>
+                    <span>Verified Legal Defense Panel.</span>
+                  </div>
                 </div>
               </div>
+
+            <div className="bg-white rounded-2xl p-5 border border-slate-200/80 shadow-xs space-y-2.5 text-xs">
+              <p className="font-bold text-slate-900 pb-2 border-b border-slate-100">Issuer Card Settlement % Guides</p>
+              <Link href="/federal-bank-credit-card-settlement-percentage" className="block text-slate-700 hover:text-[#1886ff] font-medium">Federal Bank Credit Card Settlement % &rarr;</Link>
+              <Link href="/kotak-credit-card-settlement-percentage" className="block text-slate-700 hover:text-[#1886ff] font-medium">Kotak Credit Card Settlement % &rarr;</Link>
+              <Link href="/hsbc-credit-card-settlement-percentage" className="block text-slate-700 hover:text-[#1886ff] font-medium">HSBC India Credit Card Settlement % &rarr;</Link>
+              <Link href="/bank-of-baroda-credit-card-settlement-percentage" className="block text-slate-700 hover:text-[#1886ff] font-medium">Bank of Baroda (BOBCARD) Settlement % &rarr;</Link>
+              <Link href="/pnb-credit-card-settlement-percentage" className="block text-slate-700 hover:text-[#1886ff] font-medium">PNB Credit Card Settlement % &rarr;</Link>
+              <Link href="/union-bank-credit-card-settlement-percentage" className="block text-slate-700 hover:text-[#1886ff] font-medium">Union Bank Credit Card Settlement % &rarr;</Link>
             </div>
 
           </aside>

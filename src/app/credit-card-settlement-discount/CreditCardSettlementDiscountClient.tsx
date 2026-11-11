@@ -893,6 +893,36 @@ export default function CreditCardSettlementDiscountClient() {
                   <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Convert Settled Card Status to Closed. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Step-by-step Section 21 CICRA roadmap &rarr;.</span>
                 </Link>
+
+                <Link href="/federal-bank-credit-card-settlement-percentage" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Federal Bank Card Settlement % Ranges </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Celesta, Scapia &amp; OneCard OTS caveats &rarr;</span>
+                </Link>
+
+                <Link href="/kotak-credit-card-settlement-percentage" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Kotak Credit Card Settlement % Guide </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">League, Zen &amp; Myntra card OTS ranges &rarr;</span>
+                </Link>
+
+                <Link href="/hsbc-credit-card-settlement-percentage" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> HSBC India Credit Card Settlement % </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Visa Platinum, Live+ &amp; Premier OTS rules &rarr;</span>
+                </Link>
+
+                <Link href="/bank-of-baroda-credit-card-settlement-percentage" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Bank of Baroda (BOBCARD) Settlement % </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Eterna, Premier &amp; IRCTC card OTS ranges &rarr;</span>
+                </Link>
+
+                <Link href="/pnb-credit-card-settlement-percentage" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> PNB Credit Card Settlement % Guide </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">RuPay, Visa &amp; Rakshak PSU OTS rules &rarr;</span>
+                </Link>
+
+                <Link href="/union-bank-credit-card-settlement-percentage" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Union Bank Credit Card Settlement % </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">PSU NPA stage bands &amp; RBI caveats &rarr;</span>
+                </Link>
               </div>
             </div>
 

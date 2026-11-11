@@ -461,8 +461,24 @@ export default function StashfinLoanSettlementClient() {
                       KreditBee Settlement
                     </Link>
                   </li>
-
-
+                  <li>
+                    <Link href="/moneytap-loan-settlement" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2"></span>
+                      MoneyTap Loan Settlement
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/mpokket-30-90-days-meaning" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2"></span>
+                      mPokket 30-90 Days Meaning
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/rupee112-repayment-and-settlement" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2"></span>
+                      Rupee112 Loan Settlement
+                    </Link>
+                  </li>
                 </ul>
               </div>
 

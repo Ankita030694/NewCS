@@ -370,6 +370,15 @@ export default function CreditCardSettlementClient() {
                             >
                                 Contact for Legal Help
                             </Link>
+                            <div className="mt-6 pt-4 border-t border-gray-200 text-left space-y-2 text-xs">
+                                <p className="font-bold text-gray-900">Issuer Settlement % Ranges</p>
+                                <Link href="/federal-bank-credit-card-settlement-percentage" className="block text-gray-600 hover:text-blue-600">Federal Bank Card Settlement %</Link>
+                                <Link href="/kotak-credit-card-settlement-percentage" className="block text-gray-600 hover:text-blue-600">Kotak Card Settlement %</Link>
+                                <Link href="/hsbc-credit-card-settlement-percentage" className="block text-gray-600 hover:text-blue-600">HSBC India Card Settlement %</Link>
+                                <Link href="/bank-of-baroda-credit-card-settlement-percentage" className="block text-gray-600 hover:text-blue-600">Bank of Baroda (BOBCARD) %</Link>
+                                <Link href="/pnb-credit-card-settlement-percentage" className="block text-gray-600 hover:text-blue-600">PNB Card Settlement %</Link>
+                                <Link href="/union-bank-credit-card-settlement-percentage" className="block text-gray-600 hover:text-blue-600">Union Bank Card Settlement %</Link>
+                            </div>
                         </div>
                     </aside>
 

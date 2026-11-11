@@ -552,6 +552,36 @@ export default function KrazyBeeLoanSettlementClient() {
                       Fibe (EarlySalary)
                     </Link>
                   </li>
+                  <li>
+                    <Link href="/kreditbee-recovery-agent-home-visit" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2"></span>
+                      KreditBee Home Visit Rules
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/will-kreditbee-agents-come-home" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2"></span>
+                      Will KreditBee Come Home?
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/moneytap-loan-settlement" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2"></span>
+                      MoneyTap Loan Settlement
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/mpokket-30-90-days-meaning" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2"></span>
+                      mPokket 30-90 Days Meaning
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/rupee112-repayment-and-settlement" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2"></span>
+                      Rupee112 Settlement Guide
+                    </Link>
+                  </li>
                 </ul>
               </div>
 

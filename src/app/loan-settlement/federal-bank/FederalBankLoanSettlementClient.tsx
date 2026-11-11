@@ -386,7 +386,12 @@ export default function FederalBankLoanSettlementClient() {
                       ICICI Bank
                     </Link>
                   </li>
-
+                  <li>
+                    <Link href="/federal-bank-credit-card-settlement-percentage" className="text-gray-600 hover:text-amber-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-amber-500 rounded-full mr-2"></span>
+                      Federal Bank Card OTS %
+                    </Link>
+                  </li>
                 </ul>
               </div>
 

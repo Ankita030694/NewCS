@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import BanksGrid from '@/components/BanksGrid';
@@ -512,6 +513,16 @@ export default function AppLoanSettlementPage() {
                   <CTAButton>
                     Get Your Free Consultation.
                   </CTAButton>
+                </div>
+              </div>
+              <div className="w-full rounded-2xl border border-blue-100 bg-blue-50/40 p-6 space-y-3">
+                <p className="font-bold text-sm md:text-base text-[#0C2756]">App-Specific RBI Recovery &amp; Multi-Loan Settlement Guides</p>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 text-xs md:text-sm">
+                  <Link href="/kreditbee-recovery-agent-home-visit" className="p-3 rounded-xl bg-white border border-blue-100 hover:border-blue-300 text-[#0C2756] hover:text-[#007AFF] font-medium transition-colors">KreditBee Agent Home Visit RBI 2027 Rules &rarr;</Link>
+                  <Link href="/will-kreditbee-agents-come-home" className="p-3 rounded-xl bg-white border border-blue-100 hover:border-blue-300 text-[#0C2756] hover:text-[#007AFF] font-medium transition-colors">Will KreditBee Agents Come Home? Facts &rarr;</Link>
+                  <Link href="/moneytap-loan-settlement" className="p-3 rounded-xl bg-white border border-blue-100 hover:border-blue-300 text-[#0C2756] hover:text-[#007AFF] font-medium transition-colors">MoneyTap Credit Line &amp; Loan Settlement &rarr;</Link>
+                  <Link href="/mpokket-30-90-days-meaning" className="p-3 rounded-xl bg-white border border-blue-100 hover:border-blue-300 text-[#0C2756] hover:text-[#007AFF] font-medium transition-colors">mPokket 30, 60 &amp; 90 Days Overdue Meaning &rarr;</Link>
+                  <Link href="/rupee112-repayment-and-settlement" className="p-3 rounded-xl bg-white border border-blue-100 hover:border-blue-300 text-[#0C2756] hover:text-[#007AFF] font-medium transition-colors">Rupee112 Loan Repayment &amp; Settlement Guide &rarr;</Link>
                 </div>
               </div>
             </div>

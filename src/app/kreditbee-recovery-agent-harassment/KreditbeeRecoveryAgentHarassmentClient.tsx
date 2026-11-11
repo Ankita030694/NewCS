@@ -786,6 +786,16 @@ export default function KreditbeeRecoveryAgentHarassmentClient() {
                   <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Section 25 NACH Notice Defense. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Auto-debit failure legal remedies &rarr;.</span>
                 </Link>
+
+                <Link href="/kreditbee-recovery-agent-home-visit" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> KreditBee Agent Home Visit Rules </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">RBI 1 Jan 2027 hours, ID check &amp; NBFC rights &rarr;</span>
+                </Link>
+
+                <Link href="/will-kreditbee-agents-come-home" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Will KreditBee Agents Come Home? </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Ticket-size triggers, city reach &amp; ₹3L+ relief &rarr;</span>
+                </Link>
               </div>
             </div>
 

@@ -506,6 +506,12 @@ export default function KotakLoanSettlementClient() {
                       HDFC Settlement
                     </Link>
                   </li>
+                  <li>
+                    <Link href="/kotak-credit-card-settlement-percentage" className="text-gray-600 hover:text-blue-600 flex items-center group">
+                      <span className="w-1.5 h-1.5 bg-blue-500 group-hover:bg-blue-600 rounded-full mr-2 transition-colors"></span>
+                      Kotak Card Settlement %
+                    </Link>
+                  </li>
                 </ul>
               </div>
 
