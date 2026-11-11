@@ -564,6 +564,30 @@ export default function FibeLoanSettlementClient() {
                       Rupee112 Repayment &amp; OTS
                     </Link>
                   </li>
+                  <li>
+                    <Link href="/ring-loan-settlement" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2"></span>
+                      RING App Loan Settlement
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/cashe-loan-settlement" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2"></span>
+                      CASHe Loan Settlement
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/home-credit-loan-settlement" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2"></span>
+                      Home Credit OTS Guide
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/multiple-app-loans-settlement-total-above-3-lakh" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2"></span>
+                      Settle Multiple Apps &gt;₹3L
+                    </Link>
+                  </li>
                 </ul>
               </div>
 

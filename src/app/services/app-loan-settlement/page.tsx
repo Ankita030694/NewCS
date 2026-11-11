@@ -523,6 +523,10 @@ export default function AppLoanSettlementPage() {
                   <Link href="/moneytap-loan-settlement" className="p-3 rounded-xl bg-white border border-blue-100 hover:border-blue-300 text-[#0C2756] hover:text-[#007AFF] font-medium transition-colors">MoneyTap Credit Line &amp; Loan Settlement &rarr;</Link>
                   <Link href="/mpokket-30-90-days-meaning" className="p-3 rounded-xl bg-white border border-blue-100 hover:border-blue-300 text-[#0C2756] hover:text-[#007AFF] font-medium transition-colors">mPokket 30, 60 &amp; 90 Days Overdue Meaning &rarr;</Link>
                   <Link href="/rupee112-repayment-and-settlement" className="p-3 rounded-xl bg-white border border-blue-100 hover:border-blue-300 text-[#0C2756] hover:text-[#007AFF] font-medium transition-colors">Rupee112 Loan Repayment &amp; Settlement Guide &rarr;</Link>
+                  <Link href="/ring-loan-settlement" className="p-3 rounded-xl bg-white border border-blue-100 hover:border-blue-300 text-[#0C2756] hover:text-[#007AFF] font-medium transition-colors">RING (PayWithRing) &amp; Si Creva Settlement &rarr;</Link>
+                  <Link href="/cashe-loan-settlement" className="p-3 rounded-xl bg-white border border-blue-100 hover:border-blue-300 text-[#0C2756] hover:text-[#007AFF] font-medium transition-colors">CASHe &amp; Bhanix Finance Loan Settlement &rarr;</Link>
+                  <Link href="/home-credit-loan-settlement" className="p-3 rounded-xl bg-white border border-blue-100 hover:border-blue-300 text-[#0C2756] hover:text-[#007AFF] font-medium transition-colors">Home Credit Personal Loan OTS Guide &rarr;</Link>
+                  <Link href="/multiple-app-loans-settlement-total-above-3-lakh" className="p-3 rounded-xl bg-white border border-blue-100 hover:border-blue-300 text-[#0C2756] hover:text-[#007AFF] font-medium transition-colors">Settle Multiple App Loans Above ₹3 Lakh &rarr;</Link>
                 </div>
               </div>
             </div>

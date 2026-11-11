@@ -338,6 +338,7 @@ export default function UnionBankLoanSettlementClient() {
                   <li> <Link href="/union-npa-samadhan-scheme-2027" className="text-gray-600 hover:text-blue-600 flex items-center"> <span className="w-1.5 h-1.5 bg-blue-500 rounded-full mr-2"></span> Union NPA Samadhan 2027 </Link> </li>
                   <li> <Link href="/sbi-ots-scheme-2027" className="text-gray-600 hover:text-blue-600 flex items-center"> <span className="w-1.5 h-1.5 bg-blue-500 rounded-full mr-2"></span> SBI OTS Scheme 2027 </Link> </li>
                   <li> <Link href="/union-bank-credit-card-settlement-percentage" className="text-gray-600 hover:text-blue-600 flex items-center"> <span className="w-1.5 h-1.5 bg-blue-500 rounded-full mr-2"></span> Union Bank Card OTS % </Link> </li>
+                  <li> <Link href="/psu-bank-ots-deadline-march-31-2027" className="text-gray-600 hover:text-blue-600 flex items-center"> <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2"></span> PSU OTS March 31 Cutoff </Link> </li>
                 </ul>
               </div>
 

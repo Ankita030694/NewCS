@@ -511,6 +511,12 @@ export default function SBILoanSettlementClient() {
                       SBI OTS Scheme 2027 Tracker
                     </Link>
                   </li>
+                  <li>
+                    <Link href="/psu-bank-ots-deadline-march-31-2027" className="text-gray-600 hover:text-blue-600 flex items-center">
+                      <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2"></span>
+                      PSU OTS March 31, 2027 Cutoff
+                    </Link>
+                  </li>
                 </ul>
               </div>
 

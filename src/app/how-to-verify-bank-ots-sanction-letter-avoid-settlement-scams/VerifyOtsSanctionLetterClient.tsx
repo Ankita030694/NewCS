@@ -1205,6 +1205,10 @@ export default function VerifyOtsSanctionLetterClient() {
                   <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">Indian Bank OTS Scheme 2027</p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Digital e-OTS sanction verification &rarr;</span>
                 </Link>
+                <Link href="/psu-bank-ots-deadline-march-31-2027" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">PSU Bank OTS March 31, 2027 Deadlines</p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Fiscal cutoff &amp; token forfeiture rules &rarr;</span>
+                </Link>
               </div>
             </div>
 

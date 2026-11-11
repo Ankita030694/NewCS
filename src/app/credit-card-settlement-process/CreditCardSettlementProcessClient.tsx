@@ -919,6 +919,11 @@ export default function CreditCardSettlementProcessClient() {
                   <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> RBL Credit Card Settlement Letter Format. </p>
                   <span className="text-[10px] text-slate-400 mt-1 block">Mandatory OTS clauses &amp; verification steps &rarr;.</span>
                 </Link>
+
+                <Link href="/credit-card-settlement-before-financial-year-end-by-issuer" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Credit Card FY-End Settlement by Issuer </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Q4 NPA write-off cycles across top issuers &rarr;</span>
+                </Link>
               </div>
             </div>
 

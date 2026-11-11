@@ -2181,6 +2181,9 @@ export default function SettleMultipleCreditCardsClient() {
                 <Link href="/sbi-credit-card-blocked-due-to-non-payment" className="block text-blue-700 hover:underline font-medium">
                   SBI Credit Card Blocked for Non-Payment &rarr;
                 </Link>
+                <Link href="/credit-card-settlement-before-financial-year-end-by-issuer" className="block text-blue-700 hover:underline font-medium">
+                  Credit Card FY-End Settlement by Issuer &rarr;
+                </Link>
               </div>
             </div>
 

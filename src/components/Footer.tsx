@@ -61,6 +61,8 @@ export default function Footer({ hideFunnel = false }: FooterProps = {}) {
                   <a href="/loan-settlement-by-bank" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Settlement by Bank</a>
                   <a href="/loan-settlement-by-city" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Loan Settlement by City</a>
                   <a href="/sitemap" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">HTML Sitemap</a>
+                  <a href="/tools/credit-card-minimum-due-calculator" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Card Minimum Due Calculator</a>
+                  <a href="/tools/multiple-credit-card-payoff-vs-settlement-calculator" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Multi-Card Payoff Planner</a>
 
                 </div>
               </div>
@@ -77,6 +79,8 @@ export default function Footer({ hideFunnel = false }: FooterProps = {}) {
                   <a href="/two-wheeler-bike-loan-settlement" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Two-Wheeler / Bike Loan</a>
                   <a href="/services/anti-harassment" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Anti Harassment</a>
                   <a href="/services/credit-score-builder" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Credit Score Improvement</a>
+                  <a href="/multiple-app-loans-settlement-total-above-3-lakh" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Multi-App Settlement (₹3L+)</a>
+                  <a href="/psu-bank-ots-deadline-march-31-2027" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">PSU Bank OTS 2027 Guide</a>
                 </div>
               </div>
 

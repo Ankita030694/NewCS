@@ -378,6 +378,7 @@ export default function CreditCardSettlementClient() {
                                 <Link href="/bank-of-baroda-credit-card-settlement-percentage" className="block text-gray-600 hover:text-blue-600">Bank of Baroda (BOBCARD) %</Link>
                                 <Link href="/pnb-credit-card-settlement-percentage" className="block text-gray-600 hover:text-blue-600">PNB Card Settlement %</Link>
                                 <Link href="/union-bank-credit-card-settlement-percentage" className="block text-gray-600 hover:text-blue-600">Union Bank Card Settlement %</Link>
+                                <Link href="/credit-card-settlement-before-financial-year-end-by-issuer" className="block text-gray-600 hover:text-blue-600">FY-End Q4 Card Settlement Guide</Link>
                             </div>
                         </div>
                     </aside>

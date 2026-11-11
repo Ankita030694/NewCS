@@ -754,6 +754,7 @@ export default function RbiCircularOnLoanSettlementOtsClient() {
                 <Link href="/pnb-ots-scheme-2027" className="block text-slate-700 hover:text-[#1886ff] font-semibold">PNB OTS Scheme 2027 &amp; e-OTS Guide &rarr;</Link>
                 <Link href="/canara-bank-ots-scheme-2027" className="block text-slate-700 hover:text-[#1886ff] font-semibold">Canara Bank OTS Scheme 2027 Tracker &rarr;</Link>
                 <Link href="/indian-bank-ots-scheme-2027" className="block text-slate-700 hover:text-[#1886ff] font-semibold">Indian Bank OTS Scheme 2027 Guide &rarr;</Link>
+                <Link href="/psu-bank-ots-deadline-march-31-2027" className="block text-slate-700 hover:text-[#1886ff] font-semibold">PSU Bank OTS March 31, 2027 Cutoff Rules &rarr;</Link>
               </div>
             </div>
 
