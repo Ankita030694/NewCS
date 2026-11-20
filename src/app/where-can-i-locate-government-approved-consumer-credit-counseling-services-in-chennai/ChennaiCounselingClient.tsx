@@ -167,7 +167,7 @@ export default function ChennaiCounselingClient() {
               Get Free Case Review
             </Link>
             <button 
-              onClick={() => window.open('https://api.whatsapp.com/send?phone=919540003295&text=Help%20me%20find%20credit%20counseling%20in%20Chennai', '_blank')}
+              onClick={() => window.open('https://api.whatsapp.com/send?phone=919289622596&text=Help%20me%20find%20credit%20counseling%20in%20Chennai', '_blank')}
               className="bg-white text-blue-900 px-12 py-5 rounded-full font-bold text-xl hover:bg-gray-100 transition-all shadow-xl transform hover:-translate-y-1"
             >
               WhatsApp Support
@@ -516,7 +516,7 @@ export default function ChennaiCounselingClient() {
                 <p className="font-black text-2xl text-gray-900 mb-4">valid Help</p>
                 <p className="text-[15px] text-gray-600 mb-8 leading-relaxed">Learn how to access RBI-approved centers for free. Checked money guidance in Chennai.</p>
                 <button 
-                  onClick={() => window.open('https://api.whatsapp.com/send?phone=919540003295&text=Help%20me%20find%20Disha%20Chennai', '_blank')}
+                  onClick={() => window.open('https://api.whatsapp.com/send?phone=919289622596&text=Help%20me%20find%20Disha%20Chennai', '_blank')}
                   className="block w-full bg-blue-600 text-white font-bold py-4 px-6 rounded-2xl hover:bg-blue-700 transition-all shadow-blue-500/20 shadow-lg"
                 >
                   Locate Now

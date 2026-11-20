@@ -156,7 +156,7 @@ export default function EffectiveNegotiationClient() {
           </p>
           <div className="flex flex-col sm:flex-row gap-5 justify-center">
             <button 
-              onClick={() => window.open('https://api.whatsapp.com/send?phone=919540003295&text=Help%20me%20find%20the%20best%20settlement%20service', '_blank')}
+              onClick={() => window.open('https://api.whatsapp.com/send?phone=919289622596&text=Help%20me%20find%20the%20best%20settlement%20service', '_blank')}
               className="bg-white text-blue-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
             >
               Consult an Expert Now
@@ -525,7 +525,7 @@ export default function EffectiveNegotiationClient() {
                 <p className="text-blue-800 mb-8 max-w-2xl mx-auto">Don’t navigate the complex world of debt settlement alone. Let our expert negotiators and legal advisors handle the banks for you, ensuring the best possible terms and total protection from harassment.</p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <button 
-                    onClick={() => window.open('https://api.whatsapp.com/send?phone=919540003295&text=I%20need%20professional%20debt%20negotiation%20help', '_blank')}
+                    onClick={() => window.open('https://api.whatsapp.com/send?phone=919289622596&text=I%20need%20professional%20debt%20negotiation%20help', '_blank')}
                     className="bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md transform hover:scale-105"
                   >
                     Start Your Free Consultation
@@ -544,7 +544,7 @@ export default function EffectiveNegotiationClient() {
                 <p className="font-bold text-xl text-gray-900 mb-2">Effective Negotiation?</p>
                 <p className="text-sm text-gray-600 mb-6">Learn how professional mediators can settle your debt for 50-75% less and stop collection harassment today.</p>
                 <button 
-                  onClick={() => window.open('https://api.whatsapp.com/send?phone=919540003295&text=Help%20me%20negotiate%20my%20loan', '_blank')}
+                  onClick={() => window.open('https://api.whatsapp.com/send?phone=919289622596&text=Help%20me%20negotiate%20my%20loan', '_blank')}
                   className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md text-center"
                 >
                   Hire a Professional

@@ -4,6 +4,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
 import WhatsAppWidget from "@/components/WhatsAppWidget";
+import WhatsAppLinkTagger from "@/components/WhatsAppLinkTagger";
 import GlobalPopupForm from "@/components/GlobalPopupForm";
 import ReCaptchaProvider from "@/components/ReCaptchaProvider";
 
@@ -135,6 +136,7 @@ export default function RootLayout({
           <Analytics />
           <GlobalPopupForm />
           <WhatsAppWidget />
+          <WhatsAppLinkTagger />
         </ReCaptchaProvider>
       </body>
     </html>

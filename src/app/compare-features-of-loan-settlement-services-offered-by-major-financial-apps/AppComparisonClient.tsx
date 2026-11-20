@@ -428,7 +428,7 @@ export default function AppComparisonClient() {
                 <p className="font-bold text-xl text-gray-900 mb-2">Compare & Choose</p>
                 <p className="text-sm text-gray-600 mb-6">Unsure which app is right for you? Consult with our experts to find the perfect debt resolution match.</p>
                 <button 
-                  onClick={() => window.open('https://api.whatsapp.com/send?phone=919540003295&text=Help%20me%20choose%20the%20right%20settlement%20app', '_blank')}
+                  onClick={() => window.open('https://api.whatsapp.com/send?phone=919289622596&text=Help%20me%20choose%20the%20right%20settlement%20app', '_blank')}
                   className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md text-center"
                 >
                   Expert Advice

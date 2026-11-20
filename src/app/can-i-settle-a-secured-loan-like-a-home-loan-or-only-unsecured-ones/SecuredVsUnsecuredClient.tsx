@@ -174,7 +174,7 @@ export default function SecuredVsUnsecuredClient() {
           </p>
           <div className="flex flex-col sm:flex-row gap-5 justify-center">
             <button 
-              onClick={() => window.open('https://api.whatsapp.com/send?phone=919540003295&text=I%20want%20to%20settle%20my%20loan', '_blank')}
+              onClick={() => window.open('https://api.whatsapp.com/send?phone=919289622596&text=I%20want%20to%20settle%20my%20loan', '_blank')}
               className="bg-white text-blue-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
             >
               Get Free Consultation
@@ -511,7 +511,7 @@ export default function SecuredVsUnsecuredClient() {
                 <h3 className="text-2xl font-bold text-blue-900 mb-4">Need Help Settling a Secured Loan?</h3>
                 <p className="text-blue-800 mb-6">Don’t let the legal notices overwhelm you. Our legal team can help you negotiate a fair settlement and protect your property.</p>
                 <button 
-                  onClick={() => window.open('https://api.whatsapp.com/send?phone=919540003295&text=I%20want%20to%20settle%20my%20loan', '_blank')}
+                  onClick={() => window.open('https://api.whatsapp.com/send?phone=919289622596&text=I%20want%20to%20settle%20my%20loan', '_blank')}
                   className="inline-block bg-blue-600 text-white font-bold py-4 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md"
                 >
                   Message on WhatsApp
@@ -546,7 +546,7 @@ export default function SecuredVsUnsecuredClient() {
                 <p className="font-bold text-xl text-gray-900 mb-2">Start Resolution</p>
                 <p className="text-sm text-gray-600 mb-6">Facing a SARFAESI notice? Get professional help today to negotiate the best OTS terms.</p>
                 <button 
-                  onClick={() => window.open('https://api.whatsapp.com/send?phone=919540003295&text=I%20want%20to%20settle%20my%20loan', '_blank')}
+                  onClick={() => window.open('https://api.whatsapp.com/send?phone=919289622596&text=I%20want%20to%20settle%20my%20loan', '_blank')}
                   className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md text-center"
                 >
                   Start Consultation

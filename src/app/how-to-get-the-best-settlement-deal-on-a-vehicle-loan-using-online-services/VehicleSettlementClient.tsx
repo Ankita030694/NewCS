@@ -148,7 +148,7 @@ export default function VehicleSettlementClient() {
           </p>
           <div className="flex flex-col sm:flex-row gap-5 justify-center">
             <Link 
-              href="https://api.whatsapp.com/send?phone=919540003295&text=Help%20me%20settle%20my%20vehicle%20loan" 
+              href="https://api.whatsapp.com/send?phone=919289622596&text=Help%20me%20settle%20my%20vehicle%20loan" 
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-blue-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
@@ -378,7 +378,7 @@ export default function VehicleSettlementClient() {
                 <p className="mb-10 opacity-80 max-w-2xl mx-auto">Take control of your vehicle debt today. Our online partners specializing in car and bike loans are just a click away to secure your asset and your peace of mind.</p>
                 <div className="flex flex-col sm:flex-row gap-5 justify-center">
                   <Link 
-                    href="https://api.whatsapp.com/send?phone=919540003295&text=Start%20my%20vehicle%20loan%20settlement" 
+                    href="https://api.whatsapp.com/send?phone=919289622596&text=Start%20my%20vehicle%20loan%20settlement" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-white text-blue-900 px-10 py-5 rounded-full font-bold text-xl hover:bg-opacity-95 transition-all shadow-xl transform hover:-translate-y-1"
@@ -403,7 +403,7 @@ export default function VehicleSettlementClient() {
                   <span>Act in 24 Hours</span>
                 </div>
                 <button 
-                  onClick={() => window.open('https://api.whatsapp.com/send?phone=919540003295&text=Emergency%20help%3A%20Vehicle%20repossession', '_blank')}
+                  onClick={() => window.open('https://api.whatsapp.com/send?phone=919289622596&text=Emergency%20help%3A%20Vehicle%20repossession', '_blank')}
                   className="block w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-xl hover:bg-blue-700 transition-colors shadow-md text-center"
                 >
                   Emergency Help
