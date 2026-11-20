@@ -125,9 +125,10 @@ export async function POST(request: NextRequest) {
       canPay: body.canPay || '',
       city: stateOrCity,
       state: stateOrCity,
-      created: body.created || Date.now(),
+      // Server time only: a visitor's phone clock can be hours off (a lead once showed up dated 29h ahead)
+      created: Date.now(),
       creditCardDues: body.creditCardDues || '',
-      date: body.date || today,
+      date: today,
       email: email,
       employmentStatus: body.employmentStatus || '',
       harassment: body.harassment || '',
