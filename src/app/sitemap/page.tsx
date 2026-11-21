@@ -242,6 +242,94 @@ const sitemapLinks = [
     href: "/bajaj-finserv-personal-loan-settlement",
   },
   {
+    title: "Failed POS Double Charge on Card: RBI 100/Day Refund",
+    href: "/double-swipe-failed-pos-credit-card-rbi-100-day-rule",
+  },
+  {
+    title: "Credit Line Against NSC, KVP & SGB Default Rules India",
+    href: "/credit-line-against-nsc-kvp-sovereign-gold-bond-default",
+  },
+  {
+    title: "Credit Card Voucher & Cashback Clawback in Settlement",
+    href: "/bank-clawback-credit-card-welcome-vouchers-settlement",
+  },
+  {
+    title: "BNPL Pay Later Shadow NBFC Entries on CIBIL: Closure",
+    href: "/bnpl-pay-later-shadow-nbfc-loan-entries-cibil-closure",
+  },
+  {
+    title: "Credit Card Bank Migration Billing & CIBIL Disputes",
+    href: "/credit-card-bank-merger-portfolio-migration-dispute",
+  },
+  {
+    title: "Credit Card Interest Rate Hike: RBI 45-Day Opt-Out Law",
+    href: "/bank-increased-credit-card-apr-interest-rbi-opt-out",
+  },
+  {
+    title: "Credit Card EMI Conversion Rejected After Swipe: Help",
+    href: "/credit-card-post-purchase-emi-conversion-rejected-help",
+  },
+  {
+    title: "Sudden Credit Card Limit Slash & High Utilization Fix",
+    href: "/sudden-credit-card-limit-reduction-high-utilization-fix",
+  },
+  {
+    title: "Co-Branded Credit Card Default: Partner App Block Law",
+    href: "/co-branded-credit-card-default-partner-app-block-rules",
+  },
+  {
+    title: "Unactivated Credit Card Charges: RBI 500/Day Penalty",
+    href: "/unactivated-credit-card-charges-rbi-500-day-penalty",
+  },
+  {
+    title: "International Forex Credit Card Default & FEMA Rules",
+    href: "/international-forex-credit-card-default-fema-tcs-rules",
+  },
+  {
+    title: "Credit Card Rent Payment Rotation Block & Settlement",
+    href: "/credit-card-rent-payment-rotation-block-settlement",
+  },
+  {
+    title: "Credit Card Balance Transfer Default: Interest Rules",
+    href: "/credit-card-balance-transfer-default-interest-rules",
+  },
+  {
+    title: "Unbilled Credit Card EMI Foreclosure on Default Rules",
+    href: "/unbilled-credit-card-merchant-emi-foreclosure-default",
+  },
+  {
+    title: "Credit Card Overlimit Fee Without Consent: RBI Refund",
+    href: "/credit-card-overlimit-fee-without-consent-rbi-refund",
+  },
+  {
+    title: "Credit Card Reward Points Forfeiture on Overdue Rules",
+    href: "/credit-card-reward-points-forfeiture-overdue-rules",
+  },
+  {
+    title: "Credit Card ATM Cash Advance Debt Trap & Settlement",
+    href: "/credit-card-atm-cash-withdrawal-interest-trap-settlement",
+  },
+  {
+    title: "Merchant Refund on Blocked or Settled Credit Card Law",
+    href: "/merchant-refund-on-blocked-settled-credit-card-recovery",
+  },
+  {
+    title: "Jumbo Loan on Credit Card Default: Dual Account Rules",
+    href: "/jumbo-insta-loan-on-credit-card-default-settlement",
+  },
+  {
+    title: "FD-Backed Credit Card Default: Deposit Liquidation Law",
+    href: "/fd-backed-secured-credit-card-default-liquidation-rules",
+  },
+  {
+    title: "RuPay Credit Card UPI Debt Default: Settlement Rules",
+    href: "/rupay-credit-card-upi-debt-default-settlement-rules",
+  },
+  {
+    title: "Add-On Credit Card Default: Primary Holder Liability",
+    href: "/add-on-supplementary-credit-card-default-liability",
+  },
+  {
     title: "RBI ₹5,000 Per Day Delay Compensation for Property Documents",
     href: "/rbi-5000-per-day-delay-compensation-property-documents",
   },
