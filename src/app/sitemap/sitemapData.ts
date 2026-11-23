@@ -7,6 +7,336 @@ export interface SitemapLink {
 // Auto-generated hardcoded query-based pages sorted in descending order of git creation date (latest first)
 export const sitemapLinks: SitemapLink[] = [
   {
+    title: "Post Write-Off Settled (PWOS) Meaning on Loan Report",
+    href: "/post-write-off-settled-pwos-meaning-personal-loan",
+    date: "23-11-2026",
+  },
+  {
+    title: "RBI 15-Day Fortnightly Bureau Update After Settlement",
+    href: "/rbi-15-day-fortnightly-credit-bureau-update-settlement",
+    date: "23-11-2026",
+  },
+  {
+    title: "Loan Settled in CIBIL But Overdue in CRIF & Equifax",
+    href: "/personal-loan-settled-cibil-still-overdue-crif-equifax",
+    date: "23-11-2026",
+  },
+  {
+    title: "Personal Loan OTS vs Insolvency: CA, CS & SEBI License",
+    href: "/personal-loan-settlement-ca-cs-advocate-sebi-license",
+    date: "23-11-2026",
+  },
+  {
+    title: "Does Indian Personal Loan Default Affect Foreign Visa?",
+    href: "/does-personal-loan-default-affect-foreign-study-work-visa",
+    date: "23-11-2026",
+  },
+  {
+    title: "Switching Salary Bank Account During Loan Default Guide",
+    href: "/can-hr-refuse-salary-account-switch-personal-loan",
+    date: "23-11-2026",
+  },
+  {
+    title: "Can Employer Hold Relieving Letter for Staff Loan?",
+    href: "/employer-withholding-relieving-letter-fnf-staff-loan",
+    date: "23-11-2026",
+  },
+  {
+    title: "IBPS & Bank Job Selection With Settled Personal Loan",
+    href: "/ibps-bank-job-verification-settled-personal-loan-cibil",
+    date: "23-11-2026",
+  },
+  {
+    title: "Top-Up Personal Loan Default: Dual Account Settlement",
+    href: "/top-up-personal-loan-default-dual-account-settlement",
+    date: "23-11-2026",
+  },
+  {
+    title: "Flexi Personal Loan & Drop-Line Overdraft Settlement",
+    href: "/flexi-hybrid-personal-loan-drop-line-overdraft-settle",
+    date: "23-11-2026",
+  },
+  {
+    title: "NBFC Hitting Mandate 5 Times a Month: Bounce Refund",
+    href: "/nbfc-presenting-mandate-multiple-times-month-bounce-fee",
+    date: "23-11-2026",
+  },
+  {
+    title: "UPI Autopay Pause vs Revoke for Personal Loan EMIs",
+    href: "/upi-autopay-mandate-pause-vs-revoke-personal-loan-emi",
+    date: "23-11-2026",
+  },
+  {
+    title: "Unknown NBFC Downloaded Your CKYC? Stop Loan Misuse",
+    href: "/unknown-nbfc-downloaded-ckyc-record-prevent-loan-fraud",
+    date: "23-11-2026",
+  },
+  {
+    title: "Remove Unauthorized Multiple CIBIL Loan Hard Inquiries",
+    href: "/remove-unauthorized-multiple-cibil-hard-inquiries-loan",
+    date: "23-11-2026",
+  },
+  {
+    title: "DPDP Act 2023 Data Erasure Rights Against Loan Apps",
+    href: "/dpdp-act-2023-data-erasure-digital-personal-loan-apps",
+    date: "23-11-2026",
+  },
+  {
+    title: "Revoke Account Aggregator Consent in Loan Default Guide",
+    href: "/revoke-account-aggregator-consent-personal-loan-default",
+    date: "23-11-2026",
+  },
+  {
+    title: "Personal Loan Interest Before Disbursal: RBI Refund",
+    href: "/personal-loan-interest-before-disbursal-bpi-rbi-refund",
+    date: "23-11-2026",
+  },
+  {
+    title: "Flat Rate vs Reducing APR Personal Loan Mis-Selling",
+    href: "/flat-interest-rate-vs-reducing-apr-personal-loan-trap",
+    date: "23-11-2026",
+  },
+  {
+    title: "Personal Loan Fees Missing in KFS: RBI Refund Mandate",
+    href: "/personal-loan-hidden-charges-not-in-kfs-rbi-refund",
+    date: "23-11-2026",
+  },
+  {
+    title: "Credit Card Wallet Load MCC 6540 Surcharge Debt Trap",
+    href: "/credit-card-quasi-cash-wallet-load-mcc-6540-debt-trap",
+    date: "23-11-2026",
+  },
+  {
+    title: "Credit Card EMI Foreclosure 3% Penalty Waiver Rules",
+    href: "/credit-card-merchant-emi-foreclosure-3-percent-dispute",
+    date: "23-11-2026",
+  },
+  {
+    title: "Negative Balance on Forex & Travel Credit Cards: Guide",
+    href: "/negative-balance-forex-travel-card-offline-recovery",
+    date: "23-11-2026",
+  },
+  {
+    title: "Blocking vs Closing Credit Card: Stop Hidden Fee Traps",
+    href: "/blocking-hotlisting-credit-card-does-not-stop-fees",
+    date: "23-11-2026",
+  },
+  {
+    title: "OTS Payment Credited to Regular Card Bill: Legal Fix",
+    href: "/ots-payment-credited-to-regular-credit-card-bill-fix",
+    date: "23-11-2026",
+  },
+  {
+    title: "Credit Card MITC Fee Change Without 30-Day RBI Notice",
+    href: "/credit-card-mitc-charges-changed-without-30-day-notice",
+    date: "23-11-2026",
+  },
+  {
+    title: "Predatory Student Credit Card Without Income: Dispute",
+    href: "/credit-card-issued-to-student-without-income-dispute",
+    date: "23-11-2026",
+  },
+  {
+    title: "Failed POS Double Charge on Card: RBI 100/Day Refund",
+    href: "/double-swipe-failed-pos-credit-card-rbi-100-day-rule",
+    date: "21-11-2026",
+  },
+  {
+    title: "Credit Line Against NSC, KVP & SGB Default Rules India",
+    href: "/credit-line-against-nsc-kvp-sovereign-gold-bond-default",
+    date: "21-11-2026",
+  },
+  {
+    title: "Credit Card Voucher & Cashback Clawback in Settlement",
+    href: "/bank-clawback-credit-card-welcome-vouchers-settlement",
+    date: "21-11-2026",
+  },
+  {
+    title: "Delete Tokenized Credit Cards to Stop Auto-Debits Guide",
+    href: "/rbi-card-tokenization-stop-merchant-charges-overdue",
+    date: "21-11-2026",
+  },
+  {
+    title: "No-Cost EMI Hidden Interest & GST Trap on Credit Cards",
+    href: "/no-cost-emi-hidden-subvention-interest-gst-credit-card",
+    date: "21-11-2026",
+  },
+  {
+    title: "Credit Card Statement Not Received: Late Fee Reversal",
+    href: "/credit-card-statement-not-received-late-fee-dispute",
+    date: "21-11-2026",
+  },
+  {
+    title: "SIM Swap Credit Card Fraud Debt: RBI Zero Liability",
+    href: "/sim-swap-phishing-credit-card-debt-rbi-zero-liability",
+    date: "21-11-2026",
+  },
+  {
+    title: "Credit Card Blocked for Commercial Spends: Debt Guide",
+    href: "/credit-card-blocked-for-commercial-usage-debt-recall",
+    date: "21-11-2026",
+  },
+  {
+    title: "BNPL Pay Later Shadow NBFC Entries on CIBIL: Closure",
+    href: "/bnpl-pay-later-shadow-nbfc-loan-entries-cibil-closure",
+    date: "21-11-2026",
+  },
+  {
+    title: "Pre-Sanctioned Credit Line on UPI Default Settlement",
+    href: "/pre-sanctioned-credit-line-on-upi-default-settlement",
+    date: "21-11-2026",
+  },
+  {
+    title: "Credit Card Bank Migration Billing & CIBIL Disputes",
+    href: "/credit-card-bank-merger-portfolio-migration-dispute",
+    date: "21-11-2026",
+  },
+  {
+    title: "Credit Card Interest Rate Hike: RBI 45-Day Opt-Out Law",
+    href: "/bank-increased-credit-card-apr-interest-rbi-opt-out",
+    date: "21-11-2026",
+  },
+  {
+    title: "Credit Card Auto-Debit Failed With Sufficient Balance",
+    href: "/credit-card-auto-debit-failed-sufficient-balance-cibil",
+    date: "21-11-2026",
+  },
+  {
+    title: "Credit Card Bill Paid to Wrong Number: Recovery Guide",
+    href: "/credit-card-bill-paid-wrong-card-number-neft-recovery",
+    date: "21-11-2026",
+  },
+  {
+    title: "Excess Payment on Blocked Credit Card: RBI Refund Law",
+    href: "/excess-overpayment-blocked-credit-card-refund-rbi-rule",
+    date: "21-11-2026",
+  },
+  {
+    title: "Credit Card EMI Conversion Rejected After Swipe: Help",
+    href: "/credit-card-post-purchase-emi-conversion-rejected-help",
+    date: "21-11-2026",
+  },
+  {
+    title: "Charge Card vs Credit Card Default Settlement in India",
+    href: "/charge-card-vs-credit-card-default-settlement-india",
+    date: "21-11-2026",
+  },
+  {
+    title: "Unauthorized Card Protection Plan (CPP) Charge Refund",
+    href: "/unauthorized-card-protection-plan-cpp-charges-refund",
+    date: "21-11-2026",
+  },
+  {
+    title: "Does One Credit Card Default Block Other Bank Cards?",
+    href: "/one-credit-card-default-blocks-second-card-same-bank",
+    date: "21-11-2026",
+  },
+  {
+    title: "Sudden Credit Card Limit Slash & High Utilization Fix",
+    href: "/sudden-credit-card-limit-reduction-high-utilization-fix",
+    date: "21-11-2026",
+  },
+  {
+    title: "18% GST on Credit Card Interest & OTS Waiver Explained",
+    href: "/is-18-percent-gst-waived-credit-card-settlement-ots",
+    date: "21-11-2026",
+  },
+  {
+    title: "Change Credit Card Billing Date: RBI Salary Sync Rule",
+    href: "/change-credit-card-billing-cycle-date-rbi-salary-rule",
+    date: "21-11-2026",
+  },
+  {
+    title: "Co-Branded Credit Card Default: Partner App Block Law",
+    href: "/co-branded-credit-card-default-partner-app-block-rules",
+    date: "21-11-2026",
+  },
+  {
+    title: "Unactivated Credit Card Charges: RBI 500/Day Penalty",
+    href: "/unactivated-credit-card-charges-rbi-500-day-penalty",
+    date: "21-11-2026",
+  },
+  {
+    title: "Unused Credit Card Annual Fee Ruined CIBIL: RBI Rule",
+    href: "/unused-credit-card-annual-fee-cibil-npa-rbi-closure",
+    date: "21-11-2026",
+  },
+  {
+    title: "Unsolicited Credit Card Upgrade: RBI Double Penalty",
+    href: "/unsolicited-credit-card-upgrade-limit-increase-rbi-rule",
+    date: "21-11-2026",
+  },
+  {
+    title: "Pending Credit Card Chargeback: RBI Shadow Credit Law",
+    href: "/credit-card-pending-chargeback-rbi-shadow-credit-rules",
+    date: "21-11-2026",
+  },
+  {
+    title: "International Forex Credit Card Default & FEMA Rules",
+    href: "/international-forex-credit-card-default-fema-tcs-rules",
+    date: "21-11-2026",
+  },
+  {
+    title: "Credit Card Rent Payment Rotation Block & Settlement",
+    href: "/credit-card-rent-payment-rotation-block-settlement",
+    date: "21-11-2026",
+  },
+  {
+    title: "Credit Card Balance Transfer Default: Interest Rules",
+    href: "/credit-card-balance-transfer-default-interest-rules",
+    date: "21-11-2026",
+  },
+  {
+    title: "Credit Card Reward Points Forfeiture on Overdue Rules",
+    href: "/credit-card-reward-points-forfeiture-overdue-rules",
+    date: "21-11-2026",
+  },
+  {
+    title: "Merchant Refund on Blocked or Settled Credit Card Law",
+    href: "/merchant-refund-on-blocked-settled-credit-card-recovery",
+    date: "21-11-2026",
+  },
+  {
+    title: "Credit Card Overlimit Fee Without Consent: RBI Refund",
+    href: "/credit-card-overlimit-fee-without-consent-rbi-refund",
+    date: "21-11-2026",
+  },
+  {
+    title: "Credit Card ATM Cash Advance Debt Trap & Settlement",
+    href: "/credit-card-atm-cash-withdrawal-interest-trap-settlement",
+    date: "21-11-2026",
+  },
+  {
+    title: "Unbilled Credit Card EMI Foreclosure on Default Rules",
+    href: "/unbilled-credit-card-merchant-emi-foreclosure-default",
+    date: "21-11-2026",
+  },
+  {
+    title: "Jumbo Loan on Credit Card Default: Dual Account Rules",
+    href: "/jumbo-insta-loan-on-credit-card-default-settlement",
+    date: "21-11-2026",
+  },
+  {
+    title: "FD-Backed Credit Card Default: Deposit Liquidation Law",
+    href: "/fd-backed-secured-credit-card-default-liquidation-rules",
+    date: "21-11-2026",
+  },
+  {
+    title: "Corporate Credit Card Default: Employee vs Company Law",
+    href: "/corporate-credit-card-default-employee-company-liability",
+    date: "21-11-2026",
+  },
+  {
+    title: "Add-On Credit Card Default: Primary Holder Liability",
+    href: "/add-on-supplementary-credit-card-default-liability",
+    date: "21-11-2026",
+  },
+  {
+    title: "RuPay Credit Card UPI Debt Default: Settlement Rules",
+    href: "/rupay-credit-card-upi-debt-default-settlement-rules",
+    date: "21-11-2026",
+  },
+  {
     title: "RING (PayWithRing) App Loan & Si Creva Settlement Guide",
     href: "/ring-loan-settlement",
     date: "11-11-2026",
@@ -290,206 +620,6 @@ export const sitemapLinks: SitemapLink[] = [
     title: "Bajaj Finserv Personal Loan Settlement Process & OTS",
     href: "/bajaj-finserv-personal-loan-settlement",
     date: "18-10-2026",
-  },
-  {
-    title: "Failed POS Double Charge on Card: RBI 100/Day Refund",
-    href: "/double-swipe-failed-pos-credit-card-rbi-100-day-rule",
-    date: "21-11-2026",
-  },
-  {
-    title: "Credit Line Against NSC, KVP & SGB Default Rules India",
-    href: "/credit-line-against-nsc-kvp-sovereign-gold-bond-default",
-    date: "21-11-2026",
-  },
-  {
-    title: "Credit Card Voucher & Cashback Clawback in Settlement",
-    href: "/bank-clawback-credit-card-welcome-vouchers-settlement",
-    date: "21-11-2026",
-  },
-  {
-    title: "Delete Tokenized Credit Cards to Stop Auto-Debits Guide",
-    href: "/rbi-card-tokenization-stop-merchant-charges-overdue",
-    date: "21-11-2026",
-  },
-  {
-    title: "No-Cost EMI Hidden Interest & GST Trap on Credit Cards",
-    href: "/no-cost-emi-hidden-subvention-interest-gst-credit-card",
-    date: "21-11-2026",
-  },
-  {
-    title: "Credit Card Statement Not Received: Late Fee Reversal",
-    href: "/credit-card-statement-not-received-late-fee-dispute",
-    date: "21-11-2026",
-  },
-  {
-    title: "SIM Swap Credit Card Fraud Debt: RBI Zero Liability",
-    href: "/sim-swap-phishing-credit-card-debt-rbi-zero-liability",
-    date: "21-11-2026",
-  },
-  {
-    title: "Credit Card Blocked for Commercial Spends: Debt Guide",
-    href: "/credit-card-blocked-for-commercial-usage-debt-recall",
-    date: "21-11-2026",
-  },
-  {
-    title: "BNPL Pay Later Shadow NBFC Entries on CIBIL: Closure",
-    href: "/bnpl-pay-later-shadow-nbfc-loan-entries-cibil-closure",
-    date: "21-11-2026",
-  },
-  {
-    title: "Pre-Sanctioned Credit Line on UPI Default Settlement",
-    href: "/pre-sanctioned-credit-line-on-upi-default-settlement",
-    date: "21-11-2026",
-  },
-  {
-    title: "Credit Card Bank Migration Billing & CIBIL Disputes",
-    href: "/credit-card-bank-merger-portfolio-migration-dispute",
-    date: "21-11-2026",
-  },
-  {
-    title: "Credit Card Interest Rate Hike: RBI 45-Day Opt-Out Law",
-    href: "/bank-increased-credit-card-apr-interest-rbi-opt-out",
-    date: "21-11-2026",
-  },
-  {
-    title: "Credit Card Auto-Debit Failed With Sufficient Balance",
-    href: "/credit-card-auto-debit-failed-sufficient-balance-cibil",
-    date: "21-11-2026",
-  },
-  {
-    title: "Credit Card Bill Paid to Wrong Number: Recovery Guide",
-    href: "/credit-card-bill-paid-wrong-card-number-neft-recovery",
-    date: "21-11-2026",
-  },
-  {
-    title: "Credit Card EMI Conversion Rejected After Swipe: Help",
-    href: "/credit-card-post-purchase-emi-conversion-rejected-help",
-    date: "21-11-2026",
-  },
-  {
-    title: "Excess Payment on Blocked Credit Card: RBI Refund Law",
-    href: "/excess-overpayment-blocked-credit-card-refund-rbi-rule",
-    date: "21-11-2026",
-  },
-  {
-    title: "Unauthorized Card Protection Plan (CPP) Charge Refund",
-    href: "/unauthorized-card-protection-plan-cpp-charges-refund",
-    date: "21-11-2026",
-  },
-  {
-    title: "Charge Card vs Credit Card Default Settlement in India",
-    href: "/charge-card-vs-credit-card-default-settlement-india",
-    date: "21-11-2026",
-  },
-  {
-    title: "Sudden Credit Card Limit Slash & High Utilization Fix",
-    href: "/sudden-credit-card-limit-reduction-high-utilization-fix",
-    date: "21-11-2026",
-  },
-  {
-    title: "18% GST on Credit Card Interest & OTS Waiver Explained",
-    href: "/is-18-percent-gst-waived-credit-card-settlement-ots",
-    date: "21-11-2026",
-  },
-  {
-    title: "Does One Credit Card Default Block Other Bank Cards?",
-    href: "/one-credit-card-default-blocks-second-card-same-bank",
-    date: "21-11-2026",
-  },
-  {
-    title: "Change Credit Card Billing Date: RBI Salary Sync Rule",
-    href: "/change-credit-card-billing-cycle-date-rbi-salary-rule",
-    date: "21-11-2026",
-  },
-  {
-    title: "Co-Branded Credit Card Default: Partner App Block Law",
-    href: "/co-branded-credit-card-default-partner-app-block-rules",
-    date: "21-11-2026",
-  },
-  {
-    title: "Unactivated Credit Card Charges: RBI 500/Day Penalty",
-    href: "/unactivated-credit-card-charges-rbi-500-day-penalty",
-    date: "21-11-2026",
-  },
-  {
-    title: "Unused Credit Card Annual Fee Ruined CIBIL: RBI Rule",
-    href: "/unused-credit-card-annual-fee-cibil-npa-rbi-closure",
-    date: "21-11-2026",
-  },
-  {
-    title: "Unsolicited Credit Card Upgrade: RBI Double Penalty",
-    href: "/unsolicited-credit-card-upgrade-limit-increase-rbi-rule",
-    date: "21-11-2026",
-  },
-  {
-    title: "Pending Credit Card Chargeback: RBI Shadow Credit Law",
-    href: "/credit-card-pending-chargeback-rbi-shadow-credit-rules",
-    date: "21-11-2026",
-  },
-  {
-    title: "International Forex Credit Card Default & FEMA Rules",
-    href: "/international-forex-credit-card-default-fema-tcs-rules",
-    date: "21-11-2026",
-  },
-  {
-    title: "Credit Card Rent Payment Rotation Block & Settlement",
-    href: "/credit-card-rent-payment-rotation-block-settlement",
-    date: "21-11-2026",
-  },
-  {
-    title: "Credit Card Balance Transfer Default: Interest Rules",
-    href: "/credit-card-balance-transfer-default-interest-rules",
-    date: "21-11-2026",
-  },
-  {
-    title: "Unbilled Credit Card EMI Foreclosure on Default Rules",
-    href: "/unbilled-credit-card-merchant-emi-foreclosure-default",
-    date: "21-11-2026",
-  },
-  {
-    title: "Credit Card Overlimit Fee Without Consent: RBI Refund",
-    href: "/credit-card-overlimit-fee-without-consent-rbi-refund",
-    date: "21-11-2026",
-  },
-  {
-    title: "Credit Card Reward Points Forfeiture on Overdue Rules",
-    href: "/credit-card-reward-points-forfeiture-overdue-rules",
-    date: "21-11-2026",
-  },
-  {
-    title: "Credit Card ATM Cash Advance Debt Trap & Settlement",
-    href: "/credit-card-atm-cash-withdrawal-interest-trap-settlement",
-    date: "21-11-2026",
-  },
-  {
-    title: "Merchant Refund on Blocked or Settled Credit Card Law",
-    href: "/merchant-refund-on-blocked-settled-credit-card-recovery",
-    date: "21-11-2026",
-  },
-  {
-    title: "Jumbo Loan on Credit Card Default: Dual Account Rules",
-    href: "/jumbo-insta-loan-on-credit-card-default-settlement",
-    date: "21-11-2026",
-  },
-  {
-    title: "Corporate Credit Card Default: Employee vs Company Law",
-    href: "/corporate-credit-card-default-employee-company-liability",
-    date: "21-11-2026",
-  },
-  {
-    title: "FD-Backed Credit Card Default: Deposit Liquidation Law",
-    href: "/fd-backed-secured-credit-card-default-liquidation-rules",
-    date: "21-11-2026",
-  },
-  {
-    title: "RuPay Credit Card UPI Debt Default: Settlement Rules",
-    href: "/rupay-credit-card-upi-debt-default-settlement-rules",
-    date: "21-11-2026",
-  },
-  {
-    title: "Add-On Credit Card Default: Primary Holder Liability",
-    href: "/add-on-supplementary-credit-card-default-liability",
-    date: "21-11-2026",
   },
   {
     title: "RBI ₹5,000 Per Day Delay Compensation for Property Documents",
