@@ -87,39 +87,39 @@ export default function RbiFortnightlyBureauUpdateClient() {
     },
     {
       q: 'How fast does a settled personal loan show on CIBIL under RBI rules?',
-      a: 'Once your bank closes your OTS ledger and issues an NDC, it reports the closure in the next cycle. Under the 15-day rule, updates took 12 to 27 days. Under the July 2026 four-date rule, most settled loans update on CIBIL within 10 to 15 days.'
+      a: 'Once your bank closes your OTS ledger and issues an NDC, it reports the closure in the next cycle. Under the 15-day rule, updates took 12 to 27 days. Under the July 2026 four-date rule, most settled loans update on CIBIL within 7 to 14 days.'
     },
     {
       q: 'Does the 15-day clock start on my OTS payment date or NDC date?',
-      a: 'The reporting clock depends on when your lender marks the loan closed in its core system. If you pay in installments, the update runs only after your last OTS payment clears and the bank generates your No Dues Certificate.'
+      a: 'The reporting clock starts when your lender marks the loan closed in its core system. If you pay in parts, the update runs only after your last OTS payment clears and the bank issues your No Dues Certificate.'
     },
     {
       q: 'How many days do credit bureaus get to load bank data?',
-      a: 'Under RBI Credit Information Reporting Directions, credit bureaus must ingest clean lender data within 5 calendar days of receipt. Earlier bureaus took 7 days. This cut ensures your settled status appears quickly on CIBIL, CRIF, Equifax, and Experian.'
+      a: 'Under the 2025 fortnightly rule, bureaus got 5 calendar days to load data, down from 7 days. Under the July 2026 amendment (RBI/DOR/2025-26/119), bureaus must load files and send error reports within 3 calendar days of receipt.'
     },
     {
       q: 'What changed under the RBI July 2026 credit reporting update?',
-      a: 'In December 2025, RBI issued amendment directions effective July 1, 2026. Lenders now report on four dates each month: the 9th, 16th, 23rd, and month-end. Interim files go within 4 days, and full month-end files go by the 5th of next month.'
+      a: 'In December 2025, RBI issued amendment rules effective July 1, 2026. Lenders now report on four dates each month: the 9th, 16th, 23rd, and month-end. Interim files go within 4 days, full month-end files go by the 5th, and bureaus load them in 3 days.'
     },
     {
       q: 'Why is my settled personal loan still showing overdue after 15 days?',
-      a: 'Common causes include a delayed internal bank closure, a PAN or CKYC number error, or a rejected batch file at the bureau. Under RBI rules, the bank must fix rejected rows and resend them by the very next reporting date.'
+      a: 'Common causes include a slow internal bank closure, a PAN or CKYC error, or a rejected batch file at the bureau. Under RBI rules, the bank must fix rejected rows and resend them by the very next cycle date.'
     },
     {
       q: 'Can I claim ₹100 per day if my settled loan is not updated on time?',
-      a: 'Yes. First file a written dispute with your bank and the bureau. Under RBI circular RBI/2023-24/72, they get 30 days total (21 days for the bank, 9 days for the bureau). Any delay past Day 30 earns ₹100 per day.'
+      a: 'Yes. First file a written dispute with your bank and the bureau. Under RBI circular RBI/2023-24/72, they get 30 days in total. The bank gets 21 days and the bureau gets 9 days. Any delay past Day 30 earns ₹100 per day.'
     },
     {
       q: 'How do I receive the ₹100 per day RBI delay payout?',
-      a: 'Always share your bank account number or UPI ID inside your dispute form. Once the error is fixed past 30 days, the bank or bureau must credit ₹100 per day directly to your account within 5 working days.'
+      a: 'Add your bank account number or UPI ID inside your dispute form. Once a late error is fixed past Day 30, the bank or bureau must send ₹100 per day directly to your account within 5 working days.'
     },
     {
       q: 'Does fortnightly reporting apply to NBFCs, loan apps, and ARCs?',
-      a: 'Yes. Every RBI-regulated lender must follow these rules. This covers public banks, private banks, small finance banks, NBFCs, digital lending partners, and Asset Reconstruction Companies (ARCs) across all four credit bureaus.'
+      a: 'Yes. Every RBI-regulated lender must follow these rules. This covers public banks, private banks, small finance banks, NBFCs, loan app partners, and Asset Reconstruction Companies (ARCs) across all four credit bureaus.'
     },
     {
       q: 'How does CredSettle help fix slow bureau updates after settlement?',
-      a: 'CredSettle audits all four credit reports, checks for CKYC or NDC gaps, and files formal disputes. Our legal team sends notices to bank Nodal Officers, escalates to the RBI Ombudsman, and helps claim ₹100 per day for delays.'
+      a: 'CredSettle checks all four credit reports, finds CKYC or NDC gaps, and files clean disputes. Our legal team writes to bank Nodal Officers, files RBI Ombudsman cases, and helps claim ₹100 per day for delays.'
     }
   ];
 
@@ -221,35 +221,35 @@ export default function RbiFortnightlyBureauUpdateClient() {
                 <li className="flex items-start gap-2.5">
                   <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" />
                   <span>
-                    <strong className="text-slate-900 font-bold">End of 45-Day Waits:</strong> From January 1, 2025, RBI forced all banks and NBFCs to report loan data every 15 days (15th and month-end) instead of once a month.
+                    <strong className="text-slate-900 font-bold">End of 45-Day Waits:</strong> From January 1, 2025, RBI ended monthly credit reporting. All banks and NBFCs began reporting every 15 days on the 15th and month-end.
                   </span>
                 </li>
 
                 <li className="flex items-start gap-2.5">
                   <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" />
                   <span>
-                    <strong className="text-slate-900 font-bold">Faster 2026 Upgrade:</strong> From July 1, 2026, RBI moved to four monthly reporting dates (9th, 16th, 23rd, and month-end). Settled loans now refresh in about 10 to 15 days.
+                    <strong className="text-slate-900 font-bold">Faster 2026 Upgrade:</strong> From July 1, 2026, RBI moved to four dates per month (9th, 16th, 23rd, and month-end). Most settled loans now refresh in 7 to 14 days.
                   </span>
                 </li>
 
                 <li className="flex items-start gap-2.5">
                   <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" />
                   <span>
-                    <strong className="text-slate-900 font-bold">Strict 5-Day Ingestion Rule:</strong> Credit bureaus (CIBIL, CRIF, Equifax, Experian) must load clean lender data within 5 calendar days of receiving the file.
+                    <strong className="text-slate-900 font-bold">3-Day Bureau Load Rule:</strong> Bureaus cut load time from 5 days in 2025 to 3 calendar days from July 2026. Bureaus also flag slow banks to RBI via DAKSH.
                   </span>
                 </li>
 
                 <li className="flex items-start gap-2.5">
                   <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" />
                   <span>
-                    <strong className="text-slate-900 font-bold">Mandatory ₹100/Day Fine:</strong> If you raise a dispute and your report is not fixed in 30 days (21 days for bank, 9 days for bureau), you earn ₹100 for each extra day.
+                    <strong className="text-slate-900 font-bold">Mandatory ₹100/Day Fine:</strong> File a written dispute if your report stays wrong. If it crosses 30 days (21 bank + 9 bureau), you earn ₹100 per day.
                   </span>
                 </li>
 
                 <li className="flex items-start gap-2.5">
                   <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5" />
                   <span>
-                    <strong className="text-slate-900 font-bold">Fast Fix for Rejected Rows:</strong> If a CKYC or PAN error blocks your settled entry, the lender must fix and resend it before the very next cycle date.
+                    <strong className="text-slate-900 font-bold">Fast Fix for Rejected Rows:</strong> Sometimes a CKYC or PAN mismatch blocks your update. Your lender must fix and resend that row by the next cycle date.
                   </span>
                 </li>
               </ul>
@@ -271,10 +271,10 @@ export default function RbiFortnightlyBureauUpdateClient() {
                 To fix this lag, the Reserve Bank of India issued Circular RBI/2024-25/60 on August 8, 2024. The rule took effect on January 1, 2025. It ordered all banks, NBFCs, and ARCs to report credit data every 15 days.
               </p>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                On January 6, 2025, RBI folded this rule into its Credit Information Reporting Master Direction (RBI/DoR/2024-25/125) under Section 11 of CICRA 2005. Every regulated lender must send fresh data to all four bureaus on time.
+                On January 6, 2025, RBI folded this rule into its Credit Information Reporting Master Direction (RBI/DoR/2024-25/125) under Section 11 of CICRA 2005. Every lender must report clean data to all four bureaus. Bureaus must also flag late lenders to RBI on the DAKSH portal twice a year (March 31 and September 30).
               </p>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                RBI did not stop at 15 days. In December 2025, RBI issued new amendment rules (RBI/DOR/2025-26/110 and 119) effective July 1, 2026. Lenders now report four times a month, making post-settlement updates even faster.
+                RBI did not stop at 15 days. On December 4, 2025, RBI issued amendment rules (RBI/DOR/2025-26/110, 118, and 119) effective July 1, 2026. Lenders now report four times a month, and bureaus load clean data in just 3 calendar days.
               </p>
             </section>
 
@@ -291,10 +291,10 @@ export default function RbiFortnightlyBureauUpdateClient() {
                 Many bank staff still tell borrowers to wait 60 days for a CIBIL update. That claim is outdated and wrong. Under current RBI rules, every settled personal loan moves through a short, fixed cycle.
               </p>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                First, the 15-day rule (Jan 2025) cut wait times in half. Lenders had to close data on the 15th and last day of every month. They had 7 calendar days to send files, and bureaus had 5 calendar days to load them.
+                First, the 15-day rule (Jan 2025) cut wait times in half. Lenders had to close data on the 15th and last day of every month. They got 7 calendar days to upload files, and bureaus got 5 calendar days to load them.
               </p>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Second, the July 1, 2026 upgrade moved to four cut-off dates: the 9th, 16th, 23rd, and last day of each month. Interim updates go out within 4 calendar days. Full month-end files go out by the 5th of the next month.
+                Second, the July 1, 2026 rule moved to four dates: the 9th, 16th, 23rd, and last day of each month. Interim changes go within 4 calendar days. Full month-end files go by the 5th of next month, and bureaus load them within 3 calendar days.
               </p>
 
               {/* Comparison Table */}
@@ -336,8 +336,8 @@ export default function RbiFortnightlyBureauUpdateClient() {
                         <td className="p-3">4-Date Rule (July 1, 2026)</td>
                         <td className="p-3 font-mono text-[#1886ff]">9th, 16th, 23rd, End</td>
                         <td className="p-3 text-[#1886ff]">4 days (5th for End)</td>
-                        <td className="p-3 text-[#1886ff]">5 calendar days</td>
-                        <td className="p-3 text-right text-[#1886ff]">10 to 15 Days</td>
+                        <td className="p-3 text-[#1886ff]">3 calendar days</td>
+                        <td className="p-3 text-right text-[#1886ff]">7 to 14 Days</td>
                       </tr>
                     </tbody>
                   </table>
@@ -368,7 +368,7 @@ export default function RbiFortnightlyBureauUpdateClient() {
                     <DollarSign className="w-4 h-4 text-[#1886ff]" />
                     <span className="font-bold text-sm">Sample Personal Loan OTS Reporting Calendar</span>
                   </div>
-                  <span className="text-xs text-blue-300 font-mono">Cut-Off + Upload + 5-Day Load</span>
+                  <span className="text-xs text-blue-300 font-mono">Cut-Off + Upload + 3-Day Load</span>
                 </div>
                 <div className="overflow-x-auto">
                   <table className="w-full text-xs sm:text-sm text-left border-collapse divide-x divide-slate-200/80 min-w-[560px]">
@@ -385,28 +385,28 @@ export default function RbiFortnightlyBureauUpdateClient() {
                         <td className="p-3 font-medium text-slate-900">4th of the Month</td>
                         <td className="p-3 font-mono">15th (by 22nd)</td>
                         <td className="p-3 font-mono text-[#1886ff] font-bold">9th (by 13th)</td>
-                        <td className="p-3 text-right font-bold text-emerald-700">18th (14 Days Total)</td>
+                        <td className="p-3 text-right font-bold text-emerald-700">16th (12 Days Total)</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium text-slate-900">12th of the Month</td>
                         <td className="p-3 font-mono">15th (by 22nd)</td>
                         <td className="p-3 font-mono text-[#1886ff] font-bold">16th (by 20th)</td>
-                        <td className="p-3 text-right font-bold text-emerald-700">25th (13 Days Total)</td>
+                        <td className="p-3 text-right font-bold text-emerald-700">23rd (11 Days Total)</td>
                       </tr>
                       <tr>
                         <td className="p-3 font-medium text-slate-900">19th of the Month</td>
                         <td className="p-3 font-mono">30th/31st (by 7th)</td>
                         <td className="p-3 font-mono text-[#1886ff] font-bold">23rd (by 27th)</td>
-                        <td className="p-3 text-right font-bold text-emerald-700">2nd Next Month (13 Days)</td>
+                        <td className="p-3 text-right font-bold text-emerald-700">30th (11 Days Total)</td>
                       </tr>
                       <tr className="bg-amber-50/60">
                         <td className="p-3 font-medium text-slate-900">26th of the Month</td>
                         <td className="p-3 font-mono">30th/31st (by 7th)</td>
                         <td className="p-3 font-mono text-amber-700 font-bold">Month-End (by 5th)</td>
-                        <td className="p-3 text-right font-bold text-amber-800">10th Next Month (15 Days)</td>
+                        <td className="p-3 text-right font-bold text-amber-800">8th Next Month (13 Days)</td>
                       </tr>
                       <tr className="bg-blue-50/70 font-bold text-slate-900">
-                        <td className="p-3">Past Day 20 Without Update</td>
+                        <td className="p-3">Past Day 15 Without Update</td>
                         <td className="p-3 font-mono text-rose-600">Missed Cycle</td>
                         <td className="p-3 font-mono text-rose-600">Reporting Breach</td>
                         <td className="p-3 text-right text-[#1886ff]">File Dispute for ₹100/Day</td>
@@ -427,17 +427,39 @@ export default function RbiFortnightlyBureauUpdateClient() {
                 4. Why Settled Loans Still Show Overdue After 15 Days
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Many borrowers check CIBIL 20 days after settling and still see an active overdue balance. Days Past Due (DPD) may even keep climbing. Four specific glitches cause almost every post-settlement lag in India.
+                Many borrowers check CIBIL 20 days after settling and still see an active overdue balance. Days Past Due (DPD) may even keep climbing. Three common glitches cause almost every post-settlement lag in India.
               </p>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
                 First, your OTS money may sit in a bank suspense account. Until the recovery team maps the payment and closes your Loan Account Number (LAN), the bank system keeps reporting your loan as unpaid.
               </p>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Second, credit bureaus reject bad files automatically. Under RBI rules, lenders must send your Central KYC (CKYC) number and PAN. If your name, PAN, or CKYC fails a check, the bureau drops that row.
+                Second, credit bureaus reject bad files on the spot. Under RBI rules, lenders must send your Central KYC (CKYC) number and PAN. If a field fails the check, the bureau sends an error report within 3 days and drops that row.
               </p>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Third, banks sometimes fix CIBIL first and forget CRIF High Mark, Equifax, or Experian. Under RBI 2025 amendment directions, lenders must fix rejected rows and resend them by the very next reporting date.
+                Third, banks sometimes fix CIBIL first and forget CRIF High Mark, Equifax, or Experian. Under RBI 2025 amendment rules, the bank must fix rejected rows and resend them by the very next cycle date.
               </p>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-1">
+                <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
+                  <h3 className="text-sm font-bold text-slate-900 flex items-center gap-2">
+                    <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                    Fields That Must Update After Settlement
+                  </h3>
+                  <p className="text-xs text-slate-600 leading-relaxed">
+                    Check four fields on all four reports: Account Status reads Settled (or Post Write-Off Settled), Current Balance is ₹0, Amount Overdue is ₹0, and new monthly DPD marks stop completely.
+                  </p>
+                </div>
+
+                <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
+                  <h3 className="text-sm font-bold text-slate-900 flex items-center gap-2">
+                    <AlertTriangle className="w-4 h-4 text-amber-600" />
+                    What Fast Reporting Does Not Erase
+                  </h3>
+                  <p className="text-xs text-slate-600 leading-relaxed">
+                    Fast 15-day or weekly reporting stops fresh score drops right away. It does not erase older missed EMIs or turn Settled into Closed unless you pay the waived balance later.
+                  </p>
+                </div>
+              </div>
             </section>
 
             {/* SECTION 5: Visual Blueprint Infographic */}
@@ -509,7 +531,7 @@ export default function RbiFortnightlyBureauUpdateClient() {
                     Stage 2: Wait One Complete Reporting Cycle
                   </h3>
                   <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    Note the next RBI cut-off date after your NDC date (9th, 16th, 23rd, or month-end). Allow 4 to 7 days for bank upload and 5 days for bureau loading, usually 15 days total.
+                    Note the next RBI cut-off date after your NDC date (9th, 16th, 23rd, or month-end). Allow 4 days for bank upload and 3 days for bureau loading under 2026 rules. Most reports refresh in 7 to 14 days.
                   </p>
                 </div>
 
@@ -588,7 +610,7 @@ export default function RbiFortnightlyBureauUpdateClient() {
                     <span>Section 21 CICRA 2005 Right to Fix Errors</span>
                   </div>
                   <p className="text-xs text-slate-600 leading-relaxed">
-                    Section 21 of the Credit Information Companies Act, 2005 gives every borrower the legal right to inspect credit files and demand accurate updates backed by bank documents.
+                    Section 21 of CICRA 2005 protects every borrower in India. You have the legal right to inspect credit files and demand accurate updates using your bank papers.
                   </p>
                 </div>
 
@@ -698,9 +720,9 @@ export default function RbiFortnightlyBureauUpdateClient() {
                       <td className="p-3">Confirm via email that your LAN status reads closed internally.</td>
                     </tr>
                     <tr>
-                      <td className="p-3 font-bold text-slate-900">Day 11 to 15</td>
-                      <td className="p-3 font-mono text-[11px]">5-Day Ingestion</td>
-                      <td className="p-3">CIBIL, CRIF, Equifax, and Experian load data within 5 calendar days.</td>
+                      <td className="p-3 font-bold text-slate-900">Day 10 to 15</td>
+                      <td className="p-3 font-mono text-[11px]">3-Day Ingestion</td>
+                      <td className="p-3">CIBIL, CRIF, Equifax, and Experian load files within 3 calendar days (5 days in 2025).</td>
                       <td className="p-3">Pull all four free credit reports and check zero overdue balance.</td>
                     </tr>
                     <tr className="bg-amber-50/50">
@@ -851,10 +873,10 @@ export default function RbiFortnightlyBureauUpdateClient() {
                   <strong>RBI Credit Information Reporting Master Direction:</strong> RBI/DoR/2024-25/125 (DoR.FIN.REC.No.55/20.16.056/2024-25), dated January 6, 2025, issued under Section 11 of CICRA 2005.
                 </li>
                 <li>
-                  <strong>RBI 2025 Amendment Directions (July 2026 4-Date Cycle):</strong> RBI/DOR/2025-26/110 (Commercial Banks), RBI/DOR/2025-26/118 (ARCs), and RBI/DOR/2025-26/119 (CICs), dated December 4, 2025 (effective July 1, 2026).
+                  <strong>RBI 2025 Amendment Directions (July 2026 4-Date Cycle):</strong> RBI/DOR/2025-26/110 (Commercial Banks), RBI/DOR/2025-26/118 (ARCs), and RBI/DOR/2025-26/119 (CICs), dated December 4, 2025 (effective July 1, 2026; 3-day CIC ingestion and file-level DQI under Paragraph 39).
                 </li>
                 <li>
-                  <strong>RBI Delayed Credit Updation Compensation Framework:</strong> RBI/2023-24/72 (DoR.FIN.REC.48/20.16.003/2023-24), dated October 26, 2023 (₹100/day penalty after 30 calendar days: 21 days CI + 9 days CIC).
+                  <strong>RBI Delayed Credit Updation &amp; Alert Rules:</strong> RBI/2023-24/72 (₹100/day penalty after 30 calendar days: 21 days CI + 9 days CIC) and RBI/2023-24/73 (mandatory SMS/email alerts), dated October 26, 2023.
                 </li>
                 <li>
                   <strong>Credit Information Companies (Regulation) Act, 2005 (CICRA) &amp; RB-IOS 2021:</strong> Sections 15 and 21 (Mandatory 4-bureau membership and right to rectification) and RBI Integrated Ombudsman coverage of CICs.
@@ -923,8 +945,8 @@ export default function RbiFortnightlyBureauUpdateClient() {
                   <Link href="/unknown-nbfc-downloaded-ckyc-record-prevent-loan-fraud" className="text-[11px] px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200">
                     CKYC Loan Fraud Protection
                   </Link>
-                  <Link href="/rbi-rules-for-recovery-agents" className="text-[11px] px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200">
-                    RBI Recovery Guidelines
+                  <Link href="/rbi-100-per-day-compensation-for-delayed-cibil-report-update" className="text-[11px] px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 hover:text-[#1886ff] text-slate-700 transition-colors font-medium border border-slate-200">
+                    RBI ₹100/Day CIBIL Compensation
                   </Link>
                 </div>
               </div>
@@ -987,7 +1009,7 @@ export default function RbiFortnightlyBureauUpdateClient() {
                   Settled Loan Still Overdue Past 15 Days?
                 </p>
                 <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
-                  Our legal team audits all 4 credit reports, serves RBI compliance notices to your lender, fixes CKYC upload errors, and claims your ₹100 per day delay penalty.
+                  Our team checks all 4 credit reports and sends RBI notices to your lender. We fix CKYC upload errors and claim your ₹100 per day delay penalty.
                 </p>
               </div>
               <Link
@@ -1058,13 +1080,13 @@ export default function RbiFortnightlyBureauUpdateClient() {
                 </Link>
 
                 <Link
-                  href="/rbi-5000-per-day-delay-compensation-property-documents"
+                  href="/rbi-100-per-day-compensation-for-delayed-cibil-report-update"
                   className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group"
                 >
                   <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug">
-                    RBI ₹5,000/Day Property Deed Delay Rule
+                    RBI ₹100/Day CIBIL Delay Compensation
                   </p>
-                  <span className="text-[10px] text-slate-400 mt-1 block">Claim statutory bank penalty &rarr;</span>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Claim daily bureau delay penalty &rarr;</span>
                 </Link>
               </div>
             </div>

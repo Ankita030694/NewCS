@@ -107,7 +107,7 @@ export default function PostWriteOffSettledClient() {
     },
     {
       q: 'What is the RBI cooling period after a compromise loan settlement?',
-      a: 'Under RBI Circular RBI/2023-24/40 dated June 8, 2023, banks and NBFCs must enforce at least a 12-month cooling period for non-farm loans like personal loans after a compromise settlement. Many banks enforce even longer internal bans.'
+      a: 'Under RBI Circular RBI/2023-24/40 dated June 8, 2023, banks must enforce a cooling period after a compromise settlement. For personal loans, this period is at least 12 months. Many lenders apply longer internal bans.'
     },
     {
       q: 'Can a bank add fresh penal interest when I offer to clear the waiver gap?',
@@ -274,7 +274,7 @@ export default function PostWriteOffSettledClient() {
                 Second, you came forward later and signed a One-Time Settlement (OTS). You paid a reduced lump sum, and the bank waived the rest of the bill. Because the bank had already written off the loan before you settled, it reports the account as <strong>Post Write-Off Settled</strong>.
               </p>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                Under the CIBIL Uniform Credit Reporting Format (UCRF), lenders tag this under the <em>Written-off and Settled Status</em> field (commonly mapped as status code 04, after Written-off and Settled). Your report shows Current Balance as ₹0 and Amount Overdue as ₹0. However, it also lists the exact Written-Off Amount and the Settlement Amount you paid.
+                Under CIBIL&apos;s Uniform Credit Reporting Format (UCRF), banks mark this in the <em>Written-off and Settled Status</em> field. It maps to status code 04, right after Written-off (02) and Settled (03). Your report shows Current Balance as ₹0 and Amount Overdue as ₹0. However, it still lists the Written-Off Amount and the Settlement Amount you paid.
               </p>
             </section>
 
@@ -291,7 +291,7 @@ export default function PostWriteOffSettledClient() {
                 Banks and NBFCs do not treat all closure tags the same way. Even though PWOS and Regular Settled both show zero balance due, bank credit rules flag PWOS much faster.
               </p>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                A regular <strong>Settled</strong> tag means you struck a deal before the bank wrote off the loan. A <strong>PWOS</strong> tag tells new lenders two bad facts at once: the default lasted long enough for a loss write-off, and the bank still took a haircut. Still, PWOS is much better than an open <strong>Written-Off</strong> tag, which keeps hurting your score every month.
+                A regular <strong>Settled</strong> tag means you struck a deal before the bank wrote off the loan. A <strong>PWOS</strong> tag signals two problems at once. First, your default lasted long enough for a write-off. Second, the bank still took a loss on your loan. Still, PWOS is much better than an open <strong>Written-Off</strong> tag, which hurts your score every month.
               </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto bg-white shadow-xs">
@@ -353,7 +353,7 @@ export default function PostWriteOffSettledClient() {
                 A PWOS entry hits your score across CIBIL, CRIF High Mark, Equifax, and Experian. Because missed EMIs before the write-off already pulled your score down, the PWOS tag often locks your score between 550 and 650.
               </p>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                By bureau practice in India, negative marks like PWOS stay on your report for up to <strong>7 years</strong> from the last update date. Even if your score climbs back over 720 using a secured card, prime banks still check the status line before approving an unsecured personal loan or home loan.
+                By bureau practice in India, negative marks like PWOS stay on your report for up to <strong>7 years</strong> from the last update date. Your score may climb past 720 with a secured card. Even then, prime banks check the status line before approving a home or personal loan.
               </p>
 
               {/* Representative Impact Card */}
@@ -428,10 +428,10 @@ export default function PostWriteOffSettledClient() {
                 <strong>First, the June 8, 2023 RBI Circular (RBI/2023-24/40):</strong> This rule sets the national framework for Compromise Settlements and Technical Write-offs. It clarifies that a technical write-off is only an accounting entry. It does not erase your debt. It also sets a minimum <strong>12-month cooling period</strong> for non-farm loans like personal loans before a lender can offer fresh credit after a compromise settlement.
               </p>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                <strong>Second, Weekly Credit Bureau Updates (RBI Directions, 2025):</strong> Banks moved from monthly updates to 15-day updates in 2025, and to weekly updates from July 1, 2026. Lenders must now report fresh closure data four times a month on the 9th, 16th, 23rd, and month-end across all four bureaus.
+                <strong>Second, Weekly Credit Bureau Updates (RBI Directions, 2025):</strong> Banks moved to 15-day updates in 2025. From July 1, 2026, RBI moved them to weekly updates. Lenders now send fresh data four times a month on the 9th, 16th, 23rd, and month-end to all four bureaus.
               </p>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                <strong>Third, the ₹100 Per Day Delay Penalty (RBI/2023-24/72):</strong> Under this October 26, 2023 rule, banks and credit bureaus have <strong>30 calendar days</strong> in total to fix a valid credit report dispute (21 days for the bank and 9 days for the bureau). If a wrong PWOS tag remains unfixed after Day 30, you earn ₹100 per day credited to your account within 5 working days of resolution.
+                <strong>Third, the ₹100 Per Day Delay Penalty (RBI/2023-24/72):</strong> This October 26, 2023 rule sets a <strong>30-day limit</strong> to fix a valid credit dispute. The bank gets 21 days, and the bureau gets 9 days. If a wrong PWOS tag stays past Day 30, you earn ₹100 per day. The party at fault must pay this sum within 5 working days of fixing the report.
               </p>
             </section>
 
@@ -445,7 +445,7 @@ export default function PostWriteOffSettledClient() {
                 5. Visual Blueprint: PWOS Audit &amp; Upgrade to Closed
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                This visual chart sums up how a personal loan moves from Write-Off to PWOS and then to a clean Closed record across all four RBI-licensed credit bureaus.
+                This visual chart shows how a personal loan moves from Write-Off to PWOS and then to Closed. Follow it to align your status across all four RBI-licensed credit bureaus.
               </p>
 
               <div className="bg-white p-4 sm:p-6 rounded-2xl border border-slate-200/80 shadow-xs space-y-3">
@@ -573,7 +573,7 @@ export default function PostWriteOffSettledClient() {
                     <span>Delhi SCDRC: Shyam Garg v. ING Vysya Bank</span>
                   </div>
                   <p className="text-xs text-slate-600 leading-relaxed">
-                    In Complaint No. 333/2013 (decided August 2021), the Commission dealt with wrongful &quot;Written Off&quot; CIBIL reporting and held banks accountable to update settled or cleared records to Nil Outstanding.
+                    In Complaint No. 333/2013 (August 2021), the bank wrongly reported a paid loan with an NDC as &quot;Written Off&quot;. The Commission ordered a fix to Nil Outstanding and awarded ₹10 Lakh plus ₹50,000 in costs.
                   </p>
                 </div>
 
@@ -603,7 +603,7 @@ export default function PostWriteOffSettledClient() {
                     <span>RBI ₹100/Day Automatic Delay Payout</span>
                   </div>
                   <p className="text-xs text-slate-600 leading-relaxed">
-                    Under RBI Circular RBI/2023-24/72, if a bank or bureau takes more than 30 days to fix a proven PWOS reporting error, the party at fault must pay ₹100 per day directly to your bank account.
+                    RBI Circular RBI/2023-24/72 gives banks and bureaus 30 days to fix a proven PWOS reporting error. For every day of delay past Day 30, the party at fault must pay ₹100 directly to your account.
                   </p>
                 </div>
               </div>
@@ -666,7 +666,7 @@ export default function PostWriteOffSettledClient() {
                 9. Procedural Milestones: Default to Clean Closed Tag
               </h2>
               <p className="text-sm md:text-base text-slate-700 leading-relaxed">
-                This timeline shows exactly when a personal loan gets tagged as PWOS and how fast you can clear or dispute it under current RBI weekly reporting rules.
+                This timeline shows when a personal loan gets tagged as PWOS. It also shows how fast you can clear or dispute it under RBI weekly update rules.
               </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto bg-white shadow-xs">
@@ -982,7 +982,7 @@ export default function PostWriteOffSettledClient() {
                   Stuck With a PWOS Tag on CIBIL?
                 </p>
                 <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal">
-                  Our banking advocates audit your write-off ledger, strip illegal penal bloat, obtain your clean Closed NDC, and enforce RBI ₹100/day update rules across all four credit bureaus.
+                  Our banking advocates audit your write-off ledger and strip illegal penal fees. We secure your clean Closed NDC and enforce RBI ₹100/day rules across all four credit bureaus.
                 </p>
               </div>
               <Link

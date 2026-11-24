@@ -75,7 +75,7 @@ export default function RbiFortnightlyBureauUpdatePage() {
         mainEntityOfPage:
           'https://www.credsettle.com/rbi-15-day-fortnightly-credit-bureau-update-settlement',
         datePublished: '2026-11-23T17:15:00+05:30',
-        dateModified: '2026-11-23T17:15:00+05:30',
+        dateModified: '2026-11-24T09:45:00+05:30',
         articleSection: 'Personal Loan Settlement & Credit Bureau Regulation',
         author: {
           '@type': 'Person',
@@ -167,7 +167,7 @@ export default function RbiFortnightlyBureauUpdatePage() {
             name: 'How fast does a settled personal loan show on CIBIL under RBI rules?',
             acceptedAnswer: {
               '@type': 'Answer',
-              text: 'Once your bank closes your OTS ledger and issues an NDC, it reports the closure in the next cycle. Under the 15-day rule, updates took 12 to 27 days. Under the July 2026 four-date rule, most settled loans update on CIBIL within 10 to 15 days.'
+              text: 'Once your bank closes your OTS ledger and issues an NDC, it reports the closure in the next cycle. Under the 15-day rule, updates took 12 to 27 days. Under the July 2026 four-date rule, most settled loans update on CIBIL within 7 to 14 days.'
             }
           },
           {
@@ -175,7 +175,7 @@ export default function RbiFortnightlyBureauUpdatePage() {
             name: 'Does the 15-day clock start on my OTS payment date or NDC date?',
             acceptedAnswer: {
               '@type': 'Answer',
-              text: 'The reporting clock depends on when your lender marks the loan closed in its core system. If you pay in installments, the update runs only after your last OTS payment clears and the bank generates your No Dues Certificate.'
+              text: 'The reporting clock starts when your lender marks the loan closed in its core system. If you pay in parts, the update runs only after your last OTS payment clears and the bank issues your No Dues Certificate.'
             }
           },
           {
@@ -183,7 +183,7 @@ export default function RbiFortnightlyBureauUpdatePage() {
             name: 'How many days do credit bureaus get to load bank data?',
             acceptedAnswer: {
               '@type': 'Answer',
-              text: 'Under RBI Credit Information Reporting Directions, credit bureaus must ingest clean lender data within 5 calendar days of receipt. Earlier bureaus took 7 days. This cut ensures your settled status appears quickly on CIBIL, CRIF, Equifax, and Experian.'
+              text: 'Under the 2025 fortnightly rule, bureaus got 5 calendar days to load data, down from 7 days. Under the July 2026 amendment (RBI/DOR/2025-26/119), bureaus must load files and send error reports within 3 calendar days of receipt.'
             }
           },
           {
@@ -191,7 +191,7 @@ export default function RbiFortnightlyBureauUpdatePage() {
             name: 'What changed under the RBI July 2026 credit reporting update?',
             acceptedAnswer: {
               '@type': 'Answer',
-              text: 'In December 2025, RBI issued amendment directions effective July 1, 2026. Lenders now report on four dates each month: the 9th, 16th, 23rd, and month-end. Interim files go within 4 days, and full month-end files go by the 5th of next month.'
+              text: 'In December 2025, RBI issued amendment rules effective July 1, 2026. Lenders now report on four dates each month: the 9th, 16th, 23rd, and month-end. Interim files go within 4 days, full month-end files go by the 5th, and bureaus load them in 3 days.'
             }
           },
           {
@@ -199,7 +199,7 @@ export default function RbiFortnightlyBureauUpdatePage() {
             name: 'Why is my settled personal loan still showing overdue after 15 days?',
             acceptedAnswer: {
               '@type': 'Answer',
-              text: 'Common causes include a delayed internal bank closure, a PAN or CKYC number error, or a rejected batch file at the bureau. Under RBI rules, the bank must fix rejected rows and resend them by the very next reporting date.'
+              text: 'Common causes include a slow internal bank closure, a PAN or CKYC error, or a rejected batch file at the bureau. Under RBI rules, the bank must fix rejected rows and resend them by the very next cycle date.'
             }
           },
           {
@@ -207,7 +207,7 @@ export default function RbiFortnightlyBureauUpdatePage() {
             name: 'Can I claim ₹100 per day if my settled loan is not updated on time?',
             acceptedAnswer: {
               '@type': 'Answer',
-              text: 'Yes. First file a written dispute with your bank and the bureau. Under RBI circular RBI/2023-24/72, they get 30 days total (21 days for the bank, 9 days for the bureau). Any delay past Day 30 earns ₹100 per day.'
+              text: 'Yes. First file a written dispute with your bank and the bureau. Under RBI circular RBI/2023-24/72, they get 30 days in total. The bank gets 21 days and the bureau gets 9 days. Any delay past Day 30 earns ₹100 per day.'
             }
           },
           {
@@ -215,7 +215,7 @@ export default function RbiFortnightlyBureauUpdatePage() {
             name: 'How do I receive the ₹100 per day RBI delay payout?',
             acceptedAnswer: {
               '@type': 'Answer',
-              text: 'Always share your bank account number or UPI ID inside your dispute form. Once the error is fixed past 30 days, the bank or bureau must credit ₹100 per day directly to your account within 5 working days.'
+              text: 'Add your bank account number or UPI ID inside your dispute form. Once a late error is fixed past Day 30, the bank or bureau must send ₹100 per day directly to your account within 5 working days.'
             }
           },
           {
@@ -223,7 +223,7 @@ export default function RbiFortnightlyBureauUpdatePage() {
             name: 'Does fortnightly reporting apply to NBFCs, loan apps, and ARCs?',
             acceptedAnswer: {
               '@type': 'Answer',
-              text: 'Yes. Every RBI-regulated lender must follow these rules. This covers public banks, private banks, small finance banks, NBFCs, digital lending partners, and Asset Reconstruction Companies (ARCs) across all four credit bureaus.'
+              text: 'Yes. Every RBI-regulated lender must follow these rules. This covers public banks, private banks, small finance banks, NBFCs, loan app partners, and Asset Reconstruction Companies (ARCs) across all four credit bureaus.'
             }
           },
           {
@@ -231,7 +231,7 @@ export default function RbiFortnightlyBureauUpdatePage() {
             name: 'How does CredSettle help fix slow bureau updates after settlement?',
             acceptedAnswer: {
               '@type': 'Answer',
-              text: 'CredSettle audits all four credit reports, checks for CKYC or NDC gaps, and files formal disputes. Our legal team sends notices to bank Nodal Officers, escalates to the RBI Ombudsman, and helps claim ₹100 per day for delays.'
+              text: 'CredSettle checks all four credit reports, finds CKYC or NDC gaps, and files clean disputes. Our legal team writes to bank Nodal Officers, files RBI Ombudsman cases, and helps claim ₹100 per day for delays.'
             }
           }
         ]

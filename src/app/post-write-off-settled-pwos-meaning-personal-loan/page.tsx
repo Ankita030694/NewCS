@@ -207,7 +207,7 @@ export default function PostWriteOffSettledPage() {
             name: 'What is the RBI cooling period after a compromise loan settlement?',
             acceptedAnswer: {
               '@type': 'Answer',
-              text: 'Under RBI Circular RBI/2023-24/40 dated June 8, 2023, banks and NBFCs must enforce at least a 12-month cooling period for non-farm loans like personal loans after a compromise settlement. Many banks enforce even longer internal bans.'
+              text: 'Under RBI Circular RBI/2023-24/40 dated June 8, 2023, banks must enforce a cooling period after a compromise settlement. For personal loans, this period is at least 12 months. Many lenders apply longer internal bans.'
             }
           },
           {

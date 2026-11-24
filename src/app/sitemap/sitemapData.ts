@@ -7,6 +7,126 @@ export interface SitemapLink {
 // Auto-generated hardcoded query-based pages sorted in descending order of git creation date (latest first)
 export const sitemapLinks: SitemapLink[] = [
   {
+    title: "Interest Charged on Undisbursed Personal Credit Line",
+    href: "/interest-charged-undisbursed-personal-credit-line-rbi",
+    date: "24-11-2026",
+  },
+  {
+    title: "Closed Loan Active on CIBIL After NBFC Shut Down: Fix",
+    href: "/closed-loan-active-cibil-after-nbfc-license-cancelled",
+    date: "24-11-2026",
+  },
+  {
+    title: "Balloon & Bullet Repayment Personal Loan Settlement",
+    href: "/balloon-bullet-payment-personal-loan-default-settle",
+    date: "24-11-2026",
+  },
+  {
+    title: "Gig Worker Daily Payout Deduction Personal Loan Rules",
+    href: "/gig-worker-daily-payout-deduction-personal-loan-rules",
+    date: "24-11-2026",
+  },
+  {
+    title: "Personal Loan 12-EMI Lock-In Foreclosure Ban & RBI Law",
+    href: "/personal-loan-12-emi-lock-in-foreclosure-ban-rbi-rule",
+    date: "24-11-2026",
+  },
+  {
+    title: "Corporate Tie-Up Personal Loan Rate Hike After Exit",
+    href: "/corporate-tie-up-personal-loan-rate-hike-after-resign",
+    date: "24-11-2026",
+  },
+  {
+    title: "Personal Loan Refinance Rejected Due to High FOIR?",
+    href: "/personal-loan-balance-transfer-rejected-high-foir-exit",
+    date: "24-11-2026",
+  },
+  {
+    title: "Personal Loan Relief During Unpaid Maternity Leave",
+    href: "/personal-loan-relief-during-unpaid-maternity-sabbatical",
+    date: "24-11-2026",
+  },
+  {
+    title: "Change Personal Loan EMI Date to Match New Salary Day",
+    href: "/change-personal-loan-emi-debit-date-match-salary-date",
+    date: "24-11-2026",
+  },
+  {
+    title: "Bank Refusing Personal Loan Agreement Copy: RBI Law",
+    href: "/bank-refusing-personal-loan-agreement-copy-rbi-rule",
+    date: "24-11-2026",
+  },
+  {
+    title: "Vernacular Language Rule in Personal Loan Contracts",
+    href: "/personal-loan-agreement-vernacular-language-rbi-rule",
+    date: "24-11-2026",
+  },
+  {
+    title: "Personal Loan Disbursed Into Frozen Bank Account Fix",
+    href: "/personal-loan-disbursed-into-frozen-dormant-account",
+    date: "24-11-2026",
+  },
+  {
+    title: "Home Renovation Personal Loan Default: Is House Safe?",
+    href: "/home-renovation-personal-loan-default-house-immunity",
+    date: "24-11-2026",
+  },
+  {
+    title: "Hospital Zero-Cost Medical EMI Personal Loan Disputes",
+    href: "/hospital-zero-cost-medical-emi-personal-loan-dispute",
+    date: "24-11-2026",
+  },
+  {
+    title: "Wedding Personal Loan Default: Wife Stridhan Immunity",
+    href: "/wedding-personal-loan-default-wife-stridhan-protection",
+    date: "24-11-2026",
+  },
+  {
+    title: "EdTech & Coaching NBFC Personal Loan Dispute & Exit",
+    href: "/edtech-coaching-course-nbfc-personal-loan-cancellation",
+    date: "24-11-2026",
+  },
+  {
+    title: "Loan Against LIC Policy Default & Surrender Tax Rules",
+    href: "/loan-against-lic-policy-default-surrender-tax-rules",
+    date: "24-11-2026",
+  },
+  {
+    title: "Personal Overdraft Against Fixed Deposit Default Law",
+    href: "/personal-overdraft-against-fixed-deposit-default-rules",
+    date: "24-11-2026",
+  },
+  {
+    title: "NPA Interest Suspense Account (URI) & OTS Waivers Guide",
+    href: "/interest-suspense-account-uri-npa-personal-loan-ots",
+    date: "24-11-2026",
+  },
+  {
+    title: "Loan Against Mutual Funds (LAMF) Margin Call Rules",
+    href: "/loan-against-mutual-funds-lamf-margin-call-liquidation",
+    date: "24-11-2026",
+  },
+  {
+    title: "Section 59 Contract Act: Credit Payment to Principal",
+    href: "/section-59-contract-act-loan-payment-to-principal-rule",
+    date: "24-11-2026",
+  },
+  {
+    title: "Stranger's Loan on Your CIBIL: Mixed Credit File Fix",
+    href: "/strangers-loan-on-my-cibil-mixed-credit-file-rectify",
+    date: "24-11-2026",
+  },
+  {
+    title: "Rule of 78 Front-Loaded Interest in Personal Loans",
+    href: "/rule-of-78-front-loaded-interest-personal-loan-dispute",
+    date: "24-11-2026",
+  },
+  {
+    title: "Duplicate Loan on CIBIL After NBFC Securitisation Fix",
+    href: "/duplicate-personal-loan-cibil-securitisation-assignment",
+    date: "24-11-2026",
+  },
+  {
     title: "Post Write-Off Settled (PWOS) Meaning on Loan Report",
     href: "/post-write-off-settled-pwos-meaning-personal-loan",
     date: "23-11-2026",
