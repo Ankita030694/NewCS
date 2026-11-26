@@ -585,6 +585,27 @@
        - `H2 Length`: Strictly 30–65 characters (never > 70), 0 em-dashes (`—` or `–`).
        - `Title vs H1 vs H2`: Strictly distinct across all elements.
 
+* **Mistake 54: Automated Readability Word-Swaps Corrupt Legal/Financial Copy (found in claude-seo audit, 2026-11-26)**
+  * *Why it happens:*
+    0. Corrupting commits (13–14 Oct 2026 and earlier): db8dbbf, 67f0b34, 4ac438e, cc89ec3, e2d50ef, e87e3b8, 4268d09, 1dd2d83, d5e5c6a, 39b2b78, 0ca8490, d8ffc1f. The same pass also broke schema/attributes (e.g. `'@type': 'Organization'` -> `'company'`, `application/ld+json` -> `app/ld+json` on /privacy-policy), so never run word swaps over code.
+    1. To push Flesch scores above 50, Mistakes 16, 34 and 51 told editors (and `improveTextReadability()` in `BlogPostPageClient.tsx`) to swap words mechanically (`settlement` -> `closure`, `financial` -> `money`, `principal` -> `main sum`, `personal` -> `own`, `recovery` -> `claims`) and to split sentences at commas/conjunctions to reach ASL <= 10.
+    2. The swaps ignore context, so they produce nonsense: "own Loans for own Use", "your unpaid main sum", "Escape the 42%. 52% growing finance charge trap", "Act. 2002". The 2026-11-26 audit found about 80 of 729 crawled pages (11%) garbled, including 6 of the 8 main `/services/` pages; "main sum" appears in 142 source files.
+    3. On a YMYL finance site, garbled legal wording costs far more trust (and Helpful Content standing) than a Screaming Frog "Readability Difficult" flag does.
+  * *Prevention (new pages; repairing existing pages needs owner sign-off):*
+    1. Do not use the vocabulary maps or comma/conjunction splitting from Mistakes 16/34/51 on new copy. Keep correct legal and financial terms (`settlement`, `principal`, `personal loan`, `recovery agent`) and explain jargon in plain words instead.
+    2. Treat a Flesch score below 50 on legal/finance copy as acceptable if a human has edited it for short, clear sentences. Pending owner confirmation, this overrides the "Flesch >= 50" gate in the protocol below.
+    3. Before publishing, grep the new page's rendered text for corruption markers: `main sum`, `own loan`, `One-Time closure`, `claims agent`, `by law binding`, `\d+%\. \d+%`, `Act\. \d{4}`, `&amp;\.`, `**`. Zero hits required.
+    4. Fixed 2026-11-26 (owner-approved): the runtime `improveTextReadability()` pass in `BlogPostPageClient.tsx` was removed, so `/resources/*` articles render the CMS text as written; corrupted phrases in static source files were restored to their pre-13-Oct-2026 wording. Do not reintroduce automated word swaps or comma-splitting anywhere.
+
+* **Mistake 55: Dynamic Routes Rendering Any Slug, and Unescaped JSON-LD (found in claude-seo audit, 2026-11-26)**
+  * *Why it happens:*
+    1. `credit-card-settlement/[slug]/page.tsx` (step 4 fallback) and `services/*/banks/[bank]` (`dynamicParams = true` + `getBankContentWithFallback`) render a 200, `index, follow`, self-canonical page for ANY slug, e.g. `/credit-card-settlement/zzfakebank` -> "Zzfakebank Bank Credit Card Settlement Guide". Anyone can create indexable CredSettle-branded pages by linking to made-up URLs.
+    2. `resources/[slug]/page.tsx` serialises JSON-LD with plain `JSON.stringify` inside `dangerouslySetInnerHTML`, including visitor-submitted review text from Firestore. A `</script>` in that text would break out of the script tag.
+  * *Prevention:*
+    1. Every new dynamic route must call `notFound()` when the slug is not in its known list (sitemap list, alias map, data file). Test with a made-up slug: it must return 404 with `noindex`.
+    2. Always serialise JSON-LD with `serializeJsonLd()` from `src/lib/json-ld.ts` (escapes `<`, `>`, `&` AFTER `JSON.stringify`). Do NOT escape inside a `JSON.stringify` replacer: the old `safeJsonLdReplacer` did that, which double-escaped and made Google read literal `&` text instead of `&`. Never put unmoderated user input into structured data.
+    3. Fixed 2026-11-26: the catch-alls in `credit-card-settlement/[slug]`, the six `services/*/banks/[bank]` routes and the `services/{app,business,car,nbfc}-loan-settlement/[state]` routes now `notFound()` for slugs outside their known lists (bank list + `getBanksGridSlugs()` from `src/data/banksGridInstitutions.ts`; state list + content keys + sitemap's short DNH slug). When adding a slug the sitemap lists, add it to the route's known list too.
+
 ---
 
 ## 🛠️ Step-by-Step Protocol When Resolving Screaming Frog Issues
