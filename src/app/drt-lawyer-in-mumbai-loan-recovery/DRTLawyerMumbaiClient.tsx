@@ -143,12 +143,6 @@ export default function DRTLawyerMumbaiClient() {
         'contactPoint': { '@type': 'ContactPoint', 'telephone': '+91-9311-778584', 'contactType': 'customer service', 'areaServed': 'IN', 'availableLanguage': 'English' }
     };
 
-    const reviewSchema = {
-        '@context': 'https://schema.org', '@type': 'Product',
-        'name': 'DRT Lawyer in Mumbai Loan Recovery',
-        'aggregateRating': { '@type': 'AggregateRating', 'ratingValue': '4.9', 'reviewCount': '3156', 'bestRating': '5', 'worstRating': '1' }
-    };
-
     const relatedPages = [
         { href: '/best-lawyer-for-drt-case-defence-for-bank-loan-recovery', label: 'Best Lawyer for DRT Case Defence' },
         { href: '/best-lawyer-for-loan-settlement-during-drt', label: 'Loan Settlement During DRT' },
@@ -161,7 +155,6 @@ export default function DRTLawyerMumbaiClient() {
     return (
         <>
             <Script id="faq-schema-drt-mumbai" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-drt-mumbai" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
             <Script id="org-schema-drt-mumbai" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
 
             {/* Hero */}

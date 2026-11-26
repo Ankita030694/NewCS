@@ -124,23 +124,9 @@ export default function PunishmentChequeBounceSection138Client() {
         }))
     };
 
-    const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Section 138 Legal Consultation Services',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.8',
-            'reviewCount': '2450',
-            'bestRating': '5',
-            'worstRating': '1'
-        }
-    };
-
     return (
         <>
             <Script id="faq-schema-sec138" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-sec138" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
             {/* Hero Section */}
             <section

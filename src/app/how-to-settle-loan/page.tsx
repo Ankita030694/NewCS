@@ -83,31 +83,6 @@ const articleSchema = {
   }
 };
 
-const reviewSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Review',
-    itemReviewed: {
-        '@type': 'Organization',
-        name: 'CredSettle',
-        image: 'https://www.credsettle.com/credsettle-logo.svg',
-        telephone: '+91-8800226635',
-        address: {
-             '@type': 'PostalAddress',
-             addressCountry: 'IN'
-        }
-    },
-    reviewRating: {
-        '@type': 'Rating',
-        ratingValue: '4.8',
-        bestRating: '5'
-    },
-    author: {
-        '@type': 'Person',
-        name: 'Amit S.'
-    },
-    reviewBody: 'I was actively searching for how to settle loan without harassment. CredSettle handled everything professionally.'
-};
-
 export default function SettleLoanPage() {
   return (
     <>
@@ -118,10 +93,6 @@ export default function SettleLoanPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-      />
-       <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
       />
       <SettleLoanPageClient />
     </>

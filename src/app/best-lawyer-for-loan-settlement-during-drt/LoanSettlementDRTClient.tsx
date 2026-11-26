@@ -168,37 +168,10 @@ export default function LoanSettlementDRTClient() {
         }))
     };
 
-    const reviewSchemaCode = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'DRT Loan Settlement Legal Consultation',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '3580',
-            'bestRating': '5',
-            'worstRating': '1'
-        },
-        'review': reviews.map(review => ({
-            '@type': 'Review',
-            'reviewRating': {
-                '@type': 'Rating',
-                'ratingValue': review.stars.toString(),
-                'bestRating': '5'
-            },
-            'author': {
-                '@type': 'Person',
-                'name': review.name
-            },
-            'reviewBody': review.comment
-        }))
-    };
-
     return (
         <>
             <Script id="org-schema-drt" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
             <Script id="faq-schema-drt" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchemaCode) }} />
-            <Script id="review-schema-drt" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchemaCode) }} />
 
             {/* Hero Section */}
             <section

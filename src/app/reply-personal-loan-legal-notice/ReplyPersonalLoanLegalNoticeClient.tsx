@@ -132,23 +132,9 @@ export default function ReplyPersonalLoanLegalNoticeClient() {
         }))
     };
 
-    const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Reply Personal Loan Legal Notice Service',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.8',
-            'reviewCount': '312',
-            'bestRating': '5',
-            'worstRating': '1'
-        }
-    };
-
     return (
         <>
             <Script id="faq-schema-legal-notice" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-legal-notice" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
             {/* Hero Section */}
             <section

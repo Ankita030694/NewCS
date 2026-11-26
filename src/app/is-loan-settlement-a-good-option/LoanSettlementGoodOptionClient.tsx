@@ -169,30 +169,16 @@ export default function LoanSettlementGoodOptionClient() {
         ],
         'contactPoint': {
             '@type': 'ContactPoint',
-            'telephone': '+91-XXXX-XXXXXX',
+            'telephone': '+91-8800226635',
             'contactType': 'customer service',
             'areaServed': 'IN',
             'availableLanguage': 'English'
         }
     };
 
-    const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Is Loan Settlement a Good Option Analysis',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '3120',
-            'bestRating': '5',
-            'worstRating': '1'
-        }
-    };
-
     return (
         <>
             <Script id="faq-schema-good-option" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-good-option" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
             <Script id="org-schema-good-option" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
 
             {/* Hero Section */}

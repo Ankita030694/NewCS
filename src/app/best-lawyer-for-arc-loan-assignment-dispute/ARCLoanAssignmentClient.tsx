@@ -122,12 +122,6 @@ export default function ARCLoanAssignmentClient() {
         }))
     };
 
-    const reviewSchema = {
-        '@context': 'https://schema.org', '@type': 'Product',
-        'name': 'Best Lawyer for ARC Loan Assignment Dispute',
-        'aggregateRating': { '@type': 'AggregateRating', 'ratingValue': '4.9', 'reviewCount': '1876', 'bestRating': '5', 'worstRating': '1' }
-    };
-
     const orgSchema = {
         '@context': 'https://schema.org', '@type': 'Organization',
         'name': 'CredSettle', 'url': 'https://www.credsettle.com',
@@ -147,7 +141,6 @@ export default function ARCLoanAssignmentClient() {
     return (
         <>
             <Script id="faq-schema-arc-dispute" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-arc-dispute" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
             <Script id="org-schema-arc-dispute" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }} />
 
             {/* Hero */}

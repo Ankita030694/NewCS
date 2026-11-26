@@ -124,37 +124,6 @@ export default function ImpactOfLoanSettlementPage() {
         ]
     };
 
-    const reviewLd = {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "Loan Settlement Services",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": "3"
-        },
-        "review": [
-            {
-                "@type": "Review",
-                "author": { "@type": "Person", "name": "Rahul Verma" },
-                "reviewRating": { "@type": "Rating", "ratingValue": "5" },
-                "reviewBody": "CredSettle helped me understand the exact impact of loan settlement on my CIBIL score. Their guidance allowed me to rebuild my credit score over two years."
-            },
-            {
-                "@type": "Review",
-                "author": { "@type": "Person", "name": "Sneha Patil" },
-                "reviewRating": { "@type": "Rating", "ratingValue": "5" },
-                "reviewBody": "I was confused about the difference between a closed and settled account. The legal experts at CredSettle explained the long term consequences clearly."
-            },
-            {
-                "@type": "Review",
-                "author": { "@type": "Person", "name": "Arjun Nair" },
-                "reviewRating": { "@type": "Rating", "ratingValue": "5" },
-                "reviewBody": "Excellent service. I settled my personal loan and followed their post settlement timeline to secure a secured credit card and improve my score."
-            }
-        ]
-    };
-
     return (
         <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
@@ -173,11 +142,6 @@ export default function ImpactOfLoanSettlementPage() {
                 id="faq-schema"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
-            />
-            <Script
-                id="review-schema"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewLd) }}
             />
             <ImpactOfLoanSettlementClient />
                         </div>

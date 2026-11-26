@@ -134,25 +134,11 @@ export default function NegotiationLowerPrincipalClient() {
         },
         product: {
             '@context': 'https://schema.org',
-            '@type': 'Product',
+            '@type': 'Service',
             'name': 'Principal Reduction Negotiation Service',
             'description': 'Professional debt negotiation services focusing on principal reduction and waiver for unsecured loans and credit cards in India.',
             'image': 'https://www.credsettle.com/images/negotiation-mastery-hero.jpg',
-            'brand': { '@type': 'Brand', 'name': 'CredSettle' },
-            'aggregateRating': {
-                '@type': 'AggregateRating',
-                'ratingValue': '4.9',
-                'reviewCount': '3200',
-                'bestRating': '5',
-                'worstRating': '1'
-            },
-            'review': {
-                '@type': 'Review',
-                'author': { '@type': 'Person', 'name': 'Rajesh Kumar' },
-                'reviewRating': { '@type': 'Rating', 'ratingValue': '5', 'bestRating': '5', 'worstRating': '1' },
-                'reviewBody': 'I managed to reduce my credit card principal by 60% using the anchoring techniques mentioned in this guide. The 10-day blueprint is exactly how it works in reality.',
-                'datePublished': '2025-02-10'
-            }
+            'brand': { '@type': 'Brand', 'name': 'CredSettle' }
         },
         faq: {
             '@context': 'https://schema.org',
@@ -186,7 +172,7 @@ export default function NegotiationLowerPrincipalClient() {
             'logo': 'https://www.credsettle.com/logo.png',
             'contactPoint': {
                 '@type': 'ContactPoint',
-                'telephone': '+91-XXXXXXXXXX',
+                'telephone': '+91-8800226635',
                 'contactType': 'negotiation desk'
             }
         }

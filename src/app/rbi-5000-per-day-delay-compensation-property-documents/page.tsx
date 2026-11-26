@@ -237,70 +237,7 @@ export default function RbiPropertyDocCompensationPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Venkatesh Ramanathan'
-            },
-            datePublished: '2026-09-18',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'A major nationalized bank delayed returning my original flat sale deed by 64 days after I fully repaid my housing loan. CredSettle issued a formal legal notice citing RBI circular DoR.MCS.REC.38. The bank released my title deeds and credited ₹1,70,000 delay compensation into my account.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Sunita Sharma'
-            },
-            datePublished: '2026-08-30',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'After closing my Loan Against Property with an NBFC, they claimed my parent title deed was misplaced in their central vault. CredSettle escalated the matter to the Principal Nodal Officer and RBI CMS portal. The NBFC retrieved the deeds and paid ₹1,15,000 for the 23-day delay.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Gurpreet Singh'
-            },
-            datePublished: '2026-08-10',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'We settled our commercial property-backed loan via OTS. The bank branch manager refused to return original documents claiming pending corporate approvals. CredSettle proved that the 30-day rule applies equally to settled accounts, securing our papers and full penalty recovery.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

@@ -166,30 +166,16 @@ export default function MSMEBusinessLoanDisputeClient() {
         ],
         'contactPoint': {
             '@type': 'ContactPoint',
-            'telephone': '+91-XXXX-XXXXXX',
+            'telephone': '+91-8800226635',
             'contactType': 'customer service',
             'areaServed': 'IN',
             'availableLanguage': 'English'
         }
     };
 
-    const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Best Lawyer for MSME Business Loan Dispute - CredSettle Legal Services',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '1847',
-            'bestRating': '5',
-            'worstRating': '1'
-        }
-    };
-
     return (
         <>
             <Script id="faq-schema-msme-dispute" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-msme-dispute" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
             <Script id="org-schema-msme-dispute" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
 
             {/* Hero Section */}

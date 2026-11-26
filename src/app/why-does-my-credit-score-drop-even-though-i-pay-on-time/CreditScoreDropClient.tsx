@@ -132,23 +132,9 @@ export default function CreditScoreDropClient() {
         }))
     };
 
-    const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Credit Score Drop Analysis',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '4500',
-            'bestRating': '5',
-            'worstRating': '1'
-        }
-    };
-
     return (
         <>
             <Script id="faq-schema-score-drop" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-score-drop" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
             {/* Hero Section */}
             <section

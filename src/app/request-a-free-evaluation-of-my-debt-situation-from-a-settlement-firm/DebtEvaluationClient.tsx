@@ -153,35 +153,14 @@ export default function DebtEvaluationClient() {
 
     const productSchema = {
         "@context": "https://schema.org/",
-        "@type": "Product",
+        "@type": "Service",
         "name": "Debt Situation Analysis",
         "image": "https://www.credsettle.com/hero-bg.png",
         "description": "A comprehensive financial and legal audit of your debt situation to determine settlement eligibility in India.",
         "brand": {
             "@type": "Brand",
             "name": "CredSettle"
-        },
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "bestRating": "5",
-            "worstRating": "1",
-            "ratingCount": "1980"
-        },
-        "review": reviews.map(review => ({
-            "@type": "Review",
-            "author": {
-                "@type": "Person",
-                "name": review.name
-            },
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": review.stars,
-                "bestRating": "5",
-                "worstRating": "1"
-            },
-            "reviewBody": review.comment
-        }))
+        }
     };
 
     return (

@@ -141,33 +141,6 @@ export default function KrazyBeeLoanSettlementPage() {
     }))
   };
 
-  const reviewSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "KrazyBee Settlement Services by CredSettle",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "320"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Rohan Das" },
-        "datePublished": "2025-11-25",
-        "reviewBody": "Agents were calling my HR. I was terrified. CredSettle sent a legal notice to stop the harassment instantly. They settled my 50k loan for 22k.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      },
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Karthik S." },
-        "datePublished": "2025-12-05",
-        "reviewBody": "Received an arbitration notice from KrazyBee. I didn’t know what to do. The CredSettle legal team handled the hearing and closed the case swiftly.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      }
-    ]
-  };
-
   return (
     <div className="bg-gray-50 min-h-screen">
       <Navbar />
@@ -175,7 +148,6 @@ export default function KrazyBeeLoanSettlementPage() {
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <Script id="review-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
       {/* Hero Section */}
       <section 

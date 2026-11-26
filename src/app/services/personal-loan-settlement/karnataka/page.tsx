@@ -68,7 +68,7 @@ const organizationSchema = {
   url: 'https://www.credsettle.com',
   logo: 'https://www.credsettle.com/credsettle-logo.svg',
   description: 'Professional personal loan settlement services in Karnataka. Legal RBI-compliant debt resolution for Bangalore, Mysore, Mangalore borrowers. IT sector specialists.',
-  telephone: '+91-XXXXXXXXXX',
+  telephone: '+91-8800226635',
   email: 'support@credsettle.com',
   address: {
     '@type': 'PostalAddress',
@@ -93,13 +93,6 @@ const organizationSchema = {
       ]
     }
   ],
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.8',
-    reviewCount: '10000',
-    bestRating: '5',
-    worstRating: '1'
-  },
   priceRange: 'Consultation Free',
   serviceType: 'Personal Loan Settlement',
   knowsAbout: [
@@ -178,36 +171,24 @@ const breadcrumbSchema = {
 
 const localBusinessSchema = {
   '@context': 'https://schema.org',
-  '@type': 'LocalBusiness',
-  name: 'CredSettle Karnataka',
+  '@type': 'FinancialService',
+  name: 'CredSettle',
   image: 'https://www.credsettle.com/credsettle-logo.svg',
   '@id': 'https://www.credsettle.com/services/personal-loan-settlement/karnataka',
   url: 'https://www.credsettle.com/services/personal-loan-settlement/karnataka',
-  telephone: '+91-XXXXXXXXXX',
+  telephone: '+91-8800226635',
   priceRange: 'Free Consultation',
   address: {
     '@type': 'PostalAddress',
-    addressLocality: 'Bangalore',
-    addressRegion: 'Karnataka',
+    streetAddress: '4th Floor, 2493AP, Block G, Sushant Lok 2, Sector 57',
+    addressLocality: 'Gurugram',
+    addressRegion: 'Haryana',
+    postalCode: '122001',
     addressCountry: 'IN'
   },
-  geo: {
-    '@type': 'GeoCoordinates',
-    latitude: 12.9716,
-    longitude: 77.5946
-  },
-  openingHoursSpecification: {
-    '@type': 'OpeningHoursSpecification',
-    dayOfWeek: [
-      'Monday',
-      'Tuesday',
-      'Wednesday',
-      'Thursday',
-      'Friday',
-      'Saturday'
-    ],
-    opens: '09:00',
-    closes: '18:00'
+  areaServed: {
+    '@type': 'State',
+    name: 'Karnataka'
   },
   sameAs: [
     'https://www.facebook.com/credsettle',

@@ -139,57 +139,11 @@ export default function IsThereAnyMobileSoftwareClient() {
     }))
   };
 
-  const reviewSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'ItemList',
-    'itemListElement': [
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Amit Sharma' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'CredSettle helped me stop the constant harassment from recovery agents. Their legal approach is very effective.',
-        'itemReviewed': { '@type': 'LegalService', 'name': 'CredSettle' }
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Priya Verma' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'The AMA Legal Solutions app is a lifesaver. It helped me understand my rights and block unwanted calls.',
-        'itemReviewed': { '@type': 'LegalService', 'name': 'AMA Legal Solutions' }
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Suresh Gupta' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'SettleLoans provided a clear path to debt freedom. No more harassment calls!',
-        'itemReviewed': { '@type': 'LegalService', 'name': 'SettleLoans' }
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Megha Iyer' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'I was terrified of recovery agents until I contacted CredSettle. They took over all communications and stopped the harassment.',
-        'itemReviewed': { '@type': 'LegalService', 'name': 'CredSettle' }
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Vikram Rathore' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'Excellent guidance on using technology to block spam. The combination of apps and legal advice worked wonders.',
-        'itemReviewed': { '@type': 'LegalService', 'name': 'AMA Legal Solutions' }
-      }
-    ]
-  };
-
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
       />
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-4">

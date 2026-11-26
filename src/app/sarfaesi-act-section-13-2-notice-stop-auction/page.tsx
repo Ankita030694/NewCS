@@ -126,17 +126,6 @@ export default function SarfaesiAuctionPage() {
         ]
     };
 
-    const reviewLd = {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "SARFAESI Act Property Defence Advisory",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": "3"
-        }
-    };
-
     return (
         <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
@@ -155,11 +144,6 @@ export default function SarfaesiAuctionPage() {
                 id="faq-schema-sarfaesi"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
-            />
-            <Script
-                id="review-schema-sarfaesi"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewLd) }}
             />
             <SarfaesiAuctionClient />
                         </div>

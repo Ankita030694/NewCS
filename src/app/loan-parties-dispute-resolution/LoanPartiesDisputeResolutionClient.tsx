@@ -176,19 +176,12 @@ const LoanPartiesDisputeResolutionClient = () => {
 
     const productSchema = {
         '@context': 'https://schema.org',
-        '@type': 'Product',
+        '@type': 'Service',
         'name': 'Loan Parties Dispute Resolution Analysis',
         'description': 'Specialized legal mediation and dispute resolution for multi-party loan agreements, involving borrowers, co-applicants, and guarantors in Indian law.',
         'brand': {
             '@type': 'Brand',
             'name': 'CredSettle'
-        },
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '2840',
-            'bestRating': '5',
-            'worstRating': '1'
         },
         'offers': {
             '@type': 'AggregateOffer',

@@ -130,33 +130,6 @@ export default function ICICILoanSettlementPage() {
     }))
   };
 
-  const reviewSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "ICICI Loan Settlement Services by CredSettle",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "840"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Vikas Malhotra" },
-        "datePublished": "2025-12-10",
-        "reviewBody": "My ICICI credit card limit was 3 Lakhs but due to late fees it became 7 Lakhs. CredSettle negotiated it down to 2.5 Lakhs. Very professional service.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      },
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Sneha R." },
-        "datePublished": "2025-12-28",
-        "reviewBody": "Stressed with recovery calls from ICICI. The team handled everything. I just paid the settlement amount and got my NOC.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      }
-    ]
-  };
-
   return (
     <div className="bg-gray-50 min-h-screen">
       <Navbar />
@@ -164,7 +137,6 @@ export default function ICICILoanSettlementPage() {
       <Script id="breadcrumb-schema-icici" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="article-schema-icici" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <Script id="faq-schema-icici" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <Script id="review-schema-icici" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
       {/* Hero Section */}
       <section 

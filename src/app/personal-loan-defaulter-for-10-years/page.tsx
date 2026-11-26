@@ -104,59 +104,6 @@ export default function PersonalLoanDefaulterPage() {
         ]
       },
       {
-        '@type': 'Product',
-        'name': 'Personal Loan Defaulter Legal Settlement Consultation',
-        'aggregateRating': {
-          '@type': 'AggregateRating',
-          'ratingValue': '5.0',
-          'ratingCount': '3'
-        },
-        'review': [
-          {
-            '@type': 'Review',
-            'author': {
-              '@type': 'Person',
-              'name': 'Suresh Kumar'
-            },
-            'datePublished': '2026-02-15',
-            'reviewRating': {
-              '@type': 'Rating',
-              'ratingValue': '5',
-              'bestRating': '5'
-            },
-            'reviewBody': 'I was haunted by a personal loan default from 2013. The bank suddenly started calling me again last year. I learned about the Limitation Act through CredSettle and they helped me negotiate a closure by paying just five percent of what the bank demanded. My nightmare is finally over.'
-          },
-          {
-            '@type': 'Review',
-            'author': {
-              '@type': 'Person',
-              'name': 'Priya Rajan'
-            },
-            'datePublished': '2025-12-10',
-            'reviewRating': {
-              '@type': 'Rating',
-              'ratingValue': '5',
-              'bestRating': '5'
-            },
-            'reviewBody': 'After defaulting on a massive loan ten years ago due to a business failure, I thought I was safe. Then a legal notice arrived out of nowhere. The team at CredSettle proved the debt was time barred and forced the collection agency to back down permanently without me paying a single rupee.'
-          },
-          {
-            '@type': 'Review',
-            'author': {
-              '@type': 'Person',
-              'name': 'Manoj Tiwari'
-            },
-            'datePublished': '2025-10-05',
-            'reviewRating': {
-              '@type': 'Rating',
-              'ratingValue': '5',
-              'bestRating': '5'
-            },
-            'reviewBody': 'I made the mistake of transferring a small amount to an old loan account, which restarted my limitation period. The bank sued me. Thankfully, I got professional legal help that guided me through a Lok Adalat settlement, saving me from losing my ancestral home.'
-          }
-        ]
-      },
-      {
         '@type': 'BreadcrumbList',
         'itemListElement': [
           {

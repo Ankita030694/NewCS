@@ -49,48 +49,7 @@ export default function DebtConsolidationBadCreditPage() {
       addressLocality: 'Gurugram',
       addressRegion: 'Haryana',
       addressCountry: 'IN'
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.8',
-      reviewCount: '1240',
-      bestRating: '5',
-      worstRating: '1'
-    },
-    review: [
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Amit Verma'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'I had a CIBIL of 580 and was struggling with multiple credit card debts. CredSettle helped me understand my consolidation and settlement options clearly.',
-        'itemReviewed': {
-          '@type': 'FinancialService',
-          'name': 'CredSettle'
-        }
-      },
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Priya Sharma'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'Excellent guidance on which NBFCs to approach for debt consolidation with a fair credit score. Very professional service.',
-        'itemReviewed': {
-          '@type': 'FinancialService',
-          'name': 'CredSettle'
-        }
-      }
-    ]
+    }
   };
 
   const breadcrumbSchema = {

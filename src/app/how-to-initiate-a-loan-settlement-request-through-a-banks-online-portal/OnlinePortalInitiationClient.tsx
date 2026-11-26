@@ -166,30 +166,16 @@ export default function OnlinePortalInitiationClient() {
         ],
         'contactPoint': {
             '@type': 'ContactPoint',
-            'telephone': '+91-XXXX-XXXXXX',
+            'telephone': '+91-8800226635',
             'contactType': 'customer service',
             'areaServed': 'IN',
             'availableLanguage': 'English'
         }
     };
 
-    const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Online Bank Portal Settlement Request Guide',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.8',
-            'reviewCount': '1950',
-            'bestRating': '5',
-            'worstRating': '1'
-        }
-    };
-
     return (
         <>
             <Script id="faq-schema-portal" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-portal" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
             <Script id="org-schema-portal" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
 
             {/* Hero Section */}

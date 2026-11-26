@@ -134,33 +134,6 @@ export default function KisetsuLoanSettlementPage() {
     }))
   };
 
-  const reviewSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "Kisetsu Saison Finance Settlement Services by CredSettle",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.7",
-      "reviewCount": "420"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Rohan D." },
-        "datePublished": "2025-12-10",
-        "reviewBody": "I had a Credit Saison loan that I couldn’t pay after my shop closed. CredSettle stopped the constant calls and closed the specific loan for 45% of the value.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      },
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Sneha P." },
-        "datePublished": "2025-11-22",
-        "reviewBody": "The legal team dealt with the arbitration notice I received. I didn’t have to go to court. Highly relieved.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      }
-    ]
-  };
-
   return (
     <div className="bg-gray-50 min-h-screen">
       <Navbar />
@@ -168,7 +141,6 @@ export default function KisetsuLoanSettlementPage() {
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <Script id="review-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
       {/* Hero Section */}
       <section 

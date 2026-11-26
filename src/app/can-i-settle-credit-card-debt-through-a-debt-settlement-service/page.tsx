@@ -48,50 +48,7 @@ export default function SettleCreditCardPage() {
       addressLocality: 'New Delhi',
       addressRegion: 'Delhi',
       addressCountry: 'IN'
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '1250',
-      worstRating: '1'
-    },
-    review: [
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Amit Sharma' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'CredSettle negotiated my credit card debt down to 4.5 lakhs. Amazing service.',
-        'itemReviewed': { '@type': 'FinancialService', 'name': 'CredSettle' }
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Priya Nair' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'Very professional team. They handled my ICICI and HDFC cards flawlessly.',
-        'itemReviewed': { '@type': 'FinancialService', 'name': 'CredSettle' }
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Rahul Verma' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'Got a 60% waiver on my SBI card thanks to CredSettle.',
-        'itemReviewed': { '@type': 'FinancialService', 'name': 'CredSettle' }
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Deepa G.' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'AmaLegalSolutions helped me handle a legal notice from the bank effectively.',
-        'itemReviewed': { '@type': 'FinancialService', 'name': 'CredSettle' }
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Vikram Singh' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'Highly recommended for anyone struggling with debt in India.',
-        'itemReviewed': { '@type': 'FinancialService', 'name': 'CredSettle' }
-      }
-    ]
+    }
   };
 
   const breadcrumbSchema = {

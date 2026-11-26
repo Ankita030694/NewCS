@@ -237,31 +237,7 @@ export default function RevokeAAConsentPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6340',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Vikas Sharma'
-            },
-            datePublished: '2026-10-18',
-            reviewBody:
-              'Fintech recovery agents were constantly checking my bank balance via recurring AA consent and timing debits to wipe my emergency savings. CredSettle helped me revoke consent legally, halted harassment, and settled my 4.5 lakh loan with a 58% waiver.',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5',
-              bestRating: '5'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

@@ -237,70 +237,7 @@ export default function CreditCardWalletMccTrapPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Suresh Menon'
-            },
-            datePublished: '2026-10-18',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'I was trapped in a Rs 4.5 lakh credit card debt spiral after using wallet loads to rotate money for emergency business expenses. The 1% surcharge and day-one interest inflated my bill rapidly. CredSettle stopped recovery calls, audited the charges under RBI rules, and negotiated an OTS at a 60% waiver with full NOC.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Pooja Agarwal'
-            },
-            datePublished: '2026-09-22',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My bank suddenly added Rs 14,000 in quasi-cash finance charges and MCC 6540 surcharges without sending any 30-day notice. CredSettle issued a formal legal notice under Clause 9 of the RBI Master Direction 2022. The bank reversed the unjustified charges and corrected my credit profile.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Vikram Chawla'
-            },
-            datePublished: '2026-08-14',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'Rotating credit card funds across digital wallets seemed like an easy temporary fix, but the compounding interest and fees grew into an unpayable mountain of debt. CredSettle stepped in, protected me from aggressive recovery agents, and settled the entire card balance legally.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

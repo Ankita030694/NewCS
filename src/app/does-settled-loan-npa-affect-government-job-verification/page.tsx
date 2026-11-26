@@ -126,17 +126,6 @@ export default function GovernmentJobVerificationPage() {
         ]
     };
 
-    const reviewLd = {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "Government Job Loan Default Legal Advisory",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": "3"
-        }
-    };
-
     return (
         <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
@@ -155,11 +144,6 @@ export default function GovernmentJobVerificationPage() {
                 id="faq-schema-govt-job"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
-            />
-            <Script
-                id="review-schema-govt-job"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewLd) }}
             />
             <GovernmentJobVerificationClient />
                         </div>

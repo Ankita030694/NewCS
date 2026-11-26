@@ -237,70 +237,7 @@ export default function NoCostEmiTrapPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Kavita Sundaram'
-            },
-            datePublished: '2026-10-19',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'I purchased an appliance on a supposed zero-cost EMI, but the bank added an undisclosed processing fee and billed 18% GST on interest every month. When I tried to cancel, they demanded 3% foreclosure charges. CredSettle issued a legal notice citing RBI Master Direction 2022 and secured a complete waiver of the penalties.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Rajesh Chawla'
-            },
-            datePublished: '2026-09-14',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'Due to multiple no-cost EMIs, my credit card limit was fully blocked, spiking my utilization to 85% and hurting my CIBIL score. After missing one payment, the bank slapped 42% APR interest on the entire balance. CredSettle stopped recovery harassment and negotiated a 60% one-time settlement.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Deepak Verma'
-            },
-            datePublished: '2026-08-28',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'The bank billed me hidden interest and processing charges on an EMI scheme marketed as completely free by an e-commerce platform. CredSettle escalated the grievance to the Principal Nodal Officer and RBI Ombudsman, getting the excess charges refunded directly to my account.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

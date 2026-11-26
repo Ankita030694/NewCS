@@ -129,62 +129,14 @@ export default function CreditCardSettlementPage() {
 
     const reviewLd = {
         "@context": "https://schema.org",
-        "@type": "Product",
+        "@type": "Service",
         "name": "Credit Card Settlement Services",
         "image": "https://www.credsettle.com/credsettle-logo.svg",
         "description": "Expert legal assistance for negotiating and settling high-interest credit card debt in India.",
         "brand": {
             "@type": "Brand",
             "name": "CredSettle"
-        },
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "bestRating": "5",
-            "worstRating": "1",
-            "ratingCount": "3"
-        },
-        "review": [
-            {
-                "@type": "Review",
-                "author": {
-                    "@type": "Person",
-                    "name": "Rahul Verma"
-                },
-                "datePublished": "2025-11-15",
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5"
-                },
-                "reviewBody": "I was paying the minimum amount on my credit card for two years and the balance never went down. The team at CredSettle explained the math, helped me stop paying the minimum, and legally negotiated a settlement at 40% of the outstanding amount. The harassment calls stopped immediately."
-            },
-            {
-                "@type": "Review",
-                "author": {
-                    "@type": "Person",
-                    "name": "Neha Sharma"
-                },
-                "datePublished": "2026-02-10",
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5"
-                },
-                "reviewBody": "Excellent guidance on how the credit card trap works. I was afraid of the legal consequences, but their lawyers handled the bank's recovery agents professionally. Got my NOC letter in 4 months."
-            },
-            {
-                "@type": "Review",
-                "author": {
-                    "@type": "Person",
-                    "name": "Karthik R."
-                },
-                "datePublished": "2026-04-22",
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5"
-                },
-                "reviewBody": "Very transparent about the CIBIL score impact. They didn't just sell me a dream. They gave me a realistic cost breakdown of settlement vs continuing to pay the minimum due. Highly recommended."
-            }
-        ]
+        }
     };
 
     return (

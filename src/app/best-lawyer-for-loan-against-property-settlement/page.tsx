@@ -81,7 +81,7 @@ export default function BestLawyerLAPPage() {
         ],
         'contactPoint': {
             '@type': 'ContactPoint',
-            'telephone': '+91-9999-999999',
+            'telephone': '+91-8800226635',
             'contactType': 'customer service',
             'areaServed': 'IN',
             'availableLanguage': 'English'

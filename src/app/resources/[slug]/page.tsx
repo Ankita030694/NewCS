@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound, permanentRedirect } from 'next/navigation';
 import BlogPostPageClient from './BlogPostPageClient';
 import { canonicaliseSlug, generateSlugFromTitle } from '@/lib/slug';
-import { getBlogBySlug, getRelatedBlogs, getBlogReviews, type Review } from '@/lib/blogs';
+import { getBlogBySlug, getRelatedBlogs, getBlogReviews } from '@/lib/blogs';
 import { defaultBlogFaqs, type BlogFaq } from '@/data/blogDefaults';
 
 type PageProps = {
@@ -603,32 +603,6 @@ export default async function BlogPostPage({ params }: PageProps) {
   const isoPublishedDate = formatIsoDateTime(blog.date);
   const isoModifiedDate = formatIsoDateTime(blog.date);
 
-  const defaultBlogReviews: Review[] = [
-    {
-      id: 'default-1',
-      author: 'Vikram Mehta',
-      rating: 5,
-      comment: 'CredSettle helped me settle my credit card debt with a 50% waiver. The legal team stopped recovery agent harassment within 48 hours.',
-      date: '2026-01-15'
-    },
-    {
-      id: 'default-2',
-      author: 'Pooja Verma',
-      rating: 5,
-      comment: 'Exceptional debt settlement service. Very transparent and professional legal guidance throughout the process.',
-      date: '2026-02-10'
-    },
-    {
-      id: 'default-3',
-      author: 'Anand Kulkarni',
-      rating: 5,
-      comment: 'Saved me from financial distress. Got my NOC letter and debt closure without hassle.',
-      date: '2026-03-05'
-    }
-  ];
-
-  const effectiveReviews = reviews && reviews.length > 0 ? reviews : defaultBlogReviews;
-
   const rawDescription = OPTIMIZED_DESCRIPTIONS[canonicalSlug] || OPTIMIZED_DESCRIPTIONS[slug] || getValidDescription(blog);
   let effectiveDescription = rawDescription.replace(/[—–]/g, '-').trim();
   if (effectiveDescription.length > 146) {
@@ -711,29 +685,7 @@ export default async function BlogPostPage({ params }: PageProps) {
       postalCode: '110001',
       addressCountry: 'IN'
     },
-    priceRange: 'Consultation Free',
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: (effectiveReviews.reduce((acc, r) => acc + r.rating, 0) / effectiveReviews.length).toFixed(1),
-      reviewCount: effectiveReviews.length,
-      bestRating: '5',
-      worstRating: '1'
-    },
-    review: effectiveReviews.map((review) => ({
-      '@type': 'Review',
-      author: {
-        '@type': 'Person',
-        name: review.author
-      },
-      datePublished: formatIsoDateTime(review.date).split('T')[0],
-      reviewBody: review.comment,
-      reviewRating: {
-        '@type': 'Rating',
-        ratingValue: review.rating,
-        bestRating: '5',
-        worstRating: '1'
-      }
-    }))
+    priceRange: 'Consultation Free'
   };
 
   const breadcrumbStructuredData = {

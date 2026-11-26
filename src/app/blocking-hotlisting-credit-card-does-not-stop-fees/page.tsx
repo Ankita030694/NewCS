@@ -223,52 +223,7 @@ export default function BlockingHotlistingCreditCardPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Rohan Deshmukh'
-            },
-            datePublished: '2026-10-05',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'I hotlisted my credit card in 2025 thinking it was closed, and the bank billed Rs 2,500 annual fee plus late charges that damaged my CIBIL score. CredSettle escalated the issue under RBI closure rules, got all fees waived, and restored my CIBIL status.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Ananya Iyer'
-            },
-            datePublished: '2026-09-22',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My bank kept my card in blocked state for 40 days even after I cleared all dues and requested closure. CredSettle filed an RBI CMS complaint and recovered Rs 16,500 in closure delay compensation at Rs 500 per day.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

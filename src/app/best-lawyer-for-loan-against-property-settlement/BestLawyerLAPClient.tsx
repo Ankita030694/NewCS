@@ -146,32 +146,14 @@ export default function BestLawyerLAPClient() {
 
     const reviewSchema = {
         "@context": "https://schema.org",
-        "@type": "Product",
+        "@type": "Service",
         "name": "Legal Consultation for Loan Against Property Settlement",
         "image": "https://www.credsettle.com/credsettle-logo.svg",
         "description": "Expert legal assistance for negotiating and settling loans against property in India, stopping SARFAESI auctions, and securing favorable DRT stay orders.",
         "brand": {
             "@type": "Organization",
             "name": "CredSettle"
-        },
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": "342"
-        },
-        "review": reviews.map(r => ({
-            "@type": "Review",
-            "author": {
-                "@type": "Person",
-                "name": r.name
-            },
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": r.stars.toString(),
-                "bestRating": "5"
-            },
-            "reviewBody": r.comment
-        }))
+        }
     };
 
     const organizationSchema = {
@@ -187,7 +169,7 @@ export default function BestLawyerLAPClient() {
         ],
         'contactPoint': {
             '@type': 'ContactPoint',
-            'telephone': '+91-9999-999999',
+            'telephone': '+91-8800226635',
             'contactType': 'customer service',
             'areaServed': 'IN',
             'availableLanguage': 'English'

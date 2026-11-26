@@ -142,33 +142,6 @@ export default function BajajFinservLoanSettlementPage() {
     }))
   };
 
-  const reviewSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "Bajaj Finserv Loan Settlement Services by CredSettle",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.7",
-      "reviewCount": "980"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Vikram Singh" },
-        "datePublished": "2025-10-20",
-        "reviewBody": "My Bajaj Finserv personal loan was becoming a burden. CredSettle helped me settle it for 40% of the value. Professional service.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      },
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Meera K." },
-        "datePublished": "2025-11-12",
-        "reviewBody": "Recovery agents were harassment. The legal team at CredSettle stopped the calls within 48 hours and closed my EMI card dues.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      }
-    ]
-  };
-
   return (
     <div className="bg-gray-50 min-h-screen">
       <Navbar />
@@ -176,7 +149,6 @@ export default function BajajFinservLoanSettlementPage() {
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <Script id="review-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
       {/* Hero Section */}
       <section 

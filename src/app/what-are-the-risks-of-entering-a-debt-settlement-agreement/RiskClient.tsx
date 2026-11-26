@@ -138,61 +138,11 @@ export default function RiskClient() {
     }))
   };
 
-  const reviews = [
-    {
-      author: "Amit Khurana",
-      rating: 5,
-      body: "I was terrified of the legal notices from my credit card bank. CredSettle explained the risks clearly and helped me navigate the process without falling into common traps. Highly recommend their transparent approach.",
-      location: "Delhi"
-    },
-    {
-      author: "Priya Sharma",
-      rating: 5,
-      body: "Initially, I was worried about my CIBIL score, but AmaLegalSolutions helped me understand that a temporary drop is better than a lifetime of debt. Their legal expertise is unmatched.",
-      location: "Mumbai"
-    },
-    {
-      author: "Vikram Reddy",
-      rating: 5,
-      body: "SettleLoans managed my expectations perfectly. They didn't make false promises about immediate results and focused on a sustainable long-term solution. Very professional service.",
-      location: "Hyderabad"
-    },
-    {
-      author: "Sanjay Gupta",
-      rating: 5,
-      body: "The team helped me understand the tax implications of my settlement which I was completely unaware of. Their holistic view of debt resolution saved me from future surprises.",
-      location: "Bangalore"
-    },
-    {
-      author: "Meenakshi Iyer",
-      rating: 5,
-      body: "After dealing with aggressive recovery agents, finding a reliable partner was a blessing. They handled the communication professionally and gave me my peace of mind back.",
-      location: "Chennai"
-    }
-  ];
-
-  const reviewSchema = reviews.map(r => ({
-    '@type': 'Review',
-    'author': { '@type': 'Person', 'name': r.author },
-    'reviewRating': { '@type': 'Rating', 'ratingValue': r.rating.toString() },
-    'reviewBody': r.body,
-    'itemReviewed': { '@type': 'LegalService', 'name': 'CredSettle' }
-  }));
-
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          '@context': 'https://schema.org',
-          '@type': 'Product',
-          'name': 'Debt Settlement Advisory',
-          'review': reviewSchema
-        }) }}
       />
       
       {/* Breadcrumb Section */}

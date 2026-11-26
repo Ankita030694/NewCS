@@ -2,24 +2,10 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import Script from 'next/script';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 
 export default function RBLHomeVisitClient() {
-  const reviewSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    'name': 'RBL Bank Harassment Protection Service',
-    'aggregateRating': {
-      '@type': 'AggregateRating',
-      'ratingValue': '4.8',
-      'reviewCount': '13245',
-      'bestRating': '5',
-      'worstRating': '1'
-    }
-  };
-
   const [activeId, setActiveId] = useState<string>('');
   const [isMobile, setIsMobile] = useState(false);
   const mobileNavRef = useRef<HTMLDivElement>(null);
@@ -173,7 +159,6 @@ export default function RBLHomeVisitClient() {
 
   return (
     <>
-      <Script id="review-schema-rbl" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
       <div className="bg-white border-b border-gray-200">
         <div className="w-full mx-auto px-4 py-4 lg:px-8">
           <nav className="flex text-sm text-gray-500" aria-label="Breadcrumb">

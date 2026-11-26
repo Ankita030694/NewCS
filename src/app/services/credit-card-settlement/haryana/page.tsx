@@ -58,7 +58,7 @@ const organizationSchema = {
   url: 'https://www.credsettle.com',
   logo: 'https://www.credsettle.com/credsettle-logo.svg',
   description: 'Professional credit card settlement services in Haryana. Legal RBI-compliant debt resolution for Gurgaon, Faridabad, Panipat borrowers. Corporate and real estate debt specialists.',
-  telephone: '+91-XXXXXXXXXX',
+  telephone: '+91-8800226635',
   email: 'support@credsettle.com',
   address: {
     '@type': 'PostalAddress',
@@ -79,13 +79,6 @@ const organizationSchema = {
       ]
     }
   ],
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.7',
-    reviewCount: '4800',
-    bestRating: '5',
-    worstRating: '1'
-  },
   priceRange: 'Consultation Free',
   serviceType: 'Credit Card Settlement',
   knowsAbout: [
@@ -156,36 +149,24 @@ const breadcrumbSchema = {
 
 const localBusinessSchema = {
   '@context': 'https://schema.org',
-  '@type': 'LocalBusiness',
-  name: 'CredSettle Haryana Credit Card Settlement',
+  '@type': 'FinancialService',
+  name: 'CredSettle',
   image: 'https://www.credsettle.com/credsettle-logo.svg',
   '@id': 'https://www.credsettle.com/services/credit-card-settlement/haryana',
   url: 'https://www.credsettle.com/services/credit-card-settlement/haryana',
-  telephone: '+91-XXXXXXXXXX',
+  telephone: '+91-8800226635',
   priceRange: 'Free Consultation',
   address: {
     '@type': 'PostalAddress',
-    addressLocality: 'Gurgaon',
+    streetAddress: '4th Floor, 2493AP, Block G, Sushant Lok 2, Sector 57',
+    addressLocality: 'Gurugram',
     addressRegion: 'Haryana',
+    postalCode: '122001',
     addressCountry: 'IN'
   },
-  geo: {
-    '@type': 'GeoCoordinates',
-    latitude: 28.4595,
-    longitude: 77.0266
-  },
-  openingHoursSpecification: {
-    '@type': 'OpeningHoursSpecification',
-    dayOfWeek: [
-      'Monday',
-      'Tuesday',
-      'Wednesday',
-      'Thursday',
-      'Friday',
-      'Saturday'
-    ],
-    opens: '09:00',
-    closes: '18:00'
+  areaServed: {
+    '@type': 'State',
+    name: 'Haryana'
   },
   sameAs: [
     'https://www.facebook.com/credsettle',

@@ -472,24 +472,6 @@ const CompareFeesClient = () => {
                 })
             }} />
 
-            <Script id="review-schema-compare-fees" type="application/ld+json" dangerouslySetInnerHTML={{
-                __html: JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "Product",
-                    "name": "CredSettle Debt Settlement Service",
-                    "aggregateRating": {
-                        "@type": "AggregateRating",
-                        "ratingValue": "4.8",
-                        "reviewCount": "1250"
-                    },
-                    "review": reviews.map(review => ({
-                        "@type": "Review",
-                        "author": { "@type": "Person", "name": review.name },
-                        "reviewRating": { "@type": "Rating", "ratingValue": review.rating },
-                        "reviewBody": review.comment
-                    }))
-                })
-            }} />
         </>
     );
 };

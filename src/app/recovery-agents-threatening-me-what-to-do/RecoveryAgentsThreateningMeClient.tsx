@@ -211,29 +211,9 @@ export default function RecoveryAgentsThreateningMeClient() {
 
     const reviewSchema = {
         '@context': 'https://schema.org',
-        '@type': 'Product',
+        '@type': 'Service',
         'name': 'Recovery Harassment Protection Services',
-        'description': 'Professional legal assistance to stop harassment from bank recovery agents and negotiate debt settlements.',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '2450',
-            'bestRating': '5',
-            'worstRating': '1'
-        },
-        'review': reviews.map(review => ({
-            '@type': 'Review',
-            'author': {
-                '@type': 'Person',
-                'name': review.name
-            },
-            'reviewRating': {
-                '@type': 'Rating',
-                'ratingValue': review.stars.toString(),
-                'bestRating': '5'
-            },
-            'reviewBody': review.comment
-        }))
+        'description': 'Professional legal assistance to stop harassment from bank recovery agents and negotiate debt settlements.'
     };
 
     return (

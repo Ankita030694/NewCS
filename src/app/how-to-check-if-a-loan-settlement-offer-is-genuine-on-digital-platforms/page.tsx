@@ -67,45 +67,6 @@ export default function CheckGenuinenessPage() {
         }
     ];
 
-    const reviews = [
-        {
-            name: "Amit V.",
-            location: "Pune",
-            rating: 5,
-            text: "I was almost about to pay a scammer 10k as a 'processing fee'. This guide helped me realize it was a trap. Verified with the branch and saved my money."
-        },
-        {
-            name: "Kavita S.",
-            location: "Hyderabad",
-            rating: 5,
-            text: "The metadata check tip is a lifesaver. The PDF I got was created on some 'Free PDF Editor' brand. Definitely not a bank document."
-        },
-        {
-            name: "Rahul J.",
-            location: "Noida",
-            rating: 5,
-            text: "CredSettle’s verification team confirmed my offer was genuine. It gave me the peace of mind to make the payment."
-        },
-        {
-            name: "Meera K.",
-            location: "Kolkata",
-            rating: 5,
-            text: "Never trust a Gmail address for bank talk. This guide should be read by every borrower in India."
-        },
-        {
-            name: "Suresh M.",
-            location: "Bangalore",
-            rating: 5,
-            text: "I was confused about a settlement letter from an NBFC. The check on official domains mentioned here saved me from a 50k scam. Highly recommended guide."
-        },
-        {
-            name: "Meera K.",
-            location: "Kolkata",
-            rating: 5,
-            text: "Never trust a Gmail address for bank talk. This guide should be read by every borrower in India."
-        }
-    ];
-
     const jsonLd = {
         "@context": "https://schema.org",
         "@type": "Article",
@@ -160,7 +121,7 @@ export default function CheckGenuinenessPage() {
         ],
         "contactPoint": {
             "@type": "ContactPoint",
-            "telephone": "+91-XXXX-XXXXXX",
+            "telephone": "+91-8800226635",
             "contactType": "customer service",
             "areaServed": "IN",
             "availableLanguage": "English"
@@ -177,31 +138,6 @@ export default function CheckGenuinenessPage() {
                 '@type': 'Answer',
                 'text': faq.answer
             }
-        }))
-    };
-
-    const productSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'How to Check if a Loan Settlement Offer is Genuine on Digital Platforms',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '4250',
-            'bestRating': '5',
-            'worstRating': '1'
-        },
-        'review': reviews.map(review => ({
-            '@type': 'Review',
-            'author': {
-                '@type': 'Person',
-                'name': review.name
-            },
-            'reviewRating': {
-                '@type': 'Rating',
-                'ratingValue': review.rating.toString()
-            },
-            'reviewBody': review.text
         }))
     };
 
@@ -228,11 +164,6 @@ export default function CheckGenuinenessPage() {
                 id="faq-schema-genuineness"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-            />
-            <Script
-                id="product-schema-genuineness"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
             />
             <CheckGenuinenessClient />
                         </div>

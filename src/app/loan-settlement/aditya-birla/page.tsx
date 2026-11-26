@@ -134,38 +134,16 @@ export default function AdityaBirlaLoanSettlementPage() {
     ]
   };
 
-  // Schema for Review
+  // Service schema
   const reviewSchema = {
     "@context": "https://schema.org",
-    "@type": "Product",
+    "@type": "Service",
     "name": "Aditya Birla Loan Settlement Services",
     "description": "Legal defense against Aditya Birla Finance arbitration and settlement negotiation.",
     "brand": {
       "@type": "Brand",
       "name": "CredSettle"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "reviewCount": "92",
-      "bestRating": "5",
-      "worstRating": "1"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": {
-          "@type": "Person",
-          "name": "Rajesh Kumar"
-        },
-        "datePublished": "2025-12-05",
-        "reviewBody": "They stopped the arbitration proceedings in Delhi for my personal loan. Aditya Birla finally agreed to a 40% settlement.",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5"
-        }
-      }
-    ]
+    }
   };
 
   return (

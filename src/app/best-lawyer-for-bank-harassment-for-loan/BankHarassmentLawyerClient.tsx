@@ -106,30 +106,12 @@ export default function BankHarassmentLawyerClient() {
         }))
     };
 
-    const reviewSchema = {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "Bank Harassment Legal Protection Services",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": "1840",
-            "bestRating": "5",
-            "worstRating": "1"
-        }
-    };
-
     return (
         <div className="min-h-screen bg-white">
             <Script
                 id="faq-schema-bank-harassment"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-            />
-            <Script
-                id="review-schema-bank-harassment"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
             />
 
             {/* Hero Section */}

@@ -121,26 +121,6 @@ export default function StashfinLoanSettlementPage() {
     }))
   };
 
-  const reviewSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "Stashfin Settlement Services by CredSettle",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "reviewCount": "134"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Sneha P." },
-        "datePublished": "2025-10-20",
-        "reviewBody": "Stashfin agents were calling my office colleagues. CredSettle legal team sent a notice, and the calls stopped.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      }
-    ]
-  };
-
   return (
     <div className="bg-gray-50 min-h-screen">
       <Navbar />
@@ -148,7 +128,6 @@ export default function StashfinLoanSettlementPage() {
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <Script id="review-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
       {/* Hero Section */}
       <section 

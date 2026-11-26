@@ -174,19 +174,12 @@ const LoanDefaultEmiForeclosureAssistanceClient = () => {
 
     const productSchema = {
         '@context': 'https://schema.org',
-        '@type': 'Product',
+        '@type': 'Service',
         'name': 'Foreclosure Defense & EMI Default Assistance Analysis',
         'description': 'Comprehensive legal defense against home loan foreclosure, EMI default litigation, and procedural SARFAESI Act challenges in the Indian banking system.',
         'brand': {
             '@type': 'Brand',
             'name': 'CredSettle'
-        },
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '3580',
-            'bestRating': '5',
-            'worstRating': '1'
         },
         'offers': {
             '@type': 'AggregateOffer',

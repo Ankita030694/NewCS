@@ -177,19 +177,6 @@ export default function WillBanksBlacklistYouClient() {
         }))
     };
 
-    const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Will Banks Blacklist You After Loan Settlement Analysis',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '3120',
-            'bestRating': '5',
-            'worstRating': '1'
-        }
-    };
-
     const organizationSchema = {
         '@context': 'https://schema.org',
         '@type': 'Organization',
@@ -203,7 +190,7 @@ export default function WillBanksBlacklistYouClient() {
         ],
         'contactPoint': {
             '@type': 'ContactPoint',
-            'telephone': '+91-XXXX-XXXXXX',
+            'telephone': '+91-8800226635',
             'contactType': 'customer service',
             'areaServed': 'IN',
             'availableLanguage': 'English'
@@ -232,7 +219,6 @@ export default function WillBanksBlacklistYouClient() {
     return (
         <>
             <Script id="faq-schema-blacklist" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-blacklist" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
             <Script id="org-schema-blacklist" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
             <Script id="breadcrumb-schema-blacklist" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

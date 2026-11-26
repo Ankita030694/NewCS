@@ -242,70 +242,7 @@ export default function PersonalLoanLockInForeclosurePage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Nikhil Deshmukh'
-            },
-            datePublished: '2026-10-12',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My NBFC blocked my floating-rate personal loan foreclosure after 5 EMIs by quoting an old 12-EMI lock-in policy. CredSettle drafted a notice citing RBI Circular RBI/2025-26/64. The lender waived the lock-in and closed my account with zero foreclosure fee.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Priya Nair'
-            },
-            datePublished: '2026-09-25',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'A private bank demanded a 5% foreclosure fee plus GST even though my Key Facts Statement never listed any foreclosure penalty. CredSettle escalated the KFS breach to the Principal Nodal Officer and RBI Ombudsman, and the bank refunded ₹24,600.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Rohit Malhotra'
-            },
-            datePublished: '2026-08-19',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'I took an online personal loan and wanted to cancel it within 48 hours, but support quoted a 12-month lock-in. CredSettle invoked the RBI Digital Lending cooling-off rule and helped me exit cleanly without paying any foreclosure penalty.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

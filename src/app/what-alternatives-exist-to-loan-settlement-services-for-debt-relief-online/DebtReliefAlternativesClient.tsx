@@ -152,19 +152,6 @@ export default function DebtReliefAlternativesClient() {
         }))
     };
 
-    const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Debt Relief Alternatives Guide',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '2450',
-            'bestRating': '5',
-            'worstRating': '1'
-        }
-    };
-
     const organizationSchema = {
         '@context': 'https://schema.org',
         '@type': 'Organization',
@@ -173,7 +160,7 @@ export default function DebtReliefAlternativesClient() {
         'logo': 'https://www.credsettle.com/logo.png',
         'contactPoint': {
             '@type': 'ContactPoint',
-            'telephone': '+91-XXXX-XXXXXX',
+            'telephone': '+91-8800226635',
             'contactType': 'customer service',
             'areaServed': 'IN',
             'availableLanguage': 'English'
@@ -183,7 +170,6 @@ export default function DebtReliefAlternativesClient() {
     return (
         <>
             <Script id="faq-schema-alternatives" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-alternatives" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
             <Script id="org-schema-alternatives" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
 
             {/* Hero Section */}

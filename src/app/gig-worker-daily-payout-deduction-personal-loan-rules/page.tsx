@@ -242,70 +242,7 @@ export default function GigWorkerDailyPayoutLoanPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Imran Shaikh'
-            },
-            datePublished: '2026-10-12',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'A fintech loan app linked to my food delivery work cut Rs 220 daily from my payouts while its partner NBFC also triggered UPI AutoPay bounces on my bank account. CredSettle cited the RBI Digital Lending direct-flow rules, got Rs 6,400 in duplicate bounce fees reversed, and settled the balance.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Pradeep Kumar Yadav'
-            },
-            datePublished: '2026-09-25',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'After a leg fracture stopped me from driving my cab for two months, a daily deduction NBFC slapped huge late fees that were never listed in my KFS. CredSettle escalated the issue to the Principal Nodal Officer and helped me close the loan with a 55% waiver and official NDC.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Santosh Gowda'
-            },
-            datePublished: '2026-09-04',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'Recovery agents from an instant gig credit app threatened to freeze my delivery ID and called my family at 10 PM. CredSettle stepped in immediately with an RBI Fair Practices notice, stopped all harassment within 48 hours, and arranged a clean settlement plan I could afford.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

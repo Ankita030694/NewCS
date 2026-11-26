@@ -126,17 +126,6 @@ export default function DrtJurisdictionPage() {
         ]
     };
 
-    const reviewLd = {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "DRT Jurisdiction Legal Advisory",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "reviewCount": "3"
-        }
-    };
-
     return (
         <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
@@ -155,11 +144,6 @@ export default function DrtJurisdictionPage() {
                 id="faq-schema-drt"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
-            />
-            <Script
-                id="review-schema-drt"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewLd) }}
             />
             <DrtJurisdictionClient />
                         </div>

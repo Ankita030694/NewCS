@@ -181,26 +181,12 @@ export default function CreditCardFIRPage() {
     ]
   };
 
-  const reviewSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    'name': 'Credit Card Legal Support',
-    'aggregateRating': {
-      '@type': 'AggregateRating',
-      'ratingValue': '4.9',
-      'reviewCount': '8540',
-      'bestRating': '5',
-      'worstRating': '1'
-    }
-  };
-
   return (
     <div className="bg-gray-50 min-h-screen">
       <Navbar />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <Script id="review-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
       {/* Hero Section */}
       <section 

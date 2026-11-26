@@ -109,19 +109,6 @@ export default function HowLawyerPanelsHelpPage() {
         ]
     };
 
-    const reviewSchema = {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "Lawyer Panel Loan Settlement Negotiation",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": "1250",
-            "bestRating": "5",
-            "worstRating": "1"
-        }
-    };
-
     return (
         <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
@@ -140,11 +127,6 @@ export default function HowLawyerPanelsHelpPage() {
                 id="faq-schema"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-            />
-            <Script
-                id="review-schema"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
             />
             <HowLawyerPanelsHelpClient />
                         </div>

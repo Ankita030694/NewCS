@@ -163,7 +163,7 @@ export default function CibilImpactClient() {
         'logo': 'https://www.credsettle.com/logo.png',
         'contactPoint': {
             '@type': 'ContactPoint',
-            'telephone': '+91-XXXX-XXXXXX',
+            'telephone': '+91-8800226635',
             'contactType': 'customer service',
             'areaServed': 'IN',
             'availableLanguage': ['English', 'Hindi']
@@ -193,30 +193,12 @@ export default function CibilImpactClient() {
 
     const productSchema = {
         '@context': 'https://schema.org',
-        '@type': 'Product',
+        '@type': 'Service',
         'name': 'CIBIL Score Recovery Consultation',
         'description': 'Expert guidance on rebuilding your credit score and reputation after a loan or credit card settlement.',
         'brand': {
             '@type': 'Brand',
             'name': 'CredSettle'
-        },
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.8',
-            'reviewCount': '3150'
-        }
-    };
-
-    const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Impact of Settling a Loan on CIBIL Score Analysis',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '3120',
-            'bestRating': '5',
-            'worstRating': '1'
         }
     };
 
@@ -226,7 +208,6 @@ export default function CibilImpactClient() {
             <Script id="article-schema-cibil" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
             <Script id="org-schema-cibil" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
             <Script id="product-schema-cibil" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
-            <Script id="review-schema-cibil" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
             {/* Hero Section */}
             <section

@@ -56,33 +56,6 @@ export default function DigitalLendingPage() {
     }
   ];
 
-  const reviews = [
-    {
-        name: "Amit Verma",
-        location: "Pune",
-        rating: 5,
-        text: "Settled my 50k app loan for 22k. Automated calls stopped in 4 days. Professional help for fintech debt is real."
-    },
-    {
-        name: "Priya S.",
-        location: "Bangalore",
-        rating: 5,
-        text: "Navigating the 2025 RBI rules seemed impossible alone. CredSettle handled the NGRO emails and got me a fair deal."
-    },
-    {
-        name: "Kavita R.",
-        location: "Delhi",
-        rating: 5,
-        text: "AMA Legal helped when they harassed my father via WhatsApp. Their legal notice worked overnight. Settlement was a bonus."
-    },
-    {
-        name: "Rahul M.",
-        location: "Mumbai",
-        rating: 5,
-        text: "Cleaned my digital records after settlement. The dashboard is great for tracking progress. Highly recommend."
-    }
-  ];
-
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -137,7 +110,7 @@ export default function DigitalLendingPage() {
     ],
     "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+91-XXXX-XXXXXX",
+        "telephone": "+91-8800226635",
         "contactType": "customer service",
         "areaServed": "IN",
         "availableLanguage": "English"
@@ -154,31 +127,6 @@ export default function DigitalLendingPage() {
             '@type': 'Answer',
             'text': faq.answer
         }
-    }))
-  };
-
-  const productSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    'name': 'Digital Loan Settlement Guide',
-    'aggregateRating': {
-        '@type': 'AggregateRating',
-        'ratingValue': '4.8',
-        'reviewCount': '2500',
-        'bestRating': '5',
-        'worstRating': '1'
-    },
-    'review': reviews.map(review => ({
-        '@type': 'Review',
-        'author': {
-            '@type': 'Person',
-            'name': review.name
-        },
-        'reviewRating': {
-            '@type': 'Rating',
-            'ratingValue': review.rating.toString()
-        },
-        'reviewBody': review.text
     }))
   };
 
@@ -203,11 +151,6 @@ export default function DigitalLendingPage() {
         id="faq-schema-digital"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <Script
-        id="product-schema-digital"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
       />
       <DigitalLendingClient />
     </div>

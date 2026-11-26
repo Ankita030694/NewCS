@@ -175,57 +175,11 @@ export default function LoanImpactClient() {
     }))
   };
 
-  const reviewSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'ItemList',
-    'itemListElement': [
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Vikram Singh' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'CredSettle explained the CIBIL impact clearly before I chose to settle. Their transparency is commendable.',
-        'itemReviewed': { '@type': 'FinancialService', 'name': 'CredSettle' }
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Priya Sharma' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'Helped me understand the "Settled" status and how to rebuild my score. Excellent guidance!',
-        'itemReviewed': { '@type': 'FinancialService', 'name': 'CredSettle' }
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Amit Patel' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'The best advice on loan settlement impacts. Very professional team.',
-        'itemReviewed': { '@type': 'FinancialService', 'name': 'CredSettle' }
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Deepak Kumar' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'Clear, concise, and honest about credit score impacts. Highly recommended.',
-        'itemReviewed': { '@type': 'FinancialService', 'name': 'CredSettle' }
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Sneha Rao' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'They helped me manage my debt and taught me how to fix my CIBIL score post-settlement.',
-        'itemReviewed': { '@type': 'FinancialService', 'name': 'CredSettle' }
-      }
-    ]
-  };
-
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
       />
       <script
         type="application/ld+json"

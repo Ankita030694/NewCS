@@ -118,23 +118,9 @@ export default function PostDatedChequesClient() {
         }))
     };
 
-    const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'PDC Legal Risks in Loan Settlement Analysis',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '2100',
-            'bestRating': '5',
-            'worstRating': '1'
-        }
-    };
-
     return (
         <div className="font-sans">
             <Script id="faq-schema-pdc" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-pdc" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
             {/* Hero Section */}
             <section

@@ -336,14 +336,6 @@ export default function LegitimacyCheckClient() {
                   <p className="text-gray-700 italic mb-4 text-base"> "I was skeptical at first, but CredSettle was incredibly transparent. They explained the risks and the process clearly. I managed to settle my 5 lakh credit card debt for just 2 lakhs. Highly recommended!" </p>
                   <p className="font-bold text-blue-900">- Amit Sharma, Delhi</p>
                   <div className="hidden" aria-hidden="true">
-                    {/* Schema Markup for Review 1 */}
-                    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-                      "@type": "Review",
-                      "author": {"@type": "Person", "name": "Amit Sharma"},
-                      "reviewRating": {"@type": "Rating", "ratingValue": "5"},
-                      "reviewBody": "I was skeptical at first, but CredSettle was incredibly transparent. They managed to settle my 5 lakh credit card debt for just 2 lakhs.",
-                      "itemReviewed": {"@type": "Service", "name": "CredSettle"}
-                    })}} />
                   </div>
                 </div>
                 <div className="p-6 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-md transition-shadow">
@@ -353,14 +345,6 @@ export default function LegitimacyCheckClient() {
                   <p className="text-gray-700 italic mb-4 text-base"> "The legal support from AmaLegalSolutions was a life saver. The harassment from recovery agents stopped within a week of their intervention. I felt safe and protected throughout the process." </p>
                   <p className="font-bold text-blue-900">- Priya Kapoor, Mumbai</p>
                   <div className="hidden" aria-hidden="true">
-                    {/* Schema Markup for Review 2 */}
-                    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-                      "@type": "Review",
-                      "author": {"@type": "Person", "name": "Priya Kapoor"},
-                      "reviewRating": {"@type": "Rating", "ratingValue": "5"},
-                      "reviewBody": "The legal support from AmaLegalSolutions was a life saver. The harassment from recovery agents stopped within a week.",
-                      "itemReviewed": {"@type": "Service", "name": "AmaLegalSolutions"}
-                    })}} />
                   </div>
                 </div>
                 <div className="p-6 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-md transition-shadow">
@@ -370,14 +354,6 @@ export default function LegitimacyCheckClient() {
                   <p className="text-gray-700 italic mb-4 text-base"> "SettleLoans helped me consolidate and settle three different personal loans. Their negotiators are experts. I am finally debt free and can breathe again after two years of stress." </p>
                   <p className="font-bold text-blue-900">- Rohan Verma, Bangalore</p>
                   <div className="hidden" aria-hidden="true">
-                    {/* Schema Markup for Review 3 */}
-                    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-                      "@type": "Review",
-                      "author": {"@type": "Person", "name": "Rohan Verma"},
-                      "reviewRating": {"@type": "Rating", "ratingValue": "5"},
-                      "reviewBody": "SettleLoans helped me consolidate and settle three different personal loans. Their negotiators are experts.",
-                      "itemReviewed": {"@type": "Service", "name": "SettleLoans"}
-                    })}} />
                   </div>
                 </div>
                 <div className="p-6 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-md transition-shadow">
@@ -387,14 +363,6 @@ export default function LegitimacyCheckClient() {
                   <p className="text-gray-700 italic mb-4 text-base"> "Very professional team. They helped me get the One Time Settlement (OTS) offer from my bank which I had been trying to get for months on my own. Great service." </p>
                   <p className="font-bold text-blue-900">- Sunita Devi, Kolkata</p>
                   <div className="hidden" aria-hidden="true">
-                    {/* Schema Markup for Review 4 */}
-                    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-                      "@type": "Review",
-                      "author": {"@type": "Person", "name": "Sunita Devi"},
-                      "reviewRating": {"@type": "Rating", "ratingValue": "5"},
-                      "reviewBody": "They helped me get the One Time Settlement (OTS) offer from my bank which I had been trying to get for months on my own.",
-                      "itemReviewed": {"@type": "Service", "name": "CredSettle"}
-                    })}} />
                   </div>
                 </div>
                 <div className="p-6 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-md transition-shadow lg:col-span-2">
@@ -404,14 +372,6 @@ export default function LegitimacyCheckClient() {
                   <p className="text-gray-700 italic mb-4 text-base"> "If you are looking for a legit debt settlement company in India, CredSettle is the place to go. They are ethical, responsive, and they actually deliver on their promises. Saved my business from bankruptcy." </p>
                   <p className="font-bold text-blue-900">- Manish Gupta, Ahmedabad</p>
                   <div className="hidden" aria-hidden="true">
-                    {/* Schema Markup for Review 5 */}
-                    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-                      "@type": "Review",
-                      "author": {"@type": "Person", "name": "Manish Gupta"},
-                      "reviewRating": {"@type": "Rating", "ratingValue": "5"},
-                      "reviewBody": "If you are looking for a legit debt settlement company in India, CredSettle is the place to go. They are ethical and responsive.",
-                      "itemReviewed": {"@type": "Service", "name": "CredSettle"}
-                    })}} />
                   </div>
                 </div>
               </div>

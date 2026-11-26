@@ -211,29 +211,9 @@ export default function BankRecoveryHarassmentComplaintClient() {
 
     const reviewSchema = {
         '@context': 'https://schema.org',
-        '@type': 'Product',
+        '@type': 'Service',
         'name': 'Bank Recovery Complaint Services',
-        'description': 'Professional assistance in drafting and filing complaints against bank recovery harassment with RBI and banking authorities.',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.8',
-            'reviewCount': '1890',
-            'bestRating': '5',
-            'worstRating': '1'
-        },
-        'review': reviews.map(review => ({
-            '@type': 'Review',
-            'author': {
-                '@type': 'Person',
-                'name': review.name
-            },
-            'reviewRating': {
-                '@type': 'Rating',
-                'ratingValue': review.stars.toString(),
-                'bestRating': '5'
-            },
-            'reviewBody': review.comment
-        }))
+        'description': 'Professional assistance in drafting and filing complaints against bank recovery harassment with RBI and banking authorities.'
     };
 
     return (

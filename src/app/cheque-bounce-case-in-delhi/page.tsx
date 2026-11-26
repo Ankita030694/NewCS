@@ -50,48 +50,7 @@ export default function ChequeBounceDelhiPage() {
       addressLocality: 'Delhi',
       addressRegion: 'Delhi NCR',
       addressCountry: 'IN'
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '1120',
-      bestRating: '5',
-      worstRating: '1'
-    },
-    review: [
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Amit Shrivastava'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'Excellent experience with the legal team at Saket Court. They handled my Section 138 case very professionally and recovered the full amount.',
-        'itemReviewed': {
-          '@type': 'LegalService',
-          'name': 'CredSettle'
-        }
-      },
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Priya Verma'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'Highly recommend CredSettle for cheque bounce cases in Delhi. Their knowledge of the NI Act is top-notch.',
-        'itemReviewed': {
-          '@type': 'LegalService',
-          'name': 'CredSettle'
-        }
-      }
-    ]
+    }
   };
 
   const breadcrumbSchema = {

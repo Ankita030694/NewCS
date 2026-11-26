@@ -239,52 +239,7 @@ export default function PersonalLoanKfsRefundPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Suresh Narayanan'
-            },
-            datePublished: '2026-10-18',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'A fintech lender deducted ₹14,500 as insurance and documentation fees that were never listed in my Key Facts Statement. CredSettle cited the RBI April 2024 circular to the nodal desk, secured a full refund with GST, and structured my repayment cleanly.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Pooja Deshmukh'
-            },
-            datePublished: '2026-09-14',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My bank added sudden loan servicing fees and penal interest that inflated my personal loan balance. CredSettle investigated the KFS non-disclosures, stopped recovery harassment, and negotiated a 55% one-time settlement with a complete No Dues Certificate.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

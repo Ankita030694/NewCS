@@ -49,48 +49,7 @@ export default function ChequeBounceNoidaPage() {
       addressLocality: 'Noida',
       addressRegion: 'Uttar Pradesh',
       addressCountry: 'IN'
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '920',
-      bestRating: '5',
-      worstRating: '1'
-    },
-    review: [
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Amit Verma'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'Outstanding legal support for my cheque bounce case in Surajpur Court. The lawyers are very knowledgeable about Section 138.',
-        'itemReviewed': {
-          '@type': 'LegalService',
-          'name': 'CredSettle'
-        }
-      },
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Priya Sharma'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'CredSettle helped me recover a large pending amount from a business client in Noida. Highly professional team.',
-        'itemReviewed': {
-          '@type': 'LegalService',
-          'name': 'CredSettle'
-        }
-      }
-    ]
+    }
   };
 
   const breadcrumbSchema = {

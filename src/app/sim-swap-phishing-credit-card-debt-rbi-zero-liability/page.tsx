@@ -233,52 +233,7 @@ export default function SimSwapFraudZeroLiabilityPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Rajesh Kulkarni'
-            },
-            datePublished: '2026-10-12',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'Fraudsters swapped my SIM over a weekend and ran up Rs 3.4 lakh on my credit card. The bank demanded full payment and threatened CIBIL damage. CredSettle invoked the RBI 2017 Zero Liability circular and secured a full waiver plus CIBIL correction.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Meenakshi Iyer'
-            },
-            datePublished: '2026-09-24',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My credit card was hit by phishing and SIM cloning while I was travelling. Recovery agents kept calling even after my police complaint. CredSettle stepped in, escalated to the Principal Nodal Officer and RBI CMS portal, and got the Rs 2.1 lakh fraud reversed.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

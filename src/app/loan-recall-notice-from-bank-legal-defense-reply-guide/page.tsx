@@ -237,70 +237,7 @@ export default function LoanRecallNoticeDefensePage() {
         name: 'CredSettle Debt Settlement & Loan Resolution Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.8',
-          reviewCount: '5240',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Vikramaditya Nair'
-            },
-            datePublished: '2026-09-18',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'I received a 7-day loan recall cum arbitration notice from a private bank demanding ₹9.4 Lakhs at once after I lost my IT job. CredSettle drafted an immediate legal reply citing the Perkins Eastman ruling and RBI penal charge rules, stopped the ex-parte arbitration, and settled the loan for ₹3.1 Lakhs.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Saurabh Chatterjee'
-            },
-            datePublished: '2026-09-02',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'When my NBFC business loan went overdue for 90 days, they recalled the entire ₹16 Lakh tenure and threatened civil court attachment. CredSettle audited the ledger, exposed ₹2.8 Lakhs in hidden compounding penalties, and negotiated a structured 3-tranche OTS closure.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Meenakshi Iyer'
-            },
-            datePublished: '2026-08-19',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '4.9'
-            },
-            reviewBody:
-              'Recovery agents told me that a loan recall notice was a court arrest warrant. CredSettle educated me on my civil rights, sent a strong legal rebuttal to the bank nodal officer, and closed my personal loan with a 65% waiver.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

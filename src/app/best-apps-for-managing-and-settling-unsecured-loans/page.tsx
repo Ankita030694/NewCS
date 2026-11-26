@@ -49,48 +49,7 @@ export default function BestAppsPage() {
       addressLocality: 'New Delhi',
       addressRegion: 'Delhi',
       addressCountry: 'IN'
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.8',
-      reviewCount: '1250',
-      bestRating: '5',
-      worstRating: '1'
-    },
-    review: [
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Arjun Mehta'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'CredSettle helped me settle my three personal loans at a 60% discount. Their app is very intuitive and the team is highly professional.',
-        'itemReviewed': {
-          '@type': 'FinancialService',
-          'name': 'CredSettle'
-        }
-      },
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Priya Sharma'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'I was overwhelmed by credit card debt until I found Ama Legal Solutions through CredSettle. They negotiated a manageable settlement for me.',
-        'itemReviewed': {
-          '@type': 'FinancialService',
-          'name': 'Ama Legal Solutions'
-        }
-      }
-    ]
+    }
   };
 
   const breadcrumbSchema = {

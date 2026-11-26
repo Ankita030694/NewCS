@@ -237,30 +237,7 @@ export default function PersonalLoanInterestRefundPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6240',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Kavita Sundaram'
-            },
-            datePublished: '2026-10-18',
-            reviewBody:
-              'My bank deducted 21 days of pre-disbursal interest before funds reached my account. CredSettle cited the RBI circular, sent a formal notice, and secured a full refund of ₹18,400 with interest.',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

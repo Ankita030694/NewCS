@@ -142,72 +142,11 @@ export default function DebtReliefClient() {
     }))
   };
 
-  const reviewSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'ItemList',
-    'itemListElement': [
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Amit Verma' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'CredSettle helped me settle three credit cards with a 60% discount. Their legal team stopped the annoying recovery calls immediately.',
-        'itemReviewed': { '@type': 'FinancialService', 'name': 'CredSettle' }
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Priya Sharma' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'Transparent process and very supportive staff. They explained the CIBIL impact clearly and helped me get a fresh start.',
-        'itemReviewed': { '@type': 'FinancialService', 'name': 'CredSettle' }
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Vikram Singh' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '4' },
-        'reviewBody': 'Excellent negotiation skills. They managed to get a one-time settlement for my HDFC card which I thought was impossible.',
-        'itemReviewed': { '@type': 'FinancialService', 'name': 'CredSettle' }
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Sneha Reddy' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'If you are overwhelmed by debt, these guys are the best. They handle everything from legal notices to final negotiations.',
-        'itemReviewed': { '@type': 'FinancialService', 'name': 'CredSettle' }
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Rahul Gupta' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'Highly recommend CredSettle for anyone facing harassment from recovery agents. They know the RBI guidelines inside out.',
-        'itemReviewed': { '@type': 'FinancialService', 'name': 'CredSettle' }
-      }
-    ]
-  };
-
-  const aggregateRatingSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'AggregateRating',
-    'itemReviewed': {
-      '@type': 'FinancialService',
-      'name': 'CredSettle'
-    },
-    'ratingValue': '4.8',
-    'reviewCount': '1240'
-  };
-
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(aggregateRatingSchema) }}
       />
       
       <div className="bg-white border-b border-gray-200">

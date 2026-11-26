@@ -2,22 +2,8 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import Script from 'next/script';
 
 export default function RecoveryAgentClient() {
-  const reviewSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    'name': 'Recovery Agent Harassment Legal Protection',
-    'aggregateRating': {
-      '@type': 'AggregateRating',
-      'ratingValue': '4.9',
-      'reviewCount': '15400',
-      'bestRating': '5',
-      'worstRating': '1'
-    }
-  };
-
   const [activeId, setActiveId] = useState<string>('');
   const [isMobile, setIsMobile] = useState(false);
   const mobileNavRef = useRef<HTMLDivElement>(null);
@@ -187,7 +173,6 @@ export default function RecoveryAgentClient() {
 
   return (
     <>
-      <Script id="review-schema-recovery" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-4">
           <nav className="flex text-sm text-gray-500" aria-label="Breadcrumb">

@@ -208,29 +208,9 @@ export default function PoliceCaseCreditCardClient() {
 
     const reviewSchema = {
         '@context': 'https://schema.org',
-        '@type': 'Product',
+        '@type': 'Service',
         'name': 'Police Case for Credit Card Debt: Legal Defense Guide 2025',
-        'description': 'A specialized legal advisory on defending against illegal police threats and FIR intimidation in credit card default cases in India.',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '4200',
-            'bestRating': '5',
-            'worstRating': '1'
-        },
-        'review': reviews.map(review => ({
-            '@type': 'Review',
-            'author': {
-                '@type': 'Person',
-                'name': review.name
-            },
-            'reviewRating': {
-                '@type': 'Rating',
-                'ratingValue': review.stars.toString(),
-                'bestRating': '5'
-            },
-            'reviewBody': review.comment
-        }))
+        'description': 'A specialized legal advisory on defending against illegal police threats and FIR intimidation in credit card default cases in India.'
     };
 
     return (

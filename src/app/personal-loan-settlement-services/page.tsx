@@ -63,19 +63,6 @@ export default function PersonalLoanSettlementServicesPage() {
         ]
     };
 
-    const reviewLd = {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "Professional Personal Loan Settlement Services",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": "1240",
-            "bestRating": "5",
-            "worstRating": "1"
-        }
-    };
-
     return (
         <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
@@ -89,11 +76,6 @@ export default function PersonalLoanSettlementServicesPage() {
                 id="breadcrumb-schema-pl-settlement"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
-            />
-            <Script
-                id="review-schema-pl-settlement"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewLd) }}
             />
             <PersonalLoanSettlementServicesClient />
                         </div>

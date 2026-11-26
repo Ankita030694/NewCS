@@ -707,22 +707,16 @@ const DisputeForgedSignaturesClient = () => {
                 </div>
             </div>
 
-            {/* Rich Results for Product/Review Snippet */}
+            {/* Service schema */}
             <Script
                 id="product-review-schema"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
                     __html: JSON.stringify({
                         "@context": "https://schema.org",
-                        "@type": "Product",
+                        "@type": "Service",
                         "name": "Forged Loan Signature Legal Defense",
-                        "aggregateRating": {
-                            "@type": "AggregateRating",
-                            "ratingValue": "4.9",
-                            "reviewCount": "2500"
-                        },
                         "description": "Expert legal representation for victims of loan forgery, identity theft, and signature fabrication in India.",
-                        "sku": "CRED-FORGERY-101",
                         "brand": {
                             "@type": "Brand",
                             "name": "CredSettle"

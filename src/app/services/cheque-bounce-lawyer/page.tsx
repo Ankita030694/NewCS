@@ -132,33 +132,6 @@ export default function ChequeBouncePage() {
     ]
   };
 
-  const reviewSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "Cheque Bounce Legal Services",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "reviewCount": "542"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Amit Khanna" },
-        "datePublished": "2025-12-05",
-        "reviewBody": "CredSettle lawyers helped me quash a false case filed against me. Their knowledge of NI Act is exceptional.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      },
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Suresh Gupta" },
-        "datePublished": "2026-01-15",
-        "reviewBody": "Fast and professional legal notice drafting. Got my money back without going to court.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      }
-    ]
-  };
-
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -201,11 +174,6 @@ export default function ChequeBouncePage() {
         id="faq-schema-cb"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <Script
-        id="review-schema-cb"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
       />
       <Script
         id="breadcrumb-schema-cb"

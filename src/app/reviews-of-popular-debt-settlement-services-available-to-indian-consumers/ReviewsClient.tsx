@@ -402,20 +402,6 @@ export default function ReviewsClient() {
                     <p className="text-gray-700 italic mb-4 text-base">"{rev.body}"</p>
                     <p className="font-bold text-blue-900">- {rev.author}</p>
                     <p className="text-sm text-gray-500">Service: {rev.service}</p>
-                    {/* Add Review Schema for each snippet */}
-                    <script
-                      type="application/ld+json"
-                      dangerouslySetInnerHTML={{
-                        __html: JSON.stringify({
-                          "@context": "https://schema.org/",
-                          "@type": "Review",
-                          "author": { "@type": "Person", "name": rev.author },
-                          "reviewRating": { "@type": "Rating", "ratingValue": rev.rating.toString(), "bestRating": "5" },
-                          "reviewBody": rev.body,
-                          "itemReviewed": { "@type": "Organization", "name": rev.service }
-                        })
-                      }}
-                    />
                   </div>
                 ))}
               </div>

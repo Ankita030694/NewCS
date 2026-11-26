@@ -179,33 +179,11 @@ export default function LoanSettlementServicesClient() {
     }
   ];
 
-  const reviewSchema = reviews.map(review => ({
-    '@context': 'https://schema.org',
-    '@type': 'Review',
-    'author': {
-      '@type': 'Person',
-      'name': review.author
-    },
-    'reviewRating': {
-      '@type': 'Rating',
-      'ratingValue': review.rating
-    },
-    'reviewBody': review.body,
-    'itemReviewed': {
-      '@type': 'FinancialService',
-      'name': 'CredSettle'
-    }
-  }));
-
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
       />
       
       <div className="bg-white border-b border-gray-200">

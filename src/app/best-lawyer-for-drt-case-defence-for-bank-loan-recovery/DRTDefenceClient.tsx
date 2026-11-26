@@ -158,17 +158,12 @@ export default function DRTDefenceClient() {
                 dangerouslySetInnerHTML={{
                     __html: JSON.stringify({
                         "@context": "https://schema.org",
-                        "@type": "Product",
+                        "@type": "Service",
                         "name": "DRT Case Defence Legal Services",
                         "description": "Expert legal representation for Debt Recovery Tribunal cases and SARFAESI Act challenges in India.",
                         "brand": {
                             "@type": "Brand",
                             "name": "CredSettle"
-                        },
-                        "aggregateRating": {
-                            "@type": "AggregateRating",
-                            "ratingValue": "4.9",
-                            "reviewCount": "154"
                         }
                     })
                 }}

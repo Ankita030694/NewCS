@@ -273,55 +273,9 @@ export default function LegalRisksClient() {
         ]
     };
 
-    const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Legal Risks of Loan Default Analysis',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.8',
-            'reviewCount': '2450',
-            'bestRating': '5',
-            'worstRating': '1'
-        },
-        'review': [
-            {
-                '@type': 'Review',
-                'author': { '@type': 'Person', 'name': 'Rajesh Kumar' },
-                'reviewRating': { '@type': 'Rating', 'ratingValue': 5 },
-                'reviewBody': 'I was facing a SARFAESI notice and was terrified of losing my shop. The experts here explained my rights and helped me negotiate a settlement that saved my business.'
-            },
-            {
-                '@type': 'Review',
-                'author': { '@type': 'Person', 'name': 'Sunita Sharma' },
-                'reviewRating': { '@type': 'Rating', 'ratingValue': 5 },
-                'reviewBody': 'The constant harassment from recovery agents stopped the moment I involved these legal experts. They handled the Section 138 notice professionally.'
-            },
-            {
-                '@type': 'Review',
-                'author': { '@type': 'Person', 'name': 'Amit Patel' },
-                'reviewRating': { '@type': 'Rating', 'ratingValue': 5 },
-                'reviewBody': 'I didn’t realize the criminal implications of a digital mandate failure (Section 25). This page educated me, and the subsequent settlement saved me.'
-            },
-            {
-                '@type': 'Review',
-                'author': { '@type': 'Person', 'name': 'Megha Gupta' },
-                'reviewRating': { '@type': 'Rating', 'ratingValue': 5 },
-                'reviewBody': 'Truly a life-saver! When the bank filed a civil recovery suit, I felt helpless. These negotiators reached a settlement that let me keep my financial dignity.'
-            },
-            {
-                '@type': 'Review',
-                'author': { '@type': 'Person', 'name': 'Vikram Singh' },
-                'reviewRating': { '@type': 'Rating', 'ratingValue': 5 },
-                'reviewBody': 'I was overwhelmed by multiple credit card debts and constant calls. The team guided me through a settlement process that cleared all my dues.'
-            }
-        ]
-    };
-
     return (
         <>
             <Script id="faq-schema-legal-risks" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-legal-risks" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
             <Script id="org-schema-legal-risks" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
 
             {/* Hero Section */}

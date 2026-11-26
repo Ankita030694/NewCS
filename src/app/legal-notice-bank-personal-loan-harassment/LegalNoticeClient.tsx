@@ -74,23 +74,9 @@ export default function LegalNoticeClient() {
         }))
     };
 
-    const reviewSchema = {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "Legal Notice Defense Guide",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": "1250",
-            "bestRating": "5",
-            "worstRating": "1"
-        }
-    };
-
     return (
         <>
             <Script id="faq-schema-legal-notice" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-legal-notice" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
             {/* Hero Section */}
             <section

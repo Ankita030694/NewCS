@@ -134,38 +134,16 @@ export default function BankOfBarodaLoanSettlementPage() {
     ]
   };
 
-  // Schema for Review
+  // Service schema
   const reviewSchema = {
     "@context": "https://schema.org",
-    "@type": "Product",
+    "@type": "Service",
     "name": "Bank of Baroda Loan Settlement Services",
     "description": "Legal settlement services for Bank of Baroda agriculture and MSME loans.",
     "brand": {
       "@type": "Brand",
       "name": "CredSettle"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "210",
-      "bestRating": "5",
-      "worstRating": "1"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": {
-          "@type": "Person",
-          "name": "Suresh P."
-        },
-        "datePublished": "2025-11-20",
-        "reviewBody": "My MSME loan settlement was stuck for months. CredSettle helped me use the OTS scheme effectively.",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5"
-        }
-      }
-    ]
+    }
   };
 
   return (

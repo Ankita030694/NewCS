@@ -72,13 +72,6 @@ export default function LoanSettlementPage() {
       '@type': 'PostalAddress',
       addressCountry: 'IN'
     },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.8',
-      reviewCount: '12500',
-      bestRating: '5',
-      worstRating: '1'
-    },
     priceRange: 'Consultation Free',
     serviceType: 'Compromise Loan Settlement Advisory',
     areaServed: 'IN'

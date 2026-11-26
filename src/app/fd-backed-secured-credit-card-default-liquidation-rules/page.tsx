@@ -237,70 +237,7 @@ export default function FdBackedCreditCardDefaultPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Prashant Kulkarni'
-            },
-            datePublished: '2026-11-04',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My private bank broke my ₹1,50,000 FD after 75 days on a secured card and held back ₹34,000 surplus citing internal audit holds. CredSettle escalated the breach to the Principal Nodal Officer and recovered my full surplus plus CIBIL Closed status.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Neha Choudhary'
-            },
-            datePublished: '2026-10-19',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'I had a 100% limit FD card where 3 months of interest pushed the bill ₹28,000 above my deposit value. Recovery agents kept calling my office. CredSettle stopped the calls and closed the shortfall with a clean bank NOC.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Harish Nair'
-            },
-            datePublished: '2026-09-27',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'Even after my bank adjusted 100% of my credit card bill from my FD, CIBIL showed Written Off for four months. CredSettle filed a formal RBI dispute, corrected my CIBIL tag to Closed, and claimed ₹100 per day compensation.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

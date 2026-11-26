@@ -96,59 +96,13 @@ export default function HowToSettleACreditCardDebtPage() {
     },
     {
       '@context': 'https://schema.org',
-      '@type': 'Product',
+      '@type': 'Service',
       name: 'Credit Card Debt Settlement Service',
       description: 'Professional legal negotiation service to reduce and settle credit card debt in India.',
       brand: {
         '@type': 'Brand',
         name: 'CredSettle',
-      },
-      aggregateRating: {
-        '@type': 'AggregateRating',
-        ratingValue: '4.8',
-        reviewCount: '3',
-      },
-      review: [
-        {
-          '@type': 'Review',
-          author: {
-            '@type': 'Person',
-            name: 'Vikram Mehta',
-          },
-          datePublished: '2026-05-15',
-          reviewBody: 'CredSettle reviewed my case and negotiated a settlement at a 65 percent waiver.',
-          reviewRating: {
-            '@type': 'Rating',
-            ratingValue: '5',
-          },
-        },
-        {
-          '@type': 'Review',
-          author: {
-            '@type': 'Person',
-            name: 'Neha Sharma',
-          },
-          datePublished: '2026-04-10',
-          reviewBody: 'The legal team at CredSettle explained my rights and helped me close the account legally without facing any further harassment.',
-          reviewRating: {
-            '@type': 'Rating',
-            ratingValue: '5',
-          },
-        },
-        {
-          '@type': 'Review',
-          author: {
-            '@type': 'Person',
-            name: 'Arjun Reddy',
-          },
-          datePublished: '2026-01-20',
-          reviewBody: 'Once I engaged with professional negotiators, the harassment stopped immediately. We reached a fair settlement amount.',
-          reviewRating: {
-            '@type': 'Rating',
-            ratingValue: '5',
-          },
-        }
-      ],
+      }
     },
     {
       '@context': 'https://schema.org',

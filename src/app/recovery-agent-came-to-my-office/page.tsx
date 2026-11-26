@@ -54,27 +54,6 @@ export default function RecoveryAgentOfficePage() {
         }
     ];
 
-    const reviews = [
-        {
-            name: "Vikas T.",
-            location: "Mumbai",
-            rating: 5,
-            text: "When they showed up at my IT park, I used these exact legal steps. The bank apologized formally within 48 hours."
-        },
-        {
-            name: "Pooja R.",
-            location: "Delhi",
-            rating: 5,
-            text: "This guide saved my job. My HR was supportive once I showed them the RBI guidelines mentioned here."
-        },
-        {
-            name: "Karan S.",
-            location: "Bangalore",
-            rating: 5,
-            text: "The legal notice template advice is perfect. I sent it and the harassment stopped instantly."
-        }
-    ];
-
     const jsonLd = {
         "@context": "https://schema.org",
         "@type": "Article",
@@ -130,7 +109,7 @@ export default function RecoveryAgentOfficePage() {
         ],
         "contactPoint": {
             "@type": "ContactPoint",
-            "telephone": "+91-XXXX-XXXXXX",
+            "telephone": "+91-8800226635",
             "contactType": "customer service",
             "areaServed": "IN",
             "availableLanguage": "English"
@@ -147,31 +126,6 @@ export default function RecoveryAgentOfficePage() {
                 '@type': 'Answer',
                 'text': faq.answer
             }
-        }))
-    };
-
-    const productSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Recovery Agent Came To My Office',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '3',
-            'bestRating': '5',
-            'worstRating': '1'
-        },
-        'review': reviews.map(review => ({
-            '@type': 'Review',
-            'author': {
-                '@type': 'Person',
-                'name': review.name
-            },
-            'reviewRating': {
-                '@type': 'Rating',
-                'ratingValue': review.rating.toString()
-            },
-            'reviewBody': review.text
         }))
     };
 
@@ -198,11 +152,6 @@ export default function RecoveryAgentOfficePage() {
                 id="faq-schema-office"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-            />
-            <Script
-                id="product-schema-office"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
             />
             <RecoveryAgentOfficeClient />
                         </div>

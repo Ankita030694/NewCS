@@ -56,13 +56,6 @@ export default function DefaultIndiaPage() {
       addressLocality: 'India',
       addressRegion: 'Haryana',
       addressCountry: 'IN'
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '1540',
-      bestRating: '5',
-      worstRating: '1'
     }
   };
 
@@ -111,50 +104,12 @@ export default function DefaultIndiaPage() {
     }
   };
 
-  const reviewSchema = {
-    "@context": "https://schema.org/",
-    "@type": "Product",
-    "name": "Loan Settlement Services",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "bestRating": "5",
-      "worstRating": "1",
-      "ratingCount": "1540"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": {"@type": "Person", "name": "Rajesh Kumar"},
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5",
-          "worstRating": "1"
-        },
-        "reviewBody": "CredSettle helped me settle my loan after it became an NPA. Their team is truly professional."
-      },
-      {
-        "@type": "Review",
-        "author": {"@type": "Person", "name": "Meena Gupta"},
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5",
-          "worstRating": "1"
-        },
-        "reviewBody": "Best service for loan settlement in India. Highly recommend credsettle.com for anyone facing bank harassment."
-      }
-    ]
-  };
-
   return (
     <div className="bg-gray-50 min-h-screen">
       <Navbar />
       <Script id="org-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-      <Script id="review-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
       {/* Hero Section */}
       <section 

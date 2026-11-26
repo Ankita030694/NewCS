@@ -233,52 +233,7 @@ export default function CreditCardGstOtsPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Rohan Kulkarni'
-            },
-            datePublished: '2026-10-12',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My credit card bill ballooned from ₹1.4 lakh to ₹3.2 lakh due to 42% APR interest and 18% GST. The recovery team demanded GST separately on the OTS offer. CredSettle audited the ledger, flagged interest-on-GST compounding under RBI rules, and closed an all-inclusive settlement at ₹95,000.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Meenakshi Iyer'
-            },
-            datePublished: '2026-09-25',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'The bank initially sent a settlement letter stating ₹1,20,000 plus applicable GST and charges. CredSettle intervened, got the letter revised to an all-inclusive full and final figure, and ensured my No Dues Certificate was issued without extra tax billing.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

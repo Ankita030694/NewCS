@@ -234,52 +234,7 @@ export default function CoBrandedCardDefaultPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Rohan Deshmukh'
-            },
-            datePublished: '2026-10-12',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'Recovery agents threatened to permanently block my Amazon shopping and Prime account after I missed three card bills. CredSettle sent a formal notice citing RBI co-branding and recovery rules. The calls stopped, and we settled the card debt cleanly.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Neha Kulkarni'
-            },
-            datePublished: '2026-09-24',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'I defaulted on my Flipkart co-branded card after a medical emergency. Agents claimed my shopping profile would be blacklisted. CredSettle explained my rights under RBI guidelines, handled bank negotiations, and secured an official OTS letter.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

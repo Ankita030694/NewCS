@@ -169,33 +169,6 @@ export default function LoanSettlementTruthPage() {
     ]
   };
 
-  const reviewSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    'name': 'Loan Settlement Legal Truth Guide',
-    'aggregateRating': {
-      '@type': 'AggregateRating',
-      'ratingValue': '4.9',
-      'reviewCount': '842',
-      'bestRating': '5',
-      'worstRating': '1'
-    },
-    'review': [
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Rajesh Khanna' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'It is absolutely legal! I settled for 40 percent and I am finally at peace.'
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Meera Joshi' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'I have my No Dues Certificate now. Don\'t believe the lies, settlement is the truth.'
-      }
-    ]
-  };
-
   return (
     <div className="relative min-h-screen bg-white mt-5">
       <Navbar />
@@ -204,7 +177,6 @@ export default function LoanSettlementTruthPage() {
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <Script id="review-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
       {/* Hero Section - Loan Settlement Design */}
       <section 

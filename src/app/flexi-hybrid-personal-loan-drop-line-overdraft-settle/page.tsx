@@ -242,70 +242,7 @@ export default function FlexiDropLineSettlementPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Prashant Deshmukh'
-            },
-            datePublished: '2026-10-28',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My NBFC Flexi Hybrid Loan EMI jumped from Rs 11,200 to Rs 29,800 after two years of interest-only bills. CredSettle checked the hidden AMC and penal fees, stopped harsh calls, and got a clean OTS with full line closure and NDC.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Neha Verma'
-            },
-            datePublished: '2026-10-05',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My salaried drop-line overdraft went over limit each month during my medical leave. CredSettle used RBI penal rules to remove extra fees and secured a written settlement letter closing the whole Rs 6.5 Lakh line.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Sandeep Nair'
-            },
-            datePublished: '2026-09-14',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'Even after I paid my flexi balance down, the lender kept billing yearly AMC fees on the full drop-line limit and marked CIBIL late. CredSettle took the KFS error to the Nodal Officer and closed the line cleanly.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

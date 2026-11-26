@@ -49,48 +49,7 @@ export default function LegalNoticePage() {
       addressLocality: 'Gurugram',
       addressRegion: 'Haryana',
       addressCountry: 'IN'
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '1250',
-      bestRating: '5',
-      worstRating: '1'
-    },
-    review: [
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Amit Sharma'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'CredSettle helped me recover my business dues from a client who was avoiding my calls for a year. The legal notice worked wonders.',
-        'itemReviewed': {
-          '@type': 'LegalService',
-          'name': 'CredSettle'
-        }
-      },
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Priya Verma'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'Very professional drafting of the money recovery notice. They guided me through the whole process with patience.',
-        'itemReviewed': {
-          '@type': 'LegalService',
-          'name': 'CredSettle'
-        }
-      }
-    ]
+    }
   };
 
   const breadcrumbSchema = {

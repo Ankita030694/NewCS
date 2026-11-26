@@ -56,33 +56,6 @@ export default function AppComparisonPage() {
     }
   ];
 
-  const reviews = [
-    {
-      name: "Arun Mehra",
-      location: "Gurgaon",
-      rating: 5,
-      text: "Comparing apps was confusing, but I chose AMA Connect because I needed legal support. Their advocates stopped the recovery agents from coming to my office within 48 hours. The Play Store app is very polished."
-    },
-    {
-      name: "Sneha Kapur",
-      location: "Pune",
-      rating: 5,
-      text: "I tried the bank’s own app first, but it only showed 'Pay Full'. FREED’s app helped me save up for a settlement over 8 months. Very transparent process but took time."
-    },
-    {
-      name: "Rahul Varma",
-      location: "Bangalore",
-      rating: 4,
-      text: "Used the AMA Connect app to settle my ICICI credit card. The AI calculator was quite accurate about the 55% waiver I eventually got. Highly recommend for the digital generation."
-    },
-    {
-      name: "Meera Nair",
-      location: "Chennai",
-      rating: 5,
-      text: "Digital debt resolution is the future. No more physical visits to the bank. AMA Connect handled everything through their dashboard. The Play Store link was a lifesaver."
-    }
-  ];
-
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -137,7 +110,7 @@ export default function AppComparisonPage() {
     ],
     "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+91-XXXX-XXXXXX",
+        "telephone": "+91-8800226635",
         "contactType": "customer service",
         "areaServed": "IN",
         "availableLanguage": "English"
@@ -154,31 +127,6 @@ export default function AppComparisonPage() {
             '@type': 'Answer',
             'text': faq.answer
         }
-    }))
-  };
-
-  const productSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    'name': 'Debt Settlement App Comparison Service',
-    'aggregateRating': {
-        '@type': 'AggregateRating',
-        'ratingValue': '4.9',
-        'reviewCount': '3100',
-        'bestRating': '5',
-        'worstRating': '1'
-    },
-    'review': reviews.map(review => ({
-        '@type': 'Review',
-        'author': {
-            '@type': 'Person',
-            'name': review.name
-        },
-        'reviewRating': {
-            '@type': 'Rating',
-            'ratingValue': review.rating.toString()
-        },
-        'reviewBody': review.text
     }))
   };
 
@@ -203,11 +151,6 @@ export default function AppComparisonPage() {
         id="faq-schema-app"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <Script
-        id="product-schema-app"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
       />
       <AppComparisonClient />
     </div>

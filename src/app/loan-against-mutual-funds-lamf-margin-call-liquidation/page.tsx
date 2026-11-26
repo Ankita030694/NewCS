@@ -242,70 +242,7 @@ export default function LamfMarginCallPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Siddharth Kulkarni'
-            },
-            datePublished: '2026-10-22',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'A fintech NBFC sold my entire ₹9 Lakh equity fund folio on Day 2 of a market dip without valid written notice, even though the margin gap was only ₹65,000. CredSettle cited Section 176 and RBI rules before the Ombudsman and got illegal penal fees refunded along with a clean account closure.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Ananya Chatterjee'
-            },
-            datePublished: '2026-10-08',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'After I paid off my Loan Against Mutual Funds in full, my lender delayed lifting the CAMS lien for over 40 days while the market peaked. CredSettle sent a strict legal notice to the Principal Nodal Officer and got my lien removed within 5 days.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Rajeev Malhotra'
-            },
-            datePublished: '2026-09-19',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'A sharp small-cap crash caused forced sale of my pledged units and still left a ₹1.8 Lakh deficit bloated with penal charges. CredSettle audited the ledger, removed unlisted charges, and closed the remaining balance through a fair One-Time Settlement with a full NOC.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

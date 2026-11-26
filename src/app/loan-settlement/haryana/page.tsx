@@ -158,33 +158,6 @@ export default function HaryanaLoanSettlementPage() {
     ]
   };
 
-  const reviewSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "Loan Settlement Services Haryana",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "reviewCount": "1280"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Vikram Singh" },
-        "datePublished": "2025-12-10",
-        "reviewBody": "Great service in Gurugram. They helped me settle my credit card debt and stopped the calls from recovery agents.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      },
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Rakesh Sharma" },
-        "datePublished": "2026-01-14",
-        "reviewBody": "I settled my business loan in Faridabad with their help. The process was smooth and the team is very professional.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      }
-    ]
-  };
-
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -227,11 +200,6 @@ export default function HaryanaLoanSettlementPage() {
         id="faq-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <Script
-        id="review-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
       />
       <Script
         id="breadcrumb-schema"

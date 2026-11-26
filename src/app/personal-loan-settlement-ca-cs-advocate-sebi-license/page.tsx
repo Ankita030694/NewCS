@@ -242,70 +242,7 @@ export default function PersonalLoanOtsVsInsolvencyLicensePage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'CA Siddharth Kulkarni'
-            },
-            datePublished: '2026-10-12',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'After a partner dispute hit my audit firm revenue, I fell behind on three personal loans. I feared insolvency would cost me my ICAI membership under Section 8. CredSettle negotiated clean RBI-compliant OTS agreements with all three banks and kept my practice completely safe.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Neha Deshmukh, CS'
-            },
-            datePublished: '2026-09-25',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'I needed to resolve an overdue unsecured loan without triggering IBC proceedings or a wilful defaulter notice that could affect my ICSI compliance standing. CredSettle handled every bank call and secured a formal OTS sanction letter and No Dues Certificate.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Raghavendra Menon'
-            },
-            datePublished: '2026-09-04',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'As a SEBI registered adviser, maintaining fit and proper status is essential for my livelihood. CredSettle stepped in before my bank issued a legal notice, settled my personal loan at 45% of dues, and ensured zero regulatory red flags.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

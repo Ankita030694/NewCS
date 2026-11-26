@@ -125,39 +125,6 @@ export default function FastestLoanSettlementClient() {
     }
   ];
 
-  const reviews = [
-    {
-      author: 'Amit Sharma',
-      rating: '5',
-      body: 'I was drowning in personal loan EMIs. CredSettle helped me resolve my debt in just 45 days. Their negotiation team is incredibly fast and professional.',
-      location: 'Bangalore'
-    },
-    {
-      author: 'Priya Verma',
-      rating: '5',
-      body: 'I tried talking to the bank for months with no luck. After hiring a specialized settlement service, the matter was closed in under 2 months with a 60% waiver!',
-      location: 'Mumbai'
-    },
-    {
-      author: 'Sandeep Gupta',
-      location: 'Delhi',
-      rating: '5',
-      body: 'The speed of response from CredSettle was impressive. They handled all the aggressive recovery calls and got my settlement letter within 50 days.'
-    },
-    {
-      author: 'Vikram Singh',
-      location: 'Pune',
-      rating: '5',
-      body: 'I was worried about the long timelines usually mentioned online. My case was complex, but the team managed to get a resolution in record time. Highly recommended.'
-    },
-    {
-      author: 'Anjali Menon',
-      location: 'Chennai',
-      rating: '5',
-      body: 'Transparent process and very fast resolution. They guided me through every step and made sure I didn\'t waste time on unnecessary documentation.'
-    }
-  ];
-
   const faqSchema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
@@ -171,38 +138,13 @@ export default function FastestLoanSettlementClient() {
     }))
   };
 
-  const reviewSchema = reviews.map(review => ({
-    '@context': 'https://schema.org',
-    '@type': 'Review',
-    'author': {
-      '@type': 'Person',
-      'name': review.author
-    },
-    'reviewRating': {
-      '@type': 'Rating',
-      'ratingValue': review.rating
-    },
-    'reviewBody': review.body,
-    'itemReviewed': {
-      '@type': 'FinancialService',
-      'name': 'CredSettle Loan Settlement'
-    }
-  }));
-
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      {reviewSchema.map((s, i) => (
-        <script
-          key={i}
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(s) }}
-        />
-      ))}
-      
+
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-4">
           <nav className="flex text-sm text-gray-500" aria-label="Breadcrumb">

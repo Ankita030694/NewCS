@@ -242,70 +242,7 @@ export default function WeddingLoanStridhanImmunityPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Prashant Kulkarni'
-            },
-            datePublished: '2026-11-12',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'After I lost my job following my wedding, NBFC agents visited our home and threatened to take my wife gold jewelry. CredSettle served a legal notice citing Section 14 HSA and RBI Circular DOR.ORG.REC.65. Harassment stopped in 48 hours and we settled the ₹7.5 Lakh loan for ₹3.4 Lakhs.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Meenakshi Nair'
-            },
-            datePublished: '2026-10-28',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'A private bank illegally froze our joint safe deposit locker when my husband missed three EMIs on his wedding personal loan. CredSettle escalated the breach to the Principal Nodal Officer under RBI Locker Directions. Access to my Stridhan locker was restored in nine days.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Rohit Deshmukh'
-            },
-            datePublished: '2026-10-09',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'Recovery callers kept harassing my wife and in-laws over an unsecured marriage loan in my sole name. CredSettle took over all bank communication, filed an RBI CMS complaint, and got us a written One-Time Settlement letter with a clean No Dues Certificate.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

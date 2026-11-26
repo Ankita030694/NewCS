@@ -219,71 +219,7 @@ export default function NriCreditCardDebtSettlementPage() {
           { '@type': 'Country', name: 'Canada' },
           { '@type': 'Country', name: 'Singapore' },
         ],
-        serviceType: 'NRI Debt Settlement & Banking Dispute Resolution',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '520',
-          bestRating: '5',
-          worstRating: '1',
-        },
-        review: [
-          {
-            '@type': 'Review',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            },
-            author: { '@type': 'Person', name: 'Rajesh Nair (Dubai, UAE)' },
-            datePublished: '2026-02-14',
-            reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-            reviewBody: 'Settled two legacy credit cards with HDFC and ICICI remotely from Dubai via Special PoA. CredSettle saved me 58% on total dues and protected my elderly parents in Kochi from recovery calls.',
-          },
-          {
-            '@type': 'Review',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            },
-            author: { '@type': 'Person', name: 'Siddharth Patel (San Jose, USA)' },
-            datePublished: '2026-01-20',
-            reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-            reviewBody: 'Outstanding remote legal defense. The team cleared my SBI personal loan default without me flying to India. Got an authentic No Dues Certificate and updated CIBIL records.',
-          },
-          {
-            '@type': 'Review',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            },
-            author: { '@type': 'Person', name: 'Ananya Roy (London, UK)' },
-            datePublished: '2026-03-05',
-            reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-            reviewBody: 'Clear advice regarding immigration and LOC myths. CredSettle executed my Special PoA smoothly and closed my Axis Bank credit card with a 54% reduction.',
-          },
-          {
-            '@type': 'Review',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            },
-            author: { '@type': 'Person', name: 'Gurpreet Singh (Toronto, Canada)' },
-            datePublished: '2026-02-28',
-            reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-            reviewBody: 'Transparent process and direct nodal bank negotiations. Settled Kotak card dues through official NRE inward wire remittance with complete tax documentation.',
-          },
-          {
-            '@type': 'Review',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            },
-            author: { '@type': 'Person', name: 'Vikram Menon (Singapore)' },
-            datePublished: '2026-03-12',
-            reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-            reviewBody: 'The best cross-border debt legal counsel in India. Handled our Phoenix ARC card portfolio settlement professionally and stopped all domestic harassment.',
-          },
-        ],
+        serviceType: 'NRI Debt Settlement & Banking Dispute Resolution'
       },
     ],
   };

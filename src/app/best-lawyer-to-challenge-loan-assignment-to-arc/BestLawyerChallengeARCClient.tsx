@@ -161,23 +161,10 @@ export default function BestLawyerChallengeARCClient() {
         'logo': 'https://www.credsettle.com/logo.png',
         'contactPoint': {
             '@type': 'ContactPoint',
-            'telephone': '+91-XXXX-XXXXXX',
+            'telephone': '+91-8800226635',
             'contactType': 'customer service',
             'areaServed': 'IN',
             'availableLanguage': 'English'
-        }
-    };
-
-    const productSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'ARC Dispute Legal Consultation',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.8',
-            'reviewCount': '2150',
-            'bestRating': '5',
-            'worstRating': '1'
         }
     };
 
@@ -185,7 +172,6 @@ export default function BestLawyerChallengeARCClient() {
         <>
             <Script id="faq-schema-arc" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
             <Script id="org-schema-arc" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
-            <Script id="product-schema-arc" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
 
             {/* Hero Section */}
             <section

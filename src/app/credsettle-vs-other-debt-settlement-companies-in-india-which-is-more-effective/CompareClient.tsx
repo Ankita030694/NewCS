@@ -142,31 +142,8 @@ export default function CompareClient() {
             }
         }))
     };
-    const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'CredSettle Debt Settlement Services',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': reviews.length.toString()
-        },
-        'review': reviews.map(review => ({
-            '@type': 'Review',
-            'author': {
-                '@type': 'Person',
-                'name': review.author
-            },
-            'reviewRating': {
-                '@type': 'Rating',
-                'ratingValue': review.rating.toString()
-            },
-            'reviewBody': review.text
-        }))
-    };
     return (<>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}/>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}/>
 
       {/* Breadcrumb Navigation */}
       <div className="bg-white border-b border-gray-200">

@@ -134,38 +134,16 @@ export default function HeroFincorpLoanSettlementPage() {
     ]
   };
 
-  // Schema for Review (Aggregate Rating)
+  // Service schema
   const reviewSchema = {
     "@context": "https://schema.org",
-    "@type": "Product",
+    "@type": "Service",
     "name": "Hero Fincorp Loan Settlement Services",
     "description": "Legal settlement services for Hero Fincorp personal and two-wheeler loans.",
     "brand": {
       "@type": "Brand",
       "name": "CredSettle"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "reviewCount": "145",
-      "bestRating": "5",
-      "worstRating": "1"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": {
-          "@type": "Person",
-          "name": "Rakesh M."
-        },
-        "datePublished": "2025-12-10",
-        "reviewBody": "Saved my bike from being seized by agents. The settlement was smooth.",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5"
-        }
-      }
-    ]
+    }
   };
 
   return (

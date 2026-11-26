@@ -233,52 +233,7 @@ export default function CreditCardAutoDebitFailedPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Rohan Deshmukh'
-            },
-            datePublished: '2026-10-12',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My credit card auto-debit failed due to a bank server error even though I had Rs 1.2 lakh in my account. The bank charged Rs 1,300 late fee and marked 30 DPD on CIBIL. CredSettle helped me escalate to the PNO and RBI Ombudsman, getting full fee reversal and CIBIL correction.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Meenakshi Iyer'
-            },
-            datePublished: '2026-09-25',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My NACH mandate failed because the bank upgraded my card without migrating my auto-pay. CredSettle drafted a clear dispute citing RBI Master Directions and secured a complete waiver of finance charges and GST.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

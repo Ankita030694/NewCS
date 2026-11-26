@@ -112,21 +112,8 @@ export default function WhatIsAMoratoriumPeriodMeaningBenefitsAndExamplesClient(
             }
         }))
     };
-    const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Moratorium Period Legal Analysis',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.8',
-            'reviewCount': '1250',
-            'bestRating': '5',
-            'worstRating': '1'
-        }
-    };
     return (<>
             <Script id="faq-schema-moratorium" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}/>
-            <Script id="review-schema-moratorium" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}/>
 
             {/* Hero Section */}
             <section className="relative text-white pt-32 pb-20 px-4 md:px-8 overflow-hidden" style={{

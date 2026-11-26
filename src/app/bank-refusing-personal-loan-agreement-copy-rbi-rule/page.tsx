@@ -240,70 +240,7 @@ export default function BankRefusingLoanAgreementCopyPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Prashant Kulkarni'
-            },
-            datePublished: '2026-10-22',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My private bank refused to share my signed personal loan agreement when I questioned a sudden 4% foreclosure fee and hidden insurance cut. CredSettle served a notice citing RBI Circular DBOD.Leg.BC.28 and KFS rules. The bank sent the full agreement kit and refunded ₹38,400 in undisclosed charges.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Meenakshi Nair'
-            },
-            datePublished: '2026-10-08',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'A digital NBFC app started arbitration without ever emailing my loan contract or Key Facts Statement. CredSettle filed an objection under Section 16 of the Arbitration Act and escalated to the RBI Ombudsman. The NBFC withdrew the illegal arbitration and settled my account fairly.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Harishankar Verma'
-            },
-            datePublished: '2026-09-25',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'A branch manager asked me to pay ₹2,500 just to get a copy of my own personal loan agreement after my loan went overdue. CredSettle stepped in, escalated to the Principal Nodal Officer, secured the full signed agreement free of cost, and helped close my loan with a 55% OTS waiver.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

@@ -242,70 +242,7 @@ export default function RbiFloatingLoanResetPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Pradeep Kulkarni'
-            },
-            datePublished: '2026-10-14',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My NBFC stretched my floating personal loan from 8 years to nearly 16 years without sending a single reset letter, and my balance kept rising. CredSettle audited the statement, cited RBI Circular DOR.MCS.REC.32, and got the excess interest reversed.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Neha Deshmukh'
-            },
-            datePublished: '2026-09-22',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'When I tried to close my floating personal loan after four rate hikes, the lender demanded a 4% foreclosure fee. CredSettle sent a legal notice under the RBI 2025 Pre-payment Directions, and the lender closed my loan with zero penalty.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Rajiv Menon'
-            },
-            datePublished: '2026-08-29',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My bank kept my EMI flat through multiple rate hikes until my loan crossed retirement age. After losing my job, I could not pay the revised EMI. CredSettle stepped in, escalated the reset breach, and secured a fair OTS waiver.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

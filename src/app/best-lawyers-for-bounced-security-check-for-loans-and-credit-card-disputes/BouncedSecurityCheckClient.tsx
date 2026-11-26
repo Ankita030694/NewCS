@@ -182,19 +182,6 @@ export default function BouncedSecurityCheckClient() {
         ]
     };
 
-    const productSchema = {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "Best Lawyers for Bounced Security Check Legal Defence",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": "2150",
-            "bestRating": "5",
-            "worstRating": "1"
-        }
-    };
-
     const orgSchema = {
         "@context": "https://schema.org",
         "@type": "Organization",
@@ -208,7 +195,7 @@ export default function BouncedSecurityCheckClient() {
         ],
         "contactPoint": {
             "@type": "ContactPoint",
-            "telephone": "+91-XXXX-XXXXXX",
+            "telephone": "+91-8800226635",
             "contactType": "customer service",
             "areaServed": "IN",
             "availableLanguage": "English"
@@ -235,7 +222,6 @@ export default function BouncedSecurityCheckClient() {
         <div className="min-h-screen bg-white">
             <Navbar />
             <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="product-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
             <Script id="org-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }} />
 
             {/* Hero Section */}

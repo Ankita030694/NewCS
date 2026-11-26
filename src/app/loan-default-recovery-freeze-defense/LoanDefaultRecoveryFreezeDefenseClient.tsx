@@ -155,19 +155,12 @@ export default function LoanDefaultRecoveryFreezeDefenseClient() {
 
     const productSchema = {
         '@context': 'https://schema.org',
-        '@type': 'Product',
+        '@type': 'Service',
         'name': 'Loan Default & Recovery Defense Services',
         'description': 'Elite legal defense against aggressive loan recovery tactics, SARFAESI notices, and illegal bank account freezes, ensuring borrower rights and dignity.',
         'brand': {
             '@type': 'Brand',
             'name': 'CredSettle'
-        },
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '3120',
-            'bestRating': '5',
-            'worstRating': '1'
         },
         'offers': {
             '@type': 'AggregateOffer',

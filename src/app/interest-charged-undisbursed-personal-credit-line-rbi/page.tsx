@@ -242,70 +242,7 @@ export default function UndisbursedCreditLineInterestPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Prashant Kulkarni'
-            },
-            datePublished: '2026-10-14',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'An NBFC sanctioned a ₹6 lakh personal credit line and started auto-debiting EMIs on the entire limit even though I had drawn only ₹1.2 lakh. CredSettle cited RBI Circular RBI/2024-25/30 before the PNO and Ombudsman. The lender refunded ₹48,600 in excess interest and reset my schedule.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Meenakshi Iyer'
-            },
-            datePublished: '2026-09-26',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'A digital lending app showed my ₹2 lakh credit line inside their in-app wallet and charged 24% interest for three months before any money hit my bank account. CredSettle invoked the 2025 Digital Lending Directions, got every rupee reversed, and cleared my CIBIL report.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Harshvardhan Tiwari'
-            },
-            datePublished: '2026-09-05',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My lender added hidden commitment fees and charged interest on the unused portion of my flexi hybrid loan without mentioning it in the KFS. CredSettle drafted a statutory demand under the 2024 KFS circular and secured a full fee waiver and clean NOC.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

@@ -91,59 +91,13 @@ export default function ChequeBounceLawyerDelhiPage() {
         ]
       },
       {
-        "@type": "Product",
+        "@type": "Service",
         "name": "Legal Consultation for Cheque Bounce Cases in Delhi",
         "description": "Expert legal assistance and representation for Section 138 cheque bounce matters in Delhi NCR.",
         "brand": {
           "@type": "Brand",
           "name": "CredSettle"
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "reviewCount": "3"
-        },
-        "review": [
-          {
-            "@type": "Review",
-            "author": {
-              "@type": "Person",
-              "name": "Sanjay Verma"
-            },
-            "datePublished": "2026-06-15",
-            "reviewBody": "The team at CredSettle provided exceptional guidance for my complex cheque bounce issue in Delhi. Their strategic approach secured interim compensation much faster than I anticipated.",
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "5"
-            }
-          },
-          {
-            "@type": "Review",
-            "author": {
-              "@type": "Person",
-              "name": "Priya Singh"
-            },
-            "datePublished": "2026-05-22",
-            "reviewBody": "I was facing significant delays with my Section 138 case until I switched to a lawyer recommended here. Their knowledge of Delhi court jurisdictions was evident and highly effective.",
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "5"
-            }
-          },
-          {
-            "@type": "Review",
-            "author": {
-              "@type": "Person",
-              "name": "Amit Kumar"
-            },
-            "datePublished": "2026-04-10",
-            "reviewBody": "Very professional and transparent about the cost breakdown from day one. I felt fully informed and supported throughout the entire legal process in the Delhi courts.",
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "5"
-            }
-          }
-        ]
+        }
       },
       {
         "@type": "BreadcrumbList",

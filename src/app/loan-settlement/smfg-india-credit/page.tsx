@@ -138,33 +138,6 @@ export default function SMFGLoanSettlementPage() {
     }))
   };
 
-  const reviewSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "SMFG India Credit Settlement Services by CredSettle",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "reviewCount": "395"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Vikram S." },
-        "datePublished": "2025-11-15",
-        "reviewBody": "I had a huge personal loan with Fullerton/SMFG. After my business took a hit, I couldn’t pay. CredSettle handled the arbitration notice and settled the loan for 40% of the value.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      },
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Anjali K." },
-        "datePublished": "2025-12-02",
-        "reviewBody": "Recovery agents were calling my office. CredSettle legal team stepped in and stopped it immediately. The peace of mind was worth every penny.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      }
-    ]
-  };
-
   return (
     <div className="bg-gray-50 min-h-screen">
       <Script
@@ -186,11 +159,6 @@ export default function SMFGLoanSettlementPage() {
         id="faq-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <Script
-        id="review-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
       />
 
       <Navbar />

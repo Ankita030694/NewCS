@@ -242,70 +242,7 @@ export default function StrangersLoanCibilMixedFilePage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Amitabh Deshmukh'
-            },
-            datePublished: '2026-10-18',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My home loan got rejected because a ₹4.8 Lakh defaulted personal loan from Pune appeared on my CIBIL report. Another man shared my exact name and birth date. CredSettle proved the PAN mismatch, forced CIBIL to split the mixed file in 19 days, and lifted my score from 584 to 778.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Kavita Nair'
-            },
-            datePublished: '2026-09-29',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              "A recycled mobile number merged a stranger's unpaid NBFC personal loan into both my CIBIL and CRIF reports. The lender ignored my emails for two months. CredSettle escalated to the Principal Nodal Officer and RBI Ombudsman, deleted the loan across all four bureaus, and recovered ₹3,400 under the RBI ₹100/day rule.",
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Rajeshwar Verma'
-            },
-            datePublished: '2026-08-22',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              "A private bank typed one wrong digit in another borrower's PAN, tagging a written-off personal loan to my credit profile. CredSettle drafted a statutory notice under CICRA Section 21 and RBI circular DoR.FIN.REC.48. The bank issued an unlinking confirmation and cleaned my CIBIL within 22 days.",
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

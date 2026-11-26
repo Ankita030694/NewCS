@@ -55,27 +55,6 @@ export default function CreditCardSettlementPage() {
         }
     ];
 
-    const reviews = [
-        {
-            name: "Priya S.",
-            location: "Mumbai",
-            rating: 5,
-            text: "This page helped me identify a fake settlement agency that was demanding money upfront. I negotiated directly with my bank and closed my card."
-        },
-        {
-            name: "Rajesh K.",
-            location: "Delhi",
-            rating: 5,
-            text: "I was terrified of the recovery calls. Understanding the RBI guidelines gave me the confidence to handle the agents legally."
-        },
-        {
-            name: "Sneha V.",
-            location: "Chennai",
-            rating: 5,
-            text: "The step by step guide is brilliant. I followed it and finally got my NOC after 6 months of stress."
-        }
-    ];
-
     const jsonLd = {
         "@context": "https://schema.org",
         "@type": "Article",
@@ -131,7 +110,7 @@ export default function CreditCardSettlementPage() {
         ],
         "contactPoint": {
             "@type": "ContactPoint",
-            "telephone": "+91-XXXX-XXXXXX",
+            "telephone": "+91-8800226635",
             "contactType": "customer service",
             "areaServed": "IN",
             "availableLanguage": "English"
@@ -148,31 +127,6 @@ export default function CreditCardSettlementPage() {
                 '@type': 'Answer',
                 'text': faq.answer
             }
-        }))
-    };
-
-    const productSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Credit Card Settlement in India: Legal & Secure Guide',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.8',
-            'reviewCount': '3',
-            'bestRating': '5',
-            'worstRating': '1'
-        },
-        'review': reviews.map(review => ({
-            '@type': 'Review',
-            'author': {
-                '@type': 'Person',
-                'name': review.name
-            },
-            'reviewRating': {
-                '@type': 'Rating',
-                'ratingValue': review.rating.toString()
-            },
-            'reviewBody': review.text
         }))
     };
 
@@ -195,10 +149,6 @@ export default function CreditCardSettlementPage() {
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-            />
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
             />
             <CreditCardSettlementClient />
                         </div>

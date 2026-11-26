@@ -242,70 +242,7 @@ export default function LoanAgainstLicPolicyDefaultPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Rajendra Kulkarni'
-            },
-            datePublished: '2026-10-28',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My private bank threatened to surrender two assigned LIC endowment policies after my business cash flow dropped. CredSettle audited the inflated penal charges, negotiated a structured closure, and saved both policies from forced surrender.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Meenakshi Nair'
-            },
-            datePublished: '2026-10-12',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'After I repaid my overdraft against LIC policy, the bank sat on the reassignment form for 52 days. CredSettle escalated the breach to the Principal Nodal Officer and RBI Ombudsman, getting my original bond back with statutory relief.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Sandeep Deshmukh'
-            },
-            datePublished: '2026-09-24',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'A lender liquidated my assigned LIC policy and kept the extra ₹1.40 lakh surrender balance against an unrelated credit card. CredSettle cited assignment limits and forced the bank to refund the surplus and close the dispute cleanly.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

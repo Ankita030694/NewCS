@@ -237,70 +237,7 @@ export default function UnbilledCreditCardEmiForeclosurePage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Rohan Deshmukh'
-            },
-            datePublished: '2026-10-12',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'After my layoff, I missed three card bills and my bank suddenly foreclosed two No-Cost EMIs, dumping ₹1.45 Lakh onto one statement at 42% interest. CredSettle disputed the illegal overlimit fees and settled the entire card for ₹62,000 with a clean NOC.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Meenakshi Iyer'
-            },
-            datePublished: '2026-09-24',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My hospital and appliance EMIs collapsed into my regular card bill after a medical crisis, pushing my dues from ₹95,000 to ₹1.58 Lakh. CredSettle stopped agent harassment and closed the full account via an official bank OTS sanction.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Sandeep Kulkarni'
-            },
-            datePublished: '2026-09-05',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'I had four merchant EMIs running when my business slowed down. When the card hit 90 DPD, all unbilled EMIs hit one bill with 3% foreclosure fees. CredSettle audited the ledger under RBI rules and negotiated a 58% waiver.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

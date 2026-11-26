@@ -242,70 +242,7 @@ export default function PersonalLoanSettledCibilOverdueCrifEquifaxPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Prashant Kulkarni'
-            },
-            datePublished: '2026-10-14',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My personal loan showed Settled on CIBIL six months ago, yet my car loan got rejected because CRIF High Mark still showed ₹2.4 Lakh overdue. CredSettle served a joint notice to the NBFC Nodal Officer and filed parallel bureau disputes. Both CRIF and Equifax updated to zero overdue in 18 days.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Meenakshi Iyer'
-            },
-            datePublished: '2026-09-26',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'After settling an app-based co-lending personal loan, CIBIL updated but Equifax kept adding 30+ DPD every month. CredSettle spotted a CKYC mismatch in the NBFC file, escalated to the RBI Ombudsman, synced all four credit bureaus, and recovered ₹4,100 under the RBI ₹100/day rule.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Harshvardhan Tiwari'
-            },
-            datePublished: '2026-08-29',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My old bank sold my settled personal loan ledger to an ARC and never updated CRIF or Experian. CredSettle audited all four FFCR reports, matched the NOC with both entities, cleared the duplicate overdue tradeline, and raised my CRIF score by 118 points.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

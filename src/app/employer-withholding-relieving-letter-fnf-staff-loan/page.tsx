@@ -237,70 +237,7 @@ export default function EmployerRelievingLetterPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Prashant Kulkarni'
-            },
-            datePublished: '2026-10-12',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My former employer held my relieving letter and tried to offset my entire gratuity against a remaining staff laptop and salary advance balance. CredSettle sent a clear legal notice citing the Code on Social Security and Vishal Gupta judgment. HR released my clean relieving letter and full gratuity within 12 days.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Meenakshi Nair'
-            },
-            datePublished: '2026-09-25',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'A private bank recovery agent emailed my HR about my personal loan default, and HR paused my F&F clearance. CredSettle escalated the privacy breach to the Bank Nodal Officer and advised HR on the legal boundaries. My relieving letter was issued immediately and my bank loan was settled smoothly.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Rohit Deshmukh'
-            },
-            datePublished: '2026-08-19',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'After leaving a bank job with an active staff housing loan, the branch refused to accept my resignation clearance until full prepayment. CredSettle helped convert the loan to commercial terms and secured my relieving letter so I could join my new role on time.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

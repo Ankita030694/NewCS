@@ -242,70 +242,7 @@ export default function FrozenAccountLoanFixPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Prashant Kulkarni'
-            },
-            datePublished: '2026-10-14',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My ₹4.5 lakh personal loan went into an old salary account that had a partial KYC freeze. The branch kept asking me to visit my home city. CredSettle cited the June 2025 RBI circular and sent a notice to the Nodal Officer. My account opened in 48 hours with zero fees.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Neha Deshmukh'
-            },
-            datePublished: '2026-09-22',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'An NBFC disbursed my loan to a closed bank account and the NEFT bounced back, yet they still started charging EMI and interest. CredSettle wrote to their PNO citing the April 2024 RBI Fair Practices circular. The NBFC cancelled the wrong interest and cleared my CIBIL report.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Arvind Menon'
-            },
-            datePublished: '2026-08-19',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My bank put a full debit freeze over a ₹12,000 cyber complaint right when my ₹3 lakh personal loan landed. CredSettle helped me draft a clean representation to the bank and IO using High Court rulings. The bank limited the lien to ₹12,000 and freed the rest of my loan.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

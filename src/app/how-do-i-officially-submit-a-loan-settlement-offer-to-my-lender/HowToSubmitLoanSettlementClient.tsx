@@ -195,19 +195,12 @@ export default function HowToSubmitLoanSettlementClient() {
 
     const productSchema = {
         '@context': 'https://schema.org',
-        '@type': 'Product',
+        '@type': 'Service',
         'name': 'Loan Settlement Submission Protocol Service',
         'description': 'Professional expert guidance and documentation support for officially submitting loan settlement offers to Indian lenders.',
         'brand': {
             '@type': 'Brand',
             'name': 'CredSettle'
-        },
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '4250',
-            'bestRating': '5',
-            'worstRating': '1'
         }
     };
 
@@ -224,7 +217,7 @@ export default function HowToSubmitLoanSettlementClient() {
                 'logo': 'https://www.credsettle.com/logo.png',
                 'contactPoint': {
                     '@type': 'ContactPoint',
-                    'telephone': '+91-XXXX-XXXXXX',
+                    'telephone': '+91-8800226635',
                     'contactType': 'customer service'
                 }
             }) }} />

@@ -242,70 +242,7 @@ export default function PersonalLoanDefaultForeignVisaPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Rohan Deshmukh'
-            },
-            datePublished: '2026-10-12',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'I had a defaulted personal loan of ₹6.5 Lakhs when I received a UK Skilled Worker offer. CredSettle verified my eCourts status, negotiated a clean OTS closure, and obtained my NOC before my visa biometrics. My UK visa was approved without any hurdle.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Meenakshi Iyer'
-            },
-            datePublished: '2026-09-24',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'Recovery agents threatened to block my daughter Canada student visa over an old settled loan. CredSettle sent a strict legal notice citing RBI guidelines, cleared a pending Section 138 notice through compounding, and protected our Proof of Funds.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Arvind Nair'
-            },
-            datePublished: '2026-09-05',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'Before applying for my German Opportunity Card visa, I was worried about a written-off NBFC loan. CredSettle settled the dues for a 55% waiver and ensured fortnightly bureau reporting updated my account to zero balance.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

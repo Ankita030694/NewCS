@@ -242,70 +242,7 @@ export default function HighFoirBalanceTransferExitPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Raghavendra Menon'
-            },
-            datePublished: '2026-10-28',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'Three major private banks rejected my personal loan balance transfer because my FOIR hit 74% across four loans and two credit cards. CredSettle stopped me from taking costly loan-app cash, shielded me from recovery calls, and settled all accounts at a 52% overall waiver with valid NDC letters.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Neha Deshmukh'
-            },
-            datePublished: '2026-10-14',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My refinance request kept failing due to high FOIR even after closing two old NBFC loans. CredSettle audited my CIBIL and CRIF reports, forced a 15-day bureau correction under RBI norms, and helped restructure my remaining personal loan into a safe monthly EMI.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Siddharth Bansal'
-            },
-            datePublished: '2026-09-29',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'After a pay cut pushed my FOIR to 86%, every consolidation loan failed and an NBFC stacked compounding penalties. CredSettle invoked the RBI Penal Charges circular and 2023 Compromise Framework to close my ₹11.5 lakh dues in a single clean OTS deal.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

@@ -113,19 +113,6 @@ export default function PersonalLoanSettlementProcessClient() {
         }
     ];
 
-    const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Personal Loan Settlement Guide',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.8',
-            'reviewCount': '1120',
-            'bestRating': '5',
-            'worstRating': '1'
-        }
-    };
-
     const faqSchema = {
         '@context': 'https://schema.org',
         '@type': 'FAQPage',
@@ -142,7 +129,6 @@ export default function PersonalLoanSettlementProcessClient() {
     return (
         <>
             <Script id="faq-schema-pl-process" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-pl-process" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
             {/* Hero Section */}
             <section

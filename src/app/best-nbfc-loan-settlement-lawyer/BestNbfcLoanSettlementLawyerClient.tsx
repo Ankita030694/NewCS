@@ -156,19 +156,12 @@ export default function BestNbfcLoanSettlementLawyerClient() {
 
     const productSchema = {
         '@context': 'https://schema.org',
-        '@type': 'Product',
+        '@type': 'Service',
         'name': 'NBFC Loan Settlement Lawyer Analysis',
         'description': 'Expert legal representation for negotiating settlements with NBFCs, protecting borrower rights, and achieving debt relief through legal mediation.',
         'brand': {
             '@type': 'Brand',
             'name': 'CredSettle'
-        },
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '3580',
-            'bestRating': '5',
-            'worstRating': '1'
         },
         'offers': {
             '@type': 'AggregateOffer',

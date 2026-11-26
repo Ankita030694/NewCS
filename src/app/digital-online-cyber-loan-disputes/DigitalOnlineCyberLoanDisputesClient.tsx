@@ -155,19 +155,12 @@ export default function DigitalOnlineCyberLoanDisputesClient() {
 
     const productSchema = {
         '@context': 'https://schema.org',
-        '@type': 'Product',
+        '@type': 'Service',
         'name': 'Digital & Cyber Loan Dispute Resolution',
         'description': 'Advanced legal defense against predatory lending apps, digital identity theft, and unauthorized cyber-debt recovery practices in the Indian fintech landscape.',
         'brand': {
             '@type': 'Brand',
             'name': 'CredSettle'
-        },
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '3450',
-            'bestRating': '5',
-            'worstRating': '1'
         },
         'offers': {
             '@type': 'AggregateOffer',

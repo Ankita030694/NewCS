@@ -528,26 +528,6 @@ export default function RecommendationsClient() {
                       <p className="font-bold text-blue-900">{review.name}</p>
                       <p className="text-xs text-gray-500">{review.location}</p>
                     </div>
-                    {/* Review Schema Snippet */}
-                    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-                      "@context": "https://schema.org/",
-                      "@type": "Review",
-                      "itemReviewed": {
-                        "@type": "FinancialService",
-                        "name": "CredSettle Debt Settlement"
-                      },
-                      "author": {
-                        "@type": "Person",
-                        "name": review.name
-                      },
-                      "reviewRating": {
-                        "@type": "Rating",
-                        "ratingValue": review.rating.toString(),
-                        "bestRating": "5"
-                      },
-                      "reviewBody": review.body,
-                      "datePublished": review.date
-                    })}} />
                   </div>
                 ))}
               </div>

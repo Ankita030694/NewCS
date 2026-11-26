@@ -145,35 +145,6 @@ export default function AxisBankLoanSettlementPage() {
     ]
   };
 
-  const reviewSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "Axis Bank Loan Settlement Services by CredSettle",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "reviewCount": "920",
-      "bestRating": "5",
-      "worstRating": "1"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Rajesh Kumar" },
-        "datePublished": "2025-11-25",
-        "reviewBody": "Settled my Axis Bank personal loan of 8 Lakhs for 3.5 Lakhs. The CredSettle team handled the entire negotiation process.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      },
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Priya Singh" },
-        "datePublished": "2025-12-15",
-        "reviewBody": "Very helpful service for credit card settlement. They stopped the harassment calls and closed the account efficiently.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      }
-    ]
-  };
-
   return (
     <div className="bg-gray-50 min-h-screen">
       <Navbar />
@@ -181,7 +152,6 @@ export default function AxisBankLoanSettlementPage() {
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <Script id="review-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
       <section 
         className="relative text-white pt-32 pb-20 px-4 md:px-8"

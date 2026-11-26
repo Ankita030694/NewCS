@@ -66,7 +66,7 @@ const organizationSchema = {
   url: 'https://www.credsettle.com',
   logo: 'https://www.credsettle.com/credsettle-logo.svg',
   description: 'Professional personal loan settlement services in Andhra Pradesh. Legal RBI-compliant debt resolution for Visakhapatnam, Vijayawada, Guntur borrowers. Port and agricultural sector specialists.',
-  telephone: '+91-XXXXXXXXXX',
+  telephone: '+91-8800226635',
   email: 'support@credsettle.com',
   address: {
     '@type': 'PostalAddress',
@@ -90,13 +90,6 @@ const organizationSchema = {
       ]
     }
   ],
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.6',
-    reviewCount: '8000',
-    bestRating: '5',
-    worstRating: '1'
-  },
   priceRange: 'Consultation Free',
   serviceType: 'Personal Loan Settlement',
   knowsAbout: [
@@ -177,36 +170,24 @@ const breadcrumbSchema = {
 
 const localBusinessSchema = {
   '@context': 'https://schema.org',
-  '@type': 'LocalBusiness',
-  name: 'CredSettle Andhra Pradesh',
+  '@type': 'FinancialService',
+  name: 'CredSettle',
   image: 'https://www.credsettle.com/credsettle-logo.svg',
   '@id': 'https://www.credsettle.com/services/personal-loan-settlement/andhra-pradesh',
   url: 'https://www.credsettle.com/services/personal-loan-settlement/andhra-pradesh',
-  telephone: '+91-XXXXXXXXXX',
+  telephone: '+91-8800226635',
   priceRange: 'Free Consultation',
   address: {
     '@type': 'PostalAddress',
-    addressLocality: 'Visakhapatnam',
-    addressRegion: 'Andhra Pradesh',
+    streetAddress: '4th Floor, 2493AP, Block G, Sushant Lok 2, Sector 57',
+    addressLocality: 'Gurugram',
+    addressRegion: 'Haryana',
+    postalCode: '122001',
     addressCountry: 'IN'
   },
-  geo: {
-    '@type': 'GeoCoordinates',
-    latitude: 17.6868,
-    longitude: 83.2185
-  },
-  openingHoursSpecification: {
-    '@type': 'OpeningHoursSpecification',
-    dayOfWeek: [
-      'Monday',
-      'Tuesday',
-      'Wednesday',
-      'Thursday',
-      'Friday',
-      'Saturday'
-    ],
-    opens: '09:00',
-    closes: '18:00'
+  areaServed: {
+    '@type': 'State',
+    name: 'Andhra Pradesh'
   },
   sameAs: [
     'https://www.facebook.com/credsettle',

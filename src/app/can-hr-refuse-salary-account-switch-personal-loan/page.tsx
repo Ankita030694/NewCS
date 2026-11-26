@@ -242,70 +242,7 @@ export default function CanHrRefuseSalarySwitchPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Prashant Kulkarni'
-            },
-            datePublished: '2026-10-14',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My private bank put a hold on my salary account after two missed personal loan EMIs during a medical emergency. CredSettle guided me on requesting a partner-bank payroll update with HR, handled the Section 25 notice, and closed my loan through a 55% OTS waiver.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Neha Deshmukh'
-            },
-            datePublished: '2026-09-28',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'A recovery agent emailed my HR claiming I could not switch my salary account until my loan was paid. CredSettle filed a formal PNO and RBI CMS privacy complaint. The bank apologized, stopped workplace calls, and agreed to a fair settlement.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Arvind Menon'
-            },
-            datePublished: '2026-09-09',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'I feared losing my entire monthly pay to bank set-off. CredSettle explained the exact difference between Section 171 lien and Section 60 CPC protection, helped stabilize my family budget, and secured my official No Dues Certificate.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

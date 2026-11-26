@@ -110,49 +110,14 @@ export default function DiySettlementPage() {
 
     const reviewLd = {
         "@context": "https://schema.org",
-        "@type": "Product",
+        "@type": "Service",
         "name": "Debt Settlement Legal Advisory",
         "image": "https://www.credsettle.com/credsettle-logo.svg",
         "description": "Professional legal counsel for high-value debt settlements, DRT defense, and anti-harassment injunctions.",
         "brand": {
             "@type": "Brand",
             "name": "CredSettle"
-        },
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "bestRating": "5",
-            "worstRating": "1",
-            "ratingCount": "2"
-        },
-        "review": [
-            {
-                "@type": "Review",
-                "author": {
-                    "@type": "Person",
-                    "name": "Siddharth Menon"
-                },
-                "datePublished": "2025-09-12",
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5"
-                },
-                "reviewBody": "I almost paid a settlement agency 1.5 Lakhs just in 'registration fees.' Instead, I used this platform's legal team to draft a strong hardship letter and successfully negotiated a 50% waiver directly with the branch manager."
-            },
-            {
-                "@type": "Review",
-                "author": {
-                    "@type": "Person",
-                    "name": "Pooja Reddy"
-                },
-                "datePublished": "2026-02-28",
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5"
-                },
-                "reviewBody": "I tried DIY settlement for my MSME loan, but when the bank filed a DRT case, I realized I was out of my depth. The lawyers here stepped in, stopped the DRT escalation, and closed the matter legally."
-            }
-        ]
+        }
     };
 
     return (

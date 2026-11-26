@@ -49,48 +49,7 @@ export default function LoanManagementPage() {
       addressLocality: 'New Delhi',
       addressRegion: 'Delhi',
       addressCountry: 'IN'
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '1250',
-      bestRating: '5',
-      worstRating: '1'
-    },
-    review: [
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Anish Sharma'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'CredSettle helped me consolidate my debts and reduced my interest rates significantly. Highly recommended!',
-        'itemReviewed': {
-          '@type': 'FinancialService',
-          'name': 'CredSettle'
-        }
-      },
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Megha Gupta'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'Professional and transparent service. They saved my business 4 lakhs a year in interest outgo.',
-        'itemReviewed': {
-          '@type': 'FinancialService',
-          'name': 'CredSettle'
-        }
-      }
-    ]
+    }
   };
 
   const breadcrumbSchema = {

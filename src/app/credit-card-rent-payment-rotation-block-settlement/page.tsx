@@ -237,70 +237,7 @@ export default function CreditCardRentRotationPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Karthik Subramanian'
-            },
-            datePublished: '2026-10-28',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'After losing my IT project bonus, I rotated Rs 2.4 Lakh across two credit cards using rent payment apps for eight months. Both banks suddenly blocked my cards in the same week. CredSettle stopped recovery calls and negotiated formal One-Time Settlements saving 58% on total dues.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Neha Deshmukh'
-            },
-            datePublished: '2026-10-09',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My private bank froze my credit card for MCC 6513 transfers and agents threatened my brother whose account received the funds. CredSettle enforced RBI Fair Practices rules immediately and closed my Rs 3.1 Lakh card bill via an official OTS with a proper No Dues Certificate.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Saurabh Tiwari'
-            },
-            datePublished: '2026-09-14',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'I was burning nearly Rs 9,000 every month in gateway and bank rent surcharges without reducing my card balance by a rupee. CredSettle guided me out of the rotation trap safely and settled my blocked card account legally.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

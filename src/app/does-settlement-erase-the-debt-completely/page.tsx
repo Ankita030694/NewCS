@@ -65,13 +65,6 @@ export default function DebtSettlementEraseDebtPage() {
     address: {
       '@type': 'PostalAddress',
       addressCountry: 'IN'
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '18500',
-      bestRating: '5',
-      worstRating: '1'
     }
   };
 
@@ -215,28 +208,7 @@ export default function DebtSettlementEraseDebtPage() {
       '@type': 'FinancialService',
       'name': 'CredSettle',
       'url': 'https://www.credsettle.com'
-    },
-    'aggregateRating': {
-      '@type': 'AggregateRating',
-      'ratingValue': '4.9',
-      'reviewCount': '18500',
-      'bestRating': '5',
-      'worstRating': '1'
-    },
-    'review': [
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Rajesh Kumar' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'CredSettle saved me from illegal recovery calls and helped me understand exactly how settlement works. Their transparency is unmatched.'
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Suman Mehta' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'I thought my credit was ruined forever. CredSettle not only helped with the settlement but gave me a clear path to rebuild my CIBIL score.'
-      }
-    ]
+    }
   };
 
   return (

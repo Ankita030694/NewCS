@@ -82,31 +82,6 @@ const articleSchema = {
   }
 };
 
-const reviewSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Review',
-    itemReviewed: {
-        '@type': 'Organization',
-        name: 'CredSettle',
-        image: 'https://www.credsettle.com/credsettle-logo.svg',
-        telephone: '+91-8800226635',
-        address: {
-             '@type': 'PostalAddress',
-             addressCountry: 'IN'
-        }
-    },
-    reviewRating: {
-        '@type': 'Rating',
-        ratingValue: '4.9',
-        bestRating: '5'
-    },
-    author: {
-        '@type': 'Person',
-        name: 'Rajesh K.'
-    },
-    reviewBody: 'I desperately wanted to be freed from my credit card dues. CredSettle helped me close it for 40% of the value.'
-};
-
 export default function FreedDebtPage() {
   return (
     <>
@@ -117,10 +92,6 @@ export default function FreedDebtPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-      />
-       <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
       />
       <FreedAlternativePageClient />
     </>

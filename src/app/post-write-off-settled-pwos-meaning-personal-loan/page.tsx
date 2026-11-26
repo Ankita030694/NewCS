@@ -242,70 +242,7 @@ export default function PostWriteOffSettledPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Nikhil Deshmukh'
-            },
-            datePublished: '2026-10-19',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My home loan got rejected because an old personal loan showed Post (WO) Settled on CIBIL even though I paid the full balance two years later. CredSettle sent a formal notice to the bank PNO and filed bureau disputes. My status changed to Closed across all four bureaus in 22 days.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Rituja Nair'
-            },
-            datePublished: '2026-09-28',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'When I asked my NBFC to close my PWOS personal loan, the branch demanded triple the waived amount in fake late fees. CredSettle audited the statement, cited RBI penal charge norms, settled the exact principal gap, and got my clean No Dues Certificate.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Sandeep Verma'
-            },
-            datePublished: '2026-09-05',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'After an ARC bought my written-off personal loan, my report showed both Written-Off and PWOS at the same time. CredSettle reconciled both ledgers, escalated to the RBI Ombudsman, removed the duplicate hit, and recovered ₹3,400 in delay compensation.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

@@ -57,7 +57,7 @@ const organizationSchema = {
   url: 'https://www.credsettle.com',
   logo: 'https://www.credsettle.com/credsettle-logo.svg',
   description: 'Professional credit card settlement services in West Bengal. Legal RBI-compliant debt resolution for Kolkata, Siliguri, Durgapur borrowers. Education, creative and business debt specialists.',
-  telephone: '+91-XXXXXXXXXX',
+  telephone: '+91-8800226635',
   email: 'support@credsettle.com',
   address: {
     '@type': 'PostalAddress',
@@ -78,13 +78,6 @@ const organizationSchema = {
       ]
     }
   ],
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.7',
-    reviewCount: '4400',
-    bestRating: '5',
-    worstRating: '1'
-  },
   priceRange: 'Consultation Free',
   serviceType: 'Credit Card Settlement',
   knowsAbout: [
@@ -164,36 +157,24 @@ const breadcrumbSchema = {
 
 const localBusinessSchema = {
   '@context': 'https://schema.org',
-  '@type': 'LocalBusiness',
-  name: 'CredSettle West Bengal Credit Card Settlement',
+  '@type': 'FinancialService',
+  name: 'CredSettle',
   image: 'https://www.credsettle.com/credsettle-logo.svg',
   '@id': 'https://www.credsettle.com/services/credit-card-settlement/west-bengal',
   url: 'https://www.credsettle.com/services/credit-card-settlement/west-bengal',
-  telephone: '+91-XXXXXXXXXX',
+  telephone: '+91-8800226635',
   priceRange: 'Free Consultation',
   address: {
     '@type': 'PostalAddress',
-    addressLocality: 'Kolkata',
-    addressRegion: 'West Bengal',
+    streetAddress: '4th Floor, 2493AP, Block G, Sushant Lok 2, Sector 57',
+    addressLocality: 'Gurugram',
+    addressRegion: 'Haryana',
+    postalCode: '122001',
     addressCountry: 'IN'
   },
-  geo: {
-    '@type': 'GeoCoordinates',
-    latitude: 22.5726,
-    longitude: 88.3639
-  },
-  openingHoursSpecification: {
-    '@type': 'OpeningHoursSpecification',
-    dayOfWeek: [
-      'Monday',
-      'Tuesday',
-      'Wednesday',
-      'Thursday',
-      'Friday',
-      'Saturday'
-    ],
-    opens: '09:00',
-    closes: '18:00'
+  areaServed: {
+    '@type': 'State',
+    name: 'West Bengal'
   },
   sameAs: [
     'https://www.facebook.com/credsettle',

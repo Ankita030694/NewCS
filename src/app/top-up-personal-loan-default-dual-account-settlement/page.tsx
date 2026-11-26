@@ -237,70 +237,7 @@ export default function TopUpDualAccountSettlementPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Pradeep Deshmukh'
-            },
-            datePublished: '2026-10-28',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'I had a ₹6 Lakh base personal loan and a ₹4 Lakh top-up loan with the same private bank. After a job loss, both accounts turned NPA under one UCIC. CredSettle audited both ledgers, got one combined OTS letter naming both LANs, and helped me get two separate NOCs.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Meenakshi Iyer'
-            },
-            datePublished: '2026-10-12',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My NBFC applied my lump-sum payment toward overdue fees on my old personal loan instead of closing my top-up account. CredSettle cited Section 59 of the Contract Act, forced a ledger reversal, and settled both accounts with a 52% total waiver.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Rohit Malhotra'
-            },
-            datePublished: '2026-09-25',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'Even after I paid my dual settlement, my CIBIL report still showed the top-up LAN as active and overdue. CredSettle escalated to the bank Principal Nodal Officer under the RBI 15-day reporting rule and fixed both credit tradelines quickly.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

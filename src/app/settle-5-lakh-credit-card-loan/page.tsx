@@ -52,27 +52,6 @@ export default function Settle5LakhPage() {
         }
     ];
 
-    const reviews = [
-        {
-            name: "Manish R.",
-            location: "Delhi",
-            rating: 5,
-            text: "I was buried under a 5 Lakh card debt and was getting completely overwhelmed. Following these steps helped me negotiate an affordable closure without legal trouble."
-        },
-        {
-            name: "Sonia P.",
-            location: "Mumbai",
-            rating: 5,
-            text: "Understanding the collection cycle changes everything. I knew exactly when they would be ready to accept a lower sum. It literally saved me over two lakhs."
-        },
-        {
-            name: "Arvind K.",
-            location: "Chennai",
-            rating: 5,
-            text: "The advice on prioritizing principal waivers over interest was completely counter intuitive but absolutely correct. An eye opener for anyone struggling with unsecured debt."
-        }
-    ];
-
     const jsonLd = {
         "@context": "https://schema.org",
         "@type": "Article",
@@ -128,7 +107,7 @@ export default function Settle5LakhPage() {
         ],
         "contactPoint": {
             "@type": "ContactPoint",
-            "telephone": "+91-XXXX-XXXXXX",
+            "telephone": "+91-8800226635",
             "contactType": "customer service",
             "areaServed": "IN",
             "availableLanguage": "English"
@@ -145,31 +124,6 @@ export default function Settle5LakhPage() {
                 '@type': 'Answer',
                 'text': faq.answer
             }
-        }))
-    };
-
-    const productSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Settle a 5 Lakh Credit Card Loan Guide',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '350',
-            'bestRating': '5',
-            'worstRating': '1'
-        },
-        'review': reviews.map(review => ({
-            '@type': 'Review',
-            'author': {
-                '@type': 'Person',
-                'name': review.name
-            },
-            'reviewRating': {
-                '@type': 'Rating',
-                'ratingValue': review.rating.toString()
-            },
-            'reviewBody': review.text
         }))
     };
 
@@ -196,11 +150,6 @@ export default function Settle5LakhPage() {
                 id="faq-schema-5lakh"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-            />
-            <Script
-                id="product-schema-5lakh"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
             />
             <Settle5LakhClient />
                         </div>

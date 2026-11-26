@@ -165,39 +165,14 @@ export default async function LawyerBySlugPage({ params }: { params: Promise<{ s
 
   const reviewSchema = {
     "@context": "https://schema.org",
-    "@type": "Product",
+    "@type": "Service",
     "name": `Loan Settlement Services in ${locationName}`,
     "image": "https://www.credsettle.com/services/3.png",
     "description": `Expert legal loan settlement services in ${locationName}, India.`,
     "brand": {
       "@type": "Brand",
       "name": "CredSettle"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "reviewCount": "2450"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" },
-        "author": { "@type": "Person", "name": "Rahul Sharma" },
-        "reviewBody": "CredSettle helped me settle my 8 Lakh debt for just 3.5 Lakhs. The harassment stopped immediately."
-      },
-      {
-        "@type": "Review",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" },
-        "author": { "@type": "Person", "name": "Anita Desai" },
-        "reviewBody": "Excellent legal support for credit card settlement in this city. They handled everything professionally."
-      },
-      {
-        "@type": "Review",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" },
-        "author": { "@type": "Person", "name": "Vikram Singh" },
-        "reviewBody": "Reliable and transparent. They saved me from a massive debt trap. Highly recommended."
-      }
-    ]
+    }
   };
 
   return (

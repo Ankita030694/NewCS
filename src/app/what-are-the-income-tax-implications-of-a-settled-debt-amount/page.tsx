@@ -70,33 +70,6 @@ export default function TaxImplicationsPage() {
     }
   ];
 
-  const reviews = [
-    {
-        name: 'Vikram Mehta',
-        location: 'Mumbai',
-        rating: 5,
-        text: 'I was very worried about the tax audit after my business loan settlement. This guide gave me the exact Sections 28 and 41 info my CA needed. We disclosed it as a capital receipt properly.'
-    },
-    {
-        name: 'Priya Sharma',
-        location: 'Delhi',
-        rating: 5,
-        text: 'The explanation on Finance Act 2023 was eye opening. I realized my personal credit card settlement wasn’t taxable, but my husband’s business overdraft settlement was. Very detailed!'
-    },
-    {
-        name: 'Rohan Gupta',
-        location: 'Bangalore',
-        rating: 5,
-        text: 'Highly professional analysis. Most websites just give generic advice, but this deep dive into Supreme Court cases like Mahindra & Mahindra settled my nerves about a tax notice.'
-    },
-    {
-        name: 'Anjali Nair',
-        location: 'Chennai',
-        rating: 5,
-        text: 'The section on Home Loan principal waiver and its impact on cost of acquisition was brilliant. Saved me from a major capital gains headache in the future.'
-    }
-  ];
-
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -151,7 +124,7 @@ export default function TaxImplicationsPage() {
     ],
     "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+91-XXXX-XXXXXX",
+        "telephone": "+91-8800226635",
         "contactType": "customer service",
         "areaServed": "IN",
         "availableLanguage": "English"
@@ -168,31 +141,6 @@ export default function TaxImplicationsPage() {
             '@type': 'Answer',
             'text': faq.answer
         }
-    }))
-  };
-
-  const productSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    'name': 'Income Tax Implications Guide',
-    'aggregateRating': {
-        '@type': 'AggregateRating',
-        'ratingValue': '4.9',
-        'reviewCount': '1250',
-        'bestRating': '5',
-        'worstRating': '1'
-    },
-    'review': reviews.map(review => ({
-        '@type': 'Review',
-        'author': {
-            '@type': 'Person',
-            'name': review.name
-        },
-        'reviewRating': {
-            '@type': 'Rating',
-            'ratingValue': review.rating.toString()
-        },
-        'reviewBody': review.text
     }))
   };
 
@@ -217,11 +165,6 @@ export default function TaxImplicationsPage() {
         id="faq-schema-tax"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <Script
-        id="product-schema-tax"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
       />
       <TaxImplicationsClient />
       <Footer />

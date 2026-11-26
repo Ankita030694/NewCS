@@ -242,70 +242,7 @@ export default function HomeRenovationPersonalLoanDefaultPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Pradeep Deshmukh'
-            },
-            datePublished: '2026-10-28',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'After a sudden medical expense stopped my EMIs on a ₹9 Lakh home renovation personal loan, recovery agents threatened to paste a SARFAESI auction notice on my Pune flat. CredSettle proved there was zero mortgage or CERSAI lien, stopped the calls with a legal notice, and settled the loan at a 52% waiver.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Meenakshi Nair'
-            },
-            datePublished: '2026-10-12',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My bank refused to release my repaid home loan sale deed because I had defaulted on a separate unsecured renovation personal loan with them. CredSettle cited Bombay High Court precedents and RBI Circular DoR.MCS.REC.38 to secure my original papers and negotiate a separate OTS.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Harvinder Gill'
-            },
-            datePublished: '2026-09-21',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'An NBFC filed a civil recovery suit for my ₹6.5 Lakh home repair personal loan and tried to scare my family about our Gurugram house. CredSettle lawyers explained our Section 60(1)(ccc) CPC rights, challenged inflated late fees, and closed the case cleanly through an official OTS letter.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

@@ -172,29 +172,9 @@ export default function MSMELoanDisputesClient() {
         }))
     };
 
-    const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'MSME Loan Dispute Resolution Services',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '1840',
-            'bestRating': '5',
-            'worstRating': '1'
-        },
-        'review': reviews.map(r => ({
-            '@type': 'Review',
-            'author': { '@type': 'Person', 'name': r.name },
-            'reviewRating': { '@type': 'Rating', 'ratingValue': r.stars },
-            'reviewBody': r.comment
-        }))
-    };
-
     return (
         <>
             <Script id="msme-faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="msme-review-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
             {/* Hero Section */}
             <section

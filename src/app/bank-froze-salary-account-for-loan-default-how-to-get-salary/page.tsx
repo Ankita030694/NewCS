@@ -63,13 +63,6 @@ export default function SalaryAccountFreezePage() {
       '@type': 'PostalAddress',
       addressCountry: 'IN'
     },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '3',
-      bestRating: '5',
-      worstRating: '1'
-    },
     priceRange: 'Consultation Free',
     serviceType: 'Legal Advisory',
     knowsAbout: [

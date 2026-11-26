@@ -49,48 +49,7 @@ export default function LoanSettlementVsRepaymentPage() {
       addressLocality: 'New Delhi',
       addressRegion: 'Delhi',
       addressCountry: 'IN'
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.8',
-      reviewCount: '1250',
-      bestRating: '5',
-      worstRating: '1'
-    },
-    review: [
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Amit Verma'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'CredSettle helped me understand the long-term impact of settlement. I chose repayment after their consultation and my CIBIL is now 780!',
-        'itemReviewed': {
-          '@type': 'FinancialService',
-          'name': 'CredSettle'
-        }
-      },
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Priya Sharma'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'Clear and concise comparison. The guide on loan settlement vs repayment saved me from making a huge mistake with my credit cards.',
-        'itemReviewed': {
-          '@type': 'FinancialService',
-          'name': 'CredSettle'
-        }
-      }
-    ]
+    }
   };
 
   const breadcrumbSchema = {

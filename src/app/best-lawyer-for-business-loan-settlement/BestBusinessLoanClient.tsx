@@ -140,19 +140,6 @@ export default function BestBusinessLoanClient() {
         }
     ];
 
-    const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Business Loan Settlement Legal Aid',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '1450',
-            'bestRating': '5',
-            'worstRating': '1'
-        }
-    };
-
     const faqSchema = {
         '@context': 'https://schema.org',
         '@type': 'FAQPage',
@@ -167,7 +154,6 @@ export default function BestBusinessLoanClient() {
         <>
             <Script id="org-schema-biz" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
             <Script id="faq-schema-biz" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-biz" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
             {/* Hero Section */}
             <section

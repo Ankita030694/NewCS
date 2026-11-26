@@ -110,49 +110,14 @@ export default function WrittenOffPage() {
 
     const reviewLd = {
         "@context": "https://schema.org",
-        "@type": "Product",
+        "@type": "Service",
         "name": "Written-Off Account Resolution",
         "image": "https://www.credsettle.com/credsettle-logo.svg",
         "description": "Legal advisory to convert dangerous written-off debt into formal, legally closed settlements.",
         "brand": {
             "@type": "Brand",
             "name": "CredSettle"
-        },
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "bestRating": "5",
-            "worstRating": "1",
-            "ratingCount": "2"
-        },
-        "review": [
-            {
-                "@type": "Review",
-                "author": {
-                    "@type": "Person",
-                    "name": "Karan Malhotra"
-                },
-                "datePublished": "2025-07-22",
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5"
-                },
-                "reviewBody": "I thought my credit card debt was gone when my CIBIL showed it as written off. A year later, a legal notice arrived. The lawyers here helped me convert that dangerous write-off into a formal settlement with an NOC."
-            },
-            {
-                "@type": "Review",
-                "author": {
-                    "@type": "Person",
-                    "name": "Neha Gupta"
-                },
-                "datePublished": "2026-01-14",
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5"
-                },
-                "reviewBody": "My CIBIL was stuck at 500 for years due to a 'Written-Off' personal loan. I couldn't get a home loan. The team negotiated a post-write-off settlement for me, legally closing the account so I could start rebuilding my credit."
-            }
-        ]
+        }
     };
 
     return (

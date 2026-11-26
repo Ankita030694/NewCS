@@ -242,23 +242,9 @@ export default function NegotiationGuideClient() {
     }))
   };
 
-  const reviewSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "Loan Settlement Negotiation Service",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "15420",
-      "bestRating": "5",
-      "worstRating": "1"
-    }
-  };
-
   return (
     <>
       <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <Script id="review-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
       {/* Breadcrumb Section */}
       <div className="bg-white border-b border-gray-100">

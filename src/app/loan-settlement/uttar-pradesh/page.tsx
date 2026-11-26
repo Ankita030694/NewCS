@@ -166,33 +166,6 @@ export default function UttarPradeshLoanSettlementPage() {
     ]
   };
 
-  const reviewSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "Loan Settlement Services Uttar Pradesh",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "reviewCount": "1340"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Amit Singh" },
-        "datePublished": "2025-12-15",
-        "reviewBody": "Great service in Noida. They settled my HDFC loan and stopped the recovery agents from coming to my office.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      },
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Priya Sharma" },
-        "datePublished": "2026-01-08",
-        "reviewBody": "I was very worried about the DRT notice in Lucknow. CredSettle handled it very professionally and got me a settlement.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      }
-    ]
-  };
-
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -235,11 +208,6 @@ export default function UttarPradeshLoanSettlementPage() {
         id="faq-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <Script
-        id="review-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
       />
       <Script
         id="breadcrumb-schema"

@@ -49,48 +49,7 @@ export default function CreditScorePage() {
       addressLocality: 'New Delhi',
       addressRegion: 'Delhi',
       addressCountry: 'IN'
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '1250',
-      bestRating: '5',
-      worstRating: '1'
-    },
-    review: [
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Vikram Singh'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'Following the advice on this page helped me increase my score from 680 to 812. Truly transformative!',
-        'itemReviewed': {
-          '@type': 'FinancialService',
-          'name': 'CredSettle'
-        }
-      },
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Priya Sharma'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'The credit utilization hacks are amazing. My score jumped 45 points in two months.',
-        'itemReviewed': {
-          '@type': 'FinancialService',
-          'name': 'CredSettle'
-        }
-      }
-    ]
+    }
   };
 
   const breadcrumbSchema = {

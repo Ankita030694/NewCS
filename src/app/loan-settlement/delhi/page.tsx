@@ -156,33 +156,6 @@ export default function DelhiLoanSettlementPage() {
     ]
   };
 
-  const reviewSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "Loan Settlement Services Delhi",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "1240"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Rahul Sharma" },
-        "datePublished": "2025-11-15",
-        "reviewBody": "Best service in Delhi. They helped me settle my ICICI credit card which was overdue for 2 years. Very professional team.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      },
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Priya Singh" },
-        "datePublished": "2026-01-10",
-        "reviewBody": "I was getting harassed daily by agents. CredSettle team stopped the calls within 48 hours. Highly recommended.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      }
-    ]
-  };
-
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -225,11 +198,6 @@ export default function DelhiLoanSettlementPage() {
         id="faq-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <Script
-        id="review-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
       />
       <Script
         id="breadcrumb-schema"

@@ -127,14 +127,9 @@ export default function RbiGuidelinesPage() {
 
     const reviewLd = {
         "@context": "https://schema.org",
-        "@type": "Product",
+        "@type": "Service",
         "name": "Legal Defence Against Recovery Agent Harassment",
-        "description": "Expert legal services to stop illegal recovery agent harassment and file complaints under RBI guidelines.",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": "3"
-        }
+        "description": "Expert legal services to stop illegal recovery agent harassment and file complaints under RBI guidelines."
     };
 
     return (

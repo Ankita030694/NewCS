@@ -237,70 +237,7 @@ export default function FailedPosDoubleChargePage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6240',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Siddharth Deshmukh'
-            },
-            datePublished: '2026-10-18',
-            reviewRating: {
-              '@type': 'Rating',
-              reviewRating: '5'
-            },
-            reviewBody:
-              'A petrol pump POS terminal timed out, and the attendant swiped my credit card twice for Rs 4,800. My bank billed both and charged finance fees. CredSettle cited RBI TAT circular RBI/2019-20/67. The bank reversed the second charge and credited Rs 3,200 delay compensation.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Pooja Agarwal'
-            },
-            datePublished: '2026-09-30',
-            reviewRating: {
-              '@type': 'Rating',
-              reviewRating: '5'
-            },
-            reviewBody:
-              'A supermarket swipe showed error, but Rs 12,500 was debited twice. The bank sat on my dispute for 42 days and reported a late payment to CIBIL. CredSettle took the case to the RBI Ombudsman. The bank cleared my CIBIL record and paid full Rs 100/day compensation.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Karthik Raman'
-            },
-            datePublished: '2026-09-12',
-            reviewRating: {
-              '@type': 'Rating',
-              reviewRating: '5'
-            },
-            reviewBody:
-              'I faced a double debit at an electronics store. The bank customer support insisted it was a merchant issue. CredSettle issued a formal legal notice under the PSS Act and Master Direction 2022. The entire duplicate bill was cancelled with zero penalty on me.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

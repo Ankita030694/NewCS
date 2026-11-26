@@ -132,17 +132,12 @@ const ChooseProviderClient = () => {
 
     const productSchema = {
         '@context': 'https://schema.org',
-        '@type': 'Product',
+        '@type': 'Service',
         'name': 'Debt Settlement Provider Verification Service',
         'description': 'Professional audit and verification of debt settlement agencies to ensure legal compliance and negotiation expertise.',
         'brand': {
             '@type': 'Brand',
             'name': 'CredSettle'
-        },
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '1240'
         }
     };
 

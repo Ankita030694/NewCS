@@ -150,25 +150,11 @@ export default function SettlementVsConsolidationClient() {
         },
         product: {
             '@context': 'https://schema.org',
-            '@type': 'Product',
+            '@type': 'Service',
             'name': 'Debt Resolution Strategy Analysis',
             'description': 'Comparing debt settlement and debt consolidation strategies for Indian borrowers to find the most sustainable path to financial freedom.',
             'image': 'https://www.credsettle.com/images/settlement-vs-consolidation-hero.jpg',
-            'brand': { '@type': 'Brand', 'name': 'CredSettle' },
-            'aggregateRating': {
-                '@type': 'AggregateRating',
-                'ratingValue': '4.8',
-                'reviewCount': '2100',
-                'bestRating': '5',
-                'worstRating': '1'
-            },
-            'review': {
-                '@type': 'Review',
-                'author': { '@type': 'Person', 'name': 'Rohan Deshmukh' },
-                'reviewRating': { '@type': 'Rating', 'ratingValue': '5', 'bestRating': '5', 'worstRating': '1' },
-                'reviewBody': 'I was torn between taking a fresh loan to pay off my cards or settling. This guide made me realize my score was already low, so settlement was the smarter mathematical move. I saved 3.5 lakhs!',
-                'datePublished': '2025-02-05'
-            }
+            'brand': { '@type': 'Brand', 'name': 'CredSettle' }
         },
         faq: {
             '@context': 'https://schema.org',
@@ -202,7 +188,7 @@ export default function SettlementVsConsolidationClient() {
             'logo': 'https://www.credsettle.com/logo.png',
             'contactPoint': {
                 '@type': 'ContactPoint',
-                'telephone': '+91-XXXXXXXXXX',
+                'telephone': '+91-8800226635',
                 'contactType': 'advisory'
             }
         }

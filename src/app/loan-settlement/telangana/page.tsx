@@ -156,33 +156,6 @@ export default function TelanganaLoanSettlementPage() {
     ]
   };
 
-  const reviewSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "Loan Settlement Services Telangana",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "reviewCount": "920"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Kiran Kumar" },
-        "datePublished": "2025-12-10",
-        "reviewBody": "CredSettle helped me clear my personal loan in Hyderabad. Their team handled everything professionally and I saved a lot on the final amount.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      },
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Deepa Reddy" },
-        "datePublished": "2026-01-15",
-        "reviewBody": "I was under a lot of stress due to recovery calls. They stopped the harassment and settled my credit card dues through Lok Adalat.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      }
-    ]
-  };
-
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -225,11 +198,6 @@ export default function TelanganaLoanSettlementPage() {
         id="faq-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <Script
-        id="review-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
       />
       <Script
         id="breadcrumb-schema"

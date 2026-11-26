@@ -62,7 +62,7 @@ export default function LoanRecoveryLawyerPage() {
         "logo": "https://www.credsettle.com/logo.png",
         "contactPoint": {
             "@type": "ContactPoint",
-            "telephone": "+91-XXXX-XXXXXX",
+            "telephone": "+91-8800226635",
             "contactType": "customer service"
         }
     };

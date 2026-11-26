@@ -195,18 +195,6 @@ export default function LoanSettlementEligibilityCriteriaClient() {
         <>
             <Script id="article-schema-eligibility" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
             <Script id="faq-schema-eligibility" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="product-schema-eligibility" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-                '@context': 'https://schema.org',
-                '@type': 'Product',
-                'name': 'Debt Settlement Eligibility Assessment Tool',
-                'aggregateRating': {
-                    '@type': 'AggregateRating',
-                    'ratingValue': '4.8',
-                    'reviewCount': '5120',
-                    'bestRating': '5',
-                    'worstRating': '1'
-                }
-            }) }} />
 
             {/* Hero Section */}
             <section

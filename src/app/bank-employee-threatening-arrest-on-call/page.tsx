@@ -54,27 +54,6 @@ export default function ThreateningArrestPage() {
         }
     ];
 
-    const reviews = [
-        {
-            name: "Sanjay R.",
-            location: "Mumbai",
-            rating: 5,
-            text: "I was terrified when a man claiming to be an inspector called me about my credit card dues. This guide helped me realize it was a scam. I recorded the next call and complained to the RBI. The calls stopped completely."
-        },
-        {
-            name: "Priya M.",
-            location: "Delhi",
-            rating: 5,
-            text: "The step by step checklist on how to handle these agents is incredibly useful. I asked for the caller's ID and he immediately hung up. Thank you for empowering borrowers."
-        },
-        {
-            name: "Vikram K.",
-            location: "Bengaluru",
-            rating: 5,
-            text: "I thought my life was over when they threatened to arrest me in front of my office. Reading the myth vs fact section gave me the confidence to stand up for my rights and negotiate a proper settlement."
-        }
-    ];
-
     const jsonLd = {
         "@context": "https://schema.org",
         "@type": "Article",
@@ -131,31 +110,6 @@ export default function ThreateningArrestPage() {
         }))
     };
 
-    const productSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Legal Guide: Handling Arrest Threats from Bank Employees',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '312',
-            'bestRating': '5',
-            'worstRating': '1'
-        },
-        'review': reviews.map(review => ({
-            '@type': 'Review',
-            'author': {
-                '@type': 'Person',
-                'name': review.name
-            },
-            'reviewRating': {
-                '@type': 'Rating',
-                'ratingValue': review.rating.toString()
-            },
-            'reviewBody': review.text
-        }))
-    };
-
     return (
         <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
@@ -174,11 +128,6 @@ export default function ThreateningArrestPage() {
                 id="faq-schema-arrest-threat"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-            />
-            <Script
-                id="product-schema-arrest-threat"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
             />
             <ThreateningArrestClient />
                         </div>

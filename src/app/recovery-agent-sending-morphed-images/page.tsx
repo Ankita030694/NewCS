@@ -53,27 +53,6 @@ export default function MorphedImagesPage() {
         }
     ];
 
-    const reviews = [
-        {
-            name: "Rajiv S.",
-            location: "Bangalore",
-            rating: 5,
-            text: "I was terrified when they sent a fake photo. This guide helped me realize I wasn\'t alone. I filed a cyber complaint and the messages stopped."
-        },
-        {
-            name: "Sneha M.",
-            location: "Pune",
-            rating: 5,
-            text: "The legal process map here is exactly what I needed. I informed my contacts immediately, and the scammers lost all their power over me."
-        },
-        {
-            name: "Vikram R.",
-            location: "Delhi",
-            rating: 5,
-            text: "Understanding the IT Act sections gave me the confidence to stand up to the blackmail. Excellent, actionable legal advice."
-        }
-    ];
-
     const jsonLd = {
         "@context": "https://schema.org",
         "@type": "Article",
@@ -129,7 +108,7 @@ export default function MorphedImagesPage() {
         ],
         "contactPoint": {
             "@type": "ContactPoint",
-            "telephone": "+91-XXXX-XXXXXX",
+            "telephone": "+91-8800226635",
             "contactType": "customer service",
             "areaServed": "IN",
             "availableLanguage": "English"
@@ -146,31 +125,6 @@ export default function MorphedImagesPage() {
                 '@type': 'Answer',
                 'text': faq.answer
             }
-        }))
-    };
-
-    const productSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Legal Support for Morphed Image Harassment',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '1120',
-            'bestRating': '5',
-            'worstRating': '1'
-        },
-        'review': reviews.map(review => ({
-            '@type': 'Review',
-            'author': {
-                '@type': 'Person',
-                'name': review.name
-            },
-            'reviewRating': {
-                '@type': 'Rating',
-                'ratingValue': review.rating.toString()
-            },
-            'reviewBody': review.text
         }))
     };
 
@@ -197,11 +151,6 @@ export default function MorphedImagesPage() {
                 id="faq-schema-morphed"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-            />
-            <Script
-                id="product-schema-morphed"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
             />
             <MorphedImagesClient />
                         </div>

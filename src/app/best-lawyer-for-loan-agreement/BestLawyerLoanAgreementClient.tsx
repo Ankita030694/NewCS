@@ -163,45 +163,16 @@ export default function BestLawyerLoanAgreementClient() {
         ],
         'contactPoint': {
             '@type': 'ContactPoint',
-            'telephone': '+91-XXXX-XXXXXX',
+            'telephone': '+91-8800226635',
             'contactType': 'customer service',
             'areaServed': 'IN',
             'availableLanguage': 'English'
         }
     };
 
-    const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Best Lawyer for Loan Agreement Services',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '1550',
-            'bestRating': '5',
-            'worstRating': '1'
-        },
-        'review': reviews.map(review => ({
-            '@type': 'Review',
-            'name': review.name,
-            'reviewBody': review.comment,
-            'reviewRating': {
-                '@type': 'Rating',
-                'ratingValue': review.stars.toString(),
-                'bestRating': '5',
-                'worstRating': '1'
-            },
-            'author': {
-                '@type': 'Person',
-                'name': review.name
-            }
-        }))
-    };
-
     return (
         <>
             <Script id="faq-schema-loan-agreement" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-loan-agreement" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
             <Script id="org-schema-loan-agreement" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
 
             {/* Hero Section */}

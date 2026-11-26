@@ -242,70 +242,7 @@ export default function PersonalLoanMaternityReliefPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Neha Kulkarni'
-            },
-            datePublished: '2026-10-28',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'After my 26-week paid maternity leave ended, I took a 6-month unpaid sabbatical due to my baby health needs. My private bank refused my branch call for lower EMIs. CredSettle drafted a formal hardship request with HR records and helped cut my EMI by 35% through tenure extension.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Priya Deshmukh'
-            },
-            datePublished: '2026-10-14',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'An NBFC recovery team started calling my husband and threatening home visits right after my C-section delivery. CredSettle sent a legal notice citing RBI recovery rules and stopped all calls within 48 hours while securing a fair 4-month interest-only plan.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Ananya Chatterjee'
-            },
-            datePublished: '2026-09-29',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'When my unpaid maternity leave turned into a full career break, I could not pay two personal loans totaling ₹7.5 Lakh. CredSettle audited the compounded late fees under RBI penal charge rules and closed both loans via verified OTS letters with a 52% waiver.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

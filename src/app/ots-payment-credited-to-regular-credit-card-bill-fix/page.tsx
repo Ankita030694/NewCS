@@ -223,52 +223,7 @@ export default function OtsPaymentCreditedRegularBillPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Rajeshwari Nair'
-            },
-            datePublished: '2026-10-12',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'I paid ₹85,000 under an official credit card OTS letter, but the bank credited it to my regular bill and kept adding 42% interest. CredSettle sent a legal notice citing Section 59 of the Contract Act and escalated to the PNO. Within 18 days, the bank reversed all extra charges and issued my NOC.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Siddharth Kulkarni'
-            },
-            datePublished: '2026-09-25',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My OTS tranche was treated as a partial card payment, and the bank threatened to cancel my settlement. CredSettle filed a structured complaint on the RBI CMS portal with my UTR proof. The Ombudsman directed the bank to honor the original OTS and rectify my CIBIL report.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

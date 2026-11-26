@@ -49,13 +49,6 @@ export default function ProfessionalDebtSettlementPage() {
       addressLocality: 'New Delhi',
       addressRegion: 'Delhi',
       addressCountry: 'IN'
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.8',
-      reviewCount: '1250',
-      bestRating: '5',
-      worstRating: '1'
     }
   };
 
@@ -95,32 +88,12 @@ export default function ProfessionalDebtSettlementPage() {
     }
   };
 
-  const reviewSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Review',
-    'itemReviewed': {
-      '@type': 'Service',
-      'name': 'Debt Settlement Services'
-    },
-    'author': {
-      '@type': 'Person',
-      'name': 'Suresh Kumar'
-    },
-    'reviewRating': {
-      '@type': 'Rating',
-      'ratingValue': '5',
-      'bestRating': '5'
-    },
-    'reviewBody': 'CredSettle helped me settle my personal loan debt when I was struggling with EMIs. Their professional approach is unmatched.'
-  };
-
   return (
     <div className="bg-gray-50 min-h-screen font-sans">
       <Navbar />
       <Script id="org-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-      <Script id="review-schema-1" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
       <section
         className="relative text-white pt-32 pb-24 px-4 md:px-8"

@@ -147,19 +147,6 @@ export default function RecoveryAbusePage() {
     ]
   };
 
-  const reviewSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    'name': 'Legal Debt Relief Services',
-    'aggregateRating': {
-      '@type': 'AggregateRating',
-      'ratingValue': '4.9',
-      'reviewCount': '1580',
-      'bestRating': '5',
-      'worstRating': '1'
-    }
-  };
-
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -184,7 +171,6 @@ export default function RecoveryAbusePage() {
       <Navbar />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <Script id="review-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* Hero Section - Following loan-settlement design */}

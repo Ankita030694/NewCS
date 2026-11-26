@@ -64,13 +64,6 @@ export default function RBLRecoveryVisitPage() {
     address: {
       '@type': 'PostalAddress',
       addressCountry: 'IN'
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.8',
-      reviewCount: '13245',
-      bestRating: '5',
-      worstRating: '1'
     }
   };
 

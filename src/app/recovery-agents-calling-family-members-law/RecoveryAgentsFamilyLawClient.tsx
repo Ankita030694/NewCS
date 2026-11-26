@@ -208,29 +208,9 @@ export default function RecoveryAgentsFamilyLawClient() {
 
     const reviewSchema = {
         '@context': 'https://schema.org',
-        '@type': 'Product',
+        '@type': 'Service',
         'name': 'Recovery Agents Calling Family Members: Legal Protection Guide',
-        'description': 'A comprehensive legal guide on protecting family members from debt recovery harassment and asserting privacy rights in India.',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '3800',
-            'bestRating': '5',
-            'worstRating': '1'
-        },
-        'review': reviews.map(review => ({
-            '@type': 'Review',
-            'author': {
-                '@type': 'Person',
-                'name': review.name
-            },
-            'reviewRating': {
-                '@type': 'Rating',
-                'ratingValue': review.stars.toString(),
-                'bestRating': '5'
-            },
-            'reviewBody': review.comment
-        }))
+        'description': 'A comprehensive legal guide on protecting family members from debt recovery harassment and asserting privacy rights in India.'
     };
 
     return (

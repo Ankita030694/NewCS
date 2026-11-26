@@ -49,13 +49,6 @@ export default function TrackingStatusPage() {
       addressLocality: 'Gurugram',
       addressRegion: 'Haryana',
       addressCountry: 'IN'
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '1250',
-      bestRating: '5',
-      worstRating: '1'
     }
   };
 

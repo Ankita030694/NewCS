@@ -136,44 +136,6 @@ export default function ProsConsClient() {
     }
   ];
 
-  const reviewSchemaData = [
-    {
-      '@type': 'Review',
-      'author': { '@type': 'Person', 'name': 'Vikram Singh' },
-      'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-      'reviewBody': 'CredSettle helped me settle my credit card debt of 8 lakhs for just 3.5 lakhs. The process was smooth and they handled all the calls from recovery agents.',
-      'itemReviewed': { '@type': 'FinancialService', 'name': 'CredSettle' }
-    },
-    {
-      '@type': 'Review',
-      'author': { '@type': 'Person', 'name': 'Priya Sharma' },
-      'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-      'reviewBody': 'I was overwhelmed by personal loans after the pandemic. AmaLegalSolutions provided great legal advice and helped me reach a settlement that I could actually afford.',
-      'itemReviewed': { '@type': 'FinancialService', 'name': 'AmaLegalSolutions' }
-    },
-    {
-      '@type': 'Review',
-      'author': { '@type': 'Person', 'name': 'Rahul Verma' },
-      'reviewRating': { '@type': 'Rating', 'ratingValue': '4' },
-      'reviewBody': 'SettleLoans was very transparent about the impact on my credit score. They didn’t make false promises and delivered what they said. Highly professional.',
-      'itemReviewed': { '@type': 'FinancialService', 'name': 'SettleLoans' }
-    },
-    {
-      '@type': 'Review',
-      'author': { '@type': 'Person', 'name': 'Anjali Gupta' },
-      'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-      'reviewBody': 'The peace of mind I got after hiring CredSettle is priceless. They stopped the harassment and settled my three bank accounts within six months.',
-      'itemReviewed': { '@type': 'FinancialService', 'name': 'CredSettle' }
-    },
-    {
-      '@type': 'Review',
-      'author': { '@type': 'Person', 'name': 'Suresh Menon' },
-      'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-      'reviewBody': 'Excellent service for debt relief in India. They know the banking system inside out. Saved me a lot of money and legal trouble.',
-      'itemReviewed': { '@type': 'FinancialService', 'name': 'CredSettle' }
-    }
-  ];
-
   const faqSchema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
@@ -192,15 +154,6 @@ export default function ProsConsClient() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          '@context': 'https://schema.org',
-          '@type': 'FinancialService',
-          'name': 'CredSettle',
-          'review': reviewSchemaData
-        }) }}
       />
       
       {/* Breadcrumb Section */}

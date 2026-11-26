@@ -242,70 +242,7 @@ export default function Section59ContractActPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Pradeep Deshmukh'
-            },
-            datePublished: '2026-10-29',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My NBFC parked my ₹1.2 Lakh lump-sum payment as Advance EMI instead of cutting my personal loan principal. CredSettle audited my loan ledger, cited RBI fair lending rules to the Nodal Officer, and got the full amount backdated to principal, saving me over ₹48,000 in interest.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Meenakshi Iyer'
-            },
-            datePublished: '2026-10-14',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'I held both a personal loan and a credit card with the same private bank. When I paid ₹85,000 to close my card, the bank split it across overdue fees on my loan. CredSettle sent a strict Section 59 Contract Act notice and forced the bank to reverse and honor my written direction.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Harshvardhan Nair'
-            },
-            datePublished: '2026-09-25',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My overdue personal loan was bloated with compounded penal interest that broke RBI guidelines. CredSettle separated the unlawful charges from my true principal and negotiated a clean One-Time Settlement with a full No Dues Certificate.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

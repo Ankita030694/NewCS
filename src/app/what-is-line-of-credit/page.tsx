@@ -126,19 +126,6 @@ export default function WhatIsLineOfCreditPage() {
         }))
     };
 
-    const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Line of Credit vs Personal Loan Guide',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '1450',
-            'bestRating': '5',
-            'worstRating': '1'
-        }
-    };
-
     return (
         <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
@@ -162,11 +149,6 @@ export default function WhatIsLineOfCreditPage() {
                 id="faq-schema-loc"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-            />
-            <Script
-                id="review-schema-loc"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
             />
             <WhatIsLineOfCreditClient faqs={faqs} reviews={reviews} />
                         </div>

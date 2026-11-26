@@ -113,15 +113,6 @@ export default function CryptoStockLossPage() {
         ]
       },
       {
-        "@type": "AggregateRating",
-        "itemReviewed": {
-          "@type": "Service",
-          "name": "Trading Debt Settlement Legal Advisory"
-        },
-        "ratingValue": "4.9",
-        "reviewCount": "3"
-      },
-      {
         "@type": "BreadcrumbList",
         "itemListElement": [
           {

@@ -239,52 +239,7 @@ export default function DpdpDataErasureLoanAppsPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6210',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Vikramaditya Rathore'
-            },
-            datePublished: '2026-10-22',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'A fintech loan app accessed my contacts and threatened to message my colleagues during a temporary job loss default. CredSettle served a legal notice under Section 12 of the DPDP Act 2023 and RBI Digital Lending Directions. The lender immediately halted contact calls and agreed to a 60% OTS settlement.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Meenakshi Sundaram'
-            },
-            datePublished: '2026-09-29',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'Even after closing an instant personal loan, the app kept sending spam and retained my gallery permissions. CredSettle drafted an enforceable data erasure notice citing DPDP rules and RBI Clause 10.3. Within 7 days, the NBFC confirmed full server-side data purging.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

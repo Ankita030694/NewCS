@@ -171,25 +171,12 @@ export default function BangaloreAgenciesClient() {
                 'https://www.twitter.com/credsettle',
                 'https://www.linkedin.com/company/credsettle'
             ]
-        },
-        review: {
-            '@context': 'https://schema.org',
-            '@type': 'Product',
-            'name': 'Bangalore Debt Relief Agencies Guide',
-            'aggregateRating': {
-                '@type': 'AggregateRating',
-                'ratingValue': '4.9',
-                'reviewCount': '3120',
-                'bestRating': '5',
-                'worstRating': '1'
-            }
         }
     };
 
     return (
         <>
             <Script id="faq-schema-bangalore" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.faq) }} />
-            <Script id="review-schema-bangalore" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.review) }} />
             <Script id="org-schema-bangalore" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.organization) }} />
 
             {/* Hero Section */}

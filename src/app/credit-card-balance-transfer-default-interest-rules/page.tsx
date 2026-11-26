@@ -237,70 +237,7 @@ export default function CreditCardBalanceTransferDefaultPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Rohan Deshmukh'
-            },
-            datePublished: '2026-10-28',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'I moved ₹2.1 Lakh to a 90-day low-rate balance transfer card, lost my job, and missed two bills. My rate jumped to 42% APR with unauthorized over-limit fees. CredSettle disputed the extra charges and closed my entire card debt for ₹95,000 via official OTS.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Meenakshi Iyer'
-            },
-            datePublished: '2026-10-04',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'When my 12-month Balance Transfer on EMI defaulted at 90 DPD, the bank foreclosed the plan and billed ₹1.85 Lakh in one lump sum. CredSettle handled recovery calls and negotiated a clean one-time settlement with a verified No Dues Certificate.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Sandeep Verma'
-            },
-            datePublished: '2026-09-12',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My bank compounded unpaid late fees and GST after revoking my promotional balance transfer rate. CredSettle cited RBI Master Direction rules to the Nodal Officer, got the unlawful fee compounding reversed, and closed my account smoothly.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

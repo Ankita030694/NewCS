@@ -156,33 +156,6 @@ export default function AndhraPradeshLoanSettlementPage() {
     ]
   };
 
-  const reviewSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "Loan Settlement Services Andhra Pradesh",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "reviewCount": "850"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Venkatesh Rao" },
-        "datePublished": "2025-11-20",
-        "reviewBody": "CredSettle helped me clear my credit card debt in Vizag. Very professional and stopped the calls immediately.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      },
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Lakshmi Narayana" },
-        "datePublished": "2026-01-05",
-        "reviewBody": "I was worried about legal action, but their team explained the Lok Adalat process clearly. Settled my personal loan with a good discount.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      }
-    ]
-  };
-
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -225,11 +198,6 @@ export default function AndhraPradeshLoanSettlementPage() {
         id="faq-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <Script
-        id="review-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
       />
       <Script
         id="breadcrumb-schema"

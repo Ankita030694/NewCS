@@ -56,33 +56,6 @@ export default function BusinessConsultantsPage() {
     }
   ];
 
-  const reviews = [
-    {
-        name: "Sunil Mehta",
-        location: "Tirupur (MSME Owner)",
-        rating: 5,
-        text: "AMA Legal Solutions saved my factory from SARFAESI auction. Their legal depth is unmatched in business debt cases."
-    },
-    {
-        name: "Deepak Goyal",
-        location: "Ludhiana",
-        rating: 5,
-        text: "CredSettle’s dashboard made managing 5 different business loans easy. Transparency was key for me."
-    },
-    {
-        name: "Vikram Singh",
-        location: "Indore",
-        rating: 5,
-        text: "SettleLoans got a 60% waiver on my unsecured business line. They understood the retail banking side perfectly."
-    },
-    {
-        name: "Meera Nair",
-        location: "Kochi",
-        rating: 5,
-        text: "Professional business settlement is key for survival. Don’t fight the bank alone. This guide helped me choose the right firm."
-    }
-  ];
-
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -137,7 +110,7 @@ export default function BusinessConsultantsPage() {
     ],
     "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+91-XXXX-XXXXXX",
+        "telephone": "+91-8800226635",
         "contactType": "customer service",
         "areaServed": "IN",
         "availableLanguage": "English"
@@ -154,31 +127,6 @@ export default function BusinessConsultantsPage() {
             '@type': 'Answer',
             'text': faq.answer
         }
-    }))
-  };
-
-  const productSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    'name': 'Top Rated Loan Settlement Consultants for Small Business Loans',
-    'aggregateRating': {
-        '@type': 'AggregateRating',
-        'ratingValue': '4.8',
-        'reviewCount': '2500',
-        'bestRating': '5',
-        'worstRating': '1'
-    },
-    'review': reviews.map(review => ({
-        '@type': 'Review',
-        'author': {
-            '@type': 'Person',
-            'name': review.name
-        },
-        'reviewRating': {
-            '@type': 'Rating',
-            'ratingValue': review.rating.toString()
-        },
-        'reviewBody': review.text
     }))
   };
 
@@ -203,11 +151,6 @@ export default function BusinessConsultantsPage() {
         id="faq-schema-business"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <Script
-        id="product-schema-business"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
       />
       <BusinessConsultantClient />
     </div>

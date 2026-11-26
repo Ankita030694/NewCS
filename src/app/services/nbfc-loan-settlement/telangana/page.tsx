@@ -73,17 +73,10 @@ const organizationSchema = {
       { '@type': 'City', name: 'Mahabubnagar' }
     ]
   },
-  telephone: '+91-XXXXXXXXXX',
+  telephone: '+91-8800226635',
   email: 'support@credsettle.com',
   priceRange: 'Consultation Free',
   serviceType: 'NBFC Loan Settlement',
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.8',
-    reviewCount: '5200',
-    bestRating: '5',
-    worstRating: '1'
-  },
   knowsAbout: [
     'NBFC loan settlement',
     'Telangana Lok Adalat settlement',

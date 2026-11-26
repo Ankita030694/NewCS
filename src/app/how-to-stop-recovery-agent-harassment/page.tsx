@@ -65,13 +65,6 @@ export default function RecoveryHarassmentPage() {
     address: {
       '@type': 'PostalAddress',
       addressCountry: 'IN'
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '18200',
-      bestRating: '5',
-      worstRating: '1'
     }
   };
 
@@ -128,34 +121,7 @@ export default function RecoveryHarassmentPage() {
       '@type': 'FinancialService',
       'name': 'CredSettle',
       'url': 'https://www.credsettle.com'
-    },
-    'aggregateRating': {
-      '@type': 'AggregateRating',
-      'ratingValue': '4.9',
-      'reviewCount': '18200',
-      'bestRating': '5',
-      'worstRating': '1'
-    },
-    'review': [
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Arjun Sharma' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'I was being harassed daily by multiple agents. CredSettle legal team stepped in and all calls stopped within 24 hours. Their knowledge of RBI rules is life-saving.'
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Priya Nair' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'Agents were calling my family and neighbors. CredSettle issued a formal legal notice, and the bank immediately shifted to professional communication. Highly recommended!'
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Sanjay Gupta' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'Beyond stopping the harassment, they helped me settle my three credit cards at 40% of the total value. They truly protect the borrower.'
-      }
-    ]
+    }
   };
 
   const faqSchema = {

@@ -243,70 +243,7 @@ export default function DuplicateSecuritisedLoanPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Prashant Kulkarni'
-            },
-            datePublished: '2026-10-22',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My ₹6 Lakh personal loan from a digital NBFC appeared twice on CIBIL after a direct assignment to a private bank. My home loan got rejected due to high FOIR. CredSettle served notices to both Nodal Officers and got the old duplicate line removed in 19 days.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Meenakshi Iyer'
-            },
-            datePublished: '2026-09-29',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'After my NBFC transferred its portfolio to an ARC, both firms reported the same loan as overdue on CIBIL and Equifax. CredSettle reconciled both account numbers, escalated to the RBI Ombudsman, deleted the duplicate hit, and recovered ₹2,800 in delay compensation.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Harvinder Gill'
-            },
-            datePublished: '2026-09-12',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'Even after I paid off my co-lent personal loan in full, the partner bank kept a shadow entry open on CRIF and CIBIL. CredSettle used my NDC and bank passbook to force clean bureau updates across all four bureaus within three weeks.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

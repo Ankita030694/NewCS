@@ -237,70 +237,7 @@ export default function MerchantRefundBlockedSettledCardPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Rohan Deshmukh'
-            },
-            datePublished: '2026-10-28',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'An airline refunded Rs 48,500 to a credit card I had closed six months earlier. Customer care claimed no money came in. CredSettle drafted a PNO notice with my 23-digit ARN citing the RBI Credit Card Master Direction, and the bank sent the full NEFT transfer in six days.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Meenakshi Iyer'
-            },
-            datePublished: '2026-10-09',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'After settling my card via OTS, an old hotel deposit refund of Rs 22,000 hit the closed card ledger. The bank tried to pocket it against waived interest. CredSettle proved I had cleared that bill a year before default and recovered my refund through the RBI CMS portal.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Sandeep Verma'
-            },
-            datePublished: '2026-09-19',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My card was blocked during OTS talks when a Rs 35,000 cancelled laptop order hit the statement. CredSettle audited the ledger so the refund lowered my principal first, saving me over Rs 18,000 in my final settlement deal.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

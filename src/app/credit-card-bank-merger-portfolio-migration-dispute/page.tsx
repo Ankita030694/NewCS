@@ -237,70 +237,7 @@ export default function CreditCardBankMigrationDisputePage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Siddharth Malhotra'
-            },
-            datePublished: '2026-10-14',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'After my foreign bank credit card migrated to an Indian private bank, both banks reported Rs 2.4 lakh outstanding on my CIBIL report, crashing my score by 68 points. CredSettle filed formal CICRA notices and got the duplicate tradeline deleted within 24 days.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Ananya Chatterjee'
-            },
-            datePublished: '2026-09-22',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My standing instruction failed right on the migration weekend and the new bank added late fees plus 42% APR finance charges. CredSettle escalated the glitch to the Principal Nodal Officer and secured a 100% reversal of fees and GST.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Karthik Subramanian'
-            },
-            datePublished: '2026-08-29',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'I had settled my old card before the portfolio buyout, yet recovery agents from the acquiring bank started calling me for the waived balance. CredSettle enforced my legacy OTS letter and got a fresh No Dues Certificate issued.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

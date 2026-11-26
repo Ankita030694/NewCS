@@ -155,19 +155,12 @@ export default function SmeLoanDisputeResolutionClient() {
 
     const productSchema = {
         '@context': 'https://schema.org',
-        '@type': 'Product',
+        '@type': 'Service',
         'name': 'SME Loan Dispute Resolution Service',
         'description': 'Comprehensive legal assistance for MSMEs in resolving complex loan disputes, including arbitration, non-wilful default defense, and recovery stay orders.',
         'brand': {
             '@type': 'Brand',
             'name': 'CredSettle'
-        },
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '3120',
-            'bestRating': '5',
-            'worstRating': '1'
         },
         'offers': {
             '@type': 'AggregateOffer',

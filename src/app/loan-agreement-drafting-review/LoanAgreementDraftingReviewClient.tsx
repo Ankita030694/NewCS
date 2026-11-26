@@ -156,19 +156,12 @@ export default function LoanAgreementDraftingReviewClient() {
 
     const productSchema = {
         '@context': 'https://schema.org',
-        '@type': 'Product',
+        '@type': 'Service',
         'name': 'Loan Agreement Drafting & Review Analysis',
         'description': 'Professional legal review and drafting of loan agreements to ensure transparency, fairness, and compliance with Indian lending laws.',
         'brand': {
             '@type': 'Brand',
             'name': 'CredSettle'
-        },
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '2450',
-            'bestRating': '5',
-            'worstRating': '1'
         },
         'offers': {
             '@type': 'AggregateOffer',

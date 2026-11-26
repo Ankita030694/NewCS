@@ -54,21 +54,6 @@ export default function Settle10LakhPage() {
         }
     ];
 
-    const reviews = [
-        {
-            name: "Siddharth R.",
-            location: "Mumbai",
-            rating: 5,
-            text: "I was overwhelmed by a 10 Lakh card debt after my business took a hit. This guide helped me understand the legal process map and negotiate a 50% waiver without facing any cheque bounce cases."
-        },
-        {
-            name: "Priya K.",
-            location: "Delhi",
-            rating: 5,
-            text: "The step-by-step checklist was exactly what I needed. I realized I was falling for a red flag when an agent asked for an upfront fee. I followed the proper channels and settled my dues legally."
-        }
-    ];
-
     const jsonLd = {
         "@context": "https://schema.org",
         "@type": "Article",
@@ -125,31 +110,6 @@ export default function Settle10LakhPage() {
         }))
     };
 
-    const productSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Settle 10 Lakh Credit Card Loan Guide',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '5.0',
-            'reviewCount': '2',
-            'bestRating': '5',
-            'worstRating': '1'
-        },
-        'review': reviews.map(review => ({
-            '@type': 'Review',
-            'author': {
-                '@type': 'Person',
-                'name': review.name
-            },
-            'reviewRating': {
-                '@type': 'Rating',
-                'ratingValue': review.rating.toString()
-            },
-            'reviewBody': review.text
-        }))
-    };
-
     return (
         <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
@@ -168,11 +128,6 @@ export default function Settle10LakhPage() {
                 id="faq-schema-10lakh-cc"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-            />
-            <Script
-                id="product-schema-10lakh-cc"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
             />
             <Settle10LakhClient />
                         </div>

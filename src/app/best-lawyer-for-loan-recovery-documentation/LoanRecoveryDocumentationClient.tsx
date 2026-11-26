@@ -117,11 +117,6 @@ export default function LoanRecoveryDocumentationClient() {
             'acceptedAnswer': { '@type': 'Answer', 'text': faq.answer }
         }))
     };
-    const reviewSchema = {
-        '@context': 'https://schema.org', '@type': 'Product',
-        'name': 'Best Lawyer for Loan Recovery Documentation',
-        'aggregateRating': { '@type': 'AggregateRating', 'ratingValue': '4.9', 'reviewCount': '2634', 'bestRating': '5', 'worstRating': '1' }
-    };
     const orgSchema = {
         '@context': 'https://schema.org', '@type': 'Organization',
         'name': 'CredSettle', 'url': 'https://www.credsettle.com',
@@ -138,7 +133,6 @@ export default function LoanRecoveryDocumentationClient() {
     ];
     return (<>
             <Script id="faq-schema-loan-recovery-docs" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}/>
-            <Script id="review-schema-loan-recovery-docs" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}/>
             <Script id="org-schema-loan-recovery-docs" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}/>
 
             {/* Hero */}

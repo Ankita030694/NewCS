@@ -109,37 +109,6 @@ export default function NRILoanSettlementPage() {
         ]
     };
 
-    const reviewLd = {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "NRI Remote Loan Settlement Service",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": "3"
-        },
-        "review": [
-            {
-                "@type": "Review",
-                "author": { "@type": "Person", "name": "Rajiv M." },
-                "reviewRating": { "@type": "Rating", "ratingValue": "5" },
-                "reviewBody": "I was terrified to visit my sick parents in India because recovery agents threatened to arrest me at the airport for a defaulted credit card. CredSettle debunked the LOC myth and settled the debt remotely for 40%."
-            },
-            {
-                "@type": "Review",
-                "author": { "@type": "Person", "name": "Anita P." },
-                "reviewRating": { "@type": "Rating", "ratingValue": "5" },
-                "reviewBody": "Living in Dubai, it was impossible to deal with the constant harassment from Indian banks. The legal team handled everything via Power of Attorney and secured my No Dues Certificate without me ever having to fly back."
-            },
-            {
-                "@type": "Review",
-                "author": { "@type": "Person", "name": "Sanjay D." },
-                "reviewRating": { "@type": "Rating", "ratingValue": "4.8" },
-                "reviewBody": "Very professional and transparent. They explained the civil nature of my default and stopped the illegal intimidation tactics immediately. Highly recommended for NRIs."
-            }
-        ]
-    };
-
     return (
         <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
@@ -158,11 +127,6 @@ export default function NRILoanSettlementPage() {
                 id="faq-schema-nri-loan"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
-            />
-            <Script
-                id="review-schema-nri-loan"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewLd) }}
             />
             <NRIClient />
                         </div>

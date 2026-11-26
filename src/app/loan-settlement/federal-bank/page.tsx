@@ -134,38 +134,16 @@ export default function FederalBankLoanSettlementPage() {
     ]
   };
 
-  // Schema for Review
+  // Service schema
   const reviewSchema = {
     "@context": "https://schema.org",
-    "@type": "Product",
+    "@type": "Service",
     "name": "Federal Bank Loan Settlement Services",
     "description": "Professional legal negotiation for Federal Bank settlements.",
     "brand": {
       "@type": "Brand",
       "name": "CredSettle"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "145",
-      "bestRating": "5",
-      "worstRating": "1"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": {
-          "@type": "Person",
-          "name": "Joseph Mathew"
-        },
-        "datePublished": "2025-11-20",
-        "reviewBody": "CredSettle helped me negotiate with the Zonal office for my business OD. Saved my collateral from SARFAESI action.",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5"
-        }
-      }
-    ]
+    }
   };
 
   return (

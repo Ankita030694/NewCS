@@ -109,19 +109,6 @@ export default function InterestRateRecalculatePage() {
         ]
     };
 
-    const reviewSchema = {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "Loan Prepayment Analysis Service",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": "1250",
-            "bestRating": "5",
-            "worstRating": "1"
-        }
-    };
-
     return (
         <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
@@ -140,11 +127,6 @@ export default function InterestRateRecalculatePage() {
                 id="faq-schema-prepayment"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-            />
-            <Script
-                id="review-schema-prepayment"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
             />
             <InterestRateRecalculateClient />
                         </div>

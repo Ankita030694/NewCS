@@ -242,70 +242,7 @@ export default function RbiFortnightlyBureauUpdatePage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Raghavendra Nair'
-            },
-            datePublished: '2026-10-19',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'I settled my ₹6 Lakh personal loan in early August, but my bank failed to report the closure across three reporting cycles. CredSettle sent a formal notice citing RBI fortnightly and July 2026 reporting rules. All four bureaus updated to zero overdue and I received ₹2,800 delay compensation.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Ananya Deshmukh'
-            },
-            datePublished: '2026-09-28',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'After paying my personal loan OTS, my NBFC claimed credit bureau updates take 90 days. CredSettle stepped in, cited the RBI Credit Information Reporting Master Direction, fixed a CKYC rejection in the batch upload, and got my CIBIL and Experian reports updated in 14 days.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Deepak Malhotra'
-            },
-            datePublished: '2026-08-22',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My settled personal loan stayed marked Active with rising DPD for two months after I received my NDC. CredSettle filed a structured dispute with UPI details, escalated to the RBI Ombudsman on Day 31, cleared my overdue balance, and recovered ₹3,400 under the ₹100 per day rule.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

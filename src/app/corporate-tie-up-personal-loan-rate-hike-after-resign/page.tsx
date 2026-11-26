@@ -242,70 +242,7 @@ export default function CorporateTieUpRateHikePage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Karthik Subramanian'
-            },
-            datePublished: '2026-10-14',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'After I left my IT firm in Bengaluru, my private bank raised my corporate tie-up personal loan rate from 10.8% to 14.5% without prior notice. CredSettle audited my KFS, proved there was no step-up clause, and got the rate rolled back with a ₹38,400 interest credit.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Meenakshi Deshmukh'
-            },
-            datePublished: '2026-09-26',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'An NBFC added a 3% penal rate hike after my salary account changed post-resignation and backdated it by four months. CredSettle escalated the breach under the RBI Penal Charges Circular and Fair Practices Code, winning a full refund through the Principal Nodal Officer.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Rohan Malhotra'
-            },
-            datePublished: '2026-08-29',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'During a tech layoff, my corporate salary overdraft rate jumped sharply and I could not pay the new EMI. CredSettle disputed the hidden repricing fee first and then negotiated a clean One-Time Settlement with a No Dues Certificate.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

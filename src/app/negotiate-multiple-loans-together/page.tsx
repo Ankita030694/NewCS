@@ -4,8 +4,6 @@ import Script from 'next/script';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import NegotiateMultipleLoansTogetherClient from './NegotiateMultipleLoansTogetherClient';
-import { companyStats } from '@/data/companyStats';
-import { testimonials } from '@/data/testimonials';
 
 export const metadata: Metadata = {
     title: "How to Negotiate and Settle Multiple Personal Loans Together",
@@ -123,34 +121,6 @@ export default function NegotiateMultipleLoansTogetherPage() {
         }))
     };
 
-    const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Multiple Loan Settlement Negotiation Service',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': companyStats.googleRating,
-            'reviewCount': companyStats.reviewCount,
-            'bestRating': '5',
-            'worstRating': '1'
-        },
-        'review': testimonials.map(review => ({
-            '@type': 'Review',
-            'author': {
-                '@type': 'Person',
-                'name': review.authorName
-            },
-            'datePublished': "2025-01-01",
-            'reviewRating': {
-                '@type': 'Rating',
-                'ratingValue': review.rating,
-                'bestRating': '5',
-                'worstRating': '1'
-            },
-            'reviewBody': review.text
-        }))
-    };
-
     const organizationSchema = {
         "@context": "https://schema.org",
         "@type": "Organization",
@@ -181,11 +151,6 @@ export default function NegotiateMultipleLoansTogetherPage() {
                     id="faq-schema-multiple-loans"
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-                />
-                <Script
-                    id="review-schema-multiple-loans"
-                    type="application/ld+json"
-                    dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
                 />
                 <Script
                     id="organization-schema-multiple-loans"

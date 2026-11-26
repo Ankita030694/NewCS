@@ -30,11 +30,6 @@ export default function LawyerByCity() {
         "provider": {
           "@type": "Organization",
           "name": "CredSettle"
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "reviewCount": "2450"
         }
       }
     ]

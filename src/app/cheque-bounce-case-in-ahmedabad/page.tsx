@@ -49,48 +49,7 @@ export default function ChequeBounceAhmedabadPage() {
       addressLocality: 'Ahmedabad',
       addressRegion: 'Gujarat',
       addressCountry: 'IN'
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '920',
-      bestRating: '5',
-      worstRating: '1'
-    },
-    review: [
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Chirag Shah'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'Outstanding legal support for my cheque bounce case in Gheekanta Court. The team was very professional and recovered my funds efficiently.',
-        'itemReviewed': {
-          '@type': 'LegalService',
-          'name': 'CredSettle'
-        }
-      },
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Megha Patel'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'I highly recommend their Section 138 experts. They handled the legal notice and Mirzapur court proceedings with great expertise.',
-        'itemReviewed': {
-          '@type': 'LegalService',
-          'name': 'CredSettle'
-        }
-      }
-    ]
+    }
   };
 
   const breadcrumbSchema = {

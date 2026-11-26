@@ -42,14 +42,7 @@ export default function TestimonialsPage() {
     name: 'CredSettle Debt Settlement Testimonials',
     url: 'https://www.credsettle.com',
     logo: 'https://www.credsettle.com/credsettle-logo.svg',
-    description: 'Genuine client reviews and testimonials for debt settlement services provided by CredSettle and partners.',
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.8',
-      reviewCount: '1250',
-      bestRating: '5',
-      worstRating: '1'
-    }
+    description: 'Genuine client reviews and testimonials for debt settlement services provided by CredSettle and partners.'
   };
 
   const breadcrumbSchema = {

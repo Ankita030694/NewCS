@@ -132,17 +132,12 @@ const FindAgencyNearMeClient = () => {
 
     const productSchema = {
         '@context': 'https://schema.org',
-        '@type': 'Product',
+        '@type': 'Service',
         'name': 'Local Debt Settlement Agency Finder',
         'description': 'Verified directory and legal support network for finding debt settlement agencies across major Indian cities.',
         'brand': {
             '@type': 'Brand',
             'name': 'CredSettle'
-        },
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.8',
-            'reviewCount': '950'
         }
     };
 

@@ -49,13 +49,6 @@ export default function FreelancerSettlementPage() {
       addressLocality: 'Gurugram',
       addressRegion: 'Haryana',
       addressCountry: 'IN'
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '1250',
-      bestRating: '5',
-      worstRating: '1'
     }
   };
 
@@ -103,50 +96,12 @@ export default function FreelancerSettlementPage() {
     }
   };
 
-  const reviewsSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'ItemList',
-    'itemListElement': [
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Anjali Sharma' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'As a freelance designer, my income is very unpredictable. CredSettle helped me settle 3 credit cards and a personal loan.'
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Vikram Singh' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'The legal expertise at AmaLegalSolutions was exactly what I needed. They protected me from harassment.'
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Rohan Mehta' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'I was skeptical about debt settlement apps, but SettleLoans made the process transparent and easy.'
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Sameer K.' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'Being self-employed meant I had no payslips to show for restructuring. CredSettle used my bank statements to prove hardship.'
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Priya D.' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'The best part was the stop in harassment. Once I joined, the recovery calls stopped almost immediately.'
-      }
-    ]
-  };
-
   return (
     <div className="bg-gray-50 min-h-screen font-sans">
       <Navbar />
       <Script id="org-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-      <Script id="reviews-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewsSchema) }} />
 
       <section
         className="relative text-white pt-32 pb-24 px-4 md:px-8"

@@ -157,33 +157,6 @@ export default function MaharashtraLoanSettlementPage() {
     ]
   };
 
-  const reviewSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "Loan Settlement Services Maharashtra",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "reviewCount": "850"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Sandeep Patil" },
-        "datePublished": "2025-12-10",
-        "reviewBody": "CredSettle team in Pune helped me settle all 3 credit cards for just 40% of the value. The relief of no recovery calls is priceless.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      },
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Anjali Deshmukh" },
-        "datePublished": "2026-01-05",
-        "reviewBody": "Professional service. They handled the legal notices I got from the bank. I didn’t have to go to court.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      }
-    ]
-  };
-
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -223,10 +196,6 @@ export default function MaharashtraLoanSettlementPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
       />
       <script
         type="application/ld+json"

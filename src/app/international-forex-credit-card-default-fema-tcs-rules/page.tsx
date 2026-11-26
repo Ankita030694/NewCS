@@ -237,70 +237,7 @@ export default function InternationalForexCardDefaultPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Karthik Subramanian'
-            },
-            datePublished: '2026-10-18',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'During an emergency hospital stay in Dubai, I swiped ₹3.2 Lakh on my Indian credit card. After losing my job, 3.5% forex fees and 42% APR pushed the bill to ₹5.1 Lakh, and agents threatened a FEMA case. CredSettle stopped the threats and settled the full INR bill for ₹1.95 Lakh with an official NOC.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Ananya Chatterjee'
-            },
-            datePublished: '2026-09-29',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My SaaS agency used two personal cards for US dollar ad spends before a key client went bust. Recovery callers claimed they would block my passport at immigration. CredSettle stepped in with legal notices and closed both cards through structured bank OTS deals.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Vikramjeet Gill'
-            },
-            datePublished: '2026-09-08',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'A European hotel double-charged my card with DCC fees, and late charges snowballed while my dispute dragged on. CredSettle invoked RBI Credit Card Master Direction rules, forced reversal of the unlawful penalties, and closed my remaining balance cleanly.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

@@ -119,49 +119,14 @@ export default function MsmeRestructuringPage() {
 
     const reviewLd = {
         "@context": "https://schema.org",
-        "@type": "Product",
+        "@type": "Service",
         "name": "MSME Loan Restructuring and Settlement Services",
         "image": "https://www.credsettle.com/credsettle-logo.svg",
         "description": "Expert legal and financial advisory for MSMEs facing working capital defaults and NPA classification.",
         "brand": {
             "@type": "Brand",
             "name": "CredSettle"
-        },
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "bestRating": "5",
-            "worstRating": "1",
-            "ratingCount": "2"
-        },
-        "review": [
-            {
-                "@type": "Review",
-                "author": {
-                    "@type": "Person",
-                    "name": "Rajesh Mehta"
-                },
-                "datePublished": "2025-11-20",
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5"
-                },
-                "reviewBody": "We thought our manufacturing unit was doomed when the bank issued an NPA notice. CredSettle guided us through the RBI restructuring framework, saving our factory from SARFAESI auction and reducing our EMIs by 40%."
-            },
-            {
-                "@type": "Review",
-                "author": {
-                    "@type": "Person",
-                    "name": "Sunita Aggarwal"
-                },
-                "datePublished": "2026-04-15",
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5"
-                },
-                "reviewBody": "Our retail business took a massive hit, and we couldn't service our CC limit. The legal team helped us negotiate an OTS that saved us over 50 lakhs, allowing us to pivot the business without the bank breathing down our necks."
-            }
-        ]
+        }
     };
 
     return (

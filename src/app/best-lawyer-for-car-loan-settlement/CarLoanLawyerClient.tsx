@@ -164,30 +164,16 @@ export default function CarLoanLawyerClient() {
         'logo': 'https://www.credsettle.com/logo.png',
         'contactPoint': {
             '@type': 'ContactPoint',
-            'telephone': '+91-9999-999999',
+            'telephone': '+91-8800226635',
             'contactType': 'customer service',
             'areaServed': 'IN',
             'availableLanguage': 'English'
         }
     };
 
-    const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Car Loan Settlement Legal Aid',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '2840',
-            'bestRating': '5',
-            'worstRating': '1'
-        }
-    };
-
     return (
         <div className="min-h-screen bg-white">
             <Script id="faq-schema-car-loan" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-car-loan" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
             <Script id="org-schema-car-loan" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
 
             {/* Hero Section */}

@@ -103,21 +103,8 @@ export default function WhatIsCreditPulseReportClient() {
             }
         }))
     };
-    const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Credit Pulse Report Financial Advisory',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '3800',
-            'bestRating': '5',
-            'worstRating': '1'
-        }
-    };
     return (<>
             <Script id="faq-schema-pulse" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}/>
-            <Script id="review-schema-pulse" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}/>
 
             {/* Hero Section */}
             <section className="relative text-white pt-32 pb-20 px-4 md:px-8 overflow-hidden" style={{

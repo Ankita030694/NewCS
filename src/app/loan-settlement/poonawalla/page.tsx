@@ -86,14 +86,9 @@ export default function PoonawallaLoanSettlementPage() {
 
   const reviewSchema = {
     "@context": "https://schema.org",
-    "@type": "Product",
+    "@type": "Service",
     "name": "Poonawalla Loan Settlement Service",
-    "description": "Legal settlement service for Poonawalla Fincorp and Magma Fincorp personal loans.",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "reviewCount": "215"
-    }
+    "description": "Legal settlement service for Poonawalla Fincorp and Magma Fincorp personal loans."
   };
 
   const breadcrumbSchema = {

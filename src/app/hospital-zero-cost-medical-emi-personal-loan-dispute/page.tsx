@@ -241,70 +241,7 @@ export default function HospitalMedicalEmiDisputePage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Rajeshwari Nair'
-            },
-            datePublished: '2026-10-14',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'A hospital desk signed us up for a ₹3.5 Lakh zero-cost medical EMI while our cashless claim was pending. After the insurer paid, the hospital delayed refunding the NBFC for two months. CredSettle served a joint legal notice under RBI KFS rules, closed the loan, and cleared my CIBIL report.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Pradeep Kulkarni'
-            },
-            datePublished: '2026-09-26',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My father was shifted to another hospital before surgery, yet the medical fintech NBFC kept deducting EMIs and charged ₹18,000 in hidden processing and subvention fees. CredSettle escalated the KFS breach to the Principal Nodal Officer and recovered the full unused deposit plus fee waivers.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Meenakshi Verma'
-            },
-            datePublished: '2026-08-19',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'After a long ICU stay left me unable to work for six months, a hospital point-of-care personal loan piled up heavy bounce charges. CredSettle stepped in, stopped recovery harassment, waived all illegal penal interest, and closed my account with an official NOC.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

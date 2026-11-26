@@ -242,70 +242,7 @@ export default function EdtechCoachingLoanCancellationPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Pradeep Deshmukh'
-            },
-            datePublished: '2026-10-18',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My son enrolled in a two-year JEE coaching batch funded through a ₹2.4 Lakh NBFC loan. The local branch shut down after five months, yet the NBFC kept pulling EMIs. CredSettle sent a joint legal notice citing RBI Digital Lending rules and helped us close the loan with a clean NOC.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Sneha Nair'
-            },
-            datePublished: '2026-09-24',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'An online coding bootcamp counselor signed me up for a Zero-Cost EMI without sharing a Key Facts Statement or loan copy. When I asked to exit in three days, both the app and lender stalled. CredSettle escalated the KFS breach to the Principal Nodal Officer and got the ₹1.8 Lakh loan cancelled.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Manish Agarwal'
-            },
-            datePublished: '2026-08-19',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'Our EdTech provider entered insolvency after taking full course money through a partner NBFC. Recovery agents began calling daily and damaged my CIBIL score. CredSettle stopped the harassment, negotiated a fair 55% waiver settlement with the lender, and restored my credit report cleanly.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

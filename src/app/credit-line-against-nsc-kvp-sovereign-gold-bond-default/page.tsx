@@ -237,30 +237,7 @@ export default function CreditLineNscKvpSgbDefaultPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6240',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Vikas Aggarwal'
-            },
-            datePublished: '2026-10-18',
-            reviewBody:
-              'CredSettle helped me recover over Rs 2.8 Lakh in surplus funds from my bank after they liquidated my Sovereign Gold Bonds without giving proper accounts. Highly professional team.',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

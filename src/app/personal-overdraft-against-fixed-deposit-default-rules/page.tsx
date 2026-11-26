@@ -242,70 +242,7 @@ export default function PersonalOverdraftAgainstFdPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Rajeshwari Kulkarni'
-            },
-            datePublished: '2026-10-22',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My private bank broke my ₹10 Lakh FD to close my overdraft after a margin breach and wrongly marked the account as Settled on CIBIL while holding back ₹68,400 surplus. CredSettle sent a strict legal notice citing RBI credit reporting rules, recovered my full surplus, and got my CIBIL status fixed to Closed.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Anirudh Chatterjee'
-            },
-            datePublished: '2026-09-28',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'A bank branch tried to break a joint Either or Survivor FD held with my retired father to clear my personal overdraft without his signed pledge. CredSettle cited the Supreme Court ruling in Anumati v. PNB to the Nodal Officer and stopped the illegal sweep immediately.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Deepak Malhotra'
-            },
-            datePublished: '2026-09-05',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'After I cleared my ₹4.5 Lakh FD overdraft from my salary account, the bank kept the lien on my FD locked for 48 days. CredSettle invoked RBI Circular DoR.MCS.REC.38 and secured both instant lien release and statutory delay compensation.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

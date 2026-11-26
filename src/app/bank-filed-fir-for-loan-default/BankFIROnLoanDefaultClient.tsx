@@ -208,29 +208,9 @@ export default function BankFIROnLoanDefaultClient() {
 
     const reviewSchema = {
         '@context': 'https://schema.org',
-        '@type': 'Product',
+        '@type': 'Service',
         'name': 'Bank Filed FIR for Loan Default: Legal Guide 2025',
-        'description': 'A comprehensive legal guide on defending against criminal FIRs filed by banks in loan default and financial fraud cases in India.',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.95',
-            'reviewCount': '3500',
-            'bestRating': '5',
-            'worstRating': '1'
-        },
-        'review': reviews.map(review => ({
-            '@type': 'Review',
-            'author': {
-                '@type': 'Person',
-                'name': review.name
-            },
-            'reviewRating': {
-                '@type': 'Rating',
-                'ratingValue': review.stars.toString(),
-                'bestRating': '5'
-            },
-            'reviewBody': review.comment
-        }))
+        'description': 'A comprehensive legal guide on defending against criminal FIRs filed by banks in loan default and financial fraud cases in India.'
     };
 
     return (

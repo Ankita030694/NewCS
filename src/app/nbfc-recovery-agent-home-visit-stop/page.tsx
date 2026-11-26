@@ -110,49 +110,14 @@ export default function NbfcRecoveryPage() {
 
     const reviewLd = {
         "@context": "https://schema.org",
-        "@type": "Product",
+        "@type": "Service",
         "name": "Anti-Harassment Legal Services",
         "image": "https://www.credsettle.com/credsettle-logo.svg",
         "description": "Legal protection services against illegal recovery agent harassment and unannounced home visits.",
         "brand": {
             "@type": "Brand",
             "name": "CredSettle"
-        },
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "bestRating": "5",
-            "worstRating": "1",
-            "ratingCount": "2"
-        },
-        "review": [
-            {
-                "@type": "Review",
-                "author": {
-                    "@type": "Person",
-                    "name": "Suresh Kumar"
-                },
-                "datePublished": "2025-10-12",
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5"
-                },
-                "reviewBody": "Agents from a major NBFC were showing up at my office and humiliating me in front of colleagues. The legal notice drafted by CredSettle stopped the visits instantly. They even helped me file a complaint with the RBI."
-            },
-            {
-                "@type": "Review",
-                "author": {
-                    "@type": "Person",
-                    "name": "Meera Joshi"
-                },
-                "datePublished": "2026-02-28",
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5"
-                },
-                "reviewBody": "I was terrified to open my front door because of constant unannounced visits. The lawyers here taught me exactly what documents to ask for, which made the fake agents run away. Highly recommend their services."
-            }
-        ]
+        }
     };
 
     return (

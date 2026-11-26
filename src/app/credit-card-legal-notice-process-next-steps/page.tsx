@@ -112,47 +112,6 @@ export default function CreditCardLegalNoticeProcessPage() {
         }))
     };
 
-    const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Credit Card Legal Notice Settlement Analysis',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '4120',
-            'bestRating': '5',
-            'worstRating': '1'
-        },
-        'review': [
-            {
-                '@type': 'Review',
-                'author': {
-                    '@type': 'Person',
-                    'name': 'Rahul Verma'
-                },
-                'datePublished': '2026-03-12',
-                'reviewBody': 'I received a terrifying WhatsApp notice claiming the police were coming to arrest me for my credit card default. CredSettle reviewed it, identified it as a fake intimidation tactic by a recovery agency, and helped me draft a strong legal reply. We eventually settled the card for 40% of the demanded amount.',
-                'reviewRating': {
-                    '@type': 'Rating',
-                    'ratingValue': '5'
-                }
-            },
-            {
-                '@type': 'Review',
-                'author': {
-                    '@type': 'Person',
-                    'name': 'Sneha Desai'
-                },
-                'datePublished': '2026-05-28',
-                'reviewBody': 'When the formal legal notice arrived from my bank, I thought it was over. The team at CredSettle stepped in immediately. They replied to the advocate, stopped the arbitration process in its tracks, and negotiated a structured payment plan that I could actually afford. Highly professional service.',
-                'reviewRating': {
-                    '@type': 'Rating',
-                    'ratingValue': '5'
-                }
-            }
-        ]
-    };
-
     return (
         <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
@@ -176,11 +135,6 @@ export default function CreditCardLegalNoticeProcessPage() {
                 id="faq-schema-cc-notice" 
                 type="application/ld+json" 
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} 
-            />
-            <Script 
-                id="review-schema-cc-notice" 
-                type="application/ld+json" 
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} 
             />
             <CreditCardLegalNoticeProcessClient />
                         </div>

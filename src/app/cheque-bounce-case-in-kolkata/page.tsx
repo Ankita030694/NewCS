@@ -49,48 +49,7 @@ export default function ChequeBouncePage() {
       addressLocality: 'Kolkata',
       addressRegion: 'West Bengal',
       addressCountry: 'IN'
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '850',
-      bestRating: '5',
-      worstRating: '1'
-    },
-    review: [
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Rajesh Mukherjee'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'Excellent service for my cheque bounce case in Bankshall Court. The legal notice was very professionally drafted.',
-        'itemReviewed': {
-          '@type': 'LegalService',
-          'name': 'CredSettle'
-        }
-      },
-      {
-        '@type': 'Review',
-        'author': {
-          '@type': 'Person',
-          'name': 'Ananya Das'
-        },
-        'reviewRating': {
-          '@type': 'Rating',
-          'ratingValue': '5'
-        },
-        'reviewBody': 'Highly recommend CredSettle for Section 138 cases. They helped me recover my dues from a tricky debtor in Alipur Court.',
-        'itemReviewed': {
-          '@type': 'LegalService',
-          'name': 'CredSettle'
-        }
-      }
-    ]
+    }
   };
 
   const breadcrumbSchema = {

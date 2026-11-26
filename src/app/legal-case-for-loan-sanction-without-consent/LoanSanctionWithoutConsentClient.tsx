@@ -155,19 +155,12 @@ export default function LoanSanctionWithoutConsentClient() {
 
     const productSchema = {
         '@context': 'https://schema.org',
-        '@type': 'Product',
+        '@type': 'Service',
         'name': 'Unauthorized Loan Fraud Defense',
         'description': 'Advanced legal defense against identity theft and unauthorized digital loan sanctions, providing FIR guidance and RBI Ombudsman escalation support.',
         'brand': {
             '@type': 'Brand',
             'name': 'CredSettle'
-        },
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.8',
-            'reviewCount': '2840',
-            'bestRating': '5',
-            'worstRating': '1'
         },
         'offers': {
             '@type': 'AggregateOffer',

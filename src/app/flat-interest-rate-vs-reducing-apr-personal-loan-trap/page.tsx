@@ -237,70 +237,7 @@ export default function FlatRateVsReducingPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '5820',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Siddharth Saxena'
-            },
-            datePublished: '2026-10-18',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'A fintech app advertised a personal loan at 9% flat rate, but my actual reducing APR worked out to nearly 17.5%, plus Rs 14,000 in unlisted insurance and processing fees. CredSettle issued a formal legal notice under RBI KFS rules, forcing the lender to refund the hidden fees and recompute my schedule on a fair reducing basis.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Pooja Venkatesh'
-            },
-            datePublished: '2026-09-30',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'An NBFC direct selling agent tricked me into signing a 5-year personal loan quoting a 11% flat rate, claiming it was cheaper than bank loans. When I realized the total interest was double, CredSettle escalated the mis-selling to the RBI Ombudsman, successfully settling the loan with a 60% waiver on inflated charges.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Manoj Chawla'
-            },
-            datePublished: '2026-09-12',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'I faced severe repayment stress due to misleading loan terms and recovery harassment. CredSettle protected my legal rights, stopped agent calls at odd hours, corrected my CIBIL default status, and helped me achieve complete debt closure through a structured One-Time Settlement.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

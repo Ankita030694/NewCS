@@ -172,26 +172,11 @@ export default function DoesForeclosureClient() {
     }
   ];
 
-  const reviewSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'AggregateRating',
-    'itemReviewed': {
-      '@type': 'Service',
-      'name': 'CredSettle Credit Consultation'
-    },
-    'ratingValue': '4.8',
-    'reviewCount': '1250'
-  };
-
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
       />
       
       <div className="bg-white border-b border-gray-200">

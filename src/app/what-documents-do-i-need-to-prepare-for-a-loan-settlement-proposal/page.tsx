@@ -56,33 +56,6 @@ export default function WhatDocumentsPage() {
     }
   ];
 
-  const reviews = [
-    {
-        name: "Rajesh Kumar",
-        location: "Delhi",
-        rating: 5,
-        text: "The hardship letter template saved my case. Bank accepted my settlement in 10 days after I attached my medical bills correctly."
-    },
-    {
-        name: "Sunita M.",
-        location: "Bangalore",
-        rating: 5,
-        text: "Gathering KYC is easy but proving income loss is where I struggled. CredSettle guided me on what bank statements to highlight."
-    },
-    {
-        name: "Anita G.",
-        location: "Mumbai",
-        rating: 5,
-        text: "Never pay without an OTS letter! I learned that here and it protected me from a fake offer. Professional advice is a must."
-    },
-    {
-        name: "Rohan P.",
-        location: "Chennai",
-        rating: 5,
-        text: "Professional approach to documentation is the only thing banks respect. This guide is 100% accurate for 2025."
-    }
-  ];
-
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -137,7 +110,7 @@ export default function WhatDocumentsPage() {
     ],
     "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+91-XXXX-XXXXXX",
+        "telephone": "+91-8800226635",
         "contactType": "customer service",
         "areaServed": "IN",
         "availableLanguage": "English"
@@ -154,31 +127,6 @@ export default function WhatDocumentsPage() {
             '@type': 'Answer',
             'text': faq.answer
         }
-    }))
-  };
-
-  const productSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    'name': 'Loan Settlement Documentation Service',
-    'aggregateRating': {
-        '@type': 'AggregateRating',
-        'ratingValue': '4.9',
-        'reviewCount': '2100',
-        'bestRating': '5',
-        'worstRating': '1'
-    },
-    'review': reviews.map(review => ({
-        '@type': 'Review',
-        'author': {
-            '@type': 'Person',
-            'name': review.name
-        },
-        'reviewRating': {
-            '@type': 'Rating',
-            'ratingValue': review.rating.toString()
-        },
-        'reviewBody': review.text
     }))
   };
 
@@ -203,11 +151,6 @@ export default function WhatDocumentsPage() {
         id="faq-schema-docs"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <Script
-        id="product-schema-docs"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
       />
       <WhatDocumentsClient />
     </div>

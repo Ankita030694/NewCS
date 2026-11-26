@@ -135,46 +135,12 @@ export default function BankCallingReferencesPage() {
     ]
   };
 
-  const reviewSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "CredSettle Anti-Harassment Service",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "12540"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": {"@type": "Person", "name": "Rahul Sharma"},
-        "datePublished": "2025-01-15",
-        "reviewBody": "CredSettle stopped HDFC recovery agents from calling my old parents within 48 hours. Life saver!",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5"
-        }
-      },
-      {
-        "@type": "Review",
-        "author": {"@type": "Person", "name": "Priya Verma"},
-        "datePublished": "2024-12-20",
-        "reviewBody": "I was suicidal due to app loan harassment. CredSettle’s legal team handled everything and got a 50% settlement.",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5"
-        }
-      }
-    ]
-  };
-
   return (
     <div className="bg-gray-50 min-h-screen">
       <Navbar />
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <Script id="review-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
       {/* Hero Section */}
       <section 

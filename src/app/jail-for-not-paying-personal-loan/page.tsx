@@ -110,49 +110,14 @@ export default function JailForLoanPage() {
 
     const reviewLd = {
         "@context": "https://schema.org",
-        "@type": "Product",
+        "@type": "Service",
         "name": "Anti-Extortion Legal Defence",
         "image": "https://www.credsettle.com/credsettle-logo.svg",
         "description": "Legal protection against fake FIRs, forged arrest warrants, and recovery agent extortion.",
         "brand": {
             "@type": "Brand",
             "name": "CredSettle"
-        },
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "bestRating": "5",
-            "worstRating": "1",
-            "ratingCount": "2"
-        },
-        "review": [
-            {
-                "@type": "Review",
-                "author": {
-                    "@type": "Person",
-                    "name": "Rahul Verma"
-                },
-                "datePublished": "2025-11-05",
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5"
-                },
-                "reviewBody": "I was suicidal after receiving a WhatsApp 'FIR' claiming the police were coming to arrest me in 2 hours for my personal loan. The lawyers here instantly identified it as a forgery and stopped the agents from ever calling again."
-            },
-            {
-                "@type": "Review",
-                "author": {
-                    "@type": "Person",
-                    "name": "Anita Desai"
-                },
-                "datePublished": "2026-03-18",
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5"
-                },
-                "reviewBody": "A man claiming to be a police inspector called and threatened my family over my son's loan app default. The team helped us file a real police complaint against the scammers for impersonation and extortion."
-            }
-        ]
+        }
     };
 
     return (

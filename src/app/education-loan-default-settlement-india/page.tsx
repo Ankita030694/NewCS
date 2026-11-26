@@ -118,49 +118,14 @@ export default function EducationLoanPage() {
 
     const reviewLd = {
         "@context": "https://schema.org",
-        "@type": "Product",
+        "@type": "Service",
         "name": "Education Loan Legal Advisory",
         "image": "https://www.credsettle.com/credsettle-logo.svg",
         "description": "Legal consultation and negotiation services for graduates and co-signers facing education loan defaults.",
         "brand": {
             "@type": "Brand",
             "name": "CredSettle"
-        },
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "bestRating": "5",
-            "worstRating": "1",
-            "ratingCount": "2"
-        },
-        "review": [
-            {
-                "@type": "Review",
-                "author": {
-                    "@type": "Person",
-                    "name": "Nikhil Sharma"
-                },
-                "datePublished": "2025-08-14",
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5"
-                },
-                "reviewBody": "I graduated during a hiring freeze and couldn't pay my EMIs. The bank started harassing my retired parents. The lawyers negotiated a 12-month moratorium extension based on unemployment proof, saving our family from immense stress."
-            },
-            {
-                "@type": "Review",
-                "author": {
-                    "@type": "Person",
-                    "name": "Priya Das"
-                },
-                "datePublished": "2026-01-22",
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5"
-                },
-                "reviewBody": "My education loan ballooned to an unmanageable amount due to compound interest while I was sick. They helped me negotiate a fair One Time Settlement so I could finally move on with my life without legal threats."
-            }
-        ]
+        }
     };
 
     return (

@@ -137,18 +137,6 @@ export default function AskingSettlementClient() {
           }
         }))
       }) }} />
-      <Script id="review-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "Bank Settlement Advisory Service",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "reviewCount": "18750",
-          "bestRating": "5",
-          "worstRating": "1"
-        }
-      }) }} />
 
       {/* Breadcrumb Section */}
       <div className="bg-white border-b border-gray-100">

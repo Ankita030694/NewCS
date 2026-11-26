@@ -153,35 +153,14 @@ export default function GovernmentApprovedServicesClient() {
 
     const productSchema = {
         "@context": "https://schema.org/",
-        "@type": "Product",
+        "@type": "Service",
         "name": "Loan Settlement Consultation",
         "image": "https://www.credsettle.com/hero-bg.png",
         "description": "Expert legal consultation for loan settlement in India following RBI guidelines.",
         "brand": {
             "@type": "Brand",
             "name": "CredSettle"
-        },
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "bestRating": "5",
-            "worstRating": "1",
-            "ratingCount": "2450"
-        },
-        "review": reviews.map(review => ({
-            "@type": "Review",
-            "author": {
-                "@type": "Person",
-                "name": review.name
-            },
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": review.stars,
-                "bestRating": "5",
-                "worstRating": "1"
-            },
-            "reviewBody": review.comment
-        }))
+        }
     };
 
     return (

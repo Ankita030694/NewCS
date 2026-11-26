@@ -210,29 +210,9 @@ export default function CanRecoveryAgentsHomeClient() {
 
     const reviewSchema = {
         '@context': 'https://schema.org',
-        '@type': 'Product',
+        '@type': 'Service',
         'name': 'Can Recovery Agents Come Home? Legal Rights Guide',
-        'description': 'A specialized legal guide on borrower privacy rights and home visit protocols for debt recovery agents in India.',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.8',
-            'reviewCount': '4100',
-            'bestRating': '5',
-            'worstRating': '1'
-        },
-        'review': reviews.map(review => ({
-            '@type': 'Review',
-            'author': {
-                '@type': 'Person',
-                'name': review.name
-            },
-            'reviewRating': {
-                '@type': 'Rating',
-                'ratingValue': review.stars.toString(),
-                'bestRating': '5'
-            },
-            'reviewBody': review.comment
-        }))
+        'description': 'A specialized legal guide on borrower privacy rights and home visit protocols for debt recovery agents in India.'
     };
 
     return (

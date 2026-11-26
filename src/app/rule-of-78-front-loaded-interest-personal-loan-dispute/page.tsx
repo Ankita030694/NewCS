@@ -243,70 +243,7 @@ export default function RuleOf78PersonalLoanPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Prashant Kulkarni'
-            },
-            datePublished: '2026-10-22',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'After paying 14 EMIs on my ₹4.5 Lakh NBFC personal loan, my foreclosure quote still asked for almost ₹3.75 Lakh. CredSettle compared my KFS amortization sheet against the foreclosure bill, spotted undisclosed front-loaded interest, and got ₹24,600 removed through the Principal Nodal Officer.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Meenakshi Iyer'
-            },
-            datePublished: '2026-10-05',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'A digital loan app used sum-of-digits interest math and added a 5% pre-closure fee that was never in my Key Facts Statement. CredSettle filed an RBI CMS complaint citing the April 2024 KFS circular. The lender waived the fee and refunded the excess interest in 19 days.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Harshvardhan Tiwari'
-            },
-            datePublished: '2026-09-14',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My flat-rate personal loan left me with huge unpaid principal after a salary cut. CredSettle audited the ledger, challenged the hidden penal charges under RBI guidelines, and negotiated a clean One-Time Settlement with a full No Dues Certificate.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

@@ -242,70 +242,7 @@ export default function VernacularLanguageLoanContractPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Rameshwar Patil'
-            },
-            datePublished: '2026-10-28',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'A DSA made me sign a 24-page English personal loan file without giving a Marathi KFS. They added Rs 38,000 in hidden insurance and high penal charges. CredSettle sent an RBI Fair Practices notice to the NBFC Nodal Officer, got the unfair fees reversed, and settled my dues cleanly.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Kavitha Subramanian'
-            },
-            datePublished: '2026-10-12',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My father signed a digital loan via OTP without a Tamil KFS or clear APR sheet. When the lender demanded double the amount, CredSettle escalated the RBI KFS breach on cms.rbi.org.in and helped us close the loan with a full No Dues Certificate.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Dinesh Yadav'
-            },
-            datePublished: '2026-09-25',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'An NBFC agent filled my Hindi vernacular declaration himself without ever reading the flat-to-reducing interest rate terms to me. CredSettle audited the signed papers, stopped recovery harassment, and secured a 55% waiver on the inflated penal balance.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

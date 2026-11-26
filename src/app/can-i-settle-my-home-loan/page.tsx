@@ -196,14 +196,7 @@ export default function CanISettleHomeLoanPage() {
     '@context': 'https://schema.org',
     '@type': 'FinancialService',
     '@id': 'https://www.credsettle.com/can-i-settle-my-home-loan',
-    'name': 'CredSettle Loan Settlement',
-    'aggregateRating': {
-      '@type': 'AggregateRating',
-      'ratingValue': '4.9',
-      'reviewCount': '3450',
-      'bestRating': '5',
-      'worstRating': '1'
-    }
+    'name': 'CredSettle Loan Settlement'
   };
 
   const settlementBankLinks = [

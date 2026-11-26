@@ -107,52 +107,6 @@ export default function Settle10LakhPage() {
         }))
     };
 
-    const reviews = [
-    {
-        "name": "Vikram S.",
-        "location": "Mumbai",
-        "rating": 5,
-        "text": "The insights on the 90-day escalation timeline were spot on. I knew exactly when to start my negotiation for my \u20b910 Lakh loan and managed a 45% settlement. Highly recommended guide."
-    },
-    {
-        "name": "Neha R.",
-        "location": "Delhi",
-        "rating": 5,
-        "text": "I was terrified of agents coming to my office. This guide gave me the legal backing to stop them and negotiate professionally. Thank you for the detailed cost breakdown."
-    },
-    {
-        "name": "Arjun K.",
-        "location": "Bangalore",
-        "rating": 5,
-        "text": "Brilliant breakdown of the tax implications. No one else talks about the tax on the waived amount. A must-read for anyone defaulting on large personal loans."
-    }
-];
-
-    const productSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Settling a ₹10 Lakh Personal Loan in India Guide',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.8',
-            'reviewCount': '3',
-            'bestRating': '5',
-            'worstRating': '1'
-        },
-        'review': reviews.map(review => ({
-            '@type': 'Review',
-            'author': {
-                '@type': 'Person',
-                'name': review.name
-            },
-            'reviewRating': {
-                '@type': 'Rating',
-                'ratingValue': review.rating.toString()
-            },
-            'reviewBody': review.text
-        }))
-    };
-
     return (
         <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
@@ -171,11 +125,6 @@ export default function Settle10LakhPage() {
                 id="faq-schema-10lakh"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-            />
-            <Script
-                id="product-schema-10lakh"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
             />
             <Settle10LakhClient />
                         </div>

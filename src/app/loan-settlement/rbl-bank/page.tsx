@@ -113,33 +113,6 @@ export default function RBLBankLoanSettlementPage() {
     ]
   };
 
-  const reviewSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "RBL Bank Loan Settlement Service",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "reviewCount": "640"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Vikram S." },
-        "datePublished": "2025-11-20",
-        "reviewBody": "Settled my RBL credit card with CredSettle. They reduced my ₹4 Lakh due to ₹1.8 Lakhs. Very professional.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      },
-      {
-        "@type": "Review",
-        "author": { "@type": "Person", "name": "Anjali K." },
-        "datePublished": "2025-12-05",
-        "reviewBody": "Helped me handle the arbitration notice from RBL. Stopped the harassment and closed the loan.",
-        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
-      }
-    ]
-  };
-
   return (
     <>
       <Navbar />
@@ -147,7 +120,6 @@ export default function RBLBankLoanSettlementPage() {
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <Script id="review-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
       <section 
         className="relative text-white pt-32 pb-20 px-4 md:px-8"

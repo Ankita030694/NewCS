@@ -112,30 +112,12 @@ export default function LoanRecoveryLawyerClient() {
         }))
     };
 
-    const reviewSchema = {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "Loan Recovery Legal Services",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": "2150",
-            "bestRating": "5",
-            "worstRating": "1"
-        }
-    };
-
     return (
         <div className="min-h-screen bg-white">
             <Script
                 id="faq-schema-loan-recovery"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-            />
-            <Script
-                id="review-schema-loan-recovery"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
             />
 
             {/* Hero Section */}

@@ -109,37 +109,6 @@ export default function SalaryAccountFrozenPage() {
         ]
     };
 
-    const reviewLd = {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "Bank Account Unfreeze Legal Support",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "reviewCount": "3"
-        },
-        "review": [
-            {
-                "@type": "Review",
-                "author": { "@type": "Person", "name": "Karan V." },
-                "reviewRating": { "@type": "Rating", "ratingValue": "5" },
-                "reviewBody": "My bank wiped out my entire salary on payday due to a missed personal loan EMI. CredSettle stepped in, filed a legal notice citing RBI guidelines on subsistence, and forced the bank to unfreeze my funds within 48 hours."
-            },
-            {
-                "@type": "Review",
-                "author": { "@type": "Person", "name": "Neha S." },
-                "reviewRating": { "@type": "Rating", "ratingValue": "5" },
-                "reviewBody": "I was terrified when I saw my account balance hit zero. The lawyers explained the Banker's Right of Lien clearly and helped me negotiate a restructuring plan so I could actually afford to live while paying my debt."
-            },
-            {
-                "@type": "Review",
-                "author": { "@type": "Person", "name": "Vikram T." },
-                "reviewRating": { "@type": "Rating", "ratingValue": "4.5" },
-                "reviewBody": "Excellent advice on changing salary accounts and handling NACH revocation. They saved me from a very stressful financial trap set by my lending bank."
-            }
-        ]
-    };
-
     return (
         <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
@@ -158,11 +127,6 @@ export default function SalaryAccountFrozenPage() {
                 id="faq-schema-salary-frozen"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
-            />
-            <Script
-                id="review-schema-salary-frozen"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewLd) }}
             />
             <FrozenAccountClient />
                         </div>

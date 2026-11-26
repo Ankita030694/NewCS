@@ -138,57 +138,11 @@ export default function TestimonialsClient() {
     }))
   };
 
-  const reviewSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'CollectionPage',
-    'mainEntity': [
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Amit Sharma' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'CredSettle helped me settle three credit cards. Their negotiation team is top-notch.',
-        'itemReviewed': { '@type': 'LocalBusiness', 'name': 'CredSettle' }
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Priya Nair' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'AmaLegalSolutions stopped the harassment from agents immediately. Highly professional.',
-        'itemReviewed': { '@type': 'LocalBusiness', 'name': 'AmaLegalSolutions' }
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Rahul Verma' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '4' },
-        'reviewBody': 'SettleLoans took 6 months but they got me a 60% discount on my personal loan.',
-        'itemReviewed': { '@type': 'LocalBusiness', 'name': 'SettleLoans' }
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Sneha Gupta' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'The peace of mind CredSettle gave me is priceless. I am now debt-free.',
-        'itemReviewed': { '@type': 'LocalBusiness', 'name': 'CredSettle' }
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Vikram Singh' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'Great service from the legal team at AmaLegalSolutions. They know the RBI rules well.',
-        'itemReviewed': { '@type': 'LocalBusiness', 'name': 'AmaLegalSolutions' }
-      }
-    ]
-  };
-
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
       />
       
       <div className="bg-white border-b border-gray-200">

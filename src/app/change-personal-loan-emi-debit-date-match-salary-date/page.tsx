@@ -242,70 +242,7 @@ export default function ChangePersonalLoanEmiDatePage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Nikhil Deshmukh'
-            },
-            datePublished: '2026-10-22',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'After switching my IT job, my salary moved from the 1st to the 8th, causing four straight NACH bounces on the 5th. An NBFC kept hitting my account three times a month and sent a Section 25 notice. CredSettle challenged the illegal bounce fees with the PNO, got Rs 14,800 reversed, and helped me align my payment schedule.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Priyanka Nair'
-            },
-            datePublished: '2026-09-30',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My bank approved my EMI date shift from the 4th to the 10th but forgot to cancel the old NACH mandate. The old debit bounced and ruined my CIBIL report. CredSettle filed a clean complaint on cms.rbi.org.in, got the DPD mark removed, and recovered the return charges.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Arvind Kulkarni'
-            },
-            datePublished: '2026-09-12',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My employer changed payroll dates during a tough quarter, and two loan apps refused to shift my due dates while piling up compounding penal interest. CredSettle stepped in under the RBI penal charges rule, stopped recovery calls, and resolved both loans cleanly.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

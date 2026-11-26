@@ -157,19 +157,6 @@ export default function HomeLoanCheckBounceClient() {
         }
     };
 
-    const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Best Lawyer for Home Loan Cheque Bounce Case',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '2847',
-            'bestRating': '5',
-            'worstRating': '1'
-        }
-    };
-
     const relatedPages = [
         { href: '/best-check-bounce-lawyer-for-loan-case', label: 'Best Check Bounce Lawyer for Loan Case' },
         { href: '/best-lawyer-for-bank-loan-recovery-defence', label: 'Best Lawyer for Bank Loan Recovery Defence' },
@@ -182,7 +169,6 @@ export default function HomeLoanCheckBounceClient() {
     return (
         <>
             <Script id="faq-schema-home-loan-cheque-bounce" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-home-loan-cheque-bounce" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
             <Script id="org-schema-home-loan-cheque-bounce" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
 
             {/* Hero Section */}

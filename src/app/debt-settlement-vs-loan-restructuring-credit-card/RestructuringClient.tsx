@@ -159,29 +159,6 @@ export default function RestructuringClient() {
     }))
   };
 
-  const reviewSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    'name': 'CredSettle Debt Services',
-    'aggregateRating': {
-      '@type': 'AggregateRating',
-      'ratingValue': '4.8',
-      'reviewCount': reviews.length.toString()
-    },
-    'review': reviews.map(review => ({
-      '@type': 'Review',
-      'author': {
-        '@type': 'Person',
-        'name': review.author
-      },
-      'reviewRating': {
-        '@type': 'Rating',
-        'ratingValue': review.rating.toString()
-      },
-      'reviewBody': review.text
-    }))
-  };
-
   const howToSchema = {
     '@context': 'https://schema.org',
     '@type': 'HowTo',
@@ -214,10 +191,6 @@ export default function RestructuringClient() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
       />
       <script
         type="application/ld+json"

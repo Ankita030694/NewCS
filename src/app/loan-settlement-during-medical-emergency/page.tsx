@@ -108,37 +108,6 @@ export default function MedicalEmergencyPage() {
         ]
     };
 
-    const reviewLd = {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "Medical Hardship Loan Settlement Assistance",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": "3"
-        },
-        "review": [
-            {
-                "@type": "Review",
-                "author": { "@type": "Person", "name": "Deepak R." },
-                "reviewRating": { "@type": "Rating", "ratingValue": "5" },
-                "reviewBody": "When my father was in the ICU, recovery agents kept calling non stop. The legal team drafted a strong compassionate grounds letter to the GRO, halting the harassment instantly and settling the debt for a fraction of the cost."
-            },
-            {
-                "@type": "Review",
-                "author": { "@type": "Person", "name": "Meera K." },
-                "reviewRating": { "@type": "Rating", "ratingValue": "5" },
-                "reviewBody": "I lost my income due to a severe accident. CredSettle helped me submit my medical records to the bank and secured a 6 month moratorium followed by a very reasonable settlement. True lifesavers."
-            },
-            {
-                "@type": "Review",
-                "author": { "@type": "Person", "name": "Amit B." },
-                "reviewRating": { "@type": "Rating", "ratingValue": "4.8" },
-                "reviewBody": "Excellent guidance on how to format the hardship letter and which specific medical documents the bank's credit team needs to approve a deep discount."
-            }
-        ]
-    };
-
     return (
         <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
@@ -157,11 +126,6 @@ export default function MedicalEmergencyPage() {
                 id="faq-schema-medical-emergency"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
-            />
-            <Script
-                id="review-schema-medical-emergency"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewLd) }}
             />
             <MedicalEmergencyClient />
                         </div>

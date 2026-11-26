@@ -139,11 +139,10 @@ const CollectionCallsClient = () => {
         },
         product: {
             '@context': 'https://schema.org',
-            '@type': 'Product',
+            '@type': 'Service',
             'name': 'Debt Harassment Protection & Settlement Advice',
             'description': 'A specialized service provided by CredSettle to help Indian borrowers manage collection calls and protect their legal rights during debt settlement.',
-            'brand': { '@type': 'Brand', 'name': 'CredSettle' },
-            'aggregateRating': { '@type': 'AggregateRating', 'ratingValue': '4.9', 'reviewCount': '3450' }
+            'brand': { '@type': 'Brand', 'name': 'CredSettle' }
         },
         faq: {
             '@context': 'https://schema.org',

@@ -155,19 +155,12 @@ export default function BusinessCorporateLoanMattersClient() {
 
     const productSchema = {
         '@context': 'https://schema.org',
-        '@type': 'Product',
+        '@type': 'Service',
         'name': 'Business & Corporate Loan Matters Advisory',
         'description': 'Strategic legal counsel for complex corporate debt, IBC 2025 compliance, NCLT insolvency proceedings, and multi-creditor restructuring for Indian businesses.',
         'brand': {
             '@type': 'Brand',
             'name': 'CredSettle'
-        },
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.8',
-            'reviewCount': '3120',
-            'bestRating': '5',
-            'worstRating': '1'
         },
         'offers': {
             '@type': 'AggregateOffer',

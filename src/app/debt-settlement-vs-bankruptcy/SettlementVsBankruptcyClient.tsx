@@ -138,11 +138,10 @@ const SettlementVsBankruptcyClient = () => {
         },
         product: {
             '@context': 'https://schema.org',
-            '@type': 'Product',
+            '@type': 'Service',
             'name': 'Insolvency and Debt Strategy Consultation',
             'description': 'Professional comparison and strategy implementation for borrowers choosing between debt settlement and bankruptcy in India.',
-            'brand': { '@type': 'Brand', 'name': 'CredSettle' },
-            'aggregateRating': { '@type': 'AggregateRating', 'ratingValue': '4.8', 'reviewCount': '2100' }
+            'brand': { '@type': 'Brand', 'name': 'CredSettle' }
         },
         faq: {
             '@context': 'https://schema.org',

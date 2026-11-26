@@ -86,36 +86,6 @@ export default function Tier1Template({ bankName, slug }: { bankName: string; sl
     ]
   };
 
-  const reviewSchema = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": `${bankName} Credit Card Settlement Services`,
-    "brand": {
-      "@type": "Brand",
-      "name": "CredSettle"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "reviewCount": "1840"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": {
-          "@type": "Person",
-          "name": "Arjun Patel"
-        },
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5"
-        },
-        "reviewBody": `My ${bankName} credit card debt skyrocketed due to medical bills. CredSettle handled everything, stopping the recovery calls in 2 days and settling the debt for less than half.`
-      }
-    ]
-  };
-
   const tocSections = [
     { id: "why-settle", text: `Why Settle ${bankName} Card Debt`, level: 2 },
     { id: "credsettle-process", text: `How CredSettle Protects You`, level: 3 },
@@ -140,7 +110,6 @@ export default function Tier1Template({ bankName, slug }: { bankName: string; sl
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <Breadcrumbs items={breadcrumbItems} />

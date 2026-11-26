@@ -110,47 +110,6 @@ export default function HowToRegularisePage() {
         ]
     };
 
-    const reviewSchema = {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "NPA Regularisation Legal Guidance",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": "2150",
-            "bestRating": "5",
-            "worstRating": "1"
-        },
-        "review": [
-            {
-                "@type": "Review",
-                "author": {
-                    "@type": "Person",
-                    "name": "Suresh Nair"
-                },
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5",
-                    "bestRating": "5"
-                },
-                "reviewBody": "My home loan was declared an NPA and I thought I would lose my house to the SARFAESI notice. CredSettle explained exactly how to calculate the critical arrears. Once I paid that specific amount, the bank had to regularise my loan account. My property is safe and my account is Standard again."
-            },
-            {
-                "@type": "Review",
-                "author": {
-                    "@type": "Person",
-                    "name": "Priya Sharma"
-                },
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5",
-                    "bestRating": "5"
-                },
-                "reviewBody": "I had no idea that I could upgrade my NPA to a standard account without closing the entire massive principal amount. Clearing just the overdue arrears saved my business from being ruined by aggressive recovery agents. Highly recommend their strategic guidance."
-            }
-        ]
-    };
-
     return (
         <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
@@ -169,11 +128,6 @@ export default function HowToRegularisePage() {
                 id="faq-schema-regularise"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-            />
-            <Script
-                id="review-schema-regularise"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
             />
             <HowToRegulariseClient />
                         </div>

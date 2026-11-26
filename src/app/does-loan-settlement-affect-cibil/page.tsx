@@ -65,13 +65,6 @@ export default function LoanSettlementCIBILPage() {
     address: {
       '@type': 'PostalAddress',
       addressCountry: 'IN'
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '16200',
-      bestRating: '5',
-      worstRating: '1'
     }
   };
 
@@ -128,34 +121,7 @@ export default function LoanSettlementCIBILPage() {
       '@type': 'FinancialService',
       'name': 'CredSettle',
       'url': 'https://www.credsettle.com'
-    },
-    'aggregateRating': {
-      '@type': 'AggregateRating',
-      'ratingValue': '4.9',
-      'reviewCount': '16200',
-      'bestRating': '5',
-      'worstRating': '1'
-    },
-    'review': [
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Anil Deshmukh' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'CredSettle explained exactly how my settlement would appear on CIBIL. No false promises, just honest legal advice and a great settlement deal.'
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Priya Sharma' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'I was worried about my future credit score. The team helped me settle and also gave me an 18 month plan to start rebuilding my CIBIL.'
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Karthik Rao' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'Most transparent debt relief company. They clearly stated the pros and cons of settlement regarding CIBIL reporting.'
-      }
-    ]
+    }
   };
 
   const faqSchema = {

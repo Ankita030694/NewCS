@@ -139,25 +139,11 @@ const SmallDebtsClient = () => {
         },
         product: {
             '@context': 'https://schema.org',
-            '@type': 'Product',
+            '@type': 'Service',
             'name': 'Small Debt Repayment & Alternatives Strategy',
             'description': 'Expert counseling and alternative strategies for managing and repaying debts under ₹2 Lakhs in India without the long-term impact of settlement.',
             'image': 'https://www.credsettle.com/images/small-debts-hero.jpg',
-            'brand': { '@type': 'Brand', 'name': 'CredSettle' },
-            'aggregateRating': {
-                '@type': 'AggregateRating',
-                'ratingValue': '4.9',
-                'reviewCount': '2450',
-                'bestRating': '5',
-                'worstRating': '1'
-            },
-            'review': {
-                '@type': 'Review',
-                'author': { '@type': 'Person', 'name': 'Preethi Srinivas' },
-                'reviewRating': { '@type': 'Rating', 'ratingValue': '5', 'bestRating': '5', 'worstRating': '1' },
-                'reviewBody': 'I had four small credit card debts under ₹50,000 each. Instead of settlement, CredSettle advised a consolidation. My EMI dropped by 40% and my CIBIL score is already recovering. Best advice I ever got.',
-                'datePublished': '2025-01-15'
-            }
+            'brand': { '@type': 'Brand', 'name': 'CredSettle' }
         },
         faq: {
             '@context': 'https://schema.org',
@@ -191,7 +177,7 @@ const SmallDebtsClient = () => {
             'logo': 'https://www.credsettle.com/logo.png',
             'contactPoint': {
                 '@type': 'ContactPoint',
-                'telephone': '+91-XXXXXXXXXX',
+                'telephone': '+91-8800226635',
                 'contactType': 'customer service'
             }
         }

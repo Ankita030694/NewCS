@@ -117,21 +117,8 @@ export default function MultipleLoanClient() {
             }
         }))
     };
-    const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Consolidated Loan Settlement Strategy',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '912',
-            'bestRating': '5',
-            'worstRating': '1'
-        }
-    };
     return (<>
             <Script id="faq-schema-multiple-loans" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}/>
-            <Script id="review-schema-multiple-loans" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}/>
 
             {/* Hero Section */}
             <section className="relative text-white pt-32 pb-20 px-4 md:px-8 overflow-hidden" style={{

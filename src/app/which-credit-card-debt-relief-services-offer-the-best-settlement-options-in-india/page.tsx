@@ -49,13 +49,6 @@ export default function DebtReliefPage() {
       addressLocality: 'New Delhi',
       addressRegion: 'Delhi',
       addressCountry: 'IN'
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.8',
-      reviewCount: '1240',
-      bestRating: '5',
-      worstRating: '1'
     }
   };
 
@@ -96,55 +89,12 @@ export default function DebtReliefPage() {
     }
   };
 
-  const reviewSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'ItemList',
-    'itemListElement': [
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Amit Verma' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'CredSettle helped me settle three credit cards with a 60% discount. Their legal team stopped the annoying recovery calls immediately.',
-        'itemReviewed': { '@type': 'FinancialService', 'name': 'CredSettle' }
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Priya Sharma' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'Transparent process and very supportive staff. They explained the CIBIL impact clearly and helped me get a fresh start.',
-        'itemReviewed': { '@type': 'FinancialService', 'name': 'CredSettle' }
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Vikram Singh' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '4' },
-        'reviewBody': 'Excellent negotiation skills. They managed to get a one-time settlement for my HDFC card which I thought was impossible.',
-        'itemReviewed': { '@type': 'FinancialService', 'name': 'CredSettle' }
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Sneha Reddy' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'If you are overwhelmed by debt, these guys are the best. They handle everything from legal notices to final negotiations.',
-        'itemReviewed': { '@type': 'FinancialService', 'name': 'CredSettle' }
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Rahul Gupta' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'Highly recommend CredSettle for anyone facing harassment from recovery agents. They know the RBI guidelines inside out.',
-        'itemReviewed': { '@type': 'FinancialService', 'name': 'CredSettle' }
-      }
-    ]
-  };
-
   return (
     <div className="bg-gray-50 min-h-screen font-sans">
       <Navbar />
       <Script id="org-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-      <Script id="review-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
       <section
         className="relative text-white pt-32 pb-24 px-4 md:px-8"

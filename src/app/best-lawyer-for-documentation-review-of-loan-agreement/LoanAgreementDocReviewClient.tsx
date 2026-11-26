@@ -123,12 +123,6 @@ export default function LoanAgreementDocReviewClient() {
         }))
     };
 
-    const reviewSchema = {
-        '@context': 'https://schema.org', '@type': 'Product',
-        'name': 'Best Lawyer for Documentation Review of Loan Agreement',
-        'aggregateRating': { '@type': 'AggregateRating', 'ratingValue': '4.9', 'reviewCount': '2189', 'bestRating': '5', 'worstRating': '1' }
-    };
-
     const orgSchema = {
         '@context': 'https://schema.org', '@type': 'Organization',
         'name': 'CredSettle', 'url': 'https://www.credsettle.com',
@@ -148,7 +142,6 @@ export default function LoanAgreementDocReviewClient() {
     return (
         <>
             <Script id="faq-schema-loan-agreement-review" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-loan-agreement-review" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
             <Script id="org-schema-loan-agreement-review" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }} />
 
             {/* Hero */}

@@ -145,32 +145,14 @@ export default function BestLawyerEducationLoanClient() {
 
     const reviewSchema = {
         "@context": "https://schema.org",
-        "@type": "Product",
+        "@type": "Service",
         "name": "Legal Consultation for Education Loan Settlement",
         "image": "https://www.credsettle.com/credsettle-logo.svg",
         "description": "Expert legal assistance for negotiating and settling education loans in India, stopping harassment, and securing favorable One-Time Settlements.",
         "brand": {
             "@type": "Organization",
             "name": "CredSettle"
-        },
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": "218"
-        },
-        "review": reviews.map(r => ({
-            "@type": "Review",
-            "author": {
-                "@type": "Person",
-                "name": r.name
-            },
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": r.stars.toString(),
-                "bestRating": "5"
-            },
-            "reviewBody": r.comment
-        }))
+        }
     };
 
     const organizationSchema = {
@@ -186,7 +168,7 @@ export default function BestLawyerEducationLoanClient() {
         ],
         'contactPoint': {
             '@type': 'ContactPoint',
-            'telephone': '+91-9999-999999',
+            'telephone': '+91-8800226635',
             'contactType': 'customer service',
             'areaServed': 'IN',
             'availableLanguage': 'English'

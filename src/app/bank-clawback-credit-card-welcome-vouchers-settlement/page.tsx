@@ -237,70 +237,7 @@ export default function BankVoucherClawbackPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6240',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Rohit Kulkarni'
-            },
-            datePublished: '2026-10-12',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'When I cancelled my co-branded premium credit card after paying the ₹4,999 joining fee, the bank debited ₹5,000 claiming clawback of my welcome voucher and held up card closure. CredSettle cited Section 5 and Section 8 of the RBI Master Direction 2022. The bank reversed the charge and issued my No Dues Certificate.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Meenakshi Sundaram'
-            },
-            datePublished: '2026-09-28',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'During my credit card settlement negotiations, the collection agency inflated my dues by ₹18,500 by clawing back introductory cashback and shopping vouchers from two years earlier. CredSettle stepped in, audited the ledger, and negotiated a fair OTS on true principal dues alone.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Deepak Chawla'
-            },
-            datePublished: '2026-08-19',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'A private bank exercised an unauthorized set-off on my savings account for ₹10,000 of disputed welcome reward points after I asked for card closure. CredSettle issued a legal notice citing Section 171 limitations and RBI customer rights. The bank refunded my money with an apology.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

@@ -142,12 +142,6 @@ export default function AccountDocumentsDRTClient() {
         'contactPoint': { '@type': 'ContactPoint', 'telephone': '+91-9311-778584', 'contactType': 'customer service', 'areaServed': 'IN', 'availableLanguage': 'English' }
     };
 
-    const reviewSchema = {
-        '@context': 'https://schema.org', '@type': 'Product',
-        'name': 'Best Lawyer for Account Documents DRT',
-        'aggregateRating': { '@type': 'AggregateRating', 'ratingValue': '4.9', 'reviewCount': '2214', 'bestRating': '5', 'worstRating': '1' }
-    };
-
     const relatedPages = [
         { href: '/best-lawyer-for-drt-case-defence-for-bank-loan-recovery', label: 'Best Lawyer for DRT Case Defence' },
         { href: '/drt-lawyer-in-mumbai-loan-recovery', label: 'DRT Lawyer in Mumbai' },
@@ -160,7 +154,6 @@ export default function AccountDocumentsDRTClient() {
     return (
         <>
             <Script id="faq-schema-account-docs-drt" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-account-docs-drt" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
             <Script id="org-schema-account-docs-drt" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
 
             {/* Hero */}

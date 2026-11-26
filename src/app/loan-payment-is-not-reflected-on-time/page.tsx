@@ -109,43 +109,6 @@ export default function LoanPaymentNotReflectedPage() {
         ]
     };
 
-    const reviewLd = {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "Loan Payment Not Reflected on Time Guide",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "5.0",
-            "reviewCount": "2"
-        },
-        "review": [
-            {
-                "@type": "Review",
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5"
-                },
-                "author": {
-                    "@type": "Person",
-                    "name": "Anonymous Borrower"
-                },
-                "reviewBody": "My EMI bounced due to a NACH glitch on the bank's end, and they slapped a hefty penalty. Using the reference number strategy from this guide, I got the charges fully reversed within a week!"
-            },
-            {
-                "@type": "Review",
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5"
-                },
-                "author": {
-                    "@type": "Person",
-                    "name": "Verified User"
-                },
-                "reviewBody": "CredSettle's step-by-step approach helped me draft a strong complaint to the Nodal Officer. The bank acknowledged the server error and refunded the unfair penal interest immediately."
-            }
-        ]
-    };
-
     return (
         <div className="relative min-h-screen bg-white mt-5">
             <Navbar />
@@ -164,11 +127,6 @@ export default function LoanPaymentNotReflectedPage() {
                 id="faq-schema-loan-payment"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
-            />
-            <Script
-                id="review-schema-loan-payment"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewLd) }}
             />
             <LoanPaymentNotReflectedClient />
                         </div>

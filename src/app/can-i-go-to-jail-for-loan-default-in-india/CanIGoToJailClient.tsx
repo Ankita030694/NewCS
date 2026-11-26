@@ -209,29 +209,9 @@ export default function CanIGoToJailClient() {
 
     const reviewSchema = {
         '@context': 'https://schema.org',
-        '@type': 'Product',
+        '@type': 'Service',
         'name': 'Can I Go to Jail for Loan Default? Legal Truth 2025',
-        'description': 'A legal advisory on borrower rights regarding imprisonment threats, distinguishing between civil and criminal aspects of debt default in India.',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.95',
-            'reviewCount': '5200',
-            'bestRating': '5',
-            'worstRating': '1'
-        },
-        'review': reviews.map(review => ({
-            '@type': 'Review',
-            'author': {
-                '@type': 'Person',
-                'name': review.name
-            },
-            'reviewRating': {
-                '@type': 'Rating',
-                'ratingValue': review.stars.toString(),
-                'bestRating': '5'
-            },
-            'reviewBody': review.comment
-        }))
+        'description': 'A legal advisory on borrower rights regarding imprisonment threats, distinguishing between civil and criminal aspects of debt default in India.'
     };
 
     return (

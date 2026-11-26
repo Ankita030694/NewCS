@@ -242,70 +242,7 @@ export default function ClosedLoanDefunctNbfcPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Sandeep Kulkarni'
-            },
-            datePublished: '2026-10-18',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My paid personal loan stayed active on CIBIL for two years after the digital NBFC lost its RBI license. My home loan was rejected twice. CredSettle escalated my bank statements and RBI cancellation order to the CIBIL PNO and RBI Ombudsman, and the entry was closed in 34 days.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Meenakshi Iyer'
-            },
-            datePublished: '2026-09-29',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'A small loan app disappeared after I repaid ₹1.4 Lakhs in full, leaving an overdue mark on CIBIL and Experian. CredSettle traced the real backend NBFC from my KFS, sent a legal notice citing RBI/2024-25/81, and got all four bureaus updated to Closed.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Arvind Thakur'
-            },
-            datePublished: '2026-09-05',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'CIBIL kept closing my disputes because the shut-down NBFC never replied. CredSettle filed a clear RBI CMS Ombudsman claim with my NOC and UTR records. Not only was the orphaned loan marked Closed, I also received delay compensation under the RBI rule.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

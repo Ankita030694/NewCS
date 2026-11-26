@@ -149,25 +149,11 @@ const DocsNeededClient = () => {
         },
         product: {
             '@context': 'https://schema.org',
-            '@type': 'Product',
+            '@type': 'Service',
             'name': 'Debt Settlement Documentation Strategy',
             'description': 'Professional document preparation and audit services for debt settlement in India, ensuring compliance with RBI 2025 guidelines.',
             'image': 'https://www.credsettle.com/images/docs-needed-hero.jpg',
-            'brand': { '@type': 'Brand', 'name': 'CredSettle' },
-            'aggregateRating': {
-                '@type': 'AggregateRating',
-                'ratingValue': '4.9',
-                'reviewCount': '2800',
-                'bestRating': '5',
-                'worstRating': '1'
-            },
-            'review': {
-                '@type': 'Review',
-                'author': { '@type': 'Person', 'name': 'Rahul Sharma' },
-                'reviewRating': { '@type': 'Rating', 'ratingValue': '5', 'bestRating': '5', 'worstRating': '1' },
-                'reviewBody': 'CredSettle helped me organize my medical and financial records so perfectly that my bank approved a 65% waiver within 3 weeks. Their document strategy is top-notch.',
-                'datePublished': '2025-01-10'
-            }
+            'brand': { '@type': 'Brand', 'name': 'CredSettle' }
         },
         faq: {
             '@context': 'https://schema.org',
@@ -201,7 +187,7 @@ const DocsNeededClient = () => {
             'logo': 'https://www.credsettle.com/logo.png',
             'contactPoint': {
                 '@type': 'ContactPoint',
-                'telephone': '+91-XXXXXXXXXX',
+                'telephone': '+91-8800226635',
                 'contactType': 'customer service'
             }
         }

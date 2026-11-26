@@ -141,26 +141,12 @@ export default function SettlingDebtInIndiaPage() {
     ]
   };
 
-  const reviewSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    'name': 'Debt Settlement Legal Guide and Advisory Services',
-    'aggregateRating': {
-      '@type': 'AggregateRating',
-      'ratingValue': '4.9',
-      'reviewCount': '214',
-      'bestRating': '5',
-      'worstRating': '1'
-    }
-  };
-
   return (
     <div className="bg-gray-50 min-h-screen">
       <Navbar />
       <Script id="article-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Script id="breadcrumb-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
-      <Script id="review-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
       <section
         className="relative text-white pt-32 pb-20 px-4 md:px-8"

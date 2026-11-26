@@ -177,19 +177,6 @@ export default function IsLoanSettlementGoodOptionBorrowersClient() {
         }))
     };
 
-    const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': 'Is Loan Settlement a Good Option for Borrowers Analysis',
-        'aggregateRating': {
-            '@type': 'AggregateRating',
-            'ratingValue': '4.9',
-            'reviewCount': '3120',
-            'bestRating': '5',
-            'worstRating': '1'
-        }
-    };
-
     const organizationSchema = {
         '@context': 'https://schema.org',
         '@type': 'Organization',
@@ -203,7 +190,7 @@ export default function IsLoanSettlementGoodOptionBorrowersClient() {
         ],
         'contactPoint': {
             '@type': 'ContactPoint',
-            'telephone': '+91-XXXX-XXXXXX',
+            'telephone': '+91-8800226635',
             'contactType': 'customer service',
             'areaServed': 'IN',
             'availableLanguage': 'English'
@@ -213,7 +200,6 @@ export default function IsLoanSettlementGoodOptionBorrowersClient() {
     return (
         <>
             <Script id="faq-schema-borrowers" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            <Script id="review-schema-borrowers" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
             <Script id="org-schema-borrowers" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
 
             {/* Hero Section */}

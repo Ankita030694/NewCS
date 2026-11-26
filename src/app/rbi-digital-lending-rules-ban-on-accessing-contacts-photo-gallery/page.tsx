@@ -237,70 +237,7 @@ export default function RbiDigitalLendingRulesPage() {
         name: 'CredSettle Debt Settlement & Digital Loan Protection Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.8',
-          reviewCount: '5240',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Suresh Menon'
-            },
-            datePublished: '2026-09-18',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'A digital loan app accessed my contacts and sent abusive WhatsApp messages to my colleagues after an EMI delay. CredSettle intervened, issued a strong legal notice invoking RBI digital lending circulars, and stopped the harassment permanently within 24 hours.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Pooja Sharma'
-            },
-            datePublished: '2026-09-02',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'Recovery agents from an instant loan platform threatened to circulate photos from my phone gallery. CredSettle filed a cyber crime report under IT Act Section 66E and BNS 351, forcing the lender to delete all illegally gathered data and offer an official settlement.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Arjun Nambiar'
-            },
-            datePublished: '2026-08-20',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '4.9'
-            },
-            reviewBody:
-              'I was trapped in multiple digital app loans with hidden fees and relentless contact calling. CredSettle explained my rights under RBI guidelines, stopped recovery agents from calling my family, and structured a comprehensive settlement with 60% debt waiver.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

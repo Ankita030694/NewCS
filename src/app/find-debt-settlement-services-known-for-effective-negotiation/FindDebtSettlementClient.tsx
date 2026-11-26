@@ -140,26 +140,11 @@ export default function FindDebtSettlementClient() {
     }))
   };
 
-  const reviewSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'AggregateRating',
-    'itemReviewed': {
-      '@type': 'FinancialService',
-      'name': 'CredSettle Debt Negotiation'
-    },
-    'ratingValue': '4.8',
-    'reviewCount': '1250'
-  };
-
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
       />
       
       {/* Breadcrumb Section */}

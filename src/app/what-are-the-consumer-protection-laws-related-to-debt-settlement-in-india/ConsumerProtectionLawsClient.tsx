@@ -151,25 +151,11 @@ export default function ConsumerProtectionLawsClient() {
         },
         product: {
             '@context': 'https://schema.org',
-            '@type': 'Product',
+            '@type': 'Service',
             'name': 'Debt Settlement Legal Protection Service',
             'description': 'Expert legal guidance on consumer protection laws and RBI guidelines to protect Indian borrowers from harassment during the debt settlement process.',
             'image': 'https://www.credsettle.com/images/consumer-laws-hero.jpg',
-            'brand': { '@type': 'Brand', 'name': 'CredSettle' },
-            'aggregateRating': {
-                '@type': 'AggregateRating',
-                'ratingValue': '4.9',
-                'reviewCount': '2950',
-                'bestRating': '5',
-                'worstRating': '1'
-            },
-            'review': {
-                '@type': 'Review',
-                'author': { '@type': 'Person', 'name': 'Kavitha Reddy' },
-                'reviewRating': { '@type': 'Rating', 'ratingValue': '5', 'bestRating': '5', 'worstRating': '1' },
-                'reviewBody': 'I had no idea about the Consumer Protection Act in relation to my debt. After reading this guide, I filed a complaint with the Consumer Forum and the bank immediately agreed to a fair settlement.',
-                'datePublished': '2025-01-20'
-            }
+            'brand': { '@type': 'Brand', 'name': 'CredSettle' }
         },
         faq: {
             '@context': 'https://schema.org',
@@ -203,7 +189,7 @@ export default function ConsumerProtectionLawsClient() {
             'logo': 'https://www.credsettle.com/logo.png',
             'contactPoint': {
                 '@type': 'ContactPoint',
-                'telephone': '+91-XXXXXXXXXX',
+                'telephone': '+91-8800226635',
                 'contactType': 'legal support'
             }
         }

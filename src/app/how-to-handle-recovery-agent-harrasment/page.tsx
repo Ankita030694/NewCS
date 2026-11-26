@@ -65,13 +65,6 @@ export default function RecoveryAgentHarassmentPage() {
     address: {
       '@type': 'PostalAddress',
       addressCountry: 'IN'
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '15400',
-      bestRating: '5',
-      worstRating: '1'
     }
   };
 

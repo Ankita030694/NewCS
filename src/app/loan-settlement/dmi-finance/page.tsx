@@ -126,38 +126,16 @@ export default function DmiFinanceLoanSettlementPage() {
     ]
   };
 
-  // Schema for Review
+  // Service schema
   const reviewSchema = {
     "@context": "https://schema.org",
-    "@type": "Product",
+    "@type": "Service",
     "name": "DMI Finance Loan Settlement Services",
     "description": "Legal assistance for settling DMI Finance loans and resolving Knox Guard locks.",
     "brand": {
       "@type": "Brand",
       "name": "CredSettle"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "115",
-      "bestRating": "5",
-      "worstRating": "1"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": {
-          "@type": "Person",
-          "name": "Amit Sharma"
-        },
-        "datePublished": "2025-11-20",
-        "reviewBody": "My Samsung M32 was locked for 2 months. CredSettle negotiated with DMI, I paid 50% OTS, and my phone unlocked the next day.",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5"
-        }
-      }
-    ]
+    }
   };
 
   return (

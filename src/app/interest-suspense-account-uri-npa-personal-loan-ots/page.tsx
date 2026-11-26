@@ -242,70 +242,7 @@ export default function InterestSuspenseUriPage() {
         name: 'CredSettle Debt Settlement & Banking Legal Advisory Services',
         url: 'https://www.credsettle.com',
         telephone: '+91-8800226635',
-        priceRange: '₹₹',
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '6180',
-          bestRating: '5',
-          worstRating: '1'
-        },
-        review: [
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Rajeshwari Kulkarni'
-            },
-            datePublished: '2026-10-22',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'My personal loan turned NPA after a medical crisis and the bank demanded ₹8.4 Lakhs including two years of suspense interest and penal charges. CredSettle audited my NPA ledger, proved my actual book balance was ₹5.1 Lakhs, and closed the account with a 100% URI waiver at ₹2.85 Lakhs.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Sandeep Chatterjee'
-            },
-            datePublished: '2026-09-29',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'Recovery agents kept quoting an inflated total that doubled my original unpaid personal loan. CredSettle demanded a split ledger statement showing principal versus memorandum dues under RBI norms and helped me secure a clean OTS letter and No Dues Certificate.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          },
-          {
-            '@type': 'Review',
-            author: {
-              '@type': 'Person',
-              name: 'Arvind Menon'
-            },
-            datePublished: '2026-09-11',
-            reviewRating: {
-              '@type': 'Rating',
-              ratingValue: '5'
-            },
-            reviewBody:
-              'An NBFC was illegally compounding late fees on my Stage 3 personal loan. CredSettle escalated the breach of RBI penal charge guidelines to the Principal Nodal Officer, got all post-NPA interest and penalties waived, and guided me through a stress-free OTS.',
-            itemReviewed: {
-              '@type': 'FinancialService',
-              '@id': 'https://www.credsettle.com/#service'
-            }
-          }
-        ]
+        priceRange: '₹₹'
       }
     ]
   };

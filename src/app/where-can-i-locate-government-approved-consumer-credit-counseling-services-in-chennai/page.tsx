@@ -70,39 +70,6 @@ export default function ChennaiCounselingPage() {
     }
   ];
 
-  const reviews = [
-    {
-      name: "Murugan K.",
-      location: "T. Nagar, Chennai",
-      rating: 5,
-      text: "I was confused about my credit card dues. The counselors at Indian Bank FLCC were very patient. They helped me realize I was paying excessive hidden charges. Completely free and honest service."
-    },
-    {
-      name: "Divya R.",
-      location: "Adyar, Chennai",
-      rating: 5,
-      text: "Disha Financial Counselling helped me organize my monthly budget. I was struggling with 3 different personal loans. Their roadmap gave me clarity on which one to settle first."
-    },
-    {
-      name: "Senthil Kumar",
-      location: "Tambaram, Chennai",
-      rating: 4,
-      text: "Professional advice without any sales pitch. Being government-recognized, they don't try to sell you more loans. They just focus on how you can get out of debt."
-    },
-    {
-      name: "Anandhi S.",
-      location: "Velachery, Chennai",
-      rating: 5,
-      text: "Great initiative. They even helped me identify a fake loan app that was harassing me. Every Chennai resident with debt should visit these centers once."
-    },
-    {
-      name: "Rajesh V.",
-      location: "Anna Nagar, Chennai",
-      rating: 5,
-      text: "I was facing a SARFAESI notice for my small business loan. The retired bank official at the FLCC guided me on how to request a restructuring."
-    }
-  ];
-
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -157,26 +124,6 @@ export default function ChennaiCounselingPage() {
     }))
   };
 
-  const reviewSchema = reviews.map((review, index) => ({
-    '@context': 'https://schema.org',
-    '@type': 'Review',
-    'itemReviewed': {
-      '@type': 'LocalBusiness',
-      'name': 'Credit Counseling Services Chennai',
-      'image': 'https://www.credsettle.com/chennai-counseling-guide.jpg',
-    },
-    'author': {
-      '@type': 'Person',
-      'name': review.name
-    },
-    'reviewRating': {
-      '@type': 'Rating',
-      'ratingValue': review.rating.toString(),
-      'bestRating': '5'
-    },
-    'reviewBody': review.text
-  }));
-
   return (
     <div className="bg-white min-h-screen">
       <Script
@@ -194,14 +141,6 @@ export default function ChennaiCounselingPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      {reviewSchema.map((schema, i) => (
-        <Script
-          key={i}
-          id={`review-schema-chennai-${i}`}
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-        />
-      ))}
       <ChennaiCounselingClient />
     </div>
   );

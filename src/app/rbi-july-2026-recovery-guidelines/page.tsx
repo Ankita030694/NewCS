@@ -83,51 +83,7 @@ export default function RbiGuidelinesPage() {
       addressLocality: 'Gurugram',
       addressRegion: 'Haryana',
       addressCountry: 'IN'
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '1240',
-      bestRating: '5',
-      worstRating: '1'
-    },
-    review: [
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Vikram Sharma' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'The team at CredSettle used the new RBI July 2026 recovery guidelines to immediately stop the harassment I was facing from an NBFC. Their knowledge of these new rules is unparalleled.',
-        'itemReviewed': { '@type': 'LegalService', 'name': 'CredSettle' }
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Meera Reddy' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'I had agents showing up at my office daily. CredSettle drafted a strong legal notice citing the exact RBI July 2026 circular, and the visits stopped the very next day. Highly professional service.',
-        'itemReviewed': { '@type': 'LegalService', 'name': 'CredSettle' }
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Aditya Patel' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'Understanding the RBI July 2026 recovery guidelines was difficult, but the legal experts explained everything clearly. They helped me negotiate a fair settlement without any further threats.',
-        'itemReviewed': { '@type': 'LegalService', 'name': 'CredSettle' }
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Sneha Desai' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '4' },
-        'reviewBody': 'Excellent implementation of the latest RBI rules. They took decisive action against the recovery agents calling my relatives. The peace of mind I got is priceless.',
-        'itemReviewed': { '@type': 'LegalService', 'name': 'CredSettle' }
-      },
-      {
-        '@type': 'Review',
-        'author': { '@type': 'Person', 'name': 'Rohan Gupta' },
-        'reviewRating': { '@type': 'Rating', 'ratingValue': '5' },
-        'reviewBody': 'When banks ignored my complaints, CredSettle stepped in. Their strict reliance on the RBI July 2026 recovery guidelines forced the bank to discipline their external collection agency.',
-        'itemReviewed': { '@type': 'LegalService', 'name': 'CredSettle' }
-      }
-    ]
+    }
   };
 
   const breadcrumbSchema = {
