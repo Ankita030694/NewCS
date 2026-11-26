@@ -557,6 +557,12 @@ export default function CreditCardBlockedClient() {
               >
                 Minimum Due Trap Calculator &rarr;
               </Link>
+              <Link
+                href="/credit-card-settlement-by-bank"
+                className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 font-semibold text-slate-800"
+              >
+                Settlement Help for Every Card Issuer &rarr;
+              </Link>
             </div>
           </aside>
         </div>

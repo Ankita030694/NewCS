@@ -2184,6 +2184,9 @@ export default function SettleMultipleCreditCardsClient() {
                 <Link href="/credit-card-settlement-before-financial-year-end-by-issuer" className="block text-blue-700 hover:underline font-medium">
                   Credit Card FY-End Settlement by Issuer &rarr;
                 </Link>
+                <Link href="/credit-card-settlement-by-bank" className="block text-blue-700 hover:underline font-medium">
+                  Credit Card Settlement by Bank: All Issuers &rarr;
+                </Link>
               </div>
             </div>
 

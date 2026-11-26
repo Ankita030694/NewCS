@@ -81,6 +81,7 @@ export default function Footer({ hideFunnel = false }: FooterProps = {}) {
                   <a href="/services/credit-score-builder" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Credit Score Improvement</a>
                   <a href="/multiple-app-loans-settlement-total-above-3-lakh" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Multi-App Settlement (₹3L+)</a>
                   <a href="/psu-bank-ots-deadline-march-31-2027" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">PSU Bank OTS 2027 Guide</a>
+                  <a href="/credit-card-settlement-by-bank" className="text-[rgba(12,39,86,0.70)] hover:text-[#0C2756] transition-colors text-xs md:text-sm font-normal leading-tight">Credit Card Settlement by Bank</a>
                 </div>
               </div>
 

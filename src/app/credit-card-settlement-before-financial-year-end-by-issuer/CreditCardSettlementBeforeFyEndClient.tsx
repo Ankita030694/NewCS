@@ -432,6 +432,12 @@ export default function CreditCardSettlementBeforeFyEndClient() {
                 >
                   PSU Bank March 31 OTS Deadlines.
                 </Link>
+                <Link
+                  href="/credit-card-settlement-by-bank"
+                  className="px-3 py-1.5 rounded-lg bg-slate-50 border border-slate-200 text-xs font-semibold text-slate-700 hover:border-blue-600 hover:text-blue-600"
+                >
+                  Credit Card Settlement by Bank.
+                </Link>
               </div>
             </div>
           </article>
