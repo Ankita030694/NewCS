@@ -47,43 +47,43 @@ export default function StopAutoDebitEcsBounceChargesClient() {
     const faqs = [
         {
             q: 'Can I legally stop an auto-debit NACH or ECS mandate with my bank?',
-            a: 'Yes. Under Reserve Bank of India (RBI) circulars and NPCI NACH Procedural Guidelines. A customer has the unequivocal legal right to revoke or cancel an online mandate at any time straight through their destination bank without prior permission from the merchant or lender.'
+            a: 'Yes. Under Reserve Bank of India (RBI) circulars and NPCI NACH Procedural Guidelines, a customer has the unequivocal legal right to revoke or cancel an electronic mandate at any time directly through their destination bank without prior permission from the merchant or lender.'
         },
         {
             q: 'Why do banks deduct ECS bounce charges multiple times in a single month?',
-            a: "Lenders and fintech apps often re-present failed NACH debit instructions multiple times during a billing cycle. Each time a presentation fails due to insufficient funds. Both the destination bank and sponsor bank levy bounce fees of \u20B9295 to \u20B9590. This leads to severe account balance erosion."
+            a: "Lenders and fintech apps often re-present failed NACH debit instructions multiple times during a billing cycle. Each time a presentation fails due to insufficient funds, both the destination bank and sponsor bank levy bounce fees of \u20B9295 to \u20B9590. This leads to severe account balance erosion."
         },
         {
             q: 'How can I cancel a NACH mandate online through NetBanking?',
-            a: "Log into your bank internet banking portal. Navigate to the Customer Service. Accounts. E-Mandates / NACH section. Locate the active mandate using the Unique Mandate Reference Number (UMRN). Select Cancel / Revoke Mandate. check the request using OTP."
+            a: "Log into your bank internet banking portal, navigate to the Customer Service, Accounts, or e-Mandates / NACH section, locate the active mandate using the Unique Mandate Reference Number (UMRN), select Cancel / Revoke Mandate, and authenticate the request using OTP."
         },
         {
             q: 'Does stopping an auto-debit mandate cancel my loan liability?',
-            a: "No. Cancelling a NACH mandate stops automated deductions and prevents recurring bounce fines. It does not extinguish your underlying contractual loan risk. You remain obligated to settle the main sum and rates through voluntary manual payments or structured debt closure."
+            a: "No. Cancelling a NACH mandate stops automated deductions and prevents recurring bounce penalties, but it does not extinguish your underlying contractual loan liability. You remain obligated to settle the principal and interest through voluntary manual payments or structured debt settlement."
         },
         {
             q: 'Can a bank refuse to stop an ECS or NACH mandate on a loan?',
-            a: 'No. A bank cannot refuse a clients written or digital mandate cancellation request. RBI rules mandate that banks must honour customer revocation requests promptly. If a bank refuses. You can fast escalate a complaint to the Bank main sum Nodal head and RBI RBI officer.'
+            a: 'No. A bank cannot refuse a borrower written or digital mandate cancellation request. RBI rules mandate that banks must honour customer revocation requests promptly. If a bank refuses, you can immediately escalate a complaint to the Bank Principal Nodal Officer and RBI Ombudsman.'
         },
         {
             q: 'What is a Section 25 notice under the Payment and Settlement Systems Act?',
-            a: 'Section 25 of the Payment and closure Systems Act. 2007 (PSSA) is a legal rules that treats dishonour of online funds transfers due to insufficient funds similarly to a cheque bounce under Section 138 of the NI Act. Lenders must issue a formal 30-day demand notice before initiating legal steps.'
+            a: 'Section 25 of the Payment and Settlement Systems Act, 2007 (PSSA) is a statutory provision that treats dishonour of electronic funds transfers due to insufficient funds similarly to a cheque bounce under Section 138 of the NI Act. Lenders must issue a formal 30-day demand notice before initiating legal proceedings.'
         },
         {
             q: 'Can I get a refund of unfair or repetitive bank bounce charges?',
-            a: 'Yes. Under RBI guidelines on Fair Lending Practices and unreasonable bank service charges. You can lodge a formal grievance requesting a refund or waiver of duplicate bounce fees levied for multiple re-presentations of the same installment within the same billing month.'
+            a: 'Yes. Under RBI guidelines on Fair Lending Practices and unreasonable bank service charges, you can lodge a formal grievance requesting a refund or waiver of duplicate bounce fees levied for multiple re-presentations of the same installment within the same billing month.'
         },
         {
             q: 'Can a lender freeze my savings account if I cancel the auto-debit mandate?',
-            a: 'A lending NBFC or external bank cannot freeze your third-party savings account without a court attachment order. yet. If your loan is with the same bank where you maintain your savings account. The bank may exercise its Banker Right of Set-Off under Section 171 of the Indian Contract Act.'
+            a: 'A lending NBFC or external bank cannot freeze your third-party savings account without a court attachment order. However, if your loan is with the same bank where you maintain your savings account, the bank may exercise its Banker Right of Set-Off under Section 171 of the Indian Contract Act.'
         },
         {
             q: 'How does stopping NACH auto-debit affect my CIBIL credit score?',
-            a: "Cancelling the mandate itself does not lower your CIBIL score. yet. If the underlying loan EMI remains unpaid. The lender reports Days Past Due (DPD) default to credit bureaus. which reduces your credit score until the loan is resolved through payment or closure."
+            a: "Cancelling the mandate itself does not lower your CIBIL score. However, if the underlying loan EMI remains unpaid, the lender reports Days Past Due (DPD) delinquency to credit bureaus, which reduces your credit score until the loan is resolved through repayment or settlement."
         },
         {
             q: 'What is the fastest way to stop illegal EMI auto-deductions across multiple loan apps?',
-            a: "The fastest method is submitting a thorough Mandate Revocation Form with UMRN details at your home bank branch. Disabling auto-debit permissions via netbanking. Routing your primary income to a newly opened non-linked bank account while engaging CredSettle for bilateral dispute relief."
+            a: "The fastest method is submitting a comprehensive Mandate Revocation Form with UMRN details at your home bank branch, disabling auto-debit permissions via netbanking, and routing your primary income to a newly opened non-linked bank account while engaging CredSettle for bilateral dispute resolution."
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -93,18 +93,18 @@ export default function StopAutoDebitEcsBounceChargesClient() {
         <div className="max-w-5xl mx-auto text-center z-10 relative">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-xs md:text-sm font-semibold mb-4 tracking-wide">
             <ShieldCheck className="w-4 h-4 text-emerald-300"/>
-            <span>RBI Master Directions &amp; NPCI NACH Guidelines.</span>
+            <span>RBI Master Directions &amp; NPCI NACH Guidelines</span>
           </div>
 
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-3 md:mb-4 tracking-tight leading-tight drop-shadow-xs">
             Cancel NACH Mandates to Stop ECS Bank Bounce Charges
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed"> Repeated auto-debit failures can rapidly deplete your savings through growing inward bounce fees and unlawful retry debits. Learn the exact legal framework to cancel online mandates at your destination bank. Stop predatory deductions. Defend against Section 25 PSSA legal notices. </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed"> Repeated auto-debit failures can rapidly deplete your savings through compounding inward bounce fees and unauthorized retry debits. Learn the exact statutory framework to cancel electronic mandates at your destination bank, stop predatory deductions, and defend against Section 25 PSSA legal notices. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
-              <span>Stop Illegal EMI Deductions.</span>
+              <span>Stop Illegal EMI Deductions</span>
               <ArrowRight className="w-4 h-4"/>
             </Link>
           </div>
@@ -124,7 +124,7 @@ export default function StopAutoDebitEcsBounceChargesClient() {
               <div className="flex items-center gap-2 pb-3 mb-3 border-b border-slate-100">
                 <BookOpen className="w-4 h-4 text-[#1886ff]"/>
                 <span className="text-xs font-black uppercase tracking-wider text-slate-800">
-                  Table of Contents.
+                  Table of Contents
                 </span>
               </div>
               <nav className="space-y-1 max-h-[calc(100vh-140px)] overflow-y-auto pr-1 text-xs">
@@ -141,9 +141,9 @@ export default function StopAutoDebitEcsBounceChargesClient() {
               <div className="mt-4 pt-3 border-t border-slate-100 bg-blue-50/50 -mx-4 -mb-4 p-3 rounded-b-2xl">
                 <div className="flex items-center gap-2 text-[11px] font-bold text-slate-800">
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
-                  <span>Statutory Borrower Rights.</span>
+                  <span>Statutory Borrower Rights</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Protected under RBI Master Directions. NPCI NACH Procedural Guidelines. PSSA 2007. </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Protected under RBI Master Directions, NPCI NACH Procedural Guidelines, and PSSA 2007. </p>
               </div>
             </div>
           </aside>
@@ -155,17 +155,17 @@ export default function StopAutoDebitEcsBounceChargesClient() {
             <div id="quick-crux" className="scroll-target rounded-2xl bg-[#F4F8FE] border border-blue-100/90 border-l-[5px] border-l-[#1886ff] p-5 sm:p-6 md:p-7 shadow-xs space-y-4 text-slate-800">
               <div className="flex items-center gap-2 text-xs md:text-sm font-black uppercase tracking-wider text-[#1886ff]">
                 <Bookmark className="w-4 h-4 text-[#1886ff]"/>
-                <span>EXECUTIVE BRIEF: STOPPING AUTO-DEBIT &amp; PREVENTING BOUNCE PENALTIES.</span>
+                <span>EXECUTIVE BRIEF: STOPPING AUTO-DEBIT &amp; PREVENTING BOUNCE PENALTIES</span>
               </div>
 
               <ul className="space-y-2.5 text-xs sm:text-sm text-slate-700">
-                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div className="truncate"> <strong className="text-slate-900 font-bold">legal Right to Revoke:</strong> clients can cancel NACH/ECS mandates straight at their destination bank under RBI rules. </div> </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div className="truncate"> <strong className="text-slate-900 font-bold">Statutory Right to Revoke:</strong> Borrowers can cancel NACH/ECS mandates directly at their destination bank under RBI rules. </div> </li>
 
                 <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div className="truncate"> <strong className="text-slate-900 font-bold">Stop Recurring Bounce Fees:</strong> Revoking mandates halts predatory ₹295 to ₹590 inward return fines from repeated retries. </div> </li>
 
-                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div className="truncate"> <strong className="text-slate-900 font-bold">Section 25 PSSA Defense:</strong> Issue formal legal replies within 15 days to dispute inflated penal claims and notices. </div> </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div className="truncate"> <strong className="text-slate-900 font-bold">Section 25 PSSA Defense:</strong> Issue formal statutory replies within 15 days to dispute inflated penal claims and notices. </div> </li>
 
-                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div className="truncate"> <strong className="text-slate-900 font-bold">bank Escalation:</strong> Bank refusals can be escalated straight to the main sum Nodal head and RBI RBI officer. </div> </li>
+                <li className="flex items-center gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0"/> <div className="truncate"> <strong className="text-slate-900 font-bold">Institutional Escalation:</strong> Bank refusals can be escalated directly to the Principal Nodal Officer and RBI Ombudsman. </div> </li>
               </ul>
             </div>
 
@@ -175,9 +175,9 @@ export default function StopAutoDebitEcsBounceChargesClient() {
                 1. NACH &amp; ECS Mechanics: How Auto-Debit Traps Function
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> Retail lending in India relies on automated clearing systems governed by NPCI and RBI. When availing a own loan or credit card. Lenders register an online Clearing Service (ECS) or NACH e-mandate. This standing instruction empowers the lender to debit your savings account on scheduled EMI dates using a 20-digit Unique Mandate Reference Number (UMRN). </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> Retail lending in India relies on automated clearing systems governed by NPCI and RBI. When availing a personal loan or credit card, lenders register an Electronic Clearing Service (ECS) or NACH e-mandate. This standing instruction empowers the lender to debit your savings account on scheduled EMI dates using a 20-digit Unique Mandate Reference Number (UMRN). </p>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> When money hardship occurs. Lenders often execute automated retry presentations across running days. Inadequate account balances trigger multiple clearing failures. Causing severe fine debits. Under RBI Master Directions on Customer Service and NPCI guidelines. Clients have an unconditional legal right to instruct their destination bank to revoke any active debit mandate. </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> When financial hardship occurs, lenders frequently execute automated retry presentations across consecutive days. Inadequate account balances trigger multiple clearing failures, causing severe penalty debits. Under RBI Master Directions on Customer Service and NPCI guidelines, borrowers have an unconditional legal right to instruct their destination bank to revoke any active debit mandate. </p>
             </section>
 
             {/* SECTION 2: Financial Impact & Bounce Charges */}
@@ -186,7 +186,7 @@ export default function StopAutoDebitEcsBounceChargesClient() {
                 2. Financial Impact: The Compounding Bounce Charge Spiral
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> An auto-debit bounce triggers dual fine charges across the banking system. Your destination bank debits an inward return fee of ₹295 to ₹590 (including 18% GST). while the lender levies an additional bounce and late payment fee on the loan ledger. </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> An auto-debit bounce triggers dual fine charges across the banking system. Your destination bank debits an inward return fee of ₹295 to ₹590 (including 18% GST), while the lender levies an additional bounce and late payment fee on the loan ledger. </p>
 
               {/* Financial Calculation Card */}
               <div className="rounded-2xl border border-slate-200/80 bg-white p-5 sm:p-6 shadow-xs space-y-4">
@@ -197,28 +197,28 @@ export default function StopAutoDebitEcsBounceChargesClient() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 text-center">
                   <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200/60">
-                    <span className="text-xs text-slate-500 font-medium block">Active Loan Apps.</span>
+                    <span className="text-xs text-slate-500 font-medium block">Active Loan Apps</span>
                     <span className="text-lg font-black text-slate-900">4 Fintechs</span>
-                    <span className="text-[11px] text-slate-400 block mt-0.5">Average digital exposure.</span>
+                    <span className="text-[11px] text-slate-400 block mt-0.5">Average digital exposure</span>
                   </div>
                   <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200/60">
-                    <span className="text-xs text-slate-500 font-medium block">Monthly Debit Retries.</span>
+                    <span className="text-xs text-slate-500 font-medium block">Monthly Debit Retries</span>
                     <span className="text-lg font-black text-rose-600">3 Hits / Lender</span>
-                    <span className="text-[11px] text-rose-500 block mt-0.5">12 Total Bounces.</span>
+                    <span className="text-[11px] text-rose-500 block mt-0.5">12 Total Bounces</span>
                   </div>
                   <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200/60">
-                    <span className="text-xs text-slate-500 font-medium block">Destination Bounce Fees.</span>
+                    <span className="text-xs text-slate-500 font-medium block">Destination Bounce Fees</span>
                     <span className="text-lg font-black text-rose-600">₹4,248</span>
-                    <span className="text-[11px] text-slate-400 block mt-0.5">₹354 per failed return.</span>
+                    <span className="text-[11px] text-slate-400 block mt-0.5">₹354 per failed return</span>
                   </div>
                   <div className="p-3.5 rounded-xl bg-blue-50/60 border border-blue-200/60">
-                    <span className="text-xs text-[#1886ff] font-bold block">Total Monthly Loss.</span>
+                    <span className="text-xs text-[#1886ff] font-bold block">Total Monthly Loss</span>
                     <span className="text-lg font-black text-blue-900">₹6,000+</span>
-                    <span className="text-[11px] text-slate-500 block mt-0.5">Purely in penalty charges.</span>
+                    <span className="text-[11px] text-slate-500 block mt-0.5">Purely in penalty charges</span>
                   </div>
                 </div>
 
-                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed pt-1"> Under RBI Fair Lending Practice directives (DOR.MCS.REC.28/01.01.001/2023-24). Banks cannot capitalize fine charges into the loan main sum. Making repetitive retry fees eligible for formal dispute and waiver claims. </p>
+                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed pt-1"> Under RBI Fair Lending Practice directives (DOR.MCS.REC.28/01.01.001/2023-24), banks cannot capitalize penal charges into the loan principal, making repetitive retry fees eligible for formal dispute and waiver claims. </p>
               </div>
             </section>
 
@@ -228,54 +228,54 @@ export default function StopAutoDebitEcsBounceChargesClient() {
                 3. Mandate Cancellation vs Inaction: Comparison Matrix
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> Evaluating different mandate response pathways helps clients protect liquidity while maintaining legal compliance under RBI norms. </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> Evaluating different mandate response pathways helps borrowers protect liquidity while maintaining legal compliance under RBI norms. </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
                 <table className="w-full text-left text-xs sm:text-sm divide-y divide-slate-200/80">
                   <thead className="bg-slate-100/80 text-slate-800 font-bold uppercase tracking-wider text-[11px]">
                     <tr className="divide-x divide-slate-200/80">
                       <th className="p-3 sm:p-4">Action Pathway</th>
-                      <th className="p-3 sm:p-4">Operational Method.</th>
-                      <th className="p-3 sm:p-4">Immediate Financial Impact.</th>
-                      <th className="p-3 sm:p-4">Legal Position &amp; Statutory Risk.</th>
-                      <th className="p-3 sm:p-4">Recommended Strategy.</th>
+                      <th className="p-3 sm:p-4">Operational Method</th>
+                      <th className="p-3 sm:p-4">Immediate Financial Impact</th>
+                      <th className="p-3 sm:p-4">Legal Position &amp; Statutory Risk</th>
+                      <th className="p-3 sm:p-4">Recommended Strategy</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-700">
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/50">
-                      <td className="p-3 sm:p-4 font-bold text-slate-900">Formal Bank Revocation.</td>
-                      <td className="p-3 sm:p-4">Written Form M-02 submission citing UMRN at branch.</td>
+                      <td className="p-3 sm:p-4 font-bold text-slate-900">Formal Bank Revocation</td>
+                      <td className="p-3 sm:p-4">Written Form M-02 submission citing UMRN at branch</td>
                       <td className="p-3 sm:p-4 text-emerald-700 font-semibold">Instantly stops inward bank bounce fines.</td>
-                      <td className="p-3 sm:p-4">100% compliant with RBI &amp. NPCI guidelines.</td>
-                      <td className="p-3 sm:p-4 text-emerald-600 font-bold">Highly Recommended.</td>
+                      <td className="p-3 sm:p-4">100% compliant with RBI &amp; NPCI guidelines</td>
+                      <td className="p-3 sm:p-4 text-emerald-600 font-bold">Highly Recommended</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/50">
-                      <td className="p-3 sm:p-4 font-bold text-slate-900">NetBanking e-Mandate Cancel.</td>
-                      <td className="p-3 sm:p-4">Digital cancellation via netbanking or mobile app OTP.</td>
-                      <td className="p-3 sm:p-4 text-emerald-700 font-semibold">Prevents automated debit hits within 24 hours.</td>
-                      <td className="p-3 sm:p-4">Valid online cancellation under IT Act.</td>
-                      <td className="p-3 sm:p-4 text-emerald-600 font-bold">Fastest Digital Route.</td>
+                      <td className="p-3 sm:p-4 font-bold text-slate-900">NetBanking e-Mandate Cancel</td>
+                      <td className="p-3 sm:p-4">Digital cancellation via netbanking or mobile app OTP</td>
+                      <td className="p-3 sm:p-4 text-emerald-700 font-semibold">Prevents automated debit hits within 24 hours</td>
+                      <td className="p-3 sm:p-4">Valid online cancellation under IT Act</td>
+                      <td className="p-3 sm:p-4 text-emerald-600 font-bold">Fastest Digital Route</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/50">
-                      <td className="p-3 sm:p-4 font-bold text-slate-900">Lender Hardship Notice.</td>
-                      <td className="p-3 sm:p-4">Registered email informing inability to maintain mandate.</td>
-                      <td className="p-3 sm:p-4 text-slate-700">Creates documentary record of genuine hardship.</td>
-                      <td className="p-3 sm:p-4">Strong defense against Section 25 penal intent.</td>
-                      <td className="p-3 sm:p-4 text-blue-600 font-bold">Essential for Defense.</td>
+                      <td className="p-3 sm:p-4 font-bold text-slate-900">Lender Hardship Notice</td>
+                      <td className="p-3 sm:p-4">Registered email informing inability to maintain mandate</td>
+                      <td className="p-3 sm:p-4 text-slate-700">Creates documentary record of genuine hardship</td>
+                      <td className="p-3 sm:p-4">Strong defense against Section 25 criminal intent</td>
+                      <td className="p-3 sm:p-4 text-blue-600 font-bold">Essential for Defense</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/50">
-                      <td className="p-3 sm:p-4 font-bold text-slate-900">Account Depletion Only.</td>
-                      <td className="p-3 sm:p-4">Keeping zero balance without formal mandate stop.</td>
-                      <td className="p-3 sm:p-4 text-rose-600 font-semibold">Negative balance spirals due to recurring charges.</td>
-                      <td className="p-3 sm:p-4">Leaves account vulnerable to unexpected debits.</td>
-                      <td className="p-3 sm:p-4 text-amber-600 font-bold">Incomplete safety.</td>
+                      <td className="p-3 sm:p-4 font-bold text-slate-900">Account Depletion Only</td>
+                      <td className="p-3 sm:p-4">Keeping zero balance without formal mandate stop</td>
+                      <td className="p-3 sm:p-4 text-rose-600 font-semibold">Negative balance spirals due to recurring charges</td>
+                      <td className="p-3 sm:p-4">Leaves account vulnerable to unexpected debits</td>
+                      <td className="p-3 sm:p-4 text-amber-600 font-bold">Incomplete Protection</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/50">
-                      <td className="p-3 sm:p-4 font-bold text-slate-900">Passive Inaction.</td>
-                      <td className="p-3 sm:p-4">Ignoring notices and repeated automated bounces.</td>
-                      <td className="p-3 sm:p-4 text-rose-700 font-bold">Total loss of liquidity and severe score damage.</td>
-                      <td className="p-3 sm:p-4 text-rose-600 font-medium">Triggers Section 25 PSSA and Section 138 summons.</td>
-                      <td className="p-3 sm:p-4 text-rose-600 font-bold">High Risk Default.</td>
+                      <td className="p-3 sm:p-4 font-bold text-slate-900">Passive Inaction</td>
+                      <td className="p-3 sm:p-4">Ignoring notices and repeated automated bounces</td>
+                      <td className="p-3 sm:p-4 text-rose-700 font-bold">Total loss of liquidity and severe score damage</td>
+                      <td className="p-3 sm:p-4 text-rose-600 font-medium">Triggers Section 25 PSSA and Section 138 summons</td>
+                      <td className="p-3 sm:p-4 text-rose-600 font-bold">High Risk Default</td>
                     </tr>
                   </tbody>
                 </table>
@@ -288,9 +288,9 @@ export default function StopAutoDebitEcsBounceChargesClient() {
                 4. CIBIL Impact: Differentiating Bounces from Loan Default
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> Credit bureaus (CIBIL. Experian. CRIF High Mark. Equifax) calculate credit scores across five factors: Payment History (35%). Credit use (30%). Credit History Length (15%). Credit Mix (10%). Inquiries (10%). </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> Credit bureaus (CIBIL, Experian, CRIF High Mark, Equifax) calculate credit scores across five factors: Payment History (35%), Credit Utilization (30%), Credit History Length (15%), Credit Mix (10%), and Inquiries (10%). </p>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> An auto-debit cancellation or bank bounce is not reported as a separate score deduction. Instead. Overdue loan payments are reported as Days Past Due (DPD) default under Section 21 of CICRA 2005. Allowing continuous bounces wastes thousands of rupees in fine fees without protecting your CIBIL score. Cancelling the mandate preserves liquid capital to settle a structured One-Time closure (OTS) and secure an valid No Dues letter. </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> An auto-debit cancellation or bank bounce is not reported as a separate score deduction. Instead, overdue loan repayments are reported as Days Past Due (DPD) delinquency under Section 21 of CICRA 2005. Allowing continuous bounces wastes thousands of rupees in fine fees without protecting your CIBIL score. Cancelling the mandate preserves liquid capital to negotiate a structured One-Time Settlement (OTS) and secure an official No Dues Certificate. </p>
             </section>
 
             {/* SECTION 5: Visual Infographic Card */}
@@ -305,10 +305,10 @@ export default function StopAutoDebitEcsBounceChargesClient() {
                 </div>
                 <div className="flex flex-wrap items-center justify-between gap-2 pt-2 text-xs text-slate-600">
                   <span className="font-semibold text-slate-800">
-                    Figure 1: CredSettle 6-Stage Statutory Protocol for Electronic Mandate Revocation.
+                    Figure 1: CredSettle 6-Stage Statutory Protocol for Electronic Mandate Revocation
                   </span>
                   <a href="/images/infographics/stop-auto-debit-ecs-bounce-charges.jpg" target="_blank" rel="noopener noreferrer" className="text-[#1886ff] hover:underline font-bold inline-flex items-center gap-1">
-                    <span>View High-Res Blueprint.</span>
+                    <span>View High-Res Blueprint</span>
                     <ExternalLink className="w-3.5 h-3.5"/>
                   </a>
                 </div>
@@ -321,14 +321,14 @@ export default function StopAutoDebitEcsBounceChargesClient() {
                 6. Step-by-Step SOP: Stopping NACH &amp; ECS Mandates Safely
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> Revoking automated debit mandates requires an orderly procedure. This checked 6-stage SOP ensures safety against wrongful bank rejections and establishes documented defenses against claims threats. </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> Revoking automated debit mandates requires an orderly procedure. This verified 6-stage SOP ensures protection against wrongful bank rejections and establishes documented defenses against recovery harassment. </p>
 
               <div className="space-y-4 text-xs sm:text-sm text-slate-700">
                 {/* Stage 1 */}
                 <div className="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-2">
                   <div className="flex items-center gap-2">
                     <span className="w-6 h-6 rounded-full bg-[#1886ff] text-white flex items-center justify-center font-black text-xs">1</span>
-                    <h3 className="font-black text-slate-900 text-sm sm:text-base"> Mandate Audit &amp. UMRN Extraction </h3>
+                    <h3 className="font-black text-slate-900 text-sm sm:text-base"> Mandate Audit &amp; UMRN Extraction </h3>
                   </div>
                   <p className="leading-relaxed pl-8"> Review your recent bank statements to identify active debits. Extract the 20-digit alphanumeric Unique Mandate Reference Number (UMRN) from your NetBanking mandate dashboard. </p>
                 </div>
@@ -339,7 +339,7 @@ export default function StopAutoDebitEcsBounceChargesClient() {
                     <span className="w-6 h-6 rounded-full bg-[#1886ff] text-white flex items-center justify-center font-black text-xs">2</span>
                     <h3 className="font-black text-slate-900 text-sm sm:text-base"> Submission of Destination Bank Revocation Request </h3>
                   </div>
-                  <p className="leading-relaxed pl-8"> Submit Form M-02 at your bank branch or cancel digitally via NetBanking e-Mandates citing Section 4(vii) of NPCI guidelines. which obligates banks to honor customer revocation requests. </p>
+                  <p className="leading-relaxed pl-8"> Submit Form M-02 at your bank branch or cancel digitally via NetBanking e-Mandates citing Section 4(vii) of NPCI guidelines, which obligates banks to honor customer revocation requests. </p>
                 </div>
 
                 {/* Stage 3 */}
@@ -348,34 +348,34 @@ export default function StopAutoDebitEcsBounceChargesClient() {
                     <span className="w-6 h-6 rounded-full bg-[#1886ff] text-white flex items-center justify-center font-black text-xs">3</span>
                     <h3 className="font-black text-slate-900 text-sm sm:text-base"> Formal Written Notice to the Lending Entity </h3>
                   </div>
-                  <p className="leading-relaxed pl-8"> Send an valid notice via registered email to the lender explaining money hardship. Revoking debit approval. Offering to discuss structured manual closure options. </p>
+                  <p className="leading-relaxed pl-8"> Send an official notice via registered email to the lender explaining financial hardship, revoking debit authorization, and offering to discuss structured manual settlement options. </p>
                 </div>
 
                 {/* Stage 4 */}
                 <div className="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-2">
                   <div className="flex items-center gap-2">
                     <span className="w-6 h-6 rounded-full bg-[#1886ff] text-white flex items-center justify-center font-black text-xs">4</span>
-                    <h3 className="font-black text-slate-900 text-sm sm:text-base"> Neutralizing Payroll &amp. Switching Primary Accounts </h3>
+                    <h3 className="font-black text-slate-900 text-sm sm:text-base"> Neutralizing Payroll &amp; Switching Primary Accounts </h3>
                   </div>
-                  <p className="leading-relaxed pl-8"> If your loan is with your salary bank. Redirect payroll to a separate non-linked bank account to prevent unilateral set-off deductions under Section 171 of the Indian Contract Act. </p>
+                  <p className="leading-relaxed pl-8"> If your loan is with your salary bank, redirect payroll to a separate non-linked bank account to prevent unilateral set-off deductions under Section 171 of the Indian Contract Act. </p>
                 </div>
 
                 {/* Stage 5 */}
                 <div className="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-2">
                   <div className="flex items-center gap-2">
                     <span className="w-6 h-6 rounded-full bg-[#1886ff] text-white flex items-center justify-center font-black text-xs">5</span>
-                    <h3 className="font-black text-slate-900 text-sm sm:text-base"> Disputing &amp. Claiming Refund of Unfair Bounce Charges </h3>
+                    <h3 className="font-black text-slate-900 text-sm sm:text-base"> Disputing &amp; Claiming Refund of Unfair Bounce Charges </h3>
                   </div>
-                  <p className="leading-relaxed pl-8"> Submit a formal claim with your bank Grievance head demanding a refund of duplicate bounce charges levied on multiple retry attempts within the same billing cycle under RBI norms. </p>
+                  <p className="leading-relaxed pl-8"> Submit a formal claim with your bank Grievance Officer demanding a refund of duplicate bounce charges levied on multiple retry attempts within the same billing cycle under RBI norms. </p>
                 </div>
 
                 {/* Stage 6 */}
                 <div className="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-2">
                   <div className="flex items-center gap-2">
                     <span className="w-6 h-6 rounded-full bg-[#1886ff] text-white flex items-center justify-center font-black text-xs">6</span>
-                    <h3 className="font-black text-slate-900 text-sm sm:text-base"> Structured Debt closure &amp. Formal Loan Closure </h3>
+                    <h3 className="font-black text-slate-900 text-sm sm:text-base"> Structured Debt Settlement &amp; Formal Loan Closure </h3>
                   </div>
-                  <p className="leading-relaxed pl-8"> Partner with CredSettle to represent your case before the lender credit board. Settle a 40% to 70% waiver on penal dues. Secure an valid No Dues letter. </p>
+                  <p className="leading-relaxed pl-8"> Partner with CredSettle to represent your case before the lender credit committee, negotiate a 40% to 70% waiver on penal dues, and secure an official No Dues Certificate. </p>
                 </div>
               </div>
             </section>
@@ -386,43 +386,43 @@ export default function StopAutoDebitEcsBounceChargesClient() {
                 7. Statutory Defense: Section 25 PSSA &amp; Section 138 NI Act
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> When auto-debit instructions fail or are cancelled. Lenders may issue legal notices. grasp the legal parameters protects you against coercive threaten. </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> When auto-debit instructions fail or are cancelled, lenders may issue statutory notices. Understanding the legal parameters protects you against coercive intimidation. </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {/* Card 1 */}
                 <div className="p-5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-2">
                   <div className="flex items-center gap-2">
                     <Gavel className="w-4 h-4 text-[#1886ff]"/>
-                    <h3 className="font-bold text-slate-900 text-sm sm:text-base"> Section 25 of Payment &amp. closure Systems Act </h3>
+                    <h3 className="font-bold text-slate-900 text-sm sm:text-base"> Section 25 of Payment &amp; Settlement Systems Act </h3>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Section 25 of PSSA 2007 governs online debit dishonour. Lenders must issue a written legal demand notice within 30 days of the bounce. This provides a mandatory 15-day cure window before initiating legal action. </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Section 25 of PSSA 2007 governs online debit dishonour. Lenders must issue a written statutory demand notice within 30 days of the bounce, providing a mandatory 15-day cure window before initiating legal action. </p>
                 </div>
 
                 {/* Card 2 */}
                 <div className="p-5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-2">
                   <div className="flex items-center gap-2">
                     <Scale className="w-4 h-4 text-[#1886ff]"/>
-                    <h3 className="font-bold text-slate-900 text-sm sm:text-base"> Absence of Mens Rea &amp. Bona Fide Hardship </h3>
+                    <h3 className="font-bold text-slate-900 text-sm sm:text-base"> Absence of Mens Rea &amp; Bona Fide Hardship </h3>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Serving a prior written hardship notification to the lender establishes genuine civil inability to pay. Defeating allegations of fraudulent intent or deliberate penal evasion. </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Serving a prior written hardship notification to the lender establishes genuine civil inability to pay, defeating allegations of fraudulent intent or deliberate criminal evasion. </p>
                 </div>
 
                 {/* Card 3 */}
                 <div className="p-5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-2">
                   <div className="flex items-center gap-2">
                     <ShieldAlert className="w-4 h-4 text-[#1886ff]"/>
-                    <h3 className="font-bold text-slate-900 text-sm sm:text-base"> Disputing Inflated Penal Dues in legal Replies </h3>
+                    <h3 className="font-bold text-slate-900 text-sm sm:text-base"> Disputing Inflated Penal Dues in Statutory Replies </h3>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> legal demand notices that include un-crystallized. Compound penal rates can be by law challenged in formal replies drafted through CredSettle. Exposing defects in the demand. </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Statutory demand notices that include un-crystallized, compound penal interest can be legally challenged in formal replies drafted through CredSettle, exposing defects in the demand. </p>
                 </div>
 
                 {/* Card 4 */}
                 <div className="p-5 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-2">
                   <div className="flex items-center gap-2">
                     <Landmark className="w-4 h-4 text-[#1886ff]"/>
-                    <h3 className="font-bold text-slate-900 text-sm sm:text-base"> RBI Anti-Coercion &amp. agents Safeguards </h3>
+                    <h3 className="font-bold text-slate-900 text-sm sm:text-base"> RBI Anti-Coercion &amp; Recovery Agent Safeguards </h3>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Under RBI Fair Practices Code. Lenders cannot threaten police arrest. Send fake court summons on WhatsApp. Make calls outside the permitted 8:00 AM to 7:00 PM window. </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Under RBI Fair Practices Code, lenders cannot threaten police arrest, send fake court summons on WhatsApp, or make calls outside the permitted 8:00 AM to 7:00 PM window. </p>
                 </div>
               </div>
             </section>
@@ -433,36 +433,36 @@ export default function StopAutoDebitEcsBounceChargesClient() {
                 8. 3-Tier Escalation Matrix: Institutional Grievance Redress
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> If your destination bank unlawfully rejects your mandate cancellation request. Activate the formal bank redressal machinery established by the Reserve Bank of India. </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> If your destination bank unlawfully rejects your mandate cancellation request, activate the formal institutional redressal machinery established by the Reserve Bank of India. </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
                 <table className="w-full text-left text-xs sm:text-sm divide-y divide-slate-200/80">
                   <thead className="bg-slate-100/80 text-slate-800 font-bold uppercase tracking-wider text-[11px]">
                     <tr className="divide-x divide-slate-200/80">
                       <th className="p-3 sm:p-4">Escalation Tier</th>
-                      <th className="p-3 sm:p-4">Designated Authority.</th>
+                      <th className="p-3 sm:p-4">Designated Authority</th>
                       <th className="p-3 sm:p-4">Resolution SLA</th>
-                      <th className="p-3 sm:p-4">Scope of Relief &amp; Enforcement Action.</th>
+                      <th className="p-3 sm:p-4">Scope of Relief &amp; Enforcement Action</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-700">
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/50">
-                      <td className="p-3 sm:p-4 font-bold text-slate-900">Level 1: Branch / GRO.</td>
-                      <td className="p-3 sm:p-4">Branch Manager &amp. Grievance Redressal head.</td>
-                      <td className="p-3 sm:p-4 font-semibold text-slate-800">7 to 10 Working Days.</td>
+                      <td className="p-3 sm:p-4 font-bold text-slate-900">Level 1: Branch / GRO</td>
+                      <td className="p-3 sm:p-4">Branch Manager &amp; Grievance Redressal Officer</td>
+                      <td className="p-3 sm:p-4 font-semibold text-slate-800">7 to 10 Working Days</td>
                       <td className="p-3 sm:p-4">Manual mandate stop in Core Banking System (CBS) and first review of bounce charge waivers.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/50">
-                      <td className="p-3 sm:p-4 font-bold text-slate-900">Level 2: main sum Nodal head.</td>
-                      <td className="p-3 sm:p-4">Bank main sum Nodal head (PNO Desk).</td>
-                      <td className="p-3 sm:p-4 font-semibold text-slate-800">14 to 21 Working Days.</td>
-                      <td className="p-3 sm:p-4">Enforces systemic UMRN deactivation across zonal clearing hubs and orders relief of wrongful debits.</td>
+                      <td className="p-3 sm:p-4 font-bold text-slate-900">Level 2: Principal Nodal Officer</td>
+                      <td className="p-3 sm:p-4">Bank Principal Nodal Officer (PNO Desk)</td>
+                      <td className="p-3 sm:p-4 font-semibold text-slate-800">14 to 21 Working Days</td>
+                      <td className="p-3 sm:p-4">Enforces systemic UMRN deactivation across zonal clearing hubs and orders restitution of wrongful debits.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/50">
-                      <td className="p-3 sm:p-4 font-bold text-slate-900">Level 3: RBI Integrated RBI officer.</td>
-                      <td className="p-3 sm:p-4">RBI RBI officer (cms.rbi.org.in / 14448).</td>
-                      <td className="p-3 sm:p-4 font-semibold text-slate-800">30 Days legal Window.</td>
-                      <td className="p-3 sm:p-4">Binding RBI orders penalizing bank service deficiencies and awarding consumer compensation.</td>
+                      <td className="p-3 sm:p-4 font-bold text-slate-900">Level 3: RBI Integrated Ombudsman</td>
+                      <td className="p-3 sm:p-4">RBI Ombudsman (cms.rbi.org.in / 14448)</td>
+                      <td className="p-3 sm:p-4 font-semibold text-slate-800">30 Days Statutory Window</td>
+                      <td className="p-3 sm:p-4">Binding regulatory orders penalizing bank service deficiencies and awarding consumer compensation.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -475,7 +475,7 @@ export default function StopAutoDebitEcsBounceChargesClient() {
                 9. Chronological Timeline: Default to Mandate Neutralization
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> grasp the typical procedural trajectory allows clients to anticipate bank actions and execute decisive counter-measures at each key milestone. </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> Understanding the typical procedural trajectory allows borrowers to anticipate bank actions and execute decisive counter-measures at each critical milestone. </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
                 <table className="w-full text-left text-xs sm:text-sm divide-y divide-slate-200/80">
@@ -483,40 +483,40 @@ export default function StopAutoDebitEcsBounceChargesClient() {
                     <tr className="divide-x divide-slate-200/80">
                       <th className="p-3 sm:p-4">Timeline Phase</th>
                       <th className="p-3 sm:p-4">Account Status</th>
-                      <th className="p-3 sm:p-4">Lender / Banking Action.</th>
-                      <th className="p-3 sm:p-4">Mandatory Borrower Action.</th>
+                      <th className="p-3 sm:p-4">Lender / Banking Action</th>
+                      <th className="p-3 sm:p-4">Mandatory Borrower Action</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-700">
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/50">
                       <td className="p-3 sm:p-4 font-bold text-slate-900">Day 1 to 5</td>
-                      <td className="p-3 sm:p-4">first Default (SMA-0).</td>
-                      <td className="p-3 sm:p-4">Automated NACH presentation bounce. inward return charges debited.</td>
+                      <td className="p-3 sm:p-4">Initial Default (SMA-0)</td>
+                      <td className="p-3 sm:p-4">Automated NACH presentation bounce; inward return charges debited.</td>
                       <td className="p-3 sm:p-4">Extract UMRN numbers and submit online mandate revocation.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/50">
                       <td className="p-3 sm:p-4 font-bold text-slate-900">Day 6 to 30</td>
-                      <td className="p-3 sm:p-4">default (SMA-1).</td>
-                      <td className="p-3 sm:p-4">Repeated clearing retries. calls calls and payment reminder SMS.</td>
-                      <td className="p-3 sm:p-4">Submit real Form M-02 at branch. serve written hardship notice.</td>
+                      <td className="p-3 sm:p-4">Delinquency (SMA-1)</td>
+                      <td className="p-3 sm:p-4">Repeated clearing retries; collection calls and payment reminder SMS.</td>
+                      <td className="p-3 sm:p-4">Submit physical Form M-02 at branch; serve written hardship notice.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/50">
                       <td className="p-3 sm:p-4 font-bold text-slate-900">Day 31 to 60</td>
-                      <td className="p-3 sm:p-4">Late default (SMA-2).</td>
-                      <td className="p-3 sm:p-4">legal legal notice issued under Section 25 PSSA / Sec 138 NI Act.</td>
-                      <td className="p-3 sm:p-4">Issue formal legal reply disputing penal rates and debt calculation.</td>
+                      <td className="p-3 sm:p-4">Late Delinquency (SMA-2)</td>
+                      <td className="p-3 sm:p-4">Statutory legal notice issued under Section 25 PSSA / Sec 138 NI Act.</td>
+                      <td className="p-3 sm:p-4">Issue formal legal reply disputing penal interest and debt calculation.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/50">
                       <td className="p-3 sm:p-4 font-bold text-slate-900">Day 90+</td>
-                      <td className="p-3 sm:p-4">NPA Classification.</td>
-                      <td className="p-3 sm:p-4">Loan classified as Non-Performing Asset. legal desk assigns file for OTS.</td>
-                      <td className="p-3 sm:p-4">Engage CredSettle for bilateral One-Time closure talks.</td>
+                      <td className="p-3 sm:p-4">NPA Classification</td>
+                      <td className="p-3 sm:p-4">Loan classified as Non-Performing Asset; legal desk assigns file for OTS.</td>
+                      <td className="p-3 sm:p-4">Engage CredSettle for bilateral One-Time Settlement negotiations.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/50">
                       <td className="p-3 sm:p-4 font-bold text-slate-900">Month 4 to 6</td>
-                      <td className="p-3 sm:p-4">relief &amp. Closure.</td>
+                      <td className="p-3 sm:p-4">Resolution &amp; Closure</td>
                       <td className="p-3 sm:p-4">Issuance of formal OTS approval letter with 40% to 70% waiver.</td>
-                      <td className="p-3 sm:p-4">pay deal closure amount and secure original NDC.</td>
+                      <td className="p-3 sm:p-4">Remit compromise settlement amount and secure original NDC.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -529,7 +529,7 @@ export default function StopAutoDebitEcsBounceChargesClient() {
                 10. Specialized Scenarios: Multiple Lenders, Salary &amp; ARCs
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> exact borrowing arrangements require tailored tactical steps to terminate automated debit instructions safely. </p>
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed"> Specific borrowing arrangements require tailored tactical steps to terminate automated debit instructions safely. </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {/* Scenario 1 */}
@@ -547,7 +547,7 @@ export default function StopAutoDebitEcsBounceChargesClient() {
                     <Building2 className="w-4 h-4 text-[#1886ff]"/>
                     <h3 className="font-bold text-slate-900 text-sm sm:text-base"> Salary Account with the Same Lending Bank </h3>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Migrate payroll to a separate bank fast to stop the lender from executing unilateral balance deductions under Banker Right of Set-Off (Section 171 Contract Act). </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Migrate payroll to a separate bank immediately to stop the lender from executing unilateral balance deductions under Banker Right of Set-Off (Section 171 Contract Act). </p>
                 </div>
 
                 {/* Scenario 3 */}
@@ -565,7 +565,7 @@ export default function StopAutoDebitEcsBounceChargesClient() {
                     <Briefcase className="w-4 h-4 text-[#1886ff]"/>
                     <h3 className="font-bold text-slate-900 text-sm sm:text-base"> Debt Assignment to Asset Reconstruction Companies </h3>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> When loans are sold to ARCs under SARFAESI Section 5. Presenting the assignment letter at your bank enables fast permanent cancellation of legacy ECS mandates. </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> When loans are sold to ARCs under SARFAESI Section 5, presenting the assignment letter at your bank enables immediate permanent cancellation of legacy ECS mandates. </p>
                 </div>
               </div>
             </section>
@@ -612,31 +612,31 @@ export default function StopAutoDebitEcsBounceChargesClient() {
                 Statutory Citations &amp; Regulatory References
               </h2>
 
-              <p className="text-xs text-slate-600 leading-relaxed"> This thorough guide is authored in strict accordance with Indian banking law. Reserve Bank of India Master Directions. Landmark judicial pronouncements governing online payment systems: </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> This comprehensive guide is authored in strict accordance with Indian banking law, Reserve Bank of India Master Directions, and landmark judicial pronouncements governing online payment systems: </p>
 
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5 pt-1 text-xs">
                 <a href="https://www.rbi.org.in" target="_blank" rel="noopener noreferrer" className="p-2.5 rounded-xl bg-white border border-slate-200 hover:border-[#1886ff] text-slate-700 hover:text-[#1886ff] font-semibold flex items-center justify-between transition-colors shadow-2xs">
-                  <span>RBI Master Directions.</span>
+                  <span>RBI Master Directions</span>
                   <ExternalLink className="w-3.5 h-3.5 text-slate-400"/>
                 </a>
                 <a href="https://cms.rbi.org.in" target="_blank" rel="noopener noreferrer" className="p-2.5 rounded-xl bg-white border border-slate-200 hover:border-[#1886ff] text-slate-700 hover:text-[#1886ff] font-semibold flex items-center justify-between transition-colors shadow-2xs">
-                  <span>RBI Ombudsman Portal.</span>
+                  <span>RBI Ombudsman Portal</span>
                   <ExternalLink className="w-3.5 h-3.5 text-slate-400"/>
                 </a>
                 <a href="https://www.cibil.com" target="_blank" rel="noopener noreferrer" className="p-2.5 rounded-xl bg-white border border-slate-200 hover:border-[#1886ff] text-slate-700 hover:text-[#1886ff] font-semibold flex items-center justify-between transition-colors shadow-2xs">
-                  <span>TransUnion CIBIL Bureau.</span>
+                  <span>TransUnion CIBIL Bureau</span>
                   <ExternalLink className="w-3.5 h-3.5 text-slate-400"/>
                 </a>
                 <a href="https://www.indiacode.nic.in" target="_blank" rel="noopener noreferrer" className="p-2.5 rounded-xl bg-white border border-slate-200 hover:border-[#1886ff] text-slate-700 hover:text-[#1886ff] font-semibold flex items-center justify-between transition-colors shadow-2xs">
-                  <span>PSSA 2007 &amp; NI Act.</span>
+                  <span>PSSA 2007 &amp; NI Act</span>
                   <ExternalLink className="w-3.5 h-3.5 text-slate-400"/>
                 </a>
                 <a href="https://nalsa.gov.in" target="_blank" rel="noopener noreferrer" className="p-2.5 rounded-xl bg-white border border-slate-200 hover:border-[#1886ff] text-slate-700 hover:text-[#1886ff] font-semibold flex items-center justify-between transition-colors shadow-2xs">
-                  <span>NALSA Legal Services.</span>
+                  <span>NALSA Legal Services</span>
                   <ExternalLink className="w-3.5 h-3.5 text-slate-400"/>
                 </a>
                 <a href="https://cybercrime.gov.in" target="_blank" rel="noopener noreferrer" className="p-2.5 rounded-xl bg-white border border-slate-200 hover:border-[#1886ff] text-slate-700 hover:text-[#1886ff] font-semibold flex items-center justify-between transition-colors shadow-2xs">
-                  <span>Cyber Crime Reporting.</span>
+                  <span>Cyber Crime Reporting</span>
                   <ExternalLink className="w-3.5 h-3.5 text-slate-400"/>
                 </a>
               </div>
@@ -686,12 +686,12 @@ export default function StopAutoDebitEcsBounceChargesClient() {
                 </div>
                 <div>
                   <p className="font-bold text-slate-900 text-sm">Ashish Jhangra</p>
-                  <p className="text-[11px] text-slate-500 font-medium">Legal &amp. Debt relief experts.</p>
+                  <p className="text-[11px] text-slate-500 font-medium">Legal &amp; Debt Resolution Professional</p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed"> Specialist in Indian banking dispute relief. Consumer credit safety. settle debt closures under the RBI RBI framework. </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> Specialist in Indian banking dispute resolution, consumer credit protection, and negotiated debt settlements under the RBI regulatory framework. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500 font-medium">
-                <span>Verified Authority.</span>
+                <span>Verified Authority</span>
                 <span className="text-emerald-600 font-bold">Active Counsel</span>
               </div>
             </div>
@@ -702,19 +702,19 @@ export default function StopAutoDebitEcsBounceChargesClient() {
                 <Phone className="w-5 h-5 text-white"/>
               </div>
               <div>
-                <p className="font-extrabold text-base sm:text-lg tracking-tight"> Stop unlawful Deductions Now. </p>
-                <p className="text-xs text-white/90 mt-1.5 leading-relaxed"> Are loan apps repeatedly hitting your account with unlawful bounce fines? Speak with our legal relief team today. </p>
+                <p className="font-extrabold text-base sm:text-lg tracking-tight"> Stop Illegal Deductions Now. </p>
+                <p className="text-xs text-white/90 mt-1.5 leading-relaxed"> Are loan apps repeatedly hitting your account with unlawful bounce fines? Speak with our legal resolution team today. </p>
               </div>
 
               <div className="pt-1">
                 <a href="tel:+918800226635" className="block w-full py-2.5 px-4 rounded-xl bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-xs sm:text-sm hover:bg-slate-50 transition-all shadow-sm">
-                  Call +91-8800226635.
+                  Call +91-8800226635
                 </a>
               </div>
 
               <div className="text-[11px] text-white/80 flex items-center justify-center gap-1.5 pt-1">
                 <Lock className="w-3.5 h-3.5"/>
-                <span>100% Confidential &amp; Legal.</span>
+                <span>100% Confidential &amp; Legal</span>
               </div>
             </div>
 
@@ -722,13 +722,13 @@ export default function StopAutoDebitEcsBounceChargesClient() {
             <div className="rounded-2xl border border-slate-200/80 bg-white p-4 shadow-xs space-y-3 text-xs text-slate-700">
               <div className="flex items-center gap-2 pb-2 border-b border-slate-100 font-bold text-slate-900">
                 <Award className="w-4 h-4 text-[#1886ff]"/>
-                <span>CredSettle Legal Standards.</span>
+                <span>CredSettle Legal Standards</span>
               </div>
               <ul className="space-y-2 text-[11px] text-slate-600">
                 <li className="flex items-center gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/> <span>Strict RBI Fair Practices Compliance.</span> </li>
-                <li className="flex items-center gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/> <span>No Upfront closure Commission.</span> </li>
-                <li className="flex items-center gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/> <span>Direct Bank PNO Level talks.</span> </li>
-                <li className="flex items-center gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/> <span>valid No Dues letter Guarantee.</span> </li>
+                <li className="flex items-center gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/> <span>No Upfront Settlement Commission.</span> </li>
+                <li className="flex items-center gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/> <span>Direct Bank PNO Level Negotiation.</span> </li>
+                <li className="flex items-center gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/> <span>Official No Dues Certificate Guarantee.</span> </li>
               </ul>
             </div>
           </aside>

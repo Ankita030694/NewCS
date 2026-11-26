@@ -111,10 +111,10 @@ export default function LoanSettlementPage() {
           </h2>
           <div className="prose max-w-none text-gray-700 leading-relaxed space-y-4">
             <p>
-              Money problems like job loss, medical crises, or business losses can make it hard to pay monthly EMIs. In such cases, an official <strong>One-Time Settlement (OTS)</strong> offers a legal way to close unsecured debts. Under Reserve Bank of India (RBI) rules, banks and NBFCs have clear policies to agree on reduced lump-sum settlements.
+              Money problems like job loss, medical crises, or business losses can make it hard to pay monthly EMIs. In such cases, an official <strong>One-Time Settlement (OTS)</strong> offers a legal way to close unsecured debts. Under Reserve Bank of India (RBI) prudential guidelines, commercial banks and Non-Banking Financial clear policies to negotiate reduced lump-sum or staggered settlements.
             </p>
             <p>
-              Settlement rules differ based on the lender type. <strong>Public Sector Banks (such as SBI, PNB, and Bank of Baroda)</strong> mostly work under board-approved schemes or Lok Adalats. They require clear proof of hardship. In contrast, <strong>Private Banks (such as HDFC, ICICI, and Axis Bank)</strong> and digital NBFCs allow internal teams to approve waivers on interest and penalty fees. They often close settlements within 30 to 60 days.
+              Settlement rules differ based on the lender type. <strong>Public Sector Banks (such as SBI, PNB, and Bank of Baroda)</strong> mostly work under board-approved schemes or Lok Adalats. They require clear proof of hardship. Conversely, <strong>Private Banks (such as HDFC, ICICI, and Axis Bank)</strong> and digital NBFCs allow internal teams to approve waivers on interest and penal fees. They often close settlements within 30 to 60 days.
             </p>
           </div>
 
@@ -137,7 +137,7 @@ export default function LoanSettlementPage() {
             <div className="p-5 bg-blue-50/60 rounded-xl border border-blue-100">
               <h4 className="font-semibold text-blue-950 mb-2">3. Sanction Letter & NDC</h4>
               <p className="text-sm text-gray-600">
-                Never pay money without a formal settlement letter on the bank&apos;s letterhead. After payment, always get your official No Dues Certificate (NDC).
+                Never pay without an official settlement letter issued on the bank&apos;s formal letterhead. After payment, always get your official No Dues Certificate (NDC).
               </p>
             </div>
           </div>
@@ -154,12 +154,12 @@ export default function LoanSettlementPage() {
                 Can banks file police cases for personal loan default?
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                No. In India, default on an unsecured personal loan or credit card is a civil dispute. It is not a crime. Banks cannot file police cases for non-payment unless there is clear proof of fraud or forgery.
+                No. In India, defaulting on an unsecured personal loan or credit card is fundamentally a civil dispute, not a criminal offence. Banks cannot file police cases for non-payment unless there is clear proof of fraud or forgery.
               </p>
             </div>
             <div className="border-t pt-6">
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                How much waiver can you expect from your lender?
+                How much waiver can I reasonably expect from my lender?
               </h3>
               <p className="text-gray-600 leading-relaxed">
                 Waiver rates depend on the default period and hardship proof. For unsecured personal loans and credit cards past 180 days, settlements often close between 40% and 60% of the total balance.
@@ -167,10 +167,10 @@ export default function LoanSettlementPage() {
             </div>
             <div className="border-t pt-6">
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                What is the impact of an OTS on your CIBIL score?
+                What is the impact of an OTS on my CIBIL credit score?
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                When a loan is settled for less than the full amount, the bank reports the account as &quot;Settled&quot; instead of &quot;Closed&quot;. This causes a temporary score drop. You can upgrade the status to &quot;Closed&quot; later by paying the waived balance once your finances improve.
+                When a loan is settled for less than the full amount, the bank reports the account as &quot;Settled&quot; rather than &quot;Closed&quot;. This leads to a temporary credit score drop. You can upgrade the status to &quot;Closed&quot; later by paying the waived balance once your finances improve.
               </p>
             </div>
           </div>

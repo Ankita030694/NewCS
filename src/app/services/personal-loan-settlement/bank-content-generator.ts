@@ -605,7 +605,7 @@ export function generateBankContent(bankSlug: string): Partial<BankContent> | {}
 
     // H2: Understanding [Bank Name] Loan Settlement Process
     understandingSettlement: [
-      `Settling a personal loan with ${name} follows RBI OTS rules. It lets you close your unpaid loan with a single reduced payment. CredSettle lawyers review your money hardship and present your facts to ${name}. Once agreed and paid, the bank issues an official No Dues Certificate.`,
+      `Settling a personal loan with ${name} follows RBI OTS rules. It lets you close your unpaid loan with a single reduced payment. CredSettle lawyers review your financial hardship and present your facts to ${name}. Once agreed and paid, the bank issues an official No Dues Certificate.`,
 
       `Loan settlement is a formal and legal process. It gives you an official agreement and a clear payment plan. For personal loans and cards, ${name} often waives 30% to 60% of total dues. Once you pay the agreed sum, you get a full No Dues Certificate.`,
 

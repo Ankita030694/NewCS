@@ -317,7 +317,7 @@ export default function DematMutualFundSeizureClient() {
                       <tr className="bg-slate-100 text-slate-700 border-b border-slate-200 font-semibold">
                         <th className="p-3">Financial Asset / Claim Component</th>
                         <th className="p-3">Bank Claim / Asset Value</th>
-                        <th className="p-3">legal Legal Protection Status</th>
+                        <th className="p-3">Statutory Legal Protection Status</th>
                         <th className="p-3 text-right">Protected Balance</th>
                       </tr>
                     </thead>
@@ -628,7 +628,7 @@ export default function DematMutualFundSeizureClient() {
                     <span>SEBI Investor Protection Rules</span>
                   </div>
                   <p className="text-xs text-slate-600 leading-relaxed">
-                    SEBI rules mandate strict privateity and account split. stockbrokers are prohibited from entertaining recovery requests from third-party non-judicial entities.
+                    SEBI rules mandate strict confidentiality and account segregation. Stockbrokers are prohibited from entertaining recovery requests from third-party non-judicial entities.
                   </p>
                 </div>
 

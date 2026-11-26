@@ -53,7 +53,7 @@ export const statesContent: Record<string, StateContent> = {
       },
       {
         question: 'How much does CredSettle charge for car loan settlement services in Maharashtra?',
-        answer: 'We charge fees only after a successful settlement with no advance payment. Contact us for a free case review and custom quote.'
+        answer: 'We charge fees only after successful settlement, with no upfront costs. Our transparent fee structure is based on the settlement amount and debt reduction achieved. Contact us for a free case review and custom quote.'
       }
     ],
     keywords: ['car loan settlement Maharashtra', 'vehicle loan settlement Mumbai', 'car loan OTS Pune', 'auto loan settlement Maharashtra', 'RBI compliant car loan settlement']
@@ -69,7 +69,7 @@ export const statesContent: Record<string, StateContent> = {
     faqs: [
       {
         question: 'Can I settle my car loan in Karnataka without losing my vehicle?',
-        answer: 'Yes, CredSettle helps you keep your car. We stop repossession action during negotiations and secure a 40% to 65% debt waiver.'
+        answer: 'Yes! CredSettle helps you keep your car. We stop repossession action during negotiations and secure a 40% to 65% debt waiver.'
       },
       {
         question: 'How long does car loan settlement take in Bangalore/Mysore?',
@@ -124,9 +124,9 @@ export function generateDefaultContent(stateName: string, slug: string): StateCo
     legalSupport: comprehensiveContent.legalSupport || `Our legal team protects you from lender harassment and repossession threats. We verify all settlement letters and ensure full legal protection under RBI rules.`,
     benefits: comprehensiveContent.benefits || `CredSettle offers key benefits: immediate stop to recovery calls, car protection, 40% to 65% debt reduction, no upfront fees, and support in rebuilding your credit score.`,
     rbiGuidelines: comprehensiveContent.rbiGuidelines || `RBI guidelines require banks to treat borrowers fairly during financial distress. Lenders must offer settlement options and follow proper procedures before taking any asset action.`,
-    stepByStepGuide: comprehensiveContent.stepByStepGuide || `Step 1: Free consultation and case review. Step 2: Legal notice to stop collection calls. Step 3: Hardship file preparation. Step 4: Bank negotiations (45 to 90 days). Step 5: Settlement agreement and payment. Step 6: No Dues Certificate and hypothecation removal.`,
+    stepByStepGuide: comprehensiveContent.stepByStepGuide || `Step 1: Free consultation and case analysis. Step 2: Legal notice to stop collection calls. Step 3: Hardship file preparation. Step 4: Bank negotiations (45 to 90 days). Step 5: Settlement agreement and payment. Step 6: No Dues Certificate and hypothecation removal.`,
     caseStudy: comprehensiveContent.caseStudy || `A borrower in ${cityName} had a car loan balance of ₹8.5 lakh on a car worth ₹5 lakh. CredSettle negotiated an approved settlement of ₹3.8 lakh, delivering a 55% waiver. The client kept the car and cleared the loan with full legal closure.`,
-    finalThoughts: comprehensiveContent.finalThoughts || `If you are struggling with car loan EMIs in ${stateName}, a legal settlement provides a practical way out. CredSettle stops collection pressure and helps you settle your loan safely. Contact us today for a free consultation.`,
+    finalThoughts: comprehensiveContent.finalThoughts || `If you are struggling with car loan EMIs in ${stateName}, a legal settlement provides a practical way out. CredSettle stops collection pressure and helps you settle your loan safely. Contact us today for your free consultation.`,
     faqs: comprehensiveContent.faqs || [
       {
         question: `How does car loan settlement work in ${stateName}?`,
@@ -134,11 +134,11 @@ export function generateDefaultContent(stateName: string, slug: string): StateCo
       },
       {
         question: `Can I keep my vehicle after settlement in ${stateName}?`,
-        answer: `Yes, in most cases you keep your vehicle. We put repossession on hold and structure a settlement that protects your car ownership.`
+        answer: `Yes! in most cases you keep your vehicle. We put repossession on hold and structure a settlement that protects your car ownership.`
       },
       {
         question: `Will settlement affect my CIBIL score in ${stateName}?`,
-        answer: `Settlement shows as Settled on your CIBIL report. While your score drops temporarily, you can rebuild it to 650-700 within 18 to 24 months.`
+        answer: `Settlement shows as Settled on your CIBIL report. While your score drops temporarily, you can rebuild it to 650-700 within 18-24 months.`
       },
       {
         question: `What types of vehicle loans can CredSettle settle in ${stateName}?`,

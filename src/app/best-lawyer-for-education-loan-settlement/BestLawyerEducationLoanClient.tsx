@@ -99,7 +99,7 @@ export default function BestLawyerEducationLoanClient() {
         },
         {
             question: "What should I do if I receive a Lok Adalat notice for my student loan?",
-            answer: "A Lok Adalat notice is a chance to settle your debt amicably. It is best to consult a lawyer before attending so you can negotiate the best waiver."
+            answer: "A Lok Adalat notice is an invitation to settle the matter amicably. It is best to consult a lawyer before attending so you can negotiate the best waiver."
         },
         {
             question: "How long does the student loan settlement process generally take?",

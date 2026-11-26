@@ -36,8 +36,8 @@ export const statesContent: Record<string, StateContent> = {
     ...generateAppLoanContent('maharashtra') as any,
     faqs: [
       {
-        question: 'Can CredSettle stop app loan harassment in 48 hours in Mumbai/Pune?',
-        answer: 'Yes, we send formal legal notices to app lenders and recovery agents. This stops phone calls, messages, and contact harassment within 24 to 48 hours.'
+        question: 'Can CredSettle really stop app loan harassment in 48 hours in Mumbai/Pune?',
+        answer: 'Yes! we send formal legal notices to app lenders and recovery agents. This stops phone calls, messages, and contact harassment within 24 to 48 hours.'
       },
       {
         question: 'How much debt reduction can I expect on app loan settlements in Maharashtra?',
@@ -68,7 +68,7 @@ export const statesContent: Record<string, StateContent> = {
     ...generateAppLoanContent('karnataka') as any,
     faqs: [
       {
-        question: 'Can CredSettle stop app loan harassment in 48 hours in Bangalore?',
+        question: 'Can CredSettle really stop app loan harassment in 48 hours in Bangalore?',
         answer: 'Yes, our lawyers issue formal legal notices immediately. This stops collection agent calls and protects your contact list within 24 to 48 hours.'
       },
       {
@@ -123,18 +123,18 @@ export function generateDefaultContent(stateName: string, slug: string): StateCo
     negotiationHelp: comprehensiveContent.negotiationHelp || `CredSettle lawyers negotiate with multiple digital lenders at the same time. We know lender policies and RBI rules to secure the highest possible debt waivers.`,
     legalSupport: comprehensiveContent.legalSupport || `Our legal team protects you from collection harassment and data privacy violations. We ensure every settlement agreement is legally binding and permanently closes your accounts.`,
     benefits: comprehensiveContent.benefits || `CredSettle offers essential benefits: harassment stops within 48 hours, privacy protection, 50% to 75% debt reduction, multi-app settlement plans, and zero upfront fees.`,
-    rbiGuidelines: comprehensiveContent.rbiGuidelines || `RBI guidelines protect borrowers from unfair recovery practices. Lenders cannot harass contacts or use threatening language. CredSettle ensures your rights are protected throughout the settlement.`,
-    stepByStepGuide: comprehensiveContent.stepByStepGuide || `Step 1: Free consultation and case review. Step 2: Legal notices to stop harassment within 48 hours. Step 3: Loan account mapping. Step 4: Multi-app negotiations (45 to 90 days). Step 5: Final settlement payment and closure letters.`,
+    rbiGuidelines: comprehensiveContent.rbiGuidelines || `RBI guidelines protect borrowers from unfair recovery practices. Lenders cannot harass contacts or use threatening language. CredSettle ensures your rights under these frameworks are protected throughout settlement.`,
+    stepByStepGuide: comprehensiveContent.stepByStepGuide || `Step 1: Free consultation and crisis assessment. Step 2: Legal notices to stop harassment within 48 hours. Step 3: Loan account mapping. Step 4: Multi-app negotiations (45 to 90 days). Step 5: Final settlement payment and closure letters.`,
     caseStudy: comprehensiveContent.caseStudy || `A borrower in ${cityName} had debts across six apps totaling ₹1.2 lakh and faced daily collection calls. CredSettle stopped all calls within 48 hours and settled the entire debt for ₹38,000, delivering a 68% savings.`,
-    finalThoughts: comprehensiveContent.finalThoughts || `If you are dealing with app loan harassment in ${stateName}, taking action today is important. CredSettle stops collection calls and settles your debt safely. Contact us today for a free consultation.`,
+    finalThoughts: comprehensiveContent.finalThoughts || `If you are dealing with app loan harassment in ${stateName}, taking action today is important. CredSettle stops collection calls and settles your debt safely. Contact us today for your free consultation.`,
     faqs: comprehensiveContent.faqs || [
       {
         question: `How does app loan settlement work in ${stateName}?`,
         answer: `CredSettle sends legal notices to stop collection calls and negotiates with all your loan apps at once. This reduces your total debt by 50% to 75% under RBI rules.`
       },
       {
-        question: `Can CredSettle stop harassment in 48 hours in ${stateName}?`,
-        answer: `Yes, our legal notices invoke RBI guidelines and data privacy rules. This stops recovery calls and messages within 24 to 48 hours.`
+        question: `Can CredSettle really stop harassment in 48 hours in ${stateName}?`,
+        answer: `Yes! our legal notices invoke RBI guidelines and data privacy rules. This stops recovery calls and messages within 24 to 48 hours.`
       },
       {
         question: `How much debt reduction can I expect in ${stateName}?`,

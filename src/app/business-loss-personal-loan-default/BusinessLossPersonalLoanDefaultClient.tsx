@@ -381,21 +381,21 @@ export default function BusinessLossPersonalLoanDefaultClient() {
                     <tr className="bg-blue-50/30">
                       <td className="p-3 font-bold text-slate-900">One-Time Settlement (OTS)</td>
                       <td className="p-3 text-emerald-600 font-semibold">50% to 80% Total Reduction</td>
-                      <td className="p-3">Full debt closure and notice withdrawal.</td>
+                      <td className="p-3">Complete Discharge &amp; Notice Withdrawal</td>
                       <td className="p-3 font-mono text-[11px]">Settled / Zero Balance</td>
                       <td className="p-3">30 to 60 Days</td>
                     </tr>
                     <tr>
                       <td className="p-3 font-medium text-slate-900">Tenure Restructuring</td>
                       <td className="p-3 text-amber-600">0% Principal Haircut (Higher Total Interest)</td>
-                      <td className="p-3">Depends on strict future payments.</td>
+                      <td className="p-3">Conditional upon Strict Future Servicing</td>
                       <td className="p-3 font-mono text-[11px]">Restructured Facility</td>
                       <td className="p-3">45 to 90 Days</td>
                     </tr>
                     <tr>
                       <td className="p-3 font-medium text-slate-900">DRT / Civil Court Litigation</td>
                       <td className="p-3 text-rose-600">Heavy Legal Defense Costs</td>
-                      <td className="p-3">Lengthy court cases.</td>
+                      <td className="p-3">Adversarial Judicial Decrees</td>
                       <td className="p-3 font-mono text-[11px]">Suit Filed / Wilful Default</td>
                       <td className="p-3">2 to 5 Years</td>
                     </tr>
@@ -411,7 +411,7 @@ export default function BusinessLossPersonalLoanDefaultClient() {
                       <td className="p-3 text-rose-600">Continuous Compounding Penalties</td>
                       <td className="p-3 text-rose-600">Legal notices and court calls.</td>
                       <td className="p-3 font-mono text-[11px] text-rose-600">Written Off / Delinquent</td>
-                      <td className="p-3">Ongoing money stress.</td>
+                      <td className="p-3">Indefinite Financial Distress</td>
                     </tr>
                   </tbody>
                 </table>
@@ -537,7 +537,7 @@ export default function BusinessLossPersonalLoanDefaultClient() {
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
                   <h3 className="font-bold text-slate-900 text-base flex items-center gap-2">
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-xs font-black">5</span>
-                    Stage 5: Sanction Letter Review &amp; Verification
+                    Stage 5: Settlement Sanction Letter Legal Vetting &amp; Verification
                   </h3>
                   <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
                     Check the settlement letter with care. It must be on bank letterhead with an official stamp. It must list your exact loan number, payment dates, and promise to close the loan.
@@ -699,7 +699,7 @@ export default function BusinessLossPersonalLoanDefaultClient() {
                       <td className="p-3 font-bold text-slate-900">Day 61 to 90</td>
                       <td className="p-3 font-mono text-[11px]">SMA-2</td>
                       <td className="p-3">Pre-NPA warnings and case sent to recovery agents.</td>
-                      <td className="p-3">Use RBI rules to stop recovery agent harassment.</td>
+                      <td className="p-3">Assert RBI Fair Practices Code protections against third-party agent harassment.</td>
                     </tr>
                     <tr className="bg-amber-50/50">
                       <td className="p-3 font-bold text-slate-900">Day 91 to 120</td>

@@ -47,43 +47,43 @@ export default function MudraLoanDefaultConsequencesClient() {
     const faqs = [
         {
             q: 'Can a borrower be arrested for defaulting on a Mudra loan in India?',
-            a: 'No. Inability to repay due to genuine trade losses is strictly a civil dispute. Police arrest occurs only if deliberate fraud. Paper forgery. Or fraudulent fund siphoning is proven in court.'
+            a: 'No. Inability to repay due to genuine business losses is strictly a civil dispute. Police arrest occurs only if deliberate fraud, document forgery, or fraudulent fund siphoning is proven in court.'
         },
         {
             q: 'What is the role of CGFMU credit guarantee in Mudra loan defaults?',
-            a: 'The CGFMU scheme reimburses banks up to 75% of default losses. While covering bank balance sheets. It is not a client waiver. Meaning banks retain legal rights to recover dues.'
+            a: 'The CGFMU scheme reimburses institutional lenders up to 75% of default losses. While covering bank balance sheets, it is not a borrower waiver, meaning banks retain legal rights to recover dues.'
         },
         {
             q: 'Can banks seize residential property for an unsecured Mudra loan default?',
-            a: 'Under PMMY rules. All Mudra loans up to ₹10 Lakhs are strictly security-free. Lenders cannot initiate property attachment under SARFAESI because no immovable asset was mortgaged at sanction.'
+            a: 'Under PMMY rules, all Mudra loans up to ₹10 Lakhs are strictly collateral-free. Lenders cannot initiate property attachment under SARFAESI because no immovable asset was mortgaged at sanction.'
         },
         {
             q: 'How does a Mudra loan default impact credit bureau scores?',
-            a: 'Defaults are reported monthly to all four RBI-licensed bureaus. Escalating Days Past Due (DPD) drops scores by 150 to 250 points. Restricting borrowing until the debt is officially settled.'
+            a: 'Defaults are reported monthly to all four RBI-licensed bureaus. Escalating Days Past Due (DPD) drops scores by 150 to 250 points, restricting borrowing until the debt is officially settled.'
         },
         {
             q: 'Can a defaulted Mudra loan be settled through an official One-Time Settlement?',
-            a: "Yes. Once an account turns NPA. Banks can sanction a OTS deals under board-approved OTS policies. Waiving penalty charges and major main loan based on documented hardship."
+            a: "Yes. Once an account turns NPA, banks can sanction a compromise settlement under board-approved OTS policies, waiving penal charges and significant principal based on documented hardship."
         },
         {
             q: 'What percentage waiver can a borrower negotiate during a Mudra OTS?',
-            a: 'Clients presenting documented bankruptcy typically secure 100% waivers on penal interest and compounding fees. Alongside a 35% to 55% main loan haircut based on credit boards approvals.'
+            a: 'Borrowers presenting documented insolvency typically secure 100% waivers on penal interest and compounding fees, alongside a 35% to 55% principal haircut based on credit committee approvals.'
         },
         {
             q: 'What legal notices do banks issue during Mudra loan defaults?',
-            a: "Lenders issue 60-day loan recall notices. Section 138 NI Act notices for bounced security cheques. Section 25 PSSA notices for failed NACH mandates. Lok Adalat talks notices."
+            a: "Lenders issue 60-day loan recall notices, Section 138 NI Act notices for bounced security cheques, Section 25 PSSA notices for failed NACH mandates, and Lok Adalat conciliation notices."
         },
         {
             q: 'How should a borrower reply to a bank demand notice for a Mudra loan?',
-            a: "A client should reply through legal counsel within 15 to 30 days. Explaining genuine trade distress. Contesting penal fee compounding. Asserting Fair Practices. Requesting OTS terms."
+            a: "A borrower should reply through legal counsel within 15 to 30 days, explaining genuine business distress, contesting penal fee compounding, asserting Fair Practices, and requesting OTS terms."
         },
         {
             q: 'How long does it take to obtain a No Dues Certificate after Mudra settlement?',
-            a: "Following direct payment of the OTS deal amount into the bank loan account. The lender is mandated by RBI directives to issue an full No Dues letter within 30 days."
+            a: "Following direct remittance of the compromise amount into the bank loan account, the lender is mandated by RBI directives to issue an unconditional No Dues Certificate within 30 days."
         },
         {
             q: 'Can a settled Mudra loan record in CIBIL be upgraded to closed status later?',
-            a: 'Yes. After completing settlement. Clients can rebuild their credit profile. If future finances permit. Repaying the waived haircut amount allows the bank to update bureau status from Settled to Closed.'
+            a: 'Yes. After completing settlement, borrowers can rebuild their credit profile. If future finances permit, repaying the waived haircut amount allows the bank to update bureau status from Settled to Closed.'
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -92,18 +92,18 @@ export default function MudraLoanDefaultConsequencesClient() {
         <div className="absolute inset-0 bg-black/5 z-0 pointer-events-none"/>
         <div className="max-w-5xl mx-auto text-center z-10 relative">
           <span className="text-[11px] font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3.5 py-1 rounded-full inline-block mb-3 border border-white/15">
-            Pradhan Mantri Mudra Yojana (PMMY) Legal &amp; Resolution Guide.
+            Pradhan Mantri Mudra Yojana (PMMY) Legal &amp; Resolution Guide
           </span>
 
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-3 md:mb-4 tracking-tight leading-tight drop-shadow-xs">
             Mudra Loan Default Consequences in India
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed"> Understand the legal realities of defaulting on Pradhan Mantri Mudra Yojana facilities across Shishu. Kishore. And Tarun categories. Discover why genuine trade losses are civil disputes. How CGFMU credit guarantee protection operates. How micro-clients settle structured One-Time Settlements. </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-3xl mx-auto font-normal text-white/95 leading-relaxed"> Understand the legal realities of defaulting on Pradhan Mantri Mudra Yojana facilities across Shishu, Kishore, and Tarun categories. Discover why genuine business losses are civil disputes, how CGFMU credit guarantee protection operates, and how micro-borrowers negotiate structured One-Time Settlements. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
-              <span>Facing Mudra Loan Default? Get Legal Defense.</span>
+              <span>Facing Mudra Loan Default? Get Legal Defense</span>
               <ArrowRight className="w-4 h-4"/>
             </Link>
           </div>
@@ -123,7 +123,7 @@ export default function MudraLoanDefaultConsequencesClient() {
               <div className="flex items-center gap-2 pb-3 mb-3 border-b border-slate-100">
                 <BookOpen className="w-4 h-4 text-[#1886ff]"/>
                 <span className="text-xs font-black uppercase tracking-wider text-slate-800">
-                  Table of Contents.
+                  Table of Contents
                 </span>
               </div>
               <nav className="space-y-1 max-h-[calc(100vh-140px)] overflow-y-auto pr-1 text-xs">
@@ -140,9 +140,9 @@ export default function MudraLoanDefaultConsequencesClient() {
               <div className="mt-4 pt-3 border-t border-slate-100 bg-blue-50/50 -mx-4 -mb-4 p-3 rounded-b-2xl">
                 <div className="flex items-center gap-2 text-[11px] font-bold text-slate-800">
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
-                  <span>Micro-Enterprise Rights.</span>
+                  <span>Micro-Enterprise Rights</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by PMMY Directives. RBI Fair Practices Code. And Indian Contract Act 1872. </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by PMMY Directives, RBI Fair Practices Code, and Indian Contract Act 1872. </p>
               </div>
             </div>
           </aside>
@@ -158,9 +158,9 @@ export default function MudraLoanDefaultConsequencesClient() {
                   Executive Summary: The Reality of Mudra Loan Default
                 </h2>
               </div>
-              <p className="text-xs md:text-sm text-slate-700 leading-relaxed font-normal"> When micro-firms encounter acute income losses or economic breaks. Servicing Pradhan Mantri Mudra Yojana facilities becomes impossible. Defaulting on a Mudra loan due to genuine trade bankruptcy is strictly a civil matter under Indian jurisprudence. Entirely dispelling coercive rumors of police arrest or jail. </p>
-              <p className="text-xs md:text-sm text-slate-700 leading-relaxed font-normal"> Under PMMY rules. All Mudra facilities across Shishu. Kishore, and Tarun brackets are security-free. Lenders cannot seize residential properties under the SARFAESI Act. Meanwhile. The Credit Guarantee Fund for Micro Units (CGFMU) covers up to 75% of default risk for eligible banks. </p>
-              <p className="text-xs md:text-sm text-slate-700 leading-relaxed font-normal"> Once steady non-payment crosses 90 days. Strict RBI cash provisioning incentivizes banks to sanction One-Time Settlements (OTS). Documenting trade hardship enables clients to settle 100% waivers on penal fees and 35% to 55% main loan haircuts. Culminating in an full No Dues letter. </p>
+              <p className="text-xs md:text-sm text-slate-700 leading-relaxed font-normal"> When micro-enterprises encounter acute revenue losses or economic disruptions, servicing Pradhan Mantri Mudra Yojana facilities becomes impossible. Defaulting on a Mudra loan due to genuine business insolvency is strictly a civil matter under Indian jurisprudence, entirely dispelling coercive rumors of police arrest or jail. </p>
+              <p className="text-xs md:text-sm text-slate-700 leading-relaxed font-normal"> Under PMMY guidelines, all Mudra facilities across Shishu, Kishore, and Tarun brackets are collateral-free. Lenders cannot seize residential properties under the SARFAESI Act, while the Credit Guarantee Fund for Micro Units (CGFMU) covers up to 75% of default risk for eligible institutional lenders. </p>
+              <p className="text-xs md:text-sm text-slate-700 leading-relaxed font-normal"> Once continuous non-repayment crosses 90 days, mandatory RBI capital provisioning incentivizes banks to sanction One-Time Settlements (OTS). Documenting commercial hardship enables borrowers to negotiate 100% waivers on penal fees and 35% to 55% principal haircuts, culminating in an unconditional No Dues Certificate. </p>
             </section>
 
             {/* SECTION 1: DEBT ECONOMICS & NPA DYNAMICS */}
@@ -171,9 +171,9 @@ export default function MudraLoanDefaultConsequencesClient() {
                   1. Debt Economics &amp; Mudra Loan NPA Classification Dynamics
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Pradhan Mantri Mudra Yojana was created to supply formal bank credit to micro-firms without demanding physical security. However. Small firms operate with thin operating margins. When market swings. Rising raw material expenses. Client defaults hit cash flows. Regular payment schedules rapidly break down. </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Under Reserve Bank of India prudential rules. Overdue accounts transition across Special Mention Account stages: SMA-0 (1-30 days overdue). SMA-1 (31-60 days overdue). SMA-2 (61-90 days overdue). On Day 91. The account is automatically classified as a Non-Performing Asset (NPA). Obligating the lender to lock Tier-1 cash reserves under loan loss provisioning mandates. </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> While the Credit Guarantee Fund for Micro Units (CGFMU) cushions banks against severe losses. Banks face major legal expenses and multi-year delays if pursuing civil court suits. As a result. Bank credit boards are economically motivated to approve trade One-Time Settlements that recover funds quickly and eliminate non-performing assets from their balance sheets. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Pradhan Mantri Mudra Yojana was created to supply formal institutional credit to micro-enterprises without demanding physical collateral. However, small businesses operate with thin operating margins. When market volatility, rising raw material expenses, or client defaults hit cash flows, regular repayment schedules rapidly break down. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Under Reserve Bank of India prudential frameworks, delinquent accounts transition across Special Mention Account stages: SMA-0 (1-30 days overdue), SMA-1 (31-60 days overdue), and SMA-2 (61-90 days overdue). On Day 91, the account is automatically classified as a Non-Performing Asset (NPA), obligating the lender to lock Tier-1 capital reserves under statutory provisioning mandates. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> While the Credit Guarantee Fund for Micro Units (CGFMU) cushions institutional lenders against severe losses, banks face significant legal expenses and multi-year delays if pursuing civil court suits. Consequently, bank credit committees are economically motivated to approve commercial One-Time Settlements that recover funds quickly and eliminate non-performing assets from their balance sheets. </p>
             </section>
 
             {/* SECTION 2: FINANCIAL BREAKDOWN & SETTLEMENT MATH */}
@@ -184,8 +184,8 @@ export default function MudraLoanDefaultConsequencesClient() {
                   2. Principal vs Penal Interest Inflation &amp; OTS Compromise Math
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Upon default. Automated core banking platforms rapidly inflate unpaid dues by compounding penal interest rates reaching 24% to 36% annually. Mandate bounce fees. claims charges. Over 180 days. These levies inflate gross demands by 35% to 60% above the initial loan disbursement. </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Under the RBI Fair Practices Code. Lenders are barred from capitalizing penal interest into main loan balances. Conducting a audits of the loan ledger isolates these unapplied levies. Establishing a transparent baseline for aggressive OTS talks. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Upon default, automated core banking platforms rapidly inflate outstanding balances by compounding penal interest rates reaching 24% to 36% annually, mandate bounce fees, and recovery charges. Over 180 days, these levies inflate gross demands by 35% to 60% above the initial loan disbursement. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Under the RBI Fair Practices Code, lenders are barred from capitalizing penal interest into principal balances. Conducting a forensic audit of the loan ledger isolates these unapplied levies, establishing a transparent baseline for aggressive OTS negotiations. </p>
               
               {/* Financial Calculation Card */}
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 md:p-6 space-y-4">
@@ -195,7 +195,7 @@ export default function MudraLoanDefaultConsequencesClient() {
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs md:text-sm">
                   <div className="bg-slate-50 p-4 rounded-xl space-y-2 border border-slate-100">
-                    <span className="font-bold text-slate-800 block text-xs uppercase tracking-wider text-rose-600">Bank Claim (Pre-OTS Demand).</span>
+                    <span className="font-bold text-slate-800 block text-xs uppercase tracking-wider text-rose-600">Bank Claim (Pre-OTS Demand)</span>
                     <div className="flex justify-between py-1 border-b border-slate-200">
                       <span className="text-slate-600">Core Principal:</span>
                       <span className="font-semibold text-slate-900">₹8,00,000</span>
@@ -205,7 +205,7 @@ export default function MudraLoanDefaultConsequencesClient() {
                       <span className="font-semibold text-slate-900">₹1,80,000</span>
                     </div>
                     <div className="flex justify-between py-1 border-b border-slate-200">
-                      <span className="text-slate-600">penalty fees &amp; Charges:</span>
+                      <span className="text-slate-600">Penal Levies &amp; Charges:</span>
                       <span className="font-semibold text-rose-600">₹95,000</span>
                     </div>
                     <div className="flex justify-between pt-1 font-bold text-slate-900 text-sm">
@@ -215,14 +215,14 @@ export default function MudraLoanDefaultConsequencesClient() {
                   </div>
 
                   <div className="bg-blue-50/60 p-4 rounded-xl space-y-2 border border-blue-100">
-                    <span className="font-bold text-slate-800 block text-xs uppercase tracking-wider text-[#1886ff]">Negotiated Compromise Settlement.</span>
+                    <span className="font-bold text-slate-800 block text-xs uppercase tracking-wider text-[#1886ff]">Negotiated Compromise Settlement</span>
                     <div className="flex justify-between py-1 border-b border-blue-200/60">
                       <span className="text-slate-600">Penal Fees Waived:</span>
                       <span className="font-semibold text-emerald-600">100% (-₹95,000)</span>
                     </div>
                     <div className="flex justify-between py-1 border-b border-blue-200/60">
                       <span className="text-slate-600">Overdue Interest Waived:</span>
-                      <span className="font-semibold text-emerald-600">100% (-₹1,80,000).</span>
+                      <span className="font-semibold text-emerald-600">100% (-₹1,80,000)</span>
                     </div>
                     <div className="flex justify-between py-1 border-b border-blue-200/60">
                       <span className="text-slate-600">Principal Haircut (45%):</span>
@@ -230,11 +230,11 @@ export default function MudraLoanDefaultConsequencesClient() {
                     </div>
                     <div className="flex justify-between pt-1 font-bold text-slate-900 text-sm">
                       <span>Final Agreed Payout:</span>
-                      <span className="text-emerald-700 font-extrabold">₹4,40,000 (59% Savings).</span>
+                      <span className="text-emerald-700 font-extrabold">₹4,40,000 (59% Savings)</span>
                     </div>
                   </div>
                 </div>
-                <p className="text-xs text-slate-600 leading-relaxed"> showing genuine trade distress proves to credit boards that a ₹4.40 Lakh upfront claims yields far superior value than holding uncollectible bad debt. </p>
+                <p className="text-xs text-slate-600 leading-relaxed"> showing genuine commercial distress proves to credit committees that a ₹4.40 Lakh upfront recovery yields far superior value than holding uncollectible bad debt. </p>
               </div>
             </section>
 
@@ -246,55 +246,55 @@ export default function MudraLoanDefaultConsequencesClient() {
                   3. Mudra Loan Resolution Mechanisms: Comparative Strategic Matrix
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Distressed micro-clients must evaluate all available relief pathways to select the plan that ensures permanent debt risk discharge without jeopardizing trade survival. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Distressed micro-borrowers must evaluate all available resolution pathways to select the strategy that ensures permanent liability discharge without jeopardizing business survival. </p>
 
               {/* 4-Sided Bordered Table */}
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
                 <table className="w-full text-left text-xs md:text-sm border-collapse">
                   <thead>
                     <tr className="bg-slate-100/80 text-slate-800 font-bold border-b border-slate-200/80 divide-x divide-slate-200/80">
-                      <th className="p-3.5 md:p-4">Resolution Pathway.</th>
-                      <th className="p-3.5 md:p-4">Debt Haircut Scope.</th>
-                      <th className="p-3.5 md:p-4">Closure Timeline.</th>
-                      <th className="p-3.5 md:p-4">Collateral &amp; Legal Risk.</th>
-                      <th className="p-3.5 md:p-4">Credit Score Trajectory.</th>
+                      <th className="p-3.5 md:p-4">Resolution Pathway</th>
+                      <th className="p-3.5 md:p-4">Debt Haircut Scope</th>
+                      <th className="p-3.5 md:p-4">Closure Timeline</th>
+                      <th className="p-3.5 md:p-4">Collateral &amp; Legal Risk</th>
+                      <th className="p-3.5 md:p-4">Credit Score Trajectory</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-700">
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/80 transition-colors">
-                      <td className="p-3.5 md:p-4 font-semibold text-slate-900">One-Time Settlement (OTS).</td>
-                      <td className="p-3.5 md:p-4 text-emerald-600 font-semibold">35% to 55% main loan + 100% Fees.</td>
+                      <td className="p-3.5 md:p-4 font-semibold text-slate-900">One-Time Settlement (OTS)</td>
+                      <td className="p-3.5 md:p-4 text-emerald-600 font-semibold">35% to 55% Principal + 100% Fees</td>
                       <td className="p-3.5 md:p-4">30 to 90 Days</td>
-                      <td className="p-3.5 md:p-4 text-emerald-700 font-medium">Zero asset risk. full closure via NDC.</td>
-                      <td className="p-3.5 md:p-4">Settled tag, repairable in 12-24m.</td>
+                      <td className="p-3.5 md:p-4 text-emerald-700 font-medium">Zero asset risk; full closure via NDC</td>
+                      <td className="p-3.5 md:p-4">Settled tag, repairable in 12-24m</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/80 transition-colors">
-                      <td className="p-3.5 md:p-4 font-semibold text-slate-900">Loan Restructuring.</td>
-                      <td className="p-3.5 md:p-4 text-amber-600 font-medium">0% Haircut (Tenure extension).</td>
+                      <td className="p-3.5 md:p-4 font-semibold text-slate-900">Loan Restructuring</td>
+                      <td className="p-3.5 md:p-4 text-amber-600 font-medium">0% Haircut (Tenure extension)</td>
                       <td className="p-3.5 md:p-4">45 to 90 Days</td>
-                      <td className="p-3.5 md:p-4 text-amber-700">Debt active. interest burden grows.</td>
-                      <td className="p-3.5 md:p-4">Restructured status in bureau.</td>
+                      <td className="p-3.5 md:p-4 text-amber-700">Debt active; interest burden grows</td>
+                      <td className="p-3.5 md:p-4">Restructured status in bureau</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/80 transition-colors">
-                      <td className="p-3.5 md:p-4 font-semibold text-slate-900">Civil Court lawsuits.</td>
-                      <td className="p-3.5 md:p-4 text-slate-600">Unpredictable decree.</td>
+                      <td className="p-3.5 md:p-4 font-semibold text-slate-900">Civil Court Litigation</td>
+                      <td className="p-3.5 md:p-4 text-slate-600">Unpredictable decree</td>
                       <td className="p-3.5 md:p-4 text-rose-600 font-medium">3 to 6 Years</td>
-                      <td className="p-3.5 md:p-4 text-rose-700">High legal fees &amp. court summons.</td>
-                      <td className="p-3.5 md:p-4">Written Off / Suit Filed tag.</td>
+                      <td className="p-3.5 md:p-4 text-rose-700">High legal fees &amp; court summons</td>
+                      <td className="p-3.5 md:p-4">Written Off / Suit Filed tag</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/80 transition-colors">
-                      <td className="p-3.5 md:p-4 font-semibold text-slate-900">Lok Adalat Settlement.</td>
-                      <td className="p-3.5 md:p-4 text-emerald-600 font-medium">15% to 35% Interest Waivers.</td>
+                      <td className="p-3.5 md:p-4 font-semibold text-slate-900">Lok Adalat Settlement</td>
+                      <td className="p-3.5 md:p-4 text-emerald-600 font-medium">15% to 35% Interest Waivers</td>
                       <td className="p-3.5 md:p-4">Single Session</td>
-                      <td className="p-3.5 md:p-4">Binding consent award under NALSA.</td>
-                      <td className="p-3.5 md:p-4">Settled through Lok Adalat.</td>
+                      <td className="p-3.5 md:p-4">Binding consent award under NALSA</td>
+                      <td className="p-3.5 md:p-4">Settled through Lok Adalat</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/80 transition-colors">
-                      <td className="p-3.5 md:p-4 font-semibold text-slate-900">Inaction &amp. Avoidance.</td>
-                      <td className="p-3.5 md:p-4 text-rose-600 font-semibold">0% (Debt compounds).</td>
+                      <td className="p-3.5 md:p-4 font-semibold text-slate-900">Inaction &amp; Avoidance</td>
+                      <td className="p-3.5 md:p-4 text-rose-600 font-semibold">0% (Debt compounds)</td>
                       <td className="p-3.5 md:p-4">Indefinite</td>
-                      <td className="p-3.5 md:p-4 text-rose-700 font-medium">Coercive calls &amp. notice escalation.</td>
-                      <td className="p-3.5 md:p-4 text-rose-700 font-bold">Severe degradation (&lt. 550).</td>
+                      <td className="p-3.5 md:p-4 text-rose-700 font-medium">Coercive calls &amp; notice escalation</td>
+                      <td className="p-3.5 md:p-4 text-rose-700 font-bold">Severe degradation (&lt;550)</td>
                     </tr>
                   </tbody>
                 </table>
@@ -309,9 +309,9 @@ export default function MudraLoanDefaultConsequencesClient() {
                   4. Technical Credit Bureau Dynamics &amp; CIBIL Score Recovery
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Delinquencies across Mudra facilities are reported monthly to TransUnion CIBIL. Equifax, Experian, and CRIF High Mark. Credit bureau algorithms calculate scores on a 300-900 range based on five factors: Payment History (35%). Credit Exposure (30%). Credit History Length (15%). Credit Mix (10%). Inquiries (10%). </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Escalating Days Past Due (DPD) pushes individual scores down by 150 to 250 points. Flagging the record as Default or Written-Off. settling an OTS updates the status to Settled. This terminates negative DPD escalation and halts progressive credit degradation. </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Under Section 21 of the Credit Information Companies (Regulation) Act (CICRA) 2005. Clients have the legal right to verify accurate reporting and zero balance updates. By managing secured credit cards and avoiding fresh unhedged debts. Credit scores can be rebuilt past 750 within 12 to 24 months. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Delinquencies across Mudra facilities are reported monthly to TransUnion CIBIL, Equifax, Experian, and CRIF High Mark. Credit bureau algorithms calculate scores on a 300-900 range based on five factors: Payment History (35%), Credit Exposure (30%), Credit History Length (15%), Credit Mix (10%), and Inquiries (10%). </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Escalating Days Past Due (DPD) pushes individual scores down by 150 to 250 points, flagging the record as Default or Written-Off. Negotiating an OTS updates the status to Settled, which terminates negative DPD escalation and halts progressive credit degradation. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Under Section 21 of the Credit Information Companies (Regulation) Act (CICRA) 2005, borrowers have the statutory right to verify accurate reporting and zero balance updates. By managing secured credit cards and avoiding fresh unhedged liabilities, credit scores can be rebuilt past 750 within 12 to 24 months. </p>
             </section>
 
             {/* SECTION 5: VISUAL INFOGRAPHIC ASSET CARD */}
@@ -322,15 +322,15 @@ export default function MudraLoanDefaultConsequencesClient() {
                   5. Visual Blueprint: 6-Stage Mudra Loan Resolution Architecture
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> This full visual roadmap illustrates the entire Pradhan Mantri Mudra Yojana relief lifecycle. Mapping the progression from initial loan default to final OTS deal closure. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> This comprehensive visual roadmap illustrates the entire Pradhan Mantri Mudra Yojana resolution lifecycle, mapping the progression from initial loan default to final compromise closure. </p>
               <div className="bg-white rounded-3xl border border-slate-200/80 shadow-sm p-4 md:p-6 space-y-3">
                 <div className="relative w-full aspect-video rounded-2xl overflow-hidden bg-slate-950 border border-slate-800">
                   <Image src="/images/infographics/mudra-loan-default-consequences.jpg" alt="Mudra Loan Default Consequences and 6-Stage Resolution Architecture" fill priority className="object-contain" sizes="(max-width: 1200px) 100vw, 900px"/>
                 </div>
                 <div className="flex flex-wrap items-center justify-between gap-2 pt-2 text-xs text-slate-600">
-                  <span>Official CredSettle Framework: PMMY Debt Compromise &amp; Borrower Protection Architecture.</span>
+                  <span>Official CredSettle Framework: PMMY Debt Compromise &amp; Borrower Protection Architecture</span>
                   <a href="/images/infographics/mudra-loan-default-consequences.jpg" target="_blank" rel="noopener noreferrer" className="text-[#1886ff] hover:underline font-bold flex items-center gap-1">
-                    <span>View High-Resolution Visual.</span>
+                    <span>View High-Resolution Visual</span>
                     <ExternalLink className="w-3.5 h-3.5"/>
                   </a>
                 </div>
@@ -345,7 +345,7 @@ export default function MudraLoanDefaultConsequencesClient() {
                   6. Step-by-Step SOP: 6 Stages of Mudra Loan Settlement
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Resolving a defaulted Mudra loan requires a disciplined. Proof-based Standard Operating Procedure to prevent abuse and achieve a lawful debt OTS deal. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Resolving a defaulted Mudra loan requires a disciplined, evidence-based Standard Operating Procedure to prevent harassment and achieve a lawful debt compromise. </p>
 
               <div className="space-y-3.5 text-sm md:text-base text-slate-700 leading-relaxed">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -353,7 +353,7 @@ export default function MudraLoanDefaultConsequencesClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] font-bold text-xs flex items-center justify-center">1</span>
                     Stage 1: Forensic Ledger Audit &amp; Sanction Terms Review
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Legal counsel reviews sanction terms and audits the loan ledger to isolate unapplied penal fees. Compounding levies. Processing charges that breach Reserve Bank of India lending circulars. </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Legal counsel reviews sanction terms and audits the loan ledger to isolate unapplied penal fees, compounding levies, and processing charges that breach Reserve Bank of India lending circulars. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -361,7 +361,7 @@ export default function MudraLoanDefaultConsequencesClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] font-bold text-xs flex items-center justify-center">2</span>
                     Stage 2: Financial Hardship Dossier Compilation
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> The client compiles verifiable money records showing legitimate trade bankruptcy. This includes deficit bank records. Declining GST filings, client default records. And daily work expense logs. </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> The borrower compiles verifiable financial records showing legitimate commercial insolvency, including deficit bank statements, declining GST filings, client default records, and operational expense logs. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -369,7 +369,7 @@ export default function MudraLoanDefaultConsequencesClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] font-bold text-xs flex items-center justify-center">3</span>
                     Stage 3: Statutory Legal Notice Defense
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Upon receiving bank recall notices. Section 138 NI Act notices. Section 25 PSSA summons. Counsel issues structured replies within 15 to 30 days to establish trade dispute and prevent criminal proceedings. </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Upon receiving bank recall notices, Section 138 NI Act notices, or Section 25 PSSA summons, counsel issues structured replies within 15 to 30 days to establish commercial dispute and prevent criminal proceedings. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -377,7 +377,7 @@ export default function MudraLoanDefaultConsequencesClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] font-bold text-xs flex items-center justify-center">4</span>
                     Stage 4: Credit Committee Bilateral Representation
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> A formal OTS proposal is presented straight to the bank Stressed Assets boards. Showing that accepting an upfront 40% to 55% settlement delivers higher net claims than protracted civil lawsuits. </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> A formal OTS proposal is presented directly to the bank Stressed Assets Committee, demonstrating that accepting an upfront 40% to 55% settlement delivers higher net recovery than protracted civil litigation. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -385,7 +385,7 @@ export default function MudraLoanDefaultConsequencesClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] font-bold text-xs flex items-center justify-center">5</span>
                     Stage 5: Settlement Sanction Letter Legal Vetting
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Attorneys scrutinize the bank formal OTS sanction letter to verify that the OTS deal figure is final. Payment timelines are viable. Penalty fees are extinguished. Security papers are returned. </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> Attorneys scrutinize the bank formal OTS sanction letter to verify that the compromise figure is final, payment timelines are viable, penal levies are extinguished, and security documents are returned. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -393,7 +393,7 @@ export default function MudraLoanDefaultConsequencesClient() {
                     <span className="w-6 h-6 rounded-full bg-emerald-100 text-emerald-600 font-bold text-xs flex items-center justify-center">6</span>
                     Stage 6: Direct Bank Remittance &amp; No Dues Certificate
                   </h3>
-                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> The agreed OTS deal sum is remitted straight into the bank loan account via RTGS. The client collects an full No Dues letter and tracks credit bureau updates to ensure trade line closure. </p>
+                  <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> The agreed compromise sum is remitted directly into the bank loan account via RTGS. The borrower collects an unconditional No Dues Certificate and tracks credit bureau updates to ensure trade line closure. </p>
                 </div>
               </div>
             </section>
@@ -406,39 +406,39 @@ export default function MudraLoanDefaultConsequencesClient() {
                   7. Statutory Notice Defense and Rights Under Indian Law
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> During Mudra defaults. Banks use local legal instruments. Understanding procedural defenses protects micro-clients from unlawful abuse and coercive claims tactics. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> During Mudra defaults, banks use specific statutory instruments. Understanding procedural defenses protects micro-borrowers from unlawful harassment and coercive recovery tactics. </p>
 
               <div className="space-y-3.5 text-xs md:text-sm text-slate-700 leading-relaxed">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
                   <div className="flex items-center gap-2 text-slate-900 font-bold text-sm md:text-base">
                     <ShieldAlert className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                    <span>Section 25 Payment &amp; Settlement Systems Act (PSSA) Defense.</span>
+                    <span>Section 25 Payment &amp; Settlement Systems Act (PSSA) Defense</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed"> When NACH mandates bounce. Legal replies prove dishonour stemmed from trade bankruptcy rather than fraud. Showing readiness to settle under fair terms. </p>
+                  <p className="text-slate-600 leading-relaxed"> When NACH mandates bounce, legal replies prove dishonour stemmed from business insolvency rather than fraud, demonstrating readiness to settle under fair terms. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
                   <div className="flex items-center gap-2 text-slate-900 font-bold text-sm md:text-base">
                     <FileText className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                    <span>Section 138 Negotiable Instruments Act Cheque Defense.</span>
+                    <span>Section 138 Negotiable Instruments Act Cheque Defense</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed"> Under Supreme Court rulings. Undated security cheques cannot be treated as cheques for crystallized liquidated debts when loan balances are disputed. </p>
+                  <p className="text-slate-600 leading-relaxed"> Under Supreme Court rulings, undated security cheques cannot be treated as cheques for crystallized liquidated debts when loan balances are disputed. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
                   <div className="flex items-center gap-2 text-slate-900 font-bold text-sm md:text-base">
                     <Scale className="w-4 h-4 text-[#1886ff] flex-shrink-0"/>
-                    <span>Section 21 Arbitration Act &amp; Unilateral Appointment Bans.</span>
+                    <span>Section 21 Arbitration Act &amp; Unilateral Appointment Bans</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed"> Under the Perkins Eastman ruling. Unilateral arbitrator appointments by lenders violate Section 12(5). Preventing lenders from securing biased awards. </p>
+                  <p className="text-slate-600 leading-relaxed"> Under the Perkins Eastman ruling, unilateral arbitrator appointments by lenders violate Section 12(5), preventing lenders from securing biased awards. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
                   <div className="flex items-center gap-2 text-slate-900 font-bold text-sm md:text-base">
                     <ShieldCheck className="w-4 h-4 text-emerald-600 flex-shrink-0"/>
-                    <span>DRT Jurisdiction Thresholds &amp; RBI Fair Practices Code.</span>
+                    <span>DRT Jurisdiction Thresholds &amp; RBI Fair Practices Code</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed"> DRT police area begins strictly above ₹20 Lakhs. Placing all Mudra loans outside its purview. Meanwhile. The RBI Fair Practices Code prohibits abuse. </p>
+                  <p className="text-slate-600 leading-relaxed"> DRT jurisdiction begins strictly above ₹20 Lakhs, placing all Mudra loans outside its purview, while the RBI Fair Practices Code prohibits harassment. </p>
                 </div>
               </div>
             </section>
@@ -451,7 +451,7 @@ export default function MudraLoanDefaultConsequencesClient() {
                   8. 3-Tier Institutional Grievance &amp; Escalation Matrix
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When claims branches engage in abuse or stall OTS deal talks. Clients can escalate through the Reserve Bank of India legal hierarchy. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When recovery branches engage in harassment or stall compromise talks, borrowers can escalate through the Reserve Bank of India statutory hierarchy. </p>
 
               <div className="space-y-3.5 text-xs md:text-sm text-slate-700 leading-relaxed">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -459,7 +459,7 @@ export default function MudraLoanDefaultConsequencesClient() {
                     <h3 className="font-bold text-slate-900 text-sm">Tier 1: Bank Grievance Redressal Officer (GRO)</h3>
                     <span className="text-[11px] font-bold text-[#1886ff] bg-blue-50 px-2.5 py-1 rounded-full">7-10 Days</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed"> Submit a formal complaint regarding abusive agent tactics or unfair fee compounding to the bank GRO. Mandated for review within 7 to 10 days. </p>
+                  <p className="text-slate-600 leading-relaxed"> Submit a formal complaint regarding abusive agent tactics or unfair fee compounding to the bank GRO, mandated for review within 7 to 10 days. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -467,7 +467,7 @@ export default function MudraLoanDefaultConsequencesClient() {
                     <h3 className="font-bold text-slate-900 text-sm">Tier 2: Bank Principal Nodal Officer (PNO)</h3>
                     <span className="text-[11px] font-bold text-[#1886ff] bg-blue-50 px-2.5 py-1 rounded-full">14-21 Days</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed"> Escalate unresolved grievances to the main loan Nodal Officer at zonal headquarters. Who holds executive formal over local credit boards. </p>
+                  <p className="text-slate-600 leading-relaxed"> Escalate unresolved grievances to the Principal Nodal Officer at zonal headquarters, who holds executive authority over regional credit committees. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
@@ -475,7 +475,7 @@ export default function MudraLoanDefaultConsequencesClient() {
                     <h3 className="font-bold text-slate-900 text-sm">Tier 3: RBI Integrated Ombudsman Scheme</h3>
                     <span className="text-[11px] font-bold text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded-full">cms.rbi.org.in</span>
                   </div>
-                  <p className="text-slate-600 leading-relaxed"> File a legal complaint on cms.rbi.org.in for Fair Practices Code violations or unjustified denial of OTS OTS deal under board rules. </p>
+                  <p className="text-slate-600 leading-relaxed"> File a statutory complaint on cms.rbi.org.in for Fair Practices Code violations or unjustified denial of OTS compromise under board guidelines. </p>
                 </div>
               </div>
             </section>
@@ -488,7 +488,7 @@ export default function MudraLoanDefaultConsequencesClient() {
                   9. Chronological Resolution Timeline: From Delinquency to Clean NDC
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> A structured Mudra loan settlement progresses through distinct daily work milestones from initial default to complete debt discharge. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> A structured Mudra loan settlement progresses through distinct operational milestones from initial default to complete debt discharge. </p>
 
               {/* 4-Sided Bordered Timeline Table */}
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
@@ -497,40 +497,40 @@ export default function MudraLoanDefaultConsequencesClient() {
                     <tr className="bg-slate-100/80 text-slate-800 font-bold border-b border-slate-200/80 divide-x divide-slate-200/80">
                       <th className="p-3.5 md:p-4">Timeframe</th>
                       <th className="p-3.5 md:p-4">Account Status</th>
-                      <th className="p-3.5 md:p-4">Banking &amp; Recovery Action.</th>
-                      <th className="p-3.5 md:p-4">Strategic Counter-Action.</th>
+                      <th className="p-3.5 md:p-4">Banking &amp; Recovery Action</th>
+                      <th className="p-3.5 md:p-4">Strategic Counter-Action</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-700">
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/80 transition-colors">
                       <td className="p-3.5 md:p-4 font-semibold text-slate-900">Days 1-30</td>
                       <td className="p-3.5 md:p-4 text-blue-700 font-medium">SMA-0</td>
-                      <td className="p-3.5 md:p-4">Automated SMS, emails, and calls.</td>
-                      <td className="p-3.5 md:p-4">Cash flow assessment &amp. ledger audit.</td>
+                      <td className="p-3.5 md:p-4">Automated SMS, emails, and calls</td>
+                      <td className="p-3.5 md:p-4">Cash flow assessment &amp; ledger audit</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/80 transition-colors">
                       <td className="p-3.5 md:p-4 font-semibold text-slate-900">Days 31-90</td>
                       <td className="p-3.5 md:p-4 text-amber-700 font-medium">SMA-1/2</td>
-                      <td className="p-3.5 md:p-4">Recall notices and field visits.</td>
-                      <td className="p-3.5 md:p-4">Compile dossier &amp. assert Fair Practices.</td>
+                      <td className="p-3.5 md:p-4">Recall notices and field visits</td>
+                      <td className="p-3.5 md:p-4">Compile dossier &amp; assert Fair Practices</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/80 transition-colors">
                       <td className="p-3.5 md:p-4 font-semibold text-slate-900">Day 91+</td>
                       <td className="p-3.5 md:p-4 text-rose-700 font-semibold">NPA</td>
-                      <td className="p-3.5 md:p-4">strict 15%-100% provisioning.</td>
-                      <td className="p-3.5 md:p-4">Submit formal OTS to Stressed Desk.</td>
+                      <td className="p-3.5 md:p-4">Mandatory 15%-100% provisioning</td>
+                      <td className="p-3.5 md:p-4">Submit formal OTS to Stressed Desk</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/80 transition-colors">
                       <td className="p-3.5 md:p-4 font-semibold text-slate-900">Month 4-5</td>
-                      <td className="p-3.5 md:p-4 text-purple-700 font-medium">talks</td>
-                      <td className="p-3.5 md:p-4">Section 138 / 25 legal notices.</td>
-                      <td className="p-3.5 md:p-4">File legal replies &amp. settle terms.</td>
+                      <td className="p-3.5 md:p-4 text-purple-700 font-medium">Negotiation</td>
+                      <td className="p-3.5 md:p-4">Section 138 / 25 legal notices</td>
+                      <td className="p-3.5 md:p-4">File legal replies &amp; negotiate terms</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/80 transition-colors">
                       <td className="p-3.5 md:p-4 font-semibold text-slate-900">Month 6</td>
                       <td className="p-3.5 md:p-4 text-emerald-700 font-bold">Settled</td>
-                      <td className="p-3.5 md:p-4">Issue formal OTS sanction letter.</td>
-                      <td className="p-3.5 md:p-4">Direct bank remittance &amp. NDC claims.</td>
+                      <td className="p-3.5 md:p-4">Issue formal OTS sanction letter</td>
+                      <td className="p-3.5 md:p-4">Direct bank remittance &amp; NDC collection</td>
                     </tr>
                   </tbody>
                 </table>
@@ -545,27 +545,27 @@ export default function MudraLoanDefaultConsequencesClient() {
                   10. Specialized Real-World Scenarios in Mudra Loan Defaults
                 </h2>
               </div>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Micro-firms debt relief varies across trade work. Understanding these real-world scenarios enables tailored relief plans. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Micro-enterprise debt resolution varies across commercial operations. Understanding these real-world scenarios enables tailored settlement strategies. </p>
 
               <div className="space-y-3.5 text-xs md:text-sm text-slate-700 leading-relaxed">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
                   <h3 className="font-bold text-slate-900 text-sm">Multi-Lender Mudra &amp; Fintech Stacking</h3>
-                  <p className="text-slate-600 leading-relaxed"> Resolving stacked credit lines requires synchronized talks. Prioritizing public banks with strict quarter-end provisioning targets for maximum waivers. </p>
+                  <p className="text-slate-600 leading-relaxed"> Resolving stacked credit lines requires synchronized negotiations, prioritizing public banks with strict quarter-end provisioning targets for maximum waivers. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
                   <h3 className="font-bold text-slate-900 text-sm">Enterprise Closure &amp; Revenue Collapse</h3>
-                  <p className="text-slate-600 leading-relaxed"> Submitting GST surrender filings and trade lease termination proofs establishes total bankruptcy. Persuading boards to approve minimum OTS baselines. </p>
+                  <p className="text-slate-600 leading-relaxed"> Submitting GST surrender filings and commercial lease termination proofs establishes total insolvency, persuading committees to approve minimum OTS baselines. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
                   <h3 className="font-bold text-slate-900 text-sm">Sole Proprietorship Asset Protection</h3>
-                  <p className="text-slate-600 leading-relaxed"> Securing an expedited OTS eliminates trade debt cleanly. Preventing lenders from filing civil claims suits against private household assets. </p>
+                  <p className="text-slate-600 leading-relaxed"> Securing an expedited OTS eliminates commercial debt cleanly, preventing lenders from filing civil recovery suits against personal household assets. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-1.5">
                   <h3 className="font-bold text-slate-900 text-sm">CGFMU Claims &amp; ARC Loan Transfers</h3>
-                  <p className="text-slate-600 leading-relaxed"> When debts transfer to Asset Reconstruction Companies at deep discounts. ARCs operate with flexibility. Accepting 50% to 70% waivers for lump-sum closure. </p>
+                  <p className="text-slate-600 leading-relaxed"> When debts transfer to Asset Reconstruction Companies at deep discounts, ARCs operate with flexibility, accepting 50% to 70% waivers for lump-sum closure. </p>
                 </div>
               </div>
             </section>
@@ -583,7 +583,7 @@ export default function MudraLoanDefaultConsequencesClient() {
                   Frequently Asked Questions: Mudra Loan Default
                 </h2>
               </div>
-              <p className="text-xs md:text-sm text-slate-600"> Authoritative answers to critical legal and money questions regarding Pradhan Mantri Mudra Yojana defaults. CGFMU guarantees. OTS deals. </p>
+              <p className="text-xs md:text-sm text-slate-600"> Authoritative answers to critical legal and financial questions regarding Pradhan Mantri Mudra Yojana defaults, CGFMU guarantees, and compromise settlements. </p>
 
               <div className="space-y-3">
                 {faqs.map((faq, index) => {
@@ -609,7 +609,7 @@ export default function MudraLoanDefaultConsequencesClient() {
                   Statutory Citations &amp; Institutional Authorities
                 </h2>
               </div>
-              <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> CredSettle relief procedures strictly adhere to legal rules including the Pradhan Mantri Mudra Yojana (PMMY) daily work rules. CGFMU Guarantee Scheme Rules. RBI Prudential rules for relief of Stressed Assets (2019). Section 138 Negotiable Instruments Act (1881). Section 25 Payment and Settlement Systems Act (2007). Section 21 Arbitration and talks Act (1996). Section 21 Credit Information Companies (Regulation) Act (2005). </p>
+              <p className="text-xs md:text-sm text-slate-600 leading-relaxed"> CredSettle resolution procedures strictly adhere to statutory frameworks including the Pradhan Mantri Mudra Yojana (PMMY) Operational Guidelines, CGFMU Guarantee Scheme Rules, RBI Prudential Framework for Resolution of Stressed Assets (2019), Section 138 Negotiable Instruments Act (1881), Section 25 Payment and Settlement Systems Act (2007), Section 21 Arbitration and Conciliation Act (1996), and Section 21 Credit Information Companies (Regulation) Act (2005). </p>
 
               {/* Outbound Badges */}
               <div className="space-y-2 pt-2">
@@ -618,27 +618,27 @@ export default function MudraLoanDefaultConsequencesClient() {
                 </span>
                 <div className="flex flex-wrap gap-2">
                   <a href="https://www.rbi.org.in" target="_blank" rel="noopener noreferrer" className="text-xs px-3 py-1.5 rounded-lg bg-white border border-slate-200 hover:border-[#1886ff] hover:text-[#1886ff] text-slate-700 transition-colors font-medium inline-flex items-center gap-1.5 shadow-2xs">
-                    <span>Reserve Bank of India (rbi.org.in).</span>
+                    <span>Reserve Bank of India (rbi.org.in)</span>
                     <ExternalLink className="w-3 h-3 text-slate-400"/>
                   </a>
                   <a href="https://cms.rbi.org.in" target="_blank" rel="noopener noreferrer" className="text-xs px-3 py-1.5 rounded-lg bg-white border border-slate-200 hover:border-[#1886ff] hover:text-[#1886ff] text-slate-700 transition-colors font-medium inline-flex items-center gap-1.5 shadow-2xs">
-                    <span>RBI Integrated Ombudsman (cms.rbi.org.in).</span>
+                    <span>RBI Integrated Ombudsman (cms.rbi.org.in)</span>
                     <ExternalLink className="w-3 h-3 text-slate-400"/>
                   </a>
                   <a href="https://www.cibil.com" target="_blank" rel="noopener noreferrer" className="text-xs px-3 py-1.5 rounded-lg bg-white border border-slate-200 hover:border-[#1886ff] hover:text-[#1886ff] text-slate-700 transition-colors font-medium inline-flex items-center gap-1.5 shadow-2xs">
-                    <span>TransUnion CIBIL (cibil.com).</span>
+                    <span>TransUnion CIBIL (cibil.com)</span>
                     <ExternalLink className="w-3 h-3 text-slate-400"/>
                   </a>
                   <a href="https://www.indiacode.nic.in" target="_blank" rel="noopener noreferrer" className="text-xs px-3 py-1.5 rounded-lg bg-white border border-slate-200 hover:border-[#1886ff] hover:text-[#1886ff] text-slate-700 transition-colors font-medium inline-flex items-center gap-1.5 shadow-2xs">
-                    <span>India Code (indiacode.nic.in).</span>
+                    <span>India Code (indiacode.nic.in)</span>
                     <ExternalLink className="w-3 h-3 text-slate-400"/>
                   </a>
                   <a href="https://nalsa.gov.in" target="_blank" rel="noopener noreferrer" className="text-xs px-3 py-1.5 rounded-lg bg-white border border-slate-200 hover:border-[#1886ff] hover:text-[#1886ff] text-slate-700 transition-colors font-medium inline-flex items-center gap-1.5 shadow-2xs">
-                    <span>NALSA (nalsa.gov.in).</span>
+                    <span>NALSA (nalsa.gov.in)</span>
                     <ExternalLink className="w-3 h-3 text-slate-400"/>
                   </a>
                   <a href="https://cybercrime.gov.in" target="_blank" rel="noopener noreferrer" className="text-xs px-3 py-1.5 rounded-lg bg-white border border-slate-200 hover:border-[#1886ff] hover:text-[#1886ff] text-slate-700 transition-colors font-medium inline-flex items-center gap-1.5 shadow-2xs">
-                    <span>Cyber Crime Portal (cybercrime.gov.in).</span>
+                    <span>Cyber Crime Portal (cybercrime.gov.in)</span>
                     <ExternalLink className="w-3 h-3 text-slate-400"/>
                   </a>
                 </div>
@@ -699,17 +699,17 @@ export default function MudraLoanDefaultConsequencesClient() {
                   <Link href="/author/ashish-jhangra" className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief expert. </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp; Debt Resolution Professional. </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed"> Specialized in micro-firms debt relief and PMMY compliance across Indian banking forums. </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> Specialized in micro-enterprise debt resolution and PMMY compliance across Indian banking forums. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
-                  <span>View Author Profile.</span>
+                  <span>View Author Profile</span>
                   <ArrowRight className="w-3 h-3"/>
                 </Link>
                 <span className="text-emerald-600 font-bold flex items-center gap-1">
-                  <ShieldCheck className="w-3.5 h-3.5"/> CredSettle Panel.
+                  <ShieldCheck className="w-3.5 h-3.5"/> CredSettle Panel
                 </span>
               </div>
             </div>
@@ -718,10 +718,10 @@ export default function MudraLoanDefaultConsequencesClient() {
             <div className="rounded-3xl p-6 text-white text-center space-y-4 shadow-md relative overflow-hidden" style={{ backgroundColor: '#2452ae' }}>
               <div className="space-y-1 text-center">
                 <span className="text-[10px] font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
-                  100% CONFIDENTIAL LEGAL DEFENSE.
+                  100% CONFIDENTIAL LEGAL DEFENSE
                 </span>
                 <p className="text-lg md:text-xl font-bold text-white leading-snug"> Facing Mudra Loan Default? </p>
-                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal"> Our specialists represent you before bank credit boards. Stop abuse. And settle 35% to 55% haircuts. </p>
+                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal"> Our specialists represent you before bank credit committees, stop harassment, and negotiate 35% to 55% haircuts. </p>
               </div>
               <Link href="/contact" className="block w-full bg-white text-blue-900 hover:text-[#1886ff] py-3 px-4 rounded-full font-bold text-sm hover:bg-slate-50 transition-all shadow-md">
                 Facing Mudra Loan Default? Get Legal Defense
@@ -730,44 +730,44 @@ export default function MudraLoanDefaultConsequencesClient() {
                 <div className="flex items-center gap-1">
                   <Phone className="w-3.5 h-3.5 text-blue-200"/>
                   <a href="tel:+918800226635" className="hover:underline font-bold text-white">
-                    Call: +91-8800226635.
+                    Call: +91-8800226635
                   </a>
                 </div>
                 <div className="flex items-center gap-1 text-[10px] text-blue-300">
                   <Lock className="w-3 h-3"/>
-                  <span>Direct Bank Remittance • RBI Compliant.</span>
+                  <span>Direct Bank Remittance • RBI Compliant</span>
                 </div>
               </div>
             </div>
 
             {/* Card 3: CredSettle Trust Badges */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
-              <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage.</p>
+              <p className="font-bold text-slate-900 text-sm">The CredSettle Advantage</p>
               <ul className="space-y-2 text-slate-600">
-                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Zero Upfront Risk:</strong> Success-linked alert fees.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Zero Upfront Risk:</strong> Success-linked advisory fees.</span> </li>
                 <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Direct Bank Remittance:</strong> Zero third-party fund pooling.</span> </li>
-                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Anti-abuse Defense:</strong> Strict RBI Fair Practices Code.</span> </li>
-                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Pan-India legal help:</strong> skilled legal workers.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Anti-Harassment Defense:</strong> Strict RBI Fair Practices Code.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Pan-India Representation:</strong> Experienced legal professionals.</span> </li>
               </ul>
             </div>
 
             {/* Card 4: Related Guides */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
-              <p className="font-bold text-slate-900 text-sm">Related relief Guides.</p>
+              <p className="font-bold text-slate-900 text-sm">Related Resolution Guides</p>
               <div className="space-y-2.5">
                 <Link href="/business-loan-settlement-process" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> firm loans Settlement Process in India. </p>
-                  <span className="text-[10px] text-slate-400 mt-1 block">MSME debt guide &rarr;.</span>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Business Loan Settlement Process in India. </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">MSME debt guide &rarr;</span>
                 </Link>
 
                 <Link href="/msme-loan-default-legal-action" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
                   <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> MSME Loan Default Legal Action in India. </p>
-                  <span className="text-[10px] text-slate-400 mt-1 block">Statutory rights &rarr;.</span>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Statutory rights &rarr;</span>
                 </Link>
 
                 <Link href="/convert-settled-status-to-closed" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
                   <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Convert Settled Loan to Closed Status. </p>
-                  <span className="text-[10px] text-slate-400 mt-1 block">Credit repair &rarr;.</span>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Credit repair &rarr;</span>
                 </Link>
               </div>
             </div>

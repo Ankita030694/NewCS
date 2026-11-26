@@ -63,7 +63,7 @@ export default function AntiHarassmentClient() {
     },
     {
       question: 'How can I stop loan recovery agent harassment immediately?',
-      answer: 'You can stop recovery harassment fast with CredSettle. Our legal team sends cease-and-desist notices to lenders right away. We file RBI complaints and route recovery calls to our legal desk. Harassment usually stops within 24 to 48 hours. We give you full legal cover so agents cannot bother you.'
+      answer: 'You can stop loan recovery agent harassment immediately by CredSettle. Our legal team sends cease-and-desist notices to lenders right away. We file RBI complaints and route recovery calls to our legal desk. Harassment typically stops within 24-48 hours of our intervention. We give you full legal cover so agents cannot bother you.'
     },
     {
       question: 'What are my legal rights against loan recovery agent harassment?',
@@ -126,7 +126,7 @@ export default function AntiHarassmentClient() {
       title: 'Right to Privacy',
       description: (
         <>
-          Agents cannot contact your family, friends, or coworkers about your debt. They can only contact you directly at sensible hours. Contacting third parties violates your privacy rights and <strong>RBI guidelines</strong>. Our legal team takes quick action to enforce this right.
+          Recovery agents cannot contact your family members, friends, colleagues, or neighbors about your debt. They can only contact you directly at sensible hours. Contacting third parties violates your privacy rights and <strong>RBI guidelines</strong>. Our legal team takes quick action to enforce this right.
         </>
       )
     },
@@ -135,7 +135,7 @@ export default function AntiHarassmentClient() {
       title: 'Right to Dignity',
       description: (
         <>
-          Agents must treat you with respect. They cannot use foul language, threats, or public shaming. All communication must remain civil and polite. Lenders face strict penalties from the banking ombudsman if agents abuse borrowers.
+          Recovery agents must treat you with respect and dignity. They cannot use foul language, threats, or public shaming. All communication must remain civil and polite. Lenders face strict penalties from the banking ombudsman if agents abuse borrowers.
         </>
       )
     },
@@ -183,7 +183,7 @@ export default function AntiHarassmentClient() {
       title: 'What Recovery Agents CANNOT Do',
       icon: faTriangleExclamation,
       items: [
-        'Use abusive language, repeated calls, or threats to force payment.',
+        'Use abusive language, repeated calls, or harassment to coerce repayment.',
         'Visit your office or home without prior notice or valid ID.',
         'Call your family members, friends, or coworkers about your debt.',
         'Make fake claims of police arrest or leak data on social media.'
@@ -218,7 +218,7 @@ export default function AntiHarassmentClient() {
       title: 'Call Forwarding Services',
       description: (
         <>
-          Route all recovery calls straight to our legal desk. Our lawyers handle the conversations, stop abusive calls, and log violations so you can live in peace.
+          Divert all recovery calls directly to our legal helpline. Our lawyers handle the conversations, stop abusive calls, and log violations so you can live in peace.
         </>
       )
     },
@@ -227,7 +227,7 @@ export default function AntiHarassmentClient() {
       title: 'Cease-and-Desist Notices',
       description: (
         <>
-          We issue formal legal notices to lenders and collection agencies. We demand an immediate stop to harassment under <strong>RBI rules</strong> and consumer laws.
+          We issue formal legal notices to lenders and recovery agencies demanding an immediate halt to harassment, citing <strong>RBI rules</strong> and consumer laws.
         </>
       )
     },
@@ -425,7 +425,7 @@ export default function AntiHarassmentClient() {
     },
     {
       icon: faHeadset,
-      title: 'Full Coverage',
+      title: 'Complete Coverage',
       description: (
         <>
           Stay safe from abusive phone calls, unexpected visits, family contact, and online shaming with one dedicated legal team.
@@ -470,7 +470,7 @@ export default function AntiHarassmentClient() {
   const guideSections: GuideSection[] = [
     {
       id: 'understanding-harassment',
-      title: 'Understanding Loan Recovery Agent Harassment in India',
+      title: 'Understanding Loan Recovery Agent Harassment: What You Need to Know',
       paragraphs: [
         <>
           <strong>Loan recovery agent harassment</strong> means abusive tactics used by collection agents to force debt payment. These tactics break <strong>RBI guidelines</strong> and consumer laws. They include abusive phone calls, surprise visits, calling family members, and making false legal threats. Learning how to spot these tactics is your first step to stopping them.
@@ -484,7 +484,7 @@ export default function AntiHarassmentClient() {
     },
     {
       id: 'legal-rights-against-harassment',
-      title: 'Your Legal Rights Against Loan Recovery Harassment',
+      title: 'Your Legal Rights Against Loan Recovery Agent Harassment',
       paragraphs: [
         <>
           You have strong <strong>legal rights against harassment</strong> under <strong>RBI rules</strong> and Indian law. Knowing these rights helps you stand up to abusive agents and hold lenders accountable.
@@ -505,7 +505,7 @@ export default function AntiHarassmentClient() {
     },
     {
       id: 'anti-harassment-services',
-      title: 'Anti-Harassment Legal Services: Stop Harassment Fast',
+      title: 'Anti-Harassment Services: How to Stop Harassment Immediately',
       paragraphs: [
         <>
           Professional <strong>anti-harassment services</strong> stop <strong>loan recovery agent harassment</strong> fast. CredSettle deploys a solid legal shield to halt abusive calls while building a strong legal defense.
@@ -515,7 +515,7 @@ export default function AntiHarassmentClient() {
     },
     {
       id: 'stop-harassment-immediately',
-      title: 'Step-by-Step Guide to Stop Loan Recovery Harassment',
+      title: 'How to Stop Loan Recovery Agent Harassment Immediately',
       paragraphs: [
         <>
           If you are dealing with <strong>loan recovery agent harassment</strong>, follow these steps to regain control and stop abuse quickly.

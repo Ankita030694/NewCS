@@ -52,19 +52,19 @@ export default function CarLoanDefaultVehicleSeizureClient() {
         },
         {
             "q": "What statutory notices must a bank serve before repossession?",
-            "a": "Under the RBI Fair Practices Code, lenders must issue a formal demand notice giving 15 to 30 days to clear arrears, followed by a pre-repossession intimation. A pre-sale valuation notice."
+            "a": "Under the RBI Fair Practices Code, lenders must issue a formal demand notice giving 15 to 30 days to clear arrears, followed by a pre-repossession intimation, and a pre-sale valuation notice."
         },
         {
             "q": "Can I file a police complaint if recovery agents illegally tow my car?",
-            "a": "Yes. You can register an FIR under Sections 303 (Theft), 308 (Extortion), 329 (Trespass). 351 (Intimidation) of BNS / Sections 379, 383, 441, and 506 IPC against the agents and the bank."
+            "a": "Yes. You can register an FIR under Sections 303 (Theft), 308 (Extortion), 329 (Trespass), and 351 (Intimidation) of BNS / Sections 379, 383, 441, and 506 IPC against the agents and the bank."
         },
         {
             "q": "What is an inventory sheet and why is it mandatory during seizure?",
-            "a": "An inventory sheet is a compulsory document itemizing all personal belongings inside the vehicle, odometer reading, fuel level. Physical condition. Refusal to provide a signed inventory violates RBI recovery directives."
+            "a": "An inventory sheet is a compulsory document itemizing all personal belongings inside the vehicle, odometer reading, fuel level, and physical condition. Refusal to provide a signed inventory violates RBI recovery directives."
         },
         {
             "q": "Does the bank have the legal right to sell my car immediately?",
-            "a": "No. The lender must serve a formal pre-sale notice granting 15 to 30 days to redeem the vehicle. You must also provide a certified surveyor valuation report before scheduling an auction."
+            "a": "No. The lender must serve a formal pre-sale notice granting 15 to 30 days to redeem the vehicle, accompanied by a certified surveyor valuation report before scheduling an auction."
         },
         {
             "q": "What happens if car auction proceeds do not cover the loan balance?",
@@ -84,7 +84,7 @@ export default function CarLoanDefaultVehicleSeizureClient() {
         },
         {
             "q": "What should I do if recovery agents show up demanding car keys?",
-            "a": "Demand official bank identification, agent DRS registration, and written approval. Refuse handover without statutory notice, record the encounter, contact emergency police (112), and notify CredSettle for legal intervention."
+            "a": "Demand official bank identification, agent DRS registration, and written authorization. Refuse handover without statutory notice, record the encounter, contact emergency police (112), and notify CredSettle for legal intervention."
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -94,18 +94,18 @@ export default function CarLoanDefaultVehicleSeizureClient() {
         <div className="max-w-5xl mx-auto text-center z-10 relative">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 text-white/90 text-xs font-semibold mb-4 backdrop-blur-xs border border-white/20">
             <ShieldCheck className="w-3.5 h-3.5 text-blue-200"/>
-            <span>Supreme Court Auto Loan Repossession Defense.</span>
+            <span>Supreme Court Auto Loan Repossession Defense</span>
           </div>
 
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-3 md:mb-4 tracking-tight leading-tight drop-shadow-xs">
             Car Loan Default &amp; Vehicle Seizure by Bank: Legal Rights &amp; Protection
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> Facing auto loan default and cars repossession threats? Learn Supreme Court protections under ICICI Bank vs Prakash Kaur. Pre-sale notice mandates. And bank One-Time settlement solutions. </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> Facing auto loan default and vehicle repossession threats? Learn Supreme Court protections under ICICI Bank vs Prakash Kaur, pre-sale notice mandates, and institutional One-Time Settlement solutions. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
-              <span>Protect Your Vehicle: Talk to a Debt Resolution Professional.</span>
+              <span>Protect Your Vehicle: Talk to a Debt Resolution Professional</span>
               <ArrowRight className="w-4 h-4"/>
             </Link>
           </div>
@@ -125,7 +125,7 @@ export default function CarLoanDefaultVehicleSeizureClient() {
               <div className="flex items-center gap-2 pb-3 mb-3 border-b border-slate-100">
                 <BookOpen className="w-4 h-4 text-[#1886ff]"/>
                 <span className="text-xs font-black uppercase tracking-wider text-slate-800">
-                  Table of Contents.
+                  Table of Contents
                 </span>
               </div>
               <nav className="space-y-1 max-h-[calc(100vh-140px)] overflow-y-auto pr-1 text-xs">
@@ -142,9 +142,9 @@ export default function CarLoanDefaultVehicleSeizureClient() {
               <div className="mt-4 pt-3 border-t border-slate-100 bg-blue-50/50 -mx-4 -mb-4 p-3 rounded-b-2xl">
                 <div className="flex items-center gap-2 text-[11px] font-bold text-slate-800">
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
-                  <span>Auto Debt Legal Protection.</span>
+                  <span>Auto Debt Legal Protection</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by Supreme Court rulings. Motor cars Act 1988 &amp. RBI Fair Practices Code. </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by Supreme Court Precedents, Motor Vehicles Act 1988 &amp; RBI Fair Practices Code. </p>
               </div>
             </div>
           </aside>
@@ -156,25 +156,25 @@ export default function CarLoanDefaultVehicleSeizureClient() {
             <div id="quick-crux" className="scroll-target rounded-2xl bg-[#F4F8FE] border border-blue-100/90 border-l-[5px] border-l-[#1886ff] p-5 sm:p-6 md:p-7 shadow-xs space-y-4 text-slate-800">
               <div className="flex items-center gap-2 text-xs md:text-sm font-black uppercase tracking-wider text-[#1886ff]">
                 <Bookmark className="w-4 h-4 text-[#1886ff]"/>
-                <span>EXECUTIVE BRIEF: CAR LOAN REPOSSESSION &amp; BORROWER PROTECTIONS.</span>
+                <span>EXECUTIVE BRIEF: CAR LOAN REPOSSESSION &amp; BORROWER PROTECTIONS</span>
               </div>
 
               <ul className="space-y-2 text-xs sm:text-sm text-slate-700 leading-relaxed">
-                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Supreme Court ruling:</strong> In <em>ICICI Bank v. Prakash Kaur (2007).</em>The Supreme Court banned musclemen repossession without due court process. </div> </li>
+                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Supreme Court Precedent:</strong> In <em>ICICI Bank v. Prakash Kaur (2007)</em>, the Supreme Court banned musclemen repossession without due court process. </div> </li>
 
-                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Hypothecation Ownership:</strong> Section 51 Motor cars Act creates a money charge. But ownership remains with the client. </div> </li>
+                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Hypothecation Ownership:</strong> Section 51 Motor Vehicles Act creates a financial charge, but ownership remains with the borrower. </div> </li>
 
-                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">strict Cure Notice:</strong> Lenders must serve a 15 to 30 day demand cure notice before initiating repossession. </div> </li>
+                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Mandatory Cure Notice:</strong> Lenders must serve a 15 to 30 day demand cure notice before initiating repossession. </div> </li>
 
-                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Compulsory stock Sheet:</strong> Repossessing agents must provide a signed stock of cars contents and physical condition. </div> </li>
+                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Compulsory Inventory Sheet:</strong> Repossessing officers must provide a signed inventory of vehicle contents and physical condition. </div> </li>
 
-                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Pre-Sale Valuation Notice:</strong> Banks cannot auction cars without serving a pre-sale notice with certified surveyor valuation. </div> </li>
+                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Pre-Sale Valuation Notice:</strong> Banks cannot auction vehicles without serving a pre-sale notice with certified surveyor valuation. </div> </li>
 
                 <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Criminal Penalties:</strong> Highway intercept towing constitutes criminal trespass (Section 329 BNS) and extortion (Section 308 BNS). </div> </li>
 
-                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Civil Court Injunction:</strong> clients can obtain status-quo stay orders under Section 9 hearing Act against seizure. </div> </li>
+                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Civil Court Injunction:</strong> Borrowers can obtain status-quo stay orders under Section 9 Arbitration Act against seizure. </div> </li>
 
-                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Structured OTS relief:</strong> An bank OTS waives 40% to 55% of penal interest with an full No Dues letter. </div> </li>
+                <li className="flex items-start gap-2"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Structured OTS Resolution:</strong> An institutional OTS waives 40% to 55% of penal interest with an unconditional No Dues Certificate. </div> </li>
               </ul>
             </div>
 
@@ -182,45 +182,45 @@ export default function CarLoanDefaultVehicleSeizureClient() {
             <section id="rbi-vehicle-seizure-procedure" className="scroll-target rounded-2xl bg-white border border-slate-200/90 p-5 sm:p-6 md:p-8 shadow-xs space-y-6">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
                 <ShieldAlert className="w-4 h-4 text-[#1886ff]"/>
-                <span>Statutory Authority &amp; Mandatory SOP.</span>
+                <span>Statutory Authority &amp; Mandatory SOP</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 RBI Guidelines on Vehicle Seizure for Hypothecated Assets
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When a client defaults on an auto loan. Banks and NBFCs often deploy third-party claims firms that unlawfully threaten on-the-spot cars lifting or intercept drivers on highways. Under the. <strong>RBI Master Circular on Loans and Advances.</strong> and the <strong>Fair Practices Code for Lenders.</strong>Financiers are bound by strict legal steps before taking takeover of any hypothecated movable home. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When a borrower defaults on an auto loan, banks and NBFCs frequently deploy third-party collection agencies that unlawfully threaten on-the-spot vehicle lifting or intercept drivers on highways. Under the <strong>RBI Master Circular on Loans and Advances</strong> and the <strong>Fair Practices Code for Lenders</strong>, financiers are bound by strict statutory procedures before taking possession of any hypothecated movable property. </p>
 
               {/* 5-STEP MANDATORY PROCEDURE */}
               <div className="space-y-4">
                 <h3 className="text-base sm:text-lg font-bold text-slate-900 flex items-center gap-2">
                   <FileText className="w-5 h-5 text-[#1886ff]"/>
-                  <span>The 5 Mandatory Steps Lenders Must Follow to Seize a Vehicle.</span>
+                  <span>The 5 Mandatory Steps Lenders Must Follow to Seize a Vehicle</span>
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
                   <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80">
                     <span className="text-xs font-black text-[#1886ff] uppercase">Step 1</span>
                     <h3 className="text-sm font-bold text-slate-900 mt-1">Formal 30–60 Day Demand Notice</h3>
-                    <p className="text-xs text-slate-600 mt-1"> The lender must serve a registered demand cure notice giving 15 to 30 days (or 60 days under Section 13(2) SARFAESI Act for eligible NBFCs) detailing the exact overdue main loan and default computation. </p>
+                    <p className="text-xs text-slate-600 mt-1"> The lender must serve a registered demand cure notice giving 15 to 30 days (or 60 days under Section 13(2) SARFAESI Act for eligible NBFCs) detailing the exact overdue principal and default computation. </p>
                   </div>
                   <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80">
                     <span className="text-xs font-black text-[#1886ff] uppercase">Step 2</span>
                     <h3 className="text-sm font-bold text-slate-900 mt-1">Police &amp; Local Authority Intimation</h3>
-                    <p className="text-xs text-slate-600 mt-1"> Before touching the asset. Claims agents must provide written intimation to the local police station having police area over the cars’s location to avoid criminal breach of peace. </p>
+                    <p className="text-xs text-slate-600 mt-1"> Before touching the asset, recovery agents must provide written intimation to the local police station having jurisdiction over the vehicle’s location to avoid criminal breach of peace. </p>
                   </div>
                   <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80">
                     <span className="text-xs font-black text-[#1886ff] uppercase">Step 3</span>
                     <h3 className="text-sm font-bold text-slate-900 mt-1">Restricted Daylight Hours Only</h3>
-                    <p className="text-xs text-slate-600 mt-1"> Visits and seizure actions can only occur between. <strong>7:00 AM and 7:00 PM.</strong> at the client’s residence or workplace. Seizing a car on the highway or in transit is strictly illegal. </p>
+                    <p className="text-xs text-slate-600 mt-1"> Visits and seizure actions can only occur between <strong>7:00 AM and 7:00 PM</strong> at the borrower’s residence or workplace. Seizing a car on the highway or in transit is strictly illegal. </p>
                   </div>
                   <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80">
                     <span className="text-xs font-black text-[#1886ff] uppercase">Step 4</span>
                     <h3 className="text-sm font-bold text-slate-900 mt-1">Mandatory Signed Inventory Sheet</h3>
-                    <p className="text-xs text-slate-600 mt-1"> agents must produce an on-spot stock report detailing odometer reading. Exterior body scratches. Fuel level. Private belongings. Signed by the client and witnessing agents. </p>
+                    <p className="text-xs text-slate-600 mt-1"> Officers must produce an on-spot inventory report detailing odometer reading, exterior body scratches, fuel level, and personal belongings, signed by the borrower and witnessing agents. </p>
                   </div>
                 </div>
                 <div className="p-4 rounded-xl bg-blue-50/70 border border-blue-200/80">
                   <span className="text-xs font-black text-[#1886ff] uppercase">Step 5</span>
                   <h3 className="text-sm font-bold text-slate-900 mt-1">Pre-Sale Valuation &amp; 14-Day Redemption Period</h3>
-                  <p className="text-xs text-slate-700 mt-1"> Once in yard custody. The cars cannot be auctioned promptly. Lenders must issue a certified surveyor valuation report and allow the client at least 14 to 30 days to redeem the cars or settle the debt before any public auction. </p>
+                  <p className="text-xs text-slate-700 mt-1"> Once in yard custody, the vehicle cannot be auctioned immediately. Lenders must issue a certified surveyor valuation report and allow the borrower at least 14 to 30 days to redeem the vehicle or settle the debt before any public auction. </p>
                 </div>
               </div>
 
@@ -228,11 +228,11 @@ export default function CarLoanDefaultVehicleSeizureClient() {
               <div className="p-4 md:p-5 rounded-2xl bg-slate-900 text-white space-y-3">
                 <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-blue-400">
                   <Gavel className="w-4 h-4"/>
-                  <span>Landmark Supreme Court Precedents on Vehicle Repossession.</span>
+                  <span>Landmark Supreme Court Precedents on Vehicle Repossession</span>
                 </div>
                 <div className="space-y-2 text-xs md:text-sm text-slate-300">
-                  <p> <strong className="text-white">ICICI Bank Ltd. v. Prakash Kaur (2007) 2 SCC 711:</strong> The Hon'ble Supreme Court reprimanded banks for hiring claims musclemen and held: <em>&quot. Banks should resort to steps recognized by law to take takeover of cars. the practice of hiring musclemen must be stopped.&quot.</em> </p>
-                  <p> <strong className="text-white">Citigroup Inc. v. Gopalakrishna (2009):</strong> The High Court affirmed that taking takeover by force. Road interception. Without providing an stock copy amounts to criminal trespass and theft under penal law. </p>
+                  <p> <strong className="text-white">ICICI Bank Ltd. v. Prakash Kaur (2007) 2 SCC 711:</strong> The Hon'ble Supreme Court reprimanded banks for hiring recovery musclemen and held: <em>&quot;Banks should resort to procedure recognized by law to take possession of vehicles... the practice of hiring musclemen must be stopped.&quot;</em> </p>
+                  <p> <strong className="text-white">Citigroup Inc. v. Gopalakrishna (2009):</strong> The High Court affirmed that taking possession by force, road interception, or without providing an inventory copy amounts to criminal trespass and theft under penal law. </p>
                 </div>
               </div>
 
@@ -251,25 +251,25 @@ export default function CarLoanDefaultVehicleSeizureClient() {
             <section id="debt-economics-npa" className="scroll-target space-y-3">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
                 <Scale className="w-4 h-4 text-[#1886ff]"/>
-                <span>Statutory Foundations &amp; Banking Economics.</span>
+                <span>Statutory Foundations &amp; Banking Economics</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 1. Debt Economics and NPA Dynamics in Auto Loan Defaults
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Auto loans in India operate under hypothecation pacts governed by the Indian Contract Act. 1872 and registered under Section 51 of the Motor cars Act. 1988. While the financier maintains a charge on the asset. The client remains the registered owner. cars are rapidly depreciating assets whose market value declines sharply each quarter. </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When loan installments remain unpaid. Accounts progress through RBI Special Mention Account stages: SMA-0 (1-30 days). SMA-1 (31-60 days). SMA-2 (61-90 days). Beyond 90 days past due. Loans become Non-Performing Assets (NPA). Under Basel III rules. Banks must set aside heavy cash provisions for NPAs. Because seized cars in storage yards rapidly deteriorate. Lenders have strong trade incentives to settle One-Time deals (OTS). </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Auto loans in India operate under hypothecation agreements governed by the Indian Contract Act, 1872 and registered under Section 51 of the Motor Vehicles Act, 1988. While the financier maintains a charge on the asset, the borrower remains the registered owner. Vehicles are rapidly depreciating assets whose market value declines sharply each quarter. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When loan installments remain unpaid, accounts progress through RBI Special Mention Account stages: SMA-0 (1-30 days), SMA-1 (31-60 days), and SMA-2 (61-90 days). Beyond 90 days past due, loans become Non-Performing Assets (NPA). Under Basel III rules, banks must set aside heavy capital provisions for NPAs. Because seized vehicles in storage yards rapidly deteriorate, lenders have strong commercial incentives to negotiate One-Time Settlements (OTS). </p>
             </section>
 
             {/* SECTION 2: Financial Breakdown & Settlement Math */}
             <section id="financial-settlement-math" className="scroll-target space-y-3">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
                 <DollarSign className="w-4 h-4 text-[#1886ff]"/>
-                <span>Financial Forensics &amp; Settlement Math.</span>
+                <span>Financial Forensics &amp; Settlement Math</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 2. Auto Loan Settlement Math: Deconstructing Car Loan Penal Charges
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When auto loans default. Gross bank claims swell from compounding interest. NACH bounce charges. Legal fees. Yard parking costs. A audits isolates genuine main loan from ancillary penalties. This lets deep waivers during One-Time settlement (OTS) talks: </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When auto loans default, gross bank claims swell from compounding interest, NACH bounce charges, legal fees, and yard parking costs. A forensic audit isolates genuine principal from ancillary penalties, enabling deep waivers during One-Time Settlement (OTS) negotiations: </p>
 
               {/* REPRESENTATIVE SETTLEMENT MATH CARD */}
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-4 md:p-5 space-y-3">
@@ -277,18 +277,18 @@ export default function CarLoanDefaultVehicleSeizureClient() {
                   <div className="flex items-center gap-2">
                     <Car className="w-4 h-4 text-[#1886ff]"/>
                     <span className="font-extrabold text-slate-900 text-xs sm:text-sm">
-                      agent 180-Day NPA Auto Loan Settlement Model.
+                      Representative 180-Day NPA Auto Loan Settlement Model
                     </span>
                   </div>
                   <span className="text-[11px] font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-full">
-                    Typical 40% to 55% Waiver.
+                    Typical 40% to 55% Waiver
                   </span>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
                   <div className="space-y-1.5 bg-slate-50 p-3 rounded-xl border border-slate-100">
                     <span className="font-bold text-slate-500 uppercase tracking-wider text-[10px] block">
-                      Bank Gross Claim.
+                      Bank Gross Claim
                     </span>
                     <div className="flex justify-between py-0.5 border-b border-slate-200/60">
                       <span className="text-slate-600">Unpaid Principal:</span>
@@ -314,7 +314,7 @@ export default function CarLoanDefaultVehicleSeizureClient() {
 
                   <div className="space-y-1.5 bg-blue-50/60 p-3 rounded-xl border border-blue-100">
                     <span className="font-bold text-[#1886ff] uppercase tracking-wider text-[10px] block">
-                      CredSettle Outcome.
+                      CredSettle Outcome
                     </span>
                     <div className="flex justify-between py-0.5 border-b border-blue-200/50">
                       <span className="text-slate-600">Penal Fees Waiver:</span>
@@ -334,12 +334,12 @@ export default function CarLoanDefaultVehicleSeizureClient() {
                     </div>
                     <div className="flex justify-between pt-1 text-slate-900 font-extrabold text-xs">
                       <span>Final Agreed OTS:</span>
-                      <span className="text-[#1886ff]">₹3,85,000 (51.5% Savings).</span>
+                      <span className="text-[#1886ff]">₹3,85,000 (51.5% Savings)</span>
                     </div>
                   </div>
                 </div>
 
-                <p className="text-[11px] text-slate-600 leading-relaxed"> Upon RTGS payment of ₹3,85,000. The bank issues an formal settlement Sanction Letter. Full No Dues letter. RTO Form 35 to release hypothecation. </p>
+                <p className="text-[11px] text-slate-600 leading-relaxed"> Upon RTGS payment of ₹3,85,000, the bank issues an official Settlement Sanction Letter, unconditional No Dues Certificate, and RTO Form 35 to release hypothecation. </p>
               </div>
             </section>
 
@@ -347,12 +347,12 @@ export default function CarLoanDefaultVehicleSeizureClient() {
             <section id="comparison-matrix-grid" className="scroll-target space-y-3">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
                 <FileText className="w-4 h-4 text-[#1886ff]"/>
-                <span>Comparative Strategic Matrix.</span>
+                <span>Comparative Strategic Matrix</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 3. Vehicle Resolution Matrix: Loan Settlement vs Repossession
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Evaluating available auto loan relief routes is critical to prevent distress asset loss. This matrix compares key trade-offs across five avenues: </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Evaluating available auto loan resolution routes is critical to prevent distress asset loss. This matrix compares key trade-offs across five avenues: </p>
 
               {/* 4-SIDED BORDERED TABLE WITH VERTICAL AND HORIZONTAL DIVIDERS */}
               <div className="overflow-x-auto rounded-xl border border-slate-300 bg-white shadow-xs">
@@ -363,7 +363,7 @@ export default function CarLoanDefaultVehicleSeizureClient() {
                       <th className="p-2.5 font-bold border border-slate-300">Waiver</th>
                       <th className="p-2.5 font-bold border border-slate-300">Possession</th>
                       <th className="p-2.5 font-bold border border-slate-300">Speed</th>
-                      <th className="p-2.5 font-bold border border-slate-300">NDC &amp; Form 35.</th>
+                      <th className="p-2.5 font-bold border border-slate-300">NDC &amp; Form 35</th>
                       <th className="p-2.5 font-bold border border-slate-300 text-[#1886ff]">CIBIL</th>
                     </tr>
                   </thead>
@@ -371,7 +371,7 @@ export default function CarLoanDefaultVehicleSeizureClient() {
                     <tr className="hover:bg-slate-50">
                       <td className="p-2.5 font-bold border border-slate-300 text-slate-900">One-Time settlement.</td>
                       <td className="p-2.5 border border-slate-300 text-emerald-700 font-bold">40% to 55%</td>
-                      <td className="p-2.5 border border-slate-300 font-semibold text-emerald-800">Retained / Redeemed.</td>
+                      <td className="p-2.5 border border-slate-300 font-semibold text-emerald-800">Retained / Redeemed</td>
                       <td className="p-2.5 border border-slate-300">30-45 Days</td>
                       <td className="p-2.5 border border-slate-300 text-emerald-700 font-bold">Complete NDC</td>
                       <td className="p-2.5 border border-slate-300 text-slate-800">Settled</td>
@@ -379,13 +379,13 @@ export default function CarLoanDefaultVehicleSeizureClient() {
                     <tr className="hover:bg-slate-50">
                       <td className="p-2.5 font-bold border border-slate-300 text-slate-900">Restructuring</td>
                       <td className="p-2.5 border border-slate-300 text-slate-600">Zero Waiver</td>
-                      <td className="p-2.5 border border-slate-300 text-slate-700">Retained + Interest.</td>
+                      <td className="p-2.5 border border-slate-300 text-slate-700">Retained + Interest</td>
                       <td className="p-2.5 border border-slate-300">60-90 Days</td>
                       <td className="p-2.5 border border-slate-300 text-slate-700">Pending EMIs</td>
                       <td className="p-2.5 border border-slate-300 text-amber-700">Restructured</td>
                     </tr>
                     <tr className="hover:bg-slate-50">
-                      <td className="p-2.5 font-bold border border-slate-300 text-slate-900">Court lawsuits.</td>
+                      <td className="p-2.5 font-bold border border-slate-300 text-slate-900">Court Litigation</td>
                       <td className="p-2.5 border border-slate-300 text-red-600">None</td>
                       <td className="p-2.5 border border-slate-300 text-amber-700">Contested</td>
                       <td className="p-2.5 border border-slate-300 text-red-600">2-5 Years</td>
@@ -401,9 +401,9 @@ export default function CarLoanDefaultVehicleSeizureClient() {
                       <td className="p-2.5 border border-slate-300 text-slate-800">Settled</td>
                     </tr>
                     <tr className="hover:bg-slate-50">
-                      <td className="p-2.5 font-bold border border-slate-300 text-slate-900">Inaction / Seizure.</td>
+                      <td className="p-2.5 font-bold border border-slate-300 text-slate-900">Inaction / Seizure</td>
                       <td className="p-2.5 border border-slate-300 text-red-700 font-extrabold">Distress Sale</td>
-                      <td className="p-2.5 border border-slate-300 text-red-700 font-bold">Illegally Seized.</td>
+                      <td className="p-2.5 border border-slate-300 text-red-700 font-bold">Illegally Seized</td>
                       <td className="p-2.5 border border-slate-300 text-red-600">Ongoing Stress</td>
                       <td className="p-2.5 border border-slate-300 text-red-700">Residual Debt</td>
                       <td className="p-2.5 border border-slate-300 text-red-800 font-bold">Repossessed</td>
@@ -417,32 +417,32 @@ export default function CarLoanDefaultVehicleSeizureClient() {
             <section id="cibil-algorithm-impact" className="scroll-target space-y-3">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
                 <TrendingUp className="w-4 h-4 text-[#1886ff]"/>
-                <span>Credit Bureau Architecture.</span>
+                <span>Credit Bureau Architecture</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 4. CIBIL Algorithm: Auto Loan Scoring and Credit Rebound
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Credit bureaus calculate scores across five pillars: payment History (35%). Credit use (30%). Credit Age (15%). Credit Mix (10%). Inquiries (10%). Defaulting triggers cascading 30 to 90+ DPD notations. Lowering scores by 80 to 140 points. </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Executing an formal OTS updates bureau records to &quot. Settled&quot. With zero balance. Stopping recurring monthly negative marks. With an full No Dues letter. A secured credit builder card. Disciplined payments. Clients recover scores above 750 within 12 to 24 months. Erroneous reporting can be corrected under Section 21 of CICRA. 2005. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Credit bureaus calculate scores across five pillars: Repayment History (35%), Credit Utilization (30%), Credit Age (15%), Credit Mix (10%), and Inquiries (10%). Defaulting triggers cascading 30 to 90+ DPD notations, lowering scores by 80 to 140 points. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Executing an official OTS updates bureau records to &quot;Settled&quot; with zero balance, stopping recurring monthly negative marks. With an unconditional No Dues Certificate, a secured credit builder card, and disciplined payments, borrowers recover scores above 750 within 12 to 24 months. Erroneous reporting can be corrected under Section 21 of CICRA, 2005. </p>
             </section>
 
             {/* SECTION 5: Visual Infographic Asset Card */}
             <section id="infographic-roadmap" className="scroll-target space-y-3">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
                 <Sparkles className="w-4 h-4 text-[#1886ff]"/>
-                <span>Visual Defense Roadmap.</span>
+                <span>Visual Defense Roadmap</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Visual Defense Blueprint: 6-Stage Vehicle Repossession Defense
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Review our visual roadmap outlining legal client protections against unlawful cars repossession and bank OTS deals workflows: </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Review our visual roadmap outlining statutory borrower protections against unlawful vehicle repossession and institutional compromise settlement workflows: </p>
 
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-sm p-3 md:p-4 overflow-hidden">
                 <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-slate-100">
                   <Image src="/images/infographics/car-loan-default-vehicle-seizure.jpg" alt="Car Loan Default and Vehicle Seizure Legal Defense Blueprint Infographic" fill className="object-contain" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 75vw, 60vw" priority/>
                 </div>
                 <div className="mt-2.5 px-2 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-2">
-                  <span>CredSettle Legal Defense Blueprint • Supreme Court Precedents &amp; RBI Fair Practices.</span>
+                  <span>CredSettle Legal Defense Blueprint • Supreme Court Precedents &amp; RBI Fair Practices</span>
                   <a href="/images/infographics/car-loan-default-vehicle-seizure.jpg" target="_blank" rel="noopener noreferrer" className="text-[#1886ff] hover:underline font-bold flex items-center gap-1">
                     <span>View Blueprint</span>
                     <ExternalLink className="w-3.5 h-3.5"/>
@@ -455,72 +455,72 @@ export default function CarLoanDefaultVehicleSeizureClient() {
             <section id="step-by-step-sop" className="scroll-target space-y-3">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
                 <Layers className="w-4 h-4 text-[#1886ff]"/>
-                <span>Standard Operating Procedure.</span>
+                <span>Standard Operating Procedure</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 5. Step-by-Step SOP: 6-Stage Vehicle Settlement Process
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> CredSettle implements a structured Standard Operating steps to halt coercive claims tactics and settle straight with bank credit boards: </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> CredSettle implements a structured Standard Operating Procedure to halt coercive collection tactics and negotiate directly with bank credit committees: </p>
 
               <div className="space-y-2.5 pt-1">
                 {/* Stage 1 */}
                 <div className="bg-white p-3.5 rounded-xl border border-slate-200/80 shadow-xs space-y-1">
                   <div className="flex items-center justify-between">
                     <span className="text-xs font-bold text-[#1886ff] bg-blue-50 px-2 py-0.5 rounded">
-                      Stage 1 (Days 1-5): Forensic Loan Audit.
+                      Stage 1 (Days 1-5): Forensic Loan Audit
                     </span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> Legal audit of loan contracts and notices to identify illegal penalty charges. Unlawful towing fees. Verify whether strict RBI pre-repossession notices were served. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Legal audit of loan contracts and notices to identify unauthorized penal charges, unlawful towing fees, and verify whether mandatory RBI pre-repossession notices were served. </p>
                 </div>
 
                 {/* Stage 2 */}
                 <div className="bg-white p-3.5 rounded-xl border border-slate-200/80 shadow-xs space-y-1">
                   <div className="flex items-center justify-between">
                     <span className="text-xs font-bold text-[#1886ff] bg-blue-50 px-2 py-0.5 rounded">
-                      Stage 2 (Days 6-12): Hardship Dossier &amp; Valuation.
+                      Stage 2 (Days 6-12): Hardship Dossier &amp; Valuation
                     </span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> Compiling distress paperwork alongside an independent certified surveyor valuation report establishing realistic cars distress value for settlement discussions. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Compiling distress documentation alongside an independent certified surveyor valuation report establishing realistic vehicle distress value for settlement discussions. </p>
                 </div>
 
                 {/* Stage 3 */}
                 <div className="bg-white p-3.5 rounded-xl border border-slate-200/80 shadow-xs space-y-1">
                   <div className="flex items-center justify-between">
                     <span className="text-xs font-bold text-[#1886ff] bg-blue-50 px-2 py-0.5 rounded">
-                      Stage 3 (Days 13-20): Credit Committee &amp; Nodal Notice.
+                      Stage 3 (Days 13-20): Credit Committee &amp; Nodal Notice
                     </span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> Formal legal help before the bank Credit boards and main loan Nodal agents. Asserting legal protections against claims musclemen under Supreme Court rules. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Formal representation before the bank Credit Committee and Principal Nodal Officer, asserting statutory protections against recovery musclemen under Supreme Court guidelines. </p>
                 </div>
 
                 {/* Stage 4 */}
                 <div className="bg-white p-3.5 rounded-xl border border-slate-200/80 shadow-xs space-y-1">
                   <div className="flex items-center justify-between">
                     <span className="text-xs font-bold text-[#1886ff] bg-blue-50 px-2 py-0.5 rounded">
-                      Stage 4 (Days 21-32): Bilateral OTS Negotiations.
+                      Stage 4 (Days 21-32): Bilateral OTS Negotiations
                     </span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> Negotiators engage the bank claims desk to secure 40% to 55% waivers on penal interest. Late fees. Yard parking expenses matched to client capacity. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Negotiators engage the bank recovery desk to secure 40% to 55% waivers on penal interest, late fees, and yard parking expenses matched to borrower capacity. </p>
                 </div>
 
                 {/* Stage 5 */}
                 <div className="bg-white p-3.5 rounded-xl border border-slate-200/80 shadow-xs space-y-1">
                   <div className="flex items-center justify-between">
                     <span className="text-xs font-bold text-[#1886ff] bg-blue-50 px-2 py-0.5 rounded">
-                      Stage 5 (Days 33-38): Sanction Letter Verification.
+                      Stage 5 (Days 33-38): Sanction Letter Verification
                     </span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> Vetting the bank settlement Sanction Letter to confirm exact account details. OTS deal waiver terms. Binding commitments regarding hypothecation removal. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Vetting the bank Settlement Sanction Letter to confirm exact account details, compromise waiver terms, and binding commitments regarding hypothecation removal. </p>
                 </div>
 
                 {/* Stage 6 */}
                 <div className="bg-white p-3.5 rounded-xl border border-slate-200/80 shadow-xs space-y-1">
                   <div className="flex items-center justify-between">
                     <span className="text-xs font-bold text-[#1886ff] bg-blue-50 px-2 py-0.5 rounded">
-                      Stage 6 (Days 39-45): Remittance &amp; NDC Issuance.
+                      Stage 6 (Days 39-45): Remittance &amp; NDC Issuance
                     </span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> Direct payment to the bank loan account via RTGS. Followed by issuance of the full No Dues letter. RTO Form 35. Credit bureau closure. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Direct payment to the bank loan account via RTGS, followed by issuance of the unconditional No Dues Certificate, RTO Form 35, and credit bureau closure. </p>
                 </div>
               </div>
             </section>
@@ -529,44 +529,44 @@ export default function CarLoanDefaultVehicleSeizureClient() {
             <section id="statutory-notice-defense" className="scroll-target space-y-3">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
                 <Gavel className="w-4 h-4 text-[#1886ff]"/>
-                <span>Statutory Defense &amp; Procedural Safeguards.</span>
+                <span>Statutory Defense &amp; Procedural Safeguards</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 6. Statutory Notice Defense: Analyzing Legal Provisions &amp; Remedies
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When auto loans enter default. Lenders serve legal notices to exert pressure. Understanding these provisions enables an effective legal defense: </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When auto loans enter default, lenders serve statutory notices to exert pressure. Understanding these provisions enables an effective legal defense: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-1">
                 <div className="bg-white p-3.5 rounded-xl border border-slate-200 shadow-xs space-y-1">
                   <div className="flex items-center gap-2 text-[#1886ff] font-bold text-xs">
                     <FileWarning className="w-3.5 h-3.5"/>
-                    <span>Section 25 PSSA (NACH Bounce).</span>
+                    <span>Section 25 PSSA (NACH Bounce)</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> Penalizes bounced electronic mandates. Lenders must issue notice within 30 days. Proving absence of fraud or active talks provides an effective legal defense. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Penalizes bounced electronic mandates. Lenders must issue notice within 30 days. Proving absence of fraud or active settlement talks provides an effective legal defense. </p>
                 </div>
 
                 <div className="bg-white p-3.5 rounded-xl border border-slate-200 shadow-xs space-y-1">
                   <div className="flex items-center gap-2 text-[#1886ff] font-bold text-xs">
                     <AlertCircle className="w-3.5 h-3.5"/>
-                    <span>Section 138 NI Act (Cheque Bounce).</span>
+                    <span>Section 138 NI Act (Cheque Bounce)</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> Under Supreme Court rulings. Undated pledge cheques collected at loan disbursement cannot be presented for inflated amounts without prior reconciliation. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Under Supreme Court precedents, undated security cheques collected at loan disbursement cannot be presented for inflated amounts without prior reconciliation. </p>
                 </div>
 
                 <div className="bg-white p-3.5 rounded-xl border border-slate-200 shadow-xs space-y-1">
                   <div className="flex items-center gap-2 text-[#1886ff] font-bold text-xs">
                     <Scale className="w-3.5 h-3.5"/>
-                    <span>Arbitration &amp; Section 9 Injunction.</span>
+                    <span>Arbitration &amp; Section 9 Injunction</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> Unilateral arbitrator appointments by lenders are legally invalid. clients can seek interim stay orders under Section 9 hearing Act against cars repossession. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Unilateral arbitrator appointments by lenders are legally invalid. Borrowers can seek interim stay orders under Section 9 Arbitration Act against vehicle repossession. </p>
                 </div>
 
                 <div className="bg-white p-3.5 rounded-xl border border-slate-200 shadow-xs space-y-1">
                   <div className="flex items-center gap-2 text-[#1886ff] font-bold text-xs">
                     <ShieldCheck className="w-3.5 h-3.5"/>
-                    <span>DRT Section 19 &amp; Fair Practices.</span>
+                    <span>DRT Section 19 &amp; Fair Practices</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> For claims over ₹20 Lakhs before DRT. Lenders must strictly comply with the RBI Fair Practices Code prohibiting client abuse and threats. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> For claims over ₹20 Lakhs before DRT, lenders must strictly comply with the RBI Fair Practices Code prohibiting borrower harassment and intimidation. </p>
                 </div>
               </div>
             </section>
@@ -575,30 +575,30 @@ export default function CarLoanDefaultVehicleSeizureClient() {
             <section id="escalation-redressal-matrix" className="scroll-target space-y-3">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
                 <ShieldAlert className="w-4 h-4 text-[#1886ff]"/>
-                <span>Grievance Escalation Framework.</span>
+                <span>Grievance Escalation Framework</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 7. 3-Tier Grievance Redressal Matrix for Auto Loan Defaults
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> If claims agents violate RBI rules through abuse. Abusive calls. Repossession threats. Clients can escalate through three RBI tiers: </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> If recovery agents violate RBI guidelines through harassment, abusive calls, or repossession threats, borrowers can escalate through three regulatory tiers: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-3 pt-1">
                 <div className="bg-white p-3 rounded-xl border border-slate-200 shadow-xs space-y-1">
-                  <span className="text-[10px] font-bold text-[#1886ff] uppercase">Tier 1 (7-10 Days).</span>
+                  <span className="text-[10px] font-bold text-[#1886ff] uppercase">Tier 1 (7-10 Days)</span>
                   <h3 className="font-bold text-slate-900 text-xs">Grievance Redressal Officer</h3>
-                  <p className="text-[11px] text-slate-600 leading-relaxed"> Submit formal written reports with call logs demanding cessation of rogue agent visits. </p>
+                  <p className="text-[11px] text-slate-600 leading-relaxed"> Submit formal written complaints with call logs demanding cessation of rogue agent visits. </p>
                 </div>
 
                 <div className="bg-white p-3 rounded-xl border border-slate-200 shadow-xs space-y-1">
-                  <span className="text-[10px] font-bold text-[#1886ff] uppercase">Tier 2 (14-21 Days).</span>
+                  <span className="text-[10px] font-bold text-[#1886ff] uppercase">Tier 2 (14-21 Days)</span>
                   <h3 className="font-bold text-slate-900 text-xs">Principal Nodal Officer</h3>
-                  <p className="text-[11px] text-slate-600 leading-relaxed"> Escalate unresolved reports to apex nodal agents citing RBI debt claims directions. </p>
+                  <p className="text-[11px] text-slate-600 leading-relaxed"> Escalate unresolved complaints to apex nodal officers citing RBI debt recovery directions. </p>
                 </div>
 
                 <div className="bg-white p-3 rounded-xl border border-slate-200 shadow-xs space-y-1">
-                  <span className="text-[10px] font-bold text-emerald-700 uppercase">Tier 3 (30 Days).</span>
+                  <span className="text-[10px] font-bold text-emerald-700 uppercase">Tier 3 (30 Days)</span>
                   <h3 className="font-bold text-slate-900 text-xs">RBI Integrated Ombudsman</h3>
-                  <p className="text-[11px] text-slate-600 leading-relaxed"> Lodge online reports on cms.rbi.org.in for RBI reprimand and claims relief. </p>
+                  <p className="text-[11px] text-slate-600 leading-relaxed"> Lodge online complaints on cms.rbi.org.in for regulatory reprimand and dispute resolution. </p>
                 </div>
               </div>
             </section>
@@ -607,12 +607,12 @@ export default function CarLoanDefaultVehicleSeizureClient() {
             <section id="chronological-milestones" className="scroll-target space-y-3">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
                 <Clock className="w-4 h-4 text-[#1886ff]"/>
-                <span>Procedural Milestones.</span>
+                <span>Procedural Milestones</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 8. Chronological Timeline Table: The 6-Month Procedural Lifecycle
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Auto loan claims relief follows a predictable procedural sequence from default to final settlement: </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Auto loan dispute resolution follows a predictable procedural sequence from default to final settlement: </p>
 
               {/* 4-SIDED BORDERED TABLE */}
               <div className="overflow-x-auto rounded-xl border border-slate-300 bg-white shadow-xs">
@@ -629,32 +629,32 @@ export default function CarLoanDefaultVehicleSeizureClient() {
                     <tr className="hover:bg-slate-50">
                       <td className="p-2.5 font-bold border border-slate-300 text-slate-900">Days 1 - 30</td>
                       <td className="p-2.5 border border-slate-300 font-semibold text-slate-800">SMA-0</td>
-                      <td className="p-2.5 border border-slate-300">SMS alerts, soft calls.</td>
-                      <td className="p-2.5 border border-slate-300 text-slate-800">Review payment plan.</td>
+                      <td className="p-2.5 border border-slate-300">SMS alerts, soft calls</td>
+                      <td className="p-2.5 border border-slate-300 text-slate-800">Review payment plan</td>
                     </tr>
                     <tr className="hover:bg-slate-50">
                       <td className="p-2.5 font-bold border border-slate-300 text-slate-900">Days 31 - 90</td>
-                      <td className="p-2.5 border border-slate-300 font-semibold text-amber-700">SMA-1 &amp. SMA-2.</td>
-                      <td className="p-2.5 border border-slate-300">Agent calls, threat letters.</td>
-                      <td className="p-2.5 border border-slate-300 text-slate-800">Serve Cease &amp. Desist notice.</td>
+                      <td className="p-2.5 border border-slate-300 font-semibold text-amber-700">SMA-1 &amp; SMA-2</td>
+                      <td className="p-2.5 border border-slate-300">Agent calls, threat letters</td>
+                      <td className="p-2.5 border border-slate-300 text-slate-800">Serve Cease &amp; Desist notice</td>
                     </tr>
                     <tr className="hover:bg-slate-50">
                       <td className="p-2.5 font-bold border border-slate-300 text-slate-900">Days 91 - 120</td>
                       <td className="p-2.5 border border-slate-300 font-bold text-red-600">NPA Asset</td>
-                      <td className="p-2.5 border border-slate-300">Demand &amp. hearing notices.</td>
-                      <td className="p-2.5 border border-slate-300 text-slate-800">Initiate Credit boards OTS.</td>
+                      <td className="p-2.5 border border-slate-300">Demand &amp; arbitration notices</td>
+                      <td className="p-2.5 border border-slate-300 text-slate-800">Initiate Credit Committee OTS</td>
                     </tr>
                     <tr className="hover:bg-slate-50">
                       <td className="p-2.5 font-bold border border-slate-300 text-slate-900">Days 121 - 150</td>
-                      <td className="p-2.5 border border-slate-300 font-bold text-red-700">Provisioning Window.</td>
-                      <td className="p-2.5 border border-slate-300">Pre-sale notices, legal filings.</td>
-                      <td className="p-2.5 border border-slate-300 text-[#1886ff] font-semibold">Finalize OTS deal terms.</td>
+                      <td className="p-2.5 border border-slate-300 font-bold text-red-700">Provisioning Window</td>
+                      <td className="p-2.5 border border-slate-300">Pre-sale notices, legal filings</td>
+                      <td className="p-2.5 border border-slate-300 text-[#1886ff] font-semibold">Finalize compromise terms</td>
                     </tr>
                     <tr className="hover:bg-slate-50">
                       <td className="p-2.5 font-bold border border-slate-300 text-slate-900">Month 5 - 6</td>
                       <td className="p-2.5 border border-slate-300 font-bold text-emerald-700">Settled Account</td>
-                      <td className="p-2.5 border border-slate-300">Sanction letter issued.</td>
-                      <td className="p-2.5 border border-slate-300 text-emerald-700 font-bold">Pay OTS. Get NDC &amp. Form 35.</td>
+                      <td className="p-2.5 border border-slate-300">Sanction letter issued</td>
+                      <td className="p-2.5 border border-slate-300 text-emerald-700 font-bold">Remit OTS, get NDC &amp; Form 35</td>
                     </tr>
                   </tbody>
                 </table>
@@ -665,12 +665,12 @@ export default function CarLoanDefaultVehicleSeizureClient() {
             <section id="specialized-scenarios" className="scroll-target space-y-3">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
                 <Briefcase className="w-4 h-4 text-[#1886ff]"/>
-                <span>Specialized Real-World Case Studies.</span>
+                <span>Specialized Real-World Case Studies</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 9. Specialized Real-World Scenarios: Complex Auto Loan Disputes
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Auto loan defaults occur in various situation. CredSettle resolves complex claims scenarios across client categories in India: </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Auto loan defaults occur in various circumstances. CredSettle resolves complex dispute scenarios across borrower categories in India: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-1">
                 <div className="bg-white p-3.5 rounded-xl border border-slate-200 shadow-xs space-y-1">
@@ -678,7 +678,7 @@ export default function CarLoanDefaultVehicleSeizureClient() {
                     <Car className="w-3.5 h-3.5 text-[#1886ff]"/>
                     Commercial Fleet Defaults
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed"> Fleet operators with cars hypothecated across NBFCs receive legal safety against highway intercepts. Helping structured multi-cars deals. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Fleet operators with vehicles hypothecated across NBFCs receive legal protection against highway intercepts, facilitating structured multi-vehicle settlements. </p>
                 </div>
 
                 <div className="bg-white p-3.5 rounded-xl border border-slate-200 shadow-xs space-y-1">
@@ -686,7 +686,7 @@ export default function CarLoanDefaultVehicleSeizureClient() {
                     <UserCheck className="w-3.5 h-3.5 text-emerald-600"/>
                     Executive Luxury Cars
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed"> workers with premium car loans facing unexpected layoffs receive strategic talks support. Securing waivers to help dignified redemption or surrender. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Professionals with premium car loans facing unexpected layoffs receive strategic negotiation support, securing waivers to help dignified redemption or surrender. </p>
                 </div>
 
                 <div className="bg-white p-3.5 rounded-xl border border-slate-200 shadow-xs space-y-1">
@@ -694,7 +694,7 @@ export default function CarLoanDefaultVehicleSeizureClient() {
                     <ShieldAlert className="w-3.5 h-3.5 text-amber-600"/>
                     Total Loss Insurance Disputes
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed"> When accident-damaged cars face cover claim delays while banks demand EMIs. CredSettle coordinates claim settlement and shortfall waivers. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> When accident-damaged cars face insurance claim delays while banks demand EMIs, CredSettle coordinates claim settlement and shortfall waivers. </p>
                 </div>
 
                 <div className="bg-white p-3.5 rounded-xl border border-slate-200 shadow-xs space-y-1">
@@ -702,7 +702,7 @@ export default function CarLoanDefaultVehicleSeizureClient() {
                     <Building2 className="w-3.5 h-3.5 text-indigo-600"/>
                     ARC Debt Assignments
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed"> When defaulted auto loans are sold to Asset Reconstruction Companies under SARFAESI Section 5. We enforce strict compliance with RBI claims codes. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> When defaulted auto loans are sold to Asset Reconstruction Companies under SARFAESI Section 5, we enforce strict compliance with RBI recovery codes. </p>
                 </div>
               </div>
             </section>
@@ -716,12 +716,12 @@ export default function CarLoanDefaultVehicleSeizureClient() {
             <section id="frequently-asked-questions" className="scroll-target space-y-3">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
                 <HelpCircle className="w-4 h-4 text-[#1886ff]"/>
-                <span>Frequently Asked Questions.</span>
+                <span>Frequently Asked Questions</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 FAQs: Auto Loan Default and Vehicle Repossession Rules
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Clear. Authoritative answers to the most critical legal and money questions surrounding car loan defaults. Repossession steps. client protections in India: </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Clear, authoritative answers to the most critical legal and financial questions surrounding car loan defaults, repossession procedures, and borrower protections in India: </p>
 
               <div className="space-y-2.5 pt-1">
                 {faqs.map((faq, index) => {
@@ -743,54 +743,54 @@ export default function CarLoanDefaultVehicleSeizureClient() {
             <section id="regulatory-sources" className="scroll-target space-y-3">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
                 <Award className="w-4 h-4 text-[#1886ff]"/>
-                <span>Statutory Citations &amp; Outbound Authority Grid.</span>
+                <span>Statutory Citations &amp; Outbound Authority Grid</span>
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Statutory Citations &amp; Authoritative Sources
               </h2>
-              <p className="text-sm text-slate-700 leading-relaxed"> CredSettle legal commentary and defense plans are strictly rooted in Indian statutes. Judicial rulings. RBI rules: </p>
+              <p className="text-sm text-slate-700 leading-relaxed"> CredSettle legal commentary and defense strategies are strictly rooted in Indian statutes, judicial precedents, and RBI frameworks: </p>
 
               <div className="bg-white p-3.5 rounded-xl border border-slate-200 shadow-xs space-y-1.5">
                 <h3 className="text-xs font-bold text-slate-500 uppercase tracking-wider">
                   Key Judicial Precedents &amp; Statutory Codes
                 </h3>
                 <ul className="text-xs text-slate-600 space-y-1 list-disc list-inside leading-relaxed">
-                  <li><strong>Supreme Court:</strong> <em>ICICI Bank Ltd. v. Prakash Kaur (2007) 2 SCC 711.</em> (Ban on musclemen).</li>
-                  <li><strong>Motor cars Act, 1988:</strong> Section 51 (Motor cars hypothecation provisions).</li>
-                  <li><strong>Reserve Bank of India:</strong> Master Direction on outside work and Debt claims Codes.</li>
-                  <li><strong>Bharatiya Nyaya Sanhita, 2023:</strong> Sections 303 (Theft). 308 (Extortion). 329 (Trespass). 351 (threats).</li>
-                  <li><strong>CICRA, 2005:</strong> Section 21 (claims relief and rectification of credit information).</li>
+                  <li><strong>Supreme Court:</strong> <em>ICICI Bank Ltd. v. Prakash Kaur (2007) 2 SCC 711</em> (Ban on musclemen).</li>
+                  <li><strong>Motor Vehicles Act, 1988:</strong> Section 51 (Motor vehicle hypothecation provisions).</li>
+                  <li><strong>Reserve Bank of India:</strong> Master Direction on Outsourcing and Debt Recovery Codes.</li>
+                  <li><strong>Bharatiya Nyaya Sanhita, 2023:</strong> Sections 303 (Theft), 308 (Extortion), 329 (Trespass), 351 (Intimidation).</li>
+                  <li><strong>CICRA, 2005:</strong> Section 21 (Dispute resolution and rectification of credit information).</li>
                 </ul>
               </div>
 
               {/* 6 Outbound Authority Badges */}
               <div className="space-y-1.5 pt-1">
                 <span className="text-xs font-bold text-slate-700 uppercase tracking-wider block">
-                  Official Regulatory Portals.
+                  Official Regulatory Portals
                 </span>
                 <div className="flex flex-wrap gap-2 text-xs">
                   <a href="https://www.rbi.org.in" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-800 font-semibold border border-slate-200 transition-colors">
-                    <span>Reserve Bank of India (rbi.org.in).</span>
+                    <span>Reserve Bank of India (rbi.org.in)</span>
                     <ExternalLink className="w-3 h-3 text-slate-500"/>
                   </a>
                   <a href="https://cms.rbi.org.in" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-800 font-semibold border border-slate-200 transition-colors">
-                    <span>RBI Integrated Ombudsman (cms.rbi.org.in).</span>
+                    <span>RBI Integrated Ombudsman (cms.rbi.org.in)</span>
                     <ExternalLink className="w-3 h-3 text-slate-500"/>
                   </a>
                   <a href="https://www.cibil.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-800 font-semibold border border-slate-200 transition-colors">
-                    <span>TransUnion CIBIL India (cibil.com).</span>
+                    <span>TransUnion CIBIL India (cibil.com)</span>
                     <ExternalLink className="w-3 h-3 text-slate-500"/>
                   </a>
                   <a href="https://www.indiacode.nic.in" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-800 font-semibold border border-slate-200 transition-colors">
-                    <span>India Code Repository (indiacode.nic.in).</span>
+                    <span>India Code Repository (indiacode.nic.in)</span>
                     <ExternalLink className="w-3 h-3 text-slate-500"/>
                   </a>
                   <a href="https://nalsa.gov.in" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-800 font-semibold border border-slate-200 transition-colors">
-                    <span>National Legal Services Authority (nalsa.gov.in).</span>
+                    <span>National Legal Services Authority (nalsa.gov.in)</span>
                     <ExternalLink className="w-3 h-3 text-slate-500"/>
                   </a>
                   <a href="https://cybercrime.gov.in" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-800 font-semibold border border-slate-200 transition-colors">
-                    <span>National Cyber Crime Portal (cybercrime.gov.in).</span>
+                    <span>National Cyber Crime Portal (cybercrime.gov.in)</span>
                     <ExternalLink className="w-3 h-3 text-slate-500"/>
                   </a>
                 </div>
@@ -799,7 +799,7 @@ export default function CarLoanDefaultVehicleSeizureClient() {
               {/* 10 Internal CredSettle Topic Badges */}
               <div className="space-y-1.5 pt-1">
                 <span className="text-xs font-bold text-slate-700 uppercase tracking-wider block">
-                  Related Debt Resolution Guides.
+                  Related Debt Resolution Guides
                 </span>
                 <div className="flex flex-wrap gap-2 text-xs">
                   <Link href="/can-recovery-agents-seize-property" className="px-2.5 py-1 rounded-lg bg-blue-50 text-[#1886ff] hover:bg-blue-100 font-semibold border border-blue-100 transition-colors">
@@ -848,15 +848,15 @@ export default function CarLoanDefaultVehicleSeizureClient() {
                 </div>
                 <div>
                   <p className="font-extrabold text-slate-900 text-sm"> Ashish Jhangra </p>
-                  <p className="text-xs text-[#1886ff] font-semibold"> Legal &amp. Debt relief expert. </p>
+                  <p className="text-xs text-[#1886ff] font-semibold"> Legal &amp; Debt Resolution Professional. </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed"> Specialist in Indian banking jurisprudence. Motor cars hypothecation claims. SARFAESI limitations. And debt OTS deals at CredSettle. </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> Specialist in Indian banking jurisprudence, motor vehicle hypothecation disputes, SARFAESI limitations, and debt compromise settlements at CredSettle. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
-                <span>Verified Legal Author.</span>
+                <span>Verified Legal Author</span>
                 <span className="text-emerald-700 font-bold flex items-center gap-1">
                   <ShieldCheck className="w-3.5 h-3.5"/>
-                  CredSettle Legal Desk.
+                  CredSettle Legal Desk
                 </span>
               </div>
             </div>
@@ -866,10 +866,10 @@ export default function CarLoanDefaultVehicleSeizureClient() {
               <div className="inline-flex p-3 rounded-full bg-white/10 mx-auto">
                 <Phone className="w-6 h-6 text-white"/>
               </div>
-              <p className="text-lg font-extrabold leading-snug"> Facing Illegal cars Repossession? </p>
-              <p className="text-xs text-white/90 leading-relaxed"> Our legal team intervenes within hours to halt illegal towing. Issue cease-and-desist notices. And protect your cars. </p>
+              <p className="text-lg font-extrabold leading-snug"> Facing Illegal Vehicle Repossession? </p>
+              <p className="text-xs text-white/90 leading-relaxed"> Our legal team intervenes within hours to halt unauthorized towing, issue cease-and-desist notices, and protect your vehicle. </p>
               <a href="tel:+918800226635" className="block w-full py-3 rounded-xl bg-white text-blue-900 font-extrabold text-sm hover:bg-slate-50 transition-all shadow-sm">
-                Call Helpline: +91-8800226635.
+                Call Helpline: +91-8800226635
               </a>
               <Link href="/contact" className="block w-full py-2.5 rounded-xl bg-blue-700/60 hover:bg-blue-700 text-white font-bold text-xs transition-all border border-white/20">
                 Request Emergency Case Review
@@ -880,25 +880,25 @@ export default function CarLoanDefaultVehicleSeizureClient() {
             <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-4 space-y-3">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-slate-800 pb-2 border-b border-slate-100">
                 <ShieldCheck className="w-4 h-4 text-[#1886ff]"/>
-                <span>CredSettle Legal Assurance.</span>
+                <span>CredSettle Legal Assurance</span>
               </div>
 
               <div className="space-y-2 text-xs text-slate-700">
                 <div className="flex items-center gap-2">
                   <Check className="w-4 h-4 text-emerald-600 flex-shrink-0"/>
-                  <span>100% Anti-Harassment Guarantee.</span>
+                  <span>100% Anti-Harassment Guarantee</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="w-4 h-4 text-emerald-600 flex-shrink-0"/>
-                  <span>Direct Bank Credit Committee Talks.</span>
+                  <span>Direct Bank Credit Committee Talks</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="w-4 h-4 text-emerald-600 flex-shrink-0"/>
-                  <span>Official RTO Hypothecation Removal.</span>
+                  <span>Official RTO Hypothecation Removal</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="w-4 h-4 text-emerald-600 flex-shrink-0"/>
-                  <span>4.8/5 Rated Across 5,000+ Cases.</span>
+                  <span>4.8/5 Rated Across 5,000+ Cases</span>
                 </div>
               </div>
             </div>

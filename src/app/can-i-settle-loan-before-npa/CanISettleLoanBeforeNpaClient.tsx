@@ -49,43 +49,43 @@ export default function CanISettleLoanBeforeNpaClient() {
     const faqs = [
         {
             q: 'Can I settle my loan before it officially becomes a Non-Performing Asset (NPA)?',
-            a: "Yes. Clients can settle a pre-NPA OTS deals during the SMA-1 or SMA-2 stages (30 to 89 days overdue). Provided they can prove exceptional hardship such as job loss. Critical illness. trade failure."
+            a: "Yes, borrowers can negotiate a pre-NPA compromise settlement during the SMA-1 or SMA-2 stages (30 to 89 days overdue), provided they can substantiate exceptional financial hardship such as job loss, critical illness, or business failure."
         },
         {
             q: 'Why are banks generally reluctant to offer a One-Time Settlement (OTS) before 90 days?',
-            a: "Before 90 days. The loan is classified as a Standard Asset. Meaning the bank has not allocated loan loss provisions. Approving an OTS forces an fast write-off and provisioning hit on their profit and loss record."
+            a: "before 90 days, the loan is classified as a Standard Asset, meaning the bank has not allocated loan loss provisions. Approving an OTS forces an immediate write-off and provisioning hit on their profit and loss statement."
         },
         {
             q: 'What is the difference between loan restructuring and pre-NPA settlement?',
-            a: "Loan restructuring modifies payment terms. Examples include extending the loan tenure or reducing EMIs without debt forgiveness. In contrast. Pre-NPA settlement forgives a portion of the main loan and waives penalty charges for a lump-sum payoff."
+            a: "Loan restructuring modifies payment terms, such as extending the loan tenure or reducing EMIs without debt forgiveness, whereas pre-NPA settlement forgives a portion of the principal and waives penal charges for a lump-sum payoff."
         },
         {
             q: 'Will a pre-NPA settlement damage my CIBIL score?',
-            a: 'Yes. When a loan is settled before or after NPA. Credit bureaus report the account status as Settled rather than Closed. This lowers your CIBIL score. However. It halts compounding default penalties and sets the unpaid dues to zero.'
+            a: 'Yes. When a loan is settled before or after NPA, credit bureaus report the account status as Settled rather than Closed, which lowers your CIBIL score. However, it halts compounding default penalties and sets the outstanding balance to zero.'
         },
         {
             q: 'What documents are required to prove eligibility for a pre-NPA compromise settlement?',
-            a: "Lenders require formal hardship paperwork. This includes termination letters. Medical treatment records. Bank records showing severe liquidity shortfalls. Audited profit and loss records for firms. An itemized debt stress affidavit."
+            a: "Lenders require formal hardship documentation, including termination letters, medical treatment records, bank statements demonstrating severe liquidity shortfalls, audited profit and loss statements for businesses, and an itemized financial distress affidavit."
         },
         {
             q: 'Can I negotiate a waiver of penal interest during the SMA-1 and SMA-2 stages?',
-            a: "Yes. Under RBI Fair Lending Practices directives. Banks have the discretion to waive total penalty charges. Bounce fees. Late payment penalties when executing a pre-NPA relief."
+            a: "Yes. Under RBI Fair Lending Practices directives, banks have the discretion to waive accumulated penal charges, bounce fees, and late payment penalties when executing a pre-NPA resolution."
         },
         {
             q: 'How much haircut or discount can I expect during a pre-NPA loan settlement?',
-            a: 'Pre-NPA settlements typically yield a 25% to 45% discount on the base loan along with a 100% penal interest waiver. Deeper haircuts (50%+) are generally easier to secure once the loan crosses 90 days into NPA.'
+            a: 'Pre-NPA settlements typically yield a 25% to 45% discount on the principal balance along with a 100% penal interest waiver. Deeper haircuts (50%+) are generally easier to secure once the loan crosses 90 days into NPA.'
         },
         {
             q: 'Can a bank file legal cases under Section 138 or Section 25 PSSA before 90 days?',
-            a: 'Yes. If an EMI cheque or NACH auto-debit mandate bounces at any point. The bank can issue legal legal notices under Section 138 of the NI Act or Section 25 of the PSSA. Even while the account is in SMA status.'
+            a: 'Yes. If an EMI cheque or NACH auto-debit mandate bounces at any point, the bank can issue statutory legal notices under Section 138 of the NI Act or Section 25 of the PSSA, even while the account is in SMA status.'
         },
         {
             q: 'What should I check in the Pre-NPA Settlement Sanction Letter before paying?',
-            a: "Ensure the letter is on formal bank letterhead. Explicitly details the exact OTS deals amount. Payment deadlines. A covenant confirming full and final debt discharge. A commitment to issue a No Dues letter."
+            a: "Ensure the letter is on official bank letterhead, explicitly details the exact compromise settlement amount, payment deadlines, a covenant confirming full and final debt discharge, and a commitment to issue a No Dues Certificate."
         },
         {
             q: 'How can I rebuild my CIBIL score after completing a pre-NPA settlement?',
-            a: "Obtain the stamped No Dues letter. Verify that the lender updates the bureau balance to zero under Section 21 of CICRA. Maintain clean payment records on remaining credit. Use a secured fixed-deposit credit card to restore your score above 750 within 12 to 24 months."
+            a: "Obtain the stamped No Dues Certificate, verify that the lender updates the bureau balance to zero under Section 21 of CICRA, maintain clean payment records on remaining credit, and use a secured fixed-deposit credit card to restore your score above 750 within 12 to 24 months."
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -95,18 +95,18 @@ export default function CanISettleLoanBeforeNpaClient() {
         <div className="max-w-4xl mx-auto text-center z-10 relative">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md text-blue-100 text-xs font-bold tracking-wide uppercase mb-4 border border-white/15">
             <ShieldCheck className="w-3.5 h-3.5 text-blue-300"/>
-            <span>STATUTORY DEBT RESOLUTION &amp; PRE-NPA compromise program.</span>
+            <span>STATUTORY DEBT RESOLUTION &amp; PRE-NPA COMPROMISE FRAMEWORK</span>
           </div>
 
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-3 tracking-tight leading-tight">
             Can I Settle Loan Before NPA? (SMA Stages &amp; Settlement Rules)
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> clients experiencing severe money breaks often wonder if they can settle their loan during the early 30 to 89 day default window. While retail bank branches routinely push for standard restructuring. Board-approved OTS deal policies empower credit boards to sanction pre-NPA settlements under exceptional hardship. </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> Borrowers experiencing severe financial disruption often wonder if they can settle their loan during the early 30 to 89 day delinquency window. While retail bank branches routinely push for standard restructuring, board-approved compromise policies empower credit committees to sanction pre-NPA settlements under exceptional hardship. </p>
 
           <div className="flex justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl inline-flex items-center justify-center gap-2">
-              <span>Explore Pre-NPA Resolution Options.</span>
+              <span>Explore Pre-NPA Resolution Options</span>
               <ArrowRight className="w-4 h-4"/>
             </Link>
           </div>
@@ -127,7 +127,7 @@ export default function CanISettleLoanBeforeNpaClient() {
               <div className="flex items-center gap-2 pb-3 mb-3 border-b border-slate-100">
                 <BookOpen className="w-4 h-4 text-[#1886ff]"/>
                 <span className="text-xs font-black uppercase tracking-wider text-slate-800">
-                  Table of Contents.
+                  Table of Contents
                 </span>
               </div>
               <nav className="space-y-1 max-h-[calc(100vh-140px)] overflow-y-auto pr-1 text-xs">
@@ -144,9 +144,9 @@ export default function CanISettleLoanBeforeNpaClient() {
               <div className="mt-4 pt-3 border-t border-slate-100 bg-blue-50/50 -mx-4 -mb-4 p-3 rounded-b-2xl">
                 <div className="flex items-center gap-2 text-[11px] font-bold text-slate-800">
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
-                  <span>Pre-NPA Regulatory Protection.</span>
+                  <span>Pre-NPA Regulatory Protection</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by RBI Prudential relief Directives. SARFAESI Act &amp. CICRA 2005. </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by RBI Prudential Resolution Directives, SARFAESI Act &amp; CICRA 2005. </p>
               </div>
             </div>
           </aside>
@@ -158,7 +158,7 @@ export default function CanISettleLoanBeforeNpaClient() {
             <div id="executive-summary" className="scroll-target rounded-2xl bg-[#F4F8FE] border border-blue-100/90 border-l-[5px] border-l-[#1886ff] p-5 sm:p-6 shadow-xs space-y-3.5 text-slate-800">
               <div className="flex items-center gap-2 text-xs md:text-sm font-black uppercase tracking-wider text-[#1886ff]">
                 <Bookmark className="w-4 h-4 text-[#1886ff]"/>
-                <span>EXECUTIVE BRIEF: PRE-NPA LOAN SETTLEMENT PROTOCOLS.</span>
+                <span>EXECUTIVE BRIEF: PRE-NPA LOAN SETTLEMENT PROTOCOLS</span>
               </div>
 
               <ul className="space-y-2 text-xs sm:text-sm text-slate-700 leading-normal">
@@ -166,17 +166,17 @@ export default function CanISettleLoanBeforeNpaClient() {
 
                 <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Branch Approval Resistance:</strong> Retail branches push restructuring because early OTS discounts hit branch profit margins. </div> </li>
 
-                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Compassionate Hardship Relief:</strong> Credit boards have special powers to settle early for illness. Disability. Or job loss. </div> </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Compassionate Hardship Relief:</strong> Credit Committees have discretionary powers to settle early for illness, disability, or job loss. </div> </li>
 
-                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Restructuring vs. OTS deal:</strong> Restructure for temporary cash crunch. settle OTS if income loss is permanent. </div> </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Restructuring vs. Compromise:</strong> Restructure for temporary cash crunch; negotiate OTS if income loss is permanent. </div> </li>
 
-                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Pre-NPA Settlement Targets:</strong> Expect 25% to 45% main loan reduction alongside a 100% waiver of accrued penal interest. </div> </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Pre-NPA Settlement Targets:</strong> Expect 25% to 45% principal reduction alongside a 100% waiver of accrued penal interest. </div> </li>
 
-                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">SARFAESI Section 31(g) Immunity:</strong> no-pledge loans and credit cards cannot be subjected to property attachment. </div> </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">SARFAESI Section 31(g) Immunity:</strong> Unsecured loans and credit cards cannot be subjected to property attachment. </div> </li>
 
                 <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Credit Bureau Score Protection:</strong> Early settlement caps DPD trail and enables credit score rebuilding back to 750+ in 12-24 months. </div> </li>
 
-                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Direct boards Escalation:</strong> Bypass tele-callers and present your hardship file straight to the Stressed Assets Branch. </div> </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Direct Committee Escalation:</strong> Bypass tele-callers and present your hardship file directly to the Stressed Assets Branch. </div> </li>
               </ul>
             </div>
 
@@ -189,13 +189,13 @@ export default function CanISettleLoanBeforeNpaClient() {
                 </h2>
               </div>
 
-              <p className="text-slate-700 leading-relaxed text-xs sm:text-sm"> Understanding whether a loan can be settled before becoming a Non-Performing Asset requires a deep look into Indian banking accounting mechanisms and Reserve Bank of India prudential rules. When an equated monthly installment (EMI) or credit card minimum amount due remains unpaid on its due date. The account does not promptly drop into default status. Instead. The Reserve Bank of India mandates a progressive classification rules known as Special Mention Accounts (SMA). </p>
+              <p className="text-slate-700 leading-relaxed text-xs sm:text-sm"> Understanding whether a loan can be settled prior to becoming a Non-Performing Asset requires a deep look into Indian banking accounting mechanisms and Reserve Bank of India prudential rules. When an equated monthly installment (EMI) or credit card minimum amount due remains unpaid on its due date, the account does not immediately drop into default status. Instead, the Reserve Bank of India mandates a progressive classification framework known as Special Mention Accounts (SMA). </p>
 
-              <p className="text-slate-700 leading-relaxed text-xs sm:text-sm"> Under the RBI Prudential rules for relief of Stressed Assets. Delinquencies are categorized into three distinct sub-stages: SMA-0 for balances overdue between 1 and 30 days. SMA-1 for accounts overdue between 31 and 60 days. SMA-2 for accounts overdue between 61 and 90 days. Throughout these initial 89 days. The credit facility remains classified on the banks balance sheet as a Standard Asset. Because the account is standard. The bank is only required to maintain a nominal standard asset cash provision of 0.40% to 1.00%. Meaning the lender has not yet recognized any formal money loss. </p>
+              <p className="text-slate-700 leading-relaxed text-xs sm:text-sm"> Under the RBI Prudential Framework for Resolution of Stressed Assets, delinquencies are categorized into three distinct sub-stages: SMA-0 for balances overdue between 1 and 30 days, SMA-1 for accounts overdue between 31 and 60 days, and SMA-2 for accounts overdue between 61 and 90 days. Throughout these initial 89 days, the credit facility remains classified on the commercial bank balance sheet as a Standard Asset. Because the account is standard, the bank is only required to maintain a nominal standard asset capital provision of 0.40% to 1.00%, meaning the lender has not yet recognized any formal financial loss. </p>
 
-              <p className="text-slate-700 leading-relaxed text-xs sm:text-sm"> This accounting reality explains why branch managers and claims call centers vehemently insist that loan settlement is legally impossible before 90 days. If a bank executes a OTS deals during the SMA stage. Banking regulations require the fast reclassification of the account as a restructured or non-performing credit. Compelling the institution to write off the agreed discount straight against its quarterly operating profits. As a result. Frontline bank staff are instructed to reject pre-NPA settlement requests and offer tenor extensions. EMI moratoriums. Loan rescheduling instead. </p>
+              <p className="text-slate-700 leading-relaxed text-xs sm:text-sm"> This accounting reality explains why branch managers and recovery call centers vehemently insist that loan settlement is legally impossible before 90 days. If a bank executes a compromise settlement during the SMA stage, banking regulations require the immediate reclassification of the account as a restructured or non-performing credit, compelling the institution to write off the agreed discount directly against its quarterly operating profits. Consequently, frontline bank staff are instructed to reject pre-NPA settlement requests and offer tenor extensions, EMI moratoriums, or loan rescheduling instead. </p>
 
-              <p className="text-slate-700 leading-relaxed text-xs sm:text-sm"> However. Board-approved OTS deals policies across scheduled banks and leading Non-Banking money Companies (NBFCs) contain explicit carve-out clauses. When a client faces insurmountable hardship. Examples include sudden involuntary job loss. Terminal medical diagnosis, permanent physical disability. Trade liquidation. Senior credit boards have the special formal to approve a pre-NPA OTS deals. This allows the bank to avoid extensive legal expenditures. Bypass claims firm commissions. Recover maximum cash before full default sets in. </p>
+              <p className="text-slate-700 leading-relaxed text-xs sm:text-sm"> However, board-approved compromise settlement policies across scheduled commercial banks and leading Non-Banking Financial Companies (NBFCs) contain explicit carve-out clauses. When a borrower faces insurmountable hardship, such as sudden involuntary job loss, terminal medical diagnosis, permanent physical disability, or business liquidation, senior credit committees have the discretionary authority to approve a pre-NPA compromise settlement. This allows the bank to avoid extensive legal expenditures, bypass recovery agency commissions, and recover maximum capital before full default sets in. </p>
             </section>
 
             <LoanSettlementWidget initialBalance={500000} initialPercentage={45} loanType="Personal Loan" />
@@ -209,9 +209,9 @@ export default function CanISettleLoanBeforeNpaClient() {
                 </h2>
               </div>
 
-              <p className="text-slate-700 leading-relaxed text-xs sm:text-sm"> During the 30 to 89 day default window. Automated banking software aggressively compounds the client unpaid dues. Lenders levy penal interest rates ranging from 24% to 36% per annum. Repeated NACH bounce penalties. Late payment fees. office charges. Under the Reserve Bank of India circular on Fair Lending Practice and penalty charges in Loan Accounts. Banks are expressly prohibited from capitalizing penalty charges into the main loan loan balance or compounding interest on penalties. </p>
+              <p className="text-slate-700 leading-relaxed text-xs sm:text-sm"> During the 30 to 89 day delinquency window, automated banking software aggressively compounds the borrower outstanding balance. Lenders levy penal interest rates ranging from 24% to 36% per annum, repeated NACH bounce penalties, late payment fees, and administrative charges. Under the Reserve Bank of India circular on Fair Lending Practice and Penal Charges in Loan Accounts, banks are expressly prohibited from capitalizing penal charges into the principal loan balance or compounding interest on penalties. </p>
 
-              <p className="text-slate-700 leading-relaxed text-xs sm:text-sm"> A structured audits of the loan ledger unbundles these artificial penalty layers. Establishing the exact net main loan owed on the date of initial default. In a pre-NPA OTS deal talks. The settlement baseline is calculated strictly against this unbundled main loan. Because the lender has not yet absorbed heavy credit provisioning costs. Pre-NPA settlements typically target a 25% to 45% discount on the base loan alongside a strict 100% complete waiver of all penal interest. Bounce penalties. Overdue fees. </p>
+              <p className="text-slate-700 leading-relaxed text-xs sm:text-sm"> A structured forensic audit of the loan ledger unbundles these artificial penalty layers, establishing the exact net principal owed on the date of initial default. In a pre-NPA compromise negotiation, the settlement baseline is calculated strictly against this unbundled principal. Because the lender has not yet absorbed heavy credit provisioning costs, pre-NPA settlements typically target a 25% to 45% discount on the principal balance alongside a mandatory 100% complete waiver of all penal interest, bounce penalties, and overdue fees. </p>
 
               {/* Calculation Card */}
               <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 space-y-3.5">
@@ -229,33 +229,33 @@ export default function CanISettleLoanBeforeNpaClient() {
 
                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 text-xs">
                   <div className="p-3 rounded-xl bg-slate-50 border border-slate-100">
-                    <span className="text-slate-500 block">Sanctioned Principal.</span>
+                    <span className="text-slate-500 block">Sanctioned Principal</span>
                     <span className="text-sm font-extrabold text-slate-900">₹10,00,000</span>
                   </div>
 
                   <div className="p-3 rounded-xl bg-slate-50 border border-slate-100">
-                    <span className="text-slate-500 block">Base Principal at Default.</span>
+                    <span className="text-slate-500 block">Base Principal at Default</span>
                     <span className="text-sm font-extrabold text-slate-900">₹7,80,000</span>
                   </div>
 
                   <div className="p-3 rounded-xl bg-red-50/70 border border-red-100">
-                    <span className="text-red-600 block">Demanded Sum (with Penalties).</span>
+                    <span className="text-red-600 block">Demanded Sum (with Penalties)</span>
                     <span className="text-sm font-extrabold text-red-700">₹9,45,000</span>
                   </div>
 
                   <div className="p-3 rounded-xl bg-amber-50/70 border border-amber-100">
-                    <span className="text-amber-700 block">Penal Interest Waived.</span>
-                    <span className="text-sm font-extrabold text-amber-800">100% Waiver (₹1.65L).</span>
+                    <span className="text-amber-700 block">Penal Interest Waived</span>
+                    <span className="text-sm font-extrabold text-amber-800">100% Waiver (₹1.65L)</span>
                   </div>
 
                   <div className="p-3 rounded-xl bg-emerald-50/70 border border-emerald-100">
-                    <span className="text-emerald-700 block">Negotiated Pre-NPA OTS.</span>
-                    <span className="text-sm font-extrabold text-emerald-800">₹4,68,000 (40% Off).</span>
+                    <span className="text-emerald-700 block">Negotiated Pre-NPA OTS</span>
+                    <span className="text-sm font-extrabold text-emerald-800">₹4,68,000 (40% Off)</span>
                   </div>
 
                   <div className="p-3 rounded-xl bg-blue-50/70 border border-blue-100">
-                    <span className="text-[#1886ff] block">Total Borrower Savings.</span>
-                    <span className="text-sm font-extrabold text-blue-900">₹4,77,000 (50.4%).</span>
+                    <span className="text-[#1886ff] block">Total Borrower Savings</span>
+                    <span className="text-sm font-extrabold text-blue-900">₹4,77,000 (50.4%)</span>
                   </div>
                 </div>
               </div>
@@ -270,52 +270,52 @@ export default function CanISettleLoanBeforeNpaClient() {
                 </h2>
               </div>
 
-              <p className="text-slate-700 leading-relaxed text-xs sm:text-sm"> Navigating an impending default requires a thorough strategic evaluation of money trade-offs. Legal risks, credit bureau implications. Long-term borrowing capacity across all available debt relief options: </p>
+              <p className="text-slate-700 leading-relaxed text-xs sm:text-sm"> Navigating an impending default requires a thorough strategic evaluation of financial trade-offs, legal risks, credit bureau implications, and long-term borrowing capacity across all available debt resolution mechanisms: </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto shadow-xs bg-white">
                 <table className="w-full text-left border-collapse text-xs divide-y divide-slate-200/80">
                   <thead className="bg-slate-100/80 text-slate-800 font-bold">
                     <tr className="divide-x divide-slate-200/80">
                       <th className="p-3 min-w-[140px]">Pathway</th>
-                      <th className="p-3 min-w-[140px]">Principal Haircut.</th>
-                      <th className="p-3 min-w-[140px]">Legal Notice Risk.</th>
-                      <th className="p-3 min-w-[140px]">CIBIL Reporting Status.</th>
+                      <th className="p-3 min-w-[140px]">Principal Haircut</th>
+                      <th className="p-3 min-w-[140px]">Legal Notice Risk</th>
+                      <th className="p-3 min-w-[140px]">CIBIL Reporting Status</th>
                       <th className="p-3 min-w-[130px]">Best Suited For</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-700">
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
-                      <td className="p-3 font-bold text-[#1886ff]">Pre-NPA Hardship OTS (30-89 DPD).</td>
-                      <td className="p-3">25% to 45% main loan reduction. 100% penal waiver.</td>
+                      <td className="p-3 font-bold text-[#1886ff]">Pre-NPA Hardship OTS (30-89 DPD)</td>
+                      <td className="p-3">25% to 45% principal reduction; 100% penal waiver.</td>
                       <td className="p-3">Pre-empts arbitration and court proceedings entirely.</td>
-                      <td className="p-3">Marked Settled. prevents 90+ DPD severe default trail.</td>
+                      <td className="p-3">Marked Settled; prevents 90+ DPD severe delinquency trail.</td>
                       <td className="p-3 font-semibold text-emerald-700">Permanent income loss or major illness.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
-                      <td className="p-3 font-bold text-slate-900">Pre-NPA Restructuring / Rescheduling.</td>
-                      <td className="p-3">0% discount. total interest increases due to extended tenure.</td>
+                      <td className="p-3 font-bold text-slate-900">Pre-NPA Restructuring / Rescheduling</td>
+                      <td className="p-3">0% discount; total interest increases due to extended tenure.</td>
                       <td className="p-3">Zero legal risk as long as restructured EMIs are met.</td>
-                      <td className="p-3">Marked Restructured. score dips mildly, recovers quickly.</td>
+                      <td className="p-3">Marked Restructured; score dips mildly, recovers quickly.</td>
                       <td className="p-3 font-semibold text-blue-700">Temporary cash crunch with stable job.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
-                      <td className="p-3 font-bold text-slate-900">Post-90-Day NPA Standard OTS.</td>
-                      <td className="p-3">40% to 55% main loan reduction. 100% penal waiver.</td>
+                      <td className="p-3 font-bold text-slate-900">Post-90-Day NPA Standard OTS</td>
+                      <td className="p-3">40% to 55% principal reduction; 100% penal waiver.</td>
                       <td className="p-3">High risk of Section 138 NI Act and Section 25 PSSA summons.</td>
                       <td className="p-3">Marked Settled or Post-Write-off Settled after deep score drop.</td>
                       <td className="p-3 font-semibold text-amber-700">Inability to arrange lump sum before Day 90.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
-                      <td className="p-3 font-bold text-slate-900">Lok Adalat Pre-lawsuits talks.</td>
-                      <td className="p-3">15% to 30% modest main loan discount on small loans.</td>
+                      <td className="p-3 font-bold text-slate-900">Lok Adalat Pre-Litigation Conciliation</td>
+                      <td className="p-3">15% to 30% modest principal discount on small loans.</td>
                       <td className="p-3">Non-adversarial, enforceable consent decree under NALSA.</td>
                       <td className="p-3">Marked Settled via Lok Adalat on bureau files.</td>
-                      <td className="p-3 font-semibold text-slate-700">clients seeking court-backed settlement terms.</td>
+                      <td className="p-3 font-semibold text-slate-700">Borrowers seeking court-backed settlement terms.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
-                      <td className="p-3 font-bold text-slate-900">steady Default / Inaction.</td>
-                      <td className="p-3">No relief. debt spirals with 36% compound penal fees.</td>
-                      <td className="p-3">Severe: summary suits. Warrant risk. And claims abuse.</td>
+                      <td className="p-3 font-bold text-slate-900">Continuous Default / Inaction</td>
+                      <td className="p-3">No relief; debt spirals with 36% compound penal fees.</td>
+                      <td className="p-3">Severe: summary suits, warrant risk, and recovery harassment.</td>
                       <td className="p-3">Reported as Wilful Default or Suit Filed (score under 550).</td>
                       <td className="p-3 font-semibold text-red-600">Strictly avoid at all costs.</td>
                     </tr>
@@ -333,11 +333,11 @@ export default function CanISettleLoanBeforeNpaClient() {
                 </h2>
               </div>
 
-              <p className="text-slate-700 leading-relaxed text-xs sm:text-sm"> To understand the bureau results of settling a loan before it becomes an NPA. One must examine the proprietary scoring algorithms used by TransUnion CIBIL. Experian. Equifax. CRIF High Mark. Credit scores are computed across five primary weighted pillars: Payment History (35%). Credit Exposure and use (30%). Credit History Duration (15%). Asset Mix across secured and no-pledge facilities (10%). Recent Credit Inquiry Velocity (10%). </p>
+              <p className="text-slate-700 leading-relaxed text-xs sm:text-sm"> To understand the bureau consequences of settling a loan before it becomes an NPA, one must examine the proprietary scoring algorithms used by TransUnion CIBIL, Experian, Equifax, and CRIF High Mark. Credit scores are computed across five primary weighted pillars: Payment History (35%), Credit Exposure and Utilization (30%), Credit History Duration (15%), Asset Mix across secured and unsecured facilities (10%), and Recent Credit Inquiry Velocity (10%). </p>
 
-              <p className="text-slate-700 leading-relaxed text-xs sm:text-sm"> When a client defaults into SMA-1 (31 to 60 DPD) and SMA-2 (61 to 89 DPD). The payment history sub-score drops precipitously. However. An account that is settled at the pre-NPA stage avoids the catastrophic 90+ DPD NPA flag. This triggers severe algorithmic penalties and automated credit blacklisting across member banks. While a pre-NPA OTS deal will still reflect a Settled status on the bureau file. It halts ongoing default reporting. Sets the current balance to zero. Terminates the steady negative accrual cycle. </p>
+              <p className="text-slate-700 leading-relaxed text-xs sm:text-sm"> When a borrower defaults into SMA-1 (31 to 60 DPD) and SMA-2 (61 to 89 DPD), the payment history sub-score drops precipitously. However, an account that is settled at the pre-NPA stage avoids the catastrophic 90+ DPD NPA flag, which triggers severe algorithmic penalties and automated credit blacklisting across member banks. While a pre-NPA compromise will still reflect a Settled status on the bureau file, it halts ongoing default reporting, sets the current balance to zero, and terminates the steady negative accrual cycle. </p>
 
-              <p className="text-slate-700 leading-relaxed text-xs sm:text-sm"> Under Section 21 of the Credit Information Companies (Regulation) Act. 2005 (CICRA). Lending institutions are legally mandated to update the revised zero-balance status with all four credit bureaus within 30 days of receiving the settlement remittance. Once the No Dues letter is logged. Clients can initiate a structured credit rehabilitation plan by maintaining flawless payment on active accounts. Using a secured fixed-deposit backed credit card with use under 30%. Gradually raising their CIBIL score back above 750 within 12 to 24 months. </p>
+              <p className="text-slate-700 leading-relaxed text-xs sm:text-sm"> Under Section 21 of the Credit Information Companies (Regulation) Act, 2005 (CICRA), lending institutions are legally mandated to update the revised zero-balance status with all four credit bureaus within 30 days of receiving the settlement remittance. Once the No Dues Certificate is logged, borrowers can initiate a structured credit rehabilitation strategy by maintaining flawless repayment on active accounts, utilizing a secured fixed-deposit backed credit card with utilization under 30%, and gradually raising their CIBIL score back above 750 within 12 to 24 months. </p>
             </section>
 
             {/* SECTION 5: VISUAL INFOGRAPHIC ASSET CARD */}
@@ -373,7 +373,7 @@ export default function CanISettleLoanBeforeNpaClient() {
                 </h2>
               </div>
 
-              <p className="text-slate-700 leading-relaxed text-xs sm:text-sm"> Executing a successful OTS deals before an account reaches NPA status requires strict adherence to bank protocols and documentary rigor: </p>
+              <p className="text-slate-700 leading-relaxed text-xs sm:text-sm"> Executing a successful compromise settlement before an account reaches NPA status requires strict adherence to institutional protocols and documentary rigor: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
@@ -381,7 +381,7 @@ export default function CanISettleLoanBeforeNpaClient() {
                     <span className="w-6 h-6 rounded-md bg-blue-100 text-[#1886ff] font-bold flex items-center justify-center text-xs">01</span>
                     <h3 className="font-bold text-slate-900 text-sm">Forensic Account &amp; Ledger Audit</h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> Retrieve the complete record of accounts to isolate authentic main loan debt from compounding penal interest. Late fees. Bounce charges. Establishing an undisputed baseline figure. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Retrieve the complete statement of accounts to isolate authentic principal debt from compounding penal interest, late fees, and bounce charges, establishing an undisputed baseline figure. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
@@ -389,7 +389,7 @@ export default function CanISettleLoanBeforeNpaClient() {
                     <span className="w-6 h-6 rounded-md bg-blue-100 text-[#1886ff] font-bold flex items-center justify-center text-xs">02</span>
                     <h3 className="font-bold text-slate-900 text-sm">Distress Dossier &amp; Evidence Assembly</h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> Compile irrefutable documentary proof of hardship. This includes termination letters. Income loss declarations. Hospital discharge papers. Or trade loss audits to disprove wilful default. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Compile irrefutable documentary evidence of financial hardship, including termination letters, income loss declarations, hospital discharge papers, or business loss audits to disprove wilful default. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
@@ -397,7 +397,7 @@ export default function CanISettleLoanBeforeNpaClient() {
                     <span className="w-6 h-6 rounded-md bg-blue-100 text-[#1886ff] font-bold flex items-center justify-center text-xs">03</span>
                     <h3 className="font-bold text-slate-900 text-sm">Senior Credit Committee Representation</h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> Bypass tele-calling claims agents and formally submit the hardship proposal straight to the Bank Circle Head. Zonal Credit boards. Stressed Assets relief Branch (SARB). </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Bypass tele-calling collection agents and formally submit the hardship proposal directly to the Bank Circle Head, Zonal Credit Committee, or Stressed Assets Resolution Branch (SARB). </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
@@ -405,7 +405,7 @@ export default function CanISettleLoanBeforeNpaClient() {
                     <span className="w-6 h-6 rounded-md bg-blue-100 text-[#1886ff] font-bold flex items-center justify-center text-xs">04</span>
                     <h3 className="font-bold text-slate-900 text-sm">Bilateral Haircut Structuring</h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> settle a realistic OTS deals ranging between 25% and 45% discount on the base loan alongside a complete 100% waiver of accrued penalties and office charges. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Negotiate a realistic compromise settlement ranging between 25% and 45% discount on the principal balance alongside a complete 100% waiver of accrued penalties and administrative charges. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
@@ -413,7 +413,7 @@ export default function CanISettleLoanBeforeNpaClient() {
                     <span className="w-6 h-6 rounded-md bg-blue-100 text-[#1886ff] font-bold flex items-center justify-center text-xs">05</span>
                     <h3 className="font-bold text-slate-900 text-sm">Sanction Letter Legal Vetting</h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> Verify that the formal settlement sanction letter is issued on formal bank letterhead. Contains the exact agreed figure. Specifies clean payment dates. Waives all residual legal claims. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Verify that the formal settlement sanction letter is issued on official bank letterhead, contains the exact agreed figure, specifies clean payment dates, and waives all residual legal claims. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
@@ -421,7 +421,7 @@ export default function CanISettleLoanBeforeNpaClient() {
                     <span className="w-6 h-6 rounded-md bg-blue-100 text-[#1886ff] font-bold flex items-center justify-center text-xs">06</span>
                     <h3 className="font-bold text-slate-900 text-sm">Remittance &amp; NDC Issuance</h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> Deposit funds strictly into your designated loan account. Secure an formal receipt. Obtain the stamped No Dues letter. Verify zero-balance reporting across all credit bureaus. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Deposit funds strictly into your designated loan account, secure an official receipt, obtain the stamped No Dues Certificate, and verify zero-balance reporting across all credit bureaus. </p>
                 </div>
               </div>
             </section>
@@ -435,7 +435,7 @@ export default function CanISettleLoanBeforeNpaClient() {
                 </h2>
               </div>
 
-              <p className="text-slate-700 leading-relaxed text-xs sm:text-sm"> Even before an account crosses 90 days into NPA. Lenders may initiate legal notices following EMI instrument bounces. Understanding your legal defenses under Indian jurisprudence ensures you maintain maximum leverage during OTS deal discussions: </p>
+              <p className="text-slate-700 leading-relaxed text-xs sm:text-sm"> Even before an account crosses 90 days into NPA, lenders may initiate legal notices following EMI instrument bounces. Understanding your statutory defenses under Indian jurisprudence ensures you maintain maximum leverage during compromise discussions: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-2 shadow-xs">
@@ -443,7 +443,7 @@ export default function CanISettleLoanBeforeNpaClient() {
                     <FileText className="w-4 h-4 text-[#1886ff]"/>
                     <h3 className="font-bold text-sm">Section 25 PSSA: Electronic Mandate Recall</h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> When automated NACH debits bounce. Banks often issue demand notices under Section 25 of the Payment and Settlement Systems Act. 2007. Clients have the legal right to formally revoke NACH mandate consent in writing. Eliminating criminal mens rea and restricting future disputes to civil mediation. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> When automated NACH debits bounce, banks frequently issue demand notices under Section 25 of the Payment and Settlement Systems Act, 2007. Borrowers have the statutory right to formally revoke NACH mandate consent in writing, eliminating criminal mens rea and restricting future disputes to civil mediation. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-2 shadow-xs">
@@ -451,7 +451,7 @@ export default function CanISettleLoanBeforeNpaClient() {
                     <Gavel className="w-4 h-4 text-[#1886ff]"/>
                     <h3 className="font-bold text-sm">Section 138 NI Act: Pre-Trial Settlement Rights</h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> If security cheques bounce. Lenders issue a 15-day legal notices under Section 138 of the Negotiable Instruments Act. 1881. Because cheque bounce offenses are compoundable under Section 147 of the Act. Entering into a formal pre-NPA OTS deals automatically dissolves the legal cause of action. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> If security cheques bounce, lenders issue a 15-day statutory notice under Section 138 of the Negotiable Instruments Act, 1881. Because cheque bounce offenses are compoundable under Section 147 of the Act, entering into a formal pre-NPA compromise settlement automatically dissolves the legal cause of action. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-2 shadow-xs">
@@ -459,7 +459,7 @@ export default function CanISettleLoanBeforeNpaClient() {
                     <Scale className="w-4 h-4 text-[#1886ff]"/>
                     <h3 className="font-bold text-sm">Arbitration: Anti-Unilateral Arbitrator Defense</h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> Lenders cannot unilaterally appoint a sole arbitrator under Section 21 of the Arbitration and talks Act. 1996. Landmark Supreme Court rulings in TRF Ltd. And Perkins Eastman Architects strictly invalidate unilateral arbitral appointments. Rendering unconsented arbitration proceedings void ab initio. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Lenders cannot unilaterally appoint a sole arbitrator under Section 21 of the Arbitration and Conciliation Act, 1996. Landmark Supreme Court rulings in TRF Ltd. and Perkins Eastman Architects strictly invalidate unilateral arbitral appointments, rendering unconsented arbitration proceedings void ab initio. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-2 shadow-xs">
@@ -467,7 +467,7 @@ export default function CanISettleLoanBeforeNpaClient() {
                     <ShieldAlert className="w-4 h-4 text-[#1886ff]"/>
                     <h3 className="font-bold text-sm">SARFAESI Immunity &amp; Fair Practices Code</h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> Under Section 31(g) of the SARFAESI Act. No-pledge private loans and credit cards are strictly exempt from summary asset seizure. Also. The RBI Fair Practices Code strictly prohibits claims agents from contacting relatives. Visiting workplaces. Using coercive language during the SMA window. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Under Section 31(g) of the SARFAESI Act, unsecured personal loans and credit cards are strictly exempt from summary asset seizure. Furthermore, the RBI Fair Practices Code strictly prohibits recovery agents from contacting relatives, visiting workplaces, or using coercive language during the SMA window. </p>
                 </div>
               </div>
             </section>
@@ -481,25 +481,25 @@ export default function CanISettleLoanBeforeNpaClient() {
                 </h2>
               </div>
 
-              <p className="text-slate-700 leading-relaxed text-xs sm:text-sm"> If branch personnel or outside claims firms refuse to accept your hardship paperwork or engage in illegal abuse. You can invoke the structured legal grievance hierarchy: </p>
+              <p className="text-slate-700 leading-relaxed text-xs sm:text-sm"> If branch personnel or outsourced collection agencies refuse to accept your hardship documentation or engage in illegal harassment, you can invoke the structured statutory grievance hierarchy: </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-3.5">
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
-                  <span className="text-[10px] font-black uppercase text-blue-600 bg-blue-50 px-2 py-0.5 rounded">Level 1: 7-10 Days.</span>
+                  <span className="text-[10px] font-black uppercase text-blue-600 bg-blue-50 px-2 py-0.5 rounded">Level 1: 7-10 Days</span>
                   <h3 className="font-bold text-slate-900 text-sm">Principal Grievance Officer</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">Submit a formal written petition to the bank main loan Grievance Redressal Officer (GRO) citing documented debt stress and demanding a pre-NPA OTS deal review.</p>
+                  <p className="text-xs text-slate-600 leading-relaxed">Submit a formal written petition to the bank Principal Grievance Redressal Officer (GRO) citing documented financial distress and demanding a pre-NPA compromise review.</p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
-                  <span className="text-[10px] font-black uppercase text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded">Level 2: 14-21 Days.</span>
+                  <span className="text-[10px] font-black uppercase text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded">Level 2: 14-21 Days</span>
                   <h3 className="font-bold text-slate-900 text-sm">Principal Nodal Officer</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">Escalate unaddressed complaints to the main loan Nodal Officer (PNO) and Zonal Credit boards to evaluate board-level OTS deals parameters.</p>
+                  <p className="text-xs text-slate-600 leading-relaxed">Escalate unaddressed complaints to the Principal Nodal Officer (PNO) and Zonal Credit Committee to evaluate board-level compromise settlement parameters.</p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
-                  <span className="text-[10px] font-black uppercase text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded">Level 3: 30 Days.</span>
+                  <span className="text-[10px] font-black uppercase text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded">Level 3: 30 Days</span>
                   <h3 className="font-bold text-slate-900 text-sm">RBI Integrated Ombudsman</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">File a legal complaint on the RBI CMS portal (cms.rbi.org.in) under the Reserve Bank - Integrated Ombudsman Scheme. 2021 for bank unfair practices.</p>
+                  <p className="text-xs text-slate-600 leading-relaxed">File a statutory complaint on the RBI CMS portal (cms.rbi.org.in) under the Reserve Bank - Integrated Ombudsman Scheme, 2021 for institutional unfair practices.</p>
                 </div>
               </div>
             </section>
@@ -520,41 +520,41 @@ export default function CanISettleLoanBeforeNpaClient() {
                   <thead className="bg-slate-100/80 text-slate-800 font-bold">
                     <tr className="divide-x divide-slate-200/80">
                       <th className="p-3 min-w-[120px]">Timeline Window</th>
-                      <th className="p-3 min-w-[140px]">Asset Classification.</th>
-                      <th className="p-3 min-w-[180px]">Institutional Action.</th>
-                      <th className="p-3 min-w-[180px]">Recommended Borrower Strategy.</th>
+                      <th className="p-3 min-w-[140px]">Asset Classification</th>
+                      <th className="p-3 min-w-[180px]">Institutional Action</th>
+                      <th className="p-3 min-w-[180px]">Recommended Borrower Strategy</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-700">
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="p-3 font-bold text-[#1886ff]">Days 1 to 30</td>
-                      <td className="p-3">SMA-0 default.</td>
+                      <td className="p-3">SMA-0 Delinquency</td>
                       <td className="p-3">Automated payment reminders and internal relationship manager outreach.</td>
-                      <td className="p-3">Conduct liquidity review. assess loan restructuring vs OTS deal OTS.</td>
+                      <td className="p-3">Conduct liquidity review; assess loan restructuring vs compromise OTS.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="p-3 font-bold text-slate-900">Days 31 to 60</td>
-                      <td className="p-3">SMA-1 Classification.</td>
-                      <td className="p-3">Account transferred to internal collections. demand notices issued.</td>
-                      <td className="p-3">Assemble hardship dossier. request formal pre-NPA settlement from credit head.</td>
+                      <td className="p-3">SMA-1 Classification</td>
+                      <td className="p-3">Account transferred to internal collections; demand notices issued.</td>
+                      <td className="p-3">Assemble hardship dossier; request formal pre-NPA settlement from credit head.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="p-3 font-bold text-slate-900">Days 61 to 90</td>
-                      <td className="p-3">SMA-2 Critical Gate.</td>
-                      <td className="p-3">outside firm pressure intensifies. legal notice drafting begins.</td>
-                      <td className="p-3">Issue anti-abuse notice. settle 25% to 45% pre-NPA OTS deal terms.</td>
+                      <td className="p-3">SMA-2 Critical Gate</td>
+                      <td className="p-3">Outsourced agency pressure intensifies; legal notice drafting begins.</td>
+                      <td className="p-3">Issue anti-harassment notice; negotiate 25% to 45% pre-NPA compromise terms.</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="p-3 font-bold text-slate-900">Days 91 to 120</td>
-                      <td className="p-3">NPA Status Triggered.</td>
-                      <td className="p-3">Bank allocates 15%+ cash provisions. file moved to SARB.</td>
+                      <td className="p-3">NPA Status Triggered</td>
+                      <td className="p-3">Bank allocates 15%+ capital provisions; file moved to SARB.</td>
                       <td className="p-3">Transition plan to standard post-NPA OTS (target 40% to 55% haircut).</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60">
                       <td className="p-3 font-bold text-slate-900">Days 121 to 180</td>
-                      <td className="p-3">OTS Sanction &amp. Closure.</td>
-                      <td className="p-3">Issuance of Settlement Sanction Letter and claims of OTS deal sum.</td>
-                      <td className="p-3">Vet sanction covenants. Pay funds straight. Obtain stamped NDC.</td>
+                      <td className="p-3">OTS Sanction &amp; Closure</td>
+                      <td className="p-3">Issuance of Settlement Sanction Letter and collection of compromise sum.</td>
+                      <td className="p-3">Vet sanction covenants, remit funds directly, obtain stamped NDC.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -570,27 +570,27 @@ export default function CanISettleLoanBeforeNpaClient() {
                 </h2>
               </div>
 
-              <p className="text-slate-700 leading-relaxed text-xs sm:text-sm"> Every debt distress situation presents unique legal and money constraints. Here is how pre-NPA settlement protocols apply across common real-world situation: </p>
+              <p className="text-slate-700 leading-relaxed text-xs sm:text-sm"> Every debt distress situation presents unique legal and financial constraints. Here is how pre-NPA settlement protocols apply across common real-world circumstances: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
                   <h3 className="font-bold text-slate-900 text-sm">Sudden Corporate Layoffs &amp; Job Loss</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed"> Salaried executives facing sudden retrenchment can present their severance records. Relieving letters. Depleted bank records during the SMA-1 stage to settle a clean pre-NPA settlement and prevent protracted lawsuits. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Salaried executives facing sudden retrenchment can present their severance statements, relieving letters, and depleted bank statements during the SMA-1 stage to negotiate a clean pre-NPA settlement and prevent protracted litigation. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
                   <h3 className="font-bold text-slate-900 text-sm">Critical Medical Emergencies &amp; Disability</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed"> clients struck by catastrophic illness or permanent physical incapacitation can furnish diagnostic reports and treatment expenditures. Triggering compassionate relief clauses under bank OTS deal policies for swift relief. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Borrowers struck by catastrophic illness or permanent physical incapacitation can furnish diagnostic reports and treatment expenditures, triggering compassionate relief clauses under bank compromise policies for swift resolution. </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
                   <h3 className="font-bold text-slate-900 text-sm">MSME Working Capital &amp; Business Collapse</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed"> founders dealing with cancelled trade contracts or severe operating losses can submit audited financials to secure pre-NPA settlements on no-pledge trade credit lines while shielding own assets under SARFAESI Section 31(g). </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Entrepreneurs dealing with cancelled commercial contracts or severe operating losses can submit audited financials to secure pre-NPA settlements on unsecured business credit lines while shielding personal assets under SARFAESI Section 31(g). </p>
                 </div>
 
                 <div className="bg-white rounded-2xl border border-slate-200/80 p-4 space-y-1.5 shadow-xs">
                   <h3 className="font-bold text-slate-900 text-sm">Multi-Lender Portfolio Consolidation</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed"> When juggling multiple private loans and credit cards across different banks in SMA-2 status. A coordinated multi-lender legal help ensures available settlement liquidity is deployed efficiently before legal notices multiply. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> When juggling multiple personal loans and credit cards across different banks in SMA-2 status, a coordinated multi-lender representation ensures available settlement liquidity is deployed efficiently before legal notices multiply. </p>
                 </div>
               </div>
             </section>
@@ -637,32 +637,32 @@ export default function CanISettleLoanBeforeNpaClient() {
 
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
                 <a href="https://www.rbi.org.in" target="_blank" rel="noopener noreferrer" className="p-2 rounded-xl bg-white border border-slate-200 hover:border-blue-300 hover:bg-blue-50/50 transition-colors flex items-center justify-between text-xs font-semibold text-slate-800">
-                  <span>RBI Master Directions.</span>
+                  <span>RBI Master Directions</span>
                   <ExternalLink className="w-3 h-3 text-slate-400"/>
                 </a>
 
                 <a href="https://cms.rbi.org.in" target="_blank" rel="noopener noreferrer" className="p-2 rounded-xl bg-white border border-slate-200 hover:border-blue-300 hover:bg-blue-50/50 transition-colors flex items-center justify-between text-xs font-semibold text-slate-800">
-                  <span>RBI Integrated Ombudsman.</span>
+                  <span>RBI Integrated Ombudsman</span>
                   <ExternalLink className="w-3 h-3 text-slate-400"/>
                 </a>
 
                 <a href="https://www.cibil.com" target="_blank" rel="noopener noreferrer" className="p-2 rounded-xl bg-white border border-slate-200 hover:border-blue-300 hover:bg-blue-50/50 transition-colors flex items-center justify-between text-xs font-semibold text-slate-800">
-                  <span>TransUnion CIBIL.</span>
+                  <span>TransUnion CIBIL</span>
                   <ExternalLink className="w-3 h-3 text-slate-400"/>
                 </a>
 
                 <a href="https://www.indiacode.nic.in" target="_blank" rel="noopener noreferrer" className="p-2 rounded-xl bg-white border border-slate-200 hover:border-blue-300 hover:bg-blue-50/50 transition-colors flex items-center justify-between text-xs font-semibold text-slate-800">
-                  <span>India Code Legislation.</span>
+                  <span>India Code Legislation</span>
                   <ExternalLink className="w-3 h-3 text-slate-400"/>
                 </a>
 
                 <a href="https://nalsa.gov.in" target="_blank" rel="noopener noreferrer" className="p-2 rounded-xl bg-white border border-slate-200 hover:border-blue-300 hover:bg-blue-50/50 transition-colors flex items-center justify-between text-xs font-semibold text-slate-800">
-                  <span>NALSA Lok Adalat.</span>
+                  <span>NALSA Lok Adalat</span>
                   <ExternalLink className="w-3 h-3 text-slate-400"/>
                 </a>
 
                 <a href="https://cybercrime.gov.in" target="_blank" rel="noopener noreferrer" className="p-2 rounded-xl bg-white border border-slate-200 hover:border-blue-300 hover:bg-blue-50/50 transition-colors flex items-center justify-between text-xs font-semibold text-slate-800">
-                  <span>National Cyber Crime Portal.</span>
+                  <span>National Cyber Crime Portal</span>
                   <ExternalLink className="w-3 h-3 text-slate-400"/>
                 </a>
               </div>
@@ -719,18 +719,18 @@ export default function CanISettleLoanBeforeNpaClient() {
                   <Link href="/author/ashish-jhangra" className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief expert. </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp; Debt Resolution Professional. </p>
                 </div>
               </div>
 
-                        <p className="text-xs text-slate-600 leading-relaxed"> Specialized in banking compliance. Loan dispute relief. And NPA OTS deal talks across Indian banking forums. </p>
+                        <p className="text-xs text-slate-600 leading-relaxed"> Specialized in banking compliance, loan dispute resolution, and NPA compromise negotiations across Indian banking forums. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
-                  <span>View Author Profile.</span>
+                  <span>View Author Profile</span>
                   <ArrowRight className="w-3 h-3"/>
                 </Link>
                 <span className="text-emerald-600 font-bold flex items-center gap-1">
-                  <ShieldCheck className="w-3 h-3"/> CredSettle Panel.
+                  <ShieldCheck className="w-3 h-3"/> CredSettle Panel
                 </span>
               </div>
             </div>
@@ -740,10 +740,10 @@ export default function CanISettleLoanBeforeNpaClient() {
             <div className="rounded-3xl p-5 text-white text-center space-y-3.5 shadow-md relative overflow-hidden" style={{ backgroundColor: '#2452ae' }}>
               <div className="space-y-1 text-center">
                 <span className="text-[10px] font-black uppercase tracking-wider text-blue-200 bg-white/10 px-2.5 py-0.5 rounded-full inline-block">
-                  100% CONFIDENTIAL PRE-NPA ADVISORY.
+                  100% CONFIDENTIAL PRE-NPA ADVISORY
                 </span>
                 <p className="text-base sm:text-lg font-bold text-white leading-snug"> Facing Loan Stress Before 90 Days? </p>
-                <p className="text-blue-100 text-xs mt-1 leading-relaxed font-normal"> Our debt relief experts represent your hardship straight to bank leadership to settle pre-NPA OTS deals and halt aggressive claims calls. </p>
+                <p className="text-blue-100 text-xs mt-1 leading-relaxed font-normal"> Our debt resolution experts represent your financial hardship directly to bank leadership to negotiate pre-NPA compromise settlements and halt aggressive recovery calls. </p>
               </div>
               <Link href="/contact" className="block w-full bg-white text-blue-900 hover:text-[#1886ff] py-2.5 px-4 rounded-full font-bold text-xs sm:text-sm hover:bg-slate-50 transition-all shadow-md">
                 Request Pre-NPA Settlement Review
@@ -752,44 +752,44 @@ export default function CanISettleLoanBeforeNpaClient() {
                 <div className="flex items-center gap-1">
                   <Phone className="w-3 h-3 text-blue-200"/>
                   <a href="tel:+918800226635" className="hover:underline font-bold text-white">
-                    Call: +91-8800226635.
+                    Call: +91-8800226635
                   </a>
                 </div>
                 <div className="flex items-center gap-1 text-[10px] text-blue-300">
                   <Lock className="w-3 h-3"/>
-                  <span>Direct Bank Negotiation • RBI Compliant.</span>
+                  <span>Direct Bank Negotiation • RBI Compliant</span>
                 </div>
               </div>
             </div>
 
             {/* Card 3: CredSettle Trust Badges */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-4 space-y-2.5 text-xs">
-              <p className="font-bold text-slate-900 text-xs sm:text-sm">The CredSettle Advantage.</p>
+              <p className="font-bold text-slate-900 text-xs sm:text-sm">The CredSettle Advantage</p>
               <ul className="space-y-1.5 text-slate-600">
                 <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Zero Upfront Risk:</strong> Transparent, success-linked fee models.</span> </li>
                 <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Direct Bank Remittance:</strong> Zero third-party escrow or fund holding.</span> </li>
-                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>RBI &amp. CICRA Compliance:</strong> 100% lawful dispute handling.</span> </li>
-                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Pan-India legal help:</strong> skilled debt relief panel.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>RBI &amp; CICRA Compliance:</strong> 100% lawful dispute handling.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Pan-India Representation:</strong> Experienced debt resolution panel.</span> </li>
               </ul>
             </div>
 
             {/* Card 4: Related Guides */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-4 space-y-2.5 text-xs">
-              <p className="font-bold text-slate-900 text-xs sm:text-sm">Related Legal Guides.</p>
+              <p className="font-bold text-slate-900 text-xs sm:text-sm">Related Legal Guides</p>
               <div className="space-y-2">
                 <Link href="/bank-demanding-full-payment-for-loan-closure" className="block p-2 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
                   <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Bank Demanding Full Payment for Loan Closure. </p>
-                  <span className="text-[10px] text-slate-400 mt-0.5 block">OTS strategy guide &rarr;.</span>
+                  <span className="text-[10px] text-slate-400 mt-0.5 block">OTS strategy guide &rarr;</span>
                 </Link>
 
                 <Link href="/bank-sent-legal-notice-for-loan-what-to-do" className="block p-2 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
                   <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Bank Sent Legal Notice for Default. </p>
-                  <span className="text-[10px] text-slate-400 mt-0.5 block">Notice reply blueprint &rarr;.</span>
+                  <span className="text-[10px] text-slate-400 mt-0.5 block">Notice reply blueprint &rarr;</span>
                 </Link>
 
                 <Link href="/convert-settled-status-to-closed" className="block p-2 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
                   <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Convert Settled Loan to Closed Status. </p>
-                  <span className="text-[10px] text-slate-400 mt-0.5 block">Credit repair blueprint &rarr;.</span>
+                  <span className="text-[10px] text-slate-400 mt-0.5 block">Credit repair blueprint &rarr;</span>
                 </Link>
               </div>
             </div>

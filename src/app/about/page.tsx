@@ -171,7 +171,7 @@ export default function AboutPage() {
             fontSize: '18.58px',
             boxShadow: '0 0.9px 6.12px 0 rgba(0, 0, 0, 0.35), 0 -3.6px 3.6px 0 rgba(255, 255, 255, 0.25) inset, 0 3.6px 3.6px 0 rgba(255, 255, 255, 0.25) inset'
         }}>
-                Get Started Today.
+                Get Started Today
               </button>
               </a>
                 {/* Mobile Version - Google, Media, Trustpilot */}
@@ -212,7 +212,7 @@ export default function AboutPage() {
             padding: '12.96px'
         }}>
                   <p className="font-semibold text-gray-800 text-center mb-4" style={{ fontSize: '18.58px' }}>
-                    Our media coverages.
+                    Our media coverages
                   </p>
                   <div className="flex flex-row items-center justify-center gap-2 w-full" style={{ flexWrap: 'wrap' }}>
                     <div>
@@ -745,7 +745,7 @@ export default function AboutPage() {
 
                 {/* CTA Button */}
                 <CTAButton className="w-full max-w-[280px] md:max-w-[300px]">
-                  Get Your Free Consultation.
+                  Get Your Free Consultation
                 </CTAButton>
               </div>
             </div>

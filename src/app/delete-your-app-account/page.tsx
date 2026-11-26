@@ -6,7 +6,7 @@ const SECTIONS = [
     {
         icon: 'fa-mobile-screen-button',
         title: 'Option 1: In-App Deletion Request',
-        description: 'You can request account removal straight inside our Android or iOS mobile app with these quick steps. ',
+        description: 'You can request account deletion directly inside our Android or iOS mobile app with these quick steps:',
         bullets: [
             'Open the CredSettle application on your mobile device and log in to your account.',
             'Tap on the Profile avatar located at the top-left corner of the dashboard.',
@@ -18,7 +18,7 @@ const SECTIONS = [
     {
         icon: 'fa-envelope',
         title: 'Option 2: Formal Request via Email',
-        description: 'If you cannot access the app or prefer email. You can reach our Data safety team straight. ',
+        description: 'If you cannot access the app or prefer email, you can reach our Data Protection team directly:',
         bullets: [
             'Send an email to: info@credsettle.com with the subject line "Request for CredSettle Account and Data Deletion".',
             'Provide your registered full name, registered mobile phone number, and registered email address.',
@@ -29,7 +29,7 @@ const SECTIONS = [
     {
         icon: 'fa-trash-can',
         title: 'Data Deletion Scope & What Happens to Your Data',
-        description: 'Upon proof and identity check. CredSettle takes fast action on your profile according to India\'s Digital Personal Data Protection (DPDP) Act 2023:',
+        description: 'Upon confirmation and identity verification, CredSettle takes immediate action on your profile according to India\'s Digital Personal Data Protection (DPDP) Act 2023:',
         bullets: [
             'Your personal details, profile photo, address, and email are permanently deleted from active servers.',
             'Uploaded financial documents and bank records are securely removed from active cloud storage.',
@@ -40,7 +40,7 @@ const SECTIONS = [
     {
         icon: 'fa-scale-balanced',
         title: 'Regulatory Data Retention Obligations',
-        description: 'As a legal advisory firm. We must retain certain historical records under Indian RBI laws. ',
+        description: 'As a legal advisory firm, we must retain certain historical records under Indian regulatory laws:',
         bullets: [
             'Tax and invoice records are kept for the required period under Income Tax and GST rules.',
             'Executed settlement letters and No Dues Certificates may be kept in encrypted offline storage for audit compliance.',
@@ -50,7 +50,7 @@ const SECTIONS = [
     {
         icon: 'fa-clock',
         title: 'Verification and Processing Timeline',
-        description: 'We check each removal request carefully to prevent illegal account end. ',
+        description: 'We verify each deletion request carefully to prevent unauthorized account termination:',
         bullets: [
             'We complete initial verification within 48 hours to prevent accidental deletion.',
             'Once verified, full data deletion takes place within 7 to 14 business days.',
@@ -60,20 +60,20 @@ const SECTIONS = [
 ];
 export const metadata: Metadata = {
     title: 'Delete Your CredSettle Account | Data Privacy & Control',
-    description: 'Learn how to permanently delete your CredSettle account and linked own data through our mobile app or via email request.',
+    description: 'Learn how to permanently delete your CredSettle account and associated personal data through our mobile app or via email request.',
     alternates: {
         canonical: 'https://www.credsettle.com/delete-your-app-account',
     },
     openGraph: {
         title: 'Delete Your CredSettle Account | CredSettle',
-        description: 'Instructions for account removal and data removal. Manage your own information and privacy with CredSettle.',
+        description: 'Instructions for account deletion and data removal. Manage your personal information and privacy with CredSettle.',
         url: 'https://www.credsettle.com/delete-your-app-account',
         type: 'article',
     },
     twitter: {
         card: 'summary_large_image',
         title: 'Delete Your CredSettle Account | CredSettle',
-        description: 'Permanently remove your account and data. Follow our simple steps for account removal.',
+        description: 'Permanently remove your account and data. Follow our simple steps for account deletion.',
     },
 };
 export default function DeleteAccountPage() {
@@ -90,7 +90,7 @@ export default function DeleteAccountPage() {
         '@id': 'https://www.credsettle.com/delete-your-app-account',
         name: 'Delete Your CredSettle Account',
         url: 'https://www.credsettle.com/delete-your-app-account',
-        description: 'Instructions and details for deleting your CredSettle account and linked own data.',
+        description: 'Instructions and details for deleting your CredSettle account and associated personal data.',
         inLanguage: 'en-IN',
         breadcrumb: {
             '@type': 'BreadcrumbList',
@@ -146,13 +146,13 @@ export default function DeleteAccountPage() {
               <div className="flex flex-col gap-6 md:gap-8">
                 <span className="inline-flex items-center gap-2 self-start rounded-full bg-[#007AFF]/10 px-4 py-2 text-xs font-medium uppercase tracking-[0.18em] text-[#007AFF]">
                   <i className="fa-solid fa-user-xmark text-[#007AFF]" aria-hidden="true"/>
-                  Account Management.
+                  Account Management
                 </span>
                 <div className="flex flex-col gap-4">
                   <h1 className="text-[30px] leading-[40px] font-semibold text-[#0C2756] md:text-[40px] md:leading-[48px]">
                     Delete Your CredSettle Account
                   </h1>
-                  <p className="max-w-3xl text-base leading-7 text-[rgba(12,39,86,0.72)] md:text-lg md:leading-8"> If you wish to delete your account and linked own data. You can do so using the following methods. Please note that account removal is lasting and cannot be undone. </p>
+                  <p className="max-w-3xl text-base leading-7 text-[rgba(12,39,86,0.72)] md:text-lg md:leading-8"> If you wish to delete your account and associated personal data, you can do so using the following methods. Please note that account deletion is permanent and cannot be undone. </p>
                 </div>
                 <div className="rounded-2xl bg-white/70 px-5 py-4 text-sm md:text-base md:leading-7 text-[rgba(12,39,86,0.75)] shadow-inner border border-[#B9DFFF]/60">
                   Last updated: {formattedDate}

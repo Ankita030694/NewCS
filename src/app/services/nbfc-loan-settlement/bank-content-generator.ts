@@ -597,7 +597,7 @@ export function generateBankContent(bankSlug: string): Partial<BankContent> | {}
     // Generate FAQs
     faqs: [
       {
-        question: `What is the minimum settlement amount for ${name}${isNBFC ? ' NBFC' : ''} loans?`,
+        question: `What is the minimum settlement percentage for ${name}${isNBFC ? ' NBFC' : ''} loans?`,
         answer: `${name} loan settlements usually range between 30% and 60% of total dues. The exact waiver depends on your default duration and financial hardship. CredSettle works to get you the highest possible discount.`
       },
       {

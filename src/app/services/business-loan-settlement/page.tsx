@@ -127,7 +127,7 @@ export default function BusinessLoanSettlementPage() {
                   },
                   {
                     '@type': 'Question',
-                    name: 'What paperwork is required for a business loan OTS proposal?',
+                    name: 'What documentation is required for a business loan OTS proposal?',
                     acceptedAnswer: {
                       '@type': 'Answer',
                       text: 'A formal business loan settlement proposal requires audited balance sheets, P&L statements, GST returns (GSTR-3B/1), 12 months bank statements, cash-flow projections, a detailed Hardship Statement outlining operational or market failure, and an official Board Resolution or proprietor authorization.',

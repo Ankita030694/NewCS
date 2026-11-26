@@ -41,12 +41,12 @@ export const statesContent: Record<string, StateContent> = {
         answer: 'Credit card settlements in Maharashtra typically reduce dues by 30% to 70%. For example, a ₹5 lakh debt can settle for ₹1.5 to ₹3.5 lakh. CredSettle negotiates with your bank to get the lowest possible amount.'
       },
       {
-        question: 'Will credit card settlement stop interest charges?',
+        question: 'Will credit card settlement stop the interest charges?',
         answer: 'Yes. Once the settlement agreement is signed, all interest and late fees stop immediately. The bank freezes your balance at the agreed sum. This ends the compounding debt cycle.'
       },
       {
-        question: 'Can CredSettle stop recovery agent calls in Mumbai and Pune?',
-        answer: 'Yes. Our legal team sends cease-and-desist notices to bank recovery teams right away. Collection calls and home visits usually stop within 24 to 48 hours.'
+        question: 'Can CredSettle stop credit card recovery agents from harassing me in Mumbai/Pune?',
+        answer: 'Yes. Our legal team sends cease-and-desist notices to bank recovery teams right away. Collection calls and home visits, and intimidation typically stops within 24-48 hours.'
       },
       {
         question: 'Which card issuers does CredSettle work with in Maharashtra?',
@@ -78,14 +78,14 @@ export const statesContent: Record<string, StateContent> = {
       },
       {
         question: 'Will recovery agents stop calling after I hire CredSettle?',
-        answer: 'Yes. We issue legal notices to all recovery agencies. This stops harassment calls and visits within 24 to 48 hours in Karnataka.'
+        answer: 'Yes. We issue legal notices to all recovery agencies. This stops harassment calls and visits within 24 to 48 hours in Karnataka residents.'
       },
       {
-        question: 'How long does card settlement take in Karnataka?',
+        question: 'How long does credit card settlement take in Karnataka?',
         answer: 'Most card settlements take 3 to 6 months. Our lawyers work to get your settlement approved quickly.'
       },
       {
-        question: 'What documents do I get after settling my card?',
+        question: 'What documents will I receive after credit card settlement?',
         answer: 'You receive an official settlement letter, payment receipt, and a No Objection Certificate (NOC) from the bank confirming full closure.'
       }
     ],
@@ -140,11 +140,11 @@ export function generateDefaultContent(stateName: string, slug: string): StateCo
         answer: `Credit card settlement in ${stateName} follows RBI rules. CredSettle negotiates a One-Time Settlement with your bank, reducing your dues by 30% to 70%.`
       },
       {
-        question: `Can CredSettle stop harassment from recovery agents in ${stateName}?`,
+        question: `Can CredSettle stop harassment from credit card recovery agents in ${stateName}?`,
         answer: `Yes. We send formal legal notices to card issuers. This stops collection calls and home visits within 24 to 48 hours.`
       },
       {
-        question: `What documents will I receive after settlement?`,
+        question: `What documents will I receive after credit card settlement?`,
         answer: `You receive an official OTS letter, payment receipt, and a No Objection Certificate (NOC) confirming full account closure.`
       },
       {

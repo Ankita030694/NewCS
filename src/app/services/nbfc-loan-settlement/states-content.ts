@@ -37,11 +37,11 @@ export const statesContent: Record<string, StateContent> = {
     faqs: [
       {
         question: 'How does NBFC loan settlement work in Maharashtra?',
-        answer: 'CredSettle talks with your NBFC lender. We aim for a one-time settlement (OTS). Most clients get 40% to 70% debt relief. We handle lenders across Mumbai and Pune.'
+        answer: 'CredSettle talks with your NBFC lender. We aim for a one-time settlement (OTS). Most clients get 40% to 70% debt relief. We handle all NBFCs from Bajaj Finance to Mahindra Finance operating in Mumbai and Pune.'
       },
       {
         question: 'Is NBFC loan settlement legal in Maharashtra?',
-        answer: 'Yes. NBFC loan settlement follows RBI rules. It is 100% legal. CredSettle ensures full legal closure so lenders cannot claim more money later.'
+        answer: 'Yes! NBFC loan settlement follows RBI rules. It is 100% legal. CredSettle ensures full legal closure so lenders cannot claim more money later.'
       },
       {
         question: 'How much can I save on NBFC loan settlement in Mumbai or Pune?',
@@ -133,7 +133,7 @@ export const statesContent: Record<string, StateContent> = {
     faqs: [
       {
         question: 'How does NBFC loan settlement work in West Bengal?',
-        answer: 'CredSettle negotiates a one-time settlement with your NBFC. We submit genuine hardship proof to secure 40% to 70% debt waivers across Kolkata, Howrah, and Siliguri.'
+        answer: 'CredSettle negotiates One-Time settlement with your NBFC, often securing genuine hardship proof to secure 40% to 70% debt waivers across Kolkata, Howrah, Durgapur, Siliguri, and coastal borrowers.'
       },
       {
         question: 'Can CredSettle stop NBFC harassment in West Bengal?',
@@ -165,7 +165,7 @@ export const statesContent: Record<string, StateContent> = {
     faqs: [
       {
         question: 'How does NBFC loan settlement work in Gujarat?',
-        answer: 'CredSettle negotiates directly with your NBFC. We prove financial hardship and reduce outstanding debt by 40% to 70% across Ahmedabad, Surat, and Vadodara.'
+        answer: 'CredSettle negotiates directly with your NBFC, typically delivering 40-70% reductions by presenting cluster-specific hardship from Ahmedabad, Surat, Vadodara, Rajkot, or Kutch.'
       },
       {
         question: 'Can CredSettle stop NBFC harassment in Gujarat?',
@@ -283,7 +283,7 @@ export function generateDefaultContent(stateName: string, slug: string): StateCo
     negotiationHelp: comprehensiveContent.negotiationHelp || `Our experienced team negotiates directly with NBFCs. We know their settlement policies. We secure the best possible waiver on interest and principal for you.`,
     legalSupport: comprehensiveContent.legalSupport || `Our legal experts protect you at every step. We issue formal legal replies to recovery notices. We verify settlement terms and secure valid closure letters.`,
     benefits: comprehensiveContent.benefits || `Key benefits include: fast stop to agent harassment, 40% to 70% debt reduction, full legal safety, no advance charges, and guidance to rebuild your credit score.`,
-    rbiGuidelines: comprehensiveContent.rbiGuidelines || `RBI rules require fair treatment for all borrowers in distress. Lenders must offer genuine settlement options and follow ethical conduct. CredSettle defends your rights under these rules.`,
+    rbiGuidelines: comprehensiveContent.rbiGuidelines || `RBI guidelines mandate fair treatment of borrowers in financial distress. Lenders must offer genuine settlement options and follow ethical conduct. CredSettle defends your rights under these rules.`,
     stepByStepGuide: comprehensiveContent.stepByStepGuide || `Step 1: Free review of your loan details. Step 2: Legal notice to halt agent harassment. Step 3: Financial hardship assessment. Step 4: Direct settlement talks with the lender. Step 5: Official settlement sanction letter. Step 6: Payment and final no dues certificate.`,
     caseStudy: comprehensiveContent.caseStudy || `A borrower in ${cityName} owed ₹7 lakh across two NBFCs. Aggressive recovery calls caused immense stress. CredSettle stepped in and stopped all calls in 48 hours. We negotiated a final settlement of ₹2.8 lakh, cutting debt by 60%. The client is now debt-free.`,
     finalThoughts: comprehensiveContent.finalThoughts || `If you face mounting NBFC debt in ${stateName}, take action today. Settle your debt legally through RBI rules and regain peace of mind. Call CredSettle now for a free consultation.`,
@@ -294,7 +294,7 @@ export function generateDefaultContent(stateName: string, slug: string): StateCo
       },
       {
         question: `Is NBFC loan settlement legal in ${stateName}?`,
-        answer: `Yes. NBFC loan settlement follows RBI guidelines. It is completely legal and gives you full formal closure.`
+        answer: `Yes! NBFC loan settlement follows RBI guidelines. It is completely legal and gives you full formal closure.`
       },
       {
         question: `How much can I save through NBFC settlement in ${stateName}?`,

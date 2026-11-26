@@ -53,7 +53,7 @@ export default function LoginPageClient() {
 
       setStatus({
         type: 'success',
-        message: 'You are logged in. Redirecting to the dashboard..',
+        message: 'You are logged in. Redirecting to the dashboard...',
       });
 
       setTimeout(() => {
@@ -112,7 +112,7 @@ export default function LoginPageClient() {
                   debt-free journey
                 </h1>
 
-                <p className="max-w-xl text-sm sm:text-base text-[rgba(12,39,86,0.72)] leading-relaxed"> Access your personalized dashboard to track closures. Review RBI-compliant proof. connect instantly with our legal negotiators. We keep your data encrypted and secured at every step. </p>
+                <p className="max-w-xl text-sm sm:text-base text-[rgba(12,39,86,0.72)] leading-relaxed"> Access your personalized dashboard to track settlements, review RBI-compliant documentation, and connect instantly with our legal negotiators. We keep your data encrypted and secured at every step. </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <FeatureCard

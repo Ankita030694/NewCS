@@ -605,7 +605,7 @@ export function generateBankContent(bankSlug: string): Partial<BankContent> | {}
 
     // H2: Understanding [Bank Name] Car Loan Settlement Process
     understandingSettlement: [
-      `A car loan settlement with ${name} follows RBI OTS rules. It is a legal way to close your loan with a single reduced payment. CredSettle lawyers review your case. We share proof of your money hardship with the bank. Our team talks to ${name} to agree on a fair sum. Once paid, the bank gives you a No Dues Certificate. They also remove the bank claim from your car RC.`,
+      `A car loan settlement with ${name} follows RBI OTS rules. It is a legal way to close your loan with a single reduced payment. CredSettle lawyers review your case. We share proof of your financial hardship with the bank. Our team talks to ${name} to agree on a fair sum. Once paid, the bank gives you a No Dues Certificate. They also remove the bank claim from your car RC.`,
 
       `An OTS deal with ${name} is different from regular loan closure. It is a legal contract that ends your debt for good. The bank agrees to a reduced one-time payment or a short plan of 3 to 6 months. Most borrowers settle for 30% to 60% of total dues. After full payment, ${name} closes the loan account permanently and stops all recovery steps.`,
 

@@ -51,11 +51,11 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
     const faqs: FaqItem[] = [
         {
             q: 'Kya bank recovery agents kisi bhi samay call ya ghar aa sakte hain?',
-            a: 'Nahi. RBI Fair Practices Code ke mutabiq collection agents sirf subah 8:00 AM se shaam 7:00 PM ke beech hi call ya ghar aa sakte hain. Is samay ke baad call karna ya aana gair-kanuni hai.'
+            a: 'Nahi. RBI Fair Practices Code ke mutabiq recovery agents sirf subah 8:00 AM se shaam 7:00 PM ke beech hi call ya ghar aa sakte hain. Is samay ke baad call karna ya aana gair-kanuni hai.'
         },
         {
             q: 'Kya recovery agent relatives ya employer ko call karke loan bata sakta hai?',
-            a: 'Nahi. RBI rules ke tehat client ki privacy confidential hai. Agent parivaar, dosto ya employer ko call karke loan ke baare mein nahi bata sakta aur na hi unhe pareshan kar sakta hai.'
+            a: 'Nahi. RBI rules ke tehat borrower ki privacy confidential hai. Agent parivaar, dosto ya employer ko call karke loan ke baare mein nahi bata sakta aur na hi unhe pareshan kar sakta hai.'
         },
         {
             q: 'Agar recovery agent gaali-galoj ya dhamki de to kya legal action lein?',
@@ -63,31 +63,31 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
         },
         {
             q: 'Kya personal loan default karne par recovery agent arrest karwa sakta hai?',
-            a: 'Nahi. No-collateral private loans ya credit card default shuddh civil dispute hai, criminal offense nahi. collection agents ke paas kisi ko arrest karne ya police bhejne ka koi kanuni adhikar nahi hota.'
+            a: 'Nahi. Unsecured personal loan ya credit card default shuddh civil dispute hai, criminal offense nahi. Recovery agents ke paas kisi ko arrest karne ya police bhejne ka koi kanuni adhikar nahi hota.'
         },
         {
             q: 'Bank ke khilaf Principal Nodal Officer (PNO) ko complaint kaise karein?',
-            a: 'Bank website se PNO ka email lein. abuse call recordings aur timestamps ke sath formal legal violation notice PNO ko email aur speed post se bhejein.'
+            a: 'Bank website se PNO ka email lein. Harassment call recordings aur timestamps ke sath formal legal violation notice PNO ko email aur speed post se bhejein.'
         },
         {
             q: 'RBI CMS portal par recovery agent harassment ki complaint kaise darj karein?',
             a: 'cms.rbi.org.in par jayein, \'File a Complaint\' chunein, bank select karein, aur PNO complaint ki copy attach karein. RBI Ombudsman bank par heavy penalty laga sakta hai.'
         },
         {
-            q: "Kya recovery agent ke aane par ID card aur approval letter mangna zaroori hai?",
-            a: "Haan. RBI niyam anusar collection agent ke paas bank ID card aur formal approval Letter hona anivarya hai. Agar agent ID na dikhaye. To aap unhe turant premises se jaane ko keh sakte hain."
+            q: "Kya recovery agent ke aane par ID card aur authorization letter mangna zaroori hai?",
+            a: "Haan. RBI niyam anusar recovery agent ke paas bank ID card aur official Authorization Letter hona anivarya hai. Agar agent ID na dikhaye, to aap unhe turant premises se jaane ko keh sakte hain."
         },
         {
             q: 'Kya recovery agent ke call ko record karna legal hai?',
-            a: 'Haan. Apne bachaav aur proof ke liye abuse call record karna bilkul legal hai. Yeh audio recording police complaint aur RBI Ombudsman proceedings mein solid proof banti hai.'
+            a: 'Haan. Apne bachaav aur evidence ke liye harassment call record karna bilkul legal hai. Yeh audio recording police complaint aur RBI Ombudsman proceedings mein solid proof banti hai.'
         },
         {
             q: 'One-Time Settlement (OTS) se recovery agents ki harassment kaise band hoti hai?',
-            a: 'Ek structured OTS ke zariye bank penal interest waive karke 40% se 60% concession par loan close karta hai. Bank se No Dues letter milte hi sabhi collection activities band ho jati hain.'
+            a: 'Ek structured OTS ke zariye bank penal interest waive karke 40% se 60% concession par loan close karta hai. Bank se No Dues Certificate milte hi sabhi collection activities band ho jati hain.'
         },
         {
             q: 'Agar local police recovery agent ke khilaf FIR na likhe to kya option hai?',
-            a: 'Agar SHO FIR na kare. To BNSS Section 173(3) ke tehat SP/DCP ko written petition bhejein. Ya BNSS Section 175(3) ke tehat Judicial Magistrate ke paas application file karein.'
+            a: 'Agar SHO FIR na kare, to BNSS Section 173(3) ke tehat SP/DCP ko written petition bhejein, ya BNSS Section 175(3) ke tehat Judicial Magistrate ke paas application file karein.'
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -97,18 +97,18 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
         <div className="max-w-5xl mx-auto text-center z-10 relative">
           <div className="inline-flex items-center gap-1.5 bg-white/15 backdrop-blur-xs px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider text-blue-100 mb-3">
             <ShieldAlert className="w-3.5 h-3.5"/>
-            <span>RBI Fair Practices Code &amp; Legal Protection in Hindi.</span>
+            <span>RBI Fair Practices Code &amp; Legal Protection in Hindi</span>
           </div>
 
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-3 md:mb-4 tracking-tight leading-tight drop-shadow-xs">
             Bank Recovery Agent Harassment Rules in Hindi: RBI Guidelines
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> Facing abusive calls or visits from bank collection agents? Learn formal RBI Fair Practices Code rules in Hindi and discover how to stop abuse with CredSettle. </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> Facing abusive calls or visits from bank recovery agents? Learn official RBI Fair Practices Code rules in Hindi and discover how to stop harassment with CredSettle. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
-              <span>Get Legal Protection Now.</span>
+              <span>Get Legal Protection Now</span>
               <ArrowRight className="w-4 h-4"/>
             </Link>
           </div>
@@ -128,7 +128,7 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
               <div className="flex items-center gap-2 pb-3 mb-3 border-b border-slate-100">
                 <BookOpen className="w-4 h-4 text-[#1886ff]"/>
                 <span className="text-xs font-black uppercase tracking-wider text-slate-800">
-                  Table of Contents.
+                  Table of Contents
                 </span>
               </div>
               <nav className="space-y-1 max-h-[calc(100vh-140px)] overflow-y-auto pr-1 text-xs">
@@ -145,9 +145,9 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
               <div className="mt-4 pt-3 border-t border-slate-100 bg-blue-50/50 -mx-4 -mb-4 p-3 rounded-b-2xl">
                 <div className="flex items-center gap-2 text-[11px] font-bold text-slate-800">
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
-                  <span>Statutory Rights Protected.</span>
+                  <span>Statutory Rights Protected</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by RBI Fair Practices Code &amp. Master Directions. </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Governed by RBI Fair Practices Code &amp; Master Directions. </p>
               </div>
             </div>
           </aside>
@@ -159,12 +159,12 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
             <div id="executive-summary" className="scroll-target rounded-2xl bg-[#F4F8FE] border border-blue-100/90 border-l-[5px] border-l-[#1886ff] p-5 sm:p-6 md:p-7 shadow-xs space-y-4 text-slate-800">
               <div className="flex items-center gap-2 text-xs md:text-sm font-black uppercase tracking-wider text-[#1886ff]">
                 <Bookmark className="w-4 h-4 text-[#1886ff]"/>
-                <span>EXECUTIVE SUMMARY: BANK RECOVERY RULES &amp; BORROWER LEGAL RIGHTS.</span>
+                <span>EXECUTIVE SUMMARY: BANK RECOVERY RULES &amp; BORROWER LEGAL RIGHTS</span>
               </div>
 
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal"> When dealing with loan defaults in India. Clients are protected by strict RBI directives prohibiting abuse and coercion. Defaulting on an no-collateral loan is purely a civil dispute. collection agents and police have zero legal formal to arrest clients. Under the RBI Fair Practices Code. Collection agents may only call or visit between 8:00 AM and 7:00 PM. </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal"> When dealing with loan defaults in India, borrowers are protected by strict RBI directives prohibiting harassment and coercion. Defaulting on an unsecured loan is purely a civil dispute; recovery agents and police have zero statutory authority to arrest borrowers. Under the RBI Fair Practices Code, collection agents may only call or visit between 8:00 AM and 7:00 PM. </p>
 
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal"> Agents cannot contact relatives or employers regarding dues. clients have the right to record calls and file FIRs under BNS Sections 351 and 308. CredSettle halts abuse via legal notices and settles debt through One-Time Settlement (OTS) with a No Dues letter. </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal"> Agents cannot contact relatives or employers regarding dues. Borrowers have the right to record calls and file FIRs under BNS Sections 351 and 308. CredSettle halts harassment via legal notices and settles debt through One-Time Settlement (OTS) with a No Dues Certificate. </p>
             </div>
 
             {/* SECTION 1: Debt Economics & NPA Dynamics */}
@@ -179,8 +179,8 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
               </div>
 
               <div className="prose prose-slate max-w-none text-xs sm:text-sm text-slate-700 leading-relaxed space-y-3">
-                <p> When clients face money crises like job loss or medical emergencies. Maintaining regular EMI payments becomes impossible. Under RBI IRACP norms, overdue accounts advance across SMA-0 (1-30 days), SMA-1 (31-60 days). SMA-2 (61-90 days) stages. Crossing 90 days triggers strict Substandard Non-Performing Asset (NPA) classification. </p>
-                <p> NPA classification forces lenders to allocate 15% to 100% cash provisioning, reducing profitability. Because no-collateral loans carry no security. Lenders cannot invoke SARFAESI property seizures. To reduce balance sheet losses. Banks assign debt to collection firms. Creating an optimal trade window for a structured One-Time Settlement (OTS) with CredSettle. </p>
+                <p> When borrowers face financial crises like job loss or medical emergencies, maintaining regular EMI payments becomes impossible. Under RBI IRACP norms, overdue accounts advance across SMA-0 (1-30 days), SMA-1 (31-60 days), and SMA-2 (61-90 days) stages. Crossing 90 days triggers mandatory Substandard Non-Performing Asset (NPA) classification. </p>
+                <p> NPA classification forces lenders to allocate 15% to 100% capital provisioning, reducing profitability. Because unsecured loans carry no collateral, lenders cannot invoke SARFAESI property seizures. To mitigate balance sheet losses, banks assign debt to collection agencies, creating an optimal commercial window for a structured One-Time Settlement (OTS) with CredSettle. </p>
               </div>
             </section>
 
@@ -196,8 +196,8 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
               </div>
 
               <div className="prose prose-slate max-w-none text-xs sm:text-sm text-slate-700 leading-relaxed space-y-3">
-                <p> Upon default, ledger balances expand with 24% to 36% penal interest. Late fees, and bounce charges. CredSettle conducts a deep ledger audit to strip away non-contractual penalties, isolating pure main loan. </p>
-                <p> agent 180-Day NPA Settlement Math: On a ₹5,00,000 main loan inflating to ₹8,20,000 with penalties. CredSettle negotiates a 50% waiver. The approved OTS is ₹4,10,000. Delivering ₹4,10,000 in savings with a No Dues letter (NDC). </p>
+                <p> Upon default, ledger balances expand with 24% to 36% penal interest, late fees, and bounce charges. CredSettle conducts a forensic ledger audit to strip away non-contractual penalties, isolating pure principal. </p>
+                <p> Representative 180-Day NPA Settlement Math: On a ₹5,00,000 principal inflating to ₹8,20,000 with penalties, CredSettle negotiates a 50% waiver. The approved OTS is ₹4,10,000, delivering ₹4,10,000 in savings with a No Dues Certificate (NDC). </p>
               </div>
 
               {/* Settlement Math Card */}
@@ -206,37 +206,37 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
                   <div className="flex items-center gap-2">
                     <DollarSign className="w-4 h-4 text-[#1886ff]"/>
                     <span className="font-extrabold text-xs sm:text-sm text-slate-900">
-                      180-Day NPA Settlement Calculation Card.
+                      180-Day NPA Settlement Calculation Card
                     </span>
                   </div>
                   <span className="bg-blue-50 text-[#1886ff] text-[11px] font-bold px-2 py-0.5 rounded-full">
-                    Target: 45% - 55% Total Waiver.
+                    Target: 45% - 55% Total Waiver
                   </span>
                 </div>
 
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 text-xs">
                   <div className="bg-slate-50 p-2.5 rounded-xl border border-slate-100">
-                    <span className="text-slate-500 block text-[11px] mb-0.5">Sanctioned Principal.</span>
+                    <span className="text-slate-500 block text-[11px] mb-0.5">Sanctioned Principal</span>
                     <strong className="text-slate-900 font-extrabold text-sm sm:text-base">₹5,00,000</strong>
-                    <span className="text-[10px] text-slate-400 block mt-0.5">released capital.</span>
+                    <span className="text-[10px] text-slate-400 block mt-0.5">Disbursed capital</span>
                   </div>
 
                   <div className="bg-red-50/60 p-2.5 rounded-xl border border-red-100">
                     <span className="text-red-600 block text-[11px] mb-0.5">Demanded Ledger</span>
                     <strong className="text-red-700 font-extrabold text-sm sm:text-base">₹8,20,000</strong>
-                    <span className="text-[10px] text-red-500 block mt-0.5">With penalty charges.</span>
+                    <span className="text-[10px] text-red-500 block mt-0.5">With penal charges</span>
                   </div>
 
                   <div className="bg-emerald-50/60 p-2.5 rounded-xl border border-emerald-100">
                     <span className="text-emerald-700 block text-[11px] mb-0.5">Penal Waiver</span>
                     <strong className="text-emerald-700 font-extrabold text-sm sm:text-base">₹4,10,000 (50%)</strong>
-                    <span className="text-[10px] text-emerald-600 block mt-0.5">Penal fees waived.</span>
+                    <span className="text-[10px] text-emerald-600 block mt-0.5">Penal fees waived</span>
                   </div>
 
                   <div className="bg-blue-50/60 p-2.5 rounded-xl border border-blue-100">
                     <span className="text-[#1886ff] block text-[11px] mb-0.5">Approved OTS</span>
                     <strong className="text-blue-900 font-extrabold text-sm sm:text-base">₹4,10,000</strong>
-                    <span className="text-[10px] text-blue-700 block mt-0.5">Full settlement with NDC.</span>
+                    <span className="text-[10px] text-blue-700 block mt-0.5">Full settlement with NDC</span>
                   </div>
                 </div>
               </div>
@@ -254,7 +254,7 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
               </div>
 
               <div className="prose prose-slate max-w-none text-xs sm:text-sm text-slate-700 leading-relaxed space-y-3">
-                <p> clients facing collection agent abuse have multiple avenues under Indian banking law. Evaluating money costs, legal protections. And credit results across relief channels is essential for making an informed choice: </p>
+                <p> Borrowers facing recovery agent harassment have multiple avenues under Indian banking law. Evaluating financial costs, legal protections, and credit results across resolution channels is essential for making an informed choice: </p>
               </div>
 
               {/* 4-Sided Bordered Comparison Table */}
@@ -262,32 +262,32 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
                 <table className="w-full text-left text-xs border-collapse divide-y divide-slate-200/80">
                   <thead className="bg-slate-100/80 text-slate-900 font-extrabold">
                     <tr className="divide-x divide-slate-200/80">
-                      <th className="p-3 sm:p-3.5">Resolution Pathway.</th>
-                      <th className="p-3 sm:p-3.5">Financial Impact.</th>
-                      <th className="p-3 sm:p-3.5">Harassment Protection.</th>
+                      <th className="p-3 sm:p-3.5">Resolution Pathway</th>
+                      <th className="p-3 sm:p-3.5">Financial Impact</th>
+                      <th className="p-3 sm:p-3.5">Harassment Protection</th>
                       <th className="p-3 sm:p-3.5">Timeline</th>
                       <th className="p-3 sm:p-3.5">Credit Status</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-700">
                     <tr className="divide-x divide-slate-200/80 hover:bg-blue-50/30 transition-colors">
-                      <td className="p-3 sm:p-3.5 font-bold text-blue-900">One-Time Settlement.</td>
-                      <td className="p-3 sm:p-3.5 font-semibold text-emerald-700">40% to 75% penal waiver.</td>
-                      <td className="p-3 sm:p-3.5">Permanent cessation.</td>
+                      <td className="p-3 sm:p-3.5 font-bold text-blue-900">One-Time Settlement</td>
+                      <td className="p-3 sm:p-3.5 font-semibold text-emerald-700">40% to 75% penal waiver</td>
+                      <td className="p-3 sm:p-3.5">Permanent cessation</td>
                       <td className="p-3 sm:p-3.5">45-90 Days</td>
-                      <td className="p-3 sm:p-3.5">Settled (CICRA Sec 21 upgradable).</td>
+                      <td className="p-3 sm:p-3.5">Settled (CICRA Sec 21 upgradable)</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors">
                       <td className="p-3 sm:p-3.5 font-bold text-slate-900">Restructuring</td>
-                      <td className="p-3 sm:p-3.5">0% waiver. higher interest.</td>
+                      <td className="p-3 sm:p-3.5">0% waiver; higher interest</td>
                       <td className="p-3 sm:p-3.5">Temporary pause</td>
                       <td className="p-3 sm:p-3.5">30-60 Days</td>
                       <td className="p-3 sm:p-3.5">Restructured</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors">
-                      <td className="p-3 sm:p-3.5 font-bold text-slate-900">lawsuits</td>
+                      <td className="p-3 sm:p-3.5 font-bold text-slate-900">Litigation</td>
                       <td className="p-3 sm:p-3.5 text-red-600">High court fees</td>
-                      <td className="p-3 sm:p-3.5">Judicial summons.</td>
+                      <td className="p-3 sm:p-3.5">Judicial summons</td>
                       <td className="p-3 sm:p-3.5">2-5 Years</td>
                       <td className="p-3 sm:p-3.5 text-red-600">Suit Filed</td>
                     </tr>
@@ -296,12 +296,12 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
                       <td className="p-3 sm:p-3.5 text-emerald-700">Moderate waiver</td>
                       <td className="p-3 sm:p-3.5">Halts on award</td>
                       <td className="p-3 sm:p-3.5">1-3 Hearings</td>
-                      <td className="p-3 sm:p-3.5">Settled Lok Adalat.</td>
+                      <td className="p-3 sm:p-3.5">Settled Lok Adalat</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 bg-red-50/30 hover:bg-red-50/50 transition-colors">
                       <td className="p-3 sm:p-3.5 font-bold text-red-900">Inaction</td>
-                      <td className="p-3 sm:p-3.5 text-red-700 font-semibold">Compounded debt trap.</td>
-                      <td className="p-3 sm:p-3.5 text-red-700">Ongoing abuse.</td>
+                      <td className="p-3 sm:p-3.5 text-red-700 font-semibold">Compounded debt trap</td>
+                      <td className="p-3 sm:p-3.5 text-red-700">Ongoing harassment</td>
                       <td className="p-3 sm:p-3.5 text-red-700">Indefinite</td>
                       <td className="p-3 sm:p-3.5 text-red-700 font-bold">Below 550</td>
                     </tr>
@@ -322,7 +322,7 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
               </div>
 
               <div className="prose prose-slate max-w-none text-xs sm:text-sm text-slate-700 leading-relaxed space-y-3">
-                <p> Credit bureaus calculate scores using a mathematical algorithm based on five core factors: Payment History (35%). Credit use (30%), Credit Mix (15%), History Length (10%). New Inquiries (10%). </p>
+                <p> Credit bureaus calculate scores using a mathematical algorithm based on five core factors: Payment History (35%), Credit Utilization (30%), Credit Mix (15%), History Length (10%), and New Inquiries (10%). </p>
 
                 <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2 my-2 text-xs">
                   <div className="p-2.5 rounded-xl bg-white border border-slate-200/80 shadow-2xs">
@@ -347,8 +347,8 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
                   </div>
                 </div>
 
-                <p> A 90-day NPA default lowers credit scores by 140 to 180 points. Following an OTS, bureaus record the account as Settled. clients can rebuild scores to 750+ within 18 to 24 months using secured credit cards and regular payments. </p>
-                <p> Under Section 21 of CICRA 2005. Clients retain the legal right to pay the waived balance difference later. Converting the status from Settled to Closed. </p>
+                <p> A 90-day NPA default lowers credit scores by 140 to 180 points. Following an OTS, bureaus record the account as Settled. Borrowers can rebuild scores to 750+ within 18 to 24 months using secured credit cards and regular repayments. </p>
+                <p> Under Section 21 of CICRA 2005, borrowers retain the statutory right to pay the waived balance difference later, converting the status from Settled to Closed. </p>
               </div>
             </section>
 
@@ -363,7 +363,7 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
                 </h2>
               </div>
 
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> This infographic details the RBI Fair Practices Code. Lawful collection hours (8:00 AM to 7:00 PM), prohibitions against abusive tactics. The 3-tier grievance escalation process for Indian clients: </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> This infographic details the RBI Fair Practices Code, lawful recovery hours (8:00 AM to 7:00 PM), prohibitions against abusive tactics, and the 3-tier grievance escalation process for Indian borrowers: </p>
 
               {/* Infographic Container */}
               <div className="bg-white rounded-2xl border border-slate-200/80 p-3.5 sm:p-4 shadow-xs overflow-hidden">
@@ -392,7 +392,7 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
                 </h2>
               </div>
 
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> CredSettle executes a 6-stage standard operating procedure (SOP) to protect clients from collection abuse and settle binding OTS deals: </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> CredSettle executes a 6-stage standard operating procedure (SOP) to protect borrowers from recovery harassment and negotiate binding compromise settlements: </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
                 {/* Stage 1 */}
@@ -405,7 +405,7 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
                       Forensic Audit &amp; Evidence Preservation
                     </h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> Our legal team audits loan pacts and ledgers. Preserving timestamped audio recordings and messages evidencing collection violations. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Our legal team audits loan agreements and ledgers, preserving timestamped audio recordings and messages evidencing recovery violations. </p>
                 </div>
 
                 {/* Stage 2 */}
@@ -418,7 +418,7 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
                       Financial Hardship Dossier Compilation
                     </h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> We assemble verifiable papers including medical summaries or job loss letters proving authentic insolvency. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> We assemble verifiable documents including medical summaries or job loss letters proving authentic insolvency. </p>
                 </div>
 
                 {/* Stage 3 */}
@@ -431,7 +431,7 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
                       Credit Committee Representation
                     </h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> We represent clients straight before bank credit boards, bypassing third-party collection firms. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> We represent borrowers directly before bank credit committees, bypassing third-party collection agencies. </p>
                 </div>
 
                 {/* Stage 4 */}
@@ -457,7 +457,7 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
                       Settlement Letter Forensic Vetting
                     </h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> We audit the settlement sanction letter to verify full debt risk discharge clauses and zero hidden terms. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> We audit the settlement sanction letter to verify full liability discharge clauses and zero hidden terms. </p>
                 </div>
 
                 {/* Stage 6 */}
@@ -470,7 +470,7 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
                       Remittance &amp; NDC Issuance
                     </h3>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> The client remits the settlement sum to the bank account. CredSettle secures the formal No Dues letter (NDC). </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> The borrower remits the settlement sum to the bank account, and CredSettle secures the official No Dues Certificate (NDC). </p>
                 </div>
               </div>
             </section>
@@ -487,7 +487,7 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
               </div>
 
               <div className="prose prose-slate max-w-none text-xs sm:text-sm text-slate-700 leading-relaxed space-y-3">
-                <p> Collection firms often issue legal notices to coerce clients. Understanding legal defense rules enables clients to protect their legal rights effectively: </p>
+                <p> Collection agencies frequently issue legal notices to coerce borrowers. Understanding statutory defense frameworks enables borrowers to protect their legal rights effectively: </p>
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
@@ -495,16 +495,16 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
                 <div className="p-4 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
                   <div className="flex items-center gap-2 text-blue-900 font-extrabold text-xs sm:text-sm">
                     <Gavel className="w-4 h-4 text-[#1886ff]"/>
-                    <span>Section 25 PSSA (NACH Bounce).</span>
+                    <span>Section 25 PSSA (NACH Bounce)</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> NACH auto-debit bounces are not automatic criminal offenses under PSSA Section 25. Proving absence of fraudulent intent and debt stress forms a valid defense. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> NACH auto-debit bounces are not automatic criminal offenses under PSSA Section 25. Proving absence of fraudulent intent and financial distress forms a valid defense. </p>
                 </div>
 
                 {/* Notice 2 */}
                 <div className="p-4 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
                   <div className="flex items-center gap-2 text-blue-900 font-extrabold text-xs sm:text-sm">
                     <Scale className="w-4 h-4 text-[#1886ff]"/>
-                    <span>Section 138 NI Act (Cheque Bounce).</span>
+                    <span>Section 138 NI Act (Cheque Bounce)</span>
                   </div>
                   <p className="text-xs text-slate-600 leading-relaxed"> Cheque bounce cases require strict 30-day notice compliance. Security cheques without consideration can be contested and settled via bilateral OTS. </p>
                 </div>
@@ -513,7 +513,7 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
                 <div className="p-4 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
                   <div className="flex items-center gap-2 text-blue-900 font-extrabold text-xs sm:text-sm">
                     <Landmark className="w-4 h-4 text-[#1886ff]"/>
-                    <span>Arbitration Section 21 (Perkins Ruling).</span>
+                    <span>Arbitration Section 21 (Perkins Ruling)</span>
                   </div>
                   <p className="text-xs text-slate-600 leading-relaxed"> Unilateral appointment of sole arbitrators by lenders is invalid under Supreme Court rulings in Perkins Eastman and TRF Limited. </p>
                 </div>
@@ -522,9 +522,9 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
                 <div className="p-4 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
                   <div className="flex items-center gap-2 text-blue-900 font-extrabold text-xs sm:text-sm">
                     <ShieldAlert className="w-4 h-4 text-[#1886ff]"/>
-                    <span>DRT Section 19 &amp; RBI Fair Practices.</span>
+                    <span>DRT Section 19 &amp; RBI Fair Practices</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> DRT applies only to claims exceeding ₹20 Lakhs. Retail private loans below ₹20 Lakhs are protected under RBI collection rules. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> DRT applies exclusively to claims exceeding ₹20 Lakhs. Retail personal loans below ₹20 Lakhs are protected under RBI recovery rules. </p>
                 </div>
               </div>
             </section>
@@ -540,7 +540,7 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
                 </h2>
               </div>
 
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> When collection agents violate RBI Fair Practices norms by using abusive language or calling outside permitted hours. Follow this 3-tier escalation hierarchy: </p>
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed"> When recovery agents violate RBI Fair Practices norms by using abusive language or calling outside permitted hours, follow this 3-tier escalation hierarchy: </p>
 
               <div className="space-y-2.5">
                 {/* Level 1 */}
@@ -551,12 +551,12 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
                         Level 1
                       </span>
                       <strong className="text-xs sm:text-sm text-slate-900">
-                        Branch Grievance Redressal Officer (GRO).
+                        Branch Grievance Redressal Officer (GRO)
                       </strong>
                     </div>
-                    <span className="text-[11px] font-semibold text-slate-500">Timeline: 7 to 10 Days.</span>
+                    <span className="text-[11px] font-semibold text-slate-500">Timeline: 7 to 10 Days</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> Submit a written complaint to the branch GRO with call recordings and timestamps demanding an fast inquiry. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Submit a written complaint to the branch GRO with call recordings and timestamps demanding an immediate inquiry. </p>
                 </div>
 
                 {/* Level 2 */}
@@ -567,12 +567,12 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
                         Level 2
                       </span>
                       <strong className="text-xs sm:text-sm text-slate-900">
-                        Bank Principal Nodal Officer (PNO).
+                        Bank Principal Nodal Officer (PNO)
                       </strong>
                     </div>
-                    <span className="text-[11px] font-semibold text-slate-500">Timeline: 14 to 21 Days.</span>
+                    <span className="text-[11px] font-semibold text-slate-500">Timeline: 14 to 21 Days</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> Escalate to the Bank main loan Nodal Officer (PNO) via email and post with proof if unresolved within 10 days. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Escalate to the Bank Principal Nodal Officer (PNO) via email and post with evidence if unresolved within 10 days. </p>
                 </div>
 
                 {/* Level 3 */}
@@ -583,12 +583,12 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
                         Level 3
                       </span>
                       <strong className="text-xs sm:text-sm text-slate-900">
-                        Reserve Bank of India Integrated Ombudsman (RBI CMS).
+                        Reserve Bank of India Integrated Ombudsman (RBI CMS)
                       </strong>
                     </div>
                     <span className="text-[11px] font-bold text-emerald-700">cms.rbi.org.in</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> File an online complaint on cms.rbi.org.in after 30 days. The Ombudsman can penalize banks and award payout. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> File an online complaint on cms.rbi.org.in after 30 days. The Ombudsman can penalize banks and award compensation. </p>
                 </div>
               </div>
             </section>
@@ -605,7 +605,7 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
               </div>
 
               <div className="prose prose-slate max-w-none text-xs sm:text-sm text-slate-700 leading-relaxed space-y-3">
-                <p> Understanding the progression from initial missed EMI to final debt settlement allows clients to prepare timely legal defenses and settle when lender willingness to settle peaks: </p>
+                <p> Understanding the progression from initial missed EMI to final debt settlement allows borrowers to prepare timely legal defenses and negotiate when lender willingness to settle peaks: </p>
               </div>
 
               {/* 4-Sided Bordered Timeline Table */}
@@ -614,41 +614,41 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
                   <thead className="bg-slate-100/80 text-slate-900 font-extrabold">
                     <tr className="divide-x divide-slate-200/80">
                       <th className="p-3 sm:p-3.5">Timeline Period</th>
-                      <th className="p-3 sm:p-3.5">Regulatory Asset Stage.</th>
+                      <th className="p-3 sm:p-3.5">Regulatory Asset Stage</th>
                       <th className="p-3 sm:p-3.5">Bank Action</th>
-                      <th className="p-3 sm:p-3.5">CredSettle Strategic Action.</th>
+                      <th className="p-3 sm:p-3.5">CredSettle Strategic Action</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-700">
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors">
                       <td className="p-3 sm:p-3.5 font-bold text-slate-900">Days 1 - 30</td>
                       <td className="p-3 sm:p-3.5 font-semibold text-blue-900">SMA-0</td>
-                      <td className="p-3 sm:p-3.5">SMS alerts and reminder calls.</td>
-                      <td className="p-3 sm:p-3.5">Debt portfolio review.</td>
+                      <td className="p-3 sm:p-3.5">SMS alerts and reminder calls</td>
+                      <td className="p-3 sm:p-3.5">Debt portfolio review</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors">
                       <td className="p-3 sm:p-3.5 font-bold text-slate-900">Days 31 - 60</td>
                       <td className="p-3 sm:p-3.5 font-semibold text-blue-900">SMA-1</td>
-                      <td className="p-3 sm:p-3.5">Tele-calling outreach and late fees.</td>
-                      <td className="p-3 sm:p-3.5">Hardship dossier prep.</td>
+                      <td className="p-3 sm:p-3.5">Tele-calling outreach and late fees</td>
+                      <td className="p-3 sm:p-3.5">Hardship dossier prep</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors">
                       <td className="p-3 sm:p-3.5 font-bold text-slate-900">Days 61 - 90</td>
                       <td className="p-3 sm:p-3.5 font-semibold text-amber-700">SMA-2</td>
-                      <td className="p-3 sm:p-3.5">Pre-NPA warnings and alerts.</td>
-                      <td className="p-3 sm:p-3.5">boards outreach.</td>
+                      <td className="p-3 sm:p-3.5">Pre-NPA warnings and advisories</td>
+                      <td className="p-3 sm:p-3.5">Committee outreach</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 hover:bg-slate-50/60 transition-colors">
                       <td className="p-3 sm:p-3.5 font-bold text-slate-900">Days 91 - 150</td>
                       <td className="p-3 sm:p-3.5 font-semibold text-red-700">Substandard NPA</td>
-                      <td className="p-3 sm:p-3.5">firm assignment and collection calls.</td>
-                      <td className="p-3 sm:p-3.5">Legal notice and PNO filing.</td>
+                      <td className="p-3 sm:p-3.5">Agency assignment and collection calls</td>
+                      <td className="p-3 sm:p-3.5">Legal notice and PNO filing</td>
                     </tr>
                     <tr className="divide-x divide-slate-200/80 bg-blue-50/30 hover:bg-blue-50/50 transition-colors">
                       <td className="p-3 sm:p-3.5 font-bold text-blue-900">Days 151 - 180+</td>
                       <td className="p-3 sm:p-3.5 font-semibold text-emerald-700">OTS Window</td>
-                      <td className="p-3 sm:p-3.5">Bank provisioning pressure peaks.</td>
-                      <td className="p-3 sm:p-3.5 font-bold text-emerald-800">OTS execution &amp. NDC.</td>
+                      <td className="p-3 sm:p-3.5">Bank provisioning pressure peaks</td>
+                      <td className="p-3 sm:p-3.5 font-bold text-emerald-800">OTS execution &amp; NDC</td>
                     </tr>
                   </tbody>
                 </table>
@@ -667,7 +667,7 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
               </div>
 
               <div className="prose prose-slate max-w-none text-xs sm:text-sm text-slate-700 leading-relaxed space-y-3">
-                <p> Every debt default case presents unique private and trade challenges. CredSettle tailors legal protection and talks plans across diverse real-world situations: </p>
+                <p> Every debt default case presents unique personal and commercial challenges. CredSettle tailors legal protection and talks plans across diverse real-world situations: </p>
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
@@ -675,36 +675,36 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
                 <div className="p-4 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
                   <div className="flex items-center gap-2 text-blue-900 font-extrabold text-xs sm:text-sm">
                     <Building2 className="w-4 h-4 text-[#1886ff]"/>
-                    <span>Multi-Lender Portfolio Consolidation.</span>
+                    <span>Multi-Lender Portfolio Consolidation</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> clients with multiple defaulted loans receive synchronized defense. Halting overlapping abuse while structuring phased deals. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Borrowers with multiple defaulted loans receive synchronized defense, halting overlapping harassment while structuring phased settlements. </p>
                 </div>
 
                 {/* Scenario 2 */}
                 <div className="p-4 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
                   <div className="flex items-center gap-2 text-blue-900 font-extrabold text-xs sm:text-sm">
                     <UserCheck className="w-4 h-4 text-[#1886ff]"/>
-                    <span>Corporate Layoffs &amp; Income Loss.</span>
+                    <span>Corporate Layoffs &amp; Income Loss</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> Downsized workers receive protection against workplace visits or employer contact, safeguarding their careers. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Downsized professionals receive protection against workplace visits or employer contact, safeguarding their careers. </p>
                 </div>
 
                 {/* Scenario 3 */}
                 <div className="p-4 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
                   <div className="flex items-center gap-2 text-blue-900 font-extrabold text-xs sm:text-sm">
                     <TrendingUp className="w-4 h-4 text-[#1886ff]"/>
-                    <span>Business Proprietorship Disruptions.</span>
+                    <span>Business Proprietorship Disruptions</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> shop owners facing payment delays obtain protection against shop visits. This allows income collection while settling debt. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Business owners facing payment delays obtain protection against shop visits, allowing revenue recovery while settling debt. </p>
                 </div>
 
                 {/* Scenario 4 */}
                 <div className="p-4 rounded-2xl bg-white border border-slate-200/80 shadow-xs space-y-1.5">
                   <div className="flex items-center gap-2 text-blue-900 font-extrabold text-xs sm:text-sm">
                     <FileCheck className="w-4 h-4 text-[#1886ff]"/>
-                    <span>ARC Portfolio Debt Assignments.</span>
+                    <span>ARC Portfolio Debt Assignments</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> Debts sold to ARCs are settled at steep discounts based on secondary acquisition costs, securing deep waivers. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Debts sold to ARCs are negotiated at steep discounts based on secondary acquisition costs, securing deep waivers. </p>
                 </div>
               </div>
             </section>
@@ -760,7 +760,7 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
                     Statutory Legal Citations:
                   </span>
                   <ul className="list-disc pl-5 space-y-1 text-slate-600 text-xs leading-relaxed">
-                    <li>RBI Master Directions on collection agents (RBI/2022-23/96).</li>
+                    <li>RBI Master Directions on Recovery Agents (RBI/2022-23/96).</li>
                     <li>Bharatiya Nyaya Sanhita 2023 (Sections 351, 308, 329).</li>
                     <li>Bharatiya Nagarik Suraksha Sanhita 2023 (Sections 173, 175).</li>
                     <li>CICRA 2005 (Section 21 Credit Correction).</li>
@@ -774,7 +774,7 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
                   </span>
                   <div className="flex flex-wrap gap-2">
                     <a href="https://www.rbi.org.in" target="_blank" rel="noopener noreferrer" className="px-3 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-[#1886ff] text-xs font-semibold inline-flex items-center gap-1.5 transition-colors border border-slate-200/60">
-                      <span>Reserve Bank of India.</span>
+                      <span>Reserve Bank of India</span>
                       <ExternalLink className="w-3 h-3 text-slate-400"/>
                     </a>
                     <a href="https://cms.rbi.org.in" target="_blank" rel="noopener noreferrer" className="px-3 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-[#1886ff] text-xs font-semibold inline-flex items-center gap-1.5 transition-colors border border-slate-200/60">
@@ -782,19 +782,19 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
                       <ExternalLink className="w-3 h-3 text-slate-400"/>
                     </a>
                     <a href="https://www.cibil.com" target="_blank" rel="noopener noreferrer" className="px-3 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-[#1886ff] text-xs font-semibold inline-flex items-center gap-1.5 transition-colors border border-slate-200/60">
-                      <span>TransUnion CIBIL.</span>
+                      <span>TransUnion CIBIL</span>
                       <ExternalLink className="w-3 h-3 text-slate-400"/>
                     </a>
                     <a href="https://www.indiacode.nic.in" target="_blank" rel="noopener noreferrer" className="px-3 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-[#1886ff] text-xs font-semibold inline-flex items-center gap-1.5 transition-colors border border-slate-200/60">
-                      <span>India Code Repository.</span>
+                      <span>India Code Repository</span>
                       <ExternalLink className="w-3 h-3 text-slate-400"/>
                     </a>
                     <a href="https://nalsa.gov.in" target="_blank" rel="noopener noreferrer" className="px-3 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-[#1886ff] text-xs font-semibold inline-flex items-center gap-1.5 transition-colors border border-slate-200/60">
-                      <span>NALSA Lok Adalat.</span>
+                      <span>NALSA Lok Adalat</span>
                       <ExternalLink className="w-3 h-3 text-slate-400"/>
                     </a>
                     <a href="https://cybercrime.gov.in" target="_blank" rel="noopener noreferrer" className="px-3 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 text-slate-700 hover:text-[#1886ff] text-xs font-semibold inline-flex items-center gap-1.5 transition-colors border border-slate-200/60">
-                      <span>National Cyber Crime (1930).</span>
+                      <span>National Cyber Crime (1930)</span>
                       <ExternalLink className="w-3 h-3 text-slate-400"/>
                     </a>
                   </div>
@@ -853,32 +853,32 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
                 <div>
                   <p className="font-extrabold text-xs sm:text-sm text-slate-900"> Ashish Jhangra </p>
                   <span className="text-[11px] text-slate-500 block">
-                    Legal &amp; Debt Resolution Professional.
+                    Legal &amp; Debt Resolution Professional
                   </span>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed"> Specialist in banking regulations, client protection against collection abuse. And debt relief under RBI rules. </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> Specialist in banking regulations, borrower protection against recovery harassment, and debt resolution under RBI guidelines. </p>
             </div>
 
             {/* Emergency CTA Card (#2452ae) */}
             <div className="rounded-2xl p-4 text-white shadow-md text-center space-y-2.5 relative overflow-hidden" style={{ backgroundColor: '#2452ae' }}>
               <div className="inline-flex items-center gap-1 bg-white/20 px-2 py-0.5 rounded-full text-[11px] font-bold">
                 <Phone className="w-3 h-3"/>
-                <span>Emergency Harassment Helpline.</span>
+                <span>Emergency Harassment Helpline</span>
               </div>
 
-              <p className="font-extrabold text-xs sm:text-sm leading-snug"> Facing Illegal collection abuse Today? </p>
+              <p className="font-extrabold text-xs sm:text-sm leading-snug"> Facing Illegal Recovery Harassment Today? </p>
 
               <p className="text-xs text-blue-100 leading-relaxed"> Our legal team halts abusive calls and settles loans. </p>
 
               <div className="space-y-2 pt-1">
                 <a href="tel:+918800226635" className="w-full py-2 px-3 rounded-xl bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-xs inline-flex items-center justify-center gap-2 hover:bg-slate-50 transition-colors shadow-sm">
                   <Phone className="w-3.5 h-3.5"/>
-                  <span>Call +91-8800226635.</span>
+                  <span>Call +91-8800226635</span>
                 </a>
 
                 <Link href="/contact" className="w-full py-2 px-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-xs inline-flex items-center justify-center gap-1.5 transition-colors border border-white/20">
-                  <span>Request Free Legal Consultation.</span>
+                  <span>Request Free Legal Consultation</span>
                   <ArrowRight className="w-3.5 h-3.5"/>
                 </Link>
               </div>
@@ -887,7 +887,7 @@ export default function BankRecoveryAgentHarassmentRulesInHindiClient() {
             {/* Trust Badges Card */}
             <div className="bg-white rounded-2xl border border-slate-200/80 p-4 shadow-xs space-y-2">
               <span className="text-xs font-black uppercase tracking-wider text-slate-800 block border-b border-slate-100 pb-2">
-                CredSettle Trust Guarantees.
+                CredSettle Trust Guarantees
               </span>
 
               <ul className="space-y-1.5 text-xs text-slate-600">

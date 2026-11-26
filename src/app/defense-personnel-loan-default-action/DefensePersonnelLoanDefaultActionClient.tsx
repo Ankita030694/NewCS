@@ -47,43 +47,43 @@ export default function DefensePersonnelLoanDefaultActionClient() {
     const faqs = [
         {
             q: 'Can an Indian Army, Navy, or Air Force personnel be court-martialed for loan default?',
-            a: "No. Defaulting on a banks loan or credit card is strictly a civil contractual breach. Under the Army Act. Navy Act. Air Force Act. A court-martial applies to military discipline and service offenses. Not private debt stress or civil debt defaults."
+            a: "No. Defaulting on a commercial bank loan or credit card is strictly a civil contractual breach. Under the Army Act, Navy Act, and Air Force Act, a court-martial applies to military discipline and service offenses, not personal financial distress or civil debt defaults."
         },
         {
             q: 'Can bank recovery agents legally contact my Commanding Officer or Military Unit?',
-            a: 'Absolutely not. The RBI Fair Practices Code strictly prohibits claims agents from contacting employers. Commanding agents. kin. Any attempt to send claims notices to a military unit or cantonment violates RBI directives and constitutes unlawful threats.'
+            a: 'Absolutely not. The RBI Fair Practices Code strictly prohibits recovery agents from contacting employers, commanding officers, or family members. Any attempt to send recovery notices to a military unit or cantonment violates regulatory directives and constitutes unlawful intimidation.'
         },
         {
             q: 'Can a bank automatically attach a defense personnel salary or pension?',
-            a: 'Banks cannot unilaterally attach your salary or pension. Under Section 28 of the Army Act. 1950 and Section 60(1)(g) of the Code of Civil steps. Military pay and allowances enjoy local legal protections from summary civil attachment without formal court orders.'
+            a: 'Banks cannot unilaterally attach your salary or pension. Under Section 28 of the Army Act, 1950 and Section 60(1)(g) of the Code of Civil Procedure, military pay and allowances enjoy specific statutory protections from summary civil attachment without formal court orders.'
         },
         {
             q: 'What happens if a Section 25 PSSA or Section 138 notice is served while posted in field areas?',
-            a: 'Military personnel deployed in forward or field locations receive procedural accommodations under the Indian Soldiers (lawsuits) Act. 1925. However. Serving a formal legal reply through designated civil counsel remains essential to preserve rights and initiate OTS deals.'
+            a: 'Military personnel deployed in forward or field locations receive procedural accommodations under the Indian Soldiers (Litigation) Act, 1925. However, serving a formal legal reply through designated civil counsel remains essential to preserve rights and initiate compromise settlement.'
         },
         {
             q: 'What percentage of waiver can defense personnel negotiate during a loan settlement?',
-            a: "Defense clients typically achieve a 100% waiver on accrued extra fees. Late surcharges. NACH bounce fees. On the core remaining main loan. Bank credit boards routinely sanction a 40% to 55% waiver when presented with verifiable hardship paperwork."
+            a: "Defense borrowers typically achieve a 100% waiver on accrued penal interest, late surcharges, and NACH bounce fees. On the core unamortized principal, bank credit committees routinely sanction a 40% to 55% waiver when presented with verifiable hardship documentation."
         },
         {
             q: 'How does a loan settlement affect military security clearance and promotions?',
-            a: 'An unmanaged default with pending court warrants creates daily work vulnerability during background checks. In contrast. An authorized One-Time settlement accompanied by an formal No Dues letter provides complete legal closure. Preventing departmental adverse remarks.'
+            a: 'An unmanaged default with pending court warrants creates operational vulnerability during background checks. In contrast, an authorized One-Time Settlement accompanied by an official No Dues Certificate provides complete legal closure, preventing departmental adverse remarks.'
         },
         {
             q: 'Can banks seize defense salary accounts under DSP or Defence Salary Packages?',
-            a: 'Banks sometimes attempt unilateral lien markings on salary accounts. However. This can be challenged through legal legal help and RBI grievance redressal. As banks cannot deprive service personnel of basic subsistence without following established due process.'
+            a: 'Banks sometimes attempt unilateral lien markings on salary accounts. However, this can be challenged through legal representation and RBI grievance redressal, as banks cannot deprive service personnel of basic subsistence without following established due process.'
         },
         {
-            q: "What paperwork is required to establish military hardship for debt settlement?",
-            a: "Key papers include service deployment records. health board disability letters or kin health expenses. Proof of high-rates indebtedness. Monthly pay slips detailing deductions. A full hardship record submitted to the credit boards."
+            q: "What documentation is required to establish military hardship for debt settlement?",
+            a: "Key documents include service deployment records, medical board disability certificates or family medical expenses, proof of high-interest indebtedness, monthly pay slips detailing deductions, and a comprehensive hardship statement submitted to the credit committee."
         },
         {
             q: 'What is the risk of making unreceipted token payments to collection agents?',
-            a: 'Never pay cash or unreceipted token amounts to claims telecallers. Token payments are credited toward inflated extra fees without reducing the main loan loan balance or halting legal action. All payments must follow an formal bank sanction letter.'
+            a: 'Never pay cash or unreceipted token amounts to recovery telecallers. Token payments are credited toward inflated penal interest without reducing the principal loan balance or halting legal action. All payments must follow an formal bank sanction letter.'
         },
         {
             q: 'What is the step-by-step procedure to receive an official No Dues Certificate?',
-            a: "Once the credit boards issues a formal closure note. You pay the agreed payout sum straight into your designated loan account. Within 30 to 45 trade days. The bank updates the account ledger to zero and issues the stamped No Dues letter."
+            a: "Once the credit committee issues a formal settlement letter, you remit the agreed settlement amount directly into your designated loan account. Within 30 to 45 business days, the bank updates the account ledger to zero and issues the stamped No Dues Certificate."
         }
     ];
     return (<main className="min-h-screen bg-slate-50 text-slate-900 selection:bg-[#1886ff] selection:text-white">
@@ -93,18 +93,18 @@ export default function DefensePersonnelLoanDefaultActionClient() {
         <div className="max-w-5xl mx-auto text-center z-10 relative">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-blue-200 text-xs font-semibold mb-3">
             <Shield className="w-3.5 h-3.5"/>
-            <span>Armed Forces &amp; Military Debt Protection Protocol.</span>
+            <span>Armed Forces &amp; Military Debt Protection Protocol</span>
           </div>
 
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-3 md:mb-4 tracking-tight leading-tight drop-shadow-xs">
             Armed Forces &amp; Military Personnel Loan Default Consequences
           </h1>
 
-          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> Authoritative legal roadmap for Indian Army. Navy. Air Force. And Paramilitary personnel facing loan defaults. Understand service rules. Stop claims calls to your unit. And secure 40% to 55% waivers. </p>
+          <p className="text-sm sm:text-base md:text-lg mb-5 md:mb-6 max-w-2xl mx-auto font-normal text-white/95 leading-relaxed"> Authoritative legal roadmap for Indian Army, Navy, Air Force, and Paramilitary personnel facing loan defaults. Understand service rules, stop collection calls to your unit, and secure 40% to 55% waivers. </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="px-7 py-3 md:px-8 md:py-3.5 rounded-full bg-white text-blue-900 hover:text-[#1886ff] font-extrabold text-sm md:text-base hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 inline-flex items-center justify-center gap-2">
-              <span>Confidential Legal Advice for Defense Personnel.</span>
+              <span>Confidential Legal Advice for Defense Personnel</span>
               <ArrowRight className="w-4 h-4"/>
             </Link>
           </div>
@@ -124,7 +124,7 @@ export default function DefensePersonnelLoanDefaultActionClient() {
               <div className="flex items-center gap-2 pb-3 mb-3 border-b border-slate-100">
                 <BookOpen className="w-4 h-4 text-[#1886ff]"/>
                 <span className="text-xs font-black uppercase tracking-wider text-slate-800">
-                  Table of Contents.
+                  Table of Contents
                 </span>
               </div>
               <nav className="space-y-1 max-h-[calc(100vh-140px)] overflow-y-auto pr-1 text-xs">
@@ -141,9 +141,9 @@ export default function DefensePersonnelLoanDefaultActionClient() {
               <div className="mt-4 pt-3 border-t border-slate-100 bg-blue-50/50 -mx-4 -mb-4 p-3 rounded-b-2xl">
                 <div className="flex items-center gap-2 text-[11px] font-bold text-slate-800">
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0"/>
-                  <span>Defense Legal Rights.</span>
+                  <span>Defense Legal Rights</span>
                 </div>
-                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Protected under the Army Act. Indian Soldiers lawsuits Act. And RBI Fair Practices Code. </p>
+                <p className="text-[10px] text-slate-500 mt-1 leading-tight"> Protected under the Army Act, Indian Soldiers Litigation Act, and RBI Fair Practices Code. </p>
               </div>
             </div>
           </aside>
@@ -155,25 +155,25 @@ export default function DefensePersonnelLoanDefaultActionClient() {
             <div id="quick-crux" className="scroll-target rounded-2xl bg-[#F4F8FE] border border-blue-100/90 border-l-[5px] border-l-[#1886ff] p-5 sm:p-6 md:p-7 shadow-xs space-y-4 text-slate-800">
               <div className="flex items-center gap-2 text-xs md:text-sm font-black uppercase tracking-wider text-[#1886ff]">
                 <Bookmark className="w-4 h-4 text-[#1886ff]"/>
-                <span>EXECUTIVE BRIEF: DEFENSE PERSONNEL LOAN DEFAULT LEGAL CRUX.</span>
+                <span>EXECUTIVE BRIEF: DEFENSE PERSONNEL LOAN DEFAULT LEGAL CRUX</span>
               </div>
 
               <ul className="space-y-2 text-xs sm:text-sm text-slate-700 leading-relaxed">
-                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Civil police area:</strong> no-pledge loan default is purely a civil contractual claims. Never a military crime. </div> </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Civil Jurisdiction:</strong> Unsecured loan default is purely a civil contractual dispute, never a military crime. </div> </li>
 
-                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Court Martial Myth:</strong> Serving personnel cannot be court-martialed. Demoted. Or dismissed for civil money debts. </div> </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Court Martial Myth:</strong> Serving personnel cannot be court-martialed, demoted, or dismissed for civil financial debts. </div> </li>
 
-                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Unit abuse Prohibited:</strong> Calls. Visits. Or demand notices to Commanding agents violate RBI conduct directives. </div> </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Unit Harassment Prohibited:</strong> Calls, visits, or demand notices to Commanding Officers violate RBI conduct directives. </div> </li>
 
                 <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Pay Attachment Immunity:</strong> Section 28 Army Act and Section 60 CPC bar automatic extrajudicial salary deduction. </div> </li>
 
-                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">daily work Deployment Shield:</strong> The Indian Soldiers (lawsuits) Act grants legal protections during forward postings. </div> </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Operational Deployment Shield:</strong> The Indian Soldiers (Litigation) Act grants legal protections during forward postings. </div> </li>
 
-                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">bank Haircuts:</strong> Bank credit boards routinely sanction 40% to 55% waivers on genuine hardship grounds. </div> </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Institutional Haircuts:</strong> Bank credit committees routinely sanction 40% to 55% waivers on genuine hardship grounds. </div> </li>
 
-                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Service Record safety:</strong> Formal One-Time settlement prevents lawsuits warrants and safeguards pledge clearance. </div> </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Service Record Protection:</strong> Formal One-Time Settlement prevents litigation warrants and safeguards security clearance. </div> </li>
 
-                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Definitive Legal Closure:</strong> Traceable loan remittance secures an formal No Dues letter and closes the debt risk. </div> </li>
+                <li className="flex items-start gap-2.5"> <CheckCircle2 className="w-4 h-4 text-[#1886ff] flex-shrink-0 mt-0.5"/> <div> <strong className="text-slate-900 font-bold">Definitive Legal Closure:</strong> Traceable loan remittance secures an official No Dues Certificate and closes the liability. </div> </li>
               </ul>
             </div>
 
@@ -181,71 +181,71 @@ export default function DefensePersonnelLoanDefaultActionClient() {
             <section id="military-rules" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
                 <Scale className="w-4 h-4 text-[#1886ff]"/>
-                <span>Military Jurisprudence &amp; Banking Regulations.</span>
+                <span>Military Jurisprudence &amp; Banking Regulations</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 1. Military Service Rules: Army Act vs. Civil Recovery
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Members of the Indian Armed Forces. This includes the Army. Navy. Air Force. Paramilitary forces like CRPF and BSF. Occasionally encounter severe debt stress from private loans or kin crises. harsh claims firms often exploit a soldier&apos. S discipline by threatening court-martial steps. Service dismissal. military arrest. </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Under Indian law. An unpaid loan is purely a civil contractual breach governed by the Indian Contract Act. 1872. Military courts-martial under the Army Act. 1950 apply strictly to service misconduct and disciplinary infractions. Never to civil ruin. Service personnel cannot be discharged or demoted for trade debt default. </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Additionally. Section 28 of the Army Act and Section 60(1)(g) of the CPC protect military pay and pensions from summary attachment. Once an late loan reaches 90-day NPA classification. RBI bank reserves rules encourage banks to settle a One-Time settlement rather than pursuing protracted lawsuits. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Members of the Indian Armed Forces, including the Army, Navy, Air Force, and paramilitary forces like CRPF and BSF, occasionally encounter severe debt stress from personal loans or family emergencies. Aggressive recovery agencies often exploit a soldier&apos;s discipline by threatening court-martial proceedings, service dismissal, or military arrest. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Under Indian law, an unpaid loan is purely a civil contractual breach governed by the Indian Contract Act, 1872. Military courts-martial under the Army Act, 1950 apply strictly to service misconduct and disciplinary infractions, never to civil insolvency. Service personnel cannot be discharged or demoted for commercial debt default. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Additionally, Section 28 of the Army Act and Section 60(1)(g) of the CPC protect military pay and pensions from summary attachment. Once an overdue loan reaches 90-day NPA classification, RBI provisioning rules encourage banks to negotiate a One-Time Settlement rather than pursuing protracted litigation. </p>
             </section>
 
             {/* SECTION 2: Financial Forensics & Settlement Math */}
             <section id="financial-forensics" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
                 <DollarSign className="w-4 h-4 text-[#1886ff]"/>
-                <span>Forensic Accounting.</span>
+                <span>Forensic Accounting</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 2. Financial Forensics: Principal vs. Inflated Penal Charges
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When installments default during field postings or health crises. Banking software rapidly inflates balances with 24% to 36% compound extra fees. Repetitive ₹500 NACH bounce penalties. Office fees. Swelling total claims 35% to 50% above actual borrowed main loan. </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> A audits isolates genuine remaining main loan from penal additions. Backed by authenticated hardship proofs. Bank credit boards grant 100% waivers on penalty charges and approve 40% to 55% main loan haircuts for final OTS deal closure. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When installments default during field postings or medical crises, banking software rapidly inflates balances with 24% to 36% compound penal interest, repetitive ₹500 NACH bounce penalties, and administrative fees, swelling total claims 35% to 50% above actual borrowed principal. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> A forensic audit isolates genuine unamortized principal from penal additions. Backed by authenticated hardship proofs, bank credit committees grant 100% waivers on penal charges and approve 40% to 55% principal haircuts for final compromise closure. </p>
 
               {/* Representative Calculation Card */}
               <div className="border border-slate-200/80 rounded-2xl overflow-hidden bg-white shadow-xs">
                 <div className="bg-slate-900 text-white p-4 flex items-center justify-between">
                   <div className="flex items-center gap-2">
                     <TrendingUp className="w-4 h-4 text-[#1886ff]"/>
-                    <span className="font-bold text-sm">agent Defense Personnel 180-Day NPA Settlement Breakdown.</span>
+                    <span className="font-bold text-sm">Representative Defense Personnel 180-Day NPA Settlement Breakdown</span>
                   </div>
-                  <span className="text-xs text-blue-300 font-mono">₹15 Lakh Baseline Claim.</span>
+                  <span className="text-xs text-blue-300 font-mono">₹15 Lakh Baseline Claim</span>
                 </div>
                 <div className="overflow-x-auto">
                   <table className="w-full text-xs sm:text-sm text-left border-collapse divide-x divide-slate-200/80">
                     <thead>
                       <tr className="bg-slate-100 text-slate-700 border-b border-slate-200 font-semibold">
-                        <th className="p-3">Financial Component.</th>
-                        <th className="p-3">Pre-Settlement Ledger.</th>
-                        <th className="p-3">Credit Committee Waiver.</th>
-                        <th className="p-3 text-right">Final Payable Amount.</th>
+                        <th className="p-3">Financial Component</th>
+                        <th className="p-3">Pre-Settlement Ledger</th>
+                        <th className="p-3">Credit Committee Waiver</th>
+                        <th className="p-3 text-right">Final Payable Amount</th>
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-slate-200/80 text-slate-600">
                       <tr>
-                        <td className="p-3 font-medium text-slate-900">remaining base loan.</td>
+                        <td className="p-3 font-medium text-slate-900">Unamortized Principal Balance</td>
                         <td className="p-3">₹10,50,000</td>
-                        <td className="p-3 text-emerald-600 font-semibold">45% Core Haircut (₹4,72,500).</td>
+                        <td className="p-3 text-emerald-600 font-semibold">45% Core Haircut (₹4,72,500)</td>
                         <td className="p-3 text-right font-bold text-slate-900">₹5,77,500</td>
                       </tr>
                       <tr>
-                        <td className="p-3 font-medium text-slate-900">Accrued Penal &amp. late rates.</td>
+                        <td className="p-3 font-medium text-slate-900">Accrued Penal &amp; Overdue Interest</td>
                         <td className="p-3">₹3,75,000</td>
-                        <td className="p-3 text-emerald-600 font-semibold">100% Complete Waiver.</td>
+                        <td className="p-3 text-emerald-600 font-semibold">100% Complete Waiver</td>
                         <td className="p-3 text-right font-bold text-slate-900">₹0</td>
                       </tr>
                       <tr>
-                        <td className="p-3 font-medium text-slate-900">NACH Bounces &amp. Late Surcharges.</td>
+                        <td className="p-3 font-medium text-slate-900">NACH Bounces &amp; Late Surcharges</td>
                         <td className="p-3">₹75,000</td>
-                        <td className="p-3 text-emerald-600 font-semibold">100% office Waiver.</td>
+                        <td className="p-3 text-emerald-600 font-semibold">100% Administrative Waiver</td>
                         <td className="p-3 text-right font-bold text-slate-900">₹0</td>
                       </tr>
                       <tr className="bg-blue-50/70 font-bold text-slate-900">
-                        <td className="p-3">Total OTS deal Evaluation.</td>
+                        <td className="p-3">Total Compromise Evaluation</td>
                         <td className="p-3 text-rose-600">₹15,00,000</td>
-                        <td className="p-3 text-emerald-700">₹9,22,500 Total Relief (61.5% Savings).</td>
-                        <td className="p-3 text-right text-[#1886ff] text-sm sm:text-base">₹5,77,500 Final OTS.</td>
+                        <td className="p-3 text-emerald-700">₹9,22,500 Total Relief (61.5% Savings)</td>
+                        <td className="p-3 text-right text-[#1886ff] text-sm sm:text-base">₹5,77,500 Final OTS</td>
                       </tr>
                     </tbody>
                   </table>
@@ -257,59 +257,59 @@ export default function DefensePersonnelLoanDefaultActionClient() {
             <section id="comparison-matrix" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
                 <Scale className="w-4 h-4 text-[#1886ff]"/>
-                <span>Strategic Assessment.</span>
+                <span>Strategic Assessment</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 3. Debt Resolution Pathways: Defense Personnel Comparison
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Evaluating debt relief options requires weighing legal safety against cost and service impact. An bank One-Time settlement delivers definitive closure and main loan relief while halting claims abuse. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Evaluating debt relief options requires weighing legal protection against cost and service impact. An institutional One-Time Settlement delivers definitive closure and principal relief while halting collection harassment. </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto bg-white shadow-xs">
                 <table className="w-full text-xs sm:text-sm text-left border-collapse divide-x divide-slate-200/80 min-w-[620px]">
                   <thead>
                     <tr className="bg-slate-100 text-slate-800 font-semibold border-b border-slate-200">
-                      <th className="p-3">Resolution Mechanism.</th>
-                      <th className="p-3">Financial Relief.</th>
-                      <th className="p-3">Service &amp; Legal Protection.</th>
-                      <th className="p-3">CIBIL Bureau Status.</th>
-                      <th className="p-3">Standard Timeline.</th>
+                      <th className="p-3">Resolution Mechanism</th>
+                      <th className="p-3">Financial Relief</th>
+                      <th className="p-3">Service &amp; Legal Protection</th>
+                      <th className="p-3">CIBIL Bureau Status</th>
+                      <th className="p-3">Standard Timeline</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-600">
                     <tr className="bg-blue-50/30">
-                      <td className="p-3 font-bold text-slate-900">One-Time settlement (OTS).</td>
-                      <td className="p-3 text-emerald-600 font-semibold">40% to 55% loan cut.</td>
-                      <td className="p-3">Full Legal Immunity &amp. Notice Withdrawal.</td>
-                      <td className="p-3 font-mono text-[11px]">Settled / Zero Balance.</td>
+                      <td className="p-3 font-bold text-slate-900">One-Time settlement (OTS)</td>
+                      <td className="p-3 text-emerald-600 font-semibold">40% to 55% Principal Waiver</td>
+                      <td className="p-3">Full Legal Immunity &amp; Notice Withdrawal</td>
+                      <td className="p-3 font-mono text-[11px]">Settled / Zero Balance</td>
                       <td className="p-3">30 to 60 Days</td>
                     </tr>
                     <tr>
-                      <td className="p-3 font-medium text-slate-900">Tenure Restructuring.</td>
-                      <td className="p-3 text-amber-600">0% main loan Haircut (Higher rates).</td>
-                      <td className="p-3">Conditional on Timely Servicing.</td>
-                      <td className="p-3 font-mono text-[11px]">Restructured Account.</td>
+                      <td className="p-3 font-medium text-slate-900">Tenure Restructuring</td>
+                      <td className="p-3 text-amber-600">0% Principal Haircut (Higher Interest)</td>
+                      <td className="p-3">Conditional on Timely Servicing</td>
+                      <td className="p-3 font-mono text-[11px]">Restructured Account</td>
                       <td className="p-3">45 to 90 Days</td>
                     </tr>
                     <tr>
-                      <td className="p-3 font-medium text-slate-900">Civil Court lawsuits.</td>
-                      <td className="p-3 text-rose-600">High Legal legal help Costs.</td>
-                      <td className="p-3">Adversarial Decrees &amp. Summons.</td>
-                      <td className="p-3 font-mono text-[11px]">Suit Filed / Wilful Default.</td>
+                      <td className="p-3 font-medium text-slate-900">Civil Court Litigation</td>
+                      <td className="p-3 text-rose-600">High Legal Representation Costs</td>
+                      <td className="p-3">Adversarial Decrees &amp; Summons</td>
+                      <td className="p-3 font-mono text-[11px]">Suit Filed / Wilful Default</td>
                       <td className="p-3">2 to 5 Years</td>
                     </tr>
                     <tr>
-                      <td className="p-3 font-medium text-slate-900">National Lok Adalat.</td>
-                      <td className="p-3 text-emerald-600">30% to 45% Mutual Haircut.</td>
-                      <td className="p-3">Non-Appealable Consent Award.</td>
-                      <td className="p-3 font-mono text-[11px]">Settled in Lok Adalat.</td>
-                      <td className="p-3">Quarterly Sittings.</td>
+                      <td className="p-3 font-medium text-slate-900">National Lok Adalat</td>
+                      <td className="p-3 text-emerald-600">30% to 45% Mutual Haircut</td>
+                      <td className="p-3">Non-Appealable Consent Award</td>
+                      <td className="p-3 font-mono text-[11px]">Settled in Lok Adalat</td>
+                      <td className="p-3">Quarterly Sittings</td>
                     </tr>
                     <tr>
-                      <td className="p-3 font-medium text-slate-900">Unmanaged Default.</td>
-                      <td className="p-3 text-rose-600">Exponential Penal growing.</td>
-                      <td className="p-3 text-rose-600">PSSA 25 / NI 138 Summons Risk.</td>
-                      <td className="p-3 font-mono text-[11px] text-rose-600">Written Off / late.</td>
-                      <td className="p-3">Indefinite Stress.</td>
+                      <td className="p-3 font-medium text-slate-900">Unmanaged Default</td>
+                      <td className="p-3 text-rose-600">Exponential Penal Compounding</td>
+                      <td className="p-3 text-rose-600">PSSA 25 / NI 138 Summons Risk</td>
+                      <td className="p-3 font-mono text-[11px] text-rose-600">Written Off / Delinquent</td>
+                      <td className="p-3">Indefinite Stress</td>
                     </tr>
                   </tbody>
                 </table>
@@ -320,34 +320,34 @@ export default function DefensePersonnelLoanDefaultActionClient() {
             <section id="cibil-security-clearance" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
                 <TrendingUp className="w-4 h-4 text-[#1886ff]"/>
-                <span>Credit Bureau Architecture &amp; Service Clearance.</span>
+                <span>Credit Bureau Architecture &amp; Service Clearance</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 4. CIBIL Bureau Dynamics &amp; Military Security Clearance
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Credit bureaus assess credit scores primarily based on payment history (35%) and use (30%). Loan defaults trigger consecutive 30. 60. 90+ DPD marks. Depressing credit scores by 130 to 200 points. </p>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> While money debts do not impact day-to-day duties. Pending court summonses can raise flags during sensitive intelligence or foreign deployment pledge screenings. An authorized settlement eliminates active default flags and allows rebuilding a 750+ score over 18 to 24 months. Under Section 21 of CICRA 2005. Paying the waived variance later converts the entry to &quot. Closed&quot. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Credit bureaus assess credit scores primarily based on payment history (35%) and utilization (30%). Loan defaults trigger consecutive 30, 60, and 90+ DPD marks, depressing credit scores by 130 to 200 points. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> While financial debts do not impact day-to-day duties, pending court summonses can raise flags during sensitive intelligence or foreign deployment security screenings. An authorized settlement eliminates active default flags and allows rebuilding a 750+ score over 18 to 24 months. Under Section 21 of CICRA 2005, paying the waived variance later converts the entry to &quot;Closed&quot;. </p>
             </section>
 
             {/* SECTION 5: Visual Infographic Asset Card */}
             <section id="infographic-overview" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
                 <Sparkles className="w-4 h-4 text-[#1886ff]"/>
-                <span>Visual Blueprint.</span>
+                <span>Visual Blueprint</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 5. Defense Personnel Loan Settlement Roadmap
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> This visual flowchart outlines the 4-step rules to shield defense personnel from unit contact. Protect salary rights. Secure sanctioned bank OTS deals. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> This visual flowchart outlines the 4-step framework to shield defense personnel from unit contact, protect salary rights, and secure sanctioned bank compromise settlements. </p>
 
               <div className="bg-white p-4 sm:p-6 rounded-2xl border border-slate-200/80 shadow-xs space-y-3">
                 <div className="relative aspect-video w-full rounded-xl overflow-hidden border border-slate-100 bg-slate-100">
                   <Image src="/images/infographics/defense-personnel-loan-default-action.jpg" alt="Defense Personnel Loan Default Legal Resolution Framework Flowchart" fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 75vw, 900px" className="object-contain hover:scale-[1.01] transition-transform duration-300" priority/>
                 </div>
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between text-xs text-slate-500 pt-1 gap-2">
-                  <span>Official CredSettle Armed Forces Legal Defense Architecture • RBI &amp; Army Act Compliant.</span>
+                  <span>Official CredSettle Armed Forces Legal Defense Architecture • RBI &amp; Army Act Compliant</span>
                   <a href="/images/infographics/defense-personnel-loan-default-action.jpg" target="_blank" rel="noopener noreferrer" className="text-[#1886ff] hover:underline font-bold inline-flex items-center gap-1">
-                    <span>View High-Resolution Blueprint.</span>
+                    <span>View High-Resolution Blueprint</span>
                     <ExternalLink className="w-3.5 h-3.5"/>
                   </a>
                 </div>
@@ -358,12 +358,12 @@ export default function DefensePersonnelLoanDefaultActionClient() {
             <section id="step-by-step-sop" className="scroll-target space-y-6">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
                 <FileText className="w-4 h-4 text-[#1886ff]"/>
-                <span>Standard Operating Procedure.</span>
+                <span>Standard Operating Procedure</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 6. Six-Stage SOP: Negotiating Armed Forces Loan Relief
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Resolving debt as a defense staff requires strict bank protocol. Follow this 6-stage rules to achieve an formal settlement without third-party interference. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Resolving debt as a defense employee requires strict institutional protocol. Follow this 6-stage rules to achieve an formal settlement without third-party interference. </p>
 
               <div className="space-y-4">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -371,7 +371,7 @@ export default function DefensePersonnelLoanDefaultActionClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-xs font-black">1</span>
                     Stage 1: Forensic Loan Account Audit
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Audit loan records from disbursal. Segregate core remaining main loan from 24% to 36% compound extra fees and bounce charges to establish the true net baseline. </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Audit loan statements from disbursal. Segregate core unamortized principal from 24% to 36% compound penal interest and bounce charges to establish the true net baseline. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -379,7 +379,7 @@ export default function DefensePersonnelLoanDefaultActionClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-xs font-black">2</span>
                     Stage 2: Military Hardship Dossier Compilation
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Assemble checked hardship paperwork including deployment records. Dependent health bills. Pay slips proving genuine non-wilful inability to repay. </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Assemble verified hardship documentation including deployment records, dependent medical bills, and pay slips proving genuine non-wilful inability to repay. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -387,7 +387,7 @@ export default function DefensePersonnelLoanDefaultActionClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-xs font-black">3</span>
                     Stage 3: Legal Representation &amp; Anti-Harassment Notice
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Serve formal legal notice to the bank zonal head and PNO citing RBI rules. Expressly prohibiting calls or visits to military units or commanding agents. </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Serve formal legal notice to the bank zonal head and PNO citing RBI guidelines, expressly prohibiting calls or visits to military units or commanding officers. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -395,7 +395,7 @@ export default function DefensePersonnelLoanDefaultActionClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-xs font-black">4</span>
                     Stage 4: Bilateral Credit Committee Negotiations
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Present the hardship petition before the credit boards. Leveraging salary safety under Section 28 Army Act to secure 100% penal waiver and a 40% to 55% haircut. </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Present the hardship petition before the credit committee, leveraging salary protection under Section 28 Army Act to secure 100% penal waiver and a 40% to 55% haircut. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -403,7 +403,7 @@ export default function DefensePersonnelLoanDefaultActionClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-xs font-black">5</span>
                     Stage 5: Official Settlement Sanction Letter Vetting
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Verify that the sanction letter is on formal bank letterhead with authorized email provenance. Correct tranche schedules. An explicit legal notice withdrawal clause. </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> Verify that the sanction letter is on official bank letterhead with authorized email provenance, correct tranche schedules, and an explicit legal notice withdrawal clause. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -411,7 +411,7 @@ export default function DefensePersonnelLoanDefaultActionClient() {
                     <span className="w-6 h-6 rounded-full bg-blue-100 text-[#1886ff] flex items-center justify-center text-xs font-black">6</span>
                     Stage 6: Direct Remittance &amp; No Dues Certificate
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> pay the OTS deal sum straight into your loan account via RTGS/NEFT. Verify ledger balance zeroing. Receive the formal No Dues letter within 30 to 45 days. </p>
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed"> pay the compromise sum directly into your loan account via RTGS/NEFT, verify ledger balance zeroing, and receive the official No Dues Certificate within 30 to 45 days. </p>
                 </div>
               </div>
             </section>
@@ -420,44 +420,44 @@ export default function DefensePersonnelLoanDefaultActionClient() {
             <section id="statutory-defense" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
                 <Gavel className="w-4 h-4 text-[#1886ff]"/>
-                <span>Statutory Protections.</span>
+                <span>Statutory Protections</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 7. Statutory Defense: PSSA 25, NI 138 &amp; Commanding Officer Rights
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When default reaches 90 to 120 days. Banks issue legal notices. Timely legal replies protect your service standing and redirect claims toward settlement. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> When delinquency reaches 90 to 120 days, banks issue legal notices. Timely legal replies protect your service standing and redirect disputes toward settlement. </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-1">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
                   <div className="flex items-center gap-2 text-blue-700 font-bold text-sm">
                     <FileText className="w-4 h-4"/>
-                    <span>Section 25 PSSA NACH Notice.</span>
+                    <span>Section 25 PSSA NACH Notice</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> Issued for bounced electronic mandates. Serving a formal reply within 30 days proving debt stress refutes penal intent and steers steps into OTS deals. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Issued for bounced electronic mandates. Serving a formal reply within 30 days proving financial distress refutes criminal intent and steers proceedings into compromise settlement. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
                   <div className="flex items-center gap-2 text-indigo-700 font-bold text-sm">
                     <Scale className="w-4 h-4"/>
-                    <span>Section 138 NI Act Cheque Notice.</span>
+                    <span>Section 138 NI Act Cheque Notice</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> Served for dishonored pledge cheques. A reply within 15 days establishing that cheques were undated pledge pledge bars summary magistrate steps. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Served for dishonored security cheques. A reply within 15 days establishing that cheques were undated security collateral bars summary magistrate proceedings. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
                   <div className="flex items-center gap-2 text-purple-700 font-bold text-sm">
                     <Gavel className="w-4 h-4"/>
-                    <span>Arbitration Section 21 &amp; Section 12(5).</span>
+                    <span>Arbitration Section 21 &amp; Section 12(5)</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> Under Supreme Court rulings in Perkins Eastman and TRF Ltd. Unilateral judge appointments by banks are void. Filing Section 12(5) objections stalls steps. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Under Supreme Court rulings in Perkins Eastman and TRF Ltd, unilateral arbitrator appointments by banks are void. Filing Section 12(5) objections stalls proceedings. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
                   <div className="flex items-center gap-2 text-emerald-700 font-bold text-sm">
                     <ShieldCheck className="w-4 h-4"/>
-                    <span>Commanding Officer Shield &amp; RBI Rules.</span>
+                    <span>Commanding Officer Shield &amp; RBI Rules</span>
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed"> RBI Fair Practices Code strictly prohibits contacting employers or military units. Sending claims letters to cantonments is a severe breach subject to agents penalties. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> RBI Fair Practices Code strictly prohibits contacting employers or military units. Sending recovery letters to cantonments is a severe breach subject to ombudsman penalties. </p>
                 </div>
               </div>
             </section>
@@ -466,41 +466,41 @@ export default function DefensePersonnelLoanDefaultActionClient() {
             <section id="escalation-matrix" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
                 <Building2 className="w-4 h-4 text-[#1886ff]"/>
-                <span>Statutory Escalation Protocol.</span>
+                <span>Statutory Escalation Protocol</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 8. Three-Tier Escalation Matrix for Defense Personnel
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> If claims firms harass your unit or refuse settlement. Escalate through the 3-tier RBI redressal rules. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> If collection agencies harass your unit or refuse settlement, escalate through the 3-tier regulatory redressal framework. </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto bg-white shadow-xs">
                 <table className="w-full text-xs sm:text-sm text-left border-collapse divide-x divide-slate-200/80 min-w-[550px]">
                   <thead>
                     <tr className="bg-slate-100 text-slate-800 font-semibold border-b border-slate-200">
                       <th className="p-3">Grievance Tier</th>
-                      <th className="p-3">Designated Banking Authority.</th>
+                      <th className="p-3">Designated Banking Authority</th>
                       <th className="p-3">Turnaround Time</th>
-                      <th className="p-3">pay &amp; Scope of Intervention.</th>
+                      <th className="p-3">Remit &amp; Scope of Intervention</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-600">
                     <tr>
                       <td className="p-3 font-bold text-slate-900">Level 1: GRO</td>
-                      <td className="p-3">Bank Grievance Redressal agents.</td>
-                      <td className="p-3 font-mono">7 to 10 Working Days.</td>
-                      <td className="p-3">Investigates banned abuse. Removes disputed penal fees. And transfers file to settlement teams.</td>
+                      <td className="p-3">Bank Grievance Redressal Officer</td>
+                      <td className="p-3 font-mono">7 to 10 Working Days</td>
+                      <td className="p-3">Investigates unauthorized harassment, removes disputed penal fees, and transfers file to settlement desk.</td>
                     </tr>
                     <tr>
                       <td className="p-3 font-bold text-slate-900">Level 2: PNO</td>
-                      <td className="p-3">main loan Nodal agents (Bank HQ).</td>
-                      <td className="p-3 font-mono">14 to 21 Working Days.</td>
-                      <td className="p-3">Intervenes on unit contacts. Cancels claims mandates. And oversees credit boards waivers.</td>
+                      <td className="p-3">Principal Nodal Officer (Bank HQ)</td>
+                      <td className="p-3 font-mono">14 to 21 Working Days</td>
+                      <td className="p-3">Intervenes on unit communications, cancels collection mandates, and oversees credit committee waivers.</td>
                     </tr>
                     <tr className="bg-blue-50/40">
-                      <td className="p-3 font-bold text-slate-900">Level 3: RBI agents.</td>
-                      <td className="p-3">Reserve Bank Integrated agents.</td>
-                      <td className="p-3 font-mono">30 Days Post-PNO.</td>
-                      <td className="p-3">Binding adjudication via cms.rbi.org.in with power to award damages for code violations and abuse.</td>
+                      <td className="p-3 font-bold text-slate-900">Level 3: RBI Ombudsman</td>
+                      <td className="p-3">Reserve Bank Integrated Ombudsman</td>
+                      <td className="p-3 font-mono">30 Days Post-PNO</td>
+                      <td className="p-3">Binding adjudication via cms.rbi.org.in with power to award damages for code violations and harassment.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -511,59 +511,59 @@ export default function DefensePersonnelLoanDefaultActionClient() {
             <section id="chronological-timeline" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
                 <Clock className="w-4 h-4 text-[#1886ff]"/>
-                <span>Procedural Milestones.</span>
+                <span>Procedural Milestones</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 9. Procedural Default Timeline: Default to Resolution
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Identifying your loan default stage helps pinpoint the optimal window for settling deep main loan haircuts. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Identifying your loan default stage helps pinpoint the optimal window for negotiating deep principal haircuts. </p>
 
               <div className="border border-slate-200/80 rounded-2xl overflow-x-auto bg-white shadow-xs">
                 <table className="w-full text-xs sm:text-sm text-left border-collapse divide-x divide-slate-200/80 min-w-[550px]">
                   <thead>
                     <tr className="bg-slate-100 text-slate-800 font-semibold border-b border-slate-200">
-                      <th className="p-3">Timeline Interval.</th>
-                      <th className="p-3">Asset Classification.</th>
-                      <th className="p-3">Bank Recovery Actions.</th>
-                      <th className="p-3">Recommended Borrower Strategy.</th>
+                      <th className="p-3">Timeline Interval</th>
+                      <th className="p-3">Asset Classification</th>
+                      <th className="p-3">Bank Recovery Actions</th>
+                      <th className="p-3">Recommended Borrower Strategy</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-slate-200/80 text-slate-600">
                     <tr>
                       <td className="p-3 font-bold text-slate-900">Day 1 to 30</td>
                       <td className="p-3 font-mono text-[11px]">SMA-0</td>
-                      <td className="p-3">Automated payment reminders and soft telephonic claims calls.</td>
-                      <td className="p-3">Assess cashflow. avoid taking fresh high-rates app loans.</td>
+                      <td className="p-3">Automated payment reminders and soft telephonic collection calls.</td>
+                      <td className="p-3">Assess cashflow; avoid taking fresh high-interest app loans.</td>
                     </tr>
                     <tr>
                       <td className="p-3 font-bold text-slate-900">Day 31 to 60</td>
                       <td className="p-3 font-mono text-[11px]">SMA-1</td>
                       <td className="p-3">Escalated telecaller outreach and preliminary loan recall notices.</td>
-                      <td className="p-3">Compile health. Deployment. And military hardship paperwork.</td>
+                      <td className="p-3">Compile medical, deployment, and military hardship documentation.</td>
                     </tr>
                     <tr>
                       <td className="p-3 font-bold text-slate-900">Day 61 to 90</td>
                       <td className="p-3 font-mono text-[11px]">SMA-2</td>
-                      <td className="p-3">Final pre-NPA warnings and third-party claims firm allocation.</td>
+                      <td className="p-3">Final pre-NPA warnings and third-party recovery agency allocation.</td>
                       <td className="p-3">Assert RBI Fair Practices Code rights against abusive telecallers.</td>
                     </tr>
                     <tr className="bg-amber-50/50">
                       <td className="p-3 font-bold text-slate-900">Day 91 to 120</td>
-                      <td className="p-3 font-mono text-[11px] text-amber-700 font-bold">NPA Classification.</td>
-                      <td className="p-3">strict loan bank reserves. transfer to Stressed Asset Desk.</td>
-                      <td className="p-3">Initiate audits and engage debt settlement specialists.</td>
+                      <td className="p-3 font-mono text-[11px] text-amber-700 font-bold">NPA Classification</td>
+                      <td className="p-3">Mandatory loan provisioning; transfer to Stressed Asset Desk.</td>
+                      <td className="p-3">Initiate forensic audit and engage debt settlement specialists.</td>
                     </tr>
                     <tr className="bg-blue-50/40">
                       <td className="p-3 font-bold text-slate-900">Day 121 to 180</td>
-                      <td className="p-3 font-mono text-[11px] text-[#1886ff] font-bold">Prime OTS Window.</td>
-                      <td className="p-3">Issuance of Section 25 PSSA notices or hearing demand letters.</td>
-                      <td className="p-3 font-bold text-slate-900">settle with credit boards for 40% to 55% waiver.</td>
+                      <td className="p-3 font-mono text-[11px] text-[#1886ff] font-bold">Prime OTS Window</td>
+                      <td className="p-3">Issuance of Section 25 PSSA notices or arbitration demand letters.</td>
+                      <td className="p-3 font-bold text-slate-900">Negotiate with credit committee for 40% to 55% waiver.</td>
                     </tr>
                     <tr>
-                      <td className="p-3 font-bold text-slate-900">Month 6 and Beyond.</td>
-                      <td className="p-3 font-mono text-[11px]">Write-off / ARC Transfer.</td>
-                      <td className="p-3">Ex-parte arbitral filings or debt sale to Asset Reconstruction firms.</td>
-                      <td className="p-3">pay sanctioned OTS deal sum and obtain stamped NDC.</td>
+                      <td className="p-3 font-bold text-slate-900">Month 6 and Beyond</td>
+                      <td className="p-3 font-mono text-[11px]">Write-off / ARC Transfer</td>
+                      <td className="p-3">Ex-parte arbitral filings or debt sale to Asset Reconstruction Companies.</td>
+                      <td className="p-3">Remit sanctioned compromise sum and obtain stamped NDC.</td>
                     </tr>
                   </tbody>
                 </table>
@@ -574,12 +574,12 @@ export default function DefensePersonnelLoanDefaultActionClient() {
             <section id="specialized-scenarios" className="scroll-target space-y-4">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-[#1886ff]">
                 <Briefcase className="w-4 h-4 text-[#1886ff]"/>
-                <span>Complex Scenarios.</span>
+                <span>Complex Scenarios</span>
               </div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 10. Specialized Military Scenarios: Postings &amp; ARCs
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Tailoring debt relief plans to unique military conditions ensures legal safety and money claims. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Tailoring debt resolution strategies to unique military conditions ensures legal protection and financial recovery. </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-1">
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -587,7 +587,7 @@ export default function DefensePersonnelLoanDefaultActionClient() {
                     <Shield className="w-4 h-4 text-[#1886ff]"/>
                     Forward &amp; High-Altitude Postings
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed"> Under the Indian Soldiers (lawsuits) Act. 1925. Legal steps against personnel serving in remote or daily work zones can be formally stayed. This provides time for OTS deals. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Under the Indian Soldiers (Litigation) Act, 1925, legal proceedings against personnel serving in remote or operational zones can be formally stayed, providing time for compromise settlement. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -595,7 +595,7 @@ export default function DefensePersonnelLoanDefaultActionClient() {
                     <Building2 className="w-4 h-4 text-emerald-600"/>
                     Defence Salary (DSP) Account Liens
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed"> Unilateral debit freezes on salary accounts violate Section 28 Army Act and RBI norms. Legal legal help promptly revokes banned bank liens. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> Unilateral debit freezes on salary accounts violate Section 28 Army Act and RBI norms. Legal representation promptly revokes unauthorized bank liens. </p>
                 </div>
 
                 <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
@@ -611,7 +611,7 @@ export default function DefensePersonnelLoanDefaultActionClient() {
                     <AlertTriangle className="w-4 h-4 text-amber-600"/>
                     ARC Portfolio Assignments
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed"> When debts are transferred to Asset Reconstruction firms at deep discounts. Skilled negotiators routinely secure deals exceeding 60% relief. </p>
+                  <p className="text-xs text-slate-600 leading-relaxed"> When debts are transferred to Asset Reconstruction Companies at deep discounts, experienced negotiators routinely secure settlements exceeding 60% relief. </p>
                 </div>
               </div>
             </section>
@@ -630,7 +630,7 @@ export default function DefensePersonnelLoanDefaultActionClient() {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight leading-snug">
                 Frequently Asked Questions: Defense Loan Default
               </h2>
-              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Clear. checked answers addressing critical questions on military loan defaults. Service regulations. settlement protocols. </p>
+              <p className="text-sm md:text-base text-slate-700 leading-relaxed"> Clear, verified answers addressing critical questions on military loan defaults, service regulations, and settlement protocols. </p>
 
               <div className="space-y-3 pt-2">
                 {faqs.map((faq, index) => {
@@ -654,18 +654,18 @@ export default function DefensePersonnelLoanDefaultActionClient() {
             <section id="regulatory-sources" className="scroll-target space-y-4 pt-4 border-t border-slate-200">
               <div className="flex items-center gap-2 text-xs font-black uppercase tracking-wider text-slate-500">
                 <BookOpen className="w-4 h-4"/>
-                <span>Statutory Citations &amp; Legal Authorities.</span>
+                <span>Statutory Citations &amp; Legal Authorities</span>
               </div>
               <h2 className="text-base sm:text-lg font-bold text-slate-900">
                 Official Regulatory Framework &amp; Military Citations
               </h2>
               <ul className="space-y-2 text-xs text-slate-600 leading-relaxed list-disc pl-5">
-                <li> <strong>The Army Act. 1950 (Act No. 46 of 1950):</strong> Section 28. Immunity from Arrest for Debt and safety of Military Pay. </li>
-                <li> <strong>Indian Soldiers (lawsuits) Act. 1925 (Act No. 4 of 1925):</strong> safety of Soldiers in Court lawsuits and Suspension of steps. </li>
-                <li> <strong>Code of Civil steps. 1908 (CPC):</strong> Section 60(1)(g). Inviolable Exemption of Military Stipends and Pensions from Attachment. </li>
+                <li> <strong>The Army Act, 1950 (Act No. 46 of 1950):</strong> Section 28, Immunity from Arrest for Debt and Protection of Military Pay. </li>
+                <li> <strong>Indian Soldiers (Litigation) Act, 1925 (Act No. 4 of 1925):</strong> Protection of Soldiers in Court Litigation and Suspension of Proceedings. </li>
+                <li> <strong>Code of Civil Procedure, 1908 (CPC):</strong> Section 60(1)(g), Inviolable Exemption of Military Stipends and Pensions from Attachment. </li>
                 <li> <strong>Reserve Bank of India (RBI):</strong> Master Direction on Fair Practices Code for Banks and NBFCs (Updated 2026). </li>
-                <li> <strong>Payment and settlement Systems Act. 2007:</strong> Section 25. Rules Governing Electronic Mandate Dishonour. </li>
-                <li> <strong>Hearing and talks Act. 1996:</strong> Section 12(5) and Section 21. Ineligibility of Unilateral Arbitrators (Perkins Eastman / TRF Ltd). </li>
+                <li> <strong>Payment and Settlement Systems Act, 2007:</strong> Section 25, Framework Governing Electronic Mandate Dishonour. </li>
+                <li> <strong>Arbitration and Conciliation Act, 1996:</strong> Section 12(5) and Section 21, Ineligibility of Unilateral Arbitrators (Perkins Eastman / TRF Ltd). </li>
               </ul>
 
               {/* 6 Outbound Authority Badges */}
@@ -673,27 +673,27 @@ export default function DefensePersonnelLoanDefaultActionClient() {
                 <span className="text-xs font-bold text-slate-700 block mb-2">Verified Government &amp; Regulatory Portals:</span>
                 <div className="flex flex-wrap gap-2">
                   <a href="https://www.rbi.org.in" target="_blank" rel="noopener noreferrer" className="text-[11px] px-2.5 py-1 rounded-lg bg-blue-50 hover:bg-blue-100 text-[#1886ff] transition-colors font-medium border border-blue-200 inline-flex items-center gap-1">
-                    <span>Reserve Bank of India.</span>
+                    <span>Reserve Bank of India</span>
                     <ExternalLink className="w-3 h-3"/>
                   </a>
                   <a href="https://cms.rbi.org.in" target="_blank" rel="noopener noreferrer" className="text-[11px] px-2.5 py-1 rounded-lg bg-blue-50 hover:bg-blue-100 text-[#1886ff] transition-colors font-medium border border-blue-200 inline-flex items-center gap-1">
-                    <span>RBI Integrated Ombudsman.</span>
+                    <span>RBI Integrated Ombudsman</span>
                     <ExternalLink className="w-3 h-3"/>
                   </a>
                   <a href="https://www.cibil.com" target="_blank" rel="noopener noreferrer" className="text-[11px] px-2.5 py-1 rounded-lg bg-blue-50 hover:bg-blue-100 text-[#1886ff] transition-colors font-medium border border-blue-200 inline-flex items-center gap-1">
-                    <span>TransUnion CIBIL India.</span>
+                    <span>TransUnion CIBIL India</span>
                     <ExternalLink className="w-3 h-3"/>
                   </a>
                   <a href="https://www.indiacode.nic.in" target="_blank" rel="noopener noreferrer" className="text-[11px] px-2.5 py-1 rounded-lg bg-blue-50 hover:bg-blue-100 text-[#1886ff] transition-colors font-medium border border-blue-200 inline-flex items-center gap-1">
-                    <span>India Code Statutory Repository.</span>
+                    <span>India Code Statutory Repository</span>
                     <ExternalLink className="w-3 h-3"/>
                   </a>
                   <a href="https://nalsa.gov.in" target="_blank" rel="noopener noreferrer" className="text-[11px] px-2.5 py-1 rounded-lg bg-blue-50 hover:bg-blue-100 text-[#1886ff] transition-colors font-medium border border-blue-200 inline-flex items-center gap-1">
-                    <span>National Legal Services Authority.</span>
+                    <span>National Legal Services Authority</span>
                     <ExternalLink className="w-3 h-3"/>
                   </a>
                   <a href="https://cybercrime.gov.in" target="_blank" rel="noopener noreferrer" className="text-[11px] px-2.5 py-1 rounded-lg bg-blue-50 hover:bg-blue-100 text-[#1886ff] transition-colors font-medium border border-blue-200 inline-flex items-center gap-1">
-                    <span>National Cyber Crime Portal.</span>
+                    <span>National Cyber Crime Portal</span>
                     <ExternalLink className="w-3 h-3"/>
                   </a>
                 </div>
@@ -752,17 +752,17 @@ export default function DefensePersonnelLoanDefaultActionClient() {
                   <Link href="/author/ashish-jhangra" className="text-sm font-bold text-slate-900 hover:text-[#1886ff] transition-colors block">
                     Ashish Jhangra
                   </Link>
-                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp. Debt relief expert. </p>
+                  <p className="text-[11px] font-semibold text-[#1886ff]"> Legal &amp; Debt Resolution Professional. </p>
                 </div>
               </div>
-              <p className="text-xs text-slate-600 leading-relaxed"> Specialist in armed forces debt defense. Banking compliance. OTS deal. skilled in protecting service personnel against unlawful claims conduct. </p>
+              <p className="text-xs text-slate-600 leading-relaxed"> Specialist in armed forces debt defense, banking compliance, and compromise resolution. Experienced in protecting service personnel against unlawful collection conduct. </p>
               <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-500">
                 <Link href="/author/ashish-jhangra" className="text-[#1886ff] hover:underline font-semibold flex items-center gap-1">
-                  <span>View Author Profile.</span>
+                  <span>View Author Profile</span>
                   <ArrowRight className="w-3 h-3"/>
                 </Link>
                 <span className="text-emerald-600 font-bold flex items-center gap-1">
-                  <ShieldCheck className="w-3 h-3"/> CredSettle Panel.
+                  <ShieldCheck className="w-3 h-3"/> CredSettle Panel
                 </span>
               </div>
             </div>
@@ -771,10 +771,10 @@ export default function DefensePersonnelLoanDefaultActionClient() {
             <div className="rounded-3xl p-6 text-white text-center space-y-4 shadow-md relative overflow-hidden" style={{ backgroundColor: '#2452ae' }}>
               <div className="space-y-1 text-center">
                 <span className="text-xs font-black uppercase tracking-wider text-blue-200 bg-white/10 px-3 py-1 rounded-full inline-block mb-1">
-                  CONFIDENTIAL DEFENSE LEGAL ADVICE.
+                  CONFIDENTIAL DEFENSE LEGAL ADVICE
                 </span>
-                <p className="text-lg md:text-xl font-bold text-white leading-snug"> Military Loan Default or claims Threat? </p>
-                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal"> Halt claims calls to your unit. Respond to legal notices. settle up to 55% waivers straight with bank credit boards. </p>
+                <p className="text-lg md:text-xl font-bold text-white leading-snug"> Military Loan Default or Collection Threat? </p>
+                <p className="text-blue-100 text-xs sm:text-sm mt-2 leading-relaxed font-normal"> Halt recovery calls to your unit, respond to legal notices, and negotiate up to 55% waivers directly with bank credit committees. </p>
               </div>
               <Link href="/contact" className="block w-full bg-white text-blue-900 hover:text-[#1886ff] py-3 px-4 rounded-full font-bold text-sm hover:bg-slate-50 transition-all shadow-md">
                 Confidential Legal Advice for Defense Personnel
@@ -783,44 +783,44 @@ export default function DefensePersonnelLoanDefaultActionClient() {
                 <div className="flex items-center gap-1">
                   <Phone className="w-3 h-3 text-blue-200"/>
                   <a href="tel:+918800226635" className="hover:underline font-bold text-white">
-                    Call: +91-8800226635.
+                    Call: +91-8800226635
                   </a>
                 </div>
                 <div className="flex items-center gap-1 text-[10px] text-blue-300">
                   <Lock className="w-3 h-3"/>
-                  <span>100% Confidential • Defense Service Protection.</span>
+                  <span>100% Confidential • Defense Service Protection</span>
                 </div>
               </div>
             </div>
 
             {/* Card 3: CredSettle Trust Badges */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
-              <p className="font-bold text-slate-900 text-sm">The CredSettle Commitment.</p>
+              <p className="font-bold text-slate-900 text-sm">The CredSettle Commitment</p>
               <ul className="space-y-2 text-slate-600">
-                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Unit rights:</strong> Complete safety against military station contact.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Unit Confidentiality:</strong> Complete protection against military station contact.</span> </li>
                 <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Direct Bank Remittance:</strong> No intermediate third-party payment custody.</span> </li>
-                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>RBI &amp. Army Act Compliance:</strong> Rigorous legal enforcement.</span> </li>
-                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>formal No Dues letter:</strong> Guaranteed stamped bank closure letter.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>RBI &amp; Army Act Compliance:</strong> Rigorous statutory enforcement.</span> </li>
+                <li className="flex items-start gap-2"> <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0 mt-0.5"/> <span><strong>Official No Dues Certificate:</strong> Guaranteed stamped bank closure letter.</span> </li>
               </ul>
             </div>
 
             {/* Card 4: Related Guides */}
             <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-5 space-y-3 text-xs">
-              <p className="font-bold text-slate-900 text-sm">Related Legal Guides.</p>
+              <p className="font-bold text-slate-900 text-sm">Related Legal Guides</p>
               <div className="space-y-2.5">
                 <Link href="/does-loan-settlement-affect-government-job" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Does Loan settlement Affect state Job? </p>
-                  <span className="text-[10px] text-slate-400 mt-1 block">Service rules &amp; clearance guide &rarr;.</span>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Does Loan Settlement Affect Government Job? </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Service rules &amp; clearance guide &rarr;</span>
                 </Link>
 
                 <Link href="/bank-calling-references-and-family-members" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
-                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Bank Calling kin &amp. Workplace Contacts. </p>
-                  <span className="text-[10px] text-slate-400 mt-1 block">Stop unauthorized calls guide &rarr;.</span>
+                  <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Bank Calling Family &amp; Workplace Contacts. </p>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Stop unauthorized calls guide &rarr;</span>
                 </Link>
 
                 <Link href="/convert-settled-status-to-closed" className="block p-2.5 rounded-xl border border-slate-100 hover:border-blue-200 hover:bg-blue-50/50 transition-colors group">
                   <p className="font-bold text-slate-800 group-hover:text-[#1886ff] transition-colors leading-snug"> Convert Settled Loan to Closed Status. </p>
-                  <span className="text-[10px] text-slate-400 mt-1 block">Clean CIBIL credit report &rarr;.</span>
+                  <span className="text-[10px] text-slate-400 mt-1 block">Clean CIBIL credit report &rarr;</span>
                 </Link>
               </div>
             </div>

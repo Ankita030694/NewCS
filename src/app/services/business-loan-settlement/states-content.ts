@@ -31,7 +31,7 @@ export const statesContent: Record<string, StateContent> = {
     stateName: 'Maharashtra',
     slug: 'maharashtra',
     title: 'Business Loan Settlement in Maharashtra | CredSettle',
-    metaDescription: 'Expert business loan settlement in Maharashtra. Get RBI-compliant OTS solutions for SMEs and MSMEs in Mumbai and Pune. Settle debt and stop harassment.',
+    metaDescription: 'Expert business loan settlement in Maharashtra. Get RBI-compliant OTS solutions for SMEs, MSMEs across Mumbai, Pune. Settle debt and stop harassment.',
     heroTitle: 'Business Loan Settlement in Maharashtra - Protect Your Enterprise',
     heroDescription: 'Professional business loan settlement in Maharashtra. Settle dues, protect assets, and discharge guarantees under RBI rules.',
     ...generateBusinessLoanContent('maharashtra') as any,
@@ -41,7 +41,7 @@ export const statesContent: Record<string, StateContent> = {
         answer: 'Yes, secured business loans can be settled in Maharashtra. CredSettle works with lenders to release your assets as part of the agreement. Most lenders prefer a settlement over lengthy court cases.'
       },
       {
-        question: 'Will settlement discharge director guarantees in Mumbai and Pune?',
+        question: 'Will settlement discharge director guarantees in Mumbai/Pune?',
         answer: 'Yes. We negotiate director guarantee discharge into the settlement terms. This protects your personal assets and credit score.'
       },
       {
@@ -63,7 +63,7 @@ export const statesContent: Record<string, StateContent> = {
     stateName: 'Karnataka',
     slug: 'karnataka',
     title: 'Business Loan Settlement in Karnataka | CredSettle',
-    metaDescription: 'Expert business loan settlement in Karnataka. RBI-compliant OTS for startups and SMEs in Bangalore and Mysore. Protect assets and settle debt.',
+    metaDescription: 'Expert business loan settlement in Karnataka. RBI-compliant OTS for startups, SMEs across Bangalore, Mysore. Protect assets and settle debt.',
     heroTitle: 'Business Loan Settlement in Karnataka - Rebuild with Confidence',
     heroDescription: 'Professional settlement services for Karnataka businesses. Resolve debt and protect company assets with legal help.',
     ...generateBusinessLoanContent('karnataka') as any,
@@ -157,7 +157,7 @@ export function generateDefaultContent(stateName: string, slug: string): StateCo
       },
       {
         question: `Which lenders do you work with in ${stateName}?`,
-        answer: `We work with all major banks and NBFCs in ${stateName}, including SBI, HDFC, ICICI, Axis Bank, and leading non-banking lenders.`
+        answer: `We work with all major banks and NBFCs in ${stateName}, including SBI, HDFC, ICICI, Axis Bank, and leading non-banking Our experience spans diverse lender types, ensuring effective negotiation for any business loan situation.`
       }
     ],
     keywords: comprehensiveContent.keywords || [`business loan settlement ${stateName}`, `SME loan settlement ${stateName}`, `MSME debt settlement ${stateName}`, `business OTS ${stateName}`, `RBI compliant business settlement`],

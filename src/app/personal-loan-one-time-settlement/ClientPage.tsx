@@ -9,18 +9,18 @@ export default function ClientPage() {
         </div>
         <div className="max-w-4xl mx-auto relative z-10 text-center">
           <span className="inline-block py-1.5 px-4 rounded-full bg-blue-500/20 text-blue-200 text-xs font-bold mb-4 tracking-widest uppercase border border-blue-400/30">
-            One-Time Settlement (OTS).
+            One-Time Settlement (OTS)
           </span>
           <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
             Personal Loan One-Time Settlement (OTS) in India
           </h1>
-          <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto"> Close your own loan forever through a legally binding One-Time closure. Clear unpaid balances. Halt legal notices. receive your No Dues Certificate. </p>
+          <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto"> Close your personal loan forever through a legally binding One-Time Settlement. Clear unpaid balances, halt legal notices, and receive your No Dues Certificate. </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="bg-[#007AFF] hover:bg-blue-600 text-white font-bold py-4 px-8 rounded-full transition-all shadow-lg text-lg">
               Explore One-Time Settlement
             </Link>
             <a href="tel:+918800226635" className="bg-white text-[#0C2756] hover:bg-gray-100 font-bold py-4 px-8 rounded-full transition-all shadow-lg text-lg flex items-center justify-center">
-              Call +91 8800226635.
+              Call +91 8800226635
             </a>
           </div>
         </div>
@@ -33,7 +33,7 @@ export default function ClientPage() {
               What is a Personal Loan One-Time Settlement (OTS)?
             </h2>
             <div className="prose max-w-none text-gray-700 space-y-4 leading-relaxed">
-              <p> A One-Time closure (OTS) is an valid deal contract executed between a defaulting clients and a lending institution. Under an approved OTS. The bank agrees to accept a greatly reduced lump sum amount in full satisfaction of the entire loan risk. Forgiving the residual balance. </p>
+              <p> A One-Time Settlement (OTS) is an official compromise contract executed between a defaulting borrower and a lending institution. Under an approved OTS, the bank agrees to accept a significantly reduced lump sum amount in full satisfaction of the entire loan liability, forgiving the residual balance. </p>
 
               <h3 className="text-xl font-bold text-[#0C2756] mt-8 mb-4">
                 Benefits of a Formal OTS Agreement:
@@ -41,26 +41,26 @@ export default function ClientPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
                 <div className="p-5 bg-blue-50/50 rounded-xl border border-blue-100">
                   <h3 className="font-bold text-[#0C2756] mb-1">Total Liability Discharge</h3>
-                  <p className="text-xs text-gray-600"> Once the agreed OTS sum is deposited. The bank cannot pursue any civil claims suits. Arbitration claims. Execution petitions against you. </p>
+                  <p className="text-xs text-gray-600"> Once the agreed OTS sum is deposited, the bank cannot pursue any civil recovery suits, arbitration claims, or execution petitions against you. </p>
                 </div>
                 <div className="p-5 bg-blue-50/50 rounded-xl border border-blue-100">
                   <h3 className="font-bold text-[#0C2756] mb-1">Substantial Financial Waivers</h3>
-                  <p className="text-xs text-gray-600"> OTS pacts routinely waive 100% of accumulated penal rates. Overdue charges. Legal expenses. A major proportion of unpaid main sum. </p>
+                  <p className="text-xs text-gray-600"> OTS agreements routinely waive 100% of accumulated penal interest, overdue charges, legal expenses, and a major proportion of outstanding principal. </p>
                 </div>
                 <div className="p-5 bg-blue-50/50 rounded-xl border border-blue-100">
                   <h3 className="font-bold text-[#0C2756] mb-1">Immediate Cessation of Harassment</h3>
-                  <p className="text-xs text-gray-600"> Signing an OTS permanently halts calls agency contacts. Home visits. automated tele-calling campaigns. </p>
+                  <p className="text-xs text-gray-600"> Signing an OTS permanently halts collection agency communications, home visits, and automated tele-calling campaigns. </p>
                 </div>
                 <div className="p-5 bg-blue-50/50 rounded-xl border border-blue-100">
                   <h3 className="font-bold text-[#0C2756] mb-1">Issuance of No Dues Certificate</h3>
-                  <p className="text-xs text-gray-600"> The bank provides a formal NDC within 30 days. Officially certifying that you hold no further debts under the loan facility. </p>
+                  <p className="text-xs text-gray-600"> The bank provides a formal NDC within 30 days, officially certifying that you hold no further liabilities under the loan facility. </p>
                 </div>
               </div>
             </div>
 
             <div className="bg-amber-50 border-l-4 border-amber-500 p-6 rounded-r-xl mt-8">
               <h3 className="font-bold text-amber-950 mb-2">Upgrading Settled to Closed</h3>
-              <p className="text-sm text-amber-800 leading-relaxed"> When an OTS is executed. Credit bureaus reflect the status as &apos. Settled&apos. Later. When your money position improves. You can upgrade the status to &apos. Closed&apos. By paying the differential waiver amount to restore your CIBIL score to 750+. </p>
+              <p className="text-sm text-amber-800 leading-relaxed"> When an OTS is executed, credit bureaus reflect the status as &apos;Settled&apos;. Later, when your financial position improves, you can upgrade the status to &apos;Closed&apos; by paying the differential waiver amount to restore your CIBIL score to 750+. </p>
             </div>
           </div>
 
@@ -73,19 +73,19 @@ export default function ClientPage() {
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">
                   Can an OTS be arranged for multiple loans at once?
                 </h3>
-                <p className="text-gray-600 leading-relaxed text-sm"> Yes. CredSettle handles multi-creditor debt portfolios. Settle parallel OTS pacts across all your banking and NBFC relationships. </p>
+                <p className="text-gray-600 leading-relaxed text-sm"> Yes, CredSettle handles multi-creditor debt portfolios, negotiating parallel OTS agreements across all your banking and NBFC relationships. </p>
               </div>
               <div className="border-t pt-6">
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">
                   How is an OTS payment deposited?
                 </h3>
-                <p className="text-gray-600 leading-relaxed text-sm"> closure payments must strictly be made directly to the bank via valid NEFT. RTGS. Demand draft drawn in the name of the bank. Credited into your specific loan account. </p>
+                <p className="text-gray-600 leading-relaxed text-sm"> Settlement payments must strictly be made directly to the bank via official NEFT, RTGS, or demand draft drawn in the name of the bank, credited into your specific loan account. </p>
               </div>
             </div>
 
             <div className="bg-blue-50 p-6 rounded-xl border border-blue-100 mt-8">
               <h3 className="font-semibold text-[#0C2756] mb-2">Secure Your One-Time Settlement Today</h3>
-              <p className="mb-4 text-sm text-gray-600">Our counsel represent you before top banks across India to finalize legally watertight OTS pacts.</p>
+              <p className="mb-4 text-sm text-gray-600">Our advocates represent you before top banks across India to finalize legally watertight OTS agreements.</p>
               <Link href="/contact" className="inline-block bg-[#0C2756] text-white font-medium py-2.5 px-6 rounded-lg hover:bg-blue-900 transition-colors text-sm">
                 Get an OTS Consultation
               </Link>

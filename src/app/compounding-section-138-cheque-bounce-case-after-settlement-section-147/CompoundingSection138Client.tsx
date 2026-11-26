@@ -685,7 +685,7 @@ export default function CompoundingSection138Client() {
                   <tbody className="divide-y divide-slate-200/80 text-slate-600">
                     <tr>
                       <td className="p-3 font-bold text-slate-900">Day 1 to 30</td>
-                      <td className="p-3 font-mono text-[11px]">Legal Legal Notice</td>
+                      <td className="p-3 font-mono text-[11px]">Statutory Legal Notice</td>
                       <td className="p-3">Complainant serves 15-day legal demand notice.</td>
                       <td className="p-3">Reply through legal counsel and initiate early OTS talks.</td>
                     </tr>

@@ -5,13 +5,13 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 export const metadata: Metadata = {
     title: 'Terms and Conditions | CredSettle Legal Engagement Policy',
-    description: "Read the legal terms governing your use of CredSettle\u2019s RBI-compliant debt settlement services. This includes acceptable use, liability, fees.",
+    description: "Read the legal terms governing your use of CredSettle\u2019s RBI-compliant debt settlement services, including acceptable use, liability, fees.",
     alternates: {
         canonical: 'https://www.credsettle.com/terms-and-conditions',
     },
     openGraph: {
         title: 'Terms and Conditions | CredSettle',
-        description: "Understand the terms that govern your use of CredSettle\u2019s debt settlement platform, our acceptable use policy, fees. Refund guidelines.",
+        description: "Understand the terms that govern your use of CredSettle\u2019s debt settlement platform, our acceptable use policy, fees, and refund guidelines.",
         url: 'https://www.credsettle.com/terms-and-conditions',
         type: 'article',
     },
@@ -25,7 +25,7 @@ const SECTIONS = [
     {
         icon: 'fa-scale-balanced',
         title: 'Acceptable Use',
-        description: 'Please use the CredSettle platform responsibly. By accessing our services, you agree to:',
+        description: 'Please use the CredSettle platform responsibly. By accessing our services you agree to:',
         bullets: [
             'Follow these Terms, our Privacy Policy, and applicable laws.',
             'Treat other users and CredSettle team members with respect.',
@@ -49,7 +49,7 @@ const SECTIONS = [
         title: 'Indemnification',
         description: 'You agree to defend CredSettle and its staff from claims caused by your actions. This applies when claims arise from:',
         bullets: [
-            'A breach of these Terms and Conditions.',
+            'Your breach of these Terms and Conditions.',
             'A violation of any law or third-party right while using our services.',
             'Misuse of content or tools obtained through CredSettle.',
         ],
@@ -78,7 +78,7 @@ const SECTIONS = [
     {
         icon: 'fa-envelope-open-text',
         title: 'Contact Us',
-        description: "We are here to help you understand these terms. Reach out to our compliance team anytime at.",
+        description: "We are here to help you understand and navigate these Terms. Reach out for clarification, escalation, or compliance queries at.",
         footer: (<Link href="mailto:info@credsettle.com" className="text-[#007AFF] underline underline-offset-4 hover:opacity-80 transition-opacity">
         info@credsettle.com
       </Link>),
@@ -98,7 +98,7 @@ export default function TermsAndConditionsPage() {
         '@id': 'https://www.credsettle.com/terms-and-conditions',
         name: 'CredSettle Terms and Conditions',
         url: 'https://www.credsettle.com/terms-and-conditions',
-        description: "Review the legal terms that govern your use of CredSettle\u2019s RBI-compliant debt settlement services. This includes acceptable use, liability, fees, and refund policies.",
+        description: "Review the legal terms that govern your use of CredSettle\u2019s RBI-compliant debt settlement services, including acceptable use, liability, fees, and refund policies.",
         inLanguage: 'en-IN',
         breadcrumb: {
             '@type': 'BreadcrumbList',
@@ -161,7 +161,7 @@ export default function TermsAndConditionsPage() {
                     Terms and Conditions
                   </h1>
                   <p className="max-w-3xl text-base leading-7 text-[rgba(12,39,86,0.72)] md:text-lg md:leading-8">
-                    These Terms and Conditions govern your use of.{' '}
+                    These Terms and Conditions govern your use of{' '}
                     <Link href="https://www.credsettle.com" className="text-[#007AFF] underline underline-offset-4 hover:opacity-80 transition-opacity">
                       www.credsettle.com
                     </Link>
@@ -172,7 +172,7 @@ export default function TermsAndConditionsPage() {
                   </p>
                 </div>
                 <div className="rounded-2xl bg-white/70 px-5 py-4 text-sm md:text-base md:leading-7 text-[rgba(12,39,86,0.75)] shadow-inner border border-[#B9DFFF]/60">
-                  By using this Website, you also agree to our.{' '}
+                  By using this Website, you also agree to our{' '}
                   <Link href="/privacy-policy" className="text-[#007AFF] underline underline-offset-4 hover:opacity-80 transition-opacity">
                     Privacy Policy
                   </Link>
@@ -224,7 +224,7 @@ export default function TermsAndConditionsPage() {
                   </h3>
                   <p className="text-sm leading-6 text-white/85 md:text-base md:leading-7">
                     Schedule a call with CredSettle’s compliance team. We will walk you through the engagement process,
-                    paperwork, and RBI-compliant settlement roadmap.
+                    documentation, and RBI-compliant settlement roadmap.
                   </p>
                 </div>
                 <Link href="/contact" className="inline-flex items-center justify-center rounded-full bg-white px-7 py-3 text-sm font-semibold text-[#0C2756] shadow-lg transition-transform hover:-translate-y-0.5 hover:shadow-xl md:px-8 md:py-3.5 md:text-base">
