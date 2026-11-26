@@ -3,6 +3,7 @@ import Script from 'next/script';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import FontAwesomeStylesheet from '@/components/FontAwesomeStylesheet';
 export const metadata: Metadata = {
     title: 'Terms and Conditions | CredSettle Legal Engagement Policy',
     description: "Read the legal terms governing your use of CredSettle\u2019s RBI-compliant debt settlement services, including acceptable use, liability, fees.",
@@ -133,7 +134,7 @@ export default function TermsAndConditionsPage() {
         datePublished: '2024-01-01',
         dateModified: isoDate,
     };
-    return (<div className="relative min-h-screen bg-white">
+    return (<div className="relative min-h-screen bg-white"><FontAwesomeStylesheet />
       <Script id="terms-schema" type="application/ld+json">
         {JSON.stringify(schemaMarkup)}
       </Script>

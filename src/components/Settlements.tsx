@@ -146,7 +146,7 @@ export default function Settlements() {
             }}
             onClick={() => handleBankClick('bank1')}
           >
-            <img 
+            <img loading="lazy" decoding="async" 
               src={bankCards[0].src} 
               alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner" 
               width={100}
@@ -169,7 +169,7 @@ export default function Settlements() {
             }}
             onClick={() => handleBankClick('bank2')}
           >
-            <img 
+            <img loading="lazy" decoding="async" 
               src={bankCards[1].src} 
               alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner" 
               width={100}
@@ -268,7 +268,7 @@ export default function Settlements() {
             }}
             onClick={() => handleBankClick('bank3')}
           >
-            <img 
+            <img loading="lazy" decoding="async" 
               src={bankCards[2].src} 
               alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner" 
               width={100}
@@ -291,7 +291,7 @@ export default function Settlements() {
             }}
             onClick={() => handleBankClick('bank4')}
           >
-            <img 
+            <img loading="lazy" decoding="async" 
               src={bankCards[3].src} 
               alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner" 
               width={92}
@@ -314,7 +314,7 @@ export default function Settlements() {
             }}
             onClick={() => handleBankClick('bank5')}
           >
-            <img 
+            <img loading="lazy" decoding="async" 
               src={bankCards[4].src} 
               alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner" 
               width={100}
@@ -337,7 +337,7 @@ export default function Settlements() {
             }}
             onClick={() => handleBankClick('bank6')}
           >
-            <img 
+            <img loading="lazy" decoding="async" 
               src={bankCards[5].src} 
               alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner" 
               width={100}
@@ -387,7 +387,7 @@ export default function Settlements() {
             }}
             onClick={() => handleBankClick('bank7')}
           >
-            <img 
+            <img loading="lazy" decoding="async" 
               src={bankCards[6].src} 
               alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner" 
               width={101}
@@ -418,7 +418,7 @@ export default function Settlements() {
           >
             {showLetter ? (
               <>
-                <img 
+                <img loading="lazy" decoding="async" 
                   draggable={false}
                   src={settlementLetter} 
                   alt="Settlement Letter" 
@@ -586,7 +586,7 @@ export default function Settlements() {
               }}
               onClick={() => handleBankClick('bank1')}
             >
-              <img
+              <img loading="lazy" decoding="async"
                 src={bankCards[0].src}
                 alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner"
                 width={94}
@@ -610,7 +610,7 @@ export default function Settlements() {
               }}
               onClick={() => handleBankClick('bank2')}
             >
-              <img
+              <img loading="lazy" decoding="async"
                 src={bankCards[1].src}
                 alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner"
                 width={74}
@@ -634,7 +634,7 @@ export default function Settlements() {
               }}
               onClick={() => handleBankClick('bank3')}
             >
-              <img
+              <img loading="lazy" decoding="async"
                 src={bankCards[2].src}
                 alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner"
                 width={75}
@@ -658,7 +658,7 @@ export default function Settlements() {
               }}
               onClick={() => handleBankClick('bank4')}
             >
-              <img
+              <img loading="lazy" decoding="async"
                 src={bankCards[3].src}
                 alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner"
                 width={75}
@@ -682,7 +682,7 @@ export default function Settlements() {
               }}
               onClick={() => handleBankClick('bank5')}
             >
-              <img
+              <img loading="lazy" decoding="async"
                 src={bankCards[4].src}
                 alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner"
                 width={75}
@@ -706,7 +706,7 @@ export default function Settlements() {
               }}
               onClick={() => handleBankClick('bank6')}
             >
-              <img
+              <img loading="lazy" decoding="async"
                 src={bankCards[5].src}
                 alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner"
                 width={92}
@@ -730,7 +730,7 @@ export default function Settlements() {
             }}
             onClick={() => handleBankClick('bank7')}
           >
-            <img
+            <img loading="lazy" decoding="async"
               src={bankCards[6].src}
               alt="Bank or NBFC Logo - CredSettle Loan Settlement Partner"
               width={85}
@@ -853,7 +853,7 @@ export default function Settlements() {
             >
               {showLetter ? (
                 <>
-                  <img
+                  <img loading="lazy" decoding="async"
                     draggable={false}
                     src={settlementLetter}
                     alt="Settlement Letter"

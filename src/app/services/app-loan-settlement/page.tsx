@@ -6,6 +6,7 @@ import BanksGrid from '@/components/BanksGrid';
 import FAQWithSchema from '@/components/FAQWithSchema';
 import CTAButton from '@/components/CTAButton';
 import { useEffect, useState } from 'react';
+import FontAwesomeStylesheet from '@/components/FontAwesomeStylesheet';
 export default function AppLoanSettlementPage() {
     const [isFirefox, setIsFirefox] = useState(false);
     useEffect(() => {
@@ -34,7 +35,7 @@ export default function AppLoanSettlementPage() {
             answer: 'There may be a short-term impact, but it is better than ongoing defaults. We guide a credit rebuild plan so you can restore your score responsibly.'
         }
     ];
-    return (<div className="relative min-h-screen bg-white mt-6">
+    return (<div className="relative min-h-screen bg-white mt-6"><FontAwesomeStylesheet />
       {!isFirefox && (<div className="absolute top-0 left-0" style={{ width: '757px', height: '757px', borderRadius: '757px', background: '#007AFF', filter: 'blur(400px)', WebkitFilter: 'blur(400px)', transform: 'translate(-50%, -50%)', zIndex: 0, opacity: 0.3 }}/>)}
       {isFirefox && (<div className="absolute top-0 left-0" style={{ width: '757px', height: '757px', borderRadius: '757px', background: 'radial-gradient(circle, rgba(0, 122, 255, 0.4) 0%, rgba(0, 122, 255, 0.2) 30%, rgba(0, 122, 255, 0.1) 60%, transparent 100%)', transform: 'translate(-50%, -50%)', zIndex: 0, opacity: 0.9 }}/>)}
 

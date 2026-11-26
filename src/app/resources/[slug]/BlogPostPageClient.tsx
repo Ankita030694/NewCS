@@ -11,10 +11,11 @@ import CTAButton from '@/components/CTAButton';
 import type { BlogFaq } from '@/data/blogDefaults';
 import { defaultBlogFaqs } from '@/data/blogDefaults';
 import { getFaqHeading, getRewrittenH2Text } from '@/data/blogH2Rewrites';
-import { addBlogReview, type Review } from '@/lib/blogs';
+import type { Review } from '@/lib/blogs';
 import { useTransition } from 'react';
 import CompanyProfile from '@/components/CompanyProfile';
 import InteractiveLeadFunnel from '@/components/InteractiveLeadFunnel';
+import FontAwesomeStylesheet from '@/components/FontAwesomeStylesheet';
 
 type BlogPost = {
   id: string;
@@ -259,458 +260,20 @@ const formatH2Text = (rawText: string, maxLength: number = 65): string => {
   return result;
 };
 
-const READABILITY_REPLACEMENTS: Array<[RegExp, string]> = [
-  // Legal & Arbitration specific
-  [/\barbitration\s+proceedings\b/gi, 'hearings'],
-  [/\barbitration\s+proceeding\b/gi, 'hearing'],
-  [/\barbitral\s+proceedings\b/gi, 'hearings'],
-  [/\barbitral\s+proceeding\b/gi, 'hearing'],
-  [/\barbitral\s+tribunal\b/gi, 'arbitration panel'],
-  [/\barbitral\s+awards?\b/gi, 'orders'],
-  [/\barbitration\s+process\b/gi, 'hearing steps'],
-  [/\barbitration\s+matter\b/gi, 'dispute'],
-  [/\barbitration\s+matters\b/gi, 'disputes'],
-  [/\barbitration\s+sessions?\b/gi, 'hearings'],
-  [/\barbitration\s+meeting\b/gi, 'hearing'],
-  [/\barbitration\s+award\b/gi, 'final order'],
-  [/\barbitration\s+hearing\b/gi, 'hearing'],
-  [/\barbitration\s+hearings\b/gi, 'hearings'],
-  [/\barbitration\s+case\b/gi, 'case'],
-  [/\barbitration\s+cases\b/gi, 'cases'],
-  [/\bduring\s+arbitration\b/gi, 'during the hearing'],
-  [/\bthrough\s+arbitration\b/gi, 'in the hearing'],
-  [/\blegal\s+representation\b/gi, 'lawyer help'],
-  [/\blegal\s+proceedings\b/gi, 'legal cases'],
-  [/\bprocedural\s+requirements\b/gi, 'rules'],
-  [/\bprocedural\s+rules\b/gi, 'rules'],
-  [/\bprocedural\b/gi, 'case'],
-  [/\benforcement\s+proceedings\b/gi, 'recovery steps'],
-  [/\benforcement\b/gi, 'recovery'],
-  [/\benforcing\b/gi, 'recovering'],
-  [/\bchallenging\s+the\s+award\b/gi, 'appealing the order'],
-  [/\bchallenging\b/gi, 'disputing'],
-  [/\bcomprehensive\s+guide\b/gi, 'complete guide'],
-  [/\bcomprehensive\b/gi, 'complete'],
-  [/\bcomprehensively\b/gi, 'in full'],
-  [/\bexpertise\b/gi, 'skill'],
-  [/\brepresentation\b/gi, 'legal help'],
-  [/\beffectively\b/gi, 'well'],
-  [/\beffective\b/gi, 'strong'],
-  [/\bnavigating\b/gi, 'handling'],
-  [/\bnavigate\b/gi, 'handle'],
-  [/\blitigation\b/gi, 'court case'],
-  [/\binternational\b/gi, 'global'],
-  [/\bconciliation\b/gi, 'talks'],
-  [/\bproviding\b/gi, 'giving'],
-  [/\bprovide\b/gi, 'give'],
-  [/\bprovides\b/gi, 'gives'],
-  [/\bprovided\b/gi, 'given'],
-  [/\bresponding\b/gi, 'replying'],
-  [/\brespond\b/gi, 'reply'],
-  [/\bresponded\b/gi, 'replied'],
-  [/\bprecedents\b/gi, 'past cases'],
-  [/\bprecedent\b/gi, 'past case'],
-  [/\bjurisdiction\b/gi, 'legal area'],
-  [/\badjudication\b/gi, 'ruling'],
-  [/\bevidentiary\b/gi, 'proof'],
-  [/\bevidences?\b/gi, 'proof'],
-  [/\barbitrators\b/gi, 'referees'],
-  [/\barbitrator\b/gi, 'referee'],
-  [/\barguments\b/gi, 'points'],
-  [/\bargument\b/gi, 'point'],
-  [/\btraditional\b/gi, 'usual'],
-  [/\bconfidence\b/gi, 'trust'],
-  [/\btypically\b/gi, 'usually'],
-  [/\btypical\b/gi, 'usual'],
-  [/\bcomplexities\b/gi, 'details'],
-  [/\bcomplexity\b/gi, 'detail'],
-  [/\bfavorable\b/gi, 'good'],
-  [/\bcommencement\b/gi, 'start'],
-  [/\bpotential\b/gi, 'possible'],
-  [/\bpotentially\b/gi, 'likely'],
-  [/\bespecially\b/gi, 'mostly'],
-  [/\bessential\b/gi, 'vital'],
-  [/\bdomestic\b/gi, 'local'],
-  [/\bselection\b/gi, 'choice'],
-  [/\bsubmissions\b/gi, 'filings'],
-  [/\bsubmission\b/gi, 'filing'],
-  [/\bsubmitting\b/gi, 'sending'],
-  [/\bsubmitted\b/gi, 'sent'],
+const OPTIMIZABLE_IMAGE_HOST = /^https:\/\/(firebasestorage\.googleapis\.com|storage\.googleapis\.com|[a-z0-9-]+\.firebasestorage\.app)\//i;
 
-  // Phrases with "financial"
-  [/\bfinancial\s+relief\b/gi, 'debt relief'],
-  [/\bfinancial\s+stress\b/gi, 'debt stress'],
-  [/\bfinancial\s+situation\b/gi, 'finances'],
-  [/\bfinancial\s+status\b/gi, 'money status'],
-  [/\bfinancial\s+hardship\b/gi, 'hardship'],
-  [/\bfinancial\s+difficulties\b/gi, 'money troubles'],
-  [/\bfinancial\s+difficulty\b/gi, 'money trouble'],
-  [/\bfinancial\s+literacy\b/gi, 'money skills'],
-  [/\bfinancial\s+freedom\b/gi, 'debt freedom'],
-  [/\bfinancial\s+planning\b/gi, 'money plans'],
-  [/\bfinancial\s+stability\b/gi, 'money stability'],
-  [/\bfinancial\s+future\b/gi, 'money future'],
-  [/\bfinancial\s+goals\b/gi, 'money goals'],
-  [/\bfinancial\s+life\b/gi, 'money life'],
-  [/\bfinancial\s+challenges\b/gi, 'money troubles'],
-  [/\bfinancial\s+burden\b/gi, 'debt load'],
-  [/\bfinancial\s+burdens\b/gi, 'debt loads'],
-  [/\bfinancial\s+constraints\b/gi, 'money limits'],
-  [/\bfinancial\s+obligations\b/gi, 'debts'],
-  [/\bfinancial\s+obligation\b/gi, 'debt'],
-  [/\bfinancial\s+liabilities\b/gi, 'debts'],
-  [/\bfinancial\s+liability\b/gi, 'debt'],
-  [/\bfinancial\s+institutions\b/gi, 'banks'],
-  [/\bfinancial\s+institution\b/gi, 'bank'],
-  [/\blending\s+institutions\b/gi, 'banks'],
-  [/\blending\s+institution\b/gi, 'bank'],
-  [/\bfinancial\s+advisors?\b/gi, 'money experts'],
-  [/\bfinancial\s+experts?\b/gi, 'money experts'],
-  [/\bfinancial\s+consultants?\b/gi, 'debt experts'],
-  [/\bfinancial\s+consulting\b/gi, 'legal advice'],
-
-  // Debt & Legal Terms
-  [/\boutstanding\s+balance\b/gi, 'unpaid dues'],
-  [/\boutstanding\s+balances\b/gi, 'unpaid dues'],
-  [/\boutstanding\s+dues\b/gi, 'due amounts'],
-  [/\boutstanding\s+amounts?\b/gi, 'dues'],
-  [/\boutstanding\s+debt\b/gi, 'debt'],
-  [/\boutstanding\s+loans?\b/gi, 'loans'],
-  [/\bterms\s+and\s+conditions\b/gi, 'terms'],
-  [/\brecovery\s+proceedings\b/gi, 'recovery steps'],
-  [/\bdispute\s+resolution\b/gi, 'relief'],
-  [/\bwritten\s+confirmation\b/gi, 'written proof'],
-  [/\bstrategic\s+financial\s+move\b/gi, 'smart step'],
-  [/\bcost-benefit\s+analysis\b/gi, 'quick check'],
-  [/\bregulatory\s+frameworks?\b/gi, 'RBI rules'],
-  [/\bregulatory\s+framework\b/gi, 'RBI rules'],
-  [/\bsettlement\s+program\b/gi, 'plan'],
-  [/\bsettlement\s+programs\b/gi, 'plans'],
-
-  // High-frequency debt relief & company terminology
-  [/\bsettlement\s+companies\b/gi, 'closure firms'],
-  [/\bsettlement\s+company\b/gi, 'closure firm'],
-  [/\bsettlement\s+amount\b/gi, 'payout sum'],
-  [/\bsettlement\s+letter\b/gi, 'closure letter'],
-  [/\bsettlement\s+process\b/gi, 'steps'],
-  [/\bsettlement\s+offers?\b/gi, 'deals'],
-  [/\bsettlement\s+talks\b/gi, 'talks'],
-  [/\bsettlements\b/gi, 'closures'],
-  [/\bsettlement\b/gi, 'closure'],
-  [/\bcompanies\b/gi, 'firms'],
-  [/\bcompany\b/gi, 'firm'],
-  [/\bfinancial\b/gi, 'money'],
-  [/\brecovery\s+agents?\b/gi, 'agents'],
-  [/\brecovery\b/gi, 'claims'],
-  [/\bcollection\b/gi, 'calls'],
-  [/\bharassment\b/gi, 'threats'],
-  [/\bborrowers?\b/gi, 'clients'],
-  [/\bborrower\b/gi, 'client'],
-  [/\bcreditors?\b/gi, 'lenders'],
-  [/\bcreditor\b/gi, 'lender'],
-  [/\bcommercial\b/gi, 'trade'],
-  [/\bcorporate\b/gi, 'firm'],
-  [/\bprincipal\b/gi, 'main sum'],
-  [/\binterest\b/gi, 'rates'],
-  [/\bcollateral\b/gi, 'pledge'],
-  [/\bstatutory\b/gi, 'legal'],
-  [/\bregulatory\b/gi, 'RBI'],
-  [/\bconfidentiality\b/gi, 'privacy'],
-  [/\bconfidential\b/gi, 'private'],
-  [/\bunauthorized\b/gi, 'illegal'],
-  [/\bimmediately\b/gi, 'fast'],
-  [/\bimmediate\b/gi, 'fast'],
-  [/\bprotection\b/gi, 'safety'],
-  [/\bprotections\b/gi, 'safety'],
-  [/\brepayment\b/gi, 'payment'],
-  [/\brepayments\b/gi, 'payments'],
-  [/\boutstanding\b/gi, 'unpaid'],
-  [/\bobligations\b/gi, 'debts'],
-  [/\bobligations?\b/gi, 'debts'],
-  [/\bliabilities\b/gi, 'debts'],
-  [/\bliability\b/gi, 'risk'],
-  [/\binstalments?\b/gi, 'EMIs'],
-  [/\bagreements?\b/gi, 'pacts'],
-  [/\bcompromise\b/gi, 'deal'],
-  [/\bsecurity\s+measures?\b/gi, 'safety steps'],
-
-  // Connectives & Transition Words (long -> short)
-  [/\bapproximately\b/gi, 'about'],
-  [/\badditionally\b/gi, 'also'],
-  [/\bfurthermore\b/gi, 'also'],
-  [/\bmoreover\b/gi, 'also'],
-  [/\bnevertheless\b/gi, 'however'],
-  [/\bnonetheless\b/gi, 'however'],
-  [/\bconsequently\b/gi, 'so'],
-  [/\bsubsequently\b/gi, 'later'],
-  [/\baccordingly\b/gi, 'so'],
-  [/\bin\s+order\s+to\b/gi, 'to'],
-  [/\bdue\s+to\s+the\s+fact\s+that\b/gi, 'because'],
-  [/\bas\s+a\s+consequence\s+of\b/gi, 'because of'],
-  [/\bwith\s+regard\s+to\b/gi, 'about'],
-  [/\bin\s+regard\s+to\b/gi, 'about'],
-  [/\bpertaining\s+to\b/gi, 'about'],
-  [/\bconcerning\b/gi, 'about'],
-  [/\bregarding\b/gi, 'about'],
-
-  // Multi-syllable single words
-  [/\butilize\b/gi, 'use'],
-  [/\butilized\b/gi, 'used'],
-  [/\butilizing\b/gi, 'using'],
-  [/\butilization\b/gi, 'use'],
-  [/\bcommence\b/gi, 'start'],
-  [/\bcommenced\b/gi, 'started'],
-  [/\bcommencing\b/gi, 'starting'],
-  [/\btermination\b/gi, 'end'],
-  [/\bterminate\b/gi, 'end'],
-  [/\bterminated\b/gi, 'ended'],
-  [/\bassistance\b/gi, 'help'],
-  [/\bdocumentation\b/gi, 'proof'],
-  [/\bdocumentations\b/gi, 'proof'],
-  [/\bdocuments?\b/gi, 'papers'],
-  [/\bindividuals\b/gi, 'people'],
-  [/\bcircumstances\b/gi, 'hardships'],
-  [/\bcircumstance\b/gi, 'hardship'],
-  [/\brequirements\b/gi, 'rules'],
-  [/\brequirement\b/gi, 'rule'],
-  [/\bsufficient\b/gi, 'enough'],
-  [/\bnumerous\b/gi, 'many'],
-  [/\bexpedite\b/gi, 'speed up'],
-  [/\bexpedited\b/gi, 'sped up'],
-  [/\bfacilitate\b/gi, 'help'],
-  [/\bfacilitates\b/gi, 'helps'],
-  [/\bfacilitated\b/gi, 'helped'],
-  [/\bdemonstrate\b/gi, 'show'],
-  [/\bdemonstrates\b/gi, 'shows'],
-  [/\bdemonstrated\b/gi, 'showed'],
-  [/\bcomprehend\b/gi, 'understand'],
-  [/\bcomprehending\b/gi, 'understanding'],
-  [/\bdeterioration\b/gi, 'harm'],
-  [/\bprudently\b/gi, 'wisely'],
-  [/\badversarial\b/gi, 'hostile'],
-  [/\bdiscursive\b/gi, 'clear'],
-  [/\balleviating\b/gi, 'easing'],
-  [/\balleviate\b/gi, 'ease'],
-  [/\balleviates\b/gi, 'eases'],
-  [/\bintricate\b/gi, 'key'],
-  [/\bintricacies\b/gi, 'details'],
-  [/\bmechanism\b/gi, 'method'],
-  [/\bmechanisms\b/gi, 'methods'],
-  [/\brepossession\b/gi, 'seizure'],
-  [/\brepossess\b/gi, 'seize'],
-  [/\bcircumvents\b/gi, 'avoids'],
-  [/\bcircumvent\b/gi, 'avoid'],
-  [/\btransparency\b/gi, 'clarity'],
-  [/\bimplications\b/gi, 'effects'],
-  [/\bimplication\b/gi, 'effect'],
-  [/\breclaiming\b/gi, 'regaining'],
-  [/\bprominence\b/gi, 'growth'],
-  [/\bfeasible\b/gi, 'workable'],
-  [/\bfeasibility\b/gi, 'ease'],
-  [/\binvaluable\b/gi, 'great'],
-  [/\bsubstantial\b/gi, 'large'],
-  [/\bsubstantially\b/gi, 'greatly'],
-  [/\baccumulated\b/gi, 'built up'],
-  [/\baccumulate\b/gi, 'build up'],
-  [/\baccumulation\b/gi, 'growth'],
-  [/\bobligations\b/gi, 'debts'],
-  [/\bobligation\b/gi, 'debt'],
-  [/\bconsultation\b/gi, 'guidance'],
-  [/\bconsulting\b/gi, 'guidance'],
-  [/\brepresentative\b/gi, 'agent'],
-  [/\brepresentatives\b/gi, 'agents'],
-  [/\bextraordinary\b/gi, 'special'],
-  [/\bextraordinarily\b/gi, 'very'],
-  [/\bcommunicated\b/gi, 'shared'],
-  [/\bcommunication\b/gi, 'talks'],
-  [/\bcommunications\b/gi, 'talks'],
-  [/\bauthorities\b/gi, 'officials'],
-  [/\bauthority\b/gi, 'official'],
-  [/\bconsiderable\b/gi, 'big'],
-  [/\bconsiderably\b/gi, 'much'],
-  [/\bproceedings\b/gi, 'actions'],
-  [/\bproceeding\b/gi, 'action'],
-  [/\bdelinquent\b/gi, 'overdue'],
-  [/\bdelinquency\b/gi, 'default'],
-  [/\bunprecedented\b/gi, 'rare'],
-  [/\bsignificantly\b/gi, 'greatly'],
-  [/\bsignificant\b/gi, 'major'],
-  [/\bparticularly\b/gi, 'especially'],
-  [/\bparticular\b/gi, 'specific'],
-  [/\boriginating\b/gi, 'starting'],
-  [/\boriginated\b/gi, 'started'],
-  [/\bimplementing\b/gi, 'applying'],
-  [/\bimplementation\b/gi, 'setup'],
-  [/\bimplemented\b/gi, 'applied'],
-  [/\bperspective\b/gi, 'view'],
-  [/\bperspectives\b/gi, 'views'],
-  [/\bevaluation\b/gi, 'review'],
-  [/\bevaluate\b/gi, 'review'],
-  [/\bevaluating\b/gi, 'reviewing'],
-  [/\binitiating\b/gi, 'starting'],
-  [/\binitiate\b/gi, 'start'],
-  [/\binitiated\b/gi, 'started'],
-  [/\bconclusively\b/gi, 'fully'],
-  [/\bconclusive\b/gi, 'final'],
-  [/\bliterature\b/gi, 'guides'],
-  [/\bprofessional\b/gi, 'expert'],
-  [/\bprofessionals\b/gi, 'experts'],
-  [/\bnegotiations\b/gi, 'talks'],
-  [/\bnegotiation\b/gi, 'talks'],
-  [/\bnegotiating\b/gi, 'settling'],
-  [/\bnegotiate\b/gi, 'settle'],
-  [/\bsettlement\s+talks\b/gi, 'talks'],
-  [/\balternative\b/gi, 'choice'],
-  [/\balternatives\b/gi, 'choices'],
-  [/\bconsolidate\b/gi, 'combine'],
-  [/\bconsolidating\b/gi, 'combining'],
-  [/\bconsolidation\b/gi, 'combining loans'],
-  [/\brestructuring\b/gi, 'reworking'],
-  [/\brestructure\b/gi, 'rework'],
-  [/\brestructured\b/gi, 'reworked'],
-  [/\brecommendations\b/gi, 'advice'],
-  [/\brecommendation\b/gi, 'advice'],
-  [/\brecommended\b/gi, 'advised'],
-  [/\bunderstanding\b/gi, 'knowing'],
-  [/\bunderstand\b/gi, 'know'],
-  [/\bunderstands\b/gi, 'knows'],
-  [/\bliberation\b/gi, 'freedom'],
-  [/\brecognized\b/gi, 'known'],
-  [/\brecognize\b/gi, 'know'],
-  [/\bmitigate\b/gi, 'cut'],
-  [/\bmitigating\b/gi, 'cutting'],
-  [/\bmitigation\b/gi, 'relief'],
-  [/\bassessment\b/gi, 'review'],
-  [/\bassessments\b/gi, 'reviews'],
-  [/\bensuring\b/gi, 'making sure'],
-  [/\bensure\b/gi, 'make sure'],
-  [/\bensures\b/gi, 'makes sure'],
-  [/\bensured\b/gi, 'made sure'],
-  [/\bmaximizing\b/gi, 'boosting'],
-  [/\bmaximize\b/gi, 'boost'],
-  [/\bmaximized\b/gi, 'boosted'],
-  [/\bachieving\b/gi, 'getting'],
-  [/\bachieve\b/gi, 'get'],
-  [/\bachieved\b/gi, 'got'],
-  [/\bexecution\b/gi, 'steps'],
-  [/\bstrategic\b/gi, 'smart'],
-  [/\bstrategically\b/gi, 'smartly'],
-  [/\bstrategies\b/gi, 'plans'],
-  [/\bstrategy\b/gi, 'plan'],
-  [/\bproposal\b/gi, 'offer'],
-  [/\bproposals\b/gi, 'offers'],
-  [/\bconfirmation\b/gi, 'proof'],
-  [/\bconfirmations\b/gi, 'proofs'],
-  [/\bavoidance\b/gi, 'avoiding'],
-  [/\bintermediary\b/gi, 'third party'],
-  [/\badjudicating\b/gi, 'deciding'],
-  [/\badjudication\b/gi, 'decision'],
-  [/\bcredibility\b/gi, 'trust'],
-  [/\bcertifications\b/gi, 'badges'],
-  [/\bcertification\b/gi, 'badge'],
-  [/\bconfrontation\b/gi, 'conflict'],
-  [/\bcollaboration\b/gi, 'teamwork'],
-  [/\bcollaborative\b/gi, 'shared'],
-  [/\bindividuals\b/gi, 'people'],
-  [/\bindividual\b/gi, 'person'],
-  [/\bfacilitates\b/gi, 'helps'],
-  [/\bfacilitating\b/gi, 'helping'],
-  [/\bfacilitate\b/gi, 'help'],
-  [/\bfacilitated\b/gi, 'helped'],
-  [/\bbeneficial\b/gi, 'helpful'],
-  [/\brelationships\b/gi, 'ties'],
-  [/\brelationship\b/gi, 'ties'],
-  [/\bsustainable\b/gi, 'lasting'],
-  [/\bsuboptimal\b/gi, 'poor'],
-  [/\bintricate\b/gi, 'complex'],
-  [/\bincessant\b/gi, 'daily'],
-  [/\bprolonged\b/gi, 'long'],
-  [/\bdemonstrating\b/gi, 'showing'],
-  [/\bdemonstrated\b/gi, 'showed'],
-  [/\bdemonstrates\b/gi, 'shows'],
-  [/\bcircumstances\b/gi, 'events'],
-  [/\bcircumstance\b/gi, 'event'],
-  [/\bunforeseen\b/gi, 'sudden'],
-  [/\bintricacies\b/gi, 'details'],
-  [/\bintricacy\b/gi, 'detail'],
-  [/\boverwhelming\b/gi, 'heavy'],
-  [/\badvantageous\b/gi, 'helpful'],
-  [/\bfavorable\b/gi, 'good'],
-  [/\bamicable\b/gi, 'peaceful'],
-  [/\bamicably\b/gi, 'fairly'],
-];
-
-export const improveTextReadability = (html: string): string => {
-  if (!html) return '';
-
-  // 0. Protect heading tags (<h1-6>) from readability vocabulary mutation
-  const headingPlaceholders: string[] = [];
-  let protectedHtml = html.replace(/<h[1-6][^>]*>[\s\S]*?<\/h[1-6]>/gi, (m) => {
-    const placeholder = `___HEADING_STASH_${headingPlaceholders.length}___`;
-    headingPlaceholders.push(m);
-    return placeholder;
+/** Rewrites inline <img> tags from Firebase/Cloud Storage to /_next/image (WebP, 1200px) and adds lazy loading. */
+const optimizeInlineImages = (html: string): string =>
+  html.replace(/<img\b([^>]*?)\s*\/?>/gi, (_tag: string, attrs: string) => {
+    let next = attrs.replace(/\bsrc=(["'])(.*?)\1/i, (match: string, quote: string, url: string) => {
+      const decoded = url.replace(/&amp;/g, '&');
+      if (!OPTIMIZABLE_IMAGE_HOST.test(decoded)) return match;
+      return `src=${quote}/_next/image?url=${encodeURIComponent(decoded)}&amp;w=1200&amp;q=75${quote}`;
+    });
+    if (!/\bloading=/i.test(next)) next += ' loading="lazy"';
+    if (!/\bdecoding=/i.test(next)) next += ' decoding="async"';
+    return `<img${next}>`;
   });
-
-  // 1. Ensure list items end with a period so crawler doesn't treat list items as run-on sentences
-  let updated = protectedHtml.replace(/([^.!?\s>])\s*<\/li>/gi, '$1.</li>');
-
-  // 2. Apply vocabulary replacements (only inside text nodes outside tags)
-  updated = updated.replace(/(>|^)([^<]+)(<|$)/g, (_match, prefix, text, suffix) => {
-    let newText = text;
-    for (const [pattern, replacement] of READABILITY_REPLACEMENTS) {
-      newText = newText.replace(pattern, replacement);
-    }
-
-    // Break compound sentences at semicolons, dashes, and conjunctions
-    newText = newText.replace(/;\s+([a-z])/g, (_m: string, c: string) => `. ${c.toUpperCase()}`);
-    newText = newText.replace(/,\s+which\s+/gi, '. This ');
-    newText = newText.replace(/,\s+where\s+/gi, '. Here, ');
-    newText = newText.replace(/,\s+who\s+/gi, '. They ');
-    newText = newText.replace(/,\s+thereby\s+([a-z])/gi, (_m: string, c: string) => `. This ${c}`);
-    newText = newText.replace(/,\s+resulting\s+in\s+/gi, '. This leads to ');
-    newText = newText.replace(/,\s+allowing\s+you\s+to\s+/gi, '. This allows you to ');
-    newText = newText.replace(/,\s+enabling\s+you\s+to\s+/gi, '. This helps you ');
-    newText = newText.replace(/,\s+and\s+therefore\s+/gi, '. Therefore, ');
-    newText = newText.replace(/,\s+as\s+well\s+as\s+/gi, '. Also, ');
-    newText = newText.replace(/,\s+meaning\s+that\s+/gi, '. This means ');
-    newText = newText.replace(/,\s+and\s+/gi, '. Also, ');
-    newText = newText.replace(/,\s+but\s+/gi, '. However, ');
-    newText = newText.replace(/,\s+so\s+/gi, '. So ');
-    newText = newText.replace(/,\s+in\s+addition\s+to\s+/gi, '. Besides ');
-    newText = newText.replace(/,\s+including\s+/gi, '. This includes ');
-    newText = newText.replace(/,\s+such\s+as\s+/gi, '. For example, ');
-    newText = newText.replace(/,\s+leading\s+to\s+/gi, '. This leads to ');
-    newText = newText.replace(/,\s+ensuring\s+that\s+/gi, '. This ensures that ');
-    newText = newText.replace(/,\s+providing\s+/gi, '. This gives ');
-
-    // Split sentences on commas if segment has >= 5 words
-    const rawSents = newText.split(/(\. |\? |\! )/);
-    const sentRes: string[] = [];
-    for (let s of rawSents) {
-      if (s.split(/\s+/).length >= 5 && s.includes(',')) {
-        const parts = s.split(/,\s+/);
-        const capParts = parts.map((p: string) =>
-          p.length > 1 ? p[0].toUpperCase() + p.slice(1) : p
-        );
-        s = capParts.join('. ');
-      }
-      sentRes.push(s);
-    }
-    newText = sentRes
-      .join('')
-      .replace(/\.\s*\./g, '.')
-      .replace(/\s+/g, ' ');
-
-    return prefix + newText + suffix;
-  });
-
-  // Restore protected headings intact
-  for (let i = 0; i < headingPlaceholders.length; i++) {
-    updated = updated.replace(`___HEADING_STASH_${i}___`, headingPlaceholders[i]);
-  }
-
-  return updated;
-};
 
 const processDescription = (
   html: string,
@@ -748,8 +311,13 @@ const processDescription = (
     );
   }
 
-  // Enhance content readability on body copy (headings protected)
-  let cleanedHtml = improveTextReadability(initialHtml);
+  // Article HTML is used as written in the CMS. The old improveTextReadability() pass swapped
+  // words ("principal" -> "main sum", "personal" -> "own") and split sentences at commas,
+  // which garbled legal/financial copy (mistakes.md #54), so it was removed on 2026-11-26.
+  let cleanedHtml = initialHtml;
+  // Route CMS-embedded Firebase/Cloud Storage images (some are raw 1-2.6 MB PNGs) through the Next.js
+  // image optimizer and lazy-load them.
+  cleanedHtml = optimizeInlineImages(cleanedHtml);
 
   // 1. Strictly enforce single H1 on page & remove duplicate titles:
   // If an <h1> in html duplicates the blog title, remove it.
@@ -1173,6 +741,8 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
 
     startTransition(async () => {
       try {
+        // Load the Firebase client only when someone actually submits a review (keeps ~190 KB off every article view).
+        const { addBlogReview } = await import('@/lib/blogs');
         await addBlogReview(blog.id, newReview);
         setReviews(prev => [
           {
@@ -1276,6 +846,7 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
 
   return (
     <div className="relative min-h-screen bg-white">
+      <FontAwesomeStylesheet />
       <Navbar />
 
       <div className="blog-detail-container">
@@ -1370,14 +941,13 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                     <Image
                       src={blog.image || '/sample.png'}
                       alt={blog.title}
-                      width={1200}
-                      height={800}
+                      width={1376}
+                      height={768}
                       sizes="(min-width: 1024px) 50vw, 100vw"
                       className="w-full h-auto object-contain rounded-2xl block"
                       priority
                       placeholder="blur"
                       blurDataURL={PLACEHOLDER_BLUR_DATA_URL}
-                      unoptimized={true}
                     />
                   </div>
                 </div>
@@ -1616,7 +1186,6 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                           width={800}
                           height={600}
                           className="w-full h-auto object-contain bg-white/50"
-                          unoptimized={true}
                         />
                       </div>
                     </div>
@@ -1650,7 +1219,6 @@ const BlogPostPageClient = ({ blog, relatedBlogs, canonicalSlug, reviews: initia
                           width={800}
                           height={600}
                           className="w-full h-auto object-contain bg-white/50"
-                          unoptimized={true}
                         />
                       </div>
                     </div>

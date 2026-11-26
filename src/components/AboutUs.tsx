@@ -52,7 +52,7 @@ export default function AboutUsSection() {
                 At CredSettle, we specialize in providing professional, legal loan settlement solutions that directly address your financial stress. Our mission is to help you significantly reduce your outstanding credit card debt and personal loan dues through expert negotiation and RBI-compliant processes.
               </p>
             </div>
-            <img 
+            <img loading="lazy" decoding="async" 
               src="/about1.png" 
               alt="Debt Settlement Services" 
               width={500}
@@ -83,7 +83,7 @@ export default function AboutUsSection() {
                 As India's most trusted loan settlement company, we negotiate directly with banks, NBFCs, and financial institutions on your behalf. Our entire framework strictly adheres to all RBI guidelines and regulatory compliance standards, ensuring every settlement is legally sound and ethically managed.
               </p>
             </div>
-            <img 
+            <img loading="lazy" decoding="async" 
               src="/about2.png" 
               alt="RBI Compliant Loan Settlement" 
               width={500}
@@ -114,7 +114,7 @@ export default function AboutUsSection() {
                 Our expert team of debt settlement specialists is dedicated to helping you close your loans peacefully and rebuild your financial life. We fast-track your debt resolution with proven strategies that have helped thousands achieve financial freedom and eliminate stress.
               </p>
             </div>
-            <img 
+            <img loading="lazy" decoding="async" 
               src="/about3.png" 
               alt="Fast Debt Relief Solutions" 
               width={500}
@@ -177,7 +177,7 @@ export default function AboutUsSection() {
             </div>
             
             {/* Enhanced image with hover effect */}
-            <img 
+            <img loading="lazy" decoding="async" 
               src="/about1.png" 
               alt="Debt Settlement Services" 
               width={500}
@@ -238,7 +238,7 @@ export default function AboutUsSection() {
             </div>
             
             {/* Enhanced image with hover effect */}
-            <img 
+            <img loading="lazy" decoding="async" 
               src="/about2.png" 
               alt="RBI Compliant Loan Settlement" 
               width={500}
@@ -299,7 +299,7 @@ export default function AboutUsSection() {
             </div>
             
             {/* Enhanced image with hover effect */}
-            <img 
+            <img loading="lazy" decoding="async" 
               src="/about3.png" 
               alt="Fast Debt Relief Solutions" 
               width={500}
@@ -325,42 +325,42 @@ export default function AboutUsSection() {
             We work with the guidelines of
           </h3>
           <div className="grid grid-cols-3 grid-rows-2 md:grid-cols-6 md:grid-rows-1 gap-4 sm:gap-5 md:gap-6 place-items-center">
-            <img 
+            <img loading="lazy" decoding="async" 
               src="/guideline1.svg" 
               alt="RBI Guidelines Compliance" 
               width={60}
               height={60}
               className="w-full max-w-[70px] sm:max-w-[120px] md:max-w-[140px] lg:max-w-[160px] h-auto"
             />
-            <img 
+            <img loading="lazy" decoding="async" 
               src="/guideline2.svg" 
               alt="Financial Regulations Compliance" 
               width={87}
               height={60}
               className="w-full max-w-[70px] sm:max-w-[120px] md:max-w-[140px] lg:max-w-[160px] h-auto"
             />
-            <img 
+            <img loading="lazy" decoding="async" 
               src="/guideline3.svg" 
               alt="Legal Compliance Standards" 
               width={196}
               height={60}
               className="w-full max-w-[70px] sm:max-w-[120px] md:max-w-[140px] lg:max-w-[160px] h-auto"
             />
-            <img 
+            <img loading="lazy" decoding="async" 
               src="/guideline4.svg" 
               alt="Banking Regulations Compliance" 
               width={109}
               height={60}
               className="w-full max-w-[70px] sm:max-w-[120px] md:max-w-[140px] lg:max-w-[160px] h-auto"
             />
-            <img 
+            <img loading="lazy" decoding="async" 
               src="/guideline5.svg" 
               alt="Consumer Protection Guidelines" 
               width={65}
               height={60}
               className="w-full max-w-[70px] sm:max-w-[120px] md:max-w-[140px] lg:max-w-[160px] h-auto"
             />
-            <img 
+            <img loading="lazy" decoding="async" 
               src="/guideline6.svg" 
               alt="Debt Settlement Regulations" 
               width={60}
@@ -416,7 +416,7 @@ export default function AboutUsSection() {
                   className="transition-all duration-300 hover:scale-110 flex items-center justify-center cursor-default"
                   style={{ filter: 'drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1))' }}
                 >
-                  <img 
+                  <img loading="lazy" decoding="async" 
                     src={item.src} 
                     alt={item.alt} 
                     width={item.width}

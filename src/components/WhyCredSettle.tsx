@@ -56,7 +56,7 @@ export default function WhyCredSettle() {
                     We follow Reserve Bank of India rules for debt settlement. Every step is safe, lawful, and clear.
                   </p>
                 </div>
-                  <img 
+                  <img loading="lazy" decoding="async" 
                   src="/why1.png" 
                   alt="RBI Compliant Process" 
                   width={500}
@@ -93,7 +93,7 @@ export default function WhyCredSettle() {
                     Our legal team negotiates with banks to cut your debt by up to 70%. We get you the lowest one-time payment.
                   </p>
                 </div>
-                <img 
+                <img loading="lazy" decoding="async" 
                   src="/why2.png" 
                   alt="Expert Negotiation" 
                   width={500}
@@ -118,7 +118,7 @@ export default function WhyCredSettle() {
                   padding: '0'
                 }}
               >
-                <img 
+                <img loading="lazy" decoding="async" 
                   src="/why3.png" 
                   alt="Expert Legal Team" 
                   width={500}
@@ -162,7 +162,7 @@ export default function WhyCredSettle() {
               >
                 {/* Top row: Image left, Heading right */}
                 <div className="flex items-start justify-between" style={{ padding: '0 0 7px 0', margin: '0' }}>
-                  <img 
+                  <img loading="lazy" decoding="async" 
                     src="/why4.png" 
                     alt="Zero Harassment" 
                     width={500}
@@ -204,7 +204,7 @@ export default function WhyCredSettle() {
               >
                 {/* Top row: Image left, Heading right */}
                 <div className="flex items-start justify-between" style={{ padding: '0 0 7px 0', margin: '0' }}>
-                  <img 
+                  <img loading="lazy" decoding="async" 
                     src="/why5.png" 
                     alt="Peace of Mind" 
                     width={500}
@@ -266,7 +266,7 @@ export default function WhyCredSettle() {
                   We follow Reserve Bank of India rules for debt settlement. Every step is safe, lawful, and clear.
                 </p>
               </div>
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/why1.png" 
                 alt="RBI Compliant Process" 
                 width={500}
@@ -305,7 +305,7 @@ export default function WhyCredSettle() {
                   Our legal team negotiates with banks to cut your debt by up to 70%. We get you the lowest one-time payment.
                 </p>
               </div>
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/why2.png" 
                 alt="Expert Negotiation" 
                 width={500}
@@ -344,7 +344,7 @@ export default function WhyCredSettle() {
                   Your case is run by qualified advocates and debt experts. This ensures big savings and total legal safety.
                 </p>
               </div>
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/why3.png" 
                 alt="Expert Legal Team" 
                 width={500}
@@ -383,7 +383,7 @@ export default function WhyCredSettle() {
                   We step in legally to stop rude recovery calls and home visits. Your peace of mind comes first.
                 </p>
               </div>
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/why4.png" 
                 alt="Zero Harassment" 
                 width={500}
@@ -422,7 +422,7 @@ export default function WhyCredSettle() {
                   Rebuild your credit with clear terms and no hidden fees. We do all the legal paperwork for you.
                 </p>
               </div>
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/why5.png" 
                 alt="Peace of Mind" 
                 width={500}

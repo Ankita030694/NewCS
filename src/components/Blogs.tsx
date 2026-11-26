@@ -119,7 +119,6 @@ export default async function Blogs() {
                         height={240}
                         className="w-full h-full object-cover rounded-xl"
                         sizes="(max-width: 768px) 280px"
-                        priority
                       />
                   </div>
                   <div className="flex flex-col gap-2">

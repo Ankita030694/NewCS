@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
+import FontAwesomeStylesheet from '@/components/FontAwesomeStylesheet';
 const SECTIONS = [
     {
         icon: 'fa-user-gear',
@@ -239,7 +240,7 @@ export default function PrivacyPolicyPage() {
             ],
         },
         publisher: {
-            '@type': 'company',
+            '@type': 'Organization',
             name: 'CredSettle',
             url: 'https://www.credsettle.com',
             contactPoint: {
@@ -254,8 +255,8 @@ export default function PrivacyPolicyPage() {
         datePublished: '2024-01-01',
         dateModified: isoDate,
     };
-    return (<div className="relative min-h-screen bg-white">
-      <Script id="privacy-schema" type="app/ld+json">
+    return (<div className="relative min-h-screen bg-white"><FontAwesomeStylesheet />
+      <Script id="privacy-schema" type="application/ld+json">
         {JSON.stringify(schemaMarkup)}
       </Script>
 

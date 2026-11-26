@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Script from "next/script";
 import type { Metadata } from "next";
+import FontAwesomeStylesheet from '@/components/FontAwesomeStylesheet';
 
 export const metadata: Metadata = {
   title: "Ashish Jhangra - Debt Resolution Expert | CredSettle",
@@ -35,6 +36,7 @@ export default function AshishJhangraAuthorPage() {
 
   return (
     <div className="flex min-h-screen flex-col bg-[#F8FAFC]">
+      <FontAwesomeStylesheet />
       <Script
         id="author-person-schema"
         type="application/ld+json"

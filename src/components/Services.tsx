@@ -450,7 +450,7 @@ export default function Services() {
               >
                 Personal Loan Settlement
               </h4>
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/service1.png" 
                 alt="Personal Loan Settlement" 
                 width={500}
@@ -497,7 +497,7 @@ export default function Services() {
               >
                 Credit Card Settlement
               </h4>
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/service2.png" 
                 alt="Credit Card Settlement" 
                 width={500}
@@ -544,7 +544,7 @@ export default function Services() {
               >
                 Business Loan Settlement
               </h4>
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/service3.png" 
                 alt="Business Loan Settlement" 
                 width={500}
@@ -591,7 +591,7 @@ export default function Services() {
               >
                 Car Loan Settlement
               </h4>
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/service4.png" 
                 alt="Car Loan Settlement" 
                 width={500}
@@ -638,7 +638,7 @@ export default function Services() {
               >
                 App Loan Settlement
               </h4>
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/service5.png" 
                 alt="App Loan Settlement" 
                 width={500}
@@ -685,7 +685,7 @@ export default function Services() {
               >
                 NBFC Loan Settlement
               </h4>
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/service6.png" 
                 alt="NBFC Loan Settlement" 
                 width={500}
@@ -735,7 +735,7 @@ export default function Services() {
               >
                 Personal Loan Settlement
               </h4>
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/service1.png" 
                 alt="Personal Loan Settlement" 
                 width={500}
@@ -784,7 +784,7 @@ export default function Services() {
               >
                 Credit Card Settlement
               </h4>
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/service2.png" 
                 alt="Credit Card Settlement" 
                 width={500}
@@ -833,7 +833,7 @@ export default function Services() {
               >
                 Business Loan Settlement
               </h4>
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/service3.png" 
                 alt="Business Loan Settlement" 
                 width={500}
@@ -882,7 +882,7 @@ export default function Services() {
               >
                 Car Loan Settlement
               </h4>
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/service4.png" 
                 alt="Car Loan Settlement" 
                 width={500}
@@ -931,7 +931,7 @@ export default function Services() {
               >
                 App Loan Settlement
               </h4>
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/service5.png" 
                 alt="App Loan Settlement" 
                 width={500}
@@ -980,7 +980,7 @@ export default function Services() {
               >
                 NBFC Loan Settlement
               </h4>
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/service6.png" 
                 alt="NBFC Loan Settlement" 
                 width={500}
@@ -1031,7 +1031,7 @@ export default function Services() {
           }}
         >
           {/* Left: Credit Score Image */}
-          <img 
+          <img loading="lazy" decoding="async" 
             src="/creditscore.png" 
             alt="Credit Score" 
             width={677}
@@ -1095,7 +1095,7 @@ export default function Services() {
                 Boost Your Credit Score Now
               </h3>
             </div>
-            <img 
+            <img loading="lazy" decoding="async" 
               src="/creditscore.png" 
               alt="Credit Score" 
               width={677}

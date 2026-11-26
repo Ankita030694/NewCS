@@ -337,7 +337,7 @@ export default function HeroSection() {
             {bankIndices.map((bankIndex, i) => (
               <SplideSlide key={i}>
                 <div className="flex justify-center items-center">
-                  <img
+                  <img loading="lazy" decoding="async"
                     src={`/banks/${bankIndex}.svg`}
                     alt={`Bank or NBFC Logo ${bankIndex} - CredSettle Loan Settlement Partner`}
                     width={100}
@@ -363,11 +363,11 @@ export default function HeroSection() {
           <a href="https://share.google/UGjkJ5UCd6UiyJ7A6" target="_blank" rel="noopener noreferrer">
           <div className="bg-white flex" style={{ borderRadius: '36px', padding: '12.96px', gap: '9.72px' }}>
             <div className="w-1/2 flex justify-center items-center">
-              <img src="/ggle.png" alt="Google Reviews - CredSettle" width={386} height={130} style={{height: '29.16px', width: 'auto'}} />
+              <img loading="lazy" decoding="async" src="/ggle.png" alt="Google Reviews - CredSettle" width={386} height={130} style={{height: '29.16px', width: 'auto'}} />
             </div>
             <div className="w-1/2 flex flex-col" style={{gap: '6.48px'}}>
               <div className="flex justify-center items-center" style={{gap: '6.48px'}}>
-                <img src="/stars.png" alt="5 Star Rating - CredSettle" width={127} height={20} style={{height: '12.96px', width: 'auto'}} />
+                <img loading="lazy" decoding="async" src="/stars.png" alt="5 Star Rating - CredSettle" width={127} height={20} style={{height: '12.96px', width: 'auto'}} />
                 <span className="font-medium text-gray-900" style={{fontSize: '9.72px'}}>4.6/5</span>
               </div>
               <div className="text-center">
@@ -380,11 +380,11 @@ export default function HeroSection() {
           {/* Second Review Row */}
           <div className="bg-white flex" style={{ borderRadius: '36px', padding: '12.96px', gap: '9.72px' }}>
             <div className="w-1/2 flex justify-center items-center">
-                <img src="/trustpilot.svg" alt="Trustpilot Reviews - CredSettle" width={119} height={29} style={{height: '29.16px', width: 'auto'}} />
+                <img loading="lazy" decoding="async" src="/trustpilot.svg" alt="Trustpilot Reviews - CredSettle" width={119} height={29} style={{height: '29.16px', width: 'auto'}} />
             </div>
             <div className="w-1/2 flex flex-col" style={{gap: '6.48px'}}>
               <div className="flex justify-center items-center" style={{gap: '6.48px'}}>
-                <img src="/stars.png" alt="5 Star Rating - CredSettle" width={127} height={20} style={{height: '12.96px', width: 'auto'}} />
+                <img loading="lazy" decoding="async" src="/stars.png" alt="5 Star Rating - CredSettle" width={127} height={20} style={{height: '12.96px', width: 'auto'}} />
                 <span className="font-medium text-gray-900" style={{fontSize: '9.72px'}}>4.6/5</span>
               </div>
               <div className="text-center">
@@ -442,7 +442,7 @@ export default function HeroSection() {
               {bankIndices.map((bankIndex, i) => (
                 <SplideSlide key={i}>
                   <div className="flex justify-center items-center">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src={`/banks/${bankIndex}.svg`}
                       alt={`Bank or NBFC Logo ${bankIndex} - CredSettle Loan Settlement Partner`}
                       width={120}
@@ -473,7 +473,7 @@ export default function HeroSection() {
           <div className="grid grid-cols-2 w-full" style={{gap: '9.72px', paddingLeft: '12.96px', paddingRight: '12.96px', paddingBottom: '12.96px'}}>
             <div className="flex items-center justify-center">
               
-                <img src="/media/media1.svg" alt="CredSettle Media Coverage - News Publication" width={100} height={58} style={{height: '25.92px', width: 'auto'}} />
+                <img loading="lazy" decoding="async" src="/media/media1.svg" alt="CredSettle Media Coverage - News Publication" width={100} height={58} style={{height: '25.92px', width: 'auto'}} />
               
             </div>
             <div className="flex items-center justify-center">
@@ -483,15 +483,15 @@ export default function HeroSection() {
                 rel="noopener noreferrer"
                 aria-label="CredSettle on YourStory"
               >
-                <img src="/media/media2.svg" alt="CredSettle Media Coverage - Financial Publication" width={100} height={39} style={{height: '25.92px', width: 'auto'}} />
+                <img loading="lazy" decoding="async" src="/media/media2.svg" alt="CredSettle Media Coverage - Financial Publication" width={100} height={39} style={{height: '25.92px', width: 'auto'}} />
               </a>
             </div>
             <div className="flex items-center justify-center">
-                <img src="/media/media3.svg" alt="CredSettle Media Coverage - Business Publication" width={100} height={32} style={{height: '25.92px', width: 'auto'}} />
+                <img loading="lazy" decoding="async" src="/media/media3.svg" alt="CredSettle Media Coverage - Business Publication" width={100} height={32} style={{height: '25.92px', width: 'auto'}} />
             </div>
             <div className="flex items-center justify-center">
               
-                <img src="/media/media4.svg" alt="CredSettle Media Coverage - Industry Publication" width={100} height={32} style={{height: '25.92px', width: 'auto'}} />
+                <img loading="lazy" decoding="async" src="/media/media4.svg" alt="CredSettle Media Coverage - Industry Publication" width={100} height={32} style={{height: '25.92px', width: 'auto'}} />
             </div>
           </div>
         </div>

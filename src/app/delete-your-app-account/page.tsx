@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
+import FontAwesomeStylesheet from '@/components/FontAwesomeStylesheet';
 const SECTIONS = [
     {
         icon: 'fa-mobile-screen-button',
@@ -125,7 +126,7 @@ export default function DeleteAccountPage() {
         datePublished: '2024-04-14',
         dateModified: isoDate,
     };
-    return (<div className="relative min-h-screen bg-white">
+    return (<div className="relative min-h-screen bg-white"><FontAwesomeStylesheet />
       <Script id="delete-account-schema" type="application/ld+json">
         {JSON.stringify(schemaMarkup)}
       </Script>

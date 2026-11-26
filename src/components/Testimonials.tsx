@@ -73,7 +73,7 @@ const Testimonials = () => {
           >
             {/* Image Container */}
             <div className="w-full h-auto lg:h-[390px] overflow-hidden rounded-t-[28px] lg:rounded-t-[28px] lg:rounded-b-none bg-[rgba(239,247,255,0.3)] flex items-center justify-center">
-              <img
+              <img loading="lazy" decoding="async"
                 src={testimonial.image}
                 alt={`${testimonial.name} testimonial`}
                 width={testimonial.width}
@@ -138,7 +138,7 @@ const Testimonials = () => {
               >
                 {/* Image */}
                 <div className="w-full h-[250px] overflow-hidden flex items-center justify-center bg-[rgba(239,247,255,0.3)] relative">
-                  <img
+                  <img loading="lazy" decoding="async"
                     src={testimonial.image}
                     alt={`${testimonial.name} testimonial`}
                     width={testimonial.width}
