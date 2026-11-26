@@ -1,0 +1,40 @@
+# CredSettle
+
+> CredSettle helps borrowers in India whose unsecured debt (credit cards, personal loans and loan apps) totals ₹3,00,000 or more negotiate one-time settlements with their lenders, deal with recovery calls under RBI rules, and plan the credit-report impact of a "Settled" status. Office: 4th Floor, 2493AP, Block G, Sushant Lok 2, Sector 57, Gurugram, Haryana 122001. Phone: +91-8800226635.
+
+Settlement is a last resort: a settled account is reported as "Settled" to credit bureaus and lowers the borrower's credit score. Pages below explain issuer and lender rules; figures on individual pages are dated where they come from RBI circulars or bank notices.
+
+## Credit card settlement by issuer
+- [Credit card settlement by bank: issuer directory](https://www.credsettle.com/credit-card-settlement-by-bank): every card issuer CredSettle covers, grouped by private, PSU, foreign and small finance banks, with the steps common to all.
+- [Credit card settlement overview](https://www.credsettle.com/credit-card-settlement)
+- [Settling several credit cards at once](https://www.credsettle.com/settle-multiple-credit-cards)
+- [Credit card blocked due to non-payment](https://www.credsettle.com/credit-card-blocked-due-to-non-payment)
+- [Credit card settlement before financial year end, by issuer](https://www.credsettle.com/credit-card-settlement-before-financial-year-end-by-issuer)
+- [SBI Card settlement email and helpline](https://www.credsettle.com/sbi-credit-card-settlement-email-id-and-number)
+- [RBL credit card settlement letter format](https://www.credsettle.com/rbl-credit-card-settlement-letter-format)
+
+## PSU bank OTS schemes
+- [PSU bank OTS deadlines before 31 March 2027](https://www.credsettle.com/psu-bank-ots-deadline-march-31-2027)
+- [SBI OTS scheme 2027](https://www.credsettle.com/sbi-ots-scheme-2027)
+- [Union Bank OTS scheme 2027](https://www.credsettle.com/union-bank-ots-scheme-2027)
+- [Bank of Baroda OTS scheme 2027](https://www.credsettle.com/bank-of-baroda-ots-scheme-2027)
+- [PNB OTS scheme 2027](https://www.credsettle.com/pnb-ots-scheme-2027)
+- [Canara Bank OTS scheme 2027](https://www.credsettle.com/canara-bank-ots-scheme-2027)
+
+## App lenders
+- [Settling several app loans totalling above ₹3 lakh](https://www.credsettle.com/multiple-app-loans-settlement-total-above-3-lakh)
+- [App loan settlement](https://www.credsettle.com/services/app-loan-settlement)
+
+## Borrower protections and verification
+- [How to verify a settlement letter](https://www.credsettle.com/verify-loan-settlement-letter)
+- [₹100 per day compensation for a delayed credit report update](https://www.credsettle.com/rbi-100-per-day-compensation-for-delayed-cibil-report-update)
+
+## Tools
+- [Credit card minimum due calculator](https://www.credsettle.com/tools/credit-card-minimum-due-calculator)
+- [Multiple credit card payoff vs settlement planner](https://www.credsettle.com/tools/multiple-credit-card-payoff-vs-settlement-calculator)
+
+## Optional
+- [About CredSettle](https://www.credsettle.com/about)
+- [Contact](https://www.credsettle.com/contact)
+- [All guides and resources](https://www.credsettle.com/resources)
+- [HTML sitemap](https://www.credsettle.com/sitemap)

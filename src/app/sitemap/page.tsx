@@ -3,6 +3,10 @@ import { Metadata } from 'next';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
+import { getHtmlSitemapSections } from '@/lib/sitemap/htmlSitemapSections';
+
+// Rebuilt hourly so new /resources articles appear without a deploy.
+export const revalidate = 3600;
 
 export const metadata: Metadata = {
   title: "CredSettle HTML Sitemap | Complete Directory",
@@ -2855,7 +2859,8 @@ const sitemapLinks = [
   }
 ];
 
-export default function SitemapPage() {
+export default async function SitemapPage() {
+  const sections = await getHtmlSitemapSections();
   return (
     <div className="relative min-h-screen bg-white mt-5">
       <Navbar />
@@ -2879,6 +2884,23 @@ export default function SitemapPage() {
               </Link>
             ))}
           </div>
+
+          {sections.map((section) => (
+            <section key={section.id} id={section.id} className="mt-14">
+              <h2 className="text-xl md:text-2xl font-bold text-[#3a3532] mb-5">
+                {section.heading}
+              </h2>
+              <ul className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-6">
+                {section.links.map((link) => (
+                  <li key={link.href} className="break-inside-avoid mb-2">
+                    <Link href={link.href} prefetch={false} className="text-sm text-gray-700 hover:text-[#007AFF] hover:underline">
+                      {link.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ))}
         </div>
       </div>
       <Footer />

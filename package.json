@@ -6,7 +6,8 @@
     "dev": "next dev --webpack",
     "build": "next build",
     "start": "next start",
-    "deploy": "vercel --prebuilt"
+    "deploy": "vercel --prebuilt",
+    "sitemap:lastmod": "node scripts/generate-sitemap-lastmod.mjs"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.1.0",
