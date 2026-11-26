@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { notFound } from 'next/navigation';
 import { getStateContentWithFallback, getAllStateSlugs } from '../states-content';
 import { sanitizeMetaDescription, sanitizeMetaTitle, getShortStateName } from '@/lib/seo-utils';
 import StatePageClient from './StatePageClient';
@@ -47,6 +48,15 @@ function generateSlug(stateName: string): string {
   return stateName.toLowerCase().replace(/\s+/g, '-');
 }
 
+// Slugs this route serves: the 36 states/UTs above plus the content keys the XML sitemap
+// lists. Anything else returns 404 instead of a 200 page for an arbitrary string
+// (see mistakes.md #55).
+const KNOWN_STATE_SLUGS = new Set<string>([
+  ...allStates.map(generateSlug),
+  ...getAllStateSlugs(),
+  'dadra-nagar-haveli-daman-diu', // short DNH slug listed in the XML sitemap (STATE_SLUG_FALLBACKS)
+]);
+
 export async function generateStaticParams() {
   return allStates.map((state) => ({
     state: generateSlug(state),
@@ -56,10 +66,13 @@ export async function generateStaticParams() {
 export async function generateMetadata({ 
   params 
 }: { 
-  params: Promise<{ state: string }> | { state: string }
+  params: Promise<{ state: string }>
 }): Promise<Metadata> {
   // Await params if it’s a Promise (Next.js 15+)
   const resolvedParams = await Promise.resolve(params);
+  if (!KNOWN_STATE_SLUGS.has(resolvedParams.state)) {
+    notFound();
+  }
   const stateData = getStateContentWithFallback(resolvedParams.state);
   const metaTitle = sanitizeMetaTitle(stateData.metaTitle || stateData.title);
   const metaDescription = sanitizeMetaDescription(stateData.metaDescription);
@@ -188,10 +201,13 @@ function generateHeadings(content: any) {
 export default async function StatePage({ 
   params 
 }: { 
-  params: Promise<{ state: string }> | { state: string }
+  params: Promise<{ state: string }>
 }) {
   // Await params if it’s a Promise (Next.js 15+)
   const resolvedParams = await Promise.resolve(params);
+  if (!KNOWN_STATE_SLUGS.has(resolvedParams.state)) {
+    notFound();
+  }
   const content = getStateContentWithFallback(resolvedParams.state);
   const headings = generateHeadings(content);
   

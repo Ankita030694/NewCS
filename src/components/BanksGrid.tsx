@@ -4,14 +4,8 @@ import { useMemo, useState, useEffect } from 'react';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
 import '@splidejs/react-splide/css';
+import { BANKS_GRID_BANKS, BANKS_GRID_NBFCS, generateBankSlug } from '@/data/banksGridInstitutions';
 
-function generateBankSlug(bankName: string): string {
-  return bankName
-    .toLowerCase()
-    .replace(/&/g, 'and')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
-}
 
 function isPopularBank(bankName: string): boolean {
   // Normalize bank name for comparison (case-insensitive, handle spaces/special chars)
@@ -49,137 +43,8 @@ export default function BanksGrid({ serviceType, servicePath }: { serviceType: s
     .replace(/^services\//, '')
     .replace(/\/+$/, '');
   
-  // Banks list (traditional banks)
-  const banks = [
-    'HDFC',
-    'ICICI',
-    'SBI',
-    'Axis Bank',
-    'Kotak Bank',
-    'Punjab National Bank',
-    'Bank of Baroda',
-    'Union Bank of India',
-    'Yes Bank',
-    'Federal Bank',
-    'Indian Bank',
-    'South Indian Bank',
-    'RBL Bank',
-    'Indus Ind',
-    'IDFC',
-    'Standard Chartered Bank',
-    'HSBC',
-    'CitiBank',
-    'DBS',
-    'Amex',
-    'Au Small Fin Bank Ltd',
-    'CSB Bank',
-    'Northern Arc Bank',
-    'North East Small Finance Bank'
-  ];
-
-  // NBFCs list (Non-Banking Financial Companies)
-  const nbfcs = [
-    // Popular NBFCs & Finance Companies
-    'Bajaj Fin',
-    'Tata Capital',
-    'Aditya Birla Fin',
-    'L&T',
-    'Muthoot Finance',
-    'Shriram Finance',
-    'Home credit',
-    'Cholamandalam',
-    'Fullerton',
-    'TVS Credit',
-    'Hero Fincorp',
-    'Piramal',
-    'InCred',
-    'IIFL',
-    'DMI Finance Pvt Ltd',
-    'SMFG',
-    // Popular Fintech & Digital Lenders (NBFCs)
-    'Paytm',
-    'PayU',
-    'Cred',
-    'Navi',
-    'Groww',
-    'Mobikwik',
-    'Slice',
-    'KreditBee',
-    'MoneyTap',
-    'Early Salary',
-    'LoanTap',
-    'Onecard',
-    'Uni Card',
-    'True Balance',
-    'Stashfin',
-    'Paysense',
-    'LAZY PAY',
-    'Prefr',
-    'Prefer',
-    // Other NBFCs & Financial Institutions
-    'MAS Financial',
-    'Zest Money',
-    'Cashe',
-    'VIVRITI',
-    'UNIFINZ',
-    'Finable',
-    'Jupiter money',
-    'UGRO Capital',
-    'FREOPAY',
-    'Nira Finance',
-    'MPOCKET',
-    'Indifi Capital Private Limited',
-    'Lending Plate',
-    'Tyger',
-    'Cashmypayment',
-    'Rupee 112',
-    'Clix Capital',
-    'Krzaybee',
-    'Aye Finance',
-    'Vivi Fin',
-    'TRANSACTREE',
-    'Mintifi',
-    'Niro',
-    'SI Creva',
-    'Speedo India',
-    'Snapmint',
-    'FlexSalary',
-    'Rupee redee',
-    'Chimnay Finlease Ltd',
-    'Poonawala Fin',
-    'OXYZO',
-    'EDGRO',
-    'Bharat Loan',
-    'UPMOVE',
-    'Fibe',
-    'BRANCH',
-    'HDB',
-    'CAPFLOAT',
-    'Easyfincare',
-    'Ashv Finance Limited',
-    'Everyday loan india',
-    'Payme India',
-    'SmartCoin',
-    'Fincfriends',
-    'REFYNE',
-    'Faircent Technologies India Pvt Ltd',
-    'Ram FIncorp',
-    'Kisetsu saison Finance',
-    'DayTodayloan',
-    'Epimoney Private Limited',
-    'Xpressloan',
-    'Borrowera',
-    'LendingClub',
-    'Creditt',
-    'KISSHT',
-    // P2P & Other NBFCs
-    'NDX P2P PRIVATE',
-    'Zype',
-    'Infocredit',
-    'Newtap Finance',
-    'Loan in need',
-    'Moneyview'
-  ];
+  const banks = BANKS_GRID_BANKS;
+  const nbfcs = BANKS_GRID_NBFCS;
 
   // Use NBFCs list if servicePath is nbfc-loan-settlement, otherwise use combined list
   const institutions = cleanServicePath === 'nbfc-loan-settlement' ? nbfcs : [...banks, ...nbfcs];

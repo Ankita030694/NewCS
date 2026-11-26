@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { notFound, permanentRedirect } from 'next/navigation';
 import { getBankContentWithFallback, getBankH2Title, generateBankSlug, getShortBankName, getAllBankSlugs } from '../../banks-content';
+import { getBanksGridSlugs } from '@/data/banksGridInstitutions';
 import { sanitizeMetaTitle, sanitizeMetaDescription } from '@/lib/seo-utils';
 import BankPageClient from './BankPageClient';
 
@@ -18,6 +19,11 @@ const BANK_SLUG_REDIRECTS: Record<string, string> = {
   'north-east-small-finance': 'north-east-small-finance-bank',
   'north-east-small-finance-bank-ltd': 'north-east-small-finance-bank',
 };
+
+// Slugs this route serves: its own bank list (also used by the XML sitemap) plus every
+// institution <BanksGrid> links to. Anything else returns 404 instead of a 200 page
+// for an arbitrary string (see mistakes.md #55).
+const KNOWN_BANK_SLUGS = new Set<string>([...getAllBankSlugs(), ...getBanksGridSlugs('all')]);
 
 interface PageProps {
   params: Promise<{
@@ -38,6 +44,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { bank } = await params;
   if (BANK_SLUG_REDIRECTS[bank]) {
     permanentRedirect(`/services/personal-loan-settlement/banks/${BANK_SLUG_REDIRECTS[bank]}`);
+  }
+  if (!KNOWN_BANK_SLUGS.has(bank)) {
+    notFound();
   }
   const content = getBankContentWithFallback(bank);
   const metaTitle = sanitizeMetaTitle(content.metaTitle || content.title);
@@ -68,6 +77,9 @@ export default async function BankPage({ params }: PageProps) {
   const { bank } = await params;
   if (BANK_SLUG_REDIRECTS[bank]) {
     permanentRedirect(`/services/personal-loan-settlement/banks/${BANK_SLUG_REDIRECTS[bank]}`);
+  }
+  if (!KNOWN_BANK_SLUGS.has(bank)) {
+    notFound();
   }
 
   const content = getBankContentWithFallback(bank);

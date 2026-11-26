@@ -370,11 +370,14 @@ export async function getBlogReviews(blogId: string): Promise<Review[]> {
 
   return snapshot.docs.map(doc => {
     const data = doc.data();
+    // Reviews are visitor-submitted: coerce types and clamp the rating so stored
+    // values can never inject markup or out-of-range ratings into the page/JSON-LD.
+    const rating = Number(data.rating);
     return {
       id: doc.id,
-      author: data.author || 'Anonymous',
-      rating: data.rating || 5,
-      comment: data.comment || '',
+      author: typeof data.author === 'string' && data.author.trim() ? data.author : 'Anonymous',
+      rating: Number.isFinite(rating) && rating > 0 ? Math.min(5, Math.max(1, rating)) : 5,
+      comment: typeof data.comment === 'string' ? data.comment : '',
       date: data.date ? (data.date.toDate ? data.date.toDate().toISOString() : new Date(data.date).toISOString()) : new Date().toISOString()
     };
   });

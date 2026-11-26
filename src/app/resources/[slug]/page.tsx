@@ -3,6 +3,7 @@ import { notFound, permanentRedirect } from 'next/navigation';
 import BlogPostPageClient from './BlogPostPageClient';
 import { canonicaliseSlug, generateSlugFromTitle } from '@/lib/slug';
 import { getBlogBySlug, getRelatedBlogs, getBlogReviews } from '@/lib/blogs';
+import { serializeJsonLd } from '@/lib/json-ld';
 import { defaultBlogFaqs, type BlogFaq } from '@/data/blogDefaults';
 
 type PageProps = {
@@ -724,17 +725,6 @@ export default async function BlogPostPage({ params }: PageProps) {
       faq.answer.trim() !== ''
   );
 
-  // Helper to safely serialize JSON-LD, escaping characters that can break script tags
-  const safeJsonLdReplacer = (_key: string, value: any) => {
-    if (typeof value === 'string') {
-      return value
-        .replace(/</g, '\\u003c')
-        .replace(/>/g, '\\u003e')
-        .replace(/&/g, '\\u0026');
-    }
-    return value;
-  };
-
   const faqStructuredData = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
@@ -757,27 +747,27 @@ export default async function BlogPostPage({ params }: PageProps) {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(structuredData) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(organizationSchema) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(serviceSchema) }}
       />
       {validFaqItems.length > 0 && (
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(faqStructuredData, safeJsonLdReplacer)
+            __html: serializeJsonLd(faqStructuredData)
           }}
         />
       )}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbStructuredData) }}
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(breadcrumbStructuredData) }}
       />
       <BlogPostPageClient
         blog={clientBlog}

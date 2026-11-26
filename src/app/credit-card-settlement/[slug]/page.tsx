@@ -1,4 +1,4 @@
-import { permanentRedirect } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { creditCardBanks } from "@/data/creditCardBanks";
 import Tier1Template from "./Tier1Template";
 import Tier2Template from "./Tier2Template";
@@ -43,21 +43,6 @@ const loanAliasMap: Record<string, string> = {
   "zestmoney": "/loan-settlement-by-bank/zest-money",
 };
 
-function formatSlugToBankName(slug: string): string {
-  return slug
-    .replace(/-co-op-/gi, "-co-operative-")
-    .replace(/-co-op$/gi, "-co-operative")
-    .split("-")
-    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-    .join(" ")
-    .replace(/\bCo Operative\b/gi, "Co-operative")
-    .replace(/\bCo Op\b/gi, "Co-op")
-    .replace(/\bP2p\b/gi, "P2P")
-    .replace(/\bEmi\b/gi, "EMI")
-    .replace(/\bFsc\b/gi, "FSC")
-    .replace(/\bBankbazaar\b/gi, "BankBazaar")
-    .replace(/\bMymoneymantra\b/gi, "MyMoneyMantra");
-}
 
 export async function generateStaticParams() {
   return creditCardBanks.map((bank) => ({
@@ -188,7 +173,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     permanentRedirect(loanAliasMap[normalized]);
   }
   const bank = creditCardBanks.find((b) => b.slug === normalized);
-  const bankName = bank ? bank.name : formatSlugToBankName(slug);
+  if (!bank) {
+    // Unknown issuer slug: 404 instead of minting an indexable page for any string.
+    notFound();
+  }
+  const bankName = bank.name;
 
   const metaTitle = getCCBankMetaTitle(bankName);
   const metaDescription = getCCBankMetaDescription(bankName);
@@ -251,7 +240,7 @@ export default async function BankCreditCardSettlementPage({ params }: { params:
     permanentRedirect(loanAliasMap[normalized]);
   }
 
-  // 4. Fallback for valid bank/fintech/cooperative slugs: serve Tier3Template directly (HTTP 200 OK)
-  const dynamicBankName = formatSlugToBankName(slug);
-  return <Tier3Template bankName={dynamicBankName} slug={normalized} />;
+  // 4. Any other slug is not a card issuer we cover: return 404. (The old fallback
+  //    rendered a 200, index/follow, self-canonical page for ANY string; see mistakes.md #55.)
+  notFound();
 }
